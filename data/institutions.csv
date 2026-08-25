@@ -1,0 +1,144 @@
+﻿id,name,short,sector,tier,power
+adgov,Abu Dhabi Government (Ruler's Court),AD Govt,gov,0,100
+prescourt,UAE Presidential Court,Pres. Court,gov,0,95
+fedgov,UAE Cabinet / Federal Government,UAE Cabinet,gov,0,92
+execcouncil,Abu Dhabi Executive Council,Exec Council,gov,0,96
+scfea,Supreme Council for Financial & Economic Affairs,SCFEA,gov,0,95
+eaa,Executive Affairs Authority,EAA,gov,1,82
+dof,Department of Finance,DoF,gov,1,88
+added,Department of Economic Development,ADDED,gov,1,85
+doe,Department of Energy,DoE,gov,1,82
+doh,Department of Health,DoH,gov,1,82
+dmt,Department of Municipalities & Transport,DMT,gov,1,83
+dge,Department of Government Enablement,DGE,gov,1,78
+adek,Department of Education & Knowledge,ADEK,gov,1,78
+dct,Department of Culture & Tourism,DCT,gov,1,80
+dcd,Department of Community Development,DCD,gov,1,72
+ead,Environment Agency – Abu Dhabi,EAD,environment,1,76
+adafsa,Abu Dhabi Agriculture & Food Safety Authority,ADAFSA,agrifood,2,66
+adio,Abu Dhabi Investment Office,ADIO,gov,1,76
+admo,Abu Dhabi Media Office,AD Media Office,media,1,72
+mofa,UAE Ministry of Foreign Affairs,MoFA,gov,1,84
+cbuae,Central Bank of the UAE,CBUAE,finance,1,86
+sca,Securities & Commodities Authority,SCA,finance,2,70
+spaceagency,UAE Space Agency,Space Agency,tech,2,70
+tawazun,Tawazun Council,Tawazun,defense,1,76
+atrc,Advanced Technology Research Council,ATRC,tech,1,76
+adia,Abu Dhabi Investment Authority,ADIA,sovereign,1,97
+mubadala,Mubadala Investment Company,Mubadala,sovereign,1,96
+adq,ADQ,ADQ,sovereign,1,94
+ihc,International Holding Company,IHC,sovereign,1,92
+royalgroup,Royal Group,Royal Group,sovereign,1,88
+chimera,Chimera Investments,Chimera,sovereign,2,78
+lunate,Lunate,Lunate,sovereign,2,76
+mgx,MGX,MGX,sovereign,1,84
+twopointzero,2PointZero,2PointZero,sovereign,2,74
+alphadhabi,Alpha Dhabi Holding,Alpha Dhabi,sovereign,2,80
+multiply,Multiply Group,Multiply,sovereign,2,72
+eia,Emirates Investment Authority,EIA,sovereign,1,80
+hub71,Hub71,Hub71,tech,2,68
+adnoc,ADNOC Group,ADNOC,energy,1,97
+xrg,XRG (ADNOC international investment),XRG,energy,2,80
+adnocgas,ADNOC Gas,ADNOC Gas,energy,2,78
+adnocdrill,ADNOC Drilling,ADNOC Drilling,energy,2,72
+adnocls,ADNOC Logistics & Services,ADNOC L&S,energy,2,70
+adnocdist,ADNOC Distribution,ADNOC Dist.,energy,2,72
+borouge,Borouge,Borouge,industry,2,74
+fertiglobe,Fertiglobe,Fertiglobe,industry,2,68
+masdar,Masdar,Masdar,utilities,1,82
+taqa,TAQA Group,TAQA,utilities,1,86
+ewec,Emirates Water & Electricity Company,EWEC,utilities,2,78
+enec,Emirates Nuclear Energy Company (Barakah),ENEC,utilities,1,80
+fab,First Abu Dhabi Bank,FAB,finance,1,88
+adcb,Abu Dhabi Commercial Bank,ADCB,finance,1,82
+adib,Abu Dhabi Islamic Bank,ADIB,finance,2,76
+wio,Wio Bank,Wio,finance,2,62
+adx,Abu Dhabi Securities Exchange,ADX,finance,2,72
+adgm,Abu Dhabi Global Market,ADGM,finance,1,84
+g42,G42,G42,tech,1,90
+core42,Core42,Core42,tech,2,72
+presight,Presight AI,Presight,tech,2,70
+space42,Space42,Space42,tech,2,74
+khazna,Khazna Data Centers,Khazna,tech,2,70
+mbzuai,Mohamed bin Zayed University of AI,MBZUAI,education,2,72
+e_and,e& (Etisalat Group),e&,telecom,1,84
+tii,Technology Innovation Institute,TII,tech,2,66
+edge_grp,EDGE Group,EDGE,defense,1,84
+calidus,Calidus Holding,Calidus,defense,2,60
+purehealth,PureHealth,PureHealth,health,1,80
+seha,SEHA (AD Health Services),SEHA,health,2,66
+daman,Daman (National Health Insurance),Daman,health,2,62
+m42,M42,M42,health,2,74
+ccad,Cleveland Clinic Abu Dhabi,CCAD,health,2,64
+burjeel,Burjeel Holdings,Burjeel,health,2,68
+aldar,Aldar Properties,Aldar,realestate,1,82
+modon,Modon Holding,Modon,realestate,2,74
+adnh,Abu Dhabi National Hotels,ADNH,realestate,2,60
+adports,AD Ports Group,AD Ports,transport,1,82
+etihad,Etihad Airways,Etihad,transport,1,80
+adairports,Abu Dhabi Airports,AD Airports,transport,2,72
+etihadrail,Etihad Rail,Etihad Rail,transport,2,74
+itc,Integrated Transport Centre,ITC,transport,2,62
+ega,Emirates Global Aluminium,EGA,industry,1,78
+emsteel,EMSTEEL (Emirates Steel Arkan),EMSTEEL,industry,2,70
+strata,Strata Manufacturing,Strata,industry,2,62
+nmdc,NMDC Group,NMDC,industry,2,68
+agthia,Agthia Group,Agthia,agrifood,2,66
+silal,Silal,Silal,agrifood,2,60
+aldahra,Al Dahra Holding,Al Dahra,agrifood,2,62
+lulu,LuLu Group International,LuLu,agrifood,2,72
+miral,Miral (Yas Island / destinations),Miral,culture,2,76
+adnec,ADNEC Group,ADNEC,culture,2,70
+louvre,Louvre Abu Dhabi,Louvre AD,culture,2,62
+flash,Flash Entertainment,Flash,culture,2,58
+cfg,City Football Group / Manchester City,CFG,culture,2,72
+imi,International Media Investments,IMI,media,2,72
+skynewsarabia,Sky News Arabia,Sky News Arabia,media,2,60
+thenational,The National,The National,media,2,58
+khalifa_u,Khalifa University,Khalifa Uni,education,2,68
+nyuad,NYU Abu Dhabi,NYUAD,education,2,66
+sorbonne,Sorbonne University Abu Dhabi,Sorbonne AD,education,2,58
+zayed_u,Zayed University,Zayed Uni,education,2,60
+uaeu,United Arab Emirates University,UAEU,education,2,64
+tadweer,Tadweer Group,Tadweer,environment,2,64
+alnowais,Al Nowais Investments,Al Nowais Inv.,conglomerate,2,62
+almasaood,Al Masaood Group,Al Masaood,conglomerate,2,62
+alfahim,Al Fahim Group,Al Fahim,conglomerate,2,60
+binhamoodah,Bin Hamoodah Group,Bin Hamoodah,conglomerate,2,56
+dasholding,Das Holding,Das Holding,conglomerate,2,58
+aljaber,Al Jaber Group,Al Jaber,conglomerate,2,60
+nationalholding,National Holding,National Holding,conglomerate,2,62
+microsoft,Microsoft,Microsoft,tech,3,80
+openai,OpenAI,OpenAI,tech,3,74
+nvidia,NVIDIA,NVIDIA,tech,3,74
+cerebras,Cerebras Systems,Cerebras,tech,3,60
+huawei,Huawei UAE,Huawei,tech,3,56
+totalenergies,TotalEnergies,TotalEnergies,energy,3,72
+bp,bp,bp,energy,3,70
+shell,Shell,Shell,energy,3,70
+exxonmobil,ExxonMobil,ExxonMobil,energy,3,70
+eni,Eni,Eni,energy,3,64
+omv,OMV,OMV,energy,3,62
+oxy,Occidental Petroleum,Occidental,energy,3,60
+inpex,INPEX (JODCO),INPEX,energy,3,56
+cnpc,CNPC,CNPC,energy,3,58
+kepco,KEPCO,KEPCO,utilities,3,58
+blackrock,BlackRock,BlackRock,finance,3,76
+goldman,Goldman Sachs,Goldman Sachs,finance,3,66
+moelis,Moelis & Company,Moelis,finance,3,62
+rothschildco,Rothschild & Co,Rothschild & Co,finance,3,60
+waha,Waha Capital,Waha Capital,finance,3,62
+adnic,Abu Dhabi National Insurance Company,ADNIC,finance,3,54
+trojan,Trojan Holding,Trojan,industry,3,60
+alisons,Ali & Sons Holding,Ali & Sons,conglomerate,3,58
+rotana,Rotana Hotels,Rotana,culture,3,62
+mckinsey,McKinsey & Company,McKinsey,professional,3,64
+bcg,Boston Consulting Group,BCG,professional,3,60
+pwc,PwC Middle East,PwC,professional,3,58
+ey,EY MENA,EY,professional,3,56
+kpmg,KPMG Lower Gulf,KPMG,professional,3,54
+deloitte,Deloitte Middle East,Deloitte,professional,3,56
+accenture,Accenture Middle East,Accenture,professional,3,56
+altamimi,Al Tamimi & Company,Al Tamimi,professional,3,58
+cliffordchance,Clifford Chance,Clifford Chance,professional,3,52
+raytheon_em,Raytheon Emirates,Raytheon Emirates,defense,3,58

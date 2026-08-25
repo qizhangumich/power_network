@@ -1,0 +1,16 @@
+﻿person_a_id,person_a_name,person_b_id,person_b_name,relation
+mbz,H.H. Sheikh Mohamed bin Zayed Al Nahyan,tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,brothers
+mbz,H.H. Sheikh Mohamed bin Zayed Al Nahyan,mansour,H.H. Sheikh Mansour bin Zayed Al Nahyan,brothers
+mbz,H.H. Sheikh Mohamed bin Zayed Al Nahyan,hazza,H.H. Sheikh Hazza bin Zayed Al Nahyan,brothers
+mbz,H.H. Sheikh Mohamed bin Zayed Al Nahyan,abdullah_bz,H.H. Sheikh Abdullah bin Zayed Al Nahyan,brothers
+mbz,H.H. Sheikh Mohamed bin Zayed Al Nahyan,saif_bz,H.H. Sheikh Saif bin Zayed Al Nahyan,brothers
+mbz,H.H. Sheikh Mohamed bin Zayed Al Nahyan,hamdan_bz,H.H. Sheikh Hamdan bin Zayed Al Nahyan,brothers
+mbz,H.H. Sheikh Mohamed bin Zayed Al Nahyan,hamed_bz,H.H. Sheikh Hamed bin Zayed Al Nahyan,brothers
+mbz,H.H. Sheikh Mohamed bin Zayed Al Nahyan,khaled,H.H. Sheikh Khaled bin Mohamed bin Zayed Al Nahyan,father–son
+mbz,H.H. Sheikh Mohamed bin Zayed Al Nahyan,theyab,H.H. Sheikh Theyab bin Mohamed bin Zayed Al Nahyan,father–son
+khaled,H.H. Sheikh Khaled bin Mohamed bin Zayed Al Nahyan,theyab,H.H. Sheikh Theyab bin Mohamed bin Zayed Al Nahyan,brothers
+khaldoon,Khaldoon Khalifa Al Mubarak,mohamed_km,Mohamed Khalifa Al Mubarak,brothers
+khaldoon,Khaldoon Khalifa Al Mubarak,razan,Razan Khalifa Al Mubarak,siblings
+mohamed_km,Mohamed Khalifa Al Mubarak,razan,Razan Khalifa Al Mubarak,siblings
+hussain_nowais,Hussain Jasim Al Nowais,hasan_nowais,Hasan Jasem Al Nowais,family (Al Nowais)
+hussain_nowais,Hussain Jasim Al Nowais,nasser_nowais,Nasser Al Nowais,family (Al Nowais)

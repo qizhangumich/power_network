@@ -1,0 +1,127 @@
+﻿child_id,child_name,parent_id,parent_name,label,verification
+execcouncil,Abu Dhabi Executive Council,adgov,Abu Dhabi Government (Ruler's Court),governs under,v
+scfea,Supreme Council for Financial & Economic Affairs,adgov,Abu Dhabi Government (Ruler's Court),reports to,v
+eaa,Executive Affairs Authority,adgov,Abu Dhabi Government (Ruler's Court),reports to,v
+dof,Department of Finance,execcouncil,Abu Dhabi Executive Council,,v
+added,Department of Economic Development,execcouncil,Abu Dhabi Executive Council,,v
+doe,Department of Energy,execcouncil,Abu Dhabi Executive Council,,v
+doh,Department of Health,execcouncil,Abu Dhabi Executive Council,,v
+dmt,Department of Municipalities & Transport,execcouncil,Abu Dhabi Executive Council,,v
+dge,Department of Government Enablement,execcouncil,Abu Dhabi Executive Council,,v
+adek,Department of Education & Knowledge,execcouncil,Abu Dhabi Executive Council,,v
+dct,Department of Culture & Tourism,execcouncil,Abu Dhabi Executive Council,,v
+dcd,Department of Community Development,execcouncil,Abu Dhabi Executive Council,,v
+ead,Environment Agency – Abu Dhabi,execcouncil,Abu Dhabi Executive Council,,v
+adafsa,Abu Dhabi Agriculture & Food Safety Authority,execcouncil,Abu Dhabi Executive Council,,v
+adio,Abu Dhabi Investment Office,added,Department of Economic Development,reports to,ns
+admo,Abu Dhabi Media Office,adgov,Abu Dhabi Government (Ruler's Court),,v
+itc,Integrated Transport Centre,dmt,Department of Municipalities & Transport,,v
+mofa,UAE Ministry of Foreign Affairs,fedgov,UAE Cabinet / Federal Government,,v
+cbuae,Central Bank of the UAE,fedgov,UAE Cabinet / Federal Government,,v
+sca,Securities & Commodities Authority,fedgov,UAE Cabinet / Federal Government,,v
+spaceagency,UAE Space Agency,fedgov,UAE Cabinet / Federal Government,,v
+eia,Emirates Investment Authority,fedgov,UAE Cabinet / Federal Government,,v
+tawazun,Tawazun Council,adgov,Abu Dhabi Government (Ruler's Court),,v
+atrc,Advanced Technology Research Council,adgov,Abu Dhabi Government (Ruler's Court),,v
+tii,Technology Innovation Institute,atrc,Advanced Technology Research Council,,v
+adia,Abu Dhabi Investment Authority,adgov,Abu Dhabi Government (Ruler's Court),,v
+mubadala,Mubadala Investment Company,adgov,Abu Dhabi Government (Ruler's Court),,v
+adq,ADQ,adgov,Abu Dhabi Government (Ruler's Court),,v
+adnoc,ADNOC Group,scfea,Supreme Council for Financial & Economic Affairs,state owner,v
+xrg,XRG (ADNOC international investment),adnoc,ADNOC Group,,v
+adnocgas,ADNOC Gas,adnoc,ADNOC Group,,v
+adnocdrill,ADNOC Drilling,adnoc,ADNOC Group,,v
+adnocls,ADNOC Logistics & Services,adnoc,ADNOC Group,,v
+adnocdist,ADNOC Distribution,adnoc,ADNOC Group,,v
+borouge,Borouge,adnoc,ADNOC Group,,v
+fertiglobe,Fertiglobe,adnoc,ADNOC Group,,v
+masdar,Masdar,adnoc,ADNOC Group,co-shareholder,v
+masdar,Masdar,taqa,TAQA Group,co-shareholder,v
+masdar,Masdar,mubadala,Mubadala Investment Company,co-shareholder,v
+taqa,TAQA Group,adq,ADQ,majority,v
+ewec,Emirates Water & Electricity Company,adq,ADQ,,v
+enec,Emirates Nuclear Energy Company (Barakah),adgov,Abu Dhabi Government (Ruler's Court),state owner,ns
+fab,First Abu Dhabi Bank,mubadala,Mubadala Investment Company,anchor shareholder,v
+adcb,Abu Dhabi Commercial Bank,mubadala,Mubadala Investment Company,majority,v
+wio,Wio Bank,adq,ADQ,lead shareholder,v
+adx,Abu Dhabi Securities Exchange,adq,ADQ,,v
+adgm,Abu Dhabi Global Market,adgov,Abu Dhabi Government (Ruler's Court),,v
+ihc,International Holding Company,royalgroup,Royal Group,affiliated,ns
+chimera,Chimera Investments,royalgroup,Royal Group,,v
+lunate,Lunate,chimera,Chimera Investments,,v
+twopointzero,2PointZero,ihc,International Holding Company,,v
+alphadhabi,Alpha Dhabi Holding,ihc,International Holding Company,,v
+multiply,Multiply Group,ihc,International Holding Company,,v
+aldar,Aldar Properties,alphadhabi,Alpha Dhabi Holding,major shareholder,v
+aldar,Aldar Properties,mubadala,Mubadala Investment Company,major shareholder,v
+modon,Modon Holding,adq,ADQ,anchor shareholder,ns
+nmdc,NMDC Group,alphadhabi,Alpha Dhabi Holding,major shareholder,v
+g42,G42,royalgroup,Royal Group,affiliated,ns
+core42,Core42,g42,G42,,v
+presight,Presight AI,g42,G42,,v
+khazna,Khazna Data Centers,g42,G42,,v
+space42,Space42,g42,G42,co-shareholder,v
+space42,Space42,mubadala,Mubadala Investment Company,co-shareholder,v
+mgx,MGX,mubadala,Mubadala Investment Company,founding partner,v
+mgx,MGX,g42,G42,founding partner,v
+e_and,e& (Etisalat Group),eia,Emirates Investment Authority,majority (federal),v
+edge_grp,EDGE Group,adgov,Abu Dhabi Government (Ruler's Court),state owner,v
+purehealth,PureHealth,ihc,International Holding Company,major shareholder,v
+purehealth,PureHealth,adq,ADQ,major shareholder,v
+seha,SEHA (AD Health Services),purehealth,PureHealth,,v
+daman,Daman (National Health Insurance),purehealth,PureHealth,,v
+m42,M42,mubadala,Mubadala Investment Company,JV partner,v
+m42,M42,g42,G42,JV partner,v
+ccad,Cleveland Clinic Abu Dhabi,m42,M42,,v
+adports,AD Ports Group,adq,ADQ,majority,v
+etihad,Etihad Airways,adq,ADQ,,v
+adairports,Abu Dhabi Airports,adq,ADQ,,v
+etihadrail,Etihad Rail,adgov,Abu Dhabi Government (Ruler's Court),state owner,ns
+ega,Emirates Global Aluminium,mubadala,Mubadala Investment Company,50% shareholder,v
+emsteel,EMSTEEL (Emirates Steel Arkan),adq,ADQ,majority (SENAAT),v
+strata,Strata Manufacturing,mubadala,Mubadala Investment Company,,v
+agthia,Agthia Group,adq,ADQ,majority,v
+silal,Silal,adq,ADQ,,v
+aldahra,Al Dahra Holding,adq,ADQ,strategic stake,ns
+tadweer,Tadweer Group,adq,ADQ,,v
+hub71,Hub71,mubadala,Mubadala Investment Company,founded by,v
+miral,Miral (Yas Island / destinations),adgov,Abu Dhabi Government (Ruler's Court),state owner,v
+adnec,ADNEC Group,adq,ADQ,,v
+louvre,Louvre Abu Dhabi,dct,Department of Culture & Tourism,,v
+skynewsarabia,Sky News Arabia,imi,International Media Investments,,v
+thenational,The National,imi,International Media Investments,,v
+g42,G42,microsoft,Microsoft,strategic investor (US$1.5B),v
+openai,OpenAI,g42,G42,Stargate UAE partnership,v
+openai,OpenAI,mgx,MGX,investor & Stargate partner,v
+g42,G42,nvidia,NVIDIA,AI compute partnership,v
+cerebras,Cerebras Systems,g42,G42,anchor customer & investor,v
+huawei,Huawei UAE,e_and,e& (Etisalat Group),technology partner,ns
+totalenergies,TotalEnergies,adnoc,ADNOC Group,concession partner,v
+bp,bp,adnoc,ADNOC Group,concession partner · Arcius Energy JV (XRG),v
+shell,Shell,adnoc,ADNOC Group,concession partner,v
+exxonmobil,ExxonMobil,adnoc,ADNOC Group,Upper Zakum partner,v
+eni,Eni,adnoc,ADNOC Group,concession partner,v
+oxy,Occidental Petroleum,adnoc,ADNOC Group,concession partner,v
+inpex,INPEX (JODCO),adnoc,ADNOC Group,concession partner,v
+cnpc,CNPC,adnoc,ADNOC Group,concession partner,v
+omv,OMV,borouge,Borouge,Borouge Group co-shareholder,v
+kepco,KEPCO,enec,Emirates Nuclear Energy Company (Barakah),Barakah JV partner,v
+blackrock,BlackRock,mgx,MGX,AI Infrastructure Partnership (AIP),v
+nvidia,NVIDIA,mgx,MGX,AI Infrastructure Partnership (AIP),v
+goldman,Goldman Sachs,adgm,Abu Dhabi Global Market,regional office (ADGM),ns
+moelis,Moelis & Company,adgm,Abu Dhabi Global Market,regional office (ADGM),ns
+rothschildco,Rothschild & Co,adgm,Abu Dhabi Global Market,regional office (ADGM),ns
+mckinsey,McKinsey & Company,added,Department of Economic Development,government & SOE advisory ecosystem,ns
+bcg,Boston Consulting Group,added,Department of Economic Development,government & SOE advisory ecosystem,ns
+pwc,PwC Middle East,added,Department of Economic Development,audit & advisory ecosystem,ns
+ey,EY MENA,added,Department of Economic Development,audit & advisory ecosystem,ns
+kpmg,KPMG Lower Gulf,added,Department of Economic Development,audit & advisory ecosystem,ns
+deloitte,Deloitte Middle East,added,Department of Economic Development,audit & advisory ecosystem,ns
+accenture,Accenture Middle East,dge,Department of Government Enablement,digital government delivery,ns
+altamimi,Al Tamimi & Company,adgm,Abu Dhabi Global Market,ADGM & Abu Dhabi practice,ns
+cliffordchance,Clifford Chance,adgm,Abu Dhabi Global Market,ADGM office,ns
+waha,Waha Capital,mubadala,Mubadala Investment Company,strategic shareholder,ns
+adnic,Abu Dhabi National Insurance Company,mubadala,Mubadala Investment Company,major shareholder,ns
+trojan,Trojan Holding,alphadhabi,Alpha Dhabi Holding,subsidiary,v
+rotana,Rotana Hotels,alnowais,Al Nowais Investments,co-founded (Al Nowais),ns
+raytheon_em,Raytheon Emirates,tawazun,Tawazun Council,defense partnerships,ns
