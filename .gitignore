@@ -1,0 +1,9 @@
+# private — personal LinkedIn data, never publish
+my_network.js
+Connections.csv
+
+# local-only artifacts
+abu_dhabi_power_hub_v1_plotly_backup.html
+Network Design Tools.pdf
+__pycache__/
+tools/__pycache__/
