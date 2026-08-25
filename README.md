@@ -79,6 +79,18 @@ edges curve gently; family ties are dotted amber.
 Click = investigation mode + dossier panel · double-click = isolate ego network ·
 drag/scroll = pan & zoom · sidebar = search + layer/type/edge/sector filters ·
 **Fit view** rescales to your window. `window.__map` exposes a debug/automation handle.
+**EN / 中文** button (top right) switches the interface language — UI chrome only;
+all data (names, roles, institutions) stays English by design. Choice persists locally.
+
+## Deployment
+Repo: https://github.com/qizhangumich/power_network — `index.html` is the site entry
+(identical to `abu_dhabi_power_hub.html`); zero-config static hosting.
+- **Vercel:** import the repo at https://vercel.com/new (framework preset: *Other*, no build
+  command, output dir default). Every `git push` then auto-deploys. Or CLI: `vercel login`
+  once, then `vercel --prod` in this folder.
+- **Privacy:** `.gitignore` keeps `my_network.js` (your LinkedIn contacts) and
+  `Connections.csv` out of the repo — the public site simply shows no LinkedIn overlay.
+  Never commit these files.
 
 ## Data quality
 Facts vs. analysis stay separate. Roles/edges marked **needs source** are public-record
