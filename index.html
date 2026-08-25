@@ -16,7 +16,7 @@
   html,body{height:100%}
   body{background:var(--bg);
        color:var(--ink); font:14px/1.45 Inter,"IBM Plex Sans","Segoe UI",system-ui,-apple-system,sans-serif; overflow:hidden}
-  #stage{position:fixed;inset:0;cursor:grab}
+  #stage{position:fixed;inset:0;cursor:grab;touch-action:none}
   #stage.dragging{cursor:grabbing}
 
   /* ---------- top bar ---------- */
@@ -104,6 +104,29 @@
   ::-webkit-scrollbar{width:8px}
   ::-webkit-scrollbar-thumb{background:rgba(120,150,220,.25);border-radius:4px}
   ::-webkit-scrollbar-track{background:transparent}
+
+  /* ---------- mobile ---------- */
+  #b-menu{display:none}
+  @media (max-width:760px){
+    #topbar{height:46px;padding:0 10px;gap:8px}
+    #title{font-size:12.5px}
+    #subtitle{display:none}
+    #stats{display:none}
+    .btn{padding:4px 8px;font-size:11px}
+    #b-menu{display:block;font-size:15px;line-height:1;padding:4px 9px}
+    #b-labels,#b-phys{display:none}
+    #side{top:54px;left:0;bottom:0;width:min(80vw,300px);border-radius:0 14px 14px 0;
+          transform:translateX(-105%);transition:transform .22s ease;z-index:25}
+    #side.open{transform:none}
+    #detail{top:auto;left:0;right:0;bottom:0;width:auto;max-height:64vh;
+            border-radius:16px 16px 0 0;transform:translateY(105%)}
+    #detail.open{transform:none}
+    #legend{display:none}
+    #tip{display:none !important}
+  }
+  @media (max-width:760px) and (orientation:landscape){
+    #detail{max-height:88vh;left:auto;right:0;width:320px;border-radius:14px 0 0 14px}
+  }
 </style>
 </head>
 <body>
@@ -113,6 +136,7 @@
   <div id="title"><span id="brand">ABU DHABI <span class="gold">POWER NETWORK</span></span> <span id="subtitle" style="color:var(--ink-faint);font-weight:400">· V3 · Intelligence Map</span></div>
   <div id="stats"></div>
   <div id="topbtns">
+    <div class="btn" id="b-menu" aria-label="filters">☰</div>
     <div class="btn active" id="b-labels">Labels</div>
     <div class="btn" id="b-phys">Physics</div>
     <div class="btn" id="b-fit">Fit view</div>
@@ -416,8 +440,8 @@ function labelVisible(n, lit, hoverSet){
   if(hoverSet) return hoverSet.has(n);
   if(S.focus) return true;
   const k = S.cam.k;
-  if(k < 0.34) return n.power >= 92;
-  if(k < 0.55) return n.power >= 84;
+  if(k < 0.40) return n.power >= 96;
+  if(k < 0.55) return n.power >= 86;
   if(k < 0.80) return n.power >= 74;
   if(k < 1.05) return n.power >= 64;
   return true;
@@ -599,14 +623,15 @@ function loop(){
 
 /* ---------- interaction ---------- */
 let dragNode = null, panning = false, lastM = null, moved = false;
-function pick(px,py){
+function pick(px,py,slop){
   const [wx,wy] = toWorld(px,py);
   let best = null, bestD = 1e9;
+  const extra = (slop || 6) / S.cam.k;
   nodes.forEach(n => {
     if(!nodeVisible(n)) return;
     const dx = n.x-wx, dy = n.y-wy;
     const d = Math.sqrt(dx*dx+dy*dy);
-    const hitR = n.radius/Math.min(1,S.cam.k) + 6/S.cam.k;
+    const hitR = n.radius/Math.min(1,S.cam.k) + extra;
     if(d < hitR && d < bestD){ best = n; bestD = d; }
   });
   return best;
@@ -675,6 +700,76 @@ canvas.addEventListener("wheel", ev => {
   S.cam.k = Math.max(0.12, Math.min(3.2, S.cam.k*f));
   const [wx2,wy2] = toWorld(ev.clientX, ev.clientY);
   S.cam.x += wx-wx2; S.cam.y += wy-wy2;
+}, {passive:false});
+
+/* ---------- touch: tap = select · drag = pan / move node · pinch = zoom · double-tap = focus ---------- */
+let tState = null, lastTapAt = 0, lastTapXY = [0,0];
+function tPos(t){ return [t.clientX, t.clientY]; }
+function tDist(a,b){ return Math.hypot(a.clientX-b.clientX, a.clientY-b.clientY); }
+canvas.addEventListener("touchstart", ev => {
+  ev.preventDefault();
+  document.getElementById("side").classList.remove("open");   // tap on map closes the drawer
+  if(ev.touches.length === 1){
+    const [px,py] = tPos(ev.touches[0]);
+    const n = pick(px, py, 14);                               // generous touch slop
+    tState = {mode: n ? "node" : "pan", node:n, last:[px,py], start:[px,py], moved:false};
+    if(n) n.fixed = true;
+  } else if(ev.touches.length === 2){
+    if(tState && tState.node) tState.node.fixed = false;
+    const [a,b] = [ev.touches[0], ev.touches[1]];
+    tState = {mode:"pinch", d0:tDist(a,b), k0:S.cam.k,
+              mid:[(a.clientX+b.clientX)/2, (a.clientY+b.clientY)/2], moved:true};
+  }
+}, {passive:false});
+canvas.addEventListener("touchmove", ev => {
+  ev.preventDefault();
+  if(!tState) return;
+  if(tState.mode === "pinch" && ev.touches.length >= 2){
+    const [a,b] = [ev.touches[0], ev.touches[1]];
+    const mid = [(a.clientX+b.clientX)/2, (a.clientY+b.clientY)/2];
+    const [wx,wy] = toWorld(mid[0], mid[1]);
+    S.cam.k = Math.max(0.12, Math.min(3.2, tState.k0 * tDist(a,b)/tState.d0));
+    const [wx2,wy2] = toWorld(mid[0], mid[1]);
+    S.cam.x += wx-wx2; S.cam.y += wy-wy2;
+    S.cam.x -= (mid[0]-tState.mid[0])/S.cam.k;
+    S.cam.y -= (mid[1]-tState.mid[1])/S.cam.k;
+    tState.mid = mid;
+    return;
+  }
+  if(ev.touches.length !== 1) return;
+  const [px,py] = tPos(ev.touches[0]);
+  if(Math.hypot(px-tState.start[0], py-tState.start[1]) > 8) tState.moved = true;
+  if(tState.mode === "node" && tState.moved){
+    const [wx,wy] = toWorld(px,py);
+    tState.node.x = wx; tState.node.y = wy;
+    reheat(0.25);
+  } else if(tState.mode === "pan"){
+    S.cam.x -= (px-tState.last[0])/S.cam.k;
+    S.cam.y -= (py-tState.last[1])/S.cam.k;
+  }
+  tState.last = [px,py];
+}, {passive:false});
+canvas.addEventListener("touchend", ev => {
+  ev.preventDefault();
+  if(!tState) return;
+  if(tState.node) tState.node.fixed = false;
+  if(!tState.moved && tState.mode !== "pinch" && ev.touches.length === 0){
+    const [px,py] = tState.start;
+    const now = Date.now();
+    const isDouble = (now - lastTapAt < 320) && Math.hypot(px-lastTapXY[0], py-lastTapXY[1]) < 36;
+    lastTapAt = now; lastTapXY = [px,py];
+    const n = pick(px, py, 14);
+    if(isDouble){
+      if(n){ S.focus = (S.focus===n) ? null : n; reheat(0.4); }
+      else S.focus = null;
+      updateStats();
+    } else if(n){
+      select(n);
+    } else {
+      S.selected = null; closeDetail();
+    }
+  }
+  if(ev.touches.length === 0) tState = null;
 }, {passive:false});
 
 /* ---------- detail panel ---------- */
@@ -773,7 +868,7 @@ searchIn.addEventListener("input", () => {
     const el = document.createElement("div");
     el.className = "r";
     el.innerHTML = `<span class="dot" style="background:${nodeClass(n).c}"></span><span>${n.kind==="inst"?n.short:n.name}</span><span class="k">${n.kind==="inst"?t().inst:t().person}</span>`;
-    el.onclick = () => { select(n); centerOn(n); };
+    el.onclick = () => { select(n); centerOn(n); document.getElementById("side").classList.remove("open"); };
     results.appendChild(el);
   });
 });
@@ -784,11 +879,14 @@ bLabels.onclick = () => { S.labels = !S.labels; bLabels.classList.toggle("active
 const bPhys = document.getElementById("b-phys");
 bPhys.onclick = () => { S.physics = !S.physics; bPhys.classList.toggle("active", S.physics); if(S.physics) reheat(0.3); };
 function fitView(){
-  const margin = 90;
-  const k = Math.min((W - 280 - margin) , (H - margin)) / (2 * (TIER_R[3] + 70));
-  S.cam = {x:-120, y:0, k: Math.max(0.15, Math.min(1, k))};
+  const mobile = W < 760;
+  const availW = mobile ? W - 20 : W - 280 - 90;
+  const availH = mobile ? H - 120 : H - 90;
+  const k = Math.min(availW, availH) / (2 * (TIER_R[3] + 70));
+  S.cam = {x: mobile ? 0 : -120, y:0, k: Math.max(0.12, Math.min(1, k))};
 }
 document.getElementById("b-fit").onclick = fitView;
+document.getElementById("b-menu").onclick = () => document.getElementById("side").classList.toggle("open");
 document.getElementById("b-clear").onclick = () => { S.focus = null; S.selected = null; closeDetail(); updateStats(); };
 
 /* ---------- language toggle ---------- */
