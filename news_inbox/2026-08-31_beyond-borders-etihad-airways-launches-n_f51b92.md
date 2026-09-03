@@ -1,0 +1,5 @@
+# Beyond Borders: Etihad Airways launches new brand campaign celebrating Abu Dhabi-born ambition
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxOLU5NcmdLN1JLQm9abFFxcFc2c29NU1UwT0NvZTRIZDNvWC1yd1pleVdaWnFQNTlvWFJRU1NCUGt5MHFmSzdSaWcyXzZEaGlmMmZXaTdnWTVxUUhZdmFkQ09STThsWDhTOVVXY2tOSXQxSFBqV2tSNkpLZE1tVEJNUWMwUmdrck5jY29FNG5QNG9mWUVSQklxaVdzVFhoZzhoem9YcWc3RHk3QVh2TkktXzVsNHp5Q0hoZlVtWDg3MlpVNHc1YkdLTW5rbE05RkNPWXk5TGJtLXVEZnhkOFZjeC1hRlBXR2RqekE?oc=5
+
+Beyond Borders: Etihad Airways launches new brand campaign celebrating Abu Dhabi-born ambition    Zawya

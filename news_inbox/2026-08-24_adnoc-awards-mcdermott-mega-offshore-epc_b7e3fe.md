@@ -1,0 +1,5 @@
+# ADNOC Awards McDermott Mega Offshore EPCI Contract to Advance Umm Shaif Field Development
+source: PR Newswire
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOc2NTQ19iMVVrY2g3WXFIZG16emVlOVFrbktvLXdqTjc4ZmNDMzZncUZfSG5xRW01cnpWeTFWZk1iQVF4SnJkZDF2eGttX1dQRFVqeWktUVE4MkJ4NkVMQ09qRXUyN0w1V29TY2x6ak85MGF4RXZPRHVwU3RsTC16RHQtMEl1UEhwX05jdE9USms0WHY2YVVXV0RTc2JnX0VodlB6Mk5XMmZraWZIdThKQlpNb3YwVGMtUU5uWEFGcUI4TURzUUhSUk5WSk9ydGltSl80LTNVem41SmU1eFE?oc=5
+
+ADNOC Awards McDermott Mega Offshore EPCI Contract to Advance Umm Shaif Field Development    PR Newswire
