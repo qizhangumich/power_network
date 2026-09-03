@@ -1,0 +1,41 @@
+symbol,name,sector,market
+KFH,Kuwait Finance House K.S.C.P.,finance,main
+ALBH,Aluminium Bahrain B.S.C.,materials,main
+NBB,National Bank of Bahrain B.S.C.,finance,main
+BBK,Bank of Bahrain and Kuwait B.S.C.,finance,main
+GFH,GFH Financial Group B.S.C.,finance,main
+BEYON,Beyon B.S.C. (Batelco),comm,main
+SALAM,Al Salam Bank B.S.C.,finance,main
+UGH,United Gulf Holding Company B.S.C.,finance,main
+ABC,Arab Banking Corporation (Bank ABC) B.S.C.,finance,main
+GHG,Gulf Hotels Group B.S.C.,consumer_disc,main
+APMTB,APM Terminals Bahrain B.S.C.,industry,main
+KHALEEJI,Khaleeji Bank B.S.C.,finance,main
+BMMI,BMMI B.S.C.,consumer_disc,main
+BISB,Bahrain Islamic Bank B.S.C.,finance,main
+ARIG,Arab Insurance Group B.S.C.,finance,main
+SOLID,Solidarity Bahrain B.S.C.,finance,main
+BKIC,Bahrain Kuwait Insurance Company B.S.C.,finance,main
+BNH,Bahrain National Holding Company B.S.C.,finance,main
+SEEF,Seef Properties B.S.C.,realestate,main
+DUTYF,Bahrain Duty Free Shop Complex B.S.C.,consumer_disc,main
+BCFC,Bahrain Commercial Facilities Company B.S.C.,finance,main
+ZAINBH,Zain Bahrain B.S.C.,comm,main
+INOVEST,Inovest B.S.C.,finance,main
+ESTERAD,Esterad Investment Company B.S.C.,finance,main
+NHOTEL,National Hotels Company B.S.C.,consumer_disc,main
+ITHMR,Ithmaar Holding B.S.C.,finance,main
+BASREC,The Bahrain Ship Repairing and Engineering Company B.S.C.,industry,main
+TRAFCO,Trafco Group B.S.C.,consumer_stap,main
+CPARK,Bahrain Car Parks Company (Amakin) B.S.C.,industry,main
+CINECO,Bahrain Cinema Company B.S.C.,consumer_disc,main
+BFM,Bahrain Flour Mills Company B.S.C.,consumer_stap,main
+SILAH,Silah Gulf B.S.C. Closed,industry,main
+UGIC,United Gulf Investment Corporation B.S.C.,finance,main
+POLTRY,Delmon Poultry Company B.S.C.,consumer_stap,main
+FAMILY,Bahrain Family Leisure Company B.S.C.,consumer_disc,main
+NASS,Nass Corporation B.S.C.,industry,main
+EBRIT,Eskan Bank Realty Income Trust,realestate,main
+ABRAAJ,Al Abraaj Restaurants Group B.S.C.,consumer_disc,main
+INVCORP,Investcorp Holdings B.S.C.,finance,main
+BARKA,Al Baraka Banking Group B.S.C.,finance,main

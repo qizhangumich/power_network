@@ -1,0 +1,103 @@
+symbol,name,sector,market
+IHC,International Holding Company PJSC,conglomerate,main
+ADNOCGAS,ADNOC Gas PLC,energy,main
+FAB,First Abu Dhabi Bank PJSC,finance,main
+EAND,Emirates Telecommunications Group Company PJSC,comm,main
+ADCB,Abu Dhabi Commercial Bank PJSC,finance,main
+ADNOCDRILL,ADNOC Drilling Company PJSC,energy,main
+ADIB,Abu Dhabi Islamic Bank PJSC,finance,main
+ALPHADHABI,Alpha Dhabi Holding PJSC,conglomerate,main
+BOROUGE,Borouge plc,materials,main
+ALDAR,Aldar Properties PJSC,realestate,main
+ADNOCLS,ADNOC Logistics & Services plc,energy,main
+ADNOCDIST,Abu Dhabi National Oil Company for Distribution PJSC,energy,main
+MODON,Modon Holding PSC,conglomerate,main
+ORDS,Ooredoo Q.P.S.C.,comm,main
+ADPORTS,Abu Dhabi Ports Company PJSC,industry,main
+MBME,MBME Group PJSC,health,main
+PUREHEALTH,Pure Health Holding PJSC,health,main
+2POINTZERO,Two Point Zero Group PJSC,tech,main
+FERTIGLB,Fertiglobe plc,materials,main
+PRESIGHT,Presight AI Holding PLC,tech,main
+NMDC,NMDC Group PJSC,industry,main
+AMR,Americana Restaurants International PLC,consumer_disc,main
+RAKBANK,The National Bank of Ras Al-Khaimah P.S.C.,finance,main
+AGILITY,Agility Global PLC,industry,main
+NMDCENR,NMDC Energy PJSC,energy,main
+NBF,National Bank of Fujairah PJSC,finance,main
+APEX,Apex Investment PSC,finance,main
+SPACE42,Space42 PLC,tech,main
+LULU,Lulu Retail Holdings PLC,consumer_stap,main
+SIB,Sharjah Islamic Bank PJSC,finance,main
+EMSTEEL,EMSTEEL Building Materials PJSC,materials,main
+INB,Invest Bank P.S.C.,finance,main
+ALEFEDT,Alef Education Holding plc,consumer_disc,main
+ORAS,Orascom Construction PLC,industry,main
+BURJEEL,Burjeel Holdings PLC,health,main
+NBQ,National Bank of Umm Al-Qaiwain PSC,finance,main
+DANA,Dana Gas PJSC,energy,main
+ADAVIATION,Abu Dhabi Aviation Company,industry,main
+ADNH,Abu Dhabi National Hotels Company PJSC,consumer_disc,main
+BOS,Bank of Sharjah PJSC,finance,main
+UAB,United Arab Bank PJSC,finance,main
+ADNIC,Abu Dhabi National Insurance Company PJSC,finance,main
+EMOBILITY,Emirates Mobility Company PJSC,industry,main
+WAHA,Al Waha Capital PJSC,finance,main
+BILDCO,Abu Dhabi National Company for Building Materials PJSC,materials,main
+ICAP,Investcorp Capital plc,finance,main
+PHX,Phoenix Group PLC,tech,main
+GIH,Gulf Investment House K.P.S.C.,finance,main
+RAKPROP,RAK Properties PJSC,realestate,main
+NCTH,National Corporation for Tourism and Hotels,consumer_disc,main
+SAGA,Sagasse Investment Company Plc,finance,main
+ANAN,Anan Investment Holding PJSC,finance,main
+ESG,ESG Emirates Stallions Group PJSC,materials,main
+AGTHIA,Agthia Group PJSC,consumer_stap,main
+ASM,Al Seer Marine Supplies and Equipment Company PJSC,industry,main
+GHITHA,Ghitha Holding PJSC,consumer_stap,main
+RAKCEC,RAK Ceramics PJSC,materials,main
+MAIR,MAIR Group PJSC,consumer_stap,main
+INVICTUS,Invictus Investment Company PLC,finance,main
+E7,E7 Group PJSC,industry,main
+ESHRAQ,Eshraq Investments PJSC,realestate,main
+ADSB,Abu Dhabi Ship Building PJSC,industry,main
+GMPC,Gulf Medical Projects Company PJSC,health,main
+CBI,Commercial Bank International PJSC,finance,main
+ADNHC,ADNH Catering PLC,industry,main
+ALPHADATA,Alpha Data PJSC,tech,main
+EIC,Emirates Insurance Company PJSC,finance,main
+PALMS,Palms Sports PJSC,consumer_disc,main
+JULPHAR,Gulf Pharmaceutical Industries P.S.C.,health,main
+DHAFRA,Al Dhafra Insurance Company P.S.C.,finance,main
+SCIDC,Sharjah Cement and Industrial Development Co. PJSC,materials,main
+MANAZEL,Manazel PJSC,realestate,main
+SUDATEL,Sudatel Telecom Group Limited,comm,main
+AWNIC,Al Wathba National Insurance Company PJSC,finance,main
+ABNIC,Al Buhaira National Insurance Company P.S.C.,finance,main
+TKFL,Abu Dhabi National Takaful Company PSC,finance,main
+QIC,Umm Al Qaiwain General Investments Company P.S.C.,finance,main
+EASYLEASE,Easy Lease Motor Cycle Rental P.S.C.,industry,main
+FH,Finance House PJSC,finance,main
+RAKWCT,Ras Al Khaimah Co. for White Cement & Construction Materials P.S.C.,materials,main
+KICO,Al Khaleej Investment PJSC,finance,main
+ALAIN,Al Ain Ahlia Insurance Company P.S.C.,finance,main
+GCEM,Gulf Cement Company P.S.C.,materials,main
+FBI,Fujairah Building Industries PJSC,materials,main
+RPM,Response Plus Holding PJSC,health,main
+FNF,Foodco National Foodstuff PJSC,consumer_stap,main
+RAKNIC,Ras Al Khaimah National Insurance Company P.S.C.,finance,main
+SAWAEED,Sawaeed Holding PJSC,industry,main
+UNION,Union Insurance Company PJSC,finance,main
+AFNIC,Al Fujairah National Insurance Company PJSC,finance,main
+HH,Hily Holding PJSC,conglomerate,main
+FIDELITYUNITED,United Fidelity Insurance Company P.S.C.,finance,main
+HAYAH,Hayah Insurance Company PJSC,finance,main
+SICO,Sharjah Insurance Company P.S.C.,finance,main
+RAPCO,RAPCO Investment PJSC,consumer_stap,main
+ARAM,ARAM Group Company PJSC,realestate,main
+FCI,Fujairah Cement Industries PJSC,materials,main
+OEIHC,Oman & Emirates Investment Holding Company SAOG,finance,main
+IH,Insurance House PJSC,finance,main
+TNI,The National Investor Pr.J.S.C.,finance,main
+METHAQ,Methaq Takaful Insurance P.S.C.,finance,main
+AKIC,Al Khazna Insurance Company P.S.C.,finance,main

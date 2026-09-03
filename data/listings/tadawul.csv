@@ -1,0 +1,272 @@
+symbol,name,sector,market
+2222,Saudi Arabian Oil Co. (Saudi Aramco),energy,main
+2030,Saudi Arabia Refineries Co.,energy,main
+2380,Rabigh Refining and Petrochemical Co. (Petro Rabigh),energy,main
+4030,National Shipping Co. of Saudi Arabia (Bahri),energy,main
+2381,Arabian Drilling Co.,energy,main
+2382,ADES Holding Co.,energy,main
+1201,Takween Advanced Industries Co.,materials,main
+1202,Middle East Paper Co. (Mepco),materials,main
+1210,Basic Chemical Industries Co. (BCI),materials,main
+1211,Saudi Arabian Mining Co. (Ma'aden),materials,main
+1301,Aslak Co.,materials,main
+1304,Al Yamamah Steel Industries Co.,materials,main
+1320,Saudi Steel Pipe Co.,materials,main
+2001,Chemanol (National Methanol Co.),materials,main
+2010,Saudi Basic Industries Corp. (SABIC),materials,main
+2020,SABIC Agri-Nutrients Co.,materials,main
+2090,National Gas and Industrialization Co.,materials,main
+2150,Zoujaj Industrial Co.,materials,main
+2170,Alujain Corp.,materials,main
+2180,Filling and Packing Materials Manufacturing Co. (FIPCO),materials,main
+2200,Arabian Pipes Co.,materials,main
+2210,Nama Chemicals Co.,materials,main
+2220,National Metal Manufacturing and Casting Co. (Maadaniyah),materials,main
+2240,Zamil Industrial Investment Co.,materials,main
+2250,Saudi Industrial Investment Group,materials,main
+2290,Yanbu National Petrochemical Co. (Yansab),materials,main
+2300,Saudi Paper Manufacturing Co.,materials,main
+2310,Sahara International Petrochemical Co. (Sipchem),materials,main
+2330,Advanced Petrochemical Co.,materials,main
+2350,Saudi Kayan Petrochemical Co.,materials,main
+2360,Saudi Vitrified Clay Pipes Co.,materials,main
+3002,Najran Cement Co.,materials,main
+3003,City Cement Co.,materials,main
+3004,Northern Region Cement Co.,materials,main
+3005,United Arab Cement Co.,materials,main
+3007,Oasis Trading and Marketing Co.,materials,main
+3008,Al Kathiri Holding Co.,materials,main
+3010,Arabian Cement Co.,materials,main
+3020,Yamama Cement Co.,materials,main
+3030,Saudi Cement Co.,materials,main
+3040,Qassim Cement Co.,materials,main
+3050,Southern Province Cement Co.,materials,main
+3060,Yanbu Cement Co.,materials,main
+3080,Eastern Province Cement Co.,materials,main
+3090,Tabuk Cement Co.,materials,main
+3091,Jouf Cement Co.,materials,main
+3092,Riyadh Cement Co.,materials,main
+2060,National Industrialization Co. (Tasnee),materials,main
+1321,East Pipes Integrated Co.,materials,main
+1322,Amak International Holding Co.,materials,main
+1323,United Carton Industries Co.,materials,main
+1324,Saleh Abdulaziz Al Rashed and Sons Co.,materials,main
+2223,Luberef (Saudi Aramco Base Oil Co.),materials,main
+1212,Astra Industrial Group,industry,main
+1302,Bawan Co.,industry,main
+1303,Electrical Industries Co.,industry,main
+1214,Shaker Group,industry,main
+2040,Saudi Ceramics Co.,industry,main
+2110,Saudi Cable Co.,industry,main
+2160,Amiantit (Saudi Arabian Amiantit Co.),industry,main
+2320,Al Babtain Power and Telecommunication Co.,industry,main
+2370,Middle East Specialized Cables Co. (MESC),industry,main
+4110,Batic Investments and Logistics Co.,industry,main
+4140,Saudi Industrial Export Co. (SIECO),industry,main
+4141,Al Omran Industrial Trading Co.,industry,main
+4142,Riyadh Cables Group Co.,industry,main
+4144,Raoom Trading Co.,industry,main
+4145,Obeikan Glass Co. (OGC),industry,main
+4146,Gulf Applied Solutions Co. (Gas Arabian Services),industry,main
+4147,Canar Telecommunication Co.,industry,main
+4148,Alwasail Industrial Co.,industry,main
+1831,Maharah Human Resources Co.,industry,main
+1832,Saudi Distribution and Logistics Co. (SADR),industry,main
+1833,Al Mawarid Manpower Co.,industry,main
+1834,Saudi Manpower Solutions Co. (SMASCO),industry,main
+1835,Tamkeen Human Resources Co.,industry,main
+4270,Saudi Printing and Packaging Co. (SPPC),industry,main
+6004,Catrion Catering Holding Co.,industry,main
+2190,Saudi Industrial Services Co. (SISCO Holding),industry,main
+4031,Saudi Ground Services Co.,industry,main
+4040,Saudi Public Transport Co. (SAPTCO),industry,main
+4260,Budget Saudi Rent a Car Co.,industry,main
+4261,Theeb Rent a Car Co.,industry,main
+4262,Lumi Rental Co.,industry,main
+4263,SAL Saudi Logistics Services Co.,industry,main
+4264,flynas Co.,industry,main
+4265,Cherry Trading Co.,industry,main
+1213,Naseej International Trading Co.,consumer_disc,main
+2130,Saudi Industrial Development Co. (SIDC),consumer_disc,main
+2340,Artex Industrial Investment Co.,consumer_disc,main
+4011,Lazurde Co. for Jewelry,consumer_disc,main
+4012,Al Aseel Co.,consumer_disc,main
+4180,Fitaihi Holding Group,consumer_disc,main
+1810,Seera Group Holding,consumer_disc,main
+1820,Baan Holding Group Co.,consumer_disc,main
+1830,Leejam Sports Co.,consumer_disc,main
+4170,Emaar The Economic City Trading Co. (TECO),consumer_disc,main
+4290,Alkhaleej Training and Education Co.,consumer_disc,main
+4291,National Company for Learning and Education (NCLE),consumer_disc,main
+4292,Ataa Educational Co.,consumer_disc,main
+6002,Herfy Food Services Co.,consumer_disc,main
+6012,Raydan Food Co.,consumer_disc,main
+6013,Development Works Food Co.,consumer_disc,main
+6014,Alamar Foods Co.,consumer_disc,main
+6015,Americana Restaurants International,consumer_disc,main
+6016,Burgerizzr Co.,consumer_disc,main
+6017,Jahez International Co.,consumer_disc,main
+6018,Sport Clubs Co.,consumer_disc,main
+6019,Almasar Alshamil Education Co.,consumer_disc,main
+6022,Armah Sports Co.,consumer_disc,main
+4070,Arriyadh Development Co. (TAPRCO),comm,main
+4071,Saudi Research and Media Group Alarabia,comm,main
+4072,MBC Group,comm,main
+4210,Saudi Research and Marketing Group (SRMG),comm,main
+4003,United Electronics Co. (eXtra),consumer_disc,main
+4008,Saudi Co. for Hardware (SACO),consumer_disc,main
+4050,Saudi Automotive Services Co. (SASCO),consumer_disc,main
+4051,Baazeem Trading Co.,consumer_disc,main
+4190,Jarir Marketing Co.,consumer_disc,main
+4191,Abo Moati Bookstores Co.,consumer_disc,main
+4192,Alsaif Gallery Co.,consumer_disc,main
+4193,Nice One Beauty Digital Marketing Co.,consumer_disc,main
+4194,Build Station Trading Co.,consumer_disc,main
+4200,Aldrees Petroleum and Transport Services Co.,consumer_disc,main
+4240,Cenomi Retail (Fawaz Abdulaziz Alhokair Co.),consumer_disc,main
+4001,Abdullah Al Othaim Markets Co.,consumer_stap,main
+4006,Farm Superstores Co.,consumer_stap,main
+4061,Anaam International Holding Group,consumer_stap,main
+4160,Thimar Development Holding Co.,consumer_stap,main
+4161,Bindawood Holding Co.,consumer_stap,main
+4162,Almunajem Foods Co.,consumer_stap,main
+4163,Aldawaa Medical Services Co.,consumer_stap,main
+4164,Nahdi Medical Co.,consumer_stap,main
+2050,Savola Group,consumer_stap,main
+2100,Wafrah for Industry and Development Co.,consumer_stap,main
+2270,Saudia Dairy and Foodstuff Co. (Sadafco),consumer_stap,main
+2280,Almarai Co.,consumer_stap,main
+2281,Tanmiah Food Co.,consumer_stap,main
+2282,Naqi Water Co.,consumer_stap,main
+2283,First Milling Co.,consumer_stap,main
+2284,Modern Mills Co.,consumer_stap,main
+2285,Arabian Mills for Food Products Co.,consumer_stap,main
+2286,Fourth Milling Co.,consumer_stap,main
+2287,Entaj Co.,consumer_stap,main
+2288,Nofoth Food Products Co.,consumer_stap,main
+4080,Sinad Holding Co.,consumer_stap,main
+6001,Halwani Bros Co. (HB),consumer_stap,main
+6010,National Agriculture Development Co. (Nadec),consumer_stap,main
+6020,Gulf Agriculture and Food Company Co. (GACO),consumer_stap,main
+6040,Al Jouf Agricultural Development Co. (TADCO),consumer_stap,main
+6050,Saudi Fisheries Co. (SFICO),consumer_stap,main
+6060,Sharqiyah Development Co.,consumer_stap,main
+6070,Al Jouf Agricultural Development Co. (ALJOUF),consumer_stap,main
+6090,Jazan Development Co. (JAZADCO),consumer_stap,main
+2140,Ayyan Investment Co.,health,main
+2230,Saudi Chemical Co.,health,main
+4002,Mouwasat Medical Services Co.,health,main
+4004,Dallah Healthcare Holding Co.,health,main
+4005,Care National Medical and Rehabilitation Center Co.,health,main
+4007,Al Hammadi Holding Co.,health,main
+4009,Saudi German Health,health,main
+4013,Dr. Sulaiman Al Habib Medical Services Group,health,main
+4014,Middle East Healthcare Co. (Equipment House),health,main
+4017,Dr. Soliman Fakeeh Care Co.,health,main
+4018,Almoosa Health Co.,health,main
+4019,SMC Healthcare Co.,health,main
+4021,Canadian Medical Center Co. (CMCER),health,main
+2070,Saudi Pharmaceutical Industries and Medical Appliances Corp. (SPIMACO),health,main
+4015,Jamjoom Pharmaceuticals Factory Co.,health,main
+4016,Avalon Pharma (Middle East Pharmaceutical Industries Co.),health,main
+1010,Riyad Bank,finance,main
+1020,Bank Aljazira,finance,main
+1030,Saudi Investment Bank (SAIB),finance,main
+1050,Banque Saudi Fransi,finance,main
+1060,Saudi Awwal Bank (SAB),finance,main
+1080,Arab National Bank,finance,main
+1120,Al Rajhi Bank,finance,main
+1140,Bank Albilad,finance,main
+1150,Alinma Bank,finance,main
+1180,Saudi National Bank,finance,main
+1111,Saudi Tadawul Group Holding Co.,finance,main
+1182,Amlak International Finance Co.,finance,main
+1183,SHL Finance Co.,finance,main
+2120,Saudi Investment Recycling Co. (SAIC),finance,main
+4081,Nayifat Finance Co.,finance,main
+4082,Marn (MRNA) Financial Co.,finance,main
+4083,Tasheel Finance Co.,finance,main
+4084,Derayah Financial Co.,finance,main
+4130,Saudi Darb Investment Co.,finance,main
+4280,Kingdom Holding Co.,finance,main
+8010,Company for Cooperative Insurance (Tawuniya),finance,main
+8012,Aljazira Takaful Taawuni Co.,finance,main
+8020,Malath Cooperative Insurance Co.,finance,main
+8030,Mediterranean and Gulf Insurance and Reinsurance Co. (MEDGULF),finance,main
+8040,Al Sagr Cooperative Insurance Co. (Mutakamela),finance,main
+8050,Salama Cooperative Insurance Co.,finance,main
+8060,Walaa Cooperative Insurance Co.,finance,main
+8070,Arabian Shield Cooperative Insurance Co.,finance,main
+8100,Saudi Arabian Cooperative Insurance Co. (SAICO),finance,main
+8120,Gulf Union Alahlia Cooperative Insurance Co.,finance,main
+8150,Allied Cooperative Insurance Group (ACIG),finance,main
+8160,Al Alamiya for Cooperative Insurance Co. (AICC),finance,main
+8170,Al Etihad Cooperative Insurance Co.,finance,main
+8180,Al Sagr Cooperative Insurance Co.,finance,main
+8190,United Cooperative Assurance Co. (UCA),finance,main
+8200,Saudi Reinsurance Co. (Saudi Re),finance,main
+8210,Bupa Arabia for Cooperative Insurance Co.,finance,main
+8230,Al Rajhi Company for Cooperative Insurance (AlRajhi Takaful),finance,main
+8240,Chubb Arabia Cooperative Insurance Co.,finance,main
+8250,Gulf Insurance Group,finance,main
+8260,Gulf General Cooperative Insurance Co.,finance,main
+8280,LIVA Insurance (Saudi Enaya/AXA Cooperative),finance,main
+8300,Wataniya Insurance Co.,finance,main
+8310,Amana Cooperative Insurance Co.,finance,main
+8311,Enaya Cooperative Insurance Co.,finance,main
+8313,Rasan Information Technology Co.,finance,main
+7010,Saudi Telecom Co. (stc),comm,main
+7020,Etihad Etisalat Co. (Mobily),comm,main
+7030,Zain Saudi Arabia,comm,main
+7040,Go Telecom (Etihad Atheeb Telecommunication Co.),comm,main
+2080,Gasco Holding Co. (National Gas and Industrialization),utilities,main
+2081,Alkhorayef Water and Power Technologies Co.,utilities,main
+2082,ACWA Power Co.,utilities,main
+2083,Marafiq (Power and Water Utility Company for Jubail and Yanbu),utilities,main
+2084,Miahona Holding Co.,utilities,main
+5110,Saudi Electricity Co.,utilities,main
+4020,Saudi Real Estate Co. (Alakaria),realestate,main
+4090,Taiba Investments Co.,realestate,main
+4100,Makkah Construction and Development Co. (MCDC),realestate,main
+4150,Arriyadh Development Co. (ARDCO),realestate,main
+4220,Emaar The Economic City,realestate,main
+4230,Red Sea International Co.,realestate,main
+4250,Jabal Omar Development Co.,realestate,main
+4300,Dar Al Arkan Real Estate Development Co.,realestate,main
+4310,Knowledge Economic City (KEC),realestate,main
+4320,Al Andalus Property Co.,realestate,main
+4321,Cenomi Centers (Arabian Centres Co.),realestate,main
+4322,Retal Urban Development Co.,realestate,main
+4323,Sumou Real Estate Co.,realestate,main
+4324,Banan Real Estate Co.,realestate,main
+4325,Masar Al Jazira Real Estate Development Co.,realestate,main
+4326,Almajdiah Real Estate Co.,realestate,main
+4327,Al Ramz Real Estate Co.,realestate,main
+4328,Ladun Investment Co.,realestate,main
+4330,Riyad REIT Fund,realestate,main
+4331,Aljazira REIT Fund,realestate,main
+4332,Jadwa REIT Al Haramain Fund,realestate,main
+4333,Taleem REIT Fund,realestate,main
+4334,Al Maather REIT Fund,realestate,main
+4335,Musharaka REIT Fund,realestate,main
+4336,Mulkia Gulf REIT Fund,realestate,main
+4337,Al Aziziah REIT Fund,realestate,main
+4338,SNB Capital Diversified REIT Fund (Alahli REIT 1),realestate,main
+4339,Derayah REIT Fund,realestate,main
+4340,Al Rajhi REIT Fund,realestate,main
+4342,Jadwa REIT Saudi Fund,realestate,main
+4344,Sedco Capital REIT Fund,realestate,main
+4345,Alinma Retail REIT Fund,realestate,main
+4346,MEFIC REIT Fund,realestate,main
+4347,Bonyan REIT Fund,realestate,main
+4348,Alkhabeer REIT Fund,realestate,main
+4349,Alinma Hospitality REIT Fund,realestate,main
+4350,Alistithmar REIT Fund (AREIC Diversified REIT),realestate,main
+7200,Middle East Internet Services Co. (MIS),tech,main
+7201,Arab Sea Information Systems Co.,tech,main
+7202,Al Moammar Information Systems Co. (Solutions),tech,main
+7203,Elm Co.,tech,main
+7204,2P Perfect Presentation for Commercial Services Co.,tech,main
+7205,Al-Dawaa Business Solutions Co. (DBS),tech,main
+7211,Saudi Azm for Communication and Information Technology Co.,tech,main
+4165,Almajed for Oud Co.,consumer_stap,main

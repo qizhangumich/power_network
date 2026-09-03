@@ -1,0 +1,140 @@
+symbol,name,sector,market
+NBK,National Bank of Kuwait,finance,premier
+GBK,Gulf Bank KSCP,finance,premier
+ABK,Al Ahli Bank of Kuwait,finance,premier
+KIB,Kuwait International Bank,finance,premier
+BURG,Burgan Bank,finance,premier
+KFH,Kuwait Finance House,finance,premier
+BOUBYAN,Boubyan Bank,finance,premier
+KINV,Kuwait Investment Co KSCP,finance,premier
+IFA,International Financial Advisors Holding,finance,premier
+NINV,National Investments Co,finance,premier
+KPROJ,Kuwait Projects Holding,finance,premier
+ARZAN,Arzan Financial Group for Financing and Investment,finance,premier
+AAYAN,Aayan Leasing and Investment,finance,premier
+KRE,Kuwait Real Estate Co KSC,realestate,premier
+URC,United Real Estate K.S.C,realestate,premier
+SRE,Salhia Real Estate,realestate,premier
+MABANEE,Mabanee Co K.P.S.C,realestate,premier
+ALTIJARIA,The Commercial Real Estate Co K.S.C,realestate,premier
+NIND,National Industries Group Holding,finance,premier
+CABLE,Gulf Cables and Electrical Industries Group Co. K.S.C.P,industry,premier
+SHIP,Heavy Engineering Industries and Shipbuilding,industry,premier
+BPCC,Boubyan Petrochemical Co KSCP,materials,premier
+MKHZN,Agility Public Warehousing,industry,premier
+ZAIN,Mobile Telecommunications Company,comm,premier
+HUMANSOFT,Human Soft Holding,industry,premier
+IFAHR,IFA Hotels and Resorts,consumer_disc,premier
+CGC,Combined Group Contracting KSCP,industry,premier
+OULAFUEL,Oula Fuel Marketing,consumer_disc,premier
+JAZEERA,Jazeera Airways Co K.S.C.P,consumer_disc,premier
+GFH,GFH Bank B.S.C.,finance,premier
+WARBABANK,Warba Bank,finance,premier
+STC,Kuwait Telecommunications Company,comm,premier
+MEZZAN,Mezzan Holding Co,consumer_stap,premier
+INTEGRATED,Integrated Holding Co KSC,industry,premier
+BOURSA,Boursa Kuwait Securities Co KPSC,finance,premier
+ALG,Ali Alghanim Sons Automotive Company K.S.C.,consumer_disc,premier
+BEYOUT,Beyout Holding Company K.P.S.C,finance,premier
+ALFTAQA,Action Energy Company K.S.C.P,energy,premier
+TROLLEY,Trolley General Trading Company K.S.C.P,consumer_disc,premier
+CBK,Commercial Bank of Kuwait,finance,main
+FACIL,Commercial Facilities Co S.A.K,finance,main
+COAST,Coast Investment and Development,finance,main
+SECH,The Securities House K.S.C,finance,main
+MARKAZ,Kuwait Financial Centre,finance,main
+KMEFIC,Kuwait and Middle East Financial Investment,finance,main
+ALOLA,First Investment,finance,main
+GIH,Gulf Investment House,finance,main
+BAYANINV,Bayan Investment Holding Co.,finance,main
+OSOUL,Osoul Investment,finance,main
+KFIC,KFIC Invest K.S.C.P,finance,main
+KAMCO,KAMCO Investment,finance,main
+NIH,National International Holding K.S.C,finance,main
+UNICAP,Unicap Investment and Finance,finance,main
+MADAR,Al Madar Kuwait Holding Co.,finance,main
+ALDEERA,Al Deera Holding,finance,main
+ALSAFAT,Al Safat Investment Company K.S.C.C,finance,main
+EKTTITAB,Ekttitab Holding,finance,main
+SOKOUK,Sokouk Holding,realestate,main
+NOOR,Noor Financial Investment Co,finance,main
+TAMINV,Tamdeen Investment Co KPSC,finance,main
+EMIRATES,Kuwait Emirates Holding Company K.S.C.P,finance,main
+ASIYA,Asiya Capital Investments Co,finance,main
+RASIYAT,Rasiyat Holding Company K.P.S.C.,finance,main
+ALIMTIAZ,Al Imtiaz Group Holding Company K.S.C.P,finance,main
+KINS,Kuwait Insurance Co S.A.K,finance,main
+GINS,Gulf Insurance Group,finance,main
+AINS,Al Ahleia Insurance Co S.A.K.P.,finance,main
+WINSRE,Warba Insurance and Reinsurance Company K.S.C.P,finance,main
+KUWAITRE,Kuwait Reinsurance Co K.S.P.C,finance,main
+FTI,First Takaful Insurance,finance,main
+WETHAQ,Wethaq Takaful Insurance,finance,main
+NRE,National Real Estate Co K.S.C,realestate,main
+TAM,Tamdeen Real Estate Co KSC,realestate,main
+AREEC,Ajial Real Estate Entertainment,realestate,main
+ARABREC,Al Arabiya Real Estate Co KSC,realestate,main
+ALENMA,Al Enma'a Real Estate Co. K.S.C.P,realestate,main
+INJAZZAT,Injazzat Real Estate Development,realestate,main
+SANAM,Sanam Group Holding Company K.P.S.C,realestate,main
+AAYANRE,Aayan Real Estate Co KSCP,realestate,main
+AQAR,Aqar Real Estate Investments,realestate,main
+ALAQARIA,Kuwait Real Estate Holding,realestate,main
+MAZAYA,Al Mazaya Holding,realestate,main
+TIJARA,Tijara and Real Estate Investment,realestate,main
+ARKAN,Arkan Al Kuwait Real Estate,realestate,main
+ARGAN,Alargan International Real Estate,realestate,main
+MUNSHAAT,Munshaat Real Estate Projects,realestate,main
+KBT,Kuwait Business Town Real Estate,realestate,main
+MANAZEL,Manazel Holding,finance,main
+MENA,Mena Real Estate,realestate,main
+MARAKEZ,Marakez Real Estate Development Company K.P.S.C,realestate,main
+KCEM,Kuwait Cement K.P.S.C.,materials,main
+PCEM,Kuwait Portland Cement,materials,main
+SHUAIBA,Shuaiba Industrial Co. K.S.P.C,materials,main
+MRC,Metal and Recycling,materials,main
+KFOUC,Kuwait Foundry,materials,main
+ACICO,Acico Industries,materials,main
+ALKOUT,Al Kout Industrial Projects,materials,main
+NICBM,National Industries K.S.C.,materials,main
+EQUIPMENT,Equipment Holding,industry,main
+NCCI,National Consumer Holding Co,finance,main
+WARBACAP,Warba Capital Holding Co,finance,main
+KCIN,Kuwait National Cinema,consumer_disc,main
+KHOT,Kuwait Hotels Co KSCP,consumer_disc,main
+SENERGY,Senergy Holding Co,energy,main
+IPG,Independent Petroleum Group KSCP,energy,main
+CLEANING,National Cleaning Co KSCP,industry,main
+OOREDOO,National Mobile Telecommunications Company,comm,main
+ASC,Automated Systems Co KPSC,tech,main
+NAPESCO,National Petroleum Services,energy,main
+KCPC,Kuwait Company for Process Plant Construction and Contracting,industry,main
+PHC,Privatization Holding,finance,main
+ENERGYH,The Energy House Holding,energy,main
+GFC,Gulf Franchising Holding,finance,main
+TAHSSILAT,Credit Rating and Collection,finance,main
+ABAR,"Burgan Company for Well Drilling, Trading and Maintenance",energy,main
+PAPCO,Palms Agro Production,consumer_stap,main
+OSOS,Osos Holding Group Co,realestate,main
+UPAC,United Projects Co for Aviation Services,industry,main
+MASHAER,Mashaer Holding,realestate,main
+DIGITUS,Digitus Group for Digital Infrastructure Data Centers & Communications KSCP,comm,main
+MUBARRAD,Mubarrad Holding Company,industry,main
+MUNTAZAHAT,Kuwait Resorts,consumer_disc,main
+ATC,Advanced Technology,health,main
+SOOR,Soor Fuel Marketing,consumer_disc,main
+FUTUREKID,Future Kid Entertainment and Real Estate,consumer_disc,main
+CATTL,Livestock Transport and Trading Co KSC,consumer_stap,main
+QIC,Umm Al Qaiwain General Investment Co PSC,finance,main
+VALMORE,Valmore Holding,finance,main
+BKIKWT,Bahrain Kuwaiti Insurance Co B.S.C.,finance,main
+INOVEST,Inovest BSC,finance,main
+ALMANAR,Al Manar Financing and Leasing Co KSCP,finance,main
+AZNOULA,Shamal Az-Zour Al-Oula Power and Water Co K.S.C.P,utilities,main
+JTC,JTC Logistics Transportation & Stevedoring Company K.S.C.P,industry,main
+SPEC,Specialities Group Holding,industry,main
+MASAKEN,Al Masaken International Real Estate Development,realestate,main
+DALQANRE,Dalqan Real Estate Co K.S.C,realestate,main
+MIDAN,Al Maidan Clinic for Oral Health Services Co KSC,health,main
+THURAYA,Dar Al Thuraya Real Estate,realestate,main
+AMAR,Amar for Finance and Leasing,finance,main

@@ -231,11 +231,13 @@ bahrain,gfh,GFH Financial Group,finance,64,1,pending
 bahrain,abc,Bank ABC,finance,64,1,pending
 bahrain,nbb,National Bank of Bahrain,finance,64,1,pending
 bahrain,bic,Bahrain International Circuit (F1),consumer_disc,64,1,pending
+bahrain,bhb,Bahrain Bourse,finance,64,0,pending
 bahrain,kanoo,Yusuf bin Ahmed Kanoo Group,conglomerate,64,1,pending
 kuwait,mabanee,Mabanee (The Avenues),realestate,64,1,pending
 northern,aus,American University of Sharjah,education,64,1,pending
 northern,fujoilzone,Fujairah Oil Industry Zone,energy,64,1,pending
 oman,omanair,Oman Air,industry,64,0,pending
+oman,msx,Muscat Stock Exchange,finance,64,0,pending
 oman,zubair,The Zubair Corporation,conglomerate,64,1,pending
 qatar,nebras,Nebras Power,utilities,64,0,pending
 qatar,dohabank,Doha Bank,finance,64,1,pending
@@ -340,3 +342,631 @@ qatar,jaidah,Jaidah Group,conglomerate,56,0,pending
 abudhabi,adnic,Abu Dhabi National Insurance Company,finance,54,0,pending
 abudhabi,kpmg,KPMG Lower Gulf,industry,54,0,pending
 abudhabi,cliffordchance,Clifford Chance,industry,52,0,pending
+abudhabi,lst_eand,Emirates Telecommunications Group Company PJSC,comm,50,0,pending
+abudhabi,lst_ords,Ooredoo Q.P.S.C.,comm,50,0,pending
+abudhabi,lst_adports,Abu Dhabi Ports Company PJSC,industry,50,0,pending
+abudhabi,lst_mbme,MBME Group PJSC,health,50,0,pending
+abudhabi,lst_purehealth,Pure Health Holding PJSC,health,50,0,pending
+abudhabi,lst_2pointzero,Two Point Zero Group PJSC,tech,50,0,pending
+abudhabi,lst_agility,Agility Global PLC,industry,50,0,pending
+abudhabi,lst_apex,Apex Investment PSC,finance,50,0,pending
+abudhabi,lst_sib,Sharjah Islamic Bank PJSC,finance,50,0,pending
+abudhabi,lst_inb,Invest Bank P.S.C.,finance,50,0,pending
+abudhabi,lst_alefedt,Alef Education Holding plc,consumer_disc,50,0,pending
+abudhabi,lst_oras,Orascom Construction PLC,industry,50,0,pending
+abudhabi,lst_dana,Dana Gas PJSC,energy,50,0,pending
+abudhabi,lst_adaviation,Abu Dhabi Aviation Company,industry,50,0,pending
+abudhabi,lst_bos,Bank of Sharjah PJSC,finance,50,0,pending
+abudhabi,lst_uab,United Arab Bank PJSC,finance,50,0,pending
+abudhabi,lst_emobility,Emirates Mobility Company PJSC,industry,50,0,pending
+abudhabi,lst_icap,Investcorp Capital plc,finance,50,0,pending
+abudhabi,lst_phx,Phoenix Group PLC,tech,50,0,pending
+abudhabi,lst_gih,Gulf Investment House K.P.S.C.,finance,50,0,pending
+abudhabi,lst_rakprop,RAK Properties PJSC,realestate,50,0,pending
+abudhabi,lst_saga,Sagasse Investment Company Plc,finance,50,0,pending
+abudhabi,lst_anan,Anan Investment Holding PJSC,finance,50,0,pending
+abudhabi,lst_esg,ESG Emirates Stallions Group PJSC,materials,50,0,pending
+abudhabi,lst_asm,Al Seer Marine Supplies and Equipment Company PJSC,industry,50,0,pending
+abudhabi,lst_ghitha,Ghitha Holding PJSC,consumer_stap,50,0,pending
+abudhabi,lst_rakcec,RAK Ceramics PJSC,materials,50,0,pending
+abudhabi,lst_mair,MAIR Group PJSC,consumer_stap,50,0,pending
+abudhabi,lst_invictus,Invictus Investment Company PLC,finance,50,0,pending
+abudhabi,lst_e7,E7 Group PJSC,industry,50,0,pending
+abudhabi,lst_eshraq,Eshraq Investments PJSC,realestate,50,0,pending
+abudhabi,lst_adsb,Abu Dhabi Ship Building PJSC,industry,50,0,pending
+abudhabi,lst_gmpc,Gulf Medical Projects Company PJSC,health,50,0,pending
+abudhabi,lst_alphadata,Alpha Data PJSC,tech,50,0,pending
+abudhabi,lst_eic,Emirates Insurance Company PJSC,finance,50,0,pending
+abudhabi,lst_palms,Palms Sports PJSC,consumer_disc,50,0,pending
+abudhabi,lst_julphar,Gulf Pharmaceutical Industries P.S.C.,health,50,0,pending
+abudhabi,lst_dhafra,Al Dhafra Insurance Company P.S.C.,finance,50,0,pending
+abudhabi,lst_scidc,Sharjah Cement and Industrial Development Co. PJSC,materials,50,0,pending
+abudhabi,lst_manazel,Manazel PJSC,realestate,50,0,pending
+abudhabi,lst_sudatel,Sudatel Telecom Group Limited,comm,50,0,pending
+abudhabi,lst_qic,Umm Al Qaiwain General Investments Company P.S.C.,finance,50,0,pending
+abudhabi,lst_easylease,Easy Lease Motor Cycle Rental P.S.C.,industry,50,0,pending
+abudhabi,lst_fh,Finance House PJSC,finance,50,0,pending
+abudhabi,lst_rakwct,Ras Al Khaimah Co. for White Cement & Construction Materials P.S.C.,materials,50,0,pending
+abudhabi,lst_kico,Al Khaleej Investment PJSC,finance,50,0,pending
+abudhabi,lst_alain,Al Ain Ahlia Insurance Company P.S.C.,finance,50,0,pending
+abudhabi,lst_gcem,Gulf Cement Company P.S.C.,materials,50,0,pending
+abudhabi,lst_fbi,Fujairah Building Industries PJSC,materials,50,0,pending
+abudhabi,lst_rpm,Response Plus Holding PJSC,health,50,0,pending
+abudhabi,lst_sawaeed,Sawaeed Holding PJSC,industry,50,0,pending
+abudhabi,lst_union,Union Insurance Company PJSC,finance,50,0,pending
+abudhabi,lst_hh,Hily Holding PJSC,conglomerate,50,0,pending
+abudhabi,lst_fidelityunited,United Fidelity Insurance Company P.S.C.,finance,50,0,pending
+abudhabi,lst_hayah,Hayah Insurance Company PJSC,finance,50,0,pending
+abudhabi,lst_sico,Sharjah Insurance Company P.S.C.,finance,50,0,pending
+abudhabi,lst_rapco,RAPCO Investment PJSC,consumer_stap,50,0,pending
+abudhabi,lst_aram,ARAM Group Company PJSC,realestate,50,0,pending
+abudhabi,lst_fci,Fujairah Cement Industries PJSC,materials,50,0,pending
+abudhabi,lst_oeihc,Oman & Emirates Investment Holding Company SAOG,finance,50,0,pending
+abudhabi,lst_ih,Insurance House PJSC,finance,50,0,pending
+abudhabi,lst_methaq,Methaq Takaful Insurance P.S.C.,finance,50,0,pending
+bahrain,lst_kfh,Kuwait Finance House K.S.C.P.,finance,50,0,pending
+bahrain,lst_albh,Aluminium Bahrain B.S.C.,materials,50,0,pending
+bahrain,lst_bbk,Bank of Bahrain and Kuwait B.S.C.,finance,50,0,pending
+bahrain,lst_salam,Al Salam Bank B.S.C.,finance,50,0,pending
+bahrain,lst_ugh,United Gulf Holding Company B.S.C.,finance,50,0,pending
+bahrain,lst_ghg,Gulf Hotels Group B.S.C.,consumer_disc,50,0,pending
+bahrain,lst_apmtb,APM Terminals Bahrain B.S.C.,industry,50,0,pending
+bahrain,lst_khaleeji,Khaleeji Bank B.S.C.,finance,50,0,pending
+bahrain,lst_bisb,Bahrain Islamic Bank B.S.C.,finance,50,0,pending
+bahrain,lst_arig,Arab Insurance Group B.S.C.,finance,50,0,pending
+bahrain,lst_solid,Solidarity Bahrain B.S.C.,finance,50,0,pending
+bahrain,lst_bkic,Bahrain Kuwait Insurance Company B.S.C.,finance,50,0,pending
+bahrain,lst_bnh,Bahrain National Holding Company B.S.C.,finance,50,0,pending
+bahrain,lst_seef,Seef Properties B.S.C.,realestate,50,0,pending
+bahrain,lst_dutyf,Bahrain Duty Free Shop Complex B.S.C.,consumer_disc,50,0,pending
+bahrain,lst_bcfc,Bahrain Commercial Facilities Company B.S.C.,finance,50,0,pending
+bahrain,lst_zainbh,Zain Bahrain B.S.C.,comm,50,0,pending
+bahrain,lst_inovest,Inovest B.S.C.,finance,50,0,pending
+bahrain,lst_esterad,Esterad Investment Company B.S.C.,finance,50,0,pending
+bahrain,lst_nhotel,National Hotels Company B.S.C.,consumer_disc,50,0,pending
+bahrain,lst_ithmr,Ithmaar Holding B.S.C.,finance,50,0,pending
+bahrain,lst_basrec,The Bahrain Ship Repairing and Engineering Company B.S.C.,industry,50,0,pending
+bahrain,lst_trafco,Trafco Group B.S.C.,consumer_stap,50,0,pending
+bahrain,lst_cpark,Bahrain Car Parks Company (Amakin) B.S.C.,industry,50,0,pending
+bahrain,lst_cineco,Bahrain Cinema Company B.S.C.,consumer_disc,50,0,pending
+bahrain,lst_bfm,Bahrain Flour Mills Company B.S.C.,consumer_stap,50,0,pending
+bahrain,lst_silah,Silah Gulf B.S.C. Closed,industry,50,0,pending
+bahrain,lst_ugic,United Gulf Investment Corporation B.S.C.,finance,50,0,pending
+bahrain,lst_poltry,Delmon Poultry Company B.S.C.,consumer_stap,50,0,pending
+bahrain,lst_family,Bahrain Family Leisure Company B.S.C.,consumer_disc,50,0,pending
+bahrain,lst_nass,Nass Corporation B.S.C.,industry,50,0,pending
+bahrain,lst_ebrit,Eskan Bank Realty Income Trust,realestate,50,0,pending
+bahrain,lst_abraaj,Al Abraaj Restaurants Group B.S.C.,consumer_disc,50,0,pending
+bahrain,lst_barka,Al Baraka Banking Group B.S.C.,finance,50,0,pending
+dubai,lst_salik,Salik Company P.J.S.C.,industry,50,0,pending
+dubai,lst_talabat,Talabat Holding plc,consumer_disc,50,0,pending
+dubai,lst_airarabia,Air Arabia PJSC,industry,50,0,pending
+dubai,lst_parkin,Parkin Company P.J.S.C.,industry,50,0,pending
+dubai,lst_etihadenergy,Etihad Energy Holding PJSC,industry,50,0,pending
+dubai,lst_gfh,GFH Bank B.S.C.,finance,50,0,pending
+dubai,lst_alansari,Al Ansari Financial Services PJSC,finance,50,0,pending
+dubai,lst_nind,National Industries Group Holding K.P.S.C.,conglomerate,50,0,pending
+dubai,lst_tabreed,National Central Cooling Company PJSC,utilities,50,0,pending
+dubai,lst_alec,ALEC Holdings PJSC,industry,50,0,pending
+dubai,lst_salambah,Al Salam Bank B.S.C.,finance,50,0,pending
+dubai,lst_mkhzn,Makhazen,industry,50,0,pending
+dubai,lst_ajmanbank,Ajman Bank PJSC,finance,50,0,pending
+dubai,lst_unioncoop,Union Coop,consumer_stap,50,0,pending
+dubai,lst_amanat,Amanat Holdings PJSC,health,50,0,pending
+dubai,lst_deyaar,Deyaar Development PJSC,realestate,50,0,pending
+dubai,lst_taaleem,Taaleem Holdings PJSC,consumer_disc,50,0,pending
+dubai,lst_sukoon,Sukoon Insurance PJSC,finance,50,0,pending
+dubai,lst_armx,Aramex PJSC,industry,50,0,pending
+dubai,lst_upp,Union Properties PJSC,realestate,50,0,pending
+dubai,lst_ifa,International Financial Advisors Holding K.P.S.C.,finance,50,0,pending
+dubai,lst_ncc,National Cement Company,materials,50,0,pending
+dubai,lst_amlak,Amlak Finance PJSC,finance,50,0,pending
+dubai,lst_salama,Islamic Arab Insurance Co. (Salama) PJSC,finance,50,0,pending
+dubai,lst_ngi,National General Insurance Co. P.J.S.C.,finance,50,0,pending
+dubai,lst_shuaa,SHUAA Capital PSC,finance,50,0,pending
+dubai,lst_alramz,Al Ramz Corporation Investment and Development P.J.S.C.,finance,50,0,pending
+dubai,lst_dsi,Drake and Scull International P.J.S.C.,industry,50,0,pending
+dubai,lst_nih,National International Holding Company K.S.C.P.,finance,50,0,pending
+dubai,lst_mazaya,Al-Mazaya Holding Company K.S.C.,realestate,50,0,pending
+dubai,lst_bhmcapital,BHM Capital Financial Services PSC,finance,50,0,pending
+dubai,lst_ufc,United Foods Company PSC,consumer_stap,50,0,pending
+dubai,lst_sukoontakafl,Sukoon Takaful PJSC,finance,50,0,pending
+dubai,lst_ithmr,Ithmaar Holding B.S.C.,finance,50,0,pending
+dubai,lst_unikai,Unikai Foods P.J.S.C.,consumer_stap,50,0,pending
+dubai,lst_naho,Naeem Holding Company For Investments,finance,50,0,pending
+dubai,lst_alfirdous,Al Firdous Holdings P.J.S.C.,consumer_disc,50,0,pending
+dubai,lst_watania,Watania International Holding PJSC,finance,50,0,pending
+dubai,lst_ekttitab,Ekttitab Holding Company K.S.C.,finance,50,0,pending
+dubai,lst_alsalamsudan,Al Salam Bank - Sudan,finance,50,0,pending
+kuwait,lst_abk,Al Ahli Bank of Kuwait,finance,50,0,pending
+kuwait,lst_kib,Kuwait International Bank,finance,50,0,pending
+kuwait,lst_burg,Burgan Bank,finance,50,0,pending
+kuwait,lst_boubyan,Boubyan Bank,finance,50,0,pending
+kuwait,lst_ifa,International Financial Advisors Holding,finance,50,0,pending
+kuwait,lst_ninv,National Investments Co,finance,50,0,pending
+kuwait,lst_kproj,Kuwait Projects Holding,finance,50,0,pending
+kuwait,lst_arzan,Arzan Financial Group for Financing and Investment,finance,50,0,pending
+kuwait,lst_aayan,Aayan Leasing and Investment,finance,50,0,pending
+kuwait,lst_kre,Kuwait Real Estate Co KSC,realestate,50,0,pending
+kuwait,lst_urc,United Real Estate K.S.C,realestate,50,0,pending
+kuwait,lst_sre,Salhia Real Estate,realestate,50,0,pending
+kuwait,lst_altijaria,The Commercial Real Estate Co K.S.C,realestate,50,0,pending
+kuwait,lst_nind,National Industries Group Holding,finance,50,0,pending
+kuwait,lst_cable,Gulf Cables and Electrical Industries Group Co. K.S.C.P,industry,50,0,pending
+kuwait,lst_ship,Heavy Engineering Industries and Shipbuilding,industry,50,0,pending
+kuwait,lst_bpcc,Boubyan Petrochemical Co KSCP,materials,50,0,pending
+kuwait,lst_zain,Mobile Telecommunications Company,comm,50,0,pending
+kuwait,lst_humansoft,Human Soft Holding,industry,50,0,pending
+kuwait,lst_ifahr,IFA Hotels and Resorts,consumer_disc,50,0,pending
+kuwait,lst_cgc,Combined Group Contracting KSCP,industry,50,0,pending
+kuwait,lst_oulafuel,Oula Fuel Marketing,consumer_disc,50,0,pending
+kuwait,lst_gfh,GFH Bank B.S.C.,finance,50,0,pending
+kuwait,lst_warbabank,Warba Bank,finance,50,0,pending
+kuwait,lst_stc,Kuwait Telecommunications Company,comm,50,0,pending
+kuwait,lst_integrated,Integrated Holding Co KSC,industry,50,0,pending
+kuwait,lst_beyout,Beyout Holding Company K.P.S.C,finance,50,0,pending
+kuwait,lst_alftaqa,Action Energy Company K.S.C.P,energy,50,0,pending
+kuwait,lst_trolley,Trolley General Trading Company K.S.C.P,consumer_disc,50,0,pending
+kuwait,lst_cbk,Commercial Bank of Kuwait,finance,50,0,pending
+kuwait,lst_facil,Commercial Facilities Co S.A.K,finance,50,0,pending
+kuwait,lst_coast,Coast Investment and Development,finance,50,0,pending
+kuwait,lst_sech,The Securities House K.S.C,finance,50,0,pending
+kuwait,lst_markaz,Kuwait Financial Centre,finance,50,0,pending
+kuwait,lst_kmefic,Kuwait and Middle East Financial Investment,finance,50,0,pending
+kuwait,lst_alola,First Investment,finance,50,0,pending
+kuwait,lst_gih,Gulf Investment House,finance,50,0,pending
+kuwait,lst_bayaninv,Bayan Investment Holding Co.,finance,50,0,pending
+kuwait,lst_osoul,Osoul Investment,finance,50,0,pending
+kuwait,lst_kfic,KFIC Invest K.S.C.P,finance,50,0,pending
+kuwait,lst_kamco,KAMCO Investment,finance,50,0,pending
+kuwait,lst_nih,National International Holding K.S.C,finance,50,0,pending
+kuwait,lst_unicap,Unicap Investment and Finance,finance,50,0,pending
+kuwait,lst_madar,Al Madar Kuwait Holding Co.,finance,50,0,pending
+kuwait,lst_aldeera,Al Deera Holding,finance,50,0,pending
+kuwait,lst_alsafat,Al Safat Investment Company K.S.C.C,finance,50,0,pending
+kuwait,lst_ekttitab,Ekttitab Holding,finance,50,0,pending
+kuwait,lst_sokouk,Sokouk Holding,realestate,50,0,pending
+kuwait,lst_noor,Noor Financial Investment Co,finance,50,0,pending
+kuwait,lst_taminv,Tamdeen Investment Co KPSC,finance,50,0,pending
+kuwait,lst_emirates,Kuwait Emirates Holding Company K.S.C.P,finance,50,0,pending
+kuwait,lst_asiya,Asiya Capital Investments Co,finance,50,0,pending
+kuwait,lst_rasiyat,Rasiyat Holding Company K.P.S.C.,finance,50,0,pending
+kuwait,lst_alimtiaz,Al Imtiaz Group Holding Company K.S.C.P,finance,50,0,pending
+kuwait,lst_kins,Kuwait Insurance Co S.A.K,finance,50,0,pending
+kuwait,lst_gins,Gulf Insurance Group,finance,50,0,pending
+kuwait,lst_ains,Al Ahleia Insurance Co S.A.K.P.,finance,50,0,pending
+kuwait,lst_winsre,Warba Insurance and Reinsurance Company K.S.C.P,finance,50,0,pending
+kuwait,lst_kuwaitre,Kuwait Reinsurance Co K.S.P.C,finance,50,0,pending
+kuwait,lst_fti,First Takaful Insurance,finance,50,0,pending
+kuwait,lst_wethaq,Wethaq Takaful Insurance,finance,50,0,pending
+kuwait,lst_nre,National Real Estate Co K.S.C,realestate,50,0,pending
+kuwait,lst_tam,Tamdeen Real Estate Co KSC,realestate,50,0,pending
+kuwait,lst_areec,Ajial Real Estate Entertainment,realestate,50,0,pending
+kuwait,lst_arabrec,Al Arabiya Real Estate Co KSC,realestate,50,0,pending
+kuwait,lst_alenma,Al Enma'a Real Estate Co. K.S.C.P,realestate,50,0,pending
+kuwait,lst_injazzat,Injazzat Real Estate Development,realestate,50,0,pending
+kuwait,lst_sanam,Sanam Group Holding Company K.P.S.C,realestate,50,0,pending
+kuwait,lst_aayanre,Aayan Real Estate Co KSCP,realestate,50,0,pending
+kuwait,lst_aqar,Aqar Real Estate Investments,realestate,50,0,pending
+kuwait,lst_mazaya,Al Mazaya Holding,realestate,50,0,pending
+kuwait,lst_tijara,Tijara and Real Estate Investment,realestate,50,0,pending
+kuwait,lst_argan,Alargan International Real Estate,realestate,50,0,pending
+kuwait,lst_munshaat,Munshaat Real Estate Projects,realestate,50,0,pending
+kuwait,lst_kbt,Kuwait Business Town Real Estate,realestate,50,0,pending
+kuwait,lst_manazel,Manazel Holding,finance,50,0,pending
+kuwait,lst_mena,Mena Real Estate,realestate,50,0,pending
+kuwait,lst_marakez,Marakez Real Estate Development Company K.P.S.C,realestate,50,0,pending
+kuwait,lst_kcem,Kuwait Cement K.P.S.C.,materials,50,0,pending
+kuwait,lst_pcem,Kuwait Portland Cement,materials,50,0,pending
+kuwait,lst_shuaiba,Shuaiba Industrial Co. K.S.P.C,materials,50,0,pending
+kuwait,lst_mrc,Metal and Recycling,materials,50,0,pending
+kuwait,lst_kfouc,Kuwait Foundry,materials,50,0,pending
+kuwait,lst_acico,Acico Industries,materials,50,0,pending
+kuwait,lst_alkout,Al Kout Industrial Projects,materials,50,0,pending
+kuwait,lst_equipment,Equipment Holding,industry,50,0,pending
+kuwait,lst_ncci,National Consumer Holding Co,finance,50,0,pending
+kuwait,lst_warbacap,Warba Capital Holding Co,finance,50,0,pending
+kuwait,lst_kcin,Kuwait National Cinema,consumer_disc,50,0,pending
+kuwait,lst_khot,Kuwait Hotels Co KSCP,consumer_disc,50,0,pending
+kuwait,lst_senergy,Senergy Holding Co,energy,50,0,pending
+kuwait,lst_ipg,Independent Petroleum Group KSCP,energy,50,0,pending
+kuwait,lst_cleaning,National Cleaning Co KSCP,industry,50,0,pending
+kuwait,lst_asc,Automated Systems Co KPSC,tech,50,0,pending
+kuwait,lst_napesco,National Petroleum Services,energy,50,0,pending
+kuwait,lst_kcpc,Kuwait Company for Process Plant Construction and Contracting,industry,50,0,pending
+kuwait,lst_phc,Privatization Holding,finance,50,0,pending
+kuwait,lst_energyh,The Energy House Holding,energy,50,0,pending
+kuwait,lst_gfc,Gulf Franchising Holding,finance,50,0,pending
+kuwait,lst_tahssilat,Credit Rating and Collection,finance,50,0,pending
+kuwait,lst_abar,"Burgan Company for Well Drilling, Trading and Maintenance",energy,50,0,pending
+kuwait,lst_papco,Palms Agro Production,consumer_stap,50,0,pending
+kuwait,lst_osos,Osos Holding Group Co,realestate,50,0,pending
+kuwait,lst_upac,United Projects Co for Aviation Services,industry,50,0,pending
+kuwait,lst_mashaer,Mashaer Holding,realestate,50,0,pending
+kuwait,lst_digitus,Digitus Group for Digital Infrastructure Data Centers & Communications KSCP,comm,50,0,pending
+kuwait,lst_mubarrad,Mubarrad Holding Company,industry,50,0,pending
+kuwait,lst_muntazahat,Kuwait Resorts,consumer_disc,50,0,pending
+kuwait,lst_atc,Advanced Technology,health,50,0,pending
+kuwait,lst_soor,Soor Fuel Marketing,consumer_disc,50,0,pending
+kuwait,lst_futurekid,Future Kid Entertainment and Real Estate,consumer_disc,50,0,pending
+kuwait,lst_cattl,Livestock Transport and Trading Co KSC,consumer_stap,50,0,pending
+kuwait,lst_qic,Umm Al Qaiwain General Investment Co PSC,finance,50,0,pending
+kuwait,lst_valmore,Valmore Holding,finance,50,0,pending
+kuwait,lst_bkikwt,Bahrain Kuwaiti Insurance Co B.S.C.,finance,50,0,pending
+kuwait,lst_inovest,Inovest BSC,finance,50,0,pending
+kuwait,lst_almanar,Al Manar Financing and Leasing Co KSCP,finance,50,0,pending
+kuwait,lst_jtc,JTC Logistics Transportation & Stevedoring Company K.S.C.P,industry,50,0,pending
+kuwait,lst_spec,Specialities Group Holding,industry,50,0,pending
+kuwait,lst_masaken,Al Masaken International Real Estate Development,realestate,50,0,pending
+kuwait,lst_dalqanre,Dalqan Real Estate Co K.S.C,realestate,50,0,pending
+kuwait,lst_midan,Al Maidan Clinic for Oral Health Services Co KSC,health,50,0,pending
+kuwait,lst_thuraya,Dar Al Thuraya Real Estate,realestate,50,0,pending
+kuwait,lst_amar,Amar for Finance and Leasing,finance,50,0,pending
+oman,lst_ajss,Al Jazeira Services Company SAOG,industry,50,0,pending
+oman,lst_amat,Al Madina Takaful SAOG,finance,50,0,pending
+oman,lst_aofs,Al Omaniya Financial Services SAOG,finance,50,0,pending
+oman,lst_bwpc,Barka Water and Power Company SAOG,utilities,50,0,pending
+oman,lst_batp,Al Batinah Power Company SAOG,utilities,50,0,pending
+oman,lst_bkdb,Bank Dhofar SAOG,finance,50,0,pending
+oman,lst_bknz,Bank Nizwa SAOG,finance,50,0,pending
+oman,lst_atmi,Al Jazeera Steel Products Company SAOG,materials,50,0,pending
+oman,lst_didi,Dhofar International Development & Investment SAOG,finance,50,0,pending
+oman,lst_gfic,Global Financial Investments Holding SAOG,finance,50,0,pending
+oman,lst_ufci,United Finance Company SAOG,finance,50,0,pending
+oman,lst_voes,Voltamp Energy SAOG,industry,50,0,pending
+oman,lst_suwp,Al Suwadi Power Company SAOG,utilities,50,0,pending
+oman,lst_sspw,Sembcorp Salalah Power & Water Company SAOG,utilities,50,0,pending
+oman,lst_spfi,A'Saffa Foods SAOG,consumer_stap,50,0,pending
+oman,lst_smnp,SMN Power Holding SAOG,utilities,50,0,pending
+oman,lst_rnss,Renaissance Services SAOG,industry,50,0,pending
+oman,lst_phpc,Phoenix Power Company SAOG,utilities,50,0,pending
+oman,lst_mspw,Musandam Power Company SAOG,utilities,50,0,pending
+oman,lst_gmpi,Gulf Mushroom Products Co. SAOG,consumer_stap,50,0,pending
+oman,lst_nbob,National Bank of Oman SAOG,finance,50,0,pending
+oman,lst_ocai,Oman Cables Industry SAOG,industry,50,0,pending
+oman,lst_oeio,Oman & Emirates Investment Holding Company SAOG,finance,50,0,pending
+oman,lst_ones,Oman National Engineering & Investment Company SAOG,industry,50,0,pending
+oman,lst_ooms,Oman Oil Marketing Company SAOG,energy,50,0,pending
+oman,lst_ouic,Oman United Insurance Company SAOG,finance,50,0,pending
+oman,lst_aaic,Al Anwar Investments SAOG,finance,50,0,pending
+oman,lst_mhas,Al Maha Petroleum Products Marketing Company SAOG,energy,50,0,pending
+oman,lst_ocoi,Oman Cement Company SAOG,materials,50,0,pending
+oman,lst_ords,Omani Qatari Telecommunications Company SAOG (Ooredoo),comm,50,0,pending
+oman,lst_sihc,A'Sharqiya Investment Holding Co. SAOG,finance,50,0,pending
+oman,lst_brde,Barka Desalination Company SAOG,utilities,50,0,pending
+oman,lst_abrj,Abraj Energy Services SAOG,energy,50,0,pending
+oman,lst_oqgn,OQ Gas Networks SAOG,utilities,50,0,pending
+oman,lst_oqep,OQ Exploration and Production SAOG,energy,50,0,pending
+oman,lst_oqbi,OQ Base Industries (SFZ) SAOG,materials,50,0,pending
+oman,lst_cmii,Construction Materials Industries SAOG,materials,50,0,pending
+oman,lst_aact,Al Anwar Ceramic Tiles Company SAOG,materials,50,0,pending
+oman,lst_abob,Ahli Bank SAOG,finance,50,0,pending
+oman,lst_afai,Al Fajar Al Alamia Company SAOG,industry,50,0,pending
+oman,lst_afic,Arabia Falcon Insurance SAOG,finance,50,0,pending
+oman,lst_dtcs,Dhofar Tourism Company SAOG,consumer_disc,50,0,pending
+oman,lst_ghos,Gulf Hotels (Oman) Company Limited SAOG,consumer_disc,50,0,pending
+oman,lst_hmci,Hotels Management Company International SAOG,consumer_disc,50,0,pending
+oman,lst_mcti,Muscat Insurance Company SAOG,finance,50,0,pending
+oman,lst_nbii,National Biscuit Industries Limited SAOG,consumer_stap,50,0,pending
+oman,lst_nred,National Real Estate Development and Investments Company SAOG,realestate,50,0,pending
+oman,lst_occi,Oman Chromite Company SAOG,materials,50,0,pending
+oman,lst_sahs,Sahara Hospitality Company SAOG,consumer_disc,50,0,pending
+oman,lst_amii,Al Madina Investment Holding Co. SAOG,finance,50,0,pending
+oman,lst_bacs,Majan College (University College) SAOG,industry,50,0,pending
+oman,lst_dbci,Dhofar Beverage and Food Stuff Company SAOG,consumer_stap,50,0,pending
+oman,lst_dfin,Dhofar Food & Investment SAOG,consumer_stap,50,0,pending
+oman,lst_dgen,Dhofar Generating Company SAOG,utilities,50,0,pending
+oman,lst_dics,Dhofar Insurance Company SAOG,finance,50,0,pending
+oman,lst_gecs,Galfar Engineering & Contracting SAOG,industry,50,0,pending
+oman,lst_gici,Gulf International Chemicals SAOG,materials,50,0,pending
+oman,lst_ubar,Ubar Hotels & Resorts SAOG,consumer_disc,50,0,pending
+oman,lst_tfci,Taageer Finance Company SAOG,finance,50,0,pending
+oman,lst_taoi,Takaful Oman Insurance SAOG,finance,50,0,pending
+oman,lst_spsi,Salalah Port Services Company SAOG,industry,50,0,pending
+oman,lst_shrq,Sharqiyah Desalination Company SAOG,utilities,50,0,pending
+oman,lst_shps,Sohar Power Company SAOG,utilities,50,0,pending
+oman,lst_sfmi,Salalah Mills Company SAOG,consumer_stap,50,0,pending
+oman,lst_mcde,Muscat City Desalination Company SAOG,utilities,50,0,pending
+oman,lst_mgmc,Muscat Gases Company SAOG,materials,50,0,pending
+oman,lst_mtmi,Muscat Thread Mills SAOG,materials,50,0,pending
+oman,lst_ndti,The National Detergent Company SAOG,materials,50,0,pending
+oman,lst_liva,Liva Group SAOG,finance,50,0,pending
+oman,lst_oeti,Oman Education & Training Investment Company SAOG,industry,50,0,pending
+oman,lst_opci,Omani Packaging Company SAOG,materials,50,0,pending
+oman,lst_oqic,Oman Qatar Insurance Company SAOG,finance,50,0,pending
+oman,lst_orci,Oman Refreshment Company SAOG,consumer_stap,50,0,pending
+oman,lst_somp,Shell Oman Marketing Company SAOG (Preferred),energy,50,0,pending
+oman,lst_nfci,National Finance Company SAOG,finance,50,0,pending
+oman,lst_amci,Al Maha Ceramics SAOG,materials,50,0,pending
+oman,lst_mfci,Muscat Finance SAOG,finance,50,0,pending
+oman,lst_ngci,National Gas Company SAOG,energy,50,0,pending
+oman,lst_ochl,Oman Chlorine SAOG,materials,50,0,pending
+oman,lst_oab,Oman Arab Bank SAOG,finance,50,0,pending
+oman,lst_oric,Oman Reinsurance Company SAOG,finance,50,0,pending
+oman,lst_omif,Oman India Fertiliser Company SAOG,materials,50,0,pending
+qatar,lst_eres,Ezdan Holding Group Q.P.S.C.,realestate,50,0,pending
+qatar,lst_mark,Al Rayan Bank Q.P.S.C.,finance,50,0,pending
+qatar,lst_igrd,Estithmar Holding Q.P.S.C.,conglomerate,50,0,pending
+qatar,lst_dubk,Dukhan Bank Q.P.S.C.,finance,50,0,pending
+qatar,lst_qiik,Qatar International Islamic Bank Q.P.S.C.,finance,50,0,pending
+qatar,lst_mphc,Mesaieed Petrochemical Holding Company Q.P.S.C.,materials,50,0,pending
+qatar,lst_qfls,Qatar Fuel Company Q.P.S.C. (WOQOD),energy,50,0,pending
+qatar,lst_abqk,Ahli Bank Q.P.S.C.,finance,50,0,pending
+qatar,lst_qamc,Qatar Aluminium Manufacturing Company Q.P.S.C.,materials,50,0,pending
+qatar,lst_qati,Qatar Insurance Company Q.S.P.C.,finance,50,0,pending
+qatar,lst_zhcd,Zad Holding Company Q.P.S.C.,consumer_stap,50,0,pending
+qatar,lst_giss,Gulf International Services Q.P.S.C.,energy,50,0,pending
+qatar,lst_qfbq,Lesha Bank LLC,finance,50,0,pending
+qatar,lst_mers,Al Meera Consumer Goods Company Q.P.S.C.,consumer_stap,50,0,pending
+qatar,lst_qgri,Qatar General Insurance & Reinsurance Company Q.P.S.C.,finance,50,0,pending
+qatar,lst_meza,MEEZA QSTP-LLC,tech,50,0,pending
+qatar,lst_qigd,Qatari Investors Group Q.P.S.C.,conglomerate,50,0,pending
+qatar,lst_qncd,Qatar National Cement Company Q.P.S.C.,materials,50,0,pending
+qatar,lst_mcgs,Medicare Group Q.P.S.C.,health,50,0,pending
+qatar,lst_dohi,Doha Insurance Group Q.P.S.C.,finance,50,0,pending
+qatar,lst_gwcs,Gulf Warehousing Company Q.P.S.C.,industry,50,0,pending
+qatar,lst_qisi,Qatar Islamic Insurance Group Q.P.S.C.,finance,50,0,pending
+qatar,lst_bema,Damaan Islamic Insurance Company (Beema) Q.P.S.C.,finance,50,0,pending
+qatar,lst_qimd,Qatar Industrial Manufacturing Company Q.P.S.C.,materials,50,0,pending
+qatar,lst_siis,Salam International Investment Limited Q.P.S.C.,conglomerate,50,0,pending
+qatar,lst_akhi,Al Khaleej Takaful Insurance Company Q.P.S.C.,finance,50,0,pending
+qatar,lst_qlmi,QLM Life & Medical Insurance Company Q.P.S.C.,finance,50,0,pending
+qatar,lst_mfms,Mosanada Facility Management Services Q.P.S.C.,industry,50,0,pending
+qatar,lst_mrds,Mazaya Real Estate Development Q.P.S.C.,realestate,50,0,pending
+qatar,lst_mhar,Al Mahhar Holding Company Q.P.S.C.,conglomerate,50,0,pending
+qatar,lst_nlcs,Alijarah Holding Q.P.S.C.,finance,50,0,pending
+qatar,lst_mkdm,Mekdam Holding Group Q.P.S.C.,industry,50,0,pending
+qatar,lst_dbis,Dlala Brokerage and Investment Holding Company Q.P.S.C.,finance,50,0,pending
+qatar,lst_wdam,Widam Food Company Q.P.S.C.,consumer_stap,50,0,pending
+qatar,lst_tqes,Qatar Electronic Systems Company (Techno Q) Q.P.S.C.,tech,50,0,pending
+qatar,lst_qcfs,Qatar Cinema and Film Distribution Co. Q.P.S.C.,consumer_disc,50,0,pending
+qatar,lst_qgmd,Qatari German Company for Medical Devices Q.P.S.C.,health,50,0,pending
+qatar,lst_ihgs,INMA Holding Company Q.P.S.C.,conglomerate,50,0,pending
+qatar,lst_falh,Al Faleh Educational Holding Company Q.P.S.C.,consumer_disc,50,0,pending
+qatar,lst_qois,Qatar Oman Investment Company Q.S.C.,finance,50,0,pending
+saudi,lst_2030,Saudi Arabia Refineries Co.,energy,50,0,pending
+saudi,lst_2380,Rabigh Refining and Petrochemical Co. (Petro Rabigh),energy,50,0,pending
+saudi,lst_4030,National Shipping Co. of Saudi Arabia (Bahri),energy,50,0,pending
+saudi,lst_2381,Arabian Drilling Co.,energy,50,0,pending
+saudi,lst_2382,ADES Holding Co.,energy,50,0,pending
+saudi,lst_1201,Takween Advanced Industries Co.,materials,50,0,pending
+saudi,lst_1202,Middle East Paper Co. (Mepco),materials,50,0,pending
+saudi,lst_1210,Basic Chemical Industries Co. (BCI),materials,50,0,pending
+saudi,lst_1301,Aslak Co.,materials,50,0,pending
+saudi,lst_1304,Al Yamamah Steel Industries Co.,materials,50,0,pending
+saudi,lst_1320,Saudi Steel Pipe Co.,materials,50,0,pending
+saudi,lst_2001,Chemanol (National Methanol Co.),materials,50,0,pending
+saudi,lst_2090,National Gas and Industrialization Co.,materials,50,0,pending
+saudi,lst_2150,Zoujaj Industrial Co.,materials,50,0,pending
+saudi,lst_2170,Alujain Corp.,materials,50,0,pending
+saudi,lst_2180,Filling and Packing Materials Manufacturing Co. (FIPCO),materials,50,0,pending
+saudi,lst_2200,Arabian Pipes Co.,materials,50,0,pending
+saudi,lst_2210,Nama Chemicals Co.,materials,50,0,pending
+saudi,lst_2220,National Metal Manufacturing and Casting Co. (Maadaniyah),materials,50,0,pending
+saudi,lst_2240,Zamil Industrial Investment Co.,materials,50,0,pending
+saudi,lst_2250,Saudi Industrial Investment Group,materials,50,0,pending
+saudi,lst_2290,Yanbu National Petrochemical Co. (Yansab),materials,50,0,pending
+saudi,lst_2300,Saudi Paper Manufacturing Co.,materials,50,0,pending
+saudi,lst_2310,Sahara International Petrochemical Co. (Sipchem),materials,50,0,pending
+saudi,lst_2330,Advanced Petrochemical Co.,materials,50,0,pending
+saudi,lst_2350,Saudi Kayan Petrochemical Co.,materials,50,0,pending
+saudi,lst_2360,Saudi Vitrified Clay Pipes Co.,materials,50,0,pending
+saudi,lst_3002,Najran Cement Co.,materials,50,0,pending
+saudi,lst_3003,City Cement Co.,materials,50,0,pending
+saudi,lst_3004,Northern Region Cement Co.,materials,50,0,pending
+saudi,lst_3005,United Arab Cement Co.,materials,50,0,pending
+saudi,lst_3007,Oasis Trading and Marketing Co.,materials,50,0,pending
+saudi,lst_3008,Al Kathiri Holding Co.,materials,50,0,pending
+saudi,lst_3010,Arabian Cement Co.,materials,50,0,pending
+saudi,lst_3020,Yamama Cement Co.,materials,50,0,pending
+saudi,lst_3030,Saudi Cement Co.,materials,50,0,pending
+saudi,lst_3040,Qassim Cement Co.,materials,50,0,pending
+saudi,lst_3050,Southern Province Cement Co.,materials,50,0,pending
+saudi,lst_3060,Yanbu Cement Co.,materials,50,0,pending
+saudi,lst_3080,Eastern Province Cement Co.,materials,50,0,pending
+saudi,lst_3090,Tabuk Cement Co.,materials,50,0,pending
+saudi,lst_3091,Jouf Cement Co.,materials,50,0,pending
+saudi,lst_3092,Riyadh Cement Co.,materials,50,0,pending
+saudi,lst_2060,National Industrialization Co. (Tasnee),materials,50,0,pending
+saudi,lst_1321,East Pipes Integrated Co.,materials,50,0,pending
+saudi,lst_1322,Amak International Holding Co.,materials,50,0,pending
+saudi,lst_1323,United Carton Industries Co.,materials,50,0,pending
+saudi,lst_1324,Saleh Abdulaziz Al Rashed and Sons Co.,materials,50,0,pending
+saudi,lst_1212,Astra Industrial Group,industry,50,0,pending
+saudi,lst_1302,Bawan Co.,industry,50,0,pending
+saudi,lst_1303,Electrical Industries Co.,industry,50,0,pending
+saudi,lst_1214,Shaker Group,industry,50,0,pending
+saudi,lst_2040,Saudi Ceramics Co.,industry,50,0,pending
+saudi,lst_2110,Saudi Cable Co.,industry,50,0,pending
+saudi,lst_2160,Amiantit (Saudi Arabian Amiantit Co.),industry,50,0,pending
+saudi,lst_2320,Al Babtain Power and Telecommunication Co.,industry,50,0,pending
+saudi,lst_2370,Middle East Specialized Cables Co. (MESC),industry,50,0,pending
+saudi,lst_4110,Batic Investments and Logistics Co.,industry,50,0,pending
+saudi,lst_4140,Saudi Industrial Export Co. (SIECO),industry,50,0,pending
+saudi,lst_4141,Al Omran Industrial Trading Co.,industry,50,0,pending
+saudi,lst_4142,Riyadh Cables Group Co.,industry,50,0,pending
+saudi,lst_4144,Raoom Trading Co.,industry,50,0,pending
+saudi,lst_4145,Obeikan Glass Co. (OGC),industry,50,0,pending
+saudi,lst_4146,Gulf Applied Solutions Co. (Gas Arabian Services),industry,50,0,pending
+saudi,lst_4147,Canar Telecommunication Co.,industry,50,0,pending
+saudi,lst_4148,Alwasail Industrial Co.,industry,50,0,pending
+saudi,lst_1831,Maharah Human Resources Co.,industry,50,0,pending
+saudi,lst_1832,Saudi Distribution and Logistics Co. (SADR),industry,50,0,pending
+saudi,lst_1833,Al Mawarid Manpower Co.,industry,50,0,pending
+saudi,lst_1834,Saudi Manpower Solutions Co. (SMASCO),industry,50,0,pending
+saudi,lst_1835,Tamkeen Human Resources Co.,industry,50,0,pending
+saudi,lst_4270,Saudi Printing and Packaging Co. (SPPC),industry,50,0,pending
+saudi,lst_6004,Catrion Catering Holding Co.,industry,50,0,pending
+saudi,lst_2190,Saudi Industrial Services Co. (SISCO Holding),industry,50,0,pending
+saudi,lst_4031,Saudi Ground Services Co.,industry,50,0,pending
+saudi,lst_4040,Saudi Public Transport Co. (SAPTCO),industry,50,0,pending
+saudi,lst_4260,Budget Saudi Rent a Car Co.,industry,50,0,pending
+saudi,lst_4261,Theeb Rent a Car Co.,industry,50,0,pending
+saudi,lst_4262,Lumi Rental Co.,industry,50,0,pending
+saudi,lst_4263,SAL Saudi Logistics Services Co.,industry,50,0,pending
+saudi,lst_4264,flynas Co.,industry,50,0,pending
+saudi,lst_4265,Cherry Trading Co.,industry,50,0,pending
+saudi,lst_1213,Naseej International Trading Co.,consumer_disc,50,0,pending
+saudi,lst_2130,Saudi Industrial Development Co. (SIDC),consumer_disc,50,0,pending
+saudi,lst_2340,Artex Industrial Investment Co.,consumer_disc,50,0,pending
+saudi,lst_4011,Lazurde Co. for Jewelry,consumer_disc,50,0,pending
+saudi,lst_4012,Al Aseel Co.,consumer_disc,50,0,pending
+saudi,lst_4180,Fitaihi Holding Group,consumer_disc,50,0,pending
+saudi,lst_1810,Seera Group Holding,consumer_disc,50,0,pending
+saudi,lst_1820,Baan Holding Group Co.,consumer_disc,50,0,pending
+saudi,lst_1830,Leejam Sports Co.,consumer_disc,50,0,pending
+saudi,lst_4170,Emaar The Economic City Trading Co. (TECO),consumer_disc,50,0,pending
+saudi,lst_4290,Alkhaleej Training and Education Co.,consumer_disc,50,0,pending
+saudi,lst_4291,National Company for Learning and Education (NCLE),consumer_disc,50,0,pending
+saudi,lst_4292,Ataa Educational Co.,consumer_disc,50,0,pending
+saudi,lst_6002,Herfy Food Services Co.,consumer_disc,50,0,pending
+saudi,lst_6012,Raydan Food Co.,consumer_disc,50,0,pending
+saudi,lst_6013,Development Works Food Co.,consumer_disc,50,0,pending
+saudi,lst_6014,Alamar Foods Co.,consumer_disc,50,0,pending
+saudi,lst_6015,Americana Restaurants International,consumer_disc,50,0,pending
+saudi,lst_6016,Burgerizzr Co.,consumer_disc,50,0,pending
+saudi,lst_6017,Jahez International Co.,consumer_disc,50,0,pending
+saudi,lst_6018,Sport Clubs Co.,consumer_disc,50,0,pending
+saudi,lst_6019,Almasar Alshamil Education Co.,consumer_disc,50,0,pending
+saudi,lst_6022,Armah Sports Co.,consumer_disc,50,0,pending
+saudi,lst_4070,Arriyadh Development Co. (TAPRCO),comm,50,0,pending
+saudi,lst_4071,Saudi Research and Media Group Alarabia,comm,50,0,pending
+saudi,lst_4072,MBC Group,comm,50,0,pending
+saudi,lst_4003,United Electronics Co. (eXtra),consumer_disc,50,0,pending
+saudi,lst_4008,Saudi Co. for Hardware (SACO),consumer_disc,50,0,pending
+saudi,lst_4050,Saudi Automotive Services Co. (SASCO),consumer_disc,50,0,pending
+saudi,lst_4051,Baazeem Trading Co.,consumer_disc,50,0,pending
+saudi,lst_4190,Jarir Marketing Co.,consumer_disc,50,0,pending
+saudi,lst_4191,Abo Moati Bookstores Co.,consumer_disc,50,0,pending
+saudi,lst_4192,Alsaif Gallery Co.,consumer_disc,50,0,pending
+saudi,lst_4193,Nice One Beauty Digital Marketing Co.,consumer_disc,50,0,pending
+saudi,lst_4194,Build Station Trading Co.,consumer_disc,50,0,pending
+saudi,lst_4200,Aldrees Petroleum and Transport Services Co.,consumer_disc,50,0,pending
+saudi,lst_4240,Cenomi Retail (Fawaz Abdulaziz Alhokair Co.),consumer_disc,50,0,pending
+saudi,lst_4001,Abdullah Al Othaim Markets Co.,consumer_stap,50,0,pending
+saudi,lst_4006,Farm Superstores Co.,consumer_stap,50,0,pending
+saudi,lst_4061,Anaam International Holding Group,consumer_stap,50,0,pending
+saudi,lst_4160,Thimar Development Holding Co.,consumer_stap,50,0,pending
+saudi,lst_4161,Bindawood Holding Co.,consumer_stap,50,0,pending
+saudi,lst_4162,Almunajem Foods Co.,consumer_stap,50,0,pending
+saudi,lst_4163,Aldawaa Medical Services Co.,consumer_stap,50,0,pending
+saudi,lst_4164,Nahdi Medical Co.,consumer_stap,50,0,pending
+saudi,lst_2050,Savola Group,consumer_stap,50,0,pending
+saudi,lst_2100,Wafrah for Industry and Development Co.,consumer_stap,50,0,pending
+saudi,lst_2281,Tanmiah Food Co.,consumer_stap,50,0,pending
+saudi,lst_2282,Naqi Water Co.,consumer_stap,50,0,pending
+saudi,lst_2283,First Milling Co.,consumer_stap,50,0,pending
+saudi,lst_2284,Modern Mills Co.,consumer_stap,50,0,pending
+saudi,lst_2285,Arabian Mills for Food Products Co.,consumer_stap,50,0,pending
+saudi,lst_2286,Fourth Milling Co.,consumer_stap,50,0,pending
+saudi,lst_2287,Entaj Co.,consumer_stap,50,0,pending
+saudi,lst_2288,Nofoth Food Products Co.,consumer_stap,50,0,pending
+saudi,lst_4080,Sinad Holding Co.,consumer_stap,50,0,pending
+saudi,lst_6001,Halwani Bros Co. (HB),consumer_stap,50,0,pending
+saudi,lst_6010,National Agriculture Development Co. (Nadec),consumer_stap,50,0,pending
+saudi,lst_6020,Gulf Agriculture and Food Company Co. (GACO),consumer_stap,50,0,pending
+saudi,lst_6040,Al Jouf Agricultural Development Co. (TADCO),consumer_stap,50,0,pending
+saudi,lst_6050,Saudi Fisheries Co. (SFICO),consumer_stap,50,0,pending
+saudi,lst_6060,Sharqiyah Development Co.,consumer_stap,50,0,pending
+saudi,lst_6070,Al Jouf Agricultural Development Co. (ALJOUF),consumer_stap,50,0,pending
+saudi,lst_6090,Jazan Development Co. (JAZADCO),consumer_stap,50,0,pending
+saudi,lst_2140,Ayyan Investment Co.,health,50,0,pending
+saudi,lst_2230,Saudi Chemical Co.,health,50,0,pending
+saudi,lst_4002,Mouwasat Medical Services Co.,health,50,0,pending
+saudi,lst_4004,Dallah Healthcare Holding Co.,health,50,0,pending
+saudi,lst_4005,Care National Medical and Rehabilitation Center Co.,health,50,0,pending
+saudi,lst_4007,Al Hammadi Holding Co.,health,50,0,pending
+saudi,lst_4009,Saudi German Health,health,50,0,pending
+saudi,lst_4014,Middle East Healthcare Co. (Equipment House),health,50,0,pending
+saudi,lst_4017,Dr. Soliman Fakeeh Care Co.,health,50,0,pending
+saudi,lst_4018,Almoosa Health Co.,health,50,0,pending
+saudi,lst_4019,SMC Healthcare Co.,health,50,0,pending
+saudi,lst_4021,Canadian Medical Center Co. (CMCER),health,50,0,pending
+saudi,lst_2070,Saudi Pharmaceutical Industries and Medical Appliances Corp. (SPIMACO),health,50,0,pending
+saudi,lst_4015,Jamjoom Pharmaceuticals Factory Co.,health,50,0,pending
+saudi,lst_4016,Avalon Pharma (Middle East Pharmaceutical Industries Co.),health,50,0,pending
+saudi,lst_1010,Riyad Bank,finance,50,0,pending
+saudi,lst_1020,Bank Aljazira,finance,50,0,pending
+saudi,lst_1030,Saudi Investment Bank (SAIB),finance,50,0,pending
+saudi,lst_1050,Banque Saudi Fransi,finance,50,0,pending
+saudi,lst_1080,Arab National Bank,finance,50,0,pending
+saudi,lst_1140,Bank Albilad,finance,50,0,pending
+saudi,lst_1150,Alinma Bank,finance,50,0,pending
+saudi,lst_1182,Amlak International Finance Co.,finance,50,0,pending
+saudi,lst_1183,SHL Finance Co.,finance,50,0,pending
+saudi,lst_2120,Saudi Investment Recycling Co. (SAIC),finance,50,0,pending
+saudi,lst_4081,Nayifat Finance Co.,finance,50,0,pending
+saudi,lst_4082,Marn (MRNA) Financial Co.,finance,50,0,pending
+saudi,lst_4083,Tasheel Finance Co.,finance,50,0,pending
+saudi,lst_4084,Derayah Financial Co.,finance,50,0,pending
+saudi,lst_4130,Saudi Darb Investment Co.,finance,50,0,pending
+saudi,lst_8010,Company for Cooperative Insurance (Tawuniya),finance,50,0,pending
+saudi,lst_8012,Aljazira Takaful Taawuni Co.,finance,50,0,pending
+saudi,lst_8030,Mediterranean and Gulf Insurance and Reinsurance Co. (MEDGULF),finance,50,0,pending
+saudi,lst_8040,Al Sagr Cooperative Insurance Co. (Mutakamela),finance,50,0,pending
+saudi,lst_8050,Salama Cooperative Insurance Co.,finance,50,0,pending
+saudi,lst_8060,Walaa Cooperative Insurance Co.,finance,50,0,pending
+saudi,lst_8070,Arabian Shield Cooperative Insurance Co.,finance,50,0,pending
+saudi,lst_8100,Saudi Arabian Cooperative Insurance Co. (SAICO),finance,50,0,pending
+saudi,lst_8120,Gulf Union Alahlia Cooperative Insurance Co.,finance,50,0,pending
+saudi,lst_8150,Allied Cooperative Insurance Group (ACIG),finance,50,0,pending
+saudi,lst_8160,Al Alamiya for Cooperative Insurance Co. (AICC),finance,50,0,pending
+saudi,lst_8170,Al Etihad Cooperative Insurance Co.,finance,50,0,pending
+saudi,lst_8190,United Cooperative Assurance Co. (UCA),finance,50,0,pending
+saudi,lst_8200,Saudi Reinsurance Co. (Saudi Re),finance,50,0,pending
+saudi,lst_8210,Bupa Arabia for Cooperative Insurance Co.,finance,50,0,pending
+saudi,lst_8240,Chubb Arabia Cooperative Insurance Co.,finance,50,0,pending
+saudi,lst_8260,Gulf General Cooperative Insurance Co.,finance,50,0,pending
+saudi,lst_8280,LIVA Insurance (Saudi Enaya/AXA Cooperative),finance,50,0,pending
+saudi,lst_8300,Wataniya Insurance Co.,finance,50,0,pending
+saudi,lst_8310,Amana Cooperative Insurance Co.,finance,50,0,pending
+saudi,lst_8311,Enaya Cooperative Insurance Co.,finance,50,0,pending
+saudi,lst_8313,Rasan Information Technology Co.,finance,50,0,pending
+saudi,lst_7030,Zain Saudi Arabia,comm,50,0,pending
+saudi,lst_7040,Go Telecom (Etihad Atheeb Telecommunication Co.),comm,50,0,pending
+saudi,lst_2081,Alkhorayef Water and Power Technologies Co.,utilities,50,0,pending
+saudi,lst_2083,Marafiq (Power and Water Utility Company for Jubail and Yanbu),utilities,50,0,pending
+saudi,lst_2084,Miahona Holding Co.,utilities,50,0,pending
+saudi,lst_4020,Saudi Real Estate Co. (Alakaria),realestate,50,0,pending
+saudi,lst_4090,Taiba Investments Co.,realestate,50,0,pending
+saudi,lst_4100,Makkah Construction and Development Co. (MCDC),realestate,50,0,pending
+saudi,lst_4150,Arriyadh Development Co. (ARDCO),realestate,50,0,pending
+saudi,lst_4230,Red Sea International Co.,realestate,50,0,pending
+saudi,lst_4250,Jabal Omar Development Co.,realestate,50,0,pending
+saudi,lst_4300,Dar Al Arkan Real Estate Development Co.,realestate,50,0,pending
+saudi,lst_4310,Knowledge Economic City (KEC),realestate,50,0,pending
+saudi,lst_4320,Al Andalus Property Co.,realestate,50,0,pending
+saudi,lst_4321,Cenomi Centers (Arabian Centres Co.),realestate,50,0,pending
+saudi,lst_4322,Retal Urban Development Co.,realestate,50,0,pending
+saudi,lst_4323,Sumou Real Estate Co.,realestate,50,0,pending
+saudi,lst_4324,Banan Real Estate Co.,realestate,50,0,pending
+saudi,lst_4325,Masar Al Jazira Real Estate Development Co.,realestate,50,0,pending
+saudi,lst_4326,Almajdiah Real Estate Co.,realestate,50,0,pending
+saudi,lst_4327,Al Ramz Real Estate Co.,realestate,50,0,pending
+saudi,lst_4328,Ladun Investment Co.,realestate,50,0,pending
+saudi,lst_4330,Riyad REIT Fund,realestate,50,0,pending
+saudi,lst_4331,Aljazira REIT Fund,realestate,50,0,pending
+saudi,lst_4332,Jadwa REIT Al Haramain Fund,realestate,50,0,pending
+saudi,lst_4333,Taleem REIT Fund,realestate,50,0,pending
+saudi,lst_4334,Al Maather REIT Fund,realestate,50,0,pending
+saudi,lst_4335,Musharaka REIT Fund,realestate,50,0,pending
+saudi,lst_4336,Mulkia Gulf REIT Fund,realestate,50,0,pending
+saudi,lst_4337,Al Aziziah REIT Fund,realestate,50,0,pending
+saudi,lst_4338,SNB Capital Diversified REIT Fund (Alahli REIT 1),realestate,50,0,pending
+saudi,lst_4339,Derayah REIT Fund,realestate,50,0,pending
+saudi,lst_4342,Jadwa REIT Saudi Fund,realestate,50,0,pending
+saudi,lst_4344,Sedco Capital REIT Fund,realestate,50,0,pending
+saudi,lst_4345,Alinma Retail REIT Fund,realestate,50,0,pending
+saudi,lst_4346,MEFIC REIT Fund,realestate,50,0,pending
+saudi,lst_4347,Bonyan REIT Fund,realestate,50,0,pending
+saudi,lst_4348,Alkhabeer REIT Fund,realestate,50,0,pending
+saudi,lst_4349,Alinma Hospitality REIT Fund,realestate,50,0,pending
+saudi,lst_4350,Alistithmar REIT Fund (AREIC Diversified REIT),realestate,50,0,pending
+saudi,lst_7200,Middle East Internet Services Co. (MIS),tech,50,0,pending
+saudi,lst_7201,Arab Sea Information Systems Co.,tech,50,0,pending
+saudi,lst_7202,Al Moammar Information Systems Co. (Solutions),tech,50,0,pending
+saudi,lst_7203,Elm Co.,tech,50,0,pending
+saudi,lst_7204,2P Perfect Presentation for Commercial Services Co.,tech,50,0,pending
+saudi,lst_7205,Al-Dawaa Business Solutions Co. (DBS),tech,50,0,pending
+saudi,lst_7211,Saudi Azm for Communication and Information Technology Co.,tech,50,0,pending
+saudi,lst_4165,Almajed for Oud Co.,consumer_stap,50,0,pending

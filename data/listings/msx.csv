@@ -1,0 +1,95 @@
+symbol,name,sector,market
+AJSS,Al Jazeira Services Company SAOG,industry,main
+AMAT,Al Madina Takaful SAOG,finance,main
+AOFS,Al Omaniya Financial Services SAOG,finance,main
+BWPC,Barka Water and Power Company SAOG,utilities,main
+BATP,Al Batinah Power Company SAOG,utilities,main
+BKDB,Bank Dhofar SAOG,finance,main
+BKNZ,Bank Nizwa SAOG,finance,main
+ATMI,Al Jazeera Steel Products Company SAOG,materials,main
+DIDI,Dhofar International Development & Investment SAOG,finance,main
+GFIC,Global Financial Investments Holding SAOG,finance,main
+UFCI,United Finance Company SAOG,finance,main
+VOES,Voltamp Energy SAOG,industry,main
+SUWP,Al Suwadi Power Company SAOG,utilities,main
+SSPW,Sembcorp Salalah Power & Water Company SAOG,utilities,main
+SPFI,A'Saffa Foods SAOG,consumer_stap,main
+SMNP,SMN Power Holding SAOG,utilities,main
+RNSS,Renaissance Services SAOG,industry,main
+PHPC,Phoenix Power Company SAOG,utilities,main
+MSPW,Musandam Power Company SAOG,utilities,main
+GMPI,Gulf Mushroom Products Co. SAOG,consumer_stap,main
+NBOB,National Bank of Oman SAOG,finance,main
+OCAI,Oman Cables Industry SAOG,industry,main
+OEIO,Oman & Emirates Investment Holding Company SAOG,finance,main
+ONES,Oman National Engineering & Investment Company SAOG,industry,main
+OOMS,Oman Oil Marketing Company SAOG,energy,main
+OUIC,Oman United Insurance Company SAOG,finance,main
+OOMP,Oman Oil Marketing Company SAOG (Preferred),energy,main
+AAIC,Al Anwar Investments SAOG,finance,main
+BKMB,Bank Muscat SAOG,finance,main
+BKSB,Sohar International Bank SAOG,finance,main
+MHAS,Al Maha Petroleum Products Marketing Company SAOG,energy,main
+OCOI,Oman Cement Company SAOG,materials,main
+OMVS,Oman International Development and Investment Company SAOG (Ominvest),finance,main
+ORDS,Omani Qatari Telecommunications Company SAOG (Ooredoo),comm,main
+OTEL,Oman Telecommunications Company SAOG (Omantel),comm,main
+SIHC,A'Sharqiya Investment Holding Co. SAOG,finance,main
+AJSP,Al Jazeira Services Company SAOG (Preferred),industry,main
+BRDE,Barka Desalination Company SAOG,utilities,main
+ABRJ,Abraj Energy Services SAOG,energy,main
+OQGN,OQ Gas Networks SAOG,utilities,main
+OQEP,OQ Exploration and Production SAOG,energy,main
+OQBI,OQ Base Industries (SFZ) SAOG,materials,main
+ASCO,Asyad Shipping Company SAOG,industry,main
+CMII,Construction Materials Industries SAOG,materials,parallel
+AACT,Al Anwar Ceramic Tiles Company SAOG,materials,parallel
+ABOB,Ahli Bank SAOG,finance,parallel
+AFAI,Al Fajar Al Alamia Company SAOG,industry,parallel
+AFIC,Arabia Falcon Insurance SAOG,finance,parallel
+DTCS,Dhofar Tourism Company SAOG,consumer_disc,parallel
+GHOS,Gulf Hotels (Oman) Company Limited SAOG,consumer_disc,parallel
+HMCI,Hotels Management Company International SAOG,consumer_disc,parallel
+MCTI,Muscat Insurance Company SAOG,finance,parallel
+NBII,National Biscuit Industries Limited SAOG,consumer_stap,parallel
+NRED,National Real Estate Development and Investments Company SAOG,realestate,parallel
+OCCI,Oman Chromite Company SAOG,materials,parallel
+SAHS,Sahara Hospitality Company SAOG,consumer_disc,parallel
+AMII,Al Madina Investment Holding Co. SAOG,finance,parallel
+BACS,Majan College (University College) SAOG,industry,parallel
+DBCI,Dhofar Beverage and Food Stuff Company SAOG,consumer_stap,parallel
+DFIN,Dhofar Food & Investment SAOG,consumer_stap,parallel
+DGEN,Dhofar Generating Company SAOG,utilities,parallel
+DICS,Dhofar Insurance Company SAOG,finance,parallel
+FINC,The Financial Corporation Company SAOG,finance,parallel
+GECS,Galfar Engineering & Contracting SAOG,industry,parallel
+GICI,Gulf International Chemicals SAOG,materials,parallel
+UBAR,Ubar Hotels & Resorts SAOG,consumer_disc,parallel
+TFCI,Taageer Finance Company SAOG,finance,parallel
+TAOI,Takaful Oman Insurance SAOG,finance,parallel
+SPSI,Salalah Port Services Company SAOG,industry,parallel
+SHRQ,Sharqiyah Desalination Company SAOG,utilities,parallel
+SHPS,Sohar Power Company SAOG,utilities,parallel
+SFMI,Salalah Mills Company SAOG,consumer_stap,parallel
+MCDE,Muscat City Desalination Company SAOG,utilities,parallel
+MGMC,Muscat Gases Company SAOG,materials,parallel
+MTMI,Muscat Thread Mills SAOG,materials,parallel
+NDTI,The National Detergent Company SAOG,materials,parallel
+LIVA,Liva Group SAOG,finance,parallel
+OETI,Oman Education & Training Investment Company SAOG,industry,parallel
+OFMI,Oman Flour Mills Company SAOG,consumer_stap,parallel
+OPCI,Omani Packaging Company SAOG,materials,parallel
+OQIC,Oman Qatar Insurance Company SAOG,finance,parallel
+ORCI,Oman Refreshment Company SAOG,consumer_stap,parallel
+GECP,Galfar Engineering & Contracting SAOG (Preferred),industry,parallel
+SOMP,Shell Oman Marketing Company SAOG (Preferred),energy,parallel
+NFCI,National Finance Company SAOG,finance,parallel
+AMCI,Al Maha Ceramics SAOG,materials,parallel
+MFCI,Muscat Finance SAOG,finance,parallel
+NGCI,National Gas Company SAOG,energy,parallel
+OCHL,Oman Chlorine SAOG,materials,parallel
+SOMS,Shell Oman Marketing Company SAOG,energy,parallel
+FSCI,Financial Services Company SAOG,finance,parallel
+OAB,Oman Arab Bank SAOG,finance,parallel
+ORIC,Oman Reinsurance Company SAOG,finance,parallel
+OMIF,Oman India Fertiliser Company SAOG,materials,parallel

@@ -1,0 +1,56 @@
+symbol,name,sector,market
+QNBK,Qatar National Bank Q.P.S.C.,finance,main
+IQCD,Industries Qatar Q.P.S.C.,materials,main
+QIBK,Qatar Islamic Bank Q.P.S.C.,finance,main
+ORDS,Ooredoo Q.P.S.C.,comm,main
+QGTS,Qatar Gas Transport Company Limited (Nakilat) Q.P.S.C.,industry,main
+ERES,Ezdan Holding Group Q.P.S.C.,realestate,main
+MARK,Al Rayan Bank Q.P.S.C.,finance,main
+IGRD,Estithmar Holding Q.P.S.C.,conglomerate,main
+DUBK,Dukhan Bank Q.P.S.C.,finance,main
+CBQK,The Commercial Bank P.S.Q.C.,finance,main
+QIIK,Qatar International Islamic Bank Q.P.S.C.,finance,main
+QEWS,Nebras Energy Q.P.S.C.,utilities,main
+MPHC,Mesaieed Petrochemical Holding Company Q.P.S.C.,materials,main
+QFLS,Qatar Fuel Company Q.P.S.C. (WOQOD),energy,main
+QNNS,Qatar Navigation Q.P.S.C. (Milaha),industry,main
+VFQS,Vodafone Qatar P.Q.S.C.,comm,main
+ABQK,Ahli Bank Q.P.S.C.,finance,main
+BRES,Barwa Real Estate Company Q.P.S.C.,realestate,main
+DHBK,Doha Bank Q.P.S.C.,finance,main
+QAMC,Qatar Aluminium Manufacturing Company Q.P.S.C.,materials,main
+QATI,Qatar Insurance Company Q.S.P.C.,finance,main
+AHCS,Aamal Company Q.P.S.C.,conglomerate,main
+ZHCD,Zad Holding Company Q.P.S.C.,consumer_stap,main
+GISS,Gulf International Services Q.P.S.C.,energy,main
+QFBQ,Lesha Bank LLC,finance,main
+UDCD,United Development Company Q.P.S.C.,realestate,main
+MERS,Al Meera Consumer Goods Company Q.P.S.C.,consumer_stap,main
+BLDN,Baladna Q.P.S.C.,consumer_stap,main
+MCCS,Mannai Corporation Q.P.S.C.,conglomerate,main
+QGRI,Qatar General Insurance & Reinsurance Company Q.P.S.C.,finance,main
+MEZA,MEEZA QSTP-LLC,tech,main
+QIGD,Qatari Investors Group Q.P.S.C.,conglomerate,main
+QNCD,Qatar National Cement Company Q.P.S.C.,materials,main
+MCGS,Medicare Group Q.P.S.C.,health,main
+DOHI,Doha Insurance Group Q.P.S.C.,finance,main
+GWCS,Gulf Warehousing Company Q.P.S.C.,industry,main
+QISI,Qatar Islamic Insurance Group Q.P.S.C.,finance,main
+BEMA,Damaan Islamic Insurance Company (Beema) Q.P.S.C.,finance,main
+QIMD,Qatar Industrial Manufacturing Company Q.P.S.C.,materials,main
+SIIS,Salam International Investment Limited Q.P.S.C.,conglomerate,main
+AKHI,Al Khaleej Takaful Insurance Company Q.P.S.C.,finance,main
+QLMI,QLM Life & Medical Insurance Company Q.P.S.C.,finance,main
+MFMS,Mosanada Facility Management Services Q.P.S.C.,industry,main
+MRDS,Mazaya Real Estate Development Q.P.S.C.,realestate,main
+MHAR,Al Mahhar Holding Company Q.P.S.C.,conglomerate,main
+NLCS,Alijarah Holding Q.P.S.C.,finance,main
+MKDM,Mekdam Holding Group Q.P.S.C.,industry,main
+DBIS,Dlala Brokerage and Investment Holding Company Q.P.S.C.,finance,main
+WDAM,Widam Food Company Q.P.S.C.,consumer_stap,main
+TQES,Qatar Electronic Systems Company (Techno Q) Q.P.S.C.,tech,main
+QCFS,Qatar Cinema and Film Distribution Co. Q.P.S.C.,consumer_disc,main
+QGMD,Qatari German Company for Medical Devices Q.P.S.C.,health,main
+IHGS,INMA Holding Company Q.P.S.C.,conglomerate,main
+FALH,Al Faleh Educational Holding Company Q.P.S.C.,consumer_disc,main
+QOIS,Qatar Oman Investment Company Q.S.C.,finance,main
