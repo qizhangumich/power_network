@@ -1,0 +1,5 @@
+# Mubadala Investment Co Pjsc Dissolves Share Stake In UPS, Dell Technologies, Raises In Barrick Mining
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi_gFBVV95cUxOR1BYOHJkTlBvbmFRVF80SUEzNUxMTVlMNWd4aU1lRmlGem5xYmJjZkFyODJfcHZ6bXM1YzVIZWJKMzVmMENlOWFSclI0U0l2WDFDVVozMzFvUjFzeDVmeUc1Rk0tLVBBVC13QVFYYjhIa3BSaGNldkVhbUpsMWUxTkllTEtsVnFvOUJMcVUzdUN5QjJsNml5V1NLNDJlLUhHcktWVl9ZWnVrWkEzUmVuOXdXNUMzTlJEeFZfdXFTUW9qSFdoRk9KUzd0S2xHNVViWFc3YnVQdG9IM2VJZ3JNQzJudE5YUjRIQkpWYjJLVTM5d0d1aTRfUlJoSEFBQQ?oc=5
+
+Mubadala Investment Co Pjsc Dissolves Share Stake In UPS, Dell Technologies, Raises In Barrick Mining    TradingView

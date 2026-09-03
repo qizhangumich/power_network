@@ -1,0 +1,5 @@
+# ADNOC reports 15 vessels attacked while transiting Hormuz
+source: Shipping Telegraph
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxOZjBUOExPc3gwNlVVQlRUMUhtNl81dmVtUGdtVjFVMzBhYi15SkJ1M3pmUUNwMzkya2V3V2pmS2VzOXZPM1hBSlJiWXN0YXFBb3ZvRGV0WUhtbjNsNXJQMnNGRFgxQTg0WndObi1TeVdqNVJCWDYzay1TZXE5UVBUUUE2NmRPWXZ5NE03ZDJKSzM4cHRHbXZtdmpqMDdOamRMRXlUYQ?oc=5
+
+ADNOC reports 15 vessels attacked while transiting Hormuz    Shipping Telegraph

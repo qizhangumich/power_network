@@ -1,0 +1,5 @@
+# PureHealth Reports Net Profit of USD 337 Million in H1 2026
+source: Morningstar
+url: https://news.google.com/rss/articles/CBMivAFBVV95cUxNTlk4RmJKYS1NLUMxV3NrVXdoaTJlOFFndXhYZUdUa181TFpJLXh2WWlrVFM0SDdNV3Y1MlBCaHNhbWNfbmRsZWdsRTZhWm1IdmFiU1NmMTIyM0NHYURKcldjM0djbFhxQVdTU0h1eFpoUXRzQ0FMQTlKLV9FZWlkZ19IbUlRYjI5ZFZ5bW1xWEhSOVotRHY3NzdMbjFFV3NTV2RMX3c0Zk91cGRhM2Z4MmlDM2dIZzB5MTFVbg?oc=5
+
+PureHealth Reports Net Profit of USD 337 Million in H1 2026    Morningstar

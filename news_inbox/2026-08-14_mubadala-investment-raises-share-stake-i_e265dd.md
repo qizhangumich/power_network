@@ -1,0 +1,5 @@
+# Mubadala Investment Raises Share Stake In Blue Owl Technology Finance, Reports In Fedex Freight
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi9wFBVV95cUxOLXFiWGxsbmsyQUV2SEkyVkx6TXJDTTJua2NydWxsMzJCbXZCUFMwc1E1ekhjemdUREdnSVdhR0NzNVN0THJhT3lJZF9rcG9FTEFUX0NrU2JrYzlNcW45UVVqdkpQM1hCVTh3WjBoZkx2MnRBck5fNjhDRFRodGF0U1d5aUk2Uzh0X0VqSnRYWG9ha0c2bG44bnV6dlMzSFNlbk1Udnh4MEF0VERJOW1Yb3RvRWI1Ynp6ZFZTRVc3LWU3U3NwMWZQNmdoNF8tanFZS3NEZDlsUEtIZVdPWDE1aFRQQ0tkRVU5U1dmSU80RWpWVUViT0VB?oc=5
+
+Mubadala Investment Raises Share Stake In Blue Owl Technology Finance, Reports In Fedex Freight    TradingView
