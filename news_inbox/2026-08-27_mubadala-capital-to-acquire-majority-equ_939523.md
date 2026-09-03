@@ -1,0 +1,5 @@
+# Mubadala Capital to Acquire Majority Equity Interest in Arrive Logistics
+source: PR Newswire
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxOdDhJaW5YaThqVDc3UXpRaDNFc2dLRFI5ZXZrLV9leUtMN2pib2dSRVdvWWlnZHlqV28zdFZHLVJUY1JoMUhkRHNsNDB6eHEzZmpwVXhfZkZvMkI2a0poMU9Kb1RMekg5OHlrOGpZYXNWNWN1bHpCX2E1ZmdCMm5BVDdPOFZsMDJVYS1Xbmttb282OWpPQmtFVEk4akVDdE56ODlockxyU09nX2JleWEtcXVWNTlReTkxdmZ5T1Zma2k0NnNvaXBF?oc=5
+
+Mubadala Capital to Acquire Majority Equity Interest in Arrive Logistics    PR Newswire

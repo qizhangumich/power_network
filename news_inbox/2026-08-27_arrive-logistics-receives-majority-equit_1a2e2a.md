@@ -1,0 +1,5 @@
+# Arrive Logistics Receives Majority Equity Investment From Mubadala Capital
+source: FinSMEs
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxPV0VOUC15YW5NTlFKcW0yYWMwZE1uZFlqeVdnSnR2U2ZLRTRxU0ZyOFpuTWFyUWtwc01RbWVGMDUxa3BWTWZPRE8xWVNjSUN2NS1wZTFxOElpWFlfakRHVS04bWJfWWZRUlFxRUppN0d1RUsxVU1RWThfcHFhbzdmTFd0UkZZS0dRR1RDZ01iSzdOeURHa2dhRmJCWjN6Yl9uWlk3a0RMRlA0bTBBWGItNA?oc=5
+
+Arrive Logistics Receives Majority Equity Investment From Mubadala Capital    FinSMEs

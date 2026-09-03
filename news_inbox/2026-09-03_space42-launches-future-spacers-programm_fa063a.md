@@ -1,0 +1,5 @@
+# Space42 launches Future Spacers Programme to develop UAE space talent
+source: SatellitePro ME
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPdEJYNEFVSlZlOEtfdjNTdFVBd1htQm1sa1NBNGNPZ3BuN0xvaDJ4TFRqeUVTR3N3V282d2VSaDBWU2JsWGlxWGM3MmRHa2RjRHY1dE01MXFzN2ZHYk5OQ0pneHhSTnd2ZXZBQ1FYVkpmdno3eExnWnpWNUpfTV9aNW1jZHU3UGdaQ0ZsMFl3ZWg1ZXowdmZlRXY3VTMtYkJfdFp2dA?oc=5
+
+Space42 launches Future Spacers Programme to develop UAE space talent    SatellitePro ME

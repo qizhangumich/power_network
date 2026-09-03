@@ -1,0 +1,5 @@
+# No mobile signal? How UAE satellites could keep ordinary phones connected
+source: Khaleej Times
+url: https://news.google.com/rss/articles/CBMihwFBVV95cUxPTGdHdWFYN0Q4VktESkF5ZkdhRjJ6TW43QmxaT3l1SmRvQ2x0WVFzQmJ0b2pkRTRjSXpwUXozRDgyekw0eERMeE1lOXhsdmNna0RoTVFwcDhkZG9NOEVTcVVCWE5lSFV4MkhfU2tyN0k1RGhraXY5Z2d0dVl5WVZleW5oZkJaRnPSAY8BQVVfeXFMTzliSWlLRDVHQkgwdWdQNFVNLW95eHdXZkFESnBaaThzcTk4Wkk3Ny1QTnRwbXRKRUVNQjZwWmdwNXVRdU5FVjVLWFIzVy1oZFVZRnZkbXVSaVh0YVZBOXU0SVdaYWRBOEZPSjhuT0R4SXBwR242dUwyelUwZFFMd0Qta0RrVldidlJhMktHSmM?oc=5
+
+No mobile signal? How UAE satellites could keep ordinary phones connected    Khaleej Times
