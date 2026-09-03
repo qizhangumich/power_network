@@ -165,6 +165,11 @@ def suggest_edges(nodes, items):
             a, b = sorted(k)
             w.writerow([a, name.get(a, a), b, name.get(b, b), c,
                         " | ".join(samples[k][:3])])
+    # expose to the map as dashed "potential" edges
+    js_rows = ",".join('{a:%s,b:%s,n:%d}' % (js_string(sorted(k)[0]), js_string(sorted(k)[1]), c)
+                       for c, k in rows)
+    with open(OUT, "a", encoding="utf-8") as f:
+        f.write("window.SUGGESTED_EDGES = [" + js_rows + "];\n")
     print(f"{len(rows)} candidate relationships -> data/suggested_edges.csv "
           f"(pairs sharing >= {MIN_COMENTIONS} articles, no existing edge)")
 

@@ -77,25 +77,31 @@ The same pattern extends to any content: put items in an inbox, match on the ali
 table, emit a `*_data.js` overlay. Candidates: press releases, tender awards,
 event attendee lists, podcast transcripts.
 
-## Design system (per `Network Design Tools.pdf`)
-The map follows the Constellation / Intelligence Map spec — three states:
-- **Ambient** — near-black canvas (#111214) with a faint dot grid; nodes are quiet stars
-  (dark centers, colored strokes) in four size levels; most of the graph is neutral slate,
-  with mint green reserved for hero entities, muted cobalt for key institutions, and
-  semantic-zoom labels (few at low zoom, most when zoomed in).
-- **Exploration** — hovering brightens a node's direct relationships and reveals neighbor labels.
-- **Investigation** — clicking a node fades ~95% of the network to a fraction of its opacity
-  and illuminates the node's direct paths in electric violet (#845DF0, thin + soft glow)
-  with indirect (2nd-degree) paths at lower intensity. Purple appears **only** here.
-Amber marks uncertainty (unverified edges are faint & dashed; news badges are amber);
-edges curve gently; family ties are dotted amber.
+## Design system (V4 — per `Network_Intelligence_Visual_Interaction_Design_Brief_CN_V1.1.pdf`)
+Network-first Relationship Intelligence, not a dashboard with a chart:
+- **Light neutral system** — near-white ground, charcoal ink, hairlines, one accent
+  (muted indigo #4C57C5) reserved for focus, paths and primary actions.
+- **Node semantics by shape**: person = circle (heroes carry initials), government =
+  rounded square, sovereign fund = diamond, company/org = square. Size = power.
+- **Edge semantics**: institutional thin gray · family solid warm · unverified dashed-faint ·
+  **potential** (news co-mention, from suggested_edges) dashed — clearly marked inferred ·
+  indigo only on the active focus/path.
+- **4 Views, one canvas** (selection preserved, nodes glide — no reshuffle):
+  Network (tier rings) / Sectors (clusters) / Institution (ego rings around the selected
+  node) / Control (ownership hierarchy from the Ruler's court outward).
+- **Interactions**: click = Focus (unrelated fades to ~15%, never removed) + right-slide
+  dossier · click an edge = relationship explanation · **Find path from here** or ask
+  "how can I reach X" = Path Mode with hop-by-hop indigo highlighting · double-click =
+  isolate ego network.
+- **Ask the Network** (top bar): natural-language questions that change the canvas —
+  "how can I reach EWEC" (path), "who at ADQ" (people + focus), "show energy" (sector
+  focus), or any name (profile).
+- **Home**: "Your Network Intelligence" — Ask box, four numbers, recent changes, one CTA.
+- **Mobile**: Ask-first top bar, views/filters in a bottom sheet (☰), default density
+  limited to key nodes ("Show all" in the sheet), bottom-sheet dossier, 44pt targets.
 
-## Using the map
-Click = investigation mode + dossier panel · double-click = isolate ego network ·
-drag/scroll = pan & zoom · sidebar = search + layer/type/edge/sector filters ·
-**Fit view** rescales to your window. `window.__map` exposes a debug/automation handle.
-**EN / 中文** button (top right) switches the interface language — UI chrome only;
-all data (names, roles, institutions) stays English by design. Choice persists locally.
+**EN / 中文** switches UI chrome only; all data stays English. `window.__map` exposes a
+debug/automation handle.
 
 ## Deployment
 Repo: https://github.com/qizhangumich/power_network — `index.html` is the site entry
