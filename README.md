@@ -29,7 +29,18 @@ are anchor nodes; the people who serve them in the UAE surface through the Linke
 and get promoted into `PEOPLE` once their local role (country manager, UAE managing partner,
 Gulf CEO) is verified.
 
-19 sectors · 3 edge types (roles, ownership/control, family) · power score drives node size.
+**Sectors = GICS 11 + government-side**, identical across every region:
+Energy 能源 · Materials 原材料 · Industrials 工业 (incl. transport, defense companies,
+professional services) · Consumer Discretionary 可选消费 · Consumer Staples 必选消费 ·
+Health Care 医疗保健 · Financials 金融 · Information Technology 信息技术 ·
+Communication Services 通信服务 (telecom + media + entertainment/sport) · Utilities 公用事业 ·
+Real Estate 房地产 — plus Government & Political, Sovereign Capital, Education & Research,
+Family Conglomerates. Every region covers all 11 GICS sectors (checked by
+`tools/gics_migrate.py` conventions; keys: `energy, materials, industry, consumer_disc,
+consumer_stap, health, finance, tech, comm, utilities, realestate, gov, sovereign,
+education, conglomerate`).
+
+3 edge types (roles, ownership/control, family) · power score drives node size.
 Current scale: **~100 people · ~143 institutions · ~298 edges. No cap.**
 
 ## Automation pipeline
