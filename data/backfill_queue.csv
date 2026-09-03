@@ -40,7 +40,6 @@ saudi,misa,Ministry of Investment,gov,82,1,pending
 abudhabi,dct,Department of Culture & Tourism,gov,80,1,pending
 abudhabi,alphadhabi,Alpha Dhabi Holding,sovereign,80,0,pending
 abudhabi,eia,Emirates Investment Authority,sovereign,80,1,pending
-abudhabi,xrg,XRG (ADNOC international investment),energy,80,1,pending
 abudhabi,purehealth,PureHealth,health,80,1,pending
 abudhabi,microsoft,Microsoft,tech,80,0,pending
 bahrain,cbb,Central Bank of Bahrain,finance,80,1,pending
@@ -132,7 +131,7 @@ saudi,moe_sa,Ministry of Education,education,74,1,pending
 saudi,sdaia,SDAIA (Data & AI Authority),tech,74,1,pending
 saudi,gea,General Entertainment Authority,gov,74,1,pending
 abudhabi,dcd,Department of Community Development,gov,72,1,pending
-abudhabi,admo,Abu Dhabi Media Office,comm,72,0,pending
+abudhabi,admo,Abu Dhabi Media Office,comm,72,1,pending
 abudhabi,multiply,Multiply Group,sovereign,72,1,pending
 abudhabi,adnocdrill,ADNOC Drilling,energy,72,1,pending
 abudhabi,adnocdist,ADNOC Distribution,energy,72,1,pending
@@ -212,7 +211,7 @@ abudhabi,hub71,Hub71,tech,68,1,pending
 abudhabi,fertiglobe,Fertiglobe,materials,68,1,pending
 abudhabi,burjeel,Burjeel Holdings,health,68,1,pending
 abudhabi,nmdc,NMDC Group,industry,68,1,pending
-abudhabi,khalifa_u,Khalifa University,education,68,0,pending
+abudhabi,khalifa_u,Khalifa University,education,68,1,pending
 dubai,dfm,Dubai Financial Market,finance,68,1,pending
 dubai,tecom,TECOM Group,realestate,68,0,pending
 dubai,khda,Knowledge & Human Development Authority,education,68,1,pending
@@ -227,8 +226,8 @@ saudi,roshn,ROSHN,realestate,68,1,pending
 saudi,mbcgroup,MBC Group,comm,68,1,pending
 abudhabi,adafsa,Abu Dhabi Agriculture & Food Safety Authority,gov,66,1,pending
 abudhabi,tii,Technology Innovation Institute,tech,66,1,pending
-abudhabi,seha,SEHA (AD Health Services),health,66,0,pending
-abudhabi,nyuad,NYU Abu Dhabi,education,66,0,pending
+abudhabi,seha,SEHA (AD Health Services),health,66,1,pending
+abudhabi,nyuad,NYU Abu Dhabi,education,66,1,pending
 abudhabi,goldman,Goldman Sachs,finance,66,0,pending
 bahrain,moh_bh,Ministry of Housing & Urban Planning,gov,66,1,pending
 bahrain,ewa_bh,Electricity & Water Authority,utilities,66,1,pending
@@ -259,7 +258,7 @@ qatar,conocophillips,ConocoPhillips,energy,66,0,pending
 saudi,sab,Saudi Awwal Bank,finance,66,1,pending
 saudi,qiddiya,Qiddiya,consumer_disc,66,1,pending
 saudi,almarai,Almarai,consumer_stap,66,1,pending
-abudhabi,ccad,Cleveland Clinic Abu Dhabi,health,64,0,pending
+abudhabi,ccad,Cleveland Clinic Abu Dhabi,health,64,1,pending
 abudhabi,uaeu,United Arab Emirates University,education,64,1,pending
 abudhabi,tadweer,Tadweer Group,industry,64,1,pending
 abudhabi,eni,Eni,energy,64,0,pending
@@ -288,14 +287,14 @@ qatar,baladna,Baladna,consumer_stap,64,1,pending
 qatar,eni,Eni,energy,64,0,pending
 saudi,srmg,SRMG,comm,64,1,pending
 abudhabi,wio,Wio Bank,finance,62,1,pending
-abudhabi,daman,Daman (National Health Insurance),health,62,0,pending
-abudhabi,itc,Integrated Transport Centre,gov,62,0,pending
+abudhabi,daman,Daman (National Health Insurance),health,62,1,pending
+abudhabi,itc,Integrated Transport Centre,gov,62,1,pending
 abudhabi,strata,Strata Manufacturing,industry,62,1,pending
-abudhabi,aldahra,Al Dahra Holding,consumer_stap,62,0,pending
+abudhabi,aldahra,Al Dahra Holding,consumer_stap,62,1,pending
 abudhabi,louvre,Louvre Abu Dhabi,consumer_disc,62,0,pending
 abudhabi,alnowais,Al Nowais Investments,conglomerate,62,1,pending
 abudhabi,almasaood,Al Masaood Group,conglomerate,62,0,pending
-abudhabi,nationalholding,National Holding,conglomerate,62,0,pending
+abudhabi,nationalholding,National Holding,conglomerate,62,1,pending
 abudhabi,omv,OMV,energy,62,0,pending
 abudhabi,moelis,Moelis & Company,finance,62,0,pending
 abudhabi,rotana,Rotana Hotels,consumer_disc,62,1,pending
@@ -319,11 +318,11 @@ qatar,qatarrail,Qatar Rail,industry,62,0,pending
 qatar,aamal,Aamal Company,conglomerate,62,1,pending
 qatar,alfardan,Alfardan Group,conglomerate,62,1,pending
 saudi,ajlan,Ajlan & Bros,conglomerate,62,1,pending
-abudhabi,calidus,Calidus Holding,industry,60,0,pending
-abudhabi,adnh,Abu Dhabi National Hotels,realestate,60,0,pending
-abudhabi,silal,Silal,consumer_stap,60,0,pending
-abudhabi,skynewsarabia,Sky News Arabia,comm,60,0,pending
-abudhabi,zayed_u,Zayed University,education,60,0,pending
+abudhabi,calidus,Calidus Holding,industry,60,1,pending
+abudhabi,adnh,Abu Dhabi National Hotels,realestate,60,1,pending
+abudhabi,silal,Silal,consumer_stap,60,1,pending
+abudhabi,skynewsarabia,Sky News Arabia,comm,60,1,pending
+abudhabi,zayed_u,Zayed University,education,60,1,pending
 abudhabi,alfahim,Al Fahim Group,conglomerate,60,0,pending
 abudhabi,aljaber,Al Jaber Group,conglomerate,60,1,pending
 abudhabi,cerebras,Cerebras Systems,tech,60,0,pending
@@ -350,12 +349,12 @@ qatar,almana,Al Mana Group,conglomerate,60,0,pending
 qatar,sinopec,Sinopec,energy,60,0,pending
 saudi,alfaisaliah,Al Faisaliah Group,conglomerate,60,0,pending
 abudhabi,flash,Flash Entertainment,comm,58,1,pending
-abudhabi,thenational,The National,comm,58,0,pending
-abudhabi,sorbonne,Sorbonne University Abu Dhabi,education,58,0,pending
+abudhabi,thenational,The National,comm,58,1,pending
+abudhabi,sorbonne,Sorbonne University Abu Dhabi,education,58,1,pending
 abudhabi,dasholding,Das Holding,conglomerate,58,1,pending
 abudhabi,cnpc,CNPC,energy,58,0,pending
 abudhabi,kepco,KEPCO,utilities,58,0,pending
-abudhabi,alisons,Ali & Sons Holding,conglomerate,58,0,pending
+abudhabi,alisons,Ali & Sons Holding,conglomerate,58,1,pending
 abudhabi,pwc,PwC Middle East,industry,58,0,pending
 abudhabi,altamimi,Al Tamimi & Company,industry,58,1,pending
 abudhabi,raytheon_em,Raytheon Emirates,industry,58,0,pending
@@ -365,7 +364,7 @@ kuwait,alsayer,Al Sayer Group,conglomerate,58,0,pending
 oman,almouj,Al Mouj Muscat,realestate,58,0,pending
 oman,khimji,Khimji Ramdas,conglomerate,58,0,pending
 qatar,cnpc,CNPC,energy,58,0,pending
-abudhabi,binhamoodah,Bin Hamoodah Group,conglomerate,56,0,pending
+abudhabi,binhamoodah,Bin Hamoodah Group,conglomerate,56,1,pending
 abudhabi,huawei,Huawei UAE,tech,56,0,pending
 abudhabi,inpex,INPEX (JODCO),energy,56,0,pending
 abudhabi,ey,EY MENA,industry,56,0,pending
@@ -410,11 +409,11 @@ abudhabi,lst_ghitha,Ghitha Holding PJSC,consumer_stap,50,0,pending
 abudhabi,lst_rakcec,RAK Ceramics PJSC,materials,50,0,pending
 abudhabi,lst_mair,MAIR Group PJSC,consumer_stap,50,0,pending
 abudhabi,lst_invictus,Invictus Investment Company PLC,finance,50,0,pending
-abudhabi,lst_e7,E7 Group PJSC,industry,50,0,pending
+abudhabi,lst_e7,E7 Group PJSC,industry,50,1,pending
 abudhabi,lst_eshraq,Eshraq Investments PJSC,realestate,50,0,pending
 abudhabi,lst_adsb,Abu Dhabi Ship Building PJSC,industry,50,0,pending
 abudhabi,lst_gmpc,Gulf Medical Projects Company PJSC,health,50,0,pending
-abudhabi,lst_alphadata,Alpha Data PJSC,tech,50,0,pending
+abudhabi,lst_alphadata,Alpha Data PJSC,tech,50,1,pending
 abudhabi,lst_eic,Emirates Insurance Company PJSC,finance,50,0,pending
 abudhabi,lst_palms,Palms Sports PJSC,consumer_disc,50,0,pending
 abudhabi,lst_julphar,Gulf Pharmaceutical Industries P.S.C.,health,50,0,pending

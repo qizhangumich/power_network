@@ -302,6 +302,7 @@ const PEOPLE = [
     ["masdar","Chairman","board","v"],
     ["xrg","Executive Chairman","board","v"],
     ["mbzuai","Chairman, Board of Trustees","board","ns"],
+    ["xrg","CEO","executive","v"],
     ], note:"Runs the hydrocarbon engine and its clean-energy / AI diversification arms; COP28 President."},
   {id:"jassem_zaabi", n:"Jassem Mohamed Bu Ataba Al Zaabi", t:1, p:95, s:"gov", roles:[
     ["dof","Chairman","government","v"],
@@ -545,9 +546,6 @@ const PEOPLE = [
   {id:"zaghloul", n:"Yasser Zaghloul", t:2, p:68, s:"industry", roles:[
     ["nmdc","Group CEO","executive","v"],
     ]},
-  {id:"alan_smith", n:"Alan Smith", t:2, p:62, s:"consumer_stap", roles:[
-    ["agthia","Group CEO","executive","ns"],
-    ]},
   {id:"yusuffali", n:"Yusuff Ali M.A.", t:2, p:78, s:"consumer_stap", roles:[
     ["lulu","Chairman & Managing Director","board","v"],
     ], note:"Abu Dhabi-based retail magnate; one of the most influential expatriate business figures in the Gulf."},
@@ -590,6 +588,120 @@ const PEOPLE = [
   {id:"ahmed_elhoshy", n:"Ahmed El-Hoshy", t:2, p:64, s:"materials", roles:[
     ["fertiglobe","CEO","executive","v"],
     ]},
+  {id:"ebrahim_alhajri", n:"Dr. Ebrahim Saeed Al Hajri", t:2, p:62, s:"education", roles:[
+    ["khalifa_u","President","executive","v"],
+    ], note:"President of Khalifa University since July 2024"},
+  {id:"fabio_piano", n:"Fabio Piano", t:2, p:62, s:"education", roles:[
+    ["nyuad","Vice Chancellor","executive","v"],
+    ], note:"Vice Chancellor of NYU Abu Dhabi since August 2026"},
+  {id:"nathalie_martial_braz", n:"Prof. Nathalie Martial-Braz", t:2, p:58, s:"education", roles:[
+    ["sorbonne","Chancellor","executive","v"],
+    ], note:"Chancellor of Sorbonne University Abu Dhabi"},
+  {id:"kevin_hall", n:"Dr. Kevin Hall", t:2, p:60, s:"education", roles:[
+    ["zayed_u","President and CEO","executive","v"],
+    ], note:"President and CEO of Zayed University since November 2025"},
+  {id:"maryam_almheiri", n:"H.E. Maryam Eid AlMheiri", t:1, p:74, s:"comm", roles:[
+    ["admo","Chairperson","government","v"],
+    ], note:"Chairperson of Abu Dhabi Media Office; former UAE Minister of Climate Change and Environment"},
+  {id:"nadim_koteich", n:"Nadim Koteich", t:2, p:58, s:"comm", roles:[
+    ["skynewsarabia","General Manager","executive","v"],
+    ], note:"General Manager of Sky News Arabia under IMI"},
+  {id:"mina_aloraibi", n:"Mina Al-Oraibi", t:2, p:56, s:"comm", roles:[
+    ["thenational","Editor-in-Chief","executive","v"],
+    ], note:"Editor-in-Chief of The National since 2017"},
+  {id:"saeed_alkuwaiti", n:"Saeed Jaber Al Kuwaiti", t:2, p:64, s:"health", roles:[
+    ["seha","Group CEO","executive","v"],
+    ], note:"Group CEO of SEHA (Abu Dhabi Health Services Company)"},
+  {id:"khaled_ateeq_aldhaheri", n:"Khaled Ateeq Al Dhaheri", t:2, p:60, s:"health", roles:[
+    ["daman","CEO","executive","v"],
+    ], note:"CEO of Daman National Health Insurance Company"},
+  {id:"georges_haber", n:"Dr. Georges-Pascal Haber", t:2, p:62, s:"health", roles:[
+    ["ccad","CEO","executive","v"],
+    ], note:"CEO of Cleveland Clinic Abu Dhabi since June 2024"},
+  {id:"khalifa_alblooshi", n:"Dr. Khalifa Murad Al Blooshi", t:2, p:58, s:"industry", roles:[
+    ["calidus","Managing Director & CEO","executive","v"],
+    ], note:"Managing Director & CEO of Calidus Holding Group"},
+  {id:"dhafer_alqasimi", n:"Dhafer Al Qasimi", t:2, p:58, s:"consumer_stap", roles:[
+    ["silal","CEO","executive","v"],
+    ], note:"CEO of Silal since March 2025"},
+  {id:"osman_serageldin", n:"Osman Serageldin", t:2, p:58, s:"consumer_stap", roles:[
+    ["aldahra","Interim CEO","executive","v"],
+    ], note:"Interim CEO of Al Dahra Holding since August 2026"},
+  {id:"khalid_anib", n:"Khalid Anib", t:2, p:58, s:"realestate", roles:[
+    ["adnh","CEO","executive","v"],
+    ], note:"CEO of Abu Dhabi National Hotels since 2016"},
+  {id:"abdulla_alghfeli", n:"Dr. Abdulla Hamad AlGhfeli", t:2, p:58, s:"gov", roles:[
+    ["itc","Acting Director-General","government","v"],
+    ], note:"Acting Director-General of the Integrated Transport Centre (Abu Dhabi Mobility)"},
+  {id:"faraj_binhamoodah", n:"H.E. Faraj Ali Bin Hamoodah Al Dhaheri", t:2, p:56, s:"conglomerate", roles:[
+    ["binhamoodah","Chairman","board","v"],
+    ], note:"Founder & Chairman of Bin Hamoodah Group"},
+  {id:"jawaan_alkhaili", n:"H.E. Jawaan Awaidha Suhail Al-Khaili", t:2, p:60, s:"conglomerate", roles:[
+    ["nationalholding","Chairman","board","v"],
+    ], note:"Chairman of National Holding"},
+  {id:"shamis_aldhaheri", n:"Shamis Al Dhaheri", t:2, p:56, s:"conglomerate", roles:[
+    ["alisons","Group Managing Director","executive","v"],
+    ], note:"Group Managing Director of Ali & Sons Holding"},
+  {id:"fayez_ibbini", n:"Fayez Ibbini", t:2, p:58, s:"tech", roles:[
+    ["lst_alphadata","Founder & CEO","executive","v"],
+    ], note:"Founder & CEO of Alpha Data"},
+  {id:"esteban_gomez", n:"Esteban Gómez Nadal", t:2, p:56, s:"industry", roles:[
+    ["lst_e7","CEO","executive","v"],
+    ], note:"CEO of E7 Group"},
+  {id:"khaled_zaabi_cfo", n:"Khaled Al Zaabi", t:2, p:74, s:"energy", roles:[
+    ["adnoc","Group Chief Financial Officer","executive","v"],
+    ]},
+  {id:"nasser_almuhairi", n:"Nasser Al Muhairi", t:2, p:72, s:"energy", roles:[
+    ["adnoc","Acting CEO, Downstream Industry, Marketing & Trading","executive","v"],
+    ], note:"Acting CEO of ADNOC's Downstream Industry"},
+  {id:"dena_almansoori", n:"Dena Al Mansoori", t:2, p:68, s:"energy", roles:[
+    ["adnoc","Group Chief Technology & Innovation Officer","executive","v"],
+    ]},
+  {id:"hani_barhoush", n:"Hani Barhoush", t:2, p:72, s:"sovereign", roles:[
+    ["mubadala","Managing Director & CEO, Mubadala Capital","executive","v"],
+    ]},
+  {id:"mansour_almulla", n:"Mansour Mohamed AlMulla", t:2, p:72, s:"sovereign", roles:[
+    ["adq","Deputy Group Chief Executive Officer","executive","ns"],
+    ]},
+  {id:"marcos_dequadros", n:"Marcos de Quadros", t:2, p:68, s:"sovereign", roles:[
+    ["adq","Group Chief Financial Officer","executive","ns"],
+    ]},
+  {id:"somar_ajalyaqin", n:"Dr. Mohammed Somar Ajalyaqin", t:2, p:70, s:"sovereign", roles:[
+    ["ihc","Vice Chairman","board","ns"],
+    ]},
+  {id:"alwyn_crasta", n:"Alwyn Crasta", t:2, p:66, s:"sovereign", roles:[
+    ["ihc","Group Chief Financial Officer","executive","ns"],
+    ]},
+  {id:"ali_dalloul", n:"Ali Dalloul", t:2, p:68, s:"tech", roles:[
+    ["g42","Group Chief Strategy Officer","executive","v"],
+    ], note:"Also CEO of G42's US business"},
+  {id:"kiril_evtimov", n:"Kiril Evtimov", t:2, p:68, s:"tech", roles:[
+    ["g42","Group Chief Technology Officer","executive","v"],
+    ], note:"Also Chairman of G42 Cloud"},
+  {id:"adrian_kershaw", n:"Adrian Kershaw", t:2, p:70, s:"utilities", roles:[
+    ["taqa","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"mazin_khan", n:"Mazin Khan", t:2, p:66, s:"utilities", roles:[
+    ["masdar","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"lars_kramer", n:"Lars Kramer", t:2, p:72, s:"finance", roles:[
+    ["fab","Group Chief Financial Officer","executive","v"],
+    ]},
+  {id:"deepak_khullar", n:"Deepak Khullar", t:2, p:70, s:"finance", roles:[
+    ["adcb","Group Chief Financial Officer","executive","ns"],
+    ]},
+  {id:"karim_bennis", n:"Karim Bennis", t:2, p:68, s:"comm", roles:[
+    ["e_and","Group Chief Financial Officer","executive","v"],
+    ]},
+  {id:"saif_dahbashi", n:"Saif Ali Al Dahbashi", t:2, p:64, s:"industry", roles:[
+    ["edge_grp","President, Missiles & Weapons Cluster","executive","v"],
+    ]},
+  {id:"raffael_quintas", n:"Raffael Quintas", t:2, p:66, s:"industry", roles:[
+    ["etihad","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"salmeen_alameri", n:"Salmeen Obaid Alameri", t:2, p:66, s:"consumer_stap", roles:[
+    ["agthia","Managing Director & Group CEO","executive","v"],
+    ], note:"Managing Director & CEO of Agthia since 2025; previously CEO of Silal."},
 ];
 
 const OWNERSHIP = [
