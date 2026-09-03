@@ -138,6 +138,32 @@ const PEOPLE = [
   {id:"lubna", n:"Lubna Olayan", t:2, p:76, s:"finance", roles:[
     ["olayan","Chair, Olayan Financing","board","v"],
     ["sab","Chair","board","ns"]]},
+  {id:"alsadhan", n:"Tareq Al-Sadhan", t:2, p:72, s:"finance", roles:[
+    ["snb","Group CEO","executive","v"]]},
+  {id:"saeed_alghamdi", n:"Saeed Al-Ghamdi", t:2, p:72, s:"finance", roles:[
+    ["snb","Chairman","board","ns"]]},
+  {id:"almogbel", n:"Waleed Al-Mogbel", t:2, p:72, s:"finance", roles:[
+    ["alrajhi","CEO & Managing Director","executive","v"]]},
+  {id:"alghonon", n:"Khalid Al-Ghonon", t:2, p:66, s:"utilities", roles:[
+    ["sec","CEO","executive","ns"]]},
+  {id:"alhussan", n:"Khalid Al-Hussan", t:2, p:70, s:"finance", roles:[
+    ["tadawul","Group CEO, Saudi Tadawul Group","executive","v"]]},
+  {id:"alomar_saudia", n:"Ibrahim Al-Omar", t:2, p:68, s:"industry", roles:[
+    ["saudia","Director General, Saudia Group","executive","v"]]},
+  {id:"almuhid", n:"Thamer AlMuhid", t:2, p:68, s:"industry", roles:[
+    ["sami","CEO","executive","v"]]},
+  {id:"sulaiman_alhabib", n:"Sulaiman Al Habib", t:2, p:74, s:"health", roles:[
+    ["habib","Founder & Chairman","board","v"]]},
+  {id:"atallah", n:"Noman Atallah", t:2, p:64, s:"realestate", roles:[
+    ["roshn","Group CEO","executive","ns"]]},
+  {id:"aldawood", n:"Abdullah Aldawood", t:2, p:68, s:"consumer_disc", roles:[
+    ["qiddiya","CEO & Managing Director","executive","v"]]},
+  {id:"aljasser", n:"Fawaz Al-Jasser", t:2, p:64, s:"consumer_stap", roles:[
+    ["almarai","CEO","executive","ns"]]},
+  {id:"jomana", n:"Jomana Al-Rashid", t:2, p:68, s:"comm", roles:[
+    ["srmg","CEO","executive","v"]]},
+  {id:"alajlan", n:"Ajlan bin Abdulaziz Al Ajlan", t:2, p:68, s:"conglomerate", roles:[
+    ["ajlan","Founder & Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -183,4 +209,11 @@ const AKA = {
   alalshikh:["Turki Al-Sheikh","Turki Al Sheikh"],
   neom:["NEOM"],
   stc:["Saudi Telecom"],
+  alsadhan:["Tareq Abdulrahman Al-Sadhan","Tareq Al Sadhan"],
+  almogbel:["Waleed Abdullah Al-Mogbel","Waleed Al Mogbel"],
+  alhussan:["Khalid Al Hussan","Khalid Abdullah Al-Hussan"],
+  almuhid:["Thamer Al-Muhid","Thamer Al Muhid"],
+  sulaiman_alhabib:["Dr. Sulaiman Al-Habib","Sulaiman bin Abdulaziz Al Habib"],
+  jomana:["Jomana Alrashid","Jomana Al-Rashed"],
+  alajlan:["Ajlan Al Ajlan","Ajlan Abdulaziz Alajlan"],
 };

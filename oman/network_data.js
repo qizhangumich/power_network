@@ -72,7 +72,8 @@ const PEOPLE = [
   {id:"habsi", n:"Sultan bin Salim Al Habsi", t:1, p:80, s:"finance", roles:[
     ["mof_om","Minister of Finance","political","v"]]},
   {id:"yousef_om", n:"Qais bin Mohammed Al Yousef", t:1, p:70, s:"gov", roles:[
-    ["moci_om","Minister of Commerce, Industry & Investment Promotion","political","v"]]},
+    ["moci_om","Minister of Commerce, Industry & Investment Promotion","political","v"],
+    ["opaz","Chairman","board","v"]]},
   {id:"murshidi", n:"Abdulsalam Al Murshidi", t:1, p:82, s:"sovereign", roles:[
     ["oia","President","executive","v"]],
     note:"Controls the consolidated sovereign portfolio — OQ, Asyad, Omantel and most state companies sit under OIA."},
@@ -84,6 +85,18 @@ const PEOPLE = [
     ["bahwan","Founder & Chairman","board","v"]]},
   {id:"mohammed_zubair", n:"Mohammed Al Zubair", t:2, p:62, s:"conglomerate", roles:[
     ["zubair","Chairman (family)","board","ns"]]},
+  {id:"alhadhrami_pdo", n:"Dr. Aflah Al Hadhrami", t:1, p:74, s:"energy", roles:[
+    ["pdo","Managing Director","executive","v"]]},
+  {id:"almusalmi_cbo", n:"Ahmed bin Jaafar bin Salim Al Musalmi", t:1, p:76, s:"finance", roles:[
+    ["cbo","Governor","executive","v"]]},
+  {id:"alhashar_bankmuscat", n:"Sheikh Waleed Khamis Al Hashar", t:2, p:70, s:"finance", roles:[
+    ["bankmuscat","Chief Executive Officer","executive","v"]]},
+  {id:"baitfadhil_omantel", n:"Aladdin Abdullah Hassan Baitfadhil", t:2, p:66, s:"comm", roles:[
+    ["omantel","Chief Executive Officer","executive","v"]]},
+  {id:"naamany_omanlng", n:"Hamed Al Naamany", t:2, p:64, s:"energy", roles:[
+    ["omanlng","Chief Executive Officer","executive","v"]]},
+  {id:"almahrizi_nama", n:"Ahmed Al Mahrizi", t:2, p:62, s:"utilities", roles:[
+    ["nama","Group Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -117,4 +130,6 @@ const AKA = {
   oia:["Oman Investment Authority"],
   oq:["OQ"],
   pdo:["Petroleum Development Oman"],
+  alhadhrami_pdo:["Aflah Al Hadhrami"],
+  almusalmi_cbo:["Ahmed Al Musalmi"],
 };

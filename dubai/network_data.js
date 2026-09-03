@@ -91,7 +91,8 @@ const PEOPLE = [
   {id:"shaibani", n:"Mohammed Ibrahim Al Shaibani", t:1, p:90, s:"sovereign", roles:[
     ["dxbgov","Director-General, Ruler's Court","government","v"],
     ["icd","Managing Director","executive","v"],
-    ["nakheel","Chairman","board","ns"]],
+    ["nakheel","Chairman","board","ns"],
+    ["dib","Chairman","board","v"]],
     note:"The Ruler's chief business fiduciary — controls the ICD holding that owns Emirates, ENBD and more."},
   {id:"sultan_sulayem", n:"Sultan Ahmed bin Sulayem", t:1, p:88, s:"industry", roles:[
     ["dpworld","Group Chairman & CEO","executive","v"]],
@@ -130,6 +131,30 @@ const PEOPLE = [
     ["alhabtoor","Founder & Chairman","board","v"]]},
   {id:"amit_kaushal", n:"Amit Kaushal", t:2, p:72, s:"sovereign", roles:[
     ["dubaiholding","Group CEO","executive","ns"]]},
+  {id:"ismail_maf", n:"Ahmed Galal Ismail", t:2, p:74, s:"conglomerate", roles:[
+    ["maf","Group CEO","executive","v"]]},
+  {id:"alali_maf_chair", n:"Fadel Abdulbaqi Al Ali", t:2, p:72, s:"conglomerate", roles:[
+    ["maf","Chairman, Holding Board","board","v"]]},
+  {id:"alsaleh_dof", n:"Abdulrahman Saleh Al Saleh", t:1, p:72, s:"gov", roles:[
+    ["dof_dxb","Director-General","political","v"]]},
+  {id:"omar_alfuttaim", n:"Omar Al Futtaim", t:2, p:76, s:"conglomerate", roles:[
+    ["alfuttaim","Vice Chairman & CEO","executive","v"]]},
+  {id:"chilwan_dib", n:"Dr. Adnan Chilwan", t:2, p:74, s:"finance", roles:[
+    ["dib","Group CEO","executive","v"]]},
+  {id:"alfalasi_enoc", n:"Saif Humaid Al Falasi", t:2, p:72, s:"energy", roles:[
+    ["enoc","Group CEO","executive","v"]]},
+  {id:"kalban_ega", n:"Abdulnasser Bin Kalban", t:2, p:70, s:"materials", roles:[
+    ["ega","Chief Executive Officer","executive","v"]]},
+  {id:"alshimmari_ega", n:"Homaid Al Shimmari", t:2, p:68, s:"materials", roles:[
+    ["ega","Chairman","board","v"]]},
+  {id:"alhassawi_du", n:"Fahad Al Hassawi", t:2, p:70, s:"comm", roles:[
+    ["du","Group CEO","executive","v"]]},
+  {id:"binsulayem_dmcc", n:"Ahmed Bin Sulayem", t:2, p:74, s:"gov", roles:[
+    ["dmcc","Executive Chairman & CEO","executive","v"]]},
+  {id:"meier_jumeirah", n:"Thomas B. Meier", t:2, p:66, s:"consumer_disc", roles:[
+    ["jumeirah","Group CEO","executive","v"]]},
+  {id:"white_vara", n:"Matthew White", t:2, p:62, s:"finance", roles:[
+    ["vara","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -176,4 +201,14 @@ const AKA = {
   dpworld:["DP World"],
   difc:["Dubai International Financial Centre"],
   dewa:["Dubai Electricity"],
+  maf:["Majid Al Futtaim"],
+  alfuttaim:["Al-Futtaim","Al Futtaim Group"],
+  dib:["Dubai Islamic Bank"],
+  ega:["EGA","Emirates Global Aluminium"],
+  dmcc:["DMCC","Dubai Multi Commodities Centre"],
+  du:["du","EITC"],
+  vara:["VARA"],
+  omar_alfuttaim:["Omar Al-Futtaim"],
+  chilwan_dib:["Adnan Chilwan"],
+  binsulayem_dmcc:["Ahmed bin Sulayem"],
 };

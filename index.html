@@ -308,6 +308,7 @@ const I18N = {
     legend:["person","government","sovereign fund","company / org","institutional relationship","unverified / potential","family tie","focus / path","news signal","your LinkedIn reach"],
     roleTypes:{political:"political", government:"government", board:"board", executive:"executive", ownership:"owner"},
     sectors:null,
+    liSearch:"Search on LinkedIn ↗",
     pathBtn:"Find path from here", pathArmed:"…now click the destination node", pathTitle:"Best known path",
     pathNone:"No path found between these nodes", pathFrom:"Path from",
     relTitle:"Relationship", relPotential:"Potential — co-mentioned in news, not yet verified",
@@ -341,6 +342,7 @@ const I18N = {
       consumer_stap:"必选消费", health:"医疗保健", finance:"金融", tech:"信息技术",
       comm:"通信服务", utilities:"公用事业", realestate:"房地产",
       gov:"政府与政治", sovereign:"主权资本", education:"教育与科研", conglomerate:"家族企业集团"},
+    liSearch:"在领英搜索 ↗",
     pathBtn:"从此节点找路径", pathArmed:"…现在点击目标节点", pathTitle:"最可信路径",
     pathNone:"两个节点之间未找到路径", pathFrom:"路径起点",
     relTitle:"关系", relPotential:"潜在关系 — 新闻共现，尚未核实",
@@ -1097,7 +1099,9 @@ function select(n){
   html += `<div class="sub">${n.kind==="person" ? t().person : t().inst} · ${sectorName(n.sector)}</div>`;
   html += `<div><span class="badge tier">${tierName(n.tier)}</span><span class="badge">${sectorName(n.sector)}</span></div>`;
   html += `<div class="powerbar"><i style="width:${n.power}%"></i></div><div class="plab">${t().power} ${n.power} / 100 · ${n.deg} ${t().conns}</div>`;
-  html += `<div class="pathbtn" id="p-arm">${t().pathBtn}</div>`;
+  html += `<div class="pathbtn" id="p-arm">${t().pathBtn}</div> `
+        + `<a class="pathbtn" style="text-decoration:none" target="_blank" rel="noopener" `
+        + `href="https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(n.kind==="inst" ? n.name.replace(/\s*\(.*\)/,"") : n.name)}">${t().liSearch}</a>`;
   if(n.kind==="person" && n.roles){
     html += `<div class="sect">${t().positions}</div>`;
     n.roles.forEach(r => {

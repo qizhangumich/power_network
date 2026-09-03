@@ -210,7 +210,8 @@ const PEOPLE = [
 
   // ===== TIER 2 — OPERATING EXECUTIVES =====
   {id:"qnb_ceo", n:"Abdulla Mubarak Al-Khalifa", t:2, p:74, s:"finance", roles:[["qnb","Group CEO","executive","v"]]},
-  {id:"badr_qa", n:"Badr Mohammed Al-Meer", t:2, p:80, s:"industry", roles:[["qatarairways","Group CEO","executive","v"]]},
+  {id:"hamad_alkhater", n:"Hamad Ali Al-Khater", t:2, p:80, s:"industry", roles:[["qatarairways","Group CEO","executive","v"]],
+    note:"Group CEO since 7 Dec 2025 (from HIA COO; ex-QatarEnergy), replacing Badr Al-Meer."},
   {id:"fakhroo", n:"Aziz Aluthman Fakhroo", t:2, p:74, s:"comm", roles:[["ooredoo","Managing Director & Group CEO","executive","v"]]},
   {id:"sulaiti", n:"Abdullah Al-Sulaiti", t:2, p:68, s:"energy", roles:[["nakilat","CEO","executive","v"]]},
   {id:"jaida_qfc", n:"Yousuf Mohamed Al-Jaida", t:2, p:70, s:"finance", roles:[["qfc","CEO","executive","ns"]]},
@@ -221,6 +222,39 @@ const PEOPLE = [
   {id:"alfardan_h", n:"Hussain Ibrahim Alfardan", t:2, p:70, s:"conglomerate", roles:[
     ["alfardan","Chairman","board","v"]],
     note:"Pearl-trading dynasty turned banking, luxury retail, property and hospitality group."},
+
+  // ===== ADDED SEP 2026 — CURRENT CHAIRS / CEOs FOR PREVIOUSLY UNSTAFFED INSTITUTIONS =====
+  {id:"mohannadi_lng", n:"Eng. Ahmed Hilal Al Mohannadi", t:2, p:74, s:"energy", roles:[
+    ["qelng","Chief Executive Officer","executive","v"]],
+    note:"Took over QatarEnergy LNG from 1 January 2026, succeeding Sheikh Khalid bin Khalifa Al Thani; overseeing the North Field expansion to 142 mtpa."},
+  {id:"hamad_talal_diar", n:"H.E. Sheikh Hamad bin Talal Al Thani", t:1, p:70, s:"realestate", roles:[
+    ["qatariddiar","Chief Executive Officer","executive","v"]],
+    note:"Rose through Qatari Diar's international development arm before taking the CEO seat in December 2025."},
+  {id:"ghanim_shura", n:"H.E. Hassan bin Abdullah Al Ghanim", t:1, p:72, s:"gov", roles:[
+    ["shura","Speaker","political","v"]]},
+  {id:"alansari_qse", n:"Abdullah Mohammed Al-Ansari", t:2, p:68, s:"finance", roles:[
+    ["qse","Chief Executive Officer","executive","v"]],
+    note:"Former QIA Qatar Funds director; became QSE CEO in March 2025."},
+  {id:"altheyab_km", n:"Eng. Abdulla bin Ali Al-Theyab", t:2, p:70, s:"utilities", roles:[
+    ["kahramaa","President","executive","v"]],
+    note:"Appointed by Amiri Decision in December 2024."},
+  {id:"khalid_qafco", n:"Sheikh Khalid bin Abdulla Al-Thani", t:1, p:68, s:"materials", roles:[
+    ["qafco","Vice-Chairman & Managing Director","executive","v"]]},
+  {id:"alsadah_barzan", n:"Mohammad bin Bader Al Sadah", t:2, p:68, s:"industry", roles:[
+    ["barzan","Group CEO","executive","v"]],
+    note:"Succeeded Abdullah Hassan Al-Khater; drives Qatar's defense-industrial localization push."},
+  {id:"hasnah_hbku", n:"Dr. Ahmad M. Hasnah", t:2, p:64, s:"education", roles:[
+    ["hbku","President","executive","v"]]},
+  {id:"almana_sidra", n:"Mohammed Khalid Al Mana", t:2, p:62, s:"health", roles:[
+    ["sidra","Acting Chief Executive Officer","executive","v"]]},
+  {id:"alkuwari_msheireb", n:"Eng. Ali Al Kuwari", t:2, p:68, s:"realestate", roles:[
+    ["msheireb","Chief Executive Officer","executive","v"]],
+    note:"Named Global/GCC Real Estate CEO of the Year in 2026 for Msheireb's integrated downtown-Doha development."},
+  {id:"alansari_qu", n:"Dr. Omar Mohammed Abdullah Al-Ansari", t:2, p:64, s:"education", roles:[
+    ["qu","President","executive","v"]]},
+  {id:"altayeb_barwa", n:"Ahmed Mohamed Al-Tayeb", t:2, p:64, s:"realestate", roles:[
+    ["barwa","Chief Executive Officer","executive","v"]],
+    note:"Previously CEO of the Investment Sector at Qatari Diar before taking Barwa's top job."},
 ];
 
 const OWNERSHIP = [
@@ -305,4 +339,14 @@ const AKA = {
   qatarairways:["Qatar Airways"],
   qelng:["Qatargas"],
   industriesqatar:["Industries Qatar","IQ"],
+  mohannadi_lng:["Ahmed Al Mohannadi","Ahmed Hilal Al Mohannadi"],
+  hamad_talal_diar:["Hamad bin Talal Al Thani","Sheikh Hamad bin Talal"],
+  ghanim_shura:["Hassan Al Ghanim","Hassan bin Abdullah Al-Ghanim"],
+  alkuwari_msheireb:["Ali Al Kuwari (Msheireb)","Ali Al Kuwairi"],
+  altheyab_km:["Abdulla Al-Theyab","Abdullah bin Ali Al Theyab"],
+  qafco:["Qatar Fertiliser Company","Qatar Fertilizer Company"],
+  kahramaa:["Qatar General Electricity & Water Corporation","QGEWC"],
+  qse:["Qatar Stock Exchange","QE"],
+  hbku:["Hamad Bin Khalifa University"],
+  msheireb:["Msheireb Properties","Msheireb Downtown Doha"],
 };

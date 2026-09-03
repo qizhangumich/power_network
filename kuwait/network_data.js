@@ -90,6 +90,20 @@ const PEOPLE = [
     ["alghanim","Chairman (family)","board","ns"]]},
   {id:"boodai", n:"Marwan Boodai", t:2, p:64, s:"industry", roles:[
     ["jazeera","Chairman","board","v"]]},
+  {id:"alshamlan_kfh", n:"Khaled Yousef Alshamlan", t:2, p:72, s:"finance", roles:[
+    ["kfh","Group Chief Executive Officer","executive","v"]]},
+  {id:"aleidan_koc", n:"Ahmad Jaber Al-Eidan", t:2, p:68, s:"energy", roles:[
+    ["koc","Chief Executive Officer","executive","v"]]},
+  {id:"alkhateeb_knpc", n:"Wadha Ahmed Al-Khateeb", t:2, p:66, s:"energy", roles:[
+    ["knpc","Chief Executive Officer","executive","v"]]},
+  {id:"aldousari_equate", n:"Nasser Mohamad Al-Dousari", t:2, p:62, s:"materials", roles:[
+    ["equate","Chief Executive Officer","executive","v"]]},
+  {id:"dana_alsabah_kipco", n:"Sheikha Dana Naser Al-Sabah", t:1, p:66, s:"sovereign", roles:[
+    ["kipco","Group Chief Executive Officer","executive","v"]]},
+  {id:"alsharian_mabanee", n:"Waleed Khaled Alsharian", t:2, p:62, s:"realestate", roles:[
+    ["mabanee","Chief Executive Officer","executive","v"]]},
+  {id:"alhaimer_kufpec", n:"Mohammad Salem Al-Haimer", t:2, p:60, s:"energy", roles:[
+    ["kufpec","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -121,4 +135,6 @@ const AKA = {
   kfh:["Kuwait Finance House"],
   bader_kharafi:["Bader Al-Kharafi"],
   alshaya:["Alshaya"],
+  dana_alsabah_kipco:["Dana Al Sabah"],
+  alkhateeb_knpc:["Wadha Al-Khateeb"],
 };

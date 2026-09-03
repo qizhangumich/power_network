@@ -99,6 +99,16 @@ const PEOPLE = [
     ["shurooq","CEO","executive","ns"]]},
   {id:"mousa_murad", n:"Capt. Mousa Murad", t:2, p:62, s:"industry", roles:[
     ["fujport","General Manager","executive","ns"]]},
+  {id:"abdouli_marjan", n:"Arch. Abdulla Al Abdouli", t:2, p:66, s:"realestate", roles:[
+    ["marjan","Group Chief Executive Officer","executive","v"]]},
+  {id:"tappeiner_wynn", n:"Max Tappeiner", t:2, p:64, s:"consumer_disc", roles:[
+    ["wynnmarjan","President","executive","v"]]},
+  {id:"raheel_rakbank", n:"Raheel Ahmed", t:2, p:62, s:"finance", roles:[
+    ["rakbank","Group CEO","executive","v"]]},
+  {id:"alhamoudi_foiz", n:"Capt. Salem Al Hamoudi", t:2, p:60, s:"energy", roles:[
+    ["fujoilzone","Director","executive","v"]]},
+  {id:"alsuwaidi_sewa", n:"Saeed Sultan Al Suwaidi", t:2, p:64, s:"utilities", roles:[
+    ["sewa","Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -135,4 +145,9 @@ const AKA = {
   beeah:["Bee'ah"],
   airarabia:["Air Arabia"],
   wynnmarjan:["Wynn Al Marjan","Wynn Resorts"],
+  marjan:["Marjan Group","Al Marjan Island"],
+  rakbank:["RAKBANK"],
+  sewa:["SEWA"],
+  abdouli_marjan:["Abdulla Al Abdouli"],
+  tappeiner_wynn:["Max Tappeiner"],
 };

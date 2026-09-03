@@ -81,6 +81,20 @@ const PEOPLE = [
     ["bic","CEO","executive","ns"]]},
   {id:"fawzi_kanoo", n:"Fawzi Ahmed Kanoo", t:2, p:60, s:"conglomerate", roles:[
     ["kanoo","Deputy Chairman","board","ns"]]},
+  {id:"kvalseth", n:"Andrew Kvålseth", t:2, p:68, s:"comm", roles:[
+    ["beyon","Chief Executive Officer","executive","v"]]},
+  {id:"gauss_gulfair", n:"Martin Gauss", t:2, p:66, s:"industry", roles:[
+    ["gulfair","Group Chief Executive Officer","executive","v"]]},
+  {id:"kamal_ewa", n:"Eng. Kamal bin Ahmed Mohammed", t:1, p:74, s:"utilities", roles:[
+    ["ewa_bh","President","executive","v"]]},
+  {id:"alrayes_gfh", n:"Hisham Ahmed Al-Rayes", t:2, p:68, s:"finance", roles:[
+    ["gfh","Group Chief Executive Officer","executive","v"]]},
+  {id:"jennings_abc", n:"Paul Jennings", t:2, p:66, s:"finance", roles:[
+    ["abc","Group Chief Executive Officer","executive","v"]]},
+  {id:"usman_nbb", n:"Usman Ahmed", t:2, p:68, s:"finance", roles:[
+    ["nbb","Group Chief Executive Officer","executive","v"]]},
+  {id:"almajed_edamah", n:"Khaled Abdulrahman Al Majed", t:2, p:60, s:"realestate", roles:[
+    ["edamah","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -112,4 +126,7 @@ const AKA = {
   mumtalakat:["Mumtalakat"],
   investcorp:["Investcorp"],
   beyon:["Batelco"],
+  kvalseth:["Andrew Kvalseth"],
+  kamal_ewa:["Kamal bin Ahmed"],
+  jennings_abc:["Paul Jennings"],
 };
