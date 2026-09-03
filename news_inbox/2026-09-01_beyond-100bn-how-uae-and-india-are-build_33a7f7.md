@@ -1,0 +1,5 @@
+# Beyond $100bn: How UAE and India are building deeper economic ties
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWHlkVFJxMlNrcElmWnh5ODVXN1htRnZTdHg0U1R6LVBabm5WRlJOaGRfVUdoTUlaZzhFRkQxTGJxWGFKb0U0X3lQS0F4a2h1bmV0a1p5ZzBzR2NLV1V5Sm1sR0xsejhNbzNFdnNValVYSTVCbk1jZFZvME9LUGRDejN4aGcxVHFtRGN5VjZRaFlaMVdrejU3UmZ6QmZmZ1RvbmVQOEF2SzJNNHd6d2o1NUFrb2lhWVhsUHQwQUgxa2lTeVo2NEZscg?oc=5
+
+Beyond $100bn: How UAE and India are building deeper economic ties    thenationalnews.com

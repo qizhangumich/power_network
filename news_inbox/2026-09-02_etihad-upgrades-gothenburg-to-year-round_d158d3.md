@@ -1,0 +1,5 @@
+# Etihad upgrades Gothenburg to year-round following exceptional demand
+source: Breaking Travel News
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxNaE4zeEpkWXl1VzV2R094UHgyYXZCcFQxOV9xUS16ZE5NNjJDZk04NVdVUU1MZTM5a2lIMHRMMlExVURPNnB0WUhwTnRkVk5vWnBaXzMzdEpPTHlOZVVqckNrOVhiSkJsQlA0c3BsSkhOYnBHVS1KWGJ2dnNTLTJUd0xaOTJ3MDlLZmZVOHhQYi1xS2NkV3hlT3FGbG45Q0p1OVlLODdYX01HMlVJQ0hVVXpqQ0kzS2k5clE?oc=5
+
+Etihad upgrades Gothenburg to year-round following exceptional demand    Breaking Travel News

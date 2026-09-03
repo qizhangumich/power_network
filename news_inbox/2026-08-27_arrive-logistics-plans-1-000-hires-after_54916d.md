@@ -1,0 +1,5 @@
+# Arrive Logistics plans 1,000 hires after Mubadala majority investment
+source: FreightWaves
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPVldGd2N2S0V0eXEtQUNQbkpZVm9mYTRjNmJabGI4eUZ1MWFIOXlaMl9OUk9Eb2N2OXJsaWFWUjNvX2x5LUNGT1pqcVIzalhnVnRqVTlkZjlZUG1FOW5HWGYyYnNBLXI1cVh6c3o0RFJZemR0Ny11M1hrQlBNME9FZ2pJTzl5ak9wUVA3Z3VxZXZlMTFsMkZyalZqTTJXS09ma2ZNNg?oc=5
+
+Arrive Logistics plans 1,000 hires after Mubadala majority investment    FreightWaves

@@ -15,13 +15,17 @@ and regenerates news_data.js (idempotent — safe to re-run any time).
 Matched nodes get a gold signal badge on the map and a "Recent signals" section
 in their detail panel.
 """
+import csv
 import re
 import datetime
+from itertools import combinations
 from pathlib import Path
 from netdata import ROOT, load_nodes, js_string
 
 INBOX = ROOT / "news_inbox"
 OUT = ROOT / "news_data.js"
+SUGGEST = ROOT / "data" / "suggested_edges.csv"
+MIN_COMENTIONS = 2   # articles two entities must share before an edge is suggested
 
 # aliases that are too generic to match on their own
 STOP_ALIASES = {"bp", "eni", "ey", "shell", "e&", "doe", "dof", "doh", "dmt", "dge", "dcd"}
@@ -101,6 +105,51 @@ def main():
         encoding="utf-8")
     print(f"\n{len(items)} items -> {OUT.name} "
           f"({sum(1 for i in items if i['ids'])} matched at least one node)")
+    suggest_edges(nodes, items)
+
+
+def existing_pairs():
+    """Every connected pair, from the canonical CSV tables."""
+    pairs = set()
+    d = ROOT / "data"
+    def add(a, b): pairs.add(frozenset((a.strip(), b.strip())))
+    for fname, ca, cb in [("roles.csv", "person_id", "institution_id"),
+                          ("ownership.csv", "child_id", "parent_id"),
+                          ("family.csv", "person_a_id", "person_b_id")]:
+        p = d / fname
+        if not p.exists():
+            continue
+        with open(p, encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                if row.get(ca) and row.get(cb):
+                    add(row[ca], row[cb])
+    return pairs
+
+
+def suggest_edges(nodes, items):
+    """Co-mention detection: entities that keep sharing articles but have no edge."""
+    known = existing_pairs()
+    name = {n["id"]: n["short"] for n in nodes}
+    counts, samples = {}, {}
+    for it in items:
+        for a, b in combinations(sorted(it["ids"]), 2):
+            k = frozenset((a, b))
+            if k in known:
+                continue
+            counts[k] = counts.get(k, 0) + 1
+            samples.setdefault(k, []).append(it["title"][:80])
+    rows = sorted(((c, k) for k, c in counts.items() if c >= MIN_COMENTIONS), reverse=True)
+    SUGGEST.parent.mkdir(exist_ok=True)
+    with open(SUGGEST, "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.writer(f)
+        w.writerow(["entity_a", "entity_a_name", "entity_b", "entity_b_name",
+                    "co_mentions", "sample_headlines"])
+        for c, k in rows:
+            a, b = sorted(k)
+            w.writerow([a, name.get(a, a), b, name.get(b, b), c,
+                        " | ".join(samples[k][:3])])
+    print(f"{len(rows)} candidate relationships -> data/suggested_edges.csv "
+          f"(pairs sharing >= {MIN_COMENTIONS} articles, no existing edge)")
 
 if __name__ == "__main__":
     main()

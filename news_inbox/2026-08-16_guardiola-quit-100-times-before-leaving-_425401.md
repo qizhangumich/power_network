@@ -1,0 +1,5 @@
+# Guardiola quit '100 times' before leaving, says Man City chairman
+source: WFMZ.com
+url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZTJQbS16bWMyWFNQcmc0VE96TmpiR3FWYUtTUWo1SW13Y0tYSUJBbVMtSENkUlpTNkloMTgzQXdxampjSGdrNzdyNHB4aS1pVGh3WnZBRW9OSmk3bHFXTktmT3BYbFF3TjZRT01TZkhDeE9lZEJMWFNFaUpLYWNjdTNVWG9UV1lKSXo3YS01LTVOLVUzSTBpM2JwVTJjb2h5UWIzNmlFZG9pNGtXVEcyR2FOUDBXRGlhbEtxdnNHZ1p0ZDRJSjFOOXB6c2hCdnJZblY3cTNBU0ZyM0VOQ19j?oc=5
+
+Guardiola quit '100 times' before leaving, says Man City chairman    WFMZ.com

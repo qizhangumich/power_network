@@ -1,0 +1,5 @@
+# Announcement of Notification to Submit a Voluntary Conditional ‎Cash Offer to Acquire AD Ports Group Shares
+source: DredgeWire
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQa3VCRnVpR3NDbXBmVlJ4LWt2T0dyUmN1eDBtbE1SUmtkVUpIVDl0WDJ5M3dnMEVVdHZHYlM1Sk5fd3lHNWx0bGN2TklpZndub002dmVBSmI5RVNxaEFON0tEc2ZRd3NPZGpiYnI2NDdoZ3FteUZDeklJX2F1ajRDeGhYUl9PemJjQjRmbTVZYTczcFp0bHhueTNOTk9GN05xbkdHUjhiWk1ERXgyYXVDODZ3OTRrOHNzcTlHci1ldVB0MTJlRXNlUkZB?oc=5
+
+Announcement of Notification to Submit a Voluntary Conditional ‎Cash Offer to Acquire AD Ports Group Shares    DredgeWire

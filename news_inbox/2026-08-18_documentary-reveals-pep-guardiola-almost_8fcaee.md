@@ -1,0 +1,5 @@
+# Documentary reveals Pep Guardiola almost in tears during Manchester City bad run
+source: Connaught Telegraph
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQek9tX0c1VjBGSUVDcHd1dUdIUkNVanVzMmVJM3VwQmMxYXZTTXBCRmxrRnhrYmNON3pYRjlic0QxLTlhcDhsdlhwLU55a1pGQjR2Mms1emhaQk5uSDFwMURCS1JXYngyV0JkRHJTYzQ5ZHlURVU0TEZ3MWRHVzdBMXFKZE1MNGNnUWRCMEROanlzTjNsdGhhZFVHTDkxYjlWRWFhaE1DT0ltS1padVRNeFotcXFDaGZqazhwbVF3?oc=5
+
+Documentary reveals Pep Guardiola almost in tears during Manchester City bad run    Connaught Telegraph

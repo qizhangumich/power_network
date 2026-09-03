@@ -1,0 +1,5 @@
+# PureHealth Research Explores Horse Chestnut and Butcher's Broom in Supplements for Vein Health
+source: Local 3 News
+url: https://news.google.com/rss/articles/CBMiqAJBVV95cUxQMGo0TTNXWTR5ZFFyNVlyQk9RM0E3VWwzRXI3dnlMZGNoeTdkbFVYNFZlQzBDek9MRVVqM20xZ2dYZlFTeU9WWTV1YzlpcV9Rb3o5UzRBLVRVMm1VNzhDVmNlYW9NMHo2X3N2aDNidkVZdHRJZWd3VGJ4QzYwR0tZaEpnZjAwRzVlOEppRFpzQ3ZSeC1uS2tjc3cxR3RhOXdZQkxOQlpiVk1jdEstSHhDWnQyOFBxRlhuMGlSZHZWeC1hNTRQOEd0ejZaU0xXWFFxTndQZzZ2emUwcFZhM1cyN0htRmhSU2t2SGtnWmM1V1JkTEdQMWNPYzNzQWJiTnpFTXNVOGs0V3RyMGxwWFJaZFh3NkRIYXNfdUR2Q3B6RmVQNFJqTHAwSQ?oc=5
+
+PureHealth Research Explores Horse Chestnut and Butcher's Broom in Supplements for Vein Health    Local 3 News

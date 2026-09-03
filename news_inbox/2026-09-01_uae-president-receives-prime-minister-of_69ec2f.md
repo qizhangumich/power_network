@@ -1,0 +1,5 @@
+# UAE President receives Prime Minister of Kurdistan Region of Iraq in presence of Mohammed bin Rashid
+source: uaebarq.ae
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNN3JlM0JXVF94UzUyZHZlUjkyUnJfYzdmVGFscmZVcW92TzFiblJfS09wRXV3dEp5THNVY1JFLURuVkxhaFFSLVYzdnBMVWo0bXRLT3N4OVNqQnFIeVhZblBLc1VmcWJvVnpKakdhOTZvVHpZNS1acE5wZ2txOWtUZlBfZTJBSUp1Q2YxX3lRMi1nT0JCZ0k3RUN2MVFoajMwNFBvRzNtV2VkS2V2TVlab3hYOTlpUVQ2X0JNY21TR19QUzBtc1RLWWlkcmxaMC1HTDU0TA?oc=5
+
+UAE President receives Prime Minister of Kurdistan Region of Iraq in presence of Mohammed bin Rashid    uaebarq.ae

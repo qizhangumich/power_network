@@ -1,0 +1,5 @@
+# Etihad Airways launches new brand campaign
+source: Freightweek
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxPRFhaU1BabVpHV0dsVXdnT2JKZVdaUldWMzdxd0NnUXhwY2ZrdUJLR0JiZHhkb2ZGcEIxeDA1Zm5pR2NuSFB3QkhDb2NVVmhkMmQtUmk1cFlNek1fVXI0TW5qeVJRMjdYWHExV3NvYUM0QURsM3J0Q1c2SnlqVWRhb2VnV2g5UXZrNU5WNGJvWU9LZE9HMDdzd294bk5xbVkyQ3lj?oc=5
+
+Etihad Airways launches new brand campaign    Freightweek

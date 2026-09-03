@@ -1,0 +1,5 @@
+# EDGE Group and Brazilian Navy expand partnership to advance maritime capabilities
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbnVnS2tQc0JUWjhWUzAzQ1VwUE5rNEV3VFpiOUFTTXNNUEJRYjBBZVQ4Z21qQTdBeGxWOVFiRXFmTERxTWticHZmZzBkUDFDSWVnaFoyb0lYek8tMzhNeHd2dU9GNG1DZXA3b09ZMXRKTWZQUjNfRXZka2V0WEhzLVVUbUx4QlliSURKQ1VJOWV2UkxrSGZfNFZMSGJvMjdCT0U5TmNtZnhNVW81N0RCX29RZVRFZUhOT0FVUFAtU3c3dUtwb2VWdEZXdTJhWWtwMkhiVDU2aDVFZw?oc=5
+
+EDGE Group and Brazilian Navy expand partnership to advance maritime capabilities    Zawya

@@ -1,0 +1,5 @@
+# AD Ports Received Buyout Proposal from the Abu Dhabi Government
+source: The Maritime Executive
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQbmMyMG9QQ2c3Z1Jka2ZTQlU5YUEzYTJjSTdBZXZEbE1jR0hNMERWYjA0SndTQTVZMlZTZU5GWGVycldpQXZaVDRPWUpuNTc3dUFLZEUyUzc1WjVINk51cUljMXdzUmxVWDlIbFNTaWU3Q1RoODdsR0FLVDNqcnlNQzY0T3ZwakFaOEhBTVlVcGRobGRnQWI3RWVHajJhXzduQ28yUVRPSFBzNFE0U3hXYU93?oc=5
+
+AD Ports Received Buyout Proposal from the Abu Dhabi Government    The Maritime Executive

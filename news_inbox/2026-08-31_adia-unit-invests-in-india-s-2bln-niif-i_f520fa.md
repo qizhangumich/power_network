@@ -1,0 +1,5 @@
+# ADIA unit invests in India’s $2bln NIIF infrastructure fund
+source: TradingView
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQNHFQclJ2YzVrT2picWxXTHU3bzJtUXFkSGZvOWtDZmNvT2pwSlRCRDFPZ0p2cUxZMHZUUDRhSHhJT01ETEJ6OFg0YzNkbEJCbm9RU1BJTkZESENtSzhqcFFZYjFMY2FUTktGSVR0LVlJdnc0MXplUWFGU19YNGtPd3k1NWFWMmNIVkxNczNzS1BKQVRJOUh5NFNWMmxiVERTQlFpNF9qb2s1MjFsQk9oWkVPcHNMMlFtOGZlVjllcWpNckota3VfMkkwTi0xdWc?oc=5
+
+ADIA unit invests in India’s $2bln NIIF infrastructure fund    TradingView

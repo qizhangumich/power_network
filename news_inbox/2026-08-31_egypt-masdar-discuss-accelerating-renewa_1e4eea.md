@@ -1,0 +1,5 @@
+# Egypt, Masdar discuss accelerating renewable energy projects
+source: Zawya
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxOYzJOODEtelV3TjM5M1BqdldyTGQ0cXdPYU4yVGo5d3BpZl9iVk9CVVpWRWhteVE1NnBmUEpYSFRmaWJMZ0M2YWdnUmwwR0wtR2tKZUF6RlktMVZITm1fZDU4RmU1Z3hMN2Z6WjZteUd2a3dXLUJPa21lRVlXbjYzUVpuNFZOdEhndU5UV1dYMGd4UHVvRFR1cDIyeVZBcTZXTzhaX2NrRnkwOTk1UDdzZll3?oc=5
+
+Egypt, Masdar discuss accelerating renewable energy projects    Zawya

@@ -1,0 +1,5 @@
+# EDGE Group and Brazilian Navy Expand Partnership to Advance Maritime Capabilities
+source: Raksha Anirveda
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNTTJ3cnZQTnJobmRGZFU3a29WQ3c0dWhINUVzWURSYTV0bHhZdDVqVDk3MTNrSjJxM0ZwWDg5ZGtRVHdoQVY2MzlTbzVuZkVIeWtpdm45blFkRGJoWlpEQS1YbkpSUWdXb3RjNXZJUk1obEFTdmZLUHhzWGRERUpDUzBRaFZ6M1VBT0tOeTlmVVp1ZGpmSGt3LVE3Y21hWHlSWDhSY0FfQndlaXBtUGow?oc=5
+
+EDGE Group and Brazilian Navy Expand Partnership to Advance Maritime Capabilities    Raksha Anirveda

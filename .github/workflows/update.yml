@@ -1,0 +1,44 @@
+name: auto-update
+# Fetches fresh news, matches it to the network, and commits the result.
+# The Alicloud server (and Vercel, if connected) pull from this repo, so a
+# commit here goes live automatically.
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"       # every 6 hours
+  workflow_dispatch:            # manual "Run workflow" button
+  push:
+    paths:                      # re-validate when the pipeline itself changes
+      - ".github/workflows/**"
+      - "tools/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: fetch news
+        run: python tools/fetch_news.py
+      - name: match news to network
+        run: python tools/match_news.py
+      - name: commit & push if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news_inbox news_data.js data/suggested_edges.csv
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "auto: news refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

@@ -1,0 +1,5 @@
+# In partnership with Department of Community Development and supported by Department of Health – Abu Dhabi, PureHealth hires 100 People of Determination into Care and Cover network
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMixgJBVV95cUxPMkRGcDBnR1pSYjU4YTAtMkZ3S05xSGxrSWFhMTBNbDNQektXX2JSSDBISzhoUGFoMnBKbXkxdTRjSEFKdkg1cjIxQjR6TVZOMlJjZ2tNYzRrMml2bFNUaDFhVzd3dmYtWDlmckRuQWVDNjc0aUhqUjJ3SWlTa1Q4ci1lenNFRG5XUkZ2TTZEbC1JM0liaDRPUndzejhGMlRnTWRsM3hmbUdmZm9ER3hIQ3NQUU55LUVpSUpZMTU1cmFOOWJ1TUdhNVVXV0lUNzJzUlBJLWtENElTcUoxQTUzdmJKc20xeEFBUkl0ZVAtcDhOOFByZTBtWnJ5TFFhZkpzVFVPNHVmZUNRem5rcjhFcHcxLWFDLWlWSVlPejFfX0huYW1hSDNNR043dzFVZHR3TzRMb2hUSjNvNHoyTTRoNHZrblktUQ?oc=5
+
+In partnership with Department of Community Development and supported by Department of Health – Abu Dhabi, PureHealth hires 100 People of Determination into Care and Cover network    مكتب أبوظبي الإعلامي

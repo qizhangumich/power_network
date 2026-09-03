@@ -1,0 +1,5 @@
+# G42 Joins Growing Open Source AI Security Coalition
+source: opensourceforu.com
+url: https://news.google.com/rss/articles/CBMilgFBVV95cUxQNEtXdDczWHR2ME80bVpNT1pSQ0tUUDE2Y1gtbVFJYUxMSWd6ZG9WZ2pXMFVNSkJ5eWoteWMzUmczblZMRUhqM3RCWjRCTUVSYm5CTzdDbldHYmFkbUhwYXpXU0xJR0QtQ3U4STBSZnNTM0RlYURhdHZNLUFXVDBfd1JtZUFjeWVSTFZwME9uM0ZTN2J0dFE?oc=5
+
+G42 Joins Growing Open Source AI Security Coalition    opensourceforu.com

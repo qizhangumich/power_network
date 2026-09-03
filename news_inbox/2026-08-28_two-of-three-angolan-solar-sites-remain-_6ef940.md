@@ -1,0 +1,5 @@
+# Two of three Angolan solar sites remain uncontracted under Masdar's 500MW southern programme
+source: Energy News Network
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZ0VYS0d1NVJyeWNxdm4ySGpoUzFLWDZ2RldLN1NmNHVHbDVoTmVTOGVnZGZGUFRkeldieEt5ZF9HbmJDLThPQUNZT2FQamdKcHdnZzFlVEt3S0lIdEJYbDJUZHp6TFF6Y1JXM0FGTkZPMVN3TGRiaUJDbm1adEJ5T092b3pMSnQ3MGtRaXpUNDVycC15Uzkya2p6dm5jV3FqTVV2T0RWNkxWMlI3bTgyQnJfY0NIX3Z2OEtMY2ltOHZNYkFxWWg5M3hHY1Qyd2lVeFBnTg?oc=5
+
+Two of three Angolan solar sites remain uncontracted under Masdar's 500MW southern programme    Energy News Network
