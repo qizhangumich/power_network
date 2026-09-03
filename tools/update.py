@@ -35,6 +35,7 @@ def main():
         print("\nNothing changed — nothing to push.")
         return
     run(["git", "commit", "-m", msg + "\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>"])
+    run(["git", "pull", "--rebase"])   # the Actions bot may have pushed meanwhile
     run(["git", "push"])
     deploy()
 
