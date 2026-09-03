@@ -103,6 +103,14 @@ const INSTITUTIONS = [
   {id:"lst_watania", n:"Watania International Holding PJSC", s:"finance", t:2, p:50, short:"WATANIA"},
   {id:"lst_ekttitab", n:"Ekttitab Holding Company K.S.C.", s:"finance", t:2, p:50, short:"EKTTITAB"},
   {id:"lst_alsalamsudan", n:"Al Salam Bank - Sudan", s:"finance", t:2, p:50, short:"ALSALAMSUDAN"},
+  {id:"dxbmun",    n:"Dubai Municipality",             s:"gov", t:1, p:78, short:"Dubai Municipality"},
+  {id:"dxbpolice", n:"Dubai Police",                   s:"gov", t:1, p:78, short:"Dubai Police"},
+  {id:"digitaldubai", n:"Digital Dubai Authority",     s:"gov", t:1, p:70, short:"Digital Dubai"},
+  {id:"dha",       n:"Dubai Health Authority",         s:"health", t:1, p:74, short:"DHA"},
+  {id:"khda",      n:"Knowledge & Human Development Authority", s:"education", t:1, p:68, short:"KHDA"},
+  {id:"dld",       n:"Dubai Land Department",          s:"gov", t:1, p:76, short:"DLD"},
+  {id:"gdmo",      n:"Government of Dubai Media Office", s:"comm", t:1, p:72, short:"Media Office"},
+  {id:"dfsa",      n:"Dubai Financial Services Authority", s:"finance", t:2, p:70, short:"DFSA"},
 ];
 
 const PEOPLE = [
@@ -195,6 +203,24 @@ const PEOPLE = [
     ["jumeirah","Group CEO","executive","v"]]},
   {id:"white_vara", n:"Matthew White", t:2, p:62, s:"finance", roles:[
     ["vara","Chief Executive Officer","executive","v"]]},
+  {id:"marwan_ghalita", n:"Marwan Ahmed bin Ghalita", t:1, p:76, s:"gov", roles:[
+    ["dxbmun","Director-General","government","v"]],
+    note:"Also Director-General of DLD until May 2025, when he moved to head Dubai Municipality."},
+  {id:"abdullah_almarri_police", n:"Lt. Gen. Abdullah Khalifa Al Marri", t:1, p:78, s:"gov", roles:[
+    ["dxbpolice","Commander-in-Chief","government","v"]]},
+  {id:"hamad_almansoori_dda", n:"Hamad Obaid Al Mansoori", t:1, p:70, s:"gov", roles:[
+    ["digitaldubai","Director-General","government","v"]]},
+  {id:"alawi_alsheikhali", n:"Dr. Alawi Alsheikh-Ali", t:1, p:72, s:"health", roles:[
+    ["dha","Director-General","government","v"]]},
+  {id:"aisha_miran_khda", n:"Aisha Abdulla Miran", t:1, p:66, s:"education", roles:[
+    ["khda","Director-General","government","v"]]},
+  {id:"omar_bushehab_dld", n:"Omar Hamad Bu Shehab", t:1, p:74, s:"gov", roles:[
+    ["dld","Director-General","government","v"]],
+    note:"Also Chairman of the Board, Mohammed Bin Rashid Housing Establishment."},
+  {id:"mona_almarri", n:"Mona Ghanem Al Marri", t:1, p:74, s:"comm", roles:[
+    ["gdmo","Director-General","government","v"]]},
+  {id:"mark_steward_dfsa", n:"Mark Steward", t:2, p:68, s:"finance", roles:[
+    ["dfsa","Chief Executive","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -259,6 +285,14 @@ const OWNERSHIP = [
   ["lst_watania","dfm","listed on DFM","ns"],
   ["lst_ekttitab","dfm","listed on DFM","ns"],
   ["lst_alsalamsudan","dfm","listed on DFM","ns"],
+  ["dxbmun","execco"],
+  ["dxbpolice","dxbgov"],
+  ["digitaldubai","dxbgov"],
+  ["dha","execco"],
+  ["khda","execco"],
+  ["dld","execco"],
+  ["gdmo","dxbgov"],
+  ["dfsa","difc","regulatory arm of"],
 ];
 
 const FAMILY = [
@@ -291,4 +325,12 @@ const AKA = {
   omar_alfuttaim:["Omar Al-Futtaim"],
   chilwan_dib:["Adnan Chilwan"],
   binsulayem_dmcc:["Ahmed bin Sulayem"],
+  digitaldubai:["Dubai Digital Authority","DDA"],
+  dxbpolice:["Dubai Police"],
+  gdmo:["Government of Dubai Media Office","Dubai Media Office"],
+  mona_almarri:["Mona Al Marri"],
+  dld:["Dubai Land Department"],
+  khda:["Knowledge and Human Development Authority"],
+  dha:["Dubai Health Authority"],
+  dfsa:["DFSA","Dubai Financial Services Authority"],
 };

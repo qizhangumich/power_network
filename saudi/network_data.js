@@ -36,6 +36,14 @@ const INSTITUTIONS = [
   {id:"moc_sa",    n:"Ministry of Commerce",         s:"gov", t:1, p:74,  short:"Min. Commerce"},
   {id:"moind",     n:"Ministry of Industry & Mineral Resources", s:"gov", t:1, p:74, short:"Min. Industry"},
   {id:"mot_sa",    n:"Ministry of Tourism",          s:"gov", t:1, p:74, short:"Min. Tourism"},
+  {id:"moi_sa",    n:"Ministry of Interior",         s:"gov", t:1, p:86, short:"MoI"},
+  {id:"mep_sa",    n:"Ministry of Economy & Planning", s:"gov", t:1, p:80, short:"MEP"},
+  {id:"moh_sa",    n:"Ministry of Health",           s:"health", t:1, p:76, short:"MoH"},
+  {id:"mos_sa",    n:"Ministry of Sport",            s:"gov", t:1, p:72, short:"Min. Sport"},
+  {id:"momedia_sa", n:"Ministry of Media",           s:"comm", t:1, p:72, short:"Min. Media"},
+  {id:"momah_sa",  n:"Ministry of Municipalities & Housing", s:"realestate", t:1, p:76, short:"MoMAH"},
+  {id:"moe_sa",    n:"Ministry of Education",        s:"education", t:1, p:74, short:"MoE"},
+  {id:"gaca_sa",   n:"General Authority of Civil Aviation", s:"gov", t:1, p:70, short:"GACA"},
   {id:"sama",      n:"Saudi Central Bank (SAMA)",    s:"finance", t:1, p:84, short:"SAMA"},
   {id:"sdaia",     n:"SDAIA (Data & AI Authority)",  s:"tech", t:1, p:74,  short:"SDAIA"},
   {id:"gea",       n:"General Entertainment Authority", s:"gov", t:1, p:74, short:"GEA"},
@@ -328,10 +336,17 @@ const PEOPLE = [
     ["mod_sa","Minister of Defense","political","v"]],
     note:"MBS's full brother."},
   {id:"abs", n:"Prince Abdulaziz bin Salman Al Saud", t:0, p:90, s:"energy", roles:[
-    ["moenergy","Minister of Energy","political","v"]],
-    note:"Half-brother of MBS; OPEC+ strategy runs through him."},
+    ["moenergy","Minister of Energy","political","v"],
+    ["moind","Minister of Industry & Mineral Resources","political","v"]],
+    note:"Half-brother of MBS; OPEC+ strategy runs through him. Also named Minister of Industry & Mineral Resources 11 Jul 2026, succeeding Bandar Alkhorayef — now holds both energy and industry portfolios."},
   {id:"faisal_farhan", n:"Prince Faisal bin Farhan Al Saud", t:0, p:86, s:"gov", roles:[
     ["mofa_sa","Minister of Foreign Affairs","political","v"]]},
+  {id:"abdulaziz_naif", n:"Prince Abdulaziz bin Saud bin Naif Al Saud", t:0, p:84, s:"gov", roles:[
+    ["moi_sa","Minister of Interior","political","v"]],
+    note:"Minister of Interior since June 2017; also chairs the Higher Hajj Committee."},
+  {id:"abdulaziz_turki_faisal", n:"Prince Abdulaziz bin Turki Al-Faisal Al Saud", t:0, p:74, s:"gov", roles:[
+    ["mos_sa","Minister of Sport","political","v"]],
+    note:"Grandson of King Faisal; also chairs the Saudi Olympic & Paralympic Committee."},
   {id:"alwaleed", n:"Prince Alwaleed bin Talal Al Saud", t:0, p:78, s:"conglomerate", roles:[
     ["kingdomholding","Chairman","board","v"]]},
   {id:"rumayyan", n:"Yasir Al-Rumayyan", t:1, p:92, s:"sovereign", roles:[
@@ -342,16 +357,37 @@ const PEOPLE = [
     ["aramco","President & CEO","executive","v"]]},
   {id:"jadaan", n:"Mohammed Al-Jadaan", t:1, p:86, s:"finance", roles:[
     ["mof_sa","Minister of Finance","political","v"]]},
-  {id:"falih", n:"Khalid Al-Falih", t:1, p:84, s:"gov", roles:[
-    ["misa","Minister of Investment","political","v"]]},
+  {id:"falih", n:"Khalid Al-Falih", t:1, p:78, s:"gov", roles:[
+    ["com","Minister of State, Member of the Council of Ministers","political","v"]],
+    note:"Relieved as Minister of Investment on 12 Feb 2026 (royal decree); retained cabinet rank as Minister of State. Succeeded at MISA by Fahd Al-Saif."},
+  {id:"alsaif_misa", n:"Fahd Al-Saif", t:1, p:80, s:"gov", roles:[
+    ["misa","Minister of Investment","political","v"]],
+    note:"Appointed 12 Feb 2026, succeeding Khalid Al-Falih; ex-PIF Investment Strategy head."},
   {id:"alswaha", n:"Abdullah Alswaha", t:1, p:78, s:"tech", roles:[
     ["mcit_sa","Minister of Communications & IT","political","v"]]},
   {id:"khateeb", n:"Ahmed Al-Khateeb", t:1, p:76, s:"gov", roles:[
     ["mot_sa","Minister of Tourism","political","v"]]},
-  {id:"alkhorayef", n:"Bandar Alkhorayef", t:1, p:74, s:"industry", roles:[
-    ["moind","Minister of Industry & Mineral Resources","political","v"]]},
+  {id:"alkhorayef", n:"Bandar Alkhorayef", t:1, p:72, s:"industry", roles:[
+    ["com","Minister of State, Member of the Council of Ministers","political","v"]],
+    note:"Relieved as Minister of Industry & Mineral Resources on 11 Jul 2026 (royal order); reassigned as Minister of State and Governor of GAMI (General Authority for Military Industries). Succeeded at Industry by Abdulaziz bin Salman."},
   {id:"qasabi", n:"Majid Al-Qasabi", t:1, p:76, s:"gov", roles:[
     ["moc_sa","Minister of Commerce","political","v"]]},
+  {id:"alibrahim", n:"Faisal Alibrahim", t:1, p:80, s:"gov", roles:[
+    ["mep_sa","Minister of Economy & Planning","political","v"]],
+    note:"Also general supervisor of the Council of Economic and Development Affairs (CEDA) secretariat."},
+  {id:"aljalajel", n:"Fahad Al-Jalajel", t:1, p:76, s:"health", roles:[
+    ["moh_sa","Minister of Health","political","v"]]},
+  {id:"aldossary", n:"Salman Al-Dossary", t:1, p:72, s:"comm", roles:[
+    ["momedia_sa","Minister of Media","political","v"]],
+    note:"Appointed 5 Mar 2023; former editor-in-chief of Asharq Al-Awsat."},
+  {id:"alhogail", n:"Majed Al-Hogail", t:1, p:76, s:"realestate", roles:[
+    ["momah_sa","Minister of Municipalities & Housing","political","v"]]},
+  {id:"albenyan", n:"Yousef Al-Benyan", t:1, p:74, s:"education", roles:[
+    ["moe_sa","Minister of Education","political","v"]],
+    note:"Appointed Sep 2022; former Chairman/CEO of SABIC."},
+  {id:"alduailej", n:"Abdulaziz Al-Duailej", t:1, p:68, s:"gov", roles:[
+    ["gaca_sa","President","government","v"]],
+    note:"Re-elected chairman of the Arab Civil Aviation Organization's Executive Council for a second term, 2026."},
   {id:"alsayari", n:"Ayman Al-Sayari", t:1, p:78, s:"finance", roles:[
     ["sama","Governor","executive","v"]]},
   {id:"alalshikh", n:"Turki Alalshikh", t:1, p:82, s:"gov", roles:[
@@ -416,6 +452,8 @@ const OWNERSHIP = [
   ["com","royalcourt","governs under"],
   ["mof_sa","com"],["mofa_sa","com"],["mod_sa","com"],["moenergy","com"],["misa","com"],
   ["mcit_sa","com"],["moc_sa","com"],["moind","com"],["mot_sa","com"],
+  ["moi_sa","com"],["mep_sa","com"],["moh_sa","com"],["mos_sa","com"],
+  ["momedia_sa","com"],["momah_sa","com"],["moe_sa","com"],["gaca_sa","com"],
   ["sama","royalcourt"],["sdaia","royalcourt"],["gea","royalcourt"],
   ["pif","royalcourt","sovereign fund"],
   ["aramco","royalcourt","state majority"],

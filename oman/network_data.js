@@ -28,8 +28,13 @@ const INSTITUTIONS = [
   {id:"com_om",    n:"Council of Ministers",          s:"gov", t:0, p:88,  short:"Cabinet"},
   {id:"mof_om",    n:"Ministry of Finance",           s:"gov", t:1, p:82,  short:"MoF"},
   {id:"mofa_om",   n:"Foreign Ministry",              s:"gov", t:1, p:80,  short:"MoFA"},
-  {id:"moci_om",   n:"Ministry of Commerce, Industry & Investment Promotion", s:"gov", t:1, p:74, short:"MoCIIP"},
+  {id:"moci_om",   n:"Ministry of Trade, Industry & Investment Promotion", s:"gov", t:1, p:74, short:"MoTIIP"},
   {id:"cbo",       n:"Central Bank of Oman",          s:"finance", t:1, p:76, short:"CBO"},
+  {id:"moem_om",   n:"Ministry of Energy & Minerals", s:"energy", t:1, p:78, short:"MoEM"},
+  {id:"moin_om",   n:"Ministry of Interior",          s:"gov", t:1, p:78, short:"MoI"},
+  {id:"mtcit_om",  n:"Ministry of Transport, Communications & IT", s:"tech", t:1, p:72, short:"MTCIT"},
+  {id:"moh_om",    n:"Ministry of Health",            s:"health", t:1, p:74, short:"MoH"},
+  {id:"moht_om",   n:"Ministry of Heritage & Tourism", s:"gov", t:1, p:66, short:"MoHT"},
   {id:"oia",       n:"Oman Investment Authority",     s:"sovereign", t:1, p:90, short:"OIA"},
   {id:"oq",        n:"OQ Group",                      s:"energy", t:1, p:82, short:"OQ"},
   {id:"pdo",       n:"Petroleum Development Oman",    s:"energy", t:1, p:78, short:"PDO"},
@@ -154,9 +159,12 @@ const PEOPLE = [
     note:"The face of Oman's quiet-mediator diplomacy."},
   {id:"habsi", n:"Sultan bin Salim Al Habsi", t:1, p:80, s:"finance", roles:[
     ["mof_om","Minister of Finance","political","v"]]},
-  {id:"yousef_om", n:"Qais bin Mohammed Al Yousef", t:1, p:70, s:"gov", roles:[
-    ["moci_om","Minister of Commerce, Industry & Investment Promotion","political","v"],
-    ["opaz","Chairman","board","v"]]},
+  {id:"yousef_om", n:"Anwar bin Hilal bin Hamdoun Al Jabri", t:1, p:70, s:"gov", roles:[
+    ["moci_om","Minister of Trade, Industry & Investment Promotion","political","v"]],
+    note:"Appointed under Royal Decree 17/2026 (13 Jan 2026), succeeding Qais bin Mohammed Al Yousef as minister."},
+  {id:"qais_opaz", n:"Qais bin Mohammed Al Yousef", t:1, p:64, s:"gov", roles:[
+    ["opaz","Chairman","board","v"]],
+    note:"Lost the Trade/Industry ministry portfolio in the January 2026 reshuffle but retained the OPAZ board chairmanship."},
   {id:"murshidi", n:"Abdulsalam Al Murshidi", t:1, p:82, s:"sovereign", roles:[
     ["oia","President","executive","v"]],
     note:"Controls the consolidated sovereign portfolio — OQ, Asyad, Omantel and most state companies sit under OIA."},
@@ -180,11 +188,28 @@ const PEOPLE = [
     ["omanlng","Chief Executive Officer","executive","v"]]},
   {id:"almahrizi_nama", n:"Ahmed Al Mahrizi", t:2, p:62, s:"utilities", roles:[
     ["nama","Group Chief Executive Officer","executive","v"]]},
+
+  // ===== ADDED SEP 2026 — KEY MINISTRIES PREVIOUSLY MISSING FROM THE MAP =====
+  {id:"alaufi_energy", n:"Eng. Salim bin Nasser bin Said Al Aufi", t:1, p:78, s:"energy", roles:[
+    ["moem_om","Minister of Energy & Minerals","political","v"]],
+    note:"Appointed 16 June 2022; retained in the January 2026 Royal Decree 17/2026 cabinet restructuring."},
+  {id:"albusaidi_interior", n:"Sayyid Hamoud bin Faisal bin Said Al Busaidi", t:1, p:76, s:"gov", roles:[
+    ["moin_om","Minister of Interior","political","v"]],
+    note:"Appointed under Royal Decree 17/2026 (13 Jan 2026)."},
+  {id:"almaawali_mtcit", n:"Eng. Said bin Hamoud bin Said Al Maawali", t:1, p:70, s:"tech", roles:[
+    ["mtcit_om","Minister of Transport, Communications & IT","political","v"]]},
+  {id:"alsabti_health", n:"Dr. Hilal bin Ali bin Hilal Al Sabti", t:1, p:70, s:"health", roles:[
+    ["moh_om","Minister of Health","political","v"]],
+    note:"Retained under Royal Decree 17/2026 (13 Jan 2026)."},
+  {id:"albusaidi_tourism", n:"Sayyid Ibrahim bin Said bin Ibrahim Al Busaidi", t:1, p:64, s:"gov", roles:[
+    ["moht_om","Minister of Heritage & Tourism","political","v"]],
+    note:"Appointed under Royal Decree 17/2026 (13 Jan 2026), succeeding Salem bin Mohammed Al Mahrouqi."},
 ];
 
 const OWNERSHIP = [
   ["com_om","omgov","governs under"],
   ["mof_om","com_om"],["mofa_om","com_om"],["moci_om","com_om"],
+  ["moem_om","com_om"],["moin_om","com_om"],["mtcit_om","com_om"],["moh_om","com_om"],["moht_om","com_om"],
   ["cbo","omgov"],
   ["oia","omgov","sovereign fund"],
   ["oq","oia"],["asyad","oia"],["omantel","oia","majority"],["omran","oia"],

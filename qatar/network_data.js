@@ -37,6 +37,11 @@ const INSTITUTIONS = [
   {id:"moci",      n:"Ministry of Commerce & Industry", s:"gov", t:1, p:78, short:"MoCI"},
   {id:"mocit",     n:"Ministry of Communications & IT", s:"gov", t:1, p:74, short:"MCIT"},
   {id:"moph",      n:"Ministry of Public Health",     s:"gov", t:1, p:78,  short:"MoPH"},
+  {id:"momun_q",   n:"Ministry of Municipality",      s:"gov", t:1, p:70,  short:"MoMun"},
+  {id:"mot_q",     n:"Ministry of Transport",         s:"gov", t:1, p:72,  short:"MoT"},
+  {id:"moehe_q",   n:"Ministry of Education & Higher Education", s:"education", t:1, p:76, short:"MoEHE"},
+  {id:"molsa_q",   n:"Ministry of Labour",            s:"gov", t:1, p:70,  short:"MoL"},
+  {id:"moecc_q",   n:"Ministry of Environment & Climate Change", s:"gov", t:1, p:68, short:"MoECC"},
   {id:"qcb",       n:"Qatar Central Bank",            s:"finance", t:1, p:86, short:"QCB"},
   {id:"qfc",       n:"Qatar Financial Centre",        s:"finance", t:1, p:76, short:"QFC"},
   {id:"qfz",       n:"Qatar Free Zones Authority",    s:"gov", t:1, p:72,  short:"QFZ"},
@@ -229,10 +234,12 @@ const PEOPLE = [
   {id:"hanan", n:"H.E. Dr. Hanan Mohamed Al Kuwari", t:1, p:80, s:"health", roles:[
     ["moph","Minister of Public Health","political","v"],
     ["hmc","Managing Director","executive","v"]]},
-  {id:"lolwah", n:"H.E. Lolwah Al-Khater", t:1, p:74, s:"gov", roles:[
-    ["cabinet","Minister of Social Development & Family","political","v"]]},
-  {id:"buthaina", n:"H.E. Buthaina Al Nuaimi", t:1, p:72, s:"education", roles:[
-    ["cabinet","Minister of Education & Higher Education","political","ns"]]},
+  {id:"lolwah", n:"H.E. Lolwah Al-Khater", t:1, p:74, s:"education", roles:[
+    ["moehe_q","Minister of Education & Higher Education","political","v"]],
+    note:"Moved from the Foreign Ministry / government spokesperson role to Education & Higher Education in the 12 Nov 2024 cabinet reshuffle."},
+  {id:"buthaina", n:"H.E. Buthaina Al Nuaimi", t:1, p:72, s:"gov", roles:[
+    ["cabinet","Minister of Social Development & Family","political","v"]],
+    note:"Moved from Education & Higher Education to Social Development & Family in the 12 Nov 2024 cabinet reshuffle."},
   {id:"alsayed", n:"H.E. Ahmad Al-Sayed", t:1, p:80, s:"gov", roles:[
     ["cabinet","Minister of State","political","v"],
     ["qfz","Chairman","government","v"]],
@@ -295,6 +302,20 @@ const PEOPLE = [
   {id:"altayeb_barwa", n:"Ahmed Mohamed Al-Tayeb", t:2, p:64, s:"realestate", roles:[
     ["barwa","Chief Executive Officer","executive","v"]],
     note:"Previously CEO of the Investment Sector at Qatari Diar before taking Barwa's top job."},
+
+  // ===== ADDED SEP 2026 — KEY MINISTRIES PREVIOUSLY MISSING FROM THE MAP =====
+  {id:"alattiya_mun", n:"H.E. Abdullah bin Hamad bin Abdullah Al Attiya", t:1, p:68, s:"gov", roles:[
+    ["momun_q","Minister of Municipality","political","v"]],
+    note:"Appointed January 2024."},
+  {id:"mohammed_transport", n:"H.E. Sheikh Mohammed bin Abdulla bin Mohammed Al Thani", t:1, p:70, s:"gov", roles:[
+    ["mot_q","Minister of Transport","political","v"]],
+    note:"Appointed November 2024."},
+  {id:"almarri_labour", n:"H.E. Dr. Ali bin Samikh Al Marri", t:1, p:68, s:"gov", roles:[
+    ["molsa_q","Minister of Labour","political","v"]],
+    note:"Re-appointed Minister of Labour by Amiri order in March 2023; formerly headed Qatar's National Human Rights Committee."},
+  {id:"alsubaie_env", n:"H.E. Dr. Abdullah bin Abdulaziz bin Turki Al Subaie", t:1, p:66, s:"gov", roles:[
+    ["moecc_q","Minister of Environment & Climate Change","political","v"]],
+    note:"Appointed 8 January 2024."},
 ];
 
 const OWNERSHIP = [
@@ -302,6 +323,7 @@ const OWNERSHIP = [
   ["shura","qgov"],
   ["mofin","cabinet"],["mofa_q","cabinet"],["moi_q","cabinet"],["mod_q","cabinet"],
   ["moci","cabinet"],["mocit","cabinet"],["moph","cabinet"],
+  ["momun_q","cabinet"],["mot_q","cabinet"],["moehe_q","cabinet"],["molsa_q","cabinet"],["moecc_q","cabinet"],
   ["qcb","qgov"],
   ["qfc","qgov"],
   ["qfz","cabinet"],

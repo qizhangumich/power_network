@@ -28,6 +28,11 @@ const INSTITUTIONS = [
   {id:"cabinet_bh", n:"Cabinet of Bahrain",           s:"gov", t:0, p:90, short:"Cabinet"},
   {id:"mofin_bh",  n:"Ministry of Finance & National Economy", s:"gov", t:1, p:82, short:"MoF"},
   {id:"mofa_bh",   n:"Ministry of Foreign Affairs",   s:"gov", t:1, p:78, short:"MoFA"},
+  {id:"moi_bh",    n:"Ministry of Interior",          s:"gov", t:1, p:82, short:"MoI"},
+  {id:"moic_bh",   n:"Ministry of Industry & Commerce", s:"gov", t:1, p:74, short:"MoIC"},
+  {id:"mtt_bh",    n:"Ministry of Transportation & Telecommunications", s:"gov", t:1, p:70, short:"MTT"},
+  {id:"moo_bh",    n:"Ministry of Oil & Environment",  s:"energy", t:1, p:76, short:"MoO"},
+  {id:"moh_bh",    n:"Ministry of Housing & Urban Planning", s:"gov", t:1, p:66, short:"MoH"},
   {id:"cbb",       n:"Central Bank of Bahrain",       s:"finance", t:1, p:80, short:"CBB"},
   {id:"edb",       n:"Bahrain Economic Development Board", s:"gov", t:1, p:76, short:"EDB"},
   {id:"mumtalakat", n:"Mumtalakat (sovereign fund)",  s:"sovereign", t:1, p:84, short:"Mumtalakat"},
@@ -130,11 +135,27 @@ const PEOPLE = [
     ["nbb","Group Chief Executive Officer","executive","v"]]},
   {id:"almajed_edamah", n:"Khaled Abdulrahman Al Majed", t:2, p:60, s:"realestate", roles:[
     ["edamah","Chief Executive Officer","executive","v"]]},
+
+  // ===== ADDED SEP 2026 — KEY MINISTRIES PREVIOUSLY MISSING FROM THE MAP =====
+  {id:"rashid_moi_bh", n:"Lt. Gen. Sheikh Rashid bin Abdullah Al Khalifa", t:0, p:84, s:"gov", roles:[
+    ["moi_bh","Minister of Interior","political","v"]],
+    note:"Minister of Interior since 2004 — one of Bahrain's longest-serving ministers."},
+  {id:"fakhro_moic", n:"H.E. Abdulla bin Adel Fakhro", t:1, p:70, s:"gov", roles:[
+    ["moic_bh","Minister of Industry & Commerce","political","v"]],
+    note:"In office since November 2022; from the Fakhro business family (McDonald's Bahrain franchise, GAC Bahrain)."},
+  {id:"abdullah_mtt", n:"H.E. Dr. Shaikh Abdullah bin Ahmed Al Khalifa", t:1, p:70, s:"gov", roles:[
+    ["mtt_bh","Minister of Transportation & Telecommunications","political","v"]]},
+  {id:"daina_oil", n:"H.E. Dr. Mohamed bin Mubarak bin Daina", t:1, p:74, s:"energy", roles:[
+    ["moo_bh","Minister of Oil & Environment","political","v"]],
+    note:"Also holds the title Special Envoy for Climate Affairs; Bahrain's lead voice at COP and other climate forums."},
+  {id:"alromaihi_housing", n:"H.E. Aminah bint Ahmad Al Romaihi", t:1, p:64, s:"realestate", roles:[
+    ["moh_bh","Minister of Housing & Urban Planning","political","v"]]},
 ];
 
 const OWNERSHIP = [
   ["cabinet_bh","bhgov","governs under"],
   ["mofin_bh","cabinet_bh"],["mofa_bh","cabinet_bh"],
+  ["moi_bh","cabinet_bh"],["moic_bh","cabinet_bh"],["mtt_bh","cabinet_bh"],["moo_bh","cabinet_bh"],["moh_bh","cabinet_bh"],
   ["cbb","bhgov"],["edb","bhgov"],
   ["mumtalakat","bhgov","sovereign fund"],
   ["bapco","bhgov","state energy holding","ns"],

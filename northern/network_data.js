@@ -51,6 +51,11 @@ const INSTITUTIONS = [
   {id:"thumbay",  n:"Thumbay Group",                 s:"health", t:3, p:60, short:"Thumbay"},
   {id:"srtip",    n:"Sharjah Research Technology & Innovation Park", s:"tech", t:2, p:60, short:"SRTIP"},
   {id:"sewa",     n:"SEWA (Sharjah Electricity, Water & Gas)", s:"utilities", t:1, p:66, short:"SEWA"},
+  {id:"shj_execco", n:"Sharjah Executive Council",     s:"gov", t:1, p:78, short:"Shj Exec Council"},
+  {id:"rak_execco", n:"Ras Al Khaimah Executive Council", s:"gov", t:1, p:74, short:"RAK Exec Council"},
+  {id:"shjpolice", n:"Sharjah Police (General Command)", s:"gov", t:1, p:72, short:"Sharjah Police"},
+  {id:"scci",     n:"Sharjah Chamber of Commerce & Industry", s:"gov", t:2, p:66, short:"SCCI"},
+  {id:"sedd",     n:"Sharjah Economic Development Department", s:"gov", t:1, p:70, short:"SEDD"},
 ];
 
 const PEOPLE = [
@@ -61,6 +66,10 @@ const PEOPLE = [
   {id:"sultan_ahmed_q", n:"H.H. Sheikh Sultan bin Ahmed Al Qasimi", t:0, p:84, s:"gov", roles:[
     ["shjgov","Deputy Ruler of Sharjah","political","v"],
     ["arada","Co-founder & Chairman","board","ns"]]},
+  {id:"sultan_mbs_qasimi", n:"H.H. Sheikh Sultan bin Mohammed bin Sultan Al Qasimi", t:0, p:90, s:"gov", roles:[
+    ["shjgov","Crown Prince & Deputy Ruler of Sharjah","political","v"],
+    ["shj_execco","Chairman","political","v"]],
+    note:"Grandson of the Ruler; runs day-to-day government execution across Sharjah's departments."},
   {id:"bodour", n:"H.H. Sheikha Bodour Al Qasimi", t:0, p:82, s:"comm", roles:[
     ["sba","Chairperson","board","v"],
     ["shurooq","Chairperson","board","ns"]],
@@ -69,7 +78,8 @@ const PEOPLE = [
     ["rakgov","Ruler of Ras Al Khaimah","political","v"]],
     note:"Turned RAK into a tourism/industry story — capped by the Wynn casino-resort bet."},
   {id:"mohammed_saud_rak", n:"H.H. Sheikh Mohammed bin Saud Al Qasimi", t:0, p:78, s:"gov", roles:[
-    ["rakgov","Crown Prince of RAK","political","v"]]},
+    ["rakgov","Crown Prince of RAK","political","v"],
+    ["rak_execco","Chairman","political","v"]]},
   {id:"hamad_sharqi", n:"H.H. Sheikh Hamad bin Mohammed Al Sharqi", t:0, p:84, s:"gov", roles:[
     ["fujgov","Ruler of Fujairah","political","v"]]},
   {id:"mohammed_sharqi", n:"H.H. Sheikh Mohammed bin Hamad Al Sharqi", t:0, p:74, s:"gov", roles:[
@@ -109,6 +119,12 @@ const PEOPLE = [
     ["fujoilzone","Director","executive","v"]]},
   {id:"alsuwaidi_sewa", n:"Saeed Sultan Al Suwaidi", t:2, p:64, s:"utilities", roles:[
     ["sewa","Chairman","board","v"]]},
+  {id:"abdullah_mubarak_sp", n:"Lt. Gen. Abdullah Mubarak bin Amer", t:1, p:72, s:"gov", roles:[
+    ["shjpolice","Commander-in-Chief","government","v"]]},
+  {id:"alowais_scci", n:"Abdallah Sultan Al Owais", t:1, p:66, s:"gov", roles:[
+    ["scci","Chairman","board","v"]]},
+  {id:"almahmoud_sedd", n:"Hamad Ali Abdalla Al Mahmoud", t:1, p:68, s:"gov", roles:[
+    ["sedd","Chairman","government","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -126,11 +142,17 @@ const OWNERSHIP = [
   ["ajmanbank","ajmgov","ruling-family stake","ns"],
   ["srtip","shjgov"],
   ["sewa","shjgov"],
+  ["shj_execco","shjgov","executive arm of"],
+  ["rak_execco","rakgov","executive arm of"],
+  ["shjpolice","shj_execco","reports to"],
+  ["sedd","shj_execco","reports to"],
+  ["scci","shjgov"],
 ];
 
 const FAMILY = [
   ["sultan_qasimi","bodour","father–daughter"],
   ["sultan_qasimi","sultan_ahmed_q","kin (Al Qasimi)"],
+  ["sultan_qasimi","sultan_mbs_qasimi","grandfather–grandson"],
   ["saud_saqr","mohammed_saud_rak","father–son"],
   ["hamad_sharqi","mohammed_sharqi","father–son"],
   ["humaid_nuaimi","ammar_nuaimi","father–son"],
@@ -139,7 +161,12 @@ const FAMILY = [
 
 const AKA = {
   sultan_qasimi:["Sultan Al Qasimi","Sultan bin Muhammad"],
+  sultan_mbs_qasimi:["Sultan bin Mohammed bin Sultan","Crown Prince of Sharjah"],
   saud_saqr:["Saud bin Saqr"],
+  shj_execco:["Sharjah Executive Council"],
+  rak_execco:["RAK Executive Council","Ras Al Khaimah Executive Council"],
+  scci:["Sharjah Chamber of Commerce and Industry"],
+  sedd:["Sharjah Economic Development Department"],
   badr_jafar:["Badr Jafar"],
   majid_jafar:["Majid Jafar"],
   beeah:["Bee'ah"],

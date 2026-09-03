@@ -28,6 +28,11 @@ const INSTITUTIONS = [
   {id:"cabinet_kw", n:"Council of Ministers",        s:"gov", t:0, p:86, short:"Cabinet"},
   {id:"mof_kw",    n:"Ministry of Finance",          s:"gov", t:1, p:80, short:"MoF"},
   {id:"mofa_kw",   n:"Ministry of Foreign Affairs",  s:"gov", t:1, p:78, short:"MoFA"},
+  {id:"moo_kw",    n:"Ministry of Oil",              s:"energy", t:1, p:80, short:"MoO"},
+  {id:"moci_kw",   n:"Ministry of Commerce & Industry", s:"gov", t:1, p:72, short:"MoCI"},
+  {id:"moinfo_kw", n:"Ministry of Information & Culture", s:"gov", t:1, p:64, short:"MoInfo"},
+  {id:"mopw_kw",   n:"Ministry of Public Works",      s:"gov", t:1, p:66, short:"MoPW"},
+  {id:"kwmun",     n:"Kuwait Municipality",           s:"gov", t:1, p:64, short:"Kuwait Municipality"},
   {id:"cbk",       n:"Central Bank of Kuwait",       s:"finance", t:1, p:78, short:"CBK"},
   {id:"kia",       n:"Kuwait Investment Authority",  s:"sovereign", t:1, p:92, short:"KIA"},
   {id:"kpc",       n:"Kuwait Petroleum Corporation", s:"energy", t:1, p:88, short:"KPC"},
@@ -188,10 +193,12 @@ const PEOPLE = [
     ["cabinet_kw","Prime Minister","political","v"]]},
   {id:"fahad_yousef", n:"Sheikh Fahad Yousef Al-Sabah", t:0, p:82, s:"gov", roles:[
     ["cabinet_kw","First Deputy PM · Minister of Defence & Interior","political","ns"]]},
-  {id:"yahya_fm", n:"Abdullah Ali Al-Yahya", t:1, p:74, s:"gov", roles:[
-    ["mofa_kw","Minister of Foreign Affairs","political","ns"]]},
-  {id:"noora_fin", n:"Noora Al-Fassam", t:1, p:74, s:"finance", roles:[
-    ["mof_kw","Minister of Finance & Minister of State for Economic Affairs","political","ns"]]},
+  {id:"yahya_fm", n:"H.E. Sheikh Jarrah Jaber Al-Ahmad Al-Sabah", t:1, p:76, s:"gov", roles:[
+    ["mofa_kw","Minister of Foreign Affairs","political","v"]],
+    note:"Appointed in the 1 February 2026 Amiri Decree cabinet reshuffle, succeeding Abdullah Ali Al-Yahya; son of the late Emir Jaber III."},
+  {id:"noora_fin", n:"Dr. Yaqoub Al-Sayyid Yusuf Al-Rifai", t:1, p:74, s:"finance", roles:[
+    ["mof_kw","Minister of Finance","political","v"]],
+    note:"Appointed in the 1 February 2026 Amiri Decree cabinet reshuffle, succeeding Noora Al-Fassam."},
   {id:"haroon", n:"Basel Al-Haroon", t:1, p:74, s:"finance", roles:[
     ["cbk","Governor","executive","ns"]]},
   {id:"ghenaiman", n:"Ghanem Al-Ghenaiman", t:1, p:78, s:"sovereign", roles:[
@@ -228,11 +235,29 @@ const PEOPLE = [
     ["mabanee","Chief Executive Officer","executive","v"]]},
   {id:"alhaimer_kufpec", n:"Mohammad Salem Al-Haimer", t:2, p:60, s:"energy", roles:[
     ["kufpec","Chief Executive Officer","executive","v"]]},
+
+  // ===== ADDED SEP 2026 — KEY MINISTRIES PREVIOUSLY MISSING FROM THE MAP =====
+  {id:"alroumi_oil", n:"Tareq Al-Roumi", t:1, p:76, s:"energy", roles:[
+    ["moo_kw","Minister of Oil","political","v"],
+    ["kpc","Chairman of the Board","board","v"]],
+    note:"Appointed Minister of Oil on 29 October 2024; the portfolio carries the ex officio KPC board chairmanship."},
+  {id:"boodai_moci_kw", n:"Osama Khaled Boodai", t:1, p:70, s:"gov", roles:[
+    ["moci_kw","Minister of Commerce & Industry","political","v"]],
+    note:"Appointed in the 1 February 2026 Amiri Decree cabinet reshuffle."},
+  {id:"buftain_info", n:"Abdullah Sabeeh Buftain", t:1, p:62, s:"gov", roles:[
+    ["moinfo_kw","Minister of Information & Culture","political","v"]],
+    note:"Appointed in the 1 February 2026 Amiri Decree cabinet reshuffle."},
+  {id:"almashaan_pw", n:"Noura Mohammed Al-Mashaan", t:1, p:64, s:"gov", roles:[
+    ["mopw_kw","Minister of Public Works","political","v"]]},
+  {id:"alasfour_mun", n:"Manal Mohammed Al-Asfour", t:2, p:58, s:"gov", roles:[
+    ["kwmun","Director-General","executive","v"]],
+    note:"Appointed Director-General of Kuwait Municipality with the rank of Undersecretary by Amiri decree, December 2025."},
 ];
 
 const OWNERSHIP = [
   ["cabinet_kw","kwgov","governs under"],
   ["mof_kw","cabinet_kw"],["mofa_kw","cabinet_kw"],
+  ["moo_kw","cabinet_kw"],["moci_kw","cabinet_kw"],["moinfo_kw","cabinet_kw"],["mopw_kw","cabinet_kw"],["kwmun","cabinet_kw"],
   ["cbk","kwgov"],
   ["kia","kwgov","sovereign fund"],
   ["kpc","kwgov","state oil holding"],
