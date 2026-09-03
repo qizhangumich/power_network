@@ -205,7 +205,7 @@
     <div id="brand">SAUDI ARABIA POWER NETWORK</div>
     <div id="brandsub">Network Intelligence</div>
   </div>
-  <details id="regions"><summary>Saudi Arabia</summary><nav><a href="../">GCC ⌂</a><a href="../abudhabi/">Abu Dhabi</a><a href="../dubai/">Dubai</a><a href="../northern/">N. Emirates</a><a class="on" href="./">Saudi Arabia</a><a href="../qatar/">Qatar</a><a href="../bahrain/">Bahrain</a><a href="../oman/">Oman</a><a href="../kuwait/">Kuwait</a></nav></details>
+  <details id="regions"><summary>Saudi Arabia</summary><nav><a href="../">GCC ⌂</a><a href="../abudhabi/">Abu Dhabi</a><a href="../dubai/">Dubai</a><a href="../northern/">Northern Emirates</a><a class="on" href="./">Saudi Arabia</a><a href="../qatar/">Qatar</a><a href="../bahrain/">Bahrain</a><a href="../oman/">Oman</a><a href="../kuwait/">Kuwait</a></nav></details>
   <div id="askwrap">
     <input id="ask" placeholder="Ask the network…" autocomplete="off"/>
     <div id="askout"></div>
@@ -395,6 +395,19 @@ edges.forEach(e => {
   if(e.kind !== "pot" && !e.former){ e.s.deg++; e.t.deg++; }   // former roles are history, not current reach
   e.s.adj.push({n:e.t,e}); e.t.adj.push({n:e.s,e});
 });
+
+/* LinkedIn people-search query: for a person, add their current company so
+   common names (Ravi Kumar, Ahmed Ali…) resolve to the right profile. */
+function liQuery(n){
+  if(n.kind === "inst") return n.name.replace(/\s*\(.*\)/, "");
+  let q = n.name.replace(/^((?:H\.H\.|H\.E\.|Sheikh|Sheikha|Shaikh|Dr\.|Prof\.|Capt\.|Captain|Eng\.|Lt\. Gen\.)\s+)+/, "");
+  const cur = (n.roles || []).find(r => !r[4]);
+  if(cur){
+    const inst = byId[cur[0]];
+    if(inst) q += " " + (inst.short || inst.name).replace(/\s*\(.*\)/, "");
+  }
+  return q;
+}
 
 /* ---------- overlays: news + LinkedIn ---------- */
 const NEWS = (window.NEWS_ITEMS || []);
@@ -1117,7 +1130,7 @@ function select(n){
   html += `<div class="powerbar"><i style="width:${n.power}%"></i></div><div class="plab">${t().power} ${n.power} / 100 · ${n.deg} ${t().conns}</div>`;
   html += `<div class="pathbtn" id="p-arm">${t().pathBtn}</div> `
         + `<a class="pathbtn" style="text-decoration:none" target="_blank" rel="noopener" `
-        + `href="https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(n.kind==="inst" ? n.name.replace(/\s*\(.*\)/,"") : n.name)}">${t().liSearch}</a>`;
+        + `href="https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(liQuery(n))}">${t().liSearch}</a>`;
   if(n.kind==="person" && n.roles){
     html += `<div class="sect">${t().positions}</div>`;
     const sorted = n.roles.slice().sort((a,b) => (a[4]?1:0) - (b[4]?1:0));   // current first, history after

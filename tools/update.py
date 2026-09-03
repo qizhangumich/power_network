@@ -34,6 +34,7 @@ def main():
         run([sys.executable, TOOLS / "scrape_news.py"])
     run([sys.executable, TOOLS / "match_news.py"])
     run([sys.executable, TOOLS / "report.py"])
+    run([sys.executable, TOOLS / "growth_report.py"])
     run([sys.executable, TOOLS / "backfill_queue.py"])
     run([sys.executable, TOOLS / "build_regions.py"])
     run(["git", "add", "-A"])

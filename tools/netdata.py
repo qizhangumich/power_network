@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA_JS = ROOT / "network_data.js"
 
-HONORIFICS = re.compile(r"^(H\.H\. |Sheikh |Sheikha |Dr\. |Prof\. |Capt\. |Eng\. )+")
+HONORIFICS = re.compile(r"^(H\.H\. |H\.E\. |Sheikh |Sheikha |Shaikh |Dr\. |Prof\. |Capt\. |Captain |Eng\. |Lt\. Gen\. |Brig\. Gen\. )+")
 
 def load_nodes(data_js=None):
     """Return list of dicts: {id, name, short, kind, aliases:[...]}.

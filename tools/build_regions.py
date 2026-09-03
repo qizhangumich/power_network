@@ -27,7 +27,7 @@ REGIONS = [
      "en":"Abu Dhabi Power Network — Network Intelligence", "zh":"阿布扎比权力网络 — 关系情报"},
     {"dir":"dubai",    "label":"Dubai",        "brand":"DUBAI POWER NETWORK",
      "en":"Dubai Power Network — Network Intelligence",     "zh":"迪拜权力网络 — 关系情报"},
-    {"dir":"northern", "label":"N. Emirates",  "brand":"NORTHERN EMIRATES POWER NETWORK",
+    {"dir":"northern", "label":"Northern Emirates", "brand":"NORTHERN EMIRATES POWER NETWORK",
      "en":"Northern Emirates Power Network — Network Intelligence", "zh":"北部酋长国权力网络 — 关系情报"},
     {"dir":"saudi",    "label":"Saudi Arabia", "brand":"SAUDI ARABIA POWER NETWORK",
      "en":"Saudi Arabia Power Network — Network Intelligence", "zh":"沙特阿拉伯权力网络 — 关系情报"},
