@@ -1,0 +1,5 @@
+# UAE’s Masdar starts operations at 70MWh UK battery storage project
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVW1DYmltLXhwbzlWZEVUZlI4ZUdud2JLTnBRZ1MwSnRpbDF1dkpWLWJweUtFNDVfeXVUaFhVZWJrZnQ4SUswVUppZEZMT1Y3SHpWVGtoRHhqdE9iYzNkRDZjYnVUNVQzZ1R1WE1vemxDOE5qNHRYZXdDWUIwcVdLa0N3QW5raG4zZ2gyOElYVGlVUGtlQjZFcVc3aEdkQkFxZHhVS0NkMW5MaEU2WkdTRlh4UnFwbHZEb0NpVnNUbFlZMm9DcUNNVHBobl9acVFGQkVpQTM0RTcxUQ?oc=5
+
+UAE’s Masdar starts operations at 70MWh UK battery storage project    TradingView

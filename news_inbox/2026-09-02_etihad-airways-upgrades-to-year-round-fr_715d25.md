@@ -1,0 +1,5 @@
+# Etihad Airways upgrades to year-round from Göteborg Airport
+source: AVIONEWS
+url: https://news.google.com/rss/articles/CBMipwFBVV95cUxQdnU1MjJZMEhLUXdlNDFJeGJ4R1RCdE9BX1VKSXJ2R2NteEw2V2ZsRDBQSWhKQkNjbVV6bnM2VG5idjhDRHVIak15Vnkxb3RobWxDZHRyb0V0ZXRDZDdGWmNmM2xGTTNCcEoySmZWUF9xX2hjaU1hVlFFS1lLSmJZSGFvcEFHVUZwN3ppcmlwY0pLdXJqWWR1dmdyaFRoZ1E2YnhpWXozaw?oc=5
+
+Etihad Airways upgrades to year-round from Göteborg Airport    AVIONEWS

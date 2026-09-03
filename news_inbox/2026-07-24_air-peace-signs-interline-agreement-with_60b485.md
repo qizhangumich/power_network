@@ -1,0 +1,5 @@
+# Air Peace signs interline agreement with Etihad Airways
+source: Aerospace Global News
+url: https://news.google.com/rss/articles/CBMioAFBVV95cUxOODVGUWR4alBpTmRaalNvMF96alVIdEVZbmJ0V3pjYTJfM0xRQi1GSG9xM09SM2xOZGMtT2pnYkZDRVQyS1V5dHQxOW9jc1JEWXdRb3lqTzkxOFR4OTlWTlFZYlhxMERDVHREWk9MWFZXaDZ3bEpzQmRvZWFDNUdDTFBjVmZrNkdvXzJCdUx1R1Y5YUlFdlRDMm5fM1VER3Zm?oc=5
+
+Air Peace signs interline agreement with Etihad Airways    Aerospace Global News

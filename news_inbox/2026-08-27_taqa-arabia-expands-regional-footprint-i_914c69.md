@@ -1,0 +1,5 @@
+# TAQA Arabia expands regional footprint into Jordanian market
+source: Zawya
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNbDRvRjRzSlJOXzlTcjRVY2I1dnNTTGxvaW04QXZtcVc3YWprYko2MUk1N0JxdzRWQl84eXBsMVVZdEhXUDV0TXVZaGY2YjcxLTV3X2JXOUZTdnEwZVJVcXVDaHRBOTJLZzZOSUhYWENIbi02VUhYdllVdUFLSlFqa01lTHlUZ2FJNFF3YXdrUkd1OERaYlduWlNMdV9wRzdWdlFuUFFTUjlSbFdDT1ZkZ1hYRmNMN0xXWjVfZjBn?oc=5
+
+TAQA Arabia expands regional footprint into Jordanian market    Zawya

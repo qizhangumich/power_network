@@ -1,0 +1,5 @@
+# Masdar completes foundation installation of one of world’s largest offshore wind farms
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSk5aZnVaSlZ6eE5OdldadFBPeHpmT29QQUtVZlJPTFRYV2JsbkN5V2NIRXVBeWJZdHF4YzRHT2N4THNrQ2RIZ0YzMkJnek5UQWMxODBnUjlsNnpwT0duY0JUWVlkejlOQm5oRi1fYVg1MTVNQjJveDZXNnFXNjVKbTNVc1dORXNUaXZqT3llNXBqblphVkZvTFFKQW9pWk5XX2ljeWVCZlotbERnTGVFam1kUm9WUkg1dHRKZ05sZ1poZUNPWXpxNU50Ynd0NUxxWUZGTHVMTzhnMDRvSUE?oc=5
+
+Masdar completes foundation installation of one of world’s largest offshore wind farms    thenationalnews.com

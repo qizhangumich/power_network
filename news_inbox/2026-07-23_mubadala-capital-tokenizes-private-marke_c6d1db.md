@@ -1,0 +1,5 @@
+# Mubadala Capital tokenizes private markets fund on Solana, Sui, Base as Coinbase takes exposure
+source: CoinDesk
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaWJ5NjlBYzlRZmp1SWdVZmQ3QlZxN19XR05sOXBhYnk3Wjg4M1J1N1hhd1JyNVRaUm15R01LTzBQZk15Qi1tRmQyd0xTRFo3MzhkZ0oyd1F0bjk4QlRvaVVlQ2xFS2xSNDI0ZEQ1Y0NZWWE2UmVXTHNrUldYMDR0cW4yVXJpTHdSS0pFZy1vX3R3MGE5TDFRZ2hrV0VLMEFtRG5kNmpnQmpQMzhBZ0tNQlFpaU5zYVJieUdTaEEzM2Y4N2FpMFQtclNFWDJYTjU0azI4?oc=5
+
+Mubadala Capital tokenizes private markets fund on Solana, Sui, Base as Coinbase takes exposure    CoinDesk

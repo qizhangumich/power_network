@@ -1,0 +1,5 @@
+# Adnoc suffers 19th ship attack as projectile strikes bulker in Strait of Hormuz
+source: TradeWinds News
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxOeWpLbVhtdWEyeGVwZl9XcFlhRGFBeFVJSkxSaUFrLWFIVU1rd1lmU2xGTDg1WEFQc2JuZWxKSld0UVRqTXQ2XzNkdUNRdjVrSEZkRHUwZWZxcTJiNWdRb1VuWk5qWjNhdnJtbDhaUHZpb1N1M1FCcGpTWVZ5QURCWkFldzdiRjE4WkdZZnVpZi1GaXRGa3pObkppWnlwdU81Uy02eE05bEp6VUw0LThwUUkyX0hSSzNHMzhtT3B0RU41VkE2SDFzSy1wbVhYQQ?oc=5
+
+Adnoc suffers 19th ship attack as projectile strikes bulker in Strait of Hormuz    TradeWinds News

@@ -1,0 +1,5 @@
+# United Kingdom.. Masdar begins operating its second project for energy storage battery systems
+source: صوت الإمارات
+url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxQemJTMnIwZ0xLRUI3aklDU0p2MWRCTXpIOGkyS1M4dWJRa0lVMnkta280OU5janR6SUhWQnFyalF4Z3ZGRDM4MTkwbzNYTUhZWFU3ektLN29qOE0xd0lUMTRZcnlvc0RBekN1WFluNWJGS3lYRlNzZWZjcG40b21JNXliNEhWU0hxS1VmbWVyM01YSXhUYlBnZ21qc2d3UlNpMTdmNUtuQWtWTEc5ZjI3bDlrM1o2Z1hOVVRHakl4eGp1c0hHeWh2clAyNnNwYWtkb1gtOUJXMGRJVUZmVmhENVZjbkhlOHlDa2Ita2lGNGV1MEE?oc=5
+
+United Kingdom.. Masdar begins operating its second project for energy storage battery systems    صوت الإمارات
