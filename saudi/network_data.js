@@ -330,7 +330,9 @@ const PEOPLE = [
   {id:"mbs", n:"Crown Prince Mohammed bin Salman Al Saud", t:0, p:100, s:"gov", roles:[
     ["royalcourt","Crown Prince","political","v"],
     ["com","Prime Minister","political","v"],
-    ["pif","Chairman","board","v"]],
+    ["pif","Chairman","board","v"],
+    ["redsea","Chairman","board","v"],
+    ["qiddiya","Chairman","board","v"]],
     note:"'MBS' — runs the state, the sovereign fund and Vision 2030. Every giga-project chain ends here."},
   {id:"kbs", n:"Prince Khalid bin Salman Al Saud", t:0, p:88, s:"gov", roles:[
     ["mod_sa","Minister of Defense","political","v"]],
@@ -671,6 +673,282 @@ const PEOPLE = [
     ["sab","Group CFO","executive","ns"]]},
   {id:"ghada_al_jarbou", n:"Ghada Al Jarbou", t:2, p:58, s:"finance", roles:[
     ["sab","Chief Operating Officer","executive","ns"]]},
+  {id:"nasir_k_al", n:"Nasir K. Al-Naimi", t:2, p:58, s:"energy", roles:[
+    ["aramco","Upstream President","executive","v"]]},
+  {id:"mohammed_y_al", n:"Mohammed Y. Al Qahtani", t:2, p:58, s:"energy", roles:[
+    ["aramco","Downstream President","executive","v"]]},
+  {id:"ziad_t_al", n:"Ziad T. Al-Murshed", t:2, p:58, s:"energy", roles:[
+    ["aramco","Executive Vice President & Chief Financial Officer","executive","v"]]},
+  {id:"wail_a_al", n:"Wail A. Al Jaafari", t:2, p:58, s:"energy", roles:[
+    ["aramco","Executive Vice President, Technical Services","executive","v"]]},
+  {id:"nabeel_a_al", n:"Nabeel A. Al Mansour", t:2, p:58, s:"energy", roles:[
+    ["aramco","Executive Vice President, General Counsel & Corporate Secretary","executive","v"]]},
+  {id:"nabeel_a_al_b", n:"Nabeel A. Al-Jama'", t:2, p:58, s:"energy", roles:[
+    ["aramco","Executive Vice President, Human Resources & Corporate Services","executive","v"]]},
+  {id:"ashraf_a_al", n:"Ashraf A. Al Ghazzawi", t:2, p:58, s:"energy", roles:[
+    ["aramco","Executive Vice President, Strategy & Corporate Development","executive","v"]]},
+  {id:"ahmad_o_al", n:"Ahmad O. Al-Khowaiter", t:2, p:58, s:"energy", roles:[
+    ["aramco","Executive Vice President, Technology & Innovation","executive","v"]]},
+  {id:"abdul_hameed_a", n:"Abdul Hameed A. Al Dughaither", t:2, p:58, s:"energy", roles:[
+    ["aramco","Business Line Executive Vice President, Exploration, Petroleum Engineering & Drilling","executive","v"]]},
+  {id:"abdulkarim_a_al", n:"Abdulkarim A. Al Ghamdi", t:2, p:58, s:"energy", roles:[
+    ["aramco","Business Line Executive Vice President, Gas","executive","v"]]},
+  {id:"ibrahim_q_al", n:"Ibrahim Q. Al Buainain", t:2, p:58, s:"energy", roles:[
+    ["aramco","Business Line Executive Vice President, Global Manufacturing","executive","v"]]},
+  {id:"yasser_m_mufti", n:"Yasser M. Mufti", t:2, p:58, s:"energy", roles:[
+    ["aramco","Business Line Executive Vice President, Products & Customers","executive","v"]]},
+  {id:"mohammed_k_al", n:"Mohammed K. Al-Mulhim", t:2, p:58, s:"energy", roles:[
+    ["aramco","Senior Vice President, Aramco; President & CEO, Aramco Trading Company","executive","v"]]},
+  {id:"sulaiman_m_ababtain", n:"Sulaiman M. Ababtain", t:2, p:58, s:"energy", roles:[
+    ["aramco","Senior Vice President, Aramco (leading SOFON Holding)","executive","v"]]},
+  {id:"yahya_a_abu", n:"Yahya A. Abu Shal", t:2, p:58, s:"energy", roles:[
+    ["aramco","Senior Vice President, Aramco","executive","v"]]},
+  {id:"meshari_m_alshaikhmubarak", n:"Meshari M. Alshaikhmubarak", t:2, p:62, s:"energy", roles:[
+    ["aramco","Senior Vice President, Office of the Chairman","executive","v"]]},
+  {id:"abdullah_s_al", n:"Abdullah S. Al-Suwailem", t:2, p:58, s:"energy", roles:[
+    ["aramco","Senior Vice President, Aramco; President & CEO, SATORP","executive","v"]]},
+  {id:"ernesto_occhiello", n:"Ernesto Occhiello", t:2, p:58, s:"materials", roles:[
+    ["sabic","Executive Vice President, T&I and Sustainability","executive","v"]]},
+  {id:"abdulaziz_al_oudan", n:"Abdulaziz Al-Oudan", t:2, p:58, s:"materials", roles:[
+    ["sabic","Executive Vice President, Shared Services","executive","v"]]},
+  {id:"ahmed_al_shaikh", n:"Ahmed Al-Shaikh", t:2, p:58, s:"materials", roles:[
+    ["sabic","Executive Vice President, Engineering & Project Management","executive","v"]]},
+  {id:"abdulrahman_shamsaddin", n:"Abdulrahman Shamsaddin", t:2, p:58, s:"materials", roles:[
+    ["sabic","Executive Vice President, Petrochemicals","executive","v"]]},
+  {id:"nawaf_al_anazi", n:"Nawaf Al-Anazi", t:2, p:58, s:"materials", roles:[
+    ["sabic","Executive Vice President (Acting), Manufacturing","executive","v"]]},
+  {id:"ali_ahmed_al", n:"Ali Ahmed Al Ghamdi", t:2, p:58, s:"materials", roles:[
+    ["sabic","Executive Vice President (Acting), Corporate Human Resources","executive","v"]]},
+  {id:"fahad_m_al", n:"Fahad M. Al-Battar", t:2, p:60, s:"materials", roles:[
+    ["sabic","Chief Executive Officer, SABIC Agri-Nutrients Company","executive","v"]]},
+  {id:"olivier_gerard_thorel", n:"Olivier Gerard Thorel", t:2, p:58, s:"materials", roles:[
+    ["sabic","Executive Vice President, Chemicals SBU","executive","ns"]]},
+  {id:"nader_ibrahim_al", n:"Nader Ibrahim Al-Wehibi", t:2, p:62, s:"materials", roles:[
+    ["sabic","Member of the Board of Directors; Chairman, Audit Committee","board","v"]]},
+  {id:"ameen_fahad_alshiddi", n:"Ameen Fahad Alshiddi", t:2, p:58, s:"comm", roles:[
+    ["stc","Group Chief Financial Officer","executive","v"]]},
+  {id:"faisal_saeed_alsaber", n:"Faisal Saeed Alsaber", t:2, p:58, s:"comm", roles:[
+    ["stc","Group Chief Commercial Officer","executive","v"]]},
+  {id:"riyadh_saeed_muawad", n:"Riyadh Saeed Muawad", t:2, p:58, s:"comm", roles:[
+    ["stc","Group Chief Business Officer","executive","v"]]},
+  {id:"mohammed_abdullah_alabbadi", n:"Mohammed Abdullah Alabbadi", t:2, p:58, s:"comm", roles:[
+    ["stc","Group Chief Carrier & Wholesale Officer","executive","v"]]},
+  {id:"moaeed_alsaloom", n:"Moaeed Alsaloom", t:2, p:58, s:"comm", roles:[
+    ["stc","Group Chief New Markets Officer","executive","v"]]},
+  {id:"tariq_saud_alhuzaimi", n:"Tariq Saud Alhuzaimi", t:2, p:58, s:"comm", roles:[
+    ["stc","Group Chief Technology Officer","executive","v"]]},
+  {id:"abdullah_abdulrahman_alkanhl", n:"Abdullah Abdulrahman Alkanhl", t:2, p:58, s:"comm", roles:[
+    ["stc","Group Chief Strategy Officer","executive","v"]]},
+  {id:"ahmad_musfer_alghamdi", n:"Ahmad Musfer Alghamdi", t:2, p:58, s:"comm", roles:[
+    ["stc","Group Chief Human Resources Officer","executive","v"]]},
+  {id:"motaz_alangari", n:"Motaz Alangari", t:2, p:58, s:"comm", roles:[
+    ["stc","Group Chief Investment Officer","executive","v"]]},
+  {id:"abdullah_sail_alanizi", n:"Abdullah Sail Alanizi", t:2, p:58, s:"comm", roles:[
+    ["stc","Group Chief Internal Audit Officer","executive","v"]]},
+  {id:"mathad_faisal_alajmi", n:"Mathad Faisal Alajmi", t:2, p:58, s:"comm", roles:[
+    ["stc","Group Chief Legal and Risk Officer and General Counsel","executive","v"]]},
+  {id:"emad_aoudah_alaoudah", n:"Emad Aoudah Alaoudah", t:2, p:58, s:"comm", roles:[
+    ["stc","Group Chief Shared Services Officer","executive","v"]]},
+  {id:"amir_abdulaziz_algibreen", n:"Amir Abdulaziz Algibreen", t:2, p:58, s:"comm", roles:[
+    ["stc","Group Chief Regulatory and Compliance Officer","executive","v"]]},
+  {id:"ibrahim_alsuwail", n:"Ibrahim Alsuwail", t:2, p:58, s:"comm", roles:[
+    ["stc","Group Chief of Staff","executive","v"]]},
+  {id:"omer_abdullah_alnomany", n:"Omer Abdullah Alnomany", t:2, p:60, s:"comm", roles:[
+    ["stc","Chief Executive Officer, solutions by stc","executive","v"]]},
+  {id:"saleh_ibrahim_almutawa", n:"Saleh Ibrahim Almutawa", t:2, p:62, s:"comm", roles:[
+    ["stc","Board Chairman, stc Bank","board","v"]]},
+  {id:"mazin_bin_abdulrazzaq", n:"Mazin bin Abdulrazzaq AlRomaih", t:2, p:62, s:"finance", roles:[
+    ["tadawul","Chairman of the Board of Directors","board","v"]]},
+  {id:"yazeed_abdulrahman_ibrahim", n:"Yazeed Abdulrahman Ibrahim Al Humaid", t:2, p:62, s:"finance", roles:[
+    ["tadawul","Vice-Chairman of the Board of Directors","board","v"]]},
+  {id:"rania_mahmoud_nashar", n:"Rania Mahmoud Nashar", t:2, p:52, s:"finance", roles:[
+    ["tadawul","Member of the Board of Directors","board","v"]]},
+  {id:"olayan_m_alwetaid", n:"Olayan M. Alwetaid", t:2, p:52, s:"finance", roles:[
+    ["tadawul","Member of the Board of Directors","board","v"]]},
+  {id:"sabty_sulaiman_al", n:"Sabty Sulaiman Al-Sabty", t:2, p:52, s:"finance", roles:[
+    ["tadawul","Member of the Board of Directors","board","v"]]},
+  {id:"xavier_r_rolet", n:"Xavier R. Rolet", t:2, p:52, s:"finance", roles:[
+    ["tadawul","Member of the Board of Directors","board","v"]]},
+  {id:"abdullah_fahad_alabduljabbar", n:"Abdullah Fahad AlAbduljabbar", t:2, p:52, s:"finance", roles:[
+    ["tadawul","Member of the Board of Directors","board","v"]]},
+  {id:"mohammed_saeed_alshammasi", n:"Mohammed Saeed AlShammasi", t:2, p:52, s:"finance", roles:[
+    ["tadawul","Member of the Board of Directors","board","v"]]},
+  {id:"abdulaziz_abalkhail", n:"Abdulaziz Abalkhail", t:2, p:58, s:"finance", roles:[
+    ["tadawul","Group Chief Internal Audit Officer","executive","v"]]},
+  {id:"abdullah_al_elshaikh", n:"Abdullah Al Elshaikh", t:2, p:58, s:"finance", roles:[
+    ["tadawul","Group Chief Legal Officer","executive","v"]]},
+  {id:"alhasan_ashram", n:"AlHasan Ashram", t:2, p:58, s:"finance", roles:[
+    ["tadawul","Group Chief Operations Officer","executive","v"]]},
+  {id:"khalid_al_gheriri", n:"Khalid Al Gheriri", t:2, p:58, s:"finance", roles:[
+    ["tadawul","Group Chief Regulatory Oversight & Authorization Officer","executive","v"]]},
+  {id:"lee_hodgkinson", n:"Lee Hodgkinson", t:2, p:58, s:"finance", roles:[
+    ["tadawul","Group Chief Strategy Officer","executive","v"]]},
+  {id:"maha_al_besher", n:"Maha Al Besher", t:2, p:58, s:"finance", roles:[
+    ["tadawul","Group Chief Human Resources Officer","executive","v"]]},
+  {id:"nayef_saleh_al", n:"Nayef Saleh Al Athel", t:2, p:58, s:"finance", roles:[
+    ["tadawul","Group Chief Sales and Marketing Officer","executive","v"]]},
+  {id:"shahrukh_qureshi", n:"Shahrukh Qureshi", t:2, p:58, s:"finance", roles:[
+    ["tadawul","Group Chief Financial Officer","executive","v"]]},
+  {id:"yazeed_hamad_al", n:"Yazeed Hamad Al Eidi", t:2, p:58, s:"finance", roles:[
+    ["tadawul","Group Chief Risk & Security Officer","executive","v"]]},
+  {id:"khalid_bin_salem", n:"Khalid bin Salem AlGhamdi", t:2, p:60, s:"utilities", roles:[
+    ["sec","Chief Executive Officer","executive","v"]]},
+  {id:"abdulaziz_al_muhaiza", n:"Abdulaziz Al-Muhaiza", t:2, p:58, s:"utilities", roles:[
+    ["sec","Executive Vice President & Group Chief Financial Officer","executive","v"]]},
+  {id:"manish_manchandya", n:"Manish Manchandya", t:2, p:58, s:"utilities", roles:[
+    ["sec","Executive Vice President Strategic Planning and Chief Investment Officer","executive","v"]]},
+  {id:"ibrahim_mohammed_i", n:"Ibrahim Mohammed I Alkhenizan", t:2, p:58, s:"utilities", roles:[
+    ["sec","Executive Vice President, Distribution & Customer Services","executive","v"]]},
+  {id:"abdulkarim_bin_abdulaziz", n:"Abdulkarim bin Abdulaziz Al-Rasheed", t:2, p:58, s:"utilities", roles:[
+    ["sec","Executive Vice President Human Resources and Corporate Services","executive","v"]]},
+  {id:"abdullah_mubarak_alsubaii", n:"Abdullah Mubarak AlSubaii", t:2, p:58, s:"utilities", roles:[
+    ["sec","Vice President, Network Operation (National Grid SA)","executive","v"]]},
+  {id:"rashid_abdullah_al", n:"Rashid Abdullah Al-Shehri", t:2, p:58, s:"utilities", roles:[
+    ["sec","Vice President, Maintenance (National Grid SA)","executive","v"]]},
+  {id:"ahmed_saleh_al", n:"Ahmed Saleh Al-Zahrani", t:2, p:58, s:"utilities", roles:[
+    ["sec","Vice President, System Planning (National Grid SA)","executive","v"]]},
+  {id:"mohammed_saleh_m", n:"Mohammed Saleh M Alotaibi", t:2, p:58, s:"utilities", roles:[
+    ["sec","Vice President, Network Operation (National Grid SA)","executive","v"]]},
+  {id:"turqi_a_al", n:"Turqi A. Al-Nowaiser", t:2, p:58, s:"sovereign", roles:[
+    ["pif","Deputy Governor, Head of International Investments Division and Acting Head of Shared Services Division","executive","v"]]},
+  {id:"saad_alkroud", n:"Saad Alkroud", t:2, p:46, s:"sovereign", roles:[
+    ["pif","Head of Local Real Estate Investments Division","executive","v"]]},
+  {id:"yasir_a_alsalman", n:"Yasir A. AlSalman", t:2, p:58, s:"sovereign", roles:[
+    ["pif","Chief Financial Officer and Head of Finance Division and Acting Head of Global Capital Finance","executive","v"]]},
+  {id:"bander_a_mogren", n:"Bander A. Mogren", t:2, p:58, s:"sovereign", roles:[
+    ["pif","Advisor to His Excellency the Governor","executive","v"]]},
+  {id:"rania_nashar", n:"Rania Nashar", t:2, p:46, s:"sovereign", roles:[
+    ["pif","Head of Compliance & Governance Division","executive","v"]]},
+  {id:"maram_al_johani", n:"Maram Al Johani", t:2, p:58, s:"sovereign", roles:[
+    ["pif","Chief of Staff and Secretary General to the Board and Board Committees","executive","v"]]},
+  {id:"kevin_foster", n:"Kevin Foster", t:2, p:46, s:"sovereign", roles:[
+    ["pif","Head of Corporate Affairs Division","executive","v"]]},
+  {id:"jerry_todd", n:"Jerry Todd", t:2, p:46, s:"sovereign", roles:[
+    ["pif","Head of National Development Division and Acting Head of Investment Strategy and Economic Insights Division","executive","v"]]},
+  {id:"mike_cheng", n:"Mike Cheng", t:2, p:46, s:"sovereign", roles:[
+    ["pif","Head of Internal Audit Division","executive","v"]]},
+  {id:"feta_zabeli", n:"Feta Zabeli", t:2, p:46, s:"sovereign", roles:[
+    ["pif","Head of Risk Division","executive","v"]]},
+  {id:"rayan_fayez", n:"Rayan Fayez", t:2, p:60, s:"realestate", roles:[
+    ["neom","Deputy CEO","executive","v"]]},
+  {id:"jassir_al_jassir", n:"Jassir Al-Jassir", t:2, p:58, s:"realestate", roles:[
+    ["neom","Chief Governance, Risk and Compliance Officer","executive","v"]]},
+  {id:"dr_manar_al", n:"Dr Manar Al Moneef", t:2, p:58, s:"realestate", roles:[
+    ["neom","Chief Investment Officer","executive","v"]]},
+  {id:"dr_mahmoud_alyamani", n:"Dr Mahmoud Alyamani", t:2, p:58, s:"realestate", roles:[
+    ["neom","Health and Wellbeing Sector Head","executive","v"]]},
+  {id:"nader_ashoor", n:"Nader Ashoor", t:2, p:58, s:"realestate", roles:[
+    ["neom","Chief Financial and Strategy Officer","executive","v"]]},
+  {id:"denis_hickey", n:"Denis Hickey", t:2, p:58, s:"realestate", roles:[
+    ["neom","Chief Development Officer","executive","v"]]},
+  {id:"dr_paul_marshall", n:"Dr Paul Marshall", t:2, p:46, s:"realestate", roles:[
+    ["neom","Head of Nature Region","executive","v"]]},
+  {id:"majid_mufti", n:"Majid Mufti", t:2, p:60, s:"realestate", roles:[
+    ["neom","NEOM Investment Fund CEO","executive","v"]]},
+  {id:"vishal_wanchoo", n:"Vishal Wanchoo", t:2, p:60, s:"realestate", roles:[
+    ["neom","OXAGON CEO","executive","v"]]},
+  {id:"michael_k_young", n:"Michael K. Young", t:2, p:58, s:"realestate", roles:[
+    ["neom","Chancellor of the NEOM Education, Research, and Innovation sector","executive","v"]]},
+  {id:"wesam_y_alghamdi", n:"Wesam Y. Alghamdi", t:2, p:60, s:"realestate", roles:[
+    ["neom","CEO of NEOM Green Hydrogen Company","executive","v"]]},
+  {id:"gilberto_antoniazzi", n:"Gilberto Antoniazzi", t:2, p:58, s:"materials", roles:[
+    ["maaden","Executive Vice President and Chief Financial Officer","executive","v"]]},
+  {id:"hassan_madani_m", n:"Hassan Madani M. AlAli", t:2, p:58, s:"materials", roles:[
+    ["maaden","Executive Vice President, Phosphate Business Unit","executive","v"]]},
+  {id:"ahmad_al_alshaikh", n:"Ahmad Al-AlShaikh", t:2, p:58, s:"materials", roles:[
+    ["maaden","Executive Vice President, Aluminum Business Unit","executive","v"]]},
+  {id:"jim_north", n:"Jim North", t:2, p:58, s:"materials", roles:[
+    ["maaden","Executive Vice President, Gold & Growth Metals","executive","v"]]},
+  {id:"dr_darryl_clark", n:"Dr. Darryl Clark", t:2, p:58, s:"materials", roles:[
+    ["maaden","Executive Vice President, Exploration & Resource Development","executive","v"]]},
+  {id:"abdulrahman_as_sadlan", n:"Abdulrahman As-Sadlan", t:2, p:58, s:"materials", roles:[
+    ["maaden","Senior Vice President, Project Development & Engineering","executive","v"]]},
+  {id:"donovan_waller", n:"Donovan Waller", t:2, p:58, s:"materials", roles:[
+    ["maaden","Chief Technology Officer (Technology & Innovation)","executive","v"]]},
+  {id:"mohammed_marwahi", n:"Mohammed Marwahi", t:2, p:58, s:"materials", roles:[
+    ["maaden","Chief Strategy & Corporate Affairs Officer","executive","v"]]},
+  {id:"assaf_alquraishi", n:"Assaf AlQuraishi", t:2, p:58, s:"materials", roles:[
+    ["maaden","Chief Human Resources Officer","executive","v"]]},
+  {id:"mashael_alshebaiky", n:"Mashael Alshebaiky", t:2, p:58, s:"materials", roles:[
+    ["maaden","Chief Legal Officer","executive","v"]]},
+  {id:"abdullah_al_osaimi", n:"Abdullah Al Osaimi", t:2, p:46, s:"materials", roles:[
+    ["maaden","EVP, Safety and Business Support","executive","v"]]},
+  {id:"tariq_amro", n:"Tariq Amro", t:2, p:58, s:"materials", roles:[
+    ["maaden","Chief Audit Executive","executive","v"]]},
+  {id:"effat_s_badeeb", n:"Effat S. Badeeb", t:2, p:58, s:"materials", roles:[
+    ["maaden","Senior Vice President, Board Secretary & Corporate Governance","executive","v"]]},
+  {id:"dr_samir_j", n:"Dr. Samir J Serhan", t:2, p:60, s:"utilities", roles:[
+    ["acwa","Chief Executive Officer","executive","v"]]},
+  {id:"abdulhameed_al_muhaidib", n:"Abdulhameed Al Muhaidib", t:2, p:58, s:"utilities", roles:[
+    ["acwa","Chief Financial Officer","executive","v"]]},
+  {id:"faisal_jadu", n:"Faisal Jadu", t:2, p:58, s:"utilities", roles:[
+    ["acwa","Chief People and Culture Officer","executive","v"]]},
+  {id:"tahir_mahmood", n:"Tahir Mahmood", t:2, p:58, s:"utilities", roles:[
+    ["acwa","Chief Risk Officer","executive","v"]]},
+  {id:"furqan_kamlani", n:"Furqan Kamlani", t:2, p:58, s:"utilities", roles:[
+    ["acwa","Chief Audit Officer","executive","v"]]},
+  {id:"shahnaz_yusof", n:"Shahnaz Yusof", t:2, p:58, s:"utilities", roles:[
+    ["acwa","Chief Legal & Governance Officer","executive","v"]]},
+  {id:"riad_sadikhov", n:"Riad Sadikhov", t:2, p:58, s:"utilities", roles:[
+    ["acwa","Chief Health Safety Security & Environment Officer","executive","v"]]},
+  {id:"matthew_york", n:"Matthew York", t:2, p:58, s:"utilities", roles:[
+    ["acwa","President ACWA Operations","executive","v"]]},
+  {id:"yasir_mahmoud", n:"Yasir Mahmoud", t:2, p:58, s:"utilities", roles:[
+    ["acwa","Executive Vice President Water Global Product Line","executive","v"]]},
+  {id:"driss_berraho", n:"Driss Berraho", t:2, p:58, s:"utilities", roles:[
+    ["acwa","Executive Vice President Global Green Hydrogen Product Line","executive","v"]]},
+  {id:"alfons_juan", n:"Alfons Juan", t:2, p:58, s:"utilities", roles:[
+    ["acwa","Executive Vice President Project Delivery","executive","v"]]},
+  {id:"abdulrahman_abdullah_al", n:"Abdulrahman Abdullah Al-Fadda", t:2, p:58, s:"finance", roles:[
+    ["alrajhi","Chief Financial Officer","executive","v"]]},
+  {id:"abdullah_saleh_al", n:"Abdullah Saleh Al-Omari", t:2, p:58, s:"finance", roles:[
+    ["alrajhi","Chief Operating Officer","executive","v"]]},
+  {id:"ahmed_saleh_al_b", n:"Ahmed Saleh Al-Sudais", t:2, p:58, s:"finance", roles:[
+    ["alrajhi","Chief Human Resources Officer","executive","v"]]},
+  {id:"majed_saleh_al", n:"Majed Saleh Al-Rajhi", t:2, p:46, s:"finance", roles:[
+    ["alrajhi","General Manager Retail Banking","executive","v"]]},
+  {id:"hussein_talal_bayari", n:"Hussein Talal Bayari", t:2, p:46, s:"finance", roles:[
+    ["alrajhi","General Manager Corporate Banking Group","executive","v"]]},
+  {id:"abdulrahman_al_ajaji", n:"Abdulrahman Al-Ajaji", t:2, p:46, s:"finance", roles:[
+    ["alrajhi","General Manager Treasury Group","executive","v"]]},
+  {id:"saed_basheer_basseet", n:"Saed Basheer Basseet", t:2, p:58, s:"finance", roles:[
+    ["alrajhi","Chief Marketing and Customer Experience Officer","executive","v"]]},
+  {id:"faisal_abdullah_al", n:"Faisal Abdullah Al-Sheref", t:2, p:46, s:"finance", roles:[
+    ["alrajhi","General Manager Sharia","executive","v"]]},
+  {id:"hamad_ibrahim_al", n:"Hamad Ibrahim Al-Washmi", t:2, p:58, s:"finance", roles:[
+    ["alrajhi","Chief Compliance Officer","executive","v"]]},
+  {id:"thamer_abdullah_al", n:"Thamer Abdullah Al-Humud", t:2, p:58, s:"finance", roles:[
+    ["alrajhi","Chief Governance and Legal Officer","executive","v"]]},
+  {id:"dhary_mohali_al", n:"Dhary Mohali Al-Shammry", t:2, p:58, s:"finance", roles:[
+    ["alrajhi","Chief Internal Auditor","executive","v"]]},
+  {id:"abid_shakeel", n:"Abid Shakeel", t:2, p:58, s:"finance", roles:[
+    ["alrajhi","Chief Strategy Officer","executive","v"]]},
+  {id:"turki_mohammed_al", n:"Turki Mohammed Al-Dhfayan", t:2, p:58, s:"finance", roles:[
+    ["alrajhi","Chief Strategic Projects and Acting Chief Digital Officer","executive","v"]]},
+  {id:"salim_hamad_musallam", n:"Salim Hamad Musallam", t:2, p:58, s:"finance", roles:[
+    ["alrajhi","Chief Credit Officer","executive","v"]]},
+  {id:"hani_abdullah_al", n:"Hani Abdullah Al Meghem", t:2, p:58, s:"finance", roles:[
+    ["alrajhi","Chief Private Banking Officer","executive","v"]]},
+  {id:"fawaz_abdullah_al", n:"Fawaz Abdullah Al Thumairi", t:2, p:58, s:"finance", roles:[
+    ["snb","Head Treasury Business Group","executive","v"]]},
+  {id:"wael_abdulaziz_raies", n:"Wael Abdulaziz Raies", t:2, p:58, s:"finance", roles:[
+    ["snb","Head Group Strategy and Innovation","executive","v"]]},
+  {id:"saleh_mohammed_saleh", n:"Saleh Mohammed Saleh", t:2, p:58, s:"finance", roles:[
+    ["snb","Head Group Shared Services (Group Chief Operating Officer)","executive","v"]]},
+  {id:"hasan_faisal_hammad", n:"Hasan Faisal Hammad", t:2, p:58, s:"finance", roles:[
+    ["snb","Group Chief Human Resources Officer","executive","v"]]},
+  {id:"waleed_hassan_abdulshakoor", n:"Waleed Hassan Abdulshakoor", t:2, p:58, s:"finance", roles:[
+    ["snb","Group Chief Legal Counsel","executive","v"]]},
+  {id:"abdulaziz_fahed_al", n:"Abdulaziz Fahed Al Fayez", t:2, p:58, s:"finance", roles:[
+    ["snb","Group Chief Risk Officer","executive","v"]]},
+  {id:"fuad_abdullah_alharbi", n:"Fuad Abdullah Alharbi", t:2, p:58, s:"finance", roles:[
+    ["snb","Group Chief Compliance Officer","executive","v"]]},
+  {id:"ali_mushabbab_alqahtani", n:"Ali Mushabbab Alqahtani", t:2, p:58, s:"finance", roles:[
+    ["snb","Group Chief Audit Officer","executive","v"]]},
+  {id:"nasser_sulaiman_al", n:"Nasser Sulaiman Al Fraih", t:2, p:58, s:"finance", roles:[
+    ["snb","Head Corporate Business Group","executive","v"]]},
+  {id:"saud_abdulaziz_bajbair", n:"Saud Abdulaziz Bajbair", t:2, p:58, s:"finance", roles:[
+    ["snb","Head Retail Business Group","executive","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -346,6 +346,96 @@ const PEOPLE = [
     ["boursa","Chief Executive Officer","executive","v"]]},
   {id:"naim_azad_din", n:"Naim Azad Din", t:2, p:58, s:"finance", roles:[
     ["boursa","Chief Financial Officer","executive","v"]]},
+  {id:"shaikh_khaled_ahmad", n:"Shaikh Khaled Ahmad Al-Sabah", t:2, p:60, s:"energy", roles:[
+    ["kpc","Managing Director - International Marketing","executive","v"]]},
+  {id:"hesham_ahmad_al", n:"Hesham Ahmad Al-Refae", t:2, p:60, s:"energy", roles:[
+    ["kpc","Managing Director - Human Resources and Corporate Services","executive","v"]]},
+  {id:"bader_ebrahim_al", n:"Bader Ebrahim Al-Attar", t:2, p:60, s:"energy", roles:[
+    ["kpc","Managing Director - Planning & Finance","executive","v"]]},
+  {id:"shaikh_saoud_salem", n:"Shaikh Saoud Salem Al-Sabah", t:2, p:52, s:"energy", roles:[
+    ["kpc","Board Member","board","v"]]},
+  {id:"aseel_suleiman_al", n:"Aseel Suleiman Al-Munifi", t:2, p:52, s:"energy", roles:[
+    ["kpc","Board Member","board","v"]]},
+  {id:"wafa_ahmed_al", n:"Wafa Ahmed Al-Qatami", t:2, p:52, s:"energy", roles:[
+    ["kpc","Board Member","board","v"]]},
+  {id:"yousef_abdullah_al", n:"Yousef Abdullah Al-Yateem", t:2, p:52, s:"energy", roles:[
+    ["kpc","Board Member","board","v"]]},
+  {id:"yousef_khaled_al", n:"Yousef Khaled Al-Qabandi", t:2, p:52, s:"energy", roles:[
+    ["kpc","Board Member","board","v"]]},
+  {id:"ameena_rajab_saleh", n:"Ameena Rajab Saleh", t:2, p:60, s:"energy", roles:[
+    ["koc","Deputy CEO - Gas & Environment","executive","v"]]},
+  {id:"khaled_al_mulla", n:"Khaled Al-Mulla", t:2, p:60, s:"energy", roles:[
+    ["koc","Deputy CEO - Exploration & Drilling","executive","v"]]},
+  {id:"hamad_rashid_al", n:"Hamad Rashid Al-Zuwayer", t:2, p:60, s:"energy", roles:[
+    ["koc","Deputy CEO - North & West Kuwait","executive","v"]]},
+  {id:"mohammad_khalifa_al", n:"Mohammad Khalifa Al-AbdulJaleel", t:2, p:60, s:"energy", roles:[
+    ["koc","Deputy CEO - Planning & Innovation","executive","v"]]},
+  {id:"waleed_khaled_al", n:"Waleed Khaled Al-Rubaian", t:2, p:60, s:"energy", roles:[
+    ["koc","Deputy CEO - Admin & Finance","executive","v"]]},
+  {id:"fuad_mohammad_al", n:"Fuad Mohammad Al-Shaikh", t:2, p:60, s:"energy", roles:[
+    ["koc","Deputy CEO - South & East Kuwait","executive","v"]]},
+  {id:"musaed_sulaiman_al", n:"Musaed Sulaiman Al-Rasheed", t:2, p:60, s:"energy", roles:[
+    ["koc","Deputy CEO - Commercial & Projects Engineering","executive","v"]]},
+  {id:"khaled_ali_al", n:"Khaled Ali Al-Khayyat", t:2, p:60, s:"energy", roles:[
+    ["knpc","Deputy CEO - Planning & Finance","executive","v"]]},
+  {id:"ghanim_naser_al", n:"Ghanim Naser Al-Otaibi", t:2, p:60, s:"energy", roles:[
+    ["knpc","Deputy CEO - Projects","executive","v"]]},
+  {id:"shujaa_salem_al", n:"Shujaa Salem Al-Ajmi", t:2, p:60, s:"energy", roles:[
+    ["knpc","Deputy CEO - Mina Al-Ahmadi Refinery","executive","v"]]},
+  {id:"abdullah_shaker_al", n:"Abdullah Shaker Al-Otaibi", t:2, p:60, s:"energy", roles:[
+    ["knpc","Deputy CEO - Mina Abdullah Refinery","executive","v"]]},
+  {id:"bandar_mahdi_al", n:"Bandar Mahdi Al-Qahtani", t:2, p:60, s:"energy", roles:[
+    ["knpc","Deputy CEO - Admin & Commercial","executive","v"]]},
+  {id:"khuloud_saad_al", n:"Khuloud Saad Al-Mutairi", t:2, p:60, s:"energy", roles:[
+    ["knpc","Deputy CEO - Support Services","executive","v"]]},
+  {id:"fahad_saad_al", n:"Fahad Saad Al-Mutairi", t:2, p:60, s:"energy", roles:[
+    ["knpc","Deputy CEO - Al-Zour Operations","executive","v"]]},
+  {id:"sheikh_hamad_sabah", n:"Sheikh Hamad Sabah Al Ahmad Al Sabah", t:2, p:62, s:"sovereign", roles:[
+    ["kipco","Chairman","board","v"]]},
+  {id:"sheikh_abdullah_naser", n:"Sheikh Abdullah Naser Sabah Al Ahmad Al Sabah", t:2, p:62, s:"sovereign", roles:[
+    ["kipco","Vice Chairman","board","v"]]},
+  {id:"sheikha_bibi_naser", n:"Sheikha Bibi Naser Sabah Al Ahmad Al Sabah", t:2, p:52, s:"sovereign", roles:[
+    ["kipco","Non-Executive Board Member","board","v"]]},
+  {id:"abdullah_yacoub_bishara", n:"Abdullah Yacoub Bishara", t:2, p:52, s:"sovereign", roles:[
+    ["kipco","Independent Board Member","board","v"]]},
+  {id:"samer_khanachet", n:"Samer Khanachet", t:2, p:60, s:"sovereign", roles:[
+    ["kipco","Deputy Group Chief Executive Officer","executive","v"]]},
+  {id:"sheikh_sabah_mohammad", n:"Sheikh Sabah Mohammad Abdulaziz Al Sabah", t:2, p:58, s:"sovereign", roles:[
+    ["kipco","Group Chief Investment Officer","executive","v"]]},
+  {id:"moustapha_samir_chami", n:"Moustapha Samir Chami", t:2, p:58, s:"sovereign", roles:[
+    ["kipco","Group Chief Financial Officer","executive","v"]]},
+  {id:"khaled_abdul_jabbar", n:"Khaled Abdul Jabbar Al Sharrad", t:2, p:58, s:"sovereign", roles:[
+    ["kipco","Group Chief HR & Admin Officer and Board Secretary","executive","v"]]},
+  {id:"samer_abbouchi", n:"Samer Abbouchi", t:2, p:58, s:"sovereign", roles:[
+    ["kipco","Deputy Group Chief Investment Officer","executive","v"]]},
+  {id:"adel_jasem_al", n:"Adel Jasem Al Waqayan", t:2, p:58, s:"sovereign", roles:[
+    ["kipco","Group Treasurer","executive","v"]]},
+  {id:"mohammad_abdullah_al", n:"Mohammad Abdullah Al Hubail", t:2, p:58, s:"sovereign", roles:[
+    ["kipco","Deputy Group Chief of HR & Admin","executive","v"]]},
+  {id:"eman_mohammad_al", n:"Eman Mohammad Al Awadhi", t:2, p:46, s:"sovereign", roles:[
+    ["kipco","Group SVP - Corporate Communications & Investor Relations","executive","v"]]},
+  {id:"riyad_mohammed_hanbali", n:"Riyad Mohammed Hanbali", t:2, p:46, s:"sovereign", roles:[
+    ["kipco","Group VP - Internal Audit","executive","v"]]},
+  {id:"mohammad_al_marshed", n:"Mohammad Al-Marshed", t:2, p:58, s:"comm", roles:[
+    ["zain","Group Chief Technology Officer","executive","v"]]},
+  {id:"kamil_hilali", n:"Kamil Hilali", t:2, p:58, s:"comm", roles:[
+    ["zain","Group Chief Strategy Officer","executive","v"]]},
+  {id:"mohammad_abdal", n:"Mohammad Abdal", t:2, p:58, s:"comm", roles:[
+    ["zain","Group Chief Corporate Affairs & Communications Officer","executive","v"]]},
+  {id:"nawal_h_bourisli", n:"Nawal H. Bourisli", t:2, p:58, s:"comm", roles:[
+    ["zain","Group Chief Purpose & HR Officer","executive","v"]]},
+  {id:"malek_hammoud", n:"Malek Hammoud", t:2, p:58, s:"comm", roles:[
+    ["zain","Group Chief Investment & Digital Transformation Officer","executive","v"]]},
+  {id:"firas_oggar", n:"Firas Oggar", t:2, p:58, s:"comm", roles:[
+    ["zain","Group Chief Legal Officer","executive","v"]]},
+  {id:"dr_andrew_arowojolu", n:"Dr. Andrew Arowojolu", t:2, p:58, s:"comm", roles:[
+    ["zain","Group Chief Regulatory Officer","executive","v"]]},
+  {id:"jennifer_suleiman", n:"Jennifer Suleiman", t:2, p:58, s:"comm", roles:[
+    ["zain","Group Chief Sustainability Officer","executive","v"]]},
+  {id:"abdul_ghaffar_setareh", n:"Abdul Ghaffar Setareh", t:2, p:58, s:"comm", roles:[
+    ["zain","Group Chief Risk Officer","executive","v"]]},
+  {id:"javier_garcia_cuadrado", n:"Javier Garcia Cuadrado", t:2, p:58, s:"comm", roles:[
+    ["zain","Group Chief Internal Auditor","executive","v"]]},
 ];
 
 const OWNERSHIP = [

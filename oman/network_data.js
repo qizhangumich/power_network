@@ -300,6 +300,92 @@ const PEOPLE = [
     ["lst_nbob","Chief Executive Officer","executive","v"]]},
   {id:"srinivasaraghava_giridhar", n:"Srinivasaraghava Giridhar", t:2, p:58, s:"finance", roles:[
     ["lst_nbob","Chief Financial Officer","executive","v"]]},
+  {id:"mulham_basheer_al", n:"Mulham Basheer Al Jarf", t:2, p:62, s:"energy", roles:[
+    ["oq","Chairman","board","v"],
+    ["oia","Deputy President for Investments","executive","v"]]},
+  {id:"hussain_ghalib_al", n:"Hussain Ghalib Al Yafai", t:2, p:52, s:"energy", roles:[
+    ["oq","Board Member","board","v"]]},
+  {id:"mattar_salim_al", n:"Mattar Salim Al Badi", t:2, p:52, s:"energy", roles:[
+    ["oq","Board Member","board","v"]]},
+  {id:"li_lei", n:"Li Lei", t:2, p:52, s:"energy", roles:[
+    ["oq","Board Member","board","v"]]},
+  {id:"dr_sultan_said", n:"Dr. Sultan Said Al Shidhani", t:2, p:52, s:"energy", roles:[
+    ["oq","Board Member","board","v"]]},
+  {id:"thuraiya_ahmed_al", n:"Thuraiya Ahmed Al Balushi", t:2, p:58, s:"energy", roles:[
+    ["oq","Board Member","board","v"],
+    ["oia","Acting Chief - Economic Diversification Investments","executive","v"]]},
+  {id:"abdulrahman_ahmed_al", n:"Abdulrahman Ahmed Al Harthi", t:2, p:58, s:"energy", roles:[
+    ["oq","Chief Assurance Officer","executive","v"]]},
+  {id:"abdulwahhab_abdullah_al", n:"Abdulwahhab Abdullah Al Hinai", t:2, p:58, s:"energy", roles:[
+    ["oq","General Counsel","executive","v"]]},
+  {id:"sabrina_al_bakri", n:"Sabrina Al Bakri", t:2, p:58, s:"energy", roles:[
+    ["oq","Chief Financial Officer","executive","v"]]},
+  {id:"ali_mohamed_al", n:"Ali Mohamed Al Lawati", t:2, p:58, s:"energy", roles:[
+    ["oq","Chief People & Technology Officer","executive","v"]]},
+  {id:"azzan_al_abdullatif", n:"Azzan Al Abdullatif", t:2, p:58, s:"energy", roles:[
+    ["oq","Chief Growth Officer","executive","v"]]},
+  {id:"muneer_bin_ali", n:"Muneer bin Ali Al Muneeri", t:2, p:58, s:"sovereign", roles:[
+    ["oia","Deputy President for Operations","executive","v"]]},
+  {id:"dr_saud_al", n:"Dr. Saud Al Habsi", t:2, p:52, s:"sovereign", roles:[
+    ["oia","Board Member (Minister of Agriculture Fisheries & Water Resources)","board","v"]]},
+  {id:"abdullah_al_harthi", n:"Abdullah Al Harthi", t:2, p:52, s:"sovereign", roles:[
+    ["oia","Board Member (Undersecretary Ministry of Finance)","board","v"]]},
+  {id:"kwa_chong_seng", n:"Kwa Chong Seng", t:2, p:52, s:"sovereign", roles:[
+    ["oia","International Board Member","board","v"]]},
+  {id:"hussein_ali_al", n:"Hussein Ali Al Rashdi", t:2, p:58, s:"sovereign", roles:[
+    ["oia","Acting Director - Corporate Planning & Performance","executive","v"],
+    ["asyad","Board Member","board","v"]]},
+  {id:"issa_janjan_al", n:"Issa Janjan Al Balushi", t:2, p:58, s:"sovereign", roles:[
+    ["oia","Manager - Economic Diversification Investments","executive","v"],
+    ["asyad","Board Member","board","v"]]},
+  {id:"dr_musallam_mahad", n:"Dr. Musallam Mahad Qatan", t:2, p:62, s:"industry", roles:[
+    ["asyad","Chairman","board","v"]]},
+  {id:"saif_said_al", n:"Saif Said Al Hamhami", t:2, p:62, s:"industry", roles:[
+    ["asyad","Deputy Chairman (CEO Abraj Energy Services)","board","v"]]},
+  {id:"dr_ismail_ahmed", n:"Dr. Ismail Ahmed Al Balushi", t:2, p:52, s:"industry", roles:[
+    ["asyad","Board Member","board","v"]]},
+  {id:"flemming_dalgaard", n:"Flemming Dalgaard", t:2, p:52, s:"industry", roles:[
+    ["asyad","Board Member","board","v"]]},
+  {id:"muhsin_al_rustom", n:"Muhsin Al Rustom", t:2, p:58, s:"industry", roles:[
+    ["asyad","Group Chief Finance Officer","executive","v"]]},
+  {id:"abdulmalik_al_balushi", n:"Abdulmalik Al Balushi", t:2, p:58, s:"industry", roles:[
+    ["asyad","Group Chief People Officer","executive","v"]]},
+  {id:"ghaith_al_darmaki", n:"Ghaith Al Darmaki", t:2, p:58, s:"industry", roles:[
+    ["asyad","Group Chief Technology Officer","executive","v"]]},
+  {id:"ibrahim_al_nadhairi", n:"Ibrahim Al Nadhairi", t:2, p:60, s:"industry", roles:[
+    ["asyad","CEO - Asyad Shipping","executive","v"]]},
+  {id:"leyan_al_mawali", n:"Leyan Al Mawali", t:2, p:58, s:"industry", roles:[
+    ["asyad","Group Chief Legal Officer","executive","v"]]},
+  {id:"ziyad_al_harbi", n:"Ziyad Al Harbi", t:2, p:58, s:"industry", roles:[
+    ["asyad","Senior Vice President - Strategy and Planning","executive","v"]]},
+  {id:"selim_ismail", n:"Selim Ismail", t:2, p:46, s:"industry", roles:[
+    ["asyad","SVP & Group Head of M&A and Portfolio Development","executive","v"]]},
+  {id:"scott_smiley", n:"Scott Smiley", t:2, p:58, s:"industry", roles:[
+    ["asyad","Chief Commercial Officer","executive","v"]]},
+  {id:"juma_al_uraimi", n:"Juma Al Uraimi", t:2, p:46, s:"industry", roles:[
+    ["asyad","SVP & Group Head of Business Development","executive","v"]]},
+  {id:"mohsin_al_hadhrami", n:"Mohsin Al Hadhrami", t:2, p:62, s:"energy", roles:[
+    ["pdo","Chairman (Undersecretary Ministry of Energy and Minerals)","board","v"]]},
+  {id:"isam_al_zadjali", n:"Isam Al Zadjali", t:2, p:52, s:"energy", roles:[
+    ["pdo","Board Representative - Energy Development Oman","board","v"]]},
+  {id:"mazin_al_lamki", n:"Mazin Al Lamki", t:2, p:52, s:"energy", roles:[
+    ["pdo","Board Member (CEO Energy Development Oman)","board","v"]]},
+  {id:"sultan_al_mamari", n:"Sultan Al Mamari", t:2, p:52, s:"energy", roles:[
+    ["pdo","Board Member (CFO Energy Development Oman)","board","v"]]},
+  {id:"azhar_bin_ahmed", n:"Azhar bin Ahmed Al Kindi", t:2, p:52, s:"energy", roles:[
+    ["pdo","Board Member (COO Energy Development Oman)","board","v"]]},
+  {id:"ali_al_janabi", n:"Ali Al-Janabi", t:2, p:62, s:"energy", roles:[
+    ["pdo","Board Member (Shell Country Chairman in Oman)","board","v"]]},
+  {id:"fares_al_khazen", n:"Fares Al-Khazen", t:2, p:52, s:"energy", roles:[
+    ["pdo","Board Member (TotalEnergies Director)","board","v"]]},
+  {id:"sami_baqi", n:"Sami Baqi", t:2, p:58, s:"energy", roles:[
+    ["pdo","Executive Director Technical","executive","v"]]},
+  {id:"farid_al_harthy", n:"Farid Al Harthy", t:2, p:58, s:"energy", roles:[
+    ["pdo","Executive Director Business Support","executive","v"]]},
+  {id:"antonio_armando", n:"Antonio Armando", t:2, p:58, s:"energy", roles:[
+    ["pdo","Executive Director Finance","executive","v"]]},
+  {id:"salman_al_maimani", n:"Salman Al Maimani", t:2, p:58, s:"energy", roles:[
+    ["pdo","HSE Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [

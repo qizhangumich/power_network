@@ -125,6 +125,150 @@ const PEOPLE = [
     ["scci","Chairman","board","v"]]},
   {id:"almahmoud_sedd", n:"Hamad Ali Abdalla Al Mahmoud", t:1, p:68, s:"gov", roles:[
     ["sedd","Chairman","government","v"]]},
+  {id:"neeraj_agrawal", n:"Neeraj Agrawal", t:2, p:58, s:"conglomerate", roles:[
+    ["crescent","Executive Director","executive","v"],
+    ["crescentpet","Chief Financial Officer","executive","v"]]},
+  {id:"ravi_kumar", n:"Ravi Kumar", t:2, p:58, s:"conglomerate", roles:[
+    ["crescent","Executive Director","executive","v"],
+    ["crescentpet","Chief Corporate Officer","executive","v"]]},
+  {id:"tushar_singhvi", n:"Tushar Singhvi", t:2, p:60, s:"conglomerate", roles:[
+    ["crescent","Deputy CEO & Head of Investments","executive","v"]]},
+  {id:"ghada_abdelkader", n:"Ghada Abdelkader", t:2, p:58, s:"conglomerate", roles:[
+    ["crescent","Senior VP, CE-Invests","executive","v"]]},
+  {id:"sudarshan_pareek", n:"Sudarshan Pareek", t:2, p:58, s:"conglomerate", roles:[
+    ["crescent","Senior VP, CE-Ventures","executive","v"]]},
+  {id:"rakhil_fernando", n:"Rakhil Fernando", t:2, p:46, s:"conglomerate", roles:[
+    ["crescent","Head of CE-Creates","executive","v"]]},
+  {id:"charlie_scott", n:"Charlie Scott", t:2, p:46, s:"conglomerate", roles:[
+    ["crescent","Head of Communications","executive","v"]]},
+  {id:"emma_dickie", n:"Emma Dickie", t:2, p:58, s:"conglomerate", roles:[
+    ["crescent","Legal Director","executive","v"]]},
+  {id:"marc_choufani", n:"Marc Choufani", t:2, p:58, s:"conglomerate", roles:[
+    ["crescent","CEO, Microbiome Health Centre","executive","v"]]},
+  {id:"johan_surani", n:"Johan Surani", t:2, p:58, s:"conglomerate", roles:[
+    ["crescent","Director, CE-Operates","executive","v"]]},
+  {id:"razan_jafar", n:"Razan Jafar", t:2, p:58, s:"energy", roles:[
+    ["crescentpet","Director","executive","v"]]},
+  {id:"abdulla_al_qadi", n:"Abdulla Al-Qadi", t:2, p:62, s:"energy", roles:[
+    ["crescentpet","Country Chair, Iraq & MD, Diyala & Basra; Executive Director, Business Development","executive","v"]]},
+  {id:"mohammad_e_makkawi", n:"Mohammad E. Makkawi", t:2, p:58, s:"energy", roles:[
+    ["crescentpet","Executive Director, Projects","executive","v"]]},
+  {id:"drazen_petkovich", n:"Drazen Petkovich", t:2, p:58, s:"energy", roles:[
+    ["crescentpet","Executive Director, Legal","executive","v"]]},
+  {id:"thomas_s_watts", n:"Thomas S. Watts", t:2, p:58, s:"energy", roles:[
+    ["crescentpet","Executive Director, Projects","executive","v"]]},
+  {id:"narik_basmajian", n:"Narik Basmajian", t:2, p:58, s:"energy", roles:[
+    ["crescentpet","Executive Director, Projects & Commercial","executive","v"]]},
+  {id:"nicholas_whiteley", n:"Nicholas Whiteley", t:2, p:58, s:"energy", roles:[
+    ["crescentpet","Executive Director, Upstream","executive","v"]]},
+  {id:"sheikh_abdullah_bin", n:"Sheikh Abdullah Bin Mohamed Al Thani", t:2, p:62, s:"industry", roles:[
+    ["airarabia","Chairman","board","v"]]},
+  {id:"sheikh_mohammed_bin", n:"Sheikh Mohammed Bin Abdullah Al Thani", t:2, p:52, s:"industry", roles:[
+    ["airarabia","Board Member","board","v"]]},
+  {id:"sheikh_khalid_bin", n:"Sheikh Khalid Bin Issam Al Qassimi", t:2, p:52, s:"industry", roles:[
+    ["airarabia","Independent Director","board","v"]]},
+  {id:"waleed_al_sayegh", n:"Waleed Al Sayegh", t:2, p:52, s:"industry", roles:[
+    ["airarabia","Independent Member","board","v"]]},
+  {id:"matar_al_blooshi", n:"Matar Al Blooshi", t:2, p:52, s:"industry", roles:[
+    ["airarabia","Independent Member","board","v"]]},
+  {id:"dr_ohoud_shehail", n:"Dr. Ohoud Shehail", t:2, p:52, s:"industry", roles:[
+    ["airarabia","Independent Member","board","v"]]},
+  {id:"mohamed_omran_alshamsi", n:"Mohamed Omran Alshamsi", t:2, p:62, s:"finance", roles:[
+    ["rakbank","Chairman","board","v"]]},
+  {id:"h_h_shaikha", n:"H.H. Shaikha Amneh Al Qasimi", t:2, p:62, s:"finance", roles:[
+    ["rakbank","Vice Chair","board","v"]]},
+  {id:"salem_ali_al", n:"Salem Ali Al Sharhan", t:2, p:52, s:"finance", roles:[
+    ["rakbank","Board Member","board","v"]]},
+  {id:"stephen_monaghan", n:"Stephen Monaghan", t:2, p:52, s:"finance", roles:[
+    ["rakbank","Board Member","board","v"]]},
+  {id:"jonathan_edward_morris", n:"Jonathan Edward Morris", t:2, p:52, s:"finance", roles:[
+    ["rakbank","Board Member","board","v"]]},
+  {id:"abhijit_choudhury", n:"Abhijit Choudhury", t:2, p:52, s:"finance", roles:[
+    ["rakbank","Board Member","board","v"]]},
+  {id:"debra_ward", n:"Debra Ward", t:2, p:52, s:"finance", roles:[
+    ["rakbank","Board Member","board","v"]]},
+  {id:"mohammed_abdulrahman_aljalla", n:"Mohammed Abdulrahman Aljallaf", t:2, p:52, s:"finance", roles:[
+    ["rakbank","Board Member","board","v"]]},
+  {id:"sheikh_abdulla_khalid", n:"Sheikh Abdulla Khalid Al Qassimi", t:2, p:52, s:"finance", roles:[
+    ["rakbank","Board Member","board","v"]]},
+  {id:"jaffer_nini", n:"Jaffer Nini", t:2, p:58, s:"finance", roles:[
+    ["rakbank","Chief Financial Officer","executive","v"]]},
+  {id:"mridul_baberwal", n:"Mridul Baberwal", t:2, p:58, s:"finance", roles:[
+    ["rakbank","Deputy Chief Financial Officer","executive","v"]]},
+  {id:"michael_power", n:"Michael Power", t:2, p:58, s:"finance", roles:[
+    ["rakbank","Chief Operating Officer","executive","v"]]},
+  {id:"saket_saith", n:"Saket Saith", t:2, p:58, s:"finance", roles:[
+    ["rakbank","Chief Technology & Data Officer","executive","v"]]},
+  {id:"nizar_luqman", n:"Nizar Luqman", t:2, p:58, s:"finance", roles:[
+    ["rakbank","Group Chief Audit Officer","executive","v"]]},
+  {id:"hh_sheikha_jawaher", n:"HH Sheikha Jawaher Bint Mohammed Al Qasimi", t:2, p:62, s:"industry", roles:[
+    ["beeah","Chairperson of the Board of Directors","board","v"]]},
+  {id:"obaid_saeed_al", n:"Obaid Saeed Al Tunaiji", t:2, p:62, s:"industry", roles:[
+    ["beeah","Second Vice-Chairman","board","v"]]},
+  {id:"khalifa_al_suwaidi", n:"Khalifa Al Suwaidi", t:2, p:52, s:"industry", roles:[
+    ["beeah","Board Member","board","v"]]},
+  {id:"sara_al_nuaimi", n:"Sara Al Nuaimi", t:2, p:52, s:"industry", roles:[
+    ["beeah","Board Member","board","v"]]},
+  {id:"fahad_shehail", n:"Fahad Shehail", t:2, p:60, s:"industry", roles:[
+    ["beeah","CEO - Environment","executive","v"]]},
+  {id:"zouheir_sabra", n:"Zouheir Sabra", t:2, p:60, s:"industry", roles:[
+    ["beeah","CEO - Capital","executive","v"]]},
+  {id:"nada_taryam", n:"Nada Taryam", t:2, p:60, s:"industry", roles:[
+    ["beeah","CEO - Real Estate","executive","v"]]},
+  {id:"hind_al_huwaidi", n:"Hind Al Huwaidi", t:2, p:60, s:"industry", roles:[
+    ["beeah","Chief Executive Development Officer","executive","v"]]},
+  {id:"firas_wahbeh", n:"Firas Wahbeh", t:2, p:58, s:"industry", roles:[
+    ["beeah","Chief Brand Officer","executive","v"]]},
+  {id:"rafael_sanjurjo_lopez", n:"Rafael Sanjurjo Lopez", t:2, p:58, s:"industry", roles:[
+    ["beeah","CEO, Waste Collection & City Cleaning","executive","v"]]},
+  {id:"daker_rabaya", n:"Daker Rabaya", t:2, p:58, s:"industry", roles:[
+    ["beeah","CEO, Waste Processing & Recycling","executive","v"]]},
+  {id:"mohamed_al_hosani", n:"Mohamed Al Hosani", t:2, p:58, s:"industry", roles:[
+    ["beeah","Chief Sustainability Officer","executive","v"]]},
+  {id:"fadi_sidani", n:"Fadi Sidani", t:2, p:58, s:"industry", roles:[
+    ["beeah","Chief Governance Officer","executive","v"]]},
+  {id:"shaun_johnson", n:"Shaun Johnson", t:2, p:58, s:"industry", roles:[
+    ["beeah","Chief Legal Officer","executive","v"]]},
+  {id:"usman_tareen", n:"Usman Tareen", t:2, p:58, s:"industry", roles:[
+    ["beeah","Chief Financial Officer","executive","v"]]},
+  {id:"azza_salem_al", n:"Azza Salem Al Qaseer", t:2, p:58, s:"industry", roles:[
+    ["beeah","Chief Marketing Officer","executive","v"]]},
+  {id:"nasir_al_shamsi", n:"Nasir Al Shamsi", t:2, p:58, s:"industry", roles:[
+    ["beeah","Chief Transport Officer","executive","v"]]},
+  {id:"mostafa_hassan", n:"Mostafa Hassan", t:2, p:58, s:"industry", roles:[
+    ["beeah","Chief Audit Officer","executive","v"]]},
+  {id:"hrh_prince_khaled", n:"HRH Prince Khaled bin Alwaleed bin Talal", t:2, p:62, s:"realestate", roles:[
+    ["arada","Executive Vice Chairman","board","v"]]},
+  {id:"ahmed_alkhoshaibi", n:"Ahmed Alkhoshaibi", t:2, p:60, s:"realestate", roles:[
+    ["arada","Group Chief Executive Officer","executive","v"]]},
+  {id:"shimmy_mathew", n:"Shimmy Mathew", t:2, p:58, s:"realestate", roles:[
+    ["arada","Group Chief Financial Officer","executive","v"]]},
+  {id:"michelle_hancic", n:"Michelle Hancic", t:2, p:58, s:"realestate", roles:[
+    ["arada","Group Chief People Officer","executive","v"]]},
+  {id:"frank_durrell", n:"Frank Durrell", t:2, p:58, s:"realestate", roles:[
+    ["arada","Group Chief Marketing Officer","executive","v"]]},
+  {id:"elie_mrad", n:"Elie Mrad", t:2, p:58, s:"realestate", roles:[
+    ["arada","Chief Architectural Officer","executive","v"]]},
+  {id:"amit_arora", n:"Amit Arora", t:2, p:58, s:"realestate", roles:[
+    ["arada","Chief Operating Officer - Hospitality and Entertainment","executive","v"]]},
+  {id:"edward_attwood", n:"Edward Attwood", t:2, p:58, s:"realestate", roles:[
+    ["arada","Chief Communications Officer","executive","v"]]},
+  {id:"sameer_kulkarni", n:"Sameer Kulkarni", t:2, p:58, s:"realestate", roles:[
+    ["arada","Chief Community Officer","executive","v"]]},
+  {id:"mayank_bhargava", n:"Mayank Bhargava", t:2, p:58, s:"realestate", roles:[
+    ["arada","Chief Information Officer","executive","v"]]},
+  {id:"farhan_kafil", n:"Farhan Kafil", t:2, p:58, s:"realestate", roles:[
+    ["arada","Chief Commercial Officer","executive","v"]]},
+  {id:"rana_mattar", n:"Rana Mattar", t:2, p:58, s:"realestate", roles:[
+    ["arada","Chief Legal Officer","executive","v"]]},
+  {id:"rosa_piro", n:"Rosa Piro", t:2, p:58, s:"realestate", roles:[
+    ["arada","Chief Investment Officer","executive","v"]]},
+  {id:"atul_goel", n:"Atul Goel", t:2, p:58, s:"realestate", roles:[
+    ["arada","Chief Capital Officer","executive","v"]]},
+  {id:"moustafa_fahour_oam", n:"Moustafa Fahour OAM", t:2, p:60, s:"realestate", roles:[
+    ["arada","CEO and Managing Director, Arada Capital","executive","v"]]},
+  {id:"feras_al_naimi", n:"Feras Al Naimi", t:2, p:60, s:"realestate", roles:[
+    ["arada","Chief Executive Officer - Nexus","executive","v"]]},
 ];
 
 const OWNERSHIP = [

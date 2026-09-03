@@ -425,6 +425,76 @@ const PEOPLE = [
     ["nakilat","Chief Financial Officer","executive","v"]]},
   {id:"samir_bailouni", n:"Samir Bailouni", t:2, p:58, s:"energy", roles:[
     ["nakilat","Chief Operating Officer (Fleet)","executive","v"]]},
+  {id:"khalid_mohammed_al", n:"Khalid Mohammed Al-Hitmi", t:2, p:46, s:"energy", roles:[
+    ["qatarenergy","Executive VP - Subsurface Development and Exploration","executive","v"]]},
+  {id:"jassim_mohd_al", n:"Jassim Mohd Al-Marzouqi", t:2, p:46, s:"energy", roles:[
+    ["qatarenergy","Executive VP - Commercial and Business Development","executive","v"]]},
+  {id:"mohamed_salem_al", n:"Mohamed Salem Al-Marri", t:2, p:46, s:"energy", roles:[
+    ["qatarenergy","Executive VP - Projects Engineering and Procurement Services","executive","v"]]},
+  {id:"abdulrahman_ahmad_al", n:"Abdulrahman Ahmad Al-Shaibi", t:2, p:46, s:"energy", roles:[
+    ["qatarenergy","Executive VP - Finance and Planning","executive","v"]]},
+  {id:"ahmad_saeed_al", n:"Ahmad Saeed Al-Amoodi", t:2, p:46, s:"energy", roles:[
+    ["qatarenergy","Executive VP - Surface Development and Sustainability","executive","v"]]},
+  {id:"nabeel_mohammed_al", n:"Nabeel Mohammed Al-Buenain", t:2, p:46, s:"energy", roles:[
+    ["qatarenergy","Executive VP - HSE and Business Services","executive","v"]]},
+  {id:"mohammed_essa_al", n:"Mohammed Essa Al-Mannai", t:2, p:58, s:"energy", roles:[
+    ["qatarenergy","General Counsel and Board Secretary","executive","v"]]},
+  {id:"ali_nasser_telfat", n:"Ali Nasser Telfat", t:2, p:60, s:"energy", roles:[
+    ["qatarenergy","Corporate Manager - CEO Office","executive","v"]]},
+  {id:"homoud_fahad_al", n:"Homoud Fahad Al-Qahtani", t:2, p:46, s:"energy", roles:[
+    ["qatarenergy","Executive VP - Industrial Cities","executive","ns"]]},
+  {id:"kevin_zhu", n:"Kevin Zhu", t:2, p:58, s:"sovereign", roles:[
+    ["qia","Acting Chief of Investment Strategy","executive","v"]]},
+  {id:"rashid_saad_al", n:"Rashid Saad Al-Mohannadi", t:2, p:58, s:"sovereign", roles:[
+    ["qia","Executive Director of Human Capital","executive","v"]]},
+  {id:"abdulla_ali_al", n:"Abdulla Ali Al-Kuwari", t:2, p:46, s:"sovereign", roles:[
+    ["qia","Head of Industrials","executive","v"]]},
+  {id:"abdulla_ali_al_b", n:"Abdulla Ali Al-Marri", t:2, p:46, s:"sovereign", roles:[
+    ["qia","Head of QIA Advisory (Asia Pacific)","executive","v"]]},
+  {id:"abdulla_ali", n:"Abdulla Ali", t:2, p:58, s:"industry", roles:[
+    ["qatarairways","Chief Operating Officer","executive","v"]]},
+  {id:"calum_laming", n:"Calum Laming", t:2, p:58, s:"industry", roles:[
+    ["qatarairways","Chief Customer Officer","executive","v"]]},
+  {id:"abdulrahman_m_al", n:"Abdulrahman M. Al-Suwaidi", t:2, p:60, s:"materials", roles:[
+    ["industriesqatar","Board Director; MD & CEO of QAFCO","executive","v"]]},
+  {id:"ahmed_abdulqader_al", n:"Ahmed Abdulqader Al-Ahmed", t:2, p:60, s:"materials", roles:[
+    ["industriesqatar","Board Director; CEO of QAFAC","executive","v"]]},
+  {id:"faisal_al_malki", n:"Faisal Al Malki", t:2, p:58, s:"realestate", roles:[
+    ["msheireb","Chief Operating Officer","executive","v"]]},
+  {id:"dr_hafiz_ali", n:"Dr. Hafiz Ali Abdulla", t:2, p:58, s:"realestate", roles:[
+    ["msheireb","Senior Director of Corporate Communication","executive","v"]]},
+  {id:"ali_hilal_al", n:"Ali Hilal Al Kuwari", t:2, p:60, s:"consumer_stap", roles:[
+    ["hassad","Chief Executive Officer","executive","v"]]},
+  {id:"mohamed_al_mohannadi", n:"Mohamed Al-Mohannadi", t:2, p:58, s:"consumer_stap", roles:[
+    ["hassad","Chief Operating Officer","executive","v"]]},
+  {id:"jose_angel_iralde", n:"Jose Angel Iralde", t:2, p:58, s:"consumer_stap", roles:[
+    ["hassad","Chief Strategy Officer","executive","v"]]},
+  {id:"fahad_ahmed_al", n:"Fahad Ahmed Al-khalaqi", t:2, p:58, s:"consumer_stap", roles:[
+    ["hassad","Chief Financial Officer","executive","v"]]},
+  {id:"mubarak_rashid_al", n:"Mubarak Rashid Al-Sahuti", t:2, p:58, s:"consumer_stap", roles:[
+    ["hassad","Chief Communication & Commercial Affairs Officer","executive","v"]]},
+  {id:"khalifa_al_kuwari", n:"Khalifa Al-Kuwari", t:2, p:58, s:"consumer_stap", roles:[
+    ["hassad","Director - Shared Services Affairs","executive","v"]]},
+  {id:"imran_sami", n:"Imran Sami", t:2, p:58, s:"consumer_stap", roles:[
+    ["hassad","General Counsel","executive","v"]]},
+  {id:"amer_morgan", n:"Amer Morgan", t:2, p:58, s:"consumer_stap", roles:[
+    ["hassad","Chief Internal Auditor","executive","v"]]},
+  {id:"mohamed_al_kubaisi", n:"Mohamed Al-Kubaisi", t:2, p:46, s:"consumer_stap", roles:[
+    ["hassad","General Manager - Aswaq","executive","v"]]},
+  {id:"naser_arikat", n:"Naser Arikat", t:2, p:58, s:"consumer_stap", roles:[
+    ["hassad","Director of Agriculture","executive","v"]]},
+  {id:"mohammed_khalifa_al", n:"Mohammed Khalifa Al-Jalahma", t:2, p:62, s:"consumer_stap", roles:[
+    ["hassad","Chairman","board","v"]]},
+  {id:"hassan_sultan_al", n:"Hassan Sultan Al-Ghanim", t:2, p:62, s:"consumer_stap", roles:[
+    ["hassad","Vice Chairman","board","v"]]},
+  {id:"fahad_mohmmed_al", n:"Fahad Mohmmed Al-Qahtani", t:2, p:52, s:"consumer_stap", roles:[
+    ["hassad","Board Member","board","v"]]},
+  {id:"jassim_mohammed_al", n:"Jassim Mohammed Al Ansari", t:2, p:52, s:"consumer_stap", roles:[
+    ["hassad","Board Member","board","v"]]},
+  {id:"fatma_hamad_al", n:"Fatma Hamad Al-Misnad", t:2, p:52, s:"consumer_stap", roles:[
+    ["hassad","Board Member","board","v"]]},
+  {id:"fahad_ali_al", n:"Fahad Ali Al-Kuwari", t:2, p:52, s:"consumer_stap", roles:[
+    ["hassad","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

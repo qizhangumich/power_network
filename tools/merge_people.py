@@ -33,14 +33,31 @@ def slug(name):
     parts = s.split("_")
     return "_".join(parts[:3])[:28] or "person"
 
+CSUITE = ("chief", "ceo", "cfo", "coo", "cto", "cio", "managing director",
+          "president", "general counsel", "group treasurer", "secretary general",
+          "director general", "governor")
+MIDMGMT = ("vice president", "vice-president", "svp", "evp", " vp ", "head of",
+           "director of", "general manager", "senior director", "country manager",
+           "regional manager", "senior manager")
+
 def power_for(rows):
-    p = 52
+    """Chair 62 > CEO/MD 60 > C-suite 58 > board 52 > middle management 46.
+    Middle managers (<56) stay in the progressive-disclosure layer — visible
+    when their company is focused or 'Board & staff level' is on."""
+    p = 0
     for r in rows:
-        t = r["title"].lower()
-        if r["role_type"] == "executive": p = max(p, 58)
+        t = " " + r["title"].lower() + " "
+        if r["role_type"] == "board":
+            p = max(p, 52)
+        elif any(k in t for k in CSUITE):
+            p = max(p, 58)
+        elif any(k in t for k in MIDMGMT):
+            p = max(p, 46)
+        else:
+            p = max(p, 58)          # untyped executive title: assume senior
         if "chair" in t: p = max(p, 62)
-        if "ceo" in t or "managing director" in t: p = max(p, 60)
-    return p
+        if " ceo " in t or "chief executive" in t or "managing director" in t: p = max(p, 60)
+    return p or 52
 
 def main():
     staged = sorted((ROOT / "data").glob("board_additions_*.csv"))

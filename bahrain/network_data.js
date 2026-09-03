@@ -222,6 +222,107 @@ const PEOPLE = [
     ["alba","Board Member","board","v"]]},
   {id:"hala_abdul_hameed", n:"Hala Abdul Hameed Mufeez", t:2, p:52, s:"materials", roles:[
     ["alba","Board Member","board","v"]]},
+  {id:"mark_horncastle", n:"Mark Horncastle", t:2, p:60, s:"finance", roles:[
+    ["investcorp","General Counsel (Managing Director)","executive","v"]]},
+  {id:"abbas_rizvi", n:"Abbas Rizvi", t:2, p:58, s:"finance", roles:[
+    ["investcorp","Group Chief Financial Officer","executive","v"]]},
+  {id:"dave_tayeh", n:"Dave Tayeh", t:2, p:58, s:"finance", roles:[
+    ["investcorp","Leader - Private Equity","executive","v"]]},
+  {id:"herb_myers", n:"Herb Myers", t:2, p:58, s:"finance", roles:[
+    ["investcorp","Co-leader - Real Assets","executive","v"]]},
+  {id:"mike_o_brien", n:"Mike O'Brien", t:2, p:58, s:"finance", roles:[
+    ["investcorp","Co-leader - Real Assets","executive","v"]]},
+  {id:"jeremy_ghose", n:"Jeremy Ghose", t:2, p:58, s:"finance", roles:[
+    ["investcorp","Leader - Credit","executive","v"]]},
+  {id:"yusef_al_yusef", n:"Yusef Al-Yusef", t:2, p:58, s:"finance", roles:[
+    ["investcorp","Leader - Global Distribution Platform","executive","v"]]},
+  {id:"shaikh_abdulla_bin", n:"Shaikh Abdulla bin Khalifa Al Khalifa", t:2, p:62, s:"comm", roles:[
+    ["beyon","Chairman","board","v"],
+    ["mumtalakat","Chief Executive Officer","executive","v"]]},
+  {id:"shaikh_ali_bin", n:"Shaikh Ali bin Khalifa Al Khalifa", t:2, p:62, s:"comm", roles:[
+    ["beyon","Deputy Chairman","board","v"]]},
+  {id:"maha_khaled_abdulrahman", n:"Maha Khaled Abdulrahman", t:2, p:52, s:"comm", roles:[
+    ["beyon","Independent Non-Executive Director","board","v"]]},
+  {id:"fatema_ghazi_alarayedh", n:"Fatema Ghazi Alarayedh", t:2, p:52, s:"comm", roles:[
+    ["beyon","Director","board","v"]]},
+  {id:"brig_gen_waleed", n:"Brig. Gen. Waleed Bin Hindi", t:2, p:52, s:"comm", roles:[
+    ["beyon","Director","board","v"]]},
+  {id:"abdulla_abdulrazaq_bukhowa", n:"Abdulla Abdulrazaq Bukhowa", t:2, p:52, s:"comm", roles:[
+    ["beyon","Director","board","v"]]},
+  {id:"abdulla_ahmed_kamal", n:"Abdulla Ahmed Kamal", t:2, p:52, s:"comm", roles:[
+    ["beyon","Director","board","v"]]},
+  {id:"ahmad_mazhar", n:"Ahmad Mazhar", t:2, p:58, s:"comm", roles:[
+    ["beyon","Director","board","v"],
+    ["mumtalakat","Executive Director - International Investments","executive","v"]]},
+  {id:"sambamurthy_natarajan", n:"Sambamurthy Natarajan", t:2, p:52, s:"comm", roles:[
+    ["beyon","Director","board","v"]]},
+  {id:"saleh_romeih", n:"Saleh Romeih", t:2, p:52, s:"comm", roles:[
+    ["beyon","Director","board","v"]]},
+  {id:"reem_altajer", n:"Reem Altajer", t:2, p:58, s:"comm", roles:[
+    ["beyon","Chief Financial Officer","executive","v"]]},
+  {id:"maitham_abdulla", n:"Maitham Abdulla", t:2, p:60, s:"comm", roles:[
+    ["beyon","CEO - Batelco by Beyon","executive","v"]]},
+  {id:"shaikh_mohamed_bin", n:"Shaikh Mohamed bin Khalifa Al Khalifa", t:2, p:60, s:"comm", roles:[
+    ["beyon","CEO - Beyon Digital Growth","executive","v"]]},
+  {id:"shaikh_bader_bin", n:"Shaikh Bader bin Rashid Al Khalifa", t:2, p:58, s:"comm", roles:[
+    ["beyon","Chief Communications & Sustainability Officer","executive","v"]]},
+  {id:"faisal_al_jalahma", n:"Faisal Al Jalahma", t:2, p:58, s:"comm", roles:[
+    ["beyon","Chief Human Resources Officer","executive","v"]]},
+  {id:"jehan_hasan", n:"Jehan Hasan", t:2, p:58, s:"comm", roles:[
+    ["beyon","Chief Strategy Officer","executive","v"]]},
+  {id:"miguel_angel_fuentes", n:"Miguel-Angel Fuentes", t:2, p:58, s:"comm", roles:[
+    ["beyon","General Counsel","executive","v"]]},
+  {id:"rashed_mohamed", n:"Rashed Mohamed", t:2, p:58, s:"comm", roles:[
+    ["beyon","Chief Technology Officer","executive","v"]]},
+  {id:"buddhadeb_samanta", n:"Buddhadeb Samanta", t:2, p:58, s:"comm", roles:[
+    ["beyon","Chief of Internal Audit","executive","v"]]},
+  {id:"shaikh_mohamed_bin_b", n:"Shaikh Mohamed bin Isa Al Khalifa", t:2, p:52, s:"sovereign", roles:[
+    ["mumtalakat","Board Member","board","v"]]},
+  {id:"hamad_bin_faisal", n:"Hamad bin Faisal Al Malki", t:2, p:52, s:"sovereign", roles:[
+    ["mumtalakat","Board Member (Minister of Cabinet Affairs)","board","v"]]},
+  {id:"dr_samer_aljishi", n:"Dr. Samer Aljishi", t:2, p:52, s:"sovereign", roles:[
+    ["mumtalakat","Board Member","board","v"]]},
+  {id:"elham_hasan", n:"Elham Hasan", t:2, p:52, s:"sovereign", roles:[
+    ["mumtalakat","Board Member","board","v"]]},
+  {id:"khalid_hussain_taqi", n:"Khalid Hussain Taqi", t:2, p:62, s:"sovereign", roles:[
+    ["mumtalakat","Managing Director - Local Investments","executive","v"],
+    ["gulfair","Chairman","board","v"]]},
+  {id:"suha_karzoon", n:"Suha Karzoon", t:2, p:60, s:"sovereign", roles:[
+    ["mumtalakat","Managing Director - Finance & Technology","executive","v"]]},
+  {id:"marwa_al_saad", n:"Marwa Al Saad", t:2, p:60, s:"sovereign", roles:[
+    ["mumtalakat","Managing Director - Human Capital","executive","v"]]},
+  {id:"husain_alqaseer", n:"Husain AlQaseer", t:2, p:58, s:"sovereign", roles:[
+    ["mumtalakat","Executive Director - Local Investments","executive","v"]]},
+  {id:"noor_sharafi", n:"Noor Sharafi", t:2, p:58, s:"sovereign", roles:[
+    ["mumtalakat","General Counsel","executive","v"]]},
+  {id:"shaikh_fahad_bin", n:"Shaikh Fahad bin Abdulrahman Al Khalifa", t:2, p:52, s:"industry", roles:[
+    ["gulfair","Board Member","board","v"]]},
+  {id:"sara_ahmed_buhiji", n:"Sara Ahmed Buhiji", t:2, p:52, s:"industry", roles:[
+    ["gulfair","Board Member","board","v"]]},
+  {id:"faisal_ali_al", n:"Faisal Ali Al Jalahma", t:2, p:52, s:"industry", roles:[
+    ["gulfair","Board Member","board","v"]]},
+  {id:"alaa_abdulkhaleq_saeed", n:"Alaa Abdulkhaleq Saeed", t:2, p:52, s:"industry", roles:[
+    ["gulfair","Board Member","board","v"]]},
+  {id:"sael_al_waary", n:"Sael Al Waary", t:2, p:52, s:"industry", roles:[
+    ["gulfair","Board Member","board","v"]]},
+  {id:"julia_simpson", n:"Julia Simpson", t:2, p:52, s:"industry", roles:[
+    ["gulfair","Board Member","board","v"]]},
+  {id:"captain_qasim_albastaki", n:"Captain Qasim AlBastaki", t:2, p:58, s:"industry", roles:[
+    ["gulfair","Chief Operating Officer","executive","v"]]},
+  {id:"mazin_saleh", n:"Mazin Saleh", t:2, p:58, s:"industry", roles:[
+    ["gulfair","Chief Technical Officer","executive","v"]]},
+  {id:"ahmed_naeemi", n:"Ahmed Naeemi", t:2, p:58, s:"industry", roles:[
+    ["gulfair","Chief Information Officer","executive","v"]]},
+  {id:"mohamed_matar", n:"Mohamed Matar", t:2, p:58, s:"industry", roles:[
+    ["gulfair","Chief People Officer","executive","v"]]},
+  {id:"hasan_al_sharaf", n:"Hasan Al Sharaf", t:2, p:58, s:"industry", roles:[
+    ["gulfair","Chief Financial Officer","executive","v"]]},
+  {id:"fahad_almudhahka", n:"Fahad Almudhahka", t:2, p:58, s:"industry", roles:[
+    ["gulfair","Chief Corporate Affairs Officer","executive","v"]]},
+  {id:"jenan_alaskari", n:"Jenan Alaskari", t:2, p:58, s:"industry", roles:[
+    ["gulfair","Senior Vice President - Corporate Communications","executive","v"]]},
+  {id:"buthaina_traif", n:"Buthaina Traif", t:2, p:58, s:"industry", roles:[
+    ["gulfair","Senior Vice President - Network Strategy & Partnerships","executive","v"]]},
 ];
 
 const OWNERSHIP = [

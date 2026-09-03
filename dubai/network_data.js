@@ -327,6 +327,270 @@ const PEOPLE = [
     ["dpworld","CEO, Drydocks World","executive","v"]]},
   {id:"pradeep_desai", n:"Pradeep Desai", t:2, p:58, s:"industry", roles:[
     ["dpworld","Group Chief Technology Officer","executive","v"]]},
+  {id:"adel_ahmad_al", n:"Adel Ahmad Al Redha", t:2, p:58, s:"industry", roles:[
+    ["emirates","Deputy President & Chief Operations Officer","executive","v"]]},
+  {id:"adnan_kazim", n:"Adnan Kazim", t:2, p:58, s:"industry", roles:[
+    ["emirates","Deputy President & Chief Commercial Officer","executive","v"]]},
+  {id:"ali_mubarak_al", n:"Ali Mubarak Al Soori", t:2, p:58, s:"industry", roles:[
+    ["emirates","Chief Procurement and Facilities Officer","executive","v"]]},
+  {id:"ahmed_safa", n:"Ahmed Safa", t:2, p:46, s:"industry", roles:[
+    ["emirates","Head of Engineering and MRO","executive","v"]]},
+  {id:"badr_abbas", n:"Badr Abbas", t:2, p:58, s:"industry", roles:[
+    ["emirates","Divisional Senior Vice President Emirates SkyCargo","executive","v"]]},
+  {id:"mark_burtonwood", n:"Mark Burtonwood", t:2, p:58, s:"industry", roles:[
+    ["emirates","Divisional Senior Vice President Group Safety and Network Operations","executive","v"]]},
+  {id:"mostafa_karam", n:"Mostafa Karam", t:2, p:58, s:"industry", roles:[
+    ["emirates","Divisional Senior Vice President Customer Affairs and Service Audit","executive","v"]]},
+  {id:"yousuf_mohammad_ali", n:"Yousuf Mohammad Ali", t:2, p:58, s:"industry", roles:[
+    ["emirates","Divisional Senior Vice President Group Procurement and Logistics","executive","v"]]},
+  {id:"david_broz", n:"David Broz", t:2, p:58, s:"industry", roles:[
+    ["emirates","Senior Vice President Aeropolitical and Airline Industry Affairs","executive","v"]]},
+  {id:"devarajan_srinivasan", n:"Devarajan Srinivasan", t:2, p:58, s:"industry", roles:[
+    ["emirates","Senior Vice President Facilities and Asset Management","executive","v"]]},
+  {id:"mahmood_al_khaja", n:"Mahmood Al Khaja", t:2, p:58, s:"industry", roles:[
+    ["emirates","Senior Vice President Material Management and Repairs","executive","v"]]},
+  {id:"will_lofberg", n:"Will Lofberg", t:2, p:58, s:"industry", roles:[
+    ["emirates","Senior Vice President International and Government Affairs","executive","v"]]},
+  {id:"shahreyar_nawabi", n:"Shahreyar Nawabi", t:2, p:60, s:"industry", roles:[
+    ["emirates","Chief Executive Officer Emirates Flight Catering","executive","v"]]},
+  {id:"mahmood_ameen", n:"Mahmood Ameen", t:2, p:58, s:"industry", roles:[
+    ["emirates","Divisional Senior Vice President Engineering Projects and Aircraft Procurement","executive","v"]]},
+  {id:"olivier_schwartz", n:"Olivier Schwartz", t:2, p:58, s:"industry", roles:[
+    ["dpworld","Group Chief Legal Officer & General Counsel","executive","v"]]},
+  {id:"smael_auam", n:"Smael Auam", t:2, p:58, s:"industry", roles:[
+    ["dpworld","Group Chief People Officer","executive","v"]]},
+  {id:"marwan_al_jassmi", n:"Marwan Al Jassmi", t:2, p:58, s:"industry", roles:[
+    ["dpworld","Executive Vice President - People & Sustainability, DP World GCC","executive","v"]]},
+  {id:"daniel_van_otterdijk", n:"Daniel Van Otterdijk", t:2, p:58, s:"industry", roles:[
+    ["dpworld","Group Chief Communications & Government Relations Officer","executive","v"]]},
+  {id:"faisal_arekat", n:"Faisal Arekat", t:2, p:58, s:"industry", roles:[
+    ["dpworld","Group Company Secretary & Chief Governance Officer","executive","v"]]},
+  {id:"saoud_alshaikh", n:"Saoud Alshaikh", t:2, p:46, s:"realestate", roles:[
+    ["emaar","Group Head of Internal Audit","executive","v"]]},
+  {id:"mohamed_al_matrooshi", n:"Mohamed Al Matrooshi", t:2, p:46, s:"realestate", roles:[
+    ["emaar","Head of Emaar Malls & Entertainment","executive","v"]]},
+  {id:"mohammed_al_sahlawi", n:"Mohammed Al Sahlawi", t:2, p:46, s:"realestate", roles:[
+    ["emaar","Head of Finance, Emaar Malls Management","executive","v"]]},
+  {id:"hakan_keskin", n:"Hakan Keskin", t:2, p:46, s:"realestate", roles:[
+    ["emaar","Head of Hospitality, Emaar Hospitality Group","executive","v"]]},
+  {id:"elie_dibo", n:"Elie Dibo", t:2, p:58, s:"realestate", roles:[
+    ["emaar","Chief Financial Officer, Emaar Hospitality Group","executive","v"]]},
+  {id:"ahmed_abdelaal", n:"Ahmed Abdelaal", t:2, p:60, s:"finance", roles:[
+    ["mashreq","Group Chief Executive Officer","executive","v"]]},
+  {id:"norman_tambach", n:"Norman Tambach", t:2, p:58, s:"finance", roles:[
+    ["mashreq","Group Chief Financial Officer","executive","v"]]},
+  {id:"anuratna_chadha", n:"Anuratna Chadha", t:2, p:58, s:"finance", roles:[
+    ["mashreq","Group Chief Risk Officer","executive","v"]]},
+  {id:"marouf_mohamed_shweikeh", n:"Marouf Mohamed Shweikeh", t:2, p:58, s:"finance", roles:[
+    ["mashreq","Group General Counsel","executive","v"]]},
+  {id:"mohamed_abdel_razek", n:"Mohamed Abdel Razek", t:2, p:46, s:"finance", roles:[
+    ["mashreq","Group Head of Technology, Transformation & Information","executive","v"]]},
+  {id:"vivek_batra", n:"Vivek Batra", t:2, p:46, s:"finance", roles:[
+    ["mashreq","Global Head of Transaction Banking","executive","v"]]},
+  {id:"jyothi_bathula", n:"Jyothi Bathula", t:2, p:60, s:"finance", roles:[
+    ["mashreq","Global Head of Mashreq Global Network (MGN) & Managing Director of MGN India","executive","v"]]},
+  {id:"ahmad_al_khallafi", n:"Ahmad Al Khallafi", t:2, p:52, s:"finance", roles:[
+    ["mashreq","Director (Board of Directors)","board","v"]]},
+  {id:"saeed_saif_al", n:"Saeed Saif Al Ghurair", t:2, p:52, s:"finance", roles:[
+    ["mashreq","Director (Board of Directors)","board","v"]]},
+  {id:"rashed_saif_ahmed", n:"Rashed Saif Ahmed Al Ghurair", t:2, p:52, s:"finance", roles:[
+    ["mashreq","Director (Board of Directors)","board","v"]]},
+  {id:"mariam_ghobash", n:"Mariam Ghobash", t:2, p:52, s:"finance", roles:[
+    ["mashreq","Director (Board of Directors)","board","v"]]},
+  {id:"john_iossifidis", n:"John Iossifidis", t:2, p:52, s:"finance", roles:[
+    ["mashreq","Director (Board of Directors)","board","v"]]},
+  {id:"iyad_malas", n:"Iyad Malas", t:2, p:52, s:"finance", roles:[
+    ["mashreq","Director (Board of Directors)","board","v"],
+    ["maf","Non-Executive Director","board","v"]]},
+  {id:"saleem_alblooshi", n:"Saleem Alblooshi", t:2, p:58, s:"comm", roles:[
+    ["du","Chief Technology Officer","executive","v"]]},
+  {id:"kais_ben_hamida", n:"Kais Ben Hamida", t:2, p:58, s:"comm", roles:[
+    ["du","Chief Financial Officer","executive","v"]]},
+  {id:"jasim_alawadi", n:"Jasim AlAwadi", t:2, p:58, s:"comm", roles:[
+    ["du","Chief ICT Officer","executive","v"]]},
+  {id:"karim_benkirane", n:"Karim Benkirane", t:2, p:58, s:"comm", roles:[
+    ["du","Chief Commercial Officer","executive","v"]]},
+  {id:"hanan_ahmad", n:"Hanan Ahmad", t:2, p:58, s:"comm", roles:[
+    ["du","Chief Regulatory & Shared Services Officer","executive","v"]]},
+  {id:"diego_camberos", n:"Diego Camberos", t:2, p:58, s:"comm", roles:[
+    ["du","Chief Customer & Channels Officer","executive","v"]]},
+  {id:"dimitris_lioulias", n:"Dimitris Lioulias", t:2, p:58, s:"comm", roles:[
+    ["du","Chief Strategy & AI Officer","executive","v"]]},
+  {id:"amna_alakraf", n:"Amna AlAkraf", t:2, p:58, s:"comm", roles:[
+    ["du","Chief Internal Audit","executive","v"]]},
+  {id:"fatema_al_afeefi", n:"Fatema Al Afeefi", t:2, p:58, s:"comm", roles:[
+    ["du","Chief People & Impact Officer","executive","v"]]},
+  {id:"justin_shields", n:"Justin Shields", t:2, p:58, s:"comm", roles:[
+    ["du","Chief Information Officer","executive","v"]]},
+  {id:"malek_al_malek", n:"Malek Al Malek", t:2, p:62, s:"comm", roles:[
+    ["du","Chairman (Independent Non-Executive)","board","v"],
+    ["dubaiholding","Group CEO, Dubai Holding Asset Management","executive","v"]]},
+  {id:"ahmad_julfar", n:"Ahmad Julfar", t:2, p:62, s:"comm", roles:[
+    ["du","Vice Chairman (Non-Executive)","board","v"]]},
+  {id:"abdulla_al_basti", n:"Abdulla Al Basti", t:2, p:52, s:"comm", roles:[
+    ["du","Board Member (Independent Non-Executive)","board","v"]]},
+  {id:"abdulla_belhoul", n:"Abdulla Belhoul", t:2, p:52, s:"comm", roles:[
+    ["du","Board Member (Independent Non-Executive)","board","v"]]},
+  {id:"wesam_lootah", n:"Wesam Lootah", t:2, p:52, s:"comm", roles:[
+    ["du","Board Member (Independent Non-Executive)","board","v"]]},
+  {id:"khalifa_almheiri", n:"Khalifa AlMheiri", t:2, p:52, s:"comm", roles:[
+    ["du","Board Member (Independent Non-Executive)","board","v"]]},
+  {id:"ziad_galadari", n:"Ziad Galadari", t:2, p:52, s:"comm", roles:[
+    ["du","Board Member (Non-Executive)","board","v"]]},
+  {id:"serkan_okandan", n:"Serkan Okandan", t:2, p:52, s:"comm", roles:[
+    ["du","Board Member (Independent Non-Executive)","board","v"]]},
+  {id:"hassa_balouma", n:"Hassa Balouma", t:2, p:52, s:"comm", roles:[
+    ["du","Board Member (Independent Non-Executive)","board","v"]]},
+  {id:"matar_alblooshi", n:"Matar AlBlooshi", t:2, p:52, s:"comm", roles:[
+    ["du","Board Member (Independent Non-Executive)","board","v"]]},
+  {id:"khawla_al_mehairi", n:"Khawla Al Mehairi", t:2, p:58, s:"utilities", roles:[
+    ["dewa","Executive Vice President of Strategy and Government Communications","executive","v"]]},
+  {id:"maryam_al_mutaiwei", n:"Maryam Al-Mutaiwei", t:2, p:58, s:"utilities", roles:[
+    ["dewa","Vice President of Human Resources","executive","v"]]},
+  {id:"amal_koshak", n:"Amal Koshak", t:2, p:58, s:"utilities", roles:[
+    ["dewa","Vice President of Marketing and Corporate Communications","executive","v"]]},
+  {id:"nasser_lootah", n:"Nasser Lootah", t:2, p:58, s:"utilities", roles:[
+    ["dewa","Executive Vice President of Generation (Power & Water)","executive","v"]]},
+  {id:"hussain_lootah", n:"Hussain Lootah", t:2, p:58, s:"utilities", roles:[
+    ["dewa","Executive Vice President of Transmission (Power)","executive","v"]]},
+  {id:"waleed_bin_salman", n:"Waleed Bin Salman", t:2, p:58, s:"utilities", roles:[
+    ["dewa","Executive Vice President of Business Development and Excellence","executive","v"]]},
+  {id:"ali_al_muwaijei", n:"Ali Al Muwaijei", t:2, p:58, s:"utilities", roles:[
+    ["dewa","Vice President of Governance, Compliance and Agility","executive","v"]]},
+  {id:"dr_yousef_al", n:"Dr Yousef Al Akraf", t:2, p:58, s:"utilities", roles:[
+    ["dewa","Executive Vice President of Business Support and Human Resources","executive","v"]]},
+  {id:"rashid_bin_humaidan", n:"Rashid Bin Humaidan", t:2, p:58, s:"utilities", roles:[
+    ["dewa","Executive Vice President of Distribution Power","executive","ns"]]},
+  {id:"ziad_chalhoub", n:"Ziad Chalhoub", t:2, p:58, s:"conglomerate", roles:[
+    ["maf","Chief Financial Officer","executive","v"]]},
+  {id:"amina_taher", n:"Amina Taher", t:2, p:58, s:"conglomerate", roles:[
+    ["maf","Chief Brand and Communications Officer","executive","v"]]},
+  {id:"hassan_basil_hassan", n:"Hassan Basil Hassan", t:2, p:58, s:"conglomerate", roles:[
+    ["maf","Chief Legal Officer","executive","v"]]},
+  {id:"saeed_almadani", n:"Saeed Almadani", t:2, p:58, s:"conglomerate", roles:[
+    ["maf","Chief Audit, Risk & Compliance Officer","executive","v"]]},
+  {id:"elham_al_qasim", n:"Elham Al Qasim", t:2, p:58, s:"conglomerate", roles:[
+    ["maf","Chief Data & AI Officer","executive","v"]]},
+  {id:"ahmed_el_shamy", n:"Ahmed El Shamy", t:2, p:60, s:"conglomerate", roles:[
+    ["maf","Chief Executive Officer - Development","executive","v"]]},
+  {id:"khalifa_bin_braik", n:"Khalifa Bin Braik", t:2, p:60, s:"conglomerate", roles:[
+    ["maf","Chief Executive Officer - Asset Management","executive","v"]]},
+  {id:"ignace_lahoud", n:"Ignace Lahoud", t:2, p:60, s:"conglomerate", roles:[
+    ["maf","Chief Executive Officer - Entertainment & Lifestyle","executive","v"]]},
+  {id:"hamed_kazim", n:"Hamed Kazim", t:2, p:52, s:"conglomerate", roles:[
+    ["maf","Non-Executive Director","board","v"]]},
+  {id:"zein_abdalla", n:"Zein Abdalla", t:2, p:52, s:"conglomerate", roles:[
+    ["maf","Non-Executive Director","board","v"]]},
+  {id:"robert_booth", n:"Robert Booth", t:2, p:52, s:"conglomerate", roles:[
+    ["maf","Non-Executive Director","board","v"]]},
+  {id:"khalid_al_malik", n:"Khalid Al Malik", t:2, p:60, s:"sovereign", roles:[
+    ["dubaiholding","Managing Director, Dubai Holding; CEO, Dubai Holding Real Estate","executive","v"]]},
+  {id:"aldrin_sequeira", n:"Aldrin Sequeira", t:2, p:58, s:"sovereign", roles:[
+    ["dubaiholding","Group Chief Internal Audit Officer","executive","v"]]},
+  {id:"edward_sunna", n:"Edward Sunna", t:2, p:58, s:"sovereign", roles:[
+    ["dubaiholding","Group Chief Legal Officer","executive","v"]]},
+  {id:"fatma_hussain", n:"Fatma Hussain", t:2, p:58, s:"sovereign", roles:[
+    ["dubaiholding","Group Chief People Officer","executive","v"]]},
+  {id:"huda_buhumaid", n:"Huda Buhumaid", t:2, p:58, s:"sovereign", roles:[
+    ["dubaiholding","Group Chief Impact Officer","executive","v"]]},
+  {id:"oliver_skagerlind", n:"Oliver Skagerlind", t:2, p:58, s:"sovereign", roles:[
+    ["dubaiholding","Group Chief Technology Officer","executive","v"]]},
+  {id:"sharjil_anwar", n:"Sharjil Anwar", t:2, p:58, s:"sovereign", roles:[
+    ["dubaiholding","Group Chief Financial Officer","executive","v"]]},
+  {id:"fernando_eiroa", n:"Fernando Eiroa", t:2, p:58, s:"sovereign", roles:[
+    ["dubaiholding","CEO, Dubai Holding Entertainment","executive","v"]]},
+  {id:"francis_giani", n:"Francis Giani", t:2, p:58, s:"sovereign", roles:[
+    ["dubaiholding","CEO, Dubai Holding Community Management","executive","v"]]},
+  {id:"alex_davies", n:"Alex Davies", t:2, p:60, s:"realestate", roles:[
+    ["nakheel","Chief Executive Officer, Ejadah Asset Management","executive","v"]]},
+  {id:"zuber_dehgamia", n:"Zuber Dehgamia", t:2, p:58, s:"realestate", roles:[
+    ["nakheel","Chief Financial Officer, Dubai Holding Real Estate","executive","v"]]},
+  {id:"mariam_juma", n:"Mariam Juma", t:2, p:58, s:"realestate", roles:[
+    ["nakheel","Chief Operating Officer, Dubai Holding Real Estate","executive","v"]]},
+  {id:"manoj_nair", n:"Manoj Nair", t:2, p:46, s:"realestate", roles:[
+    ["nakheel","Head of Governance, Risk & Compliance, Dubai Holding Real Estate","executive","v"]]},
+  {id:"mohammed_al_habbai", n:"Mohammed Al Habbai", t:2, p:58, s:"realestate", roles:[
+    ["nakheel","Chief Real Estate Officer, Dubai Holding Real Estate","executive","v"]]},
+  {id:"anuradha_harish", n:"Anuradha Harish", t:2, p:58, s:"realestate", roles:[
+    ["nakheel","Chief Commercial Officer, Dubai Holding Real Estate","executive","v"]]},
+  {id:"osama_abouelenain", n:"Osama Abouelenain", t:2, p:58, s:"realestate", roles:[
+    ["nakheel","Chief Development Officer, Dubai Holding Real Estate","executive","v"]]},
+  {id:"osama_sabboubeh", n:"Osama Sabboubeh", t:2, p:58, s:"realestate", roles:[
+    ["nakheel","Chief Project Delivery Officer, Dubai Holding Real Estate","executive","v"]]},
+  {id:"ian_simmonds", n:"Ian Simmonds", t:2, p:58, s:"realestate", roles:[
+    ["nakheel","Chief Contract and Procurement Officer, Dubai Holding Real Estate","executive","v"]]},
+  {id:"claudia_stephens", n:"Claudia Stephens", t:2, p:46, s:"realestate", roles:[
+    ["nakheel","Head of Legal and Lead Construction Lawyer, Dubai Holding Real Estate","executive","v"]]},
+  {id:"ahmad_abdulbaqi", n:"Ahmad Abdulbaqi", t:2, p:46, s:"realestate", roles:[
+    ["nakheel","Head of Security, Dubai Holding Real Estate","executive","v"]]},
+  {id:"ali_sajwani", n:"Ali Sajwani", t:2, p:60, s:"realestate", roles:[
+    ["damac","Managing Director","executive","v"]]},
+  {id:"amira_sajwani", n:"Amira Sajwani", t:2, p:60, s:"realestate", roles:[
+    ["damac","Managing Director","executive","v"]]},
+  {id:"abbas_sajwani", n:"Abbas Sajwani", t:2, p:52, s:"realestate", roles:[
+    ["damac","Board Member","board","v"]]},
+  {id:"sofyan_khatib", n:"Sofyan Khatib", t:2, p:58, s:"realestate", roles:[
+    ["damac","Group Director","executive","v"]]},
+  {id:"sandip_bhatt", n:"Sandip Bhatt", t:2, p:58, s:"realestate", roles:[
+    ["damac","Chief Investment Officer","executive","v"]]},
+  {id:"mp_john", n:"MP John", t:2, p:58, s:"realestate", roles:[
+    ["damac","Chief Human Capital Officer","executive","v"]]},
+  {id:"mohammed_tahaineh", n:"Mohammed Tahaineh", t:2, p:46, s:"realestate", roles:[
+    ["damac","General Manager - Projects","executive","v"]]},
+  {id:"francois_oberholzer", n:"Francois Oberholzer", t:2, p:58, s:"industry", roles:[
+    ["flydubai","Chief Financial Officer","executive","v"]]},
+  {id:"mick_hills", n:"Mick Hills", t:2, p:58, s:"industry", roles:[
+    ["flydubai","Chief Operating Officer","executive","v"]]},
+  {id:"khalid_alhumaidan", n:"Khalid Alhumaidan", t:2, p:58, s:"industry", roles:[
+    ["flydubai","Senior Vice President of Compliance, Safety & Sustainability","executive","v"]]},
+  {id:"daniel_kerrison", n:"Daniel Kerrison", t:2, p:58, s:"industry", roles:[
+    ["flydubai","Senior Vice President of Inflight Operations","executive","v"]]},
+  {id:"ahmad_bin_huzaim", n:"Ahmad Bin Huzaim", t:2, p:58, s:"industry", roles:[
+    ["flydubai","Senior Vice President, Flight Operations","executive","v"]]},
+  {id:"andrew_glover", n:"Andrew Glover", t:2, p:58, s:"industry", roles:[
+    ["flydubai","Senior Vice President, Engineering and Maintenance","executive","v"]]},
+  {id:"sudhir_sreedharan", n:"Sudhir Sreedharan", t:2, p:58, s:"industry", roles:[
+    ["flydubai","Divisional Senior Vice President of Commercial Operations","executive","v"]]},
+  {id:"abdulfattah_sharaf", n:"Abdulfattah Sharaf", t:2, p:52, s:"finance", roles:[
+    ["difc","Board Member (DIFC Higher Board)","board","v"]]},
+  {id:"wayne_martin", n:"Wayne Martin", t:2, p:52, s:"finance", roles:[
+    ["difc","Board Member (DIFC Higher Board)","board","v"]]},
+  {id:"arshad_ghafur", n:"Arshad Ghafur", t:2, p:52, s:"finance", roles:[
+    ["difc","Board Member (DIFC Higher Board)","board","v"]]},
+  {id:"abdulla_j_m", n:"Abdulla J M Kalban", t:2, p:52, s:"finance", roles:[
+    ["difc","Board Member (DIFC Authority Board of Directors)","board","v"]]},
+  {id:"salem_al_sharhan", n:"Salem Al Sharhan", t:2, p:52, s:"finance", roles:[
+    ["difc","Board Member (DIFC Authority Board of Directors)","board","v"]]},
+  {id:"khalfan_belhoul", n:"Khalfan Belhoul", t:2, p:52, s:"finance", roles:[
+    ["difc","Board Member (DIFC Authority Board of Directors)","board","v"]]},
+  {id:"abdullah_salim_al", n:"Abdullah Salim Al Turifi Al Shamsi", t:2, p:52, s:"finance", roles:[
+    ["difc","Board Member (DIFC Authority Board of Directors)","board","v"]]},
+  {id:"ahmad_bin_hassan", n:"Ahmad Bin Hassan Al Shaikh", t:2, p:52, s:"finance", roles:[
+    ["difc","Board Member (DIFC Authority Board of Directors)","board","v"]]},
+  {id:"arif_amiri", n:"Arif Amiri", t:2, p:60, s:"finance", roles:[
+    ["difc","Chief Executive Officer at DIFC Authority","executive","v"]]},
+  {id:"alya_alzarouni", n:"Alya AlZarouni", t:2, p:58, s:"finance", roles:[
+    ["difc","Chief Operating Officer at DIFC Authority","executive","v"]]},
+  {id:"amar_tahilani", n:"Amar Tahilani", t:2, p:58, s:"finance", roles:[
+    ["difc","Chief Development and Projects Officer at DIFC Investments Ltd.","executive","v"]]},
+  {id:"jacques_visser", n:"Jacques Visser", t:2, p:58, s:"finance", roles:[
+    ["difc","Chief Legal Officer at DIFC Authority","executive","v"]]},
+  {id:"saleh_al_akrabi", n:"Saleh Al Akrabi", t:2, p:58, s:"finance", roles:[
+    ["difc","Chief Real Estate Officer at DIFC Investments Ltd.","executive","v"]]},
+  {id:"salmaan_jaffery", n:"Salmaan Jaffery", t:2, p:58, s:"finance", roles:[
+    ["difc","Chief Business Development Officer at DIFC Authority","executive","v"]]},
+  {id:"yazan_mohamad_al", n:"Yazan Mohamad Al Nasser", t:2, p:58, s:"finance", roles:[
+    ["difc","Chief Financial & Risk Officer at DIFC Authority","executive","v"]]},
+  {id:"jaber_humaid_al", n:"Jaber Humaid Al Suwaidi", t:2, p:58, s:"finance", roles:[
+    ["difc","Senior Vice President & Registrar of Real Property – Regulatory, DIFC Authority","executive","v"]]},
+  {id:"khalid_mohamed_al", n:"Khalid Mohamed Al Zarouni", t:2, p:58, s:"finance", roles:[
+    ["difc","Senior Vice President & Registrar of Companies – Regulatory, DIFC Authority","executive","v"]]},
+  {id:"madeya_alktebi", n:"Madeya Alktebi", t:2, p:58, s:"finance", roles:[
+    ["difc","Senior Vice President – Human Resources at DIFC Authority","executive","v"]]},
+  {id:"mahmoud_nsouli", n:"Mahmoud Nsouli", t:2, p:58, s:"finance", roles:[
+    ["difc","Senior Vice President - Marketing & Corporate Communications at DIFC Authority","executive","v"]]},
+  {id:"mohammad_yousuf_al", n:"Mohammad Yousuf Al Najjar", t:2, p:58, s:"finance", roles:[
+    ["difc","Senior Vice President - Development and Projects, Property Development, DIFC Investments Ltd.","executive","v"]]},
 ];
 
 const OWNERSHIP = [
