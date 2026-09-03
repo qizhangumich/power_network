@@ -1,0 +1,5 @@
+# Masdar scraps green hydrogen project
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMigwFBVV95cUxNQmxieGQ2dDRxbGRlRkNja29tMjg2TTVWYlBZTzlieXdvQUlzVWUwaGxKMEpGSFlxbzI0MGNITC01akVzbEV1VXotWTZYdmpkRlFITG1jWVRpMWJCelJteTBjVS1xQmFqZmI5VnNic2FLX05mQm8wVHpxMklDX0lTQkJZNA?oc=5
+
+Masdar scraps green hydrogen project    EnterpriseAM

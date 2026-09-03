@@ -1,0 +1,5 @@
+# Masdar shelves 100MW green hydrogen project at Abu Dhabi steelworks: report
+source: Hydrogen Insight
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdGNuWTBxbEFkNjhhcWtXZkZLb0hRN1N5eU5nUmVzVW90RVlqMmg3ZVZtM2lWckFGUVl6Wm9Yb3cxTW9HaU1wdG1adGRtNFdBRERGTUFMeUw5by0wZndVTlotd2FoWEFXVVJkeGFmLXFkR01SeWVJaENVV2FhRVJBQ04xQnFRWTVtbGVNcFdOUzFfR0lUcVgwbEpUc1h0VnVxQzBnYmptWHhCU1VEMlFXNmtJRko2cFdBa253RnZZYzZzLUdKZzdlZw?oc=5
+
+Masdar shelves 100MW green hydrogen project at Abu Dhabi steelworks: report    Hydrogen Insight

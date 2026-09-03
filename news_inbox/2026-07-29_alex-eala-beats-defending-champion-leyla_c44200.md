@@ -1,0 +1,5 @@
+# Alex Eala beats defending champion Leylah Fernandez to reach Mubadala DC Open quarterfinals
+source: ESPN
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcDgxNFZnc21yRUNEZV9Uemc4clBNdHVKZlYxV1VpY2JGVmxFVFNEYU8wWW04eVJqejI0OGlhdzZDYmd1YVJQMUliUTZuWUZnRkdZbGhvbXFmTTlUOHg3SGN5UmlVcmxabmNOQVowTUI4UGhtcXJhZmM0ZVNfUGZFTTJhMWlxV3V1c3AzRGN0S3FwN2QxcURncm1KQXA4OWt3eHgzZkNRVC1xSjJNT1Z5MkdNRFQ1SXFReWJ4SlZ2cFNqRm9ybXR1Sm5rSVhuV2JvVlE?oc=5
+
+Alex Eala beats defending champion Leylah Fernandez to reach Mubadala DC Open quarterfinals    ESPN

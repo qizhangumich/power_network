@@ -1,0 +1,5 @@
+# Abu Dhabi’s Adnoc L&S Posts Record Quarterly Profit Despite Regional Disruption
+source: WSJ
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdG1YTW9GaWd3bFJDNmp2R3I5WUNxMy1IQ1FSOVFnZ3V6RkNtYzc2RTltbF9VZ3NMcldXUjBRR2J0anU2R1FrcVlKTVR5TjBDYnJ3MG9iTmJIS0NrSzRTb1h1N0xZOHFldGdFU3owSEdVQVVOS0xZd1dHYTByZGxrTUJBeEZDbGVuTnVvMDlSMXlWTmEzTnV5VnRmV3JNSTBLRlRNZ2Nxb20tTXJhSGF6blFYS1ZDQXhDams1OC1DaXRQUlU?oc=5
+
+Abu Dhabi’s Adnoc L&S Posts Record Quarterly Profit Despite Regional Disruption    WSJ
