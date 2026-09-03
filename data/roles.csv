@@ -73,7 +73,9 @@ awaidha_marar,Awaidha Murshed Al Marar,doe,Department of Energy,Chairman,governm
 awaidha_marar,Awaidha Murshed Al Marar,execcouncil,Abu Dhabi Executive Council,Member,political,v,
 kuttab,Ahmed Tamim Hisham Al Kuttab,dge,Department of Government Enablement,Chairman,government,v,
 kuttab,Ahmed Tamim Hisham Al Kuttab,execcouncil,Abu Dhabi Executive Council,Member,political,v,
-falah_ahbabi,Falah Mohammed Al Ahbabi,adports,AD Ports Group,Chairman,board,v,
+falah_ahbabi,Falah Mohammed Al Ahbabi,adports,AD Ports Group,Chairman,board,v,former
+alsuwaidi_adq,Mohamed Hassan Alsuwaidi,adports,AD Ports Group,Chairman (until Jul 2026),board,v,former:until Jul 2026
+shadi,Shadi Malak,adports,AD Ports Group,Chairman,board,v,
 falah_ahbabi,Falah Mohammed Al Ahbabi,execcouncil,Abu Dhabi Executive Council,Member,political,v,
 mohamed_km,Mohamed Khalifa Al Mubarak,dct,Department of Culture & Tourism,Chairman,government,v,
 mohamed_km,Mohamed Khalifa Al Mubarak,aldar,Aldar Properties,Chairman,board,v,
@@ -266,3 +268,140 @@ bayan_al_hosani,Bayan Al Hosani,aldar,Aldar Properties,Chief People & Communicat
 jonathan_emery,Jonathan Emery,aldar,Aldar Properties,"CEO, Aldar Development",executive,ns,
 hatem,Hatem Dowidar,e_and,e& (Etisalat Group),Group Chief Executive Officer (2020–2025),executive,v,former:until 2025
 alan_smith,Alan Smith,agthia,Agthia Group,Group Chief Executive Officer (2020–2025),executive,v,former:until 2025
+abdulhamid_mohamed_saeed,Abdulhamid Mohamed Saeed,mubadala,,Board Member,board,v
+ahmed_saeed_al,Ahmed Saeed Al Calily,mubadala,,Chief Strategy & Risk Officer,executive,v
+samer_halawa,Samer Halawa,mubadala,,Chief Legal Officer,executive,v
+saeed_al_mazrouei,Saeed Al Mazrouei,mubadala,,"Managing Director & CEO, Abu Dhabi Investment Council",executive,v
+khaled_al_shamlan,Khaled Al Shamlan Al Marri,mubadala,,"Chief Executive Officer, Real Assets",executive,v
+camilla_languille,Camilla Languille,mubadala,,"Co-CEO, Private Equity",executive,v
+luca_molinari,Luca Molinari,mubadala,,"Co-CEO, Private Equity",executive,v
+mohammed_nasser_al,Mohammed Nasser Al Shamsi,ihc,,"Board Member, Independent/Non-Executive",board,v
+hisham_khalid_malak,Hisham Khalid Malak,adgm,,Board Member,board,v
+dhaen_mohamed_al,Dhaen Mohamed Al Hameli,adgm,,Board Member,board,v
+khaled_abdulla_al,Khaled Abdulla Al Qubaisi,adgm,,Board Member,board,v
+kaj_erik_relander,Kaj-Erik Relander,adgm,,Board Member,board,v
+rashed_abdulkarim_al,Rashed Abdulkarim Al Blooshi,adgm,,"CEO, ADGM Registration Authority",executive,v
+emmanuel_givanakis,Emmanuel Givanakis,adgm,,"CEO, ADGM Financial Services Regulatory Authority (FSRA)",executive,v
+lord_patrick_hodge,Lord Patrick Hodge,adgm,,"Chief Justice, ADGM Courts",executive,v
+salem_mohammed_al,Salem Mohammed Al Darei,adgm,,"CEO, ADGM Authority",executive,v
+linda_fitz_alan,Linda Fitz-Alan,adgm,,"Registrar and Chief Executive, ADGM Courts",executive,v
+dhaher_bin_dhaher,Dhaher bin Dhaher Al Mheiri,adgm,,"Advisor, Chairman's Office",executive,v
+arvind_ramamurthy,Arvind Ramamurthy,adgm,,Chief of Market Development,executive,v
+rajiv_sehgal,Rajiv Sehgal,adgm,,Chief Strategy Officer,executive,v
+eyad_mahadeen,Eyad Mahadeen,adgm,,Chief Legal Officer and Board Secretary,executive,v
+abdulla_al_khoori,Abdulla Al Khoori,adgm,,Chief Support Services Officer (Acting),executive,v
+mohammed_al_mheiri,Mohammed Al Mheiri,adgm,,Chief Communications Officer,executive,v
+noora_almarzooqi,Noora Almarzooqi,adgm,,Chief Financial Officer,executive,v
+abdelhamid_abuhelweh,Abdelhamid Abuhelweh,adgm,,Director of Internal Audit,executive,v
+yaser_al_mazrouei,Yaser Al Mazrouei,adnoc,,"Director, Digital Infrastructure, Commercial & Capital Projects",executive,v
+omar_al_suwaidi,Omar Al Suwaidi,adnoc,,"Director, The Executive Office",executive,v
+marwan_nijmeh,Marwan Nijmeh,adnoc,,Chief Legal Officer,executive,v
+ahmed_abujarad,Ahmed Abujarad,adnoc,,Chief Audit & Assurance Officer,executive,v
+amir_gerges,Amir Gerges,adnoc,,"Chief Health, Safety & Environment Officer",executive,v
+saif_al_falahi,Saif Al Falahi,adnoc,,"Acting Director, People, National Identity & Business Support",executive,v
+ahmed_ali_al,Ahmed Ali Al Sayegh,adnoc,,"Member, Executive Committee of ADNOC Board of Directors (Minister of State)",board,v
+farid_al_awlaqi,Farid Al Awlaqi,taqa,,"Chief Executive Officer, Generation",executive,v
+farid_al_awlaqi,Farid Al Awlaqi,masdar,,"Board Member, Masdar Renewables & Green Hydrogen",board,v
+dr_afif_saif,Dr. Afif Saif Al Yafei,taqa,,"Chief Executive Officer, TAQA Transmission",executive,v
+omar_abdulla_al,Omar Abdulla Al Hashmi,taqa,,"Chief Executive Officer, TAQA Distribution",executive,v
+dr_nader_assad,Dr. Nader Assad Bin Taher,taqa,,"Interim Chief Executive Officer, TAQA Water Solutions",executive,v
+franco_polo,Franco Polo,taqa,,"Chief Executive Officer, Oil and Gas",executive,v
+gareth_wynn,Gareth Wynn,taqa,,Chief Communications Officer,executive,v
+stephen_wackerle,Stephen Wackerle,taqa,,Chief Risk Officer,executive,v
+mohammad_adnan_sharafi,Mohammad Adnan Sharafi,taqa,,Chief Legal Officer & Board Secretary,executive,v
+noel_aoun,Noel Aoun,taqa,,Chief Strategy Officer,executive,v
+hamad_alhajri,Hamad AlHajri,taqa,,Chief Corporate Support Officer,executive,v
+wael_nabulsi,Wael Nabulsi,taqa,,"Executive Director, Internal Audit",executive,v
+khaleefa_almheiri,Khaleefa Almheiri,masdar,,Acting Chief Operating Officer,executive,v
+rapha_l_barreau,Raphaël Barreau,masdar,,Chief Investment Officer,executive,v
+mohammad_abdelqader_el,Mohammad Abdelqader El-Ramahi,masdar,,Chief Green Hydrogen Officer,executive,v
+shaloo_kakkar_kulkarni,Shaloo Kakkar Kulkarni,masdar,,Chief People Officer,executive,v
+michelle_wu,Michelle Wu,masdar,,Chief Digitalization Officer,executive,v
+dr_lamya_nawaf,Dr Lamya Nawaf Fawwaz,masdar,,Chief Brand and Strategic Initiatives Officer,executive,v
+dr_nikolas_meitanis,Dr Nikolas Meitanis,masdar,,Chief Strategy and Corporate Development Officer,executive,v
+hamad_almenhali,Hamad Almenhali,masdar,,Chief Internal Audit Officer,executive,v
+dr_frank_possmeier,Dr Frank Possmeier,masdar,,"Board Member, Masdar Renewables (Chief Investment Officer – Generation, TAQA)",board,v
+tamer_tantawy,Tamer Tantawy,masdar,,"Board Member, Masdar Renewables & Green Hydrogen",board,v
+mansoor_mohamed_al,Mansoor Mohamed Al Hamed,masdar,,"Board Member, Masdar Renewables & Green Hydrogen (MD & CEO, Mubadala Energy)",board,v
+monera_al_seiari,Monera Al Seiari,masdar,,"Board Member, Masdar Green Hydrogen",board,v
+bashar_alrosan,Bashar AlRosan,g42,,Group Chief Legal and Compliance Officer,executive,v
+maymee_kurian,Maymee Kurian,g42,,Group Chief Augmented Human Capital Officer,executive,v
+maymee_kurian,Maymee Kurian,space42,,Interim Chief Human Capital Officer,executive,v
+ali_al_amine,Ali Al Amine,g42,,Chief Commercial Officer,executive,v
+sanjiv_jain,Sanjiv Jain,g42,,Group Chief Accounting Officer,executive,v
+cameron_coles,Cameron Coles,g42,,Chief Performance and Business Transformation Officer,executive,v
+faheem_ahamed,Faheem Ahamed,g42,,Group Chief Marketing and Communications Officer,executive,v
+ali_al_hashemi,Ali Al Hashemi,space42,,"CEO, Space Services",executive,v
+hasan_al_hosani,Hasan Al Hosani,space42,,"CEO, Smart Solutions",executive,v
+andrew_cole,Andrew Cole,space42,,Chief Financial Officer,executive,v
+sulaiman_al_ali,Sulaiman Al Ali,space42,,Chief Commercial Officer,executive,v
+abdulla_al_shamsi,Abdulla Al Shamsi,space42,,Chief Business Support Officer,executive,v
+andrew_hodgman,Andrew Hodgman,space42,,General Counsel,executive,v
+christian_andersen,Christian Andersen,space42,,"Senior Vice President, Marketing",executive,v
+khaled_ahmed_al,Khaled Ahmed Al Zaabi,edge_grp,,"President – Platforms & Systems, EDGE",executive,v
+waleid_al_mesmari,Waleid Al Mesmari,edge_grp,,"President – Space Technologies, EDGE",executive,v
+omar_al_zaabi,Omar Al Zaabi,edge_grp,,"President – Commercial, EDGE",executive,v
+khalid_al_ali,Khalid Al Ali,edge_grp,,"President – Homeland Security, EDGE Group",executive,v
+dr_chaouki_kasmi,Dr Chaouki Kasmi,edge_grp,,"Group CTO & President – Technologies & Industrialisation, EDGE",executive,v
+farah_abdulla_mohamed,Farah Abdulla Mohamed Ali Al Mazrui,etihad,,Member of the Board,board,v
+hamda_eid_almheiri,Hamda Eid AlMheiri,etihad,,Member of the Board,board,v
+jaan_ulrich_albrecht,Jaan Ulrich Albrecht Binderberger,etihad,,Member of the Board,board,v
+jacob_barend_kalkman,Jacob Barend Kalkman,etihad,,Member of the Board,board,v
+dr_nadia_bastaki,Dr Nadia Bastaki,etihad,,"Chief People, Government and Corporate Affairs Officer",executive,v
+arik_de,Arik De,etihad,,Chief Revenue and Commercial Officer,executive,v
+frank_meyer,Frank Meyer,etihad,,Chief Digital Officer,executive,v
+captain_majed_al,Captain Majed Al Marzouqi,etihad,,Chief Operations and Guest Officer,executive,v
+karen_clayton,Karen Clayton,etihad,,Chief Legal and Compliance Officer,executive,v
+stanislas_brun,Stanislas Brun,etihad,,Chief Cargo Officer,executive,v
+martin_aarup,Martin Aarup,adports,,Group Chief Financial Officer,executive,v
+ross_thompson,Ross Thompson,adports,,Group Chief Strategy and Growth Officer,executive,v
+emil_pellicer,Emil Pellicer,adports,,Group General Counsel,executive,v
+mohamed_jamal_eddine,Mohamed Jamal-Eddine,adports,,Group Chief Digital & Information Officer,executive,v
+abdullah_al_hameli,Abdullah Al Hameli,adports,,"CEO, Economic Cities & Free Zones Cluster",executive,v
+saif_al_mazrouei,Saif Al Mazrouei,adports,,"CEO, Ports Cluster",executive,v
+mohammed_al_tamimi,Mohammed Al Tamimi,adports,,"CEO, Noatum Ports",executive,v
+captain_ammar_al,Captain Ammar Al Shaiba,adports,,"CEO, Maritime & Shipping Cluster & Noatum Maritime",executive,v
+jochen_thewes,Jochen Thewes,adports,,"CEO, Logistics Cluster",executive,v
+abdulla_abdulhameed_alsahi,Abdulla Abdulhameed Alsahi,adports,,Board Member,board,v
+hashem_hussein_al,Hashem Hussein Al Dabbas,adports,,Board Member,board,v
+jassem_saleh_busaibe,Jassem Saleh Busaibe,aldar,,"Chief Executive Officer, Aldar Investment",executive,v
+emma_o_brien,Emma O'Brien,aldar,,"Chief Legal Counsel, Aldar (Group General Counsel)",executive,v
+hamad_abdulla_mohamed,Hamad Abdulla Mohamed Alshorafa Alhammadi,purehealth,,Chairman,board,v
+mouza_saeed_khalfan,Mouza Saeed Khalfan Matar Alromaithi,purehealth,,Board Member,board,v
+jawad_shafique_mohamed,Jawad Shafique Mohamed Shafique,purehealth,,Board Member,board,v
+farhan_malik,Farhan Malik,purehealth,,Managing Director & Board Member,executive,v
+manzoor_ahmad,Manzoor Ahmad,purehealth,,Group Chief Financial Officer,executive,v
+rashed_al_qubaisi,Rashed Al Qubaisi,purehealth,,Chief Operating Officer,executive,v
+abdel_kader_ahmed,Abdel Kader Ahmed El Khatib,purehealth,,Chief Legal Officer & Board Secretary,executive,v
+dr_marwan_al,Dr Marwan Al Kaabi,purehealth,,"CEO, Sheikh Shakhbout Medical City (SSMC)",executive,v
+dr_khadija_al,Dr Khadija Al Marashda,purehealth,,"Acting CEO, SEHA Clinics",executive,v
+philipp_mielenz,Philipp Mielenz,purehealth,,"CEO, Salma Long Term Care",executive,v
+dr_zain_al,Dr Zain Al Yafai,purehealth,,"CEO, Sakina (mental health)",executive,v
+yousef_altheeb_al,Yousef Altheeb Al Ketbi,purehealth,,"CEO, National Rehabilitation Center (NRC)",executive,v
+shaun_davies,Shaun Davies,purehealth,,"CEO, TLC (The Life Corner, pharmacy)",executive,v
+dr_aref_al,Dr Aref Al Shehhi,purehealth,,"CEO, The Medical Office (TMO)",executive,v
+abdulla_alrashdi,Abdulla Alrashdi,purehealth,,"CEO, Tamouh Healthcare",executive,v
+arindam_haldar,Arindam Haldar,purehealth,,"CEO, PureLab",executive,v
+mohamed_mostafa_saeed,Mohamed Mostafa Saeed,purehealth,,"CEO, Rafed (procurement)",executive,v
+kinjal_zaveri,Kinjal Zaveri,purehealth,,"CEO, One Health",executive,v
+junaid_khan,Junaid Khan,purehealth,,"CEO, PureCS",executive,v
+anas_ghazi,Anas Ghazi,purehealth,,"CEO, Talent One",executive,v
+muzaffar_khan,Muzaffar Khan,fab,,Group Chief Compliance Officer,executive,v
+nurendra_perera,Nurendra Perera,fab,,Group Chief Audit Officer,executive,v
+rasha_mortada,Rasha Mortada,adcb,,Group Chief Compliance Officer,executive,ns
+jane_livingston,Jane Livingston,adcb,,Group General Counsel,executive,ns
+abdirizak_mohamed,Abdirizak Mohamed,adcb,,Group Chief Internal Auditor,executive,ns
+abdulaziz_almoosa,Abdulaziz Almoosa,adcb,,Group Chief Human Resources Officer,executive,ns
+moizes_palma,Moizes Palma,adcb,,Group Chief Credit Officer,executive,ns
+ghaith_mismar,Ghaith Mismar,adib,,General Counsel,executive,v
+duane_maxwell,Duane Maxwell,adib,,Chief Compliance Officer,executive,v
+abdul_qadir_khanani,Abdul Qadir Khanani,adib,,Group Treasurer,executive,v
+kenneth_tan,Kenneth Tan,adib,,Group Head of Audit,executive,v
+maher_mustafa_al,Maher Mustafa Al Ruz,adib,,Group Chief Customer Officer,executive,v
+abdulla_al_shehhi,Abdulla Al Shehhi,adib,,Global Head International Business Group,executive,v
+osaid_m_a,Osaid M. A. Kailani,adib,,Global Head Shari'a,executive,v
+ali_al_mansoori,Ali Al Mansoori,e_and,,Group Chief People & Culture Officer,executive,v
+khaled_al_tenaiji,Khaled Al Tenaiji,e_and,,Chief Legal & Compliance Officer,executive,v
+ilya_kiykov,Ilya Kiykov,e_and,,Group Chief Corporate Development Officer,executive,v
+ahmed_al_shamsi,Ahmed Al Shamsi,e_and,,Group Chief Corporate Affairs Officer,executive,v
+mohamed_dukandar,Mohamed Dukandar,e_and,,Group Chief Risk & Assurance Officer,executive,v

@@ -15,7 +15,6 @@ saudi,mof_sa,Ministry of Finance,gov,86,1,pending
 saudi,mofa_sa,Ministry of Foreign Affairs,gov,86,1,pending
 saudi,moi_sa,Ministry of Interior,gov,86,1,pending
 abudhabi,added,Department of Economic Development,gov,85,1,pending
-abudhabi,adgm,Abu Dhabi Global Market,finance,84,1,pending
 qatar,mod_q,Ministry of Defence,gov,84,1,pending
 saudi,sama,Saudi Central Bank (SAMA),finance,84,1,pending
 abudhabi,dmt,Department of Municipalities & Transport,gov,83,1,pending
@@ -31,7 +30,6 @@ saudi,misa,Ministry of Investment,gov,82,1,pending
 abudhabi,dct,Department of Culture & Tourism,gov,80,1,pending
 abudhabi,alphadhabi,Alpha Dhabi Holding,sovereign,80,0,pending
 abudhabi,eia,Emirates Investment Authority,sovereign,80,1,pending
-abudhabi,purehealth,PureHealth,health,80,1,pending
 abudhabi,microsoft,Microsoft,tech,80,0,pending
 bahrain,cbb,Central Bank of Bahrain,finance,80,1,pending
 kuwait,mof_kw,Ministry of Finance,gov,80,1,pending
@@ -81,7 +79,6 @@ saudi,moh_sa,Ministry of Health,health,76,1,pending
 saudi,momah_sa,Ministry of Municipalities & Housing,realestate,76,1,pending
 abudhabi,twopointzero,2PointZero,sovereign,74,0,pending
 abudhabi,borouge,Borouge,materials,74,1,pending
-abudhabi,space42,Space42,tech,74,1,pending
 abudhabi,m42,M42,health,74,1,pending
 abudhabi,modon,Modon Holding,realestate,74,1,pending
 abudhabi,openai,OpenAI,tech,74,0,pending
