@@ -120,12 +120,24 @@ but not yet re-verified against an official page. L3 "advisory ecosystem" edges
 engagements as you learn them. Parked V1 names pending role verification:
 Etienne Petit, Sherif Tawfik, Mohamed Almarzooqi.
 
-## Phase 2 — more regions
-**Qatar is live at `/qatar/`** — same engine and schema, its own dataset
-(`qatar/network_data.js`: Al Thani ruling core, QIA/QatarEnergy state capital,
-operators, family conglomerates, North Field LNG partners; ~38 people,
-~72 institutions). `tools/build_qatar_page.py` derives `qatar/index.html` from
-the root page, so design changes propagate automatically (update.py runs it).
-The top-bar region switcher links the two maps. Qatar news automation and its
-CSV layer are the next step — the pipeline just needs per-region paths.
-Dubai (Al Maktoum core, ICD / Dubai Holding / DP World) follows the same recipe.
+## Regions — the GCC
+Eight maps on one engine, linked by the folded region menu in the top bar:
+
+| Path | Region | Core |
+|---|---|---|
+| `/` | Abu Dhabi | Al Nahyan · ADIA/Mubadala/ADQ/IHC · full news pipeline |
+| `/dubai/` | Dubai | Al Maktoum · ICD/Dubai Holding · Emirates/DP World/Emaar |
+| `/northern/` | Sharjah · RAK · Fujairah · Ajman · UAQ | Al Qasimi/Al Sharqi/Al Nuaimi/Al Mualla · Crescent/BEEAH/Wynn |
+| `/saudi/` | Saudi Arabia | Al Saud (MBS) · PIF/Aramco · giga-projects |
+| `/qatar/` | Qatar | Al Thani · QIA/QatarEnergy · LNG partners |
+| `/bahrain/` | Bahrain | Al Khalifa · Mumtalakat/Bapco/Investcorp |
+| `/oman/` | Oman | Al Said · OIA/OQ/PDO |
+| `/kuwait/` | Kuwait | Al Sabah · KIA/KPC · merchant families |
+
+Each region: `<region>/network_data.js` (same schema). `tools/build_regions.py`
+stamps every region page from the root `index.html`, so design changes propagate
+everywhere (update.py runs it; a region ships once its `network_data.js` exists —
+add a new one by adding a row to REGIONS and a dataset).
+News automation + CSV layer currently cover Abu Dhabi only; per-region
+parameterization is the next step. All non-AD datasets are V1 backbones —
+review the `ns` flags.
