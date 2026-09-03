@@ -196,6 +196,32 @@
     #detail{max-height:88vh;left:auto;right:0;width:330px;border-radius:14px 0 0 14px}
   }
 </style>
+<style>
+  /* Phase 2 — My Network panel */
+  #mypanel{display:none;position:fixed;top:64px;right:20px;width:390px;max-height:78vh;overflow-y:auto;
+    z-index:22;background:var(--surface);border:1px solid var(--hairline);border-radius:14px;
+    padding:18px 18px 16px;box-shadow:0 14px 40px rgba(20,22,40,.12)}
+  #mypanel.open{display:block}
+  #mypanel h2{font-size:16px;margin:0 0 4px}
+  #mypanel .close{position:absolute;top:10px;right:12px;cursor:pointer;color:var(--ink-faint);font-size:16px}
+  .mp-priv{font-size:10.5px;color:#2F9E63;margin-bottom:10px}
+  .mp-p{font-size:12.5px;color:var(--ink);line-height:1.55;margin:8px 0}
+  .mp-file{position:relative;overflow:hidden;display:inline-block}
+  .mp-nums{display:flex;gap:14px;flex-wrap:wrap;margin:10px 0 4px}
+  .mp-nums b{font-size:19px;display:block}
+  .mp-nums span{font-size:10.5px;color:var(--ink-faint)}
+  .mp-card{border:1px solid var(--hairline);border-radius:10px;padding:10px 12px;margin:8px 0;
+    display:flex;gap:12px;align-items:flex-start;flex-wrap:wrap}
+  .mp-side{flex:1;min-width:120px;font-size:11px;color:var(--ink-faint)}
+  .mp-side b{display:block;font-size:12.5px;color:var(--ink)}
+  .mp-lbl{display:block;font-size:9.5px;letter-spacing:.8px;text-transform:uppercase;margin-bottom:2px}
+  .mp-act{display:flex;align-items:center;gap:6px;width:100%}
+  .mp-pct{font-size:11px;color:var(--ink-faint);margin-right:auto}
+  .mp-yes{color:#2F9E63;border-color:#2F9E63}
+  @media (max-width:760px){
+    #mypanel{left:0;right:0;top:auto;bottom:0;width:auto;max-height:76vh;border-radius:16px 16px 0 0}
+  }
+</style>
 </head>
 <body>
 <canvas id="stage"></canvas>
@@ -212,6 +238,7 @@
   </div>
   <div id="views"></div>
   <div id="topright">
+    <div class="btn" id="b-mynet">My Network</div>
     <div class="btn" id="b-filter">Filter</div>
     <div class="btn" id="b-fit">Fit</div>
     <div class="btn" id="b-lang">中文</div>
@@ -220,6 +247,7 @@
 </div>
 
 <div id="filters">
+  <div class="chips" style="margin-bottom:4px"><div class="chip" id="b-mynet-m" style="color:#2F9E63;border-color:#2F9E63">My Network</div></div>
   <div class="hd" id="hd-views-m" style="display:none">View</div>
   <div class="chips" id="f-views-m" style="display:none"></div>
   <div class="hd" id="hd-layers">Layers</div><div class="chips" id="f-layers"></div>
@@ -229,6 +257,8 @@
 </div>
 
 <div id="detail"><div class="close" id="d-close">×</div><div id="dbody"></div></div>
+
+<div id="mypanel"><div class="close" id="mp-close">×</div><div id="mp-body"></div></div>
 
 <div id="tip"></div>
 <div id="toast"></div>
@@ -310,6 +340,18 @@ const I18N = {
     roleTypes:{political:"political", government:"government", board:"board", executive:"executive", ownership:"owner"},
     sectors:null,
     liSearch:"Search on LinkedIn ↗",
+    myNet:"My Network", mpPrivacy:"Private — stays in this browser only, never uploaded.",
+    mpConnect:"Connect your professional network to see who you already know here, and your best path to the people who matter.",
+    mpHow:"LinkedIn → Settings & Privacy → Data privacy → Get a copy of your data → select “Connections” → download, then upload the Connections.csv file:",
+    mpImport:"Import Connections.csv", mpImported:"contacts imported", mpMatchedTo:"matched on this map",
+    mpReview:"to review", mpReach:"institutions in reach", mpReviewTitle:"Is this the same person?",
+    mpYes:"Match", mpNo:"Not the same", mpApply:"Apply to map", mpDelete:"Delete my data",
+    mpNone:"No pending reviews.", mpYourContact:"Your contact", mpInMap:"On this map",
+    accTitle:"My access", accDirect:"Direct connection", accShow:"Show path", accYou:"You",
+    accHops:"hops", accNoPath:"No reliable path yet", accVia:"via your contact", accAt:"via your contacts at",
+    accConfHigh:"Confidence: high", accConfMed:"Confidence: medium",
+    accPossible:"Possible access — not a verified introduction path",
+    accLabels:["No reliable access","Weak access","Moderate access","Strong access","Very strong access"],
     pathBtn:"Find path from here", pathArmed:"…now click the destination node", pathTitle:"Best known path",
     pathNone:"No path found between these nodes", pathFrom:"Path from",
     relTitle:"Relationship", relPotential:"Potential — co-mentioned in news, not yet verified",
@@ -345,6 +387,18 @@ const I18N = {
       comm:"通信服务", utilities:"公用事业", realestate:"房地产",
       gov:"政府与政治", sovereign:"主权资本", education:"教育与科研", conglomerate:"家族企业集团"},
     liSearch:"在领英搜索 ↗",
+    myNet:"我的网络", mpPrivacy:"私密数据——仅保存在本浏览器，绝不上传。",
+    mpConnect:"连接你的职业人脉，看看这张图上有谁是你已经认识的，以及触达关键人物的最佳路径。",
+    mpHow:"LinkedIn → Settings & Privacy → Data privacy → Get a copy of your data → 勾选 “Connections” → 下载后，在此上传 Connections.csv 文件：",
+    mpImport:"导入 Connections.csv", mpImported:"位联系人已导入", mpMatchedTo:"位已匹配到本图",
+    mpReview:"待确认", mpReach:"家机构可触达", mpReviewTitle:"这是同一个人吗？",
+    mpYes:"是同一人", mpNo:"不是", mpApply:"应用到地图", mpDelete:"删除我的数据",
+    mpNone:"没有待确认的匹配。", mpYourContact:"你的联系人", mpInMap:"图上人物",
+    accTitle:"我的触达", accDirect:"直接联系", accShow:"显示路径", accYou:"你",
+    accHops:"跳", accNoPath:"暂无可靠路径", accVia:"经由你的联系人", accAt:"经由你在此机构的联系人",
+    accConfHigh:"置信度：高", accConfMed:"置信度：中",
+    accPossible:"潜在通路——非经验证的引荐路径",
+    accLabels:["无可靠触达","弱触达","中等触达","强触达","极强触达"],
     pathBtn:"从此节点找路径", pathArmed:"…现在点击目标节点", pathTitle:"最可信路径",
     pathNone:"两个节点之间未找到路径", pathFrom:"路径起点",
     relTitle:"关系", relPotential:"潜在关系 — 新闻共现，尚未核实",
@@ -414,12 +468,200 @@ const NEWS = (window.NEWS_ITEMS || []);
 const newsById = {};
 NEWS.forEach(it => (it.ids||[]).forEach(id => { (newsById[id] = newsById[id] || []).push(it); }));
 nodes.forEach(n => { n.news = newsById[n.id] || []; });
-const MYNET = window.MY_NETWORK || null;
+const AKAS = (typeof AKA !== "undefined") ? AKA : {};
+
+/* ================================================================
+   PHASE 2 — PERSONAL LAYER (client-side, Mode B: LinkedIn export)
+   All personal data lives in localStorage on this device only.
+   Contacts are shared across region maps (same origin); identity
+   matches are computed and cached per region.
+   ================================================================ */
+const Personal = (() => {
+  const REGION = location.pathname.split("/").filter(Boolean)[0] || "root";
+  const K_CONTACTS = "pm2_contacts", K_MATCH = "pm2_matches_v1_" + REGION;
+  const load = k => { try { return JSON.parse(localStorage.getItem(k)); } catch(e){ return null; } };
+  const save = (k,v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} };
+
+  const HON = new Set(["hh","he","dr","sheikh","sheikha","shaikh","eng","prof","capt","captain",
+                       "mr","mrs","ms","gen","lt","brig","phd","mba","h","e"]);
+  function toks(s){
+    s = (s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+    return s.replace(/[^a-z0-9\s]/g," ").split(/\s+/).filter(w => w && !HON.has(w));
+  }
+  const key = ts => ts.join(" ");
+  const skey = ts => ts.slice().sort().join(" ");
+
+  /* ---- CSV (LinkedIn Connections.csv: quoted fields, preamble lines) ---- */
+  function parseCSV(text){
+    const rows = []; let row = [], cell = "", q = false;
+    for(let i = 0; i < text.length; i++){
+      const ch = text[i];
+      if(q){
+        if(ch === '"'){ if(text[i+1] === '"'){ cell += '"'; i++; } else q = false; }
+        else cell += ch;
+      } else if(ch === '"') q = true;
+      else if(ch === ","){ row.push(cell); cell = ""; }
+      else if(ch === "\n" || ch === "\r"){
+        if(ch === "\r" && text[i+1] === "\n") i++;
+        row.push(cell); cell = "";
+        if(row.some(c => c !== "")) rows.push(row);
+        row = [];
+      } else cell += ch;
+    }
+    if(cell !== "" || row.length){ row.push(cell); if(row.some(c => c !== "")) rows.push(row); }
+    return rows;
+  }
+  function importCSV(text){
+    const rows = parseCSV(text);
+    const hi = rows.findIndex(r => (r[0]||"").trim().toLowerCase() === "first name");
+    if(hi < 0) return null;
+    const head = rows[hi].map(h => h.trim().toLowerCase());
+    const col = name => head.indexOf(name);
+    const cFn = col("first name"), cLn = col("last name"), cUrl = col("url"),
+          cCo = col("company"), cPo = col("position");
+    const list = [];
+    rows.slice(hi+1).forEach(r => {
+      const fn = (r[cFn]||"").trim(), ln = (r[cLn]||"").trim();
+      if(!fn && !ln) return;
+      list.push({n: (fn + " " + ln).trim(), co: (r[cCo]||"").trim(),
+                 po: (r[cPo]||"").trim(), url: cUrl >= 0 ? (r[cUrl]||"").trim() : ""});
+    });
+    if(!list.length) return null;
+    save(K_CONTACTS, {v:1, at: Date.now(), list});
+    localStorage.removeItem(K_MATCH);          // stale matches for this region
+    Object.keys(localStorage).forEach(k => { if(k.startsWith("pm2_matches_v1_")) localStorage.removeItem(k); });
+    return list.length;
+  }
+
+  /* ---- indexes over the current map ---- */
+  function buildIndexes(){
+    const pExact = {}, pTok = {}, iExact = {}, iSubs = [];
+    nodes.forEach(n => {
+      const names = [n.name].concat(AKAS[n.id] || [], n.kind === "inst" && n.short !== n.name ? [n.short] : []);
+      names.forEach(v => {
+        const ts = toks(v);
+        if(!ts.length) return;
+        if(n.kind === "person"){
+          (pExact[key(ts)] = pExact[key(ts)] || new Set()).add(n);
+          (pExact[skey(ts)] = pExact[skey(ts)] || new Set()).add(n);
+          ts.forEach(w => { if(w.length >= 3){ (pTok[w] = pTok[w] || new Set()).add(n); } });
+        } else {
+          iExact[key(ts)] = n.id;
+          if(key(ts).length >= 6) iSubs.push([key(ts), n.id]);
+        }
+      });
+    });
+    return {pExact, pTok, iExact, iSubs};
+  }
+  function companyInsts(co, ix){
+    const ts = toks(co);
+    if(!ts.length) return [];
+    const k = key(ts), out = new Set();
+    if(ix.iExact[k]) out.add(ix.iExact[k]);
+    if(k.length >= 4) ix.iSubs.forEach(([s, id]) => {
+      if(k.includes(s) || (s.includes(k) && k.length >= 6)) out.add(id);
+    });
+    return [...out];
+  }
+  function roleInsts(p){          // current (non-former) institutions of a person node
+    return (p.roles || []).filter(r => !r[4]).map(r => r[0]);
+  }
+
+  /* ---- matching ---- */
+  function runMatch(list){
+    const ix = buildIndexes();
+    const byC = {}, instByC = {};
+    list.forEach((c, i) => {
+      const cInsts = companyInsts(c.co, ix);
+      if(cInsts.length) instByC[i] = cInsts;
+      const ts = toks(c.n);
+      if(ts.length < 2) return;
+      const cands = new Map();     // person node -> base score
+      (ix.pExact[key(ts)] || ix.pExact[skey(ts)] || new Set()).forEach(p => cands.set(p, 0.9));
+      const shared = {};
+      ts.forEach(w => (ix.pTok[w] || new Set()).forEach(p => shared[p.id] = (shared[p.id]||0) + 1));
+      Object.keys(shared).forEach(pid => {
+        if(shared[pid] >= 2 && !cands.has(byId[pid])){
+          const p = byId[pid], pts = toks(p.name);
+          const short = ts.length <= pts.length ? ts : pts, lon = short === ts ? pts : ts;
+          if(short.every(w => lon.includes(w))) cands.set(p, 0.8);
+        }
+      });
+      let best = null, bs = 0;
+      cands.forEach((base, p) => {
+        let s = base;
+        const ri = roleInsts(p);
+        if(cInsts.some(id => ri.includes(id))) s += 0.09;
+        if(s > bs){ bs = s; best = p; }
+      });
+      if(best && bs >= 0.78)
+        byC[i] = {pid: best.id, sc: Math.min(0.99, bs), st: bs >= 0.95 ? "auto" : "review"};
+    });
+    return {v:1, at: Date.now(), byC, instByC};
+  }
+
+  /* ---- public state ---- */
+  const contacts = load(K_CONTACTS);
+  let matches = load(K_MATCH);
+  if(contacts && contacts.list && !matches){
+    matches = runMatch(contacts.list);
+    save(K_MATCH, matches);
+  }
+  function decide(ci, ok){
+    if(!matches || !matches.byC[ci]) return;
+    matches.byC[ci].st = ok ? "confirmed" : "rejected";
+    save(K_MATCH, matches);
+  }
+  function reviewQueue(){
+    if(!contacts || !matches) return [];
+    return Object.keys(matches.byC)
+      .filter(ci => matches.byC[ci].st === "review")
+      .map(ci => ({ci, c: contacts.list[ci], m: matches.byC[ci], p: byId[matches.byC[ci].pid]}))
+      .filter(x => x.c && x.p);
+  }
+  function derived(){
+    if(!contacts || !matches) return {contacts: [], direct: new Set()};
+    const out = [], direct = new Set();
+    contacts.list.forEach((c, i) => {
+      const m = matches.byC[i];
+      const inst = new Set(matches.instByC[i] || []);
+      if(m && (m.st === "auto" || m.st === "confirmed")){
+        direct.add(m.pid);
+        roleInsts(byId[m.pid] || {}).forEach(id => inst.add(id));
+      }
+      if(inst.size || (m && m.st !== "rejected"))
+        out.push({n: c.n, pos: c.po, company: c.co, inst: [...inst],
+                  pid: m && m.st !== "rejected" && m.st !== "review" ? m.pid : null});
+    });
+    return {contacts: out, direct};
+  }
+  function stats(){
+    if(!contacts) return null;
+    const q = reviewQueue().length;
+    const matched = matches ? Object.values(matches.byC).filter(m => m.st === "auto" || m.st === "confirmed").length : 0;
+    const reach = new Set();
+    derived().contacts.forEach(c => c.inst.forEach(id => reach.add(id)));
+    return {total: contacts.list.length, matched, review: q, reach: reach.size, at: contacts.at};
+  }
+  function wipe(){
+    Object.keys(localStorage).forEach(k => { if(k.startsWith("pm2_")) localStorage.removeItem(k); });
+  }
+  return {has: !!(contacts && contacts.list), importCSV, decide, reviewQueue, derived, stats, wipe};
+})();
+
+/* merge: file-based my_network.js (legacy, optional) + in-browser personal layer */
+const _pers = Personal.derived();
+const MYNET = (_pers.contacts.length || window.MY_NETWORK)
+  ? {contacts: (window.MY_NETWORK && window.MY_NETWORK.contacts || []).concat(_pers.contacts)}
+  : null;
+const MY_DIRECT = _pers.direct;
 const contactsByInst = {};
 if(MYNET && MYNET.contacts) MYNET.contacts.forEach(c =>
   (c.inst||[]).forEach(id => { (contactsByInst[id] = contactsByInst[id] || []).push(c); }));
-nodes.forEach(n => { n.contacts = contactsByInst[n.id] || []; });
-const AKAS = (typeof AKA !== "undefined") ? AKA : {};
+nodes.forEach(n => {
+  n.contacts = contactsByInst[n.id] || [];
+  n.myDirect = MY_DIRECT.has(n.id);
+});
 
 /* ---------- visual hierarchy ---------- */
 function nodeClass(n){
@@ -696,6 +938,55 @@ function computePath(a, b){
   }
   return {nodes: pathNodes, edges: edgeList, edgeSet: new Set(edgeList), t0: performance.now()};
 }
+
+/* ---------- Access engine V1 (Phase 2B seed) ----------
+   BFS outward from the target until we hit an anchor the user can start
+   from: a matched direct contact (verified start) or an institution where
+   the user has contacts (possible start). Best path ≠ shortest path in
+   general, but V1 ranks person-anchors above institution-anchors at any
+   depth ≤ their depth+1, which captures the main spec distinction. */
+function accessFor(target){
+  if(!MYNET) return null;
+  if(target.kind === "person" && target.myDirect)
+    return {score: 95, hops: 1, direct: true, possible: false, ns: false,
+            path: {nodes: [target], edges: [], edgeSet: new Set(), t0: 0}};
+  const prev = new Map([[target, null]]);
+  let frontier = [target], personHit = null, instHit = null;
+  for(let d = 1; d <= 3 && frontier.length && !personHit; d++){
+    const next = [];
+    for(const n of frontier){
+      for(const ad of n.adj){
+        if(ad.e.kind === "pot" || ad.e.former || prev.has(ad.n)) continue;
+        prev.set(ad.n, {n, e: ad.e});
+        if(!personHit && ad.n.kind === "person" && ad.n.myDirect) personHit = {n: ad.n, d};
+        if(!instHit && ad.n.kind === "inst" && ad.n.contacts.length) instHit = {n: ad.n, d};
+        next.push(ad.n);
+      }
+    }
+    frontier = next;
+  }
+  const instSelf = target.kind === "inst" && target.contacts.length ? {n: target, d: 0} : null;
+  const hit = personHit || instSelf || instHit;
+  if(!hit) return null;
+  const verified = !!personHit;
+  const pathNodes = [], edgeList = [];
+  let cur = hit.n;
+  while(cur){
+    pathNodes.push(cur);
+    const p = prev.get(cur);
+    if(p){ edgeList.push(p.e); cur = p.n; } else cur = null;
+  }
+  const ns = edgeList.some(e => e.v === "ns");
+  let score = verified ? (hit.d === 1 ? 84 : hit.d === 2 ? 70 : 54)
+                       : (hit.d === 0 ? 60 : hit.d === 1 ? 44 : 32);
+  if(ns) score -= 8;
+  return {score: Math.max(5, score), hops: hit.d + 1, direct: false, possible: !verified, ns,
+          anchor: hit.n, path: {nodes: pathNodes, edges: edgeList, edgeSet: new Set(edgeList), t0: 0}};
+}
+function accessLabel(sc){
+  return t().accLabels[sc >= 85 ? 4 : sc >= 70 ? 3 : sc >= 50 ? 2 : sc >= 30 ? 1 : 0];
+}
+
 function toast(msg, ms){
   const el = document.getElementById("toast");
   el.textContent = msg; el.style.display = "block";
@@ -875,7 +1166,7 @@ function draw(){
       ctx.textBaseline = "alphabetic";
     }
 
-    if(n.contacts.length && a > 0.5){
+    if((n.contacts.length || n.myDirect) && a > 0.5){
       ctx.beginPath();
       ctx.setLineDash([3,3]);
       ctx.arc(x, y, r + 4.5, 0, Math.PI*2);
@@ -1131,6 +1422,23 @@ function select(n){
   html += `<div class="pathbtn" id="p-arm">${t().pathBtn}</div> `
         + `<a class="pathbtn" style="text-decoration:none" target="_blank" rel="noopener" `
         + `href="https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(liQuery(n))}">${t().liSearch}</a>`;
+  const acc = accessFor(n);
+  if(MYNET){
+    html += `<div class="sect" style="color:#2F9E63">${t().accTitle}</div>`;
+    if(!acc){
+      html += `<div class="role"><span style="color:var(--ink-faint)">${t().accNoPath}</span></div>`;
+    } else if(acc.direct){
+      html += `<div class="role"><span class="rt" style="color:#2F9E63">✓ ${t().accDirect}</span>`
+            + `<span class="badge" style="margin-left:6px">${accessLabel(acc.score)} · ${acc.score}/100</span></div>`;
+    } else {
+      const chain = [t().accYou].concat(acc.path.nodes.map(x => x.kind==="inst" ? x.short : x.name));
+      html += `<div class="role"><span class="rt">${accessLabel(acc.score)} · ${acc.hops} ${t().accHops}</span>`
+            + `<span class="badge" style="margin-left:6px">${acc.score}/100</span><br>`
+            + `<span style="color:var(--ink-soft,#5B5D66);font-size:11px">${chain.join(" → ")}</span><br>`
+            + `<span style="color:var(--ink-faint);font-size:10.5px">${acc.possible ? t().accPossible : (acc.ns ? t().accConfMed : t().accConfHigh)}</span>`
+            + ` <span class="ri" id="acc-show" style="font-size:10.5px">${t().accShow}</span></div>`;
+    }
+  }
   if(n.kind==="person" && n.roles){
     html += `<div class="sect">${t().positions}</div>`;
     const sorted = n.roles.slice().sort((a,b) => (a[4]?1:0) - (b[4]?1:0));   // current first, history after
@@ -1178,6 +1486,13 @@ function select(n){
     armBtn.classList.add("armed");
     armBtn.textContent = t().pathArmed;
     toast(t().pathArmed);
+  };
+  const accBtn = document.getElementById("acc-show");
+  if(accBtn && acc && acc.path.nodes.length > 1) accBtn.onclick = () => {
+    acc.path.t0 = performance.now();
+    S.path = acc.path; S.selected = null; S.askSet = null;
+    detail.classList.remove("open");
+    centerOn(acc.path.nodes[0]);
   };
 }
 function selectEdge(e){
@@ -1444,6 +1759,82 @@ function toggleLang(){
   applyLang();
 }
 document.getElementById("b-lang").onclick = toggleLang;
+
+/* ---------- My Network panel (Phase 2 personal layer) ---------- */
+const myPanel = document.getElementById("mypanel");
+let mpDirty = false;
+function renderMyPanel(){
+  const st = Personal.stats();
+  let html = `<h2>${t().myNet}</h2><div class="mp-priv">🔒 ${t().mpPrivacy}</div>`;
+  if(!st){
+    html += `<p class="mp-p">${t().mpConnect}</p><p class="mp-p" style="color:var(--ink-faint)">${t().mpHow}</p>`
+          + `<label class="pathbtn mp-file">${t().mpImport}<input type="file" id="mp-in" accept=".csv,text/csv" hidden></label>`;
+  } else {
+    const q = Personal.reviewQueue();
+    html += `<div class="mp-nums">`
+          + `<div><b>${st.total}</b><span>${t().mpImported}</span></div>`
+          + `<div><b>${st.matched}</b><span>${t().mpMatchedTo}</span></div>`
+          + `<div><b>${st.reach}</b><span>${t().mpReach}</span></div>`
+          + (q.length ? `<div><b style="color:#B7791F">${q.length}</b><span>${t().mpReview}</span></div>` : "")
+          + `</div>`;
+    if(q.length){
+      html += `<div class="sect">${t().mpReviewTitle}</div>`;
+      q.slice(0, 6).forEach(x => {
+        const role = (x.p.roles && x.p.roles[0]) ? x.p.roles[0][1] + ", " + (byId[x.p.roles[0][0]] ? byId[x.p.roles[0][0]].short : "") : "";
+        html += `<div class="mp-card">`
+              + `<div class="mp-side"><span class="mp-lbl">${t().mpYourContact}</span><b>${x.c.n}</b><span>${x.c.po||""}${x.c.co ? " · " + x.c.co : ""}</span></div>`
+              + `<div class="mp-side"><span class="mp-lbl">${t().mpInMap}</span><b>${x.p.name}</b><span>${role}</span></div>`
+              + `<div class="mp-act"><span class="mp-pct">${Math.round(x.m.sc*100)}%</span>`
+              + `<div class="pathbtn mp-yes" data-ci="${x.ci}">${t().mpYes}</div>`
+              + `<div class="pathbtn mp-no" data-ci="${x.ci}">${t().mpNo}</div></div></div>`;
+      });
+    } else {
+      html += `<p class="mp-p" style="color:var(--ink-faint)">${t().mpNone}</p>`;
+    }
+    html += `<div style="margin-top:14px">`
+          + (mpDirty ? `<div class="pathbtn" id="mp-apply" style="background:var(--accent,#4C57C5);color:#fff">${t().mpApply}</div> ` : "")
+          + `<label class="pathbtn mp-file">${t().mpImport}<input type="file" id="mp-in" accept=".csv,text/csv" hidden></label> `
+          + `<div class="pathbtn" id="mp-del" style="color:#B33">${t().mpDelete}</div></div>`;
+  }
+  document.getElementById("mp-body").innerHTML = html;
+  const fin = document.getElementById("mp-in");
+  if(fin) fin.onchange = ev => {
+    const f = ev.target.files[0];
+    if(!f) return;
+    const rd = new FileReader();
+    rd.onload = () => {
+      const nImp = Personal.importCSV(String(rd.result));
+      if(nImp){ toast("✓ " + nImp + " " + t().mpImported); setTimeout(() => location.reload(), 700); }
+      else toast("Connections.csv?");
+    };
+    rd.readAsText(f);
+  };
+  document.querySelectorAll(".mp-yes,.mp-no").forEach(b => b.onclick = () => {
+    Personal.decide(b.getAttribute("data-ci"), b.classList.contains("mp-yes"));
+    mpDirty = true;
+    renderMyPanel();
+  });
+  const ap = document.getElementById("mp-apply");
+  if(ap) ap.onclick = () => location.reload();
+  const del = document.getElementById("mp-del");
+  if(del) del.onclick = () => { Personal.wipe(); location.reload(); };
+}
+function openMyPanel(){ renderMyPanel(); myPanel.classList.add("open"); }
+document.getElementById("mp-close").onclick = () => {
+  myPanel.classList.remove("open");
+  if(mpDirty) location.reload();
+};
+const mnBtn = document.getElementById("b-mynet");
+if(mnBtn) mnBtn.onclick = openMyPanel;
+const mnBtnM = document.getElementById("b-mynet-m");
+if(mnBtnM) mnBtnM.onclick = () => { document.getElementById("filters").classList.remove("open"); openMyPanel(); };
+document.getElementById("b-lang").addEventListener("click", () => {
+  if(mnBtn) mnBtn.textContent = t().myNet;
+  if(mnBtnM) mnBtnM.textContent = t().myNet;
+  if(myPanel.classList.contains("open")) renderMyPanel();
+});
+if(mnBtn) mnBtn.textContent = t().myNet;
+if(mnBtnM) mnBtnM.textContent = t().myNet;
 
 /* ---------- stats ---------- */
 function updateStats(){
