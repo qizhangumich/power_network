@@ -49,7 +49,6 @@ ahmed_jasim_zaabi,Ahmed Jasim Al Zaabi,adgm,Abu Dhabi Global Market,Chairman,gov
 ahmed_jasim_zaabi,Ahmed Jasim Al Zaabi,execcouncil,Abu Dhabi Executive Council,Member,political,v
 alsuwaidi_adq,Mohamed Hassan Alsuwaidi,fedgov,UAE Cabinet / Federal Government,UAE Minister of Investment,political,v
 alsuwaidi_adq,Mohamed Hassan Alsuwaidi,adq,ADQ,Managing Director & CEO,executive,v
-alsuwaidi_adq,Mohamed Hassan Alsuwaidi,taqa,TAQA Group,Chairman,board,v
 syed_basar,Syed Basar Shueb,ihc,International Holding Company,CEO,executive,v
 faisal_bannai,Faisal Al Bannai,prescourt,UAE Presidential Court,Adviser for Strategic Research & Advanced Technology Affairs,political,v
 faisal_bannai,Faisal Al Bannai,atrc,Advanced Technology Research Council,Secretary-General,government,v
@@ -126,7 +125,6 @@ karim,Karim Michel Sabbagh,space42,Space42,Managing Director,executive,v
 alnaqbi,Hassan Alnaqbi,khazna,Khazna Data Centers,CEO,executive,v
 najwa,Dr. Najwa Aaraj,tii,Technology Innovation Institute,CEO,executive,v
 eric_xing,Prof. Eric Xing,mbzuai,Mohamed bin Zayed University of AI,President,executive,v
-hatem,Hatem Dowidar,e_and,e& (Etisalat Group),Group CEO,executive,v
 hamad_marar,Hamad Al Marar,edge_grp,EDGE Group,Managing Director & CEO,executive,v
 shaista,Shaista Asif,purehealth,PureHealth,Group CEO,executive,v
 hasan_nowais,Hasan Jasem Al Nowais,m42,M42,Managing Director & Group CEO,executive,v
@@ -194,3 +192,75 @@ karim_bennis,Karim Bennis,e_and,e& (Etisalat Group),Group Chief Financial Office
 saif_dahbashi,Saif Ali Al Dahbashi,edge_grp,EDGE Group,"President, Missiles & Weapons Cluster",executive,v
 raffael_quintas,Raffael Quintas,etihad,Etihad Airways,Chief Financial Officer,executive,v
 salmeen_alameri,Salmeen Obaid Alameri,agthia,Agthia Group,Managing Director & Group CEO,executive,v
+tahnoun_bin_zayed,Tahnoun bin Zayed Al Nahyan,fab,,Chairman,board,v
+sheikh_mohamed_bin,Sheikh Mohamed bin Saif Al Nahyan,fab,,Vice Chairman,board,v
+jassem_mohammed_bu,Jassem Mohammed Bu Ataba Al Zaabi,fab,,Board Member,board,v
+mariam_bint_mohammed,Mariam bint Mohammed Saeed Hareb Almheiri,fab,,Board Member,board,v
+sheikh_ahmed_mohammed,Sheikh Ahmed Mohammed Sultan Aldhaheri,fab,,Board Member,board,v
+mohammed_thani_murshed,Mohammed Thani Murshed Al Rumaithi,fab,,Board Member,board,v
+mohamed_saif_al,Mohamed Saif Al Suwaidi,fab,,Board Member,board,v
+khalifa_ateeq_al,Khalifa Ateeq Al Mazrouei,fab,,Board Member,board,v
+futoon_hamdan_al,Futoon Hamdan Al Mazrouei,fab,,"Group Head, Personal & Wealth Banking",executive,v
+linos_lekkas,Linos Lekkas,fab,,Group Head of Investment Banking & Markets,executive,v
+martin_tricaud,Martin Tricaud,fab,,Group Head of Wholesale Banking,executive,v
+chris_jaques,Chris Jaques,fab,,Group Chief Risk Officer,executive,v
+divyesh_vithlani,Divyesh Vithlani,fab,,Group Chief Technology & Transformation Officer,executive,v
+keith_macdonald,Keith Macdonald,fab,,Group Chief Operations Officer,executive,v
+noora_al_reyasi,Noora Al Reyasi,fab,,Group Chief Human Resources Officer,executive,v
+omar_hafeez,Omar Hafeez,fab,,Group Head of International Banking,executive,v
+jawaan_awaidha_suhail,Jawaan Awaidha Suhail Al Khaili,adib,,Chairman,board,v
+dr_faisal_sultan,Dr. Faisal Sultan Al Shuaibi,adib,,Vice Chairman,board,v
+abdulla_ali_musleh,Abdulla Ali Musleh Al Ahbabi,adib,,Board Member,board,v
+abdul_wahab_al,Abdul Wahab Al-Halabi,adib,,Board Member,board,v
+khalifa_matar_al,Khalifa Matar Al Mheiri,adib,,Board Member,board,v
+maha_mohammad_al,Maha Mohammad Al Qattan,adib,,Board Member,board,v
+najib_youssef_fayyad,Najib Youssef Fayyad,adib,,Board Member,board,v
+ahsan_akhtar,Ahsan Akhtar,adib,,Group Chief Financial Officer,executive,v
+talha_syed_karim,Talha Syed Karim,adib,,Group Chief Risk Officer,executive,v
+metha_al_hashmi,Metha Al Hashmi,adib,,Group Chief Credit Officer,executive,v
+bushra_alshehhi,Bushra Alshehhi,adib,,Group Chief HR Officer,executive,v
+amit_malhotra,Amit Malhotra,adib,,Global Head of Retail Banking,executive,v
+hakim_karoui,Hakim Karoui,adib,,Group Head of Wholesale Banking,executive,v
+essa_abdulfattah_kazim,Essa Abdulfattah Kazim Al Mulla,e_and,,Vice Chairman,board,v
+hesham_abdulla_qassim,Hesham Abdulla Qassim Al Qassim,e_and,,Board Member,board,v
+michel_combes,Michel Combes,e_and,,Board Member,board,v
+mariam_saeed_ahmed,Mariam Saeed Ahmed Ghobash,e_and,,Board Member,board,v
+saleh_abdulla_alabdooli,Saleh Abdulla Alabdooli,e_and,,Board Member,board,v
+abdelmonem_bin_eisa,Abdelmonem Bin Eisa Alserkal,e_and,,Board Member,board,v
+khalid_abdulwahid_alrustaman,Khalid Abdulwahid Alrustamani,e_and,,Board Member,board,v
+otaiba_khalaf_ahmed,Otaiba Khalaf Ahmed Al Otaiba,e_and,,Board Member,board,v
+masood_m_sharif,Masood M. Sharif Mahmood,e_and,,Group Chief Executive Officer,executive,v
+khalifa_al_shamsi,Khalifa Al Shamsi,e_and,,"Managing Director, e& international",executive,v
+haitham_abdulrazzak,Haitham Abdulrazzak,e_and,,Group Chief AI & Business Solutions Officer,executive,v
+khalid_murshed,Khalid Murshed,e_and,,Group Chief Operations Officer,executive,v
+borja_lopez,Borja Lopez,e_and,,Group Chief Strategy Officer,executive,v
+obaid_bokisha,Obaid Bokisha,e_and,,Chief of Staff,executive,v
+abdulla_humaid_al,Abdulla Humaid Al Jarwan,taqa,,Board Member,board,ns
+kamal_ishaq_almaazmi,Kamal Ishaq Almaazmi,taqa,,Board Member,board,ns
+buthaina_abdulla_almazrouei,Buthaina Abdulla Almazrouei,taqa,,Board Member,board,ns
+muna_ali_al,Muna Ali Al Dhaheri,taqa,,Board Member,board,ns
+hamad_abdulla_al,Hamad Abdulla Al Hammadi,taqa,,Board Member,board,ns
+khaled_mohamed_al,Khaled Mohamed Al Zaabi,taqa,,Board Member,board,ns
+hamsa_parama_shadaksharappa,Hamsa Parama Shadaksharappa,taqa,,Board Member,board,ns
+khaled_h_alkhoori,Khaled H. Alkhoori,adcb,,Board Member,board,v
+khalid_deemas_alsuwaidi,Khalid Deemas Alsuwaidi,adcb,,Board Member,board,v
+aysha_al_hallami,Aysha Al Hallami,adcb,,Board Member,board,v
+carlos_obeid,Carlos Obeid,adcb,,Board Member,board,v
+saeed_mohamed_hamad,Saeed Mohamed Hamad Almazrouei,adcb,,Board Member,board,v
+sheikh_zayed_bin,Sheikh Zayed Bin Suroor Al Nahyan,adcb,,Board Member,board,v
+sheikh_sultan_bin,Sheikh Sultan Bin Suroor Al Dhaheri,adcb,,Board Member,board,v
+fatima_al_nuaimi,Fatima Al Nuaimi,adcb,,Board Member,board,v
+robbert_muller,Robbert Muller,adcb,,Group Treasurer,executive,v
+ludovic_nobili,Ludovic Nobili,adcb,,"Group Chief Corporate, Wealth & Investment Banking Officer",executive,v
+mohammed_al_jayyash,Mohammed Al Jayyash,adcb,,Group Chief Operating Officer,executive,v
+deepak_rochlani,Deepak Rochlani,adcb,,Group Chief Retail Banking Officer,executive,v
+abdulla_abdul_aziz,Abdulla Abdul Aziz AlShamsi,adcb,,Group Chief Business Officer,executive,v
+reem_albanna,Reem AlBanna,adcb,,Group Chief Risk Officer,executive,v
+sofia_abdellatif_lasky,Sofia Abdellatif Lasky,aldar,,Board Member,board,v
+dr_bakheet_saeed,Dr. Bakheet Saeed Al Katheeri,aldar,,Board Member,board,v
+eng_hamad_salem,Eng. Hamad Salem Mohamed Al Ameri,aldar,,Board Member,board,ns
+faisal_falaknaz,Faisal Falaknaz,aldar,,Group Chief Financial & Sustainability Officer,executive,v
+bayan_al_hosani,Bayan Al Hosani,aldar,,Chief People & Communications Officer,executive,v
+jonathan_emery,Jonathan Emery,aldar,,"CEO, Aldar Development",executive,ns
+jassem_zaabi,Jassem Mohamed Bu Ataba Al Zaabi,taqa,TAQA Group,Chairman,board,v
+sultan_jaber,Dr. Sultan Ahmed Al Jaber,taqa,TAQA Group,Vice Chairman,board,v

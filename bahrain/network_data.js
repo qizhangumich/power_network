@@ -150,6 +150,78 @@ const PEOPLE = [
     note:"Also holds the title Special Envoy for Climate Affairs; Bahrain's lead voice at COP and other climate forums."},
   {id:"alromaihi_housing", n:"H.E. Aminah bint Ahmad Al Romaihi", t:1, p:64, s:"realestate", roles:[
     ["moh_bh","Minister of Housing & Urban Planning","political","v"]]},
+  {id:"naji_mohamed_issa", n:"Naji Mohamed Issa Belgasem", t:2, p:62, s:"finance", roles:[
+    ["abc","Chairman","board","v"]]},
+  {id:"abdulaziz_fahad_alhudaibh", n:"Abdulaziz Fahad Alhudaibh", t:2, p:62, s:"finance", roles:[
+    ["abc","Deputy Chairman","board","v"]]},
+  {id:"amer_mohamed_karkar", n:"Amer Mohamed Karkar", t:2, p:52, s:"finance", roles:[
+    ["abc","Board Member","board","v"]]},
+  {id:"mohamed_hassadi", n:"Mohamed Hassadi", t:2, p:52, s:"finance", roles:[
+    ["abc","Board Member","board","v"]]},
+  {id:"edrees_ahmad", n:"Edrees Ahmad", t:2, p:52, s:"finance", roles:[
+    ["abc","Board Member","board","v"]]},
+  {id:"khalil_ibrahim_nooruddin", n:"Khalil Ibrahim Nooruddin", t:2, p:52, s:"finance", roles:[
+    ["abc","Board Member","board","v"]]},
+  {id:"dr_marouane_el", n:"Dr. Marouane El Abassi", t:2, p:52, s:"finance", roles:[
+    ["abc","Board Member","board","v"]]},
+  {id:"dr_ibrahim_eldanfour", n:"Dr. Ibrahim Eldanfour", t:2, p:52, s:"finance", roles:[
+    ["abc","Board Member","board","v"]]},
+  {id:"manaf_abdulaziz_al", n:"Manaf Abdulaziz Al Hajiri", t:2, p:52, s:"finance", roles:[
+    ["abc","Board Member","board","v"]]},
+  {id:"brendon_hopkins", n:"Brendon Hopkins", t:2, p:58, s:"finance", roles:[
+    ["abc","Acting Group Chief Executive Officer","executive","ns"]]},
+  {id:"hala_ali_husain", n:"Hala Ali Husain Yateem", t:2, p:62, s:"finance", roles:[
+    ["nbb","Chairwoman","board","v"]]},
+  {id:"yusuf_abdulla_yusuf", n:"Yusuf Abdulla Yusuf Alireza", t:2, p:62, s:"finance", roles:[
+    ["nbb","Vice Chairman","board","v"]]},
+  {id:"rashed_bin_salman", n:"Rashed Bin Salman Mohamed Al Khalifa", t:2, p:52, s:"finance", roles:[
+    ["nbb","Board Member","board","v"]]},
+  {id:"rishi_kapoor", n:"Rishi Kapoor", t:2, p:52, s:"finance", roles:[
+    ["nbb","Board Member","board","v"]]},
+  {id:"vincent_van_den", n:"Vincent Van Den Boogert", t:2, p:52, s:"finance", roles:[
+    ["nbb","Board Member","board","v"]]},
+  {id:"dr_paul_david", n:"Dr. Paul David Pester", t:2, p:52, s:"finance", roles:[
+    ["nbb","Board Member","board","v"]]},
+  {id:"isa_hasan_maseeh", n:"Isa Hasan Maseeh", t:2, p:52, s:"finance", roles:[
+    ["nbb","Board Member","board","v"]]},
+  {id:"mohamed_farouk_almoayyed", n:"Mohamed Farouk Almoayyed", t:2, p:52, s:"finance", roles:[
+    ["nbb","Board Member","board","v"]]},
+  {id:"ahmed_fawzi_kanoo", n:"Ahmed Fawzi Kanoo", t:2, p:52, s:"finance", roles:[
+    ["nbb","Board Member","board","v"]]},
+  {id:"abdulmohsen_rashed_alrashed", n:"Abdulmohsen Rashed Alrashed", t:2, p:62, s:"finance", roles:[
+    ["gfh","Chairman","board","v"]]},
+  {id:"ghazi_faisal_ebrahim", n:"Ghazi Faisal Ebrahim Alhajeri", t:2, p:62, s:"finance", roles:[
+    ["gfh","Vice Chairman","board","v"]]},
+  {id:"ali_murad", n:"Ali Murad", t:2, p:52, s:"finance", roles:[
+    ["gfh","Board Member","board","v"]]},
+  {id:"abdulla_jehad_alzain", n:"Abdulla Jehad AlZain", t:2, p:52, s:"finance", roles:[
+    ["gfh","Board Member","board","v"]]},
+  {id:"darwish_abdulla_alketbi", n:"Darwish Abdulla AlKetbi", t:2, p:52, s:"finance", roles:[
+    ["gfh","Board Member","board","v"]]},
+  {id:"abdulaziz_abdulhamid_albassa", n:"Abdulaziz Abdulhamid AlBassam", t:2, p:52, s:"finance", roles:[
+    ["gfh","Board Member","board","v"]]},
+  {id:"salah_sharif", n:"Salah Sharif", t:2, p:58, s:"finance", roles:[
+    ["gfh","Chief Operating Officer","executive","v"]]},
+  {id:"bhaskar_mehta", n:"Bhaskar Mehta", t:2, p:58, s:"finance", roles:[
+    ["gfh","Chief Risk Officer and Acting CFO","executive","ns"]]},
+  {id:"khalid_al_rumaihi", n:"Khalid Al Rumaihi", t:2, p:62, s:"materials", roles:[
+    ["alba","Chairman","board","v"]]},
+  {id:"shaikh_isa_bin", n:"Shaikh Isa bin Khalid Al Khalifa", t:2, p:52, s:"materials", roles:[
+    ["alba","Board Member","board","v"]]},
+  {id:"tim_murray", n:"Tim Murray", t:2, p:52, s:"materials", roles:[
+    ["alba","Board Member","board","v"]]},
+  {id:"roselyne_renel", n:"Roselyne Renel", t:2, p:52, s:"materials", roles:[
+    ["alba","Board Member","board","v"]]},
+  {id:"omar_syed", n:"Omar Syed", t:2, p:52, s:"materials", roles:[
+    ["alba","Board Member","board","v"]]},
+  {id:"ahmed_al_shaikh", n:"Ahmed Al Shaikh", t:2, p:52, s:"materials", roles:[
+    ["alba","Board Member","board","v"]]},
+  {id:"khaled_al_rowais", n:"Khaled Al Rowais", t:2, p:52, s:"materials", roles:[
+    ["alba","Board Member","board","v"]]},
+  {id:"rasha_sabkar", n:"Rasha Sabkar", t:2, p:52, s:"materials", roles:[
+    ["alba","Board Member","board","v"]]},
+  {id:"hala_abdul_hameed", n:"Hala Abdul Hameed Mufeez", t:2, p:52, s:"materials", roles:[
+    ["alba","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

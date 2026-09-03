@@ -297,7 +297,7 @@ const I18N = {
     views:{network:"Network", sector:"Sectors", institution:"Institution", control:"Control"},
     bFilter:"Filter", bFit:"Fit", bLang:"中文",
     hdViews:"View", hdLayers:"Layers", hdTypes:"Node type", hdEdges:"Edges", hdSectors:"Sectors",
-    cPeople:"People", cInsts:"Institutions", cRoles:"Roles", cOwn:"Ownership", cFam:"Family", cPot:"Potential",
+    cPeople:"People", cInsts:"Institutions", cBoards:"Board & staff level", cRoles:"Roles", cOwn:"Ownership", cFam:"Family", cPot:"Potential",
     cShowAll:"Show all nodes",
     tiers:TIER_NAMES,
     person:"Person", inst:"Institution", positions:"Positions", signals:"Recent signals",
@@ -328,7 +328,7 @@ const I18N = {
     views:{network:"网络", sector:"行业", institution:"机构", control:"控制链"},
     bFilter:"筛选", bFit:"适配", bLang:"EN",
     hdViews:"视图", hdLayers:"层级", hdTypes:"节点类型", hdEdges:"连接类型", hdSectors:"行业",
-    cPeople:"人物", cInsts:"机构", cRoles:"职务", cOwn:"所有权", cFam:"家族", cPot:"潜在关系",
+    cPeople:"人物", cInsts:"机构", cBoards:"董事会及高管层", cRoles:"职务", cOwn:"所有权", cFam:"家族", cPot:"潜在关系",
     cShowAll:"显示全部节点",
     tiers:["L0 · 统治核心","L1 · 主权资本与国家","L2 · 运营者与行业领袖","L3 · 私营与国际伙伴"],
     person:"人物", inst:"机构", positions:"职位", signals:"最新动态",
@@ -447,7 +447,7 @@ const S = {
   pathArm: null,        // start node waiting for a destination click
   askSet: null,         // Set of nodes highlighted by an Ask query
   labels: true, physics: true,
-  lite: window.innerWidth < 761, liteOff: false,
+  lite: window.innerWidth < 761, liteOff: false, showAll: false,
   cam: {x:0, y:0, k:0.48},
   alpha: 1,
 };
@@ -464,6 +464,9 @@ function nodeVisible(n){
   if(!S.activeTiers.has(n.tier)) return false;
   if(n.kind==="person" && !S.showPeople) return false;
   if(n.kind==="inst" && !S.showInsts) return false;
+  // progressive disclosure: board/staff-level people surface when their
+  // company is in focus (click it), not in the ambient view
+  if(n.kind==="person" && n.power < 56 && !S.showAll && !inFocusContext(n)) return false;
   if(S.lite && !S.liteOff && n.power < 86 && !inFocusContext(n)) return false;
   if(S.focus){
     if(n===S.focus) return true;
@@ -578,21 +581,30 @@ function step(){
   const a = S.alpha;
   if(a < 0.003 && S.view === "network") return;   // reorganized views keep gliding to targets
   const vis = nodes.filter(nodeVisible);
-  for(let i=0;i<vis.length;i++){
-    const n1 = vis[i];
-    for(let j=i+1;j<vis.length;j++){
-      const n2 = vis[j];
-      let dx = n1.x-n2.x, dy = n1.y-n2.y;
-      let d2 = dx*dx+dy*dy;
-      if(d2 < 1) { dx = (Math.random()-.5); dy = (Math.random()-.5); d2 = 1; }
-      if(d2 > 260000) continue;
-      const f = 3600 / d2 * a;
-      const d = Math.sqrt(d2);
-      dx/=d; dy/=d;
-      n1.vx += dx*f; n1.vy += dy*f;
-      n2.vx -= dx*f; n2.vy -= dy*f;
+  // spatial-grid repulsion: near-linear, scales to thousands of nodes
+  const CELL = 180;
+  const grid = new Map();
+  vis.forEach(n => {
+    const k = Math.floor(n.x/CELL) + ":" + Math.floor(n.y/CELL);
+    let arr = grid.get(k); if(!arr){ arr = []; grid.set(k, arr); } arr.push(n);
+  });
+  vis.forEach(n1 => {
+    const gx = Math.floor(n1.x/CELL), gy = Math.floor(n1.y/CELL);
+    for(let cx=gx-1; cx<=gx+1; cx++) for(let cy=gy-1; cy<=gy+1; cy++){
+      const arr = grid.get(cx + ":" + cy);
+      if(!arr) continue;
+      for(const n2 of arr){
+        if(n2 === n1) continue;
+        let dx = n1.x-n2.x, dy = n1.y-n2.y;
+        let d2 = dx*dx+dy*dy;
+        if(d2 < 1){ dx = (Math.random()-.5); dy = (Math.random()-.5); d2 = 1; }
+        if(d2 > 260000) continue;
+        const f = 3600 / d2 * a;
+        const d = Math.sqrt(d2);
+        n1.vx += dx/d*f; n1.vy += dy/d*f;
+      }
     }
-  }
+  });
   const springK = S.view === "network" ? 0.012 : 0.003;  // reorganized views: layout wins over springs
   edges.forEach(e => {
     if(e.kind==="pot" || !edgeVisible(e)) return;
@@ -1203,6 +1215,7 @@ TIER_NAMES.forEach((_,i) => chip(fLayers, () => tierName(i), true, on => { on ? 
 const fTypes = document.getElementById("f-types");
 chip(fTypes, () => t().cPeople, true, on => S.showPeople = on);
 chip(fTypes, () => t().cInsts, true, on => S.showInsts = on);
+chip(fTypes, () => t().cBoards, false, on => S.showAll = on).classList.add("off");
 const fEdges = document.getElementById("f-edges");
 chip(fEdges, () => t().cRoles, true, on => S.showEdges.role = on);
 chip(fEdges, () => t().cOwn, true, on => S.showEdges.own = on);

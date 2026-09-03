@@ -142,16 +142,14 @@ const PEOPLE = [
     ["nakheel","Chairman","board","ns"],
     ["dib","Chairman","board","v"]],
     note:"The Ruler's chief business fiduciary — controls the ICD holding that owns Emirates, ENBD and more."},
-  {id:"sultan_sulayem", n:"Sultan Ahmed bin Sulayem", t:1, p:88, s:"industry", roles:[
-    ["dpworld","Group Chairman & CEO","executive","v"]],
-    note:"Built Jebel Ali into a global ports empire spanning 70+ terminals."},
   {id:"altayer_dewa", n:"Saeed Mohammed Al Tayer", t:1, p:84, s:"utilities", roles:[
     ["dewa","Managing Director & CEO","executive","v"]]},
   {id:"mattar_tayer", n:"Mattar Al Tayer", t:1, p:78, s:"gov", roles:[
     ["rta","Chairman & Director-General","government","v"]]},
   {id:"essa_kazim", n:"Essa Kazim", t:1, p:82, s:"finance", roles:[
     ["difc","Governor","executive","v"],
-    ["dfm","Chairman","board","ns"]]},
+    ["dfm","Chairman","board","ns"],
+    ["dpworld","Chairman","board","v"]]},
   {id:"helal_marri", n:"Helal Saeed Almarri", t:1, p:78, s:"gov", roles:[
     ["det","Director-General","government","v"]]},
   {id:"reem_hashimy", n:"Reem Al Hashimy", t:1, p:82, s:"gov", roles:[
@@ -221,6 +219,111 @@ const PEOPLE = [
     ["gdmo","Director-General","government","v"]]},
   {id:"mark_steward_dfsa", n:"Mark Steward", t:2, p:68, s:"finance", roles:[
     ["dfsa","Chief Executive","executive","v"]]},
+  {id:"hesham_abdulla_al", n:"Hesham Abdulla Al Qassim", t:2, p:62, s:"finance", roles:[
+    ["enbd","Vice Chairman & Managing Director","board","v"]]},
+  {id:"mohamed_hadi_al", n:"Mohamed Hadi Al Hussaini", t:2, p:52, s:"finance", roles:[
+    ["enbd","Board Member","board","v"]]},
+  {id:"buti_obaid_buti", n:"Buti Obaid Buti Al Mulla", t:2, p:52, s:"finance", roles:[
+    ["enbd","Board Member","board","v"]]},
+  {id:"ali_humaid_al", n:"Ali Humaid Al Owais", t:2, p:52, s:"finance", roles:[
+    ["enbd","Board Member","board","v"]]},
+  {id:"salem_mohammed_obaidalla", n:"Salem Mohammed Obaidalla", t:2, p:52, s:"finance", roles:[
+    ["enbd","Board Member","board","v"]]},
+  {id:"huda_sayed_alhashimi", n:"Huda Sayed AlHashimi", t:2, p:52, s:"finance", roles:[
+    ["enbd","Board Member","board","v"]]},
+  {id:"jassim_mohammed_al", n:"Jassim Mohammed Al Ali", t:2, p:52, s:"finance", roles:[
+    ["enbd","Board Member","board","v"]]},
+  {id:"khalid_juma_al", n:"Khalid Juma Al Majid", t:2, p:52, s:"finance", roles:[
+    ["enbd","Board Member","board","v"]]},
+  {id:"shayne_nelson", n:"Shayne Nelson", t:2, p:58, s:"finance", roles:[
+    ["enbd","Group Chief Executive Officer","executive","v"]]},
+  {id:"patrick_sullivan", n:"Patrick Sullivan", t:2, p:58, s:"finance", roles:[
+    ["enbd","Group Chief Financial Officer","executive","v"]]},
+  {id:"ahmed_al_qassim", n:"Ahmed Al Qassim", t:2, p:58, s:"finance", roles:[
+    ["enbd","Group Head Wholesale Banking","executive","v"]]},
+  {id:"marwan_hadi", n:"Marwan Hadi", t:2, p:58, s:"finance", roles:[
+    ["enbd","Group Head Retail Banking & Wealth Management","executive","v"]]},
+  {id:"eman_abdulrazzaq", n:"Eman Abdulrazzaq", t:2, p:58, s:"finance", roles:[
+    ["enbd","Group COO & Chief Human Resources Officer","executive","v"],
+    ["emaar","Board Member","board","v"]]},
+  {id:"manoj_chawla", n:"Manoj Chawla", t:2, p:58, s:"finance", roles:[
+    ["enbd","Group Chief Risk Officer","executive","v"]]},
+  {id:"farid_almulla", n:"Farid AlMulla", t:2, p:60, s:"finance", roles:[
+    ["enbd","CEO, Emirates Islamic","executive","v"]]},
+  {id:"miguel_rio_tinto", n:"Miguel Rio-Tinto", t:2, p:58, s:"finance", roles:[
+    ["enbd","Group Chief Digital & Information Officer","executive","v"]]},
+  {id:"jamal_majed_bin", n:"Jamal Majed Bin Thaniah", t:2, p:62, s:"realestate", roles:[
+    ["emaar","Chairman","board","ns"]]},
+  {id:"ahmed_jamal_jawa", n:"Ahmed Jamal Jawa", t:2, p:62, s:"realestate", roles:[
+    ["emaar","Vice Chairman","board","ns"]]},
+  {id:"abdullah_ali_bin", n:"Abdullah Ali bin Zayed Al-Falasi", t:2, p:52, s:"realestate", roles:[
+    ["emaar","Board Member","board","v"]]},
+  {id:"ahmed_saeed_bin", n:"Ahmed Saeed bin Meshar", t:2, p:52, s:"realestate", roles:[
+    ["emaar","Board Member","board","v"]]},
+  {id:"matar_alhemeiri", n:"Matar AlHemeiri", t:2, p:52, s:"realestate", roles:[
+    ["emaar","Board Member","board","v"]]},
+  {id:"omar_karim", n:"Omar Karim", t:2, p:52, s:"realestate", roles:[
+    ["emaar","Board Member","board","v"]]},
+  {id:"amit_jain", n:"Amit Jain", t:2, p:58, s:"realestate", roles:[
+    ["emaar","Group Chief Executive Officer","executive","v"]]},
+  {id:"ahmad_thani_al", n:"Ahmad Thani Al Matrooshi", t:2, p:58, s:"realestate", roles:[
+    ["emaar","Executive Director","executive","v"]]},
+  {id:"pawan_chindalia", n:"Pawan Chindalia", t:2, p:58, s:"realestate", roles:[
+    ["emaar","Group Chief Financial Officer","executive","ns"]]},
+  {id:"maitha_al_dossari", n:"Maitha Al Dossari", t:2, p:58, s:"realestate", roles:[
+    ["emaar","General Manager, Corporate Services","executive","ns"]]},
+  {id:"yahya_saeed_lootah", n:"Yahya Saeed Lootah", t:2, p:62, s:"finance", roles:[
+    ["dib","Vice Chairman","board","v"]]},
+  {id:"hamad_mubarak_buamim", n:"Hamad Mubarak Buamim", t:2, p:52, s:"finance", roles:[
+    ["dib","Board Member","board","v"]]},
+  {id:"abdulaziz_ahmed_almheiri", n:"Abdulaziz Ahmed Almheiri", t:2, p:52, s:"finance", roles:[
+    ["dib","Board Member","board","v"]]},
+  {id:"hamad_abdulla_alshamsi", n:"Hamad Abdulla Alshamsi", t:2, p:52, s:"finance", roles:[
+    ["dib","Board Member","board","v"]]},
+  {id:"abdulaziz_mohammed_almulla", n:"Abdulaziz Mohammed Almulla", t:2, p:52, s:"finance", roles:[
+    ["dib","Board Member","board","v"]]},
+  {id:"hind_binkhirbash", n:"Hind Binkhirbash", t:2, p:52, s:"finance", roles:[
+    ["dib","Board Member","board","v"]]},
+  {id:"bader_saeed_hareb", n:"Bader Saeed Hareb", t:2, p:52, s:"finance", roles:[
+    ["dib","Board Member","board","v"]]},
+  {id:"javier_marin_romano", n:"Javier Marin Romano", t:2, p:52, s:"finance", roles:[
+    ["dib","Board Member","board","v"]]},
+  {id:"obaid_al_shamsi", n:"Obaid Al Shamsi", t:2, p:58, s:"finance", roles:[
+    ["dib","Chief Operating Officer","executive","v"]]},
+  {id:"john_macedo", n:"John Macedo", t:2, p:58, s:"finance", roles:[
+    ["dib","Chief Financial Officer","executive","v"]]},
+  {id:"chandra_mohan_ganapathy", n:"Chandra Mohan Ganapathy", t:2, p:58, s:"finance", roles:[
+    ["dib","Group Chief Risk Officer","executive","v"]]},
+  {id:"musabbah_al_qaizi", n:"Musabbah Al Qaizi", t:2, p:58, s:"finance", roles:[
+    ["dib","Chief Digital Officer","executive","v"]]},
+  {id:"naveed_ali", n:"Naveed Ali", t:2, p:58, s:"finance", roles:[
+    ["dib","Chief of Corporate Banking","executive","v"]]},
+  {id:"yuvraj_narayan", n:"Yuvraj Narayan", t:2, p:58, s:"industry", roles:[
+    ["dpworld","Group Chief Executive Officer","executive","v"]]},
+  {id:"deepak_parekh", n:"Deepak Parekh", t:2, p:52, s:"industry", roles:[
+    ["dpworld","Senior Independent Non-Executive Director","board","v"]]},
+  {id:"sultan_bin_saeed", n:"Sultan bin Saeed Al Mansoori", t:2, p:52, s:"industry", roles:[
+    ["dpworld","Board Member","board","v"]]},
+  {id:"mohamed_saif_al", n:"Mohamed Saif Al Suwaidi", t:2, p:52, s:"industry", roles:[
+    ["dpworld","Board Member","board","v"]]},
+  {id:"robert_woods", n:"Robert Woods", t:2, p:52, s:"industry", roles:[
+    ["dpworld","Board Member","board","v"]]},
+  {id:"phumzile_langeni", n:"Phumzile Langeni", t:2, p:52, s:"industry", roles:[
+    ["dpworld","Board Member","board","v"]]},
+  {id:"vijay_malhotra", n:"Vijay Malhotra", t:2, p:52, s:"industry", roles:[
+    ["dpworld","Board Member","board","v"]]},
+  {id:"anil_mohta", n:"Anil Mohta", t:2, p:58, s:"industry", roles:[
+    ["dpworld","Group Chief Financial Officer","executive","v"]]},
+  {id:"abdulla_al_hashmi", n:"Abdulla Al Hashmi", t:2, p:58, s:"industry", roles:[
+    ["dpworld","Global COO, Parks & Economic Zones","executive","v"]]},
+  {id:"tiemen_meester", n:"Tiemen Meester", t:2, p:58, s:"industry", roles:[
+    ["dpworld","Global COO, Ports & Terminals","executive","v"]]},
+  {id:"ahmad_yousef_al", n:"Ahmad Yousef Al-Hassan", t:2, p:60, s:"industry", roles:[
+    ["dpworld","CEO & Managing Director, GCC","executive","v"]]},
+  {id:"rado_antolovic", n:"Rado Antolovic", t:2, p:60, s:"industry", roles:[
+    ["dpworld","CEO, Drydocks World","executive","v"]]},
+  {id:"pradeep_desai", n:"Pradeep Desai", t:2, p:58, s:"industry", roles:[
+    ["dpworld","Group Chief Technology Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -308,7 +411,6 @@ const AKA = {
   hamdan_cp:["Hamdan bin Mohammed","Fazza"],
   maktoum_dep:["Maktoum bin Mohammed"],
   ahmed_saeed:["Ahmed bin Saeed"],
-  sultan_sulayem:["Sultan bin Sulayem"],
   alabbar:["Mohamed Alabbar","Mohammed Alabbar"],
   icd:["Investment Corporation of Dubai"],
   enbd:["Emirates NBD"],

@@ -316,6 +316,112 @@ const PEOPLE = [
   {id:"alsubaie_env", n:"H.E. Dr. Abdullah bin Abdulaziz bin Turki Al Subaie", t:1, p:66, s:"gov", roles:[
     ["moecc_q","Minister of Environment & Climate Change","political","v"]],
     note:"Appointed 8 January 2024."},
+  {id:"ali_ahmed_al", n:"Ali Ahmed Al Kuwari", t:2, p:62, s:"finance", roles:[
+    ["qnb","Chairman","board","v"]]},
+  {id:"sheikh_fahad_bin", n:"Sheikh Fahad bin Faisal bin Thani Al Thani", t:2, p:62, s:"finance", roles:[
+    ["qnb","Vice Chairman","board","v"]]},
+  {id:"sheikh_hamad_bin", n:"Sheikh Hamad bin Jabor bin Jassim Al Thani", t:2, p:52, s:"finance", roles:[
+    ["qnb","Board Member","board","v"]]},
+  {id:"sheikha_hanadi_bint", n:"Sheikha Hanadi bint Nasser Bin Khalid Al Thani", t:2, p:52, s:"finance", roles:[
+    ["qnb","Board Member","board","v"]]},
+  {id:"bader_abdulla_darwish", n:"Bader Abdulla Darwish Fakhroo", t:2, p:52, s:"finance", roles:[
+    ["qnb","Board Member","board","v"]]},
+  {id:"dr_abdulrahman_mohammed", n:"Dr. Abdulrahman Mohammed Jolo", t:2, p:52, s:"finance", roles:[
+    ["qnb","Board Member","board","v"]]},
+  {id:"ramzi_mari", n:"Ramzi Mari", t:2, p:58, s:"finance", roles:[
+    ["qnb","Group Chief Financial Officer","executive","v"]]},
+  {id:"fatima_abdulla_al", n:"Fatima Abdulla Al-Suwaidi", t:2, p:58, s:"finance", roles:[
+    ["qnb","Group Chief Risk Officer","executive","ns"]]},
+  {id:"sheikh_jassim_bin", n:"Sheikh Jassim Bin Hamad Bin Jassim Bin Jaber Al Thani", t:2, p:62, s:"finance", roles:[
+    ["qib","Chairman","board","v"]]},
+  {id:"abdullatif_bin_abdullah", n:"Abdullatif Bin Abdullah Al Mahmoud", t:2, p:62, s:"finance", roles:[
+    ["qib","Vice Chairman","board","v"]]},
+  {id:"mohamed_bin_issa", n:"Mohamed Bin Issa Al Mohannadi", t:2, p:62, s:"finance", roles:[
+    ["qib","Vice Chairman","board","v"]]},
+  {id:"mansour_m_abdul", n:"Mansour M. Abdul Fattah Al Musleh", t:2, p:52, s:"finance", roles:[
+    ["qib","Board Member","board","v"]]},
+  {id:"abdulla_bin_saeed", n:"Abdulla Bin Saeed Al Eidah", t:2, p:52, s:"finance", roles:[
+    ["qib","Board Member","board","v"]]},
+  {id:"sraiya_nasser_rashid", n:"Sraiya Nasser Rashid Sraiya Al-Kaabi", t:2, p:52, s:"finance", roles:[
+    ["qib","Board Member","board","v"]]},
+  {id:"khalid_mohamed_al", n:"Khalid Mohamed Al-Emadi", t:2, p:52, s:"finance", roles:[
+    ["qib","Board Member","board","v"]]},
+  {id:"sheikh_jassim_faisal", n:"Sheikh Jassim Faisal Qassim Thani Al Thani", t:2, p:52, s:"finance", roles:[
+    ["qib","Board Member","board","v"]]},
+  {id:"nasser_abdullah_saad", n:"Nasser Abdullah Saad Al Mahmoud Al-Shareef", t:2, p:52, s:"finance", roles:[
+    ["qib","Independent Board Member","board","v"]]},
+  {id:"maitha_mubarak_rashid", n:"Maitha Mubarak Rashid Al Jabr Al-Naemi", t:2, p:52, s:"finance", roles:[
+    ["qib","Independent Board Member","board","v"]]},
+  {id:"saad_sherida_al", n:"Saad Sherida Al-Kaabi", t:2, p:62, s:"materials", roles:[
+    ["industriesqatar","Chairman and Managing Director","board","v"]]},
+  {id:"abdulaziz_mohammed_al", n:"Abdulaziz Mohammed Al-Mannai", t:2, p:62, s:"materials", roles:[
+    ["industriesqatar","Vice Chairman","board","v"]]},
+  {id:"dr_mohammed_yousef", n:"Dr. Mohammed Yousef Al-Mulla", t:2, p:52, s:"materials", roles:[
+    ["industriesqatar","Board Member","board","v"]]},
+  {id:"sheikh_khalid_bin", n:"Sheikh Khalid Bin Abdullah Al-Thani", t:2, p:52, s:"materials", roles:[
+    ["industriesqatar","Board Member","board","v"]]},
+  {id:"abdulrahman_ali_al", n:"Abdulrahman Ali Al-Abdulla", t:2, p:52, s:"materials", roles:[
+    ["industriesqatar","Board Member","board","v"]]},
+  {id:"abdulla_ahmad_al", n:"Abdulla Ahmad Al-Hussaini", t:2, p:52, s:"materials", roles:[
+    ["industriesqatar","Board Member","board","v"]]},
+  {id:"ahmed_helal_al", n:"Ahmed Helal Al-Mohannadi", t:2, p:52, s:"materials", roles:[
+    ["industriesqatar","Board Member","board","v"]]},
+  {id:"ahmed_bin_ali", n:"Ahmed Bin Ali Al-Hammadi", t:2, p:52, s:"materials", roles:[
+    ["industriesqatar","Board Member","board","v"]]},
+  {id:"sheikh_faisal_bin", n:"Sheikh Faisal Bin Thani Al Thani", t:2, p:62, s:"comm", roles:[
+    ["ooredoo","Chairman","board","v"]]},
+  {id:"nasser_marafih", n:"Nasser Marafih", t:2, p:62, s:"comm", roles:[
+    ["ooredoo","Vice Chairman","board","v"]]},
+  {id:"ali_shareef_al", n:"Ali Shareef Al Emadi", t:2, p:52, s:"comm", roles:[
+    ["ooredoo","Board Member","board","ns"]]},
+  {id:"mohammed_bin_issa", n:"Mohammed Bin Issa Al Mohannadi", t:2, p:52, s:"comm", roles:[
+    ["ooredoo","Board Member","board","ns"]]},
+  {id:"nasser_rashid_al", n:"Nasser Rashid Al-Humaidi", t:2, p:52, s:"comm", roles:[
+    ["ooredoo","Board Member","board","v"]]},
+  {id:"ali_bin_ghanim", n:"Ali Bin Ghanim Bin Ali Abdullah Al-Thani", t:2, p:52, s:"comm", roles:[
+    ["ooredoo","Board Member","board","ns"]]},
+  {id:"abdulla_ahmad_al_b", n:"Abdulla Ahmad Al Zaman", t:2, p:58, s:"comm", roles:[
+    ["ooredoo","Group Chief Financial Officer","executive","v"]]},
+  {id:"sheikh_mohamed_bin", n:"Sheikh Mohamed Bin Hamad Bin Qassim Al Thani", t:2, p:62, s:"finance", roles:[
+    ["masraf","Chairman","board","v"]]},
+  {id:"sheikh_hamad_bin_b", n:"Sheikh Hamad Bin Faisal Bin Thani Al Thani", t:2, p:62, s:"finance", roles:[
+    ["masraf","Vice Chairman","board","v"]]},
+  {id:"ahmed_ali_hassan", n:"Ahmed Ali Hassan Al Hammadi", t:2, p:52, s:"finance", roles:[
+    ["masraf","Board Member","board","v"]]},
+  {id:"khamis_mubarak_al", n:"Khamis Mubarak Al Kuwari", t:2, p:52, s:"finance", roles:[
+    ["masraf","Board Member","board","v"]]},
+  {id:"sheikh_ali_bin", n:"Sheikh Ali bin Jassim Bin Mohamed Al Thani", t:2, p:52, s:"finance", roles:[
+    ["masraf","Board Member","board","v"]]},
+  {id:"sheikh_nasser_bin", n:"Sheikh Nasser bin Hamad bin Nasser Al Thani", t:2, p:52, s:"finance", roles:[
+    ["masraf","Board Member","board","v"]]},
+  {id:"mohammed_al_saadi", n:"Mohammed Al Saadi", t:2, p:52, s:"finance", roles:[
+    ["masraf","Board Member","board","v"]]},
+  {id:"dr_abdulrahman_mohammed_b", n:"Dr. Abdulrahman Mohammed Al-Khayarin", t:2, p:52, s:"finance", roles:[
+    ["masraf","Board Member","board","v"]]},
+  {id:"mohamed_jaber_al", n:"Mohamed Jaber Al Sulaiti", t:2, p:52, s:"finance", roles:[
+    ["masraf","Board Member","board","v"]]},
+  {id:"fahad_al_khalifa", n:"Fahad Al Khalifa", t:2, p:58, s:"finance", roles:[
+    ["masraf","Group Chief Executive Officer","executive","v"]]},
+  {id:"shahnawaz_niazi", n:"Shahnawaz Niazi", t:2, p:58, s:"finance", roles:[
+    ["masraf","Group Chief Financial Officer","executive","v"]]},
+  {id:"abdulaziz_jassim_al", n:"Abdulaziz Jassim Al-Muftah", t:2, p:62, s:"energy", roles:[
+    ["nakilat","Chairman","board","v"]]},
+  {id:"ahmad_saif_al", n:"Ahmad Saif Al-Sulaiti", t:2, p:62, s:"energy", roles:[
+    ["nakilat","Vice Chairman","board","v"]]},
+  {id:"sheikh_hamad_mohamed", n:"Sheikh Hamad Mohamed Al-Thani", t:2, p:52, s:"energy", roles:[
+    ["nakilat","Board Member","board","v"]]},
+  {id:"abdulrahman_essa_al", n:"Abdulrahman Essa Al-Mannai", t:2, p:52, s:"energy", roles:[
+    ["nakilat","Board Member","board","v"]]},
+  {id:"khalid_said_al", n:"Khalid Said Al-Rumaihi", t:2, p:52, s:"energy", roles:[
+    ["nakilat","Board Member","board","v"]]},
+  {id:"bader_mubarak_al", n:"Bader Mubarak Al-Khalifa", t:2, p:52, s:"energy", roles:[
+    ["nakilat","Board Member","board","v"]]},
+  {id:"omar_mohammed_al", n:"Omar Mohammed Al-Homaid", t:2, p:52, s:"energy", roles:[
+    ["nakilat","Board Member","board","v"]]},
+  {id:"hani_abuaker", n:"Hani Abuaker", t:2, p:58, s:"energy", roles:[
+    ["nakilat","Chief Financial Officer","executive","v"]]},
+  {id:"samir_bailouni", n:"Samir Bailouni", t:2, p:58, s:"energy", roles:[
+    ["nakilat","Chief Operating Officer (Fleet)","executive","v"]]},
 ];
 
 const OWNERSHIP = [

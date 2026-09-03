@@ -204,6 +204,102 @@ const PEOPLE = [
   {id:"albusaidi_tourism", n:"Sayyid Ibrahim bin Said bin Ibrahim Al Busaidi", t:1, p:64, s:"gov", roles:[
     ["moht_om","Minister of Heritage & Tourism","political","v"]],
     note:"Appointed under Royal Decree 17/2026 (13 Jan 2026), succeeding Salem bin Mohammed Al Mahrouqi."},
+  {id:"sheikh_khalid_bin", n:"Sheikh Khalid bin Mustahail Al Mashani", t:2, p:62, s:"finance", roles:[
+    ["bankmuscat","Chairman","board","v"]]},
+  {id:"sheikh_ahmed_bin", n:"Sheikh Ahmed bin Hamed Al Sadi", t:2, p:62, s:"finance", roles:[
+    ["bankmuscat","Deputy Chairman","board","v"]]},
+  {id:"dr_faisal_bin", n:"Dr. Faisal bin Abdullah Al Farsi", t:2, p:52, s:"finance", roles:[
+    ["bankmuscat","Director","board","v"]]},
+  {id:"sheikh_said_bin", n:"Sheikh Said bin Mohammed Alharthy", t:2, p:52, s:"finance", roles:[
+    ["bankmuscat","Director","board","v"]]},
+  {id:"sheikh_dr_saud", n:"Sheikh Dr. Saud bin Mustahail Al Mashani", t:2, p:52, s:"finance", roles:[
+    ["bankmuscat","Director","board","v"]]},
+  {id:"khalid_nasser_al", n:"Khalid Nasser Al Shamsi", t:2, p:52, s:"finance", roles:[
+    ["bankmuscat","Director","board","v"]]},
+  {id:"dr_saif_bin", n:"Dr. Saif bin Salim Al Harthi", t:2, p:52, s:"finance", roles:[
+    ["bankmuscat","Director","board","v"]]},
+  {id:"saud_bin_nasser", n:"Saud bin Nasser Al Shukaili", t:2, p:52, s:"finance", roles:[
+    ["bankmuscat","Director","board","v"]]},
+  {id:"ahmed_faqir_al", n:"Ahmed Faqir Al Bulushi", t:2, p:60, s:"finance", roles:[
+    ["bankmuscat","Deputy CEO - Banking","executive","v"]]},
+  {id:"sheikha_yousuf_al", n:"Sheikha Yousuf Al Farsi", t:2, p:60, s:"finance", roles:[
+    ["bankmuscat","Deputy CEO - Operations","executive","v"]]},
+  {id:"ganesh_thangavel", n:"Ganesh Thangavel", t:2, p:60, s:"finance", roles:[
+    ["bankmuscat","Deputy CEO - Finance & Investment Banking","executive","v"]]},
+  {id:"antonio_gamez_munoz", n:"Antonio Gamez Munoz", t:2, p:58, s:"finance", roles:[
+    ["bankmuscat","Chief Risk Officer","executive","v"]]},
+  {id:"qais_al_zakwani", n:"Qais Al-Zakwani", t:2, p:62, s:"comm", roles:[
+    ["omantel","Chairman","board","v"]]},
+  {id:"eng_atif_al", n:"Eng. Atif Al Siyabi", t:2, p:62, s:"comm", roles:[
+    ["omantel","Deputy Chairman","board","v"]]},
+  {id:"aiman_al_hosni", n:"Aiman Al-Hosni", t:2, p:52, s:"comm", roles:[
+    ["omantel","Board Member","board","v"]]},
+  {id:"bassam_al_jamali", n:"Bassam Al-Jamali", t:2, p:52, s:"comm", roles:[
+    ["omantel","Board Member","board","v"]]},
+  {id:"dr_faisal_al", n:"Dr. Faisal Al-Farsi", t:2, p:52, s:"comm", roles:[
+    ["omantel","Board Member","board","v"]]},
+  {id:"khalid_talib_al", n:"Khalid Talib Al Hasani", t:2, p:52, s:"comm", roles:[
+    ["omantel","Board Member","board","v"]]},
+  {id:"eng_samy_ahmed", n:"Eng. Samy Ahmed Al Ghassany", t:2, p:58, s:"comm", roles:[
+    ["omantel","Chief Commercial & Operating Officer","executive","v"]]},
+  {id:"ghassan_khamis_al", n:"Ghassan Khamis Al Hashar", t:2, p:58, s:"comm", roles:[
+    ["omantel","Chief Financial Officer","executive","v"]]},
+  {id:"dr_ghalib_al", n:"Dr. Ghalib Al Hosni", t:2, p:58, s:"comm", roles:[
+    ["omantel","Chief People Officer","executive","v"]]},
+  {id:"rashad_muhammad_al", n:"Rashad Muhammad Al Zubair", t:2, p:62, s:"finance", roles:[
+    ["ominvest","Chairman","board","ns"]]},
+  {id:"sheikh_khalid_abdullah", n:"Sheikh Khalid Abdullah Al Khalili", t:2, p:62, s:"finance", roles:[
+    ["ominvest","Deputy Chairman","board","ns"]]},
+  {id:"najat_ali_al", n:"Najat Ali Al Lawati", t:2, p:52, s:"finance", roles:[
+    ["ominvest","Director","board","ns"]]},
+  {id:"khaula_hamood_al", n:"Khaula Hamood Al Harthi", t:2, p:52, s:"finance", roles:[
+    ["ominvest","Director","board","ns"]]},
+  {id:"abdulaziz_mohammed_al", n:"Abdulaziz Mohammed Al-Balushi", t:2, p:58, s:"finance", roles:[
+    ["ominvest","Group Chief Executive Officer","executive","v"]]},
+  {id:"badar_bin_awadh", n:"Badar bin Awadh Al Shanfari", t:2, p:58, s:"finance", roles:[
+    ["ominvest","Chief Operating Officer","executive","v"]]},
+  {id:"said_mohamed_al", n:"Said Mohamed Al-Aufi", t:2, p:62, s:"finance", roles:[
+    ["sohar_bank","Chairman","board","v"]]},
+  {id:"tareq_mohamed_al", n:"Tareq Mohamed Al Mugheiry", t:2, p:62, s:"finance", roles:[
+    ["sohar_bank","Deputy Chairman","board","v"]]},
+  {id:"salim_mohamed_al", n:"Salim Mohamed Al Mashaikhi", t:2, p:52, s:"finance", roles:[
+    ["sohar_bank","Director","board","v"]]},
+  {id:"said_ahmed_safrar", n:"Said Ahmed Safrar", t:2, p:52, s:"finance", roles:[
+    ["sohar_bank","Director","board","v"]]},
+  {id:"sheikh_aimen_ahmed", n:"Sheikh Aimen Ahmed Al Hosni", t:2, p:52, s:"finance", roles:[
+    ["sohar_bank","Director","board","v"]]},
+  {id:"ghusen_hilal_al", n:"Ghusen Hilal Al Abri", t:2, p:52, s:"finance", roles:[
+    ["sohar_bank","Director","board","v"]]},
+  {id:"ahmed_dawood_al", n:"Ahmed Dawood Al Busaidi", t:2, p:52, s:"finance", roles:[
+    ["sohar_bank","Director","board","v"]]},
+  {id:"abdulwahid_mohamed_al", n:"Abdulwahid Mohamed Al Murshidi", t:2, p:58, s:"finance", roles:[
+    ["sohar_bank","Chief Executive Officer","executive","v"]]},
+  {id:"craig_barrington_bell", n:"Craig Barrington Bell", t:2, p:58, s:"finance", roles:[
+    ["sohar_bank","Chief Financial Officer","executive","v"]]},
+  {id:"hamood_abdullah_al", n:"Hamood Abdullah Al Sawai", t:2, p:58, s:"finance", roles:[
+    ["sohar_bank","Chief Operating Officer","executive","v"]]},
+  {id:"amal_suhail_bahwan", n:"Amal Suhail Bahwan", t:2, p:62, s:"finance", roles:[
+    ["lst_nbob","Chairperson","board","v"]]},
+  {id:"sheikh_abdullah_ali", n:"Sheikh Abdullah Ali Al Thani", t:2, p:62, s:"finance", roles:[
+    ["lst_nbob","Deputy Chairman","board","v"]]},
+  {id:"dr_hisham_ba", n:"Dr. Hisham Ba Omar", t:2, p:52, s:"finance", roles:[
+    ["lst_nbob","Director","board","v"]]},
+  {id:"al_sayyid_shabib", n:"Al Sayyid Shabib Al Busaidi", t:2, p:52, s:"finance", roles:[
+    ["lst_nbob","Director","board","v"]]},
+  {id:"fahad_badar", n:"Fahad Badar", t:2, p:52, s:"finance", roles:[
+    ["lst_nbob","Director","board","v"]]},
+  {id:"stephen_moss", n:"Stephen Moss", t:2, p:52, s:"finance", roles:[
+    ["lst_nbob","Director","board","v"]]},
+  {id:"shaikh_faisal_al", n:"Shaikh Faisal Al Rawas", t:2, p:52, s:"finance", roles:[
+    ["lst_nbob","Director","board","v"]]},
+  {id:"nabil_al_mahrouqi", n:"Nabil Al Mahrouqi", t:2, p:52, s:"finance", roles:[
+    ["lst_nbob","Director","board","v"]]},
+  {id:"brigadier_jamal_al", n:"Brigadier Jamal Al Tai", t:2, p:52, s:"finance", roles:[
+    ["lst_nbob","Director","board","v"]]},
+  {id:"abdullah_zahran_al", n:"Abdullah Zahran Al Hinai", t:2, p:58, s:"finance", roles:[
+    ["lst_nbob","Chief Executive Officer","executive","v"]]},
+  {id:"srinivasaraghava_giridhar", n:"Srinivasaraghava Giridhar", t:2, p:58, s:"finance", roles:[
+    ["lst_nbob","Chief Financial Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
