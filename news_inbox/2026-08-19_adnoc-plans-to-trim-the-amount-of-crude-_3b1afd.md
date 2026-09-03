@@ -1,0 +1,5 @@
+# Adnoc Plans To Trim The Amount Of Crude Sold To Asian Customers In August And September - Bloomberg News
+source: TradingView
+url: https://news.google.com/rss/articles/CBMiggJBVV95cUxOYlFNa0YydnJMcW1vcktOU1ZtN3RTbkZJakRNQUtrWjhFQzFBUEJCU1lEcmNieXdlcTJhV1B6RkppQVlpS19KaFdUaTBpRWV5X01VS29FOUZGQlVmbVNXMDVOX0puMzctNl9nV2pseWhFMzBHQTVjWVZha3NneEg2OWxPd1lQZUxxY2lFQy1MbHBOUTVET2lrVDVuRm5HUUxsSE93Ung4ejA2OFZiQzk4R1VuNmxHd0VfVkpQbzBkc0xXNGZQc1BnMHlfR3MxZUlQT3RvR19FNjUzX0ZXT3lXX3E3TE5reXM4bzEtOVExdC1UYkJVZi1mM1oxRG5oeV85UFE?oc=5
+
+Adnoc Plans To Trim The Amount Of Crude Sold To Asian Customers In August And September - Bloomberg News    TradingView

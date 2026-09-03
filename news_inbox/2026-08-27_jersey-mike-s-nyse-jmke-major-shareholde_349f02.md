@@ -1,0 +1,5 @@
+# Jersey Mike's (NYSE:JMKE) Major Shareholder Abu Dhabi Investment Authority Sells 382,134 Shares
+source: MarketBeat
+url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxPeEpPWkNmVjZGQ1RRTG5QRE5nVU9EMFpIeXpfbG9yNEpvYnhfT25SbERncXhvOEdZejVaVXpjWkQ1NkZPUkkxSnRvV09OWFp6VTZPS2ZiLTlfbG5DV2F5NVNlaXJuUm1GSDRjSGNpQU5YZmNxVGlYU0VjbWl6UWdtLW1oRGYzclJiaXYwcVVJV21qMUltMmluaVJhWlgwT0Zvdzg0WmFMbmpSNUpMdGE1V0hxdzhFdFZsTnFiT084ZHp1NU5vcW01MG5xc2w4cElkZ3hJdWhyUW5YZE84VklPQUloWXBBc3hh?oc=5
+
+Jersey Mike's (NYSE:JMKE) Major Shareholder Abu Dhabi Investment Authority Sells 382,134 Shares    MarketBeat

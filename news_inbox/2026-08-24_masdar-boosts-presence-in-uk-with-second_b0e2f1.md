@@ -1,0 +1,5 @@
+# Masdar boosts presence in UK with second battery energy storage project
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxNUjFnNFJwWVFsNWhvdkxJbXRfbDJYVGI2YjhGcGlFeVlscEZxUEhSTkoxTG5iOXlRQXZEVHRCNUxhZGd6cU5VaXAyVHFWWDJpUURkX3RxUXNNUUQ2U1c5c3VGRzNZdFpGVmMzUU9YSC1HYThLVldSWF9qbHhyNVA3Y3Y0bVAzeHptVzhyZUtqemRDbVJNZTBzeWtVeXRjTVBlSWJaSDZlUEpCNU9Wc1ZBeUV0TlRZSFhoclB1SWN0bElQYTVwVkhlRTQ2NA?oc=5
+
+Masdar boosts presence in UK with second battery energy storage project    thenationalnews.com

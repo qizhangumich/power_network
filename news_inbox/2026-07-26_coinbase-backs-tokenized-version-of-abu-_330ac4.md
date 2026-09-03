@@ -1,0 +1,5 @@
+# Coinbase Backs Tokenized Version Of Abu Dhabi’s Mubadala Private Markets Fund
+source: Crowdfund Insider
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ25OTTUtTWc4dVE2NzBPWHNNSDFuVFBXQ29KTTktVG1HM2stOEVlWUJWaVFFS042WENMOEdGUjlwb2FJUGpYWFNfdWhJSWRpSWN3S252Zm8yMm5wUnNtbjR2cDNUeldOeTRDeWtOZDF4bjctZDdQTnk1c1hwS2JfVmVGeXd4Z0Y1SnVUYVpxR3hmbXgxMkljSTN5cjZXVE1mZUZ1NDAwRGRJQlVUMzVTdkFjdFJHUWUxdHY3YkFuVG9FNDg?oc=5
+
+Coinbase Backs Tokenized Version Of Abu Dhabi’s Mubadala Private Markets Fund    Crowdfund Insider

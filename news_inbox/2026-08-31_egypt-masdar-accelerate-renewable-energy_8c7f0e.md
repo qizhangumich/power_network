@@ -1,0 +1,5 @@
+# Egypt, Masdar accelerate renewable energy projects as Cairo targets 45% clean power share
+source: TradeArabia
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNLXM5Q1dra3loTXlyNGI2Tzl6Y0RzM3FNQ1FiNVQxMzJmRE1KM3RUVVVFWURjekJmeGczLXI1bHdCdjFOcU1ueUVuaUpudmtfTlIyVkJZT2hma0ZIbmFXNlQ3SFNsUXVxUV93U1RSSFNycGVfdXRGMVNvTUxxanJJRlRmd2pKM2hiSFVXUGQ2UEx1Qnl1S1R4UkRaSVFyTnpheV9uR21wa0pvcDR3a3R0UEttRnVQMy1TTzUwMlV2TjdiMDhqTmRkRDhraUt0WkNp?oc=5
+
+Egypt, Masdar accelerate renewable energy projects as Cairo targets 45% clean power share    TradeArabia
