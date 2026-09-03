@@ -10,5 +10,7 @@ window.NEWS_ITEMS = [
   {id:"2026-09-03_al-rajhi-bank-launches-usd-denominated-t_528582", date:"2026-09-03", title:"Al Rajhi Bank launches USD-denominated Tier 2 social sukuk issue", source:"Argaam", url:"https://www.argaam.com/en/article/articledetail/id/1933816", ids:["alrajhi"]},
   {id:"2026-09-03_pos-transactions-hit-sar-15-8b-last-week_37f8b4", date:"2026-09-03", title:"POS transactions hit SAR 15.8B last week: SAMA", source:"Argaam", url:"https://www.argaam.com/en/article/articledetail/id/1933837", ids:["sama"]},
   {id:"2026-09-03_saudi-aramco-sees-sar-5-21m-negotiated-d_b6721a", date:"2026-09-03", title:"Saudi Aramco sees SAR 5.21M negotiated deal", source:"Argaam", url:"https://www.argaam.com/en/article/articledetail/id/1933914", ids:["aramco"]},
+  {id:"2026-09-03_saudi-aramco-yanbu-cement-see-2-negotiat_b6721a", date:"2026-09-03", title:"Saudi Aramco, Yanbu Cement see 2 negotiated deals worth SAR 9.8M", source:"Argaam", url:"https://www.argaam.com/en/article/articledetail/id/1933914", ids:["aramco"]},
+  {id:"2026-09-03_tadawul-group-seeks-stronger-saudi-china_66bc7c", date:"2026-09-03", title:"Tadawul Group seeks stronger Saudi-China ties: CEO", source:"Argaam", url:"https://www.argaam.com/en/article/articledetail/id/1933970", ids:["tadawul"]},
 ];
 window.SUGGESTED_EDGES = [];
