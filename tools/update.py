@@ -36,7 +36,26 @@ def main():
         return
     run(["git", "commit", "-m", msg + "\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>"])
     run(["git", "push"])
-    print("\nPushed. Live on the server within ~5 minutes.")
+    deploy()
+
+SERVER = "root@47.121.211.166"
+SERVER_PATH = "/var/www/power_network"
+
+def deploy():
+    """Direct deploy over SSH via git bundle — reliable even when the server
+    can't reach GitHub. Best-effort: a failure here just means the server's
+    5-minute cron pull takes over."""
+    import tempfile, os
+    bundle = os.path.join(tempfile.gettempdir(), "pn.bundle")
+    try:
+        subprocess.run(["git", "bundle", "create", bundle, "main"], cwd=ROOT, check=True)
+        subprocess.run(["scp", "-o", "BatchMode=yes", bundle, SERVER + ":/tmp/pn.bundle"], check=True)
+        subprocess.run(["ssh", "-o", "BatchMode=yes", SERVER,
+                        f"cd {SERVER_PATH} && git pull --ff-only /tmp/pn.bundle main && rm -f /tmp/pn.bundle"],
+                       check=True)
+        print("\nDeployed directly to the server — live now.")
+    except Exception as e:
+        print(f"\nDirect deploy skipped ({e}); the server's cron pull will catch up.")
 
 if __name__ == "__main__":
     main()

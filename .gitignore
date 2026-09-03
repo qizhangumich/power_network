@@ -2,6 +2,10 @@
 my_network.js
 Connections.csv
 
+# private — server deploy keys, never publish
+deploy_key_github
+deploy_key_github.pub
+
 # local-only artifacts
 abu_dhabi_power_hub_v1_plotly_backup.html
 Network Design Tools.pdf

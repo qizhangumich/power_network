@@ -42,3 +42,19 @@ jobs:
             git commit -m "auto: news refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
+      - name: deploy directly to the Alicloud server
+        # GitHub->server, bypassing the unreliable server->GitHub path from
+        # mainland China. Needs the DEPLOY_KEY repo secret (private half of
+        # deploy_key_github); skips gracefully when absent.
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          SERVER: 47.121.211.166
+        run: |
+          if [ -z "$DEPLOY_KEY" ]; then echo "no DEPLOY_KEY secret - skipping direct deploy (server cron will pull when it can)"; exit 0; fi
+          mkdir -p ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/deploy
+          chmod 600 ~/.ssh/deploy
+          ssh-keyscan -H "$SERVER" >> ~/.ssh/known_hosts 2>/dev/null
+          git bundle create /tmp/pn.bundle main
+          scp -i ~/.ssh/deploy /tmp/pn.bundle root@"$SERVER":/tmp/pn.bundle
+          ssh -i ~/.ssh/deploy root@"$SERVER" "cd /var/www/power_network && git pull --ff-only /tmp/pn.bundle main && rm -f /tmp/pn.bundle && git log --oneline -1"
