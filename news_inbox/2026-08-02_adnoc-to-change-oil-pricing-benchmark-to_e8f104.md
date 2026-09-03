@@ -1,0 +1,5 @@
+# ADNOC to change oil pricing benchmark to Platts Dubai from Murban futures
+source: Reuters
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxPcnIyRjNtNmlOVjZQMHR6dzBlc3M5NHVSdHBSMkFqTUUyUjQ0STl3WkZ3VFd4cnNvS1Z6cWJ6UTRNNFhGS1JhY2d4MEFBNDhCb0ZKUzlTSkJGUXpuMzZRWUdNYjBIQUFieXN5bDhoZXNwbkk4dDhobnpZTnVZRllZVExmUEl0NjNaZGVxdDUtb1lyZDdYTWV1XzhpQnVzNV82NDFrcVhLT2VoVk95anJ0TWloak8?oc=5
+
+ADNOC to change oil pricing benchmark to Platts Dubai from Murban futures    Reuters

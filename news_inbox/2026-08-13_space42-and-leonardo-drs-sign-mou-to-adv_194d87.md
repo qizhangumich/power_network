@@ -1,0 +1,5 @@
+# Space42 and Leonardo DRS Sign MoU to Advance Next-Generation National Security Mission Systems
+source: SpaceWatch.GLOBAL
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxOczRYaGUtUXRyOVNXUGY0UnQtc3VYdERjajdwdkxFNWltUkd1TVZZdDhSZVotTHRrQ1A3cGlNdzByR2x3M2NuVl9DVEkzWXRwdWlqY3lfVXhwR1p3M1kyanRSa1d4RUc3ZFJTdWVHbWloSzZJaVo3cG90X3VockVPcXRYLU1WWUFRdUR0SmZjQ1kwUmlTM0E5WE9UQnhlalVHQlJhZ1NHeXlPWld2eUdoaHpMZDVqZlFGWkxIbjRMNm81X0JJYUdqcA?oc=5
+
+Space42 and Leonardo DRS Sign MoU to Advance Next-Generation National Security Mission Systems    SpaceWatch.GLOBAL

@@ -1,0 +1,5 @@
+# UAE Condemns Iran Attack on ADNOC Vessel in Strait of Hormuz: 312 outlets compared
+source: newscord.org
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUG5RQlBscnl0UEl3VmRPMGN5WkRvbm9iZ1JDLUQ3VEc4VGZPaEgzNDNrTnNmSXRyYlBSWkJyN1N3ZkZkdERZVEdvSU1ZSkhDTjdnTWdBVTgxWmloZHlRc0xlSlB6OHM5VzB3UXJKbmgzMFc5bGtreG55NlpPXzdzeWZOM0Q1R3B5WllTVFl1SklsU3RFd2VEeWszeFYwRjh2b21DS1ROcU4tZzJ3X1lRamNVa3dmZU92WVpGUWt0N1gxOXEyYUJJeVU0ckRSaS1RakRTYTlzdUxRWHN5SWc?oc=5
+
+UAE Condemns Iran Attack on ADNOC Vessel in Strait of Hormuz: 312 outlets compared    newscord.org

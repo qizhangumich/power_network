@@ -1,0 +1,5 @@
+# Space42 launches the Future Spacers Program to develop the next generation of talent in the UAE
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNnRoek1VNE5fWTY1RXNSMFZHWHhGQ1RGSnJTUTVic3llUlRhaHRmbjNRNzN3dHlPTFQ3OGZpdFgzdjZtNUE5ZnZGc29tNXF6OHFkN3JkRHdhVzZIek5jemJTS3JKbFh5VVJJMmJwZWNmdnBhbWFySWFwS1V2ZnZWZjJlcW1RbXZYckhPc2ZIdllaVXRTakRaWFYxeklfZF95SDgxak1IVmtMVGpmMk5JbUtOZEF2QUJROWlKLVd0MWltY2NvXzlTcDZibmJZNk5tVHBsanQyeTZncWhpSHBQN2Rmc2xxaE1BVkVVcA?oc=5
+
+Space42 launches the Future Spacers Program to develop the next generation of talent in the UAE    Zawya

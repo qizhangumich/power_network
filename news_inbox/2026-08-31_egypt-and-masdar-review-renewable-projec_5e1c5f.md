@@ -1,0 +1,5 @@
+# Egypt and Masdar review renewable projects with battery storage
+source: Solarbytes
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxPNXRsZjNKb0hKaWFjZk1jR0JkanE5U1lrX3BCTThHMEwtVnFFSmJ4Ni1iZzNUczl3aldVR1UtSGhHS2k4aHF1bzc4bzFoTi1SU2VleGdOVVUtS3VsTk55NDltRGlHbkZGeWhmTFU3OGphOHdSWkx6bVExUzNSN2JjTU40RWVhLTRtRWdSU2JaNHJKZVR3cDltVzZXdHUzUW9peThTVVpJa1lIa0xZQndj?oc=5
+
+Egypt and Masdar review renewable projects with battery storage    Solarbytes

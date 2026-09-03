@@ -1,0 +1,5 @@
+# Taqa’s net income jumps 9.7% in H1 2026, announces 0.8 fils dividend for Q2
+source: Khaleej Times
+url: https://news.google.com/rss/articles/CBMirAFBVV95cUxPNTFPQjdIVWJCeUtUOWM2bG1OSXlCZ2s4ZlFmc2I5M2luRnFBQzJmbG1EajhlWnpLR3pLUlpXck9wRWtxeHdXNFA0XzhYdC1nYm1kZ2hOMjhwZVV0WXNGWW5Yam9KbEFLbXFkRG1ZYTU3ZDlkdmRMTkszT1J3MU5PdDhOazJlX3hJVlBzZkplTzNpVXFybzFrVFpybW1pemZlcF9jdHJLRTQ5MlV60gG0AUFVX3lxTE56RENZSDdrVzB5RzFxRHM4bVJaWXh5akctdERMMzdKQ3pIUDk4WXZ0Q29mWDB1WkdCN28xZl80a1pVU25jeW5la3dsYzZwSnNXd1VIMW9HSEFpT1ZQWHpjRVpwOUJtSWZ6VkhrNVBFRDJCN3l6R3FPOTNLREpSNk8wMXE3RnVWY1BIQ2JzdnFrNzUyQnp2RlpXT3Bsb2NBVERIbDE1SHdRSHc3S24xVkhHZ1ptZQ?oc=5
+
+Taqa’s net income jumps 9.7% in H1 2026, announces 0.8 fils dividend for Q2    Khaleej Times

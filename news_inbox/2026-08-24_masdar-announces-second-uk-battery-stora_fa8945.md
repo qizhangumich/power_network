@@ -1,0 +1,5 @@
+# Masdar Announces Second UK Battery Storage Project Starting Operations
+source: renewableenergymagazine.com
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS1lkY1pFSVdZY1kzQ2hBbUs0UnFHQmhoaU9FRGcwZHFIeDNJT0NDMXEtUnNhRWtfYzZ6bFpkZkkzSWU1SXRoQUIyVHd5WGVNOHhKTXEtUDl6WmlDSjdtOGZmcGcya2lwamFLTlJ1S2h4RThJRWRDcDZrckxISUxaeGdUV1Z3dkl1cUp4QzdsbkFqWVJzbXdzNm5YQ3hlRU1seGNMLWQtbTRYQ2s?oc=5
+
+Masdar Announces Second UK Battery Storage Project Starting Operations    renewableenergymagazine.com
