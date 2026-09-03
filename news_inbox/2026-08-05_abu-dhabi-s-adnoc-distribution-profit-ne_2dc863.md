@@ -1,0 +1,5 @@
+# Abu Dhabi’s Adnoc Distribution Profit Nearly Doubles on Fuel Demand, Inventory Gains
+source: WSJ
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUDNLT21oUktXRF9xblZjb21uakZKS014S040T3podFVYZTZmcmVxTHJwVkl2VnctWU1lTzBZaXc2U3JNMUR5OHJtS3dlT3UtbVdQaXFYNElOYm92ZHFCa3FuUlpUUlJ2WTFjc21FVVJIM0FHZ01HRTZhcTNxRVJURFNBTUUxRTVYZGQ1bkVkS0RnV2MxaDZNNEdfY0RrM1VIRHN6eU84VndkWWJGSzRfYjFITkU1bHltU203Y0NnY1J4N3o3enpZSA?oc=5
+
+Abu Dhabi’s Adnoc Distribution Profit Nearly Doubles on Fuel Demand, Inventory Gains    WSJ

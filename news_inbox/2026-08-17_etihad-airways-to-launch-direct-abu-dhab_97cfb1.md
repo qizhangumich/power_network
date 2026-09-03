@@ -1,0 +1,5 @@
+# Etihad Airways to Launch Direct Abu Dhabi-Gothenburg Flights This Winter
+source: Business Traveller
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQQ25XMF93dEszaE9fYkF6dVhhbkphVjRlR3dPdzV1b2Vid1B5Y0ZxTk5aelJBNmN2WkF1N3NMX3hVYzFrc19lSnFFaERqcjN1dlVuU1FYQ3kyNzZGaldnaHNLZFVkUm4tUGZLM3lxQzhHWkpvbzVlOW1zbG9mdkFGN3NMNjZIREIxaTEyVlVKSE01SURZcFpEQlZQc1FvSHJrX2ZuYUlCNmVUZ3g5UExmVWRR?oc=5
+
+Etihad Airways to Launch Direct Abu Dhabi-Gothenburg Flights This Winter    Business Traveller
