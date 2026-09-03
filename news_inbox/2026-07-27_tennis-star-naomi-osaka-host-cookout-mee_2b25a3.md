@@ -1,0 +1,5 @@
+# Tennis star Naomi Osaka host 'cookout' meet and greet at Mubadala DC Open
+source: WJLA
+url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMU5QS0VtUjE0TXZHYndSVjVfQWp6SUdxd3ozcjNYRzhfRFREcnZnbTFTT093M2lTTTdlREJza3FJQUFkMGVXNm9YSEstZjRrcUc1bnpSMmxzSkc5OWV1V1FueVFoUHpJZUg1TWlPTTlyTC0yaGpFYk9QTFFnemJhOHJzenVrVXpwS2lFd2RrV3pxdGFHVFZ5TU52YVJWcFZZUUpMWTBQX1FvamRfajVxVVJCcFdkdlRaUUVxdW45X2w0cWtLYjVaQ2tjMW9BYi1BU2pvQ1NxVnByS2dfMGE2ZWw5eUQ2MHI2T1I0c1hUT2tFdw?oc=5
+
+Tennis star Naomi Osaka host 'cookout' meet and greet at Mubadala DC Open    WJLA

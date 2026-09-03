@@ -1,0 +1,5 @@
+# Microsoft-Backed AI Firm G42 Weighs Raising Billions of Dollars
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNUENRTmpNekJUd1dSbktIc1VGU19aTVhYNlpBWG1uWTFSMXpPeWt0dThJc002YThqUFdpRjczcmJVb0tOQlFzLUNYQnZneGhkVEtKUVUxUGpESXozNFpScDVsZFBNWnhCY1RfQzNwUDBrOFhiNUNRNUpDWGJmUjYwNHBKaHZIN2RpQ2gzVzlOSThfMzY4bkFYRlZ6ZGhNdDh5bWU4OUJnVUVLZjZJeFNHcnBxblI?oc=5
+
+Microsoft-Backed AI Firm G42 Weighs Raising Billions of Dollars    Bloomberg.com
