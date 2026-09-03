@@ -44,6 +44,9 @@ def slugify(s, n=40):
     s = re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
     return s[:n] or "item"
 
+def norm_title(s):
+    return re.sub(r"[^a-z0-9]", "", (s or "").lower())[:60]
+
 def strip_tags(s):
     return html.unescape(re.sub(r"<[^>]+>", " ", s or "")).strip()
 
@@ -76,7 +79,9 @@ def main():
             if not title or not link:
                 continue
             key = hashlib.sha1(link.encode()).hexdigest()[:16]
-            if key in seen:
+            headline_only = title.rsplit(" - ", 1)[0] if " - " in title else title
+            tkey = "t:" + hashlib.sha1(norm_title(headline_only).encode()).hexdigest()[:16]
+            if key in seen or tkey in seen:   # same URL, or same story from another outlet
                 continue
             try:
                 dt = datetime.strptime(pub[:25].strip(), "%a, %d %b %Y %H:%M:%S")
@@ -93,6 +98,7 @@ def main():
                 f"# {headline}\nsource: {outlet}\nurl: {link}\n\n{desc}\n",
                 encoding="utf-8")
             seen[key] = date
+            seen[tkey] = date
             kept += 1
             added += 1
         print(f"  {q}: +{kept}")

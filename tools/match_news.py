@@ -29,6 +29,11 @@ MIN_COMENTIONS = 2   # articles two entities must share before an edge is sugges
 
 # aliases that are too generic to match on their own
 STOP_ALIASES = {"bp", "eni", "ey", "shell", "e&", "doe", "dof", "doh", "dmt", "dge", "dcd"}
+# all-caps abbreviations whose Title-case form is an ordinary English word
+TITLECASE_UNSAFE = {"ADDED", "EDGE"}
+
+def norm_title(s):
+    return re.sub(r"[^a-z0-9]", "", (s or "").lower())[:60]
 
 def alias_patterns(nodes):
     pats = []
@@ -39,8 +44,12 @@ def alias_patterns(nodes):
             # allow line breaks / multiple spaces inside multi-word names
             body = r"\s+".join(re.escape(w) for w in a.split())
             if a.isupper() or a.lower() in STOP_ALIASES:
-                # abbreviations: exact-case, word-boundary match
-                pat = re.compile(r"\b" + body + r"\b")
+                # abbreviations: exact-case; distinctive 4+ letter ones also
+                # match their Title-case form ("Adnoc", "Adia", "Taqa")
+                variants = [body]
+                if a.isupper() and len(a) >= 4 and " " not in a and a not in TITLECASE_UNSAFE:
+                    variants.append(re.escape(a.capitalize()))
+                pat = re.compile(r"\b(?:" + "|".join(variants) + r")\b")
             else:
                 pat = re.compile(r"\b" + body + r"\b", re.I)
             pats.append((pat, n["id"], a))
@@ -69,8 +78,15 @@ def main():
     INBOX.mkdir(exist_ok=True)
     files = sorted([p for p in INBOX.iterdir() if p.suffix.lower() in (".txt", ".md")])
     items = []
+    seen_titles = set()
+    dups = 0
     for f in files:
         it = parse_item(f)
+        tkey = norm_title(it["title"])
+        if tkey and tkey in seen_titles:      # syndicated reprint of the same story
+            dups += 1
+            continue
+        seen_titles.add(tkey)
         hits = {}
         for pat, nid, alias in pats:
             if nid in hits:
@@ -104,7 +120,8 @@ def main():
         "window.NEWS_ITEMS = [\n" + "\n".join(rows) + "\n];\n",
         encoding="utf-8")
     print(f"\n{len(items)} items -> {OUT.name} "
-          f"({sum(1 for i in items if i['ids'])} matched at least one node)")
+          f"({sum(1 for i in items if i['ids'])} matched at least one node, "
+          f"{dups} syndicated duplicates collapsed)")
     suggest_edges(nodes, items)
 
 
