@@ -32,6 +32,7 @@ def main():
     if fetch:
         run([sys.executable, TOOLS / "fetch_news.py"])
     run([sys.executable, TOOLS / "match_news.py"])
+    run([sys.executable, TOOLS / "report.py"])
     run(["git", "add", "-A"])
     diff = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT)
     if diff.returncode == 0:

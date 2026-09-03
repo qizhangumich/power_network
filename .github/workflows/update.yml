@@ -31,11 +31,13 @@ jobs:
         run: python tools/fetch_news.py
       - name: match news to network
         run: python tools/match_news.py
+      - name: update report
+        run: python tools/report.py
       - name: commit & push if anything changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news_inbox news_data.js data/suggested_edges.csv
+          git add news_inbox news_data.js data/suggested_edges.csv reports
           if git diff --cached --quiet; then
             echo "no changes"
           else
