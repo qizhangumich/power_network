@@ -1,0 +1,5 @@
+# Arrive Logistics sells majority stake to Mubadala Capital
+source: Dealroom
+url: https://news.google.com/rss/articles/CBMilgFBVV95cUxNcUhrc0ptMGVQMnlUZV8zTGItclZCN2NubVBHWUZORUVuRmJjX0RsWVhDMWpYXy1NTm1UTFl3ajJaQWxzOWo2MF9iQUNDOWFQZGg2WURBQ1JSSE91Ums0WTlTajZCczZ0VDBTTU5IZk90cXVxb29sWWF5WTdMblhXRlJ0UkZ0NFk1SURFSXlBRWctNEN2QlE?oc=5
+
+Arrive Logistics sells majority stake to Mubadala Capital    Dealroom

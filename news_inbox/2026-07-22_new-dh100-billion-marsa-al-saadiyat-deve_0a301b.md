@@ -1,0 +1,5 @@
+# New Dh100 billion Marsa Al Saadiyat development launched in Abu Dhabi
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMivAFBVV95cUxQUnU2VGhfcEVCRWFmWEpQN29wem0xOG5lRVBvVUhWNmlMeDFoQjlyeEZSWVJZU09iQ0ZLeFlnbnpwLWM5cGttbjBPaUhUX0hNUENwRG9uQlJ5TGZJaXV3QTBJcEtYbDROUmhjMWpOcnZvdFYyMmFaUDdfVnhHTGlKY05rUEJaMUVWdWVCRmJpYjlIUlhBSU5CbmJPQ0Q0aklWUnp2YlJHMm1sQmJTNllDZWtoSW1RQmZRT05zUw?oc=5
+
+New Dh100 billion Marsa Al Saadiyat development launched in Abu Dhabi    Gulf News

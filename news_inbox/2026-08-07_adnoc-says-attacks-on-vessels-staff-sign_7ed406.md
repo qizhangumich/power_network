@@ -1,0 +1,5 @@
+# ADNOC says attacks on vessels, staff significantly impacting operations
+source: Reuters
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQZFZ2Y0RPOWN5S0dKcGVuQTgweVRpcHJfS1RMeFNXWjJHTkxjQU9oR3NhSGhGekVndEg5aS1QS1Jadm9ZUGU2QVdIa3pGY0VXa0dmZE9EOEZZLWd5Z194SEZNcXF6eWRjbUdkSWxfWVJXdkt4Y1I2UGJNZ0NpQ2NkZTJhREd4YzB2MlExUjdJRnFPZUZ1UFdfUF9jVXg2OHlfVHVSYW1zd0ZPaC1qTTRpaTNoV040WVFrZF8xRTV3?oc=5
+
+ADNOC says attacks on vessels, staff significantly impacting operations    Reuters

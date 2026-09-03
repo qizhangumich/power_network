@@ -1,0 +1,5 @@
+# Spain’s Balenciaga Shipyard Restarts Work Under AD Ports Ownership
+source: The Maritime Executive
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR0xucHVEdFFRcWF1dUJmTlB1d1dSakRjMWNjeWttb1l2N2FnRTVzWE1GbjBFOU9ZLUgzMWZPZk9ub1J3T2M5aXNuVHJlWHFOdDNaMThjVWFQUC16ZnpCdEloeVRWbXdqQVdIMVUzYTR1VGhjQlFzaEdPS2hzT1M1ay1EVW1BOVp6TnQwOUV2emtWZlk2bEdzbDNJY1FaZ0M1NHY2Wlpxa00?oc=5
+
+Spain’s Balenciaga Shipyard Restarts Work Under AD Ports Ownership    The Maritime Executive

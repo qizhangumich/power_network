@@ -1,0 +1,5 @@
+# Due to exceptional demand - Etihad Airways upgrades to year-round from Göteborg Landvetter Airport
+source: Cision News
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUnY3UFgyUG1RZDF5cy1oX1lwd09nTVdZc2dtaHpORW1JQ3oxcmNmRzctSU9Ycm1BbmxPcC1UQWh0dWdIYmthVnZyS3haSllzdU9MQTN6ZXBveXJQMjlEdFBMb2l4ODFqRkxGRmZJcm43UVVqaWg0UENRd05wUlBWYjJzZzVtdThXNVRXdm1GQ25iQU00dVRKRFdVOHNkWm1Sd05veGU1TkVaSC1BSzQ0MHJWcHBMLTMtNUNvb0ZpSjhPTVVyZkpnQXppWVFnZW03aWRRYXNwdTdiNERQMmc?oc=5
+
+Due to exceptional demand - Etihad Airways upgrades to year-round from Göteborg Landvetter Airport    Cision News

@@ -1,0 +1,5 @@
+# Etihad makes Gothenburg–Abu Dhabi route year-round following strong demand
+source: Aviation24.be
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLVRhZ3ZQWTdCTlEycUhMYk5vVVg5N1BDcTlpaE43MC1tQ3FySV9jV0IwUExZZ0R1Mm1HUFJTUVlMc1hZeXNtbWRTZTN0dVM0bk9zYnAwOTR4anhPSjQwa3pQRW1aTE5JQUE3eWhHUktmNjZxSks5bDB3TG14Y3dkNWxMMmdSM080WEFoZ2dWbjdVT09sTWwzSk5KQlFXYlppeC1NSHZRVjJETF90ZlRZbW1nOF9FWUNjMUhZd0RTaVdyOUU?oc=5
+
+Etihad makes Gothenburg–Abu Dhabi route year-round following strong demand    Aviation24.be

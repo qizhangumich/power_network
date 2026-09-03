@@ -1,0 +1,5 @@
+# Space42 and Leonardo DRS sign MoU to advance defence capabilities
+source: Telecompaper
+url: https://news.google.com/rss/articles/CBMirAFBVV95cUxPaXpXSm5hdFY4aHNIV1RJeE1tekEzeGNucmIyZTBVRXN6VDg4b2VGZXJjRUpjeWlxaTZ2ZTFuT0xHREVudWJSa3RHWjY3UTV5UXVPbTM0Vk50Mkt3LXpDQXNHamdRa1ZSY3N1NlBwNTRzZ3Npckhac0tKN1FTRER1cFR1OExXcjQyWTl6Q29yMWdlU3BwZ19NdHNoTEd4QUprMF9YRWRJNm5Jemdr?oc=5
+
+Space42 and Leonardo DRS sign MoU to advance defence capabilities    Telecompaper

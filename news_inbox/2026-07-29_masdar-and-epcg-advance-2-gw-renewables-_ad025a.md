@@ -1,0 +1,5 @@
+# Masdar and EPCG advance 2 GW renewables partnership in Montenegro
+source: Enerdata
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNkg0dWxnYUcwZXBoMzE5bS1JR0ZoSFBvZV9rbW50STFFLVRjRHFsRUFFbE0wN2loVGttNElCSnAtWENqUzViTWV4MXVSdWhTME9xUzVGRHN4Z0VwaGR3VDk0MGliRF9rQ1ZzOWk0VWhfeFBGOUlnM3N1U1NJZ2YwUGZYd3BhMmdWcG03aERkT0NwUks4QVVFUmhSQXZ4U0hoZ3NUTFhtT3U3Y2NJSEJET3Mxc0pzX01PdnJYNUNEQ00?oc=5
+
+Masdar and EPCG advance 2 GW renewables partnership in Montenegro    Enerdata

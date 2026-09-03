@@ -1,0 +1,5 @@
+# UAE’s Space42 supports driverless systems project
+source: Developing Telecoms
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNQ0xhVDBCd01SazMxeXJuUTkxSlFtamdhdWZmVFpteTZPbWVqWlo3TTBJQjEwUFNlcWVBUkl3VVg5dlhjNnJXUTJZa01YODBVbkxodThlalIzQXRUSjA1UE44N0JIb0xkSXluZE9HaU56UDZ2Mm91MTZjb0FfcTNaUTVjbVppMTkyckJRc0ZhbUVOSVVlY2NOM2E4RDZ5SVFPd1JYVXluLVFTRHR6RDQ2RU5GdU12V19sSDB5UkRIWFE5UHpa?oc=5
+
+UAE’s Space42 supports driverless systems project    Developing Telecoms

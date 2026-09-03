@@ -1,0 +1,5 @@
+# Space42 gets stock market approval for share buyback
+source: Telecompaper
+url: https://news.google.com/rss/articles/CBMimwFBVV95cUxNLWFwUFI4WnZjUWRKbHA2T1FiMTE0cUpYbHNuSnJUUnVfdjVkU0pjTHIta18xOUdxU3lMWmJwbGYwQ0JKNS1qQTIwMC02dm1NLU9MRHpZVVBBQk15UXBOT3FqUEQ3U2t5czgySjg4U0ZwTENkMlA0b01tMUg1Wm5FZGJOd3M2TXVfMG15NVQxbm1tc3BYTVR0d1JiTQ?oc=5
+
+Space42 gets stock market approval for share buyback    Telecompaper

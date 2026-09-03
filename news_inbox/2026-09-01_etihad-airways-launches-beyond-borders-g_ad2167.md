@@ -1,0 +1,5 @@
+# Etihad Airways launches Beyond Borders global campaign
+source: Campaign India
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxNU0NYLUJzM092Q3VSWTJQMDF2U3YwSWRRZlFLNWsxS185Ql9fRUloWjRlbWVkTHI2NG1RRW02dnh0Tzl5QzNLN011Mk1TbGhQbkdDRFFYRlQ2S2k2OVBBeExqS2dRTVF0dXNCRnNEYlo4aGNQRlI1WFM2Sk5DU1NGMHFPRjhlQjFLcGN5NDU2UmstOElWQVRnQV9ETGxBR3dlcVBkWEdJb2ZhcGdVb3BVMm9VLTJpWTNlSkE?oc=5
+
+Etihad Airways launches Beyond Borders global campaign    Campaign India
