@@ -27,9 +27,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: fetch news
+      - name: fetch news (Google News, Abu Dhabi entities)
         run: python tools/fetch_news.py
-      - name: match news to network
+      - name: scrape tier-1 GCC media (headlines + summaries)
+        run: python tools/scrape_news.py
+      - name: match news to all region networks
         run: python tools/match_news.py
       - name: update report
         run: python tools/report.py
@@ -37,7 +39,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news_inbox news_data.js data/suggested_edges.csv reports
+          git add news_inbox scraped_news news_data.js data/suggested_edges.csv reports
+          git add dubai/news_data.js northern/news_data.js saudi/news_data.js qatar/news_data.js bahrain/news_data.js oman/news_data.js kuwait/news_data.js
           if git diff --cached --quiet; then
             echo "no changes"
           else

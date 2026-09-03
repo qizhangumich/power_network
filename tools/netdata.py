@@ -13,9 +13,10 @@ DATA_JS = ROOT / "network_data.js"
 
 HONORIFICS = re.compile(r"^(H\.H\. |Sheikh |Sheikha |Dr\. |Prof\. |Capt\. |Eng\. )+")
 
-def load_nodes():
-    """Return list of dicts: {id, name, short, kind, aliases:[...]}."""
-    text = DATA_JS.read_text(encoding="utf-8")
+def load_nodes(data_js=None):
+    """Return list of dicts: {id, name, short, kind, aliases:[...]}.
+    data_js: path to a network_data.js (default: the root/Abu Dhabi one)."""
+    text = (Path(data_js) if data_js else DATA_JS).read_text(encoding="utf-8")
 
     # AKA block: id → extra aliases
     aka = {}

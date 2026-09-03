@@ -1,19 +1,19 @@
-"""News → network matcher.
+"""News → network matcher, for all GCC region maps.
 
-Drop news items into news_inbox/ as .txt or .md files:
-  - filename may start with a date:  2026-08-25_adnoc-deal.md  (else file date is used)
-  - first non-empty line = title (a leading '# ' is stripped)
-  - optional metadata lines anywhere in the first 10 lines:
-        source: Reuters
-        url: https://...
-  - rest = body
+  python tools/match_news.py
 
-Run:  python tools/match_news.py
+For each region it scans the applicable inboxes — the Google News inbox
+(news_inbox/, Abu Dhabi only) plus the tier-1 scraper output
+(scraped_news/<group>/, see tools/scrape_news.py) — matches every item
+against that region's node names + aliases, and writes <region>/news_data.js
+(root news_data.js for Abu Dhabi). Matched nodes get signal badges and a
+"Recent signals" panel section on the map.
 
-The script scans every item against all node names + aliases from network_data.js
-and regenerates news_data.js (idempotent — safe to re-run any time).
-Matched nodes get a gold signal badge on the map and a "Recent signals" section
-in their detail panel.
+Abu Dhabi additionally gets co-mention candidate relationships
+(data/suggested_edges.csv + window.SUGGESTED_EDGES).
+
+Item file format (news_inbox/ and scraped_news/*): first line = title
+(leading '# ' stripped), optional 'source:' / 'url:' lines, rest = summary.
 """
 import csv
 import re
@@ -22,15 +22,26 @@ from itertools import combinations
 from pathlib import Path
 from netdata import ROOT, load_nodes, js_string
 
-INBOX = ROOT / "news_inbox"
-OUT = ROOT / "news_data.js"
 SUGGEST = ROOT / "data" / "suggested_edges.csv"
 MIN_COMENTIONS = 2   # articles two entities must share before an edge is suggested
 
+# region dir ("" = root/Abu Dhabi) -> inbox dirs scanned for it
+REGION_INBOXES = {
+    "":         ["news_inbox", "scraped_news/regional", "scraped_news/uae"],
+    "dubai":    ["scraped_news/regional", "scraped_news/uae"],
+    "northern": ["scraped_news/regional", "scraped_news/uae"],
+    "saudi":    ["scraped_news/regional", "scraped_news/saudi"],
+    "qatar":    ["scraped_news/regional", "scraped_news/qatar"],
+    "bahrain":  ["scraped_news/regional", "scraped_news/bahrain"],
+    "oman":     ["scraped_news/regional", "scraped_news/oman"],
+    "kuwait":   ["scraped_news/regional", "scraped_news/kuwait"],
+}
+
 # aliases that are too generic to match on their own
-STOP_ALIASES = {"bp", "eni", "ey", "shell", "e&", "doe", "dof", "doh", "dmt", "dge", "dcd"}
+STOP_ALIASES = {"bp", "eni", "ey", "shell", "e&", "doe", "dof", "doh", "dmt", "dge", "dcd",
+                "mof", "mofa", "moi", "mod", "moci", "moph", "edb", "gea", "com", "kpc"}
 # all-caps abbreviations whose Title-case form is an ordinary English word
-TITLECASE_UNSAFE = {"ADDED", "EDGE"}
+TITLECASE_UNSAFE = {"ADDED", "EDGE", "MARJAN", "ARADA"}
 
 def norm_title(s):
     return re.sub(r"[^a-z0-9]", "", (s or "").lower())[:60]
@@ -39,7 +50,7 @@ def alias_patterns(nodes):
     pats = []
     for n in nodes:
         for a in n["aliases"]:
-            if len(a) < 3 and a.lower() not in {"bp", "ey", "e&"}:
+            if len(a) < 3 and a.lower() not in {"bp", "ey", "e&", "iq", "oq"}:
                 continue
             # allow line breaks / multiple spaces inside multi-word names
             body = r"\s+".join(re.escape(w) for w in a.split())
@@ -72,21 +83,31 @@ def parse_item(path: Path):
     return {"id": path.stem, "date": date, "title": title or path.stem,
             "source": source, "url": url, "text": text}
 
-def main():
-    nodes = load_nodes()
-    pats = alias_patterns(nodes)
-    INBOX.mkdir(exist_ok=True)
-    files = sorted([p for p in INBOX.iterdir() if p.suffix.lower() in (".txt", ".md")])
-    items = []
-    seen_titles = set()
-    dups = 0
-    for f in files:
-        it = parse_item(f)
-        tkey = norm_title(it["title"])
-        if tkey and tkey in seen_titles:      # syndicated reprint of the same story
-            dups += 1
+def collect_items(inboxes):
+    items, seen_titles, dups = [], set(), 0
+    for ib in inboxes:
+        d = ROOT / ib
+        if not d.exists():
             continue
-        seen_titles.add(tkey)
+        for f in sorted(d.iterdir()):
+            if f.suffix.lower() not in (".txt", ".md"):
+                continue
+            it = parse_item(f)
+            tkey = norm_title(it["title"])
+            if tkey and tkey in seen_titles:
+                dups += 1
+                continue
+            seen_titles.add(tkey)
+            items.append(it)
+    return items, dups
+
+def match_region(region):
+    data_js = (ROOT / region / "network_data.js") if region else (ROOT / "network_data.js")
+    out = (ROOT / region / "news_data.js") if region else (ROOT / "news_data.js")
+    nodes = load_nodes(data_js)
+    pats = alias_patterns(nodes)
+    items, dups = collect_items(REGION_INBOXES[region])
+    for it in items:
         hits = {}
         for pat, nid, alias in pats:
             if nid in hits:
@@ -94,7 +115,6 @@ def main():
             if pat.search(it["text"]):
                 hits[nid] = alias
         # drop a match whose alias is just a fragment of another matched alias
-        # (e.g. "Al Jaber" group vs "Sultan Al Jaber" the person)
         drop = set()
         for nid, alias in hits.items():
             for nid2, alias2 in hits.items():
@@ -103,30 +123,27 @@ def main():
         for nid in drop:
             del hits[nid]
         it["ids"] = sorted(hits)
-        items.append(it)
-        tag = ", ".join(hits[k] for k in sorted(hits)) if hits else "NO MATCH"
-        print(f"  {f.name}: {len(hits)} matched  [{tag}]")
 
-    items.sort(key=lambda x: x["date"], reverse=True)
+    matched = [i for i in items if i["ids"]]
+    kept = sorted(matched if region else items, key=lambda x: x["date"], reverse=True)
+    # non-AD maps carry only matched items (regional feeds are mostly out-of-region)
     rows = []
-    for it in items:
+    for it in kept:
         rows.append("  {id:%s, date:%s, title:%s, source:%s, url:%s, ids:[%s]}," % (
             js_string(it["id"]), js_string(it["date"]), js_string(it["title"]),
             js_string(it["source"]), js_string(it["url"]),
             ",".join(js_string(i) for i in it["ids"])))
-    OUT.write_text(
-        "/* AUTO-GENERATED by tools/match_news.py — do not edit by hand.\n"
-        "   Re-run the script after adding files to news_inbox/. */\n"
+    out.write_text(
+        "/* AUTO-GENERATED by tools/match_news.py — do not edit by hand. */\n"
         "window.NEWS_ITEMS = [\n" + "\n".join(rows) + "\n];\n",
         encoding="utf-8")
-    print(f"\n{len(items)} items -> {OUT.name} "
-          f"({sum(1 for i in items if i['ids'])} matched at least one node, "
-          f"{dups} syndicated duplicates collapsed)")
-    suggest_edges(nodes, items)
-
+    label = region or "abudhabi"
+    print(f"  {label}: {len(items)} items scanned, {len(matched)} matched, "
+          f"{dups} duplicates collapsed -> {out.relative_to(ROOT)}")
+    return nodes, kept
 
 def existing_pairs():
-    """Every connected pair, from the canonical CSV tables."""
+    """Every connected pair in the Abu Dhabi map, from the canonical CSVs."""
     pairs = set()
     d = ROOT / "data"
     def add(a, b): pairs.add(frozenset((a.strip(), b.strip())))
@@ -142,9 +159,8 @@ def existing_pairs():
                     add(row[ca], row[cb])
     return pairs
 
-
-def suggest_edges(nodes, items):
-    """Co-mention detection: entities that keep sharing articles but have no edge."""
+def suggest_edges(nodes, items, out):
+    """Abu Dhabi co-mention detection -> suggested_edges.csv + map overlay."""
     known = existing_pairs()
     name = {n["id"]: n["short"] for n in nodes}
     counts, samples = {}, {}
@@ -165,13 +181,21 @@ def suggest_edges(nodes, items):
             a, b = sorted(k)
             w.writerow([a, name.get(a, a), b, name.get(b, b), c,
                         " | ".join(samples[k][:3])])
-    # expose to the map as dashed "potential" edges
     js_rows = ",".join('{a:%s,b:%s,n:%d}' % (js_string(sorted(k)[0]), js_string(sorted(k)[1]), c)
                        for c, k in rows)
-    with open(OUT, "a", encoding="utf-8") as f:
+    with open(out, "a", encoding="utf-8") as f:
         f.write("window.SUGGESTED_EDGES = [" + js_rows + "];\n")
-    print(f"{len(rows)} candidate relationships -> data/suggested_edges.csv "
-          f"(pairs sharing >= {MIN_COMENTIONS} articles, no existing edge)")
+    print(f"  abudhabi: {len(rows)} candidate relationships -> data/suggested_edges.csv")
+
+def main():
+    for region in REGION_INBOXES:
+        nodes, items = match_region(region)
+        out = (ROOT / region / "news_data.js") if region else (ROOT / "news_data.js")
+        if region == "":
+            suggest_edges(nodes, items, out)
+        else:
+            with open(out, "a", encoding="utf-8") as f:
+                f.write("window.SUGGESTED_EDGES = [];\n")
 
 if __name__ == "__main__":
     main()

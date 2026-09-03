@@ -31,6 +31,7 @@ def main():
     run([sys.executable, TOOLS / "import_csv.py"])
     if fetch:
         run([sys.executable, TOOLS / "fetch_news.py"])
+        run([sys.executable, TOOLS / "scrape_news.py"])
     run([sys.executable, TOOLS / "match_news.py"])
     run([sys.executable, TOOLS / "report.py"])
     run([sys.executable, TOOLS / "build_regions.py"])
