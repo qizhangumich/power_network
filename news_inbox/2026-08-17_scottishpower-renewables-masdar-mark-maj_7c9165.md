@@ -1,0 +1,5 @@
+# ScottishPower Renewables & Masdar Mark Major Engineering Milestone at East Anglia THREE Windfarm
+source: CleanTechnica
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOSFhBNHFZN1FOdVota2JjanoxcHYxQVJqeWptaE8wNVd5NUtHM3VxYkYxVzVPR21hQS1STG5DRl9SU3FqY2gyRW9mNy1SZGVWSUo5dkJKWjh4NnlGRmFBcnpQdFAycldNWUJzamMzOUR5YWJCV1VSODUyWVB1ZjVKSmJUa2tnYVJBdDExUGRzX3dOMU5hWFhrSGp2TXZ6TzBGMW1aUlpyUUdmOGpmV2t1YUNfTGJuOWFhLTdHcUlac2ZqQmI2UWZ2SGxfYmI?oc=5
+
+ScottishPower Renewables & Masdar Mark Major Engineering Milestone at East Anglia THREE Windfarm    CleanTechnica

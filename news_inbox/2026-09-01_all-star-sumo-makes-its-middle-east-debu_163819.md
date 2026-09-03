@@ -1,0 +1,5 @@
+# All-Star Sumo Makes Its Middle East Debut at Space42 Arena Abu Dhabi on 26 September 2026
+source: The Joplin Globe
+url: https://news.google.com/rss/articles/CBMiiAJBVV95cUxNNHdlTVU3WnlQYXBpUDloclZvcDBiUWdIemxQWEhGZWNmUVgyVlVPVFdUYzNDNWZSdWpSWGE2aW1FU0FkaWlMNDNZaU9LUVppT3pNWmdrYUVrNS1RN0RWOFBVVlpoVWdLNFhkWjNxTWNlemIyVVJCUUUzcHRCSWU3Q2hSNTltaWJxb1pDRng1TW1LLVJmTHFVeGVTeUdwVnVvMm1KN0N6NzVWT0ZLRWVOTkE1czJXT1dvZDBDLWJrcnFQQ2NUUEpWNXNkSFZabXdGTUdBbGoxeDZuT3h1WnRHUzVwR0NkYTFDLVdMUmoyWkd4X0QtMHdhLWFlMWNfcUgwbmVsZjF4Vm8?oc=5
+
+All-Star Sumo Makes Its Middle East Debut at Space42 Arena Abu Dhabi on 26 September 2026    The Joplin Globe

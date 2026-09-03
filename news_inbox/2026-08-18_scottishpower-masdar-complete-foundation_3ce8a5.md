@@ -1,0 +1,5 @@
+# ScottishPower, Masdar complete foundation installation at 1.4GW UK offshore wind project
+source: Anadolu Ajansı
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUURDNzlGUHNtYURwVC13bFc5Q1hZb2Q0LUIySEY5LTRxdEU2X29zbzA3ZWU0WkNOOFl2blR6akVRczlIS0wzZkdacmRFcHBVbWw5Sk5DQTNGUFhsY3FvNlRXMUpBd1NNNFNCQUZhdFFlWEQzNTRtOG9TYzltZVoxYmxERU1GX3BRN2o4QVZqX2dIVU9oYThkdVY0MFpKd0NNVXpiVk8zMnBwS0R0SWpzbVdWTkp3MUI4UG9MMnVTVHpMSVJEeTFOZzJyZld2T1M5Q3c?oc=5
+
+ScottishPower, Masdar complete foundation installation at 1.4GW UK offshore wind project    Anadolu Ajansı

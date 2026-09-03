@@ -1,0 +1,5 @@
+# Masdar starts commercial operations at second UK battery storage facility
+source: tradearabia.com
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOTW9BT3lfNFJudUw2aWRVQ01oenRqcVl6dTJnQ2JMR1NRTk1PQXktbTNfSkV1YTZNMGVWUmlQTkxkNjhubUtoRHRlRWZkZG5sSmRxVjlsTzhuLXRuM3hqa1F5QjdOa2NMYldJTHlLRW9ESC1IMmxMazgyb2Nzb0REcF9fRnFzc2xSQk55aEVvWC1OcEx4WjR0dEVfcFM4b0ZYaXhNOU9mRlZvb3Z4ODJMdlhaRQ?oc=5
+
+Masdar starts commercial operations at second UK battery storage facility    tradearabia.com

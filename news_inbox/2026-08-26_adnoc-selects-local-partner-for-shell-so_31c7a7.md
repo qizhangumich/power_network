@@ -1,0 +1,5 @@
+# ADNOC selects local partner for Shell South Africa acquisition
+source: Mobility Plaza
+url: https://news.google.com/rss/articles/CBMingFBVV95cUxNN21kdnFUYVJHN3dOU2V6WHVlYlozUXVXWmcxTTA3ZG5xb2VvQkl5Q3RKNUJ0c0RBN2RrMVJUdkpKeTU1TzEwUGk5ZFlTM0RyNXgzd2I0TS1tOWJ6dTNSYmphTlE3bWJkZGZvLUVDRFkyMllmR2ZyeWRsc3JZTVdJeVhwcHpRelhoMVZ4TW9RdnVGY21kU1htcDc5Qi1Ndw?oc=5
+
+ADNOC selects local partner for Shell South Africa acquisition    Mobility Plaza

@@ -1,0 +1,5 @@
+# Masdar deepens Europe expansion with Montenegro renewable energy push
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeDJDZWlyc1NGNUVqTktESHd1eEx1eEwtU0hGSVFCYXp6dWxFM2s3SWpqTUN2dDZiaTd4RkFfbDA3LTVKSmd2d2dJT1Z0UDEwMzZYY2ZuN0FJWHlseFBEUnpiQjZVMl92UlhJNjN4TkdjcXpmM3pRd2NvNnBRSUdWNmpvUHZxLXhwYzBCSGRjR2dKZEQ3OFYwTjJ1cGdybi1HSHdHU3ByWXUyMmRtc0hDTHlLSHZrZlJyQmk5T1dyVmg5eGNMNnVtaA?oc=5
+
+Masdar deepens Europe expansion with Montenegro renewable energy push    thenationalnews.com
