@@ -25,6 +25,11 @@
           padding:0 20px;z-index:20;pointer-events:none}
   #topbar > *{pointer-events:auto}
   #brandwrap{display:flex;flex-direction:column;line-height:1.15}
+  #regions{display:flex;gap:2px;background:var(--surface);border:1px solid var(--hairline);
+           border-radius:9px;padding:2px;box-shadow:var(--shadow)}
+  #regions a{padding:4px 10px;border-radius:7px;font-size:11.5px;color:var(--ink-dim);text-decoration:none;white-space:nowrap}
+  #regions a.on{background:var(--accent-soft);color:var(--accent);font-weight:500}
+  @media (max-width:760px){ #regions a{padding:4px 7px;font-size:10.5px} }
   #brand{font-weight:600;font-size:14px;letter-spacing:.2px;white-space:nowrap}
   #brandsub{font-size:10.5px;color:var(--ink-faint);white-space:nowrap}
 
@@ -191,6 +196,7 @@
     <div id="brand">ABU DHABI POWER NETWORK</div>
     <div id="brandsub">Network Intelligence</div>
   </div>
+  <div id="regions"><a href="./" class="on">Abu Dhabi</a><a href="qatar/">Qatar</a></div>
   <div id="askwrap">
     <input id="ask" placeholder="Ask the network…" autocomplete="off"/>
     <div id="askout"></div>
@@ -523,7 +529,7 @@ function computeLayout(){
     }));
     c.tx = 0; c.ty = 0;
   } else if(S.view === "control"){
-    const root = byId["adgov"];
+    const root = nodes.filter(n => n.kind==="inst").sort((a,b)=>b.power-a.power)[0];
     const depth = new Map([[root, 0]]);
     const children = {};
     edges.forEach(e => { if(e.kind==="own") (children[e.t.id] = children[e.t.id]||[]).push(e.s); });
@@ -1266,7 +1272,7 @@ function runAsk(q){
   if(m){
     const target = findNode(m[1]);
     if(target){
-      const start = S.selected || byId["mbz"];
+      const start = S.selected || nodes.filter(n => n.kind==="person").sort((a,b)=>b.power-a.power)[0];
       const p = computePath(start, target);
       if(p){
         S.path = p;
