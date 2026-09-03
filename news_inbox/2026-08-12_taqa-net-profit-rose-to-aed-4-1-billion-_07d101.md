@@ -1,0 +1,5 @@
+# TAQA: Net profit rose to AED 4.1 billion on AED 27.5 billion revenue, with strong liquidity and interim dividend declared
+source: tradingview.com
+url: https://news.google.com/rss/articles/CBMiqgJBVV95cUxNRXA1Q05FZUtrVkZMbkZrT0pVQ3pwd2JxcTlHRHdOcWRwZWhUdW5DMEFoUTdPN1RaWDhac05TOGdsa0RtZW96blNLazZ1OUx6dGpPNGMxbHBGbVM1bHNpYUVzWWJVVGxTcU9EczNwVUttM1kzWWg5TW1DV0piai16UXBBZkNLcmhPdGdHbzVSZ1dKeFd4bEh5V0JJODFoZVVSdU81UFpJQWQ5enFzODRKa2xhNjFnalhuZnpLcE5CYjB0MDVjUUNrbW1tS3ZHcWM3Mko4OGVFNUg0alQ1cUtrcE96RHhINmpfV2VhSHlkRzdMY0g0UC1VM0R4ZzAtY21ackFxWVpqZjlUbEI2OXZMOFoyRHJ4ak8zM2Vvd2pRdUlLOEFBWlg0WnFB?oc=5
+
+TAQA: Net profit rose to AED 4.1 billion on AED 27.5 billion revenue, with strong liquidity and interim dividend declared    tradingview.com

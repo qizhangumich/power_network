@@ -1,0 +1,5 @@
+# Sheikh Khaled views plans for Dh100bn Marsa Al Saadiyat development featuring underground Etihad Rail station
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxQS1VrYjVQdGIwTE5kVjZiQ1VkOWwwVzVrenZIdWpZT0ZLN2RGZnhIUzRSLUxoYVJrQnVPbEZuOWZNUzA1ZVp5cmpBUG04UEVnS0NiZndicmg3Y0tJLUtMSWtsMmNNYzhLU0ZzekQtNzNLVlh5WlM3Yk9veFJ1MVNDbGZXNVRwOTA4Sk5lV09XSUJoV21ZbE0xTjU4TXYwLXF5bjgwRXRsakFBUFE4Sm9VWHE0WGRJOWlCV0c5aDFCUWRka19Id3phTkNrZVhpRHR6b3dYWmVsREFITm1RSTFlWjRwcjF0S2VUM09VTTFubm1HNVY0?oc=5
+
+Sheikh Khaled views plans for Dh100bn Marsa Al Saadiyat development featuring underground Etihad Rail station    thenationalnews.com

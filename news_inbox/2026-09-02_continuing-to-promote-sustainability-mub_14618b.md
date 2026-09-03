@@ -1,0 +1,5 @@
+# Continuing to promote sustainability.. Mubadala Energy reduces its emissions by 30.9%
+source: صوت الإمارات
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNzdjd1hoZjVZRV9xMkVmMGw0S1RnZW1HQVlWcjhfRmY4R3R2ZndrUGFaeURQd2RaUEN1dWFzd0NkR202Rjd1dmtqR0dIdTUtTW5JVWdsZlZGeVBDNmRlc2I0SzRzTkxRanV5Y0hTVVNFYmZqSHktMkZGZTFyb1pBNTMtZUp2cWd3cGxiQkxVc1ZkVklFWUd0S1MtVWUwTVE1Q2dscFZabkVUc3l6aEx5ckttVzlZTU5TcU1QNFBMcjkzcklGeVN5V2Y3dkRUcDdtWW1VQmlSVWQ4a3ZHaXp2M2xBak5EQQ?oc=5
+
+Continuing to promote sustainability.. Mubadala Energy reduces its emissions by 30.9%    صوت الإمارات

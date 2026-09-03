@@ -1,0 +1,5 @@
+# TAQA to delist from ADX following mandatory acquisition by ADPC
+source: Zawya
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVzJPTS1HcVoyOFd2N3BmODIwQndFWjktWTdRZHV3ODRpVDZnUC1scThjZEdkVmUtcEpiSkNfd1Bvanpld0VvYlZ4aVMtZzJkUjRoRVRQaThjaWFpMDJNM2tRTVJjamQtVGEtRHVZOHV1MnhoQTZVNVJUS29ZZ3p6SU5aZ2FMWTVsZVlxUVMwNS15Q1JWLVY4aE5JdkdiTWxvWlpPZ1hnaTU0ZU13Q0tJVG1pRWJvZXIzOTM0?oc=5
+
+TAQA to delist from ADX following mandatory acquisition by ADPC    Zawya

@@ -1,0 +1,5 @@
+# Sovereign money dominates as L’imad eyes AD Ports and QIA backs first homegrown fund manager
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYVlKMHZTczVmRnRtcUZtUnNJT3VHUXp5Q0hPUDRkYzhLbVJkTUxWZTZPeVpWV3JuSy0wMnppLWhnMFBEZ296TnlSRlptcEZQRVU0a1RfVms3dl9jS3dDQnppZHZxSl8xX0dJVTNObnNoRzVaODlTcWVZX29PTm41RldnamRDcU16ZjV6S2c4Skx1WGotcFo2eU53b3Rvb3Y2ZzNQcWxkTzVGX0t6cDg5Yk5ic2lLZHBqdHB1cnFrdHRoYlVNLXZwaHR0WEVLWHdSUWxj?oc=5
+
+Sovereign money dominates as L’imad eyes AD Ports and QIA backs first homegrown fund manager    EnterpriseAM

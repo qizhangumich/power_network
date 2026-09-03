@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed witnesses launch of Marsa Al Saadiyat development project spanning 6.4m sqm with investment value of AED100bn
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMinAJBVV95cUxNZjgwMjJOSnJocEZfOE9DZnV0X3poUlhkTUk4V3Y2cE5LZ09ZZU5iSlBjTkZ0Wkk2bkk4THpSTFJWWHBkWFFrXzhuWFZDVVBPMHUxUDRIVUpUNHBGTU1DLWtFbURrbVZ1YUs0a2hQYWhlZmxmREZZeW1xOGJ0anNqQWtfVjlNcWxPR2FLSzZmSlllaWRXNFIxcGRWc19PUWptOHhXa0VteDhkU3dTRDRNSjJ6XzhpMWdkMUxZVmR6NE5zd0d3UEtSMzZja19va0VRMzlRUy1LRmVxVjN0YmRMRFBPSnI4M1ZIWlpiYkdJWWFQM2lHdDg0MV9GeC0zSm9HekFMaE96Z3NVUTcxci1CU1BQNXlVUks1bjlMeQ?oc=5
+
+Khaled bin Mohamed bin Zayed witnesses launch of Marsa Al Saadiyat development project spanning 6.4m sqm with investment value of AED100bn    مكتب أبوظبي الإعلامي

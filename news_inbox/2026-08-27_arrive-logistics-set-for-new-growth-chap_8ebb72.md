@@ -1,0 +1,5 @@
+# Arrive Logistics set for new growth chapter with Mubadala Capital investment
+source: Logistics Management
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNUHlsQ3o3cEJTaTJoc0MwUGdtMlF4a1dMa0VKSno5aUdLLWl6WkhsQUhjVjJULWpZeEozMTVlLUlvWlRjTWRuMHlVRXhCZ1FIUmczS21ZaV94NjZwYVJTbk0tSjh0VGRxMm80UzF2YU9NY1hkaldUNmx6cXpjVjdTdTlJZS1DQkoxR3lWaHBMOHBsZDBVNUpDRHJGbzVUeUZIbEh4bmMzdXJSTXByQzBvOWtaNFE?oc=5
+
+Arrive Logistics set for new growth chapter with Mubadala Capital investment    Logistics Management

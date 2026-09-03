@@ -1,0 +1,5 @@
+# AD Ports Group Appoints HSBC Bank Middle East As Financial Advisors To Oversee Deal With ADQ
+source: tradingview.com
+url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxNd2N5OUU5MXNCWTYxWERqbHVrZGt6d0dlUUFIdTZWWUhDM2JwRUxWSWNiZDRibHJmTWJfejM3dkw3NGtZaGw3TEwwcGJLbzFKY2pabi1SSFNQaUF4a0Fzdm1KS3h1emtwN1oxOWFtSWhYaUdoQVlWM2tBcm5rVk5nOGhKX2NIN18yS1JwR2ZsLUI4eUNKQkpVR21pOGtGY1FMN3FTSlJ2NlZSOWsydE9TbWNIZFY0bnBORy1GNDNKUnc2Mk5EaXdhSkpXQ0djZ1B6MjNEdkNCZUtpa1l5UVhRUG1PMjNVZERkdm5TeVhNaGxKNERS?oc=5
+
+AD Ports Group Appoints HSBC Bank Middle East As Financial Advisors To Oversee Deal With ADQ    tradingview.com

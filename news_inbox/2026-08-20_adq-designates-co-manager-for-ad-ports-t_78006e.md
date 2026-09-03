@@ -1,0 +1,5 @@
+# ADQ Designates Co-manager for AD Ports Takeover Bid
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOTFRrYThZZjRxWmM4aTJibHRaTUNtWmMwOVJIck5NVURmN3E2eUtfMWFUTDNGRV9vTThaU2Z6QUotU3FnLS1LdE9HVWdyMldUajVWaUJkV1BpT094cXNCYkhPWlZoQU5hQl8wTWZEQXpnSTVpSnprTndxWmdHSDd1cG81U3d1MmN3eXQtTEh6OXNFZUVuc05tUjdFYmNjU0V0UDl6T24zSQ?oc=5
+
+ADQ Designates Co-manager for AD Ports Takeover Bid    marketscreener.com

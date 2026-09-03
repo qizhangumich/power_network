@@ -1,0 +1,5 @@
+# Alpha Dhabi doubles stake and investment in Mubadala joint venture to $1bn
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxOc0lCU2lyZXFUWjRZNGJPZjJHN3NJUGRsZHpKZERhaGJuand2WjJHY2hwM2dzMlM3MFhNT2tDM0k1Sm5SeHgtanpKZ0NOZGFETzQxM1lJODN3NHBTem1EU2dHZXhqUV9EcU5JNVR3ZnFwTWNfeFRGV3FKVDJaZ0RKQk5mWVNSVHlmaFloUVhWajhYeUxTcFd0RmhNVVFIcE83Ml9Tb3JlekthZUJwOEFCWXcwaVZzSFlZR1pPZjR4clVVV0J4TTVYcTZ6a0tPZU0?oc=5
+
+Alpha Dhabi doubles stake and investment in Mubadala joint venture to $1bn    thenationalnews.com

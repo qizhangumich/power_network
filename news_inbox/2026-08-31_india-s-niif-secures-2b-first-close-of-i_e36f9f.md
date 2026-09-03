@@ -1,0 +1,5 @@
+# India's NIIF secures $2b first close of Infrastructure Fund II
+source: dealstreetasia.com
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPb3puQ1lLTmp3cG91SWdsT2t5NGZYdlNDTnpGdTExY1l4RDB2WWEyUUJlVWFBWEZBNmU3THBVSHdyMXQ0WEFlZHFUN2ZJZVhXdmJuOXZqYVNieGRLQ21pUGFDcGhkOE9DOWFsaDI2ZW1OY19rS05jbjVrZml2aHhBc1p3UVRpNTF5MWh2QjV4YlBqclkyTDRMUmN6R0RTLW9oT3YtTGpFdXBOc0Y3Tzh3dFZLenlDNW4wbEhSUm42bWhMWGRjUnc?oc=5
+
+India's NIIF secures $2b first close of Infrastructure Fund II    dealstreetasia.com

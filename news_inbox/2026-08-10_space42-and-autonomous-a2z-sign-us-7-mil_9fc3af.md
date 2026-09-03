@@ -1,0 +1,5 @@
+# Space42 and Autonomous A2Z Sign US$7 Million Agreement to Deploy Autonomous Mobility Solutions in the UAE
+source: GlobeNewswire
+url: https://news.google.com/rss/articles/CBMiiAJBVV95cUxQYTBHQ3hDNE8xNjdGUDIzYVZaSjBMd0tHZ0VQR2NBNG5UTXBNZ1k3ZUFuaVNDQlVNbDJwTWl3N1UyaXR0VVNKVlZJdmN1SzVSNVU5VURlX0c2Z0xwU1hTNU1oSGVWakl3NjBON1lwbnlDUUdVQm9CZWVqNGNXTGFiQ2d3M3M1OWx5NzhHYVF3a0FEaE1lb2VqS1I1eVdEWnFPN09NSm5OamwwQTVzTnRTcGplUUUtUG9jbVd4VnRmdGlNZW1XLXVZcVRtNnlJT0lpVHRUWVQyWWJGY2pFU3JwQ3hpcnY2WmtOSXFXbjlZNUNzOEtCRlRBN0RNT21vbTluVzBJUGp0cHI?oc=5
+
+Space42 and Autonomous A2Z Sign US$7 Million Agreement to Deploy Autonomous Mobility Solutions in the UAE    GlobeNewswire

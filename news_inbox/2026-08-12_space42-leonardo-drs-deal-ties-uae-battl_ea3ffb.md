@@ -1,0 +1,5 @@
+# Space42-Leonardo DRS Deal Ties UAE Battlefield Computers to Sovereign Satellites
+source: Tech Times
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxNVzZ6aWpUaXhDMEpMVjNZOVVQVEdibGVfMGgxZ3RyRzVMMERKUXZCZVhhRFgySDBxM0VxV29sNElfeEJCVXBVTVJ0RXpMaFdGRUoxY3BLZFZxSS1jY1kyUU1LdmRfLXNxUDByUHVVbWh2b0xzOW1Wc2xrUFRUV3B1c0ZtVHZlTE8weTdUejJTVXlNZWJ5bGo1WTUzbDVMbXBTNmtZZGZVdmFKZmFnbFE4bnphNGNmVmhDY1M0Q1JxeWtHRlp0bktlUTM3RDM?oc=5
+
+Space42-Leonardo DRS Deal Ties UAE Battlefield Computers to Sovereign Satellites    Tech Times

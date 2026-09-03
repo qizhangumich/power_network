@@ -1,0 +1,5 @@
+# His Highness Sheikh Khaled bin Mohamed bin Zayed Al Nahyan inaugurates AED 100bln Marsa Al Saadiyat
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxPT0ZOblBOYm1KX3l0d0pQYjR5RXF2XzBYbFlXa2lSUVlCcURZNXpwR2RudzZ3Y1BfeEZtYzdXanJKOEppVmVoRVlHb2hranRaTzRPZEJvYjhjT2k2bkFWUHBuUTZ0WlV0RTJzWUR3U09QanhKZ2dNcTNOMFh2UXRjTHFwS2EtODE0aU1nRFVlSk1lc19tUnNQc2xzNjZkUjJvMFgxVnNCNFp2TE5tOENSMzBPNVhjbnowOGpDTUNwWHE2aVJPVWZhT0ZLM3FSd2htOTdMSzFUekZ2eXVVOWhmSFB4Z0lheVpUbTJfcFRuV1MtUQ?oc=5
+
+His Highness Sheikh Khaled bin Mohamed bin Zayed Al Nahyan inaugurates AED 100bln Marsa Al Saadiyat    Zawya

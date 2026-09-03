@@ -1,0 +1,5 @@
+# AD Ports board backs ADQ’s Dh6.25-a-share buyout offer
+source: Khaleej Times
+url: https://news.google.com/rss/articles/CBMilAFBVV95cUxQQkcxQlUtU1BhaWcwSXo4SUlOSW85UzdzSTdtMFM5Q3gtdHgwSFZaNkRKaWhrNF8zSnZrZEUtUDd6N1JrMjgtVmk3YTJYTV93dG93ZFRMTzBWa1l3RjhYdG0yRVFnWmNrX2x5ZkVzX2MxSGoycVA3UmFrb2hPaEl1a1BYSHlUSlN6Y3JobUlaYUt3cmxL0gGcAUFVX3lxTE1XUjJTRllnZ3locEhWdXlfRDhHZ19GRjhIZFcybm9tOG9zU0doLWFVV1QtbVg3OXJ1eEthX1ZJemFhY0JiNVZXa3VfMlN2dzlFQnE1T0JVYkNvZ1dMdXdsSHhOSU5vSmZXZmJ1c0VsQ3NNR0o0bjZ1M0VET01KcnZBSGowdTRwT2M4VnhkRllKWHZYYkxoOWc4bnZXRA?oc=5
+
+AD Ports board backs ADQ’s Dh6.25-a-share buyout offer    Khaleej Times
