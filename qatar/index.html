@@ -25,11 +25,20 @@
           padding:0 20px;z-index:20;pointer-events:none}
   #topbar > *{pointer-events:auto}
   #brandwrap{display:flex;flex-direction:column;line-height:1.15}
-  #regions{display:flex;gap:2px;background:var(--surface);border:1px solid var(--hairline);
-           border-radius:9px;padding:2px;box-shadow:var(--shadow)}
-  #regions a{padding:4px 10px;border-radius:7px;font-size:11.5px;color:var(--ink-dim);text-decoration:none;white-space:nowrap}
-  #regions a.on{background:var(--accent-soft);color:var(--accent);font-weight:500}
-  @media (max-width:760px){ #regions a{padding:4px 7px;font-size:10.5px} }
+  /* folded region menu */
+  #regions{position:relative}
+  #regions summary{list-style:none;cursor:pointer;background:var(--surface);border:1px solid var(--hairline);
+                   border-radius:9px;padding:6px 12px;font-size:12px;color:var(--ink);box-shadow:var(--shadow);
+                   white-space:nowrap;user-select:none}
+  #regions summary::-webkit-details-marker{display:none}
+  #regions summary::after{content:" ▾";color:var(--ink-faint);font-size:10px}
+  #regions nav{position:absolute;top:40px;left:0;background:var(--surface);border:1px solid var(--hairline);
+               border-radius:10px;box-shadow:var(--shadow);padding:5px;display:flex;flex-direction:column;
+               min-width:160px;z-index:45}
+  #regions nav a{padding:6px 11px;border-radius:7px;font-size:12.5px;color:var(--ink-dim);text-decoration:none;white-space:nowrap}
+  #regions nav a:hover{background:var(--accent-soft)}
+  #regions nav a.on{color:var(--accent);font-weight:500}
+  @media (max-width:760px){ #regions summary{padding:5px 9px;font-size:11px} }
   #brand{font-weight:600;font-size:14px;letter-spacing:.2px;white-space:nowrap}
   #brandsub{font-size:10.5px;color:var(--ink-faint);white-space:nowrap}
 
@@ -196,7 +205,7 @@
     <div id="brand">QATAR POWER NETWORK</div>
     <div id="brandsub">Network Intelligence</div>
   </div>
-  <div id="regions"><a href="../">Abu Dhabi</a><a href="./" class="on">Qatar</a></div>
+  <details id="regions"><summary>Qatar</summary><nav><a href="../">Abu Dhabi</a><a href="../dubai/">Dubai</a><a href="../northern/">N. Emirates</a><a href="../saudi/">Saudi Arabia</a><a class="on" href="./">Qatar</a><a href="../bahrain/">Bahrain</a><a href="../oman/">Oman</a><a href="../kuwait/">Kuwait</a></nav></details>
   <div id="askwrap">
     <input id="ask" placeholder="Ask the network…" autocomplete="off"/>
     <div id="askout"></div>
@@ -1347,6 +1356,8 @@ askIn.addEventListener("input", () => {
 });
 document.addEventListener("click", ev => {
   if(!document.getElementById("askwrap").contains(ev.target)) askClose();
+  const rg = document.getElementById("regions");
+  if(rg && !rg.contains(ev.target)) rg.removeAttribute("open");
 });
 
 /* ---------- top buttons ---------- */
