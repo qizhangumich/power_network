@@ -298,6 +298,9 @@ const PEOPLE = [
     ["dib","Chief Digital Officer","executive","v"]]},
   {id:"naveed_ali", n:"Naveed Ali", t:2, p:58, s:"finance", roles:[
     ["dib","Chief of Corporate Banking","executive","v"]]},
+  {id:"sultan_sulayem", n:"Sultan Ahmed bin Sulayem", t:1, p:70, s:"industry", roles:[
+    ["dpworld","Group Chairman & CEO (2007–Feb 2026)","executive","v","former:until Feb 2026"]],
+    note:"Led DP World's global expansion for nearly two decades; stepped down Feb 2026 — role split between Essa Kazim (Chairman) and Yuvraj Narayan (Group CEO)."},
   {id:"yuvraj_narayan", n:"Yuvraj Narayan", t:2, p:58, s:"industry", roles:[
     ["dpworld","Group Chief Executive Officer","executive","v"]]},
   {id:"deepak_parekh", n:"Deepak Parekh", t:2, p:52, s:"industry", roles:[
@@ -415,6 +418,7 @@ const AKA = {
   icd:["Investment Corporation of Dubai"],
   enbd:["Emirates NBD"],
   dpworld:["DP World"],
+  sultan_sulayem:["Sultan bin Sulayem","bin Sulayem"],
   difc:["Dubai International Financial Centre"],
   dewa:["Dubai Electricity"],
   maf:["Majid Al Futtaim"],

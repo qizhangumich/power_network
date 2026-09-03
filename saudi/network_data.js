@@ -358,7 +358,8 @@ const PEOPLE = [
   {id:"jadaan", n:"Mohammed Al-Jadaan", t:1, p:86, s:"finance", roles:[
     ["mof_sa","Minister of Finance","political","v"]]},
   {id:"falih", n:"Khalid Al-Falih", t:1, p:78, s:"gov", roles:[
-    ["com","Minister of State, Member of the Council of Ministers","political","v"]],
+    ["com","Minister of State, Member of the Council of Ministers","political","v"],
+    ["misa","Minister of Investment (2019–Feb 2026)","political","v","former:until Feb 2026"]],
     note:"Relieved as Minister of Investment on 12 Feb 2026 (royal decree); retained cabinet rank as Minister of State. Succeeded at MISA by Fahd Al-Saif."},
   {id:"alsaif_misa", n:"Fahd Al-Saif", t:1, p:80, s:"gov", roles:[
     ["misa","Minister of Investment","political","v"]],
@@ -368,7 +369,8 @@ const PEOPLE = [
   {id:"khateeb", n:"Ahmed Al-Khateeb", t:1, p:76, s:"gov", roles:[
     ["mot_sa","Minister of Tourism","political","v"]]},
   {id:"alkhorayef", n:"Bandar Alkhorayef", t:1, p:72, s:"industry", roles:[
-    ["com","Minister of State, Member of the Council of Ministers","political","v"]],
+    ["com","Minister of State, Member of the Council of Ministers","political","v"],
+    ["moind","Minister of Industry & Mineral Resources (2019–Jul 2026)","political","v","former:until Jul 2026"]],
     note:"Relieved as Minister of Industry & Mineral Resources on 11 Jul 2026 (royal order); reassigned as Minister of State and Governor of GAMI (General Authority for Military Industries). Succeeded at Industry by Abdulaziz bin Salman."},
   {id:"qasabi", n:"Majid Al-Qasabi", t:1, p:76, s:"gov", roles:[
     ["moc_sa","Minister of Commerce","political","v"]]},

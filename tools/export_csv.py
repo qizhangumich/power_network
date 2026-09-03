@@ -33,19 +33,19 @@ def parse(text):
     # people: multi-line entries  {id:"..", n:"..", t:N, p:N, s:"..", roles:[...], note:".."}
     for m in re.finditer(r'\{id:' + STR + r',\s*n:' + STR + r',\s*t:(\d+),\s*p:(\d+),\s*s:' + STR +
                          r',\s*roles:\[(.*?)\]\s*(?:,\s*note:' + STR + r')?\s*\}', text, re.S):
-        roles = re.findall(r'\[' + STR + r',' + STR + r',' + STR + r'(?:,' + STR + r')?\]', m.group(6))
+        roles = re.findall(r'\[' + STR + r',' + STR + r',' + STR + r'(?:,' + STR + r')?(?:,' + STR + r')?\]', m.group(6))
         people.append({"id": m.group(1), "name": m.group(2), "tier": int(m.group(3)),
                        "power": int(m.group(4)), "sector": m.group(5),
-                       "roles": [(r[0], r[1], r[2], r[3] or "v") for r in roles],
+                       "roles": [(r[0], r[1], r[2], r[3] or "v", r[4]) for r in roles],
                        "note": m.group(7) or ""})
 
     # extra roles added via  PEOPLE.find(p => p.id === "x").roles.push([...])
     for m in re.finditer(r'PEOPLE\.find\(p\s*=>\s*p\.id\s*===\s*' + STR + r'\)\.roles\.push\((\[.*?\])\);', text):
         pid, arr = m.group(1), m.group(2)
-        r = re.findall(r'\[' + STR + r',' + STR + r',' + STR + r'(?:,' + STR + r')?\]', arr)
+        r = re.findall(r'\[' + STR + r',' + STR + r',' + STR + r'(?:,' + STR + r')?(?:,' + STR + r')?\]', arr)
         for p in people:
             if p["id"] == pid:
-                p["roles"].extend((x[0], x[1], x[2], x[3] or "v") for x in r)
+                p["roles"].extend((x[0], x[1], x[2], x[3] or "v", x[4]) for x in r)
 
     def edge_entries(name):
         rows = []
@@ -88,8 +88,8 @@ def main():
     w("people.csv", ["id", "name", "tier", "power", "sector", "note"],
       [[p["id"], p["name"], p["tier"], p["power"], p["sector"], p["note"]] for p in people])
     w("roles.csv", ["person_id", "person_name", "institution_id", "institution_name",
-                    "title", "role_type", "verification"],
-      [[p["id"], p["name"], r[0], iname.get(r[0], "?"), r[1], r[2], r[3]]
+                    "title", "role_type", "verification", "status"],
+      [[p["id"], p["name"], r[0], iname.get(r[0], "?"), r[1], r[2], r[3], r[4] if len(r) > 4 else ""]
        for p in people for r in p["roles"]])
     w("ownership.csv", ["child_id", "child_name", "parent_id", "parent_name", "label", "verification"],
       [[a, iname.get(a, "?"), b, iname.get(b, "?"), lbl, v] for a, b, lbl, v in ownership])

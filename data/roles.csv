@@ -1,266 +1,268 @@
-﻿person_id,person_name,institution_id,institution_name,title,role_type,verification
-mbz,H.H. Sheikh Mohamed bin Zayed Al Nahyan,adgov,Abu Dhabi Government (Ruler's Court),President of the UAE · Ruler of Abu Dhabi,political,v
-mbz,H.H. Sheikh Mohamed bin Zayed Al Nahyan,scfea,Supreme Council for Financial & Economic Affairs,Chairman,political,v
-mbz,H.H. Sheikh Mohamed bin Zayed Al Nahyan,mubadala,Mubadala Investment Company,Chairman,board,v
-khaled,H.H. Sheikh Khaled bin Mohamed bin Zayed Al Nahyan,adgov,Abu Dhabi Government (Ruler's Court),Crown Prince of Abu Dhabi,political,v
-khaled,H.H. Sheikh Khaled bin Mohamed bin Zayed Al Nahyan,execcouncil,Abu Dhabi Executive Council,Chairman,political,v
-tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,adgov,Abu Dhabi Government (Ruler's Court),Deputy Ruler of Abu Dhabi,political,v
-tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,fedgov,UAE Cabinet / Federal Government,UAE National Security Advisor,political,v
-tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,adia,Abu Dhabi Investment Authority,Chairman,board,v
-tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,adq,ADQ,Chairman,board,v
-tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,fab,First Abu Dhabi Bank,Chairman,board,v
-tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,ihc,International Holding Company,Chairman,board,v
-tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,royalgroup,Royal Group,Chairman,board,v
-tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,g42,G42,Chairman,board,v
-tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,mgx,MGX,Chairman,board,v
-mansour,H.H. Sheikh Mansour bin Zayed Al Nahyan,fedgov,UAE Cabinet / Federal Government,Vice President · Deputy Prime Minister,political,v
-mansour,H.H. Sheikh Mansour bin Zayed Al Nahyan,prescourt,UAE Presidential Court,Minister of the Presidential Court,political,v
-mansour,H.H. Sheikh Mansour bin Zayed Al Nahyan,cbuae,Central Bank of the UAE,Chairman of the Board,board,v
-mansour,H.H. Sheikh Mansour bin Zayed Al Nahyan,eia,Emirates Investment Authority,Chairman,board,v
-mansour,H.H. Sheikh Mansour bin Zayed Al Nahyan,cfg,City Football Group / Manchester City,Owner,ownership,v
-mansour,H.H. Sheikh Mansour bin Zayed Al Nahyan,imi,International Media Investments,Owner,ownership,v
-hazza,H.H. Sheikh Hazza bin Zayed Al Nahyan,adgov,Abu Dhabi Government (Ruler's Court),Deputy Ruler of Abu Dhabi,political,v
-abdullah_bz,H.H. Sheikh Abdullah bin Zayed Al Nahyan,fedgov,UAE Cabinet / Federal Government,Deputy Prime Minister,political,v
-abdullah_bz,H.H. Sheikh Abdullah bin Zayed Al Nahyan,mofa,UAE Ministry of Foreign Affairs,Minister of Foreign Affairs,political,v
-saif_bz,H.H. Sheikh Saif bin Zayed Al Nahyan,fedgov,UAE Cabinet / Federal Government,Deputy Prime Minister · Minister of Interior,political,v
-hamdan_bz,H.H. Sheikh Hamdan bin Zayed Al Nahyan,adgov,Abu Dhabi Government (Ruler's Court),"Ruler's Representative, Al Dhafra Region",political,v
-hamdan_bz,H.H. Sheikh Hamdan bin Zayed Al Nahyan,ead,Environment Agency – Abu Dhabi,Chairman,board,v
-hamed_bz,H.H. Sheikh Hamed bin Zayed Al Nahyan,adia,Abu Dhabi Investment Authority,Managing Director,executive,v
-hamed_bz,H.H. Sheikh Hamed bin Zayed Al Nahyan,execcouncil,Abu Dhabi Executive Council,Member,political,v
-theyab,H.H. Sheikh Theyab bin Mohamed bin Zayed Al Nahyan,prescourt,UAE Presidential Court,Deputy Chairman (Development & Fallen Heroes' Affairs),political,v
-theyab,H.H. Sheikh Theyab bin Mohamed bin Zayed Al Nahyan,etihadrail,Etihad Rail,Chairman,board,v
-nahyan_bm,H.H. Sheikh Nahyan bin Mubarak Al Nahyan,fedgov,UAE Cabinet / Federal Government,Minister of Tolerance & Coexistence,political,v
-shakhbout_bn,H.H. Sheikh Shakhbout bin Nahyan Al Nahyan,fedgov,UAE Cabinet / Federal Government,Minister of State,political,v
-khaldoon,Khaldoon Khalifa Al Mubarak,mubadala,Mubadala Investment Company,Managing Director & Group CEO,executive,v
-khaldoon,Khaldoon Khalifa Al Mubarak,eaa,Executive Affairs Authority,Chairman,government,v
-khaldoon,Khaldoon Khalifa Al Mubarak,adcb,Abu Dhabi Commercial Bank,Chairman,board,v
-khaldoon,Khaldoon Khalifa Al Mubarak,enec,Emirates Nuclear Energy Company (Barakah),Chairman,board,v
-khaldoon,Khaldoon Khalifa Al Mubarak,cfg,City Football Group / Manchester City,Chairman,board,v
-sultan_jaber,Dr. Sultan Ahmed Al Jaber,fedgov,UAE Cabinet / Federal Government,Minister of Industry & Advanced Technology,political,v
-sultan_jaber,Dr. Sultan Ahmed Al Jaber,adnoc,ADNOC Group,Managing Director & Group CEO,executive,v
-sultan_jaber,Dr. Sultan Ahmed Al Jaber,masdar,Masdar,Chairman,board,v
-sultan_jaber,Dr. Sultan Ahmed Al Jaber,xrg,XRG (ADNOC international investment),Executive Chairman,board,v
-sultan_jaber,Dr. Sultan Ahmed Al Jaber,mbzuai,Mohamed bin Zayed University of AI,"Chairman, Board of Trustees",board,ns
-jassem_zaabi,Jassem Mohamed Bu Ataba Al Zaabi,dof,Department of Finance,Chairman,government,v
-jassem_zaabi,Jassem Mohamed Bu Ataba Al Zaabi,e_and,e& (Etisalat Group),Chairman,board,v
-jassem_zaabi,Jassem Mohamed Bu Ataba Al Zaabi,execcouncil,Abu Dhabi Executive Council,Member,political,v
-ahmed_jasim_zaabi,Ahmed Jasim Al Zaabi,added,Department of Economic Development,Chairman,government,v
-ahmed_jasim_zaabi,Ahmed Jasim Al Zaabi,adgm,Abu Dhabi Global Market,Chairman,government,v
-ahmed_jasim_zaabi,Ahmed Jasim Al Zaabi,execcouncil,Abu Dhabi Executive Council,Member,political,v
-alsuwaidi_adq,Mohamed Hassan Alsuwaidi,fedgov,UAE Cabinet / Federal Government,UAE Minister of Investment,political,v
-alsuwaidi_adq,Mohamed Hassan Alsuwaidi,adq,ADQ,Managing Director & CEO,executive,v
-syed_basar,Syed Basar Shueb,ihc,International Holding Company,CEO,executive,v
-faisal_bannai,Faisal Al Bannai,prescourt,UAE Presidential Court,Adviser for Strategic Research & Advanced Technology Affairs,political,v
-faisal_bannai,Faisal Al Bannai,atrc,Advanced Technology Research Council,Secretary-General,government,v
-faisal_bannai,Faisal Al Bannai,edge_grp,EDGE Group,Chairman,board,ns
-peng_xiao,Peng Xiao,g42,G42,Group CEO,executive,v
-peng_xiao,Peng Xiao,mgx,MGX,Board Member,board,v
-yousef_otaiba,Yousef Al Otaiba,mofa,UAE Ministry of Foreign Affairs,UAE Ambassador to the United States · Minister of State,political,v
-anwar_gargash,Dr. Anwar Gargash,prescourt,UAE Presidential Court,Diplomatic Adviser to the President,political,v
-shorafa,Mohamed Ali Al Shorafa,dmt,Department of Municipalities & Transport,Chairman,government,v
-shorafa,Mohamed Ali Al Shorafa,etihad,Etihad Airways,"Chairman, Etihad Aviation Group",board,v
-shorafa,Mohamed Ali Al Shorafa,sca,Securities & Commodities Authority,Chairman,government,v
-shorafa,Mohamed Ali Al Shorafa,execcouncil,Abu Dhabi Executive Council,Member,political,v
-mansoori_doh,Mansoor Ibrahim Al Mansoori,doh,Department of Health,Chairman,government,v
-mansoori_doh,Mansoor Ibrahim Al Mansoori,execcouncil,Abu Dhabi Executive Council,Member,political,v
-sara_musallam,Sara Awadh Musallam,adek,Department of Education & Knowledge,Chairman,government,v
-sara_musallam,Sara Awadh Musallam,fedgov,UAE Cabinet / Federal Government,Minister of State for Early Education,political,v
-sara_musallam,Sara Awadh Musallam,execcouncil,Abu Dhabi Executive Council,Member,political,v
-awaidha_marar,Awaidha Murshed Al Marar,doe,Department of Energy,Chairman,government,v
-awaidha_marar,Awaidha Murshed Al Marar,execcouncil,Abu Dhabi Executive Council,Member,political,v
-kuttab,Ahmed Tamim Hisham Al Kuttab,dge,Department of Government Enablement,Chairman,government,v
-kuttab,Ahmed Tamim Hisham Al Kuttab,execcouncil,Abu Dhabi Executive Council,Member,political,v
-falah_ahbabi,Falah Mohammed Al Ahbabi,adports,AD Ports Group,Chairman,board,v
-falah_ahbabi,Falah Mohammed Al Ahbabi,execcouncil,Abu Dhabi Executive Council,Member,political,v
-mohamed_km,Mohamed Khalifa Al Mubarak,dct,Department of Culture & Tourism,Chairman,government,v
-mohamed_km,Mohamed Khalifa Al Mubarak,aldar,Aldar Properties,Chairman,board,v
-mohamed_km,Mohamed Khalifa Al Mubarak,miral,Miral (Yas Island / destinations),Chairman,board,v
-mohamed_km,Mohamed Khalifa Al Mubarak,execcouncil,Abu Dhabi Executive Council,Member,political,v
-mugheer_khaili,Dr. Mugheer Khamis Al Khaili,dcd,Department of Community Development,Chairman,government,v
-mugheer_khaili,Dr. Mugheer Khamis Al Khaili,execcouncil,Abu Dhabi Executive Council,Member,political,v
-saif_ghobash,Saif Saeed Ghobash,execcouncil,Abu Dhabi Executive Council,Secretary-General,government,ns
-ahmed_mazrouei,Dr. Ahmed Mubarak Al Mazrouei,adafsa,Abu Dhabi Agriculture & Food Safety Authority,Chairman,government,ns
-ahmed_mazrouei,Dr. Ahmed Mubarak Al Mazrouei,execcouncil,Abu Dhabi Executive Council,Member,political,v
-suhail_mazrouei,Suhail Al Mazrouei,fedgov,UAE Cabinet / Federal Government,Minister of Energy & Infrastructure,political,v
-sarah_amiri,Sarah Al Amiri,fedgov,UAE Cabinet / Federal Government,Minister of Education,political,v
-sarah_amiri,Sarah Al Amiri,spaceagency,UAE Space Agency,Chair,government,v
-balama,Khaled Mohamed Balama,cbuae,Central Bank of the UAE,Governor,executive,v
-noura_kaabi,Noura Al Kaabi,mofa,UAE Ministry of Foreign Affairs,Minister of State,political,v
-hussain_nowais,Hussain Jasim Al Nowais,emsteel,EMSTEEL (Emirates Steel Arkan),Chairman,board,v
-hussain_nowais,Hussain Jasim Al Nowais,alnowais,Al Nowais Investments,Chairman,board,v
-razan,Razan Khalifa Al Mubarak,ead,Environment Agency – Abu Dhabi,Managing Director,executive,v
-tareq_hosani,Tareq Abdul Raheem Al Hosani,tawazun,Tawazun Council,Secretary-General,government,v
-ghannam,Ghannam Butti Al Mazrouei,adx,Abu Dhabi Securities Exchange,Chairman,board,ns
-zaki,Zaki Anwar Nusseibeh,prescourt,UAE Presidential Court,Cultural Adviser to the President,political,v
-zaki,Zaki Anwar Nusseibeh,uaeu,United Arab Emirates University,Chancellor,executive,v
-hana,Hana Al Rostamani,fab,First Abu Dhabi Bank,Group CEO,executive,v
-alaa,Ala'a Eraiqat,adcb,Abu Dhabi Commercial Bank,Group CEO,executive,v
-abdelbary,Mohamed Abdelbary,adib,Abu Dhabi Islamic Bank,Group CEO,executive,ns
-jayesh,Jayesh Patel,wio,Wio Bank,CEO,executive,v
-adx_ceo,Abdulla Salem Alnuaimi,adx,Abu Dhabi Securities Exchange,Group CEO,executive,ns
-waleed,Waleed Al Mokarrab Al Muhairi,mubadala,Mubadala Investment Company,Deputy Group CEO,executive,v
-waleed,Waleed Al Mokarrab Al Muhairi,waha,Waha Capital,Chairman,board,ns
-homaid,Homaid Al Shimmari,mubadala,Mubadala Investment Company,"Deputy Group CEO, Corporate & Human Capital",executive,v
-badr_olama,Badr Al-Olama,adio,Abu Dhabi Investment Office,Director-General,government,v
-ahmed_yahia,Ahmed Yahia Al Idrissi,mgx,MGX,CEO,executive,v
-khalifa_suwaidi,Khalifa Sultan Al Suwaidi,adq,ADQ,Chief Investment Officer,executive,v
-khalifa_suwaidi,Khalifa Sultan Al Suwaidi,agthia,Agthia Group,Chairman,board,v
-khalifa_suwaidi,Khalifa Sultan Al Suwaidi,lunate,Lunate,Managing Partner,executive,ns
-samia,Samia Bouazza,multiply,Multiply Group,Group CEO,executive,v
-alwan,Ahmad Ali Alwan,hub71,Hub71,CEO,executive,v
-jasim_thabet,Jasim Husain Thabet,taqa,TAQA Group,Group CEO & Managing Director,executive,v
-alshamsi_ewec,Ahmed Ali Alshamsi,ewec,Emirates Water & Electricity Company,CEO,executive,ns
-ramahi,Mohamed Jameel Al Ramahi,masdar,Masdar,CEO,executive,v
-hammadi_enec,Mohamed Ibrahim Al Hammadi,enec,Emirates Nuclear Energy Company (Barakah),Managing Director & CEO,executive,v
-musabbeh,Musabbeh Al Kaabi,adnoc,ADNOC Group,"Executive Director, Low Carbon Solutions & International Growth",executive,v
-abdulmunim,Abdulmunim Saif Al Kindy,adnoc,ADNOC Group,"Executive Director, Upstream",executive,ns
-fatema,Fatema Al Nuaimi,adnocgas,ADNOC Gas,CEO,executive,ns
-seiari,Abdulrahman Al Seiari,adnocdrill,ADNOC Drilling,CEO,executive,ns
-masabi,Capt. Abdulkareem Al Masabi,adnocls,ADNOC Logistics & Services,CEO,executive,ns
-lamki,Bader Saeed Al Lamki,adnocdist,ADNOC Distribution,CEO,executive,v
-hazeem,Hazeem Sultan Al Suwaidi,borouge,Borouge,CEO,executive,v
-talal_kaissi,Talal Al Kaissi,core42,Core42,CEO (acting),executive,ns
-thomas,Thomas Pramotedham,presight,Presight AI,CEO,executive,v
-karim,Karim Michel Sabbagh,space42,Space42,Managing Director,executive,v
-alnaqbi,Hassan Alnaqbi,khazna,Khazna Data Centers,CEO,executive,v
-najwa,Dr. Najwa Aaraj,tii,Technology Innovation Institute,CEO,executive,v
-eric_xing,Prof. Eric Xing,mbzuai,Mohamed bin Zayed University of AI,President,executive,v
-hamad_marar,Hamad Al Marar,edge_grp,EDGE Group,Managing Director & CEO,executive,v
-shaista,Shaista Asif,purehealth,PureHealth,Group CEO,executive,v
-hasan_nowais,Hasan Jasem Al Nowais,m42,M42,Managing Director & Group CEO,executive,v
-shamsheer,Dr. Shamsheer Vayalil,burjeel,Burjeel Holdings,Founder & Chairman,board,v
-talal_dhiyebi,Talal Al Dhiyebi,aldar,Aldar Properties,Group CEO,executive,v
-bill_oregan,Bill O'Regan,modon,Modon Holding,Group CEO,executive,v
-shamisi_ports,Capt. Mohamed Juma Al Shamisi,adports,AD Ports Group,Managing Director & Group CEO,executive,v
-neves,Antonoaldo Neves,etihad,Etihad Airways,CEO,executive,v
-elena,Elena Sorlini,adairports,Abu Dhabi Airports,Managing Director & CEO,executive,v
-shadi,Shadi Malak,etihadrail,Etihad Rail,CEO,executive,v
-saeed_remeithi,Saeed Ghumran Al Remeithi,emsteel,EMSTEEL (Emirates Steel Arkan),Group CEO,executive,v
-binkalban,Abdulnasser bin Kalban,ega,Emirates Global Aluminium,CEO,executive,v
-ismail_abdulla,Ismail Ali Abdulla,strata,Strata Manufacturing,CEO,executive,ns
-zaghloul,Yasser Zaghloul,nmdc,NMDC Group,Group CEO,executive,v
-yusuffali,Yusuff Ali M.A.,lulu,LuLu Group International,Chairman & Managing Director,board,v
-miral_zaabi,Mohamed Abdalla Al Zaabi,miral,Miral (Yas Island / destinations),Group CEO,executive,v
-humaid_dhaheri,Humaid Matar Al Dhaheri,adnec,ADNEC Group,Managing Director & Group CEO,executive,v
-lickrish,John Lickrish,flash,Flash Entertainment,CEO,executive,v
-rani,Rani Raad,imi,International Media Investments,CEO,executive,v
-shaikha_dhaheri,Dr. Shaikha Salem Al Dhaheri,ead,Environment Agency – Abu Dhabi,Secretary-General,executive,v
-ali_tadweer,Ali Al Dhaheri,tadweer,Tadweer Group,Managing Director & CEO,executive,ns
-mohamed_butti,Sheikh Mohamed bin Butti Al Hamed,dasholding,Das Holding,Chairman,board,ns
-obaid_aljaber,Obaid Khaleefa Al Jaber,aljaber,Al Jaber Group,Chairman,board,ns
-essam_tamimi,Essam Al Tamimi,altamimi,Al Tamimi & Company,Founder & Senior Partner,executive,v
-nasser_nowais,Nasser Al Nowais,rotana,Rotana Hotels,Co-founder & Chairman,board,ns
-amr_menhali,Amr Al Menhali,waha,Waha Capital,CEO,executive,ns
-hamad_ameri,Eng. Hamad Al Ameri,trojan,Trojan Holding,CEO,executive,ns
-ahmed_elhoshy,Ahmed El-Hoshy,fertiglobe,Fertiglobe,CEO,executive,v
-ebrahim_alhajri,Dr. Ebrahim Saeed Al Hajri,khalifa_u,Khalifa University,President,executive,v
-fabio_piano,Fabio Piano,nyuad,NYU Abu Dhabi,Vice Chancellor,executive,v
-nathalie_martial_braz,Prof. Nathalie Martial-Braz,sorbonne,Sorbonne University Abu Dhabi,Chancellor,executive,v
-kevin_hall,Dr. Kevin Hall,zayed_u,Zayed University,President and CEO,executive,v
-maryam_almheiri,H.E. Maryam Eid AlMheiri,admo,Abu Dhabi Media Office,Chairperson,government,v
-nadim_koteich,Nadim Koteich,skynewsarabia,Sky News Arabia,General Manager,executive,v
-mina_aloraibi,Mina Al-Oraibi,thenational,The National,Editor-in-Chief,executive,v
-saeed_alkuwaiti,Saeed Jaber Al Kuwaiti,seha,SEHA (AD Health Services),Group CEO,executive,v
-khaled_ateeq_aldhaheri,Khaled Ateeq Al Dhaheri,daman,Daman (National Health Insurance),CEO,executive,v
-georges_haber,Dr. Georges-Pascal Haber,ccad,Cleveland Clinic Abu Dhabi,CEO,executive,v
-khalifa_alblooshi,Dr. Khalifa Murad Al Blooshi,calidus,Calidus Holding,Managing Director & CEO,executive,v
-dhafer_alqasimi,Dhafer Al Qasimi,silal,Silal,CEO,executive,v
-osman_serageldin,Osman Serageldin,aldahra,Al Dahra Holding,Interim CEO,executive,v
-khalid_anib,Khalid Anib,adnh,Abu Dhabi National Hotels,CEO,executive,v
-abdulla_alghfeli,Dr. Abdulla Hamad AlGhfeli,itc,Integrated Transport Centre,Acting Director-General,government,v
-faraj_binhamoodah,H.E. Faraj Ali Bin Hamoodah Al Dhaheri,binhamoodah,Bin Hamoodah Group,Chairman,board,v
-jawaan_alkhaili,H.E. Jawaan Awaidha Suhail Al-Khaili,nationalholding,National Holding,Chairman,board,v
-shamis_aldhaheri,Shamis Al Dhaheri,alisons,Ali & Sons Holding,Group Managing Director,executive,v
-fayez_ibbini,Fayez Ibbini,lst_alphadata,Alpha Data PJSC,Founder & CEO,executive,v
-esteban_gomez,Esteban Gómez Nadal,lst_e7,E7 Group PJSC,CEO,executive,v
-sultan_jaber,Dr. Sultan Ahmed Al Jaber,xrg,XRG (ADNOC international investment),CEO,executive,v
-khaled_zaabi_cfo,Khaled Al Zaabi,adnoc,ADNOC Group,Group Chief Financial Officer,executive,v
-nasser_almuhairi,Nasser Al Muhairi,adnoc,ADNOC Group,"Acting CEO, Downstream Industry, Marketing & Trading",executive,v
-dena_almansoori,Dena Al Mansoori,adnoc,ADNOC Group,Group Chief Technology & Innovation Officer,executive,v
-hani_barhoush,Hani Barhoush,mubadala,Mubadala Investment Company,"Managing Director & CEO, Mubadala Capital",executive,v
-mansour_almulla,Mansour Mohamed AlMulla,adq,ADQ,Deputy Group Chief Executive Officer,executive,ns
-marcos_dequadros,Marcos de Quadros,adq,ADQ,Group Chief Financial Officer,executive,ns
-somar_ajalyaqin,Dr. Mohammed Somar Ajalyaqin,ihc,International Holding Company,Vice Chairman,board,ns
-alwyn_crasta,Alwyn Crasta,ihc,International Holding Company,Group Chief Financial Officer,executive,ns
-ali_dalloul,Ali Dalloul,g42,G42,Group Chief Strategy Officer,executive,v
-kiril_evtimov,Kiril Evtimov,g42,G42,Group Chief Technology Officer,executive,v
-adrian_kershaw,Adrian Kershaw,taqa,TAQA Group,Chief Financial Officer,executive,v
-mazin_khan,Mazin Khan,masdar,Masdar,Chief Financial Officer,executive,v
-lars_kramer,Lars Kramer,fab,First Abu Dhabi Bank,Group Chief Financial Officer,executive,v
-deepak_khullar,Deepak Khullar,adcb,Abu Dhabi Commercial Bank,Group Chief Financial Officer,executive,ns
-karim_bennis,Karim Bennis,e_and,e& (Etisalat Group),Group Chief Financial Officer,executive,v
-saif_dahbashi,Saif Ali Al Dahbashi,edge_grp,EDGE Group,"President, Missiles & Weapons Cluster",executive,v
-raffael_quintas,Raffael Quintas,etihad,Etihad Airways,Chief Financial Officer,executive,v
-salmeen_alameri,Salmeen Obaid Alameri,agthia,Agthia Group,Managing Director & Group CEO,executive,v
-tahnoun_bin_zayed,Tahnoun bin Zayed Al Nahyan,fab,,Chairman,board,v
-sheikh_mohamed_bin,Sheikh Mohamed bin Saif Al Nahyan,fab,,Vice Chairman,board,v
-jassem_mohammed_bu,Jassem Mohammed Bu Ataba Al Zaabi,fab,,Board Member,board,v
-mariam_bint_mohammed,Mariam bint Mohammed Saeed Hareb Almheiri,fab,,Board Member,board,v
-sheikh_ahmed_mohammed,Sheikh Ahmed Mohammed Sultan Aldhaheri,fab,,Board Member,board,v
-mohammed_thani_murshed,Mohammed Thani Murshed Al Rumaithi,fab,,Board Member,board,v
-mohamed_saif_al,Mohamed Saif Al Suwaidi,fab,,Board Member,board,v
-khalifa_ateeq_al,Khalifa Ateeq Al Mazrouei,fab,,Board Member,board,v
-futoon_hamdan_al,Futoon Hamdan Al Mazrouei,fab,,"Group Head, Personal & Wealth Banking",executive,v
-linos_lekkas,Linos Lekkas,fab,,Group Head of Investment Banking & Markets,executive,v
-martin_tricaud,Martin Tricaud,fab,,Group Head of Wholesale Banking,executive,v
-chris_jaques,Chris Jaques,fab,,Group Chief Risk Officer,executive,v
-divyesh_vithlani,Divyesh Vithlani,fab,,Group Chief Technology & Transformation Officer,executive,v
-keith_macdonald,Keith Macdonald,fab,,Group Chief Operations Officer,executive,v
-noora_al_reyasi,Noora Al Reyasi,fab,,Group Chief Human Resources Officer,executive,v
-omar_hafeez,Omar Hafeez,fab,,Group Head of International Banking,executive,v
-jawaan_awaidha_suhail,Jawaan Awaidha Suhail Al Khaili,adib,,Chairman,board,v
-dr_faisal_sultan,Dr. Faisal Sultan Al Shuaibi,adib,,Vice Chairman,board,v
-abdulla_ali_musleh,Abdulla Ali Musleh Al Ahbabi,adib,,Board Member,board,v
-abdul_wahab_al,Abdul Wahab Al-Halabi,adib,,Board Member,board,v
-khalifa_matar_al,Khalifa Matar Al Mheiri,adib,,Board Member,board,v
-maha_mohammad_al,Maha Mohammad Al Qattan,adib,,Board Member,board,v
-najib_youssef_fayyad,Najib Youssef Fayyad,adib,,Board Member,board,v
-ahsan_akhtar,Ahsan Akhtar,adib,,Group Chief Financial Officer,executive,v
-talha_syed_karim,Talha Syed Karim,adib,,Group Chief Risk Officer,executive,v
-metha_al_hashmi,Metha Al Hashmi,adib,,Group Chief Credit Officer,executive,v
-bushra_alshehhi,Bushra Alshehhi,adib,,Group Chief HR Officer,executive,v
-amit_malhotra,Amit Malhotra,adib,,Global Head of Retail Banking,executive,v
-hakim_karoui,Hakim Karoui,adib,,Group Head of Wholesale Banking,executive,v
-essa_abdulfattah_kazim,Essa Abdulfattah Kazim Al Mulla,e_and,,Vice Chairman,board,v
-hesham_abdulla_qassim,Hesham Abdulla Qassim Al Qassim,e_and,,Board Member,board,v
-michel_combes,Michel Combes,e_and,,Board Member,board,v
-mariam_saeed_ahmed,Mariam Saeed Ahmed Ghobash,e_and,,Board Member,board,v
-saleh_abdulla_alabdooli,Saleh Abdulla Alabdooli,e_and,,Board Member,board,v
-abdelmonem_bin_eisa,Abdelmonem Bin Eisa Alserkal,e_and,,Board Member,board,v
-khalid_abdulwahid_alrustaman,Khalid Abdulwahid Alrustamani,e_and,,Board Member,board,v
-otaiba_khalaf_ahmed,Otaiba Khalaf Ahmed Al Otaiba,e_and,,Board Member,board,v
-masood_m_sharif,Masood M. Sharif Mahmood,e_and,,Group Chief Executive Officer,executive,v
-khalifa_al_shamsi,Khalifa Al Shamsi,e_and,,"Managing Director, e& international",executive,v
-haitham_abdulrazzak,Haitham Abdulrazzak,e_and,,Group Chief AI & Business Solutions Officer,executive,v
-khalid_murshed,Khalid Murshed,e_and,,Group Chief Operations Officer,executive,v
-borja_lopez,Borja Lopez,e_and,,Group Chief Strategy Officer,executive,v
-obaid_bokisha,Obaid Bokisha,e_and,,Chief of Staff,executive,v
-abdulla_humaid_al,Abdulla Humaid Al Jarwan,taqa,,Board Member,board,ns
-kamal_ishaq_almaazmi,Kamal Ishaq Almaazmi,taqa,,Board Member,board,ns
-buthaina_abdulla_almazrouei,Buthaina Abdulla Almazrouei,taqa,,Board Member,board,ns
-muna_ali_al,Muna Ali Al Dhaheri,taqa,,Board Member,board,ns
-hamad_abdulla_al,Hamad Abdulla Al Hammadi,taqa,,Board Member,board,ns
-khaled_mohamed_al,Khaled Mohamed Al Zaabi,taqa,,Board Member,board,ns
-hamsa_parama_shadaksharappa,Hamsa Parama Shadaksharappa,taqa,,Board Member,board,ns
-khaled_h_alkhoori,Khaled H. Alkhoori,adcb,,Board Member,board,v
-khalid_deemas_alsuwaidi,Khalid Deemas Alsuwaidi,adcb,,Board Member,board,v
-aysha_al_hallami,Aysha Al Hallami,adcb,,Board Member,board,v
-carlos_obeid,Carlos Obeid,adcb,,Board Member,board,v
-saeed_mohamed_hamad,Saeed Mohamed Hamad Almazrouei,adcb,,Board Member,board,v
-sheikh_zayed_bin,Sheikh Zayed Bin Suroor Al Nahyan,adcb,,Board Member,board,v
-sheikh_sultan_bin,Sheikh Sultan Bin Suroor Al Dhaheri,adcb,,Board Member,board,v
-fatima_al_nuaimi,Fatima Al Nuaimi,adcb,,Board Member,board,v
-robbert_muller,Robbert Muller,adcb,,Group Treasurer,executive,v
-ludovic_nobili,Ludovic Nobili,adcb,,"Group Chief Corporate, Wealth & Investment Banking Officer",executive,v
-mohammed_al_jayyash,Mohammed Al Jayyash,adcb,,Group Chief Operating Officer,executive,v
-deepak_rochlani,Deepak Rochlani,adcb,,Group Chief Retail Banking Officer,executive,v
-abdulla_abdul_aziz,Abdulla Abdul Aziz AlShamsi,adcb,,Group Chief Business Officer,executive,v
-reem_albanna,Reem AlBanna,adcb,,Group Chief Risk Officer,executive,v
-sofia_abdellatif_lasky,Sofia Abdellatif Lasky,aldar,,Board Member,board,v
-dr_bakheet_saeed,Dr. Bakheet Saeed Al Katheeri,aldar,,Board Member,board,v
-eng_hamad_salem,Eng. Hamad Salem Mohamed Al Ameri,aldar,,Board Member,board,ns
-faisal_falaknaz,Faisal Falaknaz,aldar,,Group Chief Financial & Sustainability Officer,executive,v
-bayan_al_hosani,Bayan Al Hosani,aldar,,Chief People & Communications Officer,executive,v
-jonathan_emery,Jonathan Emery,aldar,,"CEO, Aldar Development",executive,ns
-jassem_zaabi,Jassem Mohamed Bu Ataba Al Zaabi,taqa,TAQA Group,Chairman,board,v
-sultan_jaber,Dr. Sultan Ahmed Al Jaber,taqa,TAQA Group,Vice Chairman,board,v
+﻿person_id,person_name,institution_id,institution_name,title,role_type,verification,status
+mbz,H.H. Sheikh Mohamed bin Zayed Al Nahyan,adgov,Abu Dhabi Government (Ruler's Court),President of the UAE · Ruler of Abu Dhabi,political,v,
+mbz,H.H. Sheikh Mohamed bin Zayed Al Nahyan,scfea,Supreme Council for Financial & Economic Affairs,Chairman,political,v,
+mbz,H.H. Sheikh Mohamed bin Zayed Al Nahyan,mubadala,Mubadala Investment Company,Chairman,board,v,
+khaled,H.H. Sheikh Khaled bin Mohamed bin Zayed Al Nahyan,adgov,Abu Dhabi Government (Ruler's Court),Crown Prince of Abu Dhabi,political,v,
+khaled,H.H. Sheikh Khaled bin Mohamed bin Zayed Al Nahyan,execcouncil,Abu Dhabi Executive Council,Chairman,political,v,
+tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,adgov,Abu Dhabi Government (Ruler's Court),Deputy Ruler of Abu Dhabi,political,v,
+tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,fedgov,UAE Cabinet / Federal Government,UAE National Security Advisor,political,v,
+tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,adia,Abu Dhabi Investment Authority,Chairman,board,v,
+tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,adq,ADQ,Chairman,board,v,
+tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,fab,First Abu Dhabi Bank,Chairman,board,v,
+tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,ihc,International Holding Company,Chairman,board,v,
+tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,royalgroup,Royal Group,Chairman,board,v,
+tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,g42,G42,Chairman,board,v,
+tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,mgx,MGX,Chairman,board,v,
+mansour,H.H. Sheikh Mansour bin Zayed Al Nahyan,fedgov,UAE Cabinet / Federal Government,Vice President · Deputy Prime Minister,political,v,
+mansour,H.H. Sheikh Mansour bin Zayed Al Nahyan,prescourt,UAE Presidential Court,Minister of the Presidential Court,political,v,
+mansour,H.H. Sheikh Mansour bin Zayed Al Nahyan,cbuae,Central Bank of the UAE,Chairman of the Board,board,v,
+mansour,H.H. Sheikh Mansour bin Zayed Al Nahyan,eia,Emirates Investment Authority,Chairman,board,v,
+mansour,H.H. Sheikh Mansour bin Zayed Al Nahyan,cfg,City Football Group / Manchester City,Owner,ownership,v,
+mansour,H.H. Sheikh Mansour bin Zayed Al Nahyan,imi,International Media Investments,Owner,ownership,v,
+hazza,H.H. Sheikh Hazza bin Zayed Al Nahyan,adgov,Abu Dhabi Government (Ruler's Court),Deputy Ruler of Abu Dhabi,political,v,
+abdullah_bz,H.H. Sheikh Abdullah bin Zayed Al Nahyan,fedgov,UAE Cabinet / Federal Government,Deputy Prime Minister,political,v,
+abdullah_bz,H.H. Sheikh Abdullah bin Zayed Al Nahyan,mofa,UAE Ministry of Foreign Affairs,Minister of Foreign Affairs,political,v,
+saif_bz,H.H. Sheikh Saif bin Zayed Al Nahyan,fedgov,UAE Cabinet / Federal Government,Deputy Prime Minister · Minister of Interior,political,v,
+hamdan_bz,H.H. Sheikh Hamdan bin Zayed Al Nahyan,adgov,Abu Dhabi Government (Ruler's Court),"Ruler's Representative, Al Dhafra Region",political,v,
+hamdan_bz,H.H. Sheikh Hamdan bin Zayed Al Nahyan,ead,Environment Agency – Abu Dhabi,Chairman,board,v,
+hamed_bz,H.H. Sheikh Hamed bin Zayed Al Nahyan,adia,Abu Dhabi Investment Authority,Managing Director,executive,v,
+hamed_bz,H.H. Sheikh Hamed bin Zayed Al Nahyan,execcouncil,Abu Dhabi Executive Council,Member,political,v,
+theyab,H.H. Sheikh Theyab bin Mohamed bin Zayed Al Nahyan,prescourt,UAE Presidential Court,Deputy Chairman (Development & Fallen Heroes' Affairs),political,v,
+theyab,H.H. Sheikh Theyab bin Mohamed bin Zayed Al Nahyan,etihadrail,Etihad Rail,Chairman,board,v,
+nahyan_bm,H.H. Sheikh Nahyan bin Mubarak Al Nahyan,fedgov,UAE Cabinet / Federal Government,Minister of Tolerance & Coexistence,political,v,
+shakhbout_bn,H.H. Sheikh Shakhbout bin Nahyan Al Nahyan,fedgov,UAE Cabinet / Federal Government,Minister of State,political,v,
+khaldoon,Khaldoon Khalifa Al Mubarak,mubadala,Mubadala Investment Company,Managing Director & Group CEO,executive,v,
+khaldoon,Khaldoon Khalifa Al Mubarak,eaa,Executive Affairs Authority,Chairman,government,v,
+khaldoon,Khaldoon Khalifa Al Mubarak,adcb,Abu Dhabi Commercial Bank,Chairman,board,v,
+khaldoon,Khaldoon Khalifa Al Mubarak,enec,Emirates Nuclear Energy Company (Barakah),Chairman,board,v,
+khaldoon,Khaldoon Khalifa Al Mubarak,cfg,City Football Group / Manchester City,Chairman,board,v,
+sultan_jaber,Dr. Sultan Ahmed Al Jaber,fedgov,UAE Cabinet / Federal Government,Minister of Industry & Advanced Technology,political,v,
+sultan_jaber,Dr. Sultan Ahmed Al Jaber,adnoc,ADNOC Group,Managing Director & Group CEO,executive,v,
+sultan_jaber,Dr. Sultan Ahmed Al Jaber,masdar,Masdar,Chairman,board,v,
+sultan_jaber,Dr. Sultan Ahmed Al Jaber,xrg,XRG (ADNOC international investment),Executive Chairman,board,v,
+sultan_jaber,Dr. Sultan Ahmed Al Jaber,mbzuai,Mohamed bin Zayed University of AI,"Chairman, Board of Trustees",board,ns,
+sultan_jaber,Dr. Sultan Ahmed Al Jaber,xrg,XRG (ADNOC international investment),CEO,executive,v,
+sultan_jaber,Dr. Sultan Ahmed Al Jaber,taqa,TAQA Group,Vice Chairman,board,v,
+jassem_zaabi,Jassem Mohamed Bu Ataba Al Zaabi,dof,Department of Finance,Chairman,government,v,
+jassem_zaabi,Jassem Mohamed Bu Ataba Al Zaabi,e_and,e& (Etisalat Group),Chairman,board,v,
+jassem_zaabi,Jassem Mohamed Bu Ataba Al Zaabi,execcouncil,Abu Dhabi Executive Council,Member,political,v,
+jassem_zaabi,Jassem Mohamed Bu Ataba Al Zaabi,taqa,TAQA Group,Chairman,board,v,
+ahmed_jasim_zaabi,Ahmed Jasim Al Zaabi,added,Department of Economic Development,Chairman,government,v,
+ahmed_jasim_zaabi,Ahmed Jasim Al Zaabi,adgm,Abu Dhabi Global Market,Chairman,government,v,
+ahmed_jasim_zaabi,Ahmed Jasim Al Zaabi,execcouncil,Abu Dhabi Executive Council,Member,political,v,
+alsuwaidi_adq,Mohamed Hassan Alsuwaidi,fedgov,UAE Cabinet / Federal Government,UAE Minister of Investment,political,v,
+alsuwaidi_adq,Mohamed Hassan Alsuwaidi,adq,ADQ,Managing Director & CEO,executive,v,
+syed_basar,Syed Basar Shueb,ihc,International Holding Company,CEO,executive,v,
+faisal_bannai,Faisal Al Bannai,prescourt,UAE Presidential Court,Adviser for Strategic Research & Advanced Technology Affairs,political,v,
+faisal_bannai,Faisal Al Bannai,atrc,Advanced Technology Research Council,Secretary-General,government,v,
+faisal_bannai,Faisal Al Bannai,edge_grp,EDGE Group,Chairman,board,ns,
+peng_xiao,Peng Xiao,g42,G42,Group CEO,executive,v,
+peng_xiao,Peng Xiao,mgx,MGX,Board Member,board,v,
+yousef_otaiba,Yousef Al Otaiba,mofa,UAE Ministry of Foreign Affairs,UAE Ambassador to the United States · Minister of State,political,v,
+anwar_gargash,Dr. Anwar Gargash,prescourt,UAE Presidential Court,Diplomatic Adviser to the President,political,v,
+shorafa,Mohamed Ali Al Shorafa,dmt,Department of Municipalities & Transport,Chairman,government,v,
+shorafa,Mohamed Ali Al Shorafa,etihad,Etihad Airways,"Chairman, Etihad Aviation Group",board,v,
+shorafa,Mohamed Ali Al Shorafa,sca,Securities & Commodities Authority,Chairman,government,v,
+shorafa,Mohamed Ali Al Shorafa,execcouncil,Abu Dhabi Executive Council,Member,political,v,
+mansoori_doh,Mansoor Ibrahim Al Mansoori,doh,Department of Health,Chairman,government,v,
+mansoori_doh,Mansoor Ibrahim Al Mansoori,execcouncil,Abu Dhabi Executive Council,Member,political,v,
+sara_musallam,Sara Awadh Musallam,adek,Department of Education & Knowledge,Chairman,government,v,
+sara_musallam,Sara Awadh Musallam,fedgov,UAE Cabinet / Federal Government,Minister of State for Early Education,political,v,
+sara_musallam,Sara Awadh Musallam,execcouncil,Abu Dhabi Executive Council,Member,political,v,
+awaidha_marar,Awaidha Murshed Al Marar,doe,Department of Energy,Chairman,government,v,
+awaidha_marar,Awaidha Murshed Al Marar,execcouncil,Abu Dhabi Executive Council,Member,political,v,
+kuttab,Ahmed Tamim Hisham Al Kuttab,dge,Department of Government Enablement,Chairman,government,v,
+kuttab,Ahmed Tamim Hisham Al Kuttab,execcouncil,Abu Dhabi Executive Council,Member,political,v,
+falah_ahbabi,Falah Mohammed Al Ahbabi,adports,AD Ports Group,Chairman,board,v,
+falah_ahbabi,Falah Mohammed Al Ahbabi,execcouncil,Abu Dhabi Executive Council,Member,political,v,
+mohamed_km,Mohamed Khalifa Al Mubarak,dct,Department of Culture & Tourism,Chairman,government,v,
+mohamed_km,Mohamed Khalifa Al Mubarak,aldar,Aldar Properties,Chairman,board,v,
+mohamed_km,Mohamed Khalifa Al Mubarak,miral,Miral (Yas Island / destinations),Chairman,board,v,
+mohamed_km,Mohamed Khalifa Al Mubarak,execcouncil,Abu Dhabi Executive Council,Member,political,v,
+mugheer_khaili,Dr. Mugheer Khamis Al Khaili,dcd,Department of Community Development,Chairman,government,v,
+mugheer_khaili,Dr. Mugheer Khamis Al Khaili,execcouncil,Abu Dhabi Executive Council,Member,political,v,
+saif_ghobash,Saif Saeed Ghobash,execcouncil,Abu Dhabi Executive Council,Secretary-General,government,ns,
+ahmed_mazrouei,Dr. Ahmed Mubarak Al Mazrouei,adafsa,Abu Dhabi Agriculture & Food Safety Authority,Chairman,government,ns,
+ahmed_mazrouei,Dr. Ahmed Mubarak Al Mazrouei,execcouncil,Abu Dhabi Executive Council,Member,political,v,
+suhail_mazrouei,Suhail Al Mazrouei,fedgov,UAE Cabinet / Federal Government,Minister of Energy & Infrastructure,political,v,
+sarah_amiri,Sarah Al Amiri,fedgov,UAE Cabinet / Federal Government,Minister of Education,political,v,
+sarah_amiri,Sarah Al Amiri,spaceagency,UAE Space Agency,Chair,government,v,
+balama,Khaled Mohamed Balama,cbuae,Central Bank of the UAE,Governor,executive,v,
+noura_kaabi,Noura Al Kaabi,mofa,UAE Ministry of Foreign Affairs,Minister of State,political,v,
+hussain_nowais,Hussain Jasim Al Nowais,emsteel,EMSTEEL (Emirates Steel Arkan),Chairman,board,v,
+hussain_nowais,Hussain Jasim Al Nowais,alnowais,Al Nowais Investments,Chairman,board,v,
+razan,Razan Khalifa Al Mubarak,ead,Environment Agency – Abu Dhabi,Managing Director,executive,v,
+tareq_hosani,Tareq Abdul Raheem Al Hosani,tawazun,Tawazun Council,Secretary-General,government,v,
+ghannam,Ghannam Butti Al Mazrouei,adx,Abu Dhabi Securities Exchange,Chairman,board,ns,
+zaki,Zaki Anwar Nusseibeh,prescourt,UAE Presidential Court,Cultural Adviser to the President,political,v,
+zaki,Zaki Anwar Nusseibeh,uaeu,United Arab Emirates University,Chancellor,executive,v,
+hana,Hana Al Rostamani,fab,First Abu Dhabi Bank,Group CEO,executive,v,
+alaa,Ala'a Eraiqat,adcb,Abu Dhabi Commercial Bank,Group CEO,executive,v,
+abdelbary,Mohamed Abdelbary,adib,Abu Dhabi Islamic Bank,Group CEO,executive,ns,
+jayesh,Jayesh Patel,wio,Wio Bank,CEO,executive,v,
+adx_ceo,Abdulla Salem Alnuaimi,adx,Abu Dhabi Securities Exchange,Group CEO,executive,ns,
+waleed,Waleed Al Mokarrab Al Muhairi,mubadala,Mubadala Investment Company,Deputy Group CEO,executive,v,
+waleed,Waleed Al Mokarrab Al Muhairi,waha,Waha Capital,Chairman,board,ns,
+homaid,Homaid Al Shimmari,mubadala,Mubadala Investment Company,"Deputy Group CEO, Corporate & Human Capital",executive,v,
+badr_olama,Badr Al-Olama,adio,Abu Dhabi Investment Office,Director-General,government,v,
+ahmed_yahia,Ahmed Yahia Al Idrissi,mgx,MGX,CEO,executive,v,
+khalifa_suwaidi,Khalifa Sultan Al Suwaidi,adq,ADQ,Chief Investment Officer,executive,v,
+khalifa_suwaidi,Khalifa Sultan Al Suwaidi,agthia,Agthia Group,Chairman,board,v,
+khalifa_suwaidi,Khalifa Sultan Al Suwaidi,lunate,Lunate,Managing Partner,executive,ns,
+samia,Samia Bouazza,multiply,Multiply Group,Group CEO,executive,v,
+alwan,Ahmad Ali Alwan,hub71,Hub71,CEO,executive,v,
+jasim_thabet,Jasim Husain Thabet,taqa,TAQA Group,Group CEO & Managing Director,executive,v,
+alshamsi_ewec,Ahmed Ali Alshamsi,ewec,Emirates Water & Electricity Company,CEO,executive,ns,
+ramahi,Mohamed Jameel Al Ramahi,masdar,Masdar,CEO,executive,v,
+hammadi_enec,Mohamed Ibrahim Al Hammadi,enec,Emirates Nuclear Energy Company (Barakah),Managing Director & CEO,executive,v,
+musabbeh,Musabbeh Al Kaabi,adnoc,ADNOC Group,"Executive Director, Low Carbon Solutions & International Growth",executive,v,
+abdulmunim,Abdulmunim Saif Al Kindy,adnoc,ADNOC Group,"Executive Director, Upstream",executive,ns,
+fatema,Fatema Al Nuaimi,adnocgas,ADNOC Gas,CEO,executive,ns,
+seiari,Abdulrahman Al Seiari,adnocdrill,ADNOC Drilling,CEO,executive,ns,
+masabi,Capt. Abdulkareem Al Masabi,adnocls,ADNOC Logistics & Services,CEO,executive,ns,
+lamki,Bader Saeed Al Lamki,adnocdist,ADNOC Distribution,CEO,executive,v,
+hazeem,Hazeem Sultan Al Suwaidi,borouge,Borouge,CEO,executive,v,
+talal_kaissi,Talal Al Kaissi,core42,Core42,CEO (acting),executive,ns,
+thomas,Thomas Pramotedham,presight,Presight AI,CEO,executive,v,
+karim,Karim Michel Sabbagh,space42,Space42,Managing Director,executive,v,
+alnaqbi,Hassan Alnaqbi,khazna,Khazna Data Centers,CEO,executive,v,
+najwa,Dr. Najwa Aaraj,tii,Technology Innovation Institute,CEO,executive,v,
+eric_xing,Prof. Eric Xing,mbzuai,Mohamed bin Zayed University of AI,President,executive,v,
+hamad_marar,Hamad Al Marar,edge_grp,EDGE Group,Managing Director & CEO,executive,v,
+shaista,Shaista Asif,purehealth,PureHealth,Group CEO,executive,v,
+hasan_nowais,Hasan Jasem Al Nowais,m42,M42,Managing Director & Group CEO,executive,v,
+shamsheer,Dr. Shamsheer Vayalil,burjeel,Burjeel Holdings,Founder & Chairman,board,v,
+talal_dhiyebi,Talal Al Dhiyebi,aldar,Aldar Properties,Group CEO,executive,v,
+bill_oregan,Bill O'Regan,modon,Modon Holding,Group CEO,executive,v,
+shamisi_ports,Capt. Mohamed Juma Al Shamisi,adports,AD Ports Group,Managing Director & Group CEO,executive,v,
+neves,Antonoaldo Neves,etihad,Etihad Airways,CEO,executive,v,
+elena,Elena Sorlini,adairports,Abu Dhabi Airports,Managing Director & CEO,executive,v,
+shadi,Shadi Malak,etihadrail,Etihad Rail,CEO,executive,v,
+saeed_remeithi,Saeed Ghumran Al Remeithi,emsteel,EMSTEEL (Emirates Steel Arkan),Group CEO,executive,v,
+binkalban,Abdulnasser bin Kalban,ega,Emirates Global Aluminium,CEO,executive,v,
+ismail_abdulla,Ismail Ali Abdulla,strata,Strata Manufacturing,CEO,executive,ns,
+zaghloul,Yasser Zaghloul,nmdc,NMDC Group,Group CEO,executive,v,
+yusuffali,Yusuff Ali M.A.,lulu,LuLu Group International,Chairman & Managing Director,board,v,
+miral_zaabi,Mohamed Abdalla Al Zaabi,miral,Miral (Yas Island / destinations),Group CEO,executive,v,
+humaid_dhaheri,Humaid Matar Al Dhaheri,adnec,ADNEC Group,Managing Director & Group CEO,executive,v,
+lickrish,John Lickrish,flash,Flash Entertainment,CEO,executive,v,
+rani,Rani Raad,imi,International Media Investments,CEO,executive,v,
+shaikha_dhaheri,Dr. Shaikha Salem Al Dhaheri,ead,Environment Agency – Abu Dhabi,Secretary-General,executive,v,
+ali_tadweer,Ali Al Dhaheri,tadweer,Tadweer Group,Managing Director & CEO,executive,ns,
+mohamed_butti,Sheikh Mohamed bin Butti Al Hamed,dasholding,Das Holding,Chairman,board,ns,
+obaid_aljaber,Obaid Khaleefa Al Jaber,aljaber,Al Jaber Group,Chairman,board,ns,
+essam_tamimi,Essam Al Tamimi,altamimi,Al Tamimi & Company,Founder & Senior Partner,executive,v,
+nasser_nowais,Nasser Al Nowais,rotana,Rotana Hotels,Co-founder & Chairman,board,ns,
+amr_menhali,Amr Al Menhali,waha,Waha Capital,CEO,executive,ns,
+hamad_ameri,Eng. Hamad Al Ameri,trojan,Trojan Holding,CEO,executive,ns,
+ahmed_elhoshy,Ahmed El-Hoshy,fertiglobe,Fertiglobe,CEO,executive,v,
+ebrahim_alhajri,Dr. Ebrahim Saeed Al Hajri,khalifa_u,Khalifa University,President,executive,v,
+fabio_piano,Fabio Piano,nyuad,NYU Abu Dhabi,Vice Chancellor,executive,v,
+nathalie_martial_braz,Prof. Nathalie Martial-Braz,sorbonne,Sorbonne University Abu Dhabi,Chancellor,executive,v,
+kevin_hall,Dr. Kevin Hall,zayed_u,Zayed University,President and CEO,executive,v,
+maryam_almheiri,H.E. Maryam Eid AlMheiri,admo,Abu Dhabi Media Office,Chairperson,government,v,
+nadim_koteich,Nadim Koteich,skynewsarabia,Sky News Arabia,General Manager,executive,v,
+mina_aloraibi,Mina Al-Oraibi,thenational,The National,Editor-in-Chief,executive,v,
+saeed_alkuwaiti,Saeed Jaber Al Kuwaiti,seha,SEHA (AD Health Services),Group CEO,executive,v,
+khaled_ateeq_aldhaheri,Khaled Ateeq Al Dhaheri,daman,Daman (National Health Insurance),CEO,executive,v,
+georges_haber,Dr. Georges-Pascal Haber,ccad,Cleveland Clinic Abu Dhabi,CEO,executive,v,
+khalifa_alblooshi,Dr. Khalifa Murad Al Blooshi,calidus,Calidus Holding,Managing Director & CEO,executive,v,
+dhafer_alqasimi,Dhafer Al Qasimi,silal,Silal,CEO,executive,v,
+osman_serageldin,Osman Serageldin,aldahra,Al Dahra Holding,Interim CEO,executive,v,
+khalid_anib,Khalid Anib,adnh,Abu Dhabi National Hotels,CEO,executive,v,
+abdulla_alghfeli,Dr. Abdulla Hamad AlGhfeli,itc,Integrated Transport Centre,Acting Director-General,government,v,
+faraj_binhamoodah,H.E. Faraj Ali Bin Hamoodah Al Dhaheri,binhamoodah,Bin Hamoodah Group,Chairman,board,v,
+jawaan_alkhaili,H.E. Jawaan Awaidha Suhail Al-Khaili,nationalholding,National Holding,Chairman,board,v,
+shamis_aldhaheri,Shamis Al Dhaheri,alisons,Ali & Sons Holding,Group Managing Director,executive,v,
+fayez_ibbini,Fayez Ibbini,lst_alphadata,Alpha Data PJSC,Founder & CEO,executive,v,
+esteban_gomez,Esteban Gómez Nadal,lst_e7,E7 Group PJSC,CEO,executive,v,
+khaled_zaabi_cfo,Khaled Al Zaabi,adnoc,ADNOC Group,Group Chief Financial Officer,executive,v,
+nasser_almuhairi,Nasser Al Muhairi,adnoc,ADNOC Group,"Acting CEO, Downstream Industry, Marketing & Trading",executive,v,
+dena_almansoori,Dena Al Mansoori,adnoc,ADNOC Group,Group Chief Technology & Innovation Officer,executive,v,
+hani_barhoush,Hani Barhoush,mubadala,Mubadala Investment Company,"Managing Director & CEO, Mubadala Capital",executive,v,
+mansour_almulla,Mansour Mohamed AlMulla,adq,ADQ,Deputy Group Chief Executive Officer,executive,ns,
+marcos_dequadros,Marcos de Quadros,adq,ADQ,Group Chief Financial Officer,executive,ns,
+somar_ajalyaqin,Dr. Mohammed Somar Ajalyaqin,ihc,International Holding Company,Vice Chairman,board,ns,
+alwyn_crasta,Alwyn Crasta,ihc,International Holding Company,Group Chief Financial Officer,executive,ns,
+ali_dalloul,Ali Dalloul,g42,G42,Group Chief Strategy Officer,executive,v,
+kiril_evtimov,Kiril Evtimov,g42,G42,Group Chief Technology Officer,executive,v,
+adrian_kershaw,Adrian Kershaw,taqa,TAQA Group,Chief Financial Officer,executive,v,
+mazin_khan,Mazin Khan,masdar,Masdar,Chief Financial Officer,executive,v,
+lars_kramer,Lars Kramer,fab,First Abu Dhabi Bank,Group Chief Financial Officer,executive,v,
+deepak_khullar,Deepak Khullar,adcb,Abu Dhabi Commercial Bank,Group Chief Financial Officer,executive,ns,
+karim_bennis,Karim Bennis,e_and,e& (Etisalat Group),Group Chief Financial Officer,executive,v,
+saif_dahbashi,Saif Ali Al Dahbashi,edge_grp,EDGE Group,"President, Missiles & Weapons Cluster",executive,v,
+raffael_quintas,Raffael Quintas,etihad,Etihad Airways,Chief Financial Officer,executive,v,
+salmeen_alameri,Salmeen Obaid Alameri,agthia,Agthia Group,Managing Director & Group CEO,executive,v,
+tahnoun_bin_zayed,Tahnoun bin Zayed Al Nahyan,fab,First Abu Dhabi Bank,Chairman,board,v,
+sheikh_mohamed_bin,Sheikh Mohamed bin Saif Al Nahyan,fab,First Abu Dhabi Bank,Vice Chairman,board,v,
+jassem_mohammed_bu,Jassem Mohammed Bu Ataba Al Zaabi,fab,First Abu Dhabi Bank,Board Member,board,v,
+mariam_bint_mohammed,Mariam bint Mohammed Saeed Hareb Almheiri,fab,First Abu Dhabi Bank,Board Member,board,v,
+sheikh_ahmed_mohammed,Sheikh Ahmed Mohammed Sultan Aldhaheri,fab,First Abu Dhabi Bank,Board Member,board,v,
+mohammed_thani_murshed,Mohammed Thani Murshed Al Rumaithi,fab,First Abu Dhabi Bank,Board Member,board,v,
+mohamed_saif_al,Mohamed Saif Al Suwaidi,fab,First Abu Dhabi Bank,Board Member,board,v,
+khalifa_ateeq_al,Khalifa Ateeq Al Mazrouei,fab,First Abu Dhabi Bank,Board Member,board,v,
+futoon_hamdan_al,Futoon Hamdan Al Mazrouei,fab,First Abu Dhabi Bank,"Group Head, Personal & Wealth Banking",executive,v,
+linos_lekkas,Linos Lekkas,fab,First Abu Dhabi Bank,Group Head of Investment Banking & Markets,executive,v,
+martin_tricaud,Martin Tricaud,fab,First Abu Dhabi Bank,Group Head of Wholesale Banking,executive,v,
+chris_jaques,Chris Jaques,fab,First Abu Dhabi Bank,Group Chief Risk Officer,executive,v,
+divyesh_vithlani,Divyesh Vithlani,fab,First Abu Dhabi Bank,Group Chief Technology & Transformation Officer,executive,v,
+keith_macdonald,Keith Macdonald,fab,First Abu Dhabi Bank,Group Chief Operations Officer,executive,v,
+noora_al_reyasi,Noora Al Reyasi,fab,First Abu Dhabi Bank,Group Chief Human Resources Officer,executive,v,
+omar_hafeez,Omar Hafeez,fab,First Abu Dhabi Bank,Group Head of International Banking,executive,v,
+jawaan_awaidha_suhail,Jawaan Awaidha Suhail Al Khaili,adib,Abu Dhabi Islamic Bank,Chairman,board,v,
+dr_faisal_sultan,Dr. Faisal Sultan Al Shuaibi,adib,Abu Dhabi Islamic Bank,Vice Chairman,board,v,
+abdulla_ali_musleh,Abdulla Ali Musleh Al Ahbabi,adib,Abu Dhabi Islamic Bank,Board Member,board,v,
+abdul_wahab_al,Abdul Wahab Al-Halabi,adib,Abu Dhabi Islamic Bank,Board Member,board,v,
+khalifa_matar_al,Khalifa Matar Al Mheiri,adib,Abu Dhabi Islamic Bank,Board Member,board,v,
+maha_mohammad_al,Maha Mohammad Al Qattan,adib,Abu Dhabi Islamic Bank,Board Member,board,v,
+najib_youssef_fayyad,Najib Youssef Fayyad,adib,Abu Dhabi Islamic Bank,Board Member,board,v,
+ahsan_akhtar,Ahsan Akhtar,adib,Abu Dhabi Islamic Bank,Group Chief Financial Officer,executive,v,
+talha_syed_karim,Talha Syed Karim,adib,Abu Dhabi Islamic Bank,Group Chief Risk Officer,executive,v,
+metha_al_hashmi,Metha Al Hashmi,adib,Abu Dhabi Islamic Bank,Group Chief Credit Officer,executive,v,
+bushra_alshehhi,Bushra Alshehhi,adib,Abu Dhabi Islamic Bank,Group Chief HR Officer,executive,v,
+amit_malhotra,Amit Malhotra,adib,Abu Dhabi Islamic Bank,Global Head of Retail Banking,executive,v,
+hakim_karoui,Hakim Karoui,adib,Abu Dhabi Islamic Bank,Group Head of Wholesale Banking,executive,v,
+essa_abdulfattah_kazim,Essa Abdulfattah Kazim Al Mulla,e_and,e& (Etisalat Group),Vice Chairman,board,v,
+hesham_abdulla_qassim,Hesham Abdulla Qassim Al Qassim,e_and,e& (Etisalat Group),Board Member,board,v,
+michel_combes,Michel Combes,e_and,e& (Etisalat Group),Board Member,board,v,
+mariam_saeed_ahmed,Mariam Saeed Ahmed Ghobash,e_and,e& (Etisalat Group),Board Member,board,v,
+saleh_abdulla_alabdooli,Saleh Abdulla Alabdooli,e_and,e& (Etisalat Group),Board Member,board,v,
+abdelmonem_bin_eisa,Abdelmonem Bin Eisa Alserkal,e_and,e& (Etisalat Group),Board Member,board,v,
+khalid_abdulwahid_alrustaman,Khalid Abdulwahid Alrustamani,e_and,e& (Etisalat Group),Board Member,board,v,
+otaiba_khalaf_ahmed,Otaiba Khalaf Ahmed Al Otaiba,e_and,e& (Etisalat Group),Board Member,board,v,
+masood_m_sharif,Masood M. Sharif Mahmood,e_and,e& (Etisalat Group),Group Chief Executive Officer,executive,v,
+khalifa_al_shamsi,Khalifa Al Shamsi,e_and,e& (Etisalat Group),"Managing Director, e& international",executive,v,
+haitham_abdulrazzak,Haitham Abdulrazzak,e_and,e& (Etisalat Group),Group Chief AI & Business Solutions Officer,executive,v,
+khalid_murshed,Khalid Murshed,e_and,e& (Etisalat Group),Group Chief Operations Officer,executive,v,
+borja_lopez,Borja Lopez,e_and,e& (Etisalat Group),Group Chief Strategy Officer,executive,v,
+obaid_bokisha,Obaid Bokisha,e_and,e& (Etisalat Group),Chief of Staff,executive,v,
+abdulla_humaid_al,Abdulla Humaid Al Jarwan,taqa,TAQA Group,Board Member,board,ns,
+kamal_ishaq_almaazmi,Kamal Ishaq Almaazmi,taqa,TAQA Group,Board Member,board,ns,
+buthaina_abdulla_almazrouei,Buthaina Abdulla Almazrouei,taqa,TAQA Group,Board Member,board,ns,
+muna_ali_al,Muna Ali Al Dhaheri,taqa,TAQA Group,Board Member,board,ns,
+hamad_abdulla_al,Hamad Abdulla Al Hammadi,taqa,TAQA Group,Board Member,board,ns,
+khaled_mohamed_al,Khaled Mohamed Al Zaabi,taqa,TAQA Group,Board Member,board,ns,
+hamsa_parama_shadaksharappa,Hamsa Parama Shadaksharappa,taqa,TAQA Group,Board Member,board,ns,
+khaled_h_alkhoori,Khaled H. Alkhoori,adcb,Abu Dhabi Commercial Bank,Board Member,board,v,
+khalid_deemas_alsuwaidi,Khalid Deemas Alsuwaidi,adcb,Abu Dhabi Commercial Bank,Board Member,board,v,
+aysha_al_hallami,Aysha Al Hallami,adcb,Abu Dhabi Commercial Bank,Board Member,board,v,
+carlos_obeid,Carlos Obeid,adcb,Abu Dhabi Commercial Bank,Board Member,board,v,
+saeed_mohamed_hamad,Saeed Mohamed Hamad Almazrouei,adcb,Abu Dhabi Commercial Bank,Board Member,board,v,
+sheikh_zayed_bin,Sheikh Zayed Bin Suroor Al Nahyan,adcb,Abu Dhabi Commercial Bank,Board Member,board,v,
+sheikh_sultan_bin,Sheikh Sultan Bin Suroor Al Dhaheri,adcb,Abu Dhabi Commercial Bank,Board Member,board,v,
+fatima_al_nuaimi,Fatima Al Nuaimi,adcb,Abu Dhabi Commercial Bank,Board Member,board,v,
+robbert_muller,Robbert Muller,adcb,Abu Dhabi Commercial Bank,Group Treasurer,executive,v,
+ludovic_nobili,Ludovic Nobili,adcb,Abu Dhabi Commercial Bank,"Group Chief Corporate, Wealth & Investment Banking Officer",executive,v,
+mohammed_al_jayyash,Mohammed Al Jayyash,adcb,Abu Dhabi Commercial Bank,Group Chief Operating Officer,executive,v,
+deepak_rochlani,Deepak Rochlani,adcb,Abu Dhabi Commercial Bank,Group Chief Retail Banking Officer,executive,v,
+abdulla_abdul_aziz,Abdulla Abdul Aziz AlShamsi,adcb,Abu Dhabi Commercial Bank,Group Chief Business Officer,executive,v,
+reem_albanna,Reem AlBanna,adcb,Abu Dhabi Commercial Bank,Group Chief Risk Officer,executive,v,
+sofia_abdellatif_lasky,Sofia Abdellatif Lasky,aldar,Aldar Properties,Board Member,board,v,
+dr_bakheet_saeed,Dr. Bakheet Saeed Al Katheeri,aldar,Aldar Properties,Board Member,board,v,
+eng_hamad_salem,Eng. Hamad Salem Mohamed Al Ameri,aldar,Aldar Properties,Board Member,board,ns,
+faisal_falaknaz,Faisal Falaknaz,aldar,Aldar Properties,Group Chief Financial & Sustainability Officer,executive,v,
+bayan_al_hosani,Bayan Al Hosani,aldar,Aldar Properties,Chief People & Communications Officer,executive,v,
+jonathan_emery,Jonathan Emery,aldar,Aldar Properties,"CEO, Aldar Development",executive,ns,
+hatem,Hatem Dowidar,e_and,e& (Etisalat Group),Group Chief Executive Officer (2020–2025),executive,v,former:until 2025
+alan_smith,Alan Smith,agthia,Agthia Group,Group Chief Executive Officer (2020–2025),executive,v,former:until 2025

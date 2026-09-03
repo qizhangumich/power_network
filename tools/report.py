@@ -52,6 +52,45 @@ def snapshot():
         "suggested": sorted(f'{r["entity_a"]}|{r["entity_b"]}' for r in read("suggested_edges.csv")),
     }
 
+def source_health(now):
+    """Flag scrapers with no success >48h (or 2x their cadence) and stale
+    listings registries (>30 days). Only emits lines when something is wrong."""
+    lines = []
+    hp = ROOT / "scraped_news" / "health.json"
+    if hp.exists():
+        try:
+            health = json.loads(hp.read_text(encoding="utf-8"))
+        except Exception:
+            health = {}
+        stale = []
+        for key, h in sorted(health.items()):
+            freq = h.get("freq_h", 6)
+            limit_h = max(48, 2 * freq)
+            ok = h.get("last_success")
+            if ok:
+                try:
+                    age_h = (now - datetime.datetime.strptime(ok, "%Y-%m-%dT%H:%M:%SZ")).total_seconds() / 3600
+                except ValueError:
+                    continue
+                if age_h > limit_h:
+                    stale.append(f"- `{key}` — last success {age_h/24:.1f} days ago (cadence {freq}h, {h.get('fails', 0)} consecutive fails)")
+            elif h.get("fails", 0) >= 3:
+                stale.append(f"- `{key}` — never succeeded, {h['fails']} fails (cadence {freq}h)")
+        if stale:
+            lines.append(f"### Source health — {len(stale)} scraper(s) need attention")
+            lines.extend(stale)
+            lines.append("")
+    old_lists = []
+    for f in sorted((D / "listings").glob("*.csv")) if (D / "listings").exists() else []:
+        age_d = (now - datetime.datetime.utcfromtimestamp(f.stat().st_mtime)).days
+        if age_d > 30:
+            old_lists.append(f"- `data/listings/{f.name}` — {age_d} days since refresh")
+    if old_lists:
+        lines.append("### Listings registries older than 30 days (re-run tools/import_listings.py)")
+        lines.extend(old_lists)
+        lines.append("")
+    return lines
+
 def main():
     RDIR.mkdir(exist_ok=True)
     cur = snapshot()
@@ -139,6 +178,8 @@ def main():
             a, b = e.split("|", 1)
             lines.append(f"- {names.get(a, a)} ↔ {names.get(b, b)}  (see data/suggested_edges.csv)")
         lines.append("")
+
+    lines.extend(source_health(now))
 
     if not lines:
         print("no changes since last report")

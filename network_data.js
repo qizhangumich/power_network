@@ -910,6 +910,12 @@ const PEOPLE = [
   {id:"jonathan_emery", n:"Jonathan Emery", t:2, p:60, s:"realestate", roles:[
     ["aldar","CEO, Aldar Development","executive","ns"],
     ]},
+  {id:"hatem", n:"Hatem Dowidar", t:2, p:56, s:"comm", roles:[
+    ["e_and","Group Chief Executive Officer (2020–2025)","executive","v","former:until 2025"],
+    ], note:"Group CEO of e& 2020–2025; led the Etisalat-to-e& rebrand and Vodafone stake build. Succeeded by Masood M. Sharif Mahmood."},
+  {id:"alan_smith", n:"Alan Smith", t:3, p:46, s:"consumer_stap", roles:[
+    ["agthia","Group Chief Executive Officer (2020–2025)","executive","v","former:until 2025"],
+    ], note:"Group CEO of Agthia until 2025; drove its M&A-led expansion. Succeeded by Salmeen Al Ameri."},
 ];
 
 const OWNERSHIP = [

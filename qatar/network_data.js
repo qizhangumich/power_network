@@ -259,6 +259,9 @@ const PEOPLE = [
   {id:"qnb_ceo", n:"Abdulla Mubarak Al-Khalifa", t:2, p:74, s:"finance", roles:[["qnb","Group CEO","executive","v"]]},
   {id:"hamad_alkhater", n:"Hamad Ali Al-Khater", t:2, p:80, s:"industry", roles:[["qatarairways","Group CEO","executive","v"]],
     note:"Group CEO since 7 Dec 2025 (from HIA COO; ex-QatarEnergy), replacing Badr Al-Meer."},
+  {id:"badr_almeer", n:"Badr Mohammed Al-Meer", t:2, p:56, s:"industry", roles:[
+    ["qatarairways","Group CEO (Nov 2023–Dec 2025)","executive","v","former:until Dec 2025"]],
+    note:"Group CEO Nov 2023–Dec 2025; previously COO of Hamad International Airport. Succeeded by Hamad Ali Al-Khater."},
   {id:"fakhroo", n:"Aziz Aluthman Fakhroo", t:2, p:74, s:"comm", roles:[["ooredoo","Managing Director & Group CEO","executive","v"]]},
   {id:"sulaiti", n:"Abdullah Al-Sulaiti", t:2, p:68, s:"energy", roles:[["nakilat","CEO","executive","v"]]},
   {id:"jaida_qfc", n:"Yousuf Mohamed Al-Jaida", t:2, p:70, s:"finance", roles:[["qfc","CEO","executive","ns"]]},

@@ -61,6 +61,9 @@ def main():
         if r["institution_id"].strip() not in iids: errors.append(f"roles.csv: unknown institution_id {r['institution_id']} (role of {r['person_id']})")
         if r["role_type"].strip() not in ROLE_TYPES: errors.append(f"roles.csv: bad role_type '{r['role_type']}' on {r['person_id']} (use {sorted(ROLE_TYPES)})")
         if r["verification"].strip() not in ("v", "ns"): errors.append(f"roles.csv: verification must be v or ns on {r['person_id']}/{r['institution_id']}")
+        st = (r.get("status") or "").strip()
+        if st and st != "former" and not st.startswith("former:"):
+            errors.append(f"roles.csv: status must be empty, 'former' or 'former:<note>' on {r['person_id']}/{r['institution_id']}")
     for r in ownership:
         for c in ("child_id", "parent_id"):
             if r[c].strip() not in iids: errors.append(f"ownership.csv: unknown {c} {r[c]}")
@@ -96,7 +99,9 @@ def main():
         pid = r["id"].strip()
         out.append(f'  {{id:{js(pid)}, n:{js(r["name"])}, t:{int(r["tier"])}, p:{int(r["power"])}, s:{js(r["sector"].strip())}, roles:[')
         for rr in roles_by.get(pid, []):
-            out.append(f'    [{js(rr["institution_id"].strip())},{js(rr["title"])},{js(rr["role_type"].strip())},{js(rr["verification"].strip())}],')
+            st = (rr.get("status") or "").strip()
+            tail = f',{js(st)}' if st else ""
+            out.append(f'    [{js(rr["institution_id"].strip())},{js(rr["title"])},{js(rr["role_type"].strip())},{js(rr["verification"].strip())}{tail}],')
         note = (r.get("note") or "").strip()
         out.append(f'    ], note:{js(note)}}},' if note else "    ]},")
     out.append("];")
