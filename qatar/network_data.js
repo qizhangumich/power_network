@@ -6,25 +6,23 @@
    ================================================================ */
 
 const SECTORS = {
-  gov:        {name:"Government & Political",      color:"#5b8def"},
-  sovereign:  {name:"Sovereign Capital",           color:"#e8b64c"},
-  energy:     {name:"Oil, Gas & Energy",           color:"#f2703e"},
-  utilities:  {name:"Power, Water & Utilities",    color:"#f5a623"},
-  finance:    {name:"Banking & Finance",           color:"#3ecf8e"},
-  tech:       {name:"AI, Tech & Space",            color:"#a06ef5"},
-  telecom:    {name:"Telecom",                     color:"#7e57c2"},
-  defense:    {name:"Defense & Security",          color:"#e0645c"},
-  industry:   {name:"Industry & Manufacturing",    color:"#c98a5e"},
-  realestate: {name:"Real Estate & Urban Dev",     color:"#58c4dd"},
-  transport:  {name:"Transport, Ports & Aviation", color:"#4f9de0"},
-  health:     {name:"Healthcare",                  color:"#35b8a4"},
-  education:  {name:"Education & Research",        color:"#8bc34a"},
-  culture:    {name:"Culture, Tourism & Sport",    color:"#ef7fb1"},
-  media:      {name:"Media",                       color:"#e57bd8"},
-  agrifood:   {name:"Agri-food & Retail",          color:"#9ccc65"},
-  environment:{name:"Environment & Waste",         color:"#66bb6a"},
-  conglomerate:{name:"Family Conglomerates",       color:"#b0a08a"},
-  professional:{name:"Professional Services",      color:"#90a4ae"},
+  // ---- GICS 11 ----
+  energy:       {name:"Energy",                 color:"#f2703e"},
+  materials:    {name:"Materials",              color:"#b08968"},
+  industry:     {name:"Industrials",            color:"#c98a5e"},
+  consumer_disc:{name:"Consumer Discretionary", color:"#ef7fb1"},
+  consumer_stap:{name:"Consumer Staples",       color:"#9ccc65"},
+  health:       {name:"Health Care",            color:"#35b8a4"},
+  finance:      {name:"Financials",             color:"#3ecf8e"},
+  tech:         {name:"Information Technology", color:"#a06ef5"},
+  comm:         {name:"Communication Services", color:"#7e57c2"},
+  utilities:    {name:"Utilities",              color:"#f5a623"},
+  realestate:   {name:"Real Estate",            color:"#58c4dd"},
+  // ---- government-side sectors (a power map needs these) ----
+  gov:          {name:"Government & Political", color:"#5b8def"},
+  sovereign:    {name:"Sovereign Capital",      color:"#e8b64c"},
+  education:    {name:"Education & Research",   color:"#8bc34a"},
+  conglomerate: {name:"Family Conglomerates",   color:"#b0a08a"},
 };
 
 const INSTITUTIONS = [
@@ -45,16 +43,16 @@ const INSTITUTIONS = [
   // — Sovereign capital
   {id:"qia",       n:"Qatar Investment Authority",    s:"sovereign", t:1, p:97, short:"QIA"},
   {id:"qatariddiar", n:"Qatari Diar",                 s:"realestate", t:2, p:78, short:"Qatari Diar"},
-  {id:"hassad",    n:"Hassad Food",                   s:"agrifood", t:2, p:62, short:"Hassad"},
-  {id:"katarahosp", n:"Katara Hospitality",           s:"culture", t:2, p:62, short:"Katara Hospitality"},
+  {id:"hassad",    n:"Hassad Food",                   s:"consumer_stap", t:2, p:62, short:"Hassad"},
+  {id:"katarahosp", n:"Katara Hospitality",           s:"consumer_disc", t:2, p:62, short:"Katara Hospitality"},
   // — Energy & utilities
   {id:"qatarenergy", n:"QatarEnergy",                 s:"energy", t:1, p:97, short:"QatarEnergy"},
   {id:"qelng",     n:"QatarEnergy LNG",               s:"energy", t:2, p:82, short:"QatarEnergy LNG"},
   {id:"nakilat",   n:"Nakilat (Qatar Gas Transport)", s:"energy", t:2, p:72, short:"Nakilat"},
-  {id:"industriesqatar", n:"Industries Qatar",        s:"industry", t:2, p:74, short:"Industries Qatar"},
-  {id:"qafco",     n:"Qatar Fertiliser Company",      s:"industry", t:2, p:66, short:"QAFCO"},
-  {id:"qapco",     n:"Qatar Petrochemical Company",   s:"industry", t:2, p:62, short:"QAPCO"},
-  {id:"qatalum",   n:"Qatar Aluminium (Qatalum)",     s:"industry", t:2, p:62, short:"Qatalum"},
+  {id:"industriesqatar", n:"Industries Qatar",        s:"materials", t:2, p:74, short:"Industries Qatar"},
+  {id:"qafco",     n:"Qatar Fertiliser Company",      s:"materials", t:2, p:66, short:"QAFCO"},
+  {id:"qapco",     n:"Qatar Petrochemical Company",   s:"materials", t:2, p:62, short:"QAPCO"},
+  {id:"qatalum",   n:"Qatar Aluminium (Qatalum)",     s:"materials", t:2, p:62, short:"Qatalum"},
   {id:"qewc",      n:"Qatar Electricity & Water Co",  s:"utilities", t:1, p:76, short:"QEWC"},
   {id:"nebras",    n:"Nebras Power",                  s:"utilities", t:2, p:64, short:"Nebras"},
   {id:"kahramaa",  n:"Kahramaa (General Electricity & Water)", s:"utilities", t:2, p:70, short:"Kahramaa"},
@@ -66,17 +64,17 @@ const INSTITUTIONS = [
   {id:"dohabank",  n:"Doha Bank",                     s:"finance", t:2, p:64, short:"Doha Bank"},
   {id:"qse",       n:"Qatar Stock Exchange",          s:"finance", t:2, p:70, short:"QSE"},
   // — Telecom / media
-  {id:"ooredoo",   n:"Ooredoo Group",                 s:"telecom", t:1, p:80, short:"Ooredoo"},
-  {id:"vodafoneqatar", n:"Vodafone Qatar",            s:"telecom", t:2, p:60, short:"Vodafone Qatar"},
-  {id:"aljazeera", n:"Al Jazeera Media Network",      s:"media", t:1, p:86, short:"Al Jazeera"},
-  {id:"bein",      n:"beIN Media Group",              s:"media", t:1, p:78, short:"beIN"},
+  {id:"ooredoo",   n:"Ooredoo Group",                 s:"comm", t:1, p:80, short:"Ooredoo"},
+  {id:"vodafoneqatar", n:"Vodafone Qatar",            s:"comm", t:2, p:60, short:"Vodafone Qatar"},
+  {id:"aljazeera", n:"Al Jazeera Media Network",      s:"comm", t:1, p:86, short:"Al Jazeera"},
+  {id:"bein",      n:"beIN Media Group",              s:"comm", t:1, p:78, short:"beIN"},
   // — Culture, sport
-  {id:"qm",        n:"Qatar Museums",                 s:"culture", t:1, p:76, short:"Qatar Museums"},
-  {id:"qoc",       n:"Qatar Olympic Committee",       s:"culture", t:1, p:72, short:"QOC"},
-  {id:"qsi",       n:"Qatar Sports Investments",      s:"culture", t:1, p:76, short:"QSI"},
-  {id:"psg",       n:"Paris Saint-Germain",           s:"culture", t:2, p:72, short:"PSG"},
-  {id:"scdl",      n:"SC Delivery & Legacy (World Cup legacy)", s:"culture", t:2, p:64, short:"SC Legacy"},
-  {id:"qta",       n:"Qatar Tourism",                 s:"culture", t:2, p:62, short:"Qatar Tourism"},
+  {id:"qm",        n:"Qatar Museums",                 s:"gov", t:1, p:76, short:"Qatar Museums"},
+  {id:"qoc",       n:"Qatar Olympic Committee",       s:"gov", t:1, p:72, short:"QOC"},
+  {id:"qsi",       n:"Qatar Sports Investments",      s:"comm", t:1, p:76, short:"QSI"},
+  {id:"psg",       n:"Paris Saint-Germain",           s:"comm", t:2, p:72, short:"PSG"},
+  {id:"scdl",      n:"SC Delivery & Legacy (World Cup legacy)", s:"gov", t:2, p:64, short:"SC Legacy"},
+  {id:"qta",       n:"Qatar Tourism",                 s:"gov", t:2, p:62, short:"Qatar Tourism"},
   // — Education & research
   {id:"qf",        n:"Qatar Foundation",              s:"education", t:1, p:90, short:"Qatar Foundation"},
   {id:"hbku",      n:"Hamad Bin Khalifa University",  s:"education", t:2, p:66, short:"HBKU"},
@@ -89,15 +87,15 @@ const INSTITUTIONS = [
   {id:"barwa",     n:"Barwa Real Estate",             s:"realestate", t:2, p:64, short:"Barwa"},
   {id:"udc",       n:"United Development Company",    s:"realestate", t:2, p:62, short:"UDC"},
   // — Transport
-  {id:"qatarairways", n:"Qatar Airways",              s:"transport", t:1, p:88, short:"Qatar Airways"},
-  {id:"hia",       n:"Hamad International Airport (MATAR)", s:"transport", t:2, p:74, short:"HIA"},
-  {id:"mwani",     n:"Mwani Qatar (Ports)",           s:"transport", t:2, p:64, short:"Mwani"},
-  {id:"qatarrail", n:"Qatar Rail",                    s:"transport", t:2, p:62, short:"Qatar Rail"},
-  {id:"milaha",    n:"Milaha (Qatar Navigation)",     s:"transport", t:2, p:64, short:"Milaha"},
+  {id:"qatarairways", n:"Qatar Airways",              s:"industry", t:1, p:88, short:"Qatar Airways"},
+  {id:"hia",       n:"Hamad International Airport (MATAR)", s:"industry", t:2, p:74, short:"HIA"},
+  {id:"mwani",     n:"Mwani Qatar (Ports)",           s:"industry", t:2, p:64, short:"Mwani"},
+  {id:"qatarrail", n:"Qatar Rail",                    s:"industry", t:2, p:62, short:"Qatar Rail"},
+  {id:"milaha",    n:"Milaha (Qatar Navigation)",     s:"industry", t:2, p:64, short:"Milaha"},
   // — Defense
-  {id:"barzan",    n:"Barzan Holdings",               s:"defense", t:2, p:66, short:"Barzan"},
+  {id:"barzan",    n:"Barzan Holdings",               s:"industry", t:2, p:66, short:"Barzan"},
   // — Agrifood
-  {id:"baladna",   n:"Baladna",                       s:"agrifood", t:2, p:64, short:"Baladna"},
+  {id:"baladna",   n:"Baladna",                       s:"consumer_stap", t:2, p:64, short:"Baladna"},
   // — Family conglomerates (private)
   {id:"alfaisal",  n:"Al Faisal Holding",             s:"conglomerate", t:3, p:70, short:"Al Faisal"},
   {id:"aamal",     n:"Aamal Company",                 s:"conglomerate", t:3, p:62, short:"Aamal"},
@@ -137,9 +135,9 @@ const PEOPLE = [
   {id:"jassim_bh", n:"H.H. Sheikh Jassim bin Hamad bin Khalifa Al Thani", t:0, p:84, s:"finance", roles:[
     ["qib","Chairman","board","v"]],
     note:"The Emir's brother; chairs Qatar Islamic Bank."},
-  {id:"joaan", n:"H.H. Sheikh Joaan bin Hamad Al Thani", t:0, p:80, s:"culture", roles:[
+  {id:"joaan", n:"H.H. Sheikh Joaan bin Hamad Al Thani", t:0, p:80, s:"gov", roles:[
     ["qoc","President","board","v"]]},
-  {id:"mayassa", n:"H.E. Sheikha Al-Mayassa bint Hamad Al Thani", t:0, p:84, s:"culture", roles:[
+  {id:"mayassa", n:"H.E. Sheikha Al-Mayassa bint Hamad Al Thani", t:0, p:84, s:"gov", roles:[
     ["qm","Chairperson","board","v"]],
     note:"The Emir's sister; one of the most influential figures in the global art market."},
   {id:"hind", n:"H.E. Sheikha Hind bint Hamad Al Thani", t:0, p:84, s:"education", roles:[
@@ -150,9 +148,9 @@ const PEOPLE = [
     ["qcb","Governor","executive","v"]]},
   {id:"mohammed_bhq", n:"H.E. Sheikh Mohammed bin Hamad bin Qassim Al Thani", t:0, p:78, s:"gov", roles:[
     ["moci","Minister of Commerce & Industry","political","v"]]},
-  {id:"hamad_bt_aj", n:"H.E. Sheikh Hamad bin Thamer Al Thani", t:0, p:82, s:"media", roles:[
+  {id:"hamad_bt_aj", n:"H.E. Sheikh Hamad bin Thamer Al Thani", t:0, p:82, s:"comm", roles:[
     ["aljazeera","Chairman","board","v"]]},
-  {id:"faisal_bt", n:"H.E. Sheikh Faisal bin Thani Al Thani", t:0, p:78, s:"telecom", roles:[
+  {id:"faisal_bt", n:"H.E. Sheikh Faisal bin Thani Al Thani", t:0, p:78, s:"comm", roles:[
     ["ooredoo","Chairman","board","v"],
     ["qia","Chief Investment Officer, Africa & Asia-Pacific","executive","ns"]]},
   {id:"meshal_amb", n:"H.E. Sheikh Meshal bin Hamad Al Thani", t:0, p:78, s:"gov", roles:[
@@ -180,7 +178,7 @@ const PEOPLE = [
     ["mofin","Minister of Finance","political","v"],
     ["qnb","Chairman","board","v"],
     ["masraf","Chairman","board","ns"]]},
-  {id:"attiyah", n:"H.E. Khalid bin Mohamed Al Attiyah", t:1, p:82, s:"defense", roles:[
+  {id:"attiyah", n:"H.E. Khalid bin Mohamed Al Attiyah", t:1, p:82, s:"gov", roles:[
     ["cabinet","Deputy Prime Minister","political","v"],
     ["mod_q","Minister of State for Defence Affairs","political","ns"]]},
   {id:"khulaifi", n:"H.E. Dr. Mohammed Al-Khulaifi", t:1, p:76, s:"gov", roles:[
@@ -201,19 +199,19 @@ const PEOPLE = [
     note:"Former QIA CEO; runs the free-zone platform courting global tech and logistics."},
   {id:"sowaidi", n:"Mohammed Saif Al Sowaidi", t:1, p:86, s:"sovereign", roles:[
     ["qia","Chief Executive Officer","executive","ns"]]},
-  {id:"khelaifi", n:"Nasser Al-Khelaifi", t:1, p:86, s:"culture", roles:[
+  {id:"khelaifi", n:"Nasser Al-Khelaifi", t:1, p:86, s:"comm", roles:[
     ["qsi","Chairman","board","v"],
     ["bein","Chairman","board","v"],
     ["psg","President","executive","v"]],
     note:"The global face of Qatari sport and sports media — PSG, beIN, European club football politics."},
-  {id:"thawadi", n:"Hassan Al Thawadi", t:1, p:76, s:"culture", roles:[
+  {id:"thawadi", n:"Hassan Al Thawadi", t:1, p:76, s:"gov", roles:[
     ["scdl","Secretary-General","executive","v"]],
     note:"Delivered the 2022 World Cup; the legacy body carries the network built around it."},
 
   // ===== TIER 2 — OPERATING EXECUTIVES =====
   {id:"qnb_ceo", n:"Abdulla Mubarak Al-Khalifa", t:2, p:74, s:"finance", roles:[["qnb","Group CEO","executive","v"]]},
-  {id:"badr_qa", n:"Badr Mohammed Al-Meer", t:2, p:80, s:"transport", roles:[["qatarairways","Group CEO","executive","v"]]},
-  {id:"fakhroo", n:"Aziz Aluthman Fakhroo", t:2, p:74, s:"telecom", roles:[["ooredoo","Managing Director & Group CEO","executive","v"]]},
+  {id:"badr_qa", n:"Badr Mohammed Al-Meer", t:2, p:80, s:"industry", roles:[["qatarairways","Group CEO","executive","v"]]},
+  {id:"fakhroo", n:"Aziz Aluthman Fakhroo", t:2, p:74, s:"comm", roles:[["ooredoo","Managing Director & Group CEO","executive","v"]]},
   {id:"sulaiti", n:"Abdullah Al-Sulaiti", t:2, p:68, s:"energy", roles:[["nakilat","CEO","executive","v"]]},
   {id:"jaida_qfc", n:"Yousuf Mohamed Al-Jaida", t:2, p:70, s:"finance", roles:[["qfc","CEO","executive","ns"]]},
   {id:"moutaz", n:"Moutaz Al-Khayyat", t:2, p:72, s:"conglomerate", roles:[

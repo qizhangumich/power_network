@@ -5,25 +5,23 @@
    ================================================================ */
 
 const SECTORS = {
-  gov:        {name:"Government & Political",      color:"#5b8def"},
-  sovereign:  {name:"Sovereign Capital",           color:"#e8b64c"},
-  energy:     {name:"Oil, Gas & Energy",           color:"#f2703e"},
-  utilities:  {name:"Power, Water & Utilities",    color:"#f5a623"},
-  finance:    {name:"Banking & Finance",           color:"#3ecf8e"},
-  tech:       {name:"AI, Tech & Space",            color:"#a06ef5"},
-  telecom:    {name:"Telecom",                     color:"#7e57c2"},
-  defense:    {name:"Defense & Security",          color:"#e0645c"},
-  industry:   {name:"Industry & Manufacturing",    color:"#c98a5e"},
-  realestate: {name:"Real Estate & Urban Dev",     color:"#58c4dd"},
-  transport:  {name:"Transport, Ports & Aviation", color:"#4f9de0"},
-  health:     {name:"Healthcare",                  color:"#35b8a4"},
-  education:  {name:"Education & Research",        color:"#8bc34a"},
-  culture:    {name:"Culture, Tourism & Sport",    color:"#ef7fb1"},
-  media:      {name:"Media",                       color:"#e57bd8"},
-  agrifood:   {name:"Agri-food & Retail",          color:"#9ccc65"},
-  environment:{name:"Environment & Waste",         color:"#66bb6a"},
-  conglomerate:{name:"Family Conglomerates",       color:"#b0a08a"},
-  professional:{name:"Professional Services",      color:"#90a4ae"},
+  // ---- GICS 11 ----
+  energy:       {name:"Energy",                 color:"#f2703e"},
+  materials:    {name:"Materials",              color:"#b08968"},
+  industry:     {name:"Industrials",            color:"#c98a5e"},
+  consumer_disc:{name:"Consumer Discretionary", color:"#ef7fb1"},
+  consumer_stap:{name:"Consumer Staples",       color:"#9ccc65"},
+  health:       {name:"Health Care",            color:"#35b8a4"},
+  finance:      {name:"Financials",             color:"#3ecf8e"},
+  tech:         {name:"Information Technology", color:"#a06ef5"},
+  comm:         {name:"Communication Services", color:"#7e57c2"},
+  utilities:    {name:"Utilities",              color:"#f5a623"},
+  realestate:   {name:"Real Estate",            color:"#58c4dd"},
+  // ---- government-side sectors (a power map needs these) ----
+  gov:          {name:"Government & Political", color:"#5b8def"},
+  sovereign:    {name:"Sovereign Capital",      color:"#e8b64c"},
+  education:    {name:"Education & Research",   color:"#8bc34a"},
+  conglomerate: {name:"Family Conglomerates",   color:"#b0a08a"},
 };
 
 const INSTITUTIONS = [
@@ -35,12 +33,12 @@ const INSTITUTIONS = [
   {id:"vara",      n:"VARA (Virtual Assets Regulator)", s:"finance", t:2, p:70, short:"VARA"},
   {id:"det",       n:"Dept of Economy & Tourism",     s:"gov", t:1, p:82, short:"DET"},
   {id:"dof_dxb",   n:"Dubai Dept of Finance",         s:"gov", t:1, p:78, short:"DoF"},
-  {id:"rta",       n:"Roads & Transport Authority",   s:"transport", t:1, p:76, short:"RTA"},
+  {id:"rta",       n:"Roads & Transport Authority",   s:"gov", t:1, p:76, short:"RTA"},
   {id:"dewa",      n:"Dubai Electricity & Water Authority", s:"utilities", t:1, p:82, short:"DEWA"},
-  {id:"emirates",  n:"Emirates Group",                s:"transport", t:1, p:92, short:"Emirates"},
-  {id:"flydubai",  n:"flydubai",                      s:"transport", t:2, p:72, short:"flydubai"},
-  {id:"dxbairports", n:"Dubai Airports",              s:"transport", t:1, p:80, short:"Dubai Airports"},
-  {id:"dpworld",   n:"DP World",                      s:"transport", t:1, p:90, short:"DP World"},
+  {id:"emirates",  n:"Emirates Group",                s:"industry", t:1, p:92, short:"Emirates"},
+  {id:"flydubai",  n:"flydubai",                      s:"industry", t:2, p:72, short:"flydubai"},
+  {id:"dxbairports", n:"Dubai Airports",              s:"industry", t:1, p:80, short:"Dubai Airports"},
+  {id:"dpworld",   n:"DP World",                      s:"industry", t:1, p:90, short:"DP World"},
   {id:"enbd",      n:"Emirates NBD",                  s:"finance", t:1, p:84, short:"Emirates NBD"},
   {id:"dib",       n:"Dubai Islamic Bank",            s:"finance", t:2, p:76, short:"DIB"},
   {id:"mashreq",   n:"Mashreq Bank",                  s:"finance", t:2, p:74, short:"Mashreq"},
@@ -50,10 +48,15 @@ const INSTITUTIONS = [
   {id:"damac",     n:"DAMAC Properties",              s:"realestate", t:2, p:74, short:"DAMAC"},
   {id:"tecom",     n:"TECOM Group",                   s:"realestate", t:2, p:68, short:"TECOM"},
   {id:"expocity",  n:"Expo City Dubai",               s:"realestate", t:2, p:70, short:"Expo City"},
-  {id:"du",        n:"du (EITC)",                     s:"telecom", t:2, p:72, short:"du"},
+  {id:"du",        n:"du (EITC)",                     s:"comm", t:2, p:72, short:"du"},
   {id:"dmcc",      n:"DMCC",                          s:"gov", t:2, p:70, short:"DMCC"},
   {id:"dubaichambers", n:"Dubai Chambers",            s:"gov", t:1, p:72, short:"Dubai Chambers"},
   {id:"noon",      n:"noon.com",                      s:"tech", t:2, p:66, short:"noon"},
+  {id:"enoc",      n:"ENOC (Emirates National Oil Company)", s:"energy", t:1, p:74, short:"ENOC"},
+  {id:"ega",       n:"Emirates Global Aluminium",     s:"materials", t:2, p:74, short:"EGA"},
+  {id:"jumeirah",  n:"Jumeirah Group",                s:"consumer_disc", t:2, p:70, short:"Jumeirah"},
+  {id:"spinneys",  n:"Spinneys",                      s:"consumer_stap", t:2, p:60, short:"Spinneys"},
+  {id:"aster",     n:"Aster DM Healthcare",           s:"health", t:2, p:66, short:"Aster DM"},
   {id:"maf",       n:"Majid Al Futtaim Group",        s:"conglomerate", t:3, p:80, short:"Majid Al Futtaim"},
   {id:"alfuttaim", n:"Al-Futtaim Group",              s:"conglomerate", t:3, p:76, short:"Al-Futtaim"},
   {id:"alhabtoor", n:"Al Habtoor Group",              s:"conglomerate", t:3, p:72, short:"Al Habtoor"},
@@ -76,13 +79,13 @@ const PEOPLE = [
     ["dxbgov","UAE Deputy PM & Minister of Finance","political","v"],
     ["difc","President","political","v"]],
     note:"Dubai's financial-markets czar: DIFC, the IPO program and federal finance."},
-  {id:"ahmed_saeed", n:"H.H. Sheikh Ahmed bin Saeed Al Maktoum", t:0, p:92, s:"transport", roles:[
+  {id:"ahmed_saeed", n:"H.H. Sheikh Ahmed bin Saeed Al Maktoum", t:0, p:92, s:"industry", roles:[
     ["emirates","Chairman & Chief Executive","executive","v"],
     ["enbd","Chairman","board","v"],
     ["dxbairports","Chairman","board","v"],
     ["flydubai","Chairman","board","v"]],
     note:"The aviation patriarch — Emirates, the airport system and the emirate's biggest bank."},
-  {id:"ahmed_moh", n:"H.H. Sheikh Ahmed bin Mohammed Al Maktoum", t:0, p:84, s:"media", roles:[
+  {id:"ahmed_moh", n:"H.H. Sheikh Ahmed bin Mohammed Al Maktoum", t:0, p:84, s:"comm", roles:[
     ["dxbgov","Second Deputy Ruler of Dubai","political","v"],
     ["dxbgov","Chairman, Dubai Media Council","government","v"]]},
   {id:"shaibani", n:"Mohammed Ibrahim Al Shaibani", t:1, p:90, s:"sovereign", roles:[
@@ -90,12 +93,12 @@ const PEOPLE = [
     ["icd","Managing Director","executive","v"],
     ["nakheel","Chairman","board","ns"]],
     note:"The Ruler's chief business fiduciary — controls the ICD holding that owns Emirates, ENBD and more."},
-  {id:"sultan_sulayem", n:"Sultan Ahmed bin Sulayem", t:1, p:88, s:"transport", roles:[
+  {id:"sultan_sulayem", n:"Sultan Ahmed bin Sulayem", t:1, p:88, s:"industry", roles:[
     ["dpworld","Group Chairman & CEO","executive","v"]],
     note:"Built Jebel Ali into a global ports empire spanning 70+ terminals."},
   {id:"altayer_dewa", n:"Saeed Mohammed Al Tayer", t:1, p:84, s:"utilities", roles:[
     ["dewa","Managing Director & CEO","executive","v"]]},
-  {id:"mattar_tayer", n:"Mattar Al Tayer", t:1, p:78, s:"transport", roles:[
+  {id:"mattar_tayer", n:"Mattar Al Tayer", t:1, p:78, s:"gov", roles:[
     ["rta","Chairman & Director-General","government","v"]]},
   {id:"essa_kazim", n:"Essa Kazim", t:1, p:82, s:"finance", roles:[
     ["difc","Governor","executive","v"],
@@ -113,11 +116,11 @@ const PEOPLE = [
     note:"Dubai's signature developer-entrepreneur: Burj Khalifa, Dubai Mall, noon."},
   {id:"sajwani", n:"Hussain Sajwani", t:2, p:80, s:"realestate", roles:[
     ["damac","Founder & Chairman","board","v"]]},
-  {id:"tim_clark", n:"Sir Tim Clark", t:2, p:80, s:"transport", roles:[
+  {id:"tim_clark", n:"Sir Tim Clark", t:2, p:80, s:"industry", roles:[
     ["emirates","President, Emirates Airline","executive","v"]]},
-  {id:"griffiths", n:"Paul Griffiths", t:2, p:74, s:"transport", roles:[
+  {id:"griffiths", n:"Paul Griffiths", t:2, p:74, s:"industry", roles:[
     ["dxbairports","CEO","executive","v"]]},
-  {id:"ghaith", n:"Ghaith Al Ghaith", t:2, p:70, s:"transport", roles:[
+  {id:"ghaith", n:"Ghaith Al Ghaith", t:2, p:70, s:"industry", roles:[
     ["flydubai","CEO","executive","ns"]]},
   {id:"abdulaziz_ghurair", n:"Abdul Aziz Al Ghurair", t:1, p:82, s:"finance", roles:[
     ["mashreq","Chairman","board","v"],
@@ -148,6 +151,9 @@ const OWNERSHIP = [
   ["expocity","dxbgov"],
   ["du","dxbgov","state stakes (EIA/Mubadala/Dubai Holding)","ns"],
   ["noon","icd","co-investor","ns"],
+  ["enoc","dxbgov","state owner"],
+  ["ega","icd","50% (with Mubadala)"],
+  ["jumeirah","dubaiholding"],
 ];
 
 const FAMILY = [

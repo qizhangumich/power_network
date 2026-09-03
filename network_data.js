@@ -5,26 +5,24 @@
    ================================================================ */
 
 const SECTORS = {
-  gov:        {name:"Government & Political",      color:"#5b8def"},
-  sovereign:  {name:"Sovereign Capital",           color:"#e8b64c"},
-  energy:     {name:"Oil, Gas & Energy",           color:"#f2703e"},
-  utilities:  {name:"Power, Water & Utilities",    color:"#f5a623"},
-  finance:    {name:"Banking & Finance",           color:"#3ecf8e"},
-  tech:       {name:"AI, Tech & Space",            color:"#a06ef5"},
-  telecom:    {name:"Telecom",                     color:"#7e57c2"},
-  defense:    {name:"Defense & Security",          color:"#e0645c"},
-  industry:   {name:"Industry & Manufacturing",    color:"#c98a5e"},
-  realestate: {name:"Real Estate & Urban Dev",     color:"#58c4dd"},
-  transport:  {name:"Transport, Ports & Aviation", color:"#4f9de0"},
-  health:     {name:"Healthcare",                  color:"#35b8a4"},
-  education:  {name:"Education & Research",        color:"#8bc34a"},
-  culture:    {name:"Culture, Tourism & Sport",    color:"#ef7fb1"},
-  media:      {name:"Media",                       color:"#e57bd8"},
-  agrifood:   {name:"Agri-food & Retail",          color:"#9ccc65"},
-  environment:{name:"Environment & Waste",         color:"#66bb6a"},
-  conglomerate:{name:"Family Conglomerates",       color:"#b0a08a"},
+  // ---- GICS 11 ----
+  energy:       {name:"Energy",                 color:"#f2703e"},
+  materials:    {name:"Materials",              color:"#b08968"},
+  industry:     {name:"Industrials",            color:"#c98a5e"},
+  consumer_disc:{name:"Consumer Discretionary", color:"#ef7fb1"},
+  consumer_stap:{name:"Consumer Staples",       color:"#9ccc65"},
+  health:       {name:"Health Care",            color:"#35b8a4"},
+  finance:      {name:"Financials",             color:"#3ecf8e"},
+  tech:         {name:"Information Technology", color:"#a06ef5"},
+  comm:         {name:"Communication Services", color:"#7e57c2"},
+  utilities:    {name:"Utilities",              color:"#f5a623"},
+  realestate:   {name:"Real Estate",            color:"#58c4dd"},
+  // ---- government-side sectors (a power map needs these) ----
+  gov:          {name:"Government & Political", color:"#5b8def"},
+  sovereign:    {name:"Sovereign Capital",      color:"#e8b64c"},
+  education:    {name:"Education & Research",   color:"#8bc34a"},
+  conglomerate: {name:"Family Conglomerates",   color:"#b0a08a"},
 };
-SECTORS.professional = {name:"Professional Services", color:"#90a4ae"};
 
 const INSTITUTIONS = [
   {id:"adgov", n:"Abu Dhabi Government (Ruler's Court)", s:"gov", t:0, p:100, short:"AD Govt"},
@@ -42,15 +40,15 @@ const INSTITUTIONS = [
   {id:"adek", n:"Department of Education & Knowledge", s:"gov", t:1, p:78, short:"ADEK"},
   {id:"dct", n:"Department of Culture & Tourism", s:"gov", t:1, p:80, short:"DCT"},
   {id:"dcd", n:"Department of Community Development", s:"gov", t:1, p:72, short:"DCD"},
-  {id:"ead", n:"Environment Agency – Abu Dhabi", s:"environment", t:1, p:76, short:"EAD"},
-  {id:"adafsa", n:"Abu Dhabi Agriculture & Food Safety Authority", s:"agrifood", t:2, p:66, short:"ADAFSA"},
+  {id:"ead", n:"Environment Agency – Abu Dhabi", s:"gov", t:1, p:76, short:"EAD"},
+  {id:"adafsa", n:"Abu Dhabi Agriculture & Food Safety Authority", s:"gov", t:2, p:66, short:"ADAFSA"},
   {id:"adio", n:"Abu Dhabi Investment Office", s:"gov", t:1, p:76, short:"ADIO"},
-  {id:"admo", n:"Abu Dhabi Media Office", s:"media", t:1, p:72, short:"AD Media Office"},
+  {id:"admo", n:"Abu Dhabi Media Office", s:"comm", t:1, p:72, short:"AD Media Office"},
   {id:"mofa", n:"UAE Ministry of Foreign Affairs", s:"gov", t:1, p:84, short:"MoFA"},
   {id:"cbuae", n:"Central Bank of the UAE", s:"finance", t:1, p:86, short:"CBUAE"},
   {id:"sca", n:"Securities & Commodities Authority", s:"finance", t:2, p:70, short:"SCA"},
   {id:"spaceagency", n:"UAE Space Agency", s:"tech", t:2, p:70, short:"Space Agency"},
-  {id:"tawazun", n:"Tawazun Council", s:"defense", t:1, p:76, short:"Tawazun"},
+  {id:"tawazun", n:"Tawazun Council", s:"gov", t:1, p:76, short:"Tawazun"},
   {id:"atrc", n:"Advanced Technology Research Council", s:"tech", t:1, p:76, short:"ATRC"},
   {id:"adia", n:"Abu Dhabi Investment Authority", s:"sovereign", t:1, p:97, short:"ADIA"},
   {id:"mubadala", n:"Mubadala Investment Company", s:"sovereign", t:1, p:96, short:"Mubadala"},
@@ -71,8 +69,8 @@ const INSTITUTIONS = [
   {id:"adnocdrill", n:"ADNOC Drilling", s:"energy", t:2, p:72, short:"ADNOC Drilling"},
   {id:"adnocls", n:"ADNOC Logistics & Services", s:"energy", t:2, p:70, short:"ADNOC L&S"},
   {id:"adnocdist", n:"ADNOC Distribution", s:"energy", t:2, p:72, short:"ADNOC Dist."},
-  {id:"borouge", n:"Borouge", s:"industry", t:2, p:74, short:"Borouge"},
-  {id:"fertiglobe", n:"Fertiglobe", s:"industry", t:2, p:68, short:"Fertiglobe"},
+  {id:"borouge", n:"Borouge", s:"materials", t:2, p:74, short:"Borouge"},
+  {id:"fertiglobe", n:"Fertiglobe", s:"materials", t:2, p:68, short:"Fertiglobe"},
   {id:"masdar", n:"Masdar", s:"utilities", t:1, p:82, short:"Masdar"},
   {id:"taqa", n:"TAQA Group", s:"utilities", t:1, p:86, short:"TAQA"},
   {id:"ewec", n:"Emirates Water & Electricity Company", s:"utilities", t:2, p:78, short:"EWEC"},
@@ -89,10 +87,10 @@ const INSTITUTIONS = [
   {id:"space42", n:"Space42", s:"tech", t:2, p:74, short:"Space42"},
   {id:"khazna", n:"Khazna Data Centers", s:"tech", t:2, p:70, short:"Khazna"},
   {id:"mbzuai", n:"Mohamed bin Zayed University of AI", s:"education", t:2, p:72, short:"MBZUAI"},
-  {id:"e_and", n:"e& (Etisalat Group)", s:"telecom", t:1, p:84, short:"e&"},
+  {id:"e_and", n:"e& (Etisalat Group)", s:"comm", t:1, p:84, short:"e&"},
   {id:"tii", n:"Technology Innovation Institute", s:"tech", t:2, p:66, short:"TII"},
-  {id:"edge_grp", n:"EDGE Group", s:"defense", t:1, p:84, short:"EDGE"},
-  {id:"calidus", n:"Calidus Holding", s:"defense", t:2, p:60, short:"Calidus"},
+  {id:"edge_grp", n:"EDGE Group", s:"industry", t:1, p:84, short:"EDGE"},
+  {id:"calidus", n:"Calidus Holding", s:"industry", t:2, p:60, short:"Calidus"},
   {id:"purehealth", n:"PureHealth", s:"health", t:1, p:80, short:"PureHealth"},
   {id:"seha", n:"SEHA (AD Health Services)", s:"health", t:2, p:66, short:"SEHA"},
   {id:"daman", n:"Daman (National Health Insurance)", s:"health", t:2, p:62, short:"Daman"},
@@ -102,33 +100,33 @@ const INSTITUTIONS = [
   {id:"aldar", n:"Aldar Properties", s:"realestate", t:1, p:82, short:"Aldar"},
   {id:"modon", n:"Modon Holding", s:"realestate", t:2, p:74, short:"Modon"},
   {id:"adnh", n:"Abu Dhabi National Hotels", s:"realestate", t:2, p:60, short:"ADNH"},
-  {id:"adports", n:"AD Ports Group", s:"transport", t:1, p:82, short:"AD Ports"},
-  {id:"etihad", n:"Etihad Airways", s:"transport", t:1, p:80, short:"Etihad"},
-  {id:"adairports", n:"Abu Dhabi Airports", s:"transport", t:2, p:72, short:"AD Airports"},
-  {id:"etihadrail", n:"Etihad Rail", s:"transport", t:2, p:74, short:"Etihad Rail"},
-  {id:"itc", n:"Integrated Transport Centre", s:"transport", t:2, p:62, short:"ITC"},
-  {id:"ega", n:"Emirates Global Aluminium", s:"industry", t:1, p:78, short:"EGA"},
-  {id:"emsteel", n:"EMSTEEL (Emirates Steel Arkan)", s:"industry", t:2, p:70, short:"EMSTEEL"},
+  {id:"adports", n:"AD Ports Group", s:"industry", t:1, p:82, short:"AD Ports"},
+  {id:"etihad", n:"Etihad Airways", s:"industry", t:1, p:80, short:"Etihad"},
+  {id:"adairports", n:"Abu Dhabi Airports", s:"industry", t:2, p:72, short:"AD Airports"},
+  {id:"etihadrail", n:"Etihad Rail", s:"industry", t:2, p:74, short:"Etihad Rail"},
+  {id:"itc", n:"Integrated Transport Centre", s:"gov", t:2, p:62, short:"ITC"},
+  {id:"ega", n:"Emirates Global Aluminium", s:"materials", t:1, p:78, short:"EGA"},
+  {id:"emsteel", n:"EMSTEEL (Emirates Steel Arkan)", s:"materials", t:2, p:70, short:"EMSTEEL"},
   {id:"strata", n:"Strata Manufacturing", s:"industry", t:2, p:62, short:"Strata"},
   {id:"nmdc", n:"NMDC Group", s:"industry", t:2, p:68, short:"NMDC"},
-  {id:"agthia", n:"Agthia Group", s:"agrifood", t:2, p:66, short:"Agthia"},
-  {id:"silal", n:"Silal", s:"agrifood", t:2, p:60, short:"Silal"},
-  {id:"aldahra", n:"Al Dahra Holding", s:"agrifood", t:2, p:62, short:"Al Dahra"},
-  {id:"lulu", n:"LuLu Group International", s:"agrifood", t:2, p:72, short:"LuLu"},
-  {id:"miral", n:"Miral (Yas Island / destinations)", s:"culture", t:2, p:76, short:"Miral"},
-  {id:"adnec", n:"ADNEC Group", s:"culture", t:2, p:70, short:"ADNEC"},
-  {id:"louvre", n:"Louvre Abu Dhabi", s:"culture", t:2, p:62, short:"Louvre AD"},
-  {id:"flash", n:"Flash Entertainment", s:"culture", t:2, p:58, short:"Flash"},
-  {id:"cfg", n:"City Football Group / Manchester City", s:"culture", t:2, p:72, short:"CFG"},
-  {id:"imi", n:"International Media Investments", s:"media", t:2, p:72, short:"IMI"},
-  {id:"skynewsarabia", n:"Sky News Arabia", s:"media", t:2, p:60, short:"Sky News Arabia"},
-  {id:"thenational", n:"The National", s:"media", t:2, p:58, short:"The National"},
+  {id:"agthia", n:"Agthia Group", s:"consumer_stap", t:2, p:66, short:"Agthia"},
+  {id:"silal", n:"Silal", s:"consumer_stap", t:2, p:60, short:"Silal"},
+  {id:"aldahra", n:"Al Dahra Holding", s:"consumer_stap", t:2, p:62, short:"Al Dahra"},
+  {id:"lulu", n:"LuLu Group International", s:"consumer_stap", t:2, p:72, short:"LuLu"},
+  {id:"miral", n:"Miral (Yas Island / destinations)", s:"consumer_disc", t:2, p:76, short:"Miral"},
+  {id:"adnec", n:"ADNEC Group", s:"consumer_disc", t:2, p:70, short:"ADNEC"},
+  {id:"louvre", n:"Louvre Abu Dhabi", s:"consumer_disc", t:2, p:62, short:"Louvre AD"},
+  {id:"flash", n:"Flash Entertainment", s:"comm", t:2, p:58, short:"Flash"},
+  {id:"cfg", n:"City Football Group / Manchester City", s:"comm", t:2, p:72, short:"CFG"},
+  {id:"imi", n:"International Media Investments", s:"comm", t:2, p:72, short:"IMI"},
+  {id:"skynewsarabia", n:"Sky News Arabia", s:"comm", t:2, p:60, short:"Sky News Arabia"},
+  {id:"thenational", n:"The National", s:"comm", t:2, p:58, short:"The National"},
   {id:"khalifa_u", n:"Khalifa University", s:"education", t:2, p:68, short:"Khalifa Uni"},
   {id:"nyuad", n:"NYU Abu Dhabi", s:"education", t:2, p:66, short:"NYUAD"},
   {id:"sorbonne", n:"Sorbonne University Abu Dhabi", s:"education", t:2, p:58, short:"Sorbonne AD"},
   {id:"zayed_u", n:"Zayed University", s:"education", t:2, p:60, short:"Zayed Uni"},
   {id:"uaeu", n:"United Arab Emirates University", s:"education", t:2, p:64, short:"UAEU"},
-  {id:"tadweer", n:"Tadweer Group", s:"environment", t:2, p:64, short:"Tadweer"},
+  {id:"tadweer", n:"Tadweer Group", s:"industry", t:2, p:64, short:"Tadweer"},
   {id:"alnowais", n:"Al Nowais Investments", s:"conglomerate", t:2, p:62, short:"Al Nowais Inv."},
   {id:"almasaood", n:"Al Masaood Group", s:"conglomerate", t:2, p:62, short:"Al Masaood"},
   {id:"alfahim", n:"Al Fahim Group", s:"conglomerate", t:2, p:60, short:"Al Fahim"},
@@ -159,17 +157,17 @@ const INSTITUTIONS = [
   {id:"adnic", n:"Abu Dhabi National Insurance Company", s:"finance", t:3, p:54, short:"ADNIC"},
   {id:"trojan", n:"Trojan Holding", s:"industry", t:3, p:60, short:"Trojan"},
   {id:"alisons", n:"Ali & Sons Holding", s:"conglomerate", t:3, p:58, short:"Ali & Sons"},
-  {id:"rotana", n:"Rotana Hotels", s:"culture", t:3, p:62, short:"Rotana"},
-  {id:"mckinsey", n:"McKinsey & Company", s:"professional", t:3, p:64, short:"McKinsey"},
-  {id:"bcg", n:"Boston Consulting Group", s:"professional", t:3, p:60, short:"BCG"},
-  {id:"pwc", n:"PwC Middle East", s:"professional", t:3, p:58, short:"PwC"},
-  {id:"ey", n:"EY MENA", s:"professional", t:3, p:56, short:"EY"},
-  {id:"kpmg", n:"KPMG Lower Gulf", s:"professional", t:3, p:54, short:"KPMG"},
-  {id:"deloitte", n:"Deloitte Middle East", s:"professional", t:3, p:56, short:"Deloitte"},
-  {id:"accenture", n:"Accenture Middle East", s:"professional", t:3, p:56, short:"Accenture"},
-  {id:"altamimi", n:"Al Tamimi & Company", s:"professional", t:3, p:58, short:"Al Tamimi"},
-  {id:"cliffordchance", n:"Clifford Chance", s:"professional", t:3, p:52, short:"Clifford Chance"},
-  {id:"raytheon_em", n:"Raytheon Emirates", s:"defense", t:3, p:58, short:"Raytheon Emirates"},
+  {id:"rotana", n:"Rotana Hotels", s:"consumer_disc", t:3, p:62, short:"Rotana"},
+  {id:"mckinsey", n:"McKinsey & Company", s:"industry", t:3, p:64, short:"McKinsey"},
+  {id:"bcg", n:"Boston Consulting Group", s:"industry", t:3, p:60, short:"BCG"},
+  {id:"pwc", n:"PwC Middle East", s:"industry", t:3, p:58, short:"PwC"},
+  {id:"ey", n:"EY MENA", s:"industry", t:3, p:56, short:"EY"},
+  {id:"kpmg", n:"KPMG Lower Gulf", s:"industry", t:3, p:54, short:"KPMG"},
+  {id:"deloitte", n:"Deloitte Middle East", s:"industry", t:3, p:56, short:"Deloitte"},
+  {id:"accenture", n:"Accenture Middle East", s:"industry", t:3, p:56, short:"Accenture"},
+  {id:"altamimi", n:"Al Tamimi & Company", s:"industry", t:3, p:58, short:"Al Tamimi"},
+  {id:"cliffordchance", n:"Clifford Chance", s:"industry", t:3, p:52, short:"Clifford Chance"},
+  {id:"raytheon_em", n:"Raytheon Emirates", s:"industry", t:3, p:58, short:"Raytheon Emirates"},
 ];
 
 const PEOPLE = [
@@ -261,7 +259,7 @@ const PEOPLE = [
   {id:"syed_basar", n:"Syed Basar Shueb", t:1, p:85, s:"sovereign", roles:[
     ["ihc","CEO","executive","v"],
     ], note:"Operates Tahnoon's listed conglomerate (IHC), one of the largest listed companies in the Middle East."},
-  {id:"faisal_bannai", n:"Faisal Al Bannai", t:1, p:88, s:"defense", roles:[
+  {id:"faisal_bannai", n:"Faisal Al Bannai", t:1, p:88, s:"tech", roles:[
     ["prescourt","Adviser for Strategic Research & Advanced Technology Affairs","political","v"],
     ["atrc","Secretary-General","government","v"],
     ["edge_grp","Chairman","board","ns"],
@@ -299,11 +297,11 @@ const PEOPLE = [
     ["dge","Chairman","government","v"],
     ["execcouncil","Member","political","v"],
     ]},
-  {id:"falah_ahbabi", n:"Falah Mohammed Al Ahbabi", t:1, p:85, s:"transport", roles:[
+  {id:"falah_ahbabi", n:"Falah Mohammed Al Ahbabi", t:1, p:85, s:"industry", roles:[
     ["adports","Chairman","board","v"],
     ["execcouncil","Member","political","v"],
     ]},
-  {id:"mohamed_km", n:"Mohamed Khalifa Al Mubarak", t:1, p:88, s:"culture", roles:[
+  {id:"mohamed_km", n:"Mohamed Khalifa Al Mubarak", t:1, p:88, s:"consumer_disc", roles:[
     ["dct","Chairman","government","v"],
     ["aldar","Chairman","board","v"],
     ["miral","Chairman","board","v"],
@@ -316,7 +314,7 @@ const PEOPLE = [
   {id:"saif_ghobash", n:"Saif Saeed Ghobash", t:1, p:80, s:"gov", roles:[
     ["execcouncil","Secretary-General","government","ns"],
     ]},
-  {id:"ahmed_mazrouei", n:"Dr. Ahmed Mubarak Al Mazrouei", t:1, p:78, s:"agrifood", roles:[
+  {id:"ahmed_mazrouei", n:"Dr. Ahmed Mubarak Al Mazrouei", t:1, p:78, s:"gov", roles:[
     ["adafsa","Chairman","government","ns"],
     ["execcouncil","Member","political","v"],
     ]},
@@ -337,10 +335,10 @@ const PEOPLE = [
     ["emsteel","Chairman","board","v"],
     ["alnowais","Chairman","board","v"],
     ]},
-  {id:"razan", n:"Razan Khalifa Al Mubarak", t:1, p:78, s:"environment", roles:[
+  {id:"razan", n:"Razan Khalifa Al Mubarak", t:1, p:78, s:"gov", roles:[
     ["ead","Managing Director","executive","v"],
     ], note:"Sister of Khaldoon and Mohamed Khalifa Al Mubarak; also President of IUCN."},
-  {id:"tareq_hosani", n:"Tareq Abdul Raheem Al Hosani", t:1, p:76, s:"defense", roles:[
+  {id:"tareq_hosani", n:"Tareq Abdul Raheem Al Hosani", t:1, p:76, s:"industry", roles:[
     ["tawazun","Secretary-General","government","v"],
     ]},
   {id:"ghannam", n:"Ghannam Butti Al Mazrouei", t:1, p:74, s:"finance", roles:[
@@ -419,7 +417,7 @@ const PEOPLE = [
   {id:"lamki", n:"Bader Saeed Al Lamki", t:2, p:70, s:"energy", roles:[
     ["adnocdist","CEO","executive","v"],
     ]},
-  {id:"hazeem", n:"Hazeem Sultan Al Suwaidi", t:2, p:70, s:"industry", roles:[
+  {id:"hazeem", n:"Hazeem Sultan Al Suwaidi", t:2, p:70, s:"materials", roles:[
     ["borouge","CEO","executive","v"],
     ]},
   {id:"talal_kaissi", n:"Talal Al Kaissi", t:2, p:70, s:"tech", roles:[
@@ -440,10 +438,10 @@ const PEOPLE = [
   {id:"eric_xing", n:"Prof. Eric Xing", t:2, p:70, s:"education", roles:[
     ["mbzuai","President","executive","v"],
     ]},
-  {id:"hatem", n:"Hatem Dowidar", t:2, p:80, s:"telecom", roles:[
+  {id:"hatem", n:"Hatem Dowidar", t:2, p:80, s:"comm", roles:[
     ["e_and","Group CEO","executive","v"],
     ]},
-  {id:"hamad_marar", n:"Hamad Al Marar", t:2, p:78, s:"defense", roles:[
+  {id:"hamad_marar", n:"Hamad Al Marar", t:2, p:78, s:"industry", roles:[
     ["edge_grp","Managing Director & CEO","executive","v"],
     ]},
   {id:"shaista", n:"Shaista Asif", t:2, p:74, s:"health", roles:[
@@ -461,22 +459,22 @@ const PEOPLE = [
   {id:"bill_oregan", n:"Bill O'Regan", t:2, p:70, s:"realestate", roles:[
     ["modon","Group CEO","executive","v"],
     ]},
-  {id:"shamisi_ports", n:"Capt. Mohamed Juma Al Shamisi", t:2, p:80, s:"transport", roles:[
+  {id:"shamisi_ports", n:"Capt. Mohamed Juma Al Shamisi", t:2, p:80, s:"industry", roles:[
     ["adports","Managing Director & Group CEO","executive","v"],
     ]},
-  {id:"neves", n:"Antonoaldo Neves", t:2, p:74, s:"transport", roles:[
+  {id:"neves", n:"Antonoaldo Neves", t:2, p:74, s:"industry", roles:[
     ["etihad","CEO","executive","v"],
     ]},
-  {id:"elena", n:"Elena Sorlini", t:2, p:70, s:"transport", roles:[
+  {id:"elena", n:"Elena Sorlini", t:2, p:70, s:"industry", roles:[
     ["adairports","Managing Director & CEO","executive","v"],
     ]},
-  {id:"shadi", n:"Shadi Malak", t:2, p:72, s:"transport", roles:[
+  {id:"shadi", n:"Shadi Malak", t:2, p:72, s:"industry", roles:[
     ["etihadrail","CEO","executive","v"],
     ]},
-  {id:"saeed_remeithi", n:"Saeed Ghumran Al Remeithi", t:2, p:68, s:"industry", roles:[
+  {id:"saeed_remeithi", n:"Saeed Ghumran Al Remeithi", t:2, p:68, s:"materials", roles:[
     ["emsteel","Group CEO","executive","v"],
     ]},
-  {id:"binkalban", n:"Abdulnasser bin Kalban", t:2, p:72, s:"industry", roles:[
+  {id:"binkalban", n:"Abdulnasser bin Kalban", t:2, p:72, s:"materials", roles:[
     ["ega","CEO","executive","v"],
     ]},
   {id:"ismail_abdulla", n:"Ismail Ali Abdulla", t:2, p:64, s:"industry", roles:[
@@ -485,28 +483,28 @@ const PEOPLE = [
   {id:"zaghloul", n:"Yasser Zaghloul", t:2, p:68, s:"industry", roles:[
     ["nmdc","Group CEO","executive","v"],
     ]},
-  {id:"alan_smith", n:"Alan Smith", t:2, p:62, s:"agrifood", roles:[
+  {id:"alan_smith", n:"Alan Smith", t:2, p:62, s:"consumer_stap", roles:[
     ["agthia","Group CEO","executive","ns"],
     ]},
-  {id:"yusuffali", n:"Yusuff Ali M.A.", t:2, p:78, s:"agrifood", roles:[
+  {id:"yusuffali", n:"Yusuff Ali M.A.", t:2, p:78, s:"consumer_stap", roles:[
     ["lulu","Chairman & Managing Director","board","v"],
     ], note:"Abu Dhabi-based retail magnate; one of the most influential expatriate business figures in the Gulf."},
-  {id:"miral_zaabi", n:"Mohamed Abdalla Al Zaabi", t:2, p:72, s:"culture", roles:[
+  {id:"miral_zaabi", n:"Mohamed Abdalla Al Zaabi", t:2, p:72, s:"consumer_disc", roles:[
     ["miral","Group CEO","executive","v"],
     ]},
-  {id:"humaid_dhaheri", n:"Humaid Matar Al Dhaheri", t:2, p:68, s:"culture", roles:[
+  {id:"humaid_dhaheri", n:"Humaid Matar Al Dhaheri", t:2, p:68, s:"consumer_disc", roles:[
     ["adnec","Managing Director & Group CEO","executive","v"],
     ]},
-  {id:"lickrish", n:"John Lickrish", t:2, p:62, s:"culture", roles:[
+  {id:"lickrish", n:"John Lickrish", t:2, p:62, s:"comm", roles:[
     ["flash","CEO","executive","v"],
     ]},
-  {id:"rani", n:"Rani Raad", t:2, p:68, s:"media", roles:[
+  {id:"rani", n:"Rani Raad", t:2, p:68, s:"comm", roles:[
     ["imi","CEO","executive","v"],
     ]},
-  {id:"shaikha_dhaheri", n:"Dr. Shaikha Salem Al Dhaheri", t:2, p:74, s:"environment", roles:[
+  {id:"shaikha_dhaheri", n:"Dr. Shaikha Salem Al Dhaheri", t:2, p:74, s:"gov", roles:[
     ["ead","Secretary-General","executive","v"],
     ]},
-  {id:"ali_tadweer", n:"Ali Al Dhaheri", t:2, p:64, s:"environment", roles:[
+  {id:"ali_tadweer", n:"Ali Al Dhaheri", t:2, p:64, s:"industry", roles:[
     ["tadweer","Managing Director & CEO","executive","ns"],
     ]},
   {id:"mohamed_butti", n:"Sheikh Mohamed bin Butti Al Hamed", t:2, p:66, s:"conglomerate", roles:[
@@ -515,7 +513,7 @@ const PEOPLE = [
   {id:"obaid_aljaber", n:"Obaid Khaleefa Al Jaber", t:2, p:62, s:"conglomerate", roles:[
     ["aljaber","Chairman","board","ns"],
     ]},
-  {id:"essam_tamimi", n:"Essam Al Tamimi", t:3, p:60, s:"professional", roles:[
+  {id:"essam_tamimi", n:"Essam Al Tamimi", t:3, p:60, s:"industry", roles:[
     ["altamimi","Founder & Senior Partner","executive","v"],
     ]},
   {id:"nasser_nowais", n:"Nasser Al Nowais", t:2, p:64, s:"conglomerate", roles:[
@@ -527,7 +525,7 @@ const PEOPLE = [
   {id:"hamad_ameri", n:"Eng. Hamad Al Ameri", t:2, p:58, s:"industry", roles:[
     ["trojan","CEO","executive","ns"],
     ]},
-  {id:"ahmed_elhoshy", n:"Ahmed El-Hoshy", t:2, p:64, s:"industry", roles:[
+  {id:"ahmed_elhoshy", n:"Ahmed El-Hoshy", t:2, p:64, s:"materials", roles:[
     ["fertiglobe","CEO","executive","v"],
     ]},
 ];

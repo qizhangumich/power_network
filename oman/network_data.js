@@ -4,25 +4,23 @@
    ================================================================ */
 
 const SECTORS = {
-  gov:        {name:"Government & Political",      color:"#5b8def"},
-  sovereign:  {name:"Sovereign Capital",           color:"#e8b64c"},
-  energy:     {name:"Oil, Gas & Energy",           color:"#f2703e"},
-  utilities:  {name:"Power, Water & Utilities",    color:"#f5a623"},
-  finance:    {name:"Banking & Finance",           color:"#3ecf8e"},
-  tech:       {name:"AI, Tech & Space",            color:"#a06ef5"},
-  telecom:    {name:"Telecom",                     color:"#7e57c2"},
-  defense:    {name:"Defense & Security",          color:"#e0645c"},
-  industry:   {name:"Industry & Manufacturing",    color:"#c98a5e"},
-  realestate: {name:"Real Estate & Urban Dev",     color:"#58c4dd"},
-  transport:  {name:"Transport, Ports & Aviation", color:"#4f9de0"},
-  health:     {name:"Healthcare",                  color:"#35b8a4"},
-  education:  {name:"Education & Research",        color:"#8bc34a"},
-  culture:    {name:"Culture, Tourism & Sport",    color:"#ef7fb1"},
-  media:      {name:"Media",                       color:"#e57bd8"},
-  agrifood:   {name:"Agri-food & Retail",          color:"#9ccc65"},
-  environment:{name:"Environment & Waste",         color:"#66bb6a"},
-  conglomerate:{name:"Family Conglomerates",       color:"#b0a08a"},
-  professional:{name:"Professional Services",      color:"#90a4ae"},
+  // ---- GICS 11 ----
+  energy:       {name:"Energy",                 color:"#f2703e"},
+  materials:    {name:"Materials",              color:"#b08968"},
+  industry:     {name:"Industrials",            color:"#c98a5e"},
+  consumer_disc:{name:"Consumer Discretionary", color:"#ef7fb1"},
+  consumer_stap:{name:"Consumer Staples",       color:"#9ccc65"},
+  health:       {name:"Health Care",            color:"#35b8a4"},
+  finance:      {name:"Financials",             color:"#3ecf8e"},
+  tech:         {name:"Information Technology", color:"#a06ef5"},
+  comm:         {name:"Communication Services", color:"#7e57c2"},
+  utilities:    {name:"Utilities",              color:"#f5a623"},
+  realestate:   {name:"Real Estate",            color:"#58c4dd"},
+  // ---- government-side sectors (a power map needs these) ----
+  gov:          {name:"Government & Political", color:"#5b8def"},
+  sovereign:    {name:"Sovereign Capital",      color:"#e8b64c"},
+  education:    {name:"Education & Research",   color:"#8bc34a"},
+  conglomerate: {name:"Family Conglomerates",   color:"#b0a08a"},
 };
 
 const INSTITUTIONS = [
@@ -36,16 +34,22 @@ const INSTITUTIONS = [
   {id:"oq",        n:"OQ Group",                      s:"energy", t:1, p:82, short:"OQ"},
   {id:"pdo",       n:"Petroleum Development Oman",    s:"energy", t:1, p:78, short:"PDO"},
   {id:"omanlng",   n:"Oman LNG",                      s:"energy", t:2, p:70, short:"Oman LNG"},
-  {id:"omantel",   n:"Omantel",                       s:"telecom", t:2, p:70, short:"Omantel"},
+  {id:"omantel",   n:"Omantel",                       s:"comm", t:2, p:70, short:"Omantel"},
   {id:"bankmuscat", n:"Bank Muscat",                  s:"finance", t:1, p:74, short:"Bank Muscat"},
   {id:"sohar_bank", n:"Sohar International",          s:"finance", t:2, p:62, short:"Sohar Intl"},
-  {id:"asyad",     n:"Asyad Group (logistics)",       s:"transport", t:1, p:72, short:"Asyad"},
+  {id:"asyad",     n:"Asyad Group (logistics)",       s:"industry", t:1, p:72, short:"Asyad"},
   {id:"opaz",      n:"OPAZ (Special Economic Zones & Free Zones)", s:"gov", t:1, p:68, short:"OPAZ"},
   {id:"duqm",      n:"Duqm Special Economic Zone",    s:"industry", t:2, p:66, short:"Duqm SEZ"},
-  {id:"soharport", n:"Sohar Port & Freezone",         s:"transport", t:2, p:66, short:"Sohar Port"},
-  {id:"omanair",   n:"Oman Air",                      s:"transport", t:2, p:64, short:"Oman Air"},
-  {id:"omran",     n:"OMRAN Group (tourism development)", s:"culture", t:2, p:62, short:"OMRAN"},
+  {id:"soharport", n:"Sohar Port & Freezone",         s:"industry", t:2, p:66, short:"Sohar Port"},
+  {id:"omanair",   n:"Oman Air",                      s:"industry", t:2, p:64, short:"Oman Air"},
+  {id:"omran",     n:"OMRAN Group (tourism development)", s:"consumer_disc", t:2, p:62, short:"OMRAN"},
   {id:"ominvest",  n:"Ominvest",                      s:"finance", t:2, p:60, short:"Ominvest"},
+  {id:"soharalum", n:"Sohar Aluminium",               s:"materials", t:2, p:62, short:"Sohar Aluminium"},
+  {id:"omanflour", n:"Oman Flour Mills (Atyab)",      s:"consumer_stap", t:2, p:56, short:"Oman Flour Mills"},
+  {id:"royalhosp", n:"The Royal Hospital (Muscat)",   s:"health", t:2, p:60, short:"Royal Hospital"},
+  {id:"ithca",     n:"ITHCA Group (ICT investments)", s:"tech", t:2, p:60, short:"ITHCA"},
+  {id:"nama",      n:"Nama Group (electricity holding)", s:"utilities", t:1, p:66, short:"Nama"},
+  {id:"almouj",    n:"Al Mouj Muscat",                s:"realestate", t:2, p:58, short:"Al Mouj"},
   {id:"bahwan",    n:"Suhail Bahwan Group",           s:"conglomerate", t:3, p:68, short:"Suhail Bahwan"},
   {id:"zubair",    n:"The Zubair Corporation",        s:"conglomerate", t:3, p:64, short:"Zubair"},
   {id:"khimji",    n:"Khimji Ramdas",                 s:"conglomerate", t:3, p:58, short:"Khimji Ramdas"},
@@ -58,7 +62,7 @@ const PEOPLE = [
   {id:"theyazin", n:"H.H. Sayyid Theyazin bin Haitham Al Said", t:0, p:80, s:"gov", roles:[
     ["omgov","Crown Prince","political","v"],
     ["com_om","Minister of Culture, Sports & Youth","political","v"]]},
-  {id:"shihab", n:"H.H. Sayyid Shihab bin Tariq Al Said", t:0, p:84, s:"defense", roles:[
+  {id:"shihab", n:"H.H. Sayyid Shihab bin Tariq Al Said", t:0, p:84, s:"gov", roles:[
     ["com_om","Deputy Prime Minister for Defence Affairs","political","v"]]},
   {id:"fahd", n:"H.H. Sayyid Fahd bin Mahmoud Al Said", t:0, p:76, s:"gov", roles:[
     ["com_om","Deputy Prime Minister for Cabinet Affairs","political","ns"]]},
@@ -74,7 +78,7 @@ const PEOPLE = [
     note:"Controls the consolidated sovereign portfolio — OQ, Asyad, Omantel and most state companies sit under OIA."},
   {id:"mamari_oq", n:"Ashraf Hamed Al Mamari", t:2, p:66, s:"energy", roles:[
     ["oq","Group CEO","executive","ns"]]},
-  {id:"alkindi_asyad", n:"Dr. Ahmed Al Bulushi", t:2, p:58, s:"transport", roles:[
+  {id:"alkindi_asyad", n:"Dr. Ahmed Al Bulushi", t:2, p:58, s:"industry", roles:[
     ["asyad","Group CEO (acting)","executive","ns"]]},
   {id:"suhail_bahwan", n:"Suhail Bahwan", t:2, p:70, s:"conglomerate", roles:[
     ["bahwan","Founder & Chairman","board","v"]]},
@@ -93,6 +97,12 @@ const OWNERSHIP = [
   ["omanlng","oq","majority stake","ns"],
   ["opaz","com_om"],["duqm","opaz"],["soharport","opaz","oversight","ns"],
   ["bankmuscat","oia","anchor state stakes","ns"],
+  ["soharalum","oq","co-shareholder","ns"],
+  ["omanflour","oia","state stake","ns"],
+  ["royalhosp","com_om","Ministry of Health hospital","ns"],
+  ["ithca","oia"],
+  ["nama","oia","transferred to","ns"],
+  ["almouj","omran","JV development","ns"],
 ];
 
 const FAMILY = [

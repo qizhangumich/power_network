@@ -4,25 +4,23 @@
    ================================================================ */
 
 const SECTORS = {
-  gov:        {name:"Government & Political",      color:"#5b8def"},
-  sovereign:  {name:"Sovereign Capital",           color:"#e8b64c"},
-  energy:     {name:"Oil, Gas & Energy",           color:"#f2703e"},
-  utilities:  {name:"Power, Water & Utilities",    color:"#f5a623"},
-  finance:    {name:"Banking & Finance",           color:"#3ecf8e"},
-  tech:       {name:"AI, Tech & Space",            color:"#a06ef5"},
-  telecom:    {name:"Telecom",                     color:"#7e57c2"},
-  defense:    {name:"Defense & Security",          color:"#e0645c"},
-  industry:   {name:"Industry & Manufacturing",    color:"#c98a5e"},
-  realestate: {name:"Real Estate & Urban Dev",     color:"#58c4dd"},
-  transport:  {name:"Transport, Ports & Aviation", color:"#4f9de0"},
-  health:     {name:"Healthcare",                  color:"#35b8a4"},
-  education:  {name:"Education & Research",        color:"#8bc34a"},
-  culture:    {name:"Culture, Tourism & Sport",    color:"#ef7fb1"},
-  media:      {name:"Media",                       color:"#e57bd8"},
-  agrifood:   {name:"Agri-food & Retail",          color:"#9ccc65"},
-  environment:{name:"Environment & Waste",         color:"#66bb6a"},
-  conglomerate:{name:"Family Conglomerates",       color:"#b0a08a"},
-  professional:{name:"Professional Services",      color:"#90a4ae"},
+  // ---- GICS 11 ----
+  energy:       {name:"Energy",                 color:"#f2703e"},
+  materials:    {name:"Materials",              color:"#b08968"},
+  industry:     {name:"Industrials",            color:"#c98a5e"},
+  consumer_disc:{name:"Consumer Discretionary", color:"#ef7fb1"},
+  consumer_stap:{name:"Consumer Staples",       color:"#9ccc65"},
+  health:       {name:"Health Care",            color:"#35b8a4"},
+  finance:      {name:"Financials",             color:"#3ecf8e"},
+  tech:         {name:"Information Technology", color:"#a06ef5"},
+  comm:         {name:"Communication Services", color:"#7e57c2"},
+  utilities:    {name:"Utilities",              color:"#f5a623"},
+  realestate:   {name:"Real Estate",            color:"#58c4dd"},
+  // ---- government-side sectors (a power map needs these) ----
+  gov:          {name:"Government & Political", color:"#5b8def"},
+  sovereign:    {name:"Sovereign Capital",      color:"#e8b64c"},
+  education:    {name:"Education & Research",   color:"#8bc34a"},
+  conglomerate: {name:"Family Conglomerates",   color:"#b0a08a"},
 };
 
 const INSTITUTIONS = [
@@ -34,15 +32,19 @@ const INSTITUTIONS = [
   {id:"edb",       n:"Bahrain Economic Development Board", s:"gov", t:1, p:76, short:"EDB"},
   {id:"mumtalakat", n:"Mumtalakat (sovereign fund)",  s:"sovereign", t:1, p:84, short:"Mumtalakat"},
   {id:"bapco",     n:"Bapco Energies",                s:"energy", t:1, p:78, short:"Bapco"},
-  {id:"alba",      n:"Aluminium Bahrain (Alba)",      s:"industry", t:1, p:72, short:"Alba"},
-  {id:"beyon",     n:"Beyon (Batelco Group)",         s:"telecom", t:1, p:70, short:"Beyon"},
-  {id:"gulfair",   n:"Gulf Air Group",                s:"transport", t:1, p:70, short:"Gulf Air"},
+  {id:"alba",      n:"Aluminium Bahrain (Alba)",      s:"materials", t:1, p:72, short:"Alba"},
+  {id:"beyon",     n:"Beyon (Batelco Group)",         s:"comm", t:1, p:70, short:"Beyon"},
+  {id:"gulfair",   n:"Gulf Air Group",                s:"industry", t:1, p:70, short:"Gulf Air"},
   {id:"investcorp", n:"Investcorp",                   s:"finance", t:1, p:76, short:"Investcorp"},
   {id:"gfh",       n:"GFH Financial Group",           s:"finance", t:2, p:64, short:"GFH"},
   {id:"abc",       n:"Bank ABC",                      s:"finance", t:2, p:64, short:"Bank ABC"},
   {id:"nbb",       n:"National Bank of Bahrain",      s:"finance", t:2, p:64, short:"NBB"},
-  {id:"bic",       n:"Bahrain International Circuit (F1)", s:"culture", t:2, p:64, short:"BIC"},
+  {id:"bic",       n:"Bahrain International Circuit (F1)", s:"consumer_disc", t:2, p:64, short:"BIC"},
   {id:"bfb",       n:"Bahrain FinTech Bay",           s:"tech", t:2, p:56, short:"FinTech Bay"},
+  {id:"bmmi",      n:"BMMI Group",                    s:"consumer_stap", t:2, p:58, short:"BMMI"},
+  {id:"amh",       n:"American Mission Hospital",     s:"health", t:2, p:56, short:"AMH"},
+  {id:"ewa_bh",    n:"Electricity & Water Authority", s:"utilities", t:1, p:66, short:"EWA"},
+  {id:"edamah",    n:"Edamah (Bahrain Real Estate)",  s:"realestate", t:2, p:60, short:"Edamah"},
   {id:"kanoo",     n:"Yusuf bin Ahmed Kanoo Group",   s:"conglomerate", t:3, p:64, short:"Kanoo"},
   {id:"alzayani",  n:"Al Zayani Investments",         s:"conglomerate", t:3, p:60, short:"Al Zayani"},
   {id:"fakhro",    n:"Fakhro Group",                  s:"conglomerate", t:3, p:56, short:"Fakhro"},
@@ -59,7 +61,7 @@ const PEOPLE = [
   {id:"nasser_bh", n:"Sheikh Nasser bin Hamad Al Khalifa", t:0, p:78, s:"energy", roles:[
     ["bhgov","National Security Adviser (royal portfolios)","political","ns"],
     ["bapco","Chairman","board","ns"]]},
-  {id:"khalid_bh", n:"Sheikh Khalid bin Hamad Al Khalifa", t:0, p:70, s:"culture", roles:[
+  {id:"khalid_bh", n:"Sheikh Khalid bin Hamad Al Khalifa", t:0, p:70, s:"consumer_disc", roles:[
     ["bhgov","First Deputy President, Supreme Council for Youth & Sports","government","ns"]]},
   {id:"salman_khalifa_fin", n:"Sheikh Salman bin Khalifa Al Khalifa", t:1, p:82, s:"finance", roles:[
     ["mofin_bh","Minister of Finance & National Economy","political","v"]]},
@@ -73,9 +75,9 @@ const PEOPLE = [
   {id:"alardhi", n:"Mohammed Alardhi", t:1, p:76, s:"finance", roles:[
     ["investcorp","Executive Chairman","executive","v"]],
     note:"Omani ex-air force chief running the Gulf's best-known alternative asset manager from Bahrain."},
-  {id:"baqali", n:"Ali Al Baqali", t:2, p:64, s:"industry", roles:[
+  {id:"baqali", n:"Ali Al Baqali", t:2, p:64, s:"materials", roles:[
     ["alba","CEO","executive","v"]]},
-  {id:"salman_isa_bic", n:"Sheikh Salman bin Isa Al Khalifa", t:2, p:62, s:"culture", roles:[
+  {id:"salman_isa_bic", n:"Sheikh Salman bin Isa Al Khalifa", t:2, p:62, s:"consumer_disc", roles:[
     ["bic","CEO","executive","ns"]]},
   {id:"fawzi_kanoo", n:"Fawzi Ahmed Kanoo", t:2, p:60, s:"conglomerate", roles:[
     ["kanoo","Deputy Chairman","board","ns"]]},
@@ -93,6 +95,8 @@ const OWNERSHIP = [
   ["nbb","mumtalakat","anchor shareholder","ns"],
   ["bic","bhgov"],
   ["bfb","edb","backed by","ns"],
+  ["ewa_bh","bhgov"],
+  ["edamah","mumtalakat"],
 ];
 
 const FAMILY = [

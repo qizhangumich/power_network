@@ -4,25 +4,23 @@
    ================================================================ */
 
 const SECTORS = {
-  gov:        {name:"Government & Political",      color:"#5b8def"},
-  sovereign:  {name:"Sovereign Capital",           color:"#e8b64c"},
-  energy:     {name:"Oil, Gas & Energy",           color:"#f2703e"},
-  utilities:  {name:"Power, Water & Utilities",    color:"#f5a623"},
-  finance:    {name:"Banking & Finance",           color:"#3ecf8e"},
-  tech:       {name:"AI, Tech & Space",            color:"#a06ef5"},
-  telecom:    {name:"Telecom",                     color:"#7e57c2"},
-  defense:    {name:"Defense & Security",          color:"#e0645c"},
-  industry:   {name:"Industry & Manufacturing",    color:"#c98a5e"},
-  realestate: {name:"Real Estate & Urban Dev",     color:"#58c4dd"},
-  transport:  {name:"Transport, Ports & Aviation", color:"#4f9de0"},
-  health:     {name:"Healthcare",                  color:"#35b8a4"},
-  education:  {name:"Education & Research",        color:"#8bc34a"},
-  culture:    {name:"Culture, Tourism & Sport",    color:"#ef7fb1"},
-  media:      {name:"Media",                       color:"#e57bd8"},
-  agrifood:   {name:"Agri-food & Retail",          color:"#9ccc65"},
-  environment:{name:"Environment & Waste",         color:"#66bb6a"},
-  conglomerate:{name:"Family Conglomerates",       color:"#b0a08a"},
-  professional:{name:"Professional Services",      color:"#90a4ae"},
+  // ---- GICS 11 ----
+  energy:       {name:"Energy",                 color:"#f2703e"},
+  materials:    {name:"Materials",              color:"#b08968"},
+  industry:     {name:"Industrials",            color:"#c98a5e"},
+  consumer_disc:{name:"Consumer Discretionary", color:"#ef7fb1"},
+  consumer_stap:{name:"Consumer Staples",       color:"#9ccc65"},
+  health:       {name:"Health Care",            color:"#35b8a4"},
+  finance:      {name:"Financials",             color:"#3ecf8e"},
+  tech:         {name:"Information Technology", color:"#a06ef5"},
+  comm:         {name:"Communication Services", color:"#7e57c2"},
+  utilities:    {name:"Utilities",              color:"#f5a623"},
+  realestate:   {name:"Real Estate",            color:"#58c4dd"},
+  // ---- government-side sectors (a power map needs these) ----
+  gov:          {name:"Government & Political", color:"#5b8def"},
+  sovereign:    {name:"Sovereign Capital",      color:"#e8b64c"},
+  education:    {name:"Education & Research",   color:"#8bc34a"},
+  conglomerate: {name:"Family Conglomerates",   color:"#b0a08a"},
 };
 
 const INSTITUTIONS = [
@@ -32,23 +30,27 @@ const INSTITUTIONS = [
   {id:"ajmgov",   n:"Government of Ajman",           s:"gov", t:0, p:80,  short:"Ajman Gov"},
   {id:"uaqgov",   n:"Government of Umm Al Quwain",   s:"gov", t:0, p:76,  short:"UAQ Gov"},
   {id:"shurooq",  n:"Shurooq (Sharjah Investment & Development)", s:"sovereign", t:1, p:74, short:"Shurooq"},
-  {id:"beeah",    n:"BEEAH Group",                   s:"environment", t:1, p:72, short:"BEEAH"},
-  {id:"airarabia", n:"Air Arabia",                   s:"transport", t:1, p:76, short:"Air Arabia"},
+  {id:"beeah",    n:"BEEAH Group",                   s:"industry", t:1, p:72, short:"BEEAH"},
+  {id:"airarabia", n:"Air Arabia",                   s:"industry", t:1, p:76, short:"Air Arabia"},
   {id:"crescent", n:"Crescent Enterprises",          s:"conglomerate", t:1, p:76, short:"Crescent Ent."},
   {id:"crescentpet", n:"Crescent Petroleum",         s:"energy", t:1, p:76, short:"Crescent Petroleum"},
   {id:"danagas",  n:"Dana Gas",                      s:"energy", t:2, p:66, short:"Dana Gas"},
-  {id:"gulftainer", n:"Gulftainer",                  s:"transport", t:2, p:62, short:"Gulftainer"},
+  {id:"gulftainer", n:"Gulftainer",                  s:"industry", t:2, p:62, short:"Gulftainer"},
   {id:"arada",    n:"Arada",                         s:"realestate", t:2, p:66, short:"Arada"},
   {id:"aus",      n:"American University of Sharjah", s:"education", t:2, p:64, short:"AUS"},
-  {id:"sba",      n:"Sharjah Book Authority",        s:"culture", t:2, p:62, short:"Book Authority"},
-  {id:"rakceramics", n:"RAK Ceramics",               s:"industry", t:1, p:70, short:"RAK Ceramics"},
+  {id:"sba",      n:"Sharjah Book Authority",        s:"comm", t:2, p:62, short:"Book Authority"},
+  {id:"rakceramics", n:"RAK Ceramics",               s:"materials", t:1, p:70, short:"RAK Ceramics"},
   {id:"rakez",    n:"RAKEZ (RAK Economic Zone)",     s:"gov", t:2, p:66, short:"RAKEZ"},
   {id:"marjan",   n:"Marjan (Al Marjan Island)",     s:"realestate", t:2, p:66, short:"Marjan"},
-  {id:"wynnmarjan", n:"Wynn Al Marjan Island",       s:"culture", t:2, p:68, short:"Wynn Al Marjan"},
+  {id:"wynnmarjan", n:"Wynn Al Marjan Island",       s:"consumer_disc", t:2, p:68, short:"Wynn Al Marjan"},
   {id:"rakbank",  n:"RAKBANK",                       s:"finance", t:2, p:62, short:"RAKBANK"},
-  {id:"fujport",  n:"Port of Fujairah",              s:"transport", t:1, p:70, short:"Port of Fujairah"},
+  {id:"fujport",  n:"Port of Fujairah",              s:"industry", t:1, p:70, short:"Port of Fujairah"},
   {id:"fujoilzone", n:"Fujairah Oil Industry Zone",  s:"energy", t:2, p:64, short:"Fujairah Oil Zone"},
   {id:"ajmanbank", n:"Ajman Bank",                   s:"finance", t:2, p:56, short:"Ajman Bank"},
+  {id:"iffco",    n:"IFFCO Group",                   s:"consumer_stap", t:3, p:66, short:"IFFCO"},
+  {id:"thumbay",  n:"Thumbay Group",                 s:"health", t:3, p:60, short:"Thumbay"},
+  {id:"srtip",    n:"Sharjah Research Technology & Innovation Park", s:"tech", t:2, p:60, short:"SRTIP"},
+  {id:"sewa",     n:"SEWA (Sharjah Electricity, Water & Gas)", s:"utilities", t:1, p:66, short:"SEWA"},
 ];
 
 const PEOPLE = [
@@ -59,7 +61,7 @@ const PEOPLE = [
   {id:"sultan_ahmed_q", n:"H.H. Sheikh Sultan bin Ahmed Al Qasimi", t:0, p:84, s:"gov", roles:[
     ["shjgov","Deputy Ruler of Sharjah","political","v"],
     ["arada","Co-founder & Chairman","board","ns"]]},
-  {id:"bodour", n:"H.H. Sheikha Bodour Al Qasimi", t:0, p:82, s:"culture", roles:[
+  {id:"bodour", n:"H.H. Sheikha Bodour Al Qasimi", t:0, p:82, s:"comm", roles:[
     ["sba","Chairperson","board","v"],
     ["shurooq","Chairperson","board","ns"]],
     note:"The Ruler's daughter; publishing, investment and development portfolios."},
@@ -85,17 +87,17 @@ const PEOPLE = [
   {id:"majid_jafar", n:"Majid Jafar", t:1, p:78, s:"energy", roles:[
     ["crescentpet","CEO","executive","v"],
     ["danagas","Board (Crescent-linked)","board","ns"]]},
-  {id:"adel_ali", n:"Adel Al Ali", t:2, p:76, s:"transport", roles:[
+  {id:"adel_ali", n:"Adel Al Ali", t:2, p:76, s:"industry", roles:[
     ["airarabia","Group CEO","executive","v"]]},
-  {id:"huraimel", n:"Khaled Al Huraimel", t:2, p:70, s:"environment", roles:[
+  {id:"huraimel", n:"Khaled Al Huraimel", t:2, p:70, s:"industry", roles:[
     ["beeah","Group CEO","executive","v"]]},
-  {id:"massaad", n:"Abdallah Massaad", t:2, p:66, s:"industry", roles:[
+  {id:"massaad", n:"Abdallah Massaad", t:2, p:66, s:"materials", roles:[
     ["rakceramics","Group CEO","executive","v"]]},
   {id:"jallad", n:"Ramy Jallad", t:2, p:60, s:"gov", roles:[
     ["rakez","Group CEO","executive","ns"]]},
   {id:"qaseer", n:"Ahmed Obaid Al Qaseer", t:2, p:60, s:"sovereign", roles:[
     ["shurooq","CEO","executive","ns"]]},
-  {id:"mousa_murad", n:"Capt. Mousa Murad", t:2, p:62, s:"transport", roles:[
+  {id:"mousa_murad", n:"Capt. Mousa Murad", t:2, p:62, s:"industry", roles:[
     ["fujport","General Manager","executive","ns"]]},
 ];
 
@@ -112,6 +114,8 @@ const OWNERSHIP = [
   ["wynnmarjan","marjan","JV (Wynn Resorts + Marjan)"],
   ["fujport","fujgov"],["fujoilzone","fujgov"],
   ["ajmanbank","ajmgov","ruling-family stake","ns"],
+  ["srtip","shjgov"],
+  ["sewa","shjgov"],
 ];
 
 const FAMILY = [
