@@ -1,0 +1,5 @@
+# Alex Eala kickstarts North American swing in Mubadala DC Open
+source: ESPN
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdTRPdE85VWxpRldreHlqM2RIbndLbTEzbmFTTUlFdVVXdWlwUnJTRFV4R2hYbnNpcDhzVkFvOEZOdUdSaUxrRzUyS3RCc1ZiY0U0azRBMl9uQlUyX3d6cEcxenRueFVSdnNhX2x4NkJSS0ZyNlRRVkM5cXhIYlZZMEJzRHd6c0x5OHVfcGhOQ0hpbEE5M2IzYUVpVFk0VklWVzZrQloyZFp0U3h2ZHh4cEJ3MUdYSXlwLTlCQTVhOVdTQQ?oc=5
+
+Alex Eala kickstarts North American swing in Mubadala DC Open    ESPN
