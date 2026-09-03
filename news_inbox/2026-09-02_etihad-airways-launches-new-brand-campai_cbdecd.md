@@ -1,0 +1,5 @@
+# Etihad Airways launches new brand campaign celebrating Abu Dhabi-born ambition
+source: Breaking Travel News
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxORzYxVFRNUDc0Mlg2ZkJjQ0JXSjFVWGpkUmFGUU1kNEhvY2FZeDdkbWF3MDRLN3lJTjBwc29ERmhFbFpDTnhTQ0llUHBnejVFMk1NR0pld1lVOGd3YWVyb3AxMTdoWDRZRnpvYmpEd09Wck1oLW9SV0tuVVB6SUN0cVZTU3ExSlFSbTFGaktqWXpOdFlLWEtFQnlfd0ZvX3piYTlBb3lWcFpWU0FQWVlJaEZuMExCQTJjcDM0SmJUR0stZw?oc=5
+
+Etihad Airways launches new brand campaign celebrating Abu Dhabi-born ambition    Breaking Travel News

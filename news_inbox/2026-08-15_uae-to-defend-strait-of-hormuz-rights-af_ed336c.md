@@ -1,0 +1,5 @@
+# UAE to defend Strait of Hormuz rights after attack on Adnoc vessel, Gargash says
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUVJEbUtsRkJCemFOaHVYa0hLUlNfMFBsVVpBeUdvWEZROFVaR0dDS3dSaUxIa1ByYnBmclJHUE1feGVHTk84SG1XOVR2Mkxjc05nWHZreFh2dlM2Mnd6d3FBYzlZRzJsaHBCVzlBZnRjakluMEFYZzNBVjFFUHdGSGNjTmttejN4ZnFpRnJ5MG1iSmhkQk0zc0tKdVFlTGVRWThTYkRyZFBuSUdCSjAyajUzZUdOUmVId01FM0RZaUtJUEVNWXhuMWwzZVBCUHF6NWc?oc=5
+
+UAE to defend Strait of Hormuz rights after attack on Adnoc vessel, Gargash says    thenationalnews.com
