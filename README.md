@@ -34,6 +34,21 @@ Current scale: **~100 people · ~143 institutions · ~298 edges. No cap.**
 
 ## Automation pipeline
 
+### 0. Fully automated loop (no human needed)
+`.github/workflows/update.yml` runs **every 6 hours** on GitHub Actions:
+fetch fresh news (`tools/fetch_news.py`, Google News RSS for 20 entity queries)
+→ match to network nodes → detect co-mentions → commit. The Alicloud server
+pulls every 5 minutes, so new signals appear on the live map unattended.
+Candidate relationships accumulate in `data/suggested_edges.csv` — entity pairs
+that keep sharing articles but have no edge yet; review and promote the real
+ones into `ownership.csv`/`roles.csv`.
+
+For manual data edits, one command does everything:
+```bash
+python tools/update.py "describe the change"
+```
+(validates + imports CSVs, re-matches news, commits, pushes → live in ~5 min)
+
 ### 1. News → map signals
 ```bash
 python tools/match_news.py
