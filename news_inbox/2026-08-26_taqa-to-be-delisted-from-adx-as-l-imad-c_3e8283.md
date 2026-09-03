@@ -1,0 +1,5 @@
+# Taqa to be delisted from ADX as L’imad completes acquisition
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQlFDWDdvaEdfQmp6UVZNalBSRndPOXQxZnVsbVlxZUNsQ0pHbk5Gd081TmhsZG9nWXFsWkxrbjBCa19yMXFFX3ZMYlNTa3ZEZmFET1A1Ri1uU2d0aC0xb1dBMVVNZmhQYmh2V1BsWTkwVlAzVTNISHRzQXZubGdfN2F4eGN6Uk95UVY3UkJ2bFRncUZsZ3hTSVlWLUhCcnh2ZUF0ZC00SXFHZy1jYjZaT1Jlem9lMXlMbnZV?oc=5
+
+Taqa to be delisted from ADX as L’imad completes acquisition    thenationalnews.com

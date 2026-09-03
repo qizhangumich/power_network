@@ -1,0 +1,5 @@
+# McDermott confirms prize for Adnoc’s $6.2 billion offshore project
+source: Upstream Online
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPZEszb1dQenlrZS13SUpyY3NHbm8xNnV5MVQtZEFsWnBHZTltSDNTVkVlM0xkeFJKdXRQankyWlFqYUxvNVJUQVN3bFQ0SGt3MHRhQ2NBdEFidWRORWxwb3ZLQWlvUjQyblpPaEYxbGdNVlIzSF9qSjlaWms1N2pfV2JzdjlhbkdZUnI1RXhfQVpBYXFSX1pWeFprdndzckdvckFSazVVcExwQkRBWmtJb25JT0piVGhFUndiNVdjbUdtM0Ey?oc=5
+
+McDermott confirms prize for Adnoc’s $6.2 billion offshore project    Upstream Online

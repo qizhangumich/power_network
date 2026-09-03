@@ -1,0 +1,5 @@
+# White House Envoy Witkoff Meets UAE's Sheikh Tahnoon Amid US Crackdown On Iran Trade
+source: i24NEWS
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxNS0Q4U3R5c2R2Z1Vub0JJLWlUc3pvZXlOeWkzM2o4Tl9yNzFIUDVjV3hGVk1mSTk4Uk43X3lvaFQ3OWU3cFkyV3NQMHZuSVcxUkR1WXhBZDRwXzZiNzdmcUlEbFo3Tnp0T2J4bnJwNENRekdhMm0xVmNwRnRoT2tkXzlNai1welFVMFhsZWtOV3NkaUlubnBxVG5lb3ZRc0xmLW1VU25CREdRcElUa2JrRDA3Wm1ncGJpalVwTEhwSW15WnFoMTBvX1Q1UTN0OTg?oc=5
+
+White House Envoy Witkoff Meets UAE's Sheikh Tahnoon Amid US Crackdown On Iran Trade    i24NEWS
