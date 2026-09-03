@@ -120,7 +120,12 @@ but not yet re-verified against an official page. L3 "advisory ecosystem" edges
 engagements as you learn them. Parked V1 names pending role verification:
 Etienne Petit, Sherif Tawfik, Mohamed Almarzooqi.
 
-## Phase 2 — other emirates
-Copy the engine, swap `network_data.js` for a Dubai dataset (Al Maktoum core,
-ICD / Dubai Holding / DP World layers), then link maps through the federal nodes
-already present here (UAE Cabinet, CBUAE, EIA, e&, MoFA).
+## Phase 2 — more regions
+**Qatar is live at `/qatar/`** — same engine and schema, its own dataset
+(`qatar/network_data.js`: Al Thani ruling core, QIA/QatarEnergy state capital,
+operators, family conglomerates, North Field LNG partners; ~38 people,
+~72 institutions). `tools/build_qatar_page.py` derives `qatar/index.html` from
+the root page, so design changes propagate automatically (update.py runs it).
+The top-bar region switcher links the two maps. Qatar news automation and its
+CSV layer are the next step — the pipeline just needs per-region paths.
+Dubai (Al Maktoum core, ICD / Dubai Holding / DP World) follows the same recipe.
