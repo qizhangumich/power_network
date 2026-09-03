@@ -25,6 +25,9 @@ def main():
     argv = [a for a in argv if a != "--fetch"]
     msg = argv[0] if argv else "data update"
 
+    # sync with the Actions bot FIRST, then regenerate on top — avoids
+    # rebase conflicts on generated files (news_data.js etc.)
+    run(["git", "pull", "--rebase", "--autostash"])
     run([sys.executable, TOOLS / "import_csv.py"])
     if fetch:
         run([sys.executable, TOOLS / "fetch_news.py"])
