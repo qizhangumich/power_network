@@ -1,0 +1,5 @@
+# Space42 launches Future Spacers Program to develop next generation of UAE talent
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxPekRkLXdwT0V5aVVHTTNrUjRtdEJvU19rNGs2NG8xWVdpM1JuY3lRaU42NF9zWTlwNUs0bS04NS1JSUlIU1M1RTROdGxHNmtNeEcwSE5fWnRKanhBTzVSQXJaWUFxdTVCR0pzODFQS2V6UENCU1U0UVJDR29UV2d2THBjZWJ4dUdFS0tjOXlEdnJEWEFLSE5qOGlyQjVDX09vYkduR0Zpd1BoQ2JyWHdGY2hFLVl1bXNmVlZucVIxUXBERjZQTkpN?oc=5
+
+Space42 launches Future Spacers Program to develop next generation of UAE talent    مكتب أبوظبي الإعلامي

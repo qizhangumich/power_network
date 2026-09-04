@@ -1,0 +1,5 @@
+# Abu Dhabi’s G42 weighs US ownership to safeguard AI chip access- Bloomberg News
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxPam5kWWliOE9tRkVLbU51Vi1tcTh5cmx3SWgxZHFlbjR1Z0ZhMUZlbXpJekhGUjBOZlVPNWhUbjNCaTdjUmgxT2M1VWdSa1J2OVNxWV9wMl8xd0pKaURLaGc3ZlJ5YW9BZWNGcjJOVVJ2WmxDOWlhWmM3SDBvTUx2UFNLcnNPWDBKZ0NNTjAyZVEtX3VpdERMOG4tZGRDdWFFaDc2c0JfVXBGY0lKT3JNME9hWndnYlJVWjNmNGIwY1E1NWR4eU55SWlaczNNYUtIQ3d0eGY5QVpaRlpYQWVqWWxR?oc=5
+
+Abu Dhabi’s G42 weighs US ownership to safeguard AI chip access- Bloomberg News    TradingView

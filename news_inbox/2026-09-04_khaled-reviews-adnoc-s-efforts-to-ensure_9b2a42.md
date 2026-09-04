@@ -1,0 +1,5 @@
+# Khaled reviews Adnoc’s efforts to ensure the delivery of reliable energy supplies
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNREk3dnV2R1hYekVBTlBJNXBxYVZBQjliYjFFVnpOcjdMX3pWX2ROdy1GUUwyWl9GSUtDV2RaVkdDaElaNVNZWFFHTGN5LUx0czJrMXU3ek5DeklzVTFNQlR2VVRiaTNtazBKS3dqR0tTYWFIeWkyZGRVNkpCODFja0hxU3RjMTlDcHpFOEF1cVBuTEIxaGh2WWJOWENGbDBHWU5UUXFZbzZIN3h1YXR2THR4NkhMNkNWblNxZXdyTmlxQQ?oc=5
+
+Khaled reviews Adnoc’s efforts to ensure the delivery of reliable energy supplies    Gulf Today

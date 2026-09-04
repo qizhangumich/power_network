@@ -1,0 +1,5 @@
+# Taqa launches $750m blue bond to fund sustainable water infrastructure
+source: TradeArabia
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxNVC1MeS1jZ3pjTkpxWXZfa0JKWUd0QUZ3bnZ3aFVIQVZSa2pBVlRuc1ZyYkYwTnRKZ2ZJTkFqREczWjJJVDN1QTNPbEpiMWhmV1l6d2ZBZy1ZdlFwM0VCenRldXBkUHBtdHFsc1VGNU12MDlxRGw0ZGF6dFNtUWh5bHd3cm80cWVPZEhtNUlPR3JKWDVBaDlienpkdzBzSUVUb2FEWXFXeG9PaG13dXp5UUtB?oc=5
+
+Taqa launches $750m blue bond to fund sustainable water infrastructure    TradeArabia
