@@ -203,6 +203,15 @@
   /* Phase 2 — My Network panel */
   #topbar .btn{white-space:nowrap}
   #b-mynet{color:#2F9E63}
+  /* NavGCC brand mark + unified highlight aesthetic */
+  #brandwrap{display:flex;flex-direction:row;align-items:center;gap:9px}
+  #brandlogo{width:27px;height:27px;border-radius:7px;flex:none}
+  @media (max-width:760px){ #brandlogo{width:21px;height:21px;border-radius:5px} }
+  .btn:hover{color:var(--accent);border-color:var(--accent-br);background:var(--accent-soft)}
+  #b-mynet:hover{color:#2F9E63;border-color:#2F9E63;background:rgba(47,158,99,.08)}
+  .chip:hover{border-color:var(--accent-br)}
+  .chip.on{color:var(--accent);border-color:var(--accent-br);background:var(--accent-soft)}
+  #regions summary:hover{color:var(--accent);border-color:var(--accent-br);background:var(--accent-soft)}
   .mp-inrow{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
   .mp-input{flex:1;min-width:130px;border:1px solid var(--hairline);border-radius:8px;
     padding:7px 10px;font-size:12.5px;background:var(--bg);color:var(--ink);outline:none}
@@ -240,8 +249,11 @@
 
 <div id="topbar">
   <div id="brandwrap">
-    <div id="brand">KUWAIT POWER NETWORK</div>
-    <div id="brandsub">NavGCC · Network Intelligence</div>
+    <img id="brandlogo" src="/favicon.svg" alt="NavGCC">
+    <div>
+      <div id="brand">KUWAIT POWER NETWORK</div>
+      <div id="brandsub">NavGCC · Network Intelligence</div>
+    </div>
   </div>
   <details id="regions"><summary>Kuwait</summary><nav><a href="../">GCC ⌂</a><a href="../abudhabi/">Abu Dhabi</a><a href="../dubai/">Dubai</a><a href="../northern/">Northern Emirates</a><a href="../saudi/">Saudi Arabia</a><a href="../qatar/">Qatar</a><a href="../bahrain/">Bahrain</a><a href="../oman/">Oman</a><a class="on" href="./">Kuwait</a></nav></details>
   <div id="askwrap">

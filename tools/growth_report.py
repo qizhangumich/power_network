@@ -109,6 +109,7 @@ a{{color:var(--soft)}} h1{{font-size:24px;margin:14px 0 2px}} .sub{{color:var(--
 table{{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:10px 0 26px;font-size:13.5px}}
 th{{text-align:left;color:var(--faint);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:9px 14px;border-bottom:1px solid var(--line)}}
 td{{padding:8px 14px;border-bottom:1px solid var(--line)}} tr:last-child td{{border-bottom:0}}
+tbody tr:hover td, table tr:hover td{{background:rgba(76,87,197,.06)}}
 h2{{font-size:15px;margin:24px 0 4px}}
 #b-lang{{float:right;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:4px 12px;font-size:12px;color:var(--soft);cursor:pointer}}
 </style></head><body><div class="wrap">
