@@ -1,0 +1,5 @@
+# Abu Dhabi Investment Council taps Edward Winter from BlackRock unit as CIO for real assets
+source: Asia Asset Management
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxObC1CNXJwTjBrYkRKMjZXSTUtNnBUY1BJZmM0SmFGQkF1NFJkRFZLbzNhQTUzYk5WMTh2TjZzN2IxbFJTZzNYMndHLUxLeWFvd3BIc3haZ1dfeXJrU3hCVWcxdUh6SXJseUxfaHJLXzNYSk0zR0tDNktTZ1JpakxnTmtHU0MxekNyZlNubThzUGNPSEdZWFVMWGllMzdTZWl3ZmMzcy0tV055ZGFyR2NQQ3IwRHdGbUtQMTNMSmI5MXRIUEpnMVIycHAwRE9NYXFWUmlmd0hOZw?oc=5
+
+Abu Dhabi Investment Council taps Edward Winter from BlackRock unit as CIO for real assets    Asia Asset Management

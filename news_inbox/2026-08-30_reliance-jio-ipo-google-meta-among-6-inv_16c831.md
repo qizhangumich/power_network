@@ -1,0 +1,5 @@
+# Reliance Jio IPO: Google, Meta among 6 investors to retain stakes in Rs 37,700 crore offer
+source: The Economic Times
+url: https://news.google.com/rss/articles/CBMimgJBVV95cUxONElaeXg0OGQ2ZWJIMVg0QTdtMkNJaXlrLU9FRkNoN1B0T2NNaUxrb0VsVUxIRlZXWFljalVseWRJaGxzZHR3SThJT3I2UGNXRVZQWXpCaDN2V2hLd3UwOFY1RVJxZXRpdkhKcS1kc05ZaHBjZFFEU0wzNU1tSDk3TmNjem12OWY5T0phNUtiUDFONWpSdTZLY3d2VnB5b3pvSmN6VEZqLVJMbmpfVENCRE93cTgxWmFXNHhxd3loSkFjdGdMUF9DSlBMc0dCODdTOUxyVzZNMXdQM0c4d0lzUEJWWGJmVXNHSGlEbndSNmw1RVVUcjYzZmd6LVltc2NEVF84SWZvXzJ3Yjl0VXZaLXFSY0g2cDZSR1E?oc=5
+
+Reliance Jio IPO: Google, Meta among 6 investors to retain stakes in Rs 37,700 crore offer    The Economic Times

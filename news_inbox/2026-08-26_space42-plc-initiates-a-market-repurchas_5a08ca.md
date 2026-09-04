@@ -1,0 +1,5 @@
+# Space42 PLC initiates a Market Repurchase.
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMimgFBVV95cUxPT1hZTDJma2VMQ2pqRy1tQ1RCRWdGT3ZxaTdraTI0UDlFQjBPeGt5VUNMek1FdHRCT3Vva1U1dWN2dzNQRkF5cmNkbkN3dG5TSDdUdEcxeGZsUFZVd0pncEEyMWREc1ZUNmNCMTl0bFp3Rk02emZPc01BUWRtNHNZdm10cWhrOS1uY21iVlJDNDV0b0ZZWlUtTGtn?oc=5
+
+Space42 PLC initiates a Market Repurchase.    marketscreener.com

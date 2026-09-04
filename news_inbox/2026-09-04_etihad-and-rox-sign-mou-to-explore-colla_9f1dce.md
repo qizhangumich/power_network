@@ -1,0 +1,5 @@
+# Etihad and ROX sign MoU to explore collaboration across travel and mobility
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRVhXekNRQkNqZFduZ2o2dktsSGc1SDhXREx0UGpFZ3lTbmJNR2tNNE5ST0tDU0NsLWdzaE9nRUNRbF9XaWV6dDlMYU02UGJITFVScXdoQlI3VTlwX1VzQ083cFNwVDd1OGJwWVVTQVNZNWw0UFJ3b05EY0JBRjhkZ21JTVo1ZHlNeWRzakZELTY2V1NsN2tLNzc4ejRQWUpQaXg2YUJFMUR0eUVHZ2haejdyRGhEUlNmZFNXOU5zdW5tUWQzQWFZaGRHbktma0hteHc?oc=5
+
+Etihad and ROX sign MoU to explore collaboration across travel and mobility    Zawya

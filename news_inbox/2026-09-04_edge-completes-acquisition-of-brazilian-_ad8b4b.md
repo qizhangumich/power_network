@@ -1,0 +1,5 @@
+# EDGE completes acquisition of Brazilian aerospace engineering specialist AKAER
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUFJVWWR2NVVNSnlhclpOeVJTZVdKcGRCdDhqQ3BZZG54emloTEJUdzRuRWNvNzJmd0dLY0QwU1dfN2Jxd0hRamMzbm9QSDVubEl0UDhsdklVOGxOcmtYWnVWb0VicU81UThhYWItRXJtc3R2OFlPSmxNSjg3RFdjYWlPNTdleTVzNmJNbGMwakxwaWFjalpMS3lmclpYRXF4cEdiQ2hmeTZORWFJYjdxMDRaOURCUFo2VjF6UEJhV2NudXRab3FPVkN6WHNlQk43Ql94dERR?oc=5
+
+EDGE completes acquisition of Brazilian aerospace engineering specialist AKAER    Zawya

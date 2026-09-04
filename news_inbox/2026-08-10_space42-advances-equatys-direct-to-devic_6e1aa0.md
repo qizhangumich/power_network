@@ -1,0 +1,5 @@
+# Space42 Advances Equatys Direct-to-Device Joint Venture Into Satellite Procurement Phase
+source: satnews.com
+url: https://news.google.com/rss/articles/CBMivAFBVV95cUxPcWNCT05XdVhrQU9PYkNXaEJNM1VCbmEwRXZrZHhoUkNzOWNfMEVpVXZkUDloUWxnZF9SMkVzRnFldXFBWFlDMWJQRU9tUHFIWl9UNE56T3dEZVFJdU12OE5meUt4VVhTNmxYbWZ5Z3UtaFRLeFVqZThtVzR4QVMtVW5tSEZPd1dGdkZmSzhJcGJ4d28tZWV4QnBXd1p1aUdhbHF0alJ6ZlZ3X0tWTVN0TzdSemlBa0FCMlF3Sw?oc=5
+
+Space42 Advances Equatys Direct-to-Device Joint Venture Into Satellite Procurement Phase    satnews.com

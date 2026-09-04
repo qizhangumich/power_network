@@ -1,0 +1,5 @@
+# UAE flights disrupted as delays and cancellations continue amid regional tensions
+source: gulfbusiness.com
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaFRrbTFYWTVZUFVLMUppU21pQXNDYU8yWGJ0cTV6aUlZcGxkeGd3bnI5S0VUTTZzSjg2VDRvR01aTXNtbFpqTWFlZF9mZERTcGdkSTRBd1RXck5ZVTh1bTZ3dTVMalR3bm5hMl9oSGRTS1VRVHIwbVpCUWUya2lUYmxwZ2FvbkJlWnBtX245OURCMWZPVjlxeW1nZmN3akxrX3hUaTU3WmpEYkZRanBsWGZ5VWFKYjYzTjZHSk91eUpvQQ?oc=5
+
+UAE flights disrupted as delays and cancellations continue amid regional tensions    gulfbusiness.com

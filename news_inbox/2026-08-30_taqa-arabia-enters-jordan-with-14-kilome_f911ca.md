@@ -1,0 +1,5 @@
+# TAQA Arabia enters Jordan with 14-kilometer gas pipeline project
+source: آراب فاينانس
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxPVjFVcy12Um1URDFKTUhjUUxSbFRNYkVLZlUyMjN6elV5U3FOT05hamRXX3l1V0Y4eG9LRUNxeHdtYUVLbG01TkdHVDRfZlprNFNzS3BFbHNRTmhDTW9ObmxLR1hVQlNxMkFQZ1NhZGFUU09KRXZOLUhDVS12V2dpTVREN2JJTG84STFNdm9pMkJ6WTlhNDRDN1VWbGtHUUxCTEJoNjByd1dlWk1WUndicg?oc=5
+
+TAQA Arabia enters Jordan with 14-kilometer gas pipeline project    آراب فاينانس
