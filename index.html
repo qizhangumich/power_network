@@ -73,7 +73,7 @@
       <img src="/favicon.svg" alt="NavGCC" style="width:34px;height:34px;border-radius:8px;flex:none">
       <span>NAVGCC<small data-en="Navigate the GCC. Connect with Confidence." data-zh="纵览海湾 · 从容连接">Navigate the GCC. Connect with Confidence.</small></span>
     </div>
-    <button id="b-lang">中文</button>
+    <button id="b-lang">Lan</button>
   </header>
 
   <div class="hero">
@@ -162,7 +162,7 @@
     document.querySelectorAll("[data-en]").forEach(function(el){
       el.textContent = el.getAttribute(lang === "zh" ? "data-zh" : "data-en");
     });
-    document.getElementById("b-lang").textContent = lang === "zh" ? "EN" : "中文";
+    document.getElementById("b-lang").textContent = lang === "zh" ? "EN" : "Lan";
     document.documentElement.lang = lang === "zh" ? "zh" : "en";
   }
   document.getElementById("b-lang").addEventListener("click", function(){
