@@ -198,6 +198,15 @@
 </style>
 <style>
   /* Phase 2 — My Network panel */
+  #topbar .btn{white-space:nowrap}
+  #b-mynet{color:#2F9E63}
+  .mp-inrow{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+  .mp-input{flex:1;min-width:130px;border:1px solid var(--hairline);border-radius:8px;
+    padding:7px 10px;font-size:12.5px;background:var(--bg);color:var(--ink);outline:none}
+  .mp-input:focus{border-color:#2F9E63}
+  .mp-acct{border:1px solid var(--hairline);border-radius:10px;padding:10px 12px;margin:6px 0 12px}
+  .mp-acct .mp-lbl{margin-bottom:4px}
+  .mp-err{color:#B33;font-size:11px;margin-top:4px}
   #mypanel{display:none;position:fixed;top:64px;right:20px;width:390px;max-height:78vh;overflow-y:auto;
     z-index:22;background:var(--surface);border:1px solid var(--hairline);border-radius:14px;
     padding:18px 18px 16px;box-shadow:0 14px 40px rgba(20,22,40,.12)}
@@ -352,6 +361,10 @@ const I18N = {
     accConfHigh:"Confidence: high", accConfMed:"Confidence: medium",
     accPossible:"Possible access — not a verified introduction path",
     accLabels:["No reliable access","Weak access","Moderate access","Strong access","Very strong access"],
+    acct:"Account", acctEmail:"Email", acctPw:"Password (min 8 characters)",
+    acctIn:"Sign in", acctUp:"Create account", acctOut:"Sign out", acctAs:"Signed in as",
+    acctSync:"synced privately to your account", acctGuest:"Guest mode — data stays in this browser only",
+    acctHint:"Create a free account to keep your network private to you and synced across your devices.",
     pathBtn:"Find path from here", pathArmed:"…now click the destination node", pathTitle:"Best known path",
     pathNone:"No path found between these nodes", pathFrom:"Path from",
     relTitle:"Relationship", relPotential:"Potential — co-mentioned in news, not yet verified",
@@ -399,6 +412,10 @@ const I18N = {
     accConfHigh:"置信度：高", accConfMed:"置信度：中",
     accPossible:"潜在通路——非经验证的引荐路径",
     accLabels:["无可靠触达","弱触达","中等触达","强触达","极强触达"],
+    acct:"账户", acctEmail:"邮箱", acctPw:"密码（至少 8 位）",
+    acctIn:"登录", acctUp:"注册", acctOut:"退出登录", acctAs:"已登录",
+    acctSync:"已私密同步到你的账户", acctGuest:"访客模式——数据仅保存在本浏览器",
+    acctHint:"创建免费账户，让你的人脉数据仅属于你本人，并在多设备间私密同步。",
     pathBtn:"从此节点找路径", pathArmed:"…现在点击目标节点", pathTitle:"最可信路径",
     pathNone:"两个节点之间未找到路径", pathFrom:"路径起点",
     relTitle:"关系", relPotential:"潜在关系 — 新闻共现，尚未核实",
@@ -644,7 +661,9 @@ const Personal = (() => {
     return {total: contacts.list.length, matched, review: q, reach: reach.size, at: contacts.at};
   }
   function wipe(){
-    Object.keys(localStorage).forEach(k => { if(k.startsWith("pm2_")) localStorage.removeItem(k); });
+    Object.keys(localStorage).forEach(k => {
+      if(k.startsWith("pm2_") && k !== "pm2_token" && k !== "pm2_email") localStorage.removeItem(k);
+    });
   }
   return {has: !!(contacts && contacts.list), importCSV, decide, reviewQueue, derived, stats, wipe};
 })();
@@ -1760,12 +1779,102 @@ function toggleLang(){
 }
 document.getElementById("b-lang").onclick = toggleLang;
 
+/* ---------- account + private sync (Phase 2 accounts) ---------- */
+const Acct = (() => {
+  const tk = () => { try { return localStorage.getItem("pm2_token"); } catch(e){ return null; } };
+  const email = () => { try { return localStorage.getItem("pm2_email"); } catch(e){ return null; } };
+  async function call(p, method, body){
+    const h = {"Content-Type": "application/json"};
+    if(tk()) h["Authorization"] = "Bearer " + tk();
+    const r = await fetch("/api/" + p, {method: method || "GET", headers: h,
+                                        body: body ? JSON.stringify(body) : undefined});
+    const j = await r.json().catch(() => ({}));
+    if(!r.ok) throw new Error(j.error || ("HTTP " + r.status));
+    return j;
+  }
+  const payload = () => {
+    const o = {};
+    Object.keys(localStorage).forEach(k => {
+      if(k.startsWith("pm2_") && k !== "pm2_token" && k !== "pm2_email") o[k] = localStorage.getItem(k);
+    });
+    return o;
+  };
+  const applyPayload = d => {
+    Object.keys(localStorage).forEach(k => {
+      if(k.startsWith("pm2_") && k !== "pm2_token" && k !== "pm2_email") localStorage.removeItem(k);
+    });
+    if(d) Object.keys(d).forEach(k => { try { localStorage.setItem(k, d[k]); } catch(e){} });
+  };
+  async function push(){ if(tk()) try { await call("personal", "PUT", {data: payload()}); } catch(e){} }
+  async function signIn(mode, em, pw){
+    const j = await call(mode, "POST", {email: em, password: pw});
+    localStorage.setItem("pm2_token", j.token);
+    localStorage.setItem("pm2_email", j.email);
+    const p = await call("personal");
+    if(p.data && Object.keys(p.data).length) applyPayload(p.data);   // account copy wins
+    else await push();                                               // first device: upload local
+  }
+  async function signOut(){
+    try { await call("logout", "POST", {}); } catch(e){}
+    localStorage.removeItem("pm2_token");
+    localStorage.removeItem("pm2_email");
+    Personal.wipe();                       // protect shared devices
+  }
+  async function deleteRemote(){ if(tk()) try { await call("personal", "DELETE"); } catch(e){} }
+  async function pullIfChanged(){
+    if(!tk()) return false;
+    try {
+      const p = await call("personal");
+      if(p.data && Object.keys(p.data).length &&
+         JSON.stringify(p.data) !== JSON.stringify(payload())){ applyPayload(p.data); return true; }
+    } catch(e){}
+    return false;
+  }
+  return {on: () => !!tk(), email, signIn, signOut, push, deleteRemote, pullIfChanged};
+})();
+/* one sync pull per tab session — newer account data from another device wins */
+try {
+  if(Acct.on() && !sessionStorage.getItem("pm2_pulled")){
+    sessionStorage.setItem("pm2_pulled", "1");
+    Acct.pullIfChanged().then(ch => { if(ch) location.reload(); });
+  }
+} catch(e){}
+
 /* ---------- My Network panel (Phase 2 personal layer) ---------- */
 const myPanel = document.getElementById("mypanel");
 let mpDirty = false;
+function acctHtml(){
+  if(Acct.on())
+    return `<div class="mp-acct"><span class="mp-lbl">${t().acct}</span>`
+         + `<b style="font-size:12.5px">✓ ${t().acctAs} ${Acct.email() || ""}</b>`
+         + `<span style="display:block;font-size:10.5px;color:#2F9E63">${t().acctSync}</span>`
+         + `<div class="pathbtn" id="mp-out" style="margin-top:6px">${t().acctOut}</div></div>`;
+  return `<div class="mp-acct"><span class="mp-lbl">${t().acct}</span>`
+       + `<span style="display:block;font-size:11px;color:var(--ink-faint);margin-bottom:2px">${t().acctHint} ${t().acctGuest}.</span>`
+       + `<div class="mp-inrow"><input class="mp-input" id="mp-em" type="email" placeholder="${t().acctEmail}" autocomplete="username">`
+       + `<input class="mp-input" id="mp-pw" type="password" placeholder="${t().acctPw}" autocomplete="current-password"></div>`
+       + `<div><div class="pathbtn" id="mp-login">${t().acctIn}</div> <div class="pathbtn" id="mp-reg">${t().acctUp}</div></div>`
+       + `<div class="mp-err" id="mp-err"></div></div>`;
+}
+function wireAcct(){
+  const out = document.getElementById("mp-out");
+  if(out) out.onclick = async () => { await Acct.signOut(); location.reload(); };
+  const err = document.getElementById("mp-err");
+  const go = mode => async () => {
+    const em = (document.getElementById("mp-em").value || "").trim();
+    const pw = document.getElementById("mp-pw").value || "";
+    if(err) err.textContent = "";
+    try { await Acct.signIn(mode, em, pw); location.reload(); }
+    catch(e){ if(err) err.textContent = String(e.message || e); }
+  };
+  const li = document.getElementById("mp-login"), rg = document.getElementById("mp-reg");
+  if(li) li.onclick = go("login");
+  if(rg) rg.onclick = go("register");
+}
 function renderMyPanel(){
   const st = Personal.stats();
-  let html = `<h2>${t().myNet}</h2><div class="mp-priv">🔒 ${t().mpPrivacy}</div>`;
+  let html = `<h2>${t().myNet}</h2>` + (Acct.on() ? "" : `<div class="mp-priv">🔒 ${t().mpPrivacy}</div>`);
+  html += acctHtml();
   if(!st){
     html += `<p class="mp-p">${t().mpConnect}</p><p class="mp-p" style="color:var(--ink-faint)">${t().mpHow}</p>`
           + `<label class="pathbtn mp-file">${t().mpImport}<input type="file" id="mp-in" accept=".csv,text/csv" hidden></label>`;
@@ -1802,22 +1911,27 @@ function renderMyPanel(){
     const f = ev.target.files[0];
     if(!f) return;
     const rd = new FileReader();
-    rd.onload = () => {
+    rd.onload = async () => {
       const nImp = Personal.importCSV(String(rd.result));
-      if(nImp){ toast("✓ " + nImp + " " + t().mpImported); setTimeout(() => location.reload(), 700); }
-      else toast("Connections.csv?");
+      if(nImp){
+        toast("✓ " + nImp + " " + t().mpImported);
+        await Acct.push();
+        setTimeout(() => location.reload(), 500);
+      } else toast("Connections.csv?");
     };
     rd.readAsText(f);
   };
   document.querySelectorAll(".mp-yes,.mp-no").forEach(b => b.onclick = () => {
     Personal.decide(b.getAttribute("data-ci"), b.classList.contains("mp-yes"));
     mpDirty = true;
+    Acct.push();
     renderMyPanel();
   });
   const ap = document.getElementById("mp-apply");
   if(ap) ap.onclick = () => location.reload();
   const del = document.getElementById("mp-del");
-  if(del) del.onclick = () => { Personal.wipe(); location.reload(); };
+  if(del) del.onclick = async () => { await Acct.deleteRemote(); Personal.wipe(); location.reload(); };
+  wireAcct();
 }
 function openMyPanel(){ renderMyPanel(); myPanel.classList.add("open"); }
 document.getElementById("mp-close").onclick = () => {
