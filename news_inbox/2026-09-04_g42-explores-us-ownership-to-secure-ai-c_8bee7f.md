@@ -1,0 +1,5 @@
+# G42 explores US ownership to secure AI chip access - Bloomberg
+source: Investing.com
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxNZ0tPNE5mdzY4T2x0V1J4RWNBOE1VZ0tqSnRDWkF0UnVGTWttaWJuNVlXbVdvYllfazdQNnFUZG9yZkhmMHVyQTNILWp6OV9UeG5mOE1xQkdpamRPOS1wLU44Slg5RUg2NzNoUzBTWDNZUGM3bmptbFlmSm8zLVNYS19EQVJwNC1GTGF3TFEyUzFLaWJWYnRyVEoyS0pVWVg1VHN5dEh1THB0SjFjQkNqVzlsVnlILTdjaXg2LS1Mb3I1TEpLaGZjamxHYw?oc=5
+
+G42 explores US ownership to secure AI chip access - Bloomberg    Investing.com

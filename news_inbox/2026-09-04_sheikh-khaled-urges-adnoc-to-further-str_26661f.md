@@ -1,0 +1,5 @@
+# Sheikh Khaled urges Adnoc to further strengthen role as leading global energy provider
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxORm5rem9sVVRzNmxBZUtjX1dDS2NKVmg3S25RLUlVTGZ4ZXJZajNfNnBXZW9maUhYZnRNUUxQcU50ZXBzT0hGdW5fd1pnbFlDNjNzMGhuWkhpYXMyRklUT01oVUJxbHB3Z3JGY0NocnRwYTBUVWxIcUcwcE93SXZaekRMNHlPUEFVMWpBTkw1U21VeEJWV0ZlcFZ0YjJSdWhBdmJLb3k0OFFyM3RVS21hQzFHV3FSdkpidVVJc3AtY3hUaXRGZGdENHVmcVppQ29fdXBIUTg1T2h2d0xpRUFCYjNKNmg?oc=5
+
+Sheikh Khaled urges Adnoc to further strengthen role as leading global energy provider    thenationalnews.com

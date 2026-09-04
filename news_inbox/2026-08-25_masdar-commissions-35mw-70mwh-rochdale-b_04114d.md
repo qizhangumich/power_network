@@ -1,0 +1,5 @@
+# Masdar commissions 35MW/70MWh Rochdale BESS project in UK
+source: Solar Power Portal
+url: https://news.google.com/rss/articles/CBMirAFBVV95cUxOR2I5aVUzZlJxTXdSTEhkUU5OdzFVWlNtQU8xbEJkUC1RZklEa0JpZnl3TktsVjMxME1wZ0VXUWRCQVZsRnBMRHdON2ZsUUVTR253ZTRVdTNSWmRKQ2x4VHFvc2hOY1ZSZndRUkxSOTZLalNvaDV1V0phLW1wdmhuS2k0SjZTWlBSM0JIbUh5M0wwbm8zaTlTallXOXdzekY2Wk02bEl6cVoxQkt5?oc=5
+
+Masdar commissions 35MW/70MWh Rochdale BESS project in UK    Solar Power Portal

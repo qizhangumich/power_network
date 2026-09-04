@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed chairs meeting of Executive Committee of ADNOC Board of Directors
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSzBSRW8zbEJuR1FIWGtVOG1RaDBtX2tUQ0tBbDZRbjRUME9NUDloaDQtUlMyMGhESF9waFBhelAzQ0VxaHhWR0hzNU5VREpvTEFIWDlvVENjX25oNXlXbHZaTGtJNDNGQ2lfOXh0UFAwMUx6R01kZWxGbld6WmVYTGpuZlV4VFlwSzFXVGRfSEtxV3BDRlRnamVzRFhFX244dnJGemZvdXlZMUVwQ2I1bzRYTXRib3ZNOUJ6Wm10UE13NmdxVXZySXZJZ1g1WGxjWjNWME1B?oc=5
+
+Khaled bin Mohamed bin Zayed chairs meeting of Executive Committee of ADNOC Board of Directors    مكتب أبوظبي الإعلامي

@@ -1,0 +1,5 @@
+# Space42 launches 'Future Spacers' training programme for students
+source: Telecompaper
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUllnSW5yRWxMQndGZTdFTTJQYnpnN2VXS2E3bFp5Ympxd1B1Q0VFYXVkWjV3SFp0RV9YMGs5bWpldEFtUUszVFkyaVc1MmM3dnFGOTdwNjVQZ0VzYXBTYVFjcGtGaGE1ZGs5R1d3d0FHTFZUNVphVWlneWFoMExwTFlMUG9henlqVzNZOE5WOERZaU9nckxlUDRhdDc3eVU5VmttVHVPOFl5UQ?oc=5
+
+Space42 launches 'Future Spacers' training programme for students    Telecompaper

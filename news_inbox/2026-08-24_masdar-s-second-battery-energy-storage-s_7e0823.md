@@ -1,0 +1,5 @@
+# Masdar's Second Battery Energy Storage System Project In UK Starts Commercial Operations
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQmE1NWtsX2NOdUtEZXdkbm9ZUkExNF8tOXV5UFBVaDdWR1NYZWo5X0lXaDU2NjJqcVhLZ0dTcFpyUm5VZ0gxdzduUHNreDZneHAxdjJCLWVROE12Zzd1WHhObjlQRGVNS0d3ZWhHUnBQNnZLYzl0M3Rsc2Z0YmgwU082Yk4xV1RpbWVwYzRGRlZOWENRQTM1a0JObU1DVXdZMzkxSDJxdW5GRUdPdDJDSnJkZjNKcmstZVNKdGVsWXVaNk9sN05FZWVMcnpDTTN3MWFFdjYwSmtyR2pjbVE3a2VnVmRNcGxTbkdEa3lTSQ?oc=5
+
+Masdar's Second Battery Energy Storage System Project In UK Starts Commercial Operations    TradingView

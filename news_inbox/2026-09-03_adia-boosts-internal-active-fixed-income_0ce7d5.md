@@ -1,0 +1,5 @@
+# ADIA boosts internal active fixed income
+source: Top1000funds.com
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxOcjhvbkZRNHVHSWdqYlN2cE5ncWJJZjNTXzljNXVUSDNOZUlXTExwd3ZVRWRvN3gxaXgwbUVFWFBYVFNlSnJlRDNRYlhnLXB4M09hYmdPVTFEc1hHVnNpRF8wb016amJSU3BEOGp4aFNxRU5EYTVUZmZOM2JsUXZuckdXbUNqc2xjWmxGTElZOV9kbUpnZEVVUkdYcnRWaGhiczJLQlJwNFh2VW9WRkFqSEVVdFQ?oc=5
+
+ADIA boosts internal active fixed income    Top1000funds.com

@@ -1,0 +1,5 @@
+# Mubadala raises stake in Abu Dhabi developer Aldar
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxNM01lVFg5NFh5Sm51TEFZWEIwTzVuLTRzZHQxdkNHZWhmQW1UcVZFb3lzYTJlRW1fOWVlNnBaUmtCd1FrTWtqRkVYN2tRdkttTnljM0M4NWM3a2wwVlYwOGYwOHNTV3FnbndJeEJJTk5hYUE5T0MwbThMRTJrcC0tRlFHRmhIR2xON2xPUEttZ08xa0ltNUluTmVva0tKRXBTOTY0cDNLVVBmMUVMSnp2NA?oc=5
+
+Mubadala raises stake in Abu Dhabi developer Aldar    thenationalnews.com

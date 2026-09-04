@@ -1,0 +1,5 @@
+# Sheikh Khaled witnesses launch of Dhs100b Marsa Al Saadiyat development project
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaDg2eUVNdEQwSVdHTUhZSzBNRjRDcUdWSUJuUG13Smd6SF91MUFOZHRoNjA0aEVjQ3lsdkhKbkx4akFWbUJXZU5BWGd3X2JjbDVwWUo2V25RNGY3dWN5RUtLbWtCMG5EbGwzcWgtT1JiNjFJeDJxRVVqRXh4a2c4YnVWS3lyX196VDFFZzgzWHZ6c2pyWVVYT01qQXM0bmJfNHpHbTFBcW5uOS1BcTQwRW80cXcyY3p2MUFmMFNtR0x2UQ?oc=5
+
+Sheikh Khaled witnesses launch of Dhs100b Marsa Al Saadiyat development project    Gulf Today

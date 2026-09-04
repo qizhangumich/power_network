@@ -1,0 +1,5 @@
+# Edge completes acquisition of Brazilian aeronautical engineering company ACAIR
+source: صوت الإمارات
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxONmFKRlZhZkZCNzVrNkV3b1UtTTR5R05wQllpWnFSY0VacVlqUXZiQTlCVzFIS2JpaklxWEhWeGREeFRyTE1LWUhrcWI1OVVtNG1GeXNDcXV3Nl9kLU1pMjYyMk43WTcwVXQyR19SdXBfY0JJVWlMeHZzaVRpN3BYTkdDR3oyYkotZUNfLTdQN3lKOTdNU08tbG8tU0FkbXRrNFJibFQxWG44UlJjcWhBaTRicDNzV0VBdEkxOUVLaUtqbElBTks3UzFoNnlMRHM?oc=5
+
+Edge completes acquisition of Brazilian aeronautical engineering company ACAIR    صوت الإمارات

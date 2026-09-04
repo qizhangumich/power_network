@@ -1,0 +1,5 @@
+# Mubadala Capital tokenizes private markets strategy via KAIO
+source: ledgerinsights.com
+url: https://news.google.com/rss/articles/CBMilwFBVV95cUxOM3lHcjJBc3pPajVGYnpic3NlZ2w1WjItVW9obU1IQWtLV1paZkRtbF9kX0xsSll2ZFNHd3JWOU9ZOGUwSHFiTTMtdUFwQmdVY1FEN2lGalBKal8yamY3YVY0VU1DdHNzUE44RTljZC04Y2J0SkRmQlJJMzhXUDhfdnVzWE1EaGRSUlZvUDFVS1hWZnFGM3J3?oc=5
+
+Mubadala Capital tokenizes private markets strategy via KAIO    ledgerinsights.com
