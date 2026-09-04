@@ -249,7 +249,6 @@
   <div id="topright">
     <div class="btn" id="b-mynet">My Network</div>
     <div class="btn" id="b-filter">Filter</div>
-    <div class="btn" id="b-fit">Fit</div>
     <div class="btn" id="b-lang">中文</div>
     <div class="btn" id="b-more" aria-label="menu">☰</div>
   </div>
@@ -351,7 +350,7 @@ const I18N = {
     liSearch:"Search on LinkedIn ↗",
     myNet:"My Network", mpPrivacy:"Private — stays in this browser only, never uploaded.",
     mpConnect:"Connect your professional network to see who you already know here, and your best path to the people who matter.",
-    mpHow:"LinkedIn → Settings & Privacy → Data privacy → Get a copy of your data → select “Connections” → download, then upload the Connections.csv file:",
+    mpHow:"LinkedIn → Settings & Privacy → Data privacy → “Download your data” → choose the file list and tick “Connections” only (much faster than the full archive). LinkedIn emails you a download link — unzip it and upload Connections.csv here:",
     mpImport:"Import Connections.csv", mpImported:"contacts imported", mpMatchedTo:"matched on this map",
     mpReview:"to review", mpReach:"institutions in reach", mpReviewTitle:"Is this the same person?",
     mpYes:"Match", mpNo:"Not the same", mpApply:"Apply to map", mpDelete:"Delete my data",
@@ -365,6 +364,7 @@ const I18N = {
     acctIn:"Sign in", acctUp:"Create account", acctOut:"Sign out", acctAs:"Signed in as",
     acctSync:"synced privately to your account", acctGuest:"Guest mode — data stays in this browser only",
     acctHint:"Create a free account to keep your network private to you and synced across your devices.",
+    askTry:"Try asking — click an example:",
     pathBtn:"Find path from here", pathArmed:"…now click the destination node", pathTitle:"Best known path",
     pathNone:"No path found between these nodes", pathFrom:"Path from",
     relTitle:"Relationship", relPotential:"Potential — co-mentioned in news, not yet verified",
@@ -402,7 +402,7 @@ const I18N = {
     liSearch:"在领英搜索 ↗",
     myNet:"我的网络", mpPrivacy:"私密数据——仅保存在本浏览器，绝不上传。",
     mpConnect:"连接你的职业人脉，看看这张图上有谁是你已经认识的，以及触达关键人物的最佳路径。",
-    mpHow:"LinkedIn → Settings & Privacy → Data privacy → Get a copy of your data → 勾选 “Connections” → 下载后，在此上传 Connections.csv 文件：",
+    mpHow:"LinkedIn → Settings & Privacy → Data privacy → “Download your data”（下载你的数据）→ 选择文件清单并只勾选 “Connections”（比完整存档快得多）。LinkedIn 会发邮件提供下载链接——解压后在此上传 Connections.csv：",
     mpImport:"导入 Connections.csv", mpImported:"位联系人已导入", mpMatchedTo:"位已匹配到本图",
     mpReview:"待确认", mpReach:"家机构可触达", mpReviewTitle:"这是同一个人吗？",
     mpYes:"是同一人", mpNo:"不是", mpApply:"应用到地图", mpDelete:"删除我的数据",
@@ -416,6 +416,7 @@ const I18N = {
     acctIn:"登录", acctUp:"注册", acctOut:"退出登录", acctAs:"已登录",
     acctSync:"已私密同步到你的账户", acctGuest:"访客模式——数据仅保存在本浏览器",
     acctHint:"创建免费账户，让你的人脉数据仅属于你本人，并在多设备间私密同步。",
+    askTry:"试试这样提问——点击示例：",
     pathBtn:"从此节点找路径", pathArmed:"…现在点击目标节点", pathTitle:"最可信路径",
     pathNone:"两个节点之间未找到路径", pathFrom:"路径起点",
     relTitle:"关系", relPotential:"潜在关系 — 新闻共现，尚未核实",
@@ -1323,7 +1324,7 @@ window.addEventListener("mouseup", ev => {
 canvas.addEventListener("dblclick", ev => {
   const n = pick(ev.clientX, ev.clientY);
   if(n){ S.focus = (S.focus===n) ? null : n; reheat(0.4); }
-  else { S.focus = null; }
+  else { S.focus = null; fitView(); }      // double-click empty space = reset view
   updateStats();
 });
 canvas.addEventListener("wheel", ev => {
@@ -1713,9 +1714,26 @@ function wireAskActions(){
   const c = document.getElementById("a-clear");
   if(c) c.onclick = () => { S.askSet = null; S.path = null; askClose(); askIn.value = ""; };
 }
+/* empty-focus suggestions: teach the query grammar by example (LLM-ready later) */
+function askShowExamples(){
+  const topInst = nodes.filter(n => n.kind === "inst").sort((a,b) => b.power - a.power)[0];
+  const pp = nodes.filter(n => n.kind === "person").sort((a,b) => b.power - a.power);
+  const exs = LANG === "zh"
+    ? [`谁在 ${topInst.short}`, pp[1] ? `到达 ${pp[1].name}` : null, `${sectorName("energy")} 行业`]
+    : [`who at ${topInst.short}`, pp[1] ? `reach ${pp[1].name}` : null, `${sectorName("energy")} sector`];
+  let html = `<div class="explain">${t().askTry}</div>`;
+  exs.filter(Boolean).forEach(q => { html += `<div class="r" data-ask="${q}"><span>${q}</span></div>`; });
+  askResults(html);
+  document.querySelectorAll("#askout [data-ask]").forEach(el => el.onclick = () => {
+    askIn.value = el.getAttribute("data-ask");
+    runAsk(askIn.value);
+  });
+}
+askIn.addEventListener("focus", () => { if(!askIn.value.trim()) askShowExamples(); });
 askIn.addEventListener("keydown", ev => { if(ev.key === "Enter") runAsk(askIn.value); if(ev.key === "Escape") askClose(); });
 askIn.addEventListener("input", () => {
   const q = askIn.value.trim().toLowerCase();
+  if(!q.length){ askShowExamples(); return; }
   if(q.length < 2){ askClose(); return; }
   const hits = nodes.filter(n => n.name.toLowerCase().includes(q) || (n.short && n.short.toLowerCase().includes(q)) ||
                     (AKAS[n.id] && AKAS[n.id].some(x => x.toLowerCase().includes(q))))
@@ -1742,7 +1760,8 @@ function fitView(){
   const k = Math.min(availW, availH) / (2 * extent);
   S.cam = {x: 0, y: 0, k: Math.max(0.12, Math.min(1, k))};
 }
-document.getElementById("b-fit").onclick = fitView;
+const fitBtn = document.getElementById("b-fit");
+if(fitBtn) fitBtn.onclick = fitView;
 document.getElementById("legendbtn").onclick = () => document.getElementById("legend").classList.toggle("open");
 
 /* ---------- language ---------- */
@@ -1752,7 +1771,7 @@ function applyLang(){
   document.getElementById("brandsub").textContent = t().brandsub;
   askIn.placeholder = t().ask;
   document.getElementById("b-filter").textContent = t().bFilter;
-  document.getElementById("b-fit").textContent = t().bFit;
+  if(fitBtn) fitBtn.textContent = t().bFit;
   document.getElementById("b-lang").textContent = t().bLang;
   document.getElementById("hd-views-m").textContent = t().hdViews;
   document.getElementById("hd-layers").textContent = t().hdLayers;
