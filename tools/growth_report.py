@@ -93,7 +93,7 @@ def main():
     stamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     html = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GCC Power Networks — Growth</title>
+<title>NavGCC — Growth</title>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
 <style>
@@ -113,7 +113,7 @@ h2{{font-size:15px;margin:24px 0 4px}}
 #b-lang{{float:right;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:4px 12px;font-size:12px;color:var(--soft);cursor:pointer}}
 </style></head><body><div class="wrap">
 <button id="b-lang">中文</button>
-<a href="../" class="t" data-en="&larr; GCC Power Networks" data-zh="&larr; 海湾权力网络">&larr; GCC Power Networks</a>
+<a href="../" class="t" data-en="&larr; NavGCC" data-zh="&larr; NavGCC">&larr; NavGCC</a>
 <h1 class="t" data-en="Network growth" data-zh="网络增长">Network growth</h1>
 <div class="sub"><span class="t" data-en="Updated" data-zh="更新于">Updated</span> {stamp} · <span class="t" data-en="auto-generated on every data refresh" data-zh="每次数据刷新时自动生成">auto-generated on every data refresh</span></div>
 <div class="cards">

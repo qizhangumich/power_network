@@ -24,21 +24,21 @@ TEMPLATE = ROOT / "map_template.html"
 
 REGIONS = [
     {"dir":"abudhabi", "label":"Abu Dhabi",    "brand":"ABU DHABI POWER NETWORK",
-     "en":"Abu Dhabi Power Network — Network Intelligence", "zh":"阿布扎比权力网络 — 关系情报"},
+     "en":"Abu Dhabi Power Network — NavGCC", "zh":"阿布扎比权力网络 — NavGCC"},
     {"dir":"dubai",    "label":"Dubai",        "brand":"DUBAI POWER NETWORK",
-     "en":"Dubai Power Network — Network Intelligence",     "zh":"迪拜权力网络 — 关系情报"},
+     "en":"Dubai Power Network — NavGCC",     "zh":"迪拜权力网络 — NavGCC"},
     {"dir":"northern", "label":"Northern Emirates", "brand":"NORTHERN EMIRATES POWER NETWORK",
-     "en":"Northern Emirates Power Network — Network Intelligence", "zh":"北部酋长国权力网络 — 关系情报"},
+     "en":"Northern Emirates Power Network — NavGCC", "zh":"北部酋长国权力网络 — NavGCC"},
     {"dir":"saudi",    "label":"Saudi Arabia", "brand":"SAUDI ARABIA POWER NETWORK",
-     "en":"Saudi Arabia Power Network — Network Intelligence", "zh":"沙特阿拉伯权力网络 — 关系情报"},
+     "en":"Saudi Arabia Power Network — NavGCC", "zh":"沙特阿拉伯权力网络 — NavGCC"},
     {"dir":"qatar",    "label":"Qatar",        "brand":"QATAR POWER NETWORK",
-     "en":"Qatar Power Network — Network Intelligence",     "zh":"卡塔尔权力网络 — 关系情报"},
+     "en":"Qatar Power Network — NavGCC",     "zh":"卡塔尔权力网络 — NavGCC"},
     {"dir":"bahrain",  "label":"Bahrain",      "brand":"BAHRAIN POWER NETWORK",
-     "en":"Bahrain Power Network — Network Intelligence",   "zh":"巴林权力网络 — 关系情报"},
+     "en":"Bahrain Power Network — NavGCC",   "zh":"巴林权力网络 — NavGCC"},
     {"dir":"oman",     "label":"Oman",         "brand":"OMAN POWER NETWORK",
-     "en":"Oman Power Network — Network Intelligence",      "zh":"阿曼权力网络 — 关系情报"},
+     "en":"Oman Power Network — NavGCC",      "zh":"阿曼权力网络 — NavGCC"},
     {"dir":"kuwait",   "label":"Kuwait",       "brand":"KUWAIT POWER NETWORK",
-     "en":"Kuwait Power Network — Network Intelligence",    "zh":"科威特权力网络 — 关系情报"},
+     "en":"Kuwait Power Network — NavGCC",    "zh":"科威特权力网络 — NavGCC"},
 ]
 AD = REGIONS[0]
 NAV_RE = re.compile(r'<!--REGIONNAV-->|<details id="regions">.*?</details>|<div id="regions">.*?</div>', re.S)
