@@ -1,0 +1,5 @@
+# UAE says Iran attacked ADNOC carrier with missile in Strait of Hormuz
+source: Shipping Telegraph
+url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa0xDX2FLOE1TUE05TXVjQUlGbkhYc3duYWxRZk5KSWpGTm04QTJ5d1ZTcWhrSDJ2ZGtWWnJmMlZlZmZ5UG9aQ0xqd2NQa1pUZlczWGhPVmtpZFBaU3gzTWQ2MW1vaE84UGNyblB5cEpPTmtiZXJjTk4tS0JBM0ozQzkzbjEwQ2Y2NmFmN2NTZE82STBLbHdKbFJVYUJJbjAtNHFTeV96aGFyYlJRVGlDODVuYWdtZzlw?oc=5
+
+UAE says Iran attacked ADNOC carrier with missile in Strait of Hormuz    Shipping Telegraph
