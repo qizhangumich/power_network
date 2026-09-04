@@ -94,6 +94,8 @@ def main():
     html = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GCC Power Networks — Growth</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
 <style>
 :root{{--bg:#F6F6F4;--card:#FFF;--ink:#17181C;--soft:#5B5D66;--faint:#9A9CA6;--line:#E4E4E0;--accent:#4C57C5}}
 *{{box-sizing:border-box;margin:0;padding:0}}
