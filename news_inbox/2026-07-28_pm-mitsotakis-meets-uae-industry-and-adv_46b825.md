@@ -1,0 +1,5 @@
+# PM Mitsotakis meets UAE Industry and Advanced Technology Minister Dr. Sultan Al Jaber
+source: Μακεδονικό Πρακτορείο Ειδήσεων
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxOSDdzb043ZlhZajJ4NlV2VEozX05IT1IyQjJMMFU5Mzc3SHhCREJoTlUtaGswNzdYbGwwOGM3LXpadzhJUE9Pck5aQk92cUt5b19HUnotV0Y0S1htQTNkYU5DLUtLNUR2cE9MeTlqY1FXV0huN1FUbVVYbEdySldhVU51NmxxRDh3RmtOM2h4d3R1VkhwQ1hnS1U0QVhaMWRNVnBHbnVwa0pqdHg3c3FsSEpob2RVdVA4dW8xeVcxb3BpX0h5cGc?oc=5
+
+PM Mitsotakis meets UAE Industry and Advanced Technology Minister Dr. Sultan Al Jaber    Μακεδονικό Πρακτορείο Ειδήσεων

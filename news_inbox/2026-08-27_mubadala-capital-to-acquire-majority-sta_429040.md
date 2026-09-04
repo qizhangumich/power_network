@@ -1,0 +1,5 @@
+# Mubadala Capital to Acquire Majority Stake in Arrive Logistics
+source: citybiz
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxOS0FSQ2ZHT3pIWlpNR3N2WUlxQjFWRm43TU5Xbks0U2cxVkFVNlpwcDdoejFWaEVKSTJ3QUtqXzNnbjc2Y09qbVRIREtlMzNmVndnalNlTEFodkpoOGR6NEFJZVVTb2tRTjZwc2ptQ3hrNmZlREpnZGZoOGVZYVVqdUZkZVFINWF0SUc4UXZBRXVvUnprOWxxbnRpNzJyVU55M3J3?oc=5
+
+Mubadala Capital to Acquire Majority Stake in Arrive Logistics    citybiz

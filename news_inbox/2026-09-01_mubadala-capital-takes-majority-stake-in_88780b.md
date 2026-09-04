@@ -1,0 +1,5 @@
+# Mubadala Capital takes majority stake in US freight broker Arrive Logistics
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPSXJBM0hnNFhFRjVnODlhWUtUeHhtcmx4bHJLZkI1QzBpWURTbUdEZVFGa2RjU3NyTUZoWTFQalQ5MmxzN25Ub0hTMnFJck8zTkRHODZTcXZMV1Z3eFZnZFpiYk43UFhZQ3lhcGVESldMbWJ2RUxRbnlKcjZhNXlyRzhfN0c1bDVqQUlOQWk5bVNmVHVBYnhRYXh3cFgzYnloVmJ3ZXFNNklwSkd1SC1sMXo5aWJ2NWgyLTBFUFB2MA?oc=5
+
+Mubadala Capital takes majority stake in US freight broker Arrive Logistics    EnterpriseAM

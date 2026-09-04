@@ -1,0 +1,5 @@
+# Why UAE’s space sector is shifting from missions to building a global satellite industry
+source: Khaleej Times
+url: https://news.google.com/rss/articles/CBMilgFBVV95cUxOVXRJbkpZaEpBd1BsTVRadTJIVHNTREJHLVhXLWNybUs5UHcydzY5eC1USUc2Zl9ETWYwVVJzeENfcDdxaXF5NHRnTjNCbjlfZEkzS1hWWUc1bU1mOHNaZkNpOTBhZjdsbFloNEpiTFBCQUdJcEpKOWhndE5sUHNrbXcxZW05NVZiN2lQQ1UxLVcxY2o5ZXfSAZ4BQVVfeXFMUDg2dzN4dEpXdUhRNzhnbHd6NjEyeWw1b0x6N0dPcl9HNEdFZXA1MTV4QUFCMnlIMGk0WXAzbVhBNFlxUnFJM3lWQzBTbWNJX0N3NEtKdi14TFJDRXhfWElzSHZUaEtNS1JnS2tqVGFqUmN5RGJ0eHlrN0lXMkxCZjlIRWpScTdKTWl1Y2lsWFBaYWo1MVUwS1RiSENjaFE?oc=5
+
+Why UAE’s space sector is shifting from missions to building a global satellite industry    Khaleej Times

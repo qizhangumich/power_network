@@ -1,0 +1,5 @@
+# Aldar’s second-quarter profit rises 10% on higher revenue
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxPLU5DUjdzODFvMWtSZm1uaXU4a1NWcVotTmtOeU9qZUQyZWJiN0poQ3dfWHpTUUhIU0NZRExMV1VCU1ZRSjVmdXhRNTVFMmlVRWxNMGxLY1gxSFdLYjhJTi1nN2FQSm5HXzZKOVZnUUdXLTNRTlpCSnVpQXExYnN1QUpfVlpUNE84ZkZhT09tajdvVnBsOTdPcXZabGhzQTdFeFZSdTNGV01OSnV5djZ2cWRvN09ZYTNJTVBqbWFuLWVOTDQtcFYyUHFOZ3RiWG9QSlE?oc=5
+
+Aldar’s second-quarter profit rises 10% on higher revenue    thenationalnews.com

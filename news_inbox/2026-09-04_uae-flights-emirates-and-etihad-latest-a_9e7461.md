@@ -1,0 +1,5 @@
+# UAE flights: Emirates and Etihad latest as Kuwait and Bahrain services cancelled
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxONlhLNHdvOG12LS1wUGM2UHRhOGpibTllTUt1NzRqbnlxMlF6V25UTExSUUd2RnVrdG5xX1lTNUFxTl9zYlRoamxReUlnWm9kNTFldmZGd1cwRTVNUjNjSURLTmU5VGR5V2FIZE5VT3JEaXkyVmtfZF9Eam1ZQmR1aFEzRmZGNDZVRDRVYVRPSDdRSzJfQTVzQ25BbFF6UVZ1N0RTdThEalpNTTlVM0lWU1EySnNoOGplZVNzN2REVjdUcWtCQkRzWHd3?oc=5
+
+UAE flights: Emirates and Etihad latest as Kuwait and Bahrain services cancelled    Arabian Business

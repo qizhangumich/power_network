@@ -1,0 +1,5 @@
+# Masdar City Launches Emirati Package to Empower National Entrepreneurs, Aligning with Emirati Women's Day and the Year of Family
+source: Biz Today
+url: https://news.google.com/rss/articles/CBMi9wFBVV95cUxNVEdleUh2WWFwelpiSVZjR2FnbHUzSDY2UFktdHh2cERPV3EwQ2NoeFhrYTdlWjRSVkd1ektfVDVfZnU5bXFpcHNNS3hyWWFGSXJ1amdfWmNUMWlHUnE5ZlQ3MDJqdGR0Z3NnWnl5THBrRDBwWngyODZidkpzNGJGZ3pSWHBBdi03ZFNrR284SU10YlEyajdYRVgxNnpHVngyVFpkNHdmQjBaaDNrMF8tay1VNWU3UHJOT1R2OTJoeTlKeTIzMmtocno0UFVTbWtnVU5hMDQwUF9QSE4wRjd3YXNqVl9RekNRTUc3R0NsRWlKWDR1Y1o4?oc=5
+
+Masdar City Launches Emirati Package to Empower National Entrepreneurs, Aligning with Emirati Women's Day and the Year of Family    Biz Today
