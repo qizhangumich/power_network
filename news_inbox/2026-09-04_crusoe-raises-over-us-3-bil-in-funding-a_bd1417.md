@@ -1,0 +1,5 @@
+# Crusoe raises over US$3 bil in funding at US$30 bil valuation — Bloomberg
+source: The Edge Singapore
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMktYSUVvVmhEMzVINVFOdFAwWFF0TjNFTm0zNE5laG1ibWNrMzhTVHhQalNMMG1mZm5fNXplOVlJbWY2Yi1RN0RORGFtcG1Sd3I0WS1yb0FPTVZqTTFHbm1CaE50TkVRTmR2R0lVei11YUg2NUw2YWp3SEFIajdlOTZrMkt5UU42NTV6aFNvUElWLTBJRGlSV2xEWFlCbG5KVGYtdXdsU0lDQdIBrwFBVV95cUxNVzFWbnRmdEJDYTFkZ1BiWmU0UFRuVXFSTllpWUtsblJSRjFVVXZFMG1xdmF3Vm1kYjZhQnMyUlUxT2lTTktiUGZ0NGFJSjJQVTNrMi04NURRSnVzNFhmc1Z4R1hzaEE5Ym9fNWl2Wk9QOV9VQnQ5ZV8yQ1hwa1ZYUExDNVdpcWxSdGpHLVViWHJyV1FvcnpmLUpCV0tKNGtMVmZHZjd4ekczeDBRaWc0?oc=5
+
+Crusoe raises over US$3 bil in funding at US$30 bil valuation — Bloomberg    The Edge Singapore

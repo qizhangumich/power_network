@@ -1,0 +1,5 @@
+# ADNOC Gas revenue seen falling 18% in 2026 as volumes weaken
+source: S&P Global
+url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNY2RqSFpfUXktM2tvQlVGdFF6a1ZoNjRmbFMyRHlMRHhSd3JodnBBNU5LVzZUVENmclp2cUp6dkpJQjBUdEsxNmRlTU5SVHN5VFVIRl9FcTV6dmNnMXdxSUY2YjBCQlBVX093LVZXSWlaZ1hRcFU1ZERhSS1LQ2Raa2lOanpzOVd0SWh4ZGR4cGJhVEFHUTZ4X1l1UnBOMUcyU0lvem5kcVJIZ3hoWUwtZEFHNlBlcWlXWG10UTdzYnFMQkdWVFViSWd4OTdxbmwwQUxtbHpkaWxHUkhRRlFF?oc=5
+
+ADNOC Gas revenue seen falling 18% in 2026 as volumes weaken    S&P Global

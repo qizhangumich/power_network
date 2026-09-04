@@ -1,0 +1,5 @@
+# UAE President receives Ajman Crown Prince, discusses national priorities
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPa2djVUJjZ3h3UzN4M2ZUWVZNUmV4M1VwQnpQNTBWSHlCUE9NMnoyemRyTHBSdWhDc0J6NXRqWHVrQk1xRk00UWF4STZEM2oySWdQNTlmR2lsRnk2Z1pnaWJhUzBncnB6alFkTlluVk9NMHpDVEJwZ0N0UHVKclFVMGQ2cVZwMzBDYUZhUE5peGt3cTg4dEdWZEUzRkdjR0NvQU9GMjlvZU52MVBsTi1qM19n?oc=5
+
+UAE President receives Ajman Crown Prince, discusses national priorities    Gulf Today

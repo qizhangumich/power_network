@@ -1,0 +1,5 @@
+# Sovereign fund Limad takes Taqa private, triggering ADX delisting
+source: Dealroom
+url: https://news.google.com/rss/articles/CBMinwFBVV95cUxQbmlXaWpkWURWLTFvV0lWSEQzRnZuelNYajh2eFZUODdMTzRKZmJjN3FFekhtaUdDVXk1TEZsNE16TEpWYkw2UDFjMVlsRnNxU3NHeExMRHVQR0g4TjB6eHRQWDhtOXRjaTBQd1BmSkI5ZVNBb0YwaGs2ZFRNUXVZVW81LXB3WE0waUdhZ0VrV0hKam1HcGk2OEZweUtZS2s?oc=5
+
+Sovereign fund Limad takes Taqa private, triggering ADX delisting    Dealroom

@@ -1,0 +1,5 @@
+# Technip Energies wins engineering contract for major ADNOC Offshore project
+source: worldoil.com
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPTXNXcW1BNEdrNl9XM3BaUVAyYlVhMGJYN1luX0pHMkNCcGVwT3EtY0pTSkNCbDlWNm5IYVhUcFZZSks5cnVaTjU5SENUSG0tZHltUEdnTHlmR05CV2ladjNiY1RJNG9RWUFnSXUyRDZNQWRrdHBXRUVadEFRNm56aFFFTTg0ZXpsQ285enRpVldhYzlTM3dORDFrYm1PVndjQUVONGJ0cno3VGNmR2VTSjR2ckZzM1k?oc=5
+
+Technip Energies wins engineering contract for major ADNOC Offshore project    worldoil.com

@@ -1,0 +1,5 @@
+# L'imad announces intention to fully acquire AD Ports Group
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcDB1VUc4NUI2dUhrQ0ljdmk5cEpjOU5MOGFkS0drR19JcTJVeFZtNHBnQWZTVE1DdmQwNlpNVzlVX3d4TlBPYzBSa0xNOGNpRnljUlpmRWJfcEVnZl9CcnoxWDU3eWxPbHV4V1hvd2FZaTh4RjNDTy00UVFBcmpDeTFlN0Y5UGdjcmFCaUI2TG5ldjkzVzRFQjBLS2dvYTZMaUV6YVg0VkJvSjV2ZFRNRW1TTmV0VnBT?oc=5
+
+L'imad announces intention to fully acquire AD Ports Group    thenationalnews.com

@@ -1,0 +1,5 @@
+# Masdar Americas Appoints Khaleefa AlMheiri as President and CEO
+source: SolarQuarter
+url: https://news.google.com/rss/articles/CBMiogFBVV95cUxNbTM1a0I1R0hNZ3BjdWR1SHBkNUUtZjdPeWs4VVRpbGFtSk1BOXpsWjNMSHNDSHc4ZVF2RmRKOUNUQmp0MTVnbkZreFJMS0ROMVczWGk4VmdDNTdzY25EdHV2WUp0QUg5OExyWm5HQktXajRHS2RpS3FMRWN2M1hjcVpIcUxWbW9NLTZoSHo1Yk1Rd1RCSU9IcUlYekdHUXZGbVE?oc=5
+
+Masdar Americas Appoints Khaleefa AlMheiri as President and CEO    SolarQuarter

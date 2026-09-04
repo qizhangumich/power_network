@@ -1,0 +1,5 @@
+# PureHealth and FDF launch Healthy Horizons initiative to scale preventive care for Emirati senior citizens
+source: mediaoffice.abudhabi
+url: https://news.google.com/rss/articles/CBMihwJBVV95cUxNNkdLMnJzTDhkSFI5S09OZDBZVU1IdHQtcFBTa3hVVnN3TjZhRnRkV05aWXBfc0J6X1dQSjNhZldkendLbU9zZEZGY002ZUNhZTkySjJ4MFlsZXdJN2RZV2ZoRVlqbS1HRk5PYUhKNnVobHpDVEhhWDJscnJLOUZnSzk4Z0pCbzFRWHZlQVFZQjdUTmdITDRUYml6WWxWVF9scVFheTNFTDVIa0xneDNEZHpLeUZTbjR6TE1iak9tc1d2MXNDS0VEZmdsRmR4VXdRcmZ6blFaTXpPNXZVVVYzY1JnQnI1X0lTLVFKaHNsMXo2X09rUEc4Q0NRTU55NzBuRUhHOTlTUQ?oc=5
+
+PureHealth and FDF launch Healthy Horizons initiative to scale preventive care for Emirati senior citizens    mediaoffice.abudhabi

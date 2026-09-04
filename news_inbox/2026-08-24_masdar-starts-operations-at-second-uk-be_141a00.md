@@ -1,0 +1,5 @@
+# Masdar starts operations at second UK BESS
+source: Energy Global
+url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOQUdTd1lGd3ZGa3Naenpua3Z0RVd0RERkdDZqV3J1OW1ZQ3BZOUxGY2VCdFBRTDUyZGpiVVlhLTFwalBZR2NKcktxdm9QLThZUG5Zc25wbUEtY2RUNUd6ZDV6QlNmbkJZZnRoeEpXU2tWRFdVcHFuTkdyNmh3Y0h3SzlTaGZabkNoZGk1RUREbW9pbUVpUW11QVVZZE4?oc=5
+
+Masdar starts operations at second UK BESS    Energy Global

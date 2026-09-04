@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed offers condolences on the passing of Mohammed bin Butti Al Hamed’s wife
+source: mediaoffice.abudhabi
+url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxOU1pneGQ3Zy01QnVZczQydlJJc1ZIMHB4QVI1MUdSTC0wWDg1MURSemhxdWprUjlsME5CRGRZZ0w5d0tiUF9RLVpNNEFmODBFazdVWldoaDg4TndEbG54dkhRMjhTR2VNQld1aWtnYmR1VDNaXzBRalJMUXoxd0JyUG44YVJHQlBjbUVuZ1ZiaDg1cFBPNVpvSVdpX0xWU2FucU9zVmV5bnBZbzJSbk1YMzVCTGRuUDNHanZSNjlRWkdOblhwbHF4SGhjVExXd2pDblBHc1dabUItOHZxaUl1WmpIV3RPZlk0ZVE?oc=5
+
+Khaled bin Mohamed bin Zayed offers condolences on the passing of Mohammed bin Butti Al Hamed’s wife    mediaoffice.abudhabi

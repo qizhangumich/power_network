@@ -1,0 +1,5 @@
+# Steve Witkoff Meets UAE Security Adviser Sheikh Tahnoon as US Sanctions Target Iran Trade: 13 outlets compared
+source: NewsCord
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY2tBSEE1dm9acjN2dDJ1NngzZU85SmszNG1PdGVFT0lyWDZ2RG1NR2kxN1pHNHBadHh0THluOUhWSlZIWWxKaERFMlFoUUhVYWZFWS1EdThNUXF2TmVuQXNlWnM3a0xlSzJaVDFsTU9jZXM4SHFCMDlROUhoQ0tGZXktM1RUaDRuenY4dHVsZ25UbEp5YXBzM3hhem1fU0VaX3NKRnVUNkl1SGN4RzlrUDRCZ0lucVhBejg1ODlhWHRUSTN4Sm01VHc4S2NnTmlwbHFEYWZpUnNvMXM5VUtYUw?oc=5
+
+Steve Witkoff Meets UAE Security Adviser Sheikh Tahnoon as US Sanctions Target Iran Trade: 13 outlets compared    NewsCord
