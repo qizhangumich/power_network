@@ -11,6 +11,7 @@ const fs = require("fs");
 const path = require("path");
 
 const PORT = 3100;
+const HOST = process.env.POWER_API_HOST || "127.0.0.1";   // 0.0.0.0 when containerized
 const DATA = process.env.POWER_API_DATA || "/var/lib/power_api";
 const UDIR = path.join(DATA, "users");
 fs.mkdirSync(UDIR, { recursive: true });
@@ -126,4 +127,4 @@ http.createServer((req, res) => {
     return send(res, 200, { ok: true });
   }
   send(res, 404, { error: "not found" });
-}).listen(PORT, "127.0.0.1", () => console.log("power api on :" + PORT));
+}).listen(PORT, HOST, () => console.log("power api on " + HOST + ":" + PORT));
