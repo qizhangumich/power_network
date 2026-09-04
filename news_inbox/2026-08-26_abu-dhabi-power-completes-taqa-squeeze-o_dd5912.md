@@ -1,0 +1,5 @@
+# Abu Dhabi Power Completes Taqa Squeeze-out, Becomes Sole Shareholder
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMivAFBVV95cUxNUUVaVXpISEh2d0cyblJpa05OQmJOclEyU210NXN0eEhZY3ZSOU9McVpwdEZCTXdMS0hqR280bThldUtkdWlsMlZhaHRfU0htVG5adC1WbHl3NXc2bFdjN0wyVkVUTkdLTjhHX214anA0YlJZMDY3bWlxRW0zaE8wMy05dllmdUlEWFIyWm9CR2g1aWNqUUUyVERnR1JKQm1QbkFqVjRHcWRja3haNGZFd0dUeTNob0U0bU1GZQ?oc=5
+
+Abu Dhabi Power Completes Taqa Squeeze-out, Becomes Sole Shareholder    marketscreener.com

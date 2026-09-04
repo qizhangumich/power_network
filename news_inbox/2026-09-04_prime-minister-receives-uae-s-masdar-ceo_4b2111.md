@@ -1,0 +1,5 @@
+# Prime Minister receives UAE's Masdar CEO over energy cooperation, projects
+source: وكالة الانباء الاردنية
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUXlhU2hlSDVhMURNSVBXVUFuS0poVjhtWE1hSGdma2xRYTd0X3JWUVNLU3F1MVpLbF91NDRhNHhRZWp3WFoyODlrU3dhZE1zaTRsZDJxZjdpMHdTeUNVMXAyWHowNmd1blpqQk1iTHc5Y3BzdV9acHI5bEItck4xdHRFZWgwZHZ0RENXMXNta3ZGWjNERW5pVHQxLVBwT053SFQySkpPeXlzMGhqSWp5M0xnM3FJbm1tQW9r?oc=5
+
+Prime Minister receives UAE's Masdar CEO over energy cooperation, projects    وكالة الانباء الاردنية

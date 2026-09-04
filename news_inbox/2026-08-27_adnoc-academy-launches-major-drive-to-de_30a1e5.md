@@ -1,0 +1,5 @@
+# Adnoc Academy launches major drive to develop Emirati women engineers
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxQVkxWaFB4NERnR0xZUmFhY2hScDVQWm02YWtZOXkwVlg3T2JnM1dpTTdMTXpFaEdWY1dTckQyV3VETGEwWXFxNGFnUEpXQk5ITDZXSHdFZWkxRWZIWGx4VVd1czhycTc1RGdqOC1aenRaT1p3ek9lTC1Nc3N1V1hJMWtqWUZRYkw3N0Q3RWFiXzRVbEFlSXNQUEhlN3JFcEJVZmdJWnZjQVVmd2JPSTdqWm9RNGhXVVBqbFE?oc=5
+
+Adnoc Academy launches major drive to develop Emirati women engineers    thenationalnews.com

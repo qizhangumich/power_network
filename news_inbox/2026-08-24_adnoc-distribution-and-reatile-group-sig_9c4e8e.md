@@ -1,0 +1,5 @@
+# ADNOC Distribution and Reatile Group sign long-term B-BBEE agreement for proposed South Africa acquisition
+source: CLUB OF MOZAMBIQUE
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxQWjVCaWh6d0kwMXQ3Y0t3US01Y1ZpQS1QVnhkT0o4NHZ5UGJZbERHUkdFeXlWRmJKeDE2T1p6SThBTlYxdXpXODhrSjN2NFJma1ZlODhGWFRxelFJSTVydnFKQTY1azYzRjBXVG5wa1RLTGVwTFBIMnN1eDZUbWpheUZNWThZX2d2SlZBUXZ0NTBwTEx6NUFrRERQZW8wX0FsMnlDclVLQzRhNjlNWGxDdWhMWEZxOHBtY0VUWFRTamFDWG8wU1JUTC1EbjJ2U1R3eVVmcHhEYTI?oc=5
+
+ADNOC Distribution and Reatile Group sign long-term B-BBEE agreement for proposed South Africa acquisition    CLUB OF MOZAMBIQUE

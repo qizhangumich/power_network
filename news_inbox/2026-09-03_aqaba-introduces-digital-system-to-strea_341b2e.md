@@ -1,0 +1,5 @@
+# Aqaba Introduces Digital System to Streamline Truck, Logistics Traffic
+source: وكالة الانباء الاردنية
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPWGpsTWpEWG1NYkJ4NTQxc28wLWE2M2RQLVc0N0xSRDlkandBY3o2YzJESmlacXhYUndlUWRVeGlsaDRlRURIWUo3cTZkbjFlR2RMZEMySjMyRkdxSGRjckJLdDJWTy1sYlB4bURJS2JBLVRhbHd6bGZ6dHdaVnE0ekl5YVZOWGdRbndIWjJGQllXTlJzTGpqNFN1REY4S2E0NC1kQWs2eHhZV1JjZ3gzOTZETGdqcEE?oc=5
+
+Aqaba Introduces Digital System to Streamline Truck, Logistics Traffic    وكالة الانباء الاردنية

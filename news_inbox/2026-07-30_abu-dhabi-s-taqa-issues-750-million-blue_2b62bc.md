@@ -1,0 +1,5 @@
+# Abu Dhabi's TAQA issues $750 million blue bond to fund water projects
+source: khaleejtimes.com
+url: https://news.google.com/rss/articles/CBMikwFBVV95cUxNbDU5MW1EY3dKSWtQVkx0VkM5T3lQMkh5MGRoa2JBZVg1cW50aGg3dVdKaHdyNXlYYlgyX3Y1TnNMWm4wdGE4OWtPOW5VSWg3M1NMNDVMeHlkTkdEb3RqUm1DTUc5cUFuOVloaFU3a1QxWEo0b1dZcjBfdGpodDBXR280QnBlbDRidFprZEZrSGZURTDSAZsBQVVfeXFMT3V4b21NYThzdDVsVjYxNlRzbl9tRHduMVU3d3lOUnZMeGt4ZXZBeEdDa1RUVlotRm9aQXYya0RNcy1TZWtQUWpBWFc0Um5rd2RiblJHWmJwZEpBdmkzWHF4eHpoTFIwTTRDcHU5ci1hcGt3X1JXaC1qdXNLSkh6SHVNRlVKSDl2bG9rQWZKVHhhMGhjYVotQU5CN3M?oc=5
+
+Abu Dhabi's TAQA issues $750 million blue bond to fund water projects    khaleejtimes.com
