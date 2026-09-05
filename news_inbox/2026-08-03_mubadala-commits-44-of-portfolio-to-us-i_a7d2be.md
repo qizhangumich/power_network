@@ -1,0 +1,5 @@
+# Mubadala commits 44% of portfolio to US interests
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxOTWk2REp6SFJaM1dIVDBRTjh3ekI0RkxLUzQ4eUtVLVVvektKWmFLM0dOLWt6RlRLTUY3bC1BMk13Tzl2NEVKZ09iNldMTVVTZTBpUVNITjFUNnVwN29YOW9zS0d5R2k5QU5fVkFpS2JoXzFDNlRrYlg2TFdXZnZ4ZWZXVzVjMmNkbVpwT2F1TE1xempReXQycVlWc2dGMF9qRFktWWtXUktfeXVla1E?oc=5
+
+Mubadala commits 44% of portfolio to US interests    thenationalnews.com

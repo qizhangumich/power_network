@@ -1,0 +1,5 @@
+# UAE Defies Hormuz Risks to Keep Crude Flowing to Global Market
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNcmp0eWgydU44aWI0UmhNZDVDTzQtbE9MbVM4LVYyN2NSRE1LMjN6MDlvcVVNYzI5Z2gwSHNmdUdaRFRRaWFjelFKYURWemtoV09sU2c0dGhYT0tna3RWM2lSOVk4bk5Ta1pqZEFtMFlJbnNTSVp1anhncEg0LWtYU21BS2FScTdjcnlCSGEzWmRMQS1RejRBQmRCRmtSZTdwRTluam5JTC1KVHhJRVdQa3JJMzZPWm5rQUNRSVVn?oc=5
+
+UAE Defies Hormuz Risks to Keep Crude Flowing to Global Market    Bloomberg.com
