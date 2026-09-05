@@ -386,6 +386,26 @@ const PEOPLE = [
     ["pdo","Executive Director Finance","executive","v"]]},
   {id:"salman_al_maimani", n:"Salman Al Maimani", t:2, p:58, s:"energy", roles:[
     ["pdo","HSE Director","executive","v"]]},
+  {id:"eng_saeed_bin", n:"Eng. Saeed bin Hamoud Al Maawali", t:2, p:62, s:"industry", roles:[
+    ["omanair","Executive Chairman","board","ns"]]},
+  {id:"stephen_kavanagh", n:"Stephen Kavanagh", t:2, p:52, s:"industry", roles:[
+    ["omanair","Board Member","board","ns"]]},
+  {id:"christopher_mueller", n:"Christopher Mueller", t:2, p:52, s:"industry", roles:[
+    ["omanair","Board Member","board","ns"]]},
+  {id:"antonio_de_menezes", n:"Antonio De Menezes", t:2, p:52, s:"industry", roles:[
+    ["omanair","Board Member","board","ns"]]},
+  {id:"ahmed_tufail_al", n:"Ahmed Tufail Al Rahman", t:2, p:52, s:"industry", roles:[
+    ["omanair","Board Member","board","ns"]]},
+  {id:"abdul_rahman_bin", n:"Abdul Rahman bin Harith Al Busaidi", t:2, p:52, s:"industry", roles:[
+    ["omanair","Board Member","board","ns"]]},
+  {id:"haitham_bin_muhammad", n:"Haitham bin Muhammad Al Ghassani", t:2, p:52, s:"industry", roles:[
+    ["omanair","Board Member","board","ns"]]},
+  {id:"con_korfiatis", n:"Con Korfiatis", t:2, p:60, s:"industry", roles:[
+    ["omanair","Chief Executive Officer","executive","ns"]]},
+  {id:"hamood_al_alawi", n:"Hamood Al Alawi", t:2, p:60, s:"industry", roles:[
+    ["omanair","Deputy Chief Executive Officer","executive","ns"]]},
+  {id:"paul_starrs", n:"Paul Starrs", t:2, p:58, s:"industry", roles:[
+    ["omanair","Chief Commercial Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

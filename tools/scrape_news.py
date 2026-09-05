@@ -85,9 +85,9 @@ SOURCES = {
     ("QNA",              [],                                                      "https://www.qna.org.qa/en/news/economics"),
   ],
   "kuwait": [
-    ("Kuwait Times",     ["https://kuwaittimes.com/feed/"],                       "https://kuwaittimes.com/"),
+    ("Kuwait Times",     [],                                                      "https://kuwaittimes.com/"),
     ("KUNA",             [],                                                      "https://www.kuna.net.kw/Default.aspx?language=en"),
-    ("Al Qabas",         ["https://www.alqabas.com/feed"],                        "https://www.alqabas.com/"),
+    ("Al Qabas",         [],                                                      "https://www.alqabas.com/"),
     ("Al Rai",           [],                                                      "https://www.alraimedia.com/"),
   ],
   "bahrain": [
@@ -96,9 +96,9 @@ SOURCES = {
     ("BNA",              [],                                                      "https://www.bna.bh/en/"),
   ],
   "oman": [
-    ("Oman Observer",    ["https://www.omanobserver.om/feed"],                    "https://www.omanobserver.om/"),
+    ("Oman Observer",    [],                                                      "https://www.omanobserver.om/"),
     ("Times of Oman",    ["https://timesofoman.com/feed"],                        "https://timesofoman.com/"),
-    ("Muscat Daily",     ["https://www.muscatdaily.com/feed/"],                   "https://www.muscatdaily.com/"),
+    ("Muscat Daily",     [],                                                      "https://www.muscatdaily.com/"),
     ("ONA",              [],                                                      "https://omannews.gov.om/"),
   ],
 }

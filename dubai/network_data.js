@@ -591,6 +591,10 @@ const PEOPLE = [
     ["difc","Senior Vice President - Marketing & Corporate Communications at DIFC Authority","executive","v"]]},
   {id:"mohammad_yousuf_al", n:"Mohammad Yousuf Al Najjar", t:2, p:58, s:"finance", roles:[
     ["difc","Senior Vice President - Development and Projects, Property Development, DIFC Investments Ltd.","executive","v"]]},
+  {id:"ali_al_bwardy", n:"Ali Al Bwardy", t:2, p:62, s:"consumer_stap", roles:[
+    ["spinneys","Chairman","board","v"]]},
+  {id:"sunil_kumar", n:"Sunil Kumar", t:2, p:60, s:"consumer_stap", roles:[
+    ["spinneys","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

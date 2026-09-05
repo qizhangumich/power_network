@@ -495,6 +495,90 @@ const PEOPLE = [
     ["hassad","Board Member","board","v"]]},
   {id:"fahad_ali_al", n:"Fahad Ali Al-Kuwari", t:2, p:52, s:"consumer_stap", roles:[
     ["hassad","Board Member","board","v"]]},
+  {id:"sheikh_abdulla_bin", n:"Sheikh Abdulla Bin Ali Bin Jabor Al Thani", t:2, p:62, s:"finance", roles:[
+    ["cbq","Chairman","board","v"]]},
+  {id:"omar_hussain_ibrahim", n:"Omar Hussain Ibrahim Alfardan", t:2, p:62, s:"finance", roles:[
+    ["cbq","Vice-Chairman and Managing Director","board","v"]]},
+  {id:"sheikh_falah_hamad", n:"Sheikh Falah Hamad Jassim Al Thani", t:2, p:52, s:"finance", roles:[
+    ["cbq","Board Member","board","v"]]},
+  {id:"sheikh_jabor_bin", n:"Sheikh Jabor Bin Abdulla Bin Ali Al Thani", t:2, p:52, s:"finance", roles:[
+    ["cbq","Board Member","board","v"]]},
+  {id:"hussain_omar_alfardan", n:"Hussain Omar Alfardan", t:2, p:52, s:"finance", roles:[
+    ["cbq","Board Member","board","v"]]},
+  {id:"mohamad_ismail_mandani", n:"Mohamad Ismail Mandani Al Emadi", t:2, p:52, s:"finance", roles:[
+    ["cbq","Board Member","board","v"]]},
+  {id:"salem_khalaf_al", n:"Salem Khalaf Al Mannai", t:2, p:52, s:"finance", roles:[
+    ["cbq","Board Member","board","v"]]},
+  {id:"ibrahim_jassim_al", n:"Ibrahim Jassim Al-Othman Fakhro", t:2, p:52, s:"finance", roles:[
+    ["cbq","Board Member","board","v"]]},
+  {id:"saleh_majed_al", n:"Saleh Majed Al Khulaifi", t:2, p:52, s:"finance", roles:[
+    ["cbq","Board Member","board","v"]]},
+  {id:"mohammed_yaser_al", n:"Mohammed Yaser Al Mosallam", t:2, p:52, s:"finance", roles:[
+    ["cbq","Board Member","board","v"]]},
+  {id:"mohammed_ahmad_al", n:"Mohammed Ahmad Al Mulla", t:2, p:52, s:"finance", roles:[
+    ["cbq","Board Member","board","v"]]},
+  {id:"stephen_moss", n:"Stephen Moss", t:2, p:60, s:"finance", roles:[
+    ["cbq","Group Chief Executive Officer","executive","v"]]},
+  {id:"omran_y_m", n:"Omran Y M H Al Sherawi", t:2, p:58, s:"finance", roles:[
+    ["cbq","EGM Treasury and Investments","executive","v"]]},
+  {id:"fahad_badar", n:"Fahad Badar", t:2, p:58, s:"finance", roles:[
+    ["cbq","EGM and Chief Wholesale and International Banking Officer","executive","v"]]},
+  {id:"shahnawaz_rashid", n:"Shahnawaz Rashid", t:2, p:46, s:"finance", roles:[
+    ["cbq","EGM and Head of Retail Banking","executive","v"]]},
+  {id:"rana_a_a", n:"Rana A A Salatt", t:2, p:58, s:"finance", roles:[
+    ["cbq","EGM and Chief Internal Audit Officer","executive","v"]]},
+  {id:"ghinwa_baradhi", n:"Ghinwa Baradhi", t:2, p:58, s:"finance", roles:[
+    ["cbq","EGM and Chief Operating Officer","executive","v"]]},
+  {id:"ayman_gharib", n:"Ayman Gharib", t:2, p:58, s:"finance", roles:[
+    ["cbq","EGM and Chief Legal Officer","executive","v"]]},
+  {id:"eiman_m_al", n:"Eiman M Al-Naemi", t:2, p:58, s:"finance", roles:[
+    ["cbq","EGM and Chief Communications and Marketing Officer","executive","v"]]},
+  {id:"noman_ali", n:"Noman Ali", t:2, p:58, s:"finance", roles:[
+    ["cbq","EGM Chief Financial Officer and Chief Sustainability Officer","executive","v"]]},
+  {id:"nasser_alharmi", n:"Nasser AlHarmi", t:2, p:58, s:"finance", roles:[
+    ["cbq","EGM and Chief Human Resources Officer","executive","v"]]},
+  {id:"abdulla_ahmed_a", n:"Abdulla Ahmed A A Al-Fadli", t:2, p:58, s:"finance", roles:[
+    ["cbq","EGM and Chief Compliance Officer","executive","v"]]},
+  {id:"muzaffer_gokhan_songul", n:"Muzaffer Gokhan Songul", t:2, p:58, s:"finance", roles:[
+    ["cbq","Acting EGM and Chief Risk Officer","executive","v"]]},
+  {id:"h_e_sheikh", n:"H.E. Sheikh Jassim bin Hamad bin Jassim bin Jaber Al-Thani", t:2, p:62, s:"industry", roles:[
+    ["milaha","Chairman","board","v"]]},
+  {id:"h_e_sheikh_b", n:"H.E. Sheikh Khalid bin Khalifa bin Jassim Fahad Al-Thani", t:2, p:62, s:"industry", roles:[
+    ["milaha","Vice Chairman","board","v"]]},
+  {id:"h_e_sheikh_b_b", n:"H.E. Sheikh Abdulrahman bin Saud Al Thani", t:2, p:52, s:"industry", roles:[
+    ["milaha","Board Member","board","v"]]},
+  {id:"h_e_sheikh_b_b_b", n:"H.E. Sheikh Suhaim bin Khaled bin Hamad Al-Thani", t:2, p:52, s:"industry", roles:[
+    ["milaha","Board Member","board","v"]]},
+  {id:"h_e_sheikh_b_b_b_b", n:"H.E. Sheikh Hamad bin Mohammed Khalid Al-Thani", t:2, p:52, s:"industry", roles:[
+    ["milaha","Board Member","board","v"]]},
+  {id:"saad_mohammad_saad", n:"Saad Mohammad Saad Al-Romaihi", t:2, p:52, s:"industry", roles:[
+    ["milaha","Board Member","board","v"]]},
+  {id:"adel_ali_bin", n:"Adel Ali Bin Ali", t:2, p:52, s:"industry", roles:[
+    ["milaha","Board Member","board","v"]]},
+  {id:"hamad_bin_mohammad", n:"Hamad bin Mohammad Al-Mana", t:2, p:52, s:"industry", roles:[
+    ["milaha","Board Member","board","v"]]},
+  {id:"dr_mazen_jassim", n:"Dr. Mazen Jassim Jaidah", t:2, p:52, s:"industry", roles:[
+    ["milaha","Board Member","board","v"]]},
+  {id:"hitmi_ali_khalifa", n:"Hitmi Ali Khalifa Al Hitmi", t:2, p:52, s:"industry", roles:[
+    ["milaha","Board Member","board","v"]]},
+  {id:"mohammed_ebrahim_al", n:"Mohammed Ebrahim Al-Sulaiti", t:2, p:52, s:"industry", roles:[
+    ["milaha","Board Member","board","v"]]},
+  {id:"fahad_saad_al", n:"Fahad Saad Al-Qahtani", t:2, p:60, s:"industry", roles:[
+    ["milaha","Group Chief Executive Officer","executive","v"]]},
+  {id:"akram_bashir_iswaiki", n:"Akram Bashir Iswaiki", t:2, p:58, s:"industry", roles:[
+    ["milaha","Executive Vice President Finance & Investments","executive","v"]]},
+  {id:"hamad_saeed_al", n:"Hamad Saeed Al Hajri", t:2, p:58, s:"industry", roles:[
+    ["milaha","Executive Vice President Support Services","executive","v"]]},
+  {id:"ibrahim_abdulla_al", n:"Ibrahim Abdulla Al-Derbasti", t:2, p:58, s:"industry", roles:[
+    ["milaha","Executive Vice President Offshore & Marine","executive","v"]]},
+  {id:"ali_mohamed_al", n:"Ali Mohamed Al-Kuwari", t:2, p:58, s:"industry", roles:[
+    ["milaha","Executive Vice President Marine & Technical Services","executive","v"]]},
+  {id:"kris_brusselmans", n:"Kris Brusselmans", t:2, p:58, s:"industry", roles:[
+    ["milaha","Executive Vice President Maritime & Logistics","executive","v"]]},
+  {id:"hammad_ahmad_usmani", n:"Hammad Ahmad Usmani", t:2, p:58, s:"industry", roles:[
+    ["milaha","Acting Chief Internal Auditor","executive","v"]]},
+  {id:"h_e_sheikh_b_b_b_b_b", n:"H.E. Sheikh Ahmed bin Khalid bin Ahmed bin Sultan Al-Thani", t:2, p:58, s:"finance", roles:[
+    ["qcb","Deputy Governor","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

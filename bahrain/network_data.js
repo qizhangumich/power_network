@@ -323,6 +323,16 @@ const PEOPLE = [
     ["gulfair","Senior Vice President - Corporate Communications","executive","v"]]},
   {id:"buthaina_traif", n:"Buthaina Traif", t:2, p:58, s:"industry", roles:[
     ["gulfair","Senior Vice President - Network Strategy & Partnerships","executive","v"]]},
+  {id:"renato_juric", n:"Renato Juric", t:2, p:60, s:"consumer_stap", roles:[
+    ["bmmi","Chief Executive Officer","executive","v"]]},
+  {id:"basel_al_madani", n:"Basel Al Madani", t:2, p:60, s:"consumer_stap", roles:[
+    ["bmmi","Deputy Chief Executive Officer","executive","v"]]},
+  {id:"masooma_alturkamani", n:"Masooma AlTurkamani", t:2, p:46, s:"consumer_stap", roles:[
+    ["bmmi","Head of People","executive","v"]]},
+  {id:"vinicius_almeida", n:"Vinicius Almeida", t:2, p:46, s:"consumer_stap", roles:[
+    ["bmmi","Head of Supply Chain","executive","v"]]},
+  {id:"santosh_kumar", n:"Santosh Kumar", t:2, p:46, s:"consumer_stap", roles:[
+    ["bmmi","Head of Finance","executive","v"]]},
 ];
 
 const OWNERSHIP = [

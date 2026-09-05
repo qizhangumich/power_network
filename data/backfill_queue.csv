@@ -2,14 +2,12 @@
 abudhabi,scfea,Supreme Council for Financial & Economic Affairs,gov,95,1,pending
 dubai,icd,Investment Corporation of Dubai,sovereign,95,1,pending
 dubai,execco,Dubai Executive Council,gov,94,1,pending
-kuwait,kia,Kuwait Investment Authority,sovereign,92,1,pending
 saudi,moenergy,Ministry of Energy,energy,90,1,pending
 abudhabi,dof,Department of Finance,gov,88,1,pending
 abudhabi,royalgroup,Royal Group,sovereign,88,1,pending
 saudi,mod_sa,Ministry of Defense,gov,88,1,pending
 qatar,mofin,Ministry of Finance,gov,86,1,pending
 qatar,moi_q,Ministry of Interior,gov,86,1,pending
-qatar,qcb,Qatar Central Bank,finance,86,1,pending
 qatar,aljazeera,Al Jazeera Media Network,comm,86,1,pending
 saudi,mof_sa,Ministry of Finance,gov,86,1,pending
 saudi,mofa_sa,Ministry of Foreign Affairs,gov,86,1,pending
@@ -28,7 +26,6 @@ oman,mof_om,Ministry of Finance,gov,82,1,pending
 qatar,qelng,QatarEnergy LNG,energy,82,1,pending
 saudi,misa,Ministry of Investment,gov,82,1,pending
 abudhabi,dct,Department of Culture & Tourism,gov,80,1,pending
-abudhabi,alphadhabi,Alpha Dhabi Holding,sovereign,80,0,pending
 abudhabi,eia,Emirates Investment Authority,sovereign,80,1,pending
 abudhabi,microsoft,Microsoft,tech,80,0,pending
 bahrain,cbb,Central Bank of Bahrain,finance,80,1,pending
@@ -39,7 +36,6 @@ saudi,mep_sa,Ministry of Economy & Planning,gov,80,1,pending
 abudhabi,dge,Department of Government Enablement,gov,78,1,pending
 abudhabi,adek,Department of Education & Knowledge,gov,78,1,pending
 abudhabi,chimera,Chimera Investments,sovereign,78,0,pending
-abudhabi,adnocgas,ADNOC Gas,energy,78,1,pending
 abudhabi,ewec,Emirates Water & Electricity Company,utilities,78,1,pending
 abudhabi,ega,Emirates Global Aluminium,materials,78,1,pending
 bahrain,mofa_bh,Ministry of Foreign Affairs,gov,78,1,pending
@@ -148,7 +144,6 @@ qatar,shura,Shura Council,gov,70,1,pending
 qatar,momun_q,Ministry of Municipality,gov,70,1,pending
 qatar,molsa_q,Ministry of Labour,gov,70,1,pending
 qatar,kahramaa,Kahramaa (General Electricity & Water),utilities,70,1,pending
-qatar,cbq,Commercial Bank of Qatar,finance,70,1,pending
 qatar,qse,Qatar Stock Exchange,finance,70,1,pending
 qatar,alfaisal,Al Faisal Holding,conglomerate,70,1,pending
 qatar,exxonmobil,ExxonMobil,energy,70,0,pending
@@ -162,7 +157,6 @@ saudi,habib,Dr. Sulaiman Al Habib Medical Group,health,70,1,pending
 saudi,olayan,Olayan Group,conglomerate,70,1,pending
 abudhabi,hub71,Hub71,tech,68,1,pending
 abudhabi,fertiglobe,Fertiglobe,materials,68,1,pending
-abudhabi,burjeel,Burjeel Holdings,health,68,1,pending
 abudhabi,nmdc,NMDC Group,industry,68,1,pending
 abudhabi,khalifa_u,Khalifa University,education,68,1,pending
 dubai,dfm,Dubai Financial Market,finance,68,1,pending
@@ -214,10 +208,8 @@ bahrain,bhb,Bahrain Bourse,finance,64,0,pending
 bahrain,kanoo,Yusuf bin Ahmed Kanoo Group,conglomerate,64,1,pending
 kuwait,moinfo_kw,Ministry of Information & Culture,gov,64,1,pending
 kuwait,kwmun,Kuwait Municipality,gov,64,1,pending
-kuwait,mabanee,Mabanee (The Avenues),realestate,64,1,pending
 northern,aus,American University of Sharjah,education,64,1,pending
 northern,fujoilzone,Fujairah Oil Industry Zone,energy,64,1,pending
-oman,omanair,Oman Air,industry,64,0,pending
 oman,msx,Muscat Stock Exchange,finance,64,0,pending
 oman,zubair,The Zubair Corporation,conglomerate,64,1,pending
 qatar,nebras,Nebras Power,utilities,64,0,pending
@@ -225,7 +217,6 @@ qatar,dohabank,Doha Bank,finance,64,1,pending
 qatar,scdl,SC Delivery & Legacy (World Cup legacy),gov,64,1,pending
 qatar,barwa,Barwa Real Estate,realestate,64,1,pending
 qatar,mwani,Mwani Qatar (Ports),industry,64,0,pending
-qatar,milaha,Milaha (Qatar Navigation),industry,64,0,pending
 qatar,baladna,Baladna,consumer_stap,64,1,pending
 qatar,eni,Eni,energy,64,0,pending
 saudi,srmg,SRMG,comm,64,1,pending
@@ -271,11 +262,7 @@ abudhabi,trojan,Trojan Holding,industry,60,1,pending
 abudhabi,bcg,Boston Consulting Group,industry,60,0,pending
 bahrain,edamah,Edamah (Bahrain Real Estate),realestate,60,1,pending
 bahrain,alzayani,Al Zayani Investments,conglomerate,60,0,pending
-dubai,spinneys,Spinneys,consumer_stap,60,0,pending
 dubai,jumaalmajid,Juma Al Majid Group,conglomerate,60,0,pending
-kuwait,gulfbank,Gulf Bank,finance,60,0,pending
-kuwait,jazeera,Jazeera Airways,industry,60,1,pending
-kuwait,mezzan,Mezzan Holding,consumer_stap,60,0,pending
 kuwait,knet,KNET (payments network),tech,60,0,pending
 northern,thumbay,Thumbay Group,health,60,0,pending
 northern,srtip,Sharjah Research Technology & Innovation Park,tech,60,0,pending
@@ -296,7 +283,6 @@ abudhabi,alisons,Ali & Sons Holding,conglomerate,58,1,pending
 abudhabi,pwc,PwC Middle East,industry,58,0,pending
 abudhabi,altamimi,Al Tamimi & Company,industry,58,1,pending
 abudhabi,raytheon_em,Raytheon Emirates,industry,58,0,pending
-bahrain,bmmi,BMMI Group,consumer_stap,58,0,pending
 kuwait,shamalazzour,Shamal Az-Zour Al-Oula (IWPP),utilities,58,0,pending
 kuwait,alsayer,Al Sayer Group,conglomerate,58,0,pending
 oman,almouj,Al Mouj Muscat,realestate,58,0,pending

@@ -100,7 +100,7 @@ zaki,Zaki Anwar Nusseibeh,prescourt,UAE Presidential Court,Cultural Adviser to t
 zaki,Zaki Anwar Nusseibeh,uaeu,United Arab Emirates University,Chancellor,executive,v,
 hana,Hana Al Rostamani,fab,First Abu Dhabi Bank,Group CEO,executive,v,
 alaa,Ala'a Eraiqat,adcb,Abu Dhabi Commercial Bank,Group CEO,executive,v,
-abdelbary,Mohamed Abdelbary,adib,Abu Dhabi Islamic Bank,Group CEO,executive,ns,
+abdelbary,Mohamed Abdelbary,adib,Abu Dhabi Islamic Bank,Group CEO,executive,v,
 jayesh,Jayesh Patel,wio,Wio Bank,CEO,executive,v,
 adx_ceo,Abdulla Salem Alnuaimi,adx,Abu Dhabi Securities Exchange,Group CEO,executive,ns,
 waleed,Waleed Al Mokarrab Al Muhairi,mubadala,Mubadala Investment Company,Deputy Group CEO,executive,v,
@@ -119,7 +119,7 @@ ramahi,Mohamed Jameel Al Ramahi,masdar,Masdar,CEO,executive,v,
 hammadi_enec,Mohamed Ibrahim Al Hammadi,enec,Emirates Nuclear Energy Company (Barakah),Managing Director & CEO,executive,v,
 musabbeh,Musabbeh Al Kaabi,adnoc,ADNOC Group,"Executive Director, Low Carbon Solutions & International Growth",executive,v,
 abdulmunim,Abdulmunim Saif Al Kindy,adnoc,ADNOC Group,"Executive Director, Upstream",executive,ns,
-fatema,Fatema Al Nuaimi,adnocgas,ADNOC Gas,CEO,executive,ns,
+fatema,Fatema Al Nuaimi,adnocgas,ADNOC Gas,CEO,executive,v,
 seiari,Abdulrahman Al Seiari,adnocdrill,ADNOC Drilling,CEO,executive,ns,
 masabi,Capt. Abdulkareem Al Masabi,adnocls,ADNOC Logistics & Services,CEO,executive,ns,
 lamki,Bader Saeed Al Lamki,adnocdist,ADNOC Distribution,CEO,executive,v,
@@ -405,3 +405,37 @@ khaled_al_tenaiji,Khaled Al Tenaiji,e_and,,Chief Legal & Compliance Officer,exec
 ilya_kiykov,Ilya Kiykov,e_and,,Group Chief Corporate Development Officer,executive,v
 ahmed_al_shamsi,Ahmed Al Shamsi,e_and,,Group Chief Corporate Affairs Officer,executive,v
 mohamed_dukandar,Mohamed Dukandar,e_and,,Group Chief Risk & Assurance Officer,executive,v
+mohammed_thani_murshed,Mohammed Thani Murshed Al Rumaithi,alphadhabi,,Chairman,board,v
+sultan_dhahi_sultan,Sultan Dhahi Sultan Massam Alhemeiri,alphadhabi,,Independent Non-Executive Director,board,v
+hamad_ameri,Eng. Hamad Al Ameri,alphadhabi,,Managing Director and Group Chief Executive Officer,executive,v
+fadi_sleiman,Fadi Sleiman,alphadhabi,,Group Chief Finance Officer,executive,v
+khalil_c_massoud,Khalil C. Massoud,alphadhabi,,Chief Investment Officer,executive,v
+derek_nicholson,Derek Nicholson,alphadhabi,,Chief Strategy & Investor Relations Officer,executive,v
+iman_khalid_ali,Iman Khalid Ali Al Marzouqi,alphadhabi,,Group Chief Support Services Officer,executive,v
+samy_ben_jaafar,Samy Ben-Jaafar,alphadhabi,,Director Sustainability & Treasury,executive,v
+manuel_angel_iglesias,Manuel Angel Iglesias Fraiz,alphadhabi,,Group Head of Governance Risk & Compliance,executive,v
+saif_sultan_zayed,Saif Sultan Zayed Alfalahi,burjeel,,Vice Chairman and Non-Executive Director (Independent),board,v
+mohd_loay_t,Mohd Loay T A Abdelfattah,burjeel,,Non-Executive Director (Independent),board,v
+dr_shabeena_yusuffali,Dr. Shabeena Yusuffali,burjeel,,Non-Executive Director,board,v
+ravi_rajagopal,Ravi Rajagopal,burjeel,,Non-Executive Director (Independent),board,v
+omran_al_khoori,Omran Al Khoori,burjeel,,Executive Director and President Business Development,executive,v
+muhammed_shihabuddin,Muhammed Shihabuddin,burjeel,,Chief Financial Officer,executive,v
+mohammad_fityan,Mohammad Fityan,burjeel,,Chief Medical Officer,executive,v
+khaled_musallam,Khaled Musallam,burjeel,,Chief Research Officer,executive,v
+mustasan_jaleel_basharat,Mustasan Jaleel Basharat,burjeel,,Chief Legal Counsel,executive,v
+vanitha_nitin,Vanitha Nitin,burjeel,,Vice President Human Resources,executive,v
+syed_basar,Syed Basar Shueb,alphadhabi,Alpha Dhabi Holding,Independent Non-Executive Director,board,v,
+shamsheer,Dr. Shamsheer Vayalil,burjeel,Burjeel Holdings,Chief Executive Officer,executive,v,
+sultan_jaber,Dr. Sultan Ahmed Al Jaber,adnocgas,ADNOC Gas,Chairperson,board,v,
+kamal_ishaq_almaazmi,Kamal Ishaq Almaazmi,adnocgas,ADNOC Gas,Board Member,board,v,
+khaled_zaabi_cfo,Khaled Al Zaabi,adnocgas,ADNOC Gas,Board Member,board,v,
+nasser_almuhairi,Nasser Al Muhairi,adnocgas,ADNOC Gas,Board Member,board,v,
+abdulmunim,Abdulmunim Saif Al Kindy,adnocgas,ADNOC Gas,Board Member,board,v,
+musabbeh,Musabbeh Al Kaabi,adnocgas,ADNOC Gas,Board Member,board,v,
+hisham_khalid_malak,Hisham Khalid Malak,adx,Abu Dhabi Securities Exchange,Chairman (2022-Jan 2024),board,v,former:until Jan 2024
+peter_van_driel,Peter van Driel,adnocgas,,Chief Financial Officer,executive,v
+mohamed_al_hashemi,Mohamed Al Hashemi,adnocgas,,Chief Operating Officer,executive,v
+maitha_balfaqeeh,Maitha Balfaqeeh,adnocgas,,Senior Vice President Shared Services,executive,v
+rashid_al_mazrouei,Rashid Al Mazrouei,adnocgas,,Senior Vice President Marketing,executive,v
+saud_mohamed_al,Saud Mohamed Al Hammadi,adnocgas,,"Vice President Health, Safety & Environment",executive,v
+tjalling_wiersma,Tjalling Wiersma,adnocgas,,"General Counsel - Legal, Corporate Governance & Compliance",executive,v
