@@ -1,5 +1,0 @@
-# AD Ports Group Signs Official Logistics Partnership with Team Abu Dhabi for the 2026 UIM F1H2O World Championship
-source: Cyprus Shipping News
-url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaVY0bTlpQ0hBOUlTRWM3S0N2bU1KdkR4OEgxVW5BWDMtaUY3UWNrbW1VOExMQVFQTVdaZWU3ZXZTYzBpNnQxaXd6Z0FyaU1EVF9tT1RVajhJckFaaEJJMkVaMDBsc2h3akNPUGstY0NrVnM0eW1QY0o3aTd3Q2lveVh0TC12QjJIUjFjcXVHZ05pUVRMUG1NQ2NMXzE1N0ZZNG1PNDNPYkVDSHgxTVM5VFZETnhIRWl3dkRmMmpLWF9oWGdqbjM3OEhlbEh6XzM4S2syQWY1QTd2dE81NHkzcDZKeU8yRGlKNzgtNQ?oc=5
-
-AD Ports Group Signs Official Logistics Partnership with Team Abu Dhabi for the 2026 UIM F1H2O World Championship    Cyprus Shipping News

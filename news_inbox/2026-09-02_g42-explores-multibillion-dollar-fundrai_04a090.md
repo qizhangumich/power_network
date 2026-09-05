@@ -1,0 +1,5 @@
+# G42 explores multibillion-dollar fundraising round - Bloomberg By Investing.com
+source: Investing.com South Africa
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxOMjlyeU42Q0Zac2FIZjVZSllIUkNpd192OXByNzNCaWs4MXNINjRCSkY1d1N6TEYtSXplVHVkaFdQdUNYamdkdm9tNDh1dFl6Ri03SVc4WkpXM2V1Nm9CVUMxR3lvcURRSkxQRFRFRnplYkhfa3BEcEdWQ2RwV0tnWDUyb1dUR3RLNHBQOEI3NmJhb0p4YzUxYWt5WUdScnA0ZS11V1N2MXk3bmJuSzRONkRjV0xjSHc5RUxJMVI2UkhDMmJrZ1dIa0I0TVNjZw?oc=5
+
+G42 explores multibillion-dollar fundraising round - Bloomberg By Investing.com    Investing.com South Africa

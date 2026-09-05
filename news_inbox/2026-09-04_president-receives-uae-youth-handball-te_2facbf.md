@@ -1,0 +1,5 @@
+# President receives UAE youth handball team following qualification for 2027 World Championship
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZVNSVDlNVTNySTZFNXZ0NjEwN1N1aXlKTjYzcjJWRzRpNm9SRXFjVmZ5UHpHR010V2QtMjV6TVFIUWhFRHU2cTJJbkFhalNoajFLYnBRT2VYM3I0QUlLY2pkQ1lMYW40Rkd0aW1PWWpsM3p5R3hDT29uUTB3dWQwQ0gxdi11RHJWTUQyd0lUT2FHVDM5Wl9qMU1mUGpRX0JkN0tsemp3QS1oZzY4b1lzUmtmOXpQcm43SVNqQ2dvUmRZa0xwLXA4Wmt4b0xUMTdnNFE?oc=5
+
+President receives UAE youth handball team following qualification for 2027 World Championship    Gulf Today

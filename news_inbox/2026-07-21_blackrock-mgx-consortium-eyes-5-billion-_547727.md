@@ -1,5 +1,0 @@
-# BlackRock-MGX Consortium Eyes $5 Billion Aligned Data Centers Expansion
-source: Bloomberg.com
-url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQc3JLMm80V0NuWjlCQzgxU1hEY3JvZzhhcU9mVWFOWGR4MEZ1Y2VEOVpDRDBrV29KM0UwaEF6Y3pwSEdJOGVRZlBlNzdjRTh3MlBHZlZpTVZZcVB2WV9BSFZqcXB0TGNwNXZJOTdBeWZmTk5QSUxqM1E1WHVfYXZ3VDRiVU1HZUhvdmZJaGZfMklSR1U0dS1jeVdqeWFhTmNlZnd0d2g0NG5DcWNlWXBpTmItZ2l4NVVUdlVZV1dB?oc=5
-
-BlackRock-MGX Consortium Eyes $5 Billion Aligned Data Centers Expansion    Bloomberg.com

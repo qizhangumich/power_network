@@ -1,0 +1,5 @@
+# Etihad Airways marks 20 years of flying to France
+source: Drift Travel Magazine
+url: https://news.google.com/rss/articles/CBMif0FVX3lxTE5sdjhNUjhPdF9QZnc5OEdORzBnR1p2ZTl0SHhJR3lqd0RZVG42OFk3UTUzUlZRdl9qd2lqczdDQk5nSEE1aHg0TkR1VEcwM3FmWnJPaUdBU3FLQks2QTF5WU1rYnJXQjh1OV92NDF1ZHF6RTRWaS0xQlRSWjZBOHfSAYQBQVVfeXFMTVJ4TWJqdkVrV3B2dEE5Mm1zQ2IyUEx3V0VoVmlEZmp6RVR4QTREdzJEQnQ0V1dpb3hsMW5XT1NGZTBaaTk2MnEyd2dXSjhydzZjRHdUSkhHV3JLMlUwY180NHFhOExPa2dlcGpjVWNHcGJ3Wi0tMXZLS3BrU184QTBubm9y?oc=5
+
+Etihad Airways marks 20 years of flying to France    Drift Travel Magazine

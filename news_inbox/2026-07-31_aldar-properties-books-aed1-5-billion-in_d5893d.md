@@ -1,0 +1,5 @@
+# Aldar Properties Books AED1.5 Billion in Sales for New Residential Development in Abu Dhabi
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSGFIYzQySGFvanVNTVczamNhUXdBVk1hbmdDcHIzNi0tVW05TjdWY2c3NWxUWTFnV1lhcTJNbzBoRlRKbFI2WHVvWmdUWi1yZWRReml3OTBLYWNtTS15OGd3aXc5ekhhaW5LUDVRMjFlbWM5amJnYUFvM2ZGd01vajRCV0d4MlFHNmJNMjBBTFVVSl9KUVk3VUxqWkw4Zkl4aG1iOURvS0k2SEh0WGJ0d1FhSHh5MFNkT3ZlNlZzVThQV0l1a0ZJZkpXY1duZmpGdFhpN1otVW40c2ll?oc=5
+
+Aldar Properties Books AED1.5 Billion in Sales for New Residential Development in Abu Dhabi    marketscreener.com

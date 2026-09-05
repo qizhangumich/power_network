@@ -1,5 +1,0 @@
-# BlackRock-MGX consortium commits $5bn for Aligned Data Centres after closing acquisition
-source: thenationalnews.com
-url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxOOGljQnRKSkFTZUEwQ2FONDBPNzg0djZpTjlSeUlEdHktWE9zVk1XN2hiZU9LaEFNYXhRR0pmbWVYVnpKU2xlU1QwTy1jZVp3bHVzbTJheVFnVkU0TzI0SXJKNS1GelNxdUJtbUJad01tNWNnTEUxb095bF85UmtidGNZZE90eGd1WnMteE5HWHdyYUNBNHQtUE1FWWl2Xzk0dFprdVBhcUMyVDNwSHBFUFR5SnhGMTNzNXZpRGdvSFdEU0tBeFl3NzhmSE1UdUJvQ2xLS3lmMURaVWdlZ1R0eUpUWQ?oc=5
-
-BlackRock-MGX consortium commits $5bn for Aligned Data Centres after closing acquisition    thenationalnews.com
