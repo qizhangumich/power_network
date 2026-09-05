@@ -1,0 +1,5 @@
+# Sheikh Khaled bin Mohamed bin Zayed Chairs ADNOC Executive Committee
+source: Global Arab Network
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxQWXo0aDV0SHVua25wb0tRclg5T2FBZnVJcG1McWlGcVo0N00zblhTYTh5WV8ySnZNaFp2OFZGWmY5dWtMOFhJTkFVMzlBOWZuZ002Um1kcThQaGMxcVd2SmFFU3FEaVpMbzdybzdwbmdSWnFHZXhSUDN6MGxOZGw2UUhFbGZ1eGdKNGU4NUllVXBmV3lmeDN5UE5lTXNLQWJjUk9lWC1uZ0xNRG9TRzFZZnBZSjZMZnE1cmc?oc=5
+
+Sheikh Khaled bin Mohamed bin Zayed Chairs ADNOC Executive Committee    Global Arab Network

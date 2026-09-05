@@ -1,0 +1,5 @@
+# First off-plan mortgage under new ADREC framework completed
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTzB5Y3lwVUU0bVlTdFg3RDlSeXNNalNJZURwYnBSM3ZWb1I4Q2lHczlvMVE3am51ckJ1Xy1QeWdpMHNJVFBUMEtvc29FbEJ4MS1qVjY0UEdnLXlLZzQtVjg0Z2dKVm5xVE9Ma2FUUy1ic2FaQW1RZHVPOEhLMTBmb0ZPY0pZajdYZU1CWTFOMEN6b01YZ3htVjhpajdkM2thc3FJeWdpbXl3cGEwdGNlTDNzdlBvUnJwVzZZTC1jVnpELVk?oc=5
+
+First off-plan mortgage under new ADREC framework completed    Gulf Today

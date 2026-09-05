@@ -1,0 +1,5 @@
+# Masdar and EPCG advance partnership in Montenegro
+source: Energy Global
+url: https://news.google.com/rss/articles/CBMipgFBVV95cUxOQU5lWWtaZkJmNU5veUdoNUZmcWhFQzJwSVdnX1hXTWxiakFOMXZKOGo0aDc5cVZiSGFranNuZGJSRUZSSW9OVlpZd2IxZk9ZeGFLRWtfb2ZscFFYb2ItdVRad0VPREIwN1ptUjduTGsxSlkwZnZkYXJKYWFQeWNiN183R3lkbFZtM3NfcDRSZ1hmRXFoSWYya1l3cUZ3dm9CS0V2SHdn?oc=5
+
+Masdar and EPCG advance partnership in Montenegro    Energy Global
