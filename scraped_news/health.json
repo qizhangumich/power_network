@@ -105,9 +105,9 @@
   "last_success": "2026-09-03T17:12:26Z"
  },
  "regional/Bloomberg ME": {
-  "fails": 2,
+  "fails": 3,
   "freq_h": 24,
-  "last_attempt": "2026-09-04T20:26:11Z"
+  "last_attempt": "2026-09-05T20:03:17Z"
  },
  "regional/FT Middle East": {
   "fails": 0,
@@ -119,14 +119,14 @@
  "regional/MEED": {
   "fails": 0,
   "freq_h": 24,
-  "last_attempt": "2026-09-04T20:26:11Z",
-  "last_new": "2026-09-04T20:26:11Z",
-  "last_success": "2026-09-04T20:26:11Z"
+  "last_attempt": "2026-09-05T20:03:17Z",
+  "last_new": "2026-09-05T20:03:17Z",
+  "last_success": "2026-09-05T20:03:17Z"
  },
  "regional/Reuters ME": {
-  "fails": 2,
+  "fails": 3,
   "freq_h": 24,
-  "last_attempt": "2026-09-04T20:26:11Z"
+  "last_attempt": "2026-09-05T20:03:17Z"
  },
  "regional/Zawya": {
   "fails": 0,
@@ -138,14 +138,14 @@
  "saudi/Al Eqtisadiah": {
   "fails": 0,
   "freq_h": 24,
-  "last_attempt": "2026-09-04T20:26:11Z",
-  "last_new": "2026-09-04T20:26:11Z",
-  "last_success": "2026-09-04T20:26:11Z"
+  "last_attempt": "2026-09-05T20:03:17Z",
+  "last_new": "2026-09-05T20:03:17Z",
+  "last_success": "2026-09-05T20:03:17Z"
  },
  "saudi/Arab News": {
-  "fails": 2,
+  "fails": 3,
   "freq_h": 24,
-  "last_attempt": "2026-09-04T20:26:11Z"
+  "last_attempt": "2026-09-05T20:03:17Z"
  },
  "saudi/Argaam": {
   "fails": 0,
@@ -155,9 +155,9 @@
   "last_success": "2026-09-05T19:35:21Z"
  },
  "saudi/Asharq Business": {
-  "fails": 2,
+  "fails": 3,
   "freq_h": 24,
-  "last_attempt": "2026-09-04T20:26:11Z"
+  "last_attempt": "2026-09-05T20:03:17Z"
  },
  "uae/Gulf News": {
   "fails": 0,
