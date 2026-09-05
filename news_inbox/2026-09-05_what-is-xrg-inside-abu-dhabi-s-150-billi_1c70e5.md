@@ -1,0 +1,5 @@
+# What is XRG? Inside Abu Dhabi’s $150-billion bet on energy, chemicals and AI
+source: Khaleej Times
+url: https://news.google.com/rss/articles/CBMilwFBVV95cUxQQ2FQUTRHdV9LZURhSE1uMVdGMVM5eDNQQ2ZPX3dCQnBjUV9NaDBhYjZEcnNnV2V1bVljWnJUakpaUzNJcXE2dWZCRHlnZjlkRXhCbDk3VXJzdS1zZWJ3ZFBNYjFNVVZ3ZDhCb0hkdjFZbGF1SlNXVW9FMURmZE93MGcyLUdnM3EzVE1wQ0V5T0pSWkxEY2cw0gGfAUFVX3lxTE1QaEoyTkhVcUNnZzR4STJrLWNLZWVNUHBpcEI4bmVrejVfX0VzT085M3d2ckRIa0dZRHVwNHBMVXQxaEc2RlYwMG1vbkFFOHg1X1Nvbi1zdmlXaHVqZWJ6MFAzWHdVZFpEWUUwaUhEdEVna243VjFkZDVlaGwxZ0xSUmNQLWtfaVRONjRIU3BZUXNMdDFjX0c2cUY5N2JIOA?oc=5
+
+What is XRG? Inside Abu Dhabi’s $150-billion bet on energy, chemicals and AI    Khaleej Times

@@ -1,0 +1,5 @@
+# Abu Dhabi Investment Portfolio: 10 stocks rally up to 107% in CY26
+source: The Economic Times
+url: https://news.google.com/rss/articles/CBMigAJBVV95cUxNNTB6TnZCaDRwdnNRaXcxR0dGakxIYTd4aFJHX2F0SWFuZFVjNzdpOWtnVTJXcWJlZDdjcXAzS2tvckFkNV9NYlB0YlJSUWxrWjZGVDVxOXpnRHJLeEdSV2FVblQ1elhTV0lTYW5pcXNSZDZIR3QtUXZSVGZuRmFOSnlYOWc5aHVKeFdDcTZIcVcxZXhmZ09ucE5GbVZhUENSOXFMdXIwdmdVM1RvTnlRTjN5ckdLV0MwQzVlcTRKUFIxSDVDa0RZQkxEODZwY1pmN0ZTem1QLU9nUFU0TFlUcXh3ZEQ4QXFnQVVhWTVRY2FRY3hkV1NyZkF0VzBGTGdx?oc=5
+
+Abu Dhabi Investment Portfolio: 10 stocks rally up to 107% in CY26    The Economic Times
