@@ -1,0 +1,5 @@
+# Emirati Female Training Captain Makes UAE History in 2026
+source: FTN news
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbThuUXlCX3RvZVcwbHExRE5VYkliTUZpWnE5LS1DQUxEYjBoNFBUZWFfTVlNVmRrN3JmdFd1UE5WcUZEM0FrYjFGS0o1QTEyY2ViTEwzWTZDWWlDUzZ2U0haSFUydk1lcDFKZlpmUFNGR2V3Yl9oUVZHdFlXRUg3ai1Kd21pZS1nUVZwakJBNi0wTTY5YXVCckhubHV3amJVdVVkSWJTZ0R6bS1xamhlVWpZd0R2cDRLdnpza0sxUzBEOEluVmlyaFJUaUVFUEQ4WjE4OU1wTVdNTG8?oc=5
+
+Emirati Female Training Captain Makes UAE History in 2026    FTN news
