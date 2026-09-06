@@ -1,0 +1,5 @@
+# COP28 president-designate meets EU ministers to discuss climate plans and targets
+source: Arab News PK
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQ3hRN2g3ZlE5WFBwdUtKVEdaNXBzdGNsT0V5bFFBekNtZk9vQk1Ob1EydHA3MTVqdTJGMHBuWDMySk1YMFhGYUgyNmNUUEJ0M0pmMkZRb093SGh3am1sTTR1RmlIRVJWWmp4Z1FnWm9meExCQVVDQ2I1U3phQ0JUa3I3ZE9EZkRVMEpmeWdXMF83ODJhR3ExQXY1ZTRVSmNzSURNZHlVMExvSkxHRWl4TnZBU2JTVzZOVjdlZ08wNXlrcm8?oc=5
+
+COP28 president-designate meets EU ministers to discuss climate plans and targets    Arab News PK

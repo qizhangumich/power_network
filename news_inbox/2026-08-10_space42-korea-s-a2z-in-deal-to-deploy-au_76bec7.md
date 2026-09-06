@@ -1,0 +1,5 @@
+# Space42, Korea's A2Z in deal to deploy autonomous mobility solutions in UAE
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQ1E4cG1HRW1lWUxKVHplZW1WV0hzOFZHYXhrOUs4MzdHWlFfcWdGejY1bWtKa0R3UmFsckFTcDB4bHlKNUFEWDRweHpkZEE3LWdpVGxyU1FRN25kTGRWLTdPdUxtMWxYWjJ4Z2YzOURlYUpBcVBtejk3aHYxOVUtTE1rWmlYa2lXUlJDTXlseEMzVllmd0gxZlN5VDY1Q21RTUxoNDNkbGxia1Q5RzA0MFRMRlBfRTY1SWtia1Ezb3hsbjNNRlFLVTdKUUZVY1hBYVVsSHVzVQ?oc=5
+
+Space42, Korea's A2Z in deal to deploy autonomous mobility solutions in UAE    Zawya
