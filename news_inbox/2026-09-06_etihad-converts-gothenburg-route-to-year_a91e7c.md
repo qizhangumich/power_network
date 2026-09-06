@@ -1,0 +1,5 @@
+# Etihad converts Gothenburg route to year-round before seasonal debut
+source: latteluxurynews.com
+url: https://news.google.com/rss/articles/CBMirAFBVV95cUxPQzZEaHQ3UEwwU1RWZmoyWGRXMmwycUhWZlJaTzNCc2dUaTFNTnZkU2FwblQ2V2QwRUdwbGEzdXJnczFXREJxb21DaGxSYkt2NmdIZnVPTXo5WUZ1YWZUaU5hUnpNcTFkX1hVem5fUGVxWjk2aHJGTE1EU19uV21aOVlHX0xYTThkT2Fpd0d5ZWNFZHFMdDdhQU13dmhvV0J3UFBET19hWkRoZWJW?oc=5
+
+Etihad converts Gothenburg route to year-round before seasonal debut    latteluxurynews.com
