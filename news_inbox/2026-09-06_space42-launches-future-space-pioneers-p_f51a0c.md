@@ -1,0 +1,5 @@
+# Space42 Launches Future Space Pioneers Programme for Emirati Students
+source: CairoScene
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxOMTlzVHl3Sm1IakZVWDRGaUpTbGNvSHRvYXRwZmZkNnI2Rk5KTjVnUE9vSHZDYy1oV1F3bmJRcFJqdWd3TWlidkdNem1wajlmSl9XSElzNlhGOEpCdERDZ2gxdVZzcVpEU2w3VzFzdWNJNkM5X1ZDUWNibzdOT1ZkNmxvRXFCV2gtZlZtUFpRWUJEUG16NXlTVmVoaHhvNTlfdkRN?oc=5
+
+Space42 Launches Future Space Pioneers Programme for Emirati Students    CairoScene

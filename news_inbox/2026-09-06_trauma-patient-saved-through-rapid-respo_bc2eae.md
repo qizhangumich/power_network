@@ -1,0 +1,5 @@
+# Trauma patient saved through rapid response at Sheikh Tahnoon Bin Mohammed Medical City
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNY1lFWEd1ZzNnMUxRajB3cGpONGw3aHJYcEItTFpWNjlLVXdXY1RfNVRRYjB4SUwwamtOX3NaLUhGWk53UkVxTlRFbDBlYllrNGlpN2xiTE8xU1JSMVdGTEUxeWxMaE5rMWYtb2hzc0xvbkNOQkljMFFIcFJObDF0ejRmN1lYTEE4cy1hRU5wcUZKc1AxMldRMlBVNVlFSVFRSUJuN3VmaTlSazBad1BUbm9JRmlsY2ViY1o1STItUHMxb0VsYUl3?oc=5
+
+Trauma patient saved through rapid response at Sheikh Tahnoon Bin Mohammed Medical City    Gulf Today

@@ -1,0 +1,5 @@
+# Aldar Properties Qtrly Profit 2.17 Bln Dirhams
+source: TradingView
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPN2xROG9ZWjJwZHRFV3pSNS03NGdScG5qN0xkdzZnTnU3Vklocnc5Nm16QWNkNnkzdFZDR29vS09YWC04bUo1S2k0bHBtckd6Q2hWQ2ZfVXFXRGVDcFJvMFlNNzFHbzRhaW9aa3JlX3BabHN5eHhtN2V4VTJtSUt2ZnhBWTZPX0oyQWxIX0JJS1V5Vjg1akpLLTlSWVBCQ05qYzRlcU1wMUNzcmRib25fS3pHSVltVlE?oc=5
+
+Aldar Properties Qtrly Profit 2.17 Bln Dirhams    TradingView
