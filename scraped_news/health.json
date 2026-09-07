@@ -20,14 +20,6 @@
   "last_new": "2026-09-07T03:28:20Z",
   "last_success": "2026-09-07T03:28:20Z"
  },
-<<<<<<< Updated upstream
- "kuwait/Al Qabas": {
-  "fails": 11,
-  "freq_h": 6,
-  "last_attempt": "2026-09-07T03:28:20Z"
- },
-=======
->>>>>>> Stashed changes
  "kuwait/Al Rai": {
   "fails": 0,
   "freq_h": 6,
@@ -108,11 +100,6 @@
   "last_new": "2026-09-03T17:12:26Z",
   "last_success": "2026-09-03T17:12:26Z"
  },
- "regional/Bloomberg ME": {
-  "fails": 4,
-  "freq_h": 24,
-  "last_attempt": "2026-09-06T20:07:35Z"
- },
  "regional/FT Middle East": {
   "fails": 0,
   "freq_h": 12,
@@ -126,11 +113,6 @@
   "last_attempt": "2026-09-06T20:07:35Z",
   "last_new": "2026-09-05T20:03:17Z",
   "last_success": "2026-09-06T20:07:35Z"
- },
- "regional/Reuters ME": {
-  "fails": 4,
-  "freq_h": 24,
-  "last_attempt": "2026-09-06T20:07:35Z"
  },
  "regional/Zawya": {
   "fails": 0,
@@ -157,11 +139,6 @@
   "last_attempt": "2026-09-07T03:28:20Z",
   "last_new": "2026-09-07T03:28:20Z",
   "last_success": "2026-09-07T03:28:20Z"
- },
- "saudi/Asharq Business": {
-  "fails": 4,
-  "freq_h": 24,
-  "last_attempt": "2026-09-06T20:07:35Z"
  },
  "uae/Gulf News": {
   "fails": 0,

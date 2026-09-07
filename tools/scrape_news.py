@@ -44,7 +44,6 @@ TIMEOUT = 25
 DEFAULT_FREQ_H = 6
 FREQ_HOURS = {
     "MEED": 24,             # weekly magazine; daily briefing at most
-    "Bloomberg ME": 24,     # bot-walled; syndication covers it
     "Reuters ME": 24,       # bot-walled
     "FT Middle East": 12,
     "Arab News": 24,        # bot-walled
@@ -61,11 +60,8 @@ SOURCES = {
     ("AGBI",             ["https://www.agbi.com/feed/"],                          "https://www.agbi.com/"),
     ("Arabian Business", ["https://www.arabianbusiness.com/feed"],                "https://www.arabianbusiness.com/"),
     ("Zawya",            ["https://www.zawya.com/en/rss"],                        "https://www.zawya.com/en/business"),
-    ("Reuters ME",       ["https://www.reuters.com/arc/outboundfeeds/rss/category/middle-east/?outputType=xml"],
-                                                                                  "https://www.reuters.com/world/middle-east/"),
     ("FT Middle East",   ["https://www.ft.com/middle-east?format=rss"],           "https://www.ft.com/middle-east"),
     ("MEED",             ["https://www.meed.com/feed"],                           "https://www.meed.com/"),
-    ("Bloomberg ME",     [],                                                      "https://www.bloomberg.com/middleeast"),
   ],
   "uae": [
     ("The National",     ["https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml"],
@@ -77,7 +73,6 @@ SOURCES = {
     ("Arab News",        ["https://www.arabnews.com/rss.xml"],                    "https://www.arabnews.com/economy"),
     ("Argaam",           ["https://www.argaam.com/en/rss"],                       "https://www.argaam.com/en"),
     ("Al Eqtisadiah",    [],                                                      "https://www.aleqt.com/"),
-    ("Asharq Business",  [],                                                      "https://www.asharqbusiness.com/"),
   ],
   "qatar": [
     ("Gulf Times",       ["https://www.gulf-times.com/rss"],                      "https://www.gulf-times.com/business"),
