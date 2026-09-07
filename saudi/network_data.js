@@ -237,7 +237,7 @@ const INSTITUTIONS = [
   {id:"lst_2070", n:"Saudi Pharmaceutical Industries and Medical Appliances Corp. (SPIMACO)", s:"health", t:2, p:50, short:"2070"},
   {id:"lst_4015", n:"Jamjoom Pharmaceuticals Factory Co.", s:"health", t:2, p:50, short:"4015"},
   {id:"lst_4016", n:"Avalon Pharma (Middle East Pharmaceutical Industries Co.)", s:"health", t:2, p:50, short:"4016"},
-  {id:"lst_1010", n:"Riyad Bank", s:"finance", t:2, p:50, short:"Riyad Bank"},
+  {id:"lst_1010", n:"Riyad Bank", s:"finance", t:2, p:70, short:"Riyad Bank"},
   {id:"lst_1020", n:"Bank Aljazira", s:"finance", t:2, p:50, short:"Bank Aljazira"},
   {id:"lst_1030", n:"Saudi Investment Bank (SAIB)", s:"finance", t:2, p:50, short:"1030"},
   {id:"lst_1050", n:"Banque Saudi Fransi", s:"finance", t:2, p:50, short:"Banque Saudi Fransi"},
@@ -949,9 +949,56 @@ const PEOPLE = [
     ["snb","Head Corporate Business Group","executive","v"]]},
   {id:"saud_abdulaziz_bajbair", n:"Saud Abdulaziz Bajbair", t:2, p:58, s:"finance", roles:[
     ["snb","Head Retail Business Group","executive","v"]]},
+  {id:"eng_abdullah_mohammed", n:"Eng. Abdullah Mohammed Al-Issa", t:2, p:62, s:"finance", roles:[
+    ["lst_1010","Chairman of the Board","board","v"]]},
+  {id:"eng_mutaz_kusai", n:"Eng. Mutaz Kusai AlAzzawi", t:2, p:62, s:"finance", roles:[
+    ["lst_1010","Vice-Chairman of the Board","board","v"]]},
+  {id:"ibrahim_hassan_sharbatly", n:"Ibrahim Hassan Sharbatly", t:2, p:52, s:"finance", roles:[
+    ["lst_1010","Board Member","board","v"]]},
+  {id:"eng_abdulrahman_ismail", n:"Eng. Abdulrahman Ismail Tarabzouni", t:2, p:52, s:"finance", roles:[
+    ["lst_1010","Board Member","board","v"]]},
+  {id:"eng_omar_hamad", n:"Eng. Omar Hamad Al-Madhi", t:2, p:52, s:"finance", roles:[
+    ["lst_1010","Board Member","board","v"]]},
+  {id:"mona_mohammed_al", n:"Mona Mohammed Al-Tawil", t:2, p:52, s:"finance", roles:[
+    ["lst_1010","Board Member","board","v"]]},
+  {id:"hani_abdullah_al_b", n:"Hani Abdullah Al-Jehani", t:2, p:52, s:"finance", roles:[
+    ["lst_1010","Board Member","board","v"]]},
+  {id:"dr_mansoor_al", n:"Dr. Mansoor Al-Mansoor", t:2, p:52, s:"finance", roles:[
+    ["lst_1010","Board Member","board","v"]]},
+  {id:"yasir_abdullah_al", n:"Yasir Abdullah Al-Salman", t:2, p:52, s:"finance", roles:[
+    ["lst_1010","Board Member","board","v"]]},
+  {id:"nadir_s_al", n:"Nadir S Al-Koraya", t:2, p:60, s:"finance", roles:[
+    ["lst_1010","Chief Executive Officer","executive","v"]]},
+  {id:"abdullah_ali_al", n:"Abdullah Ali Al-Oraini", t:2, p:58, s:"finance", roles:[
+    ["lst_1010","Chief Financial Officer","executive","v"]]},
+  {id:"majed_hamdan_al", n:"Majed Hamdan Al-Ghamdi", t:2, p:58, s:"finance", roles:[
+    ["lst_1010","Chief Wholesale Officer","executive","v"]]},
+  {id:"omar_alsaffaf", n:"Omar AlSaffaf", t:2, p:58, s:"finance", roles:[
+    ["lst_1010","Chief of Retail Banking Officer","executive","v"]]},
+  {id:"mohammed_abo_al", n:"Mohammed Abo Al-Naja", t:2, p:58, s:"finance", roles:[
+    ["lst_1010","Chief Corporate Banking Officer","executive","v"]]},
+  {id:"enji_ahmed_al", n:"Enji Ahmed Al-Ghazzawi", t:2, p:58, s:"finance", roles:[
+    ["lst_1010","Chief Human Capital Officer","executive","v"]]},
+  {id:"abdulaziz_abdullah_al", n:"Abdulaziz Abdullah Al-Askar", t:2, p:58, s:"finance", roles:[
+    ["lst_1010","Chief Risk Officer","executive","v"]]},
+  {id:"abdullah_saad_aljabr", n:"Abdullah Saad Aljabr", t:2, p:58, s:"finance", roles:[
+    ["lst_1010","Chief Marketing and Customer Experience Officer","executive","v"]]},
+  {id:"hanadi_abdulrahman_al", n:"Hanadi Abdulrahman Al-Sheikh", t:2, p:58, s:"finance", roles:[
+    ["lst_1010","Chief Transformation Officer","executive","v"]]},
+  {id:"houssam_humaidan_alhumaidan", n:"Houssam Humaidan Alhumaidan", t:2, p:58, s:"finance", roles:[
+    ["lst_1010","Chief Compliance Officer","executive","v"]]},
+  {id:"ahmed_rabie_al", n:"Ahmed Rabie Al-Rowaili", t:2, p:58, s:"finance", roles:[
+    ["lst_1010","General Counsel","executive","v"]]},
+  {id:"fawaz_naif_al", n:"Fawaz Naif Al-Kassar", t:2, p:58, s:"finance", roles:[
+    ["lst_1010","Chief Internal Auditor","executive","v"]]},
+  {id:"abdulmohsen_altwaijri", n:"Abdulmohsen Altwaijri", t:2, p:58, s:"finance", roles:[
+    ["lst_1010","Chief Treasury & Investment Officer","executive","v"]]},
+  {id:"abdulrahman_al_huthail", n:"Abdulrahman Al-Huthail", t:2, p:58, s:"finance", roles:[
+    ["lst_1010","Chief Operating Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
+  ["lst_1010","pif","PIF anchor stake","ns"],
   ["com","royalcourt","governs under"],
   ["mof_sa","com"],["mofa_sa","com"],["mod_sa","com"],["moenergy","com"],["misa","com"],
   ["mcit_sa","com"],["moc_sa","com"],["moind","com"],["mot_sa","com"],

@@ -77,7 +77,7 @@ const INSTITUTIONS = [
   {id:"lst_mkhzn", n:"Makhazen", s:"industry", t:2, p:50, short:"Makhazen"},
   {id:"lst_ajmanbank", n:"Ajman Bank PJSC", s:"finance", t:2, p:50, short:"Ajman Bank PJSC"},
   {id:"lst_unioncoop", n:"Union Coop", s:"consumer_stap", t:2, p:50, short:"Union Coop"},
-  {id:"lst_amanat", n:"Amanat Holdings PJSC", s:"health", t:2, p:50, short:"Amanat Holdings PJSC"},
+  {id:"lst_amanat", n:"Amanat Holdings PJSC", s:"health", t:2, p:58, short:"Amanat"},
   {id:"lst_deyaar", n:"Deyaar Development PJSC", s:"realestate", t:2, p:50, short:"DEYAAR"},
   {id:"lst_taaleem", n:"Taaleem Holdings PJSC", s:"consumer_disc", t:2, p:50, short:"TAALEEM"},
   {id:"lst_sukoon", n:"Sukoon Insurance PJSC", s:"finance", t:2, p:50, short:"SUKOON"},
@@ -595,6 +595,18 @@ const PEOPLE = [
     ["spinneys","Chairman","board","v"]]},
   {id:"sunil_kumar", n:"Sunil Kumar", t:2, p:60, s:"consumer_stap", roles:[
     ["spinneys","Chief Executive Officer","executive","v"]]},
+  {id:"dr_ali_saeed", n:"Dr. Ali Saeed Bin Harmal Aldhaheri", t:2, p:62, s:"health", roles:[
+    ["lst_amanat","Chairman","board","v"]]},
+  {id:"abdulla_mohammed_alhosani", n:"Abdulla Mohammed Alhosani", t:2, p:62, s:"health", roles:[
+    ["lst_amanat","Vice Chairman","board","v"]]},
+  {id:"h_e_dhafer", n:"H.E. Dhafer Sahmi Al Ahbabi", t:2, p:52, s:"health", roles:[
+    ["lst_amanat","Board Director","board","v"]]},
+  {id:"sara_khalil_nooruddin", n:"Sara Khalil Nooruddin", t:2, p:52, s:"health", roles:[
+    ["lst_amanat","Board Director","board","v"]]},
+  {id:"omran_mohammedsaleh_alkhoori", n:"Omran Mohammedsaleh Alkhoori", t:2, p:52, s:"health", roles:[
+    ["lst_amanat","Board Director","board","v"]]},
+  {id:"john_ireland", n:"John Ireland", t:2, p:60, s:"health", roles:[
+    ["lst_amanat","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

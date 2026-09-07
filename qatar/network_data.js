@@ -579,6 +579,110 @@ const PEOPLE = [
     ["milaha","Acting Chief Internal Auditor","executive","v"]]},
   {id:"h_e_sheikh_b_b_b_b_b", n:"H.E. Sheikh Ahmed bin Khalid bin Ahmed bin Sultan Al-Thani", t:2, p:58, s:"finance", roles:[
     ["qcb","Deputy Governor","executive","ns"]]},
+  {id:"sheikh_mohammed_bin", n:"Sheikh Mohammed Bin Faisal Al Thani", t:2, p:62, s:"conglomerate", roles:[
+    ["aamal","Vice Chairman and Managing Director","board","v"]]},
+  {id:"sheikh_jabor_bin_b", n:"Sheikh Jabor Bin Abdulrahman Bin Mohammed Al Thani", t:2, p:52, s:"conglomerate", roles:[
+    ["aamal","Non-Independent Board Member","board","v"]]},
+  {id:"sheikh_abdullah_hamad", n:"Sheikh Abdullah Hamad Al Thani", t:2, p:52, s:"conglomerate", roles:[
+    ["aamal","Non-Independent Board Member","board","v"]]},
+  {id:"sheikha_al_jazi", n:"Sheikha Al Jazi Bint Faisal Al Thani", t:2, p:52, s:"conglomerate", roles:[
+    ["aamal","Non-Independent Board Member","board","v"]]},
+  {id:"yousif_bin_rashid", n:"Yousif Bin Rashid Al Khater", t:2, p:52, s:"conglomerate", roles:[
+    ["aamal","Non-Independent Board Member","board","v"]]},
+  {id:"ali_bin_hussain", n:"Ali Bin Hussain Bin Ali Al Sadah", t:2, p:52, s:"conglomerate", roles:[
+    ["aamal","Independent Board Member","board","v"]]},
+  {id:"sheikh_ali_abdulrahman", n:"Sheikh Ali Abdulrahman Al Thani", t:2, p:52, s:"conglomerate", roles:[
+    ["aamal","Independent Board Member","board","v"]]},
+  {id:"rashid_bin_ali", n:"Rashid Bin Ali Al Mansoori", t:2, p:60, s:"conglomerate", roles:[
+    ["aamal","Chief Executive Officer","executive","v"]]},
+  {id:"sheikh_tamim_bin", n:"Sheikh Tamim bin Faisal Al Thani", t:2, p:60, s:"conglomerate", roles:[
+    ["aamal","Deputy Chief Executive Officer","executive","v"]]},
+  {id:"sherif_shehata", n:"Sherif Shehata", t:2, p:58, s:"conglomerate", roles:[
+    ["aamal","Executive Director - Trade Sector","executive","v"]]},
+  {id:"ahmed_fathy_elsewedy", n:"Ahmed Fathy Elsewedy", t:2, p:60, s:"conglomerate", roles:[
+    ["aamal","Executive Vice President of Senyar Industries Qatar Holding and Managing Director of El Sewedy Cables and Doha Cables","executive","v"]]},
+  {id:"murat_kayman", n:"Murat Kayman", t:2, p:46, s:"conglomerate", roles:[
+    ["aamal","General Manager of City Center Doha","executive","v"]]},
+  {id:"essam_faragalla", n:"Essam Faragalla", t:2, p:46, s:"conglomerate", roles:[
+    ["aamal","General Manager of Ebn Sina Medical and Ebn Sina Pharmacy","executive","v"]]},
+  {id:"rob_frijns", n:"Rob Frijns", t:2, p:60, s:"conglomerate", roles:[
+    ["aamal","Managing Director of FRIJNS Steel Construction Middle East","executive","v"]]},
+  {id:"ahmad_al_sarahna", n:"Ahmad Al Sarahna", t:2, p:46, s:"conglomerate", roles:[
+    ["aamal","General Manager of Aamal Trading & Distribution","executive","v"]]},
+  {id:"khaled_al_nuaimat", n:"Khaled Al Nuaimat", t:2, p:46, s:"conglomerate", roles:[
+    ["aamal","General Manager of Aamal Readymix and Aamal Cement Industries","executive","v"]]},
+  {id:"basil_awwad", n:"Basil Awwad", t:2, p:46, s:"conglomerate", roles:[
+    ["aamal","General Manager of Advanced Pipes and Casts Company","executive","v"]]},
+  {id:"gokhan_ozkan", n:"Gokhan Ozkan", t:2, p:46, s:"conglomerate", roles:[
+    ["aamal","General Manager of Aamal Medical","executive","v"]]},
+  {id:"ramez_al_khayyat", n:"Ramez Al-Khayyat", t:2, p:52, s:"consumer_stap", roles:[
+    ["baladna","President","board","v"]]},
+  {id:"hamad_bin_abdullah", n:"Hamad Bin Abdullah Bin Khalid Al-Attiya", t:2, p:52, s:"consumer_stap", roles:[
+    ["baladna","Board Member","board","v"]]},
+  {id:"abdulaziz_mahmoud_al", n:"Abdulaziz Mahmoud Al-Zeyara", t:2, p:52, s:"consumer_stap", roles:[
+    ["baladna","Board Member","board","v"]]},
+  {id:"mazen_alsbeti", n:"Mazen Alsbeti", t:2, p:52, s:"consumer_stap", roles:[
+    ["baladna","Board Member","board","v"]]},
+  {id:"sheikh_suhaim_bin", n:"Sheikh Suhaim Bin AbdulAziz Al Thani", t:2, p:52, s:"consumer_stap", roles:[
+    ["baladna","Independent Board Member","board","v"]]},
+  {id:"nasser_hassan_al", n:"Nasser Hassan Al Ansari", t:2, p:52, s:"consumer_stap", roles:[
+    ["baladna","Independent Board Member","board","v"]]},
+  {id:"aidan_tynan", n:"Aidan Tynan", t:2, p:52, s:"consumer_stap", roles:[
+    ["baladna","Independent Board Member","board","v"]]},
+  {id:"marek_warzywoda", n:"Marek Warzywoda", t:2, p:60, s:"consumer_stap", roles:[
+    ["baladna","Group Chief Executive Officer","executive","v"]]},
+  {id:"paul_kenny", n:"Paul Kenny", t:2, p:60, s:"consumer_stap", roles:[
+    ["baladna","Chief Executive Officer (Qatar)","executive","v"]]},
+  {id:"saifullah_khan", n:"Saifullah Khan", t:2, p:58, s:"consumer_stap", roles:[
+    ["baladna","Group Chief Financial Officer","executive","v"]]},
+  {id:"julian_marcolini", n:"Julian Marcolini", t:2, p:58, s:"consumer_stap", roles:[
+    ["baladna","Chief Operations Officer","executive","v"]]},
+  {id:"h_e_abdulla", n:"H.E. Abdulla Bin Nasser Al Misnad", t:2, p:62, s:"comm", roles:[
+    ["vodafoneqatar","Chairman of the Board of Directors","board","v"]]},
+  {id:"h_e_akbar", n:"H.E. Akbar Al Baker", t:2, p:62, s:"comm", roles:[
+    ["vodafoneqatar","Vice-Chairman of the Board of Directors","board","v"]]},
+  {id:"rashid_fahad_al", n:"Rashid Fahad Al-Naimi", t:2, p:60, s:"comm", roles:[
+    ["vodafoneqatar","Board Member and Managing Director","board","v"]]},
+  {id:"h_e_sheikh_b_b_b_b_b_b", n:"H.E. Sheikh Saoud Abdul Rahman Hassan Al-Thani", t:2, p:52, s:"comm", roles:[
+    ["vodafoneqatar","Board Member","board","v"]]},
+  {id:"sheikh_mubarak_thani", n:"Sheikh Mubarak Thani A M Al-Thani", t:2, p:52, s:"comm", roles:[
+    ["vodafoneqatar","Board Member","board","v"]]},
+  {id:"nasser_abdulla_al", n:"Nasser Abdulla Al Misnad", t:2, p:52, s:"comm", roles:[
+    ["vodafoneqatar","Board Member","board","v"]]},
+  {id:"alnowar_al_khulaifi", n:"Alnowar Al-Khulaifi", t:2, p:52, s:"comm", roles:[
+    ["vodafoneqatar","Board Member","board","v"]]},
+  {id:"sheikh_hamad_abdulla", n:"Sheikh Hamad Abdulla Jassim Al-Thani", t:2, p:60, s:"comm", roles:[
+    ["vodafoneqatar","Chief Executive Officer","executive","v"]]},
+  {id:"abdulla_ali_a", n:"Abdulla Ali A A Al-Misnad", t:2, p:58, s:"comm", roles:[
+    ["vodafoneqatar","Chief Administrative Officer","executive","v"]]},
+  {id:"baran_yurdagul", n:"Baran Yurdagul", t:2, p:58, s:"comm", roles:[
+    ["vodafoneqatar","Chief Operating Officer","executive","v"]]},
+  {id:"ramy_boctor", n:"Ramy Boctor", t:2, p:58, s:"comm", roles:[
+    ["vodafoneqatar","Chief Technology Officer","executive","v"]]},
+  {id:"masroor_anjum", n:"Masroor Anjum", t:2, p:58, s:"comm", roles:[
+    ["vodafoneqatar","Chief Financial Officer","executive","v"]]},
+  {id:"saleh_abdulla_al", n:"Saleh Abdulla Al-Raisi", t:2, p:58, s:"energy", roles:[
+    ["nakilat","Chief Commercial & Business Development Officer","executive","v"]]},
+  {id:"rashid_h_al", n:"Rashid H Al-Marri", t:2, p:58, s:"energy", roles:[
+    ["nakilat","Chief Administration Officer","executive","v"]]},
+  {id:"hamish_bullen", n:"Hamish Bullen", t:2, p:58, s:"energy", roles:[
+    ["nakilat","Chief Shipyard Management Officer","executive","v"]]},
+  {id:"william_richardson", n:"William Richardson", t:2, p:58, s:"energy", roles:[
+    ["nakilat","Chief SHEQ Officer","executive","v"]]},
+  {id:"dr_thorsten_ploss", n:"Dr. Thorsten Ploss", t:2, p:58, s:"energy", roles:[
+    ["nakilat","Chief Corporate Planning & Risk Officer","executive","v"]]},
+  {id:"essa_mohammed_al", n:"Essa Mohammed Al-Mannai", t:2, p:58, s:"energy", roles:[
+    ["nakilat","General Counsel","executive","v"]]},
+  {id:"karim_ali", n:"Karim Ali", t:2, p:58, s:"energy", roles:[
+    ["nakilat","Chief Internal Auditor","executive","v"]]},
+  {id:"josephus_goris", n:"Josephus Goris", t:2, p:60, s:"energy", roles:[
+    ["nakilat","Chief Executive Officer - Qatar Shipyard Technology Solutions","executive","v"]]},
+  {id:"derek_parsons", n:"Derek Parsons", t:2, p:60, s:"energy", roles:[
+    ["nakilat","Acting Managing Director - Qatar Fabrication Company","executive","v"]]},
+  {id:"mohamed_taher_aguir", n:"Mohamed Taher Aguir", t:2, p:60, s:"energy", roles:[
+    ["nakilat","Managing Director - Nakilat SvitzerWijsmuller","executive","v"]]},
+  {id:"robert_walker", n:"Robert Walker", t:2, p:58, s:"energy", roles:[
+    ["nakilat","Nakilat Agency Manager","executive","v"]]},
 ];
 
 const OWNERSHIP = [

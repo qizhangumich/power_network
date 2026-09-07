@@ -20,11 +20,14 @@
   "last_new": "2026-09-07T03:28:20Z",
   "last_success": "2026-09-07T03:28:20Z"
  },
+<<<<<<< Updated upstream
  "kuwait/Al Qabas": {
   "fails": 11,
   "freq_h": 6,
   "last_attempt": "2026-09-07T03:28:20Z"
  },
+=======
+>>>>>>> Stashed changes
  "kuwait/Al Rai": {
   "fails": 0,
   "freq_h": 6,

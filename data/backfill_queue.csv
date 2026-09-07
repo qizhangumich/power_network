@@ -36,8 +36,6 @@ saudi,mep_sa,Ministry of Economy & Planning,gov,80,1,pending
 abudhabi,dge,Department of Government Enablement,gov,78,1,pending
 abudhabi,adek,Department of Education & Knowledge,gov,78,1,pending
 abudhabi,chimera,Chimera Investments,sovereign,78,0,pending
-abudhabi,ewec,Emirates Water & Electricity Company,utilities,78,1,pending
-abudhabi,ega,Emirates Global Aluminium,materials,78,1,pending
 bahrain,mofa_bh,Ministry of Foreign Affairs,gov,78,1,pending
 bahrain,bapco,Bapco Energies,energy,78,1,pending
 dubai,dof_dxb,Dubai Dept of Finance,gov,78,1,pending
@@ -121,7 +119,6 @@ saudi,riyadhair,Riyadh Air,industry,72,1,pending
 saudi,kingdomholding,Kingdom Holding,conglomerate,72,1,pending
 abudhabi,sca,Securities & Commodities Authority,finance,70,1,pending
 abudhabi,spaceagency,UAE Space Agency,tech,70,1,pending
-abudhabi,adnocls,ADNOC Logistics & Services,energy,70,1,pending
 abudhabi,presight,Presight AI,tech,70,1,pending
 abudhabi,khazna,Khazna Data Centers,tech,70,1,pending
 abudhabi,adnec,ADNEC Group,consumer_disc,70,1,pending
@@ -217,7 +214,6 @@ qatar,dohabank,Doha Bank,finance,64,1,pending
 qatar,scdl,SC Delivery & Legacy (World Cup legacy),gov,64,1,pending
 qatar,barwa,Barwa Real Estate,realestate,64,1,pending
 qatar,mwani,Mwani Qatar (Ports),industry,64,0,pending
-qatar,baladna,Baladna,consumer_stap,64,1,pending
 qatar,eni,Eni,energy,64,0,pending
 saudi,srmg,SRMG,comm,64,1,pending
 abudhabi,wio,Wio Bank,finance,62,1,pending
@@ -227,7 +223,7 @@ abudhabi,strata,Strata Manufacturing,industry,62,1,pending
 abudhabi,aldahra,Al Dahra Holding,consumer_stap,62,1,pending
 abudhabi,louvre,Louvre Abu Dhabi,consumer_disc,62,0,pending
 abudhabi,alnowais,Al Nowais Investments,conglomerate,62,1,pending
-abudhabi,almasaood,Al Masaood Group,conglomerate,62,0,pending
+abudhabi,almasaood,Al Masaood Group,conglomerate,62,1,pending
 abudhabi,nationalholding,National Holding,conglomerate,62,1,pending
 abudhabi,omv,OMV,energy,62,0,pending
 abudhabi,moelis,Moelis & Company,finance,62,0,pending
@@ -245,7 +241,6 @@ qatar,qatalum,Qatar Aluminium (Qatalum),materials,62,0,pending
 qatar,qta,Qatar Tourism,gov,62,0,pending
 qatar,udc,United Development Company,realestate,62,0,pending
 qatar,qatarrail,Qatar Rail,industry,62,0,pending
-qatar,aamal,Aamal Company,conglomerate,62,1,pending
 qatar,alfardan,Alfardan Group,conglomerate,62,1,pending
 saudi,ajlan,Ajlan & Bros,conglomerate,62,1,pending
 abudhabi,calidus,Calidus Holding,industry,60,1,pending
@@ -268,7 +263,6 @@ northern,thumbay,Thumbay Group,health,60,0,pending
 northern,srtip,Sharjah Research Technology & Innovation Park,tech,60,0,pending
 oman,royalhosp,The Royal Hospital (Muscat),health,60,0,pending
 oman,ithca,ITHCA Group (ICT investments),tech,60,0,pending
-qatar,vodafoneqatar,Vodafone Qatar,comm,60,0,pending
 qatar,mannaicorp,Mannai Corporation,conglomerate,60,0,pending
 qatar,almana,Al Mana Group,conglomerate,60,0,pending
 qatar,sinopec,Sinopec,energy,60,0,pending
@@ -298,7 +292,6 @@ bahrain,bfb,Bahrain FinTech Bay,tech,56,0,pending
 bahrain,amh,American Mission Hospital,health,56,0,pending
 bahrain,fakhro,Fakhro Group,conglomerate,56,0,pending
 kuwait,daralshifa,Dar Al Shifa Hospital,health,56,0,pending
-northern,ajmanbank,Ajman Bank,finance,56,0,pending
 oman,omanflour,Oman Flour Mills (Atyab),consumer_stap,56,0,pending
 qatar,jaidah,Jaidah Group,conglomerate,56,0,pending
 abudhabi,adnic,Abu Dhabi National Insurance Company,finance,54,0,pending
@@ -414,7 +407,6 @@ dubai,lst_salambah,Al Salam Bank B.S.C.,finance,50,0,pending
 dubai,lst_mkhzn,Makhazen,industry,50,0,pending
 dubai,lst_ajmanbank,Ajman Bank PJSC,finance,50,0,pending
 dubai,lst_unioncoop,Union Coop,consumer_stap,50,0,pending
-dubai,lst_amanat,Amanat Holdings PJSC,health,50,0,pending
 dubai,lst_deyaar,Deyaar Development PJSC,realestate,50,0,pending
 dubai,lst_taaleem,Taaleem Holdings PJSC,consumer_disc,50,0,pending
 dubai,lst_sukoon,Sukoon Insurance PJSC,finance,50,0,pending
@@ -569,7 +561,6 @@ oman,lst_amat,Al Madina Takaful SAOG,finance,50,0,pending
 oman,lst_aofs,Al Omaniya Financial Services SAOG,finance,50,0,pending
 oman,lst_bwpc,Barka Water and Power Company SAOG,utilities,50,0,pending
 oman,lst_batp,Al Batinah Power Company SAOG,utilities,50,0,pending
-oman,lst_bkdb,Bank Dhofar SAOG,finance,50,0,pending
 oman,lst_bknz,Bank Nizwa SAOG,finance,50,0,pending
 oman,lst_atmi,Al Jazeera Steel Products Company SAOG,materials,50,0,pending
 oman,lst_didi,Dhofar International Development & Investment SAOG,finance,50,0,pending
@@ -596,7 +587,6 @@ oman,lst_ords,Omani Qatari Telecommunications Company SAOG (Ooredoo),comm,50,0,p
 oman,lst_sihc,A'Sharqiya Investment Holding Co. SAOG,finance,50,0,pending
 oman,lst_brde,Barka Desalination Company SAOG,utilities,50,0,pending
 oman,lst_abrj,Abraj Energy Services SAOG,energy,50,0,pending
-oman,lst_oqgn,OQ Gas Networks SAOG,utilities,50,0,pending
 oman,lst_oqep,OQ Exploration and Production SAOG,energy,50,0,pending
 oman,lst_oqbi,OQ Base Industries (SFZ) SAOG,materials,50,0,pending
 oman,lst_cmii,Construction Materials Industries SAOG,materials,50,0,pending
@@ -846,7 +836,6 @@ saudi,lst_4021,Canadian Medical Center Co. (CMCER),health,50,0,pending
 saudi,lst_2070,Saudi Pharmaceutical Industries and Medical Appliances Corp. (SPIMACO),health,50,0,pending
 saudi,lst_4015,Jamjoom Pharmaceuticals Factory Co.,health,50,0,pending
 saudi,lst_4016,Avalon Pharma (Middle East Pharmaceutical Industries Co.),health,50,0,pending
-saudi,lst_1010,Riyad Bank,finance,50,0,pending
 saudi,lst_1020,Bank Aljazira,finance,50,0,pending
 saudi,lst_1030,Saudi Investment Bank (SAIB),finance,50,0,pending
 saudi,lst_1050,Banque Saudi Fransi,finance,50,0,pending

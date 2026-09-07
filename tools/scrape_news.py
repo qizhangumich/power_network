@@ -82,12 +82,11 @@ SOURCES = {
   "qatar": [
     ("Gulf Times",       ["https://www.gulf-times.com/rss"],                      "https://www.gulf-times.com/business"),
     ("The Peninsula",    ["https://thepeninsulaqatar.com/rss"],                   "https://thepeninsulaqatar.com/category/business"),
-    ("QNA",              [],                                                      "https://www.qna.org.qa/en/news/economics"),
+    ("QNA",              [],                                                      "https://www.qna.org.qa/en"),
   ],
   "kuwait": [
     ("Kuwait Times",     [],                                                      "https://kuwaittimes.com/"),
     ("KUNA",             [],                                                      "https://www.kuna.net.kw/Default.aspx?language=en"),
-    ("Al Qabas",         [],                                                      "https://www.alqabas.com/"),
     ("Al Rai",           [],                                                      "https://www.alraimedia.com/"),
   ],
   "bahrain": [

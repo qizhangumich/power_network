@@ -64,7 +64,7 @@ const INSTITUTIONS = [
   {id:"lst_aofs", n:"Al Omaniya Financial Services SAOG", s:"finance", t:2, p:50, short:"AOFS"},
   {id:"lst_bwpc", n:"Barka Water and Power Company SAOG", s:"utilities", t:2, p:50, short:"BWPC"},
   {id:"lst_batp", n:"Al Batinah Power Company SAOG", s:"utilities", t:2, p:50, short:"BATP"},
-  {id:"lst_bkdb", n:"Bank Dhofar SAOG", s:"finance", t:2, p:50, short:"Bank Dhofar SAOG"},
+  {id:"lst_bkdb", n:"Bank Dhofar SAOG", s:"finance", t:2, p:64, short:"BankDhofar"},
   {id:"lst_bknz", n:"Bank Nizwa SAOG", s:"finance", t:2, p:50, short:"Bank Nizwa SAOG"},
   {id:"lst_atmi", n:"Al Jazeera Steel Products Company SAOG", s:"materials", t:2, p:50, short:"ATMI"},
   {id:"lst_didi", n:"Dhofar International Development & Investment SAOG", s:"finance", t:2, p:50, short:"DIDI"},
@@ -92,7 +92,7 @@ const INSTITUTIONS = [
   {id:"lst_sihc", n:"A'Sharqiya Investment Holding Co. SAOG", s:"finance", t:2, p:50, short:"SIHC"},
   {id:"lst_brde", n:"Barka Desalination Company SAOG", s:"utilities", t:2, p:50, short:"BRDE"},
   {id:"lst_abrj", n:"Abraj Energy Services SAOG", s:"energy", t:2, p:50, short:"ABRJ"},
-  {id:"lst_oqgn", n:"OQ Gas Networks SAOG", s:"utilities", t:2, p:50, short:"OQ Gas Networks SAOG"},
+  {id:"lst_oqgn", n:"OQ Gas Networks SAOG", s:"utilities", t:2, p:66, short:"OQGN"},
   {id:"lst_oqep", n:"OQ Exploration and Production SAOG", s:"energy", t:2, p:50, short:"OQEP"},
   {id:"lst_oqbi", n:"OQ Base Industries (SFZ) SAOG", s:"materials", t:2, p:50, short:"OQBI"},
   {id:"lst_cmii", n:"Construction Materials Industries SAOG", s:"materials", t:2, p:50, short:"CMII"},
@@ -406,9 +406,79 @@ const PEOPLE = [
     ["omanair","Deputy Chief Executive Officer","executive","ns"]]},
   {id:"paul_starrs", n:"Paul Starrs", t:2, p:58, s:"industry", roles:[
     ["omanair","Chief Commercial Officer","executive","ns"]]},
+  {id:"eng_abdul_hafidh", n:"Eng. Abdul Hafidh Salim Rajab Al Ojaili", t:2, p:62, s:"finance", roles:[
+    ["lst_bkdb","Chairman","board","v"]]},
+  {id:"ahmed_said_mohammed", n:"Ahmed Said Mohammed Al Mahrezi", t:2, p:62, s:"finance", roles:[
+    ["lst_bkdb","Deputy Chairman","board","v"]]},
+  {id:"mohammed_yousuf_alawi", n:"Mohammed Yousuf Alawi Al Ibrahim", t:2, p:52, s:"finance", roles:[
+    ["lst_bkdb","Board Member","board","v"]]},
+  {id:"tariq_abdul_hafidh", n:"Tariq Abdul Hafidh Al Aujaili", t:2, p:52, s:"finance", roles:[
+    ["lst_bkdb","Board Member","board","v"]]},
+  {id:"khalid_said_salim", n:"Khalid Said Salim Al Wahaibi", t:2, p:52, s:"finance", roles:[
+    ["lst_bkdb","Board Member","board","v"]]},
+  {id:"tariq_salim_mustahil", n:"Tariq Salim Mustahil Al Mashani", t:2, p:52, s:"finance", roles:[
+    ["lst_bkdb","Board Member","board","v"]]},
+  {id:"ahmed_sultan_rashid", n:"Ahmed Sultan Rashid Al Yaqoubi", t:2, p:52, s:"finance", roles:[
+    ["lst_bkdb","Board Member","board","v"]]},
+  {id:"zahir_marhoon_mohammed", n:"Zahir Marhoon Mohammed Al Abri", t:2, p:52, s:"finance", roles:[
+    ["lst_bkdb","Board Member","board","v"]]},
+  {id:"khalid_sulaiman_salim", n:"Khalid Sulaiman Salim Al Kamyani", t:2, p:52, s:"finance", roles:[
+    ["lst_bkdb","Board Member","board","v"]]},
+  {id:"karumathil_gopakumar", n:"Karumathil Gopakumar", t:2, p:60, s:"finance", roles:[
+    ["lst_bkdb","Acting Chief Executive Officer","executive","v"]]},
+  {id:"amor_said_mohamed", n:"Amor Said Mohamed Al Amri", t:2, p:58, s:"finance", roles:[
+    ["lst_bkdb","Chief Islamic Banking Officer","executive","v"]]},
+  {id:"amjad_iqbal_hassan", n:"Amjad Iqbal Hassan Al Lawati", t:2, p:58, s:"finance", roles:[
+    ["lst_bkdb","Chief Corporate Services Officer","executive","v"]]},
+  {id:"ahmed_said_salim", n:"Ahmed Said Salim Al Ibrahim", t:2, p:58, s:"finance", roles:[
+    ["lst_bkdb","Chief Retail & Government Banking Officer","executive","v"]]},
+  {id:"mallikarjuna_korisepati", n:"Mallikarjuna Korisepati", t:2, p:58, s:"finance", roles:[
+    ["lst_bkdb","Chief Wholesale Banking Officer","executive","v"]]},
+  {id:"tariq_saleh_mohamed", n:"Tariq Saleh Mohamed Taha", t:2, p:58, s:"finance", roles:[
+    ["lst_bkdb","Chief Information Officer","executive","v"]]},
+  {id:"khalid_salim_ali", n:"Khalid Salim Ali Al Hamadani", t:2, p:58, s:"finance", roles:[
+    ["lst_bkdb","Chief Human Resources Officer","executive","v"]]},
+  {id:"leen_kumar_sugumaran", n:"Leen Kumar Sugumaran", t:2, p:58, s:"finance", roles:[
+    ["lst_bkdb","Chief Risk Officer","executive","v"]]},
+  {id:"vikesh_mirani", n:"Vikesh Mirani", t:2, p:58, s:"finance", roles:[
+    ["lst_bkdb","Chief Financial Officer","executive","v"]]},
+  {id:"ezideen_juma_mohamed", n:"Ezideen Juma Mohamed Al Mazroui", t:2, p:58, s:"finance", roles:[
+    ["lst_bkdb","Acting Chief Internal Auditor","executive","v"]]},
+  {id:"ali_khamis_hussain", n:"Ali Khamis Hussain Al Zadjali", t:2, p:58, s:"finance", roles:[
+    ["lst_bkdb","Chief Compliance Officer","executive","v"]]},
+  {id:"abdulwahhab_al_hinai", n:"Abdulwahhab Al Hinai", t:2, p:62, s:"utilities", roles:[
+    ["lst_oqgn","Chairman","board","v"]]},
+  {id:"ayad_al_balushi", n:"Ayad Al Balushi", t:2, p:62, s:"utilities", roles:[
+    ["lst_oqgn","Deputy Chairman","board","v"]]},
+  {id:"fathi_al_balushi", n:"Fathi Al Balushi", t:2, p:52, s:"utilities", roles:[
+    ["lst_oqgn","Board Member","board","v"]]},
+  {id:"raiya_al_salmi", n:"Raiya Al Salmi", t:2, p:52, s:"utilities", roles:[
+    ["lst_oqgn","Board Member","board","v"]]},
+  {id:"sultan_al_burtmani", n:"Sultan Al Burtmani", t:2, p:52, s:"utilities", roles:[
+    ["lst_oqgn","Board Member","board","v"]]},
+  {id:"ben_de_waele", n:"Ben De Waele", t:2, p:52, s:"utilities", roles:[
+    ["lst_oqgn","Board Member","board","v"]]},
+  {id:"irfan_mian", n:"Irfan Mian", t:2, p:52, s:"utilities", roles:[
+    ["lst_oqgn","Board Member","board","v"]]},
+  {id:"mansoor_ali_al", n:"Mansoor Ali Al Abdali", t:2, p:60, s:"utilities", roles:[
+    ["lst_oqgn","Chief Executive Officer","executive","v"]]},
+  {id:"faisal_al_mamari", n:"Faisal Al Mamari", t:2, p:58, s:"utilities", roles:[
+    ["lst_oqgn","Chief People, Technology & Culture Officer","executive","v"]]},
+  {id:"sultan_al_balushi", n:"Sultan Al Balushi", t:2, p:58, s:"utilities", roles:[
+    ["lst_oqgn","Acting Chief Finance Officer","executive","v"]]},
+  {id:"saif_al_hosni", n:"Saif Al Hosni", t:2, p:58, s:"utilities", roles:[
+    ["lst_oqgn","Chief Business Development & Commercial Officer","executive","v"]]},
+  {id:"khalifa_al_makhmari", n:"Khalifa Al Makhmari", t:2, p:58, s:"utilities", roles:[
+    ["lst_oqgn","Chief Operating Officer","executive","v"]]},
+  {id:"haitham_al_lawati", n:"Haitham Al Lawati", t:2, p:58, s:"utilities", roles:[
+    ["lst_oqgn","General Counsel","executive","v"]]},
+  {id:"ahmed_al_abdali", n:"Ahmed Al Abdali", t:2, p:46, s:"utilities", roles:[
+    ["lst_oqgn","Head of Internal Audit","executive","v"]]},
 ];
 
 const OWNERSHIP = [
+  ["lst_oqgn","oq","majority shareholder"],
+  ["lst_bkdb","lst_didi","anchor shareholder","ns"],
   ["com_om","omgov","governs under"],
   ["mof_om","com_om"],["mofa_om","com_om"],["moci_om","com_om"],
   ["moem_om","com_om"],["moin_om","com_om"],["mtcit_om","com_om"],["moh_om","com_om"],["moht_om","com_om"],

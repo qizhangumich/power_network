@@ -241,6 +241,7 @@ const PEOPLE = [
   {id:"khaled", n:"H.H. Sheikh Khaled bin Mohamed bin Zayed Al Nahyan", t:0, p:98, s:"gov", roles:[
     ["adgov","Crown Prince of Abu Dhabi","political","v"],
     ["execcouncil","Chairman","political","v"],
+    ["adnoc","Chairman of the Executive Committee of the Board of Directors","board","v"],
     ], note:"Son of MBZ. Runs the day-to-day machinery of Abu Dhabi government via the Executive Council."},
   {id:"tahnoun", n:"H.H. Sheikh Tahnoon bin Zayed Al Nahyan", t:0, p:99, s:"sovereign", roles:[
     ["adgov","Deputy Ruler of Abu Dhabi","political","v"],
@@ -428,7 +429,7 @@ const PEOPLE = [
     ["wio","CEO","executive","v"],
     ]},
   {id:"adx_ceo", n:"Abdulla Salem Alnuaimi", t:2, p:64, s:"finance", roles:[
-    ["adx","Group CEO","executive","ns"],
+    ["adx","Group Chief Executive Officer","executive","v"],
     ]},
   {id:"waleed", n:"Waleed Al Mokarrab Al Muhairi", t:2, p:82, s:"sovereign", roles:[
     ["mubadala","Deputy Group CEO","executive","v"],
@@ -458,7 +459,7 @@ const PEOPLE = [
     ["taqa","Group CEO & Managing Director","executive","v"],
     ]},
   {id:"alshamsi_ewec", n:"Ahmed Ali Alshamsi", t:2, p:78, s:"utilities", roles:[
-    ["ewec","CEO","executive","ns"],
+    ["ewec","Chief Executive Officer","executive","v"],
     ]},
   {id:"ramahi", n:"Mohamed Jameel Al Ramahi", t:2, p:80, s:"utilities", roles:[
     ["masdar","CEO","executive","v"],
@@ -481,7 +482,7 @@ const PEOPLE = [
     ["adnocdrill","CEO","executive","ns"],
     ]},
   {id:"masabi", n:"Capt. Abdulkareem Al Masabi", t:2, p:70, s:"energy", roles:[
-    ["adnocls","CEO","executive","ns"],
+    ["adnocls","Chief Executive Officer","executive","v"],
     ]},
   {id:"lamki", n:"Bader Saeed Al Lamki", t:2, p:70, s:"energy", roles:[
     ["adnocdist","CEO","executive","v"],
@@ -1404,6 +1405,144 @@ const PEOPLE = [
     ]},
   {id:"tjalling_wiersma", n:"Tjalling Wiersma", t:2, p:58, s:"energy", roles:[
     ["adnocgas","General Counsel - Legal, Corporate Governance & Compliance","executive","v"],
+    ]},
+  {id:"homaid_abdulla_al", n:"Homaid Abdulla Al Shimmari", t:2, p:62, s:"materials", roles:[
+    ["ega","Chairman","board","v"],
+    ]},
+  {id:"h_e_saeed", n:"H.E. Saeed Mohammed Al Tayer", t:2, p:62, s:"materials", roles:[
+    ["ega","Vice-Chairman","board","v"],
+    ]},
+  {id:"abdul_wahed_mohammad", n:"Abdul Wahed Mohammad Al Fahim", t:2, p:62, s:"materials", roles:[
+    ["ega","Board Member and Chairman of the Audit and Risk Committee","board","v"],
+    ]},
+  {id:"zouhir_regragui", n:"Zouhir Regragui", t:2, p:52, s:"materials", roles:[
+    ["ega","Board Member","board","v"],
+    ]},
+  {id:"dr_bakheet_al", n:"Dr. Bakheet Al Katheeri", t:2, p:52, s:"materials", roles:[
+    ["ega","Board Member","board","v"],
+    ]},
+  {id:"hilal_bin_dhaher", n:"Hilal Bin Dhaher", t:2, p:52, s:"materials", roles:[
+    ["ega","Board Member","board","v"],
+    ]},
+  {id:"adel_khalifa_al", n:"Adel Khalifa Al Shaer", t:2, p:52, s:"materials", roles:[
+    ["ega","Board Member","board","v"],
+    ]},
+  {id:"mohamed_nagib", n:"Mohamed Nagib", t:2, p:62, s:"materials", roles:[
+    ["ega","Board Member and Chairman of the Technical and Projects Committee","board","v"],
+    ]},
+  {id:"saif_al_qubaisi", n:"Saif Al Qubaisi", t:2, p:52, s:"materials", roles:[
+    ["ega","Board Member","board","v"],
+    ]},
+  {id:"abdulla_jassem_kalban", n:"Abdulla Jassem Kalban", t:2, p:60, s:"materials", roles:[
+    ["ega","Managing Director","board","v"],
+    ]},
+  {id:"khalid_essa_buhumaid", n:"Khalid Essa Buhumaid", t:2, p:58, s:"materials", roles:[
+    ["ega","Senior Vice President, Government Relations","executive","v"],
+    ]},
+  {id:"amir_al_janahi", n:"Amir Al Janahi", t:2, p:58, s:"materials", roles:[
+    ["ega","Chief Internal Auditor","executive","v"],
+    ]},
+  {id:"pal_kildemo", n:"Pal Kildemo", t:2, p:58, s:"materials", roles:[
+    ["ega","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"louise_jenkins", n:"Louise Jenkins", t:2, p:58, s:"materials", roles:[
+    ["ega","General Counsel and Head of Ethics & Business Integrity","executive","v"],
+    ]},
+  {id:"iman_al_qasim", n:"Iman Al Qasim", t:2, p:58, s:"materials", roles:[
+    ["ega","Executive Vice President Human Capital","executive","v"],
+    ]},
+  {id:"adel_abubakar", n:"Adel Abubakar", t:2, p:58, s:"materials", roles:[
+    ["ega","Chief Marketing Officer","executive","v"],
+    ]},
+  {id:"sergey_akhmetov", n:"Sergey Akhmetov", t:2, p:58, s:"materials", roles:[
+    ["ega","Executive Vice President Midstream","executive","v"],
+    ]},
+  {id:"najeeba_hassan_al", n:"Najeeba Hassan Al Jabri", t:2, p:58, s:"materials", roles:[
+    ["ega","Chief ESG & Sustainability Officer","executive","v"],
+    ]},
+  {id:"dr_feras_allan", n:"Dr. Feras Allan", t:2, p:58, s:"materials", roles:[
+    ["ega","Senior Vice President, Product & Casting Operations","executive","v"],
+    ]},
+  {id:"zaher_abdulla_al", n:"Zaher Abdulla Al Habtari", t:2, p:58, s:"materials", roles:[
+    ["ega","Executive Vice President Capital Projects, Alumina & Bauxite","executive","v"],
+    ]},
+  {id:"simon_storesund", n:"Simon Storesund", t:2, p:58, s:"materials", roles:[
+    ["ega","Chief Supply Chain Officer","executive","v"],
+    ]},
+  {id:"marc_carette", n:"Marc Carette", t:2, p:58, s:"materials", roles:[
+    ["ega","Chief Strategy and Innovation Officer","executive","v"],
+    ]},
+  {id:"simon_buerk", n:"Simon Buerk", t:2, p:58, s:"materials", roles:[
+    ["ega","Senior Vice President, Corporate Affairs","executive","v"],
+    ]},
+  {id:"hamad_al_hammadi", n:"Hamad Al Hammadi", t:2, p:62, s:"utilities", roles:[
+    ["ewec","Chairman","board","v"],
+    ]},
+  {id:"h_e_kamal", n:"H.E. Kamal Al Mazmi", t:2, p:62, s:"utilities", roles:[
+    ["ewec","Vice Chairman","board","v"],
+    ]},
+  {id:"h_e_muna", n:"H.E. Muna Al Dhaheri", t:2, p:52, s:"utilities", roles:[
+    ["ewec","Board Member","board","v"],
+    ]},
+  {id:"eissa_al_qubaisi", n:"Eissa Al Qubaisi", t:2, p:52, s:"utilities", roles:[
+    ["ewec","Board Member","board","v"],
+    ]},
+  {id:"khalifa_al_jaberi", n:"Khalifa Al Jaberi", t:2, p:52, s:"utilities", roles:[
+    ["ewec","Board Member","board","v"],
+    ]},
+  {id:"audrey_zibelman", n:"Audrey Zibelman", t:2, p:52, s:"utilities", roles:[
+    ["ewec","Board Member","board","v"],
+    ]},
+  {id:"ahmad_almulla", n:"Ahmad Almulla", t:2, p:58, s:"utilities", roles:[
+    ["ewec","Chief Digital Officer","executive","v"],
+    ]},
+  {id:"mohamed_almarzooqi", n:"Mohamed Almarzooqi", t:2, p:58, s:"utilities", roles:[
+    ["ewec","Chief Assets Officer","executive","v"],
+    ]},
+  {id:"easa_alzarooni", n:"Easa Alzarooni", t:2, p:58, s:"utilities", roles:[
+    ["ewec","Chief Operations Officer","executive","v"],
+    ]},
+  {id:"rene_matthies", n:"Rene Matthies", t:2, p:58, s:"utilities", roles:[
+    ["ewec","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"dr_faisal_obaid", n:"Dr. Faisal Obaid", t:2, p:58, s:"utilities", roles:[
+    ["ewec","Chief Corporate Support Officer","executive","v"],
+    ]},
+  {id:"laura_thomson", n:"Laura Thomson", t:2, p:58, s:"utilities", roles:[
+    ["ewec","Chief Legal Officer","executive","v"],
+    ]},
+  {id:"h_e_dr", n:"H.E. Dr. Sultan Ahmed Al Jaber", t:2, p:62, s:"energy", roles:[
+    ["adnocls","Chairperson","board","v"],
+    ]},
+  {id:"khaled_salmeen_anber", n:"Khaled Salmeen Anber Salmeen", t:2, p:52, s:"energy", roles:[
+    ["adnocls","Director","board","v"],
+    ]},
+  {id:"khaled_mohamed_abdulla", n:"Khaled Mohamed Abdulla Alalkeem Alzaabi", t:2, p:52, s:"energy", roles:[
+    ["adnocls","Director","board","v"],
+    ]},
+  {id:"tayba_abdulrahim_mohamed", n:"Tayba Abdulrahim Mohamed Alhashmi", t:2, p:52, s:"energy", roles:[
+    ["adnocls","Director","board","v"],
+    ]},
+  {id:"marwan_naim_nijmeh", n:"Marwan Naim Nijmeh", t:2, p:52, s:"energy", roles:[
+    ["adnocls","Director","board","v"],
+    ]},
+  {id:"mashal_saoud_mohamed", n:"Mashal Saoud Mohamed Alkindi Alseiari", t:2, p:52, s:"energy", roles:[
+    ["adnocls","Director","board","v"],
+    ]},
+  {id:"hugh_baker", n:"Hugh Baker", t:2, p:58, s:"energy", roles:[
+    ["adnocls","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"ahmad_saeed_obaid", n:"Ahmad Saeed Obaid Bin Taresh Aldhaheri", t:2, p:58, s:"energy", roles:[
+    ["adnocls","Senior Vice President, Commercial & Operations (Shipping)","executive","v"],
+    ]},
+  {id:"captain_mohamed_ali", n:"Captain Mohamed Ali Mousa Torki Al-Ali", t:2, p:58, s:"energy", roles:[
+    ["adnocls","Senior Vice President, Operations (Offshore Logistics)","executive","v"],
+    ]},
+  {id:"justin_sawdon_stewart", n:"Justin Sawdon Stewart Murphy", t:2, p:58, s:"energy", roles:[
+    ["adnocls","Senior Vice President, Strategy & Business Development","executive","v"],
+    ]},
+  {id:"irfan_tansel", n:"Irfan Tansel", t:2, p:60, s:"conglomerate", roles:[
+    ["almasaood","Interim Group Managing Director (from Sep 2026)","executive","v"],
     ]},
 ];
 

@@ -269,6 +269,18 @@ const PEOPLE = [
     ["arada","CEO and Managing Director, Arada Capital","executive","v"]]},
   {id:"feras_al_naimi", n:"Feras Al Naimi", t:2, p:60, s:"realestate", roles:[
     ["arada","Chief Executive Officer - Nexus","executive","v"]]},
+  {id:"h_h_sheikh", n:"H.H. Sheikh Rashid bin Humaid bin Rashid Al Nuaimi", t:2, p:62, s:"finance", roles:[
+    ["ajmanbank","Vice Chairman","board","v"]]},
+  {id:"abdullah_mohammed_hassan", n:"Abdullah Mohammed Hassan Mohammed Alhosani", t:2, p:52, s:"finance", roles:[
+    ["ajmanbank","Board Member","board","v"]]},
+  {id:"mahmood_khaleel_ahmed", n:"Mahmood Khaleel Ahmed Alsayed Alhashmi", t:2, p:52, s:"finance", roles:[
+    ["ajmanbank","Board Member","board","v"]]},
+  {id:"faisal_hassan_ibrahim", n:"Faisal Hassan Ibrahim Galadari", t:2, p:52, s:"finance", roles:[
+    ["ajmanbank","Board Member","board","v"]]},
+  {id:"ali_rashid_humaid", n:"Ali Rashid Humaid Almazroei", t:2, p:52, s:"finance", roles:[
+    ["ajmanbank","Board Member","board","v"]]},
+  {id:"sarah_al_jarman", n:"Sarah Al Jarman", t:2, p:52, s:"finance", roles:[
+    ["ajmanbank","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [
