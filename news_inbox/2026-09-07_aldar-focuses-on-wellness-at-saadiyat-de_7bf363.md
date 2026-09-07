@@ -1,0 +1,5 @@
+# Aldar focuses on wellness at Saadiyat development with Zen garden and serenity pool
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQThPd3ByMUd1bEwzcGl3LXoxeWZHdDRzLTZrUUNtUGdNWHJWempLR3c0cnNuRDJMcjd6Tmg2akhOalk2VzZCak5HLVZHNklsMWhob3FrYTFkczA2WVJXMi1PLWpqVnpUdDdZVnJCb0ZxLU5CLWxnMDFyVGVGN3Nyem42dllnOXNiTmUyUF91SmZVYkMtbDZodEF1YW15MkJ2ZWZSN3pvSlNKR0pDRmxvZTR0SGVfcDBtSVBoOHUtcktYOUNPMkFKX19qVWk5cFJ5Uld3YWlCU09FbWYxdGc?oc=5
+
+Aldar focuses on wellness at Saadiyat development with Zen garden and serenity pool    thenationalnews.com

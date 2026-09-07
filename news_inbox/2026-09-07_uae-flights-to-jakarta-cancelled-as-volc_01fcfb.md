@@ -1,0 +1,5 @@
+# UAE flights to Jakarta cancelled as volcanic eruptions close eight Indonesian airports
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxPZXhvUl9SelIyUjZseHRvVXQ1U3djYVRYQzdCc0tqVlZOUVdFWWUtQnAzckJDWkFGLW1QSWF3N1JzN2dKalQwNng0bzdaZlBweEd2REhhY2RjdU1NMkt2MHpzWGhZMlFKYm5ocHk3RVp1ZVoyYW9SU2lneUpzUllScjltS3JpbFZOb0VOZGl5WmNsNXN6Wl9RUHBrblFDOC11S2hHU3M3TEhzY2pNR2NyTGlmZG5kUXhPRkFPeTR0QmgwdUtvbmt5MG9oSUxiZw?oc=5
+
+UAE flights to Jakarta cancelled as volcanic eruptions close eight Indonesian airports    thenationalnews.com

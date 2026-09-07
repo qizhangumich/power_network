@@ -1,0 +1,5 @@
+# UAE flights latest: Emirates, flydubai maintain schedule, Etihad, Qatar Airways face cancellation amid US-Iran escalation
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMi_AFBVV95cUxNcThXdndoUl9tR1JUV21vcUo0WFZMLUREc01FZjh6WXc1bncxbVRWWWNmamN4ZzhZa0wzWk80eV9BbUhTOEt6YlRnbklhOGd2RmljY05OY2ZhMnV1dWU4OVc0WDZOOWplYWV1VGRzNnR2Q3U3UnNaOVQ3dHFma1JxQ2JCLXRRSUtRZkNrMm0xX21LTlVGZmlxc2JuSk1qb2tUd0x3cS0xT3hOMTJuN2FlY3EwMlQtZnZGU2hjMGxiWnpsUWFVOUJJSE05TXd0RGY2LUItbzFwVWV2eGVxaWxRV0FNajgzamJjSmc5LU1IaGxNRmxvbFJPUEFXdGM?oc=5
+
+UAE flights latest: Emirates, flydubai maintain schedule, Etihad, Qatar Airways face cancellation amid US-Iran escalation    Arabian Business
