@@ -1,0 +1,5 @@
+# Aldar Properties Concludes First Off-Plan Mortgage Registration in Abu Dhabi
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcWpFQ1VYN1JTLWJEQUFQSGxpaFJUdnplYm4tcDF2emZiNEhnSGdiQ1BzdGtJQTI5YmhUU0J3RnBHTTN0by04TTV5UFJyOTZCQlF2cUt0OWZaNmlaa0lDa2hsMUx1MVE2eWEtWDV4djgxc0NobUNsUW01NTdWUXpsWnNXckNRWldkYnptT3lMb2doTmhqbnI3SVBMNnhtS2lkd0Y5LUZ3UnpINTR0dTFwLThCU0s4bkctRjJHbUd3eUJYRHdJTXY1NQ?oc=5
+
+Aldar Properties Concludes First Off-Plan Mortgage Registration in Abu Dhabi    marketscreener.com

@@ -1,0 +1,5 @@
+# Aldar unveils Sei Saadiyat, bringing timeless design to Saadiyat Cultural District
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdTJDYnZONDFha0dURlJrZUVRS0FtTlB2SksxdUR0SUt6Y040aVZiZnZsTm1CWnFFV3I4Nm5pd19yMmdCdU9kUUF3RW1kNHFXVVpaOE43dnlqVkNTWEo5RUZNdlN0SEFoZjl2dTFFRlkweklYX1VKaUlFN3RMdkhzWVh6R1U0VU1KQWMxYU5nejhOd01vd21RX0dtYUdseS1QRzliVDJndDh6eTdjcXZaQVNSZ3lPV2d3X3BuZklDbVpKenIyQ29mQVJTWXZVeVhHWFBwRHVfSElUQQ?oc=5
+
+Aldar unveils Sei Saadiyat, bringing timeless design to Saadiyat Cultural District    Zawya

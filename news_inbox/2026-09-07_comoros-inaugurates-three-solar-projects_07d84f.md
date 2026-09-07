@@ -1,0 +1,5 @@
+# Comoros inaugurates three solar projects
+source: pv magazine Global
+url: https://news.google.com/rss/articles/CBMihwFBVV95cUxPV2VWcXBydUhtQ0p2cnVYbmRmOElJRVhWdkRiemZpdExtUWJWQk1rcThkNDBZMUJGc0wwTFRJZXlJTGNwUnlSaTdndk1fcmJoSWxqd1huYzRndlFoNF93bVh1UzlURnM1V3BQYmZoTS1sQzhJMEpCdmVJZ0JxUG1WT0Q5SWpUME0?oc=5
+
+Comoros inaugurates three solar projects    pv magazine Global

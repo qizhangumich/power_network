@@ -1,0 +1,5 @@
+# Mangalam Worldwide Becomes Approved Vendor For ADNOC, Enhancing Its Position In Energy Markets
+source: Sahi
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOZFNGVkR5NjRLQ3drUlRDM3JCcko5enBzclhKSTVBazd3UndtZllWcWxMc09xb25BQ2ZCMUdFTVpZUHU5YTcxX3EwTGhQRjNYaGpFakR3R1NkQVlXQVo3R0dHaVBWU3NISlE0SE1QT0Y0T1lfYlo2THloMENEbm1icjNnN0hSdmxoYnpOZmo0UXRmcFh0eHBxZ1N4dzFhYUR2WElieVZMenhPdTBsTUxJSmpLWS15VzdfQ2R1UFRzVjg2T3F3dWxsZlhhWjM?oc=5
+
+Mangalam Worldwide Becomes Approved Vendor For ADNOC, Enhancing Its Position In Energy Markets    Sahi
