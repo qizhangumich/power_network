@@ -1,0 +1,5 @@
+# Aldar Properties Launches First Phase of Sei Saadiyat Residential Project in UAE
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxNdXpicEliUWNvOHRZM3d5dVh2ZTE3bW1nZE1iZlBJWUNfM2g3dkhUZ3JEOEJnUS1qTG5LTUR2MEZRczR4TG5DLWgtQlltaThlOHpmYVNWZnBDYWRtNjhoaUp6UVNfc1VZTF92YzhTNVprVERlTTByTnJsVVdRYzhwY0NrTnZZdTd2alI4TjRPVy1uem1lSGx0SHpWUGVKQ0luRm9RSm54WE1ZZlhqQVlvaDJEWU11blhXRHhtMWgzSTB0UW4tMGMxZWJqMTJDQQ?oc=5
+
+Aldar Properties Launches First Phase of Sei Saadiyat Residential Project in UAE    marketscreener.com

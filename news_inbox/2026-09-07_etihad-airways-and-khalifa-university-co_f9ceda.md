@@ -1,0 +1,5 @@
+# Etihad Airways and Khalifa University Conclude Joint Internship Programme
+source: IndexBox
+url: https://news.google.com/rss/articles/CBMipgFBVV95cUxPVFBDY0tVX2x3TWZINzlULUo1NEJXS2NvSDg0T2lEd3c5Z28wZXlYSmxjUHh5MExCTXZPYmFsWHdOUUpWdXpRckpJVnRCd0c5amdCVEpsT29ST0pGd0NscHIySy1XUFJTbjVLRTVKYUdWM2drYVFNdXVQVTBTWnpZQldOSGcwbGFKb0VaWGhFSFlOZHBFU2JQSjZ2WjNVOHY2WDV0Wi1B?oc=5
+
+Etihad Airways and Khalifa University Conclude Joint Internship Programme    IndexBox
