@@ -1,0 +1,5 @@
+# ADNOC L&S orders two additional LNG carriers, continuing rapid expansion of fleet — SMI DIGITAL
+source: shipmanagementinternational.com
+url: https://news.google.com/rss/articles/CBMiigJBVV95cUxNYnEtSnc4eEpaMGpRSUVFOEtRZFNqb1EwaXRmVEVUU2F4cFpZU2hLTC1CVzhsem5ZLU51cHNDQVdjLThyX0pzTFJIRTlNTy1pcUtQUXZYWHB5dFNBT3Z1MTZZOGgzZ1lpaUJYNGExejIwRU5Ld0taSU9sc3dpaGNFajJNNE9sODVZVjJFNUpSSVVzZU9ieXIxdGt1WFB2ZXhUdk9STUdlckpFZ2dpNS1HTFFCSUllU3R1Q0RFUERpRUVOU1hiS05NRF96NjlVUzhfUW9LV0Vob2VnelFvcW5Td1JjQTVsdURYQlk1VzRGQ2pYaWd3ZDZYTUVKb21ETFpaOTU3Q3VrMW9Pdw?oc=5
+
+ADNOC L&S orders two additional LNG carriers, continuing rapid expansion of fleet — SMI DIGITAL    shipmanagementinternational.com
