@@ -1,0 +1,5 @@
+# UAE’s EDGE rides battle-tested weapons boom into European defense market
+source: Kurdistan24
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxPdzU1MG5TSFBtX0Q0THV0UFAtcGppV3I3ZGZjUVBMY1RHVnZBd3d4clpSUVg5YUxDSkVZSGpkVVVYT1VkWmNOZmxubHdaYkV1eUswMFZ2MkhuSkVKLWdGVUN1YnAtVVozVWdaUkZLUUt1Y0UtWkpVME9yZHJHa21GamEzMzNLVXlJWUlYd3hZUzZiSmdMZnNKa1JlVlduZGZNU1lpSGRpLW13b2QwckxDWjlYZDZTdw?oc=5
+
+UAE’s EDGE rides battle-tested weapons boom into European defense market    Kurdistan24
