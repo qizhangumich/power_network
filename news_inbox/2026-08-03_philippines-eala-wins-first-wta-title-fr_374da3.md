@@ -1,0 +1,5 @@
+# Philippines' Eala wins first WTA title, Fritz claims Washington crown
+source: Reuters
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxPZmtWVWU3am81Nld3VnVMR0I2c010SVMxWHllcTMweUJDcGFDWVIxMHVGSnBWNUg1X3pwb3BUZnFRUDBmZEx4UDlkVmxEVGF1QUtfVW1qSXRUSWhaWnFvbnpHMkM1MmpydlhTRGhrWklyekVhMFdlQkR1WHE4YXNsWEhzMWxXMmFEUVQxcm4tc2JfdjY5S1BGMFZldWptMEYyUnhVVjctMWZCc0pmQmphR1dWSHZxMVNlRGd6bEVB?oc=5
+
+Philippines' Eala wins first WTA title, Fritz claims Washington crown    Reuters
