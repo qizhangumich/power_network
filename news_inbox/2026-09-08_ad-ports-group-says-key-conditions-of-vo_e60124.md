@@ -1,0 +1,5 @@
+# AD Ports Group Says Key Conditions Of Voluntary Conditional Cash Offer By ADQ Satisfied
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMEtNS19XeXJKQVZwY3N1cEZFX3M3cVJGWVpjVkpTd1BzUXZwT2diczhIcmd1aW5zbWNzMnFnNVlrNGVheURFX3k3N2VDd3ZGMUpkR09zSGcwQXJoTUJFVDlZbVFHSmp1ZVpfVjR6eVVjSUxTbEkxQUV2T2J1VnBkNkdxaC1hSnpOOFRGYmxBM1RIWGxLblBsNV9sc2NXRjdFckNNNF85S2huZWZyVmNCN0UyeDJkdzZuVG1qZkJSeWRVLVdwc2ttSWlQQS0zV2dwVEZrOVBHaldQWXNmX0g1ejBzbTgxTjNXUG5MSjVB?oc=5
+
+AD Ports Group Says Key Conditions Of Voluntary Conditional Cash Offer By ADQ Satisfied    TradingView

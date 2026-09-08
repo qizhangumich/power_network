@@ -1,0 +1,5 @@
+# Mauritius Seeks Strategic Ties with Etihad Amid New Air Policy
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOLVFINHBkdGxnNTRIYVQzeFlUR2R6Mk1OWl8xMU9RYWNoT2Jsa3AzdWp5b04tSjF4MXlWUzVPenJjaVBGT2FrSVI0Z01YOXJTSnMtdzl6VExwY2Y4RHB5azJnbVFWamxxMjNqQTl0LVBHN2o1cVpvUWhFX2xMRFJZdTFrWXJYWWJKazZJYjF5MWRUZDhpWkRHcEw5bmNJRWJqUkZsZElpMlNvTGttTHdUNUUzMA?oc=5
+
+Mauritius Seeks Strategic Ties with Etihad Amid New Air Policy    Bloomberg.com

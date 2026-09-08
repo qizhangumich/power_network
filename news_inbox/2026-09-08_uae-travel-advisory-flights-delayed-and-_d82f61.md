@@ -1,0 +1,5 @@
+# UAE travel advisory: Flights delayed and cancelled from Abu Dhabi and Dubai airports
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQc1FyUEJFY3dkc2VtRHNoYXhaRTlxMHo3bXVPc000OGFOY1pDaHFPa1dkQ1hfNTBUNVJKQ3dERGc2cnB5ZXNBUUFqZTR6X3Q0WWJldTlnUlFyeHhIWFJRSGp4Z3h5c1k1Y1RZRllZM3luYUs3Ylh4OGUyQkFuc1F1THdZSUd0OE1MSXFpQXhwQUtSaTdKT1hqaDEycS0tT2xEcWlXMFppM2lIclUwVzhNNXZIQ2VBRWRKdUh2QUJGeWVVNWh6RC1hSXY4RG9zSE0?oc=5
+
+UAE travel advisory: Flights delayed and cancelled from Abu Dhabi and Dubai airports    thenationalnews.com

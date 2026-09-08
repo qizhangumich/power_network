@@ -1,0 +1,5 @@
+# Emirates and Etihad cancel routes as volcano continues to cause disruption
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxQZk8tTEVPRmU4TVUwQi1Xa19FR2wzWTFld3N6d1pGWHdlYV9kZl9DN1NfcUhnTlZTaEFUeHM4LW5zRXBzNlQ0eGhOM1FVeWVKY1VWTDhyNm5VUkpvRUdleERaSU91WXRabmpTVlcxSFFwc2p5V3lOd2U0TzRvcUh6aHl2QTdRZExVRl9sUUp2bTEyMFhOZHBUUl9sLWZkREl1ZEptUUFlOFFaRi1ZZ3lvQWpFWQ?oc=5
+
+Emirates and Etihad cancel routes as volcano continues to cause disruption    Arabian Business
