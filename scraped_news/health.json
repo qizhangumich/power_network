@@ -112,9 +112,9 @@
  "regional/MEED": {
   "fails": 0,
   "freq_h": 24,
-  "last_attempt": "2026-09-08T20:51:27Z",
-  "last_new": "2026-09-08T20:51:27Z",
-  "last_success": "2026-09-08T20:51:27Z"
+  "last_attempt": "2026-09-09T20:37:44Z",
+  "last_new": "2026-09-09T20:37:44Z",
+  "last_success": "2026-09-09T20:37:44Z"
  },
  "regional/Zawya": {
   "fails": 0,
@@ -126,14 +126,14 @@
  "saudi/Al Eqtisadiah": {
   "fails": 0,
   "freq_h": 24,
-  "last_attempt": "2026-09-08T20:51:27Z",
-  "last_new": "2026-09-08T20:51:27Z",
-  "last_success": "2026-09-08T20:51:27Z"
+  "last_attempt": "2026-09-09T20:37:44Z",
+  "last_new": "2026-09-09T20:37:44Z",
+  "last_success": "2026-09-09T20:37:44Z"
  },
  "saudi/Arab News": {
-  "fails": 6,
+  "fails": 7,
   "freq_h": 24,
-  "last_attempt": "2026-09-08T20:51:27Z"
+  "last_attempt": "2026-09-09T20:37:44Z"
  },
  "saudi/Argaam": {
   "fails": 0,

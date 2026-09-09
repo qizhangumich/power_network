@@ -1,0 +1,5 @@
+# Man City Officials Assess Enzo Maresca's Squad For Potential Premier League and UEFA Champions League Success
+source: cityxtra.co.uk
+url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZXN3NGVBOWJtaVhBX3dwcmo3bWpEcGlISUQ2NzhKSWVaZ1RkQmpOQnFjVmlYcFluWmdEZkF3VVlLWV9zQWtDaUVma1d2THcyc1dEbWlfUkoxOUFmblRvVDRLQUcxdC1RTWxTa1hlbndESHlBZ0ZIbTdHWHpNd00yUExUdlprQjVQY2ZJTmtYbHlDLVFwbDhIcXNWUktqX3BvQnBaaXNmUW85VFg3UG94SU1MTF9iRWMwckthVHotUXNnbDFZTkRrbU5LN2RoUlF5djJFX2E2S01qTFVJY0N2bnkxZmdTTS1RYmc?oc=5
+
+Man City Officials Assess Enzo Maresca's Squad For Potential Premier League and UEFA Champions League Success    cityxtra.co.uk
