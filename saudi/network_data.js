@@ -995,6 +995,42 @@ const PEOPLE = [
     ["lst_1010","Chief Treasury & Investment Officer","executive","v"]]},
   {id:"abdulrahman_al_huthail", n:"Abdulrahman Al-Huthail", t:2, p:58, s:"finance", roles:[
     ["lst_1010","Chief Operating Officer","executive","v"]]},
+  {id:"sulaiman_a_k", n:"Sulaiman A. K. Al-Muhaidib", t:2, p:62, s:"consumer_stap", roles:[
+    ["lst_2050","Chairman","board","v"]]},
+  {id:"bader_abdullah_alissa", n:"Bader Abdullah Alissa", t:2, p:62, s:"consumer_stap", roles:[
+    ["lst_2050","Vice Chairman of the Board","board","v"]]},
+  {id:"ahmed_abdulrhman_al", n:"Ahmed Abdulrhman Al Humaidan", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_2050","Board Member","board","v"]]},
+  {id:"ahmed_waza_al", n:"Ahmed Waza Al Qahtani", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_2050","Board Member","board","v"]]},
+  {id:"issam_majed_al", n:"Issam Majed Al-Muhaidib", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_2050","Board Member","board","v"]]},
+  {id:"waled_abdullah_al", n:"Waled Abdullah Al Ghreri", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_2050","Board Member","board","v"]]},
+  {id:"mutaz_qusai_alazzawi", n:"Mutaz Qusai AlAzzawi", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_2050","Board Member","board","v"]]},
+  {id:"fahad_abdullah_alkassim", n:"Fahad Abdullah ALKassim", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_2050","Board Member","board","v"]]},
+  {id:"basel_mohammed_binjabr", n:"Basel Mohammed Binjabr", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_2050","Board Member","board","v"]]},
+  {id:"bader_hamad_al", n:"Bader Hamad Al-Rabiah", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_2050","Board Member","board","v"]]},
+  {id:"rakan_abdulaziz_al", n:"Rakan Abdulaziz Al Fadl", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_2050","Board Member","board","v"]]},
+  {id:"sameh_mahmoud_hassan", n:"Sameh Mahmoud Hassan", t:2, p:60, s:"consumer_stap", roles:[
+    ["lst_2050","Group Chief Executive Officer","executive","v"]]},
+  {id:"bander_talaat_hamooh", n:"Bander Talaat Hamooh", t:2, p:60, s:"consumer_stap", roles:[
+    ["lst_2050","CEO - Panda Retail Company (Retail Sector)","executive","v"]]},
+  {id:"wajid_usman_khan", n:"Wajid Usman Khan", t:2, p:58, s:"consumer_stap", roles:[
+    ["lst_2050","Group Chief Financial Officer","executive","v"]]},
+  {id:"adeeb_ibrahim_moodi", n:"Adeeb Ibrahim Moodi", t:2, p:58, s:"consumer_stap", roles:[
+    ["lst_2050","Chief Human Capital Officer","executive","v"]]},
+  {id:"mohammad_nasr", n:"Mohammad Nasr", t:2, p:58, s:"consumer_stap", roles:[
+    ["lst_2050","Chief Investment Officer","executive","v"]]},
+  {id:"elnour_ali_saad", n:"Elnour Ali Saad", t:2, p:58, s:"consumer_stap", roles:[
+    ["lst_2050","Chief Corporate Governance and Legal Affairs Officer and Group Board Secretary","executive","v"]]},
+  {id:"hazim_al_ahmadi", n:"Hazim Al Ahmadi", t:2, p:46, s:"consumer_stap", roles:[
+    ["lst_2050","General Manager - Information Technology","executive","v"]]},
 ];
 
 const OWNERSHIP = [

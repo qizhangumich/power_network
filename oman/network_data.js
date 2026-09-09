@@ -474,6 +474,14 @@ const PEOPLE = [
     ["lst_oqgn","General Counsel","executive","v"]]},
   {id:"ahmed_al_abdali", n:"Ahmed Al Abdali", t:2, p:46, s:"utilities", roles:[
     ["lst_oqgn","Head of Internal Audit","executive","v"]]},
+  {id:"sultan_al_habsi", n:"Sultan Al Habsi", t:2, p:62, s:"sovereign", roles:[
+    ["oia","Chairman of the Board","board","v"]]},
+  {id:"salim_al_aufi", n:"Salim Al Aufi", t:2, p:62, s:"sovereign", roles:[
+    ["oia","Vice Chairman of the Board","board","v"]]},
+  {id:"saud_al_habsi", n:"Saud Al Habsi", t:2, p:52, s:"sovereign", roles:[
+    ["oia","Board Member","board","v"]]},
+  {id:"abdulsalam_bin_mohammed", n:"Abdulsalam bin Mohammed Al Murshidi", t:2, p:58, s:"sovereign", roles:[
+    ["oia","President of OIA","executive","v"]]},
 ];
 
 const OWNERSHIP = [

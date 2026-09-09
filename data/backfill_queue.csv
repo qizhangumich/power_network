@@ -359,36 +359,11 @@ abudhabi,lst_ih,Insurance House PJSC,finance,50,0,pending
 abudhabi,lst_methaq,Methaq Takaful Insurance P.S.C.,finance,50,0,pending
 bahrain,lst_kfh,Kuwait Finance House K.S.C.P.,finance,50,0,pending
 bahrain,lst_albh,Aluminium Bahrain B.S.C.,materials,50,0,pending
-bahrain,lst_salam,Al Salam Bank B.S.C.,finance,50,0,pending
-bahrain,lst_ugh,United Gulf Holding Company B.S.C.,finance,50,0,pending
-bahrain,lst_ghg,Gulf Hotels Group B.S.C.,consumer_disc,50,0,pending
-bahrain,lst_apmtb,APM Terminals Bahrain B.S.C.,industry,50,0,pending
-bahrain,lst_khaleeji,Khaleeji Bank B.S.C.,finance,50,0,pending
-bahrain,lst_bisb,Bahrain Islamic Bank B.S.C.,finance,50,0,pending
-bahrain,lst_arig,Arab Insurance Group B.S.C.,finance,50,0,pending
-bahrain,lst_solid,Solidarity Bahrain B.S.C.,finance,50,0,pending
-bahrain,lst_bkic,Bahrain Kuwait Insurance Company B.S.C.,finance,50,0,pending
-bahrain,lst_bnh,Bahrain National Holding Company B.S.C.,finance,50,0,pending
-bahrain,lst_seef,Seef Properties B.S.C.,realestate,50,0,pending
-bahrain,lst_dutyf,Bahrain Duty Free Shop Complex B.S.C.,consumer_disc,50,0,pending
-bahrain,lst_bcfc,Bahrain Commercial Facilities Company B.S.C.,finance,50,0,pending
-bahrain,lst_zainbh,Zain Bahrain B.S.C.,comm,50,0,pending
-bahrain,lst_inovest,Inovest B.S.C.,finance,50,0,pending
-bahrain,lst_esterad,Esterad Investment Company B.S.C.,finance,50,0,pending
-bahrain,lst_nhotel,National Hotels Company B.S.C.,consumer_disc,50,0,pending
-bahrain,lst_ithmr,Ithmaar Holding B.S.C.,finance,50,0,pending
-bahrain,lst_basrec,The Bahrain Ship Repairing and Engineering Company B.S.C.,industry,50,0,pending
-bahrain,lst_trafco,Trafco Group B.S.C.,consumer_stap,50,0,pending
 bahrain,lst_cpark,Bahrain Car Parks Company (Amakin) B.S.C.,industry,50,0,pending
-bahrain,lst_cineco,Bahrain Cinema Company B.S.C.,consumer_disc,50,0,pending
 bahrain,lst_bfm,Bahrain Flour Mills Company B.S.C.,consumer_stap,50,0,pending
-bahrain,lst_silah,Silah Gulf B.S.C. Closed,industry,50,0,pending
 bahrain,lst_ugic,United Gulf Investment Corporation B.S.C.,finance,50,0,pending
 bahrain,lst_poltry,Delmon Poultry Company B.S.C.,consumer_stap,50,0,pending
-bahrain,lst_family,Bahrain Family Leisure Company B.S.C.,consumer_disc,50,0,pending
-bahrain,lst_nass,Nass Corporation B.S.C.,industry,50,0,pending
 bahrain,lst_ebrit,Eskan Bank Realty Income Trust,realestate,50,0,pending
-bahrain,lst_abraaj,Al Abraaj Restaurants Group B.S.C.,consumer_disc,50,0,pending
 bahrain,lst_barka,Al Baraka Banking Group B.S.C.,finance,50,0,pending
 dubai,lst_salik,Salik Company P.J.S.C.,industry,50,0,pending
 dubai,lst_talabat,Talabat Holding plc,consumer_disc,50,0,pending
@@ -407,7 +382,6 @@ dubai,lst_unioncoop,Union Coop,consumer_stap,50,0,pending
 dubai,lst_deyaar,Deyaar Development PJSC,realestate,50,0,pending
 dubai,lst_taaleem,Taaleem Holdings PJSC,consumer_disc,50,0,pending
 dubai,lst_sukoon,Sukoon Insurance PJSC,finance,50,0,pending
-dubai,lst_armx,Aramex PJSC,industry,50,0,pending
 dubai,lst_upp,Union Properties PJSC,realestate,50,0,pending
 dubai,lst_ifa,International Financial Advisors Holding K.P.S.C.,finance,50,0,pending
 dubai,lst_ncc,National Cement Company,materials,50,0,pending
@@ -797,7 +771,6 @@ saudi,lst_4161,Bindawood Holding Co.,consumer_stap,50,0,pending
 saudi,lst_4162,Almunajem Foods Co.,consumer_stap,50,0,pending
 saudi,lst_4163,Aldawaa Medical Services Co.,consumer_stap,50,0,pending
 saudi,lst_4164,Nahdi Medical Co.,consumer_stap,50,0,pending
-saudi,lst_2050,Savola Group,consumer_stap,50,0,pending
 saudi,lst_2100,Wafrah for Industry and Development Co.,consumer_stap,50,0,pending
 saudi,lst_2281,Tanmiah Food Co.,consumer_stap,50,0,pending
 saudi,lst_2282,Naqi Water Co.,consumer_stap,50,0,pending

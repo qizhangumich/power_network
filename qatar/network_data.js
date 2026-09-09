@@ -683,6 +683,36 @@ const PEOPLE = [
     ["nakilat","Managing Director - Nakilat SvitzerWijsmuller","executive","v"]]},
   {id:"robert_walker", n:"Robert Walker", t:2, p:58, s:"energy", roles:[
     ["nakilat","Nakilat Agency Manager","executive","v"]]},
+  {id:"faisal_bin_thani", n:"Faisal Bin Thani Al Thani", t:2, p:62, s:"comm", roles:[
+    ["ooredoo","Chairman of the Board","board","v"]]},
+  {id:"saud_bin_nasser", n:"Saud Bin Nasser Al Thani", t:2, p:52, s:"comm", roles:[
+    ["ooredoo","Board Member","board","v"]]},
+  {id:"yousef_al_obaidly", n:"Yousef Al-Obaidly", t:2, p:52, s:"comm", roles:[
+    ["ooredoo","Board Member","board","v"]]},
+  {id:"essa_bin_hilal", n:"Essa Bin Hilal Al Kuwari", t:2, p:52, s:"comm", roles:[
+    ["ooredoo","Board Member","board","v"]]},
+  {id:"mohammed_bin_nasser", n:"Mohammed Bin Nasser Al-Hajri", t:2, p:52, s:"comm", roles:[
+    ["ooredoo","Board Member","board","v"]]},
+  {id:"nasser_bin_hamad", n:"Nasser Bin Hamad Bin Nasser Al-Thani", t:2, p:60, s:"comm", roles:[
+    ["ooredoo","Group Regional Chief Executive Officer - Middle East","executive","v"]]},
+  {id:"ahmad_abulaziz_al", n:"Ahmad Abulaziz Al Neama", t:2, p:60, s:"comm", roles:[
+    ["ooredoo","Group Regional Chief Executive Officer - North Africa and Asia","executive","v"]]},
+  {id:"hamad_yahya_al", n:"Hamad Yahya Al Nuaimi", t:2, p:58, s:"comm", roles:[
+    ["ooredoo","Group Chief Board Affairs Officer","executive","v"]]},
+  {id:"fatima_sultan_al", n:"Fatima Sultan Al Kuwari", t:2, p:58, s:"comm", roles:[
+    ["ooredoo","Group Chief Human Resources and Sustainability Officer","executive","v"]]},
+  {id:"saim_yaksan", n:"Saim Yaksan", t:2, p:58, s:"comm", roles:[
+    ["ooredoo","Group Chief Procurement Officer","executive","v"]]},
+  {id:"rene_werner", n:"Rene Werner", t:2, p:58, s:"comm", roles:[
+    ["ooredoo","Group Chief Commercial Officer","executive","v"]]},
+  {id:"sara_al_asmakh", n:"Sara Al Asmakh", t:2, p:58, s:"comm", roles:[
+    ["ooredoo","Group Chief Audit Executive","executive","v"]]},
+  {id:"hilal_mohammed_al", n:"Hilal Mohammed Al-Khulaifi", t:2, p:58, s:"comm", roles:[
+    ["ooredoo","Group Chief Legal Regulatory and Governance Officer","executive","v"]]},
+  {id:"efthymios_tsokanis", n:"Efthymios Tsokanis", t:2, p:58, s:"comm", roles:[
+    ["ooredoo","Group Chief Technology and Information Officer","executive","v"]]},
+  {id:"thomas_chevanne", n:"Thomas Chevanne", t:2, p:58, s:"comm", roles:[
+    ["ooredoo","Group Chief Strategy and M&A Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

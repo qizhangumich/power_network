@@ -607,6 +607,54 @@ const PEOPLE = [
     ["lst_amanat","Board Director","board","v"]]},
   {id:"john_ireland", n:"John Ireland", t:2, p:60, s:"health", roles:[
     ["lst_amanat","Chief Executive Officer","executive","v"]]},
+  {id:"shadi_malak", n:"Shadi Malak", t:2, p:62, s:"industry", roles:[
+    ["lst_armx","Chairman","board","v"]]},
+  {id:"benjamin_demoge", n:"Benjamin Demoge", t:2, p:62, s:"industry", roles:[
+    ["lst_armx","Vice Chairman","board","v"]]},
+  {id:"antonoaldo_neves", n:"Antonoaldo Neves", t:2, p:52, s:"industry", roles:[
+    ["lst_armx","Board Member","board","v"]]},
+  {id:"elaine_kerr", n:"Elaine Kerr", t:2, p:52, s:"industry", roles:[
+    ["lst_armx","Board Member","board","v"]]},
+  {id:"ioannis_karadimitris", n:"Ioannis Karadimitris", t:2, p:52, s:"industry", roles:[
+    ["lst_armx","Board Member","board","v"]]},
+  {id:"mohammed_alblooshi", n:"Mohammed Alblooshi", t:2, p:52, s:"industry", roles:[
+    ["lst_armx","Board Member","board","v"]]},
+  {id:"reem_aldarwish", n:"Reem Aldarwish", t:2, p:52, s:"industry", roles:[
+    ["lst_armx","Board Member","board","v"]]},
+  {id:"renzo_calambrogio", n:"Renzo Calambrogio", t:2, p:52, s:"industry", roles:[
+    ["lst_armx","Board Member","board","v"]]},
+  {id:"yves_delmas", n:"Yves Delmas", t:2, p:52, s:"industry", roles:[
+    ["lst_armx","Board Member","board","v"]]},
+  {id:"amadou_diallo", n:"Amadou Diallo", t:2, p:60, s:"industry", roles:[
+    ["lst_armx","Group Chief Executive Officer","executive","v"]]},
+  {id:"nicolas_sibuet", n:"Nicolas Sibuet", t:2, p:58, s:"industry", roles:[
+    ["lst_armx","Chief Financial and Corporate Development Officer","executive","v"]]},
+  {id:"lubna_shebli", n:"Lubna Shebli", t:2, p:58, s:"industry", roles:[
+    ["lst_armx","Vice President - Finance","executive","v"]]},
+  {id:"faysal_el_hajjami", n:"Faysal El Hajjami", t:2, p:58, s:"industry", roles:[
+    ["lst_armx","Chief Commercial Officer","executive","v"]]},
+  {id:"alaa_saoudi", n:"Alaa Saoudi", t:2, p:58, s:"industry", roles:[
+    ["lst_armx","Chief Operating Officer - Express","executive","v"]]},
+  {id:"tim_martin", n:"Tim Martin", t:2, p:60, s:"industry", roles:[
+    ["lst_armx","Regional CEO - West","executive","v"]]},
+  {id:"ayed_tadros", n:"Ayed Tadros", t:2, p:58, s:"industry", roles:[
+    ["lst_armx","Chief Legal Officer","executive","v"]]},
+  {id:"chantal_schoombie", n:"Chantal Schoombie", t:2, p:58, s:"industry", roles:[
+    ["lst_armx","Chief HR Officer","executive","v"]]},
+  {id:"francoise_russo", n:"Francoise Russo", t:2, p:58, s:"industry", roles:[
+    ["lst_armx","Chief Technology Officer","executive","v"]]},
+  {id:"abbas_panju", n:"Abbas Panju", t:2, p:60, s:"industry", roles:[
+    ["lst_armx","Regional CEO - GCC and India","executive","v"]]},
+  {id:"archer_fu", n:"Archer Fu", t:2, p:60, s:"industry", roles:[
+    ["lst_armx","Regional CEO - East","executive","v"]]},
+  {id:"hussam_al_baraqouni", n:"Hussam Al-Baraqouni", t:2, p:60, s:"industry", roles:[
+    ["lst_armx","Regional CEO - META","executive","v"]]},
+  {id:"mohammad_alhajji", n:"Mohammad Alhajji", t:2, p:58, s:"industry", roles:[
+    ["lst_armx","Chief Audit Officer","executive","v"]]},
+  {id:"fadi_azzi", n:"Fadi Azzi", t:2, p:58, s:"industry", roles:[
+    ["lst_armx","Senior Director - Contract Logistics","executive","v"]]},
+  {id:"nizar_zouhairi", n:"Nizar Zouhairi", t:2, p:58, s:"industry", roles:[
+    ["lst_armx","Vice President - Freight","executive","v"]]},
 ];
 
 const OWNERSHIP = [
