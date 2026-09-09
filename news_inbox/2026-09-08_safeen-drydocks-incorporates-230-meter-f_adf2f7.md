@@ -1,0 +1,5 @@
+# Safeen Drydocks incorporates 230-meter floating dry dock in Abu Dhabi
+source: Data Portuaria
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxQWjBvOFNiWjZMQXpyb3BWaUtCR0RpUmNMcmtlWDVNLVcyTkFOMkpMb0J1OGtYTi01bHZvOUNLSUJMaXR2c0ZJTTM3VzhHcHRZQmw0Y1dNdDhKZWxJbXdib3c3QXJWeTNySmhza1p2aVR0SlBqWFNuUVNrNU5YSjdCTHlXbEJuaFBPNTVWZUNodUoyYmt2eFJVeG1xUlFPekNEX1VjS1M4NmtDTTdPNVRWRTRIZFl0dw?oc=5
+
+Safeen Drydocks incorporates 230-meter floating dry dock in Abu Dhabi    Data Portuaria

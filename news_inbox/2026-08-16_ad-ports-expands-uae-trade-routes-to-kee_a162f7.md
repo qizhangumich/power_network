@@ -1,0 +1,5 @@
+# AD Ports expands UAE trade routes to keep goods moving during Hormuz disruption
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxNUzNldUJvclN0R0N0SFhSNVNFcldYczdyMVdoaWxDYk1yRVQ5RVE0QlhzZk1UcUxOMEhWS3BGUE9UM0ROc3JzcVhsRlJhWmdULTlwMlY0MHlHdjBYdDdxY2hkZnE4Z244S0F1REo0a2x2SVNkcEpDNTFPdkpzQnVwUnV2NkVVb1R4QlFhUXRtcm9jTzUxT3F2S1ZzcldBM21vYlV5bl9LVHZrNkNGalNQaEVITWw3a2VfeHFmcXM3UjJERncwQkctc1p1Zko?oc=5
+
+AD Ports expands UAE trade routes to keep goods moving during Hormuz disruption    Gulf News
