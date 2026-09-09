@@ -78,6 +78,7 @@ const INSTITUTIONS = [
   {id:"lst_ajmanbank", n:"Ajman Bank PJSC", s:"finance", t:2, p:50, short:"Ajman Bank PJSC"},
   {id:"lst_unioncoop", n:"Union Coop", s:"consumer_stap", t:2, p:50, short:"Union Coop"},
   {id:"lst_amanat", n:"Amanat Holdings PJSC", s:"health", t:2, p:58, short:"Amanat"},
+  {id:"dubaiinv", n:"Dubai Investments PJSC", s:"conglomerate", t:2, p:62, short:"Dubai Investments"},
   {id:"lst_deyaar", n:"Deyaar Development PJSC", s:"realestate", t:2, p:50, short:"DEYAAR"},
   {id:"lst_taaleem", n:"Taaleem Holdings PJSC", s:"consumer_disc", t:2, p:50, short:"TAALEEM"},
   {id:"lst_sukoon", n:"Sukoon Insurance PJSC", s:"finance", t:2, p:50, short:"SUKOON"},
@@ -655,6 +656,24 @@ const PEOPLE = [
     ["lst_armx","Senior Director - Contract Logistics","executive","v"]]},
   {id:"nizar_zouhairi", n:"Nizar Zouhairi", t:2, p:58, s:"industry", roles:[
     ["lst_armx","Vice President - Freight","executive","v"]]},
+  {id:"abdulrahman_ghanem_a", n:"Abdulrahman Ghanem A. Al Mutaiwee", t:2, p:62, s:"conglomerate", roles:[
+    ["dubaiinv","Chairman","board","v"]]},
+  {id:"khalid_jassim_mohamed", n:"Khalid Jassim Mohamed Bin Kalban", t:2, p:62, s:"conglomerate", roles:[
+    ["dubaiinv","Vice Chairman and Chief Executive Officer","executive","v"]]},
+  {id:"ali_fardan_ali", n:"Ali Fardan Ali Al Fardan", t:2, p:52, s:"conglomerate", roles:[
+    ["dubaiinv","Board Member","board","v"]]},
+  {id:"mohamed_saif_darwish", n:"Mohamed Saif Darwish Ahmed Al Ketbi", t:2, p:52, s:"conglomerate", roles:[
+    ["dubaiinv","Board Member","board","v"]]},
+  {id:"khaled_mohammad_ali", n:"Khaled Mohammad Ali Al Kamda", t:2, p:52, s:"conglomerate", roles:[
+    ["dubaiinv","Board Member","board","v"]]},
+  {id:"hussain_nasser_ahmed", n:"Hussain Nasser Ahmed Lootah", t:2, p:52, s:"conglomerate", roles:[
+    ["dubaiinv","Board Member","board","v"]]},
+  {id:"ahmed_salem_abdulla", n:"Ahmed Salem Abdulla Salem Alhosani", t:2, p:52, s:"conglomerate", roles:[
+    ["dubaiinv","Board Member","board","v"]]},
+  {id:"hind_abdulrahman_alali", n:"Hind Abdulrahman AlAli", t:2, p:52, s:"conglomerate", roles:[
+    ["dubaiinv","Board Member","board","v"]]},
+  {id:"faisal_abdulaziz_alshaikh", n:"Faisal Abdulaziz Alshaikh Mohamed Alkhazraji", t:2, p:52, s:"conglomerate", roles:[
+    ["dubaiinv","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

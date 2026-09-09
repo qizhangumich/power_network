@@ -51,7 +51,7 @@ ahmed_jasim_zaabi,Ahmed Jasim Al Zaabi,added,Department of Economic Development,
 ahmed_jasim_zaabi,Ahmed Jasim Al Zaabi,adgm,Abu Dhabi Global Market,Chairman,government,v,
 ahmed_jasim_zaabi,Ahmed Jasim Al Zaabi,execcouncil,Abu Dhabi Executive Council,Member,political,v,
 alsuwaidi_adq,Mohamed Hassan Alsuwaidi,fedgov,UAE Cabinet / Federal Government,UAE Minister of Investment,political,v,
-alsuwaidi_adq,Mohamed Hassan Alsuwaidi,adq,ADQ,Managing Director & CEO,executive,v,
+alsuwaidi_adq,Mohamed Hassan Alsuwaidi,adq,ADQ,Managing Director & Group CEO (2018-Jan 2026),executive,v,former:until Jan 2026
 syed_basar,Syed Basar Shueb,ihc,International Holding Company,CEO,executive,v,
 faisal_bannai,Faisal Al Bannai,prescourt,UAE Presidential Court,Adviser for Strategic Research & Advanced Technology Affairs,political,v,
 faisal_bannai,Faisal Al Bannai,atrc,Advanced Technology Research Council,Secretary-General,government,v,
@@ -110,7 +110,7 @@ badr_olama,Badr Al-Olama,adio,Abu Dhabi Investment Office,Director-General,gover
 ahmed_yahia,Ahmed Yahia Al Idrissi,mgx,MGX,CEO,executive,v,
 khalifa_suwaidi,Khalifa Sultan Al Suwaidi,adq,ADQ,Chief Investment Officer,executive,v,
 khalifa_suwaidi,Khalifa Sultan Al Suwaidi,agthia,Agthia Group,Chairman,board,v,
-khalifa_suwaidi,Khalifa Sultan Al Suwaidi,lunate,Lunate,Managing Partner,executive,ns,
+khalifa_suwaidi,Khalifa Sultan Al Suwaidi,lunate,Lunate,Managing Partner,executive,v,
 samia,Samia Bouazza,multiply,Multiply Group,Group CEO,executive,v,
 alwan,Ahmad Ali Alwan,hub71,Hub71,CEO,executive,v,
 jasim_thabet,Jasim Husain Thabet,taqa,TAQA Group,Group CEO & Managing Director,executive,v,
@@ -486,3 +486,6 @@ captain_mohamed_ali,Captain Mohamed Ali Mousa Torki Al-Ali,adnocls,,"Senior Vice
 justin_sawdon_stewart,Justin Sawdon Stewart Murphy,adnocls,,"Senior Vice President, Strategy & Business Development",executive,v
 khaled,H.H. Sheikh Khaled bin Mohamed bin Zayed Al Nahyan,adnoc,ADNOC,Chairman of the Executive Committee of the Board of Directors,board,v,
 irfan_tansel,Irfan Tansel,almasaood,,Interim Group Managing Director (from Sep 2026),executive,v
+alsuwaidi_adq,Mohamed Hassan Alsuwaidi,lunate,Lunate,Executive Chairman & Managing Partner,executive,v,
+murtaza_hussain,Murtaza Hussain,lunate,,Managing Partner,executive,v
+seif_fikry,Seif Fikry,lunate,,Managing Partner,executive,v

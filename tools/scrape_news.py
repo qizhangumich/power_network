@@ -97,7 +97,15 @@ SOURCES = {
   ],
 }
 
-UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"}
+# A bare User-Agent is a WAF fingerprint in itself: Arab News (Cloudflare) 403s
+# on UA-only and returns 200 once the ordinary browser headers are present.
+# Verified 2026-09-09; also sent to the state wires, which block the CI runner.
+UA = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Cache-Control": "no-cache",
+}
 
 def fetch(url):
     req = urllib.request.Request(url, headers=UA)

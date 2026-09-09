@@ -320,9 +320,10 @@ const PEOPLE = [
     ], note:"Gatekeeper for economic policy and the financial free zone."},
   {id:"alsuwaidi_adq", n:"Mohamed Hassan Alsuwaidi", t:1, p:92, s:"sovereign", roles:[
     ["fedgov","UAE Minister of Investment","political","v"],
-    ["adq","Managing Director & CEO","executive","v"],
+    ["adq","Managing Director & Group CEO (2018-Jan 2026)","executive","v","former:until Jan 2026"],
     ["adports","Chairman (until Jul 2026)","board","v","former:until Jul 2026"],
-    ]},
+    ["lunate","Executive Chairman & Managing Partner","executive","v"],
+    ], note:"Founding MD & Group CEO of ADQ 2018-Jan 2026; concluded tenure to become Executive Chairman & Managing Partner of Lunate (announced 29 Jan 2026). ADQ successor not yet publicly named."},
   {id:"syed_basar", n:"Syed Basar Shueb", t:1, p:85, s:"sovereign", roles:[
     ["ihc","CEO","executive","v"],
     ["alphadhabi","Independent Non-Executive Director","board","v"],
@@ -447,7 +448,7 @@ const PEOPLE = [
   {id:"khalifa_suwaidi", n:"Khalifa Sultan Al Suwaidi", t:2, p:76, s:"sovereign", roles:[
     ["adq","Chief Investment Officer","executive","v"],
     ["agthia","Chairman","board","v"],
-    ["lunate","Managing Partner","executive","ns"],
+    ["lunate","Managing Partner","executive","v"],
     ]},
   {id:"samia", n:"Samia Bouazza", t:2, p:70, s:"sovereign", roles:[
     ["multiply","Group CEO","executive","v"],
@@ -1543,6 +1544,12 @@ const PEOPLE = [
     ]},
   {id:"irfan_tansel", n:"Irfan Tansel", t:2, p:60, s:"conglomerate", roles:[
     ["almasaood","Interim Group Managing Director (from Sep 2026)","executive","v"],
+    ]},
+  {id:"murtaza_hussain", n:"Murtaza Hussain", t:2, p:58, s:"sovereign", roles:[
+    ["lunate","Managing Partner","executive","v"],
+    ]},
+  {id:"seif_fikry", n:"Seif Fikry", t:2, p:58, s:"sovereign", roles:[
+    ["lunate","Managing Partner","executive","v"],
     ]},
 ];
 
