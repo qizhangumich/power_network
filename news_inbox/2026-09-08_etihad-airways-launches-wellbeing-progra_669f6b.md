@@ -1,0 +1,5 @@
+# Etihad Airways launches wellbeing programme for more comfortable travel
+source: The Guardian Nigeria News
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxPejUxSWdVOEVKVmlYTFh2MU1PSGFTeTlmdjRtUEVoTFU3Z0pCQTN3Vnllb2hwTHZvU2RqUWZ2NnBwSWduNkVndmJrRzJPZDZvLWJ4N2RTNXhFMXZScVVJWHhCTzV6WVhRNEM3Q0dsaWktdEZLX3lZZkhQNmhYalItNXY0Y3BULVZlMDYwUFB3YXdOR2xKUGhGbFVkdEJ1SERTRjZHWGpJaEZ3WlJCN0JnRDFzczM1ZmtXcWZYaFVhQUlBS0tPQXRv?oc=5
+
+Etihad Airways launches wellbeing programme for more comfortable travel    The Guardian Nigeria News

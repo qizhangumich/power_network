@@ -1,0 +1,5 @@
+# Etihad Launches Daily Abu Dhabi–Tashkent Flights
+source: MiGFlug
+url: https://news.google.com/rss/articles/CBMinwFBVV95cUxOUjlhZ0J2MXBQQXpnOEpOLU5rSWp2cmFsMV81NVZaWEFYXzVEekFJRlNVVEVIN25zV0xiTVd0bzdSbWkxTTd5aUtJMnNRLTdrUzhRZ0M4ZXRvcHRocHdOdkFIYzFhaVF3cDZKN1NFd1FsdFY3ZE9URm5telJ3czg3alM2ektmdmdzVmMzN1VRbDZjVnpEbUttLXFMM1hLdWM?oc=5
+
+Etihad Launches Daily Abu Dhabi–Tashkent Flights    MiGFlug
