@@ -1,0 +1,5 @@
+# Dubai and Middle East flight disruption: Emirates, Etihad, Flydubai affected following a UK air traffic control failure and ongoing regional tensions
+source: Condé Nast Traveller Middle East
+url: https://news.google.com/rss/articles/CBMioAJBVV95cUxOM2RzcHZUZEpYZnJaZHpYVUlJWXkzNzM5b0tQcU43Wm02bmRjbG5rVnhLUExnejVzN1FrY1gzM1Q1RTA0Q1EyZVJqa3lRRzh4cWZBaW91OXFCQnNQWmFwbnREdmlRMmlnSGwzbF9kWlpKNlNLM3NTZGo0eG5YSDhwUlU2WG5DVlQtWUFxbVB1TVEwZWM4eEZGaW5nVGhpV1NxOTNaaDJ5bFVtd1JrcDVVVmdQRVpHei1NYkotSGtDSEZhUkNNdmJPbVBub25HUnNCSkhWLV9QRmFZOGRlM283MXlmV1FEZmFvSE5yUWc4OHRiVHJSSUJTSXZsMnhVUmZTMGdseUtHV3Y3SXFrT2ZFSWtEWC1oNWtRM0ZOLUJMRjk?oc=5
+
+Dubai and Middle East flight disruption: Emirates, Etihad, Flydubai affected following a UK air traffic control failure and ongoing regional tensions    Condé Nast Traveller Middle East

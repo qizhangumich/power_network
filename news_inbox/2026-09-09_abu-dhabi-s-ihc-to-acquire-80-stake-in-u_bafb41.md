@@ -1,0 +1,5 @@
+# Abu Dhabi's IHC to acquire 80% stake in UAE space company Marlan Holding
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUk5GYVBVY1RzaWVpZ0FzdTRMV2YzRElnTnhacmVxNlFGSVlfMEFYa3hqMUlOTkVDM1VtNktpSkViNVhDLW9LbHc4OUFXUzZVZzl1dF9WX3plOWZsRE03VXkwUklfeXd0RkNlRldyT2t4OGdvTGRDTS1JSTdFUmJ1WHdkRzBESDlXMnhkTW0wSHg2cVJTMGtXSi1nVGJPZkFEVGtIbjJ1NWs0clhUWWtPLTAyRTRfeGFIYVZzWWduZGEyRGFNTDIzUVBpS2xTaTRoNWV2V0dkbEdxa2tucGxKOQ?oc=5
+
+Abu Dhabi's IHC to acquire 80% stake in UAE space company Marlan Holding    TradingView
