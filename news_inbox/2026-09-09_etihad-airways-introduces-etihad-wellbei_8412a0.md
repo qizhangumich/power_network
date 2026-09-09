@@ -1,0 +1,5 @@
+# Etihad Airways introduces Etihad Wellbeing to enhance rest and comfort
+source: Travel Trade Journal
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxOV05Za0Myd1JERVQxQkhWUndWVXlPeGNxZnNySEJQd2tMZWo4cWdIVkNPTk8wV3ZJc2NvdGhGOVViby1EeWZVV3VQRlVlMklYVkhIMlcxaTI5R0x0VmFNUzFqcElkcjR4dFJHUE8yMDl5MkVvVUVqTXlLLTNqdmFhdVZzQTJfY2RzdWJwS2hhQ1NGUWpSZ3VheTJRaTZzRWFnZ1IwXw?oc=5
+
+Etihad Airways introduces Etihad Wellbeing to enhance rest and comfort    Travel Trade Journal

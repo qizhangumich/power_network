@@ -1,8 +1,8 @@
 {
  "bahrain/BNA": {
-  "fails": 9,
+  "fails": 10,
   "freq_h": 12,
-  "last_attempt": "2026-09-09T03:39:03Z",
+  "last_attempt": "2026-09-09T16:07:04Z",
   "last_new": "2026-09-03T17:12:26Z",
   "last_success": "2026-09-03T17:12:26Z"
  },
@@ -16,9 +16,9 @@
  "bahrain/TradeArabia": {
   "fails": 0,
   "freq_h": 12,
-  "last_attempt": "2026-09-09T03:39:03Z",
-  "last_new": "2026-09-09T03:39:03Z",
-  "last_success": "2026-09-09T03:39:03Z"
+  "last_attempt": "2026-09-09T16:07:04Z",
+  "last_new": "2026-09-09T16:07:04Z",
+  "last_success": "2026-09-09T16:07:04Z"
  },
  "kuwait/Al Rai": {
   "fails": 0,
@@ -28,9 +28,9 @@
   "last_success": "2026-09-09T10:55:20Z"
  },
  "kuwait/KUNA": {
-  "fails": 9,
+  "fails": 10,
   "freq_h": 12,
-  "last_attempt": "2026-09-09T03:39:03Z",
+  "last_attempt": "2026-09-09T16:07:04Z",
   "last_new": "2026-09-03T17:12:26Z",
   "last_success": "2026-09-03T17:12:26Z"
  },
@@ -44,14 +44,14 @@
  "oman/Muscat Daily": {
   "fails": 0,
   "freq_h": 12,
-  "last_attempt": "2026-09-09T03:39:03Z",
-  "last_new": "2026-09-09T03:39:03Z",
-  "last_success": "2026-09-09T03:39:03Z"
+  "last_attempt": "2026-09-09T16:07:04Z",
+  "last_new": "2026-09-09T16:07:04Z",
+  "last_success": "2026-09-09T16:07:04Z"
  },
  "oman/ONA": {
-  "fails": 10,
+  "fails": 11,
   "freq_h": 12,
-  "last_attempt": "2026-09-09T03:39:03Z"
+  "last_attempt": "2026-09-09T16:07:04Z"
  },
  "oman/Oman Observer": {
   "fails": 0,
@@ -77,9 +77,9 @@
  "qatar/QNA": {
   "fails": 0,
   "freq_h": 12,
-  "last_attempt": "2026-09-09T03:39:03Z",
-  "last_new": "2026-09-09T03:39:03Z",
-  "last_success": "2026-09-09T03:39:03Z"
+  "last_attempt": "2026-09-09T16:07:04Z",
+  "last_new": "2026-09-09T16:07:04Z",
+  "last_success": "2026-09-09T16:07:04Z"
  },
  "qatar/The Peninsula": {
   "fails": 0,
@@ -105,9 +105,9 @@
  "regional/FT Middle East": {
   "fails": 0,
   "freq_h": 12,
-  "last_attempt": "2026-09-09T03:39:03Z",
-  "last_new": "2026-09-09T03:39:03Z",
-  "last_success": "2026-09-09T03:39:03Z"
+  "last_attempt": "2026-09-09T16:07:04Z",
+  "last_new": "2026-09-09T16:07:04Z",
+  "last_success": "2026-09-09T16:07:04Z"
  },
  "regional/MEED": {
   "fails": 0,
