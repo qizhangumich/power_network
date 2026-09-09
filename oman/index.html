@@ -1318,7 +1318,23 @@ function drawLabel(L, atX){
   ctx.globalAlpha = 1;
 }
 function drawLabels(q){
-  if(!MOB){ q.forEach(drawLabel); return; }            // desktop: unchanged
+  if(!MOB){
+    /* Desktop draws every candidate in node order, as before — but a node that
+       has been panned off the canvas must not leave its label behind. Centred
+       text at a negative x still paints its right-hand half against the edge,
+       which reads as a caption floating in empty space with nothing attached.
+       Cull labels whose node is outside the canvas, and nudge the ones that
+       belong to a node still on screen back inside so they stay readable. */
+    for(const L of q){
+      if(L.x < 0 || L.x > W || L.y < -20 || L.y > H + 20) continue;
+      ctx.font = `${L.cls.f} ${L.cls.fs}px ${FONT}`;
+      const w = ctx.measureText(L.label).width;
+      const xx = W > 40 ? Math.max(w/2 + 8, Math.min(W - w/2 - 8, L.x)) : L.x;
+      if(Math.abs(xx - L.x) > 42) continue;   // too far to nudge without detaching it
+      drawLabel(L, xx);
+    }
+    return;
+  }
   q.sort((a,b) => b.prio - a.prio);
   const boxes = [];
   let ambient = 0;
