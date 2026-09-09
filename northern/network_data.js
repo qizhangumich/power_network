@@ -281,6 +281,46 @@ const PEOPLE = [
     ["ajmanbank","Board Member","board","v"]]},
   {id:"sarah_al_jarman", n:"Sarah Al Jarman", t:2, p:52, s:"finance", roles:[
     ["ajmanbank","Board Member","board","v"]]},
+  {id:"saqr_bin_saud", n:"Saqr Bin Saud Al Qasimi", t:2, p:62, s:"materials", roles:[
+    ["rakceramics","Chairman of the Board","board","v"]]},
+  {id:"fawaz_alrajhi", n:"Fawaz Alrajhi", t:2, p:62, s:"materials", roles:[
+    ["rakceramics","Vice Chairman of the Board","board","v"]]},
+  {id:"khalid_bin_saud", n:"Khalid Bin Saud Al Qasimi", t:2, p:52, s:"materials", roles:[
+    ["rakceramics","Board Member","board","v"]]},
+  {id:"abdulla_al_abdouli", n:"Abdulla Al Abdouli", t:2, p:52, s:"materials", roles:[
+    ["rakceramics","Board Member","board","v"]]},
+  {id:"wassim_moukahhal", n:"Wassim Moukahhal", t:2, p:52, s:"materials", roles:[
+    ["rakceramics","Board Member","board","v"]]},
+  {id:"saqr_bin_omer", n:"Saqr Bin Omer Al Qasimi", t:2, p:52, s:"materials", roles:[
+    ["rakceramics","Board Member","board","v"]]},
+  {id:"farah_al_mazrui", n:"Farah Al Mazrui", t:2, p:52, s:"materials", roles:[
+    ["rakceramics","Board Member","board","v"]]},
+  {id:"jasem_al_khateri", n:"Jasem Al Khateri", t:2, p:58, s:"materials", roles:[
+    ["rakceramics","Chief Human Resources Officer","executive","v"]]},
+  {id:"p_k_chand", n:"P K Chand", t:2, p:58, s:"materials", roles:[
+    ["rakceramics","Group Chief Financial Officer","executive","v"]]},
+  {id:"vibhuti_bhushan", n:"Vibhuti Bhushan", t:2, p:58, s:"materials", roles:[
+    ["rakceramics","Chief Governance and Sustainability Officer","executive","v"]]},
+  {id:"shakti_arora", n:"Shakti Arora", t:2, p:58, s:"materials", roles:[
+    ["rakceramics","Chief Procurement Officer","executive","v"]]},
+  {id:"basavaraj_patil", n:"Basavaraj Patil", t:2, p:58, s:"materials", roles:[
+    ["rakceramics","Chief Operations Officer (Tiles and Sanitaryware)","executive","v"]]},
+  {id:"tarek_skaf", n:"Tarek Skaf", t:2, p:58, s:"materials", roles:[
+    ["rakceramics","Chief Commercial Officer (RAK Ceramics)","executive","v"]]},
+  {id:"renu_oommen", n:"Renu Oommen", t:2, p:58, s:"materials", roles:[
+    ["rakceramics","Chief Marketing Officer (RAK Porcelain)","executive","v"]]},
+  {id:"bobby_joseph", n:"Bobby Joseph", t:2, p:60, s:"materials", roles:[
+    ["rakceramics","Chief Executive Officer (India)","executive","v"]]},
+  {id:"sak_ekramuzzaman", n:"Sak Ekramuzzaman", t:2, p:60, s:"materials", roles:[
+    ["rakceramics","Managing Director (Bangladesh)","executive","v"]]},
+  {id:"leonardo_de_muro", n:"Leonardo De Muro", t:2, p:58, s:"materials", roles:[
+    ["rakceramics","Corporate Vice President - Group International Business Development and Marketing","executive","v"]]},
+  {id:"nikhil_chaturvedi", n:"Nikhil Chaturvedi", t:2, p:58, s:"materials", roles:[
+    ["rakceramics","Corporate Vice President (IT)","executive","v"]]},
+  {id:"moez_khalid_iqbal", n:"Moez Khalid Iqbal", t:2, p:58, s:"materials", roles:[
+    ["rakceramics","Corporate Vice President - Surfaces Division","executive","v"]]},
+  {id:"sari_kanaan", n:"Sari Kanaan", t:2, p:58, s:"materials", roles:[
+    ["rakceramics","Vice President and Global General Counsel","executive","v"]]},
 ];
 
 const OWNERSHIP = [

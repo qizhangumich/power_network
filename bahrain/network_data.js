@@ -333,6 +333,82 @@ const PEOPLE = [
     ["bmmi","Head of Supply Chain","executive","v"]]},
   {id:"santosh_kumar", n:"Santosh Kumar", t:2, p:46, s:"consumer_stap", roles:[
     ["bmmi","Head of Finance","executive","v"]]},
+  {id:"tariq_jaleel_alsaffar", n:"Tariq Jaleel AlSaffar", t:2, p:62, s:"finance", roles:[
+    ["lst_bbk","Chairperson","board","v"]]},
+  {id:"aref_haider_rahimi", n:"Aref Haider Rahimi", t:2, p:52, s:"finance", roles:[
+    ["lst_bbk","Board Member","board","v"]]},
+  {id:"ghaneya_mohsen_alderazi", n:"Ghaneya Mohsen AlDerazi", t:2, p:52, s:"finance", roles:[
+    ["lst_bbk","Board Member","board","v"]]},
+  {id:"munther_abdulaziz_al", n:"Munther Abdulaziz Al Kooheji", t:2, p:52, s:"finance", roles:[
+    ["lst_bbk","Board Member","board","v"]]},
+  {id:"mohamed_abdulhakeem_abdulmal", n:"Mohamed Abdulhakeem Abdulmalek", t:2, p:52, s:"finance", roles:[
+    ["lst_bbk","Board Member","board","v"]]},
+  {id:"khaled_mohamed_alasfour", n:"Khaled Mohamed AlAsfour", t:2, p:52, s:"finance", roles:[
+    ["lst_bbk","Board Member","board","v"]]},
+  {id:"ghanem_ebrahim_al", n:"Ghanem Ebrahim Al Fodhala", t:2, p:52, s:"finance", roles:[
+    ["lst_bbk","Board Member","board","v"]]},
+  {id:"nada_waleed_almojil", n:"Nada Waleed AlMojil", t:2, p:52, s:"finance", roles:[
+    ["lst_bbk","Board Member","board","v"]]},
+  {id:"sara_khalil_nooruddin", n:"Sara Khalil Nooruddin", t:2, p:52, s:"finance", roles:[
+    ["lst_bbk","Board Member","board","v"]]},
+  {id:"yaser_alsharifi", n:"Yaser Alsharifi", t:2, p:60, s:"finance", roles:[
+    ["lst_bbk","Group Chief Executive Officer","executive","v"]]},
+  {id:"hassaan_burshaid", n:"Hassaan Burshaid", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Group Chief Operating Officer","executive","v"]]},
+  {id:"mohammed_abdulla_isa", n:"Mohammed Abdulla Isa", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Group Chief Financial Officer","executive","v"]]},
+  {id:"nadeem_al_kooheji", n:"Nadeem Al Kooheji", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Chief Wholesale Banking Officer","executive","v"]]},
+  {id:"mohamed_al_rayes", n:"Mohamed Al Rayes", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Chief Treasury and Investments Officer","executive","v"]]},
+  {id:"salman_al_hasan", n:"Salman Al Hasan", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Chief International Banking Officer","executive","v"]]},
+  {id:"ahmed_taqi", n:"Ahmed Taqi", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Chief Retail Banking Officer","executive","v"]]},
+  {id:"aqeel_ghaith", n:"Aqeel Ghaith", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Chief Private Banking Officer","executive","v"]]},
+  {id:"sarah_jamal", n:"Sarah Jamal", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Group Chief Human Resources Officer","executive","v"]]},
+  {id:"simone_carminati", n:"Simone Carminati", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Group Chief Corporate and Business Development Officer","executive","v"]]},
+  {id:"mohamed_alaali", n:"Mohamed Alaali", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Group Chief Strategy and Transformation Officer","executive","v"]]},
+  {id:"vidhu_mittal", n:"Vidhu Mittal", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Group Chief Information Officer","executive","v"]]},
+  {id:"nadeen_al_shirawi", n:"Nadeen Al Shirawi", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Group Chief Compliance Officer and MLRO","executive","v"]]},
+  {id:"ebrahim_mashal", n:"Ebrahim Mashal", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Group Chief Risk Officer","executive","v"]]},
+  {id:"khaled_al_naser", n:"Khaled Al Naser", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Group Chief Internal Audit","executive","v"]]},
+  {id:"ahmed_a_qudoos", n:"Ahmed A. Qudoos", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Group Chief Corporate Secretariat","executive","v"]]},
+  {id:"salah_al_jassas", n:"Salah Al Jassas", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Chief Remedial Officer","executive","v"]]},
+  {id:"layla_radhi", n:"Layla Radhi", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Chief Credit Assessment Officer","executive","v"]]},
+  {id:"iris_edwards", n:"Iris Edwards", t:2, p:58, s:"finance", roles:[
+    ["lst_bbk","Group Chief Legal Counsel","executive","v"]]},
+  {id:"nasser_bin_hamad", n:"Nasser bin Hamad Al Khalifa", t:2, p:62, s:"energy", roles:[
+    ["bapco","Chairman of the Board of Directors","board","v"]]},
+  {id:"salman_bin_khalifa", n:"Salman bin Khalifa Al Khalifa", t:2, p:62, s:"energy", roles:[
+    ["bapco","Deputy Chairman","board","v"]]},
+  {id:"mohamed_bin_mubarak", n:"Mohamed bin Mubarak Bin Daina", t:2, p:52, s:"energy", roles:[
+    ["bapco","Board Member","board","v"]]},
+  {id:"khalid_amro_al", n:"Khalid Amro Al Rumaihi", t:2, p:52, s:"energy", roles:[
+    ["bapco","Board Member","board","v"]]},
+  {id:"faisal_mohamed_al", n:"Faisal Mohamed Al Mahroos", t:2, p:52, s:"energy", roles:[
+    ["bapco","Board Member","board","v"]]},
+  {id:"robert_warren_dudley", n:"Robert Warren Dudley", t:2, p:52, s:"energy", roles:[
+    ["bapco","Board Member","board","v"]]},
+  {id:"mark_thomas", n:"Mark Thomas", t:2, p:60, s:"energy", roles:[
+    ["bapco","Board Member and Chief Executive Officer","executive","v"]]},
+  {id:"anthony_hayward", n:"Anthony Hayward", t:2, p:52, s:"energy", roles:[
+    ["bapco","Board Member","board","v"]]},
+  {id:"hadyah_mohammed_fathalla", n:"Hadyah Mohammed Fathalla", t:2, p:52, s:"energy", roles:[
+    ["bapco","Board Member","board","v"]]},
+  {id:"abdul_hussain_bin", n:"Abdul-Hussain Bin Ali Mirza", t:2, p:52, s:"energy", roles:[
+    ["bapco","Advisor to the Board","board","v"]]},
 ];
 
 const OWNERSHIP = [

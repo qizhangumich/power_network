@@ -590,6 +590,90 @@ const PEOPLE = [
     ["kia","Acting Director Legal Affairs","executive","v"]]},
   {id:"eiman_hasan", n:"Eiman Hasan", t:2, p:58, s:"sovereign", roles:[
     ["kia","Acting Director Internal Audit Office","executive","v"]]},
+  {id:"abdullah_nasser_sabah", n:"Abdullah Nasser Sabah Al Ahmad Al Sabah", t:2, p:62, s:"finance", roles:[
+    ["lst_burg","Chairman","board","v"]]},
+  {id:"faisal_m_sarkhou", n:"Faisal M. Sarkhou", t:2, p:62, s:"finance", roles:[
+    ["lst_burg","Vice Chairman","board","v"]]},
+  {id:"abdulkareem_el_kabariti", n:"Abdulkareem El-Kabariti", t:2, p:52, s:"finance", roles:[
+    ["lst_burg","Board Member","board","v"]]},
+  {id:"fouad_husni_douglas", n:"Fouad Husni Douglas", t:2, p:52, s:"finance", roles:[
+    ["lst_burg","Non-Executive Board Member","board","v"]]},
+  {id:"sager_abdullah_al", n:"Sager Abdullah Al Sharhan", t:2, p:52, s:"finance", roles:[
+    ["lst_burg","Independent Non-Executive Board Member","board","v"]]},
+  {id:"michel_a_accad", n:"Michel A. Accad", t:2, p:52, s:"finance", roles:[
+    ["lst_burg","Independent Non-Executive Board Member","board","v"]]},
+  {id:"abdullah_mohammed_alsharekh", n:"Abdullah Mohammed AlSharekh", t:2, p:52, s:"finance", roles:[
+    ["lst_burg","Board Member","board","v"]]},
+  {id:"jamal_abdullah_dashti", n:"Jamal Abdullah Dashti", t:2, p:52, s:"finance", roles:[
+    ["lst_burg","Board Member","board","v"]]},
+  {id:"abdulaziz_saad_al", n:"Abdulaziz Saad Al Rashed", t:2, p:52, s:"finance", roles:[
+    ["lst_burg","Independent Non-Executive Board Member","board","v"]]},
+  {id:"osama_rashed_saqer", n:"Osama Rashed Saqer Al Armeli", t:2, p:52, s:"finance", roles:[
+    ["lst_burg","Independent Non-Executive Board Member","board","v"]]},
+  {id:"abdullah_alosta", n:"Abdullah Alosta", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","General Manager - Board Secretariat and Corporate Governance","executive","v"]]},
+  {id:"antoine_jean_daher", n:"Antoine Jean Daher", t:2, p:60, s:"finance", roles:[
+    ["lst_burg","Group Chief Executive Officer","executive","v"]]},
+  {id:"fadel_mahmoud_abdullah", n:"Fadel Mahmoud Abdullah", t:2, p:60, s:"finance", roles:[
+    ["lst_burg","Chief Executive Officer - Kuwait","executive","v"]]},
+  {id:"khalid_fahed_al", n:"Khalid Fahed Al Zouman", t:2, p:58, s:"finance", roles:[
+    ["lst_burg","Group Chief Financial Officer","executive","v"]]},
+  {id:"andrew_christopher_singh", n:"Andrew Christopher Singh", t:2, p:58, s:"finance", roles:[
+    ["lst_burg","Chief Risk Officer","executive","v"]]},
+  {id:"venkatakrishnan_menon", n:"Venkatakrishnan Menon", t:2, p:58, s:"finance", roles:[
+    ["lst_burg","Chief Operating Services Officer","executive","v"]]},
+  {id:"naqeeb_hamed_amin", n:"Naqeeb Hamed Amin", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","General Manager - Human Resources Group","executive","v"]]},
+  {id:"mahmoud_mohamed_ezzat", n:"Mahmoud Mohamed Ezzat", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","General Manager - Legal Group","executive","v"]]},
+  {id:"danah_faisal_aljasem", n:"Danah Faisal AlJasem", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","General Manager of Corporate Communications","executive","v"]]},
+  {id:"mohammad_najeeb_al", n:"Mohammad Najeeb Al-Zanki", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","General Manager - Corporate Banking","executive","v"]]},
+  {id:"abdullah_abdulmajeed_marafie", n:"Abdullah Abdulmajeed Marafie", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","General Manager - Treasury and Financial Institutions","executive","v"]]},
+  {id:"meshari_abduljalil_ahmad", n:"Meshari Abduljalil Ahmad", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","General Manager - Private Banking and Wealth Management","executive","v"]]},
+  {id:"manaf_khaled_almenaifi", n:"Manaf Khaled AlMenaifi", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","General Manager - Strategic Planning and Monitoring","executive","v"]]},
+  {id:"mohammad_abdullah_alzayed", n:"Mohammad Abdullah AlZayed", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","General Manager - Operations","executive","v"]]},
+  {id:"barrak_jassem_almattar", n:"Barrak Jassem AlMattar", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","General Manager - Information Technology","executive","v"]]},
+  {id:"amro_mohamed_elbanna", n:"Amro Mohamed ElBanna", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","General Manager - International Banks Office","executive","v"]]},
+  {id:"saud_al_hadbah", n:"Saud Al Hadbah", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","General Manager - General Services Administration","executive","v"]]},
+  {id:"reham_essa_sultan", n:"Reham Essa Sultan", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","Deputy General Manager - Compliance Group","executive","v"]]},
+  {id:"hamad_abdulhadi_mohammad", n:"Hamad Abdulhadi Mohammad", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","Deputy General Manager - Anti Financial Crimes Group","executive","v"]]},
+  {id:"omar_khaled_khalifouh", n:"Omar Khaled Khalifouh", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","Deputy General Manager - Digital Transformation","executive","v"]]},
+  {id:"mishary_yousef_alessa", n:"Mishary Yousef AlEssa", t:2, p:46, s:"finance", roles:[
+    ["lst_burg","Deputy General Manager - Investments","executive","v"]]},
+  {id:"abdulaziz_abdullah_dakheel", n:"Abdulaziz Abdullah Dakheel Al-Shaya", t:2, p:62, s:"finance", roles:[
+    ["lst_boubyan","Chairman","board","v"]]},
+  {id:"adel_abdul_wahab", n:"Adel Abdul Wahab Al-Majed", t:2, p:62, s:"finance", roles:[
+    ["lst_boubyan","Vice-Chairman and Group Chief Executive Officer","executive","v"]]},
+  {id:"hazim_ali_al", n:"Hazim Ali Al-Mutairi", t:2, p:52, s:"finance", roles:[
+    ["lst_boubyan","Director - Non-Executive","board","v"]]},
+  {id:"mohamed_yousef_al", n:"Mohamed Yousef Al-Saqer", t:2, p:52, s:"finance", roles:[
+    ["lst_boubyan","Director - Non-Executive","board","v"]]},
+  {id:"waleed_mishari_al", n:"Waleed Mishari Al-Hamad", t:2, p:52, s:"finance", roles:[
+    ["lst_boubyan","Director - Non-Executive","board","v"]]},
+  {id:"fahad_ahmad_al", n:"Fahad Ahmad Al-Fouzan", t:2, p:52, s:"finance", roles:[
+    ["lst_boubyan","Director - Non-Executive","board","v"]]},
+  {id:"waleed_khalid_al", n:"Waleed Khalid Al-Yaqout", t:2, p:52, s:"finance", roles:[
+    ["lst_boubyan","Director - Non-Executive","board","v"]]},
+  {id:"khalid_ahmad_al", n:"Khalid Ahmad Al-Mudhaf", t:2, p:52, s:"finance", roles:[
+    ["lst_boubyan","Director - Independent","board","v"]]},
+  {id:"abdullah_saud_al", n:"Abdullah Saud Al-Bader", t:2, p:52, s:"finance", roles:[
+    ["lst_boubyan","Director - Independent","board","v"]]},
+  {id:"amani_khaled_bouresli", n:"Amani Khaled Bouresli", t:2, p:52, s:"finance", roles:[
+    ["lst_boubyan","Director - Independent","board","v"]]},
+  {id:"rabah_abdulrahman_alrabah", n:"Rabah Abdulrahman AlRabah", t:2, p:52, s:"finance", roles:[
+    ["lst_boubyan","Director - Independent","board","v"]]},
 ];
 
 const OWNERSHIP = [

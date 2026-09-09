@@ -37,7 +37,6 @@ abudhabi,dge,Department of Government Enablement,gov,78,1,pending
 abudhabi,adek,Department of Education & Knowledge,gov,78,1,pending
 abudhabi,chimera,Chimera Investments,sovereign,78,0,pending
 bahrain,mofa_bh,Ministry of Foreign Affairs,gov,78,1,pending
-bahrain,bapco,Bapco Energies,energy,78,1,pending
 dubai,dof_dxb,Dubai Dept of Finance,gov,78,1,pending
 dubai,dxbmun,Dubai Municipality,gov,78,1,pending
 dubai,dxbpolice,Dubai Police,gov,78,1,pending
@@ -133,7 +132,6 @@ dubai,jumeirah,Jumeirah Group,consumer_disc,70,1,pending
 dubai,alghurair,Al Ghurair Group,conglomerate,70,1,pending
 dubai,digitaldubai,Digital Dubai Authority,gov,70,1,pending
 dubai,dfsa,Dubai Financial Services Authority,finance,70,1,pending
-northern,rakceramics,RAK Ceramics,materials,70,1,pending
 northern,fujport,Port of Fujairah,industry,70,1,pending
 northern,sedd,Sharjah Economic Development Department,gov,70,1,pending
 oman,omanlng,Oman LNG,energy,70,1,pending
@@ -361,7 +359,6 @@ abudhabi,lst_ih,Insurance House PJSC,finance,50,0,pending
 abudhabi,lst_methaq,Methaq Takaful Insurance P.S.C.,finance,50,0,pending
 bahrain,lst_kfh,Kuwait Finance House K.S.C.P.,finance,50,0,pending
 bahrain,lst_albh,Aluminium Bahrain B.S.C.,materials,50,0,pending
-bahrain,lst_bbk,Bank of Bahrain and Kuwait B.S.C.,finance,50,0,pending
 bahrain,lst_salam,Al Salam Bank B.S.C.,finance,50,0,pending
 bahrain,lst_ugh,United Gulf Holding Company B.S.C.,finance,50,0,pending
 bahrain,lst_ghg,Gulf Hotels Group B.S.C.,consumer_disc,50,0,pending
@@ -434,8 +431,6 @@ dubai,lst_ekttitab,Ekttitab Holding Company K.S.C.,finance,50,0,pending
 dubai,lst_alsalamsudan,Al Salam Bank - Sudan,finance,50,0,pending
 kuwait,lst_abk,Al Ahli Bank of Kuwait,finance,50,0,pending
 kuwait,lst_kib,Kuwait International Bank,finance,50,0,pending
-kuwait,lst_burg,Burgan Bank,finance,50,0,pending
-kuwait,lst_boubyan,Boubyan Bank,finance,50,0,pending
 kuwait,lst_ifa,International Financial Advisors Holding,finance,50,0,pending
 kuwait,lst_ninv,National Investments Co,finance,50,0,pending
 kuwait,lst_kproj,Kuwait Projects Holding,finance,50,0,pending
