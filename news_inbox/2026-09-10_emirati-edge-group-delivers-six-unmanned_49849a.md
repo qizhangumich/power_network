@@ -1,0 +1,5 @@
+# Emirati EDGE Group delivers six unmanned helicopters to Angolan navy
+source: Breaking Defense
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbkEtZ1RleXJxV25TaG1rN1J2VEdHTUdsdWx3NVNZM2tRNUdob2JwZU1ON1JSYi1peXZqbXh3M3RkOEhxZ0JxREMxTzFNYVVVdGhaR1V0M2s1U3hsSFhiMzNod1ctYjFqc0hOY09IZzJac0tNcTdDVFo0dmRGR1pldEJOVUhFMlFDMHNDNzRhQWVDZjF2bUk4Qm9Dd3FWaHBFWWRPLTZpdlU?oc=5
+
+Emirati EDGE Group delivers six unmanned helicopters to Angolan navy    Breaking Defense

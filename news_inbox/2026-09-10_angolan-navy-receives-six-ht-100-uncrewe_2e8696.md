@@ -1,0 +1,5 @@
+# Angolan navy receives six HT-100 uncrewed helicopters from EDGE Group
+source: FlightGlobal
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQZHMxS2xzaXNHSW5rMVZ2ejQ2Z3h4Q25seW1RajBIbkxodEhSblJVNEVRTjdlRjY5aEgtSkpmdDVQa1pmelU5SnNlaWIxYnFMQ0FvZjRvTU5aMFZfUVZjbmRYVUZhVlhBWWhTZk9qeTdRbWQzOEtBOHoySF9mN05JbHhDWDBpa3QwRHQzOTZqQkRtLUpyYTFjYzJSRVEzWVJzUmJaMWx6YW15SVkya3BDdU9NbWdnZzZxejZNNFVB?oc=5
+
+Angolan navy receives six HT-100 uncrewed helicopters from EDGE Group    FlightGlobal

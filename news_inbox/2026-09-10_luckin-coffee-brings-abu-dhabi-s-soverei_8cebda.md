@@ -1,0 +1,5 @@
+# Luckin Coffee brings Abu Dhabi's sovereign wealth fund into its shareholder base
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQNlJpT2JNdlNyNTJZNGYzT2p0eDJleUVncENkZnR2clM5RmRXSFlUSmFzUGUzQUZvOUhkT3lSbUNOc3VaSWxKelh5ZTVjS1NmQnduZmNRX000YzZlVlFiMTBqRmRhRG5jOXJ0X2Q1M19WZ1M4RDNyUXFwTWs0QXJZVXhCNHFEa2VjNi02czA2OHNZdDRNN0JqbkVad29NTnRabVowcmZvYjNubEs4QzA0WGlKTlZacjd1cmxveG4ySlB3T2RXWDc4bTNoUEsyQQ?oc=5
+
+Luckin Coffee brings Abu Dhabi's sovereign wealth fund into its shareholder base    marketscreener.com

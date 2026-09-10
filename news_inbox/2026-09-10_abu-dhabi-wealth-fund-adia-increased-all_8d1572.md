@@ -1,0 +1,5 @@
+# Abu Dhabi wealth fund ADIA increased allocations to private assets in 2025
+source: Zawya
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxQSW9wTC12ZlJza0taRFFnUDVPTzFvOVJOakZtZzZjU3hnWWhfMEZuY3JUaGxraWFEclJDSFFlaWxhV013ZVFsMEZpZl9GR2hWYnJPOU43ZGU3TGxBbTRQWnVfbl9jYmR1OTl2ZXJ6V09ocDIxYWNxRGhjVHlpeWczZU1vemJnM0pqT1NqMVNubElPNERHTWxtbm44UnBrdG9zSTlCYTRERHM2SExaSXlHUVNycXNhZEZNczlwVFJCV3NiRmo0?oc=5
+
+Abu Dhabi wealth fund ADIA increased allocations to private assets in 2025    Zawya

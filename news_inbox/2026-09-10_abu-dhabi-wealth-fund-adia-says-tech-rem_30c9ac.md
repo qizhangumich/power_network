@@ -1,0 +1,5 @@
+# Abu Dhabi wealth fund Adia says tech remains major investment theme this year
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTURpb3poT2pxd1pSQWh2bEZsb1RIR2hnYV9Qc1RKTDUwSWFPWWxibTJZTDZxTWtWT0xGRG8wc1owWHpzNHRia3JCUjJETGZ1clcxeEZnNUJxd21PeG54UU1sWHNtTi0zaGxKX3p1NFcyNjF4eDF2SWUybDUxeGFjOEtsVks4Z0NkWjFHNTU4VkI4cURMRXJuVEJWX1dUZlRxTFlMZHNDb3FhNWVVT3pJRGY5WlNUUWRoYTg5OFdGT2VQbmhBMEdzbTd3TGZtb0JJMUJ6TQ?oc=5
+
+Abu Dhabi wealth fund Adia says tech remains major investment theme this year    thenationalnews.com
