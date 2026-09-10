@@ -198,7 +198,6 @@ abudhabi,eni,Eni,energy,64,0,pending
 abudhabi,mckinsey,McKinsey & Company,industry,64,0,pending
 bahrain,bic,Bahrain International Circuit (F1),consumer_disc,64,1,pending
 bahrain,bhb,Bahrain Bourse,finance,64,0,pending
-bahrain,kanoo,Yusuf bin Ahmed Kanoo Group,conglomerate,64,1,pending
 kuwait,moinfo_kw,Ministry of Information & Culture,gov,64,1,pending
 kuwait,kwmun,Kuwait Municipality,gov,64,1,pending
 northern,aus,American University of Sharjah,education,64,1,pending
@@ -353,7 +352,6 @@ abudhabi,lst_oeihc,Oman & Emirates Investment Holding Company SAOG,finance,50,0,
 abudhabi,lst_ih,Insurance House PJSC,finance,50,0,pending
 abudhabi,lst_methaq,Methaq Takaful Insurance P.S.C.,finance,50,0,pending
 bahrain,lst_kfh,Kuwait Finance House K.S.C.P.,finance,50,0,pending
-bahrain,lst_albh,Aluminium Bahrain B.S.C.,materials,50,0,pending
 bahrain,lst_ugic,United Gulf Investment Corporation B.S.C.,finance,50,0,pending
 dubai,lst_salik,Salik Company P.J.S.C.,industry,50,0,pending
 dubai,lst_talabat,Talabat Holding plc,consumer_disc,50,0,pending
@@ -401,7 +399,6 @@ kuwait,lst_arzan,Arzan Financial Group for Financing and Investment,finance,50,0
 kuwait,lst_aayan,Aayan Leasing and Investment,finance,50,0,pending
 kuwait,lst_kre,Kuwait Real Estate Co KSC,realestate,50,0,pending
 kuwait,lst_urc,United Real Estate K.S.C,realestate,50,0,pending
-kuwait,lst_sre,Salhia Real Estate,realestate,50,0,pending
 kuwait,lst_altijaria,The Commercial Real Estate Co K.S.C,realestate,50,0,pending
 kuwait,lst_nind,National Industries Group Holding,finance,50,0,pending
 kuwait,lst_cable,Gulf Cables and Electrical Industries Group Co. K.S.C.P,industry,50,0,pending
@@ -592,7 +589,6 @@ qatar,lst_eres,Ezdan Holding Group Q.P.S.C.,realestate,50,0,pending
 qatar,lst_mark,Al Rayan Bank Q.P.S.C.,finance,50,0,pending
 qatar,lst_igrd,Estithmar Holding Q.P.S.C.,conglomerate,50,0,pending
 qatar,lst_dubk,Dukhan Bank Q.P.S.C.,finance,50,0,pending
-qatar,lst_mphc,Mesaieed Petrochemical Holding Company Q.P.S.C.,materials,50,0,pending
 qatar,lst_qfls,Qatar Fuel Company Q.P.S.C. (WOQOD),energy,50,0,pending
 qatar,lst_abqk,Ahli Bank Q.P.S.C.,finance,50,0,pending
 qatar,lst_qamc,Qatar Aluminium Manufacturing Company Q.P.S.C.,materials,50,0,pending
@@ -604,7 +600,6 @@ qatar,lst_mers,Al Meera Consumer Goods Company Q.P.S.C.,consumer_stap,50,0,pendi
 qatar,lst_qgri,Qatar General Insurance & Reinsurance Company Q.P.S.C.,finance,50,0,pending
 qatar,lst_meza,MEEZA QSTP-LLC,tech,50,0,pending
 qatar,lst_qigd,Qatari Investors Group Q.P.S.C.,conglomerate,50,0,pending
-qatar,lst_qncd,Qatar National Cement Company Q.P.S.C.,materials,50,0,pending
 qatar,lst_mcgs,Medicare Group Q.P.S.C.,health,50,0,pending
 qatar,lst_dohi,Doha Insurance Group Q.P.S.C.,finance,50,0,pending
 qatar,lst_qisi,Qatar Islamic Insurance Group Q.P.S.C.,finance,50,0,pending

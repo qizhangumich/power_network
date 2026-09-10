@@ -690,6 +690,30 @@ const PEOPLE = [
     ["lst_gins","Chief Actuarial Officer - Group Actuarial","executive","v"]]},
   {id:"sundaresan_sridharan", n:"Sundaresan Sridharan", t:2, p:58, s:"finance", roles:[
     ["lst_gins","Group Technical Head, Reinsurance","executive","v"]]},
+  {id:"ghazi_fahed_alnafisi", n:"Ghazi Fahed Alnafisi", t:2, p:62, s:"realestate", roles:[
+    ["lst_sre","Chairman","board","v"]]},
+  {id:"faisal_abdul_mohsen", n:"Faisal Abdul Mohsen AlKhatrash", t:2, p:62, s:"realestate", roles:[
+    ["lst_sre","Vice Chairman","board","v"]]},
+  {id:"abdulaziz_ghazi_alnafisi", n:"Abdulaziz Ghazi Alnafisi", t:2, p:60, s:"realestate", roles:[
+    ["lst_sre","Chief Executive Officer, Board Member","executive","v"]]},
+  {id:"anwar_abdulaziz_alusaimi", n:"Anwar Abdulaziz AlUsaimi", t:2, p:52, s:"realestate", roles:[
+    ["lst_sre","Board Member","board","v"]]},
+  {id:"yousef_eissa_alothman", n:"Yousef Eissa AlOthman", t:2, p:52, s:"realestate", roles:[
+    ["lst_sre","Board Member","board","v"]]},
+  {id:"abdulrahman_abdul_aziz", n:"Abdulrahman Abdul Aziz AlBabtain", t:2, p:52, s:"realestate", roles:[
+    ["lst_sre","Board Member","board","v"]]},
+  {id:"marzouq_fijhan_almutairi", n:"Marzouq Fijhan AlMutairi", t:2, p:52, s:"realestate", roles:[
+    ["lst_sre","Board Member","board","v"]]},
+  {id:"saud_ahmad_alzabin", n:"Saud Ahmad AlZabin", t:2, p:52, s:"realestate", roles:[
+    ["lst_sre","Board Member","board","v"]]},
+  {id:"ali_jassim_abul", n:"Ali Jassim Abul", t:2, p:58, s:"realestate", roles:[
+    ["lst_sre","Group Human Resources & Administration Manager","executive","v"]]},
+  {id:"faisal_khalid_binsalamah", n:"Faisal Khalid Binsalamah", t:2, p:58, s:"realestate", roles:[
+    ["lst_sre","Group Property Manager","executive","v"]]},
+  {id:"abulyazid_eladly", n:"Abulyazid Eladly", t:2, p:58, s:"realestate", roles:[
+    ["lst_sre","Group Accounting Manager","executive","v"]]},
+  {id:"mohammad_iskandar_alam", n:"Mohammad Iskandar Alam", t:2, p:58, s:"realestate", roles:[
+    ["lst_sre","Group Property Facilities Manager","executive","v"]]},
 ];
 
 const OWNERSHIP = [

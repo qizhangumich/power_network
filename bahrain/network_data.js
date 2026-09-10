@@ -2275,6 +2275,22 @@ const PEOPLE = [
     ["bfb","Board Member","board","v"]]},
   {id:"dalal_buhejji", n:"Dalal Buhejji", t:2, p:52, s:"tech", roles:[
     ["bfb","Board Member","board","v"]]},
+  {id:"isa_bin_khalid", n:"Isa bin Khalid Al Khalifa", t:2, p:52, s:"materials", roles:[
+    ["lst_albh","Director","board","v"]]},
+  {id:"khalid_al_rowais", n:"Khalid Al Rowais", t:2, p:52, s:"materials", roles:[
+    ["lst_albh","Director","board","v"]]},
+  {id:"saud_abdulaziz_kanoo", n:"Saud Abdulaziz Kanoo", t:2, p:52, s:"conglomerate", roles:[
+    ["kanoo","Board Member","board","v"]]},
+  {id:"mohamed_abdullatif_kanoo", n:"Mohamed Abdullatif Kanoo", t:2, p:52, s:"conglomerate", roles:[
+    ["kanoo","Board Member","board","v"]]},
+  {id:"ali_abdulla_kanoo", n:"Ali Abdulla Kanoo", t:2, p:52, s:"conglomerate", roles:[
+    ["kanoo","Board Member","board","v"]]},
+  {id:"nandi_mehta", n:"Nandi Mehta", t:2, p:52, s:"conglomerate", roles:[
+    ["kanoo","Board Member","board","v"]]},
+  {id:"michael_shakesheff", n:"Michael Shakesheff", t:2, p:52, s:"conglomerate", roles:[
+    ["kanoo","Independent Board Member","board","v"]]},
+  {id:"amro_shawli", n:"Amro Shawli", t:2, p:52, s:"conglomerate", roles:[
+    ["kanoo","Independent Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

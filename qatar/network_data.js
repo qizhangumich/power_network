@@ -787,6 +787,34 @@ const PEOPLE = [
     ["lst_gwcs","Senior Vice President - Contract Logistics","executive","v"]]},
   {id:"oussama_abba", n:"Oussama Abba", t:2, p:58, s:"industry", roles:[
     ["lst_gwcs","Senior Vice President - KSA and Bahrain","executive","v"]]},
+  {id:"mohammed_salem_alyan", n:"Mohammed Salem Alyan Al-Marri", t:2, p:62, s:"materials", roles:[
+    ["lst_mphc","Chairman","board","v"]]},
+  {id:"jassim_mohammed_hussain", n:"Jassim Mohammed Hussain Al-Marzouqi", t:2, p:62, s:"materials", roles:[
+    ["lst_mphc","Vice Chairman","board","v"]]},
+  {id:"thani_bin_thamer", n:"Thani bin Thamer bin Mohammed Al-Thani", t:2, p:52, s:"materials", roles:[
+    ["lst_mphc","Board Member","board","v"]]},
+  {id:"khalid_sultan_al", n:"Khalid Sultan Al-Kuwari", t:2, p:52, s:"materials", roles:[
+    ["lst_mphc","Board Member","board","v"]]},
+  {id:"mohammed_essa_abdulrahman", n:"Mohammed Essa Abdulrahman Al-Mannai", t:2, p:52, s:"materials", roles:[
+    ["lst_mphc","Board Member","board","v"]]},
+  {id:"khalid_bin_khalifa", n:"Khalid Bin Khalifa Bin Jassem Al Thani", t:2, p:62, s:"materials", roles:[
+    ["lst_qncd","Chairman of the Board","board","v"]]},
+  {id:"nasser_sultan_al", n:"Nasser Sultan Al Humaidi", t:2, p:62, s:"materials", roles:[
+    ["lst_qncd","Deputy Chairman & Director","board","v"]]},
+  {id:"khalifa_essa_a", n:"Khalifa Essa A Al-Khulaifi", t:2, p:52, s:"materials", roles:[
+    ["lst_qncd","Board Member","board","v"]]},
+  {id:"tamim_bin_fahad", n:"Tamim Bin Fahad Al-Thani", t:2, p:52, s:"materials", roles:[
+    ["lst_qncd","Board Member","board","v"]]},
+  {id:"khaled_sultan_k", n:"Khaled Sultan K Kh Al-Rabban", t:2, p:60, s:"materials", roles:[
+    ["lst_qncd","Managing Director","executive","v"]]},
+  {id:"abdulrahman_abdullah_al", n:"Abdulrahman Abdullah Al-Ansari", t:2, p:52, s:"materials", roles:[
+    ["lst_qncd","Board Member","board","v"]]},
+  {id:"jaber_abdulla_al", n:"Jaber Abdulla Al-Ansari", t:2, p:52, s:"materials", roles:[
+    ["lst_qncd","Board Member","board","v"]]},
+  {id:"abdulrahman_hamad_al", n:"Abdulrahman Hamad Al-Mana", t:2, p:52, s:"materials", roles:[
+    ["lst_qncd","Board Member","board","v"]]},
+  {id:"essa_mohammed_ali", n:"Essa Mohammed Ali A M Kaldari", t:2, p:60, s:"materials", roles:[
+    ["lst_qncd","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -1593,7 +1593,7 @@ const OWNERSHIP = [
   ["masdar","adnoc","co-shareholder","v"],
   ["masdar","taqa","co-shareholder","v"],
   ["masdar","mubadala","co-shareholder","v"],
-  ["taqa","adq","wholly owned (ADPower squeeze-out Aug 2026, delisted from ADX)","v"],
+  ["taqa","adq","wholly owned (L'imad squeeze-out Aug 2026, delisted from ADX)","v"],
   ["ewec","adq","","v"],
   ["enec","adgov","state owner","ns"],
   ["fab","mubadala","anchor shareholder","v"],
