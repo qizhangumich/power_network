@@ -570,7 +570,6 @@ oman,lst_dbci,Dhofar Beverage and Food Stuff Company SAOG,consumer_stap,50,0,pen
 oman,lst_dfin,Dhofar Food & Investment SAOG,consumer_stap,50,0,pending
 oman,lst_dgen,Dhofar Generating Company SAOG,utilities,50,0,pending
 oman,lst_dics,Dhofar Insurance Company SAOG,finance,50,0,pending
-oman,lst_gecs,Galfar Engineering & Contracting SAOG,industry,50,0,pending
 oman,lst_gici,Gulf International Chemicals SAOG,materials,50,0,pending
 oman,lst_ubar,Ubar Hotels & Resorts SAOG,consumer_disc,50,0,pending
 oman,lst_tfci,Taageer Finance Company SAOG,finance,50,0,pending
@@ -601,7 +600,6 @@ qatar,lst_eres,Ezdan Holding Group Q.P.S.C.,realestate,50,0,pending
 qatar,lst_mark,Al Rayan Bank Q.P.S.C.,finance,50,0,pending
 qatar,lst_igrd,Estithmar Holding Q.P.S.C.,conglomerate,50,0,pending
 qatar,lst_dubk,Dukhan Bank Q.P.S.C.,finance,50,0,pending
-qatar,lst_qiik,Qatar International Islamic Bank Q.P.S.C.,finance,50,0,pending
 qatar,lst_mphc,Mesaieed Petrochemical Holding Company Q.P.S.C.,materials,50,0,pending
 qatar,lst_qfls,Qatar Fuel Company Q.P.S.C. (WOQOD),energy,50,0,pending
 qatar,lst_abqk,Ahli Bank Q.P.S.C.,finance,50,0,pending
@@ -617,7 +615,6 @@ qatar,lst_qigd,Qatari Investors Group Q.P.S.C.,conglomerate,50,0,pending
 qatar,lst_qncd,Qatar National Cement Company Q.P.S.C.,materials,50,0,pending
 qatar,lst_mcgs,Medicare Group Q.P.S.C.,health,50,0,pending
 qatar,lst_dohi,Doha Insurance Group Q.P.S.C.,finance,50,0,pending
-qatar,lst_gwcs,Gulf Warehousing Company Q.P.S.C.,industry,50,0,pending
 qatar,lst_qisi,Qatar Islamic Insurance Group Q.P.S.C.,finance,50,0,pending
 qatar,lst_bema,Damaan Islamic Insurance Company (Beema) Q.P.S.C.,finance,50,0,pending
 qatar,lst_qimd,Qatar Industrial Manufacturing Company Q.P.S.C.,materials,50,0,pending
@@ -638,8 +635,6 @@ qatar,lst_ihgs,INMA Holding Company Q.P.S.C.,conglomerate,50,0,pending
 qatar,lst_falh,Al Faleh Educational Holding Company Q.P.S.C.,consumer_disc,50,0,pending
 qatar,lst_qois,Qatar Oman Investment Company Q.S.C.,finance,50,0,pending
 saudi,lst_2030,Saudi Arabia Refineries Co.,energy,50,0,pending
-saudi,lst_2380,Rabigh Refining and Petrochemical Co. (Petro Rabigh),energy,50,0,pending
-saudi,lst_4030,National Shipping Co. of Saudi Arabia (Bahri),energy,50,0,pending
 saudi,lst_2381,Arabian Drilling Co.,energy,50,0,pending
 saudi,lst_2382,ADES Holding Co.,energy,50,0,pending
 saudi,lst_1201,Takween Advanced Industries Co.,materials,50,0,pending
@@ -658,7 +653,6 @@ saudi,lst_2210,Nama Chemicals Co.,materials,50,0,pending
 saudi,lst_2220,National Metal Manufacturing and Casting Co. (Maadaniyah),materials,50,0,pending
 saudi,lst_2240,Zamil Industrial Investment Co.,materials,50,0,pending
 saudi,lst_2250,Saudi Industrial Investment Group,materials,50,0,pending
-saudi,lst_2290,Yanbu National Petrochemical Co. (Yansab),materials,50,0,pending
 saudi,lst_2300,Saudi Paper Manufacturing Co.,materials,50,0,pending
 saudi,lst_2310,Sahara International Petrochemical Co. (Sipchem),materials,50,0,pending
 saudi,lst_2330,Advanced Petrochemical Co.,materials,50,0,pending
@@ -680,7 +674,6 @@ saudi,lst_3080,Eastern Province Cement Co.,materials,50,0,pending
 saudi,lst_3090,Tabuk Cement Co.,materials,50,0,pending
 saudi,lst_3091,Jouf Cement Co.,materials,50,0,pending
 saudi,lst_3092,Riyadh Cement Co.,materials,50,0,pending
-saudi,lst_2060,National Industrialization Co. (Tasnee),materials,50,0,pending
 saudi,lst_1321,East Pipes Integrated Co.,materials,50,0,pending
 saudi,lst_1322,Amak International Holding Co.,materials,50,0,pending
 saudi,lst_1323,United Carton Industries Co.,materials,50,0,pending
@@ -725,7 +718,6 @@ saudi,lst_2340,Artex Industrial Investment Co.,consumer_disc,50,0,pending
 saudi,lst_4011,Lazurde Co. for Jewelry,consumer_disc,50,0,pending
 saudi,lst_4012,Al Aseel Co.,consumer_disc,50,0,pending
 saudi,lst_4180,Fitaihi Holding Group,consumer_disc,50,0,pending
-saudi,lst_1810,Seera Group Holding,consumer_disc,50,0,pending
 saudi,lst_1820,Baan Holding Group Co.,consumer_disc,50,0,pending
 saudi,lst_1830,Leejam Sports Co.,consumer_disc,50,0,pending
 saudi,lst_4170,Emaar The Economic City Trading Co. (TECO),consumer_disc,50,0,pending
@@ -784,7 +776,6 @@ saudi,lst_6070,Al Jouf Agricultural Development Co. (ALJOUF),consumer_stap,50,0,
 saudi,lst_6090,Jazan Development Co. (JAZADCO),consumer_stap,50,0,pending
 saudi,lst_2140,Ayyan Investment Co.,health,50,0,pending
 saudi,lst_2230,Saudi Chemical Co.,health,50,0,pending
-saudi,lst_4002,Mouwasat Medical Services Co.,health,50,0,pending
 saudi,lst_4004,Dallah Healthcare Holding Co.,health,50,0,pending
 saudi,lst_4005,Care National Medical and Rehabilitation Center Co.,health,50,0,pending
 saudi,lst_4007,Al Hammadi Holding Co.,health,50,0,pending
@@ -798,8 +789,6 @@ saudi,lst_2070,Saudi Pharmaceutical Industries and Medical Appliances Corp. (SPI
 saudi,lst_4015,Jamjoom Pharmaceuticals Factory Co.,health,50,0,pending
 saudi,lst_4016,Avalon Pharma (Middle East Pharmaceutical Industries Co.),health,50,0,pending
 saudi,lst_1020,Bank Aljazira,finance,50,0,pending
-saudi,lst_1030,Saudi Investment Bank (SAIB),finance,50,0,pending
-saudi,lst_1050,Banque Saudi Fransi,finance,50,0,pending
 saudi,lst_1080,Arab National Bank,finance,50,0,pending
 saudi,lst_1140,Bank Albilad,finance,50,0,pending
 saudi,lst_1150,Alinma Bank,finance,50,0,pending

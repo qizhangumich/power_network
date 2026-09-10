@@ -1031,6 +1031,176 @@ const PEOPLE = [
     ["lst_2050","Chief Corporate Governance and Legal Affairs Officer and Group Board Secretary","executive","v"]]},
   {id:"hazim_al_ahmadi", n:"Hazim Al Ahmadi", t:2, p:46, s:"consumer_stap", roles:[
     ["lst_2050","General Manager - Information Technology","executive","v"]]},
+  {id:"sarah_jammaz_alsuhaimi", n:"Sarah Jammaz Alsuhaimi", t:2, p:62, s:"energy", roles:[
+    ["lst_4030","Chairwoman","board","v"]]},
+  {id:"abdulla_mohammed_alzamil", n:"Abdulla Mohammed Alzamil", t:2, p:62, s:"energy", roles:[
+    ["lst_4030","Vice Chairman","board","v"]]},
+  {id:"ahmed_ali_alsubaey", n:"Ahmed Ali Alsubaey", t:2, p:60, s:"energy", roles:[
+    ["lst_4030","Chief Executive Officer & Board Member","executive","v"]]},
+  {id:"saleh_abdullah_aldebasi", n:"Saleh Abdullah Aldebasi", t:2, p:52, s:"energy", roles:[
+    ["lst_4030","Board Member","board","v"]]},
+  {id:"said_abdullatif_alhadrami", n:"Said Abdullatif Alhadrami", t:2, p:52, s:"energy", roles:[
+    ["lst_4030","Board Member","board","v"]]},
+  {id:"ahmed_mohammed_alkhunaini", n:"Ahmed Mohammed Alkhunaini", t:2, p:52, s:"energy", roles:[
+    ["lst_4030","Board Member","board","v"]]},
+  {id:"mohammed_khalifa_almulhim", n:"Mohammed Khalifa Almulhim", t:2, p:52, s:"energy", roles:[
+    ["lst_4030","Board Member","board","v"]]},
+  {id:"yasser_suliman_aldawood", n:"Yasser Suliman Aldawood", t:2, p:52, s:"energy", roles:[
+    ["lst_4030","Board Member","board","v"]]},
+  {id:"baker_abdulrahman_almohana", n:"Baker Abdulrahman Almohana", t:2, p:52, s:"energy", roles:[
+    ["lst_4030","Board Member","board","v"]]},
+  {id:"wan_chee_foong", n:"Wan Chee Foong", t:2, p:52, s:"energy", roles:[
+    ["lst_4030","Board Member","board","v"]]},
+  {id:"hisham_al_nughaimish", n:"Hisham Al Nughaimish", t:2, p:58, s:"energy", roles:[
+    ["lst_4030","President, Bahri Oil","executive","v"]]},
+  {id:"faisal_al_husseini", n:"Faisal Al Husseini", t:2, p:58, s:"energy", roles:[
+    ["lst_4030","President, Bahri Chemicals","executive","v"]]},
+  {id:"khalid_alhammad", n:"Khalid Alhammad", t:2, p:58, s:"energy", roles:[
+    ["lst_4030","President, Bahri Ship Management","executive","v"]]},
+  {id:"mohammed_bin_battal", n:"Mohammed Bin Battal", t:2, p:58, s:"energy", roles:[
+    ["lst_4030","Chief of Integrated Planning","executive","v"]]},
+  {id:"mohit_sibal", n:"Mohit Sibal", t:2, p:58, s:"energy", roles:[
+    ["lst_4030","President, Bahri Marine Services","executive","v"]]},
+  {id:"basil_abulhamayel", n:"Basil Abulhamayel", t:2, p:58, s:"energy", roles:[
+    ["lst_4030","Chief Financial Officer","executive","v"]]},
+  {id:"hisham_al_khaldi", n:"Hisham Al-Khaldi", t:2, p:58, s:"energy", roles:[
+    ["lst_4030","Chief Support Officer","executive","v"]]},
+  {id:"motasim_alaskar", n:"Motasim Alaskar", t:2, p:58, s:"energy", roles:[
+    ["lst_4030","Chief Internal Auditor","executive","v"]]},
+  {id:"abdullah_almosa", n:"Abdullah AlMosa", t:2, p:58, s:"energy", roles:[
+    ["lst_4030","General Legal Counsel & Board Secretary","executive","v"]]},
+  {id:"alexandre_joseph", n:"Alexandre Joseph", t:2, p:58, s:"energy", roles:[
+    ["lst_4030","Acting President, Bahri Integrated Logistics","executive","v"]]},
+  {id:"abdullah_bin_eid", n:"Abdullah Bin Eid", t:2, p:58, s:"energy", roles:[
+    ["lst_4030","Acting President, Bahri Dry Bulk","executive","v"]]},
+  {id:"mazin_abdulrazzak_alromaih", n:"Mazin Abdulrazzak AlRomaih", t:2, p:62, s:"finance", roles:[
+    ["lst_1050","Chairman","board","v"]]},
+  {id:"talal_ibrahim_al", n:"Talal Ibrahim Al Maiman", t:2, p:62, s:"finance", roles:[
+    ["lst_1050","Vice Chairman","board","v"]]},
+  {id:"abdulrahman_rashed_al", n:"Abdulrahman Rashed Al-Rashed", t:2, p:52, s:"finance", roles:[
+    ["lst_1050","Board Member","board","v"]]},
+  {id:"abdullatif_ahmed_al", n:"Abdullatif Ahmed Al Othman", t:2, p:52, s:"finance", roles:[
+    ["lst_1050","Board Member","board","v"]]},
+  {id:"khaled_omran_al", n:"Khaled Omran Al Omran", t:2, p:52, s:"finance", roles:[
+    ["lst_1050","Board Member","board","v"]]},
+  {id:"rayan_mohammad_fayez", n:"Rayan Mohammad Fayez", t:2, p:52, s:"finance", roles:[
+    ["lst_1050","Board Member","board","v"]]},
+  {id:"khalid_malik_al", n:"Khalid Malik Al Sharif", t:2, p:52, s:"finance", roles:[
+    ["lst_1050","Board Member","board","v"]]},
+  {id:"abdulaziz_mohammed_al", n:"Abdulaziz Mohammed Al Gudaimi", t:2, p:52, s:"finance", roles:[
+    ["lst_1050","Board Member","board","v"]]},
+  {id:"abdulmajid_ahmed_al", n:"Abdulmajid Ahmed Al Hagbani", t:2, p:52, s:"finance", roles:[
+    ["lst_1050","Board Member","board","v"]]},
+  {id:"abdulatif_ali_alseif", n:"Abdulatif Ali Alseif", t:2, p:62, s:"finance", roles:[
+    ["lst_1030","Chairman of the Board","board","v"]]},
+  {id:"mohammed_saleh_alkhalil", n:"Mohammed Saleh AlKhalil", t:2, p:62, s:"finance", roles:[
+    ["lst_1030","Vice Chairman of the Board","board","v"]]},
+  {id:"yasser_mohammed_al", n:"Yasser Mohammed Al-Jarallah", t:2, p:52, s:"finance", roles:[
+    ["lst_1030","Board Member","board","v"]]},
+  {id:"mohammed_salem_mussa", n:"Mohammed Salem Mussa", t:2, p:52, s:"finance", roles:[
+    ["lst_1030","Board Member","board","v"]]},
+  {id:"khaled_salem_al", n:"Khaled Salem Al-Rowais", t:2, p:52, s:"finance", roles:[
+    ["lst_1030","Board Member","board","v"]]},
+  {id:"ghazi_abdulrahim_alrawi", n:"Ghazi Abdulrahim AlRawi", t:2, p:52, s:"finance", roles:[
+    ["lst_1030","Board Member","board","v"]]},
+  {id:"hani_yahya_alsharif", n:"Hani Yahya AlSharif", t:2, p:52, s:"finance", roles:[
+    ["lst_1030","Board Member","board","v"]]},
+  {id:"mohammed_abdulmohsen_al", n:"Mohammed Abdulmohsen Al-Grenees", t:2, p:52, s:"finance", roles:[
+    ["lst_1030","Board Member","board","v"]]},
+  {id:"musaab_al_muhaidib", n:"Musaab Al Muhaidib", t:2, p:62, s:"materials", roles:[
+    ["lst_2060","Chairman","board","v"]]},
+  {id:"talal_al_maiman", n:"Talal Al Maiman", t:2, p:62, s:"materials", roles:[
+    ["lst_2060","Vice Chairman","board","v"]]},
+  {id:"abdulrahman_al_sayyari", n:"Abdulrahman Al Sayyari", t:2, p:52, s:"materials", roles:[
+    ["lst_2060","Board Member","board","v"]]},
+  {id:"fahad_al_mishal", n:"Fahad Al Mishal", t:2, p:52, s:"materials", roles:[
+    ["lst_2060","Board Member","board","v"]]},
+  {id:"ahmed_al_theabi", n:"Ahmed Al Theabi", t:2, p:52, s:"materials", roles:[
+    ["lst_2060","Board Member","board","v"]]},
+  {id:"fawaz_al_fawaz", n:"Fawaz Al Fawaz", t:2, p:60, s:"materials", roles:[
+    ["lst_2060","Chief Executive Officer & Board Member","executive","v"]]},
+  {id:"mohammed_al_haqbani", n:"Mohammed Al Haqbani", t:2, p:52, s:"materials", roles:[
+    ["lst_2060","Board Member","board","v"]]},
+  {id:"ahmad_al_humaidan", n:"Ahmad Al Humaidan", t:2, p:52, s:"materials", roles:[
+    ["lst_2060","Board Member","board","v"]]},
+  {id:"abdulaziz_al_mulhim", n:"Abdulaziz Al Mulhim", t:2, p:52, s:"materials", roles:[
+    ["lst_2060","Board Member","board","v"]]},
+  {id:"muath_al_zamil", n:"Muath Al Zamil", t:2, p:52, s:"materials", roles:[
+    ["lst_2060","Board Member","board","v"]]},
+  {id:"abdullah_bin_nasser", n:"Abdullah Bin Nasser Aldawood", t:2, p:62, s:"consumer_disc", roles:[
+    ["lst_1810","Board Chairman","board","v"]]},
+  {id:"ahmed_samer_bin", n:"Ahmed Samer Bin Hamdi Al-Zaim", t:2, p:62, s:"consumer_disc", roles:[
+    ["lst_1810","Vice Chairman","board","v"]]},
+  {id:"walid_bin_abdullah", n:"Walid Bin Abdullah Temairik", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_1810","Board Member","board","v"]]},
+  {id:"fawaz_bin_sulaiman", n:"Fawaz Bin Sulaiman AlRajhi", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_1810","Board Member","board","v"]]},
+  {id:"abdulaziz_bin_majed", n:"Abdulaziz Bin Majed AlKassabi", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_1810","Board Member","board","v"]]},
+  {id:"mohamed_bin_ibrahim", n:"Mohamed Bin Ibrahim AlQunaibit", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_1810","Board Member","board","v"]]},
+  {id:"al_waleed_abdulaziz", n:"Al Waleed Abdulaziz Al-Nasser", t:2, p:60, s:"consumer_disc", roles:[
+    ["lst_1810","Chief Executive Officer","executive","v"]]},
+  {id:"muhammad_khalid", n:"Muhammad Khalid", t:2, p:58, s:"consumer_disc", roles:[
+    ["lst_1810","Executive Vice President - Group Chief Financial Officer","executive","v"]]},
+  {id:"moataz_mohammed_safwat", n:"Moataz Mohammed Safwat", t:2, p:58, s:"consumer_disc", roles:[
+    ["lst_1810","Vice President - Internal Audit","executive","v"]]},
+  {id:"shuja_zaidi", n:"Shuja Zaidi", t:2, p:58, s:"consumer_disc", roles:[
+    ["lst_1810","Executive Vice President - Chief Hospitality Officer","executive","v"]]},
+  {id:"muzzammil_ahussain", n:"Muzzammil Ahussain", t:2, p:60, s:"consumer_disc", roles:[
+    ["lst_1810","Chief Executive Officer - Almosafer","executive","v"]]},
+  {id:"syed_mohammed_azfar", n:"Syed Mohammed Azfar Shakeel", t:2, p:60, s:"consumer_disc", roles:[
+    ["lst_1810","Chief Executive Officer - Lumi","executive","v"]]},
+  {id:"redmond_walsh", n:"Redmond Walsh", t:2, p:60, s:"consumer_disc", roles:[
+    ["lst_1810","Chief Executive Officer - Portman Travel Group","executive","v"]]},
+  {id:"noriaki_takeshita", n:"Noriaki Takeshita", t:2, p:62, s:"energy", roles:[
+    ["lst_2380","Deputy Chairman","board","v"]]},
+  {id:"nasser_d_al", n:"Nasser D. Al-Mahasher", t:2, p:60, s:"energy", roles:[
+    ["lst_2380","President & Chief Executive Officer","executive","v"]]},
+  {id:"seiji_takeuchi", n:"Seiji Takeuchi", t:2, p:52, s:"energy", roles:[
+    ["lst_2380","Executive Director","board","v"]]},
+  {id:"suleman_a_al", n:"Suleman A. Al-Bargan", t:2, p:52, s:"energy", roles:[
+    ["lst_2380","Non-Executive Director","board","v"]]},
+  {id:"takashi_shigemori", n:"Takashi Shigemori", t:2, p:52, s:"energy", roles:[
+    ["lst_2380","Non-Executive Director","board","v"]]},
+  {id:"saleh_f_al", n:"Saleh F. Al-Nuzha", t:2, p:52, s:"energy", roles:[
+    ["lst_2380","Independent Director","board","v"]]},
+  {id:"mohammed_a_al_b", n:"Mohammed A. Al-Omair", t:2, p:52, s:"energy", roles:[
+    ["lst_2380","Independent Director","board","v"]]},
+  {id:"saud_a_al", n:"Saud A. Al-Ashgar", t:2, p:52, s:"energy", roles:[
+    ["lst_2380","Independent Director","board","v"]]},
+  {id:"mohammad_sultan_alsubaie", n:"Mohammad Sultan Alsubaie", t:2, p:62, s:"health", roles:[
+    ["lst_4002","Chairman of the Board","board","v"]]},
+  {id:"nassir_sultan_alsubaie", n:"Nassir Sultan Alsubaie", t:2, p:62, s:"health", roles:[
+    ["lst_4002","Chief Executive Officer & Vice Chairman","executive","v"]]},
+  {id:"khalid_suliman_alsaleem", n:"Khalid Suliman Alsaleem", t:2, p:60, s:"health", roles:[
+    ["lst_4002","Managing Director","executive","v"]]},
+  {id:"sami_abdulkarim_al", n:"Sami Abdulkarim Al Abdulkarim", t:2, p:52, s:"health", roles:[
+    ["lst_4002","Board Member","board","v"]]},
+  {id:"fahad_ayed_alaslami", n:"Fahad Ayed Alaslami", t:2, p:52, s:"health", roles:[
+    ["lst_4002","Board Member","board","v"]]},
+  {id:"mohammed_hamad_alkathiri", n:"Mohammed Hamad Alkathiri", t:2, p:52, s:"health", roles:[
+    ["lst_4002","Board Member","board","v"]]},
+  {id:"abdullah_saghaier_alhussaini", n:"Abdullah Saghaier Alhussaini", t:2, p:52, s:"health", roles:[
+    ["lst_4002","Board Member","board","v"]]},
+  {id:"faisal_suwailem", n:"Faisal Suwailem", t:2, p:62, s:"materials", roles:[
+    ["lst_2290","Chairman of the Board","board","v"]]},
+  {id:"mohammed_al_mashhaf", n:"Mohammed Al-Mashhaf", t:2, p:62, s:"materials", roles:[
+    ["lst_2290","Vice Chairman","board","v"]]},
+  {id:"abdullah_al_arifi", n:"Abdullah Al-Arifi", t:2, p:52, s:"materials", roles:[
+    ["lst_2290","Board Member","board","v"]]},
+  {id:"abdullah_al_sinan", n:"Abdullah Al-Sinan", t:2, p:52, s:"materials", roles:[
+    ["lst_2290","Board Member","board","v"]]},
+  {id:"awadh_al_maker", n:"Awadh Al-Maker", t:2, p:52, s:"materials", roles:[
+    ["lst_2290","Board Member","board","v"]]},
+  {id:"ibrahim_al_saif", n:"Ibrahim Al-Saif", t:2, p:52, s:"materials", roles:[
+    ["lst_2290","Board Member","board","v"]]},
+  {id:"khalid_al_rabiah", n:"Khalid Al-Rabiah", t:2, p:52, s:"materials", roles:[
+    ["lst_2290","Board Member","board","v"]]},
+  {id:"wazen_al_solami", n:"Wazen Al-Solami", t:2, p:58, s:"materials", roles:[
+    ["lst_2290","Company President","executive","v"]]},
+  {id:"mohammed_qandeel", n:"Mohammed Qandeel", t:2, p:58, s:"materials", roles:[
+    ["lst_2290","Chief Financial Officer & Board Secretary","executive","v"]]},
 ];
 
 const OWNERSHIP = [

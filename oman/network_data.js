@@ -482,6 +482,20 @@ const PEOPLE = [
     ["oia","Board Member","board","v"]]},
   {id:"abdulsalam_bin_mohammed", n:"Abdulsalam bin Mohammed Al Murshidi", t:2, p:58, s:"sovereign", roles:[
     ["oia","President of OIA","executive","v"]]},
+  {id:"majid_salim_al", n:"Majid Salim Al Fannah Al Araimi", t:2, p:62, s:"industry", roles:[
+    ["lst_gecs","Chairman","board","v"]]},
+  {id:"mohiuddin_mohamad_ali", n:"Mohiuddin Mohamad Ali", t:2, p:62, s:"industry", roles:[
+    ["lst_gecs","Vice Chairman","board","v"]]},
+  {id:"shihab_salem_al", n:"Shihab Salem Al Barwani", t:2, p:52, s:"industry", roles:[
+    ["lst_gecs","Board Member","board","v"]]},
+  {id:"mohamed_taqi_al", n:"Mohamed Taqi Al Jamalani", t:2, p:52, s:"industry", roles:[
+    ["lst_gecs","Board Member","board","v"]]},
+  {id:"asim_salim_al", n:"Asim Salim Al Ghailani", t:2, p:52, s:"industry", roles:[
+    ["lst_gecs","Board Member","board","v"]]},
+  {id:"qais_mohammed_al", n:"Qais Mohammed Al Fannah Al Araimi", t:2, p:52, s:"industry", roles:[
+    ["lst_gecs","Board Member","board","v"]]},
+  {id:"seetharaman_sridharan", n:"Seetharaman Sridharan", t:2, p:52, s:"industry", roles:[
+    ["lst_gecs","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

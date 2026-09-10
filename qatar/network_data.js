@@ -713,6 +713,80 @@ const PEOPLE = [
     ["ooredoo","Group Chief Technology and Information Officer","executive","v"]]},
   {id:"thomas_chevanne", n:"Thomas Chevanne", t:2, p:58, s:"comm", roles:[
     ["ooredoo","Group Chief Strategy and M&A Officer","executive","v"]]},
+  {id:"khalid_bin_thani", n:"Khalid bin Thani bin Abdullah Al Thani", t:2, p:62, s:"finance", roles:[
+    ["lst_qiik","Chairman","board","v"]]},
+  {id:"abdullah_thani_a", n:"Abdullah Thani A. T. Al-Thani", t:2, p:62, s:"finance", roles:[
+    ["lst_qiik","Vice Chairman & Managing Director","executive","v"]]},
+  {id:"turki_khalid_al", n:"Turki Khalid Al-Thani", t:2, p:52, s:"finance", roles:[
+    ["lst_qiik","Board Member","board","v"]]},
+  {id:"ezzat_mohd_r", n:"Ezzat Mohd R Al-Rasheed", t:2, p:52, s:"finance", roles:[
+    ["lst_qiik","Independent Board Member","board","v"]]},
+  {id:"shaheen_jassim_h", n:"Shaheen Jassim H Al-Sulaiti", t:2, p:52, s:"finance", roles:[
+    ["lst_qiik","Independent Board Member","board","v"]]},
+  {id:"mubarak_abdullah_mohammed", n:"Mubarak Abdullah Mohammed Al-Sulaiti", t:2, p:52, s:"finance", roles:[
+    ["lst_qiik","Independent Board Member","board","v"]]},
+  {id:"ayedh_dabsan_e", n:"Ayedh Dabsan E A Al-Qahtani", t:2, p:52, s:"finance", roles:[
+    ["lst_qiik","Board Member","board","v"]]},
+  {id:"rashid_nasser_al", n:"Rashid Nasser Al-Kaabi", t:2, p:52, s:"finance", roles:[
+    ["lst_qiik","Board Member","board","v"]]},
+  {id:"jaafar_ali_al", n:"Jaafar Ali Al-Sarraf", t:2, p:52, s:"finance", roles:[
+    ["lst_qiik","Board Member","board","v"]]},
+  {id:"abdulla_khalid_thani", n:"Abdulla Khalid Thani Al-Thani", t:2, p:52, s:"finance", roles:[
+    ["lst_qiik","Board Member","board","v"]]},
+  {id:"thani_abdullah_thani", n:"Thani Abdullah Thani A. Al-Thani", t:2, p:52, s:"finance", roles:[
+    ["lst_qiik","Board Member","board","v"]]},
+  {id:"mohammad_bin_hamad", n:"Mohammad Bin Hamad Bin Jassim Bin Jaber Al Thani", t:2, p:62, s:"industry", roles:[
+    ["lst_gwcs","Chairman","board","v"]]},
+  {id:"fahad_bin_hamad", n:"Fahad Bin Hamad Bin Jassim Bin Jaber Al Thani", t:2, p:62, s:"industry", roles:[
+    ["lst_gwcs","Vice Chairman","board","v"]]},
+  {id:"abdulla_bin_fahad", n:"Abdulla Bin Fahad Bin Jassim Bin Jaber Al Thani", t:2, p:60, s:"industry", roles:[
+    ["lst_gwcs","Group Managing Director & Board Member","executive","v"]]},
+  {id:"ahmad_mubarak_al", n:"Ahmad Mubarak Al Ali Al Maadid", t:2, p:52, s:"industry", roles:[
+    ["lst_gwcs","Board Member","board","v"]]},
+  {id:"mohammed_hassan_rafee", n:"Mohammed Hassan Rafee Al Emadi", t:2, p:52, s:"industry", roles:[
+    ["lst_gwcs","Board Member","board","v"]]},
+  {id:"hanadi_anwar_eissa", n:"Hanadi Anwar Eissa Al Saleh", t:2, p:52, s:"industry", roles:[
+    ["lst_gwcs","Board Member","board","v"]]},
+  {id:"sultan_yousif_khater", n:"Sultan Yousif Khater Al Sulaiti", t:2, p:52, s:"industry", roles:[
+    ["lst_gwcs","Board Member","board","v"]]},
+  {id:"mohammed_abdulmonim_al", n:"Mohammed Abdulmonim Al Sayed", t:2, p:52, s:"industry", roles:[
+    ["lst_gwcs","Board Member","board","v"]]},
+  {id:"abdulaziz_mohammed_jaber", n:"Abdulaziz Mohammed Jaber Al Sulaiti", t:2, p:52, s:"industry", roles:[
+    ["lst_gwcs","Board Member","board","v"]]},
+  {id:"hamad_saad_al", n:"Hamad Saad Al Saad", t:2, p:52, s:"industry", roles:[
+    ["lst_gwcs","Board Advisor","board","v"]]},
+  {id:"suad_abutalib", n:"Suad Abutalib", t:2, p:58, s:"industry", roles:[
+    ["lst_gwcs","Board Secretary","executive","v"]]},
+  {id:"matthew_allen_kearns", n:"Matthew Allen Kearns", t:2, p:60, s:"industry", roles:[
+    ["lst_gwcs","Group Chief Executive Officer","executive","v"]]},
+  {id:"hicham_abdulkadir_nedjari", n:"Hicham Abdulkadir Nedjari", t:2, p:58, s:"industry", roles:[
+    ["lst_gwcs","Chief Financial Officer","executive","v"]]},
+  {id:"asem_ahmad_abdelkarim", n:"Asem Ahmad Abdelkarim Alnaser", t:2, p:58, s:"industry", roles:[
+    ["lst_gwcs","Chief Audit, Risk and Compliance Officer","executive","v"]]},
+  {id:"nasser_mohammed_al", n:"Nasser Mohammed Al Hajri", t:2, p:58, s:"industry", roles:[
+    ["lst_gwcs","Chief Shared Services Officer","executive","v"]]},
+  {id:"syed_maaz", n:"Syed Maaz", t:2, p:58, s:"industry", roles:[
+    ["lst_gwcs","Chief Commercial Officer","executive","v"]]},
+  {id:"leena_waleed_nayef", n:"Leena Waleed Nayef Shehadeh", t:2, p:58, s:"industry", roles:[
+    ["lst_gwcs","Chief Marketing and Revenue Officer","executive","v"]]},
+  {id:"rajeswar_govindan", n:"Rajeswar Govindan", t:2, p:58, s:"industry", roles:[
+    ["lst_gwcs","Chief Strategy Officer","executive","v"]]},
+  {id:"montasser_alfol", n:"Montasser Alfol", t:2, p:58, s:"industry", roles:[
+    ["lst_gwcs","General Counsel","executive","v"]]},
+  {id:"nawaf_mohammad_al", n:"Nawaf Mohammad Al Emadi", t:2, p:58, s:"industry", roles:[
+    ["lst_gwcs","Executive Vice President - Government Relations","executive","v"]]},
+  {id:"madhu_vallur", n:"Madhu Vallur", t:2, p:58, s:"industry", roles:[
+    ["lst_gwcs","Executive Vice President - Energy Services","executive","v"]]},
+  {id:"setrak_khatchikian", n:"Setrak Khatchikian", t:2, p:58, s:"industry", roles:[
+    ["lst_gwcs","Executive Vice President - GCC Transportation","executive","v"]]},
+  {id:"pradeep_kumar", n:"Pradeep Kumar", t:2, p:58, s:"industry", roles:[
+    ["lst_gwcs","Senior Vice President - Shipping Services","executive","v"]]},
+  {id:"linto_chalakkal", n:"Linto Chalakkal", t:2, p:58, s:"industry", roles:[
+    ["lst_gwcs","Senior Vice President - Supply Chain, Product & Technology","executive","v"]]},
+  {id:"mohamed_nabil", n:"Mohamed Nabil", t:2, p:58, s:"industry", roles:[
+    ["lst_gwcs","Senior Vice President - Contract Logistics","executive","v"]]},
+  {id:"oussama_abba", n:"Oussama Abba", t:2, p:58, s:"industry", roles:[
+    ["lst_gwcs","Senior Vice President - KSA and Bahrain","executive","v"]]},
 ];
 
 const OWNERSHIP = [
