@@ -496,6 +496,56 @@ const PEOPLE = [
     ["lst_gecs","Board Member","board","v"]]},
   {id:"seetharaman_sridharan", n:"Seetharaman Sridharan", t:2, p:52, s:"industry", roles:[
     ["lst_gecs","Board Member","board","v"]]},
+  {id:"mahmoud_al_hashmi", n:"Mahmoud Al Hashmi", t:2, p:60, s:"energy", roles:[
+    ["lst_oqep","Chief Executive Officer","executive","v"]]},
+  {id:"khalid_al_qassabi", n:"Khalid Al Qassabi", t:2, p:58, s:"energy", roles:[
+    ["lst_oqep","Chief Financial Officer","executive","v"]]},
+  {id:"anwar_al_kharusi", n:"Anwar Al Kharusi", t:2, p:60, s:"energy", roles:[
+    ["lst_oqep","Chief Executive Commercial & Acting General Counsel","executive","v"]]},
+  {id:"jamal_al_naamani", n:"Jamal Al Naamani", t:2, p:58, s:"energy", roles:[
+    ["lst_oqep","Chief Operating Officer","executive","v"]]},
+  {id:"said_al_hashmi", n:"Said Al Hashmi", t:2, p:60, s:"energy", roles:[
+    ["lst_oqep","Chief Executive People, Technology and Culture","executive","v"]]},
+  {id:"abdul_aziz_saud", n:"Abdul Aziz Saud Al Raisi", t:2, p:62, s:"energy", roles:[
+    ["lst_ooms","Chairman","board","v"]]},
+  {id:"hussain_abdul_ridha", n:"Hussain Abdul Ridha Al-Lawati", t:2, p:52, s:"energy", roles:[
+    ["lst_ooms","Board Member","board","v"]]},
+  {id:"areej_ahmed_al", n:"Areej Ahmed Al Touqi", t:2, p:52, s:"energy", roles:[
+    ["lst_ooms","Board Member","board","v"]]},
+  {id:"hussain_ali_hamad", n:"Hussain Ali Hamad Al-Rashdi", t:2, p:52, s:"energy", roles:[
+    ["lst_ooms","Board Member","board","v"]]},
+  {id:"mashael_yaseen_moosa", n:"Mashael Yaseen Moosa", t:2, p:52, s:"energy", roles:[
+    ["lst_ooms","Board Member","board","v"]]},
+  {id:"adil_abdullah_al", n:"Adil Abdullah Al Yahyai", t:2, p:52, s:"energy", roles:[
+    ["lst_ooms","Board Member","board","v"]]},
+  {id:"xu_gang", n:"Xu Gang", t:2, p:62, s:"materials", roles:[
+    ["lst_ocoi","Chairman","board","v"]]},
+  {id:"chen_qian", n:"Chen Qian", t:2, p:62, s:"materials", roles:[
+    ["lst_ocoi","Vice Chairman","board","v"]]},
+  {id:"su_hao", n:"Su Hao", t:2, p:52, s:"materials", roles:[
+    ["lst_ocoi","Board Member","board","v"]]},
+  {id:"wang_jiajun", n:"Wang Jiajun", t:2, p:52, s:"materials", roles:[
+    ["lst_ocoi","Board Member","board","v"]]},
+  {id:"al_muatsim_al", n:"Al-Muatsim Al-Mutairi", t:2, p:52, s:"materials", roles:[
+    ["lst_ocoi","Board Member","board","v"]]},
+  {id:"najat_ali_abdul", n:"Najat Ali Abdul Hussain Al Lawati", t:2, p:52, s:"materials", roles:[
+    ["lst_ocoi","Board Member","board","v"]]},
+  {id:"abdullah_mohammed_ali", n:"Abdullah Mohammed Ali Al Ma'mari", t:2, p:52, s:"materials", roles:[
+    ["lst_ocoi","Board Member","board","v"]]},
+  {id:"said_al_aufi", n:"Said Al Aufi", t:2, p:62, s:"tech", roles:[
+    ["ithca","Chairman","board","v"]]},
+  {id:"al_mutasim_al", n:"Al Mutasim Al Sariri", t:2, p:62, s:"tech", roles:[
+    ["ithca","Deputy Chairman","board","v"]]},
+  {id:"nasser_al_fanna", n:"Nasser Al Fanna", t:2, p:52, s:"tech", roles:[
+    ["ithca","Board Member","board","v"]]},
+  {id:"sulaiman_al_rawahi", n:"Sulaiman Al Rawahi", t:2, p:52, s:"tech", roles:[
+    ["ithca","Board Member","board","v"]]},
+  {id:"wafaa_al_amri", n:"Wafaa Al Amri", t:2, p:52, s:"tech", roles:[
+    ["ithca","Board Member","board","v"]]},
+  {id:"mohab_al_hinai", n:"Mohab Al Hinai", t:2, p:52, s:"tech", roles:[
+    ["ithca","Board Member","board","v"]]},
+  {id:"wijdan_al_lawati", n:"Wijdan Al Lawati", t:2, p:52, s:"tech", roles:[
+    ["ithca","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

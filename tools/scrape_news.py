@@ -70,7 +70,8 @@ SOURCES = {
     ("Khaleej Times",    ["https://www.khaleejtimes.com/rss"],                    "https://www.khaleejtimes.com/business"),
   ],
   "saudi": [
-    ("Arab News",        ["https://www.arabnews.com/rss.xml"],                    "https://www.arabnews.com/economy"),
+    ("Arab News",        ["https://www.arabnews.com/rss.xml",
+                          "https://www.arabnews.com/taxonomy/term/1/feed"],       "https://www.arabnews.com/economy"),
     ("Argaam",           ["https://www.argaam.com/en/rss"],                       "https://www.argaam.com/en"),
     ("Al Eqtisadiah",    [],                                                      "https://www.aleqt.com/"),
   ],
@@ -100,6 +101,11 @@ SOURCES = {
 # A bare User-Agent is a WAF fingerprint in itself: Arab News (Cloudflare) 403s
 # on UA-only and returns 200 once the ordinary browser headers are present.
 # Verified 2026-09-09; also sent to the state wires, which block the CI runner.
+# 2026-09-10 re-check: BNA, KUNA, ONA and Arabian Business all fetch AND parse
+# correctly from a normal residential IP with exactly these headers (14/41/51/200
+# items respectively) — their CI failures are IP-level blocks on the GitHub Actions
+# runner, not stale URLs or broken selectors, so do not keep re-chasing the URLs.
+# Arab News is genuinely Cloudflare-walled and 403s here too, hence the alt feed.
 UA = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",

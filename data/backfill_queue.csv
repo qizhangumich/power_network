@@ -256,9 +256,7 @@ bahrain,alzayani,Al Zayani Investments,conglomerate,60,0,pending
 dubai,jumaalmajid,Juma Al Majid Group,conglomerate,60,0,pending
 kuwait,knet,KNET (payments network),tech,60,0,pending
 northern,thumbay,Thumbay Group,health,60,0,pending
-northern,srtip,Sharjah Research Technology & Innovation Park,tech,60,0,pending
 oman,royalhosp,The Royal Hospital (Muscat),health,60,0,pending
-oman,ithca,ITHCA Group (ICT investments),tech,60,0,pending
 qatar,mannaicorp,Mannai Corporation,conglomerate,60,0,pending
 qatar,almana,Al Mana Group,conglomerate,60,0,pending
 qatar,sinopec,Sinopec,energy,60,0,pending
@@ -284,7 +282,6 @@ abudhabi,inpex,INPEX (JODCO),energy,56,0,pending
 abudhabi,ey,EY MENA,industry,56,0,pending
 abudhabi,deloitte,Deloitte Middle East,industry,56,0,pending
 abudhabi,accenture,Accenture Middle East,industry,56,0,pending
-bahrain,bfb,Bahrain FinTech Bay,tech,56,0,pending
 bahrain,amh,American Mission Hospital,health,56,0,pending
 bahrain,fakhro,Fakhro Group,conglomerate,56,0,pending
 kuwait,daralshifa,Dar Al Shifa Hospital,health,56,0,pending
@@ -372,7 +369,6 @@ dubai,lst_salambah,Al Salam Bank B.S.C.,finance,50,0,pending
 dubai,lst_mkhzn,Makhazen,industry,50,0,pending
 dubai,lst_ajmanbank,Ajman Bank PJSC,finance,50,0,pending
 dubai,lst_unioncoop,Union Coop,consumer_stap,50,0,pending
-dubai,lst_deyaar,Deyaar Development PJSC,realestate,50,0,pending
 dubai,lst_taaleem,Taaleem Holdings PJSC,consumer_disc,50,0,pending
 dubai,lst_sukoon,Sukoon Insurance PJSC,finance,50,0,pending
 dubai,lst_upp,Union Properties PJSC,realestate,50,0,pending
@@ -449,7 +445,6 @@ kuwait,lst_asiya,Asiya Capital Investments Co,finance,50,0,pending
 kuwait,lst_rasiyat,Rasiyat Holding Company K.P.S.C.,finance,50,0,pending
 kuwait,lst_alimtiaz,Al Imtiaz Group Holding Company K.S.C.P,finance,50,0,pending
 kuwait,lst_kins,Kuwait Insurance Co S.A.K,finance,50,0,pending
-kuwait,lst_gins,Gulf Insurance Group,finance,50,0,pending
 kuwait,lst_ains,Al Ahleia Insurance Co S.A.K.P.,finance,50,0,pending
 kuwait,lst_winsre,Warba Insurance and Reinsurance Company K.S.C.P,finance,50,0,pending
 kuwait,lst_kuwaitre,Kuwait Reinsurance Co K.S.P.C,finance,50,0,pending
@@ -540,16 +535,13 @@ oman,lst_gmpi,Gulf Mushroom Products Co. SAOG,consumer_stap,50,0,pending
 oman,lst_ocai,Oman Cables Industry SAOG,industry,50,0,pending
 oman,lst_oeio,Oman & Emirates Investment Holding Company SAOG,finance,50,0,pending
 oman,lst_ones,Oman National Engineering & Investment Company SAOG,industry,50,0,pending
-oman,lst_ooms,Oman Oil Marketing Company SAOG,energy,50,0,pending
 oman,lst_ouic,Oman United Insurance Company SAOG,finance,50,0,pending
 oman,lst_aaic,Al Anwar Investments SAOG,finance,50,0,pending
 oman,lst_mhas,Al Maha Petroleum Products Marketing Company SAOG,energy,50,0,pending
-oman,lst_ocoi,Oman Cement Company SAOG,materials,50,0,pending
 oman,lst_ords,Omani Qatari Telecommunications Company SAOG (Ooredoo),comm,50,0,pending
 oman,lst_sihc,A'Sharqiya Investment Holding Co. SAOG,finance,50,0,pending
 oman,lst_brde,Barka Desalination Company SAOG,utilities,50,0,pending
 oman,lst_abrj,Abraj Energy Services SAOG,energy,50,0,pending
-oman,lst_oqep,OQ Exploration and Production SAOG,energy,50,0,pending
 oman,lst_oqbi,OQ Base Industries (SFZ) SAOG,materials,50,0,pending
 oman,lst_cmii,Construction Materials Industries SAOG,materials,50,0,pending
 oman,lst_aact,Al Anwar Ceramic Tiles Company SAOG,materials,50,0,pending

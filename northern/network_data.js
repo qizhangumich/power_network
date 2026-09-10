@@ -321,6 +321,18 @@ const PEOPLE = [
     ["rakceramics","Corporate Vice President - Surfaces Division","executive","v"]]},
   {id:"sari_kanaan", n:"Sari Kanaan", t:2, p:58, s:"materials", roles:[
     ["rakceramics","Vice President and Global General Counsel","executive","v"]]},
+  {id:"salim_abdallah_mohamed", n:"Salim Abdallah Mohamed Alshaami", t:2, p:58, s:"tech", roles:[
+    ["srtip","Director, Government Relations and Digital Transformation","executive","v"]]},
+  {id:"nicola_bettio", n:"Nicola Bettio", t:2, p:58, s:"tech", roles:[
+    ["srtip","Director, Innovation and Research Ecosystem","executive","v"]]},
+  {id:"fareed_mahmoud_abdalla", n:"Fareed Mahmoud Abdalla Alameeri", t:2, p:58, s:"tech", roles:[
+    ["srtip","Chief Strategy Officer","executive","v"]]},
+  {id:"wafa_salim_balaswad", n:"Wafa Salim Balaswad Alderei", t:2, p:58, s:"tech", roles:[
+    ["srtip","Director Freezone Operations","executive","v"]]},
+  {id:"asma_mahmoud_fikri", n:"Asma Mahmoud Fikri", t:2, p:58, s:"tech", roles:[
+    ["srtip","Director, Government and Corporate Partnerships","executive","v"]]},
+  {id:"juma_alhaj", n:"Juma Alhaj", t:2, p:58, s:"tech", roles:[
+    ["srtip","Director, Strategic Communications and Marketing","executive","v"]]},
 ];
 
 const OWNERSHIP = [

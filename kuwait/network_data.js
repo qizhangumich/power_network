@@ -674,6 +674,22 @@ const PEOPLE = [
     ["lst_boubyan","Director - Independent","board","v"]]},
   {id:"rabah_abdulrahman_alrabah", n:"Rabah Abdulrahman AlRabah", t:2, p:52, s:"finance", roles:[
     ["lst_boubyan","Director - Independent","board","v"]]},
+  {id:"jean_cloutier", n:"Jean Cloutier", t:2, p:52, s:"finance", roles:[
+    ["lst_gins","Board Member","board","v"]]},
+  {id:"quinn_mclean", n:"Quinn McLean", t:2, p:52, s:"finance", roles:[
+    ["lst_gins","Board Member","board","v"]]},
+  {id:"yousef_hamad_al", n:"Yousef Hamad Al-Ebraheem", t:2, p:52, s:"finance", roles:[
+    ["lst_gins","Board Member (Independent)","board","v"]]},
+  {id:"moudi_al_humoud", n:"Moudi Al-Humoud", t:2, p:52, s:"finance", roles:[
+    ["lst_gins","Board Member (Independent)","board","v"]]},
+  {id:"farid_joseph_saber", n:"Farid Joseph Saber", t:2, p:58, s:"finance", roles:[
+    ["lst_gins","Group Chief Operations Officer","executive","v"]]},
+  {id:"osama_kamel_mostafa", n:"Osama Kamel Mostafa Aly Kishk", t:2, p:58, s:"finance", roles:[
+    ["lst_gins","Group Chief Financial Officer","executive","v"]]},
+  {id:"ahmed_ragab", n:"Ahmed Ragab", t:2, p:58, s:"finance", roles:[
+    ["lst_gins","Chief Actuarial Officer - Group Actuarial","executive","v"]]},
+  {id:"sundaresan_sridharan", n:"Sundaresan Sridharan", t:2, p:58, s:"finance", roles:[
+    ["lst_gins","Group Technical Head, Reinsurance","executive","v"]]},
 ];
 
 const OWNERSHIP = [

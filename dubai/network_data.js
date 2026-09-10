@@ -674,6 +674,34 @@ const PEOPLE = [
     ["dubaiinv","Board Member","board","v"]]},
   {id:"faisal_abdulaziz_alshaikh", n:"Faisal Abdulaziz Alshaikh Mohamed Alkhazraji", t:2, p:52, s:"conglomerate", roles:[
     ["dubaiinv","Board Member","board","v"]]},
+  {id:"abdullah_ali_obaid", n:"Abdullah Ali Obaid Al Hamli", t:2, p:62, s:"realestate", roles:[
+    ["lst_deyaar","Chairman","board","v"]]},
+  {id:"hamad_buamim", n:"Hamad Buamim", t:2, p:62, s:"realestate", roles:[
+    ["lst_deyaar","Vice Chairman","board","v"]]},
+  {id:"rashid_hasan_al", n:"Rashid Hasan Al Dabboos", t:2, p:52, s:"realestate", roles:[
+    ["lst_deyaar","Board Member","board","v"]]},
+  {id:"mohamed_al_sharif", n:"Mohamed Al Sharif", t:2, p:52, s:"realestate", roles:[
+    ["lst_deyaar","Board Member","board","v"]]},
+  {id:"adnan_chilwan", n:"Adnan Chilwan", t:2, p:52, s:"realestate", roles:[
+    ["lst_deyaar","Board Member","board","v"]]},
+  {id:"maryam_bin_fares", n:"Maryam Bin Fares", t:2, p:52, s:"realestate", roles:[
+    ["lst_deyaar","Board Member","board","v"]]},
+  {id:"saeed_al_qatami", n:"Saeed Al Qatami", t:2, p:60, s:"realestate", roles:[
+    ["lst_deyaar","Chief Executive Officer","executive","v"]]},
+  {id:"bassam_el_ghawi", n:"Bassam El Ghawi", t:2, p:58, s:"realestate", roles:[
+    ["lst_deyaar","Chief Financial Officer","executive","v"]]},
+  {id:"amer_al_zubi", n:"Amer Al Zubi", t:2, p:58, s:"realestate", roles:[
+    ["lst_deyaar","General Counsel","executive","v"]]},
+  {id:"hamdan_al_kaitoob", n:"Hamdan Al Kaitoob", t:2, p:58, s:"realestate", roles:[
+    ["lst_deyaar","Senior Vice President - Sales & Marketing","executive","v"]]},
+  {id:"selim_el_zein", n:"Selim El Zein", t:2, p:58, s:"realestate", roles:[
+    ["lst_deyaar","Vice President - Asset Management & Hospitality","executive","v"]]},
+  {id:"hesham_shawa", n:"Hesham Shawa", t:2, p:58, s:"realestate", roles:[
+    ["lst_deyaar","Chief Audit Executive","executive","v"]]},
+  {id:"ali_sharif_al", n:"Ali Sharif Al Marzooqi", t:2, p:58, s:"realestate", roles:[
+    ["lst_deyaar","Vice President - Property & Community Management","executive","v"]]},
+  {id:"mubarik_hussain", n:"Mubarik Hussain", t:2, p:58, s:"realestate", roles:[
+    ["lst_deyaar","Vice President - Information Technology","executive","v"]]},
 ];
 
 const OWNERSHIP = [

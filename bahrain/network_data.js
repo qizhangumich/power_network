@@ -2261,6 +2261,20 @@ const PEOPLE = [
     ["cbb","Board Member","board","v"]]},
   {id:"amaal_ahmed_al", n:"Amaal Ahmed Al Abbasi", t:2, p:52, s:"finance", roles:[
     ["cbb","Board Member","board","v"]]},
+  {id:"abdulwahed_aljanahi", n:"Abdulwahed AlJanahi", t:2, p:62, s:"tech", roles:[
+    ["bfb","Chairman","board","v"]]},
+  {id:"yousif_alnefaiei", n:"Yousif AlNefaiei", t:2, p:62, s:"tech", roles:[
+    ["bfb","Vice Chairman","board","v"]]},
+  {id:"nezar_maroof", n:"Nezar Maroof", t:2, p:52, s:"tech", roles:[
+    ["bfb","Board Member","board","v"]]},
+  {id:"hessa_hussain", n:"Hessa Hussain", t:2, p:52, s:"tech", roles:[
+    ["bfb","Board Member","board","v"]]},
+  {id:"layla_alqassab", n:"Layla Alqassab", t:2, p:52, s:"tech", roles:[
+    ["bfb","Board Member","board","v"]]},
+  {id:"ali_al_mudaifa", n:"Ali Al Mudaifa", t:2, p:52, s:"tech", roles:[
+    ["bfb","Board Member","board","v"]]},
+  {id:"dalal_buhejji", n:"Dalal Buhejji", t:2, p:52, s:"tech", roles:[
+    ["bfb","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [
