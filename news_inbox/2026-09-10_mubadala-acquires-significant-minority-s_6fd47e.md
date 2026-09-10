@@ -1,0 +1,5 @@
+# Mubadala Acquires Significant Minority Stake in Luckin Coffee
+source: intlbm
+url: https://news.google.com/rss/articles/CBMilwFBVV95cUxNangwUEw0RFFNWkE5TWg0WG9BMnpCSEZ2VFR0TUlGRlN0RlVTNkFuMmRxYjVwRWFVNzI4UkI0My03bEJJVEpOTVBCVjluN0hLMnNMajdJQlhiN1c0TU1GVWtCZGp3elJaOHJmVWxxX2gwYnUyc1JObzRpUFlDeHhPQzJUcFBBalFBQlo1S2VoX0tMc2ZsOHZv?oc=5
+
+Mubadala Acquires Significant Minority Stake in Luckin Coffee    intlbm

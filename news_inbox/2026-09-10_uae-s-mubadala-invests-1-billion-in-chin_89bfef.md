@@ -1,0 +1,5 @@
+# UAE’s Mubadala invests $1 billion in China’s Luckin Coffee
+source: Khaleej Times
+url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNRTM3OUM1bklfOFBfVm9DM293SmNDMnVrYVdCV0pha3k2ZU9EWmNaX3JrWF94d1F3U3llRTFBQmRLMjY4NUZhcV9GMEppOFE1N21leThHWlhSZ2Jhc2JkUVZ2VlYtVXBtNU1xV3dMM2xHQ2t2eWtfYjNWVEZqMmhpTnY1cjlabWkxTTRmbmtYNS15N3FmQkZ0Z9IBoAFBVV95cUxQR0d2S3JlOHEtQVdNRFhpeF9XR0d3Ulk3QWFCVGJTQnJoYkZZOUpwR2xHMXNIdTd2aU94UzM2SmpOdFh3SGtrUDFVZmM1Sl9PMDBVbnlqSk5ySTJoZzBfckZ6VlVjUkJFSm9ZMWdnek5TSUwwcm5INnU3R3ZNWVl5Mk9FOFpqRmxTNGw4dFk2aUlWZF95RGVwcE84ZUI0ZlF2?oc=5
+
+UAE’s Mubadala invests $1 billion in China’s Luckin Coffee    Khaleej Times

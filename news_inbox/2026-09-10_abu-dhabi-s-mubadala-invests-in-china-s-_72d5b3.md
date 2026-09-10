@@ -1,0 +1,5 @@
+# Abu Dhabi's Mubadala invests in China’s Luckin Coffee
+source: TradingView
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxON1hqaF9yNWtOd3BQZU44UmJkS1RqRGVHUU83WHlxcnUwek9rVnR2WWRtdHc4ay0xSDJxWUt1Z3Q3Y2dvb3BZNDVMSFBaU0tTb1F3T3prM1Z1eWdvMjM0S09MWWpZR2xCNmVTMVI4bXVGekpRd2JxSV9JdnRDVEVoaDdudGFsQ0dtdXdYUHlVOWxibEhFOVI5M3dIcDNxcmtveGJGV2ZsUkxxWTJQUzRNeE14N016SUtyTkhPQTdaQ05CaXFPckhLeg?oc=5
+
+Abu Dhabi's Mubadala invests in China’s Luckin Coffee    TradingView

@@ -1,0 +1,5 @@
+# How Etihad Wellbeing helps frequent flyers arrive refreshed
+source: airlineratings.com
+url: https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHZMc0NWbDd6S2JwYmZtZE5kTk9aUGdFUTJ5YzJPa1p6dU1yM291MWdfel9pMlpILXVJX09leDF0SEpvbjZielpPZVprSnpUQm9zWi1KdEttMWxhdEVjY2gzZzc5VmhXR09WSUh2VFc4dkNJN2xMSmVZeW1GS0dCem9QZEN3QUxiVmlfdThXV3MySnJtczQxOTJlZkxEWkcz?oc=5
+
+How Etihad Wellbeing helps frequent flyers arrive refreshed    airlineratings.com

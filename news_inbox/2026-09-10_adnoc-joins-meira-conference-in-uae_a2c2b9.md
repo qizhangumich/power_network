@@ -1,0 +1,5 @@
+# ADNOC joins MEIRA conference in UAE
+source: arabnews.com
+url: https://news.google.com/rss/articles/CBMiogFBVV95cUxQUDJmeEx0c29WRGRuS3RSbEFNSGFGSjF0SlFQOGNDbEVzdHdwbzN0R3dTanVTUlItb2lvWHRMaVBxSTRsYUtMd0NIUjRTNFZubVVPcGhZeWNHTk9iNjRnRGl6UkJwUnUyUmNUbXVTR0xBMU1IQmlyMjBjNVAzOU1jNFhjbzg1MGx3WWZGT011QWxnOVVpcjhhczduMkhhMUw3WGc?oc=5
+
+ADNOC joins MEIRA conference in UAE    arabnews.com
