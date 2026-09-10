@@ -1,0 +1,5 @@
+# Mubadala Announces Significant Minority Investment In Luckin Coffee
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbFh2T1RHLUtMaFVxaHlobkk1TXNmLVBxbmQ4ZDhzNGVxa0p2SkJya2hVOXp5Wm9ORTM4NUExaHZTM2NPaXYxR1dCQUZLa3JBYWFQaUYwOHZ0ZjJteUJSTGNwSmhURVVhb044ZjBBSmN5VENMSnRLYkZBMGZ1SS1XNTB5dkN6NGtGaGlwcXBfNjFwLXJGdUpLWjNDeHU4dExDUzQ1OEpSYXlsVTJPM08xLTFyOWt2ak1id1MtdVZoakh6WFBVSGQxRWlUMUdtMWMxRVJR?oc=5
+
+Mubadala Announces Significant Minority Investment In Luckin Coffee    TradingView

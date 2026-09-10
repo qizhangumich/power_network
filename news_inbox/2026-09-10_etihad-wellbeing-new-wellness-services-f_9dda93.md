@@ -1,0 +1,5 @@
+# Etihad Wellbeing: New Wellness Services for a Better Flight Travel
+source: IndianEagle
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPWm1FSmVSZFJ2OU1pTkQ2QXR0cl8yUnFudlJmVDZiREpMLVZMQkFMVEZPN3B5bWtpa1UtcEN6NnVlTU1oa0JIcFFxZU1RQkVfdGhFZ0Q1emZydWpCVHltLTR4S1NUNUFWWXlNZHFaT01aMm5odmhINWpUeTRta3Buc24xbVJxVFN1QkQ4MTAzNjhEOGNDSnFzLWNuWU9GOC1tY0w5Y092NGpjTVNEUmhpejVqNTBGUEU?oc=5
+
+Etihad Wellbeing: New Wellness Services for a Better Flight Travel    IndianEagle

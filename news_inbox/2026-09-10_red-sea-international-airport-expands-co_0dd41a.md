@@ -1,0 +1,5 @@
+# Red Sea International Airport expands connectivity with Etihad Airways
+source: Zawya
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxQaF9tSmtFeWhwa21YNFhHYy02UUVDXzRxRXl4Nk9xNnAzZF9yZmNPbk93Z1haU2xRLVRBcXY2d1F4VDhEa1lxMHJiV3l2TFpicnI5Y0J0OWN2bEZrNWx1OXVxbHZucjlpdmJHYzI0VEdUYUt5Smh1dFd4YlhGdU5OVUZFa2ozdXA3U1duZE4tN2tLb3R3TXVjUFpGLVZrSUJyV0RYNURfOVFGUHhoWkcyenQ4dEc4Vkw3d2g3b1ZOX2dGWXBtSjg0WW9sWQ?oc=5
+
+Red Sea International Airport expands connectivity with Etihad Airways    Zawya

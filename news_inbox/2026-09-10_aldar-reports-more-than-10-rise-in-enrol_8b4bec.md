@@ -1,0 +1,5 @@
+# ALDAR reports more than 10% rise in enrolments across its portfolio of owned schools for the new academic year
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi_wFBVV95cUxNWm9NeC1YVVc0VWZ2eTlIMTNVV0hEOV8zdEw0SWRiY2VlcC1Ka2hUcDVDZnhPcGkwbFFSblBzVlB1THpsWnhrYTk5UDZOWXlHVmxtWGNCSi0wTS1EalVvNGtKU0FoT0YtWFJQRHBKUWFYZ3FfX3pWM2pNeFZnR0pfX25jS2I0bDdlallZMldQeGF0WGZHcEhqUlpqd2FMM1g0eUxsY21EVjN3Rkk5ZVR6bzRjajN4Vzk1U2s3c0tabXRXdmZRbFRvUi12TjVmYW5FUmw4MFNHNmRTbW9qb2EtZEVlTzEtS2puQjJSSmRnbC1GMkNBaDhfMlAzN0xpX1U?oc=5
+
+ALDAR reports more than 10% rise in enrolments across its portfolio of owned schools for the new academic year    Zawya
