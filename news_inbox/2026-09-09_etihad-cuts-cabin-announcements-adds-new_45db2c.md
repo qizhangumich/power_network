@@ -1,0 +1,5 @@
+# Etihad cuts cabin announcements, adds new scent, sleep aids and healthier meals on flights
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ19qWF9Pa0xZaHJMYzhfUXA3QVM4Ukp2WjREWFRxMlMyYUlBZ2FtTUgweXFSOVNFOTdBMGFReXVLQjBVaTlKRm94OWVvRXlwR1BSV0VBSExmd012X3BvemlmUEdma3ZKSC16Mkdvdm9hM2VDVmU3dGQ3Q3NMWFBWWHAwWnNQYVJ0OVh4Vzh1c0NYakd4NUstSzJnN01KQTM1ZlY1VnpUVnFmaE9iN0JIbnNvaXc4dS0tR1E4NVl4aUZZSW9wOTRIWXpWZVNKYkN6RlJhWGtR?oc=5
+
+Etihad cuts cabin announcements, adds new scent, sleep aids and healthier meals on flights    Arabian Business

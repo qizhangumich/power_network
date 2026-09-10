@@ -1,0 +1,5 @@
+# SEHA’s Sheikh Tahnoon Bin Mohammed Medical City saves trauma patient through rapid multidisciplinary emergency response
+source: Zawya
+url: https://news.google.com/rss/articles/CBMiiwJBVV95cUxPZGtZLW9sSTJDczExN0hjaHp0aThDeURnaUhkUmRxaHJ4NmlzaUcwb1FodmI0YU9LQ3ZDVmJaaEpmcnI3YUZQZEp2SDc0V0pLWTF4SktNdW9KYTdIbU1NV09HUmVwam45S0t1VjFVeElPUWNmWUpZYkRUSVFaYnQ0MUpCRGxaRFM3bTBoN0l3dlBZMjIxWTQ5NEdPX1BHS2Zxbzk3WGh5UTM3YlpUbHREejl4dENPbFV5eHVSQ3dSeksxQ1hiNEpvejdKYnVrQ1ZmcFhfZGtGaExtM2NkZkMwRXVWcTlpZ2lVNGdvU3p2akI1WXV1bjJNa0dqbDlCSEJMWnNPUW54YlQ5c00?oc=5
+
+SEHA’s Sheikh Tahnoon Bin Mohammed Medical City saves trauma patient through rapid multidisciplinary emergency response    Zawya
