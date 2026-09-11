@@ -1,0 +1,5 @@
+# Etihad Airways introduces Etihad Wellbeing
+source: Freightweek
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxNVVNUcFNzR0xuNFlEb29fb1JBRENBUFFQU08xME14dEN1ZVk5bnpDSUtGVWNqeHVhWHk0SmN0aGVYWFVLR3pNRGZMbzhyWno3VWJPRTFFQjNpNlZFRVBXbmt5UHhrb1JvYVlkbllQWENZSnpKb1FhYWJQallma0NIX2lmQXMzc2RyU1U4WThJVUNUYXBlbUl6RDJlWnRQdGpsb0pB?oc=5
+
+Etihad Airways introduces Etihad Wellbeing    Freightweek

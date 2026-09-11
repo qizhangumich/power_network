@@ -1,0 +1,5 @@
+# Aquarian purchase of Brighthouse Financial delayed by regulators - report
+source: TradingView
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQUldEVGw2ZGxjOHFOeHprZERaVHNtamF5UF85MG9WUnE4N19QYTFrNTJCRXB2Wk9EaWdjR2QwZjUzMnBuYzlLM3lOalBuZExtX3VQX1FZME9XUFdkZjNGY2p2Q3FaUzV2REdFdlRzWUVfM0diYlVTdjgxazEtWURBNmJJODdWVHQ4dkV5b0Y5anNjLUNjRmhFVlZmdHNTb1B1eWZ1dUZfQUtnZUhjbDRhUWZiQ1BBQ3ZFNmVPRXpuMjhsM3hPR0t4ZUlxNXhvSmM?oc=5
+
+Aquarian purchase of Brighthouse Financial delayed by regulators - report    TradingView

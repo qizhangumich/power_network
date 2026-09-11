@@ -1,0 +1,5 @@
+# ADIA raises private equity and hedge fund allocation targets
+source: privateequitywire.co.uk
+url: https://news.google.com/rss/articles/CBMingFBVV95cUxPdEtUdHg0SGYxSF9QNmVETWlnd3phbmxXS21jeHdaelNQR0pKTkhBU0pORXJNX3RVTzQ3RGdiMkU1T3E4ZFVXQnZ1ODdsMDE0ZHVGeWlkLUo0VzFYbHlOYjFsbjREdURXUEVnM0N1MVM5dFQxRXZiMGEyUndURHhoaTI1anVHUkVCUFRsSG93RHo4dHNJNFVkclp6NEZHUQ?oc=5
+
+ADIA raises private equity and hedge fund allocation targets    privateequitywire.co.uk

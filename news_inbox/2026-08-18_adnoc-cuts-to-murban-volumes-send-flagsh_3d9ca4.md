@@ -1,0 +1,5 @@
+# Adnoc Cuts to Murban Volumes Send Flagship Oil Grade Higher
+source: bloomberg.com
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxPM3o2NnQyWE9yT2JVc1BqYWMtNk9qYXVhZXhnX0oydDAtbFhGdGt6RTF3TExiSExGVTIxeHg3aENYYlhqeFY2M0JCQzA0NU9VdHRmSXp0VjBNVjZJaC1zejROUVB3TElVY0Jjb2lwSFZtMmw3SF8zWk5OeGd6SUhwWWh6bzdUWjNpX3M4bXhLUXJYMGVxdGY4TFFfRUVETkIwWDJ1ZXo5dGlNZWQ5NUFr?oc=5
+
+Adnoc Cuts to Murban Volumes Send Flagship Oil Grade Higher    bloomberg.com

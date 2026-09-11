@@ -1,0 +1,5 @@
+# Mubadala deal orders short, strong shot of Luckin
+source: Breakingviews
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxOWFFmR28yTF9XcGtGaWVVVXdVSGdWb2VOZlZ4MkI3VWJmREdtQTdZMGtWRWEwTzZzTUJlX3MtVkZCZ2JMS2dWOF9PMGxhOEM4YzFUMUV6eHFZNzBjUElFcExpWXZoME5KNnFqTHBsMzFCSWl1YWxaU1lfSzExNDUyelpIblIxVVp2ZS1jOUZ0ZEpJb19CYkluY3o3NWlLV1NlQk1wd3RLenBNbGxGQmc?oc=5
+
+Mubadala deal orders short, strong shot of Luckin    Breakingviews
