@@ -1,0 +1,5 @@
+# Etihad Bundles Health and Rest Perks Under New Etihad Wellbeing Programme
+source: Business Traveller
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxQeXc2cC1HenFkbEQ4emdSTlM3aUtBU0pDT3RaRWFjS1JjdjBGMkYtMVpJclQ4NzZsSGIwZmF6V3RscTg4QU1zbDhNRkZDd1JPeEZwX2VMLVlyckJzMHI3enhNYU52Sk9hOF9NU1A0WWFxNmNKTGJxR012dDVqS3VHN01KNjRhTTE5S3IySlJKSzhFTC1qN0Z4UjZSM3Zoc09PTUY4SnlrSklHV2hJX0hYUzg5OA?oc=5
+
+Etihad Bundles Health and Rest Perks Under New Etihad Wellbeing Programme    Business Traveller

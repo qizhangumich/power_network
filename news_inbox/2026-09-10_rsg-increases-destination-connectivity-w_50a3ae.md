@@ -1,0 +1,5 @@
+# RSG increases destination connectivity with Etihad Airways
+source: Red Sea Global
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcFo0R0xUd2lGNnFLMVJTcE9valRNWGE2bWVNTUY1ZmdZVWllOTVwaUZvdHRjOW9MRk9nVGNWdjY5V3JFTFo4dzhTQVNINExXN0FwSEhXVXAyQ2RRenhjRXVSZGlqMThKUDlrQTVYTFg1NkpGT1FiYk5HT2ZERWx1Z09DX0dBOXltaG53OHp0Z3ZvS2dXS1dqZ1hLaG96UE03cTV1blRZTFQ?oc=5
+
+RSG increases destination connectivity with Etihad Airways    Red Sea Global

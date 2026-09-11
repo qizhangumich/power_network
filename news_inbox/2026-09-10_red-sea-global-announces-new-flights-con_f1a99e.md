@@ -1,0 +1,5 @@
+# Red Sea Global announces new flights connecting Abu Dhabi to its international airport
+source: Arab News
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxNZUZIOElaSXh3MHc5bGpzaUNRNExVMWpWQnRnT1V4cGFtUTVoOWUyZmlqLUxaOGtROVhoUTRrMlhjdExvR1Vsd2lnMjVESW5nWDkwdGdVeUxxZTlmVWp2ZEoxWXhqY0IzdmRqZGFHSEkxb3g5OHJjWC1uNDJ4Y1R3NGF2aUstYkRzQzZ5b21IY2xpa1JpY3hZbHN0RzFORVBoMUZjOHhIbW5qTWN3cUEwTVlRVU9yYzU0SWdLTFhCeTNocTRpVTZTTXFHY2Q?oc=5
+
+Red Sea Global announces new flights connecting Abu Dhabi to its international airport    Arab News

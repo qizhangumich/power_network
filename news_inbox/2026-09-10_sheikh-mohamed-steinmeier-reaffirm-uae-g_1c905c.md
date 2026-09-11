@@ -1,0 +1,5 @@
+# Sheikh Mohamed, Steinmeier reaffirm UAE-Germany partnership
+source: gulfnews.com
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjRfazRBRHVhdnpVU0RlbEdHQTFCTkRTZ2hHQ0VSYldvWEk2SFNiYS0tMXlwYXBKSG1BNzV2U281UnFkOTNOUm9URUtDQk1Pd01MNElIbGtkLUVDQXRpNHBOXzFPaE1lNXJmRFNXVGlfRlRVVk5iUHZ1cmRVbG5va0pfNE9VNVdFZkRUZU5RUW5iVEQ5SlNrWTBLNmVJUm44MU9DbkRkcU4wUQ?oc=5
+
+Sheikh Mohamed, Steinmeier reaffirm UAE-Germany partnership    gulfnews.com

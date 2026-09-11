@@ -1,0 +1,5 @@
+# Adnoc Says Three Vessels Hit This Week While Transiting Hormuz
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxPaXMwNXNPYWhqdnlidExGOTV2ZElGZjB2YnNubW9UbjFUbVowUjFOSENjWTBsMVRUelk1bGFvWThjNTFWNFFYaXVwRFNPYUdKVWRPTVJHYXE3bEs4V1pwaGc5ZThrV1laQ0dzZnNYZFZuX2d0QmRrcC1JZ21RVnl2a2tNWFc2V3FOSFJRek5ISm9rYmtYQ1Jkdjc3TTM3a0VraXVCdllrVzgyVGR4RGZmcU52dw?oc=5
+
+Adnoc Says Three Vessels Hit This Week While Transiting Hormuz    Bloomberg.com

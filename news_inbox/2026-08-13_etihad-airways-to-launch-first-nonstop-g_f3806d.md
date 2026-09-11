@@ -1,0 +1,5 @@
+# Etihad Airways to launch first nonstop Gothenburg–Abu Dhabi service in December
+source: Aviation24.be
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQbWFhOEk5QWdER0ZGYXRrdldwd2lqeFlIUE1fYV9CRXFqVXlDOFlYWTVDSXI1Tm43TXQ4aHJtd0pBMHpUWEtRXzlXcVFSVU8wUnpzbDBsQ3hQd29peFpRODJteHJjc3FtNXJvcmprOTFiRF9zZUR4TTVKcTRhSW1weDJsbmVLNGtWbXpzRW91cm9tWFpER1cxOTl6Uk83Z3F0ZGZhcGtpYjR1YTJWUW1mQ0tIODY4WWZqQUhCR2dXMDVDSHlPd0NiZnZn?oc=5
+
+Etihad Airways to launch first nonstop Gothenburg–Abu Dhabi service in December    Aviation24.be
