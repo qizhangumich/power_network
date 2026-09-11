@@ -129,7 +129,7 @@ const INSTITUTIONS = [
   {id:"lst_qati", n:"Qatar Insurance Company Q.S.P.C.", s:"finance", t:2, p:50, short:"QATI"},
   {id:"lst_zhcd", n:"Zad Holding Company Q.P.S.C.", s:"consumer_stap", t:2, p:50, short:"ZHCD"},
   {id:"lst_giss", n:"Gulf International Services Q.P.S.C.", s:"energy", t:2, p:50, short:"GISS"},
-  {id:"lst_qfbq", n:"Lesha Bank LLC", s:"finance", t:2, p:50, short:"Lesha Bank LLC"},
+  {id:"lst_qfbq", n:"Lesha Bank LLC (formerly Qatar First Bank)", s:"finance", t:2, p:60, short:"Lesha Bank"},
   {id:"lst_mers", n:"Al Meera Consumer Goods Company Q.P.S.C.", s:"consumer_stap", t:2, p:50, short:"MERS"},
   {id:"lst_qgri", n:"Qatar General Insurance & Reinsurance Company Q.P.S.C.", s:"finance", t:2, p:50, short:"QGRI"},
   {id:"lst_meza", n:"MEEZA QSTP-LLC", s:"tech", t:2, p:50, short:"MEEZA QSTP-LLC"},
@@ -197,6 +197,7 @@ const PEOPLE = [
     ["aljazeera","Chairman","board","v"]]},
   {id:"faisal_bt", n:"H.E. Sheikh Faisal bin Thani Al Thani", t:0, p:78, s:"comm", roles:[
     ["ooredoo","Chairman","board","v"],
+    ["lst_qfbq","Chairman","board","v"],
     ["qia","Chief Investment Officer, Africa & Asia-Pacific","executive","ns"]]},
   {id:"meshal_amb", n:"H.E. Sheikh Meshal bin Hamad Al Thani", t:0, p:78, s:"gov", roles:[
     ["mofa_q","Ambassador to the United States","political","v"]]},
@@ -372,8 +373,6 @@ const PEOPLE = [
     ["industriesqatar","Board Member","board","v"]]},
   {id:"ahmed_bin_ali", n:"Ahmed Bin Ali Al-Hammadi", t:2, p:52, s:"materials", roles:[
     ["industriesqatar","Board Member","board","v"]]},
-  {id:"sheikh_faisal_bin", n:"Sheikh Faisal Bin Thani Al Thani", t:2, p:62, s:"comm", roles:[
-    ["ooredoo","Chairman","board","v"]]},
   {id:"nasser_marafih", n:"Nasser Marafih", t:2, p:62, s:"comm", roles:[
     ["ooredoo","Vice Chairman","board","v"]]},
   {id:"ali_shareef_al", n:"Ali Shareef Al Emadi", t:2, p:52, s:"comm", roles:[
@@ -684,8 +683,6 @@ const PEOPLE = [
     ["nakilat","Managing Director - Nakilat SvitzerWijsmuller","executive","v"]]},
   {id:"robert_walker", n:"Robert Walker", t:2, p:58, s:"energy", roles:[
     ["nakilat","Nakilat Agency Manager","executive","v"]]},
-  {id:"faisal_bin_thani", n:"Faisal Bin Thani Al Thani", t:2, p:62, s:"comm", roles:[
-    ["ooredoo","Chairman of the Board","board","v"]]},
   {id:"saud_bin_nasser", n:"Saud Bin Nasser Al Thani", t:2, p:52, s:"comm", roles:[
     ["ooredoo","Board Member","board","v"]]},
   {id:"yousef_al_obaidly", n:"Yousef Al-Obaidly", t:2, p:52, s:"comm", roles:[
@@ -921,6 +918,53 @@ const PEOPLE = [
     ["mofin","Deputy Undersecretary for Economic Affairs","executive","v"]]},
   {id:"abdulrahman_fouad_al", n:"Abdulrahman Fouad Al Mudhahka", t:2, p:58, s:"gov", roles:[
     ["mofin","Assistant Undersecretary for Public Treasury Affairs","executive","v"]]},
+  {id:"h_e_mohammed", n:"H.E. Mohammed Yousef Al Mana", t:2, p:62, s:"finance", roles:[
+    ["lst_qfbq","Vice Chairman","board","v"]]},
+  {id:"h_e_hamad", n:"H.E. Hamad Ali Al Mannai", t:2, p:52, s:"finance", roles:[
+    ["lst_qfbq","Board Member","board","v"]]},
+  {id:"h_e_meshaal", n:"H.E. Meshaal Mohamed Al Mahmoud", t:2, p:52, s:"finance", roles:[
+    ["lst_qfbq","Board Member","board","v"]]},
+  {id:"mohammed_ali_al", n:"Mohammed Ali Al Sulaiti", t:2, p:52, s:"finance", roles:[
+    ["lst_qfbq","Board Member","board","v"]]},
+  {id:"nasser_ali_al", n:"Nasser Ali Al Hajri", t:2, p:52, s:"finance", roles:[
+    ["lst_qfbq","Board Member","board","v"]]},
+  {id:"eisa_mohamad_al", n:"Eisa Mohamad Al Mohannadi", t:2, p:52, s:"finance", roles:[
+    ["lst_qfbq","Board Member","board","v"]]},
+  {id:"abdulrahman_irfan_totonji", n:"Abdulrahman Irfan Totonji", t:2, p:52, s:"finance", roles:[
+    ["lst_qfbq","Board Member","board","v"]]},
+  {id:"nasser_abdullah_al", n:"Nasser Abdullah Al Misnad", t:2, p:52, s:"finance", roles:[
+    ["lst_qfbq","Board Member","board","v"]]},
+  {id:"glenn_johnstone", n:"Glenn Johnstone", t:2, p:58, s:"finance", roles:[
+    ["lst_qfbq","Group Chief Investment Officer","executive","v"]]},
+  {id:"thanwa_al_naimi", n:"Thanwa Al Naimi", t:2, p:58, s:"finance", roles:[
+    ["lst_qfbq","Group Chief Private Wealth Officer","executive","v"]]},
+  {id:"muhammad_tauseef_malik", n:"Muhammad Tauseef Malik", t:2, p:58, s:"finance", roles:[
+    ["lst_qfbq","Group Chief Financial Officer","executive","v"]]},
+  {id:"salman_mustafa_siddiqui", n:"Salman Mustafa Siddiqui", t:2, p:58, s:"finance", roles:[
+    ["lst_qfbq","Group Chief Risk Officer","executive","v"]]},
+  {id:"rita_el_helou", n:"Rita El Helou", t:2, p:58, s:"finance", roles:[
+    ["lst_qfbq","Group Chief Legal Officer & Board Secretary","executive","v"]]},
+  {id:"mohammed_mohammed", n:"Mohammed Mohammed", t:2, p:58, s:"finance", roles:[
+    ["lst_qfbq","Group Deputy Chief Operating Officer","executive","v"]]},
+  {id:"mohamad_mahmoud_abu", n:"Mohamad Mahmoud Abu Khalaf", t:2, p:46, s:"finance", roles:[
+    ["lst_qfbq","Head of Treasury","executive","v"]]},
+  {id:"jubin_jose", n:"Jubin Jose", t:2, p:46, s:"finance", roles:[
+    ["lst_qfbq","Head of Public Equities and Fixed Income","executive","v"]]},
+  {id:"alexandre_bernassau", n:"Alexandre Bernassau", t:2, p:46, s:"finance", roles:[
+    ["lst_qfbq","Head of Real Estate Investments","executive","v"]]},
+  {id:"toufic_fawaz", n:"Toufic Fawaz", t:2, p:46, s:"finance", roles:[
+    ["lst_qfbq","Head of Investment Banking Advisory","executive","v"]]},
+  {id:"prem_anandh_kasilingam", n:"Prem Anandh Kasilingam", t:2, p:46, s:"finance", roles:[
+    ["lst_qfbq","Head of Operations","executive","v"]]},
+  {id:"mohamed_thahir", n:"Mohamed Thahir", t:2, p:46, s:"finance", roles:[
+    ["lst_qfbq","Head of Middle Office","executive","v"]]},
+  {id:"ahmed_abou_elela", n:"Ahmed Abou Elela", t:2, p:46, s:"finance", roles:[
+    ["lst_qfbq","Head of Corporate Services","executive","v"]]},
+  {id:"benjamin_gaskin", n:"Benjamin Gaskin", t:2, p:46, s:"finance", roles:[
+    ["lst_qfbq","Head of Technology","executive","v"]]},
+  {id:"mohammed_ismail_al", n:"Mohammed Ismail Al Emadi", t:2, p:60, s:"finance", roles:[
+    ["lst_qfbq","Group Chief Executive Officer","executive","v"]],
+    note:"Group CEO of Lesha Bank since Jul 2023 (ex-Group Chief Business Officer, Al Rayan Bank); Chairman of Oryx Corniche Developments and Lesha Aviation Capital. Possibly the same person as CBQ board member Mohamad Ismail Mandani Al Emadi (unconfirmed)."},
 ];
 
 const OWNERSHIP = [
