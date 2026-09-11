@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>Kuwait Power Network — NavGCC</title>
 <style>
   :root{
@@ -98,6 +98,9 @@
   #legend .li{display:flex;align-items:center;gap:7px;margin:4px 0}
   #legend .sw{width:16px;height:0;border-top:1.5px solid;flex:0 0 16px}
   #legend .shape{width:11px;height:11px;flex:0 0 11px;border:1.5px solid #8A93A0;background:#fff}
+  #legend{max-height:72vh;overflow-y:auto}
+  #legend .lhd{margin:10px 0 3px;font-size:9.5px;letter-spacing:.8px;text-transform:uppercase;color:var(--ink-faint)}
+  #legend .dot{width:10px;height:10px;flex:0 0 10px;border-radius:50%;border:1.5px solid}
 
   /* ---------- detail panel: right slide, canvas keeps position ---------- */
   #detail{position:fixed;top:64px;right:20px;bottom:16px;width:330px;z-index:16;transform:translateX(380px);
@@ -182,7 +185,8 @@
     #topbar #b-more{display:flex;align-items:center;justify-content:center;min-width:44px;min-height:36px;font-size:16px}
     #askwrap{flex:1}
     #stats{display:none}
-    #legendwrap{display:none}
+    #legendwrap{right:12px;bottom:14px}
+    #legend{width:min(250px,calc(100vw - 24px))}
     #filters{left:0;right:0;top:auto;bottom:0;width:auto;max-height:72vh;border-radius:16px 16px 0 0;
              transform:translateY(105%);transition:transform .22s ease;display:block}
     #filters.open{transform:none}
@@ -243,157 +247,6 @@
     #mypanel{left:0;right:0;top:auto;bottom:0;width:auto;max-height:76vh;border-radius:16px 16px 0 0}
   }
 </style>
-<style>
-  /* ================================================================
-     MOBILE LAYER — "GCC Intelligence Navigator"
-     Per NAVGCC_Mobile_UX_Redesign.md Phase 1. Desktop is protected:
-     every rule below is either (a) hiding mobile-only DOM at all
-     widths, or (b) inside @media (max-width:760px) — the same
-     breakpoint the engine already uses for S.lite (W < 761).
-     Mobile is NOT a compressed desktop: the canvas becomes one of
-     four modes (Explore · Search · Network · Saved) behind a
-     persistent bottom nav, and node detail opens in a draggable
-     bottom sheet instead of the right-hand slide panel.
-     ================================================================ */
-  #brandmob, #mnav, #mscreens, #dgrab, #mtools, #mt-count, #mhint{display:none}
-
-  @media (max-width:760px){
-    :root{
-      --safe-b:env(safe-area-inset-bottom, 0px);
-      --safe-t:env(safe-area-inset-top, 0px);
-      --nav-h:54px;
-      --top-h:52px;
-      --tools-h:44px;
-    }
-    body{overflow:hidden}
-
-    /* ---------- header: NAVGCC + market, nothing else (§19–20) ---------- */
-    #topbar{height:calc(var(--top-h) + var(--safe-t));padding:var(--safe-t) 10px 0 10px;gap:8px;
-            background:rgba(246,246,244,.92);backdrop-filter:saturate(180%) blur(10px);
-            border-bottom:1px solid var(--hairline)}
-    #brand{display:none}                 /* long "<REGION> POWER NETWORK" is desktop-only */
-    #brandmob{display:block;font-weight:650;font-size:13.5px;letter-spacing:.11em}
-    #askwrap{display:none}               /* Ask lives in the mobile screens, full width */
-    #topright{gap:4px}
-    #topbar #b-more{min-width:44px;min-height:44px;font-size:17px;border-radius:10px}
-    #regions summary{min-height:36px;display:flex;align-items:center;padding:0 11px;font-size:12.5px}
-    #regions nav{top:42px}
-    #regions nav a{padding:11px 13px;font-size:13.5px}   /* 44px touch rows */
-
-    /* ---------- network-mode toolbar (§36) ---------- */
-    #mtools{display:none;position:fixed;left:0;right:0;z-index:19;
-            top:calc(var(--top-h) + var(--safe-t));height:var(--tools-h);
-            align-items:center;gap:8px;padding:0 10px}
-    #mtools.on{display:flex}
-    #mt-search{flex:1;min-height:34px;display:flex;align-items:center;gap:7px;padding:0 12px;
-               background:var(--surface);border:1px solid var(--hairline);border-radius:10px;
-               box-shadow:var(--shadow);font-size:13px;color:var(--ink-faint)}
-    #mtools .btn{min-height:34px;display:flex;align-items:center;padding:0 12px}
-    #mt-count{display:block;position:fixed;left:0;right:0;bottom:calc(var(--nav-h) + var(--safe-b) + 8px);
-              text-align:center;font-size:11px;color:var(--ink-faint);z-index:11;pointer-events:none}
-
-    /* ---------- screens: Explore / Search / Saved (§3) ---------- */
-    #mscreens{display:none;position:fixed;left:0;right:0;z-index:22;background:var(--bg);
-              top:calc(var(--top-h) + var(--safe-t));bottom:calc(var(--nav-h) + var(--safe-b));
-              overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
-    #mscreens.on{display:block}
-    #mscreens section{display:none;padding:16px 16px 28px}
-    #mscreens section.on{display:block}
-    .ms-h1{font-size:29px;font-weight:650;letter-spacing:-.5px;line-height:1.15;margin-bottom:5px}
-    .ms-sub{font-size:14px;color:var(--ink-dim);margin-bottom:16px}
-    .ms-hd{display:flex;align-items:baseline;gap:8px;margin:26px 0 9px}
-    .ms-hd .t{font-size:10.5px;letter-spacing:1.1px;color:var(--ink-faint);text-transform:uppercase}
-    .ms-hd .more{margin-left:auto;font-size:12.5px;color:var(--accent);min-height:30px;
-                 display:flex;align-items:center}
-
-    /* hero Ask (§6) */
-    .ms-ask{width:100%;min-height:50px;display:flex;align-items:center;gap:9px;padding:0 14px;
-            background:var(--surface);border:1px solid var(--hairline);border-radius:13px;
-            box-shadow:var(--shadow);font-size:14.5px;color:var(--ink-faint)}
-    .ms-askin{width:100%;min-height:50px;padding:0 14px;background:var(--surface);color:var(--ink);
-              border:1px solid var(--accent-br);border-radius:13px;font-size:16px;outline:none;
-              box-shadow:var(--shadow);-webkit-appearance:none}
-    .ms-egs{margin-top:10px}
-    #mq-out{margin-top:18px}
-    .ms-eg{font-size:13px;color:var(--ink-dim);padding:9px 2px;min-height:40px;display:flex;
-           align-items:center;border-bottom:1px solid var(--hairline2)}
-    .ms-eg:last-child{border-bottom:0}
-    .ms-eg::before{content:"↗";color:var(--accent);margin-right:9px;font-size:11px}
-
-    /* horizontal carousel (§25) — next card peeks */
-    .ms-rail{display:flex;gap:10px;overflow-x:auto;-webkit-overflow-scrolling:touch;
-             scroll-snap-type:x proximity;padding:2px 16px 4px;margin:0 -16px}
-    .ms-rail::-webkit-scrollbar{display:none}
-    .ms-card{flex:0 0 63%;scroll-snap-align:start;background:var(--surface);border:1px solid var(--hairline);
-             border-radius:13px;padding:13px 14px;box-shadow:var(--shadow);min-height:104px}
-    .ms-card b{display:block;font-size:15px;font-weight:600;line-height:1.3}
-    .ms-card .r{font-size:12.5px;color:var(--ink-dim);margin-top:4px;line-height:1.35}
-    .ms-card .m{font-size:11px;color:var(--ink-faint);margin-top:7px}
-
-    /* stacked rows — institutions, sectors, people lists */
-    .ms-row{display:flex;align-items:center;gap:11px;min-height:52px;padding:9px 2px;
-            border-bottom:1px solid var(--hairline2);-webkit-tap-highlight-color:transparent}
-    .ms-row:last-child{border-bottom:0}
-    .ms-row .sh{width:11px;height:11px;flex:0 0 11px;border:1.5px solid #8A93A0;background:#fff}
-    .ms-row .tx{min-width:0;flex:1}
-    .ms-row .tx b{display:block;font-size:14.5px;font-weight:550;line-height:1.3;
-                  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-    .ms-row .tx span{display:block;font-size:12px;color:var(--ink-dim);margin-top:2px;
-                     overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-    .ms-row .ch{color:var(--ink-faint);font-size:13px;flex:none}
-    .ms-cta{display:flex;align-items:center;justify-content:center;min-height:48px;margin-top:22px;
-            background:var(--accent);color:#fff;border-radius:12px;font-size:14.5px;font-weight:500}
-    .ms-empty{font-size:13px;color:var(--ink-faint);padding:22px 2px;line-height:1.6}
-    .ms-trust{font-size:11px;color:var(--green);margin-top:14px}
-
-    /* ---------- bottom nav (§18) ---------- */
-    #mnav{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:26;
-          background:rgba(255,255,255,.94);backdrop-filter:saturate(180%) blur(12px);
-          border-top:1px solid var(--hairline);padding-bottom:var(--safe-b)}
-    #mnav .mn{flex:1;min-height:var(--nav-h);display:flex;flex-direction:column;align-items:center;
-              justify-content:center;gap:3px;font-size:10px;letter-spacing:.2px;color:var(--ink-faint);
-              cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent}
-    #mnav .mn i{font-style:normal;font-size:17px;line-height:1}
-    #mnav .mn.on{color:var(--accent)}
-
-    /* ---------- node detail as a draggable bottom sheet (§9–11) ---------- */
-    #detail{top:auto;left:0;right:0;bottom:0;width:auto;height:56vh;max-height:none;z-index:30;
-            border-radius:18px 18px 0 0;transform:translateY(105%);
-            transition:transform .26s cubic-bezier(.32,.72,0,1), height .26s ease}
-    #detail.open{transform:none}
-    #detail.st-peek{height:150px}
-    #detail.st-half{height:56vh}
-    #detail.st-full{height:calc(100vh - 44px - var(--safe-t))}
-    #detail.dragging{transition:none}
-    #dgrab{display:block;flex:none;height:28px;position:relative;touch-action:none}
-    #dgrab::after{content:"";position:absolute;top:10px;left:50%;transform:translateX(-50%);
-                  width:38px;height:4px;border-radius:2px;background:#D5D7DC}
-    #detail .close{top:2px;right:6px;min-width:44px;min-height:44px;display:flex;
-                   align-items:center;justify-content:center;padding:0;font-size:20px}
-    #dbody{flex:1;min-height:0;padding:0 16px calc(16px + var(--safe-b));-webkit-overflow-scrolling:touch}
-    #dbody h2{font-size:19px;margin-right:44px}
-    .role, .conn{min-height:44px}
-    .conn{padding:9px 8px}
-    .pathbtn{min-height:40px;display:inline-flex;align-items:center;padding:0 14px}
-
-    /* filter sheet + My Network sheet ride above the nav */
-    #filters{z-index:31;padding-bottom:calc(14px + var(--safe-b));max-height:74vh;overflow-y:auto}
-    #filters .chip{min-height:36px;padding:0 12px;font-size:12.5px}
-    #mypanel{z-index:31;padding-bottom:calc(16px + var(--safe-b))}
-
-    /* ---------- first-visit hint, self-dismissing (§37) ---------- */
-    #mhint{display:none;position:fixed;left:16px;right:16px;z-index:12;
-           bottom:calc(var(--nav-h) + var(--safe-b) + 30px);
-           background:rgba(31,35,40,.88);color:#fff;border-radius:11px;padding:10px 13px;
-           font-size:12px;line-height:1.5;text-align:center;pointer-events:none;
-           transition:opacity .4s ease}
-    #mhint.on{display:block}
-    #mhint.out{opacity:0}
-
-    #toast{top:auto;bottom:calc(var(--nav-h) + var(--safe-b) + 16px);max-width:calc(100vw - 32px)}
-    #home{display:none}                  /* mobile entry point is Explore, not the overlay */
-  }
-</style>
 </head>
 <body>
 <canvas id="stage"></canvas>
@@ -403,7 +256,6 @@
     <img id="brandlogo" src="/favicon.svg" alt="NavGCC">
     <div>
       <div id="brand">KUWAIT POWER NETWORK</div>
-      <div id="brandmob">NAVGCC</div>
       <div id="brandsub">NavGCC · Network Intelligence</div>
     </div>
   </div>
@@ -431,7 +283,7 @@
   <div class="hd" id="hd-sectors">Sectors</div><div class="chips" id="f-sectors"></div>
 </div>
 
-<div id="detail"><div class="close" id="d-close">×</div><div id="dgrab"></div><div id="dbody"></div></div>
+<div id="detail"><div class="close" id="d-close">×</div><div id="dbody"></div></div>
 
 <div id="mypanel"><div class="close" id="mp-close">×</div><div id="mp-body"></div></div>
 
@@ -452,29 +304,8 @@
     <div class="li"><span class="sw" style="border-color:#4C57C5"></span> <span class="lt">focus / path</span></div>
     <div class="li"><span style="width:7px;height:7px;border-radius:50%;background:#D97706;display:inline-block"></span> <span class="lt">news signal</span></div>
     <div class="li"><span style="width:11px;height:11px;border-radius:50%;border:1.5px dashed #2F9E63;display:inline-block"></span> <span class="lt">your LinkedIn reach</span></div>
+    <div class="lhd" id="legend-sec-hd">Sectors</div><div id="legend-sec"></div>
   </div>
-</div>
-
-<!-- ===== mobile layer: network toolbar, screens, hint, bottom nav ===== -->
-<div id="mtools">
-  <div id="mt-search"><span>⌕</span><span id="mt-search-t">Search the network</span></div>
-  <div class="btn" id="mt-filter">Filter</div>
-</div>
-<div id="mt-count"></div>
-
-<div id="mscreens">
-  <section id="m-explore"></section>
-  <section id="m-search"></section>
-  <section id="m-saved"></section>
-</div>
-
-<div id="mhint"></div>
-
-<div id="mnav">
-  <div class="mn" data-s="explore"><i>⌂</i><span class="mn-t">Explore</span></div>
-  <div class="mn" data-s="search"><i>⌕</i><span class="mn-t">Search</span></div>
-  <div class="mn" data-s="network"><i>◎</i><span class="mn-t">Network</span></div>
-  <div class="mn" data-s="saved"><i>☆</i><span class="mn-t">Saved</span></div>
 </div>
 
 <div id="home">
@@ -515,6 +346,38 @@ const C = {
   halo:"rgba(246,246,244,0.92)",
 };
 const FONT = "Inter, 'IBM Plex Sans', 'Segoe UI', sans-serif";
+
+/* ---------- sector colour families ----------
+   15 sectors fold into 8 categorical hues (validated order from the dataviz
+   reference palette) + 2 neutrals. A graph puts any two nodes side by side,
+   so no 8 hues are pairwise-distinct: identity is never colour-alone — sector
+   key in the legend, colour dots on the Sector filter chips, sector name in
+   the tooltip and profile. Labels and initials stay in ink. */
+const SECTOR_GROUPS = [
+  {color:"#2a78d6", en:"Financials",              zh:"金融",         sectors:["finance"]},
+  {color:"#eb6834", en:"Energy & Utilities",      zh:"能源与公用事业", sectors:["energy","utilities"]},
+  {color:"#1baf7a", en:"Health & Education",      zh:"医疗与教育",    sectors:["health","education"]},
+  {color:"#eda100", en:"Sovereign Capital",       zh:"主权资本",      sectors:["sovereign"]},
+  {color:"#e87ba4", en:"Consumer",                zh:"消费",         sectors:["consumer_disc","consumer_stap"]},
+  {color:"#008300", en:"Real Estate",             zh:"房地产",       sectors:["realestate"]},
+  {color:"#4a3aa7", en:"Technology & Telecom",    zh:"科技与通信",    sectors:["tech","comm"]},
+  {color:"#e34948", en:"Industrials & Materials", zh:"工业与原材料",   sectors:["industry","materials"]},
+  {color:"#52514e", en:"Government & Political",  zh:"政府与政治",    sectors:["gov"]},
+  {color:"#898781", en:"Family Conglomerates",    zh:"家族企业集团",   sectors:["conglomerate"]},
+];
+const SECTOR_COLOR = {};
+SECTOR_GROUPS.forEach(g => g.sectors.forEach(s => SECTOR_COLOR[s] = g.color));
+function sectorColor(k){ return SECTOR_COLOR[k] || (SECTORS[k] && SECTORS[k].color) || C.base; }
+/* phones get the same UI as desktop, with a bigger graph */
+function isMob(){ return W > 10 && W < 761; }
+const MOB_SCALE = 1.3;
+function renderSectorLegend(){
+  const box = document.getElementById("legend-sec"), hd = document.getElementById("legend-sec-hd");
+  if(!box) return;
+  hd.textContent = t().hdSectors;
+  box.innerHTML = SECTOR_GROUPS.map(g =>
+    `<div class="li"><span class="dot" style="border-color:${g.color};background:${hexA(g.color,0.22)}"></span> <span>${LANG === "zh" ? g.zh : g.en}</span></div>`).join("");
+}
 
 /* ---------- i18n — UI chrome only; all data stays English ---------- */
 const I18N = {
@@ -566,18 +429,6 @@ const I18N = {
     homeRecent:"Recent changes", homeCta:"Explore relationships", homeSkip:"skip",
     numPeople:"People", numInsts:"Institutions", numLinks:"Relationships", numSignals:"Signals",
     showingTop:"Showing key nodes only — open ☰ to show all",
-    /* ---- mobile layer ---- */
-    mExplore:"Explore", mSearch:"Search", mNetwork:"Network", mSaved:"Saved",
-    mAskPh:"Ask the {r} network…", mSearchPh:"Search the network",
-    mKeyPeople:"Key people", mKeyInsts:"Key institutions", mBySector:"Explore by sector",
-    mSeeAll:"See all", mAll:"All", mExploreNet:"Explore the network",
-    mViewNet:"View network", mNodesShown:"{n} key nodes shown",
-    mHint:"Tap a node to explore connections · pinch to zoom",
-    mSave:"Save", mSaved2:"Saved", mSavedEmpty:"Nothing saved yet. Open a person or institution and tap Save to keep it here.",
-    mNoResults:"No match — try a name, institution or sector",
-    mPeopleN:"people", mInstsN:"institutions", mReset:"Reset",
-    mSources:"{n} verified sources", mUpdated:"Verified · updated continuously",
-    mAnswerNet:"Network", mBack:"Back",
   },
   zh: {
     brandsub:"NavGCC · 关系情报", docTitle:"科威特权力网络 — NavGCC",
@@ -630,18 +481,6 @@ const I18N = {
     homeRecent:"最新变化", homeCta:"开始探索关系", homeSkip:"跳过",
     numPeople:"人物", numInsts:"机构", numLinks:"关系", numSignals:"动态",
     showingTop:"仅显示关键节点 — 打开 ☰ 可显示全部",
-    /* ---- mobile layer ---- */
-    mExplore:"探索", mSearch:"搜索", mNetwork:"关系网", mSaved:"收藏",
-    mAskPh:"向{r}网络提问…", mSearchPh:"搜索这张网络",
-    mKeyPeople:"关键人物", mKeyInsts:"关键机构", mBySector:"按行业探索",
-    mSeeAll:"查看全部", mAll:"全部", mExploreNet:"探索关系网络",
-    mViewNet:"查看关系网", mNodesShown:"显示 {n} 个关键节点",
-    mHint:"点击节点查看关系 · 双指缩放",
-    mSave:"收藏", mSaved2:"已收藏", mSavedEmpty:"还没有收藏。打开任一人物或机构，点击“收藏”即可留在这里。",
-    mNoResults:"未找到 — 试试人名、机构或行业",
-    mPeopleN:"人物", mInstsN:"机构", mReset:"重置",
-    mSources:"{n} 条已核实信源", mUpdated:"已核实 · 持续更新",
-    mAnswerNet:"关系网", mBack:"返回",
   },
 };
 let LANG = (function(){ try { return localStorage.getItem("pm_lang")==="zh" ? "zh" : "en"; } catch(e){ return "en"; } })();
@@ -942,30 +781,6 @@ const S = {
   alpha: 1,
 };
 
-/* ---------- mobile: bounded ambient graph (§7) ----------
-   Desktop shows everything the filters allow. Mobile shows a *core* of the
-   MOB_CORE_N highest-power nodes that pass the current filters — the brief's
-   15–25 nodes — and reveals the rest through focus (tap a node) or the
-   explicit "show all" switch. Recomputed lazily: filters invalidate it. */
-/* One source of truth for the breakpoint, shared with the stylesheet: the
-   engine must never disagree with the CSS about whether this is a phone
-   (embedded contexts can report a bogus window.innerWidth). */
-const MQ_MOB = window.matchMedia ? window.matchMedia("(max-width:760px)") : null;
-let MOB = MQ_MOB ? MQ_MOB.matches : window.innerWidth < 761;
-const MOB_CORE_N = 22;
-let mobCore = null;
-function invalidateMobCore(){ mobCore = null; }
-function mobCoreSet(){
-  if(mobCore) return mobCore;
-  mobCore = new Set(
-    nodes.filter(n => S.activeSectors.has(n.sector) && S.activeTiers.has(n.tier)
-                   && (n.kind === "person" ? S.showPeople : S.showInsts)
-                   && (n.kind === "inst" || n.power >= 56))
-         .sort((a,b) => b.power - a.power)
-         .slice(0, MOB_CORE_N));
-  return mobCore;
-}
-
 function inFocusContext(n){
   if(S.selected && (n===S.selected || S.selected.adj.some(a => a.n===n))) return true;
   if(S.focus && (n===S.focus || S.focus.adj.some(a => a.n===n))) return true;
@@ -981,7 +796,7 @@ function nodeVisible(n){
   // progressive disclosure: board/staff-level people surface when their
   // company is in focus (click it), not in the ambient view
   if(n.kind==="person" && n.power < 56 && !S.showAll && !inFocusContext(n)) return false;
-  if(S.lite && !S.liteOff && !S.showAll && !mobCoreSet().has(n) && !inFocusContext(n)) return false;
+  if(S.lite && !S.liteOff && n.power < 86 && !inFocusContext(n)) return false;
   if(S.focus){
     if(n===S.focus) return true;
     return S.focus.adj.some(a => a.n===n);
@@ -998,14 +813,10 @@ const canvas = document.getElementById("stage");
 const ctx = canvas.getContext("2d");
 let W=0, H=0, DPR = Math.min(window.devicePixelRatio||1, 2);
 function resize(){
-  // some embedded/hidden contexts report innerWidth 0 while CSS still lays the
-  // page out at its real width — fall back rather than computing against 0
-  W = window.innerWidth || document.documentElement.clientWidth || 1024;
-  H = window.innerHeight || document.documentElement.clientHeight || 768;
+  W = window.innerWidth; H = window.innerHeight;
   canvas.width = W*DPR; canvas.height = H*DPR;
   canvas.style.width = W+"px"; canvas.style.height = H+"px";
-  MOB = MQ_MOB ? MQ_MOB.matches : W < 761;
-  S.lite = MOB && !S.liteOff;
+  S.lite = W < 761 && !S.liteOff;
 }
 window.addEventListener("resize", resize); resize();
 function toScreen(x,y){ return [ (x - S.cam.x)*S.cam.k + W/2, (y - S.cam.y)*S.cam.k + H/2 ]; }
@@ -1278,82 +1089,13 @@ function labelVisible(n, lit, hoverSet){
   if(hoverSet) return hoverSet.has(n);
   if(S.askSet) return S.askSet.has(n);
   if(S.focus) return true;
-  if(MOB) return true;    // mobile: candidacy only — drawLabels() ranks, caps and de-collides
+  if(S.lite && !S.liteOff) return n.power >= 92;   // mobile ambient: only the apex names
   const k = S.cam.k;
   if(k < 0.40) return n.power >= 96;
   if(k < 0.55) return n.power >= 86;
   if(k < 0.80) return n.power >= 74;
   if(k < 1.05) return n.power >= 64;
   return true;
-}
-
-/* ---------- label priority + collision (§13) ----------
-   Desktop is untouched: every candidate is drawn, in node order, exactly as
-   before. Mobile ranks candidates by priority (power + selection relevance +
-   connection relevance + zoom), places them greedily, drops any that would
-   overlap one already placed, and caps the *ambient* set at MOB_LABEL_N.
-   Labels are never shrunk to make room — the lower-priority one is hidden. */
-const MOB_LABEL_N = 8;
-function labelPrio(n, lit){
-  let p = n.power;
-  if(n === S.selected) p += 1000;
-  if(n === S.hovered) p += 900;
-  if(S.path && S.path.nodes.includes(n)) p += 800;
-  if(lit && lit.has(n)) p += lit.get(n) === 0 ? 1000 : (lit.get(n) === 1 ? 300 : 0);
-  if(S.focus && (n === S.focus || S.focus.adj.some(ad => ad.n === n))) p += 250;
-  if(S.askSet && S.askSet.has(n)) p += 200;
-  p += S.cam.k > 1.05 ? 60 : (S.cam.k > 0.8 ? 30 : 0);
-  return p;
-}
-function drawLabel(L, atX){
-  const yy = L.y + L.r + 13, xx = atX === undefined ? L.x : atX;
-  ctx.font = `${L.cls.f} ${L.cls.fs}px ${FONT}`;
-  ctx.textAlign = "center";
-  ctx.globalAlpha = Math.min(1, L.a + 0.1);
-  ctx.lineWidth = 3;
-  ctx.strokeStyle = C.halo;
-  ctx.strokeText(L.label, xx, yy);
-  ctx.fillStyle = (L.selected || L.hovered || L.n.power >= 90) ? C.ink : C.dim;
-  ctx.fillText(L.label, xx, yy);
-  ctx.globalAlpha = 1;
-}
-function drawLabels(q){
-  if(!MOB){
-    /* Desktop draws every candidate in node order, as before — but a node that
-       has been panned off the canvas must not leave its label behind. Centred
-       text at a negative x still paints its right-hand half against the edge,
-       which reads as a caption floating in empty space with nothing attached.
-       Cull labels whose node is outside the canvas, and nudge the ones that
-       belong to a node still on screen back inside so they stay readable. */
-    for(const L of q){
-      if(L.x < 0 || L.x > W || L.y < -20 || L.y > H + 20) continue;
-      ctx.font = `${L.cls.f} ${L.cls.fs}px ${FONT}`;
-      const w = ctx.measureText(L.label).width;
-      const xx = W > 40 ? Math.max(w/2 + 8, Math.min(W - w/2 - 8, L.x)) : L.x;
-      if(Math.abs(xx - L.x) > 42) continue;   // too far to nudge without detaching it
-      drawLabel(L, xx);
-    }
-    return;
-  }
-  q.sort((a,b) => b.prio - a.prio);
-  const boxes = [];
-  let ambient = 0;
-  for(const L of q){
-    if(!L.must && ambient >= MOB_LABEL_N) continue;
-    ctx.font = `${L.cls.f} ${L.cls.fs}px ${FONT}`;
-    const w = ctx.measureText(L.label).width, h = L.cls.fs + 3, yy = L.y + L.r + 13;
-    if(L.y < -20 || L.y > H + 20) continue;
-    // keep labels inside the viewport rather than letting them clip at the edge;
-    // if a node sits so far out that its label would detach, drop the label
-    const xx = W > 40 ? Math.max(w/2 + 8, Math.min(W - w/2 - 8, L.x)) : L.x;
-    if(Math.abs(xx - L.x) > 42) continue;
-    const box = [xx - w/2 - 3, yy - h, xx + w/2 + 3, yy + 4];
-    if(box[3] < 0 || box[1] > H) continue;
-    if(boxes.some(b => box[0] < b[2] && box[2] > b[0] && box[1] < b[3] && box[3] > b[1])) continue;
-    boxes.push(box);
-    drawLabel(L, xx);
-    if(!L.must) ambient++;
-  }
 }
 
 function edgePath(x1,y1,x2,y2){
@@ -1399,18 +1141,16 @@ function draw(){
       ctx.strokeStyle = C.ring;
       ctx.lineWidth = 1;
       ctx.stroke();
-      if(S.cam.k > 0.25 && !MOB){        // mobile: rings stay, captions would collide
+      if(S.cam.k > 0.25){
         ctx.fillStyle = C.ringLabel;
         ctx.font = "10.5px " + FONT;
         ctx.textAlign = "center";
         ctx.fillText(tierName(ti), cx, cy - TIER_R[ti]*S.cam.k - 8);
       }
     }
-    if(!MOB){
-      ctx.fillStyle = C.ringLabel;
-      ctx.font = "10.5px " + FONT; ctx.textAlign = "center";
-      ctx.fillText(tierName(0), cx, cy - 165*S.cam.k - 8);
-    }
+    ctx.fillStyle = C.ringLabel;
+    ctx.font = "10.5px " + FONT; ctx.textAlign = "center";
+    ctx.fillText(tierName(0), cx, cy - 165*S.cam.k - 8);
   }
 
   const lit = computeLit();
@@ -1465,12 +1205,11 @@ function draw(){
   });
 
   /* ---- nodes ---- */
-  const labelQ = [];
   nodes.forEach(n => {
     if(!nodeVisible(n)) return;
     const cls = nodeClass(n);
     const [x,y] = toScreen(n.x, n.y);
-    const r = n.radius * Math.max(S.cam.k, 0.45);
+    const r = isMob() ? n.radius * Math.max(S.cam.k, 0.6) * MOB_SCALE : n.radius * Math.max(S.cam.k, 0.45);
 
     let a = 1;
     if(S.path) a = S.path.nodes.includes(n) ? 1 : 0.14;
@@ -1481,18 +1220,21 @@ function draw(){
 
     const hovered = n===S.hovered, selected = n===S.selected || n===S.pathArm;
 
+    const sc = sectorColor(n.sector);
     drawShapePath(n, x, y, r);
     ctx.fillStyle = C.fill;
     ctx.fill();
+    ctx.fillStyle = hexA(sc, n.power >= 80 ? 0.26 : 0.18);   // sector tint over white
+    ctx.fill();
     if(hovered || selected){ ctx.shadowColor = hexA(C.accent, 0.4); ctx.shadowBlur = selected ? 9 : 6; }
-    ctx.strokeStyle = selected ? C.accent : cls.c;
+    ctx.strokeStyle = selected ? C.accent : sc;
     ctx.lineWidth = selected ? cls.lw + 0.6 : cls.lw;
     ctx.stroke();
     ctx.shadowBlur = 0;
 
     // hero initials — identity without a legend
     if(n.kind==="person" && n.power>=90 && r >= 10){
-      ctx.fillStyle = selected ? C.accent : cls.c;
+      ctx.fillStyle = selected ? C.accent : C.ink;
       ctx.font = `600 ${Math.max(8, r*0.7)}px ${FONT}`;
       ctx.textAlign = "center"; ctx.textBaseline = "middle";
       ctx.fillText(initials(n), x, y+0.5);
@@ -1520,15 +1262,26 @@ function draw(){
     }
     ctx.globalAlpha = 1;
 
-    if(labelVisible(n, lit, hoverSet) && a > 0.2)
-      labelQ.push({n, x, y, r, a, cls, selected, hovered,
-                   label: n.kind==="inst" ? (n.short||n.name) : shortName(n),
-                   must: n === S.selected || n === S.hovered
-                         || !!(S.path && S.path.nodes.includes(n))
-                         || !!(lit && lit.has(n) && lit.get(n) <= 1),
-                   prio: MOB ? labelPrio(n, lit) : 0});
+    if(labelVisible(n, lit, hoverSet) && a > 0.2){
+      const label = n.kind==="inst" ? (n.short||n.name) : shortName(n);
+      const emph = selected || hovered || n.power >= 90;
+      ctx.font = `${cls.f} ${isMob() ? cls.fs + 1.5 : cls.fs}px ${FONT}`;
+      ctx.textAlign = "center";
+      ctx.globalAlpha = Math.min(1, a + 0.1);
+      /* a node panned off the canvas must not leave its caption behind: cull
+         labels whose node is outside, nudge on-screen ones back inside */
+      const ly = y + r + 13, lw = ctx.measureText(label).width;
+      const lx = W > 40 ? Math.max(lw/2 + 8, Math.min(W - lw/2 - 8, x)) : x;
+      if(x >= 0 && x <= W && ly >= -20 && ly <= H + 20 && Math.abs(lx - x) <= 42){
+        ctx.lineWidth = 3;
+        ctx.strokeStyle = C.halo;
+        ctx.strokeText(label, lx, ly);
+        ctx.fillStyle = emph ? C.ink : C.dim;
+        ctx.fillText(label, lx, ly);
+      }
+      ctx.globalAlpha = 1;
+    }
   });
-  drawLabels(labelQ);
 }
 
 /* ---------- main loop ---------- */
@@ -1548,7 +1301,7 @@ function pick(px,py,slop){
     if(!nodeVisible(n)) return;
     const dx = n.x-wx, dy = n.y-wy;
     const d = Math.sqrt(dx*dx+dy*dy);
-    const hitR = n.radius/Math.min(1,S.cam.k) + extra;
+    const hitR = n.radius * (isMob() ? MOB_SCALE : 1) / Math.min(1,S.cam.k) + extra;
     if(d < hitR && d < bestD){ best = n; bestD = d; }
   });
   return best;
@@ -1815,7 +1568,6 @@ function select(n){
     armBtn.textContent = t().pathArmed;
     toast(t().pathArmed);
   };
-  if(MOB) mobAfterSelect(n);          // mobile: Save chip + bottom-sheet state
   const accBtn = document.getElementById("acc-show");
   if(accBtn && acc && acc.path.nodes.length > 1) accBtn.onclick = () => {
     acc.path.t0 = performance.now();
@@ -1862,8 +1614,6 @@ function showPathPanel(p){
 function centerOn(n){
   S.cam.x = n.x; S.cam.y = n.y;
   if(S.cam.k < 0.8) S.cam.k = 0.9;
-  // mobile: lift the node into the upper third so the bottom sheet never covers it
-  if(MOB) S.cam.y = n.y + 0.20 * H / S.cam.k;
 }
 
 /* ---------- filters ---------- */
@@ -1874,8 +1624,7 @@ function chip(parent, labelFn, on, cb){
   const tn = document.createTextNode(labelFn());
   el.appendChild(tn);
   chipRegistry.push({tn, label:labelFn});
-  el.onclick = () => { const now = el.classList.toggle("on"); el.classList.toggle("off", !now);
-                       cb(now); invalidateMobCore(); reheat(0.3); updateStats(); };
+  el.onclick = () => { const now = el.classList.toggle("on"); el.classList.toggle("off", !now); cb(now); reheat(0.3); updateStats(); };
   parent.appendChild(el);
   return el;
 }
@@ -1892,14 +1641,19 @@ chip(fEdges, () => t().cFam, true, on => S.showEdges.family = on);
 chip(fEdges, () => t().cPot, true, on => S.showEdges.pot = on);
 chip(fEdges, () => t().cFormer, false, on => S.showEdges.former = on).classList.add("off");
 const fSectors = document.getElementById("f-sectors");
-Object.keys(SECTORS).forEach(k => chip(fSectors, () => sectorName(k), true,
-  on => { on ? S.activeSectors.add(k) : S.activeSectors.delete(k); }));
+Object.keys(SECTORS).forEach(k => {
+  const el = chip(fSectors, () => sectorName(k), true,
+    on => { on ? S.activeSectors.add(k) : S.activeSectors.delete(k); });
+  const sw = document.createElement("span");
+  sw.className = "sw"; sw.style.background = sectorColor(k);
+  el.insertBefore(sw, el.firstChild);
+});
 
 document.getElementById("b-filter").onclick = () => document.getElementById("filters").classList.toggle("open");
 document.getElementById("b-more").onclick = () => document.getElementById("filters").classList.toggle("open");
 
 /* mobile: views + extras live inside the sheet */
-if(MOB){
+if(window.innerWidth < 761){
   document.getElementById("hd-views-m").style.display = "block";
   const fv = document.getElementById("f-views-m");
   fv.style.display = "flex";
@@ -1956,13 +1710,10 @@ function findSector(q){
   }
   return null;
 }
-/* Intent grammar, shared by the desktop Ask dropdown and the mobile Search
-   screen. Returns the *interpretation* only — each surface renders it its own
-   way (§28: the AI/search layer is an interface to the database, not a
-   separate chatbot). Fall-through order is unchanged from the original. */
-function parseAsk(q){
-  q = (q || "").trim();
-  if(!q) return {kind:"none"};
+function runAsk(q){
+  q = q.trim();
+  if(!q) return;
+  S.askSet = null; S.path = null;
   const lower = q.toLowerCase();
 
   // Path: "how can i reach X", "path to X", "reach X", "到达X", "怎么找到X"
@@ -1971,67 +1722,51 @@ function parseAsk(q){
     const target = findNode(m[1]);
     if(target){
       const start = S.selected || nodes.filter(n => n.kind==="person").sort((a,b)=>b.power-a.power)[0];
-      return {kind:"path", target, start, path: computePath(start, target)};
+      const p = computePath(start, target);
+      if(p){
+        S.path = p;
+        showPathPanel(p);
+        askResults(`<div class="explain">${t().askExplainPath}: ${start.short} → ${target.short} (${p.nodes.length-1} hops)</div>`
+          + `<span class="act" id="a-clear">${t().clearAsk}</span>`);
+        wireAskActions();
+        return;
+      }
+      askResults(`<div class="explain">${t().pathNone}</div>`);
+      return;
     }
   }
   // Who at X: "who do i know at ADQ", "who at ADNOC", "谁在X"
   m = lower.match(/who\b.*?\b(?:at|in)\s+(.+)|谁在\s*(.+)/);
   if(m){
     const inst = findNode(m[1] || m[2]);
-    if(inst && inst.kind === "inst")
-      return {kind:"who", inst,
-              people: inst.adj.filter(a => a.e.kind==="role").map(a => a.n)
-                          .sort((a,b) => b.power - a.power)};
+    if(inst && inst.kind === "inst"){
+      const people = inst.adj.filter(a => a.e.kind==="role").map(a => a.n);
+      S.askSet = new Set([inst, ...people]);
+      select(inst); centerOn(inst);
+      let html = `<div class="explain">${t().askExplainWho} ${inst.short} (${people.length})</div>`;
+      people.sort((a,b)=>b.power-a.power).slice(0,10).forEach(p => {
+        html += `<div class="r" data-go="${p.id}"><span>${p.name}</span><span class="k">${p.power}</span></div>`;
+      });
+      html += `<span class="act" id="a-clear">${t().clearAsk}</span>`;
+      askResults(html); wireAskActions();
+      return;
+    }
   }
   // Sector: "show everything related to energy", "energy network", "水务"
   const sk = findSector(lower);
-  if(sk && /show|explore|related|sector|network|关于|行业/.test(lower)) return {kind:"sector", sector:sk};
-  // Fallback: entity search
-  const hit = findNode(q);
-  if(hit) return {kind:"entity", node:hit};
-  return {kind:"none"};
-}
-
-function runAsk(q){
-  q = (q || "").trim();
-  if(!q) return;
-  S.askSet = null; S.path = null;
-  const a = parseAsk(q);
-
-  if(a.kind === "path"){
-    if(a.path){
-      S.path = a.path;
-      showPathPanel(a.path);
-      askResults(`<div class="explain">${t().askExplainPath}: ${a.start.short} → ${a.target.short} (${a.path.nodes.length-1} hops)</div>`
-        + `<span class="act" id="a-clear">${t().clearAsk}</span>`);
-      wireAskActions();
-      return;
-    }
-    askResults(`<div class="explain">${t().pathNone}</div>`);
-    return;
-  }
-  if(a.kind === "who"){
-    S.askSet = new Set([a.inst, ...a.people]);
-    select(a.inst); centerOn(a.inst);
-    let html = `<div class="explain">${t().askExplainWho} ${a.inst.short} (${a.people.length})</div>`;
-    a.people.slice(0,10).forEach(p => {
-      html += `<div class="r" data-go="${p.id}"><span>${p.name}</span><span class="k">${p.power}</span></div>`;
-    });
-    html += `<span class="act" id="a-clear">${t().clearAsk}</span>`;
-    askResults(html); wireAskActions();
-    return;
-  }
-  if(a.kind === "sector"){
-    S.askSet = new Set(nodes.filter(n => n.sector === a.sector && nodeVisible(n)));
-    askResults(`<div class="explain">${t().askExplainSector}: ${sectorName(a.sector)} (${S.askSet.size})</div>`
+  if(sk && /show|explore|related|sector|network|关于|行业/.test(lower)){
+    S.askSet = new Set(nodes.filter(n => n.sector === sk && nodeVisible(n)));
+    askResults(`<div class="explain">${t().askExplainSector}: ${sectorName(sk)} (${S.askSet.size})</div>`
       + `<span class="act" id="a-clear">${t().clearAsk}</span>`);
     wireAskActions();
     return;
   }
-  if(a.kind === "entity"){
-    select(a.node); centerOn(a.node);
-    askResults(`<div class="explain">${a.node.name}</div>`
-      + `<span class="act" data-go="${a.node.id}">${t().openProfile}</span><span class="act" id="a-clear">${t().clearAsk}</span>`);
+  // Fallback: entity search
+  const hit = findNode(q);
+  if(hit){
+    select(hit); centerOn(hit);
+    askResults(`<div class="explain">${hit.name}</div>`
+      + `<span class="act" data-go="${hit.id}">${t().openProfile}</span><span class="act" id="a-clear">${t().clearAsk}</span>`);
     wireAskActions();
     return;
   }
@@ -2084,24 +1819,20 @@ document.addEventListener("click", ev => {
 
 /* ---------- top buttons ---------- */
 function fitView(){
-  const mobile = MOB;
-  /* Mobile shows a bounded core, not the whole tier structure — framing it by
-     the full TIER_R extent would render those ~22 nodes as a clump in the
-     middle. Fit the visible bounding box instead, inside the chrome. */
-  if(mobile){
-    const vis = nodes.filter(nodeVisible);
-    if(vis.length){
-      let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9;
-      vis.forEach(n => {
-        x0 = Math.min(x0, n.x - n.radius); x1 = Math.max(x1, n.x + n.radius);
-        y0 = Math.min(y0, n.y - n.radius); y1 = Math.max(y1, n.y + n.radius);
-      });
-      const pad = 54;                              // room for labels under nodes
-      const k = Math.min((W - 24) / Math.max(1, (x1 - x0) + pad * 2),
-                         (H - 190) / Math.max(1, (y1 - y0) + pad * 2));
-      S.cam = {x: (x0 + x1) / 2, y: (y0 + y1) / 2, k: Math.max(0.12, Math.min(1.8, k))};
-      return;
-    }
+  const mobile = W < 761;
+  if(mobile && S.view === "network"){
+    /* phones: frame what is actually on screen, not the empty outer tier
+       rings, so the graph fills the width instead of floating in the middle */
+    let ex = 0, ey = 0;
+    nodes.forEach(n => {
+      if(!nodeVisible(n)) return;
+      ex = Math.max(ex, Math.abs(n.x) + n.radius);
+      ey = Math.max(ey, Math.abs(n.y) + n.radius);
+    });
+    ex = Math.max(ex, 160) + 34; ey = Math.max(ey, 160) + 34;       // caption room
+    const k = Math.max(0.12, Math.min(1.1, Math.min((W - 12) / (2 * ex), (H - 64) / (2 * ey))));
+    S.cam = {x: 0, y: -25 / k, k};                                    // clear the 50px top bar
+    return;
   }
   const availW = mobile ? W - 20 : W - 120;
   const availH = mobile ? H - 120 : H - 130;
@@ -2128,6 +1859,7 @@ function applyLang(){
   document.getElementById("hd-edges").textContent = t().hdEdges;
   document.getElementById("hd-sectors").textContent = t().hdSectors;
   document.querySelectorAll("#legend .lt").forEach((el,i) => { el.textContent = t().legend[i]; });
+  renderSectorLegend();
   document.querySelectorAll(".vpill").forEach(el => { el.textContent = t().views[el.dataset.v]; });
   chipRegistry.forEach(r => { r.tn.nodeValue = r.label(); });
   document.getElementById("h-title").textContent = t().homeTitle;
@@ -2138,14 +1870,6 @@ function applyLang(){
   document.getElementById("h-skip").textContent = t().homeSkip;
   buildHomeNums();
   updateStats();
-  /* mobile chrome + whichever screen is showing */
-  document.querySelectorAll("#mnav .mn").forEach(el => {
-    const k = {explore:"mExplore", search:"mSearch", network:"mNetwork", saved:"mSaved"}[el.dataset.s];
-    el.querySelector(".mn-t").textContent = t()[k];
-  });
-  document.getElementById("mt-search-t").textContent = t().mSearchPh;
-  document.getElementById("mt-filter").textContent = t().bFilter;
-  if(MOB && mScreen) mobileGo(mScreen);
   if(S.selected) select(S.selected);
 }
 function toggleLang(){
@@ -2326,396 +2050,11 @@ document.getElementById("b-lang").addEventListener("click", () => {
 if(mnBtn) mnBtn.textContent = t().myNet;
 if(mnBtnM) mnBtnM.textContent = t().myNet;
 
-/* ================================================================
-   MOBILE LAYER — Explore · Search · Network · Saved   (Phase 1)
-   Per NAVGCC_Mobile_UX_Redesign.md. Same data, same engine, same
-   profile builder (select()) — only the presentation is recomposed:
-   the graph becomes one of four modes instead of the whole product,
-   and node detail opens in a draggable bottom sheet. Every entry
-   point below is inert on desktop (the DOM it drives is display:none
-   above 760px and mobileGo() is only called when MOB).
-   ================================================================ */
-function esc(s){
-  return String(s == null ? "" : s).replace(/[&<>"']/g,
-    c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-}
-function regionLabel(){
-  const s = document.querySelector("#regions summary");
-  return (s && s.textContent.trim()) || "GCC";
-}
-function primaryRole(n){
-  if(n.kind !== "person" || !n.roles || !n.roles.length) return sectorName(n.sector);
-  const r = n.roles.find(x => !x[4]) || n.roles[0];
-  const inst = byId[r[0]];
-  return r[1] + (inst ? " · " + (inst.short || inst.name) : "");
-}
-function shapeCss(n){
-  const sh = nodeShape(n), col = nodeClass(n).c;
-  const radius = sh === "circle" ? "50%" : (sh === "rsquare" ? "3px" : "1px");
-  return `border-radius:${radius};border-color:${col}`
-       + (sh === "diamond" ? ";transform:rotate(45deg)" : "");
-}
-function rowHtml(n){
-  const sub = n.kind === "inst" ? sectorName(n.sector) + " · " + tierName(n.tier) : primaryRole(n);
-  return `<div class="ms-row" data-go="${esc(n.id)}"><span class="sh" style="${shapeCss(n)}"></span>`
-       + `<span class="tx"><b>${esc(n.kind === "inst" ? (n.short || n.name) : n.name)}</b>`
-       + `<span>${esc(sub)}</span></span><span class="ch">›</span></div>`;
-}
-const topPeople = () => nodes.filter(n => n.kind === "person").sort((a,b) => b.power - a.power);
-const topInsts  = () => nodes.filter(n => n.kind === "inst").sort((a,b) => b.power - a.power);
-
-/* ---------- saved entities (§30) — per-browser, like the personal layer ---------- */
-const Saved = (() => {
-  const K = "pm_saved_v1";
-  let ids = [];
-  try { ids = JSON.parse(localStorage.getItem(K)) || []; } catch(e){ ids = []; }
-  const put = () => { try { localStorage.setItem(K, JSON.stringify(ids)); } catch(e){} };
-  return {
-    has: id => ids.indexOf(id) >= 0,
-    toggle(id){ const i = ids.indexOf(id); if(i < 0) ids.push(id); else ids.splice(i,1); put(); return i < 0; },
-    list(){ return ids.map(id => byId[id]).filter(Boolean); },
-  };
-})();
-
-/* ---------- bottom sheet: peek / half / full (§10) ---------- */
-const SHEET_CLS = ["st-peek","st-half","st-full"];
-let sheetState = 1;
-function setSheet(i){
-  sheetState = Math.max(0, Math.min(2, i));
-  SHEET_CLS.forEach(c => detail.classList.remove(c));
-  detail.classList.add(SHEET_CLS[sheetState]);
-}
-function closeSheet(){
-  S.selected = null; S.selectedEdge = null;
-  detail.style.height = "";
-  closeDetail();
-}
-(function wireSheetDrag(){
-  const grab = document.getElementById("dgrab");
-  if(!grab) return;
-  let y0 = 0, h0 = 0, dy = 0, dragging = false;
-  grab.addEventListener("touchstart", ev => {
-    dragging = true; dy = 0;
-    y0 = ev.touches[0].clientY;
-    h0 = detail.getBoundingClientRect().height;
-    detail.classList.add("dragging");
-  }, {passive:true});
-  grab.addEventListener("touchmove", ev => {
-    if(!dragging) return;
-    dy = ev.touches[0].clientY - y0;
-    detail.style.height = Math.max(70, h0 - dy) + "px";
-  }, {passive:true});
-  grab.addEventListener("touchend", () => {
-    if(!dragging) return;
-    dragging = false;
-    detail.classList.remove("dragging");
-    const h = detail.getBoundingClientRect().height;
-    detail.style.height = "";
-    if(dy > 70 && sheetState === 0){ closeSheet(); return; }   // swipe down from peek dismisses
-    const targets = [150, window.innerHeight * 0.56, window.innerHeight - 44];
-    let bi = 0, bd = 1e9;
-    targets.forEach((tv, i) => { const d = Math.abs(tv - h); if(d < bd){ bd = d; bi = i; } });
-    setSheet(bi);
-  });
-  grab.addEventListener("click", () => setSheet(sheetState >= 2 ? 1 : sheetState + 1));
-})();
-
-/* mobile additions to the shared profile panel: Save + sheet state */
-function mobAfterSelect(n){
-  const arm = document.getElementById("p-arm");
-  if(arm){
-    const b = document.createElement("div");
-    b.className = "pathbtn";
-    const paint = () => {
-      const on = Saved.has(n.id);
-      b.textContent = (on ? "★ " : "☆ ") + (on ? t().mSaved2 : t().mSave);
-      b.style.color = on ? "#B7791F" : "";
-      b.style.borderColor = on ? "#B7791F" : "";
-    };
-    paint();
-    b.onclick = () => { Saved.toggle(n.id); paint(); };
-    arm.insertAdjacentElement("afterend", b);
-  }
-  if(sheetState === 0) setSheet(1);
-  else setSheet(sheetState);
-  // §9 step 1: the focused node must stay visible above the sheet
-  const sy = toScreen(n.x, n.y)[1];
-  if(sy > H * 0.42){ S.cam.y += (sy - H * 0.30) / S.cam.k; reheat(0.15); }
-}
-
-/* ---------- Explore (§5) ---------- */
-function renderExplore(){
-  const reg = regionLabel(), el = document.getElementById("m-explore");
-  let h = `<div class="ms-h1">${esc(reg)}</div>`
-        + `<div class="ms-sub">${topPeople().length} ${esc(t().mPeopleN)} · `
-        + `${topInsts().length} ${esc(t().mInstsN)}</div>`
-        + `<div class="ms-ask" id="mx-ask"><span>⌕</span><span>${esc(t().mAskPh.replace("{r}", reg))}</span></div>`
-        + `<div class="ms-egs">` + askExamples().map(q =>
-            `<div class="ms-eg" data-ask="${esc(q)}">${esc(q)}</div>`).join("") + `</div>`;
-
-  h += `<div class="ms-hd"><span class="t">${esc(t().mKeyPeople)}</span>`
-     + `<span class="more" data-see="people">${esc(t().mSeeAll)} ›</span></div>`
-     + `<div class="ms-rail">` + topPeople().slice(0, 10).map(p =>
-         `<div class="ms-card" data-go="${esc(p.id)}"><b>${esc(p.name)}</b>`
-       + `<div class="r">${esc(primaryRole(p))}</div>`
-       + `<div class="m">${esc(t().power)} ${p.power}`
-       + (p.news.length ? ` · 📰 ${p.news.length}` : "") + `</div></div>`).join("") + `</div>`;
-
-  h += `<div class="ms-hd"><span class="t">${esc(t().mKeyInsts)}</span>`
-     + `<span class="more" data-see="insts">${esc(t().mSeeAll)} ›</span></div>`
-     + topInsts().slice(0, 6).map(rowHtml).join("");
-
-  h += `<div class="ms-hd"><span class="t">${esc(t().mBySector)}</span></div>`
-     + sectorKeys.filter(k => nodes.some(n => n.sector === k)).map(k => {
-         const np = nodes.filter(n => n.sector === k && n.kind === "person").length;
-         const ni = nodes.filter(n => n.sector === k && n.kind === "inst").length;
-         return `<div class="ms-row" data-sector="${esc(k)}"><span class="tx"><b>${esc(sectorName(k))}</b>`
-              + `<span>${np} ${esc(t().mPeopleN)} · ${ni} ${esc(t().mInstsN)}</span></span>`
-              + `<span class="ch">›</span></div>`;
-       }).join("");
-
-  h += `<div class="ms-cta" id="mx-cta">${esc(t().mExploreNet)} →</div>`;
-  el.innerHTML = h;
-  wireScreen(el);
-  const ask = document.getElementById("mx-ask");
-  if(ask) ask.onclick = () => mobileGo("search", true);
-  const cta = document.getElementById("mx-cta");
-  if(cta) cta.onclick = () => mobileGo("network");
-  el.querySelectorAll("[data-see]").forEach(b =>
-    b.onclick = () => renderList(b.getAttribute("data-see")));
-}
-function backRow(){
-  return `<div class="ms-row" id="mx-back" style="border-bottom:0;color:var(--accent)">`
-       + `<span class="ch" style="color:var(--accent)">‹</span>`
-       + `<span class="tx"><b style="color:var(--accent);font-weight:500">${esc(t().mBack)}</b></span></div>`;
-}
-function wireBack(el){
-  const b = el.querySelector("#mx-back");
-  if(b) b.onclick = renderExplore;
-}
-function renderList(which){
-  const el = document.getElementById("m-explore");
-  const list = which === "people" ? topPeople() : topInsts();
-  el.innerHTML = backRow()
-    + `<div class="ms-h1" style="font-size:23px">${esc(which === "people" ? t().mKeyPeople : t().mKeyInsts)}</div>`
-    + `<div class="ms-sub">${list.length} ${esc(which === "people" ? t().mPeopleN : t().mInstsN)}</div>`
-    + list.slice(0, 300).map(rowHtml).join("");
-  el.scrollTop = 0;
-  wireScreen(el); wireBack(el);
-}
-/* ---------- sector exploration (§15) ---------- */
-function renderSector(k){
-  const el = document.getElementById("m-explore");
-  const insts = nodes.filter(n => n.sector === k && n.kind === "inst").sort((a,b) => b.power - a.power);
-  const people = nodes.filter(n => n.sector === k && n.kind === "person").sort((a,b) => b.power - a.power);
-  el.innerHTML = backRow()
-    + `<div class="ms-h1" style="font-size:25px">${esc(sectorName(k))}</div>`
-    + `<div class="ms-sub">${insts.length} ${esc(t().mInstsN)} · ${people.length} ${esc(t().mPeopleN)}</div>`
-    + (insts.length ? `<div class="ms-hd"><span class="t">${esc(t().mKeyInsts)}</span></div>`
-        + insts.slice(0, 12).map(rowHtml).join("") : "")
-    + (people.length ? `<div class="ms-hd"><span class="t">${esc(t().mKeyPeople)}</span></div>`
-        + people.slice(0, 12).map(rowHtml).join("") : "")
-    + `<div class="ms-cta" id="mx-sec">${esc(t().mViewNet)} →</div>`;
-  el.scrollTop = 0;
-  wireScreen(el); wireBack(el);
-  const go = document.getElementById("mx-sec");
-  if(go) go.onclick = () => {
-    S.askSet = new Set(nodes.filter(n => n.sector === k));
-    S.path = null;
-    mobileGo("network");
-    fitView(); reheat(0.5);
-    toast(sectorName(k) + " · " + S.askSet.size);
-  };
-}
-
-/* ---------- Search / Ask (§6, §28) ---------- */
-function askExamples(){
-  const inst = topInsts()[0], pp = topPeople();
-  if(LANG === "zh")
-    return [inst ? `谁在 ${inst.short}` : null, pp[1] ? `到达 ${pp[1].name}` : null,
-            `${sectorName("energy")} 行业`].filter(Boolean);
-  return [inst ? `who at ${inst.short}` : null, pp[1] ? `reach ${pp[1].name}` : null,
-          `${sectorName("energy")} sector`].filter(Boolean);
-}
-function renderSearch(focus){
-  const el = document.getElementById("m-search");
-  if(!el.dataset.built){
-    el.innerHTML = `<input class="ms-askin" id="mq" autocomplete="off" enterkeyhint="search">`
-                 + `<div id="mq-out"></div>`;
-    el.dataset.built = "1";
-    const q = document.getElementById("mq");
-    q.addEventListener("input", () => mqLive(q.value));
-    q.addEventListener("keydown", ev => {
-      if(ev.key === "Enter"){ q.blur(); mqAnswer(q.value); }
-    });
-  }
-  const q = document.getElementById("mq");
-  q.placeholder = t().mAskPh.replace("{r}", regionLabel());
-  if(!q.value) mqLive("");
-  if(focus) setTimeout(() => q.focus(), 60);
-}
-function mqLive(v){
-  const out = document.getElementById("mq-out");
-  const s = (v || "").trim().toLowerCase();
-  if(s.length < 2){
-    out.innerHTML = `<div class="ms-egs">` + askExamples().map(x =>
-      `<div class="ms-eg" data-ask="${esc(x)}">${esc(x)}</div>`).join("") + `</div>`;
-    wireScreen(out);
-    return;
-  }
-  const hits = nodes.filter(n => n.name.toLowerCase().includes(s)
-                    || (n.short && n.short.toLowerCase().includes(s))
-                    || (AKAS[n.id] && AKAS[n.id].some(x => x.toLowerCase().includes(s))))
-                    .sort((a,b) => b.power - a.power);
-  const ppl = hits.filter(n => n.kind === "person").slice(0, 12);
-  const ins = hits.filter(n => n.kind === "inst").slice(0, 12);
-  if(!ppl.length && !ins.length){
-    out.innerHTML = `<div class="ms-empty">${esc(t().mNoResults)}</div>`;
-    return;
-  }
-  out.innerHTML =
-      (ppl.length ? `<div class="ms-hd"><span class="t">${esc(t().mPeopleN)}</span></div>`
-        + ppl.map(rowHtml).join("") : "")
-    + (ins.length ? `<div class="ms-hd"><span class="t">${esc(t().mInstsN)}</span></div>`
-        + ins.map(rowHtml).join("") : "");
-  wireScreen(out);
-}
-/* §28 — an answer is structured NAVGCC data, not a paragraph */
-function mqAnswer(v){
-  const out = document.getElementById("mq-out");
-  const q = (v || "").trim();
-  if(!q) return;
-  const a = parseAsk(q);
-  let h = "", srcs = 0, onGo = null;
-
-  if(a.kind === "who"){
-    h = `<div class="ms-h1" style="font-size:23px">${esc(a.inst.short || a.inst.name)}</div>`
-      + `<div class="ms-sub">${esc(sectorName(a.inst.sector))} · ${esc(tierName(a.inst.tier))}</div>`
-      + (a.inst.note ? `<div class="ms-empty" style="padding:2px 0 8px;color:var(--ink-dim)">${esc(a.inst.note)}</div>` : "")
-      + `<div class="ms-hd"><span class="t">${esc(t().mKeyPeople)} (${a.people.length})</span></div>`
-      + a.people.slice(0, 12).map(rowHtml).join("");
-    srcs = a.inst.news.length;
-    onGo = () => { S.askSet = new Set([a.inst].concat(a.people)); openNode(a.inst); };
-  } else if(a.kind === "sector"){
-    const ins = nodes.filter(n => n.sector === a.sector && n.kind === "inst").sort((x,y) => y.power - x.power);
-    const ppl = nodes.filter(n => n.sector === a.sector && n.kind === "person").sort((x,y) => y.power - x.power);
-    h = `<div class="ms-h1" style="font-size:23px">${esc(sectorName(a.sector))}</div>`
-      + `<div class="ms-sub">${ins.length} ${esc(t().mInstsN)} · ${ppl.length} ${esc(t().mPeopleN)}</div>`
-      + (ins.length ? `<div class="ms-hd"><span class="t">${esc(t().mKeyInsts)}</span></div>`
-          + ins.slice(0, 8).map(rowHtml).join("") : "")
-      + (ppl.length ? `<div class="ms-hd"><span class="t">${esc(t().mKeyPeople)}</span></div>`
-          + ppl.slice(0, 8).map(rowHtml).join("") : "");
-    onGo = () => { S.askSet = new Set(ins.concat(ppl)); mobileGo("network"); fitView(); reheat(0.5); };
-  } else if(a.kind === "path"){
-    if(!a.path){ out.innerHTML = `<div class="ms-empty">${esc(t().pathNone)}</div>`; return; }
-    h = `<div class="ms-h1" style="font-size:23px">${esc(t().pathTitle)}</div>`
-      + `<div class="ms-sub">${a.path.nodes.length - 1} ${esc(t().accHops)}</div>`
-      + a.path.nodes.map(rowHtml).join("");
-    onGo = () => { a.path.t0 = performance.now(); S.path = a.path; S.selected = null;
-                   mobileGo("network"); centerOn(a.path.nodes[0]); };
-  } else if(a.kind === "entity"){
-    const n = a.node;
-    const conns = n.adj.filter(x => x.e.kind !== "pot").sort((x,y) => y.n.power - x.n.power)
-                       .map(x => x.n).filter((x,i,arr) => arr.indexOf(x) === i);
-    h = `<div class="ms-h1" style="font-size:23px">${esc(n.name)}</div>`
-      + `<div class="ms-sub">${esc(n.kind === "person" ? primaryRole(n) : sectorName(n.sector))}</div>`
-      + (n.note ? `<div class="ms-empty" style="padding:2px 0 8px;color:var(--ink-dim)">${esc(n.note)}</div>` : "")
-      + `<div class="ms-hd"><span class="t">${esc(t().network)} (${conns.length})</span></div>`
-      + conns.slice(0, 10).map(rowHtml).join("");
-    srcs = n.news.length;
-    onGo = () => openNode(n);
-  } else {
-    out.innerHTML = `<div class="ms-empty">${esc(t().mNoResults)}</div>`;
-    return;
-  }
-
-  h += `<div class="ms-cta" id="mq-go">${esc(t().mViewNet)} →</div>`;
-  if(srcs) h += `<div class="ms-trust">✓ ${esc(t().mSources.replace("{n}", srcs))}</div>`;
-  out.innerHTML = h;
-  wireScreen(out);
-  const go = document.getElementById("mq-go");
-  if(go && onGo) go.onclick = onGo;
-}
-
-/* ---------- Saved (§30) ---------- */
-function renderSaved(){
-  const el = document.getElementById("m-saved");
-  const list = Saved.list();
-  el.innerHTML = `<div class="ms-h1" style="font-size:25px">${esc(t().mSaved)}</div>`
-    + (list.length
-        ? `<div class="ms-sub">${list.length}</div>` + list.map(rowHtml).join("")
-        : `<div class="ms-empty">${esc(t().mSavedEmpty)}</div>`);
-  wireScreen(el);
-}
-
-/* ---------- shared row wiring ---------- */
-function openNode(n){
-  mobileGo("network");
-  select(n);
-  centerOn(n);
-  reheat(0.3);
-}
-function wireScreen(root){
-  root.querySelectorAll("[data-go]").forEach(el => el.onclick = () => {
-    const n = byId[el.getAttribute("data-go")];
-    if(n) openNode(n);
-  });
-  root.querySelectorAll("[data-sector]").forEach(el =>
-    el.onclick = () => renderSector(el.getAttribute("data-sector")));
-  root.querySelectorAll("[data-ask]").forEach(el => el.onclick = () => {
-    const q = el.getAttribute("data-ask");
-    mobileGo("search");
-    const inp = document.getElementById("mq");
-    if(inp){ inp.value = q; mqAnswer(q); }
-  });
-}
-
-/* ---------- first-visit hint (§37) ---------- */
-function showHint(){
-  try { if(localStorage.getItem("pm_hint_v1")) return; } catch(e){}
-  const el = document.getElementById("mhint");
-  el.textContent = t().mHint;
-  el.classList.add("on");
-  setTimeout(() => el.classList.add("out"), 4200);
-  setTimeout(() => el.classList.remove("on", "out"), 4800);
-  try { localStorage.setItem("pm_hint_v1", "1"); } catch(e){}
-}
-
-/* ---------- mode switching ---------- */
-let mScreen = null;
-function mobileGo(s, focusSearch){
-  mScreen = s;
-  const isNet = s === "network";
-  document.getElementById("mscreens").classList.toggle("on", !isNet);
-  document.getElementById("mtools").classList.toggle("on", isNet);
-  document.getElementById("mt-count").style.visibility = isNet ? "" : "hidden";
-  ["explore","search","saved"].forEach(k =>
-    document.getElementById("m-" + k).classList.toggle("on", k === s));
-  document.querySelectorAll("#mnav .mn").forEach(el =>
-    el.classList.toggle("on", el.dataset.s === s));
-  if(!isNet){
-    closeSheet();
-    document.getElementById("filters").classList.remove("open");
-    document.getElementById("mypanel").classList.remove("open");
-  }
-  if(s === "explore") renderExplore();
-  else if(s === "search") renderSearch(focusSearch);
-  else if(s === "saved") renderSaved();
-  else showHint();
-}
-document.querySelectorAll("#mnav .mn").forEach(el =>
-  el.onclick = () => mobileGo(el.dataset.s, el.dataset.s === "search"));
-document.getElementById("mt-search").onclick = () => mobileGo("search", true);
-document.getElementById("mt-filter").onclick = () =>
-  document.getElementById("filters").classList.toggle("open");
-
 /* ---------- stats ---------- */
 function updateStats(){
   const vp = nodes.filter(n => nodeVisible(n) && n.kind==="person").length;
   const vi = nodes.filter(n => nodeVisible(n) && n.kind==="inst").length;
   const ve = edges.filter(edgeVisible).length;
-  if(MOB) document.getElementById("mt-count").textContent =
-    t().mNodesShown.replace("{n}", vp + vi);
   document.getElementById("stats").textContent =
     `${vp} ${t().stPeople} · ${vi} ${t().stInsts} · ${ve} ${t().stLinks}`
     + (NEWS.length ? ` · ${NEWS.length} ${t().stSignals}` : "")
@@ -2747,19 +2086,14 @@ document.getElementById("h-skip").onclick = dismissHome;
 document.getElementById("h-ask").addEventListener("keydown", ev => {
   if(ev.key === "Enter"){ dismissHome(); askIn.value = ev.target.value; runAsk(ev.target.value); }
 });
-if(MOB) dismissHome();          // mobile: the entry point is Explore, not this overlay
+if(window.innerWidth < 761) dismissHome();   // mobile: straight to the network, Ask stays on top
 
 /* ---------- warm-up ---------- */
 for(let i=0;i<400;i++) step();
 S.alpha = 0.3;
 fitView();
 applyLang();
-/* mobile entry point is Explore, not the graph (§3) — the network is one mode */
-if(MOB) mobileGo("explore");
-window.addEventListener("resize", () => {
-  invalidateMobCore();
-  if(MOB && !mScreen) mobileGo("explore");
-});
+if(S.lite && !S.liteOff) toast(t().showingTop, 3500);
 loop();
 
 window.__map = {S, nodes, edges, draw, resize, fitView, select, step, setView, runAsk, computePath, byId};
