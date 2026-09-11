@@ -79,7 +79,7 @@ const INSTITUTIONS = [
   {id:"lst_2030", n:"Saudi Arabia Refineries Co.", s:"energy", t:2, p:50, short:"2030"},
   {id:"lst_2380", n:"Rabigh Refining and Petrochemical Co. (Petro Rabigh)", s:"energy", t:2, p:50, short:"2380"},
   {id:"lst_4030", n:"National Shipping Co. of Saudi Arabia (Bahri)", s:"energy", t:2, p:50, short:"4030"},
-  {id:"lst_2381", n:"Arabian Drilling Co.", s:"energy", t:2, p:50, short:"Arabian Drilling Co."},
+  {id:"lst_2381", n:"Arabian Drilling Co.", s:"energy", t:2, p:60, short:"Arabian Drilling"},
   {id:"lst_2382", n:"ADES Holding Co.", s:"energy", t:2, p:50, short:"ADES Holding Co."},
   {id:"lst_1201", n:"Takween Advanced Industries Co.", s:"materials", t:2, p:50, short:"1201"},
   {id:"lst_1202", n:"Middle East Paper Co. (Mepco)", s:"materials", t:2, p:50, short:"1202"},
@@ -1201,6 +1201,96 @@ const PEOPLE = [
     ["lst_2290","Company President","executive","v"]]},
   {id:"mohammed_qandeel", n:"Mohammed Qandeel", t:2, p:58, s:"materials", roles:[
     ["lst_2290","Chief Financial Officer & Board Secretary","executive","v"]]},
+  {id:"eng_khalid_abdullah", n:"Eng. Khalid Abdullah Al-Zamil", t:2, p:62, s:"materials", roles:[
+    ["lst_2310","Chairman","board","v"]]},
+  {id:"mr_fahad_sulaiman", n:"Mr. Fahad Sulaiman Al-Rajhi", t:2, p:62, s:"materials", roles:[
+    ["lst_2310","Vice Chairman","board","v"]]},
+  {id:"h_e_eng", n:"H.E. Eng. Osama A. Al-Zamil", t:2, p:52, s:"materials", roles:[
+    ["lst_2310","Board Member","board","v"]]},
+  {id:"eng_abdullah_saif", n:"Eng. Abdullah Saif Al-Saadoon", t:2, p:52, s:"materials", roles:[
+    ["lst_2310","Board Member","board","v"]]},
+  {id:"eng_abdullah_khalifa", n:"Eng. Abdullah Khalifa Al-Buainain", t:2, p:52, s:"materials", roles:[
+    ["lst_2310","Board Member","board","v"]]},
+  {id:"mr_ahmed_ali", n:"Mr. Ahmed Ali Al-Dakheel", t:2, p:52, s:"materials", roles:[
+    ["lst_2310","Board Member","board","v"]]},
+  {id:"eng_ahmed_a", n:"Eng. Ahmed A. Al-Saadi", t:2, p:52, s:"materials", roles:[
+    ["lst_2310","Board Member","board","v"]]},
+  {id:"mr_feras_mazen", n:"Mr. Feras Mazen Al-Abad", t:2, p:52, s:"materials", roles:[
+    ["lst_2310","Board Member","board","v"]]},
+  {id:"eng_riyadh_salem", n:"Eng. Riyadh Salem Idris", t:2, p:52, s:"materials", roles:[
+    ["lst_2310","Board Member","board","v"]]},
+  {id:"eng_saeed_o", n:"Eng. Saeed O. Al-Esayi", t:2, p:52, s:"materials", roles:[
+    ["lst_2310","Board Member","board","v"]]},
+  {id:"mr_saeed_a", n:"Mr. Saeed A. Basamh", t:2, p:52, s:"materials", roles:[
+    ["lst_2310","Board Member","board","v"]]},
+  {id:"eng_ibrahim_abdulaziz", n:"Eng. Ibrahim Abdulaziz Al-Rushoud", t:2, p:60, s:"materials", roles:[
+    ["lst_2310","Chief Executive Officer","executive","v"]]},
+  {id:"mr_abdulaziz_al", n:"Mr. Abdulaziz Al-Thukair", t:2, p:58, s:"materials", roles:[
+    ["lst_2310","Vice President – Finance","executive","v"]]},
+  {id:"eng_saad_abdullah", n:"Eng. Saad Abdullah Al-Olayan", t:2, p:58, s:"materials", roles:[
+    ["lst_2310","Vice President – Manufacturing","executive","v"]]},
+  {id:"eng_abdulrahman_ali", n:"Eng. Abdulrahman Ali Al-Thunian", t:2, p:58, s:"materials", roles:[
+    ["lst_2310","Vice President – Business Development & Projects","executive","v"]]},
+  {id:"mr_fahad_mansour", n:"Mr. Fahad Mansour Al-Ohaly", t:2, p:58, s:"materials", roles:[
+    ["lst_2310","Vice President – Communication & Corporate Governance","executive","v"]]},
+  {id:"eng_matar_atshan", n:"Eng. Matar Atshan Al-Dhefiri", t:2, p:58, s:"materials", roles:[
+    ["lst_2310","Vice President – Commercial","executive","v"]]},
+  {id:"eng_omar_salem", n:"Eng. Omar Salem Bahobail", t:2, p:58, s:"materials", roles:[
+    ["lst_2310","Vice President – Shared Services","executive","v"]]},
+  {id:"eng_abdullah_mohammed_b", n:"Eng. Abdullah Mohammed Al-Garni", t:2, p:62, s:"materials", roles:[
+    ["lst_2350","Chairman","board","v"]]},
+  {id:"mr_fahad_hamoud", n:"Mr. Fahad Hamoud Al-Swailem", t:2, p:62, s:"materials", roles:[
+    ["lst_2350","Vice Chairman","board","v"]]},
+  {id:"eng_majed_abdullah", n:"Eng. Majed Abdullah Nouraddin", t:2, p:52, s:"materials", roles:[
+    ["lst_2350","Board Member","board","v"]]},
+  {id:"eng_khalid_ali", n:"Eng. Khalid Ali Al-Alyani", t:2, p:52, s:"materials", roles:[
+    ["lst_2350","Board Member","board","v"]]},
+  {id:"dr_ahmed_sirag", n:"Dr. Ahmed Sirag Khogeer", t:2, p:52, s:"materials", roles:[
+    ["lst_2350","Board Member","board","v"]]},
+  {id:"eng_osama_abdullatiff", n:"Eng. Osama Abdullatiff Bashaikh", t:2, p:52, s:"materials", roles:[
+    ["lst_2350","Board Member","board","v"]]},
+  {id:"eng_ahad_abdulaziz", n:"Eng. Ahad Abdulaziz Awaidha", t:2, p:52, s:"materials", roles:[
+    ["lst_2350","Board Member","board","v"]]},
+  {id:"eng_sameeh_suliman", n:"Eng. Sameeh Suliman Al-Sahafi", t:2, p:58, s:"materials", roles:[
+    ["lst_2350","President","executive","v"]]},
+  {id:"mr_abdullah_mohammed", n:"Mr. Abdullah Mohammed Al-Shehri", t:2, p:58, s:"materials", roles:[
+    ["lst_2350","Chief Financial Officer – General Manager Finance & Planning","executive","v"]]},
+  {id:"eng_mohammed_fuhaid", n:"Eng. Mohammed Fuhaid Al-Hajri", t:2, p:46, s:"materials", roles:[
+    ["lst_2350","General Manager – Chemicals Operations","executive","v"]]},
+  {id:"eng_abdulrahman_yahya", n:"Eng. Abdulrahman Yahya Hakami", t:2, p:46, s:"materials", roles:[
+    ["lst_2350","General Manager – Technical Support","executive","v"]]},
+  {id:"eng_mohammed_hussain", n:"Eng. Mohammed Hussain Abu Hawi", t:2, p:46, s:"materials", roles:[
+    ["lst_2350","General Manager – Polymer Operations","executive","v"]]},
+  {id:"eng_ali_matar", n:"Eng. Ali Matar Al-Logmani", t:2, p:46, s:"materials", roles:[
+    ["lst_2350","General Manager – Polycarbonate & EOD Operations","executive","v"]]},
+  {id:"eng_khamis_saeed", n:"Eng. Khamis Saeed Al-Dossary", t:2, p:46, s:"materials", roles:[
+    ["lst_2350","General Manager – Maintenance","executive","v"]]},
+  {id:"dr_muhammad_bin", n:"Dr. Muhammad bin Nasser bin Abdullah Aldawood", t:2, p:62, s:"energy", roles:[
+    ["lst_2381","Chairman","board","v"]]},
+  {id:"jesus_lamas", n:"Jesus Lamas", t:2, p:62, s:"energy", roles:[
+    ["lst_2381","Vice Chairman","board","v"]]},
+  {id:"adel_al_ghadhban", n:"Adel Al Ghadhban", t:2, p:52, s:"energy", roles:[
+    ["lst_2381","Board Member","board","v"]]},
+  {id:"adnan_ghabris", n:"Adnan Ghabris", t:2, p:52, s:"energy", roles:[
+    ["lst_2381","Board Member","board","v"]]},
+  {id:"alaa_dashash", n:"Alaa Dashash", t:2, p:52, s:"energy", roles:[
+    ["lst_2381","Board Member","board","v"]]},
+  {id:"dr_ghazi_alrawi", n:"Dr. Ghazi AlRawi", t:2, p:52, s:"energy", roles:[
+    ["lst_2381","Board Member","board","v"]]},
+  {id:"omar_alhusaini", n:"Omar AlHusaini", t:2, p:52, s:"energy", roles:[
+    ["lst_2381","Board Member","board","v"]]},
+  {id:"tarek_rizk", n:"Tarek Rizk", t:2, p:52, s:"energy", roles:[
+    ["lst_2381","Board Member","board","v"]]},
+  {id:"ugo_prechner", n:"Ugo Prechner", t:2, p:52, s:"energy", roles:[
+    ["lst_2381","Board Member","board","v"]]},
+  {id:"fahad_a_al", n:"Fahad A. Al-Bani", t:2, p:60, s:"energy", roles:[
+    ["lst_2381","Chief Executive Officer","executive","v"]]},
+  {id:"farid_mustafayev", n:"Farid Mustafayev", t:2, p:58, s:"energy", roles:[
+    ["lst_2381","Chief Financial Officer","executive","v"]]},
+  {id:"sara_ali", n:"Sara Ali", t:2, p:58, s:"energy", roles:[
+    ["lst_2381","Chief HR & Digital Transformation Officer","executive","v"]]},
+  {id:"zaurayze_tarique", n:"Zaurayze Tarique", t:2, p:58, s:"energy", roles:[
+    ["lst_2381","Chief Commercial Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

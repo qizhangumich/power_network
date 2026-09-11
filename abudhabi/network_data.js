@@ -331,7 +331,7 @@ const PEOPLE = [
   {id:"faisal_bannai", n:"Faisal Al Bannai", t:1, p:88, s:"tech", roles:[
     ["prescourt","Adviser for Strategic Research & Advanced Technology Affairs","political","v"],
     ["atrc","Secretary-General","government","v"],
-    ["edge_grp","Chairman","board","ns"],
+    ["edge_grp","Chairman","board","v"],
     ], note:"Architect of the UAE's sovereign tech & Falcon AI model push; founded EDGE."},
   {id:"peng_xiao", n:"Peng Xiao", t:1, p:88, s:"tech", roles:[
     ["g42","Group CEO","executive","v"],
@@ -411,7 +411,7 @@ const PEOPLE = [
     ["tawazun","Secretary-General","government","v"],
     ]},
   {id:"ghannam", n:"Ghannam Butti Al Mazrouei", t:1, p:74, s:"finance", roles:[
-    ["adx","Chairman","board","ns"],
+    ["adx","Chairman","board","v"],
     ]},
   {id:"zaki", n:"Zaki Anwar Nusseibeh", t:1, p:72, s:"education", roles:[
     ["prescourt","Cultural Adviser to the President","political","v"],
@@ -479,9 +479,9 @@ const PEOPLE = [
   {id:"fatema", n:"Fatema Al Nuaimi", t:2, p:74, s:"energy", roles:[
     ["adnocgas","CEO","executive","v"],
     ]},
-  {id:"seiari", n:"Abdulrahman Al Seiari", t:2, p:70, s:"energy", roles:[
-    ["adnocdrill","CEO","executive","ns"],
-    ]},
+  {id:"seiari", n:"Abdulrahman Al Seiari", t:2, p:60, s:"energy", roles:[
+    ["adnocdrill","CEO (until Jun 2025)","executive","v","former:until Jun 2025"],
+    ], note:"Former CEO of ADNOC Drilling (succeeded by Abdulla Ateya Al Messabi in Jun 2025); adviser until retirement end-2025."},
   {id:"masabi", n:"Capt. Abdulkareem Al Masabi", t:2, p:70, s:"energy", roles:[
     ["adnocls","Chief Executive Officer","executive","v"],
     ]},
@@ -492,7 +492,7 @@ const PEOPLE = [
     ["borouge","CEO","executive","v"],
     ]},
   {id:"talal_kaissi", n:"Talal Al Kaissi", t:2, p:70, s:"tech", roles:[
-    ["core42","CEO (acting)","executive","ns"],
+    ["core42","Chief Executive Officer (Interim)","executive","v"],
     ]},
   {id:"thomas", n:"Thomas Pramotedham", t:2, p:68, s:"tech", roles:[
     ["presight","CEO","executive","v"],
@@ -547,9 +547,10 @@ const PEOPLE = [
   {id:"binkalban", n:"Abdulnasser bin Kalban", t:2, p:72, s:"materials", roles:[
     ["ega","CEO","executive","v"],
     ]},
-  {id:"ismail_abdulla", n:"Ismail Ali Abdulla", t:2, p:64, s:"industry", roles:[
-    ["strata","CEO","executive","ns"],
-    ]},
+  {id:"ismail_abdulla", n:"Ismail Ali Abdulla", t:2, p:62, s:"industry", roles:[
+    ["strata","CEO (until 2025)","executive","v","former:until 2025"],
+    ["strata","Managing Director","executive","v"],
+    ], note:"Managing Director of Strata Manufacturing (formerly CEO; Sara Al Memari now Acting CEO); Executive Director of UAE Clusters at Mubadala."},
   {id:"zaghloul", n:"Yasser Zaghloul", t:2, p:68, s:"industry", roles:[
     ["nmdc","Group CEO","executive","v"],
     ]},
@@ -586,9 +587,9 @@ const PEOPLE = [
   {id:"nasser_nowais", n:"Nasser Al Nowais", t:2, p:64, s:"conglomerate", roles:[
     ["rotana","Co-founder & Chairman","board","ns"],
     ]},
-  {id:"amr_menhali", n:"Amr Al Menhali", t:2, p:60, s:"finance", roles:[
-    ["waha","CEO","executive","ns"],
-    ]},
+  {id:"amr_menhali", n:"Amr Al Menhali", t:2, p:52, s:"finance", roles:[
+    ["waha","CEO (2019–2020)","executive","v","former:until Oct 2020"],
+    ], note:"Former CEO of Waha Capital (2019–2020); succeeded by Ahmed Khalifa Al Mehairi."},
   {id:"hamad_ameri", n:"Eng. Hamad Al Ameri", t:2, p:60, s:"industry", roles:[
     ["trojan","CEO","executive","ns"],
     ["alphadhabi","Managing Director and Group Chief Executive Officer","executive","v"],
@@ -680,7 +681,7 @@ const PEOPLE = [
     ["ihc","Vice Chairman","board","ns"],
     ]},
   {id:"alwyn_crasta", n:"Alwyn Crasta", t:2, p:66, s:"sovereign", roles:[
-    ["ihc","Group Chief Financial Officer","executive","ns"],
+    ["ihc","Group Chief Financial Officer","executive","v"],
     ]},
   {id:"ali_dalloul", n:"Ali Dalloul", t:2, p:68, s:"tech", roles:[
     ["g42","Group Chief Strategy Officer","executive","v"],
@@ -698,7 +699,7 @@ const PEOPLE = [
     ["fab","Group Chief Financial Officer","executive","v"],
     ]},
   {id:"deepak_khullar", n:"Deepak Khullar", t:2, p:70, s:"finance", roles:[
-    ["adcb","Group Chief Financial Officer","executive","ns"],
+    ["adcb","Group Chief Financial Officer","executive","v"],
     ]},
   {id:"karim_bennis", n:"Karim Bennis", t:2, p:68, s:"comm", roles:[
     ["e_and","Group Chief Financial Officer","executive","v"],
@@ -1551,6 +1552,15 @@ const PEOPLE = [
   {id:"seif_fikry", n:"Seif Fikry", t:2, p:58, s:"sovereign", roles:[
     ["lunate","Managing Partner","executive","v"],
     ]},
+  {id:"abdulla_ateya_messabi", n:"Abdulla Ateya Al Messabi", t:2, p:66, s:"energy", roles:[
+    ["adnocdrill","Chief Executive Officer","executive","v"],
+    ], note:"CEO of ADNOC Drilling since Jun 2025 (succeeded Abdulrahman Al Seiari)."},
+  {id:"ahmed_khalifa_mehairi", n:"Ahmed Khalifa Al Mehairi", t:2, p:62, s:"finance", roles:[
+    ["waha","Chief Executive Officer","executive","v"],
+    ], note:"CEO of Waha Capital since Oct 2020 (succeeded Amr Al Menhali)."},
+  {id:"sara_al_memari", n:"Sara Al Memari", t:2, p:58, s:"industry", roles:[
+    ["strata","Acting Chief Executive Officer","executive","v"],
+    ], note:"Acting CEO of Strata Manufacturing (Mubadala)."},
 ];
 
 const OWNERSHIP = [

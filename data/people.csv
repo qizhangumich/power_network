@@ -59,7 +59,7 @@ hammadi_enec,Mohamed Ibrahim Al Hammadi,2,79,utilities,
 musabbeh,Musabbeh Al Kaabi,2,78,energy,
 abdulmunim,Abdulmunim Saif Al Kindy,2,70,energy,
 fatema,Fatema Al Nuaimi,2,74,energy,
-seiari,Abdulrahman Al Seiari,2,70,energy,
+seiari,Abdulrahman Al Seiari,2,60,energy,Former CEO of ADNOC Drilling (succeeded by Abdulla Ateya Al Messabi in Jun 2025); adviser until retirement end-2025.
 masabi,Capt. Abdulkareem Al Masabi,2,70,energy,
 lamki,Bader Saeed Al Lamki,2,70,energy,
 hazeem,Hazeem Sultan Al Suwaidi,2,70,materials,
@@ -81,7 +81,7 @@ elena,Elena Sorlini,2,70,industry,
 shadi,Shadi Malak,2,72,industry,
 saeed_remeithi,Saeed Ghumran Al Remeithi,2,68,materials,
 binkalban,Abdulnasser bin Kalban,2,72,materials,
-ismail_abdulla,Ismail Ali Abdulla,2,64,industry,
+ismail_abdulla,Ismail Ali Abdulla,2,62,industry,Managing Director of Strata Manufacturing (formerly CEO; Sara Al Memari now Acting CEO); Executive Director of UAE Clusters at Mubadala.
 zaghloul,Yasser Zaghloul,2,68,industry,
 yusuffali,Yusuff Ali M.A.,2,78,consumer_stap,Abu Dhabi-based retail magnate; one of the most influential expatriate business figures in the Gulf.
 miral_zaabi,Mohamed Abdalla Al Zaabi,2,72,consumer_disc,
@@ -94,7 +94,7 @@ mohamed_butti,Sheikh Mohamed bin Butti Al Hamed,2,66,conglomerate,
 obaid_aljaber,Obaid Khaleefa Al Jaber,2,62,conglomerate,
 essam_tamimi,Essam Al Tamimi,3,60,industry,
 nasser_nowais,Nasser Al Nowais,2,64,conglomerate,
-amr_menhali,Amr Al Menhali,2,60,finance,
+amr_menhali,Amr Al Menhali,2,52,finance,Former CEO of Waha Capital (2019–2020); succeeded by Ahmed Khalifa Al Mehairi.
 hamad_ameri,Eng. Hamad Al Ameri,2,60,industry,
 ahmed_elhoshy,Ahmed El-Hoshy,2,64,materials,
 ebrahim_alhajri,Dr. Ebrahim Saeed Al Hajri,2,62,education,President of Khalifa University since July 2024
@@ -413,3 +413,6 @@ justin_sawdon_stewart,Justin Sawdon Stewart Murphy,2,58,energy,
 irfan_tansel,Irfan Tansel,2,60,conglomerate,
 murtaza_hussain,Murtaza Hussain,2,58,sovereign,
 seif_fikry,Seif Fikry,2,58,sovereign,
+abdulla_ateya_messabi,Abdulla Ateya Al Messabi,2,66,energy,CEO of ADNOC Drilling since Jun 2025 (succeeded Abdulrahman Al Seiari).
+ahmed_khalifa_mehairi,Ahmed Khalifa Al Mehairi,2,62,finance,CEO of Waha Capital since Oct 2020 (succeeded Amr Al Menhali).
+sara_al_memari,Sara Al Memari,2,58,industry,Acting CEO of Strata Manufacturing (Mubadala).

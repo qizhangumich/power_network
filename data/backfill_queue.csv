@@ -215,7 +215,6 @@ saudi,srmg,SRMG,comm,64,1,pending
 abudhabi,wio,Wio Bank,finance,62,1,pending
 abudhabi,daman,Daman (National Health Insurance),health,62,1,pending
 abudhabi,itc,Integrated Transport Centre,gov,62,1,pending
-abudhabi,strata,Strata Manufacturing,industry,62,1,pending
 abudhabi,aldahra,Al Dahra Holding,consumer_stap,62,1,pending
 abudhabi,louvre,Louvre Abu Dhabi,consumer_disc,62,0,pending
 abudhabi,alnowais,Al Nowais Investments,conglomerate,62,1,pending
@@ -240,7 +239,6 @@ qatar,udc,United Development Company,realestate,62,0,pending
 qatar,qatarrail,Qatar Rail,industry,62,0,pending
 qatar,alfardan,Alfardan Group,conglomerate,62,1,pending
 saudi,ajlan,Ajlan & Bros,conglomerate,62,1,pending
-saudi,lst_2310,Sahara International Petrochemical Co. (Sipchem),materials,62,0,pending
 abudhabi,calidus,Calidus Holding,industry,60,1,pending
 abudhabi,adnh,Abu Dhabi National Hotels,realestate,60,1,pending
 abudhabi,silal,Silal,consumer_stap,60,1,pending
@@ -264,7 +262,6 @@ qatar,mannaicorp,Mannai Corporation,conglomerate,60,0,pending
 qatar,almana,Al Mana Group,conglomerate,60,0,pending
 qatar,sinopec,Sinopec,energy,60,0,pending
 saudi,alfaisaliah,Al Faisaliah Group,conglomerate,60,0,pending
-saudi,lst_2350,Saudi Kayan Petrochemical Co.,materials,60,0,pending
 abudhabi,flash,Flash Entertainment,comm,58,1,pending
 abudhabi,thenational,The National,comm,58,1,pending
 abudhabi,sorbonne,Sorbonne University Abu Dhabi,education,58,1,pending
@@ -621,7 +618,6 @@ qatar,lst_ihgs,INMA Holding Company Q.P.S.C.,conglomerate,50,0,pending
 qatar,lst_falh,Al Faleh Educational Holding Company Q.P.S.C.,consumer_disc,50,0,pending
 qatar,lst_qois,Qatar Oman Investment Company Q.S.C.,finance,50,0,pending
 saudi,lst_2030,Saudi Arabia Refineries Co.,energy,50,0,pending
-saudi,lst_2381,Arabian Drilling Co.,energy,50,0,pending
 saudi,lst_2382,ADES Holding Co.,energy,50,0,pending
 saudi,lst_1201,Takween Advanced Industries Co.,materials,50,0,pending
 saudi,lst_1202,Middle East Paper Co. (Mepco),materials,50,0,pending
