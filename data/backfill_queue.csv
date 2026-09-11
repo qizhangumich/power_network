@@ -198,6 +198,7 @@ abudhabi,eni,Eni,energy,64,0,pending
 abudhabi,mckinsey,McKinsey & Company,industry,64,0,pending
 bahrain,bic,Bahrain International Circuit (F1),consumer_disc,64,1,pending
 bahrain,bhb,Bahrain Bourse,finance,64,0,pending
+dubai,lst_salik,Salik Company P.J.S.C.,industry,64,0,pending
 kuwait,moinfo_kw,Ministry of Information & Culture,gov,64,1,pending
 kuwait,kwmun,Kuwait Municipality,gov,64,1,pending
 northern,aus,American University of Sharjah,education,64,1,pending
@@ -224,6 +225,7 @@ abudhabi,omv,OMV,energy,62,0,pending
 abudhabi,moelis,Moelis & Company,finance,62,0,pending
 abudhabi,rotana,Rotana Hotels,consumer_disc,62,1,pending
 dubai,alrostamani,AW Rostamani Group,conglomerate,62,0,pending
+dubai,lst_talabat,Talabat Holding plc,consumer_disc,62,0,pending
 kuwait,kufpec,KUFPEC (international E&P),energy,62,1,pending
 kuwait,kuwaitairways,Kuwait Airways,industry,62,0,pending
 northern,gulftainer,Gulftainer,industry,62,1,pending
@@ -238,6 +240,7 @@ qatar,udc,United Development Company,realestate,62,0,pending
 qatar,qatarrail,Qatar Rail,industry,62,0,pending
 qatar,alfardan,Alfardan Group,conglomerate,62,1,pending
 saudi,ajlan,Ajlan & Bros,conglomerate,62,1,pending
+saudi,lst_2310,Sahara International Petrochemical Co. (Sipchem),materials,62,0,pending
 abudhabi,calidus,Calidus Holding,industry,60,1,pending
 abudhabi,adnh,Abu Dhabi National Hotels,realestate,60,1,pending
 abudhabi,silal,Silal,consumer_stap,60,1,pending
@@ -253,6 +256,7 @@ abudhabi,bcg,Boston Consulting Group,industry,60,0,pending
 bahrain,edamah,Edamah (Bahrain Real Estate),realestate,60,1,pending
 bahrain,alzayani,Al Zayani Investments,conglomerate,60,0,pending
 dubai,jumaalmajid,Juma Al Majid Group,conglomerate,60,0,pending
+dubai,lst_parkin,Parkin Company P.J.S.C.,industry,60,0,pending
 kuwait,knet,KNET (payments network),tech,60,0,pending
 northern,thumbay,Thumbay Group,health,60,0,pending
 oman,royalhosp,The Royal Hospital (Muscat),health,60,0,pending
@@ -260,6 +264,7 @@ qatar,mannaicorp,Mannai Corporation,conglomerate,60,0,pending
 qatar,almana,Al Mana Group,conglomerate,60,0,pending
 qatar,sinopec,Sinopec,energy,60,0,pending
 saudi,alfaisaliah,Al Faisaliah Group,conglomerate,60,0,pending
+saudi,lst_2350,Saudi Kayan Petrochemical Co.,materials,60,0,pending
 abudhabi,flash,Flash Entertainment,comm,58,1,pending
 abudhabi,thenational,The National,comm,58,1,pending
 abudhabi,sorbonne,Sorbonne University Abu Dhabi,education,58,1,pending
@@ -353,10 +358,7 @@ abudhabi,lst_ih,Insurance House PJSC,finance,50,0,pending
 abudhabi,lst_methaq,Methaq Takaful Insurance P.S.C.,finance,50,0,pending
 bahrain,lst_kfh,Kuwait Finance House K.S.C.P.,finance,50,0,pending
 bahrain,lst_ugic,United Gulf Investment Corporation B.S.C.,finance,50,0,pending
-dubai,lst_salik,Salik Company P.J.S.C.,industry,50,0,pending
-dubai,lst_talabat,Talabat Holding plc,consumer_disc,50,0,pending
 dubai,lst_airarabia,Air Arabia PJSC,industry,50,0,pending
-dubai,lst_parkin,Parkin Company P.J.S.C.,industry,50,0,pending
 dubai,lst_etihadenergy,Etihad Energy Holding PJSC,industry,50,0,pending
 dubai,lst_gfh,GFH Bank B.S.C.,finance,50,0,pending
 dubai,lst_alansari,Al Ansari Financial Services PJSC,finance,50,0,pending
@@ -585,11 +587,8 @@ oman,lst_ochl,Oman Chlorine SAOG,materials,50,0,pending
 oman,lst_oab,Oman Arab Bank SAOG,finance,50,0,pending
 oman,lst_oric,Oman Reinsurance Company SAOG,finance,50,0,pending
 oman,lst_omif,Oman India Fertiliser Company SAOG,materials,50,0,pending
-qatar,lst_eres,Ezdan Holding Group Q.P.S.C.,realestate,50,0,pending
 qatar,lst_mark,Al Rayan Bank Q.P.S.C.,finance,50,0,pending
 qatar,lst_igrd,Estithmar Holding Q.P.S.C.,conglomerate,50,0,pending
-qatar,lst_dubk,Dukhan Bank Q.P.S.C.,finance,50,0,pending
-qatar,lst_qfls,Qatar Fuel Company Q.P.S.C. (WOQOD),energy,50,0,pending
 qatar,lst_abqk,Ahli Bank Q.P.S.C.,finance,50,0,pending
 qatar,lst_qamc,Qatar Aluminium Manufacturing Company Q.P.S.C.,materials,50,0,pending
 qatar,lst_qati,Qatar Insurance Company Q.S.P.C.,finance,50,0,pending
@@ -641,9 +640,7 @@ saudi,lst_2220,National Metal Manufacturing and Casting Co. (Maadaniyah),materia
 saudi,lst_2240,Zamil Industrial Investment Co.,materials,50,0,pending
 saudi,lst_2250,Saudi Industrial Investment Group,materials,50,0,pending
 saudi,lst_2300,Saudi Paper Manufacturing Co.,materials,50,0,pending
-saudi,lst_2310,Sahara International Petrochemical Co. (Sipchem),materials,50,0,pending
 saudi,lst_2330,Advanced Petrochemical Co.,materials,50,0,pending
-saudi,lst_2350,Saudi Kayan Petrochemical Co.,materials,50,0,pending
 saudi,lst_2360,Saudi Vitrified Clay Pipes Co.,materials,50,0,pending
 saudi,lst_3002,Najran Cement Co.,materials,50,0,pending
 saudi,lst_3003,City Cement Co.,materials,50,0,pending
