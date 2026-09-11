@@ -1,0 +1,5 @@
+# XRG, ADNOC And SEFE sign MoU to explore gas and LNG supply opportunities to Europe
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxNX3RIYkUwSmVVTWxNVGNod3JWSzNfMTYzUEZmNjZ5R0JXckZIazkzZFg4VGRYQUVqLVJIRjdXNzZaVGx0aS1iYno5X0VqM0lxVVBRQXp6TU40T2pWd01ycVhUYkFCM01vRmthd1dqWDNKRThkTy1lbk9FaldUNWF6UTA3SGNTcTItQ1g3NEl1YXNvVkRQR3ZwMW5GVEdyRjJJM2xVX210Tm42Z1pFMkMzNlo3dUg2R00zMzNidU1vV0YtVDZIMTZrc2hPMExyVnZxcVplOXpnbXRUQ2VKZGw1dVBfQ0FZQQ?oc=5
+
+XRG, ADNOC And SEFE sign MoU to explore gas and LNG supply opportunities to Europe    TradingView

@@ -1,0 +1,5 @@
+# Abu Dhabi to Berlin flights to launch on October 1 under Etihad partnership
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNWlhzV2kyNmoyOHlMZG1TSjhMU2F2OEphTmdGemY0dU1XZGw4QnNFSkZpNDBWY3ZxSmlnZERwZ2g5UGI2akN4UW9hMFhrZ2g1Qy1fNjl5di02SWtGYThucWJ3SzM3WFdTMTNSNnBkV2ZWWXNOcVJEbC1KNXdHQVRqNHBldF8tWU5ZeFpuZzhWTW9xT1FQTW1sOFlqOW1lMEhVZVZKUDJFbVlWTkhUOXdvWDRzRk54X041T1B6c0prcUx2XzdxUWJz?oc=5
+
+Abu Dhabi to Berlin flights to launch on October 1 under Etihad partnership    thenationalnews.com

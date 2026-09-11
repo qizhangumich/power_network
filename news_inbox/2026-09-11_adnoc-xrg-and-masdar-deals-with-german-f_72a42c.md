@@ -1,0 +1,5 @@
+# ADNOC, XRG and Masdar deals with German firms could unlock over €5 billion in investment
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQTVYalpLQ3RxcVBweURFZHVuelBVOWpla1V5dGpIM1RNRXJmTl9zaHBJb2NwVnRIazI1dnRBWHgtRnJXWWlMMGJ1blVsN3lPbFpNU1pRczBUUjNhSUx5NFhwa0o1eU0wdXlBYlNjVy1DOGNhTlVvOEs1Szk1OU1iMkpSMU5LTVVqcEt3YS12UW5sVGgyOWE1akl3a09BOXBZQUdqTmJlaTUtaTBUTTZrNGVSX0tuMlUyN0ZLdFM3QUJkVzY1M3RKVnEwencyMWlHdUVSbjJuX1FmVmw4YmZHVUUwTnNqZXdPNG5vZg?oc=5
+
+ADNOC, XRG and Masdar deals with German firms could unlock over €5 billion in investment    TradingView

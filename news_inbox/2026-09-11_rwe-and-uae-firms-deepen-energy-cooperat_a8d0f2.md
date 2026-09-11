@@ -1,0 +1,5 @@
+# RWE and UAE firms deepen energy cooperation through new agreements
+source: 4C Offshore
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQekU3ZmJPd2VVX01LeUJOMHZWSk1EWEVENDlxb3dYbVFsVTBYMEZCelV0NzlPbW42czF1aTN6djQwWUhfQkpnRzQxNHRVZzF5bGZCckN4YjZKdXgycW1HdFFpS1h2SEIzdTVHbzdxNGNjbGhTVXdybVFBeC1YUEM3UmhYb1ZVdlZhNWxyZ2pwbVFTbU1uNWFNTTRBYl9GaW1idnBSSkJoNDIwQVE?oc=5
+
+RWE and UAE firms deepen energy cooperation through new agreements    4C Offshore

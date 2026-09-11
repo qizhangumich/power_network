@@ -1,0 +1,5 @@
+# The Abu Dhabi Investment Authority ups hedge fund stakes
+source: Semafor
+url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNV05vT2dMcE1NM3haRHFpcVJfTXAzd1RHNnVDSjZoTldrZ3ZHSDhtS3paRDc2TGt5QTNaaVdBaVJ2NDFrZTRkSFo5Qm1ZTE9Yc0Vibi1vcUgwTE44blRGaUlmRTYydDVqRGExODU0WU1HdWt6NDJ5bXQ1RTRKcFVZdXRRMzBOV0E4NUxsTFR0REFlV2VucTN4M1JpS3ptVU9B?oc=5
+
+The Abu Dhabi Investment Authority ups hedge fund stakes    Semafor

@@ -1,0 +1,5 @@
+# Masdar, Luxcara explore more than EUR5 billion in joint battery, wind power investments
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxPM0pYV2ptS1Z1R1l1TTJKMDFZSWVnNWZ3Rk41NFNyb2daRE1uVTQ4LUpXc0xjMmZIN3lRbS1rQkoxWDdSMUQzOGNsZ3ZUbWNZWHdfVWNVbU9SRm1OcHhPVy1QLWdhUlowbjFXR1FBWmpqZmNadDc2RTVQOTNMekZKMnVORVJqdXRTNXVZWTZlc3NjZWlybDluV1ZqanBCZFQ0NzVwQzYwS2pJd2dSMlZ2dVh3QzFEeEp5cFMyUDJJYzdRekRfU3hJcE53TTNTcEdBa0pIcQ?oc=5
+
+Masdar, Luxcara explore more than EUR5 billion in joint battery, wind power investments    marketscreener.com

@@ -1,0 +1,5 @@
+# Masdar strikes €8bn in German offshore wind and battery investment pacts
+source: Recharge News
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNaGdFUE5aV2ppeGV4LUZ3SFdRUV9BQmZmRXFrQkRfUVBxZThjLWNDZlNaSGpZRzdqcnpaMFFHN3dwdXExa08tXzlDRHNJNmdZeGJsUl9qT0RSa0hBQzNXVkZfdlZhYjN4ejhPc0oxSDJhcUhfZ0N1R28tVVlLVEdCM0E4MzR2SHF3Z2RvbTJzN2pHbENtdzdvaldZdWlycWtjenU3bjVEcjNhOF9ZMi1ETTFETjJJM2FUakM1V0ozYlFvZV9L?oc=5
+
+Masdar strikes €8bn in German offshore wind and battery investment pacts    Recharge News
