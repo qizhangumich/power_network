@@ -1,12 +1,8 @@
 ﻿region,institution_id,name,sector,power,people_linked,status
 abudhabi,scfea,Supreme Council for Financial & Economic Affairs,gov,95,1,pending
-dubai,icd,Investment Corporation of Dubai,sovereign,95,1,pending
 dubai,execco,Dubai Executive Council,gov,94,1,pending
-saudi,moenergy,Ministry of Energy,energy,90,1,pending
-abudhabi,dof,Department of Finance,gov,88,1,pending
 abudhabi,royalgroup,Royal Group,sovereign,88,1,pending
 saudi,mod_sa,Ministry of Defense,gov,88,1,pending
-qatar,mofin,Ministry of Finance,gov,86,1,pending
 qatar,moi_q,Ministry of Interior,gov,86,1,pending
 qatar,aljazeera,Al Jazeera Media Network,comm,86,1,pending
 saudi,mof_sa,Ministry of Finance,gov,86,1,pending
@@ -14,7 +10,6 @@ saudi,mofa_sa,Ministry of Foreign Affairs,gov,86,1,pending
 saudi,moi_sa,Ministry of Interior,gov,86,1,pending
 abudhabi,added,Department of Economic Development,gov,85,1,pending
 qatar,mod_q,Ministry of Defence,gov,84,1,pending
-saudi,sama,Saudi Central Bank (SAMA),finance,84,1,pending
 abudhabi,dmt,Department of Municipalities & Transport,gov,83,1,pending
 abudhabi,eaa,Executive Affairs Authority,gov,82,1,pending
 abudhabi,doe,Department of Energy,gov,82,1,pending
@@ -198,7 +193,6 @@ abudhabi,eni,Eni,energy,64,0,pending
 abudhabi,mckinsey,McKinsey & Company,industry,64,0,pending
 bahrain,bic,Bahrain International Circuit (F1),consumer_disc,64,1,pending
 bahrain,bhb,Bahrain Bourse,finance,64,0,pending
-dubai,lst_salik,Salik Company P.J.S.C.,industry,64,0,pending
 kuwait,moinfo_kw,Ministry of Information & Culture,gov,64,1,pending
 kuwait,kwmun,Kuwait Municipality,gov,64,1,pending
 northern,aus,American University of Sharjah,education,64,1,pending
@@ -224,7 +218,6 @@ abudhabi,omv,OMV,energy,62,0,pending
 abudhabi,moelis,Moelis & Company,finance,62,0,pending
 abudhabi,rotana,Rotana Hotels,consumer_disc,62,1,pending
 dubai,alrostamani,AW Rostamani Group,conglomerate,62,0,pending
-dubai,lst_talabat,Talabat Holding plc,consumer_disc,62,0,pending
 kuwait,kufpec,KUFPEC (international E&P),energy,62,1,pending
 kuwait,kuwaitairways,Kuwait Airways,industry,62,0,pending
 northern,gulftainer,Gulftainer,industry,62,1,pending
@@ -254,7 +247,6 @@ abudhabi,bcg,Boston Consulting Group,industry,60,0,pending
 bahrain,edamah,Edamah (Bahrain Real Estate),realestate,60,1,pending
 bahrain,alzayani,Al Zayani Investments,conglomerate,60,0,pending
 dubai,jumaalmajid,Juma Al Majid Group,conglomerate,60,0,pending
-dubai,lst_parkin,Parkin Company P.J.S.C.,industry,60,0,pending
 kuwait,knet,KNET (payments network),tech,60,0,pending
 northern,thumbay,Thumbay Group,health,60,0,pending
 oman,royalhosp,The Royal Hospital (Muscat),health,60,0,pending
@@ -299,13 +291,11 @@ abudhabi,lst_purehealth,Pure Health Holding PJSC,health,50,0,pending
 abudhabi,lst_2pointzero,Two Point Zero Group PJSC,tech,50,0,pending
 abudhabi,lst_agility,Agility Global PLC,industry,50,0,pending
 abudhabi,lst_apex,Apex Investment PSC,finance,50,0,pending
-abudhabi,lst_sib,Sharjah Islamic Bank PJSC,finance,50,0,pending
 abudhabi,lst_inb,Invest Bank P.S.C.,finance,50,0,pending
 abudhabi,lst_alefedt,Alef Education Holding plc,consumer_disc,50,0,pending
 abudhabi,lst_oras,Orascom Construction PLC,industry,50,0,pending
 abudhabi,lst_dana,Dana Gas PJSC,energy,50,0,pending
 abudhabi,lst_adaviation,Abu Dhabi Aviation Company,industry,50,0,pending
-abudhabi,lst_bos,Bank of Sharjah PJSC,finance,50,0,pending
 abudhabi,lst_uab,United Arab Bank PJSC,finance,50,0,pending
 abudhabi,lst_emobility,Emirates Mobility Company PJSC,industry,50,0,pending
 abudhabi,lst_icap,Investcorp Capital plc,finance,50,0,pending
@@ -389,7 +379,6 @@ dubai,lst_alfirdous,Al Firdous Holdings P.J.S.C.,consumer_disc,50,0,pending
 dubai,lst_watania,Watania International Holding PJSC,finance,50,0,pending
 dubai,lst_ekttitab,Ekttitab Holding Company K.S.C.,finance,50,0,pending
 dubai,lst_alsalamsudan,Al Salam Bank - Sudan,finance,50,0,pending
-kuwait,lst_abk,Al Ahli Bank of Kuwait,finance,50,0,pending
 kuwait,lst_kib,Kuwait International Bank,finance,50,0,pending
 kuwait,lst_ifa,International Financial Advisors Holding,finance,50,0,pending
 kuwait,lst_ninv,National Investments Co,finance,50,0,pending
@@ -409,7 +398,6 @@ kuwait,lst_ifahr,IFA Hotels and Resorts,consumer_disc,50,0,pending
 kuwait,lst_cgc,Combined Group Contracting KSCP,industry,50,0,pending
 kuwait,lst_oulafuel,Oula Fuel Marketing,consumer_disc,50,0,pending
 kuwait,lst_gfh,GFH Bank B.S.C.,finance,50,0,pending
-kuwait,lst_warbabank,Warba Bank,finance,50,0,pending
 kuwait,lst_stc,Kuwait Telecommunications Company,comm,50,0,pending
 kuwait,lst_integrated,Integrated Holding Co KSC,industry,50,0,pending
 kuwait,lst_beyout,Beyout Holding Company K.P.S.C,finance,50,0,pending
@@ -514,7 +502,6 @@ oman,lst_amat,Al Madina Takaful SAOG,finance,50,0,pending
 oman,lst_aofs,Al Omaniya Financial Services SAOG,finance,50,0,pending
 oman,lst_bwpc,Barka Water and Power Company SAOG,utilities,50,0,pending
 oman,lst_batp,Al Batinah Power Company SAOG,utilities,50,0,pending
-oman,lst_bknz,Bank Nizwa SAOG,finance,50,0,pending
 oman,lst_atmi,Al Jazeera Steel Products Company SAOG,materials,50,0,pending
 oman,lst_didi,Dhofar International Development & Investment SAOG,finance,50,0,pending
 oman,lst_gfic,Global Financial Investments Holding SAOG,finance,50,0,pending

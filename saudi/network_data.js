@@ -1291,6 +1291,34 @@ const PEOPLE = [
     ["lst_2381","Chief HR & Digital Transformation Officer","executive","v"]]},
   {id:"zaurayze_tarique", n:"Zaurayze Tarique", t:2, p:58, s:"energy", roles:[
     ["lst_2381","Chief Commercial Officer","executive","v"]]},
+  {id:"talal_f_al", n:"Talal F. Al-Humoud", t:2, p:58, s:"finance", roles:[
+    ["sama","Vice Governor for Technical Affairs","executive","v"],
+    ["sama","Board Member","board","v"]]},
+  {id:"abdulelah_a_aldeheem", n:"Abdulelah A. Aldeheem", t:2, p:58, s:"finance", roles:[
+    ["sama","Vice Governor for Executive Affairs","executive","v"],
+    ["sama","Board Member","board","v"]]},
+  {id:"nora_al_bakr", n:"Nora Al-Bakr", t:2, p:58, s:"finance", roles:[
+    ["sama","Deputy Governor for Financial Innovation","executive","v"]]},
+  {id:"sheila_atheeb_alrowaily", n:"Sheila Atheeb Alrowaily", t:2, p:52, s:"finance", roles:[
+    ["sama","Board Member","board","v"]]},
+  {id:"abdullah_hassan_alabdulqader", n:"Abdullah Hassan Alabdulqader", t:2, p:52, s:"finance", roles:[
+    ["sama","Board Member","board","v"]]},
+  {id:"rashed_abdulaziz_al", n:"Rashed Abdulaziz Al-Rashed", t:2, p:52, s:"finance", roles:[
+    ["sama","Board Member","board","v"]]},
+  {id:"hamad_saud_al", n:"Hamad Saud Al-Sayyari", t:2, p:52, s:"finance", roles:[
+    ["sama","Board Member","board","v"]]},
+  {id:"khaled_ahmed_aljuffali", n:"Khaled Ahmed Aljuffali", t:2, p:52, s:"finance", roles:[
+    ["sama","Board Member","board","v"]]},
+  {id:"khaled_walid_al", n:"Khaled Walid Al-Dhaher", t:2, p:52, s:"finance", roles:[
+    ["sama","Board Member","board","v"]]},
+  {id:"eng_nasser_bin", n:"Eng. Nasser bin Hadi Al-Qahtani", t:2, p:58, s:"energy", roles:[
+    ["moenergy","Assistant Minister of Energy for Electricity Affairs","executive","ns"]]},
+  {id:"eng_mohammed_bin", n:"Eng. Mohammed bin Abdulrahman Al-Ibrahim", t:2, p:58, s:"energy", roles:[
+    ["moenergy","Assistant Minister of Energy for Oil and Gas Affairs","executive","ns"]]},
+  {id:"eng_ahmed_bin", n:"Eng. Ahmed bin Musa Al-Zahrani", t:2, p:58, s:"energy", roles:[
+    ["moenergy","Assistant Minister for Development and Excellence Affairs","executive","ns"]]},
+  {id:"majed_aloutaibi", n:"Majed Aloutaibi", t:2, p:58, s:"energy", roles:[
+    ["moenergy","Deputy Minister for Oil and Gas","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

@@ -312,6 +312,7 @@ const PEOPLE = [
     ["e_and","Chairman","board","v"],
     ["execcouncil","Member","political","v"],
     ["taqa","Chairman","board","v"],
+    ["adq","Vice Chairman","board","ns"],
     ], note:"Controls the emirate's treasury and chairs the telecom giant."},
   {id:"ahmed_jasim_zaabi", n:"Ahmed Jasim Al Zaabi", t:1, p:90, s:"finance", roles:[
     ["added","Chairman","government","v"],
@@ -352,6 +353,7 @@ const PEOPLE = [
   {id:"mansoori_doh", n:"Mansoor Ibrahim Al Mansoori", t:1, p:85, s:"health", roles:[
     ["doh","Chairman","government","v"],
     ["execcouncil","Member","political","v"],
+    ["e_and","Board Member","board","v"],
     ]},
   {id:"sara_musallam", n:"Sara Awadh Musallam", t:1, p:84, s:"education", roles:[
     ["adek","Chairman","government","v"],
@@ -386,6 +388,7 @@ const PEOPLE = [
   {id:"ahmed_mazrouei", n:"Dr. Ahmed Mubarak Al Mazrouei", t:1, p:78, s:"gov", roles:[
     ["adafsa","Chairman","government","ns"],
     ["execcouncil","Member","political","v"],
+    ["adq","Board Member","board","ns"],
     ]},
   {id:"suhail_mazrouei", n:"Suhail Al Mazrouei", t:1, p:84, s:"energy", roles:[
     ["fedgov","Minister of Energy & Infrastructure","political","v"],
@@ -849,9 +852,11 @@ const PEOPLE = [
   {id:"kamal_ishaq_almaazmi", n:"Kamal Ishaq Almaazmi", t:2, p:52, s:"utilities", roles:[
     ["taqa","Board Member","board","ns"],
     ["adnocgas","Board Member","board","v"],
+    ["dof","Undersecretary","executive","v"],
     ]},
   {id:"buthaina_abdulla_almazrouei", n:"Buthaina Abdulla Almazrouei", t:2, p:52, s:"utilities", roles:[
     ["taqa","Board Member","board","ns"],
+    ["dof","Director General of Government Financial Affairs","executive","v"],
     ]},
   {id:"muna_ali_al", n:"Muna Ali Al Dhaheri", t:2, p:52, s:"utilities", roles:[
     ["taqa","Board Member","board","ns"],
@@ -967,6 +972,7 @@ const PEOPLE = [
     ]},
   {id:"kaj_erik_relander", n:"Kaj-Erik Relander", t:2, p:52, s:"finance", roles:[
     ["adgm","Board Member","board","v"],
+    ["adq","Board Member","board","ns"],
     ]},
   {id:"rashed_abdulkarim_al", n:"Rashed Abdulkarim Al Blooshi", t:2, p:58, s:"finance", roles:[
     ["adgm","CEO, ADGM Registration Authority","executive","v"],
@@ -1479,6 +1485,7 @@ const PEOPLE = [
     ]},
   {id:"hamad_al_hammadi", n:"Hamad Al Hammadi", t:2, p:62, s:"utilities", roles:[
     ["ewec","Chairman","board","v"],
+    ["adq","Deputy Group CEO – Energy & Utilities","executive","ns"],
     ]},
   {id:"h_e_kamal", n:"H.E. Kamal Al Mazmi", t:2, p:62, s:"utilities", roles:[
     ["ewec","Vice Chairman","board","v"],
@@ -1561,6 +1568,186 @@ const PEOPLE = [
   {id:"sara_al_memari", n:"Sara Al Memari", t:2, p:58, s:"industry", roles:[
     ["strata","Acting Chief Executive Officer","executive","v"],
     ], note:"Acting CEO of Strata Manufacturing (Mubadala)."},
+  {id:"sheikh_ahmed_mohd", n:"Sheikh Ahmed Mohd Sultan Al Dhahiri", t:2, p:52, s:"comm", roles:[
+    ["e_and","Board Member","board","v"],
+    ]},
+  {id:"hazem_metwally", n:"Hazem Metwally", t:2, p:60, s:"comm", roles:[
+    ["e_and","Chief Executive Officer – e& Egypt","executive","v"],
+    ]},
+  {id:"hatem_bamatraf", n:"Hatem Bamatraf", t:2, p:60, s:"comm", roles:[
+    ["e_and","President and Chief Executive Officer – PTML","executive","v"],
+    ]},
+  {id:"mohammad_nadeem_khan", n:"Mohammad Nadeem Khan", t:2, p:60, s:"comm", roles:[
+    ["e_and","Chief Executive Officer – PTCL","executive","v"],
+    ]},
+  {id:"nezar_banabeela", n:"Nezar Banabeela", t:2, p:60, s:"comm", roles:[
+    ["e_and","Chief Executive Officer – Mobily","executive","v"],
+    ]},
+  {id:"mohamed_benchaaboun", n:"Mohamed Benchaaboun", t:2, p:62, s:"comm", roles:[
+    ["e_and","Chairman of the Management Board – Maroc Telecom","executive","v"],
+    ]},
+  {id:"balesh_sharma", n:"Balesh Sharma", t:2, p:60, s:"comm", roles:[
+    ["e_and","Chief Executive Officer – e& PPF Telecom Group","executive","v"],
+    ]},
+  {id:"h_e_abdulrahman", n:"H.E. Abdulrahman Mohamed Nassir Salem Alowais", t:2, p:62, s:"finance", roles:[
+    ["lst_sib","Chairman","board","v"],
+    ]},
+  {id:"h_e_othman", n:"H.E. Othman Mohamed Sharif Abdalla Zaman", t:2, p:62, s:"finance", roles:[
+    ["lst_sib","Vice Chairman","board","v"],
+    ]},
+  {id:"h_e_ali", n:"H.E. Ali Salim Ali Salim Almazroua", t:2, p:52, s:"finance", roles:[
+    ["lst_sib","Board Member","board","v"],
+    ]},
+  {id:"h_e_dr_b", n:"H.E. Dr. Salah Butti Obaid Binbutti Almheiri", t:2, p:52, s:"finance", roles:[
+    ["lst_sib","Board Member","board","v"],
+    ]},
+  {id:"h_e_jasim", n:"H.E. Jasim Mohamed Abdalla Ahmed Alkhayyal", t:2, p:52, s:"finance", roles:[
+    ["lst_sib","Board Member","board","v"],
+    ]},
+  {id:"h_e_dr_b_b", n:"H.E. Dr. Abdalla Mohamed Obaid Belhaif AlNuaimi", t:2, p:52, s:"finance", roles:[
+    ["lst_sib","Board Member","board","v"],
+    ]},
+  {id:"h_e_dr_b_b_b", n:"H.E. Dr. Khawla Abdelrahman Hassan Almulla Alsaabri", t:2, p:52, s:"finance", roles:[
+    ["lst_sib","Board Member","board","v"],
+    ]},
+  {id:"h_e_dr_b_b_b_b", n:"H.E. Dr. Eisa Saif Ahmed Handhal Altamimi", t:2, p:52, s:"finance", roles:[
+    ["lst_sib","Board Member","board","v"],
+    ]},
+  {id:"h_e_noura", n:"H.E. Noura Mohamed Ibrahim Almayyahi Alnuaimi", t:2, p:52, s:"finance", roles:[
+    ["lst_sib","Board Member","board","v"],
+    ]},
+  {id:"dr_ibrahim_ali", n:"Dr. Ibrahim Ali Al Mansoori", t:2, p:62, s:"finance", roles:[
+    ["lst_sib","Chairman and Executive Member – Internal Sharia Supervision Committee","board","v"],
+    ]},
+  {id:"dr_ali_husain", n:"Dr. Ali Husain Al Junaidi", t:2, p:62, s:"finance", roles:[
+    ["lst_sib","Vice Chairman – Internal Sharia Supervision Committee","board","v"],
+    ]},
+  {id:"dr_mohammed_obadeh", n:"Dr. Mohammed Obadeh Adi", t:2, p:52, s:"finance", roles:[
+    ["lst_sib","Member – Internal Sharia Supervision Committee","board","v"],
+    ]},
+  {id:"dr_abdulrahman_abdullah", n:"Dr. Abdulrahman Abdullah Al Saadi", t:2, p:52, s:"finance", roles:[
+    ["lst_sib","Member – Internal Sharia Supervision Committee","board","v"],
+    ]},
+  {id:"h_e_mohamed", n:"H.E. Mohamed Abdalla", t:2, p:60, s:"finance", roles:[
+    ["lst_sib","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"khalaf_abdallah_khalaf", n:"Khalaf Abdallah Khalaf Abdallah", t:2, p:58, s:"finance", roles:[
+    ["lst_sib","Group Chief Internal Auditor","executive","v"],
+    ]},
+  {id:"mohammed_anisur_rahman", n:"Mohammed Anisur Rahman Khan", t:2, p:46, s:"finance", roles:[
+    ["lst_sib","Head of Group Compliance","executive","v"],
+    ]},
+  {id:"his_highness_doctor", n:"His Highness Doctor Sheikh Sultan Bin Mohammed Al-Qasimi", t:2, p:62, s:"finance", roles:[
+    ["lst_bos","Honorary Chairman","board","v"],
+    ]},
+  {id:"sheikh_mohammed_bin", n:"Sheikh Mohammed bin Saud Al Qasimi", t:2, p:62, s:"finance", roles:[
+    ["lst_bos","Chairman","board","v"],
+    ]},
+  {id:"sheikh_saif_bin", n:"Sheikh Saif bin Mohammed bin Butti Al Hamed", t:2, p:62, s:"finance", roles:[
+    ["lst_bos","Deputy Chairman","board","v"],
+    ]},
+  {id:"abdulaziz_mubarak_al", n:"Abdulaziz Mubarak Al Hasawi", t:2, p:52, s:"finance", roles:[
+    ["lst_bos","Non-Executive Director","board","v"],
+    ]},
+  {id:"salem_humaid_al", n:"Salem Humaid Al Ghammai", t:2, p:52, s:"finance", roles:[
+    ["lst_bos","Independent Non-Executive Director","board","v"],
+    ]},
+  {id:"abdulla_mohamed_sharif", n:"Abdulla Mohamed Sharif Al Fahim", t:2, p:52, s:"finance", roles:[
+    ["lst_bos","Independent Non-Executive Director","board","v"],
+    ]},
+  {id:"salah_ahmed_abdalla", n:"Salah Ahmed Abdalla Al Noman Al Shamsi", t:2, p:52, s:"finance", roles:[
+    ["lst_bos","Independent Non-Executive Director","board","v"],
+    ]},
+  {id:"amer_abdulaziz_khansaheb", n:"Amer Abdulaziz Khansaheb", t:2, p:52, s:"finance", roles:[
+    ["lst_bos","Independent Non-Executive Director","board","v"],
+    ]},
+  {id:"waleed_ibrahim_al", n:"Waleed Ibrahim Al Sayegh", t:2, p:52, s:"finance", roles:[
+    ["lst_bos","Independent Non-Executive Director","board","v"],
+    ]},
+  {id:"talal_abdulaziz_al", n:"Talal Abdulaziz Al Midfa", t:2, p:52, s:"finance", roles:[
+    ["lst_bos","Independent Non-Executive Director","board","v"],
+    ]},
+  {id:"arwa_mohamed_al", n:"Arwa Mohamed Al Owais", t:2, p:52, s:"finance", roles:[
+    ["lst_bos","Independent Non-Executive Director","board","v"],
+    ]},
+  {id:"mubarak_saud_al", n:"Mubarak Saud Al Besharah", t:2, p:52, s:"finance", roles:[
+    ["lst_bos","Independent Non-Executive Director","board","v"],
+    ]},
+  {id:"paul_afif", n:"Paul Afif", t:2, p:58, s:"finance", roles:[
+    ["lst_bos","Secretary of the Board of Directors","executive","v"],
+    ]},
+  {id:"mohamed_khadiri", n:"Mohamed Khadiri", t:2, p:60, s:"finance", roles:[
+    ["lst_bos","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"nasser_salem_al", n:"Nasser Salem Al Ali", t:2, p:58, s:"finance", roles:[
+    ["lst_bos","Chief Wholesale Banking Officer","executive","v"],
+    ]},
+  {id:"walid_abboud", n:"Walid Abboud", t:2, p:58, s:"finance", roles:[
+    ["lst_bos","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"graeme_woods", n:"Graeme Woods", t:2, p:58, s:"finance", roles:[
+    ["lst_bos","Chief Risk Officer","executive","v"],
+    ]},
+  {id:"asim_shrivastava", n:"Asim Shrivastava", t:2, p:58, s:"finance", roles:[
+    ["lst_bos","Chief Credit Officer","executive","v"],
+    ]},
+  {id:"sridhar_karlapudi", n:"Sridhar Karlapudi", t:2, p:58, s:"finance", roles:[
+    ["lst_bos","Chief Operating Officer","executive","v"],
+    ]},
+  {id:"sunil_edwards", n:"Sunil Edwards", t:2, p:58, s:"finance", roles:[
+    ["lst_bos","Chief Internal Auditor","executive","v"],
+    ]},
+  {id:"amina_al_halwaji", n:"Amina Al Halwaji", t:2, p:58, s:"finance", roles:[
+    ["lst_bos","Chief Human Resources Officer","executive","v"],
+    ]},
+  {id:"amir_al_salous", n:"Amir Al Salous", t:2, p:58, s:"finance", roles:[
+    ["lst_bos","Chief Marketing & Corporate Communications Officer","executive","v"],
+    ]},
+  {id:"paul_cox", n:"Paul Cox", t:2, p:58, s:"finance", roles:[
+    ["lst_bos","Chief Retail Banking Officer","executive","v"],
+    ]},
+  {id:"arun_prabhu", n:"Arun Prabhu", t:2, p:58, s:"finance", roles:[
+    ["lst_bos","Acting Chief Compliance Officer","executive","v"],
+    ]},
+  {id:"wahida_assaad", n:"Wahida Assaad", t:2, p:46, s:"finance", roles:[
+    ["lst_bos","Head of Information Technology & Information Security","executive","v"],
+    ]},
+  {id:"patrick_mehawech", n:"Patrick Mehawech", t:2, p:46, s:"finance", roles:[
+    ["lst_bos","Head of Credit Risk","executive","v"],
+    ]},
+  {id:"h_h_sheikh", n:"H.H. Sheikh Zayed bin Hamdan bin Zayed Al Nahyan", t:2, p:52, s:"sovereign", roles:[
+    ["adq","Board Member","board","ns"],
+    ]},
+  {id:"h_e_sheikh", n:"H.E. Sheikh Abdulla bin Mohamed Al Hamed", t:2, p:52, s:"sovereign", roles:[
+    ["adq","Board Member","board","ns"],
+    ]},
+  {id:"h_e_mohamed_b", n:"H.E. Mohamed Mubarak Fadel Al Mazrouei", t:2, p:52, s:"sovereign", roles:[
+    ["adq","Board Member","board","ns"],
+    ]},
+  {id:"h_e_ali_b", n:"H.E. Ali Mohammed Hammad Al Shamsi", t:2, p:52, s:"sovereign", roles:[
+    ["adq","Board Member","board","ns"],
+    ]},
+  {id:"bashar_al_rousan", n:"Bashar Al-Rousan", t:2, p:60, s:"sovereign", roles:[
+    ["adq","Deputy Group Chief Executive Officer – Legal","executive","ns"],
+    ]},
+  {id:"dr_jaap_kalkman", n:"Dr. Jaap Kalkman", t:2, p:58, s:"sovereign", roles:[
+    ["adq","Group Chief Investment Officer – Energy & Utilities","executive","ns"],
+    ]},
+  {id:"gil_adotevi", n:"Gil Adotevi", t:2, p:58, s:"sovereign", roles:[
+    ["adq","Group Chief Investment Officer – Transport & Logistics","executive","ns"],
+    ]},
+  {id:"anas_albarguthi", n:"Anas Albarguthi", t:2, p:58, s:"sovereign", roles:[
+    ["adq","Group Chief Operating Officer","executive","ns"],
+    ]},
+  {id:"louay_abou_chanab", n:"Louay Abou Chanab", t:2, p:58, s:"sovereign", roles:[
+    ["adq","Group Chief Digital and AI Officer","executive","ns"],
+    ]},
+  {id:"mohamed_kaissi", n:"Mohamed Kaissi", t:2, p:58, s:"sovereign", roles:[
+    ["adq","Group Chief Strategy Officer","executive","ns"],
+    ]},
+  {id:"h_e_khalifa", n:"H.E. Khalifa Ahmed Al Mazrouei", t:2, p:58, s:"gov", roles:[
+    ["dof","Director-General of Executive Financial Affairs","executive","v"],
+    ]},
 ];
 
 const OWNERSHIP = [

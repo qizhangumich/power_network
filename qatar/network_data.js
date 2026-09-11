@@ -330,6 +330,7 @@ const PEOPLE = [
   {id:"bader_abdulla_darwish", n:"Bader Abdulla Darwish Fakhroo", t:2, p:52, s:"finance", roles:[
     ["qnb","Board Member","board","v"]]},
   {id:"dr_abdulrahman_mohammed", n:"Dr. Abdulrahman Mohammed Jolo", t:2, p:52, s:"finance", roles:[
+    ["mofin","Assistant Undersecretary for Financial Policies Affairs","executive","v"],
     ["qnb","Board Member","board","v"]]},
   {id:"ramzi_mari", n:"Ramzi Mari", t:2, p:58, s:"finance", roles:[
     ["qnb","Group Chief Financial Officer","executive","v"]]},
@@ -916,6 +917,10 @@ const PEOPLE = [
     ["lst_eres","Investor Relations Manager","executive","v"]]},
   {id:"mr_ahmed_ajlan", n:"Mr. Ahmed Ajlan", t:2, p:58, s:"realestate", roles:[
     ["lst_eres","Risk Management Manager","executive","v"]]},
+  {id:"dr_saud_bin", n:"Dr. Saud bin Abdullah Al Attiyah", t:2, p:58, s:"gov", roles:[
+    ["mofin","Deputy Undersecretary for Economic Affairs","executive","v"]]},
+  {id:"abdulrahman_fouad_al", n:"Abdulrahman Fouad Al Mudhahka", t:2, p:58, s:"gov", roles:[
+    ["mofin","Assistant Undersecretary for Public Treasury Affairs","executive","v"]]},
 ];
 
 const OWNERSHIP = [

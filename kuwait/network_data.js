@@ -714,6 +714,130 @@ const PEOPLE = [
     ["lst_sre","Group Accounting Manager","executive","v"]]},
   {id:"mohammad_iskandar_alam", n:"Mohammad Iskandar Alam", t:2, p:58, s:"realestate", roles:[
     ["lst_sre","Group Property Facilities Manager","executive","v"]]},
+  {id:"mr_hamad_musaed", n:"Mr. Hamad Musaed Al-Sayer", t:2, p:62, s:"finance", roles:[
+    ["lst_warbabank","Chairman","board","v"]]},
+  {id:"mr_bader_khaled", n:"Mr. Bader Khaled Al-Shalfan", t:2, p:62, s:"finance", roles:[
+    ["lst_warbabank","Vice Chairman","board","v"]]},
+  {id:"mr_mohammad_hamed", n:"Mr. Mohammad Hamed Al-Shalfan", t:2, p:52, s:"finance", roles:[
+    ["lst_warbabank","Non-Executive Board Member","board","v"]]},
+  {id:"mr_mubarak_nasser", n:"Mr. Mubarak Nasser Al-Sayer", t:2, p:52, s:"finance", roles:[
+    ["lst_warbabank","Non-Executive Board Member","board","v"]]},
+  {id:"mr_khaldoun_shaker", n:"Mr. Khaldoun Shaker Al-Tabtabaie", t:2, p:52, s:"finance", roles:[
+    ["lst_warbabank","Independent Board Member","board","v"]]},
+  {id:"mr_mohammad_abdulaziz", n:"Mr. Mohammad Abdulaziz Al-Bahar", t:2, p:52, s:"finance", roles:[
+    ["lst_warbabank","Independent Board Member","board","v"]]},
+  {id:"mr_mohammad_ahmad", n:"Mr. Mohammad Ahmad Al-Ruwayeh", t:2, p:52, s:"finance", roles:[
+    ["lst_warbabank","Independent Board Member","board","v"]]},
+  {id:"mrs_may_mohalhal", n:"Mrs. May Mohalhal Al-Mudhaf", t:2, p:52, s:"finance", roles:[
+    ["lst_warbabank","Independent Board Member","board","v"]]},
+  {id:"mrs_basma_h", n:"Mrs. Basma H. AlSanea", t:2, p:52, s:"finance", roles:[
+    ["lst_warbabank","Non-Executive Board Member","board","v"]]},
+  {id:"mr_abdullah_yousef", n:"Mr. Abdullah Yousef Al-Shaijie", t:2, p:52, s:"finance", roles:[
+    ["lst_warbabank","Board Member","board","v"]]},
+  {id:"mr_mishari_fahad", n:"Mr. Mishari Fahad AlMusallam", t:2, p:52, s:"finance", roles:[
+    ["lst_warbabank","Board Member","board","v"]]},
+  {id:"mr_shaheen_hamad", n:"Mr. Shaheen Hamad Al-Ghanem", t:2, p:60, s:"finance", roles:[
+    ["lst_warbabank","Chief Executive Officer","executive","v"]]},
+  {id:"mr_anwar_bader", n:"Mr. Anwar Bader Al-Ghaith", t:2, p:60, s:"finance", roles:[
+    ["lst_warbabank","Deputy Chief Executive Officer – Digital Transformation & Operations","executive","v"]]},
+  {id:"mr_faisal_abdulrazaq", n:"Mr. Faisal Abdulrazaq Al-Nassar", t:2, p:58, s:"finance", roles:[
+    ["lst_warbabank","Chief Corporate Banking Officer","executive","v"]]},
+  {id:"ms_maali_abdullah", n:"Ms. Maali Abdullah AlRasheed", t:2, p:58, s:"finance", roles:[
+    ["lst_warbabank","Chief Human Resources & General Services Officer","executive","v"]]},
+  {id:"mr_mohamed_sabry", n:"Mr. Mohamed Sabry Eissa", t:2, p:58, s:"finance", roles:[
+    ["lst_warbabank","Chief Financial Officer","executive","v"]]},
+  {id:"mr_abdullah_mahmoud", n:"Mr. Abdullah Mahmoud Allanqawi", t:2, p:58, s:"finance", roles:[
+    ["lst_warbabank","Chief Treasury Officer","executive","v"]]},
+  {id:"ms_layali_mostafa", n:"Ms. Layali Mostafa Al-Fahad", t:2, p:58, s:"finance", roles:[
+    ["lst_warbabank","Chief Operations Officer","executive","v"]]},
+  {id:"mr_hamad_fouzan", n:"Mr. Hamad Fouzan Al-Fouzan", t:2, p:58, s:"finance", roles:[
+    ["lst_warbabank","Chief Strategic Planning Officer","executive","v"]]},
+  {id:"mr_ahmad_faisal", n:"Mr. Ahmad Faisal Al-Qatami", t:2, p:58, s:"finance", roles:[
+    ["lst_warbabank","Chief Retail Banking Officer","executive","v"]]},
+  {id:"mr_naser_maher", n:"Mr. Naser Maher Al-Mutawaa", t:2, p:58, s:"finance", roles:[
+    ["lst_warbabank","Chief Digital Officer","executive","v"]]},
+  {id:"dr_mohamed_barakat", n:"Dr. Mohamed Barakat", t:2, p:58, s:"finance", roles:[
+    ["lst_warbabank","Chief Marketing & Corporate Communication Officer","executive","v"]]},
+  {id:"ms_najat_mohammad", n:"Ms. Najat Mohammad Saleh", t:2, p:58, s:"finance", roles:[
+    ["lst_warbabank","Chief Risk Officer","executive","v"]]},
+  {id:"mr_mohammed_bader", n:"Mr. Mohammed Bader AlGhanim", t:2, p:58, s:"finance", roles:[
+    ["lst_warbabank","Chief Technology Officer","executive","v"]]},
+  {id:"mr_soud_salah", n:"Mr. Soud Salah Al-Rashed", t:2, p:58, s:"finance", roles:[
+    ["lst_warbabank","Chief Compliance Officer","executive","v"]]},
+  {id:"mr_mohammad_musaed", n:"Mr. Mohammad Musaed Mandani", t:2, p:58, s:"finance", roles:[
+    ["lst_warbabank","Chief Legal Officer","executive","v"]]},
+  {id:"ms_hanan_ghanim", n:"Ms. Hanan Ghanim Hamadah", t:2, p:58, s:"finance", roles:[
+    ["lst_warbabank","Chief Internal Auditor","executive","v"]]},
+  {id:"yusuf_chorghay", n:"Yusuf Chorghay", t:2, p:58, s:"finance", roles:[
+    ["lst_warbabank","Acting Chief Investment Banking Officer","executive","v"]]},
+  {id:"talal_mohammed_reza", n:"Talal Mohammed Reza Behbehani", t:2, p:62, s:"finance", roles:[
+    ["lst_abk","Chairman","board","v"]]},
+  {id:"salah_ahmed_al", n:"Salah Ahmed Al Serhan", t:2, p:62, s:"finance", roles:[
+    ["lst_abk","Deputy Chairman","board","v"]]},
+  {id:"ali_ebrahim_hejji", n:"Ali Ebrahim Hejji Hussain Marafi", t:2, p:62, s:"finance", roles:[
+    ["lst_abk","Board Member – Chairman of ABK-Egypt","board","v"]]},
+  {id:"khaled_othman_abdulwahab", n:"Khaled Othman Abdulwahab Al Othman", t:2, p:52, s:"finance", roles:[
+    ["lst_abk","Board Member","board","v"]]},
+  {id:"adel_ibrahim_yali", n:"Adel Ibrahim Yali Ahmed Behbehani", t:2, p:52, s:"finance", roles:[
+    ["lst_abk","Board Member","board","v"]]},
+  {id:"raed_abdulkareem_al", n:"Raed Abdulkareem Al Moamen", t:2, p:52, s:"finance", roles:[
+    ["lst_abk","Board Member","board","v"]]},
+  {id:"ghazi_abdulrahman_hamad", n:"Ghazi Abdulrahman Hamad Alsanea", t:2, p:52, s:"finance", roles:[
+    ["lst_abk","Board Member","board","v"]]},
+  {id:"ahmed_abdullah_mohammed", n:"Ahmed Abdullah Mohammed Al-Baghli", t:2, p:52, s:"finance", roles:[
+    ["lst_abk","Independent Board Member","board","v"]]},
+  {id:"tarek_fareed_abdulrahman", n:"Tarek Fareed Abdulrahman Al Othman", t:2, p:52, s:"finance", roles:[
+    ["lst_abk","Independent Board Member","board","v"]]},
+  {id:"dr_mohammad_munther", n:"Dr. Mohammad Munther Abdulkareem Al-Zuhair", t:2, p:52, s:"finance", roles:[
+    ["lst_abk","Independent Board Member","board","v"]]},
+  {id:"dr_mahdi_ismael", n:"Dr. Mahdi Ismael Ali Al Jazzaf", t:2, p:52, s:"finance", roles:[
+    ["lst_abk","Independent Board Member","board","v"]]},
+  {id:"giel_jan_m", n:"Giel-Jan M. Van Der Tol", t:2, p:60, s:"finance", roles:[
+    ["lst_abk","Group Chief Executive Officer","executive","v"]]},
+  {id:"abdulla_m_al", n:"Abdulla M. Al Sumait", t:2, p:60, s:"finance", roles:[
+    ["lst_abk","Deputy Group Chief Executive Officer","executive","v"]]},
+  {id:"ahmad_al_duwaisan", n:"Ahmad Al-Duwaisan", t:2, p:60, s:"finance", roles:[
+    ["lst_abk","Acting Chief Executive Officer – Kuwait and General Manager – Corporate Banking","executive","v"]]},
+  {id:"khaled_el_salawy", n:"Khaled El Salawy", t:2, p:60, s:"finance", roles:[
+    ["lst_abk","Chief Executive Officer and Managing Director – ABK-Egypt","executive","v"]]},
+  {id:"omar_wahby", n:"Omar Wahby", t:2, p:60, s:"finance", roles:[
+    ["lst_abk","Chief Executive Officer – UAE","executive","v"]]},
+  {id:"amjad_siddique", n:"Amjad Siddique", t:2, p:58, s:"finance", roles:[
+    ["lst_abk","Group Chief Internal Auditor","executive","v"]]},
+  {id:"sana_al_saqabi", n:"Sana Al Saqabi", t:2, p:58, s:"finance", roles:[
+    ["lst_abk","Group Chief Compliance Officer","executive","v"]]},
+  {id:"ammar_al_jazzaf", n:"Ammar Al Jazzaf", t:2, p:58, s:"finance", roles:[
+    ["lst_abk","Group Chief AML & CFT Officer","executive","v"]]},
+  {id:"gaurav_dhingra", n:"Gaurav Dhingra", t:2, p:58, s:"finance", roles:[
+    ["lst_abk","Group Chief Risk Officer","executive","v"]]},
+  {id:"dr_ayman_al", n:"Dr. Ayman Al Buloushi", t:2, p:46, s:"finance", roles:[
+    ["lst_abk","Group Head of Corporate Governance","executive","v"]]},
+  {id:"dr_abdulaziz_jawad", n:"Dr. Abdulaziz Jawad", t:2, p:58, s:"finance", roles:[
+    ["lst_abk","Chief Strategy Officer","executive","v"]]},
+  {id:"shiamak_soonawalla", n:"Shiamak Soonawalla", t:2, p:58, s:"finance", roles:[
+    ["lst_abk","Group Chief Finance Officer","executive","v"]]},
+  {id:"noura_abdulmohsen_alduweesh", n:"Noura Abdulmohsen Alduweesh", t:2, p:46, s:"finance", roles:[
+    ["lst_abk","General Manager – Treasury and Investment","executive","v"]]},
+  {id:"mohammad_alqattan", n:"Mohammad AlQattan", t:2, p:58, s:"finance", roles:[
+    ["lst_abk","Chief Consumer Officer","executive","v"]]},
+  {id:"shahzad_anjum", n:"Shahzad Anjum", t:2, p:58, s:"finance", roles:[
+    ["lst_abk","Chief Technology & Transformation Officer","executive","v"]]},
+  {id:"yasmine_salamah", n:"Yasmine Salamah", t:2, p:46, s:"finance", roles:[
+    ["lst_abk","General Manager – Multinational Corporates and Structured Finance","executive","v"]]},
+  {id:"counselor_dr_nawaf", n:"Counselor Dr. Nawaf AlShuraiaan", t:2, p:58, s:"finance", roles:[
+    ["lst_abk","General Counsel – Legal Division","executive","v"]]},
+  {id:"mohammad_al_bloushi", n:"Mohammad Al Bloushi", t:2, p:46, s:"finance", roles:[
+    ["lst_abk","General Manager – Operations","executive","v"]]},
+  {id:"salem_al_sarraf", n:"Salem Al Sarraf", t:2, p:58, s:"finance", roles:[
+    ["lst_abk","Chief Information Officer","executive","v"]]},
+  {id:"afrah_alarbash", n:"Afrah Alarbash", t:2, p:46, s:"finance", roles:[
+    ["lst_abk","General Manager – Human Resources","executive","v"]]},
+  {id:"johair_marafi", n:"Johair Marafi", t:2, p:46, s:"finance", roles:[
+    ["lst_abk","General Manager – Retail Banking","executive","v"]]},
+  {id:"khalil_al_qattan", n:"Khalil Al Qattan", t:2, p:58, s:"finance", roles:[
+    ["lst_abk","Chief Digital Transformation and Innovation Officer","executive","v"]]},
+  {id:"fawzy_t_al", n:"Fawzy T. Al Thunayan", t:2, p:46, s:"finance", roles:[
+    ["lst_abk","General Manager – Board Affairs","executive","v"]]},
 ];
 
 const OWNERSHIP = [

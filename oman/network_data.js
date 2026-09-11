@@ -231,6 +231,7 @@ const PEOPLE = [
   {id:"qais_al_zakwani", n:"Qais Al-Zakwani", t:2, p:62, s:"comm", roles:[
     ["omantel","Chairman","board","v"]]},
   {id:"eng_atif_al", n:"Eng. Atif Al Siyabi", t:2, p:62, s:"comm", roles:[
+    ["lst_bknz","Board Member","board","v"],
     ["omantel","Deputy Chairman","board","v"]]},
   {id:"aiman_al_hosni", n:"Aiman Al-Hosni", t:2, p:52, s:"comm", roles:[
     ["omantel","Board Member","board","v"]]},
@@ -249,6 +250,7 @@ const PEOPLE = [
   {id:"rashad_muhammad_al", n:"Rashad Muhammad Al Zubair", t:2, p:62, s:"finance", roles:[
     ["ominvest","Chairman","board","ns"]]},
   {id:"sheikh_khalid_abdullah", n:"Sheikh Khalid Abdullah Al Khalili", t:2, p:62, s:"finance", roles:[
+    ["lst_bknz","Chairman","board","v"],
     ["ominvest","Deputy Chairman","board","ns"]]},
   {id:"najat_ali_al", n:"Najat Ali Al Lawati", t:2, p:52, s:"finance", roles:[
     ["ominvest","Director","board","ns"]]},
@@ -546,6 +548,46 @@ const PEOPLE = [
     ["ithca","Board Member","board","v"]]},
   {id:"wijdan_al_lawati", n:"Wijdan Al Lawati", t:2, p:52, s:"tech", roles:[
     ["ithca","Board Member","board","v"]]},
+  {id:"sheikh_majid_ali", n:"Sheikh Majid Ali Majid Al Mamari", t:2, p:62, s:"finance", roles:[
+    ["lst_bknz","Vice Chairman","board","v"]]},
+  {id:"mr_ahmed_salem", n:"Mr. Ahmed Salem Mohamed Al Busaidi", t:2, p:52, s:"finance", roles:[
+    ["lst_bknz","Board Member","board","v"]]},
+  {id:"mr_salim_ali", n:"Mr. Salim Ali Said Al Hinai", t:2, p:52, s:"finance", roles:[
+    ["lst_bknz","Board Member","board","v"]]},
+  {id:"mr_abdulaziz_said", n:"Mr. Abdulaziz Said Al Shidhani", t:2, p:52, s:"finance", roles:[
+    ["lst_bknz","Board Member","board","v"]]},
+  {id:"mr_nasser_rashid", n:"Mr. Nasser Rashid Saif Al Shabli", t:2, p:52, s:"finance", roles:[
+    ["lst_bknz","Board Member","board","v"]]},
+  {id:"mr_tariq_atiq", n:"Mr. Tariq Atiq", t:2, p:60, s:"finance", roles:[
+    ["lst_bknz","Chief Executive Officer","executive","v"]]},
+  {id:"mr_mujahid_said", n:"Mr. Mujahid Said Daud Al Zadjaly", t:2, p:58, s:"finance", roles:[
+    ["lst_bknz","General Manager – Chief Information Technology Officer","executive","v"]]},
+  {id:"mr_mohamed_fida", n:"Mr. Mohamed Fida Hussain", t:2, p:58, s:"finance", roles:[
+    ["lst_bknz","General Manager – Chief Risk Management Officer","executive","v"]]},
+  {id:"mr_nasser_said", n:"Mr. Nasser Said Al Lamki", t:2, p:58, s:"finance", roles:[
+    ["lst_bknz","General Manager – Chief Internal Audit Officer","executive","v"]]},
+  {id:"mr_salim_rashid", n:"Mr. Salim Rashid Al Maharbi", t:2, p:58, s:"finance", roles:[
+    ["lst_bknz","Deputy General Manager – Chief Financial Officer","executive","v"]]},
+  {id:"dr_ali_salim", n:"Dr. Ali Salim Al Shekaili", t:2, p:58, s:"finance", roles:[
+    ["lst_bknz","Deputy General Manager – Chief Transformation Officer","executive","v"]]},
+  {id:"mr_mohammed_juma", n:"Mr. Mohammed Juma Al Ghassani", t:2, p:58, s:"finance", roles:[
+    ["lst_bknz","Deputy General Manager – Chief Retail Officer","executive","v"]]},
+  {id:"mr_saif_abdullah", n:"Mr. Saif Abdullah Al Rawahi", t:2, p:58, s:"finance", roles:[
+    ["lst_bknz","Deputy General Manager – Chief Corporate & Government Banking Officer","executive","v"]]},
+  {id:"mr_mohamed_iqbal", n:"Mr. Mohamed Iqbal Mahrab Al Balushi", t:2, p:46, s:"finance", roles:[
+    ["lst_bknz","Assistant General Manager – Operations","executive","v"]]},
+  {id:"ms_haifa_abdul", n:"Ms. Haifa Abdul Ali Al Lawati", t:2, p:46, s:"finance", roles:[
+    ["lst_bknz","Assistant General Manager – Human Resources","executive","v"]]},
+  {id:"mr_rashad_al", n:"Mr. Rashad Al Dohh", t:2, p:46, s:"finance", roles:[
+    ["lst_bknz","Head of Strategy & Investor Relations","executive","v"]]},
+  {id:"ms_jamila_wali", n:"Ms. Jamila Wali Mohammed Al Balushi", t:2, p:46, s:"finance", roles:[
+    ["lst_bknz","Head of Compliance","executive","v"]]},
+  {id:"mr_muhammad_ahsan", n:"Mr. Muhammad Ahsan", t:2, p:58, s:"finance", roles:[
+    ["lst_bknz","Senior Head – Treasury & Global Markets – Investment Banking & International Business","executive","v"]]},
+  {id:"dr_mansour_al", n:"Dr. Mansour Al Qudah", t:2, p:46, s:"finance", roles:[
+    ["lst_bknz","Head of Shari'a Compliance","executive","v"]]},
+  {id:"mr_hatem_alghazali", n:"Mr. Hatem Alghazali", t:2, p:46, s:"finance", roles:[
+    ["lst_bknz","Head of Legal Department and Board Secretary","executive","v"]]},
 ];
 
 const OWNERSHIP = [

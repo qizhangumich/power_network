@@ -119,16 +119,19 @@ const PEOPLE = [
     ["dxbgov","Ruler of Dubai · UAE Vice President & Prime Minister","political","v"]],
     note:"Apex of Dubai. The ICD/Dubai Holding commercial empire and the emirate's global brand are his project."},
   {id:"hamdan_cp", n:"H.H. Sheikh Hamdan bin Mohammed Al Maktoum", t:0, p:96, s:"gov", roles:[
+    ["icd","Chairman","board","v"],
     ["dxbgov","Crown Prince of Dubai","political","v"],
     ["execco","Chairman","political","v"],
     ["dxbgov","UAE Deputy PM & Minister of Defence","political","v"]],
     note:"'Fazza' — runs day-to-day Dubai and took the federal defence portfolio in 2024."},
   {id:"maktoum_dep", n:"H.H. Sheikh Maktoum bin Mohammed Al Maktoum", t:0, p:94, s:"finance", roles:[
+    ["icd","Vice Chairman","board","v"],
     ["dxbgov","First Deputy Ruler of Dubai","political","v"],
     ["dxbgov","UAE Deputy PM & Minister of Finance","political","v"],
     ["difc","President","political","v"]],
     note:"Dubai's financial-markets czar: DIFC, the IPO program and federal finance."},
   {id:"ahmed_saeed", n:"H.H. Sheikh Ahmed bin Saeed Al Maktoum", t:0, p:92, s:"industry", roles:[
+    ["icd","Board Member","board","v"],
     ["emirates","Chairman & Chief Executive","executive","v"],
     ["enbd","Chairman","board","v"],
     ["dxbairports","Chairman","board","v"],
@@ -146,14 +149,17 @@ const PEOPLE = [
   {id:"altayer_dewa", n:"Saeed Mohammed Al Tayer", t:1, p:84, s:"utilities", roles:[
     ["dewa","Managing Director & CEO","executive","v"]]},
   {id:"mattar_tayer", n:"Mattar Al Tayer", t:1, p:78, s:"gov", roles:[
+    ["lst_salik","Chairman","board","v"],
     ["rta","Chairman & Director-General","government","v"]]},
   {id:"essa_kazim", n:"Essa Kazim", t:1, p:82, s:"finance", roles:[
     ["difc","Governor","executive","v"],
     ["dfm","Chairman","board","ns"],
     ["dpworld","Chairman","board","v"]]},
   {id:"helal_marri", n:"Helal Saeed Almarri", t:1, p:78, s:"gov", roles:[
+    ["icd","Board Member","board","v"],
     ["det","Director-General","government","v"]]},
   {id:"reem_hashimy", n:"Reem Al Hashimy", t:1, p:82, s:"gov", roles:[
+    ["icd","Board Member","board","v"],
     ["dxbgov","UAE Minister of State for International Cooperation","political","v"],
     ["expocity","CEO","executive","v"]]},
   {id:"omar_olama", n:"Omar Sultan Al Olama", t:1, p:78, s:"tech", roles:[
@@ -183,6 +189,7 @@ const PEOPLE = [
   {id:"alali_maf_chair", n:"Fadel Abdulbaqi Al Ali", t:2, p:72, s:"conglomerate", roles:[
     ["maf","Chairman, Holding Board","board","v"]]},
   {id:"alsaleh_dof", n:"Abdulrahman Saleh Al Saleh", t:1, p:72, s:"gov", roles:[
+    ["icd","Board Member","board","v"],
     ["dof_dxb","Director-General","political","v"]]},
   {id:"omar_alfuttaim", n:"Omar Al Futtaim", t:2, p:76, s:"conglomerate", roles:[
     ["alfuttaim","Vice Chairman & CEO","executive","v"]]},
@@ -210,6 +217,7 @@ const PEOPLE = [
   {id:"hamad_almansoori_dda", n:"Hamad Obaid Al Mansoori", t:1, p:70, s:"gov", roles:[
     ["digitaldubai","Director-General","government","v"]]},
   {id:"alawi_alsheikhali", n:"Dr. Alawi Alsheikh-Ali", t:1, p:72, s:"health", roles:[
+    ["lst_parkin","Board Member","board","v"],
     ["dha","Director-General","government","v"]]},
   {id:"aisha_miran_khda", n:"Aisha Abdulla Miran", t:1, p:66, s:"education", roles:[
     ["khda","Director-General","government","v"]]},
@@ -223,6 +231,7 @@ const PEOPLE = [
   {id:"hesham_abdulla_al", n:"Hesham Abdulla Al Qassim", t:2, p:62, s:"finance", roles:[
     ["enbd","Vice Chairman & Managing Director","board","v"]]},
   {id:"mohamed_hadi_al", n:"Mohamed Hadi Al Hussaini", t:2, p:52, s:"finance", roles:[
+    ["icd","Board Member","board","v"],
     ["enbd","Board Member","board","v"]]},
   {id:"buti_obaid_buti", n:"Buti Obaid Buti Al Mulla", t:2, p:52, s:"finance", roles:[
     ["enbd","Board Member","board","v"]]},
@@ -307,6 +316,7 @@ const PEOPLE = [
   {id:"deepak_parekh", n:"Deepak Parekh", t:2, p:52, s:"industry", roles:[
     ["dpworld","Senior Independent Non-Executive Director","board","v"]]},
   {id:"sultan_bin_saeed", n:"Sultan bin Saeed Al Mansoori", t:2, p:52, s:"industry", roles:[
+    ["icd","Board Member","board","v"],
     ["dpworld","Board Member","board","v"]]},
   {id:"mohamed_saif_al", n:"Mohamed Saif Al Suwaidi", t:2, p:52, s:"industry", roles:[
     ["dpworld","Board Member","board","v"]]},
@@ -702,6 +712,84 @@ const PEOPLE = [
     ["lst_deyaar","Vice President - Property & Community Management","executive","v"]]},
   {id:"mubarik_hussain", n:"Mubarik Hussain", t:2, p:58, s:"realestate", roles:[
     ["lst_deyaar","Vice President - Information Technology","executive","v"]]},
+  {id:"abdulmuhsen_ibrahim_kalbat", n:"Abdulmuhsen Ibrahim Kalbat", t:2, p:62, s:"industry", roles:[
+    ["lst_salik","Vice Chairman","board","v"]]},
+  {id:"h_e_mohammed", n:"H.E. Mohammed Abdulla Lengawi", t:2, p:52, s:"industry", roles:[
+    ["lst_salik","Board Member","board","v"]]},
+  {id:"faisal_bin_juma", n:"Faisal Bin Juma Belhoul", t:2, p:52, s:"industry", roles:[
+    ["lst_salik","Board Member","board","v"]]},
+  {id:"moaza_saeed_al", n:"Moaza Saeed Al Marri", t:2, p:52, s:"industry", roles:[
+    ["lst_salik","Board Member","board","v"]]},
+  {id:"abdulla_ali_al", n:"Abdulla Ali Al Madani", t:2, p:52, s:"industry", roles:[
+    ["lst_salik","Board Member","board","v"]]},
+  {id:"sabah_salem_al", n:"Sabah Salem Al Shamsi", t:2, p:52, s:"industry", roles:[
+    ["lst_salik","Board Member","board","v"]]},
+  {id:"ibrahim_sultan_al", n:"Ibrahim Sultan Al Haddad", t:2, p:60, s:"industry", roles:[
+    ["lst_salik","Chief Executive Officer","executive","v"]]},
+  {id:"maged_ibrahim", n:"Maged Ibrahim", t:2, p:58, s:"industry", roles:[
+    ["lst_salik","Chief Financial Officer","executive","v"]]},
+  {id:"tariq_ismail_mohammed", n:"Tariq Ismail Mohammed", t:2, p:58, s:"industry", roles:[
+    ["lst_salik","Chief Technology Officer","executive","v"]]},
+  {id:"anwar_el_khatib", n:"Anwar El Khatib", t:2, p:58, s:"industry", roles:[
+    ["lst_salik","Chief Legal Counsel","executive","v"]]},
+  {id:"tariq_al_mutawa", n:"Tariq Al Mutawa", t:2, p:58, s:"industry", roles:[
+    ["lst_salik","Director – Support Services","executive","v"]]},
+  {id:"wassim_el_hayek", n:"Wassim El Hayek", t:2, p:58, s:"industry", roles:[
+    ["lst_salik","Head – Investor Relations","executive","v"]]},
+  {id:"jad_ziad_deaibes", n:"Jad Ziad Deaibes", t:2, p:58, s:"industry", roles:[
+    ["lst_salik","Board Secretary","executive","v"]]},
+  {id:"ahmed_hashem_bahrozyan", n:"Ahmed Hashem Bahrozyan", t:2, p:62, s:"industry", roles:[
+    ["lst_parkin","Chairman","board","v"]]},
+  {id:"eng_ahmed_hasan", n:"Eng. Ahmed Hasan Mahboub", t:2, p:62, s:"industry", roles:[
+    ["lst_parkin","Vice Chairman","board","v"]]},
+  {id:"eng_muna_abdulrahman", n:"Eng. Muna Abdulrahman Alosaimi", t:2, p:52, s:"industry", roles:[
+    ["lst_parkin","Board Member","board","v"]]},
+  {id:"eng_nasser_hamad", n:"Eng. Nasser Hamad Abushahab", t:2, p:52, s:"industry", roles:[
+    ["lst_parkin","Board Member","board","v"]]},
+  {id:"mona_mohammad_bajman", n:"Mona Mohammad Bajman", t:2, p:52, s:"industry", roles:[
+    ["lst_parkin","Board Member","board","v"]]},
+  {id:"alunood_thabit_alameri", n:"Alunood Thabit Alameri", t:2, p:52, s:"industry", roles:[
+    ["lst_parkin","Board Member","board","v"]]},
+  {id:"eng_mohamed_abdulla", n:"Eng. Mohamed Abdulla Al Ali", t:2, p:60, s:"industry", roles:[
+    ["lst_parkin","Chief Executive Officer","executive","v"]]},
+  {id:"khattab_abu_qaoud", n:"Khattab Abu Qaoud", t:2, p:58, s:"industry", roles:[
+    ["lst_parkin","Chief Financial Officer","executive","v"]]},
+  {id:"eng_osama_hashim", n:"Eng. Osama Hashim Alsafi", t:2, p:58, s:"industry", roles:[
+    ["lst_parkin","Chief Operating Officer","executive","v"]]},
+  {id:"eng_talal_juma", n:"Eng. Talal Juma Alajmi", t:2, p:58, s:"industry", roles:[
+    ["lst_parkin","Chief Technology Officer","executive","v"]]},
+  {id:"naveed_arshad_khawaja", n:"Naveed Arshad Khawaja", t:2, p:58, s:"industry", roles:[
+    ["lst_parkin","Director – Strategy and Business Growth","executive","v"]]},
+  {id:"eng_ahmed_abdullah", n:"Eng. Ahmed Abdullah Alzaabi", t:2, p:58, s:"industry", roles:[
+    ["lst_parkin","Director of Technology","executive","v"]]},
+  {id:"eng_abdelrahman_alshuweihi", n:"Eng. Abdelrahman AlShuweihi", t:2, p:58, s:"industry", roles:[
+    ["lst_parkin","Director of Operations","executive","v"]]},
+  {id:"haitham_mohamed_el", n:"Haitham Mohamed El Gebali", t:2, p:58, s:"industry", roles:[
+    ["lst_parkin","Board Secretary","executive","v"]]},
+  {id:"pieter_jan_vandepitte", n:"Pieter-Jan Vandepitte", t:2, p:62, s:"consumer_disc", roles:[
+    ["lst_talabat","Chairperson","board","v"]]},
+  {id:"andreas_krause", n:"Andreas Krause", t:2, p:62, s:"consumer_disc", roles:[
+    ["lst_talabat","Vice Chairperson","board","v"]]},
+  {id:"marie_anne_popp", n:"Marie-Anne Popp", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_talabat","Non-Executive Director","board","v"]]},
+  {id:"tomaso_rodriguez", n:"Tomaso Rodriguez", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_talabat","Non-Executive Director","board","v"]]},
+  {id:"abdullah_alharoun", n:"Abdullah Alharoun", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_talabat","Independent Non-Executive Director","board","v"]]},
+  {id:"abdul_wahab_al", n:"Abdul Wahab Al-Halabi", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_talabat","Independent Non-Executive Director","board","v"]]},
+  {id:"toon_gyssels", n:"Toon Gyssels", t:2, p:60, s:"consumer_disc", roles:[
+    ["lst_talabat","Chief Executive Officer","executive","v"]]},
+  {id:"khaled_alfakesh", n:"Khaled Alfakesh", t:2, p:58, s:"consumer_disc", roles:[
+    ["lst_talabat","Chief Financial Officer","executive","v"]]},
+  {id:"j_r_my", n:"Jérémy Doutté", t:2, p:58, s:"consumer_disc", roles:[
+    ["lst_talabat","Chief Operations Officer","executive","v"]]},
+  {id:"sven_herzing", n:"Sven Herzing", t:2, p:58, s:"consumer_disc", roles:[
+    ["lst_talabat","Chief Technology Officer","executive","v"]]},
+  {id:"wassim_makarem", n:"Wassim Makarem", t:2, p:58, s:"consumer_disc", roles:[
+    ["lst_talabat","Chief Retail Officer","executive","v"]]},
+  {id:"khalifa_hassan_abdulla", n:"Khalifa Hassan Abdulla Al Daboos", t:2, p:60, s:"sovereign", roles:[
+    ["icd","Deputy Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
