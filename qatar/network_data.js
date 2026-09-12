@@ -223,7 +223,8 @@ const PEOPLE = [
   {id:"alkuwari_fin", n:"H.E. Ali bin Ahmed Al Kuwari", t:1, p:86, s:"finance", roles:[
     ["mofin","Minister of Finance","political","v"],
     ["qnb","Chairman","board","v"],
-    ["masraf","Chairman","board","ns"]]},
+    ["masraf","Chairman","board","ns"],
+    ["qia","Member of the Board","board","v"]]},
   {id:"attiyah", n:"H.E. Khalid bin Mohamed Al Attiyah", t:1, p:82, s:"gov", roles:[
     ["cabinet","Deputy Prime Minister","political","v"],
     ["mod_q","Minister of State for Defence Affairs","political","ns"]]},
@@ -246,14 +247,17 @@ const PEOPLE = [
     ["qfz","Chairman","government","v"]],
     note:"Former QIA CEO; runs the free-zone platform courting global tech and logistics."},
   {id:"sowaidi", n:"Mohammed Saif Al Sowaidi", t:1, p:86, s:"sovereign", roles:[
-    ["qia","Chief Executive Officer","executive","ns"]]},
+    ["qia","Chief Executive Officer","executive","ns"],
+    ["katarahosp","Chairman","board","v"]]},
   {id:"khelaifi", n:"Nasser Al-Khelaifi", t:1, p:86, s:"comm", roles:[
     ["qsi","Chairman","board","v"],
     ["bein","Chairman","board","v"],
-    ["psg","President","executive","v"]],
+    ["psg","President","executive","v"],
+    ["qia","Member of the Board","board","v"]],
     note:"The global face of Qatari sport and sports media — PSG, beIN, European club football politics."},
   {id:"thawadi", n:"Hassan Al Thawadi", t:1, p:76, s:"gov", roles:[
-    ["scdl","Secretary-General","executive","v"]],
+    ["scdl","Secretary-General","executive","v"],
+    ["qia","Member of the Board","board","v"]],
     note:"Delivered the 2022 World Cup; the legacy body carries the network built around it."},
 
   // ===== TIER 2 — OPERATING EXECUTIVES =====
@@ -332,7 +336,8 @@ const PEOPLE = [
     ["qnb","Board Member","board","v"]]},
   {id:"dr_abdulrahman_mohammed", n:"Dr. Abdulrahman Mohammed Jolo", t:2, p:52, s:"finance", roles:[
     ["mofin","Assistant Undersecretary for Financial Policies Affairs","executive","v"],
-    ["qnb","Board Member","board","v"]]},
+    ["qnb","Board Member","board","v"],
+    ["katarahosp","Board Member","board","v"]]},
   {id:"ramzi_mari", n:"Ramzi Mari", t:2, p:58, s:"finance", roles:[
     ["qnb","Group Chief Financial Officer","executive","v"]]},
   {id:"fatima_abdulla_al", n:"Fatima Abdulla Al-Suwaidi", t:2, p:58, s:"finance", roles:[
@@ -965,6 +970,24 @@ const PEOPLE = [
   {id:"mohammed_ismail_al", n:"Mohammed Ismail Al Emadi", t:2, p:60, s:"finance", roles:[
     ["lst_qfbq","Group Chief Executive Officer","executive","v"]],
     note:"Group CEO of Lesha Bank since Jul 2023 (ex-Group Chief Business Officer, Al Rayan Bank); Chairman of Oryx Corniche Developments and Lesha Aviation Capital. Possibly the same person as CBQ board member Mohamad Ismail Mandani Al Emadi (unconfirmed)."},
+  {id:"h_e_sheikh_b_b_b_b_b_b_b_b_b_b_b_b", n:"H.E. Sheikh Bandar bin Mohammed bin Saud Al-Thani", t:2, p:62, s:"sovereign", roles:[
+    ["qia","Chairman","board","v"]]},
+  {id:"h_e_sheikh_b_b_b_b_b_b_b_b_b_b_b_b_b", n:"H.E. Sheikh Mohammed bin Hamad bin Khalifa Al Thani", t:2, p:62, s:"sovereign", roles:[
+    ["qia","Vice Chairman","board","v"]]},
+  {id:"h_e_mr", n:"H.E. Mr. Saad bin Sherida Al-Kaabi", t:2, p:52, s:"sovereign", roles:[
+    ["qia","Member of the Board","board","v"]]},
+  {id:"mansoor_bin_ebrahim", n:"Mansoor bin Ebrahim Al-Mahmoud", t:2, p:60, s:"sovereign", roles:[
+    ["qia","Chief Executive Officer (2018-2024)","executive","v","former:until Jan 2025"]]},
+  {id:"h_e_saad", n:"H.E. Saad bin Ali Al Kharji", t:2, p:62, s:"consumer_disc", roles:[
+    ["katarahosp","Deputy Chairman","board","v"]]},
+  {id:"sheikh_ali_alwaleed", n:"Sheikh Ali Alwaleed Al-Thani", t:2, p:52, s:"consumer_disc", roles:[
+    ["katarahosp","Board Member","board","v"]]},
+  {id:"mohammed_abdulrazzaq_al", n:"Mohammed Abdulrazzaq Al-Hashmi", t:2, p:52, s:"consumer_disc", roles:[
+    ["katarahosp","Board Member","board","v"]]},
+  {id:"h_e_rachid", n:"H.E. Rachid Mohamed Rachid", t:2, p:52, s:"consumer_disc", roles:[
+    ["katarahosp","Board Member","board","v"]]},
+  {id:"navid_chamdia", n:"Navid Chamdia", t:2, p:52, s:"consumer_disc", roles:[
+    ["katarahosp","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

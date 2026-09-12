@@ -229,7 +229,8 @@ const PEOPLE = [
   {id:"antonio_gamez_munoz", n:"Antonio Gamez Munoz", t:2, p:58, s:"finance", roles:[
     ["bankmuscat","Chief Risk Officer","executive","v"]]},
   {id:"qais_al_zakwani", n:"Qais Al-Zakwani", t:2, p:62, s:"comm", roles:[
-    ["omantel","Chairman","board","v"]]},
+    ["omantel","Chairman","board","v"],
+    ["oq","Deputy Chairman","board","v"]]},
   {id:"eng_atif_al", n:"Eng. Atif Al Siyabi", t:2, p:62, s:"comm", roles:[
     ["lst_bknz","Board Member","board","v"],
     ["omantel","Deputy Chairman","board","v"]]},
@@ -377,7 +378,8 @@ const PEOPLE = [
   {id:"azhar_bin_ahmed", n:"Azhar bin Ahmed Al Kindi", t:2, p:52, s:"energy", roles:[
     ["pdo","Board Member (COO Energy Development Oman)","board","v"]]},
   {id:"ali_al_janabi", n:"Ali Al-Janabi", t:2, p:62, s:"energy", roles:[
-    ["pdo","Board Member (Shell Country Chairman in Oman)","board","v"]]},
+    ["pdo","Board Member (Shell Country Chairman in Oman)","board","v"],
+    ["omanlng","Board Member","board","v"]]},
   {id:"fares_al_khazen", n:"Fares Al-Khazen", t:2, p:52, s:"energy", roles:[
     ["pdo","Board Member (TotalEnergies Director)","board","v"]]},
   {id:"sami_baqi", n:"Sami Baqi", t:2, p:58, s:"energy", roles:[
@@ -588,6 +590,30 @@ const PEOPLE = [
     ["lst_bknz","Head of Shari'a Compliance","executive","v"]]},
   {id:"mr_hatem_alghazali", n:"Mr. Hatem Alghazali", t:2, p:46, s:"finance", roles:[
     ["lst_bknz","Head of Legal Department and Board Secretary","executive","v"]]},
+  {id:"saud_al_shukaily", n:"Saud Al Shukaily", t:2, p:62, s:"energy", roles:[
+    ["omanlng","Chairman","board","v"]]},
+  {id:"h_h_sayyid", n:"H.H. Sayyid Juland Jaifar Al Said", t:2, p:62, s:"energy", roles:[
+    ["omanlng","Deputy Chairman","board","v"]]},
+  {id:"dr_saleh_al", n:"Dr. Saleh Al Anboori", t:2, p:52, s:"energy", roles:[
+    ["omanlng","Board Member","board","v"]]},
+  {id:"khalid_al_khatib", n:"Khalid Al Khatib", t:2, p:52, s:"energy", roles:[
+    ["omanlng","Board Member","board","v"]]},
+  {id:"fares_el_khazen", n:"Fares El Khazen", t:2, p:52, s:"energy", roles:[
+    ["omanlng","Board Member","board","v"]]},
+  {id:"sungpyo_wi", n:"Sungpyo Wi", t:2, p:52, s:"energy", roles:[
+    ["omanlng","Board Member","board","v"]]},
+  {id:"maria_ribeiro", n:"Maria Ribeiro", t:2, p:52, s:"energy", roles:[
+    ["omanlng","Board Member","board","v"]]},
+  {id:"khamis_al_hashmi", n:"Khamis Al Hashmi", t:2, p:58, s:"energy", roles:[
+    ["omanlng","Chief Financial Officer","executive","v"]]},
+  {id:"mohammed_al_naseeb", n:"Mohammed Al Naseeb", t:2, p:58, s:"energy", roles:[
+    ["omanlng","Chief Operating Officer","executive","v"]]},
+  {id:"mahmoud_al_balushi", n:"Mahmoud Al Balushi", t:2, p:58, s:"energy", roles:[
+    ["omanlng","Chief Commercial Officer","executive","v"]]},
+  {id:"ahmed_awladthani", n:"Ahmed AwladThani", t:2, p:58, s:"energy", roles:[
+    ["omanlng","Chief Corporate Services Officer","executive","v"]]},
+  {id:"aliya_al_aufi", n:"Aliya Al Aufi", t:2, p:58, s:"energy", roles:[
+    ["omanlng","Chief People and Culture Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

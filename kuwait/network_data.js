@@ -379,7 +379,8 @@ const PEOPLE = [
   {id:"khaled_ali_al", n:"Khaled Ali Al-Khayyat", t:2, p:60, s:"energy", roles:[
     ["knpc","Deputy CEO - Planning & Finance","executive","v"]]},
   {id:"ghanim_naser_al", n:"Ghanim Naser Al-Otaibi", t:2, p:60, s:"energy", roles:[
-    ["knpc","Deputy CEO - Projects","executive","v"]]},
+    ["knpc","Deputy CEO - Projects","executive","v"],
+    ["kufpec","Board Member","board","v"]]},
   {id:"shujaa_salem_al", n:"Shujaa Salem Al-Ajmi", t:2, p:60, s:"energy", roles:[
     ["knpc","Deputy CEO - Mina Al-Ahmadi Refinery","executive","v"]]},
   {id:"abdullah_shaker_al", n:"Abdullah Shaker Al-Otaibi", t:2, p:60, s:"energy", roles:[
@@ -445,7 +446,8 @@ const PEOPLE = [
   {id:"abdullah_sayer_bader", n:"Abdullah Sayer Bader AlSayer", t:2, p:62, s:"finance", roles:[
     ["gulfbank","Deputy Chairman of the Board","board","v"]]},
   {id:"dr_fawaz_mohammad", n:"Dr. Fawaz Mohammad Alawadhi", t:2, p:52, s:"finance", roles:[
-    ["gulfbank","Board Member","board","v"]]},
+    ["gulfbank","Board Member","board","v"],
+    ["alghanim","Chief Legal Officer","executive","v"]]},
   {id:"muath_saleh_alrayes", n:"Muath Saleh AlRayes", t:2, p:52, s:"finance", roles:[
     ["gulfbank","Board Member","board","v"]]},
   {id:"dalal_hisham_alrayes", n:"Dalal Hisham AlRayes", t:2, p:52, s:"finance", roles:[
@@ -838,6 +840,26 @@ const PEOPLE = [
     ["lst_abk","Chief Digital Transformation and Innovation Officer","executive","v"]]},
   {id:"fawzy_t_al", n:"Fawzy T. Al Thunayan", t:2, p:46, s:"finance", roles:[
     ["lst_abk","General Manager – Board Affairs","executive","v"]]},
+  {id:"mohammed_r_jasem", n:"Mohammed R. Jasem", t:2, p:62, s:"energy", roles:[
+    ["kufpec","Chairman","board","v"]]},
+  {id:"ghada_y_alamer", n:"Ghada Y. Alamer", t:2, p:62, s:"energy", roles:[
+    ["kufpec","Vice Chairman","board","v"]]},
+  {id:"eisa_al_maraghi", n:"Eisa Al-Maraghi", t:2, p:52, s:"energy", roles:[
+    ["kufpec","Board Member","board","v"]]},
+  {id:"waleed_kh_almukhaizim", n:"Waleed Kh. Almukhaizim", t:2, p:52, s:"energy", roles:[
+    ["kufpec","Board Member","board","v"]]},
+  {id:"fahad_s_al", n:"Fahad S. Al Kharqawi", t:2, p:52, s:"energy", roles:[
+    ["kufpec","Board Member","board","v"]]},
+  {id:"hazem_shawki", n:"Hazem Shawki", t:2, p:62, s:"conglomerate", roles:[
+    ["alghanim","Vice Chairman","board","v"]]},
+  {id:"mahmoud_samara", n:"Mahmoud Samara", t:2, p:60, s:"conglomerate", roles:[
+    ["alghanim","Chief Executive Officer","executive","v"]]},
+  {id:"waleed_alghanim", n:"Waleed Alghanim", t:2, p:60, s:"conglomerate", roles:[
+    ["alghanim","Chief Executive Officer - Kirby","executive","v"]]},
+  {id:"yousef_behbehani", n:"Yousef Behbehani", t:2, p:58, s:"conglomerate", roles:[
+    ["alghanim","Senior Vice President - Automotive Group","executive","v"]]},
+  {id:"dirk_kahl", n:"Dirk Kahl", t:2, p:58, s:"conglomerate", roles:[
+    ["alghanim","Chief Financial Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

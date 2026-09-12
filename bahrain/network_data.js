@@ -290,7 +290,8 @@ const PEOPLE = [
   {id:"suha_karzoon", n:"Suha Karzoon", t:2, p:60, s:"sovereign", roles:[
     ["mumtalakat","Managing Director - Finance & Technology","executive","v"]]},
   {id:"marwa_al_saad", n:"Marwa Al Saad", t:2, p:60, s:"sovereign", roles:[
-    ["mumtalakat","Managing Director - Human Capital","executive","v"]]},
+    ["mumtalakat","Managing Director - Human Capital","executive","v"],
+    ["alba","Director","board","v"]]},
   {id:"husain_alqaseer", n:"Husain AlQaseer", t:2, p:58, s:"sovereign", roles:[
     ["mumtalakat","Executive Director - Local Investments","executive","v"]]},
   {id:"noor_sharafi", n:"Noor Sharafi", t:2, p:58, s:"sovereign", roles:[
@@ -2270,7 +2271,8 @@ const PEOPLE = [
   {id:"hessa_hussain", n:"Hessa Hussain", t:2, p:52, s:"tech", roles:[
     ["bfb","Board Member","board","v"]]},
   {id:"layla_alqassab", n:"Layla Alqassab", t:2, p:52, s:"tech", roles:[
-    ["bfb","Board Member","board","v"]]},
+    ["bfb","Board Member","board","v"],
+    ["alba","Director Finance","executive","v"]]},
   {id:"ali_al_mudaifa", n:"Ali Al Mudaifa", t:2, p:52, s:"tech", roles:[
     ["bfb","Board Member","board","v"]]},
   {id:"dalal_buhejji", n:"Dalal Buhejji", t:2, p:52, s:"tech", roles:[
@@ -2278,7 +2280,8 @@ const PEOPLE = [
   {id:"isa_bin_khalid", n:"Isa bin Khalid Al Khalifa", t:2, p:52, s:"materials", roles:[
     ["lst_albh","Director","board","v"]]},
   {id:"khalid_al_rowais", n:"Khalid Al Rowais", t:2, p:52, s:"materials", roles:[
-    ["lst_albh","Director","board","v"]]},
+    ["lst_albh","Director","board","v"],
+    ["alba","Director","board","v"]]},
   {id:"saud_abdulaziz_kanoo", n:"Saud Abdulaziz Kanoo", t:2, p:52, s:"conglomerate", roles:[
     ["kanoo","Board Member","board","v"]]},
   {id:"mohamed_abdullatif_kanoo", n:"Mohamed Abdullatif Kanoo", t:2, p:52, s:"conglomerate", roles:[
@@ -2291,6 +2294,18 @@ const PEOPLE = [
     ["kanoo","Independent Board Member","board","v"]]},
   {id:"amro_shawli", n:"Amro Shawli", t:2, p:52, s:"conglomerate", roles:[
     ["kanoo","Independent Board Member","board","v"]]},
+  {id:"khalid_mohd_turani", n:"Khalid Mohd Turani", t:2, p:58, s:"materials", roles:[
+    ["alba","Chief Internal Auditor","executive","v"]]},
+  {id:"fuad_a_hussain", n:"Fuad A. Hussain Alasfoor", t:2, p:58, s:"materials", roles:[
+    ["alba","Director Reduction Lines and Services","executive","v"]]},
+  {id:"mohamed_khalil_saeed", n:"Mohamed Khalil Saeed", t:2, p:58, s:"materials", roles:[
+    ["alba","Director Safety & Health","executive","v"]]},
+  {id:"taleb_al_ansari", n:"Taleb Al Ansari", t:2, p:58, s:"materials", roles:[
+    ["alba","Director Casthouse & CTS","executive","v"]]},
+  {id:"eskandar_abdulnabi_alsari", n:"Eskandar Abdulnabi Alsari", t:2, p:58, s:"materials", roles:[
+    ["alba","Director Power","executive","v"]]},
+  {id:"andrew_kvalseth", n:"Andrew Kvalseth", t:2, p:60, s:"comm", roles:[
+    ["beyon","Chief Executive Officer Beyon","executive","v"]]},
 ];
 
 const OWNERSHIP = [

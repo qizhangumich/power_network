@@ -353,7 +353,8 @@ const PEOPLE = [
     ["kingdomholding","Chairman","board","v"]]},
   {id:"rumayyan", n:"Yasir Al-Rumayyan", t:1, p:92, s:"sovereign", roles:[
     ["pif","Governor","executive","v"],
-    ["aramco","Chairman","board","v"]],
+    ["aramco","Chairman","board","v"],
+    ["redsea","Chairman of the Board","board","v"]],
     note:"MBS's chief capital allocator — PIF, Aramco board, Newcastle United, LIV Golf."},
   {id:"nasser_aramco", n:"Amin Nasser", t:1, p:88, s:"energy", roles:[
     ["aramco","President & CEO","executive","v"]]},
@@ -369,7 +370,8 @@ const PEOPLE = [
   {id:"alswaha", n:"Abdullah Alswaha", t:1, p:78, s:"tech", roles:[
     ["mcit_sa","Minister of Communications & IT","political","v"]]},
   {id:"khateeb", n:"Ahmed Al-Khateeb", t:1, p:76, s:"gov", roles:[
-    ["mot_sa","Minister of Tourism","political","v"]]},
+    ["mot_sa","Minister of Tourism","political","v"],
+    ["redsea","Board Member","board","v"]]},
   {id:"alkhorayef", n:"Bandar Alkhorayef", t:1, p:72, s:"industry", roles:[
     ["com","Minister of State, Member of the Council of Ministers","political","v"],
     ["moind","Minister of Industry & Mineral Resources (2019–Jul 2026)","political","v","former:until Jul 2026"]],
@@ -385,7 +387,8 @@ const PEOPLE = [
     ["momedia_sa","Minister of Media","political","v"]],
     note:"Appointed 5 Mar 2023; former editor-in-chief of Asharq Al-Awsat."},
   {id:"alhogail", n:"Majed Al-Hogail", t:1, p:76, s:"realestate", roles:[
-    ["momah_sa","Minister of Municipalities & Housing","political","v"]]},
+    ["momah_sa","Minister of Municipalities & Housing","political","v"],
+    ["redsea","Board Member","board","v"]]},
   {id:"albenyan", n:"Yousef Al-Benyan", t:1, p:74, s:"education", roles:[
     ["moe_sa","Minister of Education","political","v"]],
     note:"Appointed Sep 2022; former Chairman/CEO of SABIC."},
@@ -632,7 +635,8 @@ const PEOPLE = [
   {id:"sulaiman_bin_abdulkadir", n:"Sulaiman bin Abdulkadir Almuhaidib", t:2, p:62, s:"consumer_stap", roles:[
     ["almarai","Vice Chairman","board","v"]]},
   {id:"abdulrahman_abdulmohsen_al", n:"Abdulrahman Abdulmohsen Al Fadley", t:2, p:52, s:"consumer_stap", roles:[
-    ["almarai","Board Member","board","v"]]},
+    ["almarai","Board Member","board","v"],
+    ["redsea","Board Member","board","v"]]},
   {id:"saud_bin_sultan", n:"Saud bin Sultan bin Mohammed bin Saud Al Kabeer", t:2, p:52, s:"consumer_stap", roles:[
     ["almarai","Board Member","board","v"]]},
   {id:"georges_schorderet", n:"Georges Schorderet", t:2, p:52, s:"consumer_stap", roles:[
@@ -1319,6 +1323,28 @@ const PEOPLE = [
     ["moenergy","Assistant Minister for Development and Excellence Affairs","executive","ns"]]},
   {id:"majed_aloutaibi", n:"Majed Aloutaibi", t:2, p:58, s:"energy", roles:[
     ["moenergy","Deputy Minister for Oil and Gas","executive","ns"]]},
+  {id:"saleh_al_khabti", n:"Saleh Al Khabti", t:2, p:58, s:"utilities", roles:[
+    ["acwa","President, China","executive","v"]]},
+  {id:"hashim_ghabashi", n:"Hashim Ghabashi", t:2, p:58, s:"utilities", roles:[
+    ["acwa","President, Africa","executive","v"]]},
+  {id:"abid_malik", n:"Abid Malik", t:2, p:58, s:"utilities", roles:[
+    ["acwa","President, Central Asia","executive","v"]]},
+  {id:"tim_anderson", n:"Tim Anderson", t:2, p:58, s:"utilities", roles:[
+    ["acwa","President, Southeast Asia","executive","v"]]},
+  {id:"h_e_dr", n:"H.E. Dr. Majid Al-Qassabi", t:2, p:52, s:"realestate", roles:[
+    ["redsea","Board Member","board","v"]]},
+  {id:"h_e_dr_b", n:"H.E. Dr. Fahad Toonsi", t:2, p:52, s:"realestate", roles:[
+    ["redsea","Board Member","board","v"]]},
+  {id:"eng_ahmad_g", n:"Eng. Ahmad G. Darwish", t:2, p:58, s:"realestate", roles:[
+    ["redsea","Group Chief Administrative Officer","executive","v"]]},
+  {id:"raed_albasseet", n:"Raed Albasseet", t:2, p:58, s:"realestate", roles:[
+    ["redsea","Group Chief Environment and Sustainability Officer","executive","v"]]},
+  {id:"tareq_musmali", n:"Tareq Musmali", t:2, p:58, s:"realestate", roles:[
+    ["redsea","Group Chief Internal Audit Officer","executive","v"]]},
+  {id:"greg_djerejian", n:"Greg Djerejian", t:2, p:58, s:"realestate", roles:[
+    ["redsea","Group Chief Legal Officer and Group Head of Investments","executive","v"]]},
+  {id:"martin_greenslade", n:"Martin Greenslade", t:2, p:58, s:"realestate", roles:[
+    ["redsea","Group Chief Financial Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

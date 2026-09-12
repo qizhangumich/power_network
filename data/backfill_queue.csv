@@ -70,7 +70,6 @@ abudhabi,modon,Modon Holding,realestate,74,1,pending
 abudhabi,openai,OpenAI,tech,74,0,pending
 abudhabi,nvidia,NVIDIA,tech,74,0,pending
 bahrain,moic_bh,Ministry of Industry & Commerce,gov,74,1,pending
-dubai,enoc,ENOC (Emirates National Oil Company),energy,74,1,pending
 dubai,dha,Dubai Health Authority,health,74,1,pending
 northern,rak_execco,Ras Al Khaimah Executive Council,gov,74,1,pending
 oman,moci_om,"Ministry of Trade, Industry & Investment Promotion",gov,74,1,pending
@@ -92,7 +91,6 @@ abudhabi,core42,Core42,tech,72,1,pending
 abudhabi,adairports,Abu Dhabi Airports,industry,72,1,pending
 abudhabi,lulu,LuLu Group International,consumer_stap,72,1,pending
 abudhabi,totalenergies,TotalEnergies,energy,72,0,pending
-dubai,dubaichambers,Dubai Chambers,gov,72,1,pending
 dubai,alhabtoor,Al Habtoor Group,conglomerate,72,1,pending
 dubai,gdmo,Government of Dubai Media Office,comm,72,1,pending
 kuwait,moci_kw,Ministry of Commerce & Industry,gov,72,1,pending
@@ -127,7 +125,6 @@ dubai,digitaldubai,Digital Dubai Authority,gov,70,1,pending
 dubai,dfsa,Dubai Financial Services Authority,finance,70,1,pending
 northern,fujport,Port of Fujairah,industry,70,1,pending
 northern,sedd,Sharjah Economic Development Department,gov,70,1,pending
-oman,omanlng,Oman LNG,energy,70,1,pending
 qatar,shura,Shura Council,gov,70,1,pending
 qatar,momun_q,Ministry of Municipality,gov,70,1,pending
 qatar,molsa_q,Ministry of Labour,gov,70,1,pending
@@ -150,7 +147,6 @@ abudhabi,khalifa_u,Khalifa University,education,68,1,pending
 dubai,dfm,Dubai Financial Market,finance,68,1,pending
 dubai,tecom,TECOM Group,realestate,68,0,pending
 dubai,khda,Knowledge & Human Development Authority,education,68,1,pending
-kuwait,alghanim,Alghanim Industries,conglomerate,68,1,pending
 northern,wynnmarjan,Wynn Al Marjan Island,consumer_disc,68,1,pending
 oman,opaz,OPAZ (Special Economic Zones & Free Zones),gov,68,1,pending
 oman,bahwan,Suhail Bahwan Group,conglomerate,68,1,pending
@@ -166,7 +162,6 @@ abudhabi,goldman,Goldman Sachs,finance,66,0,pending
 bahrain,moh_bh,Ministry of Housing & Urban Planning,gov,66,1,pending
 bahrain,ewa_bh,Electricity & Water Authority,utilities,66,1,pending
 dubai,noon,noon.com,tech,66,1,pending
-dubai,aster,Aster DM Healthcare,health,66,0,pending
 kuwait,mopw_kw,Ministry of Public Works,gov,66,1,pending
 kuwait,equate,EQUATE Petrochemicals,materials,66,1,pending
 kuwait,kharafi,M.A. Kharafi & Sons,conglomerate,66,1,pending
@@ -218,13 +213,11 @@ abudhabi,omv,OMV,energy,62,0,pending
 abudhabi,moelis,Moelis & Company,finance,62,0,pending
 abudhabi,rotana,Rotana Hotels,consumer_disc,62,1,pending
 dubai,alrostamani,AW Rostamani Group,conglomerate,62,0,pending
-kuwait,kufpec,KUFPEC (international E&P),energy,62,1,pending
 kuwait,kuwaitairways,Kuwait Airways,industry,62,0,pending
 northern,gulftainer,Gulftainer,industry,62,1,pending
 northern,sba,Sharjah Book Authority,comm,62,1,pending
 oman,omran,OMRAN Group (tourism development),consumer_disc,62,0,pending
 oman,soharalum,Sohar Aluminium,materials,62,0,pending
-qatar,katarahosp,Katara Hospitality,consumer_disc,62,0,pending
 qatar,qapco,Qatar Petrochemical Company,materials,62,0,pending
 qatar,qatalum,Qatar Aluminium (Qatalum),materials,62,0,pending
 qatar,qta,Qatar Tourism,gov,62,0,pending
