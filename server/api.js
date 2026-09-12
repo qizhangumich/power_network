@@ -1,4 +1,4 @@
-/* Personal-account API for power.tianrenyuan.com (Phase 2A accounts).
+/* Personal-account API for nav.gcc.com (Phase 2A accounts).
    No npm dependencies — Node built-ins only. Run behind nginx:
      location /api/ { proxy_pass http://127.0.0.1:3100; }
    Data lives OUTSIDE the git repo (POWER_API_DATA, default /var/lib/power_api)
