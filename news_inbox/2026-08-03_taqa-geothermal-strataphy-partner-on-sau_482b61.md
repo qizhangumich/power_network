@@ -1,0 +1,5 @@
+# TAQA Geothermal, Strataphy partner on Saudi geothermal cooling
+source: Renewables Now
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxNU3JpZDFaY2RsTTIxZEFnUjV5dGdCcHNZOXdlWWJwWWNMaHBjcGJoaS1XMDN4MzFzQmFzWkpDb0NwQnpfbEZkSW1HRmNjcHcxNkNVajdHcVJOUjZtM1hVRHUzZDZuel9nVnB4UGluLWFuNVdtbnFJcGctWkhaX19WM2l0OTNyUzBkdzhsbFYwWHJDR3MxQ3BBU2hWNU1VbXJiMXUw?oc=5
+
+TAQA Geothermal, Strataphy partner on Saudi geothermal cooling    Renewables Now

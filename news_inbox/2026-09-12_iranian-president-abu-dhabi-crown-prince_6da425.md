@@ -1,0 +1,5 @@
+# Iranian president, Abu Dhabi crown prince discuss regional de-escalation
+source: Anadolu Ajansı
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxQQ1FzUGlMejJFUjQwbjNpNk41ODFJeFRVN0dOSkhCbXJxV0RKRHVYT1pGTnMzWmFiY2dCYlVHa2ZaRnllVUR1MGJqcTZUNkozOFpmOFVKNEFzaC1mRFo2OWJ0U1BaT3FzN2J0MzlRV3dndWxxdHRxZ0tuZWlDckxHTFNVUVFLQ2lQOGFON0tTaFV3VjZHYkFySXJYMktENkpLTTAyd05IZkwyUlkwNlN1QQ?oc=5
+
+Iranian president, Abu Dhabi crown prince discuss regional de-escalation    Anadolu Ajansı

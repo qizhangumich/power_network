@@ -1,0 +1,5 @@
+# Masoud Pezeshkian Meets Abu Dhabi Crown Prince Sheikh Khaled bin Mohamed bin Zayed Al Nahyan at BRICS
+source: NewsCord
+url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxNb0FSUEliMHJhQTg5UHg5THFwbGVoaDlaeG5ZR3hkR2tjS0d0dU52VXBlTlVFR0lOZjlldnBob2g2UEJCUVl4aEEzSy14ZHc1YTNVS202RGNHeW1GOEctaTFNZkZnNXBBaUVTaVVOU0JHTl9FQ0lGc0tvMVRnV3ZhdV9LLWhUS3pvQVlDMG1lX2lCd09RMmFJLUFSZUNVd040b1RVRzRmUjRlblZ0T3A1UVcxLTdqRWZSMjFaSDRDdG0tZHVpSGFPQkk0Ymw3c1V5ZU1pZlludExZZTRVNUw5NWZXbXB2SkdMMWc?oc=5
+
+Masoud Pezeshkian Meets Abu Dhabi Crown Prince Sheikh Khaled bin Mohamed bin Zayed Al Nahyan at BRICS    NewsCord

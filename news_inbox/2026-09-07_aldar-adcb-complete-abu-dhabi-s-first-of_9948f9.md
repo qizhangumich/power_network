@@ -1,0 +1,5 @@
+# Aldar, ADCB complete Abu Dhabi’s first off-plan mortgage under new framework
+source: Zawya
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxOMElMbXQyRTgxc2NCc0ZMVFNMbWdEMHFPN0U3MDRGNHJnR0ZHRDVZWUpYV3h2RTJ3R1ZjSUZhaVRDYWR5WDdGWlN5UDdacjFyTV9SeHZueFRFdTMyN2I4VmVpektPbHV4d3hPSlpYRjVTM1lJWldSTUxnR2Y5aUR4Ujdhb01JcDdCOUdDWnBWcHhvbFhYdGVVMnVTRlVoQ0FSWnFYVTBBUHVQTkVLVDBPQ0VlSjF0MllKUmRmd0NhdnBrVHEyQjVXaUM4TGhPQQ?oc=5
+
+Aldar, ADCB complete Abu Dhabi’s first off-plan mortgage under new framework    Zawya

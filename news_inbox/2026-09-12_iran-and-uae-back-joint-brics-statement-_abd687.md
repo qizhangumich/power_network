@@ -1,0 +1,5 @@
+# Iran and UAE Back Joint BRICS Statement Urging Restraint in War
+source: Haaretz
+url: https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSWVicEtSbGxZR3FXY1FTVnhFRXBvMVdzb1VHZ1RrLUhVd2NBeDFsc3QzSWdVZTMwdDUtSXZwaGN5OGYyeXBBYzdEVG5Oa2E3RFpPUUV0a3dwWjUyOFNJbmp1TGtNck00SGhKVHRKU1JITWh1eWZXS1ZWZmZzbUJHY2pqUDBqYVJYejFJRy1rMk9QTnMzaHFWclJMa2lRNFFwSThweVQtcVNzQy01N1NCMG5kMFZrZDRiZDM2bjh3dDZIMFF0SzRYZ3MtS0R2eWVXS2dOZnk2ZEZLdTZTRE1zekFWWDlnb05DNE8wSWJPZkJ0cms5NHFTOUx0ajE?oc=5
+
+Iran and UAE Back Joint BRICS Statement Urging Restraint in War    Haaretz
