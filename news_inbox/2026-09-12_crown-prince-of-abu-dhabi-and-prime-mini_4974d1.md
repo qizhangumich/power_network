@@ -1,0 +1,5 @@
+# Crown Prince of Abu Dhabi and Prime Minister of India discuss enhancing bilateral relations
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOE5pTEJqSlk4cEJ4ZUJqZlhNUEtFV1lMUklnQWpuUUVvSXlaMEx1alJpVlJLRzFkNVVnWlRFZk80Y0hINUlibGVlV3R4NWQyUWFZeTdrei1HLTRFMnNqNVh2QTBEQkhUcmoxS2l0LV9qSkxKZVE4UDBNYnZ1OHJMMnJIeXdhLW0yLVJoYWdjeDFHc0R1c25abTEyY0EtSlBGOHhJTVdfbDVsTTJ1QUpQSVFKUS1aUHZwR0lDMHlZVFZxYzF0SEZBOHNqMUZ5cjdKLUFDUUtnenpmc2hIU3dr?oc=5
+
+Crown Prince of Abu Dhabi and Prime Minister of India discuss enhancing bilateral relations    مكتب أبوظبي الإعلامي
