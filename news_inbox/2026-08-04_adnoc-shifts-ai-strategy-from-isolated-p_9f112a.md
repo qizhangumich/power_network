@@ -1,0 +1,5 @@
+# ADNOC shifts AI strategy from isolated pilots to enterprise-wide operations
+source: Computer Weekly
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNWUtYdTYyQUlKLTlfQ1ZjNGU0bE91Qm5CNU5SZnZVeEVkUFE0UmRVM29qX2Fxa0g1X3FESnd4SmNhN1cxdTk0aGZPOFdkRzFyU25TWExLUGs4QWVEWVJIWTdHcWpKVC10cWRyOVVTV0pQckozVG5UVmRXVkNjTjZxOVcyaEU0RlFWS2t2UEJoajZKRi1ZcHJBRXJUcU1Ud1VONGZVb0NETml2T3VQWEpxUVByMWNCY1NsaVV4Sml3?oc=5
+
+ADNOC shifts AI strategy from isolated pilots to enterprise-wide operations    Computer Weekly

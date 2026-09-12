@@ -1,0 +1,5 @@
+# Sheikh Khaled meets Iranian President at Brics summit
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN0RQTmVHVF9YT19ONWFCLXBGZW15MjhnaE1wVDR4cWQ2OHBIcXF0a09oWnFWUjdUanlYMzJRNmFrcEs1RWxuOGlHZmpWTEU3alFfSk04QzJMdXJta0FNaWdfSWQ2MHdKUHkwWWI4dU1OSkhiWWZ2aVVuMGZPY0hBMl9vcTI5Rm5kdE5Xb2ZXY1UxY2JGYmM4QndpcWZsUWM2X1lvSGE2dlB0UQ?oc=5
+
+Sheikh Khaled meets Iranian President at Brics summit    thenationalnews.com

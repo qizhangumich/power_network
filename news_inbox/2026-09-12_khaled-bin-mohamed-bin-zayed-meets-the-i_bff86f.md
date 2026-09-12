@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed meets the Iranian President on the sidelines of the BRICS summit
+source: صوت الإمارات
+url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxOY3JWVG5UOW5BUFNwNE4zNXVqY1JGLTE2T3lLTVRLU3g5d3l6MjlweTU2eERuRUNoVG1zcUZsUkFEclJhT3k2M3dxZzFCVVQxOThsWnJHUEFaODhrRHJMVjRPSVhMRWdIOHAySUlDVHl1ZWdwa0tGQVZqdlJ6Mk5LTXhxaWU4aXNyT0hBdlpJOEc3bEgxdm45Ql9La09uSHlVSlZEblY3WW1PaGtxRlM0cDcxNi1yZktkQ0tHOUg2SmRQRFlGTGFNb19fZHgwUHlMTHZGSklXRG5qUGZ4ZWxDMUg0WQ?oc=5
+
+Khaled bin Mohamed bin Zayed meets the Iranian President on the sidelines of the BRICS summit    صوت الإمارات
