@@ -58,10 +58,10 @@ const INSTITUTIONS = [
   {id:"kharafi",   n:"M.A. Kharafi & Sons",          s:"conglomerate", t:3, p:66, short:"Al Kharafi"},
   {id:"alsayer",   n:"Al Sayer Group",               s:"conglomerate", t:3, p:58, short:"Al Sayer"},
   {id:"kipco",     n:"KIPCO",                        s:"sovereign", t:2, p:66, short:"KIPCO"},
-  {id:"lst_abk", n:"Al Ahli Bank of Kuwait", s:"finance", t:2, p:50, short:"ABK"},
+  {id:"lst_abk", n:"Al Ahli Bank of Kuwait K.S.C.P.", s:"finance", t:2, p:62, short:"ABK"},
   {id:"lst_kib", n:"Kuwait International Bank", s:"finance", t:2, p:50, short:"KIB"},
-  {id:"lst_burg", n:"Burgan Bank", s:"finance", t:2, p:50, short:"Burgan Bank"},
-  {id:"lst_boubyan", n:"Boubyan Bank", s:"finance", t:2, p:50, short:"Boubyan Bank"},
+  {id:"lst_burg", n:"Burgan Bank K.P.S.C.", s:"finance", t:2, p:64, short:"Burgan Bank"},
+  {id:"lst_boubyan", n:"Boubyan Bank K.S.C.P.", s:"finance", t:2, p:64, short:"Boubyan Bank"},
   {id:"lst_ifa", n:"International Financial Advisors Holding", s:"finance", t:2, p:50, short:"IFA"},
   {id:"lst_ninv", n:"National Investments Co", s:"finance", t:2, p:50, short:"NINV"},
   {id:"lst_kproj", n:"Kuwait Projects Holding", s:"finance", t:2, p:50, short:"KPROJ"},
@@ -81,7 +81,7 @@ const INSTITUTIONS = [
   {id:"lst_cgc", n:"Combined Group Contracting KSCP", s:"industry", t:2, p:50, short:"CGC"},
   {id:"lst_oulafuel", n:"Oula Fuel Marketing", s:"consumer_disc", t:2, p:50, short:"Oula Fuel Marketing"},
   {id:"lst_gfh", n:"GFH Bank B.S.C.", s:"finance", t:2, p:50, short:"GFH Bank B.S.C."},
-  {id:"lst_warbabank", n:"Warba Bank", s:"finance", t:2, p:50, short:"Warba Bank"},
+  {id:"lst_warbabank", n:"Warba Bank K.S.C.P.", s:"finance", t:2, p:60, short:"Warba Bank"},
   {id:"lst_stc", n:"Kuwait Telecommunications Company", s:"comm", t:2, p:50, short:"STC"},
   {id:"lst_integrated", n:"Integrated Holding Co KSC", s:"industry", t:2, p:50, short:"INTEGRATED"},
   {id:"lst_beyout", n:"Beyout Holding Company K.P.S.C", s:"finance", t:2, p:50, short:"BEYOUT"},
@@ -860,9 +860,27 @@ const PEOPLE = [
     ["alghanim","Senior Vice President - Automotive Group","executive","v"]]},
   {id:"dirk_kahl", n:"Dirk Kahl", t:2, p:58, s:"conglomerate", roles:[
     ["alghanim","Chief Financial Officer","executive","v"]]},
+  {id:"rajul_batra", n:"Rajul Batra", t:2, p:58, s:"consumer_disc", roles:[
+    ["alshaya","Chief Financial Officer","executive","v"]]},
+  {id:"steve_vickerstaff", n:"Steve Vickerstaff", t:2, p:58, s:"consumer_disc", roles:[
+    ["alshaya","Chief Operating Officer","executive","v"]]},
+  {id:"minu_alexander", n:"Minu Alexander", t:2, p:58, s:"consumer_disc", roles:[
+    ["alshaya","President - H&M and Apparel","executive","v"]]},
+  {id:"saleh_alshaya", n:"Saleh Alshaya", t:2, p:58, s:"consumer_disc", roles:[
+    ["alshaya","President - Starbucks","executive","v"]]},
+  {id:"jeff_kellen", n:"Jeff Kellen", t:2, p:58, s:"consumer_disc", roles:[
+    ["alshaya","President - Hospitality","executive","v"]]},
+  {id:"rebecca_jobo", n:"Rebecca Jobo", t:2, p:58, s:"consumer_disc", roles:[
+    ["alshaya","President - Wellness","executive","v"]]},
+  {id:"graeme_cook", n:"Graeme Cook", t:2, p:58, s:"consumer_disc", roles:[
+    ["alshaya","Chief People Officer","executive","v"]]},
+  {id:"paul_morris", n:"Paul Morris", t:2, p:58, s:"consumer_disc", roles:[
+    ["alshaya","Chief Customer & Technology Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
+  ["lst_boubyan","nbk","majority shareholder","v"],
+  ["lst_burg","kipco","majority shareholder","v"],
   ["cabinet_kw","kwgov","governs under"],
   ["mof_kw","cabinet_kw"],["mofa_kw","cabinet_kw"],
   ["moo_kw","cabinet_kw"],["moci_kw","cabinet_kw"],["moinfo_kw","cabinet_kw"],["mopw_kw","cabinet_kw"],["kwmun","cabinet_kw"],

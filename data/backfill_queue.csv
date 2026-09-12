@@ -4,7 +4,6 @@ dubai,execco,Dubai Executive Council,gov,94,1,pending
 abudhabi,royalgroup,Royal Group,sovereign,88,1,pending
 saudi,mod_sa,Ministry of Defense,gov,88,1,pending
 qatar,moi_q,Ministry of Interior,gov,86,1,pending
-qatar,aljazeera,Al Jazeera Media Network,comm,86,1,pending
 saudi,mof_sa,Ministry of Finance,gov,86,1,pending
 saudi,mofa_sa,Ministry of Foreign Affairs,gov,86,1,pending
 saudi,moi_sa,Ministry of Interior,gov,86,1,pending
@@ -94,7 +93,6 @@ abudhabi,totalenergies,TotalEnergies,energy,72,0,pending
 dubai,alhabtoor,Al Habtoor Group,conglomerate,72,1,pending
 dubai,gdmo,Government of Dubai Media Office,comm,72,1,pending
 kuwait,moci_kw,Ministry of Commerce & Industry,gov,72,1,pending
-kuwait,alshaya,Alshaya Group,consumer_disc,72,1,pending
 northern,shjpolice,Sharjah Police (General Command),gov,72,1,pending
 oman,mtcit_om,"Ministry of Transport, Communications & IT",tech,72,1,pending
 qatar,mot_q,Ministry of Transport,gov,72,1,pending
@@ -117,7 +115,6 @@ abudhabi,shell,Shell,energy,70,0,pending
 abudhabi,exxonmobil,ExxonMobil,energy,70,0,pending
 bahrain,mtt_bh,Ministry of Transportation & Telecommunications,gov,70,1,pending
 dubai,vara,VARA (Virtual Assets Regulator),finance,70,1,pending
-dubai,expocity,Expo City Dubai,realestate,70,1,pending
 dubai,dmcc,DMCC,gov,70,1,pending
 dubai,jumeirah,Jumeirah Group,consumer_disc,70,1,pending
 dubai,alghurair,Al Ghurair Group,conglomerate,70,1,pending

@@ -1939,6 +1939,7 @@ const OWNERSHIP = [
   ["lst_oeihc","adx","listed on ADX","ns"],
   ["lst_ih","adx","listed on ADX","ns"],
   ["lst_methaq","adx","listed on ADX","ns"],
+  ["masdar","xrg","co-investor - German offshore wind & battery storage (2026)","v"],
 ];
 
 const FAMILY = [

@@ -135,7 +135,8 @@ const PEOPLE = [
     ["emirates","Chairman & Chief Executive","executive","v"],
     ["enbd","Chairman","board","v"],
     ["dxbairports","Chairman","board","v"],
-    ["flydubai","Chairman","board","v"]],
+    ["flydubai","Chairman","board","v"],
+    ["dubaiholding","Chairman","board","v"]],
     note:"The aviation patriarch — Emirates, the airport system and the emirate's biggest bank."},
   {id:"ahmed_moh", n:"H.H. Sheikh Ahmed bin Mohammed Al Maktoum", t:0, p:84, s:"comm", roles:[
     ["dxbgov","Second Deputy Ruler of Dubai","political","v"],
@@ -209,7 +210,8 @@ const PEOPLE = [
   {id:"binsulayem_dmcc", n:"Ahmed Bin Sulayem", t:2, p:74, s:"gov", roles:[
     ["dmcc","Executive Chairman & CEO","executive","v"]]},
   {id:"meier_jumeirah", n:"Thomas B. Meier", t:2, p:66, s:"consumer_disc", roles:[
-    ["jumeirah","Group CEO","executive","v"]]},
+    ["jumeirah","Group CEO","executive","v"],
+    ["dubaiholding","Chief Executive Officer, Jumeirah","executive","v"]]},
   {id:"white_vara", n:"Matthew White", t:2, p:62, s:"finance", roles:[
     ["vara","Chief Executive Officer","executive","v"]]},
   {id:"marwan_ghalita", n:"Marwan Ahmed bin Ghalita", t:1, p:76, s:"gov", roles:[
@@ -277,7 +279,8 @@ const PEOPLE = [
   {id:"matar_alhemeiri", n:"Matar AlHemeiri", t:2, p:52, s:"realestate", roles:[
     ["emaar","Board Member","board","v"]]},
   {id:"omar_karim", n:"Omar Karim", t:2, p:52, s:"realestate", roles:[
-    ["emaar","Board Member","board","v"]]},
+    ["emaar","Board Member","board","v"],
+    ["dubaiholding","Group Chief Investment Officer; CEO, Dubai Holding Investments","executive","v"]]},
   {id:"amit_jain", n:"Amit Jain", t:2, p:58, s:"realestate", roles:[
     ["emaar","Group Chief Executive Officer","executive","v"]]},
   {id:"ahmad_thani_al", n:"Ahmad Thani Al Matrooshi", t:2, p:58, s:"realestate", roles:[
@@ -944,6 +947,22 @@ const PEOPLE = [
     ["dpworld","CEO & Managing Director, Subcontinent, Central Asia, Levant and Egypt","executive","v"]]},
   {id:"saif_al_nuaimi", n:"Saif Al Nuaimi", t:2, p:58, s:"industry", roles:[
     ["dpworld","Group Chief Security Officer","executive","v"]]},
+  {id:"ahmed_al_khatib", n:"Ahmed Al Khatib", t:2, p:58, s:"realestate", roles:[
+    ["expocity","Chief Development and Delivery Officer","executive","v"]]},
+  {id:"beau_mclaren", n:"Beau McLaren", t:2, p:58, s:"realestate", roles:[
+    ["expocity","Chief Legal Officer","executive","v"]]},
+  {id:"marjan_faraidooni", n:"Marjan Faraidooni", t:2, p:58, s:"realestate", roles:[
+    ["expocity","Chief People Officer & Chief of Education & Culture","executive","v"]]},
+  {id:"mukhtar_safi", n:"Mukhtar Safi", t:2, p:58, s:"realestate", roles:[
+    ["expocity","Chief Financial Officer","executive","v"]]},
+  {id:"nadia_verjee", n:"Nadia Verjee", t:2, p:58, s:"realestate", roles:[
+    ["expocity","Executive Director, Expo Dubai Group","executive","v"]]},
+  {id:"najeeb_al_ali", n:"Najeeb Al Ali", t:2, p:58, s:"realestate", roles:[
+    ["expocity","Executive Director, Expo City Dubai Authority","executive","v"]]},
+  {id:"rashid_mohammed", n:"Rashid Mohammed", t:2, p:58, s:"realestate", roles:[
+    ["expocity","Chief Technology Officer","executive","v"]]},
+  {id:"yousuf_caires", n:"Yousuf Caires", t:2, p:58, s:"realestate", roles:[
+    ["expocity","Executive Director, Expo City Dubai Foundation","executive","v"]]},
 ];
 
 const OWNERSHIP = [

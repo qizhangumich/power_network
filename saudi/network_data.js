@@ -78,7 +78,7 @@ const INSTITUTIONS = [
   {id:"ajlan",     n:"Ajlan & Bros",                 s:"conglomerate", t:3, p:62, short:"Ajlan & Bros"},
   {id:"lst_2030", n:"Saudi Arabia Refineries Co.", s:"energy", t:2, p:50, short:"2030"},
   {id:"lst_2380", n:"Rabigh Refining and Petrochemical Co. (Petro Rabigh)", s:"energy", t:2, p:50, short:"2380"},
-  {id:"lst_4030", n:"National Shipping Co. of Saudi Arabia (Bahri)", s:"energy", t:2, p:50, short:"4030"},
+  {id:"lst_4030", n:"The National Shipping Company of Saudi Arabia (Bahri)", s:"energy", t:2, p:64, short:"4030"},
   {id:"lst_2381", n:"Arabian Drilling Co.", s:"energy", t:2, p:60, short:"Arabian Drilling"},
   {id:"lst_2382", n:"ADES Holding Co.", s:"energy", t:2, p:50, short:"ADES Holding Co."},
   {id:"lst_1201", n:"Takween Advanced Industries Co.", s:"materials", t:2, p:50, short:"1201"},
@@ -1348,6 +1348,7 @@ const PEOPLE = [
 ];
 
 const OWNERSHIP = [
+  ["lst_4030","pif","anchor shareholder","v"],
   ["lst_1010","pif","PIF anchor stake","ns"],
   ["com","royalcourt","governs under"],
   ["mof_sa","com"],["mofa_sa","com"],["mod_sa","com"],["moenergy","com"],["misa","com"],

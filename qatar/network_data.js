@@ -137,7 +137,7 @@ const INSTITUTIONS = [
   {id:"lst_qncd", n:"Qatar National Cement Company Q.P.S.C.", s:"materials", t:2, p:50, short:"QNCD"},
   {id:"lst_mcgs", n:"Medicare Group Q.P.S.C.", s:"health", t:2, p:50, short:"MCGS"},
   {id:"lst_dohi", n:"Doha Insurance Group Q.P.S.C.", s:"finance", t:2, p:50, short:"DOHI"},
-  {id:"lst_gwcs", n:"Gulf Warehousing Company Q.P.S.C.", s:"industry", t:2, p:50, short:"GWCS"},
+  {id:"lst_gwcs", n:"Gulf Warehousing Company Q.P.S.C. (GWC)", s:"industry", t:2, p:58, short:"GWCS"},
   {id:"lst_qisi", n:"Qatar Islamic Insurance Group Q.P.S.C.", s:"finance", t:2, p:50, short:"QISI"},
   {id:"lst_bema", n:"Damaan Islamic Insurance Company (Beema) Q.P.S.C.", s:"finance", t:2, p:50, short:"BEMA"},
   {id:"lst_qimd", n:"Qatar Industrial Manufacturing Company Q.P.S.C.", s:"materials", t:2, p:50, short:"QIMD"},
@@ -198,7 +198,8 @@ const PEOPLE = [
   {id:"faisal_bt", n:"H.E. Sheikh Faisal bin Thani Al Thani", t:0, p:78, s:"comm", roles:[
     ["ooredoo","Chairman","board","v"],
     ["lst_qfbq","Chairman","board","v"],
-    ["qia","Chief Investment Officer, Africa & Asia-Pacific","executive","ns"]]},
+    ["qia","Chief Investment Officer, Africa & Asia-Pacific (until 2025)","executive","v","former:until 2025"],
+    ["qia","Member of the Board","board","v"]]},
   {id:"meshal_amb", n:"H.E. Sheikh Meshal bin Hamad Al Thani", t:0, p:78, s:"gov", roles:[
     ["mofa_q","Ambassador to the United States","political","v"]]},
   {id:"saoud_diwan", n:"H.E. Sheikh Saoud bin Abdulrahman Al Thani", t:0, p:78, s:"gov", roles:[
@@ -247,7 +248,7 @@ const PEOPLE = [
     ["qfz","Chairman","government","v"]],
     note:"Former QIA CEO; runs the free-zone platform courting global tech and logistics."},
   {id:"sowaidi", n:"Mohammed Saif Al Sowaidi", t:1, p:86, s:"sovereign", roles:[
-    ["qia","Chief Executive Officer","executive","ns"],
+    ["qia","Chief Executive Officer","executive","v"],
     ["katarahosp","Chairman","board","v"]]},
   {id:"khelaifi", n:"Nasser Al-Khelaifi", t:1, p:86, s:"comm", roles:[
     ["qsi","Chairman","board","v"],
@@ -988,6 +989,26 @@ const PEOPLE = [
     ["katarahosp","Board Member","board","v"]]},
   {id:"navid_chamdia", n:"Navid Chamdia", t:2, p:52, s:"consumer_disc", roles:[
     ["katarahosp","Board Member","board","v"]]},
+  {id:"sheikh_nasser_bin_b", n:"Sheikh Nasser bin Faisal Al Thani", t:2, p:58, s:"comm", roles:[
+    ["aljazeera","Director General","executive","v"]]},
+  {id:"mounir_daymi", n:"Mounir Daymi", t:2, p:58, s:"comm", roles:[
+    ["aljazeera","Executive Director of Digital","executive","v"]]},
+  {id:"abdulaziz_aqeel", n:"Abdulaziz Aqeel", t:2, p:58, s:"comm", roles:[
+    ["aljazeera","Executive Director of HR & Corporate Services","executive","v"]]},
+  {id:"ramzan_alnoimi", n:"Ramzan Alnoimi", t:2, p:58, s:"comm", roles:[
+    ["aljazeera","Executive Director of Global Brand","executive","v"]]},
+  {id:"ahmad_al_fahad", n:"Ahmad Al Fahad", t:2, p:58, s:"comm", roles:[
+    ["aljazeera","Executive Director of Technology & Network Operations Division","executive","v"]]},
+  {id:"hamad_al_dosari", n:"Hamad Al-Dosari", t:2, p:58, s:"comm", roles:[
+    ["aljazeera","Executive Director of Finance and Procurement","executive","v"]]},
+  {id:"asef_hamidi", n:"Asef Hamidi", t:2, p:60, s:"comm", roles:[
+    ["aljazeera","Managing Director of Al Jazeera Arabic","executive","v"]]},
+  {id:"issa_ali", n:"Issa Ali", t:2, p:60, s:"comm", roles:[
+    ["aljazeera","Managing Director of Al Jazeera English","executive","v"]]},
+  {id:"ahmed_mahfouz", n:"Ahmed Mahfouz", t:2, p:60, s:"comm", roles:[
+    ["aljazeera","Managing Director of Al Jazeera Documentary","executive","v"]]},
+  {id:"dima_khatib", n:"Dima Khatib", t:2, p:60, s:"comm", roles:[
+    ["aljazeera","Managing Director of Digital Projects","executive","v"]]},
 ];
 
 const OWNERSHIP = [
