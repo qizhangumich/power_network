@@ -1,0 +1,5 @@
+# Abu Dhabi firms announce deals in Germany that could generate more than €5 billion of investment
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdGxvdWlEenp1SWJ6X2RsYm1EeTUxSkQ5eWRhajB4TkpBUF94NEFTZXpIR0RaZXJ5M1lQQmVsclhCcGtPVDd0LVhna25ncUVVekE3cWVWM1NiMy1ub2hvaDdObnpOa1lzZGlLemN3VkZ2NnUtUU5iTFYxcEE4RFFlYmJjTTd4Yi0zUzJTeU50V041TE43aGdNajJJMUg4cDFWZHgyOHE3dkk3QUlwLWpmUGZhQUFOMFpCTC01VGlManl2V29ib1ZianY5T1MtLVlfU3lRTzlxcHdiUEpDQTVUVFVn?oc=5
+
+Abu Dhabi firms announce deals in Germany that could generate more than €5 billion of investment    thenationalnews.com

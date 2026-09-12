@@ -1,0 +1,5 @@
+# Abu Dhabi firms announce German deals worth over €5bn
+source: UA.NEWS
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcWljWDdLRWlLWWt1LUs5U1QteDEyczhVSWVNSzZHUF9TNU5vbFo1UFJnVnNPcDR6b24wT2I2V0NpZlBwSkRyWFJGcUY5NHFXZ0d2RnZGY3ZLWGQ1ZVpwY3l2aUM4Y3ltZzR2bFJpZlYzNEFlODlWN0lCNS1NOTdfeThfemM1MDFYcHJ4cUV5X1BuNHVTS3BtV3d5WUY0ZlBFcS04QUYzUlplNklrbm9FYTZua1RhY01hc3I4V0tLRUtIdw?oc=5
+
+Abu Dhabi firms announce German deals worth over €5bn    UA.NEWS

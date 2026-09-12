@@ -1,5 +1,0 @@
-# Aldar reveals final phase of Saadiyat Island masterplan with AED100bn Marsa Al Saadiyat residential wellness district
-source: spabusiness.com
-url: https://news.google.com/rss/articles/CBMi-gFBVV95cUxNRmRabXRzeXRhMW5ZM0tUZEpGeWI4ekdycUp3S3BHS0VYZFkycFNWYVJvb1E0a08yMWFLRnNUTkRCQUYtSEk1SlNrNWl2OFhyWVgzNU55QUhsMGNVWkVPdVh1ZHc4WEpVNlhXSEVYTy1Kb1R0XzJmOWlPbzI4R0g2VXhVWE1SanRsNjRWUXJ1MlVNQlE2ZzAzbXBEWG5pNG5HLTlsMjN1d3FXVlV3UHFYTnUzOGlZTGZiaFVHTVp6MDJsUjVkUVN6NWpwTEthaG9GclY1ZHBoVGtHRDM0OU5PU1VVTFFhbERCTHo4X2NsZTQ4X2JRRnZhbEhR?oc=5
-
-Aldar reveals final phase of Saadiyat Island masterplan with AED100bn Marsa Al Saadiyat residential wellness district    spabusiness.com

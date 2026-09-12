@@ -1,0 +1,5 @@
+# Emirates Will Finally Be Allowed to Start Direct Flights to Berlin After Years of Intense Lobbying
+source: PYOK
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTm5EQzVwczQxT1pUOVl6cWVodU9XVXdFaGpBV1A2SjhCWklpLUtPcmtHNHA2aEFBZUZfbnFiQWd1WmRfRDVCcGJjZlpxdzQ3dV9SblFiTURncFhTNUU1UFJYaWVnclJUVWJzREYxc05PaVhqM24ybTR1UDhkTVJrbnhNZkhMSkNwYjRjTEZWMVd6Nl81d2xjdGZyRUUtbG1DanlicFI3LXMzb0F3eXJMMzNRVTVxOTNzcTJYeXFjalcyZlR2NnNMNEp0NHg0ZEVaVjdORHVRT0JrbjRRdXc?oc=5
+
+Emirates Will Finally Be Allowed to Start Direct Flights to Berlin After Years of Intense Lobbying    PYOK

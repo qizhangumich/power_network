@@ -1,0 +1,5 @@
+# UAE and RWE strengthen cooperation across offshore wind and LNG
+source: RWE
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxQdnktNUlmMUVub1djck5taFZwVV9vbnpuNXFyTXcySjN5dGVIbGh2MmFTeEd6X1Q0YUxDSVhSeUhyUDFsUnNWWmVVNG1RcUt1VWhsclJnMlM2ZHlLM3kzYlpvSjV3LVJfVWgxU3k1bmVFckl1bHlNckJ2UEtESk1YeWVWb2pEaWhNa2lTcmY3U2dOblgtbmJaUHhla2xTVTMwb0M3WTg1OUdPeGNpbzVlYQ?oc=5
+
+UAE and RWE strengthen cooperation across offshore wind and LNG    RWE
