@@ -36,6 +36,7 @@ def main():
     run([sys.executable, TOOLS / "report.py"])
     run([sys.executable, TOOLS / "growth_report.py"])
     run([sys.executable, TOOLS / "backfill_queue.py"])
+    run([sys.executable, TOOLS / "discover_institutions.py"])
     run([sys.executable, TOOLS / "build_regions.py"])
     run(["git", "add", "-A"])
     diff = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT)
