@@ -1,0 +1,5 @@
+# Modi, Abu Dhabi crown prince hail $11.5bn India deal
+source: Kuwait Times
+url: https://news.google.com/rss/articles/CBMimgFBVV95cUxON0RueFhIX0JlVlZJNkhtQVR2STVpSTNfRXRMdDFHRHFGVUFuQTROODQ2S0tXMDBCV2E5ajcwM0FFdjJoZHk2Tlg1Q2JVc1hnekRJbXB3QUtfcEw2dlF2aXg0SEp1U1Z2UHFGTFgzNGNqcGVnd2tLTUR0eFFrNnliZWltY09ic3RXR3lqazIxTmlBdTdUa0xZZlJn0gGeAUFVX3lxTE1VcG1ucE9kSXE4cW1oeVRKSm9HZG1FYlMya0lNZ0ZQZmZoZXU1MjMydVgxMUtRNmV3Z2o2c005UFlicVV2SUpGOGxyZVkzTFhvWjVFemhIbTVEcy11eDEwUkZRZWVRUUdXbUMxUlhnaURZQlplQ05VVGp1dnZwRWFtZkJWZW5ERVdSeWdoa0Z3VkU2SlZCU3dLOXdMWlFB?oc=5
+
+Modi, Abu Dhabi crown prince hail $11.5bn India deal    Kuwait Times

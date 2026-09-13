@@ -1,0 +1,5 @@
+# PureHealth takes over lab network across United Kingdom
+source: Zawya
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPUTBwMTl0LWt3N2ZqNWYzeEMtN29jVUd1Q0t2Rl9hZmhKNXdhY2FCTldGT0lzV2FFN1J1YmhuOElBeWs5VVJ4Z1U1SGxGaEFEYjVZWXloamZQX0xIV2c1bnpiWFREUk5QUnBJSDFaZE5RMWJTZHkwdTY2TjVldFhZSHhSRUM3LUNIWnotOVZWSF9NN0RZNE1LaWlCTmpraGFodzg0ZXZmR2R5MFpCRnZKeTJ2UWdLYk0?oc=5
+
+PureHealth takes over lab network across United Kingdom    Zawya
