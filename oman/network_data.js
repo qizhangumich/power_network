@@ -165,6 +165,9 @@ const INSTITUTIONS = [
   {id:"towell", n:"W.J. Towell Group", s:"conglomerate", t:3, p:59, short:"Towell Group"},
   {id:"mohsin_haider_darwish", n:"Mohsin Haider Darwish LLC", s:"conglomerate", t:3, p:56, short:"Mohsin Haider Darwish"},
   {id:"hydrom", n:"Hydrogen Oman", s:"energy", t:2, p:60, short:"Hydrom"},
+  {id:"al_mazunah_fz", n:"Al Mazunah Free Zone", s:"gov", t:3, p:52, short:"Al Mazunah FZ"},
+  {id:"port_of_duqm", n:"Port of Duqm Company SAOC", s:"industry", t:2, p:56, short:"Port of Duqm"},
+  {id:"muscat_municipality", n:"Muscat Municipality", s:"gov", t:3, p:52, short:"Muscat Municipality"},
 ];
 
 const PEOPLE = [
@@ -874,6 +877,7 @@ const OWNERSHIP = [
   ["hydrom","edo","wholly owned subsidiary (green hydrogen)","v"],
   ["pdo","edo","60% government-owned via EDO","v"],
   ["omanflour","nitaj","portfolio company of Nitaj","v"],
+  ["al_mazunah_fz","opaz","regulatory oversight","v"],
 ];
 
 const FAMILY = [
@@ -902,4 +906,6 @@ const AKA = {
   tra_oman:["TRA"],
   apsr_oman:["APSR","Authority for Electricity and Water Regulation"],
   mohsin_haider_darwish:["MHD"],
+  al_mazunah_fz:["Al-Mazyunah Free Zone"],
+  port_of_duqm:["PDC"],
 };

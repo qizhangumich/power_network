@@ -229,3 +229,15 @@ doh,Department of Health,adgov,Abu Dhabi Government (Ruler's Court),government e
 dmt,Department of Municipalities & Transport,adgov,Abu Dhabi Government (Ruler's Court),government entity,ns
 ead,Environment Agency – Abu Dhabi,adgov,Abu Dhabi Government (Ruler's Court),government entity,ns
 adafsa,Abu Dhabi Agriculture & Food Safety Authority,adgov,Abu Dhabi Government (Ruler's Court),government entity,v
+marlan_space,Marlan Holding (Marlan Space),ihc,International Holding Company,portfolio company (pending 80% acquisition),v
+masdar_city,Masdar City Free Zone,mubadala,Mubadala Investment Company,anchor shareholder (separated from Masdar 2022),v
+taqa_water,TAQA Water Solutions,taqa,TAQA Group,subsidiary,v
+globalfoundries,GlobalFoundries,mubadala,Mubadala Investment Company,majority-owned subsidiary (~73% stake),v
+cepsa_moeve,Cepsa (Moeve),mubadala,Mubadala Investment Company,majority-owned subsidiary (~63% stake),v
+louis_dreyfus,Louis Dreyfus Company,adq,ADQ,strategic stake (45%),v
+ta_ziz,TA'ZIZ,adnoc,ADNOC Group,joint venture (ADNOC & ADQ),v
+fortress,Fortress Investment Group,mubadala_capital,Mubadala Capital,majority-owned (68% via Mubadala Capital-led consortium),v
+adnoc_global_trading,ADNOC Global Trading,adnoc,ADNOC Group,joint venture (ADNOC 65% / Eni 20% / OMV 15%),v
+aldar_investment_propert,Aldar Investment Properties,aldar,Aldar Properties,majority-owned subsidiary (88.10%),ns
+aldar_estates,Aldar Estates,aldar,Aldar Properties,majority-owned subsidiary (82.55%; IHC/ADNEC Group minority holders),ns
+provis,Provis Real Estate Management,aldar,Aldar Properties,majority-owned subsidiary (65.10%),ns

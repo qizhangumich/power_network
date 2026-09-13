@@ -428,6 +428,14 @@ const INSTITUTIONS = [
   {id:"tdf", n:"Tourism Development Fund", s:"finance", t:2, p:58, short:"TDF"},
   {id:"adf", n:"Agricultural Development Fund", s:"finance", t:2, p:56, short:"ADF"},
   {id:"hrdf", n:"Human Resources Development Fund", s:"gov", t:2, p:58, short:"HRDF"},
+  {id:"snb_capital", n:"SNB Capital", s:"finance", t:2, p:58, short:"SNB Capital"},
+  {id:"axelerated_sol", n:"Axelerated Solutions", s:"tech", t:3, p:52, short:"Axelerated Sol."},
+  {id:"gulf_coast_dev", n:"Gulf Coast Development Company", s:"realestate", t:2, p:58, short:"Gulf Coast Dev."},
+  {id:"bsf_capital", n:"BSF Capital", s:"finance", t:2, p:55, short:"BSF Capital"},
+  {id:"mwspc", n:"Ma'aden Wa'ad Al Shamal Phosphate Company", s:"materials", t:2, p:58, short:"MWSPC"},
+  {id:"jabal_sayid", n:"Ma'aden Barrick Copper Company", s:"materials", t:2, p:56, short:"Jabal Sayid"},
+  {id:"center3", n:"Center3", s:"tech", t:2, p:58, short:"Center3"},
+  {id:"idj", n:"International Dairy & Juice Limited", s:"consumer_stap", t:2, p:56, short:"IDJ"},
 ];
 
 const PEOPLE = [
@@ -1571,6 +1579,10 @@ const PEOPLE = [
   {id:"abdulrahman_saleh_alismail", n:"Abdulrahman Saleh Alismail", t:2, p:60, s:"materials", roles:[
     ["lst_2250","Board Member","board","v"],
     ["lst_2250","Chief Executive Officer","executive","v"]]},
+  {id:"prince_abdulrahman_bin", n:"Prince Abdulrahman bin Mohammed Al-Muqrin", t:2, p:58, s:"gov", roles:[
+    ["mod_sa","Deputy Minister of Defense (rank of minister)","executive","ns"]]},
+  {id:"abdulmuhsen_bin_saad", n:"Abdulmuhsen bin Saad Alkhalaf", t:2, p:58, s:"gov", roles:[
+    ["mof_sa","Vice Minister of Finance","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1902,6 +1914,13 @@ const OWNERSHIP = [
   ["redf","ndf","NDF-affiliated fund","v"],
   ["tdf","ndf","NDF-affiliated fund","v"],
   ["adf","ndf","NDF-affiliated fund","v"],
+  ["snb_capital","snb","subsidiary","v"],
+  ["gulf_coast_dev","pif","subsidiary","v"],
+  ["bsf_capital","lst_1050","wholly-owned subsidiary","v"],
+  ["mwspc","maaden","majority-owned joint venture with SABIC (bought out Mosaic's 25% in 2024)","ns"],
+  ["jabal_sayid","maaden","50/50 joint venture with Barrick Gold","v"],
+  ["center3","stc","wholly-owned subsidiary (data centers & subsea cables)","v"],
+  ["idj","almarai","wholly-owned subsidiary (bought out PepsiCo's 48% in 2023)","v"],
 ];
 
 const FAMILY = [
@@ -1913,6 +1932,8 @@ const FAMILY = [
 ];
 
 const AKA = {
+  moenergy:["Saudi Energy","Ministry of Energy"],
+  lst_1030:["Saudi Investment Bank","SAIB"],
   mbs:["Mohammed bin Salman","MBS","Crown Prince Mohammed"],
   kbs:["Khalid bin Salman","KBS"],
   abs:["Abdulaziz bin Salman"],
@@ -1960,4 +1981,8 @@ const AKA = {
   al_rashed_rar:["RAR Group"],
   saudi_exim:["Saudi Export-Import Bank"],
   hrdf:["Hadaf"],
+  snb_capital:["NCB Capital"],
+  axelerated_sol:["AXS"],
+  bsf_capital:["Saudi Fransi Capital"],
+  center3:["Digital Centers for Data and Telecommunications Company"],
 };

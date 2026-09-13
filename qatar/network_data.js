@@ -118,7 +118,6 @@ const INSTITUTIONS = [
   {id:"sinopec",   n:"Sinopec",                       s:"energy", t:3, p:60, short:"Sinopec"},
   {id:"cnpc",      n:"CNPC",                          s:"energy", t:3, p:58, short:"CNPC"},
   {id:"lst_eres", n:"Ezdan Holding Group Q.P.S.C.", s:"realestate", t:2, p:60, short:"Ezdan"},
-  {id:"lst_mark", n:"Al Rayan Bank Q.P.S.C.", s:"finance", t:2, p:50, short:"MARK"},
   {id:"lst_igrd", n:"Estithmar Holding Q.P.S.C.", s:"conglomerate", t:2, p:50, short:"IGRD"},
   {id:"lst_dubk", n:"Dukhan Bank Q.P.S.C.", s:"finance", t:2, p:64, short:"Dukhan Bank"},
   {id:"lst_qiik", n:"Qatar International Islamic Bank Q.P.S.C.", s:"finance", t:2, p:50, short:"QIIK"},
@@ -1183,6 +1182,10 @@ const PEOPLE = [
     ["udc","Internal Audit Director","executive","v"]]},
   {id:"mohamad_fadil_hoballah", n:"Mohamad Fadil Hoballah", t:2, p:58, s:"realestate", roles:[
     ["udc","Acting General Legal Counsel","executive","v"]]},
+  {id:"sheikh_abdulaziz_bin", n:"Sheikh Abdulaziz bin Faisal bin Mohammed Al Thani", t:2, p:58, s:"gov", roles:[
+    ["moi_q","Minister of State for Interior Affairs","executive","v"]]},
+  {id:"abdullah_bin_khalaf", n:"Abdullah bin Khalaf Hattab Al Kaabi", t:2, p:58, s:"gov", roles:[
+    ["moi_q","Undersecretary of the Ministry of Interior","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1234,7 +1237,7 @@ const OWNERSHIP = [
   ["sinopec","qatarenergy","North Field East stake"],
   ["cnpc","qatarenergy","North Field East stake"],
   ["lst_eres","qse","listed on QSE","ns"],
-  ["lst_mark","qse","listed on QSE","ns"],
+  ["masraf","qse","listed on QSE","ns"],
   ["lst_igrd","qse","listed on QSE","ns"],
   ["lst_dubk","qse","listed on QSE","ns"],
   ["lst_qiik","qse","listed on QSE","ns"],
@@ -1308,6 +1311,8 @@ const FAMILY = [
 ];
 
 const AKA = {
+  masraf:["Al Rayan Bank","MARK","AlRayan Bank"],
+  qdb:["Qatar Development"],
   tamim:["Tamim bin Hamad","Emir Tamim","Emir of Qatar"],
   hamad_bk:["Hamad bin Khalifa","Father Emir"],
   moza:["Sheikha Moza","Moza bint Nasser"],

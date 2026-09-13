@@ -57,6 +57,21 @@ const INSTITUTIONS = [
   {id:"scci",     n:"Sharjah Chamber of Commerce & Industry", s:"gov", t:2, p:66, short:"SCCI"},
   {id:"sedd",     n:"Sharjah Economic Development Department", s:"gov", t:1, p:70, short:"SEDD"},
   {id:"ghassan_aboud_grp", n:"Ghassan Aboud Group", s:"conglomerate", t:3, p:57, short:"Ghassan Aboud Grp"},
+  {id:"saif_zone", n:"Sharjah Airport International Free Zone", s:"gov", t:2, p:62, short:"SAIF Zone"},
+  {id:"hfza", n:"Hamriyah Free Zone Authority", s:"gov", t:2, p:64, short:"HFZA"},
+  {id:"afz", n:"Ajman Free Zone", s:"gov", t:2, p:56, short:"AFZ"},
+  {id:"uaqftz", n:"Umm Al Quwain Free Trade Zone", s:"gov", t:2, p:50, short:"UAQFTZ"},
+  {id:"shams", n:"Sharjah Media City (Shams)", s:"gov", t:2, p:54, short:"Shams"},
+  {id:"rak_ido", n:"RAK Investment & Development Office (RAKIA)", s:"sovereign", t:1, p:68, short:"RAK IDO"},
+  {id:"rak_ded", n:"RAK Department of Economic Development", s:"gov", t:2, p:58, short:"RAK DED"},
+  {id:"raktda", n:"Ras Al Khaimah Tourism Development Authority", s:"gov", t:1, p:64, short:"RAKTDA"},
+  {id:"rak_hospital", n:"RAK Hospital", s:"health", t:3, p:50, short:"RAK Hospital"},
+  {id:"al_hamra", n:"Al Hamra (Al Hamra Real Estate Development)", s:"realestate", t:2, p:58, short:"Al Hamra"},
+  {id:"stevin_rock", n:"Stevin Rock", s:"materials", t:2, p:56, short:"Stevin Rock"},
+  {id:"fujairah_municipality", n:"Fujairah Municipality", s:"gov", t:2, p:56, short:"Fujairah Municipality"},
+  {id:"rakpa", n:"RAK Petroleum Authority", s:"gov", t:2, p:56, short:"RAKPA"},
+  {id:"rak_gas", n:"RAK Gas", s:"energy", t:2, p:58, short:"RAK Gas"},
+  {id:"rak_ports", n:"RAK Ports (Saqr Port Authority)", s:"industry", t:1, p:64, short:"RAK Ports"},
 ];
 
 const PEOPLE = [
@@ -73,6 +88,7 @@ const PEOPLE = [
     ["shj_execco","Chairman","political","v"]],
     note:"Grandson of the Ruler; runs day-to-day government execution across Sharjah's departments."},
   {id:"bodour", n:"H.H. Sheikha Bodour Al Qasimi", t:0, p:82, s:"comm", roles:[
+    ["aus","Chairperson of the Board of Trustees","board","v"],
     ["sba","Chairperson","board","v"],
     ["shurooq","Chairperson","board","v"]],
     note:"The Ruler's daughter; publishing, investment and development portfolios."},
@@ -497,6 +513,51 @@ const PEOPLE = [
     ["danagas","Dana Gas Iraq Country Manager and Director of Marketing and Government Relations","executive","v"]]},
   {id:"ayman_samra", n:"Ayman Samra", t:2, p:46, s:"energy", roles:[
     ["danagas","General Manager Egypt","executive","v"]]},
+  {id:"mohamed_ali_alabbar", n:"Mohamed Ali Alabbar", t:2, p:52, s:"education", roles:[
+    ["aus","Board of Trustees Member","board","v"]]},
+  {id:"abdulfattah_mansoor_sharaf", n:"Abdulfattah Mansoor Sharaf", t:2, p:52, s:"education", roles:[
+    ["aus","Board of Trustees Member","board","v"]]},
+  {id:"ahmad_mohamed_fawzi", n:"Ahmad Mohamed Fawzi Abu Eideh", t:2, p:52, s:"education", roles:[
+    ["aus","Board of Trustees Member","board","v"]]},
+  {id:"mohammed_issa_alhuraimel", n:"Mohammed Issa Alhuraimel Alshamsi", t:2, p:52, s:"education", roles:[
+    ["aus","Board of Trustees Member","board","v"]]},
+  {id:"sheikh_sultan_sooud", n:"Sheikh Sultan Sooud Al Qassemi", t:2, p:52, s:"education", roles:[
+    ["aus","Board of Trustees Member","board","v"]]},
+  {id:"nawal_al_hosany", n:"Nawal Al-Hosany", t:2, p:52, s:"education", roles:[
+    ["aus","Board of Trustees Member","board","v"]]},
+  {id:"bedour_saeed_al", n:"Bedour Saeed Al Raqbani", t:2, p:52, s:"education", roles:[
+    ["aus","Board of Trustees Member","board","v"]]},
+  {id:"tod_a_laursen", n:"Tod A. Laursen", t:2, p:58, s:"education", roles:[
+    ["aus","Chancellor","executive","v"]]},
+  {id:"sheikh_abdullah_bin_b_b", n:"Sheikh Abdullah bin Humaid Al Qasimi", t:2, p:52, s:"gov", roles:[
+    ["rak_execco","Executive Council Member","board","v"]]},
+  {id:"sheikh_ahmed_bin", n:"Sheikh Ahmed bin Saud Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["rak_execco","Executive Council Member","board","v"],
+    ["marjan","Chairman","board","v"]]},
+  {id:"sheikh_saqr_bin", n:"Sheikh Saqr bin Omar Al Qasimi", t:2, p:60, s:"realestate", roles:[
+    ["marjan","Chief Executive Officer of Marjan Development","executive","v"]]},
+  {id:"alison_grinnell", n:"Alison Grinnell", t:2, p:60, s:"realestate", roles:[
+    ["marjan","Chief Executive Officer of Marjan Hospitality","executive","v"]]},
+  {id:"donald_bremner", n:"Donald Bremner", t:2, p:60, s:"realestate", roles:[
+    ["marjan","Chief Executive Officer of Marjan Lifestyle","executive","v"]]},
+  {id:"tom_roelens", n:"Tom Roelens", t:2, p:58, s:"consumer_disc", roles:[
+    ["wynnmarjan","Chief Operating Officer","executive","ns"]]},
+  {id:"david_patent", n:"David Patent", t:2, p:58, s:"consumer_disc", roles:[
+    ["wynnmarjan","Executive Vice President of Casino Operations","executive","ns"]]},
+  {id:"sherri_desalvio", n:"Sherri DeSalvio", t:2, p:58, s:"consumer_disc", roles:[
+    ["wynnmarjan","Vice President of Pre-Opening Planning and Strategic Initiatives","executive","ns"]]},
+  {id:"sheikh_rashid_bin", n:"Sheikh Rashid bin Saud Al Mualla", t:2, p:62, s:"gov", roles:[
+    ["uaqgov","Crown Prince of Umm Al Quwain and Chairman of the Executive Council","executive","v"]]},
+  {id:"sheikh_ahmed_bin_b", n:"Sheikh Ahmed bin Saud bin Rashid Al Mualla", t:2, p:52, s:"gov", roles:[
+    ["uaqgov","Deputy Ruler of Umm Al Quwain","board","ns"]]},
+  {id:"sheikh_rashid_bin_b", n:"Sheikh Rashid bin Hamad Al Sharqi", t:2, p:62, s:"gov", roles:[
+    ["fujgov","Chairman of Fujairah Culture and Media Authority","executive","ns"]]},
+  {id:"thumbay_moideen", n:"Thumbay Moideen", t:2, p:58, s:"health", roles:[
+    ["thumbay","Founder President","executive","v"]]},
+  {id:"ghassan_aboud", n:"Ghassan Aboud", t:2, p:62, s:"conglomerate", roles:[
+    ["ghassan_aboud_grp","Founder and Chairman","executive","ns"]]},
+  {id:"abdul_wahab_al", n:"Abdul Wahab Al-Halabi", t:2, p:62, s:"consumer_stap", roles:[
+    ["iffco","Executive Chairman","board","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -519,6 +580,22 @@ const OWNERSHIP = [
   ["shjpolice","shj_execco","reports to"],
   ["sedd","shj_execco","reports to"],
   ["scci","shjgov"],
+  ["saif_zone","shjgov","government free zone authority","v"],
+  ["hfza","shjgov","government free zone authority","v"],
+  ["afz","ajmgov","government free zone authority","v"],
+  ["uaqftz","rakgov","government free zone authority","v"],
+  ["shams","shjgov","established by Emiri Decree of the Ruler of Sharjah","v"],
+  ["rak_ido","rakgov","government investment/development arm","v"],
+  ["rak_ded","rakgov","government entity","v"],
+  ["raktda","rakgov","established by RAK government (2011)","v"],
+  ["al_hamra","rakgov","government-linked master developer","ns"],
+  ["stevin_rock","rakgov","portfolio holding (RAK Investment & Development Office)","v"],
+  ["fujairah_municipality","fujgov","government entity","v"],
+  ["rakpa","rakgov","government regulatory authority (RAK Law 4/2018 & 5/2019)","v"],
+  ["rak_gas","rakgov","wholly government-owned state gas utility","v"],
+  ["rak_ports","rakgov","government entity","v"],
+  ["afz","fujgov","government free zone authority","v"],
+  ["scci","ajmgov","government entity (est. 1977 Emiri Decree)","v"],
 ];
 
 const FAMILY = [
@@ -564,4 +641,13 @@ const AKA = {
   abdouli_marjan:["Abdulla Al Abdouli"],
   tappeiner_wynn:["Max Tappeiner"],
   ghassan_aboud_grp:["GAG"],
+  saif_zone:["Sharjah Airport International Free Zone Authority"],
+  hfza:["Hamriyah Free Zone"],
+  afz:["Free Zones Authority of Ajman"],
+  uaqftz:["UAQ FTZ"],
+  shams:["Sharjah Media City Free Zone Authority"],
+  rak_ido:["RAKIA","Ras Al Khaimah Investment Authority"],
+  al_hamra:["Al Hamra Group","Al Hamra Real Estate Development"],
+  rak_gas:["RAKGAS","Ras Al Khaimah Gas Commission"],
+  rak_ports:["Saqr Port","Saqr Port Authority"],
 };

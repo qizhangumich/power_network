@@ -82,7 +82,7 @@ const INSTITUTIONS = [
   {id:"lst_deyaar", n:"Deyaar Development PJSC", s:"realestate", t:2, p:50, short:"DEYAAR"},
   {id:"lst_taaleem", n:"Taaleem Holdings PJSC", s:"consumer_disc", t:2, p:58, short:"Taaleem"},
   {id:"lst_sukoon", n:"Sukoon Insurance PJSC", s:"finance", t:2, p:50, short:"SUKOON"},
-  {id:"lst_armx", n:"Aramex PJSC", s:"industry", t:2, p:50, short:"Aramex PJSC"},
+  {id:"lst_armx", n:"Aramex PJSC", s:"industry", t:1, p:66, short:"Aramex"},
   {id:"lst_upp", n:"Union Properties PJSC", s:"realestate", t:2, p:50, short:"UPP"},
   {id:"lst_ifa", n:"International Financial Advisors Holding K.P.S.C.", s:"finance", t:2, p:50, short:"IFA"},
   {id:"lst_ncc", n:"National Cement Company", s:"materials", t:2, p:50, short:"NCC"},
@@ -167,6 +167,12 @@ const INSTITUTIONS = [
   {id:"imtiaz_developments", n:"Imtiaz Developments", s:"realestate", t:2, p:55, short:"Imtiaz Developments"},
   {id:"anax", n:"ANAX Holding", s:"conglomerate", t:2, p:55, short:"ANAX Holding"},
   {id:"emirates_islamic", n:"Emirates Islamic Bank", s:"finance", t:2, p:58, short:"Emirates Islamic"},
+  {id:"dhcc", n:"Dubai Healthcare City Authority", s:"health", t:2, p:58, short:"DHCC"},
+  {id:"fakhruddin_prop", n:"Fakhruddin Properties", s:"realestate", t:3, p:52, short:"Fakhruddin Prop."},
+  {id:"dubai_maritime_auth", n:"Dubai Maritime Authority", s:"gov", t:2, p:58, short:"Dubai Maritime Auth."},
+  {id:"unifeeder", n:"Unifeeder", s:"industry", t:2, p:58, short:"Unifeeder"},
+  {id:"p_o_ferries", n:"P&O Ferries", s:"industry", t:2, p:58, short:"P&O Ferries"},
+  {id:"emaar_development", n:"Emaar Development PJSC", s:"realestate", t:2, p:62, short:"Emaar Development"},
 ];
 
 const PEOPLE = [
@@ -914,6 +920,7 @@ const PEOPLE = [
   {id:"louise_jenkins", n:"Louise Jenkins", t:2, p:58, s:"materials", roles:[
     ["ega","General Counsel and Head of Ethics & Business Integrity","executive","v"]]},
   {id:"iman_al_qasim", n:"Iman Al Qasim", t:2, p:58, s:"materials", roles:[
+    ["lst_armx","Director","board","v"],
     ["ega","Executive Vice President Human Capital","executive","v"]]},
   {id:"adel_abubakar", n:"Adel Abubakar", t:2, p:58, s:"materials", roles:[
     ["ega","Chief Marketing Officer","executive","v"]]},
@@ -1221,6 +1228,10 @@ const PEOPLE = [
     ["lst_upp","Chief Human Resource Officer","executive","v"]]},
   {id:"anthony_harrison", n:"Anthony Harrison", t:2, p:58, s:"realestate", roles:[
     ["lst_upp","Chief Experience Officer","executive","v"]]},
+  {id:"mohamed_juma_alshamsi", n:"Mohamed Juma Alshamsi", t:2, p:62, s:"industry", roles:[
+    ["lst_armx","Chairman of the Board","board","v"]]},
+  {id:"fahad_al_qassim", n:"Fahad Al Qassim", t:2, p:52, s:"industry", roles:[
+    ["lst_armx","Director","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1339,6 +1350,9 @@ const OWNERSHIP = [
   ["khda","dxbgov","government entity","v"],
   ["dpworld","dubai_world","wholly owned","ns"],
   ["emirates_islamic","enbd","subsidiary","ns"],
+  ["unifeeder","dpworld","wholly-owned subsidiary (acquired 2018)","v"],
+  ["p_o_ferries","dpworld","wholly-owned subsidiary (acquired 2019 for $421m)","v"],
+  ["emaar_development","emaar","majority-owned subsidiary (DFM-listed BTS development arm)","v"],
 ];
 
 const FAMILY = [
@@ -1396,4 +1410,8 @@ const AKA = {
   al_shirawi:["Oasis Investment Company"],
   seddiqi:["Ahmed Seddiqi & Sons"],
   mobh:["MOBH"],
+  dhcc:["DHCA","Dubai Healthcare City"],
+  fakhruddin_prop:["Fakhruddin Properties LLC"],
+  dubai_maritime_auth:["DMA","Dubai Maritime City Authority"],
+  emaar_development:["EMAARDEV"],
 };

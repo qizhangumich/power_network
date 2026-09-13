@@ -75,7 +75,6 @@ const INSTITUTIONS = [
   {id:"lst_cable", n:"Gulf Cables and Electrical Industries Group Co. K.S.C.P", s:"industry", t:2, p:50, short:"CABLE"},
   {id:"lst_ship", n:"Heavy Engineering Industries and Shipbuilding", s:"industry", t:2, p:50, short:"SHIP"},
   {id:"lst_bpcc", n:"Boubyan Petrochemical Co KSCP", s:"materials", t:2, p:50, short:"BPCC"},
-  {id:"lst_zain", n:"Mobile Telecommunications Company", s:"comm", t:2, p:50, short:"ZAIN"},
   {id:"lst_humansoft", n:"Human Soft Holding", s:"industry", t:2, p:50, short:"Human Soft Holding"},
   {id:"lst_ifahr", n:"IFA Hotels and Resorts", s:"consumer_disc", t:2, p:50, short:"IFAHR"},
   {id:"lst_cgc", n:"Combined Group Contracting KSCP", s:"industry", t:2, p:50, short:"CGC"},
@@ -204,6 +203,7 @@ const INSTITUTIONS = [
   {id:"q8_aviation", n:"Q8 Aviation", s:"industry", t:3, p:54, short:"Q8 Aviation"},
   {id:"q8oils", n:"Q8Oils", s:"materials", t:3, p:52, short:"Q8Oils"},
   {id:"wafra", n:"Wafra International Investment Company", s:"finance", t:3, p:56, short:"Wafra"},
+  {id:"ooredoo_kuwait", n:"Ooredoo Kuwait", s:"comm", t:2, p:58, short:"Ooredoo Kuwait"},
 ];
 
 const PEOPLE = [
@@ -333,11 +333,11 @@ const PEOPLE = [
   {id:"nour_nael_al", n:"Nour Nael Al-Jassim", t:2, p:62, s:"comm", roles:[
     ["zain","Chairperson","board","v"]]},
   {id:"mishari_asi_al", n:"Mishari Asi Al-Hajri", t:2, p:52, s:"comm", roles:[
-    ["zain","Board Member","board","ns"]]},
+    ["zain","Board Member","board","v"]]},
   {id:"abdulrahman_mohammad_al", n:"Abdulrahman Mohammad Al-Asfour", t:2, p:52, s:"comm", roles:[
     ["zain","Board Member","board","ns"]]},
   {id:"dr_saad_ahmed", n:"Dr. Saad Ahmed Al-Nahedh", t:2, p:52, s:"comm", roles:[
-    ["zain","Board Member","board","ns"]]},
+    ["zain","Board Member","board","v"]]},
   {id:"ossama_michel_matta", n:"Ossama Michel Matta", t:2, p:58, s:"comm", roles:[
     ["zain","Group Chief Financial Officer","executive","v"]]},
   {id:"henadi_al_saleh", n:"Henadi Al-Saleh", t:2, p:60, s:"industry", roles:[
@@ -1065,6 +1065,8 @@ const PEOPLE = [
     ["lst_humansoft","Board Member","board","ns"]]},
   {id:"abdulrazzaq_mohammed", n:"Abdulrazzaq Mohammed", t:2, p:52, s:"industry", roles:[
     ["lst_humansoft","Independent Board Member","board","ns"]]},
+  {id:"atef_bin_saeed", n:"Atef bin Saeed bin Rashid Al-Siyabi", t:2, p:52, s:"comm", roles:[
+    ["zain","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1101,7 +1103,7 @@ const OWNERSHIP = [
   ["lst_cable","boursa","listed on Boursa Kuwait","ns"],
   ["lst_ship","boursa","listed on Boursa Kuwait","ns"],
   ["lst_bpcc","boursa","listed on Boursa Kuwait","ns"],
-  ["lst_zain","boursa","listed on Boursa Kuwait","ns"],
+  ["zain","boursa","listed on Boursa Kuwait","ns"],
   ["lst_humansoft","boursa","listed on Boursa Kuwait","ns"],
   ["lst_ifahr","boursa","listed on Boursa Kuwait","ns"],
   ["lst_cgc","boursa","listed on Boursa Kuwait","ns"],
@@ -1226,6 +1228,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  zain:["Mobile Telecommunications Company","MTC"],
   meshal:["Meshal Al-Ahmad","Emir Meshal"],
   kia:["Kuwait Investment Authority"],
   kpc:["Kuwait Petroleum"],
@@ -1239,4 +1242,5 @@ const AKA = {
   kfaed:["Kuwait Fund"],
   alghanim_sons_grp:["ASG"],
   wafra:["WIIC"],
+  ooredoo_kuwait:["Wataniya Telecom"],
 };

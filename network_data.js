@@ -258,6 +258,19 @@ const INSTITUTIONS = [
   {id:"alnowais_investments", n:"AlNowais Investments", s:"conglomerate", t:3, p:59, short:"AlNowais Investments"},
   {id:"al_nasser", n:"Al Nasser Holdings", s:"industry", t:3, p:56, short:"Al Nasser Holdings"},
   {id:"bloom", n:"Bloom Holding", s:"realestate", t:2, p:55, short:"Bloom Holding"},
+  {id:"marlan_space", n:"Marlan Holding (Marlan Space)", s:"tech", t:3, p:54, short:"Marlan Space"},
+  {id:"masdar_city", n:"Masdar City Free Zone", s:"gov", t:2, p:58, short:"Masdar City"},
+  {id:"taqa_water", n:"TAQA Water Solutions", s:"utilities", t:2, p:62, short:"TAQA Water"},
+  {id:"bluefive_capital", n:"BlueFive Capital", s:"finance", t:2, p:56, short:"BlueFive Capital"},
+  {id:"globalfoundries", n:"GlobalFoundries", s:"tech", t:2, p:62, short:"GlobalFoundries"},
+  {id:"cepsa_moeve", n:"Cepsa (Moeve)", s:"energy", t:2, p:60, short:"Cepsa/Moeve"},
+  {id:"louis_dreyfus", n:"Louis Dreyfus Company", s:"consumer_stap", t:2, p:60, short:"Louis Dreyfus Co."},
+  {id:"ta_ziz", n:"TA'ZIZ", s:"materials", t:2, p:64, short:"TA'ZIZ"},
+  {id:"fortress", n:"Fortress Investment Group", s:"finance", t:2, p:60, short:"Fortress"},
+  {id:"adnoc_global_trading", n:"ADNOC Global Trading", s:"energy", t:2, p:60, short:"ADNOC Global Trading"},
+  {id:"aldar_investment_propert", n:"Aldar Investment Properties", s:"realestate", t:2, p:58, short:"Aldar Investment Pro…"},
+  {id:"aldar_estates", n:"Aldar Estates", s:"realestate", t:2, p:56, short:"Aldar Estates"},
+  {id:"provis", n:"Provis Real Estate Management", s:"realestate", t:3, p:52, short:"Provis"},
 ];
 
 const PEOPLE = [
@@ -270,6 +283,7 @@ const PEOPLE = [
     ["adgov","Crown Prince of Abu Dhabi","political","v"],
     ["execcouncil","Chairman","political","v"],
     ["adnoc","Chairman of the Executive Committee of the Board of Directors","board","v"],
+    ["scfea","Board Member","board","v"],
     ], note:"Son of MBZ. Runs the day-to-day machinery of Abu Dhabi government via the Executive Council."},
   {id:"tahnoun", n:"H.H. Sheikh Tahnoon bin Zayed Al Nahyan", t:0, p:99, s:"sovereign", roles:[
     ["adgov","Deputy Ruler of Abu Dhabi","political","v"],
@@ -289,9 +303,11 @@ const PEOPLE = [
     ["eia","Chairman","board","v"],
     ["cfg","Owner","ownership","v"],
     ["imi","Owner","ownership","v"],
+    ["scfea","Board Member","board","v"],
     ], note:"Controls the Presidential Court, federal financial levers, and the highest-profile sports/media holdings."},
   {id:"hazza", n:"H.H. Sheikh Hazza bin Zayed Al Nahyan", t:0, p:90, s:"gov", roles:[
     ["adgov","Deputy Ruler of Abu Dhabi","political","v"],
+    ["scfea","Board Member","board","v"],
     ]},
   {id:"abdullah_bz", n:"H.H. Sheikh Abdullah bin Zayed Al Nahyan", t:0, p:92, s:"gov", roles:[
     ["fedgov","Deputy Prime Minister","political","v"],
@@ -307,6 +323,7 @@ const PEOPLE = [
   {id:"hamed_bz", n:"H.H. Sheikh Hamed bin Zayed Al Nahyan", t:0, p:93, s:"sovereign", roles:[
     ["adia","Managing Director","executive","v"],
     ["execcouncil","Member","political","v"],
+    ["scfea","Board Member","board","v"],
     ]},
   {id:"theyab", n:"H.H. Sheikh Theyab bin Mohamed bin Zayed Al Nahyan", t:0, p:91, s:"gov", roles:[
     ["prescourt","Deputy Chairman (Development & Fallen Heroes' Affairs)","political","v"],
@@ -324,6 +341,7 @@ const PEOPLE = [
     ["adcb","Chairman","board","v"],
     ["enec","Chairman","board","v"],
     ["cfg","Chairman","board","v"],
+    ["scfea","Board Member","board","v"],
     ], note:"MBZ's key business emissary; bridges sovereign capital, banking, nuclear energy and global sport."},
   {id:"sultan_jaber", n:"Dr. Sultan Ahmed Al Jaber", t:1, p:96, s:"energy", roles:[
     ["fedgov","Minister of Industry & Advanced Technology","political","v"],
@@ -338,6 +356,7 @@ const PEOPLE = [
     ["borouge","Chairman, Supervisory Board (Borouge Group International)","board","v"],
     ["adnocdrill","Chairman","board","v"],
     ["adnocdist","Chairman","board","v"],
+    ["scfea","Board Member","board","v"],
     ], note:"Runs the hydrocarbon engine and its clean-energy / AI diversification arms; COP28 President."},
   {id:"jassem_zaabi", n:"Jassem Mohamed Bu Ataba Al Zaabi", t:1, p:95, s:"gov", roles:[
     ["dof","Chairman","government","v"],
@@ -433,6 +452,7 @@ const PEOPLE = [
     ["execcouncil","Member","political","v"],
     ["adq","Board Member","board","ns"],
     ["modon","Board Member","board","v"],
+    ["scfea","Board Member","board","v"],
     ]},
   {id:"suhail_mazrouei", n:"Suhail Al Mazrouei", t:1, p:84, s:"energy", roles:[
     ["fedgov","Minister of Energy & Infrastructure","political","v"],
@@ -780,6 +800,7 @@ const PEOPLE = [
     ], note:"Managing Director & CEO of Agthia since 2025; previously CEO of Silal."},
   {id:"tahnoun_bin_zayed", n:"Tahnoun bin Zayed Al Nahyan", t:2, p:62, s:"finance", roles:[
     ["fab","Chairman","board","v"],
+    ["scfea","Board Member","board","v"],
     ]},
   {id:"sheikh_mohamed_bin", n:"Sheikh Mohamed bin Saif Al Nahyan", t:2, p:62, s:"finance", roles:[
     ["fab","Vice Chairman","board","v"],
@@ -2185,6 +2206,9 @@ const PEOPLE = [
   {id:"nidhin_jose", n:"Nidhin Jose", t:2, p:58, s:"consumer_stap", roles:[
     ["lulu","Group Company Secretary and Director Investor Relations","executive","v"],
     ]},
+  {id:"jassem_mohammed_buatabh", n:"Jassem Mohammed Buatabh Al Zaabi", t:2, p:52, s:"gov", roles:[
+    ["scfea","Board Member","board","v"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -2418,6 +2442,18 @@ const OWNERSHIP = [
   ["dmt","adgov","government entity","ns"],
   ["ead","adgov","government entity","ns"],
   ["adafsa","adgov","government entity","v"],
+  ["marlan_space","ihc","portfolio company (pending 80% acquisition)","v"],
+  ["masdar_city","mubadala","anchor shareholder (separated from Masdar 2022)","v"],
+  ["taqa_water","taqa","subsidiary","v"],
+  ["globalfoundries","mubadala","majority-owned subsidiary (~73% stake)","v"],
+  ["cepsa_moeve","mubadala","majority-owned subsidiary (~63% stake)","v"],
+  ["louis_dreyfus","adq","strategic stake (45%)","v"],
+  ["ta_ziz","adnoc","joint venture (ADNOC & ADQ)","v"],
+  ["fortress","mubadala_capital","majority-owned (68% via Mubadala Capital-led consortium)","v"],
+  ["adnoc_global_trading","adnoc","joint venture (ADNOC 65% / Eni 20% / OMV 15%)","v"],
+  ["aldar_investment_propert","aldar","majority-owned subsidiary (88.10%)","ns"],
+  ["aldar_estates","aldar","majority-owned subsidiary (82.55%; IHC/ADNEC Group minority holders)","ns"],
+  ["provis","aldar","majority-owned subsidiary (65.10%)","ns"],
 ];
 
 const FAMILY = [
@@ -2449,7 +2485,8 @@ const AKA = {
   mohamed_km:["Mohamed Khalifa Al Mubarak"],
   jassem_zaabi:["Jassem Al Zaabi"],
   alsuwaidi_adq:["Mohamed Al Suwaidi","Mohamed Hassan Al Suwaidi"],
-  adnoc:["Abu Dhabi National Oil Company"],
+  adnoc:["Abu Dhabi National Oil Company","Ruwais Refinery"],
+  cfg:["Man City","Manchester City"],
   e_and:["Etisalat"],
   adq:["Abu Dhabi Developmental Holding"],
   ihc:["International Holding Co"],
@@ -2465,4 +2502,12 @@ const AKA = {
   kezad:["Khalifa Economic Zones Abu Dhabi","KIZAD","ZonesCorp"],
   adpf:["Abu Dhabi Retirement Pensions and Benefits Fund"],
   adqcc:["QCC"],
+  marlan_space:["Marlan Holding RSC Ltd"],
+  taqa_water:["SWS Holding"],
+  globalfoundries:["GF","GFS"],
+  cepsa_moeve:["Moeve","Compania Espanola de Petroleos"],
+  louis_dreyfus:["LDC"],
+  ta_ziz:["Taziz"],
+  adnoc_global_trading:["AGT"],
+  aldar_investment_propert:["AIP"],
 };
