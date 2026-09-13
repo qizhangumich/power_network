@@ -1,0 +1,5 @@
+# Crown Prince of Abu Dhabi meets President of Kazakhstan on sidelines of BRICS Summit
+source: mediaoffice.abudhabi
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVEdDNVNydnJuUEY2OGxEa2pSUDBIOHpIWHg3ZkloaU5sZ2JmVzZuS3ljV0JCMndtUU9FNkZRRTRwMGVuMHZ0X2NtWEN5YnRxNWxsN1FXMlVRb2k4WlpuTldhYVJqenUtQjVVLTloaHZmN1k4OWpNbHlva2NFN1l2eUpJSDNOTEdtdFBKelJHODJHXzZqMWxYcmdnQnJDU01rQmJxMjNBYWNHUHRVdWJjRHRHN0NHeEZmUDRyTzF6MXlKV2JBWHZNWEZEN0hlMmdsVkNfeVhR?oc=5
+
+Crown Prince of Abu Dhabi meets President of Kazakhstan on sidelines of BRICS Summit    mediaoffice.abudhabi

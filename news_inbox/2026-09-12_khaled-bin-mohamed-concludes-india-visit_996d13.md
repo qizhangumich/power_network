@@ -1,0 +1,5 @@
+# Khaled bin Mohamed concludes India visit after representing UAE President at BRICS
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxPRzdpMzBHTmFCSTRoSk0xcklRLWNrcHZwM0xmYmFCOHhpZ0lkRlo3M01nWlEyN1BzeE43WVBlZUdJNi0zTGtmQ20zZUR5MUxnbk5LUWwyMUFWNUl1enZNU2lGVjNXeDB6V3p5emdEVmF3YS1QVnlWUFlndnZLa1Q2M3lYUmllSG0xeTBYQmV6SXlaNXMzNnNfVHhJbHd1ZV90OUtEWmgtXzVfdTB0dVBCZw?oc=5
+
+Khaled bin Mohamed concludes India visit after representing UAE President at BRICS    Gulf News
