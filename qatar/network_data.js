@@ -227,6 +227,7 @@ const PEOPLE = [
     ["masraf","Chairman","board","ns"],
     ["qia","Member of the Board","board","v"]]},
   {id:"attiyah", n:"H.E. Khalid bin Mohamed Al Attiyah", t:1, p:82, s:"gov", roles:[
+    ["barzan","Chairman","board","ns"],
     ["cabinet","Deputy Prime Minister","political","v"],
     ["mod_q","Minister of State for Defence Affairs","political","ns"]]},
   {id:"khulaifi", n:"H.E. Dr. Mohammed Al-Khulaifi", t:1, p:76, s:"gov", roles:[
@@ -284,6 +285,7 @@ const PEOPLE = [
     ["qelng","Chief Executive Officer","executive","v"]],
     note:"Took over QatarEnergy LNG from 1 January 2026, succeeding Sheikh Khalid bin Khalifa Al Thani; overseeing the North Field expansion to 142 mtpa."},
   {id:"hamad_talal_diar", n:"H.E. Sheikh Hamad bin Talal Al Thani", t:1, p:70, s:"realestate", roles:[
+    ["barwa","Board Member","board","v"],
     ["qatariddiar","Chief Executive Officer","executive","v"]],
     note:"Rose through Qatari Diar's international development arm before taking the CEO seat in December 2025."},
   {id:"ghanim_shura", n:"H.E. Hassan bin Abdullah Al Ghanim", t:1, p:72, s:"gov", roles:[
@@ -314,9 +316,11 @@ const PEOPLE = [
 
   // ===== ADDED SEP 2026 — KEY MINISTRIES PREVIOUSLY MISSING FROM THE MAP =====
   {id:"alattiya_mun", n:"H.E. Abdullah bin Hamad bin Abdullah Al Attiya", t:1, p:68, s:"gov", roles:[
+    ["barwa","Chairman","board","v"],
     ["momun_q","Minister of Municipality","political","v"]],
     note:"Appointed January 2024."},
   {id:"mohammed_transport", n:"H.E. Sheikh Mohammed bin Abdulla bin Mohammed Al Thani", t:1, p:70, s:"gov", roles:[
+    ["qatarrail","Chairman","board","ns"],
     ["mot_q","Minister of Transport","political","v"]],
     note:"Appointed November 2024."},
   {id:"almarri_labour", n:"H.E. Dr. Ali bin Samikh Al Marri", t:1, p:68, s:"gov", roles:[
@@ -336,6 +340,7 @@ const PEOPLE = [
   {id:"bader_abdulla_darwish", n:"Bader Abdulla Darwish Fakhroo", t:2, p:52, s:"finance", roles:[
     ["qnb","Board Member","board","v"]]},
   {id:"dr_abdulrahman_mohammed", n:"Dr. Abdulrahman Mohammed Jolo", t:2, p:52, s:"finance", roles:[
+    ["qatarrail","Board Member","board","ns"],
     ["mofin","Assistant Undersecretary for Financial Policies Affairs","executive","v"],
     ["qnb","Board Member","board","v"],
     ["katarahosp","Board Member","board","v"]]},
@@ -378,6 +383,7 @@ const PEOPLE = [
   {id:"ahmed_helal_al", n:"Ahmed Helal Al-Mohannadi", t:2, p:52, s:"materials", roles:[
     ["industriesqatar","Board Member","board","v"]]},
   {id:"ahmed_bin_ali", n:"Ahmed Bin Ali Al-Hammadi", t:2, p:52, s:"materials", roles:[
+    ["udc","Chairman","board","v"],
     ["industriesqatar","Board Member","board","v"]]},
   {id:"nasser_marafih", n:"Nasser Marafih", t:2, p:62, s:"comm", roles:[
     ["ooredoo","Vice Chairman","board","v"]]},
@@ -406,6 +412,7 @@ const PEOPLE = [
   {id:"mohammed_al_saadi", n:"Mohammed Al Saadi", t:2, p:52, s:"finance", roles:[
     ["masraf","Board Member","board","v"]]},
   {id:"dr_abdulrahman_mohammed_b", n:"Dr. Abdulrahman Mohammed Al-Khayarin", t:2, p:52, s:"finance", roles:[
+    ["barwa","Board Member","board","v"],
     ["masraf","Board Member","board","v"]]},
   {id:"mohamed_jaber_al", n:"Mohamed Jaber Al Sulaiti", t:2, p:52, s:"finance", roles:[
     ["masraf","Board Member","board","v"]]},
@@ -516,10 +523,12 @@ const PEOPLE = [
   {id:"salem_khalaf_al", n:"Salem Khalaf Al Mannai", t:2, p:52, s:"finance", roles:[
     ["cbq","Board Member","board","v"]]},
   {id:"ibrahim_jassim_al", n:"Ibrahim Jassim Al-Othman Fakhro", t:2, p:52, s:"finance", roles:[
+    ["udc","Board Member","board","v"],
     ["cbq","Board Member","board","v"]]},
   {id:"saleh_majed_al", n:"Saleh Majed Al Khulaifi", t:2, p:52, s:"finance", roles:[
     ["cbq","Board Member","board","v"]]},
   {id:"mohammed_yaser_al", n:"Mohammed Yaser Al Mosallam", t:2, p:52, s:"finance", roles:[
+    ["udc","Board Member","board","v"],
     ["cbq","Board Member","board","v"]]},
   {id:"mohammed_ahmad_al", n:"Mohammed Ahmad Al Mulla", t:2, p:52, s:"finance", roles:[
     ["cbq","Board Member","board","v"]]},
@@ -588,6 +597,7 @@ const PEOPLE = [
   {id:"sheikh_mohammed_bin", n:"Sheikh Mohammed Bin Faisal Al Thani", t:2, p:62, s:"conglomerate", roles:[
     ["aamal","Vice Chairman and Managing Director","board","v"]]},
   {id:"sheikh_jabor_bin_b", n:"Sheikh Jabor Bin Abdulrahman Bin Mohammed Al Thani", t:2, p:52, s:"conglomerate", roles:[
+    ["dohabank","Board Member","board","v"],
     ["aamal","Non-Independent Board Member","board","v"]]},
   {id:"sheikh_abdullah_hamad", n:"Sheikh Abdullah Hamad Al Thani", t:2, p:52, s:"conglomerate", roles:[
     ["aamal","Non-Independent Board Member","board","v"]]},
@@ -812,6 +822,7 @@ const PEOPLE = [
   {id:"khaled_sultan_k", n:"Khaled Sultan K Kh Al-Rabban", t:2, p:60, s:"materials", roles:[
     ["lst_qncd","Managing Director","executive","v"]]},
   {id:"abdulrahman_abdullah_al", n:"Abdulrahman Abdullah Al-Ansari", t:2, p:52, s:"materials", roles:[
+    ["barwa","Board Member","board","v"],
     ["lst_qncd","Board Member","board","v"]]},
   {id:"jaber_abdulla_al", n:"Jaber Abdulla Al-Ansari", t:2, p:52, s:"materials", roles:[
     ["lst_qncd","Board Member","board","v"]]},
@@ -822,6 +833,7 @@ const PEOPLE = [
   {id:"h_e_sheikh_b_b_b_b_b_b_b", n:"H.E. Sheikh Abdulla Bin Fahad Bin Jassim Al-Thani", t:2, p:62, s:"finance", roles:[
     ["lst_dubk","Chairman","board","v"]]},
   {id:"mr_abdulaziz_mohammed", n:"Mr. Abdulaziz Mohammed Hamad Al-Mana", t:2, p:62, s:"finance", roles:[
+    ["udc","Board Member","board","v"],
     ["lst_dubk","Vice Chairman","board","v"]]},
   {id:"h_e_sheikh_b_b_b_b_b_b_b_b", n:"H.E. Sheikh Mohammed Bin Hamad Bin Jassim Al-Thani", t:2, p:60, s:"finance", roles:[
     ["lst_dubk","Executive Board Member – Managing Director","board","v"]]},
@@ -980,6 +992,7 @@ const PEOPLE = [
   {id:"mansoor_bin_ebrahim", n:"Mansoor bin Ebrahim Al-Mahmoud", t:2, p:60, s:"sovereign", roles:[
     ["qia","Chief Executive Officer (2018-2024)","executive","v","former:until Jan 2025"]]},
   {id:"h_e_saad", n:"H.E. Saad bin Ali Al Kharji", t:2, p:62, s:"consumer_disc", roles:[
+    ["qatarrail","Board Member","board","ns"],
     ["katarahosp","Deputy Chairman","board","v"]]},
   {id:"sheikh_ali_alwaleed", n:"Sheikh Ali Alwaleed Al-Thani", t:2, p:52, s:"consumer_disc", roles:[
     ["katarahosp","Board Member","board","v"]]},
@@ -1011,6 +1024,142 @@ const PEOPLE = [
     ["aljazeera","Managing Director of Digital Projects","executive","v"]]},
   {id:"sumanta_roy", n:"Sumanta Roy", t:2, p:58, s:"conglomerate", roles:[
     ["mannaicorp","Group President - ICT","executive","ns"]]},
+  {id:"nasser_bin_sultan", n:"Nasser Bin Sultan N AL-Hmaidi", t:2, p:62, s:"realestate", roles:[
+    ["barwa","Vice Chairman","board","v"]]},
+  {id:"ali_bin_mohammed", n:"Ali Bin Mohammed Al Ali", t:2, p:52, s:"realestate", roles:[
+    ["barwa","Board Member","board","v"]]},
+  {id:"issa_mohd_almohannadi", n:"Issa Mohd ALMohannadi", t:2, p:52, s:"realestate", roles:[
+    ["barwa","Board Member","board","v"]]},
+  {id:"ahmad_mohammad_al", n:"Ahmad Mohammad Al Tayeb", t:2, p:60, s:"realestate", roles:[
+    ["barwa","Group Chief Executive Officer","executive","v"]]},
+  {id:"mohammed_ibrahim_al", n:"Mohammed Ibrahim Al-Emadi", t:2, p:58, s:"realestate", roles:[
+    ["barwa","Group Chief Asset Management Officer","executive","v"]]},
+  {id:"mohammad_mansour_al", n:"Mohammad Mansour Al Dosari", t:2, p:58, s:"realestate", roles:[
+    ["barwa","Group Chief Real Estate Development Officer","executive","v"]]},
+  {id:"tamer_elsayed_mohamed", n:"Tamer Elsayed Mohamed", t:2, p:58, s:"realestate", roles:[
+    ["barwa","Group Chief Financial Officer","executive","v"]]},
+  {id:"hassan_jummah_al", n:"Hassan Jummah Al Muhannadi", t:2, p:58, s:"realestate", roles:[
+    ["barwa","Group Chief Administration Officer","executive","v"]]},
+  {id:"dana_abdulaziz_al", n:"Dana Abdulaziz Al Ansari", t:2, p:58, s:"realestate", roles:[
+    ["barwa","Group Chief of Legal and Compliance Officer","executive","v"]]},
+  {id:"yousuf_ahmad_albinali", n:"Yousuf Ahmad AlBinali", t:2, p:58, s:"realestate", roles:[
+    ["barwa","Group Chief Corporate Affairs Officer","executive","v"]]},
+  {id:"khalid_abdulla_al", n:"Khalid Abdulla Al-Hitmi", t:2, p:58, s:"realestate", roles:[
+    ["barwa","Group Chief Internal Audit","executive","v"]]},
+  {id:"sheikh_suhaim_bin_b", n:"Sheikh Suhaim Bin Abdulla Bin Khalifa Al Thani", t:2, p:62, s:"conglomerate", roles:[
+    ["mannaicorp","Chairman","board","v"]]},
+  {id:"sheikh_khalifa_bin_b", n:"Sheikh Khalifa Bin Abdulla Bin Khalifa Al Thani", t:2, p:62, s:"conglomerate", roles:[
+    ["mannaicorp","Vice Chairman","board","v"]]},
+  {id:"mohammed_ali_m", n:"Mohammed Ali M. Al Kubaisi", t:2, p:52, s:"conglomerate", roles:[
+    ["mannaicorp","Board Member","board","v"]]},
+  {id:"ali_yousef_hussein", n:"Ali Yousef Hussein Ali Kamal", t:2, p:52, s:"conglomerate", roles:[
+    ["mannaicorp","Board Member","board","v"]]},
+  {id:"sheikha_noof_hamad", n:"Sheikha Noof Hamad G A Al-Thani", t:2, p:52, s:"conglomerate", roles:[
+    ["mannaicorp","Board Member","board","v"]]},
+  {id:"mohamed_yousef_hussain", n:"Mohamed Yousef Hussain Kamal", t:2, p:52, s:"conglomerate", roles:[
+    ["mannaicorp","Board Member","board","v"]]},
+  {id:"abdulla_mohamed_ali", n:"Abdulla Mohamed Ali M. K Al Kubaisi", t:2, p:52, s:"conglomerate", roles:[
+    ["mannaicorp","Board Member","board","v"]]},
+  {id:"faleh_mohammed_h", n:"Faleh Mohammed H A Al-Nasr", t:2, p:52, s:"conglomerate", roles:[
+    ["mannaicorp","Board Member","board","v"]]},
+  {id:"mubarak_yousuf_m", n:"Mubarak Yousuf M A Al-Kuwari", t:2, p:52, s:"conglomerate", roles:[
+    ["mannaicorp","Board Member","board","v"]]},
+  {id:"keith_higley", n:"Keith Higley", t:2, p:52, s:"conglomerate", roles:[
+    ["mannaicorp","Board Member","board","v"]]},
+  {id:"alekh_grewal", n:"Alekh Grewal", t:2, p:60, s:"conglomerate", roles:[
+    ["mannaicorp","Group Chief Executive Officer","executive","v"]]},
+  {id:"khalid_mannai", n:"Khalid Mannai", t:2, p:62, s:"conglomerate", roles:[
+    ["mannaicorp","Vice Chairman Executive Committee","executive","v"]]},
+  {id:"santhosh_krishnamoorthy", n:"Santhosh Krishnamoorthy", t:2, p:58, s:"conglomerate", roles:[
+    ["mannaicorp","Chief Financial Officer","executive","v"]]},
+  {id:"rajesh_krishnan", n:"Rajesh Krishnan", t:2, p:58, s:"conglomerate", roles:[
+    ["mannaicorp","President - Automotive Group","executive","v"]]},
+  {id:"sheikh_mohamed_bin_b", n:"Sheikh Mohamed bin Fahad bin Mohamed Jabor Al-Thani", t:2, p:62, s:"finance", roles:[
+    ["dohabank","Chairman","board","v"]]},
+  {id:"nasser_khalid_nasser", n:"Nasser Khalid Nasser Abdullah Al-Mesnad", t:2, p:62, s:"finance", roles:[
+    ["dohabank","Vice Chairman","board","v"]]},
+  {id:"sheikh_khalid_bin_b", n:"Sheikh Khalid bin Saoud bin Khalid Hamad Al-Thani", t:2, p:62, s:"finance", roles:[
+    ["dohabank","Vice Chairman","board","v"]]},
+  {id:"abdulrahman_mohamed_marzooq", n:"AbdulRahman Mohamed Marzooq AlShamlan", t:2, p:52, s:"finance", roles:[
+    ["dohabank","Board Member","board","v"]]},
+  {id:"nayef_abdullah_nayef", n:"Nayef Abdullah Nayef Al-Dosari", t:2, p:52, s:"finance", roles:[
+    ["dohabank","Board Member","board","v"]]},
+  {id:"mohammed_yousuf_mohammed", n:"Mohammed Yousuf Mohammed Al-Darwish", t:2, p:52, s:"finance", roles:[
+    ["dohabank","Board Member","board","v"]]},
+  {id:"fatima_mohamed_hussain", n:"Fatima Mohamed Hussain Fikree", t:2, p:52, s:"finance", roles:[
+    ["dohabank","Board Member","board","v"]]},
+  {id:"nasser_khalid_khalifa", n:"Nasser Khalid Khalifa Al-Attiyah", t:2, p:52, s:"finance", roles:[
+    ["dohabank","Board Member","board","v"]]},
+  {id:"faisal_salem_ejeem", n:"Faisal Salem Ejeem Al-Sharafi", t:2, p:52, s:"finance", roles:[
+    ["dohabank","Board Member","board","v"]]},
+  {id:"nasser_mohammed_saeed", n:"Nasser Mohammed Saeed Al-Eida", t:2, p:52, s:"finance", roles:[
+    ["dohabank","Board Member","board","v"]]},
+  {id:"sheikh_abdulrahman_bin", n:"Sheikh Abdulrahman bin Fahad bin Faisal Al Thani", t:2, p:60, s:"finance", roles:[
+    ["dohabank","Group Chief Executive Officer","executive","v"]]},
+  {id:"sheikh_fahad_bin_b_b", n:"Sheikh Fahad bin Jassim Al Thani", t:2, p:58, s:"finance", roles:[
+    ["dohabank","Chief of Business Development","executive","v"]]},
+  {id:"sheikha_noor_bint", n:"Sheikha Noor bint Mubarak bin Fahad Al-Thani", t:2, p:58, s:"finance", roles:[
+    ["dohabank","Chief Human Resources & Administration Officer","executive","v"]]},
+  {id:"ayman_doukali", n:"Ayman Doukali", t:2, p:58, s:"finance", roles:[
+    ["dohabank","Chief International Banking Officer","executive","v"]]},
+  {id:"antonio_genovese", n:"Antonio Genovese", t:2, p:58, s:"finance", roles:[
+    ["dohabank","Chief Private Banking & Wealth Management Officer","executive","v"]]},
+  {id:"baiju_samuel", n:"Baiju Samuel", t:2, p:58, s:"finance", roles:[
+    ["dohabank","Chief Strategy & Transformation Officer","executive","v"]]},
+  {id:"faisal_yousef_abualfain", n:"Faisal Yousef Abualfain", t:2, p:58, s:"finance", roles:[
+    ["dohabank","Chief Legal Officer","executive","v"]]},
+  {id:"muza_ghaith_al", n:"Muza Ghaith Al-Kuwari", t:2, p:58, s:"finance", roles:[
+    ["dohabank","Chief Compliance Officer","executive","v"]]},
+  {id:"aman_ullah_khan", n:"Aman Ullah Khan", t:2, p:58, s:"finance", roles:[
+    ["dohabank","Chief Financial Officer","executive","v"]]},
+  {id:"mamoun_taisir_al", n:"Mamoun Taisir Al-Homssey", t:2, p:58, s:"finance", roles:[
+    ["dohabank","Chief of Information Technology","executive","v"]]},
+  {id:"ziad_ismail_mashal", n:"Ziad Ismail Mashal", t:2, p:58, s:"finance", roles:[
+    ["dohabank","Acting Chief Internal Auditor","executive","v"]]},
+  {id:"faisal_masood", n:"Faisal Masood", t:2, p:58, s:"finance", roles:[
+    ["dohabank","Acting Chief Risk Officer","executive","v"]]},
+  {id:"abdulaziz_bin_nasser", n:"Abdulaziz bin Nasser Al Khalifa", t:2, p:62, s:"industry", roles:[
+    ["qatarrail","Vice Chairman","board","ns"]]},
+  {id:"abdulla_bin_ali", n:"Abdulla bin Ali Al Thiyab", t:2, p:52, s:"industry", roles:[
+    ["qatarrail","Board Member","board","ns"]]},
+  {id:"sheikh_mohammed_bin_b_b", n:"Sheikh Mohammed bin Hamad bin Faisal Al Thani", t:2, p:52, s:"industry", roles:[
+    ["qatarrail","Board Member","board","ns"]]},
+  {id:"jassim_al_buhashim", n:"Jassim Al-Buhashim Al-Sayed", t:2, p:52, s:"industry", roles:[
+    ["qatarrail","Board Member","board","ns"]]},
+  {id:"saad_abdul_karim", n:"Saad Abdul Karim Al Qahtani", t:2, p:52, s:"industry", roles:[
+    ["qatarrail","Board Member","board","ns"]]},
+  {id:"hamad_essa_abdulla", n:"Hamad Essa Abdulla", t:2, p:52, s:"industry", roles:[
+    ["qatarrail","Board Member","board","ns"]]},
+  {id:"ali_hussain_ibrahim", n:"Ali Hussain Ibrahim Al Fardan", t:2, p:62, s:"realestate", roles:[
+    ["udc","Vice Chairman","board","v"]]},
+  {id:"abdulrahman_saad_zaid", n:"Abdulrahman Saad Zaid Al Shathri", t:2, p:52, s:"realestate", roles:[
+    ["udc","Board Member","board","v"]]},
+  {id:"nasser_abdulla_a", n:"Nasser Abdulla A M Al-Ghanim", t:2, p:52, s:"realestate", roles:[
+    ["udc","Board Member","board","v"]]},
+  {id:"abdulla_bin_hamad", n:"Abdulla bin Hamad Al Attiyah", t:2, p:52, s:"realestate", roles:[
+    ["udc","Board Member","board","v"]]},
+  {id:"ahmad_abdullah_al", n:"Ahmad Abdullah Al Hammadi", t:2, p:52, s:"realestate", roles:[
+    ["udc","Board Member","board","v"]]},
+  {id:"yasser_salah_al", n:"Yasser Salah Al-Jaidah", t:2, p:60, s:"realestate", roles:[
+    ["udc","President & Chief Executive Officer","executive","v"]]},
+  {id:"aysha_al_shriem", n:"Aysha Al-Shriem", t:2, p:58, s:"realestate", roles:[
+    ["udc","Executive Director Corporate Affairs","executive","v"]]},
+  {id:"abdullatif_al_yafei", n:"Abdullatif Al-Yafei", t:2, p:58, s:"realestate", roles:[
+    ["udc","Executive Director Public Services","executive","v"]]},
+  {id:"abdulla_al_hamadi", n:"Abdulla Al-Hamadi", t:2, p:58, s:"realestate", roles:[
+    ["udc","Executive Director Subsidiaries","executive","v"]]},
+  {id:"hussain_akbar_al", n:"Hussain Akbar Al-Baker", t:2, p:58, s:"realestate", roles:[
+    ["udc","Executive Director Commercial & Properties","executive","v"]]},
+  {id:"anas_ibrahim", n:"Anas Ibrahim", t:2, p:58, s:"realestate", roles:[
+    ["udc","Executive Director Investment & Development","executive","v"]]},
+  {id:"jihad_herzalla", n:"Jihad Herzalla", t:2, p:58, s:"realestate", roles:[
+    ["udc","Executive Director Projects","executive","v"]]},
+  {id:"karim_farhat", n:"Karim Farhat", t:2, p:58, s:"realestate", roles:[
+    ["udc","Executive Director Finance","executive","v"]]},
+  {id:"karim_samaha", n:"Karim Samaha", t:2, p:58, s:"realestate", roles:[
+    ["udc","Internal Audit Director","executive","v"]]},
+  {id:"mohamad_fadil_hoballah", n:"Mohamad Fadil Hoballah", t:2, p:58, s:"realestate", roles:[
+    ["udc","Acting General Legal Counsel","executive","v"]]},
 ];
 
 const OWNERSHIP = [

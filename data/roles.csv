@@ -111,7 +111,7 @@ ahmed_yahia,Ahmed Yahia Al Idrissi,mgx,MGX,CEO,executive,v,
 khalifa_suwaidi,Khalifa Sultan Al Suwaidi,adq,ADQ,Chief Investment Officer,executive,v,
 khalifa_suwaidi,Khalifa Sultan Al Suwaidi,agthia,Agthia Group,Chairman,board,v,
 khalifa_suwaidi,Khalifa Sultan Al Suwaidi,lunate,Lunate,Managing Partner,executive,v,
-samia,Samia Bouazza,multiply,Multiply Group,Group CEO,executive,v,
+samia,Samia Bouazza,multiply,2PointZero Group PJSC (formerly Multiply Group),Group CEO,executive,v,
 alwan,Ahmad Ali Alwan,hub71,Hub71,CEO,executive,v,
 jasim_thabet,Jasim Husain Thabet,taqa,TAQA Group,Group CEO & Managing Director,executive,v,
 alshamsi_ewec,Ahmed Ali Alshamsi,ewec,Emirates Water & Electricity Company,Chief Executive Officer,executive,v,
@@ -568,3 +568,168 @@ mohamed_hadi_al,Mohamed Hadi Al Hussaini,eia,,Deputy Chairman,board,v
 abdulla_bin_touq,Abdulla bin Touq Al Marri,eia,,Board Member,board,v
 hareb_masood_al,Hareb Masood Al Darmaki,eia,,Board Member,board,v
 kaltham_hamad_al,Kaltham Hamad Al Ghfeli,eia,,Board Member,board,v
+sultan_jaber,Dr. Sultan Ahmed Al Jaber,borouge,Borouge,"Chairman, Supervisory Board (Borouge Group International)",board,v,
+musabbeh,Musabbeh Al Kaabi,borouge,Borouge,"Board Member, Borouge Group International Supervisory Board",board,v,
+fatema,Fatema Al Nuaimi,borouge,Borouge,"Board Member, Borouge Group International Supervisory Board",board,v,
+sultan_jaber,Dr. Sultan Ahmed Al Jaber,adnocdrill,ADNOC Drilling,Chairman,board,v,
+musabbeh,Musabbeh Al Kaabi,adnocdrill,ADNOC Drilling,Vice Chairman,board,v,
+abdulmunim,Abdulmunim Saif Al Kindy,adnocdrill,ADNOC Drilling,Board Member,board,v,
+abdulla_humaid_al,Abdulla Humaid Al Jarwan,adnocdrill,ADNOC Drilling,Board Member,board,v,
+khaled_zaabi_cfo,Khaled Al Zaabi,adnocdrill,ADNOC Drilling,Board Member,board,v,
+sultan_jaber,Dr. Sultan Ahmed Al Jaber,adnocdist,ADNOC Distribution,Chairman,board,v,
+ahmed_jasim_zaabi,Ahmed Jasim Al Zaabi,adnocdist,ADNOC Distribution,Board Member,board,v,
+nasser_almuhairi,Nasser Al Muhairi,adnocdist,ADNOC Distribution,Board Member,board,v,
+marwan_naim_nijmeh,Marwan Naim Nijmeh,adnocdist,ADNOC Distribution,Board Member,board,v,
+saif_al_falahi,Saif Al Falahi,adnocdist,ADNOC Distribution,Board Member,board,v,
+dena_almansoori,Dena Al Mansoori,adnocdist,ADNOC Distribution,Board Member,board,v,
+jassem_zaabi,Jassem Mohamed Bu Ataba Al Zaabi,modon,Modon Holding,Chairman,board,v,
+h_e_sheikh,H.E. Sheikh Abdulla bin Mohamed Al Hamed,modon,Modon Holding,Vice Chairman,board,v,
+shorafa,Mohamed Ali Al Shorafa,modon,Modon Holding,Board Member,board,v,
+ahmed_mazrouei,Dr. Ahmed Mubarak Al Mazrouei,modon,Modon Holding,Board Member,board,v,
+mariam_bint_mohammed,Mariam bint Mohammed Saeed Hareb Almheiri,modon,Modon Holding,Board Member,board,v,
+abdulla_abdulhameed_alsahi,Abdulla Abdulhameed Alsahi,modon,Modon Holding,Group Managing Director & Board Member,board,v,
+hamad_abdulla_al,Hamad Abdulla Al Hammadi,modon,Modon Holding,Board Member,board,v,
+karim_bennis,Karim Bennis,modon,Modon Holding,Board Member,board,v,
+h_h_sheikh,H.H. Sheikh Zayed bin Hamdan bin Zayed Al Nahyan,multiply,2PointZero Group PJSC (formerly Multiply Group),"Chairman of the Board (Two Point Zero Group, formerly Multiply Group)",board,v,
+mariam_bint_mohammed,Mariam bint Mohammed Saeed Hareb Almheiri,multiply,2PointZero Group PJSC (formerly Multiply Group),"Vice Chair (Two Point Zero Group, formerly Multiply Group)",board,v,
+alsuwaidi_adq,Mohamed Hassan Alsuwaidi,multiply,2PointZero Group PJSC (formerly Multiply Group),Board Member,board,v,
+somar_ajalyaqin,Dr. Mohammed Somar Ajalyaqin,multiply,2PointZero Group PJSC (formerly Multiply Group),Board Member,board,v,
+sofia_abdellatif_lasky,Sofia Abdellatif Lasky,multiply,2PointZero Group PJSC (formerly Multiply Group),Board Member,board,v,
+syed_basar,Syed Basar Shueb,multiply,2PointZero Group PJSC (formerly Multiply Group),Board Member,board,v,
+mariam_bint_mohammed,Mariam bint Mohammed Saeed Hareb Almheiri,multiply,2PointZero Group PJSC (formerly Multiply Group),"Managing Director (Two Point Zero Group, formerly Multiply Group)",executive,v,
+mansoori_doh,Mansoor Ibrahim Al Mansoori,presight,Presight AI,Chairman,board,v,
+hamda_eid_almheiri,Hamda Eid AlMheiri,presight,Presight AI,Board Member,board,v,
+abdulla_alrashdi,Abdulla Alrashdi,presight,Presight AI,Board Member,board,v,
+ismail_abdulla,Ismail Ali Abdulla,presight,Presight AI,Board Member,board,v,
+bashar_alrosan,Bashar AlRosan,presight,Presight AI,Board Member,board,v,
+peng_xiao,Peng Xiao,m42,M42,Chairman of the Board,board,v,
+hamad_abdulla_mohamed,Hamad Abdulla Mohamed Alshorafa Alhammadi,emsteel,EMSTEEL (Emirates Steel Arkan),Chairman,board,v,
+alshamsi_ewec,Ahmed Ali Alshamsi,emsteel,EMSTEEL (Emirates Steel Arkan),Vice Chairman,board,v,
+farah_abdulla_mohamed,Farah Abdulla Mohamed Ali Al Mazrui,emsteel,EMSTEEL (Emirates Steel Arkan),Board Member,board,v,
+shorafa,Mohamed Ali Al Shorafa,etihadrail,Etihad Rail,Board Member,board,v,
+mansour_almulla,Mansour Mohamed AlMulla,etihadrail,Etihad Rail,Board Member,board,v,
+jassem_zaabi,Jassem Mohamed Bu Ataba Al Zaabi,enec,Emirates Nuclear Energy Company (Barakah),Chairman,board,v,
+hamad_al_hammadi,Hamad Al Hammadi,enec,Emirates Nuclear Energy Company (Barakah),Vice Chairman,board,v,
+masood_m_sharif,Masood M. Sharif Mahmood,enec,Emirates Nuclear Energy Company (Barakah),Board Member,board,v,
+dr_afif_saif,Dr. Afif Saif Al Yafei,enec,Emirates Nuclear Energy Company (Barakah),Board Member,board,v,
+alshamsi_ewec,Ahmed Ali Alshamsi,enec,Emirates Nuclear Energy Company (Barakah),Board Member,board,v,
+shamisi_ports,Capt. Mohamed Juma Al Shamisi,adairports,Abu Dhabi Airports,Board Member,board,v,
+humaid_dhaheri,Humaid Matar Al Dhaheri,adairports,Abu Dhabi Airports,Board Member,board,v,
+marcos_dequadros,Marcos de Quadros,adairports,Abu Dhabi Airports,Board Member,board,v,
+salmeen_alameri,Salmeen Obaid Alameri,lulu,LuLu Group International,Board Member,board,v,
+roger_kearns,Roger Kearns,borouge,,"Chief Executive Officer, Borouge Group International",executive,v
+stefan_doboczky,Stefan Doboczky,borouge,,"Chief Commercial Officer, Borouge Group International",executive,v
+hasan_karam,Hasan Karam,borouge,,"Chief Operating Officer, Borouge Group International",executive,v
+daniel_turnheim,Daniel Turnheim,borouge,,"Interim Chief Financial Officer, Borouge Group International",executive,v
+rainer_seele,Rainer Seele,borouge,,"Board Member, Borouge Group International Supervisory Board",board,v
+klaus_froehlich,Klaus Froehlich,borouge,,"Board Member, Borouge Group International Supervisory Board",board,v
+alfred_stern,Alfred Stern,borouge,,"Board Member, Borouge Group International Supervisory Board",board,v
+reinhard_florey,Reinhard Florey,borouge,,"Board Member, Borouge Group International Supervisory Board",board,v
+martijn_van_koten,Martijn van Koten,borouge,,"Board Member, Borouge Group International Supervisory Board",board,v
+edith_hlawati,Edith Hlawati,borouge,,"Board Member, Borouge Group International Supervisory Board",board,v
+georg_knill,Georg Knill,borouge,,"Board Member, Borouge Group International Supervisory Board",board,v
+roland_janssen,Roland Janssen,borouge,,"Chief Marketing Officer, Borouge Plc",executive,v
+siegfried_wengler,Siegfried Wengler,borouge,,"Chief Financial Officer, Borouge Plc",executive,v
+salem_al_busaeedi,Salem Al Busaeedi,borouge,,"Chief Operating Officer, Borouge Plc",executive,v
+katherine_wallgren,Katherine Wallgren,adnocdrill,,Board Member,board,v
+mohamed_al_aryani,Mohamed Al Aryani,adnocdrill,,Board Member,board,v
+youssef_salem,Youssef Salem,adnocdrill,,Chief Financial Officer,executive,v
+sultan_al_mansoori,Sultan Al Mansoori,adnocdrill,,"Senior Vice President, Operations (Onshore)",executive,v
+emri_zeineldin,Emri Zeineldin,adnocdrill,,"Senior Vice President, Oil Field Services",executive,v
+adel_al_marzooqi,Adel Al Marzooqi,adnocdrill,,"Senior Vice President, Operations (Offshore)",executive,v
+mariam_salem_al,Mariam Salem Al Suwaidi,adnocdrill,,"Senior Vice President, Shared Services",executive,v
+ali_essa_al,Ali Essa Al Mahri,adnocdrill,,"Senior Vice President, Technical",executive,v
+yousuf_alkhoori,Yousuf Alkhoori,adnocdrill,,"Senior Vice President, Finance & Control",executive,v
+manal_ali_al,Manal Ali Al Mazrouei,adnocdrill,,"Senior Vice President, Commercial & Business Development",executive,v
+neha_chaudhari,Neha Chaudhari,adnocdrill,,"Senior Vice President, Investment, Transformation & Strategy",executive,v
+elias_tarawneh,Elias Tarawneh,adnocdrill,,General Counsel,executive,v
+khaled_alalkeem_al,Khaled Alalkeem Al Zaabi,adnocdist,,Board Member,board,v
+ali_siddiqi,Ali Siddiqi,adnocdist,,Chief Financial Officer,executive,v
+klaas_mantel,Klaas Mantel,adnocdist,,Chief Operating Officer,executive,v
+athmane_benzerroug,Athmane Benzerroug,adnocdist,,"Chief Strategy, Transformation & Sustainability Officer",executive,v
+saeed_nasser_al,Saeed Nasser Al Ahbabi,adnocdist,,Chief Shared Services & Technical Officer,executive,v
+jacqueline_elboghdadi,Jacqueline Elboghdadi,adnocdist,,Chief Marketing Officer,executive,v
+christopher_richmond,Christopher Richmond,adnocdist,,Chief Investment Officer,executive,v
+greg_fewer,Greg Fewer,modon,,Board Member,board,v
+richard_gerson,Richard Gerson,multiply,,Board Member,board,v
+michael_katounas,Michael Katounas,multiply,,Chief Investment Officer,executive,v
+mezier_briefkani,Mezier Briefkani,multiply,,Chief Portfolio Officer,executive,v
+naveed_khan,Naveed Khan,multiply,,Group Finance Director,executive,v
+omar_fayed,Omar Fayed,multiply,,Chief Strategy Officer,executive,v
+kaiser_geelani,Kaiser Geelani,multiply,,Chief Economist,executive,v
+lama_al_bachir,Lama Al Bachir,multiply,,Chief of Staff,executive,v
+jawad_hassan,Jawad Hassan,multiply,,Head of Media and Communications Vertical,executive,v
+mehdi_bizri,Mehdi Bizri,multiply,,"Executive Director, Business Development and Investor Relations",executive,v
+michele_bellabarba,Michele Bellabarba,multiply,,Head of Public Markets,executive,v
+ruchi_sharma,Ruchi Sharma,multiply,,Group General Counsel and Board Secretary,executive,v
+wassim_el_jurdi,Wassim El Jurdi,multiply,,Director of Communications,executive,v
+ahmad_ismail,Ahmad Ismail,multiply,,Geopolitical Advisor,executive,v
+sultan_obaid_ali,Sultan Obaid Ali Al Yabhouni AlDhaheri,presight,,Vice Chairman,board,v
+adel_alsharji,Adel Alsharji,presight,,Chief Operating Officer,executive,v
+ram_meyoor,Ram Meyoor,presight,,Chief Financial Officer,executive,v
+xiaodong_zhou,Xiaodong Zhou,presight,,Chief Technology Officer,executive,v
+alexander_brown,Alexander Brown,presight,,Chief Marketing Officer,executive,v
+magzhan_kenesbai,Magzhan Kenesbai,presight,,Chief Growth Officer,executive,v
+charles_kelly,Charles Kelly,presight,,General Counsel,executive,v
+eva_mourino,Eva Mourino,presight,,Chief Human Capital and Culture Officer,executive,v
+martin_yates,Martin Yates,presight,,Government Technology Advisor,executive,v
+dimitris_moulavasilis,Dimitris Moulavasilis,m42,,Group Chief Executive Officer,executive,v
+zoltan_szepesi,Zoltan Szepesi,m42,,Group Chief Financial Officer,executive,v
+hans_abrahamsson,Hans Abrahamsson,m42,,Group General Counsel,executive,v
+andreas_fagher,Andreas Fagher,m42,,Group Chief Human Capital Officer,executive,v
+fahed_al_marzooqi,Fahed Al Marzooqi,m42,,"Chief Executive Officer, Integrated Health Solutions Platform",executive,v
+kareem_shahin,Kareem Shahin,m42,,"Chief Executive Officer, Digital Health Solutions Platform; Group Chief Digital Officer",executive,v
+mazar_masud,Mazar Masud,m42,,"Senior Vice President, Corporate Affairs",executive,v
+fernando_macario,Fernando Macario,m42,,Group Chief Medical Officer,executive,v
+nataliya_das,Nataliya Das,m42,,Group Chief M&A and Business Development Officer,executive,v
+mohamed_al_saati,Mohamed Al Saati,m42,,"Chief Executive Officer, Bahrain",executive,v
+ali_anees,Ali Anees,m42,,"Chief Operating Officer, UAE and Bahrain",executive,v
+rafael_romanini,Rafael Romanini,m42,,"Group Chief Executive Officer, Diaverum; Chief Operating Officer, Europe & Latin America",executive,v
+ziyad_kabli,Ziyad Kabli,m42,,"Chief Operating Officer, Middle East & Asia",executive,v
+fatima_abdulla_mohamed,Fatima Abdulla Mohamed Sharif Abdulla Alfahim,emsteel,,Board Member,board,v
+abdulaziz_abdulla_ismail,Abdulaziz Abdulla Ismail Mohamed Alhajri,emsteel,,Board Member,board,v
+nabeel_qadir,Nabeel Qadir,emsteel,,Board Member,board,v
+hugo_losada,Hugo Losada,emsteel,,"Chief Executive Officer, Emirates Cement",executive,v
+mark_tonkens,Mark Tonkens,emsteel,,Group Chief Financial Officer,executive,v
+hassan_salim_shashaa,Hassan Salim Shashaa,emsteel,,Group Chief Project Officer,executive,v
+michael_rion,Michael Rion,emsteel,,Chief Commercial Officer,executive,v
+mattar_al_tayer,Mattar Al Tayer,etihadrail,,Board Member,board,v
+mohammed_saeed_al,Mohammed Saeed Al Dhanhani,etihadrail,,Board Member,board,v
+saeed_rashid_al,Saeed Rashid Al Yateem,etihadrail,,Board Member,board,v
+hassan_juma_al,Hassan Juma Al Mansouri,etihadrail,,Board Member,board,v
+salah_bin_butti,Salah Bin Butti Al Muhairi,etihadrail,,Board Member,board,v
+butti_al_mheiri,Butti Al Mheiri,etihadrail,,Board Member,board,v
+david_v_scott,David V. Scott,enec,,Board Member,board,v
+charles_g_pardee,Charles G. Pardee,enec,,Board Member,board,v
+reem_al_darwish,Reem Al Darwish,enec,,Board Member,board,v
+essam_al_murawwi,Essam Al Murawwi,enec,,Board Member,board,v
+khalifa_al_jabri,Khalifa Al Jabri,enec,,Board Member,board,v
+sheikh_mohammed_bin_b,Sheikh Mohammed bin Hamad bin Tahnoon Al Nahyan,adairports,,Chairman,board,v
+nader_ahmed_al,Nader Ahmed Al Hammadi,adairports,,Vice Chairman,board,v
+jose_luis_del,Jose Luis Del Prim Marcen,adairports,,Board Member,board,v
+mona_walid,Mona Walid,adairports,,Board Member,board,v
+roque_solabarrieta,Roque Solabarrieta,adairports,,Board Member,board,v
+carsten_norland,Carsten Norland,adairports,,Chief Commercial Officer,executive,v
+erik_meisner,Erik Meisner,adairports,,Chief Programs Officer,executive,v
+andrew_murphy,Andrew Murphy,adairports,,Chief Information Officer,executive,v
+oliver_seldon,Oliver Seldon,adairports,,Chief Financial Officer,executive,v
+saifee_rupawala,Saifee Rupawala,lulu,,Chief Executive Officer / Executive Director,board,v
+saifee_rupawala,Saifee Rupawala,lulu,,Chief Executive Officer and Executive Director,executive,v
+ashraf_ali_ma,Ashraf Ali MA,lulu,,Executive Director - Global Operations,board,v
+saleem_vi,Saleem VI,lulu,,Chief Operating and Strategy Officer and Executive Director,board,v
+saleem_vi,Saleem VI,lulu,,Chief Operating & Strategy Officer / Executive Director,executive,v
+abdulrahman_ibrahim_hamad,Abdulrahman Ibrahim Hamad Abaalkhail,lulu,,Board Member,board,v
+reed_hamad_khamis,Reed Hamad Khamis Al-Sheryani Al-Dhaheri,lulu,,Board Member,board,v
+andre_george_sayegh,Andre George Sayegh,lulu,,Board Member,board,v
+svetoslav_todorov_varadzhako,Svetoslav Todorov Varadzhakov,lulu,,Board Member,board,v
+prasad_kk,Prasad KK,lulu,,Chief Financial Officer,executive,v
+salim_ma,Salim MA,lulu,,Group Director - Global Operations,executive,v
+mohamed_althaf_mm,Mohamed Althaf MM,lulu,,Group Director - Global Operations & Chief Sustainability Officer,executive,v
+parameswaran_nampoothiri,Parameswaran Nampoothiri,lulu,,Director - Finance,executive,v
+santhoshkumar_raghavan_pilla,Santhoshkumar Raghavan Pillai,lulu,,Director - Accounts & Control,executive,v
+shabu_abdul_majeed,Shabu Abdul Majeed,lulu,,Director - Global Operations,executive,v
+nandakumar_v,Nandakumar V,lulu,,Director - Marketing and Communications,executive,v
+abdu_rasak_cp,Abdu Rasak CP,lulu,,Director - HR,executive,v
+mohamed_anish_p,Mohamed Anish P,lulu,,Group Chief Information Officer,executive,v
+jeevan_krishna,Jeevan Krishna,lulu,,Chief Legal and Compliance Officer,executive,v
+nidhin_jose,Nidhin Jose,lulu,,Group Company Secretary and Director Investor Relations,executive,v

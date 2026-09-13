@@ -73,7 +73,7 @@ const PEOPLE = [
     note:"Grandson of the Ruler; runs day-to-day government execution across Sharjah's departments."},
   {id:"bodour", n:"H.H. Sheikha Bodour Al Qasimi", t:0, p:82, s:"comm", roles:[
     ["sba","Chairperson","board","v"],
-    ["shurooq","Chairperson","board","ns"]],
+    ["shurooq","Chairperson","board","v"]],
     note:"The Ruler's daughter; publishing, investment and development portfolios."},
   {id:"saud_saqr", n:"H.H. Sheikh Saud bin Saqr Al Qasimi", t:0, p:92, s:"gov", roles:[
     ["rakgov","Ruler of Ras Al Khaimah","political","v"]],
@@ -88,16 +88,17 @@ const PEOPLE = [
   {id:"humaid_nuaimi", n:"H.H. Sheikh Humaid bin Rashid Al Nuaimi", t:0, p:80, s:"gov", roles:[
     ["ajmgov","Ruler of Ajman","political","v"]]},
   {id:"ammar_nuaimi", n:"H.H. Sheikh Ammar bin Humaid Al Nuaimi", t:0, p:72, s:"gov", roles:[
+    ["ajmanbank","Chairman","board","v"],
     ["ajmgov","Crown Prince of Ajman","political","v"]]},
   {id:"saud_mualla", n:"H.H. Sheikh Saud bin Rashid Al Mualla", t:0, p:76, s:"gov", roles:[
     ["uaqgov","Ruler of Umm Al Quwain","political","v"]]},
   {id:"badr_jafar", n:"Badr Jafar", t:1, p:80, s:"conglomerate", roles:[
     ["crescent","CEO","executive","v"],
-    ["gulftainer","Chairman","board","ns"]],
+    ["gulftainer","Chairman (earlier; Tushar Singhvi chairs per gulftainer.com, Sep 2026)","board","ns","former"]],
     note:"Sharjah's most globally connected businessman; philanthropy and business diplomacy portfolios."},
   {id:"majid_jafar", n:"Majid Jafar", t:1, p:78, s:"energy", roles:[
     ["crescentpet","CEO","executive","v"],
-    ["danagas","Board (Crescent-linked)","board","ns"]]},
+    ["danagas","Board Managing Director","board","v"]]},
   {id:"adel_ali", n:"Adel Al Ali", t:2, p:76, s:"industry", roles:[
     ["airarabia","Group CEO","executive","v"]]},
   {id:"huraimel", n:"Khaled Al Huraimel", t:2, p:70, s:"industry", roles:[
@@ -107,7 +108,7 @@ const PEOPLE = [
   {id:"jallad", n:"Ramy Jallad", t:2, p:60, s:"gov", roles:[
     ["rakez","Group CEO","executive","v"]]},
   {id:"qaseer", n:"Ahmed Obaid Al Qaseer", t:2, p:60, s:"sovereign", roles:[
-    ["shurooq","CEO","executive","ns"]]},
+    ["shurooq","Chief Executive Officer","executive","v"]]},
   {id:"mousa_murad", n:"Capt. Mousa Murad", t:2, p:62, s:"industry", roles:[
     ["fujport","Managing Director","executive","v"]]},
   {id:"abdouli_marjan", n:"Arch. Abdulla Al Abdouli", t:2, p:66, s:"realestate", roles:[
@@ -129,12 +130,14 @@ const PEOPLE = [
     ["shj_execco","Member (Chairman of Sharjah Economic Development Department)","board","v"],
     ["sedd","Chairman","government","v"]]},
   {id:"neeraj_agrawal", n:"Neeraj Agrawal", t:2, p:58, s:"conglomerate", roles:[
+    ["gulftainer","Board Member","board","v"],
     ["crescent","Executive Director","executive","v"],
     ["crescentpet","Chief Financial Officer","executive","v"]]},
   {id:"ravi_kumar", n:"Ravi Kumar", t:2, p:58, s:"conglomerate", roles:[
     ["crescent","Executive Director","executive","v"],
     ["crescentpet","Chief Corporate Officer","executive","v"]]},
   {id:"tushar_singhvi", n:"Tushar Singhvi", t:2, p:60, s:"conglomerate", roles:[
+    ["gulftainer","Chairman","board","v"],
     ["crescent","Deputy CEO & Head of Investments","executive","v"]]},
   {id:"ghada_abdelkader", n:"Ghada Abdelkader", t:2, p:58, s:"conglomerate", roles:[
     ["crescent","Senior VP, CE-Invests","executive","v"]]},
@@ -155,6 +158,7 @@ const PEOPLE = [
   {id:"abdulla_al_qadi", n:"Abdulla Al-Qadi", t:2, p:62, s:"energy", roles:[
     ["crescentpet","Country Chair, Iraq & MD, Diyala & Basra; Executive Director, Business Development","executive","v"]]},
   {id:"mohammad_e_makkawi", n:"Mohammad E. Makkawi", t:2, p:58, s:"energy", roles:[
+    ["gulftainer","Board Member","board","v"],
     ["crescentpet","Executive Director, Projects","executive","v"]]},
   {id:"drazen_petkovich", n:"Drazen Petkovich", t:2, p:58, s:"energy", roles:[
     ["crescentpet","Executive Director, Legal","executive","v"]]},
@@ -434,6 +438,64 @@ const PEOPLE = [
     ["arada","Chief Project Officer","executive","v"]]},
   {id:"hisham_saeed_khattab", n:"Hisham Saeed Khattab", t:2, p:58, s:"realestate", roles:[
     ["arada","Director, Government Relations","executive","v"]]},
+  {id:"rashid_bin_humaid", n:"Rashid Bin Humaid Bin Rashid Al Noaimi", t:2, p:62, s:"finance", roles:[
+    ["ajmanbank","Vice Chairman","board","v"]]},
+  {id:"adel_abdulla_ali", n:"Adel Abdulla Ali", t:2, p:60, s:"industry", roles:[
+    ["airarabia","Chief Executive Officer","board","v"]]},
+  {id:"peter_richards", n:"Peter Richards", t:2, p:52, s:"industry", roles:[
+    ["gulftainer","Board Member","board","v"]]},
+  {id:"farid_belbouab", n:"Farid Belbouab", t:2, p:60, s:"industry", roles:[
+    ["gulftainer","Group Chief Executive Officer","executive","v"]]},
+  {id:"simon_farhat", n:"Simon Farhat", t:2, p:58, s:"industry", roles:[
+    ["gulftainer","Global Chief Operating Officer","executive","v"]]},
+  {id:"peter_verheijen", n:"Peter Verheijen", t:2, p:60, s:"industry", roles:[
+    ["gulftainer","Executive Vice President, Managing Director Container Division","executive","v"]]},
+  {id:"aju_abraham_thomas", n:"Aju Abraham-Thomas", t:2, p:60, s:"industry", roles:[
+    ["gulftainer","Executive Vice President, Managing Director Marine Logistics Services","executive","v"]]},
+  {id:"omar_rishi", n:"Omar Rishi", t:2, p:58, s:"industry", roles:[
+    ["gulftainer","Executive Vice President, Chief Commercial Officer Ports & Terminals","executive","v"]]},
+  {id:"arvind_giri", n:"Arvind Giri", t:2, p:58, s:"industry", roles:[
+    ["gulftainer","Chief Financial Officer","executive","v"]]},
+  {id:"vinay_sharma", n:"Vinay Sharma", t:2, p:58, s:"industry", roles:[
+    ["gulftainer","Director Information Technology","executive","v"]]},
+  {id:"june_dowling", n:"June Dowling", t:2, p:58, s:"industry", roles:[
+    ["gulftainer","Director Human Resources","executive","v"]]},
+  {id:"daniel_caton", n:"Daniel Caton", t:2, p:60, s:"industry", roles:[
+    ["gulftainer","Managing Director Momentum Logistics","executive","v"]]},
+  {id:"david_westmoreland", n:"David Westmoreland", t:2, p:58, s:"industry", roles:[
+    ["gulftainer","General Counsel","executive","v"]]},
+  {id:"hamid_jafar", n:"Hamid Jafar", t:2, p:62, s:"energy", roles:[
+    ["danagas","Chairman","board","v"]]},
+  {id:"rashed_saif_s", n:"Rashed Saif S. Al Jarwan Al Shamsi", t:2, p:62, s:"energy", roles:[
+    ["danagas","Vice Chairman","board","v"]]},
+  {id:"younis_al_khoori", n:"Younis Al Khoori", t:2, p:52, s:"energy", roles:[
+    ["danagas","Board Member","board","v"]]},
+  {id:"ziad_abdulla_ibrahim", n:"Ziad Abdulla Ibrahim Galadari", t:2, p:52, s:"energy", roles:[
+    ["danagas","Board Member","board","v"]]},
+  {id:"najla_ahmed_al", n:"Najla Ahmed Al-Midfa", t:2, p:52, s:"energy", roles:[
+    ["danagas","Board Member","board","v"]]},
+  {id:"omar_ibrahim_al", n:"Omar Ibrahim Al-Mulla", t:2, p:52, s:"energy", roles:[
+    ["danagas","Board Member","board","v"]]},
+  {id:"ahmed_abdulhamid_alahmadi", n:"Ahmed Abdulhamid Alahmadi", t:2, p:52, s:"energy", roles:[
+    ["danagas","Board Member","board","v"]]},
+  {id:"mohamed_al_sayed", n:"Mohamed Al Sayed Mohamed Ebraheem Alhashmi", t:2, p:52, s:"energy", roles:[
+    ["danagas","Board Member","board","v"]]},
+  {id:"mohamed_khalil_mohamedsharif", n:"Mohamed Khalil Mohamedsharif Foulathi Alkhoori", t:2, p:52, s:"energy", roles:[
+    ["danagas","Board Member","board","v"]]},
+  {id:"shaheen_mohamed_abdulaziz", n:"Shaheen Mohamed Abdulaziz Rubayea Almheiri", t:2, p:52, s:"energy", roles:[
+    ["danagas","Board Member","board","v"]]},
+  {id:"richard_hall", n:"Richard Hall", t:2, p:60, s:"energy", roles:[
+    ["danagas","Chief Executive Officer","executive","v"]]},
+  {id:"chris_hearne", n:"Chris Hearne", t:2, p:58, s:"energy", roles:[
+    ["danagas","Chief Financial Officer","executive","v"]]},
+  {id:"neville_henwood", n:"Neville Henwood", t:2, p:58, s:"energy", roles:[
+    ["danagas","Legal and Commercial Director","executive","v"]]},
+  {id:"mike_budge", n:"Mike Budge", t:2, p:46, s:"energy", roles:[
+    ["danagas","Head of Technical and Operations","executive","v"]]},
+  {id:"shakir_shakir", n:"Shakir Shakir", t:2, p:58, s:"energy", roles:[
+    ["danagas","Dana Gas Iraq Country Manager and Director of Marketing and Government Relations","executive","v"]]},
+  {id:"ayman_samra", n:"Ayman Samra", t:2, p:46, s:"energy", roles:[
+    ["danagas","General Manager Egypt","executive","v"]]},
 ];
 
 const OWNERSHIP = [
