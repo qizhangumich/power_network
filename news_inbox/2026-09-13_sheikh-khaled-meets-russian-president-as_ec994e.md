@@ -1,0 +1,5 @@
+# Sheikh Khaled meets Russian President as Brics summit wraps up in New Delhi
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNTmNpRFB3ek1OSDVMTU1YZ0hiWEVjcmlSbXRSbW9wT0JHd1B5TWtsMEZGemRFQ3lOdVZZc18yTmFhaWZsTHU2TURocS1LLTJPbDlZWWNFS0YybDN0b2lhRmgtNkhtVy13cU42R0hOelRlb0JfeDdoQjZjcElIM2tYZlp0azJoU29jT3h3cENfREJBeHhFZmFKZjVkM2dQaU9qMTN4WDhsd05VemNRdHdCNGswWlhkamphU3dLRkhlbzk1WTJ4aXRZ?oc=5
+
+Sheikh Khaled meets Russian President as Brics summit wraps up in New Delhi    thenationalnews.com
