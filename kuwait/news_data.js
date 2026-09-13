@@ -18,5 +18,8 @@ window.NEWS_ITEMS = [
   {id:"2026-09-04_china-s-rox-motors-to-launch-uae-designe_cfb3dd", date:"2026-09-04", title:"China’s Rox Motors to launch UAE-designed car next year", source:"AGBI", url:"https://www.agbi.com/manufacturing/2026/09/chinas-rox-motors-to-launch-uae-designed-car-next-year/", ids:["lst_emirates"]},
   {id:"2026-09-04_egypt-targets-3bn-from-new-bond-issuance_94ad90", date:"2026-09-04", title:"Egypt targets $3bn from new bond issuances", source:"AGBI", url:"https://www.agbi.com/markets/2026/09/egypt-targets-3bn-from-new-bond-issuances/", ids:["cabinet_kw"]},
   {id:"2026-09-03_uae-flights-latest-emirates-and-etihad-d_852752", date:"2026-09-03", title:"UAE flights latest: Emirates and Etihad delays and cancellations as US-Iran tensions continue", source:"Arabian Business", url:"https://www.arabianbusiness.com/business/transport/uae-flights-update", ids:["lst_emirates"]},
+  {id:"2026-09-03_kfaed-signs-kd-200-000-grant-agreement-w_e4851b", date:"2026-09-03", title:"KFAED signs KD 200,000 grant agreement with GCCIA", source:"KUNA", url:"https://www.kuna.net.kw/ArticleDetails.aspx?id=3323797&Language=en", ids:["kfaed"]},
+  {id:"2026-09-03_kfaed-signs-usd-2-5-mln-agreement-with-u_81ff85", date:"2026-09-03", title:"KFAED signs USD 2.5 mln agreement with UNRWA for Syria school", source:"KUNA", url:"https://www.kuna.net.kw/ArticleDetails.aspx?id=3323773&Language=en", ids:["kfaed"]},
+  {id:"2026-09-03_kuwait-s-kpa-boosts-professional-researc_a6349a", date:"2026-09-03", title:"Kuwait's KPA boosts professional, research presence in Montreal Congress", source:"KUNA", url:"https://www.kuna.net.kw/ArticleDetails.aspx?id=3323695&Language=en", ids:["kpa"]},
 ];
 window.SUGGESTED_EDGES = [];

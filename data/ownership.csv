@@ -188,3 +188,44 @@ lst_oeihc,Oman & Emirates Investment Holding Company SAOG,adx,Abu Dhabi Securiti
 lst_ih,Insurance House PJSC,adx,Abu Dhabi Securities Exchange,listed on ADX,ns
 lst_methaq,Methaq Takaful Insurance P.S.C.,adx,Abu Dhabi Securities Exchange,listed on ADX,ns
 masdar,Masdar,xrg,XRG (ADNOC international investment),co-investor - German offshore wind & battery storage (2026),v
+musanada,Abu Dhabi General Services Company,adq,ADQ,ADQ portfolio company,v
+ad_media,Abu Dhabi Media Company PJSC,adq,ADQ,ADQ portfolio company,v
+twofour54,twofour54,adq,ADQ,ADQ portfolio company,v
+adssc,Abu Dhabi Sewerage Services Company,adq,ADQ,ADQ portfolio company,v
+senaat,General Holding Corporation,adq,ADQ,ADQ portfolio company,ns
+al_foah,Al Foah Company,adq,ADQ,portfolio company (via SENAAT),ns
+npcc,National Petroleum Construction Company,adq,ADQ,portfolio company (via SENAAT),ns
+sanad,Sanad Group,mubadala,Mubadala Investment Company,Mubadala portfolio company,ns
+yahsat,Al Yah Satellite Communications Company,mubadala,Mubadala Investment Company,Mubadala portfolio company,ns
+tabreed,Tabreed,mubadala,Mubadala Investment Company,Mubadala portfolio company,ns
+mubadala_health,Mubadala Health,mubadala,Mubadala Investment Company,Mubadala portfolio company,ns
+mubadala_energy,Mubadala Energy,mubadala,Mubadala Investment Company,Mubadala portfolio company,v
+mubadala_capital,Mubadala Capital,mubadala,Mubadala Investment Company,Mubadala portfolio company,ns
+q,Q Holding PJSC,ihc,International Holding Company,IHC subsidiary,ns
+al_ain_farms,Al Ain Farms for Livestock Production,ihc,International Holding Company,IHC portfolio company,ns
+adjd,Abu Dhabi Judicial Department,adgov,Abu Dhabi Government (Ruler's Court),government entity,ns
+adda,Abu Dhabi Digital Authority,adgov,Abu Dhabi Government (Ruler's Court),government entity,ns
+scad,Statistics Centre Abu Dhabi,adgov,Abu Dhabi Government (Ruler's Court),government entity,ns
+fsra,Financial Services Regulatory Authority,adgm,Abu Dhabi Global Market,regulatory arm,v
+kezad,KEZAD Group,adports,AD Ports Group,subsidiary,v
+adha,Abu Dhabi Housing Authority,adgov,Abu Dhabi Government (Ruler's Court),government entity,ns
+adpf,Abu Dhabi Pension Fund,adgov,Abu Dhabi Government (Ruler's Court),government entity,v
+adfd,Abu Dhabi Fund for Development,adgov,Abu Dhabi Government (Ruler's Court),government entity,v
+adqcc,Abu Dhabi Quality and Conformity Council,adgov,Abu Dhabi Government (Ruler's Court),government entity,ns
+etihadrail,Etihad Rail,adq,ADQ,ADQ portfolio company,v
+seha,SEHA (AD Health Services),adq,ADQ,ADQ portfolio company,v
+daman,Daman (National Health Insurance),adq,ADQ,ADQ portfolio company,v
+ccad,Cleveland Clinic Abu Dhabi,mubadala,Mubadala Investment Company,part of Mubadala Health,ns
+aldar,Aldar Properties,ihc,International Holding Company,IHC portfolio company,v
+burjeel,Burjeel Holdings,ihc,International Holding Company,IHC subsidiary,v
+nmdc,NMDC Group,ihc,International Holding Company,IHC portfolio company,v
+lst_ghitha,Ghitha Holding PJSC,ihc,International Holding Company,IHC subsidiary,v
+lst_esg,ESG Emirates Stallions Group PJSC,ihc,International Holding Company,IHC direct unit,v
+lst_easylease,Easy Lease Motor Cycle Rental P.S.C.,ihc,International Holding Company,IHC direct unit,v
+lst_palms,Palms Sports PJSC,ihc,International Holding Company,IHC direct unit,v
+added,Department of Economic Development,adgov,Abu Dhabi Government (Ruler's Court),government entity,ns
+dct,Department of Culture & Tourism,adgov,Abu Dhabi Government (Ruler's Court),government entity,ns
+doh,Department of Health,adgov,Abu Dhabi Government (Ruler's Court),government entity,ns
+dmt,Department of Municipalities & Transport,adgov,Abu Dhabi Government (Ruler's Court),government entity,ns
+ead,Environment Agency – Abu Dhabi,adgov,Abu Dhabi Government (Ruler's Court),government entity,ns
+adafsa,Abu Dhabi Agriculture & Food Safety Authority,adgov,Abu Dhabi Government (Ruler's Court),government entity,v

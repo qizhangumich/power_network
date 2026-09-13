@@ -56,6 +56,8 @@ const INSTITUTIONS = [
   {id:"shjpolice", n:"Sharjah Police (General Command)", s:"gov", t:1, p:72, short:"Sharjah Police"},
   {id:"scci",     n:"Sharjah Chamber of Commerce & Industry", s:"gov", t:2, p:66, short:"SCCI"},
   {id:"sedd",     n:"Sharjah Economic Development Department", s:"gov", t:1, p:70, short:"SEDD"},
+  {id:"crescent_2", n:"Crescent Group", s:"energy", t:3, p:59, short:"Crescent Group"},
+  {id:"ghassan_aboud_grp", n:"Ghassan Aboud Group", s:"conglomerate", t:3, p:57, short:"Ghassan Aboud Grp"},
 ];
 
 const PEOPLE = [
@@ -561,4 +563,5 @@ const AKA = {
   fujport:["Port of Fujairah","Fujairah Port"],
   abdouli_marjan:["Abdulla Al Abdouli"],
   tappeiner_wynn:["Max Tappeiner"],
+  ghassan_aboud_grp:["GAG"],
 };

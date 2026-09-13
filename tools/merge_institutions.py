@@ -35,6 +35,31 @@ from import_listings import norm, VALID_SECTORS
 REGION_DIR = {"abudhabi": "", "dubai": "dubai", "northern": "northern", "saudi": "saudi",
               "qatar": "qatar", "bahrain": "bahrain", "oman": "oman", "kuwait": "kuwait"}
 DATA = ROOT / "data"
+STOPW = {"the", "of", "and", "for"}
+GENERIC_W = {"fund", "development", "authority", "bank", "investment", "investments", "national", "general",
+             "services", "international", "islamic", "finance", "financial", "real", "estate", "gulf", "arab",
+             "emirates", "public", "commercial", "industrial", "industries", "energy", "capital", "properties"}
+PLACES = {"abudhabi": {"abu", "dhabi"}, "dubai": {"dubai"},
+          "northern": {"sharjah", "ras", "khaimah", "fujairah", "ajman", "umm", "quwain"},
+          "saudi": {"saudi", "arabia", "ksa"}, "qatar": {"qatar", "qatari"}, "bahrain": {"bahrain", "bahraini"},
+          "oman": {"oman", "omani"}, "kuwait": {"kuwait", "kuwaiti"}}
+
+def key(s, reg):
+    """order-insensitive match key: legal suffixes, filler words and (when >=2 words remain)
+    the region's own place names removed — "The Executive Council of Dubai" == "Dubai Executive Council"."""
+    toks = [t for t in norm(str(s or "").replace("&", " and ")).split() if t not in STOPW]
+    core = [t for t in toks if t not in PLACES.get(reg, ())]
+    if len(core) >= 2:
+        toks = core
+    return " ".join(sorted(set(toks)))
+
+def forms(s):
+    """a name, its bracket-free form and its bracketed alias ("… Energy Company (TAQA)")"""
+    out = [s] + re.findall(r"\(([^)]+)\)", s)
+    base = re.sub(r"\(.*?\)", "", s).strip()
+    if base and base != s:
+        out.append(base)
+    return out
 
 def default_power(sector, tier):
     if tier == 0: return 90
@@ -60,16 +85,22 @@ def read_csv(path):
 def load_region(reg):
     """-> (alias index {norm: id}, inst names {id: name}, all ids, edges {(child,parent)})"""
     idx, names, ids, edges = {}, {}, set(), set()
+
+    def add(alias, iid):
+        for f in forms(alias or ""):
+            k = key(f, reg)
+            if len(k) >= 3:
+                idx.setdefault(k, iid)
+
     if reg == "abudhabi":
         for r in read_csv(DATA / "institutions.csv"):
             names[r["id"]] = r["name"]
-            for a in (r["name"], r["short"]):
-                if len(norm(a)) >= 3: idx.setdefault(norm(a), r["id"])
+            add(r["name"], r["id"]); add(r["short"], r["id"])
         ids |= set(names) | {r["id"] for r in read_csv(DATA / "people.csv")}
         for r in read_csv(DATA / "aka.csv"):
             if r["id"] in names:
                 for a in r["aliases"].split("|"):
-                    if len(norm(a)) >= 3: idx.setdefault(norm(a), r["id"])
+                    add(a, r["id"])
         edges = {(r["child_id"], r["parent_id"]) for r in read_csv(DATA / "ownership.csv")}
     else:
         js = ROOT / REGION_DIR[reg] / "network_data.js"
@@ -78,7 +109,7 @@ def load_region(reg):
             if n["kind"] != "inst": continue
             names[n["id"]] = n["name"]
             for a in n["aliases"]:
-                if len(norm(a)) >= 3: idx.setdefault(norm(a), n["id"])
+                add(a, n["id"])
         m = re.search(r"const OWNERSHIP = \[(.*?)\n\];", js.read_text(encoding="utf-8"), re.S)
         if m:
             edges = set(re.findall(r'\["([^"]+)","([^"]+)"', m.group(1)))
@@ -102,7 +133,7 @@ def main(dry=False):
         adds, edge_adds, near, bad = [], [], [], []
         batch = {}
         for r in rows:
-            nn = norm(re.sub(r"\(.*?\)", "", r["name"])) or norm(r["name"])
+            nn = key(re.sub(r"\(.*?\)", "", r["name"]), reg) or key(r["name"], reg)
             sector = r.get("sector", "")
             if sector not in VALID_SECTORS:
                 bad.append(f"{r['name']}: sector '{sector}'"); continue
@@ -113,8 +144,8 @@ def main(dry=False):
             if parent and parent not in names:
                 bad.append(f"{r['name']}: unknown parent_id '{parent}' (edge dropped)"); parent = ""
             aliases = [a.strip() for a in r.get("aliases", "").split("|") if a.strip()]
-            hit = idx.get(nn) or idx.get(norm(r["name"])) or next((idx[norm(a)] for a in aliases if norm(a) in idx), None) \
-                or (idx.get(norm(r.get("short", ""))) if len(norm(r.get("short", ""))) >= 5 else None)
+            hit = next((idx[key(f, reg)] for f in forms(r["name"]) + aliases if key(f, reg) in idx), None) \
+                or (idx.get(key(r.get("short", ""), reg)) if len(key(r.get("short", ""), reg)) >= 5 else None)
             if hit:
                 if parent and parent != hit and (hit, parent) not in edges:
                     edges.add((hit, parent))
@@ -122,8 +153,13 @@ def main(dry=False):
                 continue
             if nn in batch:
                 continue
-            if r.get("force") != "1" and len(nn) >= 8:
-                sim = next((i for a, i in idx.items() if len(a) >= 8 and (a in nn or nn in a)), None)
+            kt = set(nn.split())
+            if r.get("force") != "1" and len(kt) >= 2:
+                # the contained (smaller) name must carry a distinctive word — "Development Fund" alone
+                # must not flag every "... Development Fund" as a near-duplicate
+                sim = next((i for a, i in idx.items()
+                            if len(a.split()) >= 2 and (set(a.split()) <= kt or kt <= set(a.split()))
+                            and (min(set(a.split()), kt, key=len) - GENERIC_W)), None)
                 if sim:
                     near.append(f"{r['name']}  ~  {names[sim]} ({sim})"); continue
             short = r.get("short") or r["name"]
@@ -135,12 +171,16 @@ def main(dry=False):
             adds.append(dict(id=nid, name=r["name"], short=short, sector=sector, tier=tier, power=power,
                              parent=parent, relation=r.get("relation", ""),
                              ver=r.get("verification") if r.get("verification") in ("v", "ns") else "ns",
-                             aliases=[a for a in aliases if a not in (r["name"], short)]))
+                             aliases=[a for a in dict.fromkeys(aliases + re.findall(r"\(([^)]+)\)", r["name"]))
+                                      if a not in (r["name"], short)]))
 
         print(f"  [{reg}] +{len(adds)} institutions, +{len(edge_adds)} edges on existing nodes"
               f" ({len(rows) - len(adds)} rows already present/near/invalid)")
         for b in bad: print(f"     invalid: {b}")
         for n in near: print(f"     near-match skipped (set force=1 to add): {n}")
+        if "--verbose" in sys.argv:
+            for a in adds:
+                print(f"     + {a['id']}: {a['name']} [{a['sector']} t{a['tier']} p{a['power']}] <- {a['parent'] or '-'}")
         if dry or not (adds or edge_adds):
             tot_i += len(adds); tot_e += len(edge_adds)
             continue
