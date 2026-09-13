@@ -1,7 +1,7 @@
 # NavGCC daily growth agent — runbook
 
 This is the complete, self-contained mandate for the daily enrichment run of the GCC Power
-Network (repo `qizhangumich/power_network`, live at https://nav.gcc.com). It is executed by a
+Network (repo `qizhangumich/power_network`, live at https://navgcc.com). It is executed by a
 **Claude cloud routine** (no access to the owner's PC), so everything the agent needs is in this
 repo. Read this whole file before doing anything.
 
@@ -188,7 +188,7 @@ Line 1: `📈 Today: +N people, +M institutions, +K roles → totals P people / 
 Line 2: per-region adds today (only regions with adds).
 Then: institutions added (by source, per region, new ownership edges), teams extracted (company: N people,
 source), backfill adds, promotions, corrections (incl. roles demoted to former), ns→v flips, source-health
-issues, decisions needed. End with: full history at https://nav.gcc.com/reports/growth.html
+issues, decisions needed. End with: full history at https://navgcc.com/reports/growth.html
 
 ## 9. Catch-up mode (ONLY for the afternoon catch-up run)
 
