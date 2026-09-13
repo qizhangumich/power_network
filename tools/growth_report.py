@@ -319,14 +319,23 @@ def main():
 
     TYPE_L = {"media": ("News outlet", "新闻媒体"), "query": ("News query", "新闻查询"),
               "registry": ("Exchange registry", "交易所名录")}
-    # what each outlet actually contributes to the maps: matched news signals
-    news_src = {}
+    # what each outlet actually contributes to the maps: matched news signals,
+    # split by whether the matched entity is a person or an institution
+    people_by_src, inst_by_src = Counter(), Counter()
     for key, d, _, _ in REGIONS:
         nf = ROOT / REL[key].replace("network_data", "news_data")
-        if nf.exists():
-            for m in re.finditer(r'\{id:"([^"]+)",.*?source:"([^"]*)"', nf.read_text(encoding="utf-8")):
-                news_src[m.group(1)] = m.group(2)
-    matched_by_src = Counter(v for v in news_src.values() if v)
+        if not nf.exists():
+            continue
+        id_kind = {n["id"]: n["kind"] for n in load_nodes(ROOT / REL[key])}
+        for m in re.finditer(r'\{id:"[^"]+",.*?source:"([^"]*)".*?ids:\[([^\]]*)\]\}', nf.read_text(encoding="utf-8")):
+            src = m.group(1)
+            if not src:
+                continue
+            kinds = {id_kind.get(i) for i in re.findall(r'"([^"]+)"', m.group(2))}
+            if "person" in kinds:
+                people_by_src[src] += 1
+            if "inst" in kinds:
+                inst_by_src[src] += 1
     reg_src_rows = []
     for r in sorted(all_sources, key=lambda x: (x.get("type", ""), x.get("group", ""), x.get("name", ""))):
         typ, grp, name = (r.get("type") or "").strip(), (r.get("group") or "").strip(), (r.get("name") or "").strip()
@@ -337,10 +346,11 @@ def main():
         freq = (r.get("freq_hours") or "").strip()
         cadence = (freq + "h" if freq else "6h") if typ == "media" else "—"
         ok = last_ok(grp, name) if typ == "media" else "—"
-        contrib = str(matched_by_src.get(name, 0)) if typ == "media" else "—"
+        people_n = str(people_by_src.get(name, 0)) if typ == "media" else "—"
+        inst_n = str(inst_by_src.get(name, 0)) if typ == "media" else "—"
         reg_src_rows.append(f'<tr><td>{esc(name)}</td>'
                             f'<td><span class="t" data-en="{ten}" data-zh="{tzh}">{ten}</span></td>'
-                            f'<td>{esc(grp)}</td><td>{cadence}</td><td>{ok}</td><td>{contrib}</td><td>{st_html}</td></tr>')
+                            f'<td>{esc(grp)}</td><td>{cadence}</td><td>{ok}</td><td>{people_n}</td><td>{inst_n}</td><td>{st_html}</td></tr>')
     registry_html = ""
     if reg_src_rows:
         registry_html = (
@@ -353,7 +363,8 @@ def main():
             '<th class="t" data-en="Group" data-zh="分组">Group</th>'
             '<th class="t" data-en="Cadence" data-zh="频率">Cadence</th>'
             '<th class="t" data-en="Last fetch OK" data-zh="上次成功抓取">Last fetch OK</th>'
-            '<th class="t" data-en="News on maps" data-zh="图上新闻">News on maps</th>'
+            '<th class="t" data-en="People in news" data-zh="图上人物">People in news</th>'
+            '<th class="t" data-en="Institutions in news" data-zh="图上机构">Institutions in news</th>'
             '<th class="t" data-en="Status" data-zh="状态">Status</th></tr>'
             + "".join(reg_src_rows) + "</table></details>")
     sources_html = f"""
