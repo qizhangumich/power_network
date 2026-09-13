@@ -56,7 +56,6 @@ const INSTITUTIONS = [
   {id:"shjpolice", n:"Sharjah Police (General Command)", s:"gov", t:1, p:72, short:"Sharjah Police"},
   {id:"scci",     n:"Sharjah Chamber of Commerce & Industry", s:"gov", t:2, p:66, short:"SCCI"},
   {id:"sedd",     n:"Sharjah Economic Development Department", s:"gov", t:1, p:70, short:"SEDD"},
-  {id:"crescent_2", n:"Crescent Group", s:"energy", t:3, p:59, short:"Crescent Group"},
   {id:"ghassan_aboud_grp", n:"Ghassan Aboud Group", s:"conglomerate", t:3, p:57, short:"Ghassan Aboud Grp"},
 ];
 
@@ -533,6 +532,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  crescent:["Crescent Group"],
   sultan_qasimi:["Sultan Al Qasimi","Sultan bin Muhammad","Sultan bin Muhammad Al Qasimi","Sultan bin Mohammed Al Qasimi","Ruler of Sharjah"],
   sultan_ahmed_q:["Sultan bin Ahmed Al Qasimi","Sultan bin Ahmad Al Qasimi","Deputy Ruler of Sharjah"],
   sultan_mbs_qasimi:["Sultan bin Mohammed bin Sultan","Sultan bin Mohammed bin Sultan Al Qasimi","Crown Prince of Sharjah"],

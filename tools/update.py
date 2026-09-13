@@ -43,7 +43,7 @@ def main():
     if diff.returncode == 0:
         print("\nNothing changed — nothing to push.")
         return
-    run(["git", "commit", "-m", msg + "\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>"])
+    run(["git", "commit", "-m", msg + "\n\nCo-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01W9KrrBdKjDPY9NFu6deqZu"])
     run(["git", "pull", "--rebase"])   # the Actions bot may have pushed meanwhile
     run(["git", "push"])
     deploy()

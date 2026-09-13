@@ -55,7 +55,6 @@ const INSTITUTIONS = [
   {id:"alzayani",  n:"Al Zayani Investments",         s:"conglomerate", t:3, p:60, short:"Al Zayani"},
   {id:"fakhro",    n:"Fakhro Group",                  s:"conglomerate", t:3, p:56, short:"Fakhro"},
   {id:"lst_kfh", n:"Kuwait Finance House K.S.C.P.", s:"finance", t:2, p:50, short:"KFH"},
-  {id:"lst_albh", n:"Aluminium Bahrain B.S.C.", s:"materials", t:2, p:50, short:"ALBH"},
   {id:"lst_bbk", n:"Bank of Bahrain and Kuwait B.S.C.", s:"finance", t:2, p:50, short:"BBK"},
   {id:"lst_salam", n:"Al Salam Bank B.S.C.", s:"finance", t:2, p:50, short:"Al Salam Bank B.S.C."},
   {id:"lst_ugh", n:"United Gulf Holding Company B.S.C.", s:"finance", t:2, p:50, short:"UGH"},
@@ -115,8 +114,6 @@ const INSTITUTIONS = [
   {id:"bxt_trading", n:"BxT Trading", s:"energy", t:3, p:56, short:"BxT Trading"},
   {id:"bahrain_lng", n:"Bahrain LNG", s:"energy", t:2, p:60, short:"Bahrain LNG"},
   {id:"almoayyed_sons", n:"Y.K. Almoayyed & Sons", s:"conglomerate", t:3, p:57, short:"Almoayyed & Sons"},
-  {id:"zayani", n:"Alzayani Investments", s:"conglomerate", t:3, p:56, short:"Zayani Group"},
-  {id:"bahrain_national", n:"Bahrain National Holding", s:"finance", t:2, p:55, short:"Bahrain National Hldg"},
 ];
 
 const PEOPLE = [
@@ -2307,9 +2304,8 @@ const PEOPLE = [
   {id:"dalal_buhejji", n:"Dalal Buhejji", t:2, p:52, s:"tech", roles:[
     ["bfb","Board Member","board","v"]]},
   {id:"isa_bin_khalid", n:"Isa bin Khalid Al Khalifa", t:2, p:52, s:"materials", roles:[
-    ["lst_albh","Director","board","v"]]},
+    ["alba","Director","board","v"]]},
   {id:"khalid_al_rowais", n:"Khalid Al Rowais", t:2, p:52, s:"materials", roles:[
-    ["lst_albh","Director","board","v"],
     ["alba","Director","board","v"]]},
   {id:"saud_abdulaziz_kanoo", n:"Saud Abdulaziz Kanoo", t:2, p:52, s:"conglomerate", roles:[
     ["kanoo","Board Member","board","v"]]},
@@ -2344,7 +2340,7 @@ const OWNERSHIP = [
   ["cbb","bhgov"],["edb","bhgov"],
   ["mumtalakat","bhgov","sovereign fund"],
   ["bapco","bhgov","state energy holding","ns"],
-  ["alba","mumtalakat","majority","ns"],
+  ["alba","bhb","listed on Bahrain Bourse","ns"],
   ["beyon","mumtalakat","anchor shareholder","ns"],
   ["gulfair","bhgov","state owner"],
   ["nbb","mumtalakat","anchor shareholder","ns"],
@@ -2354,7 +2350,6 @@ const OWNERSHIP = [
   ["edamah","mumtalakat"],
   ["bhb","bhgov","state-owned exchange","ns"],
   ["lst_kfh","bhb","listed on Bahrain Bourse","ns"],
-  ["lst_albh","bhb","listed on Bahrain Bourse","ns"],
   ["lst_bbk","bhb","listed on Bahrain Bourse","ns"],
   ["lst_salam","bhb","listed on Bahrain Bourse","ns"],
   ["lst_ugh","bhb","listed on Bahrain Bourse","ns"],
@@ -2412,7 +2407,7 @@ const OWNERSHIP = [
   ["bahrain_lng","bapco","joint venture / portfolio company","v"],
   ["gulfair","mumtalakat","Mumtalakat portfolio company (aviation holding)","v"],
   ["bic","mumtalakat","wholly owned subsidiary","v"],
-  ["lst_albh","mumtalakat","majority shareholder","v"],
+  ["alba","mumtalakat","majority shareholder","v"],
 ];
 
 const FAMILY = [
@@ -2426,6 +2421,8 @@ const AKA = {
   kinghamad:["King Hamad"],
   salman_cp:["Salman bin Hamad","Crown Prince Salman"],
   mumtalakat:["Mumtalakat"],
+  alzayani:["Alzayani Investments","Zayani Group"],
+  lst_bnh:["Bahrain National Holding"],
   investcorp:["Investcorp"],
   beyon:["Batelco"],
   kvalseth:["Andrew Kvalseth"],

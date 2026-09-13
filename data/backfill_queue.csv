@@ -331,7 +331,6 @@ saudi,saudi_exim,Saudi EXIM Bank,finance,60,0,pending
 saudi,redf,Real Estate Development Fund,finance,60,0,pending
 abudhabi,alnowais_investments,AlNowais Investments,conglomerate,59,0,pending
 kuwait,al_mulla,Al Mulla Group,conglomerate,59,0,pending
-northern,crescent_2,Crescent Group,energy,59,0,pending
 oman,towell,W.J. Towell Group,conglomerate,59,0,pending
 abudhabi,flash,Flash Entertainment,comm,58,1,pending
 abudhabi,thenational,The National,comm,58,1,pending
@@ -426,7 +425,6 @@ bahrain,amh,American Mission Hospital,health,56,0,pending
 bahrain,fakhro,Fakhro Group,conglomerate,56,0,pending
 bahrain,bapco_tazweed,Bapco Tazweed,energy,56,0,pending
 bahrain,bxt_trading,BxT Trading,energy,56,0,pending
-bahrain,zayani,Alzayani Investments,conglomerate,56,0,pending
 dubai,meydan,Meydan Group,consumer_disc,56,0,pending
 dubai,dafza,Dubai Airport Free Zone Authority,gov,56,0,pending
 dubai,al_shirawi,Al Shirawi Group,industry,56,0,pending
@@ -458,7 +456,6 @@ saudi,sultan,Sultan Holding Company,conglomerate,56,0,pending
 saudi,al_rashed_rar,Rashed Abdul Rahman Al Rashed & Sons Group,conglomerate,56,0,pending
 saudi,adf,Agricultural Development Fund,finance,56,0,pending
 abudhabi,bloom,Bloom Holding,realestate,55,0,pending
-bahrain,bahrain_national,Bahrain National Holding,finance,55,0,pending
 dubai,nasdaq_dubai,Nasdaq Dubai,finance,55,0,pending
 dubai,dwtc,Dubai World Trade Centre,consumer_disc,55,0,pending
 dubai,seddiqi,Seddiqi Holding,consumer_disc,55,0,pending
@@ -936,7 +933,6 @@ saudi,lst_6019,Almasar Alshamil Education Co.,consumer_disc,50,0,pending
 saudi,lst_6022,Armah Sports Co.,consumer_disc,50,0,pending
 saudi,lst_4070,Arriyadh Development Co. (TAPRCO),comm,50,0,pending
 saudi,lst_4071,Saudi Research and Media Group Alarabia,comm,50,0,pending
-saudi,lst_4072,MBC Group,comm,50,0,pending
 saudi,lst_4003,United Electronics Co. (eXtra),consumer_disc,50,0,pending
 saudi,lst_4008,Saudi Co. for Hardware (SACO),consumer_disc,50,0,pending
 saudi,lst_4050,Saudi Automotive Services Co. (SASCO),consumer_disc,50,0,pending
