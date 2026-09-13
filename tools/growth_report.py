@@ -319,23 +319,44 @@ def main():
 
     TYPE_L = {"media": ("News outlet", "新闻媒体"), "query": ("News query", "新闻查询"),
               "registry": ("Exchange registry", "交易所名录")}
-    # what each outlet actually contributes to the maps: matched news signals,
-    # split by whether the matched entity is a person or an institution
-    people_by_src, inst_by_src = Counter(), Counter()
+    # what each outlet actually contributes to the maps: matched news items, split by
+    # whether the matched entity is a person or an institution, keeping (per source, per
+    # name) the most recent article it was matched from so the count can drill down to it
+    NEWS_ITEM_RE = re.compile(
+        r'\{id:"[^"]+",\s*date:"([^"]*)",\s*title:"((?:[^"\\]|\\.)*)",\s*source:"([^"]*)",\s*url:"([^"]*)",\s*ids:\[([^\]]*)\]\}')
+    people_hits, inst_hits = {}, {}   # source -> name -> (date, url, region)
     for key, d, _, _ in REGIONS:
         nf = ROOT / REL[key].replace("network_data", "news_data")
         if not nf.exists():
             continue
-        id_kind = {n["id"]: n["kind"] for n in load_nodes(ROOT / REL[key])}
-        for m in re.finditer(r'\{id:"[^"]+",.*?source:"([^"]*)".*?ids:\[([^\]]*)\]\}', nf.read_text(encoding="utf-8")):
-            src = m.group(1)
+        p_names, i_names = ppl_names[key], inst_names[key]
+        for date, title, src, url, idsblob in NEWS_ITEM_RE.findall(nf.read_text(encoding="utf-8")):
             if not src:
                 continue
-            kinds = {id_kind.get(i) for i in re.findall(r'"([^"]+)"', m.group(2))}
-            if "person" in kinds:
-                people_by_src[src] += 1
-            if "inst" in kinds:
-                inst_by_src[src] += 1
+            for i in re.findall(r'"([^"]+)"', idsblob):
+                nm, bucket = (p_names.get(i), people_hits) if i in p_names else \
+                             (i_names.get(i), inst_hits) if i in i_names else (None, None)
+                if not nm:
+                    continue
+                seen = bucket.setdefault(src, {})
+                if nm not in seen or date > seen[nm][0]:
+                    seen[nm] = (date, url, key)
+
+    def hits_cell(hits_dict, src_name):
+        rows = hits_dict.get(src_name)
+        if not rows:
+            return "0"
+        ordered = sorted(rows.items(), key=lambda kv: kv[1][0], reverse=True)
+        CAP = 30
+        lines = "".join(
+            f'<div><a href="{esc(url)}" target="_blank" rel="noopener">{esc(nm)}</a> '
+            f'<span class="reg">· {esc(region_names.get(reg, reg))} · {esc(dt)}</span></div>'
+            for nm, (dt, url, reg) in ordered[:CAP])
+        more = (f'<div class="more">+{len(ordered) - CAP} '
+                '<span class="t" data-en="more" data-zh="更多">more</span></div>' if len(ordered) > CAP else "")
+        return (f'<details class="cellhits"><summary>{len(ordered)}</summary>'
+                f'<div class="hitlist">{lines}{more}</div></details>')
+
     reg_src_rows = []
     for r in sorted(all_sources, key=lambda x: (x.get("type", ""), x.get("group", ""), x.get("name", ""))):
         typ, grp, name = (r.get("type") or "").strip(), (r.get("group") or "").strip(), (r.get("name") or "").strip()
@@ -346,8 +367,8 @@ def main():
         freq = (r.get("freq_hours") or "").strip()
         cadence = (freq + "h" if freq else "6h") if typ == "media" else "—"
         ok = last_ok(grp, name) if typ == "media" else "—"
-        people_n = str(people_by_src.get(name, 0)) if typ == "media" else "—"
-        inst_n = str(inst_by_src.get(name, 0)) if typ == "media" else "—"
+        people_n = hits_cell(people_hits, name) if typ == "media" else "—"
+        inst_n = hits_cell(inst_hits, name) if typ == "media" else "—"
         reg_src_rows.append(f'<tr><td>{esc(name)}</td>'
                             f'<td><span class="t" data-en="{ten}" data-zh="{tzh}">{ten}</span></td>'
                             f'<td>{esc(grp)}</td><td>{cadence}</td><td>{ok}</td><td>{people_n}</td><td>{inst_n}</td><td>{st_html}</td></tr>')
@@ -435,6 +456,14 @@ details[open].sd summary::before,details[open].allsrc summary::before{{content:"
 .sdn{{font-size:12.5px;padding:2px 0;border-bottom:1px solid #EFEFEC}}
 details.allsrc{{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:10px 0 26px}}
 details.allsrc table{{border:0;margin:0}}
+details.cellhits summary{{cursor:pointer;list-style:none;color:var(--soft)}}
+details.cellhits summary::-webkit-details-marker{{display:none}}
+details.cellhits summary::before{{content:"▸ ";color:var(--faint);font-size:10px}}
+details[open].cellhits summary::before{{content:"▾ "}}
+.hitlist{{max-height:170px;overflow-y:auto;margin-top:4px;font-size:11.5px;min-width:190px}}
+.hitlist div{{padding:2px 0;border-bottom:1px solid #EFEFEC;white-space:nowrap}}
+.hitlist a{{color:var(--soft)}}
+.hitlist .reg{{color:var(--faint);font-size:10px}}
 .prov{{font-size:11.5px;color:var(--soft);margin-top:10px;padding-top:9px;border-top:1px solid var(--line);line-height:1.6}}
 #tip{{position:fixed;z-index:50;max-width:330px;background:#17181C;color:#fff;border-radius:9px;
      padding:9px 11px;font-size:12px;line-height:1.5;display:none;pointer-events:none;box-shadow:0 6px 22px rgba(0,0,0,.22)}}
