@@ -1,0 +1,5 @@
+# President welcomes King of Jordan upon arrival on fraternal visit
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNlpBemdBYmNGVGhyYklpR0dOVlJrWHRURjEtMU5sZmNmbmJ0WkFodktJWFVRdm91TkhkVEtZM2RXLW9zUmpXYk5JUE5pbU1BeUlHc1hzNFlSX0MwS2VQMWlHajFtSWR2Tkt4aWFmazZJelZjN09kVTZKN0J2eGNOU1I0MENEbDZaZDlqNXdwZmtaTzJ0YVlYY21pUm5rNHYwR3dOSHVLN0tnQQ?oc=5
+
+President welcomes King of Jordan upon arrival on fraternal visit    Gulf Today
