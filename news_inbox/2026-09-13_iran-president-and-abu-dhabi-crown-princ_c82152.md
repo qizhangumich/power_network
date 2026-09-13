@@ -1,0 +1,5 @@
+# Iran president and Abu Dhabi crown prince discuss 'regional stability'
+source: アラブニュース
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxQN3NCdTdxU0lteERNbGptRmwtYVRmTE5pZmVxeFRyZGZoVWZsczVJY3RLUWZhcHkwNlliWFRadEFhdlZNcFZaX0VGZTAxczNGMDJETkd2T3JQRTdMNlcxdFNab1h0Q3F5clZGQ18wMklsMWlXcnJESFkyVUJBdVQwWHVValFlMEVKQjJVT1FjMTR5RFJ2SFlZWEZCUnpBZHh4U2UyNzROSU12MHRMMnZlOW0tQ1dhUQ?oc=5
+
+Iran president and Abu Dhabi crown prince discuss 'regional stability'    アラブニュース

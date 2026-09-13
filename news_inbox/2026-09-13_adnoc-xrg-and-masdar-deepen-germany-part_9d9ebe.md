@@ -1,0 +1,5 @@
+# ADNOC, XRG and Masdar deepen Germany partnerships with strategic energy, industry and technology agreements
+source: zawya.com
+url: https://news.google.com/rss/articles/CBMi-gFBVV95cUxPU05ObFgxcmMwSXhUMDR2M2tDYU1obmc3VkN1bi1tTy1DTkhXQVFRWWdnTVBYMlN5RnFubmJjdDlDM0NqaXZoWUx3eXh2clJUbXQzQklqS1lEWlM4Nlg2U2ZoMXlVR2d5QzZCRVdEdEhNZ3ZKSWFmR3VaRTdnbmN0LTk3Z0ZOTkM5QW82aTZUU1AwaHFNNlFCdnkzTERSU3dxcWxDUXlyb09zc3pxZk0zOGxfQ1plcEFSblFIdmFndS1WNTRhVFhXZjdOeVFnUVAta1Q1RTV1YmxTWlI1YlEwR0I0Y1FqOHM3Z1pUTUtnWnJTRDc1bUdadTFB?oc=5
+
+ADNOC, XRG and Masdar deepen Germany partnerships with strategic energy, industry and technology agreements    zawya.com

@@ -1,0 +1,5 @@
+# XRG, ADNOC and SEFE to advance opportunities to deliver reliable gas supply to Germany and Europe
+source: zawya.com
+url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxPS3VpSlBXX0dQTFV4MWNPOWFqSzBBUEZxMXRPaFh5bGpKR1FZYnlyTTVFNHVzMS13NDVfZUVoeXFlSVBuOUlubHBmdkIwN1VHVmVUZlFmajdQOXhpdGlYel92cTNBNWt2b0ZxLW1pMWhISG1QQ2UtcW9vQjl1VVVmLUJUYlVVR2xsUzBQUkFheDRSRi1VLUZKMTJrMXlLcVJTaHNXdnF4bHR0Rmx6NGswRXNKa3ZQTXpWRnlodi1VOHozMUhXZTdJZ2xybGdWTVhkUHdqU21QZzc5NmJtODV5RTZMNFRlXzZlQ2tsdjJR?oc=5
+
+XRG, ADNOC and SEFE to advance opportunities to deliver reliable gas supply to Germany and Europe    zawya.com
