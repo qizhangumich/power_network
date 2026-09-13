@@ -170,7 +170,8 @@ institutions is a failed day.
   stage only your own paths, commit, push (pull only if rejected).
 - **NEVER**: force-push, commit private files, hand-edit generated files (root `network_data.js`, any
   `news_data.js`, region `index.html` pages, `abudhabi/network_data.js`, `reports/growth.html` — engine changes
-  go in `map_template.html` + `tools/build_regions.py`), scrape LinkedIn, delete departed leaders.
+  go in `map_template.html` + `tools/build_regions.py`), scrape LinkedIn, delete departed leaders, or edit
+  `tools/update.py`'s commit trailer (it is shared by every run — never hardcode a session URL or model name there).
 
 ## 8. Output — the GROWTH DIGEST (final message)
 
