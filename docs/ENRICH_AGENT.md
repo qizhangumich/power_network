@@ -29,7 +29,8 @@ institutions is a failed day.
 ## 1. Before anything else
 
 1. `git status --porcelain` — must be clean. `git log --oneline -5` — note any `enrich:` commit already
-   made today (UTC) by another run.
+   made today (UTC) by another run (only to avoid re-doing the same companies — it is NOT a reason to stop;
+   see §9, which applies to the catch-up run only).
 2. Read `reports/growth_state.json` (last two days) to know yesterday's totals and weakest regions.
 3. Pick today's work (sections 4–5), then start the first research batch **within the first 10 minutes**.
 
@@ -180,7 +181,11 @@ Then: institutions added (by source, per region, new ownership edges), teams ext
 source), backfill adds, promotions, corrections (incl. roles demoted to former), ns→v flips, source-health
 issues, decisions needed. End with: full history at https://nav.gcc.com/reports/growth.html
 
-## 9. Catch-up mode
+## 9. Catch-up mode (ONLY for the afternoon catch-up run)
+
+This section applies **only** when your prompt explicitly says you are the AFTERNOON CATCH-UP run.
+A regular/morning run (or a manual "run now") must ALWAYS execute the full runbook, even if an
+`enrich:` commit already exists today — growth compounds, a second full run on the same day is wanted.
 
 When started as the afternoon catch-up: run `git fetch origin && git log origin/main --since="<today> 00:00 UTC" --format="%ci | %s"`.
 If an `enrich:` commit exists today AND today's people total in `reports/growth_state.json` is above yesterday's,
