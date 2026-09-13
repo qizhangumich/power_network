@@ -1,0 +1,5 @@
+# Brics summit ends with push for global peace and greater co-operation
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNWI0Yl9FYmpSZEFNUUZ4NVFHbUt1aWhEMzRGeFZjOTcwSl95S0k3ck1fRERqLXlLZC1hUmdzdDg3RS12NXZ1Mk0xdWxFZU5EMGd5ajdma1dJRUJxTkpnQ3J2Q05icGZfdEg2eG5kaWI4TEN3MFIyYkNDN2V0V3Y2Nm80a2JHYml2OFBmUkVPVjBUNFdCTGVka3NYV0tNTWsySW4xaFBNX0l5ZHQ2UWZVc3BDWTZyTjQyaHJfMW5mM2M?oc=5
+
+Brics summit ends with push for global peace and greater co-operation    thenationalnews.com

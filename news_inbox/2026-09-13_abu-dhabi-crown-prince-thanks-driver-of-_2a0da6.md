@@ -1,0 +1,5 @@
+# Abu Dhabi Crown Prince thanks driver of car before departing from India | He met Iran's Masoud Pezeshkian | Inshorts
+source: Inshorts
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxOcURKMUdOMFBXTGVPZHUySEhscDc3SUNyMHgtb0RBRktiREU0cWdqNUtieXJmRWU1UFNIX2tHRm9YTVBJc08zdUNqRE44c0NqTlFBWEZNWUlkREZMbGZkRUF6d29zcVZGamhXNF9ybWJ2bGxxckZ0U0cyWTNUaFd0eVBvV0VvQ2RPRms3ZTVBb0tYaHZrbVJCYXFzMHBlakdUMnBxLVVLT2Fwc1J1Unl6cE1FSjPSAboBQVVfeXFMTTZXVy1tZF95RFFiX2F5TzZpSndjYVdGRS1nekpuT0NEMEh1QWlDQWxPcXFzYmVyVlpOYUpzS0VFcEZBemR0RDBwNENuYTd4c0FSRUk1YW5haHZLcjNsV0dvZHVxc19ZT3hwcF9wT19ZejBoRjduTER3TFY1aU1vSjhOcWlzWktESVNxRGk0VzEwX1pXRkxqemtycjNuSDRmQzhsSHgwMHV5OW92N3RZUmpYYWF2M1hzNktB?oc=5
+
+Abu Dhabi Crown Prince thanks driver of car before departing from India | He met Iran's Masoud Pezeshkian | Inshorts    Inshorts

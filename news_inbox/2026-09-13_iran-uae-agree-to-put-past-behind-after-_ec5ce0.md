@@ -1,0 +1,5 @@
+# Iran, UAE agree to 'put past behind' after talks at BRICS
+source: Rediff
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxOOE94TmRZbUNCc2JvT1d0SmxvLUpTSGFoeTZEU0xOVVJnVWZZV0NaMnRKR3pfNWpkUVZmS2M5NDNhcklVR2lrYm15Nm1OZFYwaFNVYmRLMHpWeVVMVTVjcmhXLUNMVWcxYzNUYkNtSlNuY3BmeXY1LXRFWHNaOGw0MlhIM0x1aTAtenFfOFdRZkZMNEZMdVNRNTRGQ21ISXZaOElrcNIBpwFBVV95cUxOQ1lXNkdURlhESkdocmlhM2dmbzYtb1hJT3h4V2lOcTNETWNyN0gxSk1zclZ2d3RDbXZRaTJqS3VuaHlTblFhd25pYXhOM182SElGWWVEZ3R5VFVIQ3ROc2pPVXZpUUpBMnNDNERQcGNfem1FQklWdHQ1WEYtc0N5ZktZUFlUOU1RbWhhcjAwUV9IUWlHRV9HRmtMNEptSG9DTks3bHhsYw?oc=5
+
+Iran, UAE agree to 'put past behind' after talks at BRICS    Rediff
