@@ -1,6 +1,5 @@
 ﻿region,institution_id,name,sector,power,people_linked,status
 abudhabi,scfea,Supreme Council for Financial & Economic Affairs,gov,95,1,pending
-dubai,execco,Dubai Executive Council,gov,94,1,pending
 abudhabi,royalgroup,Royal Group,sovereign,88,1,pending
 saudi,mod_sa,Ministry of Defense,gov,88,1,pending
 qatar,moi_q,Ministry of Interior,gov,86,1,pending
@@ -20,7 +19,6 @@ oman,mof_om,Ministry of Finance,gov,82,1,pending
 qatar,qelng,QatarEnergy LNG,energy,82,1,pending
 saudi,misa,Ministry of Investment,gov,82,1,pending
 abudhabi,dct,Department of Culture & Tourism,gov,80,1,pending
-abudhabi,eia,Emirates Investment Authority,sovereign,80,1,pending
 abudhabi,microsoft,Microsoft,tech,80,0,pending
 kuwait,mof_kw,Ministry of Finance,gov,80,1,pending
 kuwait,moo_kw,Ministry of Oil,energy,80,1,pending
@@ -34,8 +32,6 @@ dubai,dof_dxb,Dubai Dept of Finance,gov,78,1,pending
 dubai,dxbmun,Dubai Municipality,gov,78,1,pending
 dubai,dxbpolice,Dubai Police,gov,78,1,pending
 kuwait,mofa_kw,Ministry of Foreign Affairs,gov,78,1,pending
-kuwait,cbk,Central Bank of Kuwait,finance,78,1,pending
-northern,shj_execco,Sharjah Executive Council,gov,78,1,pending
 oman,moem_om,Ministry of Energy & Minerals,energy,78,1,pending
 oman,moin_om,Ministry of Interior,gov,78,1,pending
 qatar,moci,Ministry of Commerce & Industry,gov,78,1,pending
@@ -120,7 +116,6 @@ dubai,jumeirah,Jumeirah Group,consumer_disc,70,1,pending
 dubai,alghurair,Al Ghurair Group,conglomerate,70,1,pending
 dubai,digitaldubai,Digital Dubai Authority,gov,70,1,pending
 dubai,dfsa,Dubai Financial Services Authority,finance,70,1,pending
-northern,fujport,Port of Fujairah,industry,70,1,pending
 northern,sedd,Sharjah Economic Development Department,gov,70,1,pending
 qatar,shura,Shura Council,gov,70,1,pending
 qatar,momun_q,Ministry of Municipality,gov,70,1,pending
@@ -240,7 +235,7 @@ dubai,jumaalmajid,Juma Al Majid Group,conglomerate,60,0,pending
 kuwait,knet,KNET (payments network),tech,60,0,pending
 northern,thumbay,Thumbay Group,health,60,0,pending
 oman,royalhosp,The Royal Hospital (Muscat),health,60,0,pending
-qatar,mannaicorp,Mannai Corporation,conglomerate,60,0,pending
+qatar,mannaicorp,Mannai Corporation,conglomerate,60,1,pending
 qatar,almana,Al Mana Group,conglomerate,60,0,pending
 qatar,sinopec,Sinopec,energy,60,0,pending
 saudi,alfaisaliah,Al Faisaliah Group,conglomerate,60,0,pending

@@ -64,8 +64,9 @@ const PEOPLE = [
     ["aus","Founder & President","board","v"]],
     note:"Ruler since 1972 — the intellectual of the UAE ruling houses; culture and education define Sharjah's model."},
   {id:"sultan_ahmed_q", n:"H.H. Sheikh Sultan bin Ahmed Al Qasimi", t:0, p:84, s:"gov", roles:[
+    ["shj_execco","Deputy Chairman (Chairman of Sharjah Media Council)","board","v"],
     ["shjgov","Deputy Ruler of Sharjah","political","v"],
-    ["arada","Co-founder & Chairman","board","ns"]]},
+    ["arada","Co-founder & Chairman","board","v"]]},
   {id:"sultan_mbs_qasimi", n:"H.H. Sheikh Sultan bin Mohammed bin Sultan Al Qasimi", t:0, p:90, s:"gov", roles:[
     ["shjgov","Crown Prince & Deputy Ruler of Sharjah","political","v"],
     ["shj_execco","Chairman","political","v"]],
@@ -104,11 +105,11 @@ const PEOPLE = [
   {id:"massaad", n:"Abdallah Massaad", t:2, p:66, s:"materials", roles:[
     ["rakceramics","Group CEO","executive","v"]]},
   {id:"jallad", n:"Ramy Jallad", t:2, p:60, s:"gov", roles:[
-    ["rakez","Group CEO","executive","ns"]]},
+    ["rakez","Group CEO","executive","v"]]},
   {id:"qaseer", n:"Ahmed Obaid Al Qaseer", t:2, p:60, s:"sovereign", roles:[
     ["shurooq","CEO","executive","ns"]]},
   {id:"mousa_murad", n:"Capt. Mousa Murad", t:2, p:62, s:"industry", roles:[
-    ["fujport","General Manager","executive","ns"]]},
+    ["fujport","Managing Director","executive","v"]]},
   {id:"abdouli_marjan", n:"Arch. Abdulla Al Abdouli", t:2, p:66, s:"realestate", roles:[
     ["marjan","Group Chief Executive Officer","executive","v"]]},
   {id:"tappeiner_wynn", n:"Max Tappeiner", t:2, p:64, s:"consumer_disc", roles:[
@@ -120,10 +121,12 @@ const PEOPLE = [
   {id:"alsuwaidi_sewa", n:"Saeed Sultan Al Suwaidi", t:2, p:64, s:"utilities", roles:[
     ["sewa","Chairman","board","v"]]},
   {id:"abdullah_mubarak_sp", n:"Lt. Gen. Abdullah Mubarak bin Amer", t:1, p:72, s:"gov", roles:[
+    ["shj_execco","Member (Commander-in-Chief of Sharjah Police)","board","v"],
     ["shjpolice","Commander-in-Chief","government","v"]]},
   {id:"alowais_scci", n:"Abdallah Sultan Al Owais", t:1, p:66, s:"gov", roles:[
     ["scci","Chairman","board","v"]]},
   {id:"almahmoud_sedd", n:"Hamad Ali Abdalla Al Mahmoud", t:1, p:68, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Sharjah Economic Development Department)","board","v"],
     ["sedd","Chairman","government","v"]]},
   {id:"neeraj_agrawal", n:"Neeraj Agrawal", t:2, p:58, s:"conglomerate", roles:[
     ["crescent","Executive Director","executive","v"],
@@ -333,6 +336,104 @@ const PEOPLE = [
     ["srtip","Director, Government and Corporate Partnerships","executive","v"]]},
   {id:"juma_alhaj", n:"Juma Alhaj", t:2, p:58, s:"tech", roles:[
     ["srtip","Director, Strategic Communications and Marketing","executive","v"]]},
+  {id:"sheikh_abdullah_bin_b", n:"Sheikh Abdullah bin Salem bin Sultan Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Deputy Chairman (Deputy Ruler of Sharjah)","board","v"]]},
+  {id:"sheikh_mohammed_bin_b", n:"Sheikh Mohammed bin Saud Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Sharjah Finance Department)","board","v"]]},
+  {id:"sheikh_khaled_bin", n:"Sheikh Khaled bin Abdullah bin Sultan Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Sharjah Seaports and Customs)","board","v"]]},
+  {id:"sheikh_salem_bin", n:"Sheikh Salem bin Abdulrahman Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Ruler's Office)","board","v"]]},
+  {id:"sheikh_khalid_bin_b", n:"Sheikh Khalid bin Isam bin Saqer Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Sharjah Department of Civil Aviation)","board","v"]]},
+  {id:"sheikh_fahim_bin", n:"Sheikh Fahim bin Sultan bin Khalid Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Department of Government Relations)","board","v"]]},
+  {id:"sheikh_mohammed_bin_b_b", n:"Sheikh Mohammed bin Humaid Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Department of Statistics and Community Development)","board","v"]]},
+  {id:"sheikh_majid_bin", n:"Sheikh Majid bin Sultan bin Saqer Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Districts Affairs Department)","board","v"]]},
+  {id:"rashid_ahmed_abdulla", n:"Rashid Ahmed Abdulla Bin Al Shaikh", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Al Dewan Al Amiri)","board","v"]]},
+  {id:"abdullah_mohammed_alowais", n:"Abdullah Mohammed AlOwais", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Sharjah Department of Culture)","board","v"]]},
+  {id:"khalifa_musabeh_ahmed", n:"Khalifa Musabeh Ahmed Alteneiji", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Department of Agriculture and Livestock)","board","v"]]},
+  {id:"abdulla_ali_al", n:"Abdulla Ali Al Mahyan", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Federal Affairs Office in Sharjah)","board","v"]]},
+  {id:"ali_salim_al", n:"Ali Salim Al Midfa", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Sharjah Airport Authority)","board","v"]]},
+  {id:"ali_saeed_sultan", n:"Ali Saeed Sultan Muhammad Bin Shaheen Al Suwaidi", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Department of Public Works)","board","v"]]},
+  {id:"khalid_jasim_saif", n:"Khalid Jasim Saif Al Midfa", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Sharjah Commerce and Tourism Development Authority)","board","v"]]},
+  {id:"yousif_khamis_mohamed", n:"Yousif Khamis Mohamed Alathmane", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Sharjah Roads and Transport Authority)","board","v"]]},
+  {id:"mansour_mohammed_bin", n:"Mansour Mohammed Bin Nassar", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Sharjah Government Legal Department)","board","v"]]},
+  {id:"abdelaziz_saeed_obaid", n:"Abdelaziz Saeed Obaid Bin Butti Almheiri", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Sharjah Health Authority)","board","v"]]},
+  {id:"khaled_butti_bin", n:"Khaled Butti bin Butti Al Muhairi", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Department of Housing)","board","v"]]},
+  {id:"hamad_juma_alshamsi", n:"Hamad Juma AlShamsi", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Department of Town Planning and Survey)","board","v"]]},
+  {id:"ali_ahmed_ali", n:"Ali Ahmed Ali Abughazayain", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Sharjah Fish Resources Authority)","board","v"]]},
+  {id:"abdullah_ibrahim_al", n:"Abdullah Ibrahim Al Zaabi", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Department of Human Resources)","board","v"]]},
+  {id:"sultan_mohamed_bin", n:"Sultan Mohamed Bin Huwaiden Al Ketbi", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Social Services Department)","board","v"]]},
+  {id:"maryam_majid_saeed", n:"Maryam Majid Saeed Mohamed Al Shamsi", t:2, p:52, s:"gov", roles:[
+    ["shj_execco","Member","board","v"]]},
+  {id:"aisha_rashid_ali", n:"Aisha Rashid Ali Bin Deemas AlSuwaidi", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairperson of Environment and Protected Areas Authority)","board","v"]]},
+  {id:"eisa_saif_bin", n:"Eisa Saif Bin Handhal", t:2, p:62, s:"gov", roles:[
+    ["shj_execco","Member (Chairman of Department of Islamic Affairs)","board","v"]]},
+  {id:"ahmed_hamad_rashid", n:"Ahmed Hamad Rashid Matar Al Suwaidi", t:2, p:58, s:"gov", roles:[
+    ["shj_execco","Assistant Secretary General","executive","v"]]},
+  {id:"sheikh_saleh_bin", n:"Sheikh Saleh bin Mohammed bin Hamad Al Sharqi", t:2, p:62, s:"industry", roles:[
+    ["fujport","Chairman","board","v"]]},
+  {id:"khalil_ebraheim", n:"Khalil Ebraheim", t:2, p:60, s:"industry", roles:[
+    ["fujport","Deputy Managing Director","executive","v"]]},
+  {id:"girish_joshi", n:"Girish Joshi", t:2, p:58, s:"industry", roles:[
+    ["fujport","Director - Finance","executive","v"]]},
+  {id:"mayed_alameiry", n:"Mayed Alameiry", t:2, p:58, s:"industry", roles:[
+    ["fujport","Harbour Master / Director - Marine","executive","v"]]},
+  {id:"eduardas_ringis", n:"Eduardas Ringis", t:2, p:58, s:"industry", roles:[
+    ["fujport","Deputy Harbour Master","executive","v"]]},
+  {id:"ali_rashed_al", n:"Ali Rashed Al Abdouli", t:2, p:58, s:"industry", roles:[
+    ["fujport","Director - Fujairah Oil Tanker Terminals","executive","v"]]},
+  {id:"taleb_alyammahi", n:"Taleb Alyammahi", t:2, p:58, s:"industry", roles:[
+    ["fujport","Director - Dry Bulk and General Services","executive","v"]]},
+  {id:"saeed_rashid_al", n:"Saeed Rashid Al Yammahi", t:2, p:58, s:"industry", roles:[
+    ["fujport","Director - Dibba Port","executive","v"]]},
+  {id:"ronaldo_lao_lingat", n:"Ronaldo Lao Lingat", t:2, p:58, s:"industry", roles:[
+    ["fujport","Director - Maintenance","executive","v"]]},
+  {id:"hamzah_alraeesi", n:"Hamzah Alraeesi", t:2, p:58, s:"industry", roles:[
+    ["fujport","Director - Procurement & Services","executive","v"]]},
+  {id:"ayesha_selwyn", n:"Ayesha Selwyn", t:2, p:58, s:"industry", roles:[
+    ["fujport","Acting Director - Human Resources & Administration","executive","v"]]},
+  {id:"martijn_heijboer", n:"Martijn Heijboer", t:2, p:46, s:"industry", roles:[
+    ["fujport","Senior Manager - Strategy Transformation & Business Development","executive","v"]]},
+  {id:"ananthakrishnan_ganesan", n:"Ananthakrishnan Ganesan", t:2, p:58, s:"industry", roles:[
+    ["fujport","Director - IT","executive","v"]]},
+  {id:"craig_williams", n:"Craig Williams", t:2, p:58, s:"industry", roles:[
+    ["fujport","Director - HSE","executive","v"]]},
+  {id:"ali_al_marshoodi", n:"Ali Al Marshoodi", t:2, p:58, s:"industry", roles:[
+    ["fujport","Director - Port Security","executive","v"]]},
+  {id:"dinesh_nair", n:"Dinesh Nair", t:2, p:58, s:"industry", roles:[
+    ["fujport","Director - Engineering and Projects","executive","v"]]},
+  {id:"melissa_bayik", n:"Melissa Bayik", t:2, p:58, s:"realestate", roles:[
+    ["arada","Chief Place Officer","executive","v"]]},
+  {id:"hentry_abraham", n:"Hentry Abraham", t:2, p:58, s:"realestate", roles:[
+    ["arada","Chief Accounting Officer","executive","v"]]},
+  {id:"amer_kharbush", n:"Amer Kharbush", t:2, p:58, s:"realestate", roles:[
+    ["arada","Chief Development Officer","executive","v"]]},
+  {id:"maher_metraji", n:"Maher Metraji", t:2, p:58, s:"realestate", roles:[
+    ["arada","Chief Project Officer","executive","v"]]},
+  {id:"mohamad_moussalli", n:"Mohamad Moussalli", t:2, p:58, s:"realestate", roles:[
+    ["arada","Chief Project Officer","executive","v"]]},
+  {id:"hisham_saeed_khattab", n:"Hisham Saeed Khattab", t:2, p:58, s:"realestate", roles:[
+    ["arada","Director, Government Relations","executive","v"]]},
 ];
 
 const OWNERSHIP = [

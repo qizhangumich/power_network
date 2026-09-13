@@ -200,7 +200,7 @@ const PEOPLE = [
     ["mof_kw","Minister of Finance","political","v"]],
     note:"Appointed in the 1 February 2026 Amiri Decree cabinet reshuffle, succeeding Noora Al-Fassam."},
   {id:"haroon", n:"Basel Al-Haroon", t:1, p:74, s:"finance", roles:[
-    ["cbk","Governor","executive","ns"]]},
+    ["cbk","Governor & Chairman of the Board","executive","v"]]},
   {id:"ghenaiman", n:"Ghanem Al-Ghenaiman", t:1, p:78, s:"sovereign", roles:[
     ["kia","Managing Director","executive","ns"]],
     note:"KIA is the world's oldest sovereign fund — and one of its most secretive."},
@@ -559,6 +559,7 @@ const PEOPLE = [
   {id:"h_e_basel", n:"H.E. Basel Al-Haroon", t:2, p:52, s:"sovereign", roles:[
     ["kia","Board Member (Governor of the Central Bank of Kuwait)","board","v"]]},
   {id:"aseel_al_munifi", n:"Aseel Al-Munifi", t:2, p:52, s:"sovereign", roles:[
+    ["cbk","Board Member (Undersecretary Ministry of Finance)","board","v"],
     ["kia","Board Member (Undersecretary of the Ministry of Finance)","board","v"]]},
   {id:"h_e_sheikh", n:"H.E. Sheikh Dr. Meshaal Jaber Al-Ahmad Al-Sabah", t:2, p:52, s:"sovereign", roles:[
     ["kia","Board Member","board","v"]]},
@@ -876,6 +877,16 @@ const PEOPLE = [
     ["alshaya","Chief People Officer","executive","v"]]},
   {id:"paul_morris", n:"Paul Morris", t:2, p:58, s:"consumer_disc", roles:[
     ["alshaya","Chief Customer & Technology Officer","executive","v"]]},
+  {id:"sahar_a_al", n:"Sahar A. Al-Rumaih", t:2, p:58, s:"finance", roles:[
+    ["cbk","Deputy Governor","executive","v"]]},
+  {id:"abdullwahab_r_al", n:"Abdullwahab R. Al-Haroon", t:2, p:52, s:"finance", roles:[
+    ["cbk","Board Member (Private Sector)","board","v"]]},
+  {id:"hana_a_razzouqi", n:"Hana A. Razzouqi", t:2, p:52, s:"finance", roles:[
+    ["cbk","Board Member (Private Sector)","board","v"]]},
+  {id:"merza_h_hasan", n:"Merza H. Hasan", t:2, p:52, s:"finance", roles:[
+    ["cbk","Board Member (Private Sector)","board","v"]]},
+  {id:"fatma_m_al", n:"Fatma M. Al-Bader", t:2, p:52, s:"finance", roles:[
+    ["cbk","Board Member (Private Sector)","board","v"]]},
 ];
 
 const OWNERSHIP = [

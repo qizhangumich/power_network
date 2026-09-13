@@ -1009,6 +1009,8 @@ const PEOPLE = [
     ["aljazeera","Managing Director of Al Jazeera Documentary","executive","v"]]},
   {id:"dima_khatib", n:"Dima Khatib", t:2, p:60, s:"comm", roles:[
     ["aljazeera","Managing Director of Digital Projects","executive","v"]]},
+  {id:"sumanta_roy", n:"Sumanta Roy", t:2, p:58, s:"conglomerate", roles:[
+    ["mannaicorp","Group President - ICT","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

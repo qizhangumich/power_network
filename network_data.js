@@ -306,6 +306,7 @@ const PEOPLE = [
     ["xrg","CEO","executive","v"],
     ["taqa","Vice Chairman","board","v"],
     ["adnocgas","Chairperson","board","v"],
+    ["eia","Board Member","board","v"],
     ], note:"Runs the hydrocarbon engine and its clean-energy / AI diversification arms; COP28 President."},
   {id:"jassem_zaabi", n:"Jassem Mohamed Bu Ataba Al Zaabi", t:1, p:95, s:"gov", roles:[
     ["dof","Chairman","government","v"],
@@ -318,12 +319,14 @@ const PEOPLE = [
     ["added","Chairman","government","v"],
     ["adgm","Chairman","government","v"],
     ["execcouncil","Member","political","v"],
+    ["eia","Board Member","board","v"],
     ], note:"Gatekeeper for economic policy and the financial free zone."},
   {id:"alsuwaidi_adq", n:"Mohamed Hassan Alsuwaidi", t:1, p:92, s:"sovereign", roles:[
     ["fedgov","UAE Minister of Investment","political","v"],
     ["adq","Managing Director & Group CEO (2018-Jan 2026)","executive","v","former:until Jan 2026"],
     ["adports","Chairman (until Jul 2026)","board","v","former:until Jul 2026"],
     ["lunate","Executive Chairman & Managing Partner","executive","v"],
+    ["eia","Board Member","board","v"],
     ], note:"Founding MD & Group CEO of ADQ 2018-Jan 2026; concluded tenure to become Executive Chairman & Managing Partner of Lunate (announced 29 Jan 2026). ADQ successor not yet publicly named."},
   {id:"syed_basar", n:"Syed Basar Shueb", t:1, p:85, s:"sovereign", roles:[
     ["ihc","CEO","executive","v"],
@@ -399,6 +402,7 @@ const PEOPLE = [
     ]},
   {id:"balama", n:"Khaled Mohamed Balama", t:1, p:83, s:"finance", roles:[
     ["cbuae","Governor","executive","v"],
+    ["eia","Board Member","board","v"],
     ]},
   {id:"noura_kaabi", n:"Noura Al Kaabi", t:1, p:78, s:"gov", roles:[
     ["mofa","Minister of State","political","v"],
@@ -1748,6 +1752,18 @@ const PEOPLE = [
   {id:"h_e_khalifa", n:"H.E. Khalifa Ahmed Al Mazrouei", t:2, p:58, s:"gov", roles:[
     ["dof","Director-General of Executive Financial Affairs","executive","v"],
     ]},
+  {id:"mohamed_hadi_al", n:"Mohamed Hadi Al Hussaini", t:2, p:62, s:"sovereign", roles:[
+    ["eia","Deputy Chairman","board","v"],
+    ]},
+  {id:"abdulla_bin_touq", n:"Abdulla bin Touq Al Marri", t:2, p:52, s:"sovereign", roles:[
+    ["eia","Board Member","board","v"],
+    ]},
+  {id:"hareb_masood_al", n:"Hareb Masood Al Darmaki", t:2, p:52, s:"sovereign", roles:[
+    ["eia","Board Member","board","v"],
+    ]},
+  {id:"kaltham_hamad_al", n:"Kaltham Hamad Al Ghfeli", t:2, p:52, s:"sovereign", roles:[
+    ["eia","Board Member","board","v"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -1825,7 +1841,7 @@ const OWNERSHIP = [
   ["m42","mubadala","JV partner","v"],
   ["m42","g42","JV partner","v"],
   ["ccad","m42","","v"],
-  ["adports","adq","majority","v"],
+  ["adports","adq","majority; L'imad/ADQ cash offer for remaining shares cleared conditions Sep 2026 (settlement by 9 Oct 2026, ADX delisting to follow)","v"],
   ["etihad","adq","","v"],
   ["adairports","adq","","v"],
   ["etihadrail","adgov","state owner","ns"],

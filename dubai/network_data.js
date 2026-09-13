@@ -125,12 +125,14 @@ const PEOPLE = [
     ["dxbgov","UAE Deputy PM & Minister of Defence","political","v"]],
     note:"'Fazza' — runs day-to-day Dubai and took the federal defence portfolio in 2024."},
   {id:"maktoum_dep", n:"H.H. Sheikh Maktoum bin Mohammed Al Maktoum", t:0, p:94, s:"finance", roles:[
+    ["execco","Deputy Chairman","board","v"],
     ["icd","Vice Chairman","board","v"],
     ["dxbgov","First Deputy Ruler of Dubai","political","v"],
     ["dxbgov","UAE Deputy PM & Minister of Finance","political","v"],
     ["difc","President","political","v"]],
     note:"Dubai's financial-markets czar: DIFC, the IPO program and federal finance."},
   {id:"ahmed_saeed", n:"H.H. Sheikh Ahmed bin Saeed Al Maktoum", t:0, p:92, s:"industry", roles:[
+    ["execco","Deputy Chairman","board","v"],
     ["icd","Board Member","board","v"],
     ["emirates","Chairman & Chief Executive","executive","v"],
     ["enbd","Chairman","board","v"],
@@ -139,18 +141,22 @@ const PEOPLE = [
     ["dubaiholding","Chairman","board","v"]],
     note:"The aviation patriarch — Emirates, the airport system and the emirate's biggest bank."},
   {id:"ahmed_moh", n:"H.H. Sheikh Ahmed bin Mohammed Al Maktoum", t:0, p:84, s:"comm", roles:[
+    ["execco","Deputy Chairman","board","v"],
     ["dxbgov","Second Deputy Ruler of Dubai","political","v"],
     ["dxbgov","Chairman, Dubai Media Council","government","v"]]},
   {id:"shaibani", n:"Mohammed Ibrahim Al Shaibani", t:1, p:90, s:"sovereign", roles:[
+    ["execco","Member (Director General of HH the Ruler's Court)","board","v"],
     ["dxbgov","Director-General, Ruler's Court","government","v"],
     ["icd","Managing Director","executive","v"],
     ["nakheel","Chairman","board","ns"],
     ["dib","Chairman","board","v"]],
     note:"The Ruler's chief business fiduciary — controls the ICD holding that owns Emirates, ENBD and more."},
   {id:"altayer_dewa", n:"Saeed Mohammed Al Tayer", t:1, p:84, s:"utilities", roles:[
+    ["execco","Member (Deputy Chairman of Supreme Council of Energy)","board","v"],
     ["dewa","Managing Director & CEO","executive","v"],
     ["enoc","Chairman","board","v"]]},
   {id:"mattar_tayer", n:"Mattar Al Tayer", t:1, p:78, s:"gov", roles:[
+    ["execco","Member (Director General of RTA)","board","v"],
     ["lst_salik","Chairman","board","v"],
     ["rta","Chairman & Director-General","government","v"]]},
   {id:"essa_kazim", n:"Essa Kazim", t:1, p:82, s:"finance", roles:[
@@ -158,6 +164,7 @@ const PEOPLE = [
     ["dfm","Chairman","board","ns"],
     ["dpworld","Chairman","board","v"]]},
   {id:"helal_marri", n:"Helal Saeed Almarri", t:1, p:78, s:"gov", roles:[
+    ["execco","Member (Director General of Department of Economy and Tourism)","board","v"],
     ["icd","Board Member","board","v"],
     ["det","Director-General","government","v"]]},
   {id:"reem_hashimy", n:"Reem Al Hashimy", t:1, p:82, s:"gov", roles:[
@@ -191,6 +198,7 @@ const PEOPLE = [
   {id:"alali_maf_chair", n:"Fadel Abdulbaqi Al Ali", t:2, p:72, s:"conglomerate", roles:[
     ["maf","Chairman, Holding Board","board","v"]]},
   {id:"alsaleh_dof", n:"Abdulrahman Saleh Al Saleh", t:1, p:72, s:"gov", roles:[
+    ["execco","Member (Director General of Department of Finance)","board","v"],
     ["icd","Board Member","board","v"],
     ["dof_dxb","Director-General","political","v"],
     ["enoc","Vice Chairman","board","v"]]},
@@ -215,21 +223,27 @@ const PEOPLE = [
   {id:"white_vara", n:"Matthew White", t:2, p:62, s:"finance", roles:[
     ["vara","Chief Executive Officer","executive","v"]]},
   {id:"marwan_ghalita", n:"Marwan Ahmed bin Ghalita", t:1, p:76, s:"gov", roles:[
+    ["execco","Member (Director General of Dubai Municipality)","board","v"],
     ["dxbmun","Director-General","government","v"]],
     note:"Also Director-General of DLD until May 2025, when he moved to head Dubai Municipality."},
   {id:"abdullah_almarri_police", n:"Lt. Gen. Abdullah Khalifa Al Marri", t:1, p:78, s:"gov", roles:[
+    ["execco","Member (Commander-in-Chief of Dubai Police)","board","v"],
     ["dxbpolice","Commander-in-Chief","government","v"]]},
   {id:"hamad_almansoori_dda", n:"Hamad Obaid Al Mansoori", t:1, p:70, s:"gov", roles:[
+    ["execco","Member (Director General of Dubai Digital Authority)","board","v"],
     ["digitaldubai","Director-General","government","v"]]},
   {id:"alawi_alsheikhali", n:"Dr. Alawi Alsheikh-Ali", t:1, p:72, s:"health", roles:[
+    ["execco","Member (Director General of Dubai Health Authority)","board","v"],
     ["lst_parkin","Board Member","board","v"],
     ["dha","Director-General","government","v"]]},
   {id:"aisha_miran_khda", n:"Aisha Abdulla Miran", t:1, p:66, s:"education", roles:[
+    ["execco","Member (Director General of KHDA)","board","v"],
     ["khda","Director-General","government","v"]]},
   {id:"omar_bushehab_dld", n:"Omar Hamad Bu Shehab", t:1, p:74, s:"gov", roles:[
     ["dld","Director-General","government","v"]],
     note:"Also Chairman of the Board, Mohammed Bin Rashid Housing Establishment."},
   {id:"mona_almarri", n:"Mona Ghanem Al Marri", t:1, p:74, s:"comm", roles:[
+    ["execco","Member (Director General of Government of Dubai Media Office)","board","v"],
     ["gdmo","Director-General","government","v"]]},
   {id:"mark_steward_dfsa", n:"Mark Steward", t:2, p:68, s:"finance", roles:[
     ["dfsa","Chief Executive","executive","v"]]},
@@ -450,6 +464,7 @@ const PEOPLE = [
   {id:"ahmad_julfar", n:"Ahmad Julfar", t:2, p:62, s:"comm", roles:[
     ["du","Vice Chairman (Non-Executive)","board","v"]]},
   {id:"abdulla_al_basti", n:"Abdulla Al Basti", t:2, p:52, s:"comm", roles:[
+    ["execco","Secretary General","executive","v"],
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
   {id:"abdulla_belhoul", n:"Abdulla Belhoul", t:2, p:52, s:"comm", roles:[
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
@@ -963,6 +978,18 @@ const PEOPLE = [
     ["expocity","Chief Technology Officer","executive","v"]]},
   {id:"yousuf_caires", n:"Yousuf Caires", t:2, p:58, s:"realestate", roles:[
     ["expocity","Executive Director, Expo City Dubai Foundation","executive","v"]]},
+  {id:"sheikha_latifa_bint", n:"Sheikha Latifa bint Mohammed bin Rashid Al Maktoum", t:2, p:62, s:"gov", roles:[
+    ["execco","Member (Chairperson of Dubai Culture and Arts Authority)","board","v"]]},
+  {id:"dhahi_khalfan_tamim", n:"Dhahi Khalfan Tamim", t:2, p:52, s:"gov", roles:[
+    ["execco","Member (Deputy Chief of Police and Public Security)","board","v"]]},
+  {id:"essam_issa_al", n:"Essam Issa Al Humaidan", t:2, p:52, s:"gov", roles:[
+    ["execco","Member (Attorney General of Dubai)","board","v"]]},
+  {id:"mohammed_ahmed_al", n:"Mohammed Ahmed Al Marri", t:2, p:52, s:"gov", roles:[
+    ["execco","Member (Director General of Identity and Foreigners Affairs)","board","v"]]},
+  {id:"hessa_essa_buhumaid", n:"Hessa Essa Buhumaid", t:2, p:52, s:"gov", roles:[
+    ["execco","Member (Director General of Community Development Authority)","board","v"]]},
+  {id:"abdulla_bin_damithan", n:"Abdulla bin Damithan", t:2, p:62, s:"gov", roles:[
+    ["execco","Member (Chairman of Ports Customs and Free Zone Corporation)","board","v"]]},
 ];
 
 const OWNERSHIP = [
