@@ -232,13 +232,109 @@ def main():
         f'{KIND_L.get(k, (k, k))[0]}</span></td><td>{c}</td></tr>'
         for (s, k), c in topsrc)
     ing = Counter()
+    all_sources = []
     sc = ROOT / "data" / "sources.csv"
     if sc.exists():
         import csv as _csv
         with open(sc, encoding="utf-8-sig", newline="") as f:
-            for r in _csv.DictReader(f):
-                if (r.get("status") or "").strip() == "active":
-                    ing[(r.get("type") or "").strip()] += 1
+            all_sources = list(_csv.DictReader(f))
+        for r in all_sources:
+            if (r.get("status") or "").strip() == "active":
+                ing[(r.get("type") or "").strip()] += 1
+
+    # ---- today's contributions by source (fallback: latest day with adds) ----
+    inst_names = {key: {m.group(1): m.group(2) for m in INST_RE.finditer(region_text(key))}
+                  for key, _, _, _ in REGIONS}
+    ppl_names = {key: {pid: d["n"] for pid, d in parse_people(region_text(key)).items()}
+                 for key, _, _, _ in REGIONS}
+    added_days = sorted({r["date"] for r in prov_rows if r["action"] == "added"})
+    day_pick = today if today in added_days else (added_days[-1] if added_days else None)
+    bysrc = {}
+    for r in prov_rows:
+        if r["date"] != day_pick or r["action"] != "added":
+            continue
+        label = r["source"] or KIND_L.get(r["source_kind"], (r["source_kind"] or "?",))[0]
+        b = bysrc.setdefault(label, {"url": r["url"], "p": [], "i": []})
+        nm = (ppl_names if r["entity_type"] == "person" else inst_names) \
+            .get(r["region"], {}).get(r["entity_id"], r["entity_id"])
+        b["p" if r["entity_type"] == "person" else "i"].append(
+            f"{nm} · {region_names.get(r['region'], r['region'])}")
+    srcday_blocks = []
+    for label, b in sorted(bysrc.items(), key=lambda kv: -(len(kv[1]["p"]) + len(kv[1]["i"]))):
+        inner = ""
+        SD_CAP = 400
+        for kk, lbl_en, lbl_zh in (("p", "People", "人物"), ("i", "Institutions", "机构")):
+            if not b[kk]:
+                continue
+            inner += (f'<div class="dhead"><span class="t" data-en="{lbl_en}" data-zh="{lbl_zh}">{lbl_en}</span></div>'
+                      '<div class="sdl">' + "".join(f'<span class="sdn">{esc(x)}</span>' for x in b[kk][:SD_CAP]) + "</div>")
+            if len(b[kk]) > SD_CAP:
+                inner += f'<div class="more">+{len(b[kk]) - SD_CAP} <span class="t" data-en="more not listed here" data-zh="更多未在此列出">more not listed here</span></div>'
+        srcday_blocks.append(
+            f'<details class="sd"><summary><b>{esc(label)}</b> · {len(b["p"])} '
+            f'<span class="t" data-en="people" data-zh="人物">people</span> · {len(b["i"])} '
+            f'<span class="t" data-en="institutions" data-zh="机构">institutions</span></summary>'
+            f'<div class="sdw">{inner}</div></details>')
+    srcday_html = ""
+    if srcday_blocks:
+        daylbl = ('<span class="t" data-en="Today" data-zh="今日">Today</span>' if day_pick == today else
+                  f'{day_pick} (<span class="t" data-en="latest day with additions" data-zh="最近有新增的一天">latest day with additions</span>)')
+        srcday_html = (f'<h2><span class="t" data-en="Contributions by source" data-zh="按来源统计新增">Contributions by source</span> — {daylbl}</h2>'
+                       '<div class="sub" style="margin-bottom:6px"><span class="t" '
+                       'data-en="Click a source to see exactly which people and institutions it contributed." '
+                       'data-zh="点击来源可展开查看其贡献的具体人物与机构。">'
+                       'Click a source to see exactly which people and institutions it contributed.</span></div>'
+                       f'<div class="sdbox">{"".join(srcday_blocks)}</div>')
+
+    # ---- full source registry (all rows, with media health) ----
+    health = {}
+    hp = ROOT / "scraped_news" / "health.json"
+    if hp.exists():
+        try:
+            health = json.loads(hp.read_text(encoding="utf-8-sig"))
+        except Exception:
+            health = {}
+
+    def last_ok(group, name):
+        h = health.get(f"{group}/{name}")
+        if not h or not h.get("last_success"):
+            return "—"
+        try:
+            dt = datetime.datetime.strptime(h["last_success"], "%Y-%m-%dT%H:%M:%SZ")
+        except ValueError:
+            return "—"
+        hrs = (datetime.datetime.utcnow() - dt).total_seconds() / 3600
+        return f"{hrs:.0f}h" if hrs < 48 else f"{hrs/24:.0f}d"
+
+    TYPE_L = {"media": ("News outlet", "新闻媒体"), "query": ("News query", "新闻查询"),
+              "registry": ("Exchange registry", "交易所名录")}
+    reg_src_rows = []
+    for r in sorted(all_sources, key=lambda x: (x.get("type", ""), x.get("group", ""), x.get("name", ""))):
+        typ, grp, name = (r.get("type") or "").strip(), (r.get("group") or "").strip(), (r.get("name") or "").strip()
+        ten, tzh = TYPE_L.get(typ, (typ, typ))
+        status = (r.get("status") or "").strip()
+        st_html = ('<span class="vf v">active</span>' if status == "active"
+                   else f'<span class="vf ns">{esc(status)}</span>')
+        freq = (r.get("freq_hours") or "").strip()
+        cadence = (freq + "h" if freq else "6h") if typ == "media" else "—"
+        ok = last_ok(grp, name) if typ == "media" else "—"
+        reg_src_rows.append(f'<tr><td>{esc(name)}</td>'
+                            f'<td><span class="t" data-en="{ten}" data-zh="{tzh}">{ten}</span></td>'
+                            f'<td>{esc(grp)}</td><td>{cadence}</td><td>{ok}</td><td>{st_html}</td></tr>')
+    registry_html = ""
+    if reg_src_rows:
+        registry_html = (
+            f'<details class="allsrc"><summary><b><span class="t" data-en="All ingestion sources" data-zh="全部信息来源">All ingestion sources</span></b>'
+            f' ({len(all_sources)}) · <span class="t" data-en="managed in data/sources.csv — add a row to add a source, set status paused to retire one" '
+            f'data-zh="管理于 data/sources.csv——新增来源即添加一行，停用则将 status 设为 paused">managed in data/sources.csv</span></summary>'
+            '<table style="margin-top:8px"><tr>'
+            '<th class="t" data-en="Source" data-zh="来源">Source</th>'
+            '<th class="t" data-en="Type" data-zh="类型">Type</th>'
+            '<th class="t" data-en="Group" data-zh="分组">Group</th>'
+            '<th class="t" data-en="Cadence" data-zh="频率">Cadence</th>'
+            '<th class="t" data-en="Last fetch OK" data-zh="上次成功抓取">Last fetch OK</th>'
+            '<th class="t" data-en="Status" data-zh="状态">Status</th></tr>'
+            + "".join(reg_src_rows) + "</table></details>")
     sources_html = f"""
 <h2 class="t" data-en="Where records come from" data-zh="数据来源">Where records come from</h2>
 <div class="sub" style="margin-bottom:6px"><span class="t"
@@ -255,6 +351,7 @@ Every person and institution added since provenance logging began carries the ex
 <th class="t" data-en="Records" data-zh="记录数">Records</th></tr>
 {src_rows}</table>
 """ if src_rows else "")
+    sources_html = sources_html + srcday_html + registry_html
 
     stamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     html = f"""<!doctype html>
@@ -295,6 +392,16 @@ tr.drill.hide{{display:none}}
 .vf.ns{{background:rgba(154,156,166,.18);color:var(--faint)}}
 .more{{font-size:11.5px;color:var(--faint);margin-top:8px}}
 .src{{font-size:10.5px;color:var(--faint)}} .src a{{color:var(--faint)}}
+.sdbox{{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px 14px;margin:10px 0 26px}}
+details.sd{{border-bottom:1px solid var(--line);padding:8px 0}} details.sd:last-child{{border-bottom:0}}
+details.sd summary,details.allsrc summary{{cursor:pointer;font-size:13.5px;list-style:none}}
+details.sd summary::before,details.allsrc summary::before{{content:"▸ ";color:var(--faint);font-size:11px}}
+details[open].sd summary::before,details[open].allsrc summary::before{{content:"▾ "}}
+.sdw{{padding:8px 2px 4px 14px}}
+.sdl{{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:3px 14px;margin-bottom:6px}}
+.sdn{{font-size:12.5px;padding:2px 0;border-bottom:1px solid #EFEFEC}}
+details.allsrc{{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:10px 0 26px}}
+details.allsrc table{{border:0;margin:0}}
 .prov{{font-size:11.5px;color:var(--soft);margin-top:10px;padding-top:9px;border-top:1px solid var(--line);line-height:1.6}}
 #tip{{position:fixed;z-index:50;max-width:330px;background:#17181C;color:#fff;border-radius:9px;
      padding:9px 11px;font-size:12px;line-height:1.5;display:none;pointer-events:none;box-shadow:0 6px 22px rgba(0,0,0,.22)}}
