@@ -1,0 +1,5 @@
+# President Sheikh Mohamed receives Jordanian King Abdullah in Abu Dhabi
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxQcDlMTUh6cUhvd09nR0JVYzM0YkpNb201RkpLRXhRNFVCNHpteDEyeWotaDBmLUZ0cmJPeUhHbmpnZjZwNnZWT3h4MVpiTVZGTHE0M1FrYzVibk5pNll3SDEtTlpsOE5URmlCYl9wejJKZHkwMk5mb1ljWDNlanhRXzlHdXhzZEkwZ1gzeFc1OXRaWkE2MlMtR1dkTmdNcXVLOWtlanE4SzhpNlVRcVg0NnFkc2s?oc=5
+
+President Sheikh Mohamed receives Jordanian King Abdullah in Abu Dhabi    thenationalnews.com
