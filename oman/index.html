@@ -320,6 +320,7 @@
 
 <script src="network_data.js"></script>
 <script src="news_data.js"></script>
+<script src="prov_data.js"></script>
 <script src="my_network.js"></script>
 <script>
 /* ================================================================
@@ -400,6 +401,8 @@ const I18N = {
     roleTypes:{political:"political", government:"government", board:"board", executive:"executive", ownership:"owner"},
     sectors:null,
     liSearch:"Search on LinkedIn ↗",
+    provLabel:"Record source", provLegacy:"curated (pre-provenance)",
+    provRegistry:"exchange registry", provNone:"not recorded",
     myNet:"My Network", mpPrivacy:"Private — stays in this browser only, never uploaded.",
     mpConnect:"Connect your professional network to see who you already know here, and your best path to the people who matter.",
     mpHow:"LinkedIn → Settings & Privacy → Data privacy → “Download your data” → choose the file list and tick “Connections” only (much faster than the full archive). LinkedIn emails you a download link — unzip it and upload Connections.csv here:",
@@ -452,6 +455,8 @@ const I18N = {
       comm:"通信服务", utilities:"公用事业", realestate:"房地产",
       gov:"政府与政治", sovereign:"主权资本", education:"教育与科研", conglomerate:"家族企业集团"},
     liSearch:"在领英搜索 ↗",
+    provLabel:"记录来源", provLegacy:"早期人工核录",
+    provRegistry:"交易所名录", provNone:"未记录",
     myNet:"我的网络", mpPrivacy:"私密数据——仅保存在本浏览器，绝不上传。",
     mpConnect:"连接你的职业人脉，看看这张图上有谁是你已经认识的，以及触达关键人物的最佳路径。",
     mpHow:"LinkedIn → Settings & Privacy → Data privacy → “Download your data”（下载你的数据）→ 选择文件清单并只勾选 “Connections”（比完整存档快得多）。LinkedIn 会发邮件提供下载链接——解压后在此上传 Connections.csv：",
@@ -1500,6 +1505,16 @@ function select(n){
   html += `<div class="sub">${n.kind==="person" ? t().person : t().inst} · ${sectorName(n.sector)}</div>`;
   html += `<div><span class="badge tier">${tierName(n.tier)}</span><span class="badge">${sectorName(n.sector)}</span></div>`;
   html += `<div class="powerbar"><i style="width:${n.power}%"></i></div><div class="plab">${t().power} ${n.power} / 100 · ${n.deg} ${t().conns}</div>`;
+  const pv = (window.PROV || {})[n.id];
+  if(pv){
+    const ptxt = pv[0] === "legacy" ? t().provLegacy
+               : pv[0] === "registry" ? (pv[1] || t().provRegistry)
+               : (pv[1] || pv[2] || t().provNone);
+    html += `<div class="plab" style="margin-top:2px">${t().provLabel}: `
+          + (pv[2] ? `<a href="${pv[2]}" target="_blank" rel="noopener" style="color:var(--ink-soft,#5B5D66)">${ptxt} ↗</a>`
+                   : `${ptxt}`)
+          + `</div>`;
+  }
   html += `<div class="pathbtn" id="p-arm">${t().pathBtn}</div> `
         + `<a class="pathbtn" style="text-decoration:none" target="_blank" rel="noopener" `
         + `href="https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(liQuery(n))}">${t().liSearch}</a>`;
