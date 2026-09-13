@@ -74,6 +74,9 @@ institutions is a failed day.
 1. Research agents write `/tmp/enrich/people_<batch>.csv` with header
    `region,institution_id,person_name,title,role_type,verification,source_url`
    (institution ids must exist in that region's map — look them up first; `role_type` board|executive).
+   **`source_url` is mandatory** — the exact page the person was taken from. The merge tools write it
+   into `data/provenance.csv` (append-only credibility trail) and the growth report shows it per person;
+   a row without it lands as "source not recorded" on the owner's report.
 2. `python3 tools/dedupe_people.py /tmp/enrich 'people_*.csv'` — review every `ROLE-ADD [fuzzy]` line;
    put wrong matches into `/tmp/enrich/dedupe_cfg.py` `SKIP_MATCH`, lst_* shadows into `REMAP`.
 3. `python3 tools/dedupe_people.py /tmp/enrich 'people_*.csv' --apply` → then `python3 tools/merge_people.py`
@@ -103,10 +106,15 @@ institutions is a failed day.
    and ownership edges.
 5. **VERIFICATION ROTATION** (~5): re-verify `ns` roles against official pages; flip to v, or correct
    (ended role → former, never deleted).
-6. **SOURCE HEALTH**: read the "Source health" section of the latest `reports/*.md`. Fix genuinely dead scraper
-   URLs in `tools/scrape_news.py` SOURCES; re-run `tools/import_listings.py` if a listings registry is >30 days old.
-   Known and NOT fixable by URL changes: `bahrain/BNA`, `kuwait/KUNA`, `oman/ONA`, `regional/Arabian Business`
-   (IP blocks on the Actions runner) and `saudi/Arab News` (Cloudflare wall).
+6. **SOURCE HEALTH & SOURCE REGISTRY**: read the "Source health" section of the latest `reports/*.md`.
+   Ingestion sources are managed as data in **`data/sources.csv`** (scrape_news and fetch_news read it):
+   `type` media (news outlet: group/name/rss_url with `|`-separated candidates/page_url/freq_hours) |
+   query (Google News entity query in `name`, add one when a new anchor entity joins the map) |
+   registry (exchange listing file). To ADD a source: append a row with status `active`. To RETIRE one:
+   set status `paused` — **never delete a row** (history stays attributable). Fix a dead feed by editing
+   its `rss_url`/`page_url` in the CSV, not in Python. Re-run `tools/import_listings.py` if a listings
+   registry is >30 days old. Known and NOT fixable by URL changes: `bahrain/BNA`, `kuwait/KUNA`, `oman/ONA`,
+   `regional/Arabian Business` (IP blocks on the Actions runner) and `saudi/Arab News` (Cloudflare wall).
 7. **INSTITUTION DISCOVERY** (+30–60 institutions/day, each with a parent/ownership edge where one exists):
    (a) every day the top ~10 pending rows of `data/institution_candidates.csv` — confirm on the official site,
    stage the real GCC ones, set status `added` or `rejected` (generic phrases, foreign firms with no GCC entity,

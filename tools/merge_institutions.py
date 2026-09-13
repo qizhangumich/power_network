@@ -31,6 +31,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from netdata import ROOT, load_nodes, js_string
 from import_listings import norm, VALID_SECTORS
+import provenance
 
 REGION_DIR = {"abudhabi": "", "dubai": "dubai", "northern": "northern", "saudi": "saudi",
               "qatar": "qatar", "bahrain": "bahrain", "oman": "oman", "kuwait": "kuwait"}
@@ -169,7 +170,7 @@ def main(dry=False):
             idx[nn] = nid
             names[nid] = r["name"]
             adds.append(dict(id=nid, name=r["name"], short=short, sector=sector, tier=tier, power=power,
-                             parent=parent, relation=r.get("relation", ""),
+                             parent=parent, relation=r.get("relation", ""), src=r.get("source_url", ""),
                              ver=r.get("verification") if r.get("verification") in ("v", "ns") else "ns",
                              aliases=[a for a in dict.fromkeys(aliases + re.findall(r"\(([^)]+)\)", r["name"]))
                                       if a not in (r["name"], short)]))
@@ -215,6 +216,7 @@ def main(dry=False):
                 m = re.search(r"const AKA\s*=\s*\{(.*?)(\n\};)", text, re.S)
                 if m: text = text[:m.end(1)] + "\n" + aka + text[m.end(1):]
             js.write_text(text, encoding="utf-8")
+        provenance.log([(reg, a["id"], "institution", a["src"]) for a in adds])
         tot_i += len(adds); tot_e += len(edge_adds)
 
     if dry:

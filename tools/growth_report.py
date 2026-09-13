@@ -25,6 +25,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from netdata import ROOT, load_nodes
+import provenance
 
 STATE = ROOT / "reports" / "growth_state.json"
 ROSTER = ROOT / "reports" / "growth_roster.json"
@@ -129,6 +130,9 @@ def main():
     if prev_roster is None:
         prev_roster = seed_roster_from_git(today) or roster_now
     plog = json.loads(PEOPLE_LOG.read_text(encoding="utf-8")) if PEOPLE_LOG.exists() else {}
+    prov_rows = provenance.read()
+    prov_people = {(r["region"], r["entity_id"]): (r["source"], r["url"])
+                   for r in prov_rows if r["entity_type"] == "person" and r["action"] == "added"}
     day_entry = plog.setdefault(today, {})
     for key, _, _, _ in REGIONS:
         new_ids = [i for i in roster_now[key] if i not in set(prev_roster.get(key, []))]
@@ -142,7 +146,8 @@ def main():
                 continue
             d = detail.get(pid, {"n": pid, "r": []})
             first = d["r"][0] if d["r"] else ["", "", "", "ns"]
-            rows.append([pid, d["n"], first[1], first[0], first[3], len(d["r"])])
+            src, surl = prov_people.get((key, pid), ("", ""))
+            rows.append([pid, d["n"], first[1], first[0], first[3], len(d["r"]), src, surl])
     plog = {k: v for k, v in plog.items() if k >= cutoff}
     PEOPLE_LOG.write_text(json.dumps(plog, separators=(",", ":"), ensure_ascii=False),
                           encoding="utf-8")
@@ -203,6 +208,54 @@ def main():
     region_names = {key: en for key, _, en, _ in REGIONS}
     region_names_zh = {key: zh for key, _, _, zh in REGIONS}
 
+    # ---- Sources section: where records come from (data/provenance.csv) ----
+    from collections import Counter
+    KIND_L = {"official":  ("Official page", "官方页面"),
+              "report":    ("Annual / governance report", "年报及治理报告"),
+              "news":      ("News media", "新闻媒体"),
+              "registry":  ("Exchange registry", "交易所名录"),
+              "legacy":    ("Curated, pre-provenance", "早期人工核录"),
+              "unspecified": ("Source not recorded", "来源未记录")}
+    cut30 = (datetime.date.today() - datetime.timedelta(days=30)).isoformat()
+    added30 = [r for r in prov_rows if r["action"] == "added" and r["date"] >= cut30]
+    kind30, kind_all = Counter(r["source_kind"] for r in added30), \
+                       Counter(r["source_kind"] for r in prov_rows)
+    topsrc = Counter((r["source"] or "—", r["source_kind"]) for r in added30
+                     if r["source_kind"] not in ("legacy",)).most_common(12)
+    kind_rows = "".join(
+        f'<tr><td><span class="t" data-en="{en}" data-zh="{zh}">{en}</span></td>'
+        f'<td>{kind30.get(k, 0)}</td><td>{kind_all.get(k, 0)}</td></tr>'
+        for k, (en, zh) in KIND_L.items() if kind30.get(k) or kind_all.get(k))
+    src_rows = "".join(
+        f'<tr><td>{esc(s)}</td>'
+        f'<td><span class="t" data-en="{KIND_L.get(k, (k, k))[0]}" data-zh="{KIND_L.get(k, (k, k))[1]}">'
+        f'{KIND_L.get(k, (k, k))[0]}</span></td><td>{c}</td></tr>'
+        for (s, k), c in topsrc)
+    ing = Counter()
+    sc = ROOT / "data" / "sources.csv"
+    if sc.exists():
+        import csv as _csv
+        with open(sc, encoding="utf-8-sig", newline="") as f:
+            for r in _csv.DictReader(f):
+                if (r.get("status") or "").strip() == "active":
+                    ing[(r.get("type") or "").strip()] += 1
+    sources_html = f"""
+<h2 class="t" data-en="Where records come from" data-zh="数据来源">Where records come from</h2>
+<div class="sub" style="margin-bottom:6px"><span class="t"
+ data-en="Every person and institution added since provenance logging began carries the exact page it was taken from (data/provenance.csv). Ingestion runs on {ing.get('media', 0)} media outlets, {ing.get('query', 0)} news queries and {ing.get('registry', 0)} exchange registries — managed as data in data/sources.csv."
+ data-zh="自来源记录启用起，每位新增人物与机构均记录其确切出处（data/provenance.csv）。信息采集来自 {ing.get('media', 0)} 家媒体、{ing.get('query', 0)} 条新闻查询与 {ing.get('registry', 0)} 个交易所名录——均作为数据管理于 data/sources.csv。">
+Every person and institution added since provenance logging began carries the exact page it was taken from.</span></div>
+<table><tr><th class="t" data-en="Source type" data-zh="来源类型">Source type</th>
+<th class="t" data-en="Added, last 30 days" data-zh="近30天新增">Added, last 30 days</th>
+<th class="t" data-en="All records" data-zh="全部记录">All records</th></tr>
+{kind_rows}</table>
+""" + (f"""<h2 class="t" data-en="Top sources (last 30 days)" data-zh="主要来源（近30天）">Top sources (last 30 days)</h2>
+<table><tr><th class="t" data-en="Source" data-zh="来源">Source</th>
+<th class="t" data-en="Type" data-zh="类型">Type</th>
+<th class="t" data-en="Records" data-zh="记录数">Records</th></tr>
+{src_rows}</table>
+""" if src_rows else "")
+
     stamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     html = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -241,6 +294,7 @@ tr.drill.hide{{display:none}}
 .vf.v{{background:rgba(47,158,99,.13);color:#2F9E63}}
 .vf.ns{{background:rgba(154,156,166,.18);color:var(--faint)}}
 .more{{font-size:11.5px;color:var(--faint);margin-top:8px}}
+.src{{font-size:10.5px;color:var(--faint)}} .src a{{color:var(--faint)}}
 .prov{{font-size:11.5px;color:var(--soft);margin-top:10px;padding-top:9px;border-top:1px solid var(--line);line-height:1.6}}
 #tip{{position:fixed;z-index:50;max-width:330px;background:#17181C;color:#fff;border-radius:9px;
      padding:9px 11px;font-size:12px;line-height:1.5;display:none;pointer-events:none;box-shadow:0 6px 22px rgba(0,0,0,.22)}}
@@ -262,6 +316,7 @@ tr.drill.hide{{display:none}}
 <h2 class="t" data-en="Daily history (people · institutions added)" data-zh="每日历史（新增人物 · 机构）">Daily history (people · institutions added)</h2>
 <table id="histtab"><tr><th class="t" data-en="Date" data-zh="日期">Date</th><th class="t" data-en="Added" data-zh="新增">Added</th><th class="t" data-en="People" data-zh="人物">People</th><th class="t" data-en="Institutions" data-zh="机构">Institutions</th><th class="t" data-en="Roles" data-zh="职位">Roles</th></tr>
 {"".join(hist_rows)}</table>
+{sources_html}
 </div>
 <div id="tip"></div>
 <script>
@@ -312,9 +367,12 @@ function rowHtml(r){{
   var v=r[3]==="v";
   var vlabel=v?(lang==="zh"?"已核实":"verified"):(lang==="zh"?"待核实":"unverified");
   var extra=r[4]>1?(lang==="zh"?(" · 共"+r[4]+"个职位"):(" · "+r[4]+" roles")):"";
+  var src=r.length>5&&r[5]?('<br><span class="src">'+
+    (r[6]?'<a href="'+esc(r[6])+'" target="_blank" rel="noopener">':'')+
+    esc(lang==="zh"?"来源: ":"source: ")+esc(r[5])+(r[6]?' ↗</a>':'')+'</span>'):'';
   return '<div class="p"><b>'+esc(r[0])+'</b><span class="vf '+(v?"v":"ns")+'">'+esc(vlabel)+'</span>'+
    (r[1]?'<br><i>'+esc(r[1])+'</i>':'')+
-   (r[2]?' <span class="inst">— '+esc(r[2])+esc(extra)+'</span>':'')+'</div>';
+   (r[2]?' <span class="inst">— '+esc(r[2])+esc(extra)+'</span>':'')+src+'</div>';
 }}
 function openDrill(tr,day,reg,span){{
   var b=bucket(day,reg); if(!b) return;

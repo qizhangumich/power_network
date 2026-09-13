@@ -38,65 +38,29 @@ KEEP_DAYS = 45
 PER_SOURCE = 12
 TIMEOUT = 25
 
-# Per-source refresh cadence in hours (default 6 = every scheduled run).
-# Slower cadences for weeklies, paywalled/bot-walled sites (pointless to hammer)
-# and state wire agencies that publish in daytime batches.
+# Per-source refresh cadence in hours (default 6 = every scheduled run);
+# slower cadences suit weeklies, walled sites and state wires that publish in
+# daytime batches. Sources are MANAGED DATA, not code: data/sources.csv rows
+# with type=media drive this scraper (add a row to add an outlet; set
+# status=paused to retire one — never delete rows, history stays attributable).
 DEFAULT_FREQ_H = 6
-FREQ_HOURS = {
-    "MEED": 24,             # weekly magazine; daily briefing at most
-    "Reuters ME": 24,       # bot-walled
-    "FT Middle East": 12,
-    "Arab News": 24,        # bot-walled
-    "Al Eqtisadiah": 24,
-    "Asharq Business": 24,
-    "QNA": 12, "KUNA": 12, "BNA": 12, "ONA": 12,   # state agencies, batch publishers
-    "TradeArabia": 12,
-    "Muscat Daily": 12,
-}
 
-# {group: [(source_name, [rss candidates], fallback_page_url)]}
-SOURCES = {
-  "regional": [
-    ("AGBI",             ["https://www.agbi.com/feed/"],                          "https://www.agbi.com/"),
-    ("Arabian Business", ["https://www.arabianbusiness.com/feed"],                "https://www.arabianbusiness.com/"),
-    ("Zawya",            ["https://www.zawya.com/en/rss"],                        "https://www.zawya.com/en/business"),
-    ("FT Middle East",   ["https://www.ft.com/middle-east?format=rss"],           "https://www.ft.com/middle-east"),
-    ("MEED",             ["https://www.meed.com/feed"],                           "https://www.meed.com/"),
-  ],
-  "uae": [
-    ("The National",     ["https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml"],
-                                                                                  "https://www.thenationalnews.com/business/"),
-    ("Gulf News",        ["https://gulfnews.com/rss"],                            "https://gulfnews.com/business"),
-    ("Khaleej Times",    ["https://www.khaleejtimes.com/rss"],                    "https://www.khaleejtimes.com/business"),
-  ],
-  "saudi": [
-    ("Arab News",        ["https://www.arabnews.com/rss.xml",
-                          "https://www.arabnews.com/taxonomy/term/1/feed"],       "https://www.arabnews.com/economy"),
-    ("Argaam",           ["https://www.argaam.com/en/rss"],                       "https://www.argaam.com/en"),
-    ("Al Eqtisadiah",    [],                                                      "https://www.aleqt.com/"),
-  ],
-  "qatar": [
-    ("Gulf Times",       ["https://www.gulf-times.com/rss"],                      "https://www.gulf-times.com/business"),
-    ("The Peninsula",    ["https://thepeninsulaqatar.com/rss"],                   "https://thepeninsulaqatar.com/category/business"),
-    ("QNA",              [],                                                      "https://www.qna.org.qa/en"),
-  ],
-  "kuwait": [
-    ("Kuwait Times",     [],                                                      "https://kuwaittimes.com/"),
-    ("KUNA",             [],                                                      "https://www.kuna.net.kw/Default.aspx?language=en"),
-    ("Al Rai",           [],                                                      "https://www.alraimedia.com/"),
-  ],
-  "bahrain": [
-    ("GDN",              ["https://www.gdnonline.com/rss"],                       "https://www.gdnonline.com/"),
-    ("TradeArabia",      ["http://www.tradearabia.com/rss/index.xml"],            "http://www.tradearabia.com/"),
-    ("BNA",              [],                                                      "https://www.bna.bh/en/"),
-  ],
-  "oman": [
-    ("Oman Observer",    [],                                                      "https://www.omanobserver.om/"),
-    ("Times of Oman",    ["https://timesofoman.com/feed"],                        "https://timesofoman.com/"),
-    ("Muscat Daily",     [],                                                      "https://www.muscatdaily.com/"),
-    ("ONA",              [],                                                      "https://omannews.gov.om/"),
-  ],
-}
+def load_sources():
+    """data/sources.csv (type=media, status=active) -> (SOURCES, FREQ_HOURS)."""
+    import csv
+    srcs, freq = {}, {}
+    with open(ROOT / "data" / "sources.csv", encoding="utf-8-sig", newline="") as f:
+        for r in csv.DictReader(f):
+            if (r.get("type") or "").strip() != "media": continue
+            if (r.get("status") or "").strip() != "active": continue
+            name = r["name"].strip()
+            rss = [u.strip() for u in (r.get("rss_url") or "").split("|") if u.strip()]
+            srcs.setdefault(r["group"].strip(), []).append((name, rss, (r.get("page_url") or "").strip()))
+            fh = (r.get("freq_hours") or "").strip()
+            if fh.isdigit(): freq[name] = int(fh)
+    return srcs, freq
+
+SOURCES, FREQ_HOURS = load_sources()
 
 # A bare User-Agent is a WAF fingerprint in itself: Arab News (Cloudflare) 403s
 # on UA-only and returns 200 once the ordinary browser headers are present.

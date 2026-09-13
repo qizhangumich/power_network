@@ -21,6 +21,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from netdata import ROOT, load_nodes
+import provenance
 
 REGION_DIR = {"abudhabi": "", "dubai": "dubai", "northern": "northern", "saudi": "saudi",
               "qatar": "qatar", "bahrain": "bahrain", "oman": "oman", "kuwait": "kuwait"}
@@ -106,6 +107,9 @@ def main():
             existing_ids.add(pid)
             sector = inst_sector.get(p["rows"][0]["institution_id"], "finance")
             adds.append((pid, p["name"], power_for(p["rows"]), sector, p["rows"]))
+        provenance.log([(reg, pid, "person",
+                         next((r.get("source_url") for r in rws if r.get("source_url")), ""))
+                        for pid, name, pw, sector, rws in adds])
 
         if not adds:
             print(f"  [{reg}] nothing new")

@@ -35,6 +35,7 @@ tr.drill.hide{display:none}
 .vf.v{background:rgba(47,158,99,.13);color:#2F9E63}
 .vf.ns{background:rgba(154,156,166,.18);color:var(--faint)}
 .more{font-size:11.5px;color:var(--faint);margin-top:8px}
+.src{font-size:10.5px;color:var(--faint)} .src a{color:var(--faint)}
 .prov{font-size:11.5px;color:var(--soft);margin-top:10px;padding-top:9px;border-top:1px solid var(--line);line-height:1.6}
 #tip{position:fixed;z-index:50;max-width:330px;background:#17181C;color:#fff;border-radius:9px;
      padding:9px 11px;font-size:12px;line-height:1.5;display:none;pointer-events:none;box-shadow:0 6px 22px rgba(0,0,0,.22)}
@@ -43,7 +44,7 @@ tr.drill.hide{display:none}
 <button id="b-lang">中文</button>
 <a href="../" class="t" data-en="&larr; NavGCC" data-zh="&larr; NavGCC">&larr; NavGCC</a>
 <h1 class="t" data-en="Network growth" data-zh="网络增长">Network growth</h1>
-<div class="sub"><span class="t" data-en="Updated" data-zh="更新于">Updated</span> 2026-09-13 11:17 UTC · <span class="t" data-en="auto-generated on every data refresh" data-zh="每次数据刷新时自动生成">auto-generated on every data refresh</span></div>
+<div class="sub"><span class="t" data-en="Updated" data-zh="更新于">Updated</span> 2026-09-13 14:28 UTC · <span class="t" data-en="auto-generated on every data refresh" data-zh="每次数据刷新时自动生成">auto-generated on every data refresh</span></div>
 <div class="cards">
 <div class="c"><b>4152</b><span class="t" data-en="people" data-zh="人物">people</span> <span class="up">+627</span></div>
 <div class="c"><b>1408</b><span class="t" data-en="institutions" data-zh="机构">institutions</span> <span class="up">+331</span></div>
@@ -56,6 +57,17 @@ tr.drill.hide{display:none}
 <h2 class="t" data-en="Daily history (people · institutions added)" data-zh="每日历史（新增人物 · 机构）">Daily history (people · institutions added)</h2>
 <table id="histtab"><tr><th class="t" data-en="Date" data-zh="日期">Date</th><th class="t" data-en="Added" data-zh="新增">Added</th><th class="t" data-en="People" data-zh="人物">People</th><th class="t" data-en="Institutions" data-zh="机构">Institutions</th><th class="t" data-en="Roles" data-zh="职位">Roles</th></tr>
 <tr><td><span class="chip datechip" data-day="2026-09-13" tabindex="0">2026-09-13</span></td><td>+627 · +331</td><td>4152</td><td>1408</td><td>4553</td></tr><tr><td><span class="chip datechip" data-day="2026-09-12" tabindex="0">2026-09-12</span></td><td>+146 · 0</td><td>3525</td><td>1077</td><td>3789</td></tr><tr><td><span class="chip datechip" data-day="2026-09-11" tabindex="0">2026-09-11</span></td><td>+315 · 0</td><td>3379</td><td>1077</td><td>3613</td></tr><tr><td><span class="chip datechip" data-day="2026-09-10" tabindex="0">2026-09-10</span></td><td>+223 · 0</td><td>3064</td><td>1077</td><td>3273</td></tr><tr><td><span class="chip datechip" data-day="2026-09-09" tabindex="0">2026-09-09</span></td><td>+1067 · +1</td><td>2841</td><td>1077</td><td>3050</td></tr><tr><td>2026-09-08</td><td>0 · 0</td><td>1774</td><td>1076</td><td>1920</td></tr><tr><td>2026-09-07</td><td>+167 · 0</td><td>1774</td><td>1076</td><td>1920</td></tr><tr><td>2026-09-06</td><td>0 · 0</td><td>1607</td><td>1076</td><td>1752</td></tr><tr><td>2026-09-05</td><td>+159 · 0</td><td>1607</td><td>1076</td><td>1752</td></tr><tr><td>2026-09-04</td><td>0 · 0</td><td>1448</td><td>1076</td><td>1582</td></tr><tr><td>2026-09-03</td><td>—</td><td>1448</td><td>1076</td><td>1582</td></tr></table>
+
+<h2 class="t" data-en="Where records come from" data-zh="数据来源">Where records come from</h2>
+<div class="sub" style="margin-bottom:6px"><span class="t"
+ data-en="Every person and institution added since provenance logging began carries the exact page it was taken from (data/provenance.csv). Ingestion runs on 24 media outlets, 20 news queries and 7 exchange registries — managed as data in data/sources.csv."
+ data-zh="自来源记录启用起，每位新增人物与机构均记录其确切出处（data/provenance.csv）。信息采集来自 24 家媒体、20 条新闻查询与 7 个交易所名录——均作为数据管理于 data/sources.csv。">
+Every person and institution added since provenance logging began carries the exact page it was taken from.</span></div>
+<table><tr><th class="t" data-en="Source type" data-zh="来源类型">Source type</th>
+<th class="t" data-en="Added, last 30 days" data-zh="近30天新增">Added, last 30 days</th>
+<th class="t" data-en="All records" data-zh="全部记录">All records</th></tr>
+<tr><td><span class="t" data-en="Exchange registry" data-zh="交易所名录">Exchange registry</span></td><td>0</td><td>624</td></tr><tr><td><span class="t" data-en="Curated, pre-provenance" data-zh="早期人工核录">Curated, pre-provenance</span></td><td>0</td><td>4936</td></tr></table>
+
 </div>
 <div id="tip"></div>
 <script>
@@ -106,9 +118,12 @@ function rowHtml(r){
   var v=r[3]==="v";
   var vlabel=v?(lang==="zh"?"已核实":"verified"):(lang==="zh"?"待核实":"unverified");
   var extra=r[4]>1?(lang==="zh"?(" · 共"+r[4]+"个职位"):(" · "+r[4]+" roles")):"";
+  var src=r.length>5&&r[5]?('<br><span class="src">'+
+    (r[6]?'<a href="'+esc(r[6])+'" target="_blank" rel="noopener">':'')+
+    esc(lang==="zh"?"来源: ":"source: ")+esc(r[5])+(r[6]?' ↗</a>':'')+'</span>'):'';
   return '<div class="p"><b>'+esc(r[0])+'</b><span class="vf '+(v?"v":"ns")+'">'+esc(vlabel)+'</span>'+
    (r[1]?'<br><i>'+esc(r[1])+'</i>':'')+
-   (r[2]?' <span class="inst">— '+esc(r[2])+esc(extra)+'</span>':'')+'</div>';
+   (r[2]?' <span class="inst">— '+esc(r[2])+esc(extra)+'</span>':'')+src+'</div>';
 }
 function openDrill(tr,day,reg,span){
   var b=bucket(day,reg); if(!b) return;

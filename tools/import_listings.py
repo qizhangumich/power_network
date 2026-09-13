@@ -20,6 +20,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from netdata import ROOT, load_nodes
+import provenance
 
 LISTINGS = ROOT / "data" / "listings"
 VALID_SECTORS = {"energy","materials","industry","consumer_disc","consumer_stap","health",
@@ -121,6 +122,9 @@ def main():
                 text = text[:m.end(1)] + "\n" + own_lines.rstrip("\n") + text[m.end(1):]
             data_js.write_text(text, encoding="utf-8")
 
+        provenance.log([(cfg["region"] or "abudhabi", nid, "institution", "",
+                         "added", "registry", cfg["label"].replace("listed on ", ""))
+                        for nid, name, sector, short in adds])
         total_added += len(adds)
         print(f"  {ex}: +{len(adds)} listed companies added ({skipped} already present) of {len(rows)}")
 

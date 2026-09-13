@@ -27,15 +27,16 @@ ROOT = Path(__file__).resolve().parent.parent
 INBOX = ROOT / "news_inbox"
 SEEN = INBOX / ".seen.json"
 
-# Entities worth a dedicated query — edit freely.
-QUERIES = [
-    'ADNOC', 'Mubadala', '"ADQ" Abu Dhabi', 'Abu Dhabi Investment Authority',
-    '"G42" Abu Dhabi', 'International Holding Company IHC', 'MGX Abu Dhabi',
-    '"Sheikh Tahnoon" OR "Sheikh Tahnoun"', '"Sultan Al Jaber"', '"Khaldoon Al Mubarak"',
-    '"Sheikh Khaled bin Mohamed"', 'EDGE Group Abu Dhabi', 'Masdar', 'TAQA Abu Dhabi',
-    'Aldar Properties', 'Etihad Airways', '"AD Ports"', '"PureHealth" Abu Dhabi', 'Space42',
-    'Abu Dhabi sovereign wealth',
-]
+# Entity queries are managed data: data/sources.csv rows with type=query.
+# Add a row (status=active) for a new entity; set status=paused to retire one.
+def load_queries():
+    import csv
+    with open(ROOT / "data" / "sources.csv", encoding="utf-8-sig", newline="") as f:
+        return [r["name"] for r in csv.DictReader(f)
+                if (r.get("type") or "").strip() == "query"
+                and (r.get("status") or "").strip() == "active"]
+
+QUERIES = load_queries()
 PER_QUERY = 6          # max new items kept per query per run
 KEEP_DAYS = 45         # prune fetched items older than this
 TIMEOUT = 20

@@ -164,9 +164,10 @@ def main():
     out = ROOT / "data/board_additions_daily.csv"
     with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["region", "institution_id", "person_name", "title", "role_type", "verification"])
+        w.writerow(["region", "institution_id", "person_name", "title", "role_type", "verification", "source_url"])
         for r in new_rows:
-            w.writerow([r["region"], r["institution_id"], r["person_name"], r["title"], r["role_type"], r["verification"]])
+            w.writerow([r["region"], r["institution_id"], r["person_name"], r["title"], r["role_type"],
+                        r["verification"], r.get("source_url", "")])
 
     by_reg = {}
     for r, p, kind in role_adds:
@@ -189,6 +190,12 @@ def main():
                     print("  !! could not locate", p["id"]); continue
                 text = text[:m.end()] + f'\n    ["{r["institution_id"]}","{r["title"]}","{r["role_type"]}","{r["verification"]}"],' + text[m.end():]
             js.write_text(text, encoding="utf-8")
+    try:
+        import provenance
+        provenance.log([(r["region"], p["id"], "person", r.get("source_url", ""), "role_added")
+                        for r, p, kind in role_adds])
+    except Exception as e:
+        print("  provenance log skipped:", e)
     print(f"wrote {len(new_rows)} rows -> data/board_additions_daily.csv; applied {len(role_adds)} role-adds. Now run tools/merge_people.py")
 
 if __name__ == "__main__":
