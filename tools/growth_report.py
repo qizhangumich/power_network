@@ -220,8 +220,13 @@ def main():
     added30 = [r for r in prov_rows if r["action"] == "added" and r["date"] >= cut30]
     kind30, kind_all = Counter(r["source_kind"] for r in added30), \
                        Counter(r["source_kind"] for r in prov_rows)
-    topsrc = Counter((r["source"] or "—", r["source_kind"]) for r in added30
-                     if r["source_kind"] not in ("legacy",)).most_common(12)
+    ts = {}
+    for r in added30:
+        if r["source_kind"] == "legacy":
+            continue
+        d = ts.setdefault((r["source"] or "—", r["source_kind"]), [0, 0])
+        d[0 if r["entity_type"] == "person" else 1] += 1
+    topsrc = sorted(ts.items(), key=lambda kv: -(kv[1][0] + kv[1][1]))[:12]
     kind_rows = "".join(
         f'<tr><td><span class="t" data-en="{en}" data-zh="{zh}">{en}</span></td>'
         f'<td>{kind30.get(k, 0)}</td><td>{kind_all.get(k, 0)}</td></tr>'
@@ -229,8 +234,8 @@ def main():
     src_rows = "".join(
         f'<tr><td>{esc(s)}</td>'
         f'<td><span class="t" data-en="{KIND_L.get(k, (k, k))[0]}" data-zh="{KIND_L.get(k, (k, k))[1]}">'
-        f'{KIND_L.get(k, (k, k))[0]}</span></td><td>{c}</td></tr>'
-        for (s, k), c in topsrc)
+        f'{KIND_L.get(k, (k, k))[0]}</span></td><td>{pc}</td><td>{ic}</td></tr>'
+        for (s, k), (pc, ic) in topsrc)
     ing = Counter()
     all_sources = []
     sc = ROOT / "data" / "sources.csv"
@@ -275,16 +280,22 @@ def main():
             f'<span class="t" data-en="people" data-zh="人物">people</span> · {len(b["i"])} '
             f'<span class="t" data-en="institutions" data-zh="机构">institutions</span></summary>'
             f'<div class="sdw">{inner}</div></details>')
-    srcday_html = ""
     if srcday_blocks:
         daylbl = ('<span class="t" data-en="Today" data-zh="今日">Today</span>' if day_pick == today else
                   f'{day_pick} (<span class="t" data-en="latest day with additions" data-zh="最近有新增的一天">latest day with additions</span>)')
-        srcday_html = (f'<h2><span class="t" data-en="Contributions by source" data-zh="按来源统计新增">Contributions by source</span> — {daylbl}</h2>'
-                       '<div class="sub" style="margin-bottom:6px"><span class="t" '
+        srcday_body = ('<div class="sub" style="margin-bottom:6px"><span class="t" '
                        'data-en="Click a source to see exactly which people and institutions it contributed." '
                        'data-zh="点击来源可展开查看其贡献的具体人物与机构。">'
                        'Click a source to see exactly which people and institutions it contributed.</span></div>'
                        f'<div class="sdbox">{"".join(srcday_blocks)}</div>')
+    else:
+        daylbl = '<span class="t" data-en="Today" data-zh="今日">Today</span>'
+        srcday_body = ('<div class="sdbox" style="padding:14px"><span class="t" style="font-size:12.5px;color:var(--soft)" '
+                       'data-en="No source-tracked additions yet — provenance logging began on 2026-09-13, and this section fills automatically from the next enrichment run (daily, 05:00 &amp; 11:05 UTC). Each source will appear with its people / institution counts; click to expand the exact names. Meanwhile every existing record already shows its origin on its map dossier (the “Record source” line)." '
+                       'data-zh="暂无带来源记录的新增——来源日志自 2026-09-13 启用，本栏目将在下一次每日扩充运行（05:00 与 11:05 UTC）后自动填充：每个来源显示其贡献的人物/机构数量，点击可展开具体名单。现有记录的出处已显示在各图谱档案的“记录来源”一栏。">'
+                       'No source-tracked additions yet — this section fills automatically from the next enrichment run.</span></div>')
+    srcday_html = (f'<h2><span class="t" data-en="Contributions by source" data-zh="按来源统计新增">Contributions by source</span> — {daylbl}</h2>'
+                   + srcday_body)
 
     # ---- full source registry (all rows, with media health) ----
     health = {}
@@ -308,6 +319,14 @@ def main():
 
     TYPE_L = {"media": ("News outlet", "新闻媒体"), "query": ("News query", "新闻查询"),
               "registry": ("Exchange registry", "交易所名录")}
+    # what each outlet actually contributes to the maps: matched news signals
+    news_src = {}
+    for key, d, _, _ in REGIONS:
+        nf = ROOT / REL[key].replace("network_data", "news_data")
+        if nf.exists():
+            for m in re.finditer(r'\{id:"([^"]+)",.*?source:"([^"]*)"', nf.read_text(encoding="utf-8")):
+                news_src[m.group(1)] = m.group(2)
+    matched_by_src = Counter(v for v in news_src.values() if v)
     reg_src_rows = []
     for r in sorted(all_sources, key=lambda x: (x.get("type", ""), x.get("group", ""), x.get("name", ""))):
         typ, grp, name = (r.get("type") or "").strip(), (r.get("group") or "").strip(), (r.get("name") or "").strip()
@@ -318,9 +337,10 @@ def main():
         freq = (r.get("freq_hours") or "").strip()
         cadence = (freq + "h" if freq else "6h") if typ == "media" else "—"
         ok = last_ok(grp, name) if typ == "media" else "—"
+        contrib = str(matched_by_src.get(name, 0)) if typ == "media" else "—"
         reg_src_rows.append(f'<tr><td>{esc(name)}</td>'
                             f'<td><span class="t" data-en="{ten}" data-zh="{tzh}">{ten}</span></td>'
-                            f'<td>{esc(grp)}</td><td>{cadence}</td><td>{ok}</td><td>{st_html}</td></tr>')
+                            f'<td>{esc(grp)}</td><td>{cadence}</td><td>{ok}</td><td>{contrib}</td><td>{st_html}</td></tr>')
     registry_html = ""
     if reg_src_rows:
         registry_html = (
@@ -333,6 +353,7 @@ def main():
             '<th class="t" data-en="Group" data-zh="分组">Group</th>'
             '<th class="t" data-en="Cadence" data-zh="频率">Cadence</th>'
             '<th class="t" data-en="Last fetch OK" data-zh="上次成功抓取">Last fetch OK</th>'
+            '<th class="t" data-en="News on maps" data-zh="图上新闻">News on maps</th>'
             '<th class="t" data-en="Status" data-zh="状态">Status</th></tr>'
             + "".join(reg_src_rows) + "</table></details>")
     sources_html = f"""
@@ -348,7 +369,8 @@ Every person and institution added since provenance logging began carries the ex
 """ + (f"""<h2 class="t" data-en="Top sources (last 30 days)" data-zh="主要来源（近30天）">Top sources (last 30 days)</h2>
 <table><tr><th class="t" data-en="Source" data-zh="来源">Source</th>
 <th class="t" data-en="Type" data-zh="类型">Type</th>
-<th class="t" data-en="Records" data-zh="记录数">Records</th></tr>
+<th class="t" data-en="People" data-zh="人物">People</th>
+<th class="t" data-en="Institutions" data-zh="机构">Institutions</th></tr>
 {src_rows}</table>
 """ if src_rows else "")
     sources_html = sources_html + srcday_html + registry_html
