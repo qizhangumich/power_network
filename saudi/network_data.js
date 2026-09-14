@@ -1115,6 +1115,7 @@ const PEOPLE = [
   {id:"abdulrahman_al_huthail", n:"Abdulrahman Al-Huthail", t:2, p:58, s:"finance", roles:[
     ["lst_1010","Chief Operating Officer","executive","v"]]},
   {id:"sulaiman_a_k", n:"Sulaiman A. K. Al-Muhaidib", t:2, p:62, s:"consumer_stap", roles:[
+    ["al_muhaidib","Chairman","board","v"],
     ["lst_2050","Chairman","board","v"]]},
   {id:"bader_abdullah_alissa", n:"Bader Abdullah Alissa", t:2, p:62, s:"consumer_stap", roles:[
     ["lst_2050","Vice Chairman of the Board","board","v"]]},
@@ -1206,6 +1207,7 @@ const PEOPLE = [
   {id:"rayan_mohammad_fayez", n:"Rayan Mohammad Fayez", t:2, p:52, s:"finance", roles:[
     ["lst_1050","Board Member","board","v"]]},
   {id:"khalid_malik_al", n:"Khalid Malik Al Sharif", t:2, p:52, s:"finance", roles:[
+    ["abdul_latif_jameel","CEO, Abdul Latif Jameel Finance","executive","v"],
     ["lst_1050","Board Member","board","v"]]},
   {id:"abdulaziz_mohammed_al", n:"Abdulaziz Mohammed Al Gudaimi", t:2, p:52, s:"finance", roles:[
     ["lst_1050","Board Member","board","v"]]},
@@ -1228,6 +1230,7 @@ const PEOPLE = [
   {id:"mohammed_abdulmohsen_al", n:"Mohammed Abdulmohsen Al-Grenees", t:2, p:52, s:"finance", roles:[
     ["lst_1030","Board Member","board","v"]]},
   {id:"musaab_al_muhaidib", n:"Musaab Al Muhaidib", t:2, p:62, s:"materials", roles:[
+    ["al_muhaidib","Board Member","board","v"],
     ["lst_2060","Chairman","board","v"]]},
   {id:"talal_al_maiman", n:"Talal Al Maiman", t:2, p:62, s:"materials", roles:[
     ["kingdomholding","Chief Executive Officer","executive","v"],
@@ -1583,6 +1586,74 @@ const PEOPLE = [
     ["mod_sa","Deputy Minister of Defense (rank of minister)","executive","ns"]]},
   {id:"abdulmuhsen_bin_saad", n:"Abdulmuhsen bin Saad Alkhalaf", t:2, p:58, s:"gov", roles:[
     ["mof_sa","Vice Minister of Finance","executive","v"]]},
+  {id:"waleed_bin_abdulkarim", n:"Waleed bin Abdulkarim Al-Khuraiji", t:2, p:58, s:"gov", roles:[
+    ["mofa_sa","Vice Minister of Foreign Affairs","executive","v"]]},
+  {id:"abdulhadi_bin_ahmed", n:"Abdulhadi bin Ahmed Al-Mansouri", t:2, p:58, s:"gov", roles:[
+    ["mofa_sa","Assistant Minister of Foreign Affairs for Executive Affairs","executive","v"]]},
+  {id:"raed_bin_khalid", n:"Raed bin Khalid Qarmali", t:2, p:58, s:"gov", roles:[
+    ["mofa_sa","Deputy Minister for General Diplomacy Affairs","executive","v"]]},
+  {id:"saud_bin_mohammed", n:"Saud bin Mohammed Al-Sati", t:2, p:58, s:"gov", roles:[
+    ["mofa_sa","Deputy Minister of Political Affairs","executive","v"]]},
+  {id:"abdullah_bin_fahd", n:"Abdullah bin Fahd bin Zar'ah", t:2, p:58, s:"gov", roles:[
+    ["mofa_sa","Deputy Minister of Economic and Development Affairs","executive","v"]]},
+  {id:"mansour_bin_saleh", n:"Mansour bin Saleh Al-Yami", t:2, p:58, s:"gov", roles:[
+    ["mofa_sa","Deputy Minister of Support Services","executive","v"]]},
+  {id:"safar_bin_mohamed", n:"Safar bin Mohamed Almamoon", t:2, p:58, s:"gov", roles:[
+    ["mofa_sa","Deputy Minister of Digital Affairs","executive","v"]]},
+  {id:"mohammed_bin_abdullah", n:"Mohammed bin Abdullah Al-Buraithen", t:2, p:58, s:"gov", roles:[
+    ["mofa_sa","Deputy Minister for Security Affairs","executive","v"]]},
+  {id:"khalid_ibrahim_al", n:"Khalid Ibrahim Al-Rumaeh", t:2, p:58, s:"gov", roles:[
+    ["mofa_sa","Deputy Minister of Projects and Assets","executive","v"]]},
+  {id:"ihab_bin_mohammed", n:"Ihab bin Mohammed Al-Najjar", t:2, p:58, s:"gov", roles:[
+    ["mofa_sa","Deputy Minister of Consular Affairs","executive","v"]]},
+  {id:"prince_mohammed_bin", n:"Prince Mohammed bin Abdulaziz bin Ayaf", t:2, p:58, s:"gov", roles:[
+    ["mofa_sa","Deputy Minister of Strategy and Planning","executive","v"]]},
+  {id:"abdul_majid_bin", n:"Abdul Majid bin Rashid Al-Samari", t:2, p:58, s:"gov", roles:[
+    ["mofa_sa","Deputy Minister of Protocol Affairs","executive","v"]]},
+  {id:"abdul_rahman_bin", n:"Abdul Rahman bin Ibrahim Al-Rassi", t:2, p:58, s:"gov", roles:[
+    ["mofa_sa","Deputy Minister of Multilateral International Affairs","executive","v"]]},
+  {id:"sara_al_sayyid", n:"Sara Al-Sayyid", t:2, p:58, s:"gov", roles:[
+    ["mofa_sa","Deputy Minister for Public Diplomacy","executive","v"]]},
+  {id:"emad_a_k", n:"Emad A.K Al Muhaidib", t:2, p:62, s:"conglomerate", roles:[
+    ["al_muhaidib","Vice Chairman","board","v"]]},
+  {id:"essam_a_k", n:"Essam A.K Al Muhaidib", t:2, p:60, s:"conglomerate", roles:[
+    ["al_muhaidib","Chief Executive Officer","executive","v"]]},
+  {id:"ziyad_al_saleh", n:"Ziyad Al Saleh", t:2, p:58, s:"conglomerate", roles:[
+    ["al_muhaidib","Chief Operating Officer","executive","v"]]},
+  {id:"richard_kassaby", n:"Richard Kassaby", t:2, p:58, s:"conglomerate", roles:[
+    ["al_muhaidib","Group Chief Financial Officer","executive","v"]]},
+  {id:"kamel_el_khatib", n:"Kamel El Khatib", t:2, p:58, s:"conglomerate", roles:[
+    ["al_muhaidib","Vice President - Food & Consumer Investments","executive","v"]]},
+  {id:"isam_m_al", n:"Isam M. Al Muhaidib", t:2, p:58, s:"conglomerate", roles:[
+    ["al_muhaidib","Vice President - Industrial and Infrastructure Investments","executive","v"]]},
+  {id:"feras_al_baiyat", n:"Feras Al Baiyat", t:2, p:58, s:"conglomerate", roles:[
+    ["al_muhaidib","Vice President - Industrial & Building Materials","executive","v"]]},
+  {id:"nabila_al_jasri", n:"Nabila Al Jasri", t:2, p:58, s:"conglomerate", roles:[
+    ["al_muhaidib","Vice President, Internal Audit & Governance","executive","v"]]},
+  {id:"ahmad_al_rifai", n:"Ahmad Al Rifai", t:2, p:58, s:"conglomerate", roles:[
+    ["al_muhaidib","Group IT Director / Head of IT","executive","v"]]},
+  {id:"omar_al_dossary", n:"Omar Al Dossary", t:2, p:58, s:"conglomerate", roles:[
+    ["al_muhaidib","Vice President, Human Resources","executive","v"]]},
+  {id:"mohammed_abdul_latif", n:"Mohammed Abdul Latif Jameel", t:2, p:62, s:"conglomerate", roles:[
+    ["abdul_latif_jameel","Chairman","board","v"]]},
+  {id:"fady_jameel", n:"Fady Jameel", t:2, p:62, s:"conglomerate", roles:[
+    ["abdul_latif_jameel","Vice Chairman, International","board","v"]]},
+  {id:"hassan_jameel", n:"Hassan Jameel", t:2, p:62, s:"conglomerate", roles:[
+    ["abdul_latif_jameel","Vice Chairman, Saudi Arabia","board","v"]]},
+  {id:"faisal_alsamannoudi", n:"Faisal Alsamannoudi", t:2, p:62, s:"conglomerate", roles:[
+    ["abdul_latif_jameel","Chairman, Abdul Latif Jameel Enterprises","executive","v"]]},
+  {id:"yudhistira_rusli", n:"Yudhistira Rusli", t:2, p:58, s:"conglomerate", roles:[
+    ["abdul_latif_jameel","Chief Financial Officer","executive","v"]]},
+  {id:"faisal_a_abdalla", n:"Faisal A. Abdalla", t:2, p:58, s:"conglomerate", roles:[
+    ["abdul_latif_jameel","Chief HR & Kaizen Officer","executive","v"]]},
+  {id:"sidhesh_kaul", n:"Sidhesh Kaul", t:2, p:58, s:"conglomerate", roles:[
+    ["abdul_latif_jameel","Chief Investment Officer, Strategic Assets","executive","v"]]},
+  {id:"koji_nagata", n:"Koji Nagata", t:2, p:58, s:"conglomerate", roles:[
+    ["abdul_latif_jameel","CEO, Jameel Corporation (Japan)","executive","v"]]},
+  {id:"hasan_mert", n:"Hasan Mert", t:2, p:58, s:"conglomerate", roles:[
+    ["abdul_latif_jameel","CFO & Acting CEO, ALJ Finans","executive","v"]]},
+  {id:"abdullah_bin_saleh", n:"Abdullah bin Saleh Al-Othaim", t:2, p:62, s:"consumer_stap", roles:[
+    ["al_othaim","Chairman of the Board of Directors","board","v"]]},
 ];
 
 const OWNERSHIP = [

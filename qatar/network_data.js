@@ -1186,6 +1186,8 @@ const PEOPLE = [
     ["moi_q","Minister of State for Interior Affairs","executive","v"]]},
   {id:"abdullah_bin_khalaf", n:"Abdullah bin Khalaf Hattab Al Kaabi", t:2, p:58, s:"gov", roles:[
     ["moi_q","Undersecretary of the Ministry of Interior","executive","v"]]},
+  {id:"sheikh_saoud_bin", n:"Sheikh Saoud bin Abdulrahman bin Hassan bin Ali Al Thani", t:2, p:58, s:"gov", roles:[
+    ["mod_q","Deputy Prime Minister and Minister of State for Defence Affairs","executive","v"]]},
 ];
 
 const OWNERSHIP = [

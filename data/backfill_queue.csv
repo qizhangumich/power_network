@@ -1,9 +1,6 @@
 ﻿region,institution_id,name,sector,power,people_linked,status
 abudhabi,royalgroup,Royal Group,sovereign,88,1,pending
-saudi,mofa_sa,Ministry of Foreign Affairs,gov,86,1,pending
 saudi,moi_sa,Ministry of Interior,gov,86,1,pending
-abudhabi,added,Department of Economic Development,gov,85,1,pending
-qatar,mod_q,Ministry of Defence,gov,84,1,pending
 abudhabi,dmt,Department of Municipalities & Transport,gov,83,1,pending
 abudhabi,eaa,Executive Affairs Authority,gov,82,1,pending
 abudhabi,doe,Department of Energy,gov,82,1,pending
@@ -35,8 +32,6 @@ qatar,moph,Ministry of Public Health,gov,78,1,pending
 qatar,qatariddiar,Qatari Diar,realestate,78,1,pending
 qatar,bein,beIN Media Group,comm,78,1,pending
 saudi,mcit_sa,Ministry of Communications & IT,tech,78,1,pending
-saudi,al_muhaidib,Al Muhaidib Group,conglomerate,78,0,pending
-saudi,abdul_latif_jameel,Abdul Latif Jameel,conglomerate,77,0,pending
 abudhabi,adio,Abu Dhabi Investment Office,gov,76,1,pending
 abudhabi,tawazun,Tawazun Council,gov,76,1,pending
 abudhabi,atrc,Advanced Technology Research Council,tech,76,1,pending
@@ -44,10 +39,8 @@ abudhabi,blackrock,BlackRock,finance,76,0,pending
 bahrain,moo_bh,Ministry of Oil & Environment,energy,76,1,pending
 bahrain,edb,Bahrain Economic Development Board,gov,76,1,pending
 dubai,rta,Roads & Transport Authority,gov,76,1,pending
-dubai,alfuttaim,Al-Futtaim Group,conglomerate,76,1,pending
 dubai,dld,Dubai Land Department,gov,76,1,pending
 oman,cbo,Central Bank of Oman,finance,76,1,pending
-oman,edo,Energy Development Oman,energy,76,0,pending
 qatar,moehe_q,Ministry of Education & Higher Education,education,76,1,pending
 qatar,qfc,Qatar Financial Centre,finance,76,1,pending
 qatar,qewc,Qatar Electricity & Water Co,utilities,76,1,pending
@@ -104,7 +97,6 @@ dubai,digitaldubai,Digital Dubai Authority,gov,70,1,pending
 dubai,dfsa,Dubai Financial Services Authority,finance,70,1,pending
 northern,sedd,Sharjah Economic Development Department,gov,70,1,pending
 oman,nitaj,Oman Food Investment Holding Company,consumer_stap,70,0,pending
-oman,mdo,Minerals Development Oman,materials,70,0,pending
 oman,oman_airports,Oman Airports Management Company,industry,70,0,pending
 oman,be_ah,Oman Environmental Services Holding Company,utilities,70,0,pending
 qatar,shura,Shura Council,gov,70,1,pending
@@ -124,13 +116,12 @@ saudi,expo_2030,Expo 2030 Riyadh Company,gov,70,0,pending
 saudi,king_salman_park,King Salman Park Foundation,realestate,70,0,pending
 saudi,cma,Capital Market Authority,gov,70,0,pending
 saudi,sedco,SEDCO Holding,finance,69,0,pending
-saudi,al_othaim,Al Othaim Holding Company,consumer_stap,69,0,pending
+saudi,al_othaim,Al Othaim Holding Company,consumer_stap,69,1,pending
 saudi,naghi,Yousuf M.A. Naghi & Sons Group,conglomerate,69,0,pending
 abudhabi,hub71,Hub71,tech,68,1,pending
 abudhabi,fertiglobe,Fertiglobe,materials,68,1,pending
 abudhabi,nmdc,NMDC Group,industry,68,1,pending
 abudhabi,khalifa_u,Khalifa University,education,68,1,pending
-bahrain,bapco_refining,Bapco Refining,energy,68,0,pending
 dubai,dfm,Dubai Financial Market,finance,68,1,pending
 dubai,tecom,TECOM Group,realestate,68,0,pending
 dubai,khda,Knowledge & Human Development Authority,education,68,1,pending
@@ -158,7 +149,6 @@ abudhabi,nyuad,NYU Abu Dhabi,education,66,1,pending
 abudhabi,goldman,Goldman Sachs,finance,66,0,pending
 bahrain,moh_bh,Ministry of Housing & Urban Planning,gov,66,1,pending
 bahrain,ewa_bh,Electricity & Water Authority,utilities,66,1,pending
-bahrain,bapco_upstream,Bapco Upstream,energy,66,0,pending
 dubai,noon,noon.com,tech,66,1,pending
 dubai,s_s_lootah,S.S. Lootah Group,conglomerate,66,0,pending
 kuwait,mopw_kw,Ministry of Public Works,gov,66,1,pending
@@ -627,10 +617,8 @@ dubai,lst_ajmanbank,Ajman Bank PJSC,finance,50,0,pending
 dubai,lst_unioncoop,Union Coop,consumer_stap,50,0,pending
 dubai,lst_ifa,International Financial Advisors Holding K.P.S.C.,finance,50,0,pending
 dubai,lst_ncc,National Cement Company,materials,50,0,pending
-dubai,lst_amlak,Amlak Finance PJSC,finance,50,0,pending
 dubai,lst_salama,Islamic Arab Insurance Co. (Salama) PJSC,finance,50,0,pending
 dubai,lst_ngi,National General Insurance Co. P.J.S.C.,finance,50,0,pending
-dubai,lst_shuaa,SHUAA Capital PSC,finance,50,0,pending
 dubai,lst_alramz,Al Ramz Corporation Investment and Development P.J.S.C.,finance,50,0,pending
 dubai,lst_dsi,Drake and Scull International P.J.S.C.,industry,50,0,pending
 dubai,lst_nih,National International Holding Company K.S.C.P.,finance,50,0,pending

@@ -342,6 +342,7 @@ const PEOPLE = [
     ["enec","Chairman","board","v"],
     ["cfg","Chairman","board","v"],
     ["scfea","Board Member","board","v"],
+    ["mbzuai","Chairman, Board of Trustees","board","v"],
     ], note:"MBZ's key business emissary; bridges sovereign capital, banking, nuclear energy and global sport."},
   {id:"sultan_jaber", n:"Dr. Sultan Ahmed Al Jaber", t:1, p:96, s:"energy", roles:[
     ["fedgov","Minister of Industry & Advanced Technology","political","v"],
@@ -366,6 +367,7 @@ const PEOPLE = [
     ["adq","Vice Chairman","board","ns"],
     ["modon","Chairman","board","v"],
     ["enec","Chairman","board","v"],
+    ["mbzuai","Board of Trustees Member","board","v"],
     ], note:"Controls the emirate's treasury and chairs the telecom giant."},
   {id:"ahmed_jasim_zaabi", n:"Ahmed Jasim Al Zaabi", t:1, p:90, s:"finance", roles:[
     ["added","Chairman","government","v"],
@@ -381,6 +383,7 @@ const PEOPLE = [
     ["lunate","Executive Chairman & Managing Partner","executive","v"],
     ["eia","Board Member","board","v"],
     ["multiply","Board Member","board","v"],
+    ["xrg","Board Member","board","v"],
     ], note:"Founding MD & Group CEO of ADQ 2018-Jan 2026; concluded tenure to become Executive Chairman & Managing Partner of Lunate (announced 29 Jan 2026). ADQ successor not yet publicly named."},
   {id:"syed_basar", n:"Syed Basar Shueb", t:1, p:85, s:"sovereign", roles:[
     ["ihc","CEO","executive","v"],
@@ -396,6 +399,7 @@ const PEOPLE = [
     ["g42","Group CEO","executive","v"],
     ["mgx","Board Member","board","v"],
     ["m42","Chairman of the Board","board","v"],
+    ["mbzuai","Board of Trustees Member","board","v"],
     ], note:"Runs the G42 AI constellation; the operator of the Tahnoon tech ecosystem."},
   {id:"yousef_otaiba", n:"Yousef Al Otaiba", t:1, p:87, s:"gov", roles:[
     ["mofa","UAE Ambassador to the United States · Minister of State","political","v"],
@@ -446,6 +450,7 @@ const PEOPLE = [
     ]},
   {id:"saif_ghobash", n:"Saif Saeed Ghobash", t:1, p:80, s:"gov", roles:[
     ["execcouncil","Secretary-General","government","ns"],
+    ["mbzuai","Board of Trustees Member","board","v"],
     ]},
   {id:"ahmed_mazrouei", n:"Dr. Ahmed Mubarak Al Mazrouei", t:1, p:78, s:"gov", roles:[
     ["adafsa","Chairman","government","ns"],
@@ -453,6 +458,7 @@ const PEOPLE = [
     ["adq","Board Member","board","ns"],
     ["modon","Board Member","board","v"],
     ["scfea","Board Member","board","v"],
+    ["xrg","Board Member","board","v"],
     ]},
   {id:"suhail_mazrouei", n:"Suhail Al Mazrouei", t:1, p:84, s:"energy", roles:[
     ["fedgov","Minister of Energy & Infrastructure","political","v"],
@@ -2208,6 +2214,66 @@ const PEOPLE = [
     ]},
   {id:"jassem_mohammed_buatabh", n:"Jassem Mohammed Buatabh Al Zaabi", t:2, p:52, s:"gov", roles:[
     ["scfea","Board Member","board","v"],
+    ]},
+  {id:"jasem_al_zaabi", n:"Jasem Al Zaabi", t:2, p:52, s:"energy", roles:[
+    ["xrg","Board Member","board","v"],
+    ]},
+  {id:"jon_gray", n:"Jon Gray", t:2, p:52, s:"energy", roles:[
+    ["xrg","Board Member","board","v"],
+    ]},
+  {id:"bernard_looney", n:"Bernard Looney", t:2, p:52, s:"energy", roles:[
+    ["xrg","Board Member","board","v"],
+    ]},
+  {id:"nassef_sawiris", n:"Nassef Sawiris", t:2, p:52, s:"energy", roles:[
+    ["xrg","Board Member","board","v"],
+    ]},
+  {id:"jonathan_brown", n:"Jonathan Brown", t:2, p:58, s:"consumer_disc", roles:[
+    ["miral","Chief Portfolio Officer","executive","v"],
+    ]},
+  {id:"mahmoud_abu_alhaija", n:"Mahmoud Abu Alhaija", t:2, p:58, s:"consumer_disc", roles:[
+    ["miral","Executive Director of Finance","executive","v"],
+    ]},
+  {id:"abdulaziz_al_khoori", n:"Abdulaziz Al Khoori", t:2, p:58, s:"consumer_disc", roles:[
+    ["miral","Executive Director – Group Strategy & Transformation","executive","v"],
+    ]},
+  {id:"taghrid_al_saeed", n:"Taghrid Al Saeed", t:2, p:58, s:"consumer_disc", roles:[
+    ["miral","Executive Director, Marketing, Communications & Events","executive","v"],
+    ]},
+  {id:"farid_al_qaiwani", n:"Farid Al Qaiwani", t:2, p:58, s:"consumer_disc", roles:[
+    ["miral","Chief Commercial Officer","executive","v"],
+    ]},
+  {id:"joao_miranda", n:"Joao Miranda", t:2, p:58, s:"consumer_disc", roles:[
+    ["miral","Executive Director – Commercial","executive","v"],
+    ]},
+  {id:"raed_kuhail", n:"Raed Kuhail", t:2, p:58, s:"consumer_disc", roles:[
+    ["miral","Executive Director, Digital and Technology","executive","v"],
+    ]},
+  {id:"mariam_al_musharrekh", n:"Mariam Al Musharrekh", t:2, p:58, s:"consumer_disc", roles:[
+    ["miral","Executive Director, Human Resources","executive","v"],
+    ]},
+  {id:"suleiman_hamdan", n:"Suleiman Hamdan", t:2, p:58, s:"consumer_disc", roles:[
+    ["miral","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"rima_al_mokarrab", n:"Rima Al Mokarrab Al Muhairi", t:2, p:52, s:"education", roles:[
+    ["mbzuai","Board of Trustees Member","board","v"],
+    ]},
+  {id:"daniela_rus", n:"Daniela Rus", t:2, p:52, s:"education", roles:[
+    ["mbzuai","Board of Trustees Member","board","v"],
+    ]},
+  {id:"lisa_su", n:"Lisa Su", t:2, p:52, s:"education", roles:[
+    ["mbzuai","Board of Trustees Member","board","v"],
+    ]},
+  {id:"martin_edelman", n:"Martin Edelman", t:2, p:52, s:"education", roles:[
+    ["mbzuai","Board of Trustees Member","board","v"],
+    ]},
+  {id:"timothy_baldwin", n:"Timothy Baldwin", t:2, p:58, s:"education", roles:[
+    ["mbzuai","Provost","executive","v"],
+    ]},
+  {id:"ric_moulines", n:"Éric Moulines", t:2, p:58, s:"education", roles:[
+    ["mbzuai","Dean, Division of Computing and Mathematical Sciences","executive","v"],
+    ]},
+  {id:"sameh_abdulla_juma", n:"Sameh Abdulla Juma Karam Al Qubaisi", t:2, p:58, s:"gov", roles:[
+    ["added","Director General of Economic Affairs","executive","v"],
     ]},
 ];
 

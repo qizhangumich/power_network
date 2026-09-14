@@ -131,6 +131,7 @@ const PEOPLE = [
   {id:"khalid_bh", n:"Sheikh Khalid bin Hamad Al Khalifa", t:0, p:70, s:"consumer_disc", roles:[
     ["bhgov","First Deputy President, Supreme Council for Youth & Sports","government","ns"]]},
   {id:"salman_khalifa_fin", n:"Sheikh Salman bin Khalifa Al Khalifa", t:1, p:82, s:"finance", roles:[
+    ["bapco_refining","Deputy Chairman","board","v"],
     ["mofin_bh","Minister of Finance & National Economy","political","v"],
     ["mumtalakat","Chairman","board","v"]]},
   {id:"zayani_fm", n:"Dr. Abdullatif bin Rashid Al Zayani", t:1, p:78, s:"gov", roles:[
@@ -176,6 +177,7 @@ const PEOPLE = [
   {id:"abdullah_mtt", n:"H.E. Dr. Shaikh Abdullah bin Ahmed Al Khalifa", t:1, p:70, s:"gov", roles:[
     ["mtt_bh","Minister of Transportation & Telecommunications","political","v"]]},
   {id:"daina_oil", n:"H.E. Dr. Mohamed bin Mubarak bin Daina", t:1, p:74, s:"energy", roles:[
+    ["bapco_refining","Board Member","board","v"],
     ["gpic","Chairman of the Board","board","v"],
     ["moo_bh","Minister of Oil & Environment","political","v"]],
     note:"Also holds the title Special Envoy for Climate Affairs; Bahrain's lead voice at COP and other climate forums."},
@@ -227,6 +229,7 @@ const PEOPLE = [
   {id:"ali_murad", n:"Ali Murad", t:2, p:52, s:"finance", roles:[
     ["gfh","Board Member","board","v"]]},
   {id:"abdulla_jehad_alzain", n:"Abdulla Jehad AlZain", t:2, p:52, s:"finance", roles:[
+    ["bapco_refining","Chairman","board","v"],
     ["gfh","Board Member","board","v"]]},
   {id:"darwish_abdulla_alketbi", n:"Darwish Abdulla AlKetbi", t:2, p:52, s:"finance", roles:[
     ["gfh","Board Member","board","v"]]},
@@ -430,18 +433,27 @@ const PEOPLE = [
   {id:"mohamed_bin_mubarak", n:"Mohamed bin Mubarak Bin Daina", t:2, p:52, s:"energy", roles:[
     ["bapco","Board Member","board","v"]]},
   {id:"khalid_amro_al", n:"Khalid Amro Al Rumaihi", t:2, p:52, s:"energy", roles:[
+    ["bapco_refining","Board Member","board","v"],
     ["bapco","Board Member","board","v"]]},
   {id:"faisal_mohamed_al", n:"Faisal Mohamed Al Mahroos", t:2, p:52, s:"energy", roles:[
+    ["bapco_upstream","Chairman","board","v"],
+    ["bapco_refining","Board Member","board","v"],
     ["bapco","Board Member","board","v"]]},
   {id:"robert_warren_dudley", n:"Robert Warren Dudley", t:2, p:52, s:"energy", roles:[
+    ["bapco_refining","Board Member","board","v"],
     ["bapco","Board Member","board","v"]]},
   {id:"mark_thomas", n:"Mark Thomas", t:2, p:60, s:"energy", roles:[
+    ["bapco_upstream","Board Member","board","v"],
+    ["bapco_refining","Group Chief Executive Officer","executive","v"],
     ["bapco","Board Member and Chief Executive Officer","executive","v"]]},
   {id:"anthony_hayward", n:"Anthony Hayward", t:2, p:52, s:"energy", roles:[
+    ["bapco_refining","Board Member","board","v"],
     ["bapco","Board Member","board","v"]]},
   {id:"hadyah_mohammed_fathalla", n:"Hadyah Mohammed Fathalla", t:2, p:52, s:"energy", roles:[
+    ["bapco_refining","Board Member","board","v"],
     ["bapco","Board Member","board","v"]]},
   {id:"abdul_hussain_bin", n:"Abdul-Hussain Bin Ali Mirza", t:2, p:52, s:"energy", roles:[
+    ["bapco_refining","Advisor to the Board","board","v"],
     ["bapco","Advisor to the Board","board","v"]]},
   {id:"naji_belgasem", n:"Naji Belgasem", t:2, p:62, s:"finance", roles:[
     ["abc","Chairman, Non-Executive Director, Non Independent","board","v"]]},
@@ -2453,6 +2465,32 @@ const PEOPLE = [
     ["fakhro","Chairman","board","ns"]]},
   {id:"yousif_abdulla_fakhro", n:"Yousif Abdulla Fakhro", t:2, p:60, s:"conglomerate", roles:[
     ["fakhro","Managing Director","executive","ns"]]},
+  {id:"abdulrahman_jawahery", n:"Abdulrahman Jawahery", t:2, p:60, s:"energy", roles:[
+    ["bapco_refining","Chief Executive Officer, Bapco Refining","executive","v"]]},
+  {id:"abdullatif_khalid_deen", n:"Abdullatif Khalid Deen", t:2, p:58, s:"energy", roles:[
+    ["bapco_refining","Group Chief Financial Officer","executive","v"]]},
+  {id:"alexander_van_veldhoven", n:"Alexander van Veldhoven", t:2, p:58, s:"energy", roles:[
+    ["bapco_refining","Group Chief Strategy Officer","executive","v"]]},
+  {id:"nouf_al_sowaidi", n:"Nouf Al-Sowaidi", t:2, p:58, s:"energy", roles:[
+    ["bapco_refining","Group Chief Human Resources Officer","executive","v"]]},
+  {id:"mohamed_al_shehab", n:"Mohamed Al Shehab", t:2, p:58, s:"energy", roles:[
+    ["bapco_refining","Group Chief Commercial and Investment Officer","executive","v"]]},
+  {id:"ismaeel_husain", n:"Ismaeel Husain", t:2, p:58, s:"energy", roles:[
+    ["bapco_refining","Group Vice President - Health, Safety, Security & Environment (HSSE)","executive","v"]]},
+  {id:"ali_a_karim", n:"Ali A. Karim", t:2, p:58, s:"energy", roles:[
+    ["bapco_refining","Senior Vice President Utilities and Offsites and BMP Startup Manager","executive","v"]]},
+  {id:"firdaus_panthaki", n:"Firdaus Panthaki", t:2, p:46, s:"energy", roles:[
+    ["bapco_refining","General Manager Marketing, Sales & Supply","executive","v"]]},
+  {id:"sheikh_mohammed_bin", n:"Sheikh Mohammed bin Abdulrahman Al-Khalifa", t:2, p:52, s:"energy", roles:[
+    ["bapco_upstream","Board Member","board","v"]]},
+  {id:"rainer_seele", n:"Rainer Seele", t:2, p:52, s:"energy", roles:[
+    ["bapco_upstream","Board Member","board","v"]]},
+  {id:"ali_qasim", n:"Ali Qasim", t:2, p:52, s:"energy", roles:[
+    ["bapco_upstream","Board Member","board","v"]]},
+  {id:"johann_pleininger", n:"Johann Pleininger", t:2, p:60, s:"energy", roles:[
+    ["bapco_upstream","Chief Executive Officer","executive","v"]]},
+  {id:"gabriel_selischi", n:"Gabriel Selischi", t:2, p:46, s:"energy", roles:[
+    ["bapco_upstream","Deputy CE - Technical, EVP Upstream Operations","executive","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -219,6 +219,7 @@ const PEOPLE = [
 
   // ===== ADDED SEP 2026 — KEY MINISTRIES PREVIOUSLY MISSING FROM THE MAP =====
   {id:"alaufi_energy", n:"Eng. Salim bin Nasser bin Said Al Aufi", t:1, p:78, s:"energy", roles:[
+    ["edo","Chairman and Non-Executive Director","board","v"],
     ["moem_om","Minister of Energy & Minerals","political","v"]],
     note:"Appointed 16 June 2022; retained in the January 2026 Royal Decree 17/2026 cabinet restructuring."},
   {id:"albusaidi_interior", n:"Sayyid Hamoud bin Faisal bin Said Al Busaidi", t:1, p:76, s:"gov", roles:[
@@ -335,11 +336,13 @@ const PEOPLE = [
   {id:"srinivasaraghava_giridhar", n:"Srinivasaraghava Giridhar", t:2, p:58, s:"finance", roles:[
     ["lst_nbob","Chief Financial Officer","executive","v"]]},
   {id:"mulham_basheer_al", n:"Mulham Basheer Al Jarf", t:2, p:62, s:"energy", roles:[
+    ["edo","Non-Executive Director","board","v"],
     ["oq","Chairman","board","v"],
     ["oia","Deputy President for Investments","executive","v"]]},
   {id:"hussain_ghalib_al", n:"Hussain Ghalib Al Yafai", t:2, p:52, s:"energy", roles:[
     ["oq","Board Member","board","v"]]},
   {id:"mattar_salim_al", n:"Mattar Salim Al Badi", t:2, p:52, s:"energy", roles:[
+    ["mdo","Chief Executive Officer","executive","v"],
     ["oq","Board Member","board","v"]]},
   {id:"li_lei", n:"Li Lei", t:2, p:52, s:"energy", roles:[
     ["oq","Board Member","board","v"]]},
@@ -405,10 +408,13 @@ const PEOPLE = [
   {id:"isam_al_zadjali", n:"Isam Al Zadjali", t:2, p:52, s:"energy", roles:[
     ["pdo","Board Representative - Energy Development Oman","board","v"]]},
   {id:"mazin_al_lamki", n:"Mazin Al Lamki", t:2, p:52, s:"energy", roles:[
+    ["edo","Chief Executive Officer","executive","v"],
     ["pdo","Board Member (CEO Energy Development Oman)","board","v"]]},
   {id:"sultan_al_mamari", n:"Sultan Al Mamari", t:2, p:52, s:"energy", roles:[
+    ["edo","Chief Financial Officer","executive","v"],
     ["pdo","Board Member (CFO Energy Development Oman)","board","v"]]},
   {id:"azhar_bin_ahmed", n:"Azhar bin Ahmed Al Kindi", t:2, p:52, s:"energy", roles:[
+    ["edo","Chief Operating Officer","executive","v"],
     ["pdo","Board Member (COO Energy Development Oman)","board","v"]]},
   {id:"ali_al_janabi", n:"Ali Al-Janabi", t:2, p:62, s:"energy", roles:[
     ["pdo","Board Member (Shell Country Chairman in Oman)","board","v"],
@@ -631,6 +637,7 @@ const PEOPLE = [
   {id:"h_h_sayyid", n:"H.H. Sayyid Juland Jaifar Al Said", t:2, p:62, s:"energy", roles:[
     ["omanlng","Deputy Chairman","board","v"]]},
   {id:"dr_saleh_al", n:"Dr. Saleh Al Anboori", t:2, p:52, s:"energy", roles:[
+    ["edo","Non-Executive Director","board","v"],
     ["omanlng","Board Member","board","v"]]},
   {id:"khalid_al_khatib", n:"Khalid Al Khatib", t:2, p:52, s:"energy", roles:[
     ["omanlng","Board Member","board","v"]]},
@@ -748,6 +755,22 @@ const PEOPLE = [
     ["omran","Chief Internal Auditor","executive","v"]]},
   {id:"khalid_nasser_al_b", n:"Khalid Nasser Al Kindi", t:2, p:46, s:"consumer_disc", roles:[
     ["omran","General Manager of PMO","executive","v"]]},
+  {id:"nasser_bin_khamis", n:"Nasser bin Khamis Al Jashmi", t:2, p:62, s:"energy", roles:[
+    ["edo","Deputy Chairman and Non-Executive Director","board","v"]]},
+  {id:"abdullah_bin_salim", n:"Abdullah bin Salim Al Harthy", t:2, p:52, s:"energy", roles:[
+    ["edo","Non-Executive Director","board","v"]]},
+  {id:"mohammed_al_harrasi", n:"Mohammed Al Harrasi", t:2, p:58, s:"energy", roles:[
+    ["edo","Chief Business & Corporate Support","executive","v"]]},
+  {id:"badar_al_kharusi", n:"Badar Al Kharusi", t:2, p:62, s:"materials", roles:[
+    ["mdo","Chairman","board","v"]]},
+  {id:"issa_al_abdali", n:"Issa Al-Abdali", t:2, p:58, s:"materials", roles:[
+    ["mdo","Group Chief Financial Officer","executive","v"]]},
+  {id:"mustafa_cihan", n:"Mustafa Cihan", t:2, p:58, s:"materials", roles:[
+    ["mdo","Chief Exploration Officer","executive","v"]]},
+  {id:"maan_al_salmi", n:"Maan Al Salmi", t:2, p:46, s:"materials", roles:[
+    ["mdo","Head of Business Development","executive","v"]]},
+  {id:"sam_mousavinasab", n:"Sam Mousavinasab", t:2, p:58, s:"materials", roles:[
+    ["mdo","Director, Growth and Partnership","executive","v"]]},
 ];
 
 const OWNERSHIP = [
