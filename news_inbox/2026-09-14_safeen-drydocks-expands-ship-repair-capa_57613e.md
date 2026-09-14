@@ -1,0 +1,5 @@
+# SAFEEN Drydocks expands ship repair capacity with UAE’s largest floating dock — SMI DIGITAL
+source: shipmanagementinternational.com
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxPX0VzcVFNMjFqVVZwb0lMWDlXV2ZvTFNraFNfVGp3cm85UWdxUFNsSWpLZ3FybFhaS21FdFNsVkpvMWJjNmpULUg3cVk5NEppekhKQm5mOFdJMlVSYmNjaTJlT2lQRjBmVGI4V2hSd2lzQVI2UWs3LXdpSkpqRW1pVHN2NDJMWEE1b1Y3ZVZFTWh0M181SGxnczZ6cTVpT2pBcXFSNURtdHNsUzQ5Tl9XWmI4WEhHd1BqSm5wVmpBamJzUkotcHc1T21ycEkyOHAzMHc?oc=5
+
+SAFEEN Drydocks expands ship repair capacity with UAE’s largest floating dock — SMI DIGITAL    shipmanagementinternational.com

@@ -1,0 +1,5 @@
+# Etihad reveals premium interior with four first-class suites for new A330neos
+source: FlightGlobal
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxNNDloME5GemdpWEFGM2Q4OHNUZ2x2MVdWd1FMTEk1aXB0dWZtZUhZWmttNjFITUItamQ5ay1Uc3dRME5lQl83NzVIOXZpSzVGYW1NM0R1dUI1SlZVaEZCdzA3WlVsbG50bi0waERDYWxIMWtjNjdwQjUybmhmNnpYN2pjZWVuc1Vtcm9NSzdFbmllNVNkTVpSNnlQR2hqLWxLSk5HaklJWExGWGhROE1MZ0xZSC0xdFg3bUd0ak9saw?oc=5
+
+Etihad reveals premium interior with four first-class suites for new A330neos    FlightGlobal

@@ -1,0 +1,5 @@
+# UAE draws global finance and residents as war hits tourism and logistics - CHOSUNBIZ
+source: Chosunbiz
+url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeDJiTVg2b2twUXNjSGNaemREYV9VSnhyYlZfb2tEejMySlJCQmRJcEZpb25qeGVPSmFCTXEzTzh1bnVsQUY1YmlxNUJtZ3NCMUJYZ2xkd0kydWpsV1dXT2dkU21WMnNGVGw2M2lUeWE3WFFVRUgwZEpmVlRKQ1FXSTA1Q3RTUlJj0gGcAUFVX3lxTE04SXh1MXRoVFZEdXkzenZHUS05UU04UHU4S1dGYURaaTc1akpEb01xcjBSX2NSSW9qd3I4SjZCd2JmQ3BNR3FBY2ZLc1Fsb2tSTUV5Q2wxcmZObTB4R1A1V19mNlRVdWlwUFRrZ1oyZ2RYSzdkR2FaQXRrZEFzVE9nSzJBUHN3U0l5WmxleHNyVzFwYVZzcXF2MFFDUw?oc=5
+
+UAE draws global finance and residents as war hits tourism and logistics - CHOSUNBIZ    Chosunbiz

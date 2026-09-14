@@ -1,0 +1,5 @@
+# Viasat, Space42 Plan To Build 2,800-Satellite D2D Network Through New Venture Equatys
+source: Stocktwits
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNV9CQkJsWHNxWHA1a19EOVM1cUI0d2lwMFp1ZkNMdVJiV256d0FOWHYyMXhOSGJiVDJpNzJTUllkTnJud1FrUnd0MnFaOGJpQnVZMjlkM1A2TWJkXzItUGcwX0o2UTZTb0JYdjg3VUdfaFRHb2QzUHNyM3FQald1VDJhQk1ERGZBTWpCMHRrOUYxWkN5QU1qY1dpREktU0R0MlMtY3E0bjNsb2hYUk9LVHNKV1BLVE1RZjlzUlZLTldNUHl1UGtNdnFZd3lmUVZlUlZMY2VMajA4UzNCWl9adg?oc=5
+
+Viasat, Space42 Plan To Build 2,800-Satellite D2D Network Through New Venture Equatys    Stocktwits

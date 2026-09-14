@@ -1,0 +1,5 @@
+# Etihad expects 2026 break-even and strong demand despite Iran war
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxQSTR6Y1ZtQUc3ZmJGVk5XYl94X0otM2tEd1Z4ZzFYTVQ1SnJYTDZONGw2SV9nNzVKdTRldDBXclFrWVVRWkd3akdhOEtxemhDUXNLcXFwUmM3Y0pVRFZJZk85TmhuY2tDOGE0MjRVbllXMlItaTFpdG11ZXMtQTFVZ09VV2Y5TDNOak1MOXVsNUVyYVhUeXk0MHdiV2xoR2ZQWFdBOHNKUElhS1B1OHBQeDVzOE93Z0t6TDZsTTkySEI4b1lSc3c?oc=5
+
+Etihad expects 2026 break-even and strong demand despite Iran war    thenationalnews.com

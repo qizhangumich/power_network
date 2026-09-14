@@ -1,0 +1,5 @@
+# Masdar and Luxcara explore joint investment in Germany’s BESS and wind sectors
+source: Energy Global
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNODhWaGlVREZXV1AyemNuWEtpRmNXZFpjMjRQWTJPdWc4c2c4WS1tTmZOaXlCdlh4U2RnVk5TbWdoUVo2QkNTb3BsR042cHdEUE11VXAzT2Y4YXc1Ni1WY2F1TGxxREduTUVzT0NWeXRQZzFPZHFBbUlKd1JyaHJmUGpmOTdtNWNJYUpua2w5WjdkUl9DeUQ3MDBmMUpLSmRWLS1WbnNtNFU1SDY4SGZMZjNWMDFyUVBMaGFhVUhLSDViczQ?oc=5
+
+Masdar and Luxcara explore joint investment in Germany’s BESS and wind sectors    Energy Global

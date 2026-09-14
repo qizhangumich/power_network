@@ -1,0 +1,5 @@
+# Space42 and Viasat launch Equatys to power direct-to-device connectivity
+source: Telecompaper
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxQZE8tS0NvWUY4NDVZVFBoSzdva0VJdENJRF9JOVhvWjFTMFpSQTg4T0o3RE1aM1ZGaFhuRVBJMjVzdnJEczRhaW8xaGVUb1JpN3FDZGNvUmpRZGM5MXl5cXpvMkE0OExQY2hyc2dTT1NBZGJ5MnZpVGZQSmtmUG1VWmZ3OWI2RWhXRjdTSU12aXBXN2M0d3AweTVuTG80VFBjNWYxbFBlXzRwaElEZnRzNkxZd3Zsdw?oc=5
+
+Space42 and Viasat launch Equatys to power direct-to-device connectivity    Telecompaper

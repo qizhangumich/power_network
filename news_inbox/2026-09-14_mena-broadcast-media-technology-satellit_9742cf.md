@@ -1,0 +1,5 @@
+# MENA Broadcast, Media Technology & Satellite News
+source: BroadcastPro ME
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPNkg1N2NfVkJ0OTJQOWRBbmcwRlEzQlE5MmNWZjJYZDRNY25VVzZTZlFJTGppd19RNlJyTkRsREhtODc2UzUyUjlHVVpTUnhVTkFrWnEyRVpGUmVZeG5mX05rVjJ5cjhuczNlcXBGSkZhY0RlZ1lhSF9UN2V6TE9CVHFiek9FZGRNMTRlNnRFMnBCdFdjcm5CYU5SZnFTVUc3NHlfQkVsdUtzRWxPRVp0ZTBhQURpSkVJc2NkYVRIVHRneV9WWEE?oc=5
+
+MENA Broadcast, Media Technology & Satellite News    BroadcastPro ME

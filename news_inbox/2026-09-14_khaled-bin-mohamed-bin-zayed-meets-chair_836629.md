@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed meets Chair of global investment bank Citigroup
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPU2FJSjlWVDJNMW1sRmxTNnl2YUJVb2NGZ1NPZjZ0bmVXLXEtTjZBUVUtdHI5dlNfam9MSlZwV25MQ25wRnhOa0UwRnRueTRSR0NEN1lLUFF5WWh0VGRsOWZnMTRxazNfU3JhdzV3Sko0OUs2Y3RNaGVSUTZFamcybzlzSmJVYWhMTjdJRkJyTmE5ZC1OMldMOFNETDJpSHdSTGg5cG9GdldzaFV4RTVJZ2x1cXlIWmx0bUp2V0ZLcE5SVmc1YUU4UkJWMA?oc=5
+
+Khaled bin Mohamed bin Zayed meets Chair of global investment bank Citigroup    مكتب أبوظبي الإعلامي
