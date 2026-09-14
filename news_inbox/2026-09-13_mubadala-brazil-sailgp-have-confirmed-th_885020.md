@@ -1,0 +1,5 @@
+# Mubadala Brazil SailGP have confirmed that driver Martine Grael has left the team
+source: Sailweb
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNzB6ZkxDV1JOaGRoUzI2cUpqSURTR0ZKVnpZUjB1X3JDY1VSOXFnaWpFbks1SHA3RGtnNnllcVFBOFVuWWxySURUWlZNam9rMG96RElHN0V3djhKenRnaVBGRUF2bTVXOXU3UzRfNEQ4NVE1UXlMYlA3OEg5a0Rubm83ckN0ZGx4WlF3ZER3eTM5RTEtNGFPbDNnUTVaSXZWeTNKaXhibThxNVU4RmU4WDEyR1d1TG14aldB?oc=5
+
+Mubadala Brazil SailGP have confirmed that driver Martine Grael has left the team    Sailweb

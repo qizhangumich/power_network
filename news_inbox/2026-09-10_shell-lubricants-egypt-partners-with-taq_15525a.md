@@ -1,0 +1,5 @@
+# Shell Lubricants Egypt partners with TAQA Petroleum to expand retail network
+source: Dailynewsegypt
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxNd1ExcTVwZHg4SW5wN2J4VE1sSE5iZmZMeEs4MWVnNS1SbXBIQ1Rwc0Q5M3VFQkpvQVVJNm9mdHRUZDVYYTNTa2NqRWZBX3VpcWNOemNTRkg3T0NCOC1NV3ZmQnNVQ0V1MGUxblFhY2JEVERRNzNfQkpvLWNRSHpCV1FkMXRQUHJVaE9YUmtpYzdaWHB2VEpCa3VqRFh3MDdMaER1TTIyYzJXT2JVNXk2dUhraTNoRjlxN1Mw?oc=5
+
+Shell Lubricants Egypt partners with TAQA Petroleum to expand retail network    Dailynewsegypt

@@ -1,0 +1,5 @@
+# UAE and Iran discuss easing tensions at BRICS summit
+source: Euronews.com
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxQSVZ4Wkw5Y1JnY3QzY1QtWHgwaGF1ZThNeXlGVFczRUZiWVJqbEh3elRSOVJSNllSc3RYYXhmRzFmNG1BVUREQTQwbDNGOWpVay1ZSWZxTjhRUHpoZDNycTJVelJLLWJtS1lSc0sxZmRhNWlOZVNMQzh1WmFweVBQaFNvOWJXaURTczBlUUwyTmJPTTNmU1VqNHYtX1NwZDI3bllTU21sTUsxbHhhZHBZM3g1aGk?oc=5
+
+UAE and Iran discuss easing tensions at BRICS summit    Euronews.com

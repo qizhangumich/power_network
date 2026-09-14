@@ -1,0 +1,5 @@
+# ADIA increases private asset allocation while reducing real estate exposure
+source: propnewstime.com
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNWXhWMEtmM0h3SzNQOVV2RnE5YWxETXN0c3NUZWtxekR2MFBzRGVnMFFUSktNNHlQWkdRRG5IRm1Yd1VEdkhiNEpPN3RBQzNmRGd2SjloMHhYdnRrNHozUTNrRnVRRGxXTWlkUVRkWFRjZ0t2NjRLZk5rLS02enRXSWhvTzdWM3ZMamhoMG82cUhnTko3M3Q1dzZPU3RXanJCdFJQRE5sSW5LWWNjcXNLaGNUYUhpc0NpSWtkNDVQMUk0NW9oaXc?oc=5
+
+ADIA increases private asset allocation while reducing real estate exposure    propnewstime.com

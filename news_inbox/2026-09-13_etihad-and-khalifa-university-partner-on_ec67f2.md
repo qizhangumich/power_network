@@ -1,0 +1,5 @@
+# Etihad and Khalifa University partner on aviation staff training
+source: Asian Aviation
+url: https://news.google.com/rss/articles/CBMinAFBVV95cUxQbnlZUHByNGJSOXZGMFZ5ZVcyLUJFYmIwYzJPY2kwb1lTTFQ2RHpOY1J4al81dkwtbk1SanBzSTFrUU94cHV2OXB2NHdCNWJhMUV0RDFBUUVRY1Y2ZzlqTi12R1I1NWNSX2RWVjdva2xKRDdmalNjb1hFMWgtNmxlb2l1eEh0dEliUWZRa3NmMnJCTHFwNXlwb1Uxems?oc=5
+
+Etihad and Khalifa University partner on aviation staff training    Asian Aviation
