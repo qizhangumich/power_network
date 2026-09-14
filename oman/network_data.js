@@ -168,6 +168,13 @@ const INSTITUTIONS = [
   {id:"al_mazunah_fz", n:"Al Mazunah Free Zone", s:"gov", t:3, p:52, short:"Al Mazunah FZ"},
   {id:"port_of_duqm", n:"Port of Duqm Company SAOC", s:"industry", t:2, p:56, short:"Port of Duqm"},
   {id:"muscat_municipality", n:"Muscat Municipality", s:"gov", t:3, p:52, short:"Muscat Municipality"},
+  {id:"mazoon_dairy", n:"Mazoon Dairy Company", s:"consumer_stap", t:2, p:58, short:"Mazoon Dairy"},
+  {id:"al_bashayer_meat", n:"Al Bashayer Meat Company", s:"consumer_stap", t:2, p:54, short:"Al Bashayer Meat"},
+  {id:"al_namaa_poultry", n:"Al Namaa Poultry", s:"consumer_stap", t:2, p:52, short:"Al Namaa Poultry"},
+  {id:"al_murooj_dairy", n:"Al Murooj Dairy", s:"consumer_stap", t:2, p:52, short:"Al Murooj Dairy"},
+  {id:"national_feed", n:"Oman National Livestock Company", s:"consumer_stap", t:2, p:52, short:"National Feed"},
+  {id:"nakheel_oman_dev", n:"Nakheel Oman Development Company", s:"consumer_stap", t:2, p:52, short:"Nakheel Oman Dev"},
+  {id:"natl_vet_vaccines", n:"National Veterinary Vaccines Company", s:"health", t:2, p:52, short:"Natl Vet Vaccines"},
 ];
 
 const PEOPLE = [
@@ -901,6 +908,14 @@ const OWNERSHIP = [
   ["pdo","edo","60% government-owned via EDO","v"],
   ["omanflour","nitaj","portfolio company of Nitaj","v"],
   ["al_mazunah_fz","opaz","regulatory oversight","v"],
+  ["mazoon_dairy","oia","subsidiary (via Oman Food Capital)","v"],
+  ["al_bashayer_meat","oia","subsidiary (via Oman Food Capital / Nitaj)","v"],
+  ["al_namaa_poultry","oia","subsidiary (via Oman Food Capital / Nitaj)","v"],
+  ["al_murooj_dairy","oia","subsidiary (via Oman Food Capital / Nitaj)","v"],
+  ["national_feed","oia","subsidiary (via Oman Food Capital / Nitaj)","v"],
+  ["nakheel_oman_dev","oia","subsidiary (via Oman Food Capital / Nitaj)","v"],
+  ["natl_vet_vaccines","oia","subsidiary (via Oman Food Capital / Nitaj)","v"],
+  ["lst_omif","oia","50% joint-venture stake (via OQ)","v"],
 ];
 
 const FAMILY = [
@@ -931,4 +946,5 @@ const AKA = {
   mohsin_haider_darwish:["MHD"],
   al_mazunah_fz:["Al-Mazyunah Free Zone"],
   port_of_duqm:["PDC"],
+  al_bashayer_meat:["Al Bashayer Red Meat"],
 };

@@ -373,6 +373,7 @@ oman,asyad_shipping,Asyad Shipping Company,industry,58,0,pending
 oman,nama_distribution,Nama Electricity Distribution Company,utilities,58,0,pending
 oman,nama_pwp,Nama Power and Water Procurement Company,utilities,58,0,pending
 oman,oetc,Oman Electricity Transmission Company,utilities,58,0,pending
+oman,mazoon_dairy,Mazoon Dairy Company,consumer_stap,58,0,pending
 qatar,cnpc,CNPC,energy,58,0,pending
 qatar,manateq,Manateq (Economic Zones Company),gov,58,0,pending
 saudi,saudi_downtown,Saudi Downtown Company,realestate,58,0,pending
@@ -490,6 +491,7 @@ bahrain,amana_healthcare,Amana Healthcare Bahrain,health,54,0,pending
 bahrain,gulf_cryo,Gulf Cryo,materials,54,1,pending
 bahrain,ghitha_bahrain,Bahrain Food Holding Company (Ghitha),consumer_stap,54,0,pending
 bahrain,bapco_air_fueling,Bapco Air Fueling,energy,54,0,pending
+bahrain,general_poultry,General Poultry Company,consumer_stap,54,0,pending
 dubai,national_bonds,National Bonds Corporation,finance,54,0,pending
 dubai,ducab,Dubai Cable Company,materials,54,0,pending
 dubai,dubai_asset_mgmt,Dubai Holding Asset Management,realestate,54,0,pending
@@ -503,6 +505,7 @@ kuwait,pam,Public Authority for Manpower,gov,54,0,pending
 kuwait,alghanim_sons_grp,Alghanim Sons Group,conglomerate,54,0,pending
 kuwait,q8_aviation,Q8 Aviation,industry,54,0,pending
 northern,shams,Sharjah Media City (Shams),gov,54,0,pending
+oman,al_bashayer_meat,Al Bashayer Meat Company,consumer_stap,54,0,pending
 qatar,qatar_executive,Qatar Executive,industry,54,0,pending
 qatar,qacc,Qatar Aircraft Catering Company,industry,54,0,pending
 qatar,qafac,Qatar Fuel Additives Company,materials,54,0,pending
@@ -526,6 +529,7 @@ bahrain,danat,Bahrain Institute for Pearls and Gemstones (DANAT),consumer_disc,5
 bahrain,radio_bahrain,Radio Bahrain,comm,52,0,pending
 bahrain,al_dana_theatre,Beyon Al Dana Amphitheatre,consumer_disc,52,0,pending
 bahrain,beventures,BeVentures,tech,52,0,pending
+bahrain,gheras,Bahrain Agriculture Development Company,consumer_stap,52,0,pending
 dubai,ithra_dubai,Ithra Dubai,realestate,52,0,pending
 dubai,cda_dubai,Community Development Authority,gov,52,0,pending
 dubai,dubai_culture,Dubai Culture and Arts Authority,gov,52,0,pending
@@ -538,6 +542,11 @@ oman,asyad_drydock,Asyad Drydock,industry,52,0,pending
 oman,asyad_express,Asyad Express,industry,52,0,pending
 oman,al_mazunah_fz,Al Mazunah Free Zone,gov,52,0,pending
 oman,muscat_municipality,Muscat Municipality,gov,52,0,pending
+oman,al_namaa_poultry,Al Namaa Poultry,consumer_stap,52,0,pending
+oman,al_murooj_dairy,Al Murooj Dairy,consumer_stap,52,0,pending
+oman,national_feed,Oman National Livestock Company,consumer_stap,52,0,pending
+oman,nakheel_oman_dev,Nakheel Oman Development Company,consumer_stap,52,0,pending
+oman,natl_vet_vaccines,National Veterinary Vaccines Company,health,52,0,pending
 qatar,al_maha_services,Al Maha Services,industry,52,0,pending
 qatar,discover_qatar,Discover Qatar,consumer_disc,52,0,pending
 qatar,media_city_qatar,Media City Qatar,gov,52,0,pending

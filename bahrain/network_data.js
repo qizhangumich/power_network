@@ -116,6 +116,8 @@ const INSTITUTIONS = [
   {id:"almoayyed_sons", n:"Y.K. Almoayyed & Sons", s:"conglomerate", t:3, p:57, short:"Almoayyed & Sons"},
   {id:"sico_bank", n:"SICO Bank", s:"finance", t:2, p:60, short:"SICO Bank"},
   {id:"united_gulf_bank", n:"United Gulf Bank B.S.C.(c)", s:"finance", t:2, p:58, short:"United Gulf Bank"},
+  {id:"general_poultry", n:"General Poultry Company", s:"consumer_stap", t:2, p:54, short:"General Poultry"},
+  {id:"gheras", n:"Bahrain Agriculture Development Company", s:"consumer_stap", t:2, p:52, short:"Gheras"},
 ];
 
 const PEOPLE = [
@@ -2508,6 +2510,9 @@ const OWNERSHIP = [
   ["bfb","edb","backed by","ns"],
   ["ewa_bh","bhgov"],
   ["edamah","mumtalakat"],
+  ["lst_ghg","mumtalakat","portfolio company","v"],
+  ["lst_bfm","mumtalakat","65.73% stake (indirect, via Bahrain Food Holding Company)","v"],
+  ["lst_poltry","mumtalakat","15% stake (indirect, via Bahrain Food Holding Company)","v"],
   ["bhb","bhgov","state-owned exchange","ns"],
   ["lst_kfh","bhb","listed on Bahrain Bourse","ns"],
   ["lst_bbk","bhb","listed on Bahrain Bourse","ns"],
@@ -2568,6 +2573,8 @@ const OWNERSHIP = [
   ["gulfair","mumtalakat","Mumtalakat portfolio company (aviation holding)","v"],
   ["bic","mumtalakat","wholly owned subsidiary","v"],
   ["alba","mumtalakat","majority shareholder","v"],
+  ["general_poultry","mumtalakat","indirect subsidiary (via Bahrain Food Holding Company)","v"],
+  ["gheras","mumtalakat","indirect subsidiary (via Bahrain Food Holding Company)","v"],
 ];
 
 const FAMILY = [
