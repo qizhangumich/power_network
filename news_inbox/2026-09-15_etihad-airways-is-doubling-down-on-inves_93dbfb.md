@@ -1,0 +1,5 @@
+# Etihad Airways is doubling down on investments and targeting break-even, despite this year’s disruptions
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT1ltSDM0bWh0VGt0OFBQZXp1cWx2SUlZdW1hVWZzQkpoZ3h4clB0d0VlOW9ubDJLWlN6NU1RMGkyN2FzMFZzd0UtaG5CcVNFTm8yRWpIQTZidFVzeHMwSHdNVDAxdjJ3aC1HVDVLQXg3UXlwNEZJb1k0NllDZkJrSlhTZEhGTWdPMHZYTi1nM0lDcTVtUXBsN1kxZ3JmYmE0Tm5EV2k2ZTVkem5zM1V2MnVqdDZSQWdVS1A0dWVYdk02NVFFSnNEUDRVOW1tV2RFcllXNjJfRUpVblU?oc=5
+
+Etihad Airways is doubling down on investments and targeting break-even, despite this year’s disruptions    EnterpriseAM

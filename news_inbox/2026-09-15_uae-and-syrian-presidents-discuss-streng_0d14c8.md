@@ -1,0 +1,5 @@
+# UAE and Syrian Presidents discuss strengthening bilateral ties and regional developments
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxObzdGajA3SVZ0Z3BIT1JWdUFRNkJxX0J0S0hQOHo5bDVGSFNxSzhWQnBPeWJCeVhUWERoLUwzQVdLX2pUN21rTkEycEdPWWpXMW5zZ29meFh4blV5QWpoVW5pUlpPQVJXZ20wUFVzc2NkWEJVWXdfVUZDTW5WU3hFbU0tMENBNlNIWGJJek5SazZ5N0tiU2IxeTdFemhIblBCNzUwYURDenFGTE45NWxwOUVZTDRKcjEyMGxMQnpJcFZzd25MRmp4MQ?oc=5
+
+UAE and Syrian Presidents discuss strengthening bilateral ties and regional developments    Gulf Today

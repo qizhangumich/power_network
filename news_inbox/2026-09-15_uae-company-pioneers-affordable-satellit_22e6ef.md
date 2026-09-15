@@ -1,0 +1,5 @@
+# UAE company pioneers affordable satellite phone coverage
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQbjRDeTdxUFZrUDRoODQ4cVVOUEFzdXZ1N2lzeWZzX0ZyWEw4b0RFZUw2MjBHYmtYUkVBQkpiQVI3SWNEVU9uT0dZbERNY3dpa3YyVEpYRGZTSVN6ZzFFZUFVdjJ1blY2SXFBOGwtVU1KcldZbzJ0dGM5aFJvakNLWERhYi1jVDM3RXhvbC1GUzY0R09MaGRSY3ZLdmlHeFBZQklza3NEVjc2eF9IMUE?oc=5
+
+UAE company pioneers affordable satellite phone coverage    thenationalnews.com

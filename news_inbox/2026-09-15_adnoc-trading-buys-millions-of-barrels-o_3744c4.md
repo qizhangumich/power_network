@@ -1,0 +1,5 @@
+# ADNOC Trading buys millions of barrels of Iraqi crude, sources say
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR3RTS0RIYXA3eFRoOXFiS2JzV0dnTGNqSVVjX0lCXzRiYWFmWDIwdDg0Yk1VX1lpWDBhWFZyOWFwT3E2bG80VXdSdDF2YUZFQ0NyNmwzOUx0ZmJPWlM2Ym9XSGpwemZPMjhObmw3amZmMHFwZkl6MHpleUhrSGYtOVVyeXZaQmtZTEJIeGFYR0M3T3Jkd3NIRElYVC1xckFjZUZLdTdjRl9QbDI0aUFPQlA2UnBDUlNfU0RNRXotY1VpTW1WZkNGUUhpME53d0lj?oc=5
+
+ADNOC Trading buys millions of barrels of Iraqi crude, sources say    TradingView

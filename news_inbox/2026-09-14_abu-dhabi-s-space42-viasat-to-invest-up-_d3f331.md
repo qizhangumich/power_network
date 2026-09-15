@@ -1,0 +1,5 @@
+# Abu Dhabi’s Space42, Viasat to invest up to $1bln in satellite connectivity venture
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMjZXV0ZGbU9ZWkxFN3IyQzBKVUVUY2dnUTlZNFB4b1F6UTZVc0lwMjVmR09wV0tQa3JPbVgxY2gyS05Fd3lXZW4xMW9hLUdoYnQzcjFqZ2FILS1yV2U4VTJ4WG1QWVlXaTR0WWVPV3AwTjRCQ1BPMlVYVWEwd1lQNy1SblNldnM0WnNoems0NExYRUpFbjF5Sk9NdURIQ09aV3EtTnRkamdKbW9NN1ZybWZCM0VGc2JUaUVpdTF1WXRIaGdPQXBmdVNpWk9kV20wa3F5bFBCa3VQbVV1R2d4eUhHeUJiRmJHOS1fWWRR?oc=5
+
+Abu Dhabi’s Space42, Viasat to invest up to $1bln in satellite connectivity venture    TradingView

@@ -1,0 +1,5 @@
+# TAQA Updates $20 Billion Global Medium Term Note Programme with FCA-Approved Supplement
+source: Kalkine Media
+url: https://news.google.com/rss/articles/CBMi-AFBVV95cUxQY1lHRUV3cHNESlNEVFVYd2lpaHdmc0hNVnBQdmxXZE9nQVAwc09uZXpKMGttekRzaVF4cThvd25wYkRBNmZoWU13TDRnX25zaDhFTEtNN1dRel81ZEp1SXB0NEpzS2FMRWpOby0tY2I1R0FSbTJpRVdfTDZ4Wm8yTHZJTmFSOWZmRmNmUGg0el91akFuSjNQTUdrSGczVjhjclhWaWNjYkNfOXYyY3BlNUVwTDBIclRnU0w5eWxQQ0U5TUV5TzBsbmFLaDkwQWtXT2tjS250Y2RFSjJDc1FqNkIxeVB4MGRBeEFLYWMxUEFLZnNpbk9scg?oc=5
+
+TAQA Updates $20 Billion Global Medium Term Note Programme with FCA-Approved Supplement    Kalkine Media

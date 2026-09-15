@@ -1,0 +1,5 @@
+# Etihad Airways unveils upgraded premium cabins for new fleet
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMirAFBVV95cUxPeDZFVHo1QUhwRXRLeDkxVGw5dnAzT1FCdzJtb0pPczl0N1Z3d3FhUDV2MkJwN0FFVjdHWUVxeDU5QzhDT2JCSklDaTRSdF9xOGFFMGthOWZ3Z0dfN0h6WDItd3A1WEkwQzhlbUZzQ2VPVUF4bHNrQjQwSlhHSG5vNUhZa1RGbEw1RXlYQk41cmxwbWJ6dGxjd0FXTmtka2VCbmFtYWtqWGNwTDZz?oc=5
+
+Etihad Airways unveils upgraded premium cabins for new fleet    thenationalnews.com

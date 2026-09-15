@@ -1,0 +1,5 @@
+# British Airways cancels Abu Dhabi flights indefinitely
+source: insideflyer.com
+url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPdmF3b1V4WTlIcnZGTEZKcnE3endJTk8tUVo5SW8xakxXRWl0T05rcDBhTUc0QTV3VktnNktzTDE4WDJMalpkdjRpZjU1TFhtUTF4aXlNNGJteUVLZFpSejVLQUhKbWZkeXFHMHRlWEJNQy1RNS1oMmJYZ20yeGJWZmU1UG5GUXo4R1lwVjZESkJNbmM?oc=5
+
+British Airways cancels Abu Dhabi flights indefinitely    insideflyer.com

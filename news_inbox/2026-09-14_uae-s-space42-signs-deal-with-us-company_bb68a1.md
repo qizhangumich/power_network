@@ -1,0 +1,5 @@
+# UAE's Space42 signs deal with US company for $1bn satellite communications venture
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxNYWtOalVweUhWQ2NvZjh0Rk5xdGNZWEpIXzI1QmxibkY1ai13SnFyQ3pWcHVrd3MzaUMxWjNxZTdTRENxUXprWVp2WlhNN3d4dWdZaVAwb3RYODUwMzJHUE9EcDA4WUdpU1lwR0tjQ2JpcTU0YjM2X2l6TDJvV1NGTDItYmd1NnNiSzVnVnlxM0xvVU5HZzZ2N2FpSThTemJrQ3Fja3VLaW1KQWh0aUlQMzlyd25HVVVTQlVlQVJiUzFOLUdlOEVJamlUaF8?oc=5
+
+UAE's Space42 signs deal with US company for $1bn satellite communications venture    thenationalnews.com

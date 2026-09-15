@@ -1,0 +1,5 @@
+# 'Etihad Wellbeing' programme launched to synchronise onboard services
+source: Aviation Business News
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxQQnBta1VMUVpITlFlUVZCVm9NdmppaXhOY2tWQk1xbVhlNEtxR2dZUU5HclBuN3QxYU5EM2VudVFocVJMbXBwdnpRQ1dxWFFKMnpMOTZleGxYYktLbC1lRnFEVW1lb1NfNE5tMWdlUlhVV0g2TXRRSWctbmt2Y3pUNnhqUzdBbXpQRlFGQjM5c2JpVjhjTFdTakNZN0RrWE5NVXF2WEk0blluTlFGY1ZqdG94TjZCYWk2dHpnaklzYw?oc=5
+
+'Etihad Wellbeing' programme launched to synchronise onboard services    Aviation Business News
