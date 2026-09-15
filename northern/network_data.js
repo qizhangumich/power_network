@@ -650,8 +650,6 @@ const OWNERSHIP = [
   ["rakpa","rakgov","government regulatory authority (RAK Law 4/2018 & 5/2019)","v"],
   ["rak_gas","rakgov","wholly government-owned state gas utility","v"],
   ["rak_ports","rakgov","government entity","v"],
-  ["afz","fujgov","government free zone authority","v"],
-  ["scci","ajmgov","government entity (est. 1977 Emiri Decree)","v"],
   ["rak_municipality","rakgov","government department","v"],
   ["ffza","fujgov","government free zone authority","v"],
   ["srta","shjgov","government authority","v"],
