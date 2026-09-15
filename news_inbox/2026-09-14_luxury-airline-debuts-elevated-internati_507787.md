@@ -1,0 +1,5 @@
+# Luxury Airline Debuts Elevated International Travel Experience
+source: Men's Journal
+url: https://news.google.com/rss/articles/CBMingFBVV95cUxNSWNmT1VjNW9URzQ5V3hzZG9XRFZsaGxIc3RMdjIwUjU0R2M0VFIyMGRDTk50TEZZT3Y5eVdMYXJIX1JFN19ucGRVaU1qaVhkd2o2ejAyMFVoczlBMlJaWE9LdUR3QmFqZlZsMzRJU2QtaUFMMWV1aWdrR0NzSzdNcHJPYVMxdUJ2TWo2VHVDc2pPdV9xR1VHeEVNQS1CQQ?oc=5
+
+Luxury Airline Debuts Elevated International Travel Experience    Men's Journal

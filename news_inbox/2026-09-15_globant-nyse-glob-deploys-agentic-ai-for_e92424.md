@@ -1,0 +1,5 @@
+# Globant (NYSE:GLOB) Deploys Agentic AI for Aldar on Salesforce
+source: TradingView
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxOd0htOG1UR3VWQUR4ZkphYW1xSEg0dEZRdFZsSlpIaGh6MUhiVVg2d25ELTZ5Yy12WDNuRFFWOENEMEd4d1hsVlItY2I5NllCd2t3clJQc19ZQ05ZbTdBZ0VrVDFrV05ad1E5eG5FeXFXYUlUSEhVVWVTaGJBY2twc2hmejNyX1FkZ2FCaDdqOF9VclVJVEZpMmFCSHJxZC00aUMxMDdYZUNhXzRtZEdMZTRjejlvNkhDSllTRVZqRQ?oc=5
+
+Globant (NYSE:GLOB) Deploys Agentic AI for Aldar on Salesforce    TradingView

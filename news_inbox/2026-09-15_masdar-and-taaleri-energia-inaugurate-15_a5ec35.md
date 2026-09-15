@@ -1,0 +1,5 @@
+# Masdar and Taaleri Energia inaugurate 154 MW wind project in Serbia
+source: energyglobal.com
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxOOGVCTzFaWXlacWtUczl5RTZKWU1rcUNrUWdxaDNYX0FBSmppOFRkdXBOTzZfUDhsQW9MX1ZUQ0dJYmxrXzdkcDB4QkdlOThYakdSYlRZbGROQ3JJbkVNUzFzV1VSamlfU1EzbFRZckFyNjRtX1dlcEQzM2oyQWlYTUtoWWZwcmdwMERsQ2IyLTVwU05UVEJpVllKVzBlS1Z2OHlMZXI0M1FOMWtwekZ2Wg?oc=5
+
+Masdar and Taaleri Energia inaugurate 154 MW wind project in Serbia    energyglobal.com

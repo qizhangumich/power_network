@@ -1,0 +1,5 @@
+# Etihad Unveils New Cabins for Airbus A330 Aircraft
+source: Business Travel Executive
+url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOYlU0MkVsSnJHS0NfSzAxWkh4eENBS3pXMGFBdVpwcHB2c21la1k5TC1TSjNGUWxweHU3ZktIZ0I3WUwxeTlHVElMV0V5NkdlYmxSNlNUbFJCUXRMdnZhZWJhbmxXVU9qTjl0emFwTkhBVEJ2UGVETmJJUUNoYnNkbmNkOTBvSmtIWHB1N0lkWm5VbGFoOEdXbEUyZ0k?oc=5
+
+Etihad Unveils New Cabins for Airbus A330 Aircraft    Business Travel Executive

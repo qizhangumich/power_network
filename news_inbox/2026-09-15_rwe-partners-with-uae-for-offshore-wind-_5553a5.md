@@ -1,0 +1,5 @@
+# RWE Partners with UAE for Offshore Wind and LNG Supply Deals
+source: SolarQuarter
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaU44U0pqWTVJb3BGTzJXNFRjVUdnRlZCNlJGQ3VkbFVGUjFUbVB1N0h1QXF4cXJzYXJSaWJGSkhHQUVTNktINHhPZ1JfZmJNRmJocTJhSDNJOEthZkhYY0p3bWlFVVU3bG9HU2N4S2RFUnhFT05xckg1d1FIdTVVbzU4b0ZIdFZPaGFHaHFBdm56LVNpb0xlTEJFVnh2MWctWU5ZcmVjNDBsdVZxUW1ZLW1sZ0gwRXJUeFJRRFU3TG5xNnFYS3dDcE1XNGhtOUktOXBHSmxKSGZOaFlyOFE?oc=5
+
+RWE Partners with UAE for Offshore Wind and LNG Supply Deals    SolarQuarter

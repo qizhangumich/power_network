@@ -1,0 +1,5 @@
+# Space42, Viasat formally establish Equatys
+source: Advanced Television
+url: https://news.google.com/rss/articles/CBMikwFBVV95cUxNc2trbmJ1a1A1UVpfZWIxSllPWmtIcFlLcVhYbHBHT0JJalZqc3VXalJKckd2ZXpJSWdnMXotdENheUtaWjhlRjg0akJETnh6LTVwcHQtejVQOFFLbE00VHBaRzZtTC1keTRZN056WmMzc3VyZDVsT1BiaHM0MmowN3dBSUFybTF2cC1CT0xCdmw2WmM?oc=5
+
+Space42, Viasat formally establish Equatys    Advanced Television

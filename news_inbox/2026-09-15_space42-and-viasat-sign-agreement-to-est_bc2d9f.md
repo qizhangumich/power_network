@@ -1,0 +1,5 @@
+# Space42 and Viasat Sign Agreement to Establish Equatys Satellite Connectivity Platform
+source: TechAfrica News
+url: https://news.google.com/rss/articles/CBMipgFBVV95cUxOdHZYUnhTSmhsaWJRRWthX3RpX2hxZU9sRVdpODNZUDVVQU5BS2VqZXFtU1JmeGw0LVFxelpEMkc4cll0Qmw5VDRnZG44OG0xejAtVVZaWGlsSlozODBld1JiRUt6SS1FTmwzTGdWa09XanVkT3BTWXZqdHh2N2xvQnp0T1VIc3lxRmZlMUc3czRpNlloLUs0NVZOenpveHhoVlpZOUN3?oc=5
+
+Space42 and Viasat Sign Agreement to Establish Equatys Satellite Connectivity Platform    TechAfrica News

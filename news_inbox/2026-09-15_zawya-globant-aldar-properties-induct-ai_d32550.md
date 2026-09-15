@@ -1,0 +1,5 @@
+# ZAWYA: Globant, Aldar Properties induct AI-powered agents
+source: TradingView
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxNS2l0MWpfMGlialdpeGc3eVVTTG5URnlOc1NmaUtnT1FIQ3NVWV9iWFQ1RHhDbFlFUXd6NlhVY0RuNXRaazJFTXBFQ1g2X1ZtNGxPWl9BakRJbHZnN05zN0FWdzhzRWVwMEJqalhpYy1XRnJib0pYTnB6UUExaDYtQkpueGJnZjUxNkM2NHdGTy1hczBiSVRLd2JSbXdNSERQRkRGZDNpSEd5RUdrRU9RSlA2dlBNVjR4LWxDNzBfOVg5cmRORi1YM2VYOA?oc=5
+
+ZAWYA: Globant, Aldar Properties induct AI-powered agents    TradingView

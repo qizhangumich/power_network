@@ -1,0 +1,5 @@
+# UAE and RWE strengthen co-operation across offshore wind
+source: energyglobal.com
+url: https://news.google.com/rss/articles/CBMiogFBVV95cUxPNmk1Rk5XbkloX0p3eHdmcllmQnU0MzRDaksyZ0otWW9DMklUN2RiSTgxb2VQYW5wSXpNNXZmNU15VnpRWVVsekQwYWVBMFBUSVlhVEZiekd1QUstWFJ0WVFORVhiN2twQ1BEYTk3Y2xwMElGWS1Zal9wTk9pSU03eEpFcG16RS1pY3ExRXN1RFB4R3U0T2M4M1FOZENGT0h5b0E?oc=5
+
+UAE and RWE strengthen co-operation across offshore wind    energyglobal.com

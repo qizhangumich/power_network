@@ -1,0 +1,5 @@
+# Abu Dhabi’s XRG seals stake in Azerbaijan’s Southern Gas Corridor
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNlVheTVKVk1ZaGhfN3FIYW9ZeVdscUV2bS1RX3F3YzU3T3FUSGp5WG93bzB4X3dnX1RYRWQ1WHdQeFpieXdXTGJHbEJMMVJ5UWY4emFLa1ZMQzlxcUcxckM4cE1vQURuVTBPTmIyd2FHME45R29WWUpQMU9FaU05TkxLbWhUU0tuNjJSd2RzaWJrd1cxcGFJRjVSWEU4eE1SZjc1TDZDN2ZDYTlnSTctcTlFZmg0U0dmT0dfdWdQdWc?oc=5
+
+Abu Dhabi’s XRG seals stake in Azerbaijan’s Southern Gas Corridor    thenationalnews.com
