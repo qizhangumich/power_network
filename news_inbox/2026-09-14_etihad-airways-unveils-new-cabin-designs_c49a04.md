@@ -1,0 +1,5 @@
+# Etihad Airways Unveils New Cabin Designs For Airbus A330neo and A321LR Airplanes
+source: PYOK
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxQYnAwSS1wdXhRQmNKbnBOOVlFdllNX1R0NlNrUW5rTHhxV3FkU2FrY1dLR1JRdlRXUDFUdTFGNGpEWm5vdkhsX01UNjItNTB0bjVzZmdMZjZSVlJfMkREdzRTdGhEWDRkRGc5QmQxSTBEVHY0UnlEaklTODRuVmIzNjZFd0ZfREItM28wQk9UdWwtZ1hIMlVDd1M2blViZXdpU0JWUFd3N1BOLVJZb3dqNHQ1UlJ3aGt3a01tOERnMjVCV1p3RXc?oc=5
+
+Etihad Airways Unveils New Cabin Designs For Airbus A330neo and A321LR Airplanes    PYOK

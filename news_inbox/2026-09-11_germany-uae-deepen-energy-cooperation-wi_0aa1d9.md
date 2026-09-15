@@ -1,0 +1,5 @@
+# Germany, UAE deepen energy cooperation with renewable, gas agreements
+source: Reuters
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNTWpkLVhoM1duQVVqU21obHloVVg4R2tnXzkyYlAwMFdld0pxeDdGMzN3b2poejJZQzVOR1JuR0U0Rm93VmRESGlFd3V4TjM3cXE5ZU9hUmZxb0RvczNkSzRLejZfSlZZOVJhdFJHRUY4SEVWOEhMWFFMYk1zeHNjbUMyVnFiZmNTSnlrNGxfS1lvVnJKbXE4UTdSbkxVcnA5NHJ2LTdYemlCdDAway1ieWZpaEdkdFk?oc=5
+
+Germany, UAE deepen energy cooperation with renewable, gas agreements    Reuters

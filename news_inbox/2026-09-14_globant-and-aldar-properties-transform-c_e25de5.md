@@ -1,0 +1,5 @@
+# Globant and Aldar Properties transform customer experience with AI-powered agents
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcHJ1Zjh1OU5OQV9VWjNxLVBqQUZGZko4MHYxTGJvZms3azRoaUJFR21IUzZPMkNsYXdrVWNlanlqeV9sNm9xYndWNXd3QkNnVXhKX3RWY3pGNUcyOUZOS3dmY0R5eW9xNWdNejFiLXpLbV9rbnhZV290RS04UjNNSHJUczhuU29vQkpjYVlXSFhDLThVaDZZdjQteWJRRkJUa0t1RVA2MmMzMkZNWm5wTzJNY2lsMnU2eDVSeEhPbTZZWE9CaDBEak9kVk01LVZhdUc4YjIzeXNqUQ?oc=5
+
+Globant and Aldar Properties transform customer experience with AI-powered agents    Zawya

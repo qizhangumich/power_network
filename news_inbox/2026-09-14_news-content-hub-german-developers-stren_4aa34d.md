@@ -1,0 +1,5 @@
+# News Content Hub - German developers strengthen offshore wind cooperation with Qatari investor
+source: rivieramm.com
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWHRkU1ZSRm9kcTNjaUpJR05WcUo4UzdhUFFWblhlbDhSaWxWVjdjNlpXY3BydmtQNW9fZjNraHI4a1hUSHBmUXVTa2NoQVBkUVpNV19LMVRyUXhpMzA5dWczV2ctSE5HU2NxLTcta2l0Y3NsWV90VWRkUjNZSWpWWDNMOGlnYmZBQnlGZmE3bm9zX21CQnBlWV9rclQyVUF5VGtmRzlMYTBjcDdVY2c2RHRNUktyaUtXRmJv?oc=5
+
+News Content Hub - German developers strengthen offshore wind cooperation with Qatari investor    rivieramm.com

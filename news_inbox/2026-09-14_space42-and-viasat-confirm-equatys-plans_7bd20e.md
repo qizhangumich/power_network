@@ -1,0 +1,5 @@
+# Space42 and Viasat confirm Equatys plans
+source: Developing Telecoms
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdndEaktkOTZtRXZlby1tVW5RYk9ONzJtYVZvMFlpd3BUbEtFaXJNelBrRGJWUy1XSjVuR09tQjA3TzRSVlJsWFRZMUdSd2RnMnFtN2hqZnNXbE1nRHl4dFEyZWxnbE55OGxJYU9sSzB5OG1WeENrMDdmVXo0SXRNSTZ0X2FMZ2ZIMzBsR3BnbVFVeEtkSGphM2FJLUFQNXVaSGhNWGtPYVc0NktOTHhSREc0aTMtZW5pSldudlJMQU0wQ0hsVU9BdjJqSUk1R29M?oc=5
+
+Space42 and Viasat confirm Equatys plans    Developing Telecoms
