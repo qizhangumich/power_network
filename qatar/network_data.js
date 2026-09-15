@@ -179,6 +179,15 @@ const INSTITUTIONS = [
   {id:"almuftah", n:"Almuftah Group", s:"conglomerate", t:3, p:55, short:"Almuftah Group"},
   {id:"mbhh", n:"Mohamed Bin Hamad Holding", s:"conglomerate", t:3, p:54, short:"MBHH"},
   {id:"gulf_helicopters", n:"Gulf Helicopters Company", s:"industry", t:3, p:54, short:"Gulf Helicopters"},
+  {id:"cra_qatar", n:"Communications Regulatory Authority", s:"comm", t:2, p:58, short:"CRA Qatar"},
+  {id:"moc_qatar", n:"Ministry of Culture", s:"gov", t:1, p:64, short:"MoC Qatar"},
+  {id:"psa_qatar", n:"Planning and Statistics Authority", s:"gov", t:2, p:62, short:"PSA Qatar"},
+  {id:"public_prosecution", n:"Public Prosecution", s:"gov", t:2, p:64, short:"Public Prosecution"},
+  {id:"qatar_chamber", n:"Qatar Chamber of Commerce and Industry", s:"gov", t:2, p:54, short:"Qatar Chamber"},
+  {id:"gac_qatar", n:"General Authority of Customs", s:"gov", t:2, p:62, short:"GAC Qatar"},
+  {id:"moj_qatar", n:"Ministry of Justice", s:"gov", t:1, p:66, short:"MoJ Qatar"},
+  {id:"ncsa_qatar", n:"National Cyber Security Agency", s:"tech", t:2, p:60, short:"NCSA Qatar"},
+  {id:"grsia_daman", n:"General Retirement and Social Insurance Authority", s:"sovereign", t:1, p:64, short:"GRSIA (Daman)"},
 ];
 
 const PEOPLE = [
@@ -231,16 +240,16 @@ const PEOPLE = [
     ["aamal","Chairman","board","v"]],
     note:"Qatar's leading private-sector billionaire; hotels, industry, healthcare and services."},
   {id:"abdulla_cbq", n:"H.E. Sheikh Abdulla bin Ali bin Jabor Al Thani", t:1, p:68, s:"finance", roles:[
-    ["cbq","Chairman","board","ns"]]},
+    ["cbq","Chairman","board","v"]]},
   {id:"fahad_doha", n:"H.E. Sheikh Fahad bin Mohammad bin Jabor Al Thani", t:1, p:66, s:"finance", roles:[
-    ["dohabank","Chairman","board","ns"]]},
+    ["dohabank","Chairman","board","v"]]},
 
   // ===== TIER 1 — STATE & CAPITAL OPERATORS =====
   {id:"alkaabi", n:"H.E. Saad Sherida Al-Kaabi", t:1, p:94, s:"energy", roles:[
     ["cabinet","Minister of State for Energy Affairs","political","v"],
     ["qatarenergy","President & CEO","executive","v"],
     ["qatarairways","Chairman","board","v"],
-    ["industriesqatar","Chairman","board","ns"],
+    ["industriesqatar","Chairman and Managing Director","board","v"],
     ["qewc","Chairman","board","ns"]],
     note:"Runs the hydrocarbon engine — the single most consequential operator in Qatar's economy."},
   {id:"alkuwari_fin", n:"H.E. Ali bin Ahmed Al Kuwari", t:1, p:86, s:"finance", roles:[
@@ -390,11 +399,10 @@ const PEOPLE = [
     ["qib","Independent Board Member","board","v"]]},
   {id:"maitha_mubarak_rashid", n:"Maitha Mubarak Rashid Al Jabr Al-Naemi", t:2, p:52, s:"finance", roles:[
     ["qib","Independent Board Member","board","v"]]},
-  {id:"saad_sherida_al", n:"Saad Sherida Al-Kaabi", t:2, p:62, s:"materials", roles:[
-    ["industriesqatar","Chairman and Managing Director","board","v"]]},
   {id:"abdulaziz_mohammed_al", n:"Abdulaziz Mohammed Al-Mannai", t:2, p:62, s:"materials", roles:[
     ["industriesqatar","Vice Chairman","board","v"]]},
   {id:"dr_mohammed_yousef", n:"Dr. Mohammed Yousef Al-Mulla", t:2, p:52, s:"materials", roles:[
+    ["qapco","Managing Director & CEO","executive","v"],
     ["industriesqatar","Board Member","board","v"]]},
   {id:"sheikh_khalid_bin", n:"Sheikh Khalid Bin Abdullah Al-Thani", t:2, p:52, s:"materials", roles:[
     ["industriesqatar","Board Member","board","v"]]},
@@ -443,6 +451,7 @@ const PEOPLE = [
   {id:"shahnawaz_niazi", n:"Shahnawaz Niazi", t:2, p:58, s:"finance", roles:[
     ["masraf","Group Chief Financial Officer","executive","v"]]},
   {id:"abdulaziz_jassim_al", n:"Abdulaziz Jassim Al-Muftah", t:2, p:62, s:"energy", roles:[
+    ["qapco","Chairman of the Board","board","v"],
     ["nakilat","Chairman","board","v"]]},
   {id:"ahmad_saif_al", n:"Ahmad Saif Al-Sulaiti", t:2, p:62, s:"energy", roles:[
     ["nakilat","Vice Chairman","board","v"]]},
@@ -491,8 +500,10 @@ const PEOPLE = [
   {id:"calum_laming", n:"Calum Laming", t:2, p:58, s:"industry", roles:[
     ["qatarairways","Chief Customer Officer","executive","v"]]},
   {id:"abdulrahman_m_al", n:"Abdulrahman M. Al-Suwaidi", t:2, p:60, s:"materials", roles:[
+    ["qafco","Managing Director and CEO","executive","v"],
     ["industriesqatar","Board Director; MD & CEO of QAFCO","executive","v"]]},
   {id:"ahmed_abdulqader_al", n:"Ahmed Abdulqader Al-Ahmed", t:2, p:60, s:"materials", roles:[
+    ["qafac","Chief Executive Officer","executive","v"],
     ["industriesqatar","Board Director; CEO of QAFAC","executive","v"]]},
   {id:"faisal_al_malki", n:"Faisal Al Malki", t:2, p:58, s:"realestate", roles:[
     ["msheireb","Chief Operating Officer","executive","v"]]},
@@ -530,8 +541,6 @@ const PEOPLE = [
     ["hassad","Board Member","board","v"]]},
   {id:"fahad_ali_al", n:"Fahad Ali Al-Kuwari", t:2, p:52, s:"consumer_stap", roles:[
     ["hassad","Board Member","board","v"]]},
-  {id:"sheikh_abdulla_bin", n:"Sheikh Abdulla Bin Ali Bin Jabor Al Thani", t:2, p:62, s:"finance", roles:[
-    ["cbq","Chairman","board","v"]]},
   {id:"omar_hussain_ibrahim", n:"Omar Hussain Ibrahim Alfardan", t:2, p:62, s:"finance", roles:[
     ["cbq","Vice-Chairman and Managing Director","board","v"]]},
   {id:"sheikh_falah_hamad", n:"Sheikh Falah Hamad Jassim Al Thani", t:2, p:52, s:"finance", roles:[
@@ -595,6 +604,7 @@ const PEOPLE = [
   {id:"hamad_bin_mohammad", n:"Hamad bin Mohammad Al-Mana", t:2, p:52, s:"industry", roles:[
     ["milaha","Board Member","board","v"]]},
   {id:"dr_mazen_jassim", n:"Dr. Mazen Jassim Jaidah", t:2, p:52, s:"industry", roles:[
+    ["jaidah","Chairman of the Executive Board","executive","ns"],
     ["milaha","Board Member","board","v"]]},
   {id:"hitmi_ali_khalifa", n:"Hitmi Ali Khalifa Al Hitmi", t:2, p:52, s:"industry", roles:[
     ["milaha","Board Member","board","v"]]},
@@ -1012,6 +1022,7 @@ const PEOPLE = [
   {id:"h_e_mr", n:"H.E. Mr. Saad bin Sherida Al-Kaabi", t:2, p:52, s:"sovereign", roles:[
     ["qia","Member of the Board","board","v"]]},
   {id:"mansoor_bin_ebrahim", n:"Mansoor bin Ebrahim Al-Mahmoud", t:2, p:60, s:"sovereign", roles:[
+    ["moph","Minister of Public Health","executive","v"],
     ["qia","Chief Executive Officer (2018-2024)","executive","v","former:until Jan 2025"]]},
   {id:"h_e_saad", n:"H.E. Saad bin Ali Al Kharji", t:2, p:62, s:"consumer_disc", roles:[
     ["qatarrail","Board Member","board","ns"],
@@ -1188,6 +1199,28 @@ const PEOPLE = [
     ["moi_q","Undersecretary of the Ministry of Interior","executive","v"]]},
   {id:"sheikh_saoud_bin", n:"Sheikh Saoud bin Abdulrahman bin Hassan bin Ali Al Thani", t:2, p:58, s:"gov", roles:[
     ["mod_q","Deputy Prime Minister and Minister of State for Defence Affairs","executive","v"]]},
+  {id:"khalid_mohammed_laram", n:"Khalid Mohammed Laram", t:2, p:60, s:"materials", roles:[
+    ["qatalum","Chief Executive Officer","executive","ns"]]},
+  {id:"abdulla_mohamed_al", n:"Abdulla Mohamed Al Khanji", t:2, p:60, s:"industry", roles:[
+    ["mwani","Chief Executive Officer","executive","v"]]},
+  {id:"jassim_mohammed_jaidah", n:"Jassim Mohammed Jaidah", t:2, p:62, s:"conglomerate", roles:[
+    ["jaidah","Chairman","board","ns"]]},
+  {id:"mohamed_jaidah", n:"Mohamed Jaidah", t:2, p:58, s:"conglomerate", roles:[
+    ["jaidah","Group Executive Director","executive","ns"]]},
+  {id:"ali_mohammed_jaidah", n:"Ali Mohammed Jaidah", t:2, p:52, s:"conglomerate", roles:[
+    ["jaidah","Board Member","board","ns"]]},
+  {id:"nawaf_jassim_jaidah", n:"Nawaf Jassim Jaidah", t:2, p:52, s:"conglomerate", roles:[
+    ["jaidah","Board Member","board","ns"]]},
+  {id:"khalid_bin_khalifa_b", n:"Khalid bin Khalifa Al-Thani", t:2, p:60, s:"energy", roles:[
+    ["qelng","Chief Executive Officer","executive","ns"]]},
+  {id:"sheikh_faisal_bin", n:"Sheikh Faisal bin Thani bin Faisal Al Thani", t:2, p:58, s:"gov", roles:[
+    ["moci","Minister of Commerce and Industry","executive","v"]]},
+  {id:"maryam_hamad_al", n:"Maryam Hamad Al-Mannai", t:2, p:58, s:"education", roles:[
+    ["hbku","Vice President","executive","ns"]]},
+  {id:"mohammed_k_al", n:"Mohammed K. Al-Rwaili", t:2, p:58, s:"education", roles:[
+    ["hbku","Director of Academic Administration - Provost Office","executive","ns"]]},
+  {id:"ahmad_helal_al", n:"Ahmad Helal Al-Mohannadi", t:2, p:62, s:"materials", roles:[
+    ["qafco","Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1293,6 +1326,9 @@ const OWNERSHIP = [
   ["nebras","qia","QIA portfolio company","v"],
   ["lst_mphc","qatarenergy","founder and special shareholder","v"],
   ["gulf_helicopters","lst_giss","100% owned subsidiary","v"],
+  ["moc_qatar","cabinet","government ministry","ns"],
+  ["moj_qatar","cabinet","government ministry","ns"],
+  ["grsia_daman","mofin","legal entity with direct budget under the Ministry of Finance","ns"],
 ];
 
 const FAMILY = [
@@ -1347,4 +1383,13 @@ const AKA = {
   manateq:["Economic Zones Company"],
   al_sagri:["HHC"],
   gulf_helicopters:["GHC"],
+  cra_qatar:["CRA"],
+  moc_qatar:["MOC"],
+  psa_qatar:["PSA"],
+  public_prosecution:["QPP"],
+  qatar_chamber:["QCCI"],
+  gac_qatar:["GAC"],
+  moj_qatar:["MOJ"],
+  ncsa_qatar:["NCSA"],
+  grsia_daman:["GRSIA","Daman"],
 };

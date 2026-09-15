@@ -239,9 +239,9 @@ const INSTITUTIONS = [
   {id:"lst_1010", n:"Riyad Bank", s:"finance", t:2, p:70, short:"Riyad Bank"},
   {id:"lst_1020", n:"Bank Aljazira", s:"finance", t:2, p:50, short:"Bank Aljazira"},
   {id:"lst_1030", n:"Saudi Investment Bank (SAIB)", s:"finance", t:2, p:50, short:"1030"},
-  {id:"lst_1050", n:"Banque Saudi Fransi", s:"finance", t:2, p:50, short:"Banque Saudi Fransi"},
-  {id:"lst_1080", n:"Arab National Bank", s:"finance", t:2, p:50, short:"Arab National Bank"},
-  {id:"lst_1140", n:"Bank Albilad", s:"finance", t:2, p:50, short:"Bank Albilad"},
+  {id:"lst_1050", n:"Banque Saudi Fransi", s:"finance", t:2, p:64, short:"Banque Saudi Fransi"},
+  {id:"lst_1080", n:"Arab National Bank", s:"finance", t:2, p:60, short:"Arab National Bank"},
+  {id:"lst_1140", n:"Bank Albilad", s:"finance", t:2, p:58, short:"Bank Albilad"},
   {id:"lst_1150", n:"Alinma Bank", s:"finance", t:2, p:50, short:"Alinma Bank"},
   {id:"lst_1182", n:"Amlak International Finance Co.", s:"finance", t:2, p:50, short:"1182"},
   {id:"lst_1183", n:"SHL Finance Co.", s:"finance", t:2, p:50, short:"SHL Finance Co."},
@@ -436,6 +436,7 @@ const INSTITUTIONS = [
   {id:"jabal_sayid", n:"Ma'aden Barrick Copper Company", s:"materials", t:2, p:56, short:"Jabal Sayid"},
   {id:"center3", n:"Center3", s:"tech", t:2, p:58, short:"Center3"},
   {id:"idj", n:"International Dairy & Juice Limited", s:"consumer_stap", t:2, p:56, short:"IDJ"},
+  {id:"gib_capital", n:"GIB Capital", s:"finance", t:2, p:56, short:"GIB Capital"},
 ];
 
 const PEOPLE = [
@@ -1992,6 +1993,7 @@ const OWNERSHIP = [
   ["jabal_sayid","maaden","50/50 joint venture with Barrick Gold","v"],
   ["center3","stc","wholly-owned subsidiary (data centers & subsea cables)","v"],
   ["idj","almarai","wholly-owned subsidiary (bought out PepsiCo's 48% in 2023)","v"],
+  ["gib_capital","gib_ksa","wholly-owned investment banking subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -2056,4 +2058,5 @@ const AKA = {
   axelerated_sol:["AXS"],
   bsf_capital:["Saudi Fransi Capital"],
   center3:["Digital Centers for Data and Telecommunications Company"],
+  gib_capital:["GIB Capital LLC"],
 };

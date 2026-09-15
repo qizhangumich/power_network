@@ -204,6 +204,16 @@ const INSTITUTIONS = [
   {id:"q8oils", n:"Q8Oils", s:"materials", t:3, p:52, short:"Q8Oils"},
   {id:"wafra", n:"Wafra International Investment Company", s:"finance", t:3, p:56, short:"Wafra"},
   {id:"ooredoo_kuwait", n:"Ooredoo Kuwait", s:"comm", t:2, p:58, short:"Ooredoo Kuwait"},
+  {id:"moi_kuwait", n:"Ministry of Interior", s:"gov", t:1, p:70, short:"MoI Kuwait"},
+  {id:"moh_kuwait", n:"Ministry of Health", s:"health", t:1, p:68, short:"MoH Kuwait"},
+  {id:"mew_kuwait", n:"Ministry of Electricity Water and Renewable Energy", s:"utilities", t:1, p:66, short:"MEW Kuwait"},
+  {id:"mod_kuwait", n:"Ministry of Defence", s:"gov", t:1, p:72, short:"MoD Kuwait"},
+  {id:"citra", n:"Communication and Information Technology Regulatory Authority", s:"comm", t:2, p:56, short:"CITRA"},
+  {id:"epa_kuwait", n:"Environment Public Authority", s:"gov", t:2, p:54, short:"EPA Kuwait"},
+  {id:"paafr", n:"Public Authority for Agriculture Affairs and Fish Resources", s:"consumer_stap", t:2, p:52, short:"PAAFR"},
+  {id:"part_kuwait", n:"Public Authority for Roads and Transportation", s:"industry", t:2, p:62, short:"PART Kuwait"},
+  {id:"csc_kuwait", n:"Civil Service Commission", s:"gov", t:2, p:54, short:"CSC Kuwait"},
+  {id:"kuna", n:"Kuwait News Agency", s:"comm", t:2, p:56, short:"KUNA"},
 ];
 
 const PEOPLE = [
@@ -224,7 +234,8 @@ const PEOPLE = [
   {id:"haroon", n:"Basel Al-Haroon", t:1, p:74, s:"finance", roles:[
     ["cbk","Governor & Chairman of the Board","executive","v"]]},
   {id:"ghenaiman", n:"Ghanem Al-Ghenaiman", t:1, p:78, s:"sovereign", roles:[
-    ["kia","Managing Director","executive","ns"]],
+    ["kia","Managing Director (2021–Jan 2025)","executive","ns","former:until Jan 2025"]],
+    note:"Stepped down as KIA Managing Director Jan 2025 in a smooth handover to Sheikh Saoud Salem Al-Sabah; died Apr 2025.",
     note:"KIA is the world's oldest sovereign fund — and one of its most secretive."},
   {id:"nawaf_kpc", n:"Sheikh Nawaf Al-Saud Al-Sabah", t:1, p:82, s:"energy", roles:[
     ["kpc","Deputy Chairman & CEO","executive","v"]]},
@@ -371,6 +382,7 @@ const PEOPLE = [
   {id:"naim_azad_din", n:"Naim Azad Din", t:2, p:58, s:"finance", roles:[
     ["boursa","Chief Financial Officer","executive","v"]]},
   {id:"shaikh_khaled_ahmad", n:"Shaikh Khaled Ahmad Al-Sabah", t:2, p:60, s:"energy", roles:[
+    ["kotc","Acting Chief Executive Officer","executive","v"],
     ["kpc","Managing Director - International Marketing","executive","v"]]},
   {id:"hesham_ahmad_al", n:"Hesham Ahmad Al-Refae", t:2, p:60, s:"energy", roles:[
     ["kpc","Managing Director - Human Resources and Corporate Services","executive","v"]]},
@@ -381,6 +393,7 @@ const PEOPLE = [
   {id:"aseel_suleiman_al", n:"Aseel Suleiman Al-Munifi", t:2, p:52, s:"energy", roles:[
     ["kpc","Board Member","board","v"]]},
   {id:"wafa_ahmed_al", n:"Wafa Ahmed Al-Qatami", t:2, p:52, s:"energy", roles:[
+    ["kdipa","Deputy Chairman of the Board of Directors","board","v"],
     ["kpc","Board Member","board","v"]]},
   {id:"yousef_abdullah_al", n:"Yousef Abdullah Al-Yateem", t:2, p:52, s:"energy", roles:[
     ["kpc","Board Member","board","v"]]},
@@ -414,6 +427,7 @@ const PEOPLE = [
   {id:"khuloud_saad_al", n:"Khuloud Saad Al-Mutairi", t:2, p:60, s:"energy", roles:[
     ["knpc","Deputy CEO - Support Services","executive","v"]]},
   {id:"fahad_saad_al", n:"Fahad Saad Al-Mutairi", t:2, p:60, s:"energy", roles:[
+    ["q8","Board Member","board","v"],
     ["knpc","Deputy CEO - Al-Zour Operations","executive","v"]]},
   {id:"sheikh_hamad_sabah", n:"Sheikh Hamad Sabah Al Ahmad Al Sabah", t:2, p:62, s:"sovereign", roles:[
     ["kipco","Chairman","board","v"]]},
@@ -470,6 +484,7 @@ const PEOPLE = [
   {id:"abdullah_sayer_bader", n:"Abdullah Sayer Bader AlSayer", t:2, p:62, s:"finance", roles:[
     ["gulfbank","Deputy Chairman of the Board","board","v"]]},
   {id:"dr_fawaz_mohammad", n:"Dr. Fawaz Mohammad Alawadhi", t:2, p:52, s:"finance", roles:[
+    ["alghanim_sons_grp","Chief Legal Officer","executive","v"],
     ["gulfbank","Board Member","board","v"],
     ["alghanim","Chief Legal Officer","executive","v"]]},
   {id:"muath_saleh_alrayes", n:"Muath Saleh AlRayes", t:2, p:52, s:"finance", roles:[
@@ -587,12 +602,14 @@ const PEOPLE = [
     ["cbk","Board Member (Undersecretary Ministry of Finance)","board","v"],
     ["kia","Board Member (Undersecretary of the Ministry of Finance)","board","v"]]},
   {id:"h_e_sheikh", n:"H.E. Sheikh Dr. Meshaal Jaber Al-Ahmad Al-Sabah", t:2, p:52, s:"sovereign", roles:[
+    ["kdipa","Director General","executive","v"],
     ["kia","Board Member","board","v"]]},
   {id:"sheikh_saoud_salem", n:"Sheikh Saoud Salem Abdulaziz Al-Sabah", t:2, p:60, s:"sovereign", roles:[
     ["kia","Board Member and Managing Director","board","v"]]},
   {id:"mahmoud_al_marzouq", n:"Mahmoud Al-Marzouq", t:2, p:52, s:"sovereign", roles:[
     ["kia","Board Member","board","v"]]},
   {id:"danah_al_mulla", n:"Danah Al-Mulla", t:2, p:52, s:"sovereign", roles:[
+    ["al_mulla","Chief Strategy Officer","executive","v"],
     ["kia","Board Member","board","v"]]},
   {id:"salah_al_fouzan", n:"Salah Al-Fouzan", t:2, p:52, s:"sovereign", roles:[
     ["kia","Board Member","board","v"]]},
@@ -621,6 +638,7 @@ const PEOPLE = [
   {id:"abdullah_nasser_sabah", n:"Abdullah Nasser Sabah Al Ahmad Al Sabah", t:2, p:62, s:"finance", roles:[
     ["lst_burg","Chairman","board","v"]]},
   {id:"faisal_m_sarkhou", n:"Faisal M. Sarkhou", t:2, p:62, s:"finance", roles:[
+    ["kdipa","Board Member","board","v"],
     ["lst_burg","Vice Chairman","board","v"]]},
   {id:"abdulkareem_el_kabariti", n:"Abdulkareem El-Kabariti", t:2, p:52, s:"finance", roles:[
     ["lst_burg","Board Member","board","v"]]},
@@ -880,12 +898,16 @@ const PEOPLE = [
   {id:"hazem_shawki", n:"Hazem Shawki", t:2, p:62, s:"conglomerate", roles:[
     ["alghanim","Vice Chairman","board","v"]]},
   {id:"mahmoud_samara", n:"Mahmoud Samara", t:2, p:60, s:"conglomerate", roles:[
+    ["alghanim_sons_grp","Chief Executive Officer","executive","v"],
     ["alghanim","Chief Executive Officer","executive","v"]]},
   {id:"waleed_alghanim", n:"Waleed Alghanim", t:2, p:60, s:"conglomerate", roles:[
+    ["alghanim_sons_grp","Chief Strategy Initiatives Officer","executive","v"],
     ["alghanim","Chief Executive Officer - Kirby","executive","v"]]},
   {id:"yousef_behbehani", n:"Yousef Behbehani", t:2, p:58, s:"conglomerate", roles:[
+    ["alghanim_sons_grp","Senior Vice President - Automotive Group","executive","v"],
     ["alghanim","Senior Vice President - Automotive Group","executive","v"]]},
   {id:"dirk_kahl", n:"Dirk Kahl", t:2, p:58, s:"conglomerate", roles:[
+    ["alghanim_sons_grp","Chief Financial Officer","executive","v"],
     ["alghanim","Chief Financial Officer","executive","v"]]},
   {id:"rajul_batra", n:"Rajul Batra", t:2, p:58, s:"consumer_disc", roles:[
     ["alshaya","Chief Financial Officer","executive","v"]]},
@@ -1067,6 +1089,50 @@ const PEOPLE = [
     ["lst_humansoft","Independent Board Member","board","ns"]]},
   {id:"atef_bin_saeed", n:"Atef bin Saeed bin Rashid Al-Siyabi", t:2, p:52, s:"comm", roles:[
     ["zain","Board Member","board","v"]]},
+  {id:"shukri_abdulaziz_al", n:"Shukri Abdulaziz Al-Mahrous", t:2, p:52, s:"energy", roles:[
+    ["q8","Board Member","board","v"]]},
+  {id:"areej_yousef_al", n:"Areej Yousef Al-Bahr", t:2, p:52, s:"energy", roles:[
+    ["q8","Board Member","board","v"]]},
+  {id:"shafi_taleb_al", n:"Shafi Taleb Al-Ajmi", t:2, p:60, s:"energy", roles:[
+    ["q8","Chief Executive Officer","executive","v"]]},
+  {id:"waleed_al_ben", n:"Waleed Al Ben Ali", t:2, p:58, s:"energy", roles:[
+    ["q8","Executive Vice President - Planning & Finance","executive","v"]]},
+  {id:"imad_a_al", n:"Imad A. Al-Hadlaq", t:2, p:58, s:"energy", roles:[
+    ["q8","Executive Vice President - Manufacturing","executive","v"]]},
+  {id:"nadia_bader_al", n:"Nadia Bader Al-Hajji", t:2, p:60, s:"materials", roles:[
+    ["pic","Chief Executive Officer","executive","v"]]},
+  {id:"feras_alawwad", n:"Feras Alawwad", t:2, p:60, s:"materials", roles:[
+    ["pic","Deputy CEO - Projects & Business Development","executive","ns"]]},
+  {id:"mohammed_saqr_al", n:"Mohammed Saqr Al-Ghanim", t:2, p:62, s:"industry", roles:[
+    ["kotc","Deputy Chairman","board","v"]]},
+  {id:"ahmed_youssef_al", n:"Ahmed Youssef Al-Rashdan", t:2, p:52, s:"industry", roles:[
+    ["kotc","Board Member","board","v"]]},
+  {id:"kholoud_saad_al", n:"Kholoud Saad Al-Mutairi", t:2, p:52, s:"industry", roles:[
+    ["kotc","Board Member","board","v"]]},
+  {id:"hisham_ahmed_al", n:"Hisham Ahmed Al-Rifai", t:2, p:52, s:"industry", roles:[
+    ["kotc","Board Member","board","v"]]},
+  {id:"anwar_abdulla_al", n:"Anwar Abdulla Al Mulla", t:2, p:62, s:"conglomerate", roles:[
+    ["al_mulla","Chairman","board","v"]]},
+  {id:"talal_anwar_al", n:"Talal Anwar Al Mulla", t:2, p:60, s:"conglomerate", roles:[
+    ["al_mulla","Chief Executive Officer","executive","v"]]},
+  {id:"abdulla_najeeb_almulla", n:"Abdulla Najeeb Almulla", t:2, p:58, s:"conglomerate", roles:[
+    ["al_mulla","Chief Administrative Officer","executive","v"]]},
+  {id:"rohit_bhasin", n:"Rohit Bhasin", t:2, p:58, s:"conglomerate", roles:[
+    ["al_mulla","Chief Financial Officer","executive","v"]]},
+  {id:"kutayba_y_alghanim", n:"Kutayba Y. Alghanim", t:2, p:62, s:"conglomerate", roles:[
+    ["alghanim_sons_grp","Executive Chairman","board","v"]]},
+  {id:"robert_etman", n:"Robert Etman", t:2, p:62, s:"conglomerate", roles:[
+    ["alghanim_sons_grp","Advisor to the Chairman","executive","v"]]},
+  {id:"george_lambros", n:"George Lambros", t:2, p:58, s:"conglomerate", roles:[
+    ["alghanim_sons_grp","Chief Human Resource Officer","executive","v"]]},
+  {id:"hashim_gillani", n:"Hashim Gillani", t:2, p:58, s:"conglomerate", roles:[
+    ["alghanim_sons_grp","President - Industrial Group and Corporate Business Development","executive","v"]]},
+  {id:"sabeeh_abdulaziz_al", n:"Sabeeh Abdulaziz Al-Mukhaizeem", t:2, p:62, s:"gov", roles:[
+    ["kdipa","Chairman of the Board of Directors","board","v"]]},
+  {id:"muhannad_al_sane", n:"Muhannad Al-Sane", t:2, p:52, s:"gov", roles:[
+    ["kdipa","Board Member","board","v"]]},
+  {id:"zyad_al_najm", n:"Zyad Al-Najm", t:2, p:52, s:"gov", roles:[
+    ["kdipa","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1220,6 +1286,11 @@ const OWNERSHIP = [
   ["wafra","pifss","wholly owned subsidiary of PIFSS","v"],
   ["equate","pic","joint venture (PIC founding shareholder)","v"],
   ["kafco","knpc","wholly owned subsidiary","ns"],
+  ["moi_kuwait","cabinet_kw","government ministry","ns"],
+  ["moh_kuwait","cabinet_kw","government ministry","ns"],
+  ["mew_kuwait","cabinet_kw","government ministry","ns"],
+  ["mod_kuwait","cabinet_kw","government ministry","ns"],
+  ["kuna","moinfo_kw","operates as a branch of the Ministry of Information","ns"],
 ];
 
 const FAMILY = [
@@ -1243,4 +1314,12 @@ const AKA = {
   alghanim_sons_grp:["ASG"],
   wafra:["WIIC"],
   ooredoo_kuwait:["Wataniya Telecom"],
+  moi_kuwait:["MOI"],
+  moh_kuwait:["MOH"],
+  mew_kuwait:["MEW","Ministry of Electricity and Water"],
+  mod_kuwait:["MOD"],
+  epa_kuwait:["EPA"],
+  paafr:["PAAF"],
+  part_kuwait:["PART"],
+  csc_kuwait:["CSC"],
 };

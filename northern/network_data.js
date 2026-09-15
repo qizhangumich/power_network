@@ -72,6 +72,16 @@ const INSTITUTIONS = [
   {id:"rakpa", n:"RAK Petroleum Authority", s:"gov", t:2, p:56, short:"RAKPA"},
   {id:"rak_gas", n:"RAK Gas", s:"energy", t:2, p:58, short:"RAK Gas"},
   {id:"rak_ports", n:"RAK Ports (Saqr Port Authority)", s:"industry", t:1, p:64, short:"RAK Ports"},
+  {id:"rak_chamber", n:"RAK Chamber of Commerce and Industry", s:"gov", t:2, p:52, short:"RAK Chamber"},
+  {id:"rak_municipality", n:"Ras Al Khaimah Municipality", s:"gov", t:2, p:58, short:"RAK Municipality"},
+  {id:"ffza", n:"Fujairah Free Zone Authority", s:"gov", t:2, p:56, short:"FFZA"},
+  {id:"srta", n:"Sharjah Roads and Transport Authority", s:"gov", t:2, p:58, short:"SRTA"},
+  {id:"uaq_chamber", n:"Umm Al Quwain Chamber of Commerce and Industry", s:"gov", t:2, p:52, short:"UAQ Chamber"},
+  {id:"uaq_ded", n:"Umm Al Quwain Department of Economic Development", s:"gov", t:2, p:58, short:"UAQ DED"},
+  {id:"sharjah_finance", n:"Sharjah Finance Department", s:"finance", t:2, p:60, short:"Sharjah Finance"},
+  {id:"ajman_chamber", n:"Ajman Chamber of Commerce and Industry", s:"gov", t:2, p:52, short:"Ajman Chamber"},
+  {id:"ajman_ded", n:"Ajman Department of Economic Development", s:"gov", t:2, p:60, short:"Ajman DED"},
+  {id:"fujairah_chamber", n:"Fujairah Chamber of Commerce and Industry", s:"gov", t:2, p:52, short:"Fujairah Chamber"},
 ];
 
 const PEOPLE = [
@@ -200,6 +210,7 @@ const PEOPLE = [
   {id:"mohamed_omran_alshamsi", n:"Mohamed Omran Alshamsi", t:2, p:62, s:"finance", roles:[
     ["rakbank","Chairman","board","v"]]},
   {id:"h_h_shaikha", n:"H.H. Shaikha Amneh Al Qasimi", t:2, p:62, s:"finance", roles:[
+    ["rak_ido","Chairwoman","board","v"],
     ["rakbank","Vice Chair","board","v"]]},
   {id:"salem_ali_al", n:"Salem Ali Al Sharhan", t:2, p:52, s:"finance", roles:[
     ["rakbank","Board Member","board","v"]]},
@@ -362,6 +373,8 @@ const PEOPLE = [
   {id:"sheikh_mohammed_bin_b", n:"Sheikh Mohammed bin Saud Al Qasimi", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Sharjah Finance Department)","board","v"]]},
   {id:"sheikh_khaled_bin", n:"Sheikh Khaled bin Abdullah bin Sultan Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["saif_zone","Chairman","board","v"],
+    ["hfza","Chairman","board","v"],
     ["shj_execco","Member (Chairman of Sharjah Seaports and Customs)","board","v"]]},
   {id:"sheikh_salem_bin", n:"Sheikh Salem bin Abdulrahman Al Qasimi", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Ruler's Office)","board","v"]]},
@@ -558,6 +571,49 @@ const PEOPLE = [
     ["ghassan_aboud_grp","Founder and Chairman","executive","ns"]]},
   {id:"abdul_wahab_al", n:"Abdul Wahab Al-Halabi", t:2, p:62, s:"consumer_stap", roles:[
     ["iffco","Executive Chairman","board","ns"]]},
+  {id:"saud_salim_al", n:"Saud Salim Al Mazrouei", t:2, p:58, s:"gov", roles:[
+    ["hfza","Director","executive","v"],
+    ["saif_zone","Director","executive","v"]]},
+  {id:"ahmed_bin_humaid", n:"Ahmed bin Humaid Al Nuaimi", t:2, p:62, s:"gov", roles:[
+    ["afz","Chairman","board","v"]]},
+  {id:"ismail_al_naqi", n:"Ismail Al Naqi", t:2, p:58, s:"gov", roles:[
+    ["afz","Director General","executive","v"]]},
+  {id:"roy_cummins", n:"Roy Cummins", t:2, p:60, s:"industry", roles:[
+    ["rak_ports","Chief Executive Officer","executive","v"]]},
+  {id:"nishen_reddy", n:"Nishen Reddy", t:2, p:58, s:"industry", roles:[
+    ["rak_ports","Chief Operating Officer","executive","v"]]},
+  {id:"john_davies", n:"John Davies", t:2, p:58, s:"industry", roles:[
+    ["rak_ports","Chief Financial Officer","executive","v"]]},
+  {id:"michael_magee", n:"Michael Magee", t:2, p:58, s:"industry", roles:[
+    ["rak_ports","Group Harbour Master","executive","v"]]},
+  {id:"justin_wardle", n:"Justin Wardle", t:2, p:58, s:"industry", roles:[
+    ["rak_ports","Port Manager - Saqr Port","executive","v"]]},
+  {id:"abdullah_abdul_rahman", n:"Abdullah Abdul Rahman Muhammad Obaid Al Shamsi", t:2, p:58, s:"utilities", roles:[
+    ["sewa","Director General","executive","v"]]},
+  {id:"puneet_jain", n:"Puneet Jain", t:2, p:58, s:"gov", roles:[
+    ["rakez","Chief Strategy Officer","executive","ns"]]},
+  {id:"anas_hijjawi", n:"Anas Hijjawi", t:2, p:58, s:"gov", roles:[
+    ["rakez","Chief Commercial Officer","executive","v"]]},
+  {id:"majid_faisal_khalid", n:"Majid Faisal Khalid Al Qasemi", t:2, p:62, s:"gov", roles:[
+    ["scci","First Vice Chairman","board","ns"]]},
+  {id:"waleed_abdelrahman_bukhatir", n:"Waleed AbdelRahman BuKhatir", t:2, p:62, s:"gov", roles:[
+    ["scci","Second Vice Chairman","board","v"]]},
+  {id:"mohammed_ahmed_amin", n:"Mohammed Ahmed Amin Al Awadi", t:2, p:58, s:"gov", roles:[
+    ["scci","Director-General","executive","ns"]]},
+  {id:"phillipa_harrison", n:"Phillipa Harrison", t:2, p:60, s:"gov", roles:[
+    ["raktda","Chief Executive Officer","executive","v"]]},
+  {id:"brent_anderson", n:"Brent Anderson", t:2, p:58, s:"gov", roles:[
+    ["raktda","Chief Commercial Officer","executive","v"]]},
+  {id:"iyad_rasbey", n:"Iyad Rasbey", t:2, p:58, s:"gov", roles:[
+    ["raktda","Vice President - Destination Tourism Development","executive","v"]]},
+  {id:"emil_petrov", n:"Emil Petrov", t:2, p:58, s:"gov", roles:[
+    ["raktda","Vice President - Strategy and Insights","executive","v"]]},
+  {id:"maha_kassim", n:"Maha Kassim", t:2, p:58, s:"gov", roles:[
+    ["raktda","Senior Director - People & Culture","executive","v"]]},
+  {id:"emma_campbell", n:"Emma Campbell", t:2, p:58, s:"gov", roles:[
+    ["raktda","Chief Marketing Officer","executive","ns"]]},
+  {id:"khalid_bin_rashid", n:"Khalid bin Rashid Al Mualla", t:2, p:62, s:"gov", roles:[
+    ["uaqftz","Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -596,6 +652,12 @@ const OWNERSHIP = [
   ["rak_ports","rakgov","government entity","v"],
   ["afz","fujgov","government free zone authority","v"],
   ["scci","ajmgov","government entity (est. 1977 Emiri Decree)","v"],
+  ["rak_municipality","rakgov","government department","v"],
+  ["ffza","fujgov","government free zone authority","v"],
+  ["srta","shjgov","government authority","v"],
+  ["uaq_ded","uaqgov","government department","v"],
+  ["sharjah_finance","shjgov","government department","v"],
+  ["ajman_ded","ajmgov","government department","v"],
 ];
 
 const FAMILY = [
@@ -650,4 +712,6 @@ const AKA = {
   al_hamra:["Al Hamra Group","Al Hamra Real Estate Development"],
   rak_gas:["RAKGAS","Ras Al Khaimah Gas Commission"],
   rak_ports:["Saqr Port","Saqr Port Authority"],
+  uaq_chamber:["UAQCCI"],
+  sharjah_finance:["SFD"],
 };
