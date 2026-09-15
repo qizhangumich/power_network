@@ -1,0 +1,5 @@
+# SAFEEN Drydocks expands capacity with new 230m floating dock
+source: themaritimestandard.com
+url: https://news.google.com/rss/articles/CBMikwFBVV95cUxQT2w2Um5LZ1d2eU1VR2V2ZmFhelV6a0R5dFg5RWVaa0dxeGoxTUpkRFI2VWNsZjJkV3hiX1ZndVFqOG80eFZCLURMdzZIUzlPRWZId3dsaThkNkd0Si1LM3N5cFlnN3E2dWhTM2lIbjFxQUNPRW1FcXl5Y3A3OTlNMGlQTG9HcUp0SkNHcmUyeC1rajg?oc=5
+
+SAFEEN Drydocks expands capacity with new 230m floating dock    themaritimestandard.com

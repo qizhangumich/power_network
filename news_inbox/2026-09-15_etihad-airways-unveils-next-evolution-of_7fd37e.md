@@ -1,0 +1,5 @@
+# Etihad Airways unveils next evolution of passenger experience and new A330neo cabins
+source: Future Travel Experience
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOX0RjRlh2SHBYWkxreWlIdHdJQ1VyVV9pQzc2em0wM1BMWTZtaDI2LWRGeVRaR2JOaWtLNUliNm1fSUo2RkJfYjJ6Nl8zSVB4UzhaaWNieC1OZ3dDeDZYWXptclRDU1NUekUwcDNnRS1CZVh2VGd6QWpsVmRoZTBKYTdGTWI1eXpzb3NPLWFSLW9fOFE3MGZjMjFGZWl5V3VsQ1BMS3FZckx2VmZDMW9VdWZFUDd1d2R4ODJkLWwzQUFQYmp3d0Y5ZUFXV1E?oc=5
+
+Etihad Airways unveils next evolution of passenger experience and new A330neo cabins    Future Travel Experience

@@ -1,0 +1,5 @@
+# FILE PHOTO: Illustration shows 3D printed oil pump jacks and Abu Dhabi National Oil Company (ADNOC) logo
+source: lufkindailynews.com
+url: https://news.google.com/rss/articles/CBMilwJBVV95cUxNYXVrRWdDUnYtRDdOWXpXU1B5djJlZUlvRHQ1bUl4U1hENG5RQnlyMG9RY1MzQUs1RzZCcjQzZ1FJcEd2dnJPSnVoYmFoRU5URjRnWElNdlZjM1NZUGpza1NxLTBOZ3ozOXQ5TW9ETHNTNnpPR1FzT3VPcXp4MXBSTEVKenpYWUYtSEpIRHMxMlBOWlpnWU9rV1lzTnVXOTR1empFcTh0eHJlQmtRQ2JhdDV5VWl0VXQ5VEc3MldXZ2pUTC1NanlWT05qQXJvcG9idlFBRVU0NWpEWFVpUzNNNDB2M2pMZVNNdHNLbFZ4alBkeXo5VVZacERleFlDUmRHSXBmOTNjRWpfS05Bb1NOSUtSdmxFWkU?oc=5
+
+FILE PHOTO: Illustration shows 3D printed oil pump jacks and Abu Dhabi National Oil Company (ADNOC) logo    lufkindailynews.com

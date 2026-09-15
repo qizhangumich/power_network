@@ -1,0 +1,5 @@
+# ZAWYA: Masdar signs strategic deals to boost Germany, Europe clean energy portfolio
+source: tradingview.com
+url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxOaGs4eURxZ2Y2T0ZBU2F1QU5jakk3WGpKY0k0cERoX2dKX0NBdlc1R1hoX1RmcTlLd1JfbXI4dTEzUUw2VmN4OUFJM1hSeHVaYUZCa3FCajdiTWJHS21OeHpTaVhLS3Y5dWloVUJiMTJyeW50UGR2b05MTFFTZVV3MDUydXRBQTRJRTRobVNfQ2lVR3N5RTd1MXFLRnh4V1N0U1BQbGx6dHFzd0dOUTc0Q3pxeTFEaXVHd29RaTc5ZkQyM0MzWUg5T0NmQWdUQ1B6Wi11YnRvT3pHWnlhRl9EcUVFMFZlM0swYl9TQ2ZB?oc=5
+
+ZAWYA: Masdar signs strategic deals to boost Germany, Europe clean energy portfolio    tradingview.com

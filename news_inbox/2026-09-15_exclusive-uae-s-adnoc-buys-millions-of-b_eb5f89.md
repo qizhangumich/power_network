@@ -1,0 +1,5 @@
+# Exclusive-UAE's ADNOC buys millions of barrels of Iraqi crude, sources say
+source: lufkindailynews.com
+url: https://news.google.com/rss/articles/CBMiggJBVV95cUxPR21zZk40TDBzLXZPSThZNjNPeTRkRm1PbFRoSmVyMTZ1VHRveE01VVRUaDlUdG12QVhiOEVkeS1JVVg2cWdMV0VTcjhpVlFrVE9pbXZmYjVxOWwtZXY3NFpoNVJXMFdyYXNyQnRYX3NoOEdBd0NvZ0Rza2RyczlXT3lyeDR2NkZXNVkyYXRZNFBwT19HWXhZdU1DdGVQNU1XZ3hMWWlBR2g2UkluYzkyVXVvU1BRLWhoaFFFUDNwVF9tbTc5RzlHcHJKSkJnWFFYVFVHOFF6UzQzamxFb0paRklfY1IzYldzY0NfaWhqUG5md29PdnVheVpuQlZuVlBTUVE?oc=5
+
+Exclusive-UAE's ADNOC buys millions of barrels of Iraqi crude, sources say    lufkindailynews.com

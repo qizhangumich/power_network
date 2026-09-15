@@ -1,0 +1,5 @@
+# In the presence of Azerbaijan President and Tahnoon bin Zayed, L’IMAD and Azerbaijan Investment Holding partner to pursue strategic investments across Azerbaijan
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMirAJBVV95cUxQeGd5ejhST0ctSUxUZGE3V3ZYal9qVl8tZ05PQURjN0RFbXpsSFI5a1BZLVRfTEdXWUZrT2tWb2lDWlRKcG1pR2tWM19NeEctaDlwamVjNWVPREM2TEE3TE5BTGpFeDZYUExkWnJULWRrc3JFelhwei1NdC1OZDk3T2F3NnA5N1ZHbDl0OFRYT0YwTkxKLWVucTFtaEIyV0QtYzdMZm5yWVJNOExPY2gwNHplRTRfT083SDk1Wk1PZ2xhbTlRRFk5cXpTbDVlTG9KbGpuTDAzNWNNNW1ZNzhIX0M1YUk3UmNMQ0duRTJ1MWNiekVLaTJJQ2Y5RlUzM2dhM2dMb1ZLSjB5czNmMG9yS3B1RWQyaGM0SGtqTEF6dWpWWC1CbUE3NXZHek0?oc=5
+
+In the presence of Azerbaijan President and Tahnoon bin Zayed, L’IMAD and Azerbaijan Investment Holding partner to pursue strategic investments across Azerbaijan    مكتب أبوظبي الإعلامي

@@ -1,0 +1,5 @@
+# Etihad Airways Reveals New Airbus A330neo Cabins for 2027
+source: IndianEagle
+url: https://news.google.com/rss/articles/CBMilgFBVV95cUxOUk5wQ3NmZFlZS3doREdDRkstMEJ0eUdEYVJ5M1o1REl1VXloYTFzQmdGQmNSSjRuLUJEdDJROEtQOFF6Nk5MMUxUSndpanh5ck1BVUxUOER5d1FQWE1BV0hiTjBnUy1aek9NbTJ6Y2xfbkZ3bjBBWUw1cTZYb3cyQVBTcldKZmt2cmxyTXljRUZCRE5RekE?oc=5
+
+Etihad Airways Reveals New Airbus A330neo Cabins for 2027    IndianEagle

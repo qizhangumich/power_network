@@ -1,0 +1,5 @@
+# Crown Prince of Abu Dhabi meets Russian President on sidelines of BRICS Summit in New Delhi
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxQd1BJUC1aRC0xajhFSzRydzB2TGNaY3dEWFk0b1FEdTJUaFdGeXJ0elFSN05YNjdhaEoyOXR0NS1yQTNVR2tVemFzTWpESktlSDFUZUloR1FfZ2lWcHVOdjRQNmZGUHVtcHViaHV4Nkc1UUZhWmVsb3R1NWVUMHI0U2NSUEc2SHFjZi1mTWdJWFdsR2NabmR6Z1d0cjNzTmk4Y3E5Uy1kQXduSGZkMHFCTDJlMmdvVVJWNmg0MjZfT0xHaE9razVEbGxFVldwZERCbk1KOVpSSjRWS1IxQWJF?oc=5
+
+Crown Prince of Abu Dhabi meets Russian President on sidelines of BRICS Summit in New Delhi    مكتب أبوظبي الإعلامي

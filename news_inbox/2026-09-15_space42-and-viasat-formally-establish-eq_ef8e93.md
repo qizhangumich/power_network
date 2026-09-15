@@ -1,0 +1,5 @@
+# Space42 and Viasat Formally Establish Equatys with $1B Equity Commitment for 2,800-Satellite LEO Constellation
+source: satnews.com
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxQc1NYRVZ6ekFzaEFoNzdJMmNoUkNuQTFwMjlnOTl0eTVZeFlzX2h6bENvc3ZYVllsUk9nbW52NUoyeUlfVFh6engtdTNqMGM5cjFLWEJuWmVTOWttZllFOEwzZThLa1F5V2VvRkxKRmlkTEcxdF8xMm8tNHY2UVUyX1R1YkpnVlNOS19PX0RaWmhJcjJPNWwyX3lDdXdJVVZDQ2d2d2lBeV9vSUFhQ3Q2MnhGU2dzb2ZUbEtxR0VqRXd2RmIzVmM4U2hKdGgybHo2emp5bVYxMA?oc=5
+
+Space42 and Viasat Formally Establish Equatys with $1B Equity Commitment for 2,800-Satellite LEO Constellation    satnews.com

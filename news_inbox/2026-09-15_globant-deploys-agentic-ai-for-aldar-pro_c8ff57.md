@@ -1,0 +1,5 @@
+# Globant Deploys Agentic AI for Aldar Properties on Salesforce Agentforce
+source: IndexBox
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxQMjdzZHg1YzY0OEZmOXN4VVM4ZnFzemRqcmc1cXRXOFIyRGVrMEVTdzRQMEVKN2F0S252Vm1jOHZlVDRIbmtFcWRxUHdVWUdROEQ0ZXVldlVmU05RM3BpR1lUWFJjSm8xbXJneFFJZUp1c1pnR3QwcmFYZnRWdDcxZWJiNHpuSWwwR0xpdGNRdFA5TDFXajRXSlM3NWpKYUxJVndhNA?oc=5
+
+Globant Deploys Agentic AI for Aldar Properties on Salesforce Agentforce    IndexBox

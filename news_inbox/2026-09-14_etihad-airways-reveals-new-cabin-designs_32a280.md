@@ -1,0 +1,5 @@
+# Etihad Airways Reveals New Cabin Designs for A330neo and A321LR Fleets
+source: AeroXplorer
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNW9LZkJpRmZKTFJMdFo4Y3dxS3FaSEhGbnUtSnNSTTJJSWhIbnZONjFXYU9Ybjh1QTlfR3FISFpVTHlQeFNGSjZGTVBqbFU5V2VHVTV3UUV4SDlFYnA2bkR3MU9KanJjc2tjMUpRVEEzR0UwV1hJOEpQaHZ3ZTFMUjlZY25NLWwxcUdLNlVJcS1OMWJ2RDVuRktOYVdldWpSMmtsVkJTajl3dWc?oc=5
+
+Etihad Airways Reveals New Cabin Designs for A330neo and A321LR Fleets    AeroXplorer
