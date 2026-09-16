@@ -154,7 +154,7 @@ const PEOPLE = [
   {id:"salman_isa_bic", n:"Sheikh Salman bin Isa Al Khalifa", t:2, p:62, s:"consumer_disc", roles:[
     ["bic","CEO","executive","v"]]},
   {id:"fawzi_kanoo", n:"Fawzi Ahmed Kanoo", t:2, p:60, s:"conglomerate", roles:[
-    ["kanoo","Chairman","board","ns"]]},
+    ["kanoo","Chairman","board","v"]]},
   {id:"kvalseth", n:"Andrew Kvålseth", t:2, p:68, s:"comm", roles:[
     ["beyon","Chief Executive Officer","executive","v"]]},
   {id:"gauss_gulfair", n:"Martin Gauss", t:2, p:66, s:"industry", roles:[

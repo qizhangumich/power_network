@@ -205,7 +205,10 @@ const PEOPLE = [
   {id:"mamari_oq", n:"Ashraf Hamed Al Mamari", t:2, p:66, s:"energy", roles:[
     ["oq","Group Chief Executive Officer","executive","v"]]},
   {id:"alkindi_asyad", n:"Dr. Ahmed Al Bulushi", t:2, p:58, s:"industry", roles:[
-    ["asyad","Group CEO (acting)","executive","ns"]]},
+    ["asyad","Group CEO (acting)","executive","v","former:until Sep 2026"]],
+    note:"ASYAD Group's own executive-team page (asyad.om/who-we-are/executive-team) names Abdulrahman Salim Al Hatmi as Group CEO (non-acting, in the role continuously since 2016); no official source found confirming this person ever held an acting Group CEO role. Marked former pending a corrected source for this person's actual ASYAD role."},
+  {id:"alhatmi_asyad", n:"Abdulrahman Salim Al Hatmi", t:2, p:60, s:"industry", roles:[
+    ["asyad","Group CEO","executive","v"]]},
   {id:"suhail_bahwan", n:"Suhail Bahwan", t:2, p:70, s:"conglomerate", roles:[
     ["bahwan","Founder & Chairman (–Nov 2025)","board","v","former:until Nov 2025"]],
     note:"Sheikh Suhail Salim Bahwan died on 23 November 2025, aged 86 (Times of Oman / Muscat Daily). Vice Chairperson Amal Suhail Bahwan remains on the group board; the group's site had not named a new chairman as of Sep 2026."},

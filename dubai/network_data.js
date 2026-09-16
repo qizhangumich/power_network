@@ -223,13 +223,15 @@ const PEOPLE = [
     ["rta","Chairman & Director-General","government","v"]]},
   {id:"essa_kazim", n:"Essa Kazim", t:1, p:82, s:"finance", roles:[
     ["difc","Governor","executive","v"],
-    ["dfm","Chairman","board","ns"],
-    ["dpworld","Chairman","board","v"]]},
+    ["dfm","Chairman (–Nov 2021)","board","v","former:until Nov 2021"],
+    ["dpworld","Chairman","board","v"]],
+    note:"Chaired DFM 2007–Nov 2021; succeeded as DFM chairman by Helal Saeed Al Marri (Dubai Media Office, 3 Nov 2021). Appointed Chairman of DP World in Feb 2026."},
   {id:"helal_marri", n:"Helal Saeed Almarri", t:1, p:78, s:"gov", roles:[
     ["lst_taaleem","Board Member","board","v"],
     ["execco","Member (Director General of Department of Economy and Tourism)","board","v"],
     ["icd","Board Member","board","v"],
-    ["det","Director-General","government","v"]]},
+    ["det","Director-General","government","v"],
+    ["dfm","Chairman","board","v"]]},
   {id:"reem_hashimy", n:"Reem Al Hashimy", t:1, p:82, s:"gov", roles:[
     ["icd","Board Member","board","v"],
     ["dxbgov","UAE Minister of State for International Cooperation","political","v"],
@@ -255,7 +257,7 @@ const PEOPLE = [
   {id:"khalaf_habtoor", n:"Khalaf Al Habtoor", t:2, p:76, s:"conglomerate", roles:[
     ["alhabtoor","Founder & Chairman","board","v"]]},
   {id:"amit_kaushal", n:"Amit Kaushal", t:2, p:72, s:"sovereign", roles:[
-    ["dubaiholding","Group CEO","executive","ns"]]},
+    ["dubaiholding","Group CEO","executive","v"]]},
   {id:"ismail_maf", n:"Ahmed Galal Ismail", t:2, p:74, s:"conglomerate", roles:[
     ["maf","Group CEO","executive","v"]]},
   {id:"alali_maf_chair", n:"Fadel Abdulbaqi Al Ali", t:2, p:72, s:"conglomerate", roles:[
@@ -348,7 +350,7 @@ const PEOPLE = [
   {id:"miguel_rio_tinto", n:"Miguel Rio-Tinto", t:2, p:58, s:"finance", roles:[
     ["enbd","Group Chief Digital & Information Officer","executive","v"]]},
   {id:"jamal_majed_bin", n:"Jamal Majed Bin Thaniah", t:2, p:62, s:"realestate", roles:[
-    ["emaar","Chairman","board","ns"]]},
+    ["emaar","Chairman","board","v"]]},
   {id:"ahmed_jamal_jawa", n:"Ahmed Jamal Jawa", t:2, p:62, s:"realestate", roles:[
     ["emaar","Vice Chairman","board","ns"]]},
   {id:"abdullah_ali_bin", n:"Abdullah Ali bin Zayed Al-Falasi", t:2, p:52, s:"realestate", roles:[
