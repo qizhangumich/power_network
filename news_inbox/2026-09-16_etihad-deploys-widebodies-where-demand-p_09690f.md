@@ -1,0 +1,5 @@
+# Etihad deploys widebodies where demand peaks
+source: insideflyer.com
+url: https://news.google.com/rss/articles/CBMihgFBVV95cUxPU2JfQXNkNDZZWG9BUm5uWGlNaEVvUFV3X2c3TFpqR3FHS2tnVkpnNU9ZS1FsdGx6N21rMl9YNDhhLXBJWndJWDVBLWhCcWdramlTZ21jcFRueVRUXzJodms0dWZMRUtibnFHUFdvTzlaRnRjQ216TmxkOHFpekF1bUJQcFJyZw?oc=5
+
+Etihad deploys widebodies where demand peaks    insideflyer.com

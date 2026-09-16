@@ -1,0 +1,5 @@
+# Abu Dhabi’s sovereing fund L’imad to raise stake in AD Ports Group to over 98.5%
+source: Khaleej Times
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNUzhWb0oxa2d1bjMzOHRWU3k1QVpOZmJpTFlURWI1OHh0cXE0MnpQQ3E4SVlsVXY1YXkxNTl1TmlOWHItLTRXV215Q194OGtYR1FHcjJIaGFuSUFIZ1JMMkFiWTFaMzdxcjdTcE5CeDNkSkJkYVV1Rlk1SExfVV9oNTI0cWtSQkRzRDdYQUp5SHlfTVpzcXdUbEZseHdpSHBNVGNNUldaSXpCbTQxN1Jlb3ZOTU3SAbwBQVVfeXFMTXMwSXlOYVBwMzVlWmpFQzQ0TElJSXJMamJIdHE0dmtpXzVIVmNYT2dUUWsycG1SSFNsdERTaXF4Q1RfUWp4VjVtZEVyY0RjOXllTE5BS2p6QXhkQ09jME9pQ0g0R29qcFNrSjZ1Z0dTYXVKTHZJbFhfVHBFOExVN0R6aC1UdU5QT3Uzdkd4c3hmakkwcldvLXZiYmRodndWTnQ1VDFDQU0yS0ZacFhwYXZ6X3pobG8tbFlzbE8?oc=5
+
+Abu Dhabi’s sovereing fund L’imad to raise stake in AD Ports Group to over 98.5%    Khaleej Times

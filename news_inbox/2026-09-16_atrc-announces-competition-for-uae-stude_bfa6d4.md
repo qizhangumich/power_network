@@ -1,0 +1,5 @@
+# ATRC announces competition for UAE students to solve industry technology challenges
+source: Gulf Business
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPZHk2em84MllzX0NfSzJCenhGMGRkU081clVZc2NCWHpXZmVONzRHbkUySEhYNUp1Zy04VnRZNHZFMW1jUURQTXdPUEh3UjVOaVBkSU00MjBrUW54QWJPV2ZRMXBSRm5CVTB5NDV0NVV3dUpWZXppRTFjdzUzY0I1UGlHcXJLMVloUm5JUlljRTdwZTE3a2k0bGxnczF6TElPdndLeTNXcURLcTFXX2tlSlFDa1ZNcFBMZXhOaE9zSQ?oc=5
+
+ATRC announces competition for UAE students to solve industry technology challenges    Gulf Business
