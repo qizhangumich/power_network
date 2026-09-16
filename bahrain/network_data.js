@@ -61,7 +61,7 @@ const INSTITUTIONS = [
   {id:"lst_ghg", n:"Gulf Hotels Group B.S.C.", s:"consumer_disc", t:2, p:50, short:"GHG"},
   {id:"lst_apmtb", n:"APM Terminals Bahrain B.S.C.", s:"industry", t:2, p:50, short:"APMTB"},
   {id:"lst_khaleeji", n:"Khaleeji Bank B.S.C.", s:"finance", t:2, p:50, short:"Khaleeji Bank B.S.C."},
-  {id:"lst_bisb", n:"Bahrain Islamic Bank B.S.C.", s:"finance", t:2, p:50, short:"BISB"},
+  {id:"lst_bisb", n:"Bahrain Islamic Bank B.S.C.", s:"finance", t:2, p:60, short:"BISB"},
   {id:"lst_arig", n:"Arab Insurance Group B.S.C.", s:"finance", t:2, p:50, short:"ARIG"},
   {id:"lst_solid", n:"Solidarity Bahrain B.S.C.", s:"finance", t:2, p:50, short:"SOLID"},
   {id:"lst_bkic", n:"Bahrain Kuwait Insurance Company B.S.C.", s:"finance", t:2, p:50, short:"BKIC"},
@@ -128,11 +128,13 @@ const PEOPLE = [
     ["cabinet_bh","Prime Minister","political","v"]],
     note:"Runs the government and the economic reform program; the operational center of the state."},
   {id:"nasser_bh", n:"Sheikh Nasser bin Hamad Al Khalifa", t:0, p:78, s:"energy", roles:[
+    ["bapco_gas","Chairman of the Board (Bapco Energies)","board","v"],
     ["bhgov","National Security Adviser (royal portfolios)","political","ns"],
     ["bapco","Chairman","board","v"]]},
   {id:"khalid_bh", n:"Sheikh Khalid bin Hamad Al Khalifa", t:0, p:70, s:"consumer_disc", roles:[
     ["bhgov","First Deputy President, Supreme Council for Youth & Sports","government","ns"]]},
   {id:"salman_khalifa_fin", n:"Sheikh Salman bin Khalifa Al Khalifa", t:1, p:82, s:"finance", roles:[
+    ["bapco_gas","Board Member (Bapco Energies)","board","v"],
     ["bapco_refining","Deputy Chairman","board","v"],
     ["mofin_bh","Minister of Finance & National Economy","political","v"],
     ["mumtalakat","Chairman","board","v"]]},
@@ -179,6 +181,7 @@ const PEOPLE = [
   {id:"abdullah_mtt", n:"H.E. Dr. Shaikh Abdullah bin Ahmed Al Khalifa", t:1, p:70, s:"gov", roles:[
     ["mtt_bh","Minister of Transportation & Telecommunications","political","v"]]},
   {id:"daina_oil", n:"H.E. Dr. Mohamed bin Mubarak bin Daina", t:1, p:74, s:"energy", roles:[
+    ["bapco_gas","Board Member (Bapco Energies)","board","v"],
     ["bapco_refining","Board Member","board","v"],
     ["gpic","Chairman of the Board","board","v"],
     ["moo_bh","Minister of Oil & Environment","political","v"]],
@@ -231,6 +234,7 @@ const PEOPLE = [
   {id:"ali_murad", n:"Ali Murad", t:2, p:52, s:"finance", roles:[
     ["gfh","Board Member","board","v"]]},
   {id:"abdulla_jehad_alzain", n:"Abdulla Jehad AlZain", t:2, p:52, s:"finance", roles:[
+    ["bapco_gas","Board Member (Bapco Energies)","board","v"],
     ["bapco_refining","Chairman","board","v"],
     ["gfh","Board Member","board","v"]]},
   {id:"darwish_abdulla_alketbi", n:"Darwish Abdulla AlKetbi", t:2, p:52, s:"finance", roles:[
@@ -256,6 +260,7 @@ const PEOPLE = [
   {id:"khaled_al_rowais", n:"Khaled Al Rowais", t:2, p:52, s:"materials", roles:[
     ["alba","Board Member","board","v"]]},
   {id:"rasha_sabkar", n:"Rasha Sabkar", t:2, p:52, s:"materials", roles:[
+    ["edamah","Board Member (Chair - Audit and Risk Committee)","board","v"],
     ["alba","Board Member","board","v"]]},
   {id:"hala_abdul_hameed", n:"Hala Abdul Hameed Mufeez", t:2, p:52, s:"materials", roles:[
     ["alba","Board Member","board","v"]]},
@@ -274,6 +279,7 @@ const PEOPLE = [
   {id:"yusef_al_yusef", n:"Yusef Al-Yusef", t:2, p:58, s:"finance", roles:[
     ["investcorp","Leader - Global Distribution Platform","executive","v"]]},
   {id:"shaikh_abdulla_bin", n:"Shaikh Abdulla bin Khalifa Al Khalifa", t:2, p:62, s:"comm", roles:[
+    ["edamah","Chairman","board","v"],
     ["beyon","Chairman","board","v"],
     ["mumtalakat","Chief Executive Officer","executive","v"]]},
   {id:"shaikh_ali_bin", n:"Shaikh Ali bin Khalifa Al Khalifa", t:2, p:62, s:"comm", roles:[
@@ -335,6 +341,7 @@ const PEOPLE = [
   {id:"noor_sharafi", n:"Noor Sharafi", t:2, p:58, s:"sovereign", roles:[
     ["mumtalakat","General Counsel","executive","v"]]},
   {id:"shaikh_fahad_bin", n:"Shaikh Fahad bin Abdulrahman Al Khalifa", t:2, p:52, s:"industry", roles:[
+    ["edamah","Board Member","board","v"],
     ["gulfair","Board Member","board","v"]]},
   {id:"sara_ahmed_buhiji", n:"Sara Ahmed Buhiji", t:2, p:52, s:"industry", roles:[
     ["gulfair","Board Member","board","v"]]},
@@ -435,6 +442,7 @@ const PEOPLE = [
   {id:"mohamed_bin_mubarak", n:"Mohamed bin Mubarak Bin Daina", t:2, p:52, s:"energy", roles:[
     ["bapco","Board Member","board","v"]]},
   {id:"khalid_amro_al", n:"Khalid Amro Al Rumaihi", t:2, p:52, s:"energy", roles:[
+    ["bapco_gas","Board Member (Bapco Energies)","board","v"],
     ["bapco_refining","Board Member","board","v"],
     ["bapco","Board Member","board","v"]]},
   {id:"faisal_mohamed_al", n:"Faisal Mohamed Al Mahroos", t:2, p:52, s:"energy", roles:[
@@ -445,6 +453,7 @@ const PEOPLE = [
     ["bapco_refining","Board Member","board","v"],
     ["bapco","Board Member","board","v"]]},
   {id:"mark_thomas", n:"Mark Thomas", t:2, p:60, s:"energy", roles:[
+    ["bapco_gas","Group Chief Executive Officer (Bapco Energies)","executive","v"],
     ["bapco_upstream","Board Member","board","v"],
     ["bapco_refining","Group Chief Executive Officer","executive","v"],
     ["bapco","Board Member and Chief Executive Officer","executive","v"]]},
@@ -452,9 +461,11 @@ const PEOPLE = [
     ["bapco_refining","Board Member","board","v"],
     ["bapco","Board Member","board","v"]]},
   {id:"hadyah_mohammed_fathalla", n:"Hadyah Mohammed Fathalla", t:2, p:52, s:"energy", roles:[
+    ["bapco_gas","Board Member (Bapco Energies)","board","v"],
     ["bapco_refining","Board Member","board","v"],
     ["bapco","Board Member","board","v"]]},
   {id:"abdul_hussain_bin", n:"Abdul-Hussain Bin Ali Mirza", t:2, p:52, s:"energy", roles:[
+    ["bapco_gas","Board Member (Bapco Energies)","board","v"],
     ["bapco_refining","Advisor to the Board","board","v"],
     ["bapco","Advisor to the Board","board","v"]]},
   {id:"naji_belgasem", n:"Naji Belgasem", t:2, p:62, s:"finance", roles:[
@@ -1537,6 +1548,7 @@ const PEOPLE = [
   {id:"fahad_kanoo", n:"Fahad Kanoo", t:2, p:52, s:"consumer_disc", roles:[
     ["lst_ghg","Director","board","v"]]},
   {id:"andrew_john_day", n:"Andrew John Day", t:2, p:52, s:"consumer_disc", roles:[
+    ["edamah","Board Member (Non-Executive Director)","board","v"],
     ["lst_ghg","Director","board","v"]]},
   {id:"husain_al_shehab", n:"Husain Al Shehab", t:2, p:52, s:"consumer_disc", roles:[
     ["lst_ghg","Director","board","v"]]},
@@ -2480,6 +2492,7 @@ const PEOPLE = [
   {id:"ismaeel_husain", n:"Ismaeel Husain", t:2, p:58, s:"energy", roles:[
     ["bapco_refining","Group Vice President - Health, Safety, Security & Environment (HSSE)","executive","v"]]},
   {id:"ali_a_karim", n:"Ali A. Karim", t:2, p:58, s:"energy", roles:[
+    ["bapco_gas","Senior Vice President - Utilities and Offsites","executive","v"],
     ["bapco_refining","Senior Vice President Utilities and Offsites and BMP Startup Manager","executive","v"]]},
   {id:"firdaus_panthaki", n:"Firdaus Panthaki", t:2, p:46, s:"energy", roles:[
     ["bapco_refining","General Manager Marketing, Sales & Supply","executive","v"]]},
@@ -2493,6 +2506,28 @@ const PEOPLE = [
     ["bapco_upstream","Chief Executive Officer","executive","v"]]},
   {id:"gabriel_selischi", n:"Gabriel Selischi", t:2, p:46, s:"energy", roles:[
     ["bapco_upstream","Deputy CE - Technical, EVP Upstream Operations","executive","v"]]},
+  {id:"yousif_abdullah_al_b", n:"Yousif Abdullah Al Humood", t:2, p:58, s:"gov", roles:[
+    ["mofin_bh","Undersecretary for Financial Affairs","executive","v"]]},
+  {id:"maryam_adnan_al", n:"Maryam Adnan Al Ansari", t:2, p:58, s:"gov", roles:[
+    ["mofin_bh","Undersecretary for National Economy","executive","v"]]},
+  {id:"fayez_ramzy_fayez", n:"Fayez Ramzy Fayez", t:2, p:58, s:"consumer_disc", roles:[
+    ["bic","Chief Operating Officer","executive","v"]]},
+  {id:"adnan_hashim", n:"Adnan Hashim", t:2, p:58, s:"consumer_disc", roles:[
+    ["bic","Chief Financial Officer","executive","v"]]},
+  {id:"arif_rahimi", n:"Arif Rahimi", t:2, p:62, s:"consumer_disc", roles:[
+    ["bic","Chairman","board","v"]]},
+  {id:"hisham_ahmad_alrayes", n:"Hisham Ahmad Alrayes", t:2, p:52, s:"realestate", roles:[
+    ["edamah","Board Member","board","v"]]},
+  {id:"talal_shafeeq_al", n:"Talal Shafeeq Al Theyabi", t:2, p:52, s:"realestate", roles:[
+    ["edamah","Board Member","board","v"]]},
+  {id:"maher_abdulaziz_alshaer", n:"Maher Abdulaziz Alshaer", t:2, p:52, s:"realestate", roles:[
+    ["edamah","Board Member","board","v"]]},
+  {id:"nasser_hasan_al", n:"Nasser Hasan Al Jalahma", t:2, p:52, s:"realestate", roles:[
+    ["edamah","Board Member","board","v"]]},
+  {id:"manal_albayat", n:"Manal AlBayat", t:2, p:58, s:"realestate", roles:[
+    ["edamah","Chief Operating Officer","executive","ns"]]},
+  {id:"azzan_al_ghamdi", n:"Azzan Al Ghamdi", t:2, p:46, s:"energy", roles:[
+    ["bapco_gas","General Manager - Bapco Gas","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2522,6 +2557,7 @@ const OWNERSHIP = [
   ["lst_apmtb","bhb","listed on Bahrain Bourse","ns"],
   ["lst_khaleeji","bhb","listed on Bahrain Bourse","ns"],
   ["lst_bisb","bhb","listed on Bahrain Bourse","ns"],
+  ["lst_bisb","nbb","majority shareholder","ns"],
   ["lst_arig","bhb","listed on Bahrain Bourse","ns"],
   ["lst_solid","bhb","listed on Bahrain Bourse","ns"],
   ["lst_bkic","bhb","listed on Bahrain Bourse","ns"],

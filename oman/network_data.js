@@ -307,6 +307,7 @@ const PEOPLE = [
   {id:"said_ahmed_safrar", n:"Said Ahmed Safrar", t:2, p:52, s:"finance", roles:[
     ["sohar_bank","Director","board","v"]]},
   {id:"sheikh_aimen_ahmed", n:"Sheikh Aimen Ahmed Al Hosni", t:2, p:52, s:"finance", roles:[
+    ["oman_airports","Chief Executive Officer","executive","v"],
     ["sohar_bank","Director","board","v"]]},
   {id:"ghusen_hilal_al", n:"Ghusen Hilal Al Abri", t:2, p:52, s:"finance", roles:[
     ["sohar_bank","Director","board","v"]]},
@@ -778,6 +779,36 @@ const PEOPLE = [
     ["mdo","Head of Business Development","executive","v"]]},
   {id:"sam_mousavinasab", n:"Sam Mousavinasab", t:2, p:58, s:"materials", roles:[
     ["mdo","Director, Growth and Partnership","executive","v"]]},
+  {id:"abdullah_bin_salem", n:"Abdullah bin Salem Al Harthy", t:2, p:58, s:"gov", roles:[
+    ["mof_om","Undersecretary of the Ministry of Finance","executive","v"]]},
+  {id:"amal_suhail_bahwan_b", n:"Amal Suhail Bahwan Al Mukhaini", t:2, p:62, s:"conglomerate", roles:[
+    ["bahwan","Vice Chairperson","board","v"]]},
+  {id:"ahmed_suhail_bahwan", n:"Ahmed Suhail Bahwan", t:2, p:52, s:"conglomerate", roles:[
+    ["bahwan","Board Member","board","ns"]]},
+  {id:"omar_suhail_bahwan", n:"Omar Suhail Bahwan", t:2, p:52, s:"conglomerate", roles:[
+    ["bahwan","Board Member","board","ns"]]},
+  {id:"othman_suhail_bahwan", n:"Othman Suhail Bahwan", t:2, p:52, s:"conglomerate", roles:[
+    ["bahwan","Board Member","board","ns"]]},
+  {id:"saad_suhail_bahwan", n:"Saad Suhail Bahwan", t:2, p:58, s:"conglomerate", roles:[
+    ["bahwan","Senior Management","executive","ns"]]},
+  {id:"hind_suhail_bahwan", n:"Hind Suhail Bahwan", t:2, p:52, s:"conglomerate", roles:[
+    ["bahwan","Director","board","ns"]]},
+  {id:"mohammed_saud_bahwan", n:"Mohammed Saud Bahwan", t:2, p:62, s:"consumer_disc", roles:[
+    ["saud_bahwan","Chairman","board","v"]]},
+  {id:"saud_salim_bahwan", n:"Saud Salim Bahwan", t:2, p:62, s:"consumer_disc", roles:[
+    ["saud_bahwan","Founder Chairman","board","v"]]},
+  {id:"abdullah_mohamed_bahwan", n:"Abdullah Mohamed Bahwan", t:2, p:60, s:"consumer_disc", roles:[
+    ["saud_bahwan","Managing Director - Corporate","executive","ns"]]},
+  {id:"vincent_machado", n:"Vincent Machado", t:2, p:60, s:"consumer_disc", roles:[
+    ["saud_bahwan","Deputy Managing Director","executive","ns"]]},
+  {id:"saeed_bin_hamoud", n:"Saeed bin Hamoud Al-Mawali", t:2, p:62, s:"industry", roles:[
+    ["oman_airports","Chairman of the Board of Directors","board","v"]]},
+  {id:"moaman_mohammed_al", n:"Moaman Mohammed Al Busaidi", t:2, p:52, s:"industry", roles:[
+    ["oman_airports","Board Member","board","v"]]},
+  {id:"saud_nasser_al", n:"Saud Nasser Al-Hubaishi", t:2, p:58, s:"industry", roles:[
+    ["oman_airports","Senior Vice President","executive","v"]]},
+  {id:"abdullah_bin_saleh", n:"Abdullah bin Saleh Al Yafei", t:2, p:58, s:"industry", roles:[
+    ["oman_airports","Vice President Support Services","executive","v"]]},
 ];
 
 const OWNERSHIP = [

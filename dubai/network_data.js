@@ -173,6 +173,7 @@ const INSTITUTIONS = [
   {id:"unifeeder", n:"Unifeeder", s:"industry", t:2, p:58, short:"Unifeeder"},
   {id:"p_o_ferries", n:"P&O Ferries", s:"industry", t:2, p:58, short:"P&O Ferries"},
   {id:"emaar_development", n:"Emaar Development PJSC", s:"realestate", t:2, p:62, short:"Emaar Development"},
+  {id:"empower", n:"Emirates Central Cooling Systems Corporation PJSC", s:"utilities", t:3, p:58, short:"Empower"},
 ];
 
 const PEOPLE = [
@@ -371,6 +372,7 @@ const PEOPLE = [
     ["dib","Vice Chairman","board","v"],
     ["dubaichambers","Vice-Chairman of Dubai Chamber of Commerce","board","v"]]},
   {id:"hamad_mubarak_buamim", n:"Hamad Mubarak Buamim", t:2, p:52, s:"finance", roles:[
+    ["dmcc","Chairman of the Board of Directors","board","v"],
     ["dib","Board Member","board","v"]]},
   {id:"abdulaziz_ahmed_almheiri", n:"Abdulaziz Ahmed Almheiri", t:2, p:52, s:"finance", roles:[
     ["dib","Board Member","board","v"]]},
@@ -501,6 +503,7 @@ const PEOPLE = [
   {id:"john_iossifidis", n:"John Iossifidis", t:2, p:52, s:"finance", roles:[
     ["mashreq","Director (Board of Directors)","board","v"]]},
   {id:"iyad_malas", n:"Iyad Malas", t:2, p:52, s:"finance", roles:[
+    ["alghurair","Group Chief Executive Officer","executive","v"],
     ["mashreq","Director (Board of Directors)","board","v"],
     ["maf","Non-Executive Director","board","v"]]},
   {id:"saleem_alblooshi", n:"Saleem Alblooshi", t:2, p:58, s:"comm", roles:[
@@ -1001,6 +1004,7 @@ const PEOPLE = [
   {id:"saif_ali_abdulla", n:"Saif Ali Abdulla Al Shafar", t:2, p:52, s:"gov", roles:[
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"mohammed_khalaf_ahmed", n:"Mohammed Khalaf Ahmed Al Habtoor", t:2, p:52, s:"gov", roles:[
+    ["alhabtoor","Vice Chairman and CEO","executive","v"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"fardan_ali_fardan", n:"Fardan Ali Fardan Al Fardan", t:2, p:52, s:"gov", roles:[
     ["dubaichambers","Member of the Board","board","v"]]},
@@ -1288,6 +1292,46 @@ const PEOPLE = [
     ["lst_amlak","Chief Financial Officer","executive","v"]]},
   {id:"lama_takieddin", n:"Lama Takieddin", t:2, p:46, s:"finance", roles:[
     ["lst_amlak","Head of Corporate Governance and Company Secretary","executive","v"]]},
+  {id:"khalid_bin_touq", n:"Khalid bin Touq", t:2, p:60, s:"gov", roles:[
+    ["det","CEO of Tourism Activities Sector and Classifications","executive","ns"]]},
+  {id:"hadi_el_kadi", n:"Hadi El Kadi", t:2, p:58, s:"conglomerate", roles:[
+    ["alhabtoor","Chief Legal Officer","executive","v"]]},
+  {id:"kamal_naamani", n:"Kamal Naamani", t:2, p:60, s:"conglomerate", roles:[
+    ["alhabtoor","Managing Director - Hospitality and Leisure Projects","executive","v"]]},
+  {id:"rahim_abu_omar", n:"Rahim Abu Omar", t:2, p:58, s:"conglomerate", roles:[
+    ["alhabtoor","Chief Operating Officer - Hospitality Division","executive","v"]]},
+  {id:"maan_halabi", n:"Maan Halabi", t:2, p:62, s:"conglomerate", roles:[
+    ["alhabtoor","Managing Director (Chairman - Real Estate Division)","executive","ns"]]},
+  {id:"k_p_rajan", n:"K.P. Rajan", t:2, p:62, s:"conglomerate", roles:[
+    ["alhabtoor","Chairman - Emirates International Schools Divisional Board / Group Financial Advisor","board","ns"]]},
+  {id:"ahmed_khalaf_al", n:"Ahmed Khalaf Al Habtoor", t:2, p:60, s:"conglomerate", roles:[
+    ["alhabtoor","CEO - Al Habtoor Motors","executive","ns"]]},
+  {id:"abdul_rahman_saif", n:"Abdul Rahman Saif Al Ghurair", t:2, p:62, s:"conglomerate", roles:[
+    ["alghurair","Chairman","board","v"]]},
+  {id:"nabeel_waheed", n:"Nabeel Waheed", t:2, p:58, s:"conglomerate", roles:[
+    ["alghurair","Group Chief Financial Officer and Group Chief Operating Officer","executive","v"]]},
+  {id:"turgut_yegenaga", n:"Turgut Yegenaga", t:2, p:60, s:"conglomerate", roles:[
+    ["alghurair","CEO - Al Ghurair Foods","executive","v"]]},
+  {id:"paul_fanning", n:"Paul Fanning", t:2, p:58, s:"conglomerate", roles:[
+    ["alghurair","Head - Al Ghurair Property Management","executive","v"]]},
+  {id:"claudette_marchadesch", n:"Claudette Marchadesch", t:2, p:58, s:"conglomerate", roles:[
+    ["alghurair","Group Chief Human Capital Officer","executive","v"]]},
+  {id:"k_jacob_john", n:"K. Jacob John", t:2, p:60, s:"conglomerate", roles:[
+    ["alghurair","CEO - AG Engineering and Power Contracting (Construction and Manufacturing)","executive","ns"]]},
+  {id:"feryal_ahmadi", n:"Feryal Ahmadi", t:2, p:60, s:"gov", roles:[
+    ["dmcc","Deputy CEO and Chief Operating Officer","executive","v"]]},
+  {id:"jignesh_sanghvi", n:"Jignesh Sanghvi", t:2, p:58, s:"gov", roles:[
+    ["dmcc","Chief Financial Officer","executive","ns"]]},
+  {id:"abdul_wahed_abdul", n:"Abdul Wahed Abdul Rahim Al Olama", t:2, p:62, s:"gov", roles:[
+    ["dmcc","Vice Chairman of the Board of Directors","board","v"]]},
+  {id:"abdullah_saif_al", n:"Abdullah Saif Al Shamsi", t:2, p:52, s:"gov", roles:[
+    ["dmcc","Board Member","board","v"]]},
+  {id:"charles_george_webb", n:"Charles George Webb", t:2, p:52, s:"gov", roles:[
+    ["dmcc","Board Member","board","v"]]},
+  {id:"may_nasrallah_mirvel", n:"May Nasrallah Mirvel", t:2, p:52, s:"gov", roles:[
+    ["dmcc","Board Member","board","v"]]},
+  {id:"thierry_jean_louis", n:"Thierry Jean Louis Gimonnet", t:2, p:52, s:"gov", roles:[
+    ["dmcc","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1409,6 +1453,7 @@ const OWNERSHIP = [
   ["unifeeder","dpworld","wholly-owned subsidiary (acquired 2018)","v"],
   ["p_o_ferries","dpworld","wholly-owned subsidiary (acquired 2019 for $421m)","v"],
   ["emaar_development","emaar","majority-owned subsidiary (DFM-listed BTS development arm)","v"],
+  ["empower","dewa","subsidiary","v"],
 ];
 
 const FAMILY = [

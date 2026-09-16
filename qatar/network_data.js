@@ -188,6 +188,8 @@ const INSTITUTIONS = [
   {id:"moj_qatar", n:"Ministry of Justice", s:"gov", t:1, p:66, short:"MoJ Qatar"},
   {id:"ncsa_qatar", n:"National Cyber Security Agency", s:"tech", t:2, p:60, short:"NCSA Qatar"},
   {id:"grsia_daman", n:"General Retirement and Social Insurance Authority", s:"sovereign", t:1, p:64, short:"GRSIA (Daman)"},
+  {id:"gen_tax_authority", n:"General Tax Authority", s:"gov", t:2, p:65, short:"Gen Tax Authority"},
+  {id:"alrayan_investment", n:"AlRayan Investment LLC", s:"finance", t:3, p:58, short:"AlRayan Investment"},
 ];
 
 const PEOPLE = [
@@ -1329,6 +1331,7 @@ const OWNERSHIP = [
   ["moc_qatar","cabinet","government ministry","ns"],
   ["moj_qatar","cabinet","government ministry","ns"],
   ["grsia_daman","mofin","legal entity with direct budget under the Ministry of Finance","ns"],
+  ["alrayan_investment","masraf","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -1392,4 +1395,6 @@ const AKA = {
   moj_qatar:["MOJ"],
   ncsa_qatar:["NCSA"],
   grsia_daman:["GRSIA","Daman"],
+  gen_tax_authority:["GTA"],
+  alrayan_investment:["ARI"],
 };

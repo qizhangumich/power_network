@@ -437,6 +437,7 @@ const INSTITUTIONS = [
   {id:"center3", n:"Center3", s:"tech", t:2, p:58, short:"Center3"},
   {id:"idj", n:"International Dairy & Juice Limited", s:"consumer_stap", t:2, p:56, short:"IDJ"},
   {id:"gib_capital", n:"GIB Capital", s:"finance", t:2, p:56, short:"GIB Capital"},
+  {id:"solutions_by_stc", n:"solutions by stc", s:"tech", t:3, p:55, short:"solutions by stc"},
 ];
 
 const PEOPLE = [
@@ -1655,6 +1656,8 @@ const PEOPLE = [
     ["abdul_latif_jameel","CFO & Acting CEO, ALJ Finans","executive","v"]]},
   {id:"abdullah_bin_saleh", n:"Abdullah bin Saleh Al-Othaim", t:2, p:62, s:"consumer_stap", roles:[
     ["al_othaim","Chairman of the Board of Directors","board","v"]]},
+  {id:"abdulaziz_bin_mohammed", n:"Abdulaziz bin Mohammed bin Ayyaf", t:2, p:58, s:"gov", roles:[
+    ["moi_sa","Acting Vice Minister of Interior","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1994,6 +1997,8 @@ const OWNERSHIP = [
   ["center3","stc","wholly-owned subsidiary (data centers & subsea cables)","v"],
   ["idj","almarai","wholly-owned subsidiary (bought out PepsiCo's 48% in 2023)","v"],
   ["gib_capital","gib_ksa","wholly-owned investment banking subsidiary","v"],
+  ["solutions_by_stc","stc","subsidiary","v"],
+  ["lst_2382","pif","major shareholder","v"],
 ];
 
 const FAMILY = [

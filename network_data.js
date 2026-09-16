@@ -2275,6 +2275,27 @@ const PEOPLE = [
   {id:"sameh_abdulla_juma", n:"Sameh Abdulla Juma Karam Al Qubaisi", t:2, p:58, s:"gov", roles:[
     ["added","Director General of Economic Affairs","executive","v"],
     ]},
+  {id:"ahmed_fadhel_almehairbi", n:"Ahmed Fadhel Almehairbi", t:2, p:58, s:"gov", roles:[
+    ["dmt","Director General of Abu Dhabi City Municipality","executive","ns"],
+    ]},
+  {id:"abdulla_mohamed_al", n:"Abdulla Mohamed Al Blooshi", t:2, p:58, s:"gov", roles:[
+    ["dmt","Director General of the Urban Planning & Permits Centre","executive","ns"],
+    ]},
+  {id:"eisa_mubarak_almazrouei", n:"Eisa Mubarak Almazrouei", t:2, p:58, s:"gov", roles:[
+    ["dmt","Director General of Infrastructure Development","executive","ns"],
+    ]},
+  {id:"salem_khalfan_al", n:"Salem Khalfan Al Kaabi", t:2, p:58, s:"gov", roles:[
+    ["dmt","Director General of Operational Affairs","executive","ns"],
+    ]},
+  {id:"rashed_ali_al", n:"Rashed Ali Al Omaira", t:2, p:58, s:"gov", roles:[
+    ["dmt","Director General of the Abu Dhabi Real Estate Centre","executive","ns"],
+    ]},
+  {id:"nasser_saleh_farah", n:"Nasser Saleh Farah", t:2, p:58, s:"gov", roles:[
+    ["dmt","Director General of Financial Affairs","executive","ns"],
+    ]},
+  {id:"akhtar_saeed_hashmi", n:"Akhtar Saeed Hashmi", t:2, p:60, s:"sovereign", roles:[
+    ["royalgroup","Managing Director & Group CEO of Comera Financial Holdings (a Royal Group company)","executive","ns"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -2520,6 +2541,7 @@ const OWNERSHIP = [
   ["aldar_investment_propert","aldar","majority-owned subsidiary (88.10%)","ns"],
   ["aldar_estates","aldar","majority-owned subsidiary (82.55%; IHC/ADNEC Group minority holders)","ns"],
   ["provis","aldar","majority-owned subsidiary (65.10%)","ns"],
+  ["npcc","nmdc","subsidiary","v"],
 ];
 
 const FAMILY = [

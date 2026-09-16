@@ -82,6 +82,7 @@ const INSTITUTIONS = [
   {id:"ajman_chamber", n:"Ajman Chamber of Commerce and Industry", s:"gov", t:2, p:52, short:"Ajman Chamber"},
   {id:"ajman_ded", n:"Ajman Department of Economic Development", s:"gov", t:2, p:60, short:"Ajman DED"},
   {id:"fujairah_chamber", n:"Fujairah Chamber of Commerce and Industry", s:"gov", t:2, p:52, short:"Fujairah Chamber"},
+  {id:"sharjah_islamic_bk", n:"Sharjah Islamic Bank PJSC", s:"finance", t:3, p:57, short:"Sharjah Islamic Bk"},
 ];
 
 const PEOPLE = [
@@ -712,4 +713,5 @@ const AKA = {
   rak_ports:["Saqr Port","Saqr Port Authority"],
   uaq_chamber:["UAQCCI"],
   sharjah_finance:["SFD"],
+  sharjah_islamic_bk:["SIB"],
 };
