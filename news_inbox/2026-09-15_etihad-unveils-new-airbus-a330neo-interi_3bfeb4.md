@@ -1,0 +1,5 @@
+# Etihad unveils new Airbus A330neo interior and enhanced passenger experience
+source: avioradar.net
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0kzS2hhUXNXVG56X3MtbXJKSmJuWEU4cEkyNFF5VnR1WTlNMWpaUFhQZEdmVldZckJhWkhFWVc2em1tVmJZcWJBNmkyVWNoUHprSkVmd0ZrV3Q3WjAxamhJRG1KTDRhU2dWUS1nVTI5OWRwVzM1X1I0TUhlVzBjWFhMZ1RHLVZfR0cyZ044Y0ViODNPY0lDR2Z5MEZBNkNXR2wyRQ?oc=5
+
+Etihad unveils new Airbus A330neo interior and enhanced passenger experience    avioradar.net

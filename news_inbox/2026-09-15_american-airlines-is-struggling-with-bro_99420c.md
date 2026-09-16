@@ -1,0 +1,5 @@
+# American Airlines is Struggling With Broken Business Class Seats On Its Brand New Airbus A321XLR Airplanes
+source: PYOK
+url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMHlYcnpUS2wtUkdoTExDZlVOTGd4ejRDYXdGU01fNHA2Vmo2d1Y5ekRlUGQza1kyS2JZZmE3TTFWR0g3WGtFWHhrUEhLRkFWZmZxSTlVYUx3ZENqX2JhMW1DNFN0dzBJMEJwNjFQWHdrSG53eGVvQnRFc3pKaDF6MWJzd1J5WTBvMnlWTkhIUWhPUDUwTmluNmlDMTJpRlFMdm9SXy15NjNtRFRTQ2xiZ3RPQWhHc1VEMEVtOUtXd0x1MGFUNVBpS3djMGpXQ3pxaHo1Z1d5RDJ4Y2x2Tkk2dmFzeFdiRTF2?oc=5
+
+American Airlines is Struggling With Broken Business Class Seats On Its Brand New Airbus A321XLR Airplanes    PYOK

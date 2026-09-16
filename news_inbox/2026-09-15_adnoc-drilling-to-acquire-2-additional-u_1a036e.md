@@ -1,0 +1,5 @@
+# ADNOC Drilling to acquire 2 additional units as it accelerates expansion
+source: Arab News
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNSmJKWU1vQUxIdTBvRnlDNTVuUlRuWU5kTWJ6VDBGdTRLQmRkbmhzcXM3ZFZtZ3YtaXpNTEVlMXVEUUlaMVNPQVlpQzdGbDI5WWt2WVk3T2NCU3E1SXVyaWczbUY1akJzYjd2bGRjeWJVbmcwOXNhR0xyNllWYVFnZ3lqVDdjSnAxTXM1MmVMZjJSNm5NSEJFRVdsNGNoVVZySXFJOVRtMFJ4Z0xjWUg4LXVKRXk?oc=5
+
+ADNOC Drilling to acquire 2 additional units as it accelerates expansion    Arab News

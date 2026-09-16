@@ -1,0 +1,5 @@
+# Etihad Says Mideast Rivalry Shields Passengers From Higher Fares
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxNNDBxUi1jNnBwVm9uWG1lc0pvMklTeEtPeE13LWxMb2p0NmJZNXNlMWZLOWNocURrZjNSNDBhQ0FLNTNQV21TaGZVT3FvRjNhcFRodWFyaHNUYjZpNThaeFpsaHRRU2tfWlpmZjZzSHBQaTBjdGF0QjBSVTc5ajAwRDVEM1dLVjJTMGo1OVl3STNYdXAwSVNEaWhEMVRWZDV3NTZxWTU2dTlkRi1vNThHcDI1aXZ4dw?oc=5
+
+Etihad Says Mideast Rivalry Shields Passengers From Higher Fares    Bloomberg.com
