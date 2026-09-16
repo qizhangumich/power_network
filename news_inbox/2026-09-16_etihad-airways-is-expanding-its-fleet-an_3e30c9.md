@@ -1,0 +1,5 @@
+# Etihad Airways is expanding its fleet and routes while the rest of Gulf aviation pulls back
+source: enterpriseam.com
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxPY3JJNGR1aDZRS0xucGpRUnVfSWFRYi1wTW5BS19KTmVFSUlEbkJaWHpUNXBnSEU2VlhvZXNXcXFnRTk4V2xfeHNfbUJrWUxtcDhVX2tROWNidGdZeDlycExHbjNadHpuX3pYRnpGSzhNNEltRTZ4VVA2dERocVp3OGRDWTQzN2xZR0QtZFJELW1JamdWZUVXTl90VVl0Zy1Xa1AxbDJFMkNaVTlfZE5GSHRpZEVLSU5Lal9PdzFWU1FlTW90djFMTzlWQWk1bjRCOThOeA?oc=5
+
+Etihad Airways is expanding its fleet and routes while the rest of Gulf aviation pulls back    enterpriseam.com

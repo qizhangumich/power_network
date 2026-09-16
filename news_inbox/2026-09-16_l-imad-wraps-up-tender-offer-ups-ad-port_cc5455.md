@@ -1,0 +1,5 @@
+# L’IMAD wraps up tender offer, ups AD Ports stake to 98.5%
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMiogFBVV95cUxOS3FnX3BWeW0zaHhwOWlGWUZSYnBPTDNhLWkwUjVrbS1ud21RamdjMHlScTRaend0LXVpME9wd2tLRnNHd2VzUUJMOHprRGk3UkJJWksxRU0zLVg1NHRoUWxBbXhXTlY5WFhVbDdZMWxMb0N3dllkUzl4Q3hTRHo1a1puWmlITG10aVVTcEZ1NENOR2lWdUlqUHNWVV94RFgwNUHSAbQBQVVfeXFMUFpTUFNWZnRyeXhXOTdyNXBsTU1XQ1RGMlppVXVvcHFOUzFjN3lYdGpndXZodUpQclRXckZGVGRpTjIzdHVicm5pQ0xld2dWN1FpT0FQREw4b1NBbmlwMHI0LW9ET0lpYUliWEhaN25iSjhzVUVrTmZfMXFSNnNzZTNWMnRtXzd6bmNYRVh1WlF4UTVyLWRDS2F0X0l4RHptdnd6Z0NTMkNoZ3ZiRVllejNaeHRk?oc=5
+
+L’IMAD wraps up tender offer, ups AD Ports stake to 98.5%    Gulf News

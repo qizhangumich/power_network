@@ -1,0 +1,5 @@
+# Aldar and Mubadala JV Expands Investment in Masdar City with Acquisition of Masdar City Square
+source: Mubadala Investment Company
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxONlNiSFhaMnZYbEVKZTJDYS15S1I3V0JZM2ZCbnZ6N2JPNURtZE03ZkpNM1ptQzBneTZvSFk0enQyMF9LdWhWZUQ3aWJja1dsM2RabU5LQV9ZbE55ZFlCdkQ0Y2J0ZTJrVDRqcFdGRHZUVVBrdGY2TllRdFdHdWVSV1JDY2JXLXBjRC1oRW45QlRId0l6U1hQQW92NXV3Tk1EVi03Y2cxU3d5WVN1Y1pDdkhuS1dZSkdJb3B5dFBDdXZsZzU0c2c?oc=5
+
+Aldar and Mubadala JV Expands Investment in Masdar City with Acquisition of Masdar City Square    Mubadala Investment Company

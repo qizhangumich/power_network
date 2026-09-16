@@ -1,0 +1,5 @@
+# Kimmeridge, Mubadala to Nearly Double Commonwealth LNG Capacity
+source: Rigzone
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa01MQlRFRGFGVzVidGVCUlNBSC1GcjVrcmxNZGxUWW5wRkNHOFkzOEJBRDlGR1RfOF9ZUnhMZ0hYZWxITXZweHNPQ2ZKOS1SV3NYVTAycGFwSzk5SS00N2FkeXd0LXVVOWhIUzQxYmZjUG5DVS1xWHEwWkNIaVA3TllRTGZnTW1YSTVNdUx3R09JQWZLNEhuSTE0Q1RzMmtWY2JHV1VvUGU2VVFsbjZpY24zX09mZ3VLY2Jj?oc=5
+
+Kimmeridge, Mubadala to Nearly Double Commonwealth LNG Capacity    Rigzone

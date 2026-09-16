@@ -1,0 +1,5 @@
+# Aldar Properties, Mubadala JV Buys Abu Dhabi's Masdar City Square for AED918 Million
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZTNqQjBDbC1yNG1QRk1zdHhqRVVacVJKQkZzeDRIaVRTZkUxOGNGYXdJODk3T0dTUy10VHBFMTBoQnphT2U1QTJrMWFYcnh5dHZtYTZkUGFIdjVqc1FGMUx6YnpCc0FlMkptMUZLYVBwZHAwSlpHYzB3YnRYb2hFd2xYMnFiLXRPeXltMnUtb1Z6WUV3ZVpWRUFsRTk2bndwNVdaYTcxaTVCR2p6eV9PQ3BiangwcWlBV2ZJcktqTDQxcmhXTllzZ1pQOEhVckRMLVE?oc=5
+
+Aldar Properties, Mubadala JV Buys Abu Dhabi's Masdar City Square for AED918 Million    marketscreener.com

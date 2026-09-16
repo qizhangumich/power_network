@@ -1,0 +1,5 @@
+# EDGE and Hanwha strengthen strategic cooperation on integrated air defence
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ1Jic3k4NW5BWUNjTXVzZG1CazR5STBqUWJWb2JiSjNwSXZDV2g3UC03Q0trcHgxWmxKZDNYODVXdllpZVhISWl1N2pfdmFvd0piMDZCTG1jTDQxTFJyd25lU0RqRE1iajF5aWp3YUJNVVlCY3lfbDNUY2hWeVBZSHNOMHFyTGlVMnNwc0dzWVhwRzlkMUZTRXZlZ2tTYmtiaU1BN3dra2xwem1nalVRdURrZ3ZDajRRYV93ajNDNGQ2YVZMV282bmxwSnVRWjV6?oc=5
+
+EDGE and Hanwha strengthen strategic cooperation on integrated air defence    Zawya
