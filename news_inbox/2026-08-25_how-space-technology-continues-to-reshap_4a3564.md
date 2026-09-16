@@ -1,0 +1,5 @@
+# How Space technology continues to reshape life on Earth
+source: CNN
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTDZ0SlhwLTlUUGtVb0VRd0R0VVhiYzU5QW9fbm0zTlY5QVVCVGNCQk8tS1RCSEMyV2FSWGdScHMzQi1wdS0zdE9OQlRab0JlbWl1N0FvNDgwcHY3Y1RSVWJyMEdfOURSRUJ1T1VMTEt1QTNuUlVjOEFwRVNFOHV6SU4tWE82YWpiWG5PaElOVnJQN0NSSHV1U2Jmc3V2QkI5ZDM5TWcxM2RTTnc?oc=5
+
+How Space technology continues to reshape life on Earth    CNN

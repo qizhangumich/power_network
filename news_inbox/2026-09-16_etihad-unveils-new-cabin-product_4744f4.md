@@ -1,0 +1,5 @@
+# Etihad Unveils New Cabin Product
+source: Aviation Week
+url: https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ25HMk96STY3Y2o5QW1meURHOG8tNWpUTS1pMU1jbk1lcXVRUDVxS1VaQnFNc0V4Z2hTb0FINHprSU84MjgxNkdxamx6T2lPOEthTWxrOXJpSTVvZXlMazdUdUxhdDFZWHRKNU0zWFh5eF8wNVBONXFrWFBxaXcwQ2VpbnJxbVEyYTFleGZ3amZuUnpMWEVad0dR?oc=5
+
+Etihad Unveils New Cabin Product    Aviation Week

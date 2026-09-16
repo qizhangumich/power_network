@@ -1,0 +1,5 @@
+# Tahnoon bin Zayed and President of Azerbaijan witness Masdar agreement to explore new renewable energy projects and power opportunities
+source: energy-pedia.com
+url: https://news.google.com/rss/articles/CBMilgJBVV95cUxNdUZFak8yUlFYc2lvWjVqVTd3Nzh0TW16ZFBDVGIwaUQ5ZGR3VVlUYW4tM0hMNWRJY0xHa3dFaVY5Z1hVNE1rZURUVEJ0aEZzazAtUklXREVkTmZWaWhYbGNXVWFHdVkwYkZtREREWmYzODRnUXFrTDJxSERsem1mWW9SS2FheFJkaExuOTBoclUycl9GamczOUtoVjZJbHZ3U3VzeGQ5eVRSSmdyTVFfMUZNckhiYkZrOTBxYmJCc2FLYjFIQTV5SFFNdlN1blRkYXJhbzNxajhleXV5amx5OTZaLXRRMS1CaW91bUJJaUxsMjZ2UWludTVPdW1Tc0Z1Q2xqbEFjTk5EMzVpVzhYTFMxbTk1QQ?oc=5
+
+Tahnoon bin Zayed and President of Azerbaijan witness Masdar agreement to explore new renewable energy projects and power opportunities    energy-pedia.com

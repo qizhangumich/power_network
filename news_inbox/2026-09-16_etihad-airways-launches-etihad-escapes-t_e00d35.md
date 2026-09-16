@@ -1,0 +1,5 @@
+# Etihad Airways Launches Etihad Escapes Travel Platform
+source: TradingView
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxOSkd1MEdBajVyTUE3dUZmMnNqTktfT1JDQmpZYm5OVGRJSlNwZGJDbDJKeEU0aWZzYnBtZEpyMWhyYVBtc0p5YWdwRlpianVnYmliTFN4UGFNYlV6cE1mSUY1QzlsZnZPd0tQNUNKSnRKRVJFTXlWaXl6RUMzbWg3SmRWRjlkNGdDbWo2TWIxNVVjQTQ0OTQxUmd4V3h6LVBLNUtRVEFqRHYzZDA5NFRZelQ1emhWVzQ?oc=5
+
+Etihad Airways Launches Etihad Escapes Travel Platform    TradingView

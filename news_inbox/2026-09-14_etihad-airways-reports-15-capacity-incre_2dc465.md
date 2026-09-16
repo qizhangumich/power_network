@@ -1,0 +1,5 @@
+# Etihad Airways reports 15% capacity increase despite war impact
+source: Investing.com
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMWg4YWp0VkNYMlZYYzEzTGFVbnVtOU1hcHZKZWtGekdlVG1IUDM3eWVyRWFldkZ5NHA0RnZEZXVCMHJqWGJZSVl1aFZhdGZub2dxWjkxOTk0VWFpYkFFUFMzdXZJMHVpM2FRRmFkZ09Ba0FGWnJqM2REdWNUcTdob0lBb1c0YmczMzRNMTRUdEw5WFNHU1BmSkFQdmNOa29jdG5fbF9zb1JwcWtPTlp2YVFWWnRCenYzU0EtNGVqQmk5UQ?oc=5
+
+Etihad Airways reports 15% capacity increase despite war impact    Investing.com
