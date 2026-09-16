@@ -599,6 +599,7 @@ const PEOPLE = [
   {id:"h_e_basel", n:"H.E. Basel Al-Haroon", t:2, p:52, s:"sovereign", roles:[
     ["kia","Board Member (Governor of the Central Bank of Kuwait)","board","v"]]},
   {id:"aseel_al_munifi", n:"Aseel Al-Munifi", t:2, p:52, s:"sovereign", roles:[
+    ["mof_kw","Undersecretary of the Ministry of Finance","executive","ns"],
     ["cbk","Board Member (Undersecretary Ministry of Finance)","board","v"],
     ["kia","Board Member (Undersecretary of the Ministry of Finance)","board","v"]]},
   {id:"h_e_sheikh", n:"H.E. Sheikh Dr. Meshaal Jaber Al-Ahmad Al-Sabah", t:2, p:52, s:"sovereign", roles:[
@@ -1100,8 +1101,10 @@ const PEOPLE = [
   {id:"imad_a_al", n:"Imad A. Al-Hadlaq", t:2, p:58, s:"energy", roles:[
     ["q8","Executive Vice President - Manufacturing","executive","v"]]},
   {id:"nadia_bader_al", n:"Nadia Bader Al-Hajji", t:2, p:60, s:"materials", roles:[
+    ["equate","Board Chairperson","board","v"],
     ["pic","Chief Executive Officer","executive","v"]]},
   {id:"feras_alawwad", n:"Feras Alawwad", t:2, p:60, s:"materials", roles:[
+    ["equate","Board Member","board","v"],
     ["pic","Deputy CEO - Projects & Business Development","executive","ns"]]},
   {id:"mohammed_saqr_al", n:"Mohammed Saqr Al-Ghanim", t:2, p:62, s:"industry", roles:[
     ["kotc","Deputy Chairman","board","v"]]},
@@ -1133,6 +1136,40 @@ const PEOPLE = [
     ["kdipa","Board Member","board","v"]]},
   {id:"zyad_al_najm", n:"Zyad Al-Najm", t:2, p:52, s:"gov", roles:[
     ["kdipa","Board Member","board","v"]]},
+  {id:"nimer_fahd_al", n:"Nimer Fahd Al-Malik Al-Sabah", t:2, p:58, s:"energy", roles:[
+    ["moo_kw","Undersecretary of the Ministry of Oil","executive","ns"]]},
+  {id:"isam_shomaly", n:"Isam Shomaly", t:2, p:62, s:"materials", roles:[
+    ["equate","Board Deputy Chairman","board","v"]]},
+  {id:"luis_antuna", n:"Luis Antuna", t:2, p:52, s:"materials", roles:[
+    ["equate","Board Member","board","v"]]},
+  {id:"dabbous_aldabbous", n:"Dabbous AlDabbous", t:2, p:52, s:"materials", roles:[
+    ["equate","Board Member","board","v"]]},
+  {id:"asma_alqallaf", n:"Asma Alqallaf", t:2, p:52, s:"materials", roles:[
+    ["equate","Board Member","board","v"]]},
+  {id:"ahmad_alrashdan", n:"Ahmad Alrashdan", t:2, p:52, s:"materials", roles:[
+    ["equate","Board Member","board","v"]]},
+  {id:"wafa_al_othman", n:"Wafa Al Othman", t:2, p:52, s:"materials", roles:[
+    ["equate","Board Member","board","v"]]},
+  {id:"stephanie_kalil", n:"Stephanie Kalil", t:2, p:52, s:"materials", roles:[
+    ["equate","Board Member","board","v"]]},
+  {id:"luciano_poli", n:"Luciano Poli", t:2, p:52, s:"materials", roles:[
+    ["equate","Board Member","board","v"]]},
+  {id:"jack_broodo", n:"Jack Broodo", t:2, p:52, s:"materials", roles:[
+    ["equate","Board Member","board","v"]]},
+  {id:"naser_aldousari", n:"Naser Aldousari", t:2, p:60, s:"materials", roles:[
+    ["equate","President & CEO","executive","v"]]},
+  {id:"phisanu_sermchaiwong", n:"Phisanu Sermchaiwong", t:2, p:58, s:"materials", roles:[
+    ["equate","Chief Financial Officer","executive","v"]]},
+  {id:"salman_alajmi", n:"Salman Alajmi", t:2, p:58, s:"materials", roles:[
+    ["equate","Vice President, Technical Services","executive","v"]]},
+  {id:"sudhir_shenoy", n:"Sudhir Shenoy", t:2, p:58, s:"materials", roles:[
+    ["equate","Senior Vice President","executive","v"]]},
+  {id:"issam_lazraq", n:"Issam Lazraq", t:2, p:58, s:"materials", roles:[
+    ["equate","Senior Vice President","executive","v"]]},
+  {id:"ned_issa", n:"Ned Issa", t:2, p:58, s:"materials", roles:[
+    ["equate","Vice President, Operations","executive","v"]]},
+  {id:"loay_jassim_al", n:"Loay Jassim Al-Kharafi", t:2, p:58, s:"conglomerate", roles:[
+    ["kharafi","CEO, Mohamed Abdul Mohsen Al-Kharafi & Sons Company","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

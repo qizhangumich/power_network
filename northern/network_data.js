@@ -615,6 +615,26 @@ const PEOPLE = [
     ["raktda","Chief Marketing Officer","executive","ns"]]},
   {id:"khalid_bin_rashid", n:"Khalid bin Rashid Al Mualla", t:2, p:62, s:"gov", roles:[
     ["uaqftz","Chairman","board","v"]]},
+  {id:"hamed_kazim", n:"Hamed Kazim", t:2, p:52, s:"consumer_stap", roles:[
+    ["iffco","Board Director","board","v"]]},
+  {id:"nitin_khanna", n:"Nitin Khanna", t:2, p:52, s:"consumer_stap", roles:[
+    ["iffco","Board Director","board","v"]]},
+  {id:"sumit_rohatgi", n:"Sumit Rohatgi", t:2, p:52, s:"consumer_stap", roles:[
+    ["iffco","Board Director","board","v"]]},
+  {id:"rizwan_ahmed", n:"Rizwan Ahmed", t:2, p:52, s:"consumer_stap", roles:[
+    ["iffco","Board Director","board","v"]]},
+  {id:"serhad_cemal_kelemci", n:"Serhad Cemal Kelemci", t:2, p:52, s:"consumer_stap", roles:[
+    ["iffco","Board Director","board","v"]]},
+  {id:"mohammed_azad_khan", n:"Mohammed Azad Khan", t:2, p:52, s:"consumer_stap", roles:[
+    ["iffco","Board Director","board","v"]]},
+  {id:"shiraz_allana", n:"Shiraz Allana", t:2, p:52, s:"consumer_stap", roles:[
+    ["iffco","Supervisory Board Member","board","v"]]},
+  {id:"feroz_allana", n:"Feroz Allana", t:2, p:52, s:"consumer_stap", roles:[
+    ["iffco","Supervisory Board Member","board","ns"]]},
+  {id:"akbar_moideen_thumbay", n:"Akbar Moideen Thumbay", t:2, p:58, s:"health", roles:[
+    ["thumbay","Vice President, Healthcare Division","executive","v"]]},
+  {id:"akram_moideen_thumbay", n:"Akram Moideen Thumbay", t:2, p:58, s:"health", roles:[
+    ["thumbay","Director Operations, Construction & Renovation Division; Thumbay Group Board Member","executive","v"]]},
 ];
 
 const OWNERSHIP = [

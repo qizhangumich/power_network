@@ -468,6 +468,7 @@ const PEOPLE = [
   {id:"alwaleed", n:"Prince Alwaleed bin Talal Al Saud", t:0, p:78, s:"conglomerate", roles:[
     ["kingdomholding","Chairman","board","v"]]},
   {id:"rumayyan", n:"Yasir Al-Rumayyan", t:1, p:92, s:"sovereign", roles:[
+    ["alat","Board Member; Governor of the Public Investment Fund","board","v"],
     ["riyadhair","Chairman","board","v"],
     ["pif","Governor","executive","v"],
     ["aramco","Chairman","board","v"],
@@ -478,6 +479,7 @@ const PEOPLE = [
   {id:"jadaan", n:"Mohammed Al-Jadaan", t:1, p:86, s:"finance", roles:[
     ["mof_sa","Minister of Finance","political","v"]]},
   {id:"falih", n:"Khalid Al-Falih", t:1, p:78, s:"gov", roles:[
+    ["alat","Board Member; Minister of State and Member of the Council of Ministers","board","v"],
     ["com","Minister of State, Member of the Council of Ministers","political","v"],
     ["misa","Minister of Investment (2019–Feb 2026)","political","v","former:until Feb 2026"]],
     note:"Relieved as Minister of Investment on 12 Feb 2026 (royal decree); retained cabinet rank as Minister of State. Succeeded at MISA by Fahd Al-Saif."},
@@ -485,11 +487,13 @@ const PEOPLE = [
     ["misa","Minister of Investment","political","v"]],
     note:"Appointed 12 Feb 2026, succeeding Khalid Al-Falih; ex-PIF Investment Strategy head."},
   {id:"alswaha", n:"Abdullah Alswaha", t:1, p:78, s:"tech", roles:[
+    ["alat","Board Member; Minister of Communications and Information Technology","board","v"],
     ["mcit_sa","Minister of Communications & IT","political","v"]]},
   {id:"khateeb", n:"Ahmed Al-Khateeb", t:1, p:76, s:"gov", roles:[
     ["mot_sa","Minister of Tourism","political","v"],
     ["redsea","Board Member","board","v"]]},
   {id:"alkhorayef", n:"Bandar Alkhorayef", t:1, p:72, s:"industry", roles:[
+    ["alat","Board Member; Minister of State and Member of the Council of Ministers","board","v"],
     ["com","Minister of State, Member of the Council of Ministers","political","v"],
     ["moind","Minister of Industry & Mineral Resources (2019–Jul 2026)","political","v","former:until Jul 2026"]],
     note:"Relieved as Minister of Industry & Mineral Resources on 11 Jul 2026 (royal order); reassigned as Minister of State and Governor of GAMI (General Authority for Military Industries). Succeeded at Industry by Abdulaziz bin Salman."},
@@ -507,6 +511,7 @@ const PEOPLE = [
     ["momah_sa","Minister of Municipalities & Housing","political","v"],
     ["redsea","Board Member","board","v"]]},
   {id:"albenyan", n:"Yousef Al-Benyan", t:1, p:74, s:"education", roles:[
+    ["alat","Board Member; Minister of Education","board","v"],
     ["moe_sa","Minister of Education","political","v"]],
     note:"Appointed Sep 2022; former Chairman/CEO of SABIC."},
   {id:"alduailej", n:"Abdulaziz Al-Duailej", t:1, p:68, s:"gov", roles:[
@@ -538,6 +543,7 @@ const PEOPLE = [
   {id:"inzerillo", n:"Jerry Inzerillo", t:2, p:66, s:"consumer_disc", roles:[
     ["diriyah","Group CEO","executive","v"]]},
   {id:"almudaifer", n:"Aiman Al-Mudaifer", t:2, p:68, s:"realestate", roles:[
+    ["new_murabba","Board Member - Non Executive","board","v"],
     ["neom","CEO (acting)","executive","ns"]]},
   {id:"waleed_ibrahim", n:"Waleed Al Ibrahim", t:2, p:72, s:"comm", roles:[
     ["mbcgroup","Founder & Chairman","board","v"]]},
@@ -589,6 +595,7 @@ const PEOPLE = [
   {id:"stuart_t_gulliver", n:"Stuart T. Gulliver", t:2, p:52, s:"energy", roles:[
     ["aramco","Director","board","v"]]},
   {id:"andrew_n_liveris", n:"Andrew N. Liveris", t:2, p:52, s:"energy", roles:[
+    ["alat","Board Member","board","v"],
     ["aramco","Director","board","v"]]},
   {id:"mark_a_weinberger", n:"Mark A. Weinberger", t:2, p:52, s:"energy", roles:[
     ["aramco","Director","board","v"]]},
@@ -633,6 +640,7 @@ const PEOPLE = [
   {id:"arndt_rautenberg", n:"Arndt Rautenberg", t:2, p:52, s:"comm", roles:[
     ["stc","Board Member","board","v"]]},
   {id:"sarah_j_al", n:"Sarah J. Al-Suhaimi", t:2, p:52, s:"comm", roles:[
+    ["saudia","Board Member","board","ns"],
     ["stc","Board Member","board","v"]]},
   {id:"jameel_a_al", n:"Jameel A. Al-Molhem", t:2, p:52, s:"comm", roles:[
     ["stc","Board Member","board","v"]]},
@@ -1393,6 +1401,7 @@ const PEOPLE = [
   {id:"eng_khamis_saeed", n:"Eng. Khamis Saeed Al-Dossary", t:2, p:46, s:"materials", roles:[
     ["lst_2350","General Manager – Maintenance","executive","v"]]},
   {id:"dr_muhammad_bin", n:"Dr. Muhammad bin Nasser bin Abdullah Aldawood", t:2, p:62, s:"energy", roles:[
+    ["alat","Acting Chief Executive Officer","executive","v"],
     ["lst_2381","Chairman","board","v"]]},
   {id:"jesus_lamas", n:"Jesus Lamas", t:2, p:62, s:"energy", roles:[
     ["lst_2381","Vice Chairman","board","v"]]},
@@ -1457,6 +1466,7 @@ const PEOPLE = [
   {id:"h_e_dr", n:"H.E. Dr. Majid Al-Qassabi", t:2, p:52, s:"realestate", roles:[
     ["redsea","Board Member","board","v"]]},
   {id:"h_e_dr_b", n:"H.E. Dr. Fahad Toonsi", t:2, p:52, s:"realestate", roles:[
+    ["alat","Board Member","board","v"],
     ["redsea","Board Member","board","v"]]},
   {id:"eng_ahmad_g", n:"Eng. Ahmad G. Darwish", t:2, p:58, s:"realestate", roles:[
     ["redsea","Group Chief Administrative Officer","executive","v"]]},
@@ -1548,10 +1558,12 @@ const PEOPLE = [
   {id:"princess_haifa_bint", n:"Princess Haifa bint Mohammed Al Saud", t:2, p:52, s:"industry", roles:[
     ["riyadhair","Board Member","board","v"]]},
   {id:"prince_faisal_bin", n:"Prince Faisal bin Abdulaziz bin Ayyaf", t:2, p:52, s:"industry", roles:[
+    ["new_murabba","Board Member - Independent","board","v"],
     ["riyadhair","Board Member","board","v"]]},
   {id:"mohammad_mazyad_al", n:"Mohammad Mazyad Al-Tuwajiri", t:2, p:52, s:"industry", roles:[
     ["riyadhair","Board Member","board","v"]]},
   {id:"ibrahim_mohammed_al", n:"Ibrahim Mohammed Al Sultan", t:2, p:52, s:"industry", roles:[
+    ["new_murabba","Board Member - Independent","board","v"],
     ["riyadhair","Board Member","board","v"]]},
   {id:"raid_abdullah_ismail", n:"Raid Abdullah Ismail", t:2, p:52, s:"industry", roles:[
     ["riyadhair","Board Member","board","v"]]},
@@ -1658,6 +1670,78 @@ const PEOPLE = [
     ["al_othaim","Chairman of the Board of Directors","board","v"]]},
   {id:"abdulaziz_bin_mohammed", n:"Abdulaziz bin Mohammed bin Ayyaf", t:2, p:58, s:"gov", roles:[
     ["moi_sa","Acting Vice Minister of Interior","executive","ns"]]},
+  {id:"fahad_al_saif", n:"Fahad Al-Saif", t:2, p:58, s:"gov", roles:[
+    ["misa","Minister of Investment","executive","v"]]},
+  {id:"ammar_nagadi", n:"Ammar Nagadi", t:2, p:58, s:"gov", roles:[
+    ["mep_sa","Vice Minister of Economy and Planning","executive","v"]]},
+  {id:"mohammed_bin_salman", n:"Mohammed bin Salman Al Saud", t:2, p:62, s:"realestate", roles:[
+    ["new_murabba","Chairman of the Board of Directors","board","v"],
+    ["humain","Chairman","board","v"],
+    ["alat","Chairman of the Board of Directors","board","v"]]},
+  {id:"mohammed_al_alsheikh", n:"Mohammed Al Alsheikh", t:2, p:62, s:"realestate", roles:[
+    ["new_murabba","Committee Chairman - Board Member","board","v"]]},
+  {id:"fahad_alrasheed", n:"Fahad Alrasheed", t:2, p:52, s:"realestate", roles:[
+    ["new_murabba","Board Member - Independent","board","v"]]},
+  {id:"fawaz_alhokair", n:"Fawaz Alhokair", t:2, p:52, s:"realestate", roles:[
+    ["new_murabba","Board Member - Independent","board","v"]]},
+  {id:"sabah_barakat", n:"Sabah Barakat", t:2, p:60, s:"realestate", roles:[
+    ["new_murabba","Acting Chief Executive Officer","executive","ns"]]},
+  {id:"mazroua_al_mazroua", n:"Mazroua Al-Mazroua", t:2, p:58, s:"realestate", roles:[
+    ["new_murabba","Chief Marketing Officer","executive","ns"]]},
+  {id:"tareq_al_musharraf", n:"Tareq Al-Musharraf", t:2, p:58, s:"realestate", roles:[
+    ["new_murabba","Chief Financial Officer","executive","ns"]]},
+  {id:"yaser_al_onaizan", n:"Yaser Al-Onaizan", t:2, p:60, s:"tech", roles:[
+    ["humain","Deputy CEO & President of Data & AI Models","executive","v"]]},
+  {id:"samih_elhage", n:"Samih Elhage", t:2, p:58, s:"tech", roles:[
+    ["humain","EVP - Chief Financial & Operating Officer","executive","v"]]},
+  {id:"khalid_alodhaibi", n:"Khalid Alodhaibi", t:2, p:46, s:"tech", roles:[
+    ["humain","EVP Technology","executive","v"]]},
+  {id:"steve_plimsoll", n:"Steve Plimsoll", t:2, p:58, s:"tech", roles:[
+    ["humain","Chief Strategy Officer & Acting Chief Marketing Officer","executive","ns"]]},
+  {id:"hamad_bin_mohammed", n:"Hamad bin Mohammed Al Al-Sheikh", t:2, p:52, s:"tech", roles:[
+    ["alat","Board Member; General Supervisor of the Localization and Balance of Payments Office","board","v"]]},
+  {id:"mohammed_bin_mazyad", n:"Mohammed bin Mazyad Al-Tuwaijri", t:2, p:52, s:"tech", roles:[
+    ["alat","Board Member","board","v"]]},
+  {id:"nandhu_nandhakumar", n:"Nandhu Nandhakumar", t:2, p:58, s:"tech", roles:[
+    ["alat","Chief Technology Officer","executive","v"]]},
+  {id:"muneerah_aldakheel", n:"Muneerah Aldakheel", t:2, p:58, s:"tech", roles:[
+    ["alat","Acting Chief Human Resources Officer","executive","v"]]},
+  {id:"saleh_bin_nasser", n:"Saleh bin Nasser Al-Jasser", t:2, p:62, s:"industry", roles:[
+    ["saudia","Chairman of the Board of Directors","board","v"]]},
+  {id:"arved_von_zur", n:"Arved von zur Muehlen", t:2, p:58, s:"industry", roles:[
+    ["saudia","EVP & Chief Commercial Officer","executive","ns"]]},
+  {id:"khaled_tash", n:"Khaled Tash", t:2, p:58, s:"industry", roles:[
+    ["saudia","Group Chief Marketing Officer","executive","ns"]]},
+  {id:"rania_alturki", n:"Rania Alturki", t:2, p:58, s:"industry", roles:[
+    ["saudia","Executive Vice President - Human Resources","executive","ns"]]},
+  {id:"ali_al_hedeithy", n:"Ali Al-Hedeithy", t:2, p:58, s:"comm", roles:[
+    ["mbcgroup","Group Director General & Board Secretary","executive","v"]]},
+  {id:"ahmed_al_sahhaf", n:"Ahmed Al-Sahhaf", t:2, p:60, s:"comm", roles:[
+    ["mbcgroup","CEO of MMS KSA","executive","v"]]},
+  {id:"ali_jaber", n:"Ali Jaber", t:2, p:58, s:"comm", roles:[
+    ["mbcgroup","Group Director of TV","executive","v"]]},
+  {id:"samar_akrouk", n:"Samar Akrouk", t:2, p:58, s:"comm", roles:[
+    ["mbcgroup","Group Production Director","executive","v"]]},
+  {id:"omar_el_barrage", n:"Omar El-Barrage", t:2, p:58, s:"comm", roles:[
+    ["mbcgroup","Group General Counsel","executive","v"]]},
+  {id:"mike_sneesby", n:"Mike Sneesby", t:2, p:60, s:"comm", roles:[
+    ["mbcgroup","Chief Executive Officer","executive","v"]]},
+  {id:"mishari_naji_al", n:"Mishari Naji Al Ibrahim", t:2, p:52, s:"comm", roles:[
+    ["mbcgroup","Board Member","board","ns"]]},
+  {id:"james_deluca", n:"James DeLuca", t:2, p:60, s:"industry", roles:[
+    ["ceer","Chief Executive Officer","executive","v"]]},
+  {id:"joerg_schuessler", n:"Joerg Schuessler", t:2, p:58, s:"industry", roles:[
+    ["ceer","Chief Financial Officer","executive","v"]]},
+  {id:"markus_leitner", n:"Markus Leitner", t:2, p:58, s:"industry", roles:[
+    ["ceer","Chief Technical Officer","executive","v"]]},
+  {id:"christopher_goodey", n:"Christopher Goodey", t:2, p:58, s:"industry", roles:[
+    ["ceer","Chief Manufacturing Officer","executive","v"]]},
+  {id:"johnny_saldanha", n:"Johnny Saldanha", t:2, p:58, s:"industry", roles:[
+    ["ceer","Chief Procurement and Supply Chain Officer","executive","v"]]},
+  {id:"ahmed_alahdal", n:"Ahmed Alahdal", t:2, p:58, s:"industry", roles:[
+    ["ceer","Board Secretariat and Governance Executive Director","executive","v"]]},
+  {id:"young_liu", n:"Young Liu", t:2, p:52, s:"industry", roles:[
+    ["ceer","Board Director","board","ns"]]},
 ];
 
 const OWNERSHIP = [

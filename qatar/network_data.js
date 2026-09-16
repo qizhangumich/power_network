@@ -349,6 +349,7 @@ const PEOPLE = [
 
   // ===== ADDED SEP 2026 — KEY MINISTRIES PREVIOUSLY MISSING FROM THE MAP =====
   {id:"alattiya_mun", n:"H.E. Abdullah bin Hamad bin Abdullah Al Attiya", t:1, p:68, s:"gov", roles:[
+    ["qatariddiar","Chairman","board","v"],
     ["barwa","Chairman","board","v"],
     ["momun_q","Minister of Municipality","political","v"]],
     note:"Appointed January 2024."},
@@ -736,6 +737,8 @@ const PEOPLE = [
   {id:"saud_bin_nasser", n:"Saud Bin Nasser Al Thani", t:2, p:52, s:"comm", roles:[
     ["ooredoo","Board Member","board","v"]]},
   {id:"yousef_al_obaidly", n:"Yousef Al-Obaidly", t:2, p:52, s:"comm", roles:[
+    ["qsi","Board Member","board","v"],
+    ["bein","Group Chief Executive Officer","executive","v"],
     ["ooredoo","Board Member","board","v"]]},
   {id:"essa_bin_hilal", n:"Essa Bin Hilal Al Kuwari", t:2, p:52, s:"comm", roles:[
     ["ooredoo","Board Member","board","v"]]},
@@ -1223,6 +1226,52 @@ const PEOPLE = [
     ["hbku","Director of Academic Administration - Provost Office","executive","ns"]]},
   {id:"ahmad_helal_al", n:"Ahmad Helal Al-Mohannadi", t:2, p:62, s:"materials", roles:[
     ["qafco","Chairman","board","v"]]},
+  {id:"ibrahim_bin_saleh", n:"Ibrahim bin Saleh Al Nuaimi", t:2, p:58, s:"education", roles:[
+    ["moehe_q","Undersecretary of the Ministry of Education and Higher Education","executive","v"]]},
+  {id:"tareq_zainal", n:"Tareq Zainal", t:2, p:58, s:"comm", roles:[
+    ["bein","Chief Financial & Human Resources Officer","executive","v"]]},
+  {id:"david_sugden", n:"David Sugden", t:2, p:58, s:"comm", roles:[
+    ["bein","Chief Corporate Affairs & Communications Officer","executive","v"]]},
+  {id:"israel_esteban", n:"Israel Esteban", t:2, p:58, s:"comm", roles:[
+    ["bein","Chief Technology Officer","executive","v"]]},
+  {id:"richard_verow", n:"Richard Verow", t:2, p:60, s:"comm", roles:[
+    ["bein","Chief Sports Officer & Managing Director beIN UK","executive","v"]]},
+  {id:"mohammad_al_subaie", n:"Mohammad Al-Subaie", t:2, p:60, s:"comm", roles:[
+    ["bein","Chief Executive Officer beIN MENA","executive","v"]]},
+  {id:"adel_mohammed_mustafawi", n:"Adel Mohammed Mustafawi", t:2, p:62, s:"comm", roles:[
+    ["qsi","Vice Chairman","board","v"]]},
+  {id:"mohammed_al_emadi", n:"Mohammed Al-Emadi", t:2, p:60, s:"comm", roles:[
+    ["qsi","Chief Executive Officer","executive","v"]]},
+  {id:"sophie_jordan", n:"Sophie Jordan", t:2, p:52, s:"comm", roles:[
+    ["qsi","Board Member","board","v"]]},
+  {id:"mohammad_abdulaziz_al", n:"Mohammad Abdulaziz Al-Subaie", t:2, p:52, s:"comm", roles:[
+    ["qsi","Board Member","board","v"]]},
+  {id:"mohammed_bin_khalifa", n:"Mohammed bin Khalifa Al Suwaidi", t:2, p:60, s:"health", roles:[
+    ["hmc","Managing Director","executive","v"]]},
+  {id:"yousuf_khalid_al", n:"Yousuf Khalid Al Maslamani", t:2, p:58, s:"health", roles:[
+    ["hmc","Deputy Chief Medical Officer for Clinical Affairs","executive","v"]]},
+  {id:"muna_abdulrahman_al", n:"Muna Abdulrahman Al Maslamani", t:2, p:60, s:"health", roles:[
+    ["hmc","Medical Director of Hamad General Hospital and Chief Executive Officer of Communicable Disease Center","executive","v"]]},
+  {id:"khalid_mohammed_al_b", n:"Khalid Mohammed Al Jalham", t:2, p:60, s:"health", roles:[
+    ["hmc","Chief Executive Officer and Medical Director of Ambulatory Care Center","executive","v"]]},
+  {id:"nasser_saeed_al", n:"Nasser Saeed Al-Jaffali Al Nuaimi", t:2, p:58, s:"health", roles:[
+    ["hmc","Chief of Center for Patient Experience","executive","v"]]},
+  {id:"aftab_mohammad_umar", n:"Aftab Mohammad Umar", t:2, p:62, s:"health", roles:[
+    ["hmc","Chairman of Emergency Medicine","executive","v"]]},
+  {id:"nabila_al_meer", n:"Nabila Al Meer", t:2, p:58, s:"health", roles:[
+    ["hmc","Deputy Chief for Continuing Care Group & Ministry of Public Health Nursing Affairs","executive","v"]]},
+  {id:"abdulla_al_ansari", n:"Abdulla Al Ansari", t:2, p:58, s:"health", roles:[
+    ["hmc","Acting Chief Medical Officer","executive","v"]]},
+  {id:"abdul_badi_abou", n:"Abdul Badi Abou Samra", t:2, p:62, s:"health", roles:[
+    ["hmc","Deputy Chief Medical Officer and Chairman of Medicine","executive","v"]]},
+  {id:"hamad_al_khalifa", n:"Hamad Al Khalifa", t:2, p:58, s:"health", roles:[
+    ["hmc","Chief of Health Facilities Development and Acting Chief of Business Services","executive","v"]]},
+  {id:"jameela_alajmi", n:"Jameela Alajmi", t:2, p:58, s:"health", roles:[
+    ["hmc","Chief Quality Officer","executive","v"]]},
+  {id:"iain_francis_tulley", n:"Iain Francis Tulley", t:2, p:60, s:"health", roles:[
+    ["hmc","Chief Executive Mental Health Service","executive","v"]]},
+  {id:"brendon_morris", n:"Brendon Morris", t:2, p:58, s:"health", roles:[
+    ["hmc","Deputy Chief for Major Incident Preparedness and Resilience & Ambulance Service","executive","v"]]},
 ];
 
 const OWNERSHIP = [

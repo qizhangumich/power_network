@@ -3,16 +3,11 @@ abudhabi,eaa,Executive Affairs Authority,gov,82,1,pending
 abudhabi,doe,Department of Energy,gov,82,1,pending
 abudhabi,doh,Department of Health,gov,82,1,pending
 bahrain,moi_bh,Ministry of Interior,gov,82,1,pending
-saudi,misa,Ministry of Investment,gov,82,1,pending
 abudhabi,dct,Department of Culture & Tourism,gov,80,1,pending
 abudhabi,microsoft,Microsoft,tech,80,0,pending
-kuwait,mof_kw,Ministry of Finance,gov,80,1,pending
-kuwait,moo_kw,Ministry of Oil,energy,80,1,pending
 oman,mofa_om,Foreign Ministry,gov,80,1,pending
-saudi,mep_sa,Ministry of Economy & Planning,gov,80,1,pending
 abudhabi,dge,Department of Government Enablement,gov,78,1,pending
 abudhabi,adek,Department of Education & Knowledge,gov,78,1,pending
-abudhabi,chimera,Chimera Investments,sovereign,78,0,pending
 bahrain,mofa_bh,Ministry of Foreign Affairs,gov,78,1,pending
 dubai,dof_dxb,Dubai Dept of Finance,gov,78,1,pending
 dubai,dxbmun,Dubai Municipality,gov,78,1,pending
@@ -20,8 +15,6 @@ dubai,dxbpolice,Dubai Police,gov,78,1,pending
 kuwait,mofa_kw,Ministry of Foreign Affairs,gov,78,1,pending
 oman,moem_om,Ministry of Energy & Minerals,energy,78,1,pending
 oman,moin_om,Ministry of Interior,gov,78,1,pending
-qatar,qatariddiar,Qatari Diar,realestate,78,1,pending
-qatar,bein,beIN Media Group,comm,78,1,pending
 saudi,mcit_sa,Ministry of Communications & IT,tech,78,1,pending
 abudhabi,adio,Abu Dhabi Investment Office,gov,76,1,pending
 abudhabi,tawazun,Tawazun Council,gov,76,1,pending
@@ -32,12 +25,9 @@ bahrain,edb,Bahrain Economic Development Board,gov,76,1,pending
 dubai,rta,Roads & Transport Authority,gov,76,1,pending
 dubai,dld,Dubai Land Department,gov,76,1,pending
 oman,cbo,Central Bank of Oman,finance,76,1,pending
-qatar,moehe_q,Ministry of Education & Higher Education,education,76,1,pending
 qatar,qfc,Qatar Financial Centre,finance,76,1,pending
 qatar,qewc,Qatar Electricity & Water Co,utilities,76,1,pending
 qatar,qm,Qatar Museums,gov,76,1,pending
-qatar,qsi,Qatar Sports Investments,comm,76,1,pending
-qatar,hmc,Hamad Medical Corporation,health,76,1,pending
 saudi,moh_sa,Ministry of Health,health,76,1,pending
 saudi,momah_sa,Ministry of Municipalities & Housing,realestate,76,1,pending
 abudhabi,twopointzero,2PointZero (pre-merger IHC platform; merged into 2PointZero Group 2025),sovereign,74,0,pending
@@ -57,7 +47,6 @@ saudi,sdaia,SDAIA (Data & AI Authority),tech,74,1,pending
 saudi,gea,General Entertainment Authority,gov,74,1,pending
 abudhabi,dcd,Department of Community Development,gov,72,1,pending
 abudhabi,admo,Abu Dhabi Media Office,comm,72,1,pending
-abudhabi,core42,Core42,tech,72,1,pending
 abudhabi,totalenergies,TotalEnergies,energy,72,0,pending
 dubai,gdmo,Government of Dubai Media Office,comm,72,1,pending
 kuwait,moci_kw,Ministry of Commerce & Industry,gov,72,1,pending
@@ -71,8 +60,6 @@ qatar,psg,Paris Saint-Germain,comm,72,1,pending
 qatar,totalenergies,TotalEnergies,energy,72,0,pending
 saudi,mos_sa,Ministry of Sport,gov,72,1,pending
 saudi,momedia_sa,Ministry of Media,comm,72,1,pending
-saudi,humain,HUMAIN (PIF AI company),tech,72,1,pending
-saudi,new_murabba,New Murabba,realestate,72,0,pending
 abudhabi,sca,Securities & Commodities Authority,finance,70,1,pending
 abudhabi,spaceagency,UAE Space Agency,tech,70,1,pending
 abudhabi,khazna,Khazna Data Centers,tech,70,1,pending
@@ -98,8 +85,6 @@ qatar,exxonmobil,ExxonMobil,energy,70,0,pending
 qatar,shell,Shell,energy,70,0,pending
 saudi,gaca_sa,General Authority of Civil Aviation,gov,70,1,pending
 saudi,diriyah,Diriyah Company,consumer_disc,70,1,pending
-saudi,alat,Alat,tech,70,1,pending
-saudi,saudia,Saudia,industry,70,1,pending
 saudi,sami,SAMI (Saudi Arabian Military Industries),industry,70,1,pending
 saudi,expo_2030,Expo 2030 Riyadh Company,gov,70,0,pending
 saudi,king_salman_park,King Salman Park Foundation,realestate,70,0,pending
@@ -121,8 +106,6 @@ oman,opaz,OPAZ (Special Economic Zones & Free Zones),gov,68,1,pending
 qatar,moecc_q,Ministry of Environment & Climate Change,gov,68,1,pending
 qatar,pih,Power International Holding,conglomerate,68,1,pending
 saudi,roshn,ROSHN,realestate,68,1,pending
-saudi,mbcgroup,MBC Group,comm,68,1,pending
-saudi,ceer,Ceer,industry,68,0,pending
 saudi,savvy_games,Savvy Games Group,consumer_disc,68,0,pending
 saudi,zatca,Zakat Tax and Customs Authority,gov,68,0,pending
 saudi,rcu,Royal Commission for AlUla,gov,68,0,pending
@@ -140,10 +123,7 @@ bahrain,ewa_bh,Electricity & Water Authority,utilities,66,1,pending
 dubai,noon,noon.com,tech,66,1,pending
 dubai,s_s_lootah,S.S. Lootah Group,conglomerate,66,0,pending
 kuwait,mopw_kw,Ministry of Public Works,gov,66,1,pending
-kuwait,equate,EQUATE Petrochemicals,materials,66,1,pending
-kuwait,kharafi,M.A. Kharafi & Sons,conglomerate,66,1,pending
 kuwait,mew_kuwait,Ministry of Electricity Water and Renewable Energy,utilities,66,0,pending
-northern,iffco,IFFCO Group,consumer_stap,66,1,pending
 oman,moht_om,Ministry of Heritage & Tourism,gov,66,1,pending
 oman,duqm,Duqm Special Economic Zone,industry,66,0,pending
 oman,nama,Nama Group (electricity holding),utilities,66,1,pending
@@ -274,7 +254,6 @@ dubai,jafza,Jebel Ali Free Zone Authority,gov,60,0,pending
 dubai,mag,MAG Group Holding,realestate,60,0,pending
 kuwait,knet,KNET (payments network),tech,60,0,pending
 kuwait,kpa,Kuwait Ports Authority,industry,60,0,pending
-northern,thumbay,Thumbay Group,health,60,1,pending
 northern,sharjah_finance,Sharjah Finance Department,finance,60,0,pending
 northern,ajman_ded,Ajman Department of Economic Development,gov,60,0,pending
 oman,royalhosp,The Royal Hospital (Muscat),health,60,0,pending

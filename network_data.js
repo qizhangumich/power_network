@@ -389,6 +389,7 @@ const PEOPLE = [
     ["ihc","CEO","executive","v"],
     ["alphadhabi","Independent Non-Executive Director","board","v"],
     ["multiply","Board Member","board","v"],
+    ["chimera","Chairman","board","v"],
     ], note:"Operates Tahnoon's listed conglomerate (IHC), one of the largest listed companies in the Middle East."},
   {id:"faisal_bannai", n:"Faisal Al Bannai", t:1, p:88, s:"tech", roles:[
     ["prescourt","Adviser for Strategic Research & Advanced Technology Affairs","political","v"],
@@ -1664,6 +1665,7 @@ const PEOPLE = [
     ]},
   {id:"seif_fikry", n:"Seif Fikry", t:2, p:58, s:"sovereign", roles:[
     ["lunate","Managing Partner","executive","v"],
+    ["chimera","Chief Executive Officer","executive","v"],
     ]},
   {id:"abdulla_ateya_messabi", n:"Abdulla Ateya Al Messabi", t:2, p:66, s:"energy", roles:[
     ["adnocdrill","Chief Executive Officer","executive","v"],
@@ -2035,6 +2037,7 @@ const PEOPLE = [
     ]},
   {id:"martin_yates", n:"Martin Yates", t:2, p:58, s:"tech", roles:[
     ["presight","Government Technology Advisor","executive","v"],
+    ["core42","Field Chief Technology Officer","executive","v"],
     ]},
   {id:"dimitris_moulavasilis", n:"Dimitris Moulavasilis", t:2, p:60, s:"health", roles:[
     ["m42","Group Chief Executive Officer","executive","v"],
@@ -2295,6 +2298,33 @@ const PEOPLE = [
     ]},
   {id:"akhtar_saeed_hashmi", n:"Akhtar Saeed Hashmi", t:2, p:60, s:"sovereign", roles:[
     ["royalgroup","Managing Director & Group CEO of Comera Financial Holdings (a Royal Group company)","executive","ns"],
+    ]},
+  {id:"sherif_tawfik", n:"Sherif Tawfik", t:2, p:58, s:"tech", roles:[
+    ["core42","Chief Business Officer","executive","v"],
+    ]},
+  {id:"emma_cloney", n:"Emma Cloney", t:2, p:46, s:"tech", roles:[
+    ["core42","SVP International Sales & Strategy and GM Ireland","executive","v"],
+    ]},
+  {id:"ihsan_anabtawi", n:"Ihsan Anabtawi", t:2, p:58, s:"tech", roles:[
+    ["core42","Executive Vice President & Chief Commercial Officer","executive","v"],
+    ]},
+  {id:"trevor_north", n:"Trevor North", t:2, p:58, s:"tech", roles:[
+    ["core42","Chief Operating Officer","executive","v"],
+    ]},
+  {id:"roopal_jobanputra", n:"Roopal Jobanputra", t:2, p:58, s:"tech", roles:[
+    ["core42","General Counsel","executive","v"],
+    ]},
+  {id:"adrian_hobbs", n:"Adrian Hobbs", t:2, p:58, s:"tech", roles:[
+    ["core42","Chief Technology Officer","executive","v"],
+    ]},
+  {id:"ali_nimer", n:"Ali Nimer", t:2, p:58, s:"tech", roles:[
+    ["core42","Chief Client and Growth Officer","executive","v"],
+    ]},
+  {id:"andrew_jackson", n:"Andrew Jackson", t:2, p:58, s:"tech", roles:[
+    ["core42","Executive Vice President & Chief AI Officer","executive","v"],
+    ]},
+  {id:"sherif_salem", n:"Sherif Salem", t:2, p:58, s:"sovereign", roles:[
+    ["chimera","Chief Investment Officer - Public Markets","executive","v"],
     ]},
 ];
 
