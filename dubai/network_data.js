@@ -174,6 +174,7 @@ const INSTITUTIONS = [
   {id:"p_o_ferries", n:"P&O Ferries", s:"industry", t:2, p:58, short:"P&O Ferries"},
   {id:"emaar_development", n:"Emaar Development PJSC", s:"realestate", t:2, p:62, short:"Emaar Development"},
   {id:"empower", n:"Emirates Central Cooling Systems Corporation PJSC", s:"utilities", t:3, p:58, short:"Empower"},
+  {id:"driven_properties", n:"Driven Properties", s:"realestate", t:3, p:54, short:"Driven Properties"},
 ];
 
 const PEOPLE = [

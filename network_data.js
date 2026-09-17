@@ -271,6 +271,8 @@ const INSTITUTIONS = [
   {id:"aldar_investment_propert", n:"Aldar Investment Properties", s:"realestate", t:2, p:58, short:"Aldar Investment Pro…"},
   {id:"aldar_estates", n:"Aldar Estates", s:"realestate", t:2, p:56, short:"Aldar Estates"},
   {id:"provis", n:"Provis Real Estate Management", s:"realestate", t:3, p:52, short:"Provis"},
+  {id:"adnoc_trading", n:"ADNOC Trading", s:"energy", t:2, p:58, short:"ADNOC Trading"},
+  {id:"al_yasat_petroleum", n:"Al Yasat Petroleum", s:"energy", t:2, p:58, short:"Al Yasat Petroleum"},
 ];
 
 const PEOPLE = [
@@ -943,6 +945,7 @@ const PEOPLE = [
   {id:"abdulla_humaid_al", n:"Abdulla Humaid Al Jarwan", t:2, p:52, s:"utilities", roles:[
     ["taqa","Board Member","board","ns"],
     ["adnocdrill","Board Member","board","v"],
+    ["doe","Chairman","executive","ns"],
     ]},
   {id:"kamal_ishaq_almaazmi", n:"Kamal Ishaq Almaazmi", t:2, p:52, s:"utilities", roles:[
     ["taqa","Board Member","board","ns"],
@@ -1487,7 +1490,7 @@ const PEOPLE = [
     ["burjeel","Executive Director and President Business Development","executive","v"],
     ]},
   {id:"muhammed_shihabuddin", n:"Muhammed Shihabuddin", t:2, p:58, s:"health", roles:[
-    ["burjeel","Chief Financial Officer","executive","v"],
+    ["burjeel","Chief Financial Officer (until Sep 2026)","executive","v","former:until Sep 2026"],
     ]},
   {id:"mohammad_fityan", n:"Mohammad Fityan", t:2, p:58, s:"health", roles:[
     ["burjeel","Chief Medical Officer","executive","v"],
@@ -2326,6 +2329,87 @@ const PEOPLE = [
   {id:"sherif_salem", n:"Sherif Salem", t:2, p:58, s:"sovereign", roles:[
     ["chimera","Chief Investment Officer - Public Markets","executive","v"],
     ]},
+  {id:"ali_al_hammadi", n:"Ali Al Hammadi", t:2, p:58, s:"comm", roles:[
+    ["imi","Chief Operating Officer","executive","ns"],
+    ]},
+  {id:"khaled_al_hasan", n:"Khaled Al Hasan", t:2, p:58, s:"comm", roles:[
+    ["imi","Chief Financial Officer","executive","ns"],
+    ]},
+  {id:"hassan_sharif", n:"Hassan Sharif", t:2, p:58, s:"comm", roles:[
+    ["imi","Chief of Staff","executive","ns"],
+    ]},
+  {id:"karim_ben_salah", n:"Karim Ben Salah", t:2, p:58, s:"comm", roles:[
+    ["imi","Chief Investment Officer","executive","ns"],
+    ]},
+  {id:"nakhle_elhage", n:"Nakhle Elhage", t:2, p:58, s:"comm", roles:[
+    ["imi","Chief Transformation Officer","executive","ns"],
+    ]},
+  {id:"ahmed_embaby", n:"Ahmed Embaby", t:2, p:58, s:"comm", roles:[
+    ["imi","Chief People Officer","executive","ns"],
+    ]},
+  {id:"mona_elsaka", n:"Mona Elsaka", t:2, p:58, s:"comm", roles:[
+    ["imi","Chief Brand, Marketing and Communications Officer","executive","ns"],
+    ]},
+  {id:"abdou_gadallah", n:"Abdou Gadallah", t:2, p:58, s:"comm", roles:[
+    ["imi","Group Editorial Director","executive","ns"],
+    ]},
+  {id:"bradley_eliot", n:"Bradley Eliot", t:2, p:58, s:"comm", roles:[
+    ["imi","Chief Technology Officer","executive","ns"],
+    ]},
+  {id:"suhail_ahmed", n:"Suhail Ahmed", t:2, p:58, s:"comm", roles:[
+    ["imi","Chief Broadcast Technology Transformation Officer","executive","ns"],
+    ]},
+  {id:"sherif_badreddine", n:"Sherif Badreddine", t:2, p:58, s:"comm", roles:[
+    ["imi","Chief Revenue Officer","executive","ns"],
+    ]},
+  {id:"mohamed_ali_al", n:"Mohamed Ali Al Shorafa Al Hammadi", t:2, p:62, s:"finance", roles:[
+    ["sca","Chairman of the Board of Directors","board","ns"],
+    ]},
+  {id:"faisal_yousuf_selaitin", n:"Faisal Yousuf Selaitin", t:2, p:62, s:"finance", roles:[
+    ["sca","Vice Chairman of the Board of Directors","board","ns"],
+    ]},
+  {id:"ali_mohammed_bakheet", n:"Ali Mohammed Bakheet Al Rumeithi", t:2, p:52, s:"finance", roles:[
+    ["sca","Member of the Board of Directors","board","ns"],
+    ]},
+  {id:"arif_mohammed_hadi", n:"Arif Mohammed Hadi Amiri", t:2, p:52, s:"finance", roles:[
+    ["sca","Member of the Board of Directors","board","ns"],
+    ]},
+  {id:"hamad_sayah_al", n:"Hamad Sayah Al Mazrouei", t:2, p:52, s:"finance", roles:[
+    ["sca","Member of the Board of Directors","board","ns"],
+    ]},
+  {id:"waleed_saeed_al", n:"Waleed Saeed Al Awadhi", t:2, p:60, s:"finance", roles:[
+    ["sca","Chief Executive Officer","executive","ns"],
+    ]},
+  {id:"ahmed_mohammed_al", n:"Ahmed Mohammed Al Rumaithi", t:2, p:58, s:"gov", roles:[
+    ["doe","Undersecretary","executive","ns"],
+    ]},
+  {id:"abdulaziz_mohammed_alhammadi", n:"Abdulaziz Mohammed Alhammadi", t:2, p:58, s:"gov", roles:[
+    ["doe","Director General of Regulatory Affairs","executive","ns"],
+    ]},
+  {id:"linda_albano", n:"Linda Albano", t:2, p:62, s:"gov", roles:[
+    ["doe","Chairman's Advisor and Chief Transformation Program Officer (Water)","executive","ns"],
+    ]},
+  {id:"noura_al_ghaithi", n:"Noura Al Ghaithi", t:2, p:58, s:"gov", roles:[
+    ["doh","Undersecretary","executive","ns"],
+    ]},
+  {id:"asma_ibrahim_al", n:"Asma Ibrahim Al Mannaei", t:2, p:58, s:"gov", roles:[
+    ["doh","Executive Director of the Research and Innovation Centre","executive","ns"],
+    ]},
+  {id:"ahmed_alkhazraji", n:"Ahmed AlKhazraji", t:2, p:58, s:"gov", roles:[
+    ["doh","Executive Director of the Healthy Living Unit","executive","ns"],
+    ]},
+  {id:"mohammed_abdullah_al", n:"Mohammed Abdullah Al Awadi", t:2, p:58, s:"gov", roles:[
+    ["doh","Executive Director of the Health System Financing Regulation Sector","executive","ns"],
+    ]},
+  {id:"saood_abdulaziz_al", n:"Saood Abdulaziz Al Hosani", t:2, p:58, s:"gov", roles:[
+    ["dct","Undersecretary","executive","ns"],
+    ]},
+  {id:"saleh_mohamed_saleh", n:"Saleh Mohamed Saleh Al Geziry", t:2, p:58, s:"gov", roles:[
+    ["dct","Director General for Tourism","executive","ns"],
+    ]},
+  {id:"reuben_joseph", n:"Reuben Joseph", t:2, p:58, s:"health", roles:[
+    ["burjeel","Chief Financial Officer","executive","ns"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -2403,7 +2487,7 @@ const OWNERSHIP = [
   ["m42","mubadala","JV partner","v"],
   ["m42","g42","JV partner","v"],
   ["ccad","m42","","v"],
-  ["adports","adq","majority; L'imad/ADQ cash offer for remaining shares cleared conditions Sep 2026 (settlement by 9 Oct 2026, ADX delisting to follow)","v"],
+  ["adports","adq","~98.5%; L'imad/ADQ tender offer completed Sep 2026, stake raised to ~98.5% (incl. further stake bought from Al Seer Marine); settlement by 9 Oct 2026, ADX delisting to follow","ns"],
   ["etihad","adq","","v"],
   ["adairports","adq","","v"],
   ["etihadrail","adgov","state owner","ns"],
@@ -2572,6 +2656,8 @@ const OWNERSHIP = [
   ["aldar_estates","aldar","majority-owned subsidiary (82.55%; IHC/ADNEC Group minority holders)","ns"],
   ["provis","aldar","majority-owned subsidiary (65.10%)","ns"],
   ["npcc","nmdc","subsidiary","v"],
+  ["adnoc_trading","adnoc","wholly-owned subsidiary of","ns"],
+  ["al_yasat_petroleum","adnoc","JV between ADNOC Group (60%) and CNPC (40%)","ns"],
 ];
 
 const FAMILY = [

@@ -175,6 +175,8 @@ const INSTITUTIONS = [
   {id:"national_feed", n:"Oman National Livestock Company", s:"consumer_stap", t:2, p:52, short:"National Feed"},
   {id:"nakheel_oman_dev", n:"Nakheel Oman Development Company", s:"consumer_stap", t:2, p:52, short:"Nakheel Oman Dev"},
   {id:"natl_vet_vaccines", n:"National Veterinary Vaccines Company", s:"health", t:2, p:52, short:"Natl Vet Vaccines"},
+  {id:"madayn", n:"Madayn (Public Establishment for Industrial Estates)", s:"gov", t:2, p:64, short:"Madayn"},
+  {id:"sur_industrial_city", n:"Sur Industrial City", s:"industry", t:3, p:52, short:"Sur Industrial City"},
 ];
 
 const PEOPLE = [
@@ -197,6 +199,7 @@ const PEOPLE = [
     ["moci_om","Minister of Trade, Industry & Investment Promotion","political","v"]],
     note:"Appointed under Royal Decree 17/2026 (13 Jan 2026), succeeding Qais bin Mohammed Al Yousef as minister."},
   {id:"qais_opaz", n:"Qais bin Mohammed Al Yousef", t:1, p:64, s:"gov", roles:[
+    ["duqm","Chairman - OPAZ Board of Directors","board","ns"],
     ["opaz","Chairman","board","v"]],
     note:"Lost the Trade/Industry ministry portfolio in the January 2026 reshuffle but retained the OPAZ board chairmanship."},
   {id:"murshidi", n:"Abdulsalam Al Murshidi", t:1, p:82, s:"sovereign", roles:[
@@ -208,6 +211,7 @@ const PEOPLE = [
     ["asyad","Group CEO (acting)","executive","v","former:until Sep 2026"]],
     note:"ASYAD Group's own executive-team page (asyad.om/who-we-are/executive-team) names Abdulrahman Salim Al Hatmi as Group CEO (non-acting, in the role continuously since 2016); no official source found confirming this person ever held an acting Group CEO role. Marked former pending a corrected source for this person's actual ASYAD role."},
   {id:"alhatmi_asyad", n:"Abdulrahman Salim Al Hatmi", t:2, p:60, s:"industry", roles:[
+    ["asyad_ports","Group Chief Executive Officer (ASYAD Group)","executive","ns"],
     ["asyad","Group CEO","executive","v"]]},
   {id:"suhail_bahwan", n:"Suhail Bahwan", t:2, p:70, s:"conglomerate", roles:[
     ["bahwan","Founder & Chairman (–Nov 2025)","board","v","former:until Nov 2025"]],
@@ -289,6 +293,7 @@ const PEOPLE = [
   {id:"dr_ghalib_al", n:"Dr. Ghalib Al Hosni", t:2, p:58, s:"comm", roles:[
     ["omantel","Chief People Officer","executive","v"]]},
   {id:"rashad_muhammad_al", n:"Rashad Muhammad Al Zubair", t:2, p:62, s:"finance", roles:[
+    ["zubair","Chairman","board","ns"],
     ["ominvest","Chairman","board","ns"]]},
   {id:"sheikh_khalid_abdullah", n:"Sheikh Khalid Abdullah Al Khalili", t:2, p:62, s:"finance", roles:[
     ["lst_bknz","Chairman","board","v"],
@@ -381,18 +386,23 @@ const PEOPLE = [
   {id:"kwa_chong_seng", n:"Kwa Chong Seng", t:2, p:52, s:"sovereign", roles:[
     ["oia","International Board Member","board","v"]]},
   {id:"hussein_ali_al", n:"Hussein Ali Al Rashdi", t:2, p:58, s:"sovereign", roles:[
+    ["asyad_ports","Board Member","board","ns"],
     ["oia","Acting Director - Corporate Planning & Performance","executive","v"],
     ["asyad","Board Member","board","v"]]},
   {id:"issa_janjan_al", n:"Issa Janjan Al Balushi", t:2, p:58, s:"sovereign", roles:[
     ["oia","Manager - Economic Diversification Investments","executive","v"],
     ["asyad","Board Member","board","v"]]},
   {id:"dr_musallam_mahad", n:"Dr. Musallam Mahad Qatan", t:2, p:62, s:"industry", roles:[
+    ["asyad_ports","Chairman","board","ns"],
     ["asyad","Chairman","board","v"]]},
   {id:"saif_said_al", n:"Saif Said Al Hamhami", t:2, p:62, s:"industry", roles:[
+    ["asyad_ports","Deputy Chairman","board","ns"],
     ["asyad","Deputy Chairman (CEO Abraj Energy Services)","board","v"]]},
   {id:"dr_ismail_ahmed", n:"Dr. Ismail Ahmed Al Balushi", t:2, p:52, s:"industry", roles:[
+    ["asyad_ports","Board Member","board","ns"],
     ["asyad","Board Member","board","v"]]},
   {id:"flemming_dalgaard", n:"Flemming Dalgaard", t:2, p:52, s:"industry", roles:[
+    ["asyad_ports","Board Member","board","ns"],
     ["asyad","Board Member","board","v"]]},
   {id:"muhsin_al_rustom", n:"Muhsin Al Rustom", t:2, p:58, s:"industry", roles:[
     ["asyad","Group Chief Finance Officer","executive","v"]]},
@@ -812,6 +822,48 @@ const PEOPLE = [
     ["oman_airports","Senior Vice President","executive","v"]]},
   {id:"abdullah_bin_saleh", n:"Abdullah bin Saleh Al Yafei", t:2, p:58, s:"industry", roles:[
     ["oman_airports","Vice President Support Services","executive","v"]]},
+  {id:"al_zubair_m", n:"Al Zubair M Al Zubair", t:2, p:62, s:"conglomerate", roles:[
+    ["zubair","Vice Chairman","board","ns"]]},
+  {id:"suhailah_m_al", n:"Suhailah M Al Zubair", t:2, p:52, s:"conglomerate", roles:[
+    ["zubair","Director","board","ns"]]},
+  {id:"ziyad_m_al", n:"Ziyad M Al Zubair", t:2, p:52, s:"conglomerate", roles:[
+    ["zubair","Director","board","ns"]]},
+  {id:"husam_m_al", n:"Husam M Al Zubair", t:2, p:52, s:"conglomerate", roles:[
+    ["zubair","Director","board","ns"]]},
+  {id:"niels_bormans", n:"Niels Bormans", t:2, p:60, s:"conglomerate", roles:[
+    ["zubair","Group Chief Executive Officer","executive","ns"]]},
+  {id:"fahad_al_bulushi", n:"Fahad Al Bulushi", t:2, p:58, s:"conglomerate", roles:[
+    ["zubair","Group Chief Financial Officer","executive","ns"]]},
+  {id:"mohammed_bin_mahfoodh", n:"Mohammed bin Mahfoodh Al Ardhi", t:2, p:62, s:"finance", roles:[
+    ["msx","Chairman","board","ns"]]},
+  {id:"abdullah_saleh_al", n:"Abdullah Saleh Al Suweilmy", t:2, p:52, s:"finance", roles:[
+    ["msx","Board Member","board","ns"]]},
+  {id:"roland_schwinn", n:"Roland Schwinn", t:2, p:52, s:"finance", roles:[
+    ["msx","Board Member","board","ns"]]},
+  {id:"samra_sulaiman_al", n:"Samra Sulaiman Al Harthy", t:2, p:52, s:"finance", roles:[
+    ["msx","Board Member","board","ns"]]},
+  {id:"mathla_saleh_al", n:"Mathla Saleh Al Shaqsi", t:2, p:52, s:"finance", roles:[
+    ["msx","Board Member","board","ns"]]},
+  {id:"imad_kamal_sultan", n:"Imad Kamal Sultan", t:2, p:52, s:"finance", roles:[
+    ["msx","Board Member","board","ns"]]},
+  {id:"hatim_bin_bakhit", n:"Hatim bin Bakhit Al Shanfari", t:2, p:52, s:"finance", roles:[
+    ["msx","Board Member","board","ns"]]},
+  {id:"haitham_bin_salem", n:"Haitham bin Salem Al Salmi", t:2, p:60, s:"finance", roles:[
+    ["msx","Chief Executive Officer","executive","ns"]]},
+  {id:"omar_bin_mahmood", n:"Omar bin Mahmood Al Mahrizi", t:2, p:60, s:"industry", roles:[
+    ["asyad_ports","Chief Executive Officer - Asyad Ports","executive","ns"]]},
+  {id:"said_al_masoudi", n:"Said Al Masoudi", t:2, p:60, s:"materials", roles:[
+    ["soharalum","Chief Executive Officer","executive","ns"]]},
+  {id:"agnello_borim", n:"Agnello Borim", t:2, p:58, s:"materials", roles:[
+    ["soharalum","Chief Operating Officer","executive","ns"]]},
+  {id:"ricardo_fontes_santana", n:"Ricardo Fontes Santana", t:2, p:58, s:"materials", roles:[
+    ["soharalum","Chief Financial Officer","executive","ns"]]},
+  {id:"ahmed_al_kharusi", n:"Ahmed Al Kharusi", t:2, p:46, s:"materials", roles:[
+    ["soharalum","General Manager - Human Resources and Corporate Affairs","executive","ns"]]},
+  {id:"ahmed_bin_hassan", n:"Ahmed bin Hassan Alawi Al Dheeb", t:2, p:62, s:"industry", roles:[
+    ["duqm","Deputy Chairman - OPAZ Board of Directors","board","ns"]]},
+  {id:"ahmed_bin_ali", n:"Ahmed bin Ali Akaak", t:2, p:60, s:"industry", roles:[
+    ["duqm","Chief Executive Officer - Special Economic Zone at Duqm (SEZAD)","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -950,6 +1002,8 @@ const OWNERSHIP = [
   ["nakheel_oman_dev","oia","subsidiary (via Oman Food Capital / Nitaj)","v"],
   ["natl_vet_vaccines","oia","subsidiary (via Oman Food Capital / Nitaj)","v"],
   ["lst_omif","oia","50% joint-venture stake (via OQ)","v"],
+  ["madayn","opaz","affiliated under (transferred from MoCIIP in 2022)","ns"],
+  ["sur_industrial_city","madayn","industrial zone operated by","ns"],
 ];
 
 const FAMILY = [
@@ -981,4 +1035,5 @@ const AKA = {
   al_mazunah_fz:["Al-Mazyunah Free Zone"],
   port_of_duqm:["PDC"],
   al_bashayer_meat:["Al Bashayer Red Meat"],
+  madayn:["PEIE","Public Establishment for Industrial Estates"],
 };

@@ -73,7 +73,7 @@ daman,Daman (National Health Insurance),purehealth,PureHealth,,v
 m42,M42,mubadala,Mubadala Investment Company,JV partner,v
 m42,M42,g42,G42,JV partner,v
 ccad,Cleveland Clinic Abu Dhabi,m42,M42,,v
-adports,AD Ports Group,adq,ADQ,"majority; L'imad/ADQ cash offer for remaining shares cleared conditions Sep 2026 (settlement by 9 Oct 2026, ADX delisting to follow)",v
+adports,AD Ports Group,adq,ADQ,"~98.5%; L'imad/ADQ tender offer completed Sep 2026, stake raised to ~98.5% (incl. further stake bought from Al Seer Marine); settlement by 9 Oct 2026, ADX delisting to follow",ns
 etihad,Etihad Airways,adq,ADQ,,v
 adairports,Abu Dhabi Airports,adq,ADQ,,v
 etihadrail,Etihad Rail,adgov,Abu Dhabi Government (Ruler's Court),state owner,ns
@@ -242,3 +242,5 @@ aldar_investment_propert,Aldar Investment Properties,aldar,Aldar Properties,majo
 aldar_estates,Aldar Estates,aldar,Aldar Properties,majority-owned subsidiary (82.55%; IHC/ADNEC Group minority holders),ns
 provis,Provis Real Estate Management,aldar,Aldar Properties,majority-owned subsidiary (65.10%),ns
 npcc,National Petroleum Construction Company,nmdc,NMDC Group,subsidiary,v
+adnoc_trading,ADNOC Trading,adnoc,ADNOC Group,wholly-owned subsidiary of,ns
+al_yasat_petroleum,Al Yasat Petroleum,adnoc,ADNOC Group,JV between ADNOC Group (60%) and CNPC (40%),ns

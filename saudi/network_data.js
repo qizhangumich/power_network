@@ -438,6 +438,7 @@ const INSTITUTIONS = [
   {id:"idj", n:"International Dairy & Juice Limited", s:"consumer_stap", t:2, p:56, short:"IDJ"},
   {id:"gib_capital", n:"GIB Capital", s:"finance", t:2, p:56, short:"GIB Capital"},
   {id:"solutions_by_stc", n:"solutions by stc", s:"tech", t:3, p:55, short:"solutions by stc"},
+  {id:"al_habib_real", n:"Mohammed Al-Habib Real Estate & Investment Company", s:"realestate", t:3, p:58, short:"Al Habib Real Estate"},
 ];
 
 const PEOPLE = [
@@ -2094,6 +2095,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  lst_4310:["Knowledge Economic City Company"],
   moenergy:["Saudi Energy","Ministry of Energy"],
   lst_1030:["Saudi Investment Bank","SAIB"],
   mbs:["Mohammed bin Salman","MBS","Crown Prince Mohammed"],
@@ -2148,4 +2150,5 @@ const AKA = {
   bsf_capital:["Saudi Fransi Capital"],
   center3:["Digital Centers for Data and Telecommunications Company"],
   gib_capital:["GIB Capital LLC"],
+  al_habib_real:["Mohammed Al Habib Real Estate Company","Mohammad Al-Habib Real Estate Co."],
 };

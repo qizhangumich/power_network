@@ -118,6 +118,8 @@ const INSTITUTIONS = [
   {id:"united_gulf_bank", n:"United Gulf Bank B.S.C.(c)", s:"finance", t:2, p:58, short:"United Gulf Bank"},
   {id:"general_poultry", n:"General Poultry Company", s:"consumer_stap", t:2, p:54, short:"General Poultry"},
   {id:"gheras", n:"Bahrain Agriculture Development Company", s:"consumer_stap", t:2, p:52, short:"Gheras"},
+  {id:"beyon_money", n:"Beyon Money", s:"finance", t:3, p:54, short:"Beyon Money"},
+  {id:"beyon_cyber", n:"Beyon Cyber", s:"tech", t:3, p:52, short:"Beyon Cyber"},
 ];
 
 const PEOPLE = [
@@ -166,6 +168,7 @@ const PEOPLE = [
   {id:"jennings_abc", n:"Paul Jennings", t:2, p:66, s:"finance", roles:[
     ["abc","Group Chief Executive Officer","executive","v"]]},
   {id:"usman_nbb", n:"Usman Ahmed", t:2, p:68, s:"finance", roles:[
+    ["sico_bank","Executive Director","board","ns"],
     ["nbb","Group Chief Executive Officer","executive","v"]]},
   {id:"almajed_edamah", n:"Khaled Abdulrahman Al Majed", t:2, p:60, s:"realestate", roles:[
     ["edamah","Chief Executive Officer","executive","v"]]},
@@ -293,6 +296,7 @@ const PEOPLE = [
   {id:"abdulla_abdulrazaq_bukhowa", n:"Abdulla Abdulrazaq Bukhowa", t:2, p:52, s:"comm", roles:[
     ["beyon","Director","board","v"]]},
   {id:"abdulla_ahmed_kamal", n:"Abdulla Ahmed Kamal", t:2, p:52, s:"comm", roles:[
+    ["sico_bank","Chairman of the Board of Directors","board","ns"],
     ["beyon","Director","board","v"]]},
   {id:"ahmad_mazhar", n:"Ahmad Mazhar", t:2, p:58, s:"comm", roles:[
     ["beyon","Director","board","v"],
@@ -329,6 +333,7 @@ const PEOPLE = [
   {id:"elham_hasan", n:"Elham Hasan", t:2, p:52, s:"sovereign", roles:[
     ["mumtalakat","Board Member","board","v"]]},
   {id:"khalid_hussain_taqi", n:"Khalid Hussain Taqi", t:2, p:62, s:"sovereign", roles:[
+    ["bahrain_airport","Chairman","board","ns"],
     ["mumtalakat","Managing Director - Local Investments","executive","v"],
     ["gulfair","Chairman","board","v"]]},
   {id:"suha_karzoon", n:"Suha Karzoon", t:2, p:60, s:"sovereign", roles:[
@@ -341,17 +346,23 @@ const PEOPLE = [
   {id:"noor_sharafi", n:"Noor Sharafi", t:2, p:58, s:"sovereign", roles:[
     ["mumtalakat","General Counsel","executive","v"]]},
   {id:"shaikh_fahad_bin", n:"Shaikh Fahad bin Abdulrahman Al Khalifa", t:2, p:52, s:"industry", roles:[
+    ["bahrain_airport","Board Member","board","ns"],
     ["edamah","Board Member","board","v"],
     ["gulfair","Board Member","board","v"]]},
   {id:"sara_ahmed_buhiji", n:"Sara Ahmed Buhiji", t:2, p:52, s:"industry", roles:[
+    ["bahrain_airport","Board Member","board","ns"],
     ["gulfair","Board Member","board","v"]]},
   {id:"faisal_ali_al", n:"Faisal Ali Al Jalahma", t:2, p:52, s:"industry", roles:[
+    ["bahrain_airport","Board Member","board","ns"],
     ["gulfair","Board Member","board","v"]]},
   {id:"alaa_abdulkhaleq_saeed", n:"Alaa Abdulkhaleq Saeed", t:2, p:52, s:"industry", roles:[
+    ["bahrain_airport","Board Member","board","ns"],
     ["gulfair","Board Member","board","v"]]},
   {id:"sael_al_waary", n:"Sael Al Waary", t:2, p:52, s:"industry", roles:[
+    ["bahrain_airport","Board Member","board","ns"],
     ["gulfair","Board Member","board","v"]]},
   {id:"julia_simpson", n:"Julia Simpson", t:2, p:52, s:"industry", roles:[
+    ["bahrain_airport","Board Member","board","ns"],
     ["gulfair","Board Member","board","v"]]},
   {id:"captain_qasim_albastaki", n:"Captain Qasim AlBastaki", t:2, p:58, s:"industry", roles:[
     ["gulfair","Chief Operating Officer","executive","v"]]},
@@ -651,6 +662,7 @@ const PEOPLE = [
   {id:"kevin_donegan", n:"Kevin Donegan", t:2, p:58, s:"industry", roles:[
     ["lst_apmtb","Non- Executive Director","executive","v"]]},
   {id:"tala_abdulrahman_fakhro", n:"Tala Abdulrahman Fakhro", t:2, p:52, s:"industry", roles:[
+    ["sico_bank","Director","board","ns"],
     ["lst_apmtb","Independent Director","board","v"]]},
   {id:"rakan_abdulrahman_alotaishan", n:"Rakan Abdulrahman AlOtaishan", t:2, p:52, s:"industry", roles:[
     ["lst_apmtb","Independent Director","board","v"]]},
@@ -790,6 +802,7 @@ const PEOPLE = [
   {id:"aqeel_mohammed_ghaith", n:"Aqeel Mohammed Ghaith", t:2, p:58, s:"finance", roles:[
     ["lst_bbk","Chief Private Banking Officer","executive","v"]]},
   {id:"najla_mohammed_alshirawi", n:"Najla Mohammed Alshirawi", t:2, p:62, s:"finance", roles:[
+    ["sico_bank","Group Chief Executive Officer","executive","ns"],
     ["lst_bcfc","Chairperson","board","v"]]},
   {id:"yaser_abduljalil_alsharifi", n:"Yaser Abduljalil AlSharifi", t:2, p:62, s:"finance", roles:[
     ["lst_bcfc","Vice Chairman","board","v"]]},
@@ -906,6 +919,7 @@ const PEOPLE = [
   {id:"mohamed_abdulla_nooruddin", n:"Mohamed Abdulla Nooruddin", t:2, p:52, s:"finance", roles:[
     ["lst_bisb","Board Member","board","v"]]},
   {id:"khalid_abdulaziz_al", n:"Khalid Abdulaziz Al Jasim", t:2, p:52, s:"finance", roles:[
+    ["sico_bank","Director","board","ns"],
     ["lst_bisb","Board Member","board","v"]]},
   {id:"naser_alhamad", n:"Naser Alhamad", t:2, p:52, s:"finance", roles:[
     ["lst_bisb","Board Member","board","v"]]},
@@ -2488,6 +2502,7 @@ const PEOPLE = [
   {id:"nouf_al_sowaidi", n:"Nouf Al-Sowaidi", t:2, p:58, s:"energy", roles:[
     ["bapco_refining","Group Chief Human Resources Officer","executive","v"]]},
   {id:"mohamed_al_shehab", n:"Mohamed Al Shehab", t:2, p:58, s:"energy", roles:[
+    ["bapco_tazweed","Deputy Chairman","board","ns"],
     ["bapco_refining","Group Chief Commercial and Investment Officer","executive","v"]]},
   {id:"ismaeel_husain", n:"Ismaeel Husain", t:2, p:58, s:"energy", roles:[
     ["bapco_refining","Group Vice President - Health, Safety, Security & Environment (HSSE)","executive","v"]]},
@@ -2528,6 +2543,88 @@ const PEOPLE = [
     ["edamah","Chief Operating Officer","executive","ns"]]},
   {id:"azzan_al_ghamdi", n:"Azzan Al Ghamdi", t:2, p:46, s:"energy", roles:[
     ["bapco_gas","General Manager - Bapco Gas","executive","ns"]]},
+  {id:"adel_bin_khalifa", n:"Adel bin Khalifa Al Fadhel", t:2, p:58, s:"gov", roles:[
+    ["moi_bh","Deputy Interior Minister","executive","ns"]]},
+  {id:"sheikh_nasser_bin", n:"Sheikh Nasser bin Abdulrahman Al Khalifa", t:2, p:58, s:"gov", roles:[
+    ["moi_bh","Interior Ministry Undersecretary","executive","ns"]]},
+  {id:"sheikh_hisham_bin", n:"Sheikh Hisham bin Abdulrahman Al Khalifa", t:2, p:58, s:"gov", roles:[
+    ["moi_bh","Undersecretary for Nationality Passports and Residence Affairs (NPRA)","executive","ns"]]},
+  {id:"tariq_al_hassan", n:"Tariq Al Hassan", t:2, p:58, s:"gov", roles:[
+    ["moi_bh","Chief of Public Security","executive","ns"]]},
+  {id:"waleed_al_hashar", n:"Waleed Al-Hashar", t:2, p:52, s:"finance", roles:[
+    ["sico_bank","Director","board","ns"]]},
+  {id:"elham_almajed", n:"Elham AlMajed", t:2, p:52, s:"finance", roles:[
+    ["sico_bank","Director","board","ns"]]},
+  {id:"dana_raees", n:"Dana Raees", t:2, p:52, s:"finance", roles:[
+    ["sico_bank","Director","board","ns"]]},
+  {id:"mohammed_abdulla", n:"Mohammed Abdulla", t:2, p:52, s:"finance", roles:[
+    ["sico_bank","Director","board","ns"]]},
+  {id:"naseema_haider", n:"Naseema Haider", t:2, p:52, s:"finance", roles:[
+    ["sico_bank","Director","board","ns"]]},
+  {id:"fadi_alqutub", n:"Fadi AlQutub", t:2, p:52, s:"finance", roles:[
+    ["sico_bank","Director","board","ns"]]},
+  {id:"k_krishnan", n:"K. Krishnan", t:2, p:58, s:"finance", roles:[
+    ["sico_bank","Chief Financial Officer","executive","ns"]]},
+  {id:"anantha_narayanan", n:"Anantha Narayanan", t:2, p:58, s:"finance", roles:[
+    ["sico_bank","Chief Operating Officer","executive","ns"]]},
+  {id:"haifa_ajlan", n:"Haifa Ajlan", t:2, p:46, s:"finance", roles:[
+    ["sico_bank","Head of Human Resources & Administration","executive","ns"]]},
+  {id:"mohamed_juma", n:"Mohamed Juma", t:2, p:46, s:"finance", roles:[
+    ["sico_bank","Head of Compliance & MLRO","executive","ns"]]},
+  {id:"shakeel_sarwar", n:"Shakeel Sarwar", t:2, p:46, s:"finance", roles:[
+    ["sico_bank","Head of Equities Asset Management","executive","ns"]]},
+  {id:"nadeen_oweis", n:"Nadeen Oweis", t:2, p:46, s:"finance", roles:[
+    ["sico_bank","Head of Sustainability & Corporate Communications","executive","ns"]]},
+  {id:"simone_del_nevo", n:"Simone Del Nevo", t:2, p:46, s:"finance", roles:[
+    ["sico_bank","Head of Legal & Board Secretary","executive","ns"]]},
+  {id:"noora_janahi", n:"Noora Janahi", t:2, p:58, s:"finance", roles:[
+    ["sico_bank","Group Chief Legal Officer","executive","ns"]]},
+  {id:"fadhel_makhlooq", n:"Fadhel Makhlooq", t:2, p:58, s:"finance", roles:[
+    ["sico_bank","Chief Capital Markets Officer","executive","ns"]]},
+  {id:"mariam_isa", n:"Mariam Isa", t:2, p:46, s:"finance", roles:[
+    ["sico_bank","Head of Brokerage","executive","ns"]]},
+  {id:"yousif_bucheeri", n:"Yousif Bucheeri", t:2, p:60, s:"finance", roles:[
+    ["sico_bank","Group Deputy Chief Executive Officer (Sell Side)","executive","ns"]]},
+  {id:"sheikh_abdullah_nasser", n:"Sheikh Abdullah Nasser Sabah Al-Ahmad Al-Sabah", t:2, p:62, s:"finance", roles:[
+    ["united_gulf_bank","Chairman","board","ns"]]},
+  {id:"samer_alabed", n:"Samer AlAbed", t:2, p:60, s:"finance", roles:[
+    ["united_gulf_bank","Chief Executive Officer","executive","ns"]]},
+  {id:"rehan_ashraf", n:"Rehan Ashraf", t:2, p:58, s:"finance", roles:[
+    ["united_gulf_bank","Senior Vice President & Chief Financial Officer","executive","ns"]]},
+  {id:"mohammed_alqumaish", n:"Mohammed Alqumaish", t:2, p:58, s:"finance", roles:[
+    ["united_gulf_bank","AGM & Corporate Secretary / Chief Audit Executive","executive","ns"]]},
+  {id:"deepa_chandrasekhar", n:"Deepa Chandrasekhar", t:2, p:58, s:"finance", roles:[
+    ["united_gulf_bank","Senior Vice President, Chief Compliance Officer & MLRO","executive","ns"]]},
+  {id:"ahmed_mohamed_janahi", n:"Ahmed Mohamed Janahi", t:2, p:60, s:"industry", roles:[
+    ["bahrain_airport","Chief Executive Officer","executive","ns"]]},
+  {id:"mohamed_alkhenaizi", n:"Mohamed AlKhenaizi", t:2, p:58, s:"industry", roles:[
+    ["bahrain_airport","Chief Commercial Officer","executive","ns"]]},
+  {id:"ali_rashed_alaraifi", n:"Ali Rashed Alaraifi", t:2, p:58, s:"industry", roles:[
+    ["bahrain_airport","Chief Financial Officer","executive","ns"]]},
+  {id:"hesham_nieama", n:"Hesham Nieama", t:2, p:58, s:"industry", roles:[
+    ["bahrain_airport","Chief Operating Officer","executive","ns"]]},
+  {id:"abdulla_janahi", n:"Abdulla Janahi", t:2, p:58, s:"industry", roles:[
+    ["bahrain_airport","Chief Development and Technical Officer","executive","ns"]]},
+  {id:"eman_marhoon", n:"Eman Marhoon", t:2, p:58, s:"industry", roles:[
+    ["bahrain_airport","Vice President, Corporate Communications","executive","ns"]]},
+  {id:"isa_mohammed_najibi", n:"Isa Mohammed Najibi", t:2, p:62, s:"energy", roles:[
+    ["bapco_tazweed","Chairman","board","ns"]]},
+  {id:"mohammed_ahmed_al", n:"Mohammed Ahmed Al-Sada", t:2, p:52, s:"energy", roles:[
+    ["bapco_tazweed","Board Member","board","ns"]]},
+  {id:"ibrahim_mohammed_kanoo", n:"Ibrahim Mohammed Kanoo", t:2, p:52, s:"energy", roles:[
+    ["bapco_tazweed","Board Member","board","ns"]]},
+  {id:"mahran_jamsheer_mirza", n:"Mahran Jamsheer Mirza", t:2, p:52, s:"energy", roles:[
+    ["bapco_tazweed","Board Member","board","ns"]]},
+  {id:"sahar_kamran_ataei", n:"Sahar Kamran Ataei", t:2, p:52, s:"energy", roles:[
+    ["bapco_tazweed","Board Member","board","ns"]]},
+  {id:"basema_al_mahroos", n:"Basema Al Mahroos", t:2, p:60, s:"energy", roles:[
+    ["bapco_tazweed","Chief Executive Officer","executive","ns"]]},
+  {id:"eric_vial", n:"Eric Vial", t:2, p:60, s:"energy", roles:[
+    ["bxt_trading","Chief Executive Officer","executive","ns"]]},
+  {id:"sanjeev_chadha", n:"Sanjeev Chadha", t:2, p:58, s:"energy", roles:[
+    ["bxt_trading","Chief Financial Officer","executive","ns"]]},
+  {id:"fr_d_ric", n:"Frédéric Lassau", t:2, p:46, s:"energy", roles:[
+    ["bxt_trading","Head of Trading","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2611,6 +2708,8 @@ const OWNERSHIP = [
   ["alba","mumtalakat","majority shareholder","v"],
   ["general_poultry","mumtalakat","indirect subsidiary (via Bahrain Food Holding Company)","v"],
   ["gheras","mumtalakat","indirect subsidiary (via Bahrain Food Holding Company)","v"],
+  ["beyon_money","beyon","subsidiary of","ns"],
+  ["beyon_cyber","beyon","subsidiary of","ns"],
 ];
 
 const FAMILY = [

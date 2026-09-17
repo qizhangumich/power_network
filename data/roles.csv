@@ -419,7 +419,8 @@ mohd_loay_t,Mohd Loay T A Abdelfattah,burjeel,,Non-Executive Director (Independe
 dr_shabeena_yusuffali,Dr. Shabeena Yusuffali,burjeel,,Non-Executive Director,board,v
 ravi_rajagopal,Ravi Rajagopal,burjeel,,Non-Executive Director (Independent),board,v
 omran_al_khoori,Omran Al Khoori,burjeel,,Executive Director and President Business Development,executive,v
-muhammed_shihabuddin,Muhammed Shihabuddin,burjeel,,Chief Financial Officer,executive,v
+muhammed_shihabuddin,Muhammed Shihabuddin,burjeel,,Chief Financial Officer (until Sep 2026),executive,v,former:until Sep 2026
+reuben_joseph,Reuben Joseph,burjeel,,Chief Financial Officer,executive,ns,
 mohammad_fityan,Mohammad Fityan,burjeel,,Chief Medical Officer,executive,v
 khaled_musallam,Khaled Musallam,burjeel,,Chief Research Officer,executive,v
 mustasan_jaleel_basharat,Mustasan Jaleel Basharat,burjeel,,Chief Legal Counsel,executive,v
@@ -787,3 +788,30 @@ adrian_hobbs,Adrian Hobbs,core42,,Chief Technology Officer,executive,v
 ali_nimer,Ali Nimer,core42,,Chief Client and Growth Officer,executive,v
 andrew_jackson,Andrew Jackson,core42,,Executive Vice President & Chief AI Officer,executive,v
 sherif_salem,Sherif Salem,chimera,,Chief Investment Officer - Public Markets,executive,v
+abdulla_humaid_al,Abdulla Humaid Al Jarwan,doe,Department of Energy,Chairman,executive,ns,
+ali_al_hammadi,Ali Al Hammadi,imi,,Chief Operating Officer,executive,ns
+khaled_al_hasan,Khaled Al Hasan,imi,,Chief Financial Officer,executive,ns
+hassan_sharif,Hassan Sharif,imi,,Chief of Staff,executive,ns
+karim_ben_salah,Karim Ben Salah,imi,,Chief Investment Officer,executive,ns
+nakhle_elhage,Nakhle Elhage,imi,,Chief Transformation Officer,executive,ns
+ahmed_embaby,Ahmed Embaby,imi,,Chief People Officer,executive,ns
+mona_elsaka,Mona Elsaka,imi,,"Chief Brand, Marketing and Communications Officer",executive,ns
+abdou_gadallah,Abdou Gadallah,imi,,Group Editorial Director,executive,ns
+bradley_eliot,Bradley Eliot,imi,,Chief Technology Officer,executive,ns
+suhail_ahmed,Suhail Ahmed,imi,,Chief Broadcast Technology Transformation Officer,executive,ns
+sherif_badreddine,Sherif Badreddine,imi,,Chief Revenue Officer,executive,ns
+mohamed_ali_al,Mohamed Ali Al Shorafa Al Hammadi,sca,,Chairman of the Board of Directors,board,ns
+faisal_yousuf_selaitin,Faisal Yousuf Selaitin,sca,,Vice Chairman of the Board of Directors,board,ns
+ali_mohammed_bakheet,Ali Mohammed Bakheet Al Rumeithi,sca,,Member of the Board of Directors,board,ns
+arif_mohammed_hadi,Arif Mohammed Hadi Amiri,sca,,Member of the Board of Directors,board,ns
+hamad_sayah_al,Hamad Sayah Al Mazrouei,sca,,Member of the Board of Directors,board,ns
+waleed_saeed_al,Waleed Saeed Al Awadhi,sca,,Chief Executive Officer,executive,ns
+ahmed_mohammed_al,Ahmed Mohammed Al Rumaithi,doe,,Undersecretary,executive,ns
+abdulaziz_mohammed_alhammadi,Abdulaziz Mohammed Alhammadi,doe,,Director General of Regulatory Affairs,executive,ns
+linda_albano,Linda Albano,doe,,Chairman's Advisor and Chief Transformation Program Officer (Water),executive,ns
+noura_al_ghaithi,Noura Al Ghaithi,doh,,Undersecretary,executive,ns
+asma_ibrahim_al,Asma Ibrahim Al Mannaei,doh,,Executive Director of the Research and Innovation Centre,executive,ns
+ahmed_alkhazraji,Ahmed AlKhazraji,doh,,Executive Director of the Healthy Living Unit,executive,ns
+mohammed_abdullah_al,Mohammed Abdullah Al Awadi,doh,,Executive Director of the Health System Financing Regulation Sector,executive,ns
+saood_abdulaziz_al,Saood Abdulaziz Al Hosani,dct,,Undersecretary,executive,ns
+saleh_mohamed_saleh,Saleh Mohamed Saleh Al Geziry,dct,,Director General for Tourism,executive,ns
