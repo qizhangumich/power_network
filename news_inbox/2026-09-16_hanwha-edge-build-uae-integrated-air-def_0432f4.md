@@ -1,0 +1,5 @@
+# Hanwha, EDGE build UAE integrated air-defense network to expand regional reach - CHOSUNBIZ
+source: Chosunbiz
+url: https://news.google.com/rss/articles/CBMiggFBVV95cUxNX0dNTFV3RU9PMTh1OHNsQmdmbnNuSXFhbVNXdkkzbmpXa0FUUGdtbWVhQTFvc3h1S2VHa2JKOWdrTURqWWVfZEJnc0pETjY5cEVoT3cwM3ZWU1J1cWllVzY3R2YwSDZlTkJJdms3cjQ2N0QzTVBnWS1aXzBLbl8yVkN30gGWAUFVX3lxTE1vVDdKLWdqaWJ2V2VCMDc5T1RlNzNpR0c3WDJJTlJPSEFiRmhGbjFKbG1NNmdkdjR0Vy1LaEFSRWxodEpmQnhGd2NUb0JWaWNDTHl2bTRsOXNpbUJNSFhNZ3FSTXhPRlVadjJMTy0yUk5WQzZmU1dyQTdxMXpoY0pab2RRNmNkSk9wRWhNemVJQTFUbllZZw?oc=5
+
+Hanwha, EDGE build UAE integrated air-defense network to expand regional reach - CHOSUNBIZ    Chosunbiz

@@ -1,0 +1,5 @@
+# Noatum Maritime targets AED 100 million in savings with AI fleet platform
+source: thedigitalship.com
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxORjJ6YXFvNWRnNDlibjV3alBubmJ6WVZIWDlXZW5iaGlBQWFXWkRxNEdEWENjcmxtdVpKNThnRzZYZ0dkQV9QMnJZN2JreFBLTm5SZFRxcnJYQWcyVzhkR2dtM0JLQXlvQ2EyRmhMRGFuY0VVaWNDZm5QbEtGRks2bWN0TFRlRy1LYnFsM1NQR0R2RGlkTUhuWEZOT2xtdk5XR3lFdHcxTExxc1loN0dvXzVTdmlmaTdvUS1fM2Utc1Y1NWpSZERjMw?oc=5
+
+Noatum Maritime targets AED 100 million in savings with AI fleet platform    thedigitalship.com

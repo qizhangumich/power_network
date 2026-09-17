@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed offers condolences to family of national duty martyr Saeed Abdalla Alshamsi
+source: mediaoffice.abudhabi
+url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxOd0pCS0ZlTFlHY2szUnhxRVZoUVJsTGFOSUpIUnI0NXBGNTA0U3FDZ0tvYkNvbzBfNjFGRzdmSDQ1Y3doVVJHdW5sbmstdlE4SGlyQTQ5RzlFcGd4Q2FsOXlUTmFRSUwwenNkU1RKd3lXVlhKSnlUdzJ3OFpNXzB5THZPbS1lNV85VmVoUHlZT3h5NjNQNEVCTk9id1hFSHpWakNjSDNFZWNzdHF4M3NDWFNhYUh3LXpKSHY4NGM1S3RmOGZWRjlCeUREWVVPTFhRVDNhWTdkZ0hFV3llejVGSXJwcHhEV0R1cjlYS3VSLTg?oc=5
+
+Khaled bin Mohamed bin Zayed offers condolences to family of national duty martyr Saeed Abdalla Alshamsi    mediaoffice.abudhabi

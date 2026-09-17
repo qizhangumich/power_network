@@ -1,0 +1,5 @@
+# Etihad Airways and Swissport expand global cargo partnership
+source: Air Cargo News
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxNOXhkaDBKaEM5SGQxbkdKOEMxTGZGMUotT0xTTmhyQXROejU5b0lZdFY0ZHcyamRsbHE3N1h3Tk9mNWVkMDdtZllvTmVHeTVtUGFPdHRqOHdIQlFiZ0dPNkZJVXN4VnRGQUkwbkdKb0daSTJFS0VLSzRQalNFRDVlRzA2aWZtODhYZlNKWkpXWmVfelpyN0hRdmxvLVlmbVEzNjFrU1l0YktjZVhUcC1sU2l0VQ?oc=5
+
+Etihad Airways and Swissport expand global cargo partnership    Air Cargo News

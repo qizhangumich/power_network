@@ -1,0 +1,5 @@
+# Hanwha, Edge partnering on UAE's integrated air defence
+source: Janes
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNTTkzck9oZHFYaDVoS1FNTkhmREd4eU1FVmp3QjJseDFxZF9wVkk2eFUwanVGTjh1N0NfeUg1UVNfMVZ1QWFwbUNNMDRpLThxS2ZoOThGNU1pb0JsdHhBUVdMak5XcW9pQWp1V3NoY3NYSHV4UmJZcVNGRUstaDhjM21pUmRXWTFYWHR1aFhLYU9RRzU4Um8wZWVRZnFSWTZKbGRLUTI5cUJxRkxqa0NlOVN3cnRiZVk0WmJrU1dZVWpGV1lq?oc=5
+
+Hanwha, Edge partnering on UAE's integrated air defence    Janes

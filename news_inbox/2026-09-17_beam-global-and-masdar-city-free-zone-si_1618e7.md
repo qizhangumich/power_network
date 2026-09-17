@@ -1,0 +1,5 @@
+# Beam Global and Masdar City Free Zone Signs Memorandum of Understanding to Explore Sustainable Energy Infrastructure Opportunities
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcHlWa3Q1VVZGcW5qcDlZQTZmV09obDhRYXgzVGJyb0MyVHlhWHcydExRUnJOVl9qWmljRFFhRzhqYzJRb2lPM09KczZpaXBvLVNwZ0ZwTXJiTmFxdVVTbm1Kbnd4XzFncDR1NVhCRU0wZC1xclY2RWZlUzlXNzZsdllLV1REdWhqYjFOZVdoQjRJRndqaUxXUUh2R255S0F5R0ljM0RDZzkwM29NSGpBZ2RpZ3hZMjlXUENEekFXVjhROUhhSks5ZjlwZDFhN3lqaEdqMmpiWUh4SWM4SlFHNWdZbTlfM3p4?oc=5
+
+Beam Global and Masdar City Free Zone Signs Memorandum of Understanding to Explore Sustainable Energy Infrastructure Opportunities    marketscreener.com

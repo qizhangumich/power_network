@@ -1,0 +1,5 @@
+# Etihad Airways and Swissport expand global partnership across 40 airports
+source: groundhandlinginternational.com
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxOSG5tZFZIcEJmeDdUbFljenZsdGZCaFFkemJLQ01pRVJFQnBBSXZvd2gzR2hKc1N6UF8yY3hHbFZSbjBMeG1lVVJnUE9WRDV0elItTDRxS09HNDZjeVJlQWh2X3NQYjY2X2NaamxlMEYyZUJlaUVqR1lLRTBEOENlcjVMdUZNeUw5aUE0b2tycTQ4U0FlenFIZjA3X2w1SmVPak82ZHpSNnJNNFdTWjJCZncwR21YeU8tUmVUZ0x2YmFURE9IQUVhYXFn?oc=5
+
+Etihad Airways and Swissport expand global partnership across 40 airports    groundhandlinginternational.com

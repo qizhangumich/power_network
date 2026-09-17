@@ -1,0 +1,5 @@
+# Mubadala’s Spanish Refiner Starts Building Green Hydrogen Plant
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSW5pT1BlYWxKVDNtT2JiWDFjbkwwRmNrV3FwUE1WTDh6b3hwZ0lOcVl3cWxPVlVWSlRMNjA2UGl0c3J5MTRrWXRrMUxpdU5GTHJyZHhEdmt2c1VUX0pKOTJSaFpXZThPSVdjTUZGM3g4dHpaTG1LcW4tVFNQaXFNYURUT0JXakhOSklZc3BVV2RhVFRwQnlncFVxdW91UUZSQUtzRFRaNzFYUDdaVXlBek9yb1ZMVExZS0Y0X2lNeGFyVlhBTFM3SzZaSFFLM2dx?oc=5
+
+Mubadala’s Spanish Refiner Starts Building Green Hydrogen Plant    Bloomberg.com

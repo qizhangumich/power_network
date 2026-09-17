@@ -1,0 +1,5 @@
+# Xi, Crown Prince of Abu Dhabi skip BRICS gala dinner
+source: Rediff
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZlhHSFpfSURRb3lFaXh2WFZ1Y3NZWUw0NmZIN1ladjNkY25DdGNwejg0OG1mREdId080NFVzVHJrT0hjNXFZdzZnYkh1ekZLRHhkR0k0YksxdnJRMEs4NzAyYW9KaTh2R2VyY2lLU3lhLW4taUlFV0ZGZE8wRUNGQWM2S0xpUkRoS1A5dXVhOWRsUjZ4RjJmbm1sUTgzQlNLTnFfcERwZWgycUZNYUU2bUo3Y2hTcndSdnlkbThDWTR1dE9ESldKbFoxQzR4LTNE?oc=5
+
+Xi, Crown Prince of Abu Dhabi skip BRICS gala dinner    Rediff

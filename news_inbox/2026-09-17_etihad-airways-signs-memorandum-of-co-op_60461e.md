@@ -1,0 +1,5 @@
+# Etihad Airways Signs Memorandum of Co-operation with the Tourism Committee of Uzbekistan
+source: Aviation Jeta
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxOMTlOdDd0Ym9JTl9BanB6SUxjVmNRUHJnMjhRNi1nR2tBVm55OGVrWlBydlhYZk4xMnN5dEUzZVdhc1Rsd241VDZhVkZ6WXJtOTlOalEwZ0Fxc0xGaE9rVGZHT3c1SXVVVk1OaVlHbzdEVjFDVUxZSURqNmd4UFkzQ2hJcXk4XzZETmVnQWk2WXdrUHM1WEFDakpzdmhlWV9lZkxSaGM5SHo3RFYtSmVOWWlzR3g?oc=5
+
+Etihad Airways Signs Memorandum of Co-operation with the Tourism Committee of Uzbekistan    Aviation Jeta
