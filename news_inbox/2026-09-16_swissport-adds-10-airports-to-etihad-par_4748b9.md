@@ -1,0 +1,5 @@
+# Swissport adds 10 airports to Etihad partnership
+source: cargofacts.com
+url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOZHg1cnNwcnY2Rzl6elZHVFh2RW5UcnlXUEV0d2p2SEp5bFZ2aTVSRF9kLXhIVHlMRXdGaXpENlZNVnVkRVY3WkRGZFhlRFIzbVZSU3hFNFViT1dJamJwd2Z6Mm5XMmc1S29vVGVoQUlXNnlmNjRGQnI3R3cxa2RKQ01MdTlJbWpsbm5yN2J5dzZaaHEz?oc=5
+
+Swissport adds 10 airports to Etihad partnership    cargofacts.com

@@ -1,0 +1,5 @@
+# Etihad Unveils New Premium Cabin Product For A321LRs, A330s
+source: Aviation Week
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxOWU4tcy10V1FVb29INWFFRmZ0WUJwM1Z2bEs3RGtOenNNYV9US2M2anR1dGlJdkR4bjdEQldVQkplVVdlMHY1bTRiV3daX21odEFPSE5XTnZsc0RpaEIyZHZySUVQQmowYnhaOHY1NklNNDB4cnNYbVZ5azZCcElPQTVXOGRSZGdud1I4aWVzZ18zZEhxa29MNkRlVFdKbUF0QlBXNHBWeHZXLWtfRndkbU1GSmgzbkk?oc=5
+
+Etihad Unveils New Premium Cabin Product For A321LRs, A330s    Aviation Week

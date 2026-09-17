@@ -1,0 +1,5 @@
+# Aldar And Mubadala Investment Company Acquire Masdar City Square And Expand Portfolio In Masdar City
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxQd1Z0dTNzaTBsUlJiUzhhS2ZqTTdGX29nNmg0NVp3c2Y5Y21VaE5ZYnFxc0dvMGs0WHA2Q01DeEFBNWJ5aF9DYTJkVjlMVUZQelRkVEdvVDRIbmQya1dReTZ3V1NkYm42eU1rckpEYVhzX25zdHBYdVpSd1ZYT0lXVlpvVk1sS1FBd1RnZ2QwZmZkdm5ZcGhKemM4eGQ3TkI3UXpPSU50MkhmUEFUR2UwLUxxVWc0OUpGelBPajdoSHZnMU5hTlh3bTdaS1RvQ3NrNlJINXUteHVMdV82M2w5MzdDYkxUZ3pI?oc=5
+
+Aldar And Mubadala Investment Company Acquire Masdar City Square And Expand Portfolio In Masdar City    marketscreener.com
