@@ -1,0 +1,5 @@
+# Sheikh Khaled extends condolences to family of martyred UAE serviceman
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSGpqUWl4RnVfUDBmMkVQbVFqMUlYaGthbVpHY0tlMXdLaUsybElaRWhieU9BOG1xSENHN19wMnZsVDFSem1taUtkX0MtNGV4SGpXbTRMRzJiTGxYbThWdnczRXdOWjdIYTVqWEZyTUtkWjhzS0huRHhNTFNjYVQ3cV83ZWNCNUFqNVhPZV81ZTE1dWtuR0JGcmx2UnV4Z2RqWkVDS19nNzd5bzN2Uld3YTI0Ql9zNzlOZ0llMlYxY3c?oc=5
+
+Sheikh Khaled extends condolences to family of martyred UAE serviceman    thenationalnews.com

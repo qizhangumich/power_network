@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed and Hazza bin Zayed offer condolences to family of national duty martyr Abdalla Shamis Almenhali
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMijAJBVV95cUxNZm5kUG01VnBxdXNhdzRTSWpvZXFDR3RJQlpGOFNyNWl5U1J6enV6SDdxOXR3bVdXX1I1T01rZ0xUeVBfcjF5NkVoYVFnSEhQa2JScWZEbHllTy1rX28ydG83dmduOWdrdm5jOWF3QnRDM21uQjlLOFlESU85NER1LXdyb0ZMZ1dlZkVPYy1YaHlOc1pNYlJjR2NSUkpMZVF5SWlTbWRpSHhJaU8yMFVGUnVNYl9OTTRPZ3lUaFhXcHRjWmZmR2NrVFczYW1rOFU5azg2MzNYNXk0c3phNDI4MWRGdm9ncG1hYWJVY3BDRmxzTUhseXVDOFJxTDFFYldBOXJma3BwT2FtQjJa?oc=5
+
+Khaled bin Mohamed bin Zayed and Hazza bin Zayed offer condolences to family of national duty martyr Abdalla Shamis Almenhali    مكتب أبوظبي الإعلامي

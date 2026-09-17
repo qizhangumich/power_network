@@ -1,0 +1,5 @@
+# Sheikh Khaled offers condolences to family of UAE martyr Saeed Abdalla Alshamsi
+source: Khaleej Times
+url: https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2luelpjcWlXWjZhVW5UNVBzMXZOTk5CUW9sVTZpSlVTeFprQV92RkloQVlzeVl1V3p2Y2dzYWc4cDhnWV9xc25FNUhwNHpxZVd3dTVKUWlGS0x6Q2hKRURWQ0FILV9nYXYwb3dfUUpzd2dhbWdyYVJhV0RndkZIRtIBiAFBVV95cUxPSUFiUVBxUVNrSzFHNEpKRXg2LXJ3Vkw2b2ZvS3N5MjNNbWpnN2NNMnlzSVhUNmhNc2h0UHNJRU5qWnRvWVdlakRuN3c3Qmc1V2JhX3FLWE5RTlU0RVhCLTFCblpDemZLS2pnenhhME9haHZ0R2tyMmowUHZ1R29yQ19KdFZRLVFX?oc=5
+
+Sheikh Khaled offers condolences to family of UAE martyr Saeed Abdalla Alshamsi    Khaleej Times

@@ -1,0 +1,5 @@
+# EDGE and Safran Chart Path for Strategic Defence Cooperation in Brazil
+source: Safran
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOT0RldTN1RmxwQUJ4eFBOUFVEOWRZRkY1amJIYnNHaU83clNVMnhPeXlYc2twNjJMbEptUHFndklBNEdXR0VXVHd0ZWFFNTJudTNieGpmSUV0R3V5Z2JSSjAzTnR0Nlowdnh5U20wT1E0MkdUSGZZdWx1QjVDLS1SWGE3Wkt3cjN4cFp1aEFuQXJPUmVSUk9DQkFtRmdhS0VwRGowa1hPWmJVcjBINFRFZVItRQ?oc=5
+
+EDGE and Safran Chart Path for Strategic Defence Cooperation in Brazil    Safran
