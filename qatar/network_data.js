@@ -58,7 +58,7 @@ const INSTITUTIONS = [
   {id:"qafco",     n:"Qatar Fertiliser Company",      s:"materials", t:2, p:66, short:"QAFCO"},
   {id:"qapco",     n:"Qatar Petrochemical Company",   s:"materials", t:2, p:62, short:"QAPCO"},
   {id:"qatalum",   n:"Qatar Aluminium (Qatalum)",     s:"materials", t:2, p:62, short:"Qatalum"},
-  {id:"qewc",      n:"Qatar Electricity & Water Co",  s:"utilities", t:1, p:76, short:"QEWC"},
+  {id:"qewc",      n:"Nebras Energy",  s:"utilities", t:1, p:76, short:"Nebras Energy"},
   {id:"nebras",    n:"Nebras Power",                  s:"utilities", t:2, p:64, short:"Nebras"},
   {id:"kahramaa",  n:"Kahramaa (General Electricity & Water)", s:"utilities", t:2, p:70, short:"Kahramaa"},
   // — Finance
@@ -127,7 +127,7 @@ const INSTITUTIONS = [
   {id:"lst_qamc", n:"Qatar Aluminium Manufacturing Company Q.P.S.C.", s:"materials", t:2, p:50, short:"QAMC"},
   {id:"lst_qati", n:"Qatar Insurance Company Q.S.P.C.", s:"finance", t:2, p:50, short:"QATI"},
   {id:"lst_zhcd", n:"Zad Holding Company Q.P.S.C.", s:"consumer_stap", t:2, p:50, short:"ZHCD"},
-  {id:"lst_giss", n:"Gulf International Services Q.P.S.C.", s:"energy", t:2, p:50, short:"GISS"},
+  {id:"lst_giss", n:"Gulf International Services Q.P.S.C.", s:"energy", t:2, p:64, short:"GISS"},
   {id:"lst_qfbq", n:"Lesha Bank LLC (formerly Qatar First Bank)", s:"finance", t:2, p:60, short:"Lesha Bank"},
   {id:"lst_mers", n:"Al Meera Consumer Goods Company Q.P.S.C.", s:"consumer_stap", t:2, p:50, short:"MERS"},
   {id:"lst_qgri", n:"Qatar General Insurance & Reinsurance Company Q.P.S.C.", s:"finance", t:2, p:50, short:"QGRI"},
@@ -190,6 +190,8 @@ const INSTITUTIONS = [
   {id:"grsia_daman", n:"General Retirement and Social Insurance Authority", s:"sovereign", t:1, p:64, short:"GRSIA (Daman)"},
   {id:"gen_tax_authority", n:"General Tax Authority", s:"gov", t:2, p:65, short:"Gen Tax Authority"},
   {id:"alrayan_investment", n:"AlRayan Investment LLC", s:"finance", t:3, p:58, short:"AlRayan Investment"},
+  {id:"north_oil", n:"North Oil Company", s:"energy", t:2, p:62, short:"North Oil Co"},
+  {id:"gulf_drilling_intl", n:"Gulf Drilling International Limited", s:"energy", t:3, p:54, short:"Gulf Drilling Intl"},
 ];
 
 const PEOPLE = [
@@ -630,6 +632,7 @@ const PEOPLE = [
   {id:"h_e_sheikh_b_b_b_b_b", n:"H.E. Sheikh Ahmed bin Khalid bin Ahmed bin Sultan Al-Thani", t:2, p:58, s:"finance", roles:[
     ["qcb","Deputy Governor","executive","ns"]]},
   {id:"sheikh_mohammed_bin", n:"Sheikh Mohammed Bin Faisal Al Thani", t:2, p:62, s:"conglomerate", roles:[
+    ["alfaisal","Vice Chairman of the Board","board","ns"],
     ["aamal","Vice Chairman and Managing Director","board","v"]]},
   {id:"sheikh_jabor_bin_b", n:"Sheikh Jabor Bin Abdulrahman Bin Mohammed Al Thani", t:2, p:52, s:"conglomerate", roles:[
     ["dohabank","Board Member","board","v"],
@@ -637,6 +640,7 @@ const PEOPLE = [
   {id:"sheikh_abdullah_hamad", n:"Sheikh Abdullah Hamad Al Thani", t:2, p:52, s:"conglomerate", roles:[
     ["aamal","Non-Independent Board Member","board","v"]]},
   {id:"sheikha_al_jazi", n:"Sheikha Al Jazi Bint Faisal Al Thani", t:2, p:52, s:"conglomerate", roles:[
+    ["alfaisal","Board Member","board","ns"],
     ["aamal","Non-Independent Board Member","board","v"]]},
   {id:"yousif_bin_rashid", n:"Yousif Bin Rashid Al Khater", t:2, p:52, s:"conglomerate", roles:[
     ["aamal","Non-Independent Board Member","board","v"]]},
@@ -743,6 +747,7 @@ const PEOPLE = [
   {id:"essa_bin_hilal", n:"Essa Bin Hilal Al Kuwari", t:2, p:52, s:"comm", roles:[
     ["ooredoo","Board Member","board","v"]]},
   {id:"mohammed_bin_nasser", n:"Mohammed Bin Nasser Al-Hajri", t:2, p:52, s:"comm", roles:[
+    ["qewc","Managing Director and Chief Executive Officer","executive","ns"],
     ["ooredoo","Board Member","board","v"]]},
   {id:"nasser_bin_hamad", n:"Nasser Bin Hamad Bin Nasser Al-Thani", t:2, p:60, s:"comm", roles:[
     ["ooredoo","Group Regional Chief Executive Officer - Middle East","executive","v"]]},
@@ -1021,6 +1026,7 @@ const PEOPLE = [
     ["lst_qfbq","Group Chief Executive Officer","executive","v"]],
     note:"Group CEO of Lesha Bank since Jul 2023 (ex-Group Chief Business Officer, Al Rayan Bank); Chairman of Oryx Corniche Developments and Lesha Aviation Capital. Possibly the same person as CBQ board member Mohamad Ismail Mandani Al Emadi (unconfirmed)."},
   {id:"h_e_sheikh_b_b_b_b_b_b_b_b_b_b_b_b", n:"H.E. Sheikh Bandar bin Mohammed bin Saud Al-Thani", t:2, p:62, s:"sovereign", roles:[
+    ["qcb","Governor and Chairman of the Board of Directors","executive","ns"],
     ["qia","Chairman","board","v"]]},
   {id:"h_e_sheikh_b_b_b_b_b_b_b_b_b_b_b_b_b", n:"H.E. Sheikh Mohammed bin Hamad bin Khalifa Al Thani", t:2, p:62, s:"sovereign", roles:[
     ["qia","Vice Chairman","board","v"]]},
@@ -1272,6 +1278,24 @@ const PEOPLE = [
     ["hmc","Chief Executive Mental Health Service","executive","v"]]},
   {id:"brendon_morris", n:"Brendon Morris", t:2, p:58, s:"health", roles:[
     ["hmc","Deputy Chief for Major Incident Preparedness and Resilience & Ambulance Service","executive","v"]]},
+  {id:"jassim_bin_faisal", n:"Jassim bin Faisal Al Thani", t:2, p:52, s:"conglomerate", roles:[
+    ["alfaisal","Board Member","board","ns"]]},
+  {id:"turki_bin_faisal", n:"Turki bin Faisal Al Thani", t:2, p:52, s:"conglomerate", roles:[
+    ["alfaisal","Board Member","board","ns"]]},
+  {id:"al_anood_bint", n:"Al Anood bint Faisal Al Thani", t:2, p:52, s:"conglomerate", roles:[
+    ["alfaisal","Board Member","board","ns"]]},
+  {id:"haya_bint_faisal", n:"Haya bint Faisal Al Thani", t:2, p:52, s:"conglomerate", roles:[
+    ["alfaisal","Board Member","board","ns"]]},
+  {id:"mohammad_ramahi", n:"Mohammad Ramahi", t:2, p:52, s:"conglomerate", roles:[
+    ["alfaisal","Board Member and Group Chief Financial Officer","board","ns"]]},
+  {id:"tarek_mahmoud_el", n:"Tarek Mahmoud El Sayed", t:2, p:52, s:"conglomerate", roles:[
+    ["alfaisal","Director and Chief Operating Officer","board","ns"]]},
+  {id:"saleh_bin_mohammed", n:"Saleh bin Mohammed Al Nabit", t:2, p:52, s:"finance", roles:[
+    ["qcb","Board Member","board","ns"]]},
+  {id:"tamy_bin_ahmed", n:"Tamy bin Ahmed bin Ali Al Binali", t:2, p:52, s:"finance", roles:[
+    ["qcb","Board Member","board","ns"]]},
+  {id:"khalid_nasser_al", n:"Khalid Nasser Al Khater", t:2, p:52, s:"finance", roles:[
+    ["qcb","Board Member","board","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1381,6 +1405,8 @@ const OWNERSHIP = [
   ["moj_qatar","cabinet","government ministry","ns"],
   ["grsia_daman","mofin","legal entity with direct budget under the Ministry of Finance","ns"],
   ["alrayan_investment","masraf","subsidiary","v"],
+  ["north_oil","qatarenergy","JV between QatarEnergy (70%) and TotalEnergies (30%); operates Al Shaheen field","ns"],
+  ["gulf_drilling_intl","lst_giss","wholly-owned subsidiary of (since May 2014)","ns"],
 ];
 
 const FAMILY = [
@@ -1402,6 +1428,7 @@ const FAMILY = [
 
 const AKA = {
   masraf:["Al Rayan Bank","MARK","AlRayan Bank"],
+  qewc:["Qatar Electricity & Water Co","QEWC"],
   qdb:["Qatar Development"],
   tamim:["Tamim bin Hamad","Emir Tamim","Emir of Qatar"],
   hamad_bk:["Hamad bin Khalifa","Father Emir"],
@@ -1446,4 +1473,6 @@ const AKA = {
   grsia_daman:["GRSIA","Daman"],
   gen_tax_authority:["GTA"],
   alrayan_investment:["ARI"],
+  north_oil:["NOC"],
+  gulf_drilling_intl:["GDI"],
 };

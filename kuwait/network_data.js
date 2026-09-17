@@ -64,7 +64,6 @@ const INSTITUTIONS = [
   {id:"lst_boubyan", n:"Boubyan Bank K.S.C.P.", s:"finance", t:2, p:64, short:"Boubyan Bank"},
   {id:"lst_ifa", n:"International Financial Advisors Holding", s:"finance", t:2, p:50, short:"IFA"},
   {id:"lst_ninv", n:"National Investments Co", s:"finance", t:2, p:50, short:"NINV"},
-  {id:"lst_kproj", n:"Kuwait Projects Holding", s:"finance", t:2, p:50, short:"KPROJ"},
   {id:"lst_arzan", n:"Arzan Financial Group for Financing and Investment", s:"finance", t:2, p:50, short:"ARZAN"},
   {id:"lst_aayan", n:"Aayan Leasing and Investment", s:"finance", t:2, p:50, short:"AAYAN"},
   {id:"lst_kre", n:"Kuwait Real Estate Co KSC", s:"realestate", t:2, p:50, short:"KRE"},
@@ -214,6 +213,7 @@ const INSTITUTIONS = [
   {id:"part_kuwait", n:"Public Authority for Roads and Transportation", s:"industry", t:2, p:62, short:"PART Kuwait"},
   {id:"csc_kuwait", n:"Civil Service Commission", s:"gov", t:2, p:54, short:"CSC Kuwait"},
   {id:"kuna", n:"Kuwait News Agency", s:"comm", t:2, p:56, short:"KUNA"},
+  {id:"xcite_electronics", n:"Xcite Alghanim Electronics", s:"consumer_disc", t:2, p:58, short:"Xcite Electronics"},
 ];
 
 const PEOPLE = [
@@ -314,6 +314,7 @@ const PEOPLE = [
   {id:"sujit_ronghe", n:"Sujit Ronghe", t:2, p:58, s:"finance", roles:[
     ["nbk","Group Chief Financial Officer","executive","v"]]},
   {id:"mohammed_al_othman", n:"Mohammed Al-Othman", t:2, p:60, s:"finance", roles:[
+    ["knet","Chairman of the Board","board","ns"],
     ["nbk","CEO - Consumer & Digital Banking","executive","v"]]},
   {id:"mohammad_yousef_al", n:"Mohammad Yousef Al-Kharafi", t:2, p:58, s:"finance", roles:[
     ["nbk","Group Chief Operating Officer","executive","v"]]},
@@ -334,6 +335,7 @@ const PEOPLE = [
   {id:"rasheed_mohamed_almaraj", n:"Rasheed Mohamed Almaraj", t:2, p:52, s:"finance", roles:[
     ["kfh","Independent Board Member","board","v"]]},
   {id:"hanan_fares_al", n:"Hanan Fares Al-Fares", t:2, p:52, s:"finance", roles:[
+    ["kuwaitairways","Board Member","board","ns"],
     ["kfh","Board Member (KIA Representative)","board","v"]]},
   {id:"naser_abdullateef_al", n:"Naser Abdullateef Al-Rodhan", t:2, p:52, s:"finance", roles:[
     ["kfh","Board Member (KIA Representative)","board","v"]]},
@@ -615,6 +617,7 @@ const PEOPLE = [
   {id:"salah_al_fouzan", n:"Salah Al-Fouzan", t:2, p:52, s:"sovereign", roles:[
     ["kia","Board Member","board","v"]]},
   {id:"abdulmohsen_almukhaizeem", n:"Abdulmohsen Almukhaizeem", t:2, p:60, s:"sovereign", roles:[
+    ["kuwaitairways","Vice Chairman of the Board","board","ns"],
     ["kia","President and CEO Kuwait Investment Office London","executive","v"]]},
   {id:"abdulaziz_alhudaib", n:"Abdulaziz Alhudaib", t:2, p:58, s:"sovereign", roles:[
     ["kia","Acting Executive Director Planning & Senior Management Support","executive","v"]]},
@@ -1170,6 +1173,40 @@ const PEOPLE = [
     ["equate","Vice President, Operations","executive","v"]]},
   {id:"loay_jassim_al", n:"Loay Jassim Al-Kharafi", t:2, p:58, s:"conglomerate", roles:[
     ["kharafi","CEO, Mohamed Abdul Mohsen Al-Kharafi & Sons Company","executive","ns"]]},
+  {id:"nasser_al_roudhan", n:"Nasser Al-Roudhan", t:2, p:62, s:"industry", roles:[
+    ["kuwaitairways","Chairman of the Board","board","ns"]]},
+  {id:"noor_al_jassem", n:"Noor Al-Jassem", t:2, p:52, s:"industry", roles:[
+    ["kuwaitairways","Board Member","board","ns"]]},
+  {id:"mishari_al_hunaidi", n:"Mishari Al-Hunaidi", t:2, p:52, s:"industry", roles:[
+    ["kuwaitairways","Board Member","board","ns"]]},
+  {id:"enrique_dupuy", n:"Enrique Dupuy", t:2, p:52, s:"industry", roles:[
+    ["kuwaitairways","Independent Board Member","board","ns"]]},
+  {id:"giles_agutter", n:"Giles Agutter", t:2, p:52, s:"industry", roles:[
+    ["kuwaitairways","Independent Board Member","board","ns"]]},
+  {id:"ryan_van_der", n:"Ryan van der Eijk", t:2, p:52, s:"industry", roles:[
+    ["kuwaitairways","Independent Board Member","board","ns"]]},
+  {id:"abdul_wahab_al", n:"Abdul Wahab Al-Shatti", t:2, p:60, s:"industry", roles:[
+    ["kuwaitairways","Chief Executive Officer","executive","ns"]]},
+  {id:"faisal_bader_al", n:"Faisal Bader Al-Sayer", t:2, p:62, s:"conglomerate", roles:[
+    ["alsayer","Chairman","board","ns"]]},
+  {id:"musaed_bader_al", n:"Musaed Bader Al-Sayer", t:2, p:62, s:"conglomerate", roles:[
+    ["alsayer","Vice Chairman","board","ns"]]},
+  {id:"mohamed_naser_al", n:"Mohamed Naser Al-Sayer", t:2, p:52, s:"conglomerate", roles:[
+    ["alsayer","Executive Board Member","board","ns"]]},
+  {id:"mubarak_naser_al", n:"Mubarak Naser Al-Sayer", t:2, p:60, s:"conglomerate", roles:[
+    ["alsayer","Chief Executive Officer","executive","ns"]]},
+  {id:"othman_tawfiqi", n:"Othman Tawfiqi", t:2, p:62, s:"tech", roles:[
+    ["knet","Vice Chairman of the Board","board","ns"]]},
+  {id:"esam_alkheshnam", n:"Esam Alkheshnam", t:2, p:60, s:"tech", roles:[
+    ["knet","Chief Executive Officer","executive","ns"]]},
+  {id:"khalid_sulaiman_al", n:"Khalid Sulaiman Al Jarrallah", t:2, p:58, s:"gov", roles:[
+    ["mofa_kw","Deputy Minister of Foreign Affairs","executive","ns"]]},
+  {id:"abdulmohsen_j_al", n:"Abdulmohsen J. Al-Zaid", t:2, p:58, s:"gov", roles:[
+    ["mofa_kw","Assistant Foreign Minister for Protocol Affairs","executive","ns"]]},
+  {id:"meshal_salem_alhubail", n:"Meshal Salem AlHubail", t:2, p:58, s:"gov", roles:[
+    ["mofa_kw","Deputy Assistant Foreign Minister for the Office of the Deputy Minister","executive","ns"]]},
+  {id:"khaled_tuwaim_al", n:"Khaled Tuwaim Al-Ajmi", t:2, p:58, s:"gov", roles:[
+    ["mofa_kw","Deputy Assistant Foreign Minister for Protocol Affairs","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1195,7 +1232,7 @@ const OWNERSHIP = [
   ["lst_boubyan","boursa","listed on Boursa Kuwait","ns"],
   ["lst_ifa","boursa","listed on Boursa Kuwait","ns"],
   ["lst_ninv","boursa","listed on Boursa Kuwait","ns"],
-  ["lst_kproj","boursa","listed on Boursa Kuwait","ns"],
+  ["kipco","boursa","listed on Boursa Kuwait","ns"],
   ["lst_arzan","boursa","listed on Boursa Kuwait","ns"],
   ["lst_aayan","boursa","listed on Boursa Kuwait","ns"],
   ["lst_kre","boursa","listed on Boursa Kuwait","ns"],
@@ -1328,6 +1365,7 @@ const OWNERSHIP = [
   ["mew_kuwait","cabinet_kw","government ministry","ns"],
   ["mod_kuwait","cabinet_kw","government ministry","ns"],
   ["kuna","moinfo_kw","operates as a branch of the Ministry of Information","ns"],
+  ["xcite_electronics","alghanim","subsidiary of","ns"],
 ];
 
 const FAMILY = [
@@ -1345,6 +1383,7 @@ const AKA = {
   bader_kharafi:["Bader Al-Kharafi"],
   alshaya:["Alshaya"],
   dana_alsabah_kipco:["Dana Al Sabah"],
+  kipco:["Kuwait Projects Company (Holding)","Kuwait Projects Holding","KPROJ"],
   alkhateeb_knpc:["Wadha Al-Khateeb"],
   q8:["KPI"],
   kfaed:["Kuwait Fund"],
@@ -1359,4 +1398,5 @@ const AKA = {
   paafr:["PAAF"],
   part_kuwait:["PART"],
   csc_kuwait:["CSC"],
+  xcite_electronics:["X-cite","Xcite"],
 };

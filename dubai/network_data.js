@@ -175,6 +175,9 @@ const INSTITUTIONS = [
   {id:"emaar_development", n:"Emaar Development PJSC", s:"realestate", t:2, p:62, short:"Emaar Development"},
   {id:"empower", n:"Emirates Central Cooling Systems Corporation PJSC", s:"utilities", t:3, p:58, short:"Empower"},
   {id:"driven_properties", n:"Driven Properties", s:"realestate", t:3, p:54, short:"Driven Properties"},
+  {id:"al_futtaim_motors", n:"Al-Futtaim Motors", s:"consumer_disc", t:2, p:62, short:"Al-Futtaim Motors"},
+  {id:"ikea_al_futtaim", n:"IKEA Al-Futtaim Trading Company LLC", s:"consumer_disc", t:2, p:58, short:"IKEA Al-Futtaim"},
+  {id:"orient_insurance", n:"Orient Insurance PJSC", s:"finance", t:2, p:60, short:"Orient Insurance"},
 ];
 
 const PEOPLE = [
@@ -258,6 +261,7 @@ const PEOPLE = [
   {id:"khalaf_habtoor", n:"Khalaf Al Habtoor", t:2, p:76, s:"conglomerate", roles:[
     ["alhabtoor","Founder & Chairman","board","v"]]},
   {id:"amit_kaushal", n:"Amit Kaushal", t:2, p:72, s:"sovereign", roles:[
+    ["tecom","Director","board","ns"],
     ["dubaiholding","Group CEO","executive","v"]]},
   {id:"ismail_maf", n:"Ahmed Galal Ismail", t:2, p:74, s:"conglomerate", roles:[
     ["maf","Group CEO","executive","v"]]},
@@ -304,6 +308,7 @@ const PEOPLE = [
     ["lst_parkin","Board Member","board","v"],
     ["dha","Director-General","government","v"]]},
   {id:"aisha_miran_khda", n:"Aisha Abdulla Miran", t:1, p:66, s:"education", roles:[
+    ["tecom","Director","board","ns"],
     ["execco","Member (Director General of KHDA)","board","v"],
     ["khda","Director-General","government","v"]]},
   {id:"omar_bushehab_dld", n:"Omar Hamad Bu Shehab", t:1, p:74, s:"gov", roles:[
@@ -361,6 +366,7 @@ const PEOPLE = [
   {id:"matar_alhemeiri", n:"Matar AlHemeiri", t:2, p:52, s:"realestate", roles:[
     ["emaar","Board Member","board","v"]]},
   {id:"omar_karim", n:"Omar Karim", t:2, p:52, s:"realestate", roles:[
+    ["tecom","Director","board","ns"],
     ["emaar","Board Member","board","v"],
     ["dubaiholding","Group Chief Investment Officer; CEO, Dubai Holding Investments","executive","v"]]},
   {id:"amit_jain", n:"Amit Jain", t:2, p:58, s:"realestate", roles:[
@@ -530,6 +536,7 @@ const PEOPLE = [
   {id:"justin_shields", n:"Justin Shields", t:2, p:58, s:"comm", roles:[
     ["du","Chief Information Officer","executive","v"]]},
   {id:"malek_al_malek", n:"Malek Al Malek", t:2, p:62, s:"comm", roles:[
+    ["tecom","Chairman","board","ns"],
     ["du","Chairman (Independent Non-Executive)","board","v"],
     ["dubaiholding","Group CEO, Dubai Holding Asset Management","executive","v"]]},
   {id:"ahmad_julfar", n:"Ahmad Julfar", t:2, p:62, s:"comm", roles:[
@@ -538,6 +545,7 @@ const PEOPLE = [
     ["execco","Secretary General","executive","v"],
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
   {id:"abdulla_belhoul", n:"Abdulla Belhoul", t:2, p:52, s:"comm", roles:[
+    ["tecom","Chief Executive Officer","executive","ns"],
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
   {id:"wesam_lootah", n:"Wesam Lootah", t:2, p:52, s:"comm", roles:[
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
@@ -599,6 +607,7 @@ const PEOPLE = [
   {id:"edward_sunna", n:"Edward Sunna", t:2, p:58, s:"sovereign", roles:[
     ["dubaiholding","Group Chief Legal Officer","executive","v"]]},
   {id:"fatma_hussain", n:"Fatma Hussain", t:2, p:58, s:"sovereign", roles:[
+    ["tecom","Director","board","ns"],
     ["dubaiholding","Group Chief People Officer","executive","v"]]},
   {id:"huda_buhumaid", n:"Huda Buhumaid", t:2, p:58, s:"sovereign", roles:[
     ["dubaiholding","Group Chief Impact Officer","executive","v"]]},
@@ -1335,6 +1344,40 @@ const PEOPLE = [
     ["dmcc","Board Member","board","v"]]},
   {id:"thierry_jean_louis", n:"Thierry Jean Louis Gimonnet", t:2, p:52, s:"gov", roles:[
     ["dmcc","Board Member","board","v"]]},
+  {id:"ahmed_mohammed_aqil", n:"Ahmed Mohammed Aqil Alqassim", t:2, p:62, s:"realestate", roles:[
+    ["tecom","Deputy Chairman","board","ns"]]},
+  {id:"arif_abdulrahman_ahli", n:"Arif Abdulrahman Ahli", t:2, p:52, s:"realestate", roles:[
+    ["tecom","Director","board","ns"]]},
+  {id:"michael_wunderbaldinger", n:"Michael Wunderbaldinger", t:2, p:58, s:"realestate", roles:[
+    ["tecom","Group Chief Financial Officer","executive","ns"]]},
+  {id:"ahmad_al_mheiri", n:"Ahmad Al Mheiri", t:2, p:58, s:"realestate", roles:[
+    ["tecom","Senior Vice President Business Services","executive","ns"]]},
+  {id:"ammar_al_malik", n:"Ammar Al Malik", t:2, p:58, s:"realestate", roles:[
+    ["tecom","Executive Vice President Commercial Leasing","executive","ns"]]},
+  {id:"saud_abu_alshawareb", n:"Saud Abu Alshawareb", t:2, p:58, s:"realestate", roles:[
+    ["tecom","Executive Vice President Industrial Leasing","executive","ns"]]},
+  {id:"haif_zamzam", n:"Haif Zamzam", t:2, p:58, s:"realestate", roles:[
+    ["tecom","Executive Vice President Strategy and Marketing","executive","ns"]]},
+  {id:"muhammad_binghatti", n:"Muhammad Binghatti", t:2, p:62, s:"realestate", roles:[
+    ["binghatti","Chairman","board","ns"]]},
+  {id:"ahmed_binghatti", n:"Ahmed Binghatti", t:2, p:62, s:"realestate", roles:[
+    ["binghatti","Vice Chairman","board","ns"]]},
+  {id:"katralnada_binghatti", n:"Katralnada Binghatti", t:2, p:60, s:"realestate", roles:[
+    ["binghatti","Chief Executive Officer","executive","ns"]]},
+  {id:"faraz_khalid", n:"Faraz Khalid", t:2, p:60, s:"tech", roles:[
+    ["noon","Chief Executive Officer","executive","ns"]]},
+  {id:"saad_al_khayyat", n:"Saad Al Khayyat", t:2, p:62, s:"conglomerate", roles:[
+    ["al_khayyat_investments","Chairman","board","ns"]]},
+  {id:"zaid_al_khayyat", n:"Zaid Al Khayyat", t:2, p:60, s:"conglomerate", roles:[
+    ["al_khayyat_investments","Managing Director","executive","ns"]]},
+  {id:"jose_alberto_esteve", n:"Jose Alberto Esteve", t:2, p:60, s:"conglomerate", roles:[
+    ["al_khayyat_investments","Chief Executive Officer","executive","ns"]]},
+  {id:"yahya_bin_saeed", n:"Yahya Bin Saeed Al Lootah", t:2, p:62, s:"conglomerate", roles:[
+    ["s_s_lootah","Vice Chairman","board","ns"]]},
+  {id:"ahmad_ali_meftah", n:"Ahmad Ali Meftah", t:2, p:58, s:"gov", roles:[
+    ["dof_dxb","Executive Director Central Accounts Sector","executive","ns"]]},
+  {id:"saif_muhair_al", n:"Saif Muhair Al Mazroui", t:2, p:58, s:"gov", roles:[
+    ["dxbpolice","Assistant Commander-in-Chief for Operations","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1457,6 +1500,9 @@ const OWNERSHIP = [
   ["p_o_ferries","dpworld","wholly-owned subsidiary (acquired 2019 for $421m)","v"],
   ["emaar_development","emaar","majority-owned subsidiary (DFM-listed BTS development arm)","v"],
   ["empower","dewa","subsidiary","v"],
+  ["al_futtaim_motors","alfuttaim","subsidiary of; exclusive Toyota/Lexus/Hino distributor in UAE since 1955","ns"],
+  ["ikea_al_futtaim","alfuttaim","franchise subsidiary of; operates IKEA stores in UAE/Egypt/Oman/Qatar","ns"],
+  ["orient_insurance","alfuttaim","subsidiary of (100% owned; immediate holding entity is Al Futtaim Development Services Company)","ns"],
 ];
 
 const FAMILY = [
@@ -1518,4 +1564,6 @@ const AKA = {
   fakhruddin_prop:["Fakhruddin Properties LLC"],
   dubai_maritime_auth:["DMA","Dubai Maritime City Authority"],
   emaar_development:["EMAARDEV"],
+  al_futtaim_motors:["Al-Futtaim Automotive"],
+  ikea_al_futtaim:["Al-Futtaim IKEA"],
 };

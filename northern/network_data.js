@@ -635,6 +635,28 @@ const PEOPLE = [
     ["thumbay","Vice President, Healthcare Division","executive","v"]]},
   {id:"akram_moideen_thumbay", n:"Akram Moideen Thumbay", t:2, p:58, s:"health", roles:[
     ["thumbay","Director Operations, Construction & Renovation Division; Thumbay Group Board Member","executive","v"]]},
+  {id:"benoy_kurien", n:"Benoy Kurien", t:2, p:60, s:"realestate", roles:[
+    ["al_hamra","Group Chief Executive Officer","executive","ns"]]},
+  {id:"raman_garg", n:"Raman Garg", t:2, p:58, s:"realestate", roles:[
+    ["al_hamra","Group Chief Financial Officer","executive","ns"]]},
+  {id:"abdulrahman_mohamed_nassir", n:"Abdulrahman Mohamed Nassir Salem Alowais", t:2, p:62, s:"finance", roles:[
+    ["sharjah_islamic_bk","Chairman","board","ns"]]},
+  {id:"othman_mohamed_sharif", n:"Othman Mohamed Sharif Abdalla Zaman", t:2, p:62, s:"finance", roles:[
+    ["sharjah_islamic_bk","Vice Chairman","board","ns"]]},
+  {id:"ali_salim_ali", n:"Ali Salim Ali Salim Almazroua", t:2, p:52, s:"finance", roles:[
+    ["sharjah_islamic_bk","Director","board","ns"]]},
+  {id:"salah_butti_obaid", n:"Salah Butti Obaid Binbutti Almheiri", t:2, p:52, s:"finance", roles:[
+    ["sharjah_islamic_bk","Director","board","ns"]]},
+  {id:"jasim_mohamed_abdalla", n:"Jasim Mohamed Abdalla Ahmed Alkhayyal", t:2, p:52, s:"finance", roles:[
+    ["sharjah_islamic_bk","Director","board","ns"]]},
+  {id:"abdalla_mohamed_obaid", n:"Abdalla Mohamed Obaid Belhaif AlNuaimi", t:2, p:52, s:"finance", roles:[
+    ["sharjah_islamic_bk","Director","board","ns"]]},
+  {id:"khawla_abdelrahman_hassan", n:"Khawla Abdelrahman Hassan Almulla Alsaabri", t:2, p:52, s:"finance", roles:[
+    ["sharjah_islamic_bk","Director","board","ns"]]},
+  {id:"eisa_saif_ahmed", n:"Eisa Saif Ahmed Handhal Altamimi", t:2, p:52, s:"finance", roles:[
+    ["sharjah_islamic_bk","Director","board","ns"]]},
+  {id:"mohamed_ahmed_abdalla", n:"Mohamed Ahmed Abdalla Mohamed", t:2, p:60, s:"finance", roles:[
+    ["sharjah_islamic_bk","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

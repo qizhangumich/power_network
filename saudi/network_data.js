@@ -273,7 +273,7 @@ const INSTITUTIONS = [
   {id:"lst_8310", n:"Amana Cooperative Insurance Co.", s:"finance", t:2, p:50, short:"8310"},
   {id:"lst_8311", n:"Enaya Cooperative Insurance Co.", s:"finance", t:2, p:50, short:"8311"},
   {id:"lst_8313", n:"Rasan Information Technology Co.", s:"finance", t:2, p:50, short:"8313"},
-  {id:"lst_7030", n:"Zain Saudi Arabia", s:"comm", t:2, p:50, short:"Zain Saudi Arabia"},
+  {id:"lst_7030", n:"Zain Saudi Arabia", s:"comm", t:2, p:58, short:"Zain Saudi Arabia"},
   {id:"lst_7040", n:"Go Telecom (Etihad Atheeb Telecommunication Co.)", s:"comm", t:2, p:50, short:"7040"},
   {id:"lst_2081", n:"Alkhorayef Water and Power Technologies Co.", s:"utilities", t:2, p:50, short:"2081"},
   {id:"lst_2083", n:"Marafiq (Power and Water Utility Company for Jubail and Yanbu)", s:"utilities", t:2, p:50, short:"2083"},
@@ -439,6 +439,9 @@ const INSTITUTIONS = [
   {id:"gib_capital", n:"GIB Capital", s:"finance", t:2, p:56, short:"GIB Capital"},
   {id:"solutions_by_stc", n:"solutions by stc", s:"tech", t:3, p:55, short:"solutions by stc"},
   {id:"al_habib_real", n:"Mohammed Al-Habib Real Estate & Investment Company", s:"realestate", t:3, p:58, short:"Al Habib Real Estate"},
+  {id:"yanpet", n:"Saudi Yanbu Petrochemical Company", s:"materials", t:2, p:62, short:"YANPET"},
+  {id:"kemya", n:"Al-Jubail Petrochemical Company", s:"materials", t:2, p:58, short:"KEMYA"},
+  {id:"sadaf", n:"Saudi Petrochemical Company", s:"materials", t:2, p:58, short:"SADAF"},
 ];
 
 const PEOPLE = [
@@ -2084,6 +2087,9 @@ const OWNERSHIP = [
   ["gib_capital","gib_ksa","wholly-owned investment banking subsidiary","v"],
   ["solutions_by_stc","stc","subsidiary","v"],
   ["lst_2382","pif","major shareholder","v"],
+  ["yanpet","sabic","JV between SABIC and ExxonMobil (50/50)","ns"],
+  ["kemya","sabic","JV between SABIC and ExxonMobil (50/50)","ns"],
+  ["sadaf","sabic","subsidiary of (formerly 50/50 JV with Shell; SABIC bought out Shell's stake in 2017)","ns"],
 ];
 
 const FAMILY = [
@@ -2151,4 +2157,5 @@ const AKA = {
   center3:["Digital Centers for Data and Telecommunications Company"],
   gib_capital:["GIB Capital LLC"],
   al_habib_real:["Mohammed Al Habib Real Estate Company","Mohammad Al-Habib Real Estate Co."],
+  yanpet:["Mobil Yanbu Petrochemical Company"],
 };
