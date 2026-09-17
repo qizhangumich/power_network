@@ -1,0 +1,5 @@
+# ADNOC Gas Appoints Mark Taylor As Chief Projects & Engineering Officer
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTWdMVHBLR3V3UDVWZnJ2TERhUXNhVm00SktWblF3cVZvT0J0ZHI0cTZBeFVweUJlTWVrYVJOYXd6elBGdXBCMnZoZlN0cXRwSVpJUnZaRjI1TTlMTm5HTE13aGlnS2xGN1ZVSmlDZ1p2LVd2ZEVBdk16M3RZUEZ1WUJVN1pMME4tV0hlb2hCUkVjaDV5S2RqT1p0TFcxX2laMFUwUEprVHVWcTRRbkg2TXlxUGpYWktmWkgyUGk4bnd6M0J0dXZwNGRrMVRGT2trV19Zcg?oc=5
+
+ADNOC Gas Appoints Mark Taylor As Chief Projects & Engineering Officer    TradingView

@@ -1,0 +1,5 @@
+# Metito lands contract for Dubai South sewage plant, Aldar + Mubadala buy further into Masdar City, Mubadala-backed Caturus LNG facility is getting bigger
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMimgJBVV95cUxQM1g2b2MyODJ2RHFaT3oyaGw3eTJrdVZLWE9hMENZSEE3ZW12TG5Wbm9SMldsZUVmcXJsMjRQT00zdzdUUGRQVTJSdkJ4VGhIR1M5QVYwMEl1LXowLTQxVy1QNWx4bkVGeFV4T3lTbmlITU9DR0lPZG45Mk56ejdXMGRGeHQwUkh1NWE0OFhjZ0xudDJDaF9vNDdZMG5XRUtmYVVnRlhQZG1DM1E0dkRYdTg2ZHlBWlpjcFNyYVI4YmNuYW5vMU4wMEhLbzJlM3MtMzdpVHNhaGdzU1BiWEQtUWxMeUhRaEdLRWJsMTNYQ1pKT29IeF9wWko2YmJETDhocmdEQTc0RDNvV0RrejBRajFqeVRBR2prYnc?oc=5
+
+Metito lands contract for Dubai South sewage plant, Aldar + Mubadala buy further into Masdar City, Mubadala-backed Caturus LNG facility is getting bigger    EnterpriseAM

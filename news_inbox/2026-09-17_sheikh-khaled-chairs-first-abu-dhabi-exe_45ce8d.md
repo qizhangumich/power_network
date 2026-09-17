@@ -1,0 +1,5 @@
+# Sheikh Khaled chairs first Abu Dhabi Executive Council meeting to use agentic AI platform
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQlNTY1RpVHhrUG8zbUdKV1VJUlBIcll6NWNnWW13cVE5VGp1MGhOYkJnS3NLdGd1dE9fSzBLdTJiN2ZRYnZ3QTRBb3lJaVJHLTF5YXBrRFhrcDZxWmdac1dIazhfdmhfLWZscU11MFhHTmxqSDBjUzZIMVRBdlZaMkhnZGpTbURZOXZ4V3VZR19pV1U3Ri1Dbmc1Nmc5YlNrZnFHWG0wd1ZmajBXSXRuU3g2WU9SUkVyaUFtOC1MSzhRU3FFWTAzVTFPcDJ3SENkQ3hqaVp4Q0liUQ?oc=5
+
+Sheikh Khaled chairs first Abu Dhabi Executive Council meeting to use agentic AI platform    thenationalnews.com

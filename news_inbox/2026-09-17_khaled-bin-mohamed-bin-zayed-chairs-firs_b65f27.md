@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed chairs first Abu Dhabi Executive Council meeting to use an agentic AI platform
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxNRWhTMEdENHRZM0RuMnRvUWdNcUFfdHBUS3VqbU1tQ2pfT3J6YnJKUF9jdThHeVJTcnlybGJMcDIyc1pFWVdYd2g1aWN5dS13VU5XZzFtTWhENEp6ZUlYQk5UVEY0Wi00RXVTR1NNUWZxOHJxSXVMclhURnRrUEotQWJGZTVyVE1NQUxaM3ZoQVFCdWVTdjRCMzVzakU1OHRpYkdmVUNVQzU1dElHRHBWXzl1UTM3NmQ3b2d1Y055UDVRRG1lMXZCdmtoMEFfNURRWVNvZ2lVek9UMTBIUU9lMkE2WVdFUFJfMkxRcmwyRFkzaDhB?oc=5
+
+Khaled bin Mohamed bin Zayed chairs first Abu Dhabi Executive Council meeting to use an agentic AI platform    مكتب أبوظبي الإعلامي

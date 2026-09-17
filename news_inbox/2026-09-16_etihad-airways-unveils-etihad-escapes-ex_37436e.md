@@ -1,0 +1,5 @@
+# Etihad Airways unveils Etihad Escapes, expanding beyond flights into travel services
+source: Travel Trade Journal
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFp4UXp3TVZlOXl1VmN2eDI3dk9fS0ctc2FSQTdDN0NPMmJFN09uYmNDM3BWN0R5NWV3Um5Qbmk2a19Jd2xPcnRWU0syaERvWG04RkFHRi1YNHZjR0FLZy0tWFBWT1MycG1PTkJuakFzaEd2X2RJYVo3QURQS2haMjlVVlB3UExPZjRwUk52TExPRjRORXUxYlVyaXNtSDJqSWU0SzdBWUdrNGNqaThfdkNBbXN5dw?oc=5
+
+Etihad Airways unveils Etihad Escapes, expanding beyond flights into travel services    Travel Trade Journal

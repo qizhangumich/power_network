@@ -1,0 +1,5 @@
+# Adnoc Gas Appoints Chief Projects, Engineering Officer
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc0JtcGJnbjFsUjltUGplXzBCY3lNSC12WkNwMnluOEdIN05tb0t6UHNDV1FxdS1YRlNTWU1DSU5SdWJNRlZSZ2hYUjdwa254NFZXdlZ6TVN5b1c1S0E2TlhhY2pCcGREVTYxWjZTbTRBRTlmeTdxZktFUkZtUXAwTFoxQW1vMldybHZlQS1aQWNEempScEhKeGU4N3EwdWlaMFl3VjZmaHJvQQ?oc=5
+
+Adnoc Gas Appoints Chief Projects, Engineering Officer    marketscreener.com

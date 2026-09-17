@@ -1,0 +1,5 @@
+# Aldar launches first homes at Marsa Al Saadiyat with 351 exclusive villas at Talay
+source: zawya.com
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTWgwUUZPSmV1bnFyR3d2VVM1dThXZ3ZrZUs4UUZRSjRnaHNoNi1KQ2JzWW1xQy1nc0lCd2NlSHo1Nl9zcGpuMGlFOThIMWxZaF9wZW1wNXdZR3BvNzZNT0pNRTJacGZaLVk5MWpkN0FYMkZpVXJoLXFNVXdYVVBhdENZZWFNS0pMOFF0RFA0OTZDajU4aHFwVTdYZ3Q1WmNySHgxaFNNbVp0TGgzdkQ2bjBkVC1JMHhMSXA3Vm80c1ZEUk5uSm1VanpMSXAyUUlPUW5pT0xfbmMzQmc?oc=5
+
+Aldar launches first homes at Marsa Al Saadiyat with 351 exclusive villas at Talay    zawya.com
