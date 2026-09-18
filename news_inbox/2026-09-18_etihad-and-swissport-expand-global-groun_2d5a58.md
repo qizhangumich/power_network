@@ -1,0 +1,5 @@
+# Etihad and Swissport expand global ground handling and cargo partnership
+source: Aviation Business News
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxQdU5rVU8zb3FYMGN5dmtWNkdkNXREMExCcDZBWWpKNXhuSUxVQnBDSGUzTWxnVXBjRDBMMWw5dUFUQ2UtbnBmakdGaUJ2dEZ3Z1A4d0J5TXBGTm9aQ2NDb1BucndFb2hpOXdHMGpEOGF3cHg3YnQ3RmtjX1RScjk5NFhuU014MnR5ay1HYWJPN3JRSkEtWV9LNl85ZzNkdGlTcExxd0pnNmVGNXhaV19ZYWZBNUNPVFlwNHkyeEdQMFJEbWZM?oc=5
+
+Etihad and Swissport expand global ground handling and cargo partnership    Aviation Business News

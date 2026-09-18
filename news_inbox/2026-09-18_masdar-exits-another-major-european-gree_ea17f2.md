@@ -1,0 +1,5 @@
+# Masdar exits another major European green hydrogen project
+source: Hydrogen Insight
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxQYWNpaXhBdV9vLVdzZ1NnbEJCYkVha256ME5lOEtPTjJuVXc0QzBkamloQTBpTlNfVzRONHk1Q3dveGtCdXZhWWJRU3NTTU8wMUNrOFduTlZXUnJPT0lCcXI3R2djUHRFQUVmWmJrQUN3eXBtZ0dkVmdDQURjT2czbkIxNjl3SVFUZmJkRk9NZEQ0Rm5ycHFRTFNfMW1EQ2h6Njk1UTQ4ZU1qZ3FURGJ0UnBJVQ?oc=5
+
+Masdar exits another major European green hydrogen project    Hydrogen Insight

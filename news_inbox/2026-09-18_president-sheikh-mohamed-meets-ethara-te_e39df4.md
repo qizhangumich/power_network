@@ -1,0 +1,5 @@
+# President Sheikh Mohamed meets Ethara team after F1 Promoter of the Year win
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOTBsS1RCcTRQSG9nam1wdGZwSlc2RmFLYWRtNmNvYXBMMF9RbktobUhVdFV4ckdiWnBPUmNpOHpLR3d6THRaakZRUWk0bG5pMlBtdy1HRklrUjlqeTlCVlVuZFdHa3JNOVgwWHZoNHUyc2tPSlc2NjQtMnlZY0czNWc2QTZCX2xPYkNqME9PNkhzMk4wZm1xVzFfUWpZX25oZExZcGlmVmRrcmdpNkxoZFRBTnhLUXRLdnZReFRmUE5WT0RQZ1BzQQ?oc=5
+
+President Sheikh Mohamed meets Ethara team after F1 Promoter of the Year win    thenationalnews.com
