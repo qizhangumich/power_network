@@ -1,0 +1,5 @@
+# Etihad Airways launches Corporate Care to enhance support for business travellers
+source: Travel Trade Journal
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxQRXR4cmMtQm9SMVA4ZXZPcEFWWDFpQXZpczI0c3B2QWxJWUpuQndBa0RXNnNGLVFJbmRUT3lqcWd2ZWZnOVNfMzhONVp6VjJfYnBDekFGZzl4U3ZTV3c1RjlGcWVMWU9lcjBKbHNkNmk2a3A1TV9rVlg0SV9vUlc2NVd5blVOUzZmTTZXdmtTV0ROcmdrTWxLUzVCZlJQVVpBa0l2aTFsV19wTC1BMVFaMDdsRQ?oc=5
+
+Etihad Airways launches Corporate Care to enhance support for business travellers    Travel Trade Journal

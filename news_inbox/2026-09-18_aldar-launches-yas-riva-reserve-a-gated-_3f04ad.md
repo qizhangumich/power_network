@@ -1,0 +1,5 @@
+# ALDAR launches Yas Riva Reserve, A gated villa community along Yas Island’s Scenic Waterfront
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMFllNnRFRVNCUVI2akZQQUQ2SThQRjVqRGpuc1NXMjIzaTJmQXZKdDR3bnpIdGpDbGxzSnRId1lLUExzR1hiNXJWT1ZqWTFjWTVkSHphaG16ZzRhdjRCekp2bHA4MjdaWElvX2paNkU4aWk1RElwMGtGY245ai1GNk8wSU02Y2xtSTNQRXBqY3FZNlhEMUNCOE5Cdk9LNE1aang3b3kzbVdEUllBQ1o2S0F3VzFReE05b3VqZ2F3TS1naU1ISGpLNjd1Nkt6UFI4akd0X3FyRFBrTTg5Q0g2WGRXNjNNV2VQ?oc=5
+
+ALDAR launches Yas Riva Reserve, A gated villa community along Yas Island’s Scenic Waterfront    Zawya

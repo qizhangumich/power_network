@@ -1,0 +1,5 @@
+# OMV to go ahead alone with Austrian hydrogen project after Masdar exit
+source: Reuters
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZWdoREVrX2FZb3hHNmxNTG1BT3NQZjJnc3l3anpqbEtQUHFIeHpxcl9sZE8wdjRmOVZoVXY5dkNlYVhMaDRzTC1mRUV4Tnc4bnA5N1EyRE5pclJRSkFvV3pPWHdMWXVkbzRESkF3SUMtNkNDMjZaemN1WUxVMDNvVEtJa2FpMG1jdWpnVVkxZVNsNzVfT3Y5WUVGSThvcVp1YmdWeDRzWkVYd3NVSmN4Sk93RURLQmRqZ0xn?oc=5
+
+OMV to go ahead alone with Austrian hydrogen project after Masdar exit    Reuters
