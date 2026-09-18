@@ -1,0 +1,5 @@
+# Etihad faces capacity crunch as growth outpaces deliveries
+source: ch-aviation
+url: https://news.google.com/rss/articles/CBMinwFBVV95cUxOLXN5Mi1OR3E4TEVzanlUd21kQ2RmMWoxTGNrV0hWNmlHMDVxUi1qMTVMZ01aSElhSVJWdVJHLU5hVFN0RUUxTVZ2eDB4eEtlQXJCMXpEV0VoeVpEb2VHX3VReEZlMU8xVE1FODZUa2c4bXdOZmNhV0FWeU1sWXFEcGdTWlNKcHhseEtDclFsYnZLMk5DMkpUMEdndGpISmc?oc=5
+
+Etihad faces capacity crunch as growth outpaces deliveries    ch-aviation

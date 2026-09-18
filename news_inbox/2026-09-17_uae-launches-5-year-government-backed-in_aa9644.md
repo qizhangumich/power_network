@@ -1,0 +1,5 @@
+# UAE launches 5-year government-backed investment from $272 for citizens and residents
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxPak9VNVZYQUVIeDZ3YjFfaVBaRFcyOEROT1pzSXN4SXhNbEM2eTIyNHdOWlZ4U045UGxJQkk2ZGRDbkRGSTl3UnRjb3BmdVpXeWdXdmxaSVI2ZmJ2d0RNQ1o1eGIxUFRWai1lVzlJXzgyU0ZzSG1xZkVvMDdVa0NGVGFfckoxMmRTazFudi1UMTFuZ0VZLVdQbW9iM2JTd2ZvYTlKRTlGcGtuLWY5T0twZEoxaU4zdlRZLWFOdDJUMHU2dGd1Q0dV?oc=5
+
+UAE launches 5-year government-backed investment from $272 for citizens and residents    Arabian Business

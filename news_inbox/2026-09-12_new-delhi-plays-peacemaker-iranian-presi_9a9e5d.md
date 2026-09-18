@@ -1,0 +1,5 @@
+# New Delhi plays peacemaker, Iranian President Pezeshkian meets Abu Dhabi Crown Prince on sidelines of BRICS Summit
+source: ANI News
+url: https://news.google.com/rss/articles/CBMi-gFBVV95cUxNdUVIV0ZCVl82WE40N2VVc3dXX2tZVjB1OHJkR0hBZVYyZ3BJOFh6NjJ4bFNfVVk0TWJEZGhTcXJVMkpyUXZMX21WMW15NlRXMTFMYjh0dVFJVmtvT2VXMF9YRDBZV19PbVY3V0VUcUF5U2FDQlhfdFNoYkZHajZVWUt5Q25iV0pVcTBPdDhaZGhrZGxDQ3lxb0l0a0h6NGhmRTRFVjV3bUprQVVJSlVXMWxibHJiZ1l0T2ZrZ2ZWblZlNGdNRmlLdTdPREl2UUdyY2RWRXh1OVlZSlBTMllhdnVHS09LMjJGNlRRQ1FkZDJXdDltNlhoR1hR?oc=5
+
+New Delhi plays peacemaker, Iranian President Pezeshkian meets Abu Dhabi Crown Prince on sidelines of BRICS Summit    ANI News

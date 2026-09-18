@@ -1,0 +1,5 @@
+# From Mokafaa points to priority support: Gulf airlines upgrade travel benefits
+source: Gulf Business
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWC1HRWF5ekc1UnJ5M0UwYld4N1VCWEpsU1NrNTJRTTVWMXlUUTd1ZnAzcHg0Z1hsMEZURUNRdmFXSEhZRHdvSTNGMXJoTURhMGxfLTI2eE1SU1g2a3NESmtxZjdiajc3RTMtZ1VQNUFRVUlRcXkxMmRxX1pkS1U0OFJUenlTSFNOZnNMenVydG8yd3dGcVhkV1ZOeHVWbHNocVFXOG90WVNZWXJyb1ZyRFd2R1ZNeUhPNlRR?oc=5
+
+From Mokafaa points to priority support: Gulf airlines upgrade travel benefits    Gulf Business

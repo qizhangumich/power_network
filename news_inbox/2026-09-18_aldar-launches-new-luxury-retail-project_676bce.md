@@ -1,0 +1,5 @@
+# Aldar launches new luxury retail project with more than 100 brands in Saadiyat
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxQYzlGVHB0WGMydUhwcUFucEtaajFGbHVKME85XzhpdG1SR1J0QnVyNDdMNjNLYlNMMVBWTjNVMDBZNy1JWEx5UHdlUkFtRGhQaXlsVC1BOFI4cy04WUk2S0dqclV5VTZBb3FObENZNzBHaUMwYmdUdjZoVUU4UFNDeEdRZVBLdF9BRE0ya2Z0LVYtVVpGRjNialRIbEFYcDdvZjVIVnpXbWtyQ1VJU29BbFpNdXlZX0c2eUVoRlZlaHNUMlIxRERta0RHT1lHa1J6TFlGN2NqUQ?oc=5
+
+Aldar launches new luxury retail project with more than 100 brands in Saadiyat    thenationalnews.com

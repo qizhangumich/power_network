@@ -1,0 +1,5 @@
+# Chance for you to participate in India's 2nd largest IPO: Invest in NSE with a minimum investment of ₹13,600
+source: Bhaskar English
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQRUZoNVRzdHBIa1l1TnlWb3B4U1Bydm5iOWYwdWZFTHdSV3h4WmpDRGNuV2h0MGJLeVg2YzdXSmN6enlXOEZ4SkVDV0liUlNPVGtyOFpKbS00NWdwR3JxYkVoNWNQYTRHT2VJVlBTcUw2SzJUbjF4YU03U2VwSzN0cmNPRHM5OUJrMFZ4WDJzdXBZUWt1OUsxa0F4ME9QLW43aWk4cXpTd2FSS0FkY0HSAbMBQVVfeXFMT0w1MF8wdzRZSmwteEpaTXVJYm02TFpBRFVfVGd2Sm1fdGR0R1Z2b0dLalBJUW5mYzZEeklpZGJHQnlXM05BNkpDWWxfZjVfS0ZhZzI1eGp2U1dZdS1LbUNPdnZQVFFxTVQ4c19OeEg2WHp6aHB1WTkwUS1Tc0RZMU5UcVl1VEdxRkVmMVRwX05pdEZvcGZ1MHpIZF82ZDByOEhzUlZPMTFRWW5JMlFwMDlJTTg?oc=5
+
+Chance for you to participate in India's 2nd largest IPO: Invest in NSE with a minimum investment of ₹13,600    Bhaskar English

@@ -1,0 +1,5 @@
+# Space42 And Viasat Sign Binding Agreement To Co-Found Equatys
+source: TradingView
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxNdS01ZkFqdWk5aklqZjJsQXgzbWdSVkJ3YnhRd1h1YkRRYTZtRWxBNmVxSEFpOFptM3NnZDl4OFNwRFNGOFVzTlZfemZzeHJ3aGZaekVzVFl3d0ZKRkFPY2dZRWU5Sk9Zck5DdUVEV2NFODVTMU1mSXlxemtXNThlVUlienpvc294OWlhc2k0VS1xSmgxbDFrR1FZY253aERJZ01oeWtpZWYwUzR2ZDlhdmd1d21HU0lDd2drMjdJWk9zT0tYekZDZHdzRQ?oc=5
+
+Space42 And Viasat Sign Binding Agreement To Co-Found Equatys    TradingView

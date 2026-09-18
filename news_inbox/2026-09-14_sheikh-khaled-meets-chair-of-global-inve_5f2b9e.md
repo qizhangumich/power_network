@@ -1,0 +1,5 @@
+# Sheikh Khaled meets Chair of global investment bank Citigroup
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdTVjeUNYcV82R0JiSVJkVTdfb21kRG5QYlNMOHYtVFZJRXpkb041NkVob0dUT0p3d285TTQzUUVUS0c4U0ZPamd3aGxIcy10YmJyOW1RcFBGQXo4U3h0NmlCWEVVNGZhZm55MjNfWkxpWEs0SzBtOFdhaXZGbWFodlJQRGdoeUdHQW5sd1U2ZTNrZGc0clFvMmZwRGxuQ2FBWUgzVjhkb0x6Zw?oc=5
+
+Sheikh Khaled meets Chair of global investment bank Citigroup    Gulf Today
