@@ -178,6 +178,7 @@ const INSTITUTIONS = [
   {id:"al_futtaim_motors", n:"Al-Futtaim Motors", s:"consumer_disc", t:2, p:62, short:"Al-Futtaim Motors"},
   {id:"ikea_al_futtaim", n:"IKEA Al-Futtaim Trading Company LLC", s:"consumer_disc", t:2, p:58, short:"IKEA Al-Futtaim"},
   {id:"orient_insurance", n:"Orient Insurance PJSC", s:"finance", t:2, p:60, short:"Orient Insurance"},
+  {id:"apparel", n:"Apparel Group", s:"consumer_disc", t:2, p:58, short:"Apparel Group"},
 ];
 
 const PEOPLE = [

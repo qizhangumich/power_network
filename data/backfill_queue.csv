@@ -123,7 +123,7 @@ dubai,almulla,Mohamed & Obaid Almulla Group,conglomerate,64,0,pending
 kuwait,kwmun,Kuwait Municipality,gov,64,1,pending
 northern,fujoilzone,Fujairah Oil Industry Zone,energy,64,1,pending
 oman,madayn,Madayn (Public Establishment for Industrial Estates),gov,64,0,pending
-oman,environment_auth,Environment Authority,gov,64,0,pending
+oman,environment_auth,Environment Authority,gov,64,1,pending
 qatar,nebras,Nebras Power,utilities,64,0,pending
 qatar,scdl,SC Delivery & Legacy (World Cup legacy),gov,64,1,pending
 qatar,mwani,Mwani Qatar (Ports),industry,64,1,pending
@@ -228,7 +228,7 @@ dubai,mag,MAG Group Holding,realestate,60,0,pending
 dubai,orient_insurance,Orient Insurance PJSC,finance,60,0,pending
 kuwait,kpa,Kuwait Ports Authority,industry,60,0,pending
 northern,ajman_ded,Ajman Department of Economic Development,gov,60,1,pending
-northern,albatha,Albatha Group,conglomerate,60,0,pending
+northern,albatha,Albatha Group,conglomerate,60,1,pending
 oman,royalhosp,The Royal Hospital (Muscat),health,60,0,pending
 oman,oq8,Duqm Refinery and Petrochemical Industries Company,energy,60,0,pending
 oman,fdo,Fisheries Development Oman,consumer_stap,60,0,pending
@@ -293,6 +293,7 @@ dubai,unifeeder,Unifeeder,industry,58,0,pending
 dubai,p_o_ferries,P&O Ferries,industry,58,0,pending
 dubai,empower,Emirates Central Cooling Systems Corporation PJSC,utilities,58,0,pending
 dubai,ikea_al_futtaim,IKEA Al-Futtaim Trading Company LLC,consumer_disc,58,0,pending
+dubai,apparel,Apparel Group,consumer_disc,58,0,pending
 kuwait,shamalazzour,Shamal Az-Zour Al-Oula (IWPP),utilities,58,0,pending
 kuwait,kgoc,Kuwait Gulf Oil Company,energy,58,0,pending
 kuwait,pahw,Public Authority for Housing Welfare,gov,58,0,pending
@@ -305,7 +306,7 @@ northern,rak_gas,RAK Gas,energy,58,0,pending
 northern,rak_municipality,Ras Al Khaimah Municipality,gov,58,0,pending
 northern,srta,Sharjah Roads and Transport Authority,gov,58,0,pending
 northern,uaq_ded,Umm Al Quwain Department of Economic Development,gov,58,0,pending
-northern,fujairah_national,Fujairah National Group,conglomerate,58,0,pending
+northern,fujairah_national,Fujairah National Group,conglomerate,58,1,pending
 oman,almouj,Al Mouj Muscat,realestate,58,0,pending
 oman,khimji,Khimji Ramdas,conglomerate,58,0,pending
 oman,oq_trading,OQ Trading,energy,58,0,pending
@@ -387,7 +388,7 @@ northern,stevin_rock,Stevin Rock,materials,56,0,pending
 northern,fujairah_municipality,Fujairah Municipality,gov,56,0,pending
 northern,rakpa,RAK Petroleum Authority,gov,56,0,pending
 northern,ffza,Fujairah Free Zone Authority,gov,56,0,pending
-northern,al_zorah_dev,Al Zorah Development Company,realestate,56,0,pending
+northern,al_zorah_dev,Al Zorah Development Company,realestate,56,1,pending
 oman,omanflour,Oman Flour Mills (Atyab),consumer_stap,56,0,pending
 oman,mohsin_haider_darwish,Mohsin Haider Darwish LLC,conglomerate,56,0,pending
 oman,port_of_duqm,Port of Duqm Company SAOC,industry,56,0,pending

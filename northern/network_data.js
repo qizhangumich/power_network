@@ -310,6 +310,7 @@ const PEOPLE = [
   {id:"feras_al_naimi", n:"Feras Al Naimi", t:2, p:60, s:"realestate", roles:[
     ["arada","Chief Executive Officer - Nexus","executive","v"]]},
   {id:"h_h_sheikh", n:"H.H. Sheikh Rashid bin Humaid bin Rashid Al Nuaimi", t:2, p:62, s:"finance", roles:[
+    ["al_zorah_dev","Chairman of the Board of Directors","board","v"],
     ["ajmanbank","Vice Chairman","board","v"]]},
   {id:"abdullah_mohammed_hassan", n:"Abdullah Mohammed Hassan Mohammed Alhosani", t:2, p:52, s:"finance", roles:[
     ["ajmanbank","Board Member","board","v"]]},
@@ -430,6 +431,7 @@ const PEOPLE = [
   {id:"ahmed_hamad_rashid", n:"Ahmed Hamad Rashid Matar Al Suwaidi", t:2, p:58, s:"gov", roles:[
     ["shj_execco","Assistant Secretary General","executive","v"]]},
   {id:"sheikh_saleh_bin", n:"Sheikh Saleh bin Mohammed bin Hamad Al Sharqi", t:2, p:62, s:"industry", roles:[
+    ["fujairah_national","Chairman and Chief Executive Officer","executive","v"],
     ["fujport","Chairman","board","v"]]},
   {id:"khalil_ebraheim", n:"Khalil Ebraheim", t:2, p:60, s:"industry", roles:[
     ["fujport","Deputy Managing Director","executive","v"]]},
@@ -675,6 +677,8 @@ const PEOPLE = [
     ["ajman_ded","Director-General","executive","v"]]},
   {id:"abdulrahman_mohammed_al", n:"Abdulrahman Mohammed Al Shayeb Al Naqbi", t:2, p:58, s:"gov", roles:[
     ["rak_ded","Director General","executive","v"]]},
+  {id:"sheikh_ahmed_mohammed", n:"Sheikh Ahmed Mohammed Sultan Al Qassimi", t:2, p:62, s:"conglomerate", roles:[
+    ["albatha","Chairman","board","ns"]]},
 ];
 
 const OWNERSHIP = [

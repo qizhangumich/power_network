@@ -887,6 +887,8 @@ const PEOPLE = [
     ["nama","Senior Legal Counsel","executive","v"]]},
   {id:"salama_al_hajri", n:"Salama Al Hajri", t:2, p:46, s:"utilities", roles:[
     ["nama","General Manager - People & Culture","executive","v"]]},
+  {id:"abdullah_bin_ali", n:"Abdullah bin Ali Al Amri", t:2, p:62, s:"gov", roles:[
+    ["environment_auth","Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [
