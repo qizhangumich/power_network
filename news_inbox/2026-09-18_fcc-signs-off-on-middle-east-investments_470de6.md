@@ -1,0 +1,5 @@
+# FCC Signs Off on Middle East Investments in Paramount-Warner Bros Deal
+source: hollywoodreporter.com
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxPRE1pNU1MX3BRVGFXLXM3M2N5alVpVEtMV1NwQnJGWjZiOFBISzdVRlYzMkdhZy0xUFZBNWhNeEtNeWZ1Q2I2Ujk2WjdCZk1KVkN2RnN2bzNUcVpudUg3eTVSMjR6Vk02eTVONDRmZjVtdHNqb240UU1UdnRWX1dMQ1o3ME5heGRpX1IyTWtQN1YwYTdqdXh5dkJfcmZVc2pmVHVGNnpxRldXVnVNTHV4STdOSU9SMGM3UFE?oc=5
+
+FCC Signs Off on Middle East Investments in Paramount-Warner Bros Deal    hollywoodreporter.com

@@ -1,0 +1,5 @@
+# British Airways Returns to Tanzania With Direct Flights to Kilimanjaro and Zanzibar, 15 Years After It Last Withdrew Service
+source: PYOK
+url: https://news.google.com/rss/articles/CBMi_wFBVV95cUxNLVZraGVXRzBiMUdJRV9LamwyVndOVFRuVG5IdTg3TEp1UG5NUXZTQWgyWU81c1RfbFUzb3VxY05hU1BoR0dheHZBQnh6SzF2SmdXMnZBQllEUnpfSHp2X01pUkxEekd3WVAybS1ubU93bzJXckpDQTBJbVg3bmtSVXUydUxlN1ZpeVZHQ1U3emgxZjNIeE41VDBjTk5kRVRiQlVTVnFlWXRHVWtqOVY4bnBGXzZoSzJqbVlRRG4ybW9JeVpDYnJ2WW5GNW0tdkZWYWU1N0F4OTBaVlItaUluTXp4SUhSUkZqNlNCa3gxVUVlcXF1TU1DNWZUVlo5b28?oc=5
+
+British Airways Returns to Tanzania With Direct Flights to Kilimanjaro and Zanzibar, 15 Years After It Last Withdrew Service    PYOK

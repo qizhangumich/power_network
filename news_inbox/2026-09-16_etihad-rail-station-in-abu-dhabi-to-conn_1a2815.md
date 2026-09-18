@@ -1,0 +1,5 @@
+# Etihad Rail station in Abu Dhabi to connect directly to airport
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxQSTM3VUhhWktuaGg3ZFA3S1I5Z3ZuMmhtdjc5Rjh2Q3Y5aXBWNWx6Z2VTTy03TlhkNmpBX1I3by1xUzJBVi1zNjJLem5VYzBsQ3d1R1NXa1lGcFZNSTR1QjZ5RDlUQ3V0TXBGVkRIb2NPQnNtOVJ4NFJmcGpOZWZCeDNGY2FwUkpCaWU5X051dzV6TEZjTFc2X04zN054bEVBTzNQSExkS1FQVVJCaFJWOGtwRWZjaTg?oc=5
+
+Etihad Rail station in Abu Dhabi to connect directly to airport    thenationalnews.com

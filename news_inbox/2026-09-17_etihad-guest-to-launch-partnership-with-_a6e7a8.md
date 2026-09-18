@@ -1,0 +1,5 @@
+# Etihad Guest to launch partnership with Maldivian
+source: Zawya
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQenI0SHE3WHNNZ1A0UTJTTWNKN0o1dUFhS2dfUzNmYmllOFJXZWU5RHdLcFlMTG4tVXN0b0VRY25mT0lLUUVlWWlEaXJuOFVKdVBMVi1IYkNZVHV1Z2d6Wk5zcXVxb09DZ2pxT21ZQ0hwTzBZeGNJMGIwaDFNUWgxOFctcF9sQmpCVHE2R19aVmtjaWtJMG05d2JJanotWFFrelo0MjlDVHVodG5LMG00?oc=5
+
+Etihad Guest to launch partnership with Maldivian    Zawya

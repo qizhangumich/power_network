@@ -1,0 +1,5 @@
+# Etihad Unveils Beyond Borders Experience and New A330neo Cabins
+source: Aviation Jeta
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPSlBaaVNKMzV0cjJPTTFVa3BGRGZEVDR0V2JRZlU2c0c5cktTcGJra1c4a0FHeW9hOF9IOW5wcUlJS1VGamIyTHFSWEM0S0EyOVdDaHNHQjcySG9BamV1andQQ3RVWWgxckV4MWM0WFJzTjRQTjlxRnVKWmRob3JwTnJuYllIQ2Q1SEh2NW1NeUowS0F2MzhMUXFqaS1jWEdsc1N3WnRRdkl6TE9GVmc?oc=5
+
+Etihad Unveils Beyond Borders Experience and New A330neo Cabins    Aviation Jeta
