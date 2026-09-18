@@ -717,6 +717,7 @@ const PEOPLE = [
   {id:"waleed_khalid_al", n:"Waleed Khalid Al-Yaqout", t:2, p:52, s:"finance", roles:[
     ["lst_boubyan","Director - Non-Executive","board","v"]]},
   {id:"khalid_ahmad_al", n:"Khalid Ahmad Al-Mudhaf", t:2, p:52, s:"finance", roles:[
+    ["pifss","Director General (Acting)","executive","v"],
     ["lst_boubyan","Director - Independent","board","v"]]},
   {id:"abdullah_saud_al", n:"Abdullah Saud Al-Bader", t:2, p:52, s:"finance", roles:[
     ["lst_boubyan","Director - Independent","board","v"]]},
@@ -1207,6 +1208,12 @@ const PEOPLE = [
     ["mofa_kw","Deputy Assistant Foreign Minister for the Office of the Deputy Minister","executive","ns"]]},
   {id:"khaled_tuwaim_al", n:"Khaled Tuwaim Al-Ajmi", t:2, p:58, s:"gov", roles:[
     ["mofa_kw","Deputy Assistant Foreign Minister for Protocol Affairs","executive","ns"]]},
+  {id:"salama_ibrahim_salama", n:"Salama Ibrahim Salama", t:2, p:58, s:"sovereign", roles:[
+    ["pifss","Deputy Director General for Insurance Affairs and Automated Systems","executive","ns"]]},
+  {id:"abdullah_al_mudayris", n:"Abdullah Al-Mudayris", t:2, p:58, s:"sovereign", roles:[
+    ["pifss","Deputy Director General for Investment, Financial and Administrative Affairs","executive","ns"]]},
+  {id:"omar_saud_abdulaziz", n:"Omar Saud Abdulaziz Al-Omar", t:2, p:58, s:"gov", roles:[
+    ["moinfo_kw","Minister of State for Communications and Information Technology Affairs and Acting Minister of Information and Culture","executive","v"]]},
 ];
 
 const OWNERSHIP = [

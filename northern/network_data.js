@@ -83,6 +83,9 @@ const INSTITUTIONS = [
   {id:"ajman_ded", n:"Ajman Department of Economic Development", s:"gov", t:2, p:60, short:"Ajman DED"},
   {id:"fujairah_chamber", n:"Fujairah Chamber of Commerce and Industry", s:"gov", t:2, p:52, short:"Fujairah Chamber"},
   {id:"sharjah_islamic_bk", n:"Sharjah Islamic Bank PJSC", s:"finance", t:3, p:57, short:"Sharjah Islamic Bk"},
+  {id:"albatha", n:"Albatha Group", s:"conglomerate", t:3, p:60, short:"Albatha Group"},
+  {id:"fujairah_national", n:"Fujairah National Group", s:"conglomerate", t:3, p:58, short:"Fujairah National"},
+  {id:"al_zorah_dev", n:"Al Zorah Development Company", s:"realestate", t:3, p:56, short:"Al Zorah Dev Co"},
 ];
 
 const PEOPLE = [
@@ -107,6 +110,7 @@ const PEOPLE = [
     ["rakgov","Ruler of Ras Al Khaimah","political","v"]],
     note:"Turned RAK into a tourism/industry story — capped by the Wynn casino-resort bet."},
   {id:"mohammed_saud_rak", n:"H.H. Sheikh Mohammed bin Saud Al Qasimi", t:0, p:78, s:"gov", roles:[
+    ["sharjah_finance","Chairman","board","v"],
     ["rakgov","Crown Prince of RAK","political","v"],
     ["rak_execco","Chairman","political","v"]]},
   {id:"hamad_sharqi", n:"H.H. Sheikh Hamad bin Mohammed Al Sharqi", t:0, p:84, s:"gov", roles:[
@@ -640,7 +644,7 @@ const PEOPLE = [
   {id:"raman_garg", n:"Raman Garg", t:2, p:58, s:"realestate", roles:[
     ["al_hamra","Group Chief Financial Officer","executive","ns"]]},
   {id:"abdulrahman_mohamed_nassir", n:"Abdulrahman Mohamed Nassir Salem Alowais", t:2, p:62, s:"finance", roles:[
-    ["sharjah_islamic_bk","Chairman","board","ns"]]},
+    ["sharjah_islamic_bk","Chairman","board","v"]]},
   {id:"othman_mohamed_sharif", n:"Othman Mohamed Sharif Abdalla Zaman", t:2, p:62, s:"finance", roles:[
     ["sharjah_islamic_bk","Vice Chairman","board","ns"]]},
   {id:"ali_salim_ali", n:"Ali Salim Ali Salim Almazroua", t:2, p:52, s:"finance", roles:[
@@ -657,6 +661,20 @@ const PEOPLE = [
     ["sharjah_islamic_bk","Director","board","ns"]]},
   {id:"mohamed_ahmed_abdalla", n:"Mohamed Ahmed Abdalla Mohamed", t:2, p:60, s:"finance", roles:[
     ["sharjah_islamic_bk","Chief Executive Officer","executive","ns"]]},
+  {id:"omar_ali_al", n:"Omar Ali Al Ghazal", t:2, p:58, s:"gov", roles:[
+    ["shjpolice","Director General, General Department of Operations and Security Support","executive","v"]]},
+  {id:"rohit_vashistha", n:"Rohit Vashistha", t:2, p:60, s:"sovereign", roles:[
+    ["rak_ido","Chief Executive Officer","executive","ns"]]},
+  {id:"nitin_johar", n:"Nitin Johar", t:2, p:58, s:"sovereign", roles:[
+    ["rak_ido","Chief Financial Officer","executive","ns"]]},
+  {id:"dalia_zaghou", n:"Dalia Zaghou", t:2, p:58, s:"sovereign", roles:[
+    ["rak_ido","Chief Human Resources Officer","executive","ns"]]},
+  {id:"sheikh_rashid_bin_b_b", n:"Sheikh Rashid bin Saqr Al Qasimi", t:2, p:58, s:"finance", roles:[
+    ["sharjah_finance","Director of Sharjah Finance Department","executive","v"]]},
+  {id:"abdullah_ahmed_saif", n:"Abdullah Ahmed Saif Al Hamrani", t:2, p:58, s:"gov", roles:[
+    ["ajman_ded","Director-General","executive","v"]]},
+  {id:"abdulrahman_mohammed_al", n:"Abdulrahman Mohammed Al Shayeb Al Naqbi", t:2, p:58, s:"gov", roles:[
+    ["rak_ded","Director General","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -699,6 +717,7 @@ const OWNERSHIP = [
   ["uaq_ded","uaqgov","government department","v"],
   ["sharjah_finance","shjgov","government department","v"],
   ["ajman_ded","ajmgov","government department","v"],
+  ["al_zorah_dev","ajmgov","50/50 joint venture with Solidere International (Lebanon)","ns"],
 ];
 
 const FAMILY = [
@@ -756,4 +775,6 @@ const AKA = {
   uaq_chamber:["UAQCCI"],
   sharjah_finance:["SFD"],
   sharjah_islamic_bk:["SIB"],
+  albatha:["Al Batha Group"],
+  fujairah_national:["FNG"],
 };

@@ -177,6 +177,8 @@ const INSTITUTIONS = [
   {id:"natl_vet_vaccines", n:"National Veterinary Vaccines Company", s:"health", t:2, p:52, short:"Natl Vet Vaccines"},
   {id:"madayn", n:"Madayn (Public Establishment for Industrial Estates)", s:"gov", t:2, p:64, short:"Madayn"},
   {id:"sur_industrial_city", n:"Sur Industrial City", s:"industry", t:3, p:52, short:"Sur Industrial City"},
+  {id:"environment_auth", n:"Environment Authority", s:"gov", t:2, p:64, short:"Environment Auth"},
+  {id:"zawawi", n:"Zawawi Group", s:"conglomerate", t:3, p:56, short:"Zawawi Group"},
 ];
 
 const PEOPLE = [
@@ -425,6 +427,7 @@ const PEOPLE = [
   {id:"juma_al_uraimi", n:"Juma Al Uraimi", t:2, p:46, s:"industry", roles:[
     ["asyad","SVP & Group Head of Business Development","executive","v"]]},
   {id:"mohsin_al_hadhrami", n:"Mohsin Al Hadhrami", t:2, p:62, s:"energy", roles:[
+    ["moem_om","Undersecretary of the Ministry of Energy and Minerals","executive","v"],
     ["pdo","Chairman (Undersecretary Ministry of Energy and Minerals)","board","v"]]},
   {id:"isam_al_zadjali", n:"Isam Al Zadjali", t:2, p:52, s:"energy", roles:[
     ["pdo","Board Representative - Energy Development Oman","board","v"]]},
@@ -864,6 +867,26 @@ const PEOPLE = [
     ["duqm","Deputy Chairman - OPAZ Board of Directors","board","ns"]]},
   {id:"ahmed_bin_ali", n:"Ahmed bin Ali Akaak", t:2, p:60, s:"industry", roles:[
     ["duqm","Chief Executive Officer - Special Economic Zone at Duqm (SEZAD)","executive","ns"]]},
+  {id:"khalifa_al_harthy", n:"Khalifa Al Harthy", t:2, p:58, s:"gov", roles:[
+    ["mofa_om","Undersecretary for Diplomatic Affairs","executive","v"]]},
+  {id:"khalid_almuslahi", n:"Khalid Almuslahi", t:2, p:58, s:"gov", roles:[
+    ["mofa_om","Undersecretary for Administrative and Financial Affairs","executive","v"]]},
+  {id:"taimur_bin_asaad", n:"Taimur bin Asaad bin Tariq Al Said", t:2, p:62, s:"finance", roles:[
+    ["cbo","Chairman of the Board of Directors","board","ns"]]},
+  {id:"ghalib_bin_said", n:"Ghalib bin Said Al Maamari", t:2, p:58, s:"gov", roles:[
+    ["moci_om","Undersecretary for Commerce and Industry","executive","v"]]},
+  {id:"ibtisam_bint_ahmed", n:"Ibtisam bint Ahmed Al Farouji", t:2, p:58, s:"gov", roles:[
+    ["moci_om","Undersecretary for Investment Promotion","executive","v"]]},
+  {id:"ahmed_bin_hamed", n:"Ahmed bin Hamed Al Subhi", t:2, p:62, s:"utilities", roles:[
+    ["nama","Chairman of the Board of Directors","board","v"]]},
+  {id:"saif_bin_hamed", n:"Saif bin Hamed Al Mahrouqi", t:2, p:62, s:"utilities", roles:[
+    ["nama","Deputy Chairman of the Board of Directors","board","v"]]},
+  {id:"hassan_al_ajmi", n:"Hassan Al Ajmi", t:2, p:46, s:"utilities", roles:[
+    ["nama","General Manager - Business Resilience","executive","v"]]},
+  {id:"fatma_al_rashdi", n:"Fatma Al Rashdi", t:2, p:58, s:"utilities", roles:[
+    ["nama","Senior Legal Counsel","executive","v"]]},
+  {id:"salama_al_hajri", n:"Salama Al Hajri", t:2, p:46, s:"utilities", roles:[
+    ["nama","General Manager - People & Culture","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1036,4 +1059,5 @@ const AKA = {
   port_of_duqm:["PDC"],
   al_bashayer_meat:["Al Bashayer Red Meat"],
   madayn:["PEIE","Public Establishment for Industrial Estates"],
+  environment_auth:["Ministry of Environment and Climate Affairs"],
 };

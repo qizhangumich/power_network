@@ -26,7 +26,8 @@ atrc,Advanced Technology Research Council,adgov,Abu Dhabi Government (Ruler's Co
 tii,Technology Innovation Institute,atrc,Advanced Technology Research Council,,v
 adia,Abu Dhabi Investment Authority,adgov,Abu Dhabi Government (Ruler's Court),,v
 mubadala,Mubadala Investment Company,adgov,Abu Dhabi Government (Ruler's Court),,v
-adq,ADQ,adgov,Abu Dhabi Government (Ruler's Court),,v
+adq,ADQ,limad,L'IMAD Holding Company,"consolidated under L'IMAD per SCFEA restructuring resolution, Jan 2026",v
+limad,L'IMAD Holding Company,adgov,Abu Dhabi Government (Ruler's Court),,v
 adnoc,ADNOC Group,scfea,Supreme Council for Financial & Economic Affairs,state owner,v
 xrg,XRG (ADNOC international investment),adnoc,ADNOC Group,,v
 adnocgas,ADNOC Gas,adnoc,ADNOC Group,,v
@@ -73,7 +74,7 @@ daman,Daman (National Health Insurance),purehealth,PureHealth,,v
 m42,M42,mubadala,Mubadala Investment Company,JV partner,v
 m42,M42,g42,G42,JV partner,v
 ccad,Cleveland Clinic Abu Dhabi,m42,M42,,v
-adports,AD Ports Group,adq,ADQ,"~98.5%; L'imad/ADQ tender offer completed Sep 2026, stake raised to ~98.5% (incl. further stake bought from Al Seer Marine); settlement by 9 Oct 2026, ADX delisting to follow",ns
+adports,AD Ports Group,adq,ADQ,"~98.5%; L'IMAD (acting through ADQ) tender offer completed Sep 2026, stake raised to ~98.5% (incl. further stake bought from Al Seer Marine); settlement by 9 Oct 2026, ADX delisting to follow",v
 etihad,Etihad Airways,adq,ADQ,,v
 adairports,Abu Dhabi Airports,adq,ADQ,,v
 etihadrail,Etihad Rail,adgov,Abu Dhabi Government (Ruler's Court),state owner,ns
@@ -150,6 +151,7 @@ lst_saga,Sagasse Investment Company Plc,adx,Abu Dhabi Securities Exchange,listed
 lst_anan,Anan Investment Holding PJSC,adx,Abu Dhabi Securities Exchange,listed on ADX,ns
 lst_esg,ESG Emirates Stallions Group PJSC,adx,Abu Dhabi Securities Exchange,listed on ADX,ns
 lst_asm,Al Seer Marine Supplies and Equipment Company PJSC,adx,Abu Dhabi Securities Exchange,listed on ADX,ns
+lst_asm,Al Seer Marine Supplies and Equipment Company PJSC,ihc,International Holding Company,IHC portfolio company,ns
 lst_ghitha,Ghitha Holding PJSC,adx,Abu Dhabi Securities Exchange,listed on ADX,ns
 lst_rakcec,RAK Ceramics PJSC,adx,Abu Dhabi Securities Exchange,listed on ADX,ns
 lst_mair,MAIR Group PJSC,adx,Abu Dhabi Securities Exchange,listed on ADX,ns

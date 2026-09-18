@@ -333,7 +333,7 @@ const PEOPLE = [
   {id:"elham_hasan", n:"Elham Hasan", t:2, p:52, s:"sovereign", roles:[
     ["mumtalakat","Board Member","board","v"]]},
   {id:"khalid_hussain_taqi", n:"Khalid Hussain Taqi", t:2, p:62, s:"sovereign", roles:[
-    ["bahrain_airport","Chairman","board","ns"],
+    ["bahrain_airport","Chairman","board","v"],
     ["mumtalakat","Managing Director - Local Investments","executive","v"],
     ["gulfair","Chairman","board","v"]]},
   {id:"suha_karzoon", n:"Suha Karzoon", t:2, p:60, s:"sovereign", roles:[

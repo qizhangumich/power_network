@@ -26,6 +26,7 @@ tawazun,Tawazun Council,Tawazun,gov,1,76
 atrc,Advanced Technology Research Council,ATRC,tech,1,76
 adia,Abu Dhabi Investment Authority,ADIA,sovereign,1,97
 mubadala,Mubadala Investment Company,Mubadala,sovereign,1,96
+limad,L'IMAD Holding Company,L'IMAD,sovereign,1,96
 adq,ADQ,ADQ,sovereign,1,94
 ihc,International Holding Company,IHC,sovereign,1,92
 royalgroup,Royal Group,Royal Group,sovereign,1,88
@@ -166,7 +167,7 @@ lst_rakprop,RAK Properties PJSC,RAK Properties PJSC,realestate,2,50
 lst_saga,Sagasse Investment Company Plc,SAGA,finance,2,50
 lst_anan,Anan Investment Holding PJSC,ANAN,finance,2,50
 lst_esg,ESG Emirates Stallions Group PJSC,ESG,materials,2,50
-lst_asm,Al Seer Marine Supplies and Equipment Company PJSC,ASM,industry,2,50
+lst_asm,Al Seer Marine Supplies and Equipment Company PJSC,ASM,industry,2,60
 lst_ghitha,Ghitha Holding PJSC,Ghitha Holding PJSC,consumer_stap,2,50
 lst_rakcec,RAK Ceramics PJSC,RAK Ceramics PJSC,materials,2,50
 lst_mair,MAIR Group PJSC,MAIR Group PJSC,consumer_stap,2,50

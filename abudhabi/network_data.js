@@ -52,6 +52,7 @@ const INSTITUTIONS = [
   {id:"atrc", n:"Advanced Technology Research Council", s:"tech", t:1, p:76, short:"ATRC"},
   {id:"adia", n:"Abu Dhabi Investment Authority", s:"sovereign", t:1, p:97, short:"ADIA"},
   {id:"mubadala", n:"Mubadala Investment Company", s:"sovereign", t:1, p:96, short:"Mubadala"},
+  {id:"limad", n:"L'IMAD Holding Company", s:"sovereign", t:1, p:96, short:"L'IMAD"},
   {id:"adq", n:"ADQ", s:"sovereign", t:1, p:94, short:"ADQ"},
   {id:"ihc", n:"International Holding Company", s:"sovereign", t:1, p:92, short:"IHC"},
   {id:"royalgroup", n:"Royal Group", s:"sovereign", t:1, p:88, short:"Royal Group"},
@@ -192,7 +193,7 @@ const INSTITUTIONS = [
   {id:"lst_saga", n:"Sagasse Investment Company Plc", s:"finance", t:2, p:50, short:"SAGA"},
   {id:"lst_anan", n:"Anan Investment Holding PJSC", s:"finance", t:2, p:50, short:"ANAN"},
   {id:"lst_esg", n:"ESG Emirates Stallions Group PJSC", s:"materials", t:2, p:50, short:"ESG"},
-  {id:"lst_asm", n:"Al Seer Marine Supplies and Equipment Company PJSC", s:"industry", t:2, p:50, short:"ASM"},
+  {id:"lst_asm", n:"Al Seer Marine Supplies and Equipment Company PJSC", s:"industry", t:2, p:60, short:"ASM"},
   {id:"lst_ghitha", n:"Ghitha Holding PJSC", s:"consumer_stap", t:2, p:50, short:"Ghitha Holding PJSC"},
   {id:"lst_rakcec", n:"RAK Ceramics PJSC", s:"materials", t:2, p:50, short:"RAK Ceramics PJSC"},
   {id:"lst_mair", n:"MAIR Group PJSC", s:"consumer_stap", t:2, p:50, short:"MAIR Group PJSC"},
@@ -285,6 +286,7 @@ const PEOPLE = [
     ["adgov","Crown Prince of Abu Dhabi","political","v"],
     ["execcouncil","Chairman","political","v"],
     ["adnoc","Chairman of the Executive Committee of the Board of Directors","board","v"],
+    ["limad","Chairman","board","v"],
     ["scfea","Board Member","board","v"],
     ], note:"Son of MBZ. Runs the day-to-day machinery of Abu Dhabi government via the Executive Council."},
   {id:"tahnoun", n:"H.H. Sheikh Tahnoon bin Zayed Al Nahyan", t:0, p:99, s:"sovereign", roles:[
@@ -343,6 +345,7 @@ const PEOPLE = [
     ["adcb","Chairman","board","v"],
     ["enec","Chairman","board","v"],
     ["cfg","Chairman","board","v"],
+    ["limad","Board Member","board","v"],
     ["scfea","Board Member","board","v"],
     ["mbzuai","Chairman, Board of Trustees","board","v"],
     ], note:"MBZ's key business emissary; bridges sovereign capital, banking, nuclear energy and global sport."},
@@ -366,7 +369,8 @@ const PEOPLE = [
     ["e_and","Chairman","board","v"],
     ["execcouncil","Member","political","v"],
     ["taqa","Chairman","board","v"],
-    ["adq","Vice Chairman","board","ns"],
+    ["adq","Vice Chairman (until Jan 2026)","board","ns","former:until Jan 2026"],
+    ["limad","Managing Director & CEO","executive","v"],
     ["modon","Chairman","board","v"],
     ["enec","Chairman","board","v"],
     ["mbzuai","Board of Trustees Member","board","v"],
@@ -415,6 +419,7 @@ const PEOPLE = [
     ["etihad","Chairman, Etihad Aviation Group","board","v"],
     ["sca","Chairman","government","v"],
     ["execcouncil","Member","political","v"],
+    ["limad","Board Member","board","v"],
     ["modon","Board Member","board","v"],
     ["etihadrail","Board Member","board","v"],
     ]},
@@ -453,11 +458,13 @@ const PEOPLE = [
     ]},
   {id:"saif_ghobash", n:"Saif Saeed Ghobash", t:1, p:80, s:"gov", roles:[
     ["execcouncil","Secretary-General","government","ns"],
+    ["limad","Board Member","board","v"],
     ["mbzuai","Board of Trustees Member","board","v"],
     ]},
   {id:"ahmed_mazrouei", n:"Dr. Ahmed Mubarak Al Mazrouei", t:1, p:78, s:"gov", roles:[
     ["adafsa","Chairman","government","ns"],
     ["execcouncil","Member","political","v"],
+    ["limad","Board Member","board","v"],
     ["adq","Board Member","board","ns"],
     ["modon","Board Member","board","v"],
     ["scfea","Board Member","board","v"],
@@ -512,6 +519,7 @@ const PEOPLE = [
   {id:"waleed", n:"Waleed Al Mokarrab Al Muhairi", t:2, p:82, s:"sovereign", roles:[
     ["mubadala","Deputy Group CEO","executive","v"],
     ["waha","Chairman","board","ns"],
+    ["limad","Board Member","board","v"],
     ]},
   {id:"homaid", n:"Homaid Al Shimmari", t:2, p:76, s:"sovereign", roles:[
     ["mubadala","Deputy Group CEO, Corporate & Human Capital","executive","v"],
@@ -950,6 +958,7 @@ const PEOPLE = [
   {id:"kamal_ishaq_almaazmi", n:"Kamal Ishaq Almaazmi", t:2, p:52, s:"utilities", roles:[
     ["taqa","Board Member","board","ns"],
     ["adnocgas","Board Member","board","v"],
+    ["limad","Board Member","board","v"],
     ["dof","Undersecretary","executive","v"],
     ]},
   {id:"buthaina_abdulla_almazrouei", n:"Buthaina Abdulla Almazrouei", t:2, p:52, s:"utilities", roles:[
@@ -2256,6 +2265,7 @@ const PEOPLE = [
     ]},
   {id:"mariam_al_musharrekh", n:"Mariam Al Musharrekh", t:2, p:58, s:"consumer_disc", roles:[
     ["miral","Executive Director, Human Resources","executive","v"],
+    ["dge","Director General - Government Talent","executive","v"],
     ]},
   {id:"suleiman_hamdan", n:"Suleiman Hamdan", t:2, p:58, s:"consumer_disc", roles:[
     ["miral","Chief Financial Officer","executive","v"],
@@ -2410,6 +2420,18 @@ const PEOPLE = [
   {id:"reuben_joseph", n:"Reuben Joseph", t:2, p:58, s:"health", roles:[
     ["burjeel","Chief Financial Officer","executive","ns"],
     ]},
+  {id:"wesam_lootah", n:"Wesam Lootah", t:2, p:58, s:"gov", roles:[
+    ["dge","Director General","executive","v"],
+    ]},
+  {id:"ruba_yousef_al", n:"Ruba Yousef Al Hassan", t:2, p:58, s:"gov", roles:[
+    ["dge","Director General","executive","v"],
+    ]},
+  {id:"yasir_al_naqbi", n:"Yasir Al Naqbi", t:2, p:58, s:"gov", roles:[
+    ["dge","Director General","executive","v"],
+    ]},
+  {id:"saeed_al_mulla", n:"Saeed Al Mulla", t:2, p:58, s:"gov", roles:[
+    ["dge","Director General","executive","v"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -2440,7 +2462,8 @@ const OWNERSHIP = [
   ["tii","atrc","","v"],
   ["adia","adgov","","v"],
   ["mubadala","adgov","","v"],
-  ["adq","adgov","","v"],
+  ["adq","limad","consolidated under L'IMAD per SCFEA restructuring resolution, Jan 2026","v"],
+  ["limad","adgov","","v"],
   ["adnoc","scfea","state owner","v"],
   ["xrg","adnoc","","v"],
   ["adnocgas","adnoc","","v"],
@@ -2487,7 +2510,7 @@ const OWNERSHIP = [
   ["m42","mubadala","JV partner","v"],
   ["m42","g42","JV partner","v"],
   ["ccad","m42","","v"],
-  ["adports","adq","~98.5%; L'imad/ADQ tender offer completed Sep 2026, stake raised to ~98.5% (incl. further stake bought from Al Seer Marine); settlement by 9 Oct 2026, ADX delisting to follow","ns"],
+  ["adports","adq","~98.5%; L'IMAD (acting through ADQ) tender offer completed Sep 2026, stake raised to ~98.5% (incl. further stake bought from Al Seer Marine); settlement by 9 Oct 2026, ADX delisting to follow","v"],
   ["etihad","adq","","v"],
   ["adairports","adq","","v"],
   ["etihadrail","adgov","state owner","ns"],
@@ -2564,6 +2587,7 @@ const OWNERSHIP = [
   ["lst_anan","adx","listed on ADX","ns"],
   ["lst_esg","adx","listed on ADX","ns"],
   ["lst_asm","adx","listed on ADX","ns"],
+  ["lst_asm","ihc","IHC portfolio company","ns"],
   ["lst_ghitha","adx","listed on ADX","ns"],
   ["lst_rakcec","adx","listed on ADX","ns"],
   ["lst_mair","adx","listed on ADX","ns"],

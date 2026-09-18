@@ -1,14 +1,18 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Hanwha Systems,2,abudhabi,pending,2026-09-16,2026-09-17,Hanwha Systems teams up with UAE defense giant to build integrated air defense network
-Al Seer Marine,2,abudhabi,pending,2026-09-16,2026-09-16,Abu Dhabi's L'imad buys AD Ports stake from Al Seer Marine for $632mln
-Environment Authority,2,oman,pending,2026-09-14,2026-09-16,Oman aims for net-zero emissions by 2050: Chairman of Environment Authority
-Skytrax World Airport,2,bahrain,pending,2026-09-16,2026-09-16,BIA wins three prestigious Skytrax World Airport Awards
-Arrive Logistics,14,abudhabi,rejected,2026-08-27,2026-09-03,Abu Dhabi-backed Mubadala buys Arrive Logistics majority stake
-Abu Dhabi Investment,11,abudhabi,rejected,2026-09-05,2026-09-17,​ASK Automotive - Abu Dhabi Investment Portfolio: 10 stocks rally up to 107% in CY26
+British Airways,6,dubai,pending,2026-09-15,2026-09-18,"British Airways Returns to Tanzania With Direct Flights to Kilimanjaro and Zanzibar, 15 Years After It Last Withdrew Service"
+Adani Group,2,abudhabi,pending,2026-09-09,2026-09-10,"Odisha CM Majhi holds talks with IHC, Adani Group on 14 state projects worth Rs 2.10 lakh crore"
+Explore Sustainable Energy,2,abudhabi,pending,2026-09-17,2026-09-17,Beam Global and Masdar City Free Zone Sign MOU to Explore Sustainable Energy Infrastructure Opportunities
+Executive Council,2,abudhabi,pending,2026-09-08,2026-09-17,AD CP chairs Executive Council meeting to use agentic AI platform
+Apparel Group,2,,pending,2026-09-03,2026-09-18,"Apparel Group, Carrefour launch hypermarket in India3m read"
+OPEC Fund,2,oman,pending,2026-09-16,2026-09-17,OPEC Fund earmarks $40m for Oman’s Yiti Sustainable City project
+Canada Investment,2,qatar,pending,2026-09-16,2026-09-17,Qatar participates in Canada Investment Summit
+Estithmar Holding,2,qatar,pending,2026-09-12,2026-09-17,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
+Abu Dhabi Investment,12,abudhabi,rejected,2026-09-05,2026-09-17,​ASK Automotive - Abu Dhabi Investment Portfolio: 10 stocks rally up to 107% in CY26
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
+Arrive Logistics,6,abudhabi,rejected,2026-08-28,2026-09-03,Abu Dhabi-backed Mubadala buys Arrive Logistics majority stake
 Marlan Holding,6,abudhabi,added,2026-09-08,2026-09-10,Abu Dhabi's IHC to acquire 80% stake in UAE space company Marlan Holding
 Dangote Refinery,4,abudhabi,rejected,2026-09-05,2026-09-07,ADNOC Reportedly Eyes Dangote Refinery Stake in Global Expansion
-World Liberty Financial,3,abudhabi,rejected,2026-08-27,2026-08-28,Is Abu Dhabi’s Sheikh Tahnoon Taking a 49% Stake in Donald Trump’s World Liberty Financial?
+Hanwha Systems,4,abudhabi,rejected,2026-09-16,2026-09-17,Hanwha Systems to work with UAE’s Edge Group on integrated air defense network
 Adani Airport Holdings,3,abudhabi,rejected,2026-09-10,2026-09-10,IHC backs Adani Airport Holdings’ $1bn fundraising round
 Centurium Capital,3,abudhabi,rejected,2026-09-10,2026-09-10,Centurium Capital Management Ltd. and Mubadala Investment Company PJSC agreed to acquire an unknown minority stake in Luckin Coffee Inc. (OT
 Dubai Healthcare,3,dubai,rejected,2026-09-10,2026-09-11,"Dubai Healthcare City begins work on Dh3b Creek GardensMore than 1,400 homes planned in a 127,000-square-metre community overlooking Dubai C"
@@ -18,11 +22,12 @@ TAQA Water Solutions,3,abudhabi,added,2026-09-09,2026-09-09,TAQA Water Solutions
 Masdar City,3,abudhabi,added,2026-08-26,2026-09-03,"Masdar City Launches Emirati Package to Empower National Entrepreneurs, Aligning with Emirati Women's Day and the Year of Family"
 Dubai Healthcare City,3,dubai,added,2026-09-10,2026-09-11,"Dubai Healthcare City begins work on Dh3b Creek GardensMore than 1,400 homes planned in a 127,000-square-metre community overlooking Dubai C"
 SNB Capital,3,saudi,added,2026-09-03,2026-09-05,SNB Capital North America Index Fund
-Trump-Linked World Liberty Financial,2,abudhabi,rejected,2026-08-27,2026-08-28,WSJ: UAE Royal Sheikh Tahnoon Bin Zayed Holds 49% Stake in Trump-Linked World Liberty Financial Banking Venture
 IHC and Adani Group,2,abudhabi,rejected,2026-09-10,2026-09-11,IHC and Adani Group sign agreement to invest Rs 2.1 trilion in Odisha
+World Liberty Financial,2,abudhabi,rejected,2026-08-28,2026-08-28,Is Abu Dhabi’s Sheikh Tahnoon Taking a 49% Stake in Donald Trump’s World Liberty Financial?
 American Airlines,2,abudhabi,rejected,2026-09-03,2026-09-15,American Airlines is Struggling With Broken Business Class Seats On Its Brand New Airbus A321XLR Airplanes
 Infinity Power,2,abudhabi,rejected,2026-09-02,2026-09-03,Ras Shokeir Wind Project: Infinity Power and Hassan Allam Sign PPA for 1 GW Farm in Egypt
 Balkan Green Energy,2,abudhabi,rejected,2026-09-14,2026-09-15,"Masdar, Taaleri create largest Western Balkans wind hub with Čibuk 2 launch"
+Al Seer Marine,2,abudhabi,added,2026-09-16,2026-09-16,Abu Dhabi's L'imad buys AD Ports stake from Al Seer Marine for $632mln
 Dubai Future Finance,2,dubai,rejected,2026-09-08,2026-09-08,Finance leaders convene at Dubai Future Finance Week4m read
 JK Cement,2,northern,rejected,2026-09-03,2026-09-03,JK Cement inaugurates JK DryChem Industries at RAKEZ1m read
 US Energy,2,bahrain,rejected,2026-09-13,2026-09-15,"Iran war latest: East-West pipeline will reopen within days, US Energy Secretary says"
@@ -30,8 +35,10 @@ European Commission,2,oman,rejected,2026-09-09,2026-09-11,European Commission pr
 Secretary-General of Ministry,2,qatar,rejected,2026-09-08,2026-09-08,Secretary-General of Ministry of Foreign Affairs Meets Rector of Tashkent State University of Oriental Studies
 Qatar Development,2,qatar,rejected,2026-09-07,2026-09-08,"Quick update on the top stories... Qatar Development Bank named ""Development Partner"" for QMED 2026. HMC to hold Alzheimer's awareness event"
 Dell Technologies,2,saudi,rejected,2026-09-05,2026-09-07,"Dell Technologies, Armada to accelerate mobile and Edge Data Infrastructure in KSA"
+Skytrax World Airport,2,bahrain,rejected,2026-09-16,2026-09-16,BIA wins three prestigious Skytrax World Airport Awards
 Boring Company,2,dubai,rejected,2026-09-10,2026-09-11,"Musk’s Boring Company raises $3bln in UAE-led round, valuing startup at $23bln"
 Saudi Investment,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
+Environment Authority,2,oman,added,2026-09-14,2026-09-16,Oman aims for net-zero emissions by 2050: Chairman of Environment Authority
 Mohammed Al Habib Real Estate Company,2,saudi,added,2026-09-14,2026-09-15,"Expo 2030 Riyadh, Mohammed Al Habib Real Estate sign $853m JV deal for Expo Village"
 Knowledge Economic City Company,2,saudi,rejected,2026-09-08,2026-09-15,$750m Medina project targets non-Saudi buyers
 General Tax Authority,2,qatar,added,2026-09-03,2026-09-14,General Tax Authority celebrates graduation of first cohort of tax specialist certificate holders
@@ -52,3 +59,4 @@ Axelerated Solutions,2,saudi,added,2026-09-03,2026-09-03,Axelerated Solutions to
 Fakhruddin Properties,2,dubai,added,2026-09-08,2026-09-10,Fakhruddin Properties unveils 463-unit premier mixed-use project in Dubai
 Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
+Trump-Linked World Liberty Financial,1,abudhabi,rejected,2026-08-28,2026-08-28,WSJ: UAE Royal Sheikh Tahnoon Bin Zayed Holds 49% Stake in Trump-Linked World Liberty Financial Banking Venture

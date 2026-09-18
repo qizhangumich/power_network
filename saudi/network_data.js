@@ -529,11 +529,14 @@ const PEOPLE = [
   {id:"alghamdi_sdaia", n:"Abdullah Al-Ghamdi", t:2, p:70, s:"tech", roles:[
     ["sdaia","President","government","ns"]]},
   {id:"fageeh", n:"Abdulrahman Al-Fageeh", t:2, p:72, s:"materials", roles:[
-    ["sabic","CEO","executive","ns"]]},
+    ["sabic","CEO (until Apr 2026)","executive","v","former:until Apr 2026"]],
+    note:"Retired; succeeded by Faisal Al-Faqeer."},
+  {id:"alfaqeer", n:"Faisal Al-Faqeer", t:2, p:72, s:"materials", roles:[
+    ["sabic","CEO","executive","v"]]},
   {id:"wilt", n:"Bob Wilt", t:2, p:68, s:"materials", roles:[
     ["maaden","CEO","executive","ns"]]},
-  {id:"alwetaid", n:"Olayan Alwetaid", t:2, p:70, s:"comm", roles:[
-    ["stc","Group CEO","executive","ns"]]},
+  {id:"alwetaid", n:"Olayan Mohammed Alwetaid", t:2, p:70, s:"comm", roles:[
+    ["stc","Group CEO","executive","v"]]},
   {id:"abunayyan", n:"Mohammad Abunayyan", t:2, p:76, s:"utilities", roles:[
     ["acwa","Founder & Chairman","board","v"]]},
   {id:"tareq_amin", n:"Tareq Amin", t:2, p:72, s:"tech", roles:[
@@ -650,8 +653,6 @@ const PEOPLE = [
     ["stc","Board Member","board","v"]]},
   {id:"walid_i_shukri", n:"Walid I. Shukri", t:2, p:52, s:"comm", roles:[
     ["stc","Board Member","board","v"]]},
-  {id:"olayan_mohammed_alwetaid", n:"Olayan Mohammed Alwetaid", t:2, p:60, s:"comm", roles:[
-    ["stc","Group CEO","executive","v"]]},
   {id:"saeed_mohammed_al", n:"Saeed Mohammed Al-Ghamdi", t:2, p:62, s:"finance", roles:[
     ["snb","Chairman","board","v"]]},
   {id:"yazeed_abdulrahman_al", n:"Yazeed Abdulrahman Al-Humied", t:2, p:62, s:"finance", roles:[
