@@ -1,0 +1,5 @@
+# Etihad Airways unveils next-generation global lounge experience ahead of 2027 Heathrow launch
+source: Future Travel Experience
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaWtLOWJMeDE1akl3Q2h3eDNiNFFrRlVBZnhub2Z5eldueXZiRVAwQlNMRWtPVC03UkRQLXBJdVlDWHdmR2JvUWxDbkFTa0pPRnE2aEpUZmR1V0JXZzR3dTRJb010NlBoUE92R054SjNiQTZPVm9abjBFVUlLZlhORVE5bmlienJMTEpLWFRtb2MtUUh6OVYzaVllUklYLXlKMXY3Wmg4bTY1R2p4cVVKVkV2TF9pcFpBYWRVZWxRRktYMHVrOHNVSGd6S2t2LVFDRXAtbkpPTXg?oc=5
+
+Etihad Airways unveils next-generation global lounge experience ahead of 2027 Heathrow launch    Future Travel Experience
