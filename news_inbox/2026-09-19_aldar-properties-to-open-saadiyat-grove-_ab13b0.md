@@ -1,0 +1,5 @@
+# Aldar Properties to Open Saadiyat Grove in Late 2026
+source: english.globalarabnetwork.com
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPM01vdko5ZWZDczFxT1BuRzJCRVhuZHRLT2JlTDFfd0dCdHZWNkJraTNhN01RaVBGM2M3TXpqZTdtakl3eGpzZENwNEF1VmpsMzBTUHlVbVZIWlE4NEVvR0tNWXYtTlZxNERXTERQTmI3S1NBMktlT1hNSkR2b1h3XzNHZnZDLUhNUWFhT1RtUUEweUVZOG1uN2tpMFhhaTQ1Smo3cA?oc=5
+
+Aldar Properties to Open Saadiyat Grove in Late 2026    english.globalarabnetwork.com
