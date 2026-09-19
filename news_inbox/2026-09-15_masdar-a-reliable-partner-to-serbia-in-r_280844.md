@@ -1,0 +1,5 @@
+# Masdar a reliable partner to Serbia in renewable energy development
+source: Влада Републике Србије
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxNZUgxcnR1T3Zhdld6eWJiQkxGMEJGc1MzOWtvdGljMFo2U19qbTF1MDE5T1ROeWpNRmVWOWw3MENmeXVKanF4UjlBQWR5VlZVNzhoM1ZwUVVOS0FrZkE3TWNTdUFqandyR090bHlIY2ZLcmEyVm50bnRGOFVHb0lmbEVGYkdkQW5LTnRVSWVvNTI2dXE3WmhNMWk5WlFmNmZfVElIVkFIZDNER0pYN0FLQWt3?oc=5
+
+Masdar a reliable partner to Serbia in renewable energy development    Влада Републике Србије

@@ -1,0 +1,5 @@
+# Schneider Electric closes deal to move into Masdar City
+source: Arab News
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxONnZZQXlzNV9yYWYwbnVWRkNwT3NFc2FIN3BKQ1RHZWEwZjVrNGVReHRzUTRQckxKa0VjdGlxZVRGSC04ak5tclFnYllTdVlZNklka2hEUnF0Qnc1aWN4NXJPOFZGMjVRUVdnRXBkRlVGZmNJVXVmYmpoOW1pTTQyVGtMTTJWTXBtRHVFcFJkMnpVc2syekg4cVZ0dnJ0WC1xUnpaQ1dBZ3JDOG5vcHhxX1FFVjdYQ05HRHdj?oc=5
+
+Schneider Electric closes deal to move into Masdar City    Arab News

@@ -1,0 +1,5 @@
+# Dubai and Middle East flight disruption: airlines face delays as British Airways announces plans to restart regional routes
+source: Condé Nast Traveller Middle East
+url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdjNWOWVVMlV6TTVsOWo5UGpRZUVpNlRFTno3dmViVGJ3Y3UxS2RfZ0Y3Vk94TlZ0SGZzT3hTUlJDcmNtVktnSW1PM1RIclVndXlYRmsxY2hlVWQ2eVhWQjl0U3lTYVVOQjZNM2wzcm9wUV9fVXgwVXpuamZmNzFSWUVFSjRDeVNFbmw5UDhoT0JMbXA5RURFOTlTU1BySnlSWE1BUFIwOEk0aHpCY0xhaDFMZlVaQU5hSU85dzZPMk11UGlOMVo3M1o1SzRKTWR5ZjI2ZFNuQXU5SnQyV3R6OXljbnBuQjBjZUVIdTJhYw?oc=5
+
+Dubai and Middle East flight disruption: airlines face delays as British Airways announces plans to restart regional routes    Condé Nast Traveller Middle East

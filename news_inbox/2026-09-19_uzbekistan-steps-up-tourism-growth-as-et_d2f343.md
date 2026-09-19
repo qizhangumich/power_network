@@ -1,0 +1,5 @@
+# Uzbekistan Steps Up Tourism Growth as Etihad Airways Expands Flights, Marketing and Regional Access
+source: Nomad Lawyer
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNbnF4N2hXZEZZSlVYakNKa0xWdjZ0WF80VXlpTzB4TzhvMll4SlVVY1dFV3Q2c2VIUFhqSDU5RUNxeGw5bm5INU9rbG9WUnYxeHNGenV3ZW04UzdxOTNJSkZFLXp1M3o3ekRUekFic2c2QnNPaVUySEh6R0lXU2ZycGZrUmRVVjItMjYzdDUyQk1wRHZRN2szUzJleTVoVl9xMjZ4eS1iSFVqMUZSdzRqdVg2U1BmbUItdXNoRFphbWFGVFpu?oc=5
+
+Uzbekistan Steps Up Tourism Growth as Etihad Airways Expands Flights, Marketing and Regional Access    Nomad Lawyer
