@@ -192,6 +192,7 @@ const INSTITUTIONS = [
   {id:"alrayan_investment", n:"AlRayan Investment LLC", s:"finance", t:3, p:58, short:"AlRayan Investment"},
   {id:"north_oil", n:"North Oil Company", s:"energy", t:2, p:62, short:"North Oil Co"},
   {id:"gulf_drilling_intl", n:"Gulf Drilling International Limited", s:"energy", t:3, p:54, short:"Gulf Drilling Intl"},
+  {id:"acrps_doha_inst", n:"Arab Center for Research and Policy Studies", s:"education", t:3, p:54, short:"ACRPS Doha Inst"},
 ];
 
 const PEOPLE = [
@@ -1535,11 +1536,12 @@ const AKA = {
   public_prosecution:["QPP"],
   qatar_chamber:["QCCI"],
   gac_qatar:["GAC"],
-  moj_qatar:["MOJ"],
+  moj_qatar:["MOJ","Justice Ministry"],
   ncsa_qatar:["NCSA"],
   grsia_daman:["GRSIA","Daman"],
   gen_tax_authority:["GTA"],
   alrayan_investment:["ARI"],
   north_oil:["NOC"],
   gulf_drilling_intl:["GDI"],
+  acrps_doha_inst:["ACRPS","Doha Institute"],
 };

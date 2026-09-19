@@ -1,8 +1,4 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Dubai Parks and Resorts,2,dubai,pending,2026-09-18,2026-09-18,Dubai Parks and Resorts theme parks to reopen after six-month closure
-Shahba Bank,2,qatar,pending,2026-09-17,2026-09-18,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
-Justice Ministry,2,qatar,pending,2026-09-15,2026-09-18,Justice Ministry welcomes Qatar's accession to Hague Conference on Private International Law
-US Department,2,qatar,pending,2026-09-08,2026-09-18,US Department of the Treasury announces new Iran sanctions
 Abu Dhabi Investment,13,abudhabi,rejected,2026-09-05,2026-09-17,​ASK Automotive - Abu Dhabi Investment Portfolio: 10 stocks rally up to 107% in CY26
 Marlan Holding,7,abudhabi,added,2026-09-08,2026-09-10,Abu Dhabi's IHC to acquire 80% stake in UAE space company Marlan Holding
 British Airways,7,dubai,rejected,2026-09-15,2026-09-18,"British Airways Returns to Tanzania With Direct Flights to Kilimanjaro and Zanzibar, 15 Years After It Last Withdrew Service"
@@ -35,11 +31,15 @@ European Commission,2,oman,rejected,2026-09-09,2026-09-11,European Commission pr
 Secretary-General of Ministry,2,qatar,rejected,2026-09-08,2026-09-08,Secretary-General of Ministry of Foreign Affairs Meets Rector of Tashkent State University of Oriental Studies
 Canada Investment,2,qatar,rejected,2026-09-16,2026-09-17,Qatar participates in Canada Investment Summit
 Estithmar Holding,2,qatar,rejected,2026-09-12,2026-09-17,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
+Shahba Bank,2,qatar,rejected,2026-09-17,2026-09-18,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Qatar Development,2,qatar,rejected,2026-09-07,2026-09-08,"Quick update on the top stories... Qatar Development Bank named ""Development Partner"" for QMED 2026. HMC to hold Alzheimer's awareness event"
+US Department,2,qatar,rejected,2026-09-08,2026-09-18,US Department of the Treasury announces new Iran sanctions
 Dell Technologies,2,saudi,rejected,2026-09-05,2026-09-07,"Dell Technologies, Armada to accelerate mobile and Edge Data Infrastructure in KSA"
 Skytrax World Airport,2,bahrain,rejected,2026-09-16,2026-09-16,BIA wins three prestigious Skytrax World Airport Awards
 Boring Company,2,dubai,rejected,2026-09-10,2026-09-11,"Musk’s Boring Company raises $3bln in UAE-led round, valuing startup at $23bln"
 Saudi Investment,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
+Dubai Parks and Resorts,2,dubai,rejected,2026-09-18,2026-09-18,Dubai Parks and Resorts theme parks to reopen after six-month closure
+Justice Ministry,2,qatar,rejected,2026-09-15,2026-09-18,Justice Ministry welcomes Qatar's accession to Hague Conference on Private International Law
 World Liberty Financial,2,abudhabi,rejected,2026-08-28,2026-08-28,Is Abu Dhabi’s Sheikh Tahnoon Taking a 49% Stake in Donald Trump’s World Liberty Financial?
 Apparel Group,2,,added,2026-09-03,2026-09-18,"Apparel Group, Carrefour launch hypermarket in India3m read"
 Environment Authority,2,oman,added,2026-09-14,2026-09-16,Oman aims for net-zero emissions by 2050: Chairman of Environment Authority

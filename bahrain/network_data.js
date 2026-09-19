@@ -120,6 +120,9 @@ const INSTITUTIONS = [
   {id:"gheras", n:"Bahrain Agriculture Development Company", s:"consumer_stap", t:2, p:52, short:"Gheras"},
   {id:"beyon_money", n:"Beyon Money", s:"finance", t:3, p:54, short:"Beyon Money"},
   {id:"beyon_cyber", n:"Beyon Cyber", s:"tech", t:3, p:52, short:"Beyon Cyber"},
+  {id:"king_hamad_univ", n:"King Hamad University Hospital", s:"health", t:2, p:60, short:"King Hamad Univ Hosp"},
+  {id:"al_hilal", n:"Al Hilal Group", s:"comm", t:3, p:52, short:"Al Hilal Group"},
+  {id:"derasat", n:"Bahrain Center for Strategic International and Energy Studies", s:"education", t:2, p:56, short:"Derasat"},
 ];
 
 const PEOPLE = [
@@ -2739,4 +2742,6 @@ const AKA = {
   bapco_air_fueling:["BAFCO"],
   sico_bank:["SICO","Securities & Investment Company"],
   united_gulf_bank:["UGB","Burgan Bank Bahrain (pending)","c"],
+  king_hamad_univ:["KHUH"],
+  al_hilal:["Al Hilal Publishing & Marketing"],
 };

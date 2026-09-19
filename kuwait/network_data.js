@@ -214,6 +214,7 @@ const INSTITUTIONS = [
   {id:"csc_kuwait", n:"Civil Service Commission", s:"gov", t:2, p:54, short:"CSC Kuwait"},
   {id:"kuna", n:"Kuwait News Agency", s:"comm", t:2, p:56, short:"KUNA"},
   {id:"xcite_electronics", n:"Xcite Alghanim Electronics", s:"consumer_disc", t:2, p:58, short:"Xcite Electronics"},
+  {id:"gust", n:"Gulf University for Science and Technology", s:"education", t:3, p:54, short:"GUST"},
 ];
 
 const PEOPLE = [

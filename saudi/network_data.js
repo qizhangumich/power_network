@@ -229,7 +229,7 @@ const INSTITUTIONS = [
   {id:"lst_4007", n:"Al Hammadi Holding Co.", s:"health", t:2, p:50, short:"4007"},
   {id:"lst_4009", n:"Saudi German Health", s:"health", t:2, p:50, short:"Saudi German Health"},
   {id:"lst_4014", n:"Middle East Healthcare Co. (Equipment House)", s:"health", t:2, p:50, short:"4014"},
-  {id:"lst_4017", n:"Dr. Soliman Fakeeh Care Co.", s:"health", t:2, p:50, short:"4017"},
+  {id:"lst_4017", n:"Fakeeh Care Group", s:"health", t:2, p:58, short:"Fakeeh Care"},
   {id:"lst_4018", n:"Almoosa Health Co.", s:"health", t:2, p:50, short:"Almoosa Health Co."},
   {id:"lst_4019", n:"SMC Healthcare Co.", s:"health", t:2, p:50, short:"SMC Healthcare Co."},
   {id:"lst_4021", n:"Canadian Medical Center Co. (CMCER)", s:"health", t:2, p:50, short:"4021"},
@@ -442,6 +442,11 @@ const INSTITUTIONS = [
   {id:"yanpet", n:"Saudi Yanbu Petrochemical Company", s:"materials", t:2, p:62, short:"YANPET"},
   {id:"kemya", n:"Al-Jubail Petrochemical Company", s:"materials", t:2, p:58, short:"KEMYA"},
   {id:"sadaf", n:"Saudi Petrochemical Company", s:"materials", t:2, p:58, short:"SADAF"},
+  {id:"prince_sultan_uni", n:"Prince Sultan University", s:"education", t:3, p:54, short:"Prince Sultan Uni"},
+  {id:"alfaisal_university", n:"Alfaisal University", s:"education", t:2, p:58, short:"Alfaisal University"},
+  {id:"kfshrc", n:"King Faisal Specialist Hospital and Research Centre", s:"health", t:2, p:66, short:"KFSHRC"},
+  {id:"rotana_media", n:"Rotana Media Group", s:"comm", t:2, p:58, short:"Rotana Media"},
+  {id:"kapsarc", n:"King Abdullah Petroleum Studies and Research Center", s:"education", t:2, p:62, short:"KAPSARC"},
 ];
 
 const PEOPLE = [
@@ -2104,6 +2109,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  lst_4017:["Dr. Soliman Fakeeh Care Co.","Dr. Soliman Fakeeh Hospital","DSFH"],
   lst_4310:["Knowledge Economic City Company"],
   moenergy:["Saudi Energy","Ministry of Energy"],
   lst_1030:["Saudi Investment Bank","SAIB"],
@@ -2161,4 +2167,5 @@ const AKA = {
   gib_capital:["GIB Capital LLC"],
   al_habib_real:["Mohammed Al Habib Real Estate Company","Mohammad Al-Habib Real Estate Co."],
   yanpet:["Mobil Yanbu Petrochemical Company"],
+  prince_sultan_uni:["PSU"],
 };

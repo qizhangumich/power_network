@@ -179,6 +179,11 @@ const INSTITUTIONS = [
   {id:"ikea_al_futtaim", n:"IKEA Al-Futtaim Trading Company LLC", s:"consumer_disc", t:2, p:58, short:"IKEA Al-Futtaim"},
   {id:"orient_insurance", n:"Orient Insurance PJSC", s:"finance", t:2, p:60, short:"Orient Insurance"},
   {id:"apparel", n:"Apparel Group", s:"consumer_disc", t:2, p:58, short:"Apparel Group"},
+  {id:"univ_of_dubai", n:"University of Dubai", s:"education", t:3, p:54, short:"Univ of Dubai"},
+  {id:"heriot_watt_dubai", n:"Heriot-Watt University Dubai", s:"education", t:3, p:52, short:"Heriot-Watt Dubai"},
+  {id:"mbru", n:"Mohammed Bin Rashid University of Medicine and Health Sciences", s:"education", t:2, p:58, short:"MBRU"},
+  {id:"mediclinic_me", n:"Mediclinic Middle East", s:"health", t:2, p:58, short:"Mediclinic ME"},
+  {id:"dubai_media_inc", n:"Dubai Media Incorporated", s:"comm", t:1, p:68, short:"Dubai Media Inc"},
 ];
 
 const PEOPLE = [
@@ -1506,6 +1511,7 @@ const OWNERSHIP = [
   ["al_futtaim_motors","alfuttaim","subsidiary of; exclusive Toyota/Lexus/Hino distributor in UAE since 1955","ns"],
   ["ikea_al_futtaim","alfuttaim","franchise subsidiary of; operates IKEA stores in UAE/Egypt/Oman/Qatar","ns"],
   ["orient_insurance","alfuttaim","subsidiary of (100% owned; immediate holding entity is Al Futtaim Development Services Company)","ns"],
+  ["mbru","dha","part of","v"],
 ];
 
 const FAMILY = [
@@ -1517,6 +1523,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  dh_entertainment:["Dubai Parks and Resorts","DXB Entertainments"],
   mbr:["Mohammed bin Rashid","Sheikh Mohammed","MBR"],
   hamdan_cp:["Hamdan bin Mohammed","Fazza"],
   maktoum_dep:["Maktoum bin Mohammed"],
@@ -1569,4 +1576,7 @@ const AKA = {
   emaar_development:["EMAARDEV"],
   al_futtaim_motors:["Al-Futtaim Automotive"],
   ikea_al_futtaim:["Al-Futtaim IKEA"],
+  univ_of_dubai:["UD"],
+  heriot_watt_dubai:["HW Dubai"],
+  dubai_media_inc:["DMI"],
 };

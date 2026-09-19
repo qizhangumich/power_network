@@ -179,6 +179,7 @@ const INSTITUTIONS = [
   {id:"sur_industrial_city", n:"Sur Industrial City", s:"industry", t:3, p:52, short:"Sur Industrial City"},
   {id:"environment_auth", n:"Environment Authority", s:"gov", t:2, p:64, short:"Environment Auth"},
   {id:"zawawi", n:"Zawawi Group", s:"conglomerate", t:3, p:56, short:"Zawawi Group"},
+  {id:"gutech", n:"German University of Technology in Oman", s:"education", t:3, p:52, short:"GUtech"},
 ];
 
 const PEOPLE = [
