@@ -502,6 +502,7 @@ const PEOPLE = [
     ["mot_sa","Minister of Tourism","political","v"],
     ["redsea","Board Member","board","v"]]},
   {id:"alkhorayef", n:"Bandar Alkhorayef", t:1, p:72, s:"industry", roles:[
+    ["sami","Board Member","board","v"],
     ["alat","Board Member; Minister of State and Member of the Council of Ministers","board","v"],
     ["com","Minister of State, Member of the Council of Ministers","political","v"],
     ["moind","Minister of Industry & Mineral Resources (2019–Jul 2026)","political","v","former:until Jul 2026"]],
@@ -524,6 +525,7 @@ const PEOPLE = [
     ["moe_sa","Minister of Education","political","v"]],
     note:"Appointed Sep 2022; former Chairman/CEO of SABIC."},
   {id:"alduailej", n:"Abdulaziz Al-Duailej", t:1, p:68, s:"gov", roles:[
+    ["sami","Board Member","board","v"],
     ["gaca_sa","President","government","v"]],
     note:"Re-elected chairman of the Arab Civil Aviation Organization's Executive Council for a second term, 2026."},
   {id:"alsayari", n:"Ayman Al-Sayari", t:1, p:78, s:"finance", roles:[
@@ -734,6 +736,7 @@ const PEOPLE = [
   {id:"ibrahim_al_rajhi", n:"Ibrahim Al Rajhi", t:2, p:52, s:"utilities", roles:[
     ["acwa","Board Member","board","v"]]},
   {id:"omar_al_madhi", n:"Omar Al-Madhi", t:2, p:52, s:"utilities", roles:[
+    ["sami","Board Member","board","v"],
     ["acwa","Board Member","board","v"]]},
   {id:"omar_almidani", n:"Omar Almidani", t:2, p:52, s:"utilities", roles:[
     ["acwa","Board Member","board","v"]]},
@@ -953,6 +956,7 @@ const PEOPLE = [
   {id:"saad_alkroud", n:"Saad Alkroud", t:2, p:46, s:"sovereign", roles:[
     ["pif","Head of Local Real Estate Investments Division","executive","v"]]},
   {id:"yasir_a_alsalman", n:"Yasir A. AlSalman", t:2, p:58, s:"sovereign", roles:[
+    ["sami","Board Member","board","v"],
     ["pif","Chief Financial Officer and Head of Finance Division and Acting Head of Global Capital Finance","executive","v"]]},
   {id:"bander_a_mogren", n:"Bander A. Mogren", t:2, p:58, s:"sovereign", roles:[
     ["pif","Advisor to His Excellency the Governor","executive","v"]]},
@@ -1685,6 +1689,8 @@ const PEOPLE = [
   {id:"ammar_nagadi", n:"Ammar Nagadi", t:2, p:58, s:"gov", roles:[
     ["mep_sa","Vice Minister of Economy and Planning","executive","v"]]},
   {id:"mohammed_bin_salman", n:"Mohammed bin Salman Al Saud", t:2, p:62, s:"realestate", roles:[
+    ["sdaia","Chairman of the Board of Directors","board","v"],
+    ["diriyah","Chairman of the Board","board","v"],
     ["new_murabba","Chairman of the Board of Directors","board","v"],
     ["humain","Chairman","board","v"],
     ["alat","Chairman of the Board of Directors","board","v"]]},
@@ -1754,6 +1760,98 @@ const PEOPLE = [
     ["ceer","Board Director","board","ns"]]},
   {id:"mohammed_al_mutairi", n:"Mohammed Al-Mutairi", t:2, p:60, s:"materials", roles:[
     ["lst_2170","Acting Chief Executive Officer","executive","ns"]]},
+  {id:"yaser_binmahfouz", n:"Yaser Binmahfouz", t:2, p:62, s:"finance", roles:[
+    ["sedco","Chairman","board","v"]]},
+  {id:"sameer_baarma", n:"Sameer Baarma", t:2, p:52, s:"finance", roles:[
+    ["sedco","Board Member","board","v"]]},
+  {id:"ghazal_binmahfouz", n:"Ghazal Binmahfouz", t:2, p:52, s:"finance", roles:[
+    ["sedco","Board Member","board","v"]]},
+  {id:"badr_binmahfouz", n:"Badr Binmahfouz", t:2, p:52, s:"finance", roles:[
+    ["sedco","Board Member","board","v"]]},
+  {id:"matthew_eyton_jones", n:"Matthew Eyton-Jones", t:2, p:52, s:"finance", roles:[
+    ["sedco","Board Member","board","v"]]},
+  {id:"abdelelah_salem_binmahfouz", n:"Abdelelah Salem Binmahfouz", t:2, p:52, s:"finance", roles:[
+    ["sedco","Board Member","board","v"]]},
+  {id:"abdulraouf_mannaa", n:"Abdulraouf Mannaa", t:2, p:52, s:"finance", roles:[
+    ["sedco","Board Member","board","v"]]},
+  {id:"zeyad_al_hekail", n:"Zeyad Al-Hekail", t:2, p:52, s:"finance", roles:[
+    ["sedco","Board Member","board","v"]]},
+  {id:"simon_palethorpe", n:"Simon Palethorpe", t:2, p:52, s:"finance", roles:[
+    ["sedco","Board Member","board","v"]]},
+  {id:"tharwat_amer", n:"Tharwat Amer", t:2, p:58, s:"finance", roles:[
+    ["sedco","Chief Financial Officer","executive","v"]]},
+  {id:"ossama_a_banaja", n:"Ossama A. Banaja", t:2, p:58, s:"finance", roles:[
+    ["sedco","Chief Investments Officer","executive","v"]]},
+  {id:"abdullah_saleh_ali", n:"Abdullah Saleh Ali Al-Othaim", t:2, p:62, s:"consumer_stap", roles:[
+    ["al_othaim","Chairman of the Board","board","v"]]},
+  {id:"khalid_bin_salman", n:"Khalid bin Salman", t:2, p:62, s:"industry", roles:[
+    ["sami","Chairman","board","v"]]},
+  {id:"talal_bin_abdullah", n:"Talal bin Abdullah Al-Otaibi", t:2, p:52, s:"industry", roles:[
+    ["sami","Board Member","board","v"]]},
+  {id:"khalid_bin_hussein", n:"Khalid bin Hussein Al-Biyari", t:2, p:52, s:"industry", roles:[
+    ["sami","Board Member","board","v"]]},
+  {id:"abdulaziz_bin_abdullah", n:"Abdulaziz bin Abdullah Al-Suqair", t:2, p:52, s:"industry", roles:[
+    ["sami","Board Member","board","v"]]},
+  {id:"mansour_alharbi", n:"Mansour AlHarbi", t:2, p:58, s:"industry", roles:[
+    ["sami","Executive Vice President of Defense Systems","executive","v"]]},
+  {id:"mohammed_al_hodaib", n:"Mohammed Al-Hodaib", t:2, p:58, s:"industry", roles:[
+    ["sami","Executive Vice President for Land Systems","executive","v"]]},
+  {id:"sultan_al_sultan", n:"Sultan Al-Sultan", t:2, p:58, s:"industry", roles:[
+    ["sami","Acting Chief Legal Officer","executive","v"]]},
+  {id:"wael_bin_mohammed", n:"Wael bin Mohammed Al-Sarhan", t:2, p:58, s:"industry", roles:[
+    ["sami","Chief Communication & Support Services Officer","executive","v"]]},
+  {id:"mohammed_bin_abdulmohsen", n:"Mohammed Bin Abdulmohsen Al-Assaf", t:2, p:58, s:"industry", roles:[
+    ["sami","Chief Financial Officer","executive","v"]]},
+  {id:"nawaf_al_hawshan", n:"Nawaf Al-Hawshan", t:2, p:58, s:"industry", roles:[
+    ["sami","Chief Strategy & Business Development Officer","executive","v"]]},
+  {id:"talal_al_marri", n:"Talal Al-Marri", t:2, p:60, s:"gov", roles:[
+    ["expo_2030","Chief Executive Officer","executive","v"]]},
+  {id:"mohammed_bin_salman_b", n:"Mohammed Bin Salman Bin Abdulaziz", t:2, p:62, s:"realestate", roles:[
+    ["king_salman_park","Chairman of the Board of Directors","board","v"]]},
+  {id:"george_tanasijevich", n:"George Tanasijevich", t:2, p:60, s:"realestate", roles:[
+    ["king_salman_park","Chief Executive Officer","executive","v"]]},
+  {id:"mazen_bin_turki", n:"Mazen bin Turki Al-Sudairi", t:2, p:62, s:"gov", roles:[
+    ["cma","Chairman","board","v"]]},
+  {id:"youssef_hamad_al", n:"Youssef Hamad Al-Bilihid", t:2, p:62, s:"gov", roles:[
+    ["cma","Vice Chairman","board","v"]]},
+  {id:"khaled_abdulaziz_al", n:"Khaled Abdulaziz Al-Homoud", t:2, p:52, s:"gov", roles:[
+    ["cma","Member","board","v"]]},
+  {id:"abdulaziz_abdulmohsen_binhas", n:"Abdulaziz Abdulmohsen Binhassan", t:2, p:52, s:"gov", roles:[
+    ["cma","Member","board","v"]]},
+  {id:"murya_saad_habbash", n:"Murya Saad Habbash", t:2, p:52, s:"gov", roles:[
+    ["cma","Member","board","v"]]},
+  {id:"saleh_bin_mohammed", n:"Saleh bin Mohammed Alothaim", t:2, p:58, s:"tech", roles:[
+    ["sdaia","Vice President","executive","v"]]},
+  {id:"alrebdi_bin_fahd", n:"Alrebdi bin Fahd Al-Rebdi", t:2, p:58, s:"tech", roles:[
+    ["sdaia","Chief of the National Data Management Office","executive","v"]]},
+  {id:"faisal_bafarat", n:"Faisal Bafarat", t:2, p:60, s:"gov", roles:[
+    ["gea","Chief Executive Officer","executive","v"]]},
+  {id:"majid_al_hogail", n:"Majid Al-Hogail", t:2, p:58, s:"realestate", roles:[
+    ["momah_sa","Minister of Municipalities and Housing","executive","v"]]},
+  {id:"talal_bin_mohammed", n:"Talal bin Mohammed Alkhnaini", t:2, p:58, s:"realestate", roles:[
+    ["momah_sa","Deputy Minister for Developmental Housing","executive","v"]]},
+  {id:"abdullah_bin_mohammed", n:"Abdullah bin Mohammed Al-Budair", t:2, p:58, s:"realestate", roles:[
+    ["momah_sa","Deputy Minister of Municipal Rural Affairs and Housing","executive","v"]]},
+  {id:"khalid_alghimlas", n:"Khalid Alghimlas", t:2, p:58, s:"realestate", roles:[
+    ["momah_sa","Deputy Minister for Urban Planning and Lands","executive","v"]]},
+  {id:"abdulrahman_al_tawil", n:"Abdulrahman Al-Tawil", t:2, p:58, s:"realestate", roles:[
+    ["momah_sa","Deputy Minister for Real Estate Development","executive","v"]]},
+  {id:"haitham_alohaly", n:"Haitham Alohaly", t:2, p:58, s:"tech", roles:[
+    ["mcit_sa","Vice Minister","executive","v"]]},
+  {id:"munir_eldesouki", n:"Munir Eldesouki", t:2, p:58, s:"tech", roles:[
+    ["mcit_sa","Assistant Minister","executive","v"]]},
+  {id:"abdulrahman_almufadda", n:"Abdulrahman AlMufadda", t:2, p:58, s:"tech", roles:[
+    ["mcit_sa","Deputy Minister for Telecom and Digital Infrastructure","executive","v"]]},
+  {id:"khalid_fahad_al", n:"Khalid Fahad Al-Huzaim", t:2, p:58, s:"tech", roles:[
+    ["mcit_sa","Deputy Minister for Shared Services","executive","v"]]},
+  {id:"issam_al_thukair", n:"Issam Al-Thukair", t:2, p:58, s:"tech", roles:[
+    ["mcit_sa","Deputy Minister for International Cooperation and Partnerships","executive","v"]]},
+  {id:"mohammed_robayan", n:"Mohammed Robayan", t:2, p:58, s:"tech", roles:[
+    ["mcit_sa","Deputy Minister for Technology","executive","v"]]},
+  {id:"abdulrahman_bin_nasser", n:"Abdulrahman bin Nasser Al-Rashed", t:2, p:58, s:"tech", roles:[
+    ["mcit_sa","Deputy Minister for Planning and Vision Realization","executive","v"]]},
+  {id:"safa_alrashed", n:"Safa AlRashed", t:2, p:58, s:"tech", roles:[
+    ["mcit_sa","Acting Deputy Minister for Future Jobs and Capabilities","executive","v"]]},
 ];
 
 const OWNERSHIP = [

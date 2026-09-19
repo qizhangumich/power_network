@@ -204,6 +204,8 @@ const PEOPLE = [
     ["difc","President","political","v"]],
     note:"Dubai's financial-markets czar: DIFC, the IPO program and federal finance."},
   {id:"ahmed_saeed", n:"H.H. Sheikh Ahmed bin Saeed Al Maktoum", t:0, p:92, s:"industry", roles:[
+    ["dnata","Chairman","board","v"],
+    ["dubai_world","Chairman","board","v"],
     ["execco","Deputy Chairman","board","v"],
     ["icd","Board Member","board","v"],
     ["emirates","Chairman & Chief Executive","executive","v"],
@@ -217,6 +219,7 @@ const PEOPLE = [
     ["dxbgov","Second Deputy Ruler of Dubai","political","v"],
     ["dxbgov","Chairman, Dubai Media Council","government","v"]]},
   {id:"shaibani", n:"Mohammed Ibrahim Al Shaibani", t:1, p:90, s:"sovereign", roles:[
+    ["dubai_world","Board Member","board","v"],
     ["execco","Member (Director General of HH the Ruler's Court)","board","v"],
     ["dxbgov","Director-General, Ruler's Court","government","v"],
     ["icd","Managing Director","executive","v"],
@@ -249,6 +252,7 @@ const PEOPLE = [
   {id:"omar_olama", n:"Omar Sultan Al Olama", t:1, p:78, s:"tech", roles:[
     ["dxbgov","UAE Minister of State for AI, Digital Economy & Remote Work","political","v"]]},
   {id:"alabbar", n:"Mohamed Alabbar", t:1, p:88, s:"realestate", roles:[
+    ["emaar_development","Executive Board Member","board","v"],
     ["emaar","Founder & Managing Director","executive","v"],
     ["noon","Founder & Chairman","board","v"]],
     note:"Dubai's signature developer-entrepreneur: Burj Khalifa, Dubai Mall, noon."},
@@ -274,6 +278,7 @@ const PEOPLE = [
   {id:"alali_maf_chair", n:"Fadel Abdulbaqi Al Ali", t:2, p:72, s:"conglomerate", roles:[
     ["maf","Chairman, Holding Board","board","v"]]},
   {id:"alsaleh_dof", n:"Abdulrahman Saleh Al Saleh", t:1, p:72, s:"gov", roles:[
+    ["dubai_world","Board Member","board","v"],
     ["execco","Member (Director General of Department of Finance)","board","v"],
     ["icd","Board Member","board","v"],
     ["dof_dxb","Director-General","political","v"],
@@ -332,6 +337,7 @@ const PEOPLE = [
     ["icd","Board Member","board","v"],
     ["enbd","Board Member","board","v"]]},
   {id:"buti_obaid_buti", n:"Buti Obaid Buti Al Mulla", t:2, p:52, s:"finance", roles:[
+    ["almulla","Board Member","board","v"],
     ["enbd","Board Member","board","v"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"ali_humaid_al", n:"Ali Humaid Al Owais", t:2, p:52, s:"finance", roles:[
@@ -364,6 +370,7 @@ const PEOPLE = [
   {id:"jamal_majed_bin", n:"Jamal Majed Bin Thaniah", t:2, p:62, s:"realestate", roles:[
     ["emaar","Chairman","board","v"]]},
   {id:"ahmed_jamal_jawa", n:"Ahmed Jamal Jawa", t:2, p:62, s:"realestate", roles:[
+    ["emaar_development","Director","board","v"],
     ["emaar","Vice Chairman","board","ns"]]},
   {id:"abdullah_ali_bin", n:"Abdullah Ali bin Zayed Al-Falasi", t:2, p:52, s:"realestate", roles:[
     ["emaar","Board Member","board","v"]]},
@@ -387,6 +394,7 @@ const PEOPLE = [
     ["dib","Vice Chairman","board","v"],
     ["dubaichambers","Vice-Chairman of Dubai Chamber of Commerce","board","v"]]},
   {id:"hamad_mubarak_buamim", n:"Hamad Mubarak Buamim", t:2, p:52, s:"finance", roles:[
+    ["dubai_world","Board Member","board","v"],
     ["dmcc","Chairman of the Board of Directors","board","v"],
     ["dib","Board Member","board","v"]]},
   {id:"abdulaziz_ahmed_almheiri", n:"Abdulaziz Ahmed Almheiri", t:2, p:52, s:"finance", roles:[
@@ -416,6 +424,7 @@ const PEOPLE = [
     ["dpworld","Group Chairman & CEO (2007–Feb 2026)","executive","v","former:until Feb 2026"]],
     note:"Led DP World's global expansion for nearly two decades; stepped down Feb 2026 — role split between Essa Kazim (Chairman) and Yuvraj Narayan (Group CEO)."},
   {id:"yuvraj_narayan", n:"Yuvraj Narayan", t:2, p:58, s:"industry", roles:[
+    ["dfm","Board Member","board","v"],
     ["dpworld","Group Chief Executive Officer","executive","v"]]},
   {id:"deepak_parekh", n:"Deepak Parekh", t:2, p:52, s:"industry", roles:[
     ["dpworld","Senior Independent Non-Executive Director","board","v"]]},
@@ -446,6 +455,7 @@ const PEOPLE = [
   {id:"adel_ahmad_al", n:"Adel Ahmad Al Redha", t:2, p:58, s:"industry", roles:[
     ["emirates","Deputy President & Chief Operations Officer","executive","v"]]},
   {id:"adnan_kazim", n:"Adnan Kazim", t:2, p:58, s:"industry", roles:[
+    ["emaar_development","Chairman","board","v"],
     ["emirates","Deputy President & Chief Commercial Officer","executive","v"]]},
   {id:"ali_mubarak_al", n:"Ali Mubarak Al Soori", t:2, p:58, s:"industry", roles:[
     ["emirates","Chief Procurement and Facilities Officer","executive","v"]]},
@@ -554,6 +564,7 @@ const PEOPLE = [
     ["tecom","Chief Executive Officer","executive","ns"],
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
   {id:"wesam_lootah", n:"Wesam Lootah", t:2, p:52, s:"comm", roles:[
+    ["dfm","Board Member","board","v"],
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
   {id:"khalifa_almheiri", n:"Khalifa AlMheiri", t:2, p:52, s:"comm", roles:[
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
@@ -834,6 +845,8 @@ const PEOPLE = [
   {id:"faisal_bin_juma", n:"Faisal Bin Juma Belhoul", t:2, p:52, s:"industry", roles:[
     ["lst_salik","Board Member","board","v"]]},
   {id:"moaza_saeed_al", n:"Moaza Saeed Al Marri", t:2, p:52, s:"industry", roles:[
+    ["rta","Member Board of Executive Directors","board","v"],
+    ["dfm","Board Member","board","v"],
     ["lst_salik","Board Member","board","v"]]},
   {id:"abdulla_ali_al", n:"Abdulla Ali Al Madani", t:2, p:52, s:"industry", roles:[
     ["lst_salik","Board Member","board","v"]]},
@@ -854,10 +867,12 @@ const PEOPLE = [
   {id:"jad_ziad_deaibes", n:"Jad Ziad Deaibes", t:2, p:58, s:"industry", roles:[
     ["lst_salik","Board Secretary","executive","v"]]},
   {id:"ahmed_hashem_bahrozyan", n:"Ahmed Hashem Bahrozyan", t:2, p:62, s:"industry", roles:[
+    ["rta","Member Board of Executive Directors and CEO Public Transport Agency","executive","v"],
     ["lst_parkin","Chairman","board","v"]]},
   {id:"eng_ahmed_hasan", n:"Eng. Ahmed Hasan Mahboub", t:2, p:62, s:"industry", roles:[
     ["lst_parkin","Vice Chairman","board","v"]]},
   {id:"eng_muna_abdulrahman", n:"Eng. Muna Abdulrahman Alosaimi", t:2, p:52, s:"industry", roles:[
+    ["rta","Member Board of Executive Directors","board","v"],
     ["lst_parkin","Board Member","board","v"]]},
   {id:"eng_nasser_hamad", n:"Eng. Nasser Hamad Abushahab", t:2, p:52, s:"industry", roles:[
     ["lst_parkin","Board Member","board","v"]]},
@@ -1006,6 +1021,7 @@ const PEOPLE = [
   {id:"amal_mohammed_ahmad", n:"Amal Mohammed Ahmad Al Marri", t:2, p:52, s:"gov", roles:[
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"mohammad_abdulaziz_hassan", n:"Mohammad Abdulaziz Hassan Baker", t:2, p:52, s:"gov", roles:[
+    ["gmg","Deputy Chairman and Chief Executive Officer","executive","v"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"rashed_ali_abulhassan", n:"Rashed Ali Abulhassan Al Ansari", t:2, p:52, s:"gov", roles:[
     ["lst_alansari","Group Chief Executive Officer","executive","v"],
@@ -1014,6 +1030,7 @@ const PEOPLE = [
   {id:"ahmad_bin_eisa", n:"Ahmad Bin Eisa Bin Nasser Alserkal", t:2, p:52, s:"gov", roles:[
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"easa_farid_abdulla", n:"Easa Farid Abdulla Al Gurg", t:2, p:52, s:"gov", roles:[
+    ["easa_saleh_al","Group Chief Executive Officer","executive","v"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"swaidan_saeed_juma", n:"Swaidan Saeed Juma Al Naboodah", t:2, p:52, s:"gov", roles:[
     ["dubaichambers","Member of the Board","board","v"]]},
@@ -1091,6 +1108,7 @@ const PEOPLE = [
   {id:"barry_roy_lewis", n:"Barry Roy Lewis", t:2, p:52, s:"industry", roles:[
     ["lst_alec","Executive Director","board","v"]]},
   {id:"nabil_al_kindi", n:"Nabil Al Kindi", t:2, p:52, s:"industry", roles:[
+    ["dubai_south","Group Chief Executive Officer","executive","v"],
     ["lst_alec","Board Member","board","v"]]},
   {id:"farah_foustok", n:"Farah Foustok", t:2, p:52, s:"industry", roles:[
     ["lst_alec","Board Member","board","v"]]},
@@ -1185,6 +1203,7 @@ const PEOPLE = [
   {id:"ziad_azzam", n:"Ziad Azzam", t:2, p:52, s:"consumer_disc", roles:[
     ["lst_taaleem","Board Member","board","v"]]},
   {id:"abdulla_al_awar", n:"Abdulla Al Awar", t:2, p:52, s:"consumer_disc", roles:[
+    ["emaar_development","Director","board","v"],
     ["lst_taaleem","Board Member","board","v"]]},
   {id:"shahid_hameed", n:"Shahid Hameed", t:2, p:52, s:"consumer_disc", roles:[
     ["lst_taaleem","Board Member","board","v"]]},
@@ -1257,6 +1276,7 @@ const PEOPLE = [
   {id:"fahad_al_qassim", n:"Fahad Al Qassim", t:2, p:52, s:"industry", roles:[
     ["lst_armx","Director","board","v"]]},
   {id:"jorge_navea", n:"Jorge Navea", t:2, p:58, s:"conglomerate", roles:[
+    ["al_futtaim_motors","President of Al-Futtaim Automotive","executive","v"],
     ["alfuttaim","President, Al-Futtaim Automotive","executive","v"]]},
   {id:"tarek_tantawy", n:"Tarek Tantawy", t:2, p:60, s:"conglomerate", roles:[
     ["alfuttaim","Chief Executive Officer, Al-Futtaim Egypt","executive","v"]]},
@@ -1386,6 +1406,72 @@ const PEOPLE = [
     ["dxbpolice","Assistant Commander-in-Chief for Operations","executive","ns"]]},
   {id:"emre_okay", n:"Emre Okay", t:2, p:58, s:"realestate", roles:[
     ["driven_properties","Group Chief Financial Officer","executive","v"]]},
+  {id:"ali_rashid_lootah", n:"Ali Rashid Lootah", t:2, p:52, s:"sovereign", roles:[
+    ["dubai_world","Board Member","board","v"]]},
+  {id:"sherif_beshara", n:"Sherif Beshara", t:2, p:60, s:"conglomerate", roles:[
+    ["almulla","Group Chief Executive Officer","executive","v"]]},
+  {id:"khalid_abdul_wahid", n:"Khalid Abdul Wahid Al Rostamani", t:2, p:62, s:"conglomerate", roles:[
+    ["alrostamani","Chairman","board","v"]]},
+  {id:"amina_al_rustamani", n:"Amina Al Rustamani", t:2, p:52, s:"conglomerate", roles:[
+    ["alrostamani","Director and Chief Operating Officer","board","v"]]},
+  {id:"huda_al_rostamani", n:"Huda Al Rostamani", t:2, p:52, s:"conglomerate", roles:[
+    ["alrostamani","Executive Board Member","board","v"]]},
+  {id:"michel_ayat", n:"Michel Ayat", t:2, p:46, s:"conglomerate", roles:[
+    ["alrostamani","Head of Automotive Division","executive","v"]]},
+  {id:"anil_lamba", n:"Anil Lamba", t:2, p:58, s:"conglomerate", roles:[
+    ["alrostamani","Chief Corporate Services Officer","executive","v"]]},
+  {id:"sebastian_samuel", n:"Sebastian Samuel", t:2, p:46, s:"conglomerate", roles:[
+    ["alrostamani","Head of Technical and Product Development","executive","v"]]},
+  {id:"amro_jayousi", n:"Amro Jayousi", t:2, p:46, s:"conglomerate", roles:[
+    ["alrostamani","Group Head of Legal","executive","v"]]},
+  {id:"nabil_sultan", n:"Nabil Sultan", t:2, p:60, s:"industry", roles:[
+    ["dnata","Chief Executive Officer","executive","v"]]},
+  {id:"stewart_angus", n:"Stewart Angus", t:2, p:58, s:"industry", roles:[
+    ["dnata","Divisional Senior Vice President Ground Handling and Cargo","executive","v"]]},
+  {id:"robin_padgett", n:"Robin Padgett", t:2, p:58, s:"industry", roles:[
+    ["dnata","Divisional Senior Vice President Catering and Retail","executive","v"]]},
+  {id:"john_bevan", n:"John Bevan", t:2, p:58, s:"industry", roles:[
+    ["dnata","Divisional Senior Vice President Travel","executive","v"]]},
+  {id:"khalifa_al_zaffin", n:"Khalifa Al Zaffin", t:2, p:62, s:"gov", roles:[
+    ["dubai_south","Executive Chairman","board","v"]]},
+  {id:"raja_easa_al", n:"Raja Easa Al Gurg", t:2, p:62, s:"conglomerate", roles:[
+    ["easa_saleh_al","Chairperson and Managing Director","board","v"]]},
+  {id:"muna_easa_al", n:"Muna Easa Al Gurg", t:2, p:62, s:"conglomerate", roles:[
+    ["easa_saleh_al","Vice Chairperson and Director of Retail","board","v"]]},
+  {id:"maryam_easa_al", n:"Maryam Easa Al Gurg", t:2, p:52, s:"conglomerate", roles:[
+    ["easa_saleh_al","Director","board","v"]]},
+  {id:"aisha_bint_butti", n:"Aisha Bint Butti Bin Bishr", t:2, p:62, s:"realestate", roles:[
+    ["emaar_development","Vice Chairman","board","v"]]},
+  {id:"jamal_majid_bin", n:"Jamal Majid Bin Theniyah", t:2, p:52, s:"realestate", roles:[
+    ["emaar_development","Director","board","v"]]},
+  {id:"arif_obaid_saeed", n:"Arif Obaid Saeed Al Dehail", t:2, p:52, s:"realestate", roles:[
+    ["emaar_development","Director","board","v"]]},
+  {id:"lucas_bellieud", n:"Lucas Bellieud", t:2, p:60, s:"consumer_disc", roles:[
+    ["al_futtaim_motors","Managing Director Al-Futtaim Electric Mobility","executive","v"]]},
+  {id:"saeed_bin_ahmed", n:"Saeed Bin Ahmed Al Lootah", t:2, p:62, s:"conglomerate", roles:[
+    ["s_s_lootah","Founder and Chairman","board","v"]]},
+  {id:"hassan_al_serkal", n:"Hassan Al Serkal", t:2, p:60, s:"finance", roles:[
+    ["dfm","Chief Executive Officer","executive","v"]]},
+  {id:"abdulqader_obaid_ali", n:"Abdulqader Obaid Ali", t:2, p:52, s:"finance", roles:[
+    ["dfm","Board Member","board","v"]]},
+  {id:"mohammed_humaid_al", n:"Mohammed Humaid Al Mari", t:2, p:52, s:"finance", roles:[
+    ["dfm","Board Member","board","v"]]},
+  {id:"abdulwahid_alulama", n:"Abdulwahid Alulama", t:2, p:52, s:"finance", roles:[
+    ["dfm","Board Member","board","v"]]},
+  {id:"adel_al_marzouqi", n:"Adel Al Marzouqi", t:2, p:60, s:"gov", roles:[
+    ["dxbmun","Chief Executive Officer Waste and Sewerage Agency","executive","v"]]},
+  {id:"naseem_mohammed_rafie", n:"Naseem Mohammed Rafie", t:2, p:60, s:"gov", roles:[
+    ["dxbmun","Acting Chief Executive Officer Environment Health and Safety Agency","executive","v"]]},
+  {id:"abdul_mohsin_ibrahim", n:"Abdul Mohsin Ibrahim Kalbat", t:2, p:52, s:"gov", roles:[
+    ["rta","Member Board of Executive Directors","board","v"]]},
+  {id:"abdulla_yousef_al", n:"Abdulla Yousef Al Ali", t:2, p:60, s:"gov", roles:[
+    ["rta","Member Board of Executive Directors and CEO Licensing Agency","executive","v"]]},
+  {id:"hussain_mohammed_al", n:"Hussain Mohammed Al Banna", t:2, p:52, s:"gov", roles:[
+    ["rta","Member Board of Executive Directors","board","v"]]},
+  {id:"ahmed_mahboob", n:"Ahmed Mahboob", t:2, p:52, s:"gov", roles:[
+    ["rta","Member Board of Executive Directors","board","v"]]},
+  {id:"shehab_bu_shehab", n:"Shehab Bu Shehab", t:2, p:52, s:"gov", roles:[
+    ["rta","Member Board of Executive Directors","board","v"]]},
 ];
 
 const OWNERSHIP = [
