@@ -1,0 +1,5 @@
+# Etihad Airways, Swissport expand global ground handling, cargo partnership
+source: Zawya
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxPa01mak9US3VHUWFnZ0JiMUVTaGlDMVk1cExDM0M0RkRtOTUwSWF3WTA0cUdZYTB4SVpjRkhNbzZsRXpwUEFaTnRJWDhLRkh6ZXE2empreDNuZlY0M3FERk5QMUd2Ni0wQ2xEaVR1a0ZjYm9lcW96V2h1Y2JseEN3c182VEs1LWZyamFncjRKU3VxbmxxTG9fRk81RzRFbVhEZkZIRmpLcm9hYzVpbGtLbXl5Yw?oc=5
+
+Etihad Airways, Swissport expand global ground handling, cargo partnership    Zawya

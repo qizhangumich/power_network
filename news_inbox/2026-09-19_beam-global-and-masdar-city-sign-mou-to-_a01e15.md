@@ -1,0 +1,5 @@
+# Beam Global And Masdar City Sign MoU To Explore Sustainable Energy Infrastructure Opportunities
+source: megaproject.com
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYkREN2ZEd1ItU0RjYkVxSzhJTWFzaEZOOHRyd3IzQWJDcTNxcUFXNldhUjl6N1dXeE9vMGNuYkRFNEp1LVNuNUItRGpBOVN3cFdUV3JfcFlVbkh3VXVOOFIzcl9pMTBtdFhndXg0d2xKdDk5UzA5aklMTk1VV3VzQ0JIOXRnWXN2YUtUWkh6dDQxMEtFMnJNQ3V5RHZHZ1BiY1p5SFJtbmdHX2VOaG1NdjdCdHJhYnJpeEpfSjRMUWppLUZ6VlJQVWEzQnRSRmhO?oc=5
+
+Beam Global And Masdar City Sign MoU To Explore Sustainable Energy Infrastructure Opportunities    megaproject.com
