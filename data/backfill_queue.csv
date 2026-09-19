@@ -397,6 +397,7 @@ qatar,qas,Qatar Aviation Services,industry,56,0,pending
 qatar,laffan_refinery,Laffan Refinery Company,energy,56,0,pending
 qatar,qstp,Qatar Science & Technology Park,gov,56,0,pending
 qatar,abuissa,AbuIssa Holding,consumer_disc,56,0,pending
+saudi,lst_2170,Alujain Corporation,materials,56,1,pending
 saudi,tahakom,Tahakom Investments Company,tech,56,0,pending
 saudi,saudi_coffee,Saudi Coffee Company,consumer_stap,56,0,pending
 saudi,hpdc,Halal Products Development Company,consumer_stap,56,0,pending
@@ -454,7 +455,7 @@ dubai,dsoa,Dubai Silicon Oasis Authority,gov,54,0,pending
 dubai,mbr_housing,Mohammed Bin Rashid Housing Establishment,gov,54,0,pending
 dubai,al_naboodah,Saeed & Mohammed Al Naboodah Holding,conglomerate,54,0,pending
 dubai,mobh,Mohammad Omar Bin Haider Holding Group,conglomerate,54,0,pending
-dubai,driven_properties,Driven Properties,realestate,54,0,pending
+dubai,driven_properties,Driven Properties,realestate,54,1,pending
 kuwait,pam,Public Authority for Manpower,gov,54,0,pending
 kuwait,q8_aviation,Q8 Aviation,industry,54,0,pending
 kuwait,epa_kuwait,Environment Public Authority,gov,54,0,pending
@@ -830,7 +831,6 @@ saudi,lst_1320,Saudi Steel Pipe Co.,materials,50,0,pending
 saudi,lst_2001,Chemanol (National Methanol Co.),materials,50,0,pending
 saudi,lst_2090,National Gas and Industrialization Co.,materials,50,0,pending
 saudi,lst_2150,Zoujaj Industrial Co.,materials,50,0,pending
-saudi,lst_2170,Alujain Corp.,materials,50,0,pending
 saudi,lst_2180,Filling and Packing Materials Manufacturing Co. (FIPCO),materials,50,0,pending
 saudi,lst_2200,Arabian Pipes Co.,materials,50,0,pending
 saudi,lst_2210,Nama Chemicals Co.,materials,50,0,pending

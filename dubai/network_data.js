@@ -1379,6 +1379,8 @@ const PEOPLE = [
     ["dof_dxb","Executive Director Central Accounts Sector","executive","ns"]]},
   {id:"saif_muhair_al", n:"Saif Muhair Al Mazroui", t:2, p:58, s:"gov", roles:[
     ["dxbpolice","Assistant Commander-in-Chief for Operations","executive","ns"]]},
+  {id:"emre_okay", n:"Emre Okay", t:2, p:58, s:"realestate", roles:[
+    ["driven_properties","Group Chief Financial Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

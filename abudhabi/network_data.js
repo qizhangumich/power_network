@@ -2432,6 +2432,9 @@ const PEOPLE = [
   {id:"saeed_al_mulla", n:"Saeed Al Mulla", t:2, p:58, s:"gov", roles:[
     ["dge","Director General","executive","v"],
     ]},
+  {id:"mark_taylor", n:"Mark Taylor", t:2, p:58, s:"energy", roles:[
+    ["adnocgas","Chief Projects & Engineering Officer","executive","ns"],
+    ]},
 ];
 
 const OWNERSHIP = [

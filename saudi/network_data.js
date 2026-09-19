@@ -90,7 +90,7 @@ const INSTITUTIONS = [
   {id:"lst_2001", n:"Chemanol (National Methanol Co.)", s:"materials", t:2, p:50, short:"2001"},
   {id:"lst_2090", n:"National Gas and Industrialization Co.", s:"materials", t:2, p:50, short:"2090"},
   {id:"lst_2150", n:"Zoujaj Industrial Co.", s:"materials", t:2, p:50, short:"2150"},
-  {id:"lst_2170", n:"Alujain Corp.", s:"materials", t:2, p:50, short:"Alujain Corp."},
+  {id:"lst_2170", n:"Alujain Corporation", s:"materials", t:2, p:56, short:"Alujain Corp."},
   {id:"lst_2180", n:"Filling and Packing Materials Manufacturing Co. (FIPCO)", s:"materials", t:2, p:50, short:"2180"},
   {id:"lst_2200", n:"Arabian Pipes Co.", s:"materials", t:2, p:50, short:"Arabian Pipes Co."},
   {id:"lst_2210", n:"Nama Chemicals Co.", s:"materials", t:2, p:50, short:"Nama Chemicals Co."},
@@ -1747,6 +1747,8 @@ const PEOPLE = [
     ["ceer","Board Secretariat and Governance Executive Director","executive","v"]]},
   {id:"young_liu", n:"Young Liu", t:2, p:52, s:"industry", roles:[
     ["ceer","Board Director","board","ns"]]},
+  {id:"mohammed_al_mutairi", n:"Mohammed Al-Mutairi", t:2, p:60, s:"materials", roles:[
+    ["lst_2170","Acting Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
