@@ -2,20 +2,16 @@
 abudhabi,eaa,Executive Affairs Authority,gov,82,1,pending
 abudhabi,microsoft,Microsoft,tech,80,0,pending
 abudhabi,adek,Department of Education & Knowledge,gov,78,1,pending
-bahrain,mofa_bh,Ministry of Foreign Affairs,gov,78,1,pending
 oman,moin_om,Ministry of Interior,gov,78,1,pending
 abudhabi,adio,Abu Dhabi Investment Office,gov,76,1,pending
 abudhabi,tawazun,Tawazun Council,gov,76,1,pending
 abudhabi,atrc,Advanced Technology Research Council,tech,76,1,pending
 abudhabi,blackrock,BlackRock,finance,76,0,pending
-bahrain,moo_bh,Ministry of Oil & Environment,energy,76,1,pending
-bahrain,edb,Bahrain Economic Development Board,gov,76,1,pending
 dubai,dld,Dubai Land Department,gov,76,1,pending
 saudi,moh_sa,Ministry of Health,health,76,1,pending
 abudhabi,twopointzero,2PointZero (pre-merger IHC platform; merged into 2PointZero Group 2025),sovereign,74,0,pending
 abudhabi,openai,OpenAI,tech,74,0,pending
 abudhabi,nvidia,NVIDIA,tech,74,0,pending
-bahrain,moic_bh,Ministry of Industry & Commerce,gov,74,1,pending
 dubai,dha,Dubai Health Authority,health,74,1,pending
 oman,moh_om,Ministry of Health,health,74,1,pending
 qatar,mocit,Ministry of Communications & IT,gov,74,1,pending
@@ -84,8 +80,6 @@ abudhabi,tii,Technology Innovation Institute,tech,66,1,pending
 abudhabi,seha,SEHA (AD Health Services),health,66,1,pending
 abudhabi,nyuad,NYU Abu Dhabi,education,66,1,pending
 abudhabi,goldman,Goldman Sachs,finance,66,0,pending
-bahrain,moh_bh,Ministry of Housing & Urban Planning,gov,66,1,pending
-bahrain,ewa_bh,Electricity & Water Authority,utilities,66,1,pending
 kuwait,mopw_kw,Ministry of Public Works,gov,66,1,pending
 kuwait,mew_kuwait,Ministry of Electricity Water and Renewable Energy,utilities,66,0,pending
 oman,moht_om,Ministry of Heritage & Tourism,gov,66,1,pending
@@ -144,7 +138,6 @@ abudhabi,senaat,General Holding Corporation,conglomerate,62,0,pending
 abudhabi,mubadala_energy,Mubadala Energy,energy,62,0,pending
 abudhabi,taqa_water,TAQA Water Solutions,utilities,62,0,pending
 abudhabi,globalfoundries,GlobalFoundries,tech,62,0,pending
-bahrain,iga,Information & eGovernment Authority,gov,62,0,pending
 kuwait,kfaed,Kuwait Fund for Arab Economic Development,sovereign,62,0,pending
 kuwait,cma_kuwait,Capital Markets Authority,gov,62,0,pending
 kuwait,part_kuwait,Public Authority for Roads and Transportation,industry,62,0,pending
@@ -200,7 +193,7 @@ abudhabi,cepsa_moeve,Cepsa (Moeve),energy,60,0,pending
 abudhabi,louis_dreyfus,Louis Dreyfus Company,consumer_stap,60,0,pending
 abudhabi,fortress,Fortress Investment Group,finance,60,0,pending
 abudhabi,adnoc_global_trading,ADNOC Global Trading,energy,60,0,pending
-bahrain,slrb,Survey and Land Registration Bureau,gov,60,0,pending
+bahrain,slrb,Survey and Land Registration Bureau,gov,60,1,pending
 bahrain,bahrain_lng,Bahrain LNG,energy,60,1,pending
 bahrain,king_hamad_univ,King Hamad University Hospital,health,60,0,pending
 dubai,jumaalmajid,Juma Al Majid Group,conglomerate,60,0,pending

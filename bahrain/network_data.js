@@ -139,6 +139,7 @@ const PEOPLE = [
   {id:"khalid_bh", n:"Sheikh Khalid bin Hamad Al Khalifa", t:0, p:70, s:"consumer_disc", roles:[
     ["bhgov","First Deputy President, Supreme Council for Youth & Sports","government","ns"]]},
   {id:"salman_khalifa_fin", n:"Sheikh Salman bin Khalifa Al Khalifa", t:1, p:82, s:"finance", roles:[
+    ["cabinet_bh","Minister of Finance and National Economy","executive","v"],
     ["bapco_gas","Board Member (Bapco Energies)","board","v"],
     ["bapco_refining","Deputy Chairman","board","v"],
     ["mofin_bh","Minister of Finance & National Economy","political","v"],
@@ -178,6 +179,7 @@ const PEOPLE = [
 
   // ===== ADDED SEP 2026 — KEY MINISTRIES PREVIOUSLY MISSING FROM THE MAP =====
   {id:"rashid_moi_bh", n:"Lt. Gen. Sheikh Rashid bin Abdullah Al Khalifa", t:0, p:84, s:"gov", roles:[
+    ["cabinet_bh","Minister of Interior","executive","v"],
     ["moi_bh","Minister of Interior","political","v"]],
     note:"Minister of Interior since 2004 — one of Bahrain's longest-serving ministers."},
   {id:"fakhro_moic", n:"H.E. Abdulla bin Adel Fakhro", t:1, p:70, s:"gov", roles:[
@@ -332,6 +334,7 @@ const PEOPLE = [
     ["tamkeen","Board Member (Minister of Cabinet Affairs)","board","v"],
     ["mumtalakat","Board Member (Minister of Cabinet Affairs)","board","v"]]},
   {id:"dr_samer_aljishi", n:"Dr. Samer Aljishi", t:2, p:52, s:"sovereign", roles:[
+    ["edb","Board Member","board","v"],
     ["mumtalakat","Board Member","board","v"]]},
   {id:"elham_hasan", n:"Elham Hasan", t:2, p:52, s:"sovereign", roles:[
     ["mumtalakat","Board Member","board","v"]]},
@@ -456,6 +459,7 @@ const PEOPLE = [
   {id:"mohamed_bin_mubarak", n:"Mohamed bin Mubarak Bin Daina", t:2, p:52, s:"energy", roles:[
     ["bapco","Board Member","board","v"]]},
   {id:"khalid_amro_al", n:"Khalid Amro Al Rumaihi", t:2, p:52, s:"energy", roles:[
+    ["edb","Board Member","board","v"],
     ["bapco_gas","Board Member (Bapco Energies)","board","v"],
     ["bapco_refining","Board Member","board","v"],
     ["bapco","Board Member","board","v"]]},
@@ -848,6 +852,7 @@ const PEOPLE = [
   {id:"tareq_abdulaziz_fathalla", n:"Tareq Abdulaziz Fathalla", t:2, p:58, s:"finance", roles:[
     ["lst_bcfc","Chief Remedial Officer","executive","v"]]},
   {id:"mohamed_alalawi", n:"Mohamed Alalawi", t:2, p:58, s:"finance", roles:[
+    ["edb","Chief of Marketing & Communications","executive","v"],
     ["lst_bcfc","Chief Compliance, Governance and MLRO Officer","executive","v"]]},
   {id:"sayed_jalal_jafaar", n:"Sayed Jalal Jafaar Hashim", t:2, p:58, s:"finance", roles:[
     ["lst_bcfc","Group Corporate Secretary","executive","v"]]},
@@ -2227,6 +2232,7 @@ const PEOPLE = [
   {id:"mohamed_abdulaziz_mohamed", n:"Mohamed Abdulaziz Mohamed Jamsheer", t:2, p:58, s:"finance", roles:[
     ["lst_barka","First Vice President- Acting Head of IT","executive","v"]]},
   {id:"basim_mohamed_ahmed", n:"Basim Mohamed Ahmed Al Saie", t:2, p:62, s:"consumer_stap", roles:[
+    ["garmco","Vice Chairman of the Board","board","v"],
     ["tamkeen","Board Member (BCCI Representative)","board","v"],
     ["lst_bfm","Chairman","board","v"]]},
   {id:"salah_m_m", n:"Salah M M A Alkulaib", t:2, p:62, s:"consumer_stap", roles:[
@@ -2353,6 +2359,7 @@ const PEOPLE = [
     ["bfb","Board Member","board","v"],
     ["alba","Director Finance","executive","v"]]},
   {id:"ali_al_mudaifa", n:"Ali Al Mudaifa", t:2, p:52, s:"tech", roles:[
+    ["edb","Chief of Business Development","executive","v"],
     ["bfb","Board Member","board","v"]]},
   {id:"dalal_buhejji", n:"Dalal Buhejji", t:2, p:52, s:"tech", roles:[
     ["bfb","Board Member","board","v"]]},
@@ -2417,6 +2424,7 @@ const PEOPLE = [
   {id:"sahar_ataaei", n:"Sahar Ataaei", t:2, p:60, s:"industry", roles:[
     ["asry","Deputy Chief Executive Officer","executive","v"]]},
   {id:"isa_bin_salman", n:"Isa bin Salman bin Hamad Al Khalifa", t:2, p:62, s:"gov", roles:[
+    ["cabinet_bh","Minister of the Prime Minister's Court","executive","v"],
     ["tamkeen","Chairman of the Board","board","v"]]},
   {id:"maha_abdulhameed_mofeez", n:"Maha Abdulhameed Mofeez", t:2, p:60, s:"gov", roles:[
     ["tamkeen","Chief Executive","executive","v"]]},
@@ -2533,6 +2541,7 @@ const PEOPLE = [
   {id:"adnan_hashim", n:"Adnan Hashim", t:2, p:58, s:"consumer_disc", roles:[
     ["bic","Chief Financial Officer","executive","v"]]},
   {id:"arif_rahimi", n:"Arif Rahimi", t:2, p:62, s:"consumer_disc", roles:[
+    ["garmco","Chairman of the Board of Directors","board","v"],
     ["bic","Chairman","board","v"]]},
   {id:"hisham_ahmad_alrayes", n:"Hisham Ahmad Alrayes", t:2, p:52, s:"realestate", roles:[
     ["edamah","Board Member","board","v"]]},
@@ -2628,6 +2637,76 @@ const PEOPLE = [
     ["bxt_trading","Chief Financial Officer","executive","ns"]]},
   {id:"fr_d_ric", n:"Frédéric Lassau", t:2, p:46, s:"energy", roles:[
     ["bxt_trading","Head of Trading","executive","ns"]]},
+  {id:"salman_bin_hamad", n:"Salman bin Hamad Al Khalifa", t:2, p:62, s:"gov", roles:[
+    ["cabinet_bh","Crown Prince, Deputy Supreme Commander and Prime Minister","executive","v"],
+    ["edb","Chairman of the Board of Directors","board","v"]]},
+  {id:"khalid_bin_abdulla", n:"Khalid bin Abdulla Al Khalifa", t:2, p:58, s:"gov", roles:[
+    ["cabinet_bh","Deputy Prime Minister","executive","v"]]},
+  {id:"majid_bin_ali", n:"Majid bin Ali Al Nuaimi", t:2, p:58, s:"gov", roles:[
+    ["cabinet_bh","Minister of Education","executive","v"]]},
+  {id:"faeqa_bint_saeed", n:"Faeqa bint Saeed Al-Saleh", t:2, p:58, s:"gov", roles:[
+    ["cabinet_bh","Minister of Health","executive","v"]]},
+  {id:"ghanim_bin_fadhel", n:"Ghanim bin Fadhel Al Buainain", t:2, p:58, s:"gov", roles:[
+    ["cabinet_bh","Minister of Shura and Representatives Councils Affairs","executive","v"]]},
+  {id:"jameel_bin_mohammed", n:"Jameel bin Mohammed Ali Humaidan", t:2, p:58, s:"gov", roles:[
+    ["cabinet_bh","Minister of Labour","executive","v"]]},
+  {id:"wael_bin_nasser", n:"Wael bin Nasser Al Mubarak", t:2, p:58, s:"gov", roles:[
+    ["cabinet_bh","Minister of Municipalities Affairs and Agriculture","executive","v"],
+    ["ewa_bh","Electricity and Water Affairs Minister","executive","v"]]},
+  {id:"nawaf_bin_mohammed", n:"Nawaf bin Mohammed Al Maawda", t:2, p:58, s:"gov", roles:[
+    ["cabinet_bh","Minister of Justice, Islamic Affairs and Waqf","executive","v"]]},
+  {id:"abdullah_bin_hassan", n:"Abdullah bin Hassan Al Nuaimi", t:2, p:58, s:"gov", roles:[
+    ["cabinet_bh","Minister of Defence Affairs","executive","v"]]},
+  {id:"ibrahim_bin_hassan", n:"Ibrahim bin Hassan Al Hawaj", t:2, p:58, s:"gov", roles:[
+    ["cabinet_bh","Minister of Works","executive","v"]]},
+  {id:"aymen_bin_tawfiq", n:"Aymen bin Tawfiq Almoayyed", t:2, p:58, s:"gov", roles:[
+    ["cabinet_bh","Minister of Youth and Sports Affairs","executive","v"]]},
+  {id:"osama_bin_ahmed", n:"Osama bin Ahmed Khalaf Al Asfoor", t:2, p:58, s:"gov", roles:[
+    ["cabinet_bh","Minister of Social Development","executive","v"]]},
+  {id:"ezz_ahmed_almannai", n:"Ezz Ahmed Almannai", t:2, p:58, s:"energy", roles:[
+    ["moo_bh","Undersecretary","executive","v"]]},
+  {id:"mariam_isa_awadh", n:"Mariam Isa Awadh", t:2, p:58, s:"energy", roles:[
+    ["moo_bh","Director of Human Resources & Financial","executive","v"]]},
+  {id:"adnan_saeed_al", n:"Adnan Saeed Al Mukhareq", t:2, p:58, s:"energy", roles:[
+    ["moo_bh","Acting Director of Policy","executive","v"]]},
+  {id:"elham_abdullah_hassan", n:"Elham Abdullah Hassan", t:2, p:52, s:"gov", roles:[
+    ["edb","Board Member","board","v"]]},
+  {id:"ahmed_yousif_abdulghani", n:"Ahmed Yousif Abdulghani", t:2, p:58, s:"gov", roles:[
+    ["edb","Chief Investment Officer","executive","v"]]},
+  {id:"linda_janahi", n:"Linda Janahi", t:2, p:58, s:"gov", roles:[
+    ["edb","Chief of Corporate Services","executive","v"]]},
+  {id:"nada_al_saeed", n:"Nada Al Saeed", t:2, p:58, s:"gov", roles:[
+    ["edb","Chief of Strategy","executive","v"]]},
+  {id:"eman_ahmed_al", n:"Eman Ahmed Al Doseri", t:2, p:58, s:"gov", roles:[
+    ["moic_bh","Undersecretary of the Ministry of Industry and Commerce","executive","v"]]},
+  {id:"hamad_bin_salman", n:"Hamad bin Salman Al Khalifa", t:2, p:58, s:"gov", roles:[
+    ["moic_bh","Assistant Undersecretary for Domestic and Foreign Trade","executive","v"]]},
+  {id:"khalid_fahad_al", n:"Khalid Fahad Al Alawi", t:2, p:58, s:"gov", roles:[
+    ["moic_bh","Assistant Undersecretary for Industrial Development","executive","v"]]},
+  {id:"amna_bint_ahmed", n:"Amna bint Ahmed Al Romaihi", t:2, p:58, s:"gov", roles:[
+    ["moh_bh","Minister of Housing and Urban Planning","executive","v"]]},
+  {id:"muna_ali_al", n:"Muna Ali Al Heshemi", t:2, p:58, s:"utilities", roles:[
+    ["ewa_bh","Vice President, Customer Services & Digital Transformation","executive","v"]]},
+  {id:"ali_al_nemah", n:"Ali Al Nemah", t:2, p:58, s:"utilities", roles:[
+    ["ewa_bh","Vice President of Electricity Affairs","executive","v"]]},
+  {id:"mohammed_a_aziz", n:"Mohammed A. Aziz Al-Atawi", t:2, p:58, s:"utilities", roles:[
+    ["ewa_bh","Vice President, Electricity & Water Transmission","executive","v"]]},
+  {id:"ebrahim_abdulla_al", n:"Ebrahim Abdulla Al-Kaabi", t:2, p:58, s:"utilities", roles:[
+    ["ewa_bh","Vice President, Planning & Projects","executive","v"]]},
+  {id:"ali_ashoor_abdullatif", n:"Ali Ashoor Abdullatif", t:2, p:58, s:"utilities", roles:[
+    ["ewa_bh","Vice President, Resources & Services","executive","v"]]},
+  {id:"mohammed_ali_al", n:"Mohammed Ali Al-Qaed", t:2, p:60, s:"gov", roles:[
+    ["iga","Chief Executive","executive","v"]]},
+  {id:"khalid_ahmed_almutawa", n:"Khalid Ahmed AlMutawa", t:2, p:60, s:"gov", roles:[
+    ["iga","Deputy Chief Executive, Operations & Governance","executive","v"]]},
+  {id:"duaa_sultan_mohamed", n:"Duaa Sultan Mohamed Salman", t:2, p:60, s:"gov", roles:[
+    ["iga","Deputy Chief Executive, Statistics and Population Registry","executive","v"]]},
+  {id:"bassem_bin_yaqoub", n:"Bassem bin Yaqoub Al Hamar", t:2, p:58, s:"gov", roles:[
+    ["slrb","President of the Survey and Land Registration Bureau","executive","v"]]},
+  {id:"mohamed_rafea", n:"Mohamed Rafea", t:2, p:60, s:"materials", roles:[
+    ["garmco","Chief Executive Officer","executive","v"]]},
+  {id:"mohamed_ali_bahzad", n:"Mohamed Ali Bahzad", t:2, p:58, s:"gov", roles:[
+    ["mofa_bh","Undersecretary for Consular & Administrative Affairs","executive","v"]]},
 ];
 
 const OWNERSHIP = [
