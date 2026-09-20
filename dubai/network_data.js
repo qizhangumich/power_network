@@ -83,7 +83,7 @@ const INSTITUTIONS = [
   {id:"lst_taaleem", n:"Taaleem Holdings PJSC", s:"consumer_disc", t:2, p:58, short:"Taaleem"},
   {id:"lst_sukoon", n:"Sukoon Insurance PJSC", s:"finance", t:2, p:50, short:"SUKOON"},
   {id:"lst_armx", n:"Aramex PJSC", s:"industry", t:1, p:66, short:"Aramex"},
-  {id:"lst_upp", n:"Union Properties PJSC", s:"realestate", t:2, p:50, short:"UPP"},
+  {id:"lst_upp", n:"Union Properties PJSC", s:"realestate", t:2, p:58, short:"Union Properties"},
   {id:"lst_ifa", n:"International Financial Advisors Holding K.P.S.C.", s:"finance", t:2, p:50, short:"IFA"},
   {id:"lst_ncc", n:"National Cement Company", s:"materials", t:2, p:50, short:"NCC"},
   {id:"lst_amlak", n:"Amlak Finance PJSC", s:"finance", t:2, p:54, short:"Amlak Finance PJSC"},
@@ -1255,10 +1255,12 @@ const PEOPLE = [
     ["jumeirah","Chief Growth Officer","executive","v"]]},
   {id:"michael_grieve", n:"Michael Grieve", t:2, p:58, s:"consumer_disc", roles:[
     ["jumeirah","Chief Brand Officer","executive","v"]]},
-  {id:"nasser_bin_rashid", n:"Nasser Bin Rashid Al Moalla", t:2, p:62, s:"realestate", roles:[
-    ["lst_upp","Chairman","board","v"]]},
+  {id:"nasser_bin_rashid", n:"Nasser Bin Rashid Al Moalla", t:2, p:60, s:"realestate", roles:[
+    ["lst_upp","Vice Chairman (Chairman until Apr 2026)","board","ns"]]},
   {id:"mohamed_fardan_ali", n:"Mohamed Fardan Ali Al Fardan", t:2, p:62, s:"realestate", roles:[
-    ["lst_upp","Vice Chairman","board","v"]]},
+    ["lst_upp","Chairman","board","ns"]]},
+  {id:"amer_khansaheb", n:"Amer Abdulaziz Khansaheb", t:2, p:60, s:"realestate", roles:[
+    ["lst_upp","Chief Executive Officer & Board Member","executive","ns"]]},
   {id:"ahmad_bin_mohammed", n:"Ahmad Bin Mohammed Al Qassimi", t:2, p:52, s:"realestate", roles:[
     ["lst_upp","Board Member","board","v"]]},
   {id:"khaled_nasser_al", n:"Khaled Nasser Al Shamsi", t:2, p:52, s:"realestate", roles:[

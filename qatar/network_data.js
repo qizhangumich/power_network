@@ -125,7 +125,7 @@ const INSTITUTIONS = [
   {id:"lst_qfls", n:"Qatar Fuel Company Q.P.S.C. (WOQOD)", s:"energy", t:2, p:64, short:"WOQOD"},
   {id:"lst_abqk", n:"Ahli Bank Q.P.S.C.", s:"finance", t:2, p:50, short:"Ahli Bank Q.P.S.C."},
   {id:"lst_qamc", n:"Qatar Aluminium Manufacturing Company Q.P.S.C.", s:"materials", t:2, p:50, short:"QAMC"},
-  {id:"lst_qati", n:"Qatar Insurance Company Q.S.P.C.", s:"finance", t:2, p:50, short:"QATI"},
+  {id:"lst_qati", n:"Qatar Insurance Company Q.S.P.C.", s:"finance", t:2, p:62, short:"QIC Group"},
   {id:"lst_zhcd", n:"Zad Holding Company Q.P.S.C.", s:"consumer_stap", t:2, p:50, short:"ZHCD"},
   {id:"lst_giss", n:"Gulf International Services Q.P.S.C.", s:"energy", t:2, p:64, short:"GISS"},
   {id:"lst_qfbq", n:"Lesha Bank LLC (formerly Qatar First Bank)", s:"finance", t:2, p:60, short:"Lesha Bank"},
@@ -443,7 +443,8 @@ const PEOPLE = [
   {id:"sheikh_mohamed_bin", n:"Sheikh Mohamed Bin Hamad Bin Qassim Al Thani", t:2, p:62, s:"finance", roles:[
     ["masraf","Chairman","board","v"]]},
   {id:"sheikh_hamad_bin_b", n:"Sheikh Hamad Bin Faisal Bin Thani Al Thani", t:2, p:62, s:"finance", roles:[
-    ["masraf","Vice Chairman","board","v"]]},
+    ["masraf","Vice Chairman","board","v"],
+    ["lst_qati","Chairman","board","ns"]]},
   {id:"ahmed_ali_hassan", n:"Ahmed Ali Hassan Al Hammadi", t:2, p:52, s:"finance", roles:[
     ["masraf","Board Member","board","v"]]},
   {id:"khamis_mubarak_al", n:"Khamis Mubarak Al Kuwari", t:2, p:52, s:"finance", roles:[
@@ -571,8 +572,9 @@ const PEOPLE = [
     ["cbq","Board Member","board","v"]]},
   {id:"mohamad_ismail_mandani", n:"Mohamad Ismail Mandani Al Emadi", t:2, p:52, s:"finance", roles:[
     ["cbq","Board Member","board","v"]]},
-  {id:"salem_khalaf_al", n:"Salem Khalaf Al Mannai", t:2, p:52, s:"finance", roles:[
-    ["cbq","Board Member","board","v"]]},
+  {id:"salem_khalaf_al", n:"Salem Khalaf Al Mannai", t:2, p:60, s:"finance", roles:[
+    ["cbq","Board Member","board","v"],
+    ["lst_qati","Group Chief Executive Officer","executive","ns"]]},
   {id:"ibrahim_jassim_al", n:"Ibrahim Jassim Al-Othman Fakhro", t:2, p:52, s:"finance", roles:[
     ["udc","Board Member","board","v"],
     ["cbq","Board Member","board","v"]]},
@@ -1495,6 +1497,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  lst_qati:["QATI","QIC","Qatar Insurance Group"],
   masraf:["Al Rayan Bank","MARK","AlRayan Bank"],
   qewc:["Qatar Electricity & Water Co","QEWC"],
   qdb:["Qatar Development"],

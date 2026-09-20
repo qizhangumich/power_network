@@ -97,7 +97,7 @@ const INSTITUTIONS = [
   {id:"lst_2220", n:"National Metal Manufacturing and Casting Co. (Maadaniyah)", s:"materials", t:2, p:50, short:"2220"},
   {id:"lst_2240", n:"Zamil Industrial Investment Co.", s:"materials", t:2, p:50, short:"2240"},
   {id:"lst_2250", n:"Saudi Industrial Investment Group (SIIG)", s:"materials", t:2, p:60, short:"SIIG"},
-  {id:"lst_2290", n:"Yanbu National Petrochemical Co. (Yansab)", s:"materials", t:2, p:50, short:"2290"},
+  {id:"lst_2290", n:"Yanbu National Petrochemical Co. (Yansab)", s:"materials", t:2, p:66, short:"Yansab"},
   {id:"lst_2300", n:"Saudi Paper Manufacturing Co.", s:"materials", t:2, p:50, short:"2300"},
   {id:"lst_2310", n:"Sahara International Petrochemical Co. (Sipchem)", s:"materials", t:2, p:62, short:"Sipchem"},
   {id:"lst_2330", n:"Advanced Petrochemical Co.", s:"materials", t:2, p:50, short:"2330"},
@@ -1860,6 +1860,7 @@ const PEOPLE = [
 ];
 
 const OWNERSHIP = [
+  ["lst_2290","sabic","SABIC affiliate","v"],
   ["lst_4030","pif","anchor shareholder","v"],
   ["lst_1010","pif","PIF anchor stake","ns"],
   ["com","royalcourt","governs under"],
@@ -2217,6 +2218,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  lst_2290:["2290","YANSAB"],
   lst_4017:["Dr. Soliman Fakeeh Care Co.","Dr. Soliman Fakeeh Hospital","DSFH"],
   lst_4310:["Knowledge Economic City Company"],
   moenergy:["Saudi Energy","Ministry of Energy"],

@@ -707,7 +707,7 @@ const PEOPLE = [
   {id:"sharief_habib_al", n:"Sharief Habib Al Awadhi", t:2, p:58, s:"gov", roles:[
     ["ffza","Director General","executive","ns"]]},
   {id:"yousef_khamis_muhammad", n:"Yousef Khamis Muhammad Al Othmani", t:2, p:62, s:"gov", roles:[
-    ["srta","Chairman","board","ns"]]},
+    ["srta","Chairman","board","v"]]},
   {id:"khalfan_ahmed_mesfer", n:"Khalfan Ahmed Mesfer", t:2, p:62, s:"gov", roles:[
     ["uaq_chamber","Chairman","board","v"]]},
   {id:"yousef_khalfan_tahnon", n:"Yousef Khalfan Tahnon", t:2, p:62, s:"gov", roles:[
