@@ -184,6 +184,8 @@ const INSTITUTIONS = [
   {id:"mbru", n:"Mohammed Bin Rashid University of Medicine and Health Sciences", s:"education", t:2, p:58, short:"MBRU"},
   {id:"mediclinic_me", n:"Mediclinic Middle East", s:"health", t:2, p:58, short:"Mediclinic ME"},
   {id:"dubai_media_inc", n:"Dubai Media Incorporated", s:"comm", t:1, p:68, short:"Dubai Media Inc"},
+  {id:"economic_zones_world", n:"Economic Zones World", s:"industry", t:2, p:60, short:"Economic Zones World"},
+  {id:"drydocks_world", n:"Drydocks World", s:"industry", t:2, p:58, short:"Drydocks World"},
 ];
 
 const PEOPLE = [
@@ -449,7 +451,7 @@ const PEOPLE = [
   {id:"ahmad_yousef_al", n:"Ahmad Yousef Al-Hassan", t:2, p:60, s:"industry", roles:[
     ["dpworld","CEO & Managing Director, GCC","executive","v"]]},
   {id:"rado_antolovic", n:"Rado Antolovic", t:2, p:60, s:"industry", roles:[
-    ["dpworld","CEO, Drydocks World","executive","v"]]},
+    ["drydocks_world","Chief Executive Officer","executive","v"]]},
   {id:"pradeep_desai", n:"Pradeep Desai", t:2, p:58, s:"industry", roles:[
     ["dpworld","Group Chief Technology Officer","executive","v"]]},
   {id:"adel_ahmad_al", n:"Adel Ahmad Al Redha", t:2, p:58, s:"industry", roles:[
@@ -1598,6 +1600,8 @@ const OWNERSHIP = [
   ["ikea_al_futtaim","alfuttaim","franchise subsidiary of; operates IKEA stores in UAE/Egypt/Oman/Qatar","ns"],
   ["orient_insurance","alfuttaim","subsidiary of (100% owned; immediate holding entity is Al Futtaim Development Services Company)","ns"],
   ["mbru","dha","part of","v"],
+  ["economic_zones_world","dpworld","subsidiary","v"],
+  ["drydocks_world","dpworld","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -1665,4 +1669,5 @@ const AKA = {
   univ_of_dubai:["UD"],
   heriot_watt_dubai:["HW Dubai"],
   dubai_media_inc:["DMI"],
+  economic_zones_world:["EZW"],
 };

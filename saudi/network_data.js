@@ -447,6 +447,11 @@ const INSTITUTIONS = [
   {id:"kfshrc", n:"King Faisal Specialist Hospital and Research Centre", s:"health", t:2, p:66, short:"KFSHRC"},
   {id:"rotana_media", n:"Rotana Media Group", s:"comm", t:2, p:58, short:"Rotana Media"},
   {id:"kapsarc", n:"King Abdullah Petroleum Studies and Research Center", s:"education", t:2, p:62, short:"KAPSARC"},
+  {id:"specialized_by_stc", n:"Public Telecommunications Company (Specialized)", s:"tech", t:2, p:54, short:"Specialized by stc"},
+  {id:"intigral", n:"Gulf Digital Media Model Company (Intigral)", s:"comm", t:2, p:54, short:"Intigral"},
+  {id:"stc_bank", n:"Saudi Digital Payments Company (stc Bank)", s:"finance", t:2, p:58, short:"stc Bank"},
+  {id:"western_bakeries", n:"Western Bakeries Company", s:"consumer_stap", t:3, p:52, short:"Western Bakeries"},
+  {id:"modern_food_industries", n:"Modern Food Industries Company", s:"consumer_stap", t:3, p:50, short:"Modern Food Industries"},
 ];
 
 const PEOPLE = [
@@ -898,7 +903,7 @@ const PEOPLE = [
   {id:"omer_abdullah_alnomany", n:"Omer Abdullah Alnomany", t:2, p:60, s:"comm", roles:[
     ["stc","Chief Executive Officer, solutions by stc","executive","v"]]},
   {id:"saleh_ibrahim_almutawa", n:"Saleh Ibrahim Almutawa", t:2, p:62, s:"comm", roles:[
-    ["stc","Board Chairman, stc Bank","board","v"]]},
+    ["stc_bank","Board Chairman","board","v"]]},
   {id:"mazin_bin_abdulrazzaq", n:"Mazin bin Abdulrazzaq AlRomaih", t:2, p:62, s:"finance", roles:[
     ["tadawul","Chairman of the Board of Directors","board","v"]]},
   {id:"yazeed_abdulrahman_ibrahim", n:"Yazeed Abdulrahman Ibrahim Al Humaid", t:2, p:62, s:"finance", roles:[
@@ -2196,6 +2201,11 @@ const OWNERSHIP = [
   ["yanpet","sabic","JV between SABIC and ExxonMobil (50/50)","ns"],
   ["kemya","sabic","JV between SABIC and ExxonMobil (50/50)","ns"],
   ["sadaf","sabic","subsidiary of (formerly 50/50 JV with Shell; SABIC bought out Shell's stake in 2017)","ns"],
+  ["specialized_by_stc","stc","subsidiary","v"],
+  ["intigral","stc","subsidiary","v"],
+  ["stc_bank","stc","subsidiary","v"],
+  ["western_bakeries","almarai","subsidiary","v"],
+  ["modern_food_industries","western_bakeries","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -2266,4 +2276,9 @@ const AKA = {
   al_habib_real:["Mohammed Al Habib Real Estate Company","Mohammad Al-Habib Real Estate Co."],
   yanpet:["Mobil Yanbu Petrochemical Company"],
   prince_sultan_uni:["PSU"],
+  specialized_by_stc:["Specialized"],
+  intigral:["GDMM"],
+  stc_bank:["stc pay","SDPC"],
+  western_bakeries:["L'usine"],
+  modern_food_industries:["MFI"],
 };

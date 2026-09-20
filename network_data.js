@@ -2435,6 +2435,12 @@ const PEOPLE = [
   {id:"mark_taylor", n:"Mark Taylor", t:2, p:58, s:"energy", roles:[
     ["adnocgas","Chief Projects & Engineering Officer","executive","ns"],
     ]},
+  {id:"mubarak_hamad_al", n:"Mubarak Hamad Al Mheiri", t:2, p:58, s:"gov", roles:[
+    ["adek","Undersecretary of the Department of Education and Knowledge","executive","ns"],
+    ]},
+  {id:"ahmad_jasim_al", n:"Ahmad Jasim Al Zaabi", t:2, p:62, s:"gov", roles:[
+    ["adio","Chairman","board","v"],
+    ]},
 ];
 
 const OWNERSHIP = [

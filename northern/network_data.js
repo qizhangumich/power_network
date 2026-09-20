@@ -86,6 +86,15 @@ const INSTITUTIONS = [
   {id:"albatha", n:"Albatha Group", s:"conglomerate", t:3, p:60, short:"Albatha Group"},
   {id:"fujairah_national", n:"Fujairah National Group", s:"conglomerate", t:3, p:58, short:"Fujairah National"},
   {id:"al_zorah_dev", n:"Al Zorah Development Company", s:"realestate", t:3, p:56, short:"Al Zorah Dev Co"},
+  {id:"university_of_sharjah", n:"University of Sharjah", s:"education", t:2, p:62, short:"University of Sharjah"},
+  {id:"ajman_university", n:"Ajman University", s:"education", t:2, p:54, short:"Ajman University"},
+  {id:"spc_free_zone", n:"SPC Free Zone (Sharjah Publishing City)", s:"gov", t:2, p:54, short:"SPC Free Zone"},
+  {id:"gulf_medical_univ", n:"Gulf Medical University", s:"education", t:2, p:52, short:"Gulf Medical Univ."},
+  {id:"national_paints", n:"National Paints Factories Co.", s:"materials", t:3, p:56, short:"National Paints"},
+  {id:"rak_airport", n:"Ras Al Khaimah International Airport", s:"industry", t:2, p:54, short:"RAK Airport"},
+  {id:"sharjah_broadcasting", n:"Sharjah Broadcasting Authority", s:"comm", t:2, p:58, short:"Sharjah Broadcasting"},
+  {id:"ajman_municipality", n:"Ajman Municipality and Planning Department", s:"gov", t:2, p:54, short:"Ajman Municipality"},
+  {id:"uaq_municipality", n:"Umm Al Quwain Municipality", s:"gov", t:2, p:52, short:"UAQ Municipality"},
 ];
 
 const PEOPLE = [
@@ -552,6 +561,7 @@ const PEOPLE = [
   {id:"sheikh_abdullah_bin_b_b", n:"Sheikh Abdullah bin Humaid Al Qasimi", t:2, p:52, s:"gov", roles:[
     ["rak_execco","Executive Council Member","board","v"]]},
   {id:"sheikh_ahmed_bin", n:"Sheikh Ahmed bin Saud Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["rakpa","Chairman","board","v"],
     ["rak_execco","Executive Council Member","board","v"],
     ["marjan","Chairman","board","v"]]},
   {id:"sheikh_saqr_bin", n:"Sheikh Saqr bin Omar Al Qasimi", t:2, p:60, s:"realestate", roles:[
@@ -679,6 +689,55 @@ const PEOPLE = [
     ["rak_ded","Director General","executive","v"]]},
   {id:"sheikh_ahmed_mohammed", n:"Sheikh Ahmed Mohammed Sultan Al Qassimi", t:2, p:62, s:"conglomerate", roles:[
     ["albatha","Chairman","board","ns"]]},
+  {id:"khalid_omar_al", n:"Khalid Omar Al Midfa", t:2, p:62, s:"gov", roles:[
+    ["shams","Chairman","board","v"]]},
+  {id:"raza_siddiqui", n:"Raza Siddiqui", t:2, p:58, s:"health", roles:[
+    ["rak_hospital","Executive Director","executive","v"]]},
+  {id:"mohammed_saif_al", n:"Mohammed Saif Al Afkham", t:2, p:58, s:"gov", roles:[
+    ["fujairah_municipality","Director General","executive","ns"]]},
+  {id:"christopher_wood", n:"Christopher Wood", t:2, p:60, s:"gov", roles:[
+    ["rakpa","Chief Executive","executive","v"],
+    ["rak_gas","Chief Executive Officer","executive","ns"]]},
+  {id:"mohamed_ali_musabbeh", n:"Mohamed Ali Musabbeh Al Nuaimi", t:2, p:62, s:"gov", roles:[
+    ["rak_chamber","Chairman","board","ns"]]},
+  {id:"munther_mohammed_bin", n:"Munther Mohammed Bin Shaker", t:2, p:58, s:"gov", roles:[
+    ["rak_municipality","Director General","executive","v"]]},
+  {id:"sheikh_saif_bin", n:"Sheikh Saif bin Hamad Al Sharqi", t:2, p:62, s:"gov", roles:[
+    ["ffza","Chairman","board","ns"]]},
+  {id:"sharief_habib_al", n:"Sharief Habib Al Awadhi", t:2, p:58, s:"gov", roles:[
+    ["ffza","Director General","executive","ns"]]},
+  {id:"yousef_khamis_muhammad", n:"Yousef Khamis Muhammad Al Othmani", t:2, p:62, s:"gov", roles:[
+    ["srta","Chairman","board","ns"]]},
+  {id:"khalfan_ahmed_mesfer", n:"Khalfan Ahmed Mesfer", t:2, p:62, s:"gov", roles:[
+    ["uaq_chamber","Chairman","board","v"]]},
+  {id:"yousef_khalfan_tahnon", n:"Yousef Khalfan Tahnon", t:2, p:62, s:"gov", roles:[
+    ["uaq_chamber","Vice Chairman","board","v"]]},
+  {id:"abdullah_saif_al", n:"Abdullah Saif Al-Hassawi", t:2, p:52, s:"gov", roles:[
+    ["uaq_chamber","Member - Treasurer","board","v"]]},
+  {id:"abdullah_mohammed_al", n:"Abdullah Mohammed Al Muwaiji", t:2, p:62, s:"gov", roles:[
+    ["ajman_chamber","Chairman","board","v"]]},
+  {id:"hamad_rashid_al", n:"Hamad Rashid Al Nuaimi", t:2, p:62, s:"gov", roles:[
+    ["ajman_chamber","First Vice Chairman","board","v"]]},
+  {id:"sheikh_sultan_bin", n:"Sheikh Sultan Bin Saqer Al Nuaimi", t:2, p:62, s:"gov", roles:[
+    ["ajman_chamber","Second Vice Chairman","board","v"]]},
+  {id:"mohammed_abdulla_al", n:"Mohammed Abdulla Al Hamrani", t:2, p:52, s:"gov", roles:[
+    ["ajman_chamber","Board Member","board","v"]]},
+  {id:"abdullah_saeed_humaid", n:"Abdullah Saeed Humaid Al Nuaimi", t:2, p:52, s:"gov", roles:[
+    ["ajman_chamber","Board Member","board","v"]]},
+  {id:"amna_khalifa_al", n:"Amna Khalifa Al Ali", t:2, p:52, s:"gov", roles:[
+    ["ajman_chamber","Board Member","board","v"]]},
+  {id:"mohammed_khalifa_bin", n:"Mohammed Khalifa Bin Salmeen Al Aryani", t:2, p:52, s:"gov", roles:[
+    ["ajman_chamber","Board Member","board","v"]]},
+  {id:"yousif_mohammed_al", n:"Yousif Mohammed Al Nuaimi", t:2, p:52, s:"gov", roles:[
+    ["ajman_chamber","Board Member","board","v"]]},
+  {id:"maher_taresh_obaid", n:"Maher Taresh Obaid Al Aleeli", t:2, p:52, s:"gov", roles:[
+    ["ajman_chamber","Board Member","board","v"]]},
+  {id:"marwan_hussain_mohammed", n:"Marwan Hussain Mohammed Alshaali", t:2, p:52, s:"gov", roles:[
+    ["ajman_chamber","Board Member","board","v"]]},
+  {id:"maryam_khalifa_al", n:"Maryam Khalifa Al Nuaimi", t:2, p:52, s:"gov", roles:[
+    ["ajman_chamber","Board Member","board","v"]]},
+  {id:"salem_al_suwaidi", n:"Salem Al Suwaidi", t:2, p:58, s:"gov", roles:[
+    ["ajman_chamber","Director General","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -722,6 +781,12 @@ const OWNERSHIP = [
   ["sharjah_finance","shjgov","government department","v"],
   ["ajman_ded","ajmgov","government department","v"],
   ["al_zorah_dev","ajmgov","50/50 joint venture with Solidere International (Lebanon)","ns"],
+  ["spc_free_zone","sba","subsidiary","v"],
+  ["gulf_medical_univ","thumbay","subsidiary","v"],
+  ["rak_airport","rakgov","government department","v"],
+  ["sharjah_broadcasting","shjgov","government authority","v"],
+  ["ajman_municipality","ajmgov","government department","v"],
+  ["uaq_municipality","uaqgov","government department","v"],
 ];
 
 const FAMILY = [
@@ -781,4 +846,11 @@ const AKA = {
   sharjah_islamic_bk:["SIB"],
   albatha:["Al Batha Group"],
   fujairah_national:["FNG"],
+  university_of_sharjah:["UoS"],
+  ajman_university:["AU"],
+  spc_free_zone:["Sharjah Publishing City"],
+  gulf_medical_univ:["GMU"],
+  rak_airport:["RKT"],
+  sharjah_broadcasting:["SBA (broadcasting)"],
+  ajman_municipality:["AMPD"],
 };
