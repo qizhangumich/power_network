@@ -1,0 +1,5 @@
+# Etihad Rail launches direct cargo service between Fujairah and Abu Dhabi under port partnership
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWWZFTVFpNmdxejNVOXR5b0hHbG54UWRwN1liTFhsd3UzTGh5a082YmJiVlN0U1RfVzdIT0NKYUJaUkExMjhBUVYzOXd6eks2Yzd6YzlXS0ZUNVNKMUZVeXV1QTVUVFZrQmxHQk4wVDk0R0lyTkxvUUt5RXlaZG91WlVBbW1YSEpOd3dzNWhwQ3ozVWNQbzFjMWxJU1M3MDNuaTdZVmFGUVVfMUxCbU11M2pOX0RJVVJxRFdpX24zdDVwbGRZN2UxdmhVNUZQbmE4SkZaaVFnTGx5U2stcm1YS1BB?oc=5
+
+Etihad Rail launches direct cargo service between Fujairah and Abu Dhabi under port partnership    thenationalnews.com

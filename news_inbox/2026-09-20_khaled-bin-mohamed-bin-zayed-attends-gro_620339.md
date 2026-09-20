@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed attends group wedding of Al Awamir tribe
+source: mediaoffice.abudhabi
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQR0tBcmlVdDlmb2djUlZXZjUzR1ZBODdpQ1ZZQUJ4LWIyeHFobmJLRUc4TldRWnVRSXFKc2lac2pzNXhtQUdPc0c0M1llWE1BNXNvTkNuOGF0dzgzdUR2WTU0ZEl2eU9zS1U1SkotRzZtQkhsR08wNnBhT1otX0tWdG1vcGNTWlBzNkZhbHUyN3pXZVRUbHJhS3NFa0VDblpObFV0MzNGZFpvV3pkZDZJTVRGUzA2dlplZ3dIR3lmWXNoUQ?oc=5
+
+Khaled bin Mohamed bin Zayed attends group wedding of Al Awamir tribe    mediaoffice.abudhabi
