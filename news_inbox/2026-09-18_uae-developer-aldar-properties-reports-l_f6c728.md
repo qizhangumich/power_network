@@ -1,0 +1,5 @@
+# UAE developer Aldar Properties reports lower second-quarter net profit as revenue falls
+source: Arab News
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxQLVhZLVA1NGRBUnpsQnFBQ09DYUNUQXFrWUJQWGRIaGpybkxpUTdycXhINnJNQTJBVFJCV2dRTzI5dV9xN3F2T2hOX2dsM2xJdE5ybTl2TlFkYzZlckxtMzFIVEtYS2F6V3BTcWZuTzVLYWJYaXhYazk1VVMtRnRJN1paREdiNC1LNWtNTkVDUEc1ZGtyTGZaRlc2MHM2RWFEMlhpaTY1cGFlR09pWGZkS1pzajBOT280aTRRMGdYQVozY1RJbF9XNw?oc=5
+
+UAE developer Aldar Properties reports lower second-quarter net profit as revenue falls    Arab News

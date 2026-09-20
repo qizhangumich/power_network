@@ -1,0 +1,5 @@
+# Sovereign wealth funds stay away from China due to lingering property woes
+source: Nikkei Asia
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxOSWVaYjIweEZWd1I4S0VGYXNVZjViS2RJajVRQno0R3NEbkZja3pONDNyQ1k0b2VxZHVHellSM3RfN2VOek1PZ295OWpmTVM2YzN2d29rZ0cxaXc0Z0F1cjZoM21fS08tejEwRkNhX2lTNVdEY3hkN2lvTVNsRGhWOFRsalNTOWpRZW8xNkg3WVU0MWZTeHFJdkJSazNEMTdqbHVFUk5qUGZKcl95ZDVwb0l6U1BxSlRNSUE?oc=5
+
+Sovereign wealth funds stay away from China due to lingering property woes    Nikkei Asia

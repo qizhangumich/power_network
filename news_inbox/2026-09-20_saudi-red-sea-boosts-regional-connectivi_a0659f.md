@@ -1,0 +1,5 @@
+# Saudi Red Sea boosts regional connectivity with new international route
+source: Hotelier Middle East
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxOSUZkQjB1TVFPeGlnMjFhWlpMbU9uT25aRTFLZkdjYnptUFYwTjVUeHpfbGEzS3k5Si1jX3FXb194UW01RnFlTlVZT1Rya21TZHBjemdtVktXRi1ZbEgtWUF0YVZHa24xQ3BTNFJjWjI3N1Z2QVhseHA4d0dnOWRzakdYVlFnSThRVGIzOHJlcngtVDVieF9paGtNUTc1VDVBdGJyeWVNLXYxREl1aGo2dA?oc=5
+
+Saudi Red Sea boosts regional connectivity with new international route    Hotelier Middle East
