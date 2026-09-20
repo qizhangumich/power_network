@@ -1,0 +1,5 @@
+# Indonesia's sovereign wealth fund enters into cooperation with UAE
+source: Arab News
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOczZJZFF2RzRqRFBROVMzMC1NVnlNS2pxQTV3MTNhd1VzMXVFc1FFWDhnbmJCbXYzWFBwODVFRDc5RjdVdGZMUHl3NVdaamQtOW1aWl82cU4xUGxfMFZVSkJabXkyM3B3cXN0ajB1MmhJeE9kSnRpYUUySmE5UWhlY0ZWTGVrN2ZPZWNSMnJBcG1rRHlPSHlxYS05YXNoX0NqcTV4Q2owU0dPNVE?oc=5
+
+Indonesia's sovereign wealth fund enters into cooperation with UAE    Arab News

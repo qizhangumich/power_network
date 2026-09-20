@@ -1,0 +1,5 @@
+# OMV to proceed with Austria hydrogen project after Masdar exits
+source: Investing.com
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWDJWTWprVGREeTlPcUdfOGN6bjlpY25hUnBTVGpwUTJYWmNIdmpEQ3k3aW0wVFJyQnJZVGxqWXdlRmg5NDBac04xOHhJUHM1M3BYZXY2MmhhdzVPYVY2WmloS3pSWW9lN2t5QXlmcXZnajk4MElWRGdiTjhVMnZpbXVMRk1iZDNNSi1GZGt2bzBUenlGcTktWVhQUjI1YWxaS1NzQWswcHZDSkZqZ3hvbHZjSDkyMmtQZ2oxbmdpUGpwMFk?oc=5
+
+OMV to proceed with Austria hydrogen project after Masdar exits    Investing.com
