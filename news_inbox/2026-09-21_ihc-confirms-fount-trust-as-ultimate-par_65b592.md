@@ -1,0 +1,5 @@
+# IHC confirms Fount Trust as ultimate parent after ownership restructure
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQmx0X3FUWHl5Rl9nU1VFTlpuRFctYWk3T2ZnUzJiUWxOYkJ1REFHNWlNVXZLOWFEUjZONVJvT0Z6cWhPMXo5WFA4THFuSGFmcHJBMHdOd29TZDZzSEFKMWVfMjNJVHItMGtkSW5vWFppTEJuU2UyamQxak5WTklFWVlhWElhd2QyUERmMVJvNEpDMU9GZEZEaDlZN01OUTFMVlJfRS1BSHNSRVowMHloRk5ibVlvek5wV2R6X1o1U21Mdw?oc=5
+
+IHC confirms Fount Trust as ultimate parent after ownership restructure    thenationalnews.com

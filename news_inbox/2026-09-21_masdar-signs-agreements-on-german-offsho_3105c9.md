@@ -1,0 +1,5 @@
+# Masdar signs agreements on German offshore wind and battery storage
+source: Windtech International
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdDBhZlJLWExrZmZNNGpILW9iYWVHMFc1ODl5Z1dtckdJZkFKd0NEN1BMWkFGcjFsdWlDMTJWWVpMZjVabUdFSEc1U0NMVF9BU0RBOXpWbzlkYXFld2VqME1na0xsRzN0bW1DZWNKN0VWMkt3cG1ES1R6V2YyaF9SUGMzUFY5ckFKOFh3NlhpeGpabGExUU5qdFRRM3lKaEtMbzM3Tkc4MFN2TTZpTFBjZFluQkI1VUNUYzVMTGU1XzRMRkRZT0RFQw?oc=5
+
+Masdar signs agreements on German offshore wind and battery storage    Windtech International

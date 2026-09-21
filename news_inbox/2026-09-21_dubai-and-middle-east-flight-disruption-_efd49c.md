@@ -1,0 +1,5 @@
+# Dubai and Middle East flight disruption: Regional airlines face delays and cancellations amid ongoing tensions
+source: Condé Nast Traveller Middle East
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOd3k1Sm9wMGpqb0NvX0QwdTZrVHQ3Yl9tZUFocVgtb3hzc01ZeWRBOFNrZTB0eG9lamxxeW0wbUVyTHZjakVLWGVlYldIaHVZOXRqZUVaRHYzaFNUZGp6NElrOFc4SE9LQUludFR6Wkp1WE1ITGs1REZreFlMNXBreXNENDJiekR2VGpMQTlnYlAzOTlWR0N0M1JkdDlGNFBPZFF0WVRmZ0w2aEFRX05ZMkJHT041NXVUQjVNOWp5YURyRDduclVwQ1Y1YklzRnFNS3cxV2o2YzFuVHk2QkE?oc=5
+
+Dubai and Middle East flight disruption: Regional airlines face delays and cancellations amid ongoing tensions    Condé Nast Traveller Middle East

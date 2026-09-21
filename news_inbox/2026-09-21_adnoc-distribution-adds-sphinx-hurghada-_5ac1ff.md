@@ -1,0 +1,5 @@
+# Adnoc Distribution adds Sphinx, Hurghada airports to its aviation fuel network
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNjd4XzVzRHA1VnZXQi03bVkzOUlXTWNjb3Z5ME5QZEZ6ZlhDcnNFdEpFaFJiTHZIclFtNjlxSElmano0bWI4Uk5NNTFDUnVnVTdaNnJxLWQ5LVpYWlRXOWFicWhSVWdEdnFBSTdyWV9NYlJkVUVLMWJpM1RUYnlSRzQxZXVtcU1DRTRsN1kyYUhrWXVfNnN2SmFHYlhNdk9haVJMdmJaTTBneFpNZnlHbkcyVWJqUHVlN2dLN1VEZkR3UQ?oc=5
+
+Adnoc Distribution adds Sphinx, Hurghada airports to its aviation fuel network    EnterpriseAM

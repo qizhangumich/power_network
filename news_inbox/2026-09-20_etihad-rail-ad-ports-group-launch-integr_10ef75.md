@@ -1,0 +1,5 @@
+# Etihad Rail, AD Ports Group launch integrated rail service connecting Fujairah Terminals with Industrial City of Abu Dhabi
+source: Big News Network.com
+url: https://news.google.com/rss/articles/CBMi-wFBVV95cUxNX0dlS0VmanRCdE5HQ2hUS05rT1k1ZkxMaVJNSGFhcnpmR2s1X1NBWld2V0FVOEllVmRfVWdETnQ2R2R0NDZBQnpuNnUwZjRGU2VYeVg3OWhsU2pKcG8zZE50N1ZmcC1xOXVyTDI3ekpQQ0NlVTh2U2tJUTF0bFJKaUVnN2ExRUxRWmlEb1pYYTFHRFBKVm04WXREUXBuUUtULUJZSlBMNFl3SlRTWmVMbW94TzVNVHFLMmZIeDdRUjZmVjgtUVNPMnFYMUZWYlpMWmQ4a2dEekZzT1VBci1DZHlPbVo1XzdYUW5iSWZZb3FFMDNYSDdObUtSSQ?oc=5
+
+Etihad Rail, AD Ports Group launch integrated rail service connecting Fujairah Terminals with Industrial City of Abu Dhabi    Big News Network.com

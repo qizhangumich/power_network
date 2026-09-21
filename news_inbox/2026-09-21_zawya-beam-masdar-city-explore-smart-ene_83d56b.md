@@ -1,0 +1,5 @@
+# ZAWYA: Beam, Masdar City explore smart-energy and clean-mobility partnership
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWjdBZVZCSk95U3FYQ2ZaWjBSYVo2Zlh3MWVXTEhleVp0UlE1a180a0V1aTlTc1hmVk5JYm10bkt2QVRRZERfTzQ1X3BPVUlBNmZhZ0xET0hoNXV2UDBxNmo5ZTU1X195a25XWDhKckh3VjQzY01BeU1Hc090dEdaaXFrblFBMHhNN04za3dLUkVHWWEtYWprQUpSbUwxd3NwM2F5cmJQajQ0SkRMbHJ3QV9uMm9YNDZMdUR3Zk9SUHdvSkNaWVhSZWYyWFRqeUlOM29vbkQzSXdtQ2s3RndlWWVJUQ?oc=5
+
+ZAWYA: Beam, Masdar City explore smart-energy and clean-mobility partnership    TradingView

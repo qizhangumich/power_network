@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed issues resolution appointing Saood Abdulaziz Al Hosani as Director General of Abu Dhabi Media Office
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMikwJBVV95cUxOeFA1ZktHeG4xcVhzc3J5U0NVVEZMZ2xicmNTTG5CaXhoZzlMYm5UZjhoSUwzNzM1cHFtaGRxODA5SVdkT0tSNC1hNjNSZ1hzc0JHZm1QOFNhMU9TWEFuTV9ILXZVS25acWxzdEtzWi03REpOMlpVb183cE9aeUU0VDNKaWhiZy11X2hlUlN2QTlSN3BQLTNpUG5aRXVUcWpyRURQQTJoeVgxWG80QlhWQmxlRUJwU0NadzFhaWY5WGhVNDNTZGROZjhKY3F6OWNIOU5jbW93eDRqTjRUMjhNejl6YVR5WTZXZ0duWkZIYmEwbTMyMVQweUpEbExRSlY3UjAyY1pfajlRd0lvYnpvN0pmMA?oc=5
+
+Khaled bin Mohamed bin Zayed issues resolution appointing Saood Abdulaziz Al Hosani as Director General of Abu Dhabi Media Office    مكتب أبوظبي الإعلامي

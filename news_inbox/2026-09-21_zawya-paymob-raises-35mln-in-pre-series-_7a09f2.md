@@ -1,0 +1,5 @@
+# ZAWYA: Paymob raises $35mln in pre-Series C round
+source: TradingView
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeHJmN3hQY0trNTY1cE1jUlQzUktFNW5LSFNLYXk0OFlQS280U3RHdEpWRWplZDRmWEFRS3Bxa3VLaXJ6Uy10cXJCNHB5VTdOZjRHZUtxSm9CSGZLNDU1el9sbm80SnMyZlMwNTR2VS1RTjk5c1pudWEwOVFxeDRLOWxOUG1UTGxIdUlRbnk5dDFzODNUbGtVX09sMjFGZUlZSm13MEl5Z0E4VnRmUVdPUVZMclJXSVpmaWpZczJXQ3A?oc=5
+
+ZAWYA: Paymob raises $35mln in pre-Series C round    TradingView

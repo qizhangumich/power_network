@@ -1,0 +1,5 @@
+# Etihad Airways Launches Corporate Care Scheme for Business Travellers
+source: Business Traveller
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxONFNySXRHWDhNVDZzM2kxeW5NeGUyLXhIR1N5RmRkNlpoc2ZLV3Bvc2Z3aUlaeDdrM2hNMUZrOUdfazd3cnptUlhzbmlMMElRMTJNV0hlLWtjZGFtcm9hd01qN28wOFFwSU9uX0NMTlVPeVk5NHNMN3Nid2RTTUpUazBDdHY3dGFLdExSSnNWeUZXeUpmVm9Fb1MtVnRpdTIyN09QX25jV3gxRzd3UGc?oc=5
+
+Etihad Airways Launches Corporate Care Scheme for Business Travellers    Business Traveller
