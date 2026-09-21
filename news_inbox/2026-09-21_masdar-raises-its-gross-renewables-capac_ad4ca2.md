@@ -1,0 +1,5 @@
+# Masdar Raises Its Gross Renewables Capacity in Serbia to Over 300MW
+source: Rigzone
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ3VRbUMzMGxNNGIxYnkxOERteFpMS3JwMVdybTVGMzNCTDRBTk45N3RJYWlvTXNyZkZvR2kwZnhsbjhadUZjVWNSTkVmOXV0R1N1ZGx6aGgxbEF5SU1XUkhUbDJNY3hGSERrUjlHMDh3bTkyT0ExdndKcU9ROV9GX1h0cFdMaGpDNEVvWjlRaGsteFlSRmRrX1hFSEZhemRsVGhWM0JjM3MzMWRCRnIxZ1I4RFRwdDRCMFpMQ1N1U2puZw?oc=5
+
+Masdar Raises Its Gross Renewables Capacity in Serbia to Over 300MW    Rigzone

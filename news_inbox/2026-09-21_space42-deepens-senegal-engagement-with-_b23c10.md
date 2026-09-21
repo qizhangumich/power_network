@@ -1,0 +1,5 @@
+# Space42 Deepens Senegal Engagement with Secure Satellite, AI Geospatial Technologies
+source: techafricanews.com
+url: https://news.google.com/rss/articles/CBMinwFBVV95cUxQMHczdmdvbG1fMXBwYVRzZUVUSFEwSElyQVdGOU5DUzBVUGs1YTJ5Wmk2YkpoeHRYLURiOXVQYmxfTElUVTB0QVhjNmJmVklPTURWa3p5VzRoREpmVGZuYlFQU0FIMHRieGpSSlg5aFlwV2ZaM0ZfT3JYSVgtZDFMcWJ2NjVIZzlubDQ2ZXpwaEQ3cHBxdVU5bkNzT1cxeFE?oc=5
+
+Space42 Deepens Senegal Engagement with Secure Satellite, AI Geospatial Technologies    techafricanews.com

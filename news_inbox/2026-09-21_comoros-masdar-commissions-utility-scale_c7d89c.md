@@ -1,0 +1,5 @@
+# Comoros: Masdar commissions utility-scale solar-storage plants
+source: africa-energy.com
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxQSTZBZ0I0Vk1YU3JlQkxRbUEwR2QtZGltamFHWk01VnBfTkNSTks3Zk05VFU4WmdzbE1oc2dKVXB0VHRXRzA2N3ljTVByYkgwcEdERzQyUVhGVkNzRzBuUndkMVN4bzhrSjBwUndPTkFmT3J2ekppWVM1SmdvYUQwZWFoU1l2UUtnazkxRXVLQTJ3LVA1eDFQMGphbHk0MjNmUzlmWUJ5MmZUSDBfRWpIVg?oc=5
+
+Comoros: Masdar commissions utility-scale solar-storage plants    africa-energy.com

@@ -1,0 +1,5 @@
+# ADNOC unit explores $1bln investment in fuel station expansion in Egypt: Report
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUkNjbTRqQ285V3Q1M2F3b25yQkZiNENWbFF1MXhnZVBob0F4Z2NoMGxxN29HUVFzRm9jNHBxcC1GbHRKbmxjVldvUWZ3TWNrSHZBVnRKbE5hQkdEMlptNlFrLTd4R2J5YkZZUVNLRnQwTUlwS0w1eG9wZ0J1UWc4X0JOemNVbEJKOHZrZWNsalBxa1R2MmY2Q3NnN3ZfOWFIUXBoa2RXeVBPM2stLXR1QWZKQ3dGVmVlRlpnWnVrd0JBTWdMbUVUSVR3SUhCN0djRkdpRUlPZGYyajViQTF4Wm1fMHJuLUNs?oc=5
+
+ADNOC unit explores $1bln investment in fuel station expansion in Egypt: Report    TradingView

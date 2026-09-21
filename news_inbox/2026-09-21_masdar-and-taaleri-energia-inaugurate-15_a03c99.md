@@ -1,0 +1,5 @@
+# Masdar and Taaleri Energia inaugurate 154 MW Čibuk 2 wind farm
+source: Windtech International
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZXlBQzZmZm90LWNhRTVqUDgzSnVPSTlDM2dOUDhKQWR2N1NzUGEtNlBJRTJ2QjhzRVpscHJ5NEgxRVgzY1JHTXR4Wmpxb3RqQ1NVVm1EcXVTN2tQUkRNV3hnZXZ0UFk1T3VSd2l3bjZ5b1dIRDNWRG9GN3FCbXR1TU1pY1VTWk9WMk9RWWpzTTZlUnY1dm5OclMxbmNnc3pmV0s3SmhqbVhrT0xIc3FpclBzV0ZJNW9uRjB6azg1RE42Zw?oc=5
+
+Masdar and Taaleri Energia inaugurate 154 MW Čibuk 2 wind farm    Windtech International

@@ -1,0 +1,5 @@
+# Abu Dhabi Investment Authority sells over 2% stake in Lenskart Solutions
+source: TradingView
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxNd0FiRGhTeVc4ZU9XZnJ0TzlqSVVTeXU4clBmTDUxbTVGOVRtOXFrTWFHdlJTMDludXYtWWoyaUQ5UVVnS0RvZ2gzOWdlSER1TmJDQl9iRkZMU3pFTUhJOV9YMWN6cGQtWXhRRHhiWV9GX3FKMUo5aExFa0NmU1loajZBYWNxcHlLVWVuUTBkUHQ3TUJWYjVuNzQwTm1OdmIzWmFWS2ZNNHhIVDR4d1RIVnlMYnM1T0lTRkVLQ20zVGNoSFRvc3JhczRaVGZibGs?oc=5
+
+Abu Dhabi Investment Authority sells over 2% stake in Lenskart Solutions    TradingView
