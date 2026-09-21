@@ -1,0 +1,5 @@
+# Maldivian signs loyalty programme deal with Etihad
+source: asianaviation.com
+url: https://news.google.com/rss/articles/CBMiigFBVV95cUxONllaQ005WklCYTZDNXZfZC1yRU9TVnNMeW9yOFVncmJGSUJUWngxTlV2Z2kzNmlwUkExQWpxMHY2WjFIbUpYVmpqb2pjNnd0X2p0ZVhscm1hanJ3b3dBX2pUSzdNYU9TcFRyN2xRX3dsRjZkUmstYzVta2JtNGtLWV82OGYtdmVhOVE?oc=5
+
+Maldivian signs loyalty programme deal with Etihad    asianaviation.com
