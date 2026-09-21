@@ -290,8 +290,8 @@ const PEOPLE = [
     note:"Moved from Education & Higher Education to Social Development & Family in the 12 Nov 2024 cabinet reshuffle."},
   {id:"alsayed", n:"H.E. Ahmad Al-Sayed", t:1, p:80, s:"gov", roles:[
     ["cabinet","Minister of State","political","v"],
-    ["qfz","Chairman","government","v"]],
-    note:"Former QIA CEO; runs the free-zone platform courting global tech and logistics."},
+    ["qfz","Chairman (until Apr 2025)","government","v","former:until Apr 2025"]],
+    note:"Former QIA CEO. QFZ's board was fully reconstituted by Amiri Decision No. 13/2025 (Apr 2025) with Sheikh Faisal bin Thani bin Faisal Al-Thani as the new Chairperson."},
   {id:"sowaidi", n:"Mohammed Saif Al Sowaidi", t:1, p:86, s:"sovereign", roles:[
     ["qia","Chief Executive Officer","executive","v"],
     ["katarahosp","Chairman","board","v"]]},

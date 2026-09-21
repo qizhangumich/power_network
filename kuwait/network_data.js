@@ -278,8 +278,8 @@ const PEOPLE = [
     ["kpc","Chairman of the Board","board","v"]],
     note:"Appointed Minister of Oil on 29 October 2024; the portfolio carries the ex officio KPC board chairmanship."},
   {id:"boodai_moci_kw", n:"Osama Khaled Boodai", t:1, p:70, s:"gov", roles:[
-    ["moci_kw","Minister of Commerce & Industry","political","v"]],
-    note:"Appointed in the 1 February 2026 Amiri Decree cabinet reshuffle."},
+    ["moci_kw","Minister of Commerce & Industry (Feb–Sep 2026)","political","v","former:until Sep 2026"]],
+    note:"Appointed in the 1 February 2026 Amiri Decree cabinet reshuffle; resignation accepted ~14 Sep 2026, succeeded on an acting basis by Abdulaziz Nasser Al-Marzouq."},
   {id:"buftain_info", n:"Abdullah Sabeeh Buftain", t:1, p:62, s:"gov", roles:[
     ["moinfo_kw","Minister of Information & Culture","political","v"]],
     note:"Appointed in the 1 February 2026 Amiri Decree cabinet reshuffle."},
