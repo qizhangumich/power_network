@@ -123,6 +123,8 @@ const INSTITUTIONS = [
   {id:"king_hamad_univ", n:"King Hamad University Hospital", s:"health", t:2, p:60, short:"King Hamad Univ Hosp"},
   {id:"al_hilal", n:"Al Hilal Group", s:"comm", t:3, p:52, short:"Al Hilal Group"},
   {id:"derasat", n:"Bahrain Center for Strategic International and Energy Studies", s:"education", t:2, p:56, short:"Derasat"},
+  {id:"beyon_solutions", n:"Beyon Solutions", s:"tech", t:3, p:56, short:"Beyon Solutions"},
+  {id:"beyon_connect", n:"Beyon Connect", s:"tech", t:3, p:52, short:"Beyon Connect"},
 ];
 
 const PEOPLE = [
@@ -187,6 +189,7 @@ const PEOPLE = [
     ["moic_bh","Minister of Industry & Commerce","political","v"]],
     note:"In office since November 2022; from the Fakhro business family (McDonald's Bahrain franchise, GAC Bahrain)."},
   {id:"abdullah_mtt", n:"H.E. Dr. Shaikh Abdullah bin Ahmed Al Khalifa", t:1, p:70, s:"gov", roles:[
+    ["derasat","Chairman of the Board of Trustees","board","v"],
     ["mtt_bh","Minister of Transportation & Telecommunications","political","v"]]},
   {id:"daina_oil", n:"H.E. Dr. Mohamed bin Mubarak bin Daina", t:1, p:74, s:"energy", roles:[
     ["bapco_gas","Board Member (Bapco Energies)","board","v"],
@@ -2505,6 +2508,7 @@ const PEOPLE = [
   {id:"yousif_abdulla_fakhro", n:"Yousif Abdulla Fakhro", t:2, p:60, s:"conglomerate", roles:[
     ["fakhro","Managing Director","executive","ns"]]},
   {id:"abdulrahman_jawahery", n:"Abdulrahman Jawahery", t:2, p:60, s:"energy", roles:[
+    ["derasat","Board of Trustees Member","board","v"],
     ["bapco_refining","Chief Executive Officer, Bapco Refining","executive","v"]]},
   {id:"abdullatif_khalid_deen", n:"Abdullatif Khalid Deen", t:2, p:58, s:"energy", roles:[
     ["bapco_refining","Group Chief Financial Officer","executive","v"]]},
@@ -2707,6 +2711,26 @@ const PEOPLE = [
     ["garmco","Chief Executive Officer","executive","v"]]},
   {id:"mohamed_ali_bahzad", n:"Mohamed Ali Bahzad", t:2, p:58, s:"gov", roles:[
     ["mofa_bh","Undersecretary for Consular & Administrative Affairs","executive","v"]]},
+  {id:"khalid_bin_daij", n:"Khalid bin Daij Al Khalifa", t:2, p:60, s:"tech", roles:[
+    ["beyon_cyber","Chief Executive Officer","executive","v"]]},
+  {id:"abubakar_mohd", n:"Abubakar Mohd", t:2, p:58, s:"tech", roles:[
+    ["beyon_cyber","Chief Technology Officer","executive","v"]]},
+  {id:"ahmed_hashim_alyushaa", n:"Ahmed Hashim Alyushaa", t:2, p:52, s:"education", roles:[
+    ["derasat","Board of Trustees Member","board","v"]]},
+  {id:"waheeb_essa_alnasser", n:"Waheeb Essa Alnasser", t:2, p:52, s:"education", roles:[
+    ["derasat","Board of Trustees Member","board","v"]]},
+  {id:"tawfiq_ahmed_al", n:"Tawfiq Ahmed Al Mansour", t:2, p:52, s:"education", roles:[
+    ["derasat","Board of Trustees Member","board","v"]]},
+  {id:"khalifa_ali_alfadhel", n:"Khalifa Ali Alfadhel", t:2, p:52, s:"education", roles:[
+    ["derasat","Board of Trustees Member","board","v"]]},
+  {id:"hamad_ebrahim_al", n:"Hamad Ebrahim Al Abdulla", t:2, p:58, s:"education", roles:[
+    ["derasat","Executive Director","executive","v"]]},
+  {id:"fatima_abdulla_al", n:"Fatima Abdulla Al Dhaen", t:2, p:58, s:"gov", roles:[
+    ["mtt_bh","Undersecretary for Land Transport and Postal Affairs","executive","v"]]},
+  {id:"bader_hood_al", n:"Bader Hood Al Mahmood", t:2, p:58, s:"gov", roles:[
+    ["mtt_bh","Undersecretary for Ports and Maritime Affairs","executive","v"]]},
+  {id:"husain_al_shuail", n:"Husain Al Shuail", t:2, p:58, s:"gov", roles:[
+    ["mtt_bh","Acting Undersecretary for Civil Aviation Affairs","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2792,6 +2816,8 @@ const OWNERSHIP = [
   ["gheras","mumtalakat","indirect subsidiary (via Bahrain Food Holding Company)","v"],
   ["beyon_money","beyon","subsidiary of","ns"],
   ["beyon_cyber","beyon","subsidiary of","ns"],
+  ["beyon_solutions","beyon","subsidiary","v"],
+  ["beyon_connect","beyon","subsidiary","v"],
 ];
 
 const FAMILY = [

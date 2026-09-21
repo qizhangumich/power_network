@@ -215,6 +215,7 @@ const INSTITUTIONS = [
   {id:"kuna", n:"Kuwait News Agency", s:"comm", t:2, p:56, short:"KUNA"},
   {id:"xcite_electronics", n:"Xcite Alghanim Electronics", s:"consumer_disc", t:2, p:58, short:"Xcite Electronics"},
   {id:"gust", n:"Gulf University for Science and Technology", s:"education", t:3, p:54, short:"GUST"},
+  {id:"kipic", n:"Kuwait Integrated Petroleum Industries Company", s:"energy", t:2, p:70, short:"KIPIC"},
 ];
 
 const PEOPLE = [
@@ -243,6 +244,7 @@ const PEOPLE = [
   {id:"sager", n:"Isam Al-Sager", t:2, p:74, s:"finance", roles:[
     ["nbk","Group Vice Chairman & CEO","executive","v"]]},
   {id:"bader_kharafi", n:"Bader Nasser Al-Kharafi", t:1, p:78, s:"comm", roles:[
+    ["lst_ninv","Vice Chairman of the Board","board","v"],
     ["zain","Vice Chairman & Group CEO","executive","v"],
     ["kharafi","Family principal","board","ns"]],
     note:"Bridges the Kharafi family empire and Kuwait's most international listed company."},
@@ -305,6 +307,7 @@ const PEOPLE = [
   {id:"farouq_ali_akbar", n:"Farouq Ali Akbar Bastaki", t:2, p:52, s:"finance", roles:[
     ["nbk","Independent Board Member","board","v"]]},
   {id:"anas_khaled_alsaleh", n:"Anas Khaled AlSaleh", t:2, p:52, s:"finance", roles:[
+    ["lst_ninv","Board Member","board","v"],
     ["nbk","Independent Board Member","board","v"]]},
   {id:"shaikha_k_al", n:"Shaikha K. Al-Bahar", t:2, p:58, s:"finance", roles:[
     ["nbk","Deputy Group Chief Executive Officer","executive","v"]]},
@@ -370,6 +373,7 @@ const PEOPLE = [
     ["lst_kre","Vice Chairman & CEO","board","v"],
     ["boursa","Board Member","board","v"]]},
   {id:"khaled_waleed_al", n:"Khaled Waleed Al-Falah", t:2, p:52, s:"finance", roles:[
+    ["lst_ninv","Chairman of the Board","board","v"],
     ["boursa","Board Member","board","v"]]},
   {id:"yousef_faisal_al", n:"Yousef Faisal Al-Mannai", t:2, p:52, s:"finance", roles:[
     ["boursa","Board Member","board","v"]]},
@@ -1148,6 +1152,7 @@ const PEOPLE = [
   {id:"luis_antuna", n:"Luis Antuna", t:2, p:52, s:"materials", roles:[
     ["equate","Board Member","board","v"]]},
   {id:"dabbous_aldabbous", n:"Dabbous AlDabbous", t:2, p:52, s:"materials", roles:[
+    ["lst_bpcc","Chairman of the Board","board","v"],
     ["equate","Board Member","board","v"]]},
   {id:"asma_alqallaf", n:"Asma Alqallaf", t:2, p:52, s:"materials", roles:[
     ["equate","Board Member","board","v"]]},
@@ -1215,6 +1220,60 @@ const PEOPLE = [
     ["pifss","Deputy Director General for Investment, Financial and Administrative Affairs","executive","ns"]]},
   {id:"omar_saud_abdulaziz", n:"Omar Saud Abdulaziz Al-Omar", t:2, p:58, s:"gov", roles:[
     ["moinfo_kw","Minister of State for Communications and Information Technology Affairs and Acting Minister of Information and Culture","executive","v"]]},
+  {id:"saad_mohammed_abdullah", n:"Saad Mohammed Abdullah Al Saad", t:2, p:62, s:"finance", roles:[
+    ["lst_nind","Chairman of the Board","board","v"]]},
+  {id:"sulaiman_hamad_mohammed", n:"Sulaiman Hamad Mohammed Al Dalali", t:2, p:62, s:"finance", roles:[
+    ["lst_nind","Vice Chairman of the Board","board","v"]]},
+  {id:"abdulaziz_ibrahim_al", n:"Abdulaziz Ibrahim Al-Rabiah", t:2, p:52, s:"finance", roles:[
+    ["lst_nind","Board Member","board","v"]]},
+  {id:"hussam_fawzi_mohammed", n:"Hussam Fawzi Mohammed Al-Kharafi", t:2, p:52, s:"finance", roles:[
+    ["lst_nind","Board Member","board","v"]]},
+  {id:"maha_khalid_al", n:"Maha Khalid Al-Ghunaim", t:2, p:52, s:"finance", roles:[
+    ["lst_nind","Independent Board Member","board","v"]]},
+  {id:"ahmed_mohammed_hassan", n:"Ahmed Mohammed Hassan", t:2, p:60, s:"finance", roles:[
+    ["lst_nind","Chief Executive Officer","executive","v"]]},
+  {id:"mubasher_sheikh", n:"Mubasher Sheikh", t:2, p:58, s:"finance", roles:[
+    ["lst_nind","Chief Financial Officer","executive","ns"]]},
+  {id:"khalid_al_saad", n:"Khalid Al Saad", t:2, p:58, s:"finance", roles:[
+    ["lst_nind","Executive Manager - Direct Investment Department","executive","ns"]]},
+  {id:"fadi_abdel_salam", n:"Fadi Abdel Salam", t:2, p:58, s:"finance", roles:[
+    ["lst_nind","Group Risk and Compliance Manager","executive","ns"]]},
+  {id:"khaled_ali_al_b", n:"Khaled Ali Al-Ghanim", t:2, p:62, s:"materials", roles:[
+    ["lst_bpcc","Vice Chairman of the Board","board","v"]]},
+  {id:"saud_abdulaziz_al", n:"Saud Abdulaziz Al-Babtain", t:2, p:52, s:"materials", roles:[
+    ["lst_bpcc","Board Member","board","v"]]},
+  {id:"khaled_abdulaziz_al", n:"Khaled Abdulaziz Al-Muraikhi", t:2, p:52, s:"materials", roles:[
+    ["lst_bpcc","Board Member","board","v"]]},
+  {id:"ahmad_al_gumar", n:"Ahmad Al Gumar", t:2, p:58, s:"materials", roles:[
+    ["lst_bpcc","Chief Investment Officer","executive","ns"]]},
+  {id:"mohammad_al_bahar", n:"Mohammad Al Bahar", t:2, p:58, s:"materials", roles:[
+    ["lst_bpcc","Secretary of the Board of Directors","executive","ns"]]},
+  {id:"abdulrahman_mousa_al", n:"Abdulrahman Mousa Al Ma'rouf", t:2, p:62, s:"industry", roles:[
+    ["lst_cgc","Chairman (Non-Executive)","board","v"]]},
+  {id:"raad_khalaf_al", n:"Raad Khalaf Al Abdullah", t:2, p:62, s:"industry", roles:[
+    ["lst_cgc","Vice Chairman (Executive)","board","v"]]},
+  {id:"bader_meshari_al", n:"Bader Meshari Al Homaizi", t:2, p:52, s:"industry", roles:[
+    ["lst_cgc","Independent Board Member","board","v"]]},
+  {id:"jasem_a_m", n:"Jasem A M Ramadhan", t:2, p:52, s:"industry", roles:[
+    ["lst_cgc","Independent Board Member","board","v"]]},
+  {id:"sulaiman_abdulrahman_al", n:"Sulaiman Abdulrahman Al Ma'rouf", t:2, p:60, s:"industry", roles:[
+    ["lst_cgc","Board Member & Chief Executive Officer","executive","v"]]},
+  {id:"mousa_ahmad_al", n:"Mousa Ahmad Al Ma'rouf", t:2, p:52, s:"industry", roles:[
+    ["lst_cgc","Board Member (Executive)","board","v"]]},
+  {id:"ahmad_ali_al", n:"Ahmad Ali Al-Oklah", t:2, p:58, s:"industry", roles:[
+    ["lst_cgc","Secretary of the Board of Directors","executive","ns"]]},
+  {id:"taibah_mohammad_al", n:"Taibah Mohammad Al Qatami", t:2, p:52, s:"finance", roles:[
+    ["lst_ninv","Board Member","board","v"]]},
+  {id:"fahad_abdulrahman_al", n:"Fahad Abdulrahman Al Mukhaizim", t:2, p:60, s:"finance", roles:[
+    ["lst_ninv","Board Member & Chief Executive Officer","executive","v"]]},
+  {id:"almuthana_m_al", n:"AlMuthana M. Al Maktoum", t:2, p:60, s:"finance", roles:[
+    ["lst_ninv","Managing Director - Wealth Management Sector","executive","ns"]]},
+  {id:"shahnaz_bachai", n:"Shahnaz Bachai", t:2, p:60, s:"finance", roles:[
+    ["lst_ninv","Managing Director - Operations & Settlements Sector","executive","ns"]]},
+  {id:"abdulaziz_nasser_al", n:"Abdulaziz Nasser Al-Marzouq", t:2, p:58, s:"gov", roles:[
+    ["moci_kw","Acting Minister of Commerce & Industry","executive","ns"]]},
+  {id:"marwa_badah_musallam", n:"Marwa Badah Musallam Al-Juaidan", t:2, p:58, s:"gov", roles:[
+    ["moci_kw","Assistant Undersecretary","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1374,6 +1433,7 @@ const OWNERSHIP = [
   ["mod_kuwait","cabinet_kw","government ministry","ns"],
   ["kuna","moinfo_kw","operates as a branch of the Ministry of Information","ns"],
   ["xcite_electronics","alghanim","subsidiary of","ns"],
+  ["kipic","kpc","subsidiary","v"],
 ];
 
 const FAMILY = [

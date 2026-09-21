@@ -1476,6 +1476,8 @@ const PEOPLE = [
     ["rta","Member Board of Executive Directors","board","v"]]},
   {id:"shehab_bu_shehab", n:"Shehab Bu Shehab", t:2, p:52, s:"gov", roles:[
     ["rta","Member Board of Executive Directors","board","v"]]},
+  {id:"selin_s_zer", n:"Selin Süzer", t:2, p:58, s:"consumer_disc", roles:[
+    ["lst_talabat","Chief Marketing Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

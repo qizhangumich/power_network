@@ -193,6 +193,9 @@ const INSTITUTIONS = [
   {id:"north_oil", n:"North Oil Company", s:"energy", t:2, p:62, short:"North Oil Co"},
   {id:"gulf_drilling_intl", n:"Gulf Drilling International Limited", s:"energy", t:3, p:54, short:"Gulf Drilling Intl"},
   {id:"acrps_doha_inst", n:"Arab Center for Research and Policy Studies", s:"education", t:3, p:54, short:"ACRPS Doha Inst"},
+  {id:"muntajat", n:"Qatar Chemical and Petrochemical Marketing and Distribution Company", s:"materials", t:2, p:60, short:"Muntajat"},
+  {id:"qvc", n:"Qatar Vinyl Company Ltd", s:"materials", t:3, p:55, short:"QVC"},
+  {id:"qatofin", n:"Qatofin Company Limited", s:"materials", t:3, p:54, short:"Qatofin"},
 ];
 
 const PEOPLE = [
@@ -312,7 +315,8 @@ const PEOPLE = [
     note:"Group CEO Nov 2023–Dec 2025; previously COO of Hamad International Airport. Succeeded by Hamad Ali Al-Khater."},
   {id:"fakhroo", n:"Aziz Aluthman Fakhroo", t:2, p:74, s:"comm", roles:[["ooredoo","Managing Director & Group CEO","executive","v"]]},
   {id:"sulaiti", n:"Abdullah Al-Sulaiti", t:2, p:68, s:"energy", roles:[["nakilat","CEO","executive","v"]]},
-  {id:"jaida_qfc", n:"Yousuf Mohamed Al-Jaida", t:2, p:70, s:"finance", roles:[["qfc","CEO","executive","ns"]]},
+  {id:"jaida_qfc", n:"Yousuf Mohamed Al-Jaida", t:2, p:70, s:"finance", roles:[
+    ["qfz","Board Member","board","v"],["qfc","CEO","executive","ns"]]},
   {id:"moutaz", n:"Moutaz Al-Khayyat", t:2, p:72, s:"conglomerate", roles:[
     ["pih","Chairman","board","v"],
     ["baladna","Chairman","board","v"]],
@@ -335,6 +339,7 @@ const PEOPLE = [
     ["qse","Chief Executive Officer","executive","v"]],
     note:"Former QIA Qatar Funds director; became QSE CEO in March 2025."},
   {id:"altheyab_km", n:"Eng. Abdulla bin Ali Al-Theyab", t:2, p:70, s:"utilities", roles:[
+    ["nebras","Board Member","board","v"],
     ["kahramaa","President","executive","v"]],
     note:"Appointed by Amiri Decision in December 2024."},
   {id:"khalid_qafco", n:"Sheikh Khalid bin Abdulla Al-Thani", t:1, p:68, s:"materials", roles:[
@@ -362,6 +367,7 @@ const PEOPLE = [
     ["momun_q","Minister of Municipality","political","v"]],
     note:"Appointed January 2024."},
   {id:"mohammed_transport", n:"H.E. Sheikh Mohammed bin Abdulla bin Mohammed Al Thani", t:1, p:70, s:"gov", roles:[
+    ["qfz","Vice Chairperson","board","v"],
     ["qatarrail","Chairman","board","ns"],
     ["mot_q","Minister of Transport","political","v"]],
     note:"Appointed November 2024."},
@@ -459,6 +465,7 @@ const PEOPLE = [
     ["barwa","Board Member","board","v"],
     ["masraf","Board Member","board","v"]]},
   {id:"mohamed_jaber_al", n:"Mohamed Jaber Al Sulaiti", t:2, p:52, s:"finance", roles:[
+    ["nebras","Board Member","board","v"],
     ["masraf","Board Member","board","v"]]},
   {id:"fahad_al_khalifa", n:"Fahad Al Khalifa", t:2, p:58, s:"finance", roles:[
     ["masraf","Group Chief Executive Officer","executive","v"]]},
@@ -713,6 +720,7 @@ const PEOPLE = [
   {id:"h_e_abdulla", n:"H.E. Abdulla Bin Nasser Al Misnad", t:2, p:62, s:"comm", roles:[
     ["vodafoneqatar","Chairman of the Board of Directors","board","v"]]},
   {id:"h_e_akbar", n:"H.E. Akbar Al Baker", t:2, p:62, s:"comm", roles:[
+    ["qfz","Board Member","board","v"],
     ["qfc","Board Member","board","v"],
     ["vodafoneqatar","Vice-Chairman of the Board of Directors","board","v"]]},
   {id:"rashid_fahad_al", n:"Rashid Fahad Al-Naimi", t:2, p:60, s:"comm", roles:[
@@ -766,6 +774,7 @@ const PEOPLE = [
   {id:"essa_bin_hilal", n:"Essa Bin Hilal Al Kuwari", t:2, p:52, s:"comm", roles:[
     ["ooredoo","Board Member","board","v"]]},
   {id:"mohammed_bin_nasser", n:"Mohammed Bin Nasser Al-Hajri", t:2, p:52, s:"comm", roles:[
+    ["nebras","Chairman","board","v"],
     ["qewc","Managing Director and Chief Executive Officer","executive","ns"],
     ["ooredoo","Board Member","board","v"]]},
   {id:"nasser_bin_hamad", n:"Nasser Bin Hamad Bin Nasser Al-Thani", t:2, p:60, s:"comm", roles:[
@@ -1061,6 +1070,7 @@ const PEOPLE = [
     ["qatarrail","Board Member","board","ns"],
     ["katarahosp","Deputy Chairman","board","v"]]},
   {id:"sheikh_ali_alwaleed", n:"Sheikh Ali Alwaleed Al-Thani", t:2, p:52, s:"consumer_disc", roles:[
+    ["qfz","Board Member","board","v"],
     ["qfc","Board Member","board","v"],
     ["katarahosp","Board Member","board","v"]]},
   {id:"mohammed_abdulrazzaq_al", n:"Mohammed Abdulrazzaq Al-Hashmi", t:2, p:52, s:"consumer_disc", roles:[
@@ -1186,11 +1196,13 @@ const PEOPLE = [
   {id:"faisal_masood", n:"Faisal Masood", t:2, p:58, s:"finance", roles:[
     ["dohabank","Acting Chief Risk Officer","executive","v"]]},
   {id:"abdulaziz_bin_nasser", n:"Abdulaziz bin Nasser Al Khalifa", t:2, p:62, s:"industry", roles:[
+    ["qfz","Board Member","board","v"],
     ["qfc","Board Member","board","v"],
     ["qatarrail","Vice Chairman","board","ns"]]},
   {id:"abdulla_bin_ali", n:"Abdulla bin Ali Al Thiyab", t:2, p:52, s:"industry", roles:[
     ["qatarrail","Board Member","board","ns"]]},
   {id:"sheikh_mohammed_bin_b_b", n:"Sheikh Mohammed bin Hamad bin Faisal Al Thani", t:2, p:52, s:"industry", roles:[
+    ["qfz","Chief Executive Officer","executive","ns"],
     ["qatarrail","Board Member","board","ns"]]},
   {id:"jassim_al_buhashim", n:"Jassim Al-Buhashim Al-Sayed", t:2, p:52, s:"industry", roles:[
     ["qatarrail","Board Member","board","ns"]]},
@@ -1249,6 +1261,7 @@ const PEOPLE = [
   {id:"khalid_bin_khalifa_b", n:"Khalid bin Khalifa Al-Thani", t:2, p:60, s:"energy", roles:[
     ["qelng","Chief Executive Officer","executive","ns"]]},
   {id:"sheikh_faisal_bin", n:"Sheikh Faisal bin Thani bin Faisal Al Thani", t:2, p:58, s:"gov", roles:[
+    ["qfz","Chairperson","board","v"],
     ["moci","Minister of Commerce and Industry","executive","v"]]},
   {id:"maryam_hamad_al", n:"Maryam Hamad Al-Mannai", t:2, p:58, s:"education", roles:[
     ["hbku","Vice President","executive","ns"]]},
@@ -1335,6 +1348,7 @@ const PEOPLE = [
   {id:"ahmad_helal_al_b", n:"Ahmad Helal Al-Muhannadi", t:2, p:60, s:"energy", roles:[
     ["qelng","President and Chief Executive Officer","executive","ns"]]},
   {id:"ahmed_bin_abdullah", n:"Ahmed bin Abdullah Al Jamal", t:2, p:52, s:"finance", roles:[
+    ["qfz","Board Member","board","v"],
     ["qfc","Board Member","board","v"]]},
   {id:"mohammed_hassan_al", n:"Mohammed Hassan Al Maliki", t:2, p:52, s:"finance", roles:[
     ["qfc","Board Member","board","v"]]},
@@ -1353,6 +1367,7 @@ const PEOPLE = [
   {id:"mishal_bin_mohammed", n:"Mishal bin Mohammed bin Abdullah Al Mahmoud", t:2, p:52, s:"gov", roles:[
     ["qm","Board Member","board","v"]]},
   {id:"mohammed_bin_hassan", n:"Mohammed bin Hassan Al Malki", t:2, p:52, s:"gov", roles:[
+    ["qfz","Board Member","board","v"],
     ["qm","Board Member","board","v"]]},
   {id:"mohammed_bin_abdulaziz", n:"Mohammed bin Abdulaziz bin Mohammed Al Meer", t:2, p:52, s:"gov", roles:[
     ["qm","Board Member","board","v"]]},
@@ -1366,6 +1381,14 @@ const PEOPLE = [
     ["qm","Deputy CEO, Museum Affairs","executive","v"]]},
   {id:"mona_ahmad_hussain", n:"Mona Ahmad Hussain", t:2, p:58, s:"gov", roles:[
     ["qm","Deputy CEO, Operations Affairs and Director of Legal Affairs","executive","v"]]},
+  {id:"khalid_mohammed_jolo", n:"Khalid Mohammed Jolo", t:2, p:60, s:"utilities", roles:[
+    ["nebras","Chief Executive Officer","executive","v"]]},
+  {id:"faisal_al_siddiqi", n:"Faisal Al Siddiqi", t:2, p:58, s:"utilities", roles:[
+    ["nebras","Chief Business Development Officer","executive","v"]]},
+  {id:"jamal_ali_al", n:"Jamal Ali Al-Khalaf", t:2, p:52, s:"utilities", roles:[
+    ["nebras","Board Member","board","v"]]},
+  {id:"saud_omar_almana", n:"Saud Omar Almana", t:2, p:62, s:"conglomerate", roles:[
+    ["almana","Vice Chairman","board","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1477,6 +1500,9 @@ const OWNERSHIP = [
   ["alrayan_investment","masraf","subsidiary","v"],
   ["north_oil","qatarenergy","JV between QatarEnergy (70%) and TotalEnergies (30%); operates Al Shaheen field","ns"],
   ["gulf_drilling_intl","lst_giss","wholly-owned subsidiary of (since May 2014)","ns"],
+  ["muntajat","qatarenergy","subsidiary","ns"],
+  ["qvc","lst_mphc","joint venture","v"],
+  ["qatofin","qapco","joint venture","v"],
 ];
 
 const FAMILY = [

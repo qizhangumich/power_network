@@ -1,12 +1,13 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Salalah Airport,4,oman,pending,2026-09-19,2026-09-20,"Salalah Airport handles 687,000 passengers during khareef"
-Labour Ministry,2,oman,pending,2026-09-07,2026-09-19,Labour Ministry sees rise in unions and awareness reach
+Syrian Airlines,2,,pending,2026-09-20,2026-09-21,"Syrian Airlines adds Copenhagen, Vienna flights1m read"
+Doha Investment,2,qatar,pending,2026-09-20,2026-09-21,Qatar launches Doha Investment to accelerate next phase of economic growth
 Abu Dhabi Investment,14,abudhabi,rejected,2026-09-03,2026-09-17,​ASK Automotive - Abu Dhabi Investment Portfolio: 10 stocks rally up to 107% in CY26
 British Airways,9,dubai,rejected,2026-09-15,2026-09-19,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
 Marlan Holding,7,abudhabi,added,2026-09-08,2026-09-10,Abu Dhabi's IHC to acquire 80% stake in UAE space company Marlan Holding
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
 Dangote Refinery,4,abudhabi,rejected,2026-09-05,2026-09-07,ADNOC Reportedly Eyes Dangote Refinery Stake in Global Expansion
 Hanwha Systems,4,abudhabi,rejected,2026-09-16,2026-09-17,Hanwha Systems to work with UAE’s Edge Group on integrated air defense network
+Salalah Airport,4,oman,rejected,2026-09-19,2026-09-20,"Salalah Airport handles 687,000 passengers during khareef"
 Arrive Logistics,3,abudhabi,rejected,2026-08-31,2026-09-03,Mubadala Capital takes majority stake in US freight broker Arrive Logistics
 Adani Airport Holdings,3,abudhabi,rejected,2026-09-10,2026-09-10,IHC backs Adani Airport Holdings’ $1bn fundraising round
 Explore Sustainable Energy,3,abudhabi,rejected,2026-09-17,2026-09-19,Beam Global and Masdar City Free Zone Sign MOU to Explore Sustainable Energy Infrastructure Opportunities
@@ -14,6 +15,7 @@ Centurium Capital,3,abudhabi,rejected,2026-09-10,2026-09-10,Centurium Capital Ma
 Executive Council,3,abudhabi,rejected,2026-09-08,2026-09-18,Abu Dhabi sets out next steps: AI joins Executive Council meeting for first time
 Dubai Healthcare,3,dubai,rejected,2026-09-10,2026-09-11,"Dubai Healthcare City begins work on Dh3b Creek GardensMore than 1,400 homes planned in a 127,000-square-metre community overlooking Dubai C"
 OPEC Fund,3,oman,rejected,2026-09-16,2026-09-19,OPEC Fund earmarks $40m for Oman’s Yiti Sustainable City project
+Secretary-General of Ministry,3,qatar,rejected,2026-09-08,2026-09-20,Secretary-General of Ministry of Foreign Affairs Meets Rector of Tashkent State University of Oriental Studies
 ADNOC Trading,3,abudhabi,added,2026-09-10,2026-09-15,THE TIPPING POINT: ADNOC Trading Chief Flags August as Tipping Point for Oil Prices
 Sur Industrial City,3,oman,added,2026-09-15,2026-09-15,Madayn announces four new investment opportunities in Sur Industrial City
 TAQA Water Solutions,3,abudhabi,added,2026-09-09,2026-09-09,TAQA Water Solutions appoints Dr. Shehab Ahmed Al Muharrami as CEO
@@ -30,7 +32,7 @@ Dubai Future Finance,2,dubai,rejected,2026-09-08,2026-09-08,Finance leaders conv
 JK Cement,2,northern,rejected,2026-09-03,2026-09-03,JK Cement inaugurates JK DryChem Industries at RAKEZ1m read
 US Energy,2,bahrain,rejected,2026-09-13,2026-09-15,"Iran war latest: East-West pipeline will reopen within days, US Energy Secretary says"
 European Commission,2,oman,rejected,2026-09-09,2026-09-11,European Commission presents landmark India FTA to Council for signature
-Secretary-General of Ministry,2,qatar,rejected,2026-09-08,2026-09-08,Secretary-General of Ministry of Foreign Affairs Meets Rector of Tashkent State University of Oriental Studies
+Labour Ministry,2,oman,added,2026-09-07,2026-09-19,Labour Ministry sees rise in unions and awareness reach
 Canada Investment,2,qatar,rejected,2026-09-16,2026-09-17,Qatar participates in Canada Investment Summit
 Shahba Bank,2,qatar,rejected,2026-09-17,2026-09-18,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Estithmar Holding,2,qatar,rejected,2026-09-12,2026-09-17,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"

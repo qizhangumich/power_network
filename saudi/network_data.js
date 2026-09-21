@@ -1857,6 +1857,8 @@ const PEOPLE = [
     ["mcit_sa","Deputy Minister for Planning and Vision Realization","executive","v"]]},
   {id:"safa_alrashed", n:"Safa AlRashed", t:2, p:58, s:"tech", roles:[
     ["mcit_sa","Acting Deputy Minister for Future Jobs and Capabilities","executive","v"]]},
+  {id:"abdullah_muhammad_nasser", n:"Abdullah Muhammad Nasser Al-Hawas", t:2, p:62, s:"tech", roles:[
+    ["lst_7201","Chairman of the Board of Directors","board","ns"]]},
 ];
 
 const OWNERSHIP = [

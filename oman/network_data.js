@@ -180,6 +180,10 @@ const INSTITUTIONS = [
   {id:"environment_auth", n:"Environment Authority", s:"gov", t:2, p:64, short:"Environment Auth"},
   {id:"zawawi", n:"Zawawi Group", s:"conglomerate", t:3, p:56, short:"Zawawi Group"},
   {id:"gutech", n:"German University of Technology in Oman", s:"education", t:3, p:52, short:"GUtech"},
+  {id:"mol", n:"Ministry of Labour", s:"gov", t:1, p:70, short:"MoL"},
+  {id:"oman_tower", n:"Oman Tower Company", s:"comm", t:2, p:58, short:"Oman Tower Co"},
+  {id:"sct", n:"Space Communication Technologies", s:"tech", t:2, p:60, short:"SCT"},
+  {id:"oman_tech_fund", n:"Oman Technology Fund", s:"finance", t:3, p:52, short:"Oman Tech Fund"},
 ];
 
 const PEOPLE = [
@@ -538,6 +542,7 @@ const PEOPLE = [
   {id:"saif_al_hosni", n:"Saif Al Hosni", t:2, p:58, s:"utilities", roles:[
     ["lst_oqgn","Chief Business Development & Commercial Officer","executive","v"]]},
   {id:"khalifa_al_makhmari", n:"Khalifa Al Makhmari", t:2, p:58, s:"utilities", roles:[
+    ["omanflour","Executive Committee Member","board","v"],
     ["lst_oqgn","Chief Operating Officer","executive","v"]]},
   {id:"haitham_al_lawati", n:"Haitham Al Lawati", t:2, p:58, s:"utilities", roles:[
     ["lst_oqgn","General Counsel","executive","v"]]},
@@ -703,6 +708,7 @@ const PEOPLE = [
   {id:"sayyid_tarik_bin", n:"Sayyid Tarik bin Shabib Al Said", t:2, p:52, s:"industry", roles:[
     ["lst_rnss","Board Member","board","v"]]},
   {id:"hamad_mohammad_al", n:"Hamad Mohammad Al Wahaibi", t:2, p:52, s:"industry", roles:[
+    ["omanflour","Vice Chairman of the Board of Directors","board","v"],
     ["lst_rnss","Board Member","board","v"]]},
   {id:"michael_brown", n:"Michael Brown", t:2, p:52, s:"industry", roles:[
     ["lst_rnss","Board Member","board","v"]]},
@@ -890,6 +896,46 @@ const PEOPLE = [
     ["nama","General Manager - People & Culture","executive","v"]]},
   {id:"abdullah_bin_ali", n:"Abdullah bin Ali Al Amri", t:2, p:62, s:"gov", roles:[
     ["environment_auth","Chairman","board","v"]]},
+  {id:"ahmed_bin_ali_b", n:"Ahmed bin Ali bin Sulaiman Al Balushi", t:2, p:62, s:"consumer_stap", roles:[
+    ["omanflour","Chairman of the Board of Directors","board","v"]]},
+  {id:"mohammad_bin_talib", n:"Mohammad bin Talib bin Hamad Al Busaidi", t:2, p:62, s:"consumer_stap", roles:[
+    ["omanflour","Chairman of the Audit Committee","board","v"]]},
+  {id:"hamood_bin_hamad", n:"Hamood bin Hamad bin Rashid Al Rashidi", t:2, p:52, s:"consumer_stap", roles:[
+    ["omanflour","Audit Committee Member","board","v"]]},
+  {id:"mohammad_bin_khamis", n:"Mohammad bin Khamis bin Khalfan Al Ghafili", t:2, p:52, s:"consumer_stap", roles:[
+    ["omanflour","Audit Committee Member","board","v"]]},
+  {id:"saleem_bin_birbakhsh", n:"Saleem bin Birbakhsh bin Shandad Al Raisi", t:2, p:52, s:"consumer_stap", roles:[
+    ["omanflour","Executive Committee Member","board","v"]]},
+  {id:"salim_abdullah_al", n:"Salim Abdullah Al Ma'mari", t:2, p:52, s:"consumer_stap", roles:[
+    ["omanflour","Temporary Member of the Board of Directors","board","ns"]]},
+  {id:"haitham_mohamed_al", n:"Haitham Mohamed Al Fannah", t:2, p:60, s:"consumer_stap", roles:[
+    ["omanflour","Chief Executive Officer","executive","ns"]]},
+  {id:"amed_bin_khamis", n:"Amed bin Khamis Al Araimi", t:2, p:58, s:"health", roles:[
+    ["royalhosp","Director-General","executive","ns"]]},
+  {id:"anil_khimji", n:"Anil Khimji", t:2, p:52, s:"conglomerate", roles:[
+    ["khimji","Senior-most Director (4th generation)","board","ns"]]},
+  {id:"ajay_khimji", n:"Ajay Khimji", t:2, p:52, s:"conglomerate", roles:[
+    ["khimji","Director (4th generation)","board","ns"]]},
+  {id:"pankaj_khimji", n:"Pankaj Khimji", t:2, p:52, s:"conglomerate", roles:[
+    ["khimji","Director (5th generation)","board","ns"]]},
+  {id:"nailesh_khimji", n:"Nailesh Khimji", t:2, p:52, s:"conglomerate", roles:[
+    ["khimji","Director (5th generation)","board","ns"]]},
+  {id:"hritik_khimji", n:"Hritik Khimji", t:2, p:52, s:"conglomerate", roles:[
+    ["khimji","Director (5th generation)","board","ns"]]},
+  {id:"kanan_khimji", n:"Kanan Khimji", t:2, p:52, s:"conglomerate", roles:[
+    ["khimji","Director (5th generation, Consumer Products Cluster)","board","ns"]]},
+  {id:"saif_al_yaarubi", n:"Saif Al Yaarubi", t:2, p:62, s:"realestate", roles:[
+    ["almouj","Chairman of the Board","board","ns"]]},
+  {id:"ahmed_al_massan", n:"Ahmed Al Massan", t:2, p:60, s:"realestate", roles:[
+    ["almouj","Acting Chief Executive Officer","executive","ns"]]},
+  {id:"saleh_al_siyabi", n:"Saleh Al Siyabi", t:2, p:58, s:"realestate", roles:[
+    ["almouj","Vice President Sales","executive","ns"]]},
+  {id:"saeed_bin_hareb", n:"Saeed bin Hareb Al-Lamki", t:2, p:58, s:"health", roles:[
+    ["moh_om","Undersecretary for Health Affairs","executive","v"]]},
+  {id:"ahmed_salem_al", n:"Ahmed Salem Al-Mandhari", t:2, p:58, s:"health", roles:[
+    ["moh_om","Undersecretary for Planning and Health Regulation","executive","v"]]},
+  {id:"suleiman_bin_nasser", n:"Suleiman bin Nasser bin Khamis bin Nasser Al-Hajji", t:2, p:58, s:"health", roles:[
+    ["moh_om","Undersecretary for Administrative and Financial Affairs","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1030,6 +1076,10 @@ const OWNERSHIP = [
   ["lst_omif","oia","50% joint-venture stake (via OQ)","v"],
   ["madayn","opaz","affiliated under (transferred from MoCIIP in 2022)","ns"],
   ["sur_industrial_city","madayn","industrial zone operated by","ns"],
+  ["mol","com_om","cabinet ministry","ns"],
+  ["oman_tower","ithca","subsidiary","v"],
+  ["sct","ithca","subsidiary","v"],
+  ["oman_tech_fund","ithca","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -1042,6 +1092,7 @@ const AKA = {
   haitham:["Sultan Haitham"],
   badr_fm:["Badr Albusaidi","Badr al-Busaidi"],
   oia:["Oman Investment Authority"],
+  oman_airports:["Salalah Airport"],
   oq:["OQ"],
   pdo:["Petroleum Development Oman"],
   alhadhrami_pdo:["Aflah Al Hadhrami"],
@@ -1063,4 +1114,8 @@ const AKA = {
   al_bashayer_meat:["Al Bashayer Red Meat"],
   madayn:["PEIE","Public Establishment for Industrial Estates"],
   environment_auth:["Ministry of Environment and Climate Affairs"],
+  mol:["Ministry of Manpower"],
+  oman_tower:["OTC"],
+  sct:["Space Communication Technologies SPC"],
+  oman_tech_fund:["OTF"],
 };
