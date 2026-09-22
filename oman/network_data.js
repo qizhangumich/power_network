@@ -184,6 +184,13 @@ const INSTITUTIONS = [
   {id:"oman_tower", n:"Oman Tower Company", s:"comm", t:2, p:58, short:"Oman Tower Co"},
   {id:"sct", n:"Space Communication Technologies", s:"tech", t:2, p:60, short:"SCT"},
   {id:"oman_tech_fund", n:"Oman Technology Fund", s:"finance", t:3, p:52, short:"Oman Tech Fund"},
+  {id:"spf", n:"Social Protection Fund", s:"finance", t:1, p:72, short:"SPF"},
+  {id:"majlis_a_shura", n:"Consultative Assembly (Majlis A'Shura)", s:"gov", t:1, p:68, short:"Majlis A'Shura"},
+  {id:"state_council", n:"State Council (Majlis Al Dawla)", s:"gov", t:1, p:62, short:"State Council"},
+  {id:"pacp", n:"Public Authority for Consumer Protection", s:"gov", t:2, p:56, short:"PACP"},
+  {id:"ncsi", n:"National Centre for Statistics and Information", s:"gov", t:2, p:58, short:"NCSI"},
+  {id:"caa_oman", n:"Civil Aviation Authority", s:"gov", t:2, p:60, short:"CAA Oman"},
+  {id:"moe", n:"Ministry of Education", s:"education", t:1, p:68, short:"MoE"},
 ];
 
 const PEOPLE = [
@@ -385,6 +392,7 @@ const PEOPLE = [
   {id:"azzan_al_abdullatif", n:"Azzan Al Abdullatif", t:2, p:58, s:"energy", roles:[
     ["oq","Chief Growth Officer","executive","v"]]},
   {id:"muneer_bin_ali", n:"Muneer bin Ali Al Muneeri", t:2, p:58, s:"sovereign", roles:[
+    ["nitaj","Chairman","board","ns"],
     ["oia","Deputy President for Operations","executive","v"]]},
   {id:"dr_saud_al", n:"Dr. Saud Al Habsi", t:2, p:52, s:"sovereign", roles:[
     ["oia","Board Member (Minister of Agriculture Fisheries & Water Resources)","board","v"]]},
@@ -936,6 +944,22 @@ const PEOPLE = [
     ["moh_om","Undersecretary for Planning and Health Regulation","executive","v"]]},
   {id:"suleiman_bin_nasser", n:"Suleiman bin Nasser bin Khamis bin Nasser Al-Hajji", t:2, p:58, s:"health", roles:[
     ["moh_om","Undersecretary for Administrative and Financial Affairs","executive","v"]]},
+  {id:"mahmood_al_aweini", n:"Mahmood Al Aweini", t:2, p:58, s:"gov", roles:[
+    ["mof_om","Secretary-General","executive","ns"]]},
+  {id:"firas_al_abduwani", n:"Firas Al-Abduwani", t:2, p:58, s:"energy", roles:[
+    ["moem_om","Director General of Renewable Energy and Hydrogen","executive","ns"]]},
+  {id:"ali_bin_salim", n:"Ali bin Salim Al Rajhi", t:2, p:58, s:"energy", roles:[
+    ["moem_om","Director General of Planning","executive","ns"]]},
+  {id:"saeed_al_muharrami", n:"Saeed Al Muharrami", t:2, p:52, s:"finance", roles:[
+    ["cbo","Member of the Board of Directors","board","ns"]]},
+  {id:"khalfan_al_barwani", n:"Khalfan Al Barwani", t:2, p:52, s:"finance", roles:[
+    ["cbo","Member of the Board of Directors","board","ns"]]},
+  {id:"jameel_al_shaqsi", n:"Jameel Al Shaqsi", t:2, p:52, s:"finance", roles:[
+    ["cbo","Member of the Board of Directors","board","ns"]]},
+  {id:"khalid_bin_hilal", n:"Khalid bin Hilal Al Busaidi", t:2, p:58, s:"gov", roles:[
+    ["moin_om","Undersecretary of the Ministry of Interior","executive","ns"]]},
+  {id:"abdullah_bin_mohammed", n:"Abdullah bin Mohammed Al Rashdi", t:2, p:60, s:"consumer_stap", roles:[
+    ["nitaj","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1080,6 +1104,7 @@ const OWNERSHIP = [
   ["oman_tower","ithca","subsidiary","v"],
   ["sct","ithca","subsidiary","v"],
   ["oman_tech_fund","ithca","subsidiary","v"],
+  ["caa_oman","mtcit_om","aviation regulator","ns"],
 ];
 
 const FAMILY = [
@@ -1118,4 +1143,8 @@ const AKA = {
   oman_tower:["OTC"],
   sct:["Space Communication Technologies SPC"],
   oman_tech_fund:["OTF"],
+  spf:["PASI"],
+  majlis_a_shura:["Shura Council"],
+  state_council:["Majlis Al Dawla"],
+  caa_oman:["PACA","Public Authority for Civil Aviation"],
 };

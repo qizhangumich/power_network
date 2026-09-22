@@ -196,6 +196,7 @@ const INSTITUTIONS = [
   {id:"muntajat", n:"Qatar Chemical and Petrochemical Marketing and Distribution Company", s:"materials", t:2, p:60, short:"Muntajat"},
   {id:"qvc", n:"Qatar Vinyl Company Ltd", s:"materials", t:3, p:55, short:"QVC"},
   {id:"qatofin", n:"Qatofin Company Limited", s:"materials", t:3, p:54, short:"Qatofin"},
+  {id:"doha_investment", n:"Doha Investment", s:"sovereign", t:1, p:82, short:"Doha Investment"},
 ];
 
 const PEOPLE = [
@@ -1372,6 +1373,7 @@ const PEOPLE = [
   {id:"mohammed_bin_abdulaziz", n:"Mohammed bin Abdulaziz bin Mohammed Al Meer", t:2, p:52, s:"gov", roles:[
     ["qm","Board Member","board","v"]]},
   {id:"reem_mohammed_al", n:"Reem Mohammed Al Mansoori", t:2, p:52, s:"gov", roles:[
+    ["mocit","Assistant Undersecretary for Digital Industry Affairs","executive","v"],
     ["qm","Board Member","board","v"]]},
   {id:"abdullah_ahmed_al", n:"Abdullah Ahmed Al Najjar", t:2, p:52, s:"gov", roles:[
     ["qm","Board Member","board","v"]]},
@@ -1389,6 +1391,8 @@ const PEOPLE = [
     ["nebras","Board Member","board","v"]]},
   {id:"saud_omar_almana", n:"Saud Omar Almana", t:2, p:62, s:"conglomerate", roles:[
     ["almana","Vice Chairman","board","ns"]]},
+  {id:"mashael_ali_al", n:"Mashael Ali Al Hammadi", t:2, p:58, s:"gov", roles:[
+    ["mocit","Assistant Undersecretary for Digital Government Affairs","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1503,6 +1507,7 @@ const OWNERSHIP = [
   ["muntajat","qatarenergy","subsidiary","ns"],
   ["qvc","lst_mphc","joint venture","v"],
   ["qatofin","qapco","joint venture","v"],
+  ["doha_investment","qia","domestic investment subsidiary of QIA","v"],
 ];
 
 const FAMILY = [

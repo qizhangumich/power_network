@@ -1478,6 +1478,26 @@ const PEOPLE = [
     ["rta","Member Board of Executive Directors","board","v"]]},
   {id:"selin_s_zer", n:"Selin Süzer", t:2, p:58, s:"consumer_disc", roles:[
     ["lst_talabat","Chief Marketing Officer","executive","ns"]]},
+  {id:"majid_saqr_abdullah", n:"Majid Saqr Abdullah Al Marri", t:2, p:58, s:"gov", roles:[
+    ["dld","CEO, Real Estate Registration Sector","executive","v"]]},
+  {id:"majida_ali_rashid", n:"Majida Ali Rashid", t:2, p:58, s:"gov", roles:[
+    ["dld","CEO, Real Estate Development Sector","executive","v"]]},
+  {id:"abdullah_ahmed_mohammed", n:"Abdullah Ahmed Mohammed Saleh Al Shehi", t:2, p:60, s:"gov", roles:[
+    ["dld","Chief Executive Officer, Real Estate Regulatory Agency (RERA)","executive","ns"]]},
+  {id:"hind_obaid_al", n:"Hind Obaid Al Marri", t:2, p:60, s:"gov", roles:[
+    ["dld","Chief Executive Officer, Dubai Real Estate Institute","executive","ns"]]},
+  {id:"mahmoud_alburai", n:"Mahmoud AlBurai", t:2, p:58, s:"gov", roles:[
+    ["dld","Director, Real Estate Policies & Innovation","executive","ns"]]},
+  {id:"hamdan_bin_rashid", n:"Hamdan bin Rashid Al Maktoum", t:2, p:52, s:"health", roles:[
+    ["dha","President","board","v"]]},
+  {id:"humaid_mohammed_obaid", n:"Humaid Mohammed Obaid Al Qatami", t:2, p:62, s:"health", roles:[
+    ["dha","Chairman of the Board","board","v"]]},
+  {id:"asma_abdullah_saad", n:"Asma Abdullah Saad Al Sherif", t:2, p:58, s:"health", roles:[
+    ["dha","CEO, Health Regulatory Sector","executive","ns"]]},
+  {id:"majid_sultan_al", n:"Majid Sultan Al Muhairi", t:2, p:58, s:"health", roles:[
+    ["dha","CEO, Digital Health Sector","executive","ns"]]},
+  {id:"mona_mohammad_bajman_b", n:"Mona Mohammad Bajman Almarzooqi", t:2, p:58, s:"health", roles:[
+    ["dha","CEO, Corporate Support Sector","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

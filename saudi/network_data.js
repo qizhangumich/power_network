@@ -1859,6 +1859,20 @@ const PEOPLE = [
     ["mcit_sa","Acting Deputy Minister for Future Jobs and Capabilities","executive","v"]]},
   {id:"abdullah_muhammad_nasser", n:"Abdullah Muhammad Nasser Al-Hawas", t:2, p:62, s:"tech", roles:[
     ["lst_7201","Chairman of the Board of Directors","board","ns"]]},
+  {id:"abdulaziz_bin_hamad", n:"Abdulaziz bin Hamad Al-Rumaih", t:2, p:58, s:"health", roles:[
+    ["moh_sa","Vice Minister of Health for Planning and Development","executive","v"]]},
+  {id:"abdullah_assiri", n:"Abdullah Assiri", t:2, p:58, s:"health", roles:[
+    ["moh_sa","Deputy Minister for Population Health","executive","v"]]},
+  {id:"yazeed_bin_abdullah", n:"Yazeed bin Abdullah Al-Atibi", t:2, p:58, s:"health", roles:[
+    ["moh_sa","Deputy Minister for eHealth and Digital Transformation","executive","v"]]},
+  {id:"reem_saleh_alghanim", n:"Reem Saleh Alghanim", t:2, p:58, s:"health", roles:[
+    ["moh_sa","Deputy Minister for Human Resources Development","executive","v"]]},
+  {id:"khalid_bin_adnan", n:"Khalid bin Adnan AlBurikan", t:2, p:58, s:"health", roles:[
+    ["moh_sa","Deputy Minister of Health for Investment","executive","v"]]},
+  {id:"khaled_ibrahim_alabdulkareem", n:"Khaled Ibrahim AlAbdulkareem", t:2, p:58, s:"health", roles:[
+    ["moh_sa","Deputy Minister for Planning and Transformation","executive","v"]]},
+  {id:"mohammed_abdullatef_yousef", n:"Mohammed Abdullatef Yousef Alhuzami", t:2, p:58, s:"health", roles:[
+    ["moh_sa","Deputy Minister for Finance & Administrative Affairs (CFO)","executive","v"]]},
 ];
 
 const OWNERSHIP = [

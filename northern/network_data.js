@@ -95,6 +95,11 @@ const INSTITUTIONS = [
   {id:"sharjah_broadcasting", n:"Sharjah Broadcasting Authority", s:"comm", t:2, p:58, short:"Sharjah Broadcasting"},
   {id:"ajman_municipality", n:"Ajman Municipality and Planning Department", s:"gov", t:2, p:54, short:"Ajman Municipality"},
   {id:"uaq_municipality", n:"Umm Al Quwain Municipality", s:"gov", t:2, p:52, short:"UAQ Municipality"},
+  {id:"epaa", n:"Environment and Protected Areas Authority (Sharjah)", s:"gov", t:2, p:60, short:"EPAA"},
+  {id:"fnrc", n:"Fujairah Natural Resources Corporation", s:"energy", t:2, p:60, short:"FNRC"},
+  {id:"amcfz", n:"Ajman Media City Free Zone", s:"comm", t:3, p:52, short:"AMCFZ"},
+  {id:"sharjah_courts", n:"Sharjah Judicial Department", s:"gov", t:2, p:58, short:"Sharjah Courts"},
+  {id:"rak_courts", n:"Ras Al Khaimah Judicial Department", s:"gov", t:2, p:54, short:"RAK Courts"},
 ];
 
 const PEOPLE = [
@@ -738,6 +743,25 @@ const PEOPLE = [
     ["ajman_chamber","Board Member","board","v"]]},
   {id:"salem_al_suwaidi", n:"Salem Al Suwaidi", t:2, p:58, s:"gov", roles:[
     ["ajman_chamber","Director General","executive","v"]]},
+  {id:"marwan_bin_jassim", n:"Marwan bin Jassim Al Sarkal", t:2, p:62, s:"sovereign", roles:[
+    ["shurooq","Executive Chairman","board","ns"]]},
+  {id:"yousif_ahmed_almutawa", n:"Yousif Ahmed AlMutawa", t:2, p:58, s:"sovereign", roles:[
+    ["shurooq","Chief Real Estate Officer","executive","ns"]]},
+  {id:"al_shamsi", n:"Al Shamsi", t:2, p:58, s:"sovereign", roles:[
+    ["shurooq","Senior Director of Marketing","executive","ns"]]},
+  {id:"khawla_al_hashimi", n:"Khawla Al Hashimi", t:2, p:58, s:"sovereign", roles:[
+    ["shurooq","Chief Projects Officer","executive","ns"]]},
+  {id:"ali_saeed_al", n:"Ali Saeed Al Jarwan", t:2, p:58, s:"gov", roles:[
+    ["hfza","Deputy Commercial Director","executive","v"],
+    ["saif_zone","Deputy Commercial Director","executive","v"]]},
+  {id:"haya_al_khayal", n:"Haya Al Khayal", t:2, p:58, s:"gov", roles:[
+    ["saif_zone","Leasing Director","executive","v"]]},
+  {id:"raed_bukhatir", n:"Raed Bukhatir", t:2, p:58, s:"gov", roles:[
+    ["saif_zone","Director of Business Development","executive","v"]]},
+  {id:"majid_haremal_al", n:"Majid Haremal Al Shamsi", t:2, p:58, s:"utilities", roles:[
+    ["sewa","Executive Director of Corporate Support","executive","v"]]},
+  {id:"marwa_abdulaziz_al", n:"Marwa Abdulaziz Al Suwaidi", t:2, p:58, s:"finance", roles:[
+    ["sharjah_finance","Director of Budget and Financial Planning Department","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -787,6 +811,11 @@ const OWNERSHIP = [
   ["sharjah_broadcasting","shjgov","government authority","v"],
   ["ajman_municipality","ajmgov","government department","v"],
   ["uaq_municipality","uaqgov","government department","v"],
+  ["epaa","shjgov","government authority","ns"],
+  ["fnrc","fujgov","government authority","v"],
+  ["amcfz","ajmgov","government free zone","v"],
+  ["sharjah_courts","shjgov","judicial authority","v"],
+  ["rak_courts","rakgov","judicial authority","ns"],
 ];
 
 const FAMILY = [
@@ -853,4 +882,7 @@ const AKA = {
   rak_airport:["RKT"],
   sharjah_broadcasting:["SBA (broadcasting)"],
   ajman_municipality:["AMPD"],
+  epaa:["Sharjah"],
+  fnrc:["Fujairah Natural Resources Authority"],
+  sharjah_courts:["SJD"],
 };

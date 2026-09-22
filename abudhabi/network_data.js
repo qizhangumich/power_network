@@ -2413,6 +2413,7 @@ const PEOPLE = [
     ]},
   {id:"saood_abdulaziz_al", n:"Saood Abdulaziz Al Hosani", t:2, p:58, s:"gov", roles:[
     ["dct","Undersecretary","executive","ns"],
+    ["admo","Director General","executive","v"],
     ]},
   {id:"saleh_mohamed_saleh", n:"Saleh Mohamed Saleh Al Geziry", t:2, p:58, s:"gov", roles:[
     ["dct","Director General for Tourism","executive","ns"],
