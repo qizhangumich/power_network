@@ -1,0 +1,5 @@
+# Mubadala Capital concludes 2nd investment fund in Brazil
+source: Arab News
+url: https://news.google.com/rss/articles/CBMinwFBVV95cUxQVHRhaWNDSjRrc0wwV1BaVXVTVnFTOEVzM21Kdi1hS040cHVJcWhPQVdMOHVfZ3pNZVJwMTdFVWIxWnN1MGhFSmlJWWZwQ1V3dnh2ZU9tU3Izb3JnWS1GQ0p6TUlfVHl5a09rNVdCcFJtcFdZb1k4bEJPTWU5eHJPWDRQaTJUN2YwTDR0SWlCRmhNYTEzc0xydURsNDRXRVU?oc=5
+
+Mubadala Capital concludes 2nd investment fund in Brazil    Arab News

@@ -1,0 +1,5 @@
+# Etihad unveils its A330neos with Beyond Borders interiors
+source: Airline Ratings
+url: https://news.google.com/rss/articles/CBMinwFBVV95cUxPODVUampfS3g4U05yQkxyTG5yN0ZqSXR1UE0yeXNrNDRQY3A4d0RlSEtzV2kyajFyRHNLeWdXQ001bmdIRm4zQnhkU05RdDZMUnotclNtSGg0MkVaT0RqSVRsNE5FSnQyMFMtZEtGWEFJVEJ5ZU5CbDNRbklFNF9nN3Nndm41TGN6SDhZdnk3QWJvSUJJTkVrdnBpdjFMZmc?oc=5
+
+Etihad unveils its A330neos with Beyond Borders interiors    Airline Ratings
