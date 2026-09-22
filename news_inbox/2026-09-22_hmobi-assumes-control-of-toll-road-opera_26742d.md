@@ -1,0 +1,5 @@
+# HMOBI Assumes Control of Toll Road Operator Lamsa in R$ 229 Million Capital Increase
+source: The Globe and Mail
+url: https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRzdVR25aQWdLd2ZfLWVnaVF0UmpocllHTDFRa2VxTG1aMHBRNGkxNUkxTzVNcXpVZXdtUXFEQ2syMEt4bUttREdDd2ZIRzQxSWlUMGtaWG1PQVE0aW1WSmdlTnV4U2s3MkthX2dZenJkLWo4V2h0aUsxRjdlY1dFMkNVR28xQnRfTXQ4MmEyX09xRUtxLUZIYkstTUg1d1h2YXNDVnFZSkNMMFQxTE5zNG1XU3Y0VVdtQzdlQU10aDNENE5LZktJUkNNUDdDZWdQVDNJNEM1UmNsREVlOG1GYldVb1lLZEU1M0NKS3luZVllM1YtbGU4?oc=5
+
+HMOBI Assumes Control of Toll Road Operator Lamsa in R$ 229 Million Capital Increase    The Globe and Mail
