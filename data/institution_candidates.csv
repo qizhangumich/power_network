@@ -1,10 +1,4 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Syrian Airlines,3,abudhabi,pending,2026-09-20,2026-09-21,"Syrian Airlines expands European network with direct flights to Copenhagen, Vienna"
-Qatar Investment,2,qatar,pending,2026-09-10,2026-09-21,Qatar Investment Authority Invests in Positron AI's Series C Financing
-Qatar Real Estate,2,qatar,pending,2026-09-11,2026-09-21,Qatar Real Estate Forum 2026: Focus on tokenization and global investment
-Southern Cement,2,saudi,pending,2026-09-10,2026-09-21,Southern Cement: Q2 performance overview
-Advanced Energy,2,saudi,pending,2026-09-17,2026-09-22,Advanced Energy Trading and Contracting
-Ebara Elliott Energy,2,bahrain,pending,2026-09-16,2026-09-21,Ebara Elliott Energy expands Houston turbomachinery service centre
 Abu Dhabi Investment,15,abudhabi,rejected,2026-09-03,2026-09-21,​ASK Automotive - Abu Dhabi Investment Portfolio: 10 stocks rally up to 107% in CY26
 British Airways,9,dubai,rejected,2026-09-15,2026-09-19,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
 Marlan Holding,7,abudhabi,added,2026-09-08,2026-09-10,Abu Dhabi's IHC to acquire 80% stake in UAE space company Marlan Holding
@@ -13,6 +7,7 @@ Dangote Refinery,4,abudhabi,rejected,2026-09-05,2026-09-07,ADNOC Reportedly Eyes
 Hanwha Systems,4,abudhabi,rejected,2026-09-16,2026-09-17,Hanwha Systems to work with UAE’s Edge Group on integrated air defense network
 Salalah Airport,4,oman,rejected,2026-09-19,2026-09-20,"Salalah Airport handles 687,000 passengers during khareef"
 Secretary-General of Ministry,4,qatar,rejected,2026-09-08,2026-09-21,Secretary-General of Ministry of Foreign Affairs Meets Rector of Tashkent State University of Oriental Studies
+Syrian Airlines,3,abudhabi,rejected,2026-09-20,2026-09-21,"Syrian Airlines expands European network with direct flights to Copenhagen, Vienna"
 Adani Airport Holdings,3,abudhabi,rejected,2026-09-10,2026-09-10,IHC backs Adani Airport Holdings’ $1bn fundraising round
 Explore Sustainable Energy,3,abudhabi,rejected,2026-09-17,2026-09-19,Beam Global and Masdar City Free Zone Sign MOU to Explore Sustainable Energy Infrastructure Opportunities
 Centurium Capital,3,abudhabi,rejected,2026-09-10,2026-09-10,Centurium Capital Management Ltd. and Mubadala Investment Company PJSC agreed to acquire an unknown minority stake in Luckin Coffee Inc. (OT
@@ -39,13 +34,18 @@ US Energy,2,bahrain,rejected,2026-09-13,2026-09-15,"Iran war latest: East-West p
 European Commission,2,oman,rejected,2026-09-09,2026-09-11,European Commission presents landmark India FTA to Council for signature
 Labour Ministry,2,oman,added,2026-09-07,2026-09-19,Labour Ministry sees rise in unions and awareness reach
 Canada Investment,2,qatar,rejected,2026-09-16,2026-09-17,Qatar participates in Canada Investment Summit
+Qatar Real Estate,2,qatar,rejected,2026-09-11,2026-09-21,Qatar Real Estate Forum 2026: Focus on tokenization and global investment
 Estithmar Holding,2,qatar,rejected,2026-09-12,2026-09-17,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Qatar Development,2,qatar,rejected,2026-09-07,2026-09-08,"Quick update on the top stories... Qatar Development Bank named ""Development Partner"" for QMED 2026. HMC to hold Alzheimer's awareness event"
 US Department,2,qatar,rejected,2026-09-08,2026-09-18,US Department of the Treasury announces new Iran sanctions
+Advanced Energy,2,saudi,rejected,2026-09-17,2026-09-22,Advanced Energy Trading and Contracting
 Dell Technologies,2,saudi,rejected,2026-09-05,2026-09-07,"Dell Technologies, Armada to accelerate mobile and Edge Data Infrastructure in KSA"
+Ebara Elliott Energy,2,bahrain,rejected,2026-09-16,2026-09-21,Ebara Elliott Energy expands Houston turbomachinery service centre
 Skytrax World Airport,2,bahrain,rejected,2026-09-16,2026-09-16,BIA wins three prestigious Skytrax World Airport Awards
 Boring Company,2,dubai,rejected,2026-09-10,2026-09-11,"Musk’s Boring Company raises $3bln in UAE-led round, valuing startup at $23bln"
 Saudi Investment,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
+Qatar Investment,2,qatar,rejected,2026-09-10,2026-09-21,Qatar Investment Authority Invests in Positron AI's Series C Financing
+Southern Cement,2,saudi,rejected,2026-09-10,2026-09-21,Southern Cement: Q2 performance overview
 Dubai Parks and Resorts,2,dubai,rejected,2026-09-18,2026-09-18,Dubai Parks and Resorts theme parks to reopen after six-month closure
 Justice Ministry,2,qatar,rejected,2026-09-15,2026-09-18,Justice Ministry welcomes Qatar's accession to Hague Conference on Private International Law
 World Liberty Financial,2,abudhabi,rejected,2026-08-28,2026-08-28,Is Abu Dhabi’s Sheikh Tahnoon Taking a 49% Stake in Donald Trump’s World Liberty Financial?

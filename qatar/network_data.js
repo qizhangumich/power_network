@@ -656,7 +656,7 @@ const PEOPLE = [
   {id:"hammad_ahmad_usmani", n:"Hammad Ahmad Usmani", t:2, p:58, s:"industry", roles:[
     ["milaha","Acting Chief Internal Auditor","executive","v"]]},
   {id:"h_e_sheikh_b_b_b_b_b", n:"H.E. Sheikh Ahmed bin Khalid bin Ahmed bin Sultan Al-Thani", t:2, p:58, s:"finance", roles:[
-    ["qcb","Deputy Governor","executive","ns"]]},
+    ["qcb","Deputy Governor","executive","v"]]},
   {id:"sheikh_mohammed_bin", n:"Sheikh Mohammed Bin Faisal Al Thani", t:2, p:62, s:"conglomerate", roles:[
     ["alfaisal","Vice Chairman of the Board","board","ns"],
     ["aamal","Vice Chairman and Managing Director","board","v"]]},
@@ -1539,7 +1539,7 @@ const AKA = {
   alkaabi:["Saad Al-Kaabi","Saad Al Kaabi","Al-Kaabi"],
   khelaifi:["Nasser Al-Khelaifi","Al-Khelaifi","Nasser Al Khelaifi"],
   alkuwari_fin:["Ali Al Kuwari","Ali Al-Kuwari"],
-  qia:["Qatar Investment Authority"],
+  qia:["Qatar Investment Authority","Qatar Investment"],
   qatarenergy:["Qatar Energy","Qatar Petroleum"],
   qnb:["Qatar National Bank"],
   qf:["Qatar Foundation","Education City"],

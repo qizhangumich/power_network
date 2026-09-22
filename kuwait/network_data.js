@@ -111,7 +111,7 @@ const INSTITUTIONS = [
   {id:"lst_rasiyat", n:"Rasiyat Holding Company K.P.S.C.", s:"finance", t:2, p:50, short:"RASIYAT"},
   {id:"lst_alimtiaz", n:"Al Imtiaz Group Holding Company K.S.C.P", s:"finance", t:2, p:50, short:"ALIMTIAZ"},
   {id:"lst_kins", n:"Kuwait Insurance Co S.A.K", s:"finance", t:2, p:50, short:"KINS"},
-  {id:"lst_gins", n:"Gulf Insurance Group", s:"finance", t:2, p:50, short:"Gulf Insurance Group"},
+  {id:"lst_gins", n:"Gulf Insurance Group", s:"finance", t:2, p:62, short:"Gulf Insurance Group"},
   {id:"lst_ains", n:"Al Ahleia Insurance Co S.A.K.P.", s:"finance", t:2, p:50, short:"AINS"},
   {id:"lst_winsre", n:"Warba Insurance and Reinsurance Company K.S.C.P", s:"finance", t:2, p:50, short:"WINSRE"},
   {id:"lst_kuwaitre", n:"Kuwait Reinsurance Co K.S.P.C", s:"finance", t:2, p:50, short:"KUWAITRE"},
@@ -236,7 +236,7 @@ const PEOPLE = [
   {id:"haroon", n:"Basel Al-Haroon", t:1, p:74, s:"finance", roles:[
     ["cbk","Governor & Chairman of the Board","executive","v"]]},
   {id:"ghenaiman", n:"Ghanem Al-Ghenaiman", t:1, p:78, s:"sovereign", roles:[
-    ["kia","Managing Director (2021–Jan 2025)","executive","ns","former:until Jan 2025"]],
+    ["kia","Managing Director (2021–Jan 2025)","executive","v","former:until Jan 2025"]],
     note:"Stepped down as KIA Managing Director Jan 2025 in a smooth handover to Sheikh Saoud Salem Al-Sabah; died Apr 2025.",
     note:"KIA is the world's oldest sovereign fund — and one of its most secretive."},
   {id:"nawaf_kpc", n:"Sheikh Nawaf Al-Saud Al-Sabah", t:1, p:82, s:"energy", roles:[
@@ -1274,6 +1274,10 @@ const PEOPLE = [
     ["moci_kw","Acting Minister of Commerce & Industry","executive","ns"]]},
   {id:"marwa_badah_musallam", n:"Marwa Badah Musallam Al-Juaidan", t:2, p:58, s:"gov", roles:[
     ["moci_kw","Assistant Undersecretary","executive","ns"]]},
+  {id:"farqad_abdullah_al", n:"Farqad Abdullah Al Sane", t:2, p:62, s:"finance", roles:[
+    ["lst_gins","Group Chairman","board","v"]]},
+  {id:"khaled_saoud_al", n:"Khaled Saoud Al Hasan", t:2, p:60, s:"finance", roles:[
+    ["lst_gins","Group Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

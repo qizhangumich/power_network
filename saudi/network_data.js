@@ -242,7 +242,7 @@ const INSTITUTIONS = [
   {id:"lst_1050", n:"Banque Saudi Fransi", s:"finance", t:2, p:64, short:"Banque Saudi Fransi"},
   {id:"lst_1080", n:"Arab National Bank", s:"finance", t:2, p:60, short:"Arab National Bank"},
   {id:"lst_1140", n:"Bank Albilad", s:"finance", t:2, p:58, short:"Bank Albilad"},
-  {id:"lst_1150", n:"Alinma Bank", s:"finance", t:2, p:50, short:"Alinma Bank"},
+  {id:"lst_1150", n:"Alinma Bank", s:"finance", t:2, p:69, short:"Alinma Bank"},
   {id:"lst_1182", n:"Amlak International Finance Co.", s:"finance", t:2, p:50, short:"1182"},
   {id:"lst_1183", n:"SHL Finance Co.", s:"finance", t:2, p:50, short:"SHL Finance Co."},
   {id:"lst_2120", n:"Saudi Investment Recycling Co. (SAIC)", s:"finance", t:2, p:50, short:"2120"},
@@ -265,7 +265,7 @@ const INSTITUTIONS = [
   {id:"lst_8170", n:"Al Etihad Cooperative Insurance Co.", s:"finance", t:2, p:50, short:"8170"},
   {id:"lst_8190", n:"United Cooperative Assurance Co. (UCA)", s:"finance", t:2, p:50, short:"8190"},
   {id:"lst_8200", n:"Saudi Reinsurance Co. (Saudi Re)", s:"finance", t:2, p:50, short:"8200"},
-  {id:"lst_8210", n:"Bupa Arabia for Cooperative Insurance Co.", s:"finance", t:2, p:50, short:"8210"},
+  {id:"lst_8210", n:"Bupa Arabia for Cooperative Insurance Co.", s:"finance", t:2, p:62, short:"Bupa Arabia"},
   {id:"lst_8240", n:"Chubb Arabia Cooperative Insurance Co.", s:"finance", t:2, p:50, short:"8240"},
   {id:"lst_8260", n:"Gulf General Cooperative Insurance Co.", s:"finance", t:2, p:50, short:"8260"},
   {id:"lst_8280", n:"LIVA Insurance (Saudi Enaya/AXA Cooperative)", s:"finance", t:2, p:50, short:"8280"},
@@ -539,7 +539,7 @@ const PEOPLE = [
     ["gea","Chairman","government","v"]],
     note:"Entertainment, boxing and events czar; one of the most visible operators of the MBS era."},
   {id:"alghamdi_sdaia", n:"Abdullah Al-Ghamdi", t:2, p:70, s:"tech", roles:[
-    ["sdaia","President","government","ns"]]},
+    ["sdaia","President","government","v"]]},
   {id:"fageeh", n:"Abdulrahman Al-Fageeh", t:2, p:72, s:"materials", roles:[
     ["sabic","CEO (until Apr 2026)","executive","v","former:until Apr 2026"]],
     note:"Retired; succeeded by Faisal Al-Faqeer."},
@@ -572,7 +572,7 @@ const PEOPLE = [
   {id:"alsadhan", n:"Tareq Al-Sadhan", t:2, p:72, s:"finance", roles:[
     ["snb","Group CEO","executive","v"]]},
   {id:"saeed_alghamdi", n:"Saeed Al-Ghamdi", t:2, p:72, s:"finance", roles:[
-    ["snb","Chairman","board","ns"]]},
+    ["snb","Chairman","board","v"]]},
   {id:"almogbel", n:"Waleed Al-Mogbel", t:2, p:72, s:"finance", roles:[
     ["alrajhi","CEO & Managing Director","executive","v"]]},
   {id:"alghonon", n:"Khalid Al-Ghonon", t:2, p:66, s:"utilities", roles:[
@@ -1873,6 +1873,14 @@ const PEOPLE = [
     ["moh_sa","Deputy Minister for Planning and Transformation","executive","v"]]},
   {id:"mohammed_abdullatef_yousef", n:"Mohammed Abdullatef Yousef Alhuzami", t:2, p:58, s:"health", roles:[
     ["moh_sa","Deputy Minister for Finance & Administrative Affairs (CFO)","executive","v"]]},
+  {id:"abdulmalik_abdullah_al", n:"Abdulmalik Abdullah Al-Hogail", t:2, p:62, s:"finance", roles:[
+    ["lst_1150","Chairman of the Board","board","v"]]},
+  {id:"abdullah_ali_alkhalifa", n:"Abdullah Ali AlKhalifa", t:2, p:60, s:"finance", roles:[
+    ["lst_1150","Managing Director and Chief Executive Officer","executive","v"]]},
+  {id:"loay_hisham_nazer", n:"Loay Hisham Nazer", t:2, p:62, s:"finance", roles:[
+    ["lst_8210","Chairman","board","ns"]]},
+  {id:"tal_hisham_nazer", n:"Tal Hisham Nazer", t:2, p:60, s:"finance", roles:[
+    ["lst_8210","Managing Director","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2235,6 +2243,7 @@ const FAMILY = [
 
 const AKA = {
   lst_2290:["2290","YANSAB"],
+  lst_3050:["Southern Cement"],
   lst_4017:["Dr. Soliman Fakeeh Care Co.","Dr. Soliman Fakeeh Hospital","DSFH"],
   lst_4310:["Knowledge Economic City Company"],
   moenergy:["Saudi Energy","Ministry of Energy"],
