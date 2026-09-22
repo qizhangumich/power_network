@@ -1,0 +1,5 @@
+# Etihad Rail Links Fujairah to Abu Dhabi Industrial City
+source: ceoinsightsasia.com
+url: https://news.google.com/rss/articles/CBMirAFBVV95cUxPRGktcjNWVl9PTjFySk5VTktfNFYwXzEwSXpfMmlDUkt5VHVGNXVNUjdKNTVZMHEtaGRrTElJOGlTbkFGYVdrQ3BPZ21uUjlTR3JPVUJOLVU0S1hEYnREVXBjaEFZV0pjd1d1NDJwMU1uSlR2QWU0VC1tOGR0cTk5YU8tWTk2cFYwVjE2dmNQbjN6MVYtZ3p3eUFXY0JRM3dFWGMydlhnSTdHVTZG?oc=5
+
+Etihad Rail Links Fujairah to Abu Dhabi Industrial City    ceoinsightsasia.com

@@ -1,0 +1,5 @@
+# UAE flights: Emirates and Etihad cancellations after US planes grounded due to outage
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOHF5ODdVcjhxc01nUUFvRm5zcVVGTnZyc1Z0OWc4dUJFOTNHbktDOEF5ZndBdXA0Vy1oOU1XRmkyeDlOR3o0dURWNjN2UXVMaHBlb2oza0VJQThoS0pFeFA0UkZsWDhZWmJhc2hJN0tWbVhVc3hwYnpmU0t5X1RCZ3RyX0dEZ2F2OEhYWklyak5zbkRqU0hOSG5mN3UzejhxTE9rX3BXV2NaNFpxVGVXVDdoY0R4MEFOSVZDMmw4UkRZcWZCYjVlY3o2dzJBMk5D?oc=5
+
+UAE flights: Emirates and Etihad cancellations after US planes grounded due to outage    Arabian Business

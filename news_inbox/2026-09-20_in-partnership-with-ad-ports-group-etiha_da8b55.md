@@ -1,0 +1,5 @@
+# In partnership with AD Ports Group, Etihad Rail launches integrated rail service connecting Fujairah Terminals with Industrial City of Abu Dhabi (ICAD)
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMioAJBVV95cUxQeFRqdzd6VFBlXzY3MTZwNUtHNzBHeVczLTRCV0d0cTVycjlIV3pWbTBPT2laMzZpYzJwQTh5MG5teGxnd3kyekVyMVBscllNYW9FaGF0S1pLRXMxcjVHYXNQaE5teXpGVnBzS1dkYV9jRGlmM0s0MTdOako1aG1SX3JvekhDWDUtb2MzRENKclUwUXJGNy1tOUVBc1lyTXVPcVlOUDFteV9GZVNFZjhJRjdaWElSWXlkdGs5VUdOSzY0cnYyTlZjODVHYzhLWFNtMUJZYlR0ZFNzb0NLZDI5YUNEUkFqR2hqLTJ3Y1Vaem9DS2tOLVR1cjRFTDZpMEdtVFNvRG5QdzJGdWgydDNfUFQtNlozS3pOMlE5X0xQVGs?oc=5
+
+In partnership with AD Ports Group, Etihad Rail launches integrated rail service connecting Fujairah Terminals with Industrial City of Abu Dhabi (ICAD)    مكتب أبوظبي الإعلامي

@@ -1,0 +1,5 @@
+# Etihad signs cooperation agreement with Uzbekistan
+source: TTGmice
+url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQVm0wRmNMLTRtMTlXTzNtMmNFTG1vOVBKX3dyMW1QU1pPVS11bHFxQm92Q0I0QXFQbEF2bVk5VHltZ3E1U2JHQjNmekVJdUFiaUJFWENKTXY4ZWo0TzAyLVlJWng2TGZlU2RxZjYtRHdFc1o1TUtNdjRlSHJiSHVZcUVNOUd1UFFuOVBpX0V2TQ?oc=5
+
+Etihad signs cooperation agreement with Uzbekistan    TTGmice

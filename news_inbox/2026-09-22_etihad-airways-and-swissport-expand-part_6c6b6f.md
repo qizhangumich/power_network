@@ -1,0 +1,5 @@
+# Etihad Airways and Swissport expand partnership
+source: Freightweek
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUEtmRjZ1TUFVR0VHV3Z6YjJDeVVNbmxzeXRCUnM2U0hTZ0ZRRno2VURDNEl3STFWMm5RaUlfdUpWakFDdjlQajRmblZvYm11d24wcENFWVgxeWR2dFFmZk8tbzdBelNPMEtJN3NUYVhKU0NPb182YTdKdHE2ekJhM01zT0Q0Nm5XVzNfek8zVU9taHR6Z2VzQ2FsVTF1aW9TakZKWmhiZzVrUQ?oc=5
+
+Etihad Airways and Swissport expand partnership    Freightweek
