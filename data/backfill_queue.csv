@@ -132,6 +132,7 @@ northern,university_of_sharjah,University of Sharjah,education,62,0,pending
 oman,tra_oman,Telecommunications Regulatory Authority,gov,62,0,pending
 oman,apsr_oman,Authority for Public Services Regulation,gov,62,0,pending
 oman,state_council,State Council (Majlis Al Dawla),gov,62,0,pending
+oman,squ,Sultan Qaboos University,education,62,0,pending
 qatar,qatalum,Qatar Aluminium (Qatalum),materials,62,1,pending
 qatar,qta,Qatar Tourism,gov,62,0,pending
 qatar,alfardan,Alfardan Group,conglomerate,62,1,pending
@@ -212,6 +213,7 @@ qatar,qfma,Qatar Financial Markets Authority,gov,60,0,pending
 qatar,al_sagri,Hamad Al Sagri Holding Company,conglomerate,60,0,pending
 qatar,ncsa_qatar,National Cyber Security Agency,tech,60,0,pending
 qatar,muntajat,Qatar Chemical and Petrochemical Marketing and Distribution Company,materials,60,0,pending
+qatar,udst,University of Doha for Science and Technology,education,60,0,pending
 saudi,alfaisaliah,Al Faisaliah Group,conglomerate,60,0,pending
 saudi,lst_1080,Arab National Bank,finance,60,0,pending
 saudi,kafd,King Abdullah Financial District,realestate,60,0,pending

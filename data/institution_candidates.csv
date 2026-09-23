@@ -1,14 +1,5 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Industrial City,2,northern,pending,2026-09-20,2026-09-20,"In partnership with AD Ports Group, Etihad Rail launches integrated rail service connecting Fujairah Terminals with Industrial City of Abu D"
-Abu Dhabi Industrial City,2,northern,pending,2026-09-20,2026-09-20,Etihad Rail Links Fujairah to Abu Dhabi Industrial City
-Sultan Qaboos University,2,oman,pending,2026-09-03,2026-09-22,Sultan Qaboos University study identifies key reasons for delayed child abuse reporting
-QFBA Finance,2,qatar,pending,2026-09-22,2026-09-22,Ahlibank announces platinum sponsorship of QFBA Finance Researcher Award 2026
-University of Doha for Science and Technology,2,qatar,pending,2026-09-04,2026-09-22,"University of Doha for Science and Technology and Alfardan Exchange, launch “FinTech Stars” competition to support innovation and entreprene"
-Saudi Construction,2,saudi,pending,2026-09-07,2026-09-22,Saudi Construction Index rises to 55.4 points in August
-Umm Al Qura for Development,2,saudi,pending,2026-09-06,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
-Al Qura for Development and Construction,2,saudi,pending,2026-09-06,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
-Saudi Media Company,2,saudi,pending,2026-09-05,2026-09-22,Saudi Media Academy concludes Strategic Leadership programme in London
-GCC Capital,2,,pending,2026-09-11,2026-09-22,VIDEO: Testimonials from Zawya’s GCC Capital Markets Forum
+Doha for Science and Technology,2,qatar,pending,2026-09-04,2026-09-22,"University of Doha for Science and Technology and Alfardan Exchange, launch “FinTech Stars” competition to support innovation and entreprene"
 Abu Dhabi Investment,19,abudhabi,rejected,2026-09-03,2026-09-22,​ASK Automotive - Abu Dhabi Investment Portfolio: 10 stocks rally up to 107% in CY26
 British Airways,9,dubai,rejected,2026-09-15,2026-09-19,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
 Marlan Holding,7,abudhabi,added,2026-09-08,2026-09-10,Abu Dhabi's IHC to acquire 80% stake in UAE space company Marlan Holding
@@ -36,23 +27,33 @@ American Airlines,2,abudhabi,rejected,2026-09-03,2026-09-15,American Airlines is
 Infinity Power,2,abudhabi,rejected,2026-09-02,2026-09-03,Ras Shokeir Wind Project: Infinity Power and Hassan Allam Sign PPA for 1 GW Farm in Egypt
 Adani Group,2,abudhabi,rejected,2026-09-09,2026-09-10,"Odisha CM Majhi holds talks with IHC, Adani Group on 14 state projects worth Rs 2.10 lakh crore"
 Balkan Green Energy,2,abudhabi,rejected,2026-09-14,2026-09-15,"Masdar, Taaleri create largest Western Balkans wind hub with Čibuk 2 launch"
+Industrial City,2,northern,rejected,2026-09-20,2026-09-20,"In partnership with AD Ports Group, Etihad Rail launches integrated rail service connecting Fujairah Terminals with Industrial City of Abu D"
+Abu Dhabi Industrial City,2,northern,rejected,2026-09-20,2026-09-20,Etihad Rail Links Fujairah to Abu Dhabi Industrial City
 Al Seer Marine,2,abudhabi,added,2026-09-16,2026-09-16,Abu Dhabi's L'imad buys AD Ports stake from Al Seer Marine for $632mln
 Dubai Future Finance,2,dubai,rejected,2026-09-08,2026-09-08,Finance leaders convene at Dubai Future Finance Week4m read
 JK Cement,2,northern,rejected,2026-09-03,2026-09-03,JK Cement inaugurates JK DryChem Industries at RAKEZ1m read
 US Energy,2,bahrain,rejected,2026-09-13,2026-09-15,"Iran war latest: East-West pipeline will reopen within days, US Energy Secretary says"
 European Commission,2,oman,rejected,2026-09-09,2026-09-11,European Commission presents landmark India FTA to Council for signature
 Labour Ministry,2,oman,added,2026-09-07,2026-09-19,Labour Ministry sees rise in unions and awareness reach
+QFBA Finance,2,qatar,rejected,2026-09-22,2026-09-22,Ahlibank announces platinum sponsorship of QFBA Finance Researcher Award 2026
 Canada Investment,2,qatar,rejected,2026-09-16,2026-09-17,Qatar participates in Canada Investment Summit
 Qatar Real Estate,2,qatar,rejected,2026-09-11,2026-09-21,Qatar Real Estate Forum 2026: Focus on tokenization and global investment
 Estithmar Holding,2,qatar,rejected,2026-09-12,2026-09-17,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Qatar Development,2,qatar,rejected,2026-09-07,2026-09-08,"Quick update on the top stories... Qatar Development Bank named ""Development Partner"" for QMED 2026. HMC to hold Alzheimer's awareness event"
 US Department,2,qatar,rejected,2026-09-08,2026-09-18,US Department of the Treasury announces new Iran sanctions
+Saudi Construction,2,saudi,rejected,2026-09-07,2026-09-22,Saudi Construction Index rises to 55.4 points in August
+Umm Al Qura for Development,2,saudi,rejected,2026-09-06,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
+Al Qura for Development and Construction,2,saudi,rejected,2026-09-06,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
 Advanced Energy,2,saudi,rejected,2026-09-17,2026-09-22,Advanced Energy Trading and Contracting
 Dell Technologies,2,saudi,rejected,2026-09-05,2026-09-07,"Dell Technologies, Armada to accelerate mobile and Edge Data Infrastructure in KSA"
+Saudi Media Company,2,saudi,rejected,2026-09-05,2026-09-22,Saudi Media Academy concludes Strategic Leadership programme in London
 Ebara Elliott Energy,2,bahrain,rejected,2026-09-16,2026-09-21,Ebara Elliott Energy expands Houston turbomachinery service centre
 Skytrax World Airport,2,bahrain,rejected,2026-09-16,2026-09-16,BIA wins three prestigious Skytrax World Airport Awards
 Boring Company,2,dubai,rejected,2026-09-10,2026-09-11,"Musk’s Boring Company raises $3bln in UAE-led round, valuing startup at $23bln"
 Saudi Investment,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
+GCC Capital,2,,rejected,2026-09-11,2026-09-22,VIDEO: Testimonials from Zawya’s GCC Capital Markets Forum
+Sultan Qaboos University,2,oman,added,2026-09-03,2026-09-22,Sultan Qaboos University study identifies key reasons for delayed child abuse reporting
+University of Doha for Science and Technology,2,qatar,added,2026-09-04,2026-09-22,"University of Doha for Science and Technology and Alfardan Exchange, launch “FinTech Stars” competition to support innovation and entreprene"
 Qatar Investment,2,qatar,rejected,2026-09-10,2026-09-21,Qatar Investment Authority Invests in Positron AI's Series C Financing
 Southern Cement,2,saudi,rejected,2026-09-10,2026-09-21,Southern Cement: Q2 performance overview
 Dubai Parks and Resorts,2,dubai,rejected,2026-09-18,2026-09-18,Dubai Parks and Resorts theme parks to reopen after six-month closure

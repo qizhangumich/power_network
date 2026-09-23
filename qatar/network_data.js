@@ -198,6 +198,7 @@ const INSTITUTIONS = [
   {id:"qatofin", n:"Qatofin Company Limited", s:"materials", t:3, p:54, short:"Qatofin"},
   {id:"doha_investment", n:"Doha Investment", s:"sovereign", t:1, p:82, short:"Doha Investment"},
   {id:"al_shamlan_hldg", n:"Marzooq Shamlan Al Shamlan Holding", s:"consumer_disc", t:3, p:54, short:"Al Shamlan Hldg"},
+  {id:"udst", n:"University of Doha for Science and Technology", s:"education", t:2, p:60, short:"UDST"},
 ];
 
 const PEOPLE = [

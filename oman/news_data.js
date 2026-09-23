@@ -102,5 +102,6 @@ window.NEWS_ITEMS = [
   {id:"2026-09-03_opaz-chairman-receives-qatari-minister-o_0d2ae8", date:"2026-09-03", title:"Opaz Chairman receives Qatari Minister of Commerce, Industry", source:"Times of Oman", url:"https://timesofoman.com/article/176438-opaz-chairman-receives-qatari-minister-of-commerce-industry", ids:["opaz"]},
   {id:"2026-09-03_port-of-duqm-receives-one-of-world-s-lar_b09a6b", date:"2026-09-03", title:"Port of Duqm receives one of world's largest Ro-Ro ships", source:"Times of Oman", url:"https://timesofoman.com/article/176430-port-of-duqm-receives-one-of-worlds-largest-ro-ro-ships", ids:["port_of_duqm"]},
   {id:"2026-09-03_sohar-international-nbo-jointly-lead-720_035097", date:"2026-09-03", title:"Sohar International, NBO jointly lead $720mn refinancing for Phoenix Power", source:"Muscat Daily", url:"https://www.muscatdaily.com/2026/09/01/sohar-international-nbo-jointly-lead-720mn-refinancing-for-phoenix-power/", ids:["sohar_bank"]},
+  {id:"2026-09-03_sultan-qaboos-university-study-identifie_0057c5", date:"2026-09-03", title:"Sultan Qaboos University study identifies key reasons for delayed child abuse reporting", source:"Times of Oman", url:"https://timesofoman.com/article/174464-sultan-qaboos-university-study-identifies-key-reasons-for-delayed-child-abuse-reporting", ids:["squ"]},
 ];
 window.SUGGESTED_EDGES = [];

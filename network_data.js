@@ -458,7 +458,7 @@ const PEOPLE = [
     ["execcouncil","Member","political","v"],
     ]},
   {id:"saif_ghobash", n:"Saif Saeed Ghobash", t:1, p:80, s:"gov", roles:[
-    ["execcouncil","Secretary-General","government","ns"],
+    ["execcouncil","Secretary-General","government","v"],
     ["limad","Board Member","board","v"],
     ["mbzuai","Board of Trustees Member","board","v"],
     ]},
@@ -519,7 +519,7 @@ const PEOPLE = [
     ]},
   {id:"waleed", n:"Waleed Al Mokarrab Al Muhairi", t:2, p:82, s:"sovereign", roles:[
     ["mubadala","Deputy Group CEO","executive","v"],
-    ["waha","Chairman","board","ns"],
+    ["waha","Chairman","board","v"],
     ["limad","Board Member","board","v"],
     ]},
   {id:"homaid", n:"Homaid Al Shimmari", t:2, p:76, s:"sovereign", roles:[
@@ -669,7 +669,7 @@ const PEOPLE = [
     ["atrc","Board Member, ATRC","board","v"],
     ]},
   {id:"ali_tadweer", n:"Ali Al Dhaheri", t:2, p:64, s:"industry", roles:[
-    ["tadweer","Managing Director & CEO","executive","ns"],
+    ["tadweer","Managing Director & CEO","executive","v"],
     ]},
   {id:"mohamed_butti", n:"Sheikh Mohamed bin Butti Al Hamed", t:2, p:66, s:"conglomerate", roles:[
     ["dasholding","Chairman","board","ns"],
@@ -771,7 +771,7 @@ const PEOPLE = [
     ["mubadala","Managing Director & CEO, Mubadala Capital","executive","v"],
     ]},
   {id:"mansour_almulla", n:"Mansour Mohamed AlMulla", t:2, p:72, s:"sovereign", roles:[
-    ["adq","Deputy Group Chief Executive Officer","executive","ns"],
+    ["adq","Deputy Group Chief Executive Officer","executive","v"],
     ["etihadrail","Board Member","board","v"],
     ]},
   {id:"marcos_dequadros", n:"Marcos de Quadros", t:2, p:68, s:"sovereign", roles:[
@@ -2746,7 +2746,7 @@ const AKA = {
   tabreed:["National Central Cooling Company"],
   mubadala_health:["Mubadala Healthcare"],
   mubadala_energy:["Mubadala Petroleum"],
-  kezad:["Khalifa Economic Zones Abu Dhabi","KIZAD","ZonesCorp"],
+  kezad:["Khalifa Economic Zones Abu Dhabi","KIZAD","ZonesCorp","Industrial City of Abu Dhabi","ICAD"],
   adpf:["Abu Dhabi Retirement Pensions and Benefits Fund"],
   adqcc:["QCC"],
   marlan_space:["Marlan Holding RSC Ltd"],
