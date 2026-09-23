@@ -109,6 +109,7 @@ const PEOPLE = [
     ["aus","Founder & President","board","v"]],
     note:"Ruler since 1972 — the intellectual of the UAE ruling houses; culture and education define Sharjah's model."},
   {id:"sultan_ahmed_q", n:"H.H. Sheikh Sultan bin Ahmed Al Qasimi", t:0, p:84, s:"gov", roles:[
+    ["university_of_sharjah","President and Chairman of the Board of Trustees","board","v"],
     ["shj_execco","Deputy Chairman (Chairman of Sharjah Media Council)","board","v"],
     ["shjgov","Deputy Ruler of Sharjah","political","v"],
     ["arada","Co-founder & Chairman","board","v"]]},
@@ -440,6 +441,7 @@ const PEOPLE = [
   {id:"maryam_majid_saeed", n:"Maryam Majid Saeed Mohamed Al Shamsi", t:2, p:52, s:"gov", roles:[
     ["shj_execco","Member","board","v"]]},
   {id:"aisha_rashid_ali", n:"Aisha Rashid Ali Bin Deemas AlSuwaidi", t:2, p:62, s:"gov", roles:[
+    ["epaa","Chairperson","board","v"],
     ["shj_execco","Member (Chairperson of Environment and Protected Areas Authority)","board","v"]]},
   {id:"eisa_saif_bin", n:"Eisa Saif Bin Handhal", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Department of Islamic Affairs)","board","v"]]},
@@ -763,6 +765,20 @@ const PEOPLE = [
     ["sewa","Executive Director of Corporate Support","executive","v"]]},
   {id:"marwa_abdulaziz_al", n:"Marwa Abdulaziz Al Suwaidi", t:2, p:58, s:"finance", roles:[
     ["sharjah_finance","Director of Budget and Financial Planning Department","executive","ns"]]},
+  {id:"issam_al_din", n:"Issam Al-Din Ibrahim Ajami", t:2, p:58, s:"education", roles:[
+    ["university_of_sharjah","Chancellor","executive","v"]]},
+  {id:"hamid_majoul_al", n:"Hamid Majoul Al Nuaimi", t:2, p:52, s:"education", roles:[
+    ["university_of_sharjah","Board of Trustees Member","board","v"]]},
+  {id:"khawla_abdulrahman_al", n:"Khawla Abdulrahman Al Mulla", t:2, p:52, s:"education", roles:[
+    ["university_of_sharjah","Board of Trustees Member","board","v"]]},
+  {id:"mohammed_yousif_baniyas", n:"Mohammed Yousif Baniyas", t:2, p:52, s:"education", roles:[
+    ["university_of_sharjah","Board of Trustees Member","board","v"]]},
+  {id:"mohammed_abdullah", n:"Mohammed Abdullah", t:2, p:52, s:"education", roles:[
+    ["university_of_sharjah","Board of Trustees Member","board","v"]]},
+  {id:"jacques_fremont", n:"Jacques Fremont", t:2, p:52, s:"education", roles:[
+    ["university_of_sharjah","Board of Trustees Member","board","v"]]},
+  {id:"mohd_hamdi_abdul", n:"Mohd Hamdi Abdul Shukor", t:2, p:52, s:"education", roles:[
+    ["university_of_sharjah","Board of Trustees Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

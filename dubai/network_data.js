@@ -425,6 +425,7 @@ const PEOPLE = [
   {id:"naveed_ali", n:"Naveed Ali", t:2, p:58, s:"finance", roles:[
     ["dib","Chief of Corporate Banking","executive","v"]]},
   {id:"sultan_sulayem", n:"Sultan Ahmed bin Sulayem", t:1, p:70, s:"industry", roles:[
+    ["jafza","Chairman","board","v"],
     ["dpworld","Group Chairman & CEO (2007–Feb 2026)","executive","v","former:until Feb 2026"]],
     note:"Led DP World's global expansion for nearly two decades; stepped down Feb 2026 — role split between Essa Kazim (Chairman) and Yuvraj Narayan (Group CEO)."},
   {id:"yuvraj_narayan", n:"Yuvraj Narayan", t:2, p:58, s:"industry", roles:[
@@ -447,6 +448,7 @@ const PEOPLE = [
   {id:"anil_mohta", n:"Anil Mohta", t:2, p:58, s:"industry", roles:[
     ["dpworld","Group Chief Financial Officer","executive","v"]]},
   {id:"abdulla_al_hashmi", n:"Abdulla Al Hashmi", t:2, p:58, s:"industry", roles:[
+    ["jafza","Chief Operating Officer","executive","v"],
     ["dpworld","Global COO, Parks & Economic Zones","executive","v"]]},
   {id:"tiemen_meester", n:"Tiemen Meester", t:2, p:58, s:"industry", roles:[
     ["dpworld","Global COO, Ports & Terminals","executive","v"]]},
@@ -560,6 +562,7 @@ const PEOPLE = [
     ["du","Chairman (Independent Non-Executive)","board","v"],
     ["dubaiholding","Group CEO, Dubai Holding Asset Management","executive","v"]]},
   {id:"ahmad_julfar", n:"Ahmad Julfar", t:2, p:62, s:"comm", roles:[
+    ["cbd","Chairman","board","v"],
     ["du","Vice Chairman (Non-Executive)","board","v"]]},
   {id:"abdulla_al_basti", n:"Abdulla Al Basti", t:2, p:52, s:"comm", roles:[
     ["execco","Secretary General","executive","v"],
@@ -800,6 +803,7 @@ const PEOPLE = [
   {id:"khalid_jassim_mohamed", n:"Khalid Jassim Mohamed Bin Kalban", t:2, p:62, s:"conglomerate", roles:[
     ["dubaiinv","Vice Chairman and Chief Executive Officer","executive","v"]]},
   {id:"ali_fardan_ali", n:"Ali Fardan Ali Al Fardan", t:2, p:52, s:"conglomerate", roles:[
+    ["cbd","Board Member","board","v"],
     ["dubaiinv","Board Member","board","v"]]},
   {id:"mohamed_saif_darwish", n:"Mohamed Saif Darwish Ahmed Al Ketbi", t:2, p:52, s:"conglomerate", roles:[
     ["dubaiinv","Board Member","board","v"]]},
@@ -1013,6 +1017,7 @@ const PEOPLE = [
   {id:"faisal_juma_khalfan", n:"Faisal Juma Khalfan Belhoul", t:2, p:52, s:"gov", roles:[
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"buti_saeed_mohamed", n:"Buti Saeed Mohamed Al Ghandi", t:2, p:52, s:"gov", roles:[
+    ["cbd","Board Member","board","v"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"dr_amina_abdulwahed", n:"Dr. Amina Abdulwahed Hassan Al Rustamani", t:2, p:52, s:"gov", roles:[
     ["dubaichambers","Member of the Board","board","v"]]},
@@ -1102,6 +1107,7 @@ const PEOPLE = [
   {id:"hessa_essa_buhumaid", n:"Hessa Essa Buhumaid", t:2, p:52, s:"gov", roles:[
     ["execco","Member (Director General of Community Development Authority)","board","v"]]},
   {id:"abdulla_bin_damithan", n:"Abdulla bin Damithan", t:2, p:62, s:"gov", roles:[
+    ["jafza","CEO and Managing Director DP World UAE Region and Jafza","executive","v"],
     ["execco","Member (Chairman of Ports Customs and Free Zone Corporation)","board","v"]]},
   {id:"hussain_nasser_lootah", n:"Hussain Nasser Lootah", t:2, p:62, s:"industry", roles:[
     ["lst_alec","Chairman","board","v"]]},
@@ -1500,6 +1506,26 @@ const PEOPLE = [
     ["dha","CEO, Digital Health Sector","executive","ns"]]},
   {id:"mona_mohammad_bajman_b", n:"Mona Mohammad Bajman Almarzooqi", t:2, p:58, s:"health", roles:[
     ["dha","CEO, Corporate Support Sector","executive","ns"]]},
+  {id:"mohamed_al_mulla", n:"Mohamed Al Mulla", t:2, p:60, s:"comm", roles:[
+    ["dubai_media_inc","Chief Executive Officer","executive","v"]]},
+  {id:"ahmad_abdulla_juma", n:"Ahmad Abdulla Juma Binbyat", t:2, p:62, s:"finance", roles:[
+    ["cbd","Deputy Chairman","board","v"]]},
+  {id:"bernd_van_linder", n:"Bernd van Linder", t:2, p:60, s:"finance", roles:[
+    ["cbd","Chief Executive Officer","executive","v"]]},
+  {id:"khalid_abdul_wahed", n:"Khalid Abdul Wahed Al Rostamani", t:2, p:52, s:"finance", roles:[
+    ["cbd","Board Member","board","v"]]},
+  {id:"sheikh_maktoum_bin", n:"Sheikh Maktoum bin Hasher Al Maktoum", t:2, p:52, s:"finance", roles:[
+    ["cbd","Board Member","board","v"]]},
+  {id:"saod_mohamed_ibrahim", n:"Saod Mohamed Ibrahim Obaidalla", t:2, p:52, s:"finance", roles:[
+    ["cbd","Board Member","board","v"]]},
+  {id:"abdulla_mohamed_al", n:"Abdulla Mohamed Al Karam", t:2, p:52, s:"finance", roles:[
+    ["cbd","Board Member","board","v"]]},
+  {id:"abdulwahed_mohamed_al", n:"Abdulwahed Mohamed Al Fahim", t:2, p:52, s:"finance", roles:[
+    ["cbd","Board Member","board","v"]]},
+  {id:"moza_omar_al", n:"Moza Omar Al Futtaim", t:2, p:52, s:"finance", roles:[
+    ["cbd","Board Member","board","v"]]},
+  {id:"hadi_mohammad_badri", n:"Hadi Mohammad Badri", t:2, p:52, s:"finance", roles:[
+    ["cbd","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -467,7 +467,9 @@ const PEOPLE = [
     ["com","Prime Minister","political","v"],
     ["pif","Chairman","board","v"],
     ["redsea","Chairman","board","v"],
-    ["qiddiya","Chairman","board","v"]],
+    ["qiddiya","Chairman","board","v"],
+    ["ndf","Chairman of the Board","board","v"],
+    ["rcu","Chairman of the Board","board","v"]],
     note:"'MBS' — runs the state, the sovereign fund and Vision 2030. Every giga-project chain ends here."},
   {id:"kbs", n:"Prince Khalid bin Salman Al Saud", t:0, p:88, s:"gov", roles:[
     ["mod_sa","Minister of Defense","political","v"]],
@@ -496,6 +498,7 @@ const PEOPLE = [
   {id:"nasser_aramco", n:"Amin Nasser", t:1, p:88, s:"energy", roles:[
     ["aramco","President & CEO","executive","v"]]},
   {id:"jadaan", n:"Mohammed Al-Jadaan", t:1, p:86, s:"finance", roles:[
+    ["zatca","Chairman of the Board","board","v"],
     ["mof_sa","Minister of Finance","political","v"]]},
   {id:"falih", n:"Khalid Al-Falih", t:1, p:78, s:"gov", roles:[
     ["alat","Board Member; Minister of State and Member of the Council of Ministers","board","v"],
@@ -1727,6 +1730,7 @@ const PEOPLE = [
   {id:"hamad_bin_mohammed", n:"Hamad bin Mohammed Al Al-Sheikh", t:2, p:52, s:"tech", roles:[
     ["alat","Board Member; General Supervisor of the Localization and Balance of Payments Office","board","v"]]},
   {id:"mohammed_bin_mazyad", n:"Mohammed bin Mazyad Al-Tuwaijri", t:2, p:52, s:"tech", roles:[
+    ["ndf","Vice Chairman of the Board","board","v"],
     ["alat","Board Member","board","v"]]},
   {id:"nandhu_nandhakumar", n:"Nandhu Nandhakumar", t:2, p:58, s:"tech", roles:[
     ["alat","Chief Technology Officer","executive","v"]]},
@@ -1886,6 +1890,14 @@ const PEOPLE = [
     ["lst_8210","Chairman","board","ns"]]},
   {id:"tal_hisham_nazer", n:"Tal Hisham Nazer", t:2, p:60, s:"finance", roles:[
     ["lst_8210","Managing Director","executive","ns"]]},
+  {id:"abdulaziz_al_arifi", n:"Abdulaziz Al-Arifi", t:2, p:58, s:"gov", roles:[
+    ["ndf","Governor","executive","v"]]},
+  {id:"khalid_bin_ibrahim", n:"Khalid bin Ibrahim Shareef", t:2, p:58, s:"gov", roles:[
+    ["ndf","Vice Governor","executive","v"]]},
+  {id:"abeer_al_akel", n:"Abeer Al Akel", t:2, p:60, s:"gov", roles:[
+    ["rcu","Chief Executive Officer","executive","v"]]},
+  {id:"suhail_bin_mohammed", n:"Suhail bin Mohammed Abanmi", t:2, p:58, s:"gov", roles:[
+    ["zatca","Governor","executive","v"]]},
 ];
 
 const OWNERSHIP = [

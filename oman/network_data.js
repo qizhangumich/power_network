@@ -895,6 +895,7 @@ const PEOPLE = [
   {id:"ibtisam_bint_ahmed", n:"Ibtisam bint Ahmed Al Farouji", t:2, p:58, s:"gov", roles:[
     ["moci_om","Undersecretary for Investment Promotion","executive","v"]]},
   {id:"ahmed_bin_hamed", n:"Ahmed bin Hamed Al Subhi", t:2, p:62, s:"utilities", roles:[
+    ["be_ah","Chairman","board","v"],
     ["nama","Chairman of the Board of Directors","board","v"]]},
   {id:"saif_bin_hamed", n:"Saif bin Hamed Al Mahrouqi", t:2, p:62, s:"utilities", roles:[
     ["nama","Deputy Chairman of the Board of Directors","board","v"]]},
@@ -962,6 +963,12 @@ const PEOPLE = [
     ["moin_om","Undersecretary of the Ministry of Interior","executive","ns"]]},
   {id:"abdullah_bin_mohammed", n:"Abdullah bin Mohammed Al Rashdi", t:2, p:60, s:"consumer_stap", roles:[
     ["nitaj","Chief Executive Officer","executive","ns"]]},
+  {id:"tariq_ali_al", n:"Tariq Ali Al-Amri", t:2, p:60, s:"utilities", roles:[
+    ["be_ah","Chief Executive Officer","executive","v"]]},
+  {id:"khalid_hilal_nasser", n:"Khalid Hilal Nasser Al Maawali", t:2, p:62, s:"gov", roles:[
+    ["majlis_a_shura","Chairman","board","v"]]},
+  {id:"mansour_zahir_al", n:"Mansour Zahir Al Hajri", t:2, p:62, s:"gov", roles:[
+    ["majlis_a_shura","Deputy Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [
