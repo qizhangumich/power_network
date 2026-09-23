@@ -63,18 +63,18 @@ const INSTITUTIONS = [
   {id:"lst_burg", n:"Burgan Bank K.P.S.C.", s:"finance", t:2, p:64, short:"Burgan Bank"},
   {id:"lst_boubyan", n:"Boubyan Bank K.S.C.P.", s:"finance", t:2, p:64, short:"Boubyan Bank"},
   {id:"lst_ifa", n:"International Financial Advisors Holding", s:"finance", t:2, p:50, short:"IFA"},
-  {id:"lst_ninv", n:"National Investments Co", s:"finance", t:2, p:50, short:"NINV"},
+  {id:"lst_ninv", n:"National Investments Co", s:"finance", t:2, p:56, short:"NINV"},
   {id:"lst_arzan", n:"Arzan Financial Group for Financing and Investment", s:"finance", t:2, p:50, short:"ARZAN"},
   {id:"lst_aayan", n:"Aayan Leasing and Investment", s:"finance", t:2, p:50, short:"AAYAN"},
   {id:"lst_kre", n:"Kuwait Real Estate Co KSC", s:"realestate", t:2, p:50, short:"KRE"},
   {id:"lst_urc", n:"United Real Estate K.S.C", s:"realestate", t:2, p:50, short:"URC"},
   {id:"lst_sre", n:"Salhia Real Estate", s:"realestate", t:2, p:50, short:"Salhia Real Estate"},
   {id:"lst_altijaria", n:"The Commercial Real Estate Co K.S.C", s:"realestate", t:2, p:50, short:"ALTIJARIA"},
-  {id:"lst_nind", n:"National Industries Group Holding", s:"finance", t:2, p:50, short:"NIND"},
+  {id:"lst_nind", n:"National Industries Group Holding", s:"finance", t:2, p:64, short:"NIND"},
   {id:"lst_cable", n:"Gulf Cables and Electrical Industries Group Co. K.S.C.P", s:"industry", t:2, p:50, short:"CABLE"},
   {id:"lst_ship", n:"Heavy Engineering Industries and Shipbuilding", s:"industry", t:2, p:50, short:"SHIP"},
   {id:"lst_bpcc", n:"Boubyan Petrochemical Co KSCP", s:"materials", t:2, p:50, short:"BPCC"},
-  {id:"lst_humansoft", n:"Human Soft Holding", s:"industry", t:2, p:50, short:"Human Soft Holding"},
+  {id:"lst_humansoft", n:"Human Soft Holding", s:"industry", t:2, p:58, short:"Human Soft Hldg"},
   {id:"lst_ifahr", n:"IFA Hotels and Resorts", s:"consumer_disc", t:2, p:50, short:"IFAHR"},
   {id:"lst_cgc", n:"Combined Group Contracting KSCP", s:"industry", t:2, p:50, short:"CGC"},
   {id:"lst_oulafuel", n:"Oula Fuel Marketing", s:"consumer_disc", t:2, p:50, short:"Oula Fuel Marketing"},
@@ -216,6 +216,12 @@ const INSTITUTIONS = [
   {id:"xcite_electronics", n:"Xcite Alghanim Electronics", s:"consumer_disc", t:2, p:58, short:"Xcite Electronics"},
   {id:"gust", n:"Gulf University for Science and Technology", s:"education", t:3, p:54, short:"GUST"},
   {id:"kipic", n:"Kuwait Integrated Petroleum Industries Company", s:"energy", t:2, p:70, short:"KIPIC"},
+  {id:"kic", n:"Kuwait Investment Company", s:"finance", t:2, p:62, short:"KIC"},
+  {id:"kgl", n:"Kuwait and Gulf Link Transport Company", s:"industry", t:3, p:55, short:"KGL Holding"},
+  {id:"behbehani", n:"Morad Yousuf Behbehani Group", s:"conglomerate", t:3, p:54, short:"Behbehani Group"},
+  {id:"marafie", n:"Marafie Group", s:"conglomerate", t:3, p:52, short:"Marafie Group"},
+  {id:"kout_food", n:"Kout Food Group", s:"consumer_disc", t:3, p:54, short:"Kout Food"},
+  {id:"maqasa_kcc", n:"Kuwait Clearing Company", s:"finance", t:2, p:56, short:"Maqasa (KCC)"},
 ];
 
 const PEOPLE = [
@@ -226,7 +232,8 @@ const PEOPLE = [
   {id:"pm_kw", n:"H.H. Sheikh Ahmad Abdullah Al-Ahmad Al-Sabah", t:0, p:86, s:"gov", roles:[
     ["cabinet_kw","Prime Minister","political","v"]]},
   {id:"fahad_yousef", n:"Sheikh Fahad Yousef Al-Sabah", t:0, p:82, s:"gov", roles:[
-    ["cabinet_kw","First Deputy PM · Minister of Defence & Interior","political","ns"]]},
+    ["moi_kuwait","First Deputy Prime Minister and Minister of Interior","executive","v"],
+    ["cabinet_kw","First Deputy PM · Minister of Interior","political","v"]]},
   {id:"yahya_fm", n:"H.E. Sheikh Jarrah Jaber Al-Ahmad Al-Sabah", t:1, p:76, s:"gov", roles:[
     ["mofa_kw","Minister of Foreign Affairs","political","v"]],
     note:"Appointed in the 1 February 2026 Amiri Decree cabinet reshuffle, succeeding Abdullah Ali Al-Yahya; son of the late Emir Jaber III."},
@@ -1278,6 +1285,30 @@ const PEOPLE = [
     ["lst_gins","Group Chairman","board","v"]]},
   {id:"khaled_saoud_al", n:"Khaled Saoud Al Hasan", t:2, p:60, s:"finance", roles:[
     ["lst_gins","Group Chief Executive Officer","executive","v"]]},
+  {id:"abdullah_ali_abdullah", n:"Abdullah Ali Abdullah Al-Salem Al-Sabah", t:2, p:58, s:"gov", roles:[
+    ["mod_kuwait","Minister of Defence","executive","v"]]},
+  {id:"abdullah_mishal_mubarak", n:"Abdullah Mishal Mubarak Al-Sabah", t:2, p:58, s:"gov", roles:[
+    ["mod_kuwait","Undersecretary of the Ministry of Defence","executive","ns"]]},
+  {id:"wael_nasser_hamoud", n:"Wael Nasser Hamoud Al-Sabah", t:2, p:58, s:"gov", roles:[
+    ["mod_kuwait","Assistant Undersecretary of the Ministry of Defence","executive","ns"]]},
+  {id:"anoud_saleh_abdullah", n:"Anoud Saleh Abdullah Al-Turaiman", t:2, p:58, s:"gov", roles:[
+    ["mod_kuwait","Assistant Undersecretary of the Ministry of Defence","executive","ns"]]},
+  {id:"salem_nawaf_al", n:"Salem Nawaf Al-Ahmad Al-Sabah", t:2, p:58, s:"gov", roles:[
+    ["moi_kuwait","Undersecretary of the Ministry of Interior","executive","v"]]},
+  {id:"ali_musfir_al", n:"Ali Musfir Al-Adwani", t:2, p:58, s:"gov", roles:[
+    ["moi_kuwait","Assistant Undersecretary for Support Security Services (Ministry of Interior)","executive","ns"]]},
+  {id:"ahmad_abdulwahab_ahmad", n:"Ahmad Abdulwahab Ahmad Al-Awadhi", t:2, p:58, s:"health", roles:[
+    ["moh_kuwait","Minister of Health","executive","v"]]},
+  {id:"salman_khalifa_abdullah", n:"Salman Khalifa Abdullah Al-Sabah", t:2, p:58, s:"health", roles:[
+    ["moh_kuwait","Undersecretary of the Ministry of Health","executive","v"]]},
+  {id:"fatima_abdulrahman_al", n:"Fatima Abdulrahman Al-Najjar", t:2, p:58, s:"health", roles:[
+    ["moh_kuwait","Assistant Undersecretary (Ministry of Health)","executive","ns"]]},
+  {id:"abdulrahman_faraj_mazi", n:"Abdulrahman Faraj Mazi Al-Mutairi", t:2, p:58, s:"health", roles:[
+    ["moh_kuwait","Assistant Undersecretary (Ministry of Health)","executive","ns"]]},
+  {id:"sabih_abdulaziz_abdulmohsen", n:"Sabih Abdulaziz Abdulmohsen Al-Mukhaizeem", t:2, p:58, s:"utilities", roles:[
+    ["mew_kuwait","Minister of Electricity Water and Renewable Energy","executive","v"]]},
+  {id:"adel_mohammed_abdullah", n:"Adel Mohammed Abdullah Al-Zamel", t:2, p:58, s:"utilities", roles:[
+    ["mew_kuwait","Undersecretary of the Ministry of Electricity Water and Renewable Energy","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1438,6 +1469,7 @@ const OWNERSHIP = [
   ["kuna","moinfo_kw","operates as a branch of the Ministry of Information","ns"],
   ["xcite_electronics","alghanim","subsidiary of","ns"],
   ["kipic","kpc","subsidiary","v"],
+  ["kic","kia","majority shareholder (62%)","v"],
 ];
 
 const FAMILY = [
@@ -1471,4 +1503,6 @@ const AKA = {
   part_kuwait:["PART"],
   csc_kuwait:["CSC"],
   xcite_electronics:["X-cite","Xcite"],
+  kgl:["KGL"],
+  maqasa_kcc:["Maqasa"],
 };

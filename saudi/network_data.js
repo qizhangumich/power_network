@@ -452,6 +452,11 @@ const INSTITUTIONS = [
   {id:"stc_bank", n:"Saudi Digital Payments Company (stc Bank)", s:"finance", t:2, p:58, short:"stc Bank"},
   {id:"western_bakeries", n:"Western Bakeries Company", s:"consumer_stap", t:3, p:52, short:"Western Bakeries"},
   {id:"modern_food_industries", n:"Modern Food Industries Company", s:"consumer_stap", t:3, p:50, short:"Modern Food Industries"},
+  {id:"binzagr", n:"Binzagr Company", s:"consumer_stap", t:3, p:54, short:"Binzagr Co."},
+  {id:"nesma_partners", n:"Nesma & Partners", s:"industry", t:2, p:58, short:"Nesma & Partners"},
+  {id:"salic", n:"Saudi Agricultural and Livestock Investment Company", s:"consumer_stap", t:2, p:60, short:"SALIC"},
+  {id:"gdc_middle_east", n:"GDC Middle East", s:"industry", t:2, p:56, short:"GDC Middle East"},
+  {id:"site", n:"Saudi Information Technology Company", s:"tech", t:2, p:58, short:"SITE"},
 ];
 
 const PEOPLE = [
@@ -2231,6 +2236,10 @@ const OWNERSHIP = [
   ["stc_bank","stc","subsidiary","v"],
   ["western_bakeries","almarai","subsidiary","v"],
   ["modern_food_industries","western_bakeries","subsidiary","v"],
+  ["nesma_partners","pif","portfolio company (minority stake)","v"],
+  ["salic","pif","wholly owned subsidiary","v"],
+  ["gdc_middle_east","pif","majority shareholder (80%)","v"],
+  ["site","pif","portfolio company","v"],
 ];
 
 const FAMILY = [
@@ -2308,4 +2317,6 @@ const AKA = {
   stc_bank:["stc pay","SDPC"],
   western_bakeries:["L'usine"],
   modern_food_industries:["MFI"],
+  nesma_partners:["Nesma"],
+  gdc_middle_east:["GDCME"],
 };

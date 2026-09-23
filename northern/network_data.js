@@ -100,6 +100,7 @@ const INSTITUTIONS = [
   {id:"amcfz", n:"Ajman Media City Free Zone", s:"comm", t:3, p:52, short:"AMCFZ"},
   {id:"sharjah_courts", n:"Sharjah Judicial Department", s:"gov", t:2, p:58, short:"Sharjah Courts"},
   {id:"rak_courts", n:"Ras Al Khaimah Judicial Department", s:"gov", t:2, p:54, short:"RAK Courts"},
+  {id:"nesto", n:"Nesto Group", s:"consumer_stap", t:3, p:54, short:"Nesto Group"},
 ];
 
 const PEOPLE = [

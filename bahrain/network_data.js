@@ -125,6 +125,10 @@ const INSTITUTIONS = [
   {id:"derasat", n:"Bahrain Center for Strategic International and Energy Studies", s:"education", t:2, p:56, short:"Derasat"},
   {id:"beyon_solutions", n:"Beyon Solutions", s:"tech", t:3, p:56, short:"Beyon Solutions"},
   {id:"beyon_connect", n:"Beyon Connect", s:"tech", t:3, p:52, short:"Beyon Connect"},
+  {id:"balexco", n:"Bahrain Aluminium Extrusion Co.", s:"materials", t:3, p:52, short:"Balexco"},
+  {id:"ajm_kooheji", n:"AJM Kooheji Group", s:"conglomerate", t:3, p:54, short:"AJM Kooheji"},
+  {id:"haji_hassan", n:"Haji Hassan Group", s:"materials", t:3, p:54, short:"Haji Hassan"},
+  {id:"bdb", n:"Bahrain Development Bank", s:"finance", t:2, p:58, short:"BDB"},
 ];
 
 const PEOPLE = [
@@ -827,6 +831,7 @@ const PEOPLE = [
     ["nbb","Chief Executive-Strategic Accounts","executive","v"],
     ["nbb","Chief Excutive - Strategic Accounts","executive","v"]]},
   {id:"sami_mohamed_zainal", n:"Sami Mohamed Zainal", t:2, p:52, s:"finance", roles:[
+    ["general_poultry","Chairman of the Board of Directors","board","v"],
     ["lst_bcfc","Director","board","v"]]},
   {id:"hasan_bader_kaiksow", n:"Hasan Bader Kaiksow", t:2, p:52, s:"finance", roles:[
     ["lst_bcfc","Director","board","v"]]},
@@ -2687,8 +2692,6 @@ const PEOPLE = [
     ["moic_bh","Assistant Undersecretary for Domestic and Foreign Trade","executive","v"]]},
   {id:"khalid_fahad_al", n:"Khalid Fahad Al Alawi", t:2, p:58, s:"gov", roles:[
     ["moic_bh","Assistant Undersecretary for Industrial Development","executive","v"]]},
-  {id:"amna_bint_ahmed", n:"Amna bint Ahmed Al Romaihi", t:2, p:58, s:"gov", roles:[
-    ["moh_bh","Minister of Housing and Urban Planning","executive","v"]]},
   {id:"muna_ali_al", n:"Muna Ali Al Heshemi", t:2, p:58, s:"utilities", roles:[
     ["ewa_bh","Vice President, Customer Services & Digital Transformation","executive","v"]]},
   {id:"ali_al_nemah", n:"Ali Al Nemah", t:2, p:58, s:"utilities", roles:[
@@ -2731,6 +2734,28 @@ const PEOPLE = [
     ["mtt_bh","Undersecretary for Ports and Maritime Affairs","executive","v"]]},
   {id:"husain_al_shuail", n:"Husain Al Shuail", t:2, p:58, s:"gov", roles:[
     ["mtt_bh","Acting Undersecretary for Civil Aviation Affairs","executive","v"]]},
+  {id:"salman_bin_ateyatalla", n:"Salman bin Ateyatalla Al Khalifa", t:2, p:60, s:"health", roles:[
+    ["king_hamad_univ","Chief Executive Officer","executive","v"]]},
+  {id:"ghassan_qasim_fakhroo", n:"Ghassan Qasim Fakhroo", t:2, p:62, s:"consumer_stap", roles:[
+    ["general_poultry","Vice Chairman","board","v"]]},
+  {id:"wael_itani", n:"Wael Itani", t:2, p:60, s:"consumer_stap", roles:[
+    ["general_poultry","Chief Executive Officer","executive","v"]]},
+  {id:"puzant_dakessian", n:"Puzant Dakessian", t:2, p:52, s:"consumer_stap", roles:[
+    ["general_poultry","Board Member","board","v"]]},
+  {id:"nawaf_zainal", n:"Nawaf Zainal", t:2, p:52, s:"consumer_stap", roles:[
+    ["general_poultry","Board Member","board","v"]]},
+  {id:"abdulaziz_salmeen", n:"Abdulaziz Salmeen", t:2, p:60, s:"consumer_stap", roles:[
+    ["gheras","Chief Executive Officer","executive","v"]]},
+  {id:"naji_sabt", n:"Naji Sabt", t:2, p:58, s:"gov", roles:[
+    ["slrb","Director General of Survey","executive","v"]]},
+  {id:"diana_faisal_sarhan", n:"Diana Faisal Sarhan", t:2, p:58, s:"gov", roles:[
+    ["slrb","Director-General of Resources and Information Systems","executive","v"]]},
+  {id:"abdulla_bin_ahmed", n:"Shaikh Abdulla bin Ahmed bin Abdulla Al Khalifa", t:2, p:58, s:"gov", roles:[
+    ["mofa_bh","Undersecretary for Political Affairs","executive","v"]]},
+  {id:"yusuf_mohamed_abdulla", n:"Yusuf Mohamed Abdulla Jameel", t:2, p:58, s:"gov", roles:[
+    ["mofa_bh","Assistant Undersecretary for GCC And Arab Countries Affairs","executive","v"]]},
+  {id:"faisal_sultan", n:"Faisal Sultan", t:2, p:46, s:"finance", roles:[
+    ["lst_solid","Head of Marketing and Corporate Communications","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2849,4 +2874,5 @@ const AKA = {
   united_gulf_bank:["UGB","Burgan Bank Bahrain (pending)","c"],
   king_hamad_univ:["KHUH"],
   al_hilal:["Al Hilal Publishing & Marketing"],
+  balexco:["BALEXCO"],
 };

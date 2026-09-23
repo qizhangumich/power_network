@@ -1,5 +1,15 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Abu Dhabi Investment,15,abudhabi,rejected,2026-09-03,2026-09-21,​ASK Automotive - Abu Dhabi Investment Portfolio: 10 stocks rally up to 107% in CY26
+Industrial City,2,northern,pending,2026-09-20,2026-09-20,"In partnership with AD Ports Group, Etihad Rail launches integrated rail service connecting Fujairah Terminals with Industrial City of Abu D"
+Abu Dhabi Industrial City,2,northern,pending,2026-09-20,2026-09-20,Etihad Rail Links Fujairah to Abu Dhabi Industrial City
+Sultan Qaboos University,2,oman,pending,2026-09-03,2026-09-22,Sultan Qaboos University study identifies key reasons for delayed child abuse reporting
+QFBA Finance,2,qatar,pending,2026-09-22,2026-09-22,Ahlibank announces platinum sponsorship of QFBA Finance Researcher Award 2026
+University of Doha for Science and Technology,2,qatar,pending,2026-09-04,2026-09-22,"University of Doha for Science and Technology and Alfardan Exchange, launch “FinTech Stars” competition to support innovation and entreprene"
+Saudi Construction,2,saudi,pending,2026-09-07,2026-09-22,Saudi Construction Index rises to 55.4 points in August
+Umm Al Qura for Development,2,saudi,pending,2026-09-06,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
+Al Qura for Development and Construction,2,saudi,pending,2026-09-06,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
+Saudi Media Company,2,saudi,pending,2026-09-05,2026-09-22,Saudi Media Academy concludes Strategic Leadership programme in London
+GCC Capital,2,,pending,2026-09-11,2026-09-22,VIDEO: Testimonials from Zawya’s GCC Capital Markets Forum
+Abu Dhabi Investment,19,abudhabi,rejected,2026-09-03,2026-09-22,​ASK Automotive - Abu Dhabi Investment Portfolio: 10 stocks rally up to 107% in CY26
 British Airways,9,dubai,rejected,2026-09-15,2026-09-19,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
 Marlan Holding,7,abudhabi,added,2026-09-08,2026-09-10,Abu Dhabi's IHC to acquire 80% stake in UAE space company Marlan Holding
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
@@ -24,7 +34,6 @@ SNB Capital,3,saudi,added,2026-09-03,2026-09-05,SNB Capital North America Index 
 IHC and Adani Group,2,abudhabi,rejected,2026-09-10,2026-09-11,IHC and Adani Group sign agreement to invest Rs 2.1 trilion in Odisha
 American Airlines,2,abudhabi,rejected,2026-09-03,2026-09-15,American Airlines is Struggling With Broken Business Class Seats On Its Brand New Airbus A321XLR Airplanes
 Infinity Power,2,abudhabi,rejected,2026-09-02,2026-09-03,Ras Shokeir Wind Project: Infinity Power and Hassan Allam Sign PPA for 1 GW Farm in Egypt
-Arrive Logistics,2,abudhabi,rejected,2026-09-01,2026-09-03,Mubadala Capital takes majority stake in US freight broker Arrive Logistics
 Adani Group,2,abudhabi,rejected,2026-09-09,2026-09-10,"Odisha CM Majhi holds talks with IHC, Adani Group on 14 state projects worth Rs 2.10 lakh crore"
 Balkan Green Energy,2,abudhabi,rejected,2026-09-14,2026-09-15,"Masdar, Taaleri create largest Western Balkans wind hub with Čibuk 2 launch"
 Al Seer Marine,2,abudhabi,added,2026-09-16,2026-09-16,Abu Dhabi's L'imad buys AD Ports stake from Al Seer Marine for $632mln
@@ -71,4 +80,5 @@ Axelerated Solutions,2,saudi,added,2026-09-03,2026-09-03,Axelerated Solutions to
 Fakhruddin Properties,2,dubai,added,2026-09-08,2026-09-10,Fakhruddin Properties unveils 463-unit premier mixed-use project in Dubai
 Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
+Arrive Logistics,1,abudhabi,rejected,2026-09-03,2026-09-03,"Arrive Logistics Deal: No Debt, More Growth"
 Trump-Linked World Liberty Financial,1,abudhabi,rejected,2026-08-28,2026-08-28,WSJ: UAE Royal Sheikh Tahnoon Bin Zayed Holds 49% Stake in Trump-Linked World Liberty Financial Banking Venture

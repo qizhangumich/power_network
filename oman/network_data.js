@@ -191,6 +191,7 @@ const INSTITUTIONS = [
   {id:"ncsi", n:"National Centre for Statistics and Information", s:"gov", t:2, p:58, short:"NCSI"},
   {id:"caa_oman", n:"Civil Aviation Authority", s:"gov", t:2, p:60, short:"CAA Oman"},
   {id:"moe", n:"Ministry of Education", s:"education", t:1, p:68, short:"MoE"},
+  {id:"al_hassan_eng", n:"Al Hassan Engineering Co. SAOG", s:"industry", t:3, p:52, short:"Al Hassan Eng."},
 ];
 
 const PEOPLE = [
@@ -1147,4 +1148,5 @@ const AKA = {
   majlis_a_shura:["Shura Council"],
   state_council:["Majlis Al Dawla"],
   caa_oman:["PACA","Public Authority for Civil Aviation"],
+  al_hassan_eng:["AHEC"],
 };

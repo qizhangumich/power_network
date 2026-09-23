@@ -197,6 +197,7 @@ const INSTITUTIONS = [
   {id:"qvc", n:"Qatar Vinyl Company Ltd", s:"materials", t:3, p:55, short:"QVC"},
   {id:"qatofin", n:"Qatofin Company Limited", s:"materials", t:3, p:54, short:"Qatofin"},
   {id:"doha_investment", n:"Doha Investment", s:"sovereign", t:1, p:82, short:"Doha Investment"},
+  {id:"al_shamlan_hldg", n:"Marzooq Shamlan Al Shamlan Holding", s:"consumer_disc", t:3, p:54, short:"Al Shamlan Hldg"},
 ];
 
 const PEOPLE = [
@@ -213,6 +214,7 @@ const PEOPLE = [
   {id:"abdullah_dep", n:"H.H. Sheikh Abdullah bin Hamad Al Thani", t:0, p:90, s:"gov", roles:[
     ["qgov","Deputy Emir","political","v"]]},
   {id:"mbar", n:"H.E. Sheikh Mohammed bin Abdulrahman Al Thani", t:0, p:96, s:"gov", roles:[
+    ["doha_investment","Chairman, Doha Investment (also Prime Minister and Minister of Foreign Affairs of Qatar)","board","v"],
     ["cabinet","Prime Minister","political","v"],
     ["mofa_q","Minister of Foreign Affairs","political","v"],
     ["qia","Chairman","board","v"]],
@@ -239,6 +241,7 @@ const PEOPLE = [
   {id:"hamad_bt_aj", n:"H.E. Sheikh Hamad bin Thamer Al Thani", t:0, p:82, s:"comm", roles:[
     ["aljazeera","Chairman","board","v"]]},
   {id:"faisal_bt", n:"H.E. Sheikh Faisal bin Thani Al Thani", t:0, p:78, s:"comm", roles:[
+    ["doha_investment","Vice Chairman & Managing Director, Doha Investment (also Minister of Commerce and Industry)","executive","v"],
     ["ooredoo","Chairman","board","v"],
     ["lst_qfbq","Chairman","board","v"],
     ["qia","Chief Investment Officer, Africa & Asia-Pacific (until 2025)","executive","v","former:until 2025"],
@@ -258,6 +261,7 @@ const PEOPLE = [
 
   // ===== TIER 1 — STATE & CAPITAL OPERATORS =====
   {id:"alkaabi", n:"H.E. Saad Sherida Al-Kaabi", t:1, p:94, s:"energy", roles:[
+    ["hia","Chairman, Qatar Airways Group Board of Directors (parent of MATAR/Hamad International Airport)","board","v"],
     ["cabinet","Minister of State for Energy Affairs","political","v"],
     ["qatarenergy","President & CEO","executive","v"],
     ["qatarairways","Chairman","board","v"],
@@ -309,7 +313,8 @@ const PEOPLE = [
 
   // ===== TIER 2 — OPERATING EXECUTIVES =====
   {id:"qnb_ceo", n:"Abdulla Mubarak Al-Khalifa", t:2, p:74, s:"finance", roles:[["qnb","Group CEO","executive","v"]]},
-  {id:"hamad_alkhater", n:"Hamad Ali Al-Khater", t:2, p:80, s:"industry", roles:[["qatarairways","Group CEO","executive","v"]],
+  {id:"hamad_alkhater", n:"Hamad Ali Al-Khater", t:2, p:80, s:"industry", roles:[
+    ["hia","Group Chief Executive Officer, Qatar Airways Group (oversees MATAR/Hamad International Airport)","executive","v"],["qatarairways","Group CEO","executive","v"]],
     note:"Group CEO since 7 Dec 2025 (from HIA COO; ex-QatarEnergy), replacing Badr Al-Meer."},
   {id:"badr_almeer", n:"Badr Mohammed Al-Meer", t:2, p:56, s:"industry", roles:[
     ["qatarairways","Group CEO (Nov 2023–Dec 2025)","executive","v","former:until Dec 2025"]],
@@ -1371,6 +1376,7 @@ const PEOPLE = [
     ["qfz","Board Member","board","v"],
     ["qm","Board Member","board","v"]]},
   {id:"mohammed_bin_abdulaziz", n:"Mohammed bin Abdulaziz bin Mohammed Al Meer", t:2, p:52, s:"gov", roles:[
+    ["ashghal","President of the Public Works Authority (Ashghal)","executive","v"],
     ["qm","Board Member","board","v"]]},
   {id:"reem_mohammed_al", n:"Reem Mohammed Al Mansoori", t:2, p:52, s:"gov", roles:[
     ["mocit","Assistant Undersecretary for Digital Industry Affairs","executive","v"],
@@ -1393,6 +1399,10 @@ const PEOPLE = [
     ["almana","Vice Chairman","board","ns"]]},
   {id:"mashael_ali_al", n:"Mashael Ali Al Hammadi", t:2, p:58, s:"gov", roles:[
     ["mocit","Assistant Undersecretary for Digital Government Affairs","executive","v"]]},
+  {id:"ibrahim_bin_ali", n:"Ibrahim bin Ali bin Issa Al Hassan Al Mohannadi", t:2, p:58, s:"gov", roles:[
+    ["moj_qatar","Minister of Justice and Minister of State for Cabinet Affairs","executive","v"]]},
+  {id:"saeed_bin_abdullah", n:"Saeed bin Abdullah Al Suwaidi", t:2, p:58, s:"gov", roles:[
+    ["moj_qatar","Undersecretary of the Ministry of Justice","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1578,4 +1588,5 @@ const AKA = {
   north_oil:["NOC"],
   gulf_drilling_intl:["GDI"],
   acrps_doha_inst:["ACRPS","Doha Institute"],
+  al_shamlan_hldg:["MSS Holding"],
 };

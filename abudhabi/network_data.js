@@ -288,6 +288,7 @@ const PEOPLE = [
     ["adnoc","Chairman of the Executive Committee of the Board of Directors","board","v"],
     ["limad","Chairman","board","v"],
     ["scfea","Board Member","board","v"],
+    ["atrc","Chairman, ATRC Board of Directors (Crown Prince of Abu Dhabi)","board","v"],
     ], note:"Son of MBZ. Runs the day-to-day machinery of Abu Dhabi government via the Executive Council."},
   {id:"tahnoun", n:"H.H. Sheikh Tahnoon bin Zayed Al Nahyan", t:0, p:99, s:"sovereign", roles:[
     ["adgov","Deputy Ruler of Abu Dhabi","political","v"],
@@ -453,7 +454,7 @@ const PEOPLE = [
     ["execcouncil","Member","political","v"],
     ], note:"Brother of Khaldoon; controls the culture–tourism–real-estate triangle."},
   {id:"mugheer_khaili", n:"Dr. Mugheer Khamis Al Khaili", t:1, p:80, s:"gov", roles:[
-    ["dcd","Chairman","government","v"],
+    ["dcd","Chairman (–Jan 2026)","government","v","former:until Jan 2026"],
     ["execcouncil","Member","political","v"],
     ]},
   {id:"saif_ghobash", n:"Saif Saeed Ghobash", t:1, p:80, s:"gov", roles:[
@@ -665,6 +666,7 @@ const PEOPLE = [
     ]},
   {id:"shaikha_dhaheri", n:"Dr. Shaikha Salem Al Dhaheri", t:2, p:74, s:"gov", roles:[
     ["ead","Secretary-General","executive","v"],
+    ["atrc","Board Member, ATRC","board","v"],
     ]},
   {id:"ali_tadweer", n:"Ali Al Dhaheri", t:2, p:64, s:"industry", roles:[
     ["tadweer","Managing Director & CEO","executive","ns"],
@@ -2374,6 +2376,7 @@ const PEOPLE = [
     ]},
   {id:"mohamed_ali_al", n:"Mohamed Ali Al Shorafa Al Hammadi", t:2, p:62, s:"finance", roles:[
     ["sca","Chairman of the Board of Directors","board","ns"],
+    ["atrc","Board Member, ATRC","board","v"],
     ]},
   {id:"faisal_yousuf_selaitin", n:"Faisal Yousuf Selaitin", t:2, p:62, s:"finance", roles:[
     ["sca","Vice Chairman of the Board of Directors","board","ns"],
@@ -2442,6 +2445,12 @@ const PEOPLE = [
   {id:"ahmad_jasim_al", n:"Ahmad Jasim Al Zaabi", t:2, p:62, s:"gov", roles:[
     ["adio","Chairman","board","v"],
     ]},
+  {id:"sara_awad_issa", n:"Sara Awad Issa Musallam", t:2, p:52, s:"tech", roles:[
+    ["atrc","Board Member, ATRC","board","v"],
+    ]},
+  {id:"shamis_ali_khalfan", n:"Shamis Ali Khalfan Al Dhaheri", t:2, p:62, s:"gov", roles:[
+    ["dcd","Chairman (Jan 2026–)","government","v"],
+    ], note:"Succeeded Mugheer Al Khaili as DCD Chairman by Emiri decree Jan 2026."},
 ];
 
 const OWNERSHIP = [

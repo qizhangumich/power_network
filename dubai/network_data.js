@@ -186,6 +186,8 @@ const INSTITUTIONS = [
   {id:"dubai_media_inc", n:"Dubai Media Incorporated", s:"comm", t:1, p:68, short:"Dubai Media Inc"},
   {id:"economic_zones_world", n:"Economic Zones World", s:"industry", t:2, p:60, short:"Economic Zones World"},
   {id:"drydocks_world", n:"Drydocks World", s:"industry", t:2, p:58, short:"Drydocks World"},
+  {id:"dutco", n:"Dutco Group", s:"conglomerate", t:3, p:56, short:"Dutco Group"},
+  {id:"landmark", n:"Landmark Group", s:"consumer_disc", t:2, p:60, short:"Landmark Group"},
 ];
 
 const PEOPLE = [
