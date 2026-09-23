@@ -1,0 +1,5 @@
+# ADIA buys into Saudi university endowment’s portfolio sale
+source: PEI Secondaries Investor
+url: https://news.google.com/rss/articles/CBMinwFBVV95cUxPa21iMDhLWllrSVdZUDNQY1N1VjNzYU5aandfTTVvSXQ3YTdKRDJlc2xESDdMNGxoTDE4NE1HWGNYYVB4Z0JKVkhneTJVU0lSQVl6ckVqXzJmZ1FlZkE1MkhGaWhhb0tTQ2JlY3pZQTJvdFhuNWJSYnlaU0UtZnFTV1dMZjlIbXB1MTMyN0luZTgwY1pxaFhLVlc5d0gzdjQ?oc=5
+
+ADIA buys into Saudi university endowment’s portfolio sale    PEI Secondaries Investor

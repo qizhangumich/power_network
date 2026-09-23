@@ -1,0 +1,5 @@
+# Firefighting from the sky: UAE firm starts high-altitude monitoring mission in Spain
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQnB0aEhtZGxUSXd6TTBqVjRXbHN2MWpNY01HQnBuOEhMazJsSlhSNkdEMU5jX014dWk3bG4xN2o5Umx6ZUhwVE1OX2tWbWlULTNqLUlmOExqQkNMUXFJaWQ4VHFxTDlWYUN0cmJpem1nNW1CMk9TZklrQWxncTgyZmxqREsxYWZrZHhUbmFEWVpEdlVQQUdzWGdIV1FCVFpGQUx5MWlCTGF3TnNmWjc0eFRaeUNUWnlEcUNCTFUwSkpSM1BaZGNmUXg5TWg3ekhlUUE?oc=5
+
+Firefighting from the sky: UAE firm starts high-altitude monitoring mission in Spain    thenationalnews.com

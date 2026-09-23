@@ -1,0 +1,5 @@
+# Beam and Masdar City partner to explore smart-energy and clean-mobility technologies
+source: Middle East Construction News
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNc0FJdTAySGIzcWh2SW80Y3RGYTZGV3VvaXRYQ3Vqa2lHSXpDSnE1V01DRTBBalY2ZUpZYUN2eDdLZjdKVHg2bURXcG5MRXFvd3FjcDljUm9WbGN1YlBpaDNjd29zUFhHdmVyXzVnR1pEY3EyaTRNSGNpZHdzMi00dEppNHlYdzRwYkN4RWZsc3ltSndQTGpPaHBsYmhMUkFScW5FM3JnUExsTGhoZXdaUnc0TmVlTUYxcThTV3FR?oc=5
+
+Beam and Masdar City partner to explore smart-energy and clean-mobility technologies    Middle East Construction News

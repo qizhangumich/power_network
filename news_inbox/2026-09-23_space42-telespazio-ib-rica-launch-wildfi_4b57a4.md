@@ -1,0 +1,5 @@
+# Space42, Telespazio Ibérica launch wildfire-monitoring mission in Spain
+source: Zawya
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxNZW1TQTU3cW5NN1NtSmZnbmt4T0l6aDJHRzM1NVdXc1d0R00wa3JPb1FLTVduTmpIWEw0SDRJbXVDM1kzd0t1VG1wTURNc2JSRk1JSzR1Q0xQaktlZzN3cEx0OFRnTm9NbEg4UklwX05jQV9TZ1pUWGtzblpST3hrUVc2UnkzWTk2cFJtWFlSOHkwVmFnRUZMRG1FX1U5QWEycTRGeUUyaWFRMHdCWWJfQVVB?oc=5
+
+Space42, Telespazio Ibérica launch wildfire-monitoring mission in Spain    Zawya

@@ -1,0 +1,5 @@
+# Masdar Says 38% Increase In Clean Electricity Generation From Its Operating Projects In 2025
+source: tradingview.com
+url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxPS1BNMm1TSlF4cVNpdzJnT1BpQm9ETjY1OWZmZm5HRzQwdXFTamltNk85OUxzV245cXQtc2RzODNfbnVac3JzSE0zZ3d5TVV3TDlIR01oU1FxdTJsb19uNWZwaEdHSE5TTzUtZXAyLXlyTjg5bnZjbUZ1YkROZmNEZDJRR3djRzRDT2ZVOGx2SVYtYkZnWklQelA0d1NScE9vN1FxTHhnbUxtRUE2aWN6V0pETUVzSlVISE9RRGZUZHVDWGNFa1hxU3hrMDdJdzcxS3B2dXR3dHFpMnY3ZEhYWTFlU2VocDJ6NUZzLTN1cnRDMWs?oc=5
+
+Masdar Says 38% Increase In Clean Electricity Generation From Its Operating Projects In 2025    tradingview.com
