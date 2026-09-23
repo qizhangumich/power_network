@@ -1,0 +1,5 @@
+# New World, ADIA in talks for HK$3 bil hotel sale to UOL — Bloomberg
+source: The Edge Singapore
+url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOMkRWdzEwOU04NzdtaWpuYk5qVFBFTktDdU5fT2l5QmdhdEY3WnFZc3djVTJERVJVdlhSZGNHT1ozejVUcnY5SDVLRk1oczIwREFST1FiOHo4UzJjaDlCUzlBS18wRTRaR1RxWUQxRjIydWYxUklyaGJfS2piMXcyRmhVMDZIVHR0TGxNMNIBkgFBVV95cUxQTFFFTXBEX19NQW95QVRYd1l2cnBVYXZQRTNqTk1LMEsyUFYxemtWUXNnbGt6TlFxbXA0UHJkOHY0WEF4VjJ6WWtjU214MFJfd1BIQ0R3N2lwekpOb2VWcnZrZXcyOXdmV0JvWi1sd3YzMENJYnFRQW03QjQ3QlZmeXFQOF9oS3FheFY4R1pKSEZFQQ?oc=5
+
+New World, ADIA in talks for HK$3 bil hotel sale to UOL — Bloomberg    The Edge Singapore

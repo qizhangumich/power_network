@@ -1,0 +1,5 @@
+# Etihad expands business programme with priority rebooking and dedicated TMC support
+source: TTGmice
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSW5oOExOLW8tbXhSQVlvR2tTUXpSMDM4NmdxTzRhTjZ3X1E0QTV2ZFR6ZzJvY3NZRzFqbHBXQjk2eTFrZS1iLWtVWGdzaDJqZ0xrWW5qOU9RdHZLT2JXalZ1QzhqZDVVcHNHSUFWbTdlYm4zeWtNVk5WVnAzdEJlVXJvWGluUTlNWmZna0Jzd2xyay03NjNxQjhReEx4eXFFUC1XYy1LN2RRdnlYUnBsems0T3BVd1d4SGc4?oc=5
+
+Etihad expands business programme with priority rebooking and dedicated TMC support    TTGmice

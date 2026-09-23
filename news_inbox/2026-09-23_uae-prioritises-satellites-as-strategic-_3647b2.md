@@ -1,0 +1,5 @@
+# UAE prioritises satellites as strategic space asset
+source: Fortune
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxNRkgwNzNocDduYWlqVTA4VmZIdlNLem5zNVVsRDJBOEVqTXU5bjU0SEFhanBXc0ZUZkw1d1liTHRCQmc0Zi12TDhzME5RdXpkY0IwSF9wT0hXaVhPbXNDTjNWbEpIVXBjSnpZeHVOXzlaX2VqcmdCdlhGSTUwdWt6Y0tiTjhGdmxPS0dnMG1EcVVfZ1l4WHdfRVdLemI3ZmpSNTA4?oc=5
+
+UAE prioritises satellites as strategic space asset    Fortune

@@ -1,0 +1,5 @@
+# AD Ports Confirms Satisfaction of All Takeover Offer Conditions by Abu Dhabi Developmental Holding
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWXAzSm50UTNnWnVUVGc3c3E5bGc4SHRtX2FqUERuTEwxNEhwVjZ2ckphSXc0TTRjYmU4V3JSWVFDdXBhaDFsVHlEMUNabElJNHVsYjVSQjBhc09HbExTV3Zpczl2enRKeXVEU2VtWldXdE5IU0dzVHh4aWR1MXZYd0RIZlJRSVd5eFdrSzRsTHZOd2JTaGFJS0RMcXhTZ2xqMW9MdHludlQxLXRUOG9iZ3lqQ0hlaDdFQkdzbTBuZlpkVFNNRV80eEYxUGU0LUVCQ25kc2FRM1BzRUpGV0kyN1doXzltZw?oc=5
+
+AD Ports Confirms Satisfaction of All Takeover Offer Conditions by Abu Dhabi Developmental Holding    marketscreener.com
