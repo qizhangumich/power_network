@@ -1,0 +1,5 @@
+# Space42’s HAPS Platform begins wildfire surveillance campaign in Spain
+source: SatellitePro ME
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxObUpSRVFoajBra2VIRVA4TUptRnppM2FpLXpfWkFfcFNSZVhScXVlWnZad1FXM2E2SXB3eXJGRVk0bi1DS0VkcG1MU0Vjemk1My1mWF9lYnhTMlIwTmJjSDF3ZFFndmZhcEFkRW9Ca3J5Zm9lVnc0SmdNcDlmLVBscHhnZEV1Q0k5dGxocWUzeVY5VzNJajBHVE95bVZaMUhyb0djXw?oc=5
+
+Space42’s HAPS Platform begins wildfire surveillance campaign in Spain    SatellitePro ME
