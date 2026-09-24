@@ -151,13 +151,13 @@ lst_purehealth,Pure Health Holding PJSC,PUREHEALTH,health,2,50
 lst_2pointzero,Two Point Zero Group PJSC,2POINTZERO,tech,2,50
 lst_agility,Agility Global PLC,Agility Global PLC,industry,2,50
 lst_apex,Apex Investment PSC,Apex Investment PSC,finance,2,50
-lst_sib,Sharjah Islamic Bank PJSC,SIB,finance,2,50
+lst_sib,Sharjah Islamic Bank PJSC,SIB,finance,2,64
 lst_inb,Invest Bank P.S.C.,Invest Bank P.S.C.,finance,2,50
 lst_alefedt,Alef Education Holding plc,ALEFEDT,consumer_disc,2,50
 lst_oras,Orascom Construction PLC,ORAS,industry,2,50
 lst_dana,Dana Gas PJSC,Dana Gas PJSC,energy,2,50
 lst_adaviation,Abu Dhabi Aviation Company,ADAVIATION,industry,2,50
-lst_bos,Bank of Sharjah PJSC,Bank of Sharjah PJSC,finance,2,50
+lst_bos,Bank of Sharjah PJSC,Bank of Sharjah,finance,2,60
 lst_uab,United Arab Bank PJSC,UAB,finance,2,50
 lst_emobility,Emirates Mobility Company PJSC,EMOBILITY,industry,2,50
 lst_icap,Investcorp Capital plc,ICAP,finance,2,50
