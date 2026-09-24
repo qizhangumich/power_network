@@ -1403,6 +1403,8 @@ const PEOPLE = [
     ["moj_qatar","Minister of Justice and Minister of State for Cabinet Affairs","executive","v"]]},
   {id:"saeed_bin_abdullah", n:"Saeed bin Abdullah Al Suwaidi", t:2, p:58, s:"gov", roles:[
     ["moj_qatar","Undersecretary of the Ministry of Justice","executive","v"]]},
+  {id:"jassim_rashid_al", n:"Jassim Rashid Al Buenain", t:2, p:58, s:"gov", roles:[
+    ["qoc","Secretary-General","executive","v"]]},
 ];
 
 const OWNERSHIP = [

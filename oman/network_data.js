@@ -249,6 +249,7 @@ const PEOPLE = [
 
   // ===== ADDED SEP 2026 — KEY MINISTRIES PREVIOUSLY MISSING FROM THE MAP =====
   {id:"alaufi_energy", n:"Eng. Salim bin Nasser bin Said Al Aufi", t:1, p:78, s:"energy", roles:[
+    ["spf","Chairman of the Board of Directors","board","v"],
     ["edo","Chairman and Non-Executive Director","board","v"],
     ["moem_om","Minister of Energy & Minerals","political","v"]],
     note:"Appointed 16 June 2022; retained in the January 2026 Royal Decree 17/2026 cabinet restructuring."},
@@ -268,6 +269,7 @@ const PEOPLE = [
   {id:"sheikh_ahmed_bin", n:"Sheikh Ahmed bin Hamed Al Sadi", t:2, p:62, s:"finance", roles:[
     ["bankmuscat","Deputy Chairman","board","v"]]},
   {id:"dr_faisal_bin", n:"Dr. Faisal bin Abdullah Al Farsi", t:2, p:52, s:"finance", roles:[
+    ["spf","Chief Executive Officer","executive","v"],
     ["lst_mhas","Board Member","board","v"],
     ["bankmuscat","Director","board","v"]]},
   {id:"sheikh_said_bin", n:"Sheikh Said bin Mohammed Alharthy", t:2, p:52, s:"finance", roles:[

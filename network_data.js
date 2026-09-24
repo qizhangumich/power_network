@@ -2293,6 +2293,7 @@ const PEOPLE = [
     ]},
   {id:"rima_al_mokarrab", n:"Rima Al Mokarrab Al Muhairi", t:2, p:52, s:"education", roles:[
     ["mbzuai","Board of Trustees Member","board","v"],
+    ["eaa","Executive Director of Strategic Affairs Unit","executive","ns"],
     ]},
   {id:"daniela_rus", n:"Daniela Rus", t:2, p:52, s:"education", roles:[
     ["mbzuai","Board of Trustees Member","board","v"],
@@ -2573,6 +2574,9 @@ const PEOPLE = [
     ]},
   {id:"antonio_di_cecca", n:"Antonio Di Cecca", t:2, p:58, s:"utilities", roles:[
     ["tabreed","Chief Operating Officer","executive","v"],
+    ]},
+  {id:"hamad_ali_al", n:"Hamad Ali Al Dhaheri", t:2, p:58, s:"gov", roles:[
+    ["dcd","Undersecretary","executive","v"],
     ]},
 ];
 

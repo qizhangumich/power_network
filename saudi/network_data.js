@@ -1951,6 +1951,8 @@ const PEOPLE = [
     ["gea","Board Member","board","v"]]},
   {id:"sinan_esmat_al", n:"Sinan Esmat Al-Saady", t:2, p:52, s:"gov", roles:[
     ["gea","Board Member","board","v"]]},
+  {id:"salman_bin_yousef", n:"Salman bin Yousef Al-Dosari", t:2, p:58, s:"comm", roles:[
+    ["momedia_sa","Minister of Media","executive","v"]]},
 ];
 
 const OWNERSHIP = [

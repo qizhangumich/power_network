@@ -1,5 +1,4 @@
 ﻿region,institution_id,name,sector,power,people_linked,status
-abudhabi,eaa,Executive Affairs Authority,gov,82,1,pending
 abudhabi,microsoft,Microsoft,tech,80,0,pending
 abudhabi,tawazun,Tawazun Council,gov,76,1,pending
 abudhabi,blackrock,BlackRock,finance,76,0,pending
@@ -8,17 +7,13 @@ abudhabi,openai,OpenAI,tech,74,0,pending
 abudhabi,nvidia,NVIDIA,tech,74,0,pending
 saudi,moc_sa,Ministry of Commerce,gov,74,1,pending
 saudi,moe_sa,Ministry of Education,education,74,1,pending
-abudhabi,dcd,Department of Community Development,gov,72,1,pending
 abudhabi,totalenergies,TotalEnergies,energy,72,0,pending
 dubai,gdmo,Government of Dubai Media Office,comm,72,1,pending
 oman,mtcit_om,"Ministry of Transport, Communications & IT",tech,72,1,pending
-oman,spf,Social Protection Fund,finance,72,0,pending
 qatar,mot_q,Ministry of Transport,gov,72,1,pending
-qatar,qoc,Qatar Olympic Committee,gov,72,1,pending
 qatar,psg,Paris Saint-Germain,comm,72,1,pending
 qatar,totalenergies,TotalEnergies,energy,72,0,pending
 saudi,mos_sa,Ministry of Sport,gov,72,1,pending
-saudi,momedia_sa,Ministry of Media,comm,72,1,pending
 abudhabi,spaceagency,UAE Space Agency,tech,70,1,pending
 abudhabi,khazna,Khazna Data Centers,tech,70,1,pending
 abudhabi,adnec,ADNEC Group,consumer_disc,70,1,pending
