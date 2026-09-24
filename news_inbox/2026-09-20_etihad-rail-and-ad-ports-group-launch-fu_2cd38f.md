@@ -1,0 +1,5 @@
+# Etihad Rail and AD Ports Group launch Fujairah-ICAD rail service
+source: dataportuaria.com
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxONnE1SlFKY3FPQ3BhaEZfb18xMWhTQXlpSWszMXVDMjRxbmJEclhHOVVxRVNqRUxRWkFNMm9PcmkyUG04cjFQanl1eTZrZ1pIcVkwTjRLeldndUo5bnhUN2h1V29yeHNlYThsaVQ2SmhWVHVXN0hkQjZ4RGp2ZnZvckhSemV1VlVJQkR3SnZlamlqSVE2VHNIZGJINlBkT2dCVkNJQWwwMzV5bXRrVC13eWUxaw?oc=5
+
+Etihad Rail and AD Ports Group launch Fujairah-ICAD rail service    dataportuaria.com

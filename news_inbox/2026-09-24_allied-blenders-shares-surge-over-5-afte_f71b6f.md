@@ -1,0 +1,5 @@
+# Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake
+source: Upstox
+url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMDR6NmpHd0RrV2pEazlveURwbmt3TnFPZXVJZzdSZmRxXzNnV3Q2bFlQX1ZYYjdRRVBuWWlZS05mRWd3SzU3TXJqRHNyOWdEMXh3dmlvYzYzdXhVdGU5MXY5b2o0TmFNRUJZSUhuMlF4OGVGTzVjTGVMV29hd0duS1JnM2xrdC1pT0J5OVBfRVJ3SjJNYVNtb0pmOGpYUDQtRTVuU0x1UWdHLU1XbWFuREtnQUlaeXE2YVpvUndDLUozbVlZMUpfR1pGLUREMlBNYjBUX1pnVWV6OVJWV09MSWZZNmFMOUZlVlpEU1Rn?oc=5
+
+Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake    Upstox

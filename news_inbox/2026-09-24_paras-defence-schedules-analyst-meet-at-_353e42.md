@@ -1,0 +1,5 @@
+# Paras Defence schedules analyst meet at Emerging India CEO Forum
+source: scanx.trade
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxPaDFRWktvQ0xGN0thcnVZWFN2WkZRTl9NWXNGSUFEUTMyZjA0WGxrczBFb1RuVVpUR0gzRmVxM1RjSkx6UzlDX1VYQTByOEUzenp2cXFjdk5VNHBmZXktUjB2X1FmQll4OWFTOXJoeFJGOHJ4am42eEVHaHVVZGZxUHF1dmFhRWw0UHROa0lpbXM2R1dGZlVjNnptMGYwa1BQczNrV0FpSF91ODdzOHNleVNqaGs5T20tcXc?oc=5
+
+Paras Defence schedules analyst meet at Emerging India CEO Forum    scanx.trade

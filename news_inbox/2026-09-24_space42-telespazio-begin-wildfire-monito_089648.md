@@ -1,0 +1,5 @@
+# Space42, Telespazio begin wildfire monitoring flights in Spain
+source: Telecompaper
+url: https://news.google.com/rss/articles/CBMipwFBVV95cUxNcU1NeF8zdmNYaG8xX0djTnRkdTNWU3l0QjI3YWF2U0RwTFFDSGZIZzhSREVXU09scF9DSm94SWMwWldycGJyY1M1aFB4Qi1QZ0stdmdOXzBYTkJpN3RyakN1dVBuSjkzN0pfcFNCWU5rMUhFZEhhQ2xxajE1aFpNYk5QMlNCd1F6MDlZWDBWc2l4OGM2UXNlcEFGREVGZ01XeVlMQWNKUQ?oc=5
+
+Space42, Telespazio begin wildfire monitoring flights in Spain    Telecompaper

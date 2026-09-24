@@ -1,0 +1,5 @@
+# Avenir Investment acquires control of Sammaan Capital
+source: scanx.trade
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxQYi1kdGY4ZWs1YUtxMEs5cGhoNjRwanlsU0U2WkVLaTlnYVc3YTF6VVM5NWlWd21CY081d0ptZHFhc3pWbzVkWktMWUdlUGQ1cmFDai1iclBjVzdMY2cyWjRoa1VHVWU0T3FtZFBGZDlKdkZ4WFlobzhZc2ZUVVRKbk9Ld1pyaG15SEc5ODg0ekpUbDZiZUpyZ1VfMUJ6c0g0NHpBY2FwUEQ2Rm05cnM2X2NOcnZzZU1IdWxqS0FhTjN2RDVrWFRDb1RhV2J0SW43bTZZZDgwYnJHQTN1a2FpaU5kTmZadw?oc=5
+
+Avenir Investment acquires control of Sammaan Capital    scanx.trade

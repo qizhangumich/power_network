@@ -1,0 +1,5 @@
+# Masdar operating projects generate 38% more clean electricity in 2025
+source: tradingview.com
+url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcm8xRmpPTW5XUm1KZUtaYWhlQmZXTmlycFVvSWhNUkhMVXhaZHJ1ejk3TVBJWUEzaHFQZWdlenp1UkI1MDNZT0NuRHR5WVJ2aGx1WlM1RDJhdTloYXBRNUxkWGozZ0xveWI0VV8yRUVudTRaZ1JQYWhjVGVOWEpjV21fMktPMEt3NWJ3YXFOWGpaX2Qxc0VrLVZ6bFFKZ283Z1lZRjRKQlYzV1hQdXZMMjRDbW5kZkdaencxQ0FGVnhBdmdERGN3WW9BVkdwQUxoZW85NU90bk1Kbms2?oc=5
+
+Masdar operating projects generate 38% more clean electricity in 2025    tradingview.com
