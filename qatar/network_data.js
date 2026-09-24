@@ -120,7 +120,7 @@ const INSTITUTIONS = [
   {id:"lst_eres", n:"Ezdan Holding Group Q.P.S.C.", s:"realestate", t:2, p:60, short:"Ezdan"},
   {id:"lst_igrd", n:"Estithmar Holding Q.P.S.C.", s:"conglomerate", t:2, p:50, short:"IGRD"},
   {id:"lst_dubk", n:"Dukhan Bank Q.P.S.C.", s:"finance", t:2, p:64, short:"Dukhan Bank"},
-  {id:"lst_qiik", n:"Qatar International Islamic Bank Q.P.S.C.", s:"finance", t:2, p:50, short:"QIIK"},
+  {id:"lst_qiik", n:"Qatar International Islamic Bank Q.P.S.C.", s:"finance", t:2, p:64, short:"QIIK"},
   {id:"lst_mphc", n:"Mesaieed Petrochemical Holding Company Q.P.S.C.", s:"materials", t:2, p:50, short:"MPHC"},
   {id:"lst_qfls", n:"Qatar Fuel Company Q.P.S.C. (WOQOD)", s:"energy", t:2, p:64, short:"WOQOD"},
   {id:"lst_abqk", n:"Ahli Bank Q.P.S.C.", s:"finance", t:2, p:50, short:"Ahli Bank Q.P.S.C."},
@@ -267,12 +267,12 @@ const PEOPLE = [
     ["qatarenergy","President & CEO","executive","v"],
     ["qatarairways","Chairman","board","v"],
     ["industriesqatar","Chairman and Managing Director","board","v"],
-    ["qewc","Chairman","board","ns"]],
+    ["qewc","Chairman","board","v"],
+    ["qia","Member of the Board","board","v"]],
     note:"Runs the hydrocarbon engine — the single most consequential operator in Qatar's economy."},
   {id:"alkuwari_fin", n:"H.E. Ali bin Ahmed Al Kuwari", t:1, p:86, s:"finance", roles:[
     ["mofin","Minister of Finance","political","v"],
     ["qnb","Chairman","board","v"],
-    ["masraf","Chairman","board","ns"],
     ["qia","Member of the Board","board","v"]]},
   {id:"attiyah", n:"H.E. Khalid bin Mohamed Al Attiyah", t:1, p:82, s:"gov", roles:[
     ["barzan","Chairman","board","ns"],
@@ -531,6 +531,7 @@ const PEOPLE = [
   {id:"abdulla_ali_al_b", n:"Abdulla Ali Al-Marri", t:2, p:46, s:"sovereign", roles:[
     ["qia","Head of QIA Advisory (Asia Pacific)","executive","v"]]},
   {id:"abdulla_ali", n:"Abdulla Ali", t:2, p:58, s:"industry", roles:[
+    ["hia","Chief Operating Officer, Qatar Airways Group (covering Hamad International Airport operations)","executive","ns"],
     ["qatarairways","Chief Operating Officer","executive","v"]]},
   {id:"calum_laming", n:"Calum Laming", t:2, p:58, s:"industry", roles:[
     ["qatarairways","Chief Customer Officer","executive","v"]]},
@@ -1066,8 +1067,6 @@ const PEOPLE = [
     ["qia","Chairman","board","v"]]},
   {id:"h_e_sheikh_b_b_b_b_b_b_b_b_b_b_b_b_b", n:"H.E. Sheikh Mohammed bin Hamad bin Khalifa Al Thani", t:2, p:62, s:"sovereign", roles:[
     ["qia","Vice Chairman","board","v"]]},
-  {id:"h_e_mr", n:"H.E. Mr. Saad bin Sherida Al-Kaabi", t:2, p:52, s:"sovereign", roles:[
-    ["qia","Member of the Board","board","v"]]},
   {id:"mansoor_bin_ebrahim", n:"Mansoor bin Ebrahim Al-Mahmoud", t:2, p:60, s:"sovereign", roles:[
     ["qfc","Board Member","board","v"],
     ["moph","Minister of Public Health","executive","v"],
@@ -1539,6 +1538,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  udst:["Doha for Science and Technology"],
   lst_qati:["QATI","QIC","Qatar Insurance Group"],
   masraf:["Al Rayan Bank","MARK","AlRayan Bank"],
   qewc:["Qatar Electricity & Water Co","QEWC"],

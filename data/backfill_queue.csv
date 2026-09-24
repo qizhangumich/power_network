@@ -7,8 +7,6 @@ abudhabi,twopointzero,2PointZero (pre-merger IHC platform; merged into 2PointZer
 abudhabi,openai,OpenAI,tech,74,0,pending
 abudhabi,nvidia,NVIDIA,tech,74,0,pending
 saudi,moc_sa,Ministry of Commerce,gov,74,1,pending
-saudi,moind,Ministry of Industry & Mineral Resources,gov,74,1,pending
-saudi,mot_sa,Ministry of Tourism,gov,74,1,pending
 saudi,moe_sa,Ministry of Education,education,74,1,pending
 abudhabi,dcd,Department of Community Development,gov,72,1,pending
 abudhabi,totalenergies,TotalEnergies,energy,72,0,pending
@@ -119,7 +117,6 @@ kuwait,kfaed,Kuwait Fund for Arab Economic Development,sovereign,62,0,pending
 kuwait,cma_kuwait,Capital Markets Authority,gov,62,0,pending
 kuwait,part_kuwait,Public Authority for Roads and Transportation,industry,62,0,pending
 kuwait,kic,Kuwait Investment Company,finance,62,0,pending
-northern,sba,Sharjah Book Authority,comm,62,1,pending
 oman,tra_oman,Telecommunications Regulatory Authority,gov,62,0,pending
 oman,apsr_oman,Authority for Public Services Regulation,gov,62,0,pending
 oman,state_council,State Council (Majlis Al Dawla),gov,62,0,pending
@@ -181,7 +178,6 @@ dubai,landmark,Landmark Group,consumer_disc,60,0,pending
 kuwait,kpa,Kuwait Ports Authority,industry,60,0,pending
 northern,ajman_ded,Ajman Department of Economic Development,gov,60,1,pending
 northern,albatha,Albatha Group,conglomerate,60,1,pending
-northern,epaa,Environment and Protected Areas Authority (Sharjah),gov,60,1,pending
 northern,fnrc,Fujairah Natural Resources Corporation,energy,60,0,pending
 oman,royalhosp,The Royal Hospital (Muscat),health,60,1,pending
 oman,oq8,Duqm Refinery and Petrochemical Industries Company,energy,60,0,pending
@@ -306,7 +302,7 @@ saudi,wera,Water and Electricity Regulatory Authority,gov,58,0,pending
 saudi,k_a_care,King Abdullah City for Atomic and Renewable Energy,gov,58,0,pending
 saudi,ppa,Public Pension Agency,gov,58,0,pending
 saudi,ncp,National Center for Privatization and PPP,gov,58,0,pending
-saudi,nwc,National Water Company,utilities,58,0,pending
+saudi,nwc,National Water Company,utilities,58,1,pending
 saudi,naif_alrajhi_inv,Naif Alrajhi Investment,realestate,58,0,pending
 saudi,xenel,Xenel Industries,industry,58,0,pending
 saudi,masic,MASIC,finance,58,0,pending
@@ -324,6 +320,7 @@ saudi,rotana_media,Rotana Media Group,comm,58,0,pending
 saudi,stc_bank,Saudi Digital Payments Company (stc Bank),finance,58,1,pending
 saudi,nesma_partners,Nesma & Partners,industry,58,0,pending
 saudi,site,Saudi Information Technology Company,tech,58,0,pending
+abudhabi,al_dhafra_petro,Al Dhafra Petroleum,energy,57,0,pending
 dubai,chalhoub,Chalhoub Group,consumer_disc,57,0,pending
 dubai,galadari_brothers,Galadari Brothers Group,conglomerate,57,0,pending
 kuwait,al_babtain,Al Babtain Group,industry,57,0,pending
@@ -340,6 +337,7 @@ abudhabi,q,Q Holding PJSC,conglomerate,56,0,pending
 abudhabi,al_nasser,Al Nasser Holdings,industry,56,0,pending
 abudhabi,bluefive_capital,BlueFive Capital,finance,56,0,pending
 abudhabi,aldar_estates,Aldar Estates,realestate,56,0,pending
+abudhabi,q_2,Q Holding,finance,56,0,pending
 bahrain,beyon_solutions,Beyon Solutions,tech,56,0,pending
 dubai,meydan,Meydan Group,consumer_disc,56,0,pending
 dubai,dafza,Dubai Airport Free Zone Authority,gov,56,0,pending
@@ -578,7 +576,6 @@ abudhabi,scad,Statistics Centre Abu Dhabi,gov,50,0,pending
 abudhabi,adqcc,Abu Dhabi Quality and Conformity Council,gov,50,0,pending
 bahrain,lst_kfh,Kuwait Finance House K.S.C.P.,finance,50,0,pending
 bahrain,lst_ugic,United Gulf Investment Corporation B.S.C.,finance,50,0,pending
-dubai,lst_airarabia,Air Arabia PJSC,industry,50,0,pending
 dubai,lst_etihadenergy,Etihad Energy Holding PJSC,industry,50,0,pending
 dubai,lst_gfh,GFH Bank B.S.C.,finance,50,0,pending
 dubai,lst_nind,National Industries Group Holding K.P.S.C.,conglomerate,50,0,pending

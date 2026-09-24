@@ -326,6 +326,7 @@ const PEOPLE = [
   {id:"feras_al_naimi", n:"Feras Al Naimi", t:2, p:60, s:"realestate", roles:[
     ["arada","Chief Executive Officer - Nexus","executive","v"]]},
   {id:"h_h_sheikh", n:"H.H. Sheikh Rashid bin Humaid bin Rashid Al Nuaimi", t:2, p:62, s:"finance", roles:[
+    ["ajmgov","Executive Council Member; Chairman of Municipality and Planning Department","board","v"],
     ["al_zorah_dev","Chairman of the Board of Directors","board","v"],
     ["ajmanbank","Vice Chairman","board","v"]]},
   {id:"abdullah_mohammed_hassan", n:"Abdullah Mohammed Hassan Mohammed Alhosani", t:2, p:52, s:"finance", roles:[
@@ -600,6 +601,7 @@ const PEOPLE = [
     ["hfza","Director","executive","v"],
     ["saif_zone","Director","executive","v"]]},
   {id:"ahmed_bin_humaid", n:"Ahmed bin Humaid Al Nuaimi", t:2, p:62, s:"gov", roles:[
+    ["ajmgov","Vice Chairman of the Executive Council","executive","v"],
     ["afz","Chairman","board","v"]]},
   {id:"ismail_al_naqi", n:"Ismail Al Naqi", t:2, p:58, s:"gov", roles:[
     ["afz","Director General","executive","v"]]},
@@ -779,6 +781,12 @@ const PEOPLE = [
     ["university_of_sharjah","Board of Trustees Member","board","v"]]},
   {id:"mohd_hamdi_abdul", n:"Mohd Hamdi Abdul Shukor", t:2, p:52, s:"education", roles:[
     ["university_of_sharjah","Board of Trustees Member","board","v"]]},
+  {id:"sheikh_abdulaziz_bin", n:"Sheikh Abdulaziz bin Humaid Al Nuaimi", t:2, p:52, s:"gov", roles:[
+    ["ajmgov","Executive Council Member; Head of Department of Land & Real Estate Regulation","board","v"]]},
+  {id:"ahmed_bin_rakkad", n:"Ahmed bin Rakkad Al Ameri", t:2, p:60, s:"comm", roles:[
+    ["sba","Chief Executive Officer of Sharjah Book Authority","executive","v"]]},
+  {id:"aisha_rashid_ali_b", n:"Aisha Rashid Ali Bin Dimas Al Suwaidi", t:2, p:62, s:"gov", roles:[
+    ["epaa","Chairperson of the Environment and Protected Areas Authority","executive","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -65,7 +65,7 @@ const INSTITUTIONS = [
   {id:"jumaalmajid", n:"Juma Al Majid Group",         s:"conglomerate", t:3, p:60, short:"Juma Al Majid"},
   {id:"lst_salik", n:"Salik Company P.J.S.C.", s:"industry", t:2, p:64, short:"Salik"},
   {id:"lst_talabat", n:"Talabat Holding plc", s:"consumer_disc", t:2, p:62, short:"talabat"},
-  {id:"lst_airarabia", n:"Air Arabia PJSC", s:"industry", t:2, p:50, short:"Air Arabia PJSC"},
+  {id:"lst_airarabia", n:"Air Arabia PJSC", s:"industry", t:2, p:68, short:"Air Arabia"},
   {id:"lst_parkin", n:"Parkin Company P.J.S.C.", s:"industry", t:2, p:60, short:"Parkin"},
   {id:"lst_etihadenergy", n:"Etihad Energy Holding PJSC", s:"industry", t:2, p:50, short:"ETIHADENERGY"},
   {id:"lst_gfh", n:"GFH Bank B.S.C.", s:"finance", t:2, p:50, short:"GFH Bank B.S.C."},
@@ -1526,6 +1526,10 @@ const PEOPLE = [
     ["cbd","Board Member","board","v"]]},
   {id:"hadi_mohammad_badri", n:"Hadi Mohammad Badri", t:2, p:52, s:"finance", roles:[
     ["cbd","Board Member","board","v"]]},
+  {id:"sheikh_abdullah_bin", n:"Sheikh Abdullah Bin Mohammed Al Thani", t:2, p:62, s:"industry", roles:[
+    ["lst_airarabia","Chairman","board","v"]]},
+  {id:"adel_ali", n:"Adel Ali", t:2, p:60, s:"industry", roles:[
+    ["lst_airarabia","Group CEO","executive","v"]]},
 ];
 
 const OWNERSHIP = [

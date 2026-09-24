@@ -554,13 +554,13 @@ const PEOPLE = [
   {id:"alfaqeer", n:"Faisal Al-Faqeer", t:2, p:72, s:"materials", roles:[
     ["sabic","CEO","executive","v"]]},
   {id:"wilt", n:"Bob Wilt", t:2, p:68, s:"materials", roles:[
-    ["maaden","CEO","executive","ns"]]},
+    ["maaden","CEO","executive","v"]]},
   {id:"alwetaid", n:"Olayan Mohammed Alwetaid", t:2, p:70, s:"comm", roles:[
     ["stc","Group CEO","executive","v"]]},
   {id:"abunayyan", n:"Mohammad Abunayyan", t:2, p:76, s:"utilities", roles:[
     ["acwa","Founder & Chairman","board","v"]]},
   {id:"tareq_amin", n:"Tareq Amin", t:2, p:72, s:"tech", roles:[
-    ["humain","CEO","executive","ns"]]},
+    ["humain","CEO","executive","v"]]},
   {id:"amit_midha", n:"Amit Midha", t:2, p:64, s:"tech", roles:[
     ["alat","CEO","executive","ns"]]},
   {id:"tony_douglas", n:"Tony Douglas", t:2, p:70, s:"industry", roles:[
@@ -720,6 +720,7 @@ const PEOPLE = [
   {id:"waleed_abdullah_al", n:"Waleed Abdullah Al-Mogbel", t:2, p:60, s:"finance", roles:[
     ["alrajhi","Director & Managing Director","board","v"]]},
   {id:"khalid_al_mudaifer", n:"Khalid Al-Mudaifer", t:2, p:62, s:"materials", roles:[
+    ["moind","Vice Minister of Industry and Mineral Resources for Mining Affairs","executive","v"],
     ["maaden","Vice Chairman","board","v"]]},
   {id:"richard_o_brien", n:"Richard O'Brien", t:2, p:52, s:"materials", roles:[
     ["maaden","Board Member","board","v"]]},
@@ -1799,8 +1800,10 @@ const PEOPLE = [
   {id:"abdullah_saleh_ali", n:"Abdullah Saleh Ali Al-Othaim", t:2, p:62, s:"consumer_stap", roles:[
     ["al_othaim","Chairman of the Board","board","v"]]},
   {id:"khalid_bin_salman", n:"Khalid bin Salman", t:2, p:62, s:"industry", roles:[
+    ["mod_sa","Minister of Defense","executive","v"],
     ["sami","Chairman","board","v"]]},
   {id:"talal_bin_abdullah", n:"Talal bin Abdullah Al-Otaibi", t:2, p:52, s:"industry", roles:[
+    ["mod_sa","Assistant Minister of Defense for Policy and Strategy (Acting)","executive","v"],
     ["sami","Board Member","board","v"]]},
   {id:"khalid_bin_hussein", n:"Khalid bin Hussein Al-Biyari", t:2, p:52, s:"industry", roles:[
     ["sami","Board Member","board","v"]]},
@@ -1867,7 +1870,7 @@ const PEOPLE = [
   {id:"safa_alrashed", n:"Safa AlRashed", t:2, p:58, s:"tech", roles:[
     ["mcit_sa","Acting Deputy Minister for Future Jobs and Capabilities","executive","v"]]},
   {id:"abdullah_muhammad_nasser", n:"Abdullah Muhammad Nasser Al-Hawas", t:2, p:62, s:"tech", roles:[
-    ["lst_7201","Chairman of the Board of Directors","board","ns"]]},
+    ["lst_7201","Chairman of the Board of Directors","board","v"]]},
   {id:"abdulaziz_bin_hamad", n:"Abdulaziz bin Hamad Al-Rumaih", t:2, p:58, s:"health", roles:[
     ["moh_sa","Vice Minister of Health for Planning and Development","executive","v"]]},
   {id:"abdullah_assiri", n:"Abdullah Assiri", t:2, p:58, s:"health", roles:[
@@ -1898,6 +1901,56 @@ const PEOPLE = [
     ["rcu","Chief Executive Officer","executive","v"]]},
   {id:"suhail_bin_mohammed", n:"Suhail bin Mohammed Abanmi", t:2, p:58, s:"gov", roles:[
     ["zatca","Governor","executive","v"]]},
+  {id:"yasser_bin_ahmed", n:"Yasser bin Ahmed Al-Hakami", t:2, p:58, s:"utilities", roles:[
+    ["nwc","Official Spokesperson","executive","ns"]]},
+  {id:"fahd_bin_mohammed", n:"Fahd bin Mohammed Al-Issa", t:2, p:46, s:"gov", roles:[
+    ["royalcourt","Head of the Royal Court (Minister rank)","executive","ns"]]},
+  {id:"fahd_bin_abdullah", n:"Fahd bin Abdullah Al-Askar", t:2, p:58, s:"gov", roles:[
+    ["royalcourt","Deputy Chief of the Royal Court (Minister rank)","executive","ns"]]},
+  {id:"fayyadh_bin_hamed", n:"Fayyadh bin Hamed Al-Ruwaili", t:2, p:58, s:"gov", roles:[
+    ["mod_sa","Chief of the General Staff","executive","v"]]},
+  {id:"khalid_bin_hussein_b", n:"Khalid bin Hussein Al-Bayari", t:2, p:58, s:"gov", roles:[
+    ["mod_sa","Assistant Minister of Defense for Executive Affairs","executive","v"]]},
+  {id:"abdulaziz_bin_saud", n:"Abdulaziz bin Saud bin Nayef Al Saud", t:2, p:58, s:"gov", roles:[
+    ["moi_sa","Minister of Interior","executive","v"]]},
+  {id:"ali_al_yabes", n:"Ali Al-Yabes", t:2, p:58, s:"gov", roles:[
+    ["mof_sa","Deputy Minister of Finance for Budgetary Affairs","executive","v"]]},
+  {id:"mohammed_a_alshehri", n:"Mohammed A. Alshehri", t:2, p:58, s:"gov", roles:[
+    ["mep_sa","Deputy Minister for Sectoral and Regional Development Affairs","executive","v"]]},
+  {id:"mansour_a_alrashed", n:"Mansour A. Alrashed", t:2, p:58, s:"gov", roles:[
+    ["mep_sa","Deputy Minister for Human Capital and Organizational Culture","executive","v"]]},
+  {id:"rakan_a_alsheikh", n:"Rakan A. Alsheikh", t:2, p:58, s:"gov", roles:[
+    ["mep_sa","Deputy Minister for Policies and Economic Planning","executive","v"]]},
+  {id:"fahad_s_alhumaidah", n:"Fahad S. Alhumaidah", t:2, p:58, s:"gov", roles:[
+    ["mep_sa","Deputy Minister for Strategic Planning and Organizational Excellence","executive","v"]]},
+  {id:"mansour_f_alrumayyan", n:"Mansour F. Alrumayyan", t:2, p:58, s:"gov", roles:[
+    ["mep_sa","Deputy Minister for Population Policies and Human Capital Development","executive","v"]]},
+  {id:"abdulmohsen_al_mazyad", n:"Abdulmohsen Al-Mazyad", t:2, p:58, s:"gov", roles:[
+    ["mot_sa","Deputy Minister of Tourism","executive","ns"]]},
+  {id:"abdulaziz_bin_salman", n:"Abdulaziz bin Salman", t:2, p:58, s:"gov", roles:[
+    ["moind","Minister of Industry and Mineral Resources","executive","v"]]},
+  {id:"khalil_bin_ibrahim", n:"Khalil bin Ibrahim bin Salamah", t:2, p:58, s:"gov", roles:[
+    ["moind","Vice Minister of Industry and Mineral Resources for Industrial Affairs","executive","v"]]},
+  {id:"turki_al_sheikh", n:"Turki Al-Sheikh", t:2, p:62, s:"gov", roles:[
+    ["gea","Chairman of the Board of Directors","executive","v"]]},
+  {id:"ihab_ghazi_al", n:"Ihab Ghazi Al-hashani", t:2, p:52, s:"gov", roles:[
+    ["gea","Board Member","board","v"]]},
+  {id:"ageel_mohammed_ali", n:"Ageel Mohammed Ali Al-shaibani", t:2, p:52, s:"gov", roles:[
+    ["gea","Board Member","board","v"]]},
+  {id:"abdullah_abdulrahman_al", n:"Abdullah Abdulrahman Al-rabiah", t:2, p:52, s:"gov", roles:[
+    ["gea","Board Member","board","v"]]},
+  {id:"noha_said_kattan", n:"Noha Said Kattan", t:2, p:52, s:"gov", roles:[
+    ["gea","Board Member","board","v"]]},
+  {id:"abdulmajeed_ahmed_al", n:"Abdulmajeed Ahmed Al-hagbani", t:2, p:52, s:"gov", roles:[
+    ["gea","Board Member","board","v"]]},
+  {id:"rakan_hussein_alharthy", n:"Rakan Hussein Alharthy", t:2, p:52, s:"gov", roles:[
+    ["gea","Board Member","board","v"]]},
+  {id:"mohyedin_saleh_a", n:"Mohyedin Saleh A Kamel", t:2, p:52, s:"gov", roles:[
+    ["gea","Board Member","board","v"]]},
+  {id:"khalid_waleed_al", n:"Khalid Waleed Al-khudair", t:2, p:52, s:"gov", roles:[
+    ["gea","Board Member","board","v"]]},
+  {id:"sinan_esmat_al", n:"Sinan Esmat Al-Saady", t:2, p:52, s:"gov", roles:[
+    ["gea","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

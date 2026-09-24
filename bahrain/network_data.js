@@ -55,7 +55,7 @@ const INSTITUTIONS = [
   {id:"alzayani",  n:"Al Zayani Investments",         s:"conglomerate", t:3, p:60, short:"Al Zayani"},
   {id:"fakhro",    n:"Fakhro Group",                  s:"conglomerate", t:3, p:56, short:"Fakhro"},
   {id:"lst_kfh", n:"Kuwait Finance House K.S.C.P.", s:"finance", t:2, p:50, short:"KFH"},
-  {id:"lst_bbk", n:"Bank of Bahrain and Kuwait B.S.C.", s:"finance", t:2, p:50, short:"BBK"},
+  {id:"lst_bbk", n:"Bank of Bahrain and Kuwait B.S.C.", s:"finance", t:2, p:63, short:"BBK"},
   {id:"lst_salam", n:"Al Salam Bank B.S.C.", s:"finance", t:2, p:50, short:"Al Salam Bank B.S.C."},
   {id:"lst_ugh", n:"United Gulf Holding Company B.S.C.", s:"finance", t:2, p:50, short:"UGH"},
   {id:"lst_ghg", n:"Gulf Hotels Group B.S.C.", s:"consumer_disc", t:2, p:50, short:"GHG"},
@@ -178,7 +178,7 @@ const PEOPLE = [
   {id:"jennings_abc", n:"Paul Jennings", t:2, p:66, s:"finance", roles:[
     ["abc","Group Chief Executive Officer","executive","v"]]},
   {id:"usman_nbb", n:"Usman Ahmed", t:2, p:68, s:"finance", roles:[
-    ["sico_bank","Executive Director","board","ns"],
+    ["sico_bank","Executive Director","board","v"],
     ["nbb","Group Chief Executive Officer","executive","v"]]},
   {id:"almajed_edamah", n:"Khaled Abdulrahman Al Majed", t:2, p:60, s:"realestate", roles:[
     ["edamah","Chief Executive Officer","executive","v"]]},

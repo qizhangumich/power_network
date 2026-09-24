@@ -969,6 +969,16 @@ const PEOPLE = [
     ["majlis_a_shura","Chairman","board","v"]]},
   {id:"mansour_zahir_al", n:"Mansour Zahir Al Hajri", t:2, p:62, s:"gov", roles:[
     ["majlis_a_shura","Deputy Chairman","board","v"]]},
+  {id:"sayyid_khalid_bin", n:"Sayyid Khalid bin Hilal bin Saud Al Busaidi", t:2, p:58, s:"gov", roles:[
+    ["omgov","Minister of Diwan of Royal Court","executive","v"]]},
+  {id:"mohammed_sulaiman_al", n:"Mohammed Sulaiman Al-Harthy", t:2, p:60, s:"consumer_stap", roles:[
+    ["nitaj","Chief Executive Officer","executive","v"]]},
+  {id:"samra_sulaiman_al_b", n:"Samra Sulaiman Al-Harthi", t:2, p:62, s:"utilities", roles:[
+    ["be_ah","Chairperson of the Board of Directors","executive","v"]]},
+  {id:"abdullah_mohammed_al", n:"Abdullah Mohammed Al-Na'imi", t:2, p:62, s:"utilities", roles:[
+    ["be_ah","Deputy Chairperson of the Board","board","v"]]},
+  {id:"khalid_bin_hilal_b", n:"Khalid bin Hilal Al Mawali", t:2, p:62, s:"gov", roles:[
+    ["majlis_a_shura","Chairman (Speaker) of Majlis A'Shura","executive","v"]]},
 ];
 
 const OWNERSHIP = [

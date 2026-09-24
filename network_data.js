@@ -274,6 +274,8 @@ const INSTITUTIONS = [
   {id:"provis", n:"Provis Real Estate Management", s:"realestate", t:3, p:52, short:"Provis"},
   {id:"adnoc_trading", n:"ADNOC Trading", s:"energy", t:2, p:58, short:"ADNOC Trading"},
   {id:"al_yasat_petroleum", n:"Al Yasat Petroleum", s:"energy", t:2, p:58, short:"Al Yasat Petroleum"},
+  {id:"al_dhafra_petro", n:"Al Dhafra Petroleum", s:"energy", t:2, p:57, short:"Al Dhafra Petro"},
+  {id:"q_2", n:"Q Holding", s:"finance", t:3, p:56, short:"Q Holding"},
 ];
 
 const PEOPLE = [
@@ -2822,6 +2824,8 @@ const OWNERSHIP = [
   ["npcc","nmdc","subsidiary","v"],
   ["adnoc_trading","adnoc","wholly-owned subsidiary of","ns"],
   ["al_yasat_petroleum","adnoc","JV between ADNOC Group (60%) and CNPC (40%)","ns"],
+  ["al_dhafra_petro","adnoc","jv","v"],
+  ["q_2","ihc","subsidiary","v"],
 ];
 
 const FAMILY = [
