@@ -1,0 +1,5 @@
+# Adnoc picks three for race to design LNG facility bypassing Strait of Hormuz
+source: upstreamonline.com
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxPclYyR3pNeUdHSWxkNXNzUFpBamZzSTlWNERIWHEwQ3BQWkxDR2tkYXlCamU0ay1hSURnNjV4a2hkNTcxLVI2QUxqZkVrV1VxRkQzZE9vN05vNXBqQXN6WkdkWEVZaHdnR2JCVUN5bnllZ1J0TUhoeDJ2VVBkUVVwTHV3cHlROXo2b3ZJNmFtcmZLZ1lCTlNTZUdjVjRtZF90VkdnQzBTbjFrWlJtYlk1c1BMd3dXdkxxR0ZjeVJJZ3ZLNllqS1pqNEZmZE9SVlM4NTRz?oc=5
+
+Adnoc picks three for race to design LNG facility bypassing Strait of Hormuz    upstreamonline.com

@@ -1,0 +1,5 @@
+# NSE IPO draws 150+ anchors, FPIs invest ₹2,883 crore | Tap to know more | Inshorts
+source: Inshorts
+url: https://news.google.com/rss/articles/CBMimwFBVV95cUxQM2dyVTgtSnlvSTRsMF9wd25STGdVbEhFQWdaZ0VBWFhPMlRwSi1UOGlDbmZoU2R2ZkhjRjRBal9XSlNaM2EyYUVMRUVaV192UlZua2xIWWwwRDNEcXR6SG9KVnpGU3VGOUVQY3czV2xHekh2dkdlZ2YtbEd4ZzZHbGkwOHJ4UDBkTFdZSHlYLVZkMDJyOVZXckN2SdIBoAFBVV95cUxNeFZ6eVQzdXJ2Mml6SVRybm40ekZMOEZnN1dJdG42eE9mWWJkQkllVXRpY0F3TGVUTnB4SGxNQTlnOGozUVRIZDMzT1lueFNuTzlPWFZ4QUF2S1NEQXNXd3ZkRGVKUDhBOGkycGsxdExWX0FnWEhnajNFdU9Ca1BUNEFQdDZVR0R4WEp2T2dVcnlveTljNklaSVFTRi1yNGVU?oc=5
+
+NSE IPO draws 150+ anchors, FPIs invest ₹2,883 crore | Tap to know more | Inshorts    Inshorts
