@@ -81,7 +81,7 @@ const INSTITUTIONS = [
   {id:"dubaiinv", n:"Dubai Investments PJSC", s:"conglomerate", t:2, p:62, short:"Dubai Investments"},
   {id:"lst_deyaar", n:"Deyaar Development PJSC", s:"realestate", t:2, p:58, short:"DEYAAR"},
   {id:"lst_taaleem", n:"Taaleem Holdings PJSC", s:"consumer_disc", t:2, p:58, short:"Taaleem"},
-  {id:"lst_sukoon", n:"Sukoon Insurance PJSC", s:"finance", t:2, p:50, short:"SUKOON"},
+  {id:"lst_sukoon", n:"Sukoon Insurance PJSC", s:"finance", t:2, p:62, short:"Sukoon"},
   {id:"lst_armx", n:"Aramex PJSC", s:"industry", t:1, p:66, short:"Aramex"},
   {id:"lst_upp", n:"Union Properties PJSC", s:"realestate", t:2, p:58, short:"Union Properties"},
   {id:"lst_ifa", n:"International Financial Advisors Holding K.P.S.C.", s:"finance", t:2, p:50, short:"IFA"},
