@@ -489,6 +489,7 @@ const PEOPLE = [
     ]},
   {id:"noura_kaabi", n:"Noura Al Kaabi", t:1, p:78, s:"gov", roles:[
     ["mofa","Minister of State","political","v"],
+    ["adnec","Chairwoman","board","v"],
     ]},
   {id:"hussain_nowais", n:"Hussain Jasim Al Nowais", t:1, p:80, s:"conglomerate", roles:[
     ["emsteel","Chairman","board","v"],
@@ -2577,6 +2578,12 @@ const PEOPLE = [
     ]},
   {id:"hamad_ali_al", n:"Hamad Ali Al Dhaheri", t:2, p:58, s:"gov", roles:[
     ["dcd","Undersecretary","executive","v"],
+    ]},
+  {id:"ahmad_belhoul_al", n:"Ahmad Belhoul Al Falasi", t:2, p:62, s:"tech", roles:[
+    ["spaceagency","Chairman of the Board of Directors","board","v"],
+    ]},
+  {id:"salem_butti_salem", n:"Salem Butti Salem Al Qubaisi", t:2, p:58, s:"tech", roles:[
+    ["spaceagency","Director-General","executive","v"],
     ]},
 ];
 

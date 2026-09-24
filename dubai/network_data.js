@@ -244,6 +244,7 @@ const PEOPLE = [
     ["dpworld","Chairman","board","v"]],
     note:"Chaired DFM 2007–Nov 2021; succeeded as DFM chairman by Helal Saeed Al Marri (Dubai Media Office, 3 Nov 2021). Appointed Chairman of DP World in Feb 2026."},
   {id:"helal_marri", n:"Helal Saeed Almarri", t:1, p:78, s:"gov", roles:[
+    ["vara","Chairman of the Executive Board","board","v"],
     ["lst_taaleem","Board Member","board","v"],
     ["execco","Member (Director General of Department of Economy and Tourism)","board","v"],
     ["icd","Board Member","board","v"],

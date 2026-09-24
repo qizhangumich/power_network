@@ -1,9 +1,4 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Lenskart Solutions,2,abudhabi,pending,2026-09-21,2026-09-21,"ADIA sells 2.01% stake in Lenskart Solutions for ₹2,390 crore"
-Special Economic Zone,2,oman,pending,2026-09-23,2026-09-23,His Majesty the Sultan visits Special Economic Zone in Duqm
-Municipal Council,2,oman,pending,2026-09-21,2026-09-23,Municipal Council Elections committee approves preliminary candidate lists
-Aurion Capital,2,qatar,pending,2026-09-23,2026-09-23,"Invest Qatar, Aurion Capital, LG NOVA Engage to Advance Technology Investments, Venture Building in Qatar"
-US Treasury Department,2,,pending,2026-09-09,2026-09-23,UAE approves sale of Egypt’s Banque Misr branches
 Abu Dhabi Investment,19,abudhabi,rejected,2026-09-03,2026-09-22,​ASK Automotive - Abu Dhabi Investment Portfolio: 10 stocks rally up to 107% in CY26
 British Airways,9,dubai,rejected,2026-09-15,2026-09-19,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
 Marlan Holding,7,abudhabi,added,2026-09-08,2026-09-10,Abu Dhabi's IHC to acquire 80% stake in UAE space company Marlan Holding
@@ -26,6 +21,7 @@ TAQA Water Solutions,3,abudhabi,added,2026-09-09,2026-09-09,TAQA Water Solutions
 Masdar City,3,abudhabi,added,2026-08-26,2026-09-03,"Masdar City Launches Emirati Package to Empower National Entrepreneurs, Aligning with Emirati Women's Day and the Year of Family"
 Dubai Healthcare City,3,dubai,added,2026-09-10,2026-09-11,"Dubai Healthcare City begins work on Dh3b Creek GardensMore than 1,400 homes planned in a 127,000-square-metre community overlooking Dubai C"
 SNB Capital,3,saudi,added,2026-09-03,2026-09-05,SNB Capital North America Index Fund
+Lenskart Solutions,2,abudhabi,rejected,2026-09-21,2026-09-21,"ADIA sells 2.01% stake in Lenskart Solutions for ₹2,390 crore"
 IHC and Adani Group,2,abudhabi,rejected,2026-09-10,2026-09-11,IHC and Adani Group sign agreement to invest Rs 2.1 trilion in Odisha
 American Airlines,2,abudhabi,rejected,2026-09-03,2026-09-15,American Airlines is Struggling With Broken Business Class Seats On Its Brand New Airbus A321XLR Airplanes
 Adani Group,2,abudhabi,rejected,2026-09-09,2026-09-10,"Odisha CM Majhi holds talks with IHC, Adani Group on 14 state projects worth Rs 2.10 lakh crore"
@@ -36,12 +32,15 @@ Al Seer Marine,2,abudhabi,added,2026-09-16,2026-09-16,Abu Dhabi's L'imad buys AD
 Dubai Future Finance,2,dubai,rejected,2026-09-08,2026-09-08,Finance leaders convene at Dubai Future Finance Week4m read
 JK Cement,2,northern,rejected,2026-09-03,2026-09-03,JK Cement inaugurates JK DryChem Industries at RAKEZ1m read
 US Energy,2,bahrain,rejected,2026-09-13,2026-09-15,"Iran war latest: East-West pipeline will reopen within days, US Energy Secretary says"
+Special Economic Zone,2,oman,rejected,2026-09-23,2026-09-23,His Majesty the Sultan visits Special Economic Zone in Duqm
 European Commission,2,oman,rejected,2026-09-09,2026-09-11,European Commission presents landmark India FTA to Council for signature
+Municipal Council,2,oman,rejected,2026-09-21,2026-09-23,Municipal Council Elections committee approves preliminary candidate lists
 Labour Ministry,2,oman,added,2026-09-07,2026-09-19,Labour Ministry sees rise in unions and awareness reach
 QFBA Finance,2,qatar,rejected,2026-09-22,2026-09-22,Ahlibank announces platinum sponsorship of QFBA Finance Researcher Award 2026
 Canada Investment,2,qatar,rejected,2026-09-16,2026-09-17,Qatar participates in Canada Investment Summit
 Qatar Real Estate,2,qatar,rejected,2026-09-11,2026-09-21,Qatar Real Estate Forum 2026: Focus on tokenization and global investment
 Estithmar Holding,2,qatar,rejected,2026-09-12,2026-09-17,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
+Aurion Capital,2,qatar,rejected,2026-09-23,2026-09-23,"Invest Qatar, Aurion Capital, LG NOVA Engage to Advance Technology Investments, Venture Building in Qatar"
 Qatar Development,2,qatar,rejected,2026-09-07,2026-09-08,"Quick update on the top stories... Qatar Development Bank named ""Development Partner"" for QMED 2026. HMC to hold Alzheimer's awareness event"
 US Department,2,qatar,rejected,2026-09-08,2026-09-18,US Department of the Treasury announces new Iran sanctions
 Saudi Construction,2,saudi,rejected,2026-09-07,2026-09-22,Saudi Construction Index rises to 55.4 points in August
@@ -55,6 +54,7 @@ Skytrax World Airport,2,bahrain,rejected,2026-09-16,2026-09-16,BIA wins three pr
 Boring Company,2,dubai,rejected,2026-09-10,2026-09-11,"Musk’s Boring Company raises $3bln in UAE-led round, valuing startup at $23bln"
 Saudi Investment,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 GCC Capital,2,,rejected,2026-09-11,2026-09-22,VIDEO: Testimonials from Zawya’s GCC Capital Markets Forum
+US Treasury Department,2,,rejected,2026-09-09,2026-09-23,UAE approves sale of Egypt’s Banque Misr branches
 Doha for Science and Technology,2,qatar,rejected,2026-09-04,2026-09-22,"University of Doha for Science and Technology and Alfardan Exchange, launch “FinTech Stars” competition to support innovation and entreprene"
 Sultan Qaboos University,2,oman,added,2026-09-03,2026-09-22,Sultan Qaboos University study identifies key reasons for delayed child abuse reporting
 University of Doha for Science and Technology,2,qatar,added,2026-09-04,2026-09-22,"University of Doha for Science and Technology and Alfardan Exchange, launch “FinTech Stars” competition to support innovation and entreprene"
