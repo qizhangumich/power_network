@@ -1,0 +1,5 @@
+# Sheikh Khaled meets Russian President Putin on sidelines of BRICS Summit
+source: GulfToday
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxPRTFEVUVaSUt5OWI5U05iblNZdWx3UGVxcnRfLUlDQllDQWhENldYSTh4cjc3VzZXTGItNEg3bS1BdVN2a0toM3FnSjdfTWhtMmNjTmhlRHVKamVCYnNQRVl0MXhtTjNYYnZLYkRONWFpSndJRTRVdGJYazBKZzlIOE9RMVNYX3M3TzJyenZYUlFocUJzc3ZHS3RkMzFmdkZnZjdqUi1BQU96VGh4NXY1QW1FRQ?oc=5
+
+Sheikh Khaled meets Russian President Putin on sidelines of BRICS Summit    GulfToday

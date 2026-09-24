@@ -1,0 +1,5 @@
+# MASDAR WiSER Pioneers Program 2027 for women sustainability leaders.
+source: Opportunities For Africans
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQVFNVYWdrUUg1YU0waWcyY0tmWldoS1ZiN3dRd1o3Q1l0QUxwVXhvZmZFR2tsVElXa21HRmh1dFhNTXNTM3R5eTdMWTZPVDNsX1FQNnY1OVlUM2lmSHNBSzRsVV9jR1FSLTI3ZHpoT0VSMmNGN1lJUUJEMGtnWTY2b0g5eDFsOU1JS0dydGhiVzlRb05pbFZjUklhUUdoOE5WeEgtSGx1TkpJWUNYWnc?oc=5
+
+MASDAR WiSER Pioneers Program 2027 for women sustainability leaders.    Opportunities For Africans

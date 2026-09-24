@@ -1,0 +1,5 @@
+# Morocco: Taqa sets multi-gigawatt renewable energy goal
+source: African Energy
+url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOdU14X3ViLWk4ZWExNzd0T2x5ZVRaNW85ZWhrZ3hIY3k2V1doaF9UbldMamNsay1QeUdvaGNQX0ZxUUFaTk5CNmc5OXpZNEVHa1dVUUZWSWpOTWJoSlJGQTczS3oyWmhQNEdFTjV1Um4wZnBMMVVtS1lvNmVCMDEzN19iNXAxU2NWOFNjVnlKb29wcktaTmFZNWFYMkp4bl82alBSdEs1UQ?oc=5
+
+Morocco: Taqa sets multi-gigawatt renewable energy goal    African Energy

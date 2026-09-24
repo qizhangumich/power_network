@@ -1,0 +1,5 @@
+# Masdar-led consortium starts construction of solar project in Jeddah
+source: arabnews.com
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQWkxXVWhkaFZua3ZRQ2ZVX3NWLUVPU1ctVzVJRnhOZXdxa3JRdzhKZ1pWbzJ0ZmZqUVNxUzJnNVBocGRFR1VsdFljUFBKZWJTOGh1QkFzX01xT0pXU3Y0OVVCUURwd2tnTThGZ3dlNGtHUHdBWjlHajJ1T1k3aG83WXY1c29HcmZoczNjeUphaUxSdHlxVFpCMHFMNncxRk41SDBfR29abTVhaGZZVXVJ?oc=5
+
+Masdar-led consortium starts construction of solar project in Jeddah    arabnews.com
