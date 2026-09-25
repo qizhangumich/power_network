@@ -1,0 +1,5 @@
+# UAE Flight Cancellations Continue as Emirates, Etihad and Air Arabia Adjust Schedules
+source: Rus Tourism News
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNWXAzZlFqTTVoODRuVzFZUDVnVFlZTFhPZ2JNck5SeWRMVEtqVV9DZHhWOVhJNkxkcWh5Q2lSN2JzOS1NZmVvNTBVNWdMYkE5VUdaMExod2dUT0FERWtsV0hrUm1hNy02cFJrSGNsbnpLR2hEZFRLbXphMGJzdXc2S1E0bVZwS196Y3prQzd1SE5LTmRCVlczYzBHajFaM3pCZkxWVUh4QlVLeUZ2Q1Q0MnlBTXpUUGtrVzF3cmVNNms5TU8xRHc?oc=5
+
+UAE Flight Cancellations Continue as Emirates, Etihad and Air Arabia Adjust Schedules    Rus Tourism News

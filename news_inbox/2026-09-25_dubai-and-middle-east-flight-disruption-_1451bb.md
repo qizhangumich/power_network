@@ -1,0 +1,5 @@
+# Dubai and Middle East flight disruption: Regional carriers face delays while the UAE suspends all flights by Iranian airlines
+source: cntravellerme.com
+url: https://news.google.com/rss/articles/CBMi_gFBVV95cUxQSlpIaVNvTm45a3dhdWNpWXFZU0FGUHlNXzZCVVR5SzdWYkxORzB6MzJ5Y0VUQ2ZUMWloMWM0VU1fTVA4b29hUzdXZXJUaFRRWkdOME5mMVhtQk9MeExNT0ZNWVd1NlgyZTg4LWRjZzVNcFo0SjZmRHU0RURZMEsySGFnY0NqLWk2U0FETE8wZFRIY0xNd0Z1SS1BQ0RiSDgwOFN3clhzN1BrMjFXeGc4dWFYeWd5S2lUa1pSS0t2WnhIU0pDcDJvRGo3TGVuUEFKZElfS21sQ1FyaTd0OXY5OFlOS1Z5aE10T2xEd0lfSjdvV1FuQW53UlBxUXFodw?oc=5
+
+Dubai and Middle East flight disruption: Regional carriers face delays while the UAE suspends all flights by Iranian airlines    cntravellerme.com

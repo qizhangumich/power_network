@@ -1,0 +1,5 @@
+# Masdar's 2025 Sustainability Report: Clean Energy Growth Insights
+source: SolarQuarter
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRHBTeVlsZkI2WVl2WmZrbGhiQ29HRHcwSnpWb1NkZkY2aXBVSjZtb2xlVjNRLU14aDc4TTN3c0lZc25kNm1IeDNqVVo0Tm5QVDdUOElrX0pxZmVQbGNUeXkwd2lWQ1owX2tmd1lmd2tQci1LQmZNai11MUVndHU4cWlCZjZ5Z1lZT0dlbEdueC1uTWFYYWlOakcwMGIxS0hjd19FNjFSNDQ?oc=5
+
+Masdar's 2025 Sustainability Report: Clean Energy Growth Insights    SolarQuarter

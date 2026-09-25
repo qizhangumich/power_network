@@ -1,0 +1,5 @@
+# Space42 and Telespazio Iberica Begin Wildfire Monitoring in Spain supported by High Altitude Platform Systems
+source: Indovizka.com
+url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNLXN0OFRvN1otNWU1YVdEOElkS1lyd3JaOFl1MmFSSEgwN2IzZFdYalRWYlhwQlAzTnpZZDZoTk45RjUzX01TdHhGeXpkb0pFTnJfQTVjaUJFTlRRd09ua0U1TTVkWnZTTE14UEVTdFFjWi1STkdpY2JZWWxlMFFwTkNURWVZa25mLUEzWjV6dVJFMXFkWTFYcGZRamIxd0NzemhqUHE1dnRlNFVVMEhJTlFnZmllcllwY0c1bG52MWdSRHg0RG5JZVBZVTI1X0hDRnR4LWFEUVltWDJPaEdVeC1SSQ?oc=5
+
+Space42 and Telespazio Iberica Begin Wildfire Monitoring in Spain supported by High Altitude Platform Systems    Indovizka.com

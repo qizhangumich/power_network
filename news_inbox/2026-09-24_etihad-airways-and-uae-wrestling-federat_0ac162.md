@@ -1,0 +1,5 @@
+# Etihad Airways and UAE Wrestling Federation sign MoU
+source: freightweek.org
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxOTTZYMVM5TkVacWQ4dmJrajMyRUxTV3dWTUducDh0V0tfRGIxa2twUmxYUUJxbjZmTEtvdXc5X2N5UmZ4YjFmU3ZRRE5zbFJkYnkxdGtnT0NWc09vMUdPN2ZMeF9KdlFqOTdLeHhTSS01V3I1WTlsT00zdW1kc1daSDQ0eE1VekNwZGEyMElFNmtPVDNwSE1iRWdaLUNlbS0wTmNzLXBEREVxVHZUdTlwLQ?oc=5
+
+Etihad Airways and UAE Wrestling Federation sign MoU    freightweek.org
