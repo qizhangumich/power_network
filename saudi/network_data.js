@@ -457,6 +457,11 @@ const INSTITUTIONS = [
   {id:"salic", n:"Saudi Agricultural and Livestock Investment Company", s:"consumer_stap", t:2, p:60, short:"SALIC"},
   {id:"gdc_middle_east", n:"GDC Middle East", s:"industry", t:2, p:56, short:"GDC Middle East"},
   {id:"site", n:"Saudi Information Technology Company", s:"tech", t:2, p:58, short:"SITE"},
+  {id:"saudi_binladin_grp", n:"Saudi Binladin Group", s:"industry", t:2, p:62, short:"Saudi Binladin Grp"},
+  {id:"ahab", n:"Ahmad Hamad Al Gosaibi & Brothers", s:"conglomerate", t:3, p:52, short:"AHAB"},
+  {id:"al_dabbagh", n:"Al-Dabbagh Group", s:"conglomerate", t:3, p:60, short:"Al-Dabbagh Group"},
+  {id:"saudi_bugshan", n:"Saudi Bugshan Company", s:"conglomerate", t:3, p:58, short:"Saudi Bugshan Co"},
+  {id:"al_fozan", n:"Al Fozan Holding", s:"conglomerate", t:3, p:56, short:"Al Fozan Holding"},
 ];
 
 const PEOPLE = [
@@ -2400,4 +2405,9 @@ const AKA = {
   modern_food_industries:["MFI"],
   nesma_partners:["Nesma"],
   gdc_middle_east:["GDCME"],
+  saudi_binladin_grp:["SBG","Binladin Group Global Holding Co"],
+  ahab:["Al Gosaibi Group"],
+  al_dabbagh:["ADG","Dabbagh Group Holding Co"],
+  saudi_bugshan:["Bugshan Group","SBC"],
+  al_fozan:["Al Fozan Group"],
 };

@@ -118,15 +118,15 @@ const INSTITUTIONS = [
   {id:"sinopec",   n:"Sinopec",                       s:"energy", t:3, p:60, short:"Sinopec"},
   {id:"cnpc",      n:"CNPC",                          s:"energy", t:3, p:58, short:"CNPC"},
   {id:"lst_eres", n:"Ezdan Holding Group Q.P.S.C.", s:"realestate", t:2, p:60, short:"Ezdan"},
-  {id:"lst_igrd", n:"Estithmar Holding Q.P.S.C.", s:"conglomerate", t:2, p:50, short:"IGRD"},
+  {id:"lst_igrd", n:"Estithmar Holding Q.P.S.C.", s:"conglomerate", t:2, p:62, short:"IGRD"},
   {id:"lst_dubk", n:"Dukhan Bank Q.P.S.C.", s:"finance", t:2, p:64, short:"Dukhan Bank"},
   {id:"lst_qiik", n:"Qatar International Islamic Bank Q.P.S.C.", s:"finance", t:2, p:64, short:"QIIK"},
   {id:"lst_mphc", n:"Mesaieed Petrochemical Holding Company Q.P.S.C.", s:"materials", t:2, p:58, short:"MPHC"},
   {id:"lst_qfls", n:"Qatar Fuel Company Q.P.S.C. (WOQOD)", s:"energy", t:2, p:64, short:"WOQOD"},
-  {id:"lst_abqk", n:"Ahli Bank Q.P.S.C.", s:"finance", t:2, p:50, short:"Ahli Bank Q.P.S.C."},
-  {id:"lst_qamc", n:"Qatar Aluminium Manufacturing Company Q.P.S.C.", s:"materials", t:2, p:50, short:"QAMC"},
+  {id:"lst_abqk", n:"Ahli Bank Q.P.S.C.", s:"finance", t:2, p:58, short:"Ahli Bank Q.P.S.C."},
+  {id:"lst_qamc", n:"Qatar Aluminium Manufacturing Company Q.P.S.C.", s:"materials", t:2, p:60, short:"QAMC"},
   {id:"lst_qati", n:"Qatar Insurance Company Q.S.P.C.", s:"finance", t:2, p:62, short:"QIC Group"},
-  {id:"lst_zhcd", n:"Zad Holding Company Q.P.S.C.", s:"consumer_stap", t:2, p:50, short:"ZHCD"},
+  {id:"lst_zhcd", n:"Zad Holding Company Q.P.S.C.", s:"consumer_stap", t:2, p:56, short:"ZHCD"},
   {id:"lst_giss", n:"Gulf International Services Q.P.S.C.", s:"energy", t:2, p:64, short:"GISS"},
   {id:"lst_qfbq", n:"Lesha Bank LLC (formerly Qatar First Bank)", s:"finance", t:2, p:60, short:"Lesha Bank"},
   {id:"lst_mers", n:"Al Meera Consumer Goods Company Q.P.S.C.", s:"consumer_stap", t:2, p:50, short:"MERS"},
@@ -199,6 +199,8 @@ const INSTITUTIONS = [
   {id:"doha_investment", n:"Doha Investment", s:"sovereign", t:1, p:82, short:"Doha Investment"},
   {id:"al_shamlan_hldg", n:"Marzooq Shamlan Al Shamlan Holding", s:"consumer_disc", t:3, p:54, short:"Al Shamlan Hldg"},
   {id:"udst", n:"University of Doha for Science and Technology", s:"education", t:2, p:60, short:"UDST"},
+  {id:"ali_bin_ali", n:"Ali Bin Ali Holding", s:"consumer_disc", t:3, p:58, short:"Ali Bin Ali"},
+  {id:"al_attiya_motors", n:"Al Attiya Motors & Trading Company", s:"consumer_disc", t:3, p:52, short:"Al Attiya Motors"},
 ];
 
 const PEOPLE = [
@@ -325,6 +327,7 @@ const PEOPLE = [
   {id:"jaida_qfc", n:"Yousuf Mohamed Al-Jaida", t:2, p:70, s:"finance", roles:[
     ["qfz","Board Member","board","v"],["qfc","CEO","executive","ns"]]},
   {id:"moutaz", n:"Moutaz Al-Khayyat", t:2, p:72, s:"conglomerate", roles:[
+    ["lst_igrd","Chairman","board","v"],
     ["pih","Chairman","board","v"],
     ["baladna","Chairman","board","v"]],
     note:"Construction-to-dairy empire; Baladna was Qatar's blockade-era food-security symbol."},
@@ -509,14 +512,18 @@ const PEOPLE = [
     ["qelng","Executive Vice President, Projects, Engineering and Procurement Services","executive","v"],
     ["qatarenergy","Executive VP - Projects Engineering and Procurement Services","executive","v"]]},
   {id:"abdulrahman_ahmad_al", n:"Abdulrahman Ahmad Al-Shaibi", t:2, p:46, s:"energy", roles:[
+    ["lst_qamc","Chairman","board","v"],
     ["qelng","Executive Vice President, Finance and Planning","executive","v"],
     ["qatarenergy","Executive VP - Finance and Planning","executive","v"]]},
   {id:"ahmad_saeed_al", n:"Ahmad Saeed Al-Amoodi", t:2, p:46, s:"energy", roles:[
+    ["lst_qamc","Vice Chairman","board","v"],
     ["qelng","Executive Vice President, Surface Development and Sustainability","executive","v"],
     ["qatarenergy","Executive VP - Surface Development and Sustainability","executive","v"]]},
   {id:"nabeel_mohammed_al", n:"Nabeel Mohammed Al-Buenain", t:2, p:46, s:"energy", roles:[
+    ["lst_qamc","Board Member","board","v"],
     ["qatarenergy","Executive VP - HSE and Business Services","executive","v"]]},
   {id:"mohammed_essa_al", n:"Mohammed Essa Al-Mannai", t:2, p:58, s:"energy", roles:[
+    ["lst_qamc","Board Member","board","v"],
     ["qatarenergy","General Counsel and Board Secretary","executive","v"]]},
   {id:"ali_nasser_telfat", n:"Ali Nasser Telfat", t:2, p:60, s:"energy", roles:[
     ["qatarenergy","Corporate Manager - CEO Office","executive","v"]]},
@@ -591,6 +598,7 @@ const PEOPLE = [
     ["cbq","Board Member","board","v"],
     ["lst_qati","Group Chief Executive Officer","executive","ns"]]},
   {id:"ibrahim_jassim_al", n:"Ibrahim Jassim Al-Othman Fakhro", t:2, p:52, s:"finance", roles:[
+    ["lst_giss","Managing Director","executive","v"],
     ["udc","Board Member","board","v"],
     ["cbq","Board Member","board","v"]]},
   {id:"saleh_majed_al", n:"Saleh Majed Al Khulaifi", t:2, p:52, s:"finance", roles:[
@@ -704,6 +712,7 @@ const PEOPLE = [
   {id:"gokhan_ozkan", n:"Gokhan Ozkan", t:2, p:46, s:"conglomerate", roles:[
     ["aamal","General Manager of Aamal Medical","executive","v"]]},
   {id:"ramez_al_khayyat", n:"Ramez Al-Khayyat", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_igrd","Vice Chairman & President","board","v"],
     ["baladna","President","board","v"]]},
   {id:"hamad_bin_abdullah", n:"Hamad Bin Abdullah Bin Khalid Al-Attiya", t:2, p:52, s:"consumer_stap", roles:[
     ["baladna","Board Member","board","v"]]},
@@ -782,6 +791,7 @@ const PEOPLE = [
   {id:"essa_bin_hilal", n:"Essa Bin Hilal Al Kuwari", t:2, p:52, s:"comm", roles:[
     ["ooredoo","Board Member","board","v"]]},
   {id:"mohammed_bin_nasser", n:"Mohammed Bin Nasser Al-Hajri", t:2, p:52, s:"comm", roles:[
+    ["lst_giss","Board Member","board","v"],
     ["nebras","Chairman","board","v"],
     ["qewc","Managing Director and Chief Executive Officer","executive","v"],
     ["ooredoo","Board Member","board","v"]]},
@@ -886,6 +896,7 @@ const PEOPLE = [
   {id:"thani_bin_thamer", n:"Thani bin Thamer bin Mohammed Al-Thani", t:2, p:52, s:"materials", roles:[
     ["lst_mphc","Board Member","board","v"]]},
   {id:"khalid_sultan_al", n:"Khalid Sultan Al-Kuwari", t:2, p:52, s:"materials", roles:[
+    ["lst_igrd","Board Member","board","v"],
     ["lst_mphc","Board Member","board","v"]]},
   {id:"mohammed_essa_abdulrahman", n:"Mohammed Essa Abdulrahman Al-Mannai", t:2, p:52, s:"materials", roles:[
     ["lst_mphc","Board Member","board","v"]]},
@@ -965,6 +976,7 @@ const PEOPLE = [
   {id:"mr_homoud_fahad", n:"Mr. Homoud Fahad Homoud Sultan Al-Qahtani", t:2, p:62, s:"energy", roles:[
     ["lst_qfls","Vice Chairman","board","v"]]},
   {id:"mr_saad_rashid", n:"Mr. Saad Rashid Al-Muhannadi", t:2, p:60, s:"energy", roles:[
+    ["lst_giss","Vice Chairman","board","v"],
     ["lst_qfls","Managing Director – Board Member","board","v"],
     ["lst_qfls","Managing Director and Chief Executive Officer","executive","v"]]},
   {id:"sheikh_saoud_khalid", n:"Sheikh Saoud Khalid Hamad Al-Thani", t:2, p:52, s:"energy", roles:[
@@ -1072,6 +1084,7 @@ const PEOPLE = [
     ["moph","Minister of Public Health","executive","v"],
     ["qia","Chief Executive Officer (2018-2024)","executive","v","former:until Jan 2025"]]},
   {id:"h_e_saad", n:"H.E. Saad bin Ali Al Kharji", t:2, p:62, s:"consumer_disc", roles:[
+    ["qta","Chairman","board","v"],
     ["qm","Board Member","board","v"],
     ["qatarrail","Board Member","board","ns"],
     ["katarahosp","Deputy Chairman","board","v"]]},
@@ -1253,6 +1266,7 @@ const PEOPLE = [
   {id:"sheikh_saoud_bin", n:"Sheikh Saoud bin Abdulrahman bin Hassan bin Ali Al Thani", t:2, p:58, s:"gov", roles:[
     ["mod_q","Deputy Prime Minister and Minister of State for Defence Affairs","executive","v"]]},
   {id:"khalid_mohammed_laram", n:"Khalid Mohammed Laram", t:2, p:60, s:"materials", roles:[
+    ["lst_qamc","Board Member","board","v"],
     ["qatalum","Chief Executive Officer","executive","ns"]]},
   {id:"abdulla_mohamed_al", n:"Abdulla Mohamed Al Khanji", t:2, p:60, s:"industry", roles:[
     ["mwani","Chief Executive Officer","executive","v"]]},
@@ -1265,6 +1279,7 @@ const PEOPLE = [
   {id:"nawaf_jassim_jaidah", n:"Nawaf Jassim Jaidah", t:2, p:52, s:"conglomerate", roles:[
     ["jaidah","Board Member","board","ns"]]},
   {id:"khalid_bin_khalifa_b", n:"Khalid bin Khalifa Al-Thani", t:2, p:60, s:"energy", roles:[
+    ["lst_giss","Chairman","board","v"],
     ["qelng","Chief Executive Officer","executive","ns"]]},
   {id:"sheikh_faisal_bin", n:"Sheikh Faisal bin Thani bin Faisal Al Thani", t:2, p:58, s:"gov", roles:[
     ["qfz","Chairperson","board","v"],
@@ -1396,6 +1411,7 @@ const PEOPLE = [
   {id:"jamal_ali_al", n:"Jamal Ali Al-Khalaf", t:2, p:52, s:"utilities", roles:[
     ["nebras","Board Member","board","v"]]},
   {id:"saud_omar_almana", n:"Saud Omar Almana", t:2, p:62, s:"conglomerate", roles:[
+    ["lst_zhcd","Board Member","board","v"],
     ["almana","Vice Chairman","board","ns"]]},
   {id:"mashael_ali_al", n:"Mashael Ali Al Hammadi", t:2, p:58, s:"gov", roles:[
     ["mocit","Assistant Undersecretary for Digital Government Affairs","executive","v"]]},
@@ -1436,11 +1452,66 @@ const PEOPLE = [
   {id:"ibrahim_al_muftah", n:"Ibrahim Al-Muftah", t:2, p:60, s:"conglomerate", roles:[
     ["almuftah","Managing Director","executive","v"]]},
   {id:"sheikh_jassim_bin_b_b", n:"Sheikh Jassim bin Mohamed Al Thani", t:2, p:62, s:"conglomerate", roles:[
+    ["lst_abqk","Vice Chairman","board","v"],
     ["mbhh","Chairman","board","v"]]},
   {id:"tariq_al_shamlan", n:"Tariq Al Shamlan", t:2, p:62, s:"consumer_disc", roles:[
     ["al_shamlan_hldg","Chairman","board","v"]]},
   {id:"marzooq_al_shamlan", n:"Marzooq Al Shamlan", t:2, p:60, s:"consumer_disc", roles:[
     ["al_shamlan_hldg","CEO","executive","v"]]},
+  {id:"abdulaziz_ali_al", n:"Abdulaziz Ali Al-Mawlawi", t:2, p:60, s:"gov", roles:[
+    ["qta","Chief Executive Officer of Visit Qatar","executive","v"]]},
+  {id:"hamad_ghanim_sultan", n:"Hamad Ghanim Sultan Al-Hodeifi Al-Kuwari", t:2, p:52, s:"conglomerate", roles:[
+    ["lst_igrd","Board Member","board","v"]]},
+  {id:"eyad_ihsan_abdulrahim", n:"Eyad Ihsan Abdulrahim", t:2, p:52, s:"conglomerate", roles:[
+    ["lst_igrd","Board Member (representing Urbacon Trading & Contracting LLC)","board","v"]]},
+  {id:"khaled_al_non", n:"Khaled Al-Non", t:2, p:52, s:"conglomerate", roles:[
+    ["lst_igrd","Board Member","board","v"]]},
+  {id:"mohamad_mohamad_sadiq", n:"Mohamad Mohamad Sadiq Al-Dawamneh", t:2, p:52, s:"conglomerate", roles:[
+    ["lst_igrd","Board Member (representing H Collective Holding LLC)","board","v"]]},
+  {id:"basel_shaddad", n:"Basel Shaddad", t:2, p:60, s:"conglomerate", roles:[
+    ["lst_igrd","Group Chief Executive Officer","executive","v"]]},
+  {id:"walid_shalan", n:"Walid Shalan", t:2, p:58, s:"conglomerate", roles:[
+    ["lst_igrd","Group Chief Financial Officer","executive","v"]]},
+  {id:"riyad_al_sowaity", n:"Riyad Al Sowaity", t:2, p:58, s:"conglomerate", roles:[
+    ["lst_igrd","Group Chief Human Resources Officer","executive","v"]]},
+  {id:"faisal_bin_abdulaziz", n:"Faisal Bin Abdulaziz Bin Jassem Al Thani", t:2, p:62, s:"finance", roles:[
+    ["lst_abqk","Chairman","board","v"]]},
+  {id:"nasser_abdullatif_al", n:"Nasser Abdullatif Al-Abdulla", t:2, p:52, s:"finance", roles:[
+    ["lst_abqk","Director","board","v"]]},
+  {id:"victor_nazeem_agha", n:"Victor Nazeem Agha", t:2, p:52, s:"finance", roles:[
+    ["lst_abqk","Director","board","v"]]},
+  {id:"hassan_ahmed_al", n:"Hassan Ahmed Al-Efrangi", t:2, p:60, s:"finance", roles:[
+    ["lst_abqk","Chief Executive Officer","executive","v"]]},
+  {id:"lolwa_khalil_salat", n:"Lolwa Khalil Salat", t:2, p:52, s:"materials", roles:[
+    ["lst_qamc","Board Member","board","v"]]},
+  {id:"sheikh_nasser_bin_b_b", n:"Sheikh Nasser bin Mohammad bin Jabor Al-Thani", t:2, p:62, s:"consumer_stap", roles:[
+    ["lst_zhcd","Chairman","board","v"]]},
+  {id:"sheikh_talal_bin", n:"Sheikh Talal bin Mohammad bin Jabor Al-Thani", t:2, p:62, s:"consumer_stap", roles:[
+    ["lst_zhcd","Vice Chairman","board","v"]]},
+  {id:"sheikh_nawaf_bin", n:"Sheikh Nawaf bin Mohammad bin Jabor Al-Thani", t:2, p:60, s:"consumer_stap", roles:[
+    ["lst_zhcd","Managing Director","board","v"]]},
+  {id:"sheikh_mansour_bin", n:"Sheikh Mansour bin Mohammad bin Jabor Al-Thani", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_zhcd","Board Member","board","v"]]},
+  {id:"sheikh_thamer_bin", n:"Sheikh Thamer bin Mohammad bin Jabor Al-Thani", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_zhcd","Board Member","board","v"]]},
+  {id:"sheikh_jabor_bin_b_b", n:"Sheikh Jabor bin Mohammad bin Hassan Al-Thani", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_zhcd","Board Member","board","v"]]},
+  {id:"ali_eskander_al", n:"Ali Eskander Al-Ansari", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_zhcd","Board Member","board","v"]]},
+  {id:"abdulla_ali_al_b_b", n:"Abdulla Ali Al-Ansari", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_zhcd","Board Member","board","v"]]},
+  {id:"kaltham_sultan_al", n:"Kaltham Sultan Al-Hajri", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_zhcd","Board Member (representing Ministry of Finance)","board","v"]]},
+  {id:"tarique_mohammad", n:"Tarique Mohammad", t:2, p:60, s:"consumer_stap", roles:[
+    ["lst_zhcd","Chief Executive Officer","executive","v"]]},
+  {id:"mohammed_youssef_al", n:"Mohammed Youssef Al-Mulla", t:2, p:52, s:"energy", roles:[
+    ["lst_giss","Board Member","board","v"]]},
+  {id:"sheikh_jassim_abdulla", n:"Sheikh Jassim Abdulla Al-Thani", t:2, p:52, s:"energy", roles:[
+    ["lst_giss","Board Member","board","v"]]},
+  {id:"ali_jaber_hamad", n:"Ali Jaber Hamad Al-Marri", t:2, p:52, s:"energy", roles:[
+    ["lst_giss","Board Member","board","v"]]},
+  {id:"essa_matar_al", n:"Essa Matar Al-Kuwari", t:2, p:52, s:"energy", roles:[
+    ["lst_giss","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1628,4 +1699,6 @@ const AKA = {
   gulf_drilling_intl:["GDI"],
   acrps_doha_inst:["ACRPS","Doha Institute"],
   al_shamlan_hldg:["MSS Holding"],
+  ali_bin_ali:["ABA Holding","Ali Bin Ali Group"],
+  al_attiya_motors:["AMTC"],
 };

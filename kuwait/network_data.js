@@ -222,6 +222,9 @@ const INSTITUTIONS = [
   {id:"marafie", n:"Marafie Group", s:"conglomerate", t:3, p:52, short:"Marafie Group"},
   {id:"kout_food", n:"Kout Food Group", s:"consumer_disc", t:3, p:54, short:"Kout Food"},
   {id:"maqasa_kcc", n:"Kuwait Clearing Company", s:"finance", t:2, p:56, short:"Maqasa (KCC)"},
+  {id:"ali_alghanim_sons", n:"Ali Alghanim & Sons Group", s:"consumer_disc", t:3, p:56, short:"Ali Alghanim&Sons"},
+  {id:"al_sagar", n:"Al Sagar Group", s:"conglomerate", t:3, p:54, short:"Al Sagar Group"},
+  {id:"al_yaqout", n:"Al Yaqout Group", s:"conglomerate", t:3, p:52, short:"Al Yaqout Group"},
 ];
 
 const PEOPLE = [
@@ -1505,4 +1508,6 @@ const AKA = {
   xcite_electronics:["X-cite","Xcite"],
   kgl:["KGL"],
   maqasa_kcc:["Maqasa"],
+  ali_alghanim_sons:["Ali Alghanim Group"],
+  al_yaqout:["Al-Yaqout Holding Company"],
 };

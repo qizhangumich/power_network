@@ -188,6 +188,9 @@ const INSTITUTIONS = [
   {id:"drydocks_world", n:"Drydocks World", s:"industry", t:2, p:58, short:"Drydocks World"},
   {id:"dutco", n:"Dutco Group", s:"conglomerate", t:3, p:56, short:"Dutco Group"},
   {id:"landmark", n:"Landmark Group", s:"consumer_disc", t:2, p:60, short:"Landmark Group"},
+  {id:"al_tayer", n:"Al Tayer Group", s:"consumer_disc", t:3, p:62, short:"Al Tayer Group"},
+  {id:"al_moosa_arenco", n:"A.A. Al Moosa Enterprises (Arenco Group)", s:"conglomerate", t:3, p:56, short:"Al Moosa/Arenco"},
+  {id:"zulekha_healthcare", n:"Zulekha Healthcare Group", s:"health", t:3, p:54, short:"Zulekha Healthcare"},
 ];
 
 const PEOPLE = [
@@ -1727,4 +1730,7 @@ const AKA = {
   heriot_watt_dubai:["HW Dubai"],
   dubai_media_inc:["DMI"],
   economic_zones_world:["EZW"],
+  al_tayer:["Al Tayer Insignia","Al Tayer Motors"],
+  al_moosa_arenco:["Arenco Group","AA Al Moosa"],
+  zulekha_healthcare:["Zulekha Hospital","Zulekha Group"],
 };

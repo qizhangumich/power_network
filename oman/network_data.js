@@ -193,6 +193,8 @@ const INSTITUTIONS = [
   {id:"moe", n:"Ministry of Education", s:"education", t:1, p:68, short:"MoE"},
   {id:"al_hassan_eng", n:"Al Hassan Engineering Co. SAOG", s:"industry", t:3, p:52, short:"Al Hassan Eng."},
   {id:"squ", n:"Sultan Qaboos University", s:"education", t:2, p:62, short:"SQU"},
+  {id:"mustafa_sultan_ent", n:"Mustafa Sultan Enterprises", s:"conglomerate", t:3, p:54, short:"Mustafa Sultan Ent"},
+  {id:"al_yousef", n:"Al Yousef Group", s:"conglomerate", t:3, p:54, short:"Al Yousef Group"},
 ];
 
 const PEOPLE = [
@@ -1169,4 +1171,5 @@ const AKA = {
   state_council:["Majlis Al Dawla"],
   caa_oman:["PACA","Public Authority for Civil Aviation"],
   al_hassan_eng:["AHEC"],
+  mustafa_sultan_ent:["Mustafa Sultan Group"],
 };

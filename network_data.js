@@ -276,6 +276,8 @@ const INSTITUTIONS = [
   {id:"al_yasat_petroleum", n:"Al Yasat Petroleum", s:"energy", t:2, p:58, short:"Al Yasat Petroleum"},
   {id:"al_dhafra_petro", n:"Al Dhafra Petroleum", s:"energy", t:2, p:57, short:"Al Dhafra Petro"},
   {id:"q_2", n:"Q Holding", s:"finance", t:3, p:56, short:"Q Holding"},
+  {id:"bin_butti_intl", n:"Bin Butti International Holdings", s:"conglomerate", t:3, p:56, short:"Bin Butti Intl"},
+  {id:"mhao", n:"Mohamed Hareb Al Otaiba Group", s:"conglomerate", t:3, p:54, short:"MHAO Group"},
 ];
 
 const PEOPLE = [
@@ -2897,4 +2899,6 @@ const AKA = {
   adnoc_global_trading:["AGT"],
   aldar_investment_propert:["AIP"],
   sca:["Securities & Commodities Authority","SCA"],
+  bin_butti_intl:["BBIH","Bin Butti Group"],
+  mhao:["MHAO","Al Otaiba General Trading Co"],
 };

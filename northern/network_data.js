@@ -101,6 +101,7 @@ const INSTITUTIONS = [
   {id:"sharjah_courts", n:"Sharjah Judicial Department", s:"gov", t:2, p:58, short:"Sharjah Courts"},
   {id:"rak_courts", n:"Ras Al Khaimah Judicial Department", s:"gov", t:2, p:54, short:"RAK Courts"},
   {id:"nesto", n:"Nesto Group", s:"consumer_stap", t:3, p:54, short:"Nesto Group"},
+  {id:"al_bahar", n:"Mohamed Abdulrahman Al-Bahar Co.", s:"industry", t:3, p:58, short:"Al-Bahar"},
 ];
 
 const PEOPLE = [
@@ -910,4 +911,5 @@ const AKA = {
   epaa:["Sharjah"],
   fnrc:["Fujairah Natural Resources Authority"],
   sharjah_courts:["SJD"],
+  al_bahar:["M.A. Al-Bahar"],
 };

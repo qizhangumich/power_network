@@ -129,6 +129,8 @@ const INSTITUTIONS = [
   {id:"ajm_kooheji", n:"AJM Kooheji Group", s:"conglomerate", t:3, p:54, short:"AJM Kooheji"},
   {id:"haji_hassan", n:"Haji Hassan Group", s:"materials", t:3, p:54, short:"Haji Hassan"},
   {id:"bdb", n:"Bahrain Development Bank", s:"finance", t:2, p:58, short:"BDB"},
+  {id:"ama", n:"AMA Group (Ahmed Mansoor Al Aali)", s:"conglomerate", t:3, p:54, short:"AMA Group"},
+  {id:"al_jishi", n:"Al-Jishi Corporation", s:"health", t:3, p:52, short:"Al-Jishi Corp"},
 ];
 
 const PEOPLE = [
@@ -2875,4 +2877,6 @@ const AKA = {
   king_hamad_univ:["KHUH"],
   al_hilal:["Al Hilal Publishing & Marketing"],
   balexco:["BALEXCO"],
+  ama:["Ahmed Mansoor Al Aali Group","Al Aali Group","Ahmed Mansoor Al Aali"],
+  al_jishi:["AlJishi"],
 };
