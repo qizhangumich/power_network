@@ -1,0 +1,5 @@
+# Khaled bin Mohamed receives Chief Justice of ADGM Courts
+source: Sharjah24
+url: https://news.google.com/rss/articles/CBMiogFBVV95cUxNbzhhemFPeXhxRFNScnBJRTRONElQU2pYNVFwYjVjYlVadDJOYVhxVXdXZVJaUmpZUGlvcmNlTTVqT2JWOUJzU3k4MXA2WXFBUzdsZ05rTXhBRWdRcDVqcGw1dUh6SXBCMjVQdHdHRVJPTVJIR1VhV3hzblE0X1BHNGNEWnVoNXlHb2RGU1I2dmN4Y2RqUHVyT1ZsamdrcjVtdUE?oc=5
+
+Khaled bin Mohamed receives Chief Justice of ADGM Courts    Sharjah24
