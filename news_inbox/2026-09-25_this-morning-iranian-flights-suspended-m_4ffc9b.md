@@ -1,0 +1,5 @@
+# THIS MORNING: Iranian flights suspended + MGX-backed consortium eyes another data center portfolio, Mubadala eyes stake in Italian turbine maker
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMijgJBVV95cUxOV09hM2xaWlBDcEpKWHd2NjBOU1NPalhwOFV0MUw1dGQ1djI5aXJobjBzcjZwNEZIXzVjOFZfeGpZM3oyaU9jLUJCTDRScTM4V3VuZHRVSjZnMHpVUHo1REZoa3d5ZGw4WnNjZDAwbXBSenkxRTktMHVKUTlRZzVjaEtaUE5XLTZLR1owVEYwbWd1SE9FQWZNRWdWSjh5Mm9HWlNMN3hOTk9mNFZmREdBb0stVGVleFpOUWFSN0xlY1k2Y293VUhxWGJLSjRJbmhlWkV1U21remwyT1RlTjRpRnFxMDMtSVJseHEtR0d5aHQ2dkN0UElFOFBydmduVWg2ZkhmOFJ2SDJ4NnRGOVE?oc=5
+
+THIS MORNING: Iranian flights suspended + MGX-backed consortium eyes another data center portfolio, Mubadala eyes stake in Italian turbine maker    EnterpriseAM
