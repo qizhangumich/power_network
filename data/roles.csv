@@ -40,7 +40,7 @@ sultan_jaber,Dr. Sultan Ahmed Al Jaber,fedgov,UAE Cabinet / Federal Government,M
 sultan_jaber,Dr. Sultan Ahmed Al Jaber,adnoc,ADNOC Group,Managing Director & Group CEO,executive,v,
 sultan_jaber,Dr. Sultan Ahmed Al Jaber,masdar,Masdar,Chairman,board,v,
 sultan_jaber,Dr. Sultan Ahmed Al Jaber,xrg,XRG (ADNOC international investment),Executive Chairman,board,v,
-sultan_jaber,Dr. Sultan Ahmed Al Jaber,mbzuai,Mohamed bin Zayed University of AI,"Chairman, Board of Trustees",board,ns,
+sultan_jaber,Dr. Sultan Ahmed Al Jaber,mbzuai,Mohamed bin Zayed University of AI,"Founding Chairman, Board of Trustees (2019–Feb 2025)",board,v,former:until Feb 2025
 sultan_jaber,Dr. Sultan Ahmed Al Jaber,xrg,XRG (ADNOC international investment),CEO,executive,v,
 sultan_jaber,Dr. Sultan Ahmed Al Jaber,taqa,TAQA Group,Vice Chairman,board,v,
 jassem_zaabi,Jassem Mohamed Bu Ataba Al Zaabi,dof,Department of Finance,Chairman,government,v,
@@ -808,12 +808,12 @@ abdou_gadallah,Abdou Gadallah,imi,,Group Editorial Director,executive,ns
 bradley_eliot,Bradley Eliot,imi,,Chief Technology Officer,executive,ns
 suhail_ahmed,Suhail Ahmed,imi,,Chief Broadcast Technology Transformation Officer,executive,ns
 sherif_badreddine,Sherif Badreddine,imi,,Chief Revenue Officer,executive,ns
-mohamed_ali_al,Mohamed Ali Al Shorafa Al Hammadi,sca,,Chairman of the Board of Directors,board,ns
+mohamed_ali_al,Mohamed Ali Al Shorafa Al Hammadi,sca,,Chairman of the Board of Directors,board,v
 faisal_yousuf_selaitin,Faisal Yousuf Selaitin,sca,,Vice Chairman of the Board of Directors,board,ns
 ali_mohammed_bakheet,Ali Mohammed Bakheet Al Rumeithi,sca,,Member of the Board of Directors,board,ns
 arif_mohammed_hadi,Arif Mohammed Hadi Amiri,sca,,Member of the Board of Directors,board,ns
 hamad_sayah_al,Hamad Sayah Al Mazrouei,sca,,Member of the Board of Directors,board,ns
-waleed_saeed_al,Waleed Saeed Al Awadhi,sca,,Chief Executive Officer,executive,ns
+waleed_saeed_al,Waleed Saeed Al Awadhi,sca,,Chief Executive Officer,executive,v
 ahmed_mohammed_al,Ahmed Mohammed Al Rumaithi,doe,,Undersecretary,executive,ns
 abdulaziz_mohammed_alhammadi,Abdulaziz Mohammed Alhammadi,doe,,Director General of Regulatory Affairs,executive,ns
 linda_albano,Linda Albano,doe,,Chairman's Advisor and Chief Transformation Program Officer (Water),executive,ns
@@ -895,3 +895,4 @@ hamad_ali_al,Hamad Ali Al Dhaheri,dcd,,Undersecretary,executive,v
 noura_kaabi,Noura Al Kaabi,adnec,ADNEC Group,Chairwoman,board,v,
 ahmad_belhoul_al,Ahmad Belhoul Al Falasi,spaceagency,,Chairman of the Board of Directors,board,v
 salem_butti_salem,Salem Butti Salem Al Qubaisi,spaceagency,,Director-General,executive,v
+nasser_humaid_al,Nasser Humaid Al Nuaimi,tawazun,,Secretary General,executive,ns

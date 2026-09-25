@@ -583,8 +583,10 @@ const PEOPLE = [
     ["snb","Chairman","board","v"]]},
   {id:"almogbel", n:"Waleed Al-Mogbel", t:2, p:72, s:"finance", roles:[
     ["alrajhi","CEO & Managing Director","executive","v"]]},
-  {id:"alghonon", n:"Khalid Al-Ghonon", t:2, p:66, s:"utilities", roles:[
-    ["sec","CEO","executive","ns"]]},
+  {id:"alghonon", n:"Khalid Al-Ghonon", t:2, p:60, s:"utilities", roles:[
+    ["sec","CEO (–Sep 2025)","executive","v","former:until Sep 2025"]]},
+  {id:"alghamdi_sec", n:"Khalid bin Salem AlGhamdi", t:2, p:66, s:"utilities", roles:[
+    ["sec","CEO","executive","v"]]},
   {id:"alhussan", n:"Khalid Al-Hussan", t:2, p:70, s:"finance", roles:[
     ["tadawul","Group CEO, Saudi Tadawul Group","executive","v"]]},
   {id:"alomar_saudia", n:"Ibrahim Al-Omar", t:2, p:68, s:"industry", roles:[
@@ -594,11 +596,11 @@ const PEOPLE = [
   {id:"sulaiman_alhabib", n:"Sulaiman Al Habib", t:2, p:74, s:"health", roles:[
     ["habib","Founder & Chairman","board","v"]]},
   {id:"atallah", n:"Noman Atallah", t:2, p:64, s:"realestate", roles:[
-    ["roshn","Group CEO","executive","ns"]]},
+    ["roshn","Group CEO","executive","v"]]},
   {id:"aldawood", n:"Abdullah Aldawood", t:2, p:68, s:"consumer_disc", roles:[
     ["qiddiya","CEO & Managing Director","executive","v"]]},
   {id:"aljasser", n:"Fawaz Al-Jasser", t:2, p:64, s:"consumer_stap", roles:[
-    ["almarai","CEO","executive","ns"]]},
+    ["almarai","CEO","executive","v"]]},
   {id:"jomana", n:"Jomana Al-Rashid", t:2, p:68, s:"comm", roles:[
     ["srmg","CEO","executive","v"]]},
   {id:"alajlan", n:"Ajlan bin Abdulaziz Al Ajlan", t:2, p:68, s:"conglomerate", roles:[
@@ -1953,6 +1955,18 @@ const PEOPLE = [
     ["gea","Board Member","board","v"]]},
   {id:"salman_bin_yousef", n:"Salman bin Yousef Al-Dosari", t:2, p:58, s:"comm", roles:[
     ["momedia_sa","Minister of Media","executive","v"]]},
+  {id:"eman_bint_hibbas", n:"Eman bint Hibbas Al-Mutairi", t:2, p:58, s:"gov", roles:[
+    ["moc_sa","Deputy Minister of Commerce","executive","v"]]},
+  {id:"maher_alsaeed", n:"Maher Alsaeed", t:2, p:58, s:"gov", roles:[
+    ["moc_sa","Deputy Minister for Policies and Laws","executive","v"]]},
+  {id:"hashem_alayed", n:"Hashem Alayed", t:2, p:58, s:"gov", roles:[
+    ["moc_sa","Deputy Minister for Planning and Development","executive","v"]]},
+  {id:"enas_bint_suleiman", n:"Enas bint Suleiman Al-Issa", t:2, p:58, s:"education", roles:[
+    ["moe_sa","Deputy Minister of Education","executive","v"]]},
+  {id:"abdulrahman_al_hajri", n:"Abdulrahman Al-Hajri", t:2, p:58, s:"education", roles:[
+    ["moe_sa","Deputy Minister of Education for Investment","executive","v"]]},
+  {id:"mohammed_bin_ahmed", n:"Mohammed bin Ahmed Al-Sudairi", t:2, p:58, s:"education", roles:[
+    ["moe_sa","Deputy Minister of Education for Universities, Research and Innovation","executive","v"]]},
 ];
 
 const OWNERSHIP = [

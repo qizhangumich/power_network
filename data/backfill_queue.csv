@@ -1,18 +1,14 @@
 ﻿region,institution_id,name,sector,power,people_linked,status
 abudhabi,microsoft,Microsoft,tech,80,0,pending
-abudhabi,tawazun,Tawazun Council,gov,76,1,pending
 abudhabi,blackrock,BlackRock,finance,76,0,pending
 abudhabi,twopointzero,2PointZero (pre-merger IHC platform; merged into 2PointZero Group 2025),sovereign,74,0,pending
 abudhabi,openai,OpenAI,tech,74,0,pending
 abudhabi,nvidia,NVIDIA,tech,74,0,pending
-saudi,moc_sa,Ministry of Commerce,gov,74,1,pending
-saudi,moe_sa,Ministry of Education,education,74,1,pending
 abudhabi,totalenergies,TotalEnergies,energy,72,0,pending
 dubai,gdmo,Government of Dubai Media Office,comm,72,1,pending
 oman,mtcit_om,"Ministry of Transport, Communications & IT",tech,72,1,pending
-qatar,mot_q,Ministry of Transport,gov,72,1,pending
 qatar,psg,Paris Saint-Germain,comm,72,1,pending
-qatar,totalenergies,TotalEnergies,energy,72,0,pending
+qatar,totalenergies,TotalEnergies,energy,72,1,pending
 saudi,mos_sa,Ministry of Sport,gov,72,1,pending
 abudhabi,khazna,Khazna Data Centers,tech,70,1,pending
 abudhabi,bp,bp,energy,70,0,pending
@@ -89,7 +85,6 @@ saudi,cst,Communications Space and Technology Commission,gov,64,0,pending
 saudi,zahid,Zahid Group,consumer_disc,64,0,pending
 saudi,bait_al_batterjee,Bait Al Batterjee Group,health,64,0,pending
 abudhabi,mazrui_intl,Mazrui International,conglomerate,63,0,pending
-qatar,darwish,Darwish Holding,conglomerate,63,0,pending
 saudi,hsa,HSA Group,conglomerate,63,0,pending
 saudi,rawabi,Rawabi Holding,energy,63,0,pending
 abudhabi,wio,Wio Bank,finance,62,1,pending
@@ -354,7 +349,6 @@ oman,pacp,Public Authority for Consumer Protection,gov,56,0,pending
 qatar,qas,Qatar Aviation Services,industry,56,0,pending
 qatar,laffan_refinery,Laffan Refinery Company,energy,56,0,pending
 qatar,qstp,Qatar Science & Technology Park,gov,56,0,pending
-qatar,abuissa,AbuIssa Holding,consumer_disc,56,0,pending
 saudi,lst_2170,Alujain Corporation,materials,56,1,pending
 saudi,tahakom,Tahakom Investments Company,tech,56,0,pending
 saudi,saudi_coffee,Saudi Coffee Company,consumer_stap,56,0,pending
@@ -385,7 +379,6 @@ dubai,jetex,Jetex,industry,55,0,pending
 dubai,imtiaz_developments,Imtiaz Developments,realestate,55,0,pending
 dubai,anax,ANAX Holding,conglomerate,55,0,pending
 kuwait,kgl,Kuwait and Gulf Link Transport Company,industry,55,0,pending
-qatar,almuftah,Almuftah Group,conglomerate,55,0,pending
 qatar,qvc,Qatar Vinyl Company Ltd,materials,55,0,pending
 saudi,tamer,Tamer Group,health,55,0,pending
 saudi,al_othman,Al Othman Holding,conglomerate,55,0,pending
@@ -438,13 +431,12 @@ qatar,qatar_executive,Qatar Executive,industry,54,0,pending
 qatar,qacc,Qatar Aircraft Catering Company,industry,54,0,pending
 qatar,qafac,Qatar Fuel Additives Company,materials,54,1,pending
 qatar,oryx_gtl,Oryx GTL,energy,54,0,pending
-qatar,mbhh,Mohamed Bin Hamad Holding,conglomerate,54,0,pending
+qatar,mbhh,Mohamed Bin Hamad Holding,conglomerate,54,1,pending
 qatar,gulf_helicopters,Gulf Helicopters Company,industry,54,0,pending
 qatar,qatar_chamber,Qatar Chamber of Commerce and Industry,gov,54,0,pending
 qatar,gulf_drilling_intl,Gulf Drilling International Limited,energy,54,0,pending
 qatar,acrps_doha_inst,Arab Center for Research and Policy Studies,education,54,0,pending
 qatar,qatofin,Qatofin Company Limited,materials,54,0,pending
-qatar,al_shamlan_hldg,Marzooq Shamlan Al Shamlan Holding,consumer_disc,54,0,pending
 saudi,d360_bank,D360 Bank,finance,54,0,pending
 saudi,safe,National Security Service Company,industry,54,0,pending
 saudi,sago,Saudi Grains Organization,gov,54,0,pending

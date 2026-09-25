@@ -783,7 +783,7 @@ const PEOPLE = [
     ["ooredoo","Board Member","board","v"]]},
   {id:"mohammed_bin_nasser", n:"Mohammed Bin Nasser Al-Hajri", t:2, p:52, s:"comm", roles:[
     ["nebras","Chairman","board","v"],
-    ["qewc","Managing Director and Chief Executive Officer","executive","ns"],
+    ["qewc","Managing Director and Chief Executive Officer","executive","v"],
     ["ooredoo","Board Member","board","v"]]},
   {id:"nasser_bin_hamad", n:"Nasser Bin Hamad Bin Nasser Al-Thani", t:2, p:60, s:"comm", roles:[
     ["ooredoo","Group Regional Chief Executive Officer - Middle East","executive","v"]]},
@@ -1405,6 +1405,42 @@ const PEOPLE = [
     ["moj_qatar","Undersecretary of the Ministry of Justice","executive","v"]]},
   {id:"jassim_rashid_al", n:"Jassim Rashid Al Buenain", t:2, p:58, s:"gov", roles:[
     ["qoc","Secretary-General","executive","v"]]},
+  {id:"mohammed_abdullah_al", n:"Mohammed Abdullah Al-Maadeed", t:2, p:58, s:"gov", roles:[
+    ["mot_q","Undersecretary","executive","v"]]},
+  {id:"abdulaziz_abdullah_al", n:"Abdulaziz Abdullah Al-Sulaiti", t:2, p:58, s:"gov", roles:[
+    ["mot_q","Assistant Undersecretary for Maritime Transport Affairs","executive","v"]]},
+  {id:"abdullah_saif_ahmed", n:"Abdullah Saif Ahmed Al Saif Al-Sulaiti", t:2, p:58, s:"gov", roles:[
+    ["mot_q","Assistant Undersecretary for Land Transport Affairs","executive","v"]]},
+  {id:"hend_zainal", n:"Hend Zainal", t:2, p:58, s:"education", roles:[
+    ["qf","President of Higher Education","executive","ns"]]},
+  {id:"sameh_kokash", n:"Sameh Kokash", t:2, p:58, s:"energy", roles:[
+    ["totalenergies","Vice President Refining & Chemicals Qatar and Business Development & AOBO Gas in Qatar","executive","ns"]]},
+  {id:"bader_abdullah_al", n:"Bader Abdullah Al-Darwish", t:2, p:62, s:"conglomerate", roles:[
+    ["darwish","Chairman and Managing Director","board","v"]]},
+  {id:"saoud_al_darwish", n:"Saoud Al-Darwish", t:2, p:62, s:"conglomerate", roles:[
+    ["darwish","Vice Chairman","board","v"]]},
+  {id:"ashraf_abuissa", n:"Ashraf Abuissa", t:2, p:62, s:"consumer_disc", roles:[
+    ["abuissa","Chairman and CEO","board","v"]]},
+  {id:"nabil_abuissa", n:"Nabil Abuissa", t:2, p:62, s:"consumer_disc", roles:[
+    ["abuissa","Vice Chairman","board","v"]]},
+  {id:"ihab_hegazy", n:"Ihab Hegazy", t:2, p:60, s:"consumer_disc", roles:[
+    ["abuissa","Managing Director","executive","v"]]},
+  {id:"fawaz_idrissi", n:"Fawaz Idrissi", t:2, p:58, s:"consumer_disc", roles:[
+    ["abuissa","Senior Vice President","executive","v"]]},
+  {id:"baber_malik", n:"Baber Malik", t:2, p:58, s:"consumer_disc", roles:[
+    ["abuissa","Group Chief Human Resources Officer","executive","v"]]},
+  {id:"raj_salim", n:"Raj Salim", t:2, p:58, s:"consumer_disc", roles:[
+    ["abuissa","Vice President Business Development","executive","v"]]},
+  {id:"abdulrehman_muftah_almuftah", n:"Abdulrehman Muftah Almuftah", t:2, p:62, s:"conglomerate", roles:[
+    ["almuftah","Founder and Chairman","board","v"]]},
+  {id:"ibrahim_al_muftah", n:"Ibrahim Al-Muftah", t:2, p:60, s:"conglomerate", roles:[
+    ["almuftah","Managing Director","executive","v"]]},
+  {id:"sheikh_jassim_bin_b_b", n:"Sheikh Jassim bin Mohamed Al Thani", t:2, p:62, s:"conglomerate", roles:[
+    ["mbhh","Chairman","board","v"]]},
+  {id:"tariq_al_shamlan", n:"Tariq Al Shamlan", t:2, p:62, s:"consumer_disc", roles:[
+    ["al_shamlan_hldg","Chairman","board","v"]]},
+  {id:"marzooq_al_shamlan", n:"Marzooq Al Shamlan", t:2, p:60, s:"consumer_disc", roles:[
+    ["al_shamlan_hldg","CEO","executive","v"]]},
 ];
 
 const OWNERSHIP = [

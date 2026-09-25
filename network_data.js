@@ -46,7 +46,7 @@ const INSTITUTIONS = [
   {id:"admo", n:"Abu Dhabi Media Office", s:"comm", t:1, p:72, short:"AD Media Office"},
   {id:"mofa", n:"UAE Ministry of Foreign Affairs", s:"gov", t:1, p:84, short:"MoFA"},
   {id:"cbuae", n:"Central Bank of the UAE", s:"finance", t:1, p:86, short:"CBUAE"},
-  {id:"sca", n:"Securities & Commodities Authority", s:"finance", t:2, p:70, short:"SCA"},
+  {id:"sca", n:"Capital Market Authority", s:"finance", t:2, p:70, short:"CMA"},
   {id:"spaceagency", n:"UAE Space Agency", s:"tech", t:2, p:70, short:"Space Agency"},
   {id:"tawazun", n:"Tawazun Council", s:"gov", t:1, p:76, short:"Tawazun"},
   {id:"atrc", n:"Advanced Technology Research Council", s:"tech", t:1, p:76, short:"ATRC"},
@@ -358,7 +358,7 @@ const PEOPLE = [
     ["adnoc","Managing Director & Group CEO","executive","v"],
     ["masdar","Chairman","board","v"],
     ["xrg","Executive Chairman","board","v"],
-    ["mbzuai","Chairman, Board of Trustees","board","ns"],
+    ["mbzuai","Founding Chairman, Board of Trustees (2019–Feb 2025)","board","v","former:until Feb 2025"],
     ["xrg","CEO","executive","v"],
     ["taqa","Vice Chairman","board","v"],
     ["adnocgas","Chairperson","board","v"],
@@ -2396,7 +2396,7 @@ const PEOPLE = [
     ["imi","Chief Revenue Officer","executive","ns"],
     ]},
   {id:"mohamed_ali_al", n:"Mohamed Ali Al Shorafa Al Hammadi", t:2, p:62, s:"finance", roles:[
-    ["sca","Chairman of the Board of Directors","board","ns"],
+    ["sca","Chairman of the Board of Directors","board","v"],
     ["atrc","Board Member, ATRC","board","v"],
     ]},
   {id:"faisal_yousuf_selaitin", n:"Faisal Yousuf Selaitin", t:2, p:62, s:"finance", roles:[
@@ -2412,7 +2412,7 @@ const PEOPLE = [
     ["sca","Member of the Board of Directors","board","ns"],
     ]},
   {id:"waleed_saeed_al", n:"Waleed Saeed Al Awadhi", t:2, p:60, s:"finance", roles:[
-    ["sca","Chief Executive Officer","executive","ns"],
+    ["sca","Chief Executive Officer","executive","v"],
     ]},
   {id:"ahmed_mohammed_al", n:"Ahmed Mohammed Al Rumaithi", t:2, p:58, s:"gov", roles:[
     ["doe","Undersecretary","executive","ns"],
@@ -2584,6 +2584,9 @@ const PEOPLE = [
     ]},
   {id:"salem_butti_salem", n:"Salem Butti Salem Al Qubaisi", t:2, p:58, s:"tech", roles:[
     ["spaceagency","Director-General","executive","v"],
+    ]},
+  {id:"nasser_humaid_al", n:"Nasser Humaid Al Nuaimi", t:2, p:58, s:"gov", roles:[
+    ["tawazun","Secretary General","executive","ns"],
     ]},
 ];
 
@@ -2893,4 +2896,5 @@ const AKA = {
   ta_ziz:["Taziz"],
   adnoc_global_trading:["AGT"],
   aldar_investment_propert:["AIP"],
+  sca:["Securities & Commodities Authority","SCA"],
 };
