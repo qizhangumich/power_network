@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed receives Chief Justice of ADGM Courts
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxPY2QxSGlTcEtqc3hhQy1ISU5qTW5jVV9pVEx3aE0wc0V0b3FFM0h3MDRZNVBKaU9ndGZ5WVI4NkdBZU15MURHbmlrLTNXMGl4a3NhejFzQ09wU2pxbVVJTkhwdFk1cGtyWXYwcWgwWUVOMjVuM09BSTBnTW1qdVJNaWhITlBaYlZWaG9ta2ZlOXhrSVBHZEZEaENNYVJyWnRrWWlOMzFUWnhjTldMUElIYzlaTGVpbUdmM3NVcGlB?oc=5
+
+Khaled bin Mohamed bin Zayed receives Chief Justice of ADGM Courts    مكتب أبوظبي الإعلامي

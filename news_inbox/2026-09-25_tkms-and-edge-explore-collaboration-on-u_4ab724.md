@@ -1,0 +1,5 @@
+# TKMS and EDGE Explore Collaboration on Underwater Protection and Surveillance Capability
+source: defenceprocurementinternational.com
+url: https://news.google.com/rss/articles/CBMingFBVV95cUxPaEszTFpDZzBuWVdMWEY1NXQyRmJheEV0Vm9pM0Q0TV9DZkZBc01CaEN0RUI0TUNzeVEtbDFaRWU3dWxCUmcwM0tXT3o5QXpQWTFBVDFQZDVscEx2RkI0bU9WQzZSbTdMaUlwb0VDWHBoNVBpVlNFY1ZyX1AxVmFEd2U5TVREbDFaRjM3YWJyc1lWWWlDMkR1SFhkR2J6UQ?oc=5
+
+TKMS and EDGE Explore Collaboration on Underwater Protection and Surveillance Capability    defenceprocurementinternational.com

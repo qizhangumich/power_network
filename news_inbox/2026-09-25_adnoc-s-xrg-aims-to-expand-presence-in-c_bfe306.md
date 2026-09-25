@@ -1,0 +1,5 @@
+# ADNOC's XRG aims to expand presence in Central Asia, Caspian basin
+source: report.az
+url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNdVNNM3hFTjdpVHdySzBjX3EyNTB1bnN1cEFPRnlQYmtlZG9TT2ZDdVhmOG5OLUxIOFl4NXpFbW5XSEdsNW1LcGV5X1A2aTUzLXA2aW5zWk5EWEhKRTJwVGtYVE0zMUZ1bm5xMTNLckl5b2s3ZW1NcjBTMXFLNTRibldabk0zaDh6ZkFkUDZQdmhzQkNveUJqa9IBngFBVV95cUxObXZzdmg3X1pvQW1nZGtWOGdPMS1TckdpbmZjV3RtNjFDeTJvcmU2dzJtLWtOR2M2S2ZlaXpRa3JYanZZNmpUTjhCS3NSaEFQcjQxUzBkWTVmUDdfM2xvcmc3SlotTEI5Y2NOVC1nR0IzU0NoMlJOeGxpblZEYm0tV2Jfb0F4SnhJUUFmbi1xc3Iwd2VHNVJ2a0NCMEpOZw?oc=5
+
+ADNOC's XRG aims to expand presence in Central Asia, Caspian basin    report.az

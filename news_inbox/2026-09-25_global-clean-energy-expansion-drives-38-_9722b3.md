@@ -1,0 +1,5 @@
+# Global clean energy expansion drives 38% rise in Masdar Generation
+source: Technical Review Middle East
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQSVRHN2YyYy11UTNnZE0ydHIxRVFUR3kyalFYbF8wNERveS03WU5WYklMeXFlTklBNmpRYkFhdlJCLVEtOWZhRzAwYTJtZ1lIVjg2VmVlMmVOUDVJWmE1V211ekRVZVNvQmhxLVpScDN3Tm9BczBqSUpuMmYtay0tWTVfc3FFSmxtZGg3ZWJzWmNmMG1KSlpwUDNfSjg5czJ1SGt4VGltbFBZV2tOV0RaS2FKV1gtWURXZVVKdkladDZMRnVvRmlj?oc=5
+
+Global clean energy expansion drives 38% rise in Masdar Generation    Technical Review Middle East

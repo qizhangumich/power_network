@@ -1,0 +1,5 @@
+# EDGE Calls on UAE Students and Graduates for Technology Pioneers Competition
+source: defenceprocurementinternational.com
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQeEZyaDZJZ0lLeTV2UDMxbGtlX3FuRUEzcWM4VEt5X19EeHhHUXNOZ3JyM0tQMFVfR3N1LXNxTFlNVGNKcHZRV3ROUHpSNHhzd3ZiekZlX053ZEdqTzJqTGZpWTVyZzMxNWZmelhISWtOZThhQ2lDeWRua3Nmb1AwbXFNTU9RRHVEeEkzRFlocnpsS25qR3VYbWswS3FGbi12MFZCR0lpNmpvUHlIT0ZYSUhqdHBtem5URndYamdWeFhuLVhYLUNTeTdNaXg4N3M?oc=5
+
+EDGE Calls on UAE Students and Graduates for Technology Pioneers Competition    defenceprocurementinternational.com
