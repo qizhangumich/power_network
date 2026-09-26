@@ -195,6 +195,7 @@ const INSTITUTIONS = [
   {id:"squ", n:"Sultan Qaboos University", s:"education", t:2, p:62, short:"SQU"},
   {id:"mustafa_sultan_ent", n:"Mustafa Sultan Enterprises", s:"conglomerate", t:3, p:54, short:"Mustafa Sultan Ent"},
   {id:"al_yousef", n:"Al Yousef Group", s:"conglomerate", t:3, p:54, short:"Al Yousef Group"},
+  {id:"oman_news_agency", n:"Oman News Agency", s:"comm", t:2, p:52, short:"Oman News Agency"},
 ];
 
 const PEOPLE = [
@@ -1128,6 +1129,7 @@ const OWNERSHIP = [
   ["sct","ithca","subsidiary","v"],
   ["oman_tech_fund","ithca","subsidiary","v"],
   ["caa_oman","mtcit_om","aviation regulator","ns"],
+  ["royalhosp","moh_om","under","v"],
 ];
 
 const FAMILY = [
@@ -1172,4 +1174,5 @@ const AKA = {
   caa_oman:["PACA","Public Authority for Civil Aviation"],
   al_hassan_eng:["AHEC"],
   mustafa_sultan_ent:["Mustafa Sultan Group"],
+  oman_news_agency:["ONA"],
 };

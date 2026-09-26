@@ -4,6 +4,7 @@ abudhabi,blackrock,BlackRock,finance,76,0,pending
 abudhabi,twopointzero,2PointZero (pre-merger IHC platform; merged into 2PointZero Group 2025),sovereign,74,0,pending
 abudhabi,openai,OpenAI,tech,74,0,pending
 abudhabi,nvidia,NVIDIA,tech,74,0,pending
+saudi,kaust,King Abdullah University of Science and Technology,education,74,0,pending
 abudhabi,totalenergies,TotalEnergies,energy,72,0,pending
 dubai,gdmo,Government of Dubai Media Office,comm,72,1,pending
 oman,mtcit_om,"Ministry of Transport, Communications & IT",tech,72,1,pending
@@ -99,6 +100,7 @@ abudhabi,moelis,Moelis & Company,finance,62,0,pending
 abudhabi,rotana,Rotana Hotels,consumer_disc,62,1,pending
 abudhabi,senaat,General Holding Corporation,conglomerate,62,1,pending
 abudhabi,globalfoundries,GlobalFoundries,tech,62,0,pending
+abudhabi,skmc_abu_dhabi,Sheikh Khalifa Medical City,health,62,0,pending
 dubai,al_tayer,Al Tayer Group,consumer_disc,62,0,pending
 kuwait,kfaed,Kuwait Fund for Arab Economic Development,sovereign,62,0,pending
 kuwait,cma_kuwait,Capital Markets Authority,gov,62,0,pending
@@ -156,6 +158,7 @@ abudhabi,fortress,Fortress Investment Group,finance,60,0,pending
 abudhabi,adnoc_global_trading,ADNOC Global Trading,energy,60,0,pending
 bahrain,bahrain_lng,Bahrain LNG,energy,60,1,pending
 bahrain,king_hamad_univ,King Hamad University Hospital,health,60,1,pending
+bahrain,salmaniya_hospital,Salmaniya Medical Complex,health,60,0,pending
 dubai,jumaalmajid,Juma Al Majid Group,conglomerate,60,0,pending
 dubai,borse_dubai,Borse Dubai Limited,finance,60,0,pending
 dubai,mag,MAG Group Holding,realestate,60,0,pending
@@ -243,6 +246,7 @@ kuwait,pai,Public Authority for Industry,industry,58,0,pending
 kuwait,bukhamseen,Bukhamseen Group Holding Company,conglomerate,58,0,pending
 kuwait,ooredoo_kuwait,Ooredoo Kuwait,comm,58,0,pending
 kuwait,xcite_electronics,Xcite Alghanim Electronics,consumer_disc,58,0,pending
+kuwait,amiri_hospital,Al-Amiri Hospital,health,58,0,pending
 northern,rak_ded,RAK Department of Economic Development,gov,58,1,pending
 northern,rak_gas,RAK Gas,energy,58,1,pending
 northern,rak_municipality,Ras Al Khaimah Municipality,gov,58,1,pending
@@ -311,6 +315,7 @@ saudi,stc_bank,Saudi Digital Payments Company (stc Bank),finance,58,1,pending
 saudi,nesma_partners,Nesma & Partners,industry,58,0,pending
 saudi,site,Saudi Information Technology Company,tech,58,0,pending
 saudi,saudi_bugshan,Saudi Bugshan Company,conglomerate,58,0,pending
+saudi,kfcris,King Faisal Center for Research and Islamic Studies,education,58,0,pending
 abudhabi,al_dhafra_petro,Al Dhafra Petroleum,energy,57,0,pending
 dubai,chalhoub,Chalhoub Group,consumer_disc,57,0,pending
 dubai,galadari_brothers,Galadari Brothers Group,conglomerate,57,0,pending
@@ -330,7 +335,9 @@ abudhabi,bluefive_capital,BlueFive Capital,finance,56,0,pending
 abudhabi,aldar_estates,Aldar Estates,realestate,56,0,pending
 abudhabi,q_2,Q Holding,finance,56,0,pending
 abudhabi,bin_butti_intl,Bin Butti International Holdings,conglomerate,56,0,pending
+abudhabi,trends_research,TRENDS Research & Advisory,gov,56,0,pending
 bahrain,beyon_solutions,Beyon Solutions,tech,56,0,pending
+bahrain,arabian_gulf_univ,Arabian Gulf University,education,56,0,pending
 dubai,meydan,Meydan Group,consumer_disc,56,0,pending
 dubai,dafza,Dubai Airport Free Zone Authority,gov,56,0,pending
 dubai,al_shirawi,Al Shirawi Group,industry,56,0,pending
@@ -411,6 +418,7 @@ bahrain,beyon_money,Beyon Money,finance,54,0,pending
 bahrain,ajm_kooheji,AJM Kooheji Group,conglomerate,54,0,pending
 bahrain,haji_hassan,Haji Hassan Group,materials,54,0,pending
 bahrain,ama,AMA Group (Ahmed Mansoor Al Aali),conglomerate,54,0,pending
+bahrain,bahrain_news_agency,Bahrain News Agency,comm,54,0,pending
 dubai,national_bonds,National Bonds Corporation,finance,54,0,pending
 dubai,ducab,Dubai Cable Company,materials,54,0,pending
 dubai,dubai_asset_mgmt,Dubai Holding Asset Management,realestate,54,0,pending
@@ -465,6 +473,7 @@ abudhabi,twofour54,twofour54,comm,52,0,pending
 abudhabi,al_foah,Al Foah Company,consumer_stap,52,0,pending
 abudhabi,al_ain_farms,Al Ain Farms for Livestock Production,consumer_stap,52,0,pending
 abudhabi,provis,Provis Real Estate Management,realestate,52,0,pending
+abudhabi,emirates_policy_ctr,Emirates Policy Center,gov,52,0,pending
 bahrain,bahrain_golf_course,Bahrain International Golf Course Company,consumer_disc,52,0,pending
 bahrain,array_innovation,ARRAY Innovation,tech,52,0,pending
 bahrain,premo,Premo Group,industry,52,0,pending
@@ -484,6 +493,7 @@ dubai,desc,Dubai Electronic Security Center,gov,52,0,pending
 dubai,gdrfa_dubai,General Directorate of Residency and Foreigners Affairs Dubai,gov,52,0,pending
 dubai,fakhruddin_prop,Fakhruddin Properties,realestate,52,0,pending
 dubai,heriot_watt_dubai,Heriot-Watt University Dubai,education,52,0,pending
+dubai,alfred,Alfred Holdings,consumer_disc,52,0,pending
 kuwait,kafco,Kuwait Aviation Fuelling Company,industry,52,0,pending
 kuwait,q8oils,Q8Oils,materials,52,0,pending
 kuwait,paafr,Public Authority for Agriculture Affairs and Fish Resources,consumer_stap,52,0,pending
@@ -507,6 +517,7 @@ oman,sur_industrial_city,Sur Industrial City,industry,52,0,pending
 oman,gutech,German University of Technology in Oman,education,52,0,pending
 oman,oman_tech_fund,Oman Technology Fund,finance,52,0,pending
 oman,al_hassan_eng,Al Hassan Engineering Co. SAOG,industry,52,0,pending
+oman,oman_news_agency,Oman News Agency,comm,52,0,pending
 qatar,al_maha_services,Al Maha Services,industry,52,0,pending
 qatar,discover_qatar,Discover Qatar,consumer_disc,52,0,pending
 qatar,media_city_qatar,Media City Qatar,gov,52,0,pending

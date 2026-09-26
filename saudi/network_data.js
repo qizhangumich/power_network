@@ -462,6 +462,8 @@ const INSTITUTIONS = [
   {id:"al_dabbagh", n:"Al-Dabbagh Group", s:"conglomerate", t:3, p:60, short:"Al-Dabbagh Group"},
   {id:"saudi_bugshan", n:"Saudi Bugshan Company", s:"conglomerate", t:3, p:58, short:"Saudi Bugshan Co"},
   {id:"al_fozan", n:"Al Fozan Holding", s:"conglomerate", t:3, p:56, short:"Al Fozan Holding"},
+  {id:"kaust", n:"King Abdullah University of Science and Technology", s:"education", t:1, p:74, short:"KAUST"},
+  {id:"kfcris", n:"King Faisal Center for Research and Islamic Studies", s:"education", t:2, p:58, short:"KFCRIS"},
 ];
 
 const PEOPLE = [

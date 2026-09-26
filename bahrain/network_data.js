@@ -131,6 +131,9 @@ const INSTITUTIONS = [
   {id:"bdb", n:"Bahrain Development Bank", s:"finance", t:2, p:58, short:"BDB"},
   {id:"ama", n:"AMA Group (Ahmed Mansoor Al Aali)", s:"conglomerate", t:3, p:54, short:"AMA Group"},
   {id:"al_jishi", n:"Al-Jishi Corporation", s:"health", t:3, p:52, short:"Al-Jishi Corp"},
+  {id:"arabian_gulf_univ", n:"Arabian Gulf University", s:"education", t:2, p:56, short:"Arabian Gulf Univ"},
+  {id:"salmaniya_hospital", n:"Salmaniya Medical Complex", s:"health", t:2, p:60, short:"Salmaniya Hospital"},
+  {id:"bahrain_news_agency", n:"Bahrain News Agency", s:"comm", t:2, p:54, short:"Bahrain News Agency"},
 ];
 
 const PEOPLE = [
@@ -2879,4 +2882,7 @@ const AKA = {
   balexco:["BALEXCO"],
   ama:["Ahmed Mansoor Al Aali Group","Al Aali Group","Ahmed Mansoor Al Aali"],
   al_jishi:["AlJishi"],
+  arabian_gulf_univ:["AGU"],
+  salmaniya_hospital:["SMC"],
+  bahrain_news_agency:["BNA"],
 };

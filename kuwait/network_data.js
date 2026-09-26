@@ -225,6 +225,7 @@ const INSTITUTIONS = [
   {id:"ali_alghanim_sons", n:"Ali Alghanim & Sons Group", s:"consumer_disc", t:3, p:56, short:"Ali Alghanim&Sons"},
   {id:"al_sagar", n:"Al Sagar Group", s:"conglomerate", t:3, p:54, short:"Al Sagar Group"},
   {id:"al_yaqout", n:"Al Yaqout Group", s:"conglomerate", t:3, p:52, short:"Al Yaqout Group"},
+  {id:"amiri_hospital", n:"Al-Amiri Hospital", s:"health", t:2, p:58, short:"Amiri Hospital"},
 ];
 
 const PEOPLE = [
@@ -1473,6 +1474,7 @@ const OWNERSHIP = [
   ["xcite_electronics","alghanim","subsidiary of","ns"],
   ["kipic","kpc","subsidiary","v"],
   ["kic","kia","majority shareholder (62%)","v"],
+  ["amiri_hospital","moh_kuwait","under","v"],
 ];
 
 const FAMILY = [
@@ -1510,4 +1512,5 @@ const AKA = {
   maqasa_kcc:["Maqasa"],
   ali_alghanim_sons:["Ali Alghanim Group"],
   al_yaqout:["Al-Yaqout Holding Company"],
+  amiri_hospital:["Al Amiri Hospital"],
 };

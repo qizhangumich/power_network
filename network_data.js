@@ -278,6 +278,9 @@ const INSTITUTIONS = [
   {id:"q_2", n:"Q Holding", s:"finance", t:3, p:56, short:"Q Holding"},
   {id:"bin_butti_intl", n:"Bin Butti International Holdings", s:"conglomerate", t:3, p:56, short:"Bin Butti Intl"},
   {id:"mhao", n:"Mohamed Hareb Al Otaiba Group", s:"conglomerate", t:3, p:54, short:"MHAO Group"},
+  {id:"skmc_abu_dhabi", n:"Sheikh Khalifa Medical City", s:"health", t:2, p:62, short:"SKMC Abu Dhabi"},
+  {id:"emirates_policy_ctr", n:"Emirates Policy Center", s:"gov", t:3, p:52, short:"Emirates Policy Ctr"},
+  {id:"trends_research", n:"TRENDS Research & Advisory", s:"gov", t:3, p:56, short:"TRENDS Research"},
 ];
 
 const PEOPLE = [
@@ -2842,6 +2845,7 @@ const OWNERSHIP = [
   ["al_yasat_petroleum","adnoc","JV between ADNOC Group (60%) and CNPC (40%)","ns"],
   ["al_dhafra_petro","adnoc","jv","v"],
   ["q_2","ihc","subsidiary","v"],
+  ["skmc_abu_dhabi","seha","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -2901,4 +2905,7 @@ const AKA = {
   sca:["Securities & Commodities Authority","SCA"],
   bin_butti_intl:["BBIH","Bin Butti Group"],
   mhao:["MHAO","Al Otaiba General Trading Co"],
+  skmc_abu_dhabi:["SKMC"],
+  emirates_policy_ctr:["EPC"],
+  trends_research:["TRENDS Group","TITI"],
 };

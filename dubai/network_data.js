@@ -191,6 +191,7 @@ const INSTITUTIONS = [
   {id:"al_tayer", n:"Al Tayer Group", s:"consumer_disc", t:3, p:62, short:"Al Tayer Group"},
   {id:"al_moosa_arenco", n:"A.A. Al Moosa Enterprises (Arenco Group)", s:"conglomerate", t:3, p:56, short:"Al Moosa/Arenco"},
   {id:"zulekha_healthcare", n:"Zulekha Healthcare Group", s:"health", t:3, p:54, short:"Zulekha Healthcare"},
+  {id:"alfred", n:"Alfred Holdings", s:"consumer_disc", t:3, p:52, short:"Alfred Holdings"},
 ];
 
 const PEOPLE = [
@@ -1662,6 +1663,7 @@ const OWNERSHIP = [
   ["mbru","dha","part of","v"],
   ["economic_zones_world","dpworld","subsidiary","v"],
   ["drydocks_world","dpworld","subsidiary","v"],
+  ["dubai_media_inc","dxbgov","under","v"],
 ];
 
 const FAMILY = [
@@ -1733,4 +1735,5 @@ const AKA = {
   al_tayer:["Al Tayer Insignia","Al Tayer Motors"],
   al_moosa_arenco:["Arenco Group","AA Al Moosa"],
   zulekha_healthcare:["Zulekha Hospital","Zulekha Group"],
+  alfred:["InsuranceMarket.ae","CreditMarket.ae","HolidayMarket.ae","myAlfred"],
 };

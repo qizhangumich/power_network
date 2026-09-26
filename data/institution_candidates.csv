@@ -1,10 +1,10 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Alfred Holdings,2,bahrain,pending,2026-09-23,2026-09-25,Alfred Holdings expands with credit and travel portals3m read
+Turkish Airlines,3,qatar,pending,2026-09-08,2026-09-25,"Turkish Airlines, Boeing finalize 150 737 MAX order2m read"
+High Altitude Platform Systems,2,abudhabi,pending,2026-09-23,2026-09-23,Space42 and Telespazio Ibérica Begin Wildfire Monitoring in Spain supported by High Altitude Platform Systems
 Honeywell Technologies,2,qatar,pending,2026-09-23,2026-09-24,"QFZ, Honeywell Technologies partner to establish manufacturing and service hub in Qatar"
-Turkish Airlines,2,qatar,pending,2026-09-08,2026-09-24,Turkish Airlines will be new Liverpool shirt sponsor in £300 mn deal
 UAE-listed MAIR Group,2,,pending,2026-09-24,2026-09-24,UAE-listed MAIR Group to acquire 70% stake in Espressolab owner Eslab
 Oman Investment,2,oman,pending,2026-09-24,2026-09-24,Oman floats $7bn of tenders for private sector
-Abu Dhabi Investment,19,abudhabi,rejected,2026-09-05,2026-09-24,"Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake"
+Abu Dhabi Investment,20,abudhabi,rejected,2026-09-05,2026-09-25,"Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake"
 British Airways,9,dubai,rejected,2026-09-15,2026-09-19,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
 Marlan Holding,7,abudhabi,added,2026-09-08,2026-09-10,Abu Dhabi's IHC to acquire 80% stake in UAE space company Marlan Holding
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
@@ -47,8 +47,8 @@ Qatar Real Estate,2,qatar,rejected,2026-09-11,2026-09-21,Qatar Real Estate Forum
 Qatar Development,2,qatar,rejected,2026-09-07,2026-09-08,"Quick update on the top stories... Qatar Development Bank named ""Development Partner"" for QMED 2026. HMC to hold Alzheimer's awareness event"
 US Department,2,qatar,rejected,2026-09-08,2026-09-18,US Department of the Treasury announces new Iran sanctions
 Saudi Construction,2,saudi,rejected,2026-09-07,2026-09-22,Saudi Construction Index rises to 55.4 points in August
-Umm Al Qura for Development,2,saudi,rejected,2026-09-06,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
 Al Qura for Development and Construction,2,saudi,rejected,2026-09-06,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
+Umm Al Qura for Development,2,saudi,rejected,2026-09-06,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
 Advanced Energy,2,saudi,rejected,2026-09-17,2026-09-22,Advanced Energy Trading and Contracting
 Dell Technologies,2,saudi,rejected,2026-09-05,2026-09-07,"Dell Technologies, Armada to accelerate mobile and Edge Data Infrastructure in KSA"
 Saudi Media Company,2,saudi,rejected,2026-09-05,2026-09-22,Saudi Media Academy concludes Strategic Leadership programme in London
