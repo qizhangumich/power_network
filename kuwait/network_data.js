@@ -64,7 +64,7 @@ const INSTITUTIONS = [
   {id:"lst_boubyan", n:"Boubyan Bank K.S.C.P.", s:"finance", t:2, p:64, short:"Boubyan Bank"},
   {id:"lst_ifa", n:"International Financial Advisors Holding", s:"finance", t:2, p:50, short:"IFA"},
   {id:"lst_ninv", n:"National Investments Co", s:"finance", t:2, p:56, short:"NINV"},
-  {id:"lst_arzan", n:"Arzan Financial Group for Financing and Investment", s:"finance", t:2, p:50, short:"ARZAN"},
+  {id:"lst_arzan", n:"Arzan Financial Group for Financing and Investment K.P.S.C.", s:"finance", t:2, p:53, short:"ARZAN"},
   {id:"lst_aayan", n:"Aayan Leasing and Investment", s:"finance", t:2, p:50, short:"AAYAN"},
   {id:"lst_kre", n:"Kuwait Real Estate Co KSC", s:"realestate", t:2, p:58, short:"KRE"},
   {id:"lst_urc", n:"United Real Estate K.S.C", s:"realestate", t:2, p:50, short:"URC"},
@@ -381,6 +381,7 @@ const PEOPLE = [
   {id:"bader_abdullah_al", n:"Bader Abdullah Al-Kandari", t:2, p:62, s:"finance", roles:[
     ["boursa","Vice Chairman","board","v"]]},
   {id:"talal_jassim_al", n:"Talal Jassim Al-Bahar", t:2, p:52, s:"finance", roles:[
+    ["lst_arzan","Chairman of the Board of Directors","board","v"],
     ["lst_kre","Vice Chairman & CEO","board","v"],
     ["boursa","Board Member","board","v"]]},
   {id:"khaled_waleed_al", n:"Khaled Waleed Al-Falah", t:2, p:52, s:"finance", roles:[
@@ -1047,6 +1048,7 @@ const PEOPLE = [
   {id:"mishari_abdullah_al", n:"Mishari Abdullah Al-Dakhil", t:2, p:52, s:"realestate", roles:[
     ["lst_kre","Board Member","board","v"]]},
   {id:"bader_al_hajri", n:"Bader Al Hajri", t:2, p:46, s:"realestate", roles:[
+    ["lst_arzan","Board Member","board","v"],
     ["lst_kre","Head of Property Management","executive","v"]]},
   {id:"fahad_al_shamlan", n:"Fahad Al-Shamlan", t:2, p:46, s:"realestate", roles:[
     ["lst_kre","Head of Investment & Acquisitions","executive","v"]]},
@@ -1313,6 +1315,20 @@ const PEOPLE = [
     ["mew_kuwait","Minister of Electricity Water and Renewable Energy","executive","v"]]},
   {id:"adel_mohammed_abdullah", n:"Adel Mohammed Abdullah Al-Zamel", t:2, p:58, s:"utilities", roles:[
     ["mew_kuwait","Undersecretary of the Ministry of Electricity Water and Renewable Energy","executive","v"]]},
+  {id:"eid_al_rashidi", n:"Eid Al-Rashidi", t:2, p:58, s:"gov", roles:[
+    ["mopw_kw","Acting Undersecretary of the Ministry of Public Works","executive","ns"]]},
+  {id:"abdullah_al_mahri", n:"Abdullah Al-Mahri", t:2, p:62, s:"gov", roles:[
+    ["kwmun","Chairman of the Municipal Council","board","ns"]]},
+  {id:"jassem_hasan_zainal", n:"Jassem Hasan Zainal", t:2, p:62, s:"finance", roles:[
+    ["lst_arzan","Vice Chairman and Chief Executive Officer","executive","v"]]},
+  {id:"ibrahim_saleh_al", n:"Ibrahim Saleh Al Tharban", t:2, p:52, s:"finance", roles:[
+    ["lst_arzan","Board Member","board","v"]]},
+  {id:"emad_abdullah_al", n:"Emad Abdullah Al Essa", t:2, p:52, s:"finance", roles:[
+    ["lst_arzan","Board Member","board","v"]]},
+  {id:"issa_abdullah_al", n:"Issa Abdullah Al Muzaini", t:2, p:52, s:"finance", roles:[
+    ["lst_arzan","Board Member","board","v"]]},
+  {id:"sulaiman_tareq_al", n:"Sulaiman Tareq Al-Abduljader", t:2, p:52, s:"finance", roles:[
+    ["lst_arzan","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

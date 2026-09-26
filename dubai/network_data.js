@@ -386,6 +386,7 @@ const PEOPLE = [
   {id:"ahmed_saeed_bin", n:"Ahmed Saeed bin Meshar", t:2, p:52, s:"realestate", roles:[
     ["emaar","Board Member","board","v"]]},
   {id:"matar_alhemeiri", n:"Matar AlHemeiri", t:2, p:52, s:"realestate", roles:[
+    ["digitaldubai","Chief Executive Officer of Digital Dubai Government Establishment","executive","v"],
     ["emaar","Board Member","board","v"]]},
   {id:"omar_karim", n:"Omar Karim", t:2, p:52, s:"realestate", roles:[
     ["tecom","Director","board","ns"],
@@ -1104,6 +1105,7 @@ const PEOPLE = [
   {id:"sheikha_latifa_bint", n:"Sheikha Latifa bint Mohammed bin Rashid Al Maktoum", t:2, p:62, s:"gov", roles:[
     ["execco","Member (Chairperson of Dubai Culture and Arts Authority)","board","v"]]},
   {id:"dhahi_khalfan_tamim", n:"Dhahi Khalfan Tamim", t:2, p:52, s:"gov", roles:[
+    ["dxbpolice","Deputy Chief of Police and General Security","executive","ns"],
     ["execco","Member (Deputy Chief of Police and Public Security)","board","v"]]},
   {id:"essam_issa_al", n:"Essam Issa Al Humaidan", t:2, p:52, s:"gov", roles:[
     ["execco","Member (Attorney General of Dubai)","board","v"]]},
@@ -1535,6 +1537,44 @@ const PEOPLE = [
     ["lst_airarabia","Chairman","board","v"]]},
   {id:"adel_ali", n:"Adel Ali", t:2, p:60, s:"industry", roles:[
     ["lst_airarabia","Group CEO","executive","v"]]},
+  {id:"issam_kazim", n:"Issam Kazim", t:2, p:60, s:"gov", roles:[
+    ["det","Chief Executive Officer of Dubai Corporation for Tourism and Commerce Marketing","executive","v"]]},
+  {id:"majed_al_joker", n:"Majed Al Joker", t:2, p:58, s:"industry", roles:[
+    ["dxbairports","Chief Operating Officer","executive","v"]]},
+  {id:"adil_al_fahim", n:"Adil Al Fahim", t:2, p:58, s:"industry", roles:[
+    ["dxbairports","Chief Financial Officer","executive","v"]]},
+  {id:"richard_talian", n:"Richard Talian", t:2, p:58, s:"industry", roles:[
+    ["dxbairports","Chief Strategy and Development Officer","executive","v"]]},
+  {id:"eugene_barry", n:"Eugene Barry", t:2, p:58, s:"industry", roles:[
+    ["dxbairports","Chief Commercial Officer","executive","v"]]},
+  {id:"meshari_al_bannai", n:"Meshari Al Bannai", t:2, p:58, s:"industry", roles:[
+    ["dxbairports","Chief People Officer","executive","v"]]},
+  {id:"harib_mohammed_al", n:"Harib Mohammed Al Shamsi", t:2, p:58, s:"gov", roles:[
+    ["dxbpolice","Deputy Commander-in-Chief for Criminal Affairs","executive","v"]]},
+  {id:"ahmed_zaal_al", n:"Ahmed Zaal Al Muhairi", t:2, p:58, s:"gov", roles:[
+    ["dxbpolice","Deputy Commander-in-Chief for Administrative Affairs","executive","v"]]},
+  {id:"nehal_badri", n:"Nehal Badri", t:2, p:58, s:"comm", roles:[
+    ["gdmo","Secretary General of the Dubai Media Council","executive","v"]]},
+  {id:"maitha_buhumaid", n:"Maitha Buhumaid", t:2, p:58, s:"comm", roles:[
+    ["gdmo","Director of the Dubai Press Club","executive","v"]]},
+  {id:"noora_al_abbar", n:"Noora Al Abbar", t:2, p:58, s:"comm", roles:[
+    ["gdmo","Director of International Media","executive","v"]]},
+  {id:"saud_al_derbi", n:"Saud Al Derbi", t:2, p:58, s:"comm", roles:[
+    ["gdmo","Director of News Centre and Editor-in-Chief of Al Bayan","executive","v"]]},
+  {id:"hamad_obaid_al", n:"Hamad Obaid Al Mansouri", t:2, p:58, s:"gov", roles:[
+    ["digitaldubai","Director General of Dubai Digital Authority","executive","v"]]},
+  {id:"younus_al_nasser", n:"Younus Al Nasser", t:2, p:60, s:"gov", roles:[
+    ["digitaldubai","Chief Executive Officer of Dubai Data and Statistics Establishment","executive","v"]]},
+  {id:"fatma_ibrahim_abdullah", n:"Fatma Ibrahim Abdullah Belrehif", t:2, p:60, s:"education", roles:[
+    ["khda","CEO of the Quality Assurance and Compliance Establishment","executive","v"]]},
+  {id:"wafi_dawood_mousa", n:"Wafi Dawood Mousa Jafar Ali", t:2, p:60, s:"education", roles:[
+    ["khda","CEO of the Strategic Development Sector","executive","v"]]},
+  {id:"abdulrahman_hassan_abdullah", n:"Abdulrahman Hassan Abdullah Nasser", t:2, p:60, s:"education", roles:[
+    ["khda","CEO of the Institutional Support Sector","executive","v"]]},
+  {id:"amina_abdullah_ibrahim", n:"Amina Abdullah Ibrahim Ghuloom Al Maazmi", t:2, p:60, s:"education", roles:[
+    ["khda","CEO of the Human Development and Advancement Sector","executive","v"]]},
+  {id:"saeed_mubarak_khalfan", n:"Saeed Mubarak Khalfan Kharbash Al Marri", t:2, p:60, s:"education", roles:[
+    ["khda","CEO of the Policy, Research and Programmes Sector","executive","v"]]},
 ];
 
 const OWNERSHIP = [

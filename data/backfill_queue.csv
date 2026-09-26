@@ -6,8 +6,6 @@ abudhabi,openai,OpenAI,tech,74,0,pending
 abudhabi,nvidia,NVIDIA,tech,74,0,pending
 saudi,kaust,King Abdullah University of Science and Technology,education,74,0,pending
 abudhabi,totalenergies,TotalEnergies,energy,72,0,pending
-dubai,gdmo,Government of Dubai Media Office,comm,72,1,pending
-oman,mtcit_om,"Ministry of Transport, Communications & IT",tech,72,1,pending
 qatar,psg,Paris Saint-Germain,comm,72,1,pending
 qatar,totalenergies,TotalEnergies,energy,72,1,pending
 saudi,mos_sa,Ministry of Sport,gov,72,1,pending
@@ -15,10 +13,8 @@ abudhabi,khazna,Khazna Data Centers,tech,70,1,pending
 abudhabi,bp,bp,energy,70,0,pending
 abudhabi,shell,Shell,energy,70,0,pending
 abudhabi,exxonmobil,ExxonMobil,energy,70,0,pending
-dubai,digitaldubai,Digital Dubai Authority,gov,70,1,pending
 dubai,dfsa,Dubai Financial Services Authority,finance,70,1,pending
 kuwait,kipic,Kuwait Integrated Petroleum Industries Company,energy,70,0,pending
-northern,sedd,Sharjah Economic Development Department,gov,70,1,pending
 oman,mol,Ministry of Labour,gov,70,0,pending
 qatar,shura,Shura Council,gov,70,1,pending
 qatar,momun_q,Ministry of Municipality,gov,70,1,pending
@@ -34,9 +30,7 @@ abudhabi,hub71,Hub71,tech,68,1,pending
 abudhabi,fertiglobe,Fertiglobe,materials,68,1,pending
 abudhabi,nmdc,NMDC Group,industry,68,1,pending
 abudhabi,khalifa_u,Khalifa University,education,68,1,pending
-dubai,khda,Knowledge & Human Development Authority,education,68,1,pending
 dubai,dubai_media_inc,Dubai Media Incorporated,comm,68,1,pending
-oman,opaz,OPAZ (Special Economic Zones & Free Zones),gov,68,1,pending
 oman,moe,Ministry of Education,education,68,0,pending
 qatar,moecc_q,Ministry of Environment & Climate Change,gov,68,1,pending
 qatar,pih,Power International Holding,conglomerate,68,1,pending
@@ -49,8 +43,6 @@ abudhabi,tii,Technology Innovation Institute,tech,66,1,pending
 abudhabi,seha,SEHA (AD Health Services),health,66,1,pending
 abudhabi,nyuad,NYU Abu Dhabi,education,66,1,pending
 abudhabi,goldman,Goldman Sachs,finance,66,0,pending
-bahrain,moh_bh,Ministry of Housing & Urban Planning,gov,66,1,pending
-kuwait,mopw_kw,Ministry of Public Works,gov,66,1,pending
 oman,moht_om,Ministry of Heritage & Tourism,gov,66,1,pending
 oman,fsa_oman,Financial Services Authority,gov,66,0,pending
 qatar,qu,Qatar University,education,66,1,pending
@@ -67,7 +59,6 @@ abudhabi,uaeu,United Arab Emirates University,education,64,1,pending
 abudhabi,tadweer,Tadweer Group,industry,64,1,pending
 abudhabi,eni,Eni,energy,64,0,pending
 abudhabi,mckinsey,McKinsey & Company,industry,64,0,pending
-kuwait,kwmun,Kuwait Municipality,gov,64,1,pending
 northern,fujoilzone,Fujairah Oil Industry Zone,energy,64,1,pending
 oman,madayn,Madayn (Public Establishment for Industrial Estates),gov,64,0,pending
 oman,environment_auth,Environment Authority,gov,64,1,pending
@@ -109,7 +100,6 @@ kuwait,kic,Kuwait Investment Company,finance,62,0,pending
 oman,tra_oman,Telecommunications Regulatory Authority,gov,62,0,pending
 oman,apsr_oman,Authority for Public Services Regulation,gov,62,0,pending
 oman,state_council,State Council (Majlis Al Dawla),gov,62,0,pending
-oman,squ,Sultan Qaboos University,education,62,0,pending
 qatar,qatalum,Qatar Aluminium (Qatalum),materials,62,1,pending
 qatar,alfardan,Alfardan Group,conglomerate,62,1,pending
 qatar,psa_qatar,Planning and Statistics Authority,gov,62,0,pending
@@ -617,7 +607,6 @@ dubai,lst_alsalamsudan,Al Salam Bank - Sudan,finance,50,0,pending
 dubai,dubai_sports_council,Dubai Sports Council,gov,50,0,pending
 dubai,dubai_statistics,Dubai Statistics Center,gov,50,0,pending
 kuwait,lst_ifa,International Financial Advisors Holding,finance,50,0,pending
-kuwait,lst_arzan,Arzan Financial Group for Financing and Investment,finance,50,0,pending
 kuwait,lst_aayan,Aayan Leasing and Investment,finance,50,0,pending
 kuwait,lst_urc,United Real Estate K.S.C,realestate,50,0,pending
 kuwait,lst_altijaria,The Commercial Real Estate Co K.S.C,realestate,50,0,pending
@@ -725,7 +714,6 @@ kuwait,lst_amar,Amar for Finance and Leasing,finance,50,0,pending
 northern,uaqftz,Umm Al Quwain Free Trade Zone,gov,50,1,pending
 northern,rak_hospital,RAK Hospital,health,50,1,pending
 oman,lst_ajss,Al Jazeira Services Company SAOG,industry,50,0,pending
-oman,lst_amat,Al Madina Takaful SAOG,finance,50,0,pending
 oman,lst_aofs,Al Omaniya Financial Services SAOG,finance,50,0,pending
 oman,lst_bwpc,Barka Water and Power Company SAOG,utilities,50,0,pending
 oman,lst_batp,Al Batinah Power Company SAOG,utilities,50,0,pending

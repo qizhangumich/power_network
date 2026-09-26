@@ -58,9 +58,9 @@ const INSTITUTIONS = [
   {id:"lst_bbk", n:"Bank of Bahrain and Kuwait B.S.C.", s:"finance", t:2, p:63, short:"BBK"},
   {id:"lst_salam", n:"Al Salam Bank B.S.C.", s:"finance", t:2, p:68, short:"Al Salam Bank"},
   {id:"lst_ugh", n:"United Gulf Holding Company B.S.C.", s:"finance", t:2, p:50, short:"UGH"},
-  {id:"lst_ghg", n:"Gulf Hotels Group B.S.C.", s:"consumer_disc", t:2, p:50, short:"GHG"},
+  {id:"lst_ghg", n:"Gulf Hotels Group B.S.C.", s:"consumer_disc", t:2, p:58, short:"GHG"},
   {id:"lst_apmtb", n:"APM Terminals Bahrain B.S.C.", s:"industry", t:2, p:50, short:"APMTB"},
-  {id:"lst_khaleeji", n:"Khaleeji Bank B.S.C.", s:"finance", t:2, p:50, short:"Khaleeji Bank B.S.C."},
+  {id:"lst_khaleeji", n:"Khaleeji Bank B.S.C.", s:"finance", t:2, p:56, short:"Khaleeji Bank"},
   {id:"lst_bisb", n:"Bahrain Islamic Bank B.S.C.", s:"finance", t:2, p:60, short:"BISB"},
   {id:"lst_arig", n:"Arab Insurance Group B.S.C.", s:"finance", t:2, p:50, short:"ARIG"},
   {id:"lst_solid", n:"Solidarity Bahrain B.S.C.", s:"finance", t:2, p:50, short:"SOLID"},
@@ -171,6 +171,7 @@ const PEOPLE = [
   {id:"salman_isa_bic", n:"Sheikh Salman bin Isa Al Khalifa", t:2, p:62, s:"consumer_disc", roles:[
     ["bic","CEO","executive","v"]]},
   {id:"fawzi_kanoo", n:"Fawzi Ahmed Kanoo", t:2, p:60, s:"conglomerate", roles:[
+    ["lst_ghg","Chairman of the Board of Directors","board","v"],
     ["kanoo","Chairman","board","v"]]},
   {id:"kvalseth", n:"Andrew Kvålseth", t:2, p:68, s:"comm", roles:[
     ["beyon","Chief Executive Officer","executive","v"]]},
@@ -268,6 +269,7 @@ const PEOPLE = [
   {id:"khalid_al_rumaihi", n:"Khalid Al Rumaihi", t:2, p:62, s:"materials", roles:[
     ["alba","Chairman","board","v"]]},
   {id:"shaikh_isa_bin", n:"Shaikh Isa bin Khalid Al Khalifa", t:2, p:52, s:"materials", roles:[
+    ["lst_khaleeji","Independent Board Member","board","v"],
     ["alba","Board Member","board","v"]]},
   {id:"tim_murray", n:"Tim Murray", t:2, p:52, s:"materials", roles:[
     ["alba","Board Member","board","v"]]},
@@ -1298,6 +1300,7 @@ const PEOPLE = [
   {id:"fahad_abdulla_yateem", n:"Fahad Abdulla Yateem", t:2, p:52, s:"finance", roles:[
     ["lst_esterad","Director","board","v"]]},
   {id:"razi_al_merbati", n:"Razi Al Merbati", t:2, p:52, s:"finance", roles:[
+    ["lst_khaleeji","Chief Executive Officer and Board Member","executive","ns"],
     ["lst_esterad","Director","board","v"]]},
   {id:"ali_isa_ahmed", n:"Ali Isa Ahmed Abdulrahim Abdulla", t:2, p:52, s:"finance", roles:[
     ["lst_esterad","Director","board","v"]]},
@@ -2564,6 +2567,7 @@ const PEOPLE = [
   {id:"maher_abdulaziz_alshaer", n:"Maher Abdulaziz Alshaer", t:2, p:52, s:"realestate", roles:[
     ["edamah","Board Member","board","v"]]},
   {id:"nasser_hasan_al", n:"Nasser Hasan Al Jalahma", t:2, p:52, s:"realestate", roles:[
+    ["lst_ghg","Board Member","board","v"],
     ["edamah","Board Member","board","v"]]},
   {id:"manal_albayat", n:"Manal AlBayat", t:2, p:58, s:"realestate", roles:[
     ["edamah","Chief Operating Officer","executive","ns"]]},
@@ -2761,6 +2765,28 @@ const PEOPLE = [
     ["mofa_bh","Assistant Undersecretary for GCC And Arab Countries Affairs","executive","v"]]},
   {id:"faisal_sultan", n:"Faisal Sultan", t:2, p:46, s:"finance", roles:[
     ["lst_solid","Head of Marketing and Corporate Communications","executive","ns"]]},
+  {id:"amna_bint_ahmed", n:"Amna bint Ahmed Al Rumaihi", t:2, p:58, s:"gov", roles:[
+    ["moh_bh","Minister of Housing and Urban Planning","executive","v"]]},
+  {id:"sheikh_khalid_bin", n:"Sheikh Khalid bin Hamoud Al Khalifa", t:2, p:58, s:"gov", roles:[
+    ["moh_bh","Undersecretary of the Ministry of Housing and Urban Planning","executive","v"]]},
+  {id:"reda_al_adraj", n:"Reda Al-Adraj", t:2, p:58, s:"gov", roles:[
+    ["moh_bh","Assistant Undersecretary for Housing Projects","executive","v"]]},
+  {id:"dunya_faisal_sarhan", n:"Dunya Faisal Sarhan", t:2, p:58, s:"gov", roles:[
+    ["moh_bh","Assistant Undersecretary for Resources and Information","executive","ns"]]},
+  {id:"jassim_abdulaal", n:"Jassim Abdulaal", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_ghg","Board Member","board","v"]]},
+  {id:"adel_maskati", n:"Adel Maskati", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_ghg","Board Member","board","ns"]]},
+  {id:"hesham_khonji", n:"Hesham Khonji", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_ghg","Board Member","board","ns"]]},
+  {id:"mohamed_al_kayed", n:"Mohamed Al Kayed", t:2, p:60, s:"consumer_disc", roles:[
+    ["lst_ghg","Deputy Chief Executive Officer","executive","ns"]]},
+  {id:"mazen_ibrahim_abdulkareem", n:"Mazen Ibrahim Abdulkareem", t:2, p:52, s:"finance", roles:[
+    ["lst_khaleeji","Board Member","board","v"]]},
+  {id:"hisham_abdulrahman_al_b", n:"Hisham Abdulrahman Al Bin Ali", t:2, p:52, s:"finance", roles:[
+    ["lst_khaleeji","Board Member","board","v"]]},
+  {id:"riyadh_eid_al_b", n:"Riyadh Eid Al Ya'qoub", t:2, p:52, s:"finance", roles:[
+    ["lst_khaleeji","Independent Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

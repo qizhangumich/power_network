@@ -60,7 +60,7 @@ const INSTITUTIONS = [
   {id:"zubair",    n:"The Zubair Corporation",        s:"conglomerate", t:3, p:64, short:"Zubair"},
   {id:"khimji",    n:"Khimji Ramdas",                 s:"conglomerate", t:3, p:58, short:"Khimji Ramdas"},
   {id:"lst_ajss", n:"Al Jazeira Services Company SAOG", s:"industry", t:2, p:50, short:"AJSS"},
-  {id:"lst_amat", n:"Al Madina Takaful SAOG", s:"finance", t:2, p:50, short:"AMAT"},
+  {id:"lst_amat", n:"Al Madina Takaful SAOG", s:"finance", t:2, p:54, short:"AMAT"},
   {id:"lst_aofs", n:"Al Omaniya Financial Services SAOG", s:"finance", t:2, p:50, short:"AOFS"},
   {id:"lst_bwpc", n:"Barka Water and Power Company SAOG", s:"utilities", t:2, p:50, short:"BWPC"},
   {id:"lst_batp", n:"Al Batinah Power Company SAOG", s:"utilities", t:2, p:50, short:"BATP"},
@@ -474,6 +474,7 @@ const PEOPLE = [
   {id:"salman_al_maimani", n:"Salman Al Maimani", t:2, p:58, s:"energy", roles:[
     ["pdo","HSE Director","executive","v"]]},
   {id:"eng_saeed_bin", n:"Eng. Saeed bin Hamoud Al Maawali", t:2, p:62, s:"industry", roles:[
+    ["mtcit_om","Minister of Transport, Communications and Information Technology","executive","v"],
     ["omanair","Executive Chairman","board","ns"]]},
   {id:"stephen_kavanagh", n:"Stephen Kavanagh", t:2, p:52, s:"industry", roles:[
     ["omanair","Board Member","board","ns"]]},
@@ -886,6 +887,7 @@ const PEOPLE = [
   {id:"ahmed_al_kharusi", n:"Ahmed Al Kharusi", t:2, p:46, s:"materials", roles:[
     ["soharalum","General Manager - Human Resources and Corporate Affairs","executive","ns"]]},
   {id:"ahmed_bin_hassan", n:"Ahmed bin Hassan Alawi Al Dheeb", t:2, p:62, s:"industry", roles:[
+    ["opaz","Deputy Chairman of the Board of Directors","board","v"],
     ["duqm","Deputy Chairman - OPAZ Board of Directors","board","ns"]]},
   {id:"ahmed_bin_ali", n:"Ahmed bin Ali Akaak", t:2, p:60, s:"industry", roles:[
     ["duqm","Chief Executive Officer - Special Economic Zone at Duqm (SEZAD)","executive","ns"]]},
@@ -898,6 +900,7 @@ const PEOPLE = [
   {id:"ghalib_bin_said", n:"Ghalib bin Said Al Maamari", t:2, p:58, s:"gov", roles:[
     ["moci_om","Undersecretary for Commerce and Industry","executive","v"]]},
   {id:"ibtisam_bint_ahmed", n:"Ibtisam bint Ahmed Al Farouji", t:2, p:58, s:"gov", roles:[
+    ["opaz","Board Member (Undersecretary of Investment Promotion)","board","ns"],
     ["moci_om","Undersecretary for Investment Promotion","executive","v"]]},
   {id:"ahmed_bin_hamed", n:"Ahmed bin Hamed Al Subhi", t:2, p:62, s:"utilities", roles:[
     ["be_ah","Chairman","board","v"],
@@ -984,6 +987,36 @@ const PEOPLE = [
     ["be_ah","Deputy Chairperson of the Board","board","v"]]},
   {id:"khalid_bin_hilal_b", n:"Khalid bin Hilal Al Mawali", t:2, p:62, s:"gov", roles:[
     ["majlis_a_shura","Chairman (Speaker) of Majlis A'Shura","executive","v"]]},
+  {id:"khamis_bin_mohammed", n:"Khamis bin Mohammed Al Shammakhi", t:2, p:58, s:"tech", roles:[
+    ["mtcit_om","Undersecretary for Transport","executive","v"]]},
+  {id:"ali_bin_amer", n:"Ali bin Amer Al Shidhani", t:2, p:58, s:"tech", roles:[
+    ["mtcit_om","Undersecretary for Communications and Information Technology","executive","v"]]},
+  {id:"fahd_bin_al", n:"Fahd bin Al Julanda Al Said", t:2, p:58, s:"education", roles:[
+    ["squ","Vice Chancellor","executive","v"]]},
+  {id:"amer_al_hinai", n:"Amer Al-Hinai", t:2, p:58, s:"education", roles:[
+    ["squ","Deputy Vice Chancellor for Postgraduate Studies and Research","executive","v"]]},
+  {id:"hamed_bin_suleiman", n:"Hamed bin Suleiman Al Salmi", t:2, p:58, s:"education", roles:[
+    ["squ","Deputy Vice Chancellor for Administrative and Financial Affairs","executive","ns"]]},
+  {id:"rashid_khalfan_al", n:"Rashid Khalfan Al Abri", t:2, p:58, s:"education", roles:[
+    ["squ","Dean of the College of Medicine and Health Sciences","executive","v"]]},
+  {id:"nabeel_al_rawahi", n:"Nabeel Al Rawahi", t:2, p:58, s:"education", roles:[
+    ["squ","Dean of the College of Engineering","executive","v"]]},
+  {id:"mohammed_ali_al", n:"Mohammed Ali Al Barwani", t:2, p:62, s:"finance", roles:[
+    ["lst_amat","Chairman of the Board of Directors","board","v"]]},
+  {id:"abdulrahman_awadh_barham", n:"Abdulrahman Awadh Barham", t:2, p:62, s:"finance", roles:[
+    ["lst_amat","Deputy Chairman of the Board of Directors","board","v"]]},
+  {id:"abdulrahman_mohamed_jabor", n:"Abdulrahman Mohamed Jabor M. Al Thani", t:2, p:52, s:"finance", roles:[
+    ["lst_amat","Board Member","board","v"]]},
+  {id:"saleh_nasser_al", n:"Saleh Nasser Al Riyami", t:2, p:52, s:"finance", roles:[
+    ["lst_amat","Board Member","board","v"]]},
+  {id:"yousuf_salim_al", n:"Yousuf Salim Al Hinai", t:2, p:52, s:"finance", roles:[
+    ["lst_amat","Board Member","board","v"]]},
+  {id:"safana_m_a", n:"Safana M. A. Al Barwani", t:2, p:52, s:"finance", roles:[
+    ["lst_amat","Board Member","board","v"]]},
+  {id:"said_saleh_al", n:"Said Saleh Al Jabri", t:2, p:52, s:"finance", roles:[
+    ["lst_amat","Board Member","board","v"]]},
+  {id:"usama_issa_al", n:"Usama Issa Al Barwani", t:2, p:60, s:"finance", roles:[
+    ["lst_amat","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

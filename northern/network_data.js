@@ -569,8 +569,10 @@ const PEOPLE = [
   {id:"tod_a_laursen", n:"Tod A. Laursen", t:2, p:58, s:"education", roles:[
     ["aus","Chancellor","executive","v"]]},
   {id:"sheikh_abdullah_bin_b_b", n:"Sheikh Abdullah bin Humaid Al Qasimi", t:2, p:52, s:"gov", roles:[
+    ["rakgov","Member of the Executive Council","board","v"],
     ["rak_execco","Executive Council Member","board","v"]]},
   {id:"sheikh_ahmed_bin", n:"Sheikh Ahmed bin Saud Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["rakgov","Member of the Executive Council","board","v"],
     ["rakpa","Chairman","board","v"],
     ["rak_execco","Executive Council Member","board","v"],
     ["marjan","Chairman","board","v"]]},
@@ -788,6 +790,8 @@ const PEOPLE = [
     ["sba","Chief Executive Officer of Sharjah Book Authority","executive","v"]]},
   {id:"aisha_rashid_ali_b", n:"Aisha Rashid Ali Bin Dimas Al Suwaidi", t:2, p:62, s:"gov", roles:[
     ["epaa","Chairperson of the Environment and Protected Areas Authority","executive","v"]]},
+  {id:"fahad_ahmed_al", n:"Fahad Ahmed Al Khamiri", t:2, p:58, s:"gov", roles:[
+    ["sedd","Director","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

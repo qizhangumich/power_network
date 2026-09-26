@@ -1,9 +1,5 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Turkish Airlines,3,qatar,pending,2026-09-08,2026-09-25,"Turkish Airlines, Boeing finalize 150 737 MAX order2m read"
 High Altitude Platform Systems,2,abudhabi,pending,2026-09-23,2026-09-23,Space42 and Telespazio Ibérica Begin Wildfire Monitoring in Spain supported by High Altitude Platform Systems
-Honeywell Technologies,2,qatar,pending,2026-09-23,2026-09-24,"QFZ, Honeywell Technologies partner to establish manufacturing and service hub in Qatar"
-UAE-listed MAIR Group,2,,pending,2026-09-24,2026-09-24,UAE-listed MAIR Group to acquire 70% stake in Espressolab owner Eslab
-Oman Investment,2,oman,pending,2026-09-24,2026-09-24,Oman floats $7bn of tenders for private sector
 Abu Dhabi Investment,20,abudhabi,rejected,2026-09-05,2026-09-25,"Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake"
 British Airways,9,dubai,rejected,2026-09-15,2026-09-19,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
 Marlan Holding,7,abudhabi,added,2026-09-08,2026-09-10,Abu Dhabi's IHC to acquire 80% stake in UAE space company Marlan Holding
@@ -18,6 +14,7 @@ Explore Sustainable Energy,3,abudhabi,rejected,2026-09-17,2026-09-19,Beam Global
 Centurium Capital,3,abudhabi,rejected,2026-09-10,2026-09-10,Centurium Capital Management Ltd. and Mubadala Investment Company PJSC agreed to acquire an unknown minority stake in Luckin Coffee Inc. (OT
 Executive Council,3,abudhabi,rejected,2026-09-08,2026-09-18,Abu Dhabi sets out next steps: AI joins Executive Council meeting for first time
 Dubai Healthcare,3,dubai,rejected,2026-09-10,2026-09-11,"Dubai Healthcare City begins work on Dh3b Creek GardensMore than 1,400 homes planned in a 127,000-square-metre community overlooking Dubai C"
+Turkish Airlines,3,qatar,rejected,2026-09-08,2026-09-25,"Turkish Airlines, Boeing finalize 150 737 MAX order2m read"
 OPEC Fund,3,oman,rejected,2026-09-16,2026-09-19,OPEC Fund earmarks $40m for Oman’s Yiti Sustainable City project
 Estithmar Holding,3,qatar,rejected,2026-09-12,2026-09-24,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Shahba Bank,3,qatar,rejected,2026-09-17,2026-09-22,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
@@ -41,6 +38,7 @@ Special Economic Zone,2,oman,rejected,2026-09-23,2026-09-23,His Majesty the Sult
 European Commission,2,oman,rejected,2026-09-09,2026-09-11,European Commission presents landmark India FTA to Council for signature
 Municipal Council,2,oman,rejected,2026-09-21,2026-09-23,Municipal Council Elections committee approves preliminary candidate lists
 Labour Ministry,2,oman,added,2026-09-07,2026-09-19,Labour Ministry sees rise in unions and awareness reach
+Honeywell Technologies,2,qatar,rejected,2026-09-23,2026-09-24,"QFZ, Honeywell Technologies partner to establish manufacturing and service hub in Qatar"
 QFBA Finance,2,qatar,rejected,2026-09-22,2026-09-22,Ahlibank announces platinum sponsorship of QFBA Finance Researcher Award 2026
 Canada Investment,2,qatar,rejected,2026-09-16,2026-09-17,Qatar participates in Canada Investment Summit
 Qatar Real Estate,2,qatar,rejected,2026-09-11,2026-09-21,Qatar Real Estate Forum 2026: Focus on tokenization and global investment
@@ -55,8 +53,10 @@ Saudi Media Company,2,saudi,rejected,2026-09-05,2026-09-22,Saudi Media Academy c
 Ebara Elliott Energy,2,bahrain,rejected,2026-09-16,2026-09-21,Ebara Elliott Energy expands Houston turbomachinery service centre
 Skytrax World Airport,2,bahrain,rejected,2026-09-16,2026-09-16,BIA wins three prestigious Skytrax World Airport Awards
 Boring Company,2,dubai,rejected,2026-09-10,2026-09-11,"Musk’s Boring Company raises $3bln in UAE-led round, valuing startup at $23bln"
+UAE-listed MAIR Group,2,,added,2026-09-24,2026-09-24,UAE-listed MAIR Group to acquire 70% stake in Espressolab owner Eslab
 GCC Capital,2,,rejected,2026-09-11,2026-09-22,VIDEO: Testimonials from Zawya’s GCC Capital Markets Forum
 US Treasury Department,2,,rejected,2026-09-09,2026-09-23,UAE approves sale of Egypt’s Banque Misr branches
+Oman Investment,2,oman,rejected,2026-09-24,2026-09-24,Oman floats $7bn of tenders for private sector
 JK Cement,2,northern,rejected,2026-09-03,2026-09-03,JK Cement inaugurates JK DryChem Industries at RAKEZ1m read
 Doha for Science and Technology,2,qatar,rejected,2026-09-04,2026-09-22,"University of Doha for Science and Technology and Alfardan Exchange, launch “FinTech Stars” competition to support innovation and entreprene"
 Sultan Qaboos University,2,oman,added,2026-09-03,2026-09-22,Sultan Qaboos University study identifies key reasons for delayed child abuse reporting
