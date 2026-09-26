@@ -1,0 +1,5 @@
+# Man City chairman reiterates club's innocence in Premier League charges
+source: USA Today
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNaUhQN3BvRTczUkJydXlDQ1h4bXVsZC1EMVpoSHdLQVhwNnBGb2lsVXdlZDI2dVlLXzJKMkVVbVNKME5oQV85a2hXeFJoWFViZHhJTC1HMjFZTzRkX2Uzd3FqVWprSE1KSTVIVEc1UFNiS3FvUnNETmFidFl6OV9NZ1UyajJsTzRUMHFOQzZaM2hEZkNaQ0g4QkEycEZpb3BUNUFQeHlyQVdyeXdHeThONEkzUkRIa01PSXdmNXBkNUJwNGNG?oc=5
+
+Man City chairman reiterates club's innocence in Premier League charges    USA Today
