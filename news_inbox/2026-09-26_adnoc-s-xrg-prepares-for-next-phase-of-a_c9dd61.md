@@ -1,0 +1,5 @@
+# Adnoc's XRG prepares for next phase of Azerbaijan gas development
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMG10SUdMYXFNbFcyTGVad0o5dTc3RnFZdlRjZkI1V2FjY09PMERBb1hKc0lsOUxoVlFiTUlWeUJjZXFIRUVWaHo4R3dORkFubmE0UDNDVHJWMEpUOHd1Q1ktbExXM2V2TnZ4cjlyMnRTaXBjQm5tWmMyMTVoMWZTWlFORHRUak12bHlWaXhsb3U2UzRqSjFpMWcwRGw2TXRSa0VrNE9lSUZiOWJLUjRVU3hXZ0ZMN1UxZ3JpWU9CRG9UQQ?oc=5
+
+Adnoc's XRG prepares for next phase of Azerbaijan gas development    thenationalnews.com
