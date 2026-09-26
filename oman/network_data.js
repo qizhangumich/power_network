@@ -861,7 +861,7 @@ const PEOPLE = [
   {id:"fahad_al_bulushi", n:"Fahad Al Bulushi", t:2, p:58, s:"conglomerate", roles:[
     ["zubair","Group Chief Financial Officer","executive","ns"]]},
   {id:"mohammed_bin_mahfoodh", n:"Mohammed bin Mahfoodh Al Ardhi", t:2, p:62, s:"finance", roles:[
-    ["msx","Chairman","board","ns"]]},
+    ["msx","Chairman","board","v"]]},
   {id:"abdullah_saleh_al", n:"Abdullah Saleh Al Suweilmy", t:2, p:52, s:"finance", roles:[
     ["msx","Board Member","board","ns"]]},
   {id:"roland_schwinn", n:"Roland Schwinn", t:2, p:52, s:"finance", roles:[

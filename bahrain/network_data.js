@@ -315,7 +315,7 @@ const PEOPLE = [
   {id:"abdulla_abdulrazaq_bukhowa", n:"Abdulla Abdulrazaq Bukhowa", t:2, p:52, s:"comm", roles:[
     ["beyon","Director","board","v"]]},
   {id:"abdulla_ahmed_kamal", n:"Abdulla Ahmed Kamal", t:2, p:52, s:"comm", roles:[
-    ["sico_bank","Chairman of the Board of Directors","board","ns"],
+    ["sico_bank","Chairman of the Board of Directors","board","v"],
     ["beyon","Director","board","v"]]},
   {id:"ahmad_mazhar", n:"Ahmad Mazhar", t:2, p:58, s:"comm", roles:[
     ["beyon","Director","board","v"],

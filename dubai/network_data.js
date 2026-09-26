@@ -272,11 +272,10 @@ const PEOPLE = [
   {id:"griffiths", n:"Paul Griffiths", t:2, p:74, s:"industry", roles:[
     ["dxbairports","CEO","executive","v"]]},
   {id:"ghaith", n:"Ghaith Al Ghaith", t:2, p:70, s:"industry", roles:[
-    ["flydubai","CEO","executive","ns"]]},
+    ["flydubai","CEO","executive","v"]]},
   {id:"abdulaziz_ghurair", n:"Abdul Aziz Al Ghurair", t:1, p:82, s:"finance", roles:[
     ["mashreq","Chairman","board","v"],
-    ["dubaichambers","Chairman","board","v"],
-    ["alghurair","Chairman (family group)","board","ns"]]},
+    ["dubaichambers","Chairman","board","v"]]},
   {id:"khalaf_habtoor", n:"Khalaf Al Habtoor", t:2, p:76, s:"conglomerate", roles:[
     ["alhabtoor","Founder & Chairman","board","v"]]},
   {id:"amit_kaushal", n:"Amit Kaushal", t:2, p:72, s:"sovereign", roles:[
