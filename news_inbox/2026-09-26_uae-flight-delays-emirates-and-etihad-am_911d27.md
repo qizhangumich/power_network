@@ -1,0 +1,5 @@
+# UAE flight delays: Emirates and Etihad among impacted airlines as dense fog strikes
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQTmNMU1VuTkk2VXNlZzFrd2dnYUt2S0RfQ1FQZkZ4a1RCQVJ2Ti1ZODB3UzlodnN6NTFQb0QxN0kyNkJHLXBuemZybENtR21FdnpiaHlxWWVaWnZoVF9IVW03WThLX0JXMWhTRDJBYmFnTXZJS04zb08yVHNzNTZOb3M1UEZQUVE3OGFWdzh1SWMwekdlX0hsRkczM0dwdllzc2xvV1VvUTlBLXdMUzgzUk1YckktZjBwSElvYUQ0V09IbVp2ZzdZWG9EYUlmZw?oc=5
+
+UAE flight delays: Emirates and Etihad among impacted airlines as dense fog strikes    Arabian Business
