@@ -392,6 +392,7 @@ const PEOPLE = [
   {id:"sheikh_fahad_bin", n:"Sheikh Fahad bin Faisal bin Thani Al Thani", t:2, p:62, s:"finance", roles:[
     ["qnb","Vice Chairman","board","v"]]},
   {id:"sheikh_hamad_bin", n:"Sheikh Hamad bin Jabor bin Jassim Al Thani", t:2, p:52, s:"finance", roles:[
+    ["qewc","Board Member (representing Qatar National Bank)","board","v"],
     ["qnb","Board Member","board","v"]]},
   {id:"sheikha_hanadi_bint", n:"Sheikha Hanadi bint Nasser Bin Khalid Al Thani", t:2, p:52, s:"finance", roles:[
     ["qnb","Board Member","board","v"]]},
@@ -462,6 +463,7 @@ const PEOPLE = [
     ["masraf","Vice Chairman","board","v"],
     ["lst_qati","Chairman","board","ns"]]},
   {id:"ahmed_ali_hassan", n:"Ahmed Ali Hassan Al Hammadi", t:2, p:52, s:"finance", roles:[
+    ["qewc","Deputy Chairman","board","v"],
     ["masraf","Board Member","board","v"]]},
   {id:"khamis_mubarak_al", n:"Khamis Mubarak Al Kuwari", t:2, p:52, s:"finance", roles:[
     ["masraf","Board Member","board","v"]]},
@@ -640,6 +642,7 @@ const PEOPLE = [
   {id:"h_e_sheikh_b_b", n:"H.E. Sheikh Abdulrahman bin Saud Al Thani", t:2, p:52, s:"industry", roles:[
     ["milaha","Board Member","board","v"]]},
   {id:"h_e_sheikh_b_b_b", n:"H.E. Sheikh Suhaim bin Khaled bin Hamad Al-Thani", t:2, p:52, s:"industry", roles:[
+    ["qewc","Board Member","board","v"],
     ["milaha","Board Member","board","v"]]},
   {id:"h_e_sheikh_b_b_b_b", n:"H.E. Sheikh Hamad bin Mohammed Khalid Al-Thani", t:2, p:52, s:"industry", roles:[
     ["milaha","Board Member","board","v"]]},
@@ -981,6 +984,7 @@ const PEOPLE = [
     ["lst_qfls","Managing Director – Board Member","board","v"],
     ["lst_qfls","Managing Director and Chief Executive Officer","executive","v"]]},
   {id:"sheikh_saoud_khalid", n:"Sheikh Saoud Khalid Hamad Al-Thani", t:2, p:52, s:"energy", roles:[
+    ["qewc","Board Member (representing Qatar Insurance Company)","board","v"],
     ["lst_qfls","Board Member","board","v"]]},
   {id:"sheikh_ali_bin_b", n:"Sheikh Ali Bin Hamad Bin Abdul Rahman Al-Thani", t:2, p:52, s:"energy", roles:[
     ["lst_qfls","Board Member","board","v"]]},
@@ -1029,6 +1033,7 @@ const PEOPLE = [
   {id:"abdulrahman_fouad_al", n:"Abdulrahman Fouad Al Mudhahka", t:2, p:58, s:"gov", roles:[
     ["mofin","Assistant Undersecretary for Public Treasury Affairs","executive","v"]]},
   {id:"h_e_mohammed", n:"H.E. Mohammed Yousef Al Mana", t:2, p:62, s:"finance", roles:[
+    ["qoc","First Vice President","board","v"],
     ["lst_qfbq","Vice Chairman","board","v"]]},
   {id:"h_e_hamad", n:"H.E. Hamad Ali Al Mannai", t:2, p:52, s:"finance", roles:[
     ["lst_qfbq","Board Member","board","v"]]},
@@ -1124,10 +1129,12 @@ const PEOPLE = [
   {id:"nasser_bin_sultan", n:"Nasser Bin Sultan N AL-Hmaidi", t:2, p:62, s:"realestate", roles:[
     ["barwa","Vice Chairman","board","v"]]},
   {id:"ali_bin_mohammed", n:"Ali Bin Mohammed Al Ali", t:2, p:52, s:"realestate", roles:[
+    ["qatariddiar","Chief Executive Officer","executive","v"],
     ["barwa","Board Member","board","v"]]},
   {id:"issa_mohd_almohannadi", n:"Issa Mohd ALMohannadi", t:2, p:52, s:"realestate", roles:[
     ["barwa","Board Member","board","v"]]},
   {id:"ahmad_mohammad_al", n:"Ahmad Mohammad Al Tayeb", t:2, p:60, s:"realestate", roles:[
+    ["qatariddiar","Chief Investment Officer","executive","v"],
     ["barwa","Group Chief Executive Officer","executive","v"]]},
   {id:"mohammed_ibrahim_al", n:"Mohammed Ibrahim Al-Emadi", t:2, p:58, s:"realestate", roles:[
     ["barwa","Group Chief Asset Management Officer","executive","v"]]},
@@ -1536,6 +1543,34 @@ const PEOPLE = [
     ["moci","Acting Assistant Undersecretary for Commerce Affairs","executive","ns"]]},
   {id:"ghanim_ali_al", n:"Ghanim Ali Al Manna", t:2, p:58, s:"gov", roles:[
     ["moph","Assistant Undersecretary for Healthcare Regulation Affairs","executive","v"]]},
+  {id:"omar_abdulaziz_al", n:"Omar Abdulaziz Al-Naama", t:2, p:58, s:"education", roles:[
+    ["moehe_q","Assistant Undersecretary for Special Education Affairs","executive","v"]]},
+  {id:"khalid_abdullah_al", n:"Khalid Abdullah Al-Harqan", t:2, p:58, s:"education", roles:[
+    ["moehe_q","Assistant Undersecretary for Evaluation Affairs","executive","v"]]},
+  {id:"maha_zayed_al", n:"Maha Zayed Al-Ruwaili", t:2, p:58, s:"education", roles:[
+    ["moehe_q","Assistant Undersecretary for Educational Affairs","executive","v"]]},
+  {id:"harib_mohamed_al", n:"Harib Mohamed Al-Jabri", t:2, p:58, s:"education", roles:[
+    ["moehe_q","Acting Assistant Undersecretary for Higher Education Affairs","executive","v"]]},
+  {id:"mohammed_ali_kreib", n:"Mohammed Ali Kreib", t:2, p:58, s:"education", roles:[
+    ["moehe_q","Assistant Undersecretary for Shared Services Affairs","executive","v"]]},
+  {id:"abdullah_khalifa_mohammed", n:"Abdullah Khalifa Mohammed Al Rabban", t:2, p:52, s:"utilities", roles:[
+    ["qewc","Board Member","board","v"]]},
+  {id:"fahad_abdullah_al", n:"Fahad Abdullah Al Mana", t:2, p:52, s:"utilities", roles:[
+    ["qewc","Board Member","board","v"]]},
+  {id:"adel_ali_bin_b", n:"Adel Ali bin Ali Al Meslmani", t:2, p:52, s:"utilities", roles:[
+    ["qewc","Board Member","board","v"]]},
+  {id:"nasser_bin_khalil", n:"Nasser bin Khalil Aljaidah", t:2, p:52, s:"utilities", roles:[
+    ["qewc","Board Member","board","v"]]},
+  {id:"thani_bin_abdulrahman", n:"Thani bin Abdulrahman Al-Kuwari", t:2, p:52, s:"gov", roles:[
+    ["qoc","Second Vice President","board","v"]]},
+  {id:"sheikha_asma_bint", n:"Sheikha Asma bint Thani Al Thani", t:2, p:58, s:"gov", roles:[
+    ["qoc","Director of Marketing and International Cooperation Sector","executive","v"]]},
+  {id:"sheikh_khalifa_bin_b_b", n:"Sheikh Khalifa bin Khalid Al Thani", t:2, p:58, s:"gov", roles:[
+    ["qoc","Director of Sports Sector","executive","v"]]},
+  {id:"sheikh_ahmad_bin", n:"Sheikh Ahmad bin Nooh Al-Thani", t:2, p:58, s:"gov", roles:[
+    ["qoc","Director of Legal Affairs Department","executive","v"]]},
+  {id:"hamad_lahdan_al", n:"Hamad Lahdan Al-Muhannadi", t:2, p:58, s:"gov", roles:[
+    ["qoc","Director of Support Services Sector","executive","v"]]},
 ];
 
 const OWNERSHIP = [

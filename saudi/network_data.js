@@ -579,6 +579,7 @@ const PEOPLE = [
   {id:"tony_douglas", n:"Tony Douglas", t:2, p:70, s:"industry", roles:[
     ["riyadhair","CEO","executive","v"]]},
   {id:"pagano", n:"John Pagano", t:2, p:64, s:"realestate", roles:[
+    ["rcu","Member of the Board of Directors (CEO, Red Sea Global)","board","v"],
     ["redsea","Group CEO","executive","v"]]},
   {id:"inzerillo", n:"Jerry Inzerillo", t:2, p:66, s:"consumer_disc", roles:[
     ["diriyah","Group CEO","executive","v"]]},
@@ -1610,6 +1611,7 @@ const PEOPLE = [
   {id:"mohammad_mazyad_al", n:"Mohammad Mazyad Al-Tuwajiri", t:2, p:52, s:"industry", roles:[
     ["riyadhair","Board Member","board","v"]]},
   {id:"ibrahim_mohammed_al", n:"Ibrahim Mohammed Al Sultan", t:2, p:52, s:"industry", roles:[
+    ["rcu","Member of the Board of Directors (Minister of State, CEO of the Royal Commission for Riyadh City)","board","v"],
     ["diriyah","Board Member","board","v"],
     ["new_murabba","Board Member - Independent","board","v"],
     ["riyadhair","Board Member","board","v"]]},
@@ -2051,6 +2053,39 @@ const PEOPLE = [
     ["diriyah","Board Member","board","v"]]},
   {id:"ahmed_alamr", n:"Ahmed Alamr", t:2, p:58, s:"consumer_disc", roles:[
     ["diriyah","Chief Finance Officer","executive","v"]]},
+  {id:"bader_bin_abdulrahman", n:"Bader bin Abdulrahman Al-Qadi", t:2, p:58, s:"gov", roles:[
+    ["mos_sa","Deputy Minister of Sport","executive","v"]]},
+  {id:"abdulilah_bin_saad", n:"Abdulilah bin Saad Al-Dilak", t:2, p:58, s:"gov", roles:[
+    ["mos_sa","Assistant Minister of Sport","executive","v"]]},
+  {id:"adhwa_bint_abdulrahman", n:"Adhwa bint Abdulrahman Al-Uraifi", t:2, p:58, s:"gov", roles:[
+    ["mos_sa","Assistant Minister of Sport for Sports Affairs","executive","v"]]},
+  {id:"rajaallah_al_salmi", n:"Rajaallah Al-Salmi", t:2, p:58, s:"gov", roles:[
+    ["mos_sa","Assistant Minister of Sport for Media and Communication Affairs","executive","v"]]},
+  {id:"prince_mohammed_bin_b", n:"Prince Mohammed bin Salman", t:2, p:62, s:"realestate", roles:[
+    ["king_salman_park","Chairman of the Board of Directors","board","v"],
+    ["rcu","Chairman of the Board of Directors","board","v"]]},
+  {id:"khalid_bin_saleh", n:"Khalid bin Saleh Al-Muzaini", t:2, p:58, s:"gov", roles:[
+    ["zatca","Deputy Governor of Financial and Administrative Affairs (Acting Deputy Governor of Engineering Affairs)","executive","v"]]},
+  {id:"hamad_bin_abdulaziz", n:"Hamad bin Abdulaziz Al-Hamidi", t:2, p:58, s:"gov", roles:[
+    ["zatca","Deputy Governor of Human Capital","executive","v"]]},
+  {id:"anas_bin_abdulaziz", n:"Anas bin Abdulaziz Al-Oqalaa", t:2, p:58, s:"gov", roles:[
+    ["zatca","Vice Governor of Legal Affairs and Compliance","executive","v"]]},
+  {id:"abdullah_bin_mohammed_b", n:"Abdullah bin Mohammed Al-Sadhan", t:2, p:58, s:"gov", roles:[
+    ["zatca","Vice Governor of Operations","executive","v"]]},
+  {id:"salman_abdulrahman_aljaman", n:"Salman Abdulrahman Aljaman", t:2, p:58, s:"gov", roles:[
+    ["zatca","Deputy Governor of Engineering Affairs","executive","v"]]},
+  {id:"abdullah_bin_ahmed_b", n:"Abdullah bin Ahmed Al-Funtukh", t:2, p:58, s:"gov", roles:[
+    ["zatca","Vice Governor for Strategy and Development (Acting Vice Governor for Trade Facilitation and Customer Experience)","executive","v"]]},
+  {id:"hijer_bin_daham", n:"Hijer bin Daham Al-Badrani", t:2, p:58, s:"gov", roles:[
+    ["zatca","Vice Governor of IT and Digitization","executive","v"]]},
+  {id:"fawaz_bin_abdulaziz", n:"Fawaz bin Abdulaziz Alsulaim", t:2, p:58, s:"gov", roles:[
+    ["zatca","Deputy Governor for Research and Zakat Advisory (Secretary-General of the Sharia Committee)","executive","v"]]},
+  {id:"haifa_bint_abdulaziz", n:"Haifa bint Abdulaziz Al-Shaalan", t:2, p:58, s:"gov", roles:[
+    ["zatca","Vice Governor for Risk and Analytics","executive","v"]]},
+  {id:"prince_badr_bin", n:"Prince Badr bin Abdullah bin Farhan Al Saud", t:2, p:52, s:"gov", roles:[
+    ["rcu","Governor and Member of the Board of Directors","board","v"]]},
+  {id:"khaled_azzam", n:"Khaled Azzam", t:2, p:52, s:"gov", roles:[
+    ["rcu","Member of the Board of Directors (Executive Vice President, The King's Foundation)","board","v"]]},
 ];
 
 const OWNERSHIP = [

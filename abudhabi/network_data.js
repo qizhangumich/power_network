@@ -394,6 +394,7 @@ const PEOPLE = [
     ["execcouncil","Member","political","v"],
     ["eia","Board Member","board","v"],
     ["adnocdist","Board Member","board","v"],
+    ["adio","Member of the Abu Dhabi Executive Council and Chairman of the Abu Dhabi Department of Economic Development (ADIO's parent, ADDED)","board","v"],
     ], note:"Gatekeeper for economic policy and the financial free zone."},
   {id:"alsuwaidi_adq", n:"Mohamed Hassan Alsuwaidi", t:1, p:92, s:"sovereign", roles:[
     ["fedgov","UAE Minister of Investment","political","v"],
@@ -2640,6 +2641,30 @@ const PEOPLE = [
     ]},
   {id:"muhammad_munif_al", n:"Muhammad Munif Al Mansouri", t:2, p:58, s:"gov", roles:[
     ["added","Executive Director Abu Dhabi Business Centre (Acting Director General Abu Dhabi Registration and Licensing Authority)","executive","v"],
+    ]},
+  {id:"mohammad_al_kamali", n:"Mohammad Al Kamali", t:2, p:58, s:"gov", roles:[
+    ["adio","Chief Industry & Trade Officer","executive","v"],
+    ]},
+  {id:"nayef_shahin", n:"Nayef Shahin", t:2, p:58, s:"gov", roles:[
+    ["adio","Director of Innovation and Knowledge","executive","v"],
+    ]},
+  {id:"matar_ali_al", n:"Matar Ali Al Romaithi", t:2, p:58, s:"gov", roles:[
+    ["tawazun","Chief Economic Development Officer","executive","v"],
+    ]},
+  {id:"yehya_al_marzouqi", n:"Yehya Al Marzouqi", t:2, p:58, s:"gov", roles:[
+    ["tawazun","Executive Director, UAE Capability Development","executive","v"],
+    ]},
+  {id:"abdullah_al_awani", n:"Abdullah Al Awani", t:2, p:58, s:"gov", roles:[
+    ["tawazun","Executive Director, Economic Program","executive","v"],
+    ]},
+  {id:"ahmed_al_obaidli", n:"Ahmed Al Obaidli", t:2, p:58, s:"consumer_disc", roles:[
+    ["adnec","Chief Operating Officer","executive","v"],
+    ]},
+  {id:"ahmad_shaker", n:"Ahmad Shaker", t:2, p:58, s:"consumer_disc", roles:[
+    ["adnec","CEO, Capital 360 and Events (ADNEC Group subsidiary)","executive","ns"],
+    ]},
+  {id:"manal_al_ali", n:"Manal Al Ali", t:2, p:58, s:"consumer_disc", roles:[
+    ["adnec","Executive Director, Finance & Procurement","executive","ns"],
     ]},
 ];
 
