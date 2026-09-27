@@ -67,7 +67,7 @@ const INSTITUTIONS = [
   {id:"lst_arzan", n:"Arzan Financial Group for Financing and Investment K.P.S.C.", s:"finance", t:2, p:53, short:"ARZAN"},
   {id:"lst_aayan", n:"Aayan Leasing and Investment", s:"finance", t:2, p:50, short:"AAYAN"},
   {id:"lst_kre", n:"Kuwait Real Estate Co KSC", s:"realestate", t:2, p:58, short:"KRE"},
-  {id:"lst_urc", n:"United Real Estate K.S.C", s:"realestate", t:2, p:50, short:"URC"},
+  {id:"lst_urc", n:"United Real Estate K.S.C", s:"realestate", t:2, p:61, short:"URC"},
   {id:"lst_sre", n:"Salhia Real Estate", s:"realestate", t:2, p:50, short:"Salhia Real Estate"},
   {id:"lst_altijaria", n:"The Commercial Real Estate Co K.S.C", s:"realestate", t:2, p:50, short:"ALTIJARIA"},
   {id:"lst_nind", n:"National Industries Group Holding", s:"finance", t:2, p:64, short:"NIND"},
@@ -1329,9 +1329,14 @@ const PEOPLE = [
     ["lst_arzan","Board Member","board","v"]]},
   {id:"sulaiman_tareq_al", n:"Sulaiman Tareq Al-Abduljader", t:2, p:52, s:"finance", roles:[
     ["lst_arzan","Board Member","board","v"]]},
+  {id:"sheikha_bibi_nasser", n:"Sheikha Bibi Nasser Al-Sabah", t:2, p:62, s:"realestate", roles:[
+    ["lst_urc","Chairperson of the Board","board","v"]]},
+  {id:"mishary_sulaiman_saleh", n:"Mishary Sulaiman Saleh Al Muhailan", t:2, p:60, s:"realestate", roles:[
+    ["lst_urc","Group Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
+  ["lst_urc","kipco","majority/controlling shareholder","v"],
   ["lst_boubyan","nbk","majority shareholder","v"],
   ["lst_burg","kipco","majority shareholder","v"],
   ["cabinet_kw","kwgov","governs under"],

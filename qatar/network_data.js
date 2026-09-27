@@ -129,7 +129,7 @@ const INSTITUTIONS = [
   {id:"lst_zhcd", n:"Zad Holding Company Q.P.S.C.", s:"consumer_stap", t:2, p:56, short:"ZHCD"},
   {id:"lst_giss", n:"Gulf International Services Q.P.S.C.", s:"energy", t:2, p:64, short:"GISS"},
   {id:"lst_qfbq", n:"Lesha Bank LLC (formerly Qatar First Bank)", s:"finance", t:2, p:60, short:"Lesha Bank"},
-  {id:"lst_mers", n:"Al Meera Consumer Goods Company Q.P.S.C.", s:"consumer_stap", t:2, p:50, short:"MERS"},
+  {id:"lst_mers", n:"Al Meera Consumer Goods Company Q.P.S.C.", s:"consumer_stap", t:2, p:57, short:"Al Meera"},
   {id:"lst_qgri", n:"Qatar General Insurance & Reinsurance Company Q.P.S.C.", s:"finance", t:2, p:50, short:"QGRI"},
   {id:"lst_meza", n:"MEEZA QSTP-LLC", s:"tech", t:2, p:50, short:"MEEZA QSTP-LLC"},
   {id:"lst_qigd", n:"Qatari Investors Group Q.P.S.C.", s:"conglomerate", t:2, p:50, short:"QIGD"},
@@ -579,6 +579,7 @@ const PEOPLE = [
   {id:"fahad_mohmmed_al", n:"Fahad Mohmmed Al-Qahtani", t:2, p:52, s:"consumer_stap", roles:[
     ["hassad","Board Member","board","v"]]},
   {id:"jassim_mohammed_al", n:"Jassim Mohammed Al Ansari", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_mers","Chief Executive Officer","executive","v"],
     ["hassad","Board Member","board","v"]]},
   {id:"fatma_hamad_al", n:"Fatma Hamad Al-Misnad", t:2, p:52, s:"consumer_stap", roles:[
     ["hassad","Board Member","board","v"]]},
@@ -1388,6 +1389,7 @@ const PEOPLE = [
   {id:"mishal_bin_mohammed", n:"Mishal bin Mohammed bin Abdullah Al Mahmoud", t:2, p:52, s:"gov", roles:[
     ["qm","Board Member","board","v"]]},
   {id:"mohammed_bin_hassan", n:"Mohammed bin Hassan Al Malki", t:2, p:52, s:"gov", roles:[
+    ["moci","Undersecretary","executive","ns"],
     ["qfz","Board Member","board","v"],
     ["qm","Board Member","board","v"]]},
   {id:"mohammed_bin_abdulaziz", n:"Mohammed bin Abdulaziz bin Mohammed Al Meer", t:2, p:52, s:"gov", roles:[
@@ -1512,6 +1514,28 @@ const PEOPLE = [
     ["lst_giss","Board Member","board","v"]]},
   {id:"essa_matar_al", n:"Essa Matar Al-Kuwari", t:2, p:52, s:"energy", roles:[
     ["lst_giss","Board Member","board","v"]]},
+  {id:"hamda_bint_hassan", n:"Hamda bint Hassan Al-Sulaiti", t:2, p:52, s:"gov", roles:[
+    ["shura","Deputy Speaker of the Shura Council","board","v"]]},
+  {id:"nayef_bin_mohammed", n:"Nayef bin Mohammed Al Mahmoud", t:2, p:58, s:"gov", roles:[
+    ["shura","Secretary-General of the Shura Council","executive","v"]]},
+  {id:"h_e_eng", n:"H.E./Eng. Abdulla Abdulaziz Abdullah Turki Al-Subaie", t:2, p:62, s:"consumer_stap", roles:[
+    ["lst_mers","Chairman","board","v"]]},
+  {id:"mohammed_ibrahim_al_b", n:"Mohammed Ibrahim Al Sulaiti", t:2, p:62, s:"consumer_stap", roles:[
+    ["lst_mers","Board Member (Chairman, Investment Committee)","board","v"]]},
+  {id:"ahmed_abdulla_m", n:"Ahmed Abdulla M. A. Al-Khulaifi", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_mers","Board Member","board","v"]]},
+  {id:"jassim_bin_mohammed", n:"Jassim bin Mohammed Al Mannai", t:2, p:58, s:"gov", roles:[
+    ["mod_q","Chief of Staff of the Qatar Armed Forces","executive","v"]]},
+  {id:"meera_al_attiyah", n:"Meera Al Attiyah", t:2, p:58, s:"gov", roles:[
+    ["moci","Assistant Undersecretary","executive","v"]]},
+  {id:"majed_abdul_rahman", n:"Majed Abdul Rahman Abdullah Al-Mahmoud", t:2, p:58, s:"gov", roles:[
+    ["moci","Assistant Undersecretary for Business","executive","v"]]},
+  {id:"saleh_bin_majid", n:"Saleh bin Majid Al-Khulaifi", t:2, p:58, s:"gov", roles:[
+    ["moci","Assistant Undersecretary for Industry Affairs and Business Development","executive","ns"]]},
+  {id:"ayedh_al_qahtani", n:"Ayedh Al-Qahtani", t:2, p:58, s:"gov", roles:[
+    ["moci","Acting Assistant Undersecretary for Commerce Affairs","executive","ns"]]},
+  {id:"ghanim_ali_al", n:"Ghanim Ali Al Manna", t:2, p:58, s:"gov", roles:[
+    ["moph","Assistant Undersecretary for Healthcare Regulation Affairs","executive","v"]]},
 ];
 
 const OWNERSHIP = [

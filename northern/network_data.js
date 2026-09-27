@@ -102,6 +102,25 @@ const INSTITUTIONS = [
   {id:"rak_courts", n:"Ras Al Khaimah Judicial Department", s:"gov", t:2, p:54, short:"RAK Courts"},
   {id:"nesto", n:"Nesto Group", s:"consumer_stap", t:3, p:54, short:"Nesto Group"},
   {id:"al_bahar", n:"Mohamed Abdulrahman Al-Bahar Co.", s:"industry", t:3, p:58, short:"Al-Bahar"},
+  {id:"julphar", n:"Gulf Pharmaceutical Industries (Julphar)", s:"health", t:3, p:60, short:"Julphar"},
+  {id:"nbf", n:"National Bank of Fujairah PJSC", s:"finance", t:2, p:62, short:"NBF"},
+  {id:"bank_of_sharjah", n:"Bank of Sharjah PJSC", s:"finance", t:3, p:58, short:"Bank of Sharjah"},
+  {id:"uab", n:"United Arab Bank PJSC", s:"finance", t:3, p:56, short:"UAB"},
+  {id:"invest_bank", n:"Invest Bank PSC", s:"finance", t:3, p:56, short:"Invest Bank"},
+  {id:"al_buhaira_ins", n:"Al Buhaira National Insurance Company", s:"finance", t:3, p:52, short:"Al Buhaira Ins."},
+  {id:"raknic", n:"Ras Al Khaimah National Insurance Company", s:"finance", t:3, p:52, short:"RAKNIC"},
+  {id:"union_cement", n:"Union Cement Company", s:"materials", t:3, p:56, short:"Union Cement"},
+  {id:"gulf_cement", n:"Gulf Cement Company", s:"materials", t:3, p:54, short:"Gulf Cement"},
+  {id:"aurak", n:"American University of Ras Al Khaimah", s:"education", t:3, p:58, short:"AURAK"},
+  {id:"univ_of_fujairah", n:"University of Fujairah", s:"education", t:3, p:54, short:"Univ. of Fujairah"},
+  {id:"al_qasimia_univ", n:"Al Qasimia University", s:"education", t:3, p:52, short:"Al Qasimia Univ."},
+  {id:"skyline_univ", n:"Skyline University College", s:"education", t:3, p:52, short:"Skyline Univ."},
+  {id:"dar_al_khaleej", n:"Dar Al Khaleej for Press, Printing & Publishing", s:"comm", t:3, p:56, short:"Dar Al Khaleej"},
+  {id:"gulf_petrochem", n:"Gulf Petrochem Group", s:"energy", t:3, p:58, short:"Gulf Petrochem"},
+  {id:"sharjah_sust_city", n:"Sharjah Sustainable City", s:"realestate", t:3, p:56, short:"Sharjah Sust. City"},
+  {id:"sctda", n:"Sharjah Commerce and Tourism Development Authority", s:"gov", t:2, p:60, short:"SCTDA"},
+  {id:"fujairah_tourism", n:"Fujairah Tourism & Antiquities Authority", s:"gov", t:3, p:54, short:"Fujairah Tourism"},
+  {id:"ajman_tourism", n:"Ajman Department of Tourism, Culture and Media", s:"gov", t:3, p:52, short:"Ajman Tourism"},
 ];
 
 const PEOPLE = [
@@ -846,6 +865,7 @@ const OWNERSHIP = [
   ["amcfz","ajmgov","government free zone","v"],
   ["sharjah_courts","shjgov","judicial authority","v"],
   ["rak_courts","rakgov","judicial authority","ns"],
+  ["sharjah_sust_city","shurooq","joint venture with Diamond Developers","v"],
 ];
 
 const FAMILY = [
@@ -916,4 +936,13 @@ const AKA = {
   fnrc:["Fujairah Natural Resources Authority"],
   sharjah_courts:["SJD"],
   al_bahar:["M.A. Al-Bahar"],
+  julphar:["Gulf Pharmaceutical Industries"],
+  bank_of_sharjah:["BOS"],
+  al_buhaira_ins:["ABNIC"],
+  union_cement:["UCC"],
+  univ_of_fujairah:["UOF"],
+  dar_al_khaleej:["Al Khaleej"],
+  sctda:["Sharjah Tourism","Sharjah Tourism and Commerce Development Authority"],
+  fujairah_tourism:["FTAA"],
+  ajman_tourism:["Ajman Department of Tourism Development","ADTD"],
 };

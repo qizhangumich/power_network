@@ -1,13 +1,18 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
+Than Financial,3,abudhabi,pending,2026-09-25,2026-09-26,Manchester City Found Guilty Of More Than 100 Financial Rule Breaches
 High Altitude Platform Systems,2,abudhabi,pending,2026-09-23,2026-09-23,Space42 and Telespazio Ibérica Begin Wildfire Monitoring in Spain supported by High Altitude Platform Systems
-Abu Dhabi Investment,20,abudhabi,rejected,2026-09-05,2026-09-25,"Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake"
+World Wind Energy,2,oman,pending,2026-09-25,2026-09-26,Oman to host Gulf’s first World Wind Energy Conference in 2027
+Qatar Media Corporation,2,qatar,pending,2026-09-20,2026-09-26,Qatar Media Corporation participates in BilAraby Annual Gathering 2026
+Red Sea Hospital,2,saudi,pending,2026-09-17,2026-09-27,"Red Sea Global, Sulaiman Al Habib open Red Sea Hospital"
+Information Ministry,2,kuwait,pending,2026-09-25,2026-09-26,Kuwait: Information Ministry wins two awards at 26th Arab Radio and TV Festival
+Abu Dhabi Investment,12,abudhabi,rejected,2026-09-11,2026-09-25,"Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake"
 British Airways,9,dubai,rejected,2026-09-15,2026-09-19,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
 Marlan Holding,7,abudhabi,added,2026-09-08,2026-09-10,Abu Dhabi's IHC to acquire 80% stake in UAE space company Marlan Holding
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
-Dangote Refinery,4,abudhabi,rejected,2026-09-05,2026-09-07,ADNOC Reportedly Eyes Dangote Refinery Stake in Global Expansion
 Hanwha Systems,4,abudhabi,rejected,2026-09-16,2026-09-17,Hanwha Systems to work with UAE’s Edge Group on integrated air defense network
 Salalah Airport,4,oman,rejected,2026-09-19,2026-09-20,"Salalah Airport handles 687,000 passengers during khareef"
 Secretary-General of Ministry,4,qatar,rejected,2026-09-08,2026-09-21,Secretary-General of Ministry of Foreign Affairs Meets Rector of Tashkent State University of Oriental Studies
+Dangote Refinery,3,abudhabi,rejected,2026-09-07,2026-09-07,ADNOC Reportedly Eyes Dangote Refinery Stake in Global Expansion
 Syrian Airlines,3,abudhabi,rejected,2026-09-20,2026-09-21,"Syrian Airlines expands European network with direct flights to Copenhagen, Vienna"
 Adani Airport Holdings,3,abudhabi,rejected,2026-09-10,2026-09-10,IHC backs Adani Airport Holdings’ $1bn fundraising round
 Explore Sustainable Energy,3,abudhabi,rejected,2026-09-17,2026-09-19,Beam Global and Masdar City Free Zone Sign MOU to Explore Sustainable Energy Infrastructure Opportunities
@@ -16,8 +21,8 @@ Executive Council,3,abudhabi,rejected,2026-09-08,2026-09-18,Abu Dhabi sets out n
 Dubai Healthcare,3,dubai,rejected,2026-09-10,2026-09-11,"Dubai Healthcare City begins work on Dh3b Creek GardensMore than 1,400 homes planned in a 127,000-square-metre community overlooking Dubai C"
 Turkish Airlines,3,qatar,rejected,2026-09-08,2026-09-25,"Turkish Airlines, Boeing finalize 150 737 MAX order2m read"
 OPEC Fund,3,oman,rejected,2026-09-16,2026-09-19,OPEC Fund earmarks $40m for Oman’s Yiti Sustainable City project
-Estithmar Holding,3,qatar,rejected,2026-09-12,2026-09-24,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Shahba Bank,3,qatar,rejected,2026-09-17,2026-09-22,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
+Estithmar Holding,3,qatar,rejected,2026-09-12,2026-09-24,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Aurion Capital,3,qatar,rejected,2026-09-23,2026-09-24,"Invest Qatar, Aurion Capital, LG NOVA Engage to Advance Technology Investments, Venture Building in Qatar"
 ADNOC Trading,3,abudhabi,added,2026-09-10,2026-09-15,THE TIPPING POINT: ADNOC Trading Chief Flags August as Tipping Point for Oil Prices
 Sur Industrial City,3,oman,added,2026-09-15,2026-09-15,Madayn announces four new investment opportunities in Sur Industrial City
@@ -48,8 +53,6 @@ Saudi Construction,2,saudi,rejected,2026-09-07,2026-09-22,Saudi Construction Ind
 Umm Al Qura for Development,2,saudi,rejected,2026-09-06,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
 Al Qura for Development and Construction,2,saudi,rejected,2026-09-06,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
 Advanced Energy,2,saudi,rejected,2026-09-17,2026-09-22,Advanced Energy Trading and Contracting
-Dell Technologies,2,saudi,rejected,2026-09-05,2026-09-07,"Dell Technologies, Armada to accelerate mobile and Edge Data Infrastructure in KSA"
-Saudi Media Company,2,saudi,rejected,2026-09-05,2026-09-22,Saudi Media Academy concludes Strategic Leadership programme in London
 Ebara Elliott Energy,2,bahrain,rejected,2026-09-16,2026-09-21,Ebara Elliott Energy expands Houston turbomachinery service centre
 Skytrax World Airport,2,bahrain,rejected,2026-09-16,2026-09-16,BIA wins three prestigious Skytrax World Airport Awards
 Boring Company,2,dubai,rejected,2026-09-10,2026-09-11,"Musk’s Boring Company raises $3bln in UAE-led round, valuing startup at $23bln"
@@ -89,6 +92,8 @@ Fakhruddin Properties,2,dubai,added,2026-09-08,2026-09-10,Fakhruddin Properties 
 Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
 American Airlines,1,abudhabi,rejected,2026-09-15,2026-09-15,American Airlines is Struggling With Broken Business Class Seats On Its Brand New Airbus A321XLR Airplanes
+Dell Technologies,1,,rejected,2026-09-07,2026-09-07,Dell Technologies and Armada sign strategic MoU to accelerate mobile and edge data infrastructure ac
+Saudi Media Company,1,saudi,rejected,2026-09-22,2026-09-22,Cristiano Ronaldo part of $500m bid for stake in Al Nassr
 Saudi Investment,1,saudi,rejected,2026-09-04,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 Arrive Logistics,1,abudhabi,rejected,2026-09-03,2026-09-03,"Arrive Logistics Deal: No Debt, More Growth"
 Infinity Power,1,,rejected,2026-09-03,2026-09-03,Masdar to co-develop 1GW wind power project in Egypt

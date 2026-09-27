@@ -296,6 +296,7 @@ const PEOPLE = [
     ["limad","Chairman","board","v"],
     ["scfea","Board Member","board","v"],
     ["atrc","Chairman, ATRC Board of Directors (Crown Prince of Abu Dhabi)","board","v"],
+    ["adia","Board Member","board","v"],
     ], note:"Son of MBZ. Runs the day-to-day machinery of Abu Dhabi government via the Executive Council."},
   {id:"tahnoun", n:"H.H. Sheikh Tahnoon bin Zayed Al Nahyan", t:0, p:99, s:"sovereign", roles:[
     ["adgov","Deputy Ruler of Abu Dhabi","political","v"],
@@ -317,6 +318,8 @@ const PEOPLE = [
     ["imi","Owner","ownership","v"],
     ["scfea","Board Member","board","v"],
     ["adfd","Chairman","board","v"],
+    ["adia","Board Member","board","v"],
+    ["adafsa","Chairman","government","v"],
     ], note:"Controls the Presidential Court, federal financial levers, and the highest-profile sports/media holdings."},
   {id:"hazza", n:"H.H. Sheikh Hazza bin Zayed Al Nahyan", t:0, p:90, s:"gov", roles:[
     ["adgov","Deputy Ruler of Abu Dhabi","political","v"],
@@ -383,6 +386,7 @@ const PEOPLE = [
     ["modon","Chairman","board","v"],
     ["enec","Chairman","board","v"],
     ["mbzuai","Board of Trustees Member","board","v"],
+    ["adia","Board Member","board","v"],
     ], note:"Controls the emirate's treasury and chairs the telecom giant."},
   {id:"ahmed_jasim_zaabi", n:"Ahmed Jasim Al Zaabi", t:1, p:90, s:"finance", roles:[
     ["added","Chairman","government","v"],
@@ -473,7 +477,6 @@ const PEOPLE = [
     ["mbzuai","Board of Trustees Member","board","v"],
     ]},
   {id:"ahmed_mazrouei", n:"Dr. Ahmed Mubarak Al Mazrouei", t:1, p:78, s:"gov", roles:[
-    ["adafsa","Chairman","government","ns"],
     ["execcouncil","Member","political","v"],
     ["limad","Board Member","board","v"],
     ["adq","Board Member","board","ns"],
@@ -836,6 +839,8 @@ const PEOPLE = [
   {id:"tahnoun_bin_zayed", n:"Tahnoun bin Zayed Al Nahyan", t:2, p:62, s:"finance", roles:[
     ["fab","Chairman","board","v"],
     ["scfea","Board Member","board","v"],
+    ["adia","Chairman of the Board of Directors","board","v"],
+    ["royalgroup","Chairman","board","v"],
     ]},
   {id:"sheikh_mohamed_bin", n:"Sheikh Mohamed bin Saif Al Nahyan", t:2, p:62, s:"finance", roles:[
     ["fab","Vice Chairman","board","v"],
@@ -2415,6 +2420,7 @@ const PEOPLE = [
     ]},
   {id:"hamad_sayah_al", n:"Hamad Sayah Al Mazrouei", t:2, p:52, s:"finance", roles:[
     ["sca","Member of the Board of Directors","board","ns"],
+    ["added","Undersecretary","executive","v"],
     ]},
   {id:"waleed_saeed_al", n:"Waleed Saeed Al Awadhi", t:2, p:60, s:"finance", roles:[
     ["sca","Chief Executive Officer","executive","v"],
@@ -2592,6 +2598,48 @@ const PEOPLE = [
     ]},
   {id:"nasser_humaid_al", n:"Nasser Humaid Al Nuaimi", t:2, p:58, s:"gov", roles:[
     ["tawazun","Secretary General","executive","ns"],
+    ]},
+  {id:"khalil_mohammed_sharif", n:"Khalil Mohammed Sharif Foulathi", t:2, p:62, s:"sovereign", roles:[
+    ["adia","Board Member; Senior Deputy Chairman of the Investment Committee","board","v"],
+    ]},
+  {id:"hamad_mohammed_al", n:"Hamad Mohammed Al Hurr Al Suwaidi", t:2, p:52, s:"sovereign", roles:[
+    ["adia","Board Member","board","v"],
+    ]},
+  {id:"majed_salem_khalifa", n:"Majed Salem Khalifa Rashed Alromaithi", t:2, p:62, s:"sovereign", roles:[
+    ["adia","Executive Director Strategy & Planning; Deputy Chairman of the Investment Committee","executive","v"],
+    ]},
+  {id:"sheikh_mohammed_bin_b_b", n:"Sheikh Mohammed bin Khalifa bin Zayed Al Nahyan", t:2, p:62, s:"sovereign", roles:[
+    ["adia","Board Member and Chairman of the Investment Committee","board","v"],
+    ]},
+  {id:"abdulrahman_saleh_al", n:"Abdulrahman Saleh Al Saleh", t:2, p:62, s:"finance", roles:[
+    ["cbuae","Vice Chairman of the Board of Directors","board","ns"],
+    ]},
+  {id:"jassem_mohammad_buatabah", n:"Jassem Mohammad Buatabah Al Zaabi", t:2, p:62, s:"finance", roles:[
+    ["cbuae","Vice Chairman of the Board of Directors","board","ns"],
+    ]},
+  {id:"younis_haji_al", n:"Younis Haji Al Khoori", t:2, p:52, s:"finance", roles:[
+    ["cbuae","Board Member","board","ns"],
+    ]},
+  {id:"sami_dhaen_al", n:"Sami Dhaen Al Qamzi", t:2, p:52, s:"finance", roles:[
+    ["cbuae","Board Member","board","ns"],
+    ]},
+  {id:"ali_mohammed_bakheet_b", n:"Ali Mohammed Bakheet Al Rumaithi", t:2, p:52, s:"finance", roles:[
+    ["cbuae","Board Member","board","ns"],
+    ]},
+  {id:"khaled_al_tameemi", n:"Khaled Al Tameemi", t:2, p:58, s:"finance", roles:[
+    ["cbuae","Vice Governor","executive","v"],
+    ]},
+  {id:"ebrahim_obaid_al", n:"Ebrahim Obaid Al Zaabi", t:2, p:58, s:"finance", roles:[
+    ["cbuae","Assistant Governor for Monetary Policy and Financial Stability","executive","v"],
+    ]},
+  {id:"saif_hadef_al", n:"Saif Hadef Al Shamsi", t:2, p:58, s:"finance", roles:[
+    ["cbuae","Deputy Governor","executive","ns"],
+    ]},
+  {id:"mohammed_alshaiba_al", n:"Mohammed Alshaiba Al Sharyani", t:2, p:58, s:"gov", roles:[
+    ["added","Executive Director Executive Affairs Sector (Acting Director General of Economic Affairs)","executive","v"],
+    ]},
+  {id:"muhammad_munif_al", n:"Muhammad Munif Al Mansouri", t:2, p:58, s:"gov", roles:[
+    ["added","Executive Director Abu Dhabi Business Centre (Acting Director General Abu Dhabi Registration and Licensing Authority)","executive","v"],
     ]},
 ];
 
