@@ -1,0 +1,5 @@
+# Man City chairman defiant over reported Premier League charges
+source: RFI
+url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd2ozSlU1NnExcy02TEFJQWdiZkRSTW5KQWpEcjYzRVZVZ0JZSUQzc0ZIR1N1RjdMV3NocUdkMEZfS0htTDRXNHljV05IdDlveFpTZ21wOS1ZLUYyZnZCYi1vZGRMc2tSMWlienJGLXkyRktDNHVKN3dDenlIakF4dmxVa29EdVFuTkNxYWxYVk1BVlk1X0hzUk92X25WWUVqQXJ2STVkZFh6aVhNWEJtdXZjdnFPU1dN?oc=5
+
+Man City chairman defiant over reported Premier League charges    RFI

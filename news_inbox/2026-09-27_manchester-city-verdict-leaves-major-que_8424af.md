@@ -1,0 +1,5 @@
+# Manchester City verdict leaves major questions for club, Premier League
+source: Sports Business Journal
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNmF6Z3NxaTZDZkVPOGZmbVJJWFdzT1JORHJ4LVBnZGZOS21uNmhMVW9YVjZUNzBzby1DY183aTV3dWN1aVFjMGVZRm14UXRoQk5lNjRnVGY0TkxJWFJlaVp1WXRYekF2ekJKWWswckpGY082US02cVU2MFAtbmZWdTVVdXFoZGFxWWY1Y0EyMXNxY3VfdzM3RmpCQnBBVGNYTmxqTlRQM1JoMmd4NExBSnFmWmROVHJ5dEk3OGJ4RjNZRFNwYkxxaA?oc=5
+
+Manchester City verdict leaves major questions for club, Premier League    Sports Business Journal

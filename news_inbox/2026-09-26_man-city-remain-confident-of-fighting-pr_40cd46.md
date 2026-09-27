@@ -1,0 +1,5 @@
+# Man City remain confident of fighting Premier League charges, says chairman
+source: TNT Sports
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOXRoQ0RWVkIzdEdwbzFicmJ4SkFXdjZ5Wm93dmx2eF9JbENkU3l0anlNb01SbVFvYWFKNXEtWFpnRERJZ0xHdFJSQXMtLWJtTU53R1A1WTAtM1RNbUYzMDVoWGdIeFIzUUZHM0FOaGFuY19IOVI5dndvVS1kbi1oenc1Z2VDWGtMNnk5WHk2ZkpOY01oUHVTWDNUZVRSY0U2b1hJbkQwMXJuNzZlUGx3V1dscWd3OEhHQ0JnVVpuT0JHTXdQZjB3SzMzeXZaX2NjMHVUeA?oc=5
+
+Man City remain confident of fighting Premier League charges, says chairman    TNT Sports
