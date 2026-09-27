@@ -1,0 +1,5 @@
+# Man City chairman Khaldoon Al Mubarak issues club statement about Premier League charges
+source: talkSPORT
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNDVSSzNyVFV3V29jdUVGSlkzc0Ntbzk1NlgtbDNjN0NBMmZKZ2hTdFJxVU1UTS1GRDBiaC15RjlsX1RPUUkwMThaVnNSTzdVWUhTTm93dXZRWndwVmFFc2JrREFtb1hiUDdMQnBtLVBYRW9ESVhOLVBZQjZoX3FUX3VYd3RrRXhBRUs1RnFVdEN4VXZLVldGSk5nV1EtNmJnZTFHcFhrU0Y?oc=5
+
+Man City chairman Khaldoon Al Mubarak issues club statement about Premier League charges    talkSPORT

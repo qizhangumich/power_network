@@ -1,0 +1,5 @@
+# City defiant over history-tainting Premier League charges
+source: The Australian
+url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNjYyYXQtel9fckN6eEVrR1VUdXF0emhhUW5YQmstbWJMNzYzbVZEaVVRS0FsRHNMejJxVUtMUmpUYkZ3cS1PRWZFZVdwZ2dJa1VSc0tmV1c1X2g4WDJZazMzV3JaYWlSSmt5OTR5UkdjSWJkTUFsUE4yM2MxVUYtT1kxMlU2SU1WOXYydDhDQllkX3Y5YTl1cVNlaDRESUhPTFdEdU9tVUxrblpsVzBwTkhMaW9HNkR4QW8tNVROdXl2UUkxQUo3aHBRQzREZ1NvckVIbFhGd29CR1FnSWx3ODFHX1lLQlBRdjEtVlhn?oc=5
+
+City defiant over history-tainting Premier League charges    The Australian
