@@ -1,0 +1,5 @@
+# Etihad brings exclusive travel offers to The Galleria with immersive new destinations pop-up
+source: Biz Today
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxNUm5ZbkVoc2Y1NmlkMG5YdmNlR2xzYmZJYk5iQ3RmVkZJR0s3RzQzY19Icmx0U3NDdnhhbVdFWmtBV0hIck5lQWctSFo4ekllT1FkellmTXFtc05UakxVZ0pZNjRqdTFYd3NJdGlwdkJYNWN2enlscnVoQTRQREdJSTBFNlR2Y18zcHR2OHVSWk5yS0hCcHl1REN6MlY0NkJqeGZJVGQyWGlJdkJYTXJWcDNRQVg5d1IxXzJLbDFNU09zS1ppaTItWnhn?oc=5
+
+Etihad brings exclusive travel offers to The Galleria with immersive new destinations pop-up    Biz Today

@@ -1,0 +1,5 @@
+# EDGE Group, TKMS sign deal to develop underwater security approach
+source: TradeArabia
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPajdkLXJ2S1BPRTU1dkRuVGRMYnRpRmNBOGtFVVNFM3lSQU1yTHVMWmxfN0E5amtxeWxwZ0xtSG1OSHJ5a3Z0dmFTU1UtZHEwM0FSQkNjZ3dxdEIyTkNRWERMcGxJYzJYeVF2YlFtYktZcnBFUVFwUmNYQWZVNTVRZWZZNlp6Q3JidmpMX2RhS2ZfaTRZVzdXZExZdW91bEdqU0lCOWhzN04?oc=5
+
+EDGE Group, TKMS sign deal to develop underwater security approach    TradeArabia

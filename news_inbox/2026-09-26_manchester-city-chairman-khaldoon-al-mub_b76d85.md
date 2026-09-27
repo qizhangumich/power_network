@@ -1,0 +1,5 @@
+# Manchester City chairman Khaldoon Al Mubarak issues open letter to supporters
+source: OneFootball
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxONUoxcDdIS0NFX0dRRFIycHh5U2xyNGxxeU80ZEdsZWYyZGNZV2hVMmM0OEVpWFc4SjI4WG5SbnozWFVfUm5CSnp2em5OYzg2QWZiQzhCaFd2S0pKdjdCWUlNXy1zSUdDZEFmSDloYUVKSWxpX1VoNGlMUFdIV1ltMDlreTdaS2NWM2h1SEY4akx6M1dldGdGSXF2LTExSUVTTG9mYzY1MHVqdTRGVlZaRTNHWXF6d0JUVnc?oc=5
+
+Manchester City chairman Khaldoon Al Mubarak issues open letter to supporters    OneFootball
