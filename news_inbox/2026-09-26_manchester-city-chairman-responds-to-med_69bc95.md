@@ -1,0 +1,5 @@
+# Manchester City chairman responds to media reports on commission decision
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQa1RkNng5OXo0bmRyMi0wTGlPSTd3bXBGX3A3TENoZHNNdFc4Yll1dWhKZnMxTVMxTHdkX0llazg4UWtBSDBEbTBZVVFqZ0gxYkp0c1JqZEg2dVRBdnl5YmZmd1ZtY3ljcHdOUUN5aEFBUTN0SXpFY21OWFMycFdBWFJ0WVBvT1V3bGVMSmhVNmhfLXZ3N3lzLWtVRTlSM0YtYWJnT0Y1dEJNTWJUWXNmdWR6WkV4aWV3X2gxeWRxUjRLNzJmSmE1RkhR?oc=5
+
+Manchester City chairman responds to media reports on commission decision    thenationalnews.com

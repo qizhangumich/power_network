@@ -1,0 +1,5 @@
+# Fullsteam raises new investment from Aquiline Capital Partners and ADIA
+source: app.dealroom.co
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeFRTME92cnphS3JFZlhGSEdQa0lfOG8xSGNIMDhhNzU0eDNIdzcycWVDWTVablVwRmszYzFCQnd6QzI2Q3VjemFDVV90SXo1TlB4WUdGYjE5MkJMZzNQRzhJUE9oY01LMjM2Tmg0RzNJTjZqZGFnYkVsVjBtTFh5MXNJZzNTWTZob3Nac1AxVjhmc255RW9aVm43eDdyTGxSWVRzb0QtREw?oc=5
+
+Fullsteam raises new investment from Aquiline Capital Partners and ADIA    app.dealroom.co

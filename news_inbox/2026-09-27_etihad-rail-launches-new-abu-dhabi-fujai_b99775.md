@@ -1,0 +1,5 @@
+# Etihad Rail launches new Abu Dhabi–Fujairah freight link
+source: worldcargonews.com
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPSjZITUw0d1VvMFB0ZGI5ci0xOEo1dm9nb3k5WEFmMjE3RFdfRTdiMFJYZEFFR05YaWV5VWc4ZkllNEFQd3Vod0VlZXRkWnZVclg0c1lrWlIzOUVrMjQ3Q0dLUHEyamFnN1dnR0p3WGtHUVlOR0owTnhaeTVUVERKdmVsbWNKSGFpaXZYLWVub0h0ME0zeXN3NXlfU01GWDJWWE5NdmhFNDBnQlBOTm1Kd3Nn?oc=5
+
+Etihad Rail launches new Abu Dhabi–Fujairah freight link    worldcargonews.com
