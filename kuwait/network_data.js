@@ -1504,6 +1504,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  moinfo_kw:["Information Ministry"],
   zain:["Mobile Telecommunications Company","MTC"],
   meshal:["Meshal Al-Ahmad","Emir Meshal"],
   kia:["Kuwait Investment Authority"],

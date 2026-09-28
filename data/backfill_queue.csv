@@ -102,6 +102,7 @@ qatar,alfardan,Alfardan Group,conglomerate,62,1,pending
 qatar,psa_qatar,Planning and Statistics Authority,gov,62,0,pending
 qatar,gac_qatar,General Authority of Customs,gov,62,0,pending
 qatar,north_oil,North Oil Company,energy,62,0,pending
+qatar,qatar_media,Qatar Media Corporation,comm,62,1,pending
 saudi,ajlan,Ajlan & Bros,conglomerate,62,1,pending
 saudi,alula_dev,AlUla Development Company,realestate,62,0,pending
 saudi,jeddah_central,Jeddah Central Development Company,realestate,62,0,pending
@@ -531,6 +532,7 @@ saudi,awqaf_authority,General Authority for Awqaf,gov,52,0,pending
 saudi,axelerated_sol,Axelerated Solutions,tech,52,0,pending
 saudi,western_bakeries,Western Bakeries Company,consumer_stap,52,0,pending
 saudi,ahab,Ahmad Hamad Al Gosaibi & Brothers,conglomerate,52,0,pending
+saudi,red_sea_hospital,The Red Sea Hospital,health,52,0,pending
 abudhabi,lst_eand,Emirates Telecommunications Group Company PJSC,comm,50,0,pending
 abudhabi,lst_ords,Ooredoo Q.P.S.C.,comm,50,0,pending
 abudhabi,lst_adports,Abu Dhabi Ports Company PJSC,industry,50,0,pending

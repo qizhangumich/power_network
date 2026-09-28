@@ -464,6 +464,7 @@ const INSTITUTIONS = [
   {id:"al_fozan", n:"Al Fozan Holding", s:"conglomerate", t:3, p:56, short:"Al Fozan Holding"},
   {id:"kaust", n:"King Abdullah University of Science and Technology", s:"education", t:1, p:74, short:"KAUST"},
   {id:"kfcris", n:"King Faisal Center for Research and Islamic Studies", s:"education", t:2, p:58, short:"KFCRIS"},
+  {id:"red_sea_hospital", n:"The Red Sea Hospital", s:"health", t:3, p:52, short:"Red Sea Hospital"},
 ];
 
 const PEOPLE = [
@@ -2441,6 +2442,7 @@ const OWNERSHIP = [
   ["salic","pif","wholly owned subsidiary","v"],
   ["gdc_middle_east","pif","majority shareholder (80%)","v"],
   ["site","pif","portfolio company","v"],
+  ["red_sea_hospital","habib","operates","v"],
 ];
 
 const FAMILY = [

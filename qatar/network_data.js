@@ -201,6 +201,7 @@ const INSTITUTIONS = [
   {id:"udst", n:"University of Doha for Science and Technology", s:"education", t:2, p:60, short:"UDST"},
   {id:"ali_bin_ali", n:"Ali Bin Ali Holding", s:"consumer_disc", t:3, p:58, short:"Ali Bin Ali"},
   {id:"al_attiya_motors", n:"Al Attiya Motors & Trading Company", s:"consumer_disc", t:3, p:52, short:"Al Attiya Motors"},
+  {id:"qatar_media", n:"Qatar Media Corporation", s:"comm", t:1, p:62, short:"Qatar Media Corp"},
 ];
 
 const PEOPLE = [
@@ -242,6 +243,7 @@ const PEOPLE = [
     ["qf","Member","board","v"],
     ["moci","Minister of Commerce & Industry","political","v"]]},
   {id:"hamad_bt_aj", n:"H.E. Sheikh Hamad bin Thamer Al Thani", t:0, p:82, s:"comm", roles:[
+    ["qatar_media","Chairman of the Board of Directors","board","ns"],
     ["aljazeera","Chairman","board","v"]]},
   {id:"faisal_bt", n:"H.E. Sheikh Faisal bin Thani Al Thani", t:0, p:78, s:"comm", roles:[
     ["doha_investment","Vice Chairman & Managing Director, Doha Investment (also Minister of Commerce and Industry)","executive","v"],
@@ -1760,4 +1762,5 @@ const AKA = {
   al_shamlan_hldg:["MSS Holding"],
   ali_bin_ali:["ABA Holding","Ali Bin Ali Group"],
   al_attiya_motors:["AMTC"],
+  qatar_media:["QMC","Qatar General Broadcasting and Television Corporation"],
 };
