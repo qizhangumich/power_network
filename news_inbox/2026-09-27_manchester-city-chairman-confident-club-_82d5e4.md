@@ -1,0 +1,5 @@
+# Manchester City chairman confident club will prove innocence
+source: Yahoo Sports
+url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNeGM5bF90dWh5a3lWYmNWSXRqbjFScy1HYkNBVDVMSUN4ajNPU0ZLbnYxZW1HSUFyN2NhV3NLck0yNHFySGJlMl9JY2cxMnNjenc3WG95S29tRkR4c092dUx3NVlUV2h6Z193aUl6U1BtUmVHRkVxSV9KUGg0MVdKaUttc3oyU1Bfb05PVmVZaXNYdw?oc=5
+
+Manchester City chairman confident club will prove innocence    Yahoo Sports

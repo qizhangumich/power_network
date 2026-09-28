@@ -1,0 +1,5 @@
+# Man City chairman insists club remain confident of proving their innocence – and says Premier League process still has ‘a long way to run’
+source: hayters.com
+url: https://news.google.com/rss/articles/CBMimwFBVV95cUxNcy1teW0za0VmSGd1RlFLZ2Q0VU04U1VqVktoeXltNk9iOFhub3JiZXRwMHNqU2V1M2xYZlhRWUsybEV0QVJCTjQ0blFqSGE4Q01SWWhKZTZXczF2ejRlRFktTVdGSS0xZmlSTHpMaTRnSkw4UkV4cmtIVm5tdzQ1RlJXcDlMU3I5YWdNNDI5ZFpRSjN0MFBOQmwzb9IBoAFBVV95cUxNNEFSVkRGNlNCMkhMZlBWdlJlQlpvMkN0Mk1hNUdRVnJveW8zNWJtdGZ5Y2ExcFJxanduUnlhWnlHTWt4ckJUUmEzblUyMG13ZFJsMkJvb1o3N3NjNXhuSVpkOUdtam9PZEF1bTlJS2pBNmw0ODdsV0JKcG9TdkJlbzJkbWlERFZDN3V0eGItU3Y1NEpRcVpzd1dKT1lOZ0hW?oc=5
+
+Man City chairman insists club remain confident of proving their innocence – and says Premier League process still has ‘a long way to run’    hayters.com
