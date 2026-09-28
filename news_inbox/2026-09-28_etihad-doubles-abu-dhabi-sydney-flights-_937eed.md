@@ -1,0 +1,5 @@
+# Etihad doubles Abu Dhabi-Sydney flights from Dec.15
+source: GulfToday
+url: https://news.google.com/rss/articles/CBMipgFBVV95cUxOQzVDNTgtNjl0N1o1d1AwNnJSdTIwLVlWeEtxenllNlV0ZzM2SVpHV0o3SVVQVlc3LXZpNFhlNFhqRDF0Q1pSRTRiWXNoQnhSNFhnd3hybmMwVHpxeEt2OEUwZjB1dDlYZGdJbmxPQ3g5TlVOVGlnN09OZ0E5WjdnYzE2a3JUbV84dGlLbzRtTTA4R2oxUGFYVzFUTUFCNnRCNkZ5SXRR?oc=5
+
+Etihad doubles Abu Dhabi-Sydney flights from Dec.15    GulfToday

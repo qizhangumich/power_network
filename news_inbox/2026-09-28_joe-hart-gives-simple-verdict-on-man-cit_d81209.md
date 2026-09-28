@@ -1,0 +1,5 @@
+# Joe Hart gives simple verdict on Man City charges ruling as he says 'I know what we did'
+source: Manchester Evening News
+url: https://news.google.com/rss/articles/CBMipgFBVV95cUxOVmtXY0h0cjNtQktrQjZmX29oTm4tcS1IZU5rOVpSLTdRMXFIaWlmQkhRcUhOVFlpOXV5c2J5Tl9pdmlnNGt4UXltalpqSHJMVWRFbkN2REl0X2NZQm5jX2ItdlhIYmY0eVp0QXE2Y3JwNEp1ZG0tNUVDcjdwaHNPZWJWSmRGNWtndVc4WmNzd0pFWm9nSlZVZW0xNHg5VnBENkJ0MUlB0gGrAUFVX3lxTE5ialhWaVc3SVNzTG93eHdPLUhIbnlFVG1Zc2N5UFNYbVZ4MXpFN0p0aWszQTN5ZHZMSU00QzE2Q29VZzhEaHdlYlpZYkxYTHdBQTlRMTIxa1NPNEM3RG5kdy13bm9QOWlyRk5XYzI2ZzRCVHQ1aF9YNlFsTU85V1dhUHBkcFN1eklTYkxQdndTdW1qLTVtRWRmRjZGUG9EUnZua3NwVDEtdHVVZw?oc=5
+
+Joe Hart gives simple verdict on Man City charges ruling as he says 'I know what we did'    Manchester Evening News

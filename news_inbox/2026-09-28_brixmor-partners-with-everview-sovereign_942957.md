@@ -1,0 +1,5 @@
+# Brixmor Partners With Everview, Sovereign Wealth To Buy Slate Grocery REIT
+source: Bisnow
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNc2xfNTdISTh6MHRFb0tvZWdrMmNLSXZTb3k0WUpsazdhSFJ5TjQzbDdOckxvNkhNM2ZWOHFxTENORWVnalN5WFlJZFJFY3BlZi1zLVhCNTRCS1EyMFU4Z25vV0V6YzhmZnlrcGpNd19vdFV5cnExb08zSVhoSU9ueHdQSTZhcXNtcTFGcF90eHBUekhRX2diVUZiTVAwc2sxS05PQzFLMDZNQUpEUUhVQm5sZGtuOHp6Y1k0dWVOYTVTOGU3?oc=5
+
+Brixmor Partners With Everview, Sovereign Wealth To Buy Slate Grocery REIT    Bisnow
