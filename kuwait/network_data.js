@@ -73,7 +73,7 @@ const INSTITUTIONS = [
   {id:"lst_nind", n:"National Industries Group Holding", s:"finance", t:2, p:64, short:"NIND"},
   {id:"lst_cable", n:"Gulf Cables and Electrical Industries Group Co. K.S.C.P", s:"industry", t:2, p:50, short:"CABLE"},
   {id:"lst_ship", n:"Heavy Engineering Industries and Shipbuilding", s:"industry", t:2, p:50, short:"SHIP"},
-  {id:"lst_bpcc", n:"Boubyan Petrochemical Co KSCP", s:"materials", t:2, p:50, short:"BPCC"},
+  {id:"lst_bpcc", n:"Boubyan Petrochemical Company K.S.C.P.", s:"materials", t:2, p:58, short:"Boubyan Petrochem"},
   {id:"lst_humansoft", n:"Human Soft Holding", s:"industry", t:2, p:58, short:"Human Soft Hldg"},
   {id:"lst_ifahr", n:"IFA Hotels and Resorts", s:"consumer_disc", t:2, p:50, short:"IFAHR"},
   {id:"lst_cgc", n:"Combined Group Contracting KSCP", s:"industry", t:2, p:50, short:"CGC"},
@@ -210,7 +210,7 @@ const INSTITUTIONS = [
   {id:"citra", n:"Communication and Information Technology Regulatory Authority", s:"comm", t:2, p:56, short:"CITRA"},
   {id:"epa_kuwait", n:"Environment Public Authority", s:"gov", t:2, p:54, short:"EPA Kuwait"},
   {id:"paafr", n:"Public Authority for Agriculture Affairs and Fish Resources", s:"consumer_stap", t:2, p:52, short:"PAAFR"},
-  {id:"part_kuwait", n:"Public Authority for Roads and Transportation", s:"industry", t:2, p:62, short:"PART Kuwait"},
+  {id:"part_kuwait", n:"Public Authority for Roads and Transportation (abolished Dec 2025 — departments transferred to Ministry of Public Works & Ministry of Interior per Amiri Decree)", s:"industry", t:2, p:62, short:"PART Kuwait (former)"},
   {id:"csc_kuwait", n:"Civil Service Commission", s:"gov", t:2, p:54, short:"CSC Kuwait"},
   {id:"kuna", n:"Kuwait News Agency", s:"comm", t:2, p:56, short:"KUNA"},
   {id:"xcite_electronics", n:"Xcite Alghanim Electronics", s:"consumer_disc", t:2, p:58, short:"Xcite Electronics"},
@@ -226,6 +226,8 @@ const INSTITUTIONS = [
   {id:"al_sagar", n:"Al Sagar Group", s:"conglomerate", t:3, p:54, short:"Al Sagar Group"},
   {id:"al_yaqout", n:"Al Yaqout Group", s:"conglomerate", t:3, p:52, short:"Al Yaqout Group"},
   {id:"amiri_hospital", n:"Al-Amiri Hospital", s:"health", t:2, p:58, short:"Amiri Hospital"},
+  {id:"ntec", n:"National Technology Enterprises Company", s:"tech", t:2, p:60, short:"NTEC"},
+  {id:"enertech", n:"EnerTech Holding Company", s:"energy", t:3, p:54, short:"EnerTech Holding"},
 ];
 
 const PEOPLE = [
@@ -239,6 +241,7 @@ const PEOPLE = [
     ["moi_kuwait","First Deputy Prime Minister and Minister of Interior","executive","v"],
     ["cabinet_kw","First Deputy PM · Minister of Interior","political","v"]]},
   {id:"yahya_fm", n:"H.E. Sheikh Jarrah Jaber Al-Ahmad Al-Sabah", t:1, p:76, s:"gov", roles:[
+    ["kfaed","Chairman of the Board","board","v"],
     ["mofa_kw","Minister of Foreign Affairs","political","v"]],
     note:"Appointed in the 1 February 2026 Amiri Decree cabinet reshuffle, succeeding Abdullah Ali Al-Yahya; son of the late Emir Jaber III."},
   {id:"noora_fin", n:"Dr. Yaqoub Al-Sayyid Yusuf Al-Rifai", t:1, p:74, s:"finance", roles:[
@@ -267,12 +270,14 @@ const PEOPLE = [
   {id:"omar_alghanim", n:"Omar Kutayba Alghanim", t:2, p:68, s:"conglomerate", roles:[
     ["alghanim","Chairman (family)","board","ns"]]},
   {id:"boodai", n:"Marwan Boodai", t:2, p:64, s:"industry", roles:[
+    ["boodaicorp","Vice Chairman","board","v"],
     ["jazeera","Chairman","board","v"]]},
   {id:"alshamlan_kfh", n:"Khaled Yousef Alshamlan", t:2, p:72, s:"finance", roles:[
     ["kfh","Group Chief Executive Officer","executive","v"]]},
   {id:"aleidan_koc", n:"Ahmad Jaber Al-Eidan", t:2, p:68, s:"energy", roles:[
     ["koc","Chief Executive Officer","executive","v"]]},
   {id:"alkhateeb_knpc", n:"Wadha Ahmed Al-Khateeb", t:2, p:66, s:"energy", roles:[
+    ["kipic","Chief Executive Officer","executive","v"],
     ["knpc","Chief Executive Officer","executive","v"]]},
   {id:"aldousari_equate", n:"Nasser Mohamad Al-Dousari", t:2, p:62, s:"materials", roles:[
     ["equate","Chief Executive Officer","executive","v"]]},
@@ -295,6 +300,7 @@ const PEOPLE = [
     ["moinfo_kw","Minister of Information & Culture","political","v"]],
     note:"Appointed in the 1 February 2026 Amiri Decree cabinet reshuffle."},
   {id:"almashaan_pw", n:"Noura Mohammed Al-Mashaan", t:1, p:64, s:"gov", roles:[
+    ["kpa","Chairperson (Minister of Public Works)","board","v"],
     ["mopw_kw","Minister of Public Works","political","v"]]},
   {id:"alasfour_mun", n:"Manal Mohammed Al-Asfour", t:2, p:58, s:"gov", roles:[
     ["kwmun","Director-General","executive","v"]],
@@ -415,6 +421,7 @@ const PEOPLE = [
     ["kdipa","Deputy Chairman of the Board of Directors","board","v"],
     ["kpc","Board Member","board","v"]]},
   {id:"yousef_abdullah_al", n:"Yousef Abdullah Al-Yateem", t:2, p:52, s:"energy", roles:[
+    ["kipic","Deputy Chairman","board","v"],
     ["kpc","Board Member","board","v"]]},
   {id:"yousef_khaled_al", n:"Yousef Khaled Al-Qabandi", t:2, p:52, s:"energy", roles:[
     ["kpc","Board Member","board","v"]]},
@@ -433,15 +440,18 @@ const PEOPLE = [
   {id:"musaed_sulaiman_al", n:"Musaed Sulaiman Al-Rasheed", t:2, p:60, s:"energy", roles:[
     ["koc","Deputy CEO - Commercial & Projects Engineering","executive","v"]]},
   {id:"khaled_ali_al", n:"Khaled Ali Al-Khayyat", t:2, p:60, s:"energy", roles:[
+    ["kipic","Deputy CEO - Planning and Finance","executive","v"],
     ["knpc","Deputy CEO - Planning & Finance","executive","v"]]},
   {id:"ghanim_naser_al", n:"Ghanim Naser Al-Otaibi", t:2, p:60, s:"energy", roles:[
     ["knpc","Deputy CEO - Projects","executive","v"],
     ["kufpec","Board Member","board","v"]]},
   {id:"shujaa_salem_al", n:"Shujaa Salem Al-Ajmi", t:2, p:60, s:"energy", roles:[
+    ["kipic","Board Member","board","v"],
     ["knpc","Deputy CEO - Mina Al-Ahmadi Refinery","executive","v"]]},
   {id:"abdullah_shaker_al", n:"Abdullah Shaker Al-Otaibi", t:2, p:60, s:"energy", roles:[
     ["knpc","Deputy CEO - Mina Abdullah Refinery","executive","v"]]},
   {id:"bandar_mahdi_al", n:"Bandar Mahdi Al-Qahtani", t:2, p:60, s:"energy", roles:[
+    ["kipic","Deputy CEO - Administration and Commercial Affairs","executive","v"],
     ["knpc","Deputy CEO - Admin & Commercial","executive","v"]]},
   {id:"khuloud_saad_al", n:"Khuloud Saad Al-Mutairi", t:2, p:60, s:"energy", roles:[
     ["knpc","Deputy CEO - Support Services","executive","v"]]},
@@ -551,16 +561,19 @@ const PEOPLE = [
   {id:"marzouk_jassim_boodai", n:"Marzouk Jassim Boodai", t:2, p:52, s:"industry", roles:[
     ["jazeera","Board Member","board","v"]]},
   {id:"hany_shawky", n:"Hany Shawky", t:2, p:52, s:"industry", roles:[
+    ["boodaicorp","Chief Investment Officer","executive","v"],
     ["jazeera","Board Member","board","v"]]},
   {id:"dermot_mannion", n:"Dermot Mannion", t:2, p:52, s:"industry", roles:[
     ["jazeera","Board Member","board","v"]]},
   {id:"mishaal_al_usaimi", n:"Mishaal Al-Usaimi", t:2, p:52, s:"industry", roles:[
+    ["boodaicorp","Chief Executive Officer","executive","v"],
     ["jazeera","Board Member","board","v"]]},
   {id:"seham_alhusaini", n:"Seham AlHusaini", t:2, p:52, s:"industry", roles:[
     ["jazeera","Independent Board Member","board","v"]]},
   {id:"bertrand_grabowski", n:"Bertrand Grabowski", t:2, p:52, s:"industry", roles:[
     ["jazeera","Independent Board Member","board","v"]]},
   {id:"ahmad_abdalla", n:"Ahmad Abdalla", t:2, p:58, s:"industry", roles:[
+    ["boodaicorp","Chief Operating Officer","executive","v"],
     ["jazeera","Chief Operating Officer and Board Member","executive","v"]]},
   {id:"mohammed_a_alshaya", n:"Mohammed A. Alshaya", t:2, p:62, s:"realestate", roles:[
     ["mabanee","Chairman of the Board of Directors","board","v"]]},
@@ -575,6 +588,7 @@ const PEOPLE = [
   {id:"mohammed_rashid_al", n:"Mohammed Rashid Al-Mutairi", t:2, p:52, s:"realestate", roles:[
     ["mabanee","Board Member","board","v"]]},
   {id:"khalifah_abdullah_alajeel", n:"Khalifah Abdullah Alajeel", t:2, p:52, s:"realestate", roles:[
+    ["cma_kuwait","Commissioner","board","v"],
     ["mabanee","Board Member","board","v"]]},
   {id:"tareq_abdulwahab_aladsani", n:"Tareq Abdulwahab AlAdsani", t:2, p:60, s:"realestate", roles:[
     ["mabanee","Deputy Chief Executive Officer","executive","v"]]},
@@ -852,6 +866,7 @@ const PEOPLE = [
   {id:"raed_abdulkareem_al", n:"Raed Abdulkareem Al Moamen", t:2, p:52, s:"finance", roles:[
     ["lst_abk","Board Member","board","v"]]},
   {id:"ghazi_abdulrahman_hamad", n:"Ghazi Abdulrahman Hamad Alsanea", t:2, p:52, s:"finance", roles:[
+    ["shamalazzour","Board Member","board","v"],
     ["lst_abk","Board Member","board","v"]]},
   {id:"ahmed_abdullah_mohammed", n:"Ahmed Abdullah Mohammed Al-Baghli", t:2, p:52, s:"finance", roles:[
     ["lst_abk","Independent Board Member","board","v"]]},
@@ -1113,6 +1128,7 @@ const PEOPLE = [
   {id:"atef_bin_saeed", n:"Atef bin Saeed bin Rashid Al-Siyabi", t:2, p:52, s:"comm", roles:[
     ["zain","Board Member","board","v"]]},
   {id:"shukri_abdulaziz_al", n:"Shukri Abdulaziz Al-Mahrous", t:2, p:52, s:"energy", roles:[
+    ["kipic","Chairman of the Board","board","v"],
     ["q8","Board Member","board","v"]]},
   {id:"areej_yousef_al", n:"Areej Yousef Al-Bahr", t:2, p:52, s:"energy", roles:[
     ["q8","Board Member","board","v"]]},
@@ -1333,6 +1349,62 @@ const PEOPLE = [
     ["lst_urc","Chairperson of the Board","board","v"]]},
   {id:"mishary_sulaiman_saleh", n:"Mishary Sulaiman Saleh Al Muhailan", t:2, p:60, s:"realestate", roles:[
     ["lst_urc","Group Chief Executive Officer","executive","v"]]},
+  {id:"qusai_nasser_al", n:"Qusai Nasser Al-Amer", t:2, p:52, s:"energy", roles:[
+    ["kipic","Board Member","board","v"]]},
+  {id:"waleed_s_al", n:"Waleed S. Al-Bahar", t:2, p:58, s:"sovereign", roles:[
+    ["kfaed","Acting Director General","executive","v"]]},
+  {id:"othman_i_al", n:"Othman I. Al-Issa", t:2, p:62, s:"gov", roles:[
+    ["cma_kuwait","Chairman of the Board of Commissioners","board","v"]]},
+  {id:"abdulaziz_f_almarzouq", n:"Abdulaziz F. AlMarzouq", t:2, p:52, s:"gov", roles:[
+    ["cma_kuwait","Commissioner","board","v"]]},
+  {id:"abdulmohsen_h_al", n:"Abdulmohsen H. Al-Mazidi", t:2, p:52, s:"gov", roles:[
+    ["cma_kuwait","Commissioner","board","v"]]},
+  {id:"ahmad_a_al", n:"Ahmad A. Al-Qadhi", t:2, p:52, s:"gov", roles:[
+    ["cma_kuwait","Commissioner","board","v"]]},
+  {id:"fawaz_al_ahmad", n:"Fawaz Al-Ahmad", t:2, p:60, s:"finance", roles:[
+    ["kic","Chief Executive Officer","executive","v"]]},
+  {id:"faisal_y_almeshari", n:"Faisal Y. AlMeshari", t:2, p:60, s:"finance", roles:[
+    ["kic","Deputy CEO - Direct Investment and Corporate Finance","executive","v"]]},
+  {id:"imad_a_tifouni", n:"Imad A. Tifouni", t:2, p:60, s:"finance", roles:[
+    ["kic","Deputy CEO - Asset Management","executive","v"]]},
+  {id:"hany_a_elnowaihy", n:"Hany A. Elnowaihy", t:2, p:58, s:"finance", roles:[
+    ["kic","Chief Financial Officer","executive","v"]]},
+  {id:"amer_faisal_al", n:"Amer Faisal Al Bader", t:2, p:62, s:"industry", roles:[
+    ["kpa","Vice Chairman","board","v"]]},
+  {id:"khaled_salem_al", n:"Khaled Salem Al Sabah", t:2, p:58, s:"industry", roles:[
+    ["kpa","Director General and Board Member","executive","v"]]},
+  {id:"bashayer_salah_al", n:"Bashayer Salah Al Ghanim", t:2, p:52, s:"industry", roles:[
+    ["kpa","Board Member","board","v"]]},
+  {id:"atef_ali_al", n:"Atef Ali Al Habishi", t:2, p:52, s:"industry", roles:[
+    ["kpa","Board Member (Assistant Undersecretary","board","ns"]]},
+  {id:"yousef_khaled_al_b", n:"Yousef Khaled Al Nuwaiyef", t:2, p:52, s:"industry", roles:[
+    ["kpa","Board Member (Director General","board","ns"]]},
+  {id:"aliyah_abdulsamad_al", n:"Aliyah Abdulsamad Al Ariyan", t:2, p:52, s:"industry", roles:[
+    ["kpa","Board Member","board","v"]]},
+  {id:"musaed_abdulsalam_al", n:"Musaed Abdulsalam Al Shatty", t:2, p:52, s:"industry", roles:[
+    ["kpa","Board Member","board","v"]]},
+  {id:"fatima_ahmad_al", n:"Fatima Ahmad Al Kandari", t:2, p:58, s:"industry", roles:[
+    ["kpa","Acting Assistant Director General - Administrative and Financial Affairs and Doha Port","executive","v"]]},
+  {id:"ahmad_almujalham", n:"Ahmad Almujalham", t:2, p:62, s:"utilities", roles:[
+    ["shamalazzour","Chairman of the Board","board","v"]]},
+  {id:"balwinder_panesar", n:"Balwinder Panesar", t:2, p:62, s:"utilities", roles:[
+    ["shamalazzour","Vice Chairman","board","v"]]},
+  {id:"paul_l_floyd", n:"Paul L. Floyd", t:2, p:60, s:"utilities", roles:[
+    ["shamalazzour","Chief Executive Officer and Director","executive","v"]]},
+  {id:"samson_fernando", n:"Samson Fernando", t:2, p:58, s:"utilities", roles:[
+    ["shamalazzour","Chief Financial Officer","executive","v"]]},
+  {id:"abdulaziz_al_hedaib", n:"Abdulaziz Al-Hedaib", t:2, p:52, s:"utilities", roles:[
+    ["shamalazzour","Board Member","board","v"]]},
+  {id:"john_h_clark", n:"John H. Clark", t:2, p:52, s:"utilities", roles:[
+    ["shamalazzour","Board Member","board","v"]]},
+  {id:"eyad_al_falah", n:"Eyad Al-Falah", t:2, p:52, s:"utilities", roles:[
+    ["shamalazzour","Board Member","board","v"]]},
+  {id:"fatima_a_al", n:"Fatima A. Al-Homaidan", t:2, p:52, s:"utilities", roles:[
+    ["shamalazzour","Board Member","board","v"]]},
+  {id:"taizo_matsuda", n:"Taizo Matsuda", t:2, p:52, s:"utilities", roles:[
+    ["shamalazzour","Board Member","board","v"]]},
+  {id:"julien_diaz", n:"Julien Diaz", t:2, p:52, s:"utilities", roles:[
+    ["shamalazzour","Non-Executive Director","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1352,6 +1424,7 @@ const OWNERSHIP = [
   ["zain","kia","anchor state stake","ns"],
   ["kipco","kwgov","Al Sabah family-linked","ns"],
   ["equate","kpc","PIC joint venture","ns"],
+  ["equate","lst_bpcc","9% shareholder","ns"],
   ["knet","cbk","bank consortium under CBK oversight","ns"],
   ["lst_abk","boursa","listed on Boursa Kuwait","ns"],
   ["lst_kib","boursa","listed on Boursa Kuwait","ns"],
@@ -1496,6 +1569,8 @@ const OWNERSHIP = [
   ["kipic","kpc","subsidiary","v"],
   ["kic","kia","majority shareholder (62%)","v"],
   ["amiri_hospital","moh_kuwait","under","v"],
+  ["ntec","kia","wholly owned subsidiary","ns"],
+  ["enertech","kia","indirect subsidiary (via NTEC)","ns"],
 ];
 
 const FAMILY = [
@@ -1535,4 +1610,5 @@ const AKA = {
   ali_alghanim_sons:["Ali Alghanim Group"],
   al_yaqout:["Al-Yaqout Holding Company"],
   amiri_hospital:["Al Amiri Hospital"],
+  enertech:["EnerTech"],
 };

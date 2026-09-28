@@ -442,6 +442,7 @@ const PEOPLE = [
   {id:"ali_saeed_sultan", n:"Ali Saeed Sultan Muhammad Bin Shaheen Al Suwaidi", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Department of Public Works)","board","v"]]},
   {id:"khalid_jasim_saif", n:"Khalid Jasim Saif Al Midfa", t:2, p:62, s:"gov", roles:[
+    ["sctda","Chairman","board","v"],
     ["shj_execco","Member (Chairman of Sharjah Commerce and Tourism Development Authority)","board","v"]]},
   {id:"yousif_khamis_mohamed", n:"Yousif Khamis Mohamed Alathmane", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Sharjah Roads and Transport Authority)","board","v"]]},
@@ -469,6 +470,7 @@ const PEOPLE = [
   {id:"ahmed_hamad_rashid", n:"Ahmed Hamad Rashid Matar Al Suwaidi", t:2, p:58, s:"gov", roles:[
     ["shj_execco","Assistant Secretary General","executive","v"]]},
   {id:"sheikh_saleh_bin", n:"Sheikh Saleh bin Mohammed bin Hamad Al Sharqi", t:2, p:62, s:"industry", roles:[
+    ["nbf","Chairman","board","v"],
     ["fujairah_national","Chairman and Chief Executive Officer","executive","v"],
     ["fujport","Chairman","board","v"]]},
   {id:"khalil_ebraheim", n:"Khalil Ebraheim", t:2, p:60, s:"industry", roles:[
@@ -686,6 +688,7 @@ const PEOPLE = [
   {id:"benoy_kurien", n:"Benoy Kurien", t:2, p:60, s:"realestate", roles:[
     ["al_hamra","Group Chief Executive Officer","executive","ns"]]},
   {id:"raman_garg", n:"Raman Garg", t:2, p:58, s:"realestate", roles:[
+    ["julphar","Board Member","board","v"],
     ["al_hamra","Group Chief Financial Officer","executive","ns"]]},
   {id:"abdulrahman_mohamed_nassir", n:"Abdulrahman Mohamed Nassir Salem Alowais", t:2, p:62, s:"finance", roles:[
     ["sharjah_islamic_bk","Chairman","board","v"]]},
@@ -811,6 +814,50 @@ const PEOPLE = [
     ["epaa","Chairperson of the Environment and Protected Areas Authority","executive","v"]]},
   {id:"fahad_ahmed_al", n:"Fahad Ahmed Al Khamiri", t:2, p:58, s:"gov", roles:[
     ["sedd","Director","executive","ns"]]},
+  {id:"raja_al_gurg", n:"Raja Al Gurg", t:2, p:62, s:"finance", roles:[
+    ["nbf","Deputy Chairperson","board","v"]]},
+  {id:"saif_sultan_al", n:"Saif Sultan Al Salami", t:2, p:52, s:"finance", roles:[
+    ["nbf","Director","board","v"]]},
+  {id:"hussain_mirza_al", n:"Hussain Mirza Al Sayegh", t:2, p:52, s:"finance", roles:[
+    ["nbf","Director","board","v"]]},
+  {id:"adnan_anwar", n:"Adnan Anwar", t:2, p:60, s:"finance", roles:[
+    ["nbf","Group Chief Executive Officer","executive","v"]]},
+  {id:"brian_martin_mulholland", n:"Brian Martin Mulholland", t:2, p:58, s:"finance", roles:[
+    ["nbf","Chief Financial Officer","executive","v"]]},
+  {id:"daniel_lima", n:"Daniel Lima", t:2, p:58, s:"finance", roles:[
+    ["nbf","Chief Risk Officer","executive","v"]]},
+  {id:"sharif_mohammed_rafei", n:"Sharif Mohammed Rafei", t:2, p:46, s:"finance", roles:[
+    ["nbf","Head of Retail Banking","executive","v"]]},
+  {id:"mohamed_alameeri", n:"Mohamed Alameeri", t:2, p:58, s:"finance", roles:[
+    ["nbf","Chief Human Resources Officer","executive","v"]]},
+  {id:"sheikh_saqer_humaid", n:"Sheikh Saqer Humaid Al Qasimi", t:2, p:62, s:"health", roles:[
+    ["julphar","Chairman","board","v"]]},
+  {id:"rabih_khouri", n:"Rabih Khouri", t:2, p:62, s:"health", roles:[
+    ["julphar","Vice Chairman","board","v"]]},
+  {id:"abdulaziz_al_zaabi", n:"Abdulaziz Al Zaabi", t:2, p:52, s:"health", roles:[
+    ["julphar","Board Member","board","v"]]},
+  {id:"olfa_gam", n:"Olfa Gam", t:2, p:52, s:"health", roles:[
+    ["julphar","Board Member","board","v"]]},
+  {id:"jean_maroun_diab", n:"Jean Maroun Diab", t:2, p:52, s:"health", roles:[
+    ["julphar","Board Member","board","v"]]},
+  {id:"medhat_mohamed_abouelasrar", n:"Medhat Mohamed Abouelasrar El Gamal", t:2, p:52, s:"health", roles:[
+    ["julphar","Board Member","board","v"]]},
+  {id:"abboud_bejjani", n:"Abboud Bejjani", t:2, p:52, s:"health", roles:[
+    ["julphar","Board Member","board","v"]]},
+  {id:"hamody_a_h", n:"Hamody A.H. Al Limy", t:2, p:52, s:"health", roles:[
+    ["julphar","Board Member","board","v"]]},
+  {id:"basel_ziyadeh", n:"Basel Ziyadeh", t:2, p:60, s:"health", roles:[
+    ["julphar","Chief Executive Officer","executive","v"]]},
+  {id:"khalid_malkawi", n:"Khalid Malkawi", t:2, p:58, s:"health", roles:[
+    ["julphar","Chief Financial Officer","executive","v"]]},
+  {id:"ali_qasim", n:"Ali Qasim", t:2, p:58, s:"energy", roles:[
+    ["fnrc","Director General","executive","v"]]},
+  {id:"majid_rashid_abdullah", n:"Majid Rashid Abdullah Al Owaid Al Dhahani", t:2, p:58, s:"energy", roles:[
+    ["fnrc","Deputy Director","executive","v"]]},
+  {id:"ishaque_noor", n:"Ishaque Noor", t:2, p:60, s:"conglomerate", roles:[
+    ["albatha","Group Managing Director","executive","ns"]]},
+  {id:"matthias_kasprowicz", n:"Matthias Kasprowicz", t:2, p:60, s:"conglomerate", roles:[
+    ["albatha","Chief Executive Officer - Abu Dhabi Representative Office","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

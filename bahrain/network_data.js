@@ -134,6 +134,12 @@ const INSTITUTIONS = [
   {id:"arabian_gulf_univ", n:"Arabian Gulf University", s:"education", t:2, p:56, short:"Arabian Gulf Univ"},
   {id:"salmaniya_hospital", n:"Salmaniya Medical Complex", s:"health", t:2, p:60, short:"Salmaniya Hospital"},
   {id:"bahrain_news_agency", n:"Bahrain News Agency", s:"comm", t:2, p:54, short:"Bahrain News Agency"},
+  {id:"gulf_aviation_acad", n:"Gulf Aviation Academy", s:"education", t:3, p:54, short:"Gulf Aviation Acad"},
+  {id:"bahrain_airport_svcs", n:"Bahrain Airport Services", s:"industry", t:2, p:58, short:"Bahrain Airport Svcs"},
+  {id:"gulf_handling", n:"Gulf Handling Company", s:"industry", t:3, p:54, short:"Gulf Handling Co"},
+  {id:"ssp_bahrain", n:"SSP Bahrain", s:"consumer_disc", t:3, p:52, short:"SSP Bahrain"},
+  {id:"hala_bahrain", n:"Hala Bahrain", s:"consumer_disc", t:3, p:52, short:"Hala Bahrain"},
+  {id:"bac_jet_fuel", n:"BAC Jet Fuel Company", s:"energy", t:3, p:54, short:"BAC Jet Fuel Co"},
 ];
 
 const PEOPLE = [
@@ -2874,6 +2880,12 @@ const OWNERSHIP = [
   ["beyon_cyber","beyon","subsidiary of","ns"],
   ["beyon_solutions","beyon","subsidiary","v"],
   ["beyon_connect","beyon","subsidiary","v"],
+  ["gulf_aviation_acad","gulfair","wholly owned subsidiary (via Gulf Air Group Holding)","v"],
+  ["bahrain_airport_svcs","gulfair","portfolio company - 44% stake via Gulf Air Group Holding","v"],
+  ["gulf_handling","gulfair","portfolio company (via Gulf Air Group Holding)","v"],
+  ["ssp_bahrain","gulfair","portfolio company (via Gulf Air Group Holding)","v"],
+  ["hala_bahrain","gulfair","portfolio company (via Gulf Air Group Holding)","v"],
+  ["bac_jet_fuel","gulfair","portfolio company (via Gulf Air Group Holding)","v"],
 ];
 
 const FAMILY = [
@@ -2911,4 +2923,7 @@ const AKA = {
   arabian_gulf_univ:["AGU"],
   salmaniya_hospital:["SMC"],
   bahrain_news_agency:["BNA"],
+  gulf_aviation_acad:["GAA"],
+  bahrain_airport_svcs:["BAS"],
+  gulf_handling:["GHC"],
 };

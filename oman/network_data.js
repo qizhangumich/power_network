@@ -196,6 +196,10 @@ const INSTITUTIONS = [
   {id:"mustafa_sultan_ent", n:"Mustafa Sultan Enterprises", s:"conglomerate", t:3, p:54, short:"Mustafa Sultan Ent"},
   {id:"al_yousef", n:"Al Yousef Group", s:"conglomerate", t:3, p:54, short:"Al Yousef Group"},
   {id:"oman_news_agency", n:"Oman News Agency", s:"comm", t:2, p:52, short:"Oman News Agency"},
+  {id:"ocec", n:"Oman Convention & Exhibition Centre", s:"consumer_disc", t:3, p:54, short:"OCEC"},
+  {id:"oman_sail", n:"Oman Sail", s:"consumer_disc", t:3, p:52, short:"Oman Sail"},
+  {id:"natl_omani_hosp", n:"National Omani Hospitality Company", s:"consumer_disc", t:3, p:52, short:"Natl Omani Hosp Co"},
+  {id:"salalah_free_zone", n:"Salalah Free Zone Company", s:"industry", t:2, p:58, short:"Salalah Free Zone"},
 ];
 
 const PEOPLE = [
@@ -240,6 +244,7 @@ const PEOPLE = [
   {id:"alhadhrami_pdo", n:"Dr. Aflah Al Hadhrami", t:1, p:74, s:"energy", roles:[
     ["pdo","Managing Director","executive","v"]]},
   {id:"almusalmi_cbo", n:"Ahmed bin Jaafar bin Salim Al Musalmi", t:1, p:76, s:"finance", roles:[
+    ["fsa_oman","Vice Chairman of the Board of Directors (Governor of Central Bank of Oman)","board","v"],
     ["cbo","Governor","executive","v"]]},
   {id:"alhashar_bankmuscat", n:"Sheikh Waleed Khamis Al Hashar", t:2, p:70, s:"finance", roles:[
     ["bankmuscat","Chief Executive Officer","executive","v"]]},
@@ -900,6 +905,7 @@ const PEOPLE = [
   {id:"ghalib_bin_said", n:"Ghalib bin Said Al Maamari", t:2, p:58, s:"gov", roles:[
     ["moci_om","Undersecretary for Commerce and Industry","executive","v"]]},
   {id:"ibtisam_bint_ahmed", n:"Ibtisam bint Ahmed Al Farouji", t:2, p:58, s:"gov", roles:[
+    ["fsa_oman","Board Member (Undersecretary of Investment Promotion)","board","v"],
     ["opaz","Board Member (Undersecretary of Investment Promotion)","board","ns"],
     ["moci_om","Undersecretary for Investment Promotion","executive","v"]]},
   {id:"ahmed_bin_hamed", n:"Ahmed bin Hamed Al Subhi", t:2, p:62, s:"utilities", roles:[
@@ -1017,6 +1023,28 @@ const PEOPLE = [
     ["lst_amat","Board Member","board","v"]]},
   {id:"usama_issa_al", n:"Usama Issa Al Barwani", t:2, p:60, s:"finance", roles:[
     ["lst_amat","Chief Executive Officer","executive","v"]]},
+  {id:"mahad_bin_said", n:"Mahad bin Said Baawain", t:2, p:58, s:"gov", roles:[
+    ["mol","Minister of Labour","executive","v"]]},
+  {id:"madiha_bint_ahmed", n:"Madiha bint Ahmed Al Shibaniya", t:2, p:58, s:"education", roles:[
+    ["moe","Minister of Education","executive","ns"]]},
+  {id:"khamis_bin_saif", n:"Khamis bin Saif Al Jabri", t:2, p:62, s:"gov", roles:[
+    ["fsa_oman","Chairman of the Board of Directors (Minister of Economy)","board","ns"]]},
+  {id:"abdullah_bin_salem_b", n:"Abdullah bin Salem Al Salmi", t:2, p:58, s:"gov", roles:[
+    ["fsa_oman","Executive President","executive","v"]]},
+  {id:"ahmed_bin_ali_b_b", n:"Ahmed bin Ali Al Maamari", t:2, p:58, s:"gov", roles:[
+    ["fsa_oman","Vice Executive President","executive","v"]]},
+  {id:"dawood_bin_salim", n:"Dawood bin Salim Al Hadabi", t:2, p:60, s:"gov", roles:[
+    ["madayn","Chief Executive Officer","executive","ns"]]},
+  {id:"omar_bin_hamdan", n:"Omar bin Hamdan Al Ismaili", t:2, p:58, s:"gov", roles:[
+    ["tra_oman","Executive President","executive","v"]]},
+  {id:"mansour_bin_talib", n:"Mansour bin Talib Al Hinai", t:2, p:62, s:"gov", roles:[
+    ["apsr_oman","Chairman","board","ns"]]},
+  {id:"abdulmalik_bin_abdullah", n:"Abdulmalik bin Abdullah Al Khalili", t:2, p:52, s:"gov", roles:[
+    ["state_council","President of the State Council","board","v"]]},
+  {id:"salim_bin_muslim", n:"Salim bin Muslim Qattan", t:2, p:52, s:"gov", roles:[
+    ["state_council","Vice President of the State Council","board","ns"]]},
+  {id:"hilal_bin_ali", n:"Hilal bin Ali Al Hinai", t:2, p:52, s:"gov", roles:[
+    ["state_council","Vice President of the State Council","board","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1163,6 +1191,10 @@ const OWNERSHIP = [
   ["oman_tech_fund","ithca","subsidiary","v"],
   ["caa_oman","mtcit_om","aviation regulator","ns"],
   ["royalhosp","moh_om","under","v"],
+  ["ocec","oia","subsidiary (via OMRAN Group)","ns"],
+  ["oman_sail","oia","subsidiary (via OMRAN Group)","ns"],
+  ["natl_omani_hosp","oia","subsidiary (via OMRAN Group)","ns"],
+  ["salalah_free_zone","oia","subsidiary (via Asyad Group)","ns"],
 ];
 
 const FAMILY = [
@@ -1208,4 +1240,5 @@ const AKA = {
   al_hassan_eng:["AHEC"],
   mustafa_sultan_ent:["Mustafa Sultan Group"],
   oman_news_agency:["ONA"],
+  salalah_free_zone:["SFZC"],
 };
