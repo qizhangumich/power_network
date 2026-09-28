@@ -1,0 +1,5 @@
+# Abu Dhabi Developmental to Buy Remaining AD Ports Interest Under Compulsory Squeeze-out
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbVZRUGVIMXBOWWtkZUpyOTRIUHhqXzR5a19UbkVJTVcwTWh3YUotUWcwN3lGRFU2OXdJTTNMRm1ZOEZtbmdNM3dvVWZFc3A0U280Yy1jalloVVlFQWhNeDc5NHFyWTE0SkQ1ZkxUemhWWHBRRWtCcUFITnRvbU4tWkp2Y2pONE1RX0NvT25NeERSckR5VmdwbWhvZWZRZTZINEVIUGViMGpmamRVOTNBck4wYlZWeUpKWml1UXVKWTFCLWcwMWMyeXRmYTZzVV9MWXBNOEhMUQ?oc=5
+
+Abu Dhabi Developmental to Buy Remaining AD Ports Interest Under Compulsory Squeeze-out    marketscreener.com

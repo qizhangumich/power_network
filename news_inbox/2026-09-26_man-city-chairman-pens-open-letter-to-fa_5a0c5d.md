@@ -1,0 +1,5 @@
+# Man City chairman pens open letter to fans after reports of 115 charges decision
+source: Liverpool.com
+url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPRF9seHRuQTN6TEIxbmhuVzdQdlBEakpLSzFWd21yNnhhbnhpTW11QUZZY2lkM2lCYUV3ZWdtemx6QmZuNU5fc0t0dVEwNjBRT2RoSS01QUNBdXkwdWJVb3AxU29ERVJXNlcwcHFyeDMtWEhQMG9OQ3pPcFpHNkZ4MEFLaHR6VzRqc05KYlpPUjVZWFXSAZgBQVVfeXFMUEVWQU5GYk1OUjJwM0RyNVYzYko0QVNuaWhMQWVieW85NXhmZWh3QXo1V3kwaU5uOGFvSHRoSHo3d0hhYUR0cE1GbkN1eHo0SFJGZ1hGR0hPT0d4VXRWWHRjQjQ4bHcxVWg1RkR4LTd0NW9YTGVPQ01oTnJ0dHZjTU1HSWM5RC1UU2pnSVlCYlBlY1VOc1lfeUE?oc=5
+
+Man City chairman pens open letter to fans after reports of 115 charges decision    Liverpool.com

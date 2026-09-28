@@ -1,0 +1,5 @@
+# A letter from the Chairman
+source: Manchester City FC
+url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNbkZSV3hGS0Z3Wm1GaVBudlJIbjNRVjFublJGNnV2UlNfTXlLbm9UeU9IS0loSURKanhLWHRiZ1lmV0ZHM3dkSGYwT0Flck03WTU5QTNvV3ZxV21Hb0QyRk9RME4zTTQtZW5RZ1Z4VHNuN2R2OXcwWkhhMmlETGF5LVhSWmdvMjBvejBYaFJvZzY1SmkyQVVNcQ?oc=5
+
+A letter from the Chairman    Manchester City FC    Man City chairman Khaldoon Al Mubarak responds to reports surrounding 115 charges in Premier League financial probe    Sky Sports    Manchester City versus the Premier League: The key people involved    The New York Times    Manchester City chair al-Mubarak insists ‘nothing has changed’ after guilty verdict    The Guardian    Manchester City charges: Khaldoon Al Mubarak confident club will prove innocence    bbc.com    Man City chairman on club's Premier League charges case: 'Nothing has changed'    ESPN    Man City chairman rallies fans after reports club found guilty of 114 charges    Reuters    The real world consequences of the Man City verdict stretch far beyond football    independent.co.uk    Manchester City confident they can prove ‘innocence’ over charges: Chairman    Al Jazeera

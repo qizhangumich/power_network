@@ -1,0 +1,5 @@
+# Dubai and Middle East flight disruption: Emirates, Etihad Airways and Flydubai face delays as regional tensions continue
+source: Condé Nast Traveller Middle East
+url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdWRWd0xUajZpcmtQNnJrb3BTTWZ3TF8wUFdLZm9QSG9QdnF6ejVaamRKbFBQcmpUczVJRm9DdUFzUkt2OVRkWGdmS0FQemgzZGxHTXdyaEJEUzlUWDNRaEE0ZE5hTzFBSTlNY2o0dlozb01ONzVlbUVIY0VtbEc0bWVCWVMyRm9fWHpFT2I3cm9acy1vZThCekktZld0R01jOElacnQ5UWpwS1VGYjFZQVdVMGM5YWFlSXJ3blJsRC1FOXlQZ0IzczJkRHV3eHVqeW5fYWlxSHlKaXpGNUVBdWZPUnBORVdZS0E?oc=5
+
+Dubai and Middle East flight disruption: Emirates, Etihad Airways and Flydubai face delays as regional tensions continue    Condé Nast Traveller Middle East

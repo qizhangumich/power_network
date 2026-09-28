@@ -1,0 +1,5 @@
+# Etihad Rail and AD Ports Group Launch Integrated Rail Service, Connecting Fujairah Terminals with Abu Dhabi’s Industrial Heartland
+source: Cyprus Shipping News
+url: https://news.google.com/rss/articles/CBMigAJBVV95cUxOUWFxUW9iWGZKSVowNzZ5cWl1Yjlvd3JFaWtPNkNpV3BPbllFR1YwZjI2djFueHBuUzVqVThRcHY2SHV4OWZNT1VtYzFyYjU4MHhrZ1paNWxFQVNpQ3NYVElGd1RIc3RSdGZjOGNIejFNMGhMbENTa2JBaEE2by1PQ3E1Q283aUR3UkFPZGdYdXM1eUVOeGVwLXdkTnp5RTR0OVM4T2NvQmYtVmZZeE9uTGVMY0dkYURkVExFM1hjb0JWN2hncDFuUGtsMGtHYkZpN2Z4THA4Z1Azc3FjVk5HU1hlMzBLN2lfOENiam9fejdzRTZaYzc1aE1BMUVnVEwy?oc=5
+
+Etihad Rail and AD Ports Group Launch Integrated Rail Service, Connecting Fujairah Terminals with Abu Dhabi’s Industrial Heartland    Cyprus Shipping News

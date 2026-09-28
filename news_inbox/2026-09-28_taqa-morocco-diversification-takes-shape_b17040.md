@@ -1,0 +1,5 @@
+# Taqa Morocco: diversification takes shape in its financial statements
+source: telquel.ma
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ3Y3aUtZMjN4dVBvRVVkZ05na3VXYk4zdV9WTXF0ZmpuMXdxc0tzNzd0M0w5SW9lYTVBT2kzVXo1MF9Jb2lKQWppVEIwdFNXVUVNQnpSQWxqTnFibUhXYnM3WjkwZ2VtdWl3T0tnLUdQNmRodlNaMDdjWUEyNTlwczI1clpqU0MyYlRoRzE1RzJnVlZKNldsazJlaVVVVTFSdFh0OEt0SjFSZw?oc=5
+
+Taqa Morocco: diversification takes shape in its financial statements    telquel.ma

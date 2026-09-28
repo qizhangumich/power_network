@@ -1,0 +1,5 @@
+# Zayed Sustainability Prize names 2027 finalists after record 10,233 entries
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU1J0eGVZRUo4ZWtyQUlXcWd0RkVMaS03X1o5cGZvcVJPcUVDUFJsZTl3RkJLNFhoU0swWnIwNTgyenNiRmwzdFlxN3lHRXBlOXNPMnV4ZGI0OFlHdFR3WWRXemxSNWNYRGZXaDJtOWJnd2hrNjNyOUt6ckt0N2dPaWE3N2g3WmlyUXcwSThIdVpGTmVtQVVKVHV1SFBMRnp1bVJMak5FV3VHdw?oc=5
+
+Zayed Sustainability Prize names 2027 finalists after record 10,233 entries    thenationalnews.com

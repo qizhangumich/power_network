@@ -1,0 +1,5 @@
+# ZAWYA: Etihad Airways to double daily Sydney flights from December
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcW9vUDNlMGNlTGtBZzlOZWg0U0tBZ2RmY25PWVNNUzBYcWZTVEtucWlnTDNSWTRDVjV2aGk0aktDSnJVMEUwTE42ZnJlWDNDSnU0VUhTcDVHSjQ5Z2p0YTBVUUZ5Q0FmNUZRSlVkWk5EM05TS0ZSdkFxYlJfSTBRM0xXY2tud1pIZmo3clRhb2xsaXc4RTlGQThrbmJUOVhHYXpfNG1aR1huQ1ZzUXNyUkY1RlBXZUx6S1FERDBvbkdGU3I3Y29rNmU2bm51YWJPVDFtSmVKcXk?oc=5
+
+ZAWYA: Etihad Airways to double daily Sydney flights from December    TradingView
