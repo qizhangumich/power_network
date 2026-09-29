@@ -1,0 +1,5 @@
+# PureHealth’s Sheikh Shakhbout Medical City receives Magnet Recognition from American Nurses Credentialing Center for nursing excellence
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMiigJBVV95cUxPTi10T1UyRUcxeWdnYl9IdTNYZnYwWlE1R214TXVkUUlyS2ZZczR1M1djT3N5NUNVTXdnclMyeGpFVW5RMDFWS3dBR0lMeXpPWlNUVzBIQXVHQzhsTlBlVDk3RWx4Zk5Zbjh6YWxVVVZJSThSMGM4dWJ6dHZUSzZtZ1BZbHhTN3hZVGVVTWJpc0hNcDB5QWJNY05VZXF4eTZiM2dYMFRXWERxX1ZyQ2FQTXBYOVFTV2llMWZ5Zlk2MEkxZjBmbVRuQmZRNURaVlhjckc2LWlhLVlUMkVfR1hpWVA3cUo3Tk4zUXZTQTEzMkozUmxfTDkwQ3dNcV8wU19TOVhzYkJRWVVmdw?oc=5
+
+PureHealth’s Sheikh Shakhbout Medical City receives Magnet Recognition from American Nurses Credentialing Center for nursing excellence    مكتب أبوظبي الإعلامي

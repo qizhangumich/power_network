@@ -1,0 +1,5 @@
+# Man City chairman rallies fans after reports club found guilty of 114 charges
+source: Reuters
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNkxrTVEtSGgtSHZ5NTduNGRXYXlMY2FhUWU1OGc2dlRvOWdDVlp6b1pPREhTSVZ1VDhtWUxRTHp1R3NyNVprUnFKblZxWF9WTXpOa0U4SUlpSGZvc3ZzU3NkTHJ3TVJHUmVwWE5INzcxWWVXU2FkS3c0YVZTTGt5aHM3WnNxT1Jidk1PcVRublpNSkNOZlVoQUJEOXc2T3pjWDFSS0JKVTIxUUU5ZUVKd3lOc1k3RVdPbktiV0NMTDQzdw?oc=5
+
+Man City chairman rallies fans after reports club found guilty of 114 charges    Reuters

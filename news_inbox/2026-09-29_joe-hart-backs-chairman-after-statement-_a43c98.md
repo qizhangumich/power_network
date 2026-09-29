@@ -1,0 +1,5 @@
+# Joe Hart backs chairman after statement on Man City financial breaches
+source: The Independent
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxONWt3NElUY0JhUWpOMFRHam9OcnhhVVhlVG5ISmF4NEpiRkhCazI3NHlHejRDWnRDUUNsYjV0Z1FjazdHXzRVRzBLQ050UUNDd1ZaalJWVHU5bllQdFBubVdaajNMbW50X0xHRG9DV1hFR1FzeERYek1vTDNTVUNiLTNxazExMlI1bmZGWlZzX2hKZXM1ZlljbFVfTElQMXJxeUxxWjlyOVhpMmhLcGo2QldlWQ?oc=5
+
+Joe Hart backs chairman after statement on Man City financial breaches    The Independent

@@ -1,0 +1,5 @@
+# Mubadala, Together AI partner to explore AI infrastructure opportunities in UAE
+source: GulfToday
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxOc2J3R21adDZUZFRUNEhqckkyV2c1OFBaMFg2QmRGdUNqOURIMHNGWHE2aURBWkljdS0zSDJKcUhuZkJzRzhTQ29mMUlEcl9kMGxYNGVRWjZCc1ZhNkc0Skd6MmdrT0lfQ1NEQnNDeHlzMHA4WlBXcjFYV3lMQlI2QmpHdm85ZzdFTW9NSlB5WmVOUDc0T3RZdFpOX1lVX0M1d0R1TzZ2VDlkUEV3dGpiT3JXcUZvOEMtSGQtS0ZCaEw?oc=5
+
+Mubadala, Together AI partner to explore AI infrastructure opportunities in UAE    GulfToday

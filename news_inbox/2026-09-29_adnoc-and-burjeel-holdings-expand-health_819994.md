@@ -1,0 +1,5 @@
+# ADNOC And Burjeel Holdings Expand Healthcare Services Across Al Dhafra Region
+source: Mena FN
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbm56aE5TbmRkR1YtZEJTc3RKZ0FEcklsM3gwNlZXU1IxRVFVMFBZYjRJblV2Z2FOZ1pOQUlpczJvOURPZDhEbUJCVE5NYk5hRHIwUTNZZ2V2cm1QdUZBejk3NEtNdjY2Y0MxLUQ3azVwT1VBa1M2ODJuVm1JRHhJdl9kaDZDTWo2WEc3UUxXLTRRNTZIQUJYZ29ia1FwSHZuSW41WnRWQ093dk0?oc=5
+
+ADNOC And Burjeel Holdings Expand Healthcare Services Across Al Dhafra Region    Mena FN

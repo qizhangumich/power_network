@@ -1,0 +1,5 @@
+# LKNCY Heads For A Red Month: Luckin Coffee Turns To Singapore, Middle East To Fuel Expansion Beyond China
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi9wFBVV95cUxPS0NjWmNzbFE5U3hBLWlWQWFWMEZ3ZVAydDBqbWRNNWlaWnJIbE5fWlJoaXQ0RGZqdFdCbWtCaEU5NFRBdUVGWTBvTWNyQU91cGk2VEpLcThBQ2JJbUMzSm13V2Njckx1Qy1Va1hFa1JCQlJKSVRVdm5vQjdYTVJLS0VJNTNGZ0s3TnJqN1ZfaFl1VS1VN1FQNmF1dHVqclFwMnliZlduV3JQZzcwcFpuVmJyekFDLWpNQWx5a25wOWJ0Y0ZPU1pOSWpLRFNNdnJ3N21XZk9WNHNDSlpEbG1pbFFyek9HOUtxODFmR09HTzBaM3Jrb1Bz?oc=5
+
+LKNCY Heads For A Red Month: Luckin Coffee Turns To Singapore, Middle East To Fuel Expansion Beyond China    TradingView

@@ -1,0 +1,5 @@
+# Adnoc, Kuwait Petroleum Boost Naphtha Exports to Asia Using Ship-to-Ship Transfers
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQaHRhZ1FLNF9OQ0JhQ1pzZmNJOXpGTUFmc2JIRFpRS3VTajdVRjJqOXVmU1pkbVE3NUVyTGxaX0FjSEtjYldGbTdfSVAzcm9yaEcyaDNJeVdlQnNlS3M5MTVKM3dzeG5JNEhuZ1lxZlpFQjF3SkJKRjZ6R2pKeDZoZFRoY2ZZR090NlBoSzVPS0dhVF8ya2RJNnNtQ3hsR2h6aW9pVUVnVDVaMldZRV84d0pGRWJRa1NqUlV1WC04SmRUcWp4dzQzNnRFMDV6MnM?oc=5
+
+Adnoc, Kuwait Petroleum Boost Naphtha Exports to Asia Using Ship-to-Ship Transfers    marketscreener.com

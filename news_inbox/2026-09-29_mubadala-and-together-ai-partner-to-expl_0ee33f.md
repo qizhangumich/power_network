@@ -1,0 +1,5 @@
+# Mubadala And Together AI Partner To Explore AI Infrastructure Opportunities In UAE
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWlppSVRLcFlycG13czhucW1wY25VOG1oUE10ekJNWUVQZ3AyaXlqWFhBV3pCUGcxQ29TU28xLVhKS3VIN0NWc1hnSDljQUxMemNrVGc0SVRYSTIzRDJnQ0F4UUd6X1RTSzk5MzUxRnVqT2JaYU1XaW9RcXJyeFQ5dklKeUF1anpsUy1DX2wyVWNtaU10c0NJTGpVaHVtVnMyeE45OGx1RTNvUUQ4OXNSY056QVFrQlRqTWE0aWEycXZtZnB1WU8wVGxfdE8tTEdOLVdnR0ZnSzhvUlR1akxldWdBQ3hUYWs?oc=5
+
+Mubadala And Together AI Partner To Explore AI Infrastructure Opportunities In UAE    TradingView

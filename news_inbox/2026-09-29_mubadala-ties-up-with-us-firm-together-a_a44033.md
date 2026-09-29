@@ -1,0 +1,5 @@
+# Mubadala ties up with US firm Together AI for UAE investment opportunities
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxPX0RET2dwSHgtcDhJYWxwUGNYRl9XMkhqM1pxME1VdEc5UWtSX25UYUduSGpIRU9qamVpbnFaaGphS3pycU9zZnpITFl5RTF1WHBSTDhKSElPLUhpclV0STZTOUFxdGJUMjB5eFVKenBiUFVzWWxIa0xDMGVzamU1QlN0T2VUT1lpVmkxV1hwWXdkQm5WMjdCalpoTXVkYllzT0ZnaXU2THVHeVJELXNZcFRydzZ0OXZ0YjlzYjhfQWtWWnFYVFEzc1k4N1BFb3lrY3c?oc=5
+
+Mubadala ties up with US firm Together AI for UAE investment opportunities    thenationalnews.com

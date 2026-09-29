@@ -1,0 +1,5 @@
+# Aldar generates more than Dh5bn in sales from new housing developments
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxPalltUWV0eFBJUHJJeEZnZWF3WG5aNlhqSWJnOHlFOTY5aHZ4YTJIMWlscEhVQVEwWDFxMC1CQnNEM0I1enkyY1dRLWlXQ3E2Z0JsSkl0SW1JLTdWUlc0TnhOU1ZVbnAzSVJzRWxXZUR5YzhlOGNmNk80bzBMQ1JkRzM1ZWxfS2tDOHkyUWZ1R05JYWpGSG13X0J6VzBwZEFueE00c2o2dnZBdm1weEd0bTFBNlg2SXpNQWYyVkVhTG85djUyRHNfc2xrZHE?oc=5
+
+Aldar generates more than Dh5bn in sales from new housing developments    thenationalnews.com
