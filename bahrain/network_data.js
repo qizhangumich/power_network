@@ -140,6 +140,13 @@ const INSTITUTIONS = [
   {id:"ssp_bahrain", n:"SSP Bahrain", s:"consumer_disc", t:3, p:52, short:"SSP Bahrain"},
   {id:"hala_bahrain", n:"Hala Bahrain", s:"consumer_disc", t:3, p:52, short:"Hala Bahrain"},
   {id:"bac_jet_fuel", n:"BAC Jet Fuel Company", s:"energy", t:3, p:54, short:"BAC Jet Fuel Co"},
+  {id:"rera_bahrain", n:"Real Estate Regulatory Authority (Bahrain)", s:"realestate", t:2, p:60, short:"RERA Bahrain"},
+  {id:"tra_bahrain", n:"Telecommunications Regulatory Authority of Bahrain", s:"tech", t:2, p:62, short:"TRA Bahrain"},
+  {id:"nhra_bahrain", n:"National Health Regulatory Authority (Bahrain)", s:"health", t:2, p:60, short:"NHRA Bahrain"},
+  {id:"lmra_bahrain", n:"Labour Market Regulatory Authority (Bahrain)", s:"gov", t:2, p:62, short:"LMRA Bahrain"},
+  {id:"bahrain_moh", n:"Ministry of Health (Bahrain)", s:"health", t:1, p:70, short:"Bahrain MoH"},
+  {id:"bahrain_moe", n:"Ministry of Education (Bahrain)", s:"education", t:1, p:68, short:"Bahrain MoE"},
+  {id:"bahrain_scw", n:"Supreme Council for Women (Bahrain)", s:"gov", t:2, p:58, short:"Bahrain SCW"},
 ];
 
 const PEOPLE = [
@@ -2456,8 +2463,8 @@ const PEOPLE = [
     ["tamkeen","Board Member (Financial Sector Representative)","board","v"]]},
   {id:"basim_alsaei", n:"Basim Alsaei", t:2, p:52, s:"materials", roles:[
     ["garmco","Board Member","board","v"]]},
-  {id:"jean_baptiste_lucas", n:"Jean-Baptiste Lucas", t:2, p:60, s:"materials", roles:[
-    ["garmco","Chief Executive Officer","executive","ns"]]},
+  {id:"jean_baptiste_lucas", n:"Jean-Baptiste Lucas", t:2, p:52, s:"materials", roles:[
+    ["garmco","Chief Executive Officer (2015-2017)","executive","ns","former:until 2017"]]},
   {id:"yousif_abdullah_al", n:"Yousif Abdullah Al Yousif", t:2, p:62, s:"finance", roles:[
     ["bhb","Chairman of the Board","board","v"]]},
   {id:"yousif_abdullah_ali", n:"Yousif Abdullah Ali Reza", t:2, p:62, s:"finance", roles:[
@@ -2576,7 +2583,7 @@ const PEOPLE = [
     ["lst_ghg","Board Member","board","v"],
     ["edamah","Board Member","board","v"]]},
   {id:"manal_albayat", n:"Manal AlBayat", t:2, p:58, s:"realestate", roles:[
-    ["edamah","Chief Operating Officer","executive","ns"]]},
+    ["edamah","Chief Operating Officer","executive","v"]]},
   {id:"azzan_al_ghamdi", n:"Azzan Al Ghamdi", t:2, p:46, s:"energy", roles:[
     ["bapco_gas","General Manager - Bapco Gas","executive","ns"]]},
   {id:"adel_bin_khalifa", n:"Adel bin Khalifa Al Fadhel", t:2, p:58, s:"gov", roles:[
@@ -2793,6 +2800,20 @@ const PEOPLE = [
     ["lst_khaleeji","Board Member","board","v"]]},
   {id:"riyadh_eid_al_b", n:"Riyadh Eid Al Ya'qoub", t:2, p:52, s:"finance", roles:[
     ["lst_khaleeji","Independent Board Member","board","v"]]},
+  {id:"noof_abdulrahman_jamsheer", n:"Noof Abdulrahman Jamsheer", t:2, p:60, s:"gov", roles:[
+    ["lmra_bahrain","Chief Executive Officer","executive","v"]]},
+  {id:"jaleela_bint_sayed", n:"Jaleela bint Sayed Jawad Hassan", t:2, p:52, s:"health", roles:[
+    ["bahrain_moh","Minister of Health","board","v"]]},
+  {id:"mohammed_bin_mubarak", n:"Mohammed bin Mubarak Juma", t:2, p:52, s:"education", roles:[
+    ["bahrain_moe","Minister of Education","board","v"]]},
+  {id:"lulwa_saleh_al", n:"Lulwa Saleh Al-Awadhi", t:2, p:58, s:"gov", roles:[
+    ["bahrain_scw","Secretary General","executive","v"]]},
+  {id:"sheikh_hisham_bin_b", n:"Sheikh Hisham bin Abdulaziz Al Khalifa", t:2, p:62, s:"health", roles:[
+    ["salmaniya_hospital","Chairman of the Board of Trustees of Governmental Hospitals","board","v"]]},
+  {id:"abdulaziz_yousef_hamzah", n:"Abdulaziz Yousef Hamzah", t:2, p:52, s:"health", roles:[
+    ["salmaniya_hospital","Vice President of the Board of Trustees of Governmental Hospitals","board","v"]]},
+  {id:"mariam_athbi_al", n:"Mariam Athbi Al-Jalahma", t:2, p:60, s:"health", roles:[
+    ["salmaniya_hospital","Chief Executive Officer of Government Hospitals","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2926,4 +2947,11 @@ const AKA = {
   gulf_aviation_acad:["GAA"],
   bahrain_airport_svcs:["BAS"],
   gulf_handling:["GHC"],
+  rera_bahrain:["RERA","Bahrain"],
+  tra_bahrain:["TRA"],
+  nhra_bahrain:["NHRA","Bahrain"],
+  lmra_bahrain:["LMRA","Bahrain"],
+  bahrain_moh:["Bahrain"],
+  bahrain_moe:["MOE","Bahrain"],
+  bahrain_scw:["SCW","Bahrain"],
 };

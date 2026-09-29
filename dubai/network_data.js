@@ -1391,6 +1391,7 @@ const PEOPLE = [
   {id:"ahmed_mohammed_aqil", n:"Ahmed Mohammed Aqil Alqassim", t:2, p:62, s:"realestate", roles:[
     ["tecom","Deputy Chairman","board","ns"]]},
   {id:"arif_abdulrahman_ahli", n:"Arif Abdulrahman Ahli", t:2, p:52, s:"realestate", roles:[
+    ["dof_dxb","Executive Director - Budget and Planning Division","executive","ns"],
     ["tecom","Director","board","ns"]]},
   {id:"michael_wunderbaldinger", n:"Michael Wunderbaldinger", t:2, p:58, s:"realestate", roles:[
     ["tecom","Group Chief Financial Officer","executive","ns"]]},
@@ -1574,6 +1575,14 @@ const PEOPLE = [
     ["khda","CEO of the Human Development and Advancement Sector","executive","v"]]},
   {id:"saeed_mubarak_khalfan", n:"Saeed Mubarak Khalfan Kharbash Al Marri", t:2, p:60, s:"education", roles:[
     ["khda","CEO of the Policy, Research and Programmes Sector","executive","v"]]},
+  {id:"rashed_ali_bin", n:"Rashed Ali bin Obood Al Falasi", t:2, p:60, s:"gov", roles:[
+    ["dof_dxb","Chief Executive Officer - Public Debt Management Office","executive","v"]]},
+  {id:"suad_al_sayed", n:"Suad Al Sayed Sharaf", t:2, p:58, s:"gov", roles:[
+    ["dof_dxb","Director - Financial and Administrative Affairs Division","executive","v"]]},
+  {id:"amna_mohammed_lootah", n:"Amna Mohammed Lootah", t:2, p:58, s:"gov", roles:[
+    ["dof_dxb","Director - Smart Financial Services Division","executive","v"]]},
+  {id:"deepa_raja_carbon", n:"Deepa Raja Carbon", t:2, p:62, s:"finance", roles:[
+    ["vara","Managing Director and Vice Chair of the Executive Board","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

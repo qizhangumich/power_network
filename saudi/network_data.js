@@ -528,6 +528,7 @@ const PEOPLE = [
     ["mot_sa","Minister of Tourism","political","v"],
     ["redsea","Board Member","board","v"]]},
   {id:"alkhorayef", n:"Bandar Alkhorayef", t:1, p:72, s:"industry", roles:[
+    ["sidf","Chairman of the Board of Directors","board","v"],
     ["sami","Board Member","board","v"],
     ["alat","Board Member; Minister of State and Member of the Council of Ministers","board","v"],
     ["com","Minister of State, Member of the Council of Ministers","political","v"],
@@ -764,6 +765,7 @@ const PEOPLE = [
   {id:"raad_esmat_al", n:"Raad Esmat Al-Saady", t:2, p:60, s:"utilities", roles:[
     ["acwa","Managing Director","board","v"]]},
   {id:"prince_sultan_bin", n:"Prince Sultan bin Khalid bin Faisal Al Saud", t:2, p:52, s:"utilities", roles:[
+    ["sidf","Chief Executive Officer","executive","v"],
     ["acwa","Board Member","board","v"]]},
   {id:"ibrahim_al_rajhi", n:"Ibrahim Al Rajhi", t:2, p:52, s:"utilities", roles:[
     ["acwa","Board Member","board","v"]]},
@@ -2087,6 +2089,16 @@ const PEOPLE = [
     ["rcu","Governor and Member of the Board of Directors","board","v"]]},
   {id:"khaled_azzam", n:"Khaled Azzam", t:2, p:52, s:"gov", roles:[
     ["rcu","Member of the Board of Directors (Executive Vice President, The King's Foundation)","board","v"]]},
+  {id:"abdulrahman_ibrahim_al", n:"Abdulrahman Ibrahim Al-Ruwaita", t:2, p:62, s:"comm", roles:[
+    ["srmg","Chairman of the Board of Directors","board","v"]]},
+  {id:"majed_abdulrahman_al", n:"Majed Abdulrahman Al-Issa", t:2, p:62, s:"comm", roles:[
+    ["srmg","Deputy Chairman of the Board of Directors","board","v"]]},
+  {id:"adel_marzouk_al", n:"Adel Marzouk Al-Nasser", t:2, p:52, s:"comm", roles:[
+    ["srmg","Board Member","board","v"]]},
+  {id:"turki_omar_bugshan", n:"Turki Omar Bugshan", t:2, p:52, s:"comm", roles:[
+    ["srmg","Board Member","board","v"]]},
+  {id:"fahad_bin_abdullah_b", n:"Fahad bin Abdullah Al Mubarak", t:2, p:52, s:"finance", roles:[
+    ["sidf","Member of the Board of Directors","board","v"]]},
 ];
 
 const OWNERSHIP = [

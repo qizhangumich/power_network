@@ -121,6 +121,16 @@ const INSTITUTIONS = [
   {id:"sctda", n:"Sharjah Commerce and Tourism Development Authority", s:"gov", t:2, p:60, short:"SCTDA"},
   {id:"fujairah_tourism", n:"Fujairah Tourism & Antiquities Authority", s:"gov", t:3, p:54, short:"Fujairah Tourism"},
   {id:"ajman_tourism", n:"Ajman Department of Tourism, Culture and Media", s:"gov", t:3, p:52, short:"Ajman Tourism"},
+  {id:"sharjah_health_auth", n:"Sharjah Health Authority", s:"health", t:2, p:58, short:"Sharjah Health Auth"},
+  {id:"sharjah_social_svcs", n:"Government of Sharjah Social Services Department", s:"gov", t:3, p:54, short:"Sharjah Social Svcs"},
+  {id:"rak_finance_dept", n:"Ras Al Khaimah Department of Finance", s:"finance", t:2, p:58, short:"RAK Finance Dept"},
+  {id:"sharjah_department_of", n:"Sharjah Department of Civil Aviation", s:"industry", t:3, p:54, short:"Sharjah Civil Aviation"},
+  {id:"sharjah_awqaf", n:"Sharjah Department of Endowments (Awqaf)", s:"gov", t:3, p:54, short:"Sharjah Awqaf"},
+  {id:"rak_awqaf_authority", n:"General Authority of Islamic Affairs and Endowments (Ras Al Khaimah)", s:"gov", t:3, p:52, short:"RAK Awqaf Authority"},
+  {id:"fujairah_culture_media", n:"Fujairah Culture & Media Authority", s:"comm", t:3, p:54, short:"Fujairah Culture&Media"},
+  {id:"fujairah_environment", n:"Fujairah Environment Authority", s:"gov", t:3, p:54, short:"Fujairah Environment"},
+  {id:"ajman_dof", n:"Ajman Department of Finance", s:"finance", t:2, p:56, short:"Ajman Finance Dept"},
+  {id:"fujairah_finance_dept", n:"Fujairah Finance Department", s:"finance", t:2, p:54, short:"Fujairah Finance"},
 ];
 
 const PEOPLE = [
@@ -449,6 +459,7 @@ const PEOPLE = [
   {id:"mansour_mohammed_bin", n:"Mansour Mohammed Bin Nassar", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Sharjah Government Legal Department)","board","v"]]},
   {id:"abdelaziz_saeed_obaid", n:"Abdelaziz Saeed Obaid Bin Butti Almheiri", t:2, p:62, s:"gov", roles:[
+    ["sharjah_health_auth","Chairman","board","v"],
     ["shj_execco","Member (Chairman of Sharjah Health Authority)","board","v"]]},
   {id:"khaled_butti_bin", n:"Khaled Butti bin Butti Al Muhairi", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Department of Housing)","board","v"]]},
@@ -614,6 +625,7 @@ const PEOPLE = [
   {id:"sheikh_ahmed_bin_b", n:"Sheikh Ahmed bin Saud bin Rashid Al Mualla", t:2, p:52, s:"gov", roles:[
     ["uaqgov","Deputy Ruler of Umm Al Quwain","board","ns"]]},
   {id:"sheikh_rashid_bin_b", n:"Sheikh Rashid bin Hamad Al Sharqi", t:2, p:62, s:"gov", roles:[
+    ["fujairah_culture_media","Chairman","executive","ns"],
     ["fujgov","Chairman of Fujairah Culture and Media Authority","executive","ns"]]},
   {id:"thumbay_moideen", n:"Thumbay Moideen", t:2, p:58, s:"health", roles:[
     ["thumbay","Founder President","executive","v"]]},
@@ -729,6 +741,7 @@ const PEOPLE = [
   {id:"raza_siddiqui", n:"Raza Siddiqui", t:2, p:58, s:"health", roles:[
     ["rak_hospital","Executive Director","executive","v"]]},
   {id:"mohammed_saif_al", n:"Mohammed Saif Al Afkham", t:2, p:58, s:"gov", roles:[
+    ["fnrc","Chairman of the Board of Directors","board","v"],
     ["fujairah_municipality","Director General","executive","ns"]]},
   {id:"christopher_wood", n:"Christopher Wood", t:2, p:60, s:"gov", roles:[
     ["rakpa","Chief Executive","executive","v"],
@@ -858,6 +871,12 @@ const PEOPLE = [
     ["albatha","Group Managing Director","executive","ns"]]},
   {id:"matthias_kasprowicz", n:"Matthias Kasprowicz", t:2, p:60, s:"conglomerate", roles:[
     ["albatha","Chief Executive Officer - Abu Dhabi Representative Office","executive","ns"]]},
+  {id:"abdulaziz_omar_al", n:"Abdulaziz Omar Al Midfa", t:2, p:58, s:"gov", roles:[
+    ["sedd","Director of Government Communication Department","executive","v"]]},
+  {id:"talib_al_marri", n:"Talib Al Marri", t:2, p:58, s:"gov", roles:[
+    ["sharjah_awqaf","Director General","executive","ns"]]},
+  {id:"salem_sultan_hamad", n:"Salem Sultan Hamad Al Owais Al Shamsi", t:2, p:58, s:"finance", roles:[
+    ["rak_finance_dept","Director General","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -913,6 +932,16 @@ const OWNERSHIP = [
   ["sharjah_courts","shjgov","judicial authority","v"],
   ["rak_courts","rakgov","judicial authority","ns"],
   ["sharjah_sust_city","shurooq","joint venture with Diamond Developers","v"],
+  ["sharjah_health_auth","shjgov","subsidiary of","ns"],
+  ["sharjah_social_svcs","shjgov","subsidiary of","ns"],
+  ["rak_finance_dept","rakgov","subsidiary of","v"],
+  ["sharjah_department_of","shjgov","regulated by","ns"],
+  ["sharjah_awqaf","shjgov","subsidiary of","ns"],
+  ["rak_awqaf_authority","rakgov","subsidiary of","v"],
+  ["fujairah_culture_media","fujgov","subsidiary of","ns"],
+  ["fujairah_environment","fujgov","subsidiary of","ns"],
+  ["ajman_dof","ajmgov","subsidiary of","v"],
+  ["fujairah_finance_dept","fujgov","subsidiary of","ns"],
 ];
 
 const FAMILY = [
@@ -992,4 +1021,11 @@ const AKA = {
   sctda:["Sharjah Tourism","Sharjah Tourism and Commerce Development Authority"],
   fujairah_tourism:["FTAA"],
   ajman_tourism:["Ajman Department of Tourism Development","ADTD"],
+  sharjah_health_auth:["SHA"],
+  sharjah_social_svcs:["SSSD"],
+  sharjah_department_of:["DCA"],
+  sharjah_awqaf:["Awqaf Dept Sharjah","Awqaf"],
+  rak_awqaf_authority:["GAIAE RAK","Ras Al Khaimah"],
+  fujairah_culture_media:["FCMA"],
+  fujairah_environment:["FEA"],
 };

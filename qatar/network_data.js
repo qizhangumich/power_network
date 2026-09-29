@@ -202,6 +202,10 @@ const INSTITUTIONS = [
   {id:"ali_bin_ali", n:"Ali Bin Ali Holding", s:"consumer_disc", t:3, p:58, short:"Ali Bin Ali"},
   {id:"al_attiya_motors", n:"Al Attiya Motors & Trading Company", s:"consumer_disc", t:3, p:52, short:"Al Attiya Motors"},
   {id:"qatar_media", n:"Qatar Media Corporation", s:"comm", t:1, p:62, short:"Qatar Media Corp"},
+  {id:"traffic_dept_qatar", n:"General Directorate of Traffic", s:"gov", t:3, p:58, short:"Traffic Dept (Qatar)"},
+  {id:"qcaa", n:"Qatar Civil Aviation Authority", s:"industry", t:2, p:64, short:"QCAA"},
+  {id:"phcc_qatar", n:"Primary Health Care Corporation (Qatar)", s:"health", t:2, p:62, short:"PHCC Qatar"},
+  {id:"qatar_awqaf_ministry", n:"Ministry of Awqaf and Islamic Affairs (Qatar)", s:"gov", t:1, p:66, short:"Qatar Awqaf Ministry"},
 ];
 
 const PEOPLE = [
@@ -216,6 +220,7 @@ const PEOPLE = [
     ["qf","Chairperson","board","v"]],
     note:"Co-founder and chair of Qatar Foundation; the education, science and social-development pillar of the state."},
   {id:"abdullah_dep", n:"H.H. Sheikh Abdullah bin Hamad Al Thani", t:0, p:90, s:"gov", roles:[
+    ["qu","Chairman, Board of Regents","board","v"],
     ["qgov","Deputy Emir","political","v"]]},
   {id:"mbar", n:"H.E. Sheikh Mohammed bin Abdulrahman Al Thani", t:0, p:96, s:"gov", roles:[
     ["doha_investment","Chairman, Doha Investment (also Prime Minister and Minister of Foreign Affairs of Qatar)","board","v"],
@@ -1363,6 +1368,7 @@ const PEOPLE = [
   {id:"tamy_bin_ahmed", n:"Tamy bin Ahmed bin Ali Al Binali", t:2, p:52, s:"finance", roles:[
     ["qcb","Board Member","board","ns"]]},
   {id:"khalid_nasser_al", n:"Khalid Nasser Al Khater", t:2, p:52, s:"finance", roles:[
+    ["qu","Vice President for Administration and Financial Affairs","executive","v"],
     ["qcb","Board Member","board","ns"]]},
   {id:"saad_bin_ebrahim", n:"Saad bin Ebrahim Al-Muhannadi", t:2, p:52, s:"education", roles:[
     ["qf","Lifetime Member","board","v"]]},
@@ -1384,6 +1390,7 @@ const PEOPLE = [
   {id:"mohammed_hassan_al", n:"Mohammed Hassan Al Maliki", t:2, p:52, s:"finance", roles:[
     ["qfc","Board Member","board","v"]]},
   {id:"ahmad_abdulla_al", n:"Ahmad Abdulla Al Muslemani", t:2, p:52, s:"finance", roles:[
+    ["cra_qatar","President","executive","v"],
     ["qfc","Board Member","board","v"]]},
   {id:"robert_wigley", n:"Robert Wigley", t:2, p:52, s:"finance", roles:[
     ["qfc","Board Member","board","v"]]},
@@ -1573,6 +1580,26 @@ const PEOPLE = [
     ["qoc","Director of Legal Affairs Department","executive","v"]]},
   {id:"hamad_lahdan_al", n:"Hamad Lahdan Al-Muhannadi", t:2, p:58, s:"gov", roles:[
     ["qoc","Director of Support Services Sector","executive","v"]]},
+  {id:"mariam_ali_abdul", n:"Mariam Ali Abdul Malik", t:2, p:60, s:"health", roles:[
+    ["phcc_qatar","Managing Director","executive","ns"]]},
+  {id:"ghanem_bin_shaheen", n:"Ghanem bin Shaheen bin Ghanem Al Ghanim", t:2, p:52, s:"gov", roles:[
+    ["qatar_awqaf_ministry","Minister of Endowments (Awqaf) and Islamic Affairs","board","v"]]},
+  {id:"ahmed_al_naser", n:"Ahmed Al Naser", t:2, p:58, s:"utilities", roles:[
+    ["kahramaa","Director, Technical Affairs Sector","executive","ns"]]},
+  {id:"ibrahim_abdulla_al_b", n:"Ibrahim Abdulla Al-Ansari", t:2, p:52, s:"education", roles:[
+    ["qu","Secretary-General, Board of Regents","board","v"]]},
+  {id:"ibrahim_mohamed_alkaabi", n:"Ibrahim Mohamed Alkaabi", t:2, p:58, s:"education", roles:[
+    ["qu","Vice President for Academic Affairs","executive","v"]]},
+  {id:"mariam_al_ali", n:"Mariam Al-Ali Al-Maadeed", t:2, p:58, s:"education", roles:[
+    ["qu","Vice President for Research and Graduate Studies","executive","v"]]},
+  {id:"asmaa_ali_al", n:"Asmaa Ali Al-Thani", t:2, p:58, s:"education", roles:[
+    ["qu","Vice President for Medical and Health Sciences","executive","v"]]},
+  {id:"eiman_mohd_mustafawi", n:"Eiman Mohd. Mustafawi", t:2, p:58, s:"education", roles:[
+    ["qu","Vice President for Student Affairs","executive","v"]]},
+  {id:"khalid_mohamed_al_b", n:"Khalid Mohamed Al-Khanji", t:2, p:58, s:"education", roles:[
+    ["qu","Chief Strategy and Development Officer","executive","v"]]},
+  {id:"nasser_mehsin_al", n:"Nasser Mehsin Al-Adba", t:2, p:58, s:"education", roles:[
+    ["qu","General Counsel","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1688,6 +1715,7 @@ const OWNERSHIP = [
   ["qvc","lst_mphc","joint venture","v"],
   ["qatofin","qapco","joint venture","v"],
   ["doha_investment","qia","domestic investment subsidiary of QIA","v"],
+  ["traffic_dept_qatar","moi_q","subsidiary of","v"],
 ];
 
 const FAMILY = [
@@ -1763,4 +1791,7 @@ const AKA = {
   ali_bin_ali:["ABA Holding","Ali Bin Ali Group"],
   al_attiya_motors:["AMTC"],
   qatar_media:["QMC","Qatar General Broadcasting and Television Corporation"],
+  traffic_dept_qatar:["GDT"],
+  phcc_qatar:["PHCC","Qatar"],
+  qatar_awqaf_ministry:["AWQAFM","Qatar"],
 };

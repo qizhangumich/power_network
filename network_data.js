@@ -572,6 +572,7 @@ const PEOPLE = [
     ]},
   {id:"hammadi_enec", n:"Mohamed Ibrahim Al Hammadi", t:2, p:79, s:"utilities", roles:[
     ["enec","Managing Director & CEO","executive","v"],
+    ["nmdc","Vice Chairman, Head of Remuneration Committee","board","v"],
     ]},
   {id:"musabbeh", n:"Musabbeh Al Kaabi", t:2, p:78, s:"energy", roles:[
     ["adnoc","Executive Director, Low Carbon Solutions & International Growth","executive","v"],
@@ -1153,6 +1154,7 @@ const PEOPLE = [
     ]},
   {id:"yaser_al_mazrouei", n:"Yaser Al Mazrouei", t:2, p:58, s:"energy", roles:[
     ["adnoc","Director, Digital Infrastructure, Commercial & Capital Projects","executive","v"],
+    ["nmdc","Board Member","board","v"],
     ]},
   {id:"omar_al_suwaidi", n:"Omar Al Suwaidi", t:2, p:58, s:"energy", roles:[
     ["adnoc","Director, The Executive Office","executive","v"],
@@ -2665,6 +2667,48 @@ const PEOPLE = [
     ]},
   {id:"manal_al_ali", n:"Manal Al Ali", t:2, p:58, s:"consumer_disc", roles:[
     ["adnec","Executive Director, Finance & Procurement","executive","ns"],
+    ]},
+  {id:"fabio_cattaneo", n:"Fabio Cattaneo", t:2, p:58, s:"tech", roles:[
+    ["khazna","Group Chief Financial Officer","executive","v"],
+    ]},
+  {id:"greg_jasmin", n:"Greg Jasmin", t:2, p:58, s:"tech", roles:[
+    ["khazna","Chief Commercial Officer","executive","v"],
+    ]},
+  {id:"ahmed_alrayyes", n:"Ahmed Alrayyes", t:2, p:58, s:"tech", roles:[
+    ["khazna","Chief Corporate Services Officer","executive","v"],
+    ]},
+  {id:"bart_holsters", n:"Bart Holsters", t:2, p:60, s:"tech", roles:[
+    ["khazna","Managing Director, Khazna NexOps","executive","v"],
+    ]},
+  {id:"iyad_khalas", n:"Iyad Khalas", t:2, p:46, s:"tech", roles:[
+    ["khazna","Head of Operations","executive","v"],
+    ]},
+  {id:"ziad_samaha", n:"Ziad Samaha", t:2, p:46, s:"tech", roles:[
+    ["khazna","VP Business Development","executive","v"],
+    ]},
+  {id:"morten_larsen", n:"Morten Larsen", t:2, p:58, s:"tech", roles:[
+    ["khazna","Legal Manager","executive","v"],
+    ]},
+  {id:"mohammed_bin_hassan", n:"Mohammed Bin Hassan", t:2, p:58, s:"tech", roles:[
+    ["khazna","Country Head, Kingdom of Saudi Arabia","executive","v"],
+    ]},
+  {id:"mohamed_thani_murshid", n:"Mohamed Thani Murshid Al Rumaithi", t:2, p:62, s:"industry", roles:[
+    ["nmdc","Chairman","board","v"],
+    ]},
+  {id:"hamad_salem_mohammed", n:"Hamad Salem Mohammed Saeed Al Ameri", t:2, p:52, s:"industry", roles:[
+    ["nmdc","Board Member","board","v"],
+    ]},
+  {id:"abdul_ghaffar_alkhoori", n:"Abdul Ghaffar Alkhoori", t:2, p:52, s:"industry", roles:[
+    ["nmdc","Board Member","board","v"],
+    ]},
+  {id:"abdullah_bin_dasmal", n:"Abdullah Bin Dasmal Al Suwaidi", t:2, p:52, s:"industry", roles:[
+    ["nmdc","Board Member","board","v"],
+    ]},
+  {id:"aaesha_ali_hashem", n:"Aaesha Ali Hashem", t:2, p:52, s:"industry", roles:[
+    ["nmdc","Board Member","board","v"],
+    ]},
+  {id:"sreemont_prasad_barua", n:"Sreemont Prasad Barua", t:2, p:58, s:"industry", roles:[
+    ["nmdc","Group Chief Financial Officer","executive","v"],
     ]},
 ];
 

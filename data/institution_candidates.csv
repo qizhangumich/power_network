@@ -1,8 +1,12 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
+Asian Infrastructure Investment Bank,4,qatar,pending,2026-09-27,2026-09-28,"Asian Infrastructure Investment Bank can support Gulf connectivity, integration projects: Minister of Finance"
+Arab Monetary Fund,2,abudhabi,pending,2026-09-27,2026-09-28,Arab Monetary Fund marks 50 years with Abu Dhabi summit2m read
+Muscat International Airport,2,saudi,pending,2026-09-23,2026-09-28,Muscat International Airport celebrates Saudi National Day
 Traffic Department,2,qatar,pending,2026-09-23,2026-09-27,Traffic Department invites bid for special vehicle registration numbers
-Asian Infrastructure Investment Bank,2,qatar,pending,2026-09-27,2026-09-27,11th session of Asian Infrastructure Investment Bank meetings kicks off tomorrow in Doha
 Azerbaijan International Investment,2,qatar,pending,2026-09-26,2026-09-27,Qatar Chamber participates in ‘Azerbaijan International Investment Forum’
-Abu Dhabi Investment,12,abudhabi,rejected,2026-09-11,2026-09-25,"Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake"
+Jadwa Investment,2,saudi,pending,2026-09-17,2026-09-28,Jadwa Investment sees trade restrictions hampering economic recovery
+Noor Energy,2,bahrain,pending,2026-09-28,2026-09-28,DEWA completes $2.7bn refinancing of Noor Energy 1
+Abu Dhabi Investment,13,abudhabi,rejected,2026-09-11,2026-09-28,"Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake"
 British Airways,9,dubai,rejected,2026-09-15,2026-09-19,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
 Marlan Holding,7,abudhabi,added,2026-09-08,2026-09-10,Abu Dhabi's IHC to acquire 80% stake in UAE space company Marlan Holding
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
@@ -11,7 +15,6 @@ Hanwha Systems,4,abudhabi,rejected,2026-09-16,2026-09-17,Hanwha Systems to work 
 Salalah Airport,4,oman,rejected,2026-09-19,2026-09-20,"Salalah Airport handles 687,000 passengers during khareef"
 Secretary-General of Ministry,4,qatar,rejected,2026-09-08,2026-09-21,Secretary-General of Ministry of Foreign Affairs Meets Rector of Tashkent State University of Oriental Studies
 Qatar Real Estate,4,qatar,rejected,2026-09-11,2026-09-27,Qatar Real Estate Forum 2026: Focus on tokenization and global investment
-Dangote Refinery,3,abudhabi,rejected,2026-09-07,2026-09-07,ADNOC Reportedly Eyes Dangote Refinery Stake in Global Expansion
 Syrian Airlines,3,abudhabi,rejected,2026-09-20,2026-09-21,"Syrian Airlines expands European network with direct flights to Copenhagen, Vienna"
 Adani Airport Holdings,3,abudhabi,rejected,2026-09-10,2026-09-10,IHC backs Adani Airport Holdings’ $1bn fundraising round
 Explore Sustainable Energy,3,abudhabi,rejected,2026-09-17,2026-09-19,Beam Global and Masdar City Free Zone Sign MOU to Explore Sustainable Energy Infrastructure Opportunities
@@ -24,6 +27,7 @@ OPEC Fund,3,oman,rejected,2026-09-16,2026-09-19,OPEC Fund earmarks $40m for Oman
 Shahba Bank,3,qatar,rejected,2026-09-17,2026-09-22,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Estithmar Holding,3,qatar,rejected,2026-09-12,2026-09-24,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Aurion Capital,3,qatar,rejected,2026-09-23,2026-09-24,"Invest Qatar, Aurion Capital, LG NOVA Engage to Advance Technology Investments, Venture Building in Qatar"
+Dangote Refinery,3,abudhabi,rejected,2026-09-07,2026-09-07,ADNOC Reportedly Eyes Dangote Refinery Stake in Global Expansion
 ADNOC Trading,3,abudhabi,added,2026-09-10,2026-09-15,THE TIPPING POINT: ADNOC Trading Chief Flags August as Tipping Point for Oil Prices
 Sur Industrial City,3,oman,added,2026-09-15,2026-09-15,Madayn announces four new investment opportunities in Sur Industrial City
 TAQA Water Solutions,3,abudhabi,added,2026-09-09,2026-09-09,TAQA Water Solutions appoints Dr. Shehab Ahmed Al Muharrami as CEO
@@ -43,13 +47,10 @@ World Wind Energy,2,oman,rejected,2026-09-25,2026-09-26,Oman to host Gulf’s fi
 Special Economic Zone,2,oman,rejected,2026-09-23,2026-09-23,His Majesty the Sultan visits Special Economic Zone in Duqm
 European Commission,2,oman,rejected,2026-09-09,2026-09-11,European Commission presents landmark India FTA to Council for signature
 Municipal Council,2,oman,rejected,2026-09-21,2026-09-23,Municipal Council Elections committee approves preliminary candidate lists
-Labour Ministry,2,oman,added,2026-09-07,2026-09-19,Labour Ministry sees rise in unions and awareness reach
 Honeywell Technologies,2,qatar,rejected,2026-09-23,2026-09-24,"QFZ, Honeywell Technologies partner to establish manufacturing and service hub in Qatar"
 QFBA Finance,2,qatar,rejected,2026-09-22,2026-09-22,Ahlibank announces platinum sponsorship of QFBA Finance Researcher Award 2026
 Canada Investment,2,qatar,rejected,2026-09-16,2026-09-17,Qatar participates in Canada Investment Summit
-Qatar Development,2,qatar,rejected,2026-09-07,2026-09-08,"Quick update on the top stories... Qatar Development Bank named ""Development Partner"" for QMED 2026. HMC to hold Alzheimer's awareness event"
 US Department,2,qatar,rejected,2026-09-08,2026-09-18,US Department of the Treasury announces new Iran sanctions
-Saudi Construction,2,saudi,rejected,2026-09-07,2026-09-22,Saudi Construction Index rises to 55.4 points in August
 Advanced Energy,2,saudi,rejected,2026-09-17,2026-09-22,Advanced Energy Trading and Contracting
 Ebara Elliott Energy,2,bahrain,rejected,2026-09-16,2026-09-21,Ebara Elliott Energy expands Houston turbomachinery service centre
 Skytrax World Airport,2,bahrain,rejected,2026-09-16,2026-09-16,BIA wins three prestigious Skytrax World Airport Awards
@@ -93,10 +94,13 @@ Fakhruddin Properties,2,dubai,added,2026-09-08,2026-09-10,Fakhruddin Properties 
 Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
 American Airlines,1,abudhabi,rejected,2026-09-15,2026-09-15,American Airlines is Struggling With Broken Business Class Seats On Its Brand New Airbus A321XLR Airplanes
-Umm Al Qura for Development,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
+Labour Ministry,1,qatar,added,2026-09-19,2026-09-19,Labour Ministry holds second roundtable for construction sector
+Qatar Development,1,qatar,rejected,2026-09-08,2026-09-08,"Qatar Development Bank Named ""Development Partner"" for QMED 2026"
+Saudi Construction,1,saudi,rejected,2026-09-22,2026-09-22,Saudi Construction Cost Index rises 2.3% in August
 Al Qura for Development and Construction,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
-Dell Technologies,1,,rejected,2026-09-07,2026-09-07,Dell Technologies and Armada sign strategic MoU to accelerate mobile and edge data infrastructure ac
+Umm Al Qura for Development,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
 Saudi Media Company,1,saudi,rejected,2026-09-22,2026-09-22,Cristiano Ronaldo part of $500m bid for stake in Al Nassr
+Dell Technologies,1,,rejected,2026-09-07,2026-09-07,Dell Technologies and Armada sign strategic MoU to accelerate mobile and edge data infrastructure ac
 Saudi Investment,1,saudi,rejected,2026-09-04,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 Arrive Logistics,1,abudhabi,rejected,2026-09-03,2026-09-03,"Arrive Logistics Deal: No Debt, More Growth"
 Infinity Power,1,,rejected,2026-09-03,2026-09-03,Masdar to co-develop 1GW wind power project in Egypt
