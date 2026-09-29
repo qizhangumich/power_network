@@ -1,0 +1,5 @@
+# Equity's Dylan Ferguson records AED 101.3mln in sales at Marsa Al Saadiyat launch
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSWd1RlRqZnpUaTlFaEdiSGxmbmNzQ20wNTZYTzB4cGw3ckxndEFYY0EyaGEtallpMkR0cUZ5NzFlSnBGcFV1blFwVE1pbGw5RHBkMWFEV3VoSEVGTXJ0Q09meF8zTHh3YW5ZeWJzdVlKNWZ0eU5na1ZRYVp6Z3dkQ0U1SFJpb0hJeHZETUl0aEVMLXhrdmlfZGs0NThNZWJ0el9UYm1fWl9zZEtMUTFwdnpncGJSZXdzbHhSWWJZdHJURER5ci1JVG53S1BKSURrYlEwT1YtcllhZw?oc=5
+
+Equity's Dylan Ferguson records AED 101.3mln in sales at Marsa Al Saadiyat launch    Zawya

@@ -1,0 +1,5 @@
+# ADNOC expands Healthcare services in Partnership with Burjeel Holdings
+source: intlbm
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxNdjRJRnh4aHY2c2dfWW53OVdwV0xBeVI5V25xUzdWRFloN0hOMXNnRC16NnVCOTE4TzFWVjFUcnpBYVp2OXZPTThTazBBN2NWYVJlUE5nUTJkM2pYVHdXOFNhQjgxOUdLOEdnVFpnVzB1bVZOQ0kwZkdNbEJpa0dQWEZyR0o3eTFSc0d6S3pUaUxjOXZpQjdBVGN1WVk0N1ZOWTJR?oc=5
+
+ADNOC expands Healthcare services in Partnership with Burjeel Holdings    intlbm

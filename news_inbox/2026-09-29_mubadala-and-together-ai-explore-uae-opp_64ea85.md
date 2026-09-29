@@ -1,0 +1,5 @@
+# Mubadala and Together AI Explore UAE Opportunities for AI Infrastructure
+source: konsulteer.com
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUEtLcEhDcFdGVXFTQVh5VVl3ajREbUpFSnpmRGJlOW83TVBkTncwdXU1bEt0T2FlVy1XNVFVZnRZaDNMY181ZFNhQnBBdFBxdldlMkNubkt0UzlwZTc4VDRncWkxdEdEcllkZWZmLWpkX0VZenluaDUtUGhiSTV5MGhKbGFSZFdqdG5uUVJBaXBZWGZyVURWZ3ZIZ1FzMTZKR1VMY25pWXBNTkU?oc=5
+
+Mubadala and Together AI Explore UAE Opportunities for AI Infrastructure    konsulteer.com

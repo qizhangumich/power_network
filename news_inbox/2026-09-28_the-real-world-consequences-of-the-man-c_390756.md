@@ -1,0 +1,5 @@
+# The real world consequences of the Man City verdict stretch far beyond football
+source: The Independent
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxNRllVaVVBdS1OODdlZklFUUNJamN0ZzZfc2F2T3gzanlUOTRwVkxudy1VcmZDWXBKSTA3eGtjYTVoOGVUU1JKZVRfaDJpQkJpZzNMTFFRLTJVc0Z4SE1zUlhSelpjekRnTGdQWlFwbUNvRVhKaXpTTVJsSUxXeWtYOW1FNFhoSkQxQ1lUTEFZX2djMHhDb0hxU2FXTzF0Z2pTMmw2NHhoNXdfbVN3MXMwcVFoUmcwYUJGZWNQOE9kSQ?oc=5
+
+The real world consequences of the Man City verdict stretch far beyond football    The Independent
