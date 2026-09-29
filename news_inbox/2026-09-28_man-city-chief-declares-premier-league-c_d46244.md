@@ -1,0 +1,5 @@
+# Man City chief declares Premier League charges battle far from over in bombshell statement
+source: Daily Mirror
+url: https://news.google.com/rss/articles/CBMijgFBVV95cUxPMV9DTXBOM1Q3TmNWT0JyNDFwcTNSQmVCMXBIU2J6OGlJWXlWWkVqcWtocVdCSlpuaEFYblpucVR4ZEI1WWZHNVpsc1E2Tkk2NUFUajVEaENIcGNtM1hQZ1F5SjVzLUJWenV5dXYtVlVoS1J3cVZ0cGh5R2sxdjZCa21CUnZIT2YxWnlwQkp30gGTAUFVX3lxTE5ka3E0TGZGWlAtbFRfdmFHNEZHUE8wUlBaYXNveTlldzZZbVo0aDdQa1BlUmIxclo0MDAxTU8yVllLWWtQUVlWUmYyWnpRaW9UbTlfRmk2SHZDa3ZLeHdLYTdWRENsekZsRko0TU5ITkt1VmtQY1FzNUZKNWd0WTQxSkZIbTd1elk5OWk1dE80d3RKdw?oc=5
+
+Man City chief declares Premier League charges battle far from over in bombshell statement    Daily Mirror
