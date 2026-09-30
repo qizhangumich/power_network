@@ -207,6 +207,11 @@ const INSTITUTIONS = [
   {id:"phcc_qatar", n:"Primary Health Care Corporation (Qatar)", s:"health", t:2, p:62, short:"PHCC Qatar"},
   {id:"qatar_awqaf_ministry", n:"Ministry of Awqaf and Islamic Affairs (Qatar)", s:"gov", t:1, p:66, short:"Qatar Awqaf Ministry"},
   {id:"tamim_bin_hamad", n:"Tamim bin Hamad University for Military and Technology Sciences", s:"education", t:1, p:66, short:"Tamim Univ (Military)"},
+  {id:"al_darwish", n:"Al Darwish Holding", s:"conglomerate", t:3, p:58, short:"Al Darwish Holding"},
+  {id:"abu_issa", n:"Abu Issa Holding", s:"consumer_disc", t:3, p:57, short:"Abu Issa Holding"},
+  {id:"al_muftah", n:"Al Muftah Group", s:"conglomerate", t:3, p:57, short:"Al Muftah Group"},
+  {id:"al_jaidah", n:"Al Jaidah Group", s:"conglomerate", t:3, p:56, short:"Al Jaidah Group"},
+  {id:"mbh", n:"Mohammed Bin Hamad Holding", s:"conglomerate", t:3, p:56, short:"MBH Holding"},
 ];
 
 const PEOPLE = [
@@ -267,6 +272,7 @@ const PEOPLE = [
     ["aamal","Chairman","board","v"]],
     note:"Qatar's leading private-sector billionaire; hotels, industry, healthcare and services."},
   {id:"abdulla_cbq", n:"H.E. Sheikh Abdulla bin Ali bin Jabor Al Thani", t:1, p:68, s:"finance", roles:[
+    ["media_city_qatar","Chairman","board","v"],
     ["cbq","Chairman","board","v"]]},
   {id:"fahad_doha", n:"H.E. Sheikh Fahad bin Mohammad bin Jabor Al Thani", t:1, p:66, s:"finance", roles:[
     ["dohabank","Chairman","board","v"]]},
@@ -597,6 +603,7 @@ const PEOPLE = [
   {id:"fahad_ali_al", n:"Fahad Ali Al-Kuwari", t:2, p:52, s:"consumer_stap", roles:[
     ["hassad","Board Member","board","v"]]},
   {id:"omar_hussain_ibrahim", n:"Omar Hussain Ibrahim Alfardan", t:2, p:62, s:"finance", roles:[
+    ["alfardan","President & Chief Executive Officer","executive","v"],
     ["cbq","Vice-Chairman and Managing Director","board","v"]]},
   {id:"sheikh_falah_hamad", n:"Sheikh Falah Hamad Jassim Al Thani", t:2, p:52, s:"finance", roles:[
     ["cbq","Board Member","board","v"]]},
@@ -844,6 +851,7 @@ const PEOPLE = [
   {id:"ayedh_dabsan_e", n:"Ayedh Dabsan E A Al-Qahtani", t:2, p:52, s:"finance", roles:[
     ["lst_qiik","Board Member","board","v"]]},
   {id:"rashid_nasser_al", n:"Rashid Nasser Al-Kaabi", t:2, p:52, s:"finance", roles:[
+    ["qatar_chamber","Board Member (Banking Sector)","board","v"],
     ["lst_qiik","Board Member","board","v"]]},
   {id:"jaafar_ali_al", n:"Jaafar Ali Al-Sarraf", t:2, p:52, s:"finance", roles:[
     ["lst_qiik","Board Member","board","v"]]},
@@ -1617,6 +1625,119 @@ const PEOPLE = [
     ["tamim_bin_hamad","Board Member (Trustee)","board","v"]]},
   {id:"dena_bint_ahmed", n:"Dena bint Ahmed bin Saif Al Thani", t:2, p:52, s:"education", roles:[
     ["tamim_bin_hamad","Board Member (Trustee)","board","v"]]},
+  {id:"abdulaziz_ismail_al", n:"Abdulaziz Ismail Al Ansari", t:2, p:52, s:"finance", roles:[
+    ["qdb","Board Member","board","v"]]},
+  {id:"ashraf_abdul_rahim", n:"Ashraf Abdul Rahim Abu Issa", t:2, p:52, s:"finance", roles:[
+    ["qdb","Board Member","board","v"]]},
+  {id:"mohammed_abdulaziz_al", n:"Mohammed Abdulaziz Al Dulaimi", t:2, p:52, s:"finance", roles:[
+    ["qdb","Board Member","board","v"]]},
+  {id:"abdulrahman_hesham_al", n:"Abdulrahman Hesham Al Sowaidi", t:2, p:60, s:"finance", roles:[
+    ["qdb","Chief Executive Officer","executive","v"],
+    ["manateq","Board Member","board","ns"]]},
+  {id:"khalid_abdulla_al_b", n:"Khalid Abdulla Al-Mana", t:2, p:58, s:"finance", roles:[
+    ["qdb","Executive Director, Qatar Export Development, Finance & Promotion Agency (Tasdeer)","executive","v"]]},
+  {id:"jumsheed_hussain", n:"Jumsheed Hussain", t:2, p:58, s:"finance", roles:[
+    ["qdb","Executive Director, Credit and Risk Management","executive","v"]]},
+  {id:"farha_ahmed_al", n:"Farha Ahmed Al-Kuwari", t:2, p:58, s:"finance", roles:[
+    ["qdb","Executive Director, Strategy and Business Development","executive","v"]]},
+  {id:"ibrahim_hassan", n:"Ibrahim Hassan", t:2, p:58, s:"finance", roles:[
+    ["qdb","Executive Director, Finance","executive","v"]]},
+  {id:"essa_ali_al", n:"Essa Ali Al-Kuwari", t:2, p:58, s:"finance", roles:[
+    ["qdb","Executive Director, Operations and Support","executive","v"]]},
+  {id:"hamad_salem_mejegheer", n:"Hamad Salem Mejegheer", t:2, p:58, s:"finance", roles:[
+    ["qdb","Executive Director, Advisory & Incubation","executive","v"]]},
+  {id:"ali_mohammed_al", n:"Ali Mohammed Al Mohannadi", t:2, p:58, s:"finance", roles:[
+    ["qdb","Acting Executive Director, Business Finance","executive","v"]]},
+  {id:"hari_sivan", n:"Hari Sivan", t:2, p:58, s:"finance", roles:[
+    ["qdb","Executive Director, Digital & Innovation","executive","v"]]},
+  {id:"sheikh_khalifa_bin_b_b_b", n:"Sheikh Khalifa bin Jassim Al Thani", t:2, p:62, s:"gov", roles:[
+    ["qatar_chamber","Chairman","board","v"]]},
+  {id:"mohamed_bin_ahmed", n:"Mohamed bin Ahmed bin Twar Al Kuwari", t:2, p:62, s:"gov", roles:[
+    ["qatar_chamber","First Vice-Chairman","board","v"]]},
+  {id:"rashid_hamad_hazaa", n:"Rashid Hamad Hazaa Al Athba", t:2, p:62, s:"gov", roles:[
+    ["qatar_chamber","Second Vice-Chairman","board","v"]]},
+  {id:"ali_bu_sherbak", n:"Ali Bu Sherbak Al Mansori", t:2, p:46, s:"gov", roles:[
+    ["qatar_chamber","Acting General Manager","executive","ns"]]},
+  {id:"ibtihaj_al_ahmadani", n:"Ibtihaj Al Ahmadani", t:2, p:52, s:"gov", roles:[
+    ["qatar_chamber","Board Member (Services Sector)","board","v"]]},
+  {id:"sheikh_hamad_bin_b_b", n:"Sheikh Hamad bin Ahmad bin Abdullah bin Ahmed Al Thani", t:2, p:52, s:"gov", roles:[
+    ["qatar_chamber","Board Member (Tourism Sector)","board","v"]]},
+  {id:"mohamed_mahdi_ajian", n:"Mohamed Mahdi Ajian Al Ahbabi", t:2, p:52, s:"gov", roles:[
+    ["qatar_chamber","Board Member (Trade Sector)","board","v"]]},
+  {id:"khalid_klefeekh_al", n:"Khalid Klefeekh Al Hajri", t:2, p:52, s:"gov", roles:[
+    ["qatar_chamber","Board Member (Trade Sector)","board","v"]]},
+  {id:"mohamed_jawhar_saeed", n:"Mohamed Jawhar Saeed Al Mohamed", t:2, p:52, s:"gov", roles:[
+    ["qatar_chamber","Board Member (Trade Sector)","board","v"]]},
+  {id:"abdulrahman_abduljalil_al", n:"Abdulrahman Abduljalil Al Abdulghani", t:2, p:52, s:"gov", roles:[
+    ["qatar_chamber","Board Member (Trade Sector)","board","v"]]},
+  {id:"abdullah_mohamed_abdul", n:"Abdullah Mohamed Abdul Rahim Al Emadi", t:2, p:52, s:"gov", roles:[
+    ["qatar_chamber","Board Member (Industry Sector)","board","v"]]},
+  {id:"fahd_mohamed_fahd", n:"Fahd Mohamed Fahd Buzwair", t:2, p:52, s:"gov", roles:[
+    ["qatar_chamber","Board Member (Industry Sector)","board","v"]]},
+  {id:"mohamed_ahmed_mohamed", n:"Mohamed Ahmed Mohamed Ali Al Obaidli", t:2, p:52, s:"gov", roles:[
+    ["qatar_chamber","Board Member (Contracting Sector)","board","v"]]},
+  {id:"nasser_sulaiman_haidar", n:"Nasser Sulaiman Haidar Al Haidar", t:2, p:52, s:"gov", roles:[
+    ["qatar_chamber","Board Member (Contracting Sector)","board","v"]]},
+  {id:"shaheen_mohamed_lahdan", n:"Shaheen Mohamed Lahdan Al Mohannadi", t:2, p:52, s:"gov", roles:[
+    ["qatar_chamber","Board Member (Contracting Sector)","board","v"]]},
+  {id:"ali_abdullatif_al", n:"Ali Abdullatif Al Misnad", t:2, p:52, s:"gov", roles:[
+    ["qatar_chamber","Board Member (Contracting Sector)","board","v"]]},
+  {id:"khalid_bin_ahmad", n:"Khalid bin Ahmad Al Obaidli", t:2, p:62, s:"gov", roles:[
+    ["manateq","Chairman & Chief Executive Officer","executive","ns"]]},
+  {id:"yousuf_abdulaziz_al", n:"Yousuf Abdulaziz Al-Khulaifi", t:2, p:52, s:"gov", roles:[
+    ["manateq","Board Member","board","ns"]]},
+  {id:"mansoor_abdulla_almahmoud", n:"Mansoor Abdulla Almahmoud", t:2, p:52, s:"gov", roles:[
+    ["manateq","Board Member","board","ns"]]},
+  {id:"nabeel_ali_bin", n:"Nabeel Ali Bin Ali Al Meslemani", t:2, p:62, s:"consumer_disc", roles:[
+    ["ali_bin_ali","Vice Chairman","board","ns"]]},
+  {id:"amit_arindo", n:"Amit Arindo", t:2, p:60, s:"consumer_disc", roles:[
+    ["ali_bin_ali","Chief Executive Officer","executive","ns"]]},
+  {id:"wadih_kazan", n:"Wadih Kazan", t:2, p:58, s:"consumer_disc", roles:[
+    ["ali_bin_ali","Chief Operating Officer","executive","ns"]]},
+  {id:"marc_karam", n:"Marc Karam", t:2, p:58, s:"consumer_disc", roles:[
+    ["ali_bin_ali","Chief Operating Officer","executive","ns"]]},
+  {id:"mohamad_alebrik", n:"Mohamad AlEbrik", t:2, p:58, s:"consumer_disc", roles:[
+    ["ali_bin_ali","Chief Operating Officer, ICT","executive","ns"]]},
+  {id:"hisham_saleh_al", n:"Hisham Saleh Al Mana", t:2, p:58, s:"conglomerate", roles:[
+    ["almana","Executive Director","executive","ns"]]},
+  {id:"kamal_saleh_al", n:"Kamal Saleh Al Mana", t:2, p:58, s:"conglomerate", roles:[
+    ["almana","Executive Director","executive","ns"]]},
+  {id:"wissam_saleh_al", n:"Wissam Saleh Al Mana", t:2, p:60, s:"conglomerate", roles:[
+    ["almana","Managing Director & Board Member","board","ns"]]},
+  {id:"stian_tangen", n:"Stian Tangen", t:2, p:58, s:"materials", roles:[
+    ["qatalum","Chief Operations Officer","executive","ns"]]},
+  {id:"ahmad_al_khudairi", n:"Ahmad Al-Khudairi", t:2, p:58, s:"materials", roles:[
+    ["qatalum","Chief Financial Officer","executive","ns"]]},
+  {id:"yousuf_al_ejji", n:"Yousuf Al-Ejji", t:2, p:58, s:"materials", roles:[
+    ["qatalum","Chief Technical Officer","executive","ns"]]},
+  {id:"jose_fores", n:"Jose Fores", t:2, p:58, s:"materials", roles:[
+    ["qatalum","Chief Power Officer","executive","ns"]]},
+  {id:"hamad_omar_al", n:"Hamad Omar Al Mannai", t:2, p:60, s:"gov", roles:[
+    ["media_city_qatar","Chief Executive Officer","executive","v"]]},
+  {id:"laura_miccoli", n:"Laura Miccoli", t:2, p:46, s:"gov", roles:[
+    ["media_city_qatar","Head of Legal Affairs and Contracts","executive","ns"]]},
+  {id:"thair_khaled_al", n:"Thair Khaled Al Anani", t:2, p:58, s:"gov", roles:[
+    ["media_city_qatar","Director of Business Development","executive","ns"]]},
+  {id:"tevfik_ergun", n:"Tevfik Ergun", t:2, p:58, s:"gov", roles:[
+    ["media_city_qatar","Director of Strategy & Excellence","executive","ns"]]},
+  {id:"jack_lau", n:"Jack Lau", t:2, p:58, s:"gov", roles:[
+    ["qstp","President","executive","v"]]},
+  {id:"hayfa_al_abdulla", n:"Hayfa Al-Abdulla", t:2, p:58, s:"gov", roles:[
+    ["qstp","Program Director","executive","v"]]},
+  {id:"ahmed_a_al", n:"Ahmed A. Al-Said", t:2, p:58, s:"gov", roles:[
+    ["qstp","Business Development Director","executive","v"]]},
+  {id:"yosouf_abdulrahman_saleh", n:"Yosouf Abdulrahman Saleh Al-Salehi", t:2, p:58, s:"gov", roles:[
+    ["qstp","Executive Director","executive","ns"]]},
+  {id:"reem_saad_al", n:"Reem Saad Al Kuwari", t:2, p:58, s:"gov", roles:[
+    ["invest_qatar","Acting Chief Marketing and Communications Officer","executive","v"]]},
+  {id:"hamad_rashid_al", n:"Hamad Rashid Al Naimi", t:2, p:58, s:"gov", roles:[
+    ["invest_qatar","Chief Strategy Officer","executive","v"]]},
+  {id:"jassim_mohammed_al_b", n:"Jassim Mohammed Al Naama", t:2, p:58, s:"gov", roles:[
+    ["invest_qatar","Chief Government and Corporate Affairs Officer","executive","v"]]},
+  {id:"nika_gilauri", n:"Nika Gilauri", t:2, p:52, s:"gov", roles:[
+    ["invest_qatar","Advisory Council Member","board","v"]]},
+  {id:"max_mirgoli", n:"Max Mirgoli", t:2, p:52, s:"gov", roles:[
+    ["invest_qatar","Advisory Council Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -282,6 +282,8 @@ const INSTITUTIONS = [
   {id:"emirates_policy_ctr", n:"Emirates Policy Center", s:"gov", t:3, p:52, short:"Emirates Policy Ctr"},
   {id:"trends_research", n:"TRENDS Research & Advisory", s:"gov", t:3, p:56, short:"TRENDS Research"},
   {id:"arab_monetary_fund", n:"Arab Monetary Fund", s:"finance", t:1, p:64, short:"Arab Monetary Fund"},
+  {id:"lulu_retail", n:"Lulu Retail Holdings", s:"consumer_stap", t:2, p:56, short:"Lulu Retail"},
+  {id:"nmdc_energy", n:"NMDC Energy", s:"energy", t:2, p:55, short:"NMDC Energy"},
 ];
 
 const PEOPLE = [
@@ -2968,6 +2970,8 @@ const OWNERSHIP = [
   ["al_dhafra_petro","adnoc","jv","v"],
   ["q_2","ihc","subsidiary","v"],
   ["skmc_abu_dhabi","seha","subsidiary","v"],
+  ["lulu_retail","lulu","subsidiary (separately ADX-listed retail arm)","ns"],
+  ["nmdc_energy","nmdc","subsidiary","ns"],
 ];
 
 const FAMILY = [
