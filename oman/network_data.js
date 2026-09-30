@@ -1045,6 +1045,126 @@ const PEOPLE = [
     ["state_council","Vice President of the State Council","board","ns"]]},
   {id:"hilal_bin_ali", n:"Hilal bin Ali Al Hinai", t:2, p:52, s:"gov", roles:[
     ["state_council","Vice President of the State Council","board","ns"]]},
+  {id:"said_hamdoon_al", n:"Said Hamdoon Al Harthy", t:2, p:58, s:"tech", roles:[
+    ["mtcit_om","Undersecretary for Ports and Maritime Affairs","executive","ns"]]},
+  {id:"nasser_bin_rashid", n:"Nasser bin Rashid bin Abdullah Al-Maawali", t:2, p:62, s:"gov", roles:[
+    ["caa_oman","Vice Chairman of the Board","board","v"]]},
+  {id:"izzan_bin_qasim", n:"Izzan bin Qasim bin Mohammed Al-Busaidi", t:2, p:52, s:"gov", roles:[
+    ["caa_oman","Board Member","board","v"]]},
+  {id:"khalid_bin_mohammed", n:"Khalid bin Mohammed Al-Abri", t:2, p:52, s:"gov", roles:[
+    ["caa_oman","Board Member (Brigadier General Pilot)","board","v"]]},
+  {id:"ali_bin_mohammed", n:"Ali bin Mohammed Al-Nufli", t:2, p:52, s:"gov", roles:[
+    ["caa_oman","Board Member (Colonel)","board","v"]]},
+  {id:"khalid_bin_qasim", n:"Khalid bin Qasim Al-Kalbani", t:2, p:52, s:"gov", roles:[
+    ["caa_oman","Board Member","board","v"]]},
+  {id:"kristoff_waterschoot", n:"Kristoff Waterschoot", t:2, p:62, s:"industry", roles:[
+    ["port_of_duqm","Deputy Chairman of the Board","board","v"]]},
+  {id:"baron_philip_heylen", n:"Baron Philip Heylen", t:2, p:52, s:"industry", roles:[
+    ["port_of_duqm","Board Member","board","v"]]},
+  {id:"ahmed_tabook", n:"Ahmed Tabook", t:2, p:52, s:"industry", roles:[
+    ["port_of_duqm","Board Member","board","v"]]},
+  {id:"steven_bouckaert", n:"Steven Bouckaert", t:2, p:52, s:"industry", roles:[
+    ["port_of_duqm","Board Member","board","v"]]},
+  {id:"mohammed_ali_habaj", n:"Mohammed Ali Habaj", t:2, p:52, s:"industry", roles:[
+    ["port_of_duqm","Board Member","board","v"]]},
+  {id:"reggy_vermeulen", n:"Reggy Vermeulen", t:2, p:60, s:"industry", roles:[
+    ["port_of_duqm","Chief Executive Officer","executive","v"]]},
+  {id:"ulrich_r_diger", n:"Ulrich Rüdiger", t:2, p:62, s:"education", roles:[
+    ["gutech","Chairman of the Board of Governors","board","v"]]},
+  {id:"dirk_l_lke", n:"Dirk Lölke", t:2, p:52, s:"education", roles:[
+    ["gutech","Board of Governors Member","board","v"]]},
+  {id:"al_khattab_al", n:"Al Khattab Al Hinai", t:2, p:52, s:"education", roles:[
+    ["gutech","Board of Governors Member","board","v"]]},
+  {id:"badr_al_kharusi", n:"Badr Al Kharusi", t:2, p:52, s:"education", roles:[
+    ["gutech","Board of Governors Member","board","v"]]},
+  {id:"robert_schmitt", n:"Robert Schmitt", t:2, p:52, s:"education", roles:[
+    ["gutech","Board of Governors Member","board","v"]]},
+  {id:"h_nacken", n:"H. Nacken", t:2, p:52, s:"education", roles:[
+    ["gutech","Board of Governors Member","board","v"]]},
+  {id:"michael_braun", n:"Michael Braun", t:2, p:58, s:"education", roles:[
+    ["gutech","Rector","executive","v"]]},
+  {id:"hussain_al_salmi", n:"Hussain Al Salmi", t:2, p:58, s:"education", roles:[
+    ["gutech","Deputy Rector for Administration & Finance","executive","v"]]},
+  {id:"wilfried_bauer", n:"Wilfried Bauer", t:2, p:58, s:"education", roles:[
+    ["gutech","Deputy Rector for Academic Affairs","executive","v"]]},
+  {id:"nabil_sahli", n:"Nabil Sahli", t:2, p:46, s:"education", roles:[
+    ["gutech","Dean and Head of Computer Science and Engineering Department","executive","v"]]},
+  {id:"rajat_mazumder", n:"Rajat Mazumder", t:2, p:46, s:"education", roles:[
+    ["gutech","Dean and Head of Applied Geoscience Department","executive","v"]]},
+  {id:"abdulaziz_al_shidhani", n:"Abdulaziz Al Shidhani", t:2, p:60, s:"energy", roles:[
+    ["hydrom","Managing Director","executive","ns"]]},
+  {id:"qu_yang", n:"Qu Yang", t:2, p:62, s:"utilities", roles:[
+    ["oetc","Deputy Chairman of the Board","board","v"]]},
+  {id:"li_shuangtao", n:"Li Shuangtao", t:2, p:52, s:"utilities", roles:[
+    ["oetc","Board Member","board","v"]]},
+  {id:"zhang_jian", n:"Zhang Jian", t:2, p:52, s:"utilities", roles:[
+    ["oetc","Board Member","board","v"]]},
+  {id:"muneer_mohammed_salim", n:"Muneer Mohammed Salim Al Mughiri", t:2, p:52, s:"utilities", roles:[
+    ["oetc","Board Member","board","v"]]},
+  {id:"zahir_mohammed_al", n:"Zahir Mohammed Al Busaidi", t:2, p:52, s:"utilities", roles:[
+    ["oetc","Board Member","board","v"]]},
+  {id:"david_stockley", n:"David Stockley", t:2, p:52, s:"industry", roles:[
+    ["asyad_shipping","Board Member","board","v"]]},
+  {id:"peder_sondergaard", n:"Peder Sondergaard", t:2, p:52, s:"industry", roles:[
+    ["asyad_shipping","Board Member","board","v"]]},
+  {id:"yahya_saif_said", n:"Yahya Saif Said Al Busafi", t:2, p:52, s:"industry", roles:[
+    ["asyad_shipping","Board Member","board","v"]]},
+  {id:"omar_mahmood_nasser", n:"Omar Mahmood Nasser Al Mahrizi", t:2, p:52, s:"industry", roles:[
+    ["asyad_shipping","Board Member","board","v"]]},
+  {id:"imad_al_khaduri", n:"Imad Al Khaduri", t:2, p:58, s:"industry", roles:[
+    ["asyad_shipping","Chief Commercial Officer","executive","v"]]},
+  {id:"frank_kayser", n:"Frank Kayser", t:2, p:58, s:"industry", roles:[
+    ["asyad_shipping","Chief Operating Officer","executive","v"]]},
+  {id:"said_al_shanfari", n:"Said Al Shanfari", t:2, p:60, s:"consumer_disc", roles:[
+    ["ocec","Chief Executive Officer","executive","v"]]},
+  {id:"samira_hilal_al", n:"Samira Hilal Al-Naamani", t:2, p:58, s:"consumer_disc", roles:[
+    ["ocec","Director of Finance and Corporate Services","executive","v"]]},
+  {id:"imad_salim_said", n:"Imad Salim Said Saar", t:2, p:58, s:"consumer_disc", roles:[
+    ["ocec","Director of Operations","executive","v"]]},
+  {id:"manal_al_kiyumi", n:"Manal Al Kiyumi", t:2, p:58, s:"consumer_disc", roles:[
+    ["ocec","Marketing & Communications Director","executive","v"]]},
+  {id:"ahmed_nasser_hamed", n:"Ahmed Nasser Hamed Al Mahrizi", t:2, p:62, s:"industry", roles:[
+    ["salalah_free_zone","Chairman of the Board","board","v"]]},
+  {id:"ali_tabouk", n:"Ali Tabouk", t:2, p:60, s:"industry", roles:[
+    ["salalah_free_zone","Chief Executive Officer","executive","v"]]},
+  {id:"ahmad_rushdi", n:"Ahmad Rushdi", t:2, p:58, s:"industry", roles:[
+    ["salalah_free_zone","Quality Health Safety Security and Environment Director","executive","v"]]},
+  {id:"ahmed_bin_khamis", n:"Ahmed bin Khamis Al Kasbi", t:2, p:58, s:"gov", roles:[
+    ["al_mazunah_fz","Director General","executive","ns"]]},
+  {id:"maneer_ali_al", n:"Maneer Ali Al-Muniri", t:2, p:62, s:"consumer_stap", roles:[
+    ["fdo","Chairman of the Board","board","v"]]},
+  {id:"abdulaziz_said_mohamed", n:"Abdulaziz Said Mohamed Al-Marzuqi", t:2, p:62, s:"consumer_stap", roles:[
+    ["fdo","Vice Chairman of the Board","board","v"]]},
+  {id:"ramzi_schumann", n:"Ramzi Schumann", t:2, p:52, s:"consumer_stap", roles:[
+    ["fdo","Board Member","board","v"]]},
+  {id:"abdulla_said_sulaiman", n:"Abdulla Said Sulaiman Al-Hoqani", t:2, p:52, s:"consumer_stap", roles:[
+    ["fdo","Board Member","board","v"]]},
+  {id:"masoud_bin_sulaiman", n:"Masoud bin Sulaiman Al-Azri", t:2, p:52, s:"consumer_stap", roles:[
+    ["fdo","Board Member","board","v"]]},
+  {id:"mustafa_mohammed_al", n:"Mustafa Mohammed Al-Hinai", t:2, p:52, s:"consumer_stap", roles:[
+    ["fdo","Board Member","board","v"]]},
+  {id:"dawood_al_wahaibi", n:"Dawood Al Wahaibi", t:2, p:60, s:"consumer_stap", roles:[
+    ["fdo","Chief Executive Officer of Oman Pelagic (FDO subsidiary) and FDO Board Member","executive","ns"]]},
+  {id:"sultan_bin_ahmed", n:"Sultan bin Ahmed Al Wahaibi", t:2, p:60, s:"comm", roles:[
+    ["oman_broadband","Chief Executive Officer","executive","v"]]},
+  {id:"muhammed_ali_alfarsi", n:"Muhammed Ali Alfarsi", t:2, p:52, s:"comm", roles:[
+    ["oman_broadband","Board Member (Brigadier)","board","v"]]},
+  {id:"rebecca_collins", n:"Rebecca Collins", t:2, p:52, s:"comm", roles:[
+    ["oman_broadband","Board Member","board","v"]]},
+  {id:"aflah_bin_mustafa", n:"Aflah bin Mustafa Al Lawati", t:2, p:52, s:"utilities", roles:[
+    ["nama_pwp","Board Member","board","v"]]},
+  {id:"ahmed_bin_mohammed", n:"Ahmed bin Mohammed Al Hooti", t:2, p:52, s:"utilities", roles:[
+    ["nama_pwp","Board Member","board","v"]]},
+  {id:"ibrahim_alsuleimani", n:"Ibrahim Alsuleimani", t:2, p:62, s:"utilities", roles:[
+    ["nama_distribution","Chairman of the Board","board","v"]]},
+  {id:"faisal_aldaoudi", n:"Faisal Aldaoudi", t:2, p:52, s:"utilities", roles:[
+    ["nama_distribution","Board Member","board","v"]]},
+  {id:"munira_alharthi", n:"Munira Alharthi", t:2, p:52, s:"utilities", roles:[
+    ["nama_distribution","Board Member","board","v"]]},
+  {id:"salim_said_al", n:"Salim Said Al Kamyani", t:2, p:60, s:"utilities", roles:[
+    ["nama_distribution","Chief Executive Officer","executive","ns"]]},
+  {id:"khalifa_al_barwani", n:"Khalifa Al Barwani", t:2, p:60, s:"gov", roles:[
+    ["ncsi","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1219,7 +1339,7 @@ const AKA = {
   nama_pwp:["OPWP"],
   oetc:["Oman Grid"],
   nitaj:["OFIC"],
-  oman_airports:["OAMC"],
+  oman_airports:["OAMC","Muscat International Airport"],
   fsa_oman:["Capital Market Authority"],
   tra_oman:["TRA"],
   apsr_oman:["APSR","Authority for Electricity and Water Regulation"],

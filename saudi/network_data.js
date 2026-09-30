@@ -465,6 +465,7 @@ const INSTITUTIONS = [
   {id:"kaust", n:"King Abdullah University of Science and Technology", s:"education", t:1, p:74, short:"KAUST"},
   {id:"kfcris", n:"King Faisal Center for Research and Islamic Studies", s:"education", t:2, p:58, short:"KFCRIS"},
   {id:"red_sea_hospital", n:"The Red Sea Hospital", s:"health", t:3, p:52, short:"Red Sea Hospital"},
+  {id:"jadwa_investment", n:"Jadwa Investment Company", s:"finance", t:2, p:58, short:"Jadwa Investment"},
 ];
 
 const PEOPLE = [
@@ -528,6 +529,7 @@ const PEOPLE = [
     ["mot_sa","Minister of Tourism","political","v"],
     ["redsea","Board Member","board","v"]]},
   {id:"alkhorayef", n:"Bandar Alkhorayef", t:1, p:72, s:"industry", roles:[
+    ["moind","Minister of Industry and Mineral Resources","executive","v"],
     ["sidf","Chairman of the Board of Directors","board","v"],
     ["sami","Board Member","board","v"],
     ["alat","Board Member; Minister of State and Member of the Council of Ministers","board","v"],
@@ -2099,9 +2101,17 @@ const PEOPLE = [
     ["srmg","Board Member","board","v"]]},
   {id:"fahad_bin_abdullah_b", n:"Fahad bin Abdullah Al Mubarak", t:2, p:52, s:"finance", roles:[
     ["sidf","Member of the Board of Directors","board","v"]]},
+  {id:"salman_bin_bader", n:"Salman bin Bader Al-Fagham", t:2, p:60, s:"finance", roles:[
+    ["lst_1030","Chief Executive Officer (effective Oct 2026)","executive","v"]]},
+  {id:"abdulaziz_al_humaid", n:"Abdulaziz Al-Humaid", t:2, p:62, s:"consumer_stap", roles:[
+    ["lst_6050","Chairman of the Board","board","v"]]},
+  {id:"mansour_al_sagheer", n:"Mansour Al-Sagheer", t:2, p:62, s:"consumer_stap", roles:[
+    ["lst_6050","Vice Chairman of the Board","board","v"]]},
 ];
 
 const OWNERSHIP = [
+  ["lst_4332","jadwa_investment","fund manager","v"],
+  ["lst_4342","jadwa_investment","fund manager","v"],
   ["lst_2380","aramco","majority shareholder (~60% equity)","v"],
   ["lst_2290","sabic","SABIC affiliate","v"],
   ["lst_4030","pif","anchor shareholder","v"],
@@ -2539,4 +2549,5 @@ const AKA = {
   al_dabbagh:["ADG","Dabbagh Group Holding Co"],
   saudi_bugshan:["Bugshan Group","SBC"],
   al_fozan:["Al Fozan Group"],
+  jadwa_investment:["Jadwa"],
 };

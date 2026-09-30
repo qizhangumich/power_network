@@ -1405,6 +1405,124 @@ const PEOPLE = [
     ["shamalazzour","Board Member","board","v"]]},
   {id:"julien_diaz", n:"Julien Diaz", t:2, p:52, s:"utilities", roles:[
     ["shamalazzour","Non-Executive Director","board","v"]]},
+  {id:"khaled_mohammad_abdullah", n:"Khaled Mohammad Abdullah Al-Zamel", t:2, p:62, s:"comm", roles:[
+    ["citra","Chairman of the Board of Directors","board","v"]]},
+  {id:"manal_khaled_saleh", n:"Manal Khaled Saleh Al-Mazyad", t:2, p:62, s:"comm", roles:[
+    ["citra","Vice Chairman of the Board of Directors","board","v"]]},
+  {id:"waleed_issa_abdullah", n:"Waleed Issa Abdullah Al-Hasawi", t:2, p:52, s:"comm", roles:[
+    ["citra","Executive Board Member","board","v"]]},
+  {id:"dhari_adel_abdulrahman", n:"Dhari Adel Abdulrahman Al-Huwail", t:2, p:52, s:"comm", roles:[
+    ["citra","Executive Board Member","board","v"]]},
+  {id:"muneerah_saleh_namsh", n:"Muneerah Saleh Namsh Al-Namsh", t:2, p:52, s:"comm", roles:[
+    ["citra","Non-Executive Board Member","board","v"]]},
+  {id:"zainab_monjed_al", n:"Zainab Monjed Al-Bader Al-Qenaei", t:2, p:52, s:"comm", roles:[
+    ["citra","Non-Executive Board Member","board","v"]]},
+  {id:"abdullah_fahad_abdullah", n:"Abdullah Fahad Abdullah Al-Khuzam", t:2, p:52, s:"comm", roles:[
+    ["citra","Non-Executive Board Member","board","v"]]},
+  {id:"khaled_mahmoud_alqurawi", n:"Khaled Mahmoud AlQurawi", t:2, p:58, s:"comm", roles:[
+    ["citra","Head of Corporate Services Sector (Acting)","executive","v"]]},
+  {id:"layali_abdullah_almanasouri", n:"Layali Abdullah AlManasouri", t:2, p:58, s:"comm", roles:[
+    ["citra","Head of Policies and Regulations Sector (Acting)","executive","v"]]},
+  {id:"athbi_jaber_alsabah", n:"Athbi Jaber AlSabah", t:2, p:58, s:"comm", roles:[
+    ["citra","Head of Supervision Sector (Acting)","executive","v"]]},
+  {id:"jarrah_ibrahim_alsaleh", n:"Jarrah Ibrahim Alsaleh", t:2, p:58, s:"comm", roles:[
+    ["citra","Head of Strategy Planning and Governance Management Sector (Acting)","executive","v"]]},
+  {id:"nasser_bin_hamad", n:"Nasser Bin Hamad Bin Nasser Al Thani", t:2, p:62, s:"comm", roles:[
+    ["ooredoo_kuwait","Chairman of the Board","board","v"]]},
+  {id:"hamad_yehia_al", n:"Hamad Yehia Al-Nuaimi", t:2, p:62, s:"comm", roles:[
+    ["ooredoo_kuwait","Vice Chairman of the Board","board","v"]]},
+  {id:"hilal_mohammed_al", n:"Hilal Mohammed Al Khulifi", t:2, p:52, s:"comm", roles:[
+    ["ooredoo_kuwait","Board Member","board","v"]]},
+  {id:"nael_abdulla_al", n:"Nael Abdulla Al Awadi", t:2, p:52, s:"comm", roles:[
+    ["ooredoo_kuwait","Board Member","board","v"]]},
+  {id:"mohammed_sabri_al", n:"Mohammed Sabri Al Zaidan", t:2, p:52, s:"comm", roles:[
+    ["ooredoo_kuwait","Board Member","board","v"]]},
+  {id:"yousuf_mubrak_al", n:"Yousuf Mubrak Al-Sellili", t:2, p:52, s:"comm", roles:[
+    ["ooredoo_kuwait","Board Member","board","v"]]},
+  {id:"hassan_ismail_al", n:"Hassan Ismail Al Emadi", t:2, p:52, s:"comm", roles:[
+    ["ooredoo_kuwait","Board Member","board","v"]]},
+  {id:"nasser_issa_al", n:"Nasser Issa Al Hitmi", t:2, p:52, s:"comm", roles:[
+    ["ooredoo_kuwait","Board Member","board","v"]]},
+  {id:"fatena_abdel_al", n:"Fatena Abdel Al Ahmed", t:2, p:52, s:"comm", roles:[
+    ["ooredoo_kuwait","Board Secretary","board","v"]]},
+  {id:"abdulaziz_al_babtain", n:"Abdulaziz Al-Babtain", t:2, p:60, s:"comm", roles:[
+    ["ooredoo_kuwait","Chief Executive Officer","executive","v"]]},
+  {id:"htar_thant_zin", n:"Htar Thant Zin", t:2, p:58, s:"comm", roles:[
+    ["ooredoo_kuwait","Chief Commercial Officer","executive","v"]]},
+  {id:"fadi_kawar", n:"Fadi Kawar", t:2, p:58, s:"comm", roles:[
+    ["ooredoo_kuwait","Chief Finance Officer","executive","v"]]},
+  {id:"omar_al_bassam", n:"Omar Al-Bassam", t:2, p:58, s:"comm", roles:[
+    ["ooredoo_kuwait","Chief Human Resources & Administration Services Officer","executive","v"]]},
+  {id:"issa_haidar", n:"Issa Haidar", t:2, p:58, s:"comm", roles:[
+    ["ooredoo_kuwait","Chief Technology Officer","executive","v"]]},
+  {id:"basel_ramadan", n:"Basel Ramadan", t:2, p:58, s:"comm", roles:[
+    ["ooredoo_kuwait","Chief Legal and Regulatory Officer","executive","v"]]},
+  {id:"ahmad_al_khamees", n:"Ahmad Al-Khamees", t:2, p:58, s:"comm", roles:[
+    ["ooredoo_kuwait","Chief Audit Executive","executive","v"]]},
+  {id:"amadou_ndiaye", n:"Amadou Ndiaye", t:2, p:58, s:"comm", roles:[
+    ["ooredoo_kuwait","Senior Director - Corporate Security","executive","v"]]},
+  {id:"saud_abdulaziz_al_b", n:"Saud Abdulaziz Al-Duaij", t:2, p:46, s:"comm", roles:[
+    ["ooredoo_kuwait","Head of Enterprise Risk Management","executive","v"]]},
+  {id:"fahad_ali_alghanem", n:"Fahad Ali Alghanem", t:2, p:62, s:"health", roles:[
+    ["daralshifa","Chairman","board","v"]]},
+  {id:"abdullah_muhammed_alshatti", n:"Abdullah Muhammed Alshatti", t:2, p:62, s:"health", roles:[
+    ["daralshifa","Vice Chairman","board","v"]]},
+  {id:"bader_jeraq", n:"Bader Jeraq", t:2, p:52, s:"health", roles:[
+    ["daralshifa","Board Member","board","v"]]},
+  {id:"bader_al_hosaini", n:"Bader Al-Hosaini", t:2, p:52, s:"health", roles:[
+    ["daralshifa","Board Member","board","v"]]},
+  {id:"qais_al_ghanem", n:"Qais Al Ghanem", t:2, p:52, s:"health", roles:[
+    ["daralshifa","Board Member","board","v"]]},
+  {id:"abdullah_khalaf_abo", n:"Abdullah Khalaf Abo-Hadeda", t:2, p:52, s:"health", roles:[
+    ["daralshifa","Board Member","board","v"]]},
+  {id:"ahmad_nasrallah", n:"Ahmad Nasrallah", t:2, p:60, s:"health", roles:[
+    ["daralshifa","Chief Executive Officer","executive","v"]]},
+  {id:"yousif_alzafiri", n:"Yousif Alzafiri", t:2, p:58, s:"health", roles:[
+    ["daralshifa","Chief Medical Officer","executive","v"]]},
+  {id:"rashid_al_enezi", n:"Rashid Al-Enezi", t:2, p:46, s:"gov", roles:[
+    ["pahw","Acting General Manager","executive","v"]]},
+  {id:"amina_abdul_karim", n:"Amina Abdul Karim Al-Awadi", t:2, p:58, s:"gov", roles:[
+    ["pahw","Deputy Director General for Control and Information Systems Affairs","executive","v"]]},
+  {id:"fatima_hamza_abbas", n:"Fatima Hamza Abbas Naqi", t:2, p:46, s:"gov", roles:[
+    ["pahw","Deputy General Manager for Applications and Allocation Affairs","executive","v"]]},
+  {id:"omar_mohammed_abdul", n:"Omar Mohammed Abdul Rahman Al-Ruwaih", t:2, p:46, s:"gov", roles:[
+    ["pahw","Deputy General Manager for Implementation Affairs","executive","v"]]},
+  {id:"ahmed_mohammed_al", n:"Ahmed Mohammed Al-Ansari", t:2, p:58, s:"gov", roles:[
+    ["pahw","Deputy General Manager for Investment Affairs and Private Sector Projects","executive","v"]]},
+  {id:"bader_al_subaie", n:"Bader Al-Subaie", t:2, p:46, s:"gov", roles:[
+    ["pahw","Deputy General Manager for Distribution and Documentation Affairs","executive","v"]]},
+  {id:"nasser_adel_ibrahim", n:"Nasser Adel Ibrahim Khraibet", t:2, p:46, s:"gov", roles:[
+    ["pahw","Deputy General Manager for Planning and Design Affairs","executive","v"]]},
+  {id:"ali_muhammad_al", n:"Ali Muhammad Al-Bannai", t:2, p:58, s:"gov", roles:[
+    ["pahw","Deputy Director General for Finance and Personnel Affairs","executive","v"]]},
+  {id:"fahad_mutlaq_al", n:"Fahad Mutlaq Al-Shariaan", t:2, p:62, s:"industry", roles:[
+    ["pai","Chairman of the Board (Minister of Trade and Industry)","board","v"]]},
+  {id:"fahad_yaqoub_al_b", n:"Fahad Yaqoub Al Joaan", t:2, p:52, s:"industry", roles:[
+    ["pai","Board Member","board","v"]]},
+  {id:"abdul_karim_taqi", n:"Abdul Karim Taqi Abdul Karim", t:2, p:52, s:"industry", roles:[
+    ["pai","Board Member","board","v"]]},
+  {id:"suleiman_abdulaziz_al", n:"Suleiman Abdulaziz Al-Fahd", t:2, p:52, s:"industry", roles:[
+    ["pai","Board Member","board","v"]]},
+  {id:"shamlan_humoud_omar", n:"Shamlan Humoud Omar Al-Gehadely", t:2, p:58, s:"industry", roles:[
+    ["pai","General Director (Assigned)","executive","v"]]},
+  {id:"jarallah_falah_tani", n:"Jarallah Falah Tani Al-Dousari", t:2, p:58, s:"industry", roles:[
+    ["pai","Deputy General Director of Administration and Financial Affairs","executive","v"]]},
+  {id:"fahad_al_humaidi", n:"Fahad Al Humaidi Al Daihani", t:2, p:62, s:"materials", roles:[
+    ["pic","Chairman","board","v"]]},
+  {id:"mona_jassim_al", n:"Mona Jassim Al Obaid", t:2, p:52, s:"materials", roles:[
+    ["pic","Board Member","board","v"]]},
+  {id:"nadia_bader_alhaji", n:"Nadia Bader Alhaji", t:2, p:60, s:"materials", roles:[
+    ["pic","Chief Executive Officer","executive","v"]]},
+  {id:"nawaf_a_arhamah", n:"Nawaf A. Arhamah", t:2, p:62, s:"education", roles:[
+    ["gust","Chairman of the Board of Trustees","board","v"]]},
+  {id:"sobolik_kristin", n:"Sobolik Kristin", t:2, p:52, s:"education", roles:[
+    ["gust","Board of Trustees Member","board","v"]]},
+  {id:"nader_a_aljalal", n:"Nader A. AlJalal", t:2, p:52, s:"education", roles:[
+    ["gust","Board of Trustees Member","board","v"]]},
+  {id:"abdullah_al_ahmad", n:"Abdullah Al-Ahmad Al-Humoud Al-Sabah", t:2, p:58, s:"gov", roles:[
+    ["epa_kuwait","Director General","executive","v"]]},
+  {id:"mohammed_al_yousef", n:"Mohammed Al-Yousef", t:2, p:46, s:"consumer_stap", roles:[
+    ["paafr","Head of the Public Authority for Agriculture Affairs and Fish Resources","executive","v"]]},
 ];
 
 const OWNERSHIP = [

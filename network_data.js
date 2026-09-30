@@ -281,6 +281,7 @@ const INSTITUTIONS = [
   {id:"skmc_abu_dhabi", n:"Sheikh Khalifa Medical City", s:"health", t:2, p:62, short:"SKMC Abu Dhabi"},
   {id:"emirates_policy_ctr", n:"Emirates Policy Center", s:"gov", t:3, p:52, short:"Emirates Policy Ctr"},
   {id:"trends_research", n:"TRENDS Research & Advisory", s:"gov", t:3, p:56, short:"TRENDS Research"},
+  {id:"arab_monetary_fund", n:"Arab Monetary Fund", s:"finance", t:1, p:64, short:"Arab Monetary Fund"},
 ];
 
 const PEOPLE = [
@@ -471,6 +472,7 @@ const PEOPLE = [
   {id:"mugheer_khaili", n:"Dr. Mugheer Khamis Al Khaili", t:1, p:80, s:"gov", roles:[
     ["dcd","Chairman (–Jan 2026)","government","v","former:until Jan 2026"],
     ["execcouncil","Member","political","v"],
+    ["dcd","Chairman","board","v"],
     ]},
   {id:"saif_ghobash", n:"Saif Saeed Ghobash", t:1, p:80, s:"gov", roles:[
     ["execcouncil","Secretary-General","government","v"],
@@ -2710,6 +2712,9 @@ const PEOPLE = [
   {id:"sreemont_prasad_barua", n:"Sreemont Prasad Barua", t:2, p:58, s:"industry", roles:[
     ["nmdc","Group Chief Financial Officer","executive","v"],
     ]},
+  {id:"rima_al_mokarrab_b", n:"Rima Al Mokarrab", t:2, p:58, s:"gov", roles:[
+    ["eaa","Executive Director of Strategic Affairs","executive","v"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -3025,4 +3030,5 @@ const AKA = {
   skmc_abu_dhabi:["SKMC"],
   emirates_policy_ctr:["EPC"],
   trends_research:["TRENDS Group","TITI"],
+  arab_monetary_fund:["AMF"],
 };

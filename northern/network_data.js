@@ -877,6 +877,130 @@ const PEOPLE = [
     ["sharjah_awqaf","Director General","executive","ns"]]},
   {id:"salem_sultan_hamad", n:"Salem Sultan Hamad Al Owais Al Shamsi", t:2, p:58, s:"finance", roles:[
     ["rak_finance_dept","Director General","executive","ns"]]},
+  {id:"sorour_hamad_obaid", n:"Sorour Hamad Obaid Hamad Zouhari", t:2, p:62, s:"gov", roles:[
+    ["fujairah_chamber","Chairman","board","v"]]},
+  {id:"ahmed_hassen_alyamahi", n:"Ahmed Hassen Alyamahi", t:2, p:62, s:"gov", roles:[
+    ["fujairah_chamber","Vice Chairman","board","v"]]},
+  {id:"futaim_obaid_alshihi", n:"Futaim Obaid Alshihi", t:2, p:52, s:"gov", roles:[
+    ["fujairah_chamber","Treasurer","board","v"]]},
+  {id:"ahmed_zaher_almadhani", n:"Ahmed Zaher Almadhani", t:2, p:52, s:"gov", roles:[
+    ["fujairah_chamber","Board Member","board","v"]]},
+  {id:"khaled_mohamed_jasem", n:"Khaled Mohamed Jasem Mohamed Alrayssi", t:2, p:52, s:"gov", roles:[
+    ["fujairah_chamber","Board Member","board","v"]]},
+  {id:"tariq_mohamed_alhanaie", n:"Tariq Mohamed Alhanaie", t:2, p:52, s:"gov", roles:[
+    ["fujairah_chamber","Board Member","board","v"]]},
+  {id:"abdullah_mohamed_aldhanhani", n:"Abdullah Mohamed Aldhanhani", t:2, p:52, s:"gov", roles:[
+    ["fujairah_chamber","Board Member","board","v"]]},
+  {id:"fayes_saeed_saif", n:"Fayes Saeed Saif Aleter", t:2, p:52, s:"gov", roles:[
+    ["fujairah_chamber","Board Member","board","v"]]},
+  {id:"abdulla_humaid_almazrouei", n:"Abdulla Humaid Almazrouei", t:2, p:52, s:"education", roles:[
+    ["ajman_university","Board of Trustees Member","board","v"]]},
+  {id:"saeed_saif_al", n:"Saeed Saif Al Matrooshi", t:2, p:52, s:"education", roles:[
+    ["ajman_university","Board of Trustees Member","board","v"]]},
+  {id:"amina_abdul_wahid", n:"Amina Abdul Wahid Al Rostamani", t:2, p:52, s:"education", roles:[
+    ["ajman_university","Board of Trustees Member","board","v"]]},
+  {id:"dalya_al_muthanna", n:"Dalya Al Muthanna", t:2, p:52, s:"education", roles:[
+    ["ajman_university","Board of Trustees Member","board","v"]]},
+  {id:"rashed_abdulrahman_sultan", n:"Rashed Abdulrahman Sultan Bin Jebran Alsuwaidi", t:2, p:52, s:"education", roles:[
+    ["ajman_university","Board of Trustees Member","board","v"]]},
+  {id:"essam_al_tamimi", n:"Essam Al Tamimi", t:2, p:52, s:"education", roles:[
+    ["ajman_university","Board of Trustees Member","board","v"]]},
+  {id:"ashraf_hatem", n:"Ashraf Hatem", t:2, p:52, s:"education", roles:[
+    ["gulf_medical_univ","Board of Trustees Member","board","v"]]},
+  {id:"john_r_raymond", n:"John R. Raymond Sr.", t:2, p:52, s:"education", roles:[
+    ["gulf_medical_univ","Board of Trustees Member","board","v"]]},
+  {id:"xiao_haipeng", n:"Xiao Haipeng", t:2, p:52, s:"education", roles:[
+    ["gulf_medical_univ","Board of Trustees Member","board","v"]]},
+  {id:"anil_d_cruz", n:"Anil D'Cruz", t:2, p:52, s:"education", roles:[
+    ["gulf_medical_univ","Board of Trustees Member","board","v"]]},
+  {id:"manda_venkatramana", n:"Manda Venkatramana", t:2, p:58, s:"education", roles:[
+    ["gulf_medical_univ","Chancellor","executive","ns"]]},
+  {id:"hesham_marei", n:"Hesham Marei", t:2, p:58, s:"education", roles:[
+    ["gulf_medical_univ","Vice Chancellor Academics","executive","ns"]]},
+  {id:"ateeq_abdul_aziz", n:"Ateeq Abdul Aziz Jaka Al Mansouri", t:2, p:52, s:"education", roles:[
+    ["aurak","Board of Trustees Member","board","v"]]},
+  {id:"winfred_thompson", n:"Winfred Thompson", t:2, p:52, s:"education", roles:[
+    ["aurak","Board of Trustees Member","board","v"]]},
+  {id:"rashed_iqbal", n:"Rashed Iqbal", t:2, p:52, s:"education", roles:[
+    ["aurak","Board of Trustees Member","board","v"]]},
+  {id:"ayesha_mohammed_abdulla", n:"Ayesha Mohammed Abdulla Yasin", t:2, p:52, s:"education", roles:[
+    ["aurak","Board of Trustees Member","board","v"]]},
+  {id:"bassam_alameddine", n:"Bassam Alameddine", t:2, p:58, s:"education", roles:[
+    ["aurak","President","executive","v"]]},
+  {id:"khalid_hussain", n:"Khalid Hussain", t:2, p:58, s:"education", roles:[
+    ["aurak","Provost","executive","v"]]},
+  {id:"imad_y_hoballah", n:"Imad Y. Hoballah", t:2, p:58, s:"education", roles:[
+    ["aurak","Vice President for Institutional Advancement and External Relations","executive","v"]]},
+  {id:"mohammed_awad", n:"Mohammed Awad", t:2, p:58, s:"education", roles:[
+    ["aurak","Associate Provost for Student Success","executive","v"]]},
+  {id:"rachel_matar", n:"Rachel Matar", t:2, p:58, s:"education", roles:[
+    ["aurak","Dean of the School of Arts and Sciences","executive","v"]]},
+  {id:"tahseen_anwer_arshi", n:"Tahseen Anwer Arshi", t:2, p:58, s:"education", roles:[
+    ["aurak","Interim Dean of the School of Business","executive","v"]]},
+  {id:"hamed_assaf", n:"Hamed Assaf", t:2, p:58, s:"education", roles:[
+    ["aurak","Dean of the School of Engineering and Computing","executive","v"]]},
+  {id:"jamal_salim_al", n:"Jamal Salim Al Taraifi", t:2, p:62, s:"education", roles:[
+    ["al_qasimia_univ","Chairman of the Board of Trustees and President","board","v"]]},
+  {id:"awad_husain_alkhalaf", n:"Awad Husain AlKhalaf", t:2, p:58, s:"education", roles:[
+    ["al_qasimia_univ","Chancellor","executive","v"]]},
+  {id:"mohamed_obaid_al", n:"Mohamed Obaid Al Shamsi", t:2, p:52, s:"education", roles:[
+    ["al_qasimia_univ","Board of Trustees Member","board","v"]]},
+  {id:"aziz_bin_farhan", n:"Aziz Bin Farhan Al Anzi", t:2, p:52, s:"education", roles:[
+    ["al_qasimia_univ","Board of Trustees Member","board","v"]]},
+  {id:"mohamed_safi_al", n:"Mohamed Safi Al Mosteghanemi", t:2, p:52, s:"education", roles:[
+    ["al_qasimia_univ","Board of Trustees Member","board","v"]]},
+  {id:"sherzad_abdurrahman_taher", n:"Sherzad Abdurrahman Taher", t:2, p:52, s:"education", roles:[
+    ["al_qasimia_univ","Board of Trustees Member","board","v"]]},
+  {id:"salem_mohammed_al", n:"Salem Mohammed Al Dubi", t:2, p:52, s:"education", roles:[
+    ["al_qasimia_univ","Board of Trustees Member","board","v"]]},
+  {id:"saif_bin_mohammed", n:"Saif bin Mohammed bin Butti Al Hamed", t:2, p:62, s:"finance", roles:[
+    ["bank_of_sharjah","Deputy Chairman","board","v"]]},
+  {id:"arwa_al_owais", n:"Arwa Al Owais", t:2, p:52, s:"finance", roles:[
+    ["bank_of_sharjah","Board Member","board","v"]]},
+  {id:"talal_al_midfa", n:"Talal Al Midfa", t:2, p:52, s:"finance", roles:[
+    ["bank_of_sharjah","Board Member","board","v"]]},
+  {id:"abdulaziz_al_hasawi", n:"Abdulaziz Al Hasawi", t:2, p:52, s:"finance", roles:[
+    ["bank_of_sharjah","Board Member","board","v"]]},
+  {id:"mubarak_al_besharah", n:"Mubarak Al Besharah", t:2, p:52, s:"finance", roles:[
+    ["bank_of_sharjah","Board Member","board","v"]]},
+  {id:"salem_humeid_al", n:"Salem Humeid Al Ghamai", t:2, p:52, s:"finance", roles:[
+    ["bank_of_sharjah","Board Member","board","v"]]},
+  {id:"salah_ahmed_abdalla", n:"Salah Ahmed Abdalla Al Noman", t:2, p:52, s:"finance", roles:[
+    ["bank_of_sharjah","Board Member","board","v"]]},
+  {id:"abdulla_mohamed_al", n:"Abdulla Mohamed Al Fahim", t:2, p:52, s:"finance", roles:[
+    ["bank_of_sharjah","Board Member","board","v"]]},
+  {id:"amer_abdulaziz_khansaheb", n:"Amer Abdulaziz Khansaheb", t:2, p:52, s:"finance", roles:[
+    ["bank_of_sharjah","Board Member","board","v"]]},
+  {id:"mohammed_bin_faisal", n:"Mohammed Bin Faisal Bin Sultan Al Qassimi", t:2, p:62, s:"finance", roles:[
+    ["uab","Chairman","board","v"]]},
+  {id:"omar_hussain_alfardan", n:"Omar Hussain Alfardan", t:2, p:62, s:"finance", roles:[
+    ["uab","Vice Chairman","board","v"]]},
+  {id:"abdullah_bin_ali", n:"Abdullah Bin Ali Bin Jabor Al Thani", t:2, p:52, s:"finance", roles:[
+    ["uab","Board Member","board","v"]]},
+  {id:"ahmed_mohamad_bakheet", n:"Ahmed Mohamad Bakheet Khalfan", t:2, p:52, s:"finance", roles:[
+    ["uab","Board Member","board","v"]]},
+  {id:"fahad_abdulrahman_badar", n:"Fahad Abdulrahman Badar", t:2, p:52, s:"finance", roles:[
+    ["uab","Board Member","board","v"]]},
+  {id:"stephen_moss", n:"Stephen Moss", t:2, p:52, s:"finance", roles:[
+    ["uab","Board Member","board","v"]]},
+  {id:"saeed_mohammed_al", n:"Saeed Mohammed Al Raqbani", t:2, p:62, s:"education", roles:[
+    ["univ_of_fujairah","Vice Chairman of the Board of Trustees","board","v"]]},
+  {id:"sulaiman_al_jassim", n:"Sulaiman Al Jassim", t:2, p:58, s:"education", roles:[
+    ["univ_of_fujairah","President","executive","ns"]]},
+  {id:"mohammed_obaid_al", n:"Mohammed Obaid Al Kaabi", t:2, p:62, s:"gov", roles:[
+    ["sharjah_courts","Chairman of the Judicial Department","board","ns"]]},
+  {id:"faisal_bin_ali", n:"Faisal bin Ali bin Abdullah Al Mualla", t:2, p:58, s:"gov", roles:[
+    ["sharjah_courts","Secretary-General of the Judicial Council","executive","ns"]]},
+  {id:"ahmed_al_mulla", n:"Ahmed Al Mulla", t:2, p:58, s:"gov", roles:[
+    ["sharjah_courts","President of the Court of Cassation","executive","ns"]]},
+  {id:"salama_al_ketbi", n:"Salama Al Ketbi", t:2, p:46, s:"gov", roles:[
+    ["sharjah_courts","Head of the Inquisition Courts","executive","ns"]]},
+  {id:"saeed_ali_bahbouh", n:"Saeed Ali Bahbouh", t:2, p:58, s:"gov", roles:[
+    ["sharjah_courts","President of the Courts of Appeal","executive","ns"]]},
+  {id:"omar_al_ghoul", n:"Omar Al Ghoul", t:2, p:58, s:"gov", roles:[
+    ["sharjah_courts","President of the Courts of First Instance","executive","ns"]]},
+  {id:"shanavas_mohammed", n:"Shanavas Mohammed", t:2, p:58, s:"health", roles:[
+    ["rak_hospital","Chief Financial Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

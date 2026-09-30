@@ -206,11 +206,13 @@ const INSTITUTIONS = [
   {id:"qcaa", n:"Qatar Civil Aviation Authority", s:"industry", t:2, p:64, short:"QCAA"},
   {id:"phcc_qatar", n:"Primary Health Care Corporation (Qatar)", s:"health", t:2, p:62, short:"PHCC Qatar"},
   {id:"qatar_awqaf_ministry", n:"Ministry of Awqaf and Islamic Affairs (Qatar)", s:"gov", t:1, p:66, short:"Qatar Awqaf Ministry"},
+  {id:"tamim_bin_hamad", n:"Tamim bin Hamad University for Military and Technology Sciences", s:"education", t:1, p:66, short:"Tamim Univ (Military)"},
 ];
 
 const PEOPLE = [
   // ===== TIER 0 — RULING CORE (Al Thani) =====
   {id:"tamim", n:"H.H. Sheikh Tamim bin Hamad Al Thani", t:0, p:100, s:"gov", roles:[
+    ["qoc","Chairman","board","v"],
     ["qgov","Emir of the State of Qatar","political","v"]],
     note:"Apex of the network. Ultimate authority over Qatar's energy wealth, sovereign capital and foreign policy."},
   {id:"hamad_bk", n:"H.H. Sheikh Hamad bin Khalifa Al Thani", t:0, p:88, s:"gov", roles:[
@@ -796,6 +798,7 @@ const PEOPLE = [
   {id:"saud_bin_nasser", n:"Saud Bin Nasser Al Thani", t:2, p:52, s:"comm", roles:[
     ["ooredoo","Board Member","board","v"]]},
   {id:"yousef_al_obaidly", n:"Yousef Al-Obaidly", t:2, p:52, s:"comm", roles:[
+    ["psg","Board Member (Qatar Sports Investments)","board","v"],
     ["qsi","Board Member","board","v"],
     ["bein","Group Chief Executive Officer","executive","v"],
     ["ooredoo","Board Member","board","v"]]},
@@ -1316,12 +1319,16 @@ const PEOPLE = [
   {id:"richard_verow", n:"Richard Verow", t:2, p:60, s:"comm", roles:[
     ["bein","Chief Sports Officer & Managing Director beIN UK","executive","v"]]},
   {id:"mohammad_al_subaie", n:"Mohammad Al-Subaie", t:2, p:60, s:"comm", roles:[
+    ["psg","Board Member (Qatar Sports Investments)","board","ns"],
     ["bein","Chief Executive Officer beIN MENA","executive","v"]]},
   {id:"adel_mohammed_mustafawi", n:"Adel Mohammed Mustafawi", t:2, p:62, s:"comm", roles:[
+    ["psg","Vice Chairman (Qatar Sports Investments)","board","ns"],
     ["qsi","Vice Chairman","board","v"]]},
   {id:"mohammed_al_emadi", n:"Mohammed Al-Emadi", t:2, p:60, s:"comm", roles:[
+    ["psg","Chief Executive Officer (Qatar Sports Investments)","executive","v"],
     ["qsi","Chief Executive Officer","executive","v"]]},
   {id:"sophie_jordan", n:"Sophie Jordan", t:2, p:52, s:"comm", roles:[
+    ["psg","Board Member (Qatar Sports Investments)","board","ns"],
     ["qsi","Board Member","board","v"]]},
   {id:"mohammad_abdulaziz_al", n:"Mohammad Abdulaziz Al-Subaie", t:2, p:52, s:"comm", roles:[
     ["qsi","Board Member","board","v"]]},
@@ -1600,6 +1607,16 @@ const PEOPLE = [
     ["qu","Chief Strategy and Development Officer","executive","v"]]},
   {id:"nasser_mehsin_al", n:"Nasser Mehsin Al-Adba", t:2, p:58, s:"education", roles:[
     ["qu","General Counsel","executive","v"]]},
+  {id:"mohamed_bin_youssef", n:"Mohamed bin Youssef Al Mana", t:2, p:52, s:"gov", roles:[
+    ["qoc","First Vice President","board","v"]]},
+  {id:"victoriano_melero", n:"Victoriano Melero", t:2, p:60, s:"comm", roles:[
+    ["psg","Chief Executive Officer (Paris Saint-Germain)","executive","v"]]},
+  {id:"anne_descamps", n:"Anne Descamps", t:2, p:58, s:"comm", roles:[
+    ["psg","Executive Team Member, Top Management Committee (Paris Saint-Germain)","executive","v"]]},
+  {id:"mariam_ali_sultan", n:"Mariam Ali Sultan Al Maadeed", t:2, p:52, s:"education", roles:[
+    ["tamim_bin_hamad","Board Member (Trustee)","board","v"]]},
+  {id:"dena_bint_ahmed", n:"Dena bint Ahmed bin Saif Al Thani", t:2, p:52, s:"education", roles:[
+    ["tamim_bin_hamad","Board Member (Trustee)","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1791,7 +1808,7 @@ const AKA = {
   ali_bin_ali:["ABA Holding","Ali Bin Ali Group"],
   al_attiya_motors:["AMTC"],
   qatar_media:["QMC","Qatar General Broadcasting and Television Corporation"],
-  traffic_dept_qatar:["GDT"],
+  traffic_dept_qatar:["GDT","Traffic Department"],
   phcc_qatar:["PHCC","Qatar"],
   qatar_awqaf_ministry:["AWQAFM","Qatar"],
 };

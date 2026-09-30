@@ -192,6 +192,7 @@ const INSTITUTIONS = [
   {id:"al_moosa_arenco", n:"A.A. Al Moosa Enterprises (Arenco Group)", s:"conglomerate", t:3, p:56, short:"Al Moosa/Arenco"},
   {id:"zulekha_healthcare", n:"Zulekha Healthcare Group", s:"health", t:3, p:54, short:"Zulekha Healthcare"},
   {id:"alfred", n:"Alfred Holdings", s:"consumer_disc", t:3, p:52, short:"Alfred Holdings"},
+  {id:"noor_energy_1", n:"Noor Energy 1", s:"utilities", t:2, p:58, short:"Noor Energy 1"},
 ];
 
 const PEOPLE = [
@@ -1583,6 +1584,10 @@ const PEOPLE = [
     ["dof_dxb","Director - Smart Financial Services Division","executive","v"]]},
   {id:"deepa_raja_carbon", n:"Deepa Raja Carbon", t:2, p:62, s:"finance", roles:[
     ["vara","Managing Director and Vice Chair of the Executive Board","executive","ns"]]},
+  {id:"salem_belyouha", n:"Salem Belyouha", t:2, p:58, s:"comm", roles:[
+    ["gdmo","Media Services Director","executive","v"]]},
+  {id:"omar_al_marzooqi", n:"Omar Al Marzooqi", t:2, p:58, s:"comm", roles:[
+    ["gdmo","Director of the Director General's Office","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1712,6 +1717,7 @@ const OWNERSHIP = [
   ["economic_zones_world","dpworld","subsidiary","v"],
   ["drydocks_world","dpworld","subsidiary","v"],
   ["dubai_media_inc","dxbgov","under","v"],
+  ["noor_energy_1","dewa","project company (51% DEWA/25% ACWA Power/24% Silk Road Fund)","v"],
 ];
 
 const FAMILY = [
