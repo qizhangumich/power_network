@@ -1,0 +1,5 @@
+# Manchester City fight back fiercely after guilty verdict
+source: Goal.com
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxPTTZKX0JTWEJUcjFJNU1YRlV2bWlVU3JxamFuUnozdTgybnlUb1VKSFdnckFGcGVocUt2M0ZxQlFUdHdzR012cWh0QjQ1X2hRMGxyMEx0UnVob3FueFdNVGM1U1FkdUhzMExxZzJOamdGVWNITE9nLUs2MU5USlRSMm9SWlhsT1ZrNHZfMzR4QjFyOEMxc1BhcWUzaE5pSGZmTmpv?oc=5
+
+Manchester City fight back fiercely after guilty verdict    Goal.com

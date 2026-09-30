@@ -1,0 +1,5 @@
+# Aldar and Arada form landmark AED 15bln strategic partnership to deliver major new developments in Abu Dhabi
+source: zawya.com
+url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNklDN0t5N214Y1BBUnd4eUZ3WjloVUUxaVl1czJ6MU1VN2F5cFBVSGxjS2YtQjFGakxjNlB6TU1QejBuS050TkxMdjJmZWgzZmhLNmU3cDZUWm5MUlRpZjE1dVdycmZwTVFJbndaandPZC03NXZaMGhJQ204cDhsZUJaT2lZWkd6cWk2dnlpNW01dU43aUJnVXhvUDhYbjczYkRZSEJQMnc1eWE5UkhEV1NzcElxYTBVYnkyTW9TV3hhUWdmaTI1TjViekFzMnJFMGdFQ1o4TXIzZGVHd0cwbUFlb0VsWFFUR2FJ?oc=5
+
+Aldar and Arada form landmark AED 15bln strategic partnership to deliver major new developments in Abu Dhabi    zawya.com

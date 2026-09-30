@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed meets Chairman of General Atlantic
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxQVWg0MGJsWkowTXlOeHg1NWR3NXpiU3EwX1ZNWV9ySUJQbGllVm1pSkhsNTdPUWxZRXlPOXY2ZG13N044RWNQS3VMUUJ4eTZTRlBvai1jeUR3S2xCOFd2Q2dySFB1eEx4UUxSZ1NMVURMSXJKSWJDZjdMMDMzOE1aN2l4cklrekxRX3hONDN0NUswbzBUS010MS05YloxMjFaSlQyaEpXMmN1cjhNNG5IX0tzaTNaNGthLUE?oc=5
+
+Khaled bin Mohamed bin Zayed meets Chairman of General Atlantic    مكتب أبوظبي الإعلامي

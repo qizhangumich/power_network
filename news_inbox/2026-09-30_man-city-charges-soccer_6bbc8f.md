@@ -1,0 +1,5 @@
+# Man City Charges Soccer
+source: chronicleonline.com
+url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcFRUekZMWWtBaWNDNDlrV28yV0FHX3FGN0pMaVhENVNJUlBiTE10NXVHb2lndUY0QjF2WGJNdmRjbGdWSllrdERFSDlBcG1UQ09wR2t4VkVMakZlbWtDVWx6QjJqbmRjNVIwWXJnSkpVV3RZZFVwTEZBUjZXTk9MSnJrdGtoVlRJeUJERzY0V0FsVmo3dEJCS3dxT1NqMUg4YkVoa1Bsa3dEV0FiY1hQdXBreDQ4LUlr?oc=5
+
+Man City Charges Soccer    chronicleonline.com

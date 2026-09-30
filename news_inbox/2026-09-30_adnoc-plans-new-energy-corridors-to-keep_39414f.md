@@ -1,0 +1,5 @@
+# Adnoc plans new energy corridors to keep rising output ambitions on track
+source: Upstream Online
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPdkFvc2tBV1RSTEpSa3E5cFVzQW9IZWVfOElWVVBGQWdaUVR1V1RZYkhNVlREV0VPVGpONE1DUjV4dXFUeHpXUTdxd3NBbC1DcVlHRFVITHd3ZTh4UWdNUDRRWlV3TDlSbXM1RDMwcndkMjJtSEl4U2tWQUJEa2tuSzRQdm5hdXc0NGxVbEw0ZW9HeGhPdjVXY3djWndTSEJIRkVxY1F2U3M4bTJQTnJJWmlLeTRHekZadkl2dl9UNA?oc=5
+
+Adnoc plans new energy corridors to keep rising output ambitions on track    Upstream Online

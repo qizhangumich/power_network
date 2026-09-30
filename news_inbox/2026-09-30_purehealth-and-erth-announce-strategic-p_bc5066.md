@@ -1,0 +1,5 @@
+# PureHealth and Erth announce strategic partnership to redefine patient experience through a hospitality-led model
+source: zawya.com
+url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYnZvTW9CUmdEM2x6bXhnVnlWeFFxTm1jSnZVQXpuNWwtSWI3cXU5R0ItXzFlTm03UmJydHF2RzBxbmsxb09IZ3Q4bm03VHZQMzRmTW54VFl1VDdsNHV0bjhwY3VYZTZzWlpySFN5Um12SmlUbTA0RGFmMFFob01aaG8wSTY2NTZqeGdKNlJWT2xWM0x4Y05jaWlnc2w2NHBKaDhqYjRNZVlTa1JjWmJMazVzRDRDblhiZTR3X1BqNjNreVgzaWRaZUNrRVhraHpRaWRkczdGd0sxZjU2a0UwbmsyWl84VHoxU3A4TEM2RHowZw?oc=5
+
+PureHealth and Erth announce strategic partnership to redefine patient experience through a hospitality-led model    zawya.com

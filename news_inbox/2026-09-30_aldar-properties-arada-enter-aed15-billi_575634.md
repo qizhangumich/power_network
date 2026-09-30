@@ -1,0 +1,5 @@
+# Aldar Properties, Arada Enter AED15 Billion Abu Dhabi Development Partnership
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOXJ5N05wRVZoM2plQXBaWnE1V3Jsb2VXeTRIUEVsd0l3UHlLbGhEMlQ3RkE4NXJtY1JWUzdKRkh2MVc4d1g4R3JHa0hYQjJqcy1sUzRyNWFoQTVIbWxhUTdoLWNHSTlVdVA1VG5jbkxoc3JhblhRTmRqWXNENUxnRkNrdHFNcXRYRjZEcUNhcFMxb0JYWURiY3dKUWxvTkY3Ujc0djRnUjd0Zkd1OHVRU05qMjlveE5JZTRHVkU0ZDJ3R3o3UEw1UA?oc=5
+
+Aldar Properties, Arada Enter AED15 Billion Abu Dhabi Development Partnership    marketscreener.com

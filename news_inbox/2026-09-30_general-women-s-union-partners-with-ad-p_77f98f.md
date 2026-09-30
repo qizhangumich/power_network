@@ -1,0 +1,5 @@
+# General Women’s Union partners with AD Ports Group to organise 1st introductory session for international track of ATLG training programme
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMikwJBVV95cUxOSE5tQlF1RkM4N2QxYlFyUlZySXFVdGc3MWdycE1MelFBM1dwazIwWWNaZzdOSHV4aUpmSks4YjM2RnNfVF93OUI3UVFnb1M1aDFJWDBJMHdUaUtEWk1qTDhIaGNILW5OcVFUc3Mwb0s3ZHE0YjhrTkY1WUxUMkc5R3h2RzhabFowOXFXbDlIU0FRb2t1d0RVbFFMOV9vWFUzUDJKQUh3MTV3VG9DQ3VVRDJwQmNFTjFKM2ZlQkhWUVlhSjNkT1BKVVBfR1c3RGdEUzgyLXlkNDZZeE9tZUxqVzlsQXh0UExFNHJraWhjUXBqLW1DU3p3YjNyUDBEQ2R2RG5FQzJiRG1jb3ZUcXF5SjdhNA?oc=5
+
+General Women’s Union partners with AD Ports Group to organise 1st introductory session for international track of ATLG training programme    مكتب أبوظبي الإعلامي

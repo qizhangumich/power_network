@@ -1,0 +1,5 @@
+# Luckin Coffee announces the appointment of Philip Yifei Bao to its board of directors
+source: Comunicaffe International
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxOSG0xSlNnb0t2RWhMREdZY05HOExpQjBMZkYxT0QzX2ZXUDVSMmlIeHk0c0puT0lORXdFVkVtWmFIU2tjR2U5eDhfNUpDUjBwMlk0VVlSaEw4ZU51MVRibzJIM09OUVBqNjA4dDk5WDhKbFRCcUM0THE5VFh3RGdqNVVCZkdvNy1ndXp6dHVYU3Fma0hOeThqYWN1cThxLXFZMFlsb0hKanZpY2l4TVZ3VVJmMW8?oc=5
+
+Luckin Coffee announces the appointment of Philip Yifei Bao to its board of directors    Comunicaffe International

@@ -1,0 +1,5 @@
+# Aldar becomes title sponsor of Abu Dhabi Championship
+source: Golf Business News
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxOU1dGU1FKYlhPLWRNYlhpNXZzSFFIek9qb3hpT1ltQ2pPd1BNbFFwc0RqWmp1cDVwWTh0b1p6cWdLb1F1ZlFyV0hocEg4c2l0dzNXSm9HTWxIQzI0dDBHeU1QdDJHNVhYMVpmTWxqNVlCVnFtVG44anRLM2RsQnVnbGw0R1VZbFowVFJJUU4tSGdwU0xhN0xOcGZNVW9jMkM3WFNFNENVTE1yajJWZjI0Zw?oc=5
+
+Aldar becomes title sponsor of Abu Dhabi Championship    Golf Business News
