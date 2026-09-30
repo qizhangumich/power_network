@@ -1,0 +1,5 @@
+# Man City chairman releases statement on reports of financial rules breach verdict
+source: The Independent
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxQd3poRTByeW50Q2ZqNkpUZ2lfeWNKZENQeE0yYmI5MmxUTnJ0QXp5ZC1FX2JicnZsRDBReVJlUGFjS0NxNUU5Z3ctUjBYVXNkNzY3UEYyUzdyNy1xSFYtVWM1TWNUb0x3alpmOFpKb0lRaXZQUVFDN18tSkVvWkc1WDU0OTZSQlIwYTVFRHhSNW9ZZnl4TXRXRlJYSE9kajhKNENrMnQ3VV90c01Lb294RDltc2JjclpNeWt5TWc1dXpSVDVD?oc=5
+
+Man City chairman releases statement on reports of financial rules breach verdict    The Independent

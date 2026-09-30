@@ -1,0 +1,5 @@
+# TASI: 38 stocks fall to 52-week lows
+source: Argaam
+url: https://www.argaam.com/en/article/articledetail/id/1939893
+
+
