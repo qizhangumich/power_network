@@ -1,0 +1,5 @@
+# Man City CEO accuses Premier League of ‘conspiracy’ in message to staff
+source: hayters.com
+url: https://news.google.com/rss/articles/CBMilAFBVV95cUxPYW93R2E4Mzk1bXpKY054M2VBelZnUDZINXZyVWp1ZjZkd0lGcllFNW5tanA4UnBOb3FqQm9lVzZGMm9JZDVfWUVXMEV0cFJzTWFqc200dF8zX3ZvQ3FYcWJIQXBoZUI4X1FMYXJPeDd2cm1YMEFlaTNnaHl5MmRhTnAwWFUxMFVPOS01a25EQzhtV3gw0gGaAUFVX3lxTFBnMENiYnJtaDFsY0pKQ3ZtZTYxRk9iU0FiM2JnVy1EenBHNFFTSURVMGlBZ2c3XzlyazB0VzBRTkgxM2dkNXhsM0lEOWZRb0lpdmU5bXdZWWlQNThiOFM0WmIzYkpnc050UlJXaEV6aGowRUtFdEF0WnE1akRzRHBaaUk4cUlncm9Ldy1mamFwaXJnUEMycFUzMnc?oc=5
+
+Man City CEO accuses Premier League of ‘conspiracy’ in message to staff    hayters.com

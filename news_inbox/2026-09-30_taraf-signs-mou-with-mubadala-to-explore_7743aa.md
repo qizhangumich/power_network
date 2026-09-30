@@ -1,0 +1,5 @@
+# TARAF Signs MoU with Mubadala to Explore Major Mixed-Use Waterfront Development on Al Reem Island
+source: Mubadala Investment Company
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxNTlVkcG9jcDhNWVZXZXNpcVZzTzMxZmNRcWczVHIycldRRUhlQmthM1Zjd0o4TDJNY0w5R1VzMUNpWEN0RjZwcV9UdDY2czZiaGVPRkJBTXN2Wnl3aVFqTWJUbWowMFUwSGlCWHgtNXFhN2lsWm45OWtLanlzdVpjMlpmc084SXZkYVUzcEtxNm9XanB2cnhvX1ZWY2dIMDZPNlJ3SUhMSUQtd09UYnFqOWx5c0d2QjJrS2xyTEppRS1wNUpaSFZ2aUlB?oc=5
+
+TARAF Signs MoU with Mubadala to Explore Major Mixed-Use Waterfront Development on Al Reem Island    Mubadala Investment Company

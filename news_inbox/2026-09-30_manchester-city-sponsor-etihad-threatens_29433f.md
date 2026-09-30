@@ -1,0 +1,5 @@
+# Manchester City sponsor Etihad threatens legal action against Premier League
+source: The Times
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNMTZZMWM3LXctOFZIX2xsQm9Nb0EyZ2dZTHlBMWtrOHRFYldTQWtOYlFRSXRSS2lKMHZIeFl5Ym1rR21INDhwY1ZxSjdJY0xhRjhwZEtPbDAyQ0stYVhjeTBSRF9ZbElqNS12c0U4bzNfTVdvSU5zX2JSU2dCMUdYbW50VDZWMmtxLU42SXpBeVZSVGtNZUhJTzJFdzUtMGN2cTFQV2ZTQW9tQWZKWUFGWGJtbWwxd00?oc=5
+
+Manchester City sponsor Etihad threatens legal action against Premier League    The Times

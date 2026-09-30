@@ -1,0 +1,5 @@
+# City sponsor Etihad Airways considering legal action against the Premier League
+source: The Guardian
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZUhhMG9VSE96cFF4cEl5VXdBN2gwZkRXaXo3RFFRTk15NG1mV0JPejF5WDdVQVVMa1lvOUQwczYzVEpzYWY0Q3ZzX0pMUUF0VnlPaHpzN0VQWmNYYVBKRi1uU29hclB2X1ZNeTlaRWlYVksyRnJpYWVDaTE4VlJnc016eDlpbXBWdGJtTnhKTzZscnY3ZFVpNEEwSXVJSXNnajNuWGFjdXQtS1hadWFLbUJMQnZjMkxNUF9B?oc=5
+
+City sponsor Etihad Airways considering legal action against the Premier League    The Guardian

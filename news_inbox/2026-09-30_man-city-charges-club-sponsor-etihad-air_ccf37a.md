@@ -1,0 +1,5 @@
+# Man City charges: Club sponsor Etihad Airways considering legal action against Premier League
+source: Sky Sports
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd1hhOEVtdDcwcHItUFFRRzZ3SWNQMmRnTlBIUG1jb2t1Z3JfZ25pQi1xNlBacExYaTA5NWdWeURvS19kRkRfMTlzNmRaT3BSdzktODExWGg1TnMwN21TNlg3eVRUN1YyVHRUZmtodHdVSzRVdlVGMlR0X2ExUXhaM1ctbkJOTFQ5UFdFaDBmN1haUWNXdHBCdHRMLV8tNnFtMzY5RThyRkNCN3VJdXlQQWh6Y3FTeHJxYVdRNGxuRXY5R0FYc0RTVjlyc0kxenV6SWdOUUxhV2I?oc=5
+
+Man City charges: Club sponsor Etihad Airways considering legal action against Premier League    Sky Sports

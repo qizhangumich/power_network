@@ -1,0 +1,5 @@
+# ADNOC-backed AIQ secures deal to enter Indian energy markets
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxPTHhaN1JpQjV6eGo0SVdQVWpvUng5N1hrU0ZNQ3NPcGZXMkp4MmphWUVlSjEtamJkSUxkSmtjOXNXc1FHLXVaWkJUb21UeVhOaThZSG1VUGxld19YRk5vSXJaR0hQTGFHdHVNUFdFT0lqUXo3THVmU1N1TE1YZkJfaWl1RkNkNTF6c2RRZm9kcFVQQkVKUEFUeGtxTlhqR0tiR0FGOXE2YTFoYTQ4SVNteXpsQQ?oc=5
+
+ADNOC-backed AIQ secures deal to enter Indian energy markets    marketscreener.com

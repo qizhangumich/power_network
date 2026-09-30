@@ -1,0 +1,5 @@
+# Temasek deepens Middle East ties with Riyadh, Abu Dhabi offices, active engagement in Qatar
+source: Pensions & Investments
+url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMHc1bWxQMUR3VDhqdWxjNHVMdUxOYnc3RWZoWm1SanhKZFNPbU5lRVBUbmpRM3JhTXNtUlB0SW9BUnJYQ3dvYzhOcUQ2ZWNxRWFkNWFOYXowaGtPdDAyaXIyczljVXZibzh3RU1rSERKa2lRczA5UmRuRDVxb3VVV1ByNzRUWlNPSm1PNDVSLTNjSEFlR29RN0Zmc1ltcW1KZWxIVTBUSVJZTnY0c19hT2N6TkhhNEQ0UHd1bGZVbjBZdzRRaDBJWlkzY19KU2tHei1xa0QtWnNGZHY0YnNtUkVJS2NrNERFZnVXUWNGbUdFZw?oc=5
+
+Temasek deepens Middle East ties with Riyadh, Abu Dhabi offices, active engagement in Qatar    Pensions & Investments
