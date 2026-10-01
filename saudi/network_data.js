@@ -175,7 +175,8 @@ const INSTITUTIONS = [
   {id:"lst_6012", n:"Raydan Food Co.", s:"consumer_disc", t:2, p:50, short:"Raydan Food Co."},
   {id:"lst_6013", n:"Development Works Food Co.", s:"consumer_disc", t:2, p:50, short:"6013"},
   {id:"lst_6014", n:"Alamar Foods Co.", s:"consumer_disc", t:2, p:50, short:"Alamar Foods Co."},
-  {id:"lst_6015", n:"Americana Restaurants International", s:"consumer_disc", t:2, p:50, short:"6015"},
+  {id:"lst_6015", n:"Americana Restaurants International PLC", s:"consumer_disc", t:2, p:65, short:"Americana"},
+  {id:"adeptio", n:"Adeptio AD Investments Ltd", s:"conglomerate", t:3, p:54, short:"Adeptio"},
   {id:"lst_6016", n:"Burgerizzr Co.", s:"consumer_disc", t:2, p:50, short:"Burgerizzr Co."},
   {id:"lst_6017", n:"Jahez International Co.", s:"consumer_disc", t:2, p:50, short:"6017"},
   {id:"lst_6018", n:"Sport Clubs Co.", s:"consumer_disc", t:2, p:50, short:"Sport Clubs Co."},
@@ -2167,6 +2168,7 @@ const PEOPLE = [
 ];
 
 const OWNERSHIP = [
+  ["lst_6015","adeptio","~66% direct stake (Adeptio AD Holdings Ltd, equally owned by Mohamed Alabbar and a PIF subsidiary, Saudi Company for Gulf Food Investments)","v"],
   ["lst_4332","jadwa_investment","fund manager","v"],
   ["lst_4342","jadwa_investment","fund manager","v"],
   ["lst_2380","aramco","majority shareholder (~60% equity)","v"],

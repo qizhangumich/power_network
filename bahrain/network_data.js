@@ -2642,7 +2642,7 @@ const PEOPLE = [
   {id:"deepa_chandrasekhar", n:"Deepa Chandrasekhar", t:2, p:58, s:"finance", roles:[
     ["united_gulf_bank","Senior Vice President, Chief Compliance Officer & MLRO","executive","ns"]]},
   {id:"ahmed_mohamed_janahi", n:"Ahmed Mohamed Janahi", t:2, p:60, s:"industry", roles:[
-    ["bahrain_airport","Chief Executive Officer","executive","ns"]]},
+    ["bahrain_airport","Chief Executive Officer","executive","v"]]},
   {id:"mohamed_alkhenaizi", n:"Mohamed AlKhenaizi", t:2, p:58, s:"industry", roles:[
     ["bahrain_airport","Chief Commercial Officer","executive","ns"]]},
   {id:"ali_rashed_alaraifi", n:"Ali Rashed Alaraifi", t:2, p:58, s:"industry", roles:[

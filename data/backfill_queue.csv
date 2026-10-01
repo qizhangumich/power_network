@@ -1,6 +1,7 @@
 ﻿region,institution_id,name,sector,power,people_linked,status
 abudhabi,microsoft,Microsoft,tech,80,0,pending
 abudhabi,blackrock,BlackRock,finance,76,0,pending
+abudhabi,lst_ords,Ooredoo Q.P.S.C.,comm,75,0,pending
 abudhabi,twopointzero,2PointZero (pre-merger IHC platform; merged into 2PointZero Group 2025),sovereign,74,0,pending
 abudhabi,openai,OpenAI,tech,74,0,pending
 abudhabi,nvidia,NVIDIA,tech,74,0,pending
@@ -41,6 +42,7 @@ saudi,sanabil,Saudi Arabian Investment Company,sovereign,66,0,pending
 saudi,kfshrc,King Faisal Specialist Hospital and Research Centre,health,66,0,pending
 saudi,mobily,Etihad Etisalat Company (Mobily),comm,66,0,pending
 qatar,gen_tax_authority,General Tax Authority,gov,65,0,pending
+saudi,lst_6015,Americana Restaurants International PLC,consumer_disc,65,0,pending
 abudhabi,ccad,Cleveland Clinic Abu Dhabi,health,64,1,pending
 abudhabi,uaeu,United Arab Emirates University,education,64,1,pending
 abudhabi,tadweer,Tadweer Group,industry,64,1,pending
@@ -138,6 +140,7 @@ dubai,jumaalmajid,Juma Al Majid Group,conglomerate,60,0,pending
 dubai,borse_dubai,Borse Dubai Limited,finance,60,0,pending
 dubai,mag,MAG Group Holding,realestate,60,0,pending
 dubai,economic_zones_world,Economic Zones World,industry,60,0,pending
+kuwait,lst_stc,Kuwait Telecommunications Company K.S.C.P. (stc),comm,60,0,pending
 kuwait,ntec,National Technology Enterprises Company,tech,60,0,pending
 northern,ajman_ded,Ajman Department of Economic Development,gov,60,1,pending
 northern,sctda,Sharjah Commerce and Tourism Development Authority,gov,60,1,pending
@@ -440,6 +443,7 @@ qatar,gulf_helicopters,Gulf Helicopters Company,industry,54,0,pending
 qatar,gulf_drilling_intl,Gulf Drilling International Limited,energy,54,0,pending
 qatar,acrps_doha_inst,Arab Center for Research and Policy Studies,education,54,0,pending
 qatar,qatofin,Qatofin Company Limited,materials,54,0,pending
+saudi,adeptio,Adeptio AD Investments Ltd,conglomerate,54,0,pending
 saudi,d360_bank,D360 Bank,finance,54,0,pending
 saudi,safe,National Security Service Company,industry,54,0,pending
 saudi,sago,Saudi Grains Organization,gov,54,0,pending
@@ -516,7 +520,6 @@ saudi,ahab,Ahmad Hamad Al Gosaibi & Brothers,conglomerate,52,0,pending
 saudi,red_sea_hospital,The Red Sea Hospital,health,52,0,pending
 saudi,stc_channels,Saudi Telecom Channels Company,comm,52,0,pending
 abudhabi,lst_eand,Emirates Telecommunications Group Company PJSC,comm,50,0,pending
-abudhabi,lst_ords,Ooredoo Q.P.S.C.,comm,50,0,pending
 abudhabi,lst_adports,Abu Dhabi Ports Company PJSC,industry,50,0,pending
 abudhabi,lst_mbme,MBME Group PJSC,health,50,0,pending
 abudhabi,lst_purehealth,Pure Health Holding PJSC,health,50,0,pending
@@ -612,7 +615,6 @@ kuwait,lst_ship,Heavy Engineering Industries and Shipbuilding,industry,50,0,pend
 kuwait,lst_ifahr,IFA Hotels and Resorts,consumer_disc,50,0,pending
 kuwait,lst_oulafuel,Oula Fuel Marketing,consumer_disc,50,0,pending
 kuwait,lst_gfh,GFH Bank B.S.C.,finance,50,0,pending
-kuwait,lst_stc,Kuwait Telecommunications Company,comm,50,0,pending
 kuwait,lst_integrated,Integrated Holding Co KSC,industry,50,0,pending
 kuwait,lst_beyout,Beyout Holding Company K.P.S.C,finance,50,0,pending
 kuwait,lst_alftaqa,Action Energy Company K.S.C.P,energy,50,0,pending
@@ -730,7 +732,7 @@ oman,lst_oeio,Oman & Emirates Investment Holding Company SAOG,finance,50,0,pendi
 oman,lst_ones,Oman National Engineering & Investment Company SAOG,industry,50,0,pending
 oman,lst_ouic,Oman United Insurance Company SAOG,finance,50,0,pending
 oman,lst_aaic,Al Anwar Investments SAOG,finance,50,0,pending
-oman,lst_ords,Omani Qatari Telecommunications Company SAOG (Ooredoo),comm,50,0,pending
+oman,lst_ords_om,Omani Qatari Telecommunications Company SAOG (Ooredoo),comm,50,0,pending
 oman,lst_sihc,A'Sharqiya Investment Holding Co. SAOG,finance,50,0,pending
 oman,lst_brde,Barka Desalination Company SAOG,utilities,50,0,pending
 oman,lst_abrj,Abraj Energy Services SAOG,energy,50,0,pending
@@ -892,7 +894,6 @@ saudi,lst_6002,Herfy Food Services Co.,consumer_disc,50,0,pending
 saudi,lst_6012,Raydan Food Co.,consumer_disc,50,0,pending
 saudi,lst_6013,Development Works Food Co.,consumer_disc,50,0,pending
 saudi,lst_6014,Alamar Foods Co.,consumer_disc,50,0,pending
-saudi,lst_6015,Americana Restaurants International,consumer_disc,50,0,pending
 saudi,lst_6016,Burgerizzr Co.,consumer_disc,50,0,pending
 saudi,lst_6017,Jahez International Co.,consumer_disc,50,0,pending
 saudi,lst_6018,Sport Clubs Co.,consumer_disc,50,0,pending

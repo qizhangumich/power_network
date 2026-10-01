@@ -80,7 +80,7 @@ const INSTITUTIONS = [
   {id:"lst_oulafuel", n:"Oula Fuel Marketing", s:"consumer_disc", t:2, p:50, short:"Oula Fuel Marketing"},
   {id:"lst_gfh", n:"GFH Bank B.S.C.", s:"finance", t:2, p:50, short:"GFH Bank B.S.C."},
   {id:"lst_warbabank", n:"Warba Bank K.S.C.P.", s:"finance", t:2, p:60, short:"Warba Bank"},
-  {id:"lst_stc", n:"Kuwait Telecommunications Company", s:"comm", t:2, p:50, short:"STC"},
+  {id:"lst_stc", n:"Kuwait Telecommunications Company K.S.C.P. (stc)", s:"comm", t:2, p:60, short:"stc Kuwait"},
   {id:"lst_integrated", n:"Integrated Holding Co KSC", s:"industry", t:2, p:50, short:"INTEGRATED"},
   {id:"lst_beyout", n:"Beyout Holding Company K.P.S.C", s:"finance", t:2, p:50, short:"BEYOUT"},
   {id:"lst_alftaqa", n:"Action Energy Company K.S.C.P", s:"energy", t:2, p:50, short:"ALFTAQA"},
@@ -1083,7 +1083,7 @@ const PEOPLE = [
   {id:"awrad_al_enezi", n:"Awrad Al-Enezi", t:2, p:46, s:"realestate", roles:[
     ["lst_kre","Head of Investor Relations","executive","v"]]},
   {id:"diraar_yusuf_alghanim", n:"Diraar Yusuf Alghanim", t:2, p:62, s:"finance", roles:[
-    ["lst_markaz","Chairman","board","ns"]]},
+    ["lst_markaz","Chairman","board","v"]]},
   {id:"faisal_abdulaziz_al", n:"Faisal AbdulAziz Al-Jallal", t:2, p:62, s:"finance", roles:[
     ["lst_markaz","Vice Chairman","board","ns"]]},
   {id:"ayman_abdulatif_al", n:"Ayman Abdulatif Al-Shaya", t:2, p:52, s:"finance", roles:[

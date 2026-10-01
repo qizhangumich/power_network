@@ -570,7 +570,7 @@ const PEOPLE = [
   {id:"justin_shields", n:"Justin Shields", t:2, p:58, s:"comm", roles:[
     ["du","Chief Information Officer","executive","v"]]},
   {id:"malek_al_malek", n:"Malek Al Malek", t:2, p:62, s:"comm", roles:[
-    ["tecom","Chairman","board","ns"],
+    ["tecom","Chairman","board","v"],
     ["du","Chairman (Independent Non-Executive)","board","v"],
     ["dubaiholding","Group CEO, Dubai Holding Asset Management","executive","v"]]},
   {id:"ahmad_julfar", n:"Ahmad Julfar", t:2, p:62, s:"comm", roles:[

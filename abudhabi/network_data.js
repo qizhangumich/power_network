@@ -170,7 +170,7 @@ const INSTITUTIONS = [
   {id:"cliffordchance", n:"Clifford Chance", s:"industry", t:3, p:52, short:"Clifford Chance"},
   {id:"raytheon_em", n:"Raytheon Emirates", s:"industry", t:3, p:58, short:"Raytheon Emirates"},
   {id:"lst_eand", n:"Emirates Telecommunications Group Company PJSC", s:"comm", t:2, p:50, short:"EAND"},
-  {id:"lst_ords", n:"Ooredoo Q.P.S.C.", s:"comm", t:2, p:50, short:"Ooredoo Q.P.S.C."},
+  {id:"lst_ords", n:"Ooredoo Q.P.S.C.", s:"comm", t:1, p:75, short:"Ooredoo"},
   {id:"lst_adports", n:"Abu Dhabi Ports Company PJSC", s:"industry", t:2, p:50, short:"ADPORTS"},
   {id:"lst_mbme", n:"MBME Group PJSC", s:"health", t:2, p:50, short:"MBME Group PJSC"},
   {id:"lst_purehealth", n:"Pure Health Holding PJSC", s:"health", t:2, p:50, short:"PUREHEALTH"},

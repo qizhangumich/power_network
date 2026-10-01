@@ -397,7 +397,7 @@ const PEOPLE = [
     note:"Appointed January 2024."},
   {id:"mohammed_transport", n:"H.E. Sheikh Mohammed bin Abdulla bin Mohammed Al Thani", t:1, p:70, s:"gov", roles:[
     ["qfz","Vice Chairperson","board","v"],
-    ["qatarrail","Chairman","board","ns"],
+    ["qatarrail","Chairman","board","v"],
     ["mot_q","Minister of Transport","political","v"]],
     note:"Appointed November 2024."},
   {id:"almarri_labour", n:"H.E. Dr. Ali bin Samikh Al Marri", t:1, p:68, s:"gov", roles:[

@@ -719,7 +719,7 @@ const PEOPLE = [
   {id:"eisa_saif_ahmed", n:"Eisa Saif Ahmed Handhal Altamimi", t:2, p:52, s:"finance", roles:[
     ["sharjah_islamic_bk","Director","board","ns"]]},
   {id:"mohamed_ahmed_abdalla", n:"Mohamed Ahmed Abdalla Mohamed", t:2, p:60, s:"finance", roles:[
-    ["sharjah_islamic_bk","Chief Executive Officer","executive","ns"]]},
+    ["sharjah_islamic_bk","Chief Executive Officer","executive","v"]]},
   {id:"omar_ali_al", n:"Omar Ali Al Ghazal", t:2, p:58, s:"gov", roles:[
     ["shjpolice","Director General, General Department of Operations and Security Support","executive","v"]]},
   {id:"rohit_vashistha", n:"Rohit Vashistha", t:2, p:60, s:"sovereign", roles:[
