@@ -1,0 +1,5 @@
+# Etihad Airways to consider legal options against Premier League after Man City verdict
+source: The Independent
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxOM21oNmZ2MXdRYlp3amstUTNBNEhEZkk5LTZsM3FnaTBtRzl5d2xMY2VLeUZ0alFlZnhMYnJlOUl1YUhlcUdoZHFCbERhWE1QeHRHeE41VzNTQm4yemZXdUJJbWlkazJfMVo2Y0hMX2hQT0ZlOURJSlZ6NjRLX3J2cFczLThBSVBvcEY4X1FyQWlJNUdhbmZUazhUUVZ1ZGNyWWdYd2JlRXhLQVdWakVqWER3S1ZtMU80Rnc?oc=5
+
+Etihad Airways to consider legal options against Premier League after Man City verdict    The Independent

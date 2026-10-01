@@ -1,0 +1,5 @@
+# Manchester City chairman Khaldoon Al Mubarak protected by diplomatic immunity
+source: The Independent
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxOVno0Q0NRR0lfOHNsSVRqUWxicXZRWm9Xa20yRG1fRThZY1ZVZS1EUG5LeU1uR1A4cldfeGk4bTU2S1VtbGF2bGo4RzZ6T1llQk5LdjlkVllsRTd4b3ljcGlhUFlLNDlrZERBeWxybUtaYnY3VUVjMGxGSy1NOWNsaXBaVlRkTk9Xd0xCbEJZMXlDYmUxWk1FVERXSkJfd0xmWFRwbjBQbUcwUGxLX2s5LTJwTXA?oc=5
+
+Manchester City chairman Khaldoon Al Mubarak protected by diplomatic immunity    The Independent

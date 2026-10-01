@@ -1,0 +1,5 @@
+# Man City sponsor Etihad Airways slams Premier League, seeking legal advice
+source: Flashscore.com
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxPR2NXRkxKeVNFUllob0F3S3pmYXVQa2dVTFNKRnc0SnhtS190Y1lHTXlQeGR1Z1VhNVU2MlB2ZGQ2MHhFS0xTTklUbmdlaVhTUXd4N2c0Q1c5eXMxY2N1QW9WaUFzd0VUWVJmWGlmVlEzODdzRS05ODVSMThQZ2xRbmtpVVhyS1dmZ1RjQU91aU5TS2c1bkxDWGxEdzdDdzR2T3k4djZIcHMwQTVZbGxVYUFydTVhQQ?oc=5
+
+Man City sponsor Etihad Airways slams Premier League, seeking legal advice    Flashscore.com

@@ -1,0 +1,5 @@
+# Clear Channel Outdoor Expects Mubadala Capital-Led Acquisition To Close Early In Q4 2026
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxPMEgxdC1TSmIxMTl6ZFRBTFVzR0U1dXcycUdaNXNvTWd2Szkwd3NWS09CNUdSeWpubUtEdWtoZ0JBbHBjdXI2aWlfVG9GTFVZMUJVUHNHUFNVcnV3N3RiU253Nm91b0pzakpQWFFQZEkxS1RKTG1BMWdvbXhjZFBya3A0NUktb0lDTTA0ZkR1T25EOVB0UU9sNlYxMWVLOU9tTlNNSWlXc1VfVUZsSW5MdE5nZUJ5MDhQQVNsdGVobGo2OC13cHIxdFgwdnVKQjJIMFB0X0c3cGxuc2dMb0dVNkk3bTdVdGRreEIxUlZWUQ?oc=5
+
+Clear Channel Outdoor Expects Mubadala Capital-Led Acquisition To Close Early In Q4 2026    TradingView

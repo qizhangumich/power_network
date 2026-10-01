@@ -1,0 +1,5 @@
+# India, UAE to step up local currency trade, payment system integration; aim $200 bn trade by ’32
+source: orissapost.com
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbTRROHdCeFVkdC12ZzBXb2pHMlNtaUhOSWVheGgyWUU0bXVjSjZDb3RocEpqalo0ekFscXJoNmhHTUpyMkp3WFdybnRoWE10SVdJdHJUa05JR2F6a0FnOHlGdDc2M3JhWEtHV3I5b08wREFNSUh3RFBhY2FmbGhKS1A3M1N1RFVLbkZxM3R6YU9qbnB1UkZnU1dRakhacG12T0xvS0dnM0JFUWtROW9lQU92cTd1eGZDcWJF0gG7AUFVX3lxTE9tNFE4d0J4VWR0LXZnMFdvakcyU21pSE5JZWF4aDJZRTRtdWNKNkNvdGhwSmpqWjR6QWxxcmg2aEdNSnIySndYV3JudGhYTXRJV0l0clRrTklHYXprQWc4eUZ0NzYzcmFYS0dXcjlvTzBEQU1JSHdEUGFjYWZsaEpLUDczU3VEVUtuRnEzdHphT2pucHVSRmdTV1FqSFpwbXZPTG9LR2czQkVRa1E5b2VBT3ZxN3V4ZkNxYkU?oc=5
+
+India, UAE to step up local currency trade, payment system integration; aim $200 bn trade by ’32    orissapost.com

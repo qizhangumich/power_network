@@ -1,0 +1,5 @@
+# Mubadala and TARAF Partner with Kerzner International to Introduce One&Only Private Residences on Al Maryah Island
+source: Mubadala Investment Company
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOaEVwVUFDaWRYT0NBNXI5TDFFUkdhSE1pWjRMQmRieWtkWUVDSjJWa3ZLMmowQjJNZjZfbWVGd1M3NWRGOENnLUNUMVpOREtRUHQ1Z0lNczFITnVMbWhuamhNQXg4aFF0ekJLTUxzNDhLdUNWWVAxelJLQV9ack9Rd2dodkFsLTlWVFZTT1hoOE9YekZjNjk2TUZ1bUEyRkJ5aUM5U2hNOEFpYXAySkNuWi1rVmNrUlN3WDZzMEVNUHAxcEpNMVhKZ0MwM2FUcEE4T3VHSGRySjRPZzlobnVBb1BJb0dnQQ?oc=5
+
+Mubadala and TARAF Partner with Kerzner International to Introduce One&Only Private Residences on Al Maryah Island    Mubadala Investment Company

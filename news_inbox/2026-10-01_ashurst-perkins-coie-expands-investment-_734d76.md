@@ -1,0 +1,5 @@
+# Ashurst Perkins Coie expands Investment Funds offering with Abu Dhabi partner hire
+source: The National Tribune
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxOOTlhX3lVRUxjbFI0N2VraVpoT0I4LXpWZThIUE9hY3Nzb3l3THhRSlc1TEFHV05BcDJwRGtUYU1SNHZQY1pfUEZ2ZGR0WjI5cHdGNEZ3VmtvY2tiMlNOTGJIblpxQkQ4N2MzeW5zd05peE12V3Nob3p4aWl1RWhHVGpQdXlsYmU1R2czVjlJazFURHdHOWd5TXR2bFhqM2JxYzM3YzM4WElBQnJnTFBOYzN0amh6cTJfVkE?oc=5
+
+Ashurst Perkins Coie expands Investment Funds offering with Abu Dhabi partner hire    The National Tribune

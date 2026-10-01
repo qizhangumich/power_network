@@ -1,0 +1,5 @@
+# Unexpected twist in Manchester City scandal: Club chairman has diplomatic immunity
+source: todaypress.tv
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNb2J4TG5td2xwMS1YT095VG9LdGNwRG9OeU9hUTM3Q2JDMlFNZkdXbk5NMlRqZEx0cjVJdkpxZVBvMmFNc0I5OEJNU0xicV94ZVYyVEUyZG1mcGtHRkhyc01IREZnODQ0NGplcVdNOWZXYzNMSlJ5SmtaaUlwMkZHQ0xFbTlLSjh3RUNPQzZoX05peXJ5bDJpbDFrS3V6UTFmZVpubWtXcGVaRFNoTUxwZV8wVEc?oc=5
+
+Unexpected twist in Manchester City scandal: Club chairman has diplomatic immunity    todaypress.tv

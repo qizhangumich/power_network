@@ -1,0 +1,5 @@
+# Telecom news: TM Forum, Space42, Viasat, Angola Cables, Ciena
+source: TelecomLead
+url: https://news.google.com/rss/articles/CBMilwFBVV95cUxNQTl3YTY5SHUzX3VUOXFMZzRKdVdWQUpyam9weDZBOWVzOUNQV3FfZS1QMWxOQ3BfbnJ2TTAtUzFPLWJmU1VNR25ULXg1elhSNU4wWm9xVTJVdm43aGlsX240QTFpRF9MRkZMTmgySUNqNFRKM21RdmdPTnFYbGpLUmZRMm1QLU1iTVU2MEl5SXA1bndGWkdB0gGfAUFVX3lxTE9iTnhEbXd0cU9sYnMtRlJxdElqVGV1QmRHM0NKeDhMQ21jYzNIdkNJNURDS01LcGYtbkhnR3ZMUS1XY3MtRnlpOGlPY29sWk1FSGVBdGZBVWh1cGRVTW1Sd1ktSFVtVmVBVWtycWktNUVCdkZrN2c4bDhCeUJ2QnhGUDlfMDgxNzJuZFNCVzZuTHVRR21raGx2OVZ5VXlZWQ?oc=5
+
+Telecom news: TM Forum, Space42, Viasat, Angola Cables, Ciena    TelecomLead

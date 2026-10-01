@@ -1,0 +1,5 @@
+# Manchester City’s Emirati chair's diplomatic immunity complicates legal action
+source: Middle East Eye
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNblpqeWhxVGNaVjNveGxWMUNXcTNORlJPYmp4OW9iNXdXNVBzc0xGaHZ6RDdhSGNyVVBpQ2pkaG5HY2ZHX0xaOERGNnVxaU9KaFIyLWJqRThvUHVvVlJDc2ZwZ0ctem40ejJpcXlMTDhod3dJQ1RPTTZ6eXl5RzhsMW9jN0I5dVFmX1VpNVZzck9SZWZUZUV4QjlGTjRYeGR6MFhjUVlzbWZZcFZBNXpZ?oc=5
+
+Manchester City’s Emirati chair's diplomatic immunity complicates legal action    Middle East Eye

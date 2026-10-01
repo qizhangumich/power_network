@@ -1,0 +1,5 @@
+# Aldar and McIlroy headline Abu Dhabi Championship announcement
+source: sportsmintmedia.com
+url: https://news.google.com/rss/articles/CBMilgFBVV95cUxOMUNpRTJwX2V2UkZla08yMFBzTEk0bWh3NnNLUkJpV0k5MWRocUZCTUFjSGxaeFNCeG9EM2pzTVV5a1FXWVNTN0ExTWVPN19PbDlrb1pDeUhxUmxiaFpQZGdIdUNpcXpnUHZCdmQxb0h0b2Jidmp3NTJhT0QtZ3lnUWRlYXdlS0NIYlVWVGhJMW10ZjFUMnc?oc=5
+
+Aldar and McIlroy headline Abu Dhabi Championship announcement    sportsmintmedia.com
