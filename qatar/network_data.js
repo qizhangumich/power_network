@@ -1874,6 +1874,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  tamim_bin_hamad:["Hamad University for Military and Technology"],
   udst:["Doha for Science and Technology"],
   lst_qati:["QATI","QIC","Qatar Insurance Group"],
   masraf:["Al Rayan Bank","MARK","AlRayan Bank"],
