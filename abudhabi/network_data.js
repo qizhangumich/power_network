@@ -284,6 +284,10 @@ const INSTITUTIONS = [
   {id:"arab_monetary_fund", n:"Arab Monetary Fund", s:"finance", t:1, p:64, short:"Arab Monetary Fund"},
   {id:"lulu_retail", n:"Lulu Retail Holdings", s:"consumer_stap", t:2, p:56, short:"Lulu Retail"},
   {id:"nmdc_energy", n:"NMDC Energy", s:"energy", t:2, p:55, short:"NMDC Energy"},
+  {id:"adnoc_onshore", n:"ADNOC Onshore", s:"energy", t:2, p:74, short:"ADNOC Onshore"},
+  {id:"adnoc_offshore", n:"ADNOC Offshore", s:"energy", t:2, p:72, short:"ADNOC Offshore"},
+  {id:"ruwais_lng", n:"Ruwais LNG", s:"energy", t:2, p:68, short:"Ruwais LNG"},
+  {id:"adnoc_maritime", n:"ADNOC Maritime", s:"industry", t:3, p:56, short:"ADNOC Maritime"},
 ];
 
 const PEOPLE = [
@@ -2972,6 +2976,10 @@ const OWNERSHIP = [
   ["skmc_abu_dhabi","seha","subsidiary","v"],
   ["lulu_retail","lulu","subsidiary (separately ADX-listed retail arm)","ns"],
   ["nmdc_energy","nmdc","subsidiary","ns"],
+  ["adnoc_onshore","adnoc","majority-owned (60%) upstream concession JV — partners BP, TotalEnergies, CNPC, JODCO, CEFC, GS Energy","v"],
+  ["adnoc_offshore","adnoc","majority-owned (60%) offshore concession JV, formed from ADMA-OPCO & ZADCO — partners Eni, TotalEnergies, CNPC/CNOOC, Inpex, ONGC Videsh","v"],
+  ["ruwais_lng","adnoc","JV under construction (ADNOC 60% / Shell, TotalEnergies, bp, Mitsui 10% each); FID June 2024","v"],
+  ["adnoc_maritime","adnoc","wholly-owned subsidiary — shipping & maritime logistics (formerly ADNATCO/NGSCO)","ns"],
 ];
 
 const FAMILY = [
@@ -3035,4 +3043,7 @@ const AKA = {
   emirates_policy_ctr:["EPC"],
   trends_research:["TRENDS Group","TITI"],
   arab_monetary_fund:["AMF"],
+  adnoc_onshore:["ADCO","Abu Dhabi Company for Onshore Petroleum Operations"],
+  adnoc_offshore:["ADMA-OPCO","ZADCO"],
+  adnoc_maritime:["ADNATCO","NGSCO"],
 };

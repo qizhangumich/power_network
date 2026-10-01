@@ -228,6 +228,8 @@ const INSTITUTIONS = [
   {id:"amiri_hospital", n:"Al-Amiri Hospital", s:"health", t:2, p:58, short:"Amiri Hospital"},
   {id:"ntec", n:"National Technology Enterprises Company", s:"tech", t:2, p:60, short:"NTEC"},
   {id:"enertech", n:"EnerTech Holding Company", s:"energy", t:3, p:54, short:"EnerTech Holding"},
+  {id:"khafji_jo", n:"Al-Khafji Joint Operations", s:"energy", t:3, p:56, short:"Khafji JO"},
+  {id:"wafra_jo", n:"Wafra Joint Operations", s:"energy", t:3, p:54, short:"Wafra JO"},
 ];
 
 const PEOPLE = [
@@ -935,6 +937,7 @@ const PEOPLE = [
   {id:"hazem_shawki", n:"Hazem Shawki", t:2, p:62, s:"conglomerate", roles:[
     ["alghanim","Vice Chairman","board","v"]]},
   {id:"mahmoud_samara", n:"Mahmoud Samara", t:2, p:60, s:"conglomerate", roles:[
+    ["xcite_electronics","Chief Executive Officer","executive","v"],
     ["alghanim_sons_grp","Chief Executive Officer","executive","v"],
     ["alghanim","Chief Executive Officer","executive","v"]]},
   {id:"waleed_alghanim", n:"Waleed Alghanim", t:2, p:60, s:"conglomerate", roles:[
@@ -1161,6 +1164,7 @@ const PEOPLE = [
   {id:"rohit_bhasin", n:"Rohit Bhasin", t:2, p:58, s:"conglomerate", roles:[
     ["al_mulla","Chief Financial Officer","executive","v"]]},
   {id:"kutayba_y_alghanim", n:"Kutayba Y. Alghanim", t:2, p:62, s:"conglomerate", roles:[
+    ["xcite_electronics","Executive Chairman","board","v"],
     ["alghanim_sons_grp","Executive Chairman","board","v"]]},
   {id:"robert_etman", n:"Robert Etman", t:2, p:62, s:"conglomerate", roles:[
     ["alghanim_sons_grp","Advisor to the Chairman","executive","v"]]},
@@ -1523,6 +1527,8 @@ const PEOPLE = [
     ["epa_kuwait","Director General","executive","v"]]},
   {id:"mohammed_al_yousef", n:"Mohammed Al-Yousef", t:2, p:46, s:"consumer_stap", roles:[
     ["paafr","Head of the Public Authority for Agriculture Affairs and Fish Resources","executive","v"]]},
+  {id:"samer_sayegh", n:"Samer Sayegh", t:2, p:58, s:"consumer_disc", roles:[
+    ["xcite_electronics","President – Retail Distribution F&B and Customer Engagement","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1689,6 +1695,8 @@ const OWNERSHIP = [
   ["amiri_hospital","moh_kuwait","under","v"],
   ["ntec","kia","wholly owned subsidiary","ns"],
   ["enertech","kia","indirect subsidiary (via NTEC)","ns"],
+  ["khafji_jo","kgoc","50/50 JV with Saudi Aramco's Aramco Gulf Operations Co. operating the offshore Khafji field in the Divided (Neutral) Zone","ns"],
+  ["wafra_jo","kgoc","50/50 JV with Saudi Arabian Chevron operating the onshore Wafra field in the Divided (Neutral) Zone","ns"],
 ];
 
 const FAMILY = [
@@ -1729,4 +1737,6 @@ const AKA = {
   al_yaqout:["Al-Yaqout Holding Company"],
   amiri_hospital:["Al Amiri Hospital"],
   enertech:["EnerTech"],
+  khafji_jo:["KJO"],
+  wafra_jo:["WJO"],
 };

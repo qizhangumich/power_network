@@ -193,6 +193,9 @@ const INSTITUTIONS = [
   {id:"zulekha_healthcare", n:"Zulekha Healthcare Group", s:"health", t:3, p:54, short:"Zulekha Healthcare"},
   {id:"alfred", n:"Alfred Holdings", s:"consumer_disc", t:3, p:52, short:"Alfred Holdings"},
   {id:"noor_energy_1", n:"Noor Energy 1", s:"utilities", t:2, p:58, short:"Noor Energy 1"},
+  {id:"transguard", n:"Transguard Group", s:"industry", t:2, p:58, short:"Transguard"},
+  {id:"emirates_catering", n:"Emirates Flight Catering", s:"industry", t:2, p:56, short:"Emirates Catering"},
+  {id:"dubai_petroleum", n:"Dubai Petroleum Establishment", s:"energy", t:2, p:58, short:"Dubai Petroleum"},
 ];
 
 const PEOPLE = [
@@ -213,6 +216,7 @@ const PEOPLE = [
     ["difc","President","political","v"]],
     note:"Dubai's financial-markets czar: DIFC, the IPO program and federal finance."},
   {id:"ahmed_saeed", n:"H.H. Sheikh Ahmed bin Saeed Al Maktoum", t:0, p:92, s:"industry", roles:[
+    ["dubai_south","Chairman, Dubai Aviation City Corporation","board","v"],
     ["dnata","Chairman","board","v"],
     ["dubai_world","Chairman","board","v"],
     ["execco","Deputy Chairman","board","v"],
@@ -285,6 +289,7 @@ const PEOPLE = [
   {id:"ismail_maf", n:"Ahmed Galal Ismail", t:2, p:74, s:"conglomerate", roles:[
     ["maf","Group CEO","executive","v"]]},
   {id:"alali_maf_chair", n:"Fadel Abdulbaqi Al Ali", t:2, p:72, s:"conglomerate", roles:[
+    ["dfsa","Chairman","board","v"],
     ["maf","Chairman, Holding Board","board","v"]]},
   {id:"alsaleh_dof", n:"Abdulrahman Saleh Al Saleh", t:1, p:72, s:"gov", roles:[
     ["dubai_world","Board Member","board","v"],
@@ -293,6 +298,7 @@ const PEOPLE = [
     ["dof_dxb","Director-General","political","v"],
     ["enoc","Vice Chairman","board","v"]]},
   {id:"omar_alfuttaim", n:"Omar Al Futtaim", t:2, p:76, s:"conglomerate", roles:[
+    ["orient_insurance","Vice Chairman","board","v"],
     ["alfuttaim","Vice Chairman & CEO","executive","v"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"chilwan_dib", n:"Dr. Adnan Chilwan", t:2, p:74, s:"finance", roles:[
@@ -1208,6 +1214,7 @@ const PEOPLE = [
   {id:"karem_mahmoud", n:"Karem Mahmoud", t:2, p:46, s:"finance", roles:[
     ["lst_alansari","Group Head of Legal","executive","v"]]},
   {id:"khalid_al_tayer", n:"Khalid Al Tayer", t:2, p:62, s:"consumer_disc", roles:[
+    ["al_tayer","Chief Executive, Al Tayer Insignia","executive","v"],
     ["lst_taaleem","Chairman","board","v"]]},
   {id:"adel_zarouni", n:"Adel Zarouni", t:2, p:62, s:"consumer_disc", roles:[
     ["lst_taaleem","Vice Chairman","board","v"]]},
@@ -1557,6 +1564,7 @@ const PEOPLE = [
   {id:"nehal_badri", n:"Nehal Badri", t:2, p:58, s:"comm", roles:[
     ["gdmo","Secretary General of the Dubai Media Council","executive","v"]]},
   {id:"maitha_buhumaid", n:"Maitha Buhumaid", t:2, p:58, s:"comm", roles:[
+    ["dubai_media_inc","CEO of Marketing and Communication","executive","v"],
     ["gdmo","Director of the Dubai Press Club","executive","v"]]},
   {id:"noora_al_abbar", n:"Noora Al Abbar", t:2, p:58, s:"comm", roles:[
     ["gdmo","Director of International Media","executive","v"]]},
@@ -1585,9 +1593,86 @@ const PEOPLE = [
   {id:"deepa_raja_carbon", n:"Deepa Raja Carbon", t:2, p:62, s:"finance", roles:[
     ["vara","Managing Director and Vice Chair of the Executive Board","executive","ns"]]},
   {id:"salem_belyouha", n:"Salem Belyouha", t:2, p:58, s:"comm", roles:[
+    ["dubai_media_inc","CEO of Media Content Sector","executive","v"],
     ["gdmo","Media Services Director","executive","v"]]},
   {id:"omar_al_marzooqi", n:"Omar Al Marzooqi", t:2, p:58, s:"comm", roles:[
     ["gdmo","Director of the Director General's Office","executive","ns"]]},
+  {id:"abdullah_sharafi", n:"Abdullah Sharafi", t:2, p:52, s:"finance", roles:[
+    ["dfsa","Board Member","board","v"]]},
+  {id:"rupert_keeley", n:"Rupert Keeley", t:2, p:52, s:"finance", roles:[
+    ["dfsa","Board Member","board","v"]]},
+  {id:"charles_flint_kc", n:"Charles Flint KC", t:2, p:52, s:"finance", roles:[
+    ["dfsa","Board Member","board","v"]]},
+  {id:"sock_koong_chua", n:"Sock Koong Chua", t:2, p:52, s:"finance", roles:[
+    ["dfsa","Board Member","board","v"]]},
+  {id:"robert_oph_le", n:"Robert Ophèle", t:2, p:52, s:"finance", roles:[
+    ["dfsa","Board Member","board","v"]]},
+  {id:"andrew_procter", n:"Andrew Procter", t:2, p:52, s:"finance", roles:[
+    ["dfsa","Board Member","board","v"]]},
+  {id:"javan_herberg", n:"Javan Herberg", t:2, p:52, s:"finance", roles:[
+    ["dfsa","Board Member","board","v"]]},
+  {id:"justin_baldacchino", n:"Justin Baldacchino", t:2, p:60, s:"finance", roles:[
+    ["dfsa","Managing Director Supervision","executive","v"]]},
+  {id:"alan_linning", n:"Alan Linning", t:2, p:60, s:"finance", roles:[
+    ["dfsa","Managing Director Enforcement","executive","v"]]},
+  {id:"abdulla_almansoori", n:"Abdulla Almansoori", t:2, p:60, s:"comm", roles:[
+    ["dubai_media_inc","CEO of Corporate Support Sector","executive","v"]]},
+  {id:"faisal_abdalla", n:"Faisal Abdalla", t:2, p:60, s:"comm", roles:[
+    ["dubai_media_inc","CEO of Printing and Distribution Sector","executive","v"]]},
+  {id:"ahmad", n:"Ahmad", t:2, p:60, s:"comm", roles:[
+    ["dubai_media_inc","CEO of Human Resources Sector","executive","v"]]},
+  {id:"saleh_saeed_lootah", n:"Saleh Saeed Lootah", t:2, p:58, s:"conglomerate", roles:[
+    ["s_s_lootah","Executive Director of S.S. Lootah Group","executive","v"]]},
+  {id:"yousif_bin_saeed", n:"Yousif Bin Saeed Al Lootah", t:2, p:58, s:"conglomerate", roles:[
+    ["s_s_lootah","Executive Director of S.S. Lootah Group","executive","v"]]},
+  {id:"yousef_almulla", n:"Yousef AlMulla", t:2, p:52, s:"conglomerate", roles:[
+    ["almulla","Board Member","board","v"]]},
+  {id:"hana_almulla", n:"Hana AlMulla", t:2, p:52, s:"conglomerate", roles:[
+    ["almulla","Board Member","board","v"]]},
+  {id:"mana_almulla", n:"Mana AlMulla", t:2, p:52, s:"conglomerate", roles:[
+    ["almulla","Board Member","board","v"]]},
+  {id:"tarek_al_mahjoub", n:"Tarek Al Mahjoub", t:2, p:52, s:"conglomerate", roles:[
+    ["almulla","Board Member","board","v"]]},
+  {id:"jasper_kateli", n:"Jasper Kateli", t:2, p:58, s:"conglomerate", roles:[
+    ["almulla","Group Chief Financial Officer","executive","v"]]},
+  {id:"hafsa_algargawi", n:"Hafsa Algargawi", t:2, p:58, s:"gov", roles:[
+    ["dubai_south","Chief People Management Officer","executive","v"]]},
+  {id:"tahnoon_saif", n:"Tahnoon Saif", t:2, p:60, s:"gov", roles:[
+    ["dubai_south","Chief Executive Officer - Mohammed Bin Rashid Aerospace Hub","executive","v"]]},
+  {id:"humaid_alshamsi", n:"Humaid Alshamsi", t:2, p:58, s:"gov", roles:[
+    ["dubai_south","Chief Legal and Governance Officer","executive","v"]]},
+  {id:"mohammad_al_zaffin", n:"Mohammad Al Zaffin", t:2, p:58, s:"gov", roles:[
+    ["dubai_south","Chief Corporate Services Officer","executive","v"]]},
+  {id:"mohsen_ahmad", n:"Mohsen Ahmad", t:2, p:60, s:"gov", roles:[
+    ["dubai_south","Chief Executive Officer - Logistics District","executive","v"]]},
+  {id:"shahid_ahmed", n:"Shahid Ahmed", t:2, p:58, s:"gov", roles:[
+    ["dubai_south","Chief Financial Officer","executive","v"]]},
+  {id:"obaid_al_tayer", n:"Obaid Al Tayer", t:2, p:62, s:"consumer_disc", roles:[
+    ["al_tayer","Chairman and Co-Founder","board","v"]]},
+  {id:"jacques_brent", n:"Jacques Brent", t:2, p:60, s:"consumer_disc", roles:[
+    ["al_futtaim_motors","Managing Director - Toyota and Lexus UAE","executive","v"]]},
+  {id:"tariq_ali_saeed", n:"Tariq Ali Saeed Juma Al Bwardy", t:2, p:62, s:"consumer_stap", roles:[
+    ["spinneys","Vice-Chairman/Non-Executive Director","board","v"]]},
+  {id:"abdulla_hamad_al", n:"Abdulla Hamad Al-Futtaim", t:2, p:62, s:"finance", roles:[
+    ["orient_insurance","Chairman","board","v"]]},
+  {id:"omer_hassan_elamin", n:"Omer Hassan Elamin", t:2, p:60, s:"finance", roles:[
+    ["orient_insurance","Chief Executive Officer","executive","v"]]},
+  {id:"micky_jagtiani", n:"Micky Jagtiani", t:2, p:62, s:"consumer_disc", roles:[
+    ["landmark","Founder Chairman","board","v"]]},
+  {id:"renuka_jagtiani", n:"Renuka Jagtiani", t:2, p:62, s:"consumer_disc", roles:[
+    ["landmark","Chairwoman","board","v"]]},
+  {id:"aarti_jagtiani", n:"Aarti Jagtiani", t:2, p:52, s:"consumer_disc", roles:[
+    ["landmark","Group Director; Board Member","board","v"]]},
+  {id:"nisha_jagtiani", n:"Nisha Jagtiani", t:2, p:52, s:"consumer_disc", roles:[
+    ["landmark","Group Director; Board Member","board","v"]]},
+  {id:"kabir_lumba", n:"Kabir Lumba", t:2, p:58, s:"consumer_disc", roles:[
+    ["landmark","CEO, Landmark Retail; Non-Executive Director","executive","v"]]},
+  {id:"raza_beig", n:"Raza Beig", t:2, p:60, s:"consumer_disc", roles:[
+    ["landmark","Director of Centrepoint and CEO of Splash","executive","v"]]},
+  {id:"raj_rana", n:"Raj Rana", t:2, p:60, s:"consumer_disc", roles:[
+    ["landmark","CEO of Citymax Hotels & Foodmark","executive","v"]]},
+  {id:"arja_taaveniku", n:"Arja Taaveniku", t:2, p:60, s:"consumer_disc", roles:[
+    ["landmark","CEO of Home Centre, Landmark Group","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1718,6 +1803,9 @@ const OWNERSHIP = [
   ["drydocks_world","dpworld","subsidiary","v"],
   ["dubai_media_inc","dxbgov","under","v"],
   ["noor_energy_1","dewa","project company (51% DEWA/25% ACWA Power/24% Silk Road Fund)","v"],
+  ["transguard","emirates","wholly-owned subsidiary (security, cash & aviation support services)","ns"],
+  ["emirates_catering","emirates","wholly-owned subsidiary (in-flight & institutional catering)","ns"],
+  ["dubai_petroleum","dxbgov","Dubai government oil & gas concession operator (offshore fields, historically with ConocoPhillips as operator)","ns"],
 ];
 
 const FAMILY = [
@@ -1790,4 +1878,6 @@ const AKA = {
   al_moosa_arenco:["Arenco Group","AA Al Moosa"],
   zulekha_healthcare:["Zulekha Hospital","Zulekha Group"],
   alfred:["InsuranceMarket.ae","CreditMarket.ae","HolidayMarket.ae","myAlfred"],
+  emirates_catering:["EFC"],
+  dubai_petroleum:["DPE"],
 };

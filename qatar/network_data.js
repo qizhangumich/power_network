@@ -212,6 +212,10 @@ const INSTITUTIONS = [
   {id:"al_muftah", n:"Al Muftah Group", s:"conglomerate", t:3, p:57, short:"Al Muftah Group"},
   {id:"al_jaidah", n:"Al Jaidah Group", s:"conglomerate", t:3, p:56, short:"Al Jaidah Group"},
   {id:"mbh", n:"Mohammed Bin Hamad Holding", s:"conglomerate", t:3, p:56, short:"MBH Holding"},
+  {id:"qe_renewables", n:"QatarEnergy Renewable Solutions", s:"energy", t:2, p:62, short:"QE Renewables"},
+  {id:"ras_laffan_petrochem", n:"Ras Laffan Petrochemicals Company", s:"materials", t:2, p:60, short:"Ras Laffan Petrochem"},
+  {id:"rloc", n:"Ras Laffan Olefins Company", s:"materials", t:3, p:56, short:"RLOC"},
+  {id:"q_chem", n:"Qatar Chemical Company", s:"materials", t:3, p:56, short:"Q-Chem"},
 ];
 
 const PEOPLE = [
@@ -732,6 +736,7 @@ const PEOPLE = [
   {id:"gokhan_ozkan", n:"Gokhan Ozkan", t:2, p:46, s:"conglomerate", roles:[
     ["aamal","General Manager of Aamal Medical","executive","v"]]},
   {id:"ramez_al_khayyat", n:"Ramez Al-Khayyat", t:2, p:52, s:"consumer_stap", roles:[
+    ["pih","President & Group CEO","executive","v"],
     ["lst_igrd","Vice Chairman & President","board","v"],
     ["baladna","President","board","v"]]},
   {id:"hamad_bin_abdullah", n:"Hamad Bin Abdullah Bin Khalid Al-Attiya", t:2, p:52, s:"consumer_stap", roles:[
@@ -1738,6 +1743,36 @@ const PEOPLE = [
     ["invest_qatar","Advisory Council Member","board","v"]]},
   {id:"max_mirgoli", n:"Max Mirgoli", t:2, p:52, s:"gov", roles:[
     ["invest_qatar","Advisory Council Member","board","v"]]},
+  {id:"maurice_ghattas", n:"Maurice Ghattas", t:2, p:60, s:"conglomerate", roles:[
+    ["pih","Group Deputy CEO","executive","v"]]},
+  {id:"samer_ibrahim", n:"Samer Ibrahim", t:2, p:58, s:"conglomerate", roles:[
+    ["pih","Group Chief Financial & Investment Officer","executive","v"]]},
+  {id:"yasser_zein", n:"Yasser Zein", t:2, p:60, s:"conglomerate", roles:[
+    ["pih","Group CEO Aura Hospitality","executive","v"]]},
+  {id:"mehmet_arif_ozozan", n:"Mehmet Arif Ozozan", t:2, p:60, s:"conglomerate", roles:[
+    ["pih","Group CEO Concession Power & Infrastructure","executive","v"]]},
+  {id:"mikhail_gerchuk", n:"Mikhail Gerchuk", t:2, p:60, s:"conglomerate", roles:[
+    ["pih","Group CEO Telecom","executive","v"]]},
+  {id:"leandro_mereu", n:"Leandro Mereu", t:2, p:60, s:"conglomerate", roles:[
+    ["pih","Group CEO UCC Mining","executive","v"]]},
+  {id:"boyd_henry_merett", n:"Boyd Henry Merett", t:2, p:60, s:"conglomerate", roles:[
+    ["pih","Group CEO UCC Contracting","executive","v"]]},
+  {id:"ibrahim_janahi", n:"Ibrahim Janahi", t:2, p:58, s:"health", roles:[
+    ["sidra","Chief Medical Officer","executive","v"]]},
+  {id:"dina_schnurman", n:"Dina Schnurman", t:2, p:58, s:"health", roles:[
+    ["sidra","Chief Nursing Officer","executive","v"]]},
+  {id:"khalid_fakhro", n:"Khalid Fakhro", t:2, p:58, s:"health", roles:[
+    ["sidra","Chief Research Officer","executive","v"]]},
+  {id:"olanrewaju_sanusi", n:"Olanrewaju Sanusi", t:2, p:58, s:"health", roles:[
+    ["sidra","Chief Financial Officer","executive","v"]]},
+  {id:"noof_al_nabet", n:"Noof Al Nabet", t:2, p:58, s:"health", roles:[
+    ["sidra","Executive Director of Human Resources","executive","v"]]},
+  {id:"maha_al_henzab", n:"Maha Al-Henzab", t:2, p:58, s:"health", roles:[
+    ["sidra","Executive Director of Information Management and Technology","executive","v"]]},
+  {id:"abdulla_al_yafei", n:"Abdulla Al Yafei", t:2, p:58, s:"health", roles:[
+    ["sidra","Acting General Counsel Deputy General Counsel and Board Secretary","executive","v"]]},
+  {id:"clare_selway", n:"Clare Selway", t:2, p:60, s:"health", roles:[
+    ["sidra","Executive Director of the CEO Office","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1854,6 +1889,10 @@ const OWNERSHIP = [
   ["qatofin","qapco","joint venture","v"],
   ["doha_investment","qia","domestic investment subsidiary of QIA","v"],
   ["traffic_dept_qatar","moi_q","subsidiary of","v"],
+  ["qe_renewables","qatarenergy","wholly-owned affiliate for renewable-energy investment","v"],
+  ["ras_laffan_petrochem","qatarenergy","JV under construction (QatarEnergy 70% / Chevron Phillips Chemical 30%) — integrated polymers complex","v"],
+  ["rloc","qatofin","JV — Q-Chem II 53.31% / Qatofin 45.69% / QatarEnergy 1%; operates ethylene cracker since 2010","v"],
+  ["q_chem","lst_mphc","JV — MPHC 49% / Chevron Phillips Chemical International Qatar Holdings 49% / QatarEnergy 2%","v"],
 ];
 
 const FAMILY = [
@@ -1933,4 +1972,5 @@ const AKA = {
   traffic_dept_qatar:["GDT","Traffic Department"],
   phcc_qatar:["PHCC","Qatar"],
   qatar_awqaf_ministry:["AWQAFM","Qatar"],
+  qe_renewables:["QERS"],
 };

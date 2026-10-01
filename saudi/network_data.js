@@ -466,6 +466,11 @@ const INSTITUTIONS = [
   {id:"kfcris", n:"King Faisal Center for Research and Islamic Studies", s:"education", t:2, p:58, short:"KFCRIS"},
   {id:"red_sea_hospital", n:"The Red Sea Hospital", s:"health", t:3, p:52, short:"Red Sea Hospital"},
   {id:"jadwa_investment", n:"Jadwa Investment Company", s:"finance", t:2, p:58, short:"Jadwa Investment"},
+  {id:"mobily", n:"Etihad Etisalat Company (Mobily)", s:"comm", t:2, p:66, short:"Mobily"},
+  {id:"tawal", n:"TAWAL", s:"comm", t:2, p:64, short:"TAWAL"},
+  {id:"stc_channels", n:"Saudi Telecom Channels Company", s:"comm", t:3, p:52, short:"stc Channels"},
+  {id:"aramco_trading", n:"Aramco Trading Company", s:"energy", t:2, p:60, short:"Aramco Trading"},
+  {id:"agoc", n:"Aramco Gulf Operations Company", s:"energy", t:3, p:54, short:"AGOC"},
 ];
 
 const PEOPLE = [
@@ -494,11 +499,13 @@ const PEOPLE = [
     ["moi_sa","Minister of Interior","political","v"]],
     note:"Minister of Interior since June 2017; also chairs the Higher Hajj Committee."},
   {id:"abdulaziz_turki_faisal", n:"Prince Abdulaziz bin Turki Al-Faisal Al Saud", t:0, p:74, s:"gov", roles:[
+    ["qiddiya","Board Member","board","v"],
     ["mos_sa","Minister of Sport","political","v"]],
     note:"Grandson of King Faisal; also chairs the Saudi Olympic & Paralympic Committee."},
   {id:"alwaleed", n:"Prince Alwaleed bin Talal Al Saud", t:0, p:78, s:"conglomerate", roles:[
     ["kingdomholding","Chairman","board","v"]]},
   {id:"rumayyan", n:"Yasir Al-Rumayyan", t:1, p:92, s:"sovereign", roles:[
+    ["qiddiya","Board Member","board","v"],
     ["alat","Board Member; Governor of the Public Investment Fund","board","v"],
     ["riyadhair","Chairman","board","v"],
     ["pif","Governor","executive","v"],
@@ -525,6 +532,8 @@ const PEOPLE = [
     ["alat","Board Member; Minister of Communications and Information Technology","board","v"],
     ["mcit_sa","Minister of Communications & IT","political","v"]]},
   {id:"khateeb", n:"Ahmed Al-Khateeb", t:1, p:76, s:"gov", roles:[
+    ["qiddiya","Board Member","board","v"],
+    ["sfd","Chairman of the Board of Directors","board","v"],
     ["diriyah","Board Member","board","v"],
     ["mot_sa","Minister of Tourism","political","v"],
     ["redsea","Board Member","board","v"]]},
@@ -547,6 +556,7 @@ const PEOPLE = [
     ["momedia_sa","Minister of Media","political","v"]],
     note:"Appointed 5 Mar 2023; former editor-in-chief of Asharq Al-Awsat."},
   {id:"alhogail", n:"Majed Al-Hogail", t:1, p:76, s:"realestate", roles:[
+    ["qiddiya","Board Member","board","v"],
     ["momah_sa","Minister of Municipalities & Housing","political","v"],
     ["redsea","Board Member","board","v"]]},
   {id:"albenyan", n:"Yousef Al-Benyan", t:1, p:74, s:"education", roles:[
@@ -992,6 +1002,7 @@ const PEOPLE = [
   {id:"turqi_a_al", n:"Turqi A. Al-Nowaiser", t:2, p:58, s:"sovereign", roles:[
     ["pif","Deputy Governor, Head of International Investments Division and Acting Head of Shared Services Division","executive","v"]]},
   {id:"saad_alkroud", n:"Saad Alkroud", t:2, p:46, s:"sovereign", roles:[
+    ["qiddiya","Board Member","board","v"],
     ["pif","Head of Local Real Estate Investments Division","executive","v"]]},
   {id:"yasir_a_alsalman", n:"Yasir A. AlSalman", t:2, p:58, s:"sovereign", roles:[
     ["sami","Board Member","board","v"],
@@ -1389,6 +1400,7 @@ const PEOPLE = [
   {id:"mohammed_qandeel", n:"Mohammed Qandeel", t:2, p:58, s:"materials", roles:[
     ["lst_2290","Chief Financial Officer & Board Secretary","executive","v"]]},
   {id:"eng_khalid_abdullah", n:"Eng. Khalid Abdullah Al-Zamil", t:2, p:62, s:"materials", roles:[
+    ["zamil","Chairman","board","v"],
     ["lst_2310","Chairman","board","v"]]},
   {id:"mr_fahad_sulaiman", n:"Mr. Fahad Sulaiman Al-Rajhi", t:2, p:62, s:"materials", roles:[
     ["lst_2310","Vice Chairman","board","v"]]},
@@ -1609,6 +1621,7 @@ const PEOPLE = [
   {id:"ibrahim_al_jammaz", n:"Ibrahim Al-Jammaz", t:2, p:52, s:"health", roles:[
     ["habib","Board Member","board","ns"]]},
   {id:"princess_haifa_bint", n:"Princess Haifa bint Mohammed Al Saud", t:2, p:52, s:"industry", roles:[
+    ["qiddiya","Board Member","board","v"],
     ["riyadhair","Board Member","board","v"]]},
   {id:"prince_faisal_bin", n:"Prince Faisal bin Abdulaziz bin Ayyaf", t:2, p:52, s:"industry", roles:[
     ["new_murabba","Board Member - Independent","board","v"],
@@ -1974,6 +1987,7 @@ const PEOPLE = [
   {id:"abdulmajeed_ahmed_al", n:"Abdulmajeed Ahmed Al-hagbani", t:2, p:52, s:"gov", roles:[
     ["gea","Board Member","board","v"]]},
   {id:"rakan_hussein_alharthy", n:"Rakan Hussein Alharthy", t:2, p:52, s:"gov", roles:[
+    ["qiddiya","Board Member","board","v"],
     ["gea","Board Member","board","v"]]},
   {id:"mohyedin_saleh_a", n:"Mohyedin Saleh A Kamel", t:2, p:52, s:"gov", roles:[
     ["gea","Board Member","board","v"]]},
@@ -2088,6 +2102,7 @@ const PEOPLE = [
   {id:"haifa_bint_abdulaziz", n:"Haifa bint Abdulaziz Al-Shaalan", t:2, p:58, s:"gov", roles:[
     ["zatca","Vice Governor for Risk and Analytics","executive","v"]]},
   {id:"prince_badr_bin", n:"Prince Badr bin Abdullah bin Farhan Al Saud", t:2, p:52, s:"gov", roles:[
+    ["qiddiya","Board Member","board","v"],
     ["rcu","Governor and Member of the Board of Directors","board","v"]]},
   {id:"khaled_azzam", n:"Khaled Azzam", t:2, p:52, s:"gov", roles:[
     ["rcu","Member of the Board of Directors (Executive Vice President, The King's Foundation)","board","v"]]},
@@ -2107,6 +2122,48 @@ const PEOPLE = [
     ["lst_6050","Chairman of the Board","board","v"]]},
   {id:"mansour_al_sagheer", n:"Mansour Al-Sagheer", t:2, p:62, s:"consumer_stap", roles:[
     ["lst_6050","Vice Chairman of the Board","board","v"]]},
+  {id:"mohamed_yousuf_naghi", n:"Mohamed Yousuf Naghi", t:2, p:62, s:"conglomerate", roles:[
+    ["naghi","Chairman","board","v"]]},
+  {id:"yaser_yousuf_naghi", n:"Yaser Yousuf Naghi", t:2, p:62, s:"conglomerate", roles:[
+    ["naghi","Chairman Cigalah Group","board","v"]]},
+  {id:"ammar_y_naghi", n:"Ammar Y Naghi", t:2, p:62, s:"conglomerate", roles:[
+    ["naghi","Chairman United Yousef M. Naghi Co. Group","board","v"]]},
+  {id:"saleh_y_naghi", n:"Saleh Y Naghi", t:2, p:62, s:"conglomerate", roles:[
+    ["naghi","Chairman Arabian Food Supplies Group","board","v"]]},
+  {id:"mohammed_bin_abdullah_b", n:"Mohammed bin Abdullah Al Othaim", t:2, p:52, s:"consumer_stap", roles:[
+    ["al_othaim","Board Member","board","v"]]},
+  {id:"sultan_bin_abdullah", n:"Sultan bin Abdullah Al Othaim", t:2, p:52, s:"consumer_stap", roles:[
+    ["al_othaim","Board Member","board","v"]]},
+  {id:"abdulmalik_bin_abdullah", n:"Abdulmalik bin Abdullah Al Othaim", t:2, p:52, s:"consumer_stap", roles:[
+    ["al_othaim","Board Member","board","v"]]},
+  {id:"bandar_bin_sulaiman", n:"Bandar bin Sulaiman AlBuhairi", t:2, p:52, s:"consumer_stap", roles:[
+    ["al_othaim","Board Member","board","v"]]},
+  {id:"adib_al_zamil", n:"Adib Al Zamil", t:2, p:60, s:"conglomerate", roles:[
+    ["zamil","Chief Executive Officer","executive","v"]]},
+  {id:"sattam_al_zamil", n:"Sattam Al Zamil", t:2, p:58, s:"conglomerate", roles:[
+    ["zamil","Chief Financial Officer","executive","v"]]},
+  {id:"fadi_jardali", n:"Fadi Jardali", t:2, p:58, s:"conglomerate", roles:[
+    ["zamil","Chief Strategy Business Development Officer","executive","v"]]},
+  {id:"sultan_abdulrahman_al", n:"Sultan Abdulrahman Al-Marshad", t:2, p:60, s:"gov", roles:[
+    ["sfd","Chief Executive Officer","executive","v"]]},
+  {id:"abdulrahman_abdullah_al_b", n:"Abdulrahman Abdullah Al-Samari", t:2, p:52, s:"gov", roles:[
+    ["sfd","Board Member","board","v"]]},
+  {id:"abdulrahman_i_alrassi", n:"Abdulrahman I. Alrassi", t:2, p:52, s:"gov", roles:[
+    ["sfd","Board Member","board","v"]]},
+  {id:"ahmed_sulaiman_aljasser", n:"Ahmed Sulaiman AlJasser", t:2, p:52, s:"gov", roles:[
+    ["sfd","Board Member","board","v"]]},
+  {id:"sami_ibrahim_alhussaini", n:"Sami Ibrahim Alhussaini", t:2, p:52, s:"gov", roles:[
+    ["sfd","Board Member","board","v"]]},
+  {id:"naif_a_al", n:"Naif A. Al-Shammari", t:2, p:52, s:"gov", roles:[
+    ["sfd","Board Member","board","v"]]},
+  {id:"khalid_abobaker_bawazier", n:"Khalid Abobaker Bawazier", t:2, p:52, s:"gov", roles:[
+    ["sfd","Board Member","board","v"]]},
+  {id:"prince_mohammed_bin_b_b", n:"Prince Mohammed bin Abdulrahman bin Abdulaziz Al Saud", t:2, p:52, s:"consumer_disc", roles:[
+    ["qiddiya","Board Member","board","v"]]},
+  {id:"prince_rakan_bin", n:"Prince Rakan bin Salman bin Abdulaziz Al Saud", t:2, p:52, s:"consumer_disc", roles:[
+    ["qiddiya","Board Member","board","v"]]},
+  {id:"hendi_bin_abdullah", n:"Hendi bin Abdullah Al-Suhaimi", t:2, p:52, s:"consumer_disc", roles:[
+    ["qiddiya","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2465,6 +2522,10 @@ const OWNERSHIP = [
   ["gdc_middle_east","pif","majority shareholder (80%)","v"],
   ["site","pif","portfolio company","v"],
   ["red_sea_hospital","habib","operates","v"],
+  ["tawal","pif","majority owned (53.99%, after Feb 2025 merger with Golden Lattice Investment Company/GLIC); stc Group holds 43.06%","v"],
+  ["stc_channels","stc","wholly-owned subsidiary (100%) — retail distribution channels","v"],
+  ["aramco_trading","aramco","wholly-owned subsidiary, crude oil & refined products trading arm (est. 2011)","ns"],
+  ["agoc","aramco","wholly-owned subsidiary managing Saudi Arabia's share of onshore operations in the Saudi-Kuwait Divided (Neutral) Zone alongside Kuwait Gulf Oil Company","ns"],
 ];
 
 const FAMILY = [
@@ -2550,4 +2611,7 @@ const AKA = {
   saudi_bugshan:["Bugshan Group","SBC"],
   al_fozan:["Al Fozan Group"],
   jadwa_investment:["Jadwa"],
+  mobily:["Etihad Etisalat"],
+  stc_channels:["Channels"],
+  aramco_trading:["ATC"],
 };

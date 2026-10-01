@@ -147,6 +147,7 @@ const INSTITUTIONS = [
   {id:"bahrain_moh", n:"Ministry of Health (Bahrain)", s:"health", t:1, p:70, short:"Bahrain MoH"},
   {id:"bahrain_moe", n:"Ministry of Education (Bahrain)", s:"education", t:1, p:68, short:"Bahrain MoE"},
   {id:"bahrain_scw", n:"Supreme Council for Women (Bahrain)", s:"gov", t:2, p:58, short:"Bahrain SCW"},
+  {id:"stc_bahrain", n:"stc Bahrain B.S.C.", s:"comm", t:2, p:58, short:"stc Bahrain"},
 ];
 
 const PEOPLE = [
@@ -289,6 +290,7 @@ const PEOPLE = [
   {id:"roselyne_renel", n:"Roselyne Renel", t:2, p:52, s:"materials", roles:[
     ["alba","Board Member","board","v"]]},
   {id:"omar_syed", n:"Omar Syed", t:2, p:52, s:"materials", roles:[
+    ["ghitha_bahrain","Board Member","board","v"],
     ["alba","Board Member","board","v"]]},
   {id:"ahmed_al_shaikh", n:"Ahmed Al Shaikh", t:2, p:52, s:"materials", roles:[
     ["alba","Board Member","board","v"]]},
@@ -2261,6 +2263,7 @@ const PEOPLE = [
   {id:"mohamed_abdulaziz_mohamed", n:"Mohamed Abdulaziz Mohamed Jamsheer", t:2, p:58, s:"finance", roles:[
     ["lst_barka","First Vice President- Acting Head of IT","executive","v"]]},
   {id:"basim_mohamed_ahmed", n:"Basim Mohamed Ahmed Al Saie", t:2, p:62, s:"consumer_stap", roles:[
+    ["ghitha_bahrain","Chairman","board","v"],
     ["garmco","Vice Chairman of the Board","board","v"],
     ["tamkeen","Board Member (BCCI Representative)","board","v"],
     ["lst_bfm","Chairman","board","v"]]},
@@ -2814,6 +2817,133 @@ const PEOPLE = [
     ["salmaniya_hospital","Vice President of the Board of Trustees of Governmental Hospitals","board","v"]]},
   {id:"mariam_athbi_al", n:"Mariam Athbi Al-Jalahma", t:2, p:60, s:"health", roles:[
     ["salmaniya_hospital","Chief Executive Officer of Government Hospitals","executive","v"]]},
+  {id:"lulwa_rashid_showaiter", n:"Lulwa Rashid Showaiter", t:2, p:58, s:"health", roles:[
+    ["bahrain_moh","Undersecretary","executive","v"]]},
+  {id:"samya_ali_bahram", n:"Samya Ali Bahram", t:2, p:58, s:"health", roles:[
+    ["bahrain_moh","Assistant Undersecretary for Public Health","executive","v"]]},
+  {id:"hesham_yusuf_ali", n:"Hesham Yusuf Ali", t:2, p:60, s:"health", roles:[
+    ["king_hamad_univ","Deputy Chief Executive Officer","executive","v"]]},
+  {id:"ghassan_ghaleb_abdulaal", n:"Ghassan Ghaleb Abdulaal", t:2, p:62, s:"finance", roles:[
+    ["bdb","Chairman","board","v"]]},
+  {id:"amna_ali_alarrayedh", n:"Amna Ali Alarrayedh", t:2, p:52, s:"finance", roles:[
+    ["bdb","Board Member","board","v"]]},
+  {id:"aysha_abdulmalek", n:"Aysha Abdulmalek", t:2, p:52, s:"finance", roles:[
+    ["bdb","Board Member","board","v"]]},
+  {id:"hani_redha", n:"Hani Redha", t:2, p:52, s:"finance", roles:[
+    ["bdb","Board Member","board","v"]]},
+  {id:"sandeep_bose", n:"Sandeep Bose", t:2, p:52, s:"finance", roles:[
+    ["bdb","Board Member","board","v"]]},
+  {id:"dalal_al_qais", n:"Dalal Al Qais", t:2, p:60, s:"finance", roles:[
+    ["bdb","Group Chief Executive Officer","executive","v"]]},
+  {id:"ali_yusuf_al", n:"Ali Yusuf Al Aradi", t:2, p:58, s:"finance", roles:[
+    ["bdb","Chief Banking Officer","executive","v"]]},
+  {id:"yaser_ismaeel_mudhafar", n:"Yaser Ismaeel Mudhafar", t:2, p:58, s:"finance", roles:[
+    ["bdb","Chief Financial Officer","executive","v"]]},
+  {id:"nareen_ahmed_agha", n:"Nareen Ahmed Agha", t:2, p:46, s:"finance", roles:[
+    ["bdb","Head of Legal & Board Secretary","executive","v"]]},
+  {id:"khalid_mahmood_abdulla", n:"Khalid Mahmood Abdulla", t:2, p:46, s:"finance", roles:[
+    ["bdb","Head of Operations","executive","v"]]},
+  {id:"sabeeka_bint_ibrahim", n:"Sabeeka Bint Ibrahim Al Khalifa", t:2, p:52, s:"gov", roles:[
+    ["bahrain_scw","President","board","v"]]},
+  {id:"mariam_bint_hassan", n:"Mariam bint Hassan Al Khalifa", t:2, p:52, s:"gov", roles:[
+    ["bahrain_scw","Deputy President / Vice President","board","v"]]},
+  {id:"fatima_mohammed_albuloshi", n:"Fatima Mohammed AlBuloshi", t:2, p:52, s:"gov", roles:[
+    ["bahrain_scw","Council Member","board","v"]]},
+  {id:"zain_bint_khalid", n:"Zain bint Khalid Al Khalifa", t:2, p:52, s:"gov", roles:[
+    ["bahrain_scw","Council Member","board","v"]]},
+  {id:"nicholas_toon", n:"Nicholas Toon", t:2, p:60, s:"tech", roles:[
+    ["beyon_solutions","Chief Executive Officer","executive","v"]]},
+  {id:"muhammad_wasif_sheikh", n:"Muhammad Wasif Sheikh", t:2, p:58, s:"tech", roles:[
+    ["beyon_solutions","Head - Managed Services & Solutions Engineering","executive","v"]]},
+  {id:"abdulrahman_alhosaani", n:"Abdulrahman AlHosaani", t:2, p:58, s:"tech", roles:[
+    ["beyon_solutions","Head - Business Operations","executive","v"]]},
+  {id:"saad_bin_saud", n:"Saad bin Saud Al-Fuhaid", t:2, p:58, s:"education", roles:[
+    ["arabian_gulf_univ","President","executive","v"]]},
+  {id:"abdulrahman_yousif_ismael", n:"Abdulrahman Yousif Ismael", t:2, p:58, s:"education", roles:[
+    ["arabian_gulf_univ","Vice President for Administrative Affairs","executive","v"]]},
+  {id:"ghazi_bin_abdulrahman", n:"Ghazi Bin Abdulrahman Al Otaibi", t:2, p:58, s:"education", roles:[
+    ["arabian_gulf_univ","Vice President for Academic Affairs and Scientific Research","executive","v"]]},
+  {id:"mohammed_saleh_madadin", n:"Mohammed Saleh Madadin", t:2, p:58, s:"education", roles:[
+    ["arabian_gulf_univ","Dean of the College of Medicine and Health Sciences","executive","v"]]},
+  {id:"omar_bin_awadh", n:"Omar bin Awadh bin Salem Al Rawas", t:2, p:52, s:"education", roles:[
+    ["arabian_gulf_univ","Head of Board of Trustees","board","v"]]},
+  {id:"mohammed_ibrahim_al", n:"Mohammed Ibrahim Al Moala", t:2, p:52, s:"education", roles:[
+    ["arabian_gulf_univ","Board of Trustees Member (Director","board","ns"]]},
+  {id:"diana_aljahromi", n:"Diana Aljahromi", t:2, p:52, s:"education", roles:[
+    ["arabian_gulf_univ","Board of Trustees Member (Secretary-General of the Higher Education Council)","board","v"]]},
+  {id:"muna_mohamed_al", n:"Muna Mohamed Al Balooshi", t:2, p:52, s:"education", roles:[
+    ["arabian_gulf_univ","Board of Trustees Member (Advisor to the Minister of Education)","board","v"]]},
+  {id:"bassam_bin_abdullah", n:"Bassam bin Abdullah Al-Bassam", t:2, p:52, s:"education", roles:[
+    ["arabian_gulf_univ","Board of Trustees Member (Secretary General","board","ns"]]},
+  {id:"mohammed_bin_saud", n:"Mohammed Bin Saud Al Mogbil", t:2, p:52, s:"education", roles:[
+    ["arabian_gulf_univ","Board of Trustees Member (Director-General","board","ns"]]},
+  {id:"hareb_mohammed_al", n:"Hareb Mohammed Al Jabri", t:2, p:52, s:"education", roles:[
+    ["arabian_gulf_univ","Board of Trustees Member (Acting Assistant Undersecretary for Higher Education Affairs)","board","v"]]},
+  {id:"mazin_omar_obaid", n:"Mazin Omar Obaid Hasanah", t:2, p:58, s:"education", roles:[
+    ["arabian_gulf_univ","Board of Trustees Member (Head","executive","ns"]]},
+  {id:"mohammad_abdulatif_al", n:"Mohammad Abdulatif Al Fares", t:2, p:52, s:"education", roles:[
+    ["arabian_gulf_univ","Board of Trustees Member (Deputy Prime Minister and Minister of State for Council of Ministers Affairs)","board","v"]]},
+  {id:"lamya_abdulaziz_al", n:"Lamya Abdulaziz Al Melhem", t:2, p:52, s:"education", roles:[
+    ["arabian_gulf_univ","Board of Trustees Member (Undersecretary","board","ns"]]},
+  {id:"abdulsalam_al_mazro", n:"Abdulsalam Al Mazro", t:2, p:62, s:"materials", roles:[
+    ["gulf_cryo","Vice Chairman","board","v"]]},
+  {id:"nader_sultan", n:"Nader Sultan", t:2, p:52, s:"materials", roles:[
+    ["gulf_cryo","Director","board","v"]]},
+  {id:"mike_huggon", n:"Mike Huggon", t:2, p:52, s:"materials", roles:[
+    ["gulf_cryo","Director","board","v"]]},
+  {id:"omer_syed", n:"Omer Syed", t:2, p:52, s:"materials", roles:[
+    ["gulf_cryo","Director","board","v"]]},
+  {id:"sami_huneidi", n:"Sami Huneidi", t:2, p:58, s:"materials", roles:[
+    ["gulf_cryo","Chief Administrative Officer","executive","v"]]},
+  {id:"jayaseelan_anbalagan", n:"Jayaseelan Anbalagan", t:2, p:58, s:"materials", roles:[
+    ["gulf_cryo","Vice President Engineering","executive","v"]]},
+  {id:"mahmood_zainal", n:"Mahmood Zainal", t:2, p:60, s:"consumer_stap", roles:[
+    ["ghitha_bahrain","Chief Executive Officer","executive","v"]]},
+  {id:"khaled_ali_al", n:"Khaled Ali Al Amin", t:2, p:52, s:"consumer_stap", roles:[
+    ["ghitha_bahrain","Board Member","board","v"]]},
+  {id:"yousif_khalifa_al", n:"Yousif Khalifa Al Manea", t:2, p:52, s:"consumer_stap", roles:[
+    ["ghitha_bahrain","Board Member","board","v"]]},
+  {id:"eyad_redha_faraj", n:"Eyad Redha Faraj", t:2, p:52, s:"consumer_stap", roles:[
+    ["ghitha_bahrain","Board Member","board","v"]]},
+  {id:"tawfeeq_ahmed_mansoor", n:"Tawfeeq Ahmed Mansoor Al A'ali", t:2, p:62, s:"conglomerate", roles:[
+    ["ama","Chairman","board","v"]]},
+  {id:"stefan_mathis", n:"Stefan Mathis", t:2, p:62, s:"conglomerate", roles:[
+    ["ama","Vice Chairman","board","v"],
+    ["ama","Group Chief Financial Officer","executive","v"]]},
+  {id:"abdulhameed_alnaser", n:"Abdulhameed AlNaser", t:2, p:52, s:"conglomerate", roles:[
+    ["ama","Director","board","v"]]},
+  {id:"jo_o_pedro", n:"João Pedro Lopes", t:2, p:60, s:"conglomerate", roles:[
+    ["ama","Group Chief Executive Officer","executive","v"]]},
+  {id:"vinay_bhaskaran_chembakasher", n:"Vinay Bhaskaran Chembakasheri", t:2, p:46, s:"conglomerate", roles:[
+    ["ama","General Manager - Structural & Mechanical","executive","v"]]},
+  {id:"jose_antonio_escalera", n:"Jose Antonio Escalera Ferrandez", t:2, p:46, s:"conglomerate", roles:[
+    ["ama","General Manager - Building Materials","executive","v"]]},
+  {id:"john_joseph", n:"John Joseph", t:2, p:46, s:"conglomerate", roles:[
+    ["ama","General Manager - AMA Motors","executive","v"]]},
+  {id:"adel_hasan_al", n:"Adel Hasan Al A'ali", t:2, p:62, s:"materials", roles:[
+    ["haji_hassan","Chairman","board","v"]]},
+  {id:"ahmed_waheed_al", n:"Ahmed Waheed Al Aali", t:2, p:62, s:"materials", roles:[
+    ["haji_hassan","Vice Chairman","board","v"]]},
+  {id:"jalal_al_aali", n:"Jalal Al Aali", t:2, p:52, s:"materials", roles:[
+    ["haji_hassan","Executive Director","board","v"]]},
+  {id:"hana_hasan_al", n:"Hana Hasan Al A'ali", t:2, p:52, s:"materials", roles:[
+    ["haji_hassan","Executive Director","board","v"]]},
+  {id:"hani_hasan_al", n:"Hani Hasan Al A'ali", t:2, p:52, s:"materials", roles:[
+    ["haji_hassan","Executive Director","board","v"]]},
+  {id:"maitham_al_aali", n:"Maitham Al Aali", t:2, p:52, s:"materials", roles:[
+    ["haji_hassan","Executive Director","board","v"]]},
+  {id:"najah_hasan_al", n:"Najah Hasan Al A'ali", t:2, p:52, s:"materials", roles:[
+    ["haji_hassan","Board Member","board","v"]]},
+  {id:"ali_al_aali", n:"Ali Al Aali", t:2, p:52, s:"materials", roles:[
+    ["haji_hassan","Board Member","board","v"]]},
+  {id:"saleh_husain", n:"Saleh Husain", t:2, p:52, s:"materials", roles:[
+    ["haji_hassan","Independent Board Member","board","v"]]},
+  {id:"ahmed_al_nuaimi", n:"Ahmed Al Nuaimi", t:2, p:52, s:"materials", roles:[
+    ["haji_hassan","Independent Board Member","board","v"]]},
+  {id:"husain_al_mulla", n:"Husain Al Mulla", t:2, p:52, s:"materials", roles:[
+    ["haji_hassan","Board Member","board","v"]]},
+  {id:"kurt_mathiasen", n:"Kurt Mathiasen", t:2, p:52, s:"materials", roles:[
+    ["haji_hassan","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2954,4 +3084,5 @@ const AKA = {
   bahrain_moh:["Bahrain"],
   bahrain_moe:["MOE","Bahrain"],
   bahrain_scw:["SCW","Bahrain"],
+  stc_bahrain:["Viva Bahrain","VIVA"],
 };

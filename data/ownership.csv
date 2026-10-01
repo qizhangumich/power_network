@@ -251,3 +251,7 @@ q_2,Q Holding,ihc,International Holding Company,subsidiary,v
 skmc_abu_dhabi,Sheikh Khalifa Medical City,seha,SEHA (AD Health Services),subsidiary,v
 lulu_retail,Lulu Retail Holdings,lulu,LuLu Group International,subsidiary (separately ADX-listed retail arm),ns
 nmdc_energy,NMDC Energy,nmdc,NMDC Group,subsidiary,ns
+adnoc_onshore,ADNOC Onshore,adnoc,ADNOC Group,"majority-owned (60%) upstream concession JV — partners BP, TotalEnergies, CNPC, JODCO, CEFC, GS Energy",v
+adnoc_offshore,ADNOC Offshore,adnoc,ADNOC Group,"majority-owned (60%) offshore concession JV, formed from ADMA-OPCO & ZADCO — partners Eni, TotalEnergies, CNPC/CNOOC, Inpex, ONGC Videsh",v
+ruwais_lng,Ruwais LNG,adnoc,ADNOC Group,"JV under construction (ADNOC 60% / Shell, TotalEnergies, bp, Mitsui 10% each); FID June 2024",v
+adnoc_maritime,ADNOC Maritime,adnoc,ADNOC Group,wholly-owned subsidiary — shipping & maritime logistics (formerly ADNATCO/NGSCO),ns

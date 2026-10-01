@@ -200,6 +200,7 @@ const INSTITUTIONS = [
   {id:"oman_sail", n:"Oman Sail", s:"consumer_disc", t:3, p:52, short:"Oman Sail"},
   {id:"natl_omani_hosp", n:"National Omani Hospitality Company", s:"consumer_disc", t:3, p:52, short:"Natl Omani Hosp Co"},
   {id:"salalah_free_zone", n:"Salalah Free Zone Company", s:"industry", t:2, p:58, short:"Salalah Free Zone"},
+  {id:"marsa_lng", n:"Marsa LNG", s:"energy", t:3, p:54, short:"Marsa LNG"},
 ];
 
 const PEOPLE = [
@@ -257,6 +258,7 @@ const PEOPLE = [
 
   // ===== ADDED SEP 2026 — KEY MINISTRIES PREVIOUSLY MISSING FROM THE MAP =====
   {id:"alaufi_energy", n:"Eng. Salim bin Nasser bin Said Al Aufi", t:1, p:78, s:"energy", roles:[
+    ["hydrom","Chairman of the Board of Directors","board","v"],
     ["spf","Chairman of the Board of Directors","board","v"],
     ["edo","Chairman and Non-Executive Director","board","v"],
     ["moem_om","Minister of Energy & Minerals","political","v"]],
@@ -876,6 +878,7 @@ const PEOPLE = [
   {id:"mathla_saleh_al", n:"Mathla Saleh Al Shaqsi", t:2, p:52, s:"finance", roles:[
     ["msx","Board Member","board","ns"]]},
   {id:"imad_kamal_sultan", n:"Imad Kamal Sultan", t:2, p:52, s:"finance", roles:[
+    ["towell","Vice Chairman & Managing Director","board","v"],
     ["msx","Board Member","board","ns"]]},
   {id:"hatim_bin_bakhit", n:"Hatim bin Bakhit Al Shanfari", t:2, p:52, s:"finance", roles:[
     ["msx","Board Member","board","ns"]]},
@@ -1165,6 +1168,16 @@ const PEOPLE = [
     ["nama_distribution","Chief Executive Officer","executive","ns"]]},
   {id:"khalifa_al_barwani", n:"Khalifa Al Barwani", t:2, p:60, s:"gov", roles:[
     ["ncsi","Chief Executive Officer","executive","ns"]]},
+  {id:"salim_bin_muslim_b", n:"Salim bin Muslim Al Busaidi", t:2, p:58, s:"gov", roles:[
+    ["mol","Undersecretary for Human Resources Development","executive","v"]]},
+  {id:"khalid_bin_salim", n:"Khalid bin Salim bin Sulaiman Al Ghammari", t:2, p:58, s:"gov", roles:[
+    ["mol","Undersecretary for Labour","executive","v"]]},
+  {id:"maqbool_ali_sultan", n:"Maqbool Ali Sultan", t:2, p:62, s:"conglomerate", roles:[
+    ["towell","Chairman","board","v"]]},
+  {id:"mohamed_ali_abdulamir", n:"Mohamed Ali Abdulamir Sultan", t:2, p:52, s:"conglomerate", roles:[
+    ["towell","Director","board","v"]]},
+  {id:"murtadha_ahmed_sultan", n:"Murtadha Ahmed Sultan", t:2, p:52, s:"conglomerate", roles:[
+    ["towell","Director","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1315,6 +1328,7 @@ const OWNERSHIP = [
   ["oman_sail","oia","subsidiary (via OMRAN Group)","ns"],
   ["natl_omani_hosp","oia","subsidiary (via OMRAN Group)","ns"],
   ["salalah_free_zone","oia","subsidiary (via Asyad Group)","ns"],
+  ["marsa_lng","oq","JV between OQ Alternative Energy and TotalEnergies (FID 2023) — LNG bunkering facility at Port of Sohar","ns"],
 ];
 
 const FAMILY = [
