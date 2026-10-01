@@ -203,6 +203,7 @@ const PEOPLE = [
     ["shj_execco","Member (Commander-in-Chief of Sharjah Police)","board","v"],
     ["shjpolice","Commander-in-Chief","government","v"]]},
   {id:"alowais_scci", n:"Abdallah Sultan Al Owais", t:1, p:66, s:"gov", roles:[
+    ["sba","Board Member","board","v"],
     ["scci","Chairman","board","v"]]},
   {id:"almahmoud_sedd", n:"Hamad Ali Abdalla Al Mahmoud", t:1, p:68, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Sharjah Economic Development Department)","board","v"],
@@ -1001,6 +1002,46 @@ const PEOPLE = [
     ["sharjah_courts","President of the Courts of First Instance","executive","ns"]]},
   {id:"shanavas_mohammed", n:"Shanavas Mohammed", t:2, p:58, s:"health", roles:[
     ["rak_hospital","Chief Financial Officer","executive","v"]]},
+  {id:"sheikh_majid_al", n:"Sheikh Majid Al Mualla", t:2, p:52, s:"comm", roles:[
+    ["sba","Board Member","board","v"]]},
+  {id:"abdulaziz_taryam", n:"Abdulaziz Taryam", t:2, p:52, s:"comm", roles:[
+    ["sba","Board Member","board","v"]]},
+  {id:"rashid_al_kous", n:"Rashid Al Kous", t:2, p:52, s:"comm", roles:[
+    ["sba","Board Member","board","v"]]},
+  {id:"marwa_al_aqroubi", n:"Marwa Al Aqroubi", t:2, p:52, s:"comm", roles:[
+    ["sba","Board Member","board","v"]]},
+  {id:"abdulaziz_al_musallam", n:"Abdulaziz Al Musallam", t:2, p:52, s:"comm", roles:[
+    ["sba","Board Member","board","v"]]},
+  {id:"john_ingram", n:"John Ingram", t:2, p:52, s:"comm", roles:[
+    ["sba","Board Member","board","v"]]},
+  {id:"youngsuk_chi", n:"Youngsuk Chi", t:2, p:52, s:"comm", roles:[
+    ["sba","Board Member","board","v"]]},
+  {id:"markus_dohle", n:"Markus Dohle", t:2, p:52, s:"comm", roles:[
+    ["sba","Board Member","board","v"]]},
+  {id:"gaurav_shrinagesh", n:"Gaurav Shrinagesh", t:2, p:52, s:"comm", roles:[
+    ["sba","Board Member","board","v"]]},
+  {id:"sheikh_salem_bin_b", n:"Sheikh Salem bin Mohammed Al Qasimi", t:2, p:52, s:"gov", roles:[
+    ["sctda","Director","board","v"]]},
+  {id:"ziad_el_khoury", n:"Ziad El Khoury", t:2, p:58, s:"realestate", roles:[
+    ["al_hamra","Vice President and Head of Hospitality","executive","v"]]},
+  {id:"ahmed_zaki", n:"Ahmed Zaki", t:2, p:58, s:"realestate", roles:[
+    ["al_hamra","Senior Vice President - Legal Affairs","executive","v"]]},
+  {id:"maher_aboud", n:"Maher Aboud", t:2, p:60, s:"conglomerate", roles:[
+    ["ghassan_aboud_grp","Group Chief Executive Officer","executive","v"]]},
+  {id:"ahmad_aboud", n:"Ahmad Aboud", t:2, p:58, s:"conglomerate", roles:[
+    ["ghassan_aboud_grp","Group Chief Financial Officer","executive","v"]]},
+  {id:"nicole_claudia_deumens", n:"Nicole Claudia Deumens", t:2, p:58, s:"conglomerate", roles:[
+    ["ghassan_aboud_grp","Chief Marketing Officer","executive","v"]]},
+  {id:"olivier_leblan", n:"Olivier Leblan", t:2, p:58, s:"conglomerate", roles:[
+    ["ghassan_aboud_grp","Chief Digital & Technology Officer","executive","v"]]},
+  {id:"joud_aboud", n:"Joud Aboud", t:2, p:58, s:"conglomerate", roles:[
+    ["ghassan_aboud_grp","Executive Vice President - Strategy and Corporate Affairs","executive","v"]]},
+  {id:"hesham_al_barbary", n:"Hesham Al Barbary", t:2, p:58, s:"conglomerate", roles:[
+    ["ghassan_aboud_grp","Group Legal Counsel","executive","v"]]},
+  {id:"parul_jain_mishra", n:"Parul Jain Mishra", t:2, p:58, s:"conglomerate", roles:[
+    ["ghassan_aboud_grp","HR Director - People & Culture","executive","v"]]},
+  {id:"saud_abbasi", n:"Saud Abbasi", t:2, p:60, s:"conglomerate", roles:[
+    ["ghassan_aboud_grp","Chief Executive Officer - Emerging Markets","executive","v"]]},
 ];
 
 const OWNERSHIP = [

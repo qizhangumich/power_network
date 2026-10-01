@@ -143,7 +143,6 @@ dubai,economic_zones_world,Economic Zones World,industry,60,0,pending
 kuwait,lst_stc,Kuwait Telecommunications Company K.S.C.P. (stc),comm,60,0,pending
 kuwait,ntec,National Technology Enterprises Company,tech,60,0,pending
 northern,ajman_ded,Ajman Department of Economic Development,gov,60,1,pending
-northern,sctda,Sharjah Commerce and Tourism Development Authority,gov,60,1,pending
 oman,royalhosp,The Royal Hospital (Muscat),health,60,1,pending
 oman,oq8,Duqm Refinery and Petrochemical Industries Company,energy,60,0,pending
 oman,sct,Space Communication Technologies,tech,60,0,pending
@@ -287,7 +286,6 @@ abudhabi,al_dhafra_petro,Al Dhafra Petroleum,energy,57,0,pending
 dubai,chalhoub,Chalhoub Group,consumer_disc,57,0,pending
 dubai,galadari_brothers,Galadari Brothers Group,conglomerate,57,0,pending
 kuwait,al_babtain,Al Babtain Group,industry,57,0,pending
-northern,ghassan_aboud_grp,Ghassan Aboud Group,conglomerate,57,1,pending
 qatar,abu_issa,Abu Issa Holding,consumer_disc,57,0,pending
 qatar,al_muftah,Al Muftah Group,conglomerate,57,0,pending
 saudi,alturki,Alturki Holding,conglomerate,57,0,pending
