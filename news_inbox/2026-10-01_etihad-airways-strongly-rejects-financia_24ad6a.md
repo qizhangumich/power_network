@@ -1,0 +1,5 @@
+# Etihad Airways strongly rejects financial allegations against Man City
+source: ARN News Centre
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxNTWFnOV8weTdYM0NLYzdXTTBoVTlYSV8zMWNSRTZOMlFPNzZtRTNPeDM4enB3YmFVS0lOSkl5YjRxSnF5ZDdIRllxY1hzam9TNnFqLTE3QmlBS3Ayd1d2RWJOVEd3ZkNzbnpoa1NwLVRScEVCdll1R3AxVnVxcXp1OTN4TXlsc3JoY0NIVWdDWklaTXRuME1aRm1VbGEzRFp6N1N0M2lDM3NjakRuUmZPR3lBMnlmdw?oc=5
+
+Etihad Airways strongly rejects financial allegations against Man City    ARN News Centre

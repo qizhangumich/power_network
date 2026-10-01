@@ -1,0 +1,5 @@
+# Spotlight UAE EDGE, Calidus, Generation 5: inside Abu Dhabi's defence industry overhaul
+source: Intelligence Online
+url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbExvTG1DQVdDZXVicHNrdWh2bUljVGFhTlF6Qi1hYlhmSEdSei1rMHN3bVZXZGpKaW90VmliZHVzSzB1RzFGQ3NaN3lUMEhRUXdyM09VWlNzSkwtV2hjdWRZSEJweDlpQ2R5RHJtS3c2UkVtY0RSa1lXU0otUDRwSm9PNnBIYkNDZHd6NUgtTHBzblRUY1pra1IwMjB5RGZuNTl3LUdTY01jak1XemczYlRlNnl5NmViM0UzRnRITm4zWUtaX2R0RkJObnBtdEZLZkxQVEtmWVFIeWJXaW9VY1BtY1k3VWp5?oc=5
+
+Spotlight UAE EDGE, Calidus, Generation 5: inside Abu Dhabi's defence industry overhaul    Intelligence Online

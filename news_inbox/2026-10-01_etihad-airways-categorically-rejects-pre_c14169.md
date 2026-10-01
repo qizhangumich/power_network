@@ -1,0 +1,5 @@
+# Etihad Airways 'categorically rejects' Premier League findings against Manchester City
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxPb1VkNUlpaHozWDIzVmhyUEhmaUJSMEpCX2ZOazc0MWpUMmd4d2o5VVhhVGJIeVlTQmhxNDBuVldSTUtzSHZQeHRaSmI1b0E4Z0ZKRXhLRHNiN1VDeWdBYUFpQ0ZHcy10MHltVm5aakVuaGJwU1V0c1M0QWpXVDVjd0U5UWJKOGZOZmlLUkFCRzhmVk5Pd3FwcFRIWVdja09GSVFpdmJFb21mYmhaRUpLTk1SYXYyX29YRXhKbjF4SVVtYUh3NWU4TndwdzNON0ZCUDJZ?oc=5
+
+Etihad Airways 'categorically rejects' Premier League findings against Manchester City    thenationalnews.com

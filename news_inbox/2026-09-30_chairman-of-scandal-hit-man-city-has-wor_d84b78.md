@@ -1,0 +1,5 @@
+# Chairman of scandal-hit Man City has worked with Trump as part of UAE elite
+source: NBC4 Washington
+url: https://news.google.com/rss/articles/CBMikgFBVV95cUxPc1JScGdieWxHQnVPSlZkTFhkOXJNUUJIN0s4S1M0cFhIZG9FdWtlSmpQQ0x1RlR3azMyeXItekNLVUpqRlpwekJxTGRoekFvcXM2VVEtVExTWWlPWVVuNXBZRU5QTDVmWFVqZXJVR3BBNG5BRzBKbXhCNG4wbmYxdTZHeFZaV0lfRnRTSnhsMHpWZ9IBmgFBVV95cUxNR0IyOEpkSjBHZ3EzVzk0aUJUZkt6VXpGNWNsdEJTOXd6NV9VejJWZWVwNENrbkNXQ29jSDV2dmpzUXJjSDR6dkJYYmhFa1B5X3cwcWZlNUR1bG54SzJSZ25IYkV5Sm9odVF2UWpMVkFPU3NraTNmOEszU21FSHFfdjA5OURVdy1Fd0ZqcnlzTWtyd3hWMXhTcVl3?oc=5
+
+Chairman of scandal-hit Man City has worked with Trump as part of UAE elite    NBC4 Washington
