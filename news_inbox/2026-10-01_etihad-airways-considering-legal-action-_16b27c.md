@@ -1,0 +1,5 @@
+# Etihad Airways Considering Legal Action Against Premier League
+source: RealGM
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPRTJQYVR6bTg0Zjlyd0pqenlyWlpqYzhNeWdqNUhsX3ltbUpXTll2Q3NxUG1KT0tUcTI3eGE2UV9uOWNEd09lcUUyaG1oMXRQdzBDbHFxN2pyYllSYnQyZmlXWm4yc19GbURPZnpkQjhRbFpxWk1OMjFGZ3QzNE9hMXgtTTNVWkZlZmNtajRjZ1JqWEFTTDVVVkFRSU42c2J5anZJYg?oc=5
+
+Etihad Airways Considering Legal Action Against Premier League    RealGM

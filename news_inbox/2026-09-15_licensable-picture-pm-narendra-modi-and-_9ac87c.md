@@ -1,0 +1,5 @@
+# Licensable picture: PM Narendra Modi and Abu Dhabi Crown Prince Sheikh Khaled bin Mohamed bin Zayed Al Nahyan at the 18th BRICS Summit
+source: reutersconnect.com
+url: https://news.google.com/rss/articles/CBMivgJBVV95cUxQbHVrbEhTZkJqZUNzUE1hY2ZCOUszMUpnbmRPZmJsMGZfVFRlYmZYMlFLMTRVZnpLTDJCcjRiSW5YWUtOSDNnVWcxSF9nSHl2eWFqQXhrV0lwVHBhUHFRX3FIeXI3dUY4NDJPcF9pMm4xamk5dzhtdzJ6Z0lMX3J0TWlYU1JRdGVCOUFoaEl6VWR1RWxoZGF6c0o4UmFFMFZQbklGekRGWmRLd1ZjQTVLemNOLW1odS1IclJtUlR3QXY5ME1KM19uMHBGdHpGdG1wMXJnWW5abkZOT0hxMUctLVlNZndNR1p0cnhObm9yekx0SGt6c2lHWVhERnNoNThNVnNyUnJyeHRqNE96cWdFeTBrQlR1QS1hUEM4YnhacEs1QXlUTWc2NUdwMGhwZURfcnNLR0ZsM0o5YUhWcGc?oc=5
+
+Licensable picture: PM Narendra Modi and Abu Dhabi Crown Prince Sheikh Khaled bin Mohamed bin Zayed Al Nahyan at the 18th BRICS Summit    reutersconnect.com

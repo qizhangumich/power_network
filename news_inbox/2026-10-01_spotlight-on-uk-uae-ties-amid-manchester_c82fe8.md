@@ -1,0 +1,5 @@
+# Spotlight on UK-UAE ties amid Manchester City scandal
+source: Winnipeg Sun
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVEVpZzJvV0VnYVBtWkFIWHRwYWN4MjJMaDJRanRZdmE5TDNJeDNlZ2NDTTlxTFFTNVg0bWstVEFaWGpSdWxQS0FobTlKZk1Pb3ZzVk54TzlIZzNRbGp4dG5EcG5tUEtQeU0wMUFiZFJ6RjYwVjZheXFvUmxfSkc2X05kU0lMazdqSy1PdW44U3hRWm44LUQwVG1YOW5HNzJWUkRNVHBKSHVnMjlweklWMFB2Vk54bWJnVUZPQTBlLWthaE9LOW9TTVdfd29rcS1MR1VLZmpibXVRUQ?oc=5
+
+Spotlight on UK-UAE ties amid Manchester City scandal    Winnipeg Sun

@@ -1,0 +1,5 @@
+# Etihad returns its final A380 to service
+source: Flightradar24
+url: https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFNhUllpTk1hZmdqY3lvam4yS05DcnNqbjJTdlphV1lEUkZON0llWV8tQ0Q0NmMxRU5RekJiWXJ4akZhN0VlVTYwZUVEQkd3TnZpS0xVYlViMVRaSDlPT3VuM2p5LXNGdXNyQjB4QlJCV3BvNjFVQ2VnYkhHbzZMd3pRQ0hmTmdsMkJ4SXBEUDJOdHVHRmMzWWxsNUVQR0pzUm9URGJB?oc=5
+
+Etihad returns its final A380 to service    Flightradar24

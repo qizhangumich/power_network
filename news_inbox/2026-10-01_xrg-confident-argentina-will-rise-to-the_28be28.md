@@ -1,0 +1,5 @@
+# XRG confident Argentina will rise to the top of global LNG industry
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxObFFnbUc4Um44MVl4eVNqejEwNDBkQ3ZnQUlHYlp1QnF4SFhoVE51XzRualhlOERvNkxJSXppTkctWTF0alc0dW9XOUMwM2k1ejBzdDlHTkdlekZLVXotTlFiSFpoUllLLWlTLW4yU3V4Nm1wUEtEdzFUaUVPV3k3Snd5LVhhRG11aXM3TDdXanFaTnMteTlmaUZSSkVwcjV6Zk0weHUtNkNGa3NsMjJpWnNBaDhMWUtXOFp0QmM2LVVtb3UxM0E?oc=5
+
+XRG confident Argentina will rise to the top of global LNG industry    thenationalnews.com

@@ -1,0 +1,5 @@
+# Etihad threatens legal action over Premier League findings on Man City
+source: Sports Business Journal
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdTRjNk1KRFUxN25samJzbURUX1pzbzNpQjdtaEFRVVdEaFVQTnFiRWxuRktuOGxHSk0zbm5YQ2dxWWVWdjI1TEpVMFEwM0hCeGF3MkdaeGl1Tm9iejlVWHp0dllwWHJqNjBUVnBBYzhGSTQ0M2hlXzJzd2RpRWlTWXdlZ0tGeVpoSXozUHVlYmdrYXpSV0RRdmI3NXlhcno5Z2p0alhoa1M4R1Z6T29sODUxY0gyT2JpN2sweUpWNzFhX0ppVWRjYQ?oc=5
+
+Etihad threatens legal action over Premier League findings on Man City    Sports Business Journal

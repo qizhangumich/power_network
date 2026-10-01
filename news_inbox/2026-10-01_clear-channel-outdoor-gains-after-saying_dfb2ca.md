@@ -1,0 +1,5 @@
+# Clear Channel Outdoor gains after saying sale to Mubadala will close in early Q4
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSE0weURrTFVwRlRRem1MZHJpMFVINnphb05BVmI2RENlOW5pbFpBb2RLM2p3SEo3akJxUV9HekxXcHBzSE9haGpwUXk4SDJrTXJQYWhJNGZRQldEU1lWeGIxazlqRkloMXJ1TWFZM0FhOGZKVVdMNjhwLURRZ2pTcVdMY3I5cHhJRFhmdExOVjUtdVZFaDZPVEFMMFM2WDdMRjlTTmtoVXY2T3RIYUlwbkd3QWg3VkN0Zm1rRjZuMGl1OW82V2l3ZXYtWHQ5cFZrdklKQk1rYTVycFE?oc=5
+
+Clear Channel Outdoor gains after saying sale to Mubadala will close in early Q4    TradingView

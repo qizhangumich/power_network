@@ -1,0 +1,5 @@
+# Rosewood Abu Dhabi to offer limited collection of completed residences for private ownership on Al Maryah Island
+source: Zawya
+url: https://news.google.com/rss/articles/CBMihAJBVV95cUxPM1pUTlNfZTAxVFQ2SU5UWXo3d19wQnhENUxGeXFDU1JmYkM4M01VQ3M4ZEU4UlVOUFNNdHY0OXZVcklLZWFFOEkyRE1ib1kwcWtCRHVTUWxVX2pNYWhOSkluQ1FGVFlXWlptbHYxQmhFY0lEQVRXazJNb21IYU1SRkl0ZkdvWHJsbFpIbldIMjFieG03ZkdhZ0l3MS1GOEl4NGwzT1pmOEhVWFBUQzQ3OEFRLWNBbm4yRHdMNmxiY0xTWTBRMU95bWNIdGFvendxNG5FbnphNERIcGZGWjEybll2QkRQM3BXM1ZEZWs4cExiY05INlB6eUlRenpXcjdJVGtRUw?oc=5
+
+Rosewood Abu Dhabi to offer limited collection of completed residences for private ownership on Al Maryah Island    Zawya

@@ -1,0 +1,5 @@
+# Mubadala, Kerzner Launch Private Residences on Al Maryah Island
+source: ceoinsightsasia.com
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxNS29YU2FJMDJzcHJtZW90WkM4a29qS2d3d2xOcldwcnU5bDFiRTYtQUc5X0xtSUVsUG55c1dJZ0lqYUFKM2ppdUJTdFpXbWxqUkVuZ0taaWtxcmpHc3V2VzZIUEI3S25QMjdiYVk0dm9zak85RjFUNFE2WnhHYUxJekJjSjV2SGpHdno0WXdBVTU2aWZHSEtIeF9GWU94TWRuWk1JNGRHdklQZFFqbWhLMEtTYm5EZw?oc=5
+
+Mubadala, Kerzner Launch Private Residences on Al Maryah Island    ceoinsightsasia.com

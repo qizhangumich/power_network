@@ -1,0 +1,5 @@
+# Etihad Airways considers legal action against Premier League following financial findings
+source: plataformamedia.com
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaERYN1BzQUE4OUNQUGRoaElKbzZIWlUzUDJway03ZW1tdF96eXpmaTFhV0tlaG5SdG1DTXYwajFFT3djUFpnVWJneWczSW9QOXZfdmJ1MDVtT3M0QUxISTVwTFBkZWJibnktQTlCd0Y2NXpfanJlYWhnSjRSU0xIMjhiYjNFcVdwR0ktT1FwSU8teEtncG1MQUNuMHBVSkZRclpzUlpLSmZWYnM?oc=5
+
+Etihad Airways considers legal action against Premier League following financial findings    plataformamedia.com

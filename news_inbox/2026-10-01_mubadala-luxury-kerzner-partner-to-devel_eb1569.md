@@ -1,0 +1,5 @@
+# Mubadala, Luxury & Kerzner partner to develop One&Only residences on Al Maryah Island
+source: صوت الإمارات
+url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOWVrSmVmYXRiRENLVFJTdXdXLUtfVWtSb3JXOUpLWFl5Z0pKaXVNSGJvOGstWWVKSzB6aVpZQkhIYzhPdkVDWFJlNjZORzZENVZLM3JxX0syTmFEWDAwV3U3RkJrMGVpaDQzSHNhU1hJekpINFBxSVFZQmJqSFV3T08ycjhfTkpBaUtoNGxIc2YwZkdmRTNLQm50bTZPRlRfcFNkdXJkMHk0NmRsRUFtMS1WeVlmX0FkREM4OFdMeU1rOF9EdndqLTBqSWxicWE1OWl2UVhjMjJPWDJTZUhPWGRuOA?oc=5
+
+Mubadala, Luxury & Kerzner partner to develop One&Only residences on Al Maryah Island    صوت الإمارات

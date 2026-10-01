@@ -1,0 +1,5 @@
+# Etihad Airways considers legal action against Premier League after Man City financial breaches
+source: Anadolu Ajansı
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPcFZpNnN0R29RRndZeFRoNkd5eTg1OG82M3J3ZEdmU3MxNkdGNDBPNjNhVzIyZXFaS1hIWkczRmp3NHlUcWdaSFdyYXBja293LVMzME1BdlR5ZjU5UGZ1UDZnV0duNElpZl9UbnhMeU1vcHpHRlJHZXliNFpRd2RzSFZUQmF0M2hnMkJ4bkZ0MGJzN09YSk5Cd19jVmEtdXBUTnM5NzFWc1FZNi1NZ2ZfRUw5RnJ6VGxYdjFNTWZlVzV6OF81aHROSlNPdw?oc=5
+
+Etihad Airways considers legal action against Premier League after Man City financial breaches    Anadolu Ajansı
