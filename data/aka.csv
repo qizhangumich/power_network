@@ -11,7 +11,7 @@ jassem_zaabi,Jassem Al Zaabi
 alsuwaidi_adq,Mohamed Al Suwaidi|Mohamed Hassan Al Suwaidi
 adnoc,Abu Dhabi National Oil Company|Ruwais Refinery
 cfg,Man City|Manchester City
-e_and,Etisalat
+e_and,Etisalat|Emirates Telecommunications Group Company PJSC
 adq,Abu Dhabi Developmental Holding
 ihc,International Holding Co
 adia,Abu Dhabi Investment Authority
@@ -44,5 +44,5 @@ arab_monetary_fund,AMF
 adnoc_onshore,ADCO|Abu Dhabi Company for Onshore Petroleum Operations
 adnoc_offshore,ADMA-OPCO|ZADCO
 adnoc_maritime,ADNATCO|NGSCO
-lst_adports,Abu Dhabi Ports Company|AD Ports
-lst_purehealth,Pure Health Holding
+adports,Abu Dhabi Ports Company|AD Ports Group PJSC|AD Ports
+purehealth,PureHealth Holding PJSC|Pure Health Holding PJSC

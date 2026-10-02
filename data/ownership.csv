@@ -1,4 +1,4 @@
-﻿child_id,child_name,parent_id,parent_name,label,verification
+child_id,child_name,parent_id,parent_name,label,verification
 execcouncil,Abu Dhabi Executive Council,adgov,Abu Dhabi Government (Ruler's Court),governs under,v
 scfea,Supreme Council for Financial & Economic Affairs,adgov,Abu Dhabi Government (Ruler's Court),reports to,v
 eaa,Executive Affairs Authority,adgov,Abu Dhabi Government (Ruler's Court),reports to,v
@@ -66,9 +66,11 @@ space42,Space42,mubadala,Mubadala Investment Company,co-shareholder,v
 mgx,MGX,mubadala,Mubadala Investment Company,founding partner,v
 mgx,MGX,g42,G42,founding partner,v
 e_and,e& (Etisalat Group),eia,Emirates Investment Authority,majority (federal),v
+e_and,e& (Etisalat Group),adx,Abu Dhabi Securities Exchange,listed on ADX,v
 edge_grp,EDGE Group,adgov,Abu Dhabi Government (Ruler's Court),state owner,v
 purehealth,PureHealth,ihc,International Holding Company,major shareholder,v
-purehealth,PureHealth,adq,ADQ,major shareholder,v
+purehealth,PureHealth,adq,ADQ,"major shareholder (~45% via Q Health LLC)",v
+purehealth,PureHealth,adx,Abu Dhabi Securities Exchange,listed on ADX,v
 seha,SEHA (AD Health Services),purehealth,PureHealth,,v
 daman,Daman (National Health Insurance),purehealth,PureHealth,,v
 m42,M42,mubadala,Mubadala Investment Company,JV partner,v
@@ -126,11 +128,8 @@ adnic,Abu Dhabi National Insurance Company,mubadala,Mubadala Investment Company,
 trojan,Trojan Holding,alphadhabi,Alpha Dhabi Holding,subsidiary,v
 rotana,Rotana Hotels,alnowais,Al Nowais Investments,co-founded (Al Nowais),ns
 raytheon_em,Raytheon Emirates,tawazun,Tawazun Council,defense partnerships,ns
-lst_eand,Emirates Telecommunications Group Company PJSC,adx,Abu Dhabi Securities Exchange,listed on ADX,ns
 lst_ords,Ooredoo Q.P.S.C.,adx,Abu Dhabi Securities Exchange,listed on ADX,ns
-lst_adports,Abu Dhabi Ports Company PJSC,adx,Abu Dhabi Securities Exchange,listed on ADX,ns
 lst_mbme,MBME Group PJSC,adx,Abu Dhabi Securities Exchange,listed on ADX,ns
-lst_purehealth,Pure Health Holding PJSC,adx,Abu Dhabi Securities Exchange,listed on ADX,ns
 lst_2pointzero,Two Point Zero Group PJSC,adx,Abu Dhabi Securities Exchange,listed on ADX,ns
 lst_agility,Agility Global PLC,adx,Abu Dhabi Securities Exchange,listed on ADX,ns
 lst_apex,Apex Investment PSC,adx,Abu Dhabi Securities Exchange,listed on ADX,ns
@@ -255,6 +254,3 @@ adnoc_onshore,ADNOC Onshore,adnoc,ADNOC Group,"majority-owned (60%) upstream con
 adnoc_offshore,ADNOC Offshore,adnoc,ADNOC Group,"majority-owned (60%) offshore concession JV, formed from ADMA-OPCO & ZADCO — partners Eni, TotalEnergies, CNPC/CNOOC, Inpex, ONGC Videsh",v
 ruwais_lng,Ruwais LNG,adnoc,ADNOC Group,"JV under construction (ADNOC 60% / Shell, TotalEnergies, bp, Mitsui 10% each); FID June 2024",v
 adnoc_maritime,ADNOC Maritime,adnoc,ADNOC Group,wholly-owned subsidiary — shipping & maritime logistics (formerly ADNATCO/NGSCO),ns
-lst_eand,Emirates Telecommunications Group Company PJSC,eia,Emirates Investment Authority,~60% shareholder,v
-lst_adports,AD Ports Group PJSC,adq,ADQ,"majority shareholder via L'IMAD (~75.4%, tender offer underway toward ~98.9%)",v
-lst_purehealth,PureHealth Holding PJSC,adq,ADQ,"~45% shareholder via Q Health LLC",v
