@@ -216,6 +216,9 @@ const INSTITUTIONS = [
   {id:"ras_laffan_petrochem", n:"Ras Laffan Petrochemicals Company", s:"materials", t:2, p:60, short:"Ras Laffan Petrochem"},
   {id:"rloc", n:"Ras Laffan Olefins Company", s:"materials", t:3, p:56, short:"RLOC"},
   {id:"q_chem", n:"Qatar Chemical Company", s:"materials", t:3, p:56, short:"Q-Chem"},
+  {id:"qnb_capital", n:"QNB Capital", s:"finance", t:2, p:58, short:"QNB Capital"},
+  {id:"teyseer", n:"Teyseer Group", s:"conglomerate", t:3, p:58, short:"Teyseer Group"},
+  {id:"nbk", n:"Nasser Bin Khaled Holdings", s:"conglomerate", t:3, p:56, short:"NBK Group"},
 ];
 
 const PEOPLE = [
@@ -1773,6 +1776,10 @@ const PEOPLE = [
     ["sidra","Acting General Counsel Deputy General Counsel and Board Secretary","executive","v"]]},
   {id:"clare_selway", n:"Clare Selway", t:2, p:60, s:"health", roles:[
     ["sidra","Executive Director of the CEO Office","executive","v"]]},
+  {id:"usman_ahmed", n:"Usman Ahmed", t:2, p:60, s:"finance", roles:[
+    ["masraf","Group Chief Executive Officer (incoming; QCB-approved","executive","ns"]]},
+  {id:"omar_al_emadi", n:"Omar Al Emadi", t:2, p:60, s:"finance", roles:[
+    ["masraf","Acting Group Chief Executive Officer (effective 1 Oct 2026; concurrent with Group Chief Operations and Administration Officer)","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1893,6 +1900,7 @@ const OWNERSHIP = [
   ["ras_laffan_petrochem","qatarenergy","JV under construction (QatarEnergy 70% / Chevron Phillips Chemical 30%) — integrated polymers complex","v"],
   ["rloc","qatofin","JV — Q-Chem II 53.31% / Qatofin 45.69% / QatarEnergy 1%; operates ethylene cracker since 2010","v"],
   ["q_chem","lst_mphc","JV — MPHC 49% / Chevron Phillips Chemical International Qatar Holdings 49% / QatarEnergy 2%","v"],
+  ["qnb_capital","qnb","wholly-owned subsidiary (investment banking & advisory arm; est. 2008)","v"],
 ];
 
 const FAMILY = [
@@ -1913,6 +1921,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  moi_q:["Interior Ministry"],
   tamim_bin_hamad:["Hamad University for Military and Technology"],
   udst:["Doha for Science and Technology"],
   lst_qati:["QATI","QIC","Qatar Insurance Group"],
@@ -1973,4 +1982,6 @@ const AKA = {
   phcc_qatar:["PHCC","Qatar"],
   qatar_awqaf_ministry:["AWQAFM","Qatar"],
   qe_renewables:["QERS"],
+  teyseer:["Teyseer Holding"],
+  nbk:["Nasser Bin Khaled and Sons Holdings","NBK Automobiles"],
 };

@@ -472,6 +472,8 @@ const INSTITUTIONS = [
   {id:"stc_channels", n:"Saudi Telecom Channels Company", s:"comm", t:3, p:52, short:"stc Channels"},
   {id:"aramco_trading", n:"Aramco Trading Company", s:"energy", t:2, p:60, short:"Aramco Trading"},
   {id:"agoc", n:"Aramco Gulf Operations Company", s:"energy", t:3, p:54, short:"AGOC"},
+  {id:"alpha_capital", n:"Alpha Capital", s:"finance", t:3, p:54, short:"Alpha Capital"},
+  {id:"fsc", n:"Federation of Saudi Chambers", s:"gov", t:2, p:58, short:"FSC"},
 ];
 
 const PEOPLE = [
@@ -2616,4 +2618,6 @@ const AKA = {
   mobily:["Etihad Etisalat"],
   stc_channels:["Channels"],
   aramco_trading:["ATC"],
+  alpha_capital:["Alpha Aquaculture Fund"],
+  fsc:["Council of Saudi Chambers","CSC"],
 };

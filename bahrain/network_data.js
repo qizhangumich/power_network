@@ -148,6 +148,7 @@ const INSTITUTIONS = [
   {id:"bahrain_moe", n:"Ministry of Education (Bahrain)", s:"education", t:1, p:68, short:"Bahrain MoE"},
   {id:"bahrain_scw", n:"Supreme Council for Women (Bahrain)", s:"gov", t:2, p:58, short:"Bahrain SCW"},
   {id:"stc_bahrain", n:"stc Bahrain B.S.C.", s:"comm", t:2, p:58, short:"stc Bahrain"},
+  {id:"bcci", n:"Bahrain Chamber of Commerce and Industry", s:"gov", t:2, p:54, short:"BCCI"},
 ];
 
 const PEOPLE = [

@@ -201,6 +201,8 @@ const INSTITUTIONS = [
   {id:"natl_omani_hosp", n:"National Omani Hospitality Company", s:"consumer_disc", t:3, p:52, short:"Natl Omani Hosp Co"},
   {id:"salalah_free_zone", n:"Salalah Free Zone Company", s:"industry", t:2, p:58, short:"Salalah Free Zone"},
   {id:"marsa_lng", n:"Marsa LNG", s:"energy", t:3, p:54, short:"Marsa LNG"},
+  {id:"khoula_hospital", n:"Khoula Hospital", s:"health", t:2, p:56, short:"Khoula Hospital"},
+  {id:"occi", n:"Oman Chamber of Commerce and Industry", s:"gov", t:2, p:56, short:"OCCI"},
 ];
 
 const PEOPLE = [
@@ -267,6 +269,7 @@ const PEOPLE = [
     ["moin_om","Minister of Interior","political","v"]],
     note:"Appointed under Royal Decree 17/2026 (13 Jan 2026)."},
   {id:"almaawali_mtcit", n:"Eng. Said bin Hamoud bin Said Al Maawali", t:1, p:70, s:"tech", roles:[
+    ["tra_oman","Chairman of the Board (ex officio, as Minister of Transport, Communications & IT)","board","v"],
     ["mtcit_om","Minister of Transport, Communications & IT","political","v"]]},
   {id:"alsabti_health", n:"Dr. Hilal bin Ali bin Hilal Al Sabti", t:1, p:70, s:"health", roles:[
     ["moh_om","Minister of Health","political","v"]],
@@ -715,6 +718,7 @@ const PEOPLE = [
   {id:"mohamed_al_lawati", n:"Mohamed Al Lawati", t:2, p:62, s:"industry", roles:[
     ["lst_ocai","Vice Chairperson","board","v"]]},
   {id:"sayyid_shabib_al", n:"Sayyid Shabib Al Busaidi", t:2, p:52, s:"industry", roles:[
+    ["spf","Deputy CEO for Social Protection Affairs","executive","ns"],
     ["lst_ocai","Board Member","board","v"]]},
   {id:"laura_figini", n:"Laura Figini", t:2, p:52, s:"industry", roles:[
     ["lst_ocai","Board Member","board","v"]]},
@@ -788,6 +792,7 @@ const PEOPLE = [
   {id:"abdullah_al_abri", n:"Abdullah Al Abri", t:2, p:46, s:"industry", roles:[
     ["soharport","VP Sustainability","executive","v"]]},
   {id:"azzan_qassim_al", n:"Azzan Qassim Al Busaidi", t:2, p:62, s:"consumer_disc", roles:[
+    ["moht_om","Undersecretary of the Ministry of Heritage and Tourism for Tourism","executive","ns"],
     ["omran","Chairman","board","v"]]},
   {id:"hanaa_mohamed_al", n:"Hanaa Mohamed Al Kharusi", t:2, p:52, s:"consumer_disc", roles:[
     ["omran","Board Member","board","v"]]},
@@ -1079,6 +1084,7 @@ const PEOPLE = [
   {id:"al_khattab_al", n:"Al Khattab Al Hinai", t:2, p:52, s:"education", roles:[
     ["gutech","Board of Governors Member","board","v"]]},
   {id:"badr_al_kharusi", n:"Badr Al Kharusi", t:2, p:52, s:"education", roles:[
+    ["moe","Undersecretary of the Ministry of Education for Education","executive","ns"],
     ["gutech","Board of Governors Member","board","v"]]},
   {id:"robert_schmitt", n:"Robert Schmitt", t:2, p:52, s:"education", roles:[
     ["gutech","Board of Governors Member","board","v"]]},
@@ -1169,6 +1175,7 @@ const PEOPLE = [
   {id:"khalifa_al_barwani", n:"Khalifa Al Barwani", t:2, p:60, s:"gov", roles:[
     ["ncsi","Chief Executive Officer","executive","ns"]]},
   {id:"salim_bin_muslim_b", n:"Salim bin Muslim Al Busaidi", t:2, p:58, s:"gov", roles:[
+    ["spf","Vice Chairman of the Board of Directors","board","ns"],
     ["mol","Undersecretary for Human Resources Development","executive","v"]]},
   {id:"khalid_bin_salim", n:"Khalid bin Salim bin Sulaiman Al Ghammari", t:2, p:58, s:"gov", roles:[
     ["mol","Undersecretary for Labour","executive","v"]]},
@@ -1178,6 +1185,42 @@ const PEOPLE = [
     ["towell","Director","board","v"]]},
   {id:"murtadha_ahmed_sultan", n:"Murtadha Ahmed Sultan", t:2, p:52, s:"conglomerate", roles:[
     ["towell","Director","board","v"]]},
+  {id:"majid_bin_said", n:"Majid bin Said Al Bahri", t:2, p:58, s:"education", roles:[
+    ["moe","Undersecretary of the Ministry of Education for Administrative and Financial Affairs","executive","ns"]]},
+  {id:"abdullah_bin_ali_b", n:"Abdullah bin Ali Al Shibli", t:2, p:58, s:"education", roles:[
+    ["moe","Undersecretary of the Ministry of Education for Higher Education","executive","ns"]]},
+  {id:"intisar_bint_abdullah", n:"Intisar bint Abdullah Ambusaidi", t:2, p:58, s:"education", roles:[
+    ["moe","Undersecretary of the Ministry of Education for Educational Support Programs","executive","ns"]]},
+  {id:"ibrahim_said_al", n:"Ibrahim Said Al Kharousi", t:2, p:58, s:"gov", roles:[
+    ["moht_om","Undersecretary of the Ministry of Heritage and Tourism for Heritage","executive","ns"]]},
+  {id:"saleh_bin_said", n:"Saleh bin Said Masan", t:2, p:62, s:"gov", roles:[
+    ["madayn","Chairman of the Board of Directors","board","ns"]]},
+  {id:"musallam_bin_mohammed", n:"Musallam bin Mohammed Al Shehri", t:2, p:58, s:"gov", roles:[
+    ["madayn","Head of Operations Sector","executive","ns"]]},
+  {id:"suleiman_bin_nasser_b", n:"Suleiman bin Nasser Al Akhzami", t:2, p:62, s:"gov", roles:[
+    ["environment_auth","Vice-Chairman of the Board of Directors","board","ns"]]},
+  {id:"ibrahim_bin_ahmed", n:"Ibrahim bin Ahmed Al Ajmi", t:2, p:58, s:"gov", roles:[
+    ["environment_auth","Advisor to the President for Climate Affairs","executive","ns"]]},
+  {id:"faryal_khamis", n:"Faryal Khamis", t:2, p:58, s:"health", roles:[
+    ["royalhosp","Deputy Director of Internal Medicine / Senior Consultant","executive","ns"]]},
+  {id:"mohamed_barakat_al", n:"Mohamed Barakat Al-Riyami", t:2, p:46, s:"health", roles:[
+    ["royalhosp","Head of Cardiology Department (National Heart Center)","executive","ns"]]},
+  {id:"ismail_al_abri", n:"Ismail Al Abri", t:2, p:46, s:"health", roles:[
+    ["royalhosp","Head of Pediatric Cardiology Department","executive","ns"]]},
+  {id:"abdullah_al_ajmi", n:"Abdullah Al Ajmi", t:2, p:60, s:"energy", roles:[
+    ["oq8","Chief Executive Officer","executive","ns"]]},
+  {id:"hilal_al_kharusi", n:"Hilal Al Kharusi", t:2, p:62, s:"energy", roles:[
+    ["oq8","Chairman of the Board of Directors","board","ns"]]},
+  {id:"shafi_bin_taleb", n:"Shafi bin Taleb Al Ajmi", t:2, p:62, s:"energy", roles:[
+    ["oq8","Vice-Chairman of the Board of Directors","board","ns"]]},
+  {id:"mubarak_sulieman_mohammed", n:"Mubarak Sulieman Mohammed Al Naamani", t:2, p:62, s:"energy", roles:[
+    ["oq8","Deputy Chairman of the Board / Chief Financial and Commercial Officer","board","ns"]]},
+  {id:"azzan_dhahi_mohammed", n:"Azzan Dhahi Mohammed Al Gaithi", t:2, p:52, s:"energy", roles:[
+    ["oq8","Board Member","board","ns"]]},
+  {id:"sulayem_bin_ali", n:"Sulayem bin Ali Al-Hakmani", t:2, p:62, s:"gov", roles:[
+    ["pacp","Chairman","board","v"]]},
+  {id:"ali_bin_salim_b", n:"Ali bin Salim Al-Qalhati", t:2, p:58, s:"gov", roles:[
+    ["pacp","Vice President for Administrative and Financial Affairs","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1329,6 +1372,7 @@ const OWNERSHIP = [
   ["natl_omani_hosp","oia","subsidiary (via OMRAN Group)","ns"],
   ["salalah_free_zone","oia","subsidiary (via Asyad Group)","ns"],
   ["marsa_lng","oq","JV between OQ Alternative Energy and TotalEnergies (FID 2023) — LNG bunkering facility at Port of Sohar","ns"],
+  ["khoula_hospital","moh_om","Ministry of Health hospital (national trauma/referral centre)","ns"],
 ];
 
 const FAMILY = [

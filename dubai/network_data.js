@@ -196,6 +196,9 @@ const INSTITUTIONS = [
   {id:"transguard", n:"Transguard Group", s:"industry", t:2, p:58, short:"Transguard"},
   {id:"emirates_catering", n:"Emirates Flight Catering", s:"industry", t:2, p:56, short:"Emirates Catering"},
   {id:"dubai_petroleum", n:"Dubai Petroleum Establishment", s:"energy", t:2, p:58, short:"Dubai Petroleum"},
+  {id:"key_mavens", n:"Key Mavens Group", s:"realestate", t:3, p:54, short:"Key Mavens Group"},
+  {id:"sharaf", n:"Sharaf Group", s:"conglomerate", t:3, p:58, short:"Sharaf Group"},
+  {id:"al_ghandi", n:"Al Ghandi Group", s:"consumer_disc", t:3, p:54, short:"Al Ghandi Group"},
 ];
 
 const PEOPLE = [
@@ -289,6 +292,7 @@ const PEOPLE = [
   {id:"ismail_maf", n:"Ahmed Galal Ismail", t:2, p:74, s:"conglomerate", roles:[
     ["maf","Group CEO","executive","v"]]},
   {id:"alali_maf_chair", n:"Fadel Abdulbaqi Al Ali", t:2, p:72, s:"conglomerate", roles:[
+    ["dib","Chairman of the Board of Directors","board","v"],
     ["dfsa","Chairman","board","v"],
     ["maf","Chairman, Holding Board","board","v"]]},
   {id:"alsaleh_dof", n:"Abdulrahman Saleh Al Saleh", t:1, p:72, s:"gov", roles:[
@@ -1817,6 +1821,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  emirates:["Emirates Airlines","Emirates Airline"],
   dh_entertainment:["Dubai Parks and Resorts","DXB Entertainments"],
   mbr:["Mohammed bin Rashid","Sheikh Mohammed","MBR"],
   hamdan_cp:["Hamdan bin Mohammed","Fazza"],
@@ -1880,4 +1885,7 @@ const AKA = {
   alfred:["InsuranceMarket.ae","CreditMarket.ae","HolidayMarket.ae","myAlfred"],
   emirates_catering:["EFC"],
   dubai_petroleum:["DPE"],
+  key_mavens:["KeyMavens","Key Mavens Investments Group"],
+  sharaf:["Sharaf HQ Investment"],
+  al_ghandi:["Al Ghandi Auto","Al Ghandi Auto Group"],
 };

@@ -831,6 +831,7 @@ const PEOPLE = [
   {id:"raja_al_gurg", n:"Raja Al Gurg", t:2, p:62, s:"finance", roles:[
     ["nbf","Deputy Chairperson","board","v"]]},
   {id:"saif_sultan_al", n:"Saif Sultan Al Salami", t:2, p:52, s:"finance", roles:[
+    ["fujairah_national","Member of the Board","board","v"],
     ["nbf","Director","board","v"]]},
   {id:"hussain_mirza_al", n:"Hussain Mirza Al Sayegh", t:2, p:52, s:"finance", roles:[
     ["nbf","Director","board","v"]]},
@@ -1042,6 +1043,34 @@ const PEOPLE = [
     ["ghassan_aboud_grp","HR Director - People & Culture","executive","v"]]},
   {id:"saud_abbasi", n:"Saud Abbasi", t:2, p:60, s:"conglomerate", roles:[
     ["ghassan_aboud_grp","Chief Executive Officer - Emerging Markets","executive","v"]]},
+  {id:"sheikh_dr_rashed", n:"Sheikh Dr. Rashed bin Hamad Al Sharqi", t:2, p:62, s:"energy", roles:[
+    ["fujoilzone","Deputy Chairman","board","ns"]]},
+  {id:"sheikh_mohammed_bin_b_b_b", n:"Sheikh Mohammed bin Kayed Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["rak_ded","Chairman","board","ns"]]},
+  {id:"abdelaziz_mohamed_aljarwan", n:"Abdelaziz Mohamed Aljarwan", t:2, p:58, s:"gov", roles:[
+    ["srta","Director of Transport Affairs","executive","v"]]},
+  {id:"sulaiman_abdelrahman_al", n:"Sulaiman Abdelrahman Al Hajri", t:2, p:58, s:"gov", roles:[
+    ["srta","Director of the Authority for Road Affairs","executive","v"]]},
+  {id:"sheikh_ahmed_bin_b_b", n:"Sheikh Ahmed bin Ibrahim bin Ahmed Al Mualla", t:2, p:58, s:"gov", roles:[
+    ["uaq_ded","Director-General","executive","ns"]]},
+  {id:"sheikh_dr_mohamed", n:"Sheikh Dr. Mohamed bin Saleh Mohamed Alsharqi", t:2, p:62, s:"conglomerate", roles:[
+    ["fujairah_national","Vice Chairman","board","v"]]},
+  {id:"sheikh_sultan_bin_b", n:"Sheikh Sultan bin Saleh Mohamed Alsharqi", t:2, p:62, s:"conglomerate", roles:[
+    ["fujairah_national","Vice Chairman","board","v"]]},
+  {id:"sheikh_hamad_bin", n:"Sheikh Hamad bin Saleh Mohamed Alsharqi", t:2, p:62, s:"conglomerate", roles:[
+    ["fujairah_national","Vice Chairman","board","v"]]},
+  {id:"mohamed_ahmed_al", n:"Mohamed Ahmed Al-Moathen", t:2, p:52, s:"conglomerate", roles:[
+    ["fujairah_national","Member of the Board","board","v"]]},
+  {id:"sami_jamil_al", n:"Sami Jamil Al-Baghdadi", t:2, p:52, s:"conglomerate", roles:[
+    ["fujairah_national","Member of the Board","board","v"]]},
+  {id:"johnson_m_george", n:"Johnson M. George", t:2, p:46, s:"gov", roles:[
+    ["uaqftz","General Manager","executive","v"]]},
+  {id:"sheikh_mansoor_bin", n:"Sheikh Mansoor bin Ibrahim Al Mualla", t:2, p:52, s:"gov", roles:[
+    ["uaqftz","Executive Director","board","v"]]},
+  {id:"youssef_mohamed_ismail", n:"Youssef Mohamed Ismail", t:2, p:62, s:"gov", roles:[
+    ["rak_chamber","First Vice Chairman","board","v"]]},
+  {id:"neha_thomas", n:"Neha Thomas", t:2, p:58, s:"gov", roles:[
+    ["afz","Marketing Director (Free Zones Authority of Ajman incl. AFZ/Ajman Media City/Al Zorah FZ)","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
