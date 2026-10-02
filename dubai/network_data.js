@@ -240,7 +240,7 @@ const PEOPLE = [
     ["dxbgov","Director-General, Ruler's Court","government","v"],
     ["icd","Managing Director","executive","v"],
     ["nakheel","Chairman","board","ns"],
-    ["dib","Chairman","board","v"]],
+    ["dib","Chairman (–Sep 2026)","board","v","former:until Sep 2026"]],
     note:"The Ruler's chief business fiduciary — controls the ICD holding that owns Emirates, ENBD and more."},
   {id:"altayer_dewa", n:"Saeed Mohammed Al Tayer", t:1, p:84, s:"utilities", roles:[
     ["execco","Member (Deputy Chairman of Supreme Council of Energy)","board","v"],
@@ -407,7 +407,7 @@ const PEOPLE = [
   {id:"ahmad_thani_al", n:"Ahmad Thani Al Matrooshi", t:2, p:58, s:"realestate", roles:[
     ["emaar","Executive Director","executive","v"]]},
   {id:"pawan_chindalia", n:"Pawan Chindalia", t:2, p:58, s:"realestate", roles:[
-    ["emaar","Group Chief Financial Officer","executive","ns"]]},
+    ["emaar","Group Chief Financial Officer","executive","v"]]},
   {id:"maitha_al_dossari", n:"Maitha Al Dossari", t:2, p:58, s:"realestate", roles:[
     ["emaar","General Manager, Corporate Services","executive","ns"]]},
   {id:"yahya_saeed_lootah", n:"Yahya Saeed Lootah", t:2, p:62, s:"finance", roles:[
@@ -617,7 +617,7 @@ const PEOPLE = [
   {id:"dr_yousef_al", n:"Dr Yousef Al Akraf", t:2, p:58, s:"utilities", roles:[
     ["dewa","Executive Vice President of Business Support and Human Resources","executive","v"]]},
   {id:"rashid_bin_humaidan", n:"Rashid Bin Humaidan", t:2, p:58, s:"utilities", roles:[
-    ["dewa","Executive Vice President of Distribution Power","executive","ns"]]},
+    ["dewa","Executive Vice President of Distribution Power","executive","v"]]},
   {id:"ziad_chalhoub", n:"Ziad Chalhoub", t:2, p:58, s:"conglomerate", roles:[
     ["maf","Chief Financial Officer","executive","v"]]},
   {id:"amina_taher", n:"Amina Taher", t:2, p:58, s:"conglomerate", roles:[

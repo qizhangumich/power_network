@@ -7,6 +7,7 @@ abudhabi,openai,OpenAI,tech,74,0,pending
 abudhabi,nvidia,NVIDIA,tech,74,0,pending
 abudhabi,adnoc_onshore,ADNOC Onshore,energy,74,0,pending
 abudhabi,totalenergies,TotalEnergies,energy,72,0,pending
+abudhabi,lst_eand,Emirates Telecommunications Group Company PJSC,comm,72,0,pending
 abudhabi,adnoc_offshore,ADNOC Offshore,energy,72,0,pending
 qatar,totalenergies,TotalEnergies,energy,72,1,pending
 abudhabi,bp,bp,energy,70,0,pending
@@ -46,6 +47,7 @@ abudhabi,uaeu,United Arab Emirates University,education,64,1,pending
 abudhabi,tadweer,Tadweer Group,industry,64,1,pending
 abudhabi,eni,Eni,energy,64,0,pending
 abudhabi,mckinsey,McKinsey & Company,industry,64,0,pending
+abudhabi,lst_adports,AD Ports Group PJSC,industry,64,0,pending
 abudhabi,arab_monetary_fund,Arab Monetary Fund,finance,64,0,pending
 qatar,scdl,SC Delivery & Legacy (World Cup legacy),gov,64,1,pending
 qatar,mwani,Mwani Qatar (Ports),industry,64,1,pending
@@ -105,6 +107,7 @@ saudi,sumou,Sumou Holding Company,realestate,62,0,pending
 saudi,yanpet,Saudi Yanbu Petrochemical Company,materials,62,0,pending
 saudi,kapsarc,King Abdullah Petroleum Studies and Research Center,education,62,0,pending
 saudi,saudi_binladin_grp,Saudi Binladin Group,industry,62,0,pending
+abudhabi,lst_purehealth,PureHealth Holding PJSC,health,61,0,pending
 dubai,gmg,GMG (Gulf Marketing Group),consumer_disc,61,1,pending
 dubai,tiger,Tiger Group,realestate,61,0,pending
 saudi,alkhorayef_2,Alkhorayef Group Company,industry,61,0,pending
@@ -506,10 +509,7 @@ saudi,western_bakeries,Western Bakeries Company,consumer_stap,52,0,pending
 saudi,ahab,Ahmad Hamad Al Gosaibi & Brothers,conglomerate,52,0,pending
 saudi,red_sea_hospital,The Red Sea Hospital,health,52,0,pending
 saudi,stc_channels,Saudi Telecom Channels Company,comm,52,0,pending
-abudhabi,lst_eand,Emirates Telecommunications Group Company PJSC,comm,50,0,pending
-abudhabi,lst_adports,Abu Dhabi Ports Company PJSC,industry,50,0,pending
 abudhabi,lst_mbme,MBME Group PJSC,health,50,0,pending
-abudhabi,lst_purehealth,Pure Health Holding PJSC,health,50,0,pending
 abudhabi,lst_2pointzero,Two Point Zero Group PJSC,tech,50,0,pending
 abudhabi,lst_agility,Agility Global PLC,industry,50,0,pending
 abudhabi,lst_apex,Apex Investment PSC,finance,50,0,pending

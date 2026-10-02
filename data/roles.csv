@@ -117,7 +117,7 @@ alshamsi_ewec,Ahmed Ali Alshamsi,ewec,Emirates Water & Electricity Company,Chief
 ramahi,Mohamed Jameel Al Ramahi,masdar,Masdar,CEO,executive,v,
 hammadi_enec,Mohamed Ibrahim Al Hammadi,enec,Emirates Nuclear Energy Company (Barakah),Managing Director & CEO,executive,v,
 musabbeh,Musabbeh Al Kaabi,adnoc,ADNOC Group,"Executive Director, Low Carbon Solutions & International Growth",executive,v,
-abdulmunim,Abdulmunim Saif Al Kindy,adnoc,ADNOC Group,"Executive Director, Upstream",executive,ns,
+abdulmunim,Abdulmunim Saif Al Kindy,adnoc,ADNOC Group,"Executive Director, Upstream",executive,v,
 fatema,Fatema Al Nuaimi,adnocgas,ADNOC Gas,CEO,executive,v,
 seiari,Abdulrahman Al Seiari,adnocdrill,ADNOC Drilling,CEO (until Jun 2025),executive,v,former:until Jun 2025
 masabi,Capt. Abdulkareem Al Masabi,adnocls,ADNOC Logistics & Services,Chief Executive Officer,executive,v,
@@ -264,7 +264,7 @@ dr_bakheet_saeed,Dr. Bakheet Saeed Al Katheeri,aldar,Aldar Properties,Board Memb
 eng_hamad_salem,Eng. Hamad Salem Mohamed Al Ameri,aldar,Aldar Properties,Board Member,board,ns,
 faisal_falaknaz,Faisal Falaknaz,aldar,Aldar Properties,Group Chief Financial & Sustainability Officer,executive,v,
 bayan_al_hosani,Bayan Al Hosani,aldar,Aldar Properties,Chief People & Communications Officer,executive,v,
-jonathan_emery,Jonathan Emery,aldar,Aldar Properties,"CEO, Aldar Development",executive,ns,
+jonathan_emery,Jonathan Emery,aldar,Aldar Properties,"CEO, Aldar Development",executive,v,
 hatem,Hatem Dowidar,e_and,e& (Etisalat Group),Group Chief Executive Officer (2020–2025),executive,v,former:until 2025
 alan_smith,Alan Smith,agthia,Agthia Group,Group Chief Executive Officer (2020–2025),executive,v,former:until 2025
 abdulhamid_mohamed_saeed,Abdulhamid Mohamed Saeed,mubadala,,Board Member,board,v,
@@ -912,7 +912,7 @@ sami_dhaen_al,Sami Dhaen Al Qamzi,cbuae,,Board Member,board,ns,
 ali_mohammed_bakheet_b,Ali Mohammed Bakheet Al Rumaithi,cbuae,,Board Member,board,ns,
 khaled_al_tameemi,Khaled Al Tameemi,cbuae,,Vice Governor,executive,v,
 ebrahim_obaid_al,Ebrahim Obaid Al Zaabi,cbuae,,Assistant Governor for Monetary Policy and Financial Stability,executive,v,
-saif_hadef_al,Saif Hadef Al Shamsi,cbuae,,Deputy Governor,executive,ns,
+saif_hadef_al,Saif Hadef Al Shamsi,cbuae,,Deputy Governor (role ended; last confirmed as Assistant Governor for Monetary Policy & Financial Stability ~2014-2018),executive,v,former
 mohammed_alshaiba_al,Mohammed Alshaiba Al Sharyani,added,,Executive Director Executive Affairs Sector (Acting Director General of Economic Affairs),executive,v,
 muhammad_munif_al,Muhammad Munif Al Mansouri,added,,Executive Director Abu Dhabi Business Centre (Acting Director General Abu Dhabi Registration and Licensing Authority),executive,v,
 mansour,H.H. Sheikh Mansour bin Zayed Al Nahyan,adafsa,Abu Dhabi Agriculture & Food Safety Authority,Chairman,government,v,

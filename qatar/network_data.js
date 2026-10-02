@@ -502,7 +502,8 @@ const PEOPLE = [
     ["nebras","Board Member","board","v"],
     ["masraf","Board Member","board","v"]]},
   {id:"fahad_al_khalifa", n:"Fahad Al Khalifa", t:2, p:58, s:"finance", roles:[
-    ["masraf","Group Chief Executive Officer","executive","v"]]},
+    ["masraf","Group Chief Executive Officer (–Sep 2026)","executive","v","former:until Sep 2026"],
+    ["masraf","Advisor to the Chairman","executive","v"]]},
   {id:"shahnawaz_niazi", n:"Shahnawaz Niazi", t:2, p:58, s:"finance", roles:[
     ["masraf","Group Chief Financial Officer","executive","v"]]},
   {id:"abdulaziz_jassim_al", n:"Abdulaziz Jassim Al-Muftah", t:2, p:62, s:"energy", roles:[

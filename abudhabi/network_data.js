@@ -169,11 +169,11 @@ const INSTITUTIONS = [
   {id:"altamimi", n:"Al Tamimi & Company", s:"industry", t:3, p:58, short:"Al Tamimi"},
   {id:"cliffordchance", n:"Clifford Chance", s:"industry", t:3, p:52, short:"Clifford Chance"},
   {id:"raytheon_em", n:"Raytheon Emirates", s:"industry", t:3, p:58, short:"Raytheon Emirates"},
-  {id:"lst_eand", n:"Emirates Telecommunications Group Company PJSC", s:"comm", t:2, p:50, short:"EAND"},
+  {id:"lst_eand", n:"Emirates Telecommunications Group Company PJSC", s:"comm", t:1, p:72, short:"EAND"},
   {id:"lst_ords", n:"Ooredoo Q.P.S.C.", s:"comm", t:1, p:75, short:"Ooredoo"},
-  {id:"lst_adports", n:"Abu Dhabi Ports Company PJSC", s:"industry", t:2, p:50, short:"ADPORTS"},
+  {id:"lst_adports", n:"AD Ports Group PJSC", s:"industry", t:2, p:64, short:"ADPORTS"},
   {id:"lst_mbme", n:"MBME Group PJSC", s:"health", t:2, p:50, short:"MBME Group PJSC"},
-  {id:"lst_purehealth", n:"Pure Health Holding PJSC", s:"health", t:2, p:50, short:"PUREHEALTH"},
+  {id:"lst_purehealth", n:"PureHealth Holding PJSC", s:"health", t:2, p:61, short:"PUREHEALTH"},
   {id:"lst_2pointzero", n:"Two Point Zero Group PJSC", s:"tech", t:2, p:50, short:"2POINTZERO"},
   {id:"lst_agility", n:"Agility Global PLC", s:"industry", t:2, p:50, short:"Agility Global PLC"},
   {id:"lst_apex", n:"Apex Investment PSC", s:"finance", t:2, p:50, short:"Apex Investment PSC"},
@@ -590,7 +590,7 @@ const PEOPLE = [
     ["mubadala_energy","Chairman","board","ns"],
     ]},
   {id:"abdulmunim", n:"Abdulmunim Saif Al Kindy", t:2, p:70, s:"energy", roles:[
-    ["adnoc","Executive Director, Upstream","executive","ns"],
+    ["adnoc","Executive Director, Upstream","executive","v"],
     ["adnocgas","Board Member","board","v"],
     ["adnocdrill","Board Member","board","v"],
     ]},
@@ -1073,7 +1073,7 @@ const PEOPLE = [
     ["aldar","Chief People & Communications Officer","executive","v"],
     ]},
   {id:"jonathan_emery", n:"Jonathan Emery", t:2, p:60, s:"realestate", roles:[
-    ["aldar","CEO, Aldar Development","executive","ns"],
+    ["aldar","CEO, Aldar Development","executive","v"],
     ]},
   {id:"hatem", n:"Hatem Dowidar", t:2, p:56, s:"comm", roles:[
     ["e_and","Group Chief Executive Officer (2020–2025)","executive","v","former:until 2025"],
@@ -2644,7 +2644,7 @@ const PEOPLE = [
     ["cbuae","Assistant Governor for Monetary Policy and Financial Stability","executive","v"],
     ]},
   {id:"saif_hadef_al", n:"Saif Hadef Al Shamsi", t:2, p:58, s:"finance", roles:[
-    ["cbuae","Deputy Governor","executive","ns"],
+    ["cbuae","Deputy Governor (role ended; last confirmed as Assistant Governor for Monetary Policy & Financial Stability ~2014-2018)","executive","v","former"],
     ]},
   {id:"mohammed_alshaiba_al", n:"Mohammed Alshaiba Al Sharyani", t:2, p:58, s:"gov", roles:[
     ["added","Executive Director Executive Affairs Sector (Acting Director General of Economic Affairs)","executive","v"],
@@ -2980,6 +2980,9 @@ const OWNERSHIP = [
   ["adnoc_offshore","adnoc","majority-owned (60%) offshore concession JV, formed from ADMA-OPCO & ZADCO — partners Eni, TotalEnergies, CNPC/CNOOC, Inpex, ONGC Videsh","v"],
   ["ruwais_lng","adnoc","JV under construction (ADNOC 60% / Shell, TotalEnergies, bp, Mitsui 10% each); FID June 2024","v"],
   ["adnoc_maritime","adnoc","wholly-owned subsidiary — shipping & maritime logistics (formerly ADNATCO/NGSCO)","ns"],
+  ["lst_eand","eia","~60% shareholder","v"],
+  ["lst_adports","adq","majority shareholder via L'IMAD (~75.4%, tender offer underway toward ~98.9%)","v"],
+  ["lst_purehealth","adq","~45% shareholder via Q Health LLC","v"],
 ];
 
 const FAMILY = [
@@ -3046,4 +3049,6 @@ const AKA = {
   adnoc_onshore:["ADCO","Abu Dhabi Company for Onshore Petroleum Operations"],
   adnoc_offshore:["ADMA-OPCO","ZADCO"],
   adnoc_maritime:["ADNATCO","NGSCO"],
+  lst_adports:["Abu Dhabi Ports Company","AD Ports"],
+  lst_purehealth:["Pure Health Holding"],
 };
