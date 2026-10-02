@@ -1,0 +1,5 @@
+# Mubadala leads GCC wealth fund investments, ahead of Saudi PIF
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaDZqQ0RYUXl0bHZjYi1aQkxDd1prMGlYRW9yRm9Zb1ZRWjdrUzFCOWtjN19oUlF6TEZnRXUzczJYQWN3b3hyZWVzZWRWTmNFTTduZm5RWjNQdjJoSC12UDFBaU9kaTFVVE84cWd3QWVIMDdYbkRxc253RGpNTlZSdEZieXNScmFyNHY3Z3pPRmxaWTFNWFJZNXFiT2J2NXBfOTdjU3d5ajhCZl9sMnZKTDVudmZWbDE0b2RQMFhNdmlrd3lhQVFqNUhEdERiSnBVaHpV?oc=5
+
+Mubadala leads GCC wealth fund investments, ahead of Saudi PIF    TradingView

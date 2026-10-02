@@ -1,0 +1,5 @@
+# Eithad Airways considers suing Premier League over Man City scandal
+source: Inside World Football
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxPelJCdllIYlB6a3daWDFNZ05LZHNSeDdhSWJORVludkItRmFYd2Y1bFFsYm1XMkUxdUNoTTV6UHNCV0lRaDFCWXZyMXdkNkwtOG9vNzVtcFgwajIwLTdacGJRc0tlUFV4X3VxTUN6ZkpSUHpFWDlDTmhqWWZvT0ZyRFE1RWk4dk8yaXVJZm04bk1jYUZUM2ZJaVNhLXdxUlVqdUtId3p2TGxaaTFOOXcySnVReHY2UQ?oc=5
+
+Eithad Airways considers suing Premier League over Man City scandal    Inside World Football

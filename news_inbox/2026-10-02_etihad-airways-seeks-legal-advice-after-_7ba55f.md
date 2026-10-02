@@ -1,0 +1,5 @@
+# Etihad Airways seeks legal advice after Premier League's Man City findings
+source: NST Online
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPdXNoSGpqa0MycmNHbjAwYTJpc09nRGRFYlVOODhOQi1jYXB3RmtPYWtwVkFqN0pKdGZFcXd5bGVWQ2kxS2VtU2JVR1FLRjZqRU1ESlhLVFBrVTZJcUg0U0RZekJ3d0x0UVVtdGRmVExTWWdEcXBzamxLTlZhcktnbS1sYXZVOHY0TFh2U2VLZTNENTd1VkhZN2RjS0RqU0NrUHBuOHhIbTBGVDVrakdncUw2cnRnVElJLU82bmJNdw?oc=5
+
+Etihad Airways seeks legal advice after Premier League's Man City findings    NST Online
