@@ -1,0 +1,5 @@
+# Khaldoon Al Mubarak met UK minister 11 days before City guilty verdict
+source: OneFootball
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxQU0xUUHBnR0VKVHRiTmpvY1l3T2x0azVCZzRzYlNEcVNFdGlEZEliZnhfRWNGZWxudERxTWZjUHJ6a3lsUHRtQmhXdHNSWXpTdldZaFh1U2Q3YVhZLTAwRk9qMTRiSTJVSXlJNXBkQXFiS01RcGRFZC1obERScHQ2T081YzdBQUViSlloZy1BT09YU2lFMkhDSWl5SGNpVWN5ZWVxNGkyQkNzWXZqSVJRWg?oc=5
+
+Khaldoon Al Mubarak met UK minister 11 days before City guilty verdict    OneFootball

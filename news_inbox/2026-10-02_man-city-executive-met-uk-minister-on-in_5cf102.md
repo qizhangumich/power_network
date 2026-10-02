@@ -1,0 +1,5 @@
+# Man City Executive Met UK Minister on Investment Before Verdict
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxQYk5HZTdnRmRqTFJKVUx3LXFwTUdsUW5NS20wSmJCQmJHQUFNTlRkSktTNUhBYTh6cGdwdG9VMnhPMUtETnVFTEJCeUJyRFRvY1RhV0gxQUF2TWxYZjByazBHWXdCZjZFOEtINkxDaEFqOXZRekRyc1F5VWF1aU95THI0a202eFNmQW50eEp5TlVOTEExdHpJV01UNjg0RnM1T2pQZGotNkRVQ0t3Y0FSTE1EZlItUQ?oc=5
+
+Man City Executive Met UK Minister on Investment Before Verdict    Bloomberg.com

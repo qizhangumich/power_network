@@ -1,0 +1,5 @@
+# Ad Ports completes acquisition of Brazil's CLI for $835 million
+source: TradingView
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkI1ZVVieVlNNkdZc2k2VHBsc2pqbTVVMVVoMWJxM0szVTE2ZTA4SUdTR3lNLVdHRmRkZVVYN25XZ2lqUUE5YVYwcVduSFhkWUZXcDlZZktqbWpSWmhsU1k5ZEUtbktGWEZEbHM5OVlBaWk5OFF1TGlXQ2ZUQTI5czVPOWVqYktwb1pBQmxVOWthNzFRNUxFYmhZNFNHbk96ZnRJeGF5cHU0TWNoNDZ0MDVmX3liTl9kc0RjTGUxd09kVjNkendYNWU3dG8?oc=5
+
+Ad Ports completes acquisition of Brazil's CLI for $835 million    TradingView

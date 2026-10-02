@@ -1,0 +1,5 @@
+# Revealed: Damning evidence that undermines Man City’s defence
+source: The Telegraph
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWXVRU1E4dWVlY2tmdzlXSkVwdDdXaW43Yl85Rmd1WnJ1SE5Vd0NBdWI0cTdCSllCQVcyUUxKcUdVTVZ2cnJPUjNOOUhYYW94cGc3N2hGX0luelBlTjZXYnp1MTJNYWhpSkl5RmNucG5ia0xkRElPMTJUVXlqWnA2Zld6djdSNnBzenNYNGJjZE12alJRTGtOaEJhNTZKZ2d6RnNOYks0MXpQQVE?oc=5
+
+Revealed: Damning evidence that undermines Man City’s defence    The Telegraph

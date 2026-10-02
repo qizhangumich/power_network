@@ -1,0 +1,5 @@
+# AD Ports completes $835 million Brazil port acquisition
+source: Port Technology
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVXc2V3E2aF9CdWdYeDk4emowbjZJY2tYRkRMNFZFV2Y5NzRfSGN6WGRJTDRoQTRvNjJsczVqWThyaEd4cmV3VE1JUVFoano3R2pvdWJKUjVzanVsZzUwSURObEMyZXlPOHRZN2JadG93aXpWTk80NkpEdGRCbUpZVUtKQVg4cXZZd2l6UUZ2LUdSZ0FWNUNDdzc0dUtpekNHcVdRakhRNkV1SEsxbmM0aQ?oc=5
+
+AD Ports completes $835 million Brazil port acquisition    Port Technology
