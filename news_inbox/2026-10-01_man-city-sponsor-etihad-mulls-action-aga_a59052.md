@@ -1,0 +1,5 @@
+# Man City Sponsor Etihad Mulls Action Against Premier League
+source: Law360
+url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNU2hyVUFTQXVPWk9sR0V5Um1URHREUmxieWx2eC03OTJ6NjhzSFBxWjhlVXVFUjFBOWlraV9qTjVPbGpkNDJWbTlNMUkwelhESFZIbDQtZ2F1aGJJQ3dTbHd1OWRVWU9EcTJKRUNlUEF2eWxwSVhfcXdna3JOeWFCNmVEU2J5MHBpZnBLdmxRMVhZbXl5dU5MTVV2ODB3dkkz0gFWQVVfeXFMTXlNOWZCY1ZtRGVwN0RYSDg5dlREd0dtNjBQckJ3cHIzS3FaRjNma2JhT2VyMDhzV0lHY2JpRmhsV3JycHZ1TFJxRUZrNl9KV1kwYWYzZHc?oc=5
+
+Man City Sponsor Etihad Mulls Action Against Premier League    Law360

@@ -1,0 +1,5 @@
+# BDO auditors face inquiry over Manchester City cheating scandal
+source: The Times
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxOSGJ1aGgyUVI4SmRyNE03b2hyU0dwVktycmQ5LVRMWnk5cjFtbkhxcVRUc2lVRV83X0VuS2xVd3poekRjWHFJeHE1SUJzS3hRR2lMNXJVd2k3X3dsa0k1SmJYa2t2QWhibldXYXpfSktmd2VfejV2TFJoTy1Jb0MwVW9aTUFuQmxXd21vTmVmUTFUdlpVazBmcmhkVF9sYzFHNEJVUUk0UnlzdXBLQWdQXy1kNGs?oc=5
+
+BDO auditors face inquiry over Manchester City cheating scandal    The Times

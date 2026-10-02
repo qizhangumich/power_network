@@ -1,0 +1,5 @@
+# Man City chair’s diplomatic immunity may complicate legal fallout
+source: Sports Business Journal
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWjZHcFZwckt2T0NkVzVIRzhLYVZWTjhWSXRqdndwejdCdV9Yb0NKb2ZxU0poeXRJdm8yMHdVQ0RPQkwyMy1LYjFqSDFBbXhtV3U3SU1YajU4TzVNbmg1OWd0YWI4YWk3b0Q2Q2FZcENiSFNUOWxWMVN3TENkR3dKRnJhdXlHWEdBQllvcnBBRWV4TjFxN0RIX0VnaEVkMDZmSHR6b3lnOG9NeEdEWUhZOGFHUVh3d1ZKVkRPTGV4VVU?oc=5
+
+Man City chair’s diplomatic immunity may complicate legal fallout    Sports Business Journal

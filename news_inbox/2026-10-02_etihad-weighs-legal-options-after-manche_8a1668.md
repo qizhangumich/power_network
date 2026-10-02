@@ -1,0 +1,5 @@
+# Etihad weighs legal options after Manchester City financial ruling
+source: Gulf Business
+url: https://news.google.com/rss/articles/CBMingFBVV95cUxPaUQ4RHV5SEdVMzlhMVlHN2Z0TXJqR0dvS0t1V1NJNzFuYW1XRm5lR0RTb0NXSmFJMVpndXJ5YXVxalRLQm81R19ZZlFrS0tyUE5sOEhYR0ZXM1UyaUFvWF9icFl0ZGw0bmxnejNMOGlfdzRFeHFNc0h2MjZ5LW5ESWNYZUlPdFphd2l3UVVUOWlua1BUZnN5WmR1aVloQQ?oc=5
+
+Etihad weighs legal options after Manchester City financial ruling    Gulf Business
