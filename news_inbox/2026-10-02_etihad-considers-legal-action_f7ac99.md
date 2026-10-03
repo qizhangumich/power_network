@@ -1,0 +1,5 @@
+# Etihad considers legal action
+source: Read Man City
+url: https://news.google.com/rss/articles/CBMikAFBVV95cUxOY0hrUm9ja2ZlLV81TGFfY2QxSkY3cFVfRExaSEtCY1NQb2UwTDJ2TWhEUzZFWENZYmZRRVRjb0s2ZmVMc3BWMi1vSDlLcHZHNG03RnRpNEMtNHhka1liVldONW5YS0ptY29xekZzcVEyWnR2clRiV1Z4MEtZVUtaTk9ZYWVNUXlhOXZtWlFNRnQ?oc=5
+
+Etihad considers legal action    Read Man City

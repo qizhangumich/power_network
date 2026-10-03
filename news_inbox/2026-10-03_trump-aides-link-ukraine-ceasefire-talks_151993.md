@@ -1,0 +1,5 @@
+# Trump aides link Ukraine ceasefire talks to Lukoil asset sale push - CHOSUNBIZ
+source: Chosunbiz
+url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbm01bGlaZWVBQXdNR3JKZ25SY05lQTZiT1ZSTFNPU1cwV2tScXJpTFltRnJUMXFDd0wxVmp2ZTVXQThyQkVGQVlBbE9manhWTVJiQXNRNjFhbzByNGZVSm9xbnVKbDNXWTdtdTAxdGtzbURfSGtlSlpjMmtKVVVrOXhkN3djQXR60gGcAUFVX3lxTFBEcjdMRmNZUDBuQlhaWU9ub1ktZ2k0MWZCczI4M1p6ZmdVVl9tMTV1aHd2YjZyNTRfckstaEUwWE96emxRYllaZnNLMlZFX1E0V040XzRoYlIxend6M2ZUbkF0dnVUTjVaNDl0bXNZdWdyUnFRejNEazV4Z3BRZ0Z3SExfWmZZUU4weFVyR0x5RnI2WFlsWHJ0MWo2Ug?oc=5
+
+Trump aides link Ukraine ceasefire talks to Lukoil asset sale push - CHOSUNBIZ    Chosunbiz
