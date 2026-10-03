@@ -1678,6 +1678,12 @@ const PEOPLE = [
     ["kfaed","Deputy Director-General","executive","ns"]]},
   {id:"nedhal_al_olayan", n:"Nedhal Al Olayan", t:2, p:58, s:"sovereign", roles:[
     ["kfaed","Deputy Director General","executive","ns"]]},
+  {id:"dina_musaed_al", n:"Dina Musaed Al-Mailem", t:2, p:58, s:"education", roles:[
+    ["kuwait_university","President","executive","v"]]},
+  {id:"abdullah_jawad_ali", n:"Abdullah Jawad Ali Sultan", t:2, p:58, s:"education", roles:[
+    ["kuwait_university","Vice President for Research","executive","ns"]]},
+  {id:"nourah_al_suwaih", n:"Nourah Al-Suwaih", t:2, p:58, s:"education", roles:[
+    ["kuwait_university","Vice President for Health Sciences","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

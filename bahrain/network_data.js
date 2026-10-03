@@ -179,6 +179,7 @@ const PEOPLE = [
   {id:"zayani_fm", n:"Dr. Abdullatif bin Rashid Al Zayani", t:1, p:78, s:"gov", roles:[
     ["mofa_bh","Minister of Foreign Affairs","political","v"]]},
   {id:"humaidan", n:"Khalid Humaidan", t:1, p:76, s:"finance", roles:[
+    ["tra_bahrain","Board Member","board","v"],
     ["cbb","Governor","executive","v"]]},
   {id:"noor", n:"Noor bint Ali Alkhulaif", t:1, p:74, s:"gov", roles:[
     ["tamkeen","Board Member (Minister of Sustainable Development)","board","v"],
@@ -2998,9 +2999,9 @@ const PEOPLE = [
   {id:"khalid_ali_yousif", n:"Khalid Ali Yousif Abdulrahman", t:2, p:52, s:"realestate", roles:[
     ["rera_bahrain","Board Member","board","ns"]]},
   {id:"sheikh_mohamed_bin", n:"Sheikh Mohamed bin Abdullah Al-Khalifa", t:2, p:62, s:"health", roles:[
-    ["nhra_bahrain","Chairman of the Supreme Council of Health","board","ns"]]},
+    ["nhra_bahrain","Chairman of the Supreme Council of Health","board","v"]]},
   {id:"mariam_adhbi_al", n:"Mariam Adhbi Al-Jalahma", t:2, p:60, s:"health", roles:[
-    ["nhra_bahrain","Chief Executive Officer","executive","ns"]]},
+    ["nhra_bahrain","Chief Executive Officer","executive","v"]]},
   {id:"sofia_adel_shaaban", n:"Sofia Adel Shaaban Al Dairi", t:2, p:58, s:"health", roles:[
     ["nhra_bahrain","Director of Regulatory Affairs","executive","ns"]]},
   {id:"abdulla_mohammed_taher", n:"Abdulla Mohammed Taher Al Raies", t:2, p:58, s:"health", roles:[
@@ -3035,6 +3036,44 @@ const PEOPLE = [
     ["bcci","Board Member","board","ns"]]},
   {id:"bhagwan_das_chellaram", n:"Bhagwan das Chellaram Tikamdas Thacker", t:2, p:52, s:"gov", roles:[
     ["bcci","Board Member","board","ns"]]},
+  {id:"philip_marnick", n:"Philip Marnick", t:2, p:58, s:"tech", roles:[
+    ["tra_bahrain","General Director (CEO)","executive","v"]]},
+  {id:"sh_nasser_bin", n:"Sh. Nasser Bin Mohamed Al Khalifa", t:2, p:58, s:"tech", roles:[
+    ["tra_bahrain","Deputy General Director & Chief Operating Officer","executive","v"]]},
+  {id:"sh_mohamed_bin", n:"Sh. Mohamed Bin Salman Al Khalifa", t:2, p:58, s:"tech", roles:[
+    ["tra_bahrain","Director of Corporate Services","executive","v"]]},
+  {id:"sh_abdullah_bin", n:"Sh. Abdullah Bin Hamoud Al Khalifa", t:2, p:58, s:"tech", roles:[
+    ["tra_bahrain","Director of Consumer and Communications","executive","v"]]},
+  {id:"mohammed_al_noaimi", n:"Mohammed Al Noaimi", t:2, p:58, s:"tech", roles:[
+    ["tra_bahrain","Director of Technology and Network Security","executive","v"]]},
+  {id:"mohamed_al_binali", n:"Mohamed Al Binali", t:2, p:58, s:"tech", roles:[
+    ["tra_bahrain","Director of Telecommunications Competition","executive","v"]]},
+  {id:"hasan_mohamed_hasan", n:"Hasan Mohamed Hasan", t:2, p:58, s:"tech", roles:[
+    ["tra_bahrain","Director of Spectrum","executive","v"]]},
+  {id:"ghazi_adel_alhusaini", n:"Ghazi Adel Alhusaini", t:2, p:58, s:"tech", roles:[
+    ["tra_bahrain","Acting Director of Legal Affairs","executive","v"]]},
+  {id:"eng_mohammed_abdullatif", n:"Eng. Mohammed Abdullatif Al-Mahmoud", t:2, p:52, s:"tech", roles:[
+    ["tra_bahrain","Board Member","board","v"]]},
+  {id:"sh_salman_bin", n:"Sh. Salman Bin Mohamad Al Khalifa", t:2, p:52, s:"tech", roles:[
+    ["tra_bahrain","Board Member","board","v"]]},
+  {id:"aamal_ahmed_al", n:"Aamal Ahmed Al-Abbasi", t:2, p:52, s:"tech", roles:[
+    ["tra_bahrain","Board Member","board","v"]]},
+  {id:"fuad_mohammed_al", n:"Fuad Mohammed Al-Ansari", t:2, p:58, s:"education", roles:[
+    ["univ_of_bahrain","President","executive","v"]]},
+  {id:"hessa_jassim_al", n:"Hessa Jassim Al Junaid", t:2, p:58, s:"education", roles:[
+    ["univ_of_bahrain","Vice President for Academic Affairs","executive","v"]]},
+  {id:"esra_ahmed_wali", n:"Esra Ahmed Wali", t:2, p:58, s:"education", roles:[
+    ["univ_of_bahrain","Vice President for Partnerships and Development","executive","v"]]},
+  {id:"ali_salman_ali", n:"Ali Salman Ali", t:2, p:58, s:"education", roles:[
+    ["univ_of_bahrain","Dean of the College of Science","executive","v"]]},
+  {id:"abdulla_khalid_al", n:"Abdulla Khalid Al-Jalahma", t:2, p:58, s:"education", roles:[
+    ["univ_of_bahrain","Dean of the College of Business Administration","executive","v"]]},
+  {id:"dheya_abdulla_al", n:"Dheya Abdulla Al Kaabi", t:2, p:58, s:"education", roles:[
+    ["univ_of_bahrain","Dean of the College of Arts","executive","v"]]},
+  {id:"mazen_mohamed_ali", n:"Mazen Mohamed Ali", t:2, p:58, s:"education", roles:[
+    ["univ_of_bahrain","Dean of the College of Information Technology","executive","v"]]},
+  {id:"hussain_mohsen_al", n:"Hussain Mohsen Al Arayedh", t:2, p:58, s:"education", roles:[
+    ["univ_of_bahrain","Dean of the College of Applied Studies","executive","v"]]},
 ];
 
 const OWNERSHIP = [

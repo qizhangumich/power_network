@@ -1,8 +1,4 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Port Technology,2,northern,pending,2026-09-21,2026-10-02,"Etihad Rail, AD Ports debut direct Fujairah-ICAD route"
-Sobha Realty,2,dubai,pending,2026-09-28,2026-10-02,Dubai’s Sobha Realty eyes $600m US housing push and targets further expansion
-Minor Hotels,2,dubai,pending,2026-10-02,2026-10-02,Minor Hotels signs new Dubai Islands beachfront hotel2m read
-London House Exchange,2,dubai,pending,2026-10-01,2026-10-02,UAE investor GII acquires majority stake in UK’s London House Exchange
 Abu Dhabi Investment,14,abudhabi,rejected,2026-09-16,2026-10-02,"Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake"
 British Airways,9,dubai,rejected,2026-09-15,2026-09-19,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
@@ -18,8 +14,8 @@ Explore Sustainable Energy,3,abudhabi,rejected,2026-09-17,2026-09-19,Beam Global
 US Energy,3,oman,rejected,2026-09-13,2026-09-27,"Iran war latest: East-West pipeline will reopen within days, US Energy Secretary says"
 OPEC Fund,3,oman,rejected,2026-09-16,2026-09-19,OPEC Fund earmarks $40m for Oman’s Yiti Sustainable City project
 Qatar Real Estate,3,qatar,rejected,2026-09-21,2026-09-27,Qatar Real Estate Forum 2026: Focus on tokenization and global investment
-Shahba Bank,3,qatar,rejected,2026-09-17,2026-09-22,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Estithmar Holding,3,qatar,rejected,2026-09-12,2026-09-24,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
+Shahba Bank,3,qatar,rejected,2026-09-17,2026-09-22,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Aurion Capital,3,qatar,rejected,2026-09-23,2026-09-24,"Invest Qatar, Aurion Capital, LG NOVA Engage to Advance Technology Investments, Venture Building in Qatar"
 QNB Capital,3,qatar,added,2026-09-29,2026-09-30,QNB Capital acts as global coordinator on Qatar’s $3bn dual-tranche bond issuance
 Adani Airport Holdings,3,abudhabi,rejected,2026-09-10,2026-09-10,IHC backs Adani Airport Holdings’ $1bn fundraising round
@@ -34,6 +30,7 @@ SNB Capital,3,saudi,added,2026-09-03,2026-09-05,SNB Capital North America Index 
 Abu Dhabi Construction,2,abudhabi,rejected,2026-09-23,2026-10-01,$13bn Rich Gas Development: Tecnimont Breaks Ground on $4.3bn Ruwais Phase 3 Expansion in Abu Dhabi
 Lenskart Solutions,2,abudhabi,rejected,2026-09-21,2026-09-21,"ADIA sells 2.01% stake in Lenskart Solutions for ₹2,390 crore"
 High Altitude Platform Systems,2,abudhabi,rejected,2026-09-23,2026-09-23,Space42 and Telespazio Ibérica Begin Wildfire Monitoring in Spain supported by High Altitude Platform Systems
+Port Technology,2,northern,rejected,2026-09-21,2026-10-02,"Etihad Rail, AD Ports debut direct Fujairah-ICAD route"
 Brixmor Property Group,2,abudhabi,rejected,2026-09-28,2026-09-29,"Brixmor Property Group, Everview Partners Acquire Slate Grocery REIT for $2.34B"
 Balkan Green Energy,2,abudhabi,rejected,2026-09-14,2026-09-15,"Masdar, Taaleri create largest Western Balkans wind hub with Čibuk 2 launch"
 Industrial City,2,northern,rejected,2026-09-20,2026-09-20,"In partnership with AD Ports Group, Etihad Rail launches integrated rail service connecting Fujairah Terminals with Industrial City of Abu D"
@@ -58,10 +55,13 @@ Ebara Elliott Energy,2,bahrain,rejected,2026-09-16,2026-09-21,Ebara Elliott Ener
 Noor Energy,2,bahrain,added,2026-09-28,2026-09-28,DEWA completes $2.7bn refinancing of Noor Energy 1
 Skytrax World Airport,2,bahrain,rejected,2026-09-16,2026-09-16,BIA wins three prestigious Skytrax World Airport Awards
 Siemens Energy,2,saudi,rejected,2026-09-13,2026-10-02,Siemens Energy’s supervisory and executive boards meet at Dammam Hub
+London House Exchange,2,dubai,rejected,2026-10-01,2026-10-02,UAE investor GII acquires majority stake in UK’s London House Exchange
 UAE-listed MAIR Group,2,,added,2026-09-24,2026-09-24,UAE-listed MAIR Group to acquire 70% stake in Espressolab owner Eslab
 US Treasury Department,2,,rejected,2026-09-23,2026-10-02,UAE approves sale of Egypt’s Banque Misr branches
 Oman Investment,2,oman,rejected,2026-09-24,2026-09-24,Oman floats $7bn of tenders for private sector
 Al-Shaheed Park,2,kuwait,rejected,2026-10-01,2026-10-01,Prime Minister opens Al-Shaheed Park Phase III on behalf of Amir
+Sobha Realty,2,dubai,added,2026-09-28,2026-10-02,Dubai’s Sobha Realty eyes $600m US housing push and targets further expansion
+Minor Hotels,2,dubai,added,2026-10-02,2026-10-02,Minor Hotels signs new Dubai Islands beachfront hotel2m read
 SA AF Capital,2,saudi,added,2026-09-17,2026-10-01,"Akron Investment, SA’AF Capital launch SAR 5B real estate fund"
 ANB Capital,2,saudi,added,2026-09-30,2026-10-01,"ANB Capital reiterates flynas rating, sets TP"
 Dubai Healthcare,2,dubai,rejected,2026-09-11,2026-09-11,Dubai Healthcare City begins work on Dh3b Creek Gardens2m read
@@ -111,8 +111,8 @@ Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Ba
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
 American Airlines,1,abudhabi,rejected,2026-09-15,2026-09-15,American Airlines is Struggling With Broken Business Class Seats On Its Brand New Airbus A321XLR Airplanes
 Saudi Construction,1,saudi,rejected,2026-09-22,2026-09-22,Saudi Construction Cost Index rises 2.3% in August
-Umm Al Qura for Development,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
 Al Qura for Development and Construction,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
+Umm Al Qura for Development,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
 Moon World Resorts,1,bahrain,rejected,2026-09-30,2026-09-30,Moon World Resorts appoints BDP Quadrangle as Lead Architects
 Saudi Media Company,1,saudi,rejected,2026-09-22,2026-09-22,Cristiano Ronaldo part of $500m bid for stake in Al Nassr
 GCC Capital,1,,rejected,2026-09-22,2026-09-22,VIDEO: Testimonials from Zawya’s GCC Capital Markets Forum

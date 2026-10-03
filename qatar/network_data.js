@@ -1827,6 +1827,14 @@ const PEOPLE = [
     ["qcaa","President (In Charge of Managing QCAA)","executive","v"]]},
   {id:"issa_bin_saad", n:"Issa bin Saad Al-Jafali Al-Nuaimi", t:2, p:58, s:"gov", roles:[
     ["public_prosecution","Attorney General","executive","v"]]},
+  {id:"khalid_abdul_rahman", n:"Khalid Abdul Rahman Essa Al Mannai", t:2, p:60, s:"conglomerate", roles:[
+    ["teyseer","Managing Director, Teyseer Group (Group Director)","executive","v"]]},
+  {id:"tan_huism", n:"Tan Huism", t:2, p:58, s:"education", roles:[
+    ["qatar_natl_library","Executive Director","executive","v"]]},
+  {id:"khalid_al_yazeedi", n:"Khalid Al-Yazeedi", t:2, p:58, s:"education", roles:[
+    ["qatar_natl_library","Operations Director","executive","v"]]},
+  {id:"javaid_i_sheikh", n:"Javaid I. Sheikh", t:2, p:58, s:"education", roles:[
+    ["weill_cornell_qatar","Dean","executive","v"]]},
 ];
 
 const OWNERSHIP = [

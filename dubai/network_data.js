@@ -200,6 +200,8 @@ const INSTITUTIONS = [
   {id:"sharaf", n:"Sharaf Group", s:"conglomerate", t:3, p:58, short:"Sharaf Group"},
   {id:"al_ghandi", n:"Al Ghandi Group", s:"consumer_disc", t:3, p:54, short:"Al Ghandi Group"},
   {id:"aud", n:"American University in Dubai", s:"education", t:3, p:54, short:"AUD"},
+  {id:"sobha_realty", n:"Sobha Realty", s:"realestate", t:3, p:58, short:"Sobha Realty"},
+  {id:"minor_hotels_mea", n:"Minor Hotel Group MEA DMCC", s:"consumer_disc", t:3, p:54, short:"Minor Hotels MEA"},
 ];
 
 const PEOPLE = [
@@ -475,6 +477,7 @@ const PEOPLE = [
   {id:"tiemen_meester", n:"Tiemen Meester", t:2, p:58, s:"industry", roles:[
     ["dpworld","Global COO, Ports & Terminals","executive","v"]]},
   {id:"ahmad_yousef_al", n:"Ahmad Yousef Al-Hassan", t:2, p:60, s:"industry", roles:[
+    ["economic_zones_world","CEO & Managing Director, DP World GCC (oversees Economic Zones portfolio incl. EZW/Jafza)","executive","v"],
     ["dpworld","CEO & Managing Director, GCC","executive","v"]]},
   {id:"rado_antolovic", n:"Rado Antolovic", t:2, p:60, s:"industry", roles:[
     ["drydocks_world","Chief Executive Officer","executive","v"]]},
@@ -1134,6 +1137,7 @@ const PEOPLE = [
   {id:"hessa_essa_buhumaid", n:"Hessa Essa Buhumaid", t:2, p:52, s:"gov", roles:[
     ["execco","Member (Director General of Community Development Authority)","board","v"]]},
   {id:"abdulla_bin_damithan", n:"Abdulla bin Damithan", t:2, p:62, s:"gov", roles:[
+    ["economic_zones_world","CEO & Managing Director, DP World UAE Region / CEO, Jafza (EZW)","executive","v"],
     ["jafza","CEO and Managing Director DP World UAE Region and Jafza","executive","v"],
     ["execco","Member (Chairman of Ports Customs and Free Zone Corporation)","board","v"]]},
   {id:"hussain_nasser_lootah", n:"Hussain Nasser Lootah", t:2, p:62, s:"industry", roles:[
@@ -1960,4 +1964,6 @@ const AKA = {
   key_mavens:["KeyMavens","Key Mavens Investments Group"],
   sharaf:["Sharaf HQ Investment"],
   al_ghandi:["Al Ghandi Auto","Al Ghandi Auto Group"],
+  sobha_realty:["Sobha Group","Sobha Limited"],
+  minor_hotels_mea:["Minor Hotels"],
 };

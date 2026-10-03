@@ -528,6 +528,7 @@ const PEOPLE = [
   {id:"alwaleed", n:"Prince Alwaleed bin Talal Al Saud", t:0, p:78, s:"conglomerate", roles:[
     ["kingdomholding","Chairman","board","v"]]},
   {id:"rumayyan", n:"Yasir Al-Rumayyan", t:1, p:92, s:"sovereign", roles:[
+    ["fii_institute","Chairman of the Board of Trustees","board","v"],
     ["qiddiya","Board Member","board","v"],
     ["alat","Board Member; Governor of the Public Investment Fund","board","v"],
     ["riyadhair","Chairman","board","v"],
@@ -582,6 +583,7 @@ const PEOPLE = [
   {id:"aljalajel", n:"Fahad Al-Jalajel", t:1, p:76, s:"health", roles:[
     ["moh_sa","Minister of Health","political","v"]]},
   {id:"aldossary", n:"Salman Al-Dossary", t:1, p:72, s:"comm", roles:[
+    ["saudi_press_agency","Chairman of the Board of Directors","board","v"],
     ["momedia_sa","Minister of Media","political","v"]],
     note:"Appointed 5 Mar 2023; former editor-in-chief of Asharq Al-Awsat."},
   {id:"alhogail", n:"Majed Al-Hogail", t:1, p:76, s:"realestate", roles:[
@@ -905,6 +907,7 @@ const PEOPLE = [
   {id:"nabeel_a_al", n:"Nabeel A. Al Mansour", t:2, p:58, s:"energy", roles:[
     ["aramco","Executive Vice President, General Counsel & Corporate Secretary","executive","v"]]},
   {id:"nabeel_a_al_b", n:"Nabeel A. Al-Jama'", t:2, p:58, s:"energy", roles:[
+    ["jhah","Chairman of the Board","board","v"],
     ["aramco","Executive Vice President, Human Resources & Corporate Services","executive","v"]]},
   {id:"ashraf_a_al", n:"Ashraf A. Al Ghazzawi", t:2, p:58, s:"energy", roles:[
     ["aramco","Executive Vice President, Strategy & Corporate Development","executive","v"]]},
@@ -1179,6 +1182,7 @@ const PEOPLE = [
   {id:"saud_abdulaziz_bajbair", n:"Saud Abdulaziz Bajbair", t:2, p:58, s:"finance", roles:[
     ["snb","Head Retail Business Group","executive","v"]]},
   {id:"eng_abdullah_mohammed", n:"Eng. Abdullah Mohammed Al-Issa", t:2, p:62, s:"finance", roles:[
+    ["alpha_capital","Board Member","board","v"],
     ["lst_1010","Chairman of the Board","board","v"]]},
   {id:"eng_mutaz_kusai", n:"Eng. Mutaz Kusai AlAzzawi", t:2, p:62, s:"finance", roles:[
     ["lst_1010","Vice-Chairman of the Board","board","v"]]},
@@ -2071,6 +2075,7 @@ const PEOPLE = [
     ["kaust","Board Member; Advisor at the General Secretariat of the Council of Ministers","board","v"],
     ["diriyah","Board Member","board","v"]]},
   {id:"muhammad_m_al", n:"Muhammad M. Al Saggaf", t:2, p:52, s:"education", roles:[
+    ["kfupm","President","executive","v"],
     ["kaust","Board Member; President of King Fahd University of Petroleum and Minerals (KFUPM)","board","v"]]},
   {id:"edward_byrne", n:"Edward Byrne", t:2, p:58, s:"education", roles:[
     ["kaust","President","executive","v"]]},
@@ -2319,6 +2324,7 @@ const PEOPLE = [
   {id:"abdulaziz_ibrahim_alnowaiser", n:"Abdulaziz Ibrahim Alnowaiser", t:2, p:60, s:"realestate", roles:[
     ["kaec","Chief Executive Officer","executive","v"]]},
   {id:"mohammed_i_alarifi", n:"Mohammed I. Alarifi", t:2, p:58, s:"realestate", roles:[
+    ["alpha_capital","Board Member","board","v"],
     ["kaec","Chief Financial Officer","executive","v"]]},
   {id:"majid_abdullah_matbouly", n:"Majid Abdullah Matbouly", t:2, p:58, s:"realestate", roles:[
     ["kaec","Chief Industrial Valley Officer & Chief Operating Officer (Acting)","executive","v"]]},
@@ -2346,6 +2352,52 @@ const PEOPLE = [
     ["gastat","President of GASTAT","executive","v"]]},
   {id:"mansour_bin_madi", n:"Mansour bin Madi", t:2, p:62, s:"finance", roles:[
     ["redf","Chief Executive Officer and Deputy Chairman of the Board","executive","ns"]]},
+  {id:"fahad_khalid_alsaud", n:"Fahad Khalid AlSaud", t:2, p:60, s:"finance", roles:[
+    ["alpha_capital","Managing Director & CEO","executive","v"]]},
+  {id:"khalifa_a_almulhim", n:"Khalifa A. AlMulhim", t:2, p:62, s:"finance", roles:[
+    ["alpha_capital","Board Member (also widely reported externally as Board Chairman - unconfirmed on official site)","board","v"]]},
+  {id:"ibrahim_n_alnaeem", n:"Ibrahim N. AlNaeem", t:2, p:52, s:"finance", roles:[
+    ["alpha_capital","Board Member","board","v"]]},
+  {id:"abdul_malik_al", n:"Abdul Malik Al-Othaim", t:2, p:52, s:"finance", roles:[
+    ["alpha_capital","Board Member","board","v"]]},
+  {id:"saleh_s_al", n:"Saleh S. Al Rasheed", t:2, p:52, s:"finance", roles:[
+    ["alpha_capital","Board Member","board","v"]]},
+  {id:"ali_m_masmali", n:"Ali M. Masmali", t:2, p:58, s:"education", roles:[
+    ["king_saud_university","Acting President","executive","v"]]},
+  {id:"abdullah_alsalman", n:"Abdullah Alsalman", t:2, p:58, s:"education", roles:[
+    ["king_saud_university","Vice President","executive","v"]]},
+  {id:"abdullah_bin_mohammed_b_b", n:"Abdullah bin Mohammed Sugair", t:2, p:58, s:"education", roles:[
+    ["king_saud_university","Vice President for Projects","executive","v"]]},
+  {id:"yazeed_a_al_b", n:"Yazeed A. Al-Sheikh", t:2, p:58, s:"education", roles:[
+    ["king_saud_university","Vice President for Graduate Studies and Scientific Research","executive","v"]]},
+  {id:"nasser_m_al", n:"Nasser M. Al-Daghri", t:2, p:58, s:"education", roles:[
+    ["king_saud_university","Vice President for Educational and Academic Affairs","executive","v"]]},
+  {id:"youssef_bin_abdullah", n:"Youssef bin Abdullah Al-Bunyan", t:2, p:62, s:"education", roles:[
+    ["king_saud_university","Chairman of the Board of Directors","board","v"]]},
+  {id:"mesfer_al_zahrani", n:"Mesfer Al-Zahrani", t:2, p:58, s:"education", roles:[
+    ["kfupm","Vice President of Academic Affairs","executive","v"]]},
+  {id:"ali_al_shaikhi", n:"Ali Al-Shaikhi", t:2, p:58, s:"education", roles:[
+    ["kfupm","Vice President of Research and Innovation","executive","v"]]},
+  {id:"ahmed_alojairi", n:"Ahmed Alojairi", t:2, p:58, s:"education", roles:[
+    ["kfupm","Vice President of Administration and Finance","executive","v"]]},
+  {id:"tareef_bin_yousuf", n:"Tareef bin Yousuf Alaama", t:2, p:58, s:"education", roles:[
+    ["king_abdulaziz_univ","President","executive","v"]]},
+  {id:"mohammed_reda_ali", n:"Mohammed Reda Ali Kabli", t:2, p:58, s:"education", roles:[
+    ["king_abdulaziz_univ","Vice President for Educational Affairs","executive","v"]]},
+  {id:"mohammed_ahmed_al", n:"Mohammed Ahmed Al-Amoudi", t:2, p:58, s:"education", roles:[
+    ["king_abdulaziz_univ","Vice President for Campus Life and Operations","executive","v"]]},
+  {id:"yoosef_abushark", n:"Yoosef Abushark", t:2, p:58, s:"education", roles:[
+    ["king_abdulaziz_univ","Vice President for Transformation and Strategy","executive","v"]]},
+  {id:"princess_maha_bint", n:"Princess Maha bint Mishari bin Abdulaziz Al Saud", t:2, p:60, s:"education", roles:[
+    ["fii_institute","Chief Executive Officer","executive","v"]]},
+  {id:"richard_attias", n:"Richard Attias", t:2, p:62, s:"education", roles:[
+    ["fii_institute","Chairman of the Executive Committee","executive","v"]]},
+  {id:"hassan_bin_mohammed", n:"Hassan bin Mohammed Al-Asmari", t:2, p:58, s:"comm", roles:[
+    ["saudi_press_agency","Acting President","executive","v"]]},
+  {id:"michael_walsh", n:"Michael Walsh", t:2, p:60, s:"health", roles:[
+    ["jhah","Chief Executive","executive","v"]]},
+  {id:"bandar_al_knawy", n:"Bandar Al Knawy", t:2, p:60, s:"health", roles:[
+    ["mngha","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

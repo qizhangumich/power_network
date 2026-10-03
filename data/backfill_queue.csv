@@ -16,8 +16,6 @@ qatar,qse,Qatar Stock Exchange,finance,70,1,pending
 qatar,exxonmobil,ExxonMobil,energy,70,0,pending
 qatar,shell,Shell,energy,70,0,pending
 saudi,expo_2030,Expo 2030 Riyadh Company,gov,70,1,pending
-saudi,king_saud_university,King Saud University,education,70,0,pending
-saudi,kfupm,King Fahd University of Petroleum and Minerals,education,70,0,pending
 abudhabi,hub71,Hub71,tech,68,1,pending
 abudhabi,fertiglobe,Fertiglobe,materials,68,1,pending
 abudhabi,khalifa_u,Khalifa University,education,68,1,pending
@@ -25,8 +23,7 @@ abudhabi,ruwais_lng,Ruwais LNG,energy,68,0,pending
 bahrain,bahrain_moe,Ministry of Education (Bahrain),education,68,1,pending
 qatar,moecc_q,Ministry of Environment & Climate Change,gov,68,1,pending
 saudi,roshn,ROSHN,realestate,68,1,pending
-saudi,king_abdulaziz_univ,King Abdulaziz University,education,68,0,pending
-saudi,mngha,Ministry of National Guard Health Affairs,health,68,0,pending
+saudi,mngha,Ministry of National Guard Health Affairs,health,68,1,pending
 saudi,alnahla,AlNahla Group,conglomerate,67,0,pending
 saudi,juffali,E.A. Juffali and Brothers,conglomerate,67,0,pending
 abudhabi,adafsa,Abu Dhabi Agriculture & Food Safety Authority,gov,66,1,pending
@@ -44,7 +41,6 @@ abudhabi,ccad,Cleveland Clinic Abu Dhabi,health,64,1,pending
 abudhabi,uaeu,United Arab Emirates University,education,64,1,pending
 abudhabi,eni,Eni,energy,64,0,pending
 abudhabi,mckinsey,McKinsey & Company,industry,64,0,pending
-kuwait,kuwait_university,Kuwait University,education,64,0,pending
 qatar,scdl,SC Delivery & Legacy (World Cup legacy),gov,64,1,pending
 qatar,mwani,Mwani Qatar (Ports),industry,64,1,pending
 qatar,eni,Eni,energy,64,0,pending
@@ -56,7 +52,6 @@ saudi,soudah_dev,Soudah Development,consumer_disc,64,0,pending
 saudi,ksia,King Salman International Airport,industry,64,0,pending
 saudi,zahid,Zahid Group,consumer_disc,64,0,pending
 saudi,bait_al_batterjee,Bait Al Batterjee Group,health,64,0,pending
-saudi,saudi_press_agency,Saudi Press Agency,comm,64,0,pending
 abudhabi,mazrui_intl,Mazrui International,conglomerate,63,0,pending
 saudi,hsa,HSA Group,conglomerate,63,0,pending
 saudi,rawabi,Rawabi Holding,energy,63,0,pending
@@ -71,7 +66,6 @@ abudhabi,rotana,Rotana Hotels,consumer_disc,62,1,pending
 abudhabi,senaat,General Holding Corporation,conglomerate,62,1,pending
 abudhabi,globalfoundries,GlobalFoundries,tech,62,0,pending
 abudhabi,skmc_abu_dhabi,Sheikh Khalifa Medical City,health,62,1,pending
-bahrain,tra_bahrain,Telecommunications Regulatory Authority of Bahrain,tech,62,1,pending
 kuwait,part_kuwait,Public Authority for Roads and Transportation (abolished Dec 2025 — departments transferred to Ministry of Public Works & Ministry of Interior per Amiri Decree),industry,62,0,pending
 qatar,psa_qatar,Planning and Statistics Authority,gov,62,1,pending
 qatar,gac_qatar,General Authority of Customs,gov,62,0,pending
@@ -116,11 +110,9 @@ abudhabi,louis_dreyfus,Louis Dreyfus Company,consumer_stap,60,0,pending
 abudhabi,fortress,Fortress Investment Group,finance,60,0,pending
 abudhabi,adnoc_global_trading,ADNOC Global Trading,energy,60,0,pending
 bahrain,bahrain_lng,Bahrain LNG,energy,60,1,pending
-bahrain,univ_of_bahrain,University of Bahrain,education,60,0,pending
 dubai,jumaalmajid,Juma Al Majid Group,conglomerate,60,0,pending
 dubai,borse_dubai,Borse Dubai Limited,finance,60,1,pending
 dubai,mag,MAG Group Holding,realestate,60,0,pending
-dubai,economic_zones_world,Economic Zones World,industry,60,0,pending
 oman,sct,Space Communication Technologies,tech,60,0,pending
 oman,utas,University of Technology and Applied Sciences,education,60,0,pending
 qatar,sinopec,Sinopec,energy,60,0,pending
@@ -145,7 +137,6 @@ saudi,al_dabbagh,Al-Dabbagh Group,conglomerate,60,0,pending
 saudi,aramco_trading,Aramco Trading Company,energy,60,0,pending
 saudi,umm_al_qura,Umm Al-Qura University,education,60,0,pending
 saudi,islamic_univ_madinah,Islamic University of Madinah,education,60,0,pending
-saudi,fii_institute,FII Institute,education,60,0,pending
 abudhabi,alnowais_investments,AlNowais Investments,conglomerate,59,0,pending
 abudhabi,flash,Flash Entertainment,comm,58,1,pending
 abudhabi,thenational,The National,comm,58,1,pending
@@ -161,7 +152,6 @@ abudhabi,fsra,Financial Services Regulatory Authority,gov,58,1,pending
 abudhabi,masdar_city,Masdar City Free Zone,gov,58,0,pending
 abudhabi,adnoc_trading,ADNOC Trading,energy,58,0,pending
 abudhabi,al_yasat_petroleum,Al Yasat Petroleum,energy,58,0,pending
-abudhabi,nmc_healthcare,NMC Healthcare,health,58,0,pending
 bahrain,bahrain_airport_svcs,Bahrain Airport Services,industry,58,0,pending
 bahrain,stc_bahrain,stc Bahrain B.S.C.,comm,58,0,pending
 dubai,dubai_properties,Dubai Properties Group,realestate,58,1,pending
@@ -183,6 +173,7 @@ dubai,drydocks_world,Drydocks World,industry,58,1,pending
 dubai,noor_energy_1,Noor Energy 1,utilities,58,0,pending
 dubai,transguard,Transguard Group,industry,58,0,pending
 dubai,dubai_petroleum,Dubai Petroleum Establishment,energy,58,0,pending
+dubai,sobha_realty,Sobha Realty,realestate,58,0,pending
 kuwait,amiri_hospital,Al-Amiri Hospital,health,58,1,pending
 kuwait,kcci,Kuwait Chamber of Commerce and Industry,gov,58,0,pending
 kuwait,kisr,Kuwait Institute for Scientific Research,education,58,0,pending
@@ -204,8 +195,7 @@ qatar,cra_qatar,Communications Regulatory Authority,comm,58,1,pending
 qatar,alrayan_investment,AlRayan Investment LLC,finance,58,0,pending
 qatar,traffic_dept_qatar,General Directorate of Traffic,gov,58,0,pending
 qatar,al_darwish,Al Darwish Holding,conglomerate,58,0,pending
-qatar,teyseer,Teyseer Group,conglomerate,58,1,pending
-qatar,weill_cornell_qatar,Weill Cornell Medicine-Qatar,education,58,0,pending
+qatar,weill_cornell_qatar,Weill Cornell Medicine-Qatar,education,58,1,pending
 saudi,lst_4017,Fakeeh Care Group,health,58,0,pending
 saudi,lst_1140,Bank Albilad,finance,58,0,pending
 saudi,lst_7030,Zain Saudi Arabia,comm,58,0,pending
@@ -257,7 +247,6 @@ saudi,anb_capital,ANB Capital (Arab National Investment Company),finance,58,0,pe
 saudi,imam_islamic_univ,Imam Muhammad ibn Saud Islamic University,education,58,0,pending
 saudi,king_faisal_univ,King Faisal University,education,58,0,pending
 saudi,king_khalid_univ,King Khalid University,education,58,0,pending
-saudi,jhah,Johns Hopkins Aramco Healthcare,health,58,0,pending
 abudhabi,al_dhafra_petro,Al Dhafra Petroleum,energy,57,0,pending
 dubai,chalhoub,Chalhoub Group,consumer_disc,57,0,pending
 dubai,galadari_brothers,Galadari Brothers Group,conglomerate,57,0,pending
@@ -278,7 +267,7 @@ abudhabi,q_2,Q Holding,finance,56,0,pending
 abudhabi,bin_butti_intl,Bin Butti International Holdings,conglomerate,56,0,pending
 abudhabi,trends_research,TRENDS Research & Advisory,gov,56,0,pending
 abudhabi,adnoc_maritime,ADNOC Maritime,industry,56,0,pending
-abudhabi,abu_dhabi_university,Abu Dhabi University,education,56,0,pending
+abudhabi,gii,Gulf Islamic Investments LLC,finance,56,0,pending
 bahrain,rcsi_bahrain,RCSI Medical University of Bahrain,education,56,0,pending
 dubai,meydan,Meydan Group,consumer_disc,56,0,pending
 dubai,dafza,Dubai Airport Free Zone Authority,gov,56,0,pending
@@ -311,7 +300,6 @@ qatar,mbh,Mohammed Bin Hamad Holding,conglomerate,56,0,pending
 qatar,rloc,Ras Laffan Olefins Company,materials,56,0,pending
 qatar,q_chem,Qatar Chemical Company,materials,56,0,pending
 qatar,georgetown_qatar,Georgetown University in Qatar,education,56,0,pending
-qatar,qatar_natl_library,Qatar National Library,education,56,0,pending
 saudi,lst_2170,Alujain Corporation,materials,56,1,pending
 saudi,tahakom,Tahakom Investments Company,tech,56,0,pending
 saudi,saudi_coffee,Saudi Coffee Company,consumer_stap,56,0,pending
@@ -384,6 +372,7 @@ dubai,univ_of_dubai,University of Dubai,education,54,0,pending
 dubai,zulekha_healthcare,Zulekha Healthcare Group,health,54,0,pending
 dubai,key_mavens,Key Mavens Group,realestate,54,1,pending
 dubai,aud,American University in Dubai,education,54,0,pending
+dubai,minor_hotels_mea,Minor Hotel Group MEA DMCC,consumer_disc,54,0,pending
 kuwait,pam,Public Authority for Manpower,gov,54,0,pending
 kuwait,q8_aviation,Q8 Aviation,industry,54,0,pending
 kuwait,csc_kuwait,Civil Service Commission,gov,54,0,pending

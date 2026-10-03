@@ -288,6 +288,7 @@ const INSTITUTIONS = [
   {id:"nmc_healthcare", n:"NMC Healthcare", s:"health", t:2, p:58, short:"NMC Healthcare"},
   {id:"abu_dhabi_university", n:"Abu Dhabi University", s:"education", t:3, p:56, short:"Abu Dhabi University"},
   {id:"al_ain_university", n:"Al Ain University", s:"education", t:3, p:52, short:"Al Ain University"},
+  {id:"gii", n:"Gulf Islamic Investments LLC", s:"finance", t:3, p:56, short:"GII"},
 ];
 
 const PEOPLE = [
@@ -342,6 +343,7 @@ const PEOPLE = [
   {id:"hamdan_bz", n:"H.H. Sheikh Hamdan bin Zayed Al Nahyan", t:0, p:88, s:"gov", roles:[
     ["adgov","Ruler's Representative, Al Dhafra Region","political","v"],
     ["ead","Chairman","board","v"],
+    ["abu_dhabi_university","President of the Board of Trustees","board","v"],
     ]},
   {id:"hamed_bz", n:"H.H. Sheikh Hamed bin Zayed Al Nahyan", t:0, p:93, s:"sovereign", roles:[
     ["adia","Managing Director","executive","v"],
@@ -354,6 +356,7 @@ const PEOPLE = [
     ]},
   {id:"nahyan_bm", n:"H.H. Sheikh Nahyan bin Mubarak Al Nahyan", t:0, p:80, s:"gov", roles:[
     ["fedgov","Minister of Tolerance & Coexistence","political","v"],
+    ["abu_dhabi_university","Vice President of the Board of Trustees","board","v"],
     ]},
   {id:"shakhbout_bn", n:"H.H. Sheikh Shakhbout bin Nahyan Al Nahyan", t:0, p:74, s:"gov", roles:[
     ["fedgov","Minister of State","political","v"],
@@ -3000,6 +3003,24 @@ const PEOPLE = [
     ]},
   {id:"yousif_najem_al", n:"Yousif Najem Al Khanjari", t:2, p:58, s:"health", roles:[
     ["daman","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"david_hadley", n:"David Hadley", t:2, p:60, s:"health", roles:[
+    ["nmc_healthcare","Group Chief Executive Officer","executive","v"],
+    ]},
+  {id:"kevin_taylor", n:"Kevin Taylor", t:2, p:62, s:"health", roles:[
+    ["nmc_healthcare","Chairman","board","v"],
+    ]},
+  {id:"ghassan_aouad", n:"Ghassan Aouad", t:2, p:58, s:"education", roles:[
+    ["abu_dhabi_university","Chancellor","executive","v"],
+    ]},
+  {id:"barry_o_mahony", n:"Barry O'Mahony", t:2, p:58, s:"education", roles:[
+    ["abu_dhabi_university","Provost","executive","v"],
+    ]},
+  {id:"hamad_odhabi", n:"Hamad Odhabi", t:2, p:58, s:"education", roles:[
+    ["abu_dhabi_university","Vice Chancellor for AI and Operational Excellence","executive","v"],
+    ]},
+  {id:"ali_bin_harmal", n:"Ali bin Harmal Al Dhaheri", t:2, p:62, s:"education", roles:[
+    ["abu_dhabi_university","Chairman of the Board of Directors","board","v"],
     ]},
 ];
 
