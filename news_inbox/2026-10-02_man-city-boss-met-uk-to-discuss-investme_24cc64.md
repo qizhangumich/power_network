@@ -1,0 +1,5 @@
+# Man City boss met UK to discuss investment before verdict
+source: Luxembourg Times
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxPYXQ1QTRfV2JBS0JBZ0QwVXA3RGZaeld6RlhxT3RBakJSa0pTdzFIOURyZGw5OWoxT2RXcXJOMjdwQjFhV0ZqRExnclI4WmQwZXhWYnJrdXJYRU5oVXlDS002YlZQZDViLXkzWGJNNjBjOHR3eTR0bUFZN2l5anNGRDM2UXBpM2tlVjJBX29yVkdsaXJpN19BNHJNd0wtUmV4aFJxblFIb3Q5SzdRaHYwVENYUHJ4dw?oc=5
+
+Man City boss met UK to discuss investment before verdict    Luxembourg Times

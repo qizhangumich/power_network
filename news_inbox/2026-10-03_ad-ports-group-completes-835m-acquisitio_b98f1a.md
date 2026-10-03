@@ -1,0 +1,5 @@
+# AD Ports Group completes $835m acquisition of Brazilian terminal operator CLI
+source: bairdmaritime.com
+url: https://news.google.com/rss/articles/CBMiggFBVV95cUxQOG9VYl9WZVh5Z1ktTVJVVEZ3NnFQV0ljYlJpN2Y2NlNBSnZjTjVwWHY2MnM2VUZZazVPT2g0XzFwcUp6X0FPX1dlTlVTTzM1bndYMjRFalJlX2VlSFNRUkdkZ2JGWU41eHllMjFDbmZYVWo1VGdfVmlWRXRISG1RdnZ30gGPAUFVX3lxTE1yX0c3VDl1VWJONWJqczZQRFNNUDg4dUk4Mks0bWNrLVJIZnpBYzk0Z1ZXM0VEQjR4ckpfeUFjUzliRjVlRzV6a1lpaXlvWXFlTGRyWFdNZEJ2bG43U2pkaGhsT0gwOGtkZmZiY1JGREJrRkxTUnYxRDZuZHk3Szg2RzJ3MnNlSW4zM1g5RW1R?oc=5
+
+AD Ports Group completes $835m acquisition of Brazilian terminal operator CLI    bairdmaritime.com

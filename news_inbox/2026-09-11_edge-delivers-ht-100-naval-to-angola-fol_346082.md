@@ -1,0 +1,5 @@
+# EDGE Delivers HT-100 NAVAL to Angola Following Successful Trials
+source: Army Technology
+url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTExWV283MWs2VmhmeWJlc1VnTXUwSU96TG1SejlWbV8tSE9hQlpPeVQ4MFBZM1VlQ21XWlR2bndXbWR1NXFYZmgzWmlybjlBV1lJYUVmVFc2WUVwWUJfbE8zaHBFNW54N3pfdXpzNEJ3eDN3M1J0aHdnZmtRNFpnR09TM0FsUHM2MFp1QlVFb0JmSUFrLWNVRWEyWmdmaE0xTWFCWWVSa05hWlNVX0hlaU1lQnpMd3R3NFNPcl90TkdXR1dkSFZnT2M2MGVNUExONkFJQ1VqU3JiZVJq?oc=5
+
+EDGE Delivers HT-100 NAVAL to Angola Following Successful Trials    Army Technology

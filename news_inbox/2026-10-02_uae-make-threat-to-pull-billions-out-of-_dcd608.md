@@ -1,0 +1,5 @@
+# UAE make threat to pull 'billions out of UK' to Andy Burnham over Man City charges
+source: The Mirror
+url: https://news.google.com/rss/articles/CBMihgFBVV95cUxOS2p0Mk0xRWF4aGFfTUxJMXBvamxQNHpkTXFrcEdVenFCaFFJaGVaeUhOd3djRk10aVN4YXdyeGdqdW9WeVViRXZabGxBUWhWckFkNi0yVG1pYTNyOXdkVFlCSk5mUEtDbVUzandpNC1qSkVJOTkyOXh3bnFkY2w2QkJzTTJlUdIBiwFBVV95cUxPbVp0dkdxeVRzWGNJM2VLdWdUbE8yOGNjb0ZxdUhNeld5bWlVdU5hMlNiVzN6OTZfaU11MUlNelZqcG5KSEhSLWYyUERUb01qWks4Y2tybFFUa2tUeTd5Z3RpYV9WQlYtcGN1aWlpbC1JMnhJd0RVX0g4QzYtVlljSHlTbW9pZUx0NGlz?oc=5
+
+UAE make threat to pull 'billions out of UK' to Andy Burnham over Man City charges    The Mirror
