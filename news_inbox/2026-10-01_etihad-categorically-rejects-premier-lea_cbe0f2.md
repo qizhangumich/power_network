@@ -1,0 +1,5 @@
+# Etihad ‘categorically rejects’ Premier League’s findings on Manchester City
+source: arabianbusiness.com
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPb3NoWVZpWm1udm1GZElVUXV6UGFsaTFYTWI4MzUwaXMtazFHeXo5MDJoZ2ZHcVlUbWhicnptSjd6TEdBVDlrYkQ1UG9lbE9ZTVltU3ltRm0tOHoxYk5Fc1NIWDBxZGtRQmRjbFpBdWpNRFR1UGJlSjZKZFptbUxXUWtVRmQ0STFLQllsdlpheVBLN0lqdHVpZWZZbHg4ZndlUzZ1ZUVZRkticnZUNXc?oc=5
+
+Etihad ‘categorically rejects’ Premier League’s findings on Manchester City    arabianbusiness.com

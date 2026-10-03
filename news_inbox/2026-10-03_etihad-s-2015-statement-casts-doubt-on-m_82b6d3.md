@@ -1,0 +1,5 @@
+# Etihad's 2015 statement casts doubt on Man City's appeal strategy
+source: LiveScore
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVTlBdURGem9ZTUIxaldTeEt0eTh5WjhvN2g2SFdhZVVpbS1nS2JSeGZHV3RGa05sSGktUTJXcjBiUWpjdHJKWUpyRzJ5OE9UQmhOdHdVQkhRNFUyTUR0d0ZzemE3V3dxdWFSVldxUHZVOURvRS01MjRHOEJ1OERQZVZVWFZUMEsxREdGQjg4bHBUVjVvXzROdTAycThfcUIxUWJWUVVvTnBXNWZQN2FSSjRCOF9zaVNuVXg5U0JBM0t0Rl90NEZRbG9kXzc5X0JNMVE?oc=5
+
+Etihad's 2015 statement casts doubt on Man City's appeal strategy    LiveScore
