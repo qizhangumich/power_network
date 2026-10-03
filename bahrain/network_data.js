@@ -66,7 +66,7 @@ const INSTITUTIONS = [
   {id:"lst_solid", n:"Solidarity Bahrain B.S.C.", s:"finance", t:2, p:50, short:"SOLID"},
   {id:"lst_bkic", n:"Bahrain Kuwait Insurance Company B.S.C.", s:"finance", t:2, p:50, short:"BKIC"},
   {id:"lst_bnh", n:"Bahrain National Holding Company B.S.C.", s:"finance", t:2, p:50, short:"BNH"},
-  {id:"lst_seef", n:"Seef Properties B.S.C.", s:"realestate", t:2, p:50, short:"SEEF"},
+  {id:"lst_seef", n:"Seef Properties B.S.C.", s:"realestate", t:2, p:58, short:"Seef Properties"},
   {id:"lst_dutyf", n:"Bahrain Duty Free Shop Complex B.S.C.", s:"consumer_disc", t:2, p:50, short:"DUTYF"},
   {id:"lst_bcfc", n:"Bahrain Commercial Facilities Company B.S.C.", s:"finance", t:2, p:58, short:"BCFC"},
   {id:"lst_zainbh", n:"Zain Bahrain B.S.C.", s:"comm", t:2, p:62, short:"Zain Bahrain"},
@@ -149,6 +149,12 @@ const INSTITUTIONS = [
   {id:"bahrain_scw", n:"Supreme Council for Women (Bahrain)", s:"gov", t:2, p:58, short:"Bahrain SCW"},
   {id:"stc_bahrain", n:"stc Bahrain B.S.C.", s:"comm", t:2, p:58, short:"stc Bahrain"},
   {id:"bcci", n:"Bahrain Chamber of Commerce and Industry", s:"gov", t:2, p:54, short:"BCCI"},
+  {id:"univ_of_bahrain", n:"University of Bahrain", s:"education", t:2, p:60, short:"Univ of Bahrain"},
+  {id:"ahlia_university", n:"Ahlia University", s:"education", t:3, p:52, short:"Ahlia University"},
+  {id:"rcsi_bahrain", n:"RCSI Medical University of Bahrain", s:"education", t:2, p:56, short:"RCSI Bahrain"},
+  {id:"bibf", n:"Bahrain Institute of Banking and Finance", s:"education", t:3, p:54, short:"BIBF"},
+  {id:"bahrain_spec_hosp", n:"Bahrain Specialist Hospital", s:"health", t:3, p:52, short:"Bahrain Spec. Hosp"},
+  {id:"gulf_daily_news", n:"Gulf Daily News", s:"comm", t:3, p:52, short:"Gulf Daily News"},
 ];
 
 const PEOPLE = [
@@ -200,7 +206,7 @@ const PEOPLE = [
     ["abc","Group Chief Executive Officer","executive","v"]]},
   {id:"usman_nbb", n:"Usman Ahmed", t:2, p:68, s:"finance", roles:[
     ["sico_bank","Executive Director","board","v"],
-    ["nbb","Group Chief Executive Officer","executive","v"]]},
+    ["nbb","Group Chief Executive Officer (departing Dec 2026 for Masraf Al Rayan GCEO)","executive","v"]]},
   {id:"almajed_edamah", n:"Khaled Abdulrahman Al Majed", t:2, p:60, s:"realestate", roles:[
     ["edamah","Chief Executive Officer","executive","v"]]},
 
@@ -756,6 +762,7 @@ const PEOPLE = [
   {id:"yassin_alhamwi", n:"Yassin Alhamwi", t:2, p:58, s:"finance", roles:[
     ["lst_arig","Actuary - External Firm","executive","v"]]},
   {id:"nabeel_khalid_kanoo", n:"Nabeel Khalid Kanoo", t:2, p:62, s:"industry", roles:[
+    ["bcci","Chairman","board","v"],
     ["lst_basrec","Deputy Chairman","board","v"]]},
   {id:"yusuf_abdulla_alireza", n:"Yusuf Abdulla Alireza", t:2, p:58, s:"industry", roles:[
     ["lst_basrec","Board Director","executive","v"]]},
@@ -2528,6 +2535,7 @@ const PEOPLE = [
   {id:"hamid_rashid_alzayani", n:"Hamid Rashid Alzayani", t:2, p:52, s:"conglomerate", roles:[
     ["alzayani","Founder & Partner","board","v"]]},
   {id:"nawaf_khalid_alzayani", n:"Nawaf Khalid Alzayani", t:2, p:62, s:"conglomerate", roles:[
+    ["bcci","Second Vice Chairman","board","v"],
     ["alzayani","Vice Chairman of the Board","board","v"]]},
   {id:"majid_alzayani", n:"Majid Alzayani", t:2, p:60, s:"conglomerate", roles:[
     ["alzayani","Managing Director","executive","v"]]},
@@ -2610,8 +2618,8 @@ const PEOPLE = [
     ["sico_bank","Director","board","ns"]]},
   {id:"fadi_alqutub", n:"Fadi AlQutub", t:2, p:52, s:"finance", roles:[
     ["sico_bank","Director","board","ns"]]},
-  {id:"k_krishnan", n:"K. Krishnan", t:2, p:58, s:"finance", roles:[
-    ["sico_bank","Chief Financial Officer","executive","ns"]]},
+  {id:"k_krishnan", n:"K. Shyam Krishnan", t:2, p:58, s:"finance", roles:[
+    ["sico_bank","Group Chief Financial Officer","executive","v"]]},
   {id:"anantha_narayanan", n:"Anantha Narayanan", t:2, p:58, s:"finance", roles:[
     ["sico_bank","Chief Operating Officer","executive","ns"]]},
   {id:"haifa_ajlan", n:"Haifa Ajlan", t:2, p:46, s:"finance", roles:[
@@ -2684,6 +2692,7 @@ const PEOPLE = [
   {id:"ghanim_bin_fadhel", n:"Ghanim bin Fadhel Al Buainain", t:2, p:58, s:"gov", roles:[
     ["cabinet_bh","Minister of Shura and Representatives Councils Affairs","executive","v"]]},
   {id:"jameel_bin_mohammed", n:"Jameel bin Mohammed Ali Humaidan", t:2, p:58, s:"gov", roles:[
+    ["lmra_bahrain","Chairman of the Board of Directors (Minister of Labour)","board","v"],
     ["cabinet_bh","Minister of Labour","executive","v"]]},
   {id:"wael_bin_nasser", n:"Wael bin Nasser Al Mubarak", t:2, p:58, s:"gov", roles:[
     ["cabinet_bh","Minister of Municipalities Affairs and Agriculture","executive","v"],
@@ -2945,6 +2954,87 @@ const PEOPLE = [
     ["haji_hassan","Board Member","board","v"]]},
   {id:"kurt_mathiasen", n:"Kurt Mathiasen", t:2, p:52, s:"materials", roles:[
     ["haji_hassan","Board Member","board","v"]]},
+  {id:"sahar_rashid_abdulrahman", n:"Sahar Rashid Abdulrahman Al Mannai", t:2, p:52, s:"gov", roles:[
+    ["lmra_bahrain","Board Member","board","v"]]},
+  {id:"fatima_abdulghani_ismail", n:"Fatima Abdulghani Ismail", t:2, p:52, s:"gov", roles:[
+    ["lmra_bahrain","Board Member","board","v"]]},
+  {id:"adnan_abdulwahab_ishaq", n:"Adnan Abdulwahab Ishaq", t:2, p:52, s:"gov", roles:[
+    ["lmra_bahrain","Board Member","board","v"]]},
+  {id:"abdulaziz_abdulrahman_al", n:"Abdulaziz Abdulrahman Al Doseri", t:2, p:52, s:"gov", roles:[
+    ["lmra_bahrain","Board Member","board","v"]]},
+  {id:"mohammed_abduljabbar_mahmood", n:"Mohammed Abduljabbar Mahmood Al Kooheji", t:2, p:52, s:"gov", roles:[
+    ["lmra_bahrain","Board Member","board","v"]]},
+  {id:"sonia_mohammed_janahi", n:"Sonia Mohammed Janahi", t:2, p:52, s:"gov", roles:[
+    ["lmra_bahrain","Board Member","board","v"],
+    ["bcci","Board Member","board","ns"]]},
+  {id:"yousif_ahmed_hassan", n:"Yousif Ahmed Hassan Ahmed", t:2, p:52, s:"gov", roles:[
+    ["lmra_bahrain","Board Member","board","v"]]},
+  {id:"alaa_hassan_abdulrahman", n:"Alaa Hassan Abdulrahman", t:2, p:52, s:"gov", roles:[
+    ["lmra_bahrain","Board Member","board","v"]]},
+  {id:"nibras_mohamed_ali", n:"Nibras Mohamed Ali Taleb", t:2, p:60, s:"gov", roles:[
+    ["lmra_bahrain","Chief Executive Officer","executive","v"]]},
+  {id:"mariam_ahmed_jamaan", n:"Mariam Ahmed Jamaan", t:2, p:62, s:"tech", roles:[
+    ["tra_bahrain","Chairperson of the Board of Directors","board","v"]]},
+  {id:"essam_bin_abdullah", n:"Essam bin Abdullah Khalaf", t:2, p:62, s:"realestate", roles:[
+    ["rera_bahrain","Chairman of the Board","board","v"]]},
+  {id:"ibrahim_mohammed_abul", n:"Ibrahim Mohammed Abul", t:2, p:60, s:"realestate", roles:[
+    ["rera_bahrain","Chief Executive Officer","executive","v"]]},
+  {id:"abdulla_abdulrahman_alkoohej", n:"Abdulla Abdulrahman Alkooheji", t:2, p:58, s:"realestate", roles:[
+    ["rera_bahrain","Director of Policies and Strategic Planning Directorate","executive","v"]]},
+  {id:"sheikh_khalifa_bin", n:"Sheikh Khalifa bin Duaij bin Khalifa Al Khalifa", t:2, p:58, s:"realestate", roles:[
+    ["rera_bahrain","Director of Operations Directorate","executive","v"]]},
+  {id:"wejdan_ahmed_albinali", n:"Wejdan Ahmed Albinali", t:2, p:58, s:"realestate", roles:[
+    ["rera_bahrain","Director of Human & Financial Resources Directorate","executive","v"]]},
+  {id:"ahmed_abdulaziz_al", n:"Ahmed Abdulaziz Al-Khayyat", t:2, p:52, s:"realestate", roles:[
+    ["rera_bahrain","Board Member","board","v"]]},
+  {id:"may_ashoor", n:"May Ashoor", t:2, p:52, s:"realestate", roles:[
+    ["rera_bahrain","Board Member","board","v"]]},
+  {id:"ammar_rashid_al", n:"Ammar Rashid Al Khashram", t:2, p:52, s:"realestate", roles:[
+    ["rera_bahrain","Board Member","board","v"]]},
+  {id:"abdulghaffar_abdulraheem_al", n:"Abdulghaffar Abdulraheem Al Kooheji", t:2, p:52, s:"realestate", roles:[
+    ["rera_bahrain","Board Member","board","v"]]},
+  {id:"mohamed_rajab_ayoub", n:"Mohamed Rajab Ayoub", t:2, p:52, s:"realestate", roles:[
+    ["rera_bahrain","Board Member","board","v"]]},
+  {id:"khalid_ali_yousif", n:"Khalid Ali Yousif Abdulrahman", t:2, p:52, s:"realestate", roles:[
+    ["rera_bahrain","Board Member","board","ns"]]},
+  {id:"sheikh_mohamed_bin", n:"Sheikh Mohamed bin Abdullah Al-Khalifa", t:2, p:62, s:"health", roles:[
+    ["nhra_bahrain","Chairman of the Supreme Council of Health","board","ns"]]},
+  {id:"mariam_adhbi_al", n:"Mariam Adhbi Al-Jalahma", t:2, p:60, s:"health", roles:[
+    ["nhra_bahrain","Chief Executive Officer","executive","ns"]]},
+  {id:"sofia_adel_shaaban", n:"Sofia Adel Shaaban Al Dairi", t:2, p:58, s:"health", roles:[
+    ["nhra_bahrain","Director of Regulatory Affairs","executive","ns"]]},
+  {id:"abdulla_mohammed_taher", n:"Abdulla Mohammed Taher Al Raies", t:2, p:58, s:"health", roles:[
+    ["nhra_bahrain","Director of Healthcare Facilities Oversight","executive","ns"]]},
+  {id:"yousif_salahuddin_ibrahim", n:"Yousif Salahuddin Ibrahim", t:2, p:62, s:"gov", roles:[
+    ["bcci","First Vice Chairman","board","v"]]},
+  {id:"mohammed_adel_fakhro", n:"Mohammed Adel Fakhro", t:2, p:52, s:"gov", roles:[
+    ["bcci","Board Member","board","ns"]]},
+  {id:"hassan_bader_kaiksow", n:"Hassan Bader Kaiksow", t:2, p:52, s:"gov", roles:[
+    ["bcci","Board Member","board","ns"]]},
+  {id:"khalid_abdulrahman_juma", n:"Khalid Abdulrahman Juma", t:2, p:52, s:"gov", roles:[
+    ["bcci","Board Member","board","ns"]]},
+  {id:"ahmed_sabah_al", n:"Ahmed Sabah Al Salloom", t:2, p:52, s:"gov", roles:[
+    ["bcci","Board Member","board","ns"]]},
+  {id:"abeer_tariq_al", n:"Abeer Tariq Al Moayed", t:2, p:52, s:"gov", roles:[
+    ["bcci","Board Member","board","ns"]]},
+  {id:"khalid_ali_abdulrahman", n:"Khalid Ali Abdulrahman", t:2, p:52, s:"gov", roles:[
+    ["bcci","Board Member","board","ns"]]},
+  {id:"mohammed_nader_diwani", n:"Mohammed Nader Diwani", t:2, p:52, s:"gov", roles:[
+    ["bcci","Board Member","board","ns"]]},
+  {id:"jameel_al_ghanah", n:"Jameel Al Ghanah", t:2, p:52, s:"gov", roles:[
+    ["bcci","Board Member","board","ns"]]},
+  {id:"waheeb_ahmed_al", n:"Waheeb Ahmed Al Khaja", t:2, p:52, s:"gov", roles:[
+    ["bcci","Board Member","board","ns"]]},
+  {id:"mohamed_abduljabbar_al", n:"Mohamed Abduljabbar Al Kooheji", t:2, p:52, s:"gov", roles:[
+    ["bcci","Board Member","board","ns"]]},
+  {id:"rashad_ibrahim_zainal", n:"Rashad Ibrahim Zainal", t:2, p:52, s:"gov", roles:[
+    ["bcci","Board Member","board","ns"]]},
+  {id:"abdulwahab_yousif_al", n:"Abdulwahab Yousif Al Hawaj", t:2, p:52, s:"gov", roles:[
+    ["bcci","Board Member","board","ns"]]},
+  {id:"sawsan_abulhassan_ibrahim", n:"Sawsan Abulhassan Ibrahim", t:2, p:52, s:"gov", roles:[
+    ["bcci","Board Member","board","ns"]]},
+  {id:"bhagwan_das_chellaram", n:"Bhagwan das Chellaram Tikamdas Thacker", t:2, p:52, s:"gov", roles:[
+    ["bcci","Board Member","board","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3086,4 +3176,7 @@ const AKA = {
   bahrain_moe:["MOE","Bahrain"],
   bahrain_scw:["SCW","Bahrain"],
   stc_bahrain:["Viva Bahrain","VIVA"],
+  univ_of_bahrain:["UoB"],
+  bahrain_spec_hosp:["BSH"],
+  gulf_daily_news:["GDN"],
 };

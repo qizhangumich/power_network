@@ -474,6 +474,26 @@ const INSTITUTIONS = [
   {id:"agoc", n:"Aramco Gulf Operations Company", s:"energy", t:3, p:54, short:"AGOC"},
   {id:"alpha_capital", n:"Alpha Capital", s:"finance", t:3, p:54, short:"Alpha Capital"},
   {id:"fsc", n:"Federation of Saudi Chambers", s:"gov", t:2, p:58, short:"FSC"},
+  {id:"sa_af_capital", n:"SA'AF Capital", s:"finance", t:3, p:54, short:"SA'AF Capital"},
+  {id:"anb_capital", n:"ANB Capital (Arab National Investment Company)", s:"finance", t:2, p:58, short:"ANB Capital"},
+  {id:"king_saud_university", n:"King Saud University", s:"education", t:2, p:70, short:"King Saud University"},
+  {id:"king_abdulaziz_univ", n:"King Abdulaziz University", s:"education", t:2, p:68, short:"King Abdulaziz Univ"},
+  {id:"kfupm", n:"King Fahd University of Petroleum and Minerals", s:"education", t:2, p:70, short:"KFUPM"},
+  {id:"imam_islamic_univ", n:"Imam Muhammad ibn Saud Islamic University", s:"education", t:3, p:58, short:"Imam Islamic Univ"},
+  {id:"princess_nourah_univ", n:"Princess Nourah bint Abdulrahman University", s:"education", t:2, p:62, short:"Princess Nourah Univ"},
+  {id:"umm_al_qura", n:"Umm Al-Qura University", s:"education", t:2, p:60, short:"Umm Al-Qura Univ"},
+  {id:"king_faisal_univ", n:"King Faisal University", s:"education", t:3, p:58, short:"King Faisal Univ"},
+  {id:"islamic_univ_madinah", n:"Islamic University of Madinah", s:"education", t:2, p:60, short:"Islamic Univ Madinah"},
+  {id:"king_khalid_univ", n:"King Khalid University", s:"education", t:3, p:58, short:"King Khalid Univ"},
+  {id:"effat_university", n:"Effat University", s:"education", t:3, p:54, short:"Effat University"},
+  {id:"taibah_university", n:"Taibah University", s:"education", t:3, p:56, short:"Taibah University"},
+  {id:"dar_al_hekma", n:"Dar Al-Hekma University", s:"education", t:3, p:52, short:"Dar Al-Hekma Univ"},
+  {id:"mngha", n:"Ministry of National Guard Health Affairs", s:"health", t:2, p:68, short:"MNGHA"},
+  {id:"kfmc", n:"King Fahd Medical City", s:"health", t:2, p:62, short:"KFMC"},
+  {id:"jhah", n:"Johns Hopkins Aramco Healthcare", s:"health", t:2, p:58, short:"JHAH"},
+  {id:"saudi_press_agency", n:"Saudi Press Agency", s:"comm", t:1, p:64, short:"Saudi Press Agency"},
+  {id:"thmanyah", n:"Thmanyah", s:"comm", t:3, p:52, short:"Thmanyah"},
+  {id:"fii_institute", n:"FII Institute", s:"education", t:2, p:60, short:"FII Institute"},
 ];
 
 const PEOPLE = [
@@ -519,6 +539,7 @@ const PEOPLE = [
     ["kaust","Board Member; President and CEO of Saudi Aramco","board","v"],
     ["aramco","President & CEO","executive","v"]]},
   {id:"jadaan", n:"Mohammed Al-Jadaan", t:1, p:86, s:"finance", roles:[
+    ["gosi","Minister of Finance / Chairman of the Board","board","v"],
     ["zatca","Chairman of the Board","board","v"],
     ["mof_sa","Minister of Finance","political","v"]]},
   {id:"falih", n:"Khalid Al-Falih", t:1, p:78, s:"gov", roles:[
@@ -531,6 +552,8 @@ const PEOPLE = [
     ["misa","Minister of Investment","political","v"]],
     note:"Appointed 12 Feb 2026, succeeding Khalid Al-Falih; ex-PIF Investment Strategy head."},
   {id:"alswaha", n:"Abdullah Alswaha", t:1, p:78, s:"tech", roles:[
+    ["cst","Minister of Communications and Information Technology / Chairman of the Board","board","ns"],
+    ["savvy_games","Non-Executive Board Member","board","v"],
     ["kaust","Board Member; Minister of Communications and Information Technology","board","v"],
     ["alat","Board Member; Minister of Communications and Information Technology","board","v"],
     ["mcit_sa","Minister of Communications & IT","political","v"]]},
@@ -541,6 +564,7 @@ const PEOPLE = [
     ["mot_sa","Minister of Tourism","political","v"],
     ["redsea","Board Member","board","v"]]},
   {id:"alkhorayef", n:"Bandar Alkhorayef", t:1, p:72, s:"industry", roles:[
+    ["rcjy","Minister of Industry and Mineral Resources / Chairman of the Board","board","v"],
     ["moind","Minister of Industry and Mineral Resources","executive","v"],
     ["sidf","Chairman of the Board of Directors","board","v"],
     ["sami","Board Member","board","v"],
@@ -551,6 +575,8 @@ const PEOPLE = [
   {id:"qasabi", n:"Majid Al-Qasabi", t:1, p:76, s:"gov", roles:[
     ["moc_sa","Minister of Commerce","political","v"]]},
   {id:"alibrahim", n:"Faisal Alibrahim", t:1, p:80, s:"gov", roles:[
+    ["gastat","Minister of Economy and Planning / Chairman of the Board","board","v"],
+    ["gosi","Minister of Economy and Planning / Board Member","board","v"],
     ["mep_sa","Minister of Economy & Planning","political","v"]],
     note:"Also general supervisor of the Council of Economic and Development Affairs (CEDA) secretariat."},
   {id:"aljalajel", n:"Fahad Al-Jalajel", t:1, p:76, s:"health", roles:[
@@ -685,6 +711,7 @@ const PEOPLE = [
   {id:"mohammed_k_a", n:"Mohammed K. A. Al-Faisal", t:2, p:62, s:"comm", roles:[
     ["stc","Chairman","board","v"]]},
   {id:"yazeed_a_al", n:"Yazeed A. Al-Humied", t:2, p:62, s:"comm", roles:[
+    ["savvy_games","Non-Executive Board Member","board","v"],
     ["stc","Vice Chairman","board","v"],
     ["acwa","Vice Chairman","board","v"]]},
   {id:"khaled_h_biyari", n:"Khaled H. Biyari", t:2, p:52, s:"comm", roles:[
@@ -727,7 +754,9 @@ const PEOPLE = [
   {id:"rashed_sherif", n:"Rashed Sherif", t:2, p:52, s:"finance", roles:[
     ["snb","Board Member","board","ns"]]},
   {id:"ahmed_aldhabi", n:"Ahmed Aldhabi", t:2, p:58, s:"finance", roles:[
-    ["snb","Group CFO","executive","ns"]]},
+    ["snb","Group CFO (2021–Apr 2025)","executive","ns","former:until Apr 2025"]]},
+  {id:"hussein_hassan_eid", n:"Hussein Hassan Eid", t:2, p:58, s:"finance", roles:[
+    ["snb","Group Chief Financial Officer","executive","v"]]},
   {id:"sara_abdullatif_nugali", n:"Sara Abdullatif Nugali", t:2, p:58, s:"finance", roles:[
     ["snb","Chief Operating Officer","executive","ns"]]},
   {id:"abdullah_bin_sulaiman", n:"Abdullah bin Sulaiman Al Rajhi", t:2, p:62, s:"finance", roles:[
@@ -863,6 +892,7 @@ const PEOPLE = [
   {id:"lama_ghazzaoui", n:"Lama Ghazzaoui", t:2, p:58, s:"finance", roles:[
     ["sab","Group CFO","executive","ns"]]},
   {id:"ghada_al_jarbou", n:"Ghada Al Jarbou", t:2, p:58, s:"finance", roles:[
+    ["gosi","Board Member (Expert in Mergers, Institutional Structures Design and Governance)","board","v"],
     ["sab","Chief Operating Officer","executive","ns"]]},
   {id:"nasir_k_al", n:"Nasir K. Al-Naimi", t:2, p:58, s:"energy", roles:[
     ["aramco","Upstream President","executive","v"]]},
@@ -919,6 +949,7 @@ const PEOPLE = [
   {id:"nader_ibrahim_al", n:"Nader Ibrahim Al-Wehibi", t:2, p:62, s:"materials", roles:[
     ["sabic","Member of the Board of Directors; Chairman, Audit Committee","board","v"]]},
   {id:"ameen_fahad_alshiddi", n:"Ameen Fahad Alshiddi", t:2, p:58, s:"comm", roles:[
+    ["tawal","Chairman of the Board","board","v"],
     ["stc","Group Chief Financial Officer","executive","v"]]},
   {id:"faisal_saeed_alsaber", n:"Faisal Saeed Alsaber", t:2, p:58, s:"comm", roles:[
     ["stc","Group Chief Commercial Officer","executive","v"]]},
@@ -935,10 +966,12 @@ const PEOPLE = [
   {id:"ahmad_musfer_alghamdi", n:"Ahmad Musfer Alghamdi", t:2, p:58, s:"comm", roles:[
     ["stc","Group Chief Human Resources Officer","executive","v"]]},
   {id:"motaz_alangari", n:"Motaz Alangari", t:2, p:58, s:"comm", roles:[
+    ["tawal","Chief Financial Officer","executive","v"],
     ["stc","Group Chief Investment Officer","executive","v"]]},
   {id:"abdullah_sail_alanizi", n:"Abdullah Sail Alanizi", t:2, p:58, s:"comm", roles:[
     ["stc","Group Chief Internal Audit Officer","executive","v"]]},
   {id:"mathad_faisal_alajmi", n:"Mathad Faisal Alajmi", t:2, p:58, s:"comm", roles:[
+    ["tawal","Vice President of Corporate Finance","executive","v"],
     ["stc","Group Chief Legal and Risk Officer and General Counsel","executive","v"]]},
   {id:"emad_aoudah_alaoudah", n:"Emad Aoudah Alaoudah", t:2, p:58, s:"comm", roles:[
     ["stc","Group Chief Shared Services Officer","executive","v"]]},
@@ -1008,6 +1041,7 @@ const PEOPLE = [
     ["qiddiya","Board Member","board","v"],
     ["pif","Head of Local Real Estate Investments Division","executive","v"]]},
   {id:"yasir_a_alsalman", n:"Yasir A. AlSalman", t:2, p:58, s:"sovereign", roles:[
+    ["tawal","Chief Transformation Officer","executive","v"],
     ["sami","Board Member","board","v"],
     ["pif","Chief Financial Officer and Head of Finance Division and Acting Head of Global Capital Finance","executive","v"]]},
   {id:"bander_a_mogren", n:"Bander A. Mogren", t:2, p:58, s:"sovereign", roles:[
@@ -1743,10 +1777,12 @@ const PEOPLE = [
     ["diriyah","Board Member and Secretary","board","v"],
     ["moi_sa","Acting Vice Minister of Interior","executive","ns"]]},
   {id:"fahad_al_saif", n:"Fahad Al-Saif", t:2, p:58, s:"gov", roles:[
+    ["kaec","Chairman (Non-Executive)","board","v"],
     ["misa","Minister of Investment","executive","v"]]},
   {id:"ammar_nagadi", n:"Ammar Nagadi", t:2, p:58, s:"gov", roles:[
     ["mep_sa","Vice Minister of Economy and Planning","executive","v"]]},
   {id:"mohammed_bin_salman", n:"Mohammed bin Salman Al Saud", t:2, p:62, s:"realestate", roles:[
+    ["savvy_games","Chairman of the Board","board","v"],
     ["sdaia","Chairman of the Board of Directors","board","v"],
     ["diriyah","Chairman of the Board","board","v"],
     ["new_murabba","Chairman of the Board of Directors","board","v"],
@@ -1783,6 +1819,8 @@ const PEOPLE = [
   {id:"muneerah_aldakheel", n:"Muneerah Aldakheel", t:2, p:58, s:"tech", roles:[
     ["alat","Acting Chief Human Resources Officer","executive","v"]]},
   {id:"saleh_bin_nasser", n:"Saleh bin Nasser Al-Jasser", t:2, p:62, s:"industry", roles:[
+    ["mawani","Minister of Transport and Logistics Services / Chairman of the Board","board","ns"],
+    ["sar","Minister of Transport and Logistics Services / Chairman of the Board","board","ns"],
     ["gaca_sa","Minister of Transport and Logistics Services; Chairman, GACA Board of Directors","board","ns"],
     ["saudia","Chairman of the Board of Directors","board","v"]]},
   {id:"arved_von_zur", n:"Arved von zur Muehlen", t:2, p:58, s:"industry", roles:[
@@ -1890,6 +1928,7 @@ const PEOPLE = [
   {id:"faisal_bafarat", n:"Faisal Bafarat", t:2, p:60, s:"gov", roles:[
     ["gea","Chief Executive Officer","executive","v"]]},
   {id:"majid_al_hogail", n:"Majid Al-Hogail", t:2, p:58, s:"realestate", roles:[
+    ["redf","Minister of Municipal, Rural Affairs and Housing / Chairman of the Board","board","ns"],
     ["momah_sa","Minister of Municipalities and Housing","executive","v"]]},
   {id:"talal_bin_mohammed", n:"Talal bin Mohammed Alkhnaini", t:2, p:58, s:"realestate", roles:[
     ["momah_sa","Deputy Minister for Developmental Housing","executive","v"]]},
@@ -2167,6 +2206,146 @@ const PEOPLE = [
     ["qiddiya","Board Member","board","v"]]},
   {id:"hendi_bin_abdullah", n:"Hendi bin Abdullah Al-Suhaimi", t:2, p:52, s:"consumer_disc", roles:[
     ["qiddiya","Board Member","board","v"]]},
+  {id:"prince_faisal_bin_b", n:"Prince Faisal bin Bandar Al Saud", t:2, p:62, s:"consumer_disc", roles:[
+    ["savvy_games","Vice Chairman of the Board","board","v"]]},
+  {id:"yasir_al_rumayan", n:"Yasir Al-Rumayan", t:2, p:52, s:"consumer_disc", roles:[
+    ["savvy_games","Non-Executive Board Member","board","v"]]},
+  {id:"brian_ward", n:"Brian Ward", t:2, p:60, s:"consumer_disc", roles:[
+    ["savvy_games","Group Chief Executive Officer","executive","v"]]},
+  {id:"jesse_meschuk", n:"Jesse Meschuk", t:2, p:58, s:"consumer_disc", roles:[
+    ["savvy_games","Chief Operating Officer","executive","v"]]},
+  {id:"majed_al_muhanna", n:"Majed Al-Muhanna", t:2, p:58, s:"consumer_disc", roles:[
+    ["savvy_games","Chief Human Resources Officer","executive","v"]]},
+  {id:"amr_sager", n:"Amr Sager", t:2, p:58, s:"consumer_disc", roles:[
+    ["savvy_games","Group Chief of Staff","executive","v"]]},
+  {id:"bashar_bin_khalid", n:"Bashar bin Khalid Al-Malik", t:2, p:60, s:"industry", roles:[
+    ["sar","Chief Executive Officer","executive","ns"]]},
+  {id:"haitham_al_ohali", n:"Haitham Al-Ohali", t:2, p:58, s:"gov", roles:[
+    ["cst","Acting Governor","executive","ns"]]},
+  {id:"omar_alrejraje", n:"Omar Alrejraje", t:2, p:58, s:"gov", roles:[
+    ["cst","Deputy Governor for Regulation and Competition","executive","ns"]]},
+  {id:"abdullah_saleh_kamel", n:"Abdullah Saleh Kamel", t:2, p:62, s:"gov", roles:[
+    ["fsc","Chairman","board","v"]]},
+  {id:"emad_sadad_alfakhri", n:"Emad Sadad Alfakhri", t:2, p:62, s:"gov", roles:[
+    ["fsc","First Vice Chairman","board","v"]]},
+  {id:"khaled_mohammed_alsaikhan", n:"Khaled Mohammed Alsaikhan", t:2, p:62, s:"gov", roles:[
+    ["fsc","Second Vice Chairman","board","v"]]},
+  {id:"mohammed_yousef_naghi", n:"Mohammed Yousef Naghi", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"abdullah_abdulrhman_al", n:"Abdullah Abdulrhman Al-Obeikan", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"hassan_moejeb_alhwaizy", n:"Hassan Moejeb Alhwaizy", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"bader_suliman_alreziza", n:"Bader Suliman Alreziza", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"mohammed_abdulaziz_al", n:"Mohammed Abdulaziz Al-Afaleq", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"mazen_ibrahim_rajab", n:"Mazen Ibrahim Rajab", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"jalawi_mohammed_al", n:"Jalawi Mohammed Al-Karkman", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"mashi_mohammed_al", n:"Mashi Mohammed Al Omari", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"ahmed_mohammed_abuhadi", n:"Ahmed Mohammed AbuHadi", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"hamdan_abdullah_alsamreen", n:"Hamdan Abdullah Alsamreen", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"salman_hassan_alboeji", n:"Salman Hassan Alboeji", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"hani_abdulaziz_alkhulaify", n:"Hani Abdulaziz Alkhulaify", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"hadi_sulaiman_alalawi", n:"Hadi Sulaiman Alalawi", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"abdulaziz_rabea_alshareef", n:"Abdulaziz Rabea Alshareef", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"ahmed_saleh_al_b_b", n:"Ahmed Saleh Al Swailem", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"ghazi_mastoor_alotaibi", n:"Ghazi Mastoor Alotaibi", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"abdullah_saleem_alanzi", n:"Abdullah Saleem Alanzi", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"fayez_thaar_alharbi", n:"Fayez Thaar Alharbi", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"mishari_mohammed_aljarbua", n:"Mishari Mohammed Aljarbua", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"ali_sulaiman_al", n:"Ali Sulaiman Al-Muqbel", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"bader_hamoud_alfaraj", n:"Bader Hamoud Alfaraj", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"ahmed_saeed_alamri", n:"Ahmed Saeed Alamri", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"fahad_ahmed_al", n:"Fahad Ahmed Al-Ali", t:2, p:52, s:"gov", roles:[
+    ["fsc","Board Member","board","v"]]},
+  {id:"moath_al_naeem", n:"Moath Al-Naeem", t:2, p:58, s:"finance", roles:[
+    ["alpha_capital","Chief Investment Officer","executive","ns"]]},
+  {id:"abdullatif_al_fozan", n:"Abdullatif Al-Fozan", t:2, p:52, s:"finance", roles:[
+    ["alpha_capital","Board Member","board","ns"]]},
+  {id:"suliman_bin_khalid", n:"Suliman bin Khalid Al-Mazroua", t:2, p:58, s:"gov", roles:[
+    ["mawani","President","executive","ns"]]},
+  {id:"ahmed_bin_suliman", n:"Ahmed bin Suliman Al-Rajhi", t:2, p:52, s:"gov", roles:[
+    ["gosi","Minister of Human Resources and Social Development / Board Member","board","v"]]},
+  {id:"khaled_bin_hussein", n:"Khaled bin Hussein Bayari", t:2, p:52, s:"gov", roles:[
+    ["gosi","Assistant Minister of Defense for Executive Affairs / Board Member","board","v"]]},
+  {id:"abdulaziz_bin_hassan", n:"Abdulaziz bin Hassan Alboug", t:2, p:58, s:"gov", roles:[
+    ["gosi","Governor of GOSI","executive","v"]]},
+  {id:"abdullah_bin_abdulrahman", n:"Abdullah bin Abdulrahman Bin Zaraah", t:2, p:52, s:"gov", roles:[
+    ["gosi","Assistant Minister for Macro-Fiscal Policies and International Relations / Board Member","board","v"]]},
+  {id:"abdullah_bin_hassan", n:"Abdullah bin Hassan Al-Abdulqadir", t:2, p:52, s:"gov", roles:[
+    ["gosi","Board Member (Expert in Financial Services)","board","v"]]},
+  {id:"mohammed_bin_abdulaziz", n:"Mohammed bin Abdulaziz Alhakbani", t:2, p:60, s:"comm", roles:[
+    ["tawal","Chief Executive Officer","executive","v"]]},
+  {id:"eyas_aldossari", n:"Eyas Aldossari", t:2, p:62, s:"comm", roles:[
+    ["tawal","Vice Chairman of the Board","board","v"]]},
+  {id:"abdulrahman_aljanoubi", n:"Abdulrahman Aljanoubi", t:2, p:58, s:"comm", roles:[
+    ["tawal","Chief Strategy & Investments Officer","executive","v"]]},
+  {id:"khalid_muhtadi", n:"Khalid Muhtadi", t:2, p:58, s:"comm", roles:[
+    ["tawal","Chief Legal, Risk & Governance Officer","executive","v"]]},
+  {id:"hareth_alsahan", n:"Hareth Alsahan", t:2, p:58, s:"comm", roles:[
+    ["tawal","Chief Human Resources Officer","executive","v"]]},
+  {id:"jamal_bin_theniyah", n:"Jamal Bin Theniyah", t:2, p:62, s:"realestate", roles:[
+    ["kaec","Vice Chairman (Non-Executive)","board","v"]]},
+  {id:"arif_a_albastaki", n:"Arif A. Albastaki", t:2, p:52, s:"realestate", roles:[
+    ["kaec","Board Member (Independent)","board","v"]]},
+  {id:"mohammed_n_hefni", n:"Mohammed N. Hefni", t:2, p:52, s:"realestate", roles:[
+    ["kaec","Board Member (Non-Executive)","board","v"]]},
+  {id:"osama_o_barayan", n:"Osama O. Barayan", t:2, p:52, s:"realestate", roles:[
+    ["kaec","Board Member","board","v"]]},
+  {id:"naif_s_al", n:"Naif S. Al-Hamdan", t:2, p:52, s:"realestate", roles:[
+    ["kaec","Board Member (Non-Executive)","board","v"]]},
+  {id:"mansour_a_al", n:"Mansour A. Al-Salem", t:2, p:52, s:"realestate", roles:[
+    ["kaec","Board Member","board","v"]]},
+  {id:"hesham_a_heikal", n:"Hesham A. Heikal", t:2, p:52, s:"realestate", roles:[
+    ["kaec","Board Member (Independent)","board","v"]]},
+  {id:"abdulaziz_ibrahim_alnowaiser", n:"Abdulaziz Ibrahim Alnowaiser", t:2, p:60, s:"realestate", roles:[
+    ["kaec","Chief Executive Officer","executive","v"]]},
+  {id:"mohammed_i_alarifi", n:"Mohammed I. Alarifi", t:2, p:58, s:"realestate", roles:[
+    ["kaec","Chief Financial Officer","executive","v"]]},
+  {id:"majid_abdullah_matbouly", n:"Majid Abdullah Matbouly", t:2, p:58, s:"realestate", roles:[
+    ["kaec","Chief Industrial Valley Officer & Chief Operating Officer (Acting)","executive","v"]]},
+  {id:"ali_alkhatib", n:"Ali Alkhatib", t:2, p:58, s:"realestate", roles:[
+    ["kaec","Chief Investment Officer","executive","v"]]},
+  {id:"rayan_muhialdeen", n:"Rayan Muhialdeen", t:2, p:58, s:"realestate", roles:[
+    ["kaec","Chief of Staff","executive","v"]]},
+  {id:"fadi_jamal", n:"Fadi Jamal", t:2, p:58, s:"realestate", roles:[
+    ["kaec","Executive Director, Head of Internal Audit","executive","v"]]},
+  {id:"khalid_bin_mohammed", n:"Khalid bin Mohammed Al-Salem", t:2, p:62, s:"gov", roles:[
+    ["rcjy","President of RCJY / Vice Chairman of the Board","board","v"]]},
+  {id:"faisal_mohammed_f", n:"Faisal Mohammed F Almoammar", t:2, p:52, s:"gov", roles:[
+    ["rcjy","Board Member (Head of Advisors Unit, Ministry of Finance)","board","v"]]},
+  {id:"mazen_mohammed_al", n:"Mazen Mohammed Al-Mulla", t:2, p:52, s:"gov", roles:[
+    ["rcjy","Deputy Minister for Optimal Allocation of Energy Resources / Board Member","board","v"]]},
+  {id:"khalid_al_dughaither", n:"Khalid Al-Dughaither", t:2, p:52, s:"gov", roles:[
+    ["rcjy","Deputy Minister for Regulations and Legal Affairs / Board Member","board","v"]]},
+  {id:"abdullah_al_dubaikhi", n:"Abdullah Al-Dubaikhi", t:2, p:52, s:"gov", roles:[
+    ["rcjy","Assistant Minister of Investment / Board Member","board","v"]]},
+  {id:"abdullah_bin_saleh_b", n:"Abdullah bin Saleh Al-Suwailim", t:2, p:52, s:"gov", roles:[
+    ["rcjy","Vice President of the Western Manufacturing Sector, Saudi Aramco / Board Member","board","v"]]},
+  {id:"mohammed_bin_ali", n:"Mohammed bin Ali Al-Majdouie", t:2, p:60, s:"gov", roles:[
+    ["rcjy","Chief Executive Officer, Almajdouie Logistics / Board Member","board","v"]]},
+  {id:"fahad_bin_abdullah_b_b", n:"Fahad bin Abdullah Al-Dossari", t:2, p:58, s:"gov", roles:[
+    ["gastat","President of GASTAT","executive","v"]]},
+  {id:"mansour_bin_madi", n:"Mansour bin Madi", t:2, p:62, s:"finance", roles:[
+    ["redf","Chief Executive Officer and Deputy Chairman of the Board","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2530,6 +2709,10 @@ const OWNERSHIP = [
   ["stc_channels","stc","wholly-owned subsidiary (100%) — retail distribution channels","v"],
   ["aramco_trading","aramco","wholly-owned subsidiary, crude oil & refined products trading arm (est. 2011)","ns"],
   ["agoc","aramco","wholly-owned subsidiary managing Saudi Arabia's share of onshore operations in the Saudi-Kuwait Divided (Neutral) Zone alongside Kuwait Gulf Oil Company","ns"],
+  ["anb_capital","lst_1080","subsidiary of","ns"],
+  ["jhah","aramco","joint venture of","ns"],
+  ["saudi_press_agency","momedia_sa","state agency under","ns"],
+  ["fii_institute","pif","founded by","ns"],
 ];
 
 const FAMILY = [
@@ -2620,4 +2803,17 @@ const AKA = {
   aramco_trading:["ATC"],
   alpha_capital:["Alpha Aquaculture Fund"],
   fsc:["Council of Saudi Chambers","CSC"],
+  sa_af_capital:["SAAF Capital"],
+  anb_capital:["Arab National Investment Company"],
+  king_saud_university:["KSU"],
+  king_abdulaziz_univ:["KAU"],
+  imam_islamic_univ:["IMSIU","Imam University"],
+  princess_nourah_univ:["PNU"],
+  umm_al_qura:["UQU"],
+  king_faisal_univ:["KFU"],
+  islamic_univ_madinah:["IU Madinah"],
+  king_khalid_univ:["KKU"],
+  mngha:["King Abdulaziz Medical City"],
+  saudi_press_agency:["SPA"],
+  fii_institute:["Future Investment Initiative Institute"],
 };

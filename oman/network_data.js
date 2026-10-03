@@ -203,6 +203,11 @@ const INSTITUTIONS = [
   {id:"marsa_lng", n:"Marsa LNG", s:"energy", t:3, p:54, short:"Marsa LNG"},
   {id:"khoula_hospital", n:"Khoula Hospital", s:"health", t:2, p:56, short:"Khoula Hospital"},
   {id:"occi", n:"Oman Chamber of Commerce and Industry", s:"gov", t:2, p:56, short:"OCCI"},
+  {id:"utas", n:"University of Technology and Applied Sciences", s:"education", t:2, p:60, short:"UTAS"},
+  {id:"dhofar_university", n:"Dhofar University", s:"education", t:3, p:54, short:"Dhofar University"},
+  {id:"sohar_university", n:"Sohar University", s:"education", t:3, p:52, short:"Sohar University"},
+  {id:"oman_radio_tv", n:"Public Authority for Radio and Television", s:"comm", t:2, p:58, short:"Oman Radio & TV"},
+  {id:"badr_al_samaa", n:"Badr Al Samaa Group of Hospitals", s:"health", t:3, p:54, short:"Badr Al Samaa"},
 ];
 
 const PEOPLE = [
@@ -260,6 +265,7 @@ const PEOPLE = [
 
   // ===== ADDED SEP 2026 — KEY MINISTRIES PREVIOUSLY MISSING FROM THE MAP =====
   {id:"alaufi_energy", n:"Eng. Salim bin Nasser bin Said Al Aufi", t:1, p:78, s:"energy", roles:[
+    ["apsr_oman","Chairman of the Board of Directors (Minister of Energy and Minerals)","board","v"],
     ["hydrom","Chairman of the Board of Directors","board","v"],
     ["spf","Chairman of the Board of Directors","board","v"],
     ["edo","Chairman and Non-Executive Director","board","v"],
@@ -1221,6 +1227,18 @@ const PEOPLE = [
     ["pacp","Chairman","board","v"]]},
   {id:"ali_bin_salim_b", n:"Ali bin Salim Al-Qalhati", t:2, p:58, s:"gov", roles:[
     ["pacp","Vice President for Administrative and Financial Affairs","executive","ns"]]},
+  {id:"mansour_bin_taleb", n:"Mansour bin Taleb Al Hinai", t:2, p:62, s:"gov", roles:[
+    ["apsr_oman","Chairman, Authority for Public Services Regulation","executive","v"]]},
+  {id:"mohammed_bin_ali", n:"Mohammed bin Ali Al Mutawwa", t:2, p:52, s:"gov", roles:[
+    ["apsr_oman","Member of the Board of Directors","board","v"]]},
+  {id:"adham_bin_turki", n:"Adham bin Turki Al Said", t:2, p:52, s:"gov", roles:[
+    ["apsr_oman","Member of the Board","board","v"]]},
+  {id:"ibtisam_bint_ahmed_b", n:"Ibtisam bint Ahmed bin Said Al-Faroujiya", t:2, p:52, s:"gov", roles:[
+    ["apsr_oman","Member of the Board of Directors","board","v"]]},
+  {id:"abdul_wahid_al", n:"Abdul Wahid Al Murshidi", t:2, p:52, s:"gov", roles:[
+    ["apsr_oman","Member of the Board","board","v"]]},
+  {id:"shatha_bint_salim", n:"Shatha bint Salim Al Maskiry", t:2, p:52, s:"gov", roles:[
+    ["apsr_oman","Member of the Board","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1419,4 +1437,7 @@ const AKA = {
   mustafa_sultan_ent:["Mustafa Sultan Group"],
   oman_news_agency:["ONA"],
   salalah_free_zone:["SFZC"],
+  dhofar_university:["DU"],
+  sohar_university:["SU"],
+  oman_radio_tv:["PART","Oman TV"],
 };

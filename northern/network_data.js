@@ -131,6 +131,8 @@ const INSTITUTIONS = [
   {id:"fujairah_environment", n:"Fujairah Environment Authority", s:"gov", t:3, p:54, short:"Fujairah Environment"},
   {id:"ajman_dof", n:"Ajman Department of Finance", s:"finance", t:2, p:56, short:"Ajman Finance Dept"},
   {id:"fujairah_finance_dept", n:"Fujairah Finance Department", s:"finance", t:2, p:54, short:"Fujairah Finance"},
+  {id:"rakmhsu", n:"RAK Medical and Health Sciences University", s:"education", t:3, p:52, short:"RAKMHSU"},
+  {id:"univ_hosp_sharjah", n:"University Hospital Sharjah", s:"health", t:3, p:52, short:"Univ Hosp Sharjah"},
 ];
 
 const PEOPLE = [
@@ -139,6 +141,7 @@ const PEOPLE = [
     ["aus","Founder & President","board","v"]],
     note:"Ruler since 1972 — the intellectual of the UAE ruling houses; culture and education define Sharjah's model."},
   {id:"sultan_ahmed_q", n:"H.H. Sheikh Sultan bin Ahmed Al Qasimi", t:0, p:84, s:"gov", roles:[
+    ["sharjah_broadcasting","Chairman - Sharjah Media Council (SBA oversight body)","board","ns"],
     ["university_of_sharjah","President and Chairman of the Board of Trustees","board","v"],
     ["shj_execco","Deputy Chairman (Chairman of Sharjah Media Council)","board","v"],
     ["shjgov","Deputy Ruler of Sharjah","political","v"],
@@ -638,6 +641,7 @@ const PEOPLE = [
     ["hfza","Director","executive","v"],
     ["saif_zone","Director","executive","v"]]},
   {id:"ahmed_bin_humaid", n:"Ahmed bin Humaid Al Nuaimi", t:2, p:62, s:"gov", roles:[
+    ["ajman_ded","Chairman, Ajman Department of Economic Development","board","v"],
     ["ajmgov","Vice Chairman of the Executive Council","executive","v"],
     ["afz","Chairman","board","v"]]},
   {id:"ismail_al_naqi", n:"Ismail Al Naqi", t:2, p:58, s:"gov", roles:[
@@ -1071,6 +1075,12 @@ const PEOPLE = [
     ["rak_chamber","First Vice Chairman","board","v"]]},
   {id:"neha_thomas", n:"Neha Thomas", t:2, p:58, s:"gov", roles:[
     ["afz","Marketing Director (Free Zones Authority of Ajman incl. AFZ/Ajman Media City/Al Zorah FZ)","executive","ns"]]},
+  {id:"saif_ahmed_musabah", n:"Saif Ahmed Musabah Al Suwaidi", t:2, p:58, s:"gov", roles:[
+    ["ajman_ded","Director-General, Ajman Department of Economic Development","executive","ns"]]},
+  {id:"mohammed_hassan_khalaf", n:"Mohammed Hassan Khalaf", t:2, p:58, s:"comm", roles:[
+    ["sharjah_broadcasting","Director-General","executive","ns"]]},
+  {id:"salem_ali_al_b", n:"Salem Ali Al Ghaithi", t:2, p:58, s:"comm", roles:[
+    ["sharjah_broadcasting","Director","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1222,4 +1232,5 @@ const AKA = {
   rak_awqaf_authority:["GAIAE RAK","Ras Al Khaimah"],
   fujairah_culture_media:["FCMA"],
   fujairah_environment:["FEA"],
+  univ_hosp_sharjah:["UHS"],
 };

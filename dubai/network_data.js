@@ -199,6 +199,7 @@ const INSTITUTIONS = [
   {id:"key_mavens", n:"Key Mavens Group", s:"realestate", t:3, p:54, short:"Key Mavens Group"},
   {id:"sharaf", n:"Sharaf Group", s:"conglomerate", t:3, p:58, short:"Sharaf Group"},
   {id:"al_ghandi", n:"Al Ghandi Group", s:"consumer_disc", t:3, p:54, short:"Al Ghandi Group"},
+  {id:"aud", n:"American University in Dubai", s:"education", t:3, p:54, short:"AUD"},
 ];
 
 const PEOPLE = [
@@ -219,6 +220,9 @@ const PEOPLE = [
     ["difc","President","political","v"]],
     note:"Dubai's financial-markets czar: DIFC, the IPO program and federal finance."},
   {id:"ahmed_saeed", n:"H.H. Sheikh Ahmed bin Saeed Al Maktoum", t:0, p:92, s:"industry", roles:[
+    ["meraas","Chairman - Dubai Holding (parent of Meraas)","board","ns"],
+    ["dubai_duty_free","Chairman","board","ns"],
+    ["dae","Chairman","board","ns"],
     ["dubai_south","Chairman, Dubai Aviation City Corporation","board","v"],
     ["dnata","Chairman","board","v"],
     ["dubai_world","Chairman","board","v"],
@@ -235,6 +239,7 @@ const PEOPLE = [
     ["dxbgov","Second Deputy Ruler of Dubai","political","v"],
     ["dxbgov","Chairman, Dubai Media Council","government","v"]]},
   {id:"shaibani", n:"Mohammed Ibrahim Al Shaibani", t:1, p:90, s:"sovereign", roles:[
+    ["dae","Board Member","board","ns"],
     ["dubai_world","Board Member","board","v"],
     ["execco","Member (Director General of HH the Ruler's Court)","board","v"],
     ["dxbgov","Director-General, Ruler's Court","government","v"],
@@ -251,6 +256,7 @@ const PEOPLE = [
     ["lst_salik","Chairman","board","v"],
     ["rta","Chairman & Director-General","government","v"]]},
   {id:"essa_kazim", n:"Essa Kazim", t:1, p:82, s:"finance", roles:[
+    ["borse_dubai","Chairman","board","ns"],
     ["difc","Governor","executive","v"],
     ["dfm","Chairman (–Nov 2021)","board","v","former:until Nov 2021"],
     ["dpworld","Chairman","board","v"]],
@@ -287,7 +293,7 @@ const PEOPLE = [
   {id:"khalaf_habtoor", n:"Khalaf Al Habtoor", t:2, p:76, s:"conglomerate", roles:[
     ["alhabtoor","Founder & Chairman","board","v"]]},
   {id:"amit_kaushal", n:"Amit Kaushal", t:2, p:72, s:"sovereign", roles:[
-    ["tecom","Director","board","ns"],
+    ["tecom","Director","board","v"],
     ["dubaiholding","Group CEO","executive","v"]]},
   {id:"ismail_maf", n:"Ahmed Galal Ismail", t:2, p:74, s:"conglomerate", roles:[
     ["maf","Group CEO","executive","v"]]},
@@ -584,7 +590,7 @@ const PEOPLE = [
     ["execco","Secretary General","executive","v"],
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
   {id:"abdulla_belhoul", n:"Abdulla Belhoul", t:2, p:52, s:"comm", roles:[
-    ["tecom","Chief Executive Officer","executive","ns"],
+    ["tecom","Chief Executive Officer","executive","v"],
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
   {id:"wesam_lootah", n:"Wesam Lootah", t:2, p:52, s:"comm", roles:[
     ["dfm","Board Member","board","v"],
@@ -641,6 +647,8 @@ const PEOPLE = [
   {id:"robert_booth", n:"Robert Booth", t:2, p:52, s:"conglomerate", roles:[
     ["maf","Non-Executive Director","board","v"]]},
   {id:"khalid_al_malik", n:"Khalid Al Malik", t:2, p:60, s:"sovereign", roles:[
+    ["dubai_properties","Acting Group Chief Executive Officer","executive","ns"],
+    ["meraas","Chief Executive Officer - Dubai Holding Real Estate (Meraas brand)","executive","ns"],
     ["dubaiholding","Managing Director, Dubai Holding; CEO, Dubai Holding Real Estate","executive","v"]]},
   {id:"aldrin_sequeira", n:"Aldrin Sequeira", t:2, p:58, s:"sovereign", roles:[
     ["dubaiholding","Group Chief Internal Audit Officer","executive","v"]]},
@@ -943,6 +951,7 @@ const PEOPLE = [
   {id:"wassim_makarem", n:"Wassim Makarem", t:2, p:58, s:"consumer_disc", roles:[
     ["lst_talabat","Chief Retail Officer","executive","v"]]},
   {id:"khalifa_hassan_abdulla", n:"Khalifa Hassan Abdulla Al Daboos", t:2, p:60, s:"sovereign", roles:[
+    ["dae","Managing Director and Board Member","board","ns"],
     ["icd","Deputy Chief Executive Officer","executive","v"]]},
   {id:"ahmed_buti_saeed", n:"Ahmed Buti Saeed Al Muhairbi", t:2, p:52, s:"energy", roles:[
     ["enoc","Board Member","board","v"]]},
@@ -1033,6 +1042,7 @@ const PEOPLE = [
   {id:"faisal_juma_khalfan", n:"Faisal Juma Khalfan Belhoul", t:2, p:52, s:"gov", roles:[
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"buti_saeed_mohamed", n:"Buti Saeed Mohamed Al Ghandi", t:2, p:52, s:"gov", roles:[
+    ["al_ghandi","Managing Director","executive","ns"],
     ["cbd","Board Member","board","v"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"dr_amina_abdulwahed", n:"Dr. Amina Abdulwahed Hassan Al Rustamani", t:2, p:52, s:"gov", roles:[
@@ -1677,6 +1687,68 @@ const PEOPLE = [
     ["landmark","CEO of Citymax Hotels & Foodmark","executive","v"]]},
   {id:"arja_taaveniku", n:"Arja Taaveniku", t:2, p:60, s:"consumer_disc", roles:[
     ["landmark","CEO of Home Centre, Landmark Group","executive","v"]]},
+  {id:"mohammed_al_zarooni", n:"Mohammed Al Zarooni", t:2, p:52, s:"industry", roles:[
+    ["dae","Board Member","board","ns"]]},
+  {id:"wassim_younan", n:"Wassim Younan", t:2, p:52, s:"industry", roles:[
+    ["dae","Board Member","board","ns"]]},
+  {id:"firoz_tarapore", n:"Firoz Tarapore", t:2, p:60, s:"industry", roles:[
+    ["dae","Chief Executive Officer","executive","ns"]]},
+  {id:"david_houlihan", n:"David Houlihan", t:2, p:58, s:"industry", roles:[
+    ["dae","President - DAE Capital","executive","ns"]]},
+  {id:"sinan_kahya", n:"Sinan Kahya", t:2, p:58, s:"industry", roles:[
+    ["dae","Chief Financial Officer - DAE Capital","executive","ns"]]},
+  {id:"melissa_closa", n:"Melissa Closa", t:2, p:58, s:"industry", roles:[
+    ["dae","Chief Accounting Officer - DAE Capital","executive","ns"]]},
+  {id:"michael_dowling", n:"Michael Dowling", t:2, p:58, s:"industry", roles:[
+    ["dae","Chief Risk Officer - DAE Capital","executive","ns"]]},
+  {id:"jennifer_moulton", n:"Jennifer Moulton", t:2, p:46, s:"industry", roles:[
+    ["dae","Global Head of Sales - DAE Capital","executive","ns"]]},
+  {id:"lesley_jones", n:"Lesley Jones", t:2, p:58, s:"industry", roles:[
+    ["dae","Chief Legal Officer - DAE Capital","executive","ns"]]},
+  {id:"susan_bradford", n:"Susan Bradford", t:2, p:58, s:"industry", roles:[
+    ["dae","Chief Human Resources Officer - DAE Capital","executive","ns"]]},
+  {id:"dan_stone", n:"Dan Stone", t:2, p:58, s:"industry", roles:[
+    ["dae","Executive Vice President - DAE Capital","executive","ns"]]},
+  {id:"abdulla_busenad", n:"Abdulla Busenad", t:2, p:58, s:"gov", roles:[
+    ["dubai_customs","Director General","executive","ns"]]},
+  {id:"ramesh_cidambi", n:"Ramesh Cidambi", t:2, p:60, s:"consumer_disc", roles:[
+    ["dubai_duty_free","Managing Director","executive","ns"]]},
+  {id:"salah_tahlak", n:"Salah Tahlak", t:2, p:60, s:"consumer_disc", roles:[
+    ["dubai_duty_free","Deputy Managing Director","executive","ns"]]},
+  {id:"sinead_el_sibai", n:"Sinead El Sibai", t:2, p:58, s:"consumer_disc", roles:[
+    ["dubai_duty_free","Senior Vice President - Marketing","executive","ns"]]},
+  {id:"munthir_al_ali", n:"Munthir Al Ali", t:2, p:62, s:"realestate", roles:[
+    ["key_mavens","Chairman and Founder","board","ns"]]},
+  {id:"sharafuddin_sharaf", n:"Sharafuddin Sharaf", t:2, p:62, s:"conglomerate", roles:[
+    ["sharaf","Vice Chairman","board","ns"]]},
+  {id:"yousuf_h_sharaf", n:"Yousuf H. Sharaf", t:2, p:60, s:"conglomerate", roles:[
+    ["sharaf","Managing Director","executive","ns"]]},
+  {id:"v_jayaram", n:"V. Jayaram", t:2, p:60, s:"conglomerate", roles:[
+    ["sharaf","Managing Director and CEO - Sharaf Travel Group","executive","ns"]]},
+  {id:"vignesh_mani", n:"Vignesh Mani", t:2, p:60, s:"conglomerate", roles:[
+    ["sharaf","Chief Executive Officer - Suha Hospitality","executive","ns"]]},
+  {id:"mark_jenkins", n:"Mark Jenkins", t:2, p:60, s:"consumer_disc", roles:[
+    ["al_ghandi","Chief Executive Officer","executive","ns"]]},
+  {id:"philippe_zuber", n:"Philippe Zuber", t:2, p:60, s:"consumer_disc", roles:[
+    ["kerzner_intl","Chief Executive Officer","executive","ns"]]},
+  {id:"justin_robinson", n:"Justin Robinson", t:2, p:58, s:"consumer_disc", roles:[
+    ["kerzner_intl","Chief Financial Officer","executive","ns"]]},
+  {id:"celine_assimon", n:"Celine Assimon", t:2, p:58, s:"consumer_disc", roles:[
+    ["kerzner_intl","Chief Commercial Officer","executive","ns"]]},
+  {id:"paul_baker", n:"Paul Baker", t:2, p:58, s:"consumer_disc", roles:[
+    ["kerzner_intl","President - Atlantis","executive","ns"]]},
+  {id:"juan_aguilar", n:"Juan Aguilar", t:2, p:58, s:"consumer_disc", roles:[
+    ["kerzner_intl","President - Real Estate","executive","ns"]]},
+  {id:"hakan_ozkasikci", n:"Hakan Ozkasikci", t:2, p:58, s:"consumer_disc", roles:[
+    ["kerzner_intl","Executive Vice President - Design and Technical Services","executive","ns"]]},
+  {id:"melissa_salibi", n:"Melissa Salibi", t:2, p:58, s:"consumer_disc", roles:[
+    ["kerzner_intl","Chief Human Resources Officer","executive","ns"]]},
+  {id:"alexander_knigge", n:"Alexander Knigge", t:2, p:58, s:"consumer_disc", roles:[
+    ["kerzner_intl","Chief Digital and Information Officer","executive","ns"]]},
+  {id:"john_oddy", n:"John Oddy", t:2, p:58, s:"consumer_disc", roles:[
+    ["kerzner_intl","Chief Legal Officer","executive","ns"]]},
+  {id:"mattheos_georgiou", n:"Mattheos Georgiou", t:2, p:58, s:"consumer_disc", roles:[
+    ["kerzner_intl","Senior Vice President - SIRO and Rare Finds","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

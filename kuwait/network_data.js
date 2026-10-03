@@ -68,10 +68,10 @@ const INSTITUTIONS = [
   {id:"lst_aayan", n:"Aayan Leasing and Investment", s:"finance", t:2, p:50, short:"AAYAN"},
   {id:"lst_kre", n:"Kuwait Real Estate Co KSC", s:"realestate", t:2, p:58, short:"KRE"},
   {id:"lst_urc", n:"United Real Estate K.S.C", s:"realestate", t:2, p:61, short:"URC"},
-  {id:"lst_sre", n:"Salhia Real Estate", s:"realestate", t:2, p:50, short:"Salhia Real Estate"},
+  {id:"lst_sre", n:"Salhia Real Estate Company K.S.C.P.", s:"realestate", t:2, p:56, short:"Salhia Real Estate"},
   {id:"lst_altijaria", n:"The Commercial Real Estate Co K.S.C", s:"realestate", t:2, p:50, short:"ALTIJARIA"},
   {id:"lst_nind", n:"National Industries Group Holding", s:"finance", t:2, p:64, short:"NIND"},
-  {id:"lst_cable", n:"Gulf Cables and Electrical Industries Group Co. K.S.C.P", s:"industry", t:2, p:50, short:"CABLE"},
+  {id:"lst_cable", n:"Gulf Cables and Electrical Industries Group Co. K.S.C.P", s:"industry", t:2, p:54, short:"Gulf Cables"},
   {id:"lst_ship", n:"Heavy Engineering Industries and Shipbuilding", s:"industry", t:2, p:50, short:"SHIP"},
   {id:"lst_bpcc", n:"Boubyan Petrochemical Company K.S.C.P.", s:"materials", t:2, p:58, short:"Boubyan Petrochem"},
   {id:"lst_humansoft", n:"Human Soft Holding", s:"industry", t:2, p:58, short:"Human Soft Hldg"},
@@ -231,6 +231,10 @@ const INSTITUTIONS = [
   {id:"khafji_jo", n:"Al-Khafji Joint Operations", s:"energy", t:3, p:56, short:"Khafji JO"},
   {id:"wafra_jo", n:"Wafra Joint Operations", s:"energy", t:3, p:54, short:"Wafra JO"},
   {id:"kcci", n:"Kuwait Chamber of Commerce and Industry", s:"gov", t:2, p:58, short:"KCCI"},
+  {id:"kuwait_university", n:"Kuwait University", s:"education", t:2, p:64, short:"Kuwait University"},
+  {id:"auk", n:"American University of Kuwait", s:"education", t:3, p:54, short:"AUK"},
+  {id:"kisr", n:"Kuwait Institute for Scientific Research", s:"education", t:2, p:58, short:"KISR"},
+  {id:"al_qabas", n:"Al-Qabas (Dar Al Qabas Press Printing & Publishing)", s:"comm", t:3, p:52, short:"Al-Qabas"},
 ];
 
 const PEOPLE = [
@@ -1884,4 +1888,6 @@ const AKA = {
   enertech:["EnerTech"],
   khafji_jo:["KJO"],
   wafra_jo:["WJO"],
+  kuwait_university:["KU"],
+  al_qabas:["Dar Al Qabas Press Printing & Publishing"],
 };

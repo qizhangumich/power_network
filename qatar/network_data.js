@@ -219,6 +219,11 @@ const INSTITUTIONS = [
   {id:"qnb_capital", n:"QNB Capital", s:"finance", t:2, p:58, short:"QNB Capital"},
   {id:"teyseer", n:"Teyseer Group", s:"conglomerate", t:3, p:58, short:"Teyseer Group"},
   {id:"nbk", n:"Nasser Bin Khaled Holdings", s:"conglomerate", t:3, p:56, short:"NBK Group"},
+  {id:"weill_cornell_qatar", n:"Weill Cornell Medicine-Qatar", s:"education", t:2, p:58, short:"Weill Cornell Qatar"},
+  {id:"georgetown_qatar", n:"Georgetown University in Qatar", s:"education", t:3, p:56, short:"Georgetown Qatar"},
+  {id:"northwestern_qatar", n:"Northwestern University in Qatar", s:"education", t:3, p:54, short:"Northwestern Qatar"},
+  {id:"qatar_natl_library", n:"Qatar National Library", s:"education", t:2, p:56, short:"Qatar Natl Library"},
+  {id:"dar_al_sharq", n:"Dar Al Sharq", s:"comm", t:3, p:52, short:"Dar Al Sharq"},
 ];
 
 const PEOPLE = [
@@ -256,6 +261,7 @@ const PEOPLE = [
   {id:"khalifa_moi", n:"H.E. Sheikh Khalifa bin Hamad bin Khalifa Al Thani", t:0, p:85, s:"gov", roles:[
     ["moi_q","Minister of Interior","political","v"]]},
   {id:"bandar_qcb", n:"H.E. Sheikh Bandar bin Mohammed bin Saoud Al Thani", t:0, p:84, s:"finance", roles:[
+    ["qfma","Chairman, Board of Directors","board","v"],
     ["qcb","Governor","executive","v"]]},
   {id:"mohammed_bhq", n:"H.E. Sheikh Mohammed bin Hamad bin Qassim Al Thani", t:0, p:78, s:"gov", roles:[
     ["qfc","Chairman","board","v"],
@@ -337,7 +343,8 @@ const PEOPLE = [
     note:"Delivered the 2022 World Cup; the legacy body carries the network built around it."},
 
   // ===== TIER 2 — OPERATING EXECUTIVES =====
-  {id:"qnb_ceo", n:"Abdulla Mubarak Al-Khalifa", t:2, p:74, s:"finance", roles:[["qnb","Group CEO","executive","v"]]},
+  {id:"qnb_ceo", n:"Abdulla Mubarak Al-Khalifa", t:2, p:74, s:"finance", roles:[
+    ["qnb_capital","Chairman of the Board","board","v"],["qnb","Group CEO","executive","v"]]},
   {id:"hamad_alkhater", n:"Hamad Ali Al-Khater", t:2, p:80, s:"industry", roles:[
     ["hia","Group Chief Executive Officer, Qatar Airways Group (oversees MATAR/Hamad International Airport)","executive","v"],["qatarairways","Group CEO","executive","v"]],
     note:"Group CEO since 7 Dec 2025 (from HIA COO; ex-QatarEnergy), replacing Badr Al-Meer."},
@@ -426,6 +433,7 @@ const PEOPLE = [
     ["qnb","Board Member","board","v"],
     ["katarahosp","Board Member","board","v"]]},
   {id:"ramzi_mari", n:"Ramzi Mari", t:2, p:58, s:"finance", roles:[
+    ["qnb_capital","Board Member","board","v"],
     ["qnb","Group Chief Financial Officer","executive","v"]]},
   {id:"fatima_abdulla_al", n:"Fatima Abdulla Al-Suwaidi", t:2, p:58, s:"finance", roles:[
     ["qnb","Group Chief Risk Officer","executive","ns"]]},
@@ -588,6 +596,7 @@ const PEOPLE = [
   {id:"mubarak_rashid_al", n:"Mubarak Rashid Al-Sahuti", t:2, p:58, s:"consumer_stap", roles:[
     ["hassad","Chief Communication & Commercial Affairs Officer","executive","v"]]},
   {id:"khalifa_al_kuwari", n:"Khalifa Al-Kuwari", t:2, p:58, s:"consumer_stap", roles:[
+    ["gen_tax_authority","President","executive","v"],
     ["hassad","Director - Shared Services Affairs","executive","v"]]},
   {id:"imran_sami", n:"Imran Sami", t:2, p:58, s:"consumer_stap", roles:[
     ["hassad","General Counsel","executive","v"]]},
@@ -699,6 +708,7 @@ const PEOPLE = [
   {id:"hammad_ahmad_usmani", n:"Hammad Ahmad Usmani", t:2, p:58, s:"industry", roles:[
     ["milaha","Acting Chief Internal Auditor","executive","v"]]},
   {id:"h_e_sheikh_b_b_b_b_b", n:"H.E. Sheikh Ahmed bin Khalid bin Ahmed bin Sultan Al-Thani", t:2, p:58, s:"finance", roles:[
+    ["qfma","Vice-Chairman","board","v"],
     ["qcb","Deputy Governor","executive","v"]]},
   {id:"sheikh_mohammed_bin", n:"Sheikh Mohammed Bin Faisal Al Thani", t:2, p:62, s:"conglomerate", roles:[
     ["alfaisal","Vice Chairman of the Board","board","ns"],
@@ -1388,12 +1398,14 @@ const PEOPLE = [
   {id:"tarek_mahmoud_el", n:"Tarek Mahmoud El Sayed", t:2, p:52, s:"conglomerate", roles:[
     ["alfaisal","Director and Chief Operating Officer","board","ns"]]},
   {id:"saleh_bin_mohammed", n:"Saleh bin Mohammed Al Nabit", t:2, p:52, s:"finance", roles:[
+    ["psa_qatar","President","executive","v"],
     ["qcb","Board Member","board","ns"]]},
   {id:"tamy_bin_ahmed", n:"Tamy bin Ahmed bin Ali Al Binali", t:2, p:52, s:"finance", roles:[
     ["qcb","Board Member","board","ns"]]},
   {id:"khalid_nasser_al", n:"Khalid Nasser Al Khater", t:2, p:52, s:"finance", roles:[
+    ["qfma","Board Member","board","v"],
     ["qu","Vice President for Administration and Financial Affairs","executive","v"],
-    ["qcb","Board Member","board","ns"]]},
+    ["qcb","Board Member","board","v"]]},
   {id:"saad_bin_ebrahim", n:"Saad bin Ebrahim Al-Muhannadi", t:2, p:52, s:"education", roles:[
     ["qf","Lifetime Member","board","v"]]},
   {id:"sheikh_jassim_bin_b", n:"Sheikh Jassim bin Abdulaziz Al Thani", t:2, p:52, s:"education", roles:[
@@ -1781,6 +1793,40 @@ const PEOPLE = [
     ["masraf","Group Chief Executive Officer (incoming; QCB-approved","executive","ns"]]},
   {id:"omar_al_emadi", n:"Omar Al Emadi", t:2, p:60, s:"finance", roles:[
     ["masraf","Acting Group Chief Executive Officer (effective 1 Oct 2026; concurrent with Group Chief Operations and Administration Officer)","executive","v"]]},
+  {id:"yahya_saeed_al", n:"Yahya Saeed Al Jafali Al Nuaimi", t:2, p:52, s:"gov", roles:[
+    ["qfma","Board Member","board","v"]]},
+  {id:"khalid_bin_saud", n:"Khalid bin Saud bin Fahad Al Thani", t:2, p:52, s:"gov", roles:[
+    ["qfma","Board Member","board","v"]]},
+  {id:"michael_ryan", n:"Michael Ryan", t:2, p:52, s:"gov", roles:[
+    ["qfma","Board Member","board","v"]]},
+  {id:"ahmed_mohammed_issa", n:"Ahmed Mohammed Issa Al Hassan Al Mohannadi", t:2, p:52, s:"gov", roles:[
+    ["qfma","Board Member","board","v"]]},
+  {id:"yousef_al_neama", n:"Yousef Al Neama", t:2, p:52, s:"finance", roles:[
+    ["qnb_capital","Board Member","board","v"]]},
+  {id:"ali_rashid_al", n:"Ali Rashid Al-Mohannadi", t:2, p:52, s:"finance", roles:[
+    ["qnb_capital","Board Member","board","v"]]},
+  {id:"mira_al_attiyah", n:"Mira Al-Attiyah", t:2, p:60, s:"finance", roles:[
+    ["qnb_capital","Chief Executive Officer and Director of the Board","executive","v"]]},
+  {id:"khalifa_a_r", n:"Khalifa A.R. Al Mannai", t:2, p:62, s:"conglomerate", roles:[
+    ["teyseer","Chairman","board","v"]]},
+  {id:"sheikh_nawaf_nasser", n:"Sheikh Nawaf Nasser Bin Khaled Al-Thani", t:2, p:62, s:"conglomerate", roles:[
+    ["nbk","Chairman","board","v"]]},
+  {id:"hani_abdo", n:"Hani Abdo", t:2, p:60, s:"conglomerate", roles:[
+    ["nbk","Chief Executive Officer","executive","v"]]},
+  {id:"sheikh_nasser_nawaf", n:"Sheikh Nasser Nawaf Al-Thani", t:2, p:60, s:"conglomerate", roles:[
+    ["nbk","Deputy Chief Executive Officer","executive","v"]]},
+  {id:"volker_c_schmidt", n:"Volker C. Schmidt", t:2, p:58, s:"conglomerate", roles:[
+    ["nbk","Group Chief Financial Officer","executive","v"]]},
+  {id:"ghanim_bin_khalifa", n:"Ghanim bin Khalifa Al-Attiyah", t:2, p:58, s:"gov", roles:[
+    ["gen_tax_authority","Assistant President for Tax Affairs","executive","ns"]]},
+  {id:"sheikh_abdulrahman_bin_b", n:"Sheikh Abdulrahman bin Hamad bin Jassim bin Hamad Al Thani", t:2, p:58, s:"gov", roles:[
+    ["moc_qatar","Minister of Culture","executive","v"]]},
+  {id:"ghanem_bin_mubarak", n:"Ghanem bin Mubarak Al Ali", t:2, p:58, s:"gov", roles:[
+    ["moc_qatar","Undersecretary","executive","ns"]]},
+  {id:"mohamed_bin_faleh", n:"Mohamed bin Faleh Al-Hajri", t:2, p:58, s:"industry", roles:[
+    ["qcaa","President (In Charge of Managing QCAA)","executive","v"]]},
+  {id:"issa_bin_saad", n:"Issa bin Saad Al-Jafali Al-Nuaimi", t:2, p:58, s:"gov", roles:[
+    ["public_prosecution","Attorney General","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1902,6 +1948,10 @@ const OWNERSHIP = [
   ["rloc","qatofin","JV — Q-Chem II 53.31% / Qatofin 45.69% / QatarEnergy 1%; operates ethylene cracker since 2010","v"],
   ["q_chem","lst_mphc","JV — MPHC 49% / Chevron Phillips Chemical International Qatar Holdings 49% / QatarEnergy 2%","v"],
   ["qnb_capital","qnb","wholly-owned subsidiary (investment banking & advisory arm; est. 2008)","v"],
+  ["weill_cornell_qatar","qf","part of","ns"],
+  ["georgetown_qatar","qf","part of","ns"],
+  ["northwestern_qatar","qf","part of","ns"],
+  ["qatar_natl_library","qf","part of","ns"],
 ];
 
 const FAMILY = [
@@ -1985,4 +2035,9 @@ const AKA = {
   qe_renewables:["QERS"],
   teyseer:["Teyseer Holding"],
   nbk:["Nasser Bin Khaled and Sons Holdings","NBK Automobiles"],
+  weill_cornell_qatar:["WCM-Q"],
+  georgetown_qatar:["GU-Q"],
+  northwestern_qatar:["NU-Q"],
+  qatar_natl_library:["QNL"],
+  dar_al_sharq:["Al Sharq Media"],
 };
