@@ -891,7 +891,7 @@ const PEOPLE = [
   {id:"talib_al_marri", n:"Talib Al Marri", t:2, p:58, s:"gov", roles:[
     ["sharjah_awqaf","Director General","executive","ns"]]},
   {id:"salem_sultan_hamad", n:"Salem Sultan Hamad Al Owais Al Shamsi", t:2, p:58, s:"finance", roles:[
-    ["rak_finance_dept","Director General","executive","ns"]]},
+    ["rak_finance_dept","Director General","executive","v"]]},
   {id:"sorour_hamad_obaid", n:"Sorour Hamad Obaid Hamad Zouhari", t:2, p:62, s:"gov", roles:[
     ["fujairah_chamber","Chairman","board","v"]]},
   {id:"ahmed_hassen_alyamahi", n:"Ahmed Hassen Alyamahi", t:2, p:62, s:"gov", roles:[
@@ -1059,13 +1059,13 @@ const PEOPLE = [
   {id:"sheikh_dr_rashed", n:"Sheikh Dr. Rashed bin Hamad Al Sharqi", t:2, p:62, s:"energy", roles:[
     ["fujoilzone","Deputy Chairman","board","ns"]]},
   {id:"sheikh_mohammed_bin_b_b_b", n:"Sheikh Mohammed bin Kayed Al Qasimi", t:2, p:62, s:"gov", roles:[
-    ["rak_ded","Chairman","board","ns"]]},
+    ["rak_ded","Chairman","board","v"]]},
   {id:"abdelaziz_mohamed_aljarwan", n:"Abdelaziz Mohamed Aljarwan", t:2, p:58, s:"gov", roles:[
     ["srta","Director of Transport Affairs","executive","v"]]},
   {id:"sulaiman_abdelrahman_al", n:"Sulaiman Abdelrahman Al Hajri", t:2, p:58, s:"gov", roles:[
     ["srta","Director of the Authority for Road Affairs","executive","v"]]},
   {id:"sheikh_ahmed_bin_b_b", n:"Sheikh Ahmed bin Ibrahim bin Ahmed Al Mualla", t:2, p:58, s:"gov", roles:[
-    ["uaq_ded","Director-General","executive","ns"]]},
+    ["uaq_ded","Director-General","executive","v"]]},
   {id:"sheikh_dr_mohamed", n:"Sheikh Dr. Mohamed bin Saleh Mohamed Alsharqi", t:2, p:62, s:"conglomerate", roles:[
     ["fujairah_national","Vice Chairman","board","v"]]},
   {id:"sheikh_sultan_bin_b", n:"Sheikh Sultan bin Saleh Mohamed Alsharqi", t:2, p:62, s:"conglomerate", roles:[
