@@ -1,0 +1,5 @@
+# Manchester City not 'above the rules', says No 10 after backlash to Burnham remarks
+source: Modern Ghana
+url: https://news.google.com/rss/articles/CBMilgFBVV95cUxNQmRKaXFpRG5helNuOHQ4eHpPUTQ4R19hZDczNk5aQ2Nlb2ExRDBCb0lkUXAweHM2U1NfZ3I0YWJHSHFHVTdiZHVMV3hwMzVVeVVhZXVZRFFMR0ZfekxPOWFTQmJLdnFCSHV6Q2xNV1RPYy1IT0piM0FMRFJMdE5yM0JjT1RVSmQ1RFRyZ0lHbHZuLU40WFHSAZQBQVVfeXFMUFhNQnJnbmhhWExya2ZENWJPV2draklyanhtT1hFUEU2ZzgyM1IxN19UREt0QWU4M1k0Sk82RHpRMVJwak80UkY3eVVIdTFwRHg1ZHgxdDNPNklrY1BLY1Z5WnU3NEUxYXNTRm9FeG5XLU4yX09CcGZPeTg4Tzd1RWV5UkRGT3o4b1NmTDdrYk5wVl9FXw?oc=5
+
+Manchester City not 'above the rules', says No 10 after backlash to Burnham remarks    Modern Ghana
