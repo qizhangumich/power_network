@@ -1,0 +1,5 @@
+# Mubadala-owned GlobalFoundries Welcomes UAE Consul General Abdalla Shaheen to Fab 8 Facility
+source: وزارة الخارجية الإماراتية
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdkF5RTZiU21VcWZjamNnTWxBZ293aDhqVlR0aGo0T0VTamRCMmhiMnM4MWc4Y2NFUkNEMWpwOG52NVB5WWR5czBQOU9NVlJ3UVVXeEI5VWtvWVRyMWJ2NEVySmg0MVgweDRvQk1ybGxvaTlNeUQxX2VhUktIMWpYbHo1TEdGX0VYeEwxSG5XZEFxZ3JXQkppUS1DdXdwTnJzWFJuT19CRWtqOW9IdWJvcWhmYmk1dk12T0ItX084VkR6WGlDalR6UkN3Q3dxN0hqY19rcG9aMzZfNGM?oc=5
+
+Mubadala-owned GlobalFoundries Welcomes UAE Consul General Abdalla Shaheen to Fab 8 Facility    وزارة الخارجية الإماراتية

@@ -1,0 +1,5 @@
+# Manchester City breaches need tax implication answers, UK Parliament told
+source: Al Jazeera
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxNWERFbXAyYkxHeXVUZjRBMjQ1YkNWdkxTQ3hRaWRDRDlHZlpIaTVlNHZWRjgxZzRtX0hVeUdGa1REdi1KT2NRTWZ6ajlJU0VCc0N4QmtUcFBrLWthMEQtWTktS1lFa3NGZ0xSdkV2ejE3MlhicE9sRmtJVFlZaThHZlNQWWJXajIwZFJKUE9JTUZSMC1NVWk1QXVLZTVFZU1FYkxaSmlNbHhxZjFXZVNwNmFSblc4SUcxNlE?oc=5
+
+Manchester City breaches need tax implication answers, UK Parliament told    Al Jazeera
