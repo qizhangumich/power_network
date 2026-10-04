@@ -227,6 +227,7 @@ const PEOPLE = [
   {id:"habsi", n:"Sultan bin Salim Al Habsi", t:1, p:80, s:"finance", roles:[
     ["mof_om","Minister of Finance","political","v"]]},
   {id:"yousef_om", n:"Anwar bin Hilal bin Hamdoun Al Jabri", t:1, p:70, s:"gov", roles:[
+    ["utas","Chairman of the University Council","board","v"],
     ["moci_om","Minister of Trade, Industry & Investment Promotion","political","v"]],
     note:"Appointed under Royal Decree 17/2026 (13 Jan 2026), succeeding Qais bin Mohammed Al Yousef as minister."},
   {id:"qais_opaz", n:"Qais bin Mohammed Al Yousef", t:1, p:64, s:"gov", roles:[
@@ -265,6 +266,7 @@ const PEOPLE = [
 
   // ===== ADDED SEP 2026 — KEY MINISTRIES PREVIOUSLY MISSING FROM THE MAP =====
   {id:"alaufi_energy", n:"Eng. Salim bin Nasser bin Said Al Aufi", t:1, p:78, s:"energy", roles:[
+    ["tra_oman","Chairman of the Board of Directors","board","v"],
     ["apsr_oman","Chairman of the Board of Directors (Minister of Energy and Minerals)","board","v"],
     ["hydrom","Chairman of the Board of Directors","board","v"],
     ["spf","Chairman of the Board of Directors","board","v"],
@@ -923,6 +925,7 @@ const PEOPLE = [
     ["opaz","Board Member (Undersecretary of Investment Promotion)","board","ns"],
     ["moci_om","Undersecretary for Investment Promotion","executive","v"]]},
   {id:"ahmed_bin_hamed", n:"Ahmed bin Hamed Al Subhi", t:2, p:62, s:"utilities", roles:[
+    ["nama_pwp","Chairman of the Board of Directors","board","v"],
     ["be_ah","Chairman","board","v"],
     ["nama","Chairman of the Board of Directors","board","v"]]},
   {id:"saif_bin_hamed", n:"Saif bin Hamed Al Mahrouqi", t:2, p:62, s:"utilities", roles:[
@@ -1216,6 +1219,7 @@ const PEOPLE = [
   {id:"abdullah_al_ajmi", n:"Abdullah Al Ajmi", t:2, p:60, s:"energy", roles:[
     ["oq8","Chief Executive Officer","executive","ns"]]},
   {id:"hilal_al_kharusi", n:"Hilal Al Kharusi", t:2, p:62, s:"energy", roles:[
+    ["oq_trading","Board Member (Chief Executive – Commercial & Downstream, OQ)","board","v"],
     ["oq8","Chairman of the Board of Directors","board","ns"]]},
   {id:"shafi_bin_taleb", n:"Shafi bin Taleb Al Ajmi", t:2, p:62, s:"energy", roles:[
     ["oq8","Vice-Chairman of the Board of Directors","board","ns"]]},
@@ -1239,6 +1243,46 @@ const PEOPLE = [
     ["apsr_oman","Member of the Board","board","v"]]},
   {id:"shatha_bint_salim", n:"Shatha bint Salim Al Maskiry", t:2, p:52, s:"gov", roles:[
     ["apsr_oman","Member of the Board","board","v"]]},
+  {id:"fathiya_hamad_salim", n:"Fathiya Hamad Salim Al Izki", t:2, p:52, s:"gov", roles:[
+    ["tra_oman","Board Member","board","v"]]},
+  {id:"abdulmalik_abdullah_zahir", n:"Abdulmalik Abdullah Zahir Al Hinai", t:2, p:52, s:"gov", roles:[
+    ["tra_oman","Board Member","board","v"]]},
+  {id:"ali_amir_al", n:"Ali Amir Al Shidhani", t:2, p:52, s:"gov", roles:[
+    ["tra_oman","Board Member","board","v"]]},
+  {id:"juma_rashid_saif", n:"Juma Rashid Saif Al Jahwari", t:2, p:52, s:"gov", roles:[
+    ["tra_oman","Board Member","board","v"]]},
+  {id:"omar_salim_hamed", n:"Omar Salim Hamed Al Hashimi", t:2, p:52, s:"gov", roles:[
+    ["tra_oman","Board Member","board","v"]]},
+  {id:"salim_al_alawi", n:"Salim Al Alawi", t:2, p:60, s:"tech", roles:[
+    ["sct","Chief Executive Officer","executive","ns"]]},
+  {id:"said_hamad_al", n:"Said Hamad Al Rubai'e", t:2, p:58, s:"education", roles:[
+    ["utas","Vice Chancellor","executive","v"]]},
+  {id:"ali_amur_al", n:"Ali Amur Al Shidhani", t:2, p:52, s:"education", roles:[
+    ["utas","University Council Member (Undersecretary)","board","v"]]},
+  {id:"saif_abdullah_al", n:"Saif Abdullah Al Hiddabi", t:2, p:52, s:"education", roles:[
+    ["utas","University Council Member (Undersecretary)","board","v"]]},
+  {id:"wail_al_jamali", n:"Wail Al Jamali", t:2, p:60, s:"energy", roles:[
+    ["oq_trading","Chief Executive Officer","executive","v"]]},
+  {id:"graham_ford", n:"Graham Ford", t:2, p:52, s:"energy", roles:[
+    ["oq_trading","Independent Director","board","v"]]},
+  {id:"fatma_bint_hamed", n:"Fatma bint Hamed Al Rashdi", t:2, p:62, s:"utilities", roles:[
+    ["nama_pwp","Deputy Chairperson of the Board of Directors","board","v"]]},
+  {id:"faiza_bint_mohamed", n:"Faiza bint Mohamed Al Harthy", t:2, p:52, s:"utilities", roles:[
+    ["nama_pwp","Board Member","board","v"]]},
+  {id:"ahmed_bin_salem", n:"Ahmed bin Salem Al Abri", t:2, p:60, s:"utilities", roles:[
+    ["nama_pwp","Chief Executive Officer","executive","v"]]},
+  {id:"abdullah_alsawafi", n:"Abdullah Alsawafi", t:2, p:58, s:"utilities", roles:[
+    ["nama_pwp","Chief Operating Officer","executive","v"]]},
+  {id:"rashid_bin_salim", n:"Rashid bin Salim Al Masroori", t:2, p:62, s:"consumer_stap", roles:[
+    ["mazoon_dairy","Chairman","board","v"]]},
+  {id:"ali_al_buali", n:"Ali Al Buali", t:2, p:60, s:"consumer_stap", roles:[
+    ["mazoon_dairy","Chief Executive Officer","executive","ns"]]},
+  {id:"majed_bin_amer", n:"Majed bin Amer Al Kharoosi", t:2, p:60, s:"comm", roles:[
+    ["oman_tower","Chief Executive Officer / Managing Director","executive","ns"]]},
+  {id:"sawsan_dawood_al", n:"Sawsan Dawood Al Lawati", t:2, p:58, s:"gov", roles:[
+    ["ncsi","Director General of the General Directorate of Information","executive","v"]]},
+  {id:"yousuf_bin_mohammed", n:"Yousuf bin Mohammed bin Thani Al Riyami", t:2, p:58, s:"gov", roles:[
+    ["ncsi","Director General of the General Directorate of National Statistics","executive","v"]]},
 ];
 
 const OWNERSHIP = [

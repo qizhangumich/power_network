@@ -133,6 +133,15 @@ const INSTITUTIONS = [
   {id:"fujairah_finance_dept", n:"Fujairah Finance Department", s:"finance", t:2, p:54, short:"Fujairah Finance"},
   {id:"rakmhsu", n:"RAK Medical and Health Sciences University", s:"education", t:3, p:52, short:"RAKMHSU"},
   {id:"univ_hosp_sharjah", n:"University Hospital Sharjah", s:"health", t:3, p:52, short:"Univ Hosp Sharjah"},
+  {id:"air_arabia_maroc", n:"Air Arabia Maroc", s:"industry", t:3, p:58, short:"Air Arabia Maroc"},
+  {id:"air_arabia_egypt", n:"Air Arabia Egypt", s:"industry", t:3, p:56, short:"Air Arabia Egypt"},
+  {id:"fly_jinnah", n:"Fly Jinnah", s:"industry", t:3, p:54, short:"Fly Jinnah"},
+  {id:"air_arabia_holidays", n:"Air Arabia Holidays", s:"consumer_disc", t:3, p:52, short:"Air Arabia Holidays"},
+  {id:"rak_porcelain", n:"RAK Porcelain", s:"materials", t:3, p:56, short:"RAK Porcelain"},
+  {id:"snh", n:"Sharjah National Hotels", s:"consumer_disc", t:3, p:54, short:"SNH"},
+  {id:"asas_real_estate", n:"ASAS Real Estate", s:"realestate", t:3, p:52, short:"ASAS Real Estate"},
+  {id:"planet_pharmacies", n:"Planet Pharmacies", s:"health", t:3, p:56, short:"Planet Pharmacies"},
+  {id:"menacool", n:"Mena Cool Transportation", s:"industry", t:3, p:52, short:"MenaCool"},
 ];
 
 const PEOPLE = [
@@ -1081,6 +1090,12 @@ const PEOPLE = [
     ["sharjah_broadcasting","Director-General","executive","ns"]]},
   {id:"salem_ali_al_b", n:"Salem Ali Al Ghaithi", t:2, p:58, s:"comm", roles:[
     ["sharjah_broadcasting","Director","executive","ns"]]},
+  {id:"ashok_goel", n:"Ashok Goel", t:2, p:62, s:"energy", roles:[
+    ["gulf_petrochem","Chairman","board","ns"]]},
+  {id:"sudhir_goyel", n:"Sudhir Goyel", t:2, p:60, s:"energy", roles:[
+    ["gulf_petrochem","Managing Director","executive","ns"]]},
+  {id:"nishant_dighe", n:"Nishant Dighe", t:2, p:60, s:"energy", roles:[
+    ["rak_gas","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1146,6 +1161,15 @@ const OWNERSHIP = [
   ["fujairah_environment","fujgov","subsidiary of","ns"],
   ["ajman_dof","ajmgov","subsidiary of","v"],
   ["fujairah_finance_dept","fujgov","subsidiary of","ns"],
+  ["air_arabia_maroc","airarabia","subsidiary","v"],
+  ["air_arabia_egypt","airarabia","subsidiary","v"],
+  ["fly_jinnah","airarabia","joint venture","v"],
+  ["air_arabia_holidays","airarabia","subsidiary","v"],
+  ["rak_porcelain","rakceramics","subsidiary","v"],
+  ["snh","sharjah_islamic_bk","subsidiary","v"],
+  ["asas_real_estate","sharjah_islamic_bk","subsidiary","v"],
+  ["planet_pharmacies","julphar","subsidiary","v"],
+  ["menacool","julphar","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -1233,4 +1257,7 @@ const AKA = {
   fujairah_culture_media:["FCMA"],
   fujairah_environment:["FEA"],
   univ_hosp_sharjah:["UHS"],
+  rak_porcelain:["RAK Porcelain LLC"],
+  asas_real_estate:["ASAS Real Estate LLC SP"],
+  menacool:["Mena Cool Transportation FZE"],
 };

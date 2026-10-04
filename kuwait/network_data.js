@@ -1181,6 +1181,7 @@ const PEOPLE = [
   {id:"hashim_gillani", n:"Hashim Gillani", t:2, p:58, s:"conglomerate", roles:[
     ["alghanim_sons_grp","President - Industrial Group and Corporate Business Development","executive","v"]]},
   {id:"sabeeh_abdulaziz_al", n:"Sabeeh Abdulaziz Al-Mukhaizeem", t:2, p:62, s:"gov", roles:[
+    ["mew_kuwait","Minister of Electricity, Water and Renewable Energy","executive","v"],
     ["kdipa","Chairman of the Board of Directors","board","v"]]},
   {id:"muhannad_al_sane", n:"Muhannad Al-Sane", t:2, p:52, s:"gov", roles:[
     ["kdipa","Board Member","board","v"]]},
@@ -1684,6 +1685,44 @@ const PEOPLE = [
     ["kuwait_university","Vice President for Research","executive","ns"]]},
   {id:"nourah_al_suwaih", n:"Nourah Al-Suwaih", t:2, p:58, s:"education", roles:[
     ["kuwait_university","Vice President for Health Sciences","executive","ns"]]},
+  {id:"anwar_al_rashed", n:"Anwar Al-Rashed", t:2, p:58, s:"health", roles:[
+    ["amiri_hospital","Deputy Director of Al-Amiri Hospital","executive","ns"]]},
+  {id:"mohammed_hussain_al", n:"Mohammed Hussain Al-Feili", t:2, p:62, s:"gov", roles:[
+    ["kcci","Chairman, Transitional Committee exercising the powers of the Board of Directors","board","v"]]},
+  {id:"faisal_salman_al", n:"Faisal Salman Al-Humaidan", t:2, p:58, s:"education", roles:[
+    ["kisr","Director General","executive","v"]]},
+  {id:"fergus_healy", n:"Fergus Healy", t:2, p:60, s:"finance", roles:[
+    ["wafra","Interim Chief Executive Officer and Chief Operating Officer","executive","v"]]},
+  {id:"adel_a_alderbas", n:"Adel A. Alderbas", t:2, p:58, s:"finance", roles:[
+    ["wafra","Chief Investment Officer","executive","v"]]},
+  {id:"david_w_hamm", n:"David W. Hamm", t:2, p:60, s:"finance", roles:[
+    ["wafra","Senior Managing Director, Head of Real Estate","executive","v"]]},
+  {id:"richard_safranek", n:"Richard Safranek", t:2, p:60, s:"finance", roles:[
+    ["wafra","Senior Managing Director, Head of Executive, Advisory & Research","executive","v"]]},
+  {id:"lauren_rich", n:"Lauren Rich", t:2, p:60, s:"finance", roles:[
+    ["wafra","Managing Director, Co-Head of Strategic Partnerships","executive","v"]]},
+  {id:"edward_tsai", n:"Edward Tsai", t:2, p:60, s:"finance", roles:[
+    ["wafra","Managing Director","executive","v"]]},
+  {id:"abdulamir_qasem_jafar", n:"Abdulamir Qasem Jafar Ali", t:2, p:52, s:"realestate", roles:[
+    ["lst_urc","Independent Board Member","board","v"]]},
+  {id:"faisal_a_s", n:"Faisal A.S. Al-Abdul Razzaq", t:2, p:52, s:"realestate", roles:[
+    ["lst_urc","Independent Board Member","board","v"]]},
+  {id:"fadel_al_sabah", n:"Fadel Al-Sabah", t:2, p:52, s:"realestate", roles:[
+    ["lst_urc","Board Member","board","v"]]},
+  {id:"santhosh_kumar_unnikrishnan", n:"Santhosh Kumar Unnikrishnan", t:2, p:58, s:"realestate", roles:[
+    ["lst_urc","Group Chief Financial Officer","executive","v"]]},
+  {id:"manal_mohammad_al", n:"Manal Mohammad Al-Osfour", t:2, p:58, s:"gov", roles:[
+    ["kwmun","Director General of Kuwait Municipality (Acting)","executive","v"]]},
+  {id:"mishal_fahad_al", n:"Mishal Fahad Al-Azmi", t:2, p:58, s:"gov", roles:[
+    ["kwmun","Deputy Director General for Services Sector Affairs (Acting)","executive","v"]]},
+  {id:"adel_y_alghanim", n:"Adel Y. Alghanim", t:2, p:62, s:"consumer_disc", roles:[
+    ["ali_alghanim_sons","Group Chairman","board","v"]]},
+  {id:"marzooq_adel_alghanim", n:"Marzooq Adel Alghanim", t:2, p:58, s:"consumer_disc", roles:[
+    ["ali_alghanim_sons","Group President","executive","v"]]},
+  {id:"nasser_adel_alghanim", n:"Nasser Adel Alghanim", t:2, p:58, s:"consumer_disc", roles:[
+    ["ali_alghanim_sons","Group Vice President","executive","v"]]},
+  {id:"ahmed_adel_alghanim", n:"Ahmed Adel Alghanim", t:2, p:58, s:"consumer_disc", roles:[
+    ["ali_alghanim_sons","Group Vice President","executive","v"]]},
 ];
 
 const OWNERSHIP = [

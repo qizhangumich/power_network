@@ -132,7 +132,7 @@ const INSTITUTIONS = [
   {id:"lst_mers", n:"Al Meera Consumer Goods Company Q.P.S.C.", s:"consumer_stap", t:2, p:57, short:"Al Meera"},
   {id:"lst_qgri", n:"Qatar General Insurance & Reinsurance Company Q.P.S.C.", s:"finance", t:2, p:50, short:"QGRI"},
   {id:"lst_meza", n:"MEEZA QSTP-LLC", s:"tech", t:2, p:50, short:"MEEZA QSTP-LLC"},
-  {id:"lst_qigd", n:"Qatari Investors Group Q.P.S.C.", s:"conglomerate", t:2, p:50, short:"QIGD"},
+  {id:"lst_qigd", n:"Qatari Investors Group Q.P.S.C.", s:"conglomerate", t:2, p:58, short:"QIGD"},
   {id:"lst_qncd", n:"Qatar National Cement Company Q.P.S.C.", s:"materials", t:2, p:60, short:"QNCD"},
   {id:"lst_mcgs", n:"Medicare Group Q.P.S.C.", s:"health", t:2, p:50, short:"MCGS"},
   {id:"lst_dohi", n:"Doha Insurance Group Q.P.S.C.", s:"finance", t:2, p:50, short:"DOHI"},
@@ -229,6 +229,7 @@ const INSTITUTIONS = [
 const PEOPLE = [
   // ===== TIER 0 — RULING CORE (Al Thani) =====
   {id:"tamim", n:"H.H. Sheikh Tamim bin Hamad Al Thani", t:0, p:100, s:"gov", roles:[
+    ["tamim_bin_hamad","Chairman of the Board of Trustees (ex officio","board","ns"],
     ["qoc","Chairman","board","v"],
     ["qgov","Emir of the State of Qatar","political","v"]],
     note:"Apex of the network. Ultimate authority over Qatar's energy wealth, sovereign capital and foreign policy."},
@@ -264,6 +265,7 @@ const PEOPLE = [
     ["qfma","Chairman, Board of Directors","board","v"],
     ["qcb","Governor","executive","v"]]},
   {id:"mohammed_bhq", n:"H.E. Sheikh Mohammed bin Hamad bin Qassim Al Thani", t:0, p:78, s:"gov", roles:[
+    ["qse","Board Member","board","v"],
     ["qfc","Chairman","board","v"],
     ["qf","Member","board","v"],
     ["moci","Minister of Commerce & Industry","political","v"]]},
@@ -271,6 +273,7 @@ const PEOPLE = [
     ["qatar_media","Chairman of the Board of Directors","board","ns"],
     ["aljazeera","Chairman","board","v"]]},
   {id:"faisal_bt", n:"H.E. Sheikh Faisal bin Thani Al Thani", t:0, p:78, s:"comm", roles:[
+    ["qse","Chairman","board","v"],
     ["doha_investment","Vice Chairman & Managing Director, Doha Investment (also Minister of Commerce and Industry)","executive","v"],
     ["ooredoo","Chairman","board","v"],
     ["lst_qfbq","Chairman","board","v"],
@@ -329,6 +332,7 @@ const PEOPLE = [
     ["qfz","Chairman (until Apr 2025)","government","v","former:until Apr 2025"]],
     note:"Former QIA CEO. QFZ's board was fully reconstituted by Amiri Decision No. 13/2025 (Apr 2025) with Sheikh Faisal bin Thani bin Faisal Al-Thani as the new Chairperson."},
   {id:"sowaidi", n:"Mohammed Saif Al Sowaidi", t:1, p:86, s:"sovereign", roles:[
+    ["qse","Vice Chairman","board","v"],
     ["qia","Chief Executive Officer","executive","v"],
     ["katarahosp","Chairman","board","v"]]},
   {id:"khelaifi", n:"Nasser Al-Khelaifi", t:1, p:86, s:"comm", roles:[
@@ -344,6 +348,7 @@ const PEOPLE = [
 
   // ===== TIER 2 — OPERATING EXECUTIVES =====
   {id:"qnb_ceo", n:"Abdulla Mubarak Al-Khalifa", t:2, p:74, s:"finance", roles:[
+    ["qse","Board Member","board","v"],
     ["qnb_capital","Chairman of the Board","board","v"],["qnb","Group CEO","executive","v"]]},
   {id:"hamad_alkhater", n:"Hamad Ali Al-Khater", t:2, p:80, s:"industry", roles:[
     ["hia","Group Chief Executive Officer, Qatar Airways Group (oversees MATAR/Hamad International Airport)","executive","v"],["qatarairways","Group CEO","executive","v"]],
@@ -473,6 +478,7 @@ const PEOPLE = [
   {id:"ahmed_helal_al", n:"Ahmed Helal Al-Mohannadi", t:2, p:52, s:"materials", roles:[
     ["industriesqatar","Board Member","board","v"]]},
   {id:"ahmed_bin_ali", n:"Ahmed Bin Ali Al-Hammadi", t:2, p:52, s:"materials", roles:[
+    ["qse","Board Member","board","v"],
     ["udc","Chairman","board","v"],
     ["industriesqatar","Board Member","board","v"]]},
   {id:"nasser_marafih", n:"Nasser Marafih", t:2, p:62, s:"comm", roles:[
@@ -774,18 +780,21 @@ const PEOPLE = [
   {id:"julian_marcolini", n:"Julian Marcolini", t:2, p:58, s:"consumer_stap", roles:[
     ["baladna","Chief Operations Officer","executive","v"]]},
   {id:"h_e_abdulla", n:"H.E. Abdulla Bin Nasser Al Misnad", t:2, p:62, s:"comm", roles:[
+    ["lst_qigd","Chairman","board","v"],
     ["vodafoneqatar","Chairman of the Board of Directors","board","v"]]},
   {id:"h_e_akbar", n:"H.E. Akbar Al Baker", t:2, p:62, s:"comm", roles:[
     ["qfz","Board Member","board","v"],
     ["qfc","Board Member","board","v"],
     ["vodafoneqatar","Vice-Chairman of the Board of Directors","board","v"]]},
   {id:"rashid_fahad_al", n:"Rashid Fahad Al-Naimi", t:2, p:60, s:"comm", roles:[
+    ["lst_qigd","Board Member","board","v"],
     ["vodafoneqatar","Board Member and Managing Director","board","v"]]},
   {id:"h_e_sheikh_b_b_b_b_b_b", n:"H.E. Sheikh Saoud Abdul Rahman Hassan Al-Thani", t:2, p:52, s:"comm", roles:[
     ["vodafoneqatar","Board Member","board","v"]]},
   {id:"sheikh_mubarak_thani", n:"Sheikh Mubarak Thani A M Al-Thani", t:2, p:52, s:"comm", roles:[
     ["vodafoneqatar","Board Member","board","v"]]},
   {id:"nasser_abdulla_al", n:"Nasser Abdulla Al Misnad", t:2, p:52, s:"comm", roles:[
+    ["lst_qigd","Board Member","board","v"],
     ["vodafoneqatar","Board Member","board","v"]]},
   {id:"alnowar_al_khulaifi", n:"Alnowar Al-Khulaifi", t:2, p:52, s:"comm", roles:[
     ["vodafoneqatar","Board Member","board","v"]]},
@@ -950,6 +959,7 @@ const PEOPLE = [
   {id:"tamim_bin_fahad", n:"Tamim Bin Fahad Al-Thani", t:2, p:52, s:"materials", roles:[
     ["lst_qncd","Board Member","board","v"]]},
   {id:"khaled_sultan_k", n:"Khaled Sultan K Kh Al-Rabban", t:2, p:60, s:"materials", roles:[
+    ["qse","Board Member","board","v"],
     ["lst_qncd","Managing Director","executive","v"]]},
   {id:"abdulrahman_abdullah_al", n:"Abdulrahman Abdullah Al-Ansari", t:2, p:52, s:"materials", roles:[
     ["barwa","Board Member","board","v"],
@@ -1835,6 +1845,24 @@ const PEOPLE = [
     ["qatar_natl_library","Operations Director","executive","v"]]},
   {id:"javaid_i_sheikh", n:"Javaid I. Sheikh", t:2, p:58, s:"education", roles:[
     ["weill_cornell_qatar","Dean","executive","v"]]},
+  {id:"houssam_el_kurdi", n:"Houssam El Kurdi", t:2, p:60, s:"conglomerate", roles:[
+    ["lst_qigd","Chief Executive Officer","executive","v"]]},
+  {id:"ali_bin_mohammed_b", n:"Ali bin Mohammed bin Ali Al Ali", t:2, p:58, s:"gov", roles:[
+    ["momun_q","Undersecretary of the Ministry of Municipality","executive","ns"]]},
+  {id:"sheikha_najwa_bint", n:"Sheikha Najwa bint Abdulrahman bin Nasser Al Thani", t:2, p:58, s:"gov", roles:[
+    ["molsa_q","Undersecretary of the Ministry of Labour","executive","ns"]]},
+  {id:"andre_went", n:"Andre Went", t:2, p:52, s:"finance", roles:[
+    ["qse","Board Member","board","v"]]},
+  {id:"waleed_jassim_al", n:"Waleed Jassim Al-Musallam", t:2, p:52, s:"finance", roles:[
+    ["qse","Board Member","board","v"]]},
+  {id:"mohammed_khalid_al", n:"Mohammed Khalid Al-Ghanim", t:2, p:52, s:"finance", roles:[
+    ["qse","Board Member","board","v"]]},
+  {id:"sheikh_mohammed_bin_b_b_b", n:"Sheikh Mohammed bin Jassim Al Thani", t:2, p:58, s:"finance", roles:[
+    ["qse","Board Member (CEO of Edaa","executive","ns"]]},
+  {id:"abdulaziz_bin_ahmad", n:"Abdulaziz bin Ahmad Al Mahmoud", t:2, p:58, s:"gov", roles:[
+    ["moecc_q","Undersecretary of the Ministry of Environment and Climate Change","executive","v"]]},
+  {id:"sheikh_khalid_bin_b_b", n:"Sheikh Khalid bin Mohammed bin Ghanem Al Thani", t:2, p:58, s:"gov", roles:[
+    ["qatar_awqaf_ministry","Undersecretary of the Ministry of Awqaf and Islamic Affairs","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
