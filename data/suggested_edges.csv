@@ -1,5 +1,5 @@
 ﻿entity_a,entity_a_name,entity_b,entity_b_name,co_mentions,sample_headlines
-cfg,CFG,etihad,Etihad,34,Etihad's 2015 statement casts doubt on Man City's appeal strategy | Etihad Airways seeks legal advice after Premier League's Man City findings | Etihad considers legal action
+cfg,CFG,etihad,Etihad,35,Etihad's 2015 statement casts doubt on Man City's appeal strategy | Manchester City caught in an Etihad contradiction | Etihad Airways seeks legal advice after Premier League's Man City findings
 adports,AD Ports,etihadrail,Etihad Rail,19,"AD Ports Group and Etihad Rail launch integrated rail service, connecting Fujair | Etihad Rail and AD Ports launch new direct rail service | Etihad Rail and AD Ports Group Launch Integrated Rail Service, Connecting Fujair"
 cfg,CFG,thenational,The National,14,What should happen next in the case between the Premier League and Manchester Ci | Manchester City lodge appeal against Premier League commission decision | Pep Guardiola message to Manchester City and their fans: 'We will get through th
 aldar,Aldar,masdar_city,Masdar City,14,Aldar and Mubadala acquires Masdar City Square | Aldar Properties and Mubadala Acquired Masdar City Square | Aldar and Mubadala acquire Masdar City Square
@@ -22,6 +22,7 @@ adnocgas,ADNOC Gas,emirates_policy_ctr,Emirates Policy Ctr,2,MEED EXCLUSIVE Adno
 adnocgas,ADNOC Gas,ewec,EWEC,2,MEED EXCLUSIVE Adnoc Gas awards EPC contract for Ewec sales pipeline | Adnoc Gas awards EPC contract for Ewec sales pipeline
 emirates_policy_ctr,Emirates Policy Ctr,ewec,EWEC,2,MEED EXCLUSIVE Adnoc Gas awards EPC contract for Ewec sales pipeline | Adnoc Gas awards EPC contract for Ewec sales pipeline
 microsoft,Microsoft,thenational,The National,2,"UAE among top 12 targets for cyber threats, says Microsoft | Microsoft announces technology framework with UAE, Kuwait, Qatar and Saudi Arabi"
+khaled,H.H. Sheikh Khaled bin Mohamed bin Zayed Al Nahyan,thenational,The National,2,The President of Ecuador Daniel Noboa awarded His Highness Sheikh Khaled bin Moh | Sheikh Khaled bin Mohamed meets Russia's Putin as Brics summit wraps up in New D
 adnoc,ADNOC,burjeel,Burjeel,2,ADNOC And Burjeel Holdings Expand Healthcare Services Across Al Dhafra Region | ADNOC expands Healthcare services in Partnership with Burjeel Holdings
 adssc,ADSSC,thenational,The National,2,"Etihad Rail Abu Dhabi guide: How to reach Yas Island, Saadiyat and other major a | My Abu Dhabi Rent: Tenant loves neighbour-free Dh155,000 Reem Island apartment h"
 seha,SEHA,tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,2,SEHA’s Sheikh Tahnoon Bin Mohammed Medical City launches Adult Cardiac Surgery a | SEHA’s Sheikh Tahnoon Bin Mohammed Medical City saves trauma patient through rap

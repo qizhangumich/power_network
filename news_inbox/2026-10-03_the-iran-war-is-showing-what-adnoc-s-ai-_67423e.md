@@ -1,0 +1,5 @@
+# The Iran War Is Showing What ADNOC's AI Can Really Do
+source: Crude Oil Prices Today | OilPrice.com
+url: https://news.google.com/rss/articles/CBMiogFBVV95cUxOM2VzX2NoSHdJaFhBaGJSdUc4LVdyUXA0ZnV2QXlfMkVxMzBMLUlkT1J5N09YMXhybWtNRlpHVVJFR0Z1QlFSLW95ZElpZ2lYUnJVVm04NWpNR0U4X2RVcVlfSmU4b1VWSjFMaDdQYXZSdnY1YWhXQi0tWGU3MlJ4RUJ0aWtpa3diRVgxdTJKTWIzZUpfbl9pcUFxSS1pa01ZRlHSAacBQVVfeXFMUEtKYV80aThsSTJGWFVJQTZXbjNHZDF6bktqMk5DUGw2TlNZSjhlalNINzVvc3NscUY1V2xNYURyajVxdy1oczByMFVqdlEtZjQzMEJyY0xLcUFZOXVWUy1nWjVDaU10cmVLZ0ozYVp1WHRPUVhSNUJsWkxHbWQ4Xy1GdnRoYW0tdEdxWktHU2d5eXI1YndKNlJlcXU0dlNXeTVGUm9JZXM?oc=5
+
+The Iran War Is Showing What ADNOC's AI Can Really Do    Crude Oil Prices Today | OilPrice.com
