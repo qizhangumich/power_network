@@ -1,0 +1,5 @@
+# Adnoc signs Thai LNG deal after Iran war disrupts Gulf supply
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOR0tPNlc0aC04dk1aUk51c3l0VUZkXzk0U0NJLWN4ZFdyVG8tU200el9yaXFBemc3aGwzUnpteUsyVjZBZERaTWxRMU5oN3BBZGdwY3NlSkJfeURFTjgwRWtPeWhqWTZrbDQxOXAtZERMcmpHSm5xSVVuQjNwNnZ6Njd5WWxvd3dwUVJLQUV5bm1uZVE0czdJemZDS3N4RzZoQk9oSG5TNFU4ZVJZbHpQVWdYcWNMYmtSTy1obFhn?oc=5
+
+Adnoc signs Thai LNG deal after Iran war disrupts Gulf supply    thenationalnews.com

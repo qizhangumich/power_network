@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed issues resolution appointing Dr. Mohamed Abdalla Al Zaabi as Undersecretary of Department of Culture and Tourism
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMiogJBVV95cUxNZ0V0bXNqbGZfejBudjl3MUhFMHdmRXdLQVNnVUNtTE91NFpiMGFoMzZ2QWl5NHl0UXNTZ3BLTExNQ3JTV01rNS1neDZhcHNKeU8zZGNNaFg4QWJQamNmbTR1N3lLcDJ5RjhGNXBYb2dWMV95bFVhZ2hUOWRKZkFKcEFJWHdYNzNUekt4SXloZTYtZzRCWFRDaGRoNVd0UERDYlVNX1FvOUN5ajdicXBWSzBvcTlvRUZwRlhncVFwbDktd19HVWtLNHFPVjZUVUwxdVp5dnYtTE5GQk5KaWxCQ1M5aC13QlVBcGdTMENvNTVfeE5QaFZQdGViZW5tZFdRWmE1VDAwT0JRVE1aN1hwTFJfU1FVWTJRVzRQTUNHcklWQQ?oc=5
+
+Khaled bin Mohamed bin Zayed issues resolution appointing Dr. Mohamed Abdalla Al Zaabi as Undersecretary of Department of Culture and Tourism    مكتب أبوظبي الإعلامي

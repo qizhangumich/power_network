@@ -1,0 +1,5 @@
+# AD Ports Group completes $835 million acquisition of Brazil's CLI terminals
+source: Fresh Plaza
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxNajBpTVJKRkJTSk1UZGtXUC10anNYcXZTU3hLR3dhSlNlTmRZU3pYbEo3X2dpbmhZQ3lhRVhTVmRUNVJaYkt4N09oa20tb24xWndTTGo2T1pqVjI1WEJuU2lyRDI1a0lpS25BUnVfR2ZlVk1NTXVBcjlmRU1JWlN1SEVYVUsxYjNsWVFRQXd4R3ZhcW9LZDJuekd4SDBfZi1Ka1hHdk1nLTA3aXNrREwxamUtNzN2Zm9EdUtwOXVFdVlZYWdfSGNGamVyR1Y?oc=5
+
+AD Ports Group completes $835 million acquisition of Brazil's CLI terminals    Fresh Plaza

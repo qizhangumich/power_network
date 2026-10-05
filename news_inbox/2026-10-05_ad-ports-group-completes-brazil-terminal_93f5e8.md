@@ -1,0 +1,5 @@
+# AD Ports Group completes Brazil terminal operator acquisition
+source: Seatrade Maritime News
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxPNEUxQjV4NkExZlVlTU5KQ3B1bTJUM1hKaVJVd2p6M1FiaDJLSFByYUwxY092MVFLX1R0MWRDOVhyM1dESVpmQXRLUllZYkVOcW1LZXJENXNpeENfNnpSeVEwUC1ONkppTGstTGpiM2hOQ2oyZWNIbW4ySThEYV9iZDI3NnRZdmJ0SVZmcWxoUG1Ha1pKYTNiTDdhMjl4TWpLTWtJTFRlbkhscWJwM0hOWg?oc=5
+
+AD Ports Group completes Brazil terminal operator acquisition    Seatrade Maritime News

@@ -1,0 +1,5 @@
+# ADNOC Secures 2 Million Tonnes LNG Deal with Thailand’s Gulf Group
+source: ChemAnalyst
+url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZnBiTVRpZjFUY1RzZlZ1U1VtZzU2YldHSlI4T1pNY1MzOXZYeXVUeXZyazBmWWdyRE9NaDh4QkV3LTEyRU1CSFVMTEFrY3pSWFFWQy1sYWJhay01LVdNLWE1anhidnRhNFBodXFiYVU5RU5ST2RSU3dIS1Nzc0E3blRDQXdtV0t4N0l2RFh4Wi0ydmhXc01lNXpDNW8yNGNaRjd2WGtENEstMXFqX0dnSVF2ZjdZNzNT?oc=5
+
+ADNOC Secures 2 Million Tonnes LNG Deal with Thailand’s Gulf Group    ChemAnalyst

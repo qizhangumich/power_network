@@ -1,0 +1,5 @@
+# ADNOC Signs Agreement With Gulf Group To Supply Up To 2 Million Tonnes Of LNG To Thailand
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxORXVxOFd2MjNmRkd6Q0YxN0xwU2FMaS1XMFdyWk9LbDBhVnV3NXkyamFiRHlRLWZVbnVjVmJVdnZLZjRrXzEwSm1MMHphcFVndFVSTzk1R1VucXJ3WURlb0t2LW5Tc3VjR0RmRWp4bWxJenozSnJCZGNUb2hFUlhNd1lQUklWMWdrVy1jWDZvS0F1SHF4ZEt4YU55eHhab0lOVk5KNXRSTUpZekVlS0s2eHA5SGFaMjl3TlZ0ZnYtN212R1djamFNV1poY0dSMlJiR1dyOHdhZVpocDJGWGdrcUQySGRqdnA0b3dLcjNXTGo?oc=5
+
+ADNOC Signs Agreement With Gulf Group To Supply Up To 2 Million Tonnes Of LNG To Thailand    TradingView

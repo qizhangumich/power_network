@@ -1,0 +1,5 @@
+# ⚽ The former leader of Manchester City Council has defended Abu Dhabi's investment
+source: facebook.com
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUUxOaFJybUNwdktDRFdUSHZyOFJyOEpJbFEwWDItN2pxWFBzUlRhUlVzODBYV05iSGRSdDlUNG1Nd1FNNDVGYkFLQjgwYW95clcyNVZnSlZCTGM5Vl9JZzc2N0hzYVg0QkJ2bkd4dE9aNTlzblNtd3pIVjd5Y0c5U19jUWM0V0s3cExEc21vZDdKYjRVeWl5YXRySHZHZGluVWQ3VS1xVTJLNVNTQzMyUV9mUmIwV2xhb01HVHpPVGVtNlo1bkhjUnAtY0pRcXRoZzhsS3ltcm1EZnF5WEEtT3czUmpxUQ?oc=5
+
+⚽ The former leader of Manchester City Council has defended Abu Dhabi's investment    facebook.com
