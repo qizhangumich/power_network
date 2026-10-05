@@ -1,0 +1,5 @@
+# Ibom Air, Etihad sign deal to connect five Nigerian cities to global network
+source: Premium Times Nigeria
+url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZm9CckE0NUFOVDMxTlpCaGVMMUZ6dmV1bHM4WWxxRUlwOGVMTVJ3ci1nQTlxR216cHk3VU9SUWRpSkdLR3d3eGd0eEE3bWJGTWtFSkNfT3g4bWh5a1ZGNUlId05DUTVZQlBYOXB5dFRzME1rcFQ1VHdoOTk2Q2RYbC1DZzFMWlN6XzR1THRnZURGeHc4OVBwMko5eDhDSmpqczM0TUlUenpDTHNIdnQ0a0Q5Q0F1OWo2allLNnM5RV82MFFKb0J4ZG11cER5TkR6ellaMW5vclkzc0Jpb1ZyMFFR?oc=5
+
+Ibom Air, Etihad sign deal to connect five Nigerian cities to global network    Premium Times Nigeria

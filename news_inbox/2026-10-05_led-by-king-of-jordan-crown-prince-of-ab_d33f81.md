@@ -1,0 +1,5 @@
+# Led by King of Jordan, Crown Prince of Abu Dhabi receives farewell on departure from kingdom
+source: mediaoffice.abudhabi
+url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxOLVdvLUg2RDFRRF9aTFR5c1JSUDhtQXlKa05iTGdZVjN0ek9FS0dzNVVqOVlOWGZGd0ozMkk1ZXRGX05nb0wzN3o0UWk4M0UxcTJuelhfc2NiTnVTbklJRXVXdjE5M0dmWm9HOTcxZTNHRDJqcFFyU1N4REJjcllzRGc2Zkh5UkUtZDF4WnJOX3FYRm1DbkR6em5GUS1KZ1kyTE03ZnUtOWRsbWRfTmtDcXJ6X2t2UnVEWFJZcmZ4dXdqY0ZmbXhYeG4yWVlOVWlqc0wxemE2OE51SW5XNWU0?oc=5
+
+Led by King of Jordan, Crown Prince of Abu Dhabi receives farewell on departure from kingdom    mediaoffice.abudhabi

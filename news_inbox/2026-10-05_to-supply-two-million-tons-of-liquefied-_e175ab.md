@@ -1,0 +1,5 @@
+# To supply two million tons of liquefied natural gas to Thailand. Agreement between ADNOC and Gulf Group
+source: صوت الإمارات
+url: https://news.google.com/rss/articles/CBMi_wFBVV95cUxPUVMtWm1KalZoRXhSdmUzSGs5UThSYWE3N0FjUGFrck9kcldiSU9uWnhmZDA5SDhYd29Rdm4ySF92cFhuQkE5aW13SmdVcnZpVHk5bmNReXlCOVM1cGdqMjJjSHpGaFRHYXlPYnJYZ050aDIyUnBvWTBwMnBKVG90c2NmcFBBNXdvY2dkQ0RTZE02TXJOdzZ1SE5DQmY1LVVncFE0X2Qwb3ZiOGhURFVFZ1RwZDlLcXRZVXUwR1pfNk92LUFLM25qRG0zSTlHaHdRdlFKMGY4SXdCb2plX193cHpyTGQ5eHhaN09HcmNvMWlyNW9Ncms0RV9jZU9mMHM?oc=5
+
+To supply two million tons of liquefied natural gas to Thailand. Agreement between ADNOC and Gulf Group    صوت الإمارات

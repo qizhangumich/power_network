@@ -1,0 +1,5 @@
+# Jordan, UAE break ground on $2.5 billion Aqaba–Maan railway
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMilwFBVV95cUxNVWwtTFFKV3RWYXJNM2JTWC1Ma2ZSTmZ1YVNJZWhPR3hrZ1VldVJ2NFc5MzlPSjRoaGM2blVUN2lqMHh3bzdZZTg2bjB4ZVhnaUtWQXZvREFLck11V2pDUjc1c3A4R0Y2cjRQRWQ0SG5ZUmlxaHY3YkNHNXlkVG5pSHdfQjNvLXpBcUNPRzVfMnpIVzVJMXdr0gGnAUFVX3lxTFBqb1ZyTHZoTTVzd29Yckl4TktCU2huSXhkZW1Ma29nYkt2SEllc1JkYWZ3dllWUFk0a1pkYWdjTllaRi1IeGlxWUtEMjF5NVgyYm5NeGp5ck42T0hyQ1JpZnJIOTFLaWNnTmJ2c1Z4U2FxcjcxRnlBcm1ZdnhCMzhlMkIzbXFSQ2t5VE5ySDJ4SExKWjFlZ2h6T3p3LWh5V1RrX0V2WFJj?oc=5
+
+Jordan, UAE break ground on $2.5 billion Aqaba–Maan railway    Gulf News
