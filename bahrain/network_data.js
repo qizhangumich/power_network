@@ -288,7 +288,7 @@ const PEOPLE = [
   {id:"salah_sharif", n:"Salah Sharif", t:2, p:58, s:"finance", roles:[
     ["gfh","Chief Operating Officer","executive","v"]]},
   {id:"bhaskar_mehta", n:"Bhaskar Mehta", t:2, p:58, s:"finance", roles:[
-    ["gfh","Chief Risk Officer and Acting CFO","executive","ns"]]},
+    ["gfh","Chief Risk Officer and Acting CFO","executive","v"]]},
   {id:"khalid_al_rumaihi", n:"Khalid Al Rumaihi", t:2, p:62, s:"materials", roles:[
     ["alba","Chairman","board","v"]]},
   {id:"shaikh_isa_bin", n:"Shaikh Isa bin Khalid Al Khalifa", t:2, p:52, s:"materials", roles:[

@@ -2332,7 +2332,7 @@ const PEOPLE = [
   {id:"abdullatif_al_fozan", n:"Abdullatif Al-Fozan", t:2, p:52, s:"finance", roles:[
     ["alpha_capital","Board Member","board","ns"]]},
   {id:"suliman_bin_khalid", n:"Suliman bin Khalid Al-Mazroua", t:2, p:58, s:"gov", roles:[
-    ["mawani","President","executive","ns"]]},
+    ["mawani","President","executive","v"]]},
   {id:"ahmed_bin_suliman", n:"Ahmed bin Suliman Al-Rajhi", t:2, p:52, s:"gov", roles:[
     ["gosi","Minister of Human Resources and Social Development / Board Member","board","v"]]},
   {id:"khaled_bin_hussein", n:"Khaled bin Hussein Bayari", t:2, p:52, s:"gov", roles:[

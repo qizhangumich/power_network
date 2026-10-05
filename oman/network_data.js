@@ -1150,7 +1150,7 @@ const PEOPLE = [
   {id:"ahmad_rushdi", n:"Ahmad Rushdi", t:2, p:58, s:"industry", roles:[
     ["salalah_free_zone","Quality Health Safety Security and Environment Director","executive","v"]]},
   {id:"ahmed_bin_khamis", n:"Ahmed bin Khamis Al Kasbi", t:2, p:58, s:"gov", roles:[
-    ["al_mazunah_fz","Director General","executive","ns"]]},
+    ["al_mazunah_fz","Director General","executive","v"]]},
   {id:"maneer_ali_al", n:"Maneer Ali Al-Muniri", t:2, p:62, s:"consumer_stap", roles:[
     ["fdo","Chairman of the Board","board","v"]]},
   {id:"abdulaziz_said_mohamed", n:"Abdulaziz Said Mohamed Al-Marzuqi", t:2, p:62, s:"consumer_stap", roles:[

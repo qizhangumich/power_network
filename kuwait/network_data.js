@@ -1131,7 +1131,7 @@ const PEOPLE = [
   {id:"basel_omran_kanaan", n:"Basel Omran Kanaan", t:2, p:60, s:"industry", roles:[
     ["lst_cable","Chief Executive Officer","executive","ns"]]},
   {id:"tareq_fahad_alothman", n:"Tareq Fahad AlOthman", t:2, p:62, s:"industry", roles:[
-    ["lst_humansoft","Chairman","board","ns"]]},
+    ["lst_humansoft","Chairman","board","v"]]},
   {id:"hassan_al_ali", n:"Hassan Al-Ali", t:2, p:52, s:"industry", roles:[
     ["lst_humansoft","Board Member","board","ns"]]},
   {id:"abdulrazzaq_mohammed", n:"Abdulrazzaq Mohammed", t:2, p:52, s:"industry", roles:[

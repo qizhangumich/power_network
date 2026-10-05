@@ -177,8 +177,8 @@ const INSTITUTIONS = [
   {id:"lst_sib", n:"Sharjah Islamic Bank PJSC", s:"finance", t:2, p:64, short:"SIB"},
   {id:"lst_inb", n:"Invest Bank P.S.C.", s:"finance", t:2, p:50, short:"Invest Bank P.S.C."},
   {id:"lst_alefedt", n:"Alef Education Holding plc", s:"consumer_disc", t:2, p:50, short:"ALEFEDT"},
-  {id:"lst_oras", n:"Orascom Construction PLC", s:"industry", t:2, p:50, short:"ORAS"},
-  {id:"lst_dana", n:"Dana Gas PJSC", s:"energy", t:2, p:50, short:"Dana Gas PJSC"},
+  {id:"lst_oras", n:"Orascom Construction PLC", s:"industry", t:2, p:70, short:"Orascom Const."},
+  {id:"lst_dana", n:"Dana Gas PJSC", s:"energy", t:2, p:66, short:"Dana Gas PJSC"},
   {id:"lst_adaviation", n:"Abu Dhabi Aviation Company", s:"industry", t:2, p:50, short:"ADAVIATION"},
   {id:"lst_bos", n:"Bank of Sharjah PJSC", s:"finance", t:2, p:60, short:"Bank of Sharjah"},
   {id:"lst_uab", n:"United Arab Bank PJSC", s:"finance", t:2, p:50, short:"UAB"},
@@ -1932,7 +1932,7 @@ const PEOPLE = [
     ["multiply","Chairman of the Board (Two Point Zero Group, formerly Multiply Group)","board","v"],
     ]},
   {id:"h_e_sheikh", n:"H.E. Sheikh Abdulla bin Mohamed Al Hamed", t:2, p:52, s:"sovereign", roles:[
-    ["adq","Board Member","board","ns"],
+    ["adq","Board Member","board","v"],
     ["modon","Vice Chairman","board","v"],
     ]},
   {id:"h_e_mohamed_b", n:"H.E. Mohamed Mubarak Fadel Al Mazrouei", t:2, p:52, s:"sovereign", roles:[
@@ -3274,6 +3274,12 @@ const PEOPLE = [
     ]},
   {id:"arsjad_rasjid", n:"Arsjad Rasjid", t:2, p:52, s:"finance", roles:[
     ["bluefive_capital","Board Member","board","v"],
+    ]},
+  {id:"j_r_me", n:"Jérôme Guiraud", t:2, p:62, s:"industry", roles:[
+    ["lst_oras","Independent Non-Executive Chairman","board","ns"],
+    ]},
+  {id:"osama_bishai", n:"Osama Bishai", t:2, p:60, s:"industry", roles:[
+    ["lst_oras","Chief Executive Officer & Executive Director","executive","ns"],
     ]},
 ];
 
