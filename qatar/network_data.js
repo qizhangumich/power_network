@@ -224,6 +224,8 @@ const INSTITUTIONS = [
   {id:"northwestern_qatar", n:"Northwestern University in Qatar", s:"education", t:3, p:54, short:"Northwestern Qatar"},
   {id:"qatar_natl_library", n:"Qatar National Library", s:"education", t:2, p:56, short:"Qatar Natl Library"},
   {id:"dar_al_sharq", n:"Dar Al Sharq", s:"comm", t:3, p:52, short:"Dar Al Sharq"},
+  {id:"positron_ai", n:"Positron AI", s:"tech", t:3, p:52, short:"Positron AI"},
+  {id:"alternatifbank", n:"Alternatifbank A.S.", s:"finance", t:3, p:52, short:"Alternatifbank"},
 ];
 
 const PEOPLE = [
@@ -1988,6 +1990,8 @@ const OWNERSHIP = [
   ["georgetown_qatar","qf","part of","ns"],
   ["northwestern_qatar","qf","part of","ns"],
   ["qatar_natl_library","qf","part of","ns"],
+  ["positron_ai","qia","portfolio","ns"],
+  ["alternatifbank","cbq","subsidiary","ns"],
 ];
 
 const FAMILY = [
@@ -2076,4 +2080,5 @@ const AKA = {
   northwestern_qatar:["NU-Q"],
   qatar_natl_library:["QNL"],
   dar_al_sharq:["Al Sharq Media"],
+  alternatifbank:["Alternatif Bank"],
 };

@@ -289,6 +289,8 @@ const INSTITUTIONS = [
   {id:"abu_dhabi_university", n:"Abu Dhabi University", s:"education", t:3, p:56, short:"Abu Dhabi University"},
   {id:"al_ain_university", n:"Al Ain University", s:"education", t:3, p:52, short:"Al Ain University"},
   {id:"gii", n:"Gulf Islamic Investments LLC", s:"finance", t:3, p:56, short:"GII"},
+  {id:"rafed", n:"Rafed", s:"health", t:3, p:54, short:"Rafed"},
+  {id:"adic", n:"Abu Dhabi Investment Council", s:"sovereign", t:2, p:60, short:"ADIC"},
 ];
 
 const PEOPLE = [
@@ -480,6 +482,7 @@ const PEOPLE = [
     ["aldar","Chairman","board","v"],
     ["miral","Chairman","board","v"],
     ["execcouncil","Member","political","v"],
+    ["louvre","Chairman, Louvre Abu Dhabi / Chairman, DCT Abu Dhabi","board","v"],
     ], note:"Brother of Khaldoon; controls the culture–tourism–real-estate triangle."},
   {id:"mugheer_khaili", n:"Dr. Mugheer Khamis Al Khaili", t:1, p:80, s:"gov", roles:[
     ["dcd","Chairman (–Jan 2026)","government","v","former:until Jan 2026"],
@@ -637,6 +640,7 @@ const PEOPLE = [
     ]},
   {id:"najwa", n:"Dr. Najwa Aaraj", t:2, p:68, s:"tech", roles:[
     ["tii","CEO","executive","v"],
+    ["lst_adsb","Board Member","board","v"],
     ]},
   {id:"eric_xing", n:"Prof. Eric Xing", t:2, p:70, s:"education", roles:[
     ["mbzuai","President","executive","v"],
@@ -658,6 +662,8 @@ const PEOPLE = [
   {id:"talal_dhiyebi", n:"Talal Al Dhiyebi", t:2, p:78, s:"realestate", roles:[
     ["aldar","Group CEO","executive","v"],
     ["aldar_investment_propert","Chairman, Aldar Investment Properties","board","v"],
+    ["aldar_estates","Chairman","board","v"],
+    ["nmdc_energy","Director, Audit Committee Chairman","board","v"],
     ]},
   {id:"bill_oregan", n:"Bill O'Regan", t:2, p:70, s:"realestate", roles:[
     ["modon","Group CEO","executive","v"],
@@ -688,6 +694,7 @@ const PEOPLE = [
     ["strata","CEO (until 2025)","executive","v","former:until 2025"],
     ["strata","Managing Director","executive","v"],
     ["presight","Board Member","board","v"],
+    ["lst_adaviation","Non-Executive Board Member","board","v"],
     ], note:"Managing Director of Strata Manufacturing (formerly CEO; Sara Al Memari now Acting CEO); Executive Director of UAE Clusters at Mubadala."},
   {id:"zaghloul", n:"Yasser Zaghloul", t:2, p:68, s:"industry", roles:[
     ["nmdc","Group CEO","executive","v"],
@@ -809,6 +816,8 @@ const PEOPLE = [
     ["adnoc","Acting CEO, Downstream Industry, Marketing & Trading","executive","v"],
     ["adnocgas","Board Member","board","v"],
     ["adnocdist","Board Member","board","v"],
+    ["ruwais_lng","Chairman, Ruwais LNG","executive","v"],
+    ["adnoc_global_trading","Acting CEO, ADNOC Downstream Industry, Marketing & Trading (oversight)","executive","ns"],
     ], note:"Acting CEO of ADNOC's Downstream Industry"},
   {id:"dena_almansoori", n:"Dena Al Mansoori", t:2, p:68, s:"energy", roles:[
     ["adnoc","Group Chief Technology & Innovation Officer","executive","v"],
@@ -823,6 +832,7 @@ const PEOPLE = [
     ["etihadrail","Board Member","board","v"],
     ["kezad","Board Member","board","v"],
     ["wio","Chairman","board","v"],
+    ["lst_adaviation","Chairman, Non-Executive Board Member","board","v"],
     ]},
   {id:"marcos_dequadros", n:"Marcos de Quadros", t:2, p:68, s:"sovereign", roles:[
     ["adq","Group Chief Financial Officer","executive","ns"],
@@ -889,6 +899,7 @@ const PEOPLE = [
     ]},
   {id:"sheikh_ahmed_mohammed", n:"Sheikh Ahmed Mohammed Sultan Aldhaheri", t:2, p:52, s:"finance", roles:[
     ["fab","Board Member","board","v"],
+    ["nmdc_energy","Chief Executive Officer","executive","v"],
     ]},
   {id:"mohammed_thani_murshed", n:"Mohammed Thani Murshed Al Rumaithi", t:2, p:62, s:"finance", roles:[
     ["fab","Board Member","board","v"],
@@ -1022,6 +1033,7 @@ const PEOPLE = [
   {id:"buthaina_abdulla_almazrouei", n:"Buthaina Abdulla Almazrouei", t:2, p:52, s:"utilities", roles:[
     ["taqa","Board Member","board","ns"],
     ["dof","Director General of Government Financial Affairs","executive","v"],
+    ["lst_adaviation","Non-Executive Board Member","board","v"],
     ]},
   {id:"muna_ali_al", n:"Muna Ali Al Dhaheri", t:2, p:52, s:"utilities", roles:[
     ["taqa","Board Member","board","ns"],
@@ -1235,6 +1247,7 @@ const PEOPLE = [
     ]},
   {id:"mohammad_adnan_sharafi", n:"Mohammad Adnan Sharafi", t:2, p:58, s:"utilities", roles:[
     ["taqa","Chief Legal Officer & Board Secretary","executive","v"],
+    ["lst_adaviation","Vice-Chairman, Non-Executive Board Member","board","v"],
     ]},
   {id:"noel_aoun", n:"Noel Aoun", t:2, p:58, s:"utilities", roles:[
     ["taqa","Chief Strategy Officer","executive","v"],
@@ -1325,12 +1338,14 @@ const PEOPLE = [
     ]},
   {id:"khaled_ahmed_al", n:"Khaled Ahmed Al Zaabi", t:2, p:58, s:"industry", roles:[
     ["edge_grp","President – Platforms & Systems, EDGE","executive","v"],
+    ["lst_adsb","Chairman","board","v"],
     ]},
   {id:"waleid_al_mesmari", n:"Waleid Al Mesmari", t:2, p:58, s:"industry", roles:[
     ["edge_grp","President – Space Technologies, EDGE","executive","v"],
     ]},
   {id:"omar_al_zaabi", n:"Omar Al Zaabi", t:2, p:58, s:"industry", roles:[
     ["edge_grp","President – Commercial, EDGE","executive","v"],
+    ["lst_adsb","Board Member","board","v"],
     ]},
   {id:"khalid_al_ali", n:"Khalid Al Ali", t:2, p:58, s:"industry", roles:[
     ["edge_grp","President – Homeland Security, EDGE Group","executive","v"],
@@ -1424,6 +1439,7 @@ const PEOPLE = [
   {id:"jawad_shafique_mohamed", n:"Jawad Shafique Mohamed Shafique", t:2, p:52, s:"health", roles:[
     ["purehealth","Board Member","board","v"],
     ["wio","Board Member","board","v"],
+    ["lst_adaviation","Non-Executive Board Member","board","v"],
     ]},
   {id:"farhan_malik", n:"Farhan Malik", t:2, p:60, s:"health", roles:[
     ["purehealth","Managing Director & Board Member","executive","v"],
@@ -1938,6 +1954,7 @@ const PEOPLE = [
     ]},
   {id:"anas_albarguthi", n:"Anas Albarguthi", t:2, p:58, s:"sovereign", roles:[
     ["adq","Group Chief Operating Officer","executive","ns"],
+    ["lst_adsb","Vice Chairman","board","v"],
     ]},
   {id:"louay_abou_chanab", n:"Louay Abou Chanab", t:2, p:58, s:"sovereign", roles:[
     ["adq","Group Chief Digital and AI Officer","executive","ns"],
@@ -2237,6 +2254,7 @@ const PEOPLE = [
     ]},
   {id:"roque_solabarrieta", n:"Roque Solabarrieta", t:2, p:52, s:"industry", roles:[
     ["adairports","Board Member","board","v"],
+    ["lst_adaviation","Non-Executive Board Member","board","v"],
     ]},
   {id:"carsten_norland", n:"Carsten Norland", t:2, p:58, s:"industry", roles:[
     ["adairports","Chief Commercial Officer","executive","v"],
@@ -2588,6 +2606,7 @@ const PEOPLE = [
     ]},
   {id:"mansoor_janahi", n:"Mansoor Janahi", t:2, p:60, s:"industry", roles:[
     ["sanad","Managing Director and Group Chief Executive Officer","executive","v"],
+    ["lst_adsb","Board Member","board","v"],
     ]},
   {id:"amal_al_ameri", n:"Amal Al Ameri", t:2, p:52, s:"industry", roles:[
     ["sanad","Board Member","board","v"],
@@ -2679,6 +2698,7 @@ const PEOPLE = [
     ]},
   {id:"younis_haji_al", n:"Younis Haji Al Khoori", t:2, p:52, s:"finance", roles:[
     ["cbuae","Board Member","board","ns"],
+    ["lst_dana","Director & Chairman of Audit & Compliance Committee","board","v"],
     ]},
   {id:"sami_dhaen_al", n:"Sami Dhaen Al Qamzi", t:2, p:52, s:"finance", roles:[
     ["cbuae","Board Member","board","ns"],
@@ -2772,6 +2792,7 @@ const PEOPLE = [
     ]},
   {id:"ahmed_mohamed_alebri", n:"Ahmed Mohamed Alebri", t:2, p:60, s:"energy", roles:[
     ["adnoc_onshore","Chief Executive Officer","executive","v"],
+    ["ruwais_lng","CEO, ADNOC Gas (Ruwais LNG operator)","executive","v"],
     ]},
   {id:"huda_abdulla_al", n:"Huda Abdulla Al Hanaee", t:2, p:58, s:"energy", roles:[
     ["adnoc_onshore","Chief Financial Officer","executive","v"],
@@ -3021,6 +3042,238 @@ const PEOPLE = [
     ]},
   {id:"ali_bin_harmal", n:"Ali bin Harmal Al Dhaheri", t:2, p:62, s:"education", roles:[
     ["abu_dhabi_university","Chairman of the Board of Directors","board","v"],
+    ]},
+  {id:"manuel_rabat", n:"Manuel Rabaté", t:2, p:58, s:"consumer_disc", roles:[
+    ["louvre","Director, Louvre Abu Dhabi","executive","v"],
+    ]},
+  {id:"guilhem_andr", n:"Guilhem André", t:2, p:58, s:"consumer_disc", roles:[
+    ["louvre","Director of Scientific, Curatorial and Collections Management","executive","v"],
+    ]},
+  {id:"hissa_al_dhaheri", n:"Hissa Al Dhaheri", t:2, p:58, s:"consumer_disc", roles:[
+    ["louvre","Deputy Director, Louvre Abu Dhabi","executive","ns"],
+    ]},
+  {id:"rita_aoun", n:"Rita Aoun", t:2, p:58, s:"consumer_disc", roles:[
+    ["louvre","Executive Director, Culture Sector, DCT Abu Dhabi","executive","ns"],
+    ]},
+  {id:"ahmad_bin_thalith", n:"Ahmad Bin Thalith", t:2, p:60, s:"energy", roles:[
+    ["adnoc_global_trading","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"ali_alalkeem_al", n:"Ali Alalkeem Al Zaabi", t:2, p:60, s:"energy", roles:[
+    ["al_yasat_petroleum","Chief Executive Officer","executive","v"],
+    ["al_dhafra_petro","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"saeed_al_suwaidi", n:"Saeed Al Suwaidi", t:2, p:58, s:"energy", roles:[
+    ["al_yasat_petroleum","Senior Vice President, Field Development","executive","ns"],
+    ]},
+  {id:"changlyeol_um", n:"Changlyeol Um", t:2, p:58, s:"energy", roles:[
+    ["al_dhafra_petro","Senior Vice President, Exploration and Development","executive","ns"],
+    ]},
+  {id:"abdulla_ahmed_balalaa", n:"Abdulla Ahmed Balalaa", t:2, p:62, s:"gov", roles:[
+    ["masdar_city","Chairman, Masdar City","board","ns"],
+    ]},
+  {id:"ahmed_baghoum", n:"Ahmed Baghoum", t:2, p:60, s:"gov", roles:[
+    ["masdar_city","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"mohamed_al_breiki", n:"Mohamed Al Breiki", t:2, p:58, s:"gov", roles:[
+    ["masdar_city","Executive Director, Sustainable Development","executive","ns"],
+    ]},
+  {id:"mahmoud_alhosani", n:"Mahmoud Alhosani", t:2, p:58, s:"gov", roles:[
+    ["masdar_city","Executive Director, Finance and Support Services","executive","ns"],
+    ]},
+  {id:"khaled_alrajhi", n:"Khaled Alrajhi", t:2, p:60, s:"realestate", roles:[
+    ["aldar_estates","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"fatema_al_hashmi", n:"Fatema Al Hashmi", t:2, p:58, s:"realestate", roles:[
+    ["aldar_estates","Chief Operating Officer","executive","v"],
+    ]},
+  {id:"simone_savi", n:"Simone Savi", t:2, p:58, s:"realestate", roles:[
+    ["aldar_estates","Chief Financial and Sustainability Officer","executive","v"],
+    ]},
+  {id:"carlos_wakim", n:"Carlos Wakim", t:2, p:60, s:"realestate", roles:[
+    ["bloom","Chief Executive Officer, Bloom Holding","executive","v"],
+    ]},
+  {id:"nilay_zral", n:"Nilay Özral", t:2, p:60, s:"realestate", roles:[
+    ["bloom","Chief Executive Officer, Bloom Education","executive","v"],
+    ]},
+  {id:"mohamed_hamad_almehairi", n:"Mohamed Hamad Almehairi", t:2, p:62, s:"energy", roles:[
+    ["nmdc_energy","Chairman of the Board","board","v"],
+    ]},
+  {id:"nasser_mohamed_almheiri", n:"Nasser Mohamed Almheiri", t:2, p:62, s:"energy", roles:[
+    ["nmdc_energy","Director, Nomination & Remuneration Committee Chairman","board","v"],
+    ]},
+  {id:"paolo_bigi", n:"Paolo Bigi", t:2, p:58, s:"energy", roles:[
+    ["nmdc_energy","Chief Operating Officer","executive","v"],
+    ]},
+  {id:"hesham_awda", n:"Hesham Awda", t:2, p:58, s:"energy", roles:[
+    ["nmdc_energy","Chief Operating Officer","executive","v"],
+    ]},
+  {id:"ashish_khandelwal", n:"Ashish Khandelwal", t:2, p:58, s:"energy", roles:[
+    ["nmdc_energy","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"hanna_dahdah", n:"Hanna Dahdah", t:2, p:58, s:"energy", roles:[
+    ["nmdc_energy","Chief Technology/Science/R&D Officer","executive","v"],
+    ]},
+  {id:"evgeny_gluchkov", n:"Evgeny Gluchkov", t:2, p:52, s:"industry", roles:[
+    ["lst_adaviation","Non-Executive Board Member","board","v"],
+    ]},
+  {id:"mohamed_khalil_foulathi", n:"Mohamed Khalil Foulathi", t:2, p:52, s:"industry", roles:[
+    ["lst_adaviation","Non-Executive Board Member","board","v"],
+    ]},
+  {id:"tansel_kilicarslan", n:"Tansel Kilicarslan", t:2, p:52, s:"industry", roles:[
+    ["lst_adaviation","Non-Executive Board Member","board","v"],
+    ]},
+  {id:"mahmood_al_hameli", n:"Mahmood Al Hameli", t:2, p:60, s:"industry", roles:[
+    ["lst_adaviation","Group Chief Executive Officer","executive","v"],
+    ]},
+  {id:"khalifa_issa_abushahab", n:"Khalifa Issa Abushahab", t:2, p:52, s:"industry", roles:[
+    ["lst_adsb","Board Member","board","v"],
+    ]},
+  {id:"rodrigo_torres", n:"Rodrigo Torres", t:2, p:52, s:"industry", roles:[
+    ["lst_adsb","Board Member","board","v"],
+    ]},
+  {id:"abdulla_saeed_al", n:"Abdulla Saeed Al Ghafli", t:2, p:52, s:"industry", roles:[
+    ["lst_adsb","Board Member","board","v"],
+    ]},
+  {id:"abdulla_ahmed_al", n:"Abdulla Ahmed Al Qubaisi", t:2, p:52, s:"industry", roles:[
+    ["lst_adsb","Board Member","board","v"],
+    ]},
+  {id:"david_massey", n:"David Massey", t:2, p:60, s:"industry", roles:[
+    ["lst_adsb","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"tarek_sultan", n:"Tarek Sultan", t:2, p:62, s:"industry", roles:[
+    ["lst_agility","Chairman","board","v"],
+    ]},
+  {id:"faisal_al_essa", n:"Faisal Al-Essa", t:2, p:62, s:"industry", roles:[
+    ["lst_agility","Vice-Chairman","board","v"],
+    ]},
+  {id:"essa_al_saleh", n:"Essa Al-Saleh", t:2, p:52, s:"industry", roles:[
+    ["lst_agility","Board Member","board","v"],
+    ]},
+  {id:"christopher_michael_gordon", n:"Christopher Michael Gordon", t:2, p:52, s:"industry", roles:[
+    ["lst_agility","Board Member","board","v"],
+    ]},
+  {id:"hanadi_al_saleh", n:"Hanadi Al-Saleh", t:2, p:60, s:"industry", roles:[
+    ["lst_agility","Board Member and Chief Executive Officer","board","v"],
+    ]},
+  {id:"ehab_aziz", n:"Ehab Aziz", t:2, p:58, s:"industry", roles:[
+    ["lst_agility","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"hamid_jafar", n:"Hamid Jafar", t:2, p:62, s:"energy", roles:[
+    ["lst_dana","Chairman of the Board","board","v"],
+    ]},
+  {id:"rashed_saif_s", n:"Rashed Saif S. Al Jarwan Al Shamsi", t:2, p:62, s:"energy", roles:[
+    ["lst_dana","Vice Chairman & Chairman of the Board Steering Committee","board","v"],
+    ]},
+  {id:"majid_jafar", n:"Majid Jafar", t:2, p:60, s:"energy", roles:[
+    ["lst_dana","Board Managing Director","board","v"],
+    ]},
+  {id:"ziad_abdulla_ibrahim", n:"Ziad Abdulla Ibrahim Galadari", t:2, p:52, s:"energy", roles:[
+    ["lst_dana","Director","board","v"],
+    ]},
+  {id:"najla_ahmed_al", n:"Najla Ahmed Al-Midfa", t:2, p:62, s:"energy", roles:[
+    ["lst_dana","Director & Chairwoman of Corporate Governance, Remuneration & Nominations Committee","board","v"],
+    ]},
+  {id:"omar_ibrahim_al", n:"Omar Ibrahim Al-Mulla", t:2, p:52, s:"energy", roles:[
+    ["lst_dana","Director","board","v"],
+    ]},
+  {id:"ahmed_abdulhamid_alahmadi", n:"Ahmed Abdulhamid Alahmadi", t:2, p:52, s:"energy", roles:[
+    ["lst_dana","Director","board","v"],
+    ]},
+  {id:"mohamed_al_sayed", n:"Mohamed Al Sayed Mohamed Ebraheem Alhashmi", t:2, p:52, s:"energy", roles:[
+    ["lst_dana","Director","board","v"],
+    ]},
+  {id:"mohamed_khalil_mohamedsharif", n:"Mohamed Khalil Mohamedsharif Foulathi Alkhoori", t:2, p:52, s:"energy", roles:[
+    ["lst_dana","Director","board","v"],
+    ]},
+  {id:"shaheen_mohamed_abdulaziz", n:"Shaheen Mohamed Abdulaziz Rubayea Almheiri", t:2, p:52, s:"energy", roles:[
+    ["lst_dana","Director","board","v"],
+    ]},
+  {id:"richard_hall", n:"Richard Hall", t:2, p:60, s:"energy", roles:[
+    ["lst_dana","Group Chief Executive Officer","executive","v"],
+    ]},
+  {id:"christopher_hearne", n:"Christopher Hearne", t:2, p:58, s:"energy", roles:[
+    ["lst_dana","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"mike_budge", n:"Mike Budge", t:2, p:46, s:"energy", roles:[
+    ["lst_dana","Head of Technical & Operations","executive","v"],
+    ]},
+  {id:"matthew_nix", n:"Matthew Nix", t:2, p:46, s:"energy", roles:[
+    ["lst_dana","Head of Corporate Finance","executive","v"],
+    ]},
+  {id:"mohammmed_mubaideen", n:"Mohammmed Mubaideen", t:2, p:46, s:"energy", roles:[
+    ["lst_dana","Head of Investor Relations & Corporate Communications","executive","v"],
+    ]},
+  {id:"neville_henwood", n:"Neville Henwood", t:2, p:46, s:"energy", roles:[
+    ["lst_dana","Head of Internal Audit","executive","v"],
+    ]},
+  {id:"shakir_shakir", n:"Shakir Shakir", t:2, p:46, s:"energy", roles:[
+    ["lst_dana","Dana Gas Iraq Country Manager","executive","v"],
+    ]},
+  {id:"richard_helwani", n:"Richard Helwani", t:2, p:46, s:"energy", roles:[
+    ["lst_dana","Head of IT","executive","v"],
+    ]},
+  {id:"osama_saad", n:"Osama Saad", t:2, p:46, s:"energy", roles:[
+    ["lst_dana","Head of Production & Operations - Egypt","executive","v"],
+    ]},
+  {id:"azfar_aboobakar", n:"Azfar Aboobakar", t:2, p:46, s:"energy", roles:[
+    ["lst_dana","Head of Financial Control & Reporting","executive","v"],
+    ]},
+  {id:"omran_ismail_al", n:"Omran Ismail Al Zamani", t:2, p:58, s:"energy", roles:[
+    ["lst_dana","Board Secretary & Senior Legal Counsel","executive","v"],
+    ]},
+  {id:"mohammed_abdul_jalil", n:"Mohammed Abdul Jalil Al Fahim", t:2, p:62, s:"conglomerate", roles:[
+    ["alfahim","Chairman, Al Fahim Family Council","board","v"],
+    ]},
+  {id:"abdullah_abdul_jalil", n:"Abdullah Abdul Jalil Al Fahim", t:2, p:52, s:"conglomerate", roles:[
+    ["alfahim","Supervisory Board Member","board","v"],
+    ]},
+  {id:"saeed_abdul_jalil", n:"Saeed Abdul Jalil Al Fahim", t:2, p:62, s:"conglomerate", roles:[
+    ["alfahim","Honorary Chairman, Al Fahim Group","board","v"],
+    ]},
+  {id:"ahmed_abdul_jalil", n:"Ahmed Abdul Jalil Al Fahim", t:2, p:62, s:"conglomerate", roles:[
+    ["alfahim","Chairman, Al Fahim Management Board","executive","v"],
+    ]},
+  {id:"taha_abdul_jalil", n:"Taha Abdul Jalil Al Fahim", t:2, p:52, s:"conglomerate", roles:[
+    ["alfahim","Supervisory Board Member","board","v"],
+    ]},
+  {id:"eissa_abdul_jalil", n:"Eissa Abdul Jalil Al Fahim", t:2, p:52, s:"conglomerate", roles:[
+    ["alfahim","Secretary General","board","v"],
+    ]},
+  {id:"aamer_abdul_jalil", n:"Aamer Abdul Jalil Al Fahim", t:2, p:52, s:"conglomerate", roles:[
+    ["alfahim","Supervisory Board Member","board","v"],
+    ]},
+  {id:"rashed_abdul_jalil", n:"Rashed Abdul Jalil Al Fahim", t:2, p:52, s:"conglomerate", roles:[
+    ["alfahim","Supervisory Board Member","board","v"],
+    ]},
+  {id:"hazem_ben_gacem", n:"Hazem Ben-Gacem", t:2, p:60, s:"finance", roles:[
+    ["bluefive_capital","Founder and Chief Executive","executive","v"],
+    ]},
+  {id:"marwan_elaraby", n:"Marwan Elaraby", t:2, p:58, s:"finance", roles:[
+    ["bluefive_capital","President, MENA","executive","v"],
+    ]},
+  {id:"sheikh_mohamed_isa", n:"Sheikh Mohamed Isa Al Khalifa", t:2, p:62, s:"finance", roles:[
+    ["bluefive_capital","Chairman","board","v"],
+    ]},
+  {id:"lord_gerry_grimstone", n:"Lord Gerry Grimstone", t:2, p:62, s:"finance", roles:[
+    ["bluefive_capital","Vice Chairman","board","v"],
+    ]},
+  {id:"sheikh_mubarak_abdulla", n:"Sheikh Mubarak Abdulla Al-Mubarak Al-Sabah", t:2, p:62, s:"finance", roles:[
+    ["bluefive_capital","Vice Chairman","board","v"],
+    ]},
+  {id:"prince_turki_bin", n:"Prince Turki Bin Abdulaziz Bin Farhan Al Saud", t:2, p:52, s:"finance", roles:[
+    ["bluefive_capital","Board Member","board","v"],
+    ]},
+  {id:"fang_fenglei", n:"Fang Fenglei", t:2, p:52, s:"finance", roles:[
+    ["bluefive_capital","Board Member","board","v"],
+    ]},
+  {id:"adah_al_mutairi", n:"Adah Al Mutairi", t:2, p:52, s:"finance", roles:[
+    ["bluefive_capital","Board Member","board","v"],
+    ]},
+  {id:"khalid_mohamed_zaman", n:"Khalid Mohamed Zaman", t:2, p:52, s:"finance", roles:[
+    ["bluefive_capital","Board Member","board","v"],
+    ]},
+  {id:"arsjad_rasjid", n:"Arsjad Rasjid", t:2, p:52, s:"finance", roles:[
+    ["bluefive_capital","Board Member","board","v"],
     ]},
 ];
 
@@ -3280,6 +3533,8 @@ const OWNERSHIP = [
   ["adnoc_offshore","adnoc","majority-owned (60%) offshore concession JV, formed from ADMA-OPCO & ZADCO — partners Eni, TotalEnergies, CNPC/CNOOC, Inpex, ONGC Videsh","v"],
   ["ruwais_lng","adnoc","JV under construction (ADNOC 60% / Shell, TotalEnergies, bp, Mitsui 10% each); FID June 2024","v"],
   ["adnoc_maritime","adnoc","wholly-owned subsidiary — shipping & maritime logistics (formerly ADNATCO/NGSCO)","ns"],
+  ["rafed","adq","subsidiary","v"],
+  ["adic","mubadala","subsidiary","ns"],
 ];
 
 const FAMILY = [
@@ -3351,4 +3606,6 @@ const AKA = {
   nmc_healthcare:["NMC Health"],
   abu_dhabi_university:["ADU"],
   al_ain_university:["AAU"],
+  rafed:["Rafed HealthCare Supplies"],
+  cbuae:["UAE Central Bank"],
 };

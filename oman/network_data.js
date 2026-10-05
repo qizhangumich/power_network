@@ -208,6 +208,8 @@ const INSTITUTIONS = [
   {id:"sohar_university", n:"Sohar University", s:"education", t:3, p:52, short:"Sohar University"},
   {id:"oman_radio_tv", n:"Public Authority for Radio and Television", s:"comm", t:2, p:58, short:"Oman Radio & TV"},
   {id:"badr_al_samaa", n:"Badr Al Samaa Group of Hospitals", s:"health", t:3, p:54, short:"Badr Al Samaa"},
+  {id:"pld_space", n:"PLD Space", s:"tech", t:3, p:52, short:"PLD Space"},
+  {id:"raysut_ind_city", n:"Raysut Industrial City", s:"industry", t:3, p:52, short:"Raysut Ind. City"},
 ];
 
 const PEOPLE = [
@@ -1435,6 +1437,8 @@ const OWNERSHIP = [
   ["salalah_free_zone","oia","subsidiary (via Asyad Group)","ns"],
   ["marsa_lng","oq","JV between OQ Alternative Energy and TotalEnergies (FID 2023) — LNG bunkering facility at Port of Sohar","ns"],
   ["khoula_hospital","moh_om","Ministry of Health hospital (national trauma/referral centre)","ns"],
+  ["pld_space","oia","portfolio","ns"],
+  ["raysut_ind_city","madayn","industrial zone operated by","ns"],
 ];
 
 const FAMILY = [
