@@ -243,6 +243,28 @@
   .mp-act{display:flex;align-items:center;gap:6px;width:100%}
   .mp-pct{font-size:11px;color:var(--ink-faint);margin-right:auto}
   .mp-yes{color:#2F9E63;border-color:#2F9E63}
+  /* Phase 2 — personal relationship network (contacts browser) */
+  .mc-sb{font-size:11px;color:var(--ink-faint);margin:2px 0 8px}
+  .mc-dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px;flex:none;vertical-align:-1px}
+  .mc-chips{display:flex;gap:5px;flex-wrap:wrap;margin:2px 0 8px}
+  .mc-chip{font-size:10.5px;padding:2px 9px;border-radius:999px;border:1px solid var(--hairline);cursor:pointer;color:var(--ink-faint)}
+  .mc-chip.on{color:var(--accent);border-color:var(--accent-br);background:var(--accent-soft)}
+  .mc-row{display:flex;align-items:center;padding:6px 2px;border-bottom:1px solid var(--hairline2,#EFEFED);cursor:pointer}
+  .mc-row:hover{background:var(--accent-soft)}
+  .mc-main{flex:1;min-width:0;font-size:12.5px;line-height:1.35}
+  .mc-main b{font-weight:600}
+  .mc-sub{display:block;font-size:10.5px;color:var(--ink-faint);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .mc-tags i{font-style:normal;font-size:9.5px;color:var(--accent);background:var(--accent-soft);
+    border-radius:999px;padding:0 6px;margin-right:4px}
+  .mc-map{color:#2F9E63;font-size:9px;cursor:pointer;padding:0 4px}
+  .mc-edit{background:#FAFAF8;border:1px solid var(--hairline);border-radius:10px;padding:10px 12px;margin:4px 0 8px}
+  .mc-edit .mp-lbl{display:block;margin:7px 0 3px}
+  .mc-edit .mp-lbl:first-child{margin-top:0}
+  .mc-seg{display:flex;gap:5px;flex-wrap:wrap}
+  .mc-s{font-size:11px;padding:3px 11px;border-radius:999px;border:1px solid var(--hairline);cursor:pointer;color:var(--ink-faint)}
+  .mc-s.on{color:var(--sc);border-color:var(--sc);background:#fff;font-weight:600}
+  .mc-edit textarea.mp-input{width:100%;resize:vertical;font-family:inherit}
+  .mc-edit input.mp-input{width:100%}
   @media (max-width:760px){
     #mypanel{left:0;right:0;top:auto;bottom:0;width:auto;max-height:76vh;border-radius:16px 16px 0 0}
   }
@@ -420,6 +442,16 @@ const I18N = {
     acctSync:"synced privately to your account", acctGuest:"Guest mode — data stays in this browser only",
     acctHint:"Create a free account to keep your network private to you and synced across your devices.",
     askTry:"Try asking — click an example:",
+    mcTitle:"My contacts", mcAddUrl:"LinkedIn profile URL", mcAddName:"Name (optional)",
+    mcAdd:"Add contact", mcAdded:"contact added", mcDup:"already in your network",
+    mcBadUrl:"that does not look like a linkedin.com/in/… profile URL",
+    mcSearch:"Search name, company, tag…", mcAll:"All",
+    mcStrong:"Strong", mcMedium:"Medium", mcWeak:"Weak", mcUnrated:"Unrated",
+    mcStrength:"Relationship strength", mcTags:"Tags (comma-separated)",
+    mcNote:"Private note", mcSave:"Save", mcSaved:"saved ✓", mcOnMap:"On the map →",
+    mcProfile:"Profile ↗", mcImported:"imported", mcSkipped:"already known",
+    mcMore:"more — refine the search", mcNone:"No contacts match.",
+    mcHint:"Strength, tags and notes are yours alone — they describe your relationship, not the person, and sync privately with your account.",
     pathBtn:"Find path from here", pathArmed:"…now click the destination node", pathTitle:"Best known path",
     pathNone:"No path found between these nodes", pathFrom:"Path from",
     relTitle:"Relationship", relPotential:"Potential — co-mentioned in news, not yet verified",
@@ -474,6 +506,16 @@ const I18N = {
     acctSync:"已私密同步到你的账户", acctGuest:"访客模式——数据仅保存在本浏览器",
     acctHint:"创建免费账户，让你的人脉数据仅属于你本人，并在多设备间私密同步。",
     askTry:"试试这样提问——点击示例：",
+    mcTitle:"我的联系人", mcAddUrl:"LinkedIn 个人主页链接", mcAddName:"姓名（可选）",
+    mcAdd:"添加联系人", mcAdded:"已添加", mcDup:"已在你的人脉网络中",
+    mcBadUrl:"这不是 linkedin.com/in/… 格式的个人主页链接",
+    mcSearch:"搜索姓名、公司、标签…", mcAll:"全部",
+    mcStrong:"强", mcMedium:"中", mcWeak:"弱", mcUnrated:"未评级",
+    mcStrength:"关系强度", mcTags:"标签（逗号分隔）",
+    mcNote:"私人备注", mcSave:"保存", mcSaved:"已保存 ✓", mcOnMap:"在图谱中查看 →",
+    mcProfile:"主页 ↗", mcImported:"已导入", mcSkipped:"已存在",
+    mcMore:"更多——请细化搜索", mcNone:"没有匹配的联系人。",
+    mcHint:"关系强度、标签与备注仅属于你——它们描述的是你与对方的关系而非对方本人，并随你的账户私密同步。",
     pathBtn:"从此节点找路径", pathArmed:"…现在点击目标节点", pathTitle:"最可信路径",
     pathNone:"两个节点之间未找到路径", pathFrom:"路径起点",
     relTitle:"关系", relPotential:"潜在关系 — 新闻共现，尚未核实",
@@ -553,7 +595,7 @@ const AKAS = (typeof AKA !== "undefined") ? AKA : {};
    ================================================================ */
 const Personal = (() => {
   const REGION = location.pathname.split("/").filter(Boolean)[0] || "root";
-  const K_CONTACTS = "pm2_contacts", K_MATCH = "pm2_matches_v1_" + REGION;
+  const K_CONTACTS = "pm2_contacts", K_MATCH = "pm2_matches_v1_" + REGION, K_RELS = "pm2_rels";
   const load = k => { try { return JSON.parse(localStorage.getItem(k)); } catch(e){ return null; } };
   const save = (k,v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} };
 
@@ -586,26 +628,78 @@ const Personal = (() => {
     if(cell !== "" || row.length){ row.push(cell); if(row.some(c => c !== "")) rows.push(row); }
     return rows;
   }
+  function normUrl(u){
+    u = (u || "").trim();
+    if(!u) return "";
+    u = u.replace(/^https?:\/\//i, "").replace(/^www\./i, "").replace(/[?#].*$/, "").replace(/\/+$/, "");
+    return u.toLowerCase();
+  }
+  function slugName(url){
+    const m = normUrl(url).match(/linkedin\.com\/in\/([^\/]+)/);
+    if(!m) return "";
+    return decodeURIComponent(m[1]).replace(/-\w*\d\w*$/,"").split("-")
+      .map(w => w ? w[0].toUpperCase() + w.slice(1) : w).join(" ").trim();
+  }
+  const STRENGTHS = ["strong", "medium", "weak"];
+  function normStrength(s){
+    s = (s || "").trim().toLowerCase();
+    if(STRENGTHS.includes(s)) return s;
+    if(["s","close","high","3","强"].includes(s)) return "strong";
+    if(["m","mid","2","中"].includes(s)) return "medium";
+    if(["w","low","1","弱"].includes(s)) return "weak";
+    return "";
+  }
+  /* header synonyms for the generic importer; LinkedIn's Connections.csv is a subset */
+  const COLS = {
+    fn: ["first name"], ln: ["last name"],
+    n: ["name", "full name", "contact"],
+    url: ["url", "linkedin", "linkedin url", "profile url", "profile", "linkedin profile"],
+    co: ["company", "organization", "organisation", "employer", "firm"],
+    po: ["position", "title", "job title", "role"],
+    em: ["email address", "email", "e-mail"],
+    loc: ["location", "city", "country"],
+    note: ["notes", "note", "comment", "comments"],
+    tags: ["tags", "tag", "labels", "label"],
+    s: ["strength", "relationship strength", "relationship", "closeness"],
+  };
   function importCSV(text){
     const rows = parseCSV(text);
-    const hi = rows.findIndex(r => (r[0]||"").trim().toLowerCase() === "first name");
+    const hi = rows.findIndex(r => r.some(c => {
+      const v = (c || "").trim().toLowerCase();
+      return COLS.fn.includes(v) || COLS.n.includes(v) || COLS.url.includes(v);
+    }));
     if(hi < 0) return null;
     const head = rows[hi].map(h => h.trim().toLowerCase());
-    const col = name => head.indexOf(name);
-    const cFn = col("first name"), cLn = col("last name"), cUrl = col("url"),
-          cCo = col("company"), cPo = col("position");
-    const list = [];
-    rows.slice(hi+1).forEach(r => {
-      const fn = (r[cFn]||"").trim(), ln = (r[cLn]||"").trim();
-      if(!fn && !ln) return;
-      list.push({n: (fn + " " + ln).trim(), co: (r[cCo]||"").trim(),
-                 po: (r[cPo]||"").trim(), url: cUrl >= 0 ? (r[cUrl]||"").trim() : ""});
+    const col = keys => head.findIndex(h => keys.includes(h));
+    const C = {}; Object.keys(COLS).forEach(k => C[k] = col(COLS[k]));
+    const get = (r, k) => C[k] >= 0 ? (r[C[k]] || "").trim() : "";
+    let added = 0, dup = 0;
+    rows.slice(hi + 1).forEach(r => {
+      const name = get(r, "n") || (get(r, "fn") + " " + get(r, "ln")).trim() || slugName(get(r, "url"));
+      const url = get(r, "url");
+      if(!name && !url) return;
+      const res = upsert({n: name, co: get(r, "co"), po: get(r, "po"), url,
+                          em: get(r, "em"), loc: get(r, "loc")},
+                         {s: normStrength(get(r, "s")), note: get(r, "note"),
+                          tags: get(r, "tags").split(/[|;,]/).map(x => x.trim()).filter(Boolean)});
+      res.added ? added++ : dup++;
     });
-    if(!list.length) return null;
-    save(K_CONTACTS, {v:1, at: Date.now(), list});
-    localStorage.removeItem(K_MATCH);          // stale matches for this region
-    Object.keys(localStorage).forEach(k => { if(k.startsWith("pm2_matches_v1_")) localStorage.removeItem(k); });
-    return list.length;
+    if(added || dup) persist();    // dup rows may still have enriched fields / merged relationship data
+    if(added)
+      Object.keys(localStorage).forEach(k => { if(k.startsWith("pm2_matches_v1_")) localStorage.removeItem(k); });
+    return {added, dup};
+  }
+  function addContact(url, name){
+    const nu = normUrl(url);
+    if(nu && !/linkedin\.com\/in\//.test(nu)) return {error: "url"};
+    const nm = (name || "").trim() || slugName(url);
+    if(!nm && !nu) return {error: "empty"};
+    const res = upsert({n: nm, co: "", po: "", url: (url || "").trim(), em: "", loc: ""}, {});
+    if(res.added){
+      persist();
+      Object.keys(localStorage).forEach(k => { if(k.startsWith("pm2_matches_v1_")) localStorage.removeItem(k); });
+    }
+    return res;
   }
 
   /* ---- indexes over the current map ---- */
@@ -675,12 +769,61 @@ const Personal = (() => {
     return {v:1, at: Date.now(), byC, instByC};
   }
 
-  /* ---- public state ---- */
-  const contacts = load(K_CONTACTS);
+  /* ---- public state ----
+     v2 model: contact = the person (shared facts); relationship = the user's
+     private view of that person (strength, tags, notes) in pm2_rels keyed by
+     the contact's stable cid. Contacts are append-only, so the list index
+     doubles as the cid and the match cache stays valid across additions. */
+  let contacts = load(K_CONTACTS);
+  let rels = load(K_RELS) || {};
+  if(contacts && contacts.list && (contacts.v || 1) < 2){      // migrate v1 -> v2
+    contacts.list.forEach((c, i) => { if(c.i === undefined) c.i = i; });
+    contacts.v = 2; contacts.next = contacts.list.length;
+    save(K_CONTACTS, contacts);
+  }
+  function persist(){ contacts.at = Date.now(); save(K_CONTACTS, contacts); save(K_RELS, rels); }
+  function upsert(c, r){
+    if(!contacts) contacts = {v: 2, at: Date.now(), next: 0, list: []};
+    const nu = normUrl(c.url);
+    const nk = key(toks(c.n)) + "|" + key(toks(c.co));
+    const hit = contacts.list.find(x =>
+      (nu && normUrl(x.url) === nu) ||
+      (!nu && c.n && key(toks(x.n)) + "|" + key(toks(x.co)) === nk));
+    if(hit){                      // existing contact: enrich blanks, merge relationship
+      ["co", "po", "em", "loc", "url"].forEach(f => { if(!hit[f] && c[f]) hit[f] = c[f]; });
+      if(r && (r.s || r.note || (r.tags && r.tags.length))) setRel(hit.i, r, true);
+      return {added: false, cid: hit.i};
+    }
+    c.i = contacts.next++;
+    contacts.list.push(c);
+    if(r && (r.s || r.note || (r.tags && r.tags.length))) setRel(c.i, r, true);
+    return {added: true, cid: c.i};
+  }
+  function rel(cid){
+    return rels[cid] || {s: "", tags: [], note: ""};
+  }
+  function setRel(cid, patch, defer){
+    const cur = rels[cid] || {s: "", tags: [], note: "", added: new Date().toISOString().slice(0, 10)};
+    if(patch.s !== undefined) cur.s = normStrength(patch.s);
+    if(patch.tags !== undefined) cur.tags = [...new Set(patch.tags.map(x => String(x).trim()).filter(Boolean))];
+    if(patch.note !== undefined) cur.note = String(patch.note);
+    rels[cid] = cur;
+    if(!defer) persist();
+    return cur;
+  }
   let matches = load(K_MATCH);
   if(contacts && contacts.list && !matches){
     matches = runMatch(contacts.list);
     save(K_MATCH, matches);
+  }
+  function relForPerson(pid){     // relationship with the contact matched to a map person
+    if(!contacts || !matches) return null;
+    for(const ci of Object.keys(matches.byC)){
+      const m = matches.byC[ci];
+      if(m.pid === pid && (m.st === "auto" || m.st === "confirmed"))
+        return rel(contacts.list[ci] ? contacts.list[ci].i : ci);
+    }
+    return null;
   }
   function decide(ci, ok){
     if(!matches || !matches.byC[ci]) return;
@@ -704,11 +847,22 @@ const Personal = (() => {
         direct.add(m.pid);
         roleInsts(byId[m.pid] || {}).forEach(id => inst.add(id));
       }
-      if(inst.size || (m && m.st !== "rejected"))
+      if(inst.size || (m && m.st !== "rejected")){
+        const rl = rel(c.i !== undefined ? c.i : i);
         out.push({n: c.n, pos: c.po, company: c.co, inst: [...inst],
+                  s: rl.s, tags: rl.tags || [],
                   pid: m && m.st !== "rejected" && m.st !== "review" ? m.pid : null});
+      }
     });
     return {contacts: out, direct};
+  }
+  function list(){                 // full browser view: contact + relationship + match
+    if(!contacts) return [];
+    return contacts.list.map((c, i) => {
+      const m = matches && matches.byC[i];
+      return {c, rel: rel(c.i !== undefined ? c.i : i),
+              pid: m && (m.st === "auto" || m.st === "confirmed") ? m.pid : null};
+    });
   }
   function stats(){
     if(!contacts) return null;
@@ -716,14 +870,17 @@ const Personal = (() => {
     const matched = matches ? Object.values(matches.byC).filter(m => m.st === "auto" || m.st === "confirmed").length : 0;
     const reach = new Set();
     derived().contacts.forEach(c => c.inst.forEach(id => reach.add(id)));
-    return {total: contacts.list.length, matched, review: q, reach: reach.size, at: contacts.at};
+    const sb = {strong: 0, medium: 0, weak: 0, unrated: 0};
+    contacts.list.forEach(c => { sb[rel(c.i).s || "unrated"]++; });
+    return {total: contacts.list.length, matched, review: q, reach: reach.size, at: contacts.at, sb};
   }
   function wipe(){
     Object.keys(localStorage).forEach(k => {
       if(k.startsWith("pm2_") && k !== "pm2_token" && k !== "pm2_email") localStorage.removeItem(k);
     });
   }
-  return {has: !!(contacts && contacts.list), importCSV, decide, reviewQueue, derived, stats, wipe};
+  return {has: !!(contacts && contacts.list && contacts.list.length), importCSV, addContact,
+          list, rel, setRel, relForPerson, decide, reviewQueue, derived, stats, wipe};
 })();
 
 /* merge: file-based my_network.js (legacy, optional) + in-browser personal layer */
@@ -1024,9 +1181,13 @@ function computePath(a, b){
    depth ≤ their depth+1, which captures the main spec distinction. */
 function accessFor(target){
   if(!MYNET) return null;
-  if(target.kind === "person" && target.myDirect)
-    return {score: 95, hops: 1, direct: true, possible: false, ns: false,
+  if(target.kind === "person" && target.myDirect){
+    // the user's own strength rating of this relationship shapes the score
+    const rl = Personal.relForPerson(target.id);
+    const sc = {strong: 97, medium: 90, weak: 82}[rl && rl.s] || 93;
+    return {score: sc, hops: 1, direct: true, possible: false, ns: false, strength: rl && rl.s,
             path: {nodes: [target], edges: [], edgeSet: new Set(), t0: 0}};
+  }
   const prev = new Map([[target, null]]);
   let frontier = [target], personHit = null, instHit = null;
   for(let d = 1; d <= 3 && frontier.length && !personHit; d++){
@@ -1559,7 +1720,9 @@ function select(n){
   if(n.contacts.length){
     html += `<div class="sect" style="color:#2F9E63">${t().linkedin} (${n.contacts.length})</div>`;
     n.contacts.slice(0,15).forEach(c => {
-      html += `<div class="role"><span class="rt">${c.n}</span><br><span style="color:var(--ink-faint);font-size:10.5px">${c.pos||""}${c.company ? " · "+c.company : ""}</span></div>`;
+      const sdot = c.s ? `<span class="mc-dot" style="background:${S_COL[c.s]};border:1px solid ${S_COL[c.s]}" title="${sName(c.s)}"></span>` : "";
+      const ctags = (c.tags && c.tags.length) ? ` <span class="mc-tags">${c.tags.slice(0,3).map(tg => `<i>${tg}</i>`).join("")}</span>` : "";
+      html += `<div class="role"><span class="rt">${sdot}${c.n}</span>${ctags}<br><span style="color:var(--ink-faint);font-size:10.5px">${c.pos||""}${c.company ? " · "+c.company : ""}</span></div>`;
     });
   }
   html += `<div class="sect">${t().network} (${n.adj.filter(a=>a.e.kind!=="pot").length})</div>`;
@@ -1986,13 +2149,73 @@ function wireAcct(){
   if(li) li.onclick = go("login");
   if(rg) rg.onclick = go("register");
 }
+let mcQuery = "", mcFilter = "all", mcOpen = null;
+const S_COL = {strong: "#2F9E63", medium: "#B7791F", weak: "#9A9CA6", "": "transparent"};
+function sName(s){ return s === "strong" ? t().mcStrong : s === "medium" ? t().mcMedium
+                       : s === "weak" ? t().mcWeak : t().mcUnrated; }
+function escH(s){ return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
+                       .replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+
+function addFormHtml(){
+  return `<div class="sect">${t().mcAdd}</div>`
+       + `<div class="mp-inrow"><input class="mp-input" id="mc-url" placeholder="${t().mcAddUrl}">`
+       + `<input class="mp-input" id="mc-name" placeholder="${t().mcAddName}" style="max-width:140px"></div>`
+       + `<div class="pathbtn" id="mc-add">${t().mcAdd}</div>`;
+}
+
+function contactsHtml(){
+  const all = Personal.list();
+  const q = mcQuery.trim().toLowerCase();
+  const rows = all.filter(x => {
+    if(mcFilter !== "all" && (x.rel.s || "unrated") !== mcFilter) return false;
+    if(!q) return true;
+    return (x.c.n + " " + x.c.co + " " + x.c.po + " " + (x.rel.tags || []).join(" "))
+           .toLowerCase().includes(q);
+  });
+  let html = `<div class="sect">${t().mcTitle} (${all.length})</div>`
+           + `<div class="mp-inrow"><input class="mp-input" id="mc-q" placeholder="${t().mcSearch}" value="${escH(mcQuery)}"></div>`
+           + `<div class="mc-chips">` + ["all", "strong", "medium", "weak", "unrated"].map(f =>
+               `<span class="mc-chip${mcFilter === f ? " on" : ""}" data-f="${f}">`
+             + (f === "all" ? t().mcAll : sName(f === "unrated" ? "" : f)) + "</span>").join("") + "</div>";
+  rows.slice(0, 40).forEach(x => {
+    const cid = x.c.i, r = x.rel, open = mcOpen === cid;
+    html += `<div class="mc-row" data-cid="${cid}">`
+          + `<span class="mc-dot" style="background:${S_COL[r.s] || "transparent"};border:1px solid ${r.s ? S_COL[r.s] : "var(--hairline)"}" title="${sName(r.s)}"></span>`
+          + `<span class="mc-main"><b>${escH(x.c.n) || "?"}</b>`
+          + (x.c.po || x.c.co ? `<span class="mc-sub">${escH(x.c.po)}${x.c.po && x.c.co ? " · " : ""}${escH(x.c.co)}</span>` : "")
+          + ((r.tags || []).length ? `<span class="mc-tags">${r.tags.map(tg => `<i>${escH(tg)}</i>`).join("")}</span>` : "")
+          + `</span>`
+          + (x.pid ? `<span class="mc-map" data-go-p="${x.pid}" title="${t().mcOnMap}">●</span>` : "")
+          + `</div>`;
+    if(open){
+      html += `<div class="mc-edit" data-ecid="${cid}">`
+            + `<span class="mp-lbl">${t().mcStrength}</span><div class="mc-seg">`
+            + ["", "strong", "medium", "weak"].map(s =>
+                `<span class="mc-s${(r.s || "") === s ? " on" : ""}" data-s="${s}" style="--sc:${S_COL[s] || "var(--ink-faint)"}">${sName(s)}</span>`).join("") + `</div>`
+            + `<span class="mp-lbl">${t().mcTags}</span>`
+            + `<input class="mp-input" id="mc-tags" value="${escH((r.tags || []).join(", "))}">`
+            + `<span class="mp-lbl">${t().mcNote}</span>`
+            + `<textarea class="mp-input" id="mc-note" rows="2">${escH(r.note || "")}</textarea>`
+            + `<div style="margin-top:6px"><div class="pathbtn mc-save">${t().mcSave}</div> `
+            + (x.c.url ? `<a class="pathbtn" style="text-decoration:none" target="_blank" rel="noopener" href="${escH(/^https?:/.test(x.c.url) ? x.c.url : "https://" + x.c.url)}">${t().mcProfile}</a> ` : "")
+            + (x.pid ? `<div class="pathbtn" data-go-p="${x.pid}">${t().mcOnMap}</div>` : "")
+            + `</div></div>`;
+    }
+  });
+  if(!rows.length) html += `<p class="mp-p" style="color:var(--ink-faint)">${t().mcNone}</p>`;
+  if(rows.length > 40) html += `<p class="mp-p" style="color:var(--ink-faint)">+${rows.length - 40} ${t().mcMore}</p>`;
+  html += `<p class="mp-p" style="color:var(--ink-faint);font-size:11px">${t().mcHint}</p>`;
+  return html;
+}
+
 function renderMyPanel(){
   const st = Personal.stats();
   let html = `<h2>${t().myNet}</h2>` + (Acct.on() ? "" : `<div class="mp-priv">🔒 ${t().mpPrivacy}</div>`);
   html += acctHtml();
   if(!st){
-    html += `<p class="mp-p">${t().mpConnect}</p><p class="mp-p" style="color:var(--ink-faint)">${t().mpHow}</p>`
-          + `<label class="pathbtn mp-file">${t().mpImport}<input type="file" id="mp-in" accept=".csv,text/csv" hidden></label>`;
+    html += `<p class="mp-p">${t().mpConnect}</p>` + addFormHtml()
+          + `<p class="mp-p" style="color:var(--ink-faint);margin-top:12px">${t().mpHow}</p>`
+          + `<label class="pathbtn mp-file">${t().mpImport}<input type="file" id="mp-in" accept=".csv,.xlsx,.xls" hidden></label>`;
   } else {
     const q = Personal.reviewQueue();
     html += `<div class="mp-nums">`
@@ -2000,42 +2223,114 @@ function renderMyPanel(){
           + `<div><b>${st.matched}</b><span>${t().mpMatchedTo}</span></div>`
           + `<div><b>${st.reach}</b><span>${t().mpReach}</span></div>`
           + (q.length ? `<div><b style="color:#B7791F">${q.length}</b><span>${t().mpReview}</span></div>` : "")
-          + `</div>`;
+          + `</div>`
+          + `<div class="mc-sb">` + ["strong", "medium", "weak", "unrated"].map(s =>
+              `<span><i class="mc-dot" style="background:${S_COL[s === "unrated" ? "" : s] || "transparent"};border:1px solid ${s === "unrated" ? "var(--hairline)" : S_COL[s]}"></i>${st.sb[s]} ${sName(s === "unrated" ? "" : s)}</span>`).join(" · ") + `</div>`;
+    html += addFormHtml();
     if(q.length){
       html += `<div class="sect">${t().mpReviewTitle}</div>`;
       q.slice(0, 6).forEach(x => {
         const role = (x.p.roles && x.p.roles[0]) ? x.p.roles[0][1] + ", " + (byId[x.p.roles[0][0]] ? byId[x.p.roles[0][0]].short : "") : "";
         html += `<div class="mp-card">`
-              + `<div class="mp-side"><span class="mp-lbl">${t().mpYourContact}</span><b>${x.c.n}</b><span>${x.c.po||""}${x.c.co ? " · " + x.c.co : ""}</span></div>`
-              + `<div class="mp-side"><span class="mp-lbl">${t().mpInMap}</span><b>${x.p.name}</b><span>${role}</span></div>`
+              + `<div class="mp-side"><span class="mp-lbl">${t().mpYourContact}</span><b>${escH(x.c.n)}</b><span>${escH(x.c.po||"")}${x.c.co ? " · " + escH(x.c.co) : ""}</span></div>`
+              + `<div class="mp-side"><span class="mp-lbl">${t().mpInMap}</span><b>${escH(x.p.name)}</b><span>${escH(role)}</span></div>`
               + `<div class="mp-act"><span class="mp-pct">${Math.round(x.m.sc*100)}%</span>`
               + `<div class="pathbtn mp-yes" data-ci="${x.ci}">${t().mpYes}</div>`
               + `<div class="pathbtn mp-no" data-ci="${x.ci}">${t().mpNo}</div></div></div>`;
       });
-    } else {
-      html += `<p class="mp-p" style="color:var(--ink-faint)">${t().mpNone}</p>`;
     }
+    html += contactsHtml();
     html += `<div style="margin-top:14px">`
           + (mpDirty ? `<div class="pathbtn" id="mp-apply" style="background:var(--accent,#4C57C5);color:#fff">${t().mpApply}</div> ` : "")
-          + `<label class="pathbtn mp-file">${t().mpImport}<input type="file" id="mp-in" accept=".csv,text/csv" hidden></label> `
+          + `<label class="pathbtn mp-file">${t().mpImport}<input type="file" id="mp-in" accept=".csv,.xlsx,.xls" hidden></label> `
           + `<div class="pathbtn" id="mp-del" style="color:#B33">${t().mpDelete}</div></div>`;
   }
   document.getElementById("mp-body").innerHTML = html;
+  wireMyPanel();
+  wireAcct();
+}
+
+function loadSheetJS(){
+  return new Promise((res, rej) => {
+    if(window.XLSX) return res();
+    const s = document.createElement("script");
+    s.src = "https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js";
+    s.onload = () => res(); s.onerror = () => rej(new Error("xlsx lib"));
+    document.head.appendChild(s);
+  });
+}
+
+function wireMyPanel(){
   const fin = document.getElementById("mp-in");
   if(fin) fin.onchange = ev => {
     const f = ev.target.files[0];
     if(!f) return;
+    const isX = /\.xlsx?$/i.test(f.name);
     const rd = new FileReader();
     rd.onload = async () => {
-      const nImp = Personal.importCSV(String(rd.result));
-      if(nImp){
-        toast("✓ " + nImp + " " + t().mpImported);
+      let text;
+      try {
+        if(isX){
+          await loadSheetJS();
+          const wb = window.XLSX.read(rd.result, {type: "array"});
+          text = window.XLSX.utils.sheet_to_csv(wb.Sheets[wb.SheetNames[0]]);
+        } else text = String(rd.result);
+      } catch(e){ toast("⚠ " + e.message); return; }
+      const res = Personal.importCSV(text);
+      if(res && res.added){
+        toast(`✓ ${res.added} ${t().mcImported}` + (res.dup ? ` · ${res.dup} ${t().mcSkipped}` : ""));
         await Acct.push();
-        setTimeout(() => location.reload(), 500);
-      } else toast("Connections.csv?");
+        setTimeout(() => location.reload(), 600);
+      } else if(res){
+        toast(`${res.dup} ${t().mcSkipped}`);
+        Acct.push(); renderMyPanel();
+      } else toast("CSV / Connections.csv?");
     };
-    rd.readAsText(f);
+    isX ? rd.readAsArrayBuffer(f) : rd.readAsText(f);
   };
+  const addBtn = document.getElementById("mc-add");
+  if(addBtn) addBtn.onclick = () => {
+    const url = document.getElementById("mc-url").value;
+    const name = document.getElementById("mc-name").value;
+    const res = Personal.addContact(url, name);
+    if(res.error === "url") return toast("⚠ " + t().mcBadUrl);
+    if(res.error) return;
+    if(!res.added){ toast(t().mcDup); return; }
+    toast("✓ " + t().mcAdded);
+    mcOpen = res.cid; mcQuery = ""; mcFilter = "all";
+    Acct.push();
+    renderMyPanel();
+  };
+  const mq = document.getElementById("mc-q");
+  if(mq){
+    mq.oninput = () => { mcQuery = mq.value; const keep = mq.selectionStart; renderMyPanel();
+      const nq = document.getElementById("mc-q"); nq.focus(); nq.setSelectionRange(keep, keep); };
+  }
+  document.querySelectorAll(".mc-chip").forEach(c => c.onclick = () => {
+    mcFilter = c.getAttribute("data-f"); renderMyPanel();
+  });
+  document.querySelectorAll(".mc-row").forEach(rw => rw.onclick = ev => {
+    if(ev.target.closest("[data-go-p]")) return;
+    const cid = +rw.getAttribute("data-cid");
+    mcOpen = mcOpen === cid ? null : cid;
+    renderMyPanel();
+  });
+  document.querySelectorAll(".mc-edit .mc-s").forEach(b => b.onclick = () => {
+    const cid = +b.closest(".mc-edit").getAttribute("data-ecid");
+    Personal.setRel(cid, {s: b.getAttribute("data-s")});
+    Acct.push(); renderMyPanel();
+  });
+  document.querySelectorAll(".mc-edit .mc-save").forEach(b => b.onclick = () => {
+    const ed = b.closest(".mc-edit"), cid = +ed.getAttribute("data-ecid");
+    Personal.setRel(cid, {tags: ed.querySelector("#mc-tags").value.split(/[,;，]/),
+                          note: ed.querySelector("#mc-note").value});
+    Acct.push(); toast(t().mcSaved); renderMyPanel();
+  });
+  document.querySelectorAll("[data-go-p]").forEach(el => el.onclick = ev => {
+    ev.stopPropagation();
+    const n = byId[el.getAttribute("data-go-p")];
+    if(n){ myPanel.classList.remove("open"); select(n); centerOn(n); }
+  });
   document.querySelectorAll(".mp-yes,.mp-no").forEach(b => b.onclick = () => {
     Personal.decide(b.getAttribute("data-ci"), b.classList.contains("mp-yes"));
     mpDirty = true;
@@ -2046,7 +2341,6 @@ function renderMyPanel(){
   if(ap) ap.onclick = () => location.reload();
   const del = document.getElementById("mp-del");
   if(del) del.onclick = async () => { await Acct.deleteRemote(); Personal.wipe(); location.reload(); };
-  wireAcct();
 }
 function openMyPanel(){ renderMyPanel(); myPanel.classList.add("open"); }
 document.getElementById("mp-close").onclick = () => {
@@ -2111,6 +2405,7 @@ applyLang();
 if(S.lite && !S.liteOff) toast(t().showingTop, 3500);
 loop();
 
-window.__map = {S, nodes, edges, draw, resize, fitView, select, step, setView, runAsk, computePath, byId};
+window.__map = {S, nodes, edges, draw, resize, fitView, select, step, setView, runAsk, computePath, byId,
+                Personal, openMyPanel, renderMyPanel};
 })();
 </script></body></html>

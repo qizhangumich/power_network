@@ -1,23 +1,24 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
+ASB Capital,2,bahrain,pending,2026-09-28,2026-10-04,ASB Capital secures top role in $500m KIB sukuk
+Raysut Industrial City,2,oman,pending,2026-10-03,2026-10-04,Oman's Raysut Industrial City attracts nine new projects in H1
+US Marine,2,kuwait,pending,2026-10-04,2026-10-04,US Marine arrested in Okinawa over murder of woman
+Alternatif Bank,2,qatar,pending,2026-10-04,2026-10-04,"Commercial Bank, Alternatif Bank support Turkish companies’ Gulf expansion"
 UAE Central Bank,2,,pending,2026-09-24,2026-10-03,UAE Central Bank bars Bank Melli Iran from conducting transactions
-Raysut Industrial City,2,oman,pending,2026-10-03,2026-10-04,Raysut Industrial City localises nine projects worth over OMR6.5mn
-ASB Capital,2,bahrain,pending,2026-09-28,2026-10-04,ASB Capital partners with StepStone in launching private markets offering
-Abu Dhabi Investment,14,abudhabi,rejected,2026-09-16,2026-10-02,"Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake"
-British Airways,9,dubai,rejected,2026-09-15,2026-09-19,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
+Abu Dhabi Investment,14,abudhabi,rejected,2026-09-16,2026-10-02,Abu Dhabi Investment Authority among others issued shares in Neogen Chemicals' ₹600 crore QIP
+British Airways,9,dubai,rejected,2026-09-15,2026-09-19,British Airways cancels Abu Dhabi flights indefinitely
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
 Than Financial,5,abudhabi,rejected,2026-09-25,2026-09-26,Manchester City Found Guilty Of More Than 100 Financial Rule Breaches
-Hanwha Systems,4,abudhabi,rejected,2026-09-16,2026-09-17,Hanwha Systems to work with UAE’s Edge Group on integrated air defense network
-Salalah Airport,4,oman,rejected,2026-09-19,2026-09-20,"Salalah Airport handles 687,000 passengers during khareef"
-Municipal Council,4,oman,rejected,2026-09-21,2026-09-30,Municipal Council Elections committee approves preliminary candidate lists
-Asian Infrastructure Investment Bank,4,qatar,rejected,2026-09-27,2026-09-28,"Asian Infrastructure Investment Bank can support Gulf connectivity, integration projects: Minister of Finance"
-Hamad University,4,qatar,rejected,2026-09-29,2026-09-30,"HH the Amir Issues Amiri Decision Establishing, Organizing Tamim bin Hamad University for Military and Technology Sciences"
+Hanwha Systems,4,abudhabi,rejected,2026-09-16,2026-09-17,Hanwha Systems teams up with UAE defense giant to build integrated air defense network
+Salalah Airport,4,oman,rejected,2026-09-19,2026-09-20,"Nearly 700,000 passengers use Salalah Airport in Khareef 2026"
+Municipal Council,4,oman,rejected,2026-09-21,2026-09-30,Municipal Council discusses means to develop Rimal Al Sharqiyah tourism area
+Asian Infrastructure Investment Bank,4,qatar,rejected,2026-09-27,2026-09-28,11th session of Asian Infrastructure Investment Bank meetings kicks off tomorrow in Doha
+Hamad University,4,qatar,rejected,2026-09-29,2026-09-30,Amir appoints Board of Trustees of Tamim bin Hamad University for Military and Technology Sciences
 Hamad University for Military and Technology,4,qatar,rejected,2026-09-29,2026-09-30,"HH the Amir Issues Amiri Decision Establishing, Organizing Tamim bin Hamad University for Military and Technology Sciences"
+Explore Sustainable Energy,3,abudhabi,rejected,2026-09-17,2026-09-19,Beam Global and Masdar City Free Zone Signs Memorandum of Understanding to Explore Sustainable Energy Infrastructure Opportunities
 Syrian Airlines,3,abudhabi,rejected,2026-09-20,2026-09-21,"Syrian Airlines expands European network with direct flights to Copenhagen, Vienna"
-Explore Sustainable Energy,3,abudhabi,rejected,2026-09-17,2026-09-19,Beam Global and Masdar City Free Zone Sign MOU to Explore Sustainable Energy Infrastructure Opportunities
-US Energy,3,oman,rejected,2026-09-13,2026-09-27,"Iran war latest: East-West pipeline will reopen within days, US Energy Secretary says"
+Shahba Bank,3,qatar,rejected,2026-09-17,2026-09-22,Qatari group Estithmar expands into Syria with Shahba Bank stake
 OPEC Fund,3,oman,rejected,2026-09-16,2026-09-19,OPEC Fund earmarks $40m for Oman’s Yiti Sustainable City project
 Qatar Real Estate,3,qatar,rejected,2026-09-21,2026-09-27,Qatar Real Estate Forum 2026: Focus on tokenization and global investment
-Shahba Bank,3,qatar,rejected,2026-09-17,2026-09-22,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Aurion Capital,3,qatar,rejected,2026-09-23,2026-09-24,"Invest Qatar, Aurion Capital, LG NOVA Engage to Advance Technology Investments, Venture Building in Qatar"
 QNB Capital,3,qatar,added,2026-09-29,2026-09-30,QNB Capital acts as global coordinator on Qatar’s $3bn dual-tranche bond issuance
 Adani Airport Holdings,3,abudhabi,rejected,2026-09-10,2026-09-10,IHC backs Adani Airport Holdings’ $1bn fundraising round
@@ -29,40 +30,40 @@ TAQA Water Solutions,3,abudhabi,added,2026-09-09,2026-09-09,TAQA Water Solutions
 Masdar City,3,abudhabi,added,2026-08-26,2026-09-03,"Masdar City Launches Emirati Package to Empower National Entrepreneurs, Aligning with Emirati Women's Day and the Year of Family"
 Dubai Healthcare City,3,dubai,added,2026-09-10,2026-09-11,"Dubai Healthcare City begins work on Dh3b Creek GardensMore than 1,400 homes planned in a 127,000-square-metre community overlooking Dubai C"
 SNB Capital,3,saudi,added,2026-09-03,2026-09-05,SNB Capital North America Index Fund
-Abu Dhabi Construction,2,abudhabi,rejected,2026-09-23,2026-10-01,$13bn Rich Gas Development: Tecnimont Breaks Ground on $4.3bn Ruwais Phase 3 Expansion in Abu Dhabi
-Lenskart Solutions,2,abudhabi,rejected,2026-09-21,2026-09-21,"ADIA sells 2.01% stake in Lenskart Solutions for ₹2,390 crore"
-High Altitude Platform Systems,2,abudhabi,rejected,2026-09-23,2026-09-23,Space42 and Telespazio Ibérica Begin Wildfire Monitoring in Spain supported by High Altitude Platform Systems
-Port Technology,2,northern,rejected,2026-09-21,2026-10-02,"Etihad Rail, AD Ports debut direct Fujairah-ICAD route"
-Brixmor Property Group,2,abudhabi,rejected,2026-09-28,2026-09-29,"Brixmor Property Group, Everview Partners Acquire Slate Grocery REIT for $2.34B"
 Balkan Green Energy,2,abudhabi,rejected,2026-09-14,2026-09-15,"Masdar, Taaleri create largest Western Balkans wind hub with Čibuk 2 launch"
-Industrial City,2,northern,rejected,2026-09-20,2026-09-20,"In partnership with AD Ports Group, Etihad Rail launches integrated rail service connecting Fujairah Terminals with Industrial City of Abu D"
-Abu Dhabi Industrial City,2,northern,rejected,2026-09-20,2026-09-20,Etihad Rail Links Fujairah to Abu Dhabi Industrial City
-Liveability and Investment,2,abudhabi,rejected,2026-09-30,2026-10-01,Khaled bin Mohamed bin Zayed attends Liveability and Investment Exhibition (LIVEX 2026)
-Executive Council,2,abudhabi,rejected,2026-09-17,2026-09-18,Abu Dhabi sets out next steps: AI joins Executive Council meeting for first time
 Al Seer Marine,2,abudhabi,added,2026-09-16,2026-09-16,Abu Dhabi's L'imad buys AD Ports stake from Al Seer Marine for $632mln
-Turkish Airlines,2,,rejected,2026-09-24,2026-09-25,"Turkish Airlines, Boeing finalize 150 737 MAX order2m read"
-World Wind Energy,2,oman,rejected,2026-09-25,2026-09-26,Oman to host Gulf’s first World Wind Energy Conference in 2027
+Executive Council,2,abudhabi,rejected,2026-09-17,2026-09-18,AD CP chairs Executive Council meeting to use agentic AI platform
+Industrial City,2,northern,rejected,2026-09-20,2026-09-20,"Etihad Rail, AD Ports Group launch integrated rail service connecting Fujairah Terminals with Industrial City of Abu Dhabi"
+Abu Dhabi Industrial City,2,northern,rejected,2026-09-20,2026-09-20,Etihad Rail Links Fujairah to Abu Dhabi Industrial City
+Lenskart Solutions,2,abudhabi,rejected,2026-09-21,2026-09-21,Abu Dhabi Investment Authority sells over 2% stake in Lenskart Solutions
+Port Technology,2,northern,rejected,2026-09-21,2026-10-02,"Etihad Rail, AD Ports debut direct Fujairah-ICAD route"
+Abu Dhabi Construction,2,abudhabi,rejected,2026-09-23,2026-10-01,$13bn Rich Gas Development: Tecnimont Breaks Ground on $4.3bn Ruwais Phase 3 Expansion in Abu Dhabi
+High Altitude Platform Systems,2,abudhabi,rejected,2026-09-23,2026-09-23,Space42 and Telespazio Ibérica Begin Wildfire Monitoring in Spain supported by High Altitude Platform Systems
+Brixmor Property Group,2,abudhabi,rejected,2026-09-28,2026-09-29,"Brixmor Property Group, Everview Partners Acquire Slate Grocery REIT for $2.34B"
+Liveability and Investment,2,abudhabi,rejected,2026-09-30,2026-10-01,Khaled bin Mohamed bin Zayed attends Liveability and Investment Exhibition (LIVEX 2026)
+Skytrax World Airport,2,bahrain,rejected,2026-09-16,2026-09-16,BIA wins three prestigious Skytrax World Airport Awards
+Ebara Elliott Energy,2,bahrain,rejected,2026-09-16,2026-09-21,Ebara Elliott Energy secures contract for hydrogen aircraft refuelling tech
+Noor Energy,2,bahrain,added,2026-09-28,2026-09-28,DEWA completes $2.7bn refinancing of Noor Energy 1
+Al-Shaheed Park,2,kuwait,rejected,2026-10-01,2026-10-01,"Al-Shaheed Park Phase III opens, featuring new cultural landmark"
 Special Economic Zone,2,oman,rejected,2026-09-23,2026-09-23,His Majesty the Sultan visits Special Economic Zone in Duqm
-Labour Ministry,2,oman,added,2026-09-19,2026-09-30,Labour Ministry urges shift to capability economy
+World Wind Energy,2,oman,rejected,2026-09-25,2026-09-26,Oman to host Gulf’s first World Wind Energy Conference in 2027
+US Energy,2,oman,rejected,2026-09-15,2026-09-27,"Only way to a better America is more energy addition, says US Energy Secretary"
 Leadership Development,2,oman,rejected,2026-09-29,2026-09-30,RAM launches Leadership Development Programme in the Food Security Sector
-Honeywell Technologies,2,qatar,rejected,2026-09-23,2026-09-24,"QFZ, Honeywell Technologies partner to establish manufacturing and service hub in Qatar"
-Port City,2,qatar,rejected,2026-09-28,2026-09-29,"Qatar Chamber briefed on investment opportunities in Port City Colombo, Sri Lanka"
-Indian Finance,2,qatar,rejected,2026-09-29,2026-09-30,Minister of State for Foreign Trade Affairs Meets Indian Finance and Corporate Affairs Minister
-QFBA Finance,2,qatar,rejected,2026-09-22,2026-09-22,Ahlibank announces platinum sponsorship of QFBA Finance Researcher Award 2026
+Labour Ministry,2,oman,added,2026-09-19,2026-09-30,Labour Ministry urges shift to capability economy
 Canada Investment,2,qatar,rejected,2026-09-16,2026-09-17,Qatar participates in Canada Investment Summit
 Estithmar Holding,2,qatar,rejected,2026-09-17,2026-09-24,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
+Secretary-General of Ministry,2,qatar,rejected,2026-09-20,2026-09-21,"Secretary-General of Ministry of Foreign Affairs Receives Copies of Credentials of Cyprus, Malawi Ambassadors"
+QFBA Finance,2,qatar,rejected,2026-09-22,2026-09-22,Ahlibank announced as platinum sponsor of QFBA Finance Researcher Award 2026
+Honeywell Technologies,2,qatar,rejected,2026-09-23,2026-09-24,"QFZ, Honeywell Technologies partner to establish manufacturing and service hub in Qatar"
 Azerbaijan International Investment,2,qatar,rejected,2026-09-26,2026-09-27,Qatar Chamber participates in ‘Azerbaijan International Investment Forum’
-Secretary-General of Ministry,2,qatar,rejected,2026-09-20,2026-09-21,Secretary-General of Ministry of Foreign Affairs meets Swedish Ambassador
-Advanced Energy,2,saudi,rejected,2026-09-17,2026-09-22,Advanced Energy Trading and Contracting
-Ebara Elliott Energy,2,bahrain,rejected,2026-09-16,2026-09-21,Ebara Elliott Energy expands Houston turbomachinery service centre
-Noor Energy,2,bahrain,added,2026-09-28,2026-09-28,DEWA completes $2.7bn refinancing of Noor Energy 1
-Skytrax World Airport,2,bahrain,rejected,2026-09-16,2026-09-16,BIA wins three prestigious Skytrax World Airport Awards
-Siemens Energy,2,saudi,rejected,2026-09-13,2026-10-02,Siemens Energy’s supervisory and executive boards meet at Dammam Hub
-London House Exchange,2,dubai,rejected,2026-10-01,2026-10-02,UAE investor GII acquires majority stake in UK’s London House Exchange
-UAE-listed MAIR Group,2,,added,2026-09-24,2026-09-24,UAE-listed MAIR Group to acquire 70% stake in Espressolab owner Eslab
+Port City,2,qatar,rejected,2026-09-28,2026-09-29,"Qatar Chamber briefed on investment opportunities in Port City Colombo, Sri Lanka"
+Indian Finance,2,qatar,rejected,2026-09-29,2026-09-30,"QBA, Indian Finance Minister explore boosting trade cooperation, investment opportunities"
 US Treasury Department,2,,rejected,2026-09-23,2026-10-02,UAE approves sale of Egypt’s Banque Misr branches
 Oman Investment,2,oman,rejected,2026-09-24,2026-09-24,Oman floats $7bn of tenders for private sector
-Al-Shaheed Park,2,kuwait,rejected,2026-10-01,2026-10-01,Prime Minister opens Al-Shaheed Park Phase III on behalf of Amir
+Turkish Airlines,2,,rejected,2026-09-24,2026-09-25,Turkish Airlines orders 150 Boeing Max jets
+UAE-listed MAIR Group,2,,added,2026-09-24,2026-09-24,UAE-listed MAIR Group to acquire 70% stake in Espressolab owner Eslab
+London House Exchange,2,dubai,rejected,2026-10-01,2026-10-02,Dubai’s GII buys stake in UK fractional property platform
+Advanced Energy,2,saudi,rejected,2026-09-17,2026-09-22,SIDC appoints financial advisor on Advanced Energy buyout
 Sobha Realty,2,dubai,added,2026-09-28,2026-10-02,Dubai’s Sobha Realty eyes $600m US housing push and targets further expansion
 Minor Hotels,2,dubai,added,2026-10-02,2026-10-02,Minor Hotels signs new Dubai Islands beachfront hotel2m read
 SA AF Capital,2,saudi,added,2026-09-17,2026-10-01,"Akron Investment, SA’AF Capital launch SAR 5B real estate fund"
@@ -113,13 +114,14 @@ Fakhruddin Properties,2,dubai,added,2026-09-08,2026-09-10,Fakhruddin Properties 
 Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
 American Airlines,1,abudhabi,rejected,2026-09-15,2026-09-15,American Airlines is Struggling With Broken Business Class Seats On Its Brand New Airbus A321XLR Airplanes
+Moon World Resorts,1,bahrain,rejected,2026-09-30,2026-09-30,Moon World Resorts appoints BDP Quadrangle as Lead Architects
+Siemens Energy,1,saudi,rejected,2026-10-02,2026-10-02,Siemens Energy’s supervisory and executive boards meet at Dammam Hub
+US Department,1,saudi,rejected,2026-09-18,2026-09-18,US agrees to sell F-35 ⁠fighter jets to Saudi Arabia
+Saudi Media Company,1,saudi,rejected,2026-09-22,2026-09-22,Cristiano Ronaldo part of $500m bid for stake in Al Nassr
+GCC Capital,1,,rejected,2026-09-22,2026-09-22,VIDEO: Testimonials from Zawya’s GCC Capital Markets Forum
 Saudi Construction,1,saudi,rejected,2026-09-22,2026-09-22,Saudi Construction Cost Index rises 2.3% in August
 Umm Al Qura for Development,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
 Al Qura for Development and Construction,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
-Moon World Resorts,1,bahrain,rejected,2026-09-30,2026-09-30,Moon World Resorts appoints BDP Quadrangle as Lead Architects
-Saudi Media Company,1,saudi,rejected,2026-09-22,2026-09-22,Cristiano Ronaldo part of $500m bid for stake in Al Nassr
-GCC Capital,1,,rejected,2026-09-22,2026-09-22,VIDEO: Testimonials from Zawya’s GCC Capital Markets Forum
-US Department,1,saudi,rejected,2026-09-18,2026-09-18,US agrees to sell F-35 ⁠fighter jets to Saudi Arabia
 IHC and Adani Group,1,abudhabi,rejected,2026-09-11,2026-09-11,IHC and Adani Group sign agreement to invest Rs 2.1 trilion in Odisha
 European Commission,1,oman,rejected,2026-09-11,2026-09-11,European Commission presents landmark India FTA to Council for signature
 Boring Company,1,,rejected,2026-09-11,2026-09-11,"Musk’s Boring Company raises $3bln in UAE-led round, valuing startup at $23bln"
