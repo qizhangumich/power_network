@@ -1,0 +1,5 @@
+# King of Jordan and Crown Prince of Abu Dhabi witness groundbreaking ceremony for Aqaba–Al-Shidiyeh–Maan Railway Project
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMihAJBVV95cUxNUDRpVFU2Z2RpMVBoc0hfODFWZkJNamRxamNIeE9oRC0ycDg1OHhPSkFURmlQZUM5TXBmeVJYZmt1OTVUQnJNd1c4bFhMRERyTDBMMmtuQVlZWGFLZkNJSmFkdDRvWk1JaUlTYVoxU2VyUndaSzRPMHhPOGZTZEI0bzdXSERXR0NYRFNYT1E1Y3dhTXgtZ19peTFJSWZuTDJUclF3TU5qZEVwRkh0bVBha05UVlU1QzZKaGFtbGRZaDdyQXhtbVVwUW91WTV5NkdwdFRIN3lOdS1hQnFfUnloaGJheUp4QmxvNmtieDJnQ1RfR0c2Y2dIM2ZVTVExZ1ZrcksyQw?oc=5
+
+King of Jordan and Crown Prince of Abu Dhabi witness groundbreaking ceremony for Aqaba–Al-Shidiyeh–Maan Railway Project    مكتب أبوظبي الإعلامي

@@ -1,0 +1,5 @@
+# Baker McKenzie Loses Third Partner With Exit of Middle East Investment Funds Head
+source: Law.com
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdW1Fb3Awb2RjUTdvV3pQbEQyR202ZUhsLTgwR0ZZbEY1czh6VEp2dU9TdFlrT3BHYzRoYU85TVFiRm5BU2lyRUphY3pka2dna1dhWDQzZ3FjZlBuQlk3X1VWZ1BudGtUcmJiMldKMWpJaHAydlNzYXZBZUdJQlZ1WE9QVlRXSmcyaGt0eGlJdndSSXhibjZJRFFEX1RWRkZXZ0pFbG1MMU9mX3N6LWdhZ0NlZ1NUWTJBNV9aTjBiTDFQV3NFa1dNY3FRbzlaSUxy?oc=5
+
+Baker McKenzie Loses Third Partner With Exit of Middle East Investment Funds Head    Law.com

@@ -1,0 +1,5 @@
+# Richard Leese defends Abu Dhabi deal as 'good for Manchester' as he speaks out on Man City charges
+source: Manchester Evening News
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ2JmcnZ2UmlieU5oZE9yaGlOZjZjRG9BbVJuSGx0Um91V2VFTHFDRzNtZkN1RW92OWZHcXpXbXV2WHBtZmdnQmMwTjRYN3NhNVZjNE0zQTc4Nk5SQW03UVFLTVRoVDlzTnBlUUgwa0twdGRKRy1HaW4yaXQ5TkdSSkt2dDFjd01vemdIemxNUFkwZk5wMTNkYVN2SkJ5UDU2MXlHalZydndCZU5MVnfSAbMBQVVfeXFMUHhpVkNISTlTT2ZKdDV3eFo1bmlMWUtTUnl1TUhnRXFYVUZoSDlzMFJycTY0TlRKOF90czMwa3dRTkdkaW5Sa3lpMzdhaTVuOW1wRVBUbW8yNHhoaTYwUXMzeDVyNTdNSFBGOWFGT0E2bFV5SGhOMnR4MV90VVRxTlM0aDNYRWJYX0NNaU5pN3h2Ny1nWGhnSVJTUXpkOFlNZlBqT3M3US0wRVQ1M1NjWTVPQlE?oc=5
+
+Richard Leese defends Abu Dhabi deal as 'good for Manchester' as he speaks out on Man City charges    Manchester Evening News

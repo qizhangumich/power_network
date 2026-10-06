@@ -1,0 +1,5 @@
+# OpenAI seeks USD30b funding round backed by Abu Dhabi investors
+source: Capital Brief
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTFMtUnBZY2RySi10OGl5cUl1dnNHUHFFUFdjak1JQTg2ZWRzbGV5V1ZJVEU5TzdMcVdLX1B0WlJYcTZGQm5NRno3ZFVzRHhZdXNXMTdvUU1SZGRSZzJGZHdZRnZXSlVoRy05QlctZkFwVm5aYTIxb2dZNFcyQjFaTHBDNW5aVF9yR0czcEM3N080UHNBcHZLRXRIYkc4MTMxUW5vS2hGeWxyZHZsNE40aXFPT0hiMm5qVDBQdlR4aFByamZILVhVRTVHOEJrNFZqb2cxWm1B?oc=5
+
+OpenAI seeks USD30b funding round backed by Abu Dhabi investors    Capital Brief

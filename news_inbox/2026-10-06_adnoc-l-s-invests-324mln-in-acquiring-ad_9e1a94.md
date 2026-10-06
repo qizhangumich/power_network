@@ -1,0 +1,5 @@
+# ADNOC L&S invests $324mln in acquiring additional gas carriers
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcUNadTFuTEl6bXdISS1CeksybGl1dDAxeGtTVHlFUmgyZW0zcTN5YTdhTjZsaXdoaDhRcmJ6YkNhaDN4RllIYlhhdUtvZTBOS2VfMGpXV2JpMi1xb2IyeWpvOHBnYUItRDRHQzZud1Fqb2FqcFVKRTQyV2JHb2NfWDFiM3JDcEp6STF4Y01VVDJrQ3RkdDdzdFEzYWNlUEo4SDdtNFEtODFpdldTNk1OYkFMWFYtTXYtYWRtSXBobFlMNUs2UTE4Z1JZbnFXUmk2bV9R?oc=5
+
+ADNOC L&S invests $324mln in acquiring additional gas carriers    TradingView

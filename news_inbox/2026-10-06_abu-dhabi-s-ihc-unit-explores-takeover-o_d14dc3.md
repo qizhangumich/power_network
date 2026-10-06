@@ -1,0 +1,5 @@
+# Abu Dhabi's IHC unit explores takeover of Kenmare Resources
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdkl3MWx3Q2hObEx0SDN5YjFvdlM0TGFiaGViODVOby1VQTVUWVVSQlp5bFRkSXM5X0RUVWQteDI2NW5zQWk4VEU3U2g4Z3RGNGR0dVliNnRkM05BeWR4M0RjYjNVZFJ3NnFkbU1fUFBZdTVYYy0wNXFKU1hDYk5zRUpXTE1sNlZMSUNucG5RYjlnWWdPdzd3cTJIZU0ySVpoRVRSWC1udl9ydzdsbHdJVTZxRVBCVWNMcTkwSXF2YTFnSnk0OHkxM1VEd3FXWXd2?oc=5
+
+Abu Dhabi's IHC unit explores takeover of Kenmare Resources    TradingView

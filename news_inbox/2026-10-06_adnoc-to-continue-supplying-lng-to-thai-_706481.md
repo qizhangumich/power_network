@@ -1,0 +1,5 @@
+# ADNOC to Continue Supplying LNG to Thai Power Developer
+source: Rigzone
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPZlowemJON1gyR0FzRlRSV2s3MmJjSHJsYkp6NlNOZ0ZWbVVZTTFLR0xCeHpEOFZYZjdfdnlzVVI3dWRVVG4yME82WFFPZkhab2c0cW1sYkpfQ2pKdFhVQVgxeTlhSVZMSGVrcDNFc1lHa3FMalE3NzlHWkhrOEhtUjRQRm1zbmwtaUV6c3dYamhRQS00YnRKX29IVVdWUG1uVVpiZ2pKM3d4X3hSOTJGNFp3?oc=5
+
+ADNOC to Continue Supplying LNG to Thai Power Developer    Rigzone

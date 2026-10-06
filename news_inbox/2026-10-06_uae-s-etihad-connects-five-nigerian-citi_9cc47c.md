@@ -1,0 +1,5 @@
+# UAE’s Etihad connects five Nigerian cities to its global network through new Ibom Air deal
+source: africa.businessinsider.com
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWWFqNmxtVEdKSHRMZ1hxbnpVZ2FBZ0wzelN1dEYzWDhOSTZ0Nlk1S0JCbVJBdHV2MjAwUDVmei1TVWN6ZEZUdGc4a2pfRUFBQi1xVm5sN2dSVHFPRkNvVW1xZ0l1c29nVDVMYnptSjc0SkYyQUYxR2xYNEY3UFhqZWZwSmRiTFBMUnFxM2JwNEtCV0JERVJCeE4xaU83dlNlMjBvbUtEekJ1V2dHeUd3TksydnA3cTROUE1JRldZVTZ3dktqNm0xTE1xdkVDWlg5SEFYTERfZ1M?oc=5
+
+UAE’s Etihad connects five Nigerian cities to its global network through new Ibom Air deal    africa.businessinsider.com
