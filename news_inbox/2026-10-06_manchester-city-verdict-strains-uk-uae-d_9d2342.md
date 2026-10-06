@@ -1,0 +1,5 @@
+# Manchester City verdict strains UK-UAE diplomatic relations
+source: Free Malaysia Today
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTHVqZTFMMEQ3SC04TndHajFOSzMtT2lYZE9xSUpNa3dKZWJDbjVPTXhSdVFIX2pqbzliU293UU56dDZmZl82azBEemdSek5tNk5XT0ltWi1Ld2FwUDctajd0Um14cENITUxtbmM4MVFER3Q1MUNUd1ZsaWI1OFFRUUhZbkVDRVNlYWdVdmdWeXpMYUNNTzRFc0kwaXh1Q2YtWG4wZXlzOC03ZnNFOGNieS1ISGtQLU5CemNV?oc=5
+
+Manchester City verdict strains UK-UAE diplomatic relations    Free Malaysia Today

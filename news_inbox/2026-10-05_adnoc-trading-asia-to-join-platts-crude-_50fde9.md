@@ -1,0 +1,5 @@
+# ADNOC Trading Asia to join Platts crude price assessment processes
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeDBnU1pvcm9KeGFqVnJFT0JrdVJTdzJCUjJfdE9QVmFGZVFIYloyQ0lJVG1kaFhaaFVHcHdIQTFXVXEyb2JmVElKTkNvOXBYbm55S1MwV3dMOHZLN1lYXzhHY0dDTHh1MkhJVmo3ZXRGRDhIOUdrb0NyZnhPRVUzQTN1OW1QdTQyTDV2NVZvZDdxN2V0R0FTWEF4TTdVQVJCS2czNGFfQmJmVXJVWHc5TTNhZC1ScnpXbjBN?oc=5
+
+ADNOC Trading Asia to join Platts crude price assessment processes    marketscreener.com

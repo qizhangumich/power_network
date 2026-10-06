@@ -1,0 +1,5 @@
+# Abu Dhabi's Artificial Intelligence and Advanced Technology Council meets to review AI progress
+source: The National
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZ3pGTXEyc2REOVVPemctaU8wU05lMVJvOWxOUjdqWk1SV2dGOVNKdnlkcUlESXF3SlJaN0tFb3d2Sk1sVTVXNTctRmhRZE1hODcxbzBCWF9RMlNyYk5ZWFNNVm9NNGFWQkpheU5fNUsxVjBmbE40QVo0bUlPSnkzZFdHbk9DVk5mR05YR25kWGRuTDdOTUdNcUxMQjktYjhJdmI5MnVhT2pXaGNYT3dQQjc4aHNfcC1HQkxidmk1dFJzd3lOeXdZS3BiWVFoZjl0Sl94aXN5dEdUX0drOTA5cQ?oc=5
+
+Abu Dhabi's Artificial Intelligence and Advanced Technology Council meets to review AI progress    The National

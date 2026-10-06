@@ -1,0 +1,5 @@
+# Mubadala Bio strengthens its pharmaceutical portfolio with the launch of two new immunology therapies
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxPVEVlMHNjTVhSek14Q3U5Z0tibGV6UWxfUXJhT3FPRFd3QVNFRTFzWkhRTXR3SmhieExKYlhxbXdkQ2t0MXhnWkVxd2tVQl9YeHZRLWRDb2NYTmM2TkRIWFNiSGM5ZTgzX0xGNV9DMmxvazFlVng1NG9YOFBYUmFuT296Q3JRamJVamRzU0pxM3YzUENvRmVVX3hqdkNHdEdWNU1JY243SEluVmRvX0RyTU8xLUhBOXVQVGNsR3RDZldfYjAtcUl2V3NXQ0tXcnJZMmRtaHdfeXp0cmZPTlg4SExhZ01wYXZHM1Q2UVpCeWxtdnAxcnc?oc=5
+
+Mubadala Bio strengthens its pharmaceutical portfolio with the launch of two new immunology therapies    Zawya

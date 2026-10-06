@@ -1,0 +1,5 @@
+# In the presence of Khaled bin Mohamed bin Zayed, Tahnoon bin Zayed chairs meeting of Artificial Intelligence and Advanced Technology Council
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMipwJBVV95cUxNVS1RR2J0OWlJZkpTR2l6SXpsckFJZTVCb2Q2dXZ5UmRKc3BYbnBMUXA3T1FSRHJaeTdKb2RBczNVQmdFNDhlUjhiNGJyeEZQWHBSNm16RmlzdUo2VENZVmlYYXJkYjQ2TVVZSGhjY1JxYmtUaWxKZEJweVVLVzc2WG9IQlJnb1daRjdjSU05S1FMWkJONEtzN3lKMEVZT1NZc1EybmQ5ZmtqMi1LUFlfVHVaMHZCUGp1bFF0c2w1d09kd29qMjBIZEdMWm9pUE9KdS1hVlh6czAzd2pmazV0Z1VYb3dyRm9RZzF5M2UzNlAtaVRlZmdybm5ZNDIyQnpqX3Q4dnl2YWxkWmd0TDVXNER5WUtGbm51dW9qVDE2Q2ZpWTAxTHlR?oc=5
+
+In the presence of Khaled bin Mohamed bin Zayed, Tahnoon bin Zayed chairs meeting of Artificial Intelligence and Advanced Technology Council    مكتب أبوظبي الإعلامي
