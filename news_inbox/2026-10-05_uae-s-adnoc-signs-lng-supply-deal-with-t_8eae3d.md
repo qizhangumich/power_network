@@ -1,0 +1,5 @@
+# UAE's ADNOC signs LNG supply deal with Thailand's Gulf Group
+source: TradingView
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxNdmlBOGlaVVVGOFk4UC01OHpIOEdHUEFFdjRzVnpXRWtnbzlrSUNkNy1xU3hGZzZmTHlCb1V2M0hYUmMwc2hTa2J5N21Vd29ydEY2Z3Q4VFJlV1NhRjNKY1pfQnFDTGhhWTBjbkRLSUQzX1VPZkhLbEhMWlQ0TEdyN0lOWUk2TTd4NVBYYk5TNzdfall6eDhPRFZfZ0t4NlRaWndKdzdteEhJam1BNW44U3ZlZEdvQzhlT1hZUFAtRnNZc3VDMUJxS0xB?oc=5
+
+UAE's ADNOC signs LNG supply deal with Thailand's Gulf Group    TradingView

@@ -1,0 +1,5 @@
+# Middle East Oct 5: Emirates Iran/Iraq Cancelled, Etihad
+source: Travel Tourister
+url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPYmlibEh6LUdUM2JMOWoySXFwQmgzSG1aWmx2U3k3WE96T2EwODk2VXQ4SC01X2dXTHNhQ1FxUWdzM2E4SkxTTThxMnV2TndFRUV4RFIxend0UzNmZXJHOGYweEJoeEVaQXA3N1VhekVLT1pjeEt0Rl9sNGR6LUxDTWduOEJPVzcyVGhhLTZQVkNEREM1ZE1qSzc0cUFIUWJRTnN1THRCbXRmYU1MY19LVFU5bFhpaVRmM0g2NXZYeDRYbzVub1lYMmExalRFbkF2b3ZIekg1VVZCZXBpSVgtMEVGUkFWempXVGhkLU52Z25GRW51?oc=5
+
+Middle East Oct 5: Emirates Iran/Iraq Cancelled, Etihad    Travel Tourister
