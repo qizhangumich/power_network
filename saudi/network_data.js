@@ -2630,6 +2630,10 @@ const PEOPLE = [
     ["princess_nourah_univ","Dean of Development and Quality","executive","v"]]},
   {id:"fahad_bin_saleh", n:"Fahad bin Saleh Al-Ghofaili", t:2, p:60, s:"health", roles:[
     ["kfmc","Chief Executive Officer, King Fahd Medical City","executive","ns"]]},
+  {id:"ayed_al_jeaid", n:"Ayed Al-Jeaid", t:2, p:62, s:"industry", roles:[
+    ["lst_4264","Chairman","board","v"]]},
+  {id:"bander_al_mohanna", n:"Bander Al-Mohanna", t:2, p:60, s:"industry", roles:[
+    ["lst_4264","Chief Executive Officer and Managing Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -706,6 +706,7 @@ const PEOPLE = [
     ], note:"Abu Dhabi-based retail magnate; one of the most influential expatriate business figures in the Gulf."},
   {id:"miral_zaabi", n:"Mohamed Abdalla Al Zaabi", t:2, p:72, s:"consumer_disc", roles:[
     ["miral","Group CEO","executive","v"],
+    ["dct","Undersecretary","executive","ns"],
     ]},
   {id:"humaid_dhaheri", n:"Humaid Matar Al Dhaheri", t:2, p:68, s:"consumer_disc", roles:[
     ["adnec","Managing Director & Group CEO","executive","v"],
@@ -1261,6 +1262,7 @@ const PEOPLE = [
     ]},
   {id:"khaleefa_almheiri", n:"Khaleefa Almheiri", t:2, p:58, s:"utilities", roles:[
     ["masdar","Acting Chief Operating Officer","executive","v"],
+    ["masdar_americas","President and CEO","executive","ns"],
     ]},
   {id:"rapha_l_barreau", n:"Raphaël Barreau", t:2, p:58, s:"utilities", roles:[
     ["masdar","Chief Investment Officer","executive","v"],

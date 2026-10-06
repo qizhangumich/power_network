@@ -240,6 +240,7 @@ const PEOPLE = [
     ["oia","President","executive","v"]],
     note:"Controls the consolidated sovereign portfolio — OQ, Asyad, Omantel and most state companies sit under OIA."},
   {id:"mamari_oq", n:"Ashraf Hamed Al Mamari", t:2, p:66, s:"energy", roles:[
+    ["oq_rpi","Chairman of the Board of Directors","board","v"],
     ["oq","Group Chief Executive Officer","executive","v"]]},
   {id:"alkindi_asyad", n:"Dr. Ahmed Al Bulushi", t:2, p:58, s:"industry", roles:[
     ["asyad","Group CEO (acting)","executive","v","former:until Sep 2026"]],
@@ -382,6 +383,7 @@ const PEOPLE = [
   {id:"stephen_moss", n:"Stephen Moss", t:2, p:52, s:"finance", roles:[
     ["lst_nbob","Director","board","v"]]},
   {id:"shaikh_faisal_al", n:"Shaikh Faisal Al Rawas", t:2, p:52, s:"finance", roles:[
+    ["occi","Chairman of the Board of Directors","board","ns"],
     ["lst_nbob","Director","board","v"]]},
   {id:"nabil_al_mahrouqi", n:"Nabil Al Mahrouqi", t:2, p:52, s:"finance", roles:[
     ["lst_mhas","Board Member","board","v"],
@@ -1285,6 +1287,28 @@ const PEOPLE = [
     ["ncsi","Director General of the General Directorate of Information","executive","v"]]},
   {id:"yousuf_bin_mohammed", n:"Yousuf bin Mohammed bin Thani Al Riyami", t:2, p:58, s:"gov", roles:[
     ["ncsi","Director General of the General Directorate of National Statistics","executive","v"]]},
+  {id:"sheikh_nasser_bin", n:"Sheikh Nasser Bin Hamad Al Thani", t:2, p:62, s:"comm", roles:[
+    ["lst_ords_om","Chairman","board","v"]]},
+  {id:"saoud_hamad_al", n:"Saoud Hamad Al Riyami", t:2, p:60, s:"comm", roles:[
+    ["lst_ords_om","Chief Executive Officer","executive","v"]]},
+  {id:"kamil_bin_bakheet", n:"Kamil bin Bakheet Al Shanfari", t:2, p:60, s:"energy", roles:[
+    ["oq_rpi","Chief Executive Officer","executive","ns"]]},
+  {id:"rashid_bin_amer", n:"Rashid bin Amer Al Muslehi", t:2, p:62, s:"gov", roles:[
+    ["occi","First Vice-Chairman of the Board of Directors","board","ns"]]},
+  {id:"hammoud_bin_salem", n:"Hammoud bin Salem Al Saadi", t:2, p:62, s:"gov", roles:[
+    ["occi","Second Vice-Chairman of the Board of Directors","board","ns"]]},
+  {id:"rashid_bin_mohammed", n:"Rashid bin Mohammed Al Alawi", t:2, p:58, s:"health", roles:[
+    ["khoula_hospital","Director-General","executive","v"]]},
+  {id:"tariq_bin_salim", n:"Tariq bin Salim Al Maashani", t:2, p:62, s:"education", roles:[
+    ["dhofar_university","Chairman of the Board of Trustees","board","v"]]},
+  {id:"yusuf_bin_alawi", n:"Yusuf bin Alawi bin Abdullah Al Ibrahim", t:2, p:62, s:"education", roles:[
+    ["dhofar_university","Vice Chairman of the Board of Trustees","board","v"]]},
+  {id:"amer_bin_ali", n:"Amer bin Ali Al Rawas", t:2, p:58, s:"education", roles:[
+    ["dhofar_university","Vice Chancellor","executive","v"]]},
+  {id:"syed_ahsan_jamil", n:"Syed Ahsan Jamil", t:2, p:58, s:"education", roles:[
+    ["dhofar_university","Deputy Vice Chancellor","executive","v"]]},
+  {id:"p_a_mohammed", n:"P A Mohammed", t:2, p:60, s:"health", roles:[
+    ["badr_al_samaa","Founder and Managing Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [

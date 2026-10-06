@@ -760,8 +760,7 @@ const PEOPLE = [
     ["fnrc","Chairman of the Board of Directors","board","v"],
     ["fujairah_municipality","Director General","executive","ns"]]},
   {id:"christopher_wood", n:"Christopher Wood", t:2, p:60, s:"gov", roles:[
-    ["rakpa","Chief Executive","executive","v"],
-    ["rak_gas","Chief Executive Officer","executive","ns"]]},
+    ["rakpa","Chief Executive","executive","v"]]},
   {id:"mohamed_ali_musabbeh", n:"Mohamed Ali Musabbeh Al Nuaimi", t:2, p:62, s:"gov", roles:[
     ["rak_chamber","Chairman","board","ns"]]},
   {id:"munther_mohammed_bin", n:"Munther Mohammed Bin Shaker", t:2, p:58, s:"gov", roles:[
@@ -839,8 +838,6 @@ const PEOPLE = [
     ["ajmgov","Executive Council Member; Head of Department of Land & Real Estate Regulation","board","v"]]},
   {id:"ahmed_bin_rakkad", n:"Ahmed bin Rakkad Al Ameri", t:2, p:60, s:"comm", roles:[
     ["sba","Chief Executive Officer of Sharjah Book Authority","executive","v"]]},
-  {id:"aisha_rashid_ali_b", n:"Aisha Rashid Ali Bin Dimas Al Suwaidi", t:2, p:62, s:"gov", roles:[
-    ["epaa","Chairperson of the Environment and Protected Areas Authority","executive","v"]]},
   {id:"fahad_ahmed_al", n:"Fahad Ahmed Al Khamiri", t:2, p:58, s:"gov", roles:[
     ["sedd","Director","executive","ns"]]},
   {id:"raja_al_gurg", n:"Raja Al Gurg", t:2, p:62, s:"finance", roles:[
@@ -1098,6 +1095,8 @@ const PEOPLE = [
     ["gulf_petrochem","Managing Director","executive","ns"]]},
   {id:"nishant_dighe", n:"Nishant Dighe", t:2, p:60, s:"energy", roles:[
     ["rak_gas","Chief Executive Officer","executive","ns"]]},
+  {id:"hessa_abdullah_humaid", n:"Hessa Abdullah Humaid Al Shamsi", t:2, p:58, s:"gov", roles:[
+    ["epaa","Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1187,6 +1186,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  aisha_rashid_ali:["Aisha Rashid Ali Bin Dimas Al Suwaidi"],
   crescent:["Crescent Group"],
   sultan_qasimi:["Sultan Al Qasimi","Sultan bin Muhammad","Sultan bin Muhammad Al Qasimi","Sultan bin Mohammed Al Qasimi","Ruler of Sharjah"],
   sultan_ahmed_q:["Sultan bin Ahmed Al Qasimi","Sultan bin Ahmad Al Qasimi","Deputy Ruler of Sharjah"],

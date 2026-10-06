@@ -289,6 +289,7 @@ const PEOPLE = [
   {id:"aldousari_equate", n:"Nasser Mohamad Al-Dousari", t:2, p:62, s:"materials", roles:[
     ["equate","Chief Executive Officer","executive","v"]]},
   {id:"dana_alsabah_kipco", n:"Sheikha Dana Naser Al-Sabah", t:1, p:66, s:"sovereign", roles:[
+    ["auk","Founder and Chair of the Board of Trustees","board","v"],
     ["kipco","Group Chief Executive Officer","executive","v"]]},
   {id:"alsharian_mabanee", n:"Waleed Khaled Alsharian", t:2, p:62, s:"realestate", roles:[
     ["mabanee","Chief Executive Officer","executive","v"]]},
@@ -515,6 +516,7 @@ const PEOPLE = [
   {id:"ahmad_mohammad_al", n:"Ahmad Mohammad Al Bahar", t:2, p:62, s:"finance", roles:[
     ["gulfbank","Chairman of the Board of Directors","board","v"]]},
   {id:"ali_morad_yusuf", n:"Ali Morad Yusuf Behbehani", t:2, p:62, s:"finance", roles:[
+    ["behbehani","Company President","executive","v"],
     ["gulfbank","Deputy Chairman of the Board of Directors","board","v"]]},
   {id:"omar_hamad_youssef", n:"Omar Hamad Youssef Al-Essa", t:2, p:62, s:"finance", roles:[
     ["gulfbank","Deputy Chairman of the Board","board","v"]]},
@@ -1314,6 +1316,7 @@ const PEOPLE = [
   {id:"shahnaz_bachai", n:"Shahnaz Bachai", t:2, p:60, s:"finance", roles:[
     ["lst_ninv","Managing Director - Operations & Settlements Sector","executive","ns"]]},
   {id:"abdulaziz_nasser_al", n:"Abdulaziz Nasser Al-Marzouq", t:2, p:58, s:"gov", roles:[
+    ["cabinet_kw","Minister of State for Economic Affairs and Investment","executive","v"],
     ["moci_kw","Acting Minister of Commerce & Industry","executive","ns"]]},
   {id:"marwa_badah_musallam", n:"Marwa Badah Musallam Al-Juaidan", t:2, p:58, s:"gov", roles:[
     ["moci_kw","Assistant Undersecretary","executive","ns"]]},
@@ -1723,6 +1726,18 @@ const PEOPLE = [
     ["ali_alghanim_sons","Group Vice President","executive","v"]]},
   {id:"ahmed_adel_alghanim", n:"Ahmed Adel Alghanim", t:2, p:58, s:"consumer_disc", roles:[
     ["ali_alghanim_sons","Group Vice President","executive","v"]]},
+  {id:"reem_ghazi_al", n:"Reem Ghazi Al-Fulaij", t:2, p:58, s:"gov", roles:[
+    ["cabinet_kw","Minister of State for Development and Sustainability Affairs","executive","v"]]},
+  {id:"tareq_hamad_al", n:"Tareq Hamad Al-Jalahma", t:2, p:58, s:"gov", roles:[
+    ["cabinet_kw","Minister of State for Youth and Sport Affairs","executive","v"]]},
+  {id:"hussein_morad_behbehani", n:"Hussein Morad Behbehani", t:2, p:58, s:"conglomerate", roles:[
+    ["behbehani","Company Vice President","executive","v"]]},
+  {id:"aseel_alawadhi", n:"Aseel AlAwadhi", t:2, p:58, s:"education", roles:[
+    ["auk","President","executive","v"]]},
+  {id:"abdullah_a_al", n:"Abdullah A. Al-Mutairi", t:2, p:60, s:"energy", roles:[
+    ["enertech","Chief Executive Officer","executive","ns"]]},
+  {id:"rabab_al_osaimi", n:"Rabab Al-Osaimi", t:2, p:58, s:"gov", roles:[
+    ["pam","Director General","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

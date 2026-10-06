@@ -245,6 +245,7 @@ const PEOPLE = [
     ["qu","Chairman, Board of Regents","board","v"],
     ["qgov","Deputy Emir","political","v"]]},
   {id:"mbar", n:"H.E. Sheikh Mohammed bin Abdulrahman Al Thani", t:0, p:96, s:"gov", roles:[
+    ["scdl","Chairman of the Board of Directors","board","v"],
     ["doha_investment","Chairman, Doha Investment (also Prime Minister and Minister of Foreign Affairs of Qatar)","board","v"],
     ["cabinet","Prime Minister","political","v"],
     ["mofa_q","Minister of Foreign Affairs","political","v"],
@@ -254,6 +255,7 @@ const PEOPLE = [
     ["qib","Chairman","board","v"]],
     note:"The Emir's brother; chairs Qatar Islamic Bank."},
   {id:"joaan", n:"H.H. Sheikh Joaan bin Hamad Al Thani", t:0, p:80, s:"gov", roles:[
+    ["scdl","Vice-Chairman of the Board of Directors","board","ns"],
     ["qoc","President","board","v"]]},
   {id:"mayassa", n:"H.E. Sheikha Al-Mayassa bint Hamad Al Thani", t:0, p:84, s:"gov", roles:[
     ["qf","Member","board","v"],
@@ -443,7 +445,7 @@ const PEOPLE = [
     ["qnb_capital","Board Member","board","v"],
     ["qnb","Group Chief Financial Officer","executive","v"]]},
   {id:"fatima_abdulla_al", n:"Fatima Abdulla Al-Suwaidi", t:2, p:58, s:"finance", roles:[
-    ["qnb","Group Chief Risk Officer","executive","ns"]]},
+    ["qnb","Group Chief Risk Officer","executive","v"]]},
   {id:"sheikh_jassim_bin", n:"Sheikh Jassim Bin Hamad Bin Jassim Bin Jaber Al Thani", t:2, p:62, s:"finance", roles:[
     ["qib","Chairman","board","v"]]},
   {id:"abdullatif_bin_abdullah", n:"Abdullatif Bin Abdullah Al Mahmoud", t:2, p:62, s:"finance", roles:[
@@ -480,15 +482,16 @@ const PEOPLE = [
   {id:"ahmed_helal_al", n:"Ahmed Helal Al-Mohannadi", t:2, p:52, s:"materials", roles:[
     ["industriesqatar","Board Member","board","v"]]},
   {id:"ahmed_bin_ali", n:"Ahmed Bin Ali Al-Hammadi", t:2, p:52, s:"materials", roles:[
+    ["grsia_daman","Director-General","executive","v"],
     ["qse","Board Member","board","v"],
     ["udc","Chairman","board","v"],
     ["industriesqatar","Board Member","board","v"]]},
   {id:"nasser_marafih", n:"Nasser Marafih", t:2, p:62, s:"comm", roles:[
     ["ooredoo","Vice Chairman","board","v"]]},
   {id:"ali_shareef_al", n:"Ali Shareef Al Emadi", t:2, p:52, s:"comm", roles:[
-    ["ooredoo","Board Member","board","ns"]]},
+    ["ooredoo","Board Member (until Mar 2020)","board","v","former:until Mar 2020"]]},
   {id:"mohammed_bin_issa", n:"Mohammed Bin Issa Al Mohannadi", t:2, p:52, s:"comm", roles:[
-    ["ooredoo","Board Member","board","ns"]]},
+    ["ooredoo","Board Member (until Mar 2020)","board","v","former:until Mar 2020"]]},
   {id:"nasser_rashid_al", n:"Nasser Rashid Al-Humaidi", t:2, p:52, s:"comm", roles:[
     ["ooredoo","Board Member","board","v"]]},
   {id:"ali_bin_ghanim", n:"Ali Bin Ghanim Bin Ali Abdullah Al-Thani", t:2, p:52, s:"comm", roles:[
@@ -1865,6 +1868,18 @@ const PEOPLE = [
     ["moecc_q","Undersecretary of the Ministry of Environment and Climate Change","executive","v"]]},
   {id:"sheikh_khalid_bin_b_b", n:"Sheikh Khalid bin Mohammed bin Ghanem Al Thani", t:2, p:58, s:"gov", roles:[
     ["qatar_awqaf_ministry","Undersecretary of the Ministry of Awqaf and Islamic Affairs","executive","ns"]]},
+  {id:"mohammed_hamad_al", n:"Mohammed Hamad Al Kuwari", t:2, p:58, s:"gov", roles:[
+    ["qatar_awqaf_ministry","Assistant Undersecretary for Daawah and Mosques Affairs","executive","ns"]]},
+  {id:"sheikha_abdulrahman_al", n:"Sheikha Abdulrahman Al Badi", t:2, p:58, s:"gov", roles:[
+    ["molsa_q","Assistant Undersecretary for National Manpower in the Private Sector","executive","ns"]]},
+  {id:"hamad_faraj_dalmouk", n:"Hamad Faraj Dalmouk", t:2, p:58, s:"gov", roles:[
+    ["molsa_q","Assistant Undersecretary for Migrant Labour Affairs","executive","ns"]]},
+  {id:"ahmed_mohammed_al", n:"Ahmed Mohammed Al-Sada", t:2, p:58, s:"gov", roles:[
+    ["moecc_q","Assistant Undersecretary for Climate Change Affairs","executive","ns"]]},
+  {id:"abdulrahman_abdullah_al_b", n:"Abdulrahman Abdullah Al Dulaimi", t:2, p:58, s:"gov", roles:[
+    ["moc_qatar","Director of the Department of Culture and Arts","executive","ns"]]},
+  {id:"yasser_abdullah_al", n:"Yasser Abdullah Al Jamal", t:2, p:52, s:"gov", roles:[
+    ["scdl","Member of the Board of Directors","board","ns"]]},
 ];
 
 const OWNERSHIP = [

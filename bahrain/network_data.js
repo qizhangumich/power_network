@@ -1775,6 +1775,7 @@ const PEOPLE = [
   {id:"mohamed_ebrahim_al", n:"Mohamed Ebrahim Al Hashimi", t:2, p:46, s:"finance", roles:[
     ["lst_khaleeji","Head of Operations","executive","v"]]},
   {id:"ahmed_mohamed_burashid", n:"Ahmed Mohamed Burashid", t:2, p:46, s:"finance", roles:[
+    ["sico_wealth","Chief Executive Officer","executive","ns"],
     ["lst_khaleeji","Head of Corporate Banking, Investment","executive","v"]]},
   {id:"maitham_abdulhameed_abbas", n:"Maitham Abdulhameed Abbas", t:2, p:46, s:"finance", roles:[
     ["lst_khaleeji","Head of Business Development","executive","v"]]},
