@@ -142,6 +142,8 @@ const INSTITUTIONS = [
   {id:"asas_real_estate", n:"ASAS Real Estate", s:"realestate", t:3, p:52, short:"ASAS Real Estate"},
   {id:"planet_pharmacies", n:"Planet Pharmacies", s:"health", t:3, p:56, short:"Planet Pharmacies"},
   {id:"menacool", n:"Mena Cool Transportation", s:"industry", t:3, p:52, short:"MenaCool"},
+  {id:"sharjah_municipality", n:"Sharjah Municipality", s:"gov", t:2, p:62, short:"Sharjah Municipality"},
+  {id:"khorfakkan_council", n:"Khorfakkan Municipal Council", s:"gov", t:3, p:52, short:"Khorfakkan Council"},
 ];
 
 const PEOPLE = [
@@ -1170,6 +1172,8 @@ const OWNERSHIP = [
   ["asas_real_estate","sharjah_islamic_bk","subsidiary","v"],
   ["planet_pharmacies","julphar","subsidiary","v"],
   ["menacool","julphar","subsidiary","v"],
+  ["sharjah_municipality","shjgov","government department","ns"],
+  ["khorfakkan_council","shjgov","municipal council formed by Emiri Decree","ns"],
 ];
 
 const FAMILY = [
@@ -1260,4 +1264,6 @@ const AKA = {
   rak_porcelain:["RAK Porcelain LLC"],
   asas_real_estate:["ASAS Real Estate LLC SP"],
   menacool:["Mena Cool Transportation FZE"],
+  sharjah_municipality:["Sharjah City Municipality","SHJMUN"],
+  khorfakkan_council:["Khor Fakkan Municipal Council"],
 };

@@ -27,6 +27,7 @@ abudhabi,nyuad,NYU Abu Dhabi,education,66,1,pending
 abudhabi,goldman,Goldman Sachs,finance,66,0,pending
 qatar,conocophillips,ConocoPhillips,energy,66,0,pending
 saudi,sanabil,Saudi Arabian Investment Company,sovereign,66,0,pending
+saudi,lst_4264,flynas Company,industry,65,0,pending
 abudhabi,ccad,Cleveland Clinic Abu Dhabi,health,64,1,pending
 abudhabi,uaeu,United Arab Emirates University,education,64,1,pending
 abudhabi,eni,Eni,energy,64,0,pending
@@ -55,6 +56,8 @@ abudhabi,globalfoundries,GlobalFoundries,tech,62,0,pending
 abudhabi,skmc_abu_dhabi,Sheikh Khalifa Medical City,health,62,1,pending
 dubai,dhre,Dubai Holding Real Estate,realestate,62,0,pending
 kuwait,part_kuwait,Public Authority for Roads and Transportation (abolished Dec 2025 — departments transferred to Ministry of Public Works & Ministry of Interior per Amiri Decree),industry,62,0,pending
+northern,sharjah_municipality,Sharjah Municipality,gov,62,0,pending
+oman,lst_ords_om,Omani Qatari Telecommunications Company SAOG (Ooredoo),comm,62,0,pending
 qatar,psa_qatar,Planning and Statistics Authority,gov,62,1,pending
 qatar,gac_qatar,General Authority of Customs,gov,62,0,pending
 qatar,north_oil,North Oil Company,energy,62,0,pending
@@ -223,6 +226,7 @@ abudhabi,bin_butti_intl,Bin Butti International Holdings,conglomerate,56,0,pendi
 abudhabi,trends_research,TRENDS Research & Advisory,gov,56,0,pending
 abudhabi,adnoc_maritime,ADNOC Maritime,industry,56,0,pending
 abudhabi,gii,Gulf Islamic Investments LLC,finance,56,0,pending
+abudhabi,masdar_americas,Masdar Americas,utilities,56,0,pending
 dubai,meydan,Meydan Group,consumer_disc,56,0,pending
 dubai,dafza,Dubai Airport Free Zone Authority,gov,56,0,pending
 dubai,al_shirawi,Al Shirawi Group,industry,56,0,pending
@@ -310,6 +314,7 @@ bahrain,gulf_aviation_acad,Gulf Aviation Academy,education,54,0,pending
 bahrain,gulf_handling,Gulf Handling Company,industry,54,0,pending
 bahrain,bac_jet_fuel,BAC Jet Fuel Company,energy,54,0,pending
 bahrain,bibf,Bahrain Institute of Banking and Finance,education,54,0,pending
+bahrain,sico_wealth,SICO Wealth,finance,54,0,pending
 dubai,national_bonds,National Bonds Corporation,finance,54,0,pending
 dubai,ducab,Dubai Cable Company,materials,54,0,pending
 dubai,dubai_asset_mgmt,Dubai Holding Asset Management,realestate,54,0,pending
@@ -429,6 +434,7 @@ northern,univ_hosp_sharjah,University Hospital Sharjah,health,52,0,pending
 northern,air_arabia_holidays,Air Arabia Holidays,consumer_disc,52,0,pending
 northern,asas_real_estate,ASAS Real Estate,realestate,52,0,pending
 northern,menacool,Mena Cool Transportation,industry,52,0,pending
+northern,khorfakkan_council,Khorfakkan Municipal Council,gov,52,0,pending
 oman,asyad_drydock,Asyad Drydock,industry,52,0,pending
 oman,asyad_express,Asyad Express,industry,52,0,pending
 oman,al_mazunah_fz,Al Mazunah Free Zone,gov,52,1,pending
@@ -664,7 +670,6 @@ oman,lst_oeio,Oman & Emirates Investment Holding Company SAOG,finance,50,0,pendi
 oman,lst_ones,Oman National Engineering & Investment Company SAOG,industry,50,0,pending
 oman,lst_ouic,Oman United Insurance Company SAOG,finance,50,0,pending
 oman,lst_aaic,Al Anwar Investments SAOG,finance,50,0,pending
-oman,lst_ords_om,Omani Qatari Telecommunications Company SAOG (Ooredoo),comm,50,0,pending
 oman,lst_sihc,A'Sharqiya Investment Holding Co. SAOG,finance,50,0,pending
 oman,lst_brde,Barka Desalination Company SAOG,utilities,50,0,pending
 oman,lst_abrj,Abraj Energy Services SAOG,energy,50,0,pending
@@ -807,7 +812,6 @@ saudi,lst_4260,Budget Saudi Rent a Car Co.,industry,50,0,pending
 saudi,lst_4261,Theeb Rent a Car Co.,industry,50,0,pending
 saudi,lst_4262,Lumi Rental Co.,industry,50,0,pending
 saudi,lst_4263,SAL Saudi Logistics Services Co.,industry,50,0,pending
-saudi,lst_4264,flynas Co.,industry,50,0,pending
 saudi,lst_4265,Cherry Trading Co.,industry,50,0,pending
 saudi,lst_1213,Naseej International Trading Co.,consumer_disc,50,0,pending
 saudi,lst_2130,Saudi Industrial Development Co. (SIDC),consumer_disc,50,0,pending
@@ -865,6 +869,7 @@ saudi,lst_6001,Halwani Bros Co. (HB),consumer_stap,50,0,pending
 saudi,lst_6010,National Agriculture Development Co. (Nadec),consumer_stap,50,0,pending
 saudi,lst_6020,Gulf Agriculture and Food Company Co. (GACO),consumer_stap,50,0,pending
 saudi,lst_6040,Al Jouf Agricultural Development Co. (TADCO),consumer_stap,50,0,pending
+saudi,lst_6050,Saudi Fisheries Co. (SFICO),consumer_stap,50,1,pending
 saudi,lst_6060,Sharqiyah Development Co.,consumer_stap,50,0,pending
 saudi,lst_6070,Al Jouf Agricultural Development Co. (ALJOUF),consumer_stap,50,0,pending
 saudi,lst_6090,Jazan Development Co. (JAZADCO),consumer_stap,50,0,pending

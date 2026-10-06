@@ -1,6 +1,9 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
+Al-Attiyah International Energy,3,qatar,pending,2026-09-16,2026-10-05,Al-Attiyah International Energy Awards to fete emerging energy leaders
+Al Yamamah Steel,2,saudi,pending,2026-09-18,2026-10-05,Al Yamamah Steel signs two steel tower contracts worth SAR 254.3M
+Watani Steel,2,saudi,pending,2026-10-01,2026-10-06,"Watani Steel transfers to TASI, debuts at SAR 1.82"
 Abu Dhabi Investment,14,abudhabi,rejected,2026-09-16,2026-10-02,"Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake"
-British Airways,9,dubai,rejected,2026-09-15,2026-09-19,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
+British Airways,11,dubai,rejected,2026-09-15,2026-10-06,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
 Than Financial,5,abudhabi,rejected,2026-09-25,2026-09-26,Manchester City Found Guilty Of More Than 100 Financial Rule Breaches
 Hanwha Systems,4,abudhabi,rejected,2026-09-16,2026-09-17,Hanwha Systems to work with UAE’s Edge Group on integrated air defense network
@@ -16,6 +19,7 @@ US Marine,3,oman,rejected,2026-10-04,2026-10-05,US Marine arrested in Japan over
 Qatar Real Estate,3,qatar,rejected,2026-09-21,2026-09-27,Qatar Real Estate Forum 2026: Focus on tokenization and global investment
 Shahba Bank,3,qatar,rejected,2026-09-17,2026-09-22,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Aurion Capital,3,qatar,rejected,2026-09-23,2026-09-24,"Invest Qatar, Aurion Capital, LG NOVA Engage to Advance Technology Investments, Venture Building in Qatar"
+Secretary-General of Ministry,3,qatar,rejected,2026-09-20,2026-10-05,Secretary-General of Ministry of Foreign Affairs meets Swedish Ambassador
 QNB Capital,3,qatar,added,2026-09-29,2026-09-30,QNB Capital acts as global coordinator on Qatar’s $3bn dual-tranche bond issuance
 Adani Airport Holdings,3,abudhabi,rejected,2026-09-10,2026-09-10,IHC backs Adani Airport Holdings’ $1bn fundraising round
 Centurium Capital,3,abudhabi,rejected,2026-09-10,2026-09-10,Centurium Capital Management Ltd. and Mubadala Investment Company PJSC agreed to acquire an unknown minority stake in Luckin Coffee Inc. (OT
@@ -31,7 +35,6 @@ Lenskart Solutions,2,abudhabi,rejected,2026-09-21,2026-09-21,"ADIA sells 2.01% s
 High Altitude Platform Systems,2,abudhabi,rejected,2026-09-23,2026-09-23,Space42 and Telespazio Ibérica Begin Wildfire Monitoring in Spain supported by High Altitude Platform Systems
 Port Technology,2,northern,rejected,2026-09-21,2026-10-02,"Etihad Rail, AD Ports debut direct Fujairah-ICAD route"
 Brixmor Property Group,2,abudhabi,rejected,2026-09-28,2026-09-29,"Brixmor Property Group, Everview Partners Acquire Slate Grocery REIT for $2.34B"
-Balkan Green Energy,2,abudhabi,rejected,2026-09-14,2026-09-15,"Masdar, Taaleri create largest Western Balkans wind hub with Čibuk 2 launch"
 Industrial City,2,northern,rejected,2026-09-20,2026-09-20,"In partnership with AD Ports Group, Etihad Rail launches integrated rail service connecting Fujairah Terminals with Industrial City of Abu D"
 Abu Dhabi Industrial City,2,northern,rejected,2026-09-20,2026-09-20,Etihad Rail Links Fujairah to Abu Dhabi Industrial City
 Liveability and Investment,2,abudhabi,rejected,2026-09-30,2026-10-01,Khaled bin Mohamed bin Zayed attends Liveability and Investment Exhibition (LIVEX 2026)
@@ -50,7 +53,6 @@ QFBA Finance,2,qatar,rejected,2026-09-22,2026-09-22,Ahlibank announces platinum 
 Canada Investment,2,qatar,rejected,2026-09-16,2026-09-17,Qatar participates in Canada Investment Summit
 Estithmar Holding,2,qatar,rejected,2026-09-17,2026-09-24,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Azerbaijan International Investment,2,qatar,rejected,2026-09-26,2026-09-27,Qatar Chamber participates in ‘Azerbaijan International Investment Forum’
-Secretary-General of Ministry,2,qatar,rejected,2026-09-20,2026-09-21,Secretary-General of Ministry of Foreign Affairs meets Swedish Ambassador
 Advanced Energy,2,saudi,rejected,2026-09-17,2026-09-22,Advanced Energy Trading and Contracting
 Ebara Elliott Energy,2,bahrain,rejected,2026-09-16,2026-09-21,Ebara Elliott Energy expands Houston turbomachinery service centre
 Noor Energy,2,bahrain,added,2026-09-28,2026-09-28,DEWA completes $2.7bn refinancing of Noor Energy 1
@@ -115,6 +117,7 @@ Fakhruddin Properties,2,dubai,added,2026-09-08,2026-09-10,Fakhruddin Properties 
 Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
 American Airlines,1,abudhabi,rejected,2026-09-15,2026-09-15,American Airlines is Struggling With Broken Business Class Seats On Its Brand New Airbus A321XLR Airplanes
+Balkan Green Energy,1,abudhabi,rejected,2026-09-15,2026-09-15,"Serbia, Masdar weigh large-scale BESS projects"
 Saudi Construction,1,saudi,rejected,2026-09-22,2026-09-22,Saudi Construction Cost Index rises 2.3% in August
 Al Qura for Development and Construction,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
 Umm Al Qura for Development,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"

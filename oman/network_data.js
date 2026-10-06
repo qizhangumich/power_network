@@ -88,7 +88,7 @@ const INSTITUTIONS = [
   {id:"lst_aaic", n:"Al Anwar Investments SAOG", s:"finance", t:2, p:50, short:"AAIC"},
   {id:"lst_mhas", n:"Al Maha Petroleum Products Marketing Company SAOG", s:"energy", t:2, p:50, short:"MHAS"},
   {id:"lst_ocoi", n:"Oman Cement Company SAOG", s:"materials", t:2, p:50, short:"OCOI"},
-  {id:"lst_ords_om", n:"Omani Qatari Telecommunications Company SAOG (Ooredoo)", s:"comm", t:2, p:50, short:"ORDS"},
+  {id:"lst_ords_om", n:"Omani Qatari Telecommunications Company SAOG (Ooredoo)", s:"comm", t:2, p:62, short:"Ooredoo Oman"},
   {id:"lst_sihc", n:"A'Sharqiya Investment Holding Co. SAOG", s:"finance", t:2, p:50, short:"SIHC"},
   {id:"lst_brde", n:"Barka Desalination Company SAOG", s:"utilities", t:2, p:50, short:"BRDE"},
   {id:"lst_abrj", n:"Abraj Energy Services SAOG", s:"energy", t:2, p:50, short:"ABRJ"},

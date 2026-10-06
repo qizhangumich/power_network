@@ -156,7 +156,7 @@ const INSTITUTIONS = [
   {id:"lst_4261", n:"Theeb Rent a Car Co.", s:"industry", t:2, p:50, short:"Theeb Rent a Car Co."},
   {id:"lst_4262", n:"Lumi Rental Co.", s:"industry", t:2, p:50, short:"Lumi Rental Co."},
   {id:"lst_4263", n:"SAL Saudi Logistics Services Co.", s:"industry", t:2, p:50, short:"4263"},
-  {id:"lst_4264", n:"flynas Co.", s:"industry", t:2, p:50, short:"flynas Co."},
+  {id:"lst_4264", n:"flynas Company", s:"industry", t:2, p:65, short:"flynas"},
   {id:"lst_4265", n:"Cherry Trading Co.", s:"industry", t:2, p:50, short:"Cherry Trading Co."},
   {id:"lst_1213", n:"Naseej International Trading Co.", s:"consumer_disc", t:2, p:50, short:"1213"},
   {id:"lst_2130", n:"Saudi Industrial Development Co. (SIDC)", s:"consumer_disc", t:2, p:50, short:"2130"},
@@ -2211,10 +2211,10 @@ const PEOPLE = [
     ["sidf","Member of the Board of Directors","board","v"]]},
   {id:"salman_bin_bader", n:"Salman bin Bader Al-Fagham", t:2, p:60, s:"finance", roles:[
     ["lst_1030","Chief Executive Officer (effective Oct 2026)","executive","v"]]},
-  {id:"abdulaziz_al_humaid", n:"Abdulaziz Al-Humaid", t:2, p:62, s:"consumer_stap", roles:[
-    ["lst_6050","Chairman of the Board","board","v"]]},
+  {id:"abdulaziz_al_humaid", n:"Abdulaziz Al-Humaid", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_6050","Chairman of the Board (until Sep 2026)","board","v","former:until Sep 2026"]]},
   {id:"mansour_al_sagheer", n:"Mansour Al-Sagheer", t:2, p:62, s:"consumer_stap", roles:[
-    ["lst_6050","Vice Chairman of the Board","board","v"]]},
+    ["lst_6050","Chairman of the Board (2026–)","board","v"]]},
   {id:"mohamed_yousuf_naghi", n:"Mohamed Yousuf Naghi", t:2, p:62, s:"conglomerate", roles:[
     ["naghi","Chairman","board","v"]]},
   {id:"yaser_yousuf_naghi", n:"Yaser Yousuf Naghi", t:2, p:62, s:"conglomerate", roles:[

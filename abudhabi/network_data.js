@@ -291,6 +291,7 @@ const INSTITUTIONS = [
   {id:"gii", n:"Gulf Islamic Investments LLC", s:"finance", t:3, p:56, short:"GII"},
   {id:"rafed", n:"Rafed", s:"health", t:3, p:54, short:"Rafed"},
   {id:"adic", n:"Abu Dhabi Investment Council", s:"sovereign", t:2, p:60, short:"ADIC"},
+  {id:"masdar_americas", n:"Masdar Americas", s:"utilities", t:2, p:56, short:"Masdar Americas"},
 ];
 
 const PEOPLE = [
@@ -3541,6 +3542,7 @@ const OWNERSHIP = [
   ["adnoc_maritime","adnoc","wholly-owned subsidiary — shipping & maritime logistics (formerly ADNATCO/NGSCO)","ns"],
   ["rafed","adq","subsidiary","v"],
   ["adic","mubadala","subsidiary","ns"],
+  ["masdar_americas","masdar","subsidiary of","ns"],
 ];
 
 const FAMILY = [

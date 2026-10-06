@@ -156,6 +156,7 @@ const INSTITUTIONS = [
   {id:"bahrain_spec_hosp", n:"Bahrain Specialist Hospital", s:"health", t:3, p:52, short:"Bahrain Spec. Hosp"},
   {id:"gulf_daily_news", n:"Gulf Daily News", s:"comm", t:3, p:52, short:"Gulf Daily News"},
   {id:"asb_capital", n:"ASB Capital", s:"finance", t:3, p:52, short:"ASB Capital"},
+  {id:"sico_wealth", n:"SICO Wealth", s:"finance", t:2, p:54, short:"SICO Wealth"},
 ];
 
 const PEOPLE = [
@@ -3281,6 +3282,7 @@ const OWNERSHIP = [
   ["ssp_bahrain","gulfair","portfolio company (via Gulf Air Group Holding)","v"],
   ["hala_bahrain","gulfair","portfolio company (via Gulf Air Group Holding)","v"],
   ["bac_jet_fuel","gulfair","portfolio company (via Gulf Air Group Holding)","v"],
+  ["sico_wealth","sico_bank","subsidiary of","ns"],
 ];
 
 const FAMILY = [
