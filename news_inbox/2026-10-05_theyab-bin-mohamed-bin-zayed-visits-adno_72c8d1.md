@@ -1,0 +1,5 @@
+# Theyab bin Mohamed bin Zayed visits ADNOC headquarters and meets frontline employees
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQOTYyWTRaZS04b0VpWHpKVUEtNlBpcUpLeUMwZXFMc0FWeWxlOXYtNFFYaHRYODNENk1UNmJ5MTdFZ0lwMERPcjNHMFVHTTRqNWJQcGJyckctVExibEdzQ29ucVROMDdSLXFNeVhCNDJ4MHpVTG9NVlhFeFZWZzhnSGxSWm1XS25aVUhHV0t3WWFOVzdIZFlPNThrR1lCMmdNNG1RZ2xMNUY5QWRWOFRGWWxpX1hQR1Q0VXYwZlVsRGNMZE5ROE5n?oc=5
+
+Theyab bin Mohamed bin Zayed visits ADNOC headquarters and meets frontline employees    مكتب أبوظبي الإعلامي
