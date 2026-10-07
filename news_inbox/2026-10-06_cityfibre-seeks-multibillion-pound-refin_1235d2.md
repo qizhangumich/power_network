@@ -1,0 +1,5 @@
+# CityFibre seeks multibillion-pound refinancing to buy up rivals
+source: The Times
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxNcGV1TmFjTWJtNjhiNUg2bnE5dXdJUHhIeW40eWpyTEFsV2tkekRzOEV3cmJ6VTR4ZXdqTFA4UHNNYXFXaUl5MXItaE9YVnEzZmJuYWozZDliMUw1dVRhRGpYU0QyRzNFZks2dmE1SWYxYnpkYmJTNGNyLU4wM2lNRmgtUzFvdHdYS29BWG1xX3pQaXQ2RDd0MlNfSjZuRXliQ2U0?oc=5
+
+CityFibre seeks multibillion-pound refinancing to buy up rivals    The Times

@@ -1,0 +1,5 @@
+# Etihad launches flights to emerging Saudi Arabian tourism hotspot
+source: The Bangladesh Monitor
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdzhJMnhSNlVUTzR6XzhoLV9UTGx5dmZxWEQ5YmF4Z3hZVWVENXlzMlhPQW1IQzl1Ym9Bdkk1UFZNc183ZDBCbUtxMW9xZWVJQ1QxVHVmRmpYWGRWLWJsTWZFWlZjOUs0SkttcWl2UWY3bXFjX0FxZE9rYzZ4eE9oYmdHZC1QNlRkaFBYUWNheDUtQUF2S3B3ZVRsYkY3VUFhMm9rTUhSX2w?oc=5
+
+Etihad launches flights to emerging Saudi Arabian tourism hotspot    The Bangladesh Monitor
