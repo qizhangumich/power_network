@@ -1,0 +1,5 @@
+# Clear Channel Outdoor Receives CFIUS Clearance for Acquisition by Mubadala Capital
+source: PR Newswire
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa1FSeHVmTGo3ZjJaa3hWWllGZXVVV0tsUXcyUlBGSXJ0RGRvUFczS042UjJKY0xHNEpjMFhaLU9rYVJjc0FxWThHVTFycGI4WVIzVHFSTkdTQ29RazJzV2RiWFliN2lLam9Zekl3dEpxZWpBOE90VEp1dkVNMFhBUXJvM2tQLVZ4UllXeUR1ZGpmZ2FYQ0RMWG9pVjFOLUNwcHZIbU9rY0E5QlgySzdfaElpWTJCLTYxQzk3RHZ2V3VYd283cGx4MFUzUVNqRDdYTEMyaw?oc=5
+
+Clear Channel Outdoor Receives CFIUS Clearance for Acquisition by Mubadala Capital    PR Newswire

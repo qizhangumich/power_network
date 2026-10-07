@@ -1,0 +1,5 @@
+# Clear Channel Outdoor edges higher after winning CFIUS approval for Mubadala sale
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSUpRbms2QlZuNUpjRGlpSXAwQ2dXZWRleXlvY0RLa3A1NDZvZlM2NXRZTm15S3JDUXl0SUhtN3RNcVVsTEpleW9OYWxzYWdVNElMLVd3dVhndmNINE9wWnE0VmlxT1Jva25GRFZDd0haNE5pTnNHRkw2TnRUaGt3U0xSR1UwNTRaWDZaejgwVkRhWkpDa0R5MGNiSmZLMWxxSlZIdEo0d3EyYUhKX1I2SEJGNzZ6SmdpX1F0a2YwMmYtbEdUaDBIQnFUYV9OUXppN2ZVUHNVNWp0cTdE?oc=5
+
+Clear Channel Outdoor edges higher after winning CFIUS approval for Mubadala sale    TradingView

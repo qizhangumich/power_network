@@ -1,0 +1,5 @@
+# Sheikh Tahnoon-linked IRH makes takeover bid for titanium mine
+source: Billionaires.Africa
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPeFJsWTFoM2RNdEFjTTZ4Ynd2MFZWSUVFQlQwYWxxNlB3eGl3cGNfaVJwa2lRMzFvakxnREhpWVpDUzZiNGRrOElWXzRkU0JZV2tZQjB4bnNlVjNocWRPa09LbVdvVWRRSXpCRmpJSHJ0WTNNajlMQ3lNT3lIRGJPelZ2WlVfckZ3Yl9Ram5zc0tYaWdPUG5IQnAxSy1qR2h4YXVpamVPOGNFRWlYYnRGeEZOcXV3WmIyRE5rbURiMA?oc=5
+
+Sheikh Tahnoon-linked IRH makes takeover bid for titanium mine    Billionaires.Africa

@@ -1,0 +1,5 @@
+# Mubadala to maintain annual investment of $39bn with Asia in focus
+source: The National
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPby1CN0hMdjRoeTA5bjlPM3lHU0lWUFBMM1RlUmxMWGhjTDFkV3VIcXUzeWpsd0JDdHo5VlNraGh6a1ZraElXR3VKZFJreWhGVlFiZTZKTGtIcVpFQXJTNnZSYmZNQlE0ZzY3WU9JRE1WUzVLdTdpVDd6bUhQeE9MMTJ2NDF3MldpQVZRaER6SW1jQmMzcTNLT1ktUmIyTWswS19jdHQ2T09sWXBQYlN6SGxaaldOTXNmU0Fic0h6cElXVmo3?oc=5
+
+Mubadala to maintain annual investment of $39bn with Asia in focus    The National
