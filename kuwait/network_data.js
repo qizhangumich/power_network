@@ -1738,6 +1738,28 @@ const PEOPLE = [
     ["enertech","Chief Executive Officer","executive","ns"]]},
   {id:"rabab_al_osaimi", n:"Rabab Al-Osaimi", t:2, p:58, s:"gov", roles:[
     ["pam","Director General","executive","ns"]]},
+  {id:"abdul_ilah_rafie", n:"Abdul Ilah Rafie Marafie", t:2, p:62, s:"conglomerate", roles:[
+    ["marafie","Chairman","board","v"]]},
+  {id:"abdulhakim_marafie", n:"Abdulhakim Marafie", t:2, p:58, s:"conglomerate", roles:[
+    ["marafie","General Director","executive","v"]]},
+  {id:"abdul_munaf_marafie", n:"Abdul Munaf Marafie", t:2, p:58, s:"conglomerate", roles:[
+    ["marafie","Executive Director","executive","v"]]},
+  {id:"waleed_al_nisf", n:"Waleed Al-Nisf", t:2, p:58, s:"comm", roles:[
+    ["al_qabas","Editor-in-Chief","executive","v"]]},
+  {id:"ahmad_khaled_al_b", n:"Ahmad Khaled Al-Jassar", t:2, p:62, s:"gov", roles:[
+    ["csc_kuwait","Chairman","board","v"]]},
+  {id:"abeer_abdul_latif", n:"Abeer Abdul Latif Abdul Wahab Al-Fares", t:2, p:58, s:"gov", roles:[
+    ["csc_kuwait","Assistant Undersecretary","executive","v"]]},
+  {id:"ibrahim_ali_muayyed", n:"Ibrahim Ali Muayyed Al-Hajeri", t:2, p:58, s:"gov", roles:[
+    ["csc_kuwait","Assistant Undersecretary","executive","v"]]},
+  {id:"narges_yahya_abdul", n:"Narges Yahya Abdul Rasool Hassan", t:2, p:58, s:"gov", roles:[
+    ["csc_kuwait","Assistant Undersecretary","executive","v"]]},
+  {id:"mohammed_jassem_al", n:"Mohammed Jassem Al-Sager", t:2, p:62, s:"gov", roles:[
+    ["kcci","Chairman","board","v"]]},
+  {id:"abdul_wahab_mohammed", n:"Abdul Wahab Mohammed Al-Wazzan", t:2, p:62, s:"gov", roles:[
+    ["kcci","1st Vice Chairman","board","v"]]},
+  {id:"fahd_yacoub_youssef", n:"Fahd Yacoub Youssef Al-Jouan", t:2, p:62, s:"gov", roles:[
+    ["kcci","2nd Vice Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [
