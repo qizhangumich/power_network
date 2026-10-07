@@ -254,6 +254,7 @@ const PEOPLE = [
   {id:"brendon_hopkins", n:"Brendon Hopkins", t:2, p:58, s:"finance", roles:[
     ["abc","Acting Group Chief Executive Officer (Feb–Aug 2026)","executive","v","former:until Aug 2026"]]},
   {id:"hala_ali_husain", n:"Hala Ali Husain Yateem", t:2, p:62, s:"finance", roles:[
+    ["bibf","Board Member","board","v"],
     ["nbb","Chairwoman","board","v"]]},
   {id:"yusuf_abdulla_yusuf", n:"Yusuf Abdulla Yusuf Alireza", t:2, p:62, s:"finance", roles:[
     ["nbb","Vice Chairman","board","v"]]},
@@ -402,6 +403,7 @@ const PEOPLE = [
     ["bahrain_airport","Board Member","board","ns"],
     ["gulfair","Board Member","board","v"]]},
   {id:"alaa_abdulkhaleq_saeed", n:"Alaa Abdulkhaleq Saeed", t:2, p:52, s:"industry", roles:[
+    ["bibf","Board Member","board","v"],
     ["bahrain_airport","Board Member","board","ns"],
     ["gulfair","Board Member","board","v"]]},
   {id:"sael_al_waary", n:"Sael Al Waary", t:2, p:52, s:"industry", roles:[
@@ -455,6 +457,7 @@ const PEOPLE = [
   {id:"sara_khalil_nooruddin", n:"Sara Khalil Nooruddin", t:2, p:52, s:"finance", roles:[
     ["lst_bbk","Board Member","board","v"]]},
   {id:"yaser_alsharifi", n:"Yaser Alsharifi", t:2, p:60, s:"finance", roles:[
+    ["bibf","Board Member","board","v"],
     ["lst_bbk","Group Chief Executive Officer","executive","v"]]},
   {id:"hassaan_burshaid", n:"Hassaan Burshaid", t:2, p:58, s:"finance", roles:[
     ["lst_bbk","Group Chief Operating Officer","executive","v"]]},
@@ -635,6 +638,7 @@ const PEOPLE = [
   {id:"assad_riyany", n:"Assad Riyany", t:2, p:46, s:"finance", roles:[
     ["abc","Head of Libyan Business","executive","v"]]},
   {id:"mohamed_almaraj", n:"Mohamed Almaraj", t:2, p:58, s:"finance", roles:[
+    ["bibf","Board Member","board","v"],
     ["abc","Group Chief Retail & Digital Banking Officer","executive","v"]]},
   {id:"ammar_yousif_raheemi", n:"Ammar Yousif Raheemi", t:2, p:46, s:"finance", roles:[
     ["abc","Head of Finance, ila Bank Bahrain","executive","v"]]},
@@ -2384,6 +2388,7 @@ const PEOPLE = [
   {id:"hassan_khalifa_al", n:"Hassan Khalifa Al Jalahma", t:2, p:62, s:"finance", roles:[
     ["cbb","Chairman","board","v"]]},
   {id:"khalid_ebrahim_humaidan", n:"Khalid Ebrahim Humaidan", t:2, p:52, s:"finance", roles:[
+    ["bibf","Chairman","board","v"],
     ["cbb","Board Member","board","v"]]},
   {id:"yousef_abdullah_humood", n:"Yousef Abdullah Humood", t:2, p:52, s:"finance", roles:[
     ["cbb","Board Member","board","v"]]},
@@ -2454,6 +2459,7 @@ const PEOPLE = [
   {id:"najem_bin_abdullah", n:"Najem bin Abdullah Al Zaid", t:2, p:52, s:"finance", roles:[
     ["gib","Board Member","board","v"]]},
   {id:"abdulaziz_bin_abdulrahman", n:"Abdulaziz bin Abdulrahman Al-Helaissi", t:2, p:60, s:"finance", roles:[
+    ["bibf","Board Member","board","v"],
     ["gib","Group Chief Executive Officer","executive","v"]]},
   {id:"rajeev_kakar", n:"Rajeev Kakar", t:2, p:52, s:"finance", roles:[
     ["gib","Board Member","board","v"]]},
@@ -3190,6 +3196,18 @@ const PEOPLE = [
     ["bahrain_lng","Interim Chief Executive Officer","executive","v"]]},
   {id:"owais_ahmad", n:"Owais Ahmad", t:2, p:58, s:"energy", roles:[
     ["bahrain_lng","Chief Financial Officer","executive","v"]]},
+  {id:"abdulla_sultan", n:"Abdulla Sultan", t:2, p:52, s:"education", roles:[
+    ["bibf","Board Member","board","v"]]},
+  {id:"michel_sawaya", n:"Michel Sawaya", t:2, p:52, s:"education", roles:[
+    ["bibf","Board Member","board","v"]]},
+  {id:"maryam_janahi", n:"Maryam Janahi", t:2, p:52, s:"education", roles:[
+    ["bibf","Board Member","board","v"]]},
+  {id:"andreas_buelow", n:"Andreas Buelow", t:2, p:52, s:"education", roles:[
+    ["bibf","Board Member","board","v"]]},
+  {id:"ahmed_abdul_hameed", n:"Ahmed Abdul Hameed AlShaikh", t:2, p:58, s:"education", roles:[
+    ["bibf","Director","executive","v"]]},
+  {id:"jassim_mohammed_seyadi", n:"Jassim Mohammed Seyadi", t:2, p:62, s:"materials", roles:[
+    ["balexco","Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [

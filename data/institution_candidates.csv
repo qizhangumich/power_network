@@ -1,9 +1,13 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Al-Attiyah International Energy,3,qatar,pending,2026-09-16,2026-10-05,Al-Attiyah International Energy Awards to fete emerging energy leaders
-Al Yamamah Steel,2,saudi,pending,2026-09-18,2026-10-05,Al Yamamah Steel signs two steel tower contracts worth SAR 254.3M
-Watani Steel,2,saudi,pending,2026-10-01,2026-10-06,"Watani Steel transfers to TASI, debuts at SAR 1.82"
+Adnoc Logistics,2,abudhabi,pending,2026-10-06,2026-10-06,Adnoc Logistics & Services Strikes $324 Million Deal for Three More Gas Carriers
+GCC Petroleum,2,oman,pending,2026-10-05,2026-10-06,Oman participates in 37th GCC Petroleum Cooperation Committee meeting
+Hema Energy,2,oman,pending,2026-10-02,2026-10-07,Hema Energy targets EPC projects with Azerbaijani partner
+Undersecretary of Ministry,2,qatar,pending,2026-10-05,2026-10-06,Undersecretary of Ministry of Justice Meets Arab League Secretary-General
+Yaqeen Capital,2,saudi,pending,2026-10-06,2026-10-06,Yaqeen Capital previews Q3 earnings forecasts
+Ubhar Capital,2,saudi,pending,2026-09-16,2026-10-06,Ubhar Capital places Ataa stock under review
+Deutsche Bank,2,dubai,pending,2026-09-29,2026-10-07,Deutsche Bank names Vikas Arora Philippines country head
 Abu Dhabi Investment,14,abudhabi,rejected,2026-09-16,2026-10-02,"Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake"
-British Airways,11,dubai,rejected,2026-09-15,2026-10-06,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
+British Airways,10,dubai,rejected,2026-09-17,2026-10-06,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
 Than Financial,5,abudhabi,rejected,2026-09-25,2026-09-26,Manchester City Found Guilty Of More Than 100 Financial Rule Breaches
 Hanwha Systems,4,abudhabi,rejected,2026-09-16,2026-09-17,Hanwha Systems to work with UAE’s Edge Group on integrated air defense network
@@ -14,8 +18,10 @@ Hamad University,4,qatar,rejected,2026-09-29,2026-09-30,"HH the Amir Issues Amir
 Hamad University for Military and Technology,4,qatar,rejected,2026-09-29,2026-09-30,"HH the Amir Issues Amiri Decision Establishing, Organizing Tamim bin Hamad University for Military and Technology Sciences"
 Syrian Airlines,3,abudhabi,rejected,2026-09-20,2026-09-21,"Syrian Airlines expands European network with direct flights to Copenhagen, Vienna"
 Explore Sustainable Energy,3,abudhabi,rejected,2026-09-17,2026-09-19,Beam Global and Masdar City Free Zone Sign MOU to Explore Sustainable Energy Infrastructure Opportunities
+Turkish Airlines,3,bahrain,rejected,2026-09-24,2026-10-06,"Turkish Airlines, Boeing finalize 150 737 MAX order2m read"
 OPEC Fund,3,oman,rejected,2026-09-16,2026-09-19,OPEC Fund earmarks $40m for Oman’s Yiti Sustainable City project
 US Marine,3,oman,rejected,2026-10-04,2026-10-05,US Marine arrested in Japan over murder
+Al-Attiyah International Energy,3,qatar,rejected,2026-09-16,2026-10-05,Al-Attiyah International Energy Awards to fete emerging energy leaders
 Qatar Real Estate,3,qatar,rejected,2026-09-21,2026-09-27,Qatar Real Estate Forum 2026: Focus on tokenization and global investment
 Shahba Bank,3,qatar,rejected,2026-09-17,2026-09-22,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Aurion Capital,3,qatar,rejected,2026-09-23,2026-09-24,"Invest Qatar, Aurion Capital, LG NOVA Engage to Advance Technology Investments, Venture Building in Qatar"
@@ -40,8 +46,6 @@ Abu Dhabi Industrial City,2,northern,rejected,2026-09-20,2026-09-20,Etihad Rail 
 Liveability and Investment,2,abudhabi,rejected,2026-09-30,2026-10-01,Khaled bin Mohamed bin Zayed attends Liveability and Investment Exhibition (LIVEX 2026)
 Executive Council,2,abudhabi,rejected,2026-09-17,2026-09-18,Abu Dhabi sets out next steps: AI joins Executive Council meeting for first time
 Al Seer Marine,2,abudhabi,added,2026-09-16,2026-09-16,Abu Dhabi's L'imad buys AD Ports stake from Al Seer Marine for $632mln
-Turkish Airlines,2,,rejected,2026-09-24,2026-09-25,"Turkish Airlines, Boeing finalize 150 737 MAX order2m read"
-US Energy,2,oman,rejected,2026-09-15,2026-09-27,"Iran war latest: East-West pipeline will reopen within days, US Energy Secretary says"
 World Wind Energy,2,oman,rejected,2026-09-25,2026-09-26,Oman to host Gulf’s first World Wind Energy Conference in 2027
 Special Economic Zone,2,oman,rejected,2026-09-23,2026-09-23,His Majesty the Sultan visits Special Economic Zone in Duqm
 Labour Ministry,2,oman,added,2026-09-19,2026-09-30,Labour Ministry urges shift to capability economy
@@ -53,6 +57,7 @@ QFBA Finance,2,qatar,rejected,2026-09-22,2026-09-22,Ahlibank announces platinum 
 Canada Investment,2,qatar,rejected,2026-09-16,2026-09-17,Qatar participates in Canada Investment Summit
 Estithmar Holding,2,qatar,rejected,2026-09-17,2026-09-24,"Estithmar Holding announces completion of 48.68% stake transfer in Shahba Bank to Masaref Holding, a subsidiary of Estithmar Capital"
 Azerbaijan International Investment,2,qatar,rejected,2026-09-26,2026-09-27,Qatar Chamber participates in ‘Azerbaijan International Investment Forum’
+Al Yamamah Steel,2,saudi,rejected,2026-09-18,2026-10-05,Al Yamamah Steel signs two steel tower contracts worth SAR 254.3M
 Advanced Energy,2,saudi,rejected,2026-09-17,2026-09-22,Advanced Energy Trading and Contracting
 Ebara Elliott Energy,2,bahrain,rejected,2026-09-16,2026-09-21,Ebara Elliott Energy expands Houston turbomachinery service centre
 Noor Energy,2,bahrain,added,2026-09-28,2026-09-28,DEWA completes $2.7bn refinancing of Noor Energy 1
@@ -63,6 +68,7 @@ UAE-listed MAIR Group,2,,added,2026-09-24,2026-09-24,UAE-listed MAIR Group to ac
 US Treasury Department,2,,rejected,2026-09-23,2026-10-02,UAE approves sale of Egypt’s Banque Misr branches
 Oman Investment,2,oman,rejected,2026-09-24,2026-09-24,Oman floats $7bn of tenders for private sector
 Al-Shaheed Park,2,kuwait,rejected,2026-10-01,2026-10-01,Prime Minister opens Al-Shaheed Park Phase III on behalf of Amir
+Watani Steel,2,saudi,added,2026-10-01,2026-10-06,"Watani Steel transfers to TASI, debuts at SAR 1.82"
 ASB Capital,2,bahrain,added,2026-09-28,2026-10-04,ASB Capital secures top role in $500m KIB sukuk
 Raysut Industrial City,2,oman,added,2026-10-03,2026-10-04,Oman's Raysut Industrial City attracts nine new projects in H1
 Alternatif Bank,2,qatar,added,2026-10-04,2026-10-04,"Commercial Bank, Alternatif Bank support Turkish companies’ Gulf expansion"
@@ -116,8 +122,7 @@ Axelerated Solutions,2,saudi,added,2026-09-03,2026-09-03,Axelerated Solutions to
 Fakhruddin Properties,2,dubai,added,2026-09-08,2026-09-10,Fakhruddin Properties unveils 463-unit premier mixed-use project in Dubai
 Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
-American Airlines,1,abudhabi,rejected,2026-09-15,2026-09-15,American Airlines is Struggling With Broken Business Class Seats On Its Brand New Airbus A321XLR Airplanes
-Balkan Green Energy,1,abudhabi,rejected,2026-09-15,2026-09-15,"Serbia, Masdar weigh large-scale BESS projects"
+US Energy,1,oman,rejected,2026-09-27,2026-09-27,"Only way to a better America is more energy addition, says US Energy Secretary"
 Saudi Construction,1,saudi,rejected,2026-09-22,2026-09-22,Saudi Construction Cost Index rises 2.3% in August
 Al Qura for Development and Construction,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
 Umm Al Qura for Development,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
@@ -125,8 +130,10 @@ Moon World Resorts,1,bahrain,rejected,2026-09-30,2026-09-30,Moon World Resorts a
 Saudi Media Company,1,saudi,rejected,2026-09-22,2026-09-22,Cristiano Ronaldo part of $500m bid for stake in Al Nassr
 GCC Capital,1,,rejected,2026-09-22,2026-09-22,VIDEO: Testimonials from Zawya’s GCC Capital Markets Forum
 US Department,1,saudi,rejected,2026-09-18,2026-09-18,US agrees to sell F-35 ⁠fighter jets to Saudi Arabia
+European Commission,1,kuwait,rejected,2026-10-06,2026-10-06,STRASBOURG: European Commission President Ursula von der Leyen warned on Tuesday against a push by Germany and other member states for 'larg
+American Airlines,1,abudhabi,rejected,2026-09-15,2026-09-15,American Airlines is Struggling With Broken Business Class Seats On Its Brand New Airbus A321XLR Airplanes
+Balkan Green Energy,1,abudhabi,rejected,2026-09-15,2026-09-15,"Serbia, Masdar weigh large-scale BESS projects"
 IHC and Adani Group,1,abudhabi,rejected,2026-09-11,2026-09-11,IHC and Adani Group sign agreement to invest Rs 2.1 trilion in Odisha
-European Commission,1,oman,rejected,2026-09-11,2026-09-11,European Commission presents landmark India FTA to Council for signature
 Boring Company,1,,rejected,2026-09-11,2026-09-11,"Musk’s Boring Company raises $3bln in UAE-led round, valuing startup at $23bln"
 Adani Group,1,abudhabi,rejected,2026-09-10,2026-09-10,"Adani Group, IHC Sign MoUs with Odisha for ₹2.1 Trillion Investment Projects"
 Marlan Holding,1,abudhabi,added,2026-09-10,2026-09-10,VIDEO: Abu Dhabi's IHC to acquire 80% stake in UAE space company Marlan Holding

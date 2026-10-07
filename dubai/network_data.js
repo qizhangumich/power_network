@@ -394,6 +394,7 @@ const PEOPLE = [
     ["emirates_islamic","Director","board","v"],
     ["enbd","Board Member","board","v"]]},
   {id:"khalid_juma_al", n:"Khalid Juma Al Majid", t:2, p:52, s:"finance", roles:[
+    ["jumaalmajid","Vice Chairman","board","v"],
     ["enbd","Board Member","board","v"]]},
   {id:"shayne_nelson", n:"Shayne Nelson", t:2, p:58, s:"finance", roles:[
     ["emirates_islamic","Director","board","v"],
@@ -470,6 +471,7 @@ const PEOPLE = [
   {id:"naveed_ali", n:"Naveed Ali", t:2, p:58, s:"finance", roles:[
     ["dib","Chief of Corporate Banking","executive","v"]]},
   {id:"sultan_sulayem", n:"Sultan Ahmed bin Sulayem", t:1, p:70, s:"industry", roles:[
+    ["dubai_maritime_auth","Chairman","board","v"],
     ["jafza","Chairman","board","v"],
     ["dpworld","Group Chairman & CEO (2007–Feb 2026)","executive","v","former:until Feb 2026"]],
     note:"Led DP World's global expansion for nearly two decades; stepped down Feb 2026 — role split between Essa Kazim (Chairman) and Yuvraj Narayan (Group CEO)."},
@@ -1100,6 +1102,7 @@ const PEOPLE = [
   {id:"swaidan_saeed_juma", n:"Swaidan Saeed Juma Al Naboodah", t:2, p:52, s:"gov", roles:[
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"thani_abdulla_mohamed", n:"Thani Abdulla Mohamed Al Shirawi", t:2, p:52, s:"gov", roles:[
+    ["al_shirawi","Vice Chairman and Group Deputy Managing Director","executive","v"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"saif_ali_abdulla", n:"Saif Ali Abdulla Al Shafar", t:2, p:52, s:"gov", roles:[
     ["dubaichambers","Member of the Board","board","v"]]},
@@ -1553,10 +1556,11 @@ const PEOPLE = [
   {id:"majida_ali_rashid", n:"Majida Ali Rashid", t:2, p:58, s:"gov", roles:[
     ["dld","CEO, Real Estate Development Sector","executive","v"]]},
   {id:"abdullah_ahmed_mohammed", n:"Abdullah Ahmed Mohammed Saleh Al Shehi", t:2, p:60, s:"gov", roles:[
-    ["dld","Chief Executive Officer, Real Estate Regulatory Agency (RERA)","executive","ns"]]},
+    ["dld","Chief Executive Officer, Real Estate Regulatory Agency (RERA)","executive","v"]]},
   {id:"hind_obaid_al", n:"Hind Obaid Al Marri", t:2, p:60, s:"gov", roles:[
     ["dld","Chief Executive Officer, Dubai Real Estate Institute","executive","ns"]]},
   {id:"mahmoud_alburai", n:"Mahmoud AlBurai", t:2, p:58, s:"gov", roles:[
+    ["sobha_realty","Independent Director","board","v"],
     ["dld","Director, Real Estate Policies & Innovation","executive","ns"]]},
   {id:"hamdan_bin_rashid", n:"Hamdan bin Rashid Al Maktoum", t:2, p:52, s:"health", roles:[
     ["dha","President","board","v"]]},
@@ -1910,6 +1914,108 @@ const PEOPLE = [
     ["diez","Director General, Dubai Silicon Oasis","executive","v"]]},
   {id:"obaid_saif_mohammed", n:"Obaid Saif Mohammed Karaa Al Nuaimi", t:2, p:60, s:"gov", roles:[
     ["dcaa","Chief Executive Officer, Aviation Security and Accident Investigation","executive","v"]]},
+  {id:"waleed_mohammad_al", n:"Waleed Mohammad Al Zaabi", t:2, p:62, s:"realestate", roles:[
+    ["tiger","Chairman","board","v"]]},
+  {id:"amer_walid_al", n:"Amer Walid Al Zoubi", t:2, p:60, s:"realestate", roles:[
+    ["tiger","CEO of Tiger Properties","executive","v"]]},
+  {id:"juma_al_majid", n:"Juma Al Majid", t:2, p:62, s:"conglomerate", roles:[
+    ["jumaalmajid","Visionary Founder and Chairman","board","v"]]},
+  {id:"tarig_shalabi", n:"Tarig Shalabi", t:2, p:60, s:"conglomerate", roles:[
+    ["jumaalmajid","Group Chief Executive Officer","executive","v"]]},
+  {id:"akef_al_attar", n:"Akef Al Attar", t:2, p:58, s:"conglomerate", roles:[
+    ["jumaalmajid","Group Chief Finance Officer","executive","v"]]},
+  {id:"jawad_abu_farha", n:"Jawad Abu Farha", t:2, p:58, s:"conglomerate", roles:[
+    ["jumaalmajid","Group Chief Information Officer","executive","v"]]},
+  {id:"khalid_mustafa", n:"Khalid Mustafa", t:2, p:58, s:"conglomerate", roles:[
+    ["jumaalmajid","Group Chief Internal Audit Officer","executive","v"]]},
+  {id:"hazem_el_kholy", n:"Hazem El-kholy", t:2, p:58, s:"conglomerate", roles:[
+    ["jumaalmajid","Chief Investment Officer","executive","v"]]},
+  {id:"shaukat_ali_mir", n:"Shaukat Ali Mir", t:2, p:58, s:"conglomerate", roles:[
+    ["jumaalmajid","Chief Contracting Officer","executive","v"]]},
+  {id:"talib_abdulkarim_julfar", n:"Talib Abdulkarim Julfar", t:2, p:58, s:"conglomerate", roles:[
+    ["jumaalmajid","Chief Project Development Officer","executive","v"]]},
+  {id:"abduselam_hamde", n:"Abduselam Hamde", t:2, p:58, s:"conglomerate", roles:[
+    ["jumaalmajid","Group Chief Human Capital Officer & Group Chief Strategy Officer","executive","v"]]},
+  {id:"ziyad_shahrouri", n:"Ziyad Shahrouri", t:2, p:58, s:"conglomerate", roles:[
+    ["jumaalmajid","Chief Property Officer","executive","v"]]},
+  {id:"moafaq_ahmad_al", n:"Moafaq Ahmad Al Gaddah", t:2, p:62, s:"realestate", roles:[
+    ["mag","Chairman","board","v"]]},
+  {id:"talal_moafaq_al", n:"Talal Moafaq Al Gaddah", t:2, p:62, s:"realestate", roles:[
+    ["mag","Senior Executive Vice Chairman","executive","v"]]},
+  {id:"ahmad_al_gaddah", n:"Ahmad Al Gaddah", t:2, p:60, s:"realestate", roles:[
+    ["mag","Chief Executive Officer","executive","v"]]},
+  {id:"sheikh_saeed_bin", n:"Sheikh Saeed bin Ahmed bin Khalifa Al Maktoum", t:2, p:58, s:"gov", roles:[
+    ["dubai_maritime_auth","Executive Director","executive","v"]]},
+  {id:"pnc_menon", n:"PNC Menon", t:2, p:52, s:"realestate", roles:[
+    ["sobha_realty","Founder","board","v"]]},
+  {id:"ravi_menon", n:"Ravi Menon", t:2, p:62, s:"realestate", roles:[
+    ["sobha_realty","Chairman of Sobha Group","board","v"]]},
+  {id:"francis_alfred", n:"Francis Alfred", t:2, p:60, s:"realestate", roles:[
+    ["sobha_realty","Managing Director","executive","v"]]},
+  {id:"jyoti_kumar_agarwal", n:"Jyoti Kumar Agarwal", t:2, p:58, s:"realestate", roles:[
+    ["sobha_realty","Group CFO","executive","v"]]},
+  {id:"ashish_parakh", n:"Ashish Parakh", t:2, p:58, s:"realestate", roles:[
+    ["sobha_realty","Group Chief Sales and Marketing Officer","executive","v"]]},
+  {id:"vinit_parikh", n:"Vinit Parikh", t:2, p:58, s:"realestate", roles:[
+    ["sobha_realty","Chief Sales Officer Sobha Realty","executive","v"]]},
+  {id:"vipin_das", n:"Vipin Das", t:2, p:60, s:"realestate", roles:[
+    ["sobha_realty","Chief Executive Officer Sobha Realty USA","executive","v"]]},
+  {id:"james_marvin", n:"James Marvin", t:2, p:60, s:"realestate", roles:[
+    ["sobha_realty","Chief Executive Officer PNC Architects","executive","v"]]},
+  {id:"olaf_wagner", n:"Olaf Wagner", t:2, p:58, s:"realestate", roles:[
+    ["sobha_realty","Head – Quality & Technology","executive","v"]]},
+  {id:"patrick_chalhoub", n:"Patrick Chalhoub", t:2, p:62, s:"consumer_disc", roles:[
+    ["chalhoub","Executive Chairman","executive","v"]]},
+  {id:"michael_chalhoub", n:"Michael Chalhoub", t:2, p:60, s:"consumer_disc", roles:[
+    ["chalhoub","Chief Executive Officer","executive","v"]]},
+  {id:"tracey_griffin", n:"Tracey Griffin", t:2, p:58, s:"consumer_disc", roles:[
+    ["chalhoub","Chief Financial Officer","executive","v"]]},
+  {id:"kamran_abbasi", n:"Kamran Abbasi", t:2, p:58, s:"consumer_disc", roles:[
+    ["chalhoub","Chief Data and Technology Officer","executive","v"]]},
+  {id:"marco_andreu", n:"Marco Andreu", t:2, p:58, s:"consumer_disc", roles:[
+    ["chalhoub","Chief Operating Officer","executive","v"]]},
+  {id:"nada_boutros", n:"Nada Boutros", t:2, p:58, s:"consumer_disc", roles:[
+    ["chalhoub","Chief Legal Officer","executive","v"]]},
+  {id:"amit_keswani", n:"Amit Keswani", t:2, p:58, s:"consumer_disc", roles:[
+    ["chalhoub","Chief Omnichannel and AI Officer","executive","v"]]},
+  {id:"wassim_eid", n:"Wassim Eid", t:2, p:58, s:"consumer_disc", roles:[
+    ["chalhoub","President of People & Culture","executive","v"]]},
+  {id:"david_vercruysse", n:"David Vercruysse", t:2, p:58, s:"consumer_disc", roles:[
+    ["chalhoub","President of Managed Companies Vertical","executive","v"]]},
+  {id:"jasmina_banda", n:"Jasmina Banda", t:2, p:58, s:"consumer_disc", roles:[
+    ["chalhoub","President of Joint Ventures","executive","v"]]},
+  {id:"fadi_jabbour", n:"Fadi Jabbour", t:2, p:58, s:"consumer_disc", roles:[
+    ["chalhoub","Chief of Country Managers","executive","v"]]},
+  {id:"mohammed_abdullatif_ibrahim", n:"Mohammed Abdullatif Ibrahim Galadari", t:2, p:62, s:"conglomerate", roles:[
+    ["galadari_brothers","Co-Chairman and Group CEO","board","v"]]},
+  {id:"suhail_abdullatif_ibrahim", n:"Suhail Abdullatif Ibrahim Galadari", t:2, p:62, s:"conglomerate", roles:[
+    ["galadari_brothers","Co-Chairman","board","v"]]},
+  {id:"ibrahim_abdullatif_ibrahim", n:"Ibrahim Abdullatif Ibrahim Galadari", t:2, p:52, s:"conglomerate", roles:[
+    ["galadari_brothers","Group Chief Investment Officer and Director","board","v"]]},
+  {id:"hesham_mir_hashem", n:"Hesham Mir Hashem Khoory", t:2, p:52, s:"conglomerate", roles:[
+    ["galadari_brothers","Director","board","v"]]},
+  {id:"mohamed_al_shirawi", n:"Mohamed Al Shirawi", t:2, p:62, s:"industry", roles:[
+    ["al_shirawi","Chairman","board","v"]]},
+  {id:"hisham_al_shirawi", n:"Hisham Al Shirawi", t:2, p:62, s:"industry", roles:[
+    ["al_shirawi","Senior Vice Chairman and Chief Executive Officer of Oasis Enterprises","executive","v"]]},
+  {id:"khalid_al_shirawi", n:"Khalid Al Shirawi", t:2, p:62, s:"industry", roles:[
+    ["al_shirawi","Senior Vice Chairman","board","v"]]},
+  {id:"sumeet_valrani", n:"Sumeet Valrani", t:2, p:62, s:"industry", roles:[
+    ["al_shirawi","Senior Vice Chairman","board","v"]]},
+  {id:"navin_valrani", n:"Navin Valrani", t:2, p:62, s:"industry", roles:[
+    ["al_shirawi","Vice Chairman and Managing Director","executive","v"]]},
+  {id:"kabir_valrani", n:"Kabir Valrani", t:2, p:62, s:"industry", roles:[
+    ["al_shirawi","Vice Chairman and CEO of Aswan International Engineering and Modern Plastic Industry","executive","v"]]},
+  {id:"abdulla_hisham_al", n:"Abdulla Hisham Al Shirawi", t:2, p:60, s:"industry", roles:[
+    ["al_shirawi","Deputy CEO of Oasis Enterprises and Al Shirawi Solar","executive","v"]]},
+  {id:"rohan_navin_valrani", n:"Rohan Navin Valrani", t:2, p:60, s:"industry", roles:[
+    ["al_shirawi","Deputy CEO of Engineering & Healthcare Services Group","executive","v"]]},
+  {id:"samir_gargash", n:"Samir Gargash", t:2, p:62, s:"consumer_disc", roles:[
+    ["gargash","Group Chairman","board","v"]]},
+  {id:"shehab_gargash", n:"Shehab Gargash", t:2, p:60, s:"consumer_disc", roles:[
+    ["gargash","Managing Director & Group CEO","executive","v"]]},
+  {id:"walid_hizaoui", n:"Walid Hizaoui", t:2, p:58, s:"consumer_disc", roles:[
+    ["gargash","Group Chief Strategy Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

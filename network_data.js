@@ -352,6 +352,7 @@ const PEOPLE = [
     ["adia","Managing Director","executive","v"],
     ["execcouncil","Member","political","v"],
     ["scfea","Board Member","board","v"],
+    ["khalifa_u","Chairman, Board of Trustees","board","v"],
     ]},
   {id:"theyab", n:"H.H. Sheikh Theyab bin Mohamed bin Zayed Al Nahyan", t:0, p:91, s:"gov", roles:[
     ["prescourt","Deputy Chairman (Development & Fallen Heroes' Affairs)","political","v"],
@@ -389,6 +390,8 @@ const PEOPLE = [
     ["adnocdrill","Chairman","board","v"],
     ["adnocdist","Chairman","board","v"],
     ["scfea","Board Member","board","v"],
+    ["fertiglobe","Chairman","board","v"],
+    ["khalifa_u","Member, Board of Trustees","board","v"],
     ], note:"Runs the hydrocarbon engine and its clean-energy / AI diversification arms; COP28 President."},
   {id:"jassem_zaabi", n:"Jassem Mohamed Bu Ataba Al Zaabi", t:1, p:95, s:"gov", roles:[
     ["dof","Chairman","government","v"],
@@ -410,6 +413,7 @@ const PEOPLE = [
     ["eia","Board Member","board","v"],
     ["adnocdist","Board Member","board","v"],
     ["adio","Member of the Abu Dhabi Executive Council and Chairman of the Abu Dhabi Department of Economic Development (ADIO's parent, ADDED)","board","v"],
+    ["hub71","Chairman","board","v"],
     ], note:"Gatekeeper for economic policy and the financial free zone."},
   {id:"alsuwaidi_adq", n:"Mohamed Hassan Alsuwaidi", t:1, p:92, s:"sovereign", roles:[
     ["fedgov","UAE Minister of Investment","political","v"],
@@ -432,6 +436,7 @@ const PEOPLE = [
     ["prescourt","Adviser for Strategic Research & Advanced Technology Affairs","political","v"],
     ["atrc","Secretary-General","government","v"],
     ["edge_grp","Chairman","board","v"],
+    ["khalifa_u","Member, Board of Trustees","board","v"],
     ], note:"Architect of the UAE's sovereign tech & Falcon AI model push; founded EDGE."},
   {id:"peng_xiao", n:"Peng Xiao", t:1, p:88, s:"tech", roles:[
     ["g42","Group CEO","executive","v"],
@@ -439,6 +444,7 @@ const PEOPLE = [
     ["m42","Chairman of the Board","board","v"],
     ["mbzuai","Board of Trustees Member","board","v"],
     ["mubadala_health","Chairman","board","v"],
+    ["ccad","Chairman, Board of Directors","board","v"],
     ], note:"Runs the G42 AI constellation; the operator of the Tahnoon tech ecosystem."},
   {id:"yousef_otaiba", n:"Yousef Al Otaiba", t:1, p:87, s:"gov", roles:[
     ["mofa","UAE Ambassador to the United States · Minister of State","political","v"],
@@ -489,6 +495,7 @@ const PEOPLE = [
     ["dcd","Chairman (–Jan 2026)","government","v","former:until Jan 2026"],
     ["execcouncil","Member","political","v"],
     ["dcd","Chairman","board","v"],
+    ["adafsa","Member, Board of Directors","board","v"],
     ]},
   {id:"saif_ghobash", n:"Saif Saeed Ghobash", t:1, p:80, s:"gov", roles:[
     ["execcouncil","Secretary-General","government","v"],
@@ -722,6 +729,7 @@ const PEOPLE = [
     ["ead","Secretary-General","executive","v"],
     ["atrc","Board Member, ATRC","board","v"],
     ["tadweer","Board Member","board","v"],
+    ["adafsa","Member, Board of Directors","board","v"],
     ]},
   {id:"ali_tadweer", n:"Ali Al Dhaheri", t:2, p:64, s:"industry", roles:[
     ["tadweer","Managing Director & CEO","executive","v"],
@@ -745,6 +753,7 @@ const PEOPLE = [
     ["trojan","CEO","executive","ns"],
     ["alphadhabi","Managing Director and Group Chief Executive Officer","executive","v"],
     ["wio","Board Member","board","v"],
+    ["uaeu","Member, Board of Trustees","board","v"],
     ]},
   {id:"ahmed_elhoshy", n:"Ahmed El-Hoshy", t:2, p:64, s:"materials", roles:[
     ["fertiglobe","CEO","executive","v"],
@@ -820,6 +829,7 @@ const PEOPLE = [
     ["adnocdist","Board Member","board","v"],
     ["ruwais_lng","Chairman, Ruwais LNG","executive","v"],
     ["adnoc_global_trading","Acting CEO, ADNOC Downstream Industry, Marketing & Trading (oversight)","executive","ns"],
+    ["fertiglobe","Director","board","v"],
     ], note:"Acting CEO of ADNOC's Downstream Industry"},
   {id:"dena_almansoori", n:"Dena Al Mansoori", t:2, p:68, s:"energy", roles:[
     ["adnoc","Group Chief Technology & Innovation Officer","executive","v"],
@@ -898,6 +908,7 @@ const PEOPLE = [
     ["multiply","Vice Chair (Two Point Zero Group, formerly Multiply Group)","board","v"],
     ["multiply","Managing Director (Two Point Zero Group, formerly Multiply Group)","executive","v"],
     ["q","Board Member","board","v"],
+    ["adafsa","Member, Board of Directors","board","v"],
     ]},
   {id:"sheikh_ahmed_mohammed", n:"Sheikh Ahmed Mohammed Sultan Aldhaheri", t:2, p:52, s:"finance", roles:[
     ["fab","Board Member","board","v"],
@@ -1116,6 +1127,7 @@ const PEOPLE = [
     ]},
   {id:"hatem", n:"Hatem Dowidar", t:2, p:56, s:"comm", roles:[
     ["e_and","Group Chief Executive Officer (2020–2025)","executive","v","former:until 2025"],
+    ["khalifa_u","Member, Board of Trustees","board","v"],
     ], note:"Group CEO of e& 2020–2025; led the Etisalat-to-e& rebrand and Vodafone stake build. Succeeded by Masood M. Sharif Mahmood."},
   {id:"alan_smith", n:"Alan Smith", t:3, p:46, s:"consumer_stap", roles:[
     ["agthia","Group Chief Executive Officer (2020–2025)","executive","v","former:until 2025"],
@@ -1355,6 +1367,7 @@ const PEOPLE = [
     ]},
   {id:"dr_chaouki_kasmi", n:"Dr Chaouki Kasmi", t:2, p:58, s:"industry", roles:[
     ["edge_grp","Group CTO & President – Technologies & Industrialisation, EDGE","executive","v"],
+    ["tii","Chief Innovation Officer","executive","v"],
     ]},
   {id:"farah_abdulla_mohamed", n:"Farah Abdulla Mohamed Ali Al Mazrui", t:2, p:52, s:"industry", roles:[
     ["etihad","Member of the Board","board","v"],
@@ -1458,9 +1471,11 @@ const PEOPLE = [
     ]},
   {id:"dr_marwan_al", n:"Dr Marwan Al Kaabi", t:2, p:58, s:"health", roles:[
     ["purehealth","CEO, Sheikh Shakhbout Medical City (SSMC)","executive","v"],
+    ["uaeu","Member, Board of Trustees","board","v"],
     ]},
   {id:"dr_khadija_al", n:"Dr Khadija Al Marashda", t:2, p:58, s:"health", roles:[
     ["purehealth","Acting CEO, SEHA Clinics","executive","v"],
+    ["seha","Chief Executive Officer, SEHA Clinics","executive","v"],
     ]},
   {id:"philipp_mielenz", n:"Philipp Mielenz", t:2, p:58, s:"health", roles:[
     ["purehealth","CEO, Salma Long Term Care","executive","v"],
@@ -1625,6 +1640,7 @@ const PEOPLE = [
     ]},
   {id:"homaid_abdulla_al", n:"Homaid Abdulla Al Shimmari", t:2, p:62, s:"materials", roles:[
     ["ega","Chairman","board","v"],
+    ["khalifa_u","Vice Chairman, Board of Trustees","board","v"],
     ]},
   {id:"h_e_saeed", n:"H.E. Saeed Mohammed Al Tayer", t:2, p:62, s:"materials", roles:[
     ["ega","Vice-Chairman","board","v"],
@@ -1744,6 +1760,7 @@ const PEOPLE = [
     ]},
   {id:"tayba_abdulrahim_mohamed", n:"Tayba Abdulrahim Mohamed Alhashmi", t:2, p:52, s:"energy", roles:[
     ["adnocls","Director","board","v"],
+    ["uaeu","Member, Board of Trustees","board","v"],
     ]},
   {id:"marwan_naim_nijmeh", n:"Marwan Naim Nijmeh", t:2, p:52, s:"energy", roles:[
     ["adnocls","Director","board","v"],
@@ -1994,6 +2011,7 @@ const PEOPLE = [
     ]},
   {id:"rainer_seele", n:"Rainer Seele", t:2, p:52, s:"materials", roles:[
     ["borouge","Board Member, Borouge Group International Supervisory Board","board","v"],
+    ["fertiglobe","Director","board","v"],
     ]},
   {id:"klaus_froehlich", n:"Klaus Froehlich", t:2, p:52, s:"materials", roles:[
     ["borouge","Board Member, Borouge Group International Supervisory Board","board","v"],
@@ -2027,6 +2045,7 @@ const PEOPLE = [
     ]},
   {id:"mohamed_al_aryani", n:"Mohamed Al Aryani", t:2, p:52, s:"energy", roles:[
     ["adnocdrill","Board Member","board","v"],
+    ["fertiglobe","Director","board","v"],
     ]},
   {id:"youssef_salem", n:"Youssef Salem", t:2, p:58, s:"energy", roles:[
     ["adnocdrill","Chief Financial Officer","executive","v"],
@@ -2152,6 +2171,7 @@ const PEOPLE = [
   {id:"dimitris_moulavasilis", n:"Dimitris Moulavasilis", t:2, p:60, s:"health", roles:[
     ["m42","Group Chief Executive Officer","executive","v"],
     ["mubadala_health","Group Chief Executive Officer","executive","v"],
+    ["ccad","Group Chief Executive Officer, M42","board","v"],
     ]},
   {id:"zoltan_szepesi", n:"Zoltan Szepesi", t:2, p:58, s:"health", roles:[
     ["m42","Group Chief Financial Officer","executive","v"],
@@ -2626,6 +2646,7 @@ const PEOPLE = [
     ]},
   {id:"arif_al_hammadi", n:"Arif Al Hammadi", t:2, p:52, s:"industry", roles:[
     ["sanad","Board Member","board","v"],
+    ["khalifa_u","Executive Vice President","executive","v"],
     ]},
   {id:"ebraheem_budebs", n:"Ebraheem Budebs", t:2, p:58, s:"industry", roles:[
     ["sanad","Group Head, Human Resources","executive","v"],
@@ -2635,6 +2656,7 @@ const PEOPLE = [
     ]},
   {id:"ali_rashid_al", n:"Ali Rashid Al Ketbi", t:2, p:52, s:"sovereign", roles:[
     ["adpf","Board Member","board","v"],
+    ["khalifa_u","Member, Board of Trustees","board","v"],
     ]},
   {id:"hamad_al_dhaheri", n:"Hamad Al Dhaheri", t:2, p:52, s:"sovereign", roles:[
     ["adpf","Board Member","board","v"],
@@ -2644,6 +2666,7 @@ const PEOPLE = [
     ]},
   {id:"salem_rashid_al", n:"Salem Rashid Al Nuaimi", t:2, p:60, s:"sovereign", roles:[
     ["adpf","Managing Director","board","v"],
+    ["khalifa_u","Member, Board of Trustees","board","v"],
     ]},
   {id:"khalaf_al_hammadi", n:"Khalaf Al Hammadi", t:2, p:58, s:"sovereign", roles:[
     ["adpf","Director General","executive","ns"],
@@ -2677,6 +2700,7 @@ const PEOPLE = [
     ]},
   {id:"salem_butti_salem", n:"Salem Butti Salem Al Qubaisi", t:2, p:58, s:"tech", roles:[
     ["spaceagency","Director-General","executive","v"],
+    ["khalifa_u","Member, Board of Trustees","board","v"],
     ]},
   {id:"nasser_humaid_al", n:"Nasser Humaid Al Nuaimi", t:2, p:58, s:"gov", roles:[
     ["tawazun","Secretary General","executive","ns"],
@@ -3024,6 +3048,7 @@ const PEOPLE = [
     ]},
   {id:"bader_al_qubaisi", n:"Bader Al Qubaisi", t:2, p:60, s:"health", roles:[
     ["skmc_abu_dhabi","Chief Executive Officer","executive","v"],
+    ["seha","Chief Executive Officer, Sheikh Khalifa Medical City","executive","v"],
     ]},
   {id:"yousif_najem_al", n:"Yousif Najem Al Khanjari", t:2, p:58, s:"health", roles:[
     ["daman","Chief Financial Officer","executive","v"],
@@ -3283,6 +3308,270 @@ const PEOPLE = [
     ]},
   {id:"osama_bishai", n:"Osama Bishai", t:2, p:60, s:"industry", roles:[
     ["lst_oras","Chief Executive Officer & Executive Director","executive","ns"],
+    ]},
+  {id:"jida_itani", n:"Jida Itani", t:2, p:58, s:"tech", roles:[
+    ["hub71","Chief Operating Officer","executive","v"],
+    ]},
+  {id:"basma_ahmed_albadi", n:"Basma Ahmed AlBadi AlDhaheri", t:2, p:46, s:"tech", roles:[
+    ["hub71","Head of Value Creation","executive","v"],
+    ]},
+  {id:"hashem_al_kaabi", n:"Hashem Al Kaabi", t:2, p:46, s:"tech", roles:[
+    ["hub71","Head of Operations and Corporate Services","executive","v"],
+    ]},
+  {id:"mohammed_alkhoori", n:"Mohammed Alkhoori", t:2, p:46, s:"tech", roles:[
+    ["hub71","Head of Marketing and Communications","executive","v"],
+    ]},
+  {id:"peter_abou_hachem", n:"Peter Abou Hachem", t:2, p:46, s:"tech", roles:[
+    ["hub71","Head of Growth and Strategy","executive","v"],
+    ]},
+  {id:"mike_baker", n:"Mike Baker", t:2, p:52, s:"materials", roles:[
+    ["fertiglobe","Director","board","v"],
+    ]},
+  {id:"corrine_ricard", n:"Corrine Ricard", t:2, p:52, s:"materials", roles:[
+    ["fertiglobe","Director","board","v"],
+    ]},
+  {id:"hartwig_michels", n:"Hartwig Michels", t:2, p:52, s:"materials", roles:[
+    ["fertiglobe","Director","board","v"],
+    ]},
+  {id:"haroon_rahmathulla", n:"Haroon Rahmathulla", t:2, p:58, s:"materials", roles:[
+    ["fertiglobe","Chief Commercial & Growth Officer","executive","v"],
+    ]},
+  {id:"daniel_shook", n:"Daniel Shook", t:2, p:58, s:"materials", roles:[
+    ["fertiglobe","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"rita_guindy", n:"Rita Guindy", t:2, p:58, s:"materials", roles:[
+    ["fertiglobe","Vice President, Investor Relations and Communications","executive","v"],
+    ]},
+  {id:"geert_de_raedemaecker", n:"Geert De Raedemaecker", t:2, p:58, s:"materials", roles:[
+    ["fertiglobe","Vice President, Manufacturing","executive","v"],
+    ]},
+  {id:"bayan_sharif", n:"Bayan Sharif", t:2, p:58, s:"education", roles:[
+    ["khalifa_u","Provost","executive","v"],
+    ]},
+  {id:"samar_almansoori", n:"Samar Almansoori", t:2, p:58, s:"education", roles:[
+    ["khalifa_u","Senior Vice President, Support Services","executive","v"],
+    ]},
+  {id:"jalal_el_jazzar", n:"Jalal El Jazzar", t:2, p:58, s:"education", roles:[
+    ["khalifa_u","Senior Vice President, Finance and Investment","executive","v"],
+    ]},
+  {id:"abdulaziz_abdulla_alkhoori", n:"Abdulaziz Abdulla Alkhoori", t:2, p:58, s:"education", roles:[
+    ["khalifa_u","Vice President, Audit and Risk Management","executive","v"],
+    ]},
+  {id:"ahmed_saleh", n:"Ahmed Saleh", t:2, p:58, s:"education", roles:[
+    ["khalifa_u","Vice President, Human Resources","executive","v"],
+    ]},
+  {id:"ashraf_al_najdawi", n:"Ashraf Al Najdawi", t:2, p:58, s:"education", roles:[
+    ["khalifa_u","Acting Vice President, External Relations","executive","v"],
+    ]},
+  {id:"ebrahim_jafar_alahmed", n:"Ebrahim Jafar Alahmed", t:2, p:58, s:"education", roles:[
+    ["khalifa_u","Vice President, Finance and Budget","executive","v"],
+    ]},
+  {id:"esmaeel_abdul_karim", n:"Esmaeel Abdul Karim AlAhmed", t:2, p:58, s:"education", roles:[
+    ["khalifa_u","Vice President, Procurement and Contracts","executive","v"],
+    ]},
+  {id:"hanadi_kadbey", n:"Hanadi Kadbey", t:2, p:58, s:"education", roles:[
+    ["khalifa_u","Vice President, Strategic Affairs and Foresight","executive","v"],
+    ]},
+  {id:"mohammed_marzooq_al", n:"Mohammed Marzooq Al Shehhi", t:2, p:58, s:"education", roles:[
+    ["khalifa_u","Vice President, Administration, Facilities and EHS","executive","v"],
+    ]},
+  {id:"ehab_fahmy_el", n:"Ehab Fahmy El-Sadaany", t:2, p:58, s:"education", roles:[
+    ["khalifa_u","Dean, College of Engineering and Physical Sciences","executive","v"],
+    ]},
+  {id:"habiba_al_safar", n:"Habiba Al Safar", t:2, p:58, s:"education", roles:[
+    ["khalifa_u","Dean, College of Medicine and Health Sciences","executive","v"],
+    ]},
+  {id:"sami_muhaidat", n:"Sami Muhaidat", t:2, p:58, s:"education", roles:[
+    ["khalifa_u","Acting Dean, College of Computing and Mathematical Sciences","executive","v"],
+    ]},
+  {id:"khalifa_mohammed_al", n:"Khalifa Mohammed Al Mazroue", t:2, p:52, s:"gov", roles:[
+    ["adafsa","Member, Board of Directors","board","v"],
+    ]},
+  {id:"mubarak_obeid_al", n:"Mubarak Obeid Al Dhaheri", t:2, p:52, s:"gov", roles:[
+    ["adafsa","Member, Board of Directors","board","v"],
+    ]},
+  {id:"rashid_abdul_kareem", n:"Rashid Abdul Kareem Al Balooshi", t:2, p:52, s:"gov", roles:[
+    ["adafsa","Member, Board of Directors","board","v"],
+    ]},
+  {id:"saeed_al_bahri", n:"Saeed Al Bahri Salem Al Ameri", t:2, p:58, s:"gov", roles:[
+    ["adafsa","Director General","executive","v"],
+    ]},
+  {id:"mariam_harib_al", n:"Mariam Harib Al Suwaidi", t:2, p:58, s:"gov", roles:[
+    ["adafsa","Deputy Director General, Operational Affairs","executive","v"],
+    ]},
+  {id:"mouza_suhail_al", n:"Mouza Suhail Al Muhairi", t:2, p:58, s:"gov", roles:[
+    ["adafsa","Deputy Director General, Regulatory and Administrative Affairs","executive","v"],
+    ]},
+  {id:"rashid_mohammed_belrasas", n:"Rashid Mohammed Belrasas Al Mansouri", t:2, p:58, s:"gov", roles:[
+    ["adafsa","Executive Director, Animal Wealth Sector","executive","v"],
+    ]},
+  {id:"arif_abdulwahed_kalantar", n:"Arif Abdulwahed Kalantar", t:2, p:58, s:"gov", roles:[
+    ["adafsa","Acting Executive Director, Development and Innovation Sector","executive","v"],
+    ]},
+  {id:"omar_ali_al", n:"Omar Ali Al Shammari", t:2, p:58, s:"gov", roles:[
+    ["adafsa","Executive Director, Strategy and Policies Sector","executive","v"],
+    ]},
+  {id:"hakim_hacid", n:"Hakim Hacid", t:2, p:58, s:"tech", roles:[
+    ["tii","Chief Researcher, AI and Digital Science Research Center","executive","v"],
+    ]},
+  {id:"enrico_natalizio", n:"Enrico Natalizio", t:2, p:58, s:"tech", roles:[
+    ["tii","Chief Researcher, Autonomous Robotics Research Center","executive","v"],
+    ]},
+  {id:"victor_mateu", n:"Victor Mateu", t:2, p:58, s:"tech", roles:[
+    ["tii","Acting Chief Researcher, Cryptography Research Center","executive","v"],
+    ]},
+  {id:"elias_tsoutsanis", n:"Elias Tsoutsanis", t:2, p:58, s:"tech", roles:[
+    ["tii","Acting Chief Researcher, Propulsion and Space Research Center","executive","v"],
+    ]},
+  {id:"shreekant_thakkar", n:"Shreekant Thakkar", t:2, p:58, s:"tech", roles:[
+    ["tii","Chief Researcher, Secure Systems Research Centre","executive","v"],
+    ]},
+  {id:"vincenzo_giannini", n:"Vincenzo Giannini", t:2, p:58, s:"tech", roles:[
+    ["tii","Chief Researcher, Advanced Materials Research Center","executive","v"],
+    ]},
+  {id:"abdulla_saeed_al_b", n:"Abdulla Saeed Al Dhaheri", t:2, p:58, s:"health", roles:[
+    ["seha","Corporate Chief People Officer","executive","v"],
+    ]},
+  {id:"hasnain_moochhala", n:"Hasnain Moochhala", t:2, p:58, s:"health", roles:[
+    ["seha","Corporate Chief Financial Officer","executive","v"],
+    ]},
+  {id:"mohamed_hareb_al", n:"Mohamed Hareb Al Qemzi", t:2, p:58, s:"health", roles:[
+    ["seha","Corporate Executive Support Services Director","executive","v"],
+    ]},
+  {id:"sultan_mohamed_alkaram", n:"Sultan Mohamed Alkaram", t:2, p:60, s:"health", roles:[
+    ["seha","Chief Executive Officer, Al Ain Region","executive","v"],
+    ]},
+  {id:"marta_losada", n:"Marta Losada", t:2, p:58, s:"education", roles:[
+    ["nyuad","Interim Provost and Associate Vice Chancellor for Global Research and Senior Vice Provost of Research","executive","v"],
+    ]},
+  {id:"awam_amkpa", n:"Awam Amkpa", t:2, p:58, s:"education", roles:[
+    ["nyuad","Dean of Arts and Humanities","executive","v"],
+    ]},
+  {id:"paula_england", n:"Paula England", t:2, p:58, s:"education", roles:[
+    ["nyuad","Dean of Social Science","executive","v"],
+    ]},
+  {id:"ozgur_sinanoglu", n:"Ozgur Sinanoglu", t:2, p:58, s:"education", roles:[
+    ["nyuad","Interim Dean of Engineering","executive","v"],
+    ]},
+  {id:"fatma_abdulla", n:"Fatma Abdulla", t:2, p:58, s:"education", roles:[
+    ["nyuad","Senior Associate Vice Chancellor and Senior Vice Provost for Strategy and Planning","executive","v"],
+    ]},
+  {id:"carol_brandt", n:"Carol Brandt", t:2, p:58, s:"education", roles:[
+    ["nyuad","Vice Provost and Associate Vice Chancellor for Global Education and Outreach","executive","v"],
+    ]},
+  {id:"erich_dietrich", n:"Erich Dietrich", t:2, p:58, s:"education", roles:[
+    ["nyuad","Vice Provost for Undergraduate Education","executive","v"],
+    ]},
+  {id:"martin_klimke", n:"Martin Klimke", t:2, p:58, s:"education", roles:[
+    ["nyuad","Vice Provost","executive","v"],
+    ]},
+  {id:"sunil_kumar", n:"Sunil Kumar", t:2, p:58, s:"education", roles:[
+    ["nyuad","Vice Provost for Graduate and Postdoctoral Programs","executive","v"],
+    ]},
+  {id:"eric_hamilton", n:"Eric Hamilton", t:2, p:58, s:"education", roles:[
+    ["nyuad","Associate Vice Chancellor and Chief of Staff","executive","v"],
+    ]},
+  {id:"tommaso_falcone", n:"Tommaso Falcone", t:2, p:52, s:"health", roles:[
+    ["ccad","Executive Vice President & President, International and Emerging Markets, Cleveland Clinic","board","v"],
+    ]},
+  {id:"ricky_thirion", n:"Ricky Thirion", t:2, p:52, s:"health", roles:[
+    ["ccad","Group Chief Financial Officer, G42","board","v"],
+    ]},
+  {id:"michael_p_cleanis", n:"Michael P. Cleanis", t:2, p:52, s:"health", roles:[
+    ["ccad","Executive Director, Growth & Value Creation, UAE Investments Platform, Mubadala Investment Company","board","v"],
+    ]},
+  {id:"mina_abdulla_hamoodi", n:"Mina Abdulla Hamoodi", t:2, p:52, s:"health", roles:[
+    ["ccad","Head of Healthcare, Mubadala Investment Company","board","v"],
+    ]},
+  {id:"saad_rafic_hariri", n:"Saad Rafic Hariri", t:2, p:52, s:"health", roles:[
+    ["ccad","Board Member","board","v"],
+    ]},
+  {id:"mumtaz_khan", n:"Mumtaz Khan", t:2, p:58, s:"health", roles:[
+    ["ccad","Chief of Staff","executive","v"],
+    ]},
+  {id:"florian_roser", n:"Florian Roser", t:2, p:58, s:"health", roles:[
+    ["ccad","Chief Medical Officer","executive","v"],
+    ]},
+  {id:"marc_petre", n:"Marc Petre", t:2, p:58, s:"health", roles:[
+    ["ccad","Chief Operating Officer","executive","v"],
+    ]},
+  {id:"francois_van_zyl", n:"Francois van Zyl", t:2, p:58, s:"health", roles:[
+    ["ccad","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"sawsan_abdel_razig", n:"Sawsan Abdel-Razig", t:2, p:58, s:"health", roles:[
+    ["ccad","Chief Academic Officer","executive","v"],
+    ]},
+  {id:"bryan_lord", n:"Bryan Lord", t:2, p:58, s:"health", roles:[
+    ["ccad","Chief Information Officer","executive","v"],
+    ]},
+  {id:"elizabeth_govero", n:"Elizabeth Govero", t:2, p:58, s:"health", roles:[
+    ["ccad","Chief Nursing Officer","executive","v"],
+    ]},
+  {id:"ali_al_jawdar", n:"Ali Al Jawdar", t:2, p:58, s:"health", roles:[
+    ["ccad","Chief Human Capital Officer","executive","v"],
+    ]},
+  {id:"amna_bint_abdullah", n:"Amna bint Abdullah Al Dahak Al Shamsi", t:2, p:62, s:"education", roles:[
+    ["uaeu","Vice Chair, Board of Trustees","board","v"],
+    ]},
+  {id:"ajay_kakkar", n:"Ajay Kakkar", t:2, p:52, s:"education", roles:[
+    ["uaeu","Member, Board of Trustees","board","v"],
+    ]},
+  {id:"mona_ghanem_al", n:"Mona Ghanem Al Marri", t:2, p:52, s:"education", roles:[
+    ["uaeu","Member, Board of Trustees","board","v"],
+    ]},
+  {id:"salem_al_bahri", n:"Salem Al-Bahri Salem Al-Ameri", t:2, p:52, s:"education", roles:[
+    ["uaeu","Member, Board of Trustees","board","v"],
+    ]},
+  {id:"mohammed_haji_al", n:"Mohammed Haji Al Khouri", t:2, p:52, s:"education", roles:[
+    ["uaeu","Member, Board of Trustees","board","v"],
+    ]},
+  {id:"aisha_abdulla_miran", n:"Aisha Abdulla Miran", t:2, p:52, s:"education", roles:[
+    ["uaeu","Member, Board of Trustees","board","v"],
+    ]},
+  {id:"khalid_abdulla_al", n:"Khalid Abdulla Al Buainain Al Mazrouei", t:2, p:52, s:"education", roles:[
+    ["uaeu","Member, Board of Trustees","board","v"],
+    ]},
+  {id:"tariq_bin_hendi", n:"Tariq bin Hendi", t:2, p:52, s:"education", roles:[
+    ["uaeu","Member, Board of Trustees","board","v"],
+    ]},
+  {id:"riyadh_abdul_latif", n:"Riyadh Abdul Latif Al Muhaidib", t:2, p:52, s:"education", roles:[
+    ["uaeu","Member, Board of Trustees","board","v"],
+    ]},
+  {id:"peter_piot", n:"Peter Piot", t:2, p:52, s:"education", roles:[
+    ["uaeu","Member, Board of Trustees","board","v"],
+    ]},
+  {id:"kyung_soo_kim", n:"Kyung-Soo Kim", t:2, p:52, s:"education", roles:[
+    ["uaeu","Member, Board of Trustees","board","v"],
+    ]},
+  {id:"ahmed_ali_alraeesi", n:"Ahmed Ali Alraeesi", t:2, p:58, s:"education", roles:[
+    ["uaeu","Vice Chancellor","executive","v"],
+    ]},
+  {id:"mohsen_sherif", n:"Mohsen Sherif", t:2, p:58, s:"education", roles:[
+    ["uaeu","Deputy Vice Chancellor for Academic Affairs (Provost)","executive","v"],
+    ]},
+  {id:"ayesha_salem_al", n:"Ayesha Salem Al Dhaheri", t:2, p:58, s:"education", roles:[
+    ["uaeu","Associate Provost for Students' Affairs","executive","v"],
+    ]},
+  {id:"ahmed_murad", n:"Ahmed Murad", t:2, p:58, s:"education", roles:[
+    ["uaeu","Associate Provost for Research","executive","v"],
+    ]},
+  {id:"abdulla_humaid_almazrouei", n:"Abdulla Humaid Almazrouei", t:2, p:62, s:"conglomerate", roles:[
+    ["mazrui_intl","Chairman","board","v"],
+    ]},
+  {id:"allia_abdulla_al", n:"Allia Abdulla Al Mazrui", t:2, p:52, s:"conglomerate", roles:[
+    ["mazrui_intl","Board Member","board","v"],
+    ]},
+  {id:"charbel_elias_el", n:"Charbel Elias el Khoury", t:2, p:60, s:"conglomerate", roles:[
+    ["mazrui_intl","Group Chief Executive Officer","executive","v"],
+    ]},
+  {id:"daniel_ragette", n:"Daniel Ragette", t:2, p:58, s:"conglomerate", roles:[
+    ["mazrui_intl","Group Chief Financial Officer","executive","v"],
+    ]},
+  {id:"mark_ferrer", n:"Mark Ferrer", t:2, p:58, s:"conglomerate", roles:[
+    ["mazrui_intl","Chief Human Resources Officer","executive","v"],
+    ]},
+  {id:"martin_pearson", n:"Martin Pearson", t:2, p:58, s:"conglomerate", roles:[
+    ["mazrui_intl","Group Chief Operating Officer","executive","v"],
     ]},
 ];
 

@@ -497,6 +497,7 @@ const INSTITUTIONS = [
   {id:"lucid", n:"Lucid Group, Inc.", s:"consumer_disc", t:2, p:62, short:"Lucid Group"},
   {id:"seven", n:"Saudi Entertainment Ventures", s:"consumer_disc", t:2, p:60, short:"SEVEN"},
   {id:"tawrid", n:"Tawrid", s:"finance", t:3, p:52, short:"Tawrid"},
+  {id:"watani_steel", n:"Watani Steel", s:"materials", t:3, p:54, short:"Watani Steel"},
 ];
 
 const PEOPLE = [

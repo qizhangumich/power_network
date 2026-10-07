@@ -152,6 +152,7 @@ const PEOPLE = [
     ["aus","Founder & President","board","v"]],
     note:"Ruler since 1972 — the intellectual of the UAE ruling houses; culture and education define Sharjah's model."},
   {id:"sultan_ahmed_q", n:"H.H. Sheikh Sultan bin Ahmed Al Qasimi", t:0, p:84, s:"gov", roles:[
+    ["invest_bank","Chairman","board","v"],
     ["sharjah_broadcasting","Chairman - Sharjah Media Council (SBA oversight body)","board","ns"],
     ["university_of_sharjah","President and Chairman of the Board of Trustees","board","v"],
     ["shj_execco","Deputy Chairman (Chairman of Sharjah Media Council)","board","v"],
@@ -802,7 +803,7 @@ const PEOPLE = [
   {id:"salem_al_suwaidi", n:"Salem Al Suwaidi", t:2, p:58, s:"gov", roles:[
     ["ajman_chamber","Director General","executive","v"]]},
   {id:"marwan_bin_jassim", n:"Marwan bin Jassim Al Sarkal", t:2, p:62, s:"sovereign", roles:[
-    ["shurooq","Executive Chairman","board","ns"]]},
+    ["shurooq","Executive Chairman","board","v"]]},
   {id:"yousif_ahmed_almutawa", n:"Yousif Ahmed AlMutawa", t:2, p:58, s:"sovereign", roles:[
     ["shurooq","Chief Real Estate Officer","executive","ns"]]},
   {id:"al_shamsi", n:"Al Shamsi", t:2, p:58, s:"sovereign", roles:[
@@ -846,6 +847,7 @@ const PEOPLE = [
     ["fujairah_national","Member of the Board","board","v"],
     ["nbf","Director","board","v"]]},
   {id:"hussain_mirza_al", n:"Hussain Mirza Al Sayegh", t:2, p:52, s:"finance", roles:[
+    ["union_cement","Chairman","board","v"],
     ["nbf","Director","board","v"]]},
   {id:"adnan_anwar", n:"Adnan Anwar", t:2, p:60, s:"finance", roles:[
     ["nbf","Group Chief Executive Officer","executive","v"]]},
@@ -1097,6 +1099,54 @@ const PEOPLE = [
     ["rak_gas","Chief Executive Officer","executive","ns"]]},
   {id:"hessa_abdullah_humaid", n:"Hessa Abdullah Humaid Al Shamsi", t:2, p:58, s:"gov", roles:[
     ["epaa","Director","executive","v"]]},
+  {id:"mohamed_el_kaddour", n:"Mohamed El Kaddour", t:2, p:58, s:"industry", roles:[
+    ["al_bahar","Vice President - Energy & Transportation","executive","v"]]},
+  {id:"edris_al_rafi", n:"Edris Al Rafi", t:2, p:60, s:"finance", roles:[
+    ["invest_bank","Chief Executive Officer","executive","v"]]},
+  {id:"vijay_kumar_somani", n:"Vijay Kumar Somani", t:2, p:60, s:"materials", roles:[
+    ["union_cement","Managing Director","executive","v"]]},
+  {id:"mohammed_hasan_al", n:"Mohammed Hasan Al Shehhi", t:2, p:46, s:"materials", roles:[
+    ["union_cement","Head of Corporate Affairs","executive","v"]]},
+  {id:"sheikh_omar_saqer", n:"Sheikh Omar Saqer Khaled Humaid Alqasimi", t:2, p:62, s:"materials", roles:[
+    ["gulf_cement","Chairman","board","v"]]},
+  {id:"husam_mohammed_el", n:"Husam Mohammed El-Sayed Hussein", t:2, p:62, s:"materials", roles:[
+    ["gulf_cement","Vice Chairman","board","v"]]},
+  {id:"jose_b_sena", n:"Jose B. Sena", t:2, p:60, s:"materials", roles:[
+    ["gulf_cement","Chief Executive Officer, Managing Director & Member of the Board","board","v"]]},
+  {id:"dirk_beese", n:"Dirk Beese", t:2, p:52, s:"materials", roles:[
+    ["gulf_cement","Board Member","board","v"]]},
+  {id:"benedetta_buzzi", n:"Benedetta Buzzi", t:2, p:52, s:"materials", roles:[
+    ["gulf_cement","Board Member","board","v"]]},
+  {id:"esmaeel_hasan_esmaeel", n:"Esmaeel Hasan Esmaeel Mohammed Alblooshi", t:2, p:52, s:"materials", roles:[
+    ["gulf_cement","Board Member","board","v"]]},
+  {id:"aarefa_saleh_hareb", n:"Aarefa Saleh Hareb Alflahi", t:2, p:52, s:"materials", roles:[
+    ["gulf_cement","Board Member","board","v"]]},
+  {id:"mohammed_ahmed_a", n:"Mohammed Ahmed A. E. Ebrahimouh Al Shehhi", t:2, p:58, s:"materials", roles:[
+    ["gulf_cement","Vice President","executive","v"]]},
+  {id:"johann_nieschwietz", n:"Johann Nieschwietz", t:2, p:58, s:"materials", roles:[
+    ["gulf_cement","Senior Vice President – Technical Operations","executive","v"]]},
+  {id:"jose_de_moya", n:"Jose De Moya", t:2, p:46, s:"materials", roles:[
+    ["gulf_cement","Head of Commercial & Optimization","executive","v"]]},
+  {id:"shahzad_alam_qureshi", n:"Shahzad Alam Qureshi", t:2, p:58, s:"materials", roles:[
+    ["gulf_cement","Chief Financial Officer","executive","v"]]},
+  {id:"ashraf_abdul_jabbar", n:"Ashraf Abdul Jabbar Ahmad", t:2, p:46, s:"materials", roles:[
+    ["gulf_cement","Head of Procurement Department","executive","v"]]},
+  {id:"k_p_basheer", n:"K.P. Basheer", t:2, p:62, s:"consumer_stap", roles:[
+    ["nesto","Founder and Chairman","board","v"]]},
+  {id:"siddique_palollathil", n:"Siddique Palollathil", t:2, p:60, s:"consumer_stap", roles:[
+    ["nesto","Managing Director","executive","v"]]},
+  {id:"k_p_jamal", n:"K.P. Jamal", t:2, p:60, s:"consumer_stap", roles:[
+    ["nesto","Managing Director","executive","v"]]},
+  {id:"nawas_basheer", n:"Nawas Basheer", t:2, p:52, s:"consumer_stap", roles:[
+    ["nesto","Director","board","v"]]},
+  {id:"noufal_kp", n:"Noufal KP", t:2, p:52, s:"consumer_stap", roles:[
+    ["nesto","Director","board","v"]]},
+  {id:"athif_kp", n:"Athif KP", t:2, p:52, s:"consumer_stap", roles:[
+    ["nesto","Director","board","v"]]},
+  {id:"fayiz_basheer", n:"Fayiz Basheer", t:2, p:52, s:"consumer_stap", roles:[
+    ["nesto","Director","board","v"]]},
+  {id:"saeed_al_samahi", n:"Saeed Al Samahi", t:2, p:58, s:"gov", roles:[
+    ["fujairah_tourism","Director General","executive","v"]]},
 ];
 
 const OWNERSHIP = [

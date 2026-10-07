@@ -921,7 +921,7 @@ const PEOPLE = [
   {id:"khalid_almuslahi", n:"Khalid Almuslahi", t:2, p:58, s:"gov", roles:[
     ["mofa_om","Undersecretary for Administrative and Financial Affairs","executive","v"]]},
   {id:"taimur_bin_asaad", n:"Taimur bin Asaad bin Tariq Al Said", t:2, p:62, s:"finance", roles:[
-    ["cbo","Chairman of the Board of Directors","board","ns"]]},
+    ["cbo","Chairman of the Board of Directors","board","v"]]},
   {id:"ghalib_bin_said", n:"Ghalib bin Said Al Maamari", t:2, p:58, s:"gov", roles:[
     ["moci_om","Undersecretary for Commerce and Industry","executive","v"]]},
   {id:"ibtisam_bint_ahmed", n:"Ibtisam bint Ahmed Al Farouji", t:2, p:58, s:"gov", roles:[
@@ -1309,6 +1309,14 @@ const PEOPLE = [
     ["dhofar_university","Deputy Vice Chancellor","executive","v"]]},
   {id:"p_a_mohammed", n:"P A Mohammed", t:2, p:60, s:"health", roles:[
     ["badr_al_samaa","Founder and Managing Director","executive","v"]]},
+  {id:"shabir_m_sultan", n:"Shabir M. Sultan", t:2, p:62, s:"conglomerate", roles:[
+    ["mustafa_sultan_ent","Chairman","board","v"]]},
+  {id:"abdulredha_sultan", n:"Abdulredha Sultan", t:2, p:60, s:"conglomerate", roles:[
+    ["mustafa_sultan_ent","Managing Director","executive","v"]]},
+  {id:"noorjehan_mustafa_a", n:"Noorjehan Mustafa A. Sultan", t:2, p:52, s:"conglomerate", roles:[
+    ["mustafa_sultan_ent","Director","board","v"]]},
+  {id:"najla_m_sultan", n:"Najla M. Sultan", t:2, p:58, s:"conglomerate", roles:[
+    ["mustafa_sultan_ent","Director Administration","executive","v"]]},
 ];
 
 const OWNERSHIP = [

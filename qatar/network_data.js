@@ -470,6 +470,7 @@ const PEOPLE = [
     ["qelng","Executive Vice President, Human Capital","executive","v"],
     ["industriesqatar","Vice Chairman","board","v"]]},
   {id:"dr_mohammed_yousef", n:"Dr. Mohammed Yousef Al-Mulla", t:2, p:52, s:"materials", roles:[
+    ["udst","Vice-Chairman, Board of Trustees","board","v"],
     ["qapco","Managing Director & CEO","executive","v"],
     ["industriesqatar","Board Member","board","v"]]},
   {id:"sheikh_khalid_bin", n:"Sheikh Khalid Bin Abdullah Al-Thani", t:2, p:52, s:"materials", roles:[
@@ -1416,7 +1417,7 @@ const PEOPLE = [
     ["psa_qatar","President","executive","v"],
     ["qcb","Board Member","board","ns"]]},
   {id:"tamy_bin_ahmed", n:"Tamy bin Ahmed bin Ali Al Binali", t:2, p:52, s:"finance", roles:[
-    ["qcb","Board Member","board","ns"]]},
+    ["qcb","Board Member","board","v"]]},
   {id:"khalid_nasser_al", n:"Khalid Nasser Al Khater", t:2, p:52, s:"finance", roles:[
     ["qfma","Board Member","board","v"],
     ["qu","Vice President for Administration and Financial Affairs","executive","v"],
@@ -1434,7 +1435,7 @@ const PEOPLE = [
   {id:"amaney_a_jamal", n:"Amaney A. Jamal", t:2, p:52, s:"education", roles:[
     ["qf","Member","board","v"]]},
   {id:"ahmad_helal_al_b", n:"Ahmad Helal Al-Muhannadi", t:2, p:60, s:"energy", roles:[
-    ["qelng","President and Chief Executive Officer","executive","ns"]]},
+    ["qelng","President and Chief Executive Officer","executive","v"]]},
   {id:"ahmed_bin_abdullah", n:"Ahmed bin Abdullah Al Jamal", t:2, p:52, s:"finance", roles:[
     ["qfz","Board Member","board","v"],
     ["qfc","Board Member","board","v"]]},
@@ -1501,8 +1502,10 @@ const PEOPLE = [
   {id:"sameh_kokash", n:"Sameh Kokash", t:2, p:58, s:"energy", roles:[
     ["totalenergies","Vice President Refining & Chemicals Qatar and Business Development & AOBO Gas in Qatar","executive","ns"]]},
   {id:"bader_abdullah_al", n:"Bader Abdullah Al-Darwish", t:2, p:62, s:"conglomerate", roles:[
+    ["al_darwish","Chairman & Managing Director","board","v"],
     ["darwish","Chairman and Managing Director","board","v"]]},
   {id:"saoud_al_darwish", n:"Saoud Al-Darwish", t:2, p:62, s:"conglomerate", roles:[
+    ["al_darwish","Vice Chairman","board","v"],
     ["darwish","Vice Chairman","board","v"]]},
   {id:"ashraf_abuissa", n:"Ashraf Abuissa", t:2, p:62, s:"consumer_disc", roles:[
     ["abuissa","Chairman and CEO","board","v"]]},
@@ -1511,6 +1514,7 @@ const PEOPLE = [
   {id:"ihab_hegazy", n:"Ihab Hegazy", t:2, p:60, s:"consumer_disc", roles:[
     ["abuissa","Managing Director","executive","v"]]},
   {id:"fawaz_idrissi", n:"Fawaz Idrissi", t:2, p:58, s:"consumer_disc", roles:[
+    ["abu_issa","Board Member & Senior Vice President","board","v"],
     ["abuissa","Senior Vice President","executive","v"]]},
   {id:"baber_malik", n:"Baber Malik", t:2, p:58, s:"consumer_disc", roles:[
     ["abuissa","Group Chief Human Resources Officer","executive","v"]]},
@@ -1664,6 +1668,7 @@ const PEOPLE = [
   {id:"abdulaziz_ismail_al", n:"Abdulaziz Ismail Al Ansari", t:2, p:52, s:"finance", roles:[
     ["qdb","Board Member","board","v"]]},
   {id:"ashraf_abdul_rahim", n:"Ashraf Abdul Rahim Abu Issa", t:2, p:52, s:"finance", roles:[
+    ["abu_issa","Chairman and CEO","board","v"],
     ["qdb","Board Member","board","v"]]},
   {id:"mohammed_abdulaziz_al", n:"Mohammed Abdulaziz Al Dulaimi", t:2, p:52, s:"finance", roles:[
     ["qdb","Board Member","board","v"]]},
@@ -1880,6 +1885,22 @@ const PEOPLE = [
     ["moc_qatar","Director of the Department of Culture and Arts","executive","ns"]]},
   {id:"yasser_abdullah_al", n:"Yasser Abdullah Al Jamal", t:2, p:52, s:"gov", roles:[
     ["scdl","Member of the Board of Directors","board","ns"]]},
+  {id:"mohammed_bin_saleh", n:"Mohammed bin Saleh Al-Sada", t:2, p:62, s:"education", roles:[
+    ["udst","Chairman, Board of Trustees","board","v"]]},
+  {id:"ibrahim_saleh_al", n:"Ibrahim Saleh Al-Naimi", t:2, p:52, s:"education", roles:[
+    ["udst","Member, Board of Trustees","board","v"]]},
+  {id:"saad_bin_ahmed", n:"Saad bin Ahmed Al-Mohannadi", t:2, p:52, s:"education", roles:[
+    ["udst","Member, Board of Trustees","board","v"]]},
+  {id:"noura_ghanem_al", n:"Noura Ghanem Al-Hajeri", t:2, p:52, s:"education", roles:[
+    ["udst","Member, Board of Trustees","board","v"]]},
+  {id:"abdullatif_al_khal", n:"Abdullatif Al-Khal", t:2, p:52, s:"education", roles:[
+    ["udst","Member, Board of Trustees","board","v"]]},
+  {id:"salem_al_naemi", n:"Salem Al-Naemi", t:2, p:58, s:"education", roles:[
+    ["udst","President","executive","v"]]},
+  {id:"hatim_hussein", n:"Hatim Hussein", t:2, p:58, s:"consumer_disc", roles:[
+    ["abu_issa","Group Chief Financial Officer","executive","v"]]},
+  {id:"abdulrahman_bin_muftah", n:"Abdulrahman bin Muftah Al-Muftah", t:2, p:62, s:"conglomerate", roles:[
+    ["al_muftah","Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [
