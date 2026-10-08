@@ -1224,18 +1224,10 @@ const PEOPLE = [
     ["equate","Vice President, Operations","executive","v"]]},
   {id:"loay_jassim_al", n:"Loay Jassim Al-Kharafi", t:2, p:58, s:"conglomerate", roles:[
     ["kharafi","CEO, Mohamed Abdul Mohsen Al-Kharafi & Sons Company","executive","ns"]]},
-  {id:"nasser_al_roudhan", n:"Nasser Al-Roudhan", t:2, p:62, s:"industry", roles:[
-    ["kuwaitairways","Chairman of the Board","board","ns"]]},
   {id:"noor_al_jassem", n:"Noor Al-Jassem", t:2, p:52, s:"industry", roles:[
     ["kuwaitairways","Board Member","board","ns"]]},
   {id:"mishari_al_hunaidi", n:"Mishari Al-Hunaidi", t:2, p:52, s:"industry", roles:[
     ["kuwaitairways","Board Member","board","ns"]]},
-  {id:"enrique_dupuy", n:"Enrique Dupuy", t:2, p:52, s:"industry", roles:[
-    ["kuwaitairways","Independent Board Member","board","ns"]]},
-  {id:"giles_agutter", n:"Giles Agutter", t:2, p:52, s:"industry", roles:[
-    ["kuwaitairways","Independent Board Member","board","ns"]]},
-  {id:"ryan_van_der", n:"Ryan van der Eijk", t:2, p:52, s:"industry", roles:[
-    ["kuwaitairways","Independent Board Member","board","ns"]]},
   {id:"abdul_wahab_al", n:"Abdul Wahab Al-Shatti", t:2, p:60, s:"industry", roles:[
     ["kuwaitairways","Chief Executive Officer","executive","ns"]]},
   {id:"faisal_bader_al", n:"Faisal Bader Al-Sayer", t:2, p:62, s:"conglomerate", roles:[
