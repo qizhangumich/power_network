@@ -210,6 +210,8 @@ const INSTITUTIONS = [
   {id:"badr_al_samaa", n:"Badr Al Samaa Group of Hospitals", s:"health", t:3, p:54, short:"Badr Al Samaa"},
   {id:"pld_space", n:"PLD Space", s:"tech", t:3, p:52, short:"PLD Space"},
   {id:"raysut_ind_city", n:"Raysut Industrial City", s:"industry", t:3, p:52, short:"Raysut Ind. City"},
+  {id:"hema_energy", n:"Hema Energy", s:"energy", t:3, p:54, short:"Hema Energy"},
+  {id:"ubhar_capital", n:"Ubhar Capital SAOC", s:"finance", t:3, p:52, short:"Ubhar Capital"},
 ];
 
 const PEOPLE = [
@@ -246,7 +248,7 @@ const PEOPLE = [
     ["asyad","Group CEO (acting)","executive","v","former:until Sep 2026"]],
     note:"ASYAD Group's own executive-team page (asyad.om/who-we-are/executive-team) names Abdulrahman Salim Al Hatmi as Group CEO (non-acting, in the role continuously since 2016); no official source found confirming this person ever held an acting Group CEO role. Marked former pending a corrected source for this person's actual ASYAD role."},
   {id:"alhatmi_asyad", n:"Abdulrahman Salim Al Hatmi", t:2, p:60, s:"industry", roles:[
-    ["asyad_ports","Group Chief Executive Officer (ASYAD Group)","executive","ns"],
+    ["asyad_ports","Group Chief Executive Officer (ASYAD Group)","executive","v"],
     ["asyad","Group CEO","executive","v"]]},
   {id:"suhail_bahwan", n:"Suhail Bahwan", t:2, p:70, s:"conglomerate", roles:[
     ["bahwan","Founder & Chairman (–Nov 2025)","board","v","former:until Nov 2025"]],
@@ -1317,6 +1319,14 @@ const PEOPLE = [
     ["mustafa_sultan_ent","Director","board","v"]]},
   {id:"najla_m_sultan", n:"Najla M. Sultan", t:2, p:58, s:"conglomerate", roles:[
     ["mustafa_sultan_ent","Director Administration","executive","v"]]},
+  {id:"talal_al_zawawi", n:"Talal Al-Zawawi", t:2, p:62, s:"conglomerate", roles:[
+    ["zawawi","Chairman, Sahara Hospitality Company SAOG (Zawawi Group company)","board","ns"]]},
+  {id:"abdulmunim_al_zawawi", n:"Abdulmunim Al-Zawawi", t:2, p:52, s:"conglomerate", roles:[
+    ["zawawi","Director, Carillion Alawi LLC (Zawawi Group company)","board","ns"]]},
+  {id:"mohamed_musa_al", n:"Mohamed Musa Al-Yousef", t:2, p:62, s:"conglomerate", roles:[
+    ["al_yousef","Chairman","board","v"]]},
+  {id:"faisal_mohamed_al", n:"Faisal Mohamed Al-Yousef", t:2, p:58, s:"conglomerate", roles:[
+    ["al_yousef","Chief Operating Officer and Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1520,4 +1530,5 @@ const AKA = {
   dhofar_university:["DU"],
   sohar_university:["SU"],
   oman_radio_tv:["PART","Oman TV"],
+  ubhar_capital:["U Capital"],
 };

@@ -2975,6 +2975,7 @@ const PEOPLE = [
   {id:"abdulaziz_abdulrahman_al", n:"Abdulaziz Abdulrahman Al Doseri", t:2, p:52, s:"gov", roles:[
     ["lmra_bahrain","Board Member","board","v"]]},
   {id:"mohammed_abduljabbar_mahmood", n:"Mohammed Abduljabbar Mahmood Al Kooheji", t:2, p:52, s:"gov", roles:[
+    ["ajm_kooheji","Vice Chairman","board","v"],
     ["lmra_bahrain","Board Member","board","v"]]},
   {id:"sonia_mohammed_janahi", n:"Sonia Mohammed Janahi", t:2, p:52, s:"gov", roles:[
     ["lmra_bahrain","Board Member","board","v"],
@@ -3208,6 +3209,18 @@ const PEOPLE = [
     ["bibf","Director","executive","v"]]},
   {id:"jassim_mohammed_seyadi", n:"Jassim Mohammed Seyadi", t:2, p:62, s:"materials", roles:[
     ["balexco","Chairman","board","v"]]},
+  {id:"fouad_a_al", n:"Fouad A. Al-Jishi", t:2, p:58, s:"health", roles:[
+    ["al_jishi","General Manager/Director","executive","v"]]},
+  {id:"mahmood_al_kooheji", n:"Mahmood Al Kooheji", t:2, p:62, s:"conglomerate", roles:[
+    ["ajm_kooheji","Chairman","board","v"]]},
+  {id:"saleem_al_kooheji", n:"Saleem Al Kooheji", t:2, p:52, s:"conglomerate", roles:[
+    ["ajm_kooheji","Board Member","board","v"]]},
+  {id:"isa_al_kooheji", n:"Isa Al Kooheji", t:2, p:60, s:"conglomerate", roles:[
+    ["ajm_kooheji","Chief Executive Officer","executive","v"]]},
+  {id:"hamad_al_kooheji", n:"Hamad Al Kooheji", t:2, p:58, s:"conglomerate", roles:[
+    ["ajm_kooheji","Executive","executive","v"]]},
+  {id:"matthew_deakin", n:"Matthew Deakin", t:2, p:52, s:"conglomerate", roles:[
+    ["ajm_kooheji","Independent Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

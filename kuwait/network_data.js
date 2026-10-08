@@ -147,7 +147,7 @@ const INSTITUTIONS = [
   {id:"lst_kcin", n:"Kuwait National Cinema", s:"consumer_disc", t:2, p:50, short:"KCIN"},
   {id:"lst_khot", n:"Kuwait Hotels Co KSCP", s:"consumer_disc", t:2, p:50, short:"KHOT"},
   {id:"lst_senergy", n:"Senergy Holding Co", s:"energy", t:2, p:50, short:"Senergy Holding Co"},
-  {id:"lst_ipg", n:"Independent Petroleum Group KSCP", s:"energy", t:2, p:50, short:"IPG"},
+  {id:"lst_ipg", n:"Independent Petroleum Group KSCP", s:"energy", t:2, p:58, short:"IPG"},
   {id:"lst_cleaning", n:"National Cleaning Co KSCP", s:"industry", t:2, p:50, short:"CLEANING"},
   {id:"lst_asc", n:"Automated Systems Co KPSC", s:"tech", t:2, p:50, short:"ASC"},
   {id:"lst_napesco", n:"National Petroleum Services", s:"energy", t:2, p:50, short:"NAPESCO"},
@@ -1760,6 +1760,18 @@ const PEOPLE = [
     ["kcci","1st Vice Chairman","board","v"]]},
   {id:"fahd_yacoub_youssef", n:"Fahd Yacoub Youssef Al-Jouan", t:2, p:62, s:"gov", roles:[
     ["kcci","2nd Vice Chairman","board","v"]]},
+  {id:"houssam_f_m", n:"Houssam F.M. Abdul Mohsin Al Kharafi", t:2, p:62, s:"conglomerate", roles:[
+    ["kharafi","Chairman of Mak Investment Holding","executive","ns"]]},
+  {id:"yousuf_abdullah_al", n:"Yousuf Abdullah Al Majran Al Roumy", t:2, p:58, s:"conglomerate", roles:[
+    ["kharafi","Public Relations Manager","executive","ns"]]},
+  {id:"ali_mohammad_al", n:"Ali Mohammad Al-Radwan", t:2, p:62, s:"energy", roles:[
+    ["lst_ipg","Chairman","board","ns"]]},
+  {id:"ghazi_fahd_abdul", n:"Ghazi Fahd Abdul Aziz Al Nafisi", t:2, p:62, s:"energy", roles:[
+    ["lst_ipg","Deputy Chairman","board","ns"]]},
+  {id:"ibrahim_yousef_ibrahim", n:"Ibrahim Yousef Ibrahim Al Ghanim", t:2, p:52, s:"energy", roles:[
+    ["lst_ipg","Board Member","board","ns"]]},
+  {id:"abdul_aziz_sultan", n:"Abdul Aziz Sultan Al Essa", t:2, p:52, s:"energy", roles:[
+    ["lst_ipg","Board Member","board","ns"]]},
 ];
 
 const OWNERSHIP = [

@@ -174,7 +174,6 @@ const INSTITUTIONS = [
   {id:"qfma", n:"Qatar Financial Markets Authority", s:"gov", t:2, p:60, short:"QFMA"},
   {id:"media_city_qatar", n:"Media City Qatar", s:"gov", t:3, p:52, short:"Media City Qatar"},
   {id:"darwish", n:"Darwish Holding", s:"conglomerate", t:3, p:63, short:"Darwish Holding"},
-  {id:"al_sagri", n:"Hamad Al Sagri Holding Company", s:"conglomerate", t:3, p:60, short:"Al Sagri Holding"},
   {id:"abuissa", n:"AbuIssa Holding", s:"consumer_disc", t:3, p:56, short:"AbuIssa Holding"},
   {id:"almuftah", n:"Almuftah Group", s:"conglomerate", t:3, p:55, short:"Almuftah Group"},
   {id:"mbhh", n:"Mohamed Bin Hamad Holding", s:"conglomerate", t:3, p:54, short:"MBHH"},
@@ -503,7 +502,7 @@ const PEOPLE = [
     ["masraf","Chairman","board","v"]]},
   {id:"sheikh_hamad_bin_b", n:"Sheikh Hamad Bin Faisal Bin Thani Al Thani", t:2, p:62, s:"finance", roles:[
     ["masraf","Vice Chairman","board","v"],
-    ["lst_qati","Chairman","board","ns"]]},
+    ["lst_qati","Chairman","board","v"]]},
   {id:"ahmed_ali_hassan", n:"Ahmed Ali Hassan Al Hammadi", t:2, p:52, s:"finance", roles:[
     ["qewc","Deputy Chairman","board","v"],
     ["masraf","Board Member","board","v"]]},
@@ -644,7 +643,7 @@ const PEOPLE = [
     ["cbq","Board Member","board","v"]]},
   {id:"salem_khalaf_al", n:"Salem Khalaf Al Mannai", t:2, p:60, s:"finance", roles:[
     ["cbq","Board Member","board","v"],
-    ["lst_qati","Group Chief Executive Officer","executive","ns"]]},
+    ["lst_qati","Group Chief Executive Officer","executive","v"]]},
   {id:"ibrahim_jassim_al", n:"Ibrahim Jassim Al-Othman Fakhro", t:2, p:52, s:"finance", roles:[
     ["lst_giss","Managing Director","executive","v"],
     ["udc","Board Member","board","v"],
@@ -1901,6 +1900,10 @@ const PEOPLE = [
     ["abu_issa","Group Chief Financial Officer","executive","v"]]},
   {id:"abdulrahman_bin_muftah", n:"Abdulrahman bin Muftah Al-Muftah", t:2, p:62, s:"conglomerate", roles:[
     ["al_muftah","Chairman","board","v"]]},
+  {id:"khalid_al_khayareen", n:"Khalid Al-Khayareen", t:2, p:58, s:"gov", roles:[
+    ["ashghal","Projects Affairs Director","executive","ns"]]},
+  {id:"abdullah_mohammed_al", n:"Abdullah Mohammed Al Malki", t:2, p:58, s:"gov", roles:[
+    ["public_prosecution","First Attorney General and Director of the Judicial Inspection Department","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2085,7 +2088,6 @@ const AKA = {
   ashghal:["Public Works Authority"],
   qdb:["Qatar Industrial Development Bank"],
   manateq:["Economic Zones Company"],
-  al_sagri:["HHC"],
   gulf_helicopters:["GHC"],
   cra_qatar:["CRA"],
   moc_qatar:["MOC"],

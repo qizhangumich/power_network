@@ -285,7 +285,7 @@ const INSTITUTIONS = [
   {id:"lst_4150", n:"Arriyadh Development Co. (ARDCO)", s:"realestate", t:2, p:50, short:"4150"},
   {id:"lst_4230", n:"Red Sea International Co.", s:"realestate", t:2, p:50, short:"4230"},
   {id:"lst_4250", n:"Jabal Omar Development Co.", s:"realestate", t:2, p:50, short:"4250"},
-  {id:"lst_4300", n:"Dar Al Arkan Real Estate Development Co.", s:"realestate", t:2, p:50, short:"4300"},
+  {id:"lst_4300", n:"Dar Al Arkan Real Estate Development Co.", s:"realestate", t:2, p:60, short:"Dar Al Arkan"},
   {id:"lst_4310", n:"Knowledge Economic City (KEC)", s:"realestate", t:2, p:50, short:"4310"},
   {id:"lst_4320", n:"Al Andalus Property Co.", s:"realestate", t:2, p:50, short:"4320"},
   {id:"lst_4321", n:"Cenomi Centers (Arabian Centres Co.)", s:"realestate", t:2, p:50, short:"4321"},
@@ -317,7 +317,7 @@ const INSTITUTIONS = [
   {id:"lst_7200", n:"Middle East Internet Services Co. (MIS)", s:"tech", t:2, p:50, short:"7200"},
   {id:"lst_7201", n:"Arab Sea Information Systems Co.", s:"tech", t:2, p:50, short:"7201"},
   {id:"lst_7202", n:"Al Moammar Information Systems Co. (Solutions)", s:"tech", t:2, p:50, short:"7202"},
-  {id:"lst_7203", n:"Elm Co.", s:"tech", t:2, p:50, short:"Elm Co."},
+  {id:"lst_7203", n:"Elm Co.", s:"tech", t:2, p:66, short:"Elm Co."},
   {id:"lst_7204", n:"2P Perfect Presentation for Commercial Services Co.", s:"tech", t:2, p:50, short:"7204"},
   {id:"lst_7205", n:"Al-Dawaa Business Solutions Co. (DBS)", s:"tech", t:2, p:50, short:"7205"},
   {id:"lst_7211", n:"Saudi Azm for Communication and Information Technology Co.", s:"tech", t:2, p:50, short:"7211"},
@@ -401,6 +401,7 @@ const INSTITUTIONS = [
   {id:"juffali", n:"E.A. Juffali and Brothers", s:"conglomerate", t:3, p:67, short:"Juffali"},
   {id:"zamil", n:"Zamil Group Holding Company", s:"conglomerate", t:3, p:66, short:"Zamil Group"},
   {id:"zahid", n:"Zahid Group", s:"consumer_disc", t:3, p:64, short:"Zahid Group"},
+  {id:"al_sagri", n:"Hamad Al Sagri Holding Company", s:"conglomerate", t:3, p:60, short:"Al Sagri Holding"},
   {id:"bait_al_batterjee", n:"Bait Al Batterjee Group", s:"health", t:3, p:64, short:"Bait Al Batterjee"},
   {id:"hsa", n:"HSA Group", s:"conglomerate", t:3, p:63, short:"HSA Group"},
   {id:"rawabi", n:"Rawabi Holding", s:"energy", t:3, p:63, short:"Rawabi Holding"},
@@ -498,6 +499,11 @@ const INSTITUTIONS = [
   {id:"seven", n:"Saudi Entertainment Ventures", s:"consumer_disc", t:2, p:60, short:"SEVEN"},
   {id:"tawrid", n:"Tawrid", s:"finance", t:3, p:52, short:"Tawrid"},
   {id:"watani_steel", n:"Watani Steel", s:"materials", t:3, p:54, short:"Watani Steel"},
+  {id:"satorp", n:"Saudi Aramco Total Refining and Petrochemical Company", s:"energy", t:2, p:60, short:"SATORP"},
+  {id:"sadara", n:"Sadara Chemical Company", s:"materials", t:2, p:60, short:"Sadara"},
+  {id:"yasref", n:"Yanbu Aramco Sinopec Refining Company", s:"energy", t:2, p:58, short:"YASREF"},
+  {id:"luberef", n:"Saudi Aramco Base Oil Company", s:"materials", t:2, p:58, short:"Luberef"},
+  {id:"yaqeen_capital", n:"Yaqeen Capital", s:"finance", t:3, p:52, short:"Yaqeen Capital"},
 ];
 
 const PEOPLE = [
@@ -643,7 +649,7 @@ const PEOPLE = [
   {id:"almudaifer", n:"Aiman Al-Mudaifer", t:2, p:68, s:"realestate", roles:[
     ["soudah_dev","Board Member","board","v"],
     ["new_murabba","Board Member - Non Executive","board","v"],
-    ["neom","CEO (acting)","executive","ns"]]},
+    ["neom","Managing Director & CEO","executive","v"]]},
   {id:"waleed_ibrahim", n:"Waleed Al Ibrahim", t:2, p:72, s:"comm", roles:[
     ["mbcgroup","Founder & Chairman","board","v"]]},
   {id:"lubna", n:"Lubna Olayan", t:2, p:76, s:"finance", roles:[
@@ -724,6 +730,7 @@ const PEOPLE = [
   {id:"saleh_al_amer", n:"Saleh Al-Amer", t:2, p:58, s:"materials", roles:[
     ["sabic","Secretary General, Board of Directors","executive","v"]]},
   {id:"mohammed_k_a", n:"Mohammed K. A. Al-Faisal", t:2, p:62, s:"comm", roles:[
+    ["alfaisaliah","Group President","board","ns"],
     ["stc","Chairman","board","v"]]},
   {id:"yazeed_a_al", n:"Yazeed A. Al-Humied", t:2, p:62, s:"comm", roles:[
     ["savvy_games","Non-Executive Board Member","board","v"],
@@ -755,6 +762,7 @@ const PEOPLE = [
   {id:"tareq_abdulrahman_al", n:"Tareq Abdulrahman Al-Sadhan", t:2, p:60, s:"finance", roles:[
     ["snb","Director & CEO","board","v"]]},
   {id:"ziad_al_tunisi", n:"Ziad Al-Tunisi", t:2, p:52, s:"finance", roles:[
+    ["alfaisaliah","Group Chief Executive Officer","executive","ns"],
     ["snb","Board Member","board","ns"]]},
   {id:"huda_ghoson", n:"Huda Ghoson", t:2, p:52, s:"finance", roles:[
     ["snb","Board Member","board","ns"]]},
@@ -1427,6 +1435,7 @@ const PEOPLE = [
   {id:"saleh_f_al", n:"Saleh F. Al-Nuzha", t:2, p:52, s:"energy", roles:[
     ["lst_2380","Independent Director","board","v"]]},
   {id:"mohammed_a_al_b", n:"Mohammed A. Al-Omair", t:2, p:52, s:"energy", roles:[
+    ["lst_7203","Chief Executive Officer","executive","v"],
     ["lst_2380","Independent Director","board","v"]]},
   {id:"saud_a_al", n:"Saud A. Al-Ashgar", t:2, p:52, s:"energy", roles:[
     ["lst_2380","Independent Director","board","v"]]},
@@ -1709,6 +1718,7 @@ const PEOPLE = [
     ["new_murabba","Board Member - Independent","board","v"],
     ["riyadhair","Board Member","board","v"]]},
   {id:"raid_abdullah_ismail", n:"Raid Abdullah Ismail", t:2, p:52, s:"industry", roles:[
+    ["lst_7203","Vice Chairman","board","ns"],
     ["lst_6015","Non-Executive Director","board","v"],
     ["riyadhair","Board Member","board","v"]]},
   {id:"sami_ali_sindi", n:"Sami Ali Sindi", t:2, p:52, s:"industry", roles:[
@@ -2635,6 +2645,63 @@ const PEOPLE = [
     ["lst_4264","Chairman","board","v"]]},
   {id:"bander_al_mohanna", n:"Bander Al-Mohanna", t:2, p:60, s:"industry", roles:[
     ["lst_4264","Chief Executive Officer and Managing Director","executive","v"]]},
+  {id:"hamad_ali_al", n:"Hamad Ali Al-Sagri", t:2, p:62, s:"conglomerate", roles:[
+    ["al_sagri","Chairman","board","ns"]]},
+  {id:"ali_al_sagri", n:"Ali Al-Sagri", t:2, p:60, s:"conglomerate", roles:[
+    ["al_sagri","Managing Director","executive","ns"],
+    ["al_sagri","Board Member","board","ns"]]},
+  {id:"stefan_feuerstein", n:"Stefan Feuerstein", t:2, p:62, s:"conglomerate", roles:[
+    ["alfaisaliah","Chairman of the Board (Al Faisaliah Electronics and Systems Company)","board","ns"]]},
+  {id:"khaled_juffali", n:"Khaled Juffali", t:2, p:62, s:"conglomerate", roles:[
+    ["juffali","Chairman","board","ns"]]},
+  {id:"dana_juffali", n:"Dana Juffali", t:2, p:52, s:"conglomerate", roles:[
+    ["juffali","Board Member","board","ns"]]},
+  {id:"chenghez_khan", n:"Chenghez Khan", t:2, p:60, s:"conglomerate", roles:[
+    ["juffali","Chief Executive Officer (Juffali Automotive Company)","executive","ns"]]},
+  {id:"basim_wali", n:"Basim Wali", t:2, p:58, s:"conglomerate", roles:[
+    ["juffali","Director of Marketing and Development (Juffali Automotive Company)","executive","ns"]]},
+  {id:"essam_al_shiha", n:"Essam Al-Shiha", t:2, p:60, s:"conglomerate", roles:[
+    ["juffali","President and Chief Executive Officer (Saudi Business Machines)","executive","ns"]]},
+  {id:"waleed_y_zahid", n:"Waleed Y. Zahid", t:2, p:62, s:"consumer_disc", roles:[
+    ["zahid","Group Chairman","board","v"]]},
+  {id:"haytham_w_zahid", n:"Haytham W. Zahid", t:2, p:60, s:"consumer_disc", roles:[
+    ["zahid","Group CEO","executive","v"]]},
+  {id:"hamza_w_zahid", n:"Hamza W. Zahid", t:2, p:58, s:"consumer_disc", roles:[
+    ["zahid","Group President - Heavy Machinery Sector","executive","v"]]},
+  {id:"erdi_kursunoglu", n:"Erdi Kursunoglu", t:2, p:58, s:"consumer_disc", roles:[
+    ["zahid","Group CFO","executive","v"]]},
+  {id:"aladdin_sami", n:"Aladdin Sami", t:2, p:46, s:"consumer_disc", roles:[
+    ["zahid","VP Investments and EMD (Zahid Group Holding)","executive","v"]]},
+  {id:"thamir_alsadoun", n:"Thamir Alsadoun", t:2, p:60, s:"gov", roles:[
+    ["expo_2030","Deputy Chief Executive Officer","executive","ns"]]},
+  {id:"hisham_alsheikh", n:"Hisham AlSheikh", t:2, p:58, s:"gov", roles:[
+    ["expo_2030","Chief Shared Services Officer","executive","ns"]]},
+  {id:"jawad_abdulsamad", n:"Jawad Abdulsamad", t:2, p:58, s:"gov", roles:[
+    ["expo_2030","Chief Strategy and Integration Officer","executive","ns"]]},
+  {id:"abdulaziz_alghannam", n:"Abdulaziz Alghannam", t:2, p:58, s:"gov", roles:[
+    ["expo_2030","Senior General Director","executive","ns"]]},
+  {id:"abdulaziz_alaqel", n:"Abdulaziz Alaqel", t:2, p:58, s:"gov", roles:[
+    ["expo_2030","Chief Development Officer","executive","ns"]]},
+  {id:"turki_al_wasaidi", n:"Turki Al Wasaidi", t:2, p:58, s:"health", roles:[
+    ["mngha","Executive Director of Medical Services (Prince Mohammed Bin Abdulaziz Hospital - Al Madinah)","executive","v"]]},
+  {id:"amar_al_hasani", n:"Amar Al Hasani", t:2, p:58, s:"health", roles:[
+    ["mngha","Deputy Executive Director of Medical Services (Prince Mohammed Bin Abdulaziz Hospital - Al Madinah)","executive","v"]]},
+  {id:"mansour_al_askar", n:"Mansour Al Askar", t:2, p:58, s:"health", roles:[
+    ["mngha","Executive Director of Operations (Prince Mohammed Bin Abdulaziz Hospital - Al Madinah)","executive","v"]]},
+  {id:"raed_abdullah_ibrahim", n:"Raed Abdullah Ibrahim Bin Ahmed", t:2, p:62, s:"tech", roles:[
+    ["lst_7203","Chairman","board","ns"]]},
+  {id:"khaled_abdulaziz_alghoneim", n:"Khaled Abdulaziz Alghoneim", t:2, p:52, s:"tech", roles:[
+    ["lst_7203","Board Member","board","ns"]]},
+  {id:"issam_abdullah_khalaf", n:"Issam Abdullah Khalaf Al Waqit", t:2, p:52, s:"tech", roles:[
+    ["lst_7203","Board Member","board","ns"]]},
+  {id:"yousef_abdullah_al", n:"Yousef Abdullah Al Shelash", t:2, p:62, s:"realestate", roles:[
+    ["lst_4300","Chairman","board","ns"]]},
+  {id:"saleh_al_hathloul", n:"Saleh Al Hathloul", t:2, p:62, s:"realestate", roles:[
+    ["lst_4300","Vice Chairman","board","ns"]]},
+  {id:"ziad_naeem_el", n:"Ziad Naeem El Chaar", t:2, p:52, s:"realestate", roles:[
+    ["lst_4300","Board Member","board","ns"]]},
+  {id:"ibrahim_al_moammar", n:"Ibrahim Al Moammar", t:2, p:60, s:"tech", roles:[
+    ["lst_7202","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3005,6 +3072,10 @@ const OWNERSHIP = [
   ["lucid","pif","subsidiary","ns"],
   ["seven","pif","subsidiary","ns"],
   ["tawrid","pif","subsidiary","ns"],
+  ["satorp","aramco","jv","ns"],
+  ["sadara","aramco","jv","ns"],
+  ["yasref","aramco","jv","ns"],
+  ["luberef","aramco","subsidiary","ns"],
 ];
 
 const FAMILY = [
@@ -3016,6 +3087,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  al_sagri:["HHC"],
   lst_2290:["2290","YANSAB"],
   lst_3050:["Southern Cement"],
   lst_4017:["Dr. Soliman Fakeeh Care Co.","Dr. Soliman Fakeeh Hospital","DSFH"],
@@ -3109,4 +3181,5 @@ const AKA = {
   saudi_press_agency:["SPA"],
   fii_institute:["Future Investment Initiative Institute"],
   lucid:["Lucid Motors"],
+  yaqeen_capital:["Falcom Financial Services"],
 };

@@ -1732,7 +1732,7 @@ const PEOPLE = [
   {id:"wassim_younan", n:"Wassim Younan", t:2, p:52, s:"industry", roles:[
     ["dae","Board Member","board","ns"]]},
   {id:"firoz_tarapore", n:"Firoz Tarapore", t:2, p:60, s:"industry", roles:[
-    ["dae","Chief Executive Officer","executive","ns"]]},
+    ["dae","Chief Executive Officer","executive","v"]]},
   {id:"david_houlihan", n:"David Houlihan", t:2, p:58, s:"industry", roles:[
     ["dae","President - DAE Capital","executive","ns"]]},
   {id:"sinan_kahya", n:"Sinan Kahya", t:2, p:58, s:"industry", roles:[

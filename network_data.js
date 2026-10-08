@@ -292,6 +292,8 @@ const INSTITUTIONS = [
   {id:"rafed", n:"Rafed", s:"health", t:3, p:54, short:"Rafed"},
   {id:"adic", n:"Abu Dhabi Investment Council", s:"sovereign", t:2, p:60, short:"ADIC"},
   {id:"masdar_americas", n:"Masdar Americas", s:"utilities", t:2, p:56, short:"Masdar Americas"},
+  {id:"dolphin_energy", n:"Dolphin Energy Limited", s:"energy", t:2, p:58, short:"Dolphin Energy"},
+  {id:"aiq", n:"AIQ", s:"tech", t:3, p:54, short:"AIQ"},
 ];
 
 const PEOPLE = [
@@ -3834,6 +3836,8 @@ const OWNERSHIP = [
   ["rafed","adq","subsidiary","v"],
   ["adic","mubadala","subsidiary","ns"],
   ["masdar_americas","masdar","subsidiary of","ns"],
+  ["dolphin_energy","mubadala","jv","ns"],
+  ["aiq","adnoc","jv","ns"],
 ];
 
 const FAMILY = [
