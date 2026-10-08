@@ -1,0 +1,5 @@
+# US firm Clear Channel Outdoor gets all clear for $6.2bln acquisition by Mubadala Capital
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxNblFjY2RWY0JkcC04dUZmbWFfMVpwTE8tSXBnbTUtMUNwbVZhdVl2NXQzVFliM19jV3hac0MwN0Q5Q2w4MTVVOG5LQXlNdGV0SWQzWkE1TGRnaDJvOExaeThtazE3Z2wxaXJSZ3RFUHo4aERoMU9KOGQ4a2JuaGpfcU5jNTBKei16blpNRDh3bnI2eEhNZi03TmgwNHI0VlBCR2hkbVhUN1Z4ZEd4emhhTmVLUG9ySWVyMUh3RFMwOHlHbkQtLWhfMlhqcmxsWnFKT1ZPYmQzeDZTd1NVR0JPRFV5RFh5RTFNLXVuUU9vVXBkUDhOb0E?oc=5
+
+US firm Clear Channel Outdoor gets all clear for $6.2bln acquisition by Mubadala Capital    TradingView

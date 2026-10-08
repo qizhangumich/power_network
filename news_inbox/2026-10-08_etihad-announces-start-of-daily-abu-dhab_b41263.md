@@ -1,0 +1,5 @@
+# Etihad announces start of daily Abu Dhabi-Damascus flights
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxOQkktbXFldTBaSUZOMnFRakREYXAxNUxqVnVWc2dJVjB2VFJNX3duT20yNVdpTTdIY1FwRm9rdlppaUZsOS1tWmJhd3FRVHpTNDZrM25JVG1EdjFhVFJMSjNIT0Q4ZlBDLUR5bkpFYmxlNVJtXzNMeU05N0wwdTBuaWV2c2pwM203cWFkLW9McG5kNHN0d3c1TzJ3RFFVaXNvRHFDRjJLd2hwYzdzaVE?oc=5
+
+Etihad announces start of daily Abu Dhabi-Damascus flights    Arabian Business

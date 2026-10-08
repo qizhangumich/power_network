@@ -1,0 +1,5 @@
+# AMPO secures cryogenic valve contract for ADNOC’s Ruwais LNG project
+source: Zawya
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPWTl4RFcxLTNmalZndjhGMHZuY0JGMDVJQTNydkpBS1ZLejlJMTdjSjUxQkw3ZDVnSHhuTUJEamJpNWNpNkwwWmgyaDlTNjhJWUMzSUpHZ2NjNW1HOWUwRGxBOEtoemdrNmdJS2RVX19HeXhMakZNdFo4YkIyRl81NGMxenVLZ0xxNEo0aTZfQ1VNeENOYUJNdXhSRkFVQ1hOM2dJZFpJdTJmUE9uVGc?oc=5
+
+AMPO secures cryogenic valve contract for ADNOC’s Ruwais LNG project    Zawya
