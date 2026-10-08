@@ -1,0 +1,5 @@
+# Clear Channel Outdoor Holdings Clears Last Regulatory Hurdle For Mubadala Capital Buyout
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxQQktRaXhuQkV5U0FRS3ozWThpaGk2TVZ1eVhNNmZHTDhwWXN5bzVQM0U1S3doTUtnSThRMDk2Z2U5S1dsX0VEWnZqREhGZ1NGSzhfSl9LNUpzdldiQVg4U29JcFpucXduWHl3Z2VTVWpnd0JnNVRwaVVYd1prS1VrY3pyT3pVZUZPN2YzVDVYdnZTQ1NkYS1CV3BYNHhBUnBwTTlBRE5RdWFMUnRtRk9sUjd0dGdKTmd4YUpVOWR3TG1WRVZyMUJxckNuQkhHNUozY2pHR1R5MVk?oc=5
+
+Clear Channel Outdoor Holdings Clears Last Regulatory Hurdle For Mubadala Capital Buyout    marketscreener.com

@@ -1,0 +1,5 @@
+# Mubadala's Solutions+ expects to double Dh1.5bn contribution to Abu Dhabi GDP
+source: The National
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxNR0hXZHFRXzF6WDlod3hQd3M0OVpYS1lVa016YVc5YjZfYm81SG5KLWE2cm0zQmN0M1gxanZ3NzBBaThPNmJ2Y3V1QjlYSEpYTEpyQllfWk13UE85RUNxSW15bmU3R2lkS2stdVktZk1UWlFXZjUtM2ZaZFlFN0p2TGFUOFphYVdJV0ExRnlLakV2Rjkwc3JCS2JXTW55YUt0NzhFajczWVNYTzZNaHU4RTVHNmxkTGJVT0U2M2ZiQWtDekJqOTBjamdzWnZGZVBlOWc?oc=5
+
+Mubadala's Solutions+ expects to double Dh1.5bn contribution to Abu Dhabi GDP    The National

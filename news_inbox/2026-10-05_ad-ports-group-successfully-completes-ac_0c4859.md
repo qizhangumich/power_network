@@ -1,0 +1,5 @@
+# AD Ports Group Successfully Completes Acquisition of Brazil’s CLI Upon Receiving Full Regulatory Approvals
+source: DredgeWire
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUFB4OWVJSUpfTmRZM19tMjF3RHpSZzBQOFhYemxDUDJfSmFVeFlSOTRwOWQxSF82YzNlejg0aHRlZk9lX1pzVDBoSUxHcUQ1Q01MR1RqLWVfcmpmb1RpQTRDemtFUUV2Slo0RjZnckJ3UjlDOXp3bnA4QU12WUJseHRzR1hIR01JRXNlQnlaNVVNM2VPaDUtZVRkbHhaanZXNE1qdXk0VG5JTUlVeklzM0NYZ3c3RGdJRm5BMnFLU3lSbXlLaGk2NA?oc=5
+
+AD Ports Group Successfully Completes Acquisition of Brazil’s CLI Upon Receiving Full Regulatory Approvals    DredgeWire

@@ -1,0 +1,5 @@
+# Aldar and Arada Form Landmark AED 15 Billion Strategic Partnership to Deliver Major New Developments in Abu Dhabi
+source: www.marketscreener.com
+url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMlNHamhoR1hQNERDVGV0TTh1MlJTLWdjTWdRNEN3ZDhWSzdCM1U2b3lpUG5lY0l6MkRnUDNIM25yRHhfWF9OUlJKWFBkTFNZSUxjTVF6NnVEQWJxYnRaTHBnNGpUZlFoU19rRGk1dlZ2c2dNdVd1S2JiVENGZzQ1OFdZZlludFF6REl5Sml6bjVONGhVRkdMUWwwd3h4a3U5N0k0V2pwUWtUXzJuTDc4X0xITWIzWXVnWHRfS05HUGJ4RzZSOFotVk1ENktNX1c4b3F5VzlNcmQ3cEpCdjdOUFAweWp2dWIy?oc=5
+
+Aldar and Arada Form Landmark AED 15 Billion Strategic Partnership to Deliver Major New Developments in Abu Dhabi    www.marketscreener.com

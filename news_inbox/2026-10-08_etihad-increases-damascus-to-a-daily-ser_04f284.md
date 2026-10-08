@@ -1,0 +1,5 @@
+# Etihad increases Damascus to a daily service as demand grows
+source: Zawya
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPazdmQ0o3QXpDOEVsaGViOFdsR2twLVZrZjZqUXhoaEIyUHlNSjNBWUtJcURMYTRzdjNxM1h4RFRLanBsaWlUeVNtX0h5YU9RVFZUR29lcllTZURrUVdBV2cyZklNc0N2alpBU3RVVHlENFNDN0o2bVRpWWhnckpTZzhGWlhWalZldkN4bGxmWDFMZWEwYjhRdWhxRlhfQmxxbldyX3lzbHNnR3NLR01pYVpGcnZNQTNJeGJwaHZ0UQ?oc=5
+
+Etihad increases Damascus to a daily service as demand grows    Zawya

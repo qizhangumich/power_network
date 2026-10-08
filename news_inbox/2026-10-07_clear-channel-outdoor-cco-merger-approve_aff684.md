@@ -1,0 +1,5 @@
+# Clear Channel Outdoor (CCO) Merger Approved by CFIUS, Acquisitio
+source: GuruFocus
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS1Z1Ymd0S1l1Vy1kc0NuWlA5WWt1MUdXQXpnd3NjSzREblY1aGhaV3RrdmhJbG9NNUoycU5Ia0dUTnhFRUI0cFl0cDZGLVViS1hHX1A3T3l3MnZhUS1NMVpmZ1NXUU1XOUpsQzZJX1B6bm16b0RrV1JSTTRvUlgyZWFlUHJoUWNSLThmeDJnYzNyMVlEb0l4RkEyV29uTzVBY1R0NHF1SjZmUHRqWmRBRG5LUU9GRUl0YVpQR0ZKSUZCR0N3THo2N09SWUpJb1ZNUU5yWA?oc=5
+
+Clear Channel Outdoor (CCO) Merger Approved by CFIUS, Acquisitio    GuruFocus
