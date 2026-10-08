@@ -1,0 +1,5 @@
+# CFIUS clears Mubadala deal for Clear Channel Outdoor stock
+source: AD HOC NEWS
+url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQm5Mc0tNMVFMYWRHUFEzX3QwMk9Oa3QtMG5vd0Zzc1FvMVlhTzV6Tm94Vm55dkhSRDZORi1rS21SSjk1ZmdtamNJN3J0MVdrZVV0dnl1b2VmSjZRaVRzd2NFQmlMSDNTTFJibHcySXJ3MHFkN3ZhaXFHV2tIX0hYUkVEWmpQSFo5VGlBSlVDUFhzQ3FTUnpZVTBwTllHLWdKRGdhREtVQ09peXJhZWp5UE5rdGpFd3At?oc=5
+
+CFIUS clears Mubadala deal for Clear Channel Outdoor stock    AD HOC NEWS

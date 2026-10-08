@@ -1,0 +1,5 @@
+# Etihad expands Nigerian connections
+source: eTNW
+url: https://news.google.com/rss/articles/CBMifEFVX3lxTE9mbllMTENXcGZNQjRHS0Z6dnhnMUhVZDloRTNHNVV0Mjh0OGdfa3M5aklWb3FUalBISkx6cWRrMjJ5VW52eEtGVXpDc1lSbEhDMDBNT2VkMXFhYzlDaUNlSDNaanNBNDZNTjJ5V2ZJTUg5MnZoaE1tWEdQV08?oc=5
+
+Etihad expands Nigerian connections    eTNW

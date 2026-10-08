@@ -1,0 +1,5 @@
+# Etihad's Chief Commercial Officer Is Out With Immediate Effect, But Airline Remains Tight-Lipped About Reason For His Departure
+source: PYOK
+url: https://news.google.com/rss/articles/CBMiggJBVV95cUxPSlFsZlRMdDI0VFJfUGJtTTVpTktWSUZnV2Q2NFZuTFJ4VnhuN0FJMldvTmlSb2FrUmZtaldielE4QWhIWUk2ZllWb3BkaGdIVzFvTlM2cWxfLThKamJERGFxVjNLX0R5RFA3Y091VVQ1THBJNFlXcklNZ3M1cXdBUkgwQmxYZHMyX1F1RlhHZXJfUy1Jb0ZGV3VtdUxGYzEzaTRlenI5ZnNhakFUV3RPbG8zYnNIbm5UenZPdURTZVNtYUVSLTlLaGE3UjNuNlVvRXU4X1ExdGVYaGJqbXY5M1F4Q3lqdHAyaUM2UDBRc3FoOHRwVVY0VFk3cjBGY0JCcGc?oc=5
+
+Etihad's Chief Commercial Officer Is Out With Immediate Effect, But Airline Remains Tight-Lipped About Reason For His Departure    PYOK

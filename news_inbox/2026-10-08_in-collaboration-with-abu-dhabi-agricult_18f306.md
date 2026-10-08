@@ -1,0 +1,5 @@
+# In collaboration with Abu Dhabi Agriculture and Food Safety Authority and Abu Dhabi Investment Office, Abu Dhabi Quality and Conformity Council develops Abu Dhabi Guideline for Tasting and Sensory Evaluation of Novel Foods
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi6wJBVV95cUxQczlMalR3MWxIc05ucHBRV0ZjNnA2UDRxeXVjdUVEMFVSamR6SGI1b2pfSENvR2lQU3ktdmwyUHFzNjJsbVE4YzRwZDVTRHltTWt2dVQyODhuT0t4NlprcnA4TmE3QnIwSWFzTGxhVERRMTNQRExWSHdLNk1xSm1PZ0M2M2FDek1yZnBncEpVN0Nhc3FBX3dONXdiZll6VktkYi02REJyaU5NUXN2c0JJa2IyeW1qOXBaUW9KYzBucnphd1dUZHo5bHM3a1IzdkFGcUhPelBIa2FSX1l0RFIxU2lndGp3UmdNT2pjM1ZVT3d6UmpxS0ZuVWpNTHR2WEFHVVVKV1NxLURKSDdGdjNxSzV3X1NuTW92UXl2aUJCeWEtT2FtQk0tT2NMQzFGT1RwMTdFNWgwUTk0aU0zWGRSaUJpckZVMzI2cFRmZE0wU19xVFhRTW1rdTZvbUJ3TEFXbl9kdnhvTXlUUEk?oc=5
+
+In collaboration with Abu Dhabi Agriculture and Food Safety Authority and Abu Dhabi Investment Office, Abu Dhabi Quality and Conformity Council develops Abu Dhabi Guideline for Tasting and Sensory Evaluation of Novel Foods    مكتب أبوظبي الإعلامي

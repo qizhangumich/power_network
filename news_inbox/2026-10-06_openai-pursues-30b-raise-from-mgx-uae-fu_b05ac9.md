@@ -1,0 +1,5 @@
+# OpenAI pursues $30b raise from MGX, UAE funds and BlackRock - CHOSUNBIZ
+source: Chosunbiz
+url: https://news.google.com/rss/articles/CBMiekFVX3lxTE96T0tFZ0MyanVjQWRORmx6ZE8wU01EZm1WWS00NjhQVDhpTUNOUFVkV0VXUU1RWUI1cXBWRHRLbUJPakFuYjNjOC1PcDZlMHF0M1BCR1Uya2gwSE90OEtZZkVhUFZXYXpnczMxOGJjUU93U3VRWjFHSnZn0gGOAUFVX3lxTE9WZnhlM29ZMGtnaE9KR19Ga3RDRlV4eF9yQ3lqeVdmVVVXNzdSbVVISGZtTWdhbWU0OEJlU1ZidjNmc21lUzZydEUyNm5qbnJ5aGs0OFlnaVhTQUZkVG4wRl9KVEdFYmJCbEphRDl6aGxKd1c3bV9VY01Od2VZRjc3UzBMTGMzS1EwTDdtdXc?oc=5
+
+OpenAI pursues $30b raise from MGX, UAE funds and BlackRock - CHOSUNBIZ    Chosunbiz

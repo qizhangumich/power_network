@@ -1,0 +1,5 @@
+# SriLankan Airlines boosts aviation training with A330 Programme for Etihad Airways
+source: TravelBiz Monitor
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQM2VHMEZEQmFPbVNSM3o1LWswaHlDc19YeTZLb2ViVnRBNmlKd3JVNUZybXRLVE5TQkZCRHJGVUNRa0F0ZVN3RnpSeE8tTDRvTGdhZkVETGoyY1BpUFVXd1FaMTJsMnlveTVuR0RhSy1FdGhjZVJKUmtPdWRBTHFFN0dSU2xhcDZrbGpuRnh2amY2Y1RjSEtLaUU3MC1UNkl4TUNiLTdISC0tZEVOaWJTMkF1YlpRcmRqUHhZb1g5OTgydw?oc=5
+
+SriLankan Airlines boosts aviation training with A330 Programme for Etihad Airways    TravelBiz Monitor
