@@ -1,0 +1,5 @@
+# UAE Pavilion drives strategic meetings at Marrakech Airshow 2026
+source: برق الإمارات
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPRUZtR3hmeHI4QjNnY1NvbnBQTDJCenVGbUFLcXhLQ053S3FyeDdldWlFT2w4R00yWmhiTXlBMDNqT1p5RWxEVnNmUDgzcjFlNFhTNFY3ZU4zdkVfN0hRQllLblBKYzYySTRvRGJKUTBJSUxORXd0N0ZTU1J1c2VmNEVHYVBjMl94d05XbkFiVHpvQkNRTEU5R2NPYlFPaUNGUkRRVw?oc=5
+
+UAE Pavilion drives strategic meetings at Marrakech Airshow 2026    برق الإمارات

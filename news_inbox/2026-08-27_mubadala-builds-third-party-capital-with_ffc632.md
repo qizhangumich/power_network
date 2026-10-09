@@ -1,0 +1,5 @@
+# Mubadala builds third-party capital with BlackRock process
+source: PEI Secondaries Investor
+url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNV3Roc2loNHJTb1J5czFUbXpSRFB4eDdwMy1BT3FNNjJtblhSMHQ0QW44SnhTdFE0aV9WNkdOaHAwVGI5dWxHU1FGbDYyTWpPSW1uQ1hUeURUOG5oam5qOEFuUldaUTEyS1pYYWw0MEx0MF9vNWNKMjBILS0xcVNRWU5YSjZCakFIX1dCbHZwZWg0dGZuRkZGc0JKdnNQNDlZ?oc=5
+
+Mubadala builds third-party capital with BlackRock process    PEI Secondaries Investor

@@ -1,0 +1,5 @@
+# UAE airlines cancel Saudi flights on October 9 and 10 amid Riyadh airport disruptions
+source: GulfToday
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGJsczd3OVZnaTZhNllHR2U1YVRBOE9vZ3UxYWVLSUVaSU1lOVBsNVpTbEQyQjVoT0x1TEZNckRVUmw0UTdwMVBQRTRLLVZscDViZ2Z0Vnlzck5sYkJOX3VNMWw2UXFrQ0x2S05GUTBtR1dkTmI5YkxTTkxNdmFxWkl5d05YTVlRMHlCRWpsX29pRnZFTHhCekhNWkVJdnJKLW9ENHU1cjNHV0d6MXR1bVA1d1FteTczSzAwYlJPbDdnY1d5?oc=5
+
+UAE airlines cancel Saudi flights on October 9 and 10 amid Riyadh airport disruptions    GulfToday
