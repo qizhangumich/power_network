@@ -1,0 +1,5 @@
+# Mubadala’s USD 6.2 bn takeover of Clear Channel secures regulatory greenlight
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxQemFvckZRWkNVNldHS18xeEFHZGkwRE5VZktVeEdDYUtPS1JfbDIzenl3OW1fWHJXd3BCX0tBRWxmUTc5ak1sNnRYRXlUTFdEdzZGNUdqeTZNMnVDMlRkX1djcG1NNTdNaVZLOVdBdDA5TkhvM2ZvZm03RDg0ZWZmWFh5cGRhcnRRRW9fRElHU1hoQjN0YnhDNEFkdU5lcU5lR3hDSWlCYU1iVlJOMl9tVzRubnhtZ0Nx?oc=5
+
+Mubadala’s USD 6.2 bn takeover of Clear Channel secures regulatory greenlight    EnterpriseAM

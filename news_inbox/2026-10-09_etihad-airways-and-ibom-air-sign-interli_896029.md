@@ -1,0 +1,5 @@
+# Etihad Airways and Ibom Air Sign Interline Agreement to Expand Nigerian Connectivity
+source: Hotelier Buzz
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxOSElNX1dRTXFienQ5aUQ1NVlqdVZ4anZwMnctNkFiWmdHRzdVdzhuVmdQYUZzVDlFWEtrWHIzUU5DeVRoQ3pKLTFDdXppZTVYTmQycHI5U2JJTTBlbUppeXRRMjZnbVUwVFlsNkRZWktxN3gtblExbGdwZU41U2twcmtHNjBzNzJHaUhnMkVKOThKOXctNTNUSWRMQ2pVcXVNdXVub0tRZzkxNXp4X1Bv?oc=5
+
+Etihad Airways and Ibom Air Sign Interline Agreement to Expand Nigerian Connectivity    Hotelier Buzz

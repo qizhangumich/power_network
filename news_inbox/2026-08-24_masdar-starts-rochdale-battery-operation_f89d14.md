@@ -1,5 +1,0 @@
-# Masdar starts Rochdale battery operations
-source: renews.biz
-url: https://news.google.com/rss/articles/CBMilgFBVV95cUxQSS0xTURHbXI0TmE3c2NIZUI1UlVIVE82LTB0SzBjOUpvVFJQOVRLNDA5UnpKeEhSY3lqeF9EZWFXeEZibUFZUUhiWDRXUFJ4cDZrVEhYbDRfS2tMbHB1aktIVGw0WEluUnFwY2I1aTZLc0RXNmxsRnYtekVOQkdJY2Nrdkd4U2lLOHBLekNJWjBzRUZjanc?oc=5
-
-Masdar starts Rochdale battery operations    renews.biz
