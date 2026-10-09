@@ -212,6 +212,7 @@ const INSTITUTIONS = [
   {id:"raysut_ind_city", n:"Raysut Industrial City", s:"industry", t:3, p:52, short:"Raysut Ind. City"},
   {id:"hema_energy", n:"Hema Energy", s:"energy", t:3, p:54, short:"Hema Energy"},
   {id:"ubhar_capital", n:"Ubhar Capital SAOC", s:"finance", t:3, p:52, short:"Ubhar Capital"},
+  {id:"ministry_of_economy", n:"Ministry of Economy", s:"gov", t:1, p:66, short:"Ministry of Economy"},
 ];
 
 const PEOPLE = [
@@ -1327,6 +1328,8 @@ const PEOPLE = [
     ["al_yousef","Chairman","board","v"]]},
   {id:"faisal_mohamed_al", n:"Faisal Mohamed Al-Yousef", t:2, p:58, s:"conglomerate", roles:[
     ["al_yousef","Chief Operating Officer and Director","executive","v"]]},
+  {id:"saeed_bin_mohammed", n:"Saeed bin Mohammed Al-Saqri", t:2, p:58, s:"gov", roles:[
+    ["ministry_of_economy","Minister of Economy","executive","v"]]},
 ];
 
 const OWNERSHIP = [

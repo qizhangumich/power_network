@@ -507,6 +507,9 @@ const INSTITUTIONS = [
   {id:"alfanar", n:"Alfanar Group", s:"industry", t:3, p:58, short:"Alfanar"},
   {id:"fas", n:"Saudi FAS Holding Company", s:"consumer_disc", t:3, p:60, short:"FAS Holding"},
   {id:"dallah_al_baraka", n:"Dallah Al-Baraka Group", s:"conglomerate", t:2, p:62, short:"Dallah Al-Baraka"},
+  {id:"matarat", n:"Matarat Holding Company", s:"gov", t:1, p:64, short:"Matarat Holding"},
+  {id:"jeddah_economic", n:"Jeddah Economic Company", s:"realestate", t:2, p:56, short:"Jeddah Economic Co."},
+  {id:"riyadh_airports", n:"Riyadh Airports Company", s:"industry", t:2, p:58, short:"Riyadh Airports Co."},
 ];
 
 const PEOPLE = [
@@ -2709,6 +2712,8 @@ const PEOPLE = [
     ["expo_2030","Chief Delivery Officer","executive","ns"]]},
   {id:"muhammad_al_nuwaiser", n:"Muhammad Al-Nuwaiser", t:2, p:60, s:"health", roles:[
     ["lst_2140","Chief Executive Officer","executive","ns"]]},
+  {id:"fabien_toscano", n:"Fabien Toscano", t:2, p:60, s:"realestate", roles:[
+    ["jeddah_economic","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3083,6 +3088,8 @@ const OWNERSHIP = [
   ["sadara","aramco","jv","ns"],
   ["yasref","aramco","jv","ns"],
   ["luberef","aramco","subsidiary","ns"],
+  ["jeddah_economic","kingdomholding","subsidiary","ns"],
+  ["riyadh_airports","matarat","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -3192,4 +3199,7 @@ const AKA = {
   alfanar:["alfanar"],
   fas:["Al Hokair Group","Fawaz Alhokair Group"],
   dallah_al_baraka:["Dallah Albaraka","Dallah Group","Dallah Establishment"],
+  matarat:["Matarat"],
+  jeddah_economic:["JEC","Jeddah Economic City","Jeddah Tower"],
+  riyadh_airports:["RAC","King Khalid International Airport","KKIA"],
 };

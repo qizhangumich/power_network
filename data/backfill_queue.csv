@@ -15,6 +15,7 @@ qatar,shell,Shell,energy,70,0,pending
 saudi,roshn,ROSHN,realestate,68,1,pending
 saudi,alnahla,AlNahla Group,conglomerate,67,0,pending
 abudhabi,goldman,Goldman Sachs,finance,66,0,pending
+oman,ministry_of_economy,Ministry of Economy,gov,66,1,pending
 qatar,conocophillips,ConocoPhillips,energy,66,0,pending
 saudi,sanabil,Saudi Arabian Investment Company,sovereign,66,0,pending
 abudhabi,eni,Eni,energy,64,0,pending
@@ -24,6 +25,7 @@ qatar,eni,Eni,energy,64,0,pending
 qatar,grsia_daman,General Retirement and Social Insurance Authority,sovereign,64,1,pending
 qatar,qcaa,Qatar Civil Aviation Authority,industry,64,1,pending
 saudi,bait_al_batterjee,Bait Al Batterjee Group,health,64,0,pending
+saudi,matarat,Matarat Holding Company,gov,64,0,pending
 saudi,hsa,HSA Group,conglomerate,63,0,pending
 saudi,rawabi,Rawabi Holding,energy,63,0,pending
 abudhabi,omv,OMV,energy,62,0,pending
@@ -181,6 +183,7 @@ saudi,king_khalid_univ,King Khalid University,education,58,0,pending
 saudi,yasref,Yanbu Aramco Sinopec Refining Company,energy,58,0,pending
 saudi,luberef,Saudi Aramco Base Oil Company,materials,58,0,pending
 saudi,alfanar,Alfanar Group,industry,58,0,pending
+saudi,riyadh_airports,Riyadh Airports Company,industry,58,0,pending
 qatar,al_muftah,Al Muftah Group,conglomerate,57,1,pending
 saudi,alturki,Alturki Holding,conglomerate,57,0,pending
 saudi,alesayi,Alesayi Holding,conglomerate,57,0,pending
@@ -245,6 +248,7 @@ saudi,gib_capital,GIB Capital,finance,56,0,pending
 saudi,gdc_middle_east,GDC Middle East,industry,56,0,pending
 saudi,al_fozan,Al Fozan Holding,conglomerate,56,0,pending
 saudi,taibah_university,Taibah University,education,56,0,pending
+saudi,jeddah_economic,Jeddah Economic Company,realestate,56,1,pending
 dubai,nasdaq_dubai,Nasdaq Dubai,finance,55,0,pending
 dubai,dwtc,Dubai World Trade Centre,consumer_disc,55,0,pending
 dubai,seddiqi,Seddiqi Holding,consumer_disc,55,0,pending
