@@ -1,0 +1,5 @@
+# Etihad commercial chief De departs
+source: FlightGlobal
+url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa2NJcHpFVU80NXMzUEVMdk1rUHg5ZzFSQ1FDamp6bFZkbXcwUFFuSDBNMlh1M19MYktEamVjNEZhVFNidzhvX21OUkxXLU1rcEdsYm1RR3p2NXZPa2hqVlNQdy1QcDZfVDA2RGE2eXF2aVVFektScFpOeVNqUHhDVEltZzFhc2pw?oc=5
+
+Etihad commercial chief De departs    FlightGlobal

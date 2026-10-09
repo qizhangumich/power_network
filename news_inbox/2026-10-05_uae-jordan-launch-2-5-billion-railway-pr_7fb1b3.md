@@ -1,0 +1,5 @@
+# UAE, Jordan launch $2.5 billion railway project linking Aqaba to mining sites
+source: Khaleej Times
+url: https://news.google.com/rss/articles/CBMiggFBVV95cUxNb2ZKZFRlM3lmcDdlWXRnYkUxTkN4ZlVaTEdaTUZ3dDdzVE5pYURGOUZ1OW11bEtTckV4VnRfZnJjeFNlWXdrLS1zVHFDQWNPQ1NENEl0WjhWRGoyb25INFNSVXJiNVpvMnV1cGtYTUJVTmVQUUtjb25id1FFdDRQMV9n0gGKAUFVX3lxTE84UjFDVkUtVlRRdFV2bndUZDJRY3V5QTJTYk5GdG02dGdKVDVuUmFhY1JPemZCRGlqOTlkeGpiS1NZd1djajIwN2FuQW85cmhOcTZrSkFUUFBja0pBZXBycXRiOFM4S2pERUVtQ0I2VXg1QmptODZnb29RMVd5d1g5Zk1DNk9ZS0dVZw?oc=5
+
+UAE, Jordan launch $2.5 billion railway project linking Aqaba to mining sites    Khaleej Times

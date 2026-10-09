@@ -1,0 +1,5 @@
+# Department of Health – Abu Dhabi designates SEHA Sheikh Tahnoon Bin Mohammed Medical City as Centre of Excellence for stroke treatment
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMihwJBVV95cUxOb24wM1gtT0ZxLUVSOGZ6TVFLTm1kdGNKakw2SklnOVVfTEN6TUR6MWpCRXlwYTNpZjdOT1VOdzF6eW9ZQ2lTUHE1QklwcE9KSVA2SWthVUphYldxNG14ZWdBdHhPZXVpaWxJT2s0R0cxOHQ3SngxdHJtYm41Zkd0aTlwTVBqNGl0b0ZnSWt4MjA3X012NGowYVFwcFVBdU5FN3V5TlMyTEtYd1U2NVFtNEFGMDFkRGRsNktqTVViNU02NHVhMTNkbVk2VHU2X2NTU29hREp2UFVBMWd5RnRKMUxJQWg5YXo5S0xCemZRS3NUWVFEUGVmRzc1b21Wa19CQ3hsUEJMNA?oc=5
+
+Department of Health – Abu Dhabi designates SEHA Sheikh Tahnoon Bin Mohammed Medical City as Centre of Excellence for stroke treatment    مكتب أبوظبي الإعلامي
