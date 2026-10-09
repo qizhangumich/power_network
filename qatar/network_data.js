@@ -1413,7 +1413,7 @@ const PEOPLE = [
   {id:"tarek_mahmoud_el", n:"Tarek Mahmoud El Sayed", t:2, p:52, s:"conglomerate", roles:[
     ["alfaisal","Director and Chief Operating Officer","board","ns"]]},
   {id:"saleh_bin_mohammed", n:"Saleh bin Mohammed Al Nabit", t:2, p:52, s:"finance", roles:[
-    ["psa_qatar","President","executive","v"],
+    ["psa_qatar","President (–May 2024; PSA dissolved, succeeded by National Planning Council)","executive","v","former:until May 2024"],
     ["qcb","Board Member","board","ns"]]},
   {id:"tamy_bin_ahmed", n:"Tamy bin Ahmed bin Ali Al Binali", t:2, p:52, s:"finance", roles:[
     ["qcb","Board Member","board","v"]]},
@@ -1436,6 +1436,7 @@ const PEOPLE = [
   {id:"ahmad_helal_al_b", n:"Ahmad Helal Al-Muhannadi", t:2, p:60, s:"energy", roles:[
     ["qelng","President and Chief Executive Officer","executive","v"]]},
   {id:"ahmed_bin_abdullah", n:"Ahmed bin Abdullah Al Jamal", t:2, p:52, s:"finance", roles:[
+    ["gac_qatar","Chairman of the General Authority of Customs","executive","v"],
     ["qfz","Board Member","board","v"],
     ["qfc","Board Member","board","v"]]},
   {id:"mohammed_hassan_al", n:"Mohammed Hassan Al Maliki", t:2, p:52, s:"finance", roles:[
@@ -1904,6 +1905,8 @@ const PEOPLE = [
     ["ashghal","Projects Affairs Director","executive","ns"]]},
   {id:"abdullah_mohammed_al", n:"Abdullah Mohammed Al Malki", t:2, p:58, s:"gov", roles:[
     ["public_prosecution","First Attorney General and Director of the Judicial Inspection Department","executive","v"]]},
+  {id:"mohammed_abdulaziz_mohammed", n:"Mohammed Abdulaziz Mohammed al-Nuaimi", t:2, p:58, s:"gov", roles:[
+    ["psa_qatar","Assistant to the President (–May 2024; PSA dissolved, succeeded by National Planning Council)","executive","ns","former:until May 2024"]]},
 ];
 
 const OWNERSHIP = [

@@ -157,6 +157,7 @@ const INSTITUTIONS = [
   {id:"gulf_daily_news", n:"Gulf Daily News", s:"comm", t:3, p:52, short:"Gulf Daily News"},
   {id:"asb_capital", n:"ASB Capital", s:"finance", t:3, p:52, short:"ASB Capital"},
   {id:"sico_wealth", n:"SICO Wealth", s:"finance", t:2, p:54, short:"SICO Wealth"},
+  {id:"bfc", n:"BFC Group Holdings", s:"finance", t:3, p:54, short:"BFC Group"},
 ];
 
 const PEOPLE = [
@@ -3366,4 +3367,5 @@ const AKA = {
   univ_of_bahrain:["UoB"],
   bahrain_spec_hosp:["BSH"],
   gulf_daily_news:["GDN"],
+  bfc:["Bahrain Financing Company","BFC"],
 };

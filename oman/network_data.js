@@ -337,7 +337,7 @@ const PEOPLE = [
   {id:"dr_ghalib_al", n:"Dr. Ghalib Al Hosni", t:2, p:58, s:"comm", roles:[
     ["omantel","Chief People Officer","executive","v"]]},
   {id:"rashad_muhammad_al", n:"Rashad Muhammad Al Zubair", t:2, p:62, s:"finance", roles:[
-    ["zubair","Chairman","board","ns"],
+    ["zubair","Chairman","board","v"],
     ["ominvest","Chairman","board","ns"]]},
   {id:"sheikh_khalid_abdullah", n:"Sheikh Khalid Abdullah Al Khalili", t:2, p:62, s:"finance", roles:[
     ["lst_bknz","Chairman","board","v"],

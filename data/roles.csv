@@ -820,7 +820,7 @@ noura_al_ghaithi,Noura Al Ghaithi,doh,,Undersecretary,executive,ns,
 asma_ibrahim_al,Asma Ibrahim Al Mannaei,doh,,Executive Director of the Research and Innovation Centre,executive,ns,
 ahmed_alkhazraji,Ahmed AlKhazraji,doh,,Executive Director of the Healthy Living Unit,executive,ns,
 mohammed_abdullah_al,Mohammed Abdullah Al Awadi,doh,,Executive Director of the Health System Financing Regulation Sector,executive,ns,
-saood_abdulaziz_al,Saood Abdulaziz Al Hosani,dct,,Undersecretary,executive,ns,
+saood_abdulaziz_al,Saood Abdulaziz Al Hosani,dct,,Undersecretary (superseded by Mohamed Abdalla Al Zaabi),executive,ns,former
 saleh_mohamed_saleh,Saleh Mohamed Saleh Al Geziry,dct,,Director General for Tourism,executive,ns,
 mariam_al_musharrekh,Mariam Al Musharrekh,dge,Department of Government Enablement,Director General - Government Talent,executive,v,
 wesam_lootah,Wesam Lootah,dge,,Director General,executive,v,
@@ -1289,3 +1289,38 @@ charbel_elias_el,Charbel Elias el Khoury,mazrui_intl,,Group Chief Executive Offi
 daniel_ragette,Daniel Ragette,mazrui_intl,,Group Chief Financial Officer,executive,v
 mark_ferrer,Mark Ferrer,mazrui_intl,,Chief Human Resources Officer,executive,v
 martin_pearson,Martin Pearson,mazrui_intl,,Group Chief Operating Officer,executive,v
+kamal_ishaq_almaazmi,Kamal Ishaq Almaazmi,adx,Abu Dhabi Securities Exchange,Board Member,board,v,
+jawad_shafique_mohamed,Jawad Shafique Mohamed Shafique,adx,Abu Dhabi Securities Exchange,Board Member,board,v,
+gil_adotevi,Gil Adotevi,agthia,Agthia Group,Board Member,board,v,
+amer_siddiqui,Amer Siddiqui,strata,Strata Manufacturing,Vice Chairman,board,v,
+amal_al_ameri,Amal Al Ameri,strata,Strata Manufacturing,"Board Member (Chair, Audit and Risk Committee)",board,v,
+najib_youssef_fayyad,Najib Youssef Fayyad,nationalholding,National Holding,Special Advisor to the Board (former Group CEO),board,ns,
+mohamed_taj_eddine,Mohamed Taj Eddine Ahmed Alqadi,adek,,Chairman,board,v
+mariam_alhallami,Mariam Alhallami,adek,,"Executive Director, Private Education and Charter Schools Sector",executive,v
+juma_al_hameli,Juma Al Hameli,adx,,Board Member,board,v
+reem_ali_khamis,Reem Ali Khamis Beljafleh,adx,,Board Member,board,v
+khamis_mohamed_buharoon,Khamis Mohamed Buharoon Al Shamsi,agthia,,Board Member,board,v
+sharmila_murat,Sharmila Murat,agthia,,Board Member,board,v
+svet_varadzhakov,Svet Varadzhakov,agthia,,Board Member,board,v
+caitlin_nguyen,Caitlin Nguyen,agthia,,Board Member,board,v
+mariam_al_remeithi,Mariam Al Remeithi,agthia,,Board Member,board,v
+maurizio_patarnello,Maurizio Patarnello,agthia,,Board Member,board,v
+jeroen_nijs,Jeroen Nijs,agthia,,Chief Financial Officer,executive,v
+khaled_bin_shaiban,Khaled bin Shaiban Almehairi,daman,,Chairman,board,v
+hamad_adel_al,Hamad Adel Al Afeefi,itc,,"Executive Director, Intelligent Transport Systems Sector",executive,v
+abdulla_hamad_alaryani,Abdulla Hamad Alaryani,itc,,"Acting Executive Director, Planning and Strategic Affairs Sector",executive,v
+khaled_al_mazrouei,Khaled Al Mazrouei,strata,,Chief Executive Officer,executive,v
+khadim_abdulla_al,Khadim Abdulla Al Darei,aldahra,,Managing Director and Co-Founder,executive,ns
+yousef_m_al,Yousef M. Al-Nowais,alnowais,,Co-Chairman,board,ns
+mohamed_hussain_al,Mohamed Hussain Al Nowais,alnowais,,Executive Director,executive,ns
+masaood_ahmed_al,Masaood Ahmed Al Masaood,almasaood,,Chairman of the Board of Directors,board,v
+tariq_ahmed_al,Tariq Ahmed Al Masaood,almasaood,,Director,board,v
+mohammed_rahma_al,Mohammed Rahma Al Masaood,almasaood,,Director,board,v
+ahmed_rahma_al,Ahmed Rahma Al Masaood,almasaood,,Director,board,v
+humaid_al_masaood,Humaid Al Masaood,almasaood,,Director,board,v
+khalifa_al_masaood,Khalifa Al Masaood,almasaood,,Director,board,v
+masaood_rahma_al,Masaood Rahma Al Masaood,almasaood,,Director,board,v
+ziad_abou_nasr,Ziad Abou Nasr,almasaood,,Executive Committee Member,executive,v
+najib_makarem,Najib Makarem,nationalholding,,Group Chief Human Resources Officer,executive,ns
+abdulaziz_abdulla_salem,Abdulaziz Abdulla Salem Alzaabi,lst_rakprop,,Chairman,board,ns
+mohamed_ali_mosbeh,Mohamed Ali Mosbeh Al Nuaimi,lst_rakprop,,Deputy Chairman,board,ns

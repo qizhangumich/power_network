@@ -186,7 +186,7 @@ const INSTITUTIONS = [
   {id:"lst_icap", n:"Investcorp Capital plc", s:"finance", t:2, p:50, short:"ICAP"},
   {id:"lst_phx", n:"Phoenix Group PLC", s:"tech", t:2, p:50, short:"Phoenix Group PLC"},
   {id:"lst_gih", n:"Gulf Investment House K.P.S.C.", s:"finance", t:2, p:50, short:"GIH"},
-  {id:"lst_rakprop", n:"RAK Properties PJSC", s:"realestate", t:2, p:50, short:"RAK Properties PJSC"},
+  {id:"lst_rakprop", n:"RAK Properties PJSC", s:"realestate", t:2, p:60, short:"RAK Properties"},
   {id:"lst_saga", n:"Sagasse Investment Company Plc", s:"finance", t:2, p:50, short:"SAGA"},
   {id:"lst_anan", n:"Anan Investment Holding PJSC", s:"finance", t:2, p:50, short:"ANAN"},
   {id:"lst_esg", n:"ESG Emirates Stallions Group PJSC", s:"materials", t:2, p:50, short:"ESG"},
@@ -972,6 +972,7 @@ const PEOPLE = [
     ]},
   {id:"najib_youssef_fayyad", n:"Najib Youssef Fayyad", t:2, p:52, s:"finance", roles:[
     ["adib","Board Member","board","v"],
+    ["nationalholding","Special Advisor to the Board (former Group CEO)","board","ns"],
     ]},
   {id:"ahsan_akhtar", n:"Ahsan Akhtar", t:2, p:58, s:"finance", roles:[
     ["adib","Group Chief Financial Officer","executive","v"],
@@ -1044,6 +1045,7 @@ const PEOPLE = [
     ["adnocgas","Board Member","board","v"],
     ["limad","Board Member","board","v"],
     ["dof","Undersecretary","executive","v"],
+    ["adx","Board Member","board","v"],
     ]},
   {id:"buthaina_abdulla_almazrouei", n:"Buthaina Abdulla Almazrouei", t:2, p:52, s:"utilities", roles:[
     ["taqa","Board Member","board","ns"],
@@ -1458,6 +1460,7 @@ const PEOPLE = [
     ["purehealth","Board Member","board","v"],
     ["wio","Board Member","board","v"],
     ["lst_adaviation","Non-Executive Board Member","board","v"],
+    ["adx","Board Member","board","v"],
     ]},
   {id:"farhan_malik", n:"Farhan Malik", t:2, p:60, s:"health", roles:[
     ["purehealth","Managing Director & Board Member","executive","v"],
@@ -1973,6 +1976,7 @@ const PEOPLE = [
   {id:"gil_adotevi", n:"Gil Adotevi", t:2, p:58, s:"sovereign", roles:[
     ["adq","Group Chief Investment Officer – Transport & Logistics","executive","ns"],
     ["kezad","Board Member","board","v"],
+    ["agthia","Board Member","board","v"],
     ]},
   {id:"anas_albarguthi", n:"Anas Albarguthi", t:2, p:58, s:"sovereign", roles:[
     ["adq","Group Chief Operating Officer","executive","ns"],
@@ -2550,7 +2554,7 @@ const PEOPLE = [
     ["doh","Executive Director of the Health System Financing Regulation Sector","executive","ns"],
     ]},
   {id:"saood_abdulaziz_al", n:"Saood Abdulaziz Al Hosani", t:2, p:58, s:"gov", roles:[
-    ["dct","Undersecretary","executive","ns"],
+    ["dct","Undersecretary (superseded by Mohamed Abdalla Al Zaabi)","executive","ns","former"],
     ["admo","Director General","executive","v"],
     ]},
   {id:"saleh_mohamed_saleh", n:"Saleh Mohamed Saleh Al Geziry", t:2, p:58, s:"gov", roles:[
@@ -2628,6 +2632,7 @@ const PEOPLE = [
     ]},
   {id:"amer_siddiqui", n:"Amer Siddiqui", t:2, p:62, s:"industry", roles:[
     ["sanad","Group Chairman","board","v"],
+    ["strata","Vice Chairman","board","v"],
     ]},
   {id:"mansoor_janahi", n:"Mansoor Janahi", t:2, p:60, s:"industry", roles:[
     ["sanad","Managing Director and Group Chief Executive Officer","executive","v"],
@@ -2635,6 +2640,7 @@ const PEOPLE = [
     ]},
   {id:"amal_al_ameri", n:"Amal Al Ameri", t:2, p:52, s:"industry", roles:[
     ["sanad","Board Member","board","v"],
+    ["strata","Board Member (Chair, Audit and Risk Committee)","board","v"],
     ]},
   {id:"james_hogan", n:"James Hogan", t:2, p:52, s:"industry", roles:[
     ["sanad","Board Member","board","v"],
@@ -3574,6 +3580,93 @@ const PEOPLE = [
     ]},
   {id:"martin_pearson", n:"Martin Pearson", t:2, p:58, s:"conglomerate", roles:[
     ["mazrui_intl","Group Chief Operating Officer","executive","v"],
+    ]},
+  {id:"mohamed_taj_eddine", n:"Mohamed Taj Eddine Ahmed Alqadi", t:2, p:62, s:"gov", roles:[
+    ["adek","Chairman","board","v"],
+    ]},
+  {id:"mariam_alhallami", n:"Mariam Alhallami", t:2, p:58, s:"gov", roles:[
+    ["adek","Executive Director, Private Education and Charter Schools Sector","executive","v"],
+    ]},
+  {id:"juma_al_hameli", n:"Juma Al Hameli", t:2, p:52, s:"finance", roles:[
+    ["adx","Board Member","board","v"],
+    ]},
+  {id:"reem_ali_khamis", n:"Reem Ali Khamis Beljafleh", t:2, p:52, s:"finance", roles:[
+    ["adx","Board Member","board","v"],
+    ]},
+  {id:"khamis_mohamed_buharoon", n:"Khamis Mohamed Buharoon Al Shamsi", t:2, p:52, s:"consumer_stap", roles:[
+    ["agthia","Board Member","board","v"],
+    ]},
+  {id:"sharmila_murat", n:"Sharmila Murat", t:2, p:52, s:"consumer_stap", roles:[
+    ["agthia","Board Member","board","v"],
+    ]},
+  {id:"svet_varadzhakov", n:"Svet Varadzhakov", t:2, p:52, s:"consumer_stap", roles:[
+    ["agthia","Board Member","board","v"],
+    ]},
+  {id:"caitlin_nguyen", n:"Caitlin Nguyen", t:2, p:52, s:"consumer_stap", roles:[
+    ["agthia","Board Member","board","v"],
+    ]},
+  {id:"mariam_al_remeithi", n:"Mariam Al Remeithi", t:2, p:52, s:"consumer_stap", roles:[
+    ["agthia","Board Member","board","v"],
+    ]},
+  {id:"maurizio_patarnello", n:"Maurizio Patarnello", t:2, p:52, s:"consumer_stap", roles:[
+    ["agthia","Board Member","board","v"],
+    ]},
+  {id:"jeroen_nijs", n:"Jeroen Nijs", t:2, p:58, s:"consumer_stap", roles:[
+    ["agthia","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"khaled_bin_shaiban", n:"Khaled bin Shaiban Almehairi", t:2, p:62, s:"health", roles:[
+    ["daman","Chairman","board","v"],
+    ]},
+  {id:"hamad_adel_al", n:"Hamad Adel Al Afeefi", t:2, p:58, s:"gov", roles:[
+    ["itc","Executive Director, Intelligent Transport Systems Sector","executive","v"],
+    ]},
+  {id:"abdulla_hamad_alaryani", n:"Abdulla Hamad Alaryani", t:2, p:58, s:"gov", roles:[
+    ["itc","Acting Executive Director, Planning and Strategic Affairs Sector","executive","v"],
+    ]},
+  {id:"khaled_al_mazrouei", n:"Khaled Al Mazrouei", t:2, p:60, s:"industry", roles:[
+    ["strata","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"khadim_abdulla_al", n:"Khadim Abdulla Al Darei", t:2, p:60, s:"consumer_stap", roles:[
+    ["aldahra","Managing Director and Co-Founder","executive","ns"],
+    ]},
+  {id:"yousef_m_al", n:"Yousef M. Al-Nowais", t:2, p:62, s:"conglomerate", roles:[
+    ["alnowais","Co-Chairman","board","ns"],
+    ]},
+  {id:"mohamed_hussain_al", n:"Mohamed Hussain Al Nowais", t:2, p:58, s:"conglomerate", roles:[
+    ["alnowais","Executive Director","executive","ns"],
+    ]},
+  {id:"masaood_ahmed_al", n:"Masaood Ahmed Al Masaood", t:2, p:62, s:"conglomerate", roles:[
+    ["almasaood","Chairman of the Board of Directors","board","v"],
+    ]},
+  {id:"tariq_ahmed_al", n:"Tariq Ahmed Al Masaood", t:2, p:52, s:"conglomerate", roles:[
+    ["almasaood","Director","board","v"],
+    ]},
+  {id:"mohammed_rahma_al", n:"Mohammed Rahma Al Masaood", t:2, p:52, s:"conglomerate", roles:[
+    ["almasaood","Director","board","v"],
+    ]},
+  {id:"ahmed_rahma_al", n:"Ahmed Rahma Al Masaood", t:2, p:52, s:"conglomerate", roles:[
+    ["almasaood","Director","board","v"],
+    ]},
+  {id:"humaid_al_masaood", n:"Humaid Al Masaood", t:2, p:52, s:"conglomerate", roles:[
+    ["almasaood","Director","board","v"],
+    ]},
+  {id:"khalifa_al_masaood", n:"Khalifa Al Masaood", t:2, p:52, s:"conglomerate", roles:[
+    ["almasaood","Director","board","v"],
+    ]},
+  {id:"masaood_rahma_al", n:"Masaood Rahma Al Masaood", t:2, p:52, s:"conglomerate", roles:[
+    ["almasaood","Director","board","v"],
+    ]},
+  {id:"ziad_abou_nasr", n:"Ziad Abou Nasr", t:2, p:58, s:"conglomerate", roles:[
+    ["almasaood","Executive Committee Member","executive","v"],
+    ]},
+  {id:"najib_makarem", n:"Najib Makarem", t:2, p:58, s:"conglomerate", roles:[
+    ["nationalholding","Group Chief Human Resources Officer","executive","ns"],
+    ]},
+  {id:"abdulaziz_abdulla_salem", n:"Abdulaziz Abdulla Salem Alzaabi", t:2, p:62, s:"realestate", roles:[
+    ["lst_rakprop","Chairman","board","ns"],
+    ]},
+  {id:"mohamed_ali_mosbeh", n:"Mohamed Ali Mosbeh Al Nuaimi", t:2, p:62, s:"realestate", roles:[
+    ["lst_rakprop","Deputy Chairman","board","ns"],
     ]},
 ];
 

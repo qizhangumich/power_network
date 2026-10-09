@@ -1231,7 +1231,7 @@ const PEOPLE = [
   {id:"abdul_wahab_al", n:"Abdul Wahab Al-Shatti", t:2, p:60, s:"industry", roles:[
     ["kuwaitairways","Chief Executive Officer","executive","ns"]]},
   {id:"faisal_bader_al", n:"Faisal Bader Al-Sayer", t:2, p:62, s:"conglomerate", roles:[
-    ["alsayer","Chairman","board","ns"]]},
+    ["alsayer","Chairman","board","v"]]},
   {id:"musaed_bader_al", n:"Musaed Bader Al-Sayer", t:2, p:62, s:"conglomerate", roles:[
     ["alsayer","Vice Chairman","board","ns"]]},
   {id:"mohamed_naser_al", n:"Mohamed Naser Al-Sayer", t:2, p:52, s:"conglomerate", roles:[

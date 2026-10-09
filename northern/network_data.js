@@ -1147,6 +1147,16 @@ const PEOPLE = [
     ["nesto","Director","board","v"]]},
   {id:"saeed_al_samahi", n:"Saeed Al Samahi", t:2, p:58, s:"gov", roles:[
     ["fujairah_tourism","Director General","executive","v"]]},
+  {id:"salem_abdullah_al", n:"Salem Abdullah Al Afkham", t:2, p:58, s:"energy", roles:[
+    ["fujoilzone","Director of Fujairah Oil Industry Zone","executive","ns"]]},
+  {id:"abdul_rahman_mohammad", n:"Abdul Rahman Mohammad Ali Al Shayeb Al Naqbi", t:2, p:58, s:"gov", roles:[
+    ["rak_ded","Director General of RAK Department of Economic Development","executive","v"]]},
+  {id:"munther_bin_shekar", n:"Munther bin Shekar Al Zaabi", t:2, p:58, s:"gov", roles:[
+    ["rak_municipality","Director General of Ras Al Khaimah Municipality","executive","v"]]},
+  {id:"abdulaziz_saeed_bin", n:"Abdulaziz Saeed bin Butti Al Muhairi", t:2, p:62, s:"health", roles:[
+    ["sharjah_health_auth","Chairman of Sharjah Health Authority","board","v"]]},
+  {id:"amal_ahmed_al", n:"Amal Ahmed Al Qatari Al Suwaidi", t:2, p:58, s:"health", roles:[
+    ["sharjah_health_auth","Director of Sharjah Health Authority (Vice President)","executive","v"]]},
 ];
 
 const OWNERSHIP = [

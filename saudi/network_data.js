@@ -504,6 +504,9 @@ const INSTITUTIONS = [
   {id:"yasref", n:"Yanbu Aramco Sinopec Refining Company", s:"energy", t:2, p:58, short:"YASREF"},
   {id:"luberef", n:"Saudi Aramco Base Oil Company", s:"materials", t:2, p:58, short:"Luberef"},
   {id:"yaqeen_capital", n:"Yaqeen Capital", s:"finance", t:3, p:52, short:"Yaqeen Capital"},
+  {id:"alfanar", n:"Alfanar Group", s:"industry", t:3, p:58, short:"Alfanar"},
+  {id:"fas", n:"Saudi FAS Holding Company", s:"consumer_disc", t:3, p:60, short:"FAS Holding"},
+  {id:"dallah_al_baraka", n:"Dallah Al-Baraka Group", s:"conglomerate", t:2, p:62, short:"Dallah Al-Baraka"},
 ];
 
 const PEOPLE = [
@@ -565,7 +568,7 @@ const PEOPLE = [
     ["misa","Minister of Investment","political","v"]],
     note:"Appointed 12 Feb 2026, succeeding Khalid Al-Falih; ex-PIF Investment Strategy head."},
   {id:"alswaha", n:"Abdullah Alswaha", t:1, p:78, s:"tech", roles:[
-    ["cst","Minister of Communications and Information Technology / Chairman of the Board","board","ns"],
+    ["cst","Minister of Communications and Information Technology / Chairman of the Board","board","v"],
     ["savvy_games","Non-Executive Board Member","board","v"],
     ["kaust","Board Member; Minister of Communications and Information Technology","board","v"],
     ["alat","Board Member; Minister of Communications and Information Technology","board","v"],
@@ -2702,6 +2705,10 @@ const PEOPLE = [
     ["lst_4300","Board Member","board","ns"]]},
   {id:"ibrahim_al_moammar", n:"Ibrahim Al Moammar", t:2, p:60, s:"tech", roles:[
     ["lst_7202","Chief Executive Officer","executive","ns"]]},
+  {id:"murad_alsayed", n:"Murad AlSayed", t:2, p:58, s:"gov", roles:[
+    ["expo_2030","Chief Delivery Officer","executive","ns"]]},
+  {id:"muhammad_al_nuwaiser", n:"Muhammad Al-Nuwaiser", t:2, p:60, s:"health", roles:[
+    ["lst_2140","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3182,4 +3189,7 @@ const AKA = {
   fii_institute:["Future Investment Initiative Institute"],
   lucid:["Lucid Motors"],
   yaqeen_capital:["Falcom Financial Services"],
+  alfanar:["alfanar"],
+  fas:["Al Hokair Group","Fawaz Alhokair Group"],
+  dallah_al_baraka:["Dallah Albaraka","Dallah Group","Dallah Establishment"],
 };

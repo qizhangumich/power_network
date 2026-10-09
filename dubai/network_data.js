@@ -203,6 +203,8 @@ const INSTITUTIONS = [
   {id:"sobha_realty", n:"Sobha Realty", s:"realestate", t:3, p:58, short:"Sobha Realty"},
   {id:"minor_hotels_mea", n:"Minor Hotel Group MEA DMCC", s:"consumer_disc", t:3, p:54, short:"Minor Hotels MEA"},
   {id:"dhre", n:"Dubai Holding Real Estate", s:"realestate", t:2, p:62, short:"DHRE"},
+  {id:"eta_ascon", n:"ETA Ascon Group", s:"industry", t:3, p:56, short:"ETA Ascon"},
+  {id:"khansaheb", n:"Khansaheb Group", s:"industry", t:3, p:55, short:"Khansaheb"},
 ];
 
 const PEOPLE = [
@@ -224,6 +226,7 @@ const PEOPLE = [
     ["difc","President","political","v"]],
     note:"Dubai's financial-markets czar: DIFC, the IPO program and federal finance."},
   {id:"ahmed_saeed", n:"H.H. Sheikh Ahmed bin Saeed Al Maktoum", t:0, p:92, s:"industry", roles:[
+    ["dcaa","President","board","v"],
     ["diez","Chairman","board","v"],
     ["emirates_catering","Chairman, Board of Directors","board","v"],
     ["transguard","Chairman","board","ns"],
@@ -266,7 +269,7 @@ const PEOPLE = [
     ["lst_salik","Chairman","board","v"],
     ["rta","Chairman & Director-General","government","v"]]},
   {id:"essa_kazim", n:"Essa Kazim", t:1, p:82, s:"finance", roles:[
-    ["borse_dubai","Chairman","board","ns"],
+    ["borse_dubai","Chairman","board","v"],
     ["difc","Governor","executive","v"],
     ["dfm","Chairman (–Nov 2021)","board","v","former:until Nov 2021"],
     ["dpworld","Chairman","board","v"]],
@@ -305,6 +308,7 @@ const PEOPLE = [
   {id:"khalaf_habtoor", n:"Khalaf Al Habtoor", t:2, p:76, s:"conglomerate", roles:[
     ["alhabtoor","Founder & Chairman","board","v"]]},
   {id:"amit_kaushal", n:"Amit Kaushal", t:2, p:72, s:"sovereign", roles:[
+    ["meraas","Group Chief Executive Officer","executive","v"],
     ["tecom","Director","board","v"],
     ["dubaiholding","Group CEO","executive","v"]]},
   {id:"ismail_maf", n:"Ahmed Galal Ismail", t:2, p:74, s:"conglomerate", roles:[
@@ -677,6 +681,7 @@ const PEOPLE = [
   {id:"robert_booth", n:"Robert Booth", t:2, p:52, s:"conglomerate", roles:[
     ["maf","Non-Executive Director","board","v"]]},
   {id:"khalid_al_malik", n:"Khalid Al Malik", t:2, p:60, s:"sovereign", roles:[
+    ["dhre","Chief Executive Officer of Dubai Holding Real Estate","executive","v"],
     ["dubai_properties","Acting Group Chief Executive Officer","executive","ns"],
     ["meraas","Chief Executive Officer - Dubai Holding Real Estate (Meraas brand)","executive","ns"],
     ["dubaiholding","Managing Director, Dubai Holding; CEO, Dubai Holding Real Estate","executive","v"]]},
@@ -2016,6 +2021,20 @@ const PEOPLE = [
     ["gargash","Managing Director & Group CEO","executive","v"]]},
   {id:"walid_hizaoui", n:"Walid Hizaoui", t:2, p:58, s:"consumer_disc", roles:[
     ["gargash","Group Chief Strategy Officer","executive","v"]]},
+  {id:"essa_harab_khalifa", n:"Essa Harab Khalifa bin Hadher", t:2, p:60, s:"gov", roles:[
+    ["det","CEO of Economic Strategy Sector","executive","v"]]},
+  {id:"sahia_sajjad_ahmed", n:"Sahia Sajjad Ahmed", t:2, p:60, s:"gov", roles:[
+    ["det","CEO of Regulatory Policy and Governance Sector","executive","v"]]},
+  {id:"saad_mohammed_al", n:"Saad Mohammed Al Awadhi", t:2, p:60, s:"gov", roles:[
+    ["det","CEO of Corporate Support Services Sector","executive","v"]]},
+  {id:"khaled_hassan_mohammed", n:"Khaled Hassan Mohammed Mubasheri", t:2, p:60, s:"gov", roles:[
+    ["det","CEO of Legislation and Disputes Sector","executive","v"]]},
+  {id:"yousuf_ahmed_yousuf", n:"Yousuf Ahmed Yousuf Abdullah Lootah", t:2, p:60, s:"gov", roles:[
+    ["det","CEO of Strategy and Corporate Performance Sector","executive","v"]]},
+  {id:"salma_ali_saif", n:"Salma Ali Saif Saeed bin Hareb", t:2, p:60, s:"industry", roles:[
+    ["economic_zones_world","Chief Executive Officer","executive","ns"]]},
+  {id:"mudassir_sheikha", n:"Mudassir Sheikha", t:2, p:60, s:"tech", roles:[
+    ["careem","Chief Executive Officer and Co-Founder","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2150,6 +2169,7 @@ const OWNERSHIP = [
   ["emirates_catering","emirates","wholly-owned subsidiary (in-flight & institutional catering)","ns"],
   ["dubai_petroleum","dxbgov","Dubai government oil & gas concession operator (offshore fields, historically with ConocoPhillips as operator)","ns"],
   ["dhre","dubaiholding","subsidiary","ns"],
+  ["eta_ascon","alghurair","joint venture / portfolio company","ns"],
 ];
 
 const FAMILY = [
@@ -2230,4 +2250,6 @@ const AKA = {
   al_ghandi:["Al Ghandi Auto","Al Ghandi Auto Group"],
   sobha_realty:["Sobha Group","Sobha Limited"],
   minor_hotels_mea:["Minor Hotels"],
+  eta_ascon:["ETA Star","ETA-ASCON-STAR Group","ETA Engineering"],
+  khansaheb:["Khansaheb Investments"],
 };
