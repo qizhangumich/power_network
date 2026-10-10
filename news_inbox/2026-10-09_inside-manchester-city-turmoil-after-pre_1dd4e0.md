@@ -1,0 +1,5 @@
+# Inside Manchester City turmoil after Premier League guilty verdict
+source: The Times
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVkh1Ul9wNHZRbWE0LXdLWlNtb1FPV3VPZnFvQ0FBZl9pM05CVlJtTDZSVUZwVXRpczhmNVBLMHRLb1hDblpma2lzWFBxcVlBLVdrd1hHcGpWRE14QVB5bEtVZ0o3YXd2Z2RoVWlDby1EYzZCczhxMzQ4T19kNjhkT21XWXFpZGplM1FBdGp4SVEyQ3BEQk1oUWE2d1RDc3dqTEo5dU04Rnl3ZVdYVF9EeA?oc=5
+
+Inside Manchester City turmoil after Premier League guilty verdict    The Times

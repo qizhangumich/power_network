@@ -1,0 +1,5 @@
+# MPs' £500k freebies from UAE spark conflict concerns
+source: Metro.co.uk
+url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPWHpDRjJTYWNJdEZqanc3RDdLMk95UFVXdFZvU3psSlVXUUFHVHRDd2dnLUd5WU5iSXQ1QTBhUmdiT2I5UVJnM1pUNC1kQ2FyUlNIVkhBZkVMRXpuV20yZWZNS3hib0xsUU5ULUt3QldFbFVlQlExMi1NMUNEZjlNUG9jZDNFYzBwTWVXdEhkSdIBlAFBVV95cUxPdmpEMFFaZElqUzczYk5NVEpXU3RyYXUyZXJ0aXR1Z1BONG42S0lNcGpTS2xVZXhsQXFoUi02V2ttOS1TMUtMRjMtSVBiUzFuVFQ3ZXdBR19tM2xQMkhxMW42RFAtUktuUl9QVndzSmtOSG5BQW5oaWZrOF9ZdGtESzM5TkhMNG1ZRFl6c0IzRHpzb3do?oc=5
+
+MPs' £500k freebies from UAE spark conflict concerns    Metro.co.uk
