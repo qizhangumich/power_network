@@ -1,8 +1,10 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
+Maritime Security Centre,2,oman,pending,2026-10-07,2026-10-09,UK parliamentary delegation visits Maritime Security Centre
+Bank of Kuwait,2,kuwait,pending,2026-09-30,2026-10-09,Kuwait lenders pull $8bn from central bank after war stimulus
 Abu Dhabi Investment,10,abudhabi,rejected,2026-09-21,2026-10-02,"Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake"
-British Airways,7,dubai,rejected,2026-09-18,2026-10-08,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
 Than Financial,5,abudhabi,rejected,2026-09-25,2026-09-26,Manchester City Found Guilty Of More Than 100 Financial Rule Breaches
+British Airways,5,abudhabi,rejected,2026-09-19,2026-10-08,British Airways Cuts UAE Flights as Emirates and Etihad Gain Opportunity
 Turkish Airlines,4,bahrain,rejected,2026-09-24,2026-10-09,"Turkish Airlines, Boeing finalize 150 737 MAX order2m read"
 Salalah Airport,4,oman,rejected,2026-09-19,2026-09-20,"Salalah Airport handles 687,000 passengers during khareef"
 Municipal Council,4,oman,rejected,2026-09-21,2026-09-30,Municipal Council Elections committee approves preliminary candidate lists
@@ -53,12 +55,9 @@ QFBA Finance,2,qatar,rejected,2026-09-22,2026-09-22,Ahlibank announces platinum 
 Undersecretary of Ministry,2,qatar,rejected,2026-10-05,2026-10-06,Undersecretary of Ministry of Justice Meets Arab League Secretary-General
 Azerbaijan International Investment,2,qatar,rejected,2026-09-26,2026-09-27,Qatar Chamber participates in ‘Azerbaijan International Investment Forum’
 Houthi Group,2,saudi,rejected,2026-10-03,2026-10-09,Arab and International Condemntations of the Houthi Group's Launching of Ballistic Missiles Towards Saudi Arabia 26 September 2026
-Euromoney Foreign Exchange,2,qatar,rejected,2026-10-06,2026-10-07,QNB named Qatar’s Best FX Bank at Euromoney Foreign Exchange Awards
 FX Bank,2,qatar,rejected,2026-10-06,2026-10-07,QNB named Qatar’s Best FX Bank at Euromoney Foreign Exchange Awards
-Al Yamamah Steel,2,saudi,rejected,2026-09-18,2026-10-05,Al Yamamah Steel signs two steel tower contracts worth SAR 254.3M
-Avalon Pharma,2,saudi,rejected,2026-09-18,2026-10-07,Avalon Pharma signs MoU with Aurisco Pharma on oligonucleotides
+Euromoney Foreign Exchange,2,qatar,rejected,2026-10-06,2026-10-07,QNB named Qatar’s Best FX Bank at Euromoney Foreign Exchange Awards
 Saudi Construction,2,saudi,rejected,2026-09-22,2026-10-07,Saudi Construction Index drops to 54.4 points in September
-Shahba Bank,2,bahrain,rejected,2026-09-18,2026-09-22,Estithmar completes 48.68% stake transfer in Shahba Bank
 Noor Energy,2,bahrain,added,2026-09-28,2026-09-28,DEWA completes $2.7bn refinancing of Noor Energy 1
 Siemens Energy,2,saudi,rejected,2026-10-02,2026-10-05,Siemens Energy’s supervisory and executive boards meet at Dammam Hub
 London House Exchange,2,dubai,rejected,2026-10-01,2026-10-02,UAE investor GII acquires majority stake in UK’s London House Exchange
@@ -132,18 +131,21 @@ Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Ba
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
 Boring Company,1,abudhabi,rejected,2026-10-08,2026-10-08,THIS MORNING: Mubadala eyes more Asia exposure + more The Boring Company projects could be in the pipeline
 Explore Sustainable Energy,1,abudhabi,rejected,2026-09-19,2026-09-19,Beam Global And Masdar City Sign MoU To Explore Sustainable Energy Infrastructure Opportunities
-Executive Council,1,abudhabi,rejected,2026-09-18,2026-09-18,Abu Dhabi sets out next steps: AI joins Executive Council meeting for first time
 US Energy,1,oman,rejected,2026-09-27,2026-09-27,"Only way to a better America is more energy addition, says US Energy Secretary"
 Estithmar Holding,1,qatar,rejected,2026-09-24,2026-09-24,Estithmar Holding Q.P.S.C Announces Elegancia C&I Awarded Contract Exceeding QAR 500 Mn to Construct AI-ready MEEZA Data Center
+Al Yamamah Steel,1,saudi,rejected,2026-10-05,2026-10-05,Al Yamamah Steel signs two steel tower contracts worth SAR 254.3M
+Avalon Pharma,1,saudi,rejected,2026-10-07,2026-10-07,Avalon Pharma signs MoU with Aurisco Pharma on oligonucleotides
 Umm Al Qura for Development,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
 Al Qura for Development and Construction,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
+Shahba Bank,1,bahrain,rejected,2026-09-22,2026-09-22,Estithmar completes 48.68% stake transfer in Shahba Bank
 Ebara Elliott Energy,1,bahrain,rejected,2026-09-21,2026-09-21,Ebara Elliott Energy expands Houston turbomachinery service centre
 Moon World Resorts,1,bahrain,rejected,2026-09-30,2026-09-30,Moon World Resorts appoints BDP Quadrangle as Lead Architects
 Saudi Media Company,1,saudi,rejected,2026-09-22,2026-09-22,Cristiano Ronaldo part of $500m bid for stake in Al Nassr
 GCC Capital,1,,rejected,2026-09-22,2026-09-22,VIDEO: Testimonials from Zawya’s GCC Capital Markets Forum
-US Department,1,saudi,rejected,2026-09-18,2026-09-18,US agrees to sell F-35 ⁠fighter jets to Saudi Arabia
 Opec Fund,1,,rejected,2026-09-19,2026-09-19,Opec Fund approves $645m in financing across 14 countries
 European Commission,1,kuwait,rejected,2026-10-06,2026-10-06,STRASBOURG: European Commission President Ursula von der Leyen warned on Tuesday against a push by Germany and other member states for 'larg
+Executive Council,1,abudhabi,rejected,2026-09-18,2026-09-18,Abu Dhabi sets out next steps: AI joins Executive Council meeting for first time
+US Department,1,saudi,rejected,2026-09-18,2026-09-18,US agrees to sell F-35 ⁠fighter jets to Saudi Arabia
 Canada Investment,1,qatar,rejected,2026-09-17,2026-09-17,Minister of Finance participates in Canada Investment Summit
 American Airlines,1,abudhabi,rejected,2026-09-15,2026-09-15,American Airlines is Struggling With Broken Business Class Seats On Its Brand New Airbus A321XLR Airplanes
 Balkan Green Energy,1,abudhabi,rejected,2026-09-15,2026-09-15,"Serbia, Masdar weigh large-scale BESS projects"

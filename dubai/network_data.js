@@ -226,6 +226,8 @@ const PEOPLE = [
     ["difc","President","political","v"]],
     note:"Dubai's financial-markets czar: DIFC, the IPO program and federal finance."},
   {id:"ahmed_saeed", n:"H.H. Sheikh Ahmed bin Saeed Al Maktoum", t:0, p:92, s:"industry", roles:[
+    ["meydan","Head of Dubai Holding Group (incorporating Meydan since March 2024)","board","v"],
+    ["dubai_petroleum","Chairman","board","v"],
     ["dcaa","President","board","v"],
     ["diez","Chairman","board","v"],
     ["emirates_catering","Chairman, Board of Directors","board","v"],
@@ -324,6 +326,7 @@ const PEOPLE = [
     ["dof_dxb","Director-General","political","v"],
     ["enoc","Vice Chairman","board","v"]]},
   {id:"omar_alfuttaim", n:"Omar Al Futtaim", t:2, p:76, s:"conglomerate", roles:[
+    ["ikea_al_futtaim","Vice Chairman and CEO - Al-Futtaim Group","board","v"],
     ["orient_insurance","Vice Chairman","board","v"],
     ["alfuttaim","Vice Chairman & CEO","executive","v"],
     ["dubaichambers","Member of the Board","board","v"]]},
@@ -423,7 +426,7 @@ const PEOPLE = [
     ["emaar","Chairman","board","v"]]},
   {id:"ahmed_jamal_jawa", n:"Ahmed Jamal Jawa", t:2, p:62, s:"realestate", roles:[
     ["emaar_development","Director","board","v"],
-    ["emaar","Vice Chairman","board","ns"]]},
+    ["emaar","Vice Chairman","board","v"]]},
   {id:"abdullah_ali_bin", n:"Abdullah Ali bin Zayed Al-Falasi", t:2, p:52, s:"realestate", roles:[
     ["dubai_future_fdn","Board Member (Director General, Dubai Government Human Resources Department)","board","v"],
     ["emaar","Board Member","board","v"]]},
@@ -1356,6 +1359,7 @@ const PEOPLE = [
   {id:"fahad_al_qassim", n:"Fahad Al Qassim", t:2, p:52, s:"industry", roles:[
     ["lst_armx","Director","board","v"]]},
   {id:"jorge_navea", n:"Jorge Navea", t:2, p:58, s:"conglomerate", roles:[
+    ["ikea_al_futtaim","President - Al-Futtaim Automotive","executive","v"],
     ["al_futtaim_motors","President of Al-Futtaim Automotive","executive","v"],
     ["alfuttaim","President, Al-Futtaim Automotive","executive","v"]]},
   {id:"tarek_tantawy", n:"Tarek Tantawy", t:2, p:60, s:"conglomerate", roles:[
@@ -1365,8 +1369,10 @@ const PEOPLE = [
   {id:"p_r_stberg", n:"Pär Östberg", t:2, p:58, s:"conglomerate", roles:[
     ["alfuttaim","Group Director, Finance","executive","v"]]},
   {id:"david_henderson", n:"David Henderson", t:2, p:58, s:"conglomerate", roles:[
+    ["ikea_al_futtaim","Group Chief Human Resources Officer - Al-Futtaim Group","executive","v"],
     ["alfuttaim","Chief Human Resources Officer","executive","v"]]},
   {id:"fadi_hammadeh", n:"Fadi Hammadeh", t:2, p:58, s:"conglomerate", roles:[
+    ["ikea_al_futtaim","Group General Counsel - Al-Futtaim Group","executive","v"],
     ["alfuttaim","Group General Counsel","executive","v"]]},
   {id:"badr_al_olama", n:"Badr Al Olama", t:2, p:62, s:"finance", roles:[
     ["lst_shuaa","Chairman","board","v"]]},
@@ -1594,6 +1600,7 @@ const PEOPLE = [
   {id:"abdulwahed_mohamed_al", n:"Abdulwahed Mohamed Al Fahim", t:2, p:52, s:"finance", roles:[
     ["cbd","Board Member","board","v"]]},
   {id:"moza_omar_al", n:"Moza Omar Al Futtaim", t:2, p:52, s:"finance", roles:[
+    ["ikea_al_futtaim","Chief AI Officer - Al-Futtaim Group","executive","v"],
     ["cbd","Board Member","board","v"]]},
   {id:"hadi_mohammad_badri", n:"Hadi Mohammad Badri", t:2, p:52, s:"finance", roles:[
     ["cbd","Board Member","board","v"]]},
@@ -2035,6 +2042,48 @@ const PEOPLE = [
     ["economic_zones_world","Chief Executive Officer","executive","ns"]]},
   {id:"mudassir_sheikha", n:"Mudassir Sheikha", t:2, p:60, s:"tech", roles:[
     ["careem","Chief Executive Officer and Co-Founder","executive","ns"]]},
+  {id:"martin_gaard_christiansen", n:"Martin Gaard Christiansen", t:2, p:58, s:"industry", roles:[
+    ["unifeeder","CEO, Unifeeder Europe & Americas","executive","v"]]},
+  {id:"j_rgen_gylling", n:"Jørgen Gylling", t:2, p:58, s:"industry", roles:[
+    ["unifeeder","CFO, Unifeeder Europe & Americas","executive","v"]]},
+  {id:"mie_letager_kjeldsen", n:"Mie Letager Kjeldsen", t:2, p:58, s:"industry", roles:[
+    ["unifeeder","Chief Legal Officer, Unifeeder Europe & Americas","executive","v"]]},
+  {id:"s_ren_heegaard", n:"Søren Heegaard", t:2, p:58, s:"industry", roles:[
+    ["unifeeder","COO, Unifeeder Europe & Americas","executive","v"]]},
+  {id:"s_ren_castbak", n:"Søren Castbak", t:2, p:58, s:"industry", roles:[
+    ["unifeeder","Chief Commercial Officer, Unifeeder Europe & Americas","executive","v"]]},
+  {id:"florian_pein", n:"Florian Pein", t:2, p:58, s:"industry", roles:[
+    ["unifeeder","Chief Customer Experience Officer, Unifeeder Europe & Americas","executive","v"]]},
+  {id:"lykke_saksager_svare", n:"Lykke Saksager Svare", t:2, p:58, s:"industry", roles:[
+    ["unifeeder","Chief People Officer, Unifeeder Europe & Americas","executive","v"]]},
+  {id:"martin_s_vs", n:"Martin Søvsø Nyhuus", t:2, p:58, s:"industry", roles:[
+    ["unifeeder","Chief Information Officer, Unifeeder Europe & Americas","executive","v"]]},
+  {id:"ganesh_raj", n:"Ganesh Raj", t:2, p:58, s:"industry", roles:[
+    ["unifeeder","CEO, Unifeeder Asia/Middle East/Africa (AMEA); Global COO, Marine Services, DP World","executive","v"]]},
+  {id:"nils_smedegaard_andersen", n:"Nils Smedegaard Andersen", t:2, p:62, s:"industry", roles:[
+    ["unifeeder","Chairman of the Board","board","v"]]},
+  {id:"kasper_moos", n:"Kasper Moos", t:2, p:60, s:"industry", roles:[
+    ["p_o_ferries","Chief Executive Officer","executive","v"]]},
+  {id:"jonathan_campbell", n:"Jonathan Campbell", t:2, p:58, s:"industry", roles:[
+    ["p_o_ferries","Chief Financial Officer","executive","v"]]},
+  {id:"wassim_arabi", n:"Wassim Arabi", t:2, p:58, s:"consumer_disc", roles:[
+    ["ikea_al_futtaim","President - Retail Division - Al-Futtaim Group","executive","v"]]},
+  {id:"marwan_shehadeh", n:"Marwan Shehadeh", t:2, p:58, s:"consumer_disc", roles:[
+    ["ikea_al_futtaim","Group Director - Corporate Development - Al-Futtaim Group","executive","v"]]},
+  {id:"haider_al_enzi", n:"Haider Al Enzi", t:2, p:60, s:"consumer_disc", roles:[
+    ["ikea_al_futtaim","Managing Director - Al-Futtaim Health","executive","v"]]},
+  {id:"naaman_atallah", n:"Naaman Atallah", t:2, p:58, s:"consumer_disc", roles:[
+    ["ikea_al_futtaim","President - Al-Futtaim Real Estate","executive","v"]]},
+  {id:"vinod_jayan", n:"Vinod Jayan", t:2, p:60, s:"consumer_disc", roles:[
+    ["ikea_al_futtaim","Managing Director - Al-Futtaim IKEA (UAE/Oman/Qatar/Egypt)","executive","ns"]]},
+  {id:"michael_heyes", n:"Michael Heyes", t:2, p:58, s:"consumer_disc", roles:[
+    ["meydan","Chief Financial Officer - Dubai Holding Hospitality (owner of The Meydan Hotel)","executive","v"]]},
+  {id:"ziad_sleiman", n:"Ziad Sleiman", t:2, p:46, s:"consumer_disc", roles:[
+    ["meydan","General Manager - The Meydan Hotel","executive","v"]]},
+  {id:"hamed_ahli", n:"Hamed Ahli", t:2, p:46, s:"consumer_disc", roles:[
+    ["meydan","Head of Meydan Free Zone","executive","ns"]]},
+  {id:"anisha_sagar", n:"Anisha Sagar", t:2, p:46, s:"consumer_disc", roles:[
+    ["meydan","Head of Marketing and Communications - Meydan Free Zone","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

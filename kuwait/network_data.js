@@ -92,7 +92,7 @@ const INSTITUTIONS = [
   {id:"lst_markaz", n:"Kuwait Financial Centre", s:"finance", t:2, p:60, short:"Markaz"},
   {id:"lst_kmefic", n:"Kuwait and Middle East Financial Investment", s:"finance", t:2, p:50, short:"KMEFIC"},
   {id:"lst_alola", n:"First Investment", s:"finance", t:2, p:50, short:"First Investment"},
-  {id:"lst_gih", n:"Gulf Investment House", s:"finance", t:2, p:50, short:"GIH"},
+  {id:"lst_gih", n:"Gulf Investment House", s:"finance", t:2, p:58, short:"GIH"},
   {id:"lst_bayaninv", n:"Bayan Investment Holding Co.", s:"finance", t:2, p:50, short:"BAYANINV"},
   {id:"lst_osoul", n:"Osoul Investment", s:"finance", t:2, p:50, short:"Osoul Investment"},
   {id:"lst_kfic", n:"KFIC Invest K.S.C.P", s:"finance", t:2, p:50, short:"KFIC Invest K.S.C.P"},
@@ -1764,6 +1764,12 @@ const PEOPLE = [
     ["lst_ipg","Board Member","board","ns"]]},
   {id:"abdul_aziz_sultan", n:"Abdul Aziz Sultan Al Essa", t:2, p:52, s:"energy", roles:[
     ["lst_ipg","Board Member","board","ns"]]},
+  {id:"abdulaziz_al_sanad", n:"Abdulaziz Al Sanad", t:2, p:62, s:"finance", roles:[
+    ["lst_gih","Chairman of the Board","board","v"]]},
+  {id:"ali_al_anbi", n:"Ali Al Anbi", t:2, p:62, s:"finance", roles:[
+    ["lst_gih","Vice Chairman of the Board","board","v"]]},
+  {id:"mohammad_salah_al", n:"Mohammad Salah Al Ayoub", t:2, p:60, s:"finance", roles:[
+    ["lst_gih","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

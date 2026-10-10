@@ -158,6 +158,7 @@ const INSTITUTIONS = [
   {id:"asb_capital", n:"ASB Capital", s:"finance", t:3, p:52, short:"ASB Capital"},
   {id:"sico_wealth", n:"SICO Wealth", s:"finance", t:2, p:54, short:"SICO Wealth"},
   {id:"bfc", n:"BFC Group Holdings", s:"finance", t:3, p:54, short:"BFC Group"},
+  {id:"asu_bahrain", n:"Applied Science University", s:"education", t:2, p:54, short:"ASU Bahrain"},
 ];
 
 const PEOPLE = [
@@ -856,7 +857,7 @@ const PEOPLE = [
   {id:"aqeel_mohammed_ghaith", n:"Aqeel Mohammed Ghaith", t:2, p:58, s:"finance", roles:[
     ["lst_bbk","Chief Private Banking Officer","executive","v"]]},
   {id:"najla_mohammed_alshirawi", n:"Najla Mohammed Alshirawi", t:2, p:62, s:"finance", roles:[
-    ["sico_bank","Group Chief Executive Officer","executive","ns"],
+    ["sico_bank","Group Chief Executive Officer","executive","v"],
     ["lst_bcfc","Chairperson","board","v"]]},
   {id:"yaser_abduljalil_alsharifi", n:"Yaser Abduljalil AlSharifi", t:2, p:62, s:"finance", roles:[
     ["lst_bcfc","Vice Chairman","board","v"]]},
@@ -2653,8 +2654,9 @@ const PEOPLE = [
     ["sico_bank","Head of Brokerage","executive","ns"]]},
   {id:"yousif_bucheeri", n:"Yousif Bucheeri", t:2, p:60, s:"finance", roles:[
     ["sico_bank","Group Deputy Chief Executive Officer (Sell Side)","executive","ns"]]},
-  {id:"sheikh_abdullah_nasser", n:"Sheikh Abdullah Nasser Sabah Al-Ahmad Al-Sabah", t:2, p:62, s:"finance", roles:[
-    ["united_gulf_bank","Chairman","board","ns"]]},
+  {id:"masaud_j_hayat", n:"Masaud J. Hayat", t:2, p:62, s:"finance", roles:[
+    ["united_gulf_bank","Chairman","board","ns"]],
+    note:"Last confirmed as UGB Chairman since 2010 per the bank's own 2019 CEO-appointment release; flagged for re-verification given United Gulf Holding's Feb 2025 stake transfer to Burgan Bank K.P.S.C. and the bank's own May 2026 CEO change — a prior 'ns' entry here wrongly named KIPCO Vice Chairman Sheikh Abdullah Nasser Sabah Al-Ahmad Al-Sabah, who chairs UGB's parent United Gulf Holding, not the bank itself."},
   {id:"samer_alabed", n:"Samer AlAbed", t:2, p:60, s:"finance", roles:[
     ["united_gulf_bank","Chief Executive Officer","executive","ns"]]},
   {id:"rehan_ashraf", n:"Rehan Ashraf", t:2, p:58, s:"finance", roles:[
@@ -2708,6 +2710,7 @@ const PEOPLE = [
     ["lmra_bahrain","Chairman of the Board of Directors (Minister of Labour)","board","v"],
     ["cabinet_bh","Minister of Labour","executive","v"]]},
   {id:"wael_bin_nasser", n:"Wael bin Nasser Al Mubarak", t:2, p:58, s:"gov", roles:[
+    ["gheras","Chairman","executive","ns"],
     ["cabinet_bh","Minister of Municipalities Affairs and Agriculture","executive","v"],
     ["ewa_bh","Electricity and Water Affairs Minister","executive","v"]]},
   {id:"nawaf_bin_mohammed", n:"Nawaf bin Mohammed Al Maawda", t:2, p:58, s:"gov", roles:[
@@ -3222,6 +3225,8 @@ const PEOPLE = [
     ["ajm_kooheji","Executive","executive","v"]]},
   {id:"matthew_deakin", n:"Matthew Deakin", t:2, p:52, s:"conglomerate", roles:[
     ["ajm_kooheji","Independent Board Member","board","v"]]},
+  {id:"abdullah_khalil_mohammed", n:"Abdullah Khalil Mohammed Buhaji", t:2, p:58, s:"comm", roles:[
+    ["bahrain_news_agency","Director-General","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3368,4 +3373,5 @@ const AKA = {
   bahrain_spec_hosp:["BSH"],
   gulf_daily_news:["GDN"],
   bfc:["Bahrain Financing Company","BFC"],
+  asu_bahrain:["ASU"],
 };

@@ -373,9 +373,6 @@ const PEOPLE = [
     note:"Pearl-trading dynasty turned banking, luxury retail, property and hospitality group."},
 
   // ===== ADDED SEP 2026 — CURRENT CHAIRS / CEOs FOR PREVIOUSLY UNSTAFFED INSTITUTIONS =====
-  {id:"mohannadi_lng", n:"Eng. Ahmed Hilal Al Mohannadi", t:2, p:74, s:"energy", roles:[
-    ["qelng","Chief Executive Officer","executive","v"]],
-    note:"Took over QatarEnergy LNG from 1 January 2026, succeeding Sheikh Khalid bin Khalifa Al Thani; overseeing the North Field expansion to 142 mtpa."},
   {id:"hamad_talal_diar", n:"H.E. Sheikh Hamad bin Talal Al Thani", t:1, p:70, s:"realestate", roles:[
     ["barwa","Board Member","board","v"],
     ["qatariddiar","Chief Executive Officer","executive","v"]],
@@ -1340,7 +1337,7 @@ const PEOPLE = [
     ["jaidah","Board Member","board","ns"]]},
   {id:"khalid_bin_khalifa_b", n:"Khalid bin Khalifa Al-Thani", t:2, p:60, s:"energy", roles:[
     ["lst_giss","Chairman","board","v"],
-    ["qelng","Chief Executive Officer","executive","ns"]]},
+    ["qelng","Chief Executive Officer (until Dec 2025)","executive","v","former:until Dec 2025"]]},
   {id:"sheikh_faisal_bin", n:"Sheikh Faisal bin Thani bin Faisal Al Thani", t:2, p:58, s:"gov", roles:[
     ["qfz","Chairperson","board","v"],
     ["moci","Minister of Commerce and Industry","executive","v"]]},
@@ -1433,8 +1430,9 @@ const PEOPLE = [
     ["qf","Member","board","v"]]},
   {id:"amaney_a_jamal", n:"Amaney A. Jamal", t:2, p:52, s:"education", roles:[
     ["qf","Member","board","v"]]},
-  {id:"ahmad_helal_al_b", n:"Ahmad Helal Al-Muhannadi", t:2, p:60, s:"energy", roles:[
-    ["qelng","President and Chief Executive Officer","executive","v"]]},
+  {id:"ahmad_helal_al_b", n:"Ahmad Helal Al-Muhannadi", t:2, p:74, s:"energy", roles:[
+    ["qelng","President and Chief Executive Officer","executive","v"]],
+    note:"Took over QatarEnergy LNG from 1 January 2026, succeeding Sheikh Khalid bin Khalifa Al Thani; overseeing the North Field expansion to 142 mtpa."},
   {id:"ahmed_bin_abdullah", n:"Ahmed bin Abdullah Al Jamal", t:2, p:52, s:"finance", roles:[
     ["gac_qatar","Chairman of the General Authority of Customs","executive","v"],
     ["qfz","Board Member","board","v"],
@@ -1907,6 +1905,38 @@ const PEOPLE = [
     ["public_prosecution","First Attorney General and Director of the Judicial Inspection Department","executive","v"]]},
   {id:"mohammed_abdulaziz_mohammed", n:"Mohammed Abdulaziz Mohammed al-Nuaimi", t:2, p:58, s:"gov", roles:[
     ["psa_qatar","Assistant to the President (–May 2024; PSA dissolved, succeeded by National Planning Council)","executive","ns","former:until May 2024"]]},
+  {id:"r_gis_agut", n:"Régis Agut", t:2, p:60, s:"energy", roles:[
+    ["north_oil","Chief Executive Officer","executive","v"]]},
+  {id:"hussain_abdullah_ashkanani", n:"Hussain Abdullah Ashkanani", t:2, p:58, s:"energy", roles:[
+    ["north_oil","Vice President, HSSEQ & Security","executive","v"]]},
+  {id:"thabet_musleh", n:"Thabet Musleh", t:2, p:58, s:"industry", roles:[
+    ["qatar_duty_free","Senior Vice President","executive","ns"]]},
+  {id:"grant_fleming", n:"Grant Fleming", t:2, p:58, s:"industry", roles:[
+    ["qatar_duty_free","Vice President, Food & Beverage","executive","ns"]]},
+  {id:"nuno_moreira", n:"Nuno Moreira", t:2, p:58, s:"industry", roles:[
+    ["qatar_duty_free","Vice President, Strategy & Commercial","executive","ns"]]},
+  {id:"garrett_coogan", n:"Garrett Coogan", t:2, p:58, s:"industry", roles:[
+    ["qatar_duty_free","Vice President","executive","ns"]]},
+  {id:"augusto_deymonnaz", n:"Augusto Deymonnaz", t:2, p:58, s:"industry", roles:[
+    ["qatar_duty_free","Vice President, Marketing and Communications","executive","ns"]]},
+  {id:"caroline_hannah_sartory", n:"Caroline Hannah Sartory", t:2, p:58, s:"industry", roles:[
+    ["qatar_duty_free","Vice President, Customer Experience","executive","ns"]]},
+  {id:"vanessa_lixiong_xian", n:"Vanessa Lixiong Xian", t:2, p:46, s:"industry", roles:[
+    ["qatar_duty_free","Head of Strategy and Program","executive","ns"]]},
+  {id:"katie_kiddle", n:"Katie Kiddle", t:2, p:46, s:"industry", roles:[
+    ["qatar_duty_free","Head of Loyalty","executive","ns"]]},
+  {id:"sonia_marie_imasdounian", n:"Sonia Marie Imasdounian", t:2, p:46, s:"industry", roles:[
+    ["qatar_duty_free","Head of HR, Qatar Duty Free","executive","ns"]]},
+  {id:"sara_di_carlo", n:"Sara Di Carlo", t:2, p:46, s:"industry", roles:[
+    ["qatar_duty_free","Head of Luxury Retail Operations","executive","ns"]]},
+  {id:"ria_chauhan", n:"Ria Chauhan", t:2, p:46, s:"industry", roles:[
+    ["qatar_duty_free","Head of Procurement","executive","ns"]]},
+  {id:"mark_drusch", n:"Mark Drusch", t:2, p:58, s:"industry", roles:[
+    ["qr_cargo","Chief Officer Cargo","executive","ns"]]},
+  {id:"eric_wilson", n:"Eric Wilson", t:2, p:58, s:"industry", roles:[
+    ["qr_cargo","Senior Vice President, Cargo Sales","executive","ns"]]},
+  {id:"liesbeth_oudkerk", n:"Liesbeth Oudkerk", t:2, p:58, s:"industry", roles:[
+    ["qr_cargo","Senior Vice President, Cargo Sales and Network Planning","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2054,6 +2084,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  ahmad_helal_al_b:["Eng. Ahmed Hilal Al Mohannadi","Ahmed Hilal Al Mohannadi"],
   moi_q:["Interior Ministry"],
   tamim_bin_hamad:["Hamad University for Military and Technology"],
   udst:["Doha for Science and Technology"],

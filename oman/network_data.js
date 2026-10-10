@@ -73,7 +73,7 @@ const INSTITUTIONS = [
   {id:"lst_voes", n:"Voltamp Energy SAOG", s:"industry", t:2, p:50, short:"Voltamp Energy SAOG"},
   {id:"lst_suwp", n:"Al Suwadi Power Company SAOG", s:"utilities", t:2, p:50, short:"SUWP"},
   {id:"lst_sspw", n:"Sembcorp Salalah Power & Water Company SAOG", s:"utilities", t:2, p:50, short:"SSPW"},
-  {id:"lst_spfi", n:"A'Saffa Foods SAOG", s:"consumer_stap", t:2, p:50, short:"A'Saffa Foods SAOG"},
+  {id:"lst_spfi", n:"A'Saffa Foods SAOG", s:"consumer_stap", t:2, p:58, short:"A'Saffa Foods"},
   {id:"lst_smnp", n:"SMN Power Holding SAOG", s:"utilities", t:2, p:50, short:"SMNP"},
   {id:"lst_rnss", n:"Renaissance Services SAOG", s:"industry", t:2, p:62, short:"RNSS"},
   {id:"lst_phpc", n:"Phoenix Power Company SAOG", s:"utilities", t:2, p:50, short:"PHPC"},
@@ -152,7 +152,7 @@ const INSTITUTIONS = [
   {id:"nama_distribution", n:"Nama Electricity Distribution Company", s:"utilities", t:2, p:58, short:"Nama Distribution"},
   {id:"nama_pwp", n:"Nama Power and Water Procurement Company", s:"utilities", t:2, p:58, short:"Nama PWP"},
   {id:"oetc", n:"Oman Electricity Transmission Company", s:"utilities", t:2, p:58, short:"OETC"},
-  {id:"nitaj", n:"Oman Food Investment Holding Company", s:"consumer_stap", t:1, p:70, short:"Nitaj"},
+  {id:"nitaj", n:"Oman Food Capital", s:"consumer_stap", t:1, p:70, short:"Oman Food Capital"},
   {id:"fdo", n:"Fisheries Development Oman", s:"consumer_stap", t:2, p:60, short:"FDO"},
   {id:"mdo", n:"Minerals Development Oman", s:"materials", t:1, p:70, short:"MDO"},
   {id:"oman_broadband", n:"Oman Broadband Company", s:"comm", t:2, p:60, short:"Oman Broadband"},
@@ -424,7 +424,7 @@ const PEOPLE = [
   {id:"azzan_al_abdullatif", n:"Azzan Al Abdullatif", t:2, p:58, s:"energy", roles:[
     ["oq","Chief Growth Officer","executive","v"]]},
   {id:"muneer_bin_ali", n:"Muneer bin Ali Al Muneeri", t:2, p:58, s:"sovereign", roles:[
-    ["nitaj","Chairman","board","ns"],
+    ["nitaj","Chairman","board","v"],
     ["oia","Deputy President for Operations","executive","v"]]},
   {id:"dr_saud_al", n:"Dr. Saud Al Habsi", t:2, p:52, s:"sovereign", roles:[
     ["oia","Board Member (Minister of Agriculture Fisheries & Water Resources)","board","v"]]},
@@ -1000,7 +1000,7 @@ const PEOPLE = [
   {id:"khalid_bin_hilal", n:"Khalid bin Hilal Al Busaidi", t:2, p:58, s:"gov", roles:[
     ["moin_om","Undersecretary of the Ministry of Interior","executive","ns"]]},
   {id:"abdullah_bin_mohammed", n:"Abdullah bin Mohammed Al Rashdi", t:2, p:60, s:"consumer_stap", roles:[
-    ["nitaj","Chief Executive Officer","executive","ns"]]},
+    ["nitaj","Chief Executive Officer","executive","v"]]},
   {id:"tariq_ali_al", n:"Tariq Ali Al-Amri", t:2, p:60, s:"utilities", roles:[
     ["be_ah","Chief Executive Officer","executive","v"]]},
   {id:"khalid_hilal_nasser", n:"Khalid Hilal Nasser Al Maawali", t:2, p:62, s:"gov", roles:[
@@ -1010,7 +1010,7 @@ const PEOPLE = [
   {id:"sayyid_khalid_bin", n:"Sayyid Khalid bin Hilal bin Saud Al Busaidi", t:2, p:58, s:"gov", roles:[
     ["omgov","Minister of Diwan of Royal Court","executive","v"]]},
   {id:"mohammed_sulaiman_al", n:"Mohammed Sulaiman Al-Harthy", t:2, p:60, s:"consumer_stap", roles:[
-    ["nitaj","Chief Executive Officer","executive","v"]]},
+    ["nitaj","Chief Executive Officer (until Oman Food Capital merger)","executive","v","former:until 2026"]]},
   {id:"samra_sulaiman_al_b", n:"Samra Sulaiman Al-Harthi", t:2, p:62, s:"utilities", roles:[
     ["be_ah","Chairperson of the Board of Directors","executive","v"]]},
   {id:"abdullah_mohammed_al", n:"Abdullah Mohammed Al-Na'imi", t:2, p:62, s:"utilities", roles:[
@@ -1330,6 +1330,16 @@ const PEOPLE = [
     ["al_yousef","Chief Operating Officer and Director","executive","v"]]},
   {id:"saeed_bin_mohammed", n:"Saeed bin Mohammed Al-Saqri", t:2, p:58, s:"gov", roles:[
     ["ministry_of_economy","Minister of Economy","executive","v"]]},
+  {id:"abdullah_bin_nasser", n:"Abdullah bin Nasser bin Khalifa Al Harrasi", t:2, p:62, s:"comm", roles:[
+    ["oman_radio_tv","Chairman of the Public Authority for Radio and Television (PART)","board","ns"]]},
+  {id:"ghalib_al_saidi", n:"Ghalib Al Saidi", t:2, p:60, s:"consumer_stap", roles:[
+    ["al_bashayer_meat","Chief Executive Officer","executive","ns"]]},
+  {id:"ali_hilal_ali", n:"Ali Hilal Ali Al Kuwari", t:2, p:62, s:"consumer_stap", roles:[
+    ["lst_spfi","Chairman of the Board","board","v"]]},
+  {id:"qais_abdullah_moosa", n:"Qais Abdullah Moosa Al Kharusi", t:2, p:62, s:"consumer_stap", roles:[
+    ["lst_spfi","Vice Chairman of the Board","board","v"]]},
+  {id:"mohamed_suhail_al", n:"Mohamed Suhail Al Shanfari", t:2, p:60, s:"consumer_stap", roles:[
+    ["lst_spfi","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1493,6 +1503,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  nitaj:["Nitaj","Oman Food Investment Holding Company"],
   haitham:["Sultan Haitham"],
   badr_fm:["Badr Albusaidi","Badr al-Busaidi"],
   oia:["Oman Investment Authority"],

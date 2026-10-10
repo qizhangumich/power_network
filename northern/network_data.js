@@ -144,6 +144,7 @@ const INSTITUTIONS = [
   {id:"menacool", n:"Mena Cool Transportation", s:"industry", t:3, p:52, short:"MenaCool"},
   {id:"sharjah_municipality", n:"Sharjah Municipality", s:"gov", t:2, p:62, short:"Sharjah Municipality"},
   {id:"khorfakkan_council", n:"Khorfakkan Municipal Council", s:"gov", t:3, p:52, short:"Khorfakkan Council"},
+  {id:"thumbay_univ_hosp", n:"Thumbay University Hospital", s:"health", t:2, p:56, short:"Thumbay Univ Hosp"},
 ];
 
 const PEOPLE = [
@@ -306,6 +307,7 @@ const PEOPLE = [
   {id:"hh_sheikha_jawaher", n:"HH Sheikha Jawaher Bint Mohammed Al Qasimi", t:2, p:62, s:"industry", roles:[
     ["beeah","Chairperson of the Board of Directors","board","v"]]},
   {id:"obaid_saeed_al", n:"Obaid Saeed Al Tunaiji", t:2, p:62, s:"industry", roles:[
+    ["sharjah_municipality","Director-General","executive","v"],
     ["beeah","Second Vice-Chairman","board","v"]]},
   {id:"khalifa_al_suwaidi", n:"Khalifa Al Suwaidi", t:2, p:52, s:"industry", roles:[
     ["beeah","Board Member","board","v"]]},
@@ -1157,6 +1159,10 @@ const PEOPLE = [
     ["sharjah_health_auth","Chairman of Sharjah Health Authority","board","v"]]},
   {id:"amal_ahmed_al", n:"Amal Ahmed Al Qatari Al Suwaidi", t:2, p:58, s:"health", roles:[
     ["sharjah_health_auth","Director of Sharjah Health Authority (Vice President)","executive","v"]]},
+  {id:"marwan_ahmed_al", n:"Marwan Ahmed Al Ali", t:2, p:58, s:"finance", roles:[
+    ["ajman_dof","Director-General","executive","v"]]},
+  {id:"naser_al_bustami", n:"Naser Al Bustami", t:2, p:60, s:"materials", roles:[
+    ["stevin_rock","Board Director and Chief Executive Officer - Stevin Rock","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1326,4 +1332,5 @@ const AKA = {
   menacool:["Mena Cool Transportation FZE"],
   sharjah_municipality:["Sharjah City Municipality","SHJMUN"],
   khorfakkan_council:["Khor Fakkan Municipal Council"],
+  thumbay_univ_hosp:["TUH"],
 };
