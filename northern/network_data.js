@@ -145,6 +145,7 @@ const INSTITUTIONS = [
   {id:"sharjah_municipality", n:"Sharjah Municipality", s:"gov", t:2, p:62, short:"Sharjah Municipality"},
   {id:"khorfakkan_council", n:"Khorfakkan Municipal Council", s:"gov", t:3, p:52, short:"Khorfakkan Council"},
   {id:"thumbay_univ_hosp", n:"Thumbay University Hospital", s:"health", t:2, p:56, short:"Thumbay Univ Hosp"},
+  {id:"al_qasimi_fdn", n:"Sheikh Saud bin Saqr Al Qasimi Foundation for Policy Research", s:"gov", t:2, p:55, short:"Al Qasimi Fdn"},
 ];
 
 const PEOPLE = [
@@ -1333,4 +1334,5 @@ const AKA = {
   sharjah_municipality:["Sharjah City Municipality","SHJMUN"],
   khorfakkan_council:["Khor Fakkan Municipal Council"],
   thumbay_univ_hosp:["TUH"],
+  al_qasimi_fdn:["AQF","Al Qasimi Foundation for Policy Research"],
 };

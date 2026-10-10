@@ -225,6 +225,11 @@ const INSTITUTIONS = [
   {id:"dar_al_sharq", n:"Dar Al Sharq", s:"comm", t:3, p:52, short:"Dar Al Sharq"},
   {id:"positron_ai", n:"Positron AI", s:"tech", t:3, p:52, short:"Positron AI"},
   {id:"alternatifbank", n:"Alternatifbank A.S.", s:"finance", t:3, p:52, short:"Alternatifbank"},
+  {id:"community_college", n:"Community College of Qatar", s:"education", t:2, p:56, short:"Community College"},
+  {id:"qfba", n:"Qatar Finance and Business Academy", s:"education", t:3, p:51, short:"QFBA"},
+  {id:"aj_centre_studies", n:"Al Jazeera Centre for Studies", s:"comm", t:3, p:53, short:"AJ Centre Studies"},
+  {id:"al_raya", n:"Al Raya", s:"comm", t:2, p:55, short:"Al Raya"},
+  {id:"aspetar", n:"Aspetar", s:"health", t:2, p:57, short:"Aspetar"},
 ];
 
 const PEOPLE = [
@@ -2064,6 +2069,7 @@ const OWNERSHIP = [
   ["qatar_natl_library","qf","part of","ns"],
   ["positron_ai","qia","portfolio","ns"],
   ["alternatifbank","cbq","subsidiary","ns"],
+  ["aj_centre_studies","aljazeera","research_arm","v"],
 ];
 
 const FAMILY = [
@@ -2153,4 +2159,8 @@ const AKA = {
   qatar_natl_library:["QNL"],
   dar_al_sharq:["Al Sharq Media"],
   alternatifbank:["Alternatif Bank"],
+  community_college:["CCQ"],
+  aj_centre_studies:["AJCS"],
+  al_raya:["Raya"],
+  aspetar:["Aspetar Orthopaedic and Sports Medicine Hospital"],
 };

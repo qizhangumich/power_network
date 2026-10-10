@@ -235,6 +235,12 @@ const INSTITUTIONS = [
   {id:"auk", n:"American University of Kuwait", s:"education", t:3, p:54, short:"AUK"},
   {id:"kisr", n:"Kuwait Institute for Scientific Research", s:"education", t:2, p:58, short:"KISR"},
   {id:"al_qabas", n:"Al-Qabas (Dar Al Qabas Press Printing & Publishing)", s:"comm", t:3, p:52, short:"Al-Qabas"},
+  {id:"new_mowasat", n:"New Mowasat Hospital", s:"health", t:2, p:56, short:"New Mowasat"},
+  {id:"al_anba", n:"Al-Anba", s:"comm", t:2, p:56, short:"Al-Anba"},
+  {id:"box_hill_kuwait", n:"Box Hill College Kuwait", s:"education", t:3, p:51, short:"Box Hill Kuwait"},
+  {id:"australian_univ_kw", n:"Australian University (Kuwait)", s:"education", t:2, p:55, short:"Australian Univ KW"},
+  {id:"kuwait_tech_college", n:"Kuwait Technical College", s:"education", t:3, p:51, short:"Kuwait Tech College"},
+  {id:"al_rai_media", n:"Al Rai Media Group", s:"comm", t:2, p:57, short:"Al Rai Media"},
 ];
 
 const PEOPLE = [
@@ -245,6 +251,7 @@ const PEOPLE = [
   {id:"pm_kw", n:"H.H. Sheikh Ahmad Abdullah Al-Ahmad Al-Sabah", t:0, p:86, s:"gov", roles:[
     ["cabinet_kw","Prime Minister","political","v"]]},
   {id:"fahad_yousef", n:"Sheikh Fahad Yousef Al-Sabah", t:0, p:82, s:"gov", roles:[
+    ["pam","Chairman of the Board","board","ns"],
     ["moi_kuwait","First Deputy Prime Minister and Minister of Interior","executive","v"],
     ["cabinet_kw","First Deputy PM · Minister of Interior","political","v"]]},
   {id:"yahya_fm", n:"H.E. Sheikh Jarrah Jaber Al-Ahmad Al-Sabah", t:1, p:76, s:"gov", roles:[
@@ -1982,4 +1989,10 @@ const AKA = {
   wafra_jo:["WJO"],
   kuwait_university:["KU"],
   al_qabas:["Dar Al Qabas Press Printing & Publishing"],
+  new_mowasat:["Mowasat Hospital"],
+  al_anba:["Alanba"],
+  box_hill_kuwait:["BHCK"],
+  australian_univ_kw:["Australian College of Kuwait","ACK","AU","Kuwait"],
+  kuwait_tech_college:["Ktech"],
+  al_rai_media:["Alrai","Al Rai TV"],
 };

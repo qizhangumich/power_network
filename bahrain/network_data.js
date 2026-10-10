@@ -159,6 +159,10 @@ const INSTITUTIONS = [
   {id:"sico_wealth", n:"SICO Wealth", s:"finance", t:2, p:54, short:"SICO Wealth"},
   {id:"bfc", n:"BFC Group Holdings", s:"finance", t:3, p:54, short:"BFC Group"},
   {id:"asu_bahrain", n:"Applied Science University", s:"education", t:2, p:54, short:"ASU Bahrain"},
+  {id:"royal_univ_women", n:"Royal University for Women", s:"education", t:2, p:53, short:"Royal Univ Women"},
+  {id:"kingdom_university", n:"Kingdom University", s:"education", t:2, p:53, short:"Kingdom University"},
+  {id:"bahrain_polytechnic", n:"Bahrain Polytechnic", s:"education", t:2, p:57, short:"Bahrain Polytechnic"},
+  {id:"ucb_bahrain", n:"University College of Bahrain", s:"education", t:3, p:51, short:"UCB Bahrain"},
 ];
 
 const PEOPLE = [
@@ -3374,4 +3378,6 @@ const AKA = {
   gulf_daily_news:["GDN"],
   bfc:["Bahrain Financing Company","BFC"],
   asu_bahrain:["ASU"],
+  royal_univ_women:["RUW"],
+  ucb_bahrain:["UCB"],
 };

@@ -213,6 +213,14 @@ const INSTITUTIONS = [
   {id:"hema_energy", n:"Hema Energy", s:"energy", t:3, p:54, short:"Hema Energy"},
   {id:"ubhar_capital", n:"Ubhar Capital SAOC", s:"finance", t:3, p:52, short:"Ubhar Capital"},
   {id:"ministry_of_economy", n:"Ministry of Economy", s:"gov", t:1, p:66, short:"Ministry of Economy"},
+  {id:"muscat_media", n:"Muscat Media Group", s:"comm", t:2, p:57, short:"Muscat Media Group"},
+  {id:"muscat_university", n:"Muscat University", s:"education", t:2, p:54, short:"Muscat University"},
+  {id:"univ_of_buraimi", n:"University of Buraimi", s:"education", t:2, p:53, short:"Univ of Buraimi"},
+  {id:"a_sharqiyah_univ", n:"A'Sharqiyah University", s:"education", t:2, p:56, short:"A'Sharqiyah Univ"},
+  {id:"starcare_hospital", n:"Starcare Hospital", s:"health", t:2, p:54, short:"Starcare Hospital"},
+  {id:"aster_al_raffah", n:"Aster Royal Al Raffah Hospital", s:"health", t:2, p:55, short:"Aster Al Raffah"},
+  {id:"mcbs_oman", n:"Modern College of Business and Science", s:"education", t:2, p:55, short:"MCBS Oman"},
+  {id:"cbfs_oman", n:"College of Banking and Financial Studies", s:"education", t:2, p:56, short:"CBFS Oman"},
 ];
 
 const PEOPLE = [
@@ -1545,4 +1553,10 @@ const AKA = {
   sohar_university:["SU"],
   oman_radio_tv:["PART","Oman TV"],
   ubhar_capital:["U Capital"],
+  muscat_media:["MMG","Times of Oman","Al Shabiba"],
+  univ_of_buraimi:["UoB"],
+  a_sharqiyah_univ:["ASU"],
+  aster_al_raffah:["Al Raffah Hospital","Aster Al Raffah Multispecialty Hospital"],
+  mcbs_oman:["MCBS"],
+  cbfs_oman:["CBFS"],
 };

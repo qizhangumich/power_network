@@ -178,7 +178,11 @@ saudi,yasref,Yanbu Aramco Sinopec Refining Company,energy,58,0,pending
 saudi,luberef,Saudi Aramco Base Oil Company,materials,58,0,pending
 saudi,alfanar,Alfanar Group,industry,58,0,pending
 saudi,riyadh_airports,Riyadh Airports Company,industry,58,0,pending
+bahrain,bahrain_polytechnic,Bahrain Polytechnic,education,57,0,pending
+kuwait,al_rai_media,Al Rai Media Group,comm,57,0,pending
+oman,muscat_media,Muscat Media Group,comm,57,0,pending
 qatar,al_muftah,Al Muftah Group,conglomerate,57,1,pending
+qatar,aspetar,Aspetar,health,57,0,pending
 saudi,alturki,Alturki Holding,conglomerate,57,0,pending
 saudi,alesayi,Alesayi Holding,conglomerate,57,0,pending
 abudhabi,binhamoodah,Bin Hamoodah Group,conglomerate,56,1,pending
@@ -200,6 +204,8 @@ dubai,dutco,Dutco Group,conglomerate,56,0,pending
 dubai,al_moosa_arenco,A.A. Al Moosa Enterprises (Arenco Group),conglomerate,56,0,pending
 dubai,eta_ascon,ETA Ascon Group,industry,56,0,pending
 kuwait,khafji_jo,Al-Khafji Joint Operations,energy,56,0,pending
+kuwait,new_mowasat,New Mowasat Hospital,health,56,0,pending
+kuwait,al_anba,Al-Anba,comm,56,0,pending
 northern,stevin_rock,Stevin Rock,materials,56,1,pending
 northern,fujairah_municipality,Fujairah Municipality,gov,56,1,pending
 northern,al_zorah_dev,Al Zorah Development Company,realestate,56,1,pending
@@ -213,6 +219,8 @@ northern,planet_pharmacies,Planet Pharmacies,health,56,0,pending
 northern,thumbay_univ_hosp,Thumbay University Hospital,health,56,0,pending
 oman,mohsin_haider_darwish,Mohsin Haider Darwish LLC,conglomerate,56,0,pending
 oman,khoula_hospital,Khoula Hospital,health,56,1,pending
+oman,a_sharqiyah_univ,A'Sharqiyah University,education,56,0,pending
+oman,cbfs_oman,College of Banking and Financial Studies,education,56,0,pending
 qatar,qas,Qatar Aviation Services,industry,56,0,pending
 qatar,laffan_refinery,Laffan Refinery Company,energy,56,0,pending
 qatar,al_jaidah,Al Jaidah Group,conglomerate,56,0,pending
@@ -220,6 +228,7 @@ qatar,mbh,Mohammed Bin Hamad Holding,conglomerate,56,0,pending
 qatar,rloc,Ras Laffan Olefins Company,materials,56,0,pending
 qatar,q_chem,Qatar Chemical Company,materials,56,0,pending
 qatar,georgetown_qatar,Georgetown University in Qatar,education,56,0,pending
+qatar,community_college,Community College of Qatar,education,56,0,pending
 saudi,lst_2170,Alujain Corporation,materials,56,1,pending
 saudi,tahakom,Tahakom Investments Company,tech,56,0,pending
 saudi,saudi_coffee,Saudi Coffee Company,consumer_stap,56,0,pending
@@ -252,7 +261,12 @@ dubai,imtiaz_developments,Imtiaz Developments,realestate,55,0,pending
 dubai,anax,ANAX Holding,conglomerate,55,0,pending
 dubai,khansaheb,Khansaheb Group,industry,55,0,pending
 kuwait,kgl,Kuwait and Gulf Link Transport Company,industry,55,0,pending
+kuwait,australian_univ_kw,Australian University (Kuwait),education,55,0,pending
+northern,al_qasimi_fdn,Sheikh Saud bin Saqr Al Qasimi Foundation for Policy Research,gov,55,0,pending
+oman,aster_al_raffah,Aster Royal Al Raffah Hospital,health,55,0,pending
+oman,mcbs_oman,Modern College of Business and Science,education,55,0,pending
 qatar,qvc,Qatar Vinyl Company Ltd,materials,55,0,pending
+qatar,al_raya,Al Raya,comm,55,0,pending
 saudi,tamer,Tamer Group,health,55,0,pending
 saudi,al_othman,Al Othman Holding,conglomerate,55,0,pending
 saudi,al_jomaih,Al Jomaih Holding,conglomerate,55,0,pending
@@ -294,7 +308,6 @@ dubai,zulekha_healthcare,Zulekha Healthcare Group,health,54,0,pending
 dubai,key_mavens,Key Mavens Group,realestate,54,1,pending
 dubai,aud,American University in Dubai,education,54,0,pending
 dubai,minor_hotels_mea,Minor Hotel Group MEA DMCC,consumer_disc,54,0,pending
-kuwait,pam,Public Authority for Manpower,gov,54,1,pending
 kuwait,q8_aviation,Q8 Aviation,industry,54,0,pending
 kuwait,kout_food,Kout Food Group,consumer_disc,54,0,pending
 kuwait,al_sagar,Al Sagar Group,conglomerate,54,0,pending
@@ -318,6 +331,8 @@ oman,al_bashayer_meat,Al Bashayer Meat Company,consumer_stap,54,1,pending
 oman,marsa_lng,Marsa LNG,energy,54,0,pending
 oman,badr_al_samaa,Badr Al Samaa Group of Hospitals,health,54,1,pending
 oman,hema_energy,Hema Energy,energy,54,0,pending
+oman,muscat_university,Muscat University,education,54,0,pending
+oman,starcare_hospital,Starcare Hospital,health,54,0,pending
 qatar,qatar_executive,Qatar Executive,industry,54,0,pending
 qatar,qacc,Qatar Aircraft Catering Company,industry,54,0,pending
 qatar,qafac,Qatar Fuel Additives Company,materials,54,1,pending
@@ -342,6 +357,10 @@ saudi,agoc,Aramco Gulf Operations Company,energy,54,0,pending
 saudi,sa_af_capital,SA'AF Capital,finance,54,0,pending
 saudi,effat_university,Effat University,education,54,0,pending
 saudi,watani_steel,Watani Steel,materials,54,0,pending
+bahrain,royal_univ_women,Royal University for Women,education,53,0,pending
+bahrain,kingdom_university,Kingdom University,education,53,0,pending
+oman,univ_of_buraimi,University of Buraimi,education,53,0,pending
+qatar,aj_centre_studies,Al Jazeera Centre for Studies,comm,53,0,pending
 abudhabi,cliffordchance,Clifford Chance,industry,52,0,pending
 abudhabi,twofour54,twofour54,comm,52,0,pending
 abudhabi,al_foah,Al Foah Company,consumer_stap,52,0,pending
@@ -426,6 +445,10 @@ saudi,dar_al_hekma,Dar Al-Hekma University,education,52,0,pending
 saudi,thmanyah,Thmanyah,comm,52,0,pending
 saudi,tawrid,Tawrid,finance,52,0,pending
 saudi,yaqeen_capital,Yaqeen Capital,finance,52,0,pending
+bahrain,ucb_bahrain,University College of Bahrain,education,51,0,pending
+kuwait,box_hill_kuwait,Box Hill College Kuwait,education,51,0,pending
+kuwait,kuwait_tech_college,Kuwait Technical College,education,51,0,pending
+qatar,qfba,Qatar Finance and Business Academy,education,51,0,pending
 abudhabi,lst_mbme,MBME Group PJSC,health,50,0,pending
 abudhabi,lst_2pointzero,Two Point Zero Group PJSC,tech,50,0,pending
 abudhabi,lst_apex,Apex Investment PSC,finance,50,0,pending
