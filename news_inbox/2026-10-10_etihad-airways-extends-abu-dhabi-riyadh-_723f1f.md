@@ -1,0 +1,5 @@
+# Etihad Airways extends Abu Dhabi-Riyadh flight cancellations
+source: ARN News Centre
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPTWpJV3E4dmdpQUZ0Qkp3Szh6czBhZkhxMHppbG5OVkpUY0xvMk40RDQxbVVmUENlRHdVSDluNEhhT0dWLXFJNUVpV0ZXRTdDcUVKVHUzblMwb2xWVHFKOGswMjlRZEVtUHlXN1dNb2plX1VPRDJiSE1CYzVuZjI5ejE1dUtWTEx6UDBHeW1vZWF4UDFpendZbTFvUEN5c04teWFTVg?oc=5
+
+Etihad Airways extends Abu Dhabi-Riyadh flight cancellations    ARN News Centre
