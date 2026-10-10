@@ -28,9 +28,9 @@ muscatdaily,media,oman,Muscat Daily,,https://www.muscatdaily.com/,12,active,2026
 ona,media,oman,ONA,,https://omannews.gov.om/,12,active,2026-09-13,IP-blocked on CI runner
 q01,query,abudhabi,ADNOC,,,,active,2026-09-13,Google News entity query
 q02,query,abudhabi,Mubadala,,,,active,2026-09-13,Google News entity query
-q03,query,abudhabi,"""ADQ""" Abu Dhabi",,,,active,2026-09-13,Google News entity query
+q03,query,abudhabi,"""ADQ"" Abu Dhabi",,,,active,2026-09-13,Google News entity query
 q04,query,abudhabi,Abu Dhabi Investment Authority,,,,active,2026-09-13,Google News entity query
-q05,query,abudhabi,"""G42""" Abu Dhabi",,,,active,2026-09-13,Google News entity query
+q05,query,abudhabi,"""G42"" Abu Dhabi",,,,active,2026-09-13,Google News entity query
 q06,query,abudhabi,International Holding Company IHC,,,,active,2026-09-13,Google News entity query
 q07,query,abudhabi,MGX Abu Dhabi,,,,active,2026-09-13,Google News entity query
 q08,query,abudhabi,"""Sheikh Tahnoon"" OR ""Sheikh Tahnoun""",,,,active,2026-09-13,Google News entity query
@@ -43,7 +43,7 @@ q14,query,abudhabi,TAQA Abu Dhabi,,,,active,2026-09-13,Google News entity query
 q15,query,abudhabi,Aldar Properties,,,,active,2026-09-13,Google News entity query
 q16,query,abudhabi,Etihad Airways,,,,active,2026-09-13,Google News entity query
 q17,query,abudhabi,"""AD Ports""",,,,active,2026-09-13,Google News entity query
-q18,query,abudhabi,"""PureHealth""" Abu Dhabi",,,,active,2026-09-13,Google News entity query
+q18,query,abudhabi,"""PureHealth"" Abu Dhabi",,,,active,2026-09-13,Google News entity query
 q19,query,abudhabi,Space42,,,,active,2026-09-13,Google News entity query
 q20,query,abudhabi,Abu Dhabi sovereign wealth,,,,active,2026-09-13,Google News entity query
 reg_adx,registry,abudhabi,ADX,,data/listings/adx.csv,,active,2026-09-13,exchange listing registry
