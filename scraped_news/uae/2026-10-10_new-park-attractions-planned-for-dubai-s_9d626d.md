@@ -1,0 +1,5 @@
+# New park, attractions planned for Dubai's theme parksAs regional competition grows, the company prepares to expand with plans still under wraps13m ago4m read
+source: Gulf News
+url: https://gulfnews.com/uae/dubai-holding-entertainment-plans-new-park-attractions-as-ceo-reveals-expansion-plans-1.500705328
+
+

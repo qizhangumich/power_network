@@ -1,0 +1,5 @@
+# Tajikistan, UAE consider Etihad Airways flights from Dushanbe and Khujand to Abu Dhabi
+source: Азия-Плюс
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxNTG9mNXNaYXJNWHNaaEpwTF9BTlQwQWN1dzlpSVplM2NpRUVxVnVyMHllXzZDR09fNU9wRTViZlRXWWFHX1Y1RHozUm5QNkwtYkc2eHhPZ3pERnh2eUhTUmNoVFl4N20wRFhEMnJRLTUzU0tsblVZY0pCY05oTXF3TlJ6LVhFTUx5bDVMRGs0Y2J4Snh6TF9fQ2t6S2tiSXZhdU45T25pdU5oTG1hckV3d01jeGhkdVFyOFVUTzhHWlJvQ3NkVEFiSmxKWmc?oc=5
+
+Tajikistan, UAE consider Etihad Airways flights from Dushanbe and Khujand to Abu Dhabi    Азия-Плюс

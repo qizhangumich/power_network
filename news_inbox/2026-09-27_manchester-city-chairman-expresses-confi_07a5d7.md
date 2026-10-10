@@ -1,0 +1,5 @@
+# Manchester City Chairman Expresses Confidence in Proving Innocence
+source: 조선일보
+url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNMTBhV1dtbFprSS1La3ZkYnlwNFk2a25ldy1tcFpsclZneUJQVTFtWFdEYnQySmY5WGJwaWJyYzY0LWk0YmJ2TThsdUhlRzNxeC1ETkx2WUkxTGZjcHJXQktaalRKOXhleVpiU1JFeU1pRFZvVTJhaDJwZXprYlo4Y0ZiVEhnZw?oc=5
+
+Manchester City Chairman Expresses Confidence in Proving Innocence    조선일보
