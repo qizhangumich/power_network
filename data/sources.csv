@@ -7,9 +7,11 @@ meed,media,regional,MEED,https://www.meed.com/feed,https://www.meed.com/,24,acti
 thenational,media,uae,The National,https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml,https://www.thenationalnews.com/business/,,active,2026-09-13,
 gulfnews,media,uae,Gulf News,https://gulfnews.com/rss,https://gulfnews.com/business,,active,2026-09-13,
 khaleejtimes,media,uae,Khaleej Times,https://www.khaleejtimes.com/rss,https://www.khaleejtimes.com/business,,active,2026-09-13,
+wam,media,uae,WAM,,https://wam.ae/en,12,active,2026-10-10,CANDIDATE - unverified from this sandbox (org egress policy blocks all external fetch here); testing on CI via workflow_dispatch on branch test/source-check-20261010
 arabnews,media,saudi,Arab News,https://www.arabnews.com/rss.xml|https://www.arabnews.com/taxonomy/term/1/feed,https://www.arabnews.com/economy,24,active,2026-09-13,Cloudflare-walled on CI
 argaam,media,saudi,Argaam,https://www.argaam.com/en/rss,https://www.argaam.com/en,,active,2026-09-13,
 aleqt,media,saudi,Al Eqtisadiah,,https://www.aleqt.com/,24,active,2026-09-13,
+spa,media,saudi,SPA,,https://www.spa.gov.sa/en,12,active,2026-10-10,CANDIDATE - unverified from this sandbox (org egress policy blocks all external fetch here); testing on CI via workflow_dispatch on branch test/source-check-20261010
 gulftimes,media,qatar,Gulf Times,https://www.gulf-times.com/rss,https://www.gulf-times.com/business,,active,2026-09-13,
 peninsula,media,qatar,The Peninsula,https://thepeninsulaqatar.com/rss,https://thepeninsulaqatar.com/category/business,,active,2026-09-13,
 qna,media,qatar,QNA,,https://www.qna.org.qa/en,12,active,2026-09-13,state agency
@@ -19,15 +21,16 @@ alrai,media,kuwait,Al Rai,,https://www.alraimedia.com/,,active,2026-09-13,
 gdn,media,bahrain,GDN,https://www.gdnonline.com/rss,https://www.gdnonline.com/,,active,2026-09-13,
 tradearabia,media,bahrain,TradeArabia,http://www.tradearabia.com/rss/index.xml,http://www.tradearabia.com/,12,active,2026-09-13,
 bna,media,bahrain,BNA,,https://www.bna.bh/en/,12,active,2026-09-13,IP-blocked on CI runner
+al_ayam,media,bahrain,Al Ayam,,https://www.alayam.com/,12,active,2026-10-10,CANDIDATE - unverified from this sandbox (org egress policy blocks all external fetch here); Arabic-only; testing on CI via workflow_dispatch on branch test/source-check-20261010
 omanobserver,media,oman,Oman Observer,,https://www.omanobserver.om/,,active,2026-09-13,
 timesofoman,media,oman,Times of Oman,https://timesofoman.com/feed,https://timesofoman.com/,,active,2026-09-13,
 muscatdaily,media,oman,Muscat Daily,,https://www.muscatdaily.com/,12,active,2026-09-13,
 ona,media,oman,ONA,,https://omannews.gov.om/,12,active,2026-09-13,IP-blocked on CI runner
 q01,query,abudhabi,ADNOC,,,,active,2026-09-13,Google News entity query
 q02,query,abudhabi,Mubadala,,,,active,2026-09-13,Google News entity query
-q03,query,abudhabi,"""ADQ"" Abu Dhabi",,,,active,2026-09-13,Google News entity query
+q03,query,abudhabi,"""ADQ""" Abu Dhabi",,,,active,2026-09-13,Google News entity query
 q04,query,abudhabi,Abu Dhabi Investment Authority,,,,active,2026-09-13,Google News entity query
-q05,query,abudhabi,"""G42"" Abu Dhabi",,,,active,2026-09-13,Google News entity query
+q05,query,abudhabi,"""G42""" Abu Dhabi",,,,active,2026-09-13,Google News entity query
 q06,query,abudhabi,International Holding Company IHC,,,,active,2026-09-13,Google News entity query
 q07,query,abudhabi,MGX Abu Dhabi,,,,active,2026-09-13,Google News entity query
 q08,query,abudhabi,"""Sheikh Tahnoon"" OR ""Sheikh Tahnoun""",,,,active,2026-09-13,Google News entity query
@@ -40,7 +43,7 @@ q14,query,abudhabi,TAQA Abu Dhabi,,,,active,2026-09-13,Google News entity query
 q15,query,abudhabi,Aldar Properties,,,,active,2026-09-13,Google News entity query
 q16,query,abudhabi,Etihad Airways,,,,active,2026-09-13,Google News entity query
 q17,query,abudhabi,"""AD Ports""",,,,active,2026-09-13,Google News entity query
-q18,query,abudhabi,"""PureHealth"" Abu Dhabi",,,,active,2026-09-13,Google News entity query
+q18,query,abudhabi,"""PureHealth""" Abu Dhabi",,,,active,2026-09-13,Google News entity query
 q19,query,abudhabi,Space42,,,,active,2026-09-13,Google News entity query
 q20,query,abudhabi,Abu Dhabi sovereign wealth,,,,active,2026-09-13,Google News entity query
 reg_adx,registry,abudhabi,ADX,,data/listings/adx.csv,,active,2026-09-13,exchange listing registry
