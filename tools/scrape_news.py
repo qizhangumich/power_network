@@ -37,6 +37,8 @@ HEALTH = OUTDIR / "health.json"
 KEEP_DAYS = 45
 PER_SOURCE = 12
 TIMEOUT = 25
+# no-op touch 2026-10-10: triggers the push-based CI run on this test branch
+# to spot-check the WAM/SPA/Al Ayam candidate rows in data/sources.csv.
 
 # Per-source refresh cadence in hours (default 6 = every scheduled run);
 # slower cadences suit weeklies, walled sites and state wires that publish in
