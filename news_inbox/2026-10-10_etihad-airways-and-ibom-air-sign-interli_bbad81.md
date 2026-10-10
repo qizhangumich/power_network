@@ -1,0 +1,5 @@
+# Etihad Airways and Ibom Air sign interline agreement
+source: Breaking Travel News
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxQbXR4VXU5MGVvTXJhWFRpckl0NjhNdk1lSXJzWE82T1BkbGV5ZkNXZjRRdGtjb3pSSnJrZUt6VmhDaTFFQ2ZkU0QyRkhMTW52TkZKdDRwbElJLXV0MnB0c2NHSjMyZ0NEWFl4N0NtV3RJOUo4LWFOUW4tak80Si0xTWNseE5sU2U0aG5UU2NWaGFXUVlUbU9hSTlaaGZCYkxpc1FF?oc=5
+
+Etihad Airways and Ibom Air sign interline agreement    Breaking Travel News
