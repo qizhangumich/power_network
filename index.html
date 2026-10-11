@@ -2,171 +2,298 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A1120">
+<meta name="color-scheme" content="dark">
 <title>NavGCC — Navigate the GCC</title>
+<meta name="description" content="A living map of the people, institutions and relationships shaping business across the Gulf. Find your place on it and discover a path to the people you want to meet.">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap">
 <style>
   :root{
-    --bg:#F6F6F4; --card:#FFFFFF; --ink:#17181C; --ink-soft:#5B5D66; --ink-faint:#9A9CA6;
-    --hairline:#E4E4E0; --accent:#4C57C5; --accent-soft:#E3E6F7; --water:#EDF1F5;
+    --bg:#0A1120; --bg-raise:#0E1627; --card:#121B2E; --card-2:#18243A;
+    --line:rgba(148,163,184,.14); --line-2:rgba(148,163,184,.26);
+    --ink:#EEF2F8; --ink-soft:#B1BCCD; --ink-faint:#8190A7;
+    --accent:#7C8CFF; --accent-hi:#A3AEFF; --accent-soft:rgba(124,140,255,.15); --accent-br:rgba(124,140,255,.55);
+    --land:#152137; --land-hl:#24316A; --sea:#0C1424;
+    --font:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;
+    --display:"Sora","Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
   }
-  *{box-sizing:border-box; margin:0; padding:0}
-  html,body{background:var(--bg); color:var(--ink);
-    font:15px/1.5 -apple-system,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif}
-  a{color:inherit; text-decoration:none}
-  .wrap{max-width:1060px; margin:0 auto; padding:28px 20px 64px}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--font);-webkit-font-smoothing:antialiased}
+  body{background:radial-gradient(1200px 600px at 75% -10%,rgba(124,140,255,.12),transparent 60%),var(--bg)}
+  a{color:inherit;text-decoration:none}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+  svg.i{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+  .wrap{max-width:1120px;margin:0 auto;padding:22px max(20px,env(safe-area-inset-right)) 64px max(20px,env(safe-area-inset-left))}
 
-  header{display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin-bottom:6px}
-  .brand{font-size:13px; font-weight:700; letter-spacing:.14em}
-  .brand small{display:block; font-weight:400; letter-spacing:.02em; color:var(--ink-faint); font-size:11px}
-  #b-lang{border:1px solid var(--hairline); background:var(--card); border-radius:999px;
-    padding:4px 12px; font-size:12px; color:var(--ink-soft); cursor:pointer}
-  #b-lang:hover{border-color:var(--accent); color:var(--accent)}
+  header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+  .brand{display:flex;align-items:center;gap:11px}
+  .brand img{width:36px;height:36px;border-radius:9px;flex:none}
+  .brand b{font-family:var(--display);font-size:18px;font-weight:600;letter-spacing:.005em;display:block;line-height:1.1}
+  .brand small{display:block;color:var(--ink-faint);font-size:12px}
+  #b-lang{border:1px solid var(--line-2);background:var(--card);border-radius:999px;height:36px;padding:0 14px;font:500 13px var(--font);
+          color:var(--ink-soft);cursor:pointer}
+  #b-lang:hover{border-color:var(--accent-br);color:var(--ink)}
 
-  .hero{margin:26px 0 8px}
-  .hero h1{font-size:30px; font-weight:650; letter-spacing:-.01em}
-  .hero h1 span{display:block}
-  .hero h1 .l2{color:var(--ink-soft)}
-  .hero p{color:var(--ink-soft); margin-top:6px; max-width:620px}
+  .hero{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center;margin:42px 0 12px}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-hi);font-weight:600}
+  .eyebrow i{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(124,140,255,.2)}
+  h1{font-family:var(--display);font-size:46px;line-height:1.08;letter-spacing:-.02em;font-weight:600;margin:14px 0 14px}
+  h1 span{display:block}
+  h1 .l2{color:var(--ink-soft)}
+  .lead{color:var(--ink-soft);font-size:16.5px;max-width:540px}
+  .ctas{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:48px;padding:0 20px;border-radius:13px;font:600 15px var(--font);
+       border:1px solid var(--line-2);background:var(--card);color:var(--ink);transition:background .15s,border-color .15s,transform .15s}
+  .btn:hover{background:var(--card-2);border-color:var(--accent-br)}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:#0A1120}
+  .btn.primary:hover{background:var(--accent-hi);border-color:var(--accent-hi)}
+  .note{font-size:12.5px;color:var(--ink-faint);margin-top:12px}
 
-  .mapcard{background:var(--card); border:1px solid var(--hairline); border-radius:16px;
-    margin-top:22px; padding:10px 10px 4px; overflow:hidden}
-  svg{display:block; width:100%; height:auto}
-  .sea{fill:var(--water)}
-  .land{fill:#FDFDFC; stroke:#D8D8D2; stroke-width:1; stroke-linejoin:round; transition:fill .15s, stroke .15s; cursor:pointer}
-  .land.hl{fill:var(--accent-soft); stroke:var(--accent); stroke-width:1.4}
-  .lbl{font-size:12px; fill:var(--ink-soft); pointer-events:none; transition:fill .15s}
-  .lbl.small{font-size:10.5px}
-  .lbl.hl{fill:var(--accent); font-weight:600}
-  .leader{stroke:#C6C7CE; stroke-width:1; pointer-events:none}
-  .seatxt{font-size:11px; font-style:italic; fill:#B7BEC9; letter-spacing:.18em; pointer-events:none}
+  .mapcard{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:12px;box-shadow:0 20px 50px rgba(2,6,16,.5)}
+  .mapcard svg{display:block;width:100%;height:auto;border-radius:14px}
+  .sea{fill:var(--sea)}
+  .land{fill:var(--land);stroke:rgba(148,163,184,.35);stroke-width:1;stroke-linejoin:round;transition:fill .15s,stroke .15s;cursor:pointer}
+  .land.hl{fill:var(--land-hl);stroke:var(--accent);stroke-width:1.6}
+  .lbl{font:500 14px var(--font);fill:var(--ink-soft);pointer-events:none;transition:fill .15s}
+  .lbl.small{font-size:12px}
+  .lbl.hl{fill:#fff;font-weight:700}
+  .leader{stroke:rgba(148,163,184,.4);stroke-width:1;pointer-events:none}
+  .seatxt{font:italic 11px var(--font);fill:rgba(177,188,205,.35);letter-spacing:.18em;pointer-events:none}
+  .pulse{fill:var(--accent);opacity:.9}
+  .pulse-ring{fill:none;stroke:var(--accent);stroke-width:1.5;opacity:.6;transform-origin:center;transform-box:fill-box;animation:ring 2.4s ease-out infinite}
+  @keyframes ring{from{transform:scale(.6);opacity:.7}to{transform:scale(2.4);opacity:0}}
 
-  #tip{position:fixed; z-index:9; background:var(--card); border:1px solid var(--hairline);
-    border-radius:10px; padding:8px 12px; font-size:12.5px; box-shadow:0 8px 24px rgba(20,22,40,.10);
-    pointer-events:none; display:none; white-space:nowrap}
-  #tip b{display:block; font-size:13px}
+  #tip{position:fixed;z-index:9;background:var(--card);border:1px solid var(--line-2);border-radius:12px;padding:9px 12px;font-size:12.5px;
+       box-shadow:0 10px 30px rgba(2,6,16,.5);pointer-events:none;display:none;white-space:nowrap}
+  #tip b{display:block;font-size:13.5px}
   #tip span{color:var(--ink-soft)}
 
-  .grid{display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:22px}
-  .rc{background:var(--card); border:1px solid var(--hairline); border-radius:12px;
-    padding:14px 16px; transition:border-color .15s, box-shadow .15s, background .15s; display:block}
-  .rc:hover,.rc.hl{border-color:var(--accent); background:linear-gradient(0deg,var(--card),var(--card)),var(--card);
-    box-shadow:0 6px 18px rgba(76,87,197,.10)}
-  .rc:hover .nm,.rc.hl .nm{color:var(--accent)}
-  .rc .nm{font-weight:650; font-size:14.5px; transition:color .15s}
-  .rc .zh{color:var(--ink-faint); font-size:12px; margin-top:1px}
-  .rc .st{color:var(--ink-soft); font-size:12px; margin-top:8px}
-  .rc .st b{font-weight:600; color:var(--ink)}
+  h2{font-family:var(--display);font-size:24px;letter-spacing:-.01em;font-weight:600;margin:56px 0 6px}
+  .sub{color:var(--ink-soft);margin-bottom:18px}
 
-  footer{margin-top:34px; color:var(--ink-faint); font-size:12px}
-  footer a{color:var(--ink-soft); border-bottom:1px solid var(--hairline)}
-  footer a:hover{color:var(--accent); border-color:var(--accent)}
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;position:relative;overflow:hidden}
+  .step .num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:var(--accent);
+             color:#0A1120;font:700 12.5px var(--font)}
+  .step .k{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);font-weight:600;margin-left:8px}
+  .step h3{font-family:var(--display);font-size:18px;font-weight:600;margin:14px 0 4px;line-height:1.3}
+  .step p{color:var(--ink-soft);font-size:14px}
+  .step svg.art{display:block;width:100%;height:120px;margin-top:14px;border-radius:12px;background:var(--bg-raise)}
+  .draw{stroke-dasharray:240;stroke-dashoffset:240;animation:draw 3.2s ease-in-out infinite}
+  @keyframes draw{0%{stroke-dashoffset:240}45%,80%{stroke-dashoffset:0}100%{stroke-dashoffset:0;opacity:0}}
+  .pop{transform-origin:center;transform-box:fill-box;animation:pop 3.2s ease-in-out infinite}
+  @keyframes pop{0%,10%{transform:scale(0)}25%,85%{transform:scale(1)}100%{transform:scale(1)}}
 
-  @media (max-width:860px){ .grid{grid-template-columns:repeat(2,1fr)} .hero h1{font-size:24px} }
+  .inds{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{display:inline-flex;align-items:center;gap:8px;height:38px;padding:0 13px 0 5px;border-radius:999px;border:1px solid var(--line-2);
+        background:var(--card);font-size:13.5px;color:var(--ink)}
+  .chip .ic{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+  .chip .ic svg{width:15px;height:15px}
 
-  /* mobile (§4): the map is navigation/context, not the content. Shorter map,
-     full-width market cards, so 1.5–2 cards stay visible below the fold. */
-  @media (max-width:760px){
-    .wrap{padding:18px 16px 40px}
-    .hero{margin:20px 0 4px}
-    .hero h1{font-size:27px; line-height:1.18}
-    .hero p{font-size:14px; margin-top:8px}
-    .brand small{display:none}                          /* the H1 already says it */
-    .mapcard{margin-top:16px; padding:6px 6px 2px; border-radius:14px;
-             background:var(--water)}                   /* gutters read as sea */
-    .mapcard svg{max-height:148px; margin:0 auto}       /* ~30% shorter than before */
-    .grid{grid-template-columns:1fr; gap:10px; margin-top:16px}
-    .rc{min-height:64px; padding:13px 16px; display:flex; flex-direction:column;
-        justify-content:center; -webkit-tap-highlight-color:transparent}
-    .rc:active{border-color:var(--accent); background:var(--accent-soft)}
-    .rc .nm{font-size:16px}
-    .rc .st{margin-top:5px; font-size:12.5px}
-    #tip{display:none !important}                       /* hover has no meaning on touch */
-    footer{margin-top:26px}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+  .rc{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 16px 14px;display:flex;flex-direction:column;
+      gap:8px;min-height:104px;transition:border-color .15s,background .15s,transform .15s}
+  .rc:hover,.rc.hl{border-color:var(--accent-br);background:var(--card-2)}
+  .rc .top{display:flex;align-items:center;justify-content:space-between;gap:8px}
+  .rc .nm{font-family:var(--display);font-weight:600;font-size:16px}
+  .rc .zh{color:var(--ink-faint);font-size:12px}
+  .rc .st{color:var(--ink-soft);font-size:12.5px;margin-top:auto}
+  .rc .st b{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+  .rc .go{color:var(--ink-faint);transition:color .15s,transform .15s}
+  .rc:hover .go{color:var(--accent-hi);transform:translateX(2px)}
+
+  footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:var(--ink-faint);font-size:12.5px;display:flex;flex-wrap:wrap;gap:6px 18px}
+  footer a{color:var(--ink-soft);border-bottom:1px solid var(--line-2)}
+  footer a:hover{color:var(--ink);border-color:var(--accent)}
+
+  @media (max-width:960px){
+    .hero{grid-template-columns:1fr;gap:22px;margin-top:28px}
+    h1{font-size:38px}
+    .grid{grid-template-columns:repeat(2,1fr)}
+    .steps{grid-template-columns:1fr}
+    .step{display:grid;grid-template-columns:1fr 150px;gap:4px 16px;align-items:center}
+    .step svg.art{grid-row:1/4;grid-column:2;height:108px;margin-top:0}
   }
+  @media (max-width:640px){
+    .wrap{padding-top:16px}
+    h1{font-size:31px}
+    .lead{font-size:15px}
+    .ctas .btn{flex:1 1 100%}
+    .mapcard{padding:8px;border-radius:18px}
+    .mapcard svg{max-height:210px}
+    .grid{grid-template-columns:1fr;gap:10px}
+    .rc{min-height:76px;padding:14px 16px;gap:4px}
+    .rc .st{margin-top:2px}
+    .lbl{font-size:18px}
+    .lbl.small{font-size:15px}
+    .brand small{display:none}
+    h2{margin-top:40px;font-size:21px}
+    .step{grid-template-columns:1fr 112px;padding:15px}
+    .step svg.art{height:96px}
+    #tip{display:none !important}
+  }
+  @media (max-width:400px){
+    .step{grid-template-columns:1fr}
+    .step svg.art{grid-row:auto;grid-column:auto;height:96px;margin-top:12px}
+  }
+  @media (prefers-reduced-motion: reduce){ *{animation:none !important;transition:none !important} .draw{stroke-dashoffset:0} .pop{transform:none} }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <div class="brand" style="display:flex;align-items:center;gap:10px">
-      <img src="/favicon.svg" alt="NavGCC" style="width:34px;height:34px;border-radius:8px;flex:none">
-      <span>NAVGCC<small data-en="Navigate the GCC. Connect with Confidence." data-zh="纵览海湾 · 从容连接">Navigate the GCC. Connect with Confidence.</small></span>
-    </div>
-    <button id="b-lang">Lan</button>
+    <a class="brand" href="./">
+      <img src="/favicon.svg" alt="">
+      <span><b>NavGCC</b><small data-en="Navigate the GCC. Connect with confidence." data-zh="纵览海湾 · 从容连接">Navigate the GCC. Connect with confidence.</small></span>
+    </a>
+    <button id="b-lang" type="button">中文</button>
   </header>
 
-  <div class="hero">
-    <h1><span data-en="Navigate the GCC." data-zh="纵览海湾。">Navigate the GCC.</span><span
-         class="l2" data-en="Know who matters." data-zh="洞悉关键人物。">Know who matters.</span></h1>
-    <p data-en="People, institutions and networks shaping business across the Gulf — updated continuously from tier-1 sources."
-       data-zh="塑造海湾商业格局的人物、机构与关系网络——基于一级信源持续更新。">
-      People, institutions and networks shaping business across the Gulf — updated continuously from tier-1 sources.</p>
-  </div>
+  <section class="hero">
+    <div>
+      <div class="eyebrow"><i></i><span data-en="Relationship map of the Gulf" data-zh="海湾关系地图">Relationship map of the Gulf</span></div>
+      <h1><span data-en="Navigate the GCC." data-zh="纵览海湾。">Navigate the GCC.</span><span class="l2" data-en="Know who matters." data-zh="洞悉关键人物。">Know who matters.</span></h1>
+      <p class="lead" data-en="Explore the people, institutions and relationships shaping business across the Gulf. Add people you know, find your place on the map, and discover a path to the person you want to meet."
+         data-zh="探索塑造海湾商业格局的人物、机构与关系。添加你认识的人，在地图上找到自己的位置，并发现通往你想结识之人的路径。">Explore the people, institutions and relationships shaping business across the Gulf. Add people you know, find your place on the map, and discover a path to the person you want to meet.</p>
+      <div class="ctas">
+        <a class="btn primary" href="abudhabi/" id="cta-start"><span data-en="Start exploring" data-zh="开始探索">Start exploring</span>
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn" href="abudhabi/?demo=1"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/></svg>
+          <span data-en="Try a demo" data-zh="试用演示">Try a demo</span></a>
+      </div>
+      <p class="note" data-en="The demo uses clearly labeled sample contacts. Your own contacts stay in your browser unless you sign in."
+         data-zh="演示使用明确标注的示例联系人。你自己的联系人仅保存在本浏览器，登录后才会同步。">The demo uses clearly labeled sample contacts. Your own contacts stay in your browser unless you sign in.</p>
+    </div>
 
-  <div class="mapcard">
-  <svg viewBox="0 0 720 452" role="img" aria-label="GCC map">
-    <rect class="sea" x="0" y="0" width="720" height="452"/>
-    <text class="seatxt" x="455" y="118" text-anchor="middle" data-en="ARABIAN GULF" data-zh="阿拉伯湾">ARABIAN GULF</text>
+    <div class="mapcard">
+    <svg viewBox="0 0 720 452" role="img" aria-label="Map of the GCC markets — choose one to open its relationship map">
+      <rect class="sea" x="0" y="0" width="720" height="452"/>
+      <text class="seatxt" x="455" y="118" text-anchor="middle" data-en="ARABIAN GULF" data-zh="阿拉伯湾">ARABIAN GULF</text>
+      <path class="land" data-r="saudi" d="M23,84 L96,38 L208,40 L305,64 L322,66 L334,92 L352,103
+        L378,116 L402,143 L419,161 L430,182 L436,196 L447,201 L458,214 L468,238 L512,248 L548,252
+        L556,278 L540,320 L470,352 L340,378 L265,392 L224,406 L205,375 L160,330 L135,290 L104,222
+        L76,168 L48,120 Z"/>
+      <path class="land" data-r="kuwait" d="M322,66 L340,58 L358,64 L372,78 L368,94 L352,103 L334,92 Z"/>
+      <path class="land" data-r="qatar" d="M436,196 L432,180 L436,166 L446,160 L454,168 L456,182 L452,194 L447,201 Z"/>
+      <ellipse class="land" data-r="bahrain" cx="423" cy="170" rx="5.5" ry="9"/>
+      <path class="land" data-r="abudhabi" d="M458,214 L480,213 L505,211 L530,208 L543,203 L549,214
+        L566,216 L560,238 L548,252 L512,248 L468,238 Z"/>
+      <path class="land" data-r="dubai" d="M543,203 L553,192 L560,197 L566,216 L549,214 Z"/>
+      <path class="land" data-r="northern" d="M560,197 L567,183 L572,175 L577,169 L583,183 L581,196 L576,206 L566,216 Z"/>
+      <path class="land" data-r="oman" d="M576,206 L590,201 L615,214 L637,235 L663,262 L668,300 L640,340
+        L596,368 L540,398 L518,408 L490,400 L470,352 L540,320 L556,278 L548,252 L560,238 L566,216 Z"/>
+      <path class="land" data-r="oman" d="M577,169 L580,160 L586,163 L587,172 L583,183 Z"/>
 
-    <path class="land" data-r="saudi" d="M23,84 L96,38 L208,40 L305,64 L322,66 L334,92 L352,103
-      L378,116 L402,143 L419,161 L430,182 L436,196 L447,201 L458,214 L468,238 L512,248 L548,252
-      L556,278 L540,320 L470,352 L340,378 L265,392 L224,406 L205,375 L160,330 L135,290 L104,222
-      L76,168 L48,120 Z"/>
-    <path class="land" data-r="kuwait" d="M322,66 L340,58 L358,64 L372,78 L368,94 L352,103 L334,92 Z"/>
-    <path class="land" data-r="qatar" d="M436,196 L432,180 L436,166 L446,160 L454,168 L456,182 L452,194 L447,201 Z"/>
-    <ellipse class="land" data-r="bahrain" cx="423" cy="170" rx="5.5" ry="9"/>
-    <path class="land" data-r="abudhabi" d="M458,214 L480,213 L505,211 L530,208 L543,203 L549,214
-      L566,216 L560,238 L548,252 L512,248 L468,238 Z"/>
-    <path class="land" data-r="dubai" d="M543,203 L553,192 L560,197 L566,216 L549,214 Z"/>
-    <path class="land" data-r="northern" d="M560,197 L567,183 L572,175 L577,169 L583,183 L581,196 L576,206 L566,216 Z"/>
-    <path class="land" data-r="oman" d="M576,206 L590,201 L615,214 L637,235 L663,262 L668,300 L640,340
-      L596,368 L540,398 L518,408 L490,400 L470,352 L540,320 L556,278 L548,252 L560,238 L566,216 Z"/>
-    <path class="land" data-r="oman" d="M577,169 L580,160 L586,163 L587,172 L583,183 Z"/>
+      <line class="leader" x1="352" y1="50" x2="351" y2="66"/>
+      <line class="leader" x1="394" y1="152" x2="418" y2="168"/>
+      <line class="leader" x1="449" y1="144" x2="445" y2="161"/>
+      <line class="leader" x1="527" y1="172" x2="551" y2="196"/>
+      <line class="leader" x1="612" y1="154" x2="579" y2="180"/>
 
-    <line class="leader" x1="352" y1="50" x2="351" y2="66"/>
-    <line class="leader" x1="394" y1="152" x2="418" y2="168"/>
-    <line class="leader" x1="449" y1="144" x2="445" y2="161"/>
-    <line class="leader" x1="527" y1="172" x2="551" y2="196"/>
-    <line class="leader" x1="612" y1="154" x2="579" y2="180"/>
+      <circle class="pulse" cx="505" cy="228" r="3.2"/><circle class="pulse-ring" cx="505" cy="228" r="6"/>
 
-    <text class="lbl" data-r="kuwait" x="352" y="45" text-anchor="middle" data-en="Kuwait" data-zh="科威特">Kuwait</text>
-    <text class="lbl" data-r="saudi" x="262" y="228" text-anchor="middle" data-en="Saudi Arabia" data-zh="沙特阿拉伯">Saudi Arabia</text>
-    <text class="lbl small" data-r="bahrain" x="391" y="150" text-anchor="end" data-en="Bahrain" data-zh="巴林">Bahrain</text>
-    <text class="lbl small" data-r="qatar" x="451" y="139" text-anchor="middle" data-en="Qatar" data-zh="卡塔尔">Qatar</text>
-    <text class="lbl small" data-r="dubai" x="522" y="168" text-anchor="end" data-en="Dubai" data-zh="迪拜">Dubai</text>
-    <text class="lbl small" data-r="northern" x="616" y="151" text-anchor="start" data-en="Northern Emirates" data-zh="北部酋长国">Northern Emirates</text>
-    <text class="lbl" data-r="abudhabi" x="502" y="233" text-anchor="middle" data-en="Abu Dhabi" data-zh="阿布扎比">Abu Dhabi</text>
-    <text class="lbl" data-r="oman" x="594" y="310" text-anchor="middle" data-en="Oman" data-zh="阿曼">Oman</text>
-  </svg>
-  </div>
+      <text class="lbl" data-r="kuwait" x="352" y="45" text-anchor="middle" data-en="Kuwait" data-zh="科威特">Kuwait</text>
+      <text class="lbl" data-r="saudi" x="262" y="228" text-anchor="middle" data-en="Saudi Arabia" data-zh="沙特阿拉伯">Saudi Arabia</text>
+      <text class="lbl small" data-r="bahrain" x="391" y="150" text-anchor="end" data-en="Bahrain" data-zh="巴林">Bahrain</text>
+      <text class="lbl small" data-r="qatar" x="451" y="139" text-anchor="middle" data-en="Qatar" data-zh="卡塔尔">Qatar</text>
+      <text class="lbl small" data-r="dubai" x="522" y="168" text-anchor="end" data-en="Dubai" data-zh="迪拜">Dubai</text>
+      <text class="lbl small" data-r="northern" x="616" y="151" text-anchor="start" data-en="Northern Emirates" data-zh="北部酋长国">Northern Emirates</text>
+      <text class="lbl" data-r="abudhabi" x="502" y="250" text-anchor="middle" data-en="Abu Dhabi" data-zh="阿布扎比">Abu Dhabi</text>
+      <text class="lbl" data-r="oman" x="594" y="310" text-anchor="middle" data-en="Oman" data-zh="阿曼">Oman</text>
+    </svg>
+    </div>
+  </section>
   <div id="tip"></div>
 
+  <h2 data-en="How it works" data-zh="如何使用">How it works</h2>
+  <p class="sub" data-en="Like entering a park: understand the map, find where you are, then follow a path."
+     data-zh="就像走进一座公园：先看懂地图，再找到自己的位置，然后沿着路径前行。">Like entering a park: understand the map, find where you are, then follow a path.</p>
+  <div class="steps">
+    <div class="step">
+      <div><span class="num">1</span><span class="k" data-en="Navigate" data-zh="导览">Navigate</span></div>
+      <h3 data-en="Explore the landscape." data-zh="探索全景。">Explore the landscape.</h3>
+      <p data-en="Industries are areas on the map. Tap one, or any person or organization, to see how they connect."
+         data-zh="行业是地图上的区域。点击任意行业、人物或机构，查看他们之间的关系。">Industries are areas on the map. Tap one, or any person or organization, to see how they connect.</p>
+      <svg class="art" viewBox="0 0 240 120" aria-hidden="true">
+        <circle cx="62" cy="58" r="38" fill="rgba(57,135,229,.12)" stroke="rgba(57,135,229,.4)" stroke-dasharray="2 5"/>
+        <circle cx="170" cy="52" r="34" fill="rgba(217,89,38,.12)" stroke="rgba(217,89,38,.4)" stroke-dasharray="2 5"/>
+        <circle cx="128" cy="98" r="22" fill="rgba(25,158,112,.12)" stroke="rgba(25,158,112,.4)" stroke-dasharray="2 5"/>
+        <g stroke="rgba(148,163,184,.45)" stroke-width="1"><path d="M62 58L48 40M62 58L80 72M62 58L170 52M170 52L188 34M170 52L156 70M156 70L128 98M80 72L128 98"/></g>
+        <g class="pop"><circle cx="62" cy="58" r="7" fill="#3987e5"/><circle cx="48" cy="40" r="4" fill="#3987e5"/><circle cx="80" cy="72" r="4.5" fill="#3987e5"/></g>
+        <g class="pop" style="animation-delay:.3s"><rect x="164" y="46" width="12" height="12" rx="2" fill="#d95926"/><circle cx="188" cy="34" r="4" fill="#d95926"/><circle cx="156" cy="70" r="4" fill="#d95926"/></g>
+        <g class="pop" style="animation-delay:.6s"><circle cx="128" cy="98" r="5" fill="#199e70"/></g>
+      </svg>
+    </div>
+    <div class="step">
+      <div><span class="num">2</span><span class="k" data-en="Locate yourself" data-zh="定位自己">Locate yourself</span></div>
+      <h3 data-en="Add people you know." data-zh="添加你认识的人。">Add people you know.</h3>
+      <p data-en="Pick names on the map, or import your LinkedIn connections export. You appear, connected to them."
+         data-zh="在地图上选择姓名，或导入你的领英人脉导出文件。你将出现在地图上，并与他们相连。">Pick names on the map, or import your LinkedIn connections export. You appear, connected to them.</p>
+      <svg class="art" viewBox="0 0 240 120" aria-hidden="true">
+        <g stroke="rgba(148,163,184,.35)"><path d="M150 40L196 30M150 40L186 84M186 84L210 70"/></g>
+        <circle cx="150" cy="40" r="6" fill="rgba(57,135,229,.4)" stroke="#3987e5" stroke-width="1.5"/>
+        <circle cx="186" cy="84" r="6" fill="rgba(201,133,0,.4)" stroke="#c98500" stroke-width="1.5"/>
+        <circle cx="196" cy="30" r="4" fill="rgba(157,169,187,.4)" stroke="#9DA9BB"/><circle cx="210" cy="70" r="4" fill="rgba(157,169,187,.4)" stroke="#9DA9BB"/>
+        <path class="draw" d="M70 62L150 40" stroke="#7C8CFF" stroke-width="2" fill="none"/>
+        <path class="draw" d="M70 62L186 84" stroke="#7C8CFF" stroke-width="2" fill="none" style="animation-delay:.25s"/>
+        <g class="pop"><circle cx="70" cy="62" r="13" fill="#fff"/><circle cx="70" cy="62" r="10" fill="#7C8CFF"/><circle cx="70" cy="59" r="3" fill="#fff"/>
+          <path d="M64.5 68a5.5 4 0 0 1 11 0" stroke="#fff" stroke-width="2" fill="none"/></g>
+        <text x="70" y="92" fill="#EEF2F8" font-size="11" font-weight="700" text-anchor="middle" font-family="Inter, sans-serif" data-en="You" data-zh="你">You</text>
+      </svg>
+    </div>
+    <div class="step">
+      <div><span class="num">3</span><span class="k" data-en="Find your path" data-zh="找到路径">Find your path</span></div>
+      <h3 data-en="Choose who you want to meet." data-zh="选择你想结识的人。">Choose who you want to meet.</h3>
+      <p data-en="See a possible route through people you know, with the evidence for every link — confirmed or potential."
+         data-zh="查看一条经由你认识的人的可能路径，每一段关系都附有依据——已确认或潜在。">See a possible route through people you know, with the evidence for every link — confirmed or potential.</p>
+      <svg class="art" viewBox="0 0 240 120" aria-hidden="true">
+        <g fill="rgba(148,163,184,.25)"><circle cx="40" cy="30" r="3"/><circle cx="110" cy="100" r="3"/><circle cx="200" cy="100" r="3"/><circle cx="150" cy="22" r="3"/></g>
+        <path class="draw" d="M30 80L86 52L140 70L206 40" stroke="#fff" stroke-width="2.4" fill="none" style="filter:drop-shadow(0 0 4px rgba(124,140,255,.8))"/>
+        <circle cx="30" cy="80" r="8" fill="#7C8CFF" stroke="#fff" stroke-width="2.5"/>
+        <circle cx="86" cy="52" r="6" fill="rgba(25,158,112,.5)" stroke="#199e70" stroke-width="1.5"/>
+        <rect x="134" y="64" width="12" height="12" rx="2" fill="rgba(201,133,0,.5)" stroke="#c98500" stroke-width="1.5"/>
+        <circle cx="206" cy="40" r="9" fill="rgba(57,135,229,.5)" stroke="#fff" stroke-width="2"/>
+      </svg>
+    </div>
+  </div>
+
+  <h2 data-en="One map, ten industries" data-zh="一张地图，十大行业">One map, ten industries</h2>
+  <p class="sub" data-en="The same colors, icons and names appear on every map, filter and profile."
+     data-zh="每一张地图、每一个筛选与档案中，都使用相同的颜色、图标与名称。">The same colors, icons and names appear on every map, filter and profile.</p>
+  <div class="inds" id="inds"></div>
+
+  <h2 data-en="Choose a market" data-zh="选择市场">Choose a market</h2>
+  <p class="sub" data-en="Eight living maps, updated continuously from tier-1 sources."
+     data-zh="八张持续更新的关系地图，信息来自一级信源。">Eight living maps, updated continuously from tier-1 sources.</p>
   <div class="grid">
-    <a class="rc" data-r="abudhabi" href="abudhabi/"><div class="nm" data-en="Abu Dhabi" data-zh="阿布扎比">Abu Dhabi</div>
+    <a class="rc" data-r="abudhabi" href="abudhabi/"><div class="top"><span class="nm" data-en="Abu Dhabi" data-zh="阿布扎比">Abu Dhabi</span><svg class="i go" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
       <div class="st"><b data-stat="abudhabi:p">1030</b> <span data-en="people" data-zh="人物">people</span> · <b data-stat="abudhabi:i">269</b> <span data-en="institutions" data-zh="机构">institutions</span></div></a>
-    <a class="rc" data-r="dubai" href="dubai/"><div class="nm" data-en="Dubai" data-zh="迪拜">Dubai</div>
+    <a class="rc" data-r="dubai" href="dubai/"><div class="top"><span class="nm" data-en="Dubai" data-zh="迪拜">Dubai</span><svg class="i go" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
       <div class="st"><b data-stat="dubai:p">848</b> <span data-en="people" data-zh="人物">people</span> · <b data-stat="dubai:i">180</b> <span data-en="institutions" data-zh="机构">institutions</span></div></a>
-    <a class="rc" data-r="northern" href="northern/"><div class="nm" data-en="Northern Emirates" data-zh="北部酋长国">Northern Emirates</div>
+    <a class="rc" data-r="northern" href="northern/"><div class="top"><span class="nm" data-en="Northern Emirates" data-zh="北部酋长国">Northern Emirates</span><svg class="i go" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
       <div class="st"><b data-stat="northern:p">490</b> <span data-en="people" data-zh="人物">people</span> · <b data-stat="northern:i">124</b> <span data-en="institutions" data-zh="机构">institutions</span></div></a>
-    <a class="rc" data-r="saudi" href="saudi/"><div class="nm" data-en="Saudi Arabia" data-zh="沙特阿拉伯">Saudi Arabia</div>
+    <a class="rc" data-r="saudi" href="saudi/"><div class="top"><span class="nm" data-en="Saudi Arabia" data-zh="沙特阿拉伯">Saudi Arabia</span><svg class="i go" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
       <div class="st"><b data-stat="saudi:p">1027</b> <span data-en="people" data-zh="人物">people</span> · <b data-stat="saudi:i">485</b> <span data-en="institutions" data-zh="机构">institutions</span></div></a>
-    <a class="rc" data-r="qatar" href="qatar/"><div class="nm" data-en="Qatar" data-zh="卡塔尔">Qatar</div>
+    <a class="rc" data-r="qatar" href="qatar/"><div class="top"><span class="nm" data-en="Qatar" data-zh="卡塔尔">Qatar</span><svg class="i go" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
       <div class="st"><b data-stat="qatar:p">778</b> <span data-en="people" data-zh="人物">people</span> · <b data-stat="qatar:i">190</b> <span data-en="institutions" data-zh="机构">institutions</span></div></a>
-    <a class="rc" data-r="bahrain" href="bahrain/"><div class="nm" data-en="Bahrain" data-zh="巴林">Bahrain</div>
+    <a class="rc" data-r="bahrain" href="bahrain/"><div class="top"><span class="nm" data-en="Bahrain" data-zh="巴林">Bahrain</span><svg class="i go" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
       <div class="st"><b data-stat="bahrain:p">1471</b> <span data-en="people" data-zh="人物">people</span> · <b data-stat="bahrain:i">139</b> <span data-en="institutions" data-zh="机构">institutions</span></div></a>
-    <a class="rc" data-r="oman" href="oman/"><div class="nm" data-en="Oman" data-zh="阿曼">Oman</div>
+    <a class="rc" data-r="oman" href="oman/"><div class="top"><span class="nm" data-en="Oman" data-zh="阿曼">Oman</span><svg class="i go" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
       <div class="st"><b data-stat="oman:p">543</b> <span data-en="people" data-zh="人物">people</span> · <b data-stat="oman:i">198</b> <span data-en="institutions" data-zh="机构">institutions</span></div></a>
-    <a class="rc" data-r="kuwait" href="kuwait/"><div class="nm" data-en="Kuwait" data-zh="科威特">Kuwait</div>
+    <a class="rc" data-r="kuwait" href="kuwait/"><div class="top"><span class="nm" data-en="Kuwait" data-zh="科威特">Kuwait</span><svg class="i go" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
       <div class="st"><b data-stat="kuwait:p">750</b> <span data-en="people" data-zh="人物">people</span> · <b data-stat="kuwait:i">217</b> <span data-en="institutions" data-zh="机构">institutions</span></div></a>
   </div>
 
   <footer>
-    <a href="reports/growth.html" data-en="Growth report →" data-zh="增长报告 →">Growth report →</a> ·
-    <span data-en="Stylized map — boundaries are illustrative, not authoritative."
-          data-zh="示意地图——边界仅作示意，非权威划界。">Stylized map — boundaries are illustrative, not authoritative.</span>
+    <a href="reports/growth.html" data-en="Growth report →" data-zh="增长报告 →">Growth report →</a>
+    <span data-en="Routes show possible introductions, never guarantees." data-zh="路径仅表示可能的引荐，绝非保证。">Routes show possible introductions, never guarantees.</span>
+    <span data-en="Stylized map — boundaries are illustrative, not authoritative." data-zh="示意地图——边界仅作示意，非权威划界。">Stylized map — boundaries are illustrative, not authoritative.</span>
   </footer>
 </div>
 
@@ -178,15 +305,36 @@
                northern:["Northern Emirates","北部酋长国"], saudi:["Saudi Arabia","沙特阿拉伯"],
                qatar:["Qatar","卡塔尔"], bahrain:["Bahrain","巴林"],
                oman:["Oman","阿曼"], kuwait:["Kuwait","科威特"]};
+  /* the map engine's industry groups (map_template.html SECTOR_GROUPS) — same colors, icons, names */
+  var INDS = [
+    ["#3987e5","M3 10l9-6 9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18","Financials","金融"],
+    ["#d95926","M13 2L4.5 13.5H11L10 22l8.5-11.5H12L13 2z","Energy & Utilities","能源与公用事业"],
+    ["#199e70","M5 4h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zM12 8v8M8 12h8","Health & Education","医疗与教育"],
+    ["#c98500","M12 3c4.4 0 8 1.3 8 3s-3.6 3-8 3-8-1.3-8-3 3.6-3 8-3zM4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6","Sovereign Capital","主权资本"],
+    ["#d55181","M6 8h12l1 13H5L6 8zM9 8a3 3 0 0 1 6 0","Consumer","消费"],
+    ["#008300","M4 21V5l8-3v19M12 21V9l8 3v9M2 21h20M7 8h2M7 12h2M7 16h2M15 14h2M15 17h2","Real Estate","房地产"],
+    ["#9085e9","M7 7h10v10H7zM10 10h4v4h-4zM9 3v4M15 3v4M9 17v4M15 17v4M3 9h4M3 15h4M17 9h4M17 15h4","Technology & Telecom","科技与通信"],
+    ["#e66767","M3 21V10l5 3v-3l5 3v-3l5 3V4h3v17H3zM7 17h2M12 17h2M17 17h2","Industrials & Materials","工业与原材料"],
+    ["#9DA9BB","M5 21V4M5 4h11l-2 4 2 4H5","Government & Political","政府与政治"],
+    ["#B8A487","M9 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM2 20c0-3.3 3.1-6 7-6s7 2.7 7 6M16 4.5a3.5 3.5 0 0 1 0 6.5M18 14c2.4.7 4 2.9 4 5.5","Family Conglomerates","家族企业集团"]
+  ];
+  function rgba(hex, a){ var r = parseInt(hex.slice(1,3),16), g = parseInt(hex.slice(3,5),16), b = parseInt(hex.slice(5,7),16); return "rgba(" + r + "," + g + "," + b + "," + a + ")"; }
   var lang = "en";
   try { lang = localStorage.getItem("pm_lang") === "zh" ? "zh" : "en"; } catch(e){}
 
+  function renderInds(){
+    document.getElementById("inds").innerHTML = INDS.map(function(d){
+      return '<span class="chip"><span class="ic" style="background:' + rgba(d[0], .2) + ';color:' + d[0] + ';box-shadow:inset 0 0 0 1px ' + rgba(d[0], .55) + '">'
+           + '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="' + d[1] + '"/></svg></span>' + (lang === "zh" ? d[3] : d[2]) + '</span>';
+    }).join("");
+  }
   function applyLang(){
     document.querySelectorAll("[data-en]").forEach(function(el){
       el.textContent = el.getAttribute(lang === "zh" ? "data-zh" : "data-en");
     });
-    document.getElementById("b-lang").textContent = lang === "zh" ? "EN" : "Lan";
-    document.documentElement.lang = lang === "zh" ? "zh" : "en";
+    document.getElementById("b-lang").textContent = lang === "zh" ? "EN" : "中文";
+    document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+    renderInds();
   }
   document.getElementById("b-lang").addEventListener("click", function(){
     lang = lang === "zh" ? "en" : "zh";
@@ -200,13 +348,10 @@
     var p = document.querySelector('[data-stat="' + r + ':p"]');
     var i = document.querySelector('[data-stat="' + r + ':i"]');
     if (!p || !i || p.textContent === "—") return "";
-    return p.textContent + (lang === "zh" ? " 人物 · " : " people · ")
-         + i.textContent + (lang === "zh" ? " 机构" : " institutions");
+    return p.textContent + (lang === "zh" ? " 人物 · " : " people · ") + i.textContent + (lang === "zh" ? " 机构" : " institutions");
   }
   function setHl(r, on){
-    document.querySelectorAll('[data-r="' + r + '"]').forEach(function(el){
-      el.classList.toggle("hl", on);
-    });
+    document.querySelectorAll('[data-r="' + r + '"]').forEach(function(el){ el.classList.toggle("hl", on); });
   }
   document.querySelectorAll("svg [data-r]").forEach(function(el){
     var r = el.getAttribute("data-r");

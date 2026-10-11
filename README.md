@@ -104,28 +104,44 @@ The same pattern extends to any content: put items in an inbox, match on the ali
 table, emit a `*_data.js` overlay. Candidates: press releases, tender awards,
 event attendee lists, podcast transcripts.
 
-## Design system (V4 — per `Network_Intelligence_Visual_Interaction_Design_Brief_CN_V1.1.pdf`)
-Network-first Relationship Intelligence, not a dashboard with a chart:
-- **Light neutral system** — near-white ground, charcoal ink, hairlines, one accent
-  (muted indigo #4C57C5) reserved for focus, paths and primary actions.
-- **Node semantics by shape**: person = circle (heroes carry initials), government =
-  rounded square, sovereign fund = diamond, company/org = square. Size = power.
-- **Edge semantics**: institutional thin gray · family solid warm · unverified dashed-faint ·
-  **potential** (news co-mention, from suggested_edges) dashed — clearly marked inferred ·
-  indigo only on the active focus/path.
-- **4 Views, one canvas** (selection preserved, nodes glide — no reshuffle):
-  Network (tier rings) / Sectors (clusters) / Institution (ego rings around the selected
-  node) / Control (ownership hierarchy from the Ruler's court outward).
-- **Interactions**: click = Focus (unrelated fades to ~15%, never removed) + right-slide
-  dossier · click an edge = relationship explanation · **Find path from here** or ask
-  "how can I reach X" = Path Mode with hop-by-hop indigo highlighting · double-click =
-  isolate ego network.
-- **Ask the Network** (top bar): natural-language questions that change the canvas —
-  "how can I reach EWEC" (path), "who at ADQ" (people + focus), "show energy" (sector
-  focus), or any name (profile).
-- **Home**: "Your Network Intelligence" — Ask box, four numbers, recent changes, one CTA.
-- **Mobile**: Ask-first top bar, views/filters in a bottom sheet (☰), default density
-  limited to key nodes ("Show all" in the sheet), bottom-sheet dossier, 44pt targets.
+## Design system (V5 — "the park map": Navigate → Locate yourself → Find your path)
+The engine lives in `map_template.html` (stamped into every region page by
+`tools/build_regions.py`); the landing page is the hand-editable `index.html`.
+- **Deep navy ground** (#0A1120), ink tokens for all text, white for emphasis (selection,
+  routes) and one luminous accent (#7C8CFF) for *you* and your links. Fonts: Sora (display)
+  and Inter (UI, canvas labels).
+- **Industries = the site's 10 existing sector groups** (15 sector keys folded, nothing
+  invented), each with a fixed colour, an icon and a name, used identically in the map
+  legend, the phone chip strip, filters, profiles, district tags and the landing page.
+  Hues are the dataviz reference palette's dark steps, validated against the navy
+  surface; identity is never colour-alone (icons + labels everywhere).
+- **Legend**: click/tap industries to highlight (multi-select, Reset; others fade but stay
+  in context) · separate connection key (role, ownership, family, unverified, potential,
+  former, your connection, demo, route) · shapes · latest signals. Desktop: floating
+  sidebar; phone: chip strip under the header + "Map key" sheet.
+- **Views**: Network (tier rings) · Industries (park districts with name tags) · Focus
+  (ego rings) · Ownership (control hierarchy).
+- **You on the map**: people you add (by name on the map, LinkedIn `Connections.csv`
+  export, a profile link, or manually) appear as a "You" pin linked to them; organizations
+  where unmatched contacts work become *possible ways in*. Updates live, no reload.
+- **Routes**: Dijkstra from the target over public relationships; each entry point yields
+  one route; ranked by hops, verified vs unverified records, how broad a shared
+  organization is, and (only if you rated it) your relationship strength. Every hop shows
+  its basis and class: **Confirmed** (by you / public record) · **Unverified** record ·
+  **Potential** (shared organization, contacts at an organization) · **Demo data**.
+  Routes are presented as possible introductions, never guarantees.
+- **Path mode**: unrelated nodes fade, segments light up in sequence, synced step list
+  with Back/Next (and ←/→), alternatives as chips; no-route and "where do you start"
+  states explain what to do next.
+- **Guided tour** (first visit only; "Guide" replays it): 3 steps that drive the real map,
+  with Next / Back / Skip / Replay and **Try a demo** (`?demo=1`) — sample contacts that
+  are clearly labeled and never mixed with real data.
+- **Phones**: map-first; bottom sheets (peek / half / full, swipe to dismiss) for profiles,
+  routes, tour, My Network and the key; map controls (recenter, fit, full screen, key);
+  ~24 key nodes and ≤7 labels by default with collision culling, more on select/expand/
+  zoom; 44px targets; safe areas, `dvh` and `visualViewport`; reduced-motion respected.
+- **LinkedIn**: OAuth sync is *not connected* (needs LinkedIn partner approval) and the UI
+  says so; import uses the user's own data export, processed in the browser.
 
 **EN / 中文** switches UI chrome only; all data stays English. `window.__map` exposes a
 debug/automation handle.
