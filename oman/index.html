@@ -439,6 +439,84 @@
   .mini .tx b{display:block;font-size:13.5px}
   .mini .tx span{font-size:12px;color:var(--ink-dim)}
 
+  /* ---------- nudges: intro (act I), starting options, "the map becomes yours", next step pill ---------- */
+  #intro{position:fixed;inset:0;z-index:60;display:grid;place-items:center;padding:24px calc(18px + var(--sar)) calc(24px + var(--sab)) calc(18px + var(--sal));
+         background:radial-gradient(ellipse 60% 52% at 50% 50%,rgba(10,17,32,.72) 0%,rgba(10,17,32,.38) 58%,rgba(10,17,32,.08) 100%);
+         transition:opacity .4s ease;cursor:pointer}
+  #intro[hidden]{display:none}
+  #intro.out{opacity:0;pointer-events:none}
+  .in-card{max-width:560px;text-align:center;cursor:default;animation:inRise .9s .35s both cubic-bezier(.2,.7,.2,1)}
+  .in-eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-hi);font-weight:600}
+  #intro h1{font-family:var(--display);font-size:clamp(32px,5.4vw,52px);line-height:1.08;letter-spacing:-.025em;font-weight:600;margin-top:12px;
+            text-shadow:0 2px 24px rgba(10,17,32,.9)}
+  .in-l1{font-size:clamp(16px,2vw,19px);color:var(--ink);margin-top:14px;font-weight:500;text-shadow:0 1px 14px rgba(10,17,32,.95)}
+  .in-l2{font-size:clamp(14.5px,1.7vw,16px);color:var(--ink-dim);margin-top:4px;text-shadow:0 1px 14px rgba(10,17,32,.95)}
+  .in-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:26px}
+  .in-row .btn{min-height:48px;padding:0 20px;font-size:15px;border-radius:14px}
+  .in-go svg{transition:transform .2s}
+  .in-go:hover svg{transform:translateX(3px)}
+  .in-note{margin-top:14px;font-size:12.5px;color:var(--ink-faint);text-shadow:0 1px 10px rgba(10,17,32,.95)}
+  @keyframes inRise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  body.intro #topbar,body.intro #legend,body.intro #chipstrip,body.intro #mapctl,body.intro #stats,body.intro #nudge{opacity:0;pointer-events:none}
+  #topbar,#legend,#chipstrip,#mapctl{transition:opacity .5s ease}
+  .opts{display:flex;flex-direction:column;gap:8px;margin-top:14px}
+  .opt-b{display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:12px 14px;border-radius:14px;border:1px solid var(--line-2);
+         background:var(--bg-raise);min-height:60px;transition:border-color .15s,background .15s}
+  .opt-b:hover,.opt-b:focus-visible{border-color:var(--accent-br);background:var(--accent-soft)}
+  .opt-b .oi{width:36px;height:36px;border-radius:11px;flex:none;display:flex;align-items:center;justify-content:center;background:var(--accent-soft);color:var(--accent-hi)}
+  .opt-b .oi svg{width:18px;height:18px}
+  .opt-b b{display:block;font-size:14px;font-weight:600;color:var(--ink)}
+  .opt-b span.os{display:block;font-size:12.5px;color:var(--ink-dim);margin-top:1px}
+  .opt-b.ghosty .oi{background:var(--surface-2);color:var(--ink-dim)}
+  .opt-b > svg:last-child{margin-left:auto;color:var(--ink-faint);flex:none}
+  .yours .y-badge{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:600;color:var(--ok-ink);background:rgba(61,214,140,.12);
+                  border:1px solid rgba(61,214,140,.3);border-radius:999px;padding:3px 10px 3px 7px}
+  .yours h3{margin-top:9px;animation:inRise .6s both cubic-bezier(.2,.7,.2,1)}
+  .reachbox{margin-top:12px;padding:12px 14px;border-radius:14px;background:linear-gradient(135deg,rgba(124,140,255,.16),rgba(124,140,255,.05));
+            border:1px solid var(--accent-br)}
+  .rc-num{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 8px}
+  .rc-num b{font-family:var(--display);font-size:30px;font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+  .rc-num > span{font-size:13.5px;color:var(--ink-dim)}
+  .rc-delta{font-size:12px;font-weight:600;color:var(--ok-ink);background:rgba(61,214,140,.12);border-radius:999px;padding:2px 8px;margin-left:auto}
+  .reachbox .tsmall{margin-top:4px !important}
+  .rc-top{font-size:13px;color:var(--ink-dim);margin-top:4px;line-height:1.6}
+  .rc-top .linkbtn{padding:0;font-size:13px;display:inline}
+  .doors{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:12px;padding:10px 12px;border-radius:12px;border:1px dashed var(--line-2)}
+  .doors > span{font-size:13px;color:var(--ink-dim);flex:1;min-width:160px}
+  .rt-head{display:flex;align-items:flex-start;gap:8px;flex-wrap:wrap}
+  .rt-head .rt-t{font-weight:700;color:var(--ink);font-size:14px}
+  .rt-head .rt-m{font-size:12.5px;color:var(--ink-dim);width:100%}
+  .rt-start{font-size:12.5px;color:var(--accent-hi);margin-top:6px;display:flex;gap:6px;align-items:center}
+  .rt-acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+  .btn.saved{color:var(--warn-ink);border-color:rgba(242,181,68,.5)}
+  .btn.saved svg,.linkbtn.saved svg{fill:currentColor}
+  .linkbtn.saved{color:var(--warn-ink)}
+  .linkbtn svg.i{width:13px;height:13px;vertical-align:-2px}
+  .rt-none{font-size:12.5px;color:var(--ink-faint);margin-top:8px}
+  .sv-row{display:flex;align-items:center;gap:10px;padding:9px 4px;border-bottom:1px solid var(--line);cursor:pointer;border-radius:8px}
+  .sv-row:hover{background:var(--surface-2)}
+  .sv-row .tx{flex:1;min-width:0}
+  .sv-row .tx b{display:block;font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .sv-row .tx span{font-size:12px;color:var(--ink-dim)}
+  .sv-row .st{font-size:12px;color:var(--accent-hi);white-space:nowrap}
+  .sv-row .st.none{color:var(--ink-faint)}
+  #nudge{position:fixed;z-index:23;left:50%;bottom:calc(44px + var(--sab));transform:translate(-50%,14px);opacity:0;pointer-events:none;
+         display:flex;align-items:center;gap:10px;padding:7px 7px 7px 10px;border-radius:999px;background:var(--glass);border:1px solid var(--accent-br);
+         box-shadow:var(--shadow),0 0 0 4px rgba(124,140,255,.08);max-width:min(680px,calc(100vw - 32px));width:max-content;
+         transition:opacity .35s ease,transform .35s cubic-bezier(.2,.7,.2,1)}
+  #nudge.show{opacity:1;transform:translate(-50%,0);pointer-events:auto}
+  body.toasting #nudge,body.touring #nudge{opacity:0 !important;pointer-events:none !important}
+  body.nudging #hint{bottom:calc(150px + var(--sab))}
+  #nudge .nz-ic{width:30px;height:30px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;background:var(--accent-soft);color:var(--accent-hi)}
+  #nudge .nz-ic svg{width:15px;height:15px}
+  #nudge .nz-t{font-size:13.5px;color:var(--ink);font-weight:500;min-width:0}
+  #nudge .nz-go{display:inline-flex;align-items:center;gap:4px;height:34px;padding:0 12px 0 14px;border-radius:999px;background:var(--accent);color:#0A1120;
+                font-weight:700;font-size:13px;white-space:nowrap;flex:none}
+  #nudge .nz-go svg{width:14px;height:14px}
+  #nudge .nz-x{width:30px;height:30px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;color:var(--ink-faint)}
+  #nudge .nz-x:hover{color:var(--ink);background:var(--surface-2)}
+  #nudge .nz-x svg{width:14px;height:14px}
+
   @media (prefers-reduced-motion: reduce){
     *,*::before,*::after{transition:none !important;animation:none !important;scroll-behavior:auto !important}
   }
@@ -474,6 +552,15 @@
     body::before{content:"";position:fixed;z-index:19;left:0;right:0;top:0;height:calc(116px + var(--sat));pointer-events:none;
                  background:linear-gradient(to bottom,rgba(10,17,32,.97) 0,rgba(10,17,32,.94) 76%,rgba(10,17,32,0) 100%);transition:opacity .25s}
     body.immersive::before{opacity:0}
+    #nudge{left:calc(10px + var(--sal));right:calc(66px + var(--sar));bottom:calc(16px + var(--sab));transform:translateY(14px);width:auto;max-width:none;
+           border-radius:20px;padding:7px 6px 7px 9px;gap:8px}
+    #nudge.show{transform:none}
+    #nudge{flex-wrap:wrap;row-gap:6px}
+    #nudge .nz-t{font-size:13px;line-height:1.3;flex:1 1 150px}
+    #nudge .nz-go{height:36px;padding:0 10px 0 12px;margin-left:auto}
+    #nudge .nz-x{width:36px;height:36px}
+    body.immersive #nudge{opacity:0;pointer-events:none}
+    .in-row .btn{width:100%;max-width:320px;justify-content:center}
     .schip{flex:none;display:inline-flex;align-items:center;gap:7px;height:38px;padding:0 13px 0 5px;border-radius:999px;background:var(--glass);
            border:1px solid var(--line);font-size:13px;color:var(--ink-dim);white-space:nowrap}
     .schip .ic{width:28px;height:28px;border-radius:50%}
@@ -571,6 +658,8 @@
 
 <div id="tip"></div>
 <div id="toast" role="status" aria-live="polite"></div>
+<div id="nudge" role="status" aria-live="polite"></div>
+<div id="intro" hidden role="dialog" aria-labelledby="intro-t"></div>
 <div id="stats"></div>
 <div id="hint"></div>
 
@@ -659,6 +748,8 @@ const IC = {
   globe:"M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18",
   approx:"M5 9.5c2.3-2 4.7 2 7 0s4.7-2 7 0M5 15c2.3-2 4.7 2 7 0s4.7-2 7 0",
   diamond:"M12 3l9 9-9 9-9-9 9-9z",
+  compass:"M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM15.5 8.5l-2 5-5 2 2-5 5-2z",
+  star:"M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9L12 3.5z",
 };
 function svgI(name, cls){
   return `<svg class="i${cls ? " " + cls : ""}" viewBox="0 0 24 24" aria-hidden="true"><path d="${IC[name] || IC.info}"/></svg>`;
@@ -821,17 +912,42 @@ const I18N = {
               reach:"In your network", news:"News signal"},
     ctl:{zin:"Zoom in", zout:"Zoom out", fit:"Fit selection", center:"Recenter", full:"Full screen", unfull:"Exit full screen", key:"Map key"},
     gestureHint:"Tap a dot to explore · pinch to zoom",
-    tour1:"Navigate", tour2:"Locate yourself", tour3:"Find your path",
-    t1Title:"Explore the landscape.", t1Lead:"Discover people, industries, and connections.",
-    t1Body:"NavGCC maps who's who in {region}. Each colored area is an industry, each dot a person or organization, and each line a relationship from the public record.",
-    t1Try:"Try it: tap an industry below, or any dot on the map.", t1Tapped:"That's a profile: role, industry and connections.",
+    tour1:"Navigate", tour2:"Find your place", tour3:"Discover your path",
+    t1Title:"Discover the network.", t1Lead:"Every connection starts somewhere.",
+    t1Body:"Each colored area is an industry in {region}, each dot a person or organization, and each line a relationship from the public record.",
+    t1Try:"Tap an industry, or any dot on the map.", t1Tapped:"See where this connection leads: every line is a relationship.",
+    introTitle:"A world of connections.", introL1:"People. Companies. Opportunities.", introL2:"All connected. Waiting to be explored.",
+    introGo:"Explore the map", introNote:"No sign-up needed. Your contacts stay in your browser.",
+    ghostLabel:"Your starting point",
+    optLi:"Import LinkedIn connections", optLiSub:"Upload your connections export, read in your browser.",
+    optName:"Add someone you know", optNameSub:"Find them on the map by name.",
+    optGuest:"Explore as a guest", optGuestSub:"Look around first. Add people any time.",
+    t2Back:"Other ways to start", guestToast:"Exploring as a guest. Add someone you know any time to see your paths.",
+    yoursBadge:"You're on the map", yoursDemo:"Demo: you're on the map",
+    yoursTitle:"The map becomes yours.", yoursLead:"You are no longer looking at a network. You are part of it.",
+    reachLbl:"key people within 2 introductions", reachDelta:"+{n} through {name}", reachSub:"Including {names}.",
+    reachNote:"Possible introductions through relationships on the public record, not relationships you have.",
+    moreDoors:"One connection can open many doors.", addAnother:"Add another connection",
+    pathBestT:"Your best available path", pathOneT:"Your available path", pathAltT:"Another available path",
+    connN:"{n} connections", conn1:"1 connection", introsN:"{n} introductions", intros1:"1 introduction", intros0:"no introductions",
+    startWith:"Start with someone you already know: {name}.", startWithOrg:"Start with your contacts at {name}.",
+    explorePath:"Explore this path", anotherRoute:"Find another route",
+    noOtherRoute:"No other route on the public record yet. Each person you add can open new ones.",
+    saveTarget:"Save target", savedTarget:"Saved", savedToast:"{name} saved. Your saved targets live in My Network.",
+    savedToastNo:"{name} saved. You'll see when someone you add opens a path.", unsavedToast:"{name} removed from saved targets.",
+    newPathToast:"New path to {name}: {n} introductions away.", closerToast:"{name} is now {n} introductions away.",
+    savedTitle:"Saved targets", savedNoRoute:"No path yet", routeN:"Route {i}",
+    nzStart:"Start with someone you know.", nzStartCta:"Add someone",
+    nzMore:"One connection can open many doors.", nzMoreCta:"Add another",
+    nzReach1:"{name} is 1 introduction away.", nzReachN:"{name} is {n} introductions away.", nzReachCta:"See the path",
+    nzDismiss:"Dismiss", addedReach:"{name} added · +{n} key people within reach",
     t1Hl:"Industry highlighted. Tap more to compare, or Reset in the key.",
-    t2Title:"Add people you know.", t2Lead:"Find your place on the map.",
+    t2Title:"Every network has a starting point.", t2Lead:"Let's find yours.",
     t2Demo:"Demo: “You (demo)” knows three sample contacts. Real contacts are never mixed in.",
     t2Located:"You're on the map, connected to {n} people.",
     t2LocatedOrg:"You're on the map, connected to {n} organizations through your contacts.",
     t2Skip:"Not now?", t2ExploreFirst:"Skip and explore the map first",
-    t3Title:"Choose who you want to meet.", t3Lead:"Discover a path through your network.",
+    t3Title:"Every opportunity has a path.", t3Lead:"Discover how your existing relationships can take you further.",
     t3NeedMe:"Paths start from people you know. Add someone first, or try the demo.",
     t3Suggested:"Suggested — 2 to 5 introductions away", t3Tap:"Or tap anyone on the map.", t3Other:"Search for someone else",
     t3SeeSteps:"Every step and its evidence is listed in the panel on the right.",
@@ -950,16 +1066,41 @@ const I18N = {
     keyShape:{person:"人物", gov:"政府机构", sov:"主权基金", org:"公司 / 组织", you:"你", reach:"在你的人脉中", news:"新闻信号"},
     ctl:{zin:"放大", zout:"缩小", fit:"适配所选", center:"重新居中", full:"全屏", unfull:"退出全屏", key:"图例"},
     gestureHint:"点击圆点探索 · 双指缩放",
-    tour1:"导览", tour2:"定位自己", tour3:"找到路径",
-    t1Title:"探索全景。", t1Lead:"发现人物、行业与关系。",
-    t1Body:"NavGCC 描绘了 {region} 的关键人物。每个彩色区域是一个行业，每个圆点是一位人物或一家机构，每条线是一段来自公开记录的关系。",
-    t1Try:"试试看：点击下方的行业，或地图上的任意圆点。", t1Tapped:"这是一份档案：职务、行业与关系。",
+    tour1:"导航", tour2:"找到你的位置", tour3:"发现你的路径",
+    t1Title:"发现这张网络。", t1Lead:"每一段关系都有起点。",
+    t1Body:"每个彩色区域是 {region} 的一个行业，每个圆点是一位人物或一家机构，每条线是一段来自公开记录的关系。",
+    t1Try:"点击一个行业，或地图上的任意圆点。", t1Tapped:"看看这段关系通向哪里：每条线都是一段关系。",
+    introTitle:"一个由关系构成的世界。", introL1:"人物。公司。机遇。", introL2:"彼此相连，等你探索。",
+    introGo:"探索地图", introNote:"无需注册。你的联系人只保存在你的浏览器中。",
+    ghostLabel:"你的起点",
+    optLi:"导入 LinkedIn 联系人", optLiSub:"上传你的联系人导出文件，在浏览器中读取。",
+    optName:"添加一位你认识的人", optNameSub:"按姓名在地图上找到对方。",
+    optGuest:"以访客身份探索", optGuestSub:"先四处看看，随时可以添加联系人。",
+    t2Back:"其他开始方式", guestToast:"正在以访客身份探索。随时添加你认识的人，即可看到你的路径。",
+    yoursBadge:"你已在地图上", yoursDemo:"演示：你已在地图上",
+    yoursTitle:"这张地图属于你了。", yoursLead:"你不再只是旁观一张网络，而是其中的一部分。",
+    reachLbl:"位关键人物在 2 次引荐之内", reachDelta:"经由 {name} 新增 {n} 位", reachSub:"包括 {names}。",
+    reachNote:"这是基于公开记录关系的可能引荐，并非你已有的关系。",
+    moreDoors:"一段关系，可以打开许多扇门。", addAnother:"再添加一位联系人",
+    pathBestT:"你的最佳可用路径", pathOneT:"你的可用路径", pathAltT:"另一条可用路径",
+    connN:"{n} 段连接", conn1:"1 段连接", introsN:"{n} 次引荐", intros1:"1 次引荐", intros0:"无需引荐",
+    startWith:"从你已经认识的人开始：{name}。", startWithOrg:"从你在 {name} 的联系人开始。",
+    explorePath:"查看这条路径", anotherRoute:"寻找其他路线",
+    noOtherRoute:"公开记录中暂无其他路线。每添加一位联系人，都可能打开新的路线。",
+    saveTarget:"保存目标", savedTarget:"已保存", savedToast:"已保存 {name}。已保存的目标在“我的人脉”中。",
+    savedToastNo:"已保存 {name}。当你添加的人打开一条路径时，你会看到提示。", unsavedToast:"已将 {name} 移出已保存目标。",
+    newPathToast:"发现通往 {name} 的新路径：相隔 {n} 次引荐。", closerToast:"{name} 现在只相隔 {n} 次引荐。",
+    savedTitle:"已保存的目标", savedNoRoute:"暂无路径", routeN:"路线 {i}",
+    nzStart:"从你认识的人开始。", nzStartCta:"添加联系人",
+    nzMore:"一段关系，可以打开许多扇门。", nzMoreCta:"再添加一位",
+    nzReach1:"{name} 只相隔 1 次引荐。", nzReachN:"{name} 相隔 {n} 次引荐。", nzReachCta:"查看路径",
+    nzDismiss:"关闭", addedReach:"已添加 {name} · 可触达的关键人物 +{n}",
     t1Hl:"已高亮该行业。可继续点击对比，或在图例中重置。",
-    t2Title:"添加你认识的人。", t2Lead:"在地图上找到你的位置。",
+    t2Title:"每张人脉网络都有一个起点。", t2Lead:"让我们找到你的起点。",
     t2Demo:"演示：“你（演示）”认识三位示例联系人，绝不会混入真实联系人。",
     t2Located:"你已出现在地图上，与 {n} 位人物相连。", t2LocatedOrg:"你已出现在地图上，经由联系人与 {n} 家机构相连。",
     t2Skip:"现在不想添加？", t2ExploreFirst:"跳过，先探索地图",
-    t3Title:"选择你想结识的人。", t3Lead:"发现一条穿过你人脉的路径。",
+    t3Title:"每个机遇都有一条路径。", t3Lead:"看看你现有的关系能带你走多远。",
     t3NeedMe:"路径从你认识的人开始。请先添加一位联系人，或试用演示。",
     t3Suggested:"推荐——相隔 2 到 5 次引荐", t3Tap:"或点击地图上的任何人。", t3Other:"搜索其他人", t3SeeSteps:"右侧面板列出了每一步及其依据。",
     showPath:"路径", skipTour:"跳过导览", replay:"重播", back:"上一步", finish:"开始探索",
@@ -1521,6 +1662,7 @@ function meCluster(){
 }
 function rebuildPersonal(animate){
   const prev = ME ? {x:ME.x, y:ME.y} : null;
+  const prevN = REACH ? REACH.n : 0, prevAnchors = new Set(meAnchors().map(n => n.id));
   stripLayer();
   ME = null;
   nodes.forEach(n => { n.contacts = []; n.myDirect = false; n.myConf = null; });
@@ -1578,11 +1720,20 @@ function rebuildPersonal(animate){
   if(S.pathArm && !alive.has(S.pathArm.node)) S.pathArm = null;
   [...S.expanded].forEach(n => { if(!alive.has(n)) S.expanded.delete(n); });
   if(S.view !== "network") computeLayout();
+  REACH = computeReach();
+  if(REACH){
+    const fresh = meAnchors().filter(n => !prevAnchors.has(n.id));
+    REACH.delta = REACH.n - prevN;
+    REACH.via = fresh.length === 1 ? fresh[0] : null;
+    if(animate && !RM) REACH.t0 = performance.now();          // the reach ripple
+  }
   computeVisible();
   renderMyNetBtn();
   updateStats();
   if(animate && ME) setTimeout(() => fitNodes(meCluster(), {ms:850, maxK:1.15}), RM ? 0 : 60);
   Tour.onPersonal();
+  if(animate) Saved.checkNew();
+  Nudge.update();
 }
 function enterDemo(opts){
   if(DEMO.on) return;
@@ -1643,7 +1794,9 @@ const S = {
   lite:false, liteOff:false, showAll:false, liteSet:new Set(), liteLabelMin:90,
   cam:{x:0, y:0, k:0.48}, alpha:1,
   edgeFade:1, fade:null, pulse:null, hideMe:false, immersive:false,
+  dim:1, dimGoal:1, reveal:null, intro:false,
 };
+let MOUSE = null;            // last pointer position over the map (desktop): nearby nodes lean in
 let PANEL_MODE = null;       // what #detail is showing: profile | path | edge | noroute
 
 /* ---------- visibility, computed once per frame ---------- */
@@ -1687,10 +1840,10 @@ function edgeVisible(e){
   return VIS.has(e.s) && VIS.has(e.t);
 }
 /* phones start with the ~24 most important nodes; more appear as you select, expand or zoom */
-function computeLiteSet(){
+function computeLiteSet(size){
   const cand = nodes.filter(n => !n.layer && baseFilter(n) && !(n.kind === "person" && n.power < 56));
   cand.sort((a, b) => b.power - a.power || b.deg - a.deg);
-  const top = cand.slice(0, isMob() ? 24 : 60);
+  const top = cand.slice(0, size || (isMob() ? 24 : 60));
   S.liteSet = new Set(top);
   S.liteLabelMin = top.length ? top[Math.min(6, top.length - 1)].power : 90;
 }
@@ -1729,6 +1882,7 @@ function tickCam(now){
 function stopCam(){ camAnim = null; }
 function viewRect(){
   let l = 0, t = 0, r = W, b = H;
+  if(S.intro) return {l, t, r, b, w:W, h:H, cx:W / 2, cy:H / 2};          // the intro owns the whole screen
   if(isMob()){
     const cs = document.getElementById("chipstrip").getBoundingClientRect();
     t = S.immersive ? 12 : Math.max(60, cs.bottom + 4);
@@ -2136,6 +2290,34 @@ function suggestTargets(n){
   }
   return out;
 }
+/* who you could reach: for every node, how many steps of introduction stand between you and it
+   (each person counts, and so does a hop from one organization to another; sitting in the same
+   organization does not). The number shown is relevant people, not node counts: key people
+   (power 70+, outside the ruling core) within 2 introductions, beyond the people you already know. */
+let REACH = null;            // {d:Map(node→people on the way), par:Map(node→node), n, delta, via, t0}
+function computeReach(){
+  if(!ME) return null;
+  const MAXD = 3, d = new Map([[ME, 0]]), par = new Map(), B = [[ME], [], [], []];
+  for(let k = 0; k <= MAXD; k++){
+    const q = B[k];
+    for(let i = 0; i < q.length; i++){
+      const n = q[i];
+      if(d.get(n) !== k) continue;
+      for(const ad of n.adj){
+        const e = ad.e, m = ad.n;
+        if(e.kind === "pot" || e.former || m.kind === "me") continue;
+        if(e.me && n !== ME) continue;
+        const c = k + (m.kind === "person" || e.kind === "minei" || (n.kind === "inst" && m.kind === "inst") ? 1 : 0);
+        if(c > MAXD || (d.has(m) && d.get(m) <= c)) continue;
+        d.set(m, c); par.set(m, n); B[c].push(m);
+      }
+    }
+  }
+  const key = [];
+  d.forEach((v, n) => { if(n.kind === "person" && !n.layer && !n.myDirect && v >= 2 && n.power >= 70 && n.tier > 0) key.push(n); });
+  key.sort((a, b) => b.power - a.power);
+  return {d, par, n:key.length, top:key.slice(0, 3), delta:0, via:null, t0:0};
+}
 
 /* ================================================================
    RENDER
@@ -2410,6 +2592,13 @@ function draw(now){
   const P = S.path, pAge = P ? now - P.t0 : 0;
   const hlOn = S.hl.size > 0;
   const meAge = ME && ME.born ? now - ME.born : 1e9;
+  /* the network steps back while you find your place; it also unfolds from the center on a first visit */
+  S.dim += (S.dimGoal - S.dim) * (RM ? 1 : 0.08);
+  const dimF = S.dim;
+  const rv = S.reveal ? now - S.reveal.t0 : -1;
+  if(rv > 2800) S.reveal = null;
+  const rvEdge = rv >= 0 ? Math.max(0, Math.min(1, (rv - 800) / 1200)) : 1;
+  const prox = (MOUSE && !RM && !P && !lit && !dragNode && !isMob()) ? MOUSE : null;
 
   /* ---- edges ---- */
   for(const e of edges){
@@ -2459,7 +2648,7 @@ function draw(now){
       if(a1 && a2) alpha = Math.min(0.75, alpha * 1.9); else if(a1 || a2) alpha *= 0.5; else alpha *= 0.1;
     }
     if(e === S.selectedEdge){ col = C.white; alpha = 0.95; width = 2.2; glow = 8; }
-    if(!onPath && !e.layer) alpha *= S.edgeFade;
+    if(!onPath && !e.layer) alpha *= S.edgeFade * dimF * rvEdge;
     if(e.me && meAge < 2400){                       // your links grow out from you as you appear
       const p = Math.max(0, Math.min(1, (meAge - 450 - (e.ord || 0) * 150) / 420));
       if(p <= 0) continue;
@@ -2490,6 +2679,17 @@ function draw(now){
     else if(hoverSet) a = hoverSet.has(n) ? 1 : 0.4;
     else if(S.askSet) a = S.askSet.has(n) ? 1 : 0.14;
     else if(hlOn) a = (S.hl.has(groupOf(n)) || n.layer) ? 1 : 0.13;
+    if(!n.layer && dimF < 0.999) a *= dimF;
+    if(rv >= 0 && !n.layer){
+      const rd = Math.min(1, Math.hypot(x - W / 2, y - H / 2) / (0.6 * Math.hypot(W, H)));
+      const u = Math.max(0, Math.min(1, (rv - rd * 1500) / 600));
+      if(u <= 0) continue;
+      a *= u; r *= 0.45 + 0.55 * u;
+    }
+    if(prox){                                         // nodes near the pointer lean in, gently
+      const dd = Math.hypot(x - prox[0], y - prox[1]);
+      if(dd < 120){ const f = 1 - dd / 120; r *= 1 + 0.22 * f * f; a += (1 - a) * 0.35 * f; }
+    }
     const selected = n === S.selected || (S.pathArm && n === S.pathArm.node), hovered = n === S.hovered;
     if(n.kind === "me"){
       if(meAge < 700) r *= Math.max(0, easeBack(meAge / 700));
@@ -2536,10 +2736,50 @@ function draw(now){
     ctx.globalAlpha = 1;
     if(a > 0.2 && labelEligible(n, lit, hoverSet)) labels.push({n, x, y, r, a, prio:labelPrio(n, lit)});
   }
-  /* district tags step back while you are following a route or a selection */
-  const quiet = P ? 0.22 : (lit ? 0.5 : 1);
+  if(REACH && REACH.t0 && !P){
+    const age = now - REACH.t0;
+    if(age > 3800) REACH.t0 = 0; else drawRipple(age);
+  }
+  if(S.intro) return;                              // act I is the constellation alone: no names yet
+  /* district tags step back while you are following a route or a selection, or finding your place */
+  let quiet = P ? 0.22 : (lit ? 0.5 : 1);
+  if(dimF < 0.98) quiet = Math.min(quiet, 0.2 + 0.8 * Math.max(0, (dimF - 0.32) / 0.68));
   const tags = S.view === "sector" ? drawDistrictLabels(quiet) : [];
-  drawLabels(labels, (quiet < 1 ? [] : tags).concat(heroBoxes));
+  drawLabels(S.dimGoal < 1 ? labels.filter(L => L.n.layer) : labels, (quiet < 1 ? [] : tags).concat(heroBoxes));
+  if(!ME && S.dim < 0.95){ const vr = viewRect(); drawGhost(vr.cx, vr.cy, now, (1 - S.dim) / 0.6); }
+}
+/* "you are here" waves out through the people you could now reach, nearest first */
+function drawRipple(age){
+  REACH.d.forEach((lv, n) => {
+    if(n.kind === "me" || !VIS.has(n)) return;
+    const lt = age - (650 + lv * 430);
+    if(lt <= 0 || lt >= 1300) return;
+    const [x, y] = toScreen(n.x, n.y);
+    if(x < -30 || x > W + 30 || y < -30 || y > H + 30) return;
+    const p = lt / 1300, k = lv <= 2 ? 0.8 : 0.42, r = nodeR(n), pn = REACH.par.get(n);
+    if(pn && lv <= 2 && p < 0.6 && VIS.has(pn)){
+      const [px, py] = toScreen(pn.x, pn.y);
+      ctx.strokeStyle = `rgba(${C.accentRGB},${((0.6 - p) * 0.9).toFixed(3)})`; ctx.lineWidth = 1.4;
+      ctx.beginPath(); ctx.moveTo(px, py); ctx.lineTo(x, y); ctx.stroke();
+    }
+    ctx.strokeStyle = `rgba(${C.accentRGB},${((1 - p) * k).toFixed(3)})`; ctx.lineWidth = 1.6;
+    ctx.beginPath(); ctx.arc(x, y, r + 3 + p * 12, 0, Math.PI * 2); ctx.stroke();
+  });
+}
+/* the empty starting point shown while you choose how to put yourself on the map */
+function drawGhost(x, y, now, al){
+  const p = RM ? 0.5 : (Math.sin(now / 480) + 1) / 2, R = 46 + p * 10;
+  ctx.globalAlpha = Math.max(0, Math.min(1, al));
+  const g = ctx.createRadialGradient(x, y, 0, x, y, R);
+  g.addColorStop(0, `rgba(${C.accentRGB},.5)`); g.addColorStop(1, `rgba(${C.accentRGB},0)`);
+  ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, R, 0, Math.PI * 2); ctx.fill();
+  ctx.setLineDash([3, 4]); ctx.strokeStyle = "rgba(255,255,255,.85)"; ctx.lineWidth = 1.6;
+  ctx.beginPath(); ctx.arc(x, y, 13 + p * 2, 0, Math.PI * 2); ctx.stroke(); ctx.setLineDash([]);
+  ctx.fillStyle = C.accent; ctx.beginPath(); ctx.arc(x, y, 6, 0, Math.PI * 2); ctx.fill();
+  ctx.font = `600 12.5px ${FONT}`; ctx.textAlign = "center"; ctx.lineJoin = "round";
+  ctx.lineWidth = 4; ctx.strokeStyle = C.halo; ctx.strokeText(t().ghostLabel, x, y + 36);
+  ctx.fillStyle = C.ink; ctx.fillText(t().ghostLabel, x, y + 36);
+  ctx.globalAlpha = 1;
 }
 
 /* ---------- main loop ---------- */
@@ -2628,9 +2868,11 @@ window.addEventListener("mousemove", ev => {
     return;
   }
   if(ev.target !== canvas){
+    MOUSE = ev.target.closest && ev.target.closest("#intro") && !ev.target.closest(".in-card") ? [ev.clientX, ev.clientY] : null;
     if(S.hovered){ S.hovered = null; tipEl.style.display = "none"; canvas.style.cursor = "grab"; }
     return;
   }
+  MOUSE = [ev.clientX, ev.clientY];
   const n = pick(ev.clientX, ev.clientY);
   S.hovered = n;
   canvas.style.cursor = n ? "pointer" : "grab";
@@ -2656,6 +2898,7 @@ window.addEventListener("mouseup", ev => {
   dragNode = null; panning = false; lastM = null;
   canvas.classList.remove("dragging");
 });
+document.addEventListener("mouseleave", () => { MOUSE = null; });
 canvas.addEventListener("dblclick", ev => {
   const n = pick(ev.clientX, ev.clientY);
   if(n){ S.focus = (S.focus === n) ? null : n; reheat(0.4); if(S.selected === n) renderProfile(n, true); }
@@ -2930,7 +3173,7 @@ function accessCallout(n){
   if(!res.routes.length) return `<div class="callout"><b>${T.accTitle}</b><div style="margin-top:4px">${T.accNone}</div></div>`;
   const r = res.routes[0];
   const chain = r.nodes.map((x, i) => (i ? "<i> → </i>" : "") + esc(i === 0 ? T.you : nm(x))).join("");
-  return `<div class="callout access"><b>${T.accBest}</b> · ${introText(r)}<div class="chain">${chain}</div>`
+  return `<div class="callout access"><b>${routeTitle(res.routes, 0)}</b> · ${routeMeta(r)}<div class="chain">${chain}</div>`
        + `<div class="rt-sum">${["confirmed", "unverified", "potential", "demo"].filter(c => r.cnt[c]).map(c => clsTag(c, r.cnt[c])).join("")}</div>`
        + `<div class="row"><button class="btn sm primary" data-act="path">${svgI("route")} ${T.showRoute}</button>`
        + (res.routes.length > 1 ? `<span class="plab" style="align-self:center">${fmt(T.moreRoutes, {n:res.routes.length - 1})}</span>` : "")
@@ -2940,6 +3183,56 @@ function introText(r){
   const T = t();
   if(r.nodes.length <= 2) return r.hops[0] && r.hops[0].cls === "potential" ? T.introEntry : T.introDirect;
   return r.intros === 1 ? T.intro1 : fmt(T.introN, {n:r.intros || 1});
+}
+/* a route is called "best" only when the evidence supports it: clearly cheaper than the next one,
+   and no hop that rests on a shared organization or on unnamed contacts */
+function routeIsBest(routes, i){
+  return i === 0 && routes.length > 1 && routes[0].cost < routes[1].cost - 0.05 && !routes[0].cnt.potential;
+}
+function routeTitle(routes, i){ const T = t(); return routeIsBest(routes, i) ? T.pathBestT : i === 0 ? T.pathOneT : T.pathAltT; }
+function routeMeta(r){
+  const T = t(), i = r.intros || 0, c = i + 1;
+  return `${c === 1 ? T.conn1 : fmt(T.connN, {n:c})} · ${i === 0 ? T.intros0 : i === 1 ? T.intros1 : fmt(T.introsN, {n:i})}`;
+}
+function routeStart(r){
+  const T = t(), v = r.nodes[1];
+  if(!v) return "";
+  return fmt(v.kind === "person" ? T.startWith : T.startWithOrg, {name:esc(nm(v))});
+}
+function altLabel(routes, i){ const T = t(); return `${routeIsBest(routes, i) ? T.best + " · " : ""}${T.via} ${esc(viaName(routes[i]))}`; }
+function routeActsHtml(target, attr){
+  const T = t(), sv = Saved.has(target);
+  return `<div class="rt-acts"><button class="btn sm primary" type="button" ${attr}="explorePath">${T.explorePath} ${svgI("chevR")}</button>`
+       + `<button class="btn sm" type="button" ${attr}="anotherRoute">${svgI("route")} ${T.anotherRoute}</button>`
+       + (target.layer ? "" : `<button class="btn sm${sv ? " saved" : ""}" type="button" ${attr}="saveTarget" aria-pressed="${sv}">${svgI("star")} ${sv ? T.savedTarget : T.saveTarget}</button>`)
+       + `</div>`;
+}
+/* "Explore this path": walk it from you, one stop at a time */
+function explorePath(){
+  if(!S.path) return;
+  stepPath(S.pathStep < 0 || S.pathStep >= S.path.nodes.length - 1 ? 0 : S.pathStep + 1);
+  if(isMob() && PANEL_MODE === "path" && detailEl.classList.contains("open")) Sheets.setState(detailEl, "half");
+}
+/* "Find another route": next alternative, or say honestly that there is none yet */
+function anotherRoute(){
+  const T = t();
+  if(!PV) return;
+  if(PV.routes.length < 2){ toast(T.noOtherRoute, {ms:5200, action:T.actAddSomeone, fn:() => onAction("locate", document.body)}); return; }
+  PV.idx = (PV.idx + 1) % PV.routes.length;
+  setRoute(PV.routes[PV.idx]);
+  if(PANEL_MODE === "path") renderPath();
+  if(Tour.active) Tour.refresh();
+}
+function countUp(el, from, to){
+  if(RM || from === to){ el.textContent = to; return; }
+  const t0 = performance.now(), ms = 900;
+  const step = now => {
+    if(!el.isConnected) return;
+    const u = Math.min(1, (now - t0) / ms), e = 1 - Math.pow(1 - u, 3);
+    el.textContent = Math.round(from + (to - from) * e);
+    if(u < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
 }
 function profileHtml(n){
   const T = t();
@@ -2961,6 +3254,7 @@ function profileHtml(n){
   h += `</div><div class="pf-links">`
      + (n.demo ? "" : `<button class="linkbtn" data-act="focus">${S.focus === n ? T.actUnfocus : T.actFocus}</button>`)
      + `<button class="linkbtn" data-act="arm">${T.pathBtn}</button>`
+     + (n.demo || n.myDirect ? "" : `<button class="linkbtn${Saved.has(n) ? " saved" : ""}" data-act="saveTarget" aria-pressed="${Saved.has(n)}">${svgI("star")} ${Saved.has(n) ? T.savedTarget : T.saveTarget}</button>`)
      + (!n.demo ? `<a class="linkbtn" target="_blank" rel="noopener" href="https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(liQuery(n))}">${T.liSearch} ${svgI("ext")}</a>` : "")
      + `</div>`;
   h += accessCallout(n);
@@ -3076,11 +3370,15 @@ function renderPath(){
   PANEL_MODE = "path";
   let h = `<div class="eyebrow">${svgI("route")} ${PV.from ? T.pathBetween : T.pathTo}</div>`
         + `<div class="pf-head">${avatarHtml(tg)}<div class="pf-tt"><h2>${esc(nm(tg))}</h2>`
-        + `<div class="pf-role">${PV.routes.length > 1 ? fmt(T.routeOf, {i:PV.idx + 1, n:PV.routes.length}) + " · " : ""}${introText(r)}</div></div></div>`;
+        + `<div class="pf-role">${PV.from ? introText(r) : routeTitle(PV.routes, PV.idx)}</div></div></div>`;
+  if(!PV.from)
+    h += `<div class="rt-head"><span class="rt-m">${routeMeta(r)}${PV.routes.length > 1 ? " · " + fmt(T.routeOf, {i:PV.idx + 1, n:PV.routes.length}) : ""}</span></div>`
+       + `<div class="rt-start">${svgI("person")} ${routeStart(r)}</div>`;
   if(PV.routes.length > 1)
     h += `<div class="rt-alts" role="tablist">` + PV.routes.map((rr, i) =>
-      `<button class="rt-alt${i === PV.idx ? " on" : ""}" data-alt="${i}" role="tab" aria-selected="${i === PV.idx}">${i === 0 ? T.best + " · " : ""}${T.via} ${esc(viaName(rr))}</button>`).join("") + `</div>`;
+      `<button class="rt-alt${i === PV.idx ? " on" : ""}" data-alt="${i}" role="tab" aria-selected="${i === PV.idx}">${altLabel(PV.routes, i)}</button>`).join("") + `</div>`;
   h += `<div class="rt-sum">${["confirmed", "unverified", "potential", "demo"].filter(c => r.cnt[c]).map(c => clsTag(c, r.cnt[c])).join("")}</div>`;
+  if(!PV.from) h += routeActsHtml(tg, "data-act");
   h += `<div class="steps" id="steps">`;
   r.nodes.forEach((n, i) => {
     const last = i === r.nodes.length - 1, hop = r.hops[i];
@@ -3101,7 +3399,7 @@ function renderPath(){
   h += `<div class="actrow"><button class="btn" data-act="openTarget">${T.openProfile}</button><button class="btn ghost" data-act="clearPath">${T.clearPath}</button></div>`;
   dbody.innerHTML = h;
   dbody.scrollTop = 0;
-  Sheets.setPeek(detailEl, dbody.querySelector(".rt-sum") || dbody.querySelector(".pf-head"));
+  Sheets.setPeek(detailEl, dbody.querySelector(".rt-acts") || dbody.querySelector(".rt-sum") || dbody.querySelector(".pf-head"));
 }
 function stepPath(i){
   if(!S.path) return;
@@ -3166,7 +3464,8 @@ function knowPerson(n){
   if(res.error) return;
   Acct.push();
   rebuildPersonal(true);
-  toast(fmt(t().addedToNet, {name:nm(n)}), {action:t().undo, fn:() => { Personal.forget(n.id); Acct.push(); rebuildPersonal(false); refreshPanels(); }});
+  const gain = REACH && REACH.delta > 0 ? REACH.delta : 0;
+  toast(gain ? fmt(t().addedReach, {name:nm(n), n:gain}) : fmt(t().addedToNet, {name:nm(n)}), {action:t().undo, fn:() => { Personal.forget(n.id); Acct.push(); rebuildPersonal(false); refreshPanels(); }});
   refreshPanels();
 }
 function unknowPerson(n){
@@ -3222,6 +3521,9 @@ function onAction(act, el){
     case "exploreInd": exploreIndustry(+el.getAttribute("data-g")); break;
     case "openTarget": { const tg = node && id ? node : (PV && PV.target); clearPath(); if(tg){ select(tg); centerOn(tg); } break; }
     case "clearPath": clearPath(); closeDetail(); break;
+    case "explorePath": explorePath(); break;
+    case "anotherRoute": anotherRoute(); break;
+    case "saveTarget": { const tg = PANEL_MODE === "path" && PV ? PV.target : n; if(tg) Saved.toggle(tg); break; }
   }
 }
 dbody.addEventListener("click", ev => {
@@ -3434,8 +3736,9 @@ function toast(msg, opts){
   el.innerHTML = `<span>${esc(msg)}</span>` + (opts.action ? `<button type="button">${esc(opts.action)}</button>` : "");
   if(opts.action) el.querySelector("button").onclick = () => { el.classList.remove("show"); if(opts.fn) opts.fn(); };
   el.classList.add("show");
+  document.body.classList.add("toasting");
   clearTimeout(el._t);
-  el._t = setTimeout(() => el.classList.remove("show"), opts.ms || (opts.action ? 5200 : 2800));
+  el._t = setTimeout(() => { el.classList.remove("show"); document.body.classList.remove("toasting"); }, opts.ms || (opts.action ? 5200 : 2800));
 }
 function maybeHint(){
   if(!isMob()) return;
@@ -3681,6 +3984,7 @@ function renderMyPanel(keep){
          + `<button class="btn sm ghost" type="button" data-dec="0" data-ci="${x.ci}">${T.mpNo}</button></div></div>`;
     });
   }
+  h += Saved.html();
   if(st) h += contactsHtml();
   h += `<div class="sect">${T.acctTitle}</div>` + acctHtml();
   if(st) h += `<div class="actrow"><button class="btn sm danger" type="button" data-mp="delete">${T.mpDelete}</button></div>`;
@@ -3739,7 +4043,7 @@ mpBody.addEventListener("click", ev => {
     } else if(act === "exitDemo"){ exitDemo(); renderMyPanel(true); }
     else if(act === "delete"){
       if(!window.confirm(T.mpDeleteConfirm)) return;
-      Acct.deleteRemote(); Personal.wipe(); rebuildPersonal(false);
+      Acct.deleteRemote(); Personal.wipe(); Saved.wipe(); rebuildPersonal(false);
       MP.result = {cls:"info", html:T.mpDeleted}; renderMyPanel();
     }
     return;
@@ -3750,6 +4054,8 @@ mpBody.addEventListener("click", ev => {
   if(chipF){ MP.mcFilter = chipF.getAttribute("data-f"); renderMyPanel(true); return; }
   const go = ev.target.closest("[data-go-p]");
   if(go){ const n = byId[go.getAttribute("data-go-p")]; if(n){ Sheets.close(myPanel, true); select(n); centerOn(n); } return; }
+  const svr = ev.target.closest("[data-sv]");
+  if(svr){ const n = byId[svr.getAttribute("data-sv")]; if(n){ Sheets.close(myPanel, true); showRoutes(n); } return; }
   const s = ev.target.closest(".mc-s");
   if(s){ Personal.setRel(+s.closest(".mc-edit").getAttribute("data-ecid"), {s:s.getAttribute("data-s")}); Acct.push(); rebuildPersonal(false); renderMyPanel(true); return; }
   const sv = ev.target.closest(".mc-save");
@@ -3765,6 +4071,144 @@ mpBody.addEventListener("click", ev => {
 });
 
 /* ================================================================
+   SAVED TARGETS — people you want to reach, kept in this browser.
+   When someone you add opens (or shortens) a path to one, you hear
+   about it right away.
+   ================================================================ */
+const Saved = (() => {
+  const K = "nv_saved_" + (location.pathname.split("/").filter(Boolean)[0] || "root");
+  let ids = [], best = new Map();               // id → introductions on the best route, -1 = none
+  try { ids = JSON.parse(localStorage.getItem(K) || "[]").filter(id => byId[id]); } catch(e){ ids = []; }
+  const save = () => { try { localStorage.setItem(K, JSON.stringify(ids)); } catch(e){} };
+  const has = n => !!n && ids.includes(n.id);
+  const list = () => ids.map(id => byId[id]).filter(Boolean);
+  const route = n => ME ? findRoutes(n, 1).routes[0] || null : null;
+  function snapshot(){ best = new Map(list().map(n => { const r = route(n); return [n.id, r ? r.intros : -1]; })); }
+  function toggle(n){
+    if(!n || n.layer) return;
+    const T = t();
+    if(has(n)){ ids = ids.filter(id => id !== n.id); save(); toast(fmt(T.unsavedToast, {name:nm(n)})); }
+    else {
+      ids.push(n.id); save();
+      const r = route(n); best.set(n.id, r ? r.intros : -1);
+      toast(fmt(r ? T.savedToast : T.savedToastNo, {name:nm(n)}), {ms:4200});
+    }
+    refreshPanels();
+    if(PANEL_MODE === "path") renderPath();
+  }
+  function checkNew(){
+    if(!ids.length || DEMO.on){ snapshot(); return; }
+    const T = t();
+    for(const n of list()){
+      const r = route(n), before = best.has(n.id) ? best.get(n.id) : -1;
+      if(r && (before < 0 || r.intros < before)){
+        snapshot();
+        setTimeout(() => toast(fmt(before < 0 ? T.newPathToast : T.closerToast, {name:nm(n), n:r.intros}),
+                               {action:T.showRoute, ms:7000, fn:() => { if(Tour.active) Tour.finish("explore"); showRoutes(n); }}), RM ? 0 : 3200);
+        return;
+      }
+    }
+    snapshot();
+  }
+  function wipe(){ ids = []; save(); best.clear(); }
+  function html(){
+    const T = t(), L = list();
+    if(!L.length) return "";
+    return `<div class="sect">${svgI("star")} ${T.savedTitle} (${L.length})</div>` + L.map(n => {
+      const r = route(n);
+      return `<div class="sv-row" data-sv="${esc(n.id)}">${avatarHtml(n, "sm")}<span class="tx"><b>${esc(nm(n))}</b><span>${esc(subLine(n))}</span></span>`
+           + `<span class="st${r ? "" : " none"}">${r ? introText(r) : T.savedNoRoute}</span></div>`;
+    }).join("");
+  }
+  return {has, list, toggle, checkNew, snapshot, wipe, html};
+})();
+
+/* ================================================================
+   NUDGES — one quiet next step at a time, chosen from where you are:
+   "Start with someone you know" → "One connection can open many
+   doors" → "X is 2 introductions away". Never during the tour or over
+   an open panel; each can be dismissed for a week.
+   ================================================================ */
+const Nudge = (() => {
+  const el = document.getElementById("nudge"), K = "nv_nz_";
+  let cur = null, timer = null, on = false, sgc = null;
+  function dismissed(kind){ try { const v = +localStorage.getItem(K + kind); return !!v && Date.now() - v < 7 * 864e5; } catch(e){ return false; } }
+  function suggestion(){ if(!sgc || sgc.me !== ME) sgc = {me:ME, s:suggestTargets(1)[0] || null}; return sgc.s; }
+  function pick(){
+    const T = t();
+    if(Tour.active || Intro.on || DEMO.on || S.path || S.pathArm) return null;
+    if(document.querySelector("#detail.open, #mypanel.open, #filters.open, #tour.open") || (isMob() && document.querySelector("#legend.open"))) return null;
+    if(!ME) return dismissed("start") ? null : {kind:"start", icon:"userplus", text:T.nzStart, cta:T.nzStartCta, fn:() => openMyPanel({focus:"name"})};
+    if(meAnchors().length === 1 && !dismissed("more")) return {kind:"more", icon:"plus", text:T.nzMore, cta:T.nzMoreCta, fn:() => openMyPanel({focus:"name"})};
+    if(!dismissed("reach")){
+      const sg = suggestion();
+      if(sg) return {kind:"reach", icon:"route", text:fmt(sg.r.intros === 1 ? T.nzReach1 : T.nzReachN, {name:shortName(sg.p), n:sg.r.intros}),
+                     cta:T.nzReachCta, fn:() => showRoutes(sg.p)};
+    }
+    return null;
+  }
+  function render(n){
+    if(!n){ if(cur){ el.classList.remove("show"); cur = null; document.body.classList.remove("nudging"); } return; }
+    if(cur && cur.kind === n.kind && cur.text === n.text) return;
+    cur = n;
+    el.innerHTML = `<span class="nz-ic">${svgI(n.icon)}</span><span class="nz-t">${esc(n.text)}</span>`
+      + `<button class="nz-go" type="button">${esc(n.cta)} ${svgI("chevR")}</button>`
+      + `<button class="nz-x" type="button" aria-label="${t().nzDismiss}" title="${t().nzDismiss}">${svgI("close")}</button>`;
+    el.querySelector(".nz-go").onclick = () => { render(null); n.fn(); };
+    el.querySelector(".nz-x").onclick = () => { try { localStorage.setItem(K + n.kind, String(Date.now())); } catch(e){} render(null); };
+    requestAnimationFrame(() => el.classList.add("show"));
+    document.body.classList.add("nudging");
+  }
+  function update(){ if(!on) return; clearTimeout(timer); timer = setTimeout(() => render(pick()), 500); }
+  function start(){ if(on) return; on = true; update(); setInterval(() => { if(!document.hidden) render(pick()); }, 1500); }
+  return {update, start, get current(){ return cur; }};
+})();
+
+/* ================================================================
+   INTRO — Act I, first visit only: "A world of connections."
+   The network unfolds from the center while you read; one tap flies
+   you in and the guide begins. No sign-up, no form.
+   ================================================================ */
+const Intro = (() => {
+  const el = document.getElementById("intro");
+  let on = false;
+  function show(){
+    const T = t();
+    on = true; S.intro = true;
+    el.innerHTML = `<div class="in-card"><div class="in-eyebrow">NavGCC · ${esc(regionLabel())}</div>`
+      + `<h1 id="intro-t">${T.introTitle}</h1><p class="in-l1">${T.introL1}</p><p class="in-l2">${T.introL2}</p>`
+      + `<div class="in-row"><button class="btn primary in-go" type="button" data-in="go">${T.introGo} ${svgI("chevR")}</button>`
+      + `<button class="btn" type="button" data-in="demo">${svgI("sparkle")} ${T.tryDemo}</button></div>`
+      + `<p class="in-note">${T.introNote}</p></div>`;
+    el.hidden = false;
+    document.body.classList.add("intro");
+    if(S.lite) computeLiteSet(240);              // a fuller constellation on phones, still light enough to animate
+    if(S.view !== "sector") setView("sector", {quiet:true});
+    computeVisible();
+    for(let i = 0; i < 240; i++) physStep();
+    fitTargets(0);
+    S.cam.k *= isMob() ? 0.92 : 0.62;
+    if(!RM) S.reveal = {t0:performance.now()};
+    setTimeout(() => { const b = el.querySelector(".in-go"); if(b && !isMob()) b.focus({preventScroll:true}); }, 400);
+  }
+  function hide(then){
+    if(!on) return;
+    on = false; S.reveal = null; S.intro = false; MOUSE = null;
+    if(S.lite) computeLiteSet();
+    el.classList.add("out");
+    document.body.classList.remove("intro");
+    setTimeout(() => { el.hidden = true; el.classList.remove("out"); el.innerHTML = ""; }, RM ? 0 : 420);
+    if(then) then();
+  }
+  el.addEventListener("click", ev => {
+    const b = ev.target.closest("[data-in]");
+    if(b && b.dataset.in === "demo"){ hide(() => { enterDemo({silent:true}); Tour.start(); }); return; }
+    if(b || !ev.target.closest(".in-card")) hide(() => Tour.start());
+  });
+  return {show, hide, get on(){ return on; }};
+})();
+
+/* ================================================================
    GUIDED TOUR — Navigate → Locate yourself → Find your path.
    It drives the real map (no screenshots): industries as districts,
    your node appearing, and a route animating hop by hop. Shown once;
@@ -3774,6 +4218,7 @@ const Tour = (() => {
   const el = document.getElementById("tour");
   const K = "nv_tour_v1";
   let cur = 1, active = false, timers = [], status = "", tab = "name", target = null, mini = null, tq = "", liRes = null, sgCache = null;
+  let start2 = null, more = false, shownReach = 0;     // step 2: chosen way in, "add another" open, reach number on screen
   const TQ = {q:"", inst:null};
   const later = (ms, fn) => { if(RM) fn(); else timers.push(setTimeout(fn, ms)); };
   const clear = () => { timers.forEach(clearTimeout); timers = []; };
@@ -3782,7 +4227,7 @@ const Tour = (() => {
   function inner(){ return document.getElementById("tour-in"); }
   function start(o){
     o = o || {};
-    active = true; cur = o.step || 1; status = ""; target = null; mini = null; tq = ""; liRes = null;
+    active = true; cur = o.step || 1; status = ""; target = null; mini = null; tq = ""; liRes = null; start2 = null; more = false;
     S.selected = null; S.pathArm = null; clearPath(); closeDetail();
     ["mypanel", "filters"].forEach(id => Sheets.close(document.getElementById(id), true));
     document.body.classList.add("touring");
@@ -3794,20 +4239,22 @@ const Tour = (() => {
     if(!active) return;
     clear();
     active = false; mark();
-    S.hideMe = false; S.pulse = null; fadeEdges(1, 0);
+    S.hideMe = false; S.pulse = null; S.dimGoal = 1; fadeEdges(1, 0);
     if(isMob() && S.selected && PANEL_MODE !== "profile") S.selected = null;
     document.body.classList.remove("touring");
     Sheets.close(el, true);
     computeVisible();
     if(how === "skip") toast(t().tourSkipped, {ms:3600});
     else if(how === "done") toast(t().tourDone, {ms:4200});
+    else if(how === "guest") toast(t().guestToast, {ms:4600});
     setTimeout(maybeHint, how === "explore" ? 300 : 4600);
+    Nudge.update();
   }
   el._onclose = () => { if(active) finish("skip"); };
   function go(n){
     clear();
-    cur = Math.max(1, Math.min(3, n)); status = ""; mini = null; liRes = null;
-    S.selected = null; S.pathArm = null;
+    cur = Math.max(1, Math.min(3, n)); status = ""; mini = null; liRes = null; start2 = null; more = false;
+    S.selected = null; S.pathArm = null; S.dimGoal = 1;
     if(cur !== 3){ clearPath(); target = null; }
     closeDetail();
     render();
@@ -3827,11 +4274,11 @@ const Tour = (() => {
   /* step 1: overview of the industry districts → zoom into one → reveal people, organizations, links */
   function playNavigate(){
     S.selected = null; clearPath(); closeDetail(); S.focus = null; S.expanded.clear(); S.pulse = null;
-    S.hideMe = true; S.hl.clear(); Legend.refreshHl();
+    S.hideMe = true; S.hl.clear(); Legend.refreshHl(); S.dimGoal = 1;
     if(S.view !== "sector") setView("sector", {quiet:true});
     computeVisible();
     for(let i = 0; i < 240; i++) physStep();
-    fadeEdges(0, 0);
+    fadeEdges(0, RM ? 0 : 350);
     fitTargets(RM ? 0 : 900);
     later(1500, () => {
       const gi = featuredGroup();
@@ -3849,6 +4296,7 @@ const Tour = (() => {
   /* step 2: you appear and connect to the people you add */
   function playLocate(){
     S.hideMe = false; S.pulse = null; S.hl.clear(); Legend.refreshHl(); fadeEdges(1, 0);
+    S.dimGoal = ME ? 1 : 0.32;                   // the network steps back; an empty starting point waits
     computeVisible();
     if(ME){
       if(!RM) ME.born = performance.now();
@@ -3891,7 +4339,7 @@ const Tour = (() => {
     return false;                                   // desktop: open the real profile alongside
   }
   function onHl(){ if(active && cur === 1){ status = "hl"; render(); } }
-  function onPersonal(){ sgCache = null; if(active){ if(cur === 2 && ME) status = "located"; render(); } }
+  function onPersonal(){ sgCache = null; if(active){ if(cur === 2 && ME){ status = "located"; S.dimGoal = 1; } render(); } }
   function onDetailClosed(){ if(active && mini){ mini = null; render(); } }
 
   /* ---------- card ---------- */
@@ -3916,33 +4364,61 @@ const Tour = (() => {
     else h += `<div class="hintline">${svgI("tap")}<span>${T.t1Try}</span></div>`;
     return h;
   }
-  function locHtml(){
+  function optBtn(k, ic, title, sub, cls){
+    return `<button class="opt-b${cls ? " " + cls : ""}" type="button" data-topt="${k}"><span class="oi">${svgI(ic)}</span>`
+         + `<span><b>${title}</b><span class="os">${sub}</span></span>${svgI("chevR")}</button>`;
+  }
+  function reachHtml(){
     const T = t();
-    let h = `<h3>${T.t2Title}</h3><p class="lead">${T.t2Lead}</p>`;
-    if(DEMO.on){
-      h += `<div class="result info">${T.t2Demo}</div><div class="cchips">`
-         + meAnchors().map(n => `<span class="cchip demo">${esc(n.name)} · ${esc(subLine(n))}</span>`).join("") + `</div>`;
-      return h;
-    }
-    h += `<div class="seg" role="tablist"><button type="button" role="tab" data-ttab="name" class="${tab === "name" ? "on" : ""}">${T.tabName}</button>`
+    if(!REACH) return "";
+    const d = REACH.via && REACH.delta > 0 ? `<span class="rc-delta">${fmt(T.reachDelta, {n:REACH.delta, name:esc(REACH.via.short || nm(REACH.via))})}</span>` : "";
+    const top = REACH.top.length ? `<p class="rc-top">${fmt(T.reachSub, {names:REACH.top.map(n => `<button class="linkbtn" type="button" data-tpick="${esc(n.id)}">${esc(shortName(n))}</button>`).join(", ")})}</p>` : "";
+    return `<div class="reachbox"><div class="rc-num"><b data-to="${REACH.n}">${shownReach}</b><span>${T.reachLbl}</span>${d}</div>`
+         + top + `<p class="tsmall">${T.reachNote}</p></div>`;
+  }
+  function addUiHtml(){
+    const T = t();
+    let h = `<div class="seg" role="tablist" style="margin-top:12px"><button type="button" role="tab" data-ttab="name" class="${tab === "name" ? "on" : ""}">${T.tabName}</button>`
        + `<button type="button" role="tab" data-ttab="li" class="${tab === "li" ? "on" : ""}">${T.tabLinkedIn}</button></div>`;
     h += tab === "name" ? addByNameHtml("tr", TQ) : linkedInHtml("tr");
     if(liRes) h += `<div class="result ${liRes.cls}" role="status">${liRes.html}</div>`;
+    return h;
+  }
+  /* step 2 (act II): every network has a starting point → you appear → "the map becomes yours" */
+  function locHtml(){
+    const T = t();
+    const tapped = (status === "tapped" && mini && mini.kind === "person" && !mini.layer && !mini.myDirect && !DEMO.on)
+      ? miniHtml(mini) + `<div class="actrow"><button class="btn sm" type="button" data-tknow="${esc(mini.id)}">${svgI("userplus")} ${T.actKnow}</button></div>` : "";
     if(ME){
       const a = meAnchors();
-      h += `<div class="tstatus">${svgI("check")}<span>${a.length ? fmt(T.t2Located, {n:a.length}) : fmt(T.t2LocatedOrg, {n:ME.adj.length})}</span></div>`
-         + `<div class="cchips">` + a.slice(0, 10).map(n => `<span class="cchip">${esc(n.short)}<button type="button" data-unknow="${esc(n.id)}" aria-label="${T.remove} ${esc(n.short)}">${svgI("close")}</button></span>`).join("") + `</div>`;
+      let h = `<div class="yours"><span class="y-badge">${svgI("check")} ${DEMO.on ? T.yoursDemo : T.yoursBadge}</span>`
+            + `<h3>${T.yoursTitle}</h3><p class="lead">${T.yoursLead}</p></div>` + reachHtml();
+      if(DEMO.on)
+        return h + `<div class="result info">${T.t2Demo}</div><div class="cchips">`
+                 + a.map(n => `<span class="cchip demo">${esc(n.name)} · ${esc(subLine(n))}</span>`).join("") + `</div>`;
+      h += a.length
+        ? `<div class="cchips">` + a.slice(0, 10).map(n => `<span class="cchip">${esc(n.short)}<button type="button" data-unknow="${esc(n.id)}" aria-label="${T.remove} ${esc(n.short)}">${svgI("close")}</button></span>`).join("") + `</div>`
+        : `<div class="tstatus">${svgI("check")}<span>${fmt(T.t2LocatedOrg, {n:ME.adj.length})}</span></div>`;
+      h += `<div class="doors"><span>${T.moreDoors}</span>`
+         + (more ? `</div>` + addUiHtml() : `<button class="btn sm primary" type="button" data-tmore="1">${svgI("plus")} ${T.addAnother}</button></div>`);
+      return h + tapped;
     }
-    if(status === "tapped" && mini && mini.kind === "person" && !mini.layer && !mini.myDirect)
-      h += miniHtml(mini) + `<div class="actrow"><button class="btn sm" type="button" data-tknow="${esc(mini.id)}">${svgI("userplus")} ${T.actKnow}</button></div>`;
-    h += `<div class="hintline">${svgI("info")}<span>${T.t2Skip} <button class="linkbtn" type="button" data-t="explore">${T.t2ExploreFirst}</button></span></div>`;
+    let h = `<h3>${T.t2Title}</h3><p class="lead">${T.t2Lead}</p>`;
+    if(!start2)
+      return h + `<div class="opts">` + optBtn("li", "link", T.optLi, T.optLiSub) + optBtn("name", "userplus", T.optName, T.optNameSub)
+               + optBtn("guest", "compass", T.optGuest, T.optGuestSub, "ghosty") + `</div>` + tapped;
+    h += addUiHtml() + tapped;
+    h += `<div class="hintline">${svgI("info")}<span><button class="linkbtn" type="button" data-topt="back">${T.t2Back}</button> · `
+       + `<button class="linkbtn" type="button" data-topt="guest">${T.optGuest}</button></span></div>`;
     return h;
   }
   function routeHtml(){
     const T = t(), r = PV.routes[PV.idx];
-    let h = `<div class="callout access"><b>${esc(nm(PV.target))}</b> · ${introText(r)}`;
+    let h = `<div class="callout access"><div class="rt-head"><span class="rt-t">${routeTitle(PV.routes, PV.idx)}</span>`
+          + `<span class="rt-m">${esc(nm(PV.target))} · ${routeMeta(r)}</span></div>`
+          + `<div class="rt-start">${svgI("person")} ${routeStart(r)}</div>`;
     if(PV.routes.length > 1)
-      h += `<div class="rt-alts">` + PV.routes.map((rr, i) => `<button class="rt-alt${i === PV.idx ? " on" : ""}" type="button" data-talt="${i}">${i === 0 ? T.best + " · " : ""}${T.via} ${esc(viaName(rr))}</button>`).join("") + `</div>`;
+      h += `<div class="rt-alts">` + PV.routes.map((rr, i) => `<button class="rt-alt${i === PV.idx ? " on" : ""}" type="button" data-talt="${i}">${altLabel(PV.routes, i)}</button>`).join("") + `</div>`;
     h += `<div class="rt-sum">${["confirmed", "unverified", "potential", "demo"].filter(c => r.cnt[c]).map(c => clsTag(c, r.cnt[c])).join("")}</div>`;
     if(isMob()){
       h += `<div class="steps">` + r.nodes.map((n, i) => {
@@ -3956,6 +4432,7 @@ const Tour = (() => {
       h += `<div class="chain">` + r.nodes.map((x, i) => (i ? "<i> → </i>" : "") + esc(x.kind === "me" ? x.name : nm(x))).join("") + `</div>`
          + `<div class="plab" style="margin-top:6px">${T.t3SeeSteps}</div>`;
     }
+    h += routeActsHtml(PV.target, "data-t");
     h += `<p class="disclaim">${T.routeDisclaim}</p></div>`;
     return h;
   }
@@ -4019,13 +4496,26 @@ const Tour = (() => {
     }
     Sheets.setPeek(el, box.querySelector("h3"));
     Sheets.sync();
+    const rn = box.querySelector(".rc-num b[data-to]");
+    if(rn){ const to = +rn.dataset.to; countUp(rn, shownReach, to); shownReach = to; }
   }
+  function focusAdd(){ if(isMob()) return; setTimeout(() => { const i = document.getElementById("tr-q"); if(i) i.focus(); }, 60); }
   el.addEventListener("click", ev => {
-    const b = ev.target.closest("[data-t],[data-tgo],[data-ttab],[data-tpick],[data-talt],[data-unknow],[data-tknow],[data-tind],[data-step]");
+    const b = ev.target.closest("[data-t],[data-tgo],[data-ttab],[data-tpick],[data-talt],[data-unknow],[data-tknow],[data-tind],[data-step],[data-topt],[data-tmore]");
     if(!b) return;
     const d = b.dataset;
+    if(d.topt){
+      if(d.topt === "guest") finish("guest");
+      else if(d.topt === "back"){ start2 = null; liRes = null; render(); }
+      else { start2 = d.topt; tab = d.topt; liRes = null; render(); if(tab === "name") focusAdd(); }
+      return;
+    }
+    if(d.tmore){ more = true; tab = "name"; render(); focusAdd(); return; }
     if(d.t){
       const a = d.t;
+      if(a === "explorePath"){ explorePath(); return; }
+      if(a === "anotherRoute"){ anotherRoute(); return; }
+      if(a === "saveTarget"){ if(PV) Saved.toggle(PV.target); render(); return; }
       if(a === "skip") finish("skip");
       else if(a === "next"){ if(cur === 3) finish("done"); else go(cur + 1); }
       else if(a === "back") go(cur - 1);
@@ -4038,7 +4528,7 @@ const Tour = (() => {
     }
     if(d.tgo){ go(+d.tgo); return; }
     if(d.ttab){ tab = d.ttab; liRes = null; render(); return; }
-    if(d.tpick){ const p = byId[d.tpick]; if(p) runTarget(p); return; }
+    if(d.tpick){ const p = byId[d.tpick]; if(p){ if(cur === 3) runTarget(p); else { target = p; go(3); } } return; }
     if(d.talt !== undefined && PV){ PV.idx = +d.talt; setRoute(PV.routes[PV.idx]); if(!isMob()) renderPath(); render(); return; }
     if(d.unknow){ const p = byId[d.unknow]; if(p) unknowPerson(p); return; }
     if(d.tknow){ const p = byId[d.tknow]; if(p){ knowPerson(p); mini = null; } return; }
@@ -4312,6 +4802,7 @@ setInterval(updateStats, 1500);
 document.addEventListener("keydown", ev => {
   const typing = /^(INPUT|TEXTAREA|SELECT)$/.test((ev.target && ev.target.tagName) || "");
   if(ev.key === "Escape"){
+    if(Intro.on){ Intro.hide(() => Tour.start()); return; }
     if(askOut.style.display === "block"){ askClose(); return; }
     if(S.pathArm){ S.pathArm = null; toast(t().armCancelled); return; }
     if(myPanel.classList.contains("open")){ Sheets.close(myPanel); return; }
@@ -4359,12 +4850,15 @@ function fitInitial(){
   lazyScript("news_data.js").then(ok => { NEWS_LOADED = true; if(ok) attachNews(); else Legend.renderSignals(); });
   const params = new URLSearchParams(location.search);
   if(params.get("demo") === "1"){ enterDemo({silent:true}); Tour.start(); }
-  else if(params.get("tour") === "1" || !Tour.seen()) Tour.start();
+  else if(params.get("tour") === "1" || !Tour.seen()) Intro.show();
   else maybeHint();
+  Saved.snapshot();
+  setTimeout(() => Nudge.start(), 2400);
 })();
 
 window.__map = {S, nodes, edges, byId, draw, resize, fitView, select, setView, runAsk, findRoutes, routeBetween, showRoutes, toScreen, viewRect, suggestTargets,
-                Personal, rebuildPersonal, enterDemo, exitDemo, openMyPanel, renderMyPanel, Tour, Legend, Sheets,
+                Personal, rebuildPersonal, enterDemo, exitDemo, openMyPanel, renderMyPanel, Tour, Legend, Sheets, Intro, Nudge, Saved,
+                get REACH(){ return REACH; },
                 get ME(){ return ME; }, get PV(){ return PV; }, get VIS(){ return VIS; }, get DISTRICTS(){ return DISTRICTS; }};
 })();
 </script></body></html>

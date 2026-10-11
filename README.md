@@ -142,6 +142,27 @@ The engine lives in `map_template.html` (stamped into every region page by
   zoom; 44px targets; safe areas, `dvh` and `visualViewport`; reduced-motion respected.
 - **LinkedIn**: OAuth sync is *not connected* (needs LinkedIn partner approval) and the UI
   says so; import uses the user's own data export, processed in the browser.
+- **Nudges ("The map becomes yours")** — show, don't tell; one next step at a time:
+  - *Act I* (first visit): "A world of connections." over the constellation unfolding from
+    the center; nearby nodes lean toward the pointer; one tap flies in and the guide starts.
+  - *Act II*: the network dims around an empty "Your starting point" with three ways in
+    (import LinkedIn export · add someone you know · explore as a guest). Adding someone:
+    you appear, your links grow, a ripple runs through what they open, and the card says
+    "The map becomes yours." with a count-up of **key people within 2 introductions**
+    (power 70+, outside the ruling core, org-to-org hops counted) and who they include —
+    labeled as possible introductions, not relationships. "One connection can open many
+    doors · Add another connection".
+  - *Act III*: "Every opportunity has a path." Routes say "Your best available path" only
+    when clearly cheaper than the alternative and free of potential-only hops; "3
+    connections · 2 introductions"; "Start with someone you already know: …"; actions
+    *Explore this path* · *Find another route* (honest when there is none) · *Save target*.
+  - Saved targets (browser only, listed in My Network): adding a contact that opens or
+    shortens a path to one triggers "New path to …".
+  - A single quiet nudge pill when no panel is open: "Start with someone you know" →
+    "One connection can open many doors" → "X is 2 introductions away"; dismissible for a
+    week; never during the tour.
+  - Landing page: hero "The world is full of connections." + a six-screen scroll story
+    (sticky illustrated constellation, labeled as an illustration).
 
 **EN / 中文** switches UI chrome only; all data stays English. `window.__map` exposes a
 debug/automation handle.
