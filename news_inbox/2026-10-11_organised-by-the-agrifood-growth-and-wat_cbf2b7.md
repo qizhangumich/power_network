@@ -1,0 +1,5 @@
+# Organised by the AgriFood Growth and Water Abundance cluster at Abu Dhabi Investment Office
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMy1zbnFWWTVVRUhFaHBVWkI4SHNJZ0pCcHJHU0JqUXZ5eVR4cEhPbE1fUjZ6THdqR1lkUDJMRHJwTDVRcW1QNUdCb2sxLXJpRkZNLWJEaVFFV3kwSmlsb0ZNaWd6NEVIWlAySHJtZzUySTlXWEgyN0tSbHRPR2p4STZOYUVhbHNSV0RkOXlxVnJOaVVZUlBqNHVnbW05dXNqLTNCeXJyVms0RnpFWWw0U3U1WFJaR0RnQk0xX3VNWHUtUHlqNlVlMUhoaklFY0lmREE?oc=5
+
+Organised by the AgriFood Growth and Water Abundance cluster at Abu Dhabi Investment Office    مكتب أبوظبي الإعلامي

@@ -1,0 +1,5 @@
+# Prime Minister to publish Manchester City dealings
+source: Rayo
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxNZUVUY1lUTS1ZR1c4VVpGZnFTQjhEWDhSNEpWcDA4T21kYzVnYUU1djN3dlZWaXV2UHhaMmRYbXRCdHFaWi1qMU14VnJ5d3pmQlBtTUZLd3pscGVKVzJJMHZMZGdkdW5IZUl3b2drSEE0NlgxS1V0ck9LckI1LUxtclpZQndXTV9hSk5qcFBsU1QyYWxWZ0JsQ2xNUnUyZ2g0QklB?oc=5
+
+Prime Minister to publish Manchester City dealings    Rayo

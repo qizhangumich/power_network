@@ -1,0 +1,5 @@
+# UAE carriers extend flight cancellations to Saudi Arabia amid regional disruption
+source: Dubai Eye 103.8
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxQV0F3bWFxQnpLLXNsekJkZjVHQzZJRmlQZGp4QnVaS1NPb3JNN2c1VUhsY1N2akFLOUdBNEJwblB2cF9aUFVuY1Y0YzA4a1huM3c5S2hHZTFXQ2xMNWxHbjFSR3AtekVwRW91UUlJM2NSbElxMDVoeEFwb0l3LXlIcHg3bkI3V0tUaHJPd1pkeXk0cXhpX2JhWS1ZTmdUcGdwU2w3U3gzNXFtdGJvOFFqMzBvbGRXYlF2akFweUh6Yw?oc=5
+
+UAE carriers extend flight cancellations to Saudi Arabia amid regional disruption    Dubai Eye 103.8
