@@ -1589,7 +1589,7 @@ const AKA = {
   oman_radio_tv:["PART","Oman TV"],
   ubhar_capital:["U Capital"],
   muscat_media:["MMG","Times of Oman","Al Shabiba"],
-  univ_of_buraimi:["UoB"],
+  univ_of_buraimi:["UoB","University of Al Buraimi"],
   a_sharqiyah_univ:["ASU"],
   aster_al_raffah:["Al Raffah Hospital","Aster Al Raffah Multispecialty Hospital"],
   mcbs_oman:["MCBS"],
