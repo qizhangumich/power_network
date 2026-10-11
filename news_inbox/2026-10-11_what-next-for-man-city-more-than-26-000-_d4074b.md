@@ -1,0 +1,5 @@
+# What next for Man City? More than 26,000 people have their say after 115 guilty verdict
+source: Manchester Evening News
+url: https://news.google.com/rss/articles/CBMikAFBVV95cUxQelQ2d1l6VkFMWEZqb1FUVnNkaDY5QU53ZHl1N3FQQ202eXNXWVVGWDFVakRfVTQ4V2lFUUdJZ2QzTG4yTEVMMEhUQXJjd3JMSXU3VXpIV0F3MEF3dmI0R0hEamNHMEI4dkdfRkczV0NQbkRqYjJPTndqcnFNRmt5OG1GZjdBUnA4MGxrUkMwRWjSAZYBQVVfeXFMTVBlVHJ5emFuRHFYcGFaM3QtSzNIYmYxOWU3QVpxd1lkWUEyNEV0NDZQRnpoZTF4azdCUlNOTFpKZmY2cDBiVlVJLXR0NnF0XzNMM0JHTWpwNk5tTkZGN1dVQzF5TGR2ZzRSd2JIamlLOEI3RmhmbFdlczNCRWlLMEZUd2dycXVieG56bEZVZ3NqNWptaS1R?oc=5
+
+What next for Man City? More than 26,000 people have their say after 115 guilty verdict    Manchester Evening News
