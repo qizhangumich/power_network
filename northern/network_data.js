@@ -146,6 +146,8 @@ const INSTITUTIONS = [
   {id:"khorfakkan_council", n:"Khorfakkan Municipal Council", s:"gov", t:3, p:52, short:"Khorfakkan Council"},
   {id:"thumbay_univ_hosp", n:"Thumbay University Hospital", s:"health", t:2, p:56, short:"Thumbay Univ Hosp"},
   {id:"al_qasimi_fdn", n:"Sheikh Saud bin Saqr Al Qasimi Foundation for Policy Research", s:"gov", t:2, p:55, short:"Al Qasimi Fdn"},
+  {id:"raknor", n:"RAKNOR", s:"materials", t:3, p:54, short:"RAKNOR"},
+  {id:"arex", n:"AREX", s:"industry", t:3, p:52, short:"AREX"},
 ];
 
 const PEOPLE = [
@@ -277,6 +279,7 @@ const PEOPLE = [
   {id:"dr_ohoud_shehail", n:"Dr. Ohoud Shehail", t:2, p:52, s:"industry", roles:[
     ["airarabia","Independent Member","board","v"]]},
   {id:"mohamed_omran_alshamsi", n:"Mohamed Omran Alshamsi", t:2, p:62, s:"finance", roles:[
+    ["al_qasimi_fdn","Chair of the Board","board","ns"],
     ["rakbank","Chairman","board","v"]]},
   {id:"h_h_shaikha", n:"H.H. Shaikha Amneh Al Qasimi", t:2, p:62, s:"finance", roles:[
     ["rak_ido","Chairwoman","board","v"],
@@ -415,6 +418,7 @@ const PEOPLE = [
   {id:"tarek_skaf", n:"Tarek Skaf", t:2, p:58, s:"materials", roles:[
     ["rakceramics","Chief Commercial Officer (RAK Ceramics)","executive","v"]]},
   {id:"renu_oommen", n:"Renu Oommen", t:2, p:58, s:"materials", roles:[
+    ["rak_porcelain","Chief Marketing Officer, RAK Porcelain Group","executive","ns"],
     ["rakceramics","Chief Marketing Officer (RAK Porcelain)","executive","v"]]},
   {id:"bobby_joseph", n:"Bobby Joseph", t:2, p:60, s:"materials", roles:[
     ["rakceramics","Chief Executive Officer (India)","executive","v"]]},
@@ -1164,6 +1168,22 @@ const PEOPLE = [
     ["ajman_dof","Director-General","executive","v"]]},
   {id:"naser_al_bustami", n:"Naser Al Bustami", t:2, p:60, s:"materials", roles:[
     ["stevin_rock","Board Director and Chief Executive Officer - Stevin Rock","executive","ns"]]},
+  {id:"leila_mechbal", n:"Leila Mechbal", t:2, p:58, s:"industry", roles:[
+    ["air_arabia_maroc","Directrice Générale (CEO)","executive","ns"]]},
+  {id:"mohamed_hassan_bensalah", n:"Mohamed Hassan Bensalah", t:2, p:62, s:"industry", roles:[
+    ["air_arabia_maroc","Président (Chairman) - Holmarcom Group / Air Arabia Maroc","board","ns"]]},
+  {id:"ibrahim_sayegh", n:"Ibrahim Sayegh", t:2, p:62, s:"materials", roles:[
+    ["national_paints","Chairman of the NP Group and Technical Director","board","ns"]]},
+  {id:"samer_sayegh", n:"Samer Sayegh", t:2, p:62, s:"materials", roles:[
+    ["national_paints","Vice Chairman of the NP Group / Managing Director","executive","ns"]]},
+  {id:"khalid_abdullah_taryam", n:"Khalid Abdullah Taryam", t:2, p:62, s:"comm", roles:[
+    ["dar_al_khaleej","Chairman of the Board of Directors","board","v"]]},
+  {id:"raed_barqawi", n:"Raed Barqawi", t:2, p:58, s:"comm", roles:[
+    ["dar_al_khaleej","Executive Editor-in-Chief of Al Khaleej newspaper","executive","v"]]},
+  {id:"claude_peiffer", n:"Claude Peiffer", t:2, p:60, s:"materials", roles:[
+    ["rak_porcelain","Managing Director, RAK Porcelain Europe","executive","ns"]]},
+  {id:"natasha_ridge", n:"Natasha Ridge", t:2, p:58, s:"gov", roles:[
+    ["al_qasimi_fdn","Executive Director","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1240,6 +1260,8 @@ const OWNERSHIP = [
   ["menacool","julphar","subsidiary","v"],
   ["sharjah_municipality","shjgov","government department","ns"],
   ["khorfakkan_council","shjgov","municipal council formed by Emiri Decree","ns"],
+  ["raknor","stevin_rock","subsidiary","v"],
+  ["arex","stevin_rock","subsidiary","v"],
 ];
 
 const FAMILY = [

@@ -1777,6 +1777,46 @@ const PEOPLE = [
     ["lst_gih","Vice Chairman of the Board","board","v"]]},
   {id:"mohammad_salah_al", n:"Mohammad Salah Al Ayoub", t:2, p:60, s:"finance", roles:[
     ["lst_gih","Chief Executive Officer","executive","v"]]},
+  {id:"mohamed_gamal_eldin", n:"Mohamed Gamal Eldin El-Afghani", t:2, p:58, s:"health", roles:[
+    ["new_mowasat","Medical Director","executive","v"]]},
+  {id:"ibrahim_qaddoura", n:"Ibrahim Qaddoura", t:2, p:58, s:"health", roles:[
+    ["new_mowasat","Chief Financial Officer","executive","v"]]},
+  {id:"khaled_helaly", n:"Khaled Helaly", t:2, p:58, s:"health", roles:[
+    ["new_mowasat","HR Director","executive","v"]]},
+  {id:"alexander_varghese", n:"Alexander Varghese", t:2, p:58, s:"health", roles:[
+    ["new_mowasat","Hospital Director","executive","v"]]},
+  {id:"isam_zabalawi", n:"Isam Zabalawi", t:2, p:58, s:"education", roles:[
+    ["australian_univ_kw","President","executive","v"]]},
+  {id:"sa_ad_hadi", n:"Sa'ad Hadi Al-Omari", t:2, p:62, s:"education", roles:[
+    ["australian_univ_kw","Chairman of the Board of Trustees","board","v"]]},
+  {id:"mohammad_al_sayed", n:"Mohammad Al Sayed A. Al-Refai", t:2, p:62, s:"education", roles:[
+    ["australian_univ_kw","Deputy Chairman of the Board of Trustees","board","v"]]},
+  {id:"jassim_mohammad_al", n:"Jassim Mohammad Al-Refai", t:2, p:52, s:"education", roles:[
+    ["australian_univ_kw","Founder / Trustee","board","v"]]},
+  {id:"sheikha_hessah_sabah", n:"Sheikha Hessah Sabah Al-Sabah", t:2, p:52, s:"education", roles:[
+    ["australian_univ_kw","Trustee","board","v"]]},
+  {id:"faten_dawoud_al", n:"Faten Dawoud Al-Bader", t:2, p:52, s:"education", roles:[
+    ["australian_univ_kw","Trustee","board","v"]]},
+  {id:"meshari_ayman_boodai", n:"Meshari Ayman Boodai", t:2, p:62, s:"education", roles:[
+    ["kuwait_tech_college","Chairman of the Board of Trustees","board","v"]]},
+  {id:"dr_ayman_suleiman", n:"Dr. Ayman Suleiman Al Zayed", t:2, p:58, s:"education", roles:[
+    ["kuwait_tech_college","President","executive","v"]]},
+  {id:"othman_ayman_boodai", n:"Othman Ayman Boodai", t:2, p:52, s:"education", roles:[
+    ["kuwait_tech_college","Trustee","board","v"]]},
+  {id:"faisal_adel_alwazzan", n:"Faisal Adel Alwazzan", t:2, p:52, s:"education", roles:[
+    ["kuwait_tech_college","Trustee","board","v"]]},
+  {id:"james_smith", n:"James Smith", t:2, p:52, s:"education", roles:[
+    ["kuwait_tech_college","Trustee","board","v"]]},
+  {id:"abdulrahman_abdulqader_al", n:"Abdulrahman Abdulqader Al Ajeel", t:2, p:58, s:"education", roles:[
+    ["kuwait_tech_college","Vice President / Board Secretary","executive","v"]]},
+  {id:"ali_s_arifa", n:"Ali S. Arifa", t:2, p:58, s:"education", roles:[
+    ["box_hill_kuwait","President","executive","v"]]},
+  {id:"abdulrahman_k_al", n:"Abdulrahman K. Al-Shaiji", t:2, p:62, s:"education", roles:[
+    ["box_hill_kuwait","Chairman of the Board","board","v"]]},
+  {id:"rashed_ali_al", n:"Rashed Ali Al-Ameeri", t:2, p:60, s:"comm", roles:[
+    ["al_rai_media","Chief Executive Officer","executive","v"]]},
+  {id:"yousuf_khalid_al", n:"Yousuf Khalid Al Marzouq", t:2, p:58, s:"comm", roles:[
+    ["al_anba","Editor-in-Chief","executive","v"]]},
 ];
 
 const OWNERSHIP = [

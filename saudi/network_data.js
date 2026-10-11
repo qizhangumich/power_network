@@ -545,6 +545,7 @@ const PEOPLE = [
   {id:"alwaleed", n:"Prince Alwaleed bin Talal Al Saud", t:0, p:78, s:"conglomerate", roles:[
     ["kingdomholding","Chairman","board","v"]]},
   {id:"rumayyan", n:"Yasir Al-Rumayyan", t:1, p:92, s:"sovereign", roles:[
+    ["sanabil","Chairman","board","v"],
     ["fii_institute","Chairman of the Board of Trustees","board","v"],
     ["qiddiya","Board Member","board","v"],
     ["alat","Board Member; Governor of the Public Investment Fund","board","v"],
@@ -791,6 +792,7 @@ const PEOPLE = [
   {id:"abdullah_bin_sulaiman", n:"Abdullah bin Sulaiman Al Rajhi", t:2, p:62, s:"finance", roles:[
     ["alrajhi","Chairman","board","v"]]},
   {id:"ibrahim_bin_mohammed", n:"Ibrahim bin Mohammed Al Romaih", t:2, p:62, s:"finance", roles:[
+    ["sanabil","Board Member","board","v"],
     ["alrajhi","Deputy Chairman","board","v"]]},
   {id:"abdulaziz_bin_khalid", n:"Abdulaziz bin Khalid Al Ghufaily", t:2, p:52, s:"finance", roles:[
     ["alrajhi","Board Member","board","v"]]},
@@ -851,6 +853,7 @@ const PEOPLE = [
   {id:"esmail_alsallom", n:"Esmail Alsallom", t:2, p:52, s:"utilities", roles:[
     ["acwa","Board Member","board","v"]]},
   {id:"abdullah_abduljabbar", n:"Abdullah Abduljabbar", t:2, p:52, s:"utilities", roles:[
+    ["sanabil","Chief Executive Officer","executive","v"],
     ["acwa","Board Member","board","v"]]},
   {id:"sheila_khama", n:"Sheila Khama", t:2, p:52, s:"utilities", roles:[
     ["acwa","Board Member (Independent)","board","v"]]},
@@ -2249,6 +2252,7 @@ const PEOPLE = [
   {id:"bandar_bin_sulaiman", n:"Bandar bin Sulaiman AlBuhairi", t:2, p:52, s:"consumer_stap", roles:[
     ["al_othaim","Board Member","board","v"]]},
   {id:"adib_al_zamil", n:"Adib Al Zamil", t:2, p:60, s:"conglomerate", roles:[
+    ["sanabil","Board Member","board","v"],
     ["zamil","Chief Executive Officer","executive","v"]]},
   {id:"sattam_al_zamil", n:"Sattam Al Zamil", t:2, p:58, s:"conglomerate", roles:[
     ["zamil","Chief Financial Officer","executive","v"]]},
@@ -2714,6 +2718,36 @@ const PEOPLE = [
     ["lst_2140","Chief Executive Officer","executive","ns"]]},
   {id:"fabien_toscano", n:"Fabien Toscano", t:2, p:60, s:"realestate", roles:[
     ["jeddah_economic","Chief Executive Officer","executive","ns"]]},
+  {id:"raed_bin_hassan", n:"Raed bin Hassan Alidrissi", t:2, p:60, s:"gov", roles:[
+    ["matarat","Chief Executive Officer","executive","ns"]]},
+  {id:"mansour_almaiman", n:"Mansour Almaiman", t:2, p:52, s:"sovereign", roles:[
+    ["sanabil","Board Member","board","v"]]},
+  {id:"abdullah_alabdulgader", n:"Abdullah Alabdulgader", t:2, p:52, s:"sovereign", roles:[
+    ["sanabil","Board Member","board","v"]]},
+  {id:"turki_alnowaiser", n:"Turki Alnowaiser", t:2, p:52, s:"sovereign", roles:[
+    ["sanabil","Board Member","board","v"]]},
+  {id:"turki_almalik", n:"Turki Almalik", t:2, p:60, s:"sovereign", roles:[
+    ["sanabil","Deputy CEO & COO","executive","v"]]},
+  {id:"dirhem_abdo_saeed", n:"Dirhem Abdo Saeed", t:2, p:62, s:"conglomerate", roles:[
+    ["hsa","Chairman of the Board","board","v"]]},
+  {id:"abdulgabbar_hayel_saeed", n:"Abdulgabbar Hayel Saeed", t:2, p:62, s:"conglomerate", roles:[
+    ["hsa","Chairman of the Owners' Representatives Board","board","v"]]},
+  {id:"abdulaziz_alturki", n:"Abdulaziz AlTurki", t:2, p:62, s:"energy", roles:[
+    ["rawabi","Group Chairman","board","v"]]},
+  {id:"osman_a_ibrahim", n:"Osman A. Ibrahim", t:2, p:60, s:"energy", roles:[
+    ["rawabi","Group President & CEO","executive","v"]]},
+  {id:"ali_a_alturki", n:"Ali A. AlTurki", t:2, p:62, s:"energy", roles:[
+    ["rawabi","Group Vice Chairman","board","v"]]},
+  {id:"alain_cousin", n:"Alain Cousin", t:2, p:52, s:"energy", roles:[
+    ["rawabi","Director","board","v"]]},
+  {id:"mohammed_yusof_rafie", n:"Mohammed Yusof Rafie", t:2, p:52, s:"energy", roles:[
+    ["rawabi","Director","board","v"]]},
+  {id:"noaf_alturki", n:"Noaf AlTurki", t:2, p:52, s:"energy", roles:[
+    ["rawabi","Vice President Corporate Affairs & Executive Member of the Board of Directors","board","v"]]},
+  {id:"khaled_elshafei", n:"Khaled ElShafei", t:2, p:58, s:"energy", roles:[
+    ["rawabi","Group Finance Director and Controller","executive","v"]]},
+  {id:"makarem_sobhi_batterjee", n:"Makarem Sobhi Batterjee", t:2, p:62, s:"health", roles:[
+    ["bait_al_batterjee","Chairman / President","board","ns"]]},
 ];
 
 const OWNERSHIP = [

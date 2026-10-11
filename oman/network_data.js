@@ -221,6 +221,7 @@ const INSTITUTIONS = [
   {id:"aster_al_raffah", n:"Aster Royal Al Raffah Hospital", s:"health", t:2, p:55, short:"Aster Al Raffah"},
   {id:"mcbs_oman", n:"Modern College of Business and Science", s:"education", t:2, p:55, short:"MCBS Oman"},
   {id:"cbfs_oman", n:"College of Banking and Financial Studies", s:"education", t:2, p:56, short:"CBFS Oman"},
+  {id:"oman_msc", n:"Maritime Security Centre", s:"gov", t:1, p:55, short:"Oman MSC"},
 ];
 
 const PEOPLE = [
@@ -1348,6 +1349,40 @@ const PEOPLE = [
     ["lst_spfi","Vice Chairman of the Board","board","v"]]},
   {id:"mohamed_suhail_al", n:"Mohamed Suhail Al Shanfari", t:2, p:60, s:"consumer_stap", roles:[
     ["lst_spfi","Chief Executive Officer","executive","v"]]},
+  {id:"adel_bin_hamoud", n:"Adel bin Hamoud Al Busaidi", t:2, p:46, s:"gov", roles:[
+    ["oman_msc","Head of the Maritime Security Centre","executive","ns"]]},
+  {id:"nasser_batha", n:"Nasser Batha", t:2, p:60, s:"health", roles:[
+    ["starcare_hospital","Group CEO (Founding Partner)","executive","v"]]},
+  {id:"sadik_kodakat", n:"Sadik Kodakat", t:2, p:62, s:"health", roles:[
+    ["starcare_hospital","Chairman","board","v"]]},
+  {id:"professor_khamis_bin", n:"Professor Khamis bin Hamad Al Yahyai", t:2, p:58, s:"education", roles:[
+    ["muscat_university","Vice-Chancellor","executive","v"]]},
+  {id:"khalil_bin_abdullah", n:"Khalil bin Abdullah Al-Khonji", t:2, p:62, s:"education", roles:[
+    ["muscat_university","Chairman of the Board of Directors","board","v"]]},
+  {id:"jumaa_bin_ali", n:"Jumaa bin Ali Al Jumaa", t:2, p:62, s:"education", roles:[
+    ["muscat_university","Chairman of the Board of Trustees","board","v"]]},
+  {id:"said_eid_younes", n:"Said Eid Younes", t:2, p:58, s:"education", roles:[
+    ["univ_of_buraimi","Vice Chancellor","executive","v"]]},
+  {id:"yousuf_bin_abdulrahim", n:"Yousuf bin Abdulrahim Al Farsi", t:2, p:62, s:"education", roles:[
+    ["univ_of_buraimi","Chairman of the Board of Directors","board","v"]]},
+  {id:"abdullah_said_al", n:"Abdullah Said Al Kalbani", t:2, p:58, s:"education", roles:[
+    ["univ_of_buraimi","Deputy Vice Chancellor for Academic Affairs Research and Innovation","executive","v"]]},
+  {id:"ahmed_salem_abdullah", n:"Ahmed Salem Abdullah Al Abri", t:2, p:58, s:"education", roles:[
+    ["univ_of_buraimi","Deputy Vice Chancellor for Finance and Administrative Affairs","executive","v"]]},
+  {id:"yahya_bin_mansour", n:"Yahya bin Mansour Al Wahaibi", t:2, p:58, s:"education", roles:[
+    ["a_sharqiyah_univ","Vice-Chancellor","executive","v"]]},
+  {id:"muneer_al_maskari", n:"Muneer Al Maskari", t:2, p:62, s:"education", roles:[
+    ["mcbs_oman","Executive Chairman (Founder)","board","v"]]},
+  {id:"aisha_al_kharusi", n:"Aisha Al Kharusi", t:2, p:62, s:"education", roles:[
+    ["mcbs_oman","Deputy Executive Chairperson","board","v"]]},
+  {id:"moosa_al_kindi", n:"Moosa Al Kindi", t:2, p:58, s:"education", roles:[
+    ["mcbs_oman","Dean","executive","v"]]},
+  {id:"joseph_ajin_justin", n:"Joseph Ajin Justin", t:2, p:58, s:"education", roles:[
+    ["mcbs_oman","Chief Financial Officer","executive","v"]]},
+  {id:"mohamed_issa_al", n:"Mohamed Issa Al Zadjali", t:2, p:62, s:"comm", roles:[
+    ["muscat_media","Chairman","board","v"]]},
+  {id:"ahmed_issa_al", n:"Ahmed Issa Al Zadjali", t:2, p:60, s:"comm", roles:[
+    ["muscat_media","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1559,4 +1594,5 @@ const AKA = {
   aster_al_raffah:["Al Raffah Hospital","Aster Al Raffah Multispecialty Hospital"],
   mcbs_oman:["MCBS"],
   cbfs_oman:["CBFS"],
+  oman_msc:["MSC"],
 };

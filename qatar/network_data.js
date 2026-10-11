@@ -356,6 +356,7 @@ const PEOPLE = [
 
   // ===== TIER 2 — OPERATING EXECUTIVES =====
   {id:"qnb_ceo", n:"Abdulla Mubarak Al-Khalifa", t:2, p:74, s:"finance", roles:[
+    ["qfba","Board Member","board","v"],
     ["qse","Board Member","board","v"],
     ["qnb_capital","Chairman of the Board","board","v"],["qnb","Group CEO","executive","v"]]},
   {id:"hamad_alkhater", n:"Hamad Ali Al-Khater", t:2, p:80, s:"industry", roles:[
@@ -367,7 +368,10 @@ const PEOPLE = [
   {id:"fakhroo", n:"Aziz Aluthman Fakhroo", t:2, p:74, s:"comm", roles:[["ooredoo","Managing Director & Group CEO","executive","v"]]},
   {id:"sulaiti", n:"Abdullah Al-Sulaiti", t:2, p:68, s:"energy", roles:[["nakilat","CEO","executive","v"]]},
   {id:"jaida_qfc", n:"Yousuf Mohamed Al-Jaida", t:2, p:70, s:"finance", roles:[
-    ["qfz","Board Member","board","v"],["qfc","CEO","executive","ns"]]},
+    ["qfba","Board Member","board","v"],
+    ["qfz","Board Member","board","v"],["qfc","CEO (2015–Jan 2026)","executive","v","former:until Jan 2026"]]},
+  {id:"mansoor_alkhater_qfc", n:"Mansoor Rashid Al-Khater", t:2, p:70, s:"finance", roles:[
+    ["qfc","Chief Executive Officer","executive","v"]]},
   {id:"moutaz", n:"Moutaz Al-Khayyat", t:2, p:72, s:"conglomerate", roles:[
     ["lst_igrd","Chairman","board","v"],
     ["pih","Chairman","board","v"],
@@ -523,6 +527,7 @@ const PEOPLE = [
     ["nebras","Board Member","board","v"],
     ["masraf","Board Member","board","v"]]},
   {id:"fahad_al_khalifa", n:"Fahad Al Khalifa", t:2, p:58, s:"finance", roles:[
+    ["qfba","Board Member","board","v"],
     ["masraf","Group Chief Executive Officer (–Sep 2026)","executive","v","former:until Sep 2026"],
     ["masraf","Advisor to the Chairman","executive","v"]]},
   {id:"shahnawaz_niazi", n:"Shahnawaz Niazi", t:2, p:58, s:"finance", roles:[
@@ -1277,6 +1282,7 @@ const PEOPLE = [
   {id:"faisal_masood", n:"Faisal Masood", t:2, p:58, s:"finance", roles:[
     ["dohabank","Acting Chief Risk Officer","executive","v"]]},
   {id:"abdulaziz_bin_nasser", n:"Abdulaziz bin Nasser Al Khalifa", t:2, p:62, s:"industry", roles:[
+    ["qfba","Chairman of the Board","board","v"],
     ["qfz","Board Member","board","v"],
     ["qfc","Board Member","board","v"],
     ["qatarrail","Vice Chairman","board","ns"]]},
@@ -1353,6 +1359,7 @@ const PEOPLE = [
   {id:"ahmad_helal_al", n:"Ahmad Helal Al-Mohannadi", t:2, p:62, s:"materials", roles:[
     ["qafco","Chairman","board","v"]]},
   {id:"ibrahim_bin_saleh", n:"Ibrahim bin Saleh Al Nuaimi", t:2, p:58, s:"education", roles:[
+    ["qfba","Board Member","board","v"],
     ["moehe_q","Undersecretary of the Ministry of Education and Higher Education","executive","v"]]},
   {id:"tareq_zainal", n:"Tareq Zainal", t:2, p:58, s:"comm", roles:[
     ["bein","Chief Financial & Human Resources Officer","executive","v"]]},
@@ -1676,6 +1683,7 @@ const PEOPLE = [
   {id:"mohammed_abdulaziz_al", n:"Mohammed Abdulaziz Al Dulaimi", t:2, p:52, s:"finance", roles:[
     ["qdb","Board Member","board","v"]]},
   {id:"abdulrahman_hesham_al", n:"Abdulrahman Hesham Al Sowaidi", t:2, p:60, s:"finance", roles:[
+    ["qfba","Board Member","board","v"],
     ["qdb","Chief Executive Officer","executive","v"],
     ["manateq","Board Member","board","ns"]]},
   {id:"khalid_abdulla_al_b", n:"Khalid Abdulla Al-Mana", t:2, p:58, s:"finance", roles:[
@@ -1942,6 +1950,44 @@ const PEOPLE = [
     ["qr_cargo","Senior Vice President, Cargo Sales","executive","ns"]]},
   {id:"liesbeth_oudkerk", n:"Liesbeth Oudkerk", t:2, p:58, s:"industry", roles:[
     ["qr_cargo","Senior Vice President, Cargo Sales and Network Planning","executive","ns"]]},
+  {id:"khalid_mohamed_al_b_b", n:"Khalid Mohamed Al-Horr", t:2, p:58, s:"education", roles:[
+    ["community_college","President","executive","v"]]},
+  {id:"hessa_bint_sultan", n:"Hessa bint Sultan Al Jaber", t:2, p:62, s:"education", roles:[
+    ["community_college","Chair of the Board of Trustees","board","ns"]]},
+  {id:"abdullah_al_ali", n:"Abdullah Al-Ali", t:2, p:58, s:"education", roles:[
+    ["community_college","Vice-President for Academic Affairs","executive","ns"]]},
+  {id:"khalifa_al_salahi", n:"Khalifa Al-Salahi Al-Yafei", t:2, p:60, s:"education", roles:[
+    ["qfba","Chief Executive Officer","executive","v"]]},
+  {id:"khalid_yousef_al", n:"Khalid Yousef Al-Subeai", t:2, p:52, s:"education", roles:[
+    ["qfba","Board Member","board","v"]]},
+  {id:"hassan_ahmed_al_b", n:"Hassan Ahmed Al-Afranji", t:2, p:52, s:"education", roles:[
+    ["qfba","Board Member","board","v"]]},
+  {id:"raed_ibrahim_al", n:"Raed Ibrahim Al-Emadi", t:2, p:52, s:"education", roles:[
+    ["qfba","Board Member","board","v"]]},
+  {id:"salem_khalef_al", n:"Salem Khalef Al-Mannai", t:2, p:52, s:"education", roles:[
+    ["qfba","Board Member","board","v"]]},
+  {id:"mohammed_mukhtar_al", n:"Mohammed Mukhtar Al Khalil", t:2, p:58, s:"comm", roles:[
+    ["aj_centre_studies","Director","executive","v"]]},
+  {id:"ezzeddine_abdelmoula", n:"Ezzeddine Abdelmoula", t:2, p:58, s:"comm", roles:[
+    ["aj_centre_studies","Director of Research","executive","ns"]]},
+  {id:"abdullah_bin_khalifa", n:"Abdullah bin Khalifa Al-Attiyah", t:2, p:62, s:"comm", roles:[
+    ["al_raya","Chairman of the Board of Directors","board","v"]]},
+  {id:"abdullah_taleb_al", n:"Abdullah Taleb Al-Marri", t:2, p:58, s:"comm", roles:[
+    ["al_raya","Editor-in-Chief","executive","v"]]},
+  {id:"yousef_mohammed_al", n:"Yousef Mohammed Al-Darwish", t:2, p:58, s:"comm", roles:[
+    ["al_raya","Executive Director","executive","v"]]},
+  {id:"khalid_ali_al", n:"Khalid Ali Al-Mawlawi", t:2, p:58, s:"health", roles:[
+    ["aspetar","Acting Director General","executive","v"]]},
+  {id:"abdulaziz_al_kuwari", n:"Abdulaziz Al Kuwari", t:2, p:60, s:"health", roles:[
+    ["aspetar","Chief Executive Officer","executive","v"]]},
+  {id:"riadh_miladi", n:"Riadh Miladi", t:2, p:58, s:"health", roles:[
+    ["aspetar","Executive Director of the National Sports Medicine Programme","executive","v"]]},
+  {id:"hakim_chalabi", n:"Hakim Chalabi", t:2, p:58, s:"health", roles:[
+    ["aspetar","Assistant Director General for International Medical Affairs","executive","v"]]},
+  {id:"marco_cardinale", n:"Marco Cardinale", t:2, p:58, s:"health", roles:[
+    ["aspetar","Executive Director of Research and Scientific Support","executive","v"]]},
+  {id:"ibrahim_al_darwish", n:"Ibrahim Al-Darwish", t:2, p:58, s:"health", roles:[
+    ["aspetar","DG Office Advisor","executive","v"]]},
 ];
 
 const OWNERSHIP = [

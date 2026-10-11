@@ -531,6 +531,8 @@ const PEOPLE = [
   {id:"hussain_nowais", n:"Hussain Jasim Al Nowais", t:1, p:80, s:"conglomerate", roles:[
     ["emsteel","Chairman","board","v"],
     ["alnowais","Chairman","board","v"],
+    ["senaat","Chairman","board","v"],
+    ["rotana","Board Member","board","v"],
     ]},
   {id:"razan", n:"Razan Khalifa Al Mubarak", t:1, p:78, s:"gov", roles:[
     ["ead","Managing Director","executive","v"],
@@ -2603,9 +2605,6 @@ const PEOPLE = [
   {id:"kailash_prajapati", n:"Kailash Prajapati", t:2, p:46, s:"materials", roles:[
     ["ta_ziz","Acting Head of Audit","executive","ns"],
     ]},
-  {id:"hussain_jassim_al", n:"Hussain Jassim Al Nowais", t:2, p:62, s:"conglomerate", roles:[
-    ["senaat","Chairman","board","v"],
-    ]},
   {id:"adnan_fateem", n:"Adnan Fateem", t:2, p:60, s:"energy", roles:[
     ["mubadala_energy","Acting Chief Executive Officer","executive","v"],
     ]},
@@ -3668,6 +3667,30 @@ const PEOPLE = [
   {id:"mohamed_ali_mosbeh", n:"Mohamed Ali Mosbeh Al Nuaimi", t:2, p:62, s:"realestate", roles:[
     ["lst_rakprop","Deputy Chairman","board","ns"],
     ]},
+  {id:"suhail_mubarak_bin", n:"Suhail Mubarak Bin Athaeeth Al Ameri", t:2, p:60, s:"conglomerate", roles:[
+    ["senaat","Chief Executive Officer","executive","ns"],
+    ]},
+  {id:"selim_el_zyr", n:"Selim El Zyr", t:2, p:62, s:"consumer_disc", roles:[
+    ["rotana","Vice Chairman","board","v"],
+    ]},
+  {id:"nael_hashweh", n:"Nael Hashweh", t:2, p:52, s:"consumer_disc", roles:[
+    ["rotana","Board Member","board","v"],
+    ]},
+  {id:"philip_barnes", n:"Philip Barnes", t:2, p:60, s:"consumer_disc", roles:[
+    ["rotana","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"eddy_tannous", n:"Eddy Tannous", t:2, p:58, s:"consumer_disc", roles:[
+    ["rotana","Chief Operating Officer","executive","v"],
+    ]},
+  {id:"ghazi_mousharafieh", n:"Ghazi Mousharafieh", t:2, p:58, s:"consumer_disc", roles:[
+    ["rotana","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"nada_sheshtawy", n:"Nada Sheshtawy", t:2, p:58, s:"consumer_disc", roles:[
+    ["rotana","Chief Commercial Officer","executive","v"],
+    ]},
+  {id:"banu_sen_pekiner", n:"Banu Sen Pekiner", t:2, p:58, s:"consumer_disc", roles:[
+    ["rotana","Global Director of Marketing","executive","v"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -4004,4 +4027,5 @@ const AKA = {
   al_ain_university:["AAU"],
   rafed:["Rafed HealthCare Supplies"],
   cbuae:["UAE Central Bank"],
+  hussain_nowais:["Hussain Jassim Al Nowais"],
 };

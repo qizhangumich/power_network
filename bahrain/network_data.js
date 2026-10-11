@@ -361,6 +361,7 @@ const PEOPLE = [
   {id:"maitham_abdulla", n:"Maitham Abdulla", t:2, p:60, s:"comm", roles:[
     ["beyon","CEO - Batelco by Beyon","executive","v"]]},
   {id:"shaikh_mohamed_bin", n:"Shaikh Mohamed bin Khalifa Al Khalifa", t:2, p:60, s:"comm", roles:[
+    ["bahrain_polytechnic","Board Member","board","v"],
     ["beyon","CEO - Beyon Digital Growth","executive","v"]]},
   {id:"shaikh_bader_bin", n:"Shaikh Bader bin Rashid Al Khalifa", t:2, p:58, s:"comm", roles:[
     ["beyon","Chief Communications & Sustainability Officer","executive","v"]]},
@@ -2419,6 +2420,7 @@ const PEOPLE = [
     ["edb","Chief of Business Development","executive","v"],
     ["bfb","Board Member","board","v"]]},
   {id:"dalal_buhejji", n:"Dalal Buhejji", t:2, p:52, s:"tech", roles:[
+    ["bahrain_polytechnic","Board Member","board","v"],
     ["bfb","Board Member","board","v"]]},
   {id:"isa_bin_khalid", n:"Isa bin Khalid Al Khalifa", t:2, p:52, s:"materials", roles:[
     ["alba","Director","board","v"]]},
@@ -2543,6 +2545,7 @@ const PEOPLE = [
   {id:"yusuf_hamad_alateeqi", n:"Yusuf Hamad Alateeqi", t:2, p:52, s:"materials", roles:[
     ["gpic","Board Member","board","v"]]},
   {id:"yasser_abdulrahim_alabbasi", n:"Yasser Abdulrahim Alabbasi", t:2, p:60, s:"materials", roles:[
+    ["bahrain_polytechnic","Board Member","board","v"],
     ["gpic","Chief Executive Officer & President","executive","v"]]},
   {id:"adnan_a_razaq", n:"Adnan A. Razaq ALMahmood", t:2, p:60, s:"materials", roles:[
     ["gpic","Deputy Chief Executive Officer - Support","executive","v"]]},
@@ -2838,6 +2841,7 @@ const PEOPLE = [
   {id:"jaleela_bint_sayed", n:"Jaleela bint Sayed Jawad Hassan", t:2, p:52, s:"health", roles:[
     ["bahrain_moh","Minister of Health","board","v"]]},
   {id:"mohammed_bin_mubarak", n:"Mohammed bin Mubarak Juma", t:2, p:52, s:"education", roles:[
+    ["bahrain_polytechnic","Chairman of the Board of Trustees","board","v"],
     ["bahrain_moe","Minister of Education","board","v"]]},
   {id:"lulwa_saleh_al", n:"Lulwa Saleh Al-Awadhi", t:2, p:58, s:"gov", roles:[
     ["bahrain_scw","Secretary General","executive","v"]]},
@@ -3231,6 +3235,46 @@ const PEOPLE = [
     ["ajm_kooheji","Independent Board Member","board","v"]]},
   {id:"abdullah_khalil_mohammed", n:"Abdullah Khalil Mohammed Buhaji", t:2, p:58, s:"comm", roles:[
     ["bahrain_news_agency","Director-General","executive","ns"]]},
+  {id:"riyad_y_hamzah", n:"Riyad Y. Hamzah", t:2, p:58, s:"education", roles:[
+    ["royal_univ_women","President","executive","v"]]},
+  {id:"fahad_abdulla_al", n:"Fahad Abdulla Al-Zamil", t:2, p:62, s:"education", roles:[
+    ["royal_univ_women","Chairman of the Board of Trustees","board","v"]]},
+  {id:"mariam_al_shaikh", n:"Mariam Al Shaikh", t:2, p:52, s:"education", roles:[
+    ["royal_univ_women","Board Member (Osool representative)","board","v"]]},
+  {id:"hassan_rafdan_alhajhoj", n:"Hassan Rafdan AlHajhoj", t:2, p:58, s:"education", roles:[
+    ["kingdom_university","President","executive","v"]]},
+  {id:"mohammed_rashid_al", n:"Mohammed Rashid Al-Faqih", t:2, p:62, s:"education", roles:[
+    ["kingdom_university","Chairman of the Board of Trustees","board","v"]]},
+  {id:"nader_mohamed_saleh", n:"Nader Mohamed Saleh AlBastaki", t:2, p:58, s:"education", roles:[
+    ["kingdom_university","Vice President for Academic Affairs and Scientific Research","executive","v"]]},
+  {id:"ciaran_o_cathain", n:"Ciaran O Cathain", t:2, p:60, s:"education", roles:[
+    ["bahrain_polytechnic","Chief Executive Officer","executive","v"]]},
+  {id:"louise_o_nolan", n:"Louise O'Nolan", t:2, p:60, s:"education", roles:[
+    ["bahrain_polytechnic","Deputy CEO Academic Affairs and Registrar","executive","v"]]},
+  {id:"rawya_al_mannaei", n:"Rawya Al-Mannaei", t:2, p:60, s:"education", roles:[
+    ["bahrain_polytechnic","Deputy CEO Corporate Affairs","executive","v"]]},
+  {id:"ali_hassan_al", n:"Ali Hassan Al-Baqali", t:2, p:62, s:"education", roles:[
+    ["bahrain_polytechnic","Deputy Chairman of the Board of Trustees","board","v"]]},
+  {id:"yousuf_farouq_al", n:"Yousuf Farouq Al Moayyed", t:2, p:52, s:"education", roles:[
+    ["bahrain_polytechnic","Board Member","board","v"]]},
+  {id:"ahmed_sami_al", n:"Ahmed Sami Al-Tajer", t:2, p:52, s:"education", roles:[
+    ["bahrain_polytechnic","Board Member","board","v"]]},
+  {id:"dalal_ahmed_abdulla", n:"Dalal Ahmed Abdulla Al Ghais", t:2, p:52, s:"education", roles:[
+    ["bahrain_polytechnic","Board Member","board","v"]]},
+  {id:"khaled_bin_mohammed", n:"Khaled bin Mohammed Al Khalifa", t:2, p:62, s:"education", roles:[
+    ["ucb_bahrain","Founder and Chairman of the Board of Trustees","board","v"]]},
+  {id:"sh_ebrahim_bin", n:"Sh. Ebrahim bin Khaled Al Khalifa", t:2, p:62, s:"education", roles:[
+    ["ucb_bahrain","Vice-Chairman of the Board of Trustees","board","v"]]},
+  {id:"rana_sawaya", n:"Rana Sawaya", t:2, p:58, s:"education", roles:[
+    ["ucb_bahrain","President","executive","v"]]},
+  {id:"fareed_bader", n:"Fareed Bader", t:2, p:52, s:"education", roles:[
+    ["ucb_bahrain","Board Member","board","v"]]},
+  {id:"fared_ahmed_al", n:"Fared Ahmed Al Mulla", t:2, p:52, s:"education", roles:[
+    ["ucb_bahrain","Board Member","board","v"]]},
+  {id:"fahad_altattan", n:"Fahad Altattan", t:2, p:52, s:"education", roles:[
+    ["ucb_bahrain","Board Member","board","v"]]},
+  {id:"amina_buallay", n:"Amina Buallay", t:2, p:62, s:"education", roles:[
+    ["ucb_bahrain","Chairman's Advisor","executive","v"]]},
 ];
 
 const OWNERSHIP = [
