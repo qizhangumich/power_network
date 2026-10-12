@@ -163,7 +163,6 @@ const INSTITUTIONS = [
   {id:"kingdom_university", n:"Kingdom University", s:"education", t:2, p:53, short:"Kingdom University"},
   {id:"bahrain_polytechnic", n:"Bahrain Polytechnic", s:"education", t:2, p:57, short:"Bahrain Polytechnic"},
   {id:"ucb_bahrain", n:"University College of Bahrain", s:"education", t:3, p:51, short:"UCB Bahrain"},
-  {id:"bluefive_capital", n:"BlueFive Capital", s:"finance", t:3, p:52, short:"BlueFive Capital"},
   {id:"aleastur", n:"Aleastur (Asturiana de Aleaciones, S.A.)", s:"materials", t:3, p:54, short:"Aleastur"},
 ];
 
@@ -3416,7 +3415,6 @@ const OWNERSHIP = [
   ["hala_bahrain","gulfair","portfolio company (via Gulf Air Group Holding)","v"],
   ["bac_jet_fuel","gulfair","portfolio company (via Gulf Air Group Holding)","v"],
   ["sico_wealth","sico_bank","subsidiary of","ns"],
-  ["bluefive_capital","mumtalakat","anchor shareholder - minority equity stake acquired August 2025","ns"],
   ["aleastur","mumtalakat","49% stake; built the GCC's first aluminium grain-refiner plant in Bahrain","ns"],
 ];
 
