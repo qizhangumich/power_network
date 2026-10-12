@@ -1817,6 +1817,26 @@ const PEOPLE = [
     ["al_rai_media","Chief Executive Officer","executive","v"]]},
   {id:"yousuf_khalid_al", n:"Yousuf Khalid Al Marzouq", t:2, p:58, s:"comm", roles:[
     ["al_anba","Editor-in-Chief","executive","v"]]},
+  {id:"walid_abdullatif_al", n:"Walid Abdullatif Al-Nisf", t:2, p:58, s:"comm", roles:[
+    ["al_qabas","Editor-in-Chief","executive","ns"]]},
+  {id:"waleed_al_jassim", n:"Waleed Al-Jassim", t:2, p:58, s:"comm", roles:[
+    ["al_rai_media","Editor-in-Chief","executive","ns"]]},
+  {id:"fadwa_al_homaizi", n:"Fadwa Al Homaizi", t:2, p:62, s:"consumer_disc", roles:[
+    ["kout_food","Chairwoman","board","ns"]]},
+  {id:"faisal_al_osaimi", n:"Faisal Al Osaimi", t:2, p:62, s:"consumer_disc", roles:[
+    ["kout_food","Vice Chairman","board","ns"]]},
+  {id:"antoine_al_hamchaoui", n:"Antoine Al Hamchaoui", t:2, p:52, s:"consumer_disc", roles:[
+    ["kout_food","Board Member","board","ns"]]},
+  {id:"imad_al_sagar", n:"Imad Al Sagar", t:2, p:52, s:"consumer_disc", roles:[
+    ["kout_food","Board Member","board","ns"]]},
+  {id:"ahmad_al_humaidhi", n:"Ahmad Al Humaidhi", t:2, p:52, s:"consumer_disc", roles:[
+    ["kout_food","Board Member","board","ns"]]},
+  {id:"amin_mohamed", n:"Amin Mohamed", t:2, p:60, s:"consumer_disc", roles:[
+    ["kout_food","CEO","executive","ns"]]},
+  {id:"mazen_alchaleh", n:"Mazen Alchaleh", t:2, p:58, s:"consumer_disc", roles:[
+    ["kout_food","COO","executive","ns"]]},
+  {id:"hussein_zabin", n:"Hussein Zabin", t:2, p:58, s:"consumer_disc", roles:[
+    ["kout_food","Senior Director of Development","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

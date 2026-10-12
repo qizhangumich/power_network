@@ -163,6 +163,8 @@ const INSTITUTIONS = [
   {id:"kingdom_university", n:"Kingdom University", s:"education", t:2, p:53, short:"Kingdom University"},
   {id:"bahrain_polytechnic", n:"Bahrain Polytechnic", s:"education", t:2, p:57, short:"Bahrain Polytechnic"},
   {id:"ucb_bahrain", n:"University College of Bahrain", s:"education", t:3, p:51, short:"UCB Bahrain"},
+  {id:"bluefive_capital", n:"BlueFive Capital", s:"finance", t:3, p:52, short:"BlueFive Capital"},
+  {id:"aleastur", n:"Aleastur (Asturiana de Aleaciones, S.A.)", s:"materials", t:3, p:54, short:"Aleastur"},
 ];
 
 const PEOPLE = [
@@ -387,6 +389,8 @@ const PEOPLE = [
   {id:"elham_hasan", n:"Elham Hasan", t:2, p:52, s:"sovereign", roles:[
     ["mumtalakat","Board Member","board","v"]]},
   {id:"khalid_hussain_taqi", n:"Khalid Hussain Taqi", t:2, p:62, s:"sovereign", roles:[
+    ["array_innovation","Chairman of the Board","board","ns"],
+    ["amana_healthcare","Board Member (Managing Director - Local Impact Investments, Mumtalakat)","board","ns"],
     ["bahrain_airport","Chairman","board","v"],
     ["mumtalakat","Managing Director - Local Investments","executive","v"],
     ["gulfair","Chairman","board","v"]]},
@@ -410,6 +414,7 @@ const PEOPLE = [
     ["bahrain_airport","Board Member","board","ns"],
     ["gulfair","Board Member","board","v"]]},
   {id:"alaa_abdulkhaleq_saeed", n:"Alaa Abdulkhaleq Saeed", t:2, p:52, s:"industry", roles:[
+    ["array_innovation","Founder and Chief Executive Officer","executive","ns"],
     ["bibf","Board Member","board","v"],
     ["bahrain_airport","Board Member","board","ns"],
     ["gulfair","Board Member","board","v"]]},
@@ -670,6 +675,7 @@ const PEOPLE = [
   {id:"wissam_fareed_haddad", n:"Wissam Fareed Haddad", t:2, p:52, s:"consumer_disc", roles:[
     ["lst_abraaj","Director","board","v"]]},
   {id:"khaled_mohamed_mattar", n:"Khaled Mohamed Mattar", t:2, p:52, s:"consumer_disc", roles:[
+    ["radio_bahrain","Chairman of the Board of Directors","board","ns"],
     ["lst_abraaj","Director","board","v"]]},
   {id:"muhammad_ramzan", n:"Muhammad Ramzan", t:2, p:58, s:"consumer_disc", roles:[
     ["lst_abraaj","CFO","executive","v"]]},
@@ -2554,6 +2560,7 @@ const PEOPLE = [
   {id:"khalid_rashid_alzayani", n:"Khalid Rashid Alzayani", t:2, p:62, s:"conglomerate", roles:[
     ["alzayani","Honorary Chairman","board","v"]]},
   {id:"hamid_rashid_alzayani", n:"Hamid Rashid Alzayani", t:2, p:52, s:"conglomerate", roles:[
+    ["bahrain_spec_hosp","Chairman","board","ns"],
     ["alzayani","Founder & Partner","board","v"]]},
   {id:"nawaf_khalid_alzayani", n:"Nawaf Khalid Alzayani", t:2, p:62, s:"conglomerate", roles:[
     ["bcci","Second Vice Chairman","board","v"],
@@ -2687,6 +2694,7 @@ const PEOPLE = [
   {id:"isa_mohammed_najibi", n:"Isa Mohammed Najibi", t:2, p:62, s:"energy", roles:[
     ["bapco_tazweed","Chairman","board","ns"]]},
   {id:"mohammed_ahmed_al", n:"Mohammed Ahmed Al-Sada", t:2, p:52, s:"energy", roles:[
+    ["danat","Chairman of the Board of Directors","board","ns"],
     ["bapco_tazweed","Board Member","board","ns"]]},
   {id:"ibrahim_mohammed_kanoo", n:"Ibrahim Mohammed Kanoo", t:2, p:52, s:"energy", roles:[
     ["bapco_tazweed","Board Member","board","ns"]]},
@@ -2868,6 +2876,7 @@ const PEOPLE = [
   {id:"sandeep_bose", n:"Sandeep Bose", t:2, p:52, s:"finance", roles:[
     ["bdb","Board Member","board","v"]]},
   {id:"dalal_al_qais", n:"Dalal Al Qais", t:2, p:60, s:"finance", roles:[
+    ["danat","Board Member","board","ns"],
     ["bdb","Group Chief Executive Officer","executive","v"]]},
   {id:"ali_yusuf_al", n:"Ali Yusuf Al Aradi", t:2, p:58, s:"finance", roles:[
     ["bdb","Chief Banking Officer","executive","v"]]},
@@ -3275,6 +3284,44 @@ const PEOPLE = [
     ["ucb_bahrain","Board Member","board","v"]]},
   {id:"amina_buallay", n:"Amina Buallay", t:2, p:62, s:"education", roles:[
     ["ucb_bahrain","Chairman's Advisor","executive","v"]]},
+  {id:"mohamed_alsaati", n:"Mohamed AlSaati", t:2, p:60, s:"health", roles:[
+    ["amana_healthcare","Acting CEO of M42 Bahrain and CEO of Amana Healthcare Bahrain","executive","ns"]]},
+  {id:"ala_ghawas", n:"Ala Ghawas", t:2, p:60, s:"comm", roles:[
+    ["radio_bahrain","Chief Executive Officer","executive","ns"]]},
+  {id:"abdulla_al_hawaj", n:"Abdulla Al-Hawaj", t:2, p:62, s:"education", roles:[
+    ["ahlia_university","Founding President and Chairman of the Board of Trustees","board","ns"]]},
+  {id:"mansoor_alaali", n:"Mansoor Alaali", t:2, p:58, s:"education", roles:[
+    ["ahlia_university","President","executive","ns"]]},
+  {id:"esra_saleh_al", n:"Esra Saleh Al-Dhaen", t:2, p:58, s:"education", roles:[
+    ["ahlia_university","Vice-President for Administrative and Financial Affairs","executive","ns"]]},
+  {id:"ammar_al_hawaj", n:"Ammar Al-Hawaj", t:2, p:58, s:"education", roles:[
+    ["ahlia_university","Assistant President for Communications and International Relations","executive","ns"]]},
+  {id:"mukhtar_alhashimi", n:"Mukhtar Alhashimi", t:2, p:58, s:"education", roles:[
+    ["ahlia_university","Vice President for Academic Affairs","executive","ns"]]},
+  {id:"anwar_abdulrahman", n:"Anwar Abdulrahman", t:2, p:58, s:"comm", roles:[
+    ["gulf_daily_news","Editor-in-Chief","executive","ns"]]},
+  {id:"andrews_victor", n:"Andrews Victor", t:2, p:58, s:"comm", roles:[
+    ["gulf_daily_news","Associate Editor","executive","ns"]]},
+  {id:"stanley_szecowka", n:"Stanley Szecowka", t:2, p:58, s:"comm", roles:[
+    ["gulf_daily_news","Associate Editor","executive","ns"]]},
+  {id:"najah_al_zayani", n:"Najah Al Zayani", t:2, p:62, s:"health", roles:[
+    ["bahrain_spec_hosp","Founder and Vice Chairman","board","ns"]]},
+  {id:"kasim_ardati", n:"Kasim Ardati", t:2, p:60, s:"health", roles:[
+    ["bahrain_spec_hosp","Managing Director","executive","ns"]]},
+  {id:"maryam_mansour_kazerooni", n:"Maryam Mansour Kazerooni", t:2, p:52, s:"consumer_disc", roles:[
+    ["danat","Board Member","board","ns"]]},
+  {id:"noof_ramzi_alkhawaja", n:"Noof Ramzi Alkhawaja", t:2, p:52, s:"consumer_disc", roles:[
+    ["danat","Board Member","board","ns"]]},
+  {id:"amal_ishaq_alkooheji", n:"Amal Ishaq Alkooheji", t:2, p:52, s:"consumer_disc", roles:[
+    ["danat","Board Member","board","ns"]]},
+  {id:"mohammed_abdulrazaq_shirazi", n:"Mohammed Abdulrazaq Shirazi", t:2, p:52, s:"consumer_disc", roles:[
+    ["danat","Board Member","board","ns"]]},
+  {id:"danielle_pasquarelli_algosai", n:"Danielle Pasquarelli Algosaibi", t:2, p:52, s:"consumer_disc", roles:[
+    ["danat","Board Member","board","ns"]]},
+  {id:"safa_abdul_khaliq", n:"Safa Abdul Khaliq", t:2, p:60, s:"consumer_disc", roles:[
+    ["danat","Chief Executive Officer","executive","ns"]]},
+  {id:"andres_garcia", n:"Andres Garcia", t:2, p:60, s:"industry", roles:[
+    ["premo","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3369,6 +3416,8 @@ const OWNERSHIP = [
   ["hala_bahrain","gulfair","portfolio company (via Gulf Air Group Holding)","v"],
   ["bac_jet_fuel","gulfair","portfolio company (via Gulf Air Group Holding)","v"],
   ["sico_wealth","sico_bank","subsidiary of","ns"],
+  ["bluefive_capital","mumtalakat","anchor shareholder - minority equity stake acquired August 2025","ns"],
+  ["aleastur","mumtalakat","49% stake; built the GCC's first aluminium grain-refiner plant in Bahrain","ns"],
 ];
 
 const FAMILY = [
@@ -3424,4 +3473,5 @@ const AKA = {
   asu_bahrain:["ASU"],
   royal_univ_women:["RUW"],
   ucb_bahrain:["UCB"],
+  aleastur:["Asturiana de Aleaciones","Asturiana de Aleaciones, S.A."],
 };

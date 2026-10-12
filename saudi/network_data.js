@@ -1727,6 +1727,8 @@ const PEOPLE = [
     ["new_murabba","Board Member - Independent","board","v"],
     ["riyadhair","Board Member","board","v"]]},
   {id:"raid_abdullah_ismail", n:"Raid Abdullah Ismail", t:2, p:52, s:"industry", roles:[
+    ["nupco","Board Member","board","ns"],
+    ["thc","Chairman of the Board","board","ns"],
     ["lst_7203","Vice Chairman","board","ns"],
     ["lst_6015","Non-Executive Director","board","v"],
     ["riyadhair","Board Member","board","v"]]},
@@ -1835,6 +1837,7 @@ const PEOPLE = [
     ["diriyah","Board Member and Secretary","board","v"],
     ["moi_sa","Acting Vice Minister of Interior","executive","ns"]]},
   {id:"fahad_al_saif", n:"Fahad Al-Saif", t:2, p:58, s:"gov", roles:[
+    ["avilease","Chairman","board","ns"],
     ["kaec","Chairman (Non-Executive)","board","v"],
     ["misa","Minister of Investment","executive","v"]]},
   {id:"ammar_nagadi", n:"Ammar Nagadi", t:2, p:58, s:"gov", roles:[
@@ -2748,6 +2751,14 @@ const PEOPLE = [
     ["rawabi","Group Finance Director and Controller","executive","v"]]},
   {id:"makarem_sobhi_batterjee", n:"Makarem Sobhi Batterjee", t:2, p:62, s:"health", roles:[
     ["bait_al_batterjee","Chairman / President","board","ns"]]},
+  {id:"edward_o_byrne", n:"Edward O'Byrne", t:2, p:60, s:"finance", roles:[
+    ["avilease","Chief Executive Officer","executive","ns"]]},
+  {id:"keith_downey", n:"Keith Downey", t:2, p:46, s:"finance", roles:[
+    ["avilease","Head of Investor Relations","executive","ns"]]},
+  {id:"arnaud_martinez", n:"Arnaud Martinez", t:2, p:60, s:"industry", roles:[
+    ["thc","Chief Executive Officer","executive","ns"]]},
+  {id:"fahad_al_shibl", n:"Fahad Al-Shibl", t:2, p:60, s:"health", roles:[
+    ["nupco","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
