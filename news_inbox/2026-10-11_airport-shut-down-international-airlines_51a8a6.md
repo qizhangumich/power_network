@@ -1,0 +1,5 @@
+# Airport shut down, international airlines cancel flights after Houthi attack
+source: Yahoo Finance
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdzZkdmVVVFU3SzluUnIxZThIWkhFQzBfZW5yU0t1NmZYMWlkRW9ZOWRyOVpsR3ZXbkxraE5aRmU0ZDN4WnNyb0NkalJPZmx2clkwc1NEak9sYWxJa2YzRlVPVnBYc0kzRllEekpGVjIzRkhQYXAxaWRYbG9nWnRsYWFPS3pyanE4M3pua1JsdU5ZVm5JbXRQRXF3ajJmOGdVTm1lLXNvdVg?oc=5
+
+Airport shut down, international airlines cancel flights after Houthi attack    Yahoo Finance
