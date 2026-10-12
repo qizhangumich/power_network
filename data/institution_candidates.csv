@@ -1,7 +1,10 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Abu Dhabi Investment,10,abudhabi,rejected,2026-09-21,2026-10-02,"Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake"
+Benefit Trade Finance,2,bahrain,pending,2026-10-11,2026-10-11,NBB signs on as anchor partner of Benefit Trade Finance Registry
+King Khalid Airport,2,saudi,pending,2026-10-10,2026-10-11,ACT OF COWARDICE: Global Condemnation Follows Houthi Attacks on Saudi Arabia’s King Khalid Airport
+Abu Dhabi Investment,11,abudhabi,rejected,2026-09-21,2026-10-11,"Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake"
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
 Than Financial,5,abudhabi,rejected,2026-09-25,2026-09-26,Manchester City Found Guilty Of More Than 100 Financial Rule Breaches
+Riyadh Airport,4,saudi,rejected,2026-10-09,2026-10-11,"Three Dead, Including Saudia Airlines Captain, in Houthi Missile Attack On Riyadh Airport That Destroyed A Parked Airplane"
 British Airways,4,saudi,rejected,2026-10-05,2026-10-08,British Airways A380 gets 106-seat business class cabin2h ago4m read
 Turkish Airlines,4,bahrain,rejected,2026-09-24,2026-10-09,"Turkish Airlines, Boeing finalize 150 737 MAX order2m read"
 US Marine,4,qatar,rejected,2026-10-04,2026-10-10,US Marine arrested in Japan over murder
@@ -10,12 +13,11 @@ Asian Infrastructure Investment Bank,4,qatar,rejected,2026-09-27,2026-09-28,"Asi
 Hamad University,4,qatar,rejected,2026-09-29,2026-09-30,"HH the Amir Issues Amiri Decision Establishing, Organizing Tamim bin Hamad University for Military and Technology Sciences"
 Airport and King Khalid International Airport,4,saudi,rejected,2026-10-08,2026-10-08,text-parsing fragment of two headline-adjacent airport names
 Hamad University for Military and Technology,4,qatar,rejected,2026-09-29,2026-09-30,"HH the Amir Issues Amiri Decision Establishing, Organizing Tamim bin Hamad University for Military and Technology Sciences"
-Syrian Airlines,3,abudhabi,rejected,2026-09-20,2026-09-21,"Syrian Airlines expands European network with direct flights to Copenhagen, Vienna"
-Riyadh Airport,3,saudi,rejected,2026-10-09,2026-10-10,"Three Dead, Including Saudia Airlines Captain, in Houthi Missile Attack On Riyadh Airport That Destroyed A Parked Airplane"
 Abha International Airport,3,saudi,rejected,2026-10-08,2026-10-08,Saudi Arabia: Attacks target facilities at Abha International Airport and King Khalid International Airport
+Social Development,3,saudi,rejected,2026-10-06,2026-10-11,Minister of Social Development reviews disability care sector in Saudi Arabia
 Qatar Real Estate,3,qatar,rejected,2026-09-21,2026-09-27,Qatar Real Estate Forum 2026: Focus on tokenization and global investment
 Aurion Capital,3,qatar,rejected,2026-09-23,2026-09-24,"Invest Qatar, Aurion Capital, LG NOVA Engage to Advance Technology Investments, Venture Building in Qatar"
-Secretary-General of Ministry,3,qatar,rejected,2026-09-20,2026-10-05,Secretary-General of Ministry of Foreign Affairs meets Swedish Ambassador
+IMF-World Bank Group,3,kuwait,rejected,2026-10-10,2026-10-11,"Middle East war, high debt levels to dominate IMF-World Bank meetings"
 Hanwha Systems,3,abudhabi,rejected,2026-09-17,2026-09-17,Hanwha Systems to work with UAE’s Edge Group on integrated air defense network
 QNB Capital,3,qatar,added,2026-09-29,2026-09-30,QNB Capital acts as global coordinator on Qatar’s $3bn dual-tranche bond issuance
 Adani Airport Holdings,3,abudhabi,rejected,2026-09-10,2026-09-10,IHC backs Adani Airport Holdings’ $1bn fundraising round
@@ -35,8 +37,6 @@ Port Technology,2,northern,rejected,2026-09-21,2026-10-02,"Etihad Rail, AD Ports
 Noatum Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
 Global Fairs & Events Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
 Brixmor Property Group,2,abudhabi,rejected,2026-09-28,2026-09-29,"Brixmor Property Group, Everview Partners Acquire Slate Grocery REIT for $2.34B"
-Industrial City,2,northern,rejected,2026-09-20,2026-09-20,"In partnership with AD Ports Group, Etihad Rail launches integrated rail service connecting Fujairah Terminals with Industrial City of Abu D"
-Abu Dhabi Industrial City,2,northern,rejected,2026-09-20,2026-09-20,Etihad Rail Links Fujairah to Abu Dhabi Industrial City
 Liveability and Investment,2,abudhabi,rejected,2026-09-30,2026-10-01,Khaled bin Mohamed bin Zayed attends Liveability and Investment Exhibition (LIVEX 2026)
 Adnoc Logistics,2,abudhabi,rejected,2026-10-06,2026-10-06,Adnoc Logistics & Services Strikes $324 Million Deal for Three More Gas Carriers
 Palestinian Authority,2,,rejected,2026-09-27,2026-10-11,Israel's Smotrich calls for war in West Bank and dismantling of Palestinian Authority
@@ -44,7 +44,6 @@ GCC Petroleum,2,oman,rejected,2026-10-05,2026-10-06,Oman participates in 37th GC
 World Wind Energy,2,oman,rejected,2026-09-25,2026-09-26,Oman to host Gulf’s first World Wind Energy Conference in 2027
 Special Economic Zone,2,oman,rejected,2026-09-23,2026-09-23,His Majesty the Sultan visits Special Economic Zone in Duqm
 Postal Development,2,oman,rejected,2026-10-09,2026-10-10,Oman tops regional ranking in Postal Development Index for second consecutive year
-Social Development,2,saudi,rejected,2026-10-06,2026-10-08,Minister of Social Development reviews disability care sector in Saudi Arabia
 Leadership Development,2,oman,rejected,2026-09-29,2026-09-30,RAM launches Leadership Development Programme in the Food Security Sector
 Honeywell Technologies,2,qatar,rejected,2026-09-23,2026-09-24,"QFZ, Honeywell Technologies partner to establish manufacturing and service hub in Qatar"
 Port City,2,qatar,rejected,2026-09-28,2026-09-29,"Qatar Chamber briefed on investment opportunities in Port City Colombo, Sri Lanka"
@@ -54,8 +53,9 @@ QFBA Finance,2,qatar,rejected,2026-09-22,2026-09-22,Ahlibank announces platinum 
 Undersecretary of Ministry,2,qatar,rejected,2026-10-05,2026-10-06,Undersecretary of Ministry of Justice Meets Arab League Secretary-General
 Azerbaijan International Investment,2,qatar,rejected,2026-09-26,2026-09-27,Qatar Chamber participates in ‘Azerbaijan International Investment Forum’
 Houthi Group,2,saudi,rejected,2026-10-03,2026-10-09,Arab and International Condemntations of the Houthi Group's Launching of Ballistic Missiles Towards Saudi Arabia 26 September 2026
-Euromoney Foreign Exchange,2,qatar,rejected,2026-10-06,2026-10-07,QNB named Qatar’s Best FX Bank at Euromoney Foreign Exchange Awards
 FX Bank,2,qatar,rejected,2026-10-06,2026-10-07,QNB named Qatar’s Best FX Bank at Euromoney Foreign Exchange Awards
+Euromoney Foreign Exchange,2,qatar,rejected,2026-10-06,2026-10-07,QNB named Qatar’s Best FX Bank at Euromoney Foreign Exchange Awards
+Secretary-General of Ministry,2,qatar,rejected,2026-09-21,2026-10-05,Secretary-General of Ministry of Foreign Affairs meets Swedish Ambassador
 Al Yamamah Steel,2,saudi,rejected,2026-10-05,2026-10-10,Al Yamamah Steel signs two steel tower contracts worth SAR 254.3M
 Industry Ministry,2,saudi,rejected,2026-09-28,2026-10-10,Industry Ministry issues 364 licenses worth SAR 4.5B in June
 Saudi Construction,2,saudi,rejected,2026-09-22,2026-10-07,Saudi Construction Index drops to 54.4 points in September
@@ -69,7 +69,8 @@ Abha Airport,2,saudi,rejected,2026-10-08,2026-10-08,Saudi Arabia warns Houthi at
 US Treasury Department,2,,rejected,2026-09-23,2026-10-02,UAE approves sale of Egypt’s Banque Misr branches
 Oman Investment,2,oman,rejected,2026-09-24,2026-09-24,Oman floats $7bn of tenders for private sector
 Al-Shaheed Park,2,kuwait,rejected,2026-10-01,2026-10-01,Prime Minister opens Al-Shaheed Park Phase III on behalf of Amir
-IMF-World Bank Group,2,kuwait,rejected,2026-10-10,2026-10-10,NBK participates in IMF-World Bank Group Annual Meetings in Bangkok
+Industrial City,2,northern,rejected,2026-09-20,2026-09-20,"In partnership with AD Ports Group, Etihad Rail launches integrated rail service connecting Fujairah Terminals with Industrial City of Abu D"
+Abu Dhabi Industrial City,2,northern,rejected,2026-09-20,2026-09-20,Etihad Rail Links Fujairah to Abu Dhabi Industrial City
 University of Al Buraimi,2,oman,rejected,2026-10-08,2026-10-10,University of Al Buraimi hosts National Conference on Ophthalmology
 Maritime Security Centre,2,oman,added,2026-10-07,2026-10-09,UK parliamentary delegation visits Maritime Security Centre
 Ministry of Economy,2,oman,added,2026-10-04,2026-10-08,Ministry of Economy discusses means of enhancing cooperation with United Kingdom
@@ -135,19 +136,20 @@ Fakhruddin Properties,2,dubai,added,2026-09-08,2026-09-10,Fakhruddin Properties 
 Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
 Boring Company,1,abudhabi,rejected,2026-10-08,2026-10-08,THIS MORNING: Mubadala eyes more Asia exposure + more The Boring Company projects could be in the pipeline
-Salalah Airport,1,oman,rejected,2026-09-20,2026-09-20,"Salalah Airport handles 687,000 passengers during khareef"
+Syrian Airlines,1,,rejected,2026-09-21,2026-09-21,"Syrian Airlines adds Copenhagen, Vienna flights1m read"
 Labour Ministry,1,oman,added,2026-09-30,2026-09-30,Labour Ministry urges shift to capability economy
 US Energy,1,oman,rejected,2026-09-27,2026-09-27,"Only way to a better America is more energy addition, says US Energy Secretary"
 Estithmar Holding,1,qatar,rejected,2026-09-24,2026-09-24,Estithmar Holding Q.P.S.C Announces Elegancia C&I Awarded Contract Exceeding QAR 500 Mn to Construct AI-ready MEEZA Data Center
 Avalon Pharma,1,saudi,rejected,2026-10-07,2026-10-07,Avalon Pharma signs MoU with Aurisco Pharma on oligonucleotides
-Umm Al Qura for Development,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
 Al Qura for Development and Construction,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
+Umm Al Qura for Development,1,saudi,rejected,2026-09-22,2026-09-22,"Umm Al Qura for Development and Construction announces early execution of land reservation, sale deal with Numu, with SAR 700M investments t"
 Shahba Bank,1,bahrain,rejected,2026-09-22,2026-09-22,Estithmar completes 48.68% stake transfer in Shahba Bank
 Ebara Elliott Energy,1,bahrain,rejected,2026-09-21,2026-09-21,Ebara Elliott Energy expands Houston turbomachinery service centre
 Moon World Resorts,1,bahrain,rejected,2026-09-30,2026-09-30,Moon World Resorts appoints BDP Quadrangle as Lead Architects
 Saudi Media Company,1,saudi,rejected,2026-09-22,2026-09-22,Cristiano Ronaldo part of $500m bid for stake in Al Nassr
 GCC Capital,1,,rejected,2026-09-22,2026-09-22,VIDEO: Testimonials from Zawya’s GCC Capital Markets Forum
 European Commission,1,kuwait,rejected,2026-10-06,2026-10-06,STRASBOURG: European Commission President Ursula von der Leyen warned on Tuesday against a push by Germany and other member states for 'larg
+Salalah Airport,1,oman,rejected,2026-09-20,2026-09-20,"Salalah Airport handles 687,000 passengers during khareef"
 Explore Sustainable Energy,1,abudhabi,rejected,2026-09-19,2026-09-19,Beam Global And Masdar City Sign MoU To Explore Sustainable Energy Infrastructure Opportunities
 Opec Fund,1,,rejected,2026-09-19,2026-09-19,Opec Fund approves $645m in financing across 14 countries
 Executive Council,1,abudhabi,rejected,2026-09-18,2026-09-18,Abu Dhabi sets out next steps: AI joins Executive Council meeting for first time

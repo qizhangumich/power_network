@@ -294,6 +294,8 @@ const INSTITUTIONS = [
   {id:"masdar_americas", n:"Masdar Americas", s:"utilities", t:2, p:56, short:"Masdar Americas"},
   {id:"dolphin_energy", n:"Dolphin Energy Limited", s:"energy", t:2, p:58, short:"Dolphin Energy"},
   {id:"aiq", n:"AIQ", s:"tech", t:3, p:54, short:"AIQ"},
+  {id:"q_mobility", n:"Q Mobility LLC", s:"industry", t:3, p:52, short:"Q Mobility"},
+  {id:"q_3", n:"Q Holding PJSC", s:"conglomerate", t:3, p:54, short:"Q Holding"},
 ];
 
 const PEOPLE = [
@@ -3954,6 +3956,9 @@ const OWNERSHIP = [
   ["masdar_americas","masdar","subsidiary of","ns"],
   ["dolphin_energy","mubadala","jv","ns"],
   ["aiq","adnoc","jv","ns"],
+  ["q_mobility","adq","wholly owned subsidiary","ns"],
+  ["q_3","ihc","listed subsidiary","ns"],
+  ["g42","mubadala","portfolio company (minority stake alongside Silver Lake/Microsoft/Dalio)","ns"],
 ];
 
 const FAMILY = [

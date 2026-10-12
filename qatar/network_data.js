@@ -1988,6 +1988,10 @@ const PEOPLE = [
     ["aspetar","Executive Director of Research and Scientific Support","executive","v"]]},
   {id:"ibrahim_al_darwish", n:"Ibrahim Al-Darwish", t:2, p:58, s:"health", roles:[
     ["aspetar","DG Office Advisor","executive","v"]]},
+  {id:"sheikh_khalid_bin_b_b_b", n:"Sheikh Khalid bin Abdulaziz bin Jassim Al Thani", t:2, p:60, s:"comm", roles:[
+    ["qatar_media","Chief Executive Officer","executive","ns"]]},
+  {id:"jassim_bin_saif", n:"Jassim bin Saif Al Sulaiti", t:2, p:62, s:"industry", roles:[
+    ["mwani","Chairman (also Minister of Transport)","board","ns"]]},
 ];
 
 const OWNERSHIP = [

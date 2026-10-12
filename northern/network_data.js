@@ -267,6 +267,7 @@ const PEOPLE = [
   {id:"nicholas_whiteley", n:"Nicholas Whiteley", t:2, p:58, s:"energy", roles:[
     ["crescentpet","Executive Director, Upstream","executive","v"]]},
   {id:"sheikh_abdullah_bin", n:"Sheikh Abdullah Bin Mohamed Al Thani", t:2, p:62, s:"industry", roles:[
+    ["al_buhaira_ins","Vice Chairman","board","ns"],
     ["airarabia","Chairman","board","v"]]},
   {id:"sheikh_mohammed_bin", n:"Sheikh Mohammed Bin Abdullah Al Thani", t:2, p:52, s:"industry", roles:[
     ["airarabia","Board Member","board","v"]]},
@@ -285,6 +286,7 @@ const PEOPLE = [
     ["rak_ido","Chairwoman","board","v"],
     ["rakbank","Vice Chair","board","v"]]},
   {id:"salem_ali_al", n:"Salem Ali Al Sharhan", t:2, p:52, s:"finance", roles:[
+    ["rakmhsu","Chairman, Board of Trustees","board","ns"],
     ["rakbank","Board Member","board","v"]]},
   {id:"stephen_monaghan", n:"Stephen Monaghan", t:2, p:52, s:"finance", roles:[
     ["rakbank","Board Member","board","v"]]},
@@ -378,6 +380,7 @@ const PEOPLE = [
   {id:"feras_al_naimi", n:"Feras Al Naimi", t:2, p:60, s:"realestate", roles:[
     ["arada","Chief Executive Officer - Nexus","executive","v"]]},
   {id:"h_h_sheikh", n:"H.H. Sheikh Rashid bin Humaid bin Rashid Al Nuaimi", t:2, p:62, s:"finance", roles:[
+    ["ajman_municipality","Chairman","board","ns"],
     ["ajmgov","Executive Council Member; Chairman of Municipality and Planning Department","board","v"],
     ["al_zorah_dev","Chairman of the Board of Directors","board","v"],
     ["ajmanbank","Vice Chairman","board","v"]]},
@@ -449,6 +452,7 @@ const PEOPLE = [
   {id:"sheikh_mohammed_bin_b", n:"Sheikh Mohammed bin Saud Al Qasimi", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Sharjah Finance Department)","board","v"]]},
   {id:"sheikh_khaled_bin", n:"Sheikh Khaled bin Abdullah bin Sultan Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["al_buhaira_ins","Managing Director","board","ns"],
     ["saif_zone","Chairman","board","v"],
     ["hfza","Chairman","board","v"],
     ["shj_execco","Member (Chairman of Sharjah Seaports and Customs)","board","v"]]},
@@ -482,6 +486,7 @@ const PEOPLE = [
   {id:"mansour_mohammed_bin", n:"Mansour Mohammed Bin Nassar", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Sharjah Government Legal Department)","board","v"]]},
   {id:"abdelaziz_saeed_obaid", n:"Abdelaziz Saeed Obaid Bin Butti Almheiri", t:2, p:62, s:"gov", roles:[
+    ["univ_hosp_sharjah","Chairman of the Board of Trustees","board","ns"],
     ["sharjah_health_auth","Chairman","board","v"],
     ["shj_execco","Member (Chairman of Sharjah Health Authority)","board","v"]]},
   {id:"khaled_butti_bin", n:"Khaled Butti bin Butti Al Muhairi", t:2, p:62, s:"gov", roles:[
@@ -763,6 +768,7 @@ const PEOPLE = [
   {id:"khalid_omar_al", n:"Khalid Omar Al Midfa", t:2, p:62, s:"gov", roles:[
     ["shams","Chairman","board","v"]]},
   {id:"raza_siddiqui", n:"Raza Siddiqui", t:2, p:58, s:"health", roles:[
+    ["rakmhsu","Board of Trustees Member","board","ns"],
     ["rak_hospital","Executive Director","executive","v"]]},
   {id:"mohammed_saif_al", n:"Mohammed Saif Al Afkham", t:2, p:58, s:"gov", roles:[
     ["fnrc","Chairman of the Board of Directors","board","v"],
@@ -875,6 +881,7 @@ const PEOPLE = [
   {id:"olfa_gam", n:"Olfa Gam", t:2, p:52, s:"health", roles:[
     ["julphar","Board Member","board","v"]]},
   {id:"jean_maroun_diab", n:"Jean Maroun Diab", t:2, p:52, s:"health", roles:[
+    ["rakmhsu","Board of Trustees Member","board","ns"],
     ["julphar","Board Member","board","v"]]},
   {id:"medhat_mohamed_abouelasrar", n:"Medhat Mohamed Abouelasrar El Gamal", t:2, p:52, s:"health", roles:[
     ["julphar","Board Member","board","v"]]},
@@ -1184,6 +1191,76 @@ const PEOPLE = [
     ["rak_porcelain","Managing Director, RAK Porcelain Europe","executive","ns"]]},
   {id:"natasha_ridge", n:"Natasha Ridge", t:2, p:58, s:"gov", roles:[
     ["al_qasimi_fdn","Executive Director","executive","ns"]]},
+  {id:"salem_ali_al_b_b", n:"Salem Ali Al Muhairi", t:2, p:62, s:"gov", roles:[
+    ["sharjah_municipality","Chairman of Sharjah Municipal Council","board","ns"]]},
+  {id:"abdullah_bin_hamouda", n:"Abdullah bin Hamouda Al Ketbi", t:2, p:62, s:"gov", roles:[
+    ["sharjah_municipality","Vice Chairman of Sharjah Municipal Council","board","ns"]]},
+  {id:"ali_saeed_al_b", n:"Ali Saeed Al Ketbi", t:2, p:58, s:"gov", roles:[
+    ["sharjah_municipality","Secretary-General of Sharjah Municipal Council","executive","ns"]]},
+  {id:"salem_bin_sultan", n:"Salem bin Sultan Al Qasimi", t:2, p:62, s:"industry", roles:[
+    ["rak_airport","Chairman","board","ns"]]},
+  {id:"ciro_iorio", n:"Ciro Iorio", t:2, p:52, s:"industry", roles:[
+    ["rak_airport","Board Member","board","ns"]]},
+  {id:"aditya_ghosh", n:"Aditya Ghosh", t:2, p:52, s:"industry", roles:[
+    ["rak_airport","Independent Director","board","ns"]]},
+  {id:"manish_seth", n:"Manish Seth", t:2, p:60, s:"industry", roles:[
+    ["rak_airport","Chief Executive Officer","executive","ns"]]},
+  {id:"ram_buxani", n:"Ram Buxani", t:2, p:62, s:"education", roles:[
+    ["skyline_univ","Chairman, Board of Trustees","board","ns"]]},
+  {id:"kamal_puri", n:"Kamal Puri", t:2, p:52, s:"education", roles:[
+    ["skyline_univ","Board Member (Ex-Officio)","board","ns"]]},
+  {id:"nitin_anand", n:"Nitin Anand", t:2, p:52, s:"education", roles:[
+    ["skyline_univ","Board Member (Ex-Officio)","board","ns"]]},
+  {id:"ghanem_al_hajri", n:"Ghanem Al Hajri", t:2, p:52, s:"education", roles:[
+    ["skyline_univ","Board of Trustees Member","board","ns"]]},
+  {id:"mouza_ghubash", n:"Mouza Ghubash", t:2, p:52, s:"education", roles:[
+    ["skyline_univ","Board of Trustees Member","board","ns"]]},
+  {id:"ibrahim_barakeh", n:"Ibrahim Barakeh", t:2, p:52, s:"education", roles:[
+    ["skyline_univ","Board of Trustees Member","board","ns"]]},
+  {id:"blake_faulkner", n:"Blake Faulkner", t:2, p:52, s:"education", roles:[
+    ["skyline_univ","Board of Trustees Member","board","ns"]]},
+  {id:"amit_nayak", n:"Amit Nayak", t:2, p:52, s:"education", roles:[
+    ["skyline_univ","Board of Trustees Member","board","ns"]]},
+  {id:"fatima_ghulam_murad", n:"Fatima Ghulam Murad Al Blooshi", t:2, p:52, s:"education", roles:[
+    ["skyline_univ","Board of Trustees Member","board","ns"]]},
+  {id:"mohammad_in_airat", n:"Mohammad In'airat", t:2, p:58, s:"education", roles:[
+    ["skyline_univ","Vice Chancellor","executive","ns"]]},
+  {id:"sheikh_omar_saqr", n:"Sheikh Omar Saqr Khaled Al Qasimi", t:2, p:62, s:"finance", roles:[
+    ["raknic","Chairman (Independent, Non-Executive)","board","ns"]]},
+  {id:"sheikh_faisal_bin", n:"Sheikh Faisal bin Khalid Sultan Al Qasimi", t:2, p:62, s:"finance", roles:[
+    ["al_buhaira_ins","Chairman","board","ns"]]},
+  {id:"sheikh_ahmed_bin_b_b_b", n:"Sheikh Ahmed bin Abdulla bin Mohammed Ali Al Thani", t:2, p:52, s:"finance", roles:[
+    ["al_buhaira_ins","Board Member","board","ns"]]},
+  {id:"sheikh_saoud_nasser", n:"Sheikh Saoud Nasser Rashid Abdulaziz Almoalla", t:2, p:52, s:"finance", roles:[
+    ["al_buhaira_ins","Board Member","board","ns"]]},
+  {id:"rashid_ali_rashid", n:"Rashid Ali Rashid Dimas Al Suwaidi", t:2, p:52, s:"finance", roles:[
+    ["al_buhaira_ins","Board Member","board","ns"]]},
+  {id:"salem_abdulla_salem", n:"Salem Abdulla Salem Alhosani", t:2, p:52, s:"finance", roles:[
+    ["al_buhaira_ins","Board Member","board","ns"]]},
+  {id:"abdulla_mohamed_salih", n:"Abdulla Mohamed Salih Al Zarooni", t:2, p:52, s:"finance", roles:[
+    ["al_buhaira_ins","Board Member","board","ns"]]},
+  {id:"noura_mahmoud_mohamed", n:"Noura Mahmoud Mohamed Al-Ali", t:2, p:52, s:"finance", roles:[
+    ["al_buhaira_ins","Board Member","board","ns"]]},
+  {id:"nader_t_qaddumi", n:"Nader T. Qaddumi", t:2, p:46, s:"finance", roles:[
+    ["al_buhaira_ins","General Manager","executive","ns"]]},
+  {id:"amel_ahmed_sultan", n:"Amel Ahmed Sultan Alqatari Alsuwaidi", t:2, p:52, s:"health", roles:[
+    ["univ_hosp_sharjah","Vice President of the Board","board","ns"]]},
+  {id:"qutayba_hamid", n:"Qutayba Hamid", t:2, p:52, s:"health", roles:[
+    ["univ_hosp_sharjah","Board of Trustees Member","board","ns"]]},
+  {id:"khalifa_mohamed_ibrahim", n:"Khalifa Mohamed Ibrahim Alsaman Alnuaimi", t:2, p:60, s:"health", roles:[
+    ["univ_hosp_sharjah","Chief Executive Officer","executive","ns"]]},
+  {id:"hakam_yaseen", n:"Hakam Yaseen", t:2, p:58, s:"health", roles:[
+    ["univ_hosp_sharjah","Medical Director","executive","ns"]]},
+  {id:"hashim_el_faki", n:"Hashim El Faki Abd Allah Ahmed", t:2, p:58, s:"health", roles:[
+    ["univ_hosp_sharjah","Legal Manager & Board Secretary","executive","ns"]]},
+  {id:"yasser_al_nuaimi", n:"Yasser Al Nuaimi", t:2, p:52, s:"education", roles:[
+    ["rakmhsu","Board of Trustees Member","board","ns"]]},
+  {id:"steven_reissig", n:"Steven Reissig", t:2, p:52, s:"education", roles:[
+    ["rakmhsu","Board of Trustees Member","board","ns"]]},
+  {id:"ismail_ibrahim_ali", n:"Ismail Ibrahim Ali Matalka", t:2, p:58, s:"education", roles:[
+    ["rakmhsu","President","executive","ns"]]},
+  {id:"abdulrahman_al_nuaimi", n:"Abdulrahman Al Nuaimi", t:2, p:62, s:"gov", roles:[
+    ["ajman_municipality","Director General, Deputy Chairman of the Board","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

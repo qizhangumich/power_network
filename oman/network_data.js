@@ -1061,6 +1061,7 @@ const PEOPLE = [
   {id:"madiha_bint_ahmed", n:"Madiha bint Ahmed Al Shibaniya", t:2, p:58, s:"education", roles:[
     ["moe","Minister of Education","executive","ns"]]},
   {id:"khamis_bin_saif", n:"Khamis bin Saif Al Jabri", t:2, p:62, s:"gov", roles:[
+    ["ministry_of_economy","Minister of Economy","executive","ns"],
     ["fsa_oman","Chairman of the Board of Directors (Minister of Economy)","board","ns"]]},
   {id:"abdullah_bin_salem_b", n:"Abdullah bin Salem Al Salmi", t:2, p:58, s:"gov", roles:[
     ["fsa_oman","Executive President","executive","v"]]},

@@ -226,6 +226,7 @@ const PEOPLE = [
     ["difc","President","political","v"]],
     note:"Dubai's financial-markets czar: DIFC, the IPO program and federal finance."},
   {id:"ahmed_saeed", n:"H.H. Sheikh Ahmed bin Saeed Al Maktoum", t:0, p:92, s:"industry", roles:[
+    ["dafza","Chairman, Dubai Integrated Economic Zones Authority (DIEZ)","board","ns"],
     ["meydan","Head of Dubai Holding Group (incorporating Meydan since March 2024)","board","v"],
     ["dubai_petroleum","Chairman","board","v"],
     ["dcaa","President","board","v"],
@@ -261,6 +262,7 @@ const PEOPLE = [
     ["dib","Chairman (–Sep 2026)","board","v","former:until Sep 2026"]],
     note:"The Ruler's chief business fiduciary — controls the ICD holding that owns Emirates, ENBD and more."},
   {id:"altayer_dewa", n:"Saeed Mohammed Al Tayer", t:1, p:84, s:"utilities", roles:[
+    ["empower","Chairman","board","ns"],
     ["noor_energy_1","Chairman of the Board","board","v"],
     ["execco","Member (Deputy Chairman of Supreme Council of Energy)","board","v"],
     ["dewa","Managing Director & CEO","executive","v"],
@@ -271,12 +273,14 @@ const PEOPLE = [
     ["lst_salik","Chairman","board","v"],
     ["rta","Chairman & Director-General","government","v"]]},
   {id:"essa_kazim", n:"Essa Kazim", t:1, p:82, s:"finance", roles:[
+    ["nasdaq_dubai","Board Member","board","ns"],
     ["borse_dubai","Chairman","board","v"],
     ["difc","Governor","executive","v"],
     ["dfm","Chairman (–Nov 2021)","board","v","former:until Nov 2021"],
     ["dpworld","Chairman","board","v"]],
     note:"Chaired DFM 2007–Nov 2021; succeeded as DFM chairman by Helal Saeed Al Marri (Dubai Media Office, 3 Nov 2021). Appointed Chairman of DP World in Feb 2026."},
   {id:"helal_marri", n:"Helal Saeed Almarri", t:1, p:78, s:"gov", roles:[
+    ["dwtc","Director General, DWTC Authority","executive","ns"],
     ["dubai_future_fdn","Board Member (Director General, Dubai Department of Economy and Tourism)","board","v"],
     ["vara","Chairman of the Executive Board","board","v"],
     ["lst_taaleem","Board Member","board","v"],
@@ -310,6 +314,7 @@ const PEOPLE = [
   {id:"khalaf_habtoor", n:"Khalaf Al Habtoor", t:2, p:76, s:"conglomerate", roles:[
     ["alhabtoor","Founder & Chairman","board","v"]]},
   {id:"amit_kaushal", n:"Amit Kaushal", t:2, p:72, s:"sovereign", roles:[
+    ["empower","Board Member","board","ns"],
     ["meraas","Group Chief Executive Officer","executive","v"],
     ["tecom","Director","board","v"],
     ["dubaiholding","Group CEO","executive","v"]]},
@@ -649,8 +654,10 @@ const PEOPLE = [
   {id:"amal_koshak", n:"Amal Koshak", t:2, p:58, s:"utilities", roles:[
     ["dewa","Vice President of Marketing and Corporate Communications","executive","v"]]},
   {id:"nasser_lootah", n:"Nasser Lootah", t:2, p:58, s:"utilities", roles:[
+    ["empower","Board Member","board","ns"],
     ["dewa","Executive Vice President of Generation (Power & Water)","executive","v"]]},
   {id:"hussain_lootah", n:"Hussain Lootah", t:2, p:58, s:"utilities", roles:[
+    ["empower","Board Member","board","ns"],
     ["dewa","Executive Vice President of Transmission (Power)","executive","v"],
     ["enoc","Board Member","board","v"]]},
   {id:"waleed_bin_salman", n:"Waleed Bin Salman", t:2, p:58, s:"utilities", roles:[
@@ -991,6 +998,7 @@ const PEOPLE = [
   {id:"wassim_makarem", n:"Wassim Makarem", t:2, p:58, s:"consumer_disc", roles:[
     ["lst_talabat","Chief Retail Officer","executive","v"]]},
   {id:"khalifa_hassan_abdulla", n:"Khalifa Hassan Abdulla Al Daboos", t:2, p:60, s:"sovereign", roles:[
+    ["national_bonds","Chairman","board","ns"],
     ["dae","Managing Director and Board Member","board","ns"],
     ["icd","Deputy Chief Executive Officer","executive","v"]]},
   {id:"ahmed_buti_saeed", n:"Ahmed Buti Saeed Al Muhairbi", t:2, p:52, s:"energy", roles:[
@@ -1006,6 +1014,7 @@ const PEOPLE = [
   {id:"ahmed_saeed_al", n:"Ahmed Saeed Al Calily", t:2, p:62, s:"materials", roles:[
     ["ega","Board Member; Chair of the Human Capital Committee","board","v"]]},
   {id:"abdul_wahed_mohammad", n:"Abdul Wahed Mohammad Al Fahim", t:2, p:62, s:"materials", roles:[
+    ["nasdaq_dubai","Chairman","board","ns"],
     ["ega","Board Member; Chairman of the Audit and Risk Committee","board","v"]]},
   {id:"zouhir_regragui", n:"Zouhir Regragui", t:2, p:52, s:"materials", roles:[
     ["ega","Board Member","board","v"]]},
@@ -1280,6 +1289,7 @@ const PEOPLE = [
   {id:"mohammed_abdulla_al", n:"Mohammed Abdulla Al Shaibani", t:2, p:52, s:"consumer_disc", roles:[
     ["lst_taaleem","Board Member","board","v"]]},
   {id:"rehab_lootah", n:"Rehab Lootah", t:2, p:52, s:"consumer_disc", roles:[
+    ["national_bonds","Group Deputy Chief Executive Officer","executive","ns"],
     ["lst_taaleem","Board Member","board","v"]]},
   {id:"ziad_azzam", n:"Ziad Azzam", t:2, p:52, s:"consumer_disc", roles:[
     ["lst_taaleem","Board Member","board","v"]]},
@@ -1287,6 +1297,7 @@ const PEOPLE = [
     ["emaar_development","Director","board","v"],
     ["lst_taaleem","Board Member","board","v"]]},
   {id:"shahid_hameed", n:"Shahid Hameed", t:2, p:52, s:"consumer_disc", roles:[
+    ["national_bonds","Group Chief Investment Officer","executive","ns"],
     ["lst_taaleem","Board Member","board","v"]]},
   {id:"alan_williamson", n:"Alan Williamson", t:2, p:60, s:"consumer_disc", roles:[
     ["lst_taaleem","Chief Executive Officer","executive","v"]]},
@@ -1522,6 +1533,7 @@ const PEOPLE = [
   {id:"khalifa_al_zaffin", n:"Khalifa Al Zaffin", t:2, p:62, s:"gov", roles:[
     ["dubai_south","Executive Chairman","board","v"]]},
   {id:"raja_easa_al", n:"Raja Easa Al Gurg", t:2, p:62, s:"conglomerate", roles:[
+    ["univ_of_dubai","Vice Chairperson, Board of Trustees","board","ns"],
     ["mbru","Vice Chairperson of the Board of Trustees","board","v"],
     ["easa_saleh_al","Chairperson and Managing Director","board","v"]]},
   {id:"muna_easa_al", n:"Muna Easa Al Gurg", t:2, p:62, s:"conglomerate", roles:[
@@ -1574,6 +1586,7 @@ const PEOPLE = [
     ["sobha_realty","Independent Director","board","v"],
     ["dld","Director, Real Estate Policies & Innovation","executive","ns"]]},
   {id:"hamdan_bin_rashid", n:"Hamdan bin Rashid Al Maktoum", t:2, p:52, s:"health", roles:[
+    ["dwtc","Chairman, DWTC Authority","board","ns"],
     ["dha","President","board","v"]]},
   {id:"humaid_mohammed_obaid", n:"Humaid Mohammed Obaid Al Qatami", t:2, p:62, s:"health", roles:[
     ["dha","Chairman of the Board","board","v"]]},
@@ -1609,8 +1622,10 @@ const PEOPLE = [
   {id:"adel_ali", n:"Adel Ali", t:2, p:60, s:"industry", roles:[
     ["lst_airarabia","Group CEO","executive","v"]]},
   {id:"issam_kazim", n:"Issam Kazim", t:2, p:60, s:"gov", roles:[
+    ["empower","Board Member","board","ns"],
     ["det","Chief Executive Officer of Dubai Corporation for Tourism and Commerce Marketing","executive","v"]]},
   {id:"majed_al_joker", n:"Majed Al Joker", t:2, p:58, s:"industry", roles:[
+    ["empower","Board Member","board","ns"],
     ["dxbairports","Chief Operating Officer","executive","v"]]},
   {id:"adil_al_fahim", n:"Adil Al Fahim", t:2, p:58, s:"industry", roles:[
     ["dxbairports","Chief Financial Officer","executive","v"]]},
@@ -1639,6 +1654,7 @@ const PEOPLE = [
   {id:"younus_al_nasser", n:"Younus Al Nasser", t:2, p:60, s:"gov", roles:[
     ["digitaldubai","Chief Executive Officer of Dubai Data and Statistics Establishment","executive","v"]]},
   {id:"fatma_ibrahim_abdullah", n:"Fatma Ibrahim Abdullah Belrehif", t:2, p:60, s:"education", roles:[
+    ["empower","Board Member","board","ns"],
     ["khda","CEO of the Quality Assurance and Compliance Establishment","executive","v"]]},
   {id:"wafi_dawood_mousa", n:"Wafi Dawood Mousa Jafar Ali", t:2, p:60, s:"education", roles:[
     ["khda","CEO of the Strategic Development Sector","executive","v"]]},
@@ -1653,6 +1669,7 @@ const PEOPLE = [
   {id:"suad_al_sayed", n:"Suad Al Sayed Sharaf", t:2, p:58, s:"gov", roles:[
     ["dof_dxb","Director - Financial and Administrative Affairs Division","executive","v"]]},
   {id:"amna_mohammed_lootah", n:"Amna Mohammed Lootah", t:2, p:58, s:"gov", roles:[
+    ["dafza","Director General, Dubai Airport Freezone (DAFZA)","executive","ns"],
     ["diez","Director General, Dubai Airport Freezone (DAFZ)","executive","ns"],
     ["dof_dxb","Director - Smart Financial Services Division","executive","v"]]},
   {id:"deepa_raja_carbon", n:"Deepa Raja Carbon", t:2, p:62, s:"finance", roles:[
@@ -1739,6 +1756,8 @@ const PEOPLE = [
   {id:"arja_taaveniku", n:"Arja Taaveniku", t:2, p:60, s:"consumer_disc", roles:[
     ["landmark","CEO of Home Centre, Landmark Group","executive","v"]]},
   {id:"mohammed_al_zarooni", n:"Mohammed Al Zarooni", t:2, p:52, s:"industry", roles:[
+    ["dsoa","Executive Chairman, Dubai Integrated Economic Zones Authority (DIEZ)","board","ns"],
+    ["dafza","Executive Chairman, Dubai Integrated Economic Zones Authority (DIEZ)","board","ns"],
     ["diez","Executive Chairman","executive","v"],
     ["dae","Board Member","board","ns"]]},
   {id:"wassim_younan", n:"Wassim Younan", t:2, p:52, s:"industry", roles:[
@@ -1923,6 +1942,7 @@ const PEOPLE = [
   {id:"juma_al_matrooshi", n:"Juma Al Matrooshi", t:2, p:62, s:"gov", roles:[
     ["diez","Assistant Executive Chairman, Investments and Partnerships","executive","v"]]},
   {id:"badr_buhannad", n:"Badr Buhannad", t:2, p:58, s:"gov", roles:[
+    ["dsoa","Director General, Dubai Silicon Oasis","executive","ns"],
     ["diez","Director General, Dubai Silicon Oasis","executive","v"]]},
   {id:"obaid_saif_mohammed", n:"Obaid Saif Mohammed Karaa Al Nuaimi", t:2, p:60, s:"gov", roles:[
     ["dcaa","Chief Executive Officer, Aviation Security and Accident Investigation","executive","v"]]},
@@ -2084,6 +2104,76 @@ const PEOPLE = [
     ["meydan","Head of Meydan Free Zone","executive","ns"]]},
   {id:"anisha_sagar", n:"Anisha Sagar", t:2, p:46, s:"consumer_disc", roles:[
     ["meydan","Head of Marketing and Communications - Meydan Free Zone","executive","ns"]]},
+  {id:"ghanim_al_falasi", n:"Ghanim Al Falasi", t:2, p:58, s:"gov", roles:[
+    ["dsoa","Senior Vice President, Director General Office","executive","ns"]]},
+  {id:"jamal_bin_marghoob", n:"Jamal Bin Marghoob", t:2, p:58, s:"gov", roles:[
+    ["dsoa","Vice President, Client and Community Relations","executive","ns"]]},
+  {id:"ahmad_hassan_alzaabi", n:"Ahmad Hassan Alzaabi", t:2, p:58, s:"gov", roles:[
+    ["dsoa","Vice President, Commercial Services","executive","ns"]]},
+  {id:"khawla_saeed_alfalasi", n:"Khawla Saeed Alfalasi", t:2, p:58, s:"gov", roles:[
+    ["dsoa","Vice President, Shared Services","executive","ns"]]},
+  {id:"mahir_abdulkarim_julfar", n:"Mahir Abdulkarim Julfar", t:2, p:58, s:"consumer_disc", roles:[
+    ["dwtc","Executive Vice President, Dubai World Trade Centre","executive","ns"]]},
+  {id:"edward_s_knight", n:"Edward S. Knight", t:2, p:52, s:"finance", roles:[
+    ["nasdaq_dubai","Board Member","board","ns"]]},
+  {id:"george_moller", n:"George Moller", t:2, p:52, s:"finance", roles:[
+    ["nasdaq_dubai","Board Member","board","ns"]]},
+  {id:"jamal_nasser_lootah", n:"Jamal Nasser Lootah", t:2, p:52, s:"finance", roles:[
+    ["nasdaq_dubai","Board Member","board","ns"]]},
+  {id:"rashid_al_shamsi", n:"Rashid Al Shamsi", t:2, p:52, s:"finance", roles:[
+    ["nasdaq_dubai","Board Member","board","ns"]]},
+  {id:"hamed_ali", n:"Hamed Ali", t:2, p:60, s:"finance", roles:[
+    ["nasdaq_dubai","Chief Executive Officer","executive","ns"]]},
+  {id:"abdulla_saeed_belyoahah", n:"Abdulla Saeed Belyoahah", t:2, p:52, s:"finance", roles:[
+    ["national_bonds","Board Member","board","ns"]]},
+  {id:"ali_rashid_al", n:"Ali Rashid Al Mazroei", t:2, p:52, s:"finance", roles:[
+    ["national_bonds","Board Member","board","ns"]]},
+  {id:"huraiz_almur_bin", n:"Huraiz Almur Bin Huraiz", t:2, p:52, s:"finance", roles:[
+    ["national_bonds","Board Member","board","ns"]]},
+  {id:"jamal_saeed_juma", n:"Jamal Saeed Juma bin Ghalaita", t:2, p:52, s:"finance", roles:[
+    ["national_bonds","Board Member","board","ns"]]},
+  {id:"mohammed_qasim_al", n:"Mohammed Qasim Al Ali", t:2, p:60, s:"finance", roles:[
+    ["national_bonds","Group Chief Executive Officer","executive","ns"]]},
+  {id:"saqib_mahmood", n:"Saqib Mahmood", t:2, p:58, s:"finance", roles:[
+    ["national_bonds","Group Chief Commercial Officer","executive","ns"]]},
+  {id:"afif_ramadan", n:"Afif Ramadan", t:2, p:58, s:"finance", roles:[
+    ["national_bonds","Group Chief Financial Officer","executive","ns"]]},
+  {id:"bashar_alrosan", n:"Bashar Alrosan", t:2, p:62, s:"materials", roles:[
+    ["ducab","Chairman","board","ns"]]},
+  {id:"khaled_lootah", n:"Khaled Lootah", t:2, p:62, s:"materials", roles:[
+    ["ducab","Vice Chairman","board","ns"]]},
+  {id:"gert_hoefman", n:"Gert Hoefman", t:2, p:52, s:"materials", roles:[
+    ["ducab","Board Member","board","ns"]]},
+  {id:"ahmad_belyouha", n:"Ahmad Belyouha", t:2, p:52, s:"materials", roles:[
+    ["ducab","Board Member","board","ns"]]},
+  {id:"sami_najati", n:"Sami Najati", t:2, p:52, s:"materials", roles:[
+    ["ducab","Board Member","board","ns"]]},
+  {id:"matteo_bavaresco", n:"Matteo Bavaresco", t:2, p:60, s:"materials", roles:[
+    ["ducab","Group Chief Executive Officer","executive","ns"]]},
+  {id:"mohamed_al_ahmedi", n:"Mohamed Al Ahmedi", t:2, p:60, s:"materials", roles:[
+    ["ducab","Chief Executive Officer, Ducab Metal Business","executive","ns"]]},
+  {id:"charles_mellagui", n:"Charles Mellagui", t:2, p:60, s:"materials", roles:[
+    ["ducab","Chief Executive Officer, Cable Business Unit","executive","ns"]]},
+  {id:"ahmad_bin_shafar", n:"Ahmad Bin Shafar", t:2, p:60, s:"utilities", roles:[
+    ["empower","Chief Executive Officer","executive","ns"]]},
+  {id:"tariq_al_yasi", n:"Tariq Al Yasi", t:2, p:58, s:"utilities", roles:[
+    ["empower","Chief Operations & Maintenance Officer","executive","ns"]]},
+  {id:"ramesh_ramadurai", n:"Ramesh Ramadurai", t:2, p:58, s:"utilities", roles:[
+    ["empower","Chief Financial Officer","executive","ns"]]},
+  {id:"samer_khoudeir", n:"Samer Khoudeir", t:2, p:58, s:"utilities", roles:[
+    ["empower","Chief Sales & Marketing Officer","executive","ns"]]},
+  {id:"edgar_qureshi", n:"Edgar Qureshi", t:2, p:58, s:"utilities", roles:[
+    ["empower","Chief Commercial Officer","executive","ns"]]},
+  {id:"mohamed_kahoor", n:"Mohamed Kahoor", t:2, p:58, s:"utilities", roles:[
+    ["empower","Chief Business Support Services Officer","executive","ns"]]},
+  {id:"majid_hamad_al", n:"Majid Hamad Al Shamsi", t:2, p:62, s:"education", roles:[
+    ["univ_of_dubai","Chairman, Board of Trustees","board","ns"]]},
+  {id:"eesa_al_bastaki", n:"Eesa Al Bastaki", t:2, p:58, s:"education", roles:[
+    ["univ_of_dubai","President","executive","ns"]]},
+  {id:"hussain_al_ahmad", n:"Hussain Al Ahmad", t:2, p:58, s:"education", roles:[
+    ["univ_of_dubai","Vice-President for Academic Affairs","executive","ns"]]},
+  {id:"nasser_al_murraqab", n:"Nasser Al Murraqab", t:2, p:58, s:"education", roles:[
+    ["univ_of_dubai","Director of Administration","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
