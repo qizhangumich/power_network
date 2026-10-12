@@ -1,0 +1,5 @@
+# Airlines cancel flights to Saudi Arabia after Riyadh airport attacks
+source: Reuters
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX0c4YlJSYUNrT1pqLTA2TmFjdDZUdmh2Z3pXbG9vWF9mdS0tZFZ6M2tYTVUzRjZVTzhodnh4WU0waXV1bjZENURjUVhmRVZPN251V2laQmNMZ3JoNmIzZE5hWU82YkxIWTdvd2xNczBkNnEta0xGdzlmaGlFNkZ5M1lxcGZUNW5pRnMxV1pPT0NxMXZmOWpEUmpBNXRUcksyZWQ5Sm9pM1QweFFWdmZYVkdid0s1dUJSanNN?oc=5
+
+Airlines cancel flights to Saudi Arabia after Riyadh airport attacks    Reuters

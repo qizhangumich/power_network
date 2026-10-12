@@ -1,0 +1,5 @@
+# Abu Dhabi’s ADIA weighs anchor investment in India’s Zetwerk IPO - Report
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVUpEQjhjQjN3dnladWdSa1JvQVVJZExMY3RNRmZzVEI5YkY4c2FoSWZ5aW1kTmt6eVdQdnBZWWZZaHVpY1gxeTRweEYybVk3WDBRZDZMdnRERVM4d1l5Z0hkUGJGV0d3MnIxU3U1RWFtR0swZVhXcnI4TUVtYlY0R0UySXNMdDBoalQ4Rld0TFo5NGlLQUFxMnBWMk5rRkZUVUtGVkhSTFctMXA3WFJ3aDh5OC1YNTJlc3h1aTIyekh2c05vTGlWZjlienF4MlFnSzNZRHNKaDNiS3F0TGJYWA?oc=5
+
+Abu Dhabi’s ADIA weighs anchor investment in India’s Zetwerk IPO - Report    TradingView

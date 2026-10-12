@@ -1,0 +1,5 @@
+# Mubadala doubles down on Asia investments
+source: Semafor
+url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQQTZvbzIzSGEzTllmVU9Cb0s1S1ZoTU00dUFTakNyOXd2bXdZUnVqQ3BFeXAzeTJxclZLb3pyTXlGT0RVeXVwZlBORVp5TFAtaWV4X05za09LbTlJR2RVbmhvNVFYckZ6Szl0WTEya21VRWFpLUFzcTFUWldVNWl2U0M3TnVGeHRVeUF2SA?oc=5
+
+Mubadala doubles down on Asia investments    Semafor

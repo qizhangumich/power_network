@@ -1,0 +1,5 @@
+# UAE President renames Al Ain International Airport
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxPVjVhQkJVNUlRSVduYXYtRUZMSnFnZHQ1SEs3UUZPM2VtM2lvcVpKd1dtN3J0eDRkYjhmUXNZUEVseUU1LXNyQXMySjJoTE40b3ZjbVFpQ2s2THFVOW03dTJmWGR4Tm9yejNjb2N4UDhmc1N2bDRGQUgxamhkYUJFdkVITTQ3ZS1qZmtMSDFnRXlwUmFPS0I2NlQxU1liNVNhamRn?oc=5
+
+UAE President renames Al Ain International Airport    Arabian Business
