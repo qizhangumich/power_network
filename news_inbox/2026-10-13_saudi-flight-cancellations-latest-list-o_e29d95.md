@@ -1,0 +1,5 @@
+# Saudi flight cancellations: Latest list of affected airlines and routes
+source: Gulf Business
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQS0ZSVWFCWkN3TUxJZV9kbmZsRDVaZGpTalBXNi1Wd2h6T1huTEZ2dGVNdlNtQzR4SWtsQ1oxek1hZEVmWWpKWHJsQzV5X0h3a3FaRmpoNldOZDhncXFyT1RGaGEySHBpa0hXOVZjb2dQRGcxMDJVcXRuS2ZQaThkbkxYY1hDbzh6WktJSjE1dlhOU3VWSVFJVGEwMTA2aVFzbkNCeE1IVzJTUlREVkE?oc=5
+
+Saudi flight cancellations: Latest list of affected airlines and routes    Gulf Business

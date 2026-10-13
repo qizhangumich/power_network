@@ -1,0 +1,5 @@
+# Details of UK PM Burnham's Manchester City meetings published | Burnham served as mayor from May 2017-June 2026 | Inshorts
+source: Inshorts
+url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOamNiSzFfS3lMRHF1Vkx6dG1UNlRhVG5ydHRMODBfSGtkeEdacFR0U1RBSlhhc19xSDI5MWNDMWJQbXVUckZiOTdIUzlqenpOUF90ZjhfbGdNVmpsUFl1YS1pd1lmWm1ZbjR2WTVjNzNhTmFIUlV3RW1SeHhjZE42YWVLUmhSM05pS05NbHZLMWx4dUNmUHdWRFF3UU40ODN0Tm0tTDBsWdIBrAFBVV95cUxQeGlPcHBqb0NsbUJTSDVjRzUtYy1jb3h6WUlTazExbF8wNHZER1Zzem10Q1l5WF9pMnVyUjdFSTdIc05JSkN1am1nSjdmX2FNRkVfOS1yNEM2RjNiamV0Tk1pZnJuYWJKYy00NHZyOV9YNHRNdGR2eFJ2ZmVYWkZGR1hlX0FBVi01UTUwYmVwaENaMHZlSTZlY09wZ3dIZF8zZTVkcGtkdVhkR2hU?oc=5
+
+Details of UK PM Burnham's Manchester City meetings published | Burnham served as mayor from May 2017-June 2026 | Inshorts    Inshorts
