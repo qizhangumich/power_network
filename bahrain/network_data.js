@@ -164,6 +164,9 @@ const INSTITUTIONS = [
   {id:"bahrain_polytechnic", n:"Bahrain Polytechnic", s:"education", t:2, p:57, short:"Bahrain Polytechnic"},
   {id:"ucb_bahrain", n:"University College of Bahrain", s:"education", t:3, p:51, short:"UCB Bahrain"},
   {id:"aleastur", n:"Aleastur (Asturiana de Aleaciones, S.A.)", s:"materials", t:3, p:54, short:"Aleastur"},
+  {id:"shura_council", n:"Shura Council", s:"gov", t:1, p:70, short:"Shura Council"},
+  {id:"council_of_reps", n:"Council of Representatives", s:"gov", t:1, p:70, short:"Council of Reps"},
+  {id:"benefit", n:"BENEFIT (The Benefit Company)", s:"finance", t:2, p:62, short:"BENEFIT"},
 ];
 
 const PEOPLE = [
@@ -3321,6 +3324,22 @@ const PEOPLE = [
     ["danat","Chief Executive Officer","executive","ns"]]},
   {id:"andres_garcia", n:"Andres Garcia", t:2, p:60, s:"industry", roles:[
     ["premo","Chief Executive Officer","executive","ns"]]},
+  {id:"ali_bin_saleh", n:"Ali bin Saleh Al Saleh", t:2, p:62, s:"gov", roles:[
+    ["shura_council","Chairman","board","v"]]},
+  {id:"jamal_mohammed_fakhro", n:"Jamal Mohammed Fakhro", t:2, p:62, s:"gov", roles:[
+    ["shura_council","First Deputy Chairman (21st consecutive term","board","ns"]]},
+  {id:"jehad_abdulla_alfadhel", n:"Jehad Abdulla Alfadhel", t:2, p:62, s:"gov", roles:[
+    ["shura_council","Second Deputy Chairman","board","v"]]},
+  {id:"kareema_mohammed_al", n:"Kareema Mohammed Al-Abbasi", t:2, p:52, s:"gov", roles:[
+    ["shura_council","Secretary-General","board","v"]]},
+  {id:"ahmed_bin_salman", n:"Ahmed bin Salman Al-Musallam", t:2, p:52, s:"gov", roles:[
+    ["council_of_reps","Speaker","board","v"]]},
+  {id:"jalila_al_sayed", n:"Jalila Al Sayed", t:2, p:52, s:"gov", roles:[
+    ["council_of_reps","First Deputy Speaker (elected 11 Oct 2026; Bahrain's first woman in this post; seat vacant since May 2026 after predecessor Abdulnabi Salman was stripped of membership)","board","ns"]]},
+  {id:"ahmed_abdulwahid_qarata", n:"Ahmed Abdulwahid Qarata", t:2, p:52, s:"gov", roles:[
+    ["council_of_reps","Second Deputy Speaker","board","v"]]},
+  {id:"mohammed_ibrahim_al_b", n:"Mohammed Ibrahim Al Sisi Al Buainain", t:2, p:52, s:"gov", roles:[
+    ["council_of_reps","Secretary-General (appointed by Royal Decree No. 83 of 2024)","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -3472,4 +3491,7 @@ const AKA = {
   royal_univ_women:["RUW"],
   ucb_bahrain:["UCB"],
   aleastur:["Asturiana de Aleaciones","Asturiana de Aleaciones, S.A."],
+  shura_council:["Majlis Al-Shura","Consultative Council","Consultative Assembly"],
+  council_of_reps:["Chamber of Deputies","Majlis Al-Nuwab","House of Representatives","Parliament of Bahrain"],
+  benefit:["Benefit Company;Benefit Trade Finance Registry;Trade Finance Registry;BenefitPay;GCCNet;EFTS","The Benefit Company"],
 };

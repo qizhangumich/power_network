@@ -1184,6 +1184,7 @@ const PEOPLE = [
   {id:"hessa_essa_buhumaid", n:"Hessa Essa Buhumaid", t:2, p:52, s:"gov", roles:[
     ["execco","Member (Director General of Community Development Authority)","board","v"]]},
   {id:"abdulla_bin_damithan", n:"Abdulla bin Damithan", t:2, p:62, s:"gov", roles:[
+    ["dubai_customs","Chairman, Ports Customs and Free Zone Corporation (Dubai Customs' parent authority)","board","ns"],
     ["dubai_future_fdn","Board Member (CEO & Managing Director, DP World GCC)","board","v"],
     ["economic_zones_world","CEO & Managing Director, DP World UAE Region / CEO, Jafza (EZW)","executive","v"],
     ["jafza","CEO and Managing Director DP World UAE Region and Jafza","executive","v"],
@@ -2174,6 +2175,10 @@ const PEOPLE = [
     ["univ_of_dubai","Vice-President for Academic Affairs","executive","ns"]]},
   {id:"nasser_al_murraqab", n:"Nasser Al Murraqab", t:2, p:58, s:"education", roles:[
     ["univ_of_dubai","Director of Administration","executive","ns"]]},
+  {id:"noor_mohamed_al", n:"Noor Mohamed Al-Bahar", t:2, p:60, s:"consumer_disc", roles:[
+    ["lst_talabat","Managing Director, Kuwait","executive","ns"]]},
+  {id:"bader_al_ghanim", n:"Bader Al-Ghanim", t:2, p:60, s:"consumer_disc", roles:[
+    ["lst_talabat","Chief International Officer (previously Kuwait Managing Director, succeeded by Noor Al-Bahar)","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

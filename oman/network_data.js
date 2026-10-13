@@ -241,6 +241,7 @@ const PEOPLE = [
   {id:"habsi", n:"Sultan bin Salim Al Habsi", t:1, p:80, s:"finance", roles:[
     ["mof_om","Minister of Finance","political","v"]]},
   {id:"yousef_om", n:"Anwar bin Hilal bin Hamdoun Al Jabri", t:1, p:70, s:"gov", roles:[
+    ["lst_abob","Director (Deputy Chairman)","board","v"],
     ["utas","Chairman of the University Council","board","v"],
     ["moci_om","Minister of Trade, Industry & Investment Promotion","political","v"]],
     note:"Appointed under Royal Decree 17/2026 (13 Jan 2026), succeeding Qais bin Mohammed Al Yousef as minister."},
@@ -347,6 +348,7 @@ const PEOPLE = [
   {id:"dr_ghalib_al", n:"Dr. Ghalib Al Hosni", t:2, p:58, s:"comm", roles:[
     ["omantel","Chief People Officer","executive","v"]]},
   {id:"rashad_muhammad_al", n:"Rashad Muhammad Al Zubair", t:2, p:62, s:"finance", roles:[
+    ["lst_oab","Chairman","board","v"],
     ["zubair","Chairman","board","v"],
     ["ominvest","Chairman","board","ns"]]},
   {id:"sheikh_khalid_abdullah", n:"Sheikh Khalid Abdullah Al Khalili", t:2, p:62, s:"finance", roles:[
@@ -537,6 +539,7 @@ const PEOPLE = [
   {id:"tariq_abdul_hafidh", n:"Tariq Abdul Hafidh Al Aujaili", t:2, p:52, s:"finance", roles:[
     ["lst_bkdb","Board Member","board","v"]]},
   {id:"khalid_said_salim", n:"Khalid Said Salim Al Wahaibi", t:2, p:52, s:"finance", roles:[
+    ["lst_ngci","Vice Chairman","board","ns"],
     ["lst_bkdb","Board Member","board","v"]]},
   {id:"tariq_salim_mustahil", n:"Tariq Salim Mustahil Al Mashani", t:2, p:52, s:"finance", roles:[
     ["lst_bkdb","Board Member","board","v"]]},
@@ -907,6 +910,7 @@ const PEOPLE = [
   {id:"mathla_saleh_al", n:"Mathla Saleh Al Shaqsi", t:2, p:52, s:"finance", roles:[
     ["msx","Board Member","board","ns"]]},
   {id:"imad_kamal_sultan", n:"Imad Kamal Sultan", t:2, p:52, s:"finance", roles:[
+    ["lst_oab","Board Member","board","v"],
     ["towell","Vice Chairman & Managing Director","board","v"],
     ["msx","Board Member","board","ns"]]},
   {id:"hatim_bin_bakhit", n:"Hatim bin Bakhit Al Shanfari", t:2, p:52, s:"finance", roles:[
@@ -1384,6 +1388,90 @@ const PEOPLE = [
     ["muscat_media","Chairman","board","v"]]},
   {id:"ahmed_issa_al", n:"Ahmed Issa Al Zadjali", t:2, p:60, s:"comm", roles:[
     ["muscat_media","Chief Executive Officer","executive","v"]]},
+  {id:"reham_al_maimani", n:"Reham Al Maimani", t:2, p:58, s:"energy", roles:[
+    ["hydrom","Director, Market & Strategy","executive","ns"]]},
+  {id:"arjun_subramanian", n:"Arjun Subramanian", t:2, p:60, s:"consumer_stap", roles:[
+    ["mazoon_dairy","Chief Executive Officer","executive","ns"]]},
+  {id:"abdulaziz_alabdali", n:"Abdulaziz ALAbdali", t:2, p:58, s:"consumer_stap", roles:[
+    ["mazoon_dairy","Chief Financial Officer","executive","ns"]]},
+  {id:"nasser_bin_sulaiman", n:"Nasser bin Sulaiman bin Hamad Al-Sibani", t:2, p:52, s:"comm", roles:[
+    ["oman_radio_tv","Deputy President, Public Authority for Radio and Television - pre-2020 dissolution","board","v"]]},
+  {id:"mohammed_bin_said", n:"Mohammed bin Said Al-Balushi", t:2, p:58, s:"comm", roles:[
+    ["oman_radio_tv","Undersecretary, Ministry of Information (successor body after PART abolished)","executive","v"]]},
+  {id:"said_bin_taman", n:"Said bin Taman al Amri", t:2, p:58, s:"comm", roles:[
+    ["oman_radio_tv","Acting Director-General, Oman TV","executive","ns"]]},
+  {id:"abdullah_al_salti", n:"Abdullah Al Salti", t:2, p:58, s:"health", roles:[
+    ["khoula_hospital","Assistant Director General for Medical Affairs","executive","ns"]]},
+  {id:"randa_sadik", n:"Randa Sadik", t:2, p:62, s:"finance", roles:[
+    ["lst_oab","Deputy Chairman","board","v"]]},
+  {id:"nabil_qaddumi", n:"Nabil Qaddumi", t:2, p:52, s:"finance", roles:[
+    ["lst_oab","Board Member","board","v"]]},
+  {id:"walid_samhouri", n:"Walid Samhouri", t:2, p:52, s:"finance", roles:[
+    ["lst_oab","Board Member","board","v"]]},
+  {id:"nasri_malhame", n:"Nasri Malhame", t:2, p:52, s:"finance", roles:[
+    ["lst_oab","Board Member","board","v"]]},
+  {id:"yasir_aqil_badri", n:"Yasir Aqil Badri", t:2, p:52, s:"finance", roles:[
+    ["lst_oab","Board Member","board","v"]]},
+  {id:"mohammed_al_ghanma", n:"Mohammed Al Ghanma", t:2, p:52, s:"finance", roles:[
+    ["lst_oab","Board Member","board","v"]]},
+  {id:"sulaiman_al_harthi", n:"Sulaiman Al Harthi", t:2, p:60, s:"finance", roles:[
+    ["lst_oab","Chief Executive Officer","executive","v"]]},
+  {id:"ali_saif_naseeb", n:"Ali Saif Naseeb Al Mani", t:2, p:62, s:"finance", roles:[
+    ["lst_taoi","Chairman","board","ns"]]},
+  {id:"mohamed_abdullah_al", n:"Mohamed Abdullah Al Khonji", t:2, p:62, s:"finance", roles:[
+    ["lst_taoi","Deputy Chairman","board","ns"]]},
+  {id:"khalil_ahmed_al", n:"Khalil Ahmed Al Harthy", t:2, p:62, s:"finance", roles:[
+    ["lst_taoi","Board Member (Chair, Audit & Risk Committee)","board","ns"]]},
+  {id:"hamza_ali_al", n:"Hamza Ali Al-Sadi", t:2, p:52, s:"finance", roles:[
+    ["lst_taoi","Board Secretary","board","ns"]]},
+  {id:"neelmani_bhardwaj", n:"Neelmani Bhardwaj", t:2, p:60, s:"finance", roles:[
+    ["lst_taoi","Chief Executive Officer","executive","ns"]]},
+  {id:"hassan_ali_ansari", n:"Hassan Ali Ansari", t:2, p:58, s:"finance", roles:[
+    ["lst_taoi","Chief Financial Officer","executive","ns"]]},
+  {id:"v_c_subbiah", n:"V.C. Subbiah", t:2, p:46, s:"finance", roles:[
+    ["lst_taoi","Assistant General Manager, Technical","executive","ns"]]},
+  {id:"hamdan_ali_nasser", n:"Hamdan Ali Nasser Al Hinai", t:2, p:62, s:"finance", roles:[
+    ["lst_abob","Chairman","board","v"]]},
+  {id:"sulaiman_abdullah_al", n:"Sulaiman Abdullah Al Balushi", t:2, p:52, s:"finance", roles:[
+    ["lst_abob","Director","board","v"]]},
+  {id:"abdul_hameed_ahmed", n:"Abdul Hameed Ahmed Al Bulushi", t:2, p:52, s:"finance", roles:[
+    ["lst_abob","Director","board","v"]]},
+  {id:"ibrahim_said_badar", n:"Ibrahim Said Badar Al Eisri", t:2, p:52, s:"finance", roles:[
+    ["lst_abob","Director","board","v"]]},
+  {id:"salim_ali_hamed", n:"Salim Ali Hamed Al Hasni", t:2, p:52, s:"finance", roles:[
+    ["lst_abob","Director","board","v"]]},
+  {id:"abdullah_saif_ali", n:"Abdullah Saif Ali Al Rajhi", t:2, p:52, s:"finance", roles:[
+    ["lst_abob","Director","board","v"]]},
+  {id:"said_abdullah_al", n:"Said Abdullah Al Hatmi", t:2, p:60, s:"finance", roles:[
+    ["lst_abob","Chief Executive Officer","executive","v"]]},
+  {id:"abdullah_salim_al", n:"Abdullah Salim Al Jabri", t:2, p:58, s:"finance", roles:[
+    ["lst_abob","Deputy CEO, Support Services","executive","v"]]},
+  {id:"bilal_anwar", n:"Bilal Anwar", t:2, p:58, s:"finance", roles:[
+    ["lst_abob","Deputy CEO, Business Group","executive","v"]]},
+  {id:"fahad_freish_al", n:"Fahad Freish Al Shuaili", t:2, p:46, s:"finance", roles:[
+    ["lst_abob","General Manager, Risk Management","executive","v"]]},
+  {id:"abdulla_sulaiman_al", n:"Abdulla Sulaiman Al Harthi", t:2, p:62, s:"energy", roles:[
+    ["lst_ngci","Chairman","board","ns"]]},
+  {id:"hamdan_abdul_hafidh", n:"Hamdan Abdul Hafidh Al Farsi", t:2, p:62, s:"energy", roles:[
+    ["lst_ngci","Board Member (Chair, Nomination & Remuneration Committee)","board","ns"]]},
+  {id:"noor_khalfan_al", n:"Noor Khalfan Al Habsi", t:2, p:52, s:"energy", roles:[
+    ["lst_ngci","Board Secretary","board","ns"]]},
+  {id:"hisham_mohamed_al", n:"Hisham Mohamed Al Elwy", t:2, p:52, s:"energy", roles:[
+    ["lst_ngci","Board Member","board","ns"]]},
+  {id:"muath_al_balushi", n:"Muath Al Balushi", t:2, p:52, s:"energy", roles:[
+    ["lst_ngci","Board Member","board","ns"]]},
+  {id:"hashim_mohamed_al", n:"Hashim Mohamed Al Hashmi", t:2, p:52, s:"energy", roles:[
+    ["lst_ngci","Board Member","board","ns"]]},
+  {id:"ahmed_salim_abdullah", n:"Ahmed Salim Abdullah Al Wahaibi", t:2, p:52, s:"energy", roles:[
+    ["lst_ngci","Board Member","board","ns"]]},
+  {id:"rashid_mohamed_al", n:"Rashid Mohamed Al Ghailani", t:2, p:52, s:"energy", roles:[
+    ["lst_ngci","Board Member","board","ns"]]},
+  {id:"rachid_majjad", n:"Rachid Majjad", t:2, p:60, s:"energy", roles:[
+    ["lst_ngci","Chief Executive Officer","executive","ns"]]},
+  {id:"mukesh_darji", n:"Mukesh Darji", t:2, p:46, s:"energy", roles:[
+    ["lst_ngci","Head of Finance","executive","ns"]]},
+  {id:"ghada_ghaithi", n:"Ghada Ghaithi", t:2, p:58, s:"energy", roles:[
+    ["lst_ngci","Board Secretary & Compliance Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

@@ -795,7 +795,7 @@ adrian_hobbs,Adrian Hobbs,core42,,Chief Technology Officer,executive,v,
 ali_nimer,Ali Nimer,core42,,Chief Client and Growth Officer,executive,v,
 andrew_jackson,Andrew Jackson,core42,,Executive Vice President & Chief AI Officer,executive,v,
 sherif_salem,Sherif Salem,chimera,,Chief Investment Officer - Public Markets,executive,v,
-abdulla_humaid_al,Abdulla Humaid Al Jarwan,doe,Department of Energy,Chairman,executive,ns,
+abdulla_humaid_al,Abdulla Humaid Al Jarwan,doe,Department of Energy,Chairman,executive,v,
 ali_al_hammadi,Ali Al Hammadi,imi,,Chief Operating Officer,executive,ns,
 khaled_al_hasan,Khaled Al Hasan,imi,,Chief Financial Officer,executive,ns,
 hassan_sharif,Hassan Sharif,imi,,Chief of Staff,executive,ns,
@@ -1102,7 +1102,7 @@ ali_alalkeem_al,Ali Alalkeem Al Zaabi,al_yasat_petroleum,,Chief Executive Office
 ali_alalkeem_al,Ali Alalkeem Al Zaabi,al_dhafra_petro,,Chief Executive Officer,executive,v
 saeed_al_suwaidi,Saeed Al Suwaidi,al_yasat_petroleum,,"Senior Vice President, Field Development",executive,ns
 changlyeol_um,Changlyeol Um,al_dhafra_petro,,"Senior Vice President, Exploration and Development",executive,ns
-abdulla_ahmed_balalaa,Abdulla Ahmed Balalaa,masdar_city,,"Chairman, Masdar City",board,ns
+abdulla_ahmed_balalaa,Abdulla Ahmed Balalaa,masdar_city,,"Chairman, Masdar City",board,v
 ahmed_baghoum,Ahmed Baghoum,masdar_city,,Chief Executive Officer,executive,v
 mohamed_al_breiki,Mohamed Al Breiki,masdar_city,,"Executive Director, Sustainable Development",executive,ns
 mahmoud_alhosani,Mahmoud Alhosani,masdar_city,,"Executive Director, Finance and Support Services",executive,ns
@@ -1333,3 +1333,83 @@ eddy_tannous,Eddy Tannous,rotana,,Chief Operating Officer,executive,v
 ghazi_mousharafieh,Ghazi Mousharafieh,rotana,,Chief Financial Officer,executive,v
 nada_sheshtawy,Nada Sheshtawy,rotana,,Chief Commercial Officer,executive,v
 banu_sen_pekiner,Banu Sen Pekiner,rotana,,Global Director of Marketing,executive,v
+rima_al_mokarrab,Rima Al Mokarrab Al Muhairi,zayed_u,Zayed University,Vice-Chair of the Board of Trustees,board,v,
+noura_kaabi,Noura Al Kaabi,ad_media,Abu Dhabi Media Company PJSC,Chairperson of the Board,board,ns,
+sheikh_mohamed_bin,Sheikh Mohamed bin Saif Al Nahyan,adnic,Abu Dhabi National Insurance Company,Chairman of the Board,board,ns,
+futoon_hamdan_al,Futoon Hamdan Al Mazrouei,adnic,Abu Dhabi National Insurance Company,Board Member,board,ns,
+ahmed_al_shamsi,Ahmed Al Shamsi,adssc,Abu Dhabi Sewerage Services Company,Chief Executive Officer,executive,v,
+mohamed_ali_al,Mohamed Ali Al Shorafa Al Hammadi,adha,Abu Dhabi Housing Authority,Chairman of the Board,board,v,
+farah_abdulla_mohamed,Farah Abdulla Mohamed Ali Al Mazrui,lst_rakcec,RAK Ceramics PJSC,Director,board,ns,
+abdulaziz_abdulla_salem,Abdulaziz Abdulla Salem Alzaabi,lst_julphar,Gulf Pharmaceutical Industries P.S.C.,Director,board,v,
+shamma_al_mazrui,Shamma Al Mazrui,zayed_u,,Chairperson of the Board of Trustees,board,v
+rashid_saeed_al,Rashid Saeed Al Ameri,zayed_u,,Member of the Board of Trustees,board,v
+rabi_aboushaqra,Rabi' Aboushaqra,zayed_u,,Member of the Board of Trustees,board,v
+mira_omar_al,Mira Omar Al Futtaim,zayed_u,,Member of the Board of Trustees,board,v
+badr_abdulhamid_ja,Badr Abdulhamid Ja'far,zayed_u,,Member of the Board of Trustees,board,v
+mona_jumaa_al,Mona Jumaa Al Bahr,zayed_u,,Member of the Board of Trustees,board,v
+john_willan,John Willan,zayed_u,,Member of the Board of Trustees,board,v
+dina_al_sayed,Dina Al Sayed Al Hashemi,zayed_u,,Member of the Board of Trustees,board,v
+muna_al_seeni,Muna Al Seeni,zayed_u,,Chief Strategy Officer,executive,ns
+saif_mohammad_ali,Saif Mohammad Ali Al Hajiri,senaat,,Vice-Chairman of the Board,board,ns
+salem_sultan_obaid,Salem Sultan Obaid Sultan Al Daheri,senaat,,Board Member,board,ns
+al_yaziyah_ali,Al Yaziyah Ali Saleh Al Kuwaiti,senaat,,Board Member,board,ns
+ali_murshid_ali,Ali Murshid Ali Murshid Al Murar,senaat,,Board Member,board,ns
+ali_khalfan_al,Ali Khalfan Al Daheri,ad_media,,Board Member,board,ns
+maryam_eid_al,Maryam Eid Al Muhairi,ad_media,,Board Member,board,ns
+humaid_saeed_al,Humaid Saeed Al Mansouri,ad_media,,Board Member,board,ns
+mohammad_khalifa_al,Mohammad Khalifa Al Nuaimi,ad_media,,Board Member,board,ns
+sultan_hamad_al,Sultan Hamad Al Daheri,ad_media,,Board Member,board,ns
+ayman_safadi,Ayman Safadi,ad_media,,Chief Executive Officer,executive,ns
+sheikh_theyab_bin,Sheikh Theyab Bin Tahnoon Al Nahyan,adnic,,Vice Chairman of the Board,board,ns
+sultan_rashid_al,Sultan Rashid Al Dhaheri,adnic,,Board Member,board,ns
+abdulrahman_al_mubarak,Abdulrahman Al Mubarak,adnic,,Board Member,board,ns
+hamoodah_ghanem_al,Hamoodah Ghanem Al Dhaheri,adnic,,Board Member,board,ns
+ali_eid_al,Ali Eid Al Mahri,adnic,,Board Member,board,ns
+mohamed_khalaf_alotaiba,Mohamed Khalaf Alotaiba,adnic,,Board Member,board,ns
+jugal_kishore_madaan,Jugal Kishore Madaan,adnic,,Acting Chief Executive Officer,executive,ns
+mubarak_obaid_al,Mubarak Obaid Al-Dhaheri,adssc,,Chairman and Managing Director,board,v
+mohammed_ali_al,Mohammed Ali Al Shadi Al-Mansouri,adssc,,Board Member,board,v
+issa_mubarak_ali,Issa Mubarak Ali Rashid Al-Mazrouei,adssc,,Board Member,board,v
+sheikha_salim_obeid,Sheikha Salim Obeid Al-Daheri,adssc,,Board Member,board,v
+ahmad_mohammad_sharif,Ahmad Mohammad Sharif Ali Al Khouri,musanada,,Chairman of the Board,board,ns
+hamad_ali_mohammad,Hamad Ali Mohammad Al Qadi Al Dahiri,musanada,,Board Member,board,ns
+ali_khalifa_ahmad,Ali Khalifa Ahmad Al Qamzi,musanada,,Board Member,board,ns
+ali_obaid_ali,Ali Obaid Ali Al Darmaki,musanada,,Board Member,board,ns
+mubarak_obaid_khamis,Mubarak Obaid Khamis Abdullah Al Dahiri,musanada,,Board Member,board,ns
+mohammad_hassan_salem,Mohammad Hassan Salem Ateeq Al Za'abi,musanada,,Board Member,board,ns
+abdul_aziz_abdul,Abdul Aziz Abdul Rahman Mubarak Al Humaidi,musanada,,Board Member,board,ns
+hamad_hareb_al,Hamad Hareb Al Muhairi,adha,,Director-General,executive,v
+rauda_al_saadi,Rauda Al Saadi,adda,,Director General,executive,ns
+sheikh_mohammed_bin_b_b_b,Sheikh Mohammed Bin Faisal Al Qasimi,lst_uab,,Chairman of the Board,board,v
+omar_hussain_alfardan,Omar Hussain Alfardan,lst_uab,,Vice Chairman of the Board,board,v
+sheikh_abdullah_bin,Sheikh Abdullah Bin Ali Bin Jabor Al Thani,lst_uab,,Director,board,v
+najla_ahmed_al_b,Najla Ahmed Al Midfaa,lst_uab,,Director,board,v
+ahmed_mohamad_bakheet,Ahmed Mohamad Bakheet Khalfan,lst_uab,,Director,board,v
+shirish_bhide,Shirish Bhide,lst_uab,,Chief Executive Officer,executive,v
+abdul_haleem_sheikh,Abdul Haleem Sheikh,lst_uab,,Chief Financial Officer,executive,v
+abdullah_altaee,Abdullah Altaee,lst_uab,,Chief Operating Officer,executive,v
+emre_yalcin,Emre Yalcin,lst_uab,,Head of Retail Banking,executive,v
+carla_ajaka,Carla Ajaka,lst_uab,,Head of Treasury and Capital Markets,executive,v
+zsombor_brommer,Zsombor Brommer,lst_uab,,Chief Compliance Officer,executive,v
+khalid_bin_saud,Khalid Bin Saud Al Qasimi,lst_rakcec,,Chairman of the Board,board,v
+abdallah_massaad,Abdallah Massaad,lst_rakcec,,Group Chief Executive Officer,executive,v
+pramod_kumar_chand,Pramod Kumar Chand,lst_rakcec,,Group Chief Financial Officer,executive,v
+sheikh_saqr_bin,Sheikh Saqr Bin Humaid Al Qasimi,lst_julphar,,Chairman of the Board,board,v
+medhat_mohamed_abouelasrar,Medhat Mohamed Abouelasrar El Gamal,lst_julphar,,Director,board,v
+jean_maroun_diab,Jean Maroun Diab,lst_julphar,,Director,board,v
+raman_garg,Raman Garg,lst_julphar,,Director,board,v
+olfa_gam,Olfa Gam,lst_julphar,,Director,board,v
+taghreed_al_shunnar,Taghreed Al Shunnar,lst_julphar,,Director,board,v
+vinod_nagappan,Vinod Nagappan,lst_julphar,,Director,board,v
+dalia_ibrahim_sadek,Dalia Ibrahim Sadek Zaghou,lst_julphar,,Director,board,v
+basel_ziyadeh,Basel Ziyadeh,lst_julphar,,Chief Executive Officer,executive,v
+abdulla_mohamed_ali,Abdulla Mohamed Ali Ghanem Al Mazrouei,lst_eic,,Chairman of the Board,board,ns
+saoud_essa_al,Saoud Essa Al Mulla,lst_eic,,Deputy Chairman of the Board,board,ns
+mubarak_abdullah_mohamed,Mubarak Abdullah Mohamed Ali Al Mazrui,lst_eic,,Director,board,ns
+mohammad_fadhel_al,Mohammad Fadhel Al Darmaki,lst_eic,,Director,board,ns
+lubna_nasser_almoalla,Lubna Nasser Almoalla,lst_eic,,Director,board,ns
+samir_mikati,Samir Mikati,lst_eic,,Director,board,ns
+khalid_khalifa_mohamed,Khalid Khalifa Mohamed Obaid Al Mheiri,lst_eic,,Director,board,ns
+amal_balkhair_alameri,Amal Balkhair Alameri,lst_eic,,Independent Non-Executive Director,board,ns
+saqr_ghobash,Saqr Ghobash,federal_national_council,,Speaker,board,ns
+tariq_humaid_al,Tariq Humaid Al Tayer,federal_national_council,,First Deputy Speaker,board,ns

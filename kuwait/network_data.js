@@ -241,6 +241,7 @@ const INSTITUTIONS = [
   {id:"australian_univ_kw", n:"Australian University (Kuwait)", s:"education", t:2, p:55, short:"Australian Univ KW"},
   {id:"kuwait_tech_college", n:"Kuwait Technical College", s:"education", t:3, p:51, short:"Kuwait Tech College"},
   {id:"al_rai_media", n:"Al Rai Media Group", s:"comm", t:2, p:57, short:"Al Rai Media"},
+  {id:"national_assembly", n:"National Assembly", s:"gov", t:1, p:72, short:"National Assembly"},
 ];
 
 const PEOPLE = [
@@ -2055,4 +2056,5 @@ const AKA = {
   australian_univ_kw:["Australian College of Kuwait","ACK","AU","Kuwait"],
   kuwait_tech_college:["Ktech"],
   al_rai_media:["Alrai","Al Rai TV"],
+  national_assembly:["Majlis Al-Ummah"],
 };

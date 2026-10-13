@@ -167,7 +167,7 @@ const INSTITUTIONS = [
   {id:"lst_1810", n:"Seera Group Holding", s:"consumer_disc", t:2, p:60, short:"Seera Group"},
   {id:"lst_1820", n:"Baan Holding Group Co.", s:"consumer_disc", t:2, p:50, short:"1820"},
   {id:"lst_1830", n:"Leejam Sports Co.", s:"consumer_disc", t:2, p:50, short:"Leejam Sports Co."},
-  {id:"lst_4170", n:"Emaar The Economic City Trading Co. (TECO)", s:"consumer_disc", t:2, p:50, short:"4170"},
+  {id:"lst_4170", n:"Tourism Enterprise Co. (Shams)", s:"consumer_disc", t:2, p:50, short:"Shams"},
   {id:"lst_4290", n:"Alkhaleej Training and Education Co.", s:"consumer_disc", t:2, p:50, short:"4290"},
   {id:"lst_4291", n:"National Company for Learning and Education (NCLE)", s:"consumer_disc", t:2, p:50, short:"4291"},
   {id:"lst_4292", n:"Ataa Educational Co.", s:"consumer_disc", t:2, p:50, short:"Ataa Educational Co."},
@@ -510,6 +510,7 @@ const INSTITUTIONS = [
   {id:"matarat", n:"Matarat Holding Company", s:"gov", t:1, p:64, short:"Matarat Holding"},
   {id:"jeddah_economic", n:"Jeddah Economic Company", s:"realestate", t:2, p:56, short:"Jeddah Economic Co."},
   {id:"riyadh_airports", n:"Riyadh Airports Company", s:"industry", t:2, p:58, short:"Riyadh Airports Co."},
+  {id:"shura_council", n:"Shura Council", s:"gov", t:1, p:66, short:"Shura Council"},
 ];
 
 const PEOPLE = [
@@ -618,6 +619,7 @@ const PEOPLE = [
     ["moe_sa","Minister of Education","political","v"]],
     note:"Appointed Sep 2022; former Chairman/CEO of SABIC."},
   {id:"alduailej", n:"Abdulaziz Al-Duailej", t:1, p:68, s:"gov", roles:[
+    ["matarat","Chairman of the Board of Directors","board","v"],
     ["sami","Board Member","board","v"],
     ["gaca_sa","President","government","v"]],
     note:"Re-elected chairman of the Arab Civil Aviation Organization's Executive Council for a second term, 2026."},
@@ -765,6 +767,7 @@ const PEOPLE = [
   {id:"saeed_mohammed_al", n:"Saeed Mohammed Al-Ghamdi", t:2, p:62, s:"finance", roles:[
     ["snb","Chairman","board","v"]]},
   {id:"yazeed_abdulrahman_al", n:"Yazeed Abdulrahman Al-Humied", t:2, p:62, s:"finance", roles:[
+    ["matarat","Board Member","board","ns"],
     ["snb","Vice Chairman","board","v"]]},
   {id:"tareq_abdulrahman_al", n:"Tareq Abdulrahman Al-Sadhan", t:2, p:60, s:"finance", roles:[
     ["snb","Director & CEO","board","v"]]},
@@ -994,6 +997,7 @@ const PEOPLE = [
   {id:"mohammed_abdullah_alabbadi", n:"Mohammed Abdullah Alabbadi", t:2, p:58, s:"comm", roles:[
     ["stc","Group Chief Carrier & Wholesale Officer","executive","v"]]},
   {id:"moaeed_alsaloom", n:"Moaeed Alsaloom", t:2, p:58, s:"comm", roles:[
+    ["matarat","Board Member","board","ns"],
     ["stc","Group Chief New Markets Officer","executive","v"]]},
   {id:"tariq_saud_alhuzaimi", n:"Tariq Saud Alhuzaimi", t:2, p:58, s:"comm", roles:[
     ["stc","Group Chief Technology Officer","executive","v"]]},
@@ -1377,6 +1381,7 @@ const PEOPLE = [
   {id:"khaled_salem_al", n:"Khaled Salem Al-Rowais", t:2, p:52, s:"finance", roles:[
     ["lst_1030","Board Member","board","v"]]},
   {id:"ghazi_abdulrahim_alrawi", n:"Ghazi Abdulrahim AlRawi", t:2, p:52, s:"finance", roles:[
+    ["matarat","Board Member","board","ns"],
     ["lst_1030","Board Member","board","v"]]},
   {id:"hani_yahya_alsharif", n:"Hani Yahya AlSharif", t:2, p:52, s:"finance", roles:[
     ["lst_1030","Board Member","board","v"]]},
@@ -2393,8 +2398,12 @@ const PEOPLE = [
     ["kaec","Board Member","board","v"]]},
   {id:"hesham_a_heikal", n:"Hesham A. Heikal", t:2, p:52, s:"realestate", roles:[
     ["kaec","Board Member (Independent)","board","v"]]},
-  {id:"abdulaziz_ibrahim_alnowaiser", n:"Abdulaziz Ibrahim Alnowaiser", t:2, p:60, s:"realestate", roles:[
-    ["kaec","Chief Executive Officer","executive","v"]]},
+  {id:"abdulaziz_ibrahim_alnowaiser", n:"Abdulaziz Ibrahim Alnowaiser", t:2, p:58, s:"realestate", roles:[
+    ["kaec","Chief Executive Officer (until Oct 2026)","executive","v","former:until Oct 2026"]],
+    note:"Resigned as CEO of Emaar, The Economic City (KAEC); succeeded by Naif Saleh AlHamdan."},
+  {id:"naif_saleh_alhamdan", n:"Naif Saleh AlHamdan", t:2, p:60, s:"realestate", roles:[
+    ["kaec","Chief Executive Officer","executive","ns"]],
+    note:"Named CEO of Emaar, The Economic City (KAEC) Oct 2026, succeeding Abdulaziz Ibrahim Alnowaiser."},
   {id:"mohammed_i_alarifi", n:"Mohammed I. Alarifi", t:2, p:58, s:"realestate", roles:[
     ["alpha_capital","Board Member","board","v"],
     ["kaec","Chief Financial Officer","executive","v"]]},
@@ -2415,6 +2424,7 @@ const PEOPLE = [
   {id:"khalid_al_dughaither", n:"Khalid Al-Dughaither", t:2, p:52, s:"gov", roles:[
     ["rcjy","Deputy Minister for Regulations and Legal Affairs / Board Member","board","v"]]},
   {id:"abdullah_al_dubaikhi", n:"Abdullah Al-Dubaikhi", t:2, p:52, s:"gov", roles:[
+    ["matarat","Board Member","board","ns"],
     ["rcjy","Assistant Minister of Investment / Board Member","board","v"]]},
   {id:"abdullah_bin_saleh_b", n:"Abdullah bin Saleh Al-Suwailim", t:2, p:52, s:"gov", roles:[
     ["rcjy","Vice President of the Western Manufacturing Sector, Saudi Aramco / Board Member","board","v"]]},
@@ -2759,6 +2769,16 @@ const PEOPLE = [
     ["thc","Chief Executive Officer","executive","ns"]]},
   {id:"fahad_al_shibl", n:"Fahad Al-Shibl", t:2, p:60, s:"health", roles:[
     ["nupco","Chief Executive Officer","executive","ns"]]},
+  {id:"saad_abdulaziz_al", n:"Saad Abdulaziz Al-Khalib", t:2, p:52, s:"gov", roles:[
+    ["matarat","Board Member","board","ns"]]},
+  {id:"farah_ismail", n:"Farah Ismail", t:2, p:52, s:"gov", roles:[
+    ["matarat","Board Member","board","ns"]]},
+  {id:"abdullah_bin_mohammed_b_b_b", n:"Abdullah bin Mohammed Al Al-Sheikh", t:2, p:62, s:"gov", roles:[
+    ["shura_council","Speaker (Chairman)","board","ns"]]},
+  {id:"mishaal_bin_abdullah", n:"Mishaal bin Abdullah Al Salami", t:2, p:52, s:"gov", roles:[
+    ["shura_council","Deputy Speaker","board","ns"]]},
+  {id:"hanan_al_ahmadi", n:"Hanan Al Ahmadi", t:2, p:52, s:"gov", roles:[
+    ["shura_council","Assistant Speaker","board","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3146,6 +3166,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  kaec:["Emaar, The Economic City","Emaar Economic City","4220"],
   al_sagri:["HHC"],
   lst_2290:["2290","YANSAB"],
   lst_3050:["Southern Cement"],
@@ -3246,5 +3267,6 @@ const AKA = {
   dallah_al_baraka:["Dallah Albaraka","Dallah Group","Dallah Establishment"],
   matarat:["Matarat"],
   jeddah_economic:["JEC","Jeddah Economic City","Jeddah Tower"],
-  riyadh_airports:["RAC","King Khalid International Airport","KKIA"],
+  riyadh_airports:["RAC","King Khalid International Airport","KKIA","King Khalid Airport"],
+  shura_council:["Majlis Al-Shura","Consultative Assembly","Consultative Council"],
 };
