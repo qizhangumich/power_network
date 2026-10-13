@@ -1,0 +1,5 @@
+# Nirmala Sitharaman concludes successful visit to Singapore, focusing on strengthening investment and financial cooperation
+source: India Shipping News
+url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxONDZ6WWZLTm9OWmF1d2NoSU1tMlR5ZW85aVhnZVpzUTBhWlE5RGlacU9iT0R5MEpSeEU1WjZWdk1rQTRTS2t4aHROWWMwUHJDclpwdjZteHZ0QVVpemZjaS0tbnkyYjhaY25SN2h3dF82ajFJRlUxYTBOWU1GdkExZXhYSHZlSkprOTVlTC1LcUxzY2h0T1dYRkhxY3ppbjQ1cDJreFM2NFJyZE9HQ2dUOVhfWWs2MzdGWVljRzJZY1ltWmxrX2pGTDhodlZTeU82Rk43R0cwRVR2Mm5LcTlnZkFLV0pIR1BPTmlRSi1NUQ?oc=5
+
+Nirmala Sitharaman concludes successful visit to Singapore, focusing on strengthening investment and financial cooperation    India Shipping News

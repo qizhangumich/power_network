@@ -1,0 +1,5 @@
+# Andy Burnham accepted free tickets to Manchester City matches
+source: The Times
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTjVLTHdWZ3h1azJnSk96S2dwQWpydUI2aXYyZWJpYmNfeWtBV1ZsZnlGZXNPWTJ3akZIb00tWkZvTF81MFE3WjZOX05iQ2Y0VDRuVk1KcTlzRmtnUnpBZmhYRXlIenZsbG5vbktES3VtRWpBOFVIc0xKVUVGbHdtMG1GNVZ5VHpUSTQ3ZUo4X0VOeVlaMXlqeWZmTXZZaDJDd3Bjd1FzZ0dkQQ?oc=5
+
+Andy Burnham accepted free tickets to Manchester City matches    The Times

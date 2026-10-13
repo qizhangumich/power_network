@@ -1,0 +1,5 @@
+# Bandhan Bank stock jumps 7% on reports of Abu Dhabi's IHC exploring promoter stake acquisition
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZzBuWnpCeXZGbXFkeUpjTVZBWHRmREIyR21iSWpvYlcyQks1aWtDMU42cnFvN1k3cDB1d1QtQ1lxQzRWN0dFUDNTNFVqSDhRUk1lQzZiZlRIQnhYR0h0Z1FucUpubmo4dGZ2YXFBRVN6SzFTMW11Z1J4X0ZXSTd1QVVObGs4QjQ3akxtcnpEdFFGY0lpVHdJbDd6X2tuQW55SzhseTJMcElsYkt0UEdWX2Nld2x1MURJakhRYmEtMHNPZU9aNjZmdExKZThPNzFrSXpXb1I5LVZhaEllWTVXdUNEa0dXTUZHRGc1WA?oc=5
+
+Bandhan Bank stock jumps 7% on reports of Abu Dhabi's IHC exploring promoter stake acquisition    TradingView

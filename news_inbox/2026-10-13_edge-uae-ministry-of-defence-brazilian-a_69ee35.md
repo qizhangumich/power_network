@@ -1,0 +1,5 @@
+# EDGE, UAE Ministry of Defence, Brazilian Army and Imbel strengthen strategic defence cooperation
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMHVQNW1mOTlSamlUdFVhTXJ2M1R4d0RicUZDQzNXMFVjckxLTmRjakZyUW4xaHU4WVZsQWF6d09LVnN0VkUtNW1QZUhpUXJUVENCcXc2UXRNQzhOVGNYLW9BVVFjMWc1RFhvUkZXTXdPQ1lXWTRPOFpJdnYyLXlfZ3NNb2ZBR08tOG5zVjh6bWxWRlJfbjlETWRVQk1JRmxqZEFSeVFUNUNKQXRnZ3BuQTc2ODEwQVh4NWJNdHh3ZjJQRTRhVFhlWmRibXk0akQ3VXRGRDlwOEdxcWlsaG9NVzR2RVJCQnQyMTRodQ?oc=5
+
+EDGE, UAE Ministry of Defence, Brazilian Army and Imbel strengthen strategic defence cooperation    Zawya
