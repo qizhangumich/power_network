@@ -230,6 +230,7 @@ const INSTITUTIONS = [
   {id:"aj_centre_studies", n:"Al Jazeera Centre for Studies", s:"comm", t:3, p:53, short:"AJ Centre Studies"},
   {id:"al_raya", n:"Al Raya", s:"comm", t:2, p:55, short:"Al Raya"},
   {id:"aspetar", n:"Aspetar", s:"health", t:2, p:57, short:"Aspetar"},
+  {id:"npc", n:"National Planning Council", s:"gov", t:1, p:64, short:"NPC"},
 ];
 
 const PEOPLE = [
@@ -253,7 +254,8 @@ const PEOPLE = [
     ["doha_investment","Chairman, Doha Investment (also Prime Minister and Minister of Foreign Affairs of Qatar)","board","v"],
     ["cabinet","Prime Minister","political","v"],
     ["mofa_q","Minister of Foreign Affairs","political","v"],
-    ["qia","Chairman","board","v"]],
+    ["qia","Chairman","board","v"],
+    ["npc","Chairman (ex officio as Prime Minister)","board","v"]],
     note:"'MBAR' — combines head of government, chief diplomat and chairmanship of the sovereign wealth fund."},
   {id:"jassim_bh", n:"H.H. Sheikh Jassim bin Hamad bin Khalifa Al Thani", t:0, p:84, s:"finance", roles:[
     ["qib","Chairman","board","v"]],
@@ -1281,11 +1283,13 @@ const PEOPLE = [
     ["dohabank","Acting Chief Internal Auditor","executive","v"]]},
   {id:"faisal_masood", n:"Faisal Masood", t:2, p:58, s:"finance", roles:[
     ["dohabank","Acting Chief Risk Officer","executive","v"]]},
-  {id:"abdulaziz_bin_nasser", n:"Abdulaziz bin Nasser Al Khalifa", t:2, p:62, s:"industry", roles:[
+  {id:"abdulaziz_bin_nasser", n:"Abdulaziz bin Nasser Al Khalifa", t:1, p:70, s:"gov", roles:[
+    ["npc","Secretary-General","executive","v"],
     ["qfba","Chairman of the Board","board","v"],
     ["qfz","Board Member","board","v"],
     ["qfc","Board Member","board","v"],
-    ["qatarrail","Vice Chairman","board","ns"]]},
+    ["qatarrail","Vice Chairman","board","ns"]],
+    note:"Also President of the Civil Service and Government Development Bureau."},
   {id:"abdulla_bin_ali", n:"Abdulla bin Ali Al Thiyab", t:2, p:52, s:"industry", roles:[
     ["qatarrail","Board Member","board","ns"]]},
   {id:"sheikh_mohammed_bin_b_b", n:"Sheikh Mohammed bin Hamad bin Faisal Al Thani", t:2, p:52, s:"industry", roles:[

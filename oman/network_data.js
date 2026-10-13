@@ -97,7 +97,7 @@ const INSTITUTIONS = [
   {id:"lst_oqbi", n:"OQ Base Industries (SFZ) SAOG", s:"materials", t:2, p:50, short:"OQBI"},
   {id:"lst_cmii", n:"Construction Materials Industries SAOG", s:"materials", t:2, p:50, short:"CMII"},
   {id:"lst_aact", n:"Al Anwar Ceramic Tiles Company SAOG", s:"materials", t:2, p:50, short:"AACT"},
-  {id:"lst_abob", n:"Ahli Bank SAOG", s:"finance", t:2, p:50, short:"Ahli Bank SAOG"},
+  {id:"lst_abob", n:"Ahli Bank SAOG", s:"finance", t:2, p:58, short:"Ahli Bank SAOG"},
   {id:"lst_afai", n:"Al Fajar Al Alamia Company SAOG", s:"industry", t:2, p:50, short:"AFAI"},
   {id:"lst_afic", n:"Arabia Falcon Insurance SAOG", s:"finance", t:2, p:50, short:"AFIC"},
   {id:"lst_dtcs", n:"Dhofar Tourism Company SAOG", s:"consumer_disc", t:2, p:50, short:"DTCS"},
@@ -118,7 +118,7 @@ const INSTITUTIONS = [
   {id:"lst_gici", n:"Gulf International Chemicals SAOG", s:"materials", t:2, p:50, short:"GICI"},
   {id:"lst_ubar", n:"Ubar Hotels & Resorts SAOG", s:"consumer_disc", t:2, p:50, short:"UBAR"},
   {id:"lst_tfci", n:"Taageer Finance Company SAOG", s:"finance", t:2, p:50, short:"TFCI"},
-  {id:"lst_taoi", n:"Takaful Oman Insurance SAOG", s:"finance", t:2, p:50, short:"TAOI"},
+  {id:"lst_taoi", n:"Takaful Oman Insurance SAOG", s:"finance", t:2, p:52, short:"TAOI"},
   {id:"lst_spsi", n:"Salalah Port Services Company SAOG", s:"industry", t:2, p:50, short:"SPSI"},
   {id:"lst_shrq", n:"Sharqiyah Desalination Company SAOG", s:"utilities", t:2, p:50, short:"SHRQ"},
   {id:"lst_shps", n:"Sohar Power Company SAOG", s:"utilities", t:2, p:50, short:"SHPS"},
@@ -136,9 +136,9 @@ const INSTITUTIONS = [
   {id:"lst_nfci", n:"National Finance Company SAOG", s:"finance", t:2, p:50, short:"NFCI"},
   {id:"lst_amci", n:"Al Maha Ceramics SAOG", s:"materials", t:2, p:50, short:"AMCI"},
   {id:"lst_mfci", n:"Muscat Finance SAOG", s:"finance", t:2, p:50, short:"Muscat Finance SAOG"},
-  {id:"lst_ngci", n:"National Gas Company SAOG", s:"energy", t:2, p:50, short:"NGCI"},
+  {id:"lst_ngci", n:"National Gas Company SAOG", s:"energy", t:2, p:56, short:"NGCI"},
   {id:"lst_ochl", n:"Oman Chlorine SAOG", s:"materials", t:2, p:50, short:"Oman Chlorine SAOG"},
-  {id:"lst_oab", n:"Oman Arab Bank SAOG", s:"finance", t:2, p:50, short:"Oman Arab Bank SAOG"},
+  {id:"lst_oab", n:"Oman Arab Bank SAOG", s:"finance", t:2, p:60, short:"Oman Arab Bank SAOG"},
   {id:"lst_oric", n:"Oman Reinsurance Company SAOG", s:"finance", t:2, p:50, short:"ORIC"},
   {id:"lst_omif", n:"Oman India Fertiliser Company SAOG", s:"materials", t:2, p:50, short:"OMIF"},
   {id:"edo", n:"Energy Development Oman", s:"energy", t:1, p:76, short:"EDO"},
@@ -1475,6 +1475,7 @@ const PEOPLE = [
 ];
 
 const OWNERSHIP = [
+  ["lst_oab","ominvest","major shareholder (~31%, per most recent disclosure; historically 51%)","ns"],
   ["lst_oqgn","oq","majority shareholder"],
   ["lst_bkdb","lst_didi","anchor shareholder","ns"],
   ["com_om","omgov","governs under"],
