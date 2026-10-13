@@ -1,0 +1,5 @@
+# IHC, First Abu Dhabi eye stake in Bandhan Bank promoter
+source: The Economic Times
+url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSzI3dnJIa1dqXzljT19KQU9yTFhyMU9pbUx3NlNuc2RvYlJQYV9IUVpOcndFUm9HRko0dF9fVVY3OFJ1N09sUS16ajB4QmFpelBiWlhBRENlNUQ0Zkdfbi1ZMUpwbTQ5dTI4dWJPcjUtclVhMjBCd1V0dmRJc0JaMUdEM3JKOC1ZOUM4eHUxMG4zbng0UEpCRGVQNlhPd09BMjJXVXp4MGdKSDRHOUxuWE5JYklvMG05NlZZTGJoaWI0TDVhWWs3S3l3Z3AtNDczd1dycE4tRTJ2WjR1ZE42NUV1VkZEWThWWGIw?oc=5
+
+IHC, First Abu Dhabi eye stake in Bandhan Bank promoter    The Economic Times

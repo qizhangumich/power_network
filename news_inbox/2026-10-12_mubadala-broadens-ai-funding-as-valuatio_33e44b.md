@@ -1,0 +1,5 @@
+# Mubadala broadens AI funding as valuations test capital capacity
+source: AsianInvestor
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxNY1lGeDlMQ3hteVg0Nnh4SGlzMFFtRU1pRlFJNHNhM1FNZzVRdWNRYzl5NHkteDRrSV9nZ2hIM2o1Y1Z0a0tIR2REeXIyT0dkRFNNSlNxakdqWTktZ1VCRHVINHdZT1RET1QyMVlzRUxuOHBXUnMxV1ZtNVYtaHpibEVhTDBDZWVJYm1DNF9xNzRCMm1SUWdMMDM1N2RIOEt3OGR2azlVZmJEZTV5Qmc?oc=5
+
+Mubadala broadens AI funding as valuations test capital capacity    AsianInvestor

@@ -1,0 +1,5 @@
+# Dubai and Middle East flight disruption: widespread cancellations as Riyadh airport extends closure
+source: Condé Nast Traveller Middle East
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxNeDJiajdOS0dITVd0TXM3eHNTUWZGUnk0RGpUYkxweWRXektYYzNJZWpWN2wtbmVyelRpaF9IMms0dHpFZXVVeWJrY1dPdHVBcHFRMDFzSEJhUjhiYTd1VlZGUTFKekMxNGF6UUMwX19pcVlKa2x0ZVlBdndOMU45MGhuNHE0cnk1VElnSmd1TU5OeHROVWNDbUxiREFfb25uX2I2SkVFQzJYRWYwSUVQNEtGMWg5TVl1UGJLbVFpSm1QRVJDYlJKWEJwWlZLZnM?oc=5
+
+Dubai and Middle East flight disruption: widespread cancellations as Riyadh airport extends closure    Condé Nast Traveller Middle East

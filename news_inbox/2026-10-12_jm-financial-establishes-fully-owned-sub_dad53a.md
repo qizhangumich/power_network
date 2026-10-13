@@ -1,0 +1,5 @@
+# JM Financial Establishes Fully Owned Subsidiary In Abu Dhabi For Financial Services
+source: Sahi
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPRWNzU0Z2QnlUR0ZOYzk3S0g0S01hTlB0SmdjQjJWUnBJdFhpdGZnQlNzNU8zTVVrQzFtVnpCdlpkSUlremlIVzZ3ckQ3eTlBc2s2VHBRV1VNVl9POF9nQXRYR251NFJsenBEaFE1MWNidmhmU0RpblYybC16Zm1RbDlLeHNNXzM0ejlGWlZzeUREdWpYaUlINHVfVWRwX1kwOHhzblBYSzhlNk53bXc?oc=5
+
+JM Financial Establishes Fully Owned Subsidiary In Abu Dhabi For Financial Services    Sahi
