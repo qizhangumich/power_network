@@ -511,6 +511,7 @@ const INSTITUTIONS = [
   {id:"jeddah_economic", n:"Jeddah Economic Company", s:"realestate", t:2, p:56, short:"Jeddah Economic Co."},
   {id:"riyadh_airports", n:"Riyadh Airports Company", s:"industry", t:2, p:58, short:"Riyadh Airports Co."},
   {id:"shura_council", n:"Shura Council", s:"gov", t:1, p:66, short:"Shura Council"},
+  {id:"riyad_capital", n:"Riyad Capital", s:"finance", t:2, p:58, short:"Riyad Capital"},
 ];
 
 const PEOPLE = [
@@ -3155,6 +3156,7 @@ const OWNERSHIP = [
   ["luberef","aramco","subsidiary","ns"],
   ["jeddah_economic","kingdomholding","subsidiary","ns"],
   ["riyadh_airports","matarat","subsidiary","v"],
+  ["riyad_capital","lst_1010","subsidiary","v"],
 ];
 
 const FAMILY = [

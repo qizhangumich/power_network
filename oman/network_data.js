@@ -222,6 +222,7 @@ const INSTITUTIONS = [
   {id:"mcbs_oman", n:"Modern College of Business and Science", s:"education", t:2, p:55, short:"MCBS Oman"},
   {id:"cbfs_oman", n:"College of Banking and Financial Studies", s:"education", t:2, p:56, short:"CBFS Oman"},
   {id:"oman_msc", n:"Maritime Security Centre", s:"gov", t:1, p:55, short:"Oman MSC"},
+  {id:"jindal_shadeed", n:"Jindal Shadeed Iron & Steel LLC", s:"materials", t:3, p:54, short:"Jindal Shadeed"},
 ];
 
 const PEOPLE = [
@@ -1685,4 +1686,5 @@ const AKA = {
   mcbs_oman:["MCBS"],
   cbfs_oman:["CBFS"],
   oman_msc:["MSC"],
+  jindal_shadeed:["Jindal Steel Oman","JSIS"],
 };

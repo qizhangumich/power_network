@@ -162,6 +162,7 @@ saudi,yasref,Yanbu Aramco Sinopec Refining Company,energy,58,0,pending
 saudi,luberef,Saudi Aramco Base Oil Company,materials,58,0,pending
 saudi,alfanar,Alfanar Group,industry,58,0,pending
 saudi,riyadh_airports,Riyadh Airports Company,industry,58,0,pending
+saudi,riyad_capital,Riyad Capital,finance,58,0,pending
 qatar,al_muftah,Al Muftah Group,conglomerate,57,1,pending
 saudi,alturki,Alturki Holding,conglomerate,57,0,pending
 saudi,alesayi,Alesayi Holding,conglomerate,57,0,pending
@@ -289,6 +290,7 @@ oman,al_bashayer_meat,Al Bashayer Meat Company,consumer_stap,54,1,pending
 oman,marsa_lng,Marsa LNG,energy,54,0,pending
 oman,badr_al_samaa,Badr Al Samaa Group of Hospitals,health,54,1,pending
 oman,hema_energy,Hema Energy,energy,54,0,pending
+oman,jindal_shadeed,Jindal Shadeed Iron & Steel LLC,materials,54,0,pending
 qatar,qatar_executive,Qatar Executive,industry,54,0,pending
 qatar,qacc,Qatar Aircraft Catering Company,industry,54,0,pending
 qatar,qafac,Qatar Fuel Additives Company,materials,54,1,pending
@@ -353,6 +355,7 @@ northern,asas_real_estate,ASAS Real Estate,realestate,52,0,pending
 northern,menacool,Mena Cool Transportation,industry,52,0,pending
 northern,khorfakkan_council,Khorfakkan Municipal Council,gov,52,0,pending
 northern,arex,AREX,industry,52,0,pending
+northern,arif_developments,Arif Developments,realestate,52,0,pending
 oman,asyad_drydock,Asyad Drydock,industry,52,0,pending
 oman,asyad_express,Asyad Express,industry,52,0,pending
 oman,al_mazunah_fz,Al Mazunah Free Zone,gov,52,1,pending

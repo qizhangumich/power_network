@@ -148,6 +148,7 @@ const INSTITUTIONS = [
   {id:"al_qasimi_fdn", n:"Sheikh Saud bin Saqr Al Qasimi Foundation for Policy Research", s:"gov", t:2, p:55, short:"Al Qasimi Fdn"},
   {id:"raknor", n:"RAKNOR", s:"materials", t:3, p:54, short:"RAKNOR"},
   {id:"arex", n:"AREX", s:"industry", t:3, p:52, short:"AREX"},
+  {id:"arif_developments", n:"Arif Developments", s:"realestate", t:3, p:52, short:"Arif Developments"},
 ];
 
 const PEOPLE = [

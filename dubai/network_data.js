@@ -2325,6 +2325,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  dxbairports:["Dubai Airport"],
   emirates:["Emirates Airlines","Emirates Airline"],
   dh_entertainment:["Dubai Parks and Resorts","DXB Entertainments"],
   mbr:["Mohammed bin Rashid","Sheikh Mohammed","MBR"],
