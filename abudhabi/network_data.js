@@ -297,6 +297,8 @@ const INSTITUTIONS = [
   {id:"q_mobility", n:"Q Mobility LLC", s:"industry", t:3, p:52, short:"Q Mobility"},
   {id:"q_3", n:"Q Holding PJSC", s:"conglomerate", t:3, p:54, short:"Q Holding"},
   {id:"federal_national_council", n:"Federal National Council", s:"gov", t:1, p:58, short:"FNC"},
+  {id:"astra_tech", n:"Astra Tech", s:"tech", t:3, p:66, short:"Astra Tech"},
+  {id:"digit9", n:"Digit9", s:"finance", t:3, p:68, short:"Digit9"},
 ];
 
 const PEOPLE = [
@@ -4184,6 +4186,7 @@ const OWNERSHIP = [
   ["q_mobility","adq","wholly owned subsidiary","ns"],
   ["q_3","ihc","listed subsidiary","ns"],
   ["g42","mubadala","portfolio company (minority stake alongside Silver Lake/Microsoft/Dalio)","ns"],
+  ["digit9","lulu","subsidiary","ns"],
 ];
 
 const FAMILY = [

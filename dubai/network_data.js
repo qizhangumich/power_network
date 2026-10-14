@@ -205,6 +205,8 @@ const INSTITUTIONS = [
   {id:"dhre", n:"Dubai Holding Real Estate", s:"realestate", t:2, p:62, short:"DHRE"},
   {id:"eta_ascon", n:"ETA Ascon Group", s:"industry", t:3, p:56, short:"ETA Ascon"},
   {id:"khansaheb", n:"Khansaheb Group", s:"industry", t:3, p:55, short:"Khansaheb"},
+  {id:"network_intl", n:"Network International LLC", s:"finance", t:2, p:74, short:"Network Intl"},
+  {id:"prypco", n:"PRYPCO", s:"tech", t:3, p:72, short:"PRYPCO"},
 ];
 
 const PEOPLE = [
@@ -2397,4 +2399,5 @@ const AKA = {
   minor_hotels_mea:["Minor Hotels"],
   eta_ascon:["ETA Star","ETA-ASCON-STAR Group","ETA Engineering"],
   khansaheb:["Khansaheb Investments"],
+  network_intl:["Network International Holdings plc","NI"],
 };

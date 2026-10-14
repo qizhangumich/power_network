@@ -273,7 +273,7 @@ const INSTITUTIONS = [
   {id:"lst_8300", n:"Wataniya Insurance Co.", s:"finance", t:2, p:50, short:"8300"},
   {id:"lst_8310", n:"Amana Cooperative Insurance Co.", s:"finance", t:2, p:50, short:"8310"},
   {id:"lst_8311", n:"Enaya Cooperative Insurance Co.", s:"finance", t:2, p:50, short:"8311"},
-  {id:"lst_8313", n:"Rasan Information Technology Co.", s:"finance", t:2, p:50, short:"8313"},
+  {id:"lst_8313", n:"Rasan Information Technology Co.", s:"finance", t:2, p:74, short:"Rasan"},
   {id:"lst_7030", n:"Zain Saudi Arabia", s:"comm", t:2, p:58, short:"Zain Saudi Arabia"},
   {id:"lst_7040", n:"Go Telecom (Etihad Atheeb Telecommunication Co.)", s:"comm", t:2, p:50, short:"7040"},
   {id:"lst_2081", n:"Alkhorayef Water and Power Technologies Co.", s:"utilities", t:2, p:50, short:"2081"},
@@ -512,6 +512,7 @@ const INSTITUTIONS = [
   {id:"riyadh_airports", n:"Riyadh Airports Company", s:"industry", t:2, p:58, short:"Riyadh Airports Co."},
   {id:"shura_council", n:"Shura Council", s:"gov", t:1, p:66, short:"Shura Council"},
   {id:"riyad_capital", n:"Riyad Capital", s:"finance", t:2, p:58, short:"Riyad Capital"},
+  {id:"tabby", n:"Tabby", s:"finance", t:3, p:76, short:"Tabby"},
 ];
 
 const PEOPLE = [

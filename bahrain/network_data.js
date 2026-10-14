@@ -54,7 +54,7 @@ const INSTITUTIONS = [
   {id:"kanoo",     n:"Yusuf bin Ahmed Kanoo Group",   s:"conglomerate", t:3, p:64, short:"Kanoo"},
   {id:"alzayani",  n:"Al Zayani Investments",         s:"conglomerate", t:3, p:60, short:"Al Zayani"},
   {id:"fakhro",    n:"Fakhro Group",                  s:"conglomerate", t:3, p:56, short:"Fakhro"},
-  {id:"lst_kfh", n:"Kuwait Finance House K.S.C.P.", s:"finance", t:2, p:50, short:"KFH"},
+  {id:"lst_kfh", n:"Kuwait Finance House K.S.C.P.", s:"finance", t:2, p:70, short:"KFH"},
   {id:"lst_bbk", n:"Bank of Bahrain and Kuwait B.S.C.", s:"finance", t:2, p:63, short:"BBK"},
   {id:"lst_salam", n:"Al Salam Bank B.S.C.", s:"finance", t:2, p:68, short:"Al Salam Bank"},
   {id:"lst_ugh", n:"United Gulf Holding Company B.S.C.", s:"finance", t:2, p:50, short:"UGH"},

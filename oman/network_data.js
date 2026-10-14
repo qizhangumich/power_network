@@ -93,7 +93,7 @@ const INSTITUTIONS = [
   {id:"lst_brde", n:"Barka Desalination Company SAOG", s:"utilities", t:2, p:50, short:"BRDE"},
   {id:"lst_abrj", n:"Abraj Energy Services SAOG", s:"energy", t:2, p:50, short:"ABRJ"},
   {id:"lst_oqgn", n:"OQ Gas Networks SAOG", s:"utilities", t:2, p:66, short:"OQGN"},
-  {id:"lst_oqep", n:"OQ Exploration and Production SAOG", s:"energy", t:2, p:50, short:"OQEP"},
+  {id:"lst_oqep", n:"OQ Exploration and Production SAOG", s:"energy", t:2, p:64, short:"OQEP"},
   {id:"lst_oqbi", n:"OQ Base Industries (SFZ) SAOG", s:"materials", t:2, p:50, short:"OQBI"},
   {id:"lst_cmii", n:"Construction Materials Industries SAOG", s:"materials", t:2, p:50, short:"CMII"},
   {id:"lst_aact", n:"Al Anwar Ceramic Tiles Company SAOG", s:"materials", t:2, p:50, short:"AACT"},
@@ -223,6 +223,7 @@ const INSTITUTIONS = [
   {id:"cbfs_oman", n:"College of Banking and Financial Studies", s:"education", t:2, p:56, short:"CBFS Oman"},
   {id:"oman_msc", n:"Maritime Security Centre", s:"gov", t:1, p:55, short:"Oman MSC"},
   {id:"jindal_shadeed", n:"Jindal Shadeed Iron & Steel LLC", s:"materials", t:3, p:54, short:"Jindal Shadeed"},
+  {id:"thawani", n:"Thawani Technologies", s:"finance", t:3, p:56, short:"Thawani"},
 ];
 
 const PEOPLE = [
@@ -1478,6 +1479,7 @@ const PEOPLE = [
 const OWNERSHIP = [
   ["lst_oab","ominvest","major shareholder (~31%, per most recent disclosure; historically 51%)","ns"],
   ["lst_oqgn","oq","majority shareholder"],
+  ["lst_oqep","oq","majority shareholder","ns"],
   ["lst_bkdb","lst_didi","anchor shareholder","ns"],
   ["com_om","omgov","governs under"],
   ["mof_om","com_om"],["mofa_om","com_om"],["moci_om","com_om"],
