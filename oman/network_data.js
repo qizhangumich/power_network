@@ -274,6 +274,7 @@ const PEOPLE = [
     ["fsa_oman","Vice Chairman of the Board of Directors (Governor of Central Bank of Oman)","board","v"],
     ["cbo","Governor","executive","v"]]},
   {id:"alhashar_bankmuscat", n:"Sheikh Waleed Khamis Al Hashar", t:2, p:70, s:"finance", roles:[
+    ["cbfs_oman","Board of Trustees Member (Bank Muscat)","board","v"],
     ["bankmuscat","Chief Executive Officer","executive","v"]]},
   {id:"baitfadhil_omantel", n:"Aladdin Abdullah Hassan Baitfadhil", t:2, p:66, s:"comm", roles:[
     ["omantel","Chief Executive Officer","executive","v"]]},
@@ -471,6 +472,7 @@ const PEOPLE = [
   {id:"ghaith_al_darmaki", n:"Ghaith Al Darmaki", t:2, p:58, s:"industry", roles:[
     ["asyad","Group Chief Technology Officer","executive","v"]]},
   {id:"ibrahim_al_nadhairi", n:"Ibrahim Al Nadhairi", t:2, p:60, s:"industry", roles:[
+    ["asyad_drydock","CEO (Asyad Shipping & Drydock business units)","executive","v"],
     ["soharport","Chairman of the Board","board","v"],
     ["asyad","CEO - Asyad Shipping","executive","v"]]},
   {id:"leyan_al_mawali", n:"Leyan Al Mawali", t:2, p:58, s:"industry", roles:[
@@ -902,6 +904,7 @@ const PEOPLE = [
   {id:"fahad_al_bulushi", n:"Fahad Al Bulushi", t:2, p:58, s:"conglomerate", roles:[
     ["zubair","Group Chief Financial Officer","executive","ns"]]},
   {id:"mohammed_bin_mahfoodh", n:"Mohammed bin Mahfoodh Al Ardhi", t:2, p:62, s:"finance", roles:[
+    ["cbfs_oman","Chairman of the Board of Trustees","board","v"],
     ["msx","Chairman","board","v"]]},
   {id:"abdullah_saleh_al", n:"Abdullah Saleh Al Suweilmy", t:2, p:52, s:"finance", roles:[
     ["msx","Board Member","board","ns"]]},
@@ -912,6 +915,7 @@ const PEOPLE = [
   {id:"mathla_saleh_al", n:"Mathla Saleh Al Shaqsi", t:2, p:52, s:"finance", roles:[
     ["msx","Board Member","board","ns"]]},
   {id:"imad_kamal_sultan", n:"Imad Kamal Sultan", t:2, p:52, s:"finance", roles:[
+    ["cbfs_oman","Board of Trustees Member (W J Towell Group)","board","v"],
     ["lst_oab","Board Member","board","v"],
     ["towell","Vice Chairman & Managing Director","board","v"],
     ["msx","Board Member","board","ns"]]},
@@ -1445,6 +1449,7 @@ const PEOPLE = [
   {id:"abdullah_saif_ali", n:"Abdullah Saif Ali Al Rajhi", t:2, p:52, s:"finance", roles:[
     ["lst_abob","Director","board","v"]]},
   {id:"said_abdullah_al", n:"Said Abdullah Al Hatmi", t:2, p:60, s:"finance", roles:[
+    ["cbfs_oman","Board of Trustees Member (Ahli Bank)","board","v"],
     ["lst_abob","Chief Executive Officer","executive","v"]]},
   {id:"abdullah_salim_al", n:"Abdullah Salim Al Jabri", t:2, p:58, s:"finance", roles:[
     ["lst_abob","Deputy CEO, Support Services","executive","v"]]},
@@ -1474,6 +1479,38 @@ const PEOPLE = [
     ["lst_ngci","Head of Finance","executive","ns"]]},
   {id:"ghada_ghaithi", n:"Ghada Ghaithi", t:2, p:58, s:"energy", roles:[
     ["lst_ngci","Board Secretary & Compliance Officer","executive","ns"]]},
+  {id:"majid_al_kharoosi", n:"Majid Al Kharoosi", t:2, p:60, s:"comm", roles:[
+    ["oman_tower","Managing Director","executive","ns"]]},
+  {id:"lujaina_mohsin_darwish", n:"Lujaina Mohsin Darwish", t:2, p:62, s:"conglomerate", roles:[
+    ["mohsin_haider_darwish","Chairperson, Infrastructure Technology Industrial & Consumer Solutions (ITICS) cluster","board","ns"]]},
+  {id:"areej_mohsin_darwish", n:"Areej Mohsin Darwish", t:2, p:62, s:"conglomerate", roles:[
+    ["mohsin_haider_darwish","Chairperson, Automotive Construction Equipment & Renewable Energy (ACERE) cluster","board","ns"]]},
+  {id:"rashid_zayid_al", n:"Rashid Zayid Al Ghassani", t:2, p:62, s:"education", roles:[
+    ["cbfs_oman","Deputy Chairman (EVP, Central Bank of Oman)","board","v"]]},
+  {id:"talal_said_al", n:"Talal Said Al Mamari", t:2, p:52, s:"education", roles:[
+    ["cbfs_oman","Board of Trustees Member (Omantel)","board","v"]]},
+  {id:"hatem_bakit_al", n:"Hatem Bakit Al Shanfari", t:2, p:52, s:"education", roles:[
+    ["cbfs_oman","Board of Trustees Member","board","v"]]},
+  {id:"al_mukhtar_saif", n:"Al Mukhtar Saif Al Abri", t:2, p:52, s:"education", roles:[
+    ["cbfs_oman","Board of Trustees Member (Sultan Qaboos University)","board","v"]]},
+  {id:"samra_suleiman_al", n:"Samra Suleiman Al Harthiya", t:2, p:52, s:"education", roles:[
+    ["cbfs_oman","Board of Trustees Member (Oman Investment Authority)","board","v"]]},
+  {id:"zahran_bin_salim", n:"Zahran bin Salim Al Salti", t:2, p:58, s:"education", roles:[
+    ["cbfs_oman","Dean","executive","v"]]},
+  {id:"shailesh_guntu", n:"Shailesh Guntu", t:2, p:58, s:"health", roles:[
+    ["aster_al_raffah","CEO, Aster Hospitals & Clinics Oman","executive","ns"]]},
+  {id:"sherbaz_bichu", n:"Sherbaz Bichu", t:2, p:58, s:"health", roles:[
+    ["aster_al_raffah","Group CEO, Aster (UAE, Oman, Bahrain)","executive","ns"]]},
+  {id:"rear_admiral_saif", n:"Rear Admiral Saif bin Nasser Al Rahbi", t:2, p:62, s:"gov", roles:[
+    ["oman_msc","Chairman of the Maritime Security Committee / Commander, Royal Navy of Oman","board","ns"]]},
+  {id:"commodore_abdullah_bin", n:"Commodore Abdullah bin Ali Al Hajri", t:2, p:46, s:"gov", roles:[
+    ["oman_msc","Head of the Maritime Security Centre","executive","ns"]]},
+  {id:"hamdan_bin_sulaiman", n:"Hamdan bin Sulaiman Al Fazari", t:2, p:58, s:"education", roles:[
+    ["sohar_university","Vice Chancellor","executive","v"]]},
+  {id:"professor_hamza_edrees", n:"Professor Hamza Edrees", t:2, p:58, s:"education", roles:[
+    ["sohar_university","Deputy Vice Chancellor (Academic Affairs)","executive","v"]]},
+  {id:"abdulaziz_khalifa_al", n:"Abdulaziz Khalifa Al Saadi", t:2, p:60, s:"finance", roles:[
+    ["ubhar_capital","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

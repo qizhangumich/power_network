@@ -1996,6 +1996,28 @@ const PEOPLE = [
     ["qatar_media","Chief Executive Officer","executive","ns"]]},
   {id:"jassim_bin_saif", n:"Jassim bin Saif Al Sulaiti", t:2, p:62, s:"industry", roles:[
     ["mwani","Chairman (also Minister of Transport)","board","ns"]]},
+  {id:"mohammed_al_marzooqi", n:"Mohammed Al-Marzooqi", t:2, p:58, s:"industry", roles:[
+    ["qcaa","Director of the President's Office","executive","ns"]]},
+  {id:"darren_woods", n:"Darren Woods", t:2, p:62, s:"energy", roles:[
+    ["exxonmobil","Chairman and CEO","executive","v"]]},
+  {id:"patrick_pouyann", n:"Patrick Pouyanné", t:2, p:62, s:"energy", roles:[
+    ["totalenergies","Chairman and CEO","executive","v"]]},
+  {id:"andy_o_brien", n:"Andy O'Brien", t:2, p:60, s:"energy", roles:[
+    ["conocophillips","President and CEO","executive","v"]]},
+  {id:"ryan_lance", n:"Ryan Lance", t:2, p:62, s:"energy", roles:[
+    ["conocophillips","Executive Chairman","board","v"]]},
+  {id:"wael_sawan", n:"Wael Sawan", t:2, p:60, s:"energy", roles:[
+    ["shell","Chief Executive Officer","executive","ns"]]},
+  {id:"abdelwahab_el_affendi", n:"Abdelwahab El Affendi", t:2, p:58, s:"education", roles:[
+    ["acrps_doha_inst","President of the Doha Institute for Graduate Studies","executive","v"]]},
+  {id:"azmi_bishara", n:"Azmi Bishara", t:2, p:62, s:"education", roles:[
+    ["acrps_doha_inst","Chair of the Board of Trustees (Doha Institute) / General Director (ACRPS)","board","v"]]},
+  {id:"marwan_m_kraidy", n:"Marwan M. Kraidy", t:2, p:60, s:"education", roles:[
+    ["northwestern_qatar","Dean and CEO","executive","v"]]},
+  {id:"clyde_wilcox", n:"Clyde Wilcox", t:2, p:58, s:"education", roles:[
+    ["georgetown_qatar","Acting Dean (effective 1 June 2026)","executive","v"]]},
+  {id:"bassel_gamal", n:"Bassel Gamal", t:2, p:60, s:"finance", roles:[
+    ["qib","Group Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

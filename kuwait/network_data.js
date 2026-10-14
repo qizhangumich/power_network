@@ -242,6 +242,7 @@ const INSTITUTIONS = [
   {id:"kuwait_tech_college", n:"Kuwait Technical College", s:"education", t:3, p:51, short:"Kuwait Tech College"},
   {id:"al_rai_media", n:"Al Rai Media Group", s:"comm", t:2, p:57, short:"Al Rai Media"},
   {id:"national_assembly", n:"National Assembly", s:"gov", t:1, p:72, short:"National Assembly"},
+  {id:"mk", n:"AlMudhaf & AlKulaib Group (MK Group)", s:"conglomerate", t:3, p:55, short:"MK Group"},
 ];
 
 const PEOPLE = [
@@ -1838,6 +1839,8 @@ const PEOPLE = [
     ["kout_food","COO","executive","ns"]]},
   {id:"hussein_zabin", n:"Hussein Zabin", t:2, p:58, s:"consumer_disc", roles:[
     ["kout_food","Senior Director of Development","executive","ns"]]},
+  {id:"tariq_suleiman_al", n:"Tariq Suleiman Al-Rumi", t:2, p:58, s:"energy", roles:[
+    ["moo_kw","Minister of Oil","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2057,4 +2060,5 @@ const AKA = {
   kuwait_tech_college:["Ktech"],
   al_rai_media:["Alrai","Al Rai TV"],
   national_assembly:["Majlis Al-Ummah"],
+  mk:["Al-Mudhaf & Al-Kulaib Group","AlMudhaf AlKulaib Group"],
 };

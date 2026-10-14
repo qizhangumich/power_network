@@ -1175,6 +1175,7 @@ const PEOPLE = [
   {id:"yousuf_caires", n:"Yousuf Caires", t:2, p:58, s:"realestate", roles:[
     ["expocity","Executive Director, Expo City Dubai Foundation","executive","v"]]},
   {id:"sheikha_latifa_bint", n:"Sheikha Latifa bint Mohammed bin Rashid Al Maktoum", t:2, p:62, s:"gov", roles:[
+    ["dubai_culture","Chairperson","board","v"],
     ["execco","Member (Chairperson of Dubai Culture and Arts Authority)","board","v"]]},
   {id:"dhahi_khalfan_tamim", n:"Dhahi Khalfan Tamim", t:2, p:52, s:"gov", roles:[
     ["dxbpolice","Deputy Chief of Police and General Security","executive","ns"],
@@ -2096,6 +2097,7 @@ const PEOPLE = [
   {id:"haider_al_enzi", n:"Haider Al Enzi", t:2, p:60, s:"consumer_disc", roles:[
     ["ikea_al_futtaim","Managing Director - Al-Futtaim Health","executive","v"]]},
   {id:"naaman_atallah", n:"Naaman Atallah", t:2, p:58, s:"consumer_disc", roles:[
+    ["dubai_properties","Chief Executive Officer (Dubai Properties)","executive","v"],
     ["ikea_al_futtaim","President - Al-Futtaim Real Estate","executive","v"]]},
   {id:"vinod_jayan", n:"Vinod Jayan", t:2, p:60, s:"consumer_disc", roles:[
     ["ikea_al_futtaim","Managing Director - Al-Futtaim IKEA (UAE/Oman/Qatar/Egypt)","executive","ns"]]},
@@ -2181,6 +2183,18 @@ const PEOPLE = [
     ["lst_talabat","Managing Director, Kuwait","executive","ns"]]},
   {id:"bader_al_ghanim", n:"Bader Al-Ghanim", t:2, p:60, s:"consumer_disc", roles:[
     ["lst_talabat","Chief International Officer (previously Kuwait Managing Director, succeeded by Noor Al-Bahar)","executive","ns"]]},
+  {id:"abdullatif_al_mulla", n:"Abdullatif Al Mulla", t:2, p:60, s:"realestate", roles:[
+    ["dubai_properties","Group Chief Executive Officer (Dubai Properties Group)","executive","v"]]},
+  {id:"hala_badri", n:"Hala Badri", t:2, p:58, s:"gov", roles:[
+    ["dubai_culture","Director General","executive","v"]]},
+  {id:"abdul_hamied_seddiqi", n:"Abdul Hamied Seddiqi", t:2, p:62, s:"consumer_disc", roles:[
+    ["seddiqi","Chairman (Seddiqi Holding)","board","ns"]]},
+  {id:"zulekha_daud", n:"Zulekha Daud", t:2, p:62, s:"health", roles:[
+    ["zulekha_healthcare","Founder and Chairperson","board","ns"]]},
+  {id:"zanubia_shams", n:"Zanubia Shams", t:2, p:62, s:"health", roles:[
+    ["zulekha_healthcare","Co-Chairperson","board","ns"]]},
+  {id:"taher_shams", n:"Taher Shams", t:2, p:62, s:"health", roles:[
+    ["zulekha_healthcare","Managing Director / Co-Chairperson","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

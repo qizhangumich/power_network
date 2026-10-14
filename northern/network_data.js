@@ -1262,6 +1262,12 @@ const PEOPLE = [
     ["rakmhsu","President","executive","ns"]]},
   {id:"abdulrahman_al_nuaimi", n:"Abdulrahman Al Nuaimi", t:2, p:62, s:"gov", roles:[
     ["ajman_municipality","Director General, Deputy Chairman of the Board","executive","ns"]]},
+  {id:"chris_wood", n:"Chris Wood", t:2, p:60, s:"energy", roles:[
+    ["rak_gas","Chief Executive Officer","executive","v"]]},
+  {id:"george_saad", n:"George Saad", t:2, p:60, s:"realestate", roles:[
+    ["al_zorah_dev","Chief Executive Officer","executive","ns"]]},
+  {id:"ahmed_ibrahim_obaid", n:"Ahmed Ibrahim Obaid Ali Al Ali", t:2, p:58, s:"gov", roles:[
+    ["uaq_municipality","Director-General","executive","v"]]},
 ];
 
 const OWNERSHIP = [

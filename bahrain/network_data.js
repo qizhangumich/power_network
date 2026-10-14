@@ -203,6 +203,7 @@ const PEOPLE = [
   {id:"baqali", n:"Ali Al Baqali", t:2, p:64, s:"materials", roles:[
     ["alba","CEO","executive","v"]]},
   {id:"salman_isa_bic", n:"Sheikh Salman bin Isa Al Khalifa", t:2, p:62, s:"consumer_disc", roles:[
+    ["benefit","Board Member","board","ns"],
     ["bic","CEO","executive","v"]]},
   {id:"fawzi_kanoo", n:"Fawzi Ahmed Kanoo", t:2, p:60, s:"conglomerate", roles:[
     ["lst_ghg","Chairman of the Board of Directors","board","v"],
@@ -212,6 +213,7 @@ const PEOPLE = [
   {id:"gauss_gulfair", n:"Martin Gauss", t:2, p:66, s:"industry", roles:[
     ["gulfair","Group Chief Executive Officer","executive","v"]]},
   {id:"kamal_ewa", n:"Eng. Kamal bin Ahmed Mohammed", t:1, p:74, s:"utilities", roles:[
+    ["gulf_aviation_acad","Chairman","board","ns"],
     ["ewa_bh","President","executive","v"]]},
   {id:"alrayes_gfh", n:"Hisham Ahmed Al-Rayes", t:2, p:68, s:"finance", roles:[
     ["gfh","Group Chief Executive Officer","executive","v"]]},
@@ -484,6 +486,7 @@ const PEOPLE = [
   {id:"salman_al_hasan", n:"Salman Al Hasan", t:2, p:58, s:"finance", roles:[
     ["lst_bbk","Chief International Banking Officer","executive","v"]]},
   {id:"ahmed_taqi", n:"Ahmed Taqi", t:2, p:58, s:"finance", roles:[
+    ["benefit","Board Member","board","ns"],
     ["lst_bbk","Chief Retail Banking Officer","executive","v"]]},
   {id:"aqeel_ghaith", n:"Aqeel Ghaith", t:2, p:58, s:"finance", roles:[
     ["lst_bbk","Chief Private Banking Officer","executive","v"]]},
@@ -528,6 +531,7 @@ const PEOPLE = [
     ["bapco_refining","Board Member","board","v"],
     ["bapco","Board Member","board","v"]]},
   {id:"mark_thomas", n:"Mark Thomas", t:2, p:60, s:"energy", roles:[
+    ["bac_jet_fuel","Chairman","board","ns"],
     ["bapco_gas","Group Chief Executive Officer (Bapco Energies)","executive","v"],
     ["bapco_upstream","Board Member","board","v"],
     ["bapco_refining","Group Chief Executive Officer","executive","v"],
@@ -1213,6 +1217,7 @@ const PEOPLE = [
     ["nbb","Head of Quality Assurance & Data Analytics","executive","v"],
     ["nbb","Head of Quality Assurance & Data Analytics","executive","v"]]},
   {id:"nabeel_mustafa", n:"Nabeel Mustafa", t:2, p:58, s:"finance", roles:[
+    ["benefit","Vice Chairman","board","ns"],
     ["nbb","Group Chief Operating Officer","executive","v"],
     ["nbb","Group Chief Operating Officer","executive","v"]]},
   {id:"sadeq_jaafar_kadhem", n:"Sadeq Jaafar Kadhem Dakail", t:2, p:46, s:"finance", roles:[
@@ -1225,6 +1230,7 @@ const PEOPLE = [
   {id:"emad_jawad_bu", n:"Emad Jawad Bu Khamsin", t:2, p:52, s:"finance", roles:[
     ["lst_bkic","Director","board","v"]]},
   {id:"muna_sayed_ali", n:"Muna Sayed Ali Ebrahim Husain AlHashemi", t:2, p:52, s:"finance", roles:[
+    ["benefit","Chairperson of the Board of Directors","board","v"],
     ["lst_bkic","Director","board","v"]]},
   {id:"mohamed_ebrahim_mohamed", n:"Mohamed Ebrahim Mohamed Ali Zainal", t:2, p:52, s:"finance", roles:[
     ["lst_bkic","Director","board","v"]]},
@@ -1253,6 +1259,7 @@ const PEOPLE = [
     ["tamkeen","Board Member (BCCI Representative)","board","v"],
     ["bmmi","Vice-Chairman","board","v"]]},
   {id:"suhail_mohamed_hajee", n:"Suhail Mohamed Hajee", t:2, p:52, s:"consumer_stap", roles:[
+    ["bfc","Director","board","ns"],
     ["bmmi","Director","board","v"]]},
   {id:"ahmed_hussain_yateem", n:"Ahmed Hussain Yateem", t:2, p:52, s:"consumer_stap", roles:[
     ["bmmi","Director","board","v"]]},
@@ -1835,6 +1842,7 @@ const PEOPLE = [
   {id:"khalid_mohamad_mattar", n:"Khalid Mohamad Mattar", t:2, p:52, s:"industry", roles:[
     ["lst_nass","Independent Director","board","v"]]},
   {id:"mazen_mohamed_ahmed", n:"Mazen Mohamed Ahmed Matar", t:2, p:60, s:"industry", roles:[
+    ["asry","Managing Director","executive","v"],
     ["lst_nass","Chief Executive Officer","executive","v"]]},
   {id:"bassam_sami_awdi", n:"Bassam Sami Awdi", t:2, p:58, s:"industry", roles:[
     ["lst_nass","Chief Financial Officer","executive","v"]]},
@@ -3340,6 +3348,46 @@ const PEOPLE = [
     ["council_of_reps","Second Deputy Speaker","board","v"]]},
   {id:"mohammed_ibrahim_al_b", n:"Mohammed Ibrahim Al Sisi Al Buainain", t:2, p:52, s:"gov", roles:[
     ["council_of_reps","Secretary-General (appointed by Royal Decree No. 83 of 2024)","board","v"]]},
+  {id:"yusuf_al_fadhel", n:"Yusuf Al Fadhel", t:2, p:52, s:"finance", roles:[
+    ["benefit","Board Member","board","ns"]]},
+  {id:"alaa_bushehri", n:"Alaa Bushehri", t:2, p:52, s:"finance", roles:[
+    ["benefit","Board Member","board","ns"]]},
+  {id:"samih_abutaleb", n:"Samih Abutaleb", t:2, p:52, s:"finance", roles:[
+    ["benefit","Board Member","board","ns"]]},
+  {id:"khaled_abi_khalil", n:"Khaled Abi Khalil", t:2, p:52, s:"finance", roles:[
+    ["benefit","Board Member","board","ns"]]},
+  {id:"mohamed_buhejji", n:"Mohamed Buhejji", t:2, p:52, s:"finance", roles:[
+    ["benefit","Board Member","board","ns"]]},
+  {id:"samir_rabadi", n:"Samir Rabadi", t:2, p:52, s:"finance", roles:[
+    ["benefit","Board Member","board","ns"]]},
+  {id:"jawad_zabar", n:"Jawad Zabar", t:2, p:58, s:"finance", roles:[
+    ["bfc","Group General Counsel & Board Secretary","executive","ns"]]},
+  {id:"kerry_rutherford", n:"Kerry Rutherford", t:2, p:46, s:"energy", roles:[
+    ["bapco_air_fueling","General Manager","executive","v"]]},
+  {id:"ahmed_abdulla_khamis", n:"Ahmed Abdulla Khamis", t:2, p:58, s:"energy", roles:[
+    ["bapco_air_fueling","Operations Manager","executive","v"]]},
+  {id:"amin_ali_amini", n:"Amin Ali Amini", t:2, p:58, s:"energy", roles:[
+    ["bapco_air_fueling","Finance & Administration Manager","executive","v"]]},
+  {id:"ibrahim_bin_khalid", n:"Ibrahim bin Khalid Al Khalifa", t:2, p:60, s:"energy", roles:[
+    ["bapco_air_fueling","Chief Executive","executive","ns"]]},
+  {id:"roberto_mancone", n:"Roberto Mancone", t:2, p:60, s:"finance", roles:[
+    ["beyon_money","CEO Beyon Money","executive","v"]]},
+  {id:"dhafer_al_abbasi", n:"Dhafer Al Abbasi", t:2, p:60, s:"education", roles:[
+    ["gulf_aviation_acad","Chief Executive","executive","ns"]]},
+  {id:"mahmood_al_balooshi", n:"Mahmood Al-Balooshi", t:2, p:58, s:"education", roles:[
+    ["gulf_aviation_acad","Chief Operations Officer","executive","ns"]]},
+  {id:"mohamed_yousif_al", n:"Mohamed Yousif Al Binfalah", t:2, p:62, s:"energy", roles:[
+    ["bac_jet_fuel","Chairman","board","ns"]]},
+  {id:"mohamed_bin_rashed", n:"Mohamed bin Rashed bin Abdulrahman AlKhalifa", t:2, p:60, s:"industry", roles:[
+    ["asry","Deputy CEO","executive","ns"]]},
+  {id:"yousif_al_nefaie", n:"Yousif Al Nefaie", t:2, p:62, s:"tech", roles:[
+    ["bfb","Vice Chairman (Deputy CEO, BENEFIT)","board","v"]]},
+  {id:"hessa_husain", n:"Hessa Husain", t:2, p:52, s:"tech", roles:[
+    ["bfb","Board Member","board","v"]]},
+  {id:"rashad_faraj", n:"Rashad Faraj", t:2, p:52, s:"tech", roles:[
+    ["bfb","Board Member","board","v"]]},
+  {id:"areije_al_shakar", n:"Areije Al Shakar", t:2, p:60, s:"tech", roles:[
+    ["beventures","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
