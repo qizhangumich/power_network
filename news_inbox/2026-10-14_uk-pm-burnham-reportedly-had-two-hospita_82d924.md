@@ -1,0 +1,5 @@
+# UK PM Burnham reportedly had two hospitality dinners with Man City chairman Al Mubarak
+source: TribalFootball
+url: https://news.google.com/rss/articles/CBMikgJBVV95cUxObGRua3lLc2JVZHZ2SWs1UGVhc2g4bllRazd5OHEybDE0S1gzWk9EN2N5ckQ4VEktX1cxTV90V1pZSmtUY3FGLUZfQ0ctaEVJblBBZ2hhT1Rfb3M0a0FYVEk5WnVUbWIxX1haaHBpMkUtZjlyaHJlTnFyVE54WXo1LXJvM01SZUo0TlpvZE9ucDZ4VjBrYUdlWU4wU2xCdFpHcjVCbm5XSE1xazNhV3dUaXh6YkRVazhuenFKSjdZOGZMeXB4QkNsX215bkpLeS1fZlByVk1UVm5YNDAwOThIeUl3QUFPZThLUHpMMUpONnRJaFFYdGpRLTRlenVvTEJmT2ltRlh0RFRwck5jY01PbER3?oc=5
+
+UK PM Burnham reportedly had two hospitality dinners with Man City chairman Al Mubarak    TribalFootball

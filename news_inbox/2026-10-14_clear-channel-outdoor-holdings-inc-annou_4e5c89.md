@@ -1,0 +1,5 @@
+# Clear Channel Outdoor Holdings, Inc. Announces Completion of Acquisition by Mubadala Capital
+source: PR Newswire
+url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQVZHa1VFdkxYVnB2QnhRVF9xdHRudTh1NUQtR3V4NWV3elg3R0NDZU00VndmQkJUTEx3TjlHYmlPc3BQbFM0RnZHaGF0eFVvSGQ3UkQ0QUgwLVdocHZpdFctSm1ULTVjY1lWTHp1VUgwTnByYVZmUGpJLURaSmFUTThQTFhWUGthMWhaWkRTXzZQYWI5UnZESGtTdktnaGRUQ01QckNVeVVLN1oxTVo4OGlNWHZrUE5CbW9YZnotWWlsWDhvaGJrZlpjQUx3cjlnN0g2bE1iaXduY1UxdG9F?oc=5
+
+Clear Channel Outdoor Holdings, Inc. Announces Completion of Acquisition by Mubadala Capital    PR Newswire
