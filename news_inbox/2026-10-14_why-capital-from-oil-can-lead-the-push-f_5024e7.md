@@ -1,0 +1,5 @@
+# Why capital from oil can lead the push for renewable power while fossil majors hesitate
+source: Recharge News
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxONHJoZENYSVpGamxZbkU3aXZlOGdJWmd2WjBaaDhsVTRHdjloZ1NPXzJpRGpEaGQ3b3ZIN0NLS2hkZGxMdmE1bFNmYjI5bUNpWDJRQUZhbWw5b0ZMNjJkUDhlZHpsdUh5Zmp4eXFXVWNCaTd0a3JFYjVwcUNlU0dQWlJMZVFqaVpOZ3djOHBZUkVhVEZNeG1DWVBtdnF3YzY3YUdsSUZsblR2cm9IaUt2X1Fsa1FJbjBpUGV5emNvYkdPZzNKbW15X1BxWTRqbWZnWnc?oc=5
+
+Why capital from oil can lead the push for renewable power while fossil majors hesitate    Recharge News

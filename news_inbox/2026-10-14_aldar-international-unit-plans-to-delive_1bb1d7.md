@@ -1,0 +1,5 @@
+# Aldar international unit plans to deliver 9,000 homes in next five years
+source: The National
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQYmJ3SGFCS3lTQUNQQ3ZDbmEzWHFYdkVvaUtTMk1nWGdfRFF2U1VpNVVJbnZEOXBJcG9oT1EtVTZuVXVIRVVhbDRObGlpdTU2Q2ZSZHluUm9BV3pOaVVreWFZMUFEaFBHZ2x2VEtibDl1R0RkVUdSTWMwWFcwanItQS1jNkYtRlJNSmo4Wm1uaXQweV9yeW9lTU9tN3I4eE52Ui1fTTRhY2N3NGNwNlkzM2k1Q2g0bm9FenA4N0NoZTVONVB5amZINUppMEdTQQ?oc=5
+
+Aldar international unit plans to deliver 9,000 homes in next five years    The National

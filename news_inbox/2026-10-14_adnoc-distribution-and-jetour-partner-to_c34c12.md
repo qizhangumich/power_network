@@ -1,0 +1,5 @@
+# ADNOC Distribution and Jetour partner to enhance customer experiences in the UAE
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbEgzTTE1S3pSWXVpVG1TS3VlRXgxVEpEN0ZISEJwWFhpOERKZTNtMlJ3OG5qTFhGZXEtZF9pUmNYYmFINHhxdFd0cEJVYUZhdmpwZldFdDdoUGIxd1UyU242azQ1LWxveFRscGN3d3oxbWNob0JHSmpZUWlJYWJJblZYdi1rd2FDQ3RpeWJ4aUphVGFNWWl5RUpHQjhfTjdRUkR2dDJCSUFEdWJQUml1VFRtWlBodVdKam5zS1g2aENFTXVEQWtNUlljLXJpNUpZYlJtb1BITUdvUQ?oc=5
+
+ADNOC Distribution and Jetour partner to enhance customer experiences in the UAE    Zawya

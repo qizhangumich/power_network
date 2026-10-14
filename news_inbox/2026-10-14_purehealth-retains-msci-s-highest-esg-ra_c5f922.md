@@ -1,0 +1,5 @@
+# PureHealth retains MSCI’s highest ESG rating for second consecutive year
+source: Zawya
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQZDk5MmIzbFpwdWRyeEFWTE04VWk0TTU0dmh1R05INTh2ZzJmakxWTzN5UmpWQXVxaHJnMjhSOFU5UVhQZEF5RVFNS0JqVXNUN1Y1Z3Q2Q3JxbEdHckRuckRzQzJtR0lZclJUZ3VicUpYR0FHRW1wR0g5M2tYY3lhVG5YSDUwNzFWbFFHcW5yX2xkZ0JDVDU2V0xlQVRBd21EVlViQVF5UGdGZVZUaVB0eExuRnpqMVZ6a0pWbXFEX2ptLWwydUFIV2MzRGhCUQ?oc=5
+
+PureHealth retains MSCI’s highest ESG rating for second consecutive year    Zawya
