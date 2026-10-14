@@ -1,0 +1,5 @@
+# Khaldoon Al Mubarak meets China's Wang Yi to strengthen bilateral ties
+source: The National
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxQeFVSbUg1V1hDRElBSFVqeFNLLTFpbFZGMjM2RV9RbmZlT1FneXZoYnJhNTNVNktjZFNYbXVGd1NsSlRlSXNWUlRsOWtkQWZjSmtFMGFJVXhkdHVTM0t5WGhFRHNNdE5vT0gyaThlSTNKSmxHYnpIWXFYejlJQnJQUEhjOG5ON2FEcUo1SkdRcTZhYlEyOVNOczJ0ODVNS1RpMG1fQnNIWHNXcWdMMnVnMFMyckhEcDE4SUdpN0FFUQ?oc=5
+
+Khaldoon Al Mubarak meets China's Wang Yi to strengthen bilateral ties    The National

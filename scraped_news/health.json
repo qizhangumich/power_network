@@ -2,14 +2,14 @@
  "bahrain/Al Ayam": {
   "fails": 0,
   "freq_h": 12,
-  "last_attempt": "2026-10-14T03:58:40Z",
-  "last_new": "2026-10-14T03:58:40Z",
-  "last_success": "2026-10-14T03:58:40Z"
+  "last_attempt": "2026-10-14T16:45:10Z",
+  "last_new": "2026-10-14T16:45:10Z",
+  "last_success": "2026-10-14T16:45:10Z"
  },
  "bahrain/BNA": {
-  "fails": 65,
+  "fails": 66,
   "freq_h": 12,
-  "last_attempt": "2026-10-14T03:58:40Z",
+  "last_attempt": "2026-10-14T16:45:10Z",
   "last_new": "2026-09-03T17:12:26Z",
   "last_success": "2026-09-03T17:12:26Z"
  },
@@ -23,9 +23,9 @@
  "bahrain/TradeArabia": {
   "fails": 0,
   "freq_h": 12,
-  "last_attempt": "2026-10-14T03:58:40Z",
-  "last_new": "2026-10-14T03:58:40Z",
-  "last_success": "2026-10-14T03:58:40Z"
+  "last_attempt": "2026-10-14T16:45:10Z",
+  "last_new": "2026-10-14T16:45:10Z",
+  "last_success": "2026-10-14T16:45:10Z"
  },
  "kuwait/Al Rai": {
   "fails": 0,
@@ -35,9 +35,9 @@
   "last_success": "2026-10-14T11:23:51Z"
  },
  "kuwait/KUNA": {
-  "fails": 65,
+  "fails": 66,
   "freq_h": 12,
-  "last_attempt": "2026-10-14T03:58:40Z",
+  "last_attempt": "2026-10-14T16:45:10Z",
   "last_new": "2026-09-03T17:12:26Z",
   "last_success": "2026-09-03T17:12:26Z"
  },
@@ -51,14 +51,14 @@
  "oman/Muscat Daily": {
   "fails": 0,
   "freq_h": 12,
-  "last_attempt": "2026-10-14T03:58:40Z",
-  "last_new": "2026-10-14T03:58:40Z",
-  "last_success": "2026-10-14T03:58:40Z"
+  "last_attempt": "2026-10-14T16:45:10Z",
+  "last_new": "2026-10-14T16:45:10Z",
+  "last_success": "2026-10-14T16:45:10Z"
  },
  "oman/ONA": {
-  "fails": 66,
+  "fails": 67,
   "freq_h": 12,
-  "last_attempt": "2026-10-14T03:58:40Z"
+  "last_attempt": "2026-10-14T16:45:10Z"
  },
  "oman/Oman Observer": {
   "fails": 0,
@@ -84,9 +84,9 @@
  "qatar/QNA": {
   "fails": 0,
   "freq_h": 12,
-  "last_attempt": "2026-10-14T03:58:40Z",
-  "last_new": "2026-10-14T03:58:40Z",
-  "last_success": "2026-10-14T03:58:40Z"
+  "last_attempt": "2026-10-14T16:45:10Z",
+  "last_new": "2026-10-14T16:45:10Z",
+  "last_success": "2026-10-14T16:45:10Z"
  },
  "qatar/The Peninsula": {
   "fails": 0,
@@ -112,9 +112,9 @@
  "regional/FT Middle East": {
   "fails": 0,
   "freq_h": 12,
-  "last_attempt": "2026-10-14T03:58:40Z",
-  "last_new": "2026-10-14T03:58:40Z",
-  "last_success": "2026-10-14T03:58:40Z"
+  "last_attempt": "2026-10-14T16:45:10Z",
+  "last_new": "2026-10-14T16:45:10Z",
+  "last_success": "2026-10-14T16:45:10Z"
  },
  "regional/MEED": {
   "fails": 0,

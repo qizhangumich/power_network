@@ -1,0 +1,5 @@
+# Andy Burnham Faces Scrutiny Over Deleted Man City Hospitality Dinners With Khaldoon Al Mubarak
+source: NewsCord
+url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbWVXVHpGQnR0M1dNY0l3NWxBMnRiVXVFZXlwdnBnRHI5Y0o0bHpneUxCUDdwMngtMnZieEtrSlgxOTdNVDlhUVpuOGpLcDdGcEU1X0pWbERUR1dJSWY1YWRPNFNUWXFmSHc0a1B2UjYycUFBWTlYblh3d0poeWxoUnNtdGl1dFlQRVdyZ09zZDJZNVhzWWtjXzNwRnBsNkZoczhtanlQeExzMjc0OEg0end0MjJkX2NEQjJjdGQtN3I0QW0tRnJOTzh1MFp2WHBKOGtiM0hsU0JRdWNqSmhHazYtbnVmVFR6Wnc?oc=5
+
+Andy Burnham Faces Scrutiny Over Deleted Man City Hospitality Dinners With Khaldoon Al Mubarak    NewsCord

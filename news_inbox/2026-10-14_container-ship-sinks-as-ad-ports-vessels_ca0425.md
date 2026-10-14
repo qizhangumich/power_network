@@ -1,0 +1,5 @@
+# Container ship sinks as AD Ports vessels come under attack from Iran
+source: TradeWinds News
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxQSmpNVWtuNUx3MEtZbFc1dHNubGRHVHJEM2JUV0tBSWhCZkxHTWl6Z1JicDE2aVlPTEstQlZJZzNqZjNudkpwQm5KaHlJYkt0YW9feGJZbkEtS0dueDRRTTRKUTdjYnZ2dHVfVFEzQkpoX3Rad2VxWEFIODlZZHVVY3lVR1RMMjJweldmYnhKcW9RSzIyT25rM3NPRzUtNTIzTG44LXNwb05WUGlTQ3dsaWFEUHFUeVE0eUJPZUhOWQ?oc=5
+
+Container ship sinks as AD Ports vessels come under attack from Iran    TradeWinds News

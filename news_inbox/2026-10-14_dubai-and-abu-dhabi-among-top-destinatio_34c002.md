@@ -1,0 +1,5 @@
+# Dubai and Abu Dhabi among top destinations for next-generation wealth, Savills says
+source: The National
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdHV6SC05U0pTMmM5QW95Q2hNc1dZSTlzRE82ZFlEN3Y4aWpUQ1lLZmhDWHZnVkpNTnhOVVNlTjBKMjJNczZTNFktR09PNHR4SXlvRHRFLWpHQzNKcGszQl9VckFVUnJoVEZsRUEwWDgyVmxNZGNsdk9HRGFvenotMERRWU5yUXdkNUU5a09Hb0tiUXVseHVVTTBpcVhCRkMzbTIzVmVGQ1hHWFJ0OW81X2l6MDBWNEdZTTlTUEJPalBSSDluemZublk3Rjd3S2xPWENqX3FNR2ZGNm8?oc=5
+
+Dubai and Abu Dhabi among top destinations for next-generation wealth, Savills says    The National
