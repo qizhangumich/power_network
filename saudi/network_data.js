@@ -86,7 +86,7 @@ const INSTITUTIONS = [
   {id:"lst_1210", n:"Basic Chemical Industries Co. (BCI)", s:"materials", t:2, p:50, short:"1210"},
   {id:"lst_1301", n:"Aslak Co.", s:"materials", t:2, p:50, short:"Aslak Co."},
   {id:"lst_1304", n:"Al Yamamah Steel Industries Co.", s:"materials", t:2, p:50, short:"1304"},
-  {id:"lst_1320", n:"Saudi Steel Pipe Co.", s:"materials", t:2, p:50, short:"Saudi Steel Pipe Co."},
+  {id:"lst_1320", n:"Saudi Steel Pipe Co.", s:"materials", t:2, p:56, short:"Saudi Steel Pipe Co."},
   {id:"lst_2001", n:"Chemanol (National Methanol Co.)", s:"materials", t:2, p:50, short:"2001"},
   {id:"lst_2090", n:"National Gas and Industrialization Co.", s:"materials", t:2, p:50, short:"2090"},
   {id:"lst_2150", n:"Zoujaj Industrial Co.", s:"materials", t:2, p:50, short:"2150"},
@@ -514,6 +514,7 @@ const INSTITUTIONS = [
   {id:"riyad_capital", n:"Riyad Capital", s:"finance", t:2, p:58, short:"Riyad Capital"},
   {id:"tabby", n:"Tabby", s:"finance", t:3, p:76, short:"Tabby"},
   {id:"hhc", n:"Health Holding Company", s:"health", t:1, p:72, short:"HHC"},
+  {id:"ia", n:"Insurance Authority", s:"finance", t:2, p:66, short:"IA"},
 ];
 
 const PEOPLE = [
@@ -2377,6 +2378,7 @@ const PEOPLE = [
   {id:"khaled_bin_hussein", n:"Khaled bin Hussein Bayari", t:2, p:52, s:"gov", roles:[
     ["gosi","Assistant Minister of Defense for Executive Affairs / Board Member","board","v"]]},
   {id:"abdulaziz_bin_hassan", n:"Abdulaziz bin Hassan Alboug", t:2, p:58, s:"gov", roles:[
+    ["ia","Chairman","board","v"],
     ["gosi","Governor of GOSI","executive","v"]]},
   {id:"abdullah_bin_abdulrahman", n:"Abdullah bin Abdulrahman Bin Zaraah", t:2, p:52, s:"gov", roles:[
     ["gosi","Assistant Minister for Macro-Fiscal Policies and International Relations / Board Member","board","v"]]},
@@ -2861,6 +2863,32 @@ const PEOPLE = [
     ["lst_4180","Independent Director","board","ns"]]},
   {id:"yasser_abdulhamid", n:"Yasser Abdulhamid", t:2, p:60, s:"consumer_disc", roles:[
     ["lst_4180","Chief Executive Officer","executive","ns"]]},
+  {id:"fahd_bin_abdulrahman", n:"Fahd bin Abdulrahman Al-Jalajel", t:2, p:62, s:"health", roles:[
+    ["hhc","Minister of Health and Chairman of the Board","board","v"]]},
+  {id:"nasser_bin_mohammed", n:"Nasser bin Mohammed Al-Haqbani", t:2, p:60, s:"health", roles:[
+    ["hhc","Chief Executive Officer","executive","v"]]},
+  {id:"mansour_bin_nasser", n:"Mansour bin Nasser Alhawasi", t:2, p:52, s:"health", roles:[
+    ["hhc","Board Member","board","v"]]},
+  {id:"abdulrahman_bin_mohammed", n:"Abdulrahman bin Mohammed Albarrak", t:2, p:52, s:"health", roles:[
+    ["hhc","Board Member","board","v"]]},
+  {id:"fahd_bin_ahmad", n:"Fahd bin Ahmad Abohimed", t:2, p:52, s:"health", roles:[
+    ["hhc","Board Member","board","v"]]},
+  {id:"ahmad_bin_mohammed", n:"Ahmad bin Mohammed Alamri", t:2, p:52, s:"health", roles:[
+    ["hhc","Board Member","board","v"]]},
+  {id:"talal_bin_abdulrahman", n:"Talal bin Abdulrahman Altwaijri", t:2, p:52, s:"health", roles:[
+    ["hhc","Board Member","board","v"]]},
+  {id:"muhannad_bin_ahmad", n:"Muhannad bin Ahmad Basoudan", t:2, p:52, s:"health", roles:[
+    ["hhc","Board Member","board","v"]]},
+  {id:"malik_bin_abdulaziz", n:"Malik bin Abdulaziz Almousa", t:2, p:52, s:"health", roles:[
+    ["hhc","Board Member","board","v"]]},
+  {id:"haitham_abdulrahman_altraif", n:"Haitham Abdulrahman Altraif", t:2, p:52, s:"health", roles:[
+    ["hhc","Board Member","board","v"]]},
+  {id:"youssef_hamad_alblihid", n:"Youssef Hamad AlBlihid", t:2, p:52, s:"finance", roles:[
+    ["ia","Board Member","board","v"]]},
+  {id:"saleh_nasser_alomair", n:"Saleh Nasser AlOmair", t:2, p:52, s:"finance", roles:[
+    ["ia","Board Member","board","v"]]},
+  {id:"abdullah_bin_ahmed_b_b", n:"Abdullah bin Ahmed Al-Tuwaijri", t:2, p:52, s:"finance", roles:[
+    ["ia","Board Member","board","ns"]]},
 ];
 
 const OWNERSHIP = [

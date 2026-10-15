@@ -1336,6 +1336,7 @@ const PEOPLE = [
   {id:"abdullah_bin_khalaf", n:"Abdullah bin Khalaf Hattab Al Kaabi", t:2, p:58, s:"gov", roles:[
     ["moi_q","Undersecretary of the Ministry of Interior","executive","v"]]},
   {id:"sheikh_saoud_bin", n:"Sheikh Saoud bin Abdulrahman bin Hassan bin Ali Al Thani", t:2, p:58, s:"gov", roles:[
+    ["barzan","Chairman of the Board","board","ns"],
     ["mod_q","Deputy Prime Minister and Minister of State for Defence Affairs","executive","v"]]},
   {id:"khalid_mohammed_laram", n:"Khalid Mohammed Laram", t:2, p:60, s:"materials", roles:[
     ["lst_qamc","Board Member","board","v"],
@@ -2018,6 +2019,8 @@ const PEOPLE = [
     ["georgetown_qatar","Acting Dean (effective 1 June 2026)","executive","v"]]},
   {id:"bassel_gamal", n:"Bassel Gamal", t:2, p:60, s:"finance", roles:[
     ["qib","Group Chief Executive Officer","executive","ns"]]},
+  {id:"abdulla_mohammed_al", n:"Abdulla Mohammed Al Mannai", t:2, p:58, s:"industry", roles:[
+    ["qcaa","Director of Meteorology Department","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

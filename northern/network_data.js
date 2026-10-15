@@ -657,6 +657,7 @@ const PEOPLE = [
     ["fujairah_culture_media","Chairman","executive","ns"],
     ["fujgov","Chairman of Fujairah Culture and Media Authority","executive","ns"]]},
   {id:"thumbay_moideen", n:"Thumbay Moideen", t:2, p:58, s:"health", roles:[
+    ["thumbay_univ_hosp","Founder President","executive","v"],
     ["thumbay","Founder President","executive","v"]]},
   {id:"ghassan_aboud", n:"Ghassan Aboud", t:2, p:62, s:"conglomerate", roles:[
     ["ghassan_aboud_grp","Founder and Chairman","executive","ns"]]},
@@ -724,6 +725,7 @@ const PEOPLE = [
   {id:"feroz_allana", n:"Feroz Allana", t:2, p:52, s:"consumer_stap", roles:[
     ["iffco","Supervisory Board Member","board","ns"]]},
   {id:"akbar_moideen_thumbay", n:"Akbar Moideen Thumbay", t:2, p:58, s:"health", roles:[
+    ["thumbay_univ_hosp","Vice President of Healthcare Division","executive","v"],
     ["thumbay","Vice President, Healthcare Division","executive","v"]]},
   {id:"akram_moideen_thumbay", n:"Akram Moideen Thumbay", t:2, p:58, s:"health", roles:[
     ["thumbay","Director Operations, Construction & Renovation Division; Thumbay Group Board Member","executive","v"]]},

@@ -1841,6 +1841,12 @@ const PEOPLE = [
     ["kout_food","Senior Director of Development","executive","ns"]]},
   {id:"tariq_suleiman_al", n:"Tariq Suleiman Al-Rumi", t:2, p:58, s:"energy", roles:[
     ["moo_kw","Minister of Oil","executive","v"]]},
+  {id:"faisal_al_hamdan", n:"Faisal Al-Hamdan", t:2, p:58, s:"education", roles:[
+    ["kisr","Director General","executive","v"]]},
+  {id:"yousef_khalid_al", n:"Yousef Khalid Al-Marzouq", t:2, p:58, s:"comm", roles:[
+    ["al_anba","Editor-in-Chief","executive","v"]]},
+  {id:"gaurav_oberoi", n:"Gaurav Oberoi", t:2, p:60, s:"consumer_stap", roles:[
+    ["mezzan","Deputy CEO - Industrial","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

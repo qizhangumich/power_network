@@ -183,7 +183,7 @@ const INSTITUTIONS = [
   {id:"lst_bos", n:"Bank of Sharjah PJSC", s:"finance", t:2, p:60, short:"Bank of Sharjah"},
   {id:"lst_uab", n:"United Arab Bank PJSC", s:"finance", t:2, p:50, short:"UAB"},
   {id:"lst_emobility", n:"Emirates Mobility Company PJSC", s:"industry", t:2, p:50, short:"EMOBILITY"},
-  {id:"lst_icap", n:"Investcorp Capital plc", s:"finance", t:2, p:50, short:"ICAP"},
+  {id:"lst_icap", n:"Investcorp Capital plc", s:"finance", t:2, p:58, short:"ICAP"},
   {id:"lst_phx", n:"Phoenix Group PLC", s:"tech", t:2, p:50, short:"Phoenix Group PLC"},
   {id:"lst_gih", n:"Gulf Investment House K.P.S.C.", s:"finance", t:2, p:50, short:"GIH"},
   {id:"lst_rakprop", n:"RAK Properties PJSC", s:"realestate", t:2, p:60, short:"RAK Properties"},
@@ -630,6 +630,7 @@ const PEOPLE = [
   {id:"fatema", n:"Fatema Al Nuaimi", t:2, p:74, s:"energy", roles:[
     ["adnocgas","CEO","executive","v"],
     ["borouge","Board Member, Borouge Group International Supervisory Board","board","v"],
+    ["ruwais_lng","CEO ADNOC Gas","executive","v"],
     ]},
   {id:"seiari", n:"Abdulrahman Al Seiari", t:2, p:60, s:"energy", roles:[
     ["adnocdrill","CEO (until Jun 2025)","executive","v","former:until Jun 2025"],
@@ -3552,6 +3553,7 @@ const PEOPLE = [
     ]},
   {id:"tariq_bin_hendi", n:"Tariq bin Hendi", t:2, p:52, s:"education", roles:[
     ["uaeu","Member, Board of Trustees","board","v"],
+    ["astra_tech","Managing Director and Board Member","executive","ns"],
     ]},
   {id:"riyadh_abdul_latif", n:"Riyadh Abdul Latif Al Muhaidib", t:2, p:52, s:"education", roles:[
     ["uaeu","Member, Board of Trustees","board","v"],
@@ -3919,6 +3921,15 @@ const PEOPLE = [
     ]},
   {id:"tariq_humaid_al", n:"Tariq Humaid Al Tayer", t:2, p:52, s:"gov", roles:[
     ["federal_national_council","First Deputy Speaker","board","ns"],
+    ]},
+  {id:"mohamed_yahya_alseiari", n:"Mohamed Yahya Alseiari", t:2, p:58, s:"health", roles:[
+    ["skmc_abu_dhabi","Chief Medical Officer","executive","v"],
+    ]},
+  {id:"obaid_khaleefa_jaber", n:"Obaid Khaleefa Jaber Al Murri", t:2, p:62, s:"conglomerate", roles:[
+    ["aljaber","Founder & Chairman","board","ns"],
+    ]},
+  {id:"sameer_al_maskari", n:"Sameer Al Maskari", t:2, p:58, s:"tech", roles:[
+    ["astra_tech","Chief Human Resources Officer","executive","ns"],
     ]},
 ];
 

@@ -739,6 +739,7 @@ const PEOPLE = [
   {id:"ali_sajwani", n:"Ali Sajwani", t:2, p:60, s:"realestate", roles:[
     ["damac","Managing Director","executive","v"]]},
   {id:"amira_sajwani", n:"Amira Sajwani", t:2, p:60, s:"realestate", roles:[
+    ["prypco","Founder & CEO","executive","v"],
     ["damac","Managing Director","executive","v"]]},
   {id:"abbas_sajwani", n:"Abbas Sajwani", t:2, p:52, s:"realestate", roles:[
     ["damac","Board Member","board","v"]]},
@@ -2195,6 +2196,38 @@ const PEOPLE = [
     ["zulekha_healthcare","Co-Chairperson","board","ns"]]},
   {id:"taher_shams", n:"Taher Shams", t:2, p:62, s:"health", roles:[
     ["zulekha_healthcare","Managing Director / Co-Chairperson","executive","ns"]]},
+  {id:"murat_cagri_sozer", n:"Murat Cagri Sozer", t:2, p:60, s:"finance", roles:[
+    ["network_intl","Group Chief Executive Officer","executive","v"]]},
+  {id:"ashish_jain", n:"Ashish Jain", t:2, p:58, s:"finance", roles:[
+    ["network_intl","Group Chief Financial Officer","executive","v"]]},
+  {id:"jay_razzaq", n:"Jay Razzaq", t:2, p:58, s:"finance", roles:[
+    ["network_intl","Group Chief Risk Officer and Group Company Secretary","executive","v"]]},
+  {id:"gorkem_koseoglu", n:"Gorkem Koseoglu", t:2, p:58, s:"finance", roles:[
+    ["network_intl","Group Chief Customer and AI Officer","executive","v"]]},
+  {id:"nelly_boustany", n:"Nelly Boustany", t:2, p:58, s:"finance", roles:[
+    ["network_intl","Group Chief Talent & Culture Officer","executive","v"]]},
+  {id:"pinar_alpay", n:"Pinar Alpay", t:2, p:58, s:"finance", roles:[
+    ["network_intl","Group Chief Product and Marketing Officer","executive","v"]]},
+  {id:"soumia_majumdar_mears", n:"Soumia Majumdar-Mears", t:2, p:58, s:"finance", roles:[
+    ["network_intl","Group Chief Internal Audit Officer","executive","v"]]},
+  {id:"sujit_unni", n:"Sujit Unni", t:2, p:58, s:"finance", roles:[
+    ["network_intl","Group Chief Technology Officer","executive","v"]]},
+  {id:"abdulaziz_aldahmash", n:"Abdulaziz Aldahmash", t:2, p:60, s:"finance", roles:[
+    ["network_intl","Managing Director & Country Head KSA","executive","v"]]},
+  {id:"mohammed_al_rumaih", n:"Mohammed Al-Rumaih", t:2, p:52, s:"finance", roles:[
+    ["network_intl","Independent Board Member","board","v"]]},
+  {id:"essa_ibrahim", n:"Essa Ibrahim", t:2, p:58, s:"tech", roles:[
+    ["prypco","President & Co-Founder","executive","v"]]},
+  {id:"damien_drap", n:"Damien Drap", t:2, p:58, s:"tech", roles:[
+    ["prypco","Chief Operating Officer","executive","v"]]},
+  {id:"ana_monteiro", n:"Ana Monteiro", t:2, p:58, s:"tech", roles:[
+    ["prypco","Chief Revenue Officer","executive","v"]]},
+  {id:"haresh_bajaj", n:"Haresh Bajaj", t:2, p:58, s:"tech", roles:[
+    ["prypco","Chief Product Officer","executive","v"]]},
+  {id:"denis_agiev", n:"Denis Agiev", t:2, p:58, s:"tech", roles:[
+    ["prypco","Chief Technology Officer","executive","v"]]},
+  {id:"saad_khan", n:"Saad Khan", t:2, p:58, s:"tech", roles:[
+    ["prypco","Chief Compliance Officer & Money Laundering Reporting Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
