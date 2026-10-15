@@ -1,0 +1,5 @@
+# Adnoc says decade-old contingency plan kept oil flowing throughout Iran war
+source: The National
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMlBGQ0gxUnRtcFQ1OE93eU5nc0VlVzY5ZUtjTWxOSjQwNXlnQ0VJX3F3cDdVRHQ5STlISjRpUGphaHRjSXRERnRsdFROdm1IdHhzYk1RSkRjZzlyM3UwOVRSZHlEYnRTWk5uT3QxSTFwVXRZc2lpOXk4MDFGMmhpekdpOEV6UnIyMThtWHBmV1NmSlFyNHJWNFZyc2RkbW90ak5vUlBGYzNXR2ZjZFg4Rkc3ZkNia3FtQ1E3RnVvRE5tOWVsRkpsdThKMlh5akdh?oc=5
+
+Adnoc says decade-old contingency plan kept oil flowing throughout Iran war    The National

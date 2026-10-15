@@ -1,0 +1,5 @@
+# India becomes increasingly vital to Abu Dhabi’s Mubadala amid global fragmentation
+source: Semafor
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVmdIOGFPbFNjQnNSeG10YTkwVnRwWVRTUW5ZMnIwdm9NVHkxUVFrVmJOdzE4ODNYUVE1UXJqMEd2QUFweV9NM3MtMHJwMjN0WHkzeEgzYkJ2dGQ3bGp0aGROeldrX3pTRWJoeTFpRXNsdjE1aVBITDhmSmt4UHZ2aEFocHRhMXpVTXJOcXRTMzUzbmtMYldMNk11M2lXdFhNdHhGckN0QWNXMFFLaGdPQ1pRTzUzb1M0RmhFX2c0N1ZuUQ?oc=5
+
+India becomes increasingly vital to Abu Dhabi’s Mubadala amid global fragmentation    Semafor

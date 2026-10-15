@@ -1,0 +1,5 @@
+# Reserves bring reliability and trust, says ADIPEC chair
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM3hIcWFYLUVYelJ1Qm9SclZBMm5VbkhVWFNULVVJTXZObWJSclZ2YVlLbnlDWjE0ZGdVMlU2QlJFR3FhYVk5aVQta0JVWERCd2lUWE5yUEJ3akkwTVZleFlFYm9aRF9vOU55VDRwRHBsTkVFdXk0SkZidGZYd0FKWWVON19lN19RR0RlZ3ZuSjZqczRkUmxicVRvQnhPSWRfYmZDem5MNF9nUnBrTlBmYXlmeTJISWJa?oc=5
+
+Reserves bring reliability and trust, says ADIPEC chair    Gulf News

@@ -1,0 +1,5 @@
+# Abu Dhabi.. Edge and the Integrated Transport Centre promote smart and sustainable mobility
+source: صوت الإمارات
+url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPYTF1ZU9CckJOa3BNT3dHSkwwN3M4V2xHellCY0s4VnNjeWNMRzdYeHd1aXlkUHNnZHM0LTVDX0ZYcWlJVW9YdjZubW9VbWJtejEtWk5DSWFIdE41WWxHbXIyQ2pUTTlCWGtjWXhwekY4dGVqaDBYU0hnZmRTYkdLUGozRXdWcXJGUERRUnNaNWZkSmJPTV9fTENTd2lZZEVkRjBfWlEySC1yODhvS2dXN3pmRjYxR3lsZGpzN1BaM2QxYkljS25heTdxendIeWZCRWpMdmk4OC1SRjg5dDJZSzEzb2pHOENiTG1Pek84Qk9teHpm?oc=5
+
+Abu Dhabi.. Edge and the Integrated Transport Centre promote smart and sustainable mobility    صوت الإمارات
