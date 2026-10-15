@@ -1,0 +1,5 @@
+# Flying from UAE today? Check these Saudi, Tel Aviv flight cancellations first
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVVRrQTdna0R2ajQzQUZtYmlRWTVoZV9DcjFHQ2NNeFdOX3QxaDNCVVM1Ymd6b0lkMEpmWkg0NGl6RzNJMUdNUVY2NDRueUw3cWhSS01WV0JjbkpBTjNIZlhROHZYRmFpTzZEVU8wYlp6OEF1RkljSG9NTEhmTERWT0JaMlE3Y3EyOENPcXF6MGI4SlR5V3pYc1AwX0IzMm5yT0RzYnBHS0lyal9oMWhfQjRuUWUzQ19ndWJsa1IybnNENXgwZVJkTHBZRGRwQU5ka1BZWkJn?oc=5
+
+Flying from UAE today? Check these Saudi, Tel Aviv flight cancellations first    Gulf News

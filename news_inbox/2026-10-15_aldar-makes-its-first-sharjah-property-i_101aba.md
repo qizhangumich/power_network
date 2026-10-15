@@ -1,0 +1,5 @@
+# Aldar makes its first Sharjah property investment with Dh1.1b Aljada deal
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLWxwT3AybGVxNWZka1FIUnRWS3ZhdEY5dzVXeVF1bmg1blNZeFVMVW44TVEzQUN3aUxVYW51ZUZJUlQ0dnl2bDFWZmtHOURkTktRdWs3Rm5SdGFDa1hhZG1UUUxPUWNMZnhYVkxxSmZPSFl3QkxTWWlwTkQxT1BXWEtvWTZGVFFoazBqUEVNT0ZqSVlZdVh0R1lTMjhyM01zaEVjcEE2VGhFY1JlNHFUM25MU1hhNkpkWkJtdVJKa3BzelhRT19SYQ?oc=5
+
+Aldar makes its first Sharjah property investment with Dh1.1b Aljada deal    Gulf News

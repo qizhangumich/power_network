@@ -1,0 +1,5 @@
+# Saudi flight chaos deepens: Which UAE routes are cancelled?
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMnNOcUtjWkRzRUdFQ3N4NUx5aE51bncyUW5FZ3dFUTduM3FEeEtjdzltQlhJNjNpREFKS3NjaGJJTE9LdnBKQWhMNUt0czN5dF8weHFqMnhSODdJQkoxWDRHclZ5dTQ1MDE0Yk1oMnFNM3J1bnZuVWJjM2stazRFSlhXRDVoS1RnSU41bGZfeW5PNEdqU2JyZ1FUYTZBWHhUcXNXSUxaZmJhZy1EZkUyX0VMMVZ5RDhDV1l5TmpQQ3V6RTBYV0o0R0IwVkNZNkpIWnc?oc=5
+
+Saudi flight chaos deepens: Which UAE routes are cancelled?    Gulf News

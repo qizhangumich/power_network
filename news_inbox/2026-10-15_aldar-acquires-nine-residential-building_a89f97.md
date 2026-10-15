@@ -1,0 +1,5 @@
+# Aldar acquires nine residential buildings in Sharjah for Dhs1.1 billion
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxQTkxhT1lnREpEeUFQeGVuYy1pTlJnQjVGYXhHVmdGX1o1NHZsU2pvbVhZYWhQdUxYWlhua0dTLWZ0N25VUDYtUERkenU4clo5NjBYVjk1dnQ0eFZjUjB2OHdzNjZLcEUtdEVBTDdDbVBtRmw2YnhwWTZEVmthdFJIcnR0UVpHTlBKSXRNV3FGNlo3MVJNOHFqSnJkWTdIVjNMVUlpRVV2c3RJX2RyNEt1Z1hwd1pyUQ?oc=5
+
+Aldar acquires nine residential buildings in Sharjah for Dhs1.1 billion    Gulf Today

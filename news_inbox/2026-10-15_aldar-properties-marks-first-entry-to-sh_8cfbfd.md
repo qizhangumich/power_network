@@ -1,0 +1,5 @@
+# Aldar Properties Marks First Entry To Sharjah With AED 1.1 Billion Acquistion
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxPN2VqSGxEeXMxbW1KZ0dib3FuWHRTVmVfSVJHWTdLX2daUmNwODk5S0VOMzlzbXZ2RGMtYVFxMnF4bkVaZW9ybTE3Z3B0ZDh3dkJGNU5VOWRvWUR1MFFOUU5vdFpISFo1SjBNSTQ5YlF1dDJIaEV1WVVPenFpNHZkZGFzbnBZNXZFTUE2STdRRmU3Q29NQnRvNFU2c1dfSWhWR0JrMEJGbW9jZ0FBT1RGUW5pNlRuekktY1dWWk93TTl5ME5GM1o1Q1AxamE4eHcyclpRTHJDSmhoR0dRXzlQSQ?oc=5
+
+Aldar Properties Marks First Entry To Sharjah With AED 1.1 Billion Acquistion    TradingView

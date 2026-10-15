@@ -1,0 +1,5 @@
+# Clear Channel Outdoor receives CFIUS approval for Mubadala deal By Investing.com
+source: Investing.com UK
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeHQ5NVhqWW42NjNGdmd2SFhCMV9XdHp3bkhzY3lSdUpqTkcwLUluVHFkemxUZ2p5ZzR0bDA0X0l3NU5DME1QMzZXUFhjc3pSSGVITElaUGpENVVvQ2VVak9ZZ2NpSE1mME1QYlZVQzVZeUx0aGF0dEtGeGdUX1F0SkY3WVFUX2ZaWkpVVW9BNUVQZVFnb3lLbTZTTHFwTnZSa3dzSEFoNVg5a3lUc3QtM3JuUFVvcE1TZVh2M2pfbEVvdw?oc=5
+
+Clear Channel Outdoor receives CFIUS approval for Mubadala deal By Investing.com    Investing.com UK

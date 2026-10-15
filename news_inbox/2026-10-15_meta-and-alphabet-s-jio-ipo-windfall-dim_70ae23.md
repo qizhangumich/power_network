@@ -1,0 +1,5 @@
+# Meta and Alphabet’s Jio IPO windfall dimmed by persistent rupee fall
+source: TradingView
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOYVVHSEhnRnV1cmdCa0NqdWxNT0xBODVRV2xKSFR4YnpvR1REM2txMGl1d1JZa3NINXJXVE5aVDRLS2pPSUhLblhLNWdkSGd3TkhteHJtUWZWV3VYTTVUbFd6N3dXbnlCWW93NF9PVFZkbVdWdFN2emt3MEdYOWpNdFA1VHZfVDlWRmZlUkNmbEFDU0t3ajMwNktJa2Z1aWRYTlhrZElWd0ZmV3EzZlRGYk11MkdtcDVIRm9QQUpsSEpBUk13NnFtcERDVQ?oc=5
+
+Meta and Alphabet’s Jio IPO windfall dimmed by persistent rupee fall    TradingView

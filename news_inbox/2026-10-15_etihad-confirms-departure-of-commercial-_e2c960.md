@@ -1,0 +1,5 @@
+# Etihad confirms departure of commercial chief Arik De
+source: Gulf Business
+url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOdVloR3RxUktaQnlpbElPc3JteGxpa1M0LUl6LXgyUk9tNl9odkxsSGlkUlNrYUtWbkFLZS1TNXN5ZG5BaGNLeFRHbVF1N1NQVnIta0Qwd0ZMdzJKTmhnaW5xQVJUNk5iTWVrc1NCWGNoZmliUFVmaW11YldyZk9UbTFocngtenhjNmE1X1ZrMzN3b3AteUJSTldBSWU?oc=5
+
+Etihad confirms departure of commercial chief Arik De    Gulf Business

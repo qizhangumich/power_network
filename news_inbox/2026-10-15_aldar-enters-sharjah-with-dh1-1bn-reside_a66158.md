@@ -1,0 +1,5 @@
+# Aldar enters Sharjah with Dh1.1bn residential acquisition
+source: The National
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxOQmVaZ21MRWJzcE1jdndxWGJRVXU3cUt6d2UtSzFTR1A0TGFkMENoTkRwU3pFUkY3TnJHTm9udk0zemlsRjluT0tUV2RheWpKb0pHWjN2MWxxeFdDNFRrWGYzXzA4b0pFbEdjZjZhby1heC1rc3lwV1pwRWRoanVxd2tEWmpObGF5TklyLUxreHhZREpOVFZnUl9WVUJtU1pYanRJXzRTdTZ2VHl3WVptRXhCS0tuZnc1a0E?oc=5
+
+Aldar enters Sharjah with Dh1.1bn residential acquisition    The National

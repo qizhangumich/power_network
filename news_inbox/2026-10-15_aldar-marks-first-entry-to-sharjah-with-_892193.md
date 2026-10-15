@@ -1,0 +1,5 @@
+# Aldar marks first entry to Sharjah with AED 1.1bln acquisition of nine residential buildings from Arada in Aljada
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVXo4MjI0Q1pJYU0xNjVVSVNCZDcwcC1wVFZZMnhLb3g0cDFRUVhMc3FwLUhzc2V3dVhzQnRuamFQclNKNmJNRnVsaHlGcEFkX0h6TmhCUmZadDluanhBLWFVQmtlUElSRmNCaHpwaTk5NHRvOVhTcWp6dGo2VDkwWXhqYWdMYmFHdWRlaVFULTNqRUdqcUN5NndCc0w0eXczTVBQejhnSEJrWGdsVzFTQ254N0ZWYmpnLVc1UWYyLXJqSU81YzFJaUw0MVF4eGVia0Iwb0lUSzlWaWVZOUFvTDh5S2xaZmpmeEhnUEZLM2Nhdw?oc=5
+
+Aldar marks first entry to Sharjah with AED 1.1bln acquisition of nine residential buildings from Arada in Aljada    Zawya
