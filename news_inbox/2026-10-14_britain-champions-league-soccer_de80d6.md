@@ -1,0 +1,5 @@
+# Britain Champions League Soccer
+source: Idaho State Journal
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX0hjMkh0YV9ta0Z3TkZOYnVlZllMckpEcUVJX3J2TDgxQUVVSXpDTnFQV2dMMEYxWjZueEpCaVFIWFNoaDQ1NXh0UUtlNWF5QkExMG91SDFpbXhRWHBCTkVPWFVWclJCeEtKMXdFalBEUXdiSWt3cy11RDRLY0JhSTNSa3NiRGluLUdSQ3RldmlfRG1kdkdNSnZmTjI3NlVVa0pBQjNscGVmTDFndkc3RjkzRGFSUlJDVVYwdndOcVZUQmlGT3N5aA?oc=5
+
+Britain Champions League Soccer    Idaho State Journal

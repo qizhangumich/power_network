@@ -1,0 +1,5 @@
+# UAE-Saudi travel: Flying today or tomorrow? Check the latest cancellations before flying
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYnRYNWdRZlJzMGZ0cWZFeG5maWFsN1B0d1FBU3MxTTg1dWtsVkdubWNjQ0ZBUTBLMnk1aktYMFFmb09DVzVCVlJMTmo1YVpaVmJISVVUSjJEeG9ScjhCTlZTX0tiQVhOVzM0aWpZNHJ5bEctX2xXM1k1VDdFd1huWTlsOUN2bDJwYmZ0RDFvZ21TaUNZWk83UERNLVVKSFFvdWUyX2xWUkI3YW5HcVpoV3cyRVhNcHRGZG1UM2tTZGZlUUVMbUI5VlZUaFFwTzVVQWpBQUtwR2Z6V2w0ZlNTN0N2bVRoRjg4T0xkQjQ3UHpHUkE?oc=5
+
+UAE-Saudi travel: Flying today or tomorrow? Check the latest cancellations before flying    Gulf News
