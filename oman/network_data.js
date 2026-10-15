@@ -224,6 +224,7 @@ const INSTITUTIONS = [
   {id:"oman_msc", n:"Maritime Security Centre", s:"gov", t:1, p:55, short:"Oman MSC"},
   {id:"jindal_shadeed", n:"Jindal Shadeed Iron & Steel LLC", s:"materials", t:3, p:54, short:"Jindal Shadeed"},
   {id:"thawani", n:"Thawani Technologies", s:"finance", t:3, p:56, short:"Thawani"},
+  {id:"cdaa", n:"Civil Defence and Ambulance Authority", s:"gov", t:1, p:64, short:"CDAA"},
 ];
 
 const PEOPLE = [
@@ -1511,6 +1512,8 @@ const PEOPLE = [
     ["sohar_university","Deputy Vice Chancellor (Academic Affairs)","executive","v"]]},
   {id:"abdulaziz_khalifa_al", n:"Abdulaziz Khalifa Al Saadi", t:2, p:60, s:"finance", roles:[
     ["ubhar_capital","Chief Executive Officer","executive","ns"]]},
+  {id:"sulaiman_bin_ali", n:"Sulaiman bin Ali bin Ahmed Al-Husseini", t:2, p:52, s:"gov", roles:[
+    ["cdaa","President","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1726,4 +1729,5 @@ const AKA = {
   cbfs_oman:["CBFS"],
   oman_msc:["MSC"],
   jindal_shadeed:["Jindal Steel Oman","JSIS"],
+  cdaa:["Public Authority for Civil Defence and Ambulance"],
 };

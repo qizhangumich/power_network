@@ -1,9 +1,4 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Civil Defence and Ambulance Authority,3,oman,pending,2026-10-14,2026-10-14,HM inaugurates new identity of Civil Defence and Ambulance Authority
-Clear Channel Outdoor Holdings,2,abudhabi,pending,2026-10-07,2026-10-14,Clear Channel Outdoor Holdings Clears Last Regulatory Hurdle For Mubadala Capital Buyout
-Tahnoun International Airport,2,abudhabi,pending,2026-10-12,2026-10-14,Al Ain International Airport renamed to Tahnoun International Airport
-Bank of China,2,qatar,pending,2026-10-14,2026-10-15,QCB Governor participates in joint meeting of GCC Central Bank Governors with the People’s Bank of China
-Hilal Technology,2,bahrain,pending,2026-10-14,2026-10-15,Hilal Technology explores innovation at Dell summit
 Riyadh Airport,8,saudi,rejected,2026-10-09,2026-10-14,Etihad Extends UAE-Saudi Flight Cancellations Until October 13 After Riyadh Airport Disruptions
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
 Abu Dhabi Investment,6,abudhabi,rejected,2026-09-24,2026-10-11,"Allied Blenders shares surge over 5% after SBI Mutual Fund, Abu Dhabi Investment Authority buy stake"
@@ -25,6 +20,7 @@ UN Human Rights Council,3,kuwait,rejected,2026-10-01,2026-10-14,Qatar reaffirms 
 Al Yamamah Steel,3,saudi,rejected,2026-10-05,2026-10-13,Al Yamamah Steel signs two steel tower contracts worth SAR 254.3M
 Industry Ministry,3,saudi,rejected,2026-09-28,2026-10-14,Industry Ministry issues 364 licenses worth SAR 4.5B in June
 IMF-World Bank Group,3,kuwait,rejected,2026-10-10,2026-10-11,"Middle East war, high debt levels to dominate IMF-World Bank meetings"
+Civil Defence and Ambulance Authority,3,oman,added,2026-10-14,2026-10-14,HM inaugurates new identity of Civil Defence and Ambulance Authority
 Hanwha Systems,3,abudhabi,rejected,2026-09-17,2026-09-17,Hanwha Systems to work with UAE’s Edge Group on integrated air defense network
 QNB Capital,3,qatar,added,2026-09-29,2026-09-30,QNB Capital acts as global coordinator on Qatar’s $3bn dual-tranche bond issuance
 Adani Airport Holdings,3,abudhabi,rejected,2026-09-10,2026-09-10,IHC backs Adani Airport Holdings’ $1bn fundraising round
@@ -37,10 +33,12 @@ Masdar City,3,abudhabi,added,2026-08-26,2026-09-03,"Masdar City Launches Emirati
 Dubai Healthcare City,3,dubai,added,2026-09-10,2026-09-11,"Dubai Healthcare City begins work on Dh3b Creek GardensMore than 1,400 homes planned in a 127,000-square-metre community overlooking Dubai C"
 SNB Capital,3,saudi,added,2026-09-03,2026-09-05,SNB Capital North America Index Fund
 SriLankan Airlines,2,abudhabi,rejected,2026-10-03,2026-10-08,SriLankan Airlines Conducts A330 Line Training for Six Etihad Examiner Pilots
-Noatum Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
+Clear Channel Outdoor Holdings,2,abudhabi,rejected,2026-10-07,2026-10-14,Clear Channel Outdoor Holdings Clears Last Regulatory Hurdle For Mubadala Capital Buyout
 Global Fairs & Events Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
+Noatum Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
 Brixmor Property Group,2,abudhabi,rejected,2026-09-28,2026-09-29,"Brixmor Property Group, Everview Partners Acquire Slate Grocery REIT for $2.34B"
 Liveability and Investment,2,abudhabi,rejected,2026-09-30,2026-10-01,Khaled bin Mohamed bin Zayed attends Liveability and Investment Exhibition (LIVEX 2026)
+Tahnoun International Airport,2,abudhabi,rejected,2026-10-12,2026-10-14,Al Ain International Airport renamed to Tahnoun International Airport
 Palestinian Authority,2,,rejected,2026-09-27,2026-10-11,Israel's Smotrich calls for war in West Bank and dismantling of Palestinian Authority
 Bank of America,2,,rejected,2026-10-13,2026-10-14,US hits Bank of America with $1.2 billion fine1h ago1m read
 IMF and World Bank,2,,rejected,2026-10-11,2026-10-12,Hawkish sentiment returns to IMF and World Bank meetings
@@ -53,6 +51,7 @@ Leadership Development,2,oman,rejected,2026-09-29,2026-09-30,RAM launches Leader
 Municipal Council,2,oman,rejected,2026-09-30,2026-09-30,Municipal Council elections media committee holds meeting
 Port City,2,qatar,rejected,2026-09-28,2026-09-29,"Qatar Chamber briefed on investment opportunities in Port City Colombo, Sri Lanka"
 Indian Finance,2,qatar,rejected,2026-09-29,2026-09-30,Minister of State for Foreign Trade Affairs Meets Indian Finance and Corporate Affairs Minister
+Bank of China,2,qatar,rejected,2026-10-14,2026-10-15,QCB Governor participates in joint meeting of GCC Central Bank Governors with the People’s Bank of China
 Al-Attiyah International Energy,2,qatar,rejected,2026-10-05,2026-10-05,Al-Attiyah International Energy Awards to fete emerging energy leaders
 Meteorology Department,2,qatar,rejected,2026-09-30,2026-10-13,Strong winds to affect parts of Qatar: Meteorology Department
 Undersecretary of Ministry,2,qatar,rejected,2026-10-05,2026-10-06,Undersecretary of Ministry of Justice Meets Arab League Secretary-General
@@ -64,6 +63,7 @@ Euromoney Foreign Exchange,2,qatar,rejected,2026-10-06,2026-10-07,QNB named Qata
 Go Energy,2,saudi,rejected,2026-10-13,2026-10-13,SARCO says MoU with UAE’s Go Energy expires without agreement
 Avalon Pharma,2,saudi,rejected,2026-10-07,2026-10-13,Avalon Pharma signs MoU with Aurisco Pharma on oligonucleotides
 Saudi Steel,2,saudi,rejected,2026-10-13,2026-10-14,Saudi Steel Pipe wins SAR 177M contract from Aramco
+Hilal Technology,2,bahrain,rejected,2026-10-14,2026-10-15,Hilal Technology explores innovation at Dell summit
 Benefit Trade Finance,2,bahrain,rejected,2026-10-11,2026-10-11,NBB signs on as anchor partner of Benefit Trade Finance Registry
 Noor Energy,2,bahrain,added,2026-09-28,2026-09-28,DEWA completes $2.7bn refinancing of Noor Energy 1
 Siemens Energy,2,saudi,rejected,2026-10-02,2026-10-05,Siemens Energy’s supervisory and executive boards meet at Dammam Hub
