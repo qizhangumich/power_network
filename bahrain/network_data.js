@@ -501,6 +501,7 @@ const PEOPLE = [
   {id:"nadeen_al_shirawi", n:"Nadeen Al Shirawi", t:2, p:58, s:"finance", roles:[
     ["lst_bbk","Group Chief Compliance Officer and MLRO","executive","v"]]},
   {id:"ebrahim_mashal", n:"Ebrahim Mashal", t:2, p:58, s:"finance", roles:[
+    ["sico_bank","Board Member (Non-Executive Director)","board","v"],
     ["lst_bbk","Group Chief Risk Officer","executive","v"]]},
   {id:"khaled_al_naser", n:"Khaled Al Naser", t:2, p:58, s:"finance", roles:[
     ["lst_bbk","Group Chief Internal Audit","executive","v"]]},
@@ -874,6 +875,7 @@ const PEOPLE = [
   {id:"aqeel_mohammed_ghaith", n:"Aqeel Mohammed Ghaith", t:2, p:58, s:"finance", roles:[
     ["lst_bbk","Chief Private Banking Officer","executive","v"]]},
   {id:"najla_mohammed_alshirawi", n:"Najla Mohammed Alshirawi", t:2, p:62, s:"finance", roles:[
+    ["sico_wealth","Chairperson, SICO Wealth","board","ns"],
     ["sico_bank","Group Chief Executive Officer","executive","v"],
     ["lst_bcfc","Chairperson","board","v"]]},
   {id:"yaser_abduljalil_alsharifi", n:"Yaser Abduljalil AlSharifi", t:2, p:62, s:"finance", roles:[
@@ -1006,6 +1008,7 @@ const PEOPLE = [
     ["lst_bisb","Board Member","board","v"],
     ["nbb","Group Chief Risk Officer","executive","v"]]},
   {id:"husain_almohri", n:"Husain Almohri", t:2, p:60, s:"finance", roles:[
+    ["sico_bank","Board Member (Executive Director)","board","v"],
     ["lst_bisb","Board Member","board","v"],
     ["nbb","Group Chief Executive - Markets & Clients solutions","executive","v"]]},
   {id:"shaikh_abdullatif_mahmood", n:"Shaikh Abdullatif Mahmood Al-Mahmood", t:2, p:62, s:"finance", roles:[
@@ -1820,6 +1823,7 @@ const PEOPLE = [
   {id:"ghazi_abdulla_nass", n:"Ghazi Abdulla Nass", t:2, p:52, s:"industry", roles:[
     ["lst_nass","Director","board","v"]]},
   {id:"adel_abdulla_nass", n:"Adel Abdulla Nass", t:2, p:52, s:"industry", roles:[
+    ["asu_bahrain","Board of Trustees Member","board","v"],
     ["lst_nass","Director","board","v"]]},
   {id:"ahmed_abdulla_nass", n:"Ahmed Abdulla Nass", t:2, p:52, s:"industry", roles:[
     ["lst_nass","Director","board","v"]]},
@@ -3068,6 +3072,7 @@ const PEOPLE = [
   {id:"jameel_al_ghanah", n:"Jameel Al Ghanah", t:2, p:52, s:"gov", roles:[
     ["bcci","Board Member","board","ns"]]},
   {id:"waheeb_ahmed_al", n:"Waheeb Ahmed Al Khaja", t:2, p:52, s:"gov", roles:[
+    ["asu_bahrain","Chairman, Board of Trustees","board","v"],
     ["bcci","Board Member","board","ns"]]},
   {id:"mohamed_abduljabbar_al", n:"Mohamed Abduljabbar Al Kooheji", t:2, p:52, s:"gov", roles:[
     ["bcci","Board Member","board","ns"]]},
@@ -3388,6 +3393,22 @@ const PEOPLE = [
     ["bfb","Board Member","board","v"]]},
   {id:"areije_al_shakar", n:"Areije Al Shakar", t:2, p:60, s:"tech", roles:[
     ["beventures","Chief Executive Officer","executive","v"]]},
+  {id:"khalid_al_jassim", n:"Khalid Al-Jassim", t:2, p:52, s:"finance", roles:[
+    ["sico_bank","Board Member (Independent Director)","board","v"]]},
+  {id:"sh_fahad_al", n:"Sh. Fahad Al Khalifa", t:2, p:52, s:"finance", roles:[
+    ["sico_bank","Board Member (Independent Director)","board","v"]]},
+  {id:"sh_waleed_al", n:"Sh. Waleed Al Hashar", t:2, p:52, s:"finance", roles:[
+    ["sico_bank","Board Member (Executive Director)","board","v"]]},
+  {id:"ali_marshad", n:"Ali Marshad", t:2, p:60, s:"finance", roles:[
+    ["sico_bank","Group Deputy Chief Executive Officer (Buyside Business)","executive","v"]]},
+  {id:"maryam_almohri", n:"Maryam AlMohri", t:2, p:58, s:"finance", roles:[
+    ["sico_bank","Acting Chief Risk Officer","executive","v"]]},
+  {id:"fatima_mohamed_yousif", n:"Fatima Mohamed Yousif Al-Balooshi", t:2, p:62, s:"education", roles:[
+    ["asu_bahrain","Vice Chairman, Board of Trustees","board","v"]]},
+  {id:"fayez_hashim_al", n:"Fayez Hashim Al-Sadah", t:2, p:52, s:"education", roles:[
+    ["asu_bahrain","Board of Trustees Member","board","v"]]},
+  {id:"hatem_masri", n:"Hatem Masri", t:2, p:58, s:"education", roles:[
+    ["asu_bahrain","President","executive","v"]]},
 ];
 
 const OWNERSHIP = [

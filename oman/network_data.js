@@ -1072,7 +1072,7 @@ const PEOPLE = [
   {id:"madiha_bint_ahmed", n:"Madiha bint Ahmed Al Shibaniya", t:2, p:58, s:"education", roles:[
     ["moe","Minister of Education","executive","ns"]]},
   {id:"khamis_bin_saif", n:"Khamis bin Saif Al Jabri", t:2, p:62, s:"gov", roles:[
-    ["ministry_of_economy","Minister of Economy","executive","ns"],
+    ["ministry_of_economy","Minister of Economy","executive","v"],
     ["fsa_oman","Chairman of the Board of Directors (Minister of Economy)","board","ns"]]},
   {id:"abdullah_bin_salem_b", n:"Abdullah bin Salem Al Salmi", t:2, p:58, s:"gov", roles:[
     ["fsa_oman","Executive President","executive","v"]]},
@@ -1093,6 +1093,7 @@ const PEOPLE = [
   {id:"said_hamdoon_al", n:"Said Hamdoon Al Harthy", t:2, p:58, s:"tech", roles:[
     ["mtcit_om","Undersecretary for Ports and Maritime Affairs","executive","ns"]]},
   {id:"nasser_bin_rashid", n:"Nasser bin Rashid bin Abdullah Al-Maawali", t:2, p:62, s:"gov", roles:[
+    ["ministry_of_economy","Undersecretary of the Ministry of Economy","executive","v"],
     ["caa_oman","Vice Chairman of the Board","board","v"]]},
   {id:"izzan_bin_qasim", n:"Izzan bin Qasim bin Mohammed Al-Busaidi", t:2, p:52, s:"gov", roles:[
     ["caa_oman","Board Member","board","v"]]},
@@ -1350,7 +1351,7 @@ const PEOPLE = [
   {id:"faisal_mohamed_al", n:"Faisal Mohamed Al-Yousef", t:2, p:58, s:"conglomerate", roles:[
     ["al_yousef","Chief Operating Officer and Director","executive","v"]]},
   {id:"saeed_bin_mohammed", n:"Saeed bin Mohammed Al-Saqri", t:2, p:58, s:"gov", roles:[
-    ["ministry_of_economy","Minister of Economy","executive","v"]]},
+    ["ministry_of_economy","Minister of Economy (until Jan 2026)","executive","v","former:until Jan 2026"]]},
   {id:"abdullah_bin_nasser", n:"Abdullah bin Nasser bin Khalifa Al Harrasi", t:2, p:62, s:"comm", roles:[
     ["oman_radio_tv","Chairman of the Public Authority for Radio and Television (PART)","board","ns"]]},
   {id:"ghalib_al_saidi", n:"Ghalib Al Saidi", t:2, p:60, s:"consumer_stap", roles:[
