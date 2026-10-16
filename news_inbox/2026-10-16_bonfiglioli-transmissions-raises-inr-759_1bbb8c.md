@@ -1,0 +1,5 @@
+# Bonfiglioli Transmissions raises INR 759 crore from anchors before IPO
+source: Prop News Time
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxOV3pESGcwLVFNVWlabGZCcWVtc1pSTnZENjljSktFRHAyU3NSWHQ5MEJGZWhmYnNmaF8wVVJLTktTSXA3WkdXejM0blRDTzdwT2ZXRWliNjk4NUE3YUhJNV9yQU1QcUZaQkdmUmllT2Utd1FjOWV0cC1rNkpXTUhrN1FJUVVZQ1J3SzZzUFYwTVZEMndpYUdDdWVZZm85MU9UMDk0Yzdramh1VXh6MVhUUVlHNGtQYU5fbGhpOWlHRQ?oc=5
+
+Bonfiglioli Transmissions raises INR 759 crore from anchors before IPO    Prop News Time

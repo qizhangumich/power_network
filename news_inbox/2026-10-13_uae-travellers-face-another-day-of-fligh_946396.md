@@ -1,0 +1,5 @@
+# UAE travellers face another day of flight disruption as Saudi airport closure is extended
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPeXlHUmRzV3hTWXZrN0hwWGtzSG5YS3pRdnNhVHd4VFQ0bXhYQmVBT0Z1elhwa2F6aGtVZkJ1Q2gyZVRNai0tcjNKTTl6LXhlS2g0YUlKVXI1UzZXLUZRRmZwV25uSVYtdThNV09jOTk0MXJtUk1fLVZRVzc5Mk5QZC01VEFYLVVVNGkyNm9xRFM4S1NFTWkxQ3c1RHZBa1g0WUc3NXpmbVdxSEpiVXpPXzN5RkU0M0psRjVxVXN3RGF4Nmo2SFRjTW9IUQ?oc=5
+
+UAE travellers face another day of flight disruption as Saudi airport closure is extended    Gulf News

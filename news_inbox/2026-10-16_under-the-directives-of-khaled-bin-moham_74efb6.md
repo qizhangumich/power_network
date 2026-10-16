@@ -1,0 +1,5 @@
+# Under the directives of Khaled bin Mohamed bin Zayed, Department of Government Enablement announces establishment of TAMM Global company to expand TAMM platform’s global reach
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMizgJBVV95cUxNVHI4WmFiV3ljOXpsQV9ER0V3QlFxVVp1Q3d6amEzTERselpncXg3VG5PVEhNai0xTHZzS0VuUjZ3RW9WQmVPaE12UzY2NXN4MF90N0ltTGRpMW1pQml1MnAwOHNHRVV3enpwbmdJalNpQ0djVjgzbDJqZmVBbEs0TWVZdlFWTHBtVHgwS3QyenNjZkVGYV9tT0tfeVFGZUFOUkQ4Q2ZhazM2VXNGalJmc1lLbHZzam5aUFotWWhnX2ZlU2N4Yk1oZmRSLW9oc1lmN0FpcFhFQ0stdmlabG5wemg5R1hZSk5DTWhfcUVLSUdSM1V3M19rRWQ0eEFtb0lqRWJXSU1vbExGOTBmQTlpUGlaelgwXzVzbW9TeWJzcTRDdkVZTzUzM2xPYzBDdFJ4Q0NULURYVzZob3RHNXVNU1J3d2pGX291Ql9aR0R3?oc=5
+
+Under the directives of Khaled bin Mohamed bin Zayed, Department of Government Enablement announces establishment of TAMM Global company to expand TAMM platform’s global reach    مكتب أبوظبي الإعلامي
