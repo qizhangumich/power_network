@@ -235,7 +235,7 @@ const INSTITUTIONS = [
   {id:"lst_4019", n:"SMC Healthcare Co.", s:"health", t:2, p:50, short:"SMC Healthcare Co."},
   {id:"lst_4021", n:"Canadian Medical Center Co. (CMCER)", s:"health", t:2, p:50, short:"4021"},
   {id:"lst_2070", n:"Saudi Pharmaceutical Industries and Medical Appliances Corp. (SPIMACO)", s:"health", t:2, p:50, short:"2070"},
-  {id:"lst_4015", n:"Jamjoom Pharmaceuticals Factory Co.", s:"health", t:2, p:50, short:"4015"},
+  {id:"lst_4015", n:"Jamjoom Pharmaceuticals Factory Co.", s:"health", t:2, p:58, short:"Jamjoom Pharma"},
   {id:"lst_4016", n:"Avalon Pharma (Middle East Pharmaceutical Industries Co.)", s:"health", t:2, p:50, short:"4016"},
   {id:"lst_1010", n:"Riyad Bank", s:"finance", t:2, p:70, short:"Riyad Bank"},
   {id:"lst_1020", n:"Bank Aljazira", s:"finance", t:2, p:50, short:"Bank Aljazira"},

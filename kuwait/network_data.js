@@ -243,6 +243,7 @@ const INSTITUTIONS = [
   {id:"al_rai_media", n:"Al Rai Media Group", s:"comm", t:2, p:57, short:"Al Rai Media"},
   {id:"national_assembly", n:"National Assembly", s:"gov", t:1, p:72, short:"National Assembly"},
   {id:"mk", n:"AlMudhaf & AlKulaib Group (MK Group)", s:"conglomerate", t:3, p:55, short:"MK Group"},
+  {id:"jaber_hospital", n:"Jaber Al-Ahmad Al-Sabah Hospital", s:"health", t:2, p:58, short:"Jaber Hospital"},
 ];
 
 const PEOPLE = [
@@ -2100,4 +2101,5 @@ const AKA = {
   al_rai_media:["Alrai","Al Rai TV"],
   national_assembly:["Majlis Al-Ummah"],
   mk:["Al-Mudhaf & Al-Kulaib Group","AlMudhaf AlKulaib Group"],
+  jaber_hospital:["Jaber Al-Ahmad Hospital"],
 };
