@@ -1,0 +1,5 @@
+# Condor launches daily Berlin–Abu Dhabi flights with Etihad connections
+source: TravelWires
+url: https://news.google.com/rss/articles/CBMioAFBVV95cUxPUE1TU3lXeVRqRzNsUXdTdEZwdHg2TkdfMVpoVUlNSnM0a2VOZE5EZ1FTcmE3cTB6NVFsLXVLRU81c0dCb2wwT0JyUUlvOTZ2bzNNRkpHM3BITXMtc0ZqQVFnNHBBeFdoMVBHdFR4LXlreUVvLU5xNy1Ja0ZyRHNuSW9NckxFT2x0dk9hRl9aSmFTTmFtbWNVQWlXbzhSVWJ0?oc=5
+
+Condor launches daily Berlin–Abu Dhabi flights with Etihad connections    TravelWires

@@ -1,0 +1,5 @@
+# Saudi-led coalition intercepts, destroys cruise missile over Madinah
+source: Gulf Business
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNRWVBMElGdkZrMGNMY0xxcmw3OXVVVXJlR1B0VzNNdjFiZHFKTWRMMEF3NGhJWWxaLUZob05GZEJEQW1uVGN5aDRWTkpQZHR5Unh4TF84Zm55Si0tVzRsNkhCd0pRUUZydDAyZkxYcFhDSFc5clN2OU5KbUxabEQ3Z1d3cFI4V2trejYxd0pPZnV1ZWUtYS1rOC15Y1Itby1KTjQwd1h5MlZYaVhKOXJQOW5qTmo?oc=5
+
+Saudi-led coalition intercepts, destroys cruise missile over Madinah    Gulf Business

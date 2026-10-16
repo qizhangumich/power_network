@@ -1,0 +1,5 @@
+# Abu Dhabi may opt for debt financing over asset drawdowns: Fitch
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbnFyS1NmMHNUc1N2bE45TDJMeUZ5Q1BIeWN3TDAzNEQ2SjRuMlVsWDNrM1cySDl5MXlEdkNzc0Jjd2hBa09ZeFJrSzk5V2tpSmFET1FfdXVqRWZndG16cHg2RE9rczY0UjFUelJUVlhzU0dKY0FNOF9Yd2hoSUdJOGplMkg4Y3J6T0dtMnY1OE5fMWFtVmZHajJOamlBX1otcENUZ25PenFHX1E2aE9FQXRhUm1pbHE3XzFMLThBcGJ5NE0zQ1FndENGbkxjaWR2dXM0bGF3?oc=5
+
+Abu Dhabi may opt for debt financing over asset drawdowns: Fitch    TradingView

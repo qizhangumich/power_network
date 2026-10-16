@@ -1,0 +1,5 @@
+# Etihad Airways and Southwest Airlines announce loyalty partnership
+source: Zawya
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxORmlaZndhNjRkd3Z4a05scVhibWhlZjNKWjV2d3dVMTcwYS1wWFJSZGVnaVVoMWFYMjRCVExDUTJhQTNlVlNJSmpyUGZJbFRUaG83SUtuSFhjUmw3aDNONFlvZVluX3BpcG96TXNUQ1VZTGZSRjhmbnlaSGRpV1BJR2gtcWgtbWZQVUwzU1VlZ3l3Zndfekg0eTZxQ1pRMkFlN0RRUW9zSm1vSGFnc3VwRF93eDVBX3RuYkZhb0NGS2JEaTdsNUZF?oc=5
+
+Etihad Airways and Southwest Airlines announce loyalty partnership    Zawya

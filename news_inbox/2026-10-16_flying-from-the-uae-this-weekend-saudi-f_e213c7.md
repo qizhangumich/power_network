@@ -1,0 +1,5 @@
+# Flying from the UAE this weekend? Saudi flights face major disruption as cancellations mount
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxOXzJTY0FJWEZwVWlUN2ROdU5BSldKX3RhTXQwR1NFb1ZQc2kydkZHLTZwXzdvajZUcEJsTUdHU0t3ZkpURWlVVkJvNHVsZGQxdEFfRnAyWUFmRzV0OVJlVFF2YlQxdTVld284SXRUa2NWa0tjQzdtV1Fwdm5MaDEydTJ5SEthOUlBSjhja29wWmVMQ3F2V3N0clVpWXZXYXp1RklFUzdhMzB3eVAtMGg2N2dGSlpEUGFrNVUtWGNCTzVoUUQtVFVKNzR6T1hLV1BaUl8xSGowakp0QWF6WTVxUHRSYkdDTkw2TlI2eEVDblg4WmZGUHc?oc=5
+
+Flying from the UAE this weekend? Saudi flights face major disruption as cancellations mount    Gulf News

@@ -1,0 +1,5 @@
+# VIDEO: Abu Dhabi developer Aldar enters Sharjah with $300mln investment in Arada project
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUEZTODgxTFM1R01JNmstb2ZuUWRKV29jWjlzOHB6UjFzeEtVY19lYWM4dHo3WkpYV2pxTHRVU0ZzeUd1QVJKekhjbXR5U0w4Qm1FQW5LTUlhcF9URWR0M0dvc1h2UWo1NkpQU3A3Rm9maEZmclRVaHJhVjVwMWwtV1I2Qy1CcTVGVU9oaUlXaVdRWTRfOGhjbXl3WEx2RTJheWlidDFrRkZ4dWFlbjZLaUFRUXY4S3o1bTdtYXRFaGZfSzhfaGQ4a0xUYjBWZ0xia1VRMnVPdEM2UQ?oc=5
+
+VIDEO: Abu Dhabi developer Aldar enters Sharjah with $300mln investment in Arada project    Zawya
