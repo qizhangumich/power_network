@@ -821,6 +821,7 @@ const PEOPLE = [
   {id:"marwan_bin_jassim", n:"Marwan bin Jassim Al Sarkal", t:2, p:62, s:"sovereign", roles:[
     ["shurooq","Executive Chairman","board","v"]]},
   {id:"yousif_ahmed_almutawa", n:"Yousif Ahmed AlMutawa", t:2, p:58, s:"sovereign", roles:[
+    ["sharjah_sust_city","Chief Executive Officer","executive","v"],
     ["shurooq","Chief Real Estate Officer","executive","ns"]]},
   {id:"al_shamsi", n:"Al Shamsi", t:2, p:58, s:"sovereign", roles:[
     ["shurooq","Senior Director of Marketing","executive","ns"]]},
@@ -1278,6 +1279,12 @@ const PEOPLE = [
     ["shams","Director Marketing & Communication","executive","v"]]},
   {id:"fagr_kassim_ali", n:"Fagr Kassim Ali", t:2, p:58, s:"gov", roles:[
     ["shams","Advisor Media Sector Development","executive","ns"]]},
+  {id:"ahmed_mohamed_al", n:"Ahmed Mohamed Al Khatri", t:2, p:58, s:"gov", roles:[
+    ["rak_courts","President","executive","v"]]},
+  {id:"mohamed_talaat_abouelmakarem", n:"Mohamed Talaat Abouelmakarem Abouzeid", t:2, p:58, s:"gov", roles:[
+    ["rak_courts","Acting President - Cassation Court","executive","v"]]},
+  {id:"mansour_al_hassani", n:"Mansour Al Hassani", t:2, p:58, s:"gov", roles:[
+    ["spc_free_zone","Acting Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [

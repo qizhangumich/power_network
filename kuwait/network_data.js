@@ -72,17 +72,17 @@ const INSTITUTIONS = [
   {id:"lst_altijaria", n:"The Commercial Real Estate Co K.S.C", s:"realestate", t:2, p:50, short:"ALTIJARIA"},
   {id:"lst_nind", n:"National Industries Group Holding", s:"finance", t:2, p:64, short:"NIND"},
   {id:"lst_cable", n:"Gulf Cables and Electrical Industries Group Co. K.S.C.P", s:"industry", t:2, p:54, short:"Gulf Cables"},
-  {id:"lst_ship", n:"Heavy Engineering Industries and Shipbuilding", s:"industry", t:2, p:50, short:"SHIP"},
+  {id:"lst_ship", n:"Heavy Engineering Industries and Shipbuilding", s:"industry", t:2, p:60, short:"HEISCO"},
   {id:"lst_bpcc", n:"Boubyan Petrochemical Company K.S.C.P.", s:"materials", t:2, p:58, short:"Boubyan Petrochem"},
   {id:"lst_humansoft", n:"Human Soft Holding", s:"industry", t:2, p:58, short:"Human Soft Hldg"},
   {id:"lst_ifahr", n:"IFA Hotels and Resorts", s:"consumer_disc", t:2, p:50, short:"IFAHR"},
-  {id:"lst_cgc", n:"Combined Group Contracting KSCP", s:"industry", t:2, p:50, short:"CGC"},
+  {id:"lst_cgc", n:"Combined Group Contracting KSCP", s:"industry", t:2, p:58, short:"CGC"},
   {id:"lst_oulafuel", n:"Oula Fuel Marketing", s:"consumer_disc", t:2, p:50, short:"Oula Fuel Marketing"},
   {id:"lst_gfh", n:"GFH Bank B.S.C.", s:"finance", t:2, p:50, short:"GFH Bank B.S.C."},
   {id:"lst_warbabank", n:"Warba Bank K.S.C.P.", s:"finance", t:2, p:60, short:"Warba Bank"},
   {id:"lst_stc", n:"Kuwait Telecommunications Company K.S.C.P. (stc)", s:"comm", t:2, p:60, short:"stc Kuwait"},
   {id:"lst_integrated", n:"Integrated Holding Co KSC", s:"industry", t:2, p:50, short:"INTEGRATED"},
-  {id:"lst_beyout", n:"Beyout Holding Company K.P.S.C", s:"finance", t:2, p:50, short:"BEYOUT"},
+  {id:"lst_beyout", n:"Beyout Holding Company K.P.S.C", s:"finance", t:2, p:56, short:"Beyout Holding"},
   {id:"lst_alftaqa", n:"Action Energy Company K.S.C.P", s:"energy", t:2, p:50, short:"ALFTAQA"},
   {id:"lst_trolley", n:"Trolley General Trading Company K.S.C.P", s:"consumer_disc", t:2, p:50, short:"TROLLEY"},
   {id:"lst_cbk", n:"Commercial Bank of Kuwait (Al-Tijari)", s:"finance", t:2, p:62, short:"Al-Tijari"},
@@ -275,6 +275,7 @@ const PEOPLE = [
   {id:"sager", n:"Isam Al-Sager", t:2, p:74, s:"finance", roles:[
     ["nbk","Group Vice Chairman & CEO","executive","v"]]},
   {id:"bader_kharafi", n:"Bader Nasser Al-Kharafi", t:1, p:78, s:"comm", roles:[
+    ["lst_ship","Vice Chairman of the Board","board","ns"],
     ["lst_ninv","Vice Chairman of the Board","board","v"],
     ["zain","Vice Chairman & Group CEO","executive","v"],
     ["kharafi","Family principal","board","ns"]],
@@ -1598,6 +1599,7 @@ const PEOPLE = [
   {id:"jasem_alsalman", n:"Jasem AlSalman", t:2, p:58, s:"tech", roles:[
     ["ntec","Group Chief Human Resources Officer","executive","ns"]]},
   {id:"bader_ahmad_al", n:"Bader Ahmad Al-Munaifi", t:2, p:60, s:"energy", roles:[
+    ["wafra_jo","Deputy Chief Executive Officer - Joint Operations (Kuwait Gulf Oil Company)","executive","v"],
     ["khafji_jo","Chief Executive Officer (Kuwait Gulf Oil Company - KGOC)","executive","ns"],
     ["kgoc","Chief Executive Officer","executive","ns"]]},
   {id:"abdulaziz_sulaiman_al", n:"Abdulaziz Sulaiman Al-Humaidi", t:2, p:46, s:"energy", roles:[
@@ -1881,6 +1883,16 @@ const PEOPLE = [
     ["mk","Chief Executive Officer","executive","v"]]},
   {id:"omar_al_yaqout", n:"Omar Al-Yaqout", t:2, p:62, s:"conglomerate", roles:[
     ["al_yaqout","Group Chairman","board","ns"]]},
+  {id:"meshal_al_tanaib", n:"Meshal Al-Tanaib", t:2, p:46, s:"industry", roles:[
+    ["kafco","General Manager","executive","v"]]},
+  {id:"basim_alrowaih", n:"Basim Alrowaih", t:2, p:58, s:"energy", roles:[
+    ["wafra_jo","Group Manager - Assets Management (Wafra)","executive","v"]]},
+  {id:"marzouq_nasser_al", n:"Marzouq Nasser Al-Kharafi", t:2, p:62, s:"industry", roles:[
+    ["lst_ship","Chairman of the Board","board","ns"]]},
+  {id:"samir_sami_hermez", n:"Samir Sami Hermez", t:2, p:60, s:"industry", roles:[
+    ["lst_ship","Chief Executive Officer","executive","ns"]]},
+  {id:"abdulrahman_mohammad_al_b", n:"Abdulrahman Mohammad Al-Khannah", t:2, p:60, s:"finance", roles:[
+    ["lst_beyout","Group Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

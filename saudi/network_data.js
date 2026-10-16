@@ -1913,6 +1913,7 @@ const PEOPLE = [
   {id:"khaled_tash", n:"Khaled Tash", t:2, p:58, s:"industry", roles:[
     ["saudia","Group Chief Marketing Officer","executive","ns"]]},
   {id:"rania_alturki", n:"Rania Alturki", t:2, p:58, s:"industry", roles:[
+    ["lst_4015","Independent Board Member & Chair of Nomination and Remuneration Committee","board","v"],
     ["saudia","Executive Vice President - Human Resources","executive","ns"]]},
   {id:"ali_al_hedeithy", n:"Ali Al-Hedeithy", t:2, p:58, s:"comm", roles:[
     ["mbcgroup","Group Director General & Board Secretary","executive","v"]]},
@@ -2895,6 +2896,18 @@ const PEOPLE = [
     ["ia","Board Member","board","ns"]]},
   {id:"ramez_al_ghaleb", n:"Ramez Al Ghaleb", t:2, p:58, s:"gov", roles:[
     ["jeddah_chamber","Secretary General","executive","ns"]]},
+  {id:"mahmoud_yousuf_jamjoom", n:"Mahmoud Yousuf Jamjoom", t:2, p:62, s:"health", roles:[
+    ["lst_4015","Chairman of the Board","board","v"]]},
+  {id:"ahmed_yousuf_jamjoom", n:"Ahmed Yousuf Jamjoom", t:2, p:62, s:"health", roles:[
+    ["lst_4015","Vice Chairman of the Board","board","v"]]},
+  {id:"tarek_youssef_hosni", n:"Tarek Youssef Hosni", t:2, p:60, s:"health", roles:[
+    ["lst_4015","Chief Executive Officer","executive","v"]]},
+  {id:"anwer_mohiuddin", n:"Anwer Mohiuddin", t:2, p:58, s:"health", roles:[
+    ["lst_4015","Chief Financial Officer","executive","v"]]},
+  {id:"faisal_ahmed_linjawy", n:"Faisal Ahmed Linjawy", t:2, p:58, s:"health", roles:[
+    ["lst_4015","Secretary of the Board of Directors","executive","v"]]},
+  {id:"faris_alghannam", n:"Faris AlGhannam", t:2, p:62, s:"health", roles:[
+    ["lst_4015","Independent Board Member & Chair of Audit Committee","board","v"]]},
 ];
 
 const OWNERSHIP = [
