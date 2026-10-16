@@ -1597,6 +1597,7 @@ const PEOPLE = [
   {id:"jasem_alsalman", n:"Jasem AlSalman", t:2, p:58, s:"tech", roles:[
     ["ntec","Group Chief Human Resources Officer","executive","ns"]]},
   {id:"bader_ahmad_al", n:"Bader Ahmad Al-Munaifi", t:2, p:60, s:"energy", roles:[
+    ["khafji_jo","Chief Executive Officer (Kuwait Gulf Oil Company - KGOC)","executive","ns"],
     ["kgoc","Chief Executive Officer","executive","ns"]]},
   {id:"abdulaziz_sulaiman_al", n:"Abdulaziz Sulaiman Al-Humaidi", t:2, p:46, s:"energy", roles:[
     ["kgoc","Head of Quality Assurance Team","executive","ns"]]},
@@ -1847,6 +1848,38 @@ const PEOPLE = [
     ["al_anba","Editor-in-Chief","executive","v"]]},
   {id:"gaurav_oberoi", n:"Gaurav Oberoi", t:2, p:60, s:"consumer_stap", roles:[
     ["mezzan","Deputy CEO - Industrial","executive","ns"]]},
+  {id:"naif_al_sulami", n:"Naif Al-Sulami", t:2, p:60, s:"energy", roles:[
+    ["khafji_jo","President and Chief Executive Officer (Aramco Gulf Operations Company - AGOC)","executive","ns"]]},
+  {id:"tariq_al_masoud", n:"Tariq Al-Masoud", t:2, p:58, s:"energy", roles:[
+    ["khafji_jo","Executive Director - Khafji Joint Operations Department","executive","ns"]]},
+  {id:"ali_bin_saleh", n:"Ali bin Saleh Al-Ajmi", t:2, p:62, s:"energy", roles:[
+    ["khafji_jo","Chairman - Joint Operations Committee (Khafji)","board","ns"]]},
+  {id:"maher_abdullah_marafi", n:"Maher Abdullah Marafi", t:2, p:62, s:"industry", roles:[
+    ["kgl","Non-Executive Chairman","board","ns"]]},
+  {id:"fadhel_abdullah_al", n:"Fadhel Abdullah Al Baghli", t:2, p:62, s:"industry", roles:[
+    ["kgl","Non-Executive Vice Chairman","board","ns"]]},
+  {id:"emad_jumaah_ali", n:"Emad Jumaah Ali Al Salem", t:2, p:52, s:"industry", roles:[
+    ["kgl","Independent Director","board","ns"]]},
+  {id:"mohamad_ahmad_al", n:"Mohamad Ahmad Al Kandari", t:2, p:52, s:"industry", roles:[
+    ["kgl","Independent Director","board","ns"]]},
+  {id:"ali_esmail_dashti", n:"Ali Esmail Dashti", t:2, p:52, s:"industry", roles:[
+    ["kgl","Director","board","ns"]]},
+  {id:"yousef_saeed_dashti", n:"Yousef Saeed Dashti", t:2, p:52, s:"industry", roles:[
+    ["kgl","Director","board","ns"]]},
+  {id:"hameed_m_abul", n:"Hameed M. Abul", t:2, p:52, s:"industry", roles:[
+    ["kgl","Board Member","board","ns"]]},
+  {id:"krishnan_mahesh", n:"Krishnan Mahesh", t:2, p:52, s:"industry", roles:[
+    ["kgl","Board Member","board","ns"]]},
+  {id:"yaqoub_abdullah_yaqoub", n:"Yaqoub Abdullah Yaqoub Al-Wazzan", t:2, p:60, s:"industry", roles:[
+    ["kgl","Chief Executive Officer","executive","ns"]]},
+  {id:"ali_dashti", n:"Ali Dashti", t:2, p:62, s:"industry", roles:[
+    ["kgl","Chairman - KGL Holding Co. KSCC","board","ns"]]},
+  {id:"abdullah_al_mudaf", n:"Abdullah Al Mudaf", t:2, p:62, s:"conglomerate", roles:[
+    ["mk","Chairman","board","v"]]},
+  {id:"bader_al_kulaib", n:"Bader Al Kulaib", t:2, p:60, s:"conglomerate", roles:[
+    ["mk","Chief Executive Officer","executive","v"]]},
+  {id:"omar_al_yaqout", n:"Omar Al-Yaqout", t:2, p:62, s:"conglomerate", roles:[
+    ["al_yaqout","Group Chairman","board","ns"]]},
 ];
 
 const OWNERSHIP = [

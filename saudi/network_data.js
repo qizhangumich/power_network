@@ -515,6 +515,8 @@ const INSTITUTIONS = [
   {id:"tabby", n:"Tabby", s:"finance", t:3, p:76, short:"Tabby"},
   {id:"hhc", n:"Health Holding Company", s:"health", t:1, p:72, short:"HHC"},
   {id:"ia", n:"Insurance Authority", s:"finance", t:2, p:66, short:"IA"},
+  {id:"riyadh_chamber", n:"Riyadh Chamber of Commerce and Industry", s:"gov", t:2, p:64, short:"Riyadh Chamber"},
+  {id:"jeddah_chamber", n:"Jeddah Chamber of Commerce and Industry", s:"gov", t:2, p:62, short:"Jeddah Chamber"},
 ];
 
 const PEOPLE = [
@@ -696,6 +698,7 @@ const PEOPLE = [
   {id:"jomana", n:"Jomana Al-Rashid", t:2, p:68, s:"comm", roles:[
     ["srmg","CEO","executive","v"]]},
   {id:"alajlan", n:"Ajlan bin Abdulaziz Al Ajlan", t:2, p:68, s:"conglomerate", roles:[
+    ["riyadh_chamber","Chairman of the Board of Directors","board","ns"],
     ["ajlan","Founder & Chairman","board","v"]]},
   {id:"yasir_o_al", n:"Yasir O. Al-Rumayyan", t:2, p:62, s:"energy", roles:[
     ["aramco","Chairman","board","v"]]},
@@ -2255,6 +2258,7 @@ const PEOPLE = [
   {id:"mansour_al_sagheer", n:"Mansour Al-Sagheer", t:2, p:62, s:"consumer_stap", roles:[
     ["lst_6050","Chairman of the Board (2026–)","board","v"]]},
   {id:"mohamed_yousuf_naghi", n:"Mohamed Yousuf Naghi", t:2, p:62, s:"conglomerate", roles:[
+    ["jeddah_chamber","Chairman of the Board of Directors","board","ns"],
     ["naghi","Chairman","board","v"]]},
   {id:"yaser_yousuf_naghi", n:"Yaser Yousuf Naghi", t:2, p:62, s:"conglomerate", roles:[
     ["naghi","Chairman Cigalah Group","board","v"]]},
@@ -2889,6 +2893,8 @@ const PEOPLE = [
     ["ia","Board Member","board","v"]]},
   {id:"abdullah_bin_ahmed_b_b", n:"Abdullah bin Ahmed Al-Tuwaijri", t:2, p:52, s:"finance", roles:[
     ["ia","Board Member","board","ns"]]},
+  {id:"ramez_al_ghaleb", n:"Ramez Al Ghaleb", t:2, p:58, s:"gov", roles:[
+    ["jeddah_chamber","Secretary General","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3267,6 +3273,8 @@ const OWNERSHIP = [
   ["riyadh_airports","matarat","subsidiary","v"],
   ["riyad_capital","lst_1010","subsidiary","v"],
   ["hhc","moh_sa","regulated by (MoH is regulator/supervisor; HHC runs the 20 public health clusters)","v"],
+  ["riyadh_chamber","fsc","member chamber of the national federation","ns"],
+  ["jeddah_chamber","fsc","member chamber of the national federation","ns"],
 ];
 
 const FAMILY = [
@@ -3382,4 +3390,6 @@ const AKA = {
   riyadh_airports:["RAC","King Khalid International Airport","KKIA","King Khalid Airport"],
   shura_council:["Majlis Al-Shura","Consultative Assembly","Consultative Council"],
   hhc:["Saudi Health Holding Company"],
+  riyadh_chamber:["RCCI"],
+  jeddah_chamber:["JCCI"],
 };

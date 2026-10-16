@@ -483,6 +483,7 @@ const PEOPLE = [
   {id:"sheikh_khalid_bin", n:"Sheikh Khalid Bin Abdullah Al-Thani", t:2, p:52, s:"materials", roles:[
     ["industriesqatar","Board Member","board","v"]]},
   {id:"abdulrahman_ali_al", n:"Abdulrahman Ali Al-Abdulla", t:2, p:52, s:"materials", roles:[
+    ["muntajat","Chairman","board","v"],
     ["industriesqatar","Board Member","board","v"]]},
   {id:"abdulla_ahmad_al", n:"Abdulla Ahmad Al-Hussaini", t:2, p:52, s:"materials", roles:[
     ["qelng","Executive Vice President, Marketing","executive","v"],
@@ -960,6 +961,7 @@ const PEOPLE = [
   {id:"thani_bin_thamer", n:"Thani bin Thamer bin Mohammed Al-Thani", t:2, p:52, s:"materials", roles:[
     ["lst_mphc","Board Member","board","v"]]},
   {id:"khalid_sultan_al", n:"Khalid Sultan Al-Kuwari", t:2, p:52, s:"materials", roles:[
+    ["ras_laffan_petrochem","Board Member (Director)","board","v"],
     ["lst_igrd","Board Member","board","v"],
     ["lst_mphc","Board Member","board","v"]]},
   {id:"mohammed_essa_abdulrahman", n:"Mohammed Essa Abdulrahman Al-Mannai", t:2, p:52, s:"materials", roles:[
@@ -2021,6 +2023,16 @@ const PEOPLE = [
     ["qib","Group Chief Executive Officer","executive","ns"]]},
   {id:"abdulla_mohammed_al", n:"Abdulla Mohammed Al Mannai", t:2, p:58, s:"industry", roles:[
     ["qcaa","Director of Meteorology Department","executive","ns"]]},
+  {id:"steven_emery", n:"Steven Emery", t:2, p:58, s:"health", roles:[
+    ["phcc_qatar","Assistant Director General for Strategy","executive","v"]]},
+  {id:"mohamed_ghaith_al", n:"Mohamed Ghaith Al-Kuwari", t:2, p:58, s:"health", roles:[
+    ["phcc_qatar","Executive Director of Strategy Planning and Health Intelligence","executive","v"]]},
+  {id:"yousef_ahmad_alhammadi", n:"Yousef Ahmad Alhammadi", t:2, p:58, s:"gov", roles:[
+    ["gac_qatar","Assistant Director of Land Customs Administration","executive","v"]]},
+  {id:"abdullah_al_jaber", n:"Abdullah Al Jaber", t:2, p:46, s:"gov", roles:[
+    ["gac_qatar","Head of Passenger Section at Land Ports","executive","v"]]},
+  {id:"issa_bin_rashid", n:"Issa bin Rashid Al-Suwaidi", t:2, p:46, s:"gov", roles:[
+    ["gac_qatar","Head of Customs Procedures Unit","executive","v"]]},
 ];
 
 const OWNERSHIP = [

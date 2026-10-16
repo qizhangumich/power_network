@@ -775,7 +775,7 @@ const PEOPLE = [
     ["rak_hospital","Executive Director","executive","v"]]},
   {id:"mohammed_saif_al", n:"Mohammed Saif Al Afkham", t:2, p:58, s:"gov", roles:[
     ["fnrc","Chairman of the Board of Directors","board","v"],
-    ["fujairah_municipality","Director General","executive","ns"]]},
+    ["fujairah_municipality","Director General","executive","v"]]},
   {id:"christopher_wood", n:"Christopher Wood", t:2, p:60, s:"gov", roles:[
     ["rakpa","Chief Executive","executive","v"]]},
   {id:"mohamed_ali_musabbeh", n:"Mohamed Ali Musabbeh Al Nuaimi", t:2, p:62, s:"gov", roles:[
@@ -1270,6 +1270,14 @@ const PEOPLE = [
     ["al_zorah_dev","Chief Executive Officer","executive","ns"]]},
   {id:"ahmed_ibrahim_obaid", n:"Ahmed Ibrahim Obaid Ali Al Ali", t:2, p:58, s:"gov", roles:[
     ["uaq_municipality","Director-General","executive","v"]]},
+  {id:"rashid_abdullah_al", n:"Rashid Abdullah Al Obad", t:2, p:58, s:"gov", roles:[
+    ["shams","Director-General of Sharjah Media City - Free Zone Authority (Shams)","executive","v"]]},
+  {id:"rashid_sahoo", n:"Rashid Sahoo", t:2, p:58, s:"gov", roles:[
+    ["shams","Director of Operations","executive","v"]]},
+  {id:"mohab_mazen", n:"Mohab Mazen", t:2, p:58, s:"gov", roles:[
+    ["shams","Director Marketing & Communication","executive","v"]]},
+  {id:"fagr_kassim_ali", n:"Fagr Kassim Ali", t:2, p:58, s:"gov", roles:[
+    ["shams","Advisor Media Sector Development","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

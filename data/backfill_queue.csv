@@ -8,7 +8,7 @@ abudhabi,openai,OpenAI,tech,74,0,pending
 abudhabi,nvidia,NVIDIA,tech,74,0,pending
 saudi,lst_8313,Rasan Information Technology Co.,finance,74,0,pending
 abudhabi,totalenergies,TotalEnergies,energy,72,0,pending
-kuwait,national_assembly,National Assembly,gov,72,0,pending
+kuwait,national_assembly,National Assembly,gov,72,0,skip
 abudhabi,bp,bp,energy,70,0,pending
 abudhabi,shell,Shell,energy,70,0,pending
 abudhabi,exxonmobil,ExxonMobil,energy,70,0,pending
@@ -21,14 +21,13 @@ abudhabi,mckinsey,McKinsey & Company,industry,64,0,pending
 oman,cdaa,Civil Defence and Ambulance Authority,gov,64,1,pending
 qatar,eni,Eni,energy,64,0,pending
 qatar,grsia_daman,General Retirement and Social Insurance Authority,sovereign,64,1,pending
+saudi,riyadh_chamber,Riyadh Chamber of Commerce and Industry,gov,64,1,pending
 abudhabi,omv,OMV,energy,62,0,pending
 abudhabi,moelis,Moelis & Company,finance,62,0,pending
 abudhabi,globalfoundries,GlobalFoundries,tech,62,0,pending
 dubai,dhre,Dubai Holding Real Estate,realestate,62,1,pending
-kuwait,part_kuwait,Public Authority for Roads and Transportation (abolished Dec 2025 — departments transferred to Ministry of Public Works & Ministry of Interior per Amiri Decree),industry,62,0,pending
-qatar,psa_qatar,Planning and Statistics Authority,gov,62,0,pending
-qatar,gac_qatar,General Authority of Customs,gov,62,1,pending
-qatar,phcc_qatar,Primary Health Care Corporation (Qatar),health,62,1,pending
+kuwait,part_kuwait,Public Authority for Roads and Transportation (abolished Dec 2025 — departments transferred to Ministry of Public Works & Ministry of Interior per Amiri Decree),industry,62,0,skip
+qatar,psa_qatar,Planning and Statistics Authority,gov,62,0,skip
 qatar,qe_renewables,QatarEnergy Renewable Solutions,energy,62,0,pending
 saudi,obeikan,Obeikan Investment Group,industry,62,1,pending
 saudi,lucid,"Lucid Group, Inc.",consumer_disc,62,0,pending
@@ -54,8 +53,8 @@ dubai,borse_dubai,Borse Dubai Limited,finance,60,1,pending
 oman,sct,Space Communication Technologies,tech,60,1,pending
 qatar,sinopec,Sinopec,energy,60,0,pending
 qatar,ncsa_qatar,National Cyber Security Agency,tech,60,0,pending
-qatar,muntajat,Qatar Chemical and Petrochemical Marketing and Distribution Company,materials,60,0,pending
-qatar,ras_laffan_petrochem,Ras Laffan Petrochemicals Company,materials,60,0,pending
+qatar,muntajat,Qatar Chemical and Petrochemical Marketing and Distribution Company,materials,60,1,pending
+qatar,ras_laffan_petrochem,Ras Laffan Petrochemicals Company,materials,60,1,pending
 saudi,lst_1080,Arab National Bank,finance,60,0,pending
 saudi,kafd,King Abdullah Financial District,realestate,60,0,pending
 saudi,badeel,Water and Electricity Holding Company,utilities,60,0,pending
@@ -171,7 +170,6 @@ dubai,al_nabooda,Khalifa Juma Al Nabooda Group,conglomerate,56,0,pending
 dubai,dutco,Dutco Group,conglomerate,56,0,pending
 dubai,al_moosa_arenco,A.A. Al Moosa Enterprises (Arenco Group),conglomerate,56,0,pending
 dubai,eta_ascon,ETA Ascon Group,industry,56,0,pending
-kuwait,khafji_jo,Al-Khafji Joint Operations,energy,56,0,pending
 northern,stevin_rock,Stevin Rock,materials,56,1,pending
 northern,fujairah_municipality,Fujairah Municipality,gov,56,1,pending
 northern,sharjah_sust_city,Sharjah Sustainable City,realestate,56,0,pending
@@ -217,8 +215,6 @@ dubai,jetex,Jetex,industry,55,0,pending
 dubai,imtiaz_developments,Imtiaz Developments,realestate,55,0,pending
 dubai,anax,ANAX Holding,conglomerate,55,0,pending
 dubai,khansaheb,Khansaheb Group,industry,55,0,pending
-kuwait,kgl,Kuwait and Gulf Link Transport Company,industry,55,0,pending
-kuwait,mk,AlMudhaf & AlKulaib Group (MK Group),conglomerate,55,0,pending
 qatar,qvc,Qatar Vinyl Company Ltd,materials,55,0,pending
 saudi,tamer,Tamer Group,health,55,0,pending
 saudi,al_othman,Al Othman Holding,conglomerate,55,0,pending
@@ -250,7 +246,6 @@ kuwait,q8_aviation,Q8 Aviation,industry,54,0,pending
 kuwait,al_sagar,Al Sagar Group,conglomerate,54,0,pending
 kuwait,enertech,EnerTech Holding Company,energy,54,1,pending
 kuwait,wafra_jo,Wafra Joint Operations,energy,54,0,pending
-northern,shams,Sharjah Media City (Shams),gov,54,1,pending
 northern,spc_free_zone,SPC Free Zone (Sharjah Publishing City),gov,54,0,pending
 northern,rak_courts,Ras Al Khaimah Judicial Department,gov,54,0,pending
 northern,fujairah_tourism,Fujairah Tourism & Antiquities Authority,gov,54,1,pending
@@ -319,7 +314,7 @@ dubai,heriot_watt_dubai,Heriot-Watt University Dubai,education,52,0,pending
 dubai,alfred,Alfred Holdings,consumer_disc,52,0,pending
 kuwait,kafco,Kuwait Aviation Fuelling Company,industry,52,0,pending
 kuwait,q8oils,Q8Oils,materials,52,0,pending
-kuwait,al_yaqout,Al Yaqout Group,conglomerate,52,0,pending
+kuwait,al_yaqout,Al Yaqout Group,conglomerate,52,1,pending
 northern,uaq_municipality,Umm Al Quwain Municipality,gov,52,1,pending
 northern,amcfz,Ajman Media City Free Zone,comm,52,0,pending
 northern,raknic,Ras Al Khaimah National Insurance Company,finance,52,1,pending
