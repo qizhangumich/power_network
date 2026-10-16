@@ -1,0 +1,5 @@
+# THIS MORNING: Mubadala-backed GlobalFoundries lands Japan-funded New York chip plants + UAE pumps record oil volumes in September
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMi-wFBVV95cUxNdjF5UWgtMXdSQy14eUVjMWxkWDl2bUtRZW5OQ3RoS2g4SmNDMmotN3ZEV1NtdjRBNndxWWlMMHl2RDVQMmZ6UHVoU2Q2VWlRcng3NTBVUURqZzUxSjJTaXBnYmxGYTVlUjJNeWpfdkd1SG5YM1pGOF85N0dfeTloVWFmUDFBODJBdUNWOHdpTF9YeWxSSDMwWS1xWFlfZTNiUmUxaWdzNzZYMlg2Z3oyUFF4Q1RyMEtOODBEZWljZ0JCU1BwTC10M3ZzUGw5VUNZQ3hXRWNKYnRHRVdiMFF3OGhiakN5NzdzeGJWeGNzYlozX0xFYm42TTd2cw?oc=5
+
+THIS MORNING: Mubadala-backed GlobalFoundries lands Japan-funded New York chip plants + UAE pumps record oil volumes in September    EnterpriseAM

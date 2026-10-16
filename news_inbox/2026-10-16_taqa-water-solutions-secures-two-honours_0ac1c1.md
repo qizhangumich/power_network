@@ -1,0 +1,5 @@
+# TAQA Water Solutions secures two honours at Asian Water Awards 2026
+source: Asian Power
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxQbVdlMWtTRDVfZ0p5cFdYcWtvM2FqTmpnNTNWOWNyLVdrQXM1eERIdWl6UTh4dW92R3dMZ29tNjduNmttOHNPV1pUNlhHQ01mRjlib1FIN1d4Mi00cklGM1psNTBGSXBfOURDRVd1Q1VuVk9pSHNaaWpkcmx0V2wzYUtOWW1xWnNnZkwxeGVpY2JjM3BKdEJDakgzYmxFWl9COVlyZGFPRDg4Y1lkRGxwcnFxbTBaeHd5S2c?oc=5
+
+TAQA Water Solutions secures two honours at Asian Water Awards 2026    Asian Power
