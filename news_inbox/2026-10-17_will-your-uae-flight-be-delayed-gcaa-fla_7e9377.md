@@ -1,0 +1,5 @@
+# Will your UAE flight be delayed? GCAA flags weather conditions that could disrupt operations
+source: Gulf Business
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxObkN4VHZTUXRKdjlmSkYzNTNQaWpINm1mSEJqMVRsNTJiWkRoNThrSlJnMGp2MWlqUTFwQjBheFN6Unc2QTcwbUlQQ1JCVGxtLV9wVzRUbWU0R0lkaFlrSHpMMUFpOHN2bkhVYkxkeXNtNWdjUmxtLVE0MVhHWExFZWpMVk9hZkJnRVdCb1g0a2p3dG9OY0d0cWNDcUh6eVJvSGozMHNSUUY2SXd3MERkb3ppdnZoTlJONFhteDFBaFRreEZmcHZHZXJMN0h0UQ?oc=5
+
+Will your UAE flight be delayed? GCAA flags weather conditions that could disrupt operations    Gulf Business

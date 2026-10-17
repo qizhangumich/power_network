@@ -1,0 +1,5 @@
+# UAE-Saudi flight updates today: Full list of cancellations, suspensions and travel warnings
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWUJMbVVvWDZBcnF5ZjAzV0pwV1ktSnVQaWdUY2p4TWppX2ZyX1lZb3RmZ3Z1dXhFX3R4VGlmM0xJMnA5S0FzVGJpOS1BWEFiN0JRUkJZd2pEWGRPeF9OSFVyNGlRdFJpYlNvZkdZeU5QVFRxWWl5MWJjbUNJemJVWW1TNVRRYlBwQVJ4MUkzVDRyTzF6UmVHdFczcGZrYWFSaWRXcGNYdmpoQV80ZmxIRXhhMk1XRExpQUxIUzE4STUtTHlVUHV6M0tIcFV0eUpqWlFCS2hJOA?oc=5
+
+UAE-Saudi flight updates today: Full list of cancellations, suspensions and travel warnings    Gulf News
