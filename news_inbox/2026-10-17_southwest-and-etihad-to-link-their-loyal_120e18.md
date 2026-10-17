@@ -1,0 +1,5 @@
+# Southwest and Etihad to link their loyalty programs from 2027
+source: Aviacionline
+url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxQak9IdVpOSkJNLWlkYXhfRGNkaGgxNF9QanpUeV83TVhkcktoR21NOXhUX0ZycWJxWWgyUmowREd3Y29LWEE1RVQ5YWRsSzhVTng2WVR6QWZ1U3B5YzJvTjNYdV9BUnNoUGJsb2dNRkVfMVdTMlFDX25WVGQxNG9xTHlRV2NSUWprVzlYYVNoRkVtVzlzMFl0dVhEeGFGYTBFaVNxc3o5Z0ZoOWtRQk05aXJRdEpKVzBYRDEwVTFBWV9uUzBxM2tkd2dtc0JrTmVQd1NjYXFVQjVKVTU3WlkyVXFYdGFYenJzN0lvLXZDTQ?oc=5
+
+Southwest and Etihad to link their loyalty programs from 2027    Aviacionline

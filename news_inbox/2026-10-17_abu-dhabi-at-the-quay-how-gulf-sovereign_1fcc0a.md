@@ -1,0 +1,5 @@
+# Abu Dhabi at the Quay: How Gulf Sovereign Capital Is Quietly Taking Control of Brazil's Agricultural Export Infrastructure
+source: Portogente
+url: https://news.google.com/rss/articles/CBMikgJBVV95cUxNTEw2VllnaXdORzNJSmxSdGhQdFJNTllOamNSYUZ2NTN3VVhHV083S1MzR2U2M2FMaS1pLUtXc0tWbWdtcWc3VnpRcGxGOVRYSmZBWEVCcy1zNlh6d1QtZldZVTJ4akFBSHlicHdtNmo5cXlfTU9lZ2RjNUhJVVNzN1MtaDFHaHJHZ3J1TTlWclp0YjItU28ydFJ3S0NwQTlVTmRxbDJnMFpVajJERktkSGM5NUZGNFNGRmdZdGhlbmNkTjUxdktQenFsOTlWTmUyQ21FeFBZRk1FX2EwbTcxSDdTbUZhNWZ6VFBDOU1qdkVIQWdOSHpZeXQ1Q3U1RmlwNWFwanFtN0IyZEVOVkRhOE9R?oc=5
+
+Abu Dhabi at the Quay: How Gulf Sovereign Capital Is Quietly Taking Control of Brazil's Agricultural Export Infrastructure    Portogente
