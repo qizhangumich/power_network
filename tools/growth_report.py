@@ -153,6 +153,20 @@ def main():
                           encoding="utf-8")
     ROSTER.write_text(json.dumps(roster_now, separators=(",", ":")), encoding="utf-8")
 
+    inst_names = {key: {m.group(1): m.group(2) for m in INST_RE.finditer(region_text(key))}
+                  for key, _, _, _ in REGIONS}
+    ppl_names = {key: {pid: d["n"] for pid, d in parse_people(region_text(key)).items()}
+                 for key, _, _, _ in REGIONS}
+
+    # institutions added, from the provenance log: day -> region -> [name, source, url]
+    cut_detail = (datetime.date.today() - datetime.timedelta(days=DETAIL_DAYS)).isoformat()
+    ilog = {}
+    for r in prov_rows:
+        if r["entity_type"] != "institution" or r["action"] != "added" or r["date"] < cut_detail:
+            continue
+        nm = inst_names.get(r["region"], {}).get(r["entity_id"], r["entity_id"])
+        ilog.setdefault(r["date"], {}).setdefault(r["region"], []).append([nm, r["source"], r["url"]])
+
     days = sorted(state)                    # oldest -> newest
 
     def delta(day):
@@ -176,10 +190,13 @@ def main():
         else:
             dp = di = 0
         named = len(plog.get(today, {}).get(key, []))
+        inamed = len(ilog.get(today, {}).get(key, []))
         chip = (f'<span class="up chip" data-day="{today}" data-reg="{key}" tabindex="0">+{dp}</span>'
                 if dp > 0 and named else (f'<span class="up">+{dp}</span>' if dp > 0 else ""))
-        badge = chip + (f' <span class="up">+{di} <span class="t" data-en="inst" data-zh="机构">inst</span></span>'
-                        if di > 0 else "")
+        ilabel = f'+{di} <span class="t" data-en="inst" data-zh="机构">inst</span>'
+        ichip = (f' <span class="up chip" data-day="{today}" data-reg="{key}" data-kind="i" tabindex="0">{ilabel}</span>'
+                 if di > 0 and inamed else (f' <span class="up">{ilabel}</span>' if di > 0 else ""))
+        badge = chip + ichip
         region_rows.append(
             f'<tr><td><a href="../{dirname + "/" if dirname else "abudhabi/"}">'
             f'<span class="t" data-en="{en}" data-zh="{zh}">{en}</span></a></td>'
@@ -189,7 +206,8 @@ def main():
     for day in reversed(days[-45:]):
         dd = delta(day)
         t = state[day]["total"]
-        n_named = sum(len(v) for v in plog.get(day, {}).values())
+        n_named = sum(len(v) for v in plog.get(day, {}).values()) \
+                + sum(len(v) for v in ilog.get(day, {}).values())
         cells = "—" if dd is None else " · ".join(
             (f"+{x}" if x > 0 else str(x)) for x in dd[:2])
         datecell = (f'<span class="chip datechip" data-day="{day}" tabindex="0">{day}</span>'
@@ -205,6 +223,11 @@ def main():
         for key, rows in plog[day].items():
             embed[day][key] = {"n": len(rows),
                                "rows": [row[1:] for row in rows[:DETAIL_CAP]]}
+    iembed = {}
+    for day, regs in ilog.items():
+        iembed[day] = {}
+        for key, rows in regs.items():
+            iembed[day][key] = {"n": len(rows), "rows": rows[:DETAIL_CAP]}
     region_names = {key: en for key, _, en, _ in REGIONS}
     region_names_zh = {key: zh for key, _, _, zh in REGIONS}
 
@@ -248,10 +271,6 @@ def main():
                 ing[(r.get("type") or "").strip()] += 1
 
     # ---- today's contributions by source (fallback: latest day with adds) ----
-    inst_names = {key: {m.group(1): m.group(2) for m in INST_RE.finditer(region_text(key))}
-                  for key, _, _, _ in REGIONS}
-    ppl_names = {key: {pid: d["n"] for pid, d in parse_people(region_text(key)).items()}
-                 for key, _, _, _ in REGIONS}
     added_days = sorted({r["date"] for r in prov_rows if r["action"] == "added"})
     day_pick = today if today in added_days else (added_days[-1] if added_days else None)
     bysrc = {}
@@ -479,7 +498,7 @@ details[open].cellhits summary::before{{content:"▾ "}}
 <div class="c"><b>{cur["total"][2]}</b><span class="t" data-en="roles" data-zh="职位">roles</span> <span class="up">{"+" + str(d_today[2]) if d_today[2] > 0 else ""}</span></div>
 </div>
 <h2 class="t" data-en="By region" data-zh="按地区">By region</h2>
-<div class="sub" style="margin-bottom:6px"><span class="t" data-en="Hover a green +N to preview who was added; click it for the full list." data-zh="将鼠标悬停在绿色 +N 上可预览新增人物，点击查看完整名单。">Hover a green +N to preview who was added; click it for the full list.</span></div>
+<div class="sub" style="margin-bottom:6px"><span class="t" data-en="Hover a green +N to preview what was added; click it for the full list with sources — people and institutions alike." data-zh="将鼠标悬停在绿色 +N 上可预览新增内容，点击查看带来源链接的完整名单——人物与机构皆可。">Hover a green +N to preview what was added; click it for the full list with sources — people and institutions alike.</span></div>
 <table id="regtab"><tr><th class="t" data-en="Region" data-zh="地区">Region</th><th class="t" data-en="People" data-zh="人物">People</th><th class="t" data-en="Institutions" data-zh="机构">Institutions</th><th class="t" data-en="Roles" data-zh="职位">Roles</th></tr>
 {"".join(region_rows)}</table>
 <h2 class="t" data-en="Daily history (people · institutions added)" data-zh="每日历史（新增人物 · 机构）">Daily history (people · institutions added)</h2>
@@ -490,6 +509,7 @@ details[open].cellhits summary::before{{content:"▾ "}}
 <div id="tip"></div>
 <script>
 var ADDED = {json.dumps(embed, ensure_ascii=False, separators=(",", ":"))};
+var ADDED_I = {json.dumps(iembed, ensure_ascii=False, separators=(",", ":"))};
 var RNAME = {json.dumps(region_names, ensure_ascii=False, separators=(",", ":"))};
 var RNAME_ZH = {json.dumps(region_names_zh, ensure_ascii=False, separators=(",", ":"))};
 var lang="en"; try{{lang=localStorage.getItem("pm_lang")==="zh"?"zh":"en";}}catch(e){{}}
@@ -500,14 +520,14 @@ document.getElementById("b-lang").addEventListener("click",function(){{lang=lang
 function esc(s){{return String(s==null?"":s).replace(/[&<>"]/g,function(c){{
   return {{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}}[c];}});}}
 function regName(k){{return (lang==="zh"?RNAME_ZH:RNAME)[k]||k;}}
-function bucket(day,reg){{var d=ADDED[day]; if(!d) return null;
+function bucket(day,reg,map){{var d=(map||ADDED)[day]; if(!d) return null;
   if(reg) return d[reg]?[[reg,d[reg]]]:null;
   var out=[]; for(var k in d) out.push([k,d[k]]); return out.length?out:null;}}
 
 /* ---- hover preview ---- */
 var tip=document.getElementById("tip");
-function showTip(ev,day,reg){{
-  var b=bucket(day,reg); if(!b) return;
+function showTip(ev,day,reg,kind){{
+  var b=bucket(day,reg,kind==="i"?ADDED_I:ADDED); if(!b) return;
   var total=0; b.forEach(function(x){{total+=x[1].n;}});
   var names=[],capped=false;
   for(var i=0;i<b.length&&names.length<7;i++){{
@@ -515,7 +535,8 @@ function showTip(ev,day,reg){{
     for(var j=0;j<rows.length&&names.length<7;j++) names.push(rows[j]);
   }}
   if(total>names.length) capped=true;
-  var head=lang==="zh"?(day+" 新增 "+total+" 人"):(total+" added "+day);
+  var head=kind==="i"?(lang==="zh"?(day+" 新增 "+total+" 家机构"):(total+" institutions added "+day))
+                     :(lang==="zh"?(day+" 新增 "+total+" 人"):(total+" added "+day));
   var html='<div class="h">'+esc(head)+'</div>';
   names.forEach(function(r){{
     html+='<div>'+esc(r[0])+(r[1]?' &middot; <span style="color:#B9BCC6">'+esc(r[1])+'</span>':'')+'</div>';
@@ -543,11 +564,19 @@ function rowHtml(r){{
    (r[1]?'<br><i>'+esc(r[1])+'</i>':'')+
    (r[2]?' <span class="inst">— '+esc(r[2])+esc(extra)+'</span>':'')+src+'</div>';
 }}
-function openDrill(tr,day,reg,span){{
-  var b=bucket(day,reg); if(!b) return;
+function instRowHtml(r){{
+  var src=r[1]?('<br><span class="src">'+
+    (r[2]?'<a href="'+esc(r[2])+'" target="_blank" rel="noopener">':'')+
+    esc(lang==="zh"?"来源: ":"source: ")+esc(r[1])+(r[2]?' ↗</a>':'')+'</span>'):'';
+  return '<div class="p"><b>'+esc(r[0])+'</b>'+src+'</div>';
+}}
+function openDrill(tr,day,reg,kind){{
+  var bp=kind==="i"?null:bucket(day,reg);
+  var bi=kind&&kind!=="i"?null:bucket(day,reg,ADDED_I);
+  if(!bp&&!bi) return;
   var cols=tr.children.length;
   var html='';
-  b.forEach(function(pair){{
+  (bp||[]).forEach(function(pair){{
     var k=pair[0],d=pair[1];
     html+='<div class="dhead">'+esc(regName(k))+' &middot; '+d.n+' '+
           esc(lang==="zh"?"位新增人物":"people added")+' &middot; '+esc(day)+'</div><div class="plist">';
@@ -555,6 +584,15 @@ function openDrill(tr,day,reg,span){{
     html+='</div>';
     if(d.n>d.rows.length) html+='<div class="more">'+
       esc(lang==="zh"?("另有 "+(d.n-d.rows.length)+" 人未在此列出"):("+"+(d.n-d.rows.length)+" more not listed here"))+'</div>';
+  }});
+  (bi||[]).forEach(function(pair){{
+    var k=pair[0],d=pair[1];
+    html+='<div class="dhead">'+esc(regName(k))+' &middot; '+d.n+' '+
+          esc(lang==="zh"?"家新增机构":"institutions added")+' &middot; '+esc(day)+'</div><div class="plist">';
+    d.rows.forEach(function(r){{html+=instRowHtml(r);}});
+    html+='</div>';
+    if(d.n>d.rows.length) html+='<div class="more">'+
+      esc(lang==="zh"?("另有 "+(d.n-d.rows.length)+" 家未在此列出"):("+"+(d.n-d.rows.length)+" more not listed here"))+'</div>';
   }});
   html+='<div class="prov">'+esc(lang==="zh"
     ?"来源：每位人物均来自公司/交易所官方披露、年报或官方新闻稿。“已核实”表示该职位已对照官方来源核对；“待核实”表示已记录但尚未核对。点击左侧地区名可在图谱中查看。"
@@ -570,11 +608,11 @@ document.addEventListener("click",function(ev){{
   var tr=s.closest("tr"), nx=tr.nextSibling;
   var open=nx&&nx.className==="drill";
   closeAll(); hideTip();
-  if(!open) openDrill(tr,s.getAttribute("data-day"),s.getAttribute("data-reg"),s);
+  if(!open) openDrill(tr,s.getAttribute("data-day"),s.getAttribute("data-reg"),s.getAttribute("data-kind"));
 }});
 document.addEventListener("mouseover",function(ev){{
   var s=ev.target.closest?ev.target.closest(".chip"):null;
-  if(s) showTip(ev,s.getAttribute("data-day"),s.getAttribute("data-reg"));
+  if(s) showTip(ev,s.getAttribute("data-day"),s.getAttribute("data-reg"),s.getAttribute("data-kind"));
 }});
 document.addEventListener("mousemove",function(ev){{
   if(tip.style.display==="block"){{
