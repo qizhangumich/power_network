@@ -73,7 +73,7 @@ const INSTITUTIONS = [
   {id:"lst_nind", n:"National Industries Group Holding K.P.S.C.", s:"conglomerate", t:2, p:50, short:"NIND"},
   {id:"lst_tabreed", n:"National Central Cooling Company PJSC (Tabreed)", s:"utilities", t:2, p:64, short:"Tabreed"},
   {id:"lst_alec", n:"ALEC Holdings PJSC", s:"industry", t:2, p:60, short:"ALEC Holdings"},
-  {id:"lst_salambah", n:"Al Salam Bank B.S.C.", s:"finance", t:2, p:50, short:"Al Salam Bank B.S.C."},
+  {id:"lst_salambah", n:"Al Salam Bank B.S.C.", s:"finance", t:2, p:62, short:"Al Salam Bank"},
   {id:"lst_mkhzn", n:"Makhazen", s:"industry", t:2, p:50, short:"Makhazen"},
   {id:"lst_ajmanbank", n:"Ajman Bank PJSC", s:"finance", t:2, p:50, short:"Ajman Bank PJSC"},
   {id:"lst_unioncoop", n:"Union Coop", s:"consumer_stap", t:2, p:50, short:"Union Coop"},

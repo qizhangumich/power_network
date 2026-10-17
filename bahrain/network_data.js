@@ -65,7 +65,7 @@ const INSTITUTIONS = [
   {id:"lst_arig", n:"Arab Insurance Group B.S.C.", s:"finance", t:2, p:50, short:"ARIG"},
   {id:"lst_solid", n:"Solidarity Bahrain B.S.C.", s:"finance", t:2, p:50, short:"SOLID"},
   {id:"lst_bkic", n:"Bahrain Kuwait Insurance Company B.S.C.", s:"finance", t:2, p:50, short:"BKIC"},
-  {id:"lst_bnh", n:"Bahrain National Holding Company B.S.C.", s:"finance", t:2, p:50, short:"BNH"},
+  {id:"lst_bnh", n:"Bahrain National Holding Company B.S.C.", s:"finance", t:2, p:58, short:"BNH"},
   {id:"lst_seef", n:"Seef Properties B.S.C.", s:"realestate", t:2, p:58, short:"Seef Properties"},
   {id:"lst_dutyf", n:"Bahrain Duty Free Shop Complex B.S.C.", s:"consumer_disc", t:2, p:50, short:"DUTYF"},
   {id:"lst_bcfc", n:"Bahrain Commercial Facilities Company B.S.C.", s:"finance", t:2, p:58, short:"BCFC"},

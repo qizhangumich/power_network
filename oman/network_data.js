@@ -66,7 +66,7 @@ const INSTITUTIONS = [
   {id:"lst_batp", n:"Al Batinah Power Company SAOG", s:"utilities", t:2, p:50, short:"BATP"},
   {id:"lst_bkdb", n:"Bank Dhofar SAOG", s:"finance", t:2, p:64, short:"BankDhofar"},
   {id:"lst_bknz", n:"Bank Nizwa SAOG", s:"finance", t:2, p:58, short:"Bank Nizwa SAOG"},
-  {id:"lst_atmi", n:"Al Jazeera Steel Products Company SAOG", s:"materials", t:2, p:50, short:"ATMI"},
+  {id:"lst_atmi", n:"Al Jazeera Steel Products Company SAOG", s:"materials", t:2, p:58, short:"ATMI"},
   {id:"lst_didi", n:"Dhofar International Development & Investment SAOG", s:"finance", t:2, p:50, short:"DIDI"},
   {id:"lst_gfic", n:"Global Financial Investments Holding SAOG", s:"finance", t:2, p:50, short:"GFIC"},
   {id:"lst_ufci", n:"United Finance Company SAOG", s:"finance", t:2, p:50, short:"UFCI"},
