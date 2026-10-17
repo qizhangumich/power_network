@@ -167,6 +167,7 @@ const INSTITUTIONS = [
   {id:"shura_council", n:"Shura Council", s:"gov", t:1, p:70, short:"Shura Council"},
   {id:"council_of_reps", n:"Council of Representatives", s:"gov", t:1, p:70, short:"Council of Reps"},
   {id:"benefit", n:"BENEFIT (The Benefit Company)", s:"finance", t:2, p:62, short:"BENEFIT"},
+  {id:"bdf_hospital", n:"Bahrain Defence Force Royal Medical Services", s:"health", t:2, p:56, short:"BDF Hospital"},
 ];
 
 const PEOPLE = [
@@ -339,6 +340,7 @@ const PEOPLE = [
   {id:"yusef_al_yusef", n:"Yusef Al-Yusef", t:2, p:58, s:"finance", roles:[
     ["investcorp","Leader - Global Distribution Platform","executive","v"]]},
   {id:"shaikh_abdulla_bin", n:"Shaikh Abdulla bin Khalifa Al Khalifa", t:2, p:62, s:"comm", roles:[
+    ["beyon_money","Board Member, Beyon Money Investments B.S.C. (Closed)","board","v"],
     ["edamah","Chairman","board","v"],
     ["beyon","Chairman","board","v"],
     ["mumtalakat","Chief Executive Officer","executive","v"]]},
@@ -361,6 +363,7 @@ const PEOPLE = [
   {id:"sambamurthy_natarajan", n:"Sambamurthy Natarajan", t:2, p:52, s:"comm", roles:[
     ["beyon","Director","board","v"]]},
   {id:"saleh_romeih", n:"Saleh Romeih", t:2, p:52, s:"comm", roles:[
+    ["beyon_money","Board Member, Beyon Money Investments B.S.C. (Closed)","board","v"],
     ["beyon","Director","board","v"]]},
   {id:"reem_altajer", n:"Reem Altajer", t:2, p:58, s:"comm", roles:[
     ["beyon","Chief Financial Officer","executive","v"]]},
@@ -393,6 +396,7 @@ const PEOPLE = [
   {id:"elham_hasan", n:"Elham Hasan", t:2, p:52, s:"sovereign", roles:[
     ["mumtalakat","Board Member","board","v"]]},
   {id:"khalid_hussain_taqi", n:"Khalid Hussain Taqi", t:2, p:62, s:"sovereign", roles:[
+    ["beyon_money","Board Member, Beyon Money Investments B.S.C. (Closed) (until Dec 2024)","board","v"],
     ["array_innovation","Chairman of the Board","board","ns"],
     ["amana_healthcare","Board Member (Managing Director - Local Impact Investments, Mumtalakat)","board","ns"],
     ["bahrain_airport","Chairman","board","v"],
@@ -457,6 +461,7 @@ const PEOPLE = [
   {id:"tariq_jaleel_alsaffar", n:"Tariq Jaleel AlSaffar", t:2, p:62, s:"finance", roles:[
     ["lst_bbk","Chairperson","board","v"]]},
   {id:"aref_haider_rahimi", n:"Aref Haider Rahimi", t:2, p:52, s:"finance", roles:[
+    ["lst_bnh","Chairman","board","v"],
     ["lst_bbk","Board Member","board","v"]]},
   {id:"ghaneya_mohsen_alderazi", n:"Ghaneya Mohsen AlDerazi", t:2, p:52, s:"finance", roles:[
     ["lst_bbk","Board Member","board","v"]]},
@@ -672,6 +677,7 @@ const PEOPLE = [
   {id:"hamad_rashed_hilal", n:"Hamad Rashed Hilal Isa", t:2, p:62, s:"consumer_disc", roles:[
     ["lst_abraaj","Chairman","board","v"]]},
   {id:"abdulla_rashed_hilal", n:"Abdulla Rashed Hilal Isa", t:2, p:62, s:"consumer_disc", roles:[
+    ["al_hilal","Director, Al Hilal Stonework","executive","v"],
     ["lst_abraaj","Vice Chairman","board","v"]]},
   {id:"ali_rashed_hilal", n:"Ali Rashed Hilal Isa", t:2, p:52, s:"consumer_disc", roles:[
     ["lst_abraaj","Executive Director","board","v"]]},
@@ -891,6 +897,7 @@ const PEOPLE = [
     ["nbb","Chief Executive-Strategic Accounts","executive","v"],
     ["nbb","Chief Excutive - Strategic Accounts","executive","v"]]},
   {id:"sami_mohamed_zainal", n:"Sami Mohamed Zainal", t:2, p:52, s:"finance", roles:[
+    ["lst_bnh","Director","board","v"],
     ["general_poultry","Chairman of the Board of Directors","board","v"],
     ["lst_bcfc","Director","board","v"]]},
   {id:"hasan_bader_kaiksow", n:"Hasan Bader Kaiksow", t:2, p:52, s:"finance", roles:[
@@ -1323,6 +1330,7 @@ const PEOPLE = [
   {id:"nihal_ranjit_manahunga", n:"Nihal Ranjit Manahunga", t:2, p:58, s:"consumer_disc", roles:[
     ["lst_cineco","Chief Accountant","executive","v"]]},
   {id:"jehad_yusuf_amin", n:"Jehad Yusuf Amin", t:2, p:62, s:"consumer_disc", roles:[
+    ["lst_bnh","Non-Executive Director","board","v"],
     ["lst_dutyf","Vice Chairman","board","v"]]},
   {id:"h_h_sh", n:"H.H Sh. Khalid Bin Ali Bin Khalifa Al Khalifa", t:2, p:52, s:"consumer_disc", roles:[
     ["lst_dutyf","Director","board","v"]]},
@@ -1956,6 +1964,7 @@ const PEOPLE = [
   {id:"dr_osama_mohamed", n:"Dr. Osama Mohamed Bahar", t:2, p:52, s:"finance", roles:[
     ["lst_salam","Shari'a Board Member","board","v"]]},
   {id:"rafik_nayed", n:"Rafik Nayed", t:2, p:60, s:"finance", roles:[
+    ["asb_capital","Managing Director, ASB Capital (also Group CEO, Al Salam Bank)","executive","v"],
     ["lst_salam","Chief Executive Officer","executive","v"]]},
   {id:"anwar_murad", n:"Anwar Murad", t:2, p:60, s:"finance", roles:[
     ["lst_salam","Deputy CEO","executive","v"]]},
@@ -3409,6 +3418,26 @@ const PEOPLE = [
     ["asu_bahrain","Board of Trustees Member","board","v"]]},
   {id:"hatem_masri", n:"Hatem Masri", t:2, p:58, s:"education", roles:[
     ["asu_bahrain","President","executive","v"]]},
+  {id:"bruce_rayner", n:"Bruce Rayner", t:2, p:60, s:"finance", roles:[
+    ["beyon_money","Chief Executive Officer, Beyon Money","executive","v"]]},
+  {id:"loay_sperinck", n:"Loay Sperinck", t:2, p:58, s:"tech", roles:[
+    ["beventures","Investment Manager, BeVentures","executive","v"]]},
+  {id:"sara_alsharif", n:"Sara Alsharif", t:2, p:58, s:"tech", roles:[
+    ["beventures","Investment Manager, BeVentures","executive","v"]]},
+  {id:"ronnie_middleton", n:"Ronnie Middleton", t:2, p:60, s:"comm", roles:[
+    ["al_hilal","Managing Director, Al Hilal Publishing & Marketing Group","executive","v"]]},
+  {id:"jubran_abdulrahman", n:"Jubran Abdulrahman", t:2, p:58, s:"comm", roles:[
+    ["al_hilal","Executive Director, Al Hilal Group","executive","v"]]},
+  {id:"ian_dench", n:"Ian Dench", t:2, p:58, s:"comm", roles:[
+    ["al_hilal","Executive Director, Al Hilal Group","executive","v"]]},
+  {id:"christopher_core", n:"Christopher Core", t:2, p:58, s:"comm", roles:[
+    ["al_hilal","Group Business Development Executive, Al Hilal Stonework","executive","v"]]},
+  {id:"abdulhussain_khalil_dewani", n:"Abdulhussain Khalil Dewani", t:2, p:62, s:"finance", roles:[
+    ["lst_bnh","Chairman (prior to March 2026 election)","board","v"]]},
+  {id:"abdulrahman_mohamed_juma", n:"Abdulrahman Mohamed Juma", t:2, p:52, s:"finance", roles:[
+    ["lst_bnh","Director","board","v"]]},
+  {id:"ali_hasan_mahmood", n:"Ali Hasan Mahmood", t:2, p:52, s:"finance", roles:[
+    ["lst_bnh","Director","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -3563,4 +3592,5 @@ const AKA = {
   shura_council:["Majlis Al-Shura","Consultative Council","Consultative Assembly"],
   council_of_reps:["Chamber of Deputies","Majlis Al-Nuwab","House of Representatives","Parliament of Bahrain"],
   benefit:["Benefit Company;Benefit Trade Finance Registry;Trade Finance Registry;BenefitPay;GCCNet;EFTS","The Benefit Company"],
+  bdf_hospital:["BDFRMS","Bahrain Royal Medical Services"],
 };

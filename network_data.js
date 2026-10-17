@@ -299,6 +299,11 @@ const INSTITUTIONS = [
   {id:"federal_national_council", n:"Federal National Council", s:"gov", t:1, p:58, short:"FNC"},
   {id:"astra_tech", n:"Astra Tech", s:"tech", t:3, p:66, short:"Astra Tech"},
   {id:"digit9", n:"Digit9", s:"finance", t:3, p:68, short:"Digit9"},
+  {id:"rabdan_academy", n:"Rabdan Academy", s:"education", t:2, p:58, short:"Rabdan Academy"},
+  {id:"agda", n:"Anwar Gargash Diplomatic Academy", s:"education", t:3, p:54, short:"AGDA"},
+  {id:"fatima_college", n:"Fatima College of Health Sciences", s:"education", t:2, p:56, short:"Fatima College"},
+  {id:"ecae", n:"Emirates College for Advanced Education", s:"education", t:3, p:52, short:"ECAE"},
+  {id:"hct", n:"Higher Colleges of Technology", s:"education", t:1, p:64, short:"HCT"},
 ];
 
 const PEOPLE = [
@@ -545,6 +550,7 @@ const PEOPLE = [
     ], note:"Sister of Khaldoon and Mohamed Khalifa Al Mubarak; also President of IUCN."},
   {id:"tareq_hosani", n:"Tareq Abdul Raheem Al Hosani", t:1, p:76, s:"industry", roles:[
     ["tawazun","Secretary-General","government","v"],
+    ["calidus","Chairman of Calidus","board","ns"],
     ]},
   {id:"ghannam", n:"Ghannam Butti Al Mazrouei", t:1, p:74, s:"finance", roles:[
     ["adx","Chairman","board","v"],
@@ -933,6 +939,7 @@ const PEOPLE = [
   {id:"mohamed_saif_al", n:"Mohamed Saif Al Suwaidi", t:2, p:52, s:"finance", roles:[
     ["fab","Board Member","board","v"],
     ["adfd","Director General","executive","v"],
+    ["lst_ords","Board Member","board","v"],
     ]},
   {id:"khalifa_ateeq_al", n:"Khalifa Ateeq Al Mazrouei", t:2, p:52, s:"finance", roles:[
     ["fab","Board Member","board","v"],
@@ -1582,6 +1589,7 @@ const PEOPLE = [
   {id:"ahmed_al_shamsi", n:"Ahmed Al Shamsi", t:2, p:58, s:"comm", roles:[
     ["e_and","Group Chief Corporate Affairs Officer","executive","v"],
     ["adssc","Chief Executive Officer","executive","v"],
+    ["trojan","Group Chief Executive Officer","executive","ns"],
     ]},
   {id:"mohamed_dukandar", n:"Mohamed Dukandar", t:2, p:58, s:"comm", roles:[
     ["e_and","Group Chief Risk & Assurance Officer","executive","v"],
@@ -2653,6 +2661,7 @@ const PEOPLE = [
   {id:"amal_al_ameri", n:"Amal Al Ameri", t:2, p:52, s:"industry", roles:[
     ["sanad","Board Member","board","v"],
     ["strata","Board Member (Chair, Audit and Risk Committee)","board","v"],
+    ["mubadala","Chief Financial Officer, Real Assets","executive","ns"],
     ]},
   {id:"james_hogan", n:"James Hogan", t:2, p:52, s:"industry", roles:[
     ["sanad","Board Member","board","v"],
@@ -3931,6 +3940,72 @@ const PEOPLE = [
   {id:"sameer_al_maskari", n:"Sameer Al Maskari", t:2, p:58, s:"tech", roles:[
     ["astra_tech","Chief Human Resources Officer","executive","ns"],
     ]},
+  {id:"khalaf_sultan_rashed", n:"Khalaf Sultan Rashed Saeed Al Dhaheri", t:2, p:62, s:"realestate", roles:[
+    ["adnh","Chairman of the Board of Directors","board","ns"],
+    ]},
+  {id:"sheikh_ahmed_mohammed_b", n:"Sheikh Ahmed Mohammed Sultan Suroor Aldhahiri", t:2, p:62, s:"realestate", roles:[
+    ["adnh","Vice Chairman and Managing Director","board","ns"],
+    ]},
+  {id:"naseem_hussein_ahmed", n:"Naseem Hussein Ahmed Al Hamed", t:2, p:52, s:"realestate", roles:[
+    ["adnh","Board Secretary","board","ns"],
+    ]},
+  {id:"rami_naim_al", n:"Rami Naim Al Muhtaseb", t:2, p:58, s:"realestate", roles:[
+    ["adnh","Chief Financial Officer","executive","ns"],
+    ]},
+  {id:"nadim_elhaj", n:"Nadim ElHaj", t:2, p:58, s:"realestate", roles:[
+    ["adnh","Chief Legal Officer","executive","ns"],
+    ]},
+  {id:"humaid_al_rumaithi", n:"Humaid Al Rumaithi", t:2, p:58, s:"consumer_stap", roles:[
+    ["silal","CEO, Food Security, Silal Group","executive","ns"],
+    ]},
+  {id:"shamal_mohammed", n:"Shamal Mohammed", t:2, p:58, s:"consumer_stap", roles:[
+    ["silal","CEO, Innovation Oasis, Silal Group","executive","ns"],
+    ]},
+  {id:"mohammed_mahmoud", n:"Mohammed Mahmoud", t:2, p:60, s:"industry", roles:[
+    ["trojan","CEO of Trojan General Contracting (subsidiary)","executive","ns"],
+    ]},
+  {id:"wissam_ayoub", n:"Wissam Ayoub", t:2, p:58, s:"comm", roles:[
+    ["skynewsarabia","Studio Operations Director","executive","ns"],
+    ]},
+  {id:"sheikh_faisal_bin", n:"Sheikh Faisal Bin Thani Al Thani", t:2, p:62, s:"comm", roles:[
+    ["lst_ords","Chairman of the Board","board","v"],
+    ]},
+  {id:"nasser_mohammed_marafih", n:"Nasser Mohammed Marafih", t:2, p:62, s:"comm", roles:[
+    ["lst_ords","Deputy Chairman of the Board","board","v"],
+    ]},
+  {id:"essa_hilal_al", n:"Essa Hilal Al Kuwari", t:2, p:52, s:"comm", roles:[
+    ["lst_ords","Board Member","board","v"],
+    ]},
+  {id:"yousef_mohammed_al", n:"Yousef Mohammed Al Obaidly", t:2, p:52, s:"comm", roles:[
+    ["lst_ords","Board Member","board","v"],
+    ]},
+  {id:"ahmed_bin_ali", n:"Ahmed Bin Ali Al Hammadi", t:2, p:52, s:"comm", roles:[
+    ["lst_ords","Board Member (GRSIA representative)","board","v"],
+    ]},
+  {id:"saud_bin_nasser", n:"Saud Bin Nasser Al Thani", t:2, p:52, s:"comm", roles:[
+    ["lst_ords","Board Member (Wasit Trading Co. representative)","board","v"],
+    ]},
+  {id:"mohammed_nasser_al_b", n:"Mohammed Nasser Al Hajri", t:2, p:52, s:"comm", roles:[
+    ["lst_ords","Board Member","board","v"],
+    ]},
+  {id:"abdulla_mubarak_al", n:"Abdulla Mubarak Al-Khalifa", t:2, p:52, s:"comm", roles:[
+    ["lst_ords","Board Member (QNB representative)","board","v"],
+    ]},
+  {id:"nasser_rashid_al", n:"Nasser Rashid Al Humaidi", t:2, p:52, s:"comm", roles:[
+    ["lst_ords","Board Member","board","v"],
+    ]},
+  {id:"aziz_aluthman_fakhroo", n:"Aziz Aluthman Fakhroo", t:2, p:60, s:"comm", roles:[
+    ["lst_ords","Group CEO","executive","v"],
+    ]},
+  {id:"abdulla_ahmed_al_b", n:"Abdulla Ahmed Al-Zaman", t:2, p:58, s:"comm", roles:[
+    ["lst_ords","Group CFO","executive","v"],
+    ]},
+  {id:"fatima_sultan_al", n:"Fatima Sultan Al Kuwari", t:2, p:58, s:"comm", roles:[
+    ["lst_ords","Group Chief Human Resource Officer","executive","v"],
+    ]},
+  {id:"rene_werner", n:"Rene Werner", t:2, p:58, s:"comm", roles:[
+    ["lst_ords","Group Chief Strategy Officer","executive","v"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -4273,4 +4348,7 @@ const AKA = {
   cbuae:["UAE Central Bank"],
   hussain_nowais:["Hussain Jassim Al Nowais"],
   federal_national_council:["FNC"],
+  rabdan_academy:["RA"],
+  agda:["Emirates Diplomatic Academy","EDA"],
+  fatima_college:["FCHS"],
 };

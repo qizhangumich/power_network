@@ -149,6 +149,8 @@ const INSTITUTIONS = [
   {id:"raknor", n:"RAKNOR", s:"materials", t:3, p:54, short:"RAKNOR"},
   {id:"arex", n:"AREX", s:"industry", t:3, p:52, short:"AREX"},
   {id:"arif_developments", n:"Arif Developments", s:"realestate", t:3, p:52, short:"Arif Developments"},
+  {id:"emirates_health_svcs", n:"Emirates Health Services", s:"health", t:2, p:60, short:"Emirates Health Svcs"},
+  {id:"al_qassimi_hospital", n:"Al Qassimi Hospital", s:"health", t:2, p:58, short:"Al Qassimi Hospital"},
 ];
 
 const PEOPLE = [
@@ -1363,6 +1365,7 @@ const OWNERSHIP = [
   ["khorfakkan_council","shjgov","municipal council formed by Emiri Decree","ns"],
   ["raknor","stevin_rock","subsidiary","v"],
   ["arex","stevin_rock","subsidiary","v"],
+  ["al_qassimi_hospital","emirates_health_svcs","operated by","v"],
 ];
 
 const FAMILY = [
@@ -1458,4 +1461,6 @@ const AKA = {
   khorfakkan_council:["Khor Fakkan Municipal Council"],
   thumbay_univ_hosp:["TUH"],
   al_qasimi_fdn:["AQF","Al Qasimi Foundation for Policy Research"],
+  emirates_health_svcs:["EHS"],
+  al_qassimi_hospital:["Al Qasimi Hospital"],
 };

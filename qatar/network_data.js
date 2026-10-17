@@ -231,6 +231,7 @@ const INSTITUTIONS = [
   {id:"al_raya", n:"Al Raya", s:"comm", t:2, p:55, short:"Al Raya"},
   {id:"aspetar", n:"Aspetar", s:"health", t:2, p:57, short:"Aspetar"},
   {id:"npc", n:"National Planning Council", s:"gov", t:1, p:64, short:"NPC"},
+  {id:"qna", n:"Qatar News Agency", s:"comm", t:2, p:58, short:"QNA"},
 ];
 
 const PEOPLE = [

@@ -1334,6 +1334,7 @@ const PEOPLE = [
   {id:"mohammed_khalifa_almulhim", n:"Mohammed Khalifa Almulhim", t:2, p:52, s:"energy", roles:[
     ["lst_4030","Board Member","board","v"]]},
   {id:"yasser_suliman_aldawood", n:"Yasser Suliman Aldawood", t:2, p:52, s:"energy", roles:[
+    ["lst_8313","Board Member","board","v"],
     ["lst_4030","Board Member","board","v"]]},
   {id:"baker_abdulrahman_almohana", n:"Baker Abdulrahman Almohana", t:2, p:52, s:"energy", roles:[
     ["lst_4030","Board Member","board","v"]]},
@@ -2908,6 +2909,74 @@ const PEOPLE = [
     ["lst_4015","Secretary of the Board of Directors","executive","v"]]},
   {id:"faris_alghannam", n:"Faris AlGhannam", t:2, p:62, s:"health", roles:[
     ["lst_4015","Independent Board Member & Chair of Audit Committee","board","v"]]},
+  {id:"abdullah_bin_abdulrahman_b", n:"Abdullah bin Abdulrahman Al-Obaikan", t:2, p:62, s:"gov", roles:[
+    ["riyadh_chamber","Chairman of the Board","board","v"]]},
+  {id:"abdullah_bin_ibrahim", n:"Abdullah bin Ibrahim Al-Kharaif", t:2, p:62, s:"gov", roles:[
+    ["riyadh_chamber","First Vice Chairman","board","v"]]},
+  {id:"ajlan_bin_saad", n:"Ajlan bin Saad Al-Ajlan", t:2, p:62, s:"gov", roles:[
+    ["riyadh_chamber","Second Vice Chairman","board","v"]]},
+  {id:"khalid_al_quwaiz", n:"Khalid Al-Quwaiz", t:2, p:52, s:"gov", roles:[
+    ["riyadh_chamber","Board Member","board","v"]]},
+  {id:"abdulaziz_al_onqari", n:"Abdulaziz Al-Onqari", t:2, p:52, s:"gov", roles:[
+    ["riyadh_chamber","Board Member","board","v"]]},
+  {id:"khulood_al_dakheel", n:"Khulood Al-Dakheel", t:2, p:52, s:"gov", roles:[
+    ["riyadh_chamber","Board Member","board","v"]]},
+  {id:"salem_al_ajmi", n:"Salem Al-Ajmi", t:2, p:52, s:"gov", roles:[
+    ["riyadh_chamber","Board Member","board","v"]]},
+  {id:"mohammed_al_murshid", n:"Mohammed Al-Murshid", t:2, p:52, s:"gov", roles:[
+    ["riyadh_chamber","Board Member","board","v"]]},
+  {id:"ziyad_al_sheikh", n:"Ziyad Al-Sheikh", t:2, p:52, s:"gov", roles:[
+    ["riyadh_chamber","Board Member","board","v"]]},
+  {id:"nugaimish_al_ajmi", n:"Nugaimish Al-Ajmi", t:2, p:52, s:"gov", roles:[
+    ["riyadh_chamber","Board Member","board","v"]]},
+  {id:"thamer_bin_rees", n:"Thamer bin Rees", t:2, p:52, s:"gov", roles:[
+    ["riyadh_chamber","Board Member","board","v"]]},
+  {id:"abdullah_al_rumaih", n:"Abdullah Al-Rumaih", t:2, p:52, s:"gov", roles:[
+    ["riyadh_chamber","Board Member","board","v"]]},
+  {id:"adnan_al_khalaf", n:"Adnan Al-Khalaf", t:2, p:52, s:"gov", roles:[
+    ["riyadh_chamber","Board Member","board","v"]]},
+  {id:"latifa_al_waalan", n:"Latifa Al-Waalan", t:2, p:52, s:"gov", roles:[
+    ["riyadh_chamber","Board Member","board","v"]]},
+  {id:"abdulsalam_al_majid", n:"Abdulsalam Al-Majid", t:2, p:52, s:"gov", roles:[
+    ["riyadh_chamber","Board Member","board","v"]]},
+  {id:"turki_al_ajlan", n:"Turki Al-Ajlan", t:2, p:52, s:"gov", roles:[
+    ["riyadh_chamber","Board Member","board","v"]]},
+  {id:"ibrahim_bin_al", n:"Ibrahim bin Al-Sheikh", t:2, p:52, s:"gov", roles:[
+    ["riyadh_chamber","Board Member","board","v"]]},
+  {id:"salman_al_otaibi", n:"Salman Al-Otaibi", t:2, p:52, s:"gov", roles:[
+    ["riyadh_chamber","Board Member","board","v"]]},
+  {id:"nasser_bin_othman", n:"Nasser bin Othman Abu Haimed", t:2, p:58, s:"gov", roles:[
+    ["riyadh_chamber","Secretary-General","executive","v"]]},
+  {id:"abdullah_bin_bandar", n:"Abdullah bin Bandar Al-Mutairi", t:2, p:58, s:"gov", roles:[
+    ["riyadh_chamber","Executive Director of Legal Affairs & Board Secretary","executive","v"]]},
+  {id:"hosam_arab", n:"Hosam Arab", t:2, p:60, s:"finance", roles:[
+    ["tabby","CEO & Co-Founder","executive","v"]]},
+  {id:"daniil_barkalov", n:"Daniil Barkalov", t:2, p:58, s:"finance", roles:[
+    ["tabby","COO & Co-Founder","executive","v"]]},
+  {id:"moayad_alfallaj", n:"Moayad Alfallaj", t:2, p:62, s:"finance", roles:[
+    ["lst_8313","Chairman of the Board","board","v"]]},
+  {id:"fahad_abuhimed", n:"Fahad Abuhimed", t:2, p:62, s:"finance", roles:[
+    ["lst_8313","Vice Chairman of the Board","board","v"]]},
+  {id:"abdulrahman_ayban", n:"Abdulrahman Ayban", t:2, p:52, s:"finance", roles:[
+    ["lst_8313","Board Member","board","v"]]},
+  {id:"bandr_alhomaly", n:"Bandr Alhomaly", t:2, p:52, s:"finance", roles:[
+    ["lst_8313","Board Member","board","v"]]},
+  {id:"fahad_almansour", n:"Fahad Almansour", t:2, p:52, s:"finance", roles:[
+    ["lst_8313","Board Member","board","v"]]},
+  {id:"nora_alkadi", n:"Nora Alkadi", t:2, p:52, s:"finance", roles:[
+    ["lst_8313","Board Member","board","v"]]},
+  {id:"abdulrahman_almalik", n:"Abdulrahman Almalik", t:2, p:52, s:"finance", roles:[
+    ["lst_8313","Board Member","board","v"]]},
+  {id:"turki_alsudairy", n:"Turki Alsudairy", t:2, p:52, s:"finance", roles:[
+    ["lst_8313","Board Member","board","v"]]},
+  {id:"zaki_al_ismail", n:"Zaki Al Ismail", t:2, p:58, s:"finance", roles:[
+    ["lst_8313","Board Secretary","executive","v"]]},
+  {id:"majed_bin_abdullah", n:"Majed bin Abdullah Al-Bawardi", t:2, p:62, s:"finance", roles:[
+    ["lst_8313","Chairman of the Board","board","v"]]},
+  {id:"nicola_garelli", n:"Nicola Garelli", t:2, p:60, s:"finance", roles:[
+    ["lst_8313","Chief Executive Officer","executive","v"]]},
+  {id:"abdulrahman_alharbi", n:"Abdulrahman Alharbi", t:2, p:60, s:"finance", roles:[
+    ["lst_8313","Deputy CEO & Chief Technology Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

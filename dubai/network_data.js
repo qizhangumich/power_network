@@ -207,6 +207,12 @@ const INSTITUTIONS = [
   {id:"khansaheb", n:"Khansaheb Group", s:"industry", t:3, p:55, short:"Khansaheb"},
   {id:"network_intl", n:"Network International LLC", s:"finance", t:2, p:74, short:"Network Intl"},
   {id:"prypco", n:"PRYPCO", s:"tech", t:3, p:72, short:"PRYPCO"},
+  {id:"american_hospital", n:"American Hospital Dubai", s:"health", t:2, p:60, short:"American Hospital"},
+  {id:"middlesex_dubai", n:"Middlesex University Dubai", s:"education", t:3, p:54, short:"Middlesex Dubai"},
+  {id:"murdoch_dubai", n:"Murdoch University Dubai", s:"education", t:3, p:52, short:"Murdoch Dubai"},
+  {id:"uow_dubai", n:"University of Wollongong in Dubai", s:"education", t:3, p:54, short:"UOW Dubai"},
+  {id:"prime_healthcare", n:"Prime Healthcare Group", s:"health", t:3, p:56, short:"Prime Healthcare"},
+  {id:"mbrsg", n:"Mohammed Bin Rashid School of Government", s:"education", t:2, p:60, short:"MBRSG"},
 ];
 
 const PEOPLE = [
@@ -282,6 +288,7 @@ const PEOPLE = [
     ["dpworld","Chairman","board","v"]],
     note:"Chaired DFM 2007–Nov 2021; succeeded as DFM chairman by Helal Saeed Al Marri (Dubai Media Office, 3 Nov 2021). Appointed Chairman of DP World in Feb 2026."},
   {id:"helal_marri", n:"Helal Saeed Almarri", t:1, p:78, s:"gov", roles:[
+    ["borse_dubai","Chairman, Dubai Financial Market","board","ns"],
     ["dwtc","Director General, DWTC Authority","executive","ns"],
     ["dubai_future_fdn","Board Member (Director General, Dubai Department of Economy and Tourism)","board","v"],
     ["vara","Chairman of the Executive Board","board","v"],
@@ -490,6 +497,7 @@ const PEOPLE = [
     ["dpworld","Group Chairman & CEO (2007–Feb 2026)","executive","v","former:until Feb 2026"]],
     note:"Led DP World's global expansion for nearly two decades; stepped down Feb 2026 — role split between Essa Kazim (Chairman) and Yuvraj Narayan (Group CEO)."},
   {id:"yuvraj_narayan", n:"Yuvraj Narayan", t:2, p:58, s:"industry", roles:[
+    ["borse_dubai","Board Member, Dubai Financial Market","board","ns"],
     ["dfm","Board Member","board","v"],
     ["dpworld","Group Chief Executive Officer","executive","v"]]},
   {id:"deepak_parekh", n:"Deepak Parekh", t:2, p:52, s:"industry", roles:[
@@ -637,6 +645,7 @@ const PEOPLE = [
     ["tecom","Chief Executive Officer","executive","v"],
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
   {id:"wesam_lootah", n:"Wesam Lootah", t:2, p:52, s:"comm", roles:[
+    ["borse_dubai","Board Member, Dubai Financial Market","board","ns"],
     ["dfm","Board Member","board","v"],
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
   {id:"khalifa_almheiri", n:"Khalifa AlMheiri", t:2, p:52, s:"comm", roles:[
@@ -927,6 +936,7 @@ const PEOPLE = [
   {id:"faisal_bin_juma", n:"Faisal Bin Juma Belhoul", t:2, p:52, s:"industry", roles:[
     ["lst_salik","Board Member","board","v"]]},
   {id:"moaza_saeed_al", n:"Moaza Saeed Al Marri", t:2, p:52, s:"industry", roles:[
+    ["borse_dubai","Board Member, Dubai Financial Market","board","ns"],
     ["rta","Member Board of Executive Directors","board","v"],
     ["dfm","Board Member","board","v"],
     ["lst_salik","Board Member","board","v"]]},
@@ -1017,6 +1027,7 @@ const PEOPLE = [
   {id:"ahmed_saeed_al", n:"Ahmed Saeed Al Calily", t:2, p:62, s:"materials", roles:[
     ["ega","Board Member; Chair of the Human Capital Committee","board","v"]]},
   {id:"abdul_wahed_mohammad", n:"Abdul Wahed Mohammad Al Fahim", t:2, p:62, s:"materials", roles:[
+    ["borse_dubai","Chairman, Nasdaq Dubai","board","ns"],
     ["nasdaq_dubai","Chairman","board","v"],
     ["ega","Board Member; Chairman of the Audit and Risk Committee","board","v"]]},
   {id:"zouhir_regragui", n:"Zouhir Regragui", t:2, p:52, s:"materials", roles:[
@@ -1417,6 +1428,7 @@ const PEOPLE = [
   {id:"shaker_fareed_zainal", n:"Shaker Fareed Zainal", t:2, p:62, s:"finance", roles:[
     ["lst_amlak","Vice Chairman","board","v"]]},
   {id:"khalid_salem_al", n:"Khalid Salem Al-Halyan", t:2, p:52, s:"finance", roles:[
+    ["lst_salambah","Board Member","board","ns"],
     ["lst_amlak","Board Member","board","v"]]},
   {id:"rashed_mohammad_al", n:"Rashed Mohammad Al Awadhi", t:2, p:52, s:"finance", roles:[
     ["lst_amlak","Board Member","board","v"]]},
@@ -1558,10 +1570,12 @@ const PEOPLE = [
   {id:"hassan_al_serkal", n:"Hassan Al Serkal", t:2, p:60, s:"finance", roles:[
     ["dfm","Chief Executive Officer","executive","v"]]},
   {id:"abdulqader_obaid_ali", n:"Abdulqader Obaid Ali", t:2, p:52, s:"finance", roles:[
+    ["borse_dubai","Board Member, Dubai Financial Market","board","ns"],
     ["dfm","Board Member","board","v"]]},
   {id:"mohammed_humaid_al", n:"Mohammed Humaid Al Mari", t:2, p:52, s:"finance", roles:[
     ["dfm","Board Member","board","v"]]},
   {id:"abdulwahid_alulama", n:"Abdulwahid Alulama", t:2, p:52, s:"finance", roles:[
+    ["borse_dubai","Board Member, Dubai Financial Market","board","ns"],
     ["dfm","Board Member","board","v"]]},
   {id:"adel_al_marzouqi", n:"Adel Al Marzouqi", t:2, p:60, s:"gov", roles:[
     ["dxbmun","Chief Executive Officer Waste and Sewerage Agency","executive","v"]]},
@@ -2129,6 +2143,7 @@ const PEOPLE = [
   {id:"rashid_al_shamsi", n:"Rashid Al Shamsi", t:2, p:52, s:"finance", roles:[
     ["nasdaq_dubai","Board Member","board","ns"]]},
   {id:"hamed_ali", n:"Hamed Ali", t:2, p:60, s:"finance", roles:[
+    ["borse_dubai","Chief Executive Officer, Nasdaq Dubai and Dubai Financial Market","executive","ns"],
     ["nasdaq_dubai","Chief Executive Officer","executive","ns"]]},
   {id:"abdulla_saeed_belyoahah", n:"Abdulla Saeed Belyoahah", t:2, p:52, s:"finance", roles:[
     ["national_bonds","Board Member","board","ns"]]},
@@ -2228,6 +2243,46 @@ const PEOPLE = [
     ["prypco","Chief Technology Officer","executive","v"]]},
   {id:"saad_khan", n:"Saad Khan", t:2, p:58, s:"tech", roles:[
     ["prypco","Chief Compliance Officer & Money Laundering Reporting Officer","executive","v"]]},
+  {id:"abdulaziz_hassan_ali", n:"Abdulaziz Hassan Ali Baker", t:2, p:62, s:"consumer_disc", roles:[
+    ["gmg","Chairman","board","ns"]]},
+  {id:"amira_abdulaziz_baker", n:"Amira Abdulaziz Baker", t:2, p:52, s:"consumer_disc", roles:[
+    ["gmg","Executive Board Member","board","ns"]]},
+  {id:"kapil_sethi", n:"Kapil Sethi", t:2, p:60, s:"consumer_disc", roles:[
+    ["gmg","Deputy Chief Executive Officer","executive","ns"]]},
+  {id:"tanisha_govindarajan", n:"Tanisha Govindarajan", t:2, p:58, s:"consumer_disc", roles:[
+    ["gmg","Chief Financial Officer","executive","ns"]]},
+  {id:"kamal_sharadbhai_shah", n:"Kamal Sharadbhai Shah", t:2, p:58, s:"consumer_disc", roles:[
+    ["gmg","Chief Technology Officer","executive","ns"]]},
+  {id:"mohamed_humaid_almarri", n:"Mohamed Humaid Almarri", t:2, p:52, s:"finance", roles:[
+    ["borse_dubai","Board Member, Dubai Financial Market","board","ns"]]},
+  {id:"saeed_rashed_al", n:"Saeed Rashed Al Yateem", t:2, p:52, s:"finance", roles:[
+    ["borse_dubai","Board Member, Dubai Financial Market","board","ns"]]},
+  {id:"huda_sabil_abdulla", n:"Huda Sabil Abdulla", t:2, p:52, s:"finance", roles:[
+    ["borse_dubai","Board Member, Dubai Financial Market","board","ns"]]},
+  {id:"khalid_bin_mustahail", n:"Khalid Bin Mustahail Al Mashani", t:2, p:62, s:"finance", roles:[
+    ["lst_salambah","Chairman","board","ns"]]},
+  {id:"matar_mohamed_al", n:"Matar Mohamed Al Blooshi", t:2, p:62, s:"finance", roles:[
+    ["lst_salambah","Deputy Chairman","board","ns"]]},
+  {id:"salman_saleh_al", n:"Salman Saleh Al Mahmeed", t:2, p:52, s:"finance", roles:[
+    ["lst_salambah","Board Member","board","ns"]]},
+  {id:"salim_abdullah_al", n:"Salim Abdullah Al Awadi", t:2, p:52, s:"finance", roles:[
+    ["lst_salambah","Independent Board Member","board","ns"]]},
+  {id:"zayed_ali_al", n:"Zayed Ali Al Amin", t:2, p:52, s:"finance", roles:[
+    ["lst_salambah","Board Member","board","ns"]]},
+  {id:"hisham_saleh_al", n:"Hisham Saleh Al Saai", t:2, p:52, s:"finance", roles:[
+    ["lst_salambah","Board Member","board","ns"]]},
+  {id:"tariq_abdul_hafeedh", n:"Tariq Abdul Hafeedh Al Aujaili", t:2, p:52, s:"finance", roles:[
+    ["lst_salambah","Board Member","board","ns"]]},
+  {id:"al_hur_mohammed", n:"Al Hur Mohammed Al Swaidi", t:2, p:52, s:"finance", roles:[
+    ["lst_salambah","Board Member","board","ns"]]},
+  {id:"rafik_nayed", n:"Rafik Nayed", t:2, p:60, s:"finance", roles:[
+    ["lst_salambah","Group Chief Executive Officer","executive","ns"]]},
+  {id:"qassim_taqawi", n:"Qassim Taqawi", t:2, p:58, s:"finance", roles:[
+    ["lst_salambah","Chief Legal Officer","executive","ns"]]},
+  {id:"krishnan_hariharan", n:"Krishnan Hariharan", t:2, p:58, s:"finance", roles:[
+    ["lst_salambah","Chief Risk Officer","executive","ns"]]},
+  {id:"sheikh_adnan_abdullah", n:"Sheikh Adnan Abdullah Al Qattan", t:2, p:62, s:"finance", roles:[
+    ["lst_salambah","Chairman, Fatwa and Shari'a Supervisory Board","board","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2447,4 +2502,10 @@ const AKA = {
   eta_ascon:["ETA Star","ETA-ASCON-STAR Group","ETA Engineering"],
   khansaheb:["Khansaheb Investments"],
   network_intl:["Network International Holdings plc","NI"],
+  american_hospital:["AHD"],
+  middlesex_dubai:["MDX Dubai"],
+  murdoch_dubai:["MUD"],
+  uow_dubai:["UOWD"],
+  prime_healthcare:["Prime Health Holdings"],
+  mbrsg:["Dubai School of Government"],
 };

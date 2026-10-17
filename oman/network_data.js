@@ -225,6 +225,8 @@ const INSTITUTIONS = [
   {id:"jindal_shadeed", n:"Jindal Shadeed Iron & Steel LLC", s:"materials", t:3, p:54, short:"Jindal Shadeed"},
   {id:"thawani", n:"Thawani Technologies", s:"finance", t:3, p:56, short:"Thawani"},
   {id:"cdaa", n:"Civil Defence and Ambulance Authority", s:"gov", t:1, p:64, short:"CDAA"},
+  {id:"oman_observer", n:"Oman Daily Observer (OEPPA)", s:"comm", t:2, p:56, short:"Oman Observer"},
+  {id:"univ_of_nizwa", n:"University of Nizwa", s:"education", t:2, p:56, short:"Univ of Nizwa"},
 ];
 
 const PEOPLE = [
@@ -243,6 +245,7 @@ const PEOPLE = [
     ["mofa_om","Foreign Minister","political","v"]],
     note:"The face of Oman's quiet-mediator diplomacy."},
   {id:"habsi", n:"Sultan bin Salim Al Habsi", t:1, p:80, s:"finance", roles:[
+    ["cdaa","Board Member, ex officio (Minister of Finance)","board","ns"],
     ["mof_om","Minister of Finance","political","v"]]},
   {id:"yousef_om", n:"Anwar bin Hilal bin Hamdoun Al Jabri", t:1, p:70, s:"gov", roles:[
     ["lst_abob","Director (Deputy Chairman)","board","v"],
@@ -301,6 +304,7 @@ const PEOPLE = [
     ["tra_oman","Chairman of the Board (ex officio, as Minister of Transport, Communications & IT)","board","v"],
     ["mtcit_om","Minister of Transport, Communications & IT","political","v"]]},
   {id:"alsabti_health", n:"Dr. Hilal bin Ali bin Hilal Al Sabti", t:1, p:70, s:"health", roles:[
+    ["cdaa","Board Member, ex officio (Minister of Health)","board","ns"],
     ["moh_om","Minister of Health","political","v"]],
     note:"Retained under Royal Decree 17/2026 (13 Jan 2026)."},
   {id:"albusaidi_tourism", n:"Sayyid Ibrahim bin Said bin Ibrahim Al Busaidi", t:1, p:64, s:"gov", roles:[
@@ -389,6 +393,7 @@ const PEOPLE = [
   {id:"hamood_abdullah_al", n:"Hamood Abdullah Al Sawai", t:2, p:58, s:"finance", roles:[
     ["sohar_bank","Chief Operating Officer","executive","v"]]},
   {id:"amal_suhail_bahwan", n:"Amal Suhail Bahwan", t:2, p:62, s:"finance", roles:[
+    ["lst_atmi","Chairperson of the Board","board","v"],
     ["bahwan","Vice Chairperson","board","v"],
     ["lst_nbob","Chairperson","board","v"]]},
   {id:"sheikh_abdullah_ali", n:"Sheikh Abdullah Ali Al Thani", t:2, p:62, s:"finance", roles:[
@@ -1516,6 +1521,18 @@ const PEOPLE = [
     ["ubhar_capital","Chief Executive Officer","executive","ns"]]},
   {id:"sulaiman_bin_ali", n:"Sulaiman bin Ali bin Ahmed Al-Husseini", t:2, p:52, s:"gov", roles:[
     ["cdaa","President","board","v"]]},
+  {id:"gen_sultan_bin", n:"Gen Sultan bin Mohammed al Nuamani", t:2, p:62, s:"gov", roles:[
+    ["cdaa","Chairman of the Board of Directors (Minister of the Royal Office, Head of the Office of the Supreme Commander)","board","v"]]},
+  {id:"hassan_bin_mohsin", n:"Hassan bin Mohsin Al Shuraiqi", t:2, p:52, s:"gov", roles:[
+    ["cdaa","Board Member, ex officio (Inspector-General of Police and Customs)","board","ns"]]},
+  {id:"vice_admiral_abdullah", n:"Vice Admiral Abdullah bin Khamis Al Raisi", t:2, p:52, s:"gov", roles:[
+    ["cdaa","Board Member, ex officio (Chief of Staff of the Sultan's Armed Forces)","board","ns"]]},
+  {id:"maj_gen_idris", n:"Maj Gen Idris bin Abdulrahman Al Kindi", t:2, p:52, s:"gov", roles:[
+    ["cdaa","Board Member, ex officio (Secretary-General of the National Security Council)","board","ns"]]},
+  {id:"shihab_salim_al", n:"Shihab Salim Al-Barwani", t:2, p:62, s:"materials", roles:[
+    ["lst_atmi","Deputy/Vice Chairman of the Board","board","v"]]},
+  {id:"bejoy_john", n:"Bejoy John", t:2, p:58, s:"materials", roles:[
+    ["lst_atmi","Board Secretary and Chief Financial Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1732,4 +1749,6 @@ const AKA = {
   oman_msc:["MSC"],
   jindal_shadeed:["Jindal Steel Oman","JSIS"],
   cdaa:["Public Authority for Civil Defence and Ambulance"],
+  oman_observer:["OEPPA"],
+  univ_of_nizwa:["UoN"],
 };
