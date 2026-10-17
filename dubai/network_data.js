@@ -1017,7 +1017,7 @@ const PEOPLE = [
   {id:"ahmed_saeed_al", n:"Ahmed Saeed Al Calily", t:2, p:62, s:"materials", roles:[
     ["ega","Board Member; Chair of the Human Capital Committee","board","v"]]},
   {id:"abdul_wahed_mohammad", n:"Abdul Wahed Mohammad Al Fahim", t:2, p:62, s:"materials", roles:[
-    ["nasdaq_dubai","Chairman","board","ns"],
+    ["nasdaq_dubai","Chairman","board","v"],
     ["ega","Board Member; Chairman of the Audit and Risk Committee","board","v"]]},
   {id:"zouhir_regragui", n:"Zouhir Regragui", t:2, p:52, s:"materials", roles:[
     ["ega","Board Member","board","v"]]},

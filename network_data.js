@@ -755,7 +755,7 @@ const PEOPLE = [
     ["altamimi","Founder & Senior Partner","executive","v"],
     ]},
   {id:"nasser_nowais", n:"Nasser Al Nowais", t:2, p:64, s:"conglomerate", roles:[
-    ["rotana","Co-founder & Chairman","board","ns"],
+    ["rotana","Co-founder & Chairman","board","v"],
     ]},
   {id:"amr_menhali", n:"Amr Al Menhali", t:2, p:52, s:"finance", roles:[
     ["waha","CEO (2019–2020)","executive","v","former:until Oct 2020"],

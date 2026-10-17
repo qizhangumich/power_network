@@ -237,7 +237,8 @@ const PEOPLE = [
   {id:"shihab", n:"H.H. Sayyid Shihab bin Tariq Al Said", t:0, p:84, s:"gov", roles:[
     ["com_om","Deputy Prime Minister for Defence Affairs","political","v"]]},
   {id:"fahd", n:"H.H. Sayyid Fahd bin Mahmoud Al Said", t:0, p:76, s:"gov", roles:[
-    ["com_om","Deputy Prime Minister for Cabinet Affairs","political","ns"]]},
+    ["com_om","Deputy Prime Minister for Cabinet Affairs (1994–2026)","political","v","former:until Mar 2026"]],
+    note:"Deceased 12 March 2026; Diwan of Royal Court announced the passing (fm.gov.om)."},
   {id:"badr_fm", n:"Sayyid Badr bin Hamad Albusaidi", t:1, p:80, s:"gov", roles:[
     ["mofa_om","Foreign Minister","political","v"]],
     note:"The face of Oman's quiet-mediator diplomacy."},
@@ -401,7 +402,7 @@ const PEOPLE = [
   {id:"stephen_moss", n:"Stephen Moss", t:2, p:52, s:"finance", roles:[
     ["lst_nbob","Director","board","v"]]},
   {id:"shaikh_faisal_al", n:"Shaikh Faisal Al Rawas", t:2, p:52, s:"finance", roles:[
-    ["occi","Chairman of the Board of Directors","board","ns"],
+    ["occi","Chairman of the Board of Directors","board","v"],
     ["lst_nbob","Director","board","v"]]},
   {id:"nabil_al_mahrouqi", n:"Nabil Al Mahrouqi", t:2, p:52, s:"finance", roles:[
     ["lst_mhas","Board Member","board","v"],
@@ -923,7 +924,7 @@ const PEOPLE = [
   {id:"hatim_bin_bakhit", n:"Hatim bin Bakhit Al Shanfari", t:2, p:52, s:"finance", roles:[
     ["msx","Board Member","board","ns"]]},
   {id:"haitham_bin_salem", n:"Haitham bin Salem Al Salmi", t:2, p:60, s:"finance", roles:[
-    ["msx","Chief Executive Officer","executive","ns"]]},
+    ["msx","Chief Executive Officer","executive","v"]]},
   {id:"omar_bin_mahmood", n:"Omar bin Mahmood Al Mahrizi", t:2, p:60, s:"industry", roles:[
     ["asyad_ports","Chief Executive Officer - Asyad Ports","executive","ns"]]},
   {id:"said_al_masoudi", n:"Said Al Masoudi", t:2, p:60, s:"materials", roles:[
