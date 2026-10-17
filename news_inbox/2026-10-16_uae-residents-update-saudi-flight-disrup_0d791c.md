@@ -1,0 +1,5 @@
+# UAE residents' update: Saudi flight disruptions, security alerts and latest regional developments
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxQU2pzbzVEekFoWnR0dlVmNEFpS0RaU2loLU9iMVZFc2VJY1hULWVqMXRoSGZKS3NPU3JzTlFRWEtGSU1KSFRuZXBOaFFBaW5qbUw4czJXS09samJXbVNWRFg3R1JrODhoR2I1MUpNdkR2NW9fcWJiMDNYTUdVWDRzcGdIX1lIUGRCSWRiUmgzOVBQQl9NcHpBay1iR3FMcG5jaGtHWDRDUk5NNkQxRlp3QzEwQ0tWWHN2Sy05ZDFndFNvcXdwNGxGZUY3aw?oc=5
+
+UAE residents' update: Saudi flight disruptions, security alerts and latest regional developments    Gulf News
