@@ -120,6 +120,25 @@ http.createServer((req, res) => {
     return res.end(fs.readFileSync(gf));
   }
 
+  if (url === "/api/password" && req.method === "POST") {
+    if (limited(ip)) return send(res, 429, { error: "too many attempts, try later" });
+    return readBody(req, b => {
+      if (!b) return send(res, 400, { error: "bad request" });
+      const cur = String(b.current || ""), nw = String(b.password || "");
+      if (nw.length < 8) return send(res, 400, { error: "new password must be at least 8 characters" });
+      const u = a.user;
+      const ok = crypto.timingSafeEqual(Buffer.from(hashPw(cur, u.salt)), Buffer.from(u.hash));
+      if (!ok) return send(res, 401, { error: "current password is wrong" });
+      u.salt = crypto.randomBytes(16).toString("hex");
+      u.hash = hashPw(nw, u.salt);
+      saveUsers();
+      for (const k of Object.keys(tokens))          // sign out every OTHER session
+        if (tokens[k].email === a.email && k !== a.token) delete tokens[k];
+      saveTokens();
+      return send(res, 200, { ok: true });
+    });
+  }
+
   const pf = path.join(UDIR, a.user.id + ".json");
   if (url === "/api/logout" && req.method === "POST") {
     delete tokens[a.token]; saveTokens();

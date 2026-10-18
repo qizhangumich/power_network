@@ -833,6 +833,8 @@ const I18N = {
     acctOut:"Sign out", acctAs:"Signed in as", acctSync:"Synced privately to your account.",
     acctGuest:"Guest mode — data stays in this browser.",
     acctHint:"Create a free account to keep your network private and in sync across devices.",
+    acctChange:"Change password", acctCur:"Current password", acctNew:"New password (min 8)",
+    acctDo:"Update password", acctChanged:"Password changed ✓",
     acctOffline:"Account sync isn't available on this server right now. Your data stays in this browser.",
     mcTitle:"Your contacts", mcAddUrl:"linkedin.com/in/…", mcAddName:"Name (optional)", mcAdd:"Add",
     mcDup:"Already in your network.", mcBadUrl:"That doesn't look like a LinkedIn profile link (linkedin.com/in/…).",
@@ -995,6 +997,8 @@ const I18N = {
     acctOut:"退出登录", acctAs:"已登录", acctSync:"已私密同步到你的账户。",
     acctGuest:"访客模式——数据仅保存在本浏览器。",
     acctHint:"创建免费账户，让你的人脉保持私密并在多设备间同步。",
+    acctChange:"修改密码", acctCur:"当前密码", acctNew:"新密码（至少8位）",
+    acctDo:"确认修改", acctChanged:"密码已修改 ✓",
     acctOffline:"当前服务器暂不支持账户同步，你的数据仍保存在本浏览器。",
     mcTitle:"你的联系人", mcAddUrl:"linkedin.com/in/…", mcAddName:"姓名（可选）", mcAdd:"添加",
     mcDup:"已在你的人脉中。", mcBadUrl:"这不是领英个人主页链接（linkedin.com/in/…）。", mcNeedUrl:"请粘贴主页链接或输入姓名。",
@@ -1594,6 +1598,7 @@ const Acct = (() => {
     Personal.wipe();                       // protect shared devices
   }
   async function deleteRemote(){ if(tk()) try { await call("personal", "DELETE"); } catch(e){} }
+  async function changePw(cur, nw){ return call("password", "POST", {current: cur, password: nw}); }
   async function pullIfChanged(){
     if(!tk()) return false;
     try {
@@ -1602,7 +1607,7 @@ const Acct = (() => {
     } catch(e){}
     return false;
   }
-  return {on:() => !!tk(), email, signIn, signOut, push, deleteRemote, pullIfChanged};
+  return {on:() => !!tk(), email, signIn, signOut, push, deleteRemote, changePw, pullIfChanged};
 })();
 try {
   if(Acct.on() && !sessionStorage.getItem("pm2_pulled")){
@@ -3900,7 +3905,15 @@ function acctHtml(){
   if(Acct.on())
     return `<div class="mp-acct"><span class="mp-lbl">${T.acct}</span><b style="font-size:13px">${svgI("check")} ${T.acctAs} ${esc(Acct.email() || "")}</b>`
          + `<span style="display:block;font-size:12px;color:var(--ok-ink)">${T.acctSync}</span>`
-         + `<div class="actrow"><button class="btn sm" type="button" id="mp-out">${T.acctOut}</button></div></div>`;
+         + `<div class="actrow"><button class="btn sm" type="button" id="mp-chpw-t">${T.acctChange}</button>`
+         + `<button class="btn sm" type="button" id="mp-out">${T.acctOut}</button></div>`
+         + (MP.pwOpen
+            ? `<div class="mp-inrow" style="margin-top:8px"><input class="mp-input" id="mp-pw-cur" type="password" placeholder="${T.acctCur}" autocomplete="current-password">`
+            + `<input class="mp-input" id="mp-pw-new" type="password" placeholder="${T.acctNew}" autocomplete="new-password"></div>`
+            + `<div class="actrow"><button class="btn sm primary" type="button" id="mp-chpw">${T.acctDo}</button></div>`
+            + `<div class="mp-err" id="mp-err"></div>`
+            : ``)
+         + `</div>`;
   return `<div class="mp-acct"><span class="mp-lbl">${T.acct}</span>`
        + `<span style="display:block;font-size:12px;color:var(--ink-faint);margin-bottom:2px">${T.acctHint} ${T.acctGuest}</span>`
        + `<div class="mp-inrow"><input class="mp-input" id="mp-em" type="email" placeholder="${T.acctEmail}" autocomplete="username">`
@@ -3911,6 +3924,20 @@ function acctHtml(){
 function wireAcct(){
   const out = document.getElementById("mp-out");
   if(out) out.onclick = async () => { await Acct.signOut(); location.reload(); };
+  const pwT = document.getElementById("mp-chpw-t");
+  if(pwT) pwT.onclick = () => { MP.pwOpen = !MP.pwOpen; renderMyPanel(); };
+  const pwGo = document.getElementById("mp-chpw");
+  if(pwGo) pwGo.onclick = async () => {
+    const e2 = document.getElementById("mp-err");
+    if(e2) e2.textContent = "";
+    try {
+      await Acct.changePw(document.getElementById("mp-pw-cur").value,
+                          document.getElementById("mp-pw-new").value);
+      MP.pwOpen = false;
+      toast(t().acctChanged);
+      renderMyPanel();
+    } catch(e){ if(e2) e2.textContent = String(e.message || e); }
+  };
   const err = document.getElementById("mp-err");
   const go = mode => async () => {
     const em = (document.getElementById("mp-em").value || "").trim(), pw = document.getElementById("mp-pw").value || "";
