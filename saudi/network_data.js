@@ -517,6 +517,12 @@ const INSTITUTIONS = [
   {id:"ia", n:"Insurance Authority", s:"finance", t:2, p:66, short:"IA"},
   {id:"riyadh_chamber", n:"Riyadh Chamber of Commerce and Industry", s:"gov", t:2, p:64, short:"Riyadh Chamber"},
   {id:"jeddah_chamber", n:"Jeddah Chamber of Commerce and Industry", s:"gov", t:2, p:62, short:"Jeddah Chamber"},
+  {id:"sabic_agri_nutr", n:"SABIC Agri-Nutrients Company", s:"materials", t:3, p:58, short:"SABIC Agri-Nutr"},
+  {id:"hadco", n:"Hail Agricultural Development Company", s:"consumer_stap", t:3, p:58, short:"HADCO"},
+  {id:"maaden_aluminium", n:"Ma'aden Aluminium Company", s:"materials", t:3, p:60, short:"Maaden Aluminium"},
+  {id:"maaden_bauxite", n:"Ma'aden Bauxite and Alumina Company", s:"materials", t:3, p:57, short:"Maaden Bauxite"},
+  {id:"maaden_gold_base", n:"Ma'aden Gold and Base Metals Company", s:"materials", t:3, p:58, short:"Maaden Gold&Base"},
+  {id:"united_sugar", n:"United Sugar Company", s:"consumer_stap", t:3, p:53, short:"United Sugar Co"},
 ];
 
 const PEOPLE = [
@@ -552,6 +558,7 @@ const PEOPLE = [
   {id:"alwaleed", n:"Prince Alwaleed bin Talal Al Saud", t:0, p:78, s:"conglomerate", roles:[
     ["kingdomholding","Chairman","board","v"]]},
   {id:"rumayyan", n:"Yasir Al-Rumayyan", t:1, p:92, s:"sovereign", roles:[
+    ["maaden","Chairman","board","ns"],
     ["sanabil","Chairman","board","v"],
     ["fii_institute","Chairman of the Board of Trustees","board","v"],
     ["qiddiya","Board Member","board","v"],
@@ -3357,6 +3364,12 @@ const OWNERSHIP = [
   ["hhc","moh_sa","regulated by (MoH is regulator/supervisor; HHC runs the 20 public health clusters)","v"],
   ["riyadh_chamber","fsc","member chamber of the national federation","ns"],
   ["jeddah_chamber","fsc","member chamber of the national federation","ns"],
+  ["sabic_agri_nutr","sabic","subsidiary of (50.1% owned)","v"],
+  ["hadco","almarai","wholly-owned subsidiary of","v"],
+  ["maaden_aluminium","maaden","wholly-owned subsidiary of (100% since Jul 2025)","v"],
+  ["maaden_bauxite","maaden","wholly-owned subsidiary of (100% since Jul 2025)","v"],
+  ["maaden_gold_base","maaden","wholly-owned subsidiary of","ns"],
+  ["united_sugar","lst_2050","majority-owned subsidiary of","ns"],
 ];
 
 const FAMILY = [
@@ -3474,4 +3487,10 @@ const AKA = {
   hhc:["Saudi Health Holding Company"],
   riyadh_chamber:["RCCI"],
   jeddah_chamber:["JCCI"],
+  sabic_agri_nutr:["SAFCO","Saudi Arabian Fertilizer Company"],
+  hadco:["Alyoum"],
+  maaden_aluminium:["MAC"],
+  maaden_bauxite:["MBAC"],
+  maaden_gold_base:["MGBM"],
+  united_sugar:["USC"],
 };

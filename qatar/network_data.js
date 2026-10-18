@@ -232,6 +232,8 @@ const INSTITUTIONS = [
   {id:"aspetar", n:"Aspetar", s:"health", t:2, p:57, short:"Aspetar"},
   {id:"npc", n:"National Planning Council", s:"gov", t:1, p:64, short:"NPC"},
   {id:"qna", n:"Qatar News Agency", s:"comm", t:2, p:58, short:"QNA"},
+  {id:"al_koot_insurance", n:"Al Koot Insurance and Reinsurance Company", s:"finance", t:3, p:56, short:"Al Koot Insurance"},
+  {id:"qatar_biobank", n:"Qatar Biobank", s:"health", t:3, p:54, short:"Qatar Biobank"},
 ];
 
 const PEOPLE = [
@@ -2036,6 +2038,56 @@ const PEOPLE = [
     ["gac_qatar","Head of Customs Procedures Unit","executive","v"]]},
   {id:"akber_ahmed_khan", n:"Akber Ahmed Khan", t:2, p:60, s:"finance", roles:[
     ["alrayan_investment","Acting Chief Executive Officer","executive","v"]]},
+  {id:"abdulrahman_bin_ali", n:"Abdulrahman bin Ali Al-Malki", t:2, p:58, s:"tech", roles:[
+    ["ncsa_qatar","President","executive","v"]]},
+  {id:"dana_al_abdullah", n:"Dana Al Abdullah", t:2, p:58, s:"tech", roles:[
+    ["ncsa_qatar","Director of Governance and National Assurance Affairs","executive","ns"]]},
+  {id:"dalal_al_aqeedi", n:"Dalal Al Aqeedi", t:2, p:58, s:"tech", roles:[
+    ["ncsa_qatar","Acting Director of the National Cyber Excellence Department","executive","ns"]]},
+  {id:"abdulaziz_bin_jassim", n:"Abdulaziz bin Jassim Al Thani", t:2, p:58, s:"gov", roles:[
+    ["traffic_dept_qatar","Director General of Traffic","executive","ns"]]},
+  {id:"ravinder_mamtani", n:"Ravinder Mamtani", t:2, p:58, s:"education", roles:[
+    ["weill_cornell_qatar","Vice Dean, Population Health and Lifestyle Medicine","executive","v"]]},
+  {id:"thurayya_arayssi", n:"Thurayya Arayssi", t:2, p:58, s:"education", roles:[
+    ["weill_cornell_qatar","Vice Dean, Academic and Curricular Affairs","executive","v"]]},
+  {id:"khaled_machaca", n:"Khaled Machaca", t:2, p:58, s:"education", roles:[
+    ["weill_cornell_qatar","Vice Dean, Research, Innovations, and Commercialization","executive","v"]]},
+  {id:"shahzad_jafri", n:"Shahzad Jafri", t:2, p:58, s:"education", roles:[
+    ["weill_cornell_qatar","Chief Administrative Officer","executive","v"]]},
+  {id:"laith_j_abu", n:"Laith J. Abu-Raddad", t:2, p:58, s:"education", roles:[
+    ["weill_cornell_qatar","Associate Dean, Extramural Research Funding","executive","v"]]},
+  {id:"rachid_bendriss", n:"Rachid Bendriss", t:2, p:58, s:"education", roles:[
+    ["weill_cornell_qatar","Associate Dean, Foundation, Student Outreach & Educational Development Programs","executive","v"]]},
+  {id:"dietrich_b_sselberg", n:"Dietrich Büsselberg", t:2, p:58, s:"education", roles:[
+    ["weill_cornell_qatar","Associate Dean, Admissions & Student Affairs","executive","v"]]},
+  {id:"marco_ameduri", n:"Marco Ameduri", t:2, p:58, s:"education", roles:[
+    ["weill_cornell_qatar","Associate Dean, Pre-medical Education and Education City Collaborative Curricular Affairs","executive","v"]]},
+  {id:"nayef_a_mazloum", n:"Nayef A. Mazloum", t:2, p:58, s:"education", roles:[
+    ["weill_cornell_qatar","Associate Dean, Student Research","executive","v"]]},
+  {id:"james_d_roach", n:"James D. Roach Jr.", t:2, p:58, s:"education", roles:[
+    ["weill_cornell_qatar","Associate Dean, Pre-medical Education","executive","v"]]},
+  {id:"rodolph_boughaba", n:"Rodolph Boughaba", t:2, p:58, s:"education", roles:[
+    ["georgetown_qatar","Associate Dean for Executive Education","executive","v"]]},
+  {id:"ryan_maher_sj", n:"Ryan Maher, SJ", t:2, p:58, s:"education", roles:[
+    ["georgetown_qatar","Associate Dean for Mission","executive","v"]]},
+  {id:"anne_nebel", n:"Anne Nebel", t:2, p:58, s:"education", roles:[
+    ["georgetown_qatar","Associate Dean for Teaching, Learning and Assessment","executive","v"]]},
+  {id:"ken_grcich", n:"Ken Grcich", t:2, p:58, s:"education", roles:[
+    ["georgetown_qatar","Associate Dean of Students","executive","v"]]},
+  {id:"brendan_hill", n:"Brendan Hill", t:2, p:58, s:"education", roles:[
+    ["georgetown_qatar","Senior Associate Dean for Faculty and Academic Affairs","executive","v"]]},
+  {id:"khaled_al_yousuf", n:"Khaled Al Yousuf", t:2, p:58, s:"education", roles:[
+    ["georgetown_qatar","Executive Director of External Relations","executive","v"]]},
+  {id:"robert_groves", n:"Robert Groves", t:2, p:62, s:"education", roles:[
+    ["georgetown_qatar","Co-Chair, Advisory Board (Interim President of Georgetown University)","board","v"]]},
+  {id:"joel_hellman", n:"Joel Hellman", t:2, p:52, s:"education", roles:[
+    ["georgetown_qatar","Advisory Board Member (Dean, Walsh School of Foreign Service)","board","v"]]},
+  {id:"francisco_marmolejo", n:"Francisco Marmolejo", t:2, p:52, s:"education", roles:[
+    ["georgetown_qatar","Ex-Officio Advisory Board Member (President of Higher Education, Qatar Foundation)","board","v"]]},
+  {id:"ahmed_bin_saeed", n:"Ahmed bin Saeed Al Rumaihi", t:2, p:58, s:"comm", roles:[
+    ["qna","Director-General","executive","v"]]},
+  {id:"fathi_ibrahim_aburish", n:"Fathi Ibrahim Aburish", t:2, p:60, s:"conglomerate", roles:[
+    ["mbhh","Managing Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2164,6 +2216,8 @@ const OWNERSHIP = [
   ["positron_ai","qia","portfolio","ns"],
   ["alternatifbank","cbq","subsidiary","ns"],
   ["aj_centre_studies","aljazeera","research_arm","v"],
+  ["al_koot_insurance","lst_giss","wholly-owned subsidiary of","v"],
+  ["qatar_biobank","qf","member of","v"],
 ];
 
 const FAMILY = [
@@ -2257,4 +2311,5 @@ const AKA = {
   aj_centre_studies:["AJCS"],
   al_raya:["Raya"],
   aspetar:["Aspetar Orthopaedic and Sports Medicine Hospital"],
+  al_koot_insurance:["Al Koot"],
 };

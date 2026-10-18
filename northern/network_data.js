@@ -151,6 +151,12 @@ const INSTITUTIONS = [
   {id:"arif_developments", n:"Arif Developments", s:"realestate", t:3, p:52, short:"Arif Developments"},
   {id:"emirates_health_svcs", n:"Emirates Health Services", s:"health", t:2, p:60, short:"Emirates Health Svcs"},
   {id:"al_qassimi_hospital", n:"Al Qassimi Hospital", s:"health", t:2, p:58, short:"Al Qassimi Hospital"},
+  {id:"sharjah_healthcare_city", n:"Sharjah Healthcare City", s:"health", t:2, p:58, short:"Sharjah Healthcare C…"},
+  {id:"sharjah_airport_auth", n:"Sharjah International Airport Authority", s:"gov", t:2, p:62, short:"Sharjah Airport Auth"},
+  {id:"ajman_ports_customs", n:"Ajman Ports and Customs Department", s:"gov", t:2, p:54, short:"Ajman Ports&Customs"},
+  {id:"fujairah_airport", n:"Fujairah International Airport", s:"industry", t:2, p:52, short:"Fujairah Airport"},
+  {id:"gulf_medical_projects", n:"Gulf Medical Projects Company", s:"health", t:3, p:54, short:"Gulf Medical Projects"},
+  {id:"al_zahra_hospital", n:"Al Zahra Hospital Sharjah", s:"health", t:3, p:52, short:"Al Zahra Hospital"},
 ];
 
 const PEOPLE = [
@@ -664,6 +670,7 @@ const PEOPLE = [
   {id:"ghassan_aboud", n:"Ghassan Aboud", t:2, p:62, s:"conglomerate", roles:[
     ["ghassan_aboud_grp","Founder and Chairman","executive","ns"]]},
   {id:"abdul_wahab_al", n:"Abdul Wahab Al-Halabi", t:2, p:62, s:"consumer_stap", roles:[
+    ["emirates_health_svcs","Board Member","board","v"],
     ["iffco","Executive Chairman","board","ns"]]},
   {id:"saud_salim_al", n:"Saud Salim Al Mazrouei", t:2, p:58, s:"gov", roles:[
     ["hfza","Director","executive","v"],
@@ -713,6 +720,7 @@ const PEOPLE = [
   {id:"hamed_kazim", n:"Hamed Kazim", t:2, p:52, s:"consumer_stap", roles:[
     ["iffco","Board Director","board","v"]]},
   {id:"nitin_khanna", n:"Nitin Khanna", t:2, p:52, s:"consumer_stap", roles:[
+    ["emirates_health_svcs","Board Member","board","v"],
     ["iffco","Board Director","board","v"]]},
   {id:"sumit_rohatgi", n:"Sumit Rohatgi", t:2, p:52, s:"consumer_stap", roles:[
     ["iffco","Board Director","board","v"]]},
@@ -753,6 +761,7 @@ const PEOPLE = [
   {id:"eisa_saif_ahmed", n:"Eisa Saif Ahmed Handhal Altamimi", t:2, p:52, s:"finance", roles:[
     ["sharjah_islamic_bk","Director","board","ns"]]},
   {id:"mohamed_ahmed_abdalla", n:"Mohamed Ahmed Abdalla Mohamed", t:2, p:60, s:"finance", roles:[
+    ["snh","Deputy Chairman","board","v"],
     ["sharjah_islamic_bk","Chief Executive Officer","executive","v"]]},
   {id:"omar_ali_al", n:"Omar Ali Al Ghazal", t:2, p:58, s:"gov", roles:[
     ["shjpolice","Director General, General Department of Operations and Security Support","executive","v"]]},
@@ -1287,6 +1296,26 @@ const PEOPLE = [
     ["rak_courts","Acting President - Cassation Court","executive","v"]]},
   {id:"mansour_al_hassani", n:"Mansour Al Hassani", t:2, p:58, s:"gov", roles:[
     ["spc_free_zone","Acting Director","executive","v"]]},
+  {id:"ahmed_bin_ali", n:"Ahmed bin Ali Al Sayegh", t:2, p:62, s:"health", roles:[
+    ["emirates_health_svcs","Chairman","board","v"]]},
+  {id:"yousif_mohammed_al_b", n:"Yousif Mohammed Al Serkal", t:2, p:62, s:"health", roles:[
+    ["emirates_health_svcs","Deputy Chairman and Managing Director","board","v"]]},
+  {id:"sheikh_maktoum_butti", n:"Sheikh Maktoum Butti Suhail Butti Al Maktoum", t:2, p:52, s:"health", roles:[
+    ["emirates_health_svcs","Board Member","board","v"]]},
+  {id:"aisha_mohammed_abdullah", n:"Aisha Mohammed Abdullah Yaseen", t:2, p:52, s:"health", roles:[
+    ["emirates_health_svcs","Board Member","board","v"]]},
+  {id:"mohammed_omar_karim", n:"Mohammed Omar Karim", t:2, p:52, s:"health", roles:[
+    ["emirates_health_svcs","Board Member","board","v"]]},
+  {id:"aref_al_nourani", n:"Aref Al Nourani", t:2, p:58, s:"health", roles:[
+    ["al_qassimi_hospital","Director","executive","v"]]},
+  {id:"mariam_majid_saeed", n:"Mariam Majid Saeed Al Shamsi", t:2, p:62, s:"gov", roles:[
+    ["sharjah_social_svcs","Chairperson","board","v"]]},
+  {id:"sheikh_khalid_bin_b_b", n:"Sheikh Khalid Bin Isam Bin Saqer Al Qassimi", t:2, p:62, s:"industry", roles:[
+    ["sharjah_department_of","Chairman","board","v"]]},
+  {id:"sheikh_sultan_bin_b_b", n:"Sheikh Sultan Bin Abdullah Althani", t:2, p:58, s:"industry", roles:[
+    ["sharjah_department_of","Director","executive","v"]]},
+  {id:"nasser_al_yamahi", n:"Nasser Al Yamahi", t:2, p:58, s:"comm", roles:[
+    ["fujairah_culture_media","Director-General","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1366,6 +1395,11 @@ const OWNERSHIP = [
   ["raknor","stevin_rock","subsidiary","v"],
   ["arex","stevin_rock","subsidiary","v"],
   ["al_qassimi_hospital","emirates_health_svcs","operated by","v"],
+  ["sharjah_healthcare_city","sharjah_health_auth","regulated by","v"],
+  ["sharjah_airport_auth","shj_execco","established by","v"],
+  ["ajman_ports_customs","ajmgov","department of","v"],
+  ["fujairah_airport","fujgov","overseen by","ns"],
+  ["al_zahra_hospital","gulf_medical_projects","owned by","ns"],
 ];
 
 const FAMILY = [
@@ -1463,4 +1497,8 @@ const AKA = {
   al_qasimi_fdn:["AQF","Al Qasimi Foundation for Policy Research"],
   emirates_health_svcs:["EHS"],
   al_qassimi_hospital:["Al Qasimi Hospital"],
+  sharjah_healthcare_city:["SHCC"],
+  ajman_ports_customs:["APCD"],
+  fujairah_airport:["FIA"],
+  gulf_medical_projects:["GMPC"],
 };
