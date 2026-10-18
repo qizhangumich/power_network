@@ -1,0 +1,5 @@
+# Riyadh airport reopens: Which airlines are still cancelling flights to Saudi Arabia?
+source: The National
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQb1lSQ1V0djNOSHZNVTA0ZWZaeFZaWWNqQUxfOEdTV3dQMFRDc0EzUV9QWUJlMkcxd25GekFhVGZPdG0yZjBFSDJqeUhpRGs3LS10eFh6RWR6WThoczZrOGd4SG9RYmxhTjZvWDQwSk95ZTU4YmYwUHpyZDQ0M3JKZXN5ZWZmX2c5WFpiaU9uLUppaTVmSkpyeWdWaDUtNEJFeEpuWElad2FGbV91NjZVTV9MMldjUmVzNnV3T2o0TUFLZFZmWFFZZXJfeFVoUQ?oc=5
+
+Riyadh airport reopens: Which airlines are still cancelling flights to Saudi Arabia?    The National

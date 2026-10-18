@@ -1,0 +1,5 @@
+# Etihad flight to Abu Dhabi diverted to Jordan after passenger medical emergency
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQY09UWXFjQkdMQUpxaVVpX0M0V2RWdUJFVzF3cDQ5REx6LXcwLVh5bDUzdll6OTZQYWZhMlZTSUNLaUVCRTYwcm1aZ0VGODVGb2ZQZzlxZDB3V2UxQWU0Z1EtSk9qdW9OMmU0M2l1SjBXYTNkQVBaZUxOWDhWTmdDWDBBbHFIR2ZjTUw0SkhWQmJ6VDRhVFNTQ1JUUVlZMkhwQzYyZFp5aU9Zem9DVVRPRko0WnNtb1d1c0stajZXdVZsTks3akNSRW9B?oc=5
+
+Etihad flight to Abu Dhabi diverted to Jordan after passenger medical emergency    Gulf News
