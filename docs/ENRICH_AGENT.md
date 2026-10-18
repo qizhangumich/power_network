@@ -188,7 +188,8 @@ Line 1: `📈 Today: +N people, +M institutions, +K roles → totals P people / 
 Line 2: per-region adds today (only regions with adds).
 Then: institutions added (by source, per region, new ownership edges), teams extracted (company: N people,
 source), backfill adds, promotions, corrections (incl. roles demoted to former), ns→v flips, source-health
-issues, decisions needed. End with: full history at https://navgcc.com/reports/growth.html
+issues, decisions needed. End with: full history at https://navgcc.com/growth.html (admin-gated:
+the raw reports/growth.html is blocked publicly and served to the admin via GET /api/growth).
 
 ## 9. Catch-up mode (ONLY for the afternoon catch-up run)
 

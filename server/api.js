@@ -24,6 +24,11 @@ const saveUsers = () => fs.writeFileSync(USERS_F, JSON.stringify(users));
 const saveTokens = () => fs.writeFileSync(TOKENS_F, JSON.stringify(tokens));
 
 const TOKEN_DAYS = 60;
+/* admin emails (comma-separated via env to add per-server extras) — admins can
+   read the growth report through GET /api/growth; nothing else is gated */
+const ADMINS = new Set((process.env.POWER_API_ADMINS || "zhangqi362@gmail.com")
+  .split(",").map(s => s.trim().toLowerCase()).filter(Boolean));
+const REPO = process.env.POWER_REPO || path.join(__dirname, "..");
 const MAX_BODY = 3 * 1024 * 1024;
 
 function hashPw(pw, salt) {
@@ -102,9 +107,18 @@ http.createServer((req, res) => {
 
   const a = authed(req);
   if (url === "/api/me" && req.method === "GET") {
-    return a ? send(res, 200, { email: a.email }) : send(res, 401, { error: "not signed in" });
+    return a ? send(res, 200, { email: a.email, admin: ADMINS.has(a.email) })
+             : send(res, 401, { error: "not signed in" });
   }
   if (!a) return send(res, 401, { error: "not signed in" });
+
+  if (url === "/api/growth" && req.method === "GET") {
+    if (!ADMINS.has(a.email)) return send(res, 403, { error: "admin only" });
+    const gf = path.join(REPO, "reports", "growth.html");
+    if (!fs.existsSync(gf)) return send(res, 404, { error: "report not generated yet" });
+    res.writeHead(200, { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" });
+    return res.end(fs.readFileSync(gf));
+  }
 
   const pf = path.join(UDIR, a.user.id + ".json");
   if (url === "/api/logout" && req.method === "POST") {

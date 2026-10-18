@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NavGCC — Growth</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+<style>
+:root{--bg:#F6F6F4;--card:#FFF;--ink:#17181C;--soft:#5B5D66;--faint:#9A9CA6;--line:#E4E4E0;--accent:#4C57C5}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;
+     display:flex;align-items:center;justify-content:center;min-height:100vh;padding:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px 28px;max-width:360px;width:100%;
+      box-shadow:0 10px 32px rgba(20,22,40,.07)}
+h1{font-size:17px;margin-bottom:4px}
+p{font-size:12.5px;color:var(--soft);margin:6px 0 14px}
+input{width:100%;border:1px solid var(--line);border-radius:9px;padding:9px 12px;font-size:13px;margin-bottom:8px;
+      background:var(--bg);outline:none}
+input:focus{border-color:var(--accent)}
+button{width:100%;border:0;border-radius:9px;padding:10px;font-size:13.5px;font-weight:600;cursor:pointer;
+       background:var(--accent);color:#fff}
+button.sec{background:transparent;color:var(--soft);border:1px solid var(--line);margin-top:8px}
+.err{color:#B33;font-size:12px;margin-top:8px;min-height:16px}
+.muted{color:var(--faint);font-size:11.5px;margin-top:12px}
+a{color:var(--soft)}
+#loading{display:none;text-align:center;color:var(--faint);font-size:13px}
+</style>
+</head>
+<body>
+<div class="card" id="card">
+  <h1 id="h">Growth report</h1>
+  <p id="p">Admin access only. Sign in with the admin account.</p>
+  <div id="form">
+    <input id="em" type="email" placeholder="Email" autocomplete="username">
+    <input id="pw" type="password" placeholder="Password" autocomplete="current-password">
+    <button id="go">Sign in</button>
+  </div>
+  <div id="denied" style="display:none">
+    <button class="sec" id="out">Sign out</button>
+  </div>
+  <div class="err" id="err"></div>
+  <div class="muted"><a href="/">← NavGCC</a></div>
+</div>
+<div id="loading">Loading report…</div>
+<script>
+(function(){
+  var zh = false;
+  try { zh = localStorage.getItem("pm_lang") === "zh"; } catch(e){}
+  if(zh){
+    document.getElementById("h").textContent = "增长报告";
+    document.getElementById("p").textContent = "仅限管理员访问。请使用管理员账户登录。";
+    document.getElementById("em").placeholder = "邮箱";
+    document.getElementById("pw").placeholder = "密码";
+    document.getElementById("go").textContent = "登录";
+    document.getElementById("out").textContent = "退出登录";
+    document.getElementById("loading").textContent = "正在加载报告…";
+  }
+  var tk = null;
+  try { tk = localStorage.getItem("pm2_token"); } catch(e){}
+  function hdr(){ return tk ? {"Authorization": "Bearer " + tk} : {}; }
+  function err(m){ document.getElementById("err").textContent = m || ""; }
+
+  async function loadReport(){
+    document.getElementById("card").style.display = "none";
+    document.getElementById("loading").style.display = "block";
+    var r = await fetch("/api/growth", {headers: hdr()});
+    if(!r.ok){ location.reload(); return; }
+    var html = await r.text();
+    document.open(); document.write(html); document.close();
+  }
+  function denied(email){
+    document.getElementById("form").style.display = "none";
+    document.getElementById("denied").style.display = "block";
+    err((zh ? "该账户无管理员权限：" : "This account is not an admin: ") + email);
+  }
+  async function check(){
+    if(!tk) return;
+    var r = await fetch("/api/me", {headers: hdr()});
+    if(!r.ok) return;                       // stale token: show login
+    var j = await r.json();
+    if(j.admin) loadReport(); else denied(j.email);
+  }
+  document.getElementById("go").onclick = async function(){
+    err("");
+    try {
+      var r = await fetch("/api/login", {method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({email: document.getElementById("em").value,
+                              password: document.getElementById("pw").value})});
+      var j = await r.json();
+      if(!r.ok){ err(j.error || "sign-in failed"); return; }
+      tk = j.token;
+      try { localStorage.setItem("pm2_token", j.token); localStorage.setItem("pm2_email", j.email); } catch(e){}
+      check();
+    } catch(e){ err(String(e.message || e)); }
+  };
+  document.getElementById("pw").addEventListener("keydown", function(ev){
+    if(ev.key === "Enter") document.getElementById("go").click();
+  });
+  document.getElementById("out").onclick = async function(){
+    try { await fetch("/api/logout", {method: "POST", headers: hdr()}); } catch(e){}
+    try { localStorage.removeItem("pm2_token"); localStorage.removeItem("pm2_email"); } catch(e){}
+    location.reload();
+  };
+  check();
+})();
+</script>
+</body>
+</html>
