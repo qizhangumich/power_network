@@ -1,0 +1,5 @@
+# Zayed International Airport launches daily Berlin flights with Condor
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNWUFjZ2ZhNURXYnNucWZZOE9kWXN1RE5RSG5DX1ZJYkFZc2ctU29RSnlKRHlmMWNDME1ETWJrWkYtSXQ5Q3dINEZrU2VxMElKVzIyZ2NrSlJpZnM1cXRGQjItVU5hdHJoWmZJOWpna3ItNnNUWk0xTFp6RmZxT0NUbTRWMXVEWFQ3cXBSQ2d0eEVoRWRoQlpVWXFUSUwwWXo2ZUFicE9IRVc0R1NTbnhLdnNWUTM?oc=5
+
+Zayed International Airport launches daily Berlin flights with Condor    Gulf Today

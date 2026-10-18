@@ -1,0 +1,5 @@
+# Pantheon expands Middle East presence with new Abu Dhabi office and senior regional appointment
+source: ADGM
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSV91NUp0eUxQcnRnWkgwbFFFaVlRMlQ5UjREUXE1WXpTZkgwWGdLeVMtZGJTcnBhLXEyRC1TeV9mbU5PZlo1SWxORjh2WXlOcDhXSkNzYzZweTdJWXIzV21NQjhYc0JQRERDWEdzdWhnUE5HaDhFcWVNN0NFdkZRdExDemk2dThhVHIzOVpWN3N4aFhETTdINTZFcmlIcEVQc2tjVDQtWS05aHJUcU9nQllxS3dzN0pBc2s2VkZ2cGdVTDBWU2dNY0FSZUZEbklJRXc?oc=5
+
+Pantheon expands Middle East presence with new Abu Dhabi office and senior regional appointment    ADGM
