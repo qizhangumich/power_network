@@ -245,7 +245,7 @@ const PEOPLE = [
     ["mofa_om","Foreign Minister","political","v"]],
     note:"The face of Oman's quiet-mediator diplomacy."},
   {id:"habsi", n:"Sultan bin Salim Al Habsi", t:1, p:80, s:"finance", roles:[
-    ["cdaa","Board Member, ex officio (Minister of Finance)","board","ns"],
+    ["cdaa","Board Member, ex officio (Minister of Finance)","board","v"],
     ["mof_om","Minister of Finance","political","v"]]},
   {id:"yousef_om", n:"Anwar bin Hilal bin Hamdoun Al Jabri", t:1, p:70, s:"gov", roles:[
     ["lst_abob","Director (Deputy Chairman)","board","v"],

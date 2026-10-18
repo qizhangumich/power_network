@@ -239,7 +239,7 @@ const INSTITUTIONS = [
 const PEOPLE = [
   // ===== TIER 0 — RULING CORE (Al Thani) =====
   {id:"tamim", n:"H.H. Sheikh Tamim bin Hamad Al Thani", t:0, p:100, s:"gov", roles:[
-    ["tamim_bin_hamad","Chairman of the Board of Trustees (ex officio","board","ns"],
+    ["tamim_bin_hamad","Chairman of the Board of Trustees (ex officio","board","v"],
     ["qoc","Chairman","board","v"],
     ["qgov","Emir of the State of Qatar","political","v"]],
     note:"Apex of the network. Ultimate authority over Qatar's energy wealth, sovereign capital and foreign policy."},
@@ -283,7 +283,7 @@ const PEOPLE = [
     ["qf","Member","board","v"],
     ["moci","Minister of Commerce & Industry","political","v"]]},
   {id:"hamad_bt_aj", n:"H.E. Sheikh Hamad bin Thamer Al Thani", t:0, p:82, s:"comm", roles:[
-    ["qatar_media","Chairman of the Board of Directors","board","ns"],
+    ["qatar_media","Chairman of the Board of Directors","board","v"],
     ["aljazeera","Chairman","board","v"]]},
   {id:"faisal_bt", n:"H.E. Sheikh Faisal bin Thani Al Thani", t:0, p:78, s:"comm", roles:[
     ["qse","Chairman","board","v"],
@@ -326,7 +326,7 @@ const PEOPLE = [
     ["mod_q","Minister of State for Defence Affairs","political","ns"]]},
   {id:"khulaifi", n:"H.E. Dr. Mohammed Al-Khulaifi", t:1, p:76, s:"gov", roles:[
     ["qf","Member","board","v"],
-    ["mofa_q","Minister of State (chief mediator)","political","ns"]],
+    ["mofa_q","Minister of State (chief mediator)","political","v"]],
     note:"Qatar's lead negotiator in its signature mediation diplomacy."},
   {id:"almannai", n:"H.E. Mohammed bin Ali Al Mannai", t:1, p:74, s:"tech", roles:[
     ["qf","Member","board","v"],

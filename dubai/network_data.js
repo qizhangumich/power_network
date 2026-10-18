@@ -263,14 +263,14 @@ const PEOPLE = [
   {id:"shaibani", n:"Mohammed Ibrahim Al Shaibani", t:1, p:90, s:"sovereign", roles:[
     ["dae","Board Member","board","ns"],
     ["dubai_world","Board Member","board","v"],
-    ["execco","Member (Director General of HH the Ruler's Court)","board","v"],
-    ["dxbgov","Director-General, Ruler's Court","government","v"],
+    ["execco","Member (Director General of HH the Ruler's Court) (–Sep 2026)","board","v","former:until Sep 2026"],
+    ["dxbgov","Director-General, Ruler's Court (–Sep 2026)","government","v","former:until Sep 2026"],
     ["icd","Managing Director","executive","v"],
     ["nakheel","Chairman","board","ns"],
     ["dib","Chairman (–Sep 2026)","board","v","former:until Sep 2026"]],
     note:"The Ruler's chief business fiduciary — controls the ICD holding that owns Emirates, ENBD and more."},
   {id:"altayer_dewa", n:"Saeed Mohammed Al Tayer", t:1, p:84, s:"utilities", roles:[
-    ["empower","Chairman","board","ns"],
+    ["empower","Chairman","board","v"],
     ["noor_energy_1","Chairman of the Board","board","v"],
     ["execco","Member (Deputy Chairman of Supreme Council of Energy)","board","v"],
     ["dewa","Managing Director & CEO","executive","v"],
@@ -338,7 +338,8 @@ const PEOPLE = [
     ["execco","Member (Director General of Department of Finance)","board","v"],
     ["icd","Board Member","board","v"],
     ["dof_dxb","Director-General","political","v"],
-    ["enoc","Vice Chairman","board","v"]]},
+    ["enoc","Vice Chairman","board","v"],
+    ["dxbgov","Acting Director-General, Ruler's Court","government","v"]]},
   {id:"omar_alfuttaim", n:"Omar Al Futtaim", t:2, p:76, s:"conglomerate", roles:[
     ["ikea_al_futtaim","Vice Chairman and CEO - Al-Futtaim Group","board","v"],
     ["orient_insurance","Vice Chairman","board","v"],
