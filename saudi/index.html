@@ -822,7 +822,10 @@ const I18N = {
     mpContacts:"contacts", mpOnMap:"on this map", mpReach:"organizations in reach",
     mpEmptyTitle:"You haven't added anyone yet",
     mpEmptyBody:"Add a few people you know. You'll appear on the map, connected to them, and can find paths to anyone else.",
-    tabName:"Find by name", tabLinkedIn:"LinkedIn", tabManual:"Not on the map",
+    tabName:"On the map", tabLinkedIn:"LinkedIn", tabManual:"Others",
+    othImportTitle:"Import a contact list", othImportBtn:"Upload CSV or Excel",
+    othImportBody:"Any list of people you know — an alumni address book, a CRM or Outlook export, a spreadsheet. Only a Name column is required; Company, Title, Tags, Notes, Strength and LinkedIn URL are picked up when present. Use Tags to group them (e.g. INSEAD, GEMBA'19). Processed in your browser and kept private to you.",
+    othOneTitle:"Add one person",
     mpReviewTitle:"Is this the same person?",
     mpReviewHint:"These contacts look like people on the map, but we're not sure. Check the organization and title.",
     mpYourContact:"Your contact", mpInMap:"On the map", mpConf:"{n}% match", mpYes:"Same person", mpNo:"Not them",
@@ -845,7 +848,7 @@ const I18N = {
     mcProfile:"Profile ↗", mcRemove:"Remove", mcRemoved:"Contact removed", mcNone:"No contacts match.", mcMore:"more — refine the search",
     mcHint:"Strength, tags and notes describe your relationship. They're private, and strength helps rank your routes.", onMap:"On map",
     typeName:"Type a name…", typeNameHint:"Start typing the name of someone you know.",
-    noNameMatch:"No one called “{q}” on this map. Try another spelling, or add them under “Not on the map”.",
+    noNameMatch:"No one called “{q}” on this map. Try another spelling, or add them under “Others”.",
     dupNote:"{n} people match “{name}”. Check the organization and title to pick the right one.", added:"Added", add:"Add",
     peopleAt:"People at {org}", clearFilter:"Show everyone",
     liTitle:"LinkedIn", liStatus:"Sync not connected",
@@ -987,7 +990,10 @@ const I18N = {
     mpContacts:"位联系人", mpOnMap:"位在本图中", mpReach:"家可触达机构",
     mpEmptyTitle:"你还没有添加任何人",
     mpEmptyBody:"添加几位你认识的人，你就会出现在地图上并与他们相连，进而找到通往其他任何人的路径。",
-    tabName:"按姓名查找", tabLinkedIn:"领英", tabManual:"不在图中",
+    tabName:"图中查找", tabLinkedIn:"领英", tabManual:"其他",
+    othImportTitle:"导入联系人名单", othImportBtn:"上传 CSV 或 Excel",
+    othImportBody:"任何你认识的人的名单——校友通讯录、CRM 或 Outlook 导出、表格均可。只需包含“Name”（姓名）列；如有 Company、Title、Tags、Notes、Strength、LinkedIn URL 列也会一并识别。可用 Tags 分组（如 INSEAD、GEMBA'19）。在你的浏览器中处理，仅你本人可见。",
+    othOneTitle:"添加一位联系人",
     mpReviewTitle:"这是同一个人吗？", mpReviewHint:"这些联系人看起来像图中的人物，但我们不确定。请核对机构与职位。",
     mpYourContact:"你的联系人", mpInMap:"图中人物", mpConf:"匹配度 {n}%", mpYes:"是同一人", mpNo:"不是",
     acctTitle:"账户与同步", mpDelete:"删除我的人脉数据",
@@ -1008,7 +1014,7 @@ const I18N = {
     mcProfile:"主页 ↗", mcRemove:"移除", mcRemoved:"已移除联系人", mcNone:"没有匹配的联系人。", mcMore:"更多——请细化搜索",
     mcHint:"关系强度、标签与备注描述的是你与对方的关系，仅你可见；关系强度会用于路径排序。", onMap:"在图中",
     typeName:"输入姓名…", typeNameHint:"开始输入你认识的人的姓名。",
-    noNameMatch:"本图中没有名为“{q}”的人。换个拼写试试，或在“不在图中”里添加。",
+    noNameMatch:"本图中没有名为“{q}”的人。换个拼写试试，或在“其他”里添加。",
     dupNote:"有 {n} 人与“{name}”同名。请根据机构与职位选择正确的人。", added:"已添加", add:"添加",
     peopleAt:"{org} 的人物", clearFilter:"显示全部",
     liTitle:"领英", liStatus:"未连接同步",
@@ -3898,7 +3904,10 @@ function handleImportFile(f, after){
 }
 function manualHtml(){
   const T = t();
-  return `<p class="mp-p">${T.manualBody}</p>`
+  return `<div class="li-card"><div class="opt"><b>${T.othImportTitle}</b><p>${T.othImportBody}</p>`
+    + `<label class="btn primary">${svgI("upload")} ${T.othImportBtn}<input type="file" id="oth-in" accept=".csv,.xlsx,.xls" hidden></label></div></div>`
+    + `<div class="sect">${T.othOneTitle}</div>`
+    + `<p class="mp-p">${T.manualBody}</p>`
     + `<div style="display:flex;flex-direction:column;gap:8px"><input class="mp-input" id="mm-n" autocomplete="off" placeholder="${T.fName}">`
     + `<input class="mp-input" id="mm-co" autocomplete="off" placeholder="${T.fOrg}"><input class="mp-input" id="mm-po" autocomplete="off" placeholder="${T.fTitle}"></div>`
     + `<div class="actrow"><button class="btn primary" type="button" data-mp="addManual">${svgI("plus")} ${T.mcAdd}</button></div>`;
@@ -4026,6 +4035,8 @@ function renderMyPanel(keep){
   if(resEl && resEl.scrollIntoView) resEl.scrollIntoView({block:"nearest"});
   wireAddByName("mp", MP);
   wireLinkedIn("mp", r => { MP.result = r; renderMyPanel(true); });
+  const othIn = document.getElementById("oth-in");
+  if(othIn) othIn.onchange = ev => handleImportFile(ev.target.files[0], r => { MP.result = r; renderMyPanel(true); });
   const mq = document.getElementById("mc-q");
   if(mq) mq.oninput = () => {
     MP.mcQuery = mq.value;
