@@ -5389,6 +5389,8 @@ function fitInitial(){
   lazyScript("prov_data.js").then(() => { if(PANEL_MODE === "profile" && S.selected) renderProfile(S.selected, true); });
   lazyScript("news_data.js").then(ok => { NEWS_LOADED = true; if(ok) attachNews(); else Legend.renderSignals(); });
   const params = new URLSearchParams(location.search);
+  try { localStorage.setItem("nv_last_region", Personal.REGION); } catch(e){}
+  if(params.get("mynet") === "1") setTimeout(() => { openMyPanel(); history.replaceState(null, "", location.pathname); }, 900);
   if(params.get("demo") === "1"){ enterDemo({silent:true}); Tour.start(); }
   else if(params.get("tour") === "1" || !Tour.seen()) Intro.show();
   else maybeHint();

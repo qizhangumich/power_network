@@ -82,7 +82,7 @@ code{font-size:12px;word-break:break-all;color:var(--ink-soft)}
 <div class="wrap">
   <header>
     <a class="brand" href="/"><img src="/favicon.svg" alt=""><b>NavGCC</b></a>
-    <div class="who" id="who"></div>
+    <div class="who"><div class="row" style="justify-content:flex-end"><a class="btn sm" id="back" href="/abudhabi/">← Back to map</a><a class="btn sm primary hide" id="mynet" href="/abudhabi/?mynet=1">Open my network</a></div><div id="who" style="margin-top:6px"></div></div>
   </header>
 
   <h1>Try Premium — classmate circle pilot</h1>
@@ -148,7 +148,7 @@ code{font-size:12px;word-break:break-all;color:var(--ink-soft)}
     <div class="list" id="p-list"></div>
     <div class="row" style="margin-top:12px">
       <button class="btn primary" id="p-add">Add to My Network</button>
-      <a class="btn" id="p-open" href="/abudhabi/">Open the map</a>
+      <a class="btn" id="p-open" href="/abudhabi/?mynet=1">Open my network</a>
       <button class="btn danger hide" id="p-rm">Remove the layer</button>
     </div>
     <div class="msg" id="p-msg"></div>
@@ -226,6 +226,8 @@ function payload(){ const o = {}; try { Object.keys(localStorage).forEach(k => {
 function applyPayload(d){ try { Object.keys(localStorage).forEach(k => { if(k.startsWith("pm2_") && k !== "pm2_token" && k !== "pm2_email") localStorage.removeItem(k); }); if(d) Object.keys(d).forEach(k => localStorage.setItem(k, d[k])); } catch(e){} }
 
 const P = new URLSearchParams(location.search);
+(function(){ const r = ls.get("nv_last_region"), d = /^[a-z]+$/.test(r || "") ? r : "abudhabi";
+  $("back").href = "/" + d + "/"; $("mynet").href = "/" + d + "/?mynet=1"; })();
 if(P.get("invite")) ss.set("nv_invite", P.get("invite"));
 let ME = null, CIR = null, INV = null;
 
@@ -251,6 +253,7 @@ function render(has){
   $("steps").innerHTML = names.map((n, i) => `<span class="${i < st ? "done" : i === st ? "cur" : ""}">${i < st ? "✓ " : ""}${n}</span>`).join("");
   $("who").innerHTML = ME ? `${esc(ME.email)}${ME.verified ? "" : " (unverified)"}<button class="btn sm" id="out">Sign out</button>` : "";
   if(ME) $("out").onclick = signOut;
+  show("mynet", !!ME);
   show("c-acct", st === 0); show("c-ver", st === 1); show("c-acc", st === 2);
   show("c-prev", st === 3); show("c-me", st === 3); show("c-fb", !!(ME && ME.verified)); show("c-admin", !!(ME && ME.admin && ME.verified));
   if(st === 1) renderVerify();
@@ -353,6 +356,7 @@ FKEYS.forEach(([k]) => $("f-" + k).onchange = drawList);
 $("f-q").oninput = drawList;
 function layerButtons(){
   const on = !!(ME.layers && ME.layers.alumni && ME.layers.alumni.on);
+  { const a = $("mynet"); $("p-open").href = a.href; }
   $("p-add").textContent = on ? "Update the layer" : "Add to My Network";
   show("p-rm", on);
 }
