@@ -11,3 +11,6 @@ abu_dhabi_power_hub_v1_plotly_backup.html
 Network Design Tools.pdf
 __pycache__/
 tools/__pycache__/
+
+# secrets
+instruction/key_apis/
