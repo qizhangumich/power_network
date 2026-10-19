@@ -2481,12 +2481,11 @@ function labelEligible(n, lit, hoverSet){
   if(n === S.selected || n === S.hovered || n.kind === "me" || n === S.pulse) return true;
   if(S.path) return S.path.nodes.includes(n);
   if(lit) return lit.has(n) && lit.get(n) <= 1;
-  if(hoverSet) return hoverSet.has(n);
+  if(hoverSet) return false;                        // hovering names only the dot under the pointer
   if(S.askSet) return S.askSet.has(n);
-  if(n.myDirect || n.demo) return true;
   if(S.hl.size) return S.hl.has(groupOf(n)) && ambientOk(n, true);
   if(S.focus) return true;
-  return ambientOk(n, false);
+  return false;                                     // quiet map: no names but "You"; connections are ringed instead
 }
 function labelPrio(n, lit){
   if(n === S.selected) return 1e7;
@@ -2714,6 +2713,7 @@ function draw(now){
       ctx.globalAlpha = a;
       drawMe(x, y, r, now, selected);
     } else {
+      if(n.myDirect && !P) a = Math.max(a, 0.95);     // your connections never fade into the crowd
       ctx.globalAlpha = a;
       const sc = sectorColor(n.sector), cls = nodeClass(n);
       drawShapePath(n, x, y, r);
@@ -2725,7 +2725,7 @@ function draw(now){
       if(n.demo) ctx.setLineDash([3, 2.5]);
       ctx.stroke();
       ctx.setLineDash([]); ctx.shadowBlur = 0;
-      if(n.kind === "person" && n.power >= 90 && r >= 10){
+      if(n.kind === "person" && n.power >= 90 && r >= 10 && (selected || hovered)){
         ctx.fillStyle = C.ink;
         ctx.font = `600 ${Math.max(8, r * 0.7)}px ${FONT}`;
         ctx.textAlign = "center"; ctx.textBaseline = "middle";
@@ -2733,10 +2733,16 @@ function draw(now){
         ctx.textBaseline = "alphabetic";
         if(a > 0.5) heroBoxes.push({x0:x - r, y0:y - r, x1:x + r, y1:y + r, n});
       }
-      if((n.myDirect || n.contacts.length) && a > 0.5){
+      if(n.myDirect && a > 0.3){                       // someone you know: solid glowing ring
+        const rgb = n.myConf === "demo" ? C.demoRGB : C.accentRGB;
+        ctx.beginPath(); ctx.arc(x, y, r + 5, 0, Math.PI * 2);
+        ctx.shadowColor = `rgba(${rgb},0.9)`; ctx.shadowBlur = 10;
+        ctx.strokeStyle = `rgba(${rgb},1)`; ctx.lineWidth = 2.2; ctx.stroke();
+        ctx.shadowBlur = 0;
+      } else if(n.contacts.length && a > 0.5){         // an organization where your contacts work
         ctx.beginPath(); ctx.setLineDash([3, 3]);
         ctx.arc(x, y, r + 5, 0, Math.PI * 2);
-        ctx.strokeStyle = `rgba(${n.myDirect ? (n.myConf === "demo" ? C.demoRGB : C.accentRGB) : C.accentRGB},${n.myDirect ? 0.95 : 0.55})`;
+        ctx.strokeStyle = `rgba(${C.accentRGB},0.6)`;
         ctx.lineWidth = 1.4; ctx.stroke(); ctx.setLineDash([]);
       }
       if(n.news.length && a > 0.5){
