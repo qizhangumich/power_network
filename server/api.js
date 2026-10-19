@@ -26,6 +26,9 @@ const HOST = process.env.POWER_API_HOST || "127.0.0.1";   // 0.0.0.0 when contai
 const DATA = process.env.POWER_API_DATA || "/var/lib/power_api";
 const UDIR = path.join(DATA, "users");
 fs.mkdirSync(UDIR, { recursive: true });
+/* mail secrets may live in DATA/mail.json ({"RESEND_API_KEY","MAIL_FROM"}), outside the repo */
+try { const mj = JSON.parse(fs.readFileSync(path.join(DATA, "mail.json"), "utf8"));
+      for (const k of ["RESEND_API_KEY", "MAIL_FROM"]) if (!process.env[k] && mj[k]) process.env[k] = mj[k]; } catch (e) {}
 const BASE = (process.env.PUBLIC_BASE || "https://navgcc.com").replace(/\/$/, "");
 
 const USERS_F = path.join(DATA, "users.json");
