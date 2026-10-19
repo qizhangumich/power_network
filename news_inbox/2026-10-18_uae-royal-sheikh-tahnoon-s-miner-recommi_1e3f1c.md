@@ -1,0 +1,5 @@
+# UAE royal Sheikh Tahnoon's miner recommits $1.1bn to Zambia
+source: Billionaires.Africa
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxNOTUyV3Frc2pmVUp6UEZZcnpNQW1HaFJUSV9tdG9KOUlDN2kxdzc3OFFINkp0VHdxZlN1TDZUR1drbno2SGpEcDNNa0NDVjB2RXRWdVo1ODNDQnpBeU5BNkZDX1EzcW9TcmJUcExReHhwUWJ4aFpHQU0yWmF1OEpVN2VWM3lTRnlab1FULTBmNk1Wb2s4RWVEZjE0ZlpBQ3ZjdGx2UXM0eHRCMkI0MjRwazJTRDUyZTE5QU9IQzhOVGNDcm1TT3hIODRZNk1SVWNlNkoweUNYYw?oc=5
+
+UAE royal Sheikh Tahnoon's miner recommits $1.1bn to Zambia    Billionaires.Africa

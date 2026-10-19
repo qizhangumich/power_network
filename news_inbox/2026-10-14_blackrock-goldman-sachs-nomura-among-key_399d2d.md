@@ -1,0 +1,5 @@
+# BlackRock, Goldman Sachs, Nomura among key investors…
+source: inkl
+url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZ00zQXlZTmZpTGxjTFhzMVFERE1HRXNPWUlXVmtYTklaNVpVTkIwOFVaVXhza3FIT3pkUzlwaXVzem5aNDBCUm91ck1WVjNORUVoUWtscGRkUVBORGIySU4ybXE5U1hyZW9jYnppZEx6UUhVZGE5NEJFby1hVzlrZ05wVDZxNERJRjRqbi1Fc2pYanA5MS1FRFduYWc4amNiWmx4a2xSLTRoOGloaXdhNEhEUG9zNHRtTjJWWDVZbXFyYzgxeUpyUUNIckt5aWtua09vLXZaYjF6NUlMeVhleC1n?oc=5
+
+BlackRock, Goldman Sachs, Nomura among key investors…    inkl
