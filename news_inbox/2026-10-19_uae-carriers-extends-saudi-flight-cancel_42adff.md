@@ -1,0 +1,5 @@
+# UAE carriers extends Saudi flight cancellations
+source: ARN News Centre
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPejM4SnJ0R042TkZaU3loTTRTS3ktbzNzclo3TjRINHc0aVRwZkxENmhreGQ5Vm9OaGxEWGRyNy1BdzdLVWFxX1MyMEg2ME51S0pqNmV6a09WTFBPSGtPN0MyS0tOQ1RtcEZ3V0FDeTRob3VPbkFFNUYyeEhzOHlfaTR3REFsaXZQR01xaG5nM2ItRzRJVGRtWjlTWnpSRndmSEtTNkdaTlRPZw?oc=5
+
+UAE carriers extends Saudi flight cancellations    ARN News Centre

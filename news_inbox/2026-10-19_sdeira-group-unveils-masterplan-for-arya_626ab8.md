@@ -1,0 +1,5 @@
+# Sdeira Group unveils masterplan for Aryam Community – KEZAD Al Mamourah
+source: Construction Week Online
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxOLXYwTTA5QmFfdnFZSURRYkEwcW1VeXV0bnp3OTZjXzVfUmt1VHBiMkFIR3p6UTlPZ3ZTNnlHR3V6UUYwRUVwR09WREpWTTYxRXI5YXFsaEs5eFJqbHZMUkFObElGSW9pU1FhVjRGU3BqdFBabHo2d19WTE5keXNZQ0VKSDQ4QWU3TUd2MnAxUUxaNlBnVm0tamJEMmY0SWlJQ1pSSWVFaktlQzJHQnFXMmNXWm9NTFNkZmdxdDV1dzd5YlE?oc=5
+
+Sdeira Group unveils masterplan for Aryam Community – KEZAD Al Mamourah    Construction Week Online

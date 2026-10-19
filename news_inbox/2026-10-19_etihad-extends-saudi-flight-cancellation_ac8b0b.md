@@ -1,0 +1,5 @@
+# Etihad extends Saudi flight cancellations to October 24 as Emirates, Air Arabia cancel services
+source: Gulf Business
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSk0zSFpxZkg3OVVaUlRqMmlXazJzNWpGYnJZYVF1cS16ZnJBckI1RHhtLUhmRUFOZDFEcTdFRnlkYnBvUnpMZl9iN3FLVDZMS3YtT2tpWWRPQ0lFZU5QM3RBMl9HV1Y2eXAxYnM3TWRyRFZHTDMtS1RNbUVyWkN0M0JKajNBTmdmOVFlTG54YWhNbXVrWmowYmVKaGhFd3pSRjlJZURqU0NsbXhqR2h2cXVKeVdlNGQ2WHpOdURCekNQSG56d0RRNzhmRXJwYzNLTnY0?oc=5
+
+Etihad extends Saudi flight cancellations to October 24 as Emirates, Air Arabia cancel services    Gulf Business

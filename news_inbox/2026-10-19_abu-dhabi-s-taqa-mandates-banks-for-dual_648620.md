@@ -1,0 +1,5 @@
+# Abu Dhabi’s TAQA mandates banks for dual-tranche USD green bond issue; IPTs out
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQzNjQ3JWRTJ5cm1ZRE8tZ3ZLQmlrZ1JCVk1nVjh5SldndFB0UTJLNmxxS3BxTkRndURJYmQ2ZF93UExkdmNTRFU0QWt2SEtiMjlhdHZaODFfTzJPTzFUdkhIM1czMFVTelctOWs5Yy1pRjZZblV1UFN3ZzFfYms1c3VSMUhVRklxbFlVdnhwRlhqRllZNXptZTNrR2s1U0JtMXRaTUxRckotU0Zsc1VMLVp2bkZsYjF4bmhjU2JUTl9sRl9nRGFQMlhaUHQyY3I2MkdJYVlSQWJJdHZ3VTl6TGQ5VXh5QWlUR0E?oc=5
+
+Abu Dhabi’s TAQA mandates banks for dual-tranche USD green bond issue; IPTs out    TradingView

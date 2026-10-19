@@ -1,0 +1,5 @@
+# Saudi ACWA Power, UAE's Masdar join industry call to preserve EU green hydrogen targets
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZ2R6ZTRsMG9IdE5NLVdadU9tSFBabFZQNXlhRk1pOFRzcUg1am1Ienl2bndzZHp2bmNBc3VsZWtjbU1FcmZwMkI2QlFOYVplblFBZEJ4X0liZ1JmeG5tRmplNDk0cFJOT0VHNkhxUzJ4akhqNlIzRHE4VHJGU2x0TDFXZ0lPSE9lZy1qejJQaGNvWkVMNUNIWkh1VGpDdFR2NGo3WkdVcVJPN3RrSi0zdlZZRlV0NVh0eGs3akZEZ1lUcUVDZE91YWg0R0xMMVo2Z0FEcVpoSkR3a0NKR0FQUW1rTjEzY0IzcnkxTkwzQmtueGtR?oc=5
+
+Saudi ACWA Power, UAE's Masdar join industry call to preserve EU green hydrogen targets    TradingView
