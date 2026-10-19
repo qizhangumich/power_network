@@ -562,7 +562,7 @@ const PEOPLE = [
   {id:"alwaleed", n:"Prince Alwaleed bin Talal Al Saud", t:0, p:78, s:"conglomerate", roles:[
     ["kingdomholding","Chairman","board","v"]]},
   {id:"rumayyan", n:"Yasir Al-Rumayyan", t:1, p:92, s:"sovereign", roles:[
-    ["maaden","Chairman","board","ns"],
+    ["maaden","Chairman","board","v"],
     ["sanabil","Chairman","board","v"],
     ["fii_institute","Chairman of the Board of Trustees","board","v"],
     ["qiddiya","Board Member","board","v"],
@@ -684,7 +684,7 @@ const PEOPLE = [
     ["mbcgroup","Founder & Chairman","board","v"]]},
   {id:"lubna", n:"Lubna Olayan", t:2, p:76, s:"finance", roles:[
     ["olayan","Chair, Olayan Financing","board","v"],
-    ["sab","Chair","board","ns"]]},
+    ["sab","Chair","board","v"]]},
   {id:"alsadhan", n:"Tareq Al-Sadhan", t:2, p:72, s:"finance", roles:[
     ["snb","Group CEO","executive","v"]]},
   {id:"saeed_alghamdi", n:"Saeed Al-Ghamdi", t:2, p:72, s:"finance", roles:[
@@ -712,8 +712,9 @@ const PEOPLE = [
   {id:"jomana", n:"Jomana Al-Rashid", t:2, p:68, s:"comm", roles:[
     ["srmg","CEO","executive","v"]]},
   {id:"alajlan", n:"Ajlan bin Abdulaziz Al Ajlan", t:2, p:68, s:"conglomerate", roles:[
-    ["riyadh_chamber","Chairman of the Board of Directors","board","ns"],
-    ["ajlan","Founder & Chairman","board","v"]]},
+    ["riyadh_chamber","Chairman of the Board of Directors (2020-Sep 2024)","board","v","former:until Sep 2024"],
+    ["ajlan","Founder & Chairman","board","v"]],
+    note:"Succeeded as Riyadh Chamber Chairman by Abdullah bin Abdulrahman Al-Obaikan, elected 2 Sep 2024."},
   {id:"yasir_o_al", n:"Yasir O. Al-Rumayyan", t:2, p:62, s:"energy", roles:[
     ["aramco","Chairman","board","v"]]},
   {id:"ibrahim_a_al", n:"Ibrahim A. Al-Assaf", t:2, p:62, s:"energy", roles:[
@@ -910,6 +911,7 @@ const PEOPLE = [
   {id:"sulaiman_bin_abdulkadir", n:"Sulaiman bin Abdulkadir Almuhaidib", t:2, p:62, s:"consumer_stap", roles:[
     ["almarai","Vice Chairman","board","v"]]},
   {id:"abdulrahman_abdulmohsen_al", n:"Abdulrahman Abdulmohsen Al Fadley", t:2, p:52, s:"consumer_stap", roles:[
+    ["enowa","Chairman","board","ns"],
     ["almarai","Board Member","board","v"],
     ["redsea","Board Member","board","v"]]},
   {id:"saud_bin_sultan", n:"Saud bin Sultan bin Mohammed bin Saud Al Kabeer", t:2, p:52, s:"consumer_stap", roles:[
@@ -2994,6 +2996,14 @@ const PEOPLE = [
     ["lst_8313","Deputy CEO & Chief Technology Officer","executive","v"]]},
   {id:"saad_bin_abdulaziz", n:"Saad bin Abdulaziz Al-Khalb", t:2, p:60, s:"finance", roles:[
     ["saudi_exim","Chief Executive Officer","executive","ns"]]},
+  {id:"peter_terium", n:"Peter Terium", t:2, p:60, s:"utilities", roles:[
+    ["enowa","CEO","executive","ns"]]},
+  {id:"vikram_natarajan", n:"Vikram Natarajan", t:2, p:60, s:"consumer_disc", roles:[
+    ["kayanee","CEO","executive","ns"]]},
+  {id:"maher_eldaly", n:"Maher Eldaly", t:2, p:60, s:"consumer_stap", roles:[
+    ["sawani","CEO","executive","ns"]]},
+  {id:"osama_bin_abdullatif", n:"Osama bin Abdullatif AlOthman", t:2, p:60, s:"finance", roles:[
+    ["aseer_invest","CEO","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

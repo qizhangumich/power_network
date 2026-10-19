@@ -333,6 +333,7 @@ const PEOPLE = [
     ["qf","Member","board","v"],
     ["mocit","Minister of Communications & IT","political","v"]]},
   {id:"hanan", n:"H.E. Dr. Hanan Mohamed Al Kuwari", t:1, p:80, s:"health", roles:[
+    ["qatar_biobank","Chairperson of the Board of Trustees","board","v"],
     ["moph","Minister of Public Health","political","v"],
     ["hmc","Managing Director","executive","v"]]},
   {id:"lolwah", n:"H.E. Lolwah Al-Khater", t:1, p:74, s:"education", roles:[
@@ -487,6 +488,7 @@ const PEOPLE = [
   {id:"sheikh_khalid_bin", n:"Sheikh Khalid Bin Abdullah Al-Thani", t:2, p:52, s:"materials", roles:[
     ["industriesqatar","Board Member","board","v"]]},
   {id:"abdulrahman_ali_al", n:"Abdulrahman Ali Al-Abdulla", t:2, p:52, s:"materials", roles:[
+    ["qatar_steel","Managing Director and CEO","executive","ns"],
     ["muntajat","Chairman","board","v"],
     ["industriesqatar","Board Member","board","v"]]},
   {id:"abdulla_ahmad_al", n:"Abdulla Ahmad Al-Hussaini", t:2, p:52, s:"materials", roles:[
@@ -2089,6 +2091,10 @@ const PEOPLE = [
     ["qna","Director-General","executive","v"]]},
   {id:"fathi_ibrahim_aburish", n:"Fathi Ibrahim Aburish", t:2, p:60, s:"conglomerate", roles:[
     ["mbhh","Managing Director","executive","v"]]},
+  {id:"asma_al_thani", n:"Asma Al Thani", t:2, p:62, s:"health", roles:[
+    ["qatar_biobank","Vice Chairperson of the Board of Trustees","board","v"]]},
+  {id:"nahla_maher_al", n:"Nahla Maher Al Afifi", t:2, p:58, s:"health", roles:[
+    ["qatar_biobank","Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [

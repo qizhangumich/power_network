@@ -179,9 +179,9 @@ const INSTITUTIONS = [
   {id:"lst_alefedt", n:"Alef Education Holding plc", s:"consumer_disc", t:2, p:50, short:"ALEFEDT"},
   {id:"lst_oras", n:"Orascom Construction PLC", s:"industry", t:2, p:70, short:"Orascom Const."},
   {id:"lst_dana", n:"Dana Gas PJSC", s:"energy", t:2, p:66, short:"Dana Gas PJSC"},
-  {id:"lst_adaviation", n:"Abu Dhabi Aviation Company", s:"industry", t:2, p:50, short:"ADAVIATION"},
+  {id:"lst_adaviation", n:"Abu Dhabi Aviation Company", s:"industry", t:2, p:66, short:"ADAVIATION"},
   {id:"lst_bos", n:"Bank of Sharjah PJSC", s:"finance", t:2, p:60, short:"Bank of Sharjah"},
-  {id:"lst_uab", n:"United Arab Bank PJSC", s:"finance", t:2, p:50, short:"UAB"},
+  {id:"lst_uab", n:"United Arab Bank PJSC", s:"finance", t:2, p:58, short:"UAB"},
   {id:"lst_emobility", n:"Emirates Mobility Company PJSC", s:"industry", t:2, p:50, short:"EMOBILITY"},
   {id:"lst_icap", n:"Investcorp Capital plc", s:"finance", t:2, p:58, short:"ICAP"},
   {id:"lst_phx", n:"Phoenix Group PLC", s:"tech", t:2, p:50, short:"Phoenix Group PLC"},
@@ -192,7 +192,7 @@ const INSTITUTIONS = [
   {id:"lst_esg", n:"ESG Emirates Stallions Group PJSC", s:"materials", t:2, p:50, short:"ESG"},
   {id:"lst_asm", n:"Al Seer Marine Supplies and Equipment Company PJSC", s:"industry", t:2, p:60, short:"ASM"},
   {id:"lst_ghitha", n:"Ghitha Holding PJSC", s:"consumer_stap", t:2, p:50, short:"Ghitha Holding PJSC"},
-  {id:"lst_rakcec", n:"RAK Ceramics PJSC", s:"materials", t:2, p:50, short:"RAK Ceramics PJSC"},
+  {id:"lst_rakcec", n:"RAK Ceramics PJSC", s:"materials", t:2, p:60, short:"RAK Ceramics PJSC"},
   {id:"lst_mair", n:"MAIR Group PJSC", s:"consumer_stap", t:2, p:50, short:"MAIR Group PJSC"},
   {id:"lst_invictus", n:"Invictus Investment Company PLC", s:"finance", t:2, p:50, short:"INVICTUS"},
   {id:"lst_e7", n:"E7 Group PJSC", s:"industry", t:2, p:50, short:"E7 Group PJSC"},
@@ -309,7 +309,6 @@ const INSTITUTIONS = [
   {id:"wizz_air_ad", n:"Wizz Air Abu Dhabi", s:"industry", t:2, p:58, short:"Wizz Air AD"},
   {id:"mubadala_cap_sol", n:"Mubadala Capital Solutions", s:"finance", t:2, p:56, short:"Mubadala Cap. Sol."},
   {id:"mubadala_bio", n:"Mubadala Bio", s:"health", t:2, p:60, short:"Mubadala Bio"},
-  {id:"al_qudra", n:"Al Qudra Holding", s:"realestate", t:2, p:56, short:"Al Qudra Holding"},
 ];
 
 const PEOPLE = [
@@ -424,6 +423,7 @@ const PEOPLE = [
     ["mbzuai","Board of Trustees Member","board","v"],
     ["adia","Board Member","board","v"],
     ["q","Chairman","board","v"],
+    ["gridora","Chairman","board","v"],
     ], note:"Controls the emirate's treasury and chairs the telecom giant."},
   {id:"ahmed_jasim_zaabi", n:"Ahmed Jasim Al Zaabi", t:1, p:90, s:"finance", roles:[
     ["added","Chairman","government","v"],
@@ -877,7 +877,7 @@ const PEOPLE = [
     ["adairports","Board Member","board","v"],
     ]},
   {id:"somar_ajalyaqin", n:"Dr. Mohammed Somar Ajalyaqin", t:2, p:70, s:"sovereign", roles:[
-    ["ihc","Vice Chairman","board","ns"],
+    ["ihc","Vice Chairman","board","v"],
     ["multiply","Board Member","board","v"],
     ]},
   {id:"alwyn_crasta", n:"Alwyn Crasta", t:2, p:66, s:"sovereign", roles:[
@@ -1367,6 +1367,7 @@ const PEOPLE = [
     ]},
   {id:"hasan_al_hosani", n:"Hasan Al Hosani", t:2, p:58, s:"tech", roles:[
     ["space42","CEO, Smart Solutions","executive","v"],
+    ["bayanat_ai","Managing Director of Bayanat","executive","v"],
     ]},
   {id:"andrew_cole", n:"Andrew Cole", t:2, p:58, s:"tech", roles:[
     ["space42","Chief Financial Officer","executive","v"],
@@ -2760,7 +2761,7 @@ const PEOPLE = [
     ["cbuae","Vice Chairman of the Board of Directors","board","ns"],
     ]},
   {id:"jassem_mohammad_buatabah", n:"Jassem Mohammad Buatabah Al Zaabi", t:2, p:62, s:"finance", roles:[
-    ["cbuae","Vice Chairman of the Board of Directors","board","ns"],
+    ["cbuae","Vice Chairman of the Board of Directors","board","v"],
     ]},
   {id:"younis_haji_al", n:"Younis Haji Al Khoori", t:2, p:52, s:"finance", roles:[
     ["cbuae","Board Member","board","ns"],
@@ -4043,6 +4044,24 @@ const PEOPLE = [
   {id:"faisal_al_ayyan", n:"Faisal Al Ayyan", t:2, p:60, s:"education", roles:[
     ["hct","President and CEO","executive","ns"],
     ]},
+  {id:"kees_van_schaick", n:"Kees Van Schaick", t:2, p:60, s:"industry", roles:[
+    ["wizz_air_ad","Managing Director","executive","ns"],
+    ]},
+  {id:"maxime_franzetti", n:"Maxime Franzetti", t:2, p:58, s:"finance", roles:[
+    ["mubadala_cap_sol","Co-Head, Mubadala Capital Solutions","executive","v"],
+    ]},
+  {id:"fatima_al_noaimi", n:"Fatima Al Noaimi", t:2, p:58, s:"finance", roles:[
+    ["mubadala_cap_sol","Co-Head, Mubadala Capital Solutions","executive","v"],
+    ]},
+  {id:"essam_mohamed", n:"Essam Mohamed", t:2, p:60, s:"health", roles:[
+    ["mubadala_bio","Chief Executive Officer (CEO)","executive","v"],
+    ]},
+  {id:"hamad_husein_al", n:"Hamad Husein Al Marzooqi", t:2, p:60, s:"health", roles:[
+    ["mubadala_bio","Deputy CEO","executive","v"],
+    ]},
+  {id:"atif_azeem", n:"Atif Azeem", t:2, p:58, s:"health", roles:[
+    ["mubadala_bio","Chief Financial Officer (CFO)","executive","v"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -4315,7 +4334,6 @@ const OWNERSHIP = [
   ["wizz_air_ad","adq","joint venture (30% ADQ / 70% Wizz Air Holdings)","v"],
   ["mubadala_cap_sol","mubadala_capital","subsidiary business line","v"],
   ["mubadala_bio","mubadala","subsidiary (National Champion)","v"],
-  ["al_qudra","alphadhabi","shareholder (25.24% stake)","v"],
 ];
 
 const FAMILY = [
@@ -4396,4 +4414,5 @@ const AKA = {
   fatima_college:["FCHS"],
   bayanat_ai:["Bayanat for Mapping and Surveying Services","Bayanat AI PJSC"],
   adnh:["National Corporation for Tourism & Hotels","NCTH"],
+  q:["Al Qudra Holding"],
 };

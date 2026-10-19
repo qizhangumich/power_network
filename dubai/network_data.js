@@ -273,6 +273,7 @@ const PEOPLE = [
     ["dib","Chairman (–Sep 2026)","board","v","former:until Sep 2026"]],
     note:"The Ruler's chief business fiduciary — controls the ICD holding that owns Emirates, ENBD and more."},
   {id:"altayer_dewa", n:"Saeed Mohammed Al Tayer", t:1, p:84, s:"utilities", roles:[
+    ["dubal","Chairman","board","ns"],
     ["empower","Chairman","board","v"],
     ["noor_energy_1","Chairman of the Board","board","v"],
     ["execco","Member (Deputy Chairman of Supreme Council of Energy)","board","v"],
@@ -291,7 +292,7 @@ const PEOPLE = [
     ["dpworld","Chairman","board","v"]],
     note:"Chaired DFM 2007–Nov 2021; succeeded as DFM chairman by Helal Saeed Al Marri (Dubai Media Office, 3 Nov 2021). Appointed Chairman of DP World in Feb 2026."},
   {id:"helal_marri", n:"Helal Saeed Almarri", t:1, p:78, s:"gov", roles:[
-    ["borse_dubai","Chairman, Dubai Financial Market","board","ns"],
+    ["borse_dubai","Chairman, Dubai Financial Market","board","v"],
     ["dwtc","Director General, DWTC Authority","executive","ns"],
     ["dubai_future_fdn","Board Member (Director General, Dubai Department of Economy and Tourism)","board","v"],
     ["vara","Chairman of the Executive Board","board","v"],
@@ -2306,6 +2307,18 @@ const PEOPLE = [
     ["prime_healthcare","Founder and Managing Director","executive","ns"]]},
   {id:"ali_bin_sebaa", n:"Ali Bin Sebaa Al Marri", t:2, p:58, s:"education", roles:[
     ["mbrsg","Executive President","executive","v"]]},
+  {id:"zain_bashir", n:"Zain Bashir", t:2, p:60, s:"consumer_disc", roles:[
+    ["lst_talabat","Managing Director Bahrain","executive","ns"]]},
+  {id:"ahmad_hamad_bin", n:"Ahmad Hamad Bin Fahad", t:2, p:60, s:"materials", roles:[
+    ["dubal","CEO","executive","ns"]]},
+  {id:"abdullatif_almukhaizeem", n:"Abdullatif Almukhaizeem", t:2, p:60, s:"energy", roles:[
+    ["kpc_trading","Chief Executive Officer","executive","ns"]]},
+  {id:"robert_johnson", n:"Robert Johnson", t:2, p:58, s:"energy", roles:[
+    ["kpc_trading","Chief Financial Officer","executive","ns"]]},
+  {id:"yann_elbaz", n:"Yann Elbaz", t:2, p:58, s:"energy", roles:[
+    ["kpc_trading","Chief Commercial Officer","executive","ns"]]},
+  {id:"sheikh_khaled_al", n:"Sheikh Khaled Al-Sabah", t:2, p:62, s:"energy", roles:[
+    ["kpc_trading","Chairman","board","ns"]]},
 ];
 
 const OWNERSHIP = [

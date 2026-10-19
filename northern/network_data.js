@@ -1319,6 +1319,18 @@ const PEOPLE = [
     ["fujairah_culture_media","Director-General","executive","v"]]},
   {id:"sheikh_faisal_bin_b", n:"Sheikh Faisal bin Saud Al Qasimi", t:2, p:58, s:"gov", roles:[
     ["sharjah_airport_auth","Director of the Sharjah Airport Authority","executive","v"]]},
+  {id:"abdulaziz_al_mheiri", n:"Abdulaziz Al Mheiri", t:2, p:62, s:"health", roles:[
+    ["sharjah_healthcare_city","Chairman","board","v"]]},
+  {id:"sheikh_mohammed_bin_b_b_b_b", n:"Sheikh Mohammed bin Abdullah Al Nuaimi", t:2, p:62, s:"gov", roles:[
+    ["ajman_ports_customs","Chairman","board","v"]]},
+  {id:"sheikh_sultan_bin_b_b_b", n:"Sheikh Sultan bin Mohammed Al Nuaimi", t:2, p:58, s:"gov", roles:[
+    ["ajman_ports_customs","Director-General","executive","v"]]},
+  {id:"esmail_al_baloushi", n:"Esmail Al Baloushi", t:2, p:46, s:"industry", roles:[
+    ["fujairah_airport","General Manager","executive","v"]]},
+  {id:"faisal_bin_khalid", n:"Faisal bin Khalid bin Sultan Al Qassimi", t:2, p:62, s:"health", roles:[
+    ["gulf_medical_projects","Chairman","board","ns"]]},
+  {id:"majid_bin_faisal", n:"Majid bin Faisal Khalid Al Qassimi", t:2, p:60, s:"health", roles:[
+    ["gulf_medical_projects","Managing Director","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

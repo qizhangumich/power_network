@@ -183,7 +183,7 @@ dena_almansoori,Dena Al Mansoori,adnoc,ADNOC Group,Group Chief Technology & Inno
 hani_barhoush,Hani Barhoush,mubadala,Mubadala Investment Company,"Managing Director & CEO, Mubadala Capital",executive,v,
 mansour_almulla,Mansour Mohamed AlMulla,adq,ADQ,Deputy Group Chief Executive Officer,executive,v,
 marcos_dequadros,Marcos de Quadros,adq,ADQ,Group Chief Financial Officer,executive,ns,
-somar_ajalyaqin,Dr. Mohammed Somar Ajalyaqin,ihc,International Holding Company,Vice Chairman,board,ns,
+somar_ajalyaqin,Dr. Mohammed Somar Ajalyaqin,ihc,International Holding Company,Vice Chairman,board,v,
 alwyn_crasta,Alwyn Crasta,ihc,International Holding Company,Group Chief Financial Officer,executive,v,
 ali_dalloul,Ali Dalloul,g42,G42,Group Chief Strategy Officer,executive,v,
 kiril_evtimov,Kiril Evtimov,g42,G42,Group Chief Technology Officer,executive,v,
@@ -905,7 +905,7 @@ hamad_mohammed_al,Hamad Mohammed Al Hurr Al Suwaidi,adia,,Board Member,board,v,
 majed_salem_khalifa,Majed Salem Khalifa Rashed Alromaithi,adia,,Executive Director Strategy & Planning; Deputy Chairman of the Investment Committee,executive,v,
 sheikh_mohammed_bin_b_b,Sheikh Mohammed bin Khalifa bin Zayed Al Nahyan,adia,,Board Member and Chairman of the Investment Committee,board,v,
 abdulrahman_saleh_al,Abdulrahman Saleh Al Saleh,cbuae,,Vice Chairman of the Board of Directors,board,ns,
-jassem_mohammad_buatabah,Jassem Mohammad Buatabah Al Zaabi,cbuae,,Vice Chairman of the Board of Directors,board,ns,
+jassem_mohammad_buatabah,Jassem Mohammad Buatabah Al Zaabi,cbuae,,Vice Chairman of the Board of Directors,board,v,
 younis_haji_al,Younis Haji Al Khoori,cbuae,,Board Member,board,ns,
 sami_dhaen_al,Sami Dhaen Al Qamzi,cbuae,,Board Member,board,ns,
 ali_mohammed_bakheet_b,Ali Mohammed Bakheet Al Rumaithi,cbuae,,Board Member,board,ns,
@@ -1457,3 +1457,11 @@ mohammed_ibrahim_al,Mohammed Ibrahim Al Dhaheri,agda,,Deputy Director-General,ex
 may_laith_al,May Laith Al Taee,ecae,,Vice Chancellor,executive,ns
 abdulrahman_al_awar,Abdulrahman Al Awar,hct,,Chancellor and Chairman of the Board of Trustees,board,ns
 faisal_al_ayyan,Faisal Al Ayyan,hct,,President and CEO,executive,ns
+hasan_al_hosani,Hasan Al Hosani,bayanat_ai,Bayanat AI,Managing Director of Bayanat,executive,v,
+jassem_zaabi,Jassem Mohamed Bu Ataba Al Zaabi,gridora,Gridora,Chairman,board,v,
+kees_van_schaick,Kees Van Schaick,wizz_air_ad,,Managing Director,executive,ns
+maxime_franzetti,Maxime Franzetti,mubadala_cap_sol,,"Co-Head, Mubadala Capital Solutions",executive,v
+fatima_al_noaimi,Fatima Al Noaimi,mubadala_cap_sol,,"Co-Head, Mubadala Capital Solutions",executive,v
+essam_mohamed,Essam Mohamed,mubadala_bio,,Chief Executive Officer (CEO),executive,v
+hamad_husein_al,Hamad Husein Al Marzooqi,mubadala_bio,,Deputy CEO,executive,v
+atif_azeem,Atif Azeem,mubadala_bio,,Chief Financial Officer (CFO),executive,v
