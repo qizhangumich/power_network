@@ -406,19 +406,9 @@ http.createServer((req, res) => {
     });
   }
 
-  /* ---- circle data: /api/circle/:c[/profile|/match|/request] ---- */
+  /* ---- circle data: /api/circle/:c[/profile|/match] ---- */
   if (seg[1] === "circle" && seg[2]) {
     const c = seg[2], sub = seg[3] || "";
-    if (sub === "request" && req.method === "POST") {
-      if (!CIRCLES[c]) return send(res, 404, { error: "unknown circle" });
-      if (!a.user.verified) return send(res, 403, { reason: "verify", error: "verify your email first" });
-      return body(b => {
-        if (!cdb.requests.some(r => r.email === a.email && r.circle === c && r.status === "open"))
-          cdb.requests.push({ at: Date.now(), email: a.email, circle: c, note: str(b.note, 500), status: "open" });
-        saveC();
-        return send(res, 200, { ok: true });
-      });
-    }
     const acc = access(a, c);
     if (!acc.ok) return send(res, acc.code, { reason: acc.reason, error: "no access to this circle" });
     cdb.profiles[c] = cdb.profiles[c] || {};
@@ -475,7 +465,7 @@ http.createServer((req, res) => {
     return send(res, 404, { error: "not found" });
   }
 
-  /* ---- admin: invitations, requests, claims, members, feedback, stats ---- */
+  /* ---- admin: invitations, claims, members, feedback, stats ---- */
   if (seg[1] === "admin") {
     if (!isAdmin) return send(res, 403, { error: "admin only" });
     const what = seg[2];
@@ -499,7 +489,6 @@ http.createServer((req, res) => {
       inv.revoked = Date.now(); saveC();
       return send(res, 200, { ok: true });
     }
-    if (what === "requests" && req.method === "GET") return send(res, 200, { requests: cdb.requests });
     if (what === "claims" && req.method === "GET") return send(res, 200, { claims: cdb.claims });
     if (what === "claims" && req.method === "POST" && seg[3]) {
       return body(b => {

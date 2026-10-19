@@ -192,7 +192,6 @@ code{font-size:12px;word-break:break-all;color:var(--ink-soft)}
     <div class="msg" id="ad-msg"></div>
     <div id="ad-link"></div>
     <h3>Invitations</h3><div id="ad-inv"></div>
-    <h3>Access requests</h3><div id="ad-req"></div>
     <h3>Profile claims (review before linking)</h3><div id="ad-cl"></div>
     <h3>Pilot numbers</h3><div id="ad-st"></div>
     <h3>Feedback</h3><div id="ad-fb"></div>
@@ -315,16 +314,8 @@ function renderAccess(){
   if(INV && INV.err){
     h = `<p>${esc(INV.err)}.</p>` + (INV.reason === "wrong_email" ? `<p>The invitation was sent to <b>${esc(INV.email)}</b>. Sign out and use that address, or ask the founder for a new link.</p>` : "");
   } else {
-    h = `<p>The circle is <b>invitation-only</b> during the pilot. Open the personal invitation link you received, signed in with the same email it was sent to.</p>
-         <p>No invitation? You can ask for one — the founder reviews requests personally.</p>`;
+    h = `<p>The circle is <b>invitation-only</b> during the pilot. Open the personal invitation link you received, signed in with the same email it was sent to.</p>`;
   }
-  h += `<textarea id="rq-note" maxlength="500" placeholder="Optional: your programme and cohort, e.g. GEMBA, EMBA'21Jan"></textarea>
-        <div class="row" style="margin-top:8px"><button class="btn" id="rq-go">Request access</button></div>`;
-  $("acc-body").innerHTML = h;
-  $("rq-go").onclick = async () => {
-    try { await api("circle/" + CIRCLE + "/request", "POST", {note: $("rq-note").value}); msg("acc-msg", "Request sent. You'll hear back from the founder directly.", "ok"); }
-    catch(e){ msg("acc-msg", e.message, "err"); }
-  };
 }
 
 /* ---------- 4. preview ---------- */
@@ -452,12 +443,11 @@ $("fb-go").onclick = async () => {
 const day = t => t ? new Date(t).toISOString().slice(0, 10) : "";
 async function loadAdmin(){
   try {
-    const [inv, rq, cl, st, fb] = await Promise.all(["invites", "requests", "claims", "stats", "feedback"].map(x => api("admin/" + x)));
+    const [inv, cl, st, fb] = await Promise.all(["invites", "claims", "stats", "feedback"].map(x => api("admin/" + x)));
     $("ad-inv").innerHTML = inv.invites.length ? `<table><tr><th>Email</th><th>Status</th><th>Expires</th><th></th></tr>` + inv.invites.sort((a, b) => b.created - a.created).map(i => {
       const s = i.revoked ? "revoked" : i.usedAt ? "used " + day(i.usedAt) : i.exp < Date.now() ? "expired" : "open";
       return `<tr><td>${esc(i.email)}</td><td>${s}</td><td>${day(i.exp)}</td><td>${s === "open" ? `<button class="btn sm danger" data-rv="${esc(i.id)}">Revoke</button>` : ""}</td></tr>`;
     }).join("") + `</table>` : `<p class="fine">None yet.</p>`;
-    $("ad-req").innerHTML = rq.requests.length ? `<table>` + rq.requests.map(r => `<tr><td>${day(r.at)}</td><td>${esc(r.email)}</td><td>${esc(r.note)}</td><td><button class="btn sm" data-iv="${esc(r.email)}">Use email</button></td></tr>`).join("") + `</table>` : `<p class="fine">None.</p>`;
     $("ad-cl").innerHTML = cl.claims.length ? `<table>` + cl.claims.map(c => `<tr><td>${day(c.at)}</td><td>${esc(c.email)}</td><td>claims <b>${esc(c.recordName)}</b></td><td>${c.status === "pending"
       ? `<button class="btn sm" data-ap="${esc(c.id)}">Approve</button> <button class="btn sm danger" data-rj="${esc(c.id)}">Reject</button>` : esc(c.status)}</td></tr>`).join("") + `</table>` : `<p class="fine">None.</p>`;
     const ev = st.events, row = (k, l) => `<tr><td>${l}</td><td>${ev[k] ? ev[k].users : 0} people</td><td>${ev[k] ? ev[k].count : 0} events</td></tr>`;
