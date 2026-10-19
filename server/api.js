@@ -229,6 +229,51 @@ function circleRecords(c, viewer) {
 }
 const toks = s => new Set(String(s || "").toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter(w => w.length > 1 && !["al", "el", "bin", "dr", "he"].includes(w)));
 
+/* ---------------- invitations ---------------- */
+const findInvite = token => token ? Object.values(cdb.invites).find(i => eqHash(i.hash, sha(String(token)))) : null;
+/* make a verified account a member through an invitation; idempotent */
+function applyInvite(email, inv) {
+  const u = users[email];
+  if (!inv) return { code: 404, body: { reason: "invalid", error: "this invitation link is not valid" } };
+  if (inv.revoked) return { code: 410, body: { reason: "revoked", error: "this invitation was withdrawn" } };
+  if (inv.exp < Date.now()) return { code: 410, body: { reason: "expired", error: "this invitation has expired — ask for a new one" } };
+  if (inv.email === "*") {
+    if (!inv.uses.includes(email)) {
+      if (inv.uses.length >= inv.max) return { code: 410, body: { reason: "used", error: "this invitation link has reached its limit — ask for a new one" } };
+      inv.uses.push(email);
+    }
+    inv.usedAt = inv.usedAt || Date.now();
+  } else {
+    if (inv.email !== email) return { code: 403, body: { reason: "wrong_email", error: "this invitation is for a different email address" } };
+    if (inv.usedAt && inv.usedBy !== email) return { code: 410, body: { reason: "used", error: "this invitation was already used" } };
+    inv.usedAt = inv.usedAt || Date.now(); inv.usedBy = email;
+  }
+  cdb.members[email] = cdb.members[email] || {};
+  if (!cdb.members[email][inv.circle]) cdb.members[email][inv.circle] = { since: Date.now(), via: "invitation", invite: inv.id };
+  saveC();
+  delete u.pendingInvite;
+  /* the invitation loads the circle straight into this person's map */
+  if (!(u.layers && u.layers.alumni && u.layers.alumni.circle === inv.circle)) {
+    u.layers = Object.assign({}, u.layers, { alumni: { on: true, circle: inv.circle, mode: "only",
+      filters: { country: "", city: "", industry: "", org: "", cohort: "" } } });
+    track("alumni_layer_activated", email);
+  }
+  saveUsers();
+  return { code: 200, body: { ok: true, circle: inv.circle } };
+}
+/* an invitation opened before the email is verified is remembered on the account,
+   so it applies on verification even if that happens in another browser */
+function rememberInvite(email, token) {
+  const inv = findInvite(token);
+  if (!inv) return;
+  if (users[email].verified) return applyInvite(email, inv);
+  users[email].pendingInvite = inv.id; saveUsers();
+}
+function onVerified(email) {
+  const u = users[email];
+  if (u.pendingInvite && cdb.invites[u.pendingInvite]) applyInvite(email, cdb.invites[u.pendingInvite]);
+}
+
 /* ---------------- http plumbing ---------------- */
 function send(res, code, obj) {
   res.writeHead(code, { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" });
@@ -263,12 +308,14 @@ http.createServer((req, res) => {
         users[email] = { id: crypto.randomBytes(8).toString("hex"), salt, hash: hashPw(pw, salt), created: Date.now(), verified: false };
         saveUsers();
         track("registration_completed", email);
+        if (b.invite) rememberInvite(email, b.invite);
         const v = await issueVerification(email);
         return send(res, 200, { token: newToken(email), email, verification: v.ok ? "sent" : v.error });
       }
       const u = users[email];
       if (!u) return send(res, 401, { error: "no such account" });
       if (!eqHash(hashPw(pw, u.salt), u.hash)) return send(res, 401, { error: "wrong password" });
+      if (b.invite) rememberInvite(email, b.invite);
       return send(res, 200, { token: newToken(email), email });
     });
   }
@@ -287,7 +334,7 @@ http.createServer((req, res) => {
         return send(res, 400, { state: verState(u) === "failed" ? "failed" : "invalid", error: "this verification link is not valid" });
       }
       u.verified = true; u.verifiedAt = Date.now(); delete u.ver; saveUsers();
-      track("account_verified", email);
+      track("account_verified", email); onVerified(email);
       return send(res, 200, { state: "verified" });
     });
   }
@@ -372,7 +419,7 @@ http.createServer((req, res) => {
         return send(res, 400, { state: verState(u), error: "that code is not correct", left: Math.max(0, VER_TRIES - u.ver.tries) });
       }
       u.verified = true; u.verifiedAt = Date.now(); delete u.ver; saveUsers();
-      track("account_verified", a.email);
+      track("account_verified", a.email); onVerified(a.email);
       return send(res, 200, { state: "verified" });
     });
   }
@@ -382,31 +429,8 @@ http.createServer((req, res) => {
     if (limited("invred:" + a.email, 10)) return send(res, 429, { error: "too many attempts, try later" });
     return body(b => {
       if (!a.user.verified) return send(res, 403, { reason: "verify", error: "verify your email first" });
-      const inv = Object.values(cdb.invites).find(i => eqHash(i.hash, sha(b.token || "")));
-      if (!inv) return send(res, 404, { reason: "invalid", error: "this invitation link is not valid" });
-      if (inv.revoked) return send(res, 410, { reason: "revoked", error: "this invitation was withdrawn" });
-      if (inv.exp < Date.now()) return send(res, 410, { reason: "expired", error: "this invitation has expired — ask for a new one" });
-      if (inv.email === "*") {
-        if (!inv.uses.includes(a.email)) {
-          if (inv.uses.length >= inv.max) return send(res, 410, { reason: "used", error: "this invitation link has reached its limit — ask for a new one" });
-          inv.uses.push(a.email);
-        }
-        inv.usedAt = inv.usedAt || Date.now();
-      } else {
-        if (inv.email !== a.email) return send(res, 403, { reason: "wrong_email", error: "this invitation is for a different email address" });
-        if (inv.usedAt && inv.usedBy !== a.email) return send(res, 410, { reason: "used", error: "this invitation was already used" });
-        inv.usedAt = inv.usedAt || Date.now(); inv.usedBy = a.email;
-      }
-      cdb.members[a.email] = cdb.members[a.email] || {};
-      if (!cdb.members[a.email][inv.circle]) cdb.members[a.email][inv.circle] = { since: Date.now(), via: "invitation", invite: inv.id };
-      saveC();
-      /* the invitation loads the circle straight into this person's map: just them and their classmates */
-      if (!(a.user.layers && a.user.layers.alumni && a.user.layers.alumni.circle === inv.circle)) {
-        a.user.layers = Object.assign({}, a.user.layers, { alumni: { on: true, circle: inv.circle, mode: "only",
-          filters: { country: "", city: "", industry: "", org: "", cohort: "" } } });
-        saveUsers(); track("alumni_layer_activated", a.email);
-      }
-      return send(res, 200, { ok: true, circle: inv.circle });
+      const r = applyInvite(a.email, findInvite(b.token));
+      return send(res, r.code, r.body);
     });
   }
 

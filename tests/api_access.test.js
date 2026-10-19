@@ -282,6 +282,26 @@ async function verify(email, token) {
     assert.strictEqual((await api("GET", "/api/me", null, s2)).body.layers.alumni.on, true, "joining loads the network");
   });
 
+  await t("invitation survives verifying in another browser (server remembers it)", async () => {
+    const r = await api("POST", "/api/admin/invites", { shared: true, max: 3 }, admin);
+    const tok = new URL(r.body.link).searchParams.get("invite");
+    /* signs up from the link, then taps the emailed link elsewhere: no client-side redeem at all */
+    const reg = await api("POST", "/api/register", { email: "phone@test.example", password: "correct horse 1", invite: tok });
+    assert.strictEqual((await api("GET", C, null, reg.body.token)).body.reason, "verify", "not before verification");
+    const link = lastMail("phone@test.example").text.match(/verify=([\w-]+)/)[1];
+    assert.strictEqual((await api("POST", "/api/verify/link", { email: "phone@test.example", token: link })).body.state, "verified");
+    assert.strictEqual((await api("GET", C, null, reg.body.token)).status, 200, "member right after verifying");
+    assert.strictEqual((await api("GET", "/api/me", null, reg.body.token)).body.layers.alumni.on, true);
+    /* an already-verified account signing in through the link joins at once */
+    const v = await register("signin@test.example"); await verify("signin@test.example", v);
+    const li = await api("POST", "/api/login", { email: "signin@test.example", password: "correct horse 1", invite: tok });
+    assert.strictEqual((await api("GET", C, null, li.body.token)).status, 200);
+    /* a bogus invite on sign-up grants nothing */
+    const bad = await api("POST", "/api/register", { email: "bogus@test.example", password: "correct horse 1", invite: "nope" });
+    await verify("bogus@test.example", bad.body.token);
+    assert.strictEqual((await api("GET", C, null, bad.body.token)).status, 403);
+  });
+
   await t("verified admin has access without an invitation", async () => {
     assert.strictEqual((await api("GET", C, null, admin)).status, 200);
   });

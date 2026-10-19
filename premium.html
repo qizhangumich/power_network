@@ -211,18 +211,18 @@ function applyPayload(d){ try { Object.keys(localStorage).forEach(k => { if(k.st
 const P = new URLSearchParams(location.search);
 (function(){ const r = ls.get("nv_last_region"), d = /^[a-z]+$/.test(r || "") ? r : "abudhabi";
   $("back").href = "/" + d + "/"; $("mynet").href = "/" + d + "/?mynet=1"; })();
-if(P.get("invite")) ss.set("nv_invite", P.get("invite"));
+if(P.get("invite")) ls.set("nv_invite", P.get("invite"));
 let ME = null, CIR = null, INV = null;
 
 /* ---------- top-level flow ---------- */
 async function refresh(){
   ME = null;
   if(ls.get("pm2_token")) try { ME = await api("me"); } catch(e){ if(e.status === 401){ ls.del("pm2_token"); ls.del("pm2_email"); } }
-  const inv = ss.get("nv_invite");
+  const inv = ls.get("nv_invite");
   if(inv && !INV) try { INV = await api("invite/check", "POST", {token: inv}); } catch(e){ INV = {state: "invalid"}; }
   if(ME && ME.verified && inv && INV && INV.state !== "invalid" && !ME.circles.includes(CIRCLE)){
     try {
-      await api("invite/redeem", "POST", {token: inv}); ss.del("nv_invite");     // the server switches the network on
+      await api("invite/redeem", "POST", {token: inv}); ls.del("nv_invite");     // the server switches the network on
       ME = await api("me"); msg("flash", "Welcome — the INSEAD GEMBA network is on your map.", "ok");
     }
     catch(e){ INV.err = e.message; INV.reason = e.body && e.body.reason; }
@@ -257,7 +257,7 @@ async function auth(mode){
   const em = $("a-em").value.trim(), pw = $("a-pw").value;
   msg("a-msg", "…");
   try {
-    const j = await api(mode, "POST", {email: em, password: pw});
+    const j = await api(mode, "POST", {email: em, password: pw, invite: ls.get("nv_invite") || undefined});   // the server keeps it until you verify
     ls.set("pm2_token", j.token); ls.set("pm2_email", j.email);
     try { const p = await api("personal"); if(p.data && Object.keys(p.data).length) applyPayload(p.data); else await api("personal", "PUT", {data: payload()}); } catch(e){}
     msg("a-msg", "");
