@@ -3438,6 +3438,8 @@ const PEOPLE = [
     ["lst_bnh","Director","board","v"]]},
   {id:"ali_hasan_mahmood", n:"Ali Hasan Mahmood", t:2, p:52, s:"finance", roles:[
     ["lst_bnh","Director","board","v"]]},
+  {id:"maj_gen_dr", n:"Maj. Gen. Dr. Shaikh Fahad bin Khalifa Al Khalifa", t:2, p:58, s:"health", roles:[
+    ["bdf_hospital","Commander of the Royal Medical Services","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

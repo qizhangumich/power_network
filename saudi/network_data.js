@@ -523,6 +523,10 @@ const INSTITUTIONS = [
   {id:"maaden_bauxite", n:"Ma'aden Bauxite and Alumina Company", s:"materials", t:3, p:57, short:"Maaden Bauxite"},
   {id:"maaden_gold_base", n:"Ma'aden Gold and Base Metals Company", s:"materials", t:3, p:58, short:"Maaden Gold&Base"},
   {id:"united_sugar", n:"United Sugar Company", s:"consumer_stap", t:3, p:53, short:"United Sugar Co"},
+  {id:"enowa", n:"ENOWA", s:"utilities", t:2, p:60, short:"ENOWA"},
+  {id:"kayanee", n:"Kayanee Company", s:"consumer_disc", t:2, p:56, short:"Kayanee"},
+  {id:"sawani", n:"Sawani Company", s:"consumer_stap", t:2, p:54, short:"Sawani"},
+  {id:"aseer_invest", n:"Aseer Investment Company", s:"finance", t:2, p:56, short:"Aseer Invest. Co"},
 ];
 
 const PEOPLE = [
@@ -592,6 +596,7 @@ const PEOPLE = [
     ["alat","Board Member; Minister of Communications and Information Technology","board","v"],
     ["mcit_sa","Minister of Communications & IT","political","v"]]},
   {id:"khateeb", n:"Ahmed Al-Khateeb", t:1, p:76, s:"gov", roles:[
+    ["sta","Chairman of the Board of Directors (ex officio as Minister of Tourism)","board","ns"],
     ["jeddah_central","Board Member (Minister of Tourism)","board","v"],
     ["qiddiya","Board Member","board","v"],
     ["sfd","Chairman of the Board of Directors","board","v"],
@@ -599,6 +604,7 @@ const PEOPLE = [
     ["mot_sa","Minister of Tourism","political","v"],
     ["redsea","Board Member","board","v"]]},
   {id:"alkhorayef", n:"Bandar Alkhorayef", t:1, p:72, s:"industry", roles:[
+    ["saudi_exim","Chairman of the Board of Directors (ex officio as Minister of Industry and Mineral Resources)","board","ns"],
     ["rcrc","Board Member (Minister of Industry and Mineral Resources)","board","v"],
     ["gami","Acting Governor","executive","v"],
     ["rcjy","Minister of Industry and Mineral Resources / Chairman of the Board","board","v"],
@@ -645,6 +651,7 @@ const PEOPLE = [
   {id:"alghamdi_sdaia", n:"Abdullah Al-Ghamdi", t:2, p:70, s:"tech", roles:[
     ["sdaia","President","government","v"]]},
   {id:"fageeh", n:"Abdulrahman Al-Fageeh", t:2, p:72, s:"materials", roles:[
+    ["sabic_agri_nutr","Chairman","board","v"],
     ["sabic","CEO (until Apr 2026)","executive","v","former:until Apr 2026"]],
     note:"Retired; succeeded by Faisal Al-Faqeer."},
   {id:"alfaqeer", n:"Faisal Al-Faqeer", t:2, p:72, s:"materials", roles:[
@@ -999,6 +1006,7 @@ const PEOPLE = [
   {id:"ali_ahmed_al", n:"Ali Ahmed Al Ghamdi", t:2, p:58, s:"materials", roles:[
     ["sabic","Executive Vice President (Acting), Corporate Human Resources","executive","v"]]},
   {id:"fahad_m_al", n:"Fahad M. Al-Battar", t:2, p:60, s:"materials", roles:[
+    ["sabic_agri_nutr","Chief Executive Officer","executive","ns"],
     ["sabic","Chief Executive Officer, SABIC Agri-Nutrients Company","executive","v"]]},
   {id:"olivier_gerard_thorel", n:"Olivier Gerard Thorel", t:2, p:58, s:"materials", roles:[
     ["sabic","Executive Vice President, Chemicals SBU","executive","ns"]]},
@@ -2984,6 +2992,8 @@ const PEOPLE = [
     ["lst_8313","Chief Executive Officer","executive","v"]]},
   {id:"abdulrahman_alharbi", n:"Abdulrahman Alharbi", t:2, p:60, s:"finance", roles:[
     ["lst_8313","Deputy CEO & Chief Technology Officer","executive","v"]]},
+  {id:"saad_bin_abdulaziz", n:"Saad bin Abdulaziz Al-Khalb", t:2, p:60, s:"finance", roles:[
+    ["saudi_exim","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3370,6 +3380,10 @@ const OWNERSHIP = [
   ["maaden_bauxite","maaden","wholly-owned subsidiary of (100% since Jul 2025)","v"],
   ["maaden_gold_base","maaden","wholly-owned subsidiary of","ns"],
   ["united_sugar","lst_2050","majority-owned subsidiary of","ns"],
+  ["enowa","neom","subsidiary","v"],
+  ["kayanee","pif","portfolio company","v"],
+  ["sawani","pif","portfolio company","v"],
+  ["aseer_invest","pif","portfolio company (regional investment arm)","v"],
 ];
 
 const FAMILY = [
@@ -3493,4 +3507,6 @@ const AKA = {
   maaden_bauxite:["MBAC"],
   maaden_gold_base:["MGBM"],
   united_sugar:["USC"],
+  enowa:["Energy and Water Company"],
+  aseer_invest:["AIC"],
 };

@@ -213,6 +213,9 @@ const INSTITUTIONS = [
   {id:"uow_dubai", n:"University of Wollongong in Dubai", s:"education", t:3, p:54, short:"UOW Dubai"},
   {id:"prime_healthcare", n:"Prime Healthcare Group", s:"health", t:3, p:56, short:"Prime Healthcare"},
   {id:"mbrsg", n:"Mohammed Bin Rashid School of Government", s:"education", t:2, p:60, short:"MBRSG"},
+  {id:"imdaad", n:"Imdaad", s:"industry", t:2, p:56, short:"Imdaad"},
+  {id:"dubal", n:"Dubal Holding", s:"materials", t:2, p:58, short:"Dubal Holding"},
+  {id:"kpc_trading", n:"KPC Trading", s:"energy", t:2, p:58, short:"KPC Trading"},
 ];
 
 const PEOPLE = [
@@ -400,6 +403,7 @@ const PEOPLE = [
     ["icd","Board Member","board","v"],
     ["enbd","Board Member","board","v"]]},
   {id:"buti_obaid_buti", n:"Buti Obaid Buti Al Mulla", t:2, p:52, s:"finance", roles:[
+    ["american_hospital","Chairman","board","v"],
     ["emirates_islamic","Vice Chairman","board","v"],
     ["almulla","Board Member","board","v"],
     ["enbd","Board Member","board","v"],
@@ -1525,6 +1529,7 @@ const PEOPLE = [
   {id:"ali_rashid_lootah", n:"Ali Rashid Lootah", t:2, p:52, s:"sovereign", roles:[
     ["dubai_world","Board Member","board","v"]]},
   {id:"sherif_beshara", n:"Sherif Beshara", t:2, p:60, s:"conglomerate", roles:[
+    ["american_hospital","Group Chief Executive Officer","executive","v"],
     ["almulla","Group Chief Executive Officer","executive","v"]]},
   {id:"khalid_abdul_wahid", n:"Khalid Abdul Wahid Al Rostamani", t:2, p:62, s:"conglomerate", roles:[
     ["alrostamani","Chairman","board","v"]]},
@@ -1559,6 +1564,7 @@ const PEOPLE = [
   {id:"maryam_easa_al", n:"Maryam Easa Al Gurg", t:2, p:52, s:"conglomerate", roles:[
     ["easa_saleh_al","Director","board","v"]]},
   {id:"aisha_bint_butti", n:"Aisha Bint Butti Bin Bishr", t:2, p:62, s:"realestate", roles:[
+    ["uow_dubai","Board Member","board","v"],
     ["emaar_development","Vice Chairman","board","v"]]},
   {id:"jamal_majid_bin", n:"Jamal Majid Bin Theniyah", t:2, p:52, s:"realestate", roles:[
     ["emaar_development","Director","board","v"]]},
@@ -2284,6 +2290,22 @@ const PEOPLE = [
     ["lst_salambah","Chief Risk Officer","executive","ns"]]},
   {id:"sheikh_adnan_abdullah", n:"Sheikh Adnan Abdullah Al Qattan", t:2, p:62, s:"finance", roles:[
     ["lst_salambah","Chairman, Fatwa and Shari'a Supervisory Board","board","ns"]]},
+  {id:"cedwyn_fernandes", n:"Cedwyn Fernandes", t:2, p:58, s:"education", roles:[
+    ["middlesex_dubai","Provost and Director","executive","v"]]},
+  {id:"michael_gallimore", n:"Michael Gallimore", t:2, p:58, s:"education", roles:[
+    ["murdoch_dubai","Dean and Academic President","executive","v"]]},
+  {id:"mohamed_ba_matrf", n:"Mohamed Ba Matrf", t:2, p:58, s:"education", roles:[
+    ["murdoch_dubai","Executive Director","executive","v"]]},
+  {id:"mohamed_vall_m", n:"Mohamed-Vall M. Salem Zein", t:2, p:58, s:"education", roles:[
+    ["uow_dubai","President","executive","v"]]},
+  {id:"robert_ryan", n:"Robert Ryan", t:2, p:62, s:"education", roles:[
+    ["uow_dubai","Chairman of the Board","board","v"]]},
+  {id:"marisa_mastroianni", n:"Marisa Mastroianni", t:2, p:52, s:"education", roles:[
+    ["uow_dubai","Board Member","board","v"]]},
+  {id:"jamil_ahmed", n:"Jamil Ahmed", t:2, p:60, s:"health", roles:[
+    ["prime_healthcare","Founder and Managing Director","executive","ns"]]},
+  {id:"ali_bin_sebaa", n:"Ali Bin Sebaa Al Marri", t:2, p:58, s:"education", roles:[
+    ["mbrsg","Executive President","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2419,6 +2441,8 @@ const OWNERSHIP = [
   ["dubai_petroleum","dxbgov","Dubai government oil & gas concession operator (offshore fields, historically with ConocoPhillips as operator)","ns"],
   ["dhre","dubaiholding","subsidiary","ns"],
   ["eta_ascon","alghurair","joint venture / portfolio company","ns"],
+  ["imdaad","icd","subsidiary (facilities management group)","ns"],
+  ["dubal","icd","subsidiary (holds ICD's 50% stake in EGA)","v"],
 ];
 
 const FAMILY = [
@@ -2509,4 +2533,5 @@ const AKA = {
   uow_dubai:["UOWD"],
   prime_healthcare:["Prime Health Holdings"],
   mbrsg:["Dubai School of Government"],
+  kpc_trading:["KPC International trading arm"],
 };

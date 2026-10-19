@@ -234,6 +234,7 @@ const INSTITUTIONS = [
   {id:"qna", n:"Qatar News Agency", s:"comm", t:2, p:58, short:"QNA"},
   {id:"al_koot_insurance", n:"Al Koot Insurance and Reinsurance Company", s:"finance", t:3, p:56, short:"Al Koot Insurance"},
   {id:"qatar_biobank", n:"Qatar Biobank", s:"health", t:3, p:54, short:"Qatar Biobank"},
+  {id:"qatar_steel", n:"Qatar Steel Company (QASCO)", s:"materials", t:2, p:58, short:"Qatar Steel"},
 ];
 
 const PEOPLE = [
@@ -2218,6 +2219,7 @@ const OWNERSHIP = [
   ["aj_centre_studies","aljazeera","research_arm","v"],
   ["al_koot_insurance","lst_giss","wholly-owned subsidiary of","v"],
   ["qatar_biobank","qf","member of","v"],
+  ["qatar_steel","industriesqatar","wholly owned subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -2312,4 +2314,5 @@ const AKA = {
   al_raya:["Raya"],
   aspetar:["Aspetar Orthopaedic and Sports Medicine Hospital"],
   al_koot_insurance:["Al Koot"],
+  qatar_steel:["QASCO"],
 };

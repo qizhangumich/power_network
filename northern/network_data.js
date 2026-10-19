@@ -484,6 +484,7 @@ const PEOPLE = [
   {id:"abdulla_ali_al", n:"Abdulla Ali Al Mahyan", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Federal Affairs Office in Sharjah)","board","v"]]},
   {id:"ali_salim_al", n:"Ali Salim Al Midfa", t:2, p:62, s:"gov", roles:[
+    ["sharjah_airport_auth","Chairman","board","v"],
     ["shj_execco","Member (Chairman of Sharjah Airport Authority)","board","v"]]},
   {id:"ali_saeed_sultan", n:"Ali Saeed Sultan Muhammad Bin Shaheen Al Suwaidi", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Department of Public Works)","board","v"]]},
@@ -1316,6 +1317,8 @@ const PEOPLE = [
     ["sharjah_department_of","Director","executive","v"]]},
   {id:"nasser_al_yamahi", n:"Nasser Al Yamahi", t:2, p:58, s:"comm", roles:[
     ["fujairah_culture_media","Director-General","executive","v"]]},
+  {id:"sheikh_faisal_bin_b", n:"Sheikh Faisal bin Saud Al Qasimi", t:2, p:58, s:"gov", roles:[
+    ["sharjah_airport_auth","Director of the Sharjah Airport Authority","executive","v"]]},
 ];
 
 const OWNERSHIP = [

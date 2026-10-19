@@ -1533,6 +1533,14 @@ const PEOPLE = [
     ["lst_atmi","Deputy/Vice Chairman of the Board","board","v"]]},
   {id:"bejoy_john", n:"Bejoy John", t:2, p:58, s:"materials", roles:[
     ["lst_atmi","Board Secretary and Chief Financial Officer","executive","v"]]},
+  {id:"abdullah_bin_salim_b", n:"Abdullah bin Salim Al Shueili", t:2, p:58, s:"comm", roles:[
+    ["oman_observer","Editor-in-Chief","executive","v"]]},
+  {id:"sayyid_asaad_bin", n:"Sayyid Asaad bin Tariq Al Said", t:2, p:62, s:"education", roles:[
+    ["univ_of_nizwa","Chairman of the Board of Trustees (Representative of His Majesty the Sultan)","board","v"]]},
+  {id:"ahmed_bin_khalfan", n:"Ahmed bin Khalfan Al Rawahi", t:2, p:58, s:"education", roles:[
+    ["univ_of_nizwa","Chancellor","executive","v"]]},
+  {id:"abdulaziz_bin_yahya", n:"Abdulaziz bin Yahya Al Kindi", t:2, p:58, s:"education", roles:[
+    ["univ_of_nizwa","Vice-Chancellor for Academic Affairs / Secretary-General of the Board of Trustees","executive","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -304,6 +304,12 @@ const INSTITUTIONS = [
   {id:"fatima_college", n:"Fatima College of Health Sciences", s:"education", t:2, p:56, short:"Fatima College"},
   {id:"ecae", n:"Emirates College for Advanced Education", s:"education", t:3, p:52, short:"ECAE"},
   {id:"hct", n:"Higher Colleges of Technology", s:"education", t:1, p:64, short:"HCT"},
+  {id:"bayanat_ai", n:"Bayanat AI", s:"tech", t:2, p:60, short:"Bayanat AI"},
+  {id:"gridora", n:"Gridora", s:"industry", t:2, p:58, short:"Gridora"},
+  {id:"wizz_air_ad", n:"Wizz Air Abu Dhabi", s:"industry", t:2, p:58, short:"Wizz Air AD"},
+  {id:"mubadala_cap_sol", n:"Mubadala Capital Solutions", s:"finance", t:2, p:56, short:"Mubadala Cap. Sol."},
+  {id:"mubadala_bio", n:"Mubadala Bio", s:"health", t:2, p:60, short:"Mubadala Bio"},
+  {id:"al_qudra", n:"Al Qudra Holding", s:"realestate", t:2, p:56, short:"Al Qudra Holding"},
 ];
 
 const PEOPLE = [
@@ -351,6 +357,7 @@ const PEOPLE = [
   {id:"abdullah_bz", n:"H.H. Sheikh Abdullah bin Zayed Al Nahyan", t:0, p:92, s:"gov", roles:[
     ["fedgov","Deputy Prime Minister","political","v"],
     ["mofa","Minister of Foreign Affairs","political","v"],
+    ["agda","Chairman of the Board of Trustees","board","v"],
     ]},
   {id:"saif_bz", n:"H.H. Sheikh Saif bin Zayed Al Nahyan", t:0, p:91, s:"gov", roles:[
     ["fedgov","Deputy Prime Minister · Minister of Interior","political","v"],
@@ -463,6 +470,7 @@ const PEOPLE = [
     ], note:"The external face of Abu Dhabi in Washington; sits at the diplomacy–investment intersection."},
   {id:"anwar_gargash", n:"Dr. Anwar Gargash", t:1, p:82, s:"gov", roles:[
     ["prescourt","Diplomatic Adviser to the President","political","v"],
+    ["agda","Deputy Chairman of the Board of Trustees","board","v"],
     ]},
   {id:"shorafa", n:"Mohamed Ali Al Shorafa", t:1, p:87, s:"gov", roles:[
     ["dmt","Chairman","government","v"],
@@ -529,6 +537,7 @@ const PEOPLE = [
   {id:"sarah_amiri", n:"Sarah Al Amiri", t:1, p:82, s:"education", roles:[
     ["fedgov","Minister of Education","political","v"],
     ["spaceagency","Chair","government","v"],
+    ["ecae","Chair of the Board of Trustees","board","v"],
     ]},
   {id:"balama", n:"Khaled Mohamed Balama", t:1, p:83, s:"finance", roles:[
     ["cbuae","Governor","executive","v"],
@@ -1167,6 +1176,7 @@ const PEOPLE = [
   {id:"saeed_al_mazrouei", n:"Saeed Al Mazrouei", t:2, p:60, s:"sovereign", roles:[
     ["mubadala","Managing Director & CEO, Abu Dhabi Investment Council","executive","v"],
     ["mubadala_capital","Board Member","board","v"],
+    ["adic","Managing Director & Chief Executive Officer","executive","v"],
     ]},
   {id:"khaled_al_shamlan", n:"Khaled Al Shamlan Al Marri", t:2, p:60, s:"sovereign", roles:[
     ["mubadala","Chief Executive Officer, Real Assets","executive","v"],
@@ -4006,6 +4016,33 @@ const PEOPLE = [
   {id:"rene_werner", n:"Rene Werner", t:2, p:58, s:"comm", roles:[
     ["lst_ords","Group Chief Strategy Officer","executive","v"],
     ]},
+  {id:"mohamed_ali_al_b", n:"Mohamed Ali Al Dhaheri", t:2, p:60, s:"sovereign", roles:[
+    ["adic","Board Member (served as CEO June 2022-Aug 2023)","board","v"],
+    ]},
+  {id:"james_anthony_morse", n:"James Anthony Morse", t:2, p:60, s:"education", roles:[
+    ["rabdan_academy","President and CEO","executive","v"],
+    ]},
+  {id:"salem_saeed_al", n:"Salem Saeed Al Saeedi", t:2, p:58, s:"education", roles:[
+    ["rabdan_academy","Vice President","executive","v"],
+    ]},
+  {id:"michael_simon_hindmarsh", n:"Michael Simon Hindmarsh", t:2, p:62, s:"education", roles:[
+    ["rabdan_academy","Chairman of the Board of Trustees","board","v"],
+    ]},
+  {id:"nickolay_mladenov", n:"Nickolay Mladenov", t:2, p:58, s:"education", roles:[
+    ["agda","Director-General","executive","v"],
+    ]},
+  {id:"mohammed_ibrahim_al", n:"Mohammed Ibrahim Al Dhaheri", t:2, p:58, s:"education", roles:[
+    ["agda","Deputy Director-General","executive","v"],
+    ]},
+  {id:"may_laith_al", n:"May Laith Al Taee", t:2, p:58, s:"education", roles:[
+    ["ecae","Vice Chancellor","executive","ns"],
+    ]},
+  {id:"abdulrahman_al_awar", n:"Abdulrahman Al Awar", t:2, p:62, s:"education", roles:[
+    ["hct","Chancellor and Chairman of the Board of Trustees","board","ns"],
+    ]},
+  {id:"faisal_al_ayyan", n:"Faisal Al Ayyan", t:2, p:60, s:"education", roles:[
+    ["hct","President and CEO","executive","ns"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -4273,6 +4310,12 @@ const OWNERSHIP = [
   ["q_3","ihc","listed subsidiary","ns"],
   ["g42","mubadala","portfolio company (minority stake alongside Silver Lake/Microsoft/Dalio)","ns"],
   ["digit9","lulu","subsidiary","ns"],
+  ["bayanat_ai","ihc","portfolio company (cornerstone shareholder)","v"],
+  ["gridora","adq","joint venture (ADQ/IHC/Modon Holding)","v"],
+  ["wizz_air_ad","adq","joint venture (30% ADQ / 70% Wizz Air Holdings)","v"],
+  ["mubadala_cap_sol","mubadala_capital","subsidiary business line","v"],
+  ["mubadala_bio","mubadala","subsidiary (National Champion)","v"],
+  ["al_qudra","alphadhabi","shareholder (25.24% stake)","v"],
 ];
 
 const FAMILY = [
@@ -4351,4 +4394,6 @@ const AKA = {
   rabdan_academy:["RA"],
   agda:["Emirates Diplomatic Academy","EDA"],
   fatima_college:["FCHS"],
+  bayanat_ai:["Bayanat for Mapping and Surveying Services","Bayanat AI PJSC"],
+  adnh:["National Corporation for Tourism & Hotels","NCTH"],
 };
