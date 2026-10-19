@@ -303,6 +303,31 @@
   .mp-input:focus,.field:focus{border-color:var(--accent-br)}
   .mp-input::placeholder,.field::placeholder{color:var(--ink-faint)}
   .mp-err{color:var(--bad-ink);font-size:12px;margin-top:6px}
+  .ip-lab{display:inline-block;font-size:11.5px;font-weight:700;border-radius:999px;padding:1px 9px;border:1px solid var(--line-2)}
+  .ip-lab.better{color:var(--ok-ink);border-color:rgba(61,214,140,.5)}
+  .ip-lab.verify{color:var(--warn-ink);border-color:rgba(242,181,68,.5)}
+  .ip-lab.exploratory{color:#CDD4FF;border-color:rgba(124,140,255,.55);border-style:dashed}
+  .ip-link{margin:2px 0 6px 22px;padding:7px 10px;border-left:2px solid var(--line-2);font-size:12px;color:var(--ink-soft)}
+  .ip-link.confirmed{border-left-color:rgba(61,214,140,.6)}
+  .ip-link.unverified{border-left-color:rgba(242,181,68,.7);border-left-style:dashed}
+  .ip-link.potential{border-left-color:rgba(124,140,255,.6);border-left-style:dashed}
+  .ip-link.weak{background:rgba(242,181,68,.06);border-radius:0 8px 8px 0}
+  .ip-weak{font-size:10.5px;font-weight:700;color:var(--warn-ink);margin-left:6px;text-transform:uppercase;letter-spacing:.06em}
+  .ip-ev{margin-top:4px} .ip-ev i{color:var(--ink-faint)}
+  .ip-src{margin-top:3px;color:var(--ink-faint)} .ip-src a{color:inherit;text-decoration:underline}
+  .ip-acts,.ip-will{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:6px;font-size:11.5px;color:var(--ink-faint)}
+  .ip-chip{border:1px solid var(--line-2);background:transparent;color:var(--ink-soft);border-radius:999px;padding:2px 9px;font:500 11.5px var(--font);cursor:pointer;display:inline-flex;gap:4px;align-items:center}
+  .ip-chip svg{width:11px;height:11px}
+  .ip-chip:hover{border-color:var(--accent)} .ip-chip.on{background:var(--accent-soft);color:var(--ink);border-color:var(--accent)}
+  .ip-draft{width:100%;font:13px/1.45 var(--font);resize:vertical}
+  .ip-list{display:flex;flex-direction:column;gap:6px;margin:8px 0}
+  .ip-pick{display:flex;flex-direction:column;text-align:left;border:1px solid var(--line-2);background:var(--bg-raise);color:var(--ink);border-radius:12px;padding:8px 11px;cursor:pointer;font:inherit}
+  .ip-pick:hover{border-color:var(--accent)} .ip-pick span{font-size:12px;color:var(--ink-faint)}
+  .al-card{align-items:center}
+  .al-list{max-height:260px;overflow:auto;border:1px solid var(--line-2);border-radius:12px;margin:8px 0}
+  .al-row{display:flex;justify-content:space-between;gap:8px;align-items:flex-start;padding:7px 10px;border-bottom:1px solid var(--line)}
+  .al-row:last-child{border-bottom:0} .al-row[data-go-p]{cursor:pointer} .al-row[data-go-p]:hover{background:var(--bg-raise)}
+  .al-row b{display:block;font-size:13px} .al-row span{display:block;font-size:11.5px;color:var(--ink-faint)} .al-row a{color:inherit;text-decoration:underline}
   .mp-card{border:1px solid var(--line-2);border-radius:14px;padding:12px;margin:8px 0;display:flex;gap:12px;flex-wrap:wrap;background:var(--bg-raise)}
   .mp-side{flex:1;min-width:130px;font-size:12px;color:var(--ink-faint)}
   .mp-side b{display:block;font-size:13px;color:var(--ink)}
@@ -679,6 +704,7 @@
 </script>
 <script src="network_data.js"></script>
 <script src="my_network.js"></script>
+<script src="/intro_paths.js"></script>
 <script>
 /* ================================================================
    ENGINE — NavGCC network map (V5 · "the park map")
@@ -1725,6 +1751,7 @@ function rebuildPersonal(animate){
                  label:fmt(t().hContactsAt, {n:k, org:n.short})});
     });
   }
+  alumApply();                                           // the alumni circle layer rides on the same layer system
   /* selection or a route may still point at nodes that were just rebuilt */
   const alive = new Set(nodes);
   if(S.selected && !alive.has(S.selected)){ S.selected = null; if(PANEL_MODE !== "path") closeDetail(); }
@@ -1828,6 +1855,7 @@ function baseFilter(n){
 function visRaw(n, hlOn){
   if(!baseFilter(n)) return false;
   if(n.layer) return true;
+  if(alumOnlyHides(n) && !CTX.has(n)) return false;      // "alumni only" view
   if(FOC) return FOC.has(n) || CTX.has(n);
   if(CTX.has(n) || EXN.has(n) || n.myDirect) return true;
   const inHl = hlOn && S.hl.has(groupOf(n));
@@ -2201,7 +2229,7 @@ function dijkstra(seeds, maxHops){
     if(h >= maxHops) continue;
     for(const ad of n.adj){
       const e = ad.e, m = ad.n;
-      if(e.kind === "pot" || e.kind === "alumni" || e.former || e.me || m.kind === "me") continue;
+      if(e.kind === "pot" || e.kind === "alumni" || e.alum || e.former || e.me || m.kind === "me") continue;
       const nd = d + edgeCost(e) + passCost(m);
       if(!dist.has(m) || nd < dist.get(m) - 1e-9){ dist.set(m, nd); prev.set(m, {n, e}); hops.set(m, h + 1); push(nd, m); }
     }
@@ -2745,6 +2773,11 @@ function draw(now){
         ctx.strokeStyle = `rgba(${C.accentRGB},0.6)`;
         ctx.lineWidth = 1.4; ctx.stroke(); ctx.setLineDash([]);
       }
+      if(n.alum && a > 0.3 && !n.myDirect){           // in your alumni circle layer: dotted gold ring
+        ctx.beginPath(); ctx.setLineDash([2, 2.5]);
+        ctx.arc(x, y, r + 3.5, 0, Math.PI * 2);
+        ctx.strokeStyle = "rgba(232,196,106,.95)"; ctx.lineWidth = 1.5; ctx.stroke(); ctx.setLineDash([]);
+      }
       if(n.news.length && a > 0.5){
         const bx = x + r * 0.85 + 2, by = y - r * 0.85 - 2;
         ctx.beginPath(); ctx.arc(bx, by, 3.4, 0, Math.PI * 2);
@@ -3191,6 +3224,7 @@ function accessCallout(n){
                 + `<div class="row"><button class="btn sm" data-act="locate">${svgI("userplus")} ${T.actAddSomeone}</button>`
                 + `<button class="btn sm ghost" data-act="demo">${svgI("sparkle")} ${T.tryDemo}</button></div></div>`;
   if(n.myDirect) return `<div class="callout access"><b>${svgI("check")} ${T.accDirect}</b><div style="margin-top:4px">${esc(hopLabelMine(n.myConf))}</div></div>`;
+  if(window.IntroPaths && !n.layer) return ipAccessCallout(n);
   const res = findRoutes(n, 3);
   if(!res.routes.length) return `<div class="callout"><b>${T.accTitle}</b><div style="margin-top:4px">${T.accNone}</div></div>`;
   const r = res.routes[0];
@@ -3370,6 +3404,7 @@ function setRoute(r, opts){
 function showRoutes(target, opts){
   opts = opts || {};
   if(!ME){ renderNoRoute(target, "noMe"); return null; }
+  if(window.IntroPaths && !target.layer && (target.kind === "person" || target.kind === "inst")) return introShow(target, opts);
   const res = findRoutes(target, 4);
   if(!res.routes.length){ renderNoRoute(target, res.reason); return null; }
   PV = {routes:res.routes, idx:0, target};
@@ -3388,6 +3423,7 @@ function showRouteBetween(a, b){
 function viaName(r){ const v = r.nodes[1]; return v ? (v.kind === "me" ? t().you : nm(v)) : ""; }
 function renderPath(){
   if(!PV) return;
+  if(PV.intro) return renderIntroPath();
   const T = t(), r = PV.routes[PV.idx], tg = PV.target;
   PANEL_MODE = "path";
   let h = `<div class="eyebrow">${svgI("route")} ${PV.from ? T.pathBetween : T.pathTo}</div>`
@@ -3546,6 +3582,7 @@ function onAction(act, el){
     case "explorePath": explorePath(); break;
     case "anotherRoute": anotherRoute(); break;
     case "saveTarget": { const tg = PANEL_MODE === "path" && PV ? PV.target : n; if(tg) Saved.toggle(tg); break; }
+    case "ipPick": case "ipCopy": case "ipLink": case "ipWill": ipAction(act, el); break;
   }
 }
 dbody.addEventListener("click", ev => {
@@ -4032,6 +4069,7 @@ function renderMyPanel(keep){
     });
   }
   h += Saved.html();
+  h += alumHtml();
   if(st) h += contactsHtml();
   h += `<div class="sect">${T.acctTitle}</div>` + acctHtml();
   if(st) h += `<div class="actrow"><button class="btn sm danger" type="button" data-mp="delete">${T.mpDelete}</button></div>`;
@@ -4052,6 +4090,7 @@ function renderMyPanel(keep){
     if(n2){ n2.focus(); try { n2.setSelectionRange(k, k); } catch(e){} }
   };
   wireAcct();
+  wireAlum();
 }
 function openMyPanel(o){
   o = o || {};
@@ -4076,6 +4115,8 @@ mpBody.addEventListener("click", ev => {
   const T = t();
   const tab = ev.target.closest("[data-mp-tab]");
   if(tab){ MP.tab = tab.getAttribute("data-mp-tab"); MP.result = null; renderMyPanel(true); return; }
+  const al = ev.target.closest("[data-al]");
+  if(al){ alumAction(al.getAttribute("data-al"), al); return; }
   const a = ev.target.closest("[data-mp]");
   if(a){
     const act = a.getAttribute("data-mp");
@@ -4868,6 +4909,456 @@ document.addEventListener("keydown", ev => {
 });
 
 /* ================================================================
+   INTRODUCTION PATHS — person to person (intro_paths.js).
+   Organizations are evidence for a link, never a stop or a destination.
+   Up to three distinct routes, evidence on every link, qualitative labels,
+   no probabilities. Your corrections and the willingness you record stay
+   private (pm2_intro_ev: this browser + your account copy only).
+   ================================================================ */
+const IPT = {
+  en:{
+    eyebrow:"Introduction path to", better:"Better-supported", verify:"Needs verification", exploratory:"Exploratory",
+    betterWhy:"Every link rests on something you confirmed or a public family record.",
+    verifyWhy:"One link is only inferred from public records — check it before asking for an introduction.",
+    exploratoryWhy:"Several links are inferred or rest on a shared school. Treat this as a lead to explore, not a known chain.",
+    route:"Route", sum:"{n} introduction(s) · {u} link(s) to verify", sum0:"{n} introduction(s) · all links supported",
+    startWith:"Start with {name}", weakest:"Weakest link", nextTitle:"Next step",
+    nextAsk:"Ask {a} whether they know {b} well enough to introduce you.",
+    nextAskT:"Ask {a} whether they would introduce you to {b}.",
+    draftTitle:"Draft message — edit it, then send it yourself",
+    draftNote:"NavGCC never sends anything. Copy the text into your own email or chat.",
+    copy:"Copy draft", copied:"Copied",
+    know:"They know each other", notLink:"Not a real link", undo:"Undo",
+    willQ:"Would {name} introduce you?", wYes:"Willing", wNo:"Not willing", wUnk:"Not asked",
+    privNote:"Your corrections and notes on willingness are private to you and re-rank the routes.",
+    saved:"Saved privately — routes updated",
+    fMe:"You marked {b} as someone you know", fMeS:"You know {b} ({s})",
+    fLi:"LinkedIn connection — you confirmed the match", fImp:"In your imported contacts — match not yet confirmed",
+    lKnown:"You confirmed they know each other (private to you)",
+    lFamily:"Public family record: {label}", lBoard:"Both currently on the board of {org}",
+    lColl:"Both currently at {org}", lCollWhy:"Same employer does not show that they know each other",
+    lAlumni:"Both list {org}", lAlumniWhy:"A shared school is not evidence that they know each other",
+    unconf:"Not confirmed", records:"Records", strong:"strong", medium:"medium", weak:"weak",
+    disclaim:"Routes are built from public records and what you told NavGCC. A route is a suggestion to check, not a promise of a reply or an introduction.",
+    hist:"{name}'s roles on record are all historical — they may not be reachable through these organizations now.",
+    unwilling:"Someone on this route said they would not introduce you; it is ranked lower.",
+    needTitle:"Choose a person at {org}",
+    needBody:"Introductions are made between people. The organization is context — pick who you want to reach there:",
+    noCands:"No current people at {org} are on the map yet.",
+    unverRec:"record not verified",
+    direct:"You already know {name} directly.",
+    noneTitle:"No introduction route to {name} on record",
+    noStartTitle:"Add someone you know first",
+    noStartBody:"Routes start from people you personally know. Add contacts in My Network, then try again.",
+    rNoRoles:"There is no role on record for {name}.",
+    rOnlyHistorical:"Every role on record for {name} is historical.",
+    rOnlyLargeOrgs:"{name} is only recorded at very large organizations, where a shared employer says little.",
+    rNoPeopleLinks:"No public board, colleague or family links to other people are on record for {name}.",
+    rAddContacts:"Adding people you know (My Network) is the most direct way to find a route.",
+    discTitle:"People with public links to {name}",
+    discNote:"Possible contacts to explore — this is not an introduction chain.",
+    dfamily:"family", dboard:"same board", dcolleague:"same organization", dalumni:"same school",
+    draft1:"Hi {a},\n\nI hope you're well. I'd like to connect with {t}{trole} about [your reason]. Would you know them well enough to introduce me? Completely fine if not.\n\nThank you,\n",
+    draftN:"Hi {a},\n\nI hope you're well. I'm hoping to reach {t}{trole} about [your reason]. I believe you may know {b} — would you be comfortable asking whether they'd be open to an introduction? Completely fine if not.\n\nThank you,\n",
+    accOrg:"Organizations are context, not destinations — choose a person here to see introduction routes.",
+    accPick:"Choose a person",
+    /* alumni layer */
+    alTitle:"Classmate circle (pilot)", alTry:"Try Premium", alOff:"The alumni layer is off.",
+    alInv:"Invitation-only pilot — open your invitation link or ask the founder.",
+    alNeedSign:"Sign in to use the invitation-only classmate circle.",
+    alOnMap:"on this map", alElse:"on other country maps", alUnique:"in the circle",
+    alSrc:"{p} from official bios · {m} members · {d} fictional demo",
+    alOverlay:"Overlay", alOnly:"Alumni only", alHide:"Hide on map", alShow:"Show on map", alRemove:"Remove layer",
+    alFilters:"Filters", alNoFilters:"none", alEdit:"Change in Try Premium",
+    alCov:"Covers official public bios, members who added themselves and labeled fictional demo records — not every alumnus. A shared school does not mean people know each other.",
+    alSearch:"Search the circle…", alDemoNote:"Fictional demo record — this person does not exist.",
+    alMemberNote:"Added by a circle member; details are self-reported.", alRemoved:"Alumni layer removed",
+    pub:"Official bio", mem:"Member", demo:"DEMO · fictional", openMap:"open map",
+  },
+  zh:{
+    eyebrow:"引荐路径", better:"依据较充分", verify:"需要核实", exploratory:"探索性",
+    betterWhy:"每一环都基于你确认过的关系或公开的亲属记录。",
+    verifyWhy:"有一环仅由公开记录推断——请先核实再请人引荐。",
+    exploratoryWhy:"多环为推断或仅基于同校关系，只能作为探索线索，不是已知的关系链。",
+    route:"路径", sum:"{n} 次引荐 · {u} 环待核实", sum0:"{n} 次引荐 · 各环均有依据",
+    startWith:"从 {name} 开始", weakest:"最薄弱的一环", nextTitle:"下一步",
+    nextAsk:"问问 {a} 是否与 {b} 熟悉到可以为你引荐。",
+    nextAskT:"问问 {a} 是否愿意把你介绍给 {b}。",
+    draftTitle:"消息草稿——修改后由你自己发送",
+    draftNote:"NavGCC 不会代你发送任何消息。请复制到你自己的邮件或聊天中。",
+    copy:"复制草稿", copied:"已复制",
+    know:"他们互相认识", notLink:"并无此关系", undo:"撤销",
+    willQ:"{name} 愿意引荐吗？", wYes:"愿意", wNo:"不愿意", wUnk:"未询问",
+    privNote:"你的更正和意愿记录仅你可见，并会重新排序路径。",
+    saved:"已私密保存——路径已更新",
+    fMe:"你标记认识 {b}", fMeS:"你认识 {b}（{s}）",
+    fLi:"领英联系人——你已确认匹配", fImp:"在你导入的联系人中——匹配尚未确认",
+    lKnown:"你确认他们互相认识（仅你可见）",
+    lFamily:"公开亲属记录：{label}", lBoard:"目前同在 {org} 董事会",
+    lColl:"目前同在 {org}", lCollWhy:"同一雇主并不说明两人相识",
+    lAlumni:"均就读于 {org}", lAlumniWhy:"同校不代表相识",
+    unconf:"未确认", records:"记录来源", strong:"强", medium:"中", weak:"弱",
+    disclaim:"路径基于公开记录和你提供的信息，仅供核实参考，并不保证对方回复或愿意引荐。",
+    hist:"{name} 的记录职务均为历史职务——现在可能无法通过这些机构联系到。",
+    unwilling:"此路径上有人表示不愿引荐，已降低排序。",
+    needTitle:"选择 {org} 的一个人",
+    needBody:"引荐发生在人与人之间。机构只是背景——请选择你想联系的人：",
+    noCands:"地图上暂无 {org} 的现任人员。",
+    unverRec:"记录未核实",
+    direct:"你已直接认识 {name}。",
+    noneTitle:"暂无通往 {name} 的引荐路径记录",
+    noStartTitle:"请先添加你认识的人",
+    noStartBody:"路径从你亲自认识的人开始。请在「我的人脉」中添加联系人后再试。",
+    rNoRoles:"{name} 没有任何职务记录。",
+    rOnlyHistorical:"{name} 的所有职务记录均为历史职务。",
+    rOnlyLargeOrgs:"{name} 只记录在超大型机构，同一雇主说明不了什么。",
+    rNoPeopleLinks:"{name} 没有与他人的公开董事会、同事或亲属关系记录。",
+    rAddContacts:"添加你认识的人（我的人脉）是找到路径最直接的方法。",
+    discTitle:"与 {name} 有公开关联的人",
+    discNote:"可探索的潜在联系人——这不是引荐链。",
+    dfamily:"亲属", dboard:"同一董事会", dcolleague:"同一机构", dalumni:"同校",
+    draft1:"{a} 你好，\n\n希望你一切都好。我想就［你的事由］联系 {t}{trole}。你和对方熟悉到可以帮我引荐吗？不方便也完全没关系。\n\n谢谢！\n",
+    draftN:"{a} 你好，\n\n希望你一切都好。我想就［你的事由］联系 {t}{trole}。我听说你可能认识 {b}——方便问问对方是否愿意帮忙引荐吗？不方便也完全没关系。\n\n谢谢！\n",
+    accOrg:"机构是背景而非目的地——请选择这里的一个人来查看引荐路径。",
+    accPick:"选择一个人",
+    alTitle:"校友圈（试点）", alTry:"试用高级版", alOff:"校友图层已关闭。",
+    alInv:"仅限受邀试点——请打开你的邀请链接或联系创始人。",
+    alNeedSign:"登录后可使用仅限受邀的校友圈。",
+    alOnMap:"在此地图", alElse:"在其他国家地图", alUnique:"圈内总数",
+    alSrc:"{p} 来自官方简介 · {m} 位成员 · {d} 条虚构演示",
+    alOverlay:"叠加", alOnly:"仅校友", alHide:"在地图上隐藏", alShow:"在地图上显示", alRemove:"移除图层",
+    alFilters:"筛选", alNoFilters:"无", alEdit:"在试用高级版中修改",
+    alCov:"涵盖官方公开简介、自行加入的成员和标注的虚构演示记录——并非全部校友。同校不代表相识。",
+    alSearch:"搜索校友圈…", alDemoNote:"虚构演示记录——此人并不存在。",
+    alMemberNote:"由圈内成员自行添加，信息为本人自述。", alRemoved:"已移除校友图层",
+    pub:"官方简介", mem:"成员", demo:"演示 · 虚构", openMap:"打开地图",
+  },
+};
+function ipT(){ return IPT[LANG] || IPT.en; }
+const IPEV_K = "pm2_intro_ev";
+function ipEv(){ try { const v = JSON.parse(localStorage.getItem(IPEV_K)); return v && v.links ? Object.assign({willing:{}}, v) : {links:{}, willing:{}}; } catch(e){ return {links:{}, willing:{}}; } }
+function ipEvSave(ev){ try { localStorage.setItem(IPEV_K, JSON.stringify(ev)); } catch(e){} Acct.push(); }
+let IPX = null;
+function ipIndex(){
+  if(!IPX){
+    const people = {}, orgs = {}, family = [];
+    nodes.forEach(n => {
+      if(n.layer) return;
+      if(n.kind === "inst") orgs[n.id] = {name:n.short || n.name};
+      else if(n.kind === "person") people[n.id] = {name:n.name, roles:(n.roles || []).filter(r => byId[r[0]])
+        .map(r => ({org:r[0], title:r[1] || "", type:r[2], v:r[3], former:!!r[4]}))};
+    });
+    edges.forEach(e => { if(e.kind === "family" && !e.layer) family.push([e.s.id, e.t.id, e.label, e.v]); });
+    IPX = IntroPaths.build({people, orgs, family});
+  }
+  IPX.prov = window.PROV || {};
+  return IPX;
+}
+function ipStarts(){
+  if(!ME) return [];
+  return ME.adj.filter(a => a.e.kind === "mine" && !a.n.layer).map(a => ({pid:a.n.id, conf:a.e.v === "demo" ? "me" : a.e.v, s:a.e.strength || ""}));
+}
+const ipCls = l => l.status === "confirmed" ? "confirmed" : l.status === "inferred" ? "potential" : "unverified";
+function ipLinkText(l){
+  const IT = ipT(), org = esc((l.orgNames || [])[0] || ""), b = esc(l.to && byId[l.to] ? byId[l.to].name : "");
+  if(l.first) return l.type === "linkedin" ? IT.fLi : l.type === "imported" ? IT.fImp
+                   : l.strength ? fmt(IT.fMeS, {b, s:IT[l.strength] || l.strength}) : fmt(IT.fMe, {b});
+  if(l.type === "known") return IT.lKnown;
+  if(l.type === "family") return fmt(IT.lFamily, {label:esc(l.label || "")});
+  if(l.type === "board") return fmt(IT.lBoard, {org});
+  if(l.type === "colleague") return fmt(IT.lColl, {org}) + (l.size ? ` (${l.size})` : "") + ` — <i>${IT.lCollWhy}</i>`;
+  if(l.type === "alumni") return fmt(IT.lAlumni, {org}) + ` — <i>${IT.lAlumniWhy}</i>`;
+  return esc(l.type);
+}
+function ipEdge(a, b, pred){ const x = a.adj.find(ad => ad.n === b && (!pred || pred(ad.e))); return x ? x.e : null; }
+/* a person chain → a drawable route; organizations stay on the canvas as context dots */
+function ipRoute(p){
+  const nl = [ME], el = [], hops = [];
+  p.links.forEach((l, i) => {
+    const a = i === 0 ? ME : byId[l.from], b = byId[l.to], h = {cls:ipCls(l), text:""};
+    if(i === 0){ el.push(ipEdge(ME, b, e => e.kind === "mine") || {s:ME, t:b, kind:"virtual"}); hops.push(h); nl.push(b); return; }
+    const via = l.type === "known" ? l.publicType : l.type;
+    const fam = via === "family" && ipEdge(a, b, e => e.kind === "family");
+    if(fam){ el.push(fam); hops.push(h); nl.push(b); return; }
+    const o = l.orgs && l.orgs[0] && byId[l.orgs[0]];
+    const e1 = o && ipEdge(a, o, e => !e.former), e2 = o && ipEdge(o, b, e => !e.former);
+    if(e1 && e2){ el.push(e1, e2); hops.push(h, h); nl.push(o, b); return; }
+    el.push({s:a, t:b, kind:"virtual"}); hops.push(h); nl.push(b);
+  });
+  const cnt = {confirmed:0, unverified:0, potential:0, demo:0};
+  p.links.forEach(l => cnt[ipCls(l)]++);
+  return {nodes:nl, edges:el, edgeSet:new Set(el), hops, notes:nl.map(n => n.kind === "inst" ? "shared" : null), cnt,
+          intros:p.intermediaries, cost:p.cost, shared:0, via:nl[1], strengthUsed:!!p.links[0].strength, intro:p};
+}
+function introShow(target, opts){
+  opts = opts || {};
+  const res = IntroPaths.find(ipIndex(), {target:target.id, targetKind:target.kind === "inst" ? "inst" : "person",
+                                          starts:ipStarts(), evidence:ipEv(), k:3, maxLinks:4});
+  if(res.status === "ok"){
+    const routes = res.paths.map(ipRoute);
+    PV = {routes, idx:Math.min(opts.idx || 0, routes.length - 1), target, intro:res};
+    setRoute(routes[PV.idx], opts);
+    if(!opts.noPanel){ renderPath(); openDetail("half"); }
+    return {routes};
+  }
+  clearPath();
+  if(!opts.noPanel) renderIntroNone(target, res);
+  return null;
+}
+function ipPersonRow(pid, extra){
+  const n = byId[pid];
+  if(!n) return "";
+  const r = currentRole(n), role = r && byId[r[0]] ? r[1] + " · " + byId[r[0]].short : "";
+  return `<button class="ip-pick" type="button" data-act="ipPick" data-id="${esc(pid)}"><b>${esc(n.name)}</b><span>${esc(role)}${extra || ""}</span></button>`;
+}
+function renderIntroNone(target, res){
+  const IT = ipT(), T = t(), name = esc(nm(target));
+  PANEL_MODE = "noroute";
+  S.selected = target; computeVisible();
+  let h = `<div class="pf-head">${avatarHtml(target)}<div class="pf-tt"><h2>${esc(target.name)}</h2><div class="pf-role">${esc(subLine(target))}</div></div></div>`;
+  if(res.status === "needPerson"){
+    h += `<div class="callout"><b>${fmt(IT.needTitle, {org:name})}</b><div style="margin-top:4px">${IT.needBody}</div></div>`;
+    h += res.candidates.length ? `<div class="ip-list">` + res.candidates.map(c => ipPersonRow(c.id, c.confirmed ? "" : ` · <i>${IT.unverRec}</i>`)).join("") + `</div>`
+                               : `<p class="plab">${fmt(IT.noCands, {org:name})}</p>`;
+  } else if(res.status === "direct"){
+    h += `<div class="callout access"><b>${svgI("check")} ${fmt(IT.direct, {name})}</b></div>`;
+  } else {
+    const title = res.status === "noStart" ? IT.noStartTitle : fmt(IT.noneTitle, {name});
+    h += `<div class="callout"><b>${title}</b>`;
+    if(res.status === "noStart") h += `<div style="margin-top:4px">${IT.noStartBody}</div>`;
+    (res.reasons || []).forEach(r => { const k = "r" + r.code[0].toUpperCase() + r.code.slice(1); if(IT[k]) h += `<div style="margin-top:4px">· ${fmt(IT[k], {name})}</div>`; });
+    h += `<div class="row"><button class="btn sm primary" data-act="locate">${svgI("userplus")} ${T.actAddSomeone}</button></div></div>`;
+    (res.notes || []).forEach(x => { if(x.code === "targetHistorical") h += `<p class="plab">${fmt(IT.hist, {name})}</p>`; });
+    if(res.discovery && res.discovery.length)
+      h += `<div class="sect">${fmt(IT.discTitle, {name})}</div><p class="plab">${IT.discNote}</p><div class="ip-list">`
+         + res.discovery.map(d => ipPersonRow(d.id, ` · ${IT["d" + d.type] || d.type}${d.orgNames.length ? ", " + esc(d.orgNames[0]) : ""}`)).join("") + `</div>`;
+  }
+  h += `<div class="actrow"><button class="btn" data-act="openTarget" data-id="${esc(target.id)}">${T.openProfile}</button></div>`;
+  dbody.innerHTML = h;
+  dbody.scrollTop = 0;
+  Sheets.setPeek(detailEl, dbody.querySelector(".callout"));
+  openDetail("half");
+}
+function ipDraft(p, tg){
+  const IT = ipT(), a = byId[p.people[1].id], b = p.people[2] && byId[p.people[2].id];
+  const first = s => String(s || "").replace(/^(H\.H\.|H\.E\.|Dr\.|Prof\.|Sheikh|Eng\.)\s+/g, "").split(" ")[0];
+  const tr = currentRole(tg), trole = tr && byId[tr[0]] ? ` (${tr[1]}, ${byId[tr[0]].short})` : "";
+  return fmt(p.intermediaries <= 1 ? IT.draft1 : IT.draftN, {a:first(a.name), b:b ? b.name : "", t:tg.name, trole});
+}
+function renderIntroPath(){
+  const IT = ipT(), T = t(), r = PV.routes[PV.idx], p = r.intro, tg = PV.target, ev = ipEv();
+  PANEL_MODE = "path";
+  let h = `<div class="eyebrow">${svgI("route")} ${IT.eyebrow}</div>`
+        + `<div class="pf-head">${avatarHtml(tg)}<div class="pf-tt"><h2>${esc(nm(tg))}</h2>`
+        + `<div class="pf-role"><span class="ip-lab ${p.label}">${IT[p.label]}</span></div></div></div>`;
+  if(PV.routes.length > 1)
+    h += `<div class="rt-alts" role="tablist">` + PV.routes.map((rr, i) =>
+      `<button class="rt-alt${i === PV.idx ? " on" : ""}" data-alt="${i}" role="tab" aria-selected="${i === PV.idx}">${IT.route} ${i + 1} · ${IT[rr.intro.label]}</button>`).join("") + `</div>`;
+  h += `<p class="plab">${IT[p.label + "Why"]} ${fmt(p.unconfirmed ? IT.sum : IT.sum0, {n:p.intermediaries, u:p.unconfirmed})}</p>`;
+  if(p.unwilling.length) h += `<p class="plab">${IT.unwilling}</p>`;
+  (PV.intro.notes || []).forEach(x => { if(x.code === "targetHistorical") h += `<p class="plab">${fmt(IT.hist, {name:esc(tg.name)})}</p>`; });
+  h += `<div class="rt-start">${svgI("person")} ${fmt(IT.startWith, {name:esc(byId[p.first].name)})}</div>`;
+  /* the chain: people only; each link carries its evidence */
+  h += `<div class="steps ip-steps">`;
+  p.people.forEach((x, i) => {
+    const n = x.id === "__me" ? ME : byId[x.id], last = i === p.people.length - 1, idx = r.nodes.indexOf(n);
+    h += `<div class="step${x.id === "__me" ? " me" : ""}${last ? " last" : ""}" data-step="${idx}" style="--c:${nodeColor(n)}">`
+       + `<div class="rail"><span class="pin"></span></div><div class="card">`
+       + `<div class="nm">${esc(x.id === "__me" ? T.you : n.name)}</div>`
+       + (x.title ? `<div class="sub">${esc(x.title)}${x.orgName ? " · " + esc(x.orgName) : ""}${x.former ? " · " + T.former : ""}</div>` : "");
+    if(i > 0 && !last){
+      const w = (ev.willing || {})[x.id] || "unknown";
+      h += `<div class="ip-will"><span>${fmt(IT.willQ, {name:esc(n.short || n.name)})}</span>`
+         + [["willing", IT.wYes], ["unwilling", IT.wNo], ["unknown", IT.wUnk]].map(([k, l]) =>
+           `<button type="button" class="ip-chip${w === k ? " on" : ""}" data-act="ipWill" data-id="${esc(x.id)}" data-w="${k}">${l}</button>`).join("") + `</div>`;
+    }
+    h += `</div></div>`;
+    const l = p.links[i];
+    if(l){
+      const weak = p.unconfirmed && i === p.weakest;
+      const srcs = (l.src || []).filter(s => s && /^https?:\/\//.test(s[2] || "")).map(s => `<a href="${esc(s[2])}" target="_blank" rel="noopener">${esc(s[1])}</a>`);
+      const key = IntroPaths.pairKey(l.from, l.to), mine = (ev.links || {})[key];
+      h += `<div class="ip-link ${ipCls(l)}${weak ? " weak" : ""}">`
+         + `<div class="basis">${clsTag(ipCls(l))}${weak ? `<span class="ip-weak">${IT.weakest}</span>` : ""}</div>`
+         + `<div class="ip-ev">${ipLinkText(l)}${l.dates && l.dates.length ? ` · ${esc(l.dates.join(", "))}` : ""}</div>`
+         + (srcs.length ? `<div class="ip-src">${IT.records}: ${srcs.join(" · ")}</div>` : "")
+         + (!l.first ? `<div class="ip-acts">` + (mine
+              ? `<span class="plab">${mine.status === "confirmed" ? IT.know : IT.notLink} ✓</span><button type="button" class="ip-chip" data-act="ipLink" data-a="${esc(l.from)}" data-b="${esc(l.to)}" data-s="clear">${IT.undo}</button>`
+              : `<button type="button" class="ip-chip" data-act="ipLink" data-a="${esc(l.from)}" data-b="${esc(l.to)}" data-s="confirmed">${svgI("check")} ${IT.know}</button>`
+              + `<button type="button" class="ip-chip" data-act="ipLink" data-a="${esc(l.from)}" data-b="${esc(l.to)}" data-s="rejected">${IT.notLink}</button>`) + `</div>` : "")
+         + `</div>`;
+    }
+  });
+  h += `</div>`;
+  const a = byId[p.people[1].id], b = byId[p.people[2].id];
+  h += `<div class="sect">${IT.nextTitle}</div><p class="plab">${fmt(p.intermediaries <= 1 ? IT.nextAskT : IT.nextAsk, {a:esc(a.name), b:esc(b.name)})}</p>`
+     + `<div class="sect">${IT.draftTitle}</div><textarea class="mp-input ip-draft" id="ip-draft" rows="7">${esc(ipDraft(p, tg))}</textarea>`
+     + `<div class="actrow"><button class="btn sm" type="button" data-act="ipCopy">${IT.copy}</button></div><p class="plab">${IT.draftNote}</p>`;
+  h += `<p class="disclaim">${IT.disclaim} ${IT.privNote}</p>`;
+  h += `<div class="actrow"><button class="btn" data-act="openTarget">${T.openProfile}</button><button class="btn ghost" data-act="clearPath">${T.clearPath}</button></div>`;
+  dbody.innerHTML = h;
+  dbody.scrollTop = 0;
+  Sheets.setPeek(detailEl, dbody.querySelector(".rt-start") || dbody.querySelector(".pf-head"));
+}
+function ipAction(act, el){
+  const IT = ipT();
+  if(act === "ipPick"){ const n = byId[el.getAttribute("data-id")]; if(n) showRoutes(n); return; }
+  if(act === "ipCopy"){
+    const ta = document.getElementById("ip-draft");
+    if(ta){ (navigator.clipboard ? navigator.clipboard.writeText(ta.value) : Promise.reject()).then(() => { el.textContent = IT.copied; }, () => { ta.select(); }); }
+    return;
+  }
+  if(!PV || !PV.target) return;
+  const ev = ipEv();
+  if(act === "ipLink"){
+    const k = IntroPaths.pairKey(el.getAttribute("data-a"), el.getAttribute("data-b")), s = el.getAttribute("data-s");
+    if(s === "clear") delete ev.links[k]; else ev.links[k] = {status:s, at:Date.now()};
+  } else if(act === "ipWill"){
+    const id = el.getAttribute("data-id"), w = el.getAttribute("data-w");
+    ev.willing = ev.willing || {};
+    if(w === "unknown") delete ev.willing[id]; else ev.willing[id] = w;
+  }
+  ipEvSave(ev);
+  const tg = PV.target;
+  if(!introShow(tg, {noFit:true})) { /* the panel now explains why no route remains */ }
+  toast(IT.saved);
+}
+/* profile callout: the best person-to-person route, or why there is none */
+function ipAccessCallout(n){
+  const IT = ipT(), T = t();
+  if(n.kind === "inst") return `<div class="callout"><b>${T.accTitle}</b><div style="margin-top:4px">${IT.accOrg}</div>`
+                             + `<div class="row"><button class="btn sm primary" data-act="path">${svgI("route")} ${IT.accPick}</button></div></div>`;
+  const res = IntroPaths.find(ipIndex(), {target:n.id, starts:ipStarts(), evidence:ipEv(), k:1, maxLinks:4});
+  if(res.status !== "ok") return `<div class="callout"><b>${T.accTitle}</b><div style="margin-top:4px">${fmt(IT.noneTitle, {name:esc(n.name)})}</div>`
+                               + `<div class="row"><button class="btn sm" data-act="path">${svgI("route")} ${T.showRoute}</button></div></div>`;
+  const p = res.paths[0];
+  const chain = p.people.map((x, i) => (i ? "<i> → </i>" : "") + esc(x.id === "__me" ? T.you : x.name)).join("");
+  return `<div class="callout access"><b><span class="ip-lab ${p.label}">${IT[p.label]}</span></b><div class="chain">${chain}</div>`
+       + `<div class="row"><button class="btn sm primary" data-act="path">${svgI("route")} ${T.showRoute}</button></div></div>`;
+}
+
+/* ================================================================
+   ALUMNI CIRCLE LAYER — invitation-only, enforced by the server.
+   Off unless /api/me says this account has access AND turned it on.
+   Records come from /api/circle (public bios, members' own profiles,
+   fictional demo); nothing is copied into your contacts.
+   ================================================================ */
+var ALUM = null;
+const AL_COUNTRY = {abudhabi:"United Arab Emirates", dubai:"United Arab Emirates", northern:"United Arab Emirates", saudi:"Saudi Arabia",
+                    qatar:"Qatar", bahrain:"Bahrain", oman:"Oman", kuwait:"Kuwait"};
+const alNorm = s => String(s || "").toLowerCase().replace(/\([^)]*\)/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+function alumApply(){
+  if(!ALUM) return;
+  nodes.forEach(n => { if(!n.layer) n.alum = null; });
+  ALUM.ctx = null; ALUM.here = []; ALUM.away = [];
+  if(!ALUM.on) return;
+  const F = ALUM.filters || {}, region = Personal.REGION, school = byId.insead;
+  const recs = ALUM.recs.filter(r => ["country", "city", "industry", "org"].every(k => !F[k] || r[k] === F[k])
+                                    && (!F.cohort || (r.cohort || r.program) === F.cohort));
+  const inst = {};
+  nodes.forEach(n => { if(n.kind === "inst" && !n.layer){ inst[alNorm(n.name)] = n; inst[alNorm(n.short)] = n; } });
+  const ctx = new Set();
+  const addCtx = n => { ctx.add(n); n.adj.forEach(a => { if(a.n.kind === "inst" && !a.e.former) ctx.add(a.n); }); };
+  let k = 0;
+  recs.forEach(r => {
+    if(r.source === "public"){
+      if(r.region === region && byId[r.nodeId]){ const n = byId[r.nodeId]; n.alum = r; ALUM.here.push({r, n}); addCtx(n); }
+      else ALUM.away.push(r);
+      return;
+    }
+    const org = inst[alNorm(r.org)];
+    const anchor = org || (r.country === AL_COUNTRY[region] ? school : null);
+    if(!anchor || ALUM.hidden){ if(!anchor) ALUM.away.push(r); else ALUM.here.push({r, n:null}); return; }
+    const ang = (k++) * 2.39996, rad = 64 + (k % 3) * 16;
+    const n = layerNode({id:"__al_" + r.id, kind:"person", name:r.name, short:r.name, sector:anchor.sector, tier:3, power:50,
+      roles:org ? [[org.id, r.title || "", "executive", "ns"]] : [], demo:!!r.fictional,
+      note:r.fictional ? ipT().alDemoNote : ipT().alMemberNote,
+      x:anchor.x + Math.cos(ang) * rad, y:anchor.y + Math.sin(ang) * rad, radius:5.2});
+    n.alum = r;
+    if(org) layerEdge({s:n, t:org, kind:"role", label:r.title || "", v:"ns", former:false, alum:true, demo:!!r.fictional});
+    if(school && school !== org) layerEdge({s:n, t:school, kind:"alumni", label:r.program || "", v:"ns", former:false, alum:true});
+    ALUM.here.push({r, n}); addCtx(n);
+  });
+  if(ALUM.hidden) nodes.forEach(n => { if(!n.layer) n.alum = null; });
+  else ALUM.ctx = ctx;
+}
+function alumOnlyHides(n){
+  return !!(ALUM && ALUM.on && !ALUM.hidden && ALUM.mode === "only" && ALUM.ctx && !n.layer && !ALUM.ctx.has(n) && !n.myDirect);
+}
+async function alumApi(p, method, body){
+  let tk = null; try { tk = localStorage.getItem("pm2_token"); } catch(e){}
+  if(!tk) return null;
+  const r = await fetch("/api/" + p, {method:method || "GET", headers:{"Content-Type":"application/json", Authorization:"Bearer " + tk},
+                                       body:body ? JSON.stringify(body) : undefined});
+  return r.ok ? r.json() : null;
+}
+async function alumLoad(){
+  if(!Acct.on()){ ALUM = null; return; }
+  const me = await alumApi("me").catch(() => null);
+  if(!me){ ALUM = null; return; }
+  const L = me.layers && me.layers.alumni, circles = me.circles || [];
+  if(!L || !L.on || !circles.includes(L.circle)){ ALUM = {on:false, can:circles.length > 0}; if(myPanel.classList.contains("open")) renderMyPanel(true); return; }
+  const c = await alumApi("circle/" + L.circle).catch(() => null);
+  if(!c){ ALUM = {on:false, can:false}; return; }
+  ALUM = {on:true, can:true, mode:L.mode, filters:L.filters || {}, circle:L.circle, name:c.name, recs:c.records, counts:c.counts,
+          hidden:(() => { try { return sessionStorage.getItem("nv_al_hide") === "1"; } catch(e){ return false; } })()};
+  rebuildPersonal(false);
+  if(myPanel.classList.contains("open")) renderMyPanel(true);
+}
+function alumHtml(){
+  const IT = ipT();
+  let h = `<div class="sect">${IT.alTitle}</div>`;
+  if(!ALUM || !ALUM.on){
+    const why = !Acct.on() ? IT.alNeedSign : ALUM && ALUM.can ? IT.alOff : IT.alInv;
+    return h + `<div class="mp-card al-card"><div style="flex:1">${why}</div><a class="btn sm primary" href="/premium.html">${IT.alTry} ${svgI("chevR")}</a></div>`;
+  }
+  const c = ALUM.counts, F = ALUM.filters || {};
+  const fl = Object.keys(F).filter(k => F[k]).map(k => `${k}: ${esc(F[k])}`).join(" · ") || IT.alNoFilters;
+  const regName = rg => ({abudhabi:"Abu Dhabi", dubai:"Dubai", northern:"Northern Emirates", saudi:"Saudi Arabia", qatar:"Qatar", bahrain:"Bahrain", oman:"Oman", kuwait:"Kuwait"})[rg] || rg;
+  h += `<div class="mp-nums"><div><b>${ALUM.here.length}</b><span>${IT.alOnMap}</span></div><div><b>${ALUM.away.length}</b><span>${IT.alElse}</span></div>`
+     + `<div><b>${c.unique}</b><span>${IT.alUnique}</span></div></div>`
+     + `<p class="plab">${esc(ALUM.name)} · ${fmt(IT.alSrc, {p:c.public, m:c.members, d:c.demo})}</p>`
+     + `<div class="seg">` + [["overlay", IT.alOverlay], ["only", IT.alOnly]].map(([m, l]) =>
+         `<button type="button" data-al="mode" data-m="${m}" class="${ALUM.mode === m ? "on" : ""}" aria-pressed="${ALUM.mode === m}">${l}</button>`).join("") + `</div>`
+     + `<p class="plab">${IT.alFilters}: ${fl} · <a href="/premium.html">${IT.alEdit}</a></p>`
+     + `<input class="mp-input" id="al-q" type="search" placeholder="${IT.alSearch}" autocomplete="off">`
+     + `<div class="al-list" id="al-list">`
+     + ALUM.here.map(({r, n}) => alRow(r, n, null)).join("")
+     + ALUM.away.map(r => alRow(r, null, r.region)).join("")
+     + `</div>`
+     + `<p class="plab">${IT.alCov}</p>`
+     + `<div class="actrow"><button class="btn sm" type="button" data-al="hide">${ALUM.hidden ? IT.alShow : IT.alHide}</button>`
+     + `<button class="btn sm danger" type="button" data-al="off">${IT.alRemove}</button></div>`;
+  return h;
+  function alRow(r, n, away){
+    const tag = r.source === "demo" ? `<span class="cls demo">${IT.demo}</span>` : r.source === "public" ? `<span class="cls confirmed">${IT.pub}</span>` : `<span class="cls potential">${IT.mem}</span>`;
+    const sub = [r.title, r.org].filter(Boolean).join(" · "), sub2 = [r.program, r.cohort, r.city || r.country].filter(Boolean).join(" · ");
+    const go = n ? ` data-go-p="${esc(n.id)}"` : "";
+    const where = away ? ` · <a href="/${esc(away)}/">${esc(regName(away))} ${IT.openMap}</a>` : "";
+    return `<div class="al-row"${go} data-q="${esc((r.name + " " + sub + " " + sub2).toLowerCase())}"><div><b>${esc(r.name)}</b><span>${esc(sub)}</span><span>${esc(sub2)}${where}</span></div>${tag}</div>`;
+  }
+}
+function wireAlum(){
+  const q = document.getElementById("al-q");
+  if(q) q.oninput = () => { const v = q.value.trim().toLowerCase(); document.querySelectorAll("#al-list .al-row").forEach(el => { el.style.display = !v || el.dataset.q.includes(v) ? "" : "none"; }); };
+}
+async function alumAction(act, el){
+  if(!ALUM || !ALUM.on) return;
+  if(act === "mode"){
+    ALUM.mode = el.getAttribute("data-m");
+    alumApi("layers", "PUT", {alumni:{on:true, circle:ALUM.circle, mode:ALUM.mode, filters:ALUM.filters}});
+  } else if(act === "hide"){
+    ALUM.hidden = !ALUM.hidden;
+    try { sessionStorage.setItem("nv_al_hide", ALUM.hidden ? "1" : "0"); } catch(e){}
+  } else if(act === "off"){
+    const r = await alumApi("layers", "PUT", {alumni:{on:false, circle:ALUM.circle}});
+    if(r){ ALUM = {on:false, can:true}; toast(ipT().alRemoved); }
+  }
+  rebuildPersonal(false);
+  renderMyPanel(true);
+}
+
+/* ================================================================
    INIT
    ================================================================ */
 function fitInitial(){
@@ -4903,6 +5394,7 @@ function fitInitial(){
   else maybeHint();
   Saved.snapshot();
   setTimeout(() => Nudge.start(), 2400);
+  alumLoad();
 })();
 
 window.__map = {S, nodes, edges, byId, draw, resize, fitView, select, setView, runAsk, findRoutes, routeBetween, showRoutes, toScreen, viewRect, suggestTargets,

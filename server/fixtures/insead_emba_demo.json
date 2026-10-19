@@ -1,0 +1,13 @@
+{
+  "_comment": "FICTIONAL demonstration records for the INSEAD EMBA pilot circle. These people do not exist. They let invited users see how the alumni layer, filters and list view work without exposing any directory-derived data. Every record is flagged fictional and labeled DEMO in the interface.",
+  "records": [
+    {"id": "demo1", "name": "Demo Alumna — Layla Example", "program": "GEMBA", "cohort": "EMBA'19Dec", "org": "Mubadala Investment Company", "title": "Director (fictional)", "country": "United Arab Emirates", "city": "Abu Dhabi", "industry": "sovereign"},
+    {"id": "demo2", "name": "Demo Alumnus — Omar Example", "program": "GEMBA", "cohort": "EMBA'21Jan", "org": "ADNOC", "title": "VP Strategy (fictional)", "country": "United Arab Emirates", "city": "Abu Dhabi", "industry": "energy"},
+    {"id": "demo3", "name": "Demo Alumna — Sara Example", "program": "GEMBA", "cohort": "EMBA'21Jan", "org": "Emirates NBD", "title": "Head of Digital (fictional)", "country": "United Arab Emirates", "city": "Dubai", "industry": "finance"},
+    {"id": "demo4", "name": "Demo Alumnus — Faisal Example", "program": "GEMBA", "cohort": "EMBA'23Jan", "org": "Saudi Aramco", "title": "Engineering Manager (fictional)", "country": "Saudi Arabia", "city": "Dhahran", "industry": "energy"},
+    {"id": "demo5", "name": "Demo Alumna — Noor Example", "program": "GEMBA", "cohort": "EMBA'19Dec", "org": "Qatar National Bank", "title": "Senior Banker (fictional)", "country": "Qatar", "city": "Doha", "industry": "finance"},
+    {"id": "demo6", "name": "Demo Alumnus — Karim Example", "program": "GEMBA", "cohort": "EMBA'23Jan", "org": "Zain Group", "title": "Product Director (fictional)", "country": "Kuwait", "city": "Kuwait City", "industry": "comm"},
+    {"id": "demo7", "name": "Demo Alumna — Mariam Example", "program": "GEMBA", "cohort": "EMBA'25Jan", "org": "Mumtalakat", "title": "Investment Manager (fictional)", "country": "Bahrain", "city": "Manama", "industry": "sovereign"},
+    {"id": "demo8", "name": "Demo Alumnus — Said Example", "program": "GEMBA", "cohort": "EMBA'25Jan", "org": "OQ", "title": "Commercial Lead (fictional)", "country": "Oman", "city": "Muscat", "industry": "energy"}
+  ]
+}

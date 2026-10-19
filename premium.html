@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NavGCC — Try Premium</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+<style>
+:root{
+  --bg:#0A1120; --card:#121B2E; --card-2:#18243A; --line:rgba(148,163,184,.14); --line-2:rgba(148,163,184,.26);
+  --ink:#EEF2F8; --ink-soft:#B1BCCD; --ink-faint:#8190A7; --accent:#7C8CFF; --accent-hi:#A3AEFF;
+  --accent-soft:rgba(124,140,255,.15); --accent-br:rgba(124,140,255,.55); --ok:#5BD49A; --warn:#F2B35B; --bad:#F2777A;
+  --font:system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--font);-webkit-font-smoothing:antialiased}
+body{background:radial-gradient(1000px 500px at 80% -10%,rgba(124,140,255,.12),transparent 60%),var(--bg)}
+a{color:var(--accent-hi)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+.wrap{max-width:860px;margin:0 auto;padding:20px 16px 64px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:22px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none}
+.brand img{width:32px;height:32px;border-radius:8px}
+.brand b{font-size:17px}
+.who{font-size:12.5px;color:var(--ink-faint);text-align:right}
+.who button{margin-left:6px}
+h1{font-size:28px;line-height:1.2;letter-spacing:-.01em;margin-bottom:6px}
+.lead{color:var(--ink-soft);margin-bottom:6px}
+.fine{font-size:12.5px;color:var(--ink-faint)}
+.steps{display:flex;gap:6px;flex-wrap:wrap;margin:16px 0 18px}
+.steps span{font-size:12px;border:1px solid var(--line-2);border-radius:999px;padding:3px 10px;color:var(--ink-faint)}
+.steps span.done{border-color:rgba(91,212,154,.5);color:var(--ok)}
+.steps span.cur{border-color:var(--accent-br);color:var(--ink);background:var(--accent-soft)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;margin-bottom:14px}
+.card h2{font-size:17px;margin-bottom:4px}
+.card h3{font-size:14px;margin:14px 0 6px}
+.card p{color:var(--ink-soft);font-size:14px;margin:4px 0 10px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px 12px}
+@media(max-width:620px){.grid{grid-template-columns:1fr}}
+label.f{display:block;font-size:12px;color:var(--ink-faint)}
+label.f > input, label.f > select, label.f > textarea{margin-top:3px}
+input,select,textarea{width:100%;background:var(--bg);color:var(--ink);border:1px solid var(--line-2);border-radius:10px;padding:9px 11px;font:14px var(--font);outline:none}
+input:focus,select:focus,textarea:focus{border-color:var(--accent)}
+textarea{min-height:70px;resize:vertical}
+input[type=checkbox],input[type=radio]{width:auto;margin-right:6px;accent-color:var(--accent)}
+.vis{display:flex;align-items:center;font-size:11.5px;color:var(--ink-faint);margin-top:2px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:40px;padding:0 16px;border-radius:11px;font:600 14px var(--font);
+     border:1px solid var(--line-2);background:var(--card-2);color:var(--ink);cursor:pointer;text-decoration:none}
+.btn:hover{border-color:var(--accent-br)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#0A1120}
+.btn.primary:hover{background:var(--accent-hi)}
+.btn.sm{min-height:32px;padding:0 11px;font-size:12.5px;border-radius:9px}
+.btn.danger{color:var(--bad)}
+.btn[disabled]{opacity:.5;cursor:default}
+.msg{font-size:13px;margin-top:8px;min-height:18px}
+.msg.err{color:var(--bad)} .msg.ok{color:var(--ok)}
+.pill{display:inline-block;font-size:11px;font-weight:600;border-radius:999px;padding:1px 8px;border:1px solid var(--line-2);color:var(--ink-soft);white-space:nowrap}
+.pill.demo{color:var(--warn);border-color:rgba(242,179,91,.5)}
+.pill.pub{color:var(--ok);border-color:rgba(91,212,154,.45)}
+.pill.mem{color:var(--accent-hi);border-color:var(--accent-br)}
+.notice{border-left:3px solid var(--warn);background:rgba(242,179,91,.07);padding:9px 12px;border-radius:8px;font-size:13px;color:var(--ink-soft);margin:10px 0}
+.notice.info{border-left-color:var(--accent)}
+.counts{display:flex;gap:16px;flex-wrap:wrap;margin:10px 0}
+.counts div{font-size:12px;color:var(--ink-faint)} .counts b{display:block;font-size:20px;color:var(--ink)}
+.list{border:1px solid var(--line);border-radius:12px;max-height:420px;overflow:auto}
+.rec{display:flex;gap:10px;justify-content:space-between;align-items:flex-start;padding:9px 12px;border-bottom:1px solid var(--line)}
+.rec:last-child{border-bottom:0}
+.rec b{font-size:14px} .rec small{display:block;color:var(--ink-faint);font-size:12px}
+.filters{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:8px 0}
+@media(max-width:620px){.filters{grid-template-columns:1fr 1fr}}
+.preview{border:1px dashed var(--line-2);border-radius:12px;padding:12px;margin-top:10px}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+td,th{text-align:left;padding:6px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--ink-faint);font-weight:500}
+code{font-size:12px;word-break:break-all;color:var(--ink-soft)}
+.hide{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="brand" href="/"><img src="/favicon.svg" alt=""><b>NavGCC</b></a>
+    <div class="who" id="who"></div>
+  </header>
+
+  <h1>Try Premium — classmate circle pilot</h1>
+  <p class="lead">See your alumni circle as a layer on the NavGCC map, filter it, and put yourself on it on your own terms.</p>
+  <p class="fine">Free demo during the pilot — no payment, no card, nothing renews. An independent NavGCC feature; not affiliated with or endorsed by INSEAD.</p>
+  <div class="steps" id="steps"></div>
+
+  <div id="flash" class="msg"></div>
+
+  <!-- 1. account -->
+  <section class="card hide" id="c-acct">
+    <h2>1 · Create your account or sign in</h2>
+    <p>Use the email you want classmates to know you by. It must be an inbox you can open — we send a code to it.</p>
+    <div class="grid">
+      <label class="f">Email<input id="a-em" type="email" autocomplete="username"></label>
+      <label class="f">Password (8+ characters)<input id="a-pw" type="password" autocomplete="current-password"></label>
+    </div>
+    <div class="row" style="margin-top:10px">
+      <button class="btn primary" id="a-reg">Create account</button>
+      <button class="btn" id="a-in">Sign in</button>
+    </div>
+    <div class="msg" id="a-msg"></div>
+  </section>
+
+  <!-- 2. verify -->
+  <section class="card hide" id="c-ver">
+    <h2>2 · Verify your email</h2>
+    <p id="v-txt"></p>
+    <div class="row">
+      <input id="v-code" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="6-digit code" style="max-width:160px">
+      <button class="btn primary" id="v-go">Verify</button>
+      <button class="btn" id="v-send">Send a new code</button>
+    </div>
+    <div class="msg" id="v-msg"></div>
+  </section>
+
+  <!-- 3. access -->
+  <section class="card hide" id="c-acc">
+    <h2>3 · Join the circle</h2>
+    <div id="acc-body"></div>
+    <div class="msg" id="acc-msg"></div>
+  </section>
+
+  <!-- 4. preview + add to map -->
+  <section class="card hide" id="c-prev">
+    <h2>4 · Preview and add to My Network</h2>
+    <p>This adds the circle as a layer on your own map. It changes only your view — nothing is copied into your contacts and no one is notified.</p>
+    <div class="notice info">
+      Coverage: people whose <b>official public bios</b> state an INSEAD programme (any programme, not only EMBA), members who added themselves,
+      and clearly labeled <b>fictional demo</b> records. It is <b>not</b> a complete list of INSEAD alumni.
+      A shared school does not mean two people know each other, and listed people are not necessarily NavGCC members or available to help.
+    </div>
+    <div class="counts" id="p-counts"></div>
+    <div class="row" style="margin:6px 0 4px">
+      <label class="fine"><input type="radio" name="mode" value="overlay" checked>Overlay on the full map</label>
+      <label class="fine"><input type="radio" name="mode" value="only">Alumni only</label>
+    </div>
+    <div class="filters">
+      <select id="f-country"></select><select id="f-city"></select><select id="f-industry"></select>
+      <select id="f-org"></select><select id="f-cohort"></select><input id="f-q" placeholder="Search name, role…">
+    </div>
+    <div class="fine" id="p-shown"></div>
+    <div class="list" id="p-list"></div>
+    <div class="row" style="margin-top:12px">
+      <button class="btn primary" id="p-add">Add to My Network</button>
+      <a class="btn" id="p-open" href="/abudhabi/">Open the map</a>
+      <button class="btn danger hide" id="p-rm">Remove the layer</button>
+    </div>
+    <div class="msg" id="p-msg"></div>
+  </section>
+
+  <!-- 5. add myself -->
+  <section class="card hide" id="c-me">
+    <h2>Add yourself to the map</h2>
+    <p>Optional. You choose what other circle members can see; your email is never shown. Edit or withdraw any time.</p>
+    <div id="me-status"></div>
+    <div class="grid" id="me-form"></div>
+    <div id="me-match"></div>
+    <label class="fine" style="display:block;margin-top:8px"><input type="checkbox" id="me-listed" checked>List me in the circle (untick to keep the profile hidden)</label>
+    <h3>What other members will see</h3>
+    <div class="preview" id="me-prev"></div>
+    <div class="row" style="margin-top:12px">
+      <button class="btn primary" id="me-save">Save my profile</button>
+      <button class="btn danger hide" id="me-del">Withdraw my profile</button>
+    </div>
+    <div class="msg" id="me-msg"></div>
+  </section>
+
+  <!-- feedback -->
+  <section class="card hide" id="c-fb">
+    <h2>Feedback</h2>
+    <p>What worked, what didn't, what you'd want next. Goes only to the founder.</p>
+    <textarea id="fb-t" maxlength="2000"></textarea>
+    <div class="row" style="margin-top:8px"><button class="btn" id="fb-go">Send feedback</button></div>
+    <div class="msg" id="fb-msg"></div>
+  </section>
+
+  <!-- admin -->
+  <section class="card hide" id="c-admin">
+    <h2>Admin — invitations</h2>
+    <p>Create a link for one person's email, then send it yourself. Nothing is emailed automatically. Links are single-use and expire.</p>
+    <div class="row">
+      <input id="ad-em" type="email" placeholder="classmate@example.com" style="flex:2;min-width:200px">
+      <select id="ad-days" style="flex:1;min-width:110px"><option value="3">3 days</option><option value="7" selected>7 days</option><option value="14">14 days</option><option value="30">30 days</option></select>
+      <button class="btn primary" id="ad-go">Create link</button>
+    </div>
+    <div class="msg" id="ad-msg"></div>
+    <div id="ad-link"></div>
+    <h3>Invitations</h3><div id="ad-inv"></div>
+    <h3>Access requests</h3><div id="ad-req"></div>
+    <h3>Profile claims (review before linking)</h3><div id="ad-cl"></div>
+    <h3>Pilot numbers</h3><div id="ad-st"></div>
+    <h3>Feedback</h3><div id="ad-fb"></div>
+  </section>
+</div>
+
+<script>
+(function(){
+"use strict";
+const CIRCLE = "insead-emba";
+const $ = id => document.getElementById(id);
+const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]);
+const ls = { get: k => { try { return localStorage.getItem(k); } catch(e){ return null; } },
+             set: (k, v) => { try { localStorage.setItem(k, v); } catch(e){} },
+             del: k => { try { localStorage.removeItem(k); } catch(e){} } };
+const ss = { get: k => { try { return sessionStorage.getItem(k); } catch(e){ return null; } },
+             set: (k, v) => { try { sessionStorage.setItem(k, v); } catch(e){} },
+             del: k => { try { sessionStorage.removeItem(k); } catch(e){} } };
+const show = (id, on) => $(id).classList.toggle("hide", !on);
+function msg(id, text, kind){ const el = $(id); el.textContent = text || ""; el.className = "msg" + (kind ? " " + kind : ""); }
+
+async function api(p, method, body){
+  const h = {"Content-Type": "application/json"};
+  const tk = ls.get("pm2_token"); if(tk) h.Authorization = "Bearer " + tk;
+  const r = await fetch("/api/" + p, {method: method || "GET", headers: h, body: body ? JSON.stringify(body) : undefined});
+  const j = await r.json().catch(() => ({}));
+  if(!r.ok){ const e = new Error(j.error || ("HTTP " + r.status)); e.status = r.status; e.body = j; throw e; }
+  return j;
+}
+/* same personal-data handoff as the map (account copy wins, first device uploads) */
+function payload(){ const o = {}; try { Object.keys(localStorage).forEach(k => { if(k.startsWith("pm2_") && k !== "pm2_token" && k !== "pm2_email") o[k] = localStorage.getItem(k); }); } catch(e){} return o; }
+function applyPayload(d){ try { Object.keys(localStorage).forEach(k => { if(k.startsWith("pm2_") && k !== "pm2_token" && k !== "pm2_email") localStorage.removeItem(k); }); if(d) Object.keys(d).forEach(k => localStorage.setItem(k, d[k])); } catch(e){} }
+
+const P = new URLSearchParams(location.search);
+if(P.get("invite")) ss.set("nv_invite", P.get("invite"));
+let ME = null, CIR = null, INV = null;
+
+/* ---------- top-level flow ---------- */
+async function refresh(){
+  ME = null;
+  if(ls.get("pm2_token")) try { ME = await api("me"); } catch(e){ if(e.status === 401){ ls.del("pm2_token"); ls.del("pm2_email"); } }
+  const inv = ss.get("nv_invite");
+  if(inv && !INV) try { INV = await api("invite/check", "POST", {token: inv}); } catch(e){ INV = {state: "invalid"}; }
+  if(ME && ME.verified && inv && INV && INV.state !== "invalid" && !ME.circles.includes(CIRCLE)){
+    try { await api("invite/redeem", "POST", {token: inv}); ss.del("nv_invite"); ME = await api("me"); msg("flash", "Invitation accepted — welcome to the circle.", "ok"); }
+    catch(e){ INV.err = e.message; INV.reason = e.body && e.body.reason; }
+  }
+  const has = !!(ME && ME.circles.includes(CIRCLE));
+  render(has);
+  if(has){ await loadCircle(); }
+  if(ME && ME.admin && ME.verified) loadAdmin();
+}
+
+function render(has){
+  const st = !ME ? 0 : !ME.verified ? 1 : !has ? 2 : 3;
+  const names = ["Account", "Verify email", "Join circle", "Add to My Network"];
+  $("steps").innerHTML = names.map((n, i) => `<span class="${i < st ? "done" : i === st ? "cur" : ""}">${i < st ? "✓ " : ""}${n}</span>`).join("");
+  $("who").innerHTML = ME ? `${esc(ME.email)}${ME.verified ? "" : " (unverified)"}<button class="btn sm" id="out">Sign out</button>` : "";
+  if(ME) $("out").onclick = signOut;
+  show("c-acct", st === 0); show("c-ver", st === 1); show("c-acc", st === 2);
+  show("c-prev", st === 3); show("c-me", st === 3); show("c-fb", !!(ME && ME.verified)); show("c-admin", !!(ME && ME.admin && ME.verified));
+  if(st === 1) renderVerify();
+  if(st === 2) renderAccess();
+  if(INV && INV.state && !ME) msg("a-msg", INV.state === "valid"
+      ? `You've been invited to the ${INV.circle} (for ${INV.email}). Create an account with that email, or sign in.`
+      : "This invitation link is " + (INV.state === "invalid" ? "not valid" : INV.state) + ".", INV.state === "valid" ? "ok" : "err");
+}
+
+/* ---------- 1. account ---------- */
+async function auth(mode){
+  const em = $("a-em").value.trim(), pw = $("a-pw").value;
+  msg("a-msg", "…");
+  try {
+    const j = await api(mode, "POST", {email: em, password: pw});
+    ls.set("pm2_token", j.token); ls.set("pm2_email", j.email);
+    try { const p = await api("personal"); if(p.data && Object.keys(p.data).length) applyPayload(p.data); else await api("personal", "PUT", {data: payload()}); } catch(e){}
+    msg("a-msg", "");
+    if(mode === "register" && j.verification && j.verification !== "sent") msg("flash", "Account created, but the verification email could not be sent: " + j.verification, "err");
+    await refresh();
+  } catch(e){ msg("a-msg", e.message, "err"); }
+}
+$("a-reg").onclick = () => auth("register");
+$("a-in").onclick = () => auth("login");
+async function signOut(){
+  try { await api("logout", "POST", {}); } catch(e){}
+  ls.del("pm2_token"); ls.del("pm2_email"); applyPayload(null);
+  location.href = "/premium.html";
+}
+
+/* ---------- 2. verify ---------- */
+function renderVerify(){
+  const s = ME.verification;
+  $("v-txt").innerHTML = !ME.mail
+    ? `Email delivery is not set up on this server yet, so verification cannot be completed right now. Please tell the founder; your account is saved.`
+    : s === "pending" ? `We sent a 6-digit code and a link to <b>${esc(ME.email)}</b>. Enter the code or open the link. It expires after 30 minutes.`
+    : s === "expired" ? `Your last code expired. Send a new one.`
+    : s === "failed" ? `Too many incorrect codes. Send a new one.`
+    : `Send a code to <b>${esc(ME.email)}</b> to confirm you own it.`;
+  $("v-go").disabled = !ME.mail || s !== "pending";
+  $("v-send").disabled = !ME.mail;
+}
+$("v-go").onclick = async () => {
+  try { await api("verify/code", "POST", {code: $("v-code").value.trim()}); msg("v-msg", "Verified.", "ok"); await refresh(); }
+  catch(e){ msg("v-msg", e.message + (e.body && e.body.left != null ? ` (${e.body.left} tries left)` : ""), "err"); ME = await api("me"); renderVerify(); }
+};
+$("v-send").onclick = async () => {
+  try { await api("verify/send", "POST", {}); msg("v-msg", "Sent — check your inbox (and spam).", "ok"); ME = await api("me"); renderVerify(); }
+  catch(e){ msg("v-msg", e.message, "err"); }
+};
+async function linkVerify(){
+  const tk = P.get("verify"), em = P.get("e");
+  if(!tk || !em) return;
+  try { await api("verify/link", "POST", {email: em, token: tk}); msg("flash", "Email verified" + (ls.get("pm2_token") ? "." : " — sign in to continue."), "ok"); }
+  catch(e){ msg("flash", e.message, "err"); }
+}
+
+/* ---------- 3. access ---------- */
+function renderAccess(){
+  let h;
+  if(INV && INV.err){
+    h = `<p>${esc(INV.err)}.</p>` + (INV.reason === "wrong_email" ? `<p>The invitation was sent to <b>${esc(INV.email)}</b>. Sign out and use that address, or ask the founder for a new link.</p>` : "");
+  } else {
+    h = `<p>The circle is <b>invitation-only</b> during the pilot. Open the personal invitation link you received, signed in with the same email it was sent to.</p>
+         <p>No invitation? You can ask for one — the founder reviews requests personally.</p>`;
+  }
+  h += `<textarea id="rq-note" maxlength="500" placeholder="Optional: your programme and cohort, e.g. GEMBA, EMBA'21Jan"></textarea>
+        <div class="row" style="margin-top:8px"><button class="btn" id="rq-go">Request access</button></div>`;
+  $("acc-body").innerHTML = h;
+  $("rq-go").onclick = async () => {
+    try { await api("circle/" + CIRCLE + "/request", "POST", {note: $("rq-note").value}); msg("acc-msg", "Request sent. You'll hear back from the founder directly.", "ok"); }
+    catch(e){ msg("acc-msg", e.message, "err"); }
+  };
+}
+
+/* ---------- 4. preview ---------- */
+const FKEYS = [["country", "All countries"], ["city", "All cities"], ["industry", "All industries"], ["org", "All organizations"], ["cohort", "All cohorts / programmes"]];
+const cohortOf = r => r.cohort || r.program || "";
+async function loadCircle(){
+  try { CIR = await api("circle/" + CIRCLE); } catch(e){ msg("p-msg", e.message, "err"); return; }
+  const c = CIR.counts;
+  $("p-counts").innerHTML = `<div><b>${c.unique}</b>unique records</div><div><b>${c.public}</b>from official public bios</div>`
+    + `<div><b>${c.members}</b>members' own profiles</div><div><b>${c.demo}</b>fictional demo</div>`;
+  const L = ME.layers && ME.layers.alumni, F = (L && L.filters) || {};
+  FKEYS.forEach(([k, all]) => {
+    const vals = [...new Set(CIR.records.map(r => k === "cohort" ? cohortOf(r) : r[k]).filter(Boolean))].sort();
+    $("f-" + k).innerHTML = `<option value="">${all}</option>` + vals.map(v => `<option${v === F[k] ? " selected" : ""}>${esc(v)}</option>`).join("");
+  });
+  if(L && L.mode) document.querySelector(`input[name=mode][value=${L.mode}]`).checked = true;
+  layerButtons();
+  drawList();
+  renderMe();
+}
+function filters(){ const f = {}; FKEYS.forEach(([k]) => f[k] = $("f-" + k).value); return f; }
+function drawList(){
+  const f = filters(), q = $("f-q").value.trim().toLowerCase();
+  const rows = CIR.records.filter(r => FKEYS.every(([k]) => !f[k] || (k === "cohort" ? cohortOf(r) : r[k]) === f[k])
+    && (!q || [r.name, r.title, r.org, r.program].join(" ").toLowerCase().includes(q)));
+  $("p-shown").textContent = `${rows.length} of ${CIR.counts.unique} shown`;
+  $("p-list").innerHTML = rows.map(r => {
+    const tag = r.source === "demo" ? `<span class="pill demo">DEMO · fictional</span>` : r.source === "public" ? `<span class="pill pub">Official bio</span>` : `<span class="pill mem">Member</span>`;
+    const line2 = [r.title, r.org].filter(Boolean).join(" · ");
+    const line3 = [r.program, r.cohort, [r.city, r.country].filter(Boolean).join(", ")].filter(Boolean).join(" · ");
+    return `<div class="rec"><div><b>${esc(r.name)}</b><small>${esc(line2)}</small><small>${esc(line3)}</small></div>${tag}</div>`;
+  }).join("") || `<div class="rec"><small>No records match these filters.</small></div>`;
+}
+FKEYS.forEach(([k]) => $("f-" + k).onchange = drawList);
+$("f-q").oninput = drawList;
+function layerButtons(){
+  const on = !!(ME.layers && ME.layers.alumni && ME.layers.alumni.on);
+  $("p-add").textContent = on ? "Update the layer" : "Add to My Network";
+  show("p-rm", on);
+}
+$("p-add").onclick = async () => {
+  const mode = document.querySelector("input[name=mode]:checked").value;
+  try {
+    const j = await api("layers", "PUT", {alumni: {on: true, circle: CIRCLE, mode, filters: filters()}});
+    ME.layers = j.layers; layerButtons();
+    msg("p-msg", "Added. Open the map and look for the alumni layer in My Network.", "ok");
+  } catch(e){ msg("p-msg", e.message, "err"); }
+};
+$("p-rm").onclick = async () => {
+  try { const j = await api("layers", "PUT", {alumni: {on: false, circle: CIRCLE}}); ME.layers = j.layers; layerButtons(); msg("p-msg", "Layer removed from your map.", "ok"); }
+  catch(e){ msg("p-msg", e.message, "err"); }
+};
+
+/* ---------- 5. add myself ---------- */
+const PF = [["name", "Full name", true], ["program", "Programme (e.g. GEMBA)"], ["cohort", "Cohort (e.g. EMBA'21Jan)"], ["org", "Organization"],
+            ["title", "Role / title"], ["country", "Country"], ["city", "City"], ["industry", "Industry"], ["url", "Public profile link (https://…)"],
+            ["interests", "Interests (comma-separated, up to 5)"], ["bio", "Short bio", false, true]];
+let claim = null;
+function renderMe(){
+  const me = CIR.me;
+  $("me-form").innerHTML = PF.map(([k, lab, req, area]) => {
+    const v = me ? (k === "interests" ? (me.interests || []).join(", ") : me[k] || "") : (k === "program" ? "" : "");
+    const vis = me ? !!(me.vis && me.vis[k]) : ["program", "cohort", "org", "title", "country", "city", "industry"].includes(k);
+    return `<div${area ? ' style="grid-column:1/-1"' : ""}><label class="f">${lab}${area ? `<textarea data-k="${k}">${esc(v)}</textarea>` : `<input data-k="${k}" value="${esc(v)}">`}</label>`
+      + (req ? `<div class="vis">Always visible to members</div>` : `<label class="vis"><input type="checkbox" data-v="${k}"${vis ? " checked" : ""}>Visible to members</label>`) + `</div>`;
+  }).join("") + `<div style="grid-column:1/-1"><label class="f">Private note (only you see this)<textarea data-k="note">${esc(me ? me.note : "")}</textarea></label></div>`;
+  $("me-listed").checked = me ? me.listed !== false : true;
+  show("me-del", !!me);
+  const cl = me && me.claim;
+  $("me-status").innerHTML = !me ? "" : `<div class="notice info">Your profile is saved${me.listed ? " and listed" : " but hidden"}.`
+    + (cl ? ` Claim of an existing record: <b>${esc(cl.status)}</b>${cl.status === "pending" ? " — the founder reviews it before anything is linked" : ""}.` : "") + `</div>`;
+  $("me-form").querySelectorAll("input,textarea").forEach(el => el.addEventListener("input", preview));
+  $("me-form").querySelector('[data-k=name]').addEventListener("change", matchName);
+  $("me-listed").onchange = preview;
+  claim = null; $("me-match").innerHTML = "";
+  preview();
+}
+function collect(){
+  const fields = {}, vis = {};
+  $("me-form").querySelectorAll("[data-k]").forEach(el => fields[el.dataset.k] = el.value.trim());
+  fields.interests = fields.interests ? fields.interests.split(",").map(s => s.trim()).filter(Boolean).slice(0, 5) : [];
+  $("me-form").querySelectorAll("[data-v]").forEach(el => vis[el.dataset.v] = el.checked);
+  return {fields, vis, listed: $("me-listed").checked};
+}
+function preview(){
+  const {fields: f, vis: v, listed} = collect();
+  if(!listed){ $("me-prev").innerHTML = `<span class="fine">Hidden — other members won't see you.</span>`; return; }
+  const sh = k => v[k] && f[k] && (!Array.isArray(f[k]) || f[k].length);
+  $("me-prev").innerHTML = `<b>${esc(f.name || "Your name")}</b> <span class="pill mem">Member</span>`
+    + `<div class="fine">${esc([sh("title") && f.title, sh("org") && f.org].filter(Boolean).join(" · "))}</div>`
+    + `<div class="fine">${esc([sh("program") && f.program, sh("cohort") && f.cohort, [sh("city") && f.city, sh("country") && f.country].filter(Boolean).join(", ")].filter(Boolean).join(" · "))}</div>`
+    + (sh("bio") ? `<p style="margin:6px 0 0">${esc(f.bio)}</p>` : "")
+    + (sh("interests") ? `<div class="fine">Interests: ${esc(f.interests.join(", "))}</div>` : "")
+    + (sh("url") ? `<div class="fine">${esc(f.url)}</div>` : "")
+    + (sh("industry") ? `<div class="fine">Industry: ${esc(f.industry)}</div>` : "");
+}
+async function matchName(){
+  const nm = $("me-form").querySelector("[data-k=name]").value.trim();
+  if(!nm || (CIR.me && CIR.me.claim)) { $("me-match").innerHTML = ""; return; }
+  let j; try { j = await api("circle/" + CIRCLE + "/match?name=" + encodeURIComponent(nm)); } catch(e){ return; }
+  if(!j.candidates.length){ $("me-match").innerHTML = ""; claim = null; return; }
+  $("me-match").innerHTML = `<div class="notice">There may already be a record for you. If one of these is you, select it — the founder reviews the claim before linking; nothing is overwritten.
+    ${j.candidates.map(c => `<label style="display:block;margin-top:4px"><input type="radio" name="claim" value="${esc(c.id)}">${esc(c.name)} — ${esc([c.title, c.org].filter(Boolean).join(", "))}</label>`).join("")}
+    <label style="display:block;margin-top:4px"><input type="radio" name="claim" value="" checked>None of these is me</label></div>`;
+  $("me-match").querySelectorAll("input[name=claim]").forEach(el => el.onchange = () => claim = el.value || null);
+}
+$("me-save").onclick = async () => {
+  const b = collect(); if(claim) b.claim = claim;
+  try { const j = await api("circle/" + CIRCLE + "/profile", "PUT", b); CIR.me = j.me; renderMe(); msg("me-msg", "Saved.", "ok"); }
+  catch(e){ msg("me-msg", e.message, "err"); }
+};
+$("me-del").onclick = async () => {
+  if(!confirm("Withdraw your profile from the circle? Other members will no longer see it.")) return;
+  try { await api("circle/" + CIRCLE + "/profile", "DELETE"); CIR.me = null; renderMe(); msg("me-msg", "Withdrawn.", "ok"); }
+  catch(e){ msg("me-msg", e.message, "err"); }
+};
+
+/* ---------- feedback ---------- */
+$("fb-go").onclick = async () => {
+  try { await api("feedback", "POST", {text: $("fb-t").value}); $("fb-t").value = ""; msg("fb-msg", "Thank you — received.", "ok"); }
+  catch(e){ msg("fb-msg", e.message, "err"); }
+};
+
+/* ---------- admin ---------- */
+const day = t => t ? new Date(t).toISOString().slice(0, 10) : "";
+async function loadAdmin(){
+  try {
+    const [inv, rq, cl, st, fb] = await Promise.all(["invites", "requests", "claims", "stats", "feedback"].map(x => api("admin/" + x)));
+    $("ad-inv").innerHTML = inv.invites.length ? `<table><tr><th>Email</th><th>Status</th><th>Expires</th><th></th></tr>` + inv.invites.sort((a, b) => b.created - a.created).map(i => {
+      const s = i.revoked ? "revoked" : i.usedAt ? "used " + day(i.usedAt) : i.exp < Date.now() ? "expired" : "open";
+      return `<tr><td>${esc(i.email)}</td><td>${s}</td><td>${day(i.exp)}</td><td>${s === "open" ? `<button class="btn sm danger" data-rv="${esc(i.id)}">Revoke</button>` : ""}</td></tr>`;
+    }).join("") + `</table>` : `<p class="fine">None yet.</p>`;
+    $("ad-req").innerHTML = rq.requests.length ? `<table>` + rq.requests.map(r => `<tr><td>${day(r.at)}</td><td>${esc(r.email)}</td><td>${esc(r.note)}</td><td><button class="btn sm" data-iv="${esc(r.email)}">Use email</button></td></tr>`).join("") + `</table>` : `<p class="fine">None.</p>`;
+    $("ad-cl").innerHTML = cl.claims.length ? `<table>` + cl.claims.map(c => `<tr><td>${day(c.at)}</td><td>${esc(c.email)}</td><td>claims <b>${esc(c.recordName)}</b></td><td>${c.status === "pending"
+      ? `<button class="btn sm" data-ap="${esc(c.id)}">Approve</button> <button class="btn sm danger" data-rj="${esc(c.id)}">Reject</button>` : esc(c.status)}</td></tr>`).join("") + `</table>` : `<p class="fine">None.</p>`;
+    const ev = st.events, row = (k, l) => `<tr><td>${l}</td><td>${ev[k] ? ev[k].users : 0} people</td><td>${ev[k] ? ev[k].count : 0} events</td></tr>`;
+    $("ad-st").innerHTML = `<table>${row("try_premium_opened", "Opened Try Premium")}${row("registration_completed", "Registered")}${row("account_verified", "Verified email")}`
+      + `${row("alumni_layer_activated", "Activated alumni layer")}${row("profile_updated", "Updated own profile")}${row("return_usage", "Came back another day")}${row("feedback_submitted", "Sent feedback")}</table>`
+      + `<p class="fine">Email delivery: <b>${st.mail === "resend" ? "configured (Resend)" : st.mail === "outbox" ? "TEST outbox only — not delivered" : "not configured"}</b></p>`;
+    $("ad-fb").innerHTML = fb.feedback.length ? `<table>` + fb.feedback.slice().reverse().map(f => `<tr><td>${day(f.at)}</td><td>${esc(f.email)}</td><td>${esc(f.text)}</td></tr>`).join("") + `</table>` : `<p class="fine">None.</p>`;
+  } catch(e){ msg("ad-msg", e.message, "err"); }
+}
+$("c-admin").addEventListener("click", async ev => {
+  const b = ev.target.closest("button"); if(!b) return;
+  try {
+    if(b.dataset.rv){ await api("admin/invites/" + b.dataset.rv, "DELETE"); loadAdmin(); }
+    if(b.dataset.iv){ $("ad-em").value = b.dataset.iv; $("ad-em").focus(); }
+    if(b.dataset.ap || b.dataset.rj){ await api("admin/claims/" + (b.dataset.ap || b.dataset.rj), "POST", {decision: b.dataset.ap ? "approve" : "reject"}); loadAdmin(); }
+    if(b.dataset.cp){ await navigator.clipboard.writeText(b.dataset.cp); b.textContent = "Copied"; }
+  } catch(e){ msg("ad-msg", e.message, "err"); }
+});
+$("ad-go").onclick = async () => {
+  try {
+    const j = await api("admin/invites", "POST", {email: $("ad-em").value.trim(), days: +$("ad-days").value, circle: CIRCLE});
+    $("ad-link").innerHTML = `<div class="notice info">Link for <b>${esc(j.email)}</b>, expires ${day(j.exp)}. Shown once — copy it now and send it yourself.<br>
+      <code>${esc(j.link)}</code><div class="row" style="margin-top:6px"><button class="btn sm" data-cp="${esc(j.link)}">Copy link</button></div></div>`;
+    $("ad-em").value = ""; msg("ad-msg", ""); loadAdmin();
+  } catch(e){ msg("ad-msg", e.message, "err"); }
+};
+
+/* ---------- boot ---------- */
+(async () => {
+  try { fetch("/api/event", {method: "POST", headers: Object.assign({"Content-Type": "application/json"}, ls.get("pm2_token") ? {Authorization: "Bearer " + ls.get("pm2_token")} : {}), body: JSON.stringify({e: "try_premium_opened"})}); } catch(e){}
+  await linkVerify();
+  if(P.get("invite") || P.get("verify")) history.replaceState(null, "", location.pathname);
+  await refresh();
+})();
+})();
+</script>
+</body>
+</html>
