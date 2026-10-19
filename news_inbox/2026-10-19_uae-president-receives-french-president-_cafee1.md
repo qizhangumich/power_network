@@ -1,0 +1,5 @@
+# UAE President receives French President at start of official visit to UAE
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeFdsMi1nbTVPZFRNVmE4ckc2NVdCNlU1MHo3a1hrQ1Z2MW1EenBCcjRuZG8ydmFTY3FpbDJVREJKNE1TQkxjRlFnUXE0bDlQS2VzYzY5MF82YW15bDM0eWZ6WFRIZmZxU3dlUERsU2lISFcwbGRJR3M0Qk8yeU9mNFdzNmdOd1IyVVdydnAtSjRvTVA1c1FTazlOcll6bVBGRW9BV25wcFl2QnVDU29WbVN0WG9wLUNyUkw5cm1MbEFZQXdxN25JMA?oc=5
+
+UAE President receives French President at start of official visit to UAE    مكتب أبوظبي الإعلامي

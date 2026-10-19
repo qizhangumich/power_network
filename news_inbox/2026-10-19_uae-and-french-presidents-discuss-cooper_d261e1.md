@@ -1,0 +1,5 @@
+# UAE and French Presidents discuss cooperation and regional developments
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUkpTZnZKNlp4NXFKZFdWaG5mcXZLcXR0cjJOYTNIM0loM2poSzRDcURSWWxCeWdWWE1sRlltT01uUTBQSXJTUnpzRkZpLTUxNEgyeC1OdURmNVdQZ1ZHN1B5MjJ1cndPQjR0MFJhdEJPemh6VkU4Z2Y0QndCYzdNSDU2a3pDM1VjVW5lZUFrQTJPWkRIVXJyZHZncVNtNnd3ejBieEhYamlIQjZDdGMyV0hnNzVPTk5CWTNj?oc=5
+
+UAE and French Presidents discuss cooperation and regional developments    Gulf News

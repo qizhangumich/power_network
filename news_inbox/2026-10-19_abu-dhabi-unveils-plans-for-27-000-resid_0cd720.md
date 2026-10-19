@@ -1,0 +1,5 @@
+# Abu Dhabi unveils plans for 27,000-resident workforce community near Khalifa Port
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM2g0WlpiUkdKdUNmcEVxb0Q0WWpoeElMdHJoU2tfRGZ5RVhDZE4tNGt2dGJmU3hMUE1FNmR3Nm9MaWJfUExCaGxNcmJhUG5mR0M4TkRZLXc4MFEtRmpmV21TNFowRjBHaW52dXNydXZFSVItYU41c18xY2k1SWhfWmtxcDJQWHhtSjBjWXladzQzaTFrQU9XNEs5WHJqZFZiSU45YVlwSm16aHJlTmJPYkJnbVY3WlI1aXBHcnJHRVM0UQ?oc=5
+
+Abu Dhabi unveils plans for 27,000-resident workforce community near Khalifa Port    Arabian Business

@@ -1,0 +1,5 @@
+# BlackRock among investors in India's Jio Platforms IPO - report
+source: TradingView
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTGFNbE9Zek1xd0RoemgxZ1lXTUtOQVc1NldmUVRkYm1jSUxodmYtWmxvaE1rVjBHMG5pdkZ3c0pwSDNaLXBQdUZTU1RlbUlyRlNFQmZnb3U3SzFjUllsYXFwMjNGYm9WY2ZZY2haTVBPQ0I1eGJZeGNBdldiSVkzaUFPM0pXMThiaWpUM05Cd1dwMVpmdU1MQmdNTjBQb2psbTJydnlDS2k1eEt1ZnQ0NHNFMGFZZVVkWkk4ZmhpTzA0QQ?oc=5
+
+BlackRock among investors in India's Jio Platforms IPO - report    TradingView

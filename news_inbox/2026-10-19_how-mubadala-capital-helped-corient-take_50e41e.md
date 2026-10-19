@@ -1,0 +1,5 @@
+# How Mubadala Capital helped Corient take business private
+source: The Circuit
+url: https://news.google.com/rss/articles/CBMingFBVV95cUxOendJV3Mzdy1iRXEzbHB4YnRFeU16OGg0aExIWG85ak9aSUlzVm5nMU5fcllmYm5oOUk1LWY4LTlMSDhhbjM2aGpCOEdtOVhXTlFQQUNPa1BZYXlBOXBMcGd5V09IMlRleHduN0pYbTdmbjRDOVpraTFJUUtFSFZNNnlEMGotR1M3a2FDbkpTdDYydU5raG1NdnhRUkVkQQ?oc=5
+
+How Mubadala Capital helped Corient take business private    The Circuit
