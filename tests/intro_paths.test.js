@@ -156,4 +156,20 @@ t("direct contact is reported as direct", () => {
   assert.strictEqual(IP.find(ix, {target: "d", starts: [{pid: "d", conf: "me"}]}).status, "direct");
 });
 
+t("a classmate can start a route but never counts as known", () => {
+  const ix = fixture();
+  const r = IP.find(ix, {target: "c", starts: [{pid: "b", conf: "alumni"}]});
+  assert.strictEqual(r.status, "ok");
+  assert.strictEqual(r.paths[0].links[0].type, "classmate");
+  assert.strictEqual(r.paths[0].links[0].status, "verify");
+  assert.strictEqual(r.paths[0].label, "exploratory");
+  assert.notStrictEqual(IP.find(ix, {target: "b", starts: [{pid: "b", conf: "alumni"}]}).status, "direct");
+});
+
+t("a known contact outranks a classmate start", () => {
+  const ix = fixture();
+  const r = IP.find(ix, {target: "d", starts: [{pid: "b", conf: "alumni"}, {pid: "f", conf: "me", s: "strong"}]});
+  assert.strictEqual(r.paths[0].first, "f");
+});
+
 console.log(`\nintro_paths: ${n} tests passed`);

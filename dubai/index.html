@@ -1752,6 +1752,7 @@ function rebuildPersonal(animate){
     });
   }
   alumApply();                                           // the alumni circle layer rides on the same layer system
+  computeMyHL();
   /* selection or a route may still point at nodes that were just rebuilt */
   const alive = new Set(nodes);
   if(S.selected && !alive.has(S.selected)){ S.selected = null; if(PANEL_MODE !== "path") closeDetail(); }
@@ -1855,9 +1856,8 @@ function baseFilter(n){
 function visRaw(n, hlOn){
   if(!baseFilter(n)) return false;
   if(n.layer) return true;
-  if(alumOnlyHides(n) && !CTX.has(n)) return false;      // "alumni only" view
   if(FOC) return FOC.has(n) || CTX.has(n);
-  if(CTX.has(n) || EXN.has(n) || n.myDirect) return true;
+  if(CTX.has(n) || EXN.has(n) || n.myDirect || n.alum) return true;
   const inHl = hlOn && S.hl.has(groupOf(n));
   /* progressive disclosure: board/staff-level people surface when their organization is in focus */
   if(n.kind === "person" && n.power < 56 && !S.showAll && !inHl) return false;
@@ -2173,7 +2173,7 @@ function reheat(v){ S.alpha = Math.max(S.alpha, v); }
 function followAnchors(){
   let sx = 0, sy = 0, k = 0;
   ME.adj.forEach(a => { if(a.e.kind === "mine"){ sx += a.n.x; sy += a.n.y; k++; } });
-  if(!k) ME.adj.forEach(a => { sx += a.n.x; sy += a.n.y; k++; });
+  if(!k) ME.adj.forEach(a => { if(a.e.kind !== "alumni"){ sx += a.n.x; sy += a.n.y; k++; } });   // classmates don't pull you to the middle
   if(!k) return;
   const cx = sx / k, cy = sy / k, d = Math.hypot(cx, cy) || 1, off = k === 1 ? 105 : 135;
   ME.x += (cx + cx / d * off - ME.x) * 0.12;
@@ -2697,6 +2697,13 @@ function draw(now){
       if(p <= 0) continue;
       x2 = x1 + (x2 - x1) * p; y2 = y1 + (y2 - y1) * p;
     }
+    if(S.myHL && MYHL && !onPath){                   // "My Network": your part of the graph in front, the rest faded
+      if(MYHL.e.has(e)){
+        if(e.kind === "alumni" && e.me){ const f = e.t === S.hovered || e.t === S.selected; alpha = f ? 0.85 : 0.045; width = f ? 1.6 : 0.8; }
+        else { alpha = Math.max(alpha, e.me ? 0.85 : 0.7); if(!e.me) width = Math.max(width, 1.3); }
+      }
+      else alpha *= 0.3;
+    } else if(e.alum && e.me) continue;               // classmate lines only in the highlight
     if(alpha < 0.01) continue;
     ctx.beginPath(); edgePath(x1, y1, x2, y2);
     ctx.setLineDash(dash || []);
@@ -2722,6 +2729,7 @@ function draw(now){
     else if(hoverSet) a = hoverSet.has(n) ? 1 : 0.4;
     else if(S.askSet) a = S.askSet.has(n) ? 1 : 0.14;
     else if(hlOn) a = (S.hl.has(groupOf(n)) || n.layer) ? 1 : 0.13;
+    if(S.myHL && MYHL && !P) a = MYHL.n.has(n) ? Math.max(a, 0.95) : a * 0.3;
     if(!n.layer && dimF < 0.999) a *= dimF;
     if(rv >= 0 && !n.layer){
       const rd = Math.min(1, Math.hypot(x - W / 2, y - H / 2) / (0.6 * Math.hypot(W, H)));
@@ -3740,6 +3748,7 @@ function renderMapCtl(){
   document.getElementById("mapctl").innerHTML =
       b("zin", "plus", K.zin, "desk") + b("zout", "minus", K.zout, "desk")
     + b("key", "layers", K.key, "mob")
+    + (ME ? b("myhl", "person", S.myHL ? ipT().hlOff : ipT().hlOn, S.myHL ? "on" : "") : "")
     + b("center", "target", K.center) + b("fit", "fit", K.fit)
     + b("full", S.immersive ? "unfull" : "full", S.immersive ? K.unfull : K.full, S.immersive ? "on" : "");
 }
@@ -3779,6 +3788,7 @@ document.getElementById("mapctl").addEventListener("click", ev => {
   else if(c === "center") recenter();
   else if(c === "fit") fitContext();
   else if(c === "full") toggleImmersive();
+  else if(c === "myhl") setMyHL(!S.myHL, true);
 });
 function layoutChrome(){
   const lg = document.getElementById("legend");
@@ -4110,6 +4120,7 @@ function renderMyNetBtn(){
   document.getElementById("b-mynet").title = ME ? fmt(t().meKnows, {n:meAnchors().length}) : t().myNet;
   const ask = document.getElementById("ask");
   if(ask && document.activeElement !== ask) ask.placeholder = ME ? t().askMe : t().ask;
+  renderMapCtl();                                   // the "My Network" highlight appears once you are on the map
 }
 document.getElementById("mp-close").onclick = () => Sheets.close(myPanel);
 document.getElementById("b-mynet").onclick = () => openMyPanel();
@@ -4935,7 +4946,8 @@ const IPT = {
     privNote:"Your corrections and notes on willingness are private to you and re-rank the routes.",
     saved:"Saved privately — routes updated",
     fMe:"You marked {b} as someone you know", fMeS:"You know {b} ({s})",
-    fLi:"LinkedIn connection — you confirmed the match", fImp:"In your imported contacts — match not yet confirmed",
+    fLi:"LinkedIn connection — you confirmed the match",
+    fMate:"In your INSEAD network — a shared school; you may not know each other yet", fImp:"In your imported contacts — match not yet confirmed",
     lKnown:"You confirmed they know each other (private to you)",
     lFamily:"Public family record: {label}", lBoard:"Both currently on the board of {org}",
     lColl:"Both currently at {org}", lCollWhy:"Same employer does not show that they know each other",
@@ -4971,7 +4983,7 @@ const IPT = {
     alOnMap:"on this map", alElse:"on other country maps", alUnique:"in the circle",
     alSrc:"{dir} from the shared GEMBA address book · {p} from official bios · {m} members",
     alPoolNote:"From the shared INSEAD GEMBA address book",
-    alOverlay:"Whole map", alOnly:"My network only", alHide:"Hide on map", alShow:"Show on map", alRemove:"Remove layer",
+    alOverlay:"Normal view", alOnly:"Highlight my network", hlOn:"Highlight my network", hlOff:"Show the whole network normally", alHide:"Hide on map", alShow:"Show on map", alRemove:"Remove layer",
     alFilters:"Filters", alNoFilters:"none", alEdit:"Change in Try Premium",
     alCov:"Covers official public bios, members who added themselves and labeled fictional demo records — not every alumnus. A shared school does not mean people know each other.",
     alSearch:"Search the circle…", alDemoNote:"Fictional demo record — this person does not exist.",
@@ -4995,7 +5007,8 @@ const IPT = {
     privNote:"你的更正和意愿记录仅你可见，并会重新排序路径。",
     saved:"已私密保存——路径已更新",
     fMe:"你标记认识 {b}", fMeS:"你认识 {b}（{s}）",
-    fLi:"领英联系人——你已确认匹配", fImp:"在你导入的联系人中——匹配尚未确认",
+    fLi:"领英联系人——你已确认匹配",
+    fMate:"你的 INSEAD 人脉——同校，未必已经相识", fImp:"在你导入的联系人中——匹配尚未确认",
     lKnown:"你确认他们互相认识（仅你可见）",
     lFamily:"公开亲属记录：{label}", lBoard:"目前同在 {org} 董事会",
     lColl:"目前同在 {org}", lCollWhy:"同一雇主并不说明两人相识",
@@ -5030,7 +5043,7 @@ const IPT = {
     alOnMap:"在此地图", alElse:"在其他国家地图", alUnique:"圈内总数",
     alSrc:"{dir} 来自共享的 GEMBA 通讯录 · {p} 来自官方简介 · {m} 位成员",
     alPoolNote:"来自共享的 INSEAD GEMBA 通讯录",
-    alOverlay:"完整地图", alOnly:"仅我的人脉", alHide:"在地图上隐藏", alShow:"在地图上显示", alRemove:"移除图层",
+    alOverlay:"普通视图", alOnly:"突出我的人脉", hlOn:"突出我的人脉", hlOff:"恢复完整网络", alHide:"在地图上隐藏", alShow:"在地图上显示", alRemove:"移除图层",
     alFilters:"筛选", alNoFilters:"无", alEdit:"在试用高级版中修改",
     alCov:"涵盖官方公开简介、自行加入的成员和标注的虚构演示记录——并非全部校友。同校不代表相识。",
     alSearch:"搜索校友圈…", alDemoNote:"虚构演示记录——此人并不存在。",
@@ -5047,7 +5060,7 @@ function ipIndex(){
   if(!IPX){
     const people = {}, orgs = {}, family = [];
     nodes.forEach(n => {
-      if(n.layer) return;
+      if(n.layer && !n.alum && !n.alumOrg) return;           // your classmates and their organizations join the index
       if(n.kind === "inst") orgs[n.id] = {name:n.short || n.name};
       else if(n.kind === "person") people[n.id] = {name:n.name, roles:(n.roles || []).filter(r => byId[r[0]])
         .map(r => ({org:r[0], title:r[1] || "", type:r[2], v:r[3], former:!!r[4]}))};
@@ -5060,12 +5073,15 @@ function ipIndex(){
 }
 function ipStarts(){
   if(!ME) return [];
-  return ME.adj.filter(a => a.e.kind === "mine" && !a.n.layer).map(a => ({pid:a.n.id, conf:a.e.v === "demo" ? "me" : a.e.v, s:a.e.strength || ""}));
+  const out = ME.adj.filter(a => a.e.kind === "mine" && !a.n.layer).map(a => ({pid:a.n.id, conf:a.e.v === "demo" ? "me" : a.e.v, s:a.e.strength || ""}));
+  const known = new Set(out.map(x => x.pid));
+  nodes.forEach(n => { if(n.alum && n.kind === "person" && !known.has(n.id)) out.push({pid:n.id, conf:"alumni", s:""}); });   // classmates: a possible start, never "known"
+  return out;
 }
 const ipCls = l => l.status === "confirmed" ? "confirmed" : l.status === "inferred" ? "potential" : "unverified";
 function ipLinkText(l){
   const IT = ipT(), org = esc((l.orgNames || [])[0] || ""), b = esc(l.to && byId[l.to] ? byId[l.to].name : "");
-  if(l.first) return l.type === "linkedin" ? IT.fLi : l.type === "imported" ? IT.fImp
+  if(l.first) return l.type === "classmate" ? IT.fMate : l.type === "linkedin" ? IT.fLi : l.type === "imported" ? IT.fImp
                    : l.strength ? fmt(IT.fMeS, {b, s:IT[l.strength] || l.strength}) : fmt(IT.fMe, {b});
   if(l.type === "known") return IT.lKnown;
   if(l.type === "family") return fmt(IT.lFamily, {label:esc(l.label || "")});
@@ -5254,48 +5270,126 @@ const alNorm = s => String(s || "").toLowerCase().replace(/\([^)]*\)/g, "").repl
 function alumApply(){
   if(!ALUM) return;
   nodes.forEach(n => { if(!n.layer) n.alum = null; });
-  ALUM.ctx = null; ALUM.here = []; ALUM.away = [];
+  ALUM.here = []; ALUM.away = [];
+  IPX = null;                                            // routes see your classmates
   if(!ALUM.on) return;
-  const F = ALUM.filters || {}, region = Personal.REGION, school = byId.insead;
+  const F = ALUM.filters || {}, region = Personal.REGION;
   const recs = ALUM.recs.filter(r => ["country", "city", "industry", "org"].every(k => !F[k] || r[k] === F[k])
                                     && (!F.cohort || (r.cohort || r.program) === F.cohort));
-  const inst = {};
-  nodes.forEach(n => { if(n.kind === "inst" && !n.layer){ inst[alNorm(n.name)] = n; inst[alNorm(n.short)] = n; } });
-  const ctx = new Set();
-  const addCtx = n => { ctx.add(n); n.adj.forEach(a => { if(a.n.kind === "inst" && !a.e.former) ctx.add(a.n); }); };
   if(ALUM.hidden){ recs.forEach(r => ALUM.here.push({r, n:null})); return; }
-  /* your network: "You" beside the map, your classmates gathered around you (pinned, so the
-     physics never drags them into the public graph); employers on the map are linked as context */
-  if(!ME){
-    let mx = 0;
-    nodes.forEach(n => { if(!n.layer) mx = Math.max(mx, Math.abs(n.x), Math.abs(n.y)); });
-    ME = layerNode({id:"__me", kind:"me", name:t().you, short:t().you, sector:"__me", tier:3, power:74, radius:10, roles:[], demo:false,
-                    x:mx + 360, y:0, born:0});
-  }
-  const sec = school ? school.sector : (nodes.find(n => n.kind === "inst" && !n.layer) || {}).sector;
-  let k = 0;
-  recs.forEach(r => {
-    const org = inst[alNorm(r.org)];
-    let n = r.source === "public" && r.region === region ? byId[r.nodeId] : null;
-    if(!n){
-      k++;
-      const ang = k * 2.39996, rad = 48 + 9.5 * Math.sqrt(k);
-      const IT = ipT(), who = [r.title, r.org].filter(Boolean).join(" · "), cls = [r.program, r.cohort].filter(Boolean).join(" ");
-      n = layerNode({id:"__al_" + r.id, kind:"person", name:r.name, short:r.name, sector:org ? org.sector : sec, tier:3, power:50,
-        roles:org ? [[org.id, r.title || "", "executive", "ns"]] : [], demo:!!r.fictional,
-        note:[who, cls, r.fictional ? IT.alDemoNote : r.source === "member" ? IT.alMemberNote : r.source === "public" ? IT.pub : IT.alPoolNote].filter(Boolean).join(" — "),
-        x:ME.x + Math.cos(ang) * rad, y:ME.y + Math.sin(ang) * rad, radius:4.6});
-      n.fixed = true;
-      if(org) layerEdge({s:n, t:org, kind:"role", label:r.title || "", v:"ns", former:false, alum:true, demo:!!r.fictional});
+  /* indexes of the public graph */
+  const inst = {}, people = {};
+  let maxR = 0;
+  nodes.forEach(n => {
+    if(n.layer) return;
+    maxR = Math.max(maxR, Math.hypot(n.x, n.y));
+    if(n.kind === "inst"){
+      [n.name, n.short, n.id.replace(/_/g, " ")].forEach(v => alOrgKeys(v).forEach(k => { if(!inst[k]) inst[k] = n; }));
+      const a = alAcr(n.name); if(a.length >= 4 && !inst["#" + a]) inst["#" + a] = n;
     }
-    n.alum = r;                     // no line to "You": the cluster itself says these are your classmates
-    ALUM.here.push({r, n}); addCtx(n);
+    else if(n.kind === "person"){ const k = alKey(n.name); if(k) (people[k] = people[k] || []).push(n); }
   });
-  ctx.add(ME);
-  ALUM.ctx = ctx;
+  const findOrg = name => {
+    if(!name) return null;
+    for(const k of alOrgKeys(name)) if(inst[k]) return inst[k];
+    const a = alAcr(name); if(a.length >= 4 && inst[a]) return inst[a];   // "Abu Dhabi National Oil Company" -> ADNOC (short acronyms collide)
+    const c = alOrgKeys(name).pop(); if(c && inst["#" + c]) return inst["#" + c];   // "ADCB" -> Abu Dhabi Commercial Bank
+    return null;
+  };
+  const added = {}, perOrg = new Map();
+  const near = (o, extra) => {                           // a free spot beside an organization, fixed for good
+    const i = perOrg.get(o) || 0; perOrg.set(o, i + 1);
+    const ang = alHash(o.id) + i * 2.39996, rad = (o.layer ? 24 : 40) + (extra || 0) + 7 * Math.sqrt(i);
+    return {x:o.x + Math.cos(ang) * rad, y:o.y + Math.sin(ang) * rad};
+  };
+  recs.forEach(r => {
+    if(r.source === "public" && r.region !== region){ ALUM.away.push(r); return; }   // lives on their own country's map
+    let org = findOrg(r.org);
+    /* 1. the person is already on the map: reuse that node and its connections */
+    let n = r.source === "public" ? byId[r.nodeId] : null;
+    if(!n){
+      const c = people[alKey(r.name)];
+      if(c && c.length === 1){
+        const p = c[0], atOrg = org && (p.roles || []).some(x => x[0] === org.id);
+        if(atOrg || alKey(r.name).split(" ").length >= 3) n = p;
+      }
+    }
+    if(n){ n.alum = r; ALUM.here.push({r, n}); return; }
+    /* 2. unknown affiliation: listed, not forced onto the map */
+    if(!r.org){ ALUM.here.push({r, n:null}); return; }
+    /* 3. organization missing from the map: add it on the outer ring */
+    if(!org){
+      const k = alOrgKeys(r.org).pop() || alNorm(r.org);
+      org = added[k];
+      if(!org){
+        const ang = alHash(k), rad = maxR + 110 + (alHash(k + "r") % 1) * 90;
+        org = added[k] = layerNode({id:"__alo_" + k.replace(/\s+/g, "_").slice(0, 40), kind:"inst", name:r.org, short:r.org,
+          sector:"__alorg", tier:3, power:40, x:Math.cos(ang) * rad, y:Math.sin(ang) * rad, radius:5});
+        org.fixed = true; org.alumOrg = true;
+      }
+    }
+    /* 4. the person joins the graph beside their organization */
+    const pos = near(org);
+    const IT = ipT(), cls = [r.program, r.cohort].filter(Boolean).join(" ");
+    n = layerNode({id:"__al_" + r.id, kind:"person", name:r.name, short:r.name, sector:org.sector, tier:3, power:48,
+      roles:[[org.id, r.title || "", "executive", "ns"]], demo:!!r.fictional,
+      note:[cls, r.fictional ? IT.alDemoNote : r.source === "member" ? IT.alMemberNote : r.source === "public" ? IT.pub : IT.alPoolNote].filter(Boolean).join(" — "),
+      x:pos.x, y:pos.y, radius:4.4});
+    n.fixed = true; n.alum = r;
+    layerEdge({s:n, t:org, kind:"role", label:r.title || "", v:"ns", former:false, alum:true, demo:!!r.fictional});
+    ALUM.here.push({r, n});
+  });
+  /* "You" at the edge of the graph, linked to every classmate on the map */
+  const mates = ALUM.here.map(x => x.n).filter(Boolean);
+  if(!ME && mates.length){
+    let cx = 0, cy = 0;
+    mates.forEach(m => { cx += m.x; cy += m.y; });
+    cx /= mates.length; cy /= mates.length;
+    const d = Math.hypot(cx, cy);
+    const ux = d > 60 ? cx / d : 1, uy = d > 60 ? cy / d : 0;
+    ME = layerNode({id:"__me", kind:"me", name:t().you, short:t().you, sector:"__me", tier:3, power:74, radius:10, roles:[], demo:false,
+                    x:ux * (maxR + 230), y:uy * (maxR + 230), born:0});
+  }
+  if(ME) mates.forEach((m, i) => { if(!m.myDirect)
+    layerEdge({s:ME, t:m, kind:"alumni", me:true, alum:true, label:m.alum.cohort || m.alum.program || "", v:"ns", former:false}); });
 }
-function alumOnlyHides(n){
-  return !!(ALUM && ALUM.on && !ALUM.hidden && ALUM.mode === "only" && ALUM.ctx && !n.layer && !ALUM.ctx.has(n) && !n.myDirect);
+const AL_SUF = /(llc|co|company|corp|corporation|group|holding|holdings|pjsc|psc|bsc|inc|ltd|limited|plc|sa|ag|gmbh|kscp|saog|qpsc|the|b v|bv)/g;
+function alOrgKeys(s){
+  const n = alNorm(s), st = n.replace(AL_SUF, " ").replace(/\s+/g, " ").trim();
+  return [...new Set([n, st, st.replace(/ /g, "")].filter(x => x.length >= 2))];
+}
+function alAcr(s){
+  const w = alNorm(s).replace(AL_SUF, " ").split(/\s+/).filter(x => x && !["of", "and", "for", "de", "la", "al"].includes(x));
+  return w.length >= 3 ? w.map(x => x[0]).join("") : "";
+}
+function alKey(s){
+  return String(s || "").toLowerCase().replace(/\([^)]*\)/g, " ").replace(/[^a-z ]+/g, " ").split(/\s+/)
+    .filter(w => w.length > 1 && !["al", "el", "bin", "bint", "dr", "he", "hh", "sheikh", "sheikha", "eng", "mr", "mrs", "ms", "prof"].includes(w))
+    .sort().join(" ");
+}
+function alHash(s){ let h = 2166136261; for(const ch of String(s)){ h ^= ch.charCodeAt(0); h = Math.imul(h, 16777619); } return ((h >>> 0) % 6283) / 1000; }
+/* ---- "My Network" highlight: you, your contacts, your classmates and their organizations ---- */
+let MYHL = null;
+function computeMyHL(){
+  MYHL = null;
+  if(!ME) return;
+  const n = new Set([ME]), e = new Set();
+  const people = [];
+  ME.adj.forEach(a => { if(a.e.me){ n.add(a.n); e.add(a.e); if(a.n.kind === "person") people.push(a.n); } });
+  nodes.forEach(x => { if(x.alum && !n.has(x)){ n.add(x); people.push(x); } });
+  people.forEach(p => p.adj.forEach(a => {
+    if(a.n.kind === "inst" && !a.e.former && a.e.kind !== "pot"){ n.add(a.n); e.add(a.e); }
+  }));
+  MYHL = {n, e};
+}
+function setMyHL(on, persist){
+  S.myHL = !!on;
+  if(persist && ALUM && ALUM.on){
+    ALUM.mode = on ? "only" : "overlay";
+    alumApi("layers", "PUT", {alumni:{on:true, circle:ALUM.circle, mode:ALUM.mode, filters:ALUM.filters}});
+  }
+  computeVisible(); renderMapCtl();
+  if(myPanel.classList.contains("open")) renderMyPanel(true);
 }
 async function alumApi(p, method, body){
   let tk = null; try { tk = localStorage.getItem("pm2_token"); } catch(e){}
@@ -5314,9 +5408,10 @@ async function alumLoad(){
   if(!c){ ALUM = {on:false, can:false}; return; }
   ALUM = {on:true, can:true, mode:L.mode, filters:L.filters || {}, circle:L.circle, name:c.name, recs:c.records, counts:c.counts,
           hidden:(() => { try { return sessionStorage.getItem("nv_al_hide") === "1"; } catch(e){ return false; } })()};
+  S.myHL = ALUM.mode === "only";
   rebuildPersonal(false);
+  renderMapCtl();
   if(myPanel.classList.contains("open")) renderMyPanel(true);
-  alumFit();
 }
 /* frame you and your classmates */
 function alumFit(){
@@ -5336,7 +5431,7 @@ function alumHtml(){
   h += `<div class="mp-nums"><div><b>${ALUM.here.length}</b><span>${IT.alMates}</span></div></div>`
      + `<p class="plab">${esc(ALUM.name)} · ${fmt(IT.alSrc, {dir:c.directory || 0, p:c.public, m:c.members})}</p>`
      + `<div class="seg">` + [["overlay", IT.alOverlay], ["only", IT.alOnly]].map(([m, l]) =>
-         `<button type="button" data-al="mode" data-m="${m}" class="${ALUM.mode === m ? "on" : ""}" aria-pressed="${ALUM.mode === m}">${l}</button>`).join("") + `</div>`
+         `<button type="button" data-al="mode" data-m="${m}" class="${(m === "only") === !!S.myHL ? "on" : ""}" aria-pressed="${(m === "only") === !!S.myHL}">${l}</button>`).join("") + `</div>`
      + `<p class="plab">${IT.alFilters}: ${fl} · <a href="/premium.html">${IT.alEdit}</a></p>`
      + `<input class="mp-input" id="al-q" type="search" placeholder="${IT.alSearch}" autocomplete="off">`
      + `<div class="al-list" id="al-list">`
@@ -5361,10 +5456,8 @@ function wireAlum(){
 }
 async function alumAction(act, el){
   if(!ALUM || !ALUM.on) return;
-  if(act === "mode"){
-    ALUM.mode = el.getAttribute("data-m");
-    alumApi("layers", "PUT", {alumni:{on:true, circle:ALUM.circle, mode:ALUM.mode, filters:ALUM.filters}});
-  } else if(act === "hide"){
+  if(act === "mode"){ setMyHL(el.getAttribute("data-m") === "only", true); return; }
+  else if(act === "hide"){
     ALUM.hidden = !ALUM.hidden;
     try { sessionStorage.setItem("nv_al_hide", ALUM.hidden ? "1" : "0"); } catch(e){}
   } else if(act === "off"){
@@ -5373,7 +5466,6 @@ async function alumAction(act, el){
   }
   rebuildPersonal(false);
   renderMyPanel(true);
-  if(act === "mode"){ if(ALUM.mode === "only") alumFit(); else fitView(600); }
 }
 
 /* ================================================================

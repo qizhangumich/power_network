@@ -262,6 +262,26 @@ async function verify(email, token) {
     assert.strictEqual(st.mail, "outbox");
   });
 
+  await t("shared link: any verified email joins, capped, not usable unverified, non-admin can't create", async () => {
+    assert.strictEqual((await api("POST", "/api/admin/invites", { shared: true, max: 2 }, bob)).status, 403);
+    const r = await api("POST", "/api/admin/invites", { shared: true, max: 2 }, admin);
+    assert.strictEqual(r.status, 200); assert.strictEqual(r.body.max, 2);
+    const tok = new URL(r.body.link).searchParams.get("invite");
+    assert.strictEqual((await api("POST", "/api/invite/check", { token: tok })).body.shared, true);
+    const acct = async e => { const tk = await register(e); await verify(e, tk); return tk; };
+    const s1 = await acct("share1@test.example"), s2 = await acct("share2@other.example"), s3 = await acct("share3@test.example");
+    const raw = await register("share4@test.example");
+    assert.strictEqual((await api("POST", "/api/invite/redeem", { token: tok }, raw)).body.reason, "verify", "unverified refused");
+    assert.strictEqual((await api("POST", "/api/invite/redeem", { token: tok }, s1)).status, 200);
+    assert.strictEqual((await api("POST", "/api/invite/redeem", { token: tok }, s1)).status, 200, "same person again does not use a seat");
+    assert.strictEqual((await api("POST", "/api/invite/redeem", { token: tok }, s2)).status, 200);
+    assert.strictEqual((await api("POST", "/api/invite/redeem", { token: tok }, s3)).body.reason, "used", "cap enforced");
+    assert.strictEqual((await api("GET", C, null, s2)).status, 200);
+    assert.strictEqual((await api("GET", C, null, s3)).status, 403);
+    assert.strictEqual((await api("POST", "/api/invite/check", { token: tok })).body.state, "used");
+    assert.strictEqual((await api("GET", "/api/me", null, s2)).body.layers.alumni.on, true, "joining loads the network");
+  });
+
   await t("verified admin has access without an invitation", async () => {
     assert.strictEqual((await api("GET", C, null, admin)).status, 200);
   });

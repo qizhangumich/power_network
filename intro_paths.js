@@ -28,6 +28,7 @@
     known:    {cost:1.0, status:"confirmed"},   // user-confirmed acquaintance
     linkedin: {cost:1.1, status:"confirmed"},   // user-authorized LinkedIn connection
     imported: {cost:1.7, status:"verify"},      // in an imported list, identity/relationship unconfirmed
+    classmate:{cost:2.4, status:"verify"},      // same programme (shared alumni list) — not proof you know them
     family:   {cost:1.0, status:"confirmed"},   // public family record
     board:    {cost:1.6, status:"inferred"},    // both currently on the same board
     colleague:{cost:2.3, status:"inferred"},    // both currently at the same organization
@@ -118,7 +119,8 @@
 
   function firstLink(st){
     const conf = st.conf, s = st.s || "";
-    const type = conf === "lic" ? "linkedin" : conf === "auto" ? "imported" : "known";
+    const type = conf === "lic" ? "linkedin" : conf === "auto" ? "imported" : conf === "alumni" ? "classmate" : "known";
+    if(type === "classmate") return {type, status:"verify", cost:LINK.classmate.cost, first:true, orgs:[]};
     let cost = FIRST[s] != null ? FIRST[s] : (type === "known" ? 0.8 : type === "linkedin" ? 0.9 : 1.6);
     const status = type === "imported" && !s ? "verify" : "confirmed";
     return {type, status, cost, strength:s, first:true, orgs:[]};
@@ -166,7 +168,7 @@
       const a = chain[i], b = chain[i + 1];
       const gap = l.status === "confirmed" ? null
         : l.type === "colleague" ? "colleague" : l.type === "board" ? "board"
-        : l.type === "alumni" ? "alumni" : l.type === "imported" ? "imported" : "record";
+        : l.type === "alumni" ? "alumni" : l.type === "classmate" ? "classmate" : l.type === "imported" ? "imported" : "record";
       return Object.assign({}, l, {from:a, to:b,
         orgNames:(l.orgs || []).map(o => ix.orgs[o] ? ix.orgs[o].name : o),
         dates:(l.titles || []).map(dates).filter(Boolean),
@@ -174,7 +176,7 @@
         gap});
     });
     const unconfirmed = L.filter(l => l.status !== "confirmed").length;
-    const hasAlumni = L.some(l => l.type === "alumni");
+    const hasAlumni = L.some(l => l.type === "alumni" || l.type === "classmate");
     let weakest = 0;
     L.forEach((l, i) => { if(l.cost > L[weakest].cost) weakest = i; });
     const label = unconfirmed === 0 ? "better"
@@ -208,7 +210,7 @@
     const troles = (ix.people[target].roles || []).filter(r => r.type !== "alumni");
     if(troles.length && troles.every(r => r.former)) notes.push({code:"targetHistorical"});
     const starts = (opts.starts || []).filter(s => ix.people[s.pid] && s.pid !== target);
-    const direct = (opts.starts || []).find(s => s.pid === target);
+    const direct = (opts.starts || []).find(s => s.pid === target && s.conf !== "alumni");   // a classmate is not someone you know
     if(direct) return {status:"direct", start:direct, notes};
     if(!starts.length) return {status:"noStart", notes, discovery:discover(ix, target, ev)};
 

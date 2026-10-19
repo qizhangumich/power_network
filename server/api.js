@@ -298,9 +298,10 @@ http.createServer((req, res) => {
     return body(b => {
       const inv = Object.values(cdb.invites).find(i => eqHash(i.hash, sha(b.token || "")));
       if (!inv) return send(res, 404, { state: "invalid", error: "this invitation link is not valid" });
-      const state = inv.revoked ? "revoked" : inv.usedAt ? "used" : inv.exp < Date.now() ? "expired" : "valid";
+      const full = inv.email === "*" ? inv.uses.length >= inv.max : !!inv.usedAt;
+      const state = inv.revoked ? "revoked" : full ? "used" : inv.exp < Date.now() ? "expired" : "valid";
       return send(res, 200, { state, circle: CIRCLES[inv.circle] ? CIRCLES[inv.circle].name : inv.circle,
-                              email: maskEmail(inv.email), exp: inv.exp });
+                              email: inv.email === "*" ? "" : maskEmail(inv.email), shared: inv.email === "*", exp: inv.exp });
     });
   }
 
@@ -385,11 +386,19 @@ http.createServer((req, res) => {
       if (!inv) return send(res, 404, { reason: "invalid", error: "this invitation link is not valid" });
       if (inv.revoked) return send(res, 410, { reason: "revoked", error: "this invitation was withdrawn" });
       if (inv.exp < Date.now()) return send(res, 410, { reason: "expired", error: "this invitation has expired — ask for a new one" });
-      if (inv.email !== a.email) return send(res, 403, { reason: "wrong_email", error: "this invitation is for a different email address" });
-      if (inv.usedAt && inv.usedBy !== a.email) return send(res, 410, { reason: "used", error: "this invitation was already used" });
+      if (inv.email === "*") {
+        if (!inv.uses.includes(a.email)) {
+          if (inv.uses.length >= inv.max) return send(res, 410, { reason: "used", error: "this invitation link has reached its limit — ask for a new one" });
+          inv.uses.push(a.email);
+        }
+        inv.usedAt = inv.usedAt || Date.now();
+      } else {
+        if (inv.email !== a.email) return send(res, 403, { reason: "wrong_email", error: "this invitation is for a different email address" });
+        if (inv.usedAt && inv.usedBy !== a.email) return send(res, 410, { reason: "used", error: "this invitation was already used" });
+        inv.usedAt = inv.usedAt || Date.now(); inv.usedBy = a.email;
+      }
       cdb.members[a.email] = cdb.members[a.email] || {};
       if (!cdb.members[a.email][inv.circle]) cdb.members[a.email][inv.circle] = { since: Date.now(), via: "invitation", invite: inv.id };
-      inv.usedAt = inv.usedAt || Date.now(); inv.usedBy = a.email;
       saveC();
       /* the invitation loads the circle straight into this person's map: just them and their classmates */
       if (!(a.user.layers && a.user.layers.alumni && a.user.layers.alumni.circle === inv.circle)) {
@@ -496,14 +505,17 @@ http.createServer((req, res) => {
     const what = seg[2];
     if (what === "invites" && req.method === "POST") {
       return body(b => {
-        const email = str(b.email, 254).toLowerCase(), c = str(b.circle || "insead-emba", 40);
-        if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return send(res, 400, { error: "invalid email" });
+        const shared = !!b.shared, c = str(b.circle || "insead-emba", 40);
+        const email = shared ? "*" : str(b.email, 254).toLowerCase();
+        if (!shared && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return send(res, 400, { error: "invalid email" });
         if (!CIRCLES[c]) return send(res, 400, { error: "unknown circle" });
         const days = Math.max(1, Math.min(30, +b.days || 7));
         const token = rnd(24), id = rnd(6);
         cdb.invites[id] = { id, hash: sha(token), email, circle: c, created: Date.now(), exp: Date.now() + days * 864e5, by: a.email };
+        /* a shared link: anyone with a verified account may join, up to max people */
+        if (shared) Object.assign(cdb.invites[id], { max: Math.max(1, Math.min(50, +b.max || 5)), uses: [] });
         saveC();
-        return send(res, 200, { id, email, circle: c, exp: cdb.invites[id].exp, link: `${BASE}/premium.html?invite=${token}` });
+        return send(res, 200, { id, email, circle: c, exp: cdb.invites[id].exp, max: cdb.invites[id].max, link: `${BASE}/premium.html?invite=${token}` });
       });
     }
     if (what === "invites" && req.method === "GET")

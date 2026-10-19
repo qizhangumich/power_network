@@ -158,6 +158,14 @@ code{font-size:12px;word-break:break-all;color:var(--ink-soft)}
   <!-- admin -->
   <section class="card hide" id="c-admin">
     <h2>Admin — invitations</h2>
+    <h3 style="margin-top:6px">Shareable link (WhatsApp etc.)</h3>
+    <p>One link for a small group: anyone who opens it and verifies their own email joins, until the limit is reached.</p>
+    <div class="row">
+      <select id="sh-max" style="max-width:150px"><option value="3">up to 3 people</option><option value="5" selected>up to 5 people</option><option value="10">up to 10 people</option></select>
+      <select id="sh-days" style="max-width:130px"><option value="7">7 days</option><option value="14" selected>14 days</option><option value="30">30 days</option></select>
+      <button class="btn primary" id="sh-go">Create shareable link</button>
+    </div>
+    <h3>Personal link (one email)</h3>
     <p>Create a link for one person's email, then send it yourself. Nothing is emailed automatically. Links are single-use and expire.</p>
     <div class="row">
       <input id="ad-em" type="email" placeholder="classmate@example.com" style="flex:2;min-width:200px">
@@ -239,7 +247,8 @@ function render(has){
       ? INV.err + (INV.reason === "wrong_email" ? ` — it was sent to ${INV.email}. Sign out and use that address.` : ".")
       : "This network is invitation-only. Open the invitation link you received, signed in with the same email.", "err");
   if(INV && INV.state && !ME) msg("a-msg", INV.state === "valid"
-      ? `You've been invited to the ${INV.circle} (for ${INV.email}). Create an account with that email, or sign in.`
+      ? (INV.shared ? `You've been invited to the ${INV.circle}. Create an account with your own email, or sign in.`
+                    : `You've been invited to the ${INV.circle} (for ${INV.email}). Create an account with that email, or sign in.`)
       : "This invitation link is " + (INV.state === "invalid" ? "not valid" : INV.state) + ".", INV.state === "valid" ? "ok" : "err");
 }
 
@@ -412,8 +421,9 @@ async function loadAdmin(){
   try {
     const [inv, cl, st, fb] = await Promise.all(["invites", "claims", "stats", "feedback"].map(x => api("admin/" + x)));
     $("ad-inv").innerHTML = inv.invites.length ? `<table><tr><th>Email</th><th>Status</th><th>Expires</th><th></th></tr>` + inv.invites.sort((a, b) => b.created - a.created).map(i => {
-      const s = i.revoked ? "revoked" : i.usedAt ? "used " + day(i.usedAt) : i.exp < Date.now() ? "expired" : "open";
-      return `<tr><td>${esc(i.email)}</td><td>${s}</td><td>${day(i.exp)}</td><td>${s === "open" ? `<button class="btn sm danger" data-rv="${esc(i.id)}">Revoke</button>` : ""}</td></tr>`;
+      const sh = i.email === "*", full = sh ? i.uses.length >= i.max : !!i.usedAt;
+      const s = i.revoked ? "revoked" : i.exp < Date.now() ? "expired" : full ? (sh ? "full" : "used " + day(i.usedAt)) : "open";
+      return `<tr><td>${sh ? `Shareable · ${i.uses.length}/${i.max} joined${i.uses.length ? `<br><span class="fine">${i.uses.map(esc).join(", ")}</span>` : ""}` : esc(i.email)}</td><td>${s}</td><td>${day(i.exp)}</td><td>${s === "open" ? `<button class="btn sm danger" data-rv="${esc(i.id)}">Revoke</button>` : ""}</td></tr>`;
     }).join("") + `</table>` : `<p class="fine">None yet.</p>`;
     $("ad-cl").innerHTML = cl.claims.length ? `<table>` + cl.claims.map(c => `<tr><td>${day(c.at)}</td><td>${esc(c.email)}</td><td>claims <b>${esc(c.recordName)}</b></td><td>${c.status === "pending"
       ? `<button class="btn sm" data-ap="${esc(c.id)}">Approve</button> <button class="btn sm danger" data-rj="${esc(c.id)}">Reject</button>` : esc(c.status)}</td></tr>`).join("") + `</table>` : `<p class="fine">None.</p>`;
@@ -439,6 +449,16 @@ $("ad-go").onclick = async () => {
     $("ad-link").innerHTML = `<div class="notice info">Link for <b>${esc(j.email)}</b>, expires ${day(j.exp)}. Shown once — copy it now and send it yourself.<br>
       <code>${esc(j.link)}</code><div class="row" style="margin-top:6px"><button class="btn sm" data-cp="${esc(j.link)}">Copy link</button></div></div>`;
     $("ad-em").value = ""; msg("ad-msg", ""); loadAdmin();
+  } catch(e){ msg("ad-msg", e.message, "err"); }
+};
+
+$("sh-go").onclick = async () => {
+  try {
+    const j = await api("admin/invites", "POST", {shared: true, max: +$("sh-max").value, days: +$("sh-days").value, circle: CIRCLE});
+    $("ad-link").innerHTML = `<div class="notice info">Shareable link for up to <b>${j.max}</b> people, expires ${day(j.exp)}. Shown once — copy it now.<br>
+      <code>${esc(j.link)}</code><div class="row" style="margin-top:6px"><button class="btn sm" data-cp="${esc(j.link)}">Copy link</button>
+      <a class="btn sm" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent("Join my INSEAD GEMBA network on NavGCC: " + j.link)}">Share on WhatsApp</a></div></div>`;
+    msg("ad-msg", ""); loadAdmin();
   } catch(e){ msg("ad-msg", e.message, "err"); }
 };
 
