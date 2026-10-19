@@ -85,16 +85,16 @@ code{font-size:12px;word-break:break-all;color:var(--ink-soft)}
     <div class="who"><div class="row" style="justify-content:flex-end"><a class="btn sm" id="back" href="/abudhabi/">← Back to map</a><a class="btn sm primary hide" id="mynet" href="/abudhabi/?mynet=1">Open my network</a></div><div id="who" style="margin-top:6px"></div></div>
   </header>
 
-  <h1>Try Premium — classmate circle pilot</h1>
-  <p class="lead">See your alumni circle as a layer on the NavGCC map, filter it, and put yourself on it on your own terms.</p>
-  <p class="fine">Free demo during the pilot — no payment, no card, nothing renews. An independent NavGCC feature; not affiliated with or endorsed by INSEAD.</p>
+  <h1>INSEAD GEMBA network</h1>
+  <p class="lead">Open your invitation link, create your account and verify your email — your classmates are then added to your map.</p>
+  <p class="fine">A shared school does not mean two people know each other. Free during the pilot — no payment, no card, nothing renews. An independent NavGCC feature; not affiliated with or endorsed by INSEAD.</p>
   <div class="steps" id="steps"></div>
 
   <div id="flash" class="msg"></div>
 
   <!-- 1. account -->
   <section class="card hide" id="c-acct">
-    <h2>1 · Create your account or sign in</h2>
+    <h2>Create your account or sign in</h2>
     <p>Use the email you want classmates to know you by. It must be an inbox you can open — we send a code to it.</p>
     <div class="grid">
       <label class="f">Email<input id="a-em" type="email" autocomplete="username"></label>
@@ -109,7 +109,7 @@ code{font-size:12px;word-break:break-all;color:var(--ink-soft)}
 
   <!-- 2. verify -->
   <section class="card hide" id="c-ver">
-    <h2>2 · Verify your email</h2>
+    <h2>Verify your email</h2>
     <p id="v-txt"></p>
     <div class="row">
       <input id="v-code" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="6-digit code" style="max-width:160px">
@@ -119,27 +119,11 @@ code{font-size:12px;word-break:break-all;color:var(--ink-soft)}
     <div class="msg" id="v-msg"></div>
   </section>
 
-  <!-- 3. access -->
-  <section class="card hide" id="c-acc">
-    <h2>3 · Join the circle</h2>
-    <div id="acc-body"></div>
-    <div class="msg" id="acc-msg"></div>
-  </section>
-
   <!-- 4. preview + add to map -->
   <section class="card hide" id="c-prev">
-    <h2>4 · Preview and add to My Network</h2>
-    <p>This adds the circle as a layer on your own map. It changes only your view — nothing is copied into your contacts and no one is notified.</p>
-    <div class="notice info">
-      Coverage: people whose <b>official public bios</b> state an INSEAD programme (any programme, not only EMBA), members who added themselves,
-      and clearly labeled <b>fictional demo</b> records. It is <b>not</b> a complete list of INSEAD alumni.
-      A shared school does not mean two people know each other, and listed people are not necessarily NavGCC members or available to help.
-    </div>
+    <h2>Your INSEAD GEMBA network</h2>
+    <p>It is on your map now. Open My Network to see your classmates; search or filter them below.</p>
     <div class="counts" id="p-counts"></div>
-    <div class="row" style="margin:6px 0 4px">
-      <label class="fine"><input type="radio" name="mode" value="overlay" checked>Overlay on the full map</label>
-      <label class="fine"><input type="radio" name="mode" value="only">Alumni only</label>
-    </div>
     <div class="filters">
       <select id="f-country"></select><select id="f-city"></select><select id="f-industry"></select>
       <select id="f-org"></select><select id="f-cohort"></select><input id="f-q" placeholder="Search name, role…">
@@ -147,8 +131,8 @@ code{font-size:12px;word-break:break-all;color:var(--ink-soft)}
     <div class="fine" id="p-shown"></div>
     <div class="list" id="p-list"></div>
     <div class="row" style="margin-top:12px">
-      <button class="btn primary" id="p-add">Add to My Network</button>
-      <a class="btn" id="p-open" href="/abudhabi/?mynet=1">Open my network</a>
+      <a class="btn primary" id="p-open" href="/abudhabi/?mynet=1">Open my network</a>
+      <button class="btn hide" id="p-add">Show on my map</button>
       <button class="btn danger hide" id="p-rm">Remove the layer</button>
     </div>
     <div class="msg" id="p-msg"></div>
@@ -169,15 +153,6 @@ code{font-size:12px;word-break:break-all;color:var(--ink-soft)}
       <button class="btn danger hide" id="me-del">Withdraw my profile</button>
     </div>
     <div class="msg" id="me-msg"></div>
-  </section>
-
-  <!-- feedback -->
-  <section class="card hide" id="c-fb">
-    <h2>Feedback</h2>
-    <p>What worked, what didn't, what you'd want next. Goes only to the founder.</p>
-    <textarea id="fb-t" maxlength="2000"></textarea>
-    <div class="row" style="margin-top:8px"><button class="btn" id="fb-go">Send feedback</button></div>
-    <div class="msg" id="fb-msg"></div>
   </section>
 
   <!-- admin -->
@@ -238,7 +213,11 @@ async function refresh(){
   const inv = ss.get("nv_invite");
   if(inv && !INV) try { INV = await api("invite/check", "POST", {token: inv}); } catch(e){ INV = {state: "invalid"}; }
   if(ME && ME.verified && inv && INV && INV.state !== "invalid" && !ME.circles.includes(CIRCLE)){
-    try { await api("invite/redeem", "POST", {token: inv}); ss.del("nv_invite"); ME = await api("me"); msg("flash", "Invitation accepted — welcome to the circle.", "ok"); }
+    try {
+      await api("invite/redeem", "POST", {token: inv}); ss.del("nv_invite");
+      await api("layers", "PUT", {alumni: {on: true, circle: CIRCLE, mode: "overlay", filters: {}}});
+      ME = await api("me"); msg("flash", "Welcome — the INSEAD GEMBA network is on your map.", "ok");
+    }
     catch(e){ INV.err = e.message; INV.reason = e.body && e.body.reason; }
   }
   const has = !!(ME && ME.circles.includes(CIRCLE));
@@ -248,16 +227,18 @@ async function refresh(){
 }
 
 function render(has){
-  const st = !ME ? 0 : !ME.verified ? 1 : !has ? 2 : 3;
-  const names = ["Account", "Verify email", "Join circle", "Add to My Network"];
+  const st = !ME ? 0 : !ME.verified ? 1 : 2;
+  const names = ["Create account", "Verify email", "Your network"];
   $("steps").innerHTML = names.map((n, i) => `<span class="${i < st ? "done" : i === st ? "cur" : ""}">${i < st ? "✓ " : ""}${n}</span>`).join("");
   $("who").innerHTML = ME ? `${esc(ME.email)}${ME.verified ? "" : " (unverified)"}<button class="btn sm" id="out">Sign out</button>` : "";
   if(ME) $("out").onclick = signOut;
   show("mynet", !!ME);
-  show("c-acct", st === 0); show("c-ver", st === 1); show("c-acc", st === 2);
-  show("c-prev", st === 3); show("c-me", st === 3); show("c-fb", !!(ME && ME.verified)); show("c-admin", !!(ME && ME.admin && ME.verified));
+  show("c-acct", st === 0); show("c-ver", st === 1);
+  show("c-prev", has); show("c-me", has); show("c-admin", !!(ME && ME.admin && ME.verified));
   if(st === 1) renderVerify();
-  if(st === 2) renderAccess();
+  if(st === 2 && !has) msg("flash", INV && INV.err
+      ? INV.err + (INV.reason === "wrong_email" ? ` — it was sent to ${INV.email}. Sign out and use that address.` : ".")
+      : "This network is invitation-only. Open the invitation link you received, signed in with the same email.", "err");
   if(INV && INV.state && !ME) msg("a-msg", INV.state === "valid"
       ? `You've been invited to the ${INV.circle} (for ${INV.email}). Create an account with that email, or sign in.`
       : "This invitation link is " + (INV.state === "invalid" ? "not valid" : INV.state) + ".", INV.state === "valid" ? "ok" : "err");
@@ -311,16 +292,6 @@ async function linkVerify(){
   catch(e){ msg("flash", e.message, "err"); }
 }
 
-/* ---------- 3. access ---------- */
-function renderAccess(){
-  let h;
-  if(INV && INV.err){
-    h = `<p>${esc(INV.err)}.</p>` + (INV.reason === "wrong_email" ? `<p>The invitation was sent to <b>${esc(INV.email)}</b>. Sign out and use that address, or ask the founder for a new link.</p>` : "");
-  } else {
-    h = `<p>The circle is <b>invitation-only</b> during the pilot. Open the personal invitation link you received, signed in with the same email it was sent to.</p>`;
-  }
-}
-
 /* ---------- 4. preview ---------- */
 const FKEYS = [["country", "All countries"], ["city", "All cities"], ["industry", "All industries"], ["org", "All organizations"], ["cohort", "All cohorts / programmes"]];
 const cohortOf = r => r.cohort || r.program || "";
@@ -334,7 +305,6 @@ async function loadCircle(){
     const vals = [...new Set(CIR.records.map(r => k === "cohort" ? cohortOf(r) : r[k]).filter(Boolean))].sort();
     $("f-" + k).innerHTML = `<option value="">${all}</option>` + vals.map(v => `<option${v === F[k] ? " selected" : ""}>${esc(v)}</option>`).join("");
   });
-  if(L && L.mode) document.querySelector(`input[name=mode][value=${L.mode}]`).checked = true;
   layerButtons();
   drawList();
   renderMe();
@@ -357,13 +327,12 @@ $("f-q").oninput = drawList;
 function layerButtons(){
   const on = !!(ME.layers && ME.layers.alumni && ME.layers.alumni.on);
   { const a = $("mynet"); $("p-open").href = a.href; }
-  $("p-add").textContent = on ? "Update the layer" : "Add to My Network";
+  show("p-add", !on);
   show("p-rm", on);
 }
 $("p-add").onclick = async () => {
-  const mode = document.querySelector("input[name=mode]:checked").value;
   try {
-    const j = await api("layers", "PUT", {alumni: {on: true, circle: CIRCLE, mode, filters: filters()}});
+    const j = await api("layers", "PUT", {alumni: {on: true, circle: CIRCLE, mode: "overlay", filters: {}}});
     ME.layers = j.layers; layerButtons();
     msg("p-msg", "Added. Open the map and look for the alumni layer in My Network.", "ok");
   } catch(e){ msg("p-msg", e.message, "err"); }
@@ -435,12 +404,6 @@ $("me-del").onclick = async () => {
   if(!confirm("Withdraw your profile from the circle? Other members will no longer see it.")) return;
   try { await api("circle/" + CIRCLE + "/profile", "DELETE"); CIR.me = null; renderMe(); msg("me-msg", "Withdrawn.", "ok"); }
   catch(e){ msg("me-msg", e.message, "err"); }
-};
-
-/* ---------- feedback ---------- */
-$("fb-go").onclick = async () => {
-  try { await api("feedback", "POST", {text: $("fb-t").value}); $("fb-t").value = ""; msg("fb-msg", "Thank you — received.", "ok"); }
-  catch(e){ msg("fb-msg", e.message, "err"); }
 };
 
 /* ---------- admin ---------- */
