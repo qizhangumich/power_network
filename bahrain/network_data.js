@@ -168,6 +168,7 @@ const INSTITUTIONS = [
   {id:"council_of_reps", n:"Council of Representatives", s:"gov", t:1, p:70, short:"Council of Reps"},
   {id:"benefit", n:"BENEFIT (The Benefit Company)", s:"finance", t:2, p:62, short:"BENEFIT"},
   {id:"bdf_hospital", n:"Bahrain Defence Force Royal Medical Services", s:"health", t:2, p:56, short:"BDF Hospital"},
+  {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
 ];
 
 const PEOPLE = [
@@ -314,6 +315,7 @@ const PEOPLE = [
   {id:"roselyne_renel", n:"Roselyne Renel", t:2, p:52, s:"materials", roles:[
     ["alba","Board Member","board","v"]]},
   {id:"omar_syed", n:"Omar Syed", t:2, p:52, s:"materials", roles:[
+    ["insead","International Board and Governance Certification (IDP-C)","alumni","v"],
     ["ghitha_bahrain","Board Member","board","v"],
     ["alba","Board Member","board","v"]]},
   {id:"ahmed_al_shaikh", n:"Ahmed Al Shaikh", t:2, p:52, s:"materials", roles:[
@@ -1838,6 +1840,7 @@ const PEOPLE = [
   {id:"fawzi_abdulla_nass", n:"Fawzi Abdulla Nass", t:2, p:52, s:"industry", roles:[
     ["lst_nass","Director","board","v"]]},
   {id:"hisham_al_saie", n:"Hisham Al Saie", t:2, p:52, s:"industry", roles:[
+    ["insead","Young Managers Programme (executive)","alumni","v"],
     ["lst_nass","Director","board","v"]]},
   {id:"mustafa_al_sayed", n:"Mustafa Al Sayed", t:2, p:52, s:"industry", roles:[
     ["lst_nass","Director","board","v"]]},
@@ -3595,4 +3598,5 @@ const AKA = {
   council_of_reps:["Chamber of Deputies","Majlis Al-Nuwab","House of Representatives","Parliament of Bahrain"],
   benefit:["Benefit Company;Benefit Trade Finance Registry;Trade Finance Registry;BenefitPay;GCCNet;EFTS","The Benefit Company"],
   bdf_hospital:["BDFRMS","Bahrain Royal Medical Services"],
+  insead:["European Institute of Business Administration"],
 };

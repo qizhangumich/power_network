@@ -235,6 +235,7 @@ const INSTITUTIONS = [
   {id:"al_koot_insurance", n:"Al Koot Insurance and Reinsurance Company", s:"finance", t:3, p:56, short:"Al Koot Insurance"},
   {id:"qatar_biobank", n:"Qatar Biobank", s:"health", t:3, p:54, short:"Qatar Biobank"},
   {id:"qatar_steel", n:"Qatar Steel Company (QASCO)", s:"materials", t:2, p:58, short:"Qatar Steel"},
+  {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
 ];
 
 const PEOPLE = [
@@ -2095,6 +2096,9 @@ const PEOPLE = [
     ["qatar_biobank","Vice Chairperson of the Board of Trustees","board","v"]]},
   {id:"nahla_maher_al", n:"Nahla Maher Al Afifi", t:2, p:58, s:"health", roles:[
     ["qatar_biobank","Director","executive","v"]]},
+  {id:"antonio_gamez_munoz", n:"Antonio Gamez Munoz", t:2, p:58, s:"finance", roles:[
+    ["cbq","EGM, Chief Risk Officer","executive","v"],
+    ["insead","International Executive Development Programme (post-degree in management)","alumni","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2321,4 +2325,5 @@ const AKA = {
   aspetar:["Aspetar Orthopaedic and Sports Medicine Hospital"],
   al_koot_insurance:["Al Koot"],
   qatar_steel:["QASCO"],
+  insead:["European Institute of Business Administration"],
 };

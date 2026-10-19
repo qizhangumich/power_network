@@ -47,6 +47,8 @@ def power_for(rows):
     when their company is focused or 'Board & staff level' is on."""
     p = 0
     for r in rows:
+        if r["role_type"] == "alumni":
+            continue                # a degree is not a position — no power from it
         t = " " + r["title"].lower() + " "
         if r["role_type"] == "board":
             p = max(p, 52)
@@ -73,7 +75,7 @@ def main():
                 if reg not in REGION_DIR or not (r.get("person_name") or "").strip():
                     continue
                 r = {k: (v or "").strip() for k, v in r.items()}
-                if r["role_type"] not in ("board", "executive"): r["role_type"] = "board"
+                if r["role_type"] not in ("board", "executive", "alumni"): r["role_type"] = "board"
                 if r["verification"] not in ("v", "ns"): r["verification"] = "ns"
                 rows_by_region.setdefault(reg, []).append(r)
 

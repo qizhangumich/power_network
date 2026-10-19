@@ -244,6 +244,7 @@ const INSTITUTIONS = [
   {id:"national_assembly", n:"National Assembly", s:"gov", t:1, p:72, short:"National Assembly"},
   {id:"mk", n:"AlMudhaf & AlKulaib Group (MK Group)", s:"conglomerate", t:3, p:55, short:"MK Group"},
   {id:"jaber_hospital", n:"Jaber Al-Ahmad Al-Sabah Hospital", s:"health", t:2, p:58, short:"Jaber Hospital"},
+  {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
 ];
 
 const PEOPLE = [
@@ -422,6 +423,7 @@ const PEOPLE = [
     ["lst_kib","Vice-Chairman and Chief Executive Officer","board","v"],
     ["boursa","Board Member","board","v"]]},
   {id:"dalal_jafaar_behbehani", n:"Dalal Jafaar Behbehani", t:2, p:52, s:"finance", roles:[
+    ["insead","MBA","alumni","ns"],
     ["boursa","Independent Board Member","board","v"]]},
   {id:"mohammad_saud_al", n:"Mohammad Saud Al-Osaimi", t:2, p:58, s:"finance", roles:[
     ["boursa","Chief Executive Officer","executive","v"]]},
@@ -561,6 +563,7 @@ const PEOPLE = [
   {id:"ali_alfaras", n:"Ali AlFaras", t:2, p:58, s:"finance", roles:[
     ["gulfbank","Chief Internal Auditor","executive","v"]]},
   {id:"faisal_algharabally", n:"Faisal AlGharabally", t:2, p:46, s:"finance", roles:[
+    ["insead","Executive MBA","alumni","v"],
     ["gulfbank","General Manager Corporate and International Banking","executive","v"]]},
   {id:"lamia_karam", n:"Lamia Karam", t:2, p:46, s:"finance", roles:[
     ["gulfbank","General Manager Treasury","executive","v"]]},
@@ -1119,6 +1122,7 @@ const PEOPLE = [
   {id:"fahad_sulaiman_aldalali", n:"Fahad Sulaiman Aldalali", t:2, p:52, s:"finance", roles:[
     ["lst_markaz","Board Member","board","ns"]]},
   {id:"ali_h_khalil", n:"Ali H. Khalil", t:2, p:60, s:"finance", roles:[
+    ["insead","MBA","alumni","v"],
     ["lst_markaz","Chief Executive Officer","executive","ns"]]},
   {id:"abdullatif_w_al", n:"Abdullatif W. Al-Nusif", t:2, p:58, s:"finance", roles:[
     ["lst_markaz","Executive Vice President - Wealth Management and Business Development","executive","ns"]]},
@@ -2164,4 +2168,5 @@ const AKA = {
   national_assembly:["Majlis Al-Ummah"],
   mk:["Al-Mudhaf & Al-Kulaib Group","AlMudhaf AlKulaib Group"],
   jaber_hospital:["Jaber Al-Ahmad Hospital"],
+  insead:["European Institute of Business Administration"],
 };

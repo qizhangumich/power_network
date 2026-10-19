@@ -216,6 +216,7 @@ const INSTITUTIONS = [
   {id:"imdaad", n:"Imdaad", s:"industry", t:2, p:56, short:"Imdaad"},
   {id:"dubal", n:"Dubal Holding", s:"materials", t:2, p:58, short:"Dubal Holding"},
   {id:"kpc_trading", n:"KPC Trading", s:"energy", t:2, p:58, short:"KPC Trading"},
+  {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
 ];
 
 const PEOPLE = [
@@ -441,6 +442,7 @@ const PEOPLE = [
     ["emirates_islamic","Chief Executive Officer","executive","v"],
     ["enbd","CEO, Emirates Islamic","executive","v"]]},
   {id:"miguel_rio_tinto", n:"Miguel Rio-Tinto", t:2, p:58, s:"finance", roles:[
+    ["insead","MBA","alumni","v"],
     ["enbd","Group Chief Digital & Information Officer","executive","v"]]},
   {id:"jamal_majed_bin", n:"Jamal Majed Bin Thaniah", t:2, p:62, s:"realestate", roles:[
     ["emaar","Chairman","board","v"]]},
@@ -648,6 +650,7 @@ const PEOPLE = [
     ["execco","Secretary General","executive","v"],
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
   {id:"abdulla_belhoul", n:"Abdulla Belhoul", t:2, p:52, s:"comm", roles:[
+    ["insead","Executive Development Programme","alumni","v"],
     ["tecom","Chief Executive Officer","executive","v"],
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
   {id:"wesam_lootah", n:"Wesam Lootah", t:2, p:52, s:"comm", roles:[
@@ -2547,4 +2550,5 @@ const AKA = {
   prime_healthcare:["Prime Health Holdings"],
   mbrsg:["Dubai School of Government"],
   kpc_trading:["KPC International trading arm"],
+  insead:["European Institute of Business Administration"],
 };

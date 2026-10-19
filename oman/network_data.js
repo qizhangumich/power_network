@@ -227,6 +227,7 @@ const INSTITUTIONS = [
   {id:"cdaa", n:"Civil Defence and Ambulance Authority", s:"gov", t:1, p:64, short:"CDAA"},
   {id:"oman_observer", n:"Oman Daily Observer (OEPPA)", s:"comm", t:2, p:56, short:"Oman Observer"},
   {id:"univ_of_nizwa", n:"University of Nizwa", s:"education", t:2, p:56, short:"Univ of Nizwa"},
+  {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
 ];
 
 const PEOPLE = [
@@ -323,6 +324,7 @@ const PEOPLE = [
   {id:"sheikh_dr_saud", n:"Sheikh Dr. Saud bin Mustahail Al Mashani", t:2, p:52, s:"finance", roles:[
     ["bankmuscat","Director","board","v"]]},
   {id:"khalid_nasser_al", n:"Khalid Nasser Al Shamsi", t:2, p:52, s:"finance", roles:[
+    ["insead","International Directors Programme (IDP-C)","alumni","v"],
     ["bankmuscat","Director","board","v"]]},
   {id:"dr_saif_bin", n:"Dr. Saif bin Salim Al Harthi", t:2, p:52, s:"finance", roles:[
     ["bankmuscat","Director","board","v"]]},
@@ -1759,4 +1761,5 @@ const AKA = {
   cdaa:["Public Authority for Civil Defence and Ambulance"],
   oman_observer:["OEPPA"],
   univ_of_nizwa:["UoN"],
+  insead:["European Institute of Business Administration"],
 };

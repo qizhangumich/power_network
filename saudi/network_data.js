@@ -527,6 +527,7 @@ const INSTITUTIONS = [
   {id:"kayanee", n:"Kayanee Company", s:"consumer_disc", t:2, p:56, short:"Kayanee"},
   {id:"sawani", n:"Sawani Company", s:"consumer_stap", t:2, p:54, short:"Sawani"},
   {id:"aseer_invest", n:"Aseer Investment Company", s:"finance", t:2, p:56, short:"Aseer Invest. Co"},
+  {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
 ];
 
 const PEOPLE = [
@@ -855,6 +856,7 @@ const PEOPLE = [
   {id:"robert_wilt", n:"Robert Wilt", t:2, p:60, s:"materials", roles:[
     ["maaden","Director, President & CEO","board","v"]]},
   {id:"ahmed_alhakbani", n:"Ahmed Alhakbani", t:2, p:52, s:"materials", roles:[
+    ["insead","MBA","alumni","v"],
     ["maaden","Board Member","board","v"],
     ["acwa","Board Member (Independent)","board","v"]]},
   {id:"abdallah_bin_jum", n:"Abdallah bin Jum'ah", t:2, p:52, s:"materials", roles:[
@@ -3519,4 +3521,5 @@ const AKA = {
   united_sugar:["USC"],
   enowa:["Energy and Water Company"],
   aseer_invest:["AIC"],
+  insead:["European Institute of Business Administration"],
 };

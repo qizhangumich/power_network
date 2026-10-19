@@ -813,7 +813,7 @@ const I18N = {
     network:"Connections", power:"Power score", conns:"connections", needsSource:"needs source", former:"Former", potential:"potential",
     stPeople:"people", stInsts:"organizations", stLinks:"links", stSignals:"signals", stFocused:"isolated",
     tipNews:"news signals", tipContacts:"of your contacts work here",
-    roleTypes:{political:"political", government:"government", board:"board", executive:"executive", ownership:"owner"},
+    roleTypes:{political:"political", government:"government", board:"board", executive:"executive", ownership:"owner", alumni:"alumni"},
     sectors:null,
     liSearch:"Search on LinkedIn", provLabel:"Record source", provLegacy:"curated (before source tracking)",
     provRegistry:"exchange registry", provNone:"not recorded",
@@ -977,7 +977,7 @@ const I18N = {
     network:"关系", power:"权力分值", conns:"个连接", needsSource:"待核实", former:"曾任", potential:"潜在",
     stPeople:"位人物", stInsts:"家机构", stLinks:"条连接", stSignals:"条动态", stFocused:"已隔离",
     tipNews:"条新闻信号", tipContacts:"位你的联系人在此任职",
-    roleTypes:{political:"政治", government:"政府", board:"董事会", executive:"高管", ownership:"所有者"},
+    roleTypes:{political:"政治", government:"政府", board:"董事会", executive:"高管", ownership:"所有者", alumni:"校友"},
     sectors:{energy:"能源", materials:"原材料", industry:"工业", consumer_disc:"可选消费", consumer_stap:"必选消费",
              health:"医疗保健", finance:"金融", tech:"信息技术", comm:"通信服务", utilities:"公用事业", realestate:"房地产",
              gov:"政府与政治", sovereign:"主权资本", education:"教育与科研", conglomerate:"家族企业集团"},
@@ -1140,14 +1140,16 @@ const edges = [];
 function linkEdge(e){
   edges.push(e);
   e.s.adj.push({n:e.t, e}); e.t.adj.push({n:e.s, e});
-  if(e.kind !== "pot" && !e.former && !e.layer){ e.s.deg++; e.t.deg++; }   // history and your own layer are not public reach
+  if(e.kind !== "pot" && e.kind !== "alumni" && !e.former && !e.layer){ e.s.deg++; e.t.deg++; }   // history and your own layer are not public reach
   return e;
 }
 function addEdge(a, b, kind, label, v, former){
   if(!byId[a] || !byId[b]){ console.warn("edge refers to missing node:", a, b); return null; }
   return linkEdge({s:byId[a], t:byId[b], kind, label:label || "", v:v || "v", former:!!former});
 }
-PEOPLE.forEach(p => (p.roles || []).forEach(r => addEdge(p.id, r[0], "role", r[1], r[3], r[4])));
+/* "alumni" roles (education ties) are their own weak edge kind: drawn and listed,
+   but never counted as reach and never used as an introduction path */
+PEOPLE.forEach(p => (p.roles || []).forEach(r => addEdge(p.id, r[0], r[2] === "alumni" ? "alumni" : "role", r[1], r[3], r[4])));
 (typeof OWNERSHIP !== "undefined" ? OWNERSHIP : []).forEach(o => addEdge(o[0], o[1], "own", o[2] || "owned / controlled by", o[3]));
 (typeof FAMILY !== "undefined" ? FAMILY : []).forEach(f => addEdge(f[0], f[1], "family", f[2]));
 const AKAS = (typeof AKA !== "undefined") ? AKA : {};
@@ -2193,7 +2195,7 @@ function dijkstra(seeds, maxHops){
     if(h >= maxHops) continue;
     for(const ad of n.adj){
       const e = ad.e, m = ad.n;
-      if(e.kind === "pot" || e.former || e.me || m.kind === "me") continue;
+      if(e.kind === "pot" || e.kind === "alumni" || e.former || e.me || m.kind === "me") continue;
       const nd = d + edgeCost(e) + passCost(m);
       if(!dist.has(m) || nd < dist.get(m) - 1e-9){ dist.set(m, nd); prev.set(m, {n, e}); hops.set(m, h + 1); push(nd, m); }
     }
@@ -2312,7 +2314,7 @@ function computeReach(){
       if(d.get(n) !== k) continue;
       for(const ad of n.adj){
         const e = ad.e, m = ad.n;
-        if(e.kind === "pot" || e.former || m.kind === "me") continue;
+        if(e.kind === "pot" || e.kind === "alumni" || e.former || m.kind === "me") continue;
         if(e.me && n !== ME) continue;
         const c = k + (m.kind === "person" || e.kind === "minei" || (n.kind === "inst" && m.kind === "inst") ? 1 : 0);
         if(c > MAXD || (d.has(m) && d.get(m) <= c)) continue;
@@ -2578,7 +2580,7 @@ function computeLit(){
   for(let d = 1; d <= 2; d++){
     const next = [];
     frontier.forEach(n => n.adj.forEach(a => {
-      if(a.e.kind !== "pot" && !a.e.former && !depth.has(a.n) && VIS.has(a.n) && edgeVisible(a.e)){ depth.set(a.n, d); next.push(a.n); }
+      if(a.e.kind !== "pot" && a.e.kind !== "alumni" && !a.e.former && !depth.has(a.n) && VIS.has(a.n) && edgeVisible(a.e)){ depth.set(a.n, d); next.push(a.n); }
     }));
     frontier = next;
   }
@@ -2616,6 +2618,7 @@ function draw(now){
     if(e.kind === "own"){ col = C.edgeOwn; alpha = 0.36; width = 1.15; }
     else if(e.kind === "family"){ col = C.edgeFam; alpha = 0.42; width = 1.1; }
     else if(e.kind === "pot"){ dash = DASH.pot; alpha = 0.22; }
+    else if(e.kind === "alumni"){ dash = DASH.pot; alpha = 0.18; width = 0.9; }
     if(e.v === "ns"){ dash = DASH.ns; alpha = Math.min(alpha, 0.2); }
     if(e.former){ dash = DASH.former; alpha = Math.min(alpha, 0.14); }
     if(e.me){

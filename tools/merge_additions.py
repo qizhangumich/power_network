@@ -18,7 +18,7 @@ D = ROOT / "data"
 SECTORS = {"energy","materials","industry","consumer_disc","consumer_stap","health",
            "finance","tech","comm","utilities","realestate","gov","sovereign",
            "education","conglomerate"}
-ROLE_TYPES = {"political","government","board","executive","ownership"}
+ROLE_TYPES = {"political","government","board","executive","ownership","alumni"}
 
 def read(p):
     with open(p, encoding="utf-8-sig", newline="") as f:

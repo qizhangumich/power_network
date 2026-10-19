@@ -309,6 +309,9 @@ const INSTITUTIONS = [
   {id:"wizz_air_ad", n:"Wizz Air Abu Dhabi", s:"industry", t:2, p:58, short:"Wizz Air AD"},
   {id:"mubadala_cap_sol", n:"Mubadala Capital Solutions", s:"finance", t:2, p:56, short:"Mubadala Cap. Sol."},
   {id:"mubadala_bio", n:"Mubadala Bio", s:"health", t:2, p:60, short:"Mubadala Bio"},
+  {id:"insead", n:"INSEAD", s:"education", t:3, p:58, short:"INSEAD"},
+  {id:"abu_dhabi_chamber", n:"Abu Dhabi Chamber of Commerce and Industry", s:"gov", t:2, p:66, short:"Abu Dhabi Chamber"},
+  {id:"insead_abu_dhabi", n:"INSEAD Middle East Campus (Abu Dhabi)", s:"education", t:2, p:62, short:"INSEAD Abu Dhabi"},
 ];
 
 const PEOPLE = [
@@ -1104,6 +1107,7 @@ const PEOPLE = [
   {id:"carlos_obeid", n:"Carlos Obeid", t:2, p:52, s:"finance", roles:[
     ["adcb","Board Member","board","v"],
     ["mubadala_capital","Board Member","board","v"],
+    ["insead","MBA (Fontainebleau)","alumni","v"],
     ]},
   {id:"saeed_mohamed_hamad", n:"Saeed Mohamed Hamad Almazrouei", t:2, p:52, s:"finance", roles:[
     ["adcb","Board Member","board","v"],
@@ -1303,6 +1307,7 @@ const PEOPLE = [
     ]},
   {id:"wael_nabulsi", n:"Wael Nabulsi", t:2, p:58, s:"utilities", roles:[
     ["taqa","Executive Director, Internal Audit","executive","v"],
+    ["insead","Executive MBA","alumni","v"],
     ]},
   {id:"khaleefa_almheiri", n:"Khaleefa Almheiri", t:2, p:58, s:"utilities", roles:[
     ["masdar","Acting Chief Operating Officer","executive","v"],
@@ -1551,6 +1556,7 @@ const PEOPLE = [
     ]},
   {id:"nurendra_perera", n:"Nurendra Perera", t:2, p:58, s:"finance", roles:[
     ["fab","Group Chief Audit Officer","executive","v"],
+    ["insead","Postgraduate Diploma, Consortium Executive Leadership & Organisation Design","alumni","v"],
     ]},
   {id:"rasha_mortada", n:"Rasha Mortada", t:2, p:58, s:"finance", roles:[
     ["adcb","Group Chief Compliance Officer","executive","ns"],
@@ -1563,6 +1569,7 @@ const PEOPLE = [
     ]},
   {id:"abdulaziz_almoosa", n:"Abdulaziz Almoosa", t:2, p:58, s:"finance", roles:[
     ["adcb","Group Chief Human Resources Officer","executive","ns"],
+    ["insead","Global Executive MBA","alumni","ns"],
     ]},
   {id:"moizes_palma", n:"Moizes Palma", t:2, p:58, s:"finance", roles:[
     ["adcb","Group Chief Credit Officer","executive","ns"],
@@ -1791,6 +1798,7 @@ const PEOPLE = [
     ]},
   {id:"khaled_salmeen_anber", n:"Khaled Salmeen Anber Salmeen", t:2, p:52, s:"energy", roles:[
     ["adnocls","Director","board","v"],
+    ["insead","Executive MBA","alumni","v"],
     ]},
   {id:"khaled_mohamed_abdulla", n:"Khaled Mohamed Abdulla Alalkeem Alzaabi", t:2, p:52, s:"energy", roles:[
     ["adnocls","Director","board","v"],
@@ -1845,6 +1853,7 @@ const PEOPLE = [
     ]},
   {id:"hatem_bamatraf", n:"Hatem Bamatraf", t:2, p:60, s:"comm", roles:[
     ["e_and","President and Chief Executive Officer – PTML","executive","v"],
+    ["insead","Executive MBA","alumni","v"],
     ]},
   {id:"mohammad_nadeem_khan", n:"Mohammad Nadeem Khan", t:2, p:60, s:"comm", roles:[
     ["e_and","Chief Executive Officer – PTCL","executive","v"],
@@ -2123,6 +2132,7 @@ const PEOPLE = [
     ]},
   {id:"klaas_mantel", n:"Klaas Mantel", t:2, p:58, s:"energy", roles:[
     ["adnocdist","Chief Operating Officer","executive","v"],
+    ["insead","Certificate in Corporate Governance","alumni","v"],
     ]},
   {id:"athmane_benzerroug", n:"Athmane Benzerroug", t:2, p:58, s:"energy", roles:[
     ["adnocdist","Chief Strategy, Transformation & Sustainability Officer","executive","v"],
@@ -2719,6 +2729,7 @@ const PEOPLE = [
     ]},
   {id:"saeed_bin_mubarak", n:"Saeed bin Mubarak Al Hajeri", t:2, p:52, s:"sovereign", roles:[
     ["adfd","Board Member","board","ns"],
+    ["insead_abu_dhabi","Board Member, INSEAD Abu Dhabi","board","v"],
     ]},
   {id:"ahmed_salem_al", n:"Ahmed Salem Al Dhaheri", t:2, p:60, s:"industry", roles:[
     ["npcc","Chief Executive Officer","executive","v"],
@@ -4062,6 +4073,17 @@ const PEOPLE = [
   {id:"atif_azeem", n:"Atif Azeem", t:2, p:58, s:"health", roles:[
     ["mubadala_bio","Chief Financial Officer (CFO)","executive","v"],
     ]},
+  {id:"dhwani_niranjan_shah", n:"Dhwani Niranjan Shah", t:2, p:58, s:"finance", roles:[
+    ["mubadala_capital","Director, Credit","executive","v"],
+    ["insead","MBA (2010)","alumni","v"],
+    ]},
+  {id:"mark_mortensen", n:"Mark Mortensen", t:2, p:58, s:"education", roles:[
+    ["insead_abu_dhabi","Associate Dean, INSEAD Middle East Campus","executive","v"],
+    ]},
+  {id:"ahmed_khalifa_al", n:"Ahmed Khalifa Al Qubaisi", t:2, p:60, s:"gov", roles:[
+    ["abu_dhabi_chamber","Chief Executive Officer","executive","ns"],
+    ["insead","Global Executive MBA","alumni","v"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -4334,6 +4356,7 @@ const OWNERSHIP = [
   ["wizz_air_ad","adq","joint venture (30% ADQ / 70% Wizz Air Holdings)","v"],
   ["mubadala_cap_sol","mubadala_capital","subsidiary business line","v"],
   ["mubadala_bio","mubadala","subsidiary (National Champion)","v"],
+  ["insead_abu_dhabi","insead","campus of","v"],
 ];
 
 const FAMILY = [
@@ -4415,4 +4438,7 @@ const AKA = {
   bayanat_ai:["Bayanat for Mapping and Surveying Services","Bayanat AI PJSC"],
   adnh:["National Corporation for Tourism & Hotels","NCTH"],
   q:["Al Qudra Holding"],
+  insead:["European Institute of Business Administration","Institut Européen d'Administration des Affaires"],
+  abu_dhabi_chamber:["ADCCI"],
+  insead_abu_dhabi:["INSEAD Middle East Campus","Abu Dhabi"],
 };

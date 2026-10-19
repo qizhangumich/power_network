@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_JS = ROOT / "network_data.js"
 D = ROOT / "data"
 
-ROLE_TYPES = {"political", "government", "board", "executive", "ownership"}
+ROLE_TYPES = {"political", "government", "board", "executive", "ownership", "alumni"}
 
 def js(s):
     return '"' + str(s).replace("\\", "\\\\").replace('"', '\\"') + '"'
