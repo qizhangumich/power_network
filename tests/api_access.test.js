@@ -10,6 +10,11 @@ const fs = require("fs"), os = require("os"), path = require("path");
 const DATA = fs.mkdtempSync(path.join(os.tmpdir(), "navgcc-api-"));
 const PORT = 3900 + Math.floor(Math.random() * 90);
 const ADMIN = "founder@test.example";
+/* a fictional shared pool, as the founder places it in DATA/circles/ */
+fs.mkdirSync(path.join(DATA, "circles"));
+fs.writeFileSync(path.join(DATA, "circles", "insead-emba.json"), JSON.stringify({ records: [
+  { id: "p1", name: "Pia Poolperson", org: "Org Pool", title: "Director", program: "GEMBA", cohort: "EMBA'20Jan" },
+  { id: "p2", name: "Quinn Poolperson", org: "Org Pool", title: "Analyst", program: "GEMBA", cohort: "EMBA'22Dec" }] }));
 const srv = spawn(process.execPath, [path.join(__dirname, "..", "server", "api.js")], {
   env: Object.assign({}, process.env, { POWER_API_DATA: DATA, POWER_API_PORT: String(PORT), POWER_API_MAIL: "outbox",
     POWER_API_ADMINS: ADMIN, PUBLIC_BASE: "http://test.local", RESEND_API_KEY: "", MAIL_FROM: "" }),
@@ -168,7 +173,22 @@ async function verify(email, token) {
     assert.strictEqual((await api("POST", "/api/invite/check", { token: inv })).body.state, "used");
     const g = await api("GET", C, null, alice);
     assert.strictEqual(g.status, 200);
-    assert.deepStrictEqual((await api("GET", "/api/me", null, alice)).body.circles, ["insead-emba"]);
+    const me = (await api("GET", "/api/me", null, alice)).body;
+    assert.deepStrictEqual(me.circles, ["insead-emba"]);
+    assert.strictEqual(me.layers.alumni.on, true, "accepting the invitation loads the network");
+    assert.strictEqual(me.layers.alumni.mode, "only", "map opens on you + your classmates");
+  });
+
+  await t("shared pool reaches invited members only", async () => {
+    const g = (await api("GET", C, null, alice)).body;
+    assert.strictEqual(g.counts.directory, 2);
+    assert.ok(g.records.some(r => r.name === "Pia Poolperson" && r.source === "directory"));
+    for (const tk of [bob, carol]) {
+      const r = await api("GET", C, null, tk);
+      assert.strictEqual(r.status, 403);
+      assert.ok(!JSON.stringify(r.body).includes("Poolperson"));
+    }
+    assert.ok(!JSON.stringify((await api("GET", C + "/match?name=Pia%20Poolperson", null, bob)).body).includes("Poolperson"));
   });
 
   await t("revoked and expired invites are refused", async () => {
@@ -182,13 +202,12 @@ async function verify(email, token) {
     assert.ok(r.body.exp - Date.now() <= 30 * 864e5 + 5000, "expiry capped at 30 days");
   });
 
-  await t("circle data: public-source + fictional demo only, demo flagged, counts consistent", async () => {
+  await t("circle data: public bios + shared pool (no demo needed), counts consistent", async () => {
     const g = (await api("GET", C, null, alice)).body;
     assert.ok(g.records.length > 0);
-    assert.ok(g.records.every(r => ["public", "demo", "member"].includes(r.source)));
-    assert.ok(g.records.filter(r => r.source === "demo").every(r => r.fictional === true));
+    assert.ok(g.records.every(r => ["public", "directory", "member"].includes(r.source)));
     assert.strictEqual(g.counts.unique, new Set(g.records.map(r => r.id)).size);
-    assert.strictEqual(g.counts.unique, g.counts.public + g.counts.members + g.counts.demo);
+    assert.strictEqual(g.counts.unique, g.counts.public + g.counts.members + g.counts.demo + g.counts.directory);
     assert.ok(g.records.every(r => !("email" in r) && !("phone" in r)));
   });
 
@@ -222,8 +241,7 @@ async function verify(email, token) {
     assert.strictEqual(r.body.me.claim.status, "pending");
     const after = JSON.stringify((await api("GET", C, null, alice)).body.records.find(x => x.id === rec.id));
     assert.strictEqual(after, before, "the public record is unchanged while the claim is pending");
-    const demo = (await api("GET", C, null, bob)).body.records.find(x => x.source === "demo");
-    assert.strictEqual((await api("PUT", C + "/profile", { fields: { name: "B" }, claim: demo.id }, alice)).status, 400, "fictional records cannot be claimed");
+    assert.strictEqual((await api("PUT", C + "/profile", { fields: { name: "B" }, claim: "demo:demo1" }, alice)).status, 400, "unknown or fictional records cannot be claimed");
   });
 
   await t("withdraw removes the profile from other members' view", async () => {

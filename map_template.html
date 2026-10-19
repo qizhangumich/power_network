@@ -2136,7 +2136,7 @@ function physStep(){
     });
     const springK = S.view === "network" ? 0.012 : 0.003;
     for(const e of edges){
-      if(e.kind === "pot" || e.me || !edgeVisible(e)) continue;
+      if(e.kind === "pot" || e.me || e.alum || !edgeVisible(e)) continue;
       const rest = e.kind === "family" ? 150 : (e.kind === "own" ? 170 : 130);
       let dx = e.t.x - e.s.x, dy = e.t.y - e.s.y;
       const d = Math.max(1, Math.sqrt(dx * dx + dy * dy));
@@ -2277,7 +2277,7 @@ function findRoutes(target, k){
   const {dist, prev} = dijkstra(target, 7);
   const cands = [];
   ME.adj.forEach(a => {
-    if(!a.e.me || !dist.has(a.n)) return;
+    if(!a.e.me || a.e.kind === "alumni" || !dist.has(a.n)) return;     // a shared school is not "someone you know"
     cands.push({anc:a.n, e:a.e, total:startCost(a.e) + dist.get(a.n)});
   });
   cands.sort((x, y) => x.total - y.total);
@@ -2309,7 +2309,7 @@ function routeBetween(a, b){
 function suggestTargets(n){
   if(!ME) return [];
   n = n || 3;
-  const seeds = ME.adj.filter(a => a.e.me).map(a => ({n:a.n, d:startCost(a.e), h:1}));
+  const seeds = ME.adj.filter(a => a.e.me && a.e.kind !== "alumni").map(a => ({n:a.n, d:startCost(a.e), h:1}));
   const {hops} = dijkstra(seeds, 6);
   /* business and institutional leaders, not the ruling core — realistic people to ask an introduction to */
   const pool = nodes.filter(x => x.kind === "person" && !x.layer && !x.myDirect && x.tier > 0 && x.power >= 64 &&
@@ -4047,7 +4047,9 @@ function renderMyPanel(keep){
   h += Acct.on() ? "" : `<div class="mp-priv">${svgI("check")} ${T.mpPrivacy}</div>`;
   if(DEMO.on) h += `<div class="result info">${T.mpDemoOn} <button class="linkbtn" type="button" data-mp="exitDemo">${T.exitDemo}</button></div>`;
   if(st) h += `<div class="mp-nums"><div><b>${st.total}</b><span>${T.mpContacts}</span></div><div><b>${st.matched}</b><span>${T.mpOnMap}</span></div><div><b>${st.reach}</b><span>${T.mpReach}</span></div></div>`;
-  else h += `<div class="callout"><b>${T.mpEmptyTitle}</b><div style="margin-top:4px">${T.mpEmptyBody}</div></div>`;
+  const alumTop = !!(ALUM && ALUM.on);
+  if(alumTop) h += alumHtml();                    // invited: your classmates come first
+  else if(!st) h += `<div class="callout"><b>${T.mpEmptyTitle}</b><div style="margin-top:4px">${T.mpEmptyBody}</div></div>`;
   h += `<div class="seg" role="tablist">`
      + [["name", "search", T.tabName], ["li", "link", T.tabLinkedIn], ["manual", "plus", T.tabManual]]
         .map(([k, ic, lbl]) => `<button type="button" role="tab" aria-selected="${MP.tab === k}" data-mp-tab="${k}" class="${MP.tab === k ? "on" : ""}">${lbl}</button>`).join("")
@@ -4069,7 +4071,7 @@ function renderMyPanel(keep){
     });
   }
   h += Saved.html();
-  h += alumHtml();
+  if(!alumTop) h += alumHtml();
   if(st) h += contactsHtml();
   h += `<div class="sect">${T.acctTitle}</div>` + acctHtml();
   if(st) h += `<div class="actrow"><button class="btn sm danger" type="button" data-mp="delete">${T.mpDelete}</button></div>`;
@@ -4963,17 +4965,18 @@ const IPT = {
     accOrg:"Organizations are context, not destinations — choose a person here to see introduction routes.",
     accPick:"Choose a person",
     /* alumni layer */
-    alTitle:"Classmate circle (pilot)", alTry:"Try Premium", alOff:"The alumni layer is off.",
+    alTitle:"Your INSEAD GEMBA network", alMates:"classmates", alTry:"Try Premium", alOff:"The alumni layer is off.",
     alInv:"Invitation-only pilot — open your invitation link or ask the founder.",
     alNeedSign:"Sign in to use the invitation-only classmate circle.",
     alOnMap:"on this map", alElse:"on other country maps", alUnique:"in the circle",
-    alSrc:"{p} from official bios · {m} members · {d} fictional demo",
-    alOverlay:"Overlay", alOnly:"Alumni only", alHide:"Hide on map", alShow:"Show on map", alRemove:"Remove layer",
+    alSrc:"{dir} from the shared GEMBA address book · {p} from official bios · {m} members",
+    alPoolNote:"From the shared INSEAD GEMBA address book",
+    alOverlay:"Whole map", alOnly:"My network only", alHide:"Hide on map", alShow:"Show on map", alRemove:"Remove layer",
     alFilters:"Filters", alNoFilters:"none", alEdit:"Change in Try Premium",
     alCov:"Covers official public bios, members who added themselves and labeled fictional demo records — not every alumnus. A shared school does not mean people know each other.",
     alSearch:"Search the circle…", alDemoNote:"Fictional demo record — this person does not exist.",
     alMemberNote:"Added by a circle member; details are self-reported.", alRemoved:"Alumni layer removed",
-    pub:"Official bio", mem:"Member", demo:"DEMO · fictional", openMap:"open map",
+    pub:"Official bio", mem:"Member", mate:"Classmate", demo:"DEMO · fictional", openMap:"open map",
   },
   zh:{
     eyebrow:"引荐路径", better:"依据较充分", verify:"需要核实", exploratory:"探索性",
@@ -5021,17 +5024,18 @@ const IPT = {
     draftN:"{a} 你好，\n\n希望你一切都好。我想就［你的事由］联系 {t}{trole}。我听说你可能认识 {b}——方便问问对方是否愿意帮忙引荐吗？不方便也完全没关系。\n\n谢谢！\n",
     accOrg:"机构是背景而非目的地——请选择这里的一个人来查看引荐路径。",
     accPick:"选择一个人",
-    alTitle:"校友圈（试点）", alTry:"试用高级版", alOff:"校友图层已关闭。",
+    alTitle:"你的 INSEAD GEMBA 人脉", alMates:"位同学", alTry:"试用高级版", alOff:"校友图层已关闭。",
     alInv:"仅限受邀试点——请打开你的邀请链接或联系创始人。",
     alNeedSign:"登录后可使用仅限受邀的校友圈。",
     alOnMap:"在此地图", alElse:"在其他国家地图", alUnique:"圈内总数",
-    alSrc:"{p} 来自官方简介 · {m} 位成员 · {d} 条虚构演示",
-    alOverlay:"叠加", alOnly:"仅校友", alHide:"在地图上隐藏", alShow:"在地图上显示", alRemove:"移除图层",
+    alSrc:"{dir} 来自共享的 GEMBA 通讯录 · {p} 来自官方简介 · {m} 位成员",
+    alPoolNote:"来自共享的 INSEAD GEMBA 通讯录",
+    alOverlay:"完整地图", alOnly:"仅我的人脉", alHide:"在地图上隐藏", alShow:"在地图上显示", alRemove:"移除图层",
     alFilters:"筛选", alNoFilters:"无", alEdit:"在试用高级版中修改",
     alCov:"涵盖官方公开简介、自行加入的成员和标注的虚构演示记录——并非全部校友。同校不代表相识。",
     alSearch:"搜索校友圈…", alDemoNote:"虚构演示记录——此人并不存在。",
     alMemberNote:"由圈内成员自行添加，信息为本人自述。", alRemoved:"已移除校友图层",
-    pub:"官方简介", mem:"成员", demo:"演示 · 虚构", openMap:"打开地图",
+    pub:"官方简介", mem:"成员", mate:"同学", demo:"演示 · 虚构", openMap:"打开地图",
   },
 };
 function ipT(){ return IPT[LANG] || IPT.en; }
@@ -5259,28 +5263,36 @@ function alumApply(){
   nodes.forEach(n => { if(n.kind === "inst" && !n.layer){ inst[alNorm(n.name)] = n; inst[alNorm(n.short)] = n; } });
   const ctx = new Set();
   const addCtx = n => { ctx.add(n); n.adj.forEach(a => { if(a.n.kind === "inst" && !a.e.former) ctx.add(a.n); }); };
+  if(ALUM.hidden){ recs.forEach(r => ALUM.here.push({r, n:null})); return; }
+  /* your network: "You" beside the map, your classmates gathered around you (pinned, so the
+     physics never drags them into the public graph); employers on the map are linked as context */
+  if(!ME){
+    let mx = 0;
+    nodes.forEach(n => { if(!n.layer) mx = Math.max(mx, Math.abs(n.x), Math.abs(n.y)); });
+    ME = layerNode({id:"__me", kind:"me", name:t().you, short:t().you, sector:"__me", tier:3, power:74, radius:10, roles:[], demo:false,
+                    x:mx + 360, y:0, born:0});
+  }
+  const sec = school ? school.sector : (nodes.find(n => n.kind === "inst" && !n.layer) || {}).sector;
   let k = 0;
   recs.forEach(r => {
-    if(r.source === "public"){
-      if(r.region === region && byId[r.nodeId]){ const n = byId[r.nodeId]; n.alum = r; ALUM.here.push({r, n}); addCtx(n); }
-      else ALUM.away.push(r);
-      return;
-    }
     const org = inst[alNorm(r.org)];
-    const anchor = org || (r.country === AL_COUNTRY[region] ? school : null);
-    if(!anchor || ALUM.hidden){ if(!anchor) ALUM.away.push(r); else ALUM.here.push({r, n:null}); return; }
-    const ang = (k++) * 2.39996, rad = 64 + (k % 3) * 16;
-    const n = layerNode({id:"__al_" + r.id, kind:"person", name:r.name, short:r.name, sector:anchor.sector, tier:3, power:50,
-      roles:org ? [[org.id, r.title || "", "executive", "ns"]] : [], demo:!!r.fictional,
-      note:r.fictional ? ipT().alDemoNote : ipT().alMemberNote,
-      x:anchor.x + Math.cos(ang) * rad, y:anchor.y + Math.sin(ang) * rad, radius:5.2});
-    n.alum = r;
-    if(org) layerEdge({s:n, t:org, kind:"role", label:r.title || "", v:"ns", former:false, alum:true, demo:!!r.fictional});
-    if(school && school !== org) layerEdge({s:n, t:school, kind:"alumni", label:r.program || "", v:"ns", former:false, alum:true});
+    let n = r.source === "public" && r.region === region ? byId[r.nodeId] : null;
+    if(!n){
+      k++;
+      const ang = k * 2.39996, rad = 48 + 9.5 * Math.sqrt(k);
+      const IT = ipT(), who = [r.title, r.org].filter(Boolean).join(" · "), cls = [r.program, r.cohort].filter(Boolean).join(" ");
+      n = layerNode({id:"__al_" + r.id, kind:"person", name:r.name, short:r.name, sector:org ? org.sector : sec, tier:3, power:50,
+        roles:org ? [[org.id, r.title || "", "executive", "ns"]] : [], demo:!!r.fictional,
+        note:[who, cls, r.fictional ? IT.alDemoNote : r.source === "member" ? IT.alMemberNote : r.source === "public" ? IT.pub : IT.alPoolNote].filter(Boolean).join(" — "),
+        x:ME.x + Math.cos(ang) * rad, y:ME.y + Math.sin(ang) * rad, radius:4.6});
+      n.fixed = true;
+      if(org) layerEdge({s:n, t:org, kind:"role", label:r.title || "", v:"ns", former:false, alum:true, demo:!!r.fictional});
+    }
+    n.alum = r;                     // no line to "You": the cluster itself says these are your classmates
     ALUM.here.push({r, n}); addCtx(n);
   });
-  if(ALUM.hidden) nodes.forEach(n => { if(!n.layer) n.alum = null; });
-  else ALUM.ctx = ctx;
+  ctx.add(ME);
+  ALUM.ctx = ctx;
 }
 function alumOnlyHides(n){
   return !!(ALUM && ALUM.on && !ALUM.hidden && ALUM.mode === "only" && ALUM.ctx && !n.layer && !ALUM.ctx.has(n) && !n.myDirect);
@@ -5304,6 +5316,12 @@ async function alumLoad(){
           hidden:(() => { try { return sessionStorage.getItem("nv_al_hide") === "1"; } catch(e){ return false; } })()};
   rebuildPersonal(false);
   if(myPanel.classList.contains("open")) renderMyPanel(true);
+  alumFit();
+}
+/* frame you and your classmates */
+function alumFit(){
+  if(!ALUM || !ALUM.on || ALUM.hidden || ALUM.mode !== "only" || !ME) return;
+  setTimeout(() => { if(ME) fitNodes([ME].concat(ALUM.here.map(x => x.n).filter(Boolean)), {ms:700, maxK:1.2}); }, RM ? 0 : 1300);   // after ?mynet opens the panel
 }
 function alumHtml(){
   const IT = ipT();
@@ -5315,9 +5333,8 @@ function alumHtml(){
   const c = ALUM.counts, F = ALUM.filters || {};
   const fl = Object.keys(F).filter(k => F[k]).map(k => `${k}: ${esc(F[k])}`).join(" · ") || IT.alNoFilters;
   const regName = rg => ({abudhabi:"Abu Dhabi", dubai:"Dubai", northern:"Northern Emirates", saudi:"Saudi Arabia", qatar:"Qatar", bahrain:"Bahrain", oman:"Oman", kuwait:"Kuwait"})[rg] || rg;
-  h += `<div class="mp-nums"><div><b>${ALUM.here.length}</b><span>${IT.alOnMap}</span></div><div><b>${ALUM.away.length}</b><span>${IT.alElse}</span></div>`
-     + `<div><b>${c.unique}</b><span>${IT.alUnique}</span></div></div>`
-     + `<p class="plab">${esc(ALUM.name)} · ${fmt(IT.alSrc, {p:c.public, m:c.members, d:c.demo})}</p>`
+  h += `<div class="mp-nums"><div><b>${ALUM.here.length}</b><span>${IT.alMates}</span></div></div>`
+     + `<p class="plab">${esc(ALUM.name)} · ${fmt(IT.alSrc, {dir:c.directory || 0, p:c.public, m:c.members})}</p>`
      + `<div class="seg">` + [["overlay", IT.alOverlay], ["only", IT.alOnly]].map(([m, l]) =>
          `<button type="button" data-al="mode" data-m="${m}" class="${ALUM.mode === m ? "on" : ""}" aria-pressed="${ALUM.mode === m}">${l}</button>`).join("") + `</div>`
      + `<p class="plab">${IT.alFilters}: ${fl} · <a href="/premium.html">${IT.alEdit}</a></p>`
@@ -5331,7 +5348,7 @@ function alumHtml(){
      + `<button class="btn sm danger" type="button" data-al="off">${IT.alRemove}</button></div>`;
   return h;
   function alRow(r, n, away){
-    const tag = r.source === "demo" ? `<span class="cls demo">${IT.demo}</span>` : r.source === "public" ? `<span class="cls confirmed">${IT.pub}</span>` : `<span class="cls potential">${IT.mem}</span>`;
+    const tag = r.source === "demo" ? `<span class="cls demo">${IT.demo}</span>` : r.source === "public" ? `<span class="cls confirmed">${IT.pub}</span>` : r.source === "directory" ? `<span class="cls potential">${IT.mate}</span>` : `<span class="cls potential">${IT.mem}</span>`;
     const sub = [r.title, r.org].filter(Boolean).join(" · "), sub2 = [r.program, r.cohort, r.city || r.country].filter(Boolean).join(" · ");
     const go = n ? ` data-go-p="${esc(n.id)}"` : "";
     const where = away ? ` · <a href="/${esc(away)}/">${esc(regName(away))} ${IT.openMap}</a>` : "";
@@ -5356,6 +5373,7 @@ async function alumAction(act, el){
   }
   rebuildPersonal(false);
   renderMyPanel(true);
+  if(act === "mode"){ if(ALUM.mode === "only") alumFit(); else fitView(600); }
 }
 
 /* ================================================================
@@ -5392,7 +5410,7 @@ function fitInitial(){
   try { localStorage.setItem("nv_last_region", Personal.REGION); } catch(e){}
   if(params.get("mynet") === "1") setTimeout(() => { openMyPanel(); history.replaceState(null, "", location.pathname); }, 900);
   if(params.get("demo") === "1"){ enterDemo({silent:true}); Tour.start(); }
-  else if(params.get("tour") === "1" || !Tour.seen()) Intro.show();
+  else if(params.get("mynet") !== "1" && (params.get("tour") === "1" || !Tour.seen())) Intro.show();
   else maybeHint();
   Saved.snapshot();
   setTimeout(() => Nudge.start(), 2400);

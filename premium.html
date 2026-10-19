@@ -214,8 +214,7 @@ async function refresh(){
   if(inv && !INV) try { INV = await api("invite/check", "POST", {token: inv}); } catch(e){ INV = {state: "invalid"}; }
   if(ME && ME.verified && inv && INV && INV.state !== "invalid" && !ME.circles.includes(CIRCLE)){
     try {
-      await api("invite/redeem", "POST", {token: inv}); ss.del("nv_invite");
-      await api("layers", "PUT", {alumni: {on: true, circle: CIRCLE, mode: "overlay", filters: {}}});
+      await api("invite/redeem", "POST", {token: inv}); ss.del("nv_invite");     // the server switches the network on
       ME = await api("me"); msg("flash", "Welcome — the INSEAD GEMBA network is on your map.", "ok");
     }
     catch(e){ INV.err = e.message; INV.reason = e.body && e.body.reason; }
@@ -298,8 +297,9 @@ const cohortOf = r => r.cohort || r.program || "";
 async function loadCircle(){
   try { CIR = await api("circle/" + CIRCLE); } catch(e){ msg("p-msg", e.message, "err"); return; }
   const c = CIR.counts;
-  $("p-counts").innerHTML = `<div><b>${c.unique}</b>unique records</div><div><b>${c.public}</b>from official public bios</div>`
-    + `<div><b>${c.members}</b>members' own profiles</div><div><b>${c.demo}</b>fictional demo</div>`;
+  $("p-counts").innerHTML = `<div><b>${c.unique}</b>classmates</div><div><b>${c.directory || 0}</b>from the shared GEMBA address book</div>`
+    + `<div><b>${c.public}</b>from official public bios</div><div><b>${c.members}</b>added themselves</div>`
+    + (c.demo ? `<div><b>${c.demo}</b>fictional demo</div>` : "");
   const L = ME.layers && ME.layers.alumni, F = (L && L.filters) || {};
   FKEYS.forEach(([k, all]) => {
     const vals = [...new Set(CIR.records.map(r => k === "cohort" ? cohortOf(r) : r[k]).filter(Boolean))].sort();
@@ -316,7 +316,7 @@ function drawList(){
     && (!q || [r.name, r.title, r.org, r.program].join(" ").toLowerCase().includes(q)));
   $("p-shown").textContent = `${rows.length} of ${CIR.counts.unique} shown`;
   $("p-list").innerHTML = rows.map(r => {
-    const tag = r.source === "demo" ? `<span class="pill demo">DEMO · fictional</span>` : r.source === "public" ? `<span class="pill pub">Official bio</span>` : `<span class="pill mem">Member</span>`;
+    const tag = r.source === "demo" ? `<span class="pill demo">DEMO · fictional</span>` : r.source === "public" ? `<span class="pill pub">Official bio</span>` : r.source === "directory" ? `<span class="pill">Classmate</span>` : `<span class="pill mem">Member</span>`;
     const line2 = [r.title, r.org].filter(Boolean).join(" · ");
     const line3 = [r.program, r.cohort, [r.city, r.country].filter(Boolean).join(", ")].filter(Boolean).join(" · ");
     return `<div class="rec"><div><b>${esc(r.name)}</b><small>${esc(line2)}</small><small>${esc(line3)}</small></div>${tag}</div>`;

@@ -50,7 +50,7 @@ const ADMINS = new Set((process.env.POWER_API_ADMINS || "zhangqi362@gmail.com")
 const REPO = process.env.POWER_REPO || path.join(__dirname, "..");
 const MAX_BODY = 3 * 1024 * 1024;
 const VER_MIN = 30, VER_TRIES = 5;
-const CIRCLES = { "insead-emba": { name: "INSEAD EMBA — classmate pilot", school: "insead",
+const CIRCLES = { "insead-emba": { name: "INSEAD GEMBA network", school: "insead",
                                    fixtures: "insead_emba_demo.json" } };
 
 const sha = s => crypto.createHash("sha256").update(String(s)).digest("hex");
@@ -194,18 +194,37 @@ function access(a, c) {
   if (cdb.members[a.email] && cdb.members[a.email][c]) return { ok: true };
   return { ok: false, code: 403, reason: "not_invited" };
 }
+/* the circle's shared pool: DATA/circles/<c>.json, placed by the founder, never in the repo.
+   Name/organization/title/cohort only. When it exists, the fictional demo records are not needed. */
+let poolCache = {};
+function pool(c) {
+  const f = path.join(DATA, "circles", c + ".json");
+  if (!fs.existsSync(f)) return null;
+  const m = fs.statSync(f).mtimeMs;
+  if (!poolCache[c] || poolCache[c].m !== m) {
+    const d = JSON.parse(fs.readFileSync(f, "utf8"));
+    poolCache[c] = { m, recs: (d.records || []).map(r => ({ id: "dir:" + r.id, source: "directory", name: r.name, org: r.org || "",
+      title: r.title || "", program: r.program || "", cohort: r.cohort || "", country: r.country || "", city: r.city || "", industry: r.industry || "" })) };
+  }
+  return poolCache[c].recs;
+}
+const nameKey = s => [...toks(s)].sort().join(" ");
 function circleRecords(c, viewer) {
   const pub = publicAlumni(CIRCLES[c].school);
   const profs = Object.entries(cdb.profiles[c] || {});
   const linked = new Set(profs.map(([, p]) => p.linked).filter(Boolean));
-  const recs = pub.filter(r => !linked.has(r.id)).concat(fixtures(c));
+  const shared = pool(c);
+  const pubNames = new Set(pub.map(r => nameKey(r.name)));
+  const recs = pub.filter(r => !linked.has(r.id))
+    .concat(shared ? shared.filter(r => !linked.has(r.id) && !pubNames.has(nameKey(r.name))) : fixtures(c));
   for (const [email, p] of profs) {
     if (email === viewer) continue;
     if (!p.listed || !p.vis.name) continue;
     recs.push(profileView(p, false));
   }
   const counts = { unique: recs.length, public: recs.filter(r => r.source === "public").length,
-                   members: recs.filter(r => r.source === "member").length, demo: recs.filter(r => r.source === "demo").length };
+                   members: recs.filter(r => r.source === "member").length, demo: recs.filter(r => r.source === "demo").length,
+                   directory: recs.filter(r => r.source === "directory").length };
   return { records: recs, counts };
 }
 const toks = s => new Set(String(s || "").toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter(w => w.length > 1 && !["al", "el", "bin", "dr", "he"].includes(w)));
@@ -372,6 +391,12 @@ http.createServer((req, res) => {
       if (!cdb.members[a.email][inv.circle]) cdb.members[a.email][inv.circle] = { since: Date.now(), via: "invitation", invite: inv.id };
       inv.usedAt = inv.usedAt || Date.now(); inv.usedBy = a.email;
       saveC();
+      /* the invitation loads the circle straight into this person's map: just them and their classmates */
+      if (!(a.user.layers && a.user.layers.alumni && a.user.layers.alumni.circle === inv.circle)) {
+        a.user.layers = Object.assign({}, a.user.layers, { alumni: { on: true, circle: inv.circle, mode: "only",
+          filters: { country: "", city: "", industry: "", org: "", cohort: "" } } });
+        saveUsers(); track("alumni_layer_activated", a.email);
+      }
       return send(res, 200, { ok: true, circle: inv.circle });
     });
   }
