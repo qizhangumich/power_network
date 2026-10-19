@@ -84,6 +84,18 @@ institutions is a failed day.
 4. Only AFTER merging, apply demotions to former (see §6) — the pre-pass ignores former roles, so a stale
    official page would otherwise re-add a live role next to the former one.
 
+### Education ties (alumni)
+- When an official bio you are already reading states a degree from a mapped school (currently
+  `insead` in every map except northern; `insead_abu_dhabi` is the campus node — link people to the
+  campus only if the source names the Abu Dhabi campus), stage it in
+  `data/alumni_additions_<batch>.csv` (`region,person_name,person_id,institution_id,title,verification,source_url`;
+  title = the credential as worded, e.g. "Global Executive MBA") and run `python3 tools/merge_alumni.py`.
+  Only degrees and named credential programmes (IDP-C, Executive Development Programme) — never
+  "attended / courses at". Alumni links are weak ties: the engine never uses them for reach or paths.
+- **Abu Dhabi order of operations:** after `merge_institutions.py` adds AD institutions, run
+  `python3 tools/import_csv.py` BEFORE `merge_people.py` — merge_people reads the generated root
+  `network_data.js` and silently skips rows that reference ids not yet in it.
+
 ### Validate
 - `node` may be absent in the cloud; validate region JS with
   `python3 -c "import sys; sys.path.insert(0,'tools'); from netdata import load_nodes; [print(r, len(load_nodes(r+'/network_data.js'))) for r in ['dubai','northern','saudi','qatar','bahrain','oman','kuwait']]"`
