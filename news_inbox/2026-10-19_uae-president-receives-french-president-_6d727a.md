@@ -1,0 +1,5 @@
+# UAE President receives French President upon his arrival on official visit to the UAE
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVVJEQmc2ZmRhdnRMd1VQOXFhVUdNdWJ0RlhmSTNlR1dCb2ZFZ2E3bXFXWXZZR2FEc290MFI0X2VPeV9wUkFDcGRFTTByMFZ2QXNDcXdpbmMwRzlKcE0tbWlpQ3JjekdMak5jR0UzVmpNaFRUUTl0dWFXcTBWUHBJTC15VGZTQ3hOT3B1Y3cxUkQ3MjUxQ0lhRnlLVmNTdWNLc0FLejdUOHhqZzJISkFoOWt6Z3g5VG5xWjgxSHZFeUtBbi1YS0hwTXNRYTJHVnp4?oc=5
+
+UAE President receives French President upon his arrival on official visit to the UAE    Gulf News

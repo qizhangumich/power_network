@@ -1,0 +1,5 @@
+# AD Ports Group cuts emissions intensity by 6% in 2025 sustainability report
+source: Data Portuaria
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUFFfeDhNUVhZQklpMXhTY3c1WDhJT3JoOVhGYUYzVDhGUVI2SG44ZEpXRW8yNWNNVUMzSzRJNGFkOEdSMDhXcnpCRkVndi0xaVQyTVotbmpkYWExQjJGQy01UXlBRXNFVDFaM2czX2xIdVB5QU1aM1V4YUZHZVJlSzIwekZEaTJWQW9iUUljd0tFbnhEcDB0cWt2TVpoS0hXd1Q5bEpiQVdXakFXTTFPSU9LeVZFcW9JMFMyUFUwencwOVIzd3JCV2dST201dlZmNWlPbGJmS1BWcjZGS19WVA?oc=5
+
+AD Ports Group cuts emissions intensity by 6% in 2025 sustainability report    Data Portuaria
