@@ -3227,6 +3227,7 @@ const PEOPLE = [
     ]},
   {id:"tarek_sultan", n:"Tarek Sultan", t:2, p:62, s:"industry", roles:[
     ["lst_agility","Chairman","board","v"],
+    ["abu_dhabi_chamber","Board Member","board","v"],
     ]},
   {id:"faisal_al_essa", n:"Faisal Al-Essa", t:2, p:62, s:"industry", roles:[
     ["lst_agility","Vice-Chairman","board","v"],
@@ -4115,9 +4116,6 @@ const PEOPLE = [
   {id:"ahmad_abdullatif_ahmad", n:"Ahmad Abdullatif Ahmad Al Mousa", t:2, p:52, s:"gov", roles:[
     ["abu_dhabi_chamber","Board Member","board","v"],
     ]},
-  {id:"tarek_abdulaziz_sultan", n:"Tarek Abdulaziz Sultan Al Essa", t:2, p:52, s:"gov", roles:[
-    ["abu_dhabi_chamber","Board Member","board","v"],
-    ]},
   {id:"low_ping", n:"Low Ping", t:2, p:52, s:"gov", roles:[
     ["abu_dhabi_chamber","Board Member","board","v"],
     ]},
@@ -4419,6 +4417,7 @@ const FAMILY = [
 
 const AKA = {
   adairports:["Zayed International Airport"],
+  tarek_sultan:["Tarek Abdulaziz Sultan Al Essa"],
   mbz:["Mohamed bin Zayed","Mohammed bin Zayed","MBZ"],
   khaled:["Khaled bin Mohamed bin Zayed","Khaled bin Mohamed"],
   tahnoun:["Tahnoun bin Zayed","Tahnoon bin Zayed","Sheikh Tahnoon","Sheikh Tahnoun"],

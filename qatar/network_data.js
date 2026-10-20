@@ -2104,8 +2104,6 @@ const PEOPLE = [
   {id:"antonio_gamez_munoz", n:"Antonio Gamez Munoz", t:2, p:58, s:"finance", roles:[
     ["cbq","EGM, Chief Risk Officer","executive","v"],
     ["insead","International Executive Development Programme (post-degree in management)","alumni","v"]]},
-  {id:"ahmed_abdullah_al", n:"Ahmed Abdullah Al Muslemani", t:2, p:58, s:"comm", roles:[
-    ["cra_qatar","President","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
