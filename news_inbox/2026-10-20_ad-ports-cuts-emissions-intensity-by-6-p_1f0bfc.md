@@ -1,0 +1,5 @@
+# AD Ports cuts emissions intensity by 6 per cent in 2025
+source: Port Technology
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPQXQ3VmR2aTZUcndGWDVEemJhSzg1Ti1hbERMaXYtbUgzV3NHOHJEVnUyWkJEYTd2YXB0bzBBU0lrV00xZmNaMm1UQll1SjFqRVpldjR3Z0tZZW9PU0h1U0VKT1QzLVZGb0Zrc0RvUk5KT2kyYWQ4QW9LZWNEM2hTWUZFc0FUZEJzc29UY2JHSWtRdWtlLWpiVHNTWjJLS3hodGlYUkltcWxGb1RhWDFjY1NxTmNDZ1R0eFJkbGJlaDhnbnFRTEE?oc=5
+
+AD Ports cuts emissions intensity by 6 per cent in 2025    Port Technology

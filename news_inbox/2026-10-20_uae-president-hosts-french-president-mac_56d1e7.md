@@ -1,0 +1,5 @@
+# UAE President Hosts French President Macron on Official Visit
+source: India News Network
+url: https://news.google.com/rss/articles/CBMipgFBVV95cUxNNW9MSFZVcEpWSnBLckVLa01FZUo2ZzVQaDNpdEFyZmNEVUZJdjkzaE9JM3hUTDBTWGxORWJMSWF5bUtrcGpLLWs1cm56Q2RNVW9UdlBXajYtVFpkOVhWN0xrcEo3RXBCRHRUdFdFaWstSmwxYW0zTTYwRWF6WWE4cDQ3eDNHaGFkQzRzYjdLTDdmdTNOSjZRWDBOZ1Nyamo1aHQtUHRn?oc=5
+
+UAE President Hosts French President Macron on Official Visit    India News Network

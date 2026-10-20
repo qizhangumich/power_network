@@ -1,0 +1,5 @@
+# Crown Prince of Abu Dhabi and French President attend UAE-France Business Dialogue to strengthen strategic partnership in energy and artificial intelligence
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMitgJBVV95cUxNNk40ZGxobUhoU3k5VWo0M3pYZDJYSUl5MWpVUzhuX3JXTXFVTVdCRGxKVGF2dVlMZ2tHTk9vV3FvYXhlcldoMU5GYkllMGVNLWdpZkdVOUFoSzFNa05SUDJiWDBNSTlTR1ZIei1sTWVxNHJNU2xrNk1VUXJOclRZSUVxVTJoZGx5bkVmdEhNSHNjU2VHTlVkcHpCOVI5X3RYbTRHUnY5MVh6YkltNlhwcVd4Zm8yZnIyZmQ3Wm1OWndfeXM3aUNfaXUydmR4cHVGbzFnYnY3MElibkllV2JXNmtrbVVjdXM3Yi1LVnhoeW4zRTEzWkU3aTR2aDd1VVhpVjBSQ2h3QmhuWFNfb3pFUm8teTVTR01xTEEtR18xR0FidHhXQTJyeUlRNTQtOVJ1NFp5U3V3?oc=5
+
+Crown Prince of Abu Dhabi and French President attend UAE-France Business Dialogue to strengthen strategic partnership in energy and artificial intelligence    مكتب أبوظبي الإعلامي
