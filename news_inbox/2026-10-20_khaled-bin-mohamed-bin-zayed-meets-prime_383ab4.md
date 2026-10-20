@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed meets Prime Minister of Singapore at Zayed National Museum
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQ3duVVQxYUJvR3dZWk0xZkRJX0I4NHRGWllPUEVERHRyT0dIZmJtc0J6eTlsYVdQTlotSUU3dHcxYnJmWUpUMHdoSDFoT3QxanhRVm5Mcy1ta2lOd0l1MG5tQ1JNUUhyenIxZ1NySW1QWkxzUjZXcmJWUi1OeFkzaHZMdmVRd2FnVy1QZmtLUDJoVUdRa3JycmR1X1dQalRVYjlhZ2VDQThrb19SZ2k2eFhpWHlOSXNxOXhFeV8tUDRMd0FFSkdYbXlacFZxMXJHQXNQNFhqdXhkdw?oc=5
+
+Khaled bin Mohamed bin Zayed meets Prime Minister of Singapore at Zayed National Museum    مكتب أبوظبي الإعلامي

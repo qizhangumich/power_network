@@ -1,0 +1,5 @@
+# Mubadala Bio and Lilly announce landmark agreement to advance pharmaceutical contract manufacturing in Abu Dhabi
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdU9PM2tDcm5XdmxZZEtPeXJuNXVQWVQ3cjZuc2R1X2JJVmVyTHEza3JBMGFRaGoxd2lzWlpsMG5DR2ZkZUJXbkhQSnVscmlQa1FmNk51SVRGWWhJRVg1Rm5EdTl6Z0NnWTJjaG80NGJJaGU1Nkh4cXpNS3Q4Y0UweWtMVUJYOVZ1bWdsZXJXRm0zTzY5SzliVkZ1X20yWHZoQjhzWHMyMU5wSzFzV09pbk42UldjVkhpd2p3aHp5cDFkbmZxZnFOLXllaFUtNEdIXzJCRU82VjRuQTF6cWhlSlBOSF81UkU3UC1lcA?oc=5
+
+Mubadala Bio and Lilly announce landmark agreement to advance pharmaceutical contract manufacturing in Abu Dhabi    مكتب أبوظبي الإعلامي

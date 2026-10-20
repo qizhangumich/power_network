@@ -1,0 +1,5 @@
+# Sheikh Khaled meets Prime Minister of Singapore in Zayed National Museum
+source: The National
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ0R3cXZVQ2NKNHllU01pNUpXcEtsU2EwSWdlQzRjU0xsb0hZNG5od3BNRURuYkFWcGZsRlZDS0hHMUxHQjBod3Q1M2Mycl9sTklhR0l2Y2N5bkVlRlVPQW40XzR2bi1DTzU4c09Tcm5SU3RGODBGbGx2QTBlZHJmNHVjWnliSzY2M1dfMVdMMkloR2RwUThJVjNEeFYtNGQzVi12di12QkdFRk9YUTlIaVNiMnJ0UVQ5blI5SWRhWkNqODA?oc=5
+
+Sheikh Khaled meets Prime Minister of Singapore in Zayed National Museum    The National

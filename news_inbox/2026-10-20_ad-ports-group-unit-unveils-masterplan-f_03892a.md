@@ -1,0 +1,5 @@
+# AD Ports Group unit unveils masterplan for Kezad workforce community
+source: TradeArabia
+url: https://news.google.com/rss/articles/CBMirAFBVV95cUxOY3ktMmI4c2ozd2RDU05zVlBLcF9abXNCOG5ybnBmT2NGbE14d3FYMVJpWEZlOW9sYkxNcGxQblBsT1RObm1TeU9wemdhRnhuOFZoQ3dvZGIxeU5NTVBDaVRMMTU2VWk3azV3T0U4WmJuQU1zcTB6dnc4cklpM25hbjdnMXdGREUtQkVndHFGLWJINmVqY0NmdklvTWdaMEZuT0hKVG13LU5BUFAx?oc=5
+
+AD Ports Group unit unveils masterplan for Kezad workforce community    TradeArabia
