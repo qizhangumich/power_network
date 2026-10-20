@@ -4378,6 +4378,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  adairports:["Zayed International Airport"],
   mbz:["Mohamed bin Zayed","Mohammed bin Zayed","MBZ"],
   khaled:["Khaled bin Mohamed bin Zayed","Khaled bin Mohamed"],
   tahnoun:["Tahnoun bin Zayed","Tahnoon bin Zayed","Sheikh Tahnoon","Sheikh Tahnoun"],
