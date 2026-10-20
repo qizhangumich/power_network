@@ -1,0 +1,5 @@
+# Freshfields apologises after comments about Middle East in leaked email
+source: The Independent
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxPM0dTcWJoQjIzUE9XZG9VV3M1N2tpXy12dXdTZklDQVY2SVFYM2N3clJUWGI0dDVJekZJVF9mSk5HV1RnX0k3djlQWUtPTzdnR1lLNF9iTEtmV09qQTV5NkJldERBTXY0RUxVY2NzVXprZWQ5RU0zYTRrOVNZVHVMYTRBUkFsUUttdDUzV3Zqb1lWR3g5aXpja3AzTkNLbG1yN00wQ3pMd2dzeWYwRnFV?oc=5
+
+Freshfields apologises after comments about Middle East in leaked email    The Independent

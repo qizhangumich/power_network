@@ -1,0 +1,5 @@
+# Centerbridge, Mubadala in talks to buy Canaccord’s UK wealth unit - Bloomberg News
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNUJDa1Y5QXRSNllvOHF6TmltSFlsZmNRVWNKakZIaWNxc3RnenVaSWlzbWpORnVMZTgyQ29reHh3cVBVTXNRSHotZGhIaG9vUDdqXzM1dnVWNkJXNXp5SUJfWW9hampSOFFxY0tBZnpEenl3bGU0aUp6b2xSbVBHRmo2SG5JWWpLZEdmWUgyLTVSbkp5LTItenhlbFVacE5vRG1aU3NhNmhmQUE3amZ2LVVDeElpUDlVRE9oRlAyaFc1SHVBa2RJUVFRV2trWkxlQ1owLURLelBQTTU3NWZfSVlvOA?oc=5
+
+Centerbridge, Mubadala in talks to buy Canaccord’s UK wealth unit - Bloomberg News    TradingView

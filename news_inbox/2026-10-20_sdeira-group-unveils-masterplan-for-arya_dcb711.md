@@ -1,0 +1,5 @@
+# Sdeira Group Unveils Masterplan for Aryam Community at Kezad Al Mamourah
+source: IndexBox
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPQmRrdU5jUXhxM2JBdE1pb056WDNwczFTcHMzU1picHdTTVNybm14SDlpWkkxUzJlamhuYWdZZHFXWWlUVHBkdFhUTDBMWUNDSUZxVk5vcUFyNnJ4YU9ucGM5cjVjLVNtWmRtU1I4YmlEalFEemJob1NVS1pHejlwdFp1OWRmZzR5dUdkZEhsajBiWXRmaFpoYS01eUZJaUtibDNUdQ?oc=5
+
+Sdeira Group Unveils Masterplan for Aryam Community at Kezad Al Mamourah    IndexBox

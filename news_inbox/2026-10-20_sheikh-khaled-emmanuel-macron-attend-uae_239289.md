@@ -1,0 +1,5 @@
+# Sheikh Khaled, Emmanuel Macron attend UAE-France Business Dialogue
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNeU9ETXotS21QamU3ZXpSVjF0OE85dXhwcHZnS2JtM2RGTExTbGhmTk1sM0JYa1pFY21BbTFMUVNpUkpEcDN3Qkh0T2hlZGFXRHBBZlp6bVZYX1lhZ1JRbnR1QkpjLUp3bG5SUGszRGJXWUZDV0lycUd6VnNSYkJDaGNISUxpV2dKeUJ6RTM3a0VsekFsWkRKZVl2U2pyTzZBMlR4N1YwXzJSc3J6eXJn?oc=5
+
+Sheikh Khaled, Emmanuel Macron attend UAE-France Business Dialogue    Gulf Today

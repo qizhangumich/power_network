@@ -1,0 +1,5 @@
+# UAE and France deepen defence ties with Rafale F5 fighter-jet deal
+source: The National
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNeC02bVNta1QwU3JXSV9sQkl1T0l2aW02UjdneWM1RzBpZGM2NW9TVkRfMTlSQk1pUDlfUGUzLUZWYjF0bUxlYXgzUzJGQmdxSVZfUF93YjJLUGJhT0FqWDRSaFc2X0FRZDNDM1NSN2d2M2FGQ1VoWlpTbXFuSV90RDY2T2hIaFRXUUduRVd0QzhZWHlhZkhFdUE0aWFDbDJvbFVlcm8tZ2pRTzQ2RkdVWXNMeTJ4UUpJU3JWbHNoTi1iU2VoMEE?oc=5
+
+UAE and France deepen defence ties with Rafale F5 fighter-jet deal    The National
