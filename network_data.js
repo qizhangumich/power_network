@@ -436,6 +436,7 @@ const PEOPLE = [
     ["adnocdist","Board Member","board","v"],
     ["adio","Member of the Abu Dhabi Executive Council and Chairman of the Abu Dhabi Department of Economic Development (ADIO's parent, ADDED)","board","v"],
     ["hub71","Chairman","board","v"],
+    ["abu_dhabi_chamber","Chairman","board","v"],
     ], note:"Gatekeeper for economic policy and the financial free zone."},
   {id:"alsuwaidi_adq", n:"Mohamed Hassan Alsuwaidi", t:1, p:92, s:"sovereign", roles:[
     ["fedgov","UAE Minister of Investment","political","v"],
@@ -453,6 +454,7 @@ const PEOPLE = [
     ["alphadhabi","Independent Non-Executive Director","board","v"],
     ["multiply","Board Member","board","v"],
     ["chimera","Chairman","board","v"],
+    ["abu_dhabi_chamber","Board Member","board","v"],
     ], note:"Operates Tahnoon's listed conglomerate (IHC), one of the largest listed companies in the Middle East."},
   {id:"faisal_bannai", n:"Faisal Al Bannai", t:1, p:88, s:"tech", roles:[
     ["prescourt","Adviser for Strategic Research & Advanced Technology Affairs","political","v"],
@@ -599,6 +601,7 @@ const PEOPLE = [
   {id:"badr_olama", n:"Badr Al-Olama", t:2, p:78, s:"gov", roles:[
     ["adio","Director-General","government","v"],
     ["sanad","Board Member","board","v"],
+    ["abu_dhabi_chamber","Board Member","board","v"],
     ]},
   {id:"ahmed_yahia", n:"Ahmed Yahia Al Idrissi", t:2, p:78, s:"sovereign", roles:[
     ["mgx","CEO","executive","v"],
@@ -713,6 +716,7 @@ const PEOPLE = [
     ]},
   {id:"neves", n:"Antonoaldo Neves", t:2, p:74, s:"industry", roles:[
     ["etihad","CEO","executive","v"],
+    ["abu_dhabi_chamber","Board Member","board","v"],
     ]},
   {id:"elena", n:"Elena Sorlini", t:2, p:70, s:"industry", roles:[
     ["adairports","Managing Director & CEO","executive","v"],
@@ -747,6 +751,7 @@ const PEOPLE = [
   {id:"humaid_dhaheri", n:"Humaid Matar Al Dhaheri", t:2, p:68, s:"consumer_disc", roles:[
     ["adnec","Managing Director & Group CEO","executive","v"],
     ["adairports","Board Member","board","v"],
+    ["abu_dhabi_chamber","Deputy Treasurer","board","v"],
     ]},
   {id:"lickrish", n:"John Lickrish", t:2, p:62, s:"comm", roles:[
     ["flash","CEO","executive","v"],
@@ -2633,6 +2638,7 @@ const PEOPLE = [
     ]},
   {id:"shamis_ali_khalfan", n:"Shamis Ali Khalfan Al Dhaheri", t:2, p:62, s:"gov", roles:[
     ["dcd","Chairman (Jan 2026–)","government","v"],
+    ["abu_dhabi_chamber","Second Vice Chairman","board","v"],
     ], note:"Succeeded Mugheer Al Khaili as DCD Chairman by Emiri decree Jan 2026."},
   {id:"mashal_saoud_al", n:"Mashal Saoud Al Kindi", t:2, p:62, s:"materials", roles:[
     ["ta_ziz","Chairman","board","v"],
@@ -3699,6 +3705,7 @@ const PEOPLE = [
     ]},
   {id:"masaood_rahma_al", n:"Masaood Rahma Al Masaood", t:2, p:52, s:"conglomerate", roles:[
     ["almasaood","Director","board","v"],
+    ["abu_dhabi_chamber","Treasurer","board","v"],
     ]},
   {id:"ziad_abou_nasr", n:"Ziad Abou Nasr", t:2, p:58, s:"conglomerate", roles:[
     ["almasaood","Executive Committee Member","executive","v"],
@@ -4083,6 +4090,39 @@ const PEOPLE = [
   {id:"ahmed_khalifa_al", n:"Ahmed Khalifa Al Qubaisi", t:2, p:60, s:"gov", roles:[
     ["abu_dhabi_chamber","Chief Executive Officer","executive","ns"],
     ["insead","Global Executive MBA","alumni","v"],
+    ]},
+  {id:"ali_saeed_bin", n:"Ali Saeed bin Harmal Al Dhaheri", t:2, p:62, s:"gov", roles:[
+    ["abu_dhabi_chamber","First Vice Chairman","board","v"],
+    ]},
+  {id:"khaled_abdulkarim_ismail", n:"Khaled Abdulkarim Ismail Al Fahim", t:2, p:52, s:"gov", roles:[
+    ["abu_dhabi_chamber","Board Member","board","v"],
+    ]},
+  {id:"amer_fayez_abdulnour", n:"Amer Fayez Abdulnour Kakish", t:2, p:52, s:"gov", roles:[
+    ["abu_dhabi_chamber","Board Member","board","v"],
+    ]},
+  {id:"marwa_abdulla_juma", n:"Marwa Abdulla Juma Al Mansoori", t:2, p:52, s:"gov", roles:[
+    ["abu_dhabi_chamber","Board Member","board","v"],
+    ]},
+  {id:"nour_mohamed_abdulla", n:"Nour Mohamed Abdulla Al Tamimi", t:2, p:52, s:"gov", roles:[
+    ["abu_dhabi_chamber","Board Member","board","v"],
+    ]},
+  {id:"karl_magnus_olsson", n:"Karl Magnus Olsson", t:2, p:52, s:"gov", roles:[
+    ["abu_dhabi_chamber","Board Member","board","v"],
+    ]},
+  {id:"khalid_mehdar_bin", n:"Khalid Mehdar bin Hadi", t:2, p:52, s:"gov", roles:[
+    ["abu_dhabi_chamber","Board Member","board","v"],
+    ]},
+  {id:"ahmad_abdullatif_ahmad", n:"Ahmad Abdullatif Ahmad Al Mousa", t:2, p:52, s:"gov", roles:[
+    ["abu_dhabi_chamber","Board Member","board","v"],
+    ]},
+  {id:"tarek_abdulaziz_sultan", n:"Tarek Abdulaziz Sultan Al Essa", t:2, p:52, s:"gov", roles:[
+    ["abu_dhabi_chamber","Board Member","board","v"],
+    ]},
+  {id:"low_ping", n:"Low Ping", t:2, p:52, s:"gov", roles:[
+    ["abu_dhabi_chamber","Board Member","board","v"],
+    ]},
+  {id:"ali_mohammad_al", n:"Ali Mohammad Al Marzooqi", t:2, p:58, s:"gov", roles:[
+    ["abu_dhabi_chamber","Director General","executive","v"],
     ]},
 ];
 

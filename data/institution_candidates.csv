@@ -1,10 +1,4 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Sustainable Energy,3,oman,pending,2026-10-18,2026-10-19,Sultan Qaboos University to open Sustainable Energy Research Centre lab tomorrow
-Sustainable Energy Research Centre,2,oman,pending,2026-10-18,2026-10-19,Sultan Qaboos University to open Sustainable Energy Research Centre lab tomorrow
-Port of Salalah,2,oman,pending,2026-10-18,2026-10-19,Port of Salalah transition puts $200 million equipment in focus
-Social Development Ministry,2,oman,pending,2026-10-11,2026-10-18,Social Development Ministry celebrates Omani Women's Day
-Awqaf Ministry,2,qatar,pending,2026-10-18,2026-10-19,Awqaf Ministry: Tuesday Final Deadline to Register for Hajj via Electronic Portal
-Austrian Airlines,2,,pending,2026-10-19,2026-10-19,Flight from Israel diverted after ‘threat’ reported
 Riyadh Airport,8,saudi,rejected,2026-10-09,2026-10-14,Etihad Extends UAE-Saudi Flight Cancellations Until October 13 After Riyadh Airport Disruptions
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
 Bandhan Bank,6,abudhabi,rejected,2026-10-12,2026-10-13,Bandhan Bank share price jumps 8% today after 4% fall in a month | What's fuelling surge in banking stock
@@ -20,6 +14,7 @@ Than Financial,4,abudhabi,rejected,2026-09-26,2026-09-26,Man City chairman Khald
 Airport and King Khalid International Airport,4,saudi,rejected,2026-10-08,2026-10-08,text-parsing fragment of two headline-adjacent airport names
 Hamad University for Military and Technology,4,qatar,rejected,2026-09-29,2026-09-30,"HH the Amir Issues Amiri Decision Establishing, Organizing Tamim bin Hamad University for Military and Technology Sciences"
 Fifa Council,3,oman,rejected,2026-10-15,2026-10-17,Gianni Infantino apologises to Fifa Council over World Cup sell-off plan
+Sustainable Energy,3,oman,rejected,2026-10-18,2026-10-19,Sultan Qaboos University to open Sustainable Energy Research Centre lab tomorrow
 Abha International Airport,3,saudi,rejected,2026-10-08,2026-10-08,Saudi Arabia: Attacks target facilities at Abha International Airport and King Khalid International Airport
 WPC Energy,3,saudi,rejected,2026-10-12,2026-10-14,Energy Minister attends WPC Energy Congress in Riyadh
 UN Human Rights Council,3,kuwait,rejected,2026-10-01,2026-10-14,Qatar reaffirms support for Somalia at UN Human Rights Council
@@ -41,18 +36,21 @@ SriLankan Airlines,2,abudhabi,rejected,2026-10-03,2026-10-08,SriLankan Airlines 
 Clear Channel Outdoor Holdings,2,abudhabi,rejected,2026-10-07,2026-10-14,Clear Channel Outdoor Holdings Clears Last Regulatory Hurdle For Mubadala Capital Buyout
 UAE Ministry,2,abudhabi,rejected,2026-10-13,2026-10-17,"EDGE, UAE Ministry of Defence, Brazilian Army and Imbel strengthen strategic defence cooperation"
 African Energy,2,abudhabi,rejected,2026-10-15,2026-10-16,"ADNOC Makes Strong Debut at African Energy Week 2026, Signals Growing Ambitions Across Africa"
-Global Fairs & Events Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
 Noatum Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
+Global Fairs & Events Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
 Liveability and Investment,2,abudhabi,rejected,2026-09-30,2026-10-01,Khaled bin Mohamed bin Zayed attends Liveability and Investment Exhibition (LIVEX 2026)
 Tahnoun International Airport,2,abudhabi,rejected,2026-10-12,2026-10-14,Al Ain International Airport renamed to Tahnoun International Airport
 Bank of America,2,,rejected,2026-10-13,2026-10-14,US hits Bank of America with $1.2 billion fine1h ago1m read
 IMF and World Bank,2,,rejected,2026-10-11,2026-10-12,Hawkish sentiment returns to IMF and World Bank meetings
 PARTNER CONTENTArif Developments,2,,added,2026-10-02,2026-10-12,PARTNER CONTENTArif Developments honoured with Excellence in CSR award2h ago3m read
+Sustainable Energy Research Centre,2,oman,rejected,2026-10-18,2026-10-19,Sultan Qaboos University to open Sustainable Energy Research Centre lab tomorrow
 Commerce Ministry,2,oman,rejected,2026-10-14,2026-10-15,Commerce Ministry revokes licenses of multiple Sanad Services Centers for regulatory violations
 GCC Petroleum,2,oman,rejected,2026-10-05,2026-10-06,Oman participates in 37th GCC Petroleum Cooperation Committee meeting
+Port of Salalah,2,oman,rejected,2026-10-18,2026-10-19,Port of Salalah transition puts $200 million equipment in focus
 Postal Development,2,oman,rejected,2026-10-09,2026-10-10,Oman tops regional ranking in Postal Development Index for second consecutive year
 Jindal Steel,2,oman,added,2026-10-11,2026-10-13,Jindal Steel Oman and Oman Cement Company sign strategic partnership to advance sustainable cement production
 Leadership Development,2,oman,rejected,2026-09-29,2026-09-30,RAM launches Leadership Development Programme in the Food Security Sector
+Social Development Ministry,2,oman,added,2026-10-11,2026-10-18,Social Development Ministry celebrates Omani Women's Day
 Municipal Council,2,oman,rejected,2026-09-30,2026-09-30,Municipal Council elections media committee holds meeting
 US-based Activate Capital,2,qatar,rejected,2026-10-15,2026-10-15,US-based Activate Capital joins Qatar Investment Authority's Fund of Funds
 Indian Finance,2,qatar,rejected,2026-09-29,2026-09-30,Minister of State for Foreign Trade Affairs Meets Indian Finance and Corporate Affairs Minister
@@ -61,6 +59,7 @@ Al-Attiyah International Energy,2,qatar,rejected,2026-10-05,2026-10-05,Al-Attiya
 Meteorology Department,2,qatar,rejected,2026-09-30,2026-10-13,Strong winds to affect parts of Qatar: Meteorology Department
 Undersecretary of Ministry,2,qatar,rejected,2026-10-05,2026-10-06,Undersecretary of Ministry of Justice Meets Arab League Secretary-General
 Sustainable Development,2,qatar,rejected,2026-10-14,2026-10-18,Qatar Affirms Commitment to Sustainable Development Goals
+Awqaf Ministry,2,qatar,rejected,2026-10-18,2026-10-19,Awqaf Ministry: Tuesday Final Deadline to Register for Hajj via Electronic Portal
 Houthi Group,2,saudi,rejected,2026-10-03,2026-10-09,Arab and International Condemntations of the Houthi Group's Launching of Ballistic Missiles Towards Saudi Arabia 26 September 2026
 Euromoney Foreign Exchange,2,qatar,rejected,2026-10-06,2026-10-07,QNB named Qatar’s Best FX Bank at Euromoney Foreign Exchange Awards
 FX Bank,2,qatar,rejected,2026-10-06,2026-10-07,QNB named Qatar’s Best FX Bank at Euromoney Foreign Exchange Awards
@@ -72,6 +71,7 @@ Hilal Technology,2,bahrain,rejected,2026-10-14,2026-10-15,Hilal Technology explo
 Benefit Trade Finance,2,bahrain,rejected,2026-10-11,2026-10-11,NBB signs on as anchor partner of Benefit Trade Finance Registry
 Siemens Energy,2,saudi,rejected,2026-10-02,2026-10-05,Siemens Energy’s supervisory and executive boards meet at Dammam Hub
 London House Exchange,2,dubai,rejected,2026-10-01,2026-10-02,UAE investor GII acquires majority stake in UK’s London House Exchange
+Austrian Airlines,2,,rejected,2026-10-19,2026-10-19,Flight from Israel diverted after ‘threat’ reported
 Egyptian Exchange,2,,rejected,2026-10-12,2026-10-13,Banque du Caire to sell stake in IPO
 Deutsche Bank,2,dubai,rejected,2026-09-29,2026-10-07,Deutsche Bank names Vikas Arora Philippines country head
 Bank of Kuwait,2,kuwait,rejected,2026-09-30,2026-10-09,Kuwait lenders pull $8bn from central bank after war stimulus

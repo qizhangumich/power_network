@@ -490,6 +490,7 @@ const PEOPLE = [
   {id:"abdullah_yacoub_bishara", n:"Abdullah Yacoub Bishara", t:2, p:52, s:"sovereign", roles:[
     ["kipco","Independent Board Member","board","v"]]},
   {id:"samer_khanachet", n:"Samer Khanachet", t:2, p:60, s:"sovereign", roles:[
+    ["auk","Board Member, Board of Trustees","board","v"],
     ["kipco","Deputy Group Chief Executive Officer","executive","v"]]},
   {id:"sheikh_sabah_mohammad", n:"Sheikh Sabah Mohammad Abdulaziz Al Sabah", t:2, p:58, s:"sovereign", roles:[
     ["kipco","Group Chief Investment Officer","executive","v"]]},
@@ -1947,6 +1948,18 @@ const PEOPLE = [
     ["lst_osoul","Deputy Chairman","board","ns"]]},
   {id:"sulaiman_ahmad_hamad", n:"Sulaiman Ahmad Hamad Al-Ameeri", t:2, p:60, s:"finance", roles:[
     ["lst_osoul","Chief Executive Officer","executive","ns"]]},
+  {id:"jassim_marzouq_boodai", n:"Jassim Marzouq Boodai", t:2, p:62, s:"comm", roles:[
+    ["al_rai_media","Chairman of the Board","board","ns"]]},
+  {id:"walid_jasem_al", n:"Walid Jasem Al-Jasem", t:2, p:58, s:"comm", roles:[
+    ["al_rai_media","Editor-in-Chief","executive","v"]]},
+  {id:"abdullah_almudhaf", n:"Abdullah AlMudhaf", t:2, p:52, s:"conglomerate", roles:[
+    ["mk","Co-Founder","board","ns"]]},
+  {id:"sheikha_dana_nasser", n:"Sheikha Dana Nasser Sabah Al-Ahmad Al-Sabah", t:2, p:62, s:"education", roles:[
+    ["auk","Founder & Chair, Board of Trustees","board","v"]]},
+  {id:"ghada_e_khalaf", n:"Ghada E. Khalaf", t:2, p:62, s:"education", roles:[
+    ["auk","Vice Chair, Board of Trustees","board","v"]]},
+  {id:"meshal_ali", n:"Meshal Ali", t:2, p:62, s:"education", roles:[
+    ["auk","Co-Founder & Vice Chair, Board of Trustees","board","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -74,7 +74,7 @@ const INSTITUTIONS = [
   {id:"lst_suwp", n:"Al Suwadi Power Company SAOG", s:"utilities", t:2, p:50, short:"SUWP"},
   {id:"lst_sspw", n:"Sembcorp Salalah Power & Water Company SAOG", s:"utilities", t:2, p:50, short:"SSPW"},
   {id:"lst_spfi", n:"A'Saffa Foods SAOG", s:"consumer_stap", t:2, p:58, short:"A'Saffa Foods"},
-  {id:"lst_smnp", n:"SMN Power Holding SAOG", s:"utilities", t:2, p:50, short:"SMNP"},
+  {id:"lst_smnp", n:"SMN Power Holding SAOG", s:"utilities", t:2, p:58, short:"SMNP"},
   {id:"lst_rnss", n:"Renaissance Services SAOG", s:"industry", t:2, p:62, short:"RNSS"},
   {id:"lst_phpc", n:"Phoenix Power Company SAOG", s:"utilities", t:2, p:50, short:"PHPC"},
   {id:"lst_mspw", n:"Musandam Power Company SAOG", s:"utilities", t:2, p:50, short:"MSPW"},
@@ -87,7 +87,7 @@ const INSTITUTIONS = [
   {id:"lst_ouic", n:"Oman United Insurance Company SAOG", s:"finance", t:2, p:50, short:"OUIC"},
   {id:"lst_aaic", n:"Al Anwar Investments SAOG", s:"finance", t:2, p:50, short:"AAIC"},
   {id:"lst_mhas", n:"Al Maha Petroleum Products Marketing Company SAOG", s:"energy", t:2, p:50, short:"MHAS"},
-  {id:"lst_ocoi", n:"Oman Cement Company SAOG", s:"materials", t:2, p:50, short:"OCOI"},
+  {id:"lst_ocoi", n:"Oman Cement Company SAOG", s:"materials", t:2, p:57, short:"OCOI"},
   {id:"lst_ords_om", n:"Omani Qatari Telecommunications Company SAOG (Ooredoo)", s:"comm", t:2, p:62, short:"Ooredoo Oman"},
   {id:"lst_sihc", n:"A'Sharqiya Investment Holding Co. SAOG", s:"finance", t:2, p:50, short:"SIHC"},
   {id:"lst_brde", n:"Barka Desalination Company SAOG", s:"utilities", t:2, p:50, short:"BRDE"},
@@ -228,6 +228,9 @@ const INSTITUTIONS = [
   {id:"oman_observer", n:"Oman Daily Observer (OEPPA)", s:"comm", t:2, p:56, short:"Oman Observer"},
   {id:"univ_of_nizwa", n:"University of Nizwa", s:"education", t:2, p:56, short:"Univ of Nizwa"},
   {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
+  {id:"tax_authority_oman", n:"Tax Authority", s:"finance", t:2, p:64, short:"Tax Authority Oman"},
+  {id:"min_social_dev", n:"Ministry of Social Development", s:"gov", t:1, p:70, short:"Min. Social Dev."},
+  {id:"pam_oman", n:"Public Authority for Mining", s:"materials", t:2, p:60, short:"PAM Oman"},
 ];
 
 const PEOPLE = [
@@ -855,6 +858,7 @@ const PEOPLE = [
   {id:"khalid_nasser_al_b", n:"Khalid Nasser Al Kindi", t:2, p:46, s:"consumer_disc", roles:[
     ["omran","General Manager of PMO","executive","v"]]},
   {id:"nasser_bin_khamis", n:"Nasser bin Khamis Al Jashmi", t:2, p:62, s:"energy", roles:[
+    ["tax_authority_oman","Chairman","executive","v"],
     ["edo","Deputy Chairman and Non-Executive Director","board","v"]]},
   {id:"abdullah_bin_salim", n:"Abdullah bin Salim Al Harthy", t:2, p:52, s:"energy", roles:[
     ["edo","Non-Executive Director","board","v"]]},
@@ -1543,6 +1547,36 @@ const PEOPLE = [
     ["univ_of_nizwa","Chancellor","executive","v"]]},
   {id:"abdulaziz_bin_yahya", n:"Abdulaziz bin Yahya Al Kindi", t:2, p:58, s:"education", roles:[
     ["univ_of_nizwa","Vice-Chancellor for Academic Affairs / Secretary-General of the Board of Trustees","executive","v"]]},
+  {id:"abdullah_al_yahya", n:"Abdullah Al Yahya'ey", t:2, p:62, s:"utilities", roles:[
+    ["lst_smnp","Chairman of the Board","board","v"]]},
+  {id:"abdullah_al_naimi", n:"Abdullah Al Naimi", t:2, p:60, s:"utilities", roles:[
+    ["lst_smnp","Acting Chief Executive Officer (also Chief Financial Officer)","executive","ns"]]},
+  {id:"zhu_yaping", n:"Zhu Yaping", t:2, p:60, s:"materials", roles:[
+    ["lst_ocoi","Chief Executive Officer","executive","v"]]},
+  {id:"laila_bint_ahmed", n:"Laila bint Ahmed Al Najjar", t:2, p:58, s:"gov", roles:[
+    ["min_social_dev","Minister","executive","v"]]},
+  {id:"ghada_mohammed_al", n:"Ghada Mohammed Al Yousef", t:2, p:52, s:"conglomerate", roles:[
+    ["al_yousef","Board Member","board","ns"]]},
+  {id:"abdul_latheef_uppala", n:"Abdul Latheef Uppala", t:2, p:60, s:"health", roles:[
+    ["badr_al_samaa","Managing Director","executive","v"]]},
+  {id:"moideen_bilal", n:"Moideen Bilal", t:2, p:58, s:"health", roles:[
+    ["badr_al_samaa","Executive Director","executive","v"]]},
+  {id:"sameer_p_t", n:"Sameer P T", t:2, p:60, s:"health", roles:[
+    ["badr_al_samaa","Chief Executive Officer","executive","v"]]},
+  {id:"jacob_oommen", n:"Jacob Oommen", t:2, p:58, s:"health", roles:[
+    ["badr_al_samaa","Chief Operating Officer","executive","v"]]},
+  {id:"alwin_george", n:"Alwin George", t:2, p:58, s:"health", roles:[
+    ["badr_al_samaa","Director - Finance & Corporate Affairs","executive","v"]]},
+  {id:"firasath_hassan", n:"Firasath Hassan", t:2, p:58, s:"health", roles:[
+    ["badr_al_samaa","Executive Director","executive","v"]]},
+  {id:"biju_radhakrishnan", n:"Biju Radhakrishnan", t:2, p:46, s:"health", roles:[
+    ["badr_al_samaa","General Manager - Finance","executive","v"]]},
+  {id:"fadi_kattar", n:"Fadi Kattar", t:2, p:58, s:"comm", roles:[
+    ["muscat_media","Chief Operating Officer","executive","ns"]]},
+  {id:"azad_moopen", n:"Azad Moopen", t:2, p:62, s:"health", roles:[
+    ["aster_al_raffah","Founder Chairman and Managing Director","board","v"]]},
+  {id:"alisha_moopen", n:"Alisha Moopen", t:2, p:60, s:"health", roles:[
+    ["aster_al_raffah","Deputy Managing Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1762,4 +1796,6 @@ const AKA = {
   oman_observer:["OEPPA"],
   univ_of_nizwa:["UoN"],
   insead:["European Institute of Business Administration"],
+  tax_authority_oman:["OTA"],
+  pam_oman:["PAM"],
 };

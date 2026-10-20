@@ -297,7 +297,11 @@ const PEOPLE = [
   {id:"meshal_amb", n:"H.E. Sheikh Meshal bin Hamad Al Thani", t:0, p:78, s:"gov", roles:[
     ["mofa_q","Ambassador to the United States","political","v"]]},
   {id:"saoud_diwan", n:"H.E. Sheikh Saoud bin Abdulrahman Al Thani", t:0, p:78, s:"gov", roles:[
-    ["qgov","Chief of the Amiri Diwan","political","ns"]]},
+    ["qgov","Chief of the Amiri Diwan","political","ns"],
+    ["cabinet","Deputy Prime Minister","political","v"],
+    ["mod_q","Minister of State for Defence Affairs","political","v"],
+    ["barzan","Chairman","board","ns"]],
+    note:"Succeeded Khalid bin Mohamed Al Attiyah as Deputy PM/Minister of State for Defence Affairs in the 12 Nov 2024 Amiri cabinet reshuffle (gco.gov.qa); the Barzan Holdings chairmanship has historically attached to this portfolio (named as chairman in Jan 2026 DIMDEX trade coverage, not yet independently confirmed by an official Barzan/government source)."},
   {id:"faisal_bq", n:"H.E. Sheikh Faisal bin Qassim Al Thani", t:1, p:80, s:"conglomerate", roles:[
     ["alfaisal","Chairman","board","v"],
     ["aamal","Chairman","board","v"]],
@@ -323,9 +327,10 @@ const PEOPLE = [
     ["qnb","Chairman","board","v"],
     ["qia","Member of the Board","board","v"]]},
   {id:"attiyah", n:"H.E. Khalid bin Mohamed Al Attiyah", t:1, p:82, s:"gov", roles:[
-    ["barzan","Chairman","board","ns"],
-    ["cabinet","Deputy Prime Minister","political","v"],
-    ["mod_q","Minister of State for Defence Affairs","political","ns"]]},
+    ["barzan","Chairman (–Nov 2024)","board","ns","former:until Nov 2024"],
+    ["cabinet","Deputy Prime Minister (–Nov 2024)","political","v","former:until Nov 2024"],
+    ["mod_q","Minister of State for Defence Affairs (–Nov 2024)","political","ns","former:until Nov 2024"]],
+    note:"Lost Deputy PM/Defence Affairs portfolio in the 12 Nov 2024 Amiri cabinet reshuffle (Amiri Order No. 2 of 2024, per gco.gov.qa); succeeded by Sheikh Saoud bin Abdulrahman Al Thani. Now mainly active in motorsport (FIA World Rally-Raid)."},
   {id:"khulaifi", n:"H.E. Dr. Mohammed Al-Khulaifi", t:1, p:76, s:"gov", roles:[
     ["qf","Member","board","v"],
     ["mofa_q","Minister of State (chief mediator)","political","v"]],
@@ -2099,6 +2104,8 @@ const PEOPLE = [
   {id:"antonio_gamez_munoz", n:"Antonio Gamez Munoz", t:2, p:58, s:"finance", roles:[
     ["cbq","EGM, Chief Risk Officer","executive","v"],
     ["insead","International Executive Development Programme (post-degree in management)","alumni","v"]]},
+  {id:"ahmed_abdullah_al", n:"Ahmed Abdullah Al Muslemani", t:2, p:58, s:"comm", roles:[
+    ["cra_qatar","President","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

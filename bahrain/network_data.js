@@ -57,7 +57,7 @@ const INSTITUTIONS = [
   {id:"lst_kfh", n:"Kuwait Finance House K.S.C.P.", s:"finance", t:2, p:70, short:"KFH"},
   {id:"lst_bbk", n:"Bank of Bahrain and Kuwait B.S.C.", s:"finance", t:2, p:63, short:"BBK"},
   {id:"lst_salam", n:"Al Salam Bank B.S.C.", s:"finance", t:2, p:68, short:"Al Salam Bank"},
-  {id:"lst_ugh", n:"United Gulf Holding Company B.S.C.", s:"finance", t:2, p:50, short:"UGH"},
+  {id:"lst_ugh", n:"United Gulf Holding Company B.S.C.", s:"finance", t:2, p:56, short:"UGH"},
   {id:"lst_ghg", n:"Gulf Hotels Group B.S.C.", s:"consumer_disc", t:2, p:58, short:"GHG"},
   {id:"lst_apmtb", n:"APM Terminals Bahrain B.S.C.", s:"industry", t:2, p:50, short:"APMTB"},
   {id:"lst_khaleeji", n:"Khaleeji Bank B.S.C.", s:"finance", t:2, p:56, short:"Khaleeji Bank"},
@@ -169,6 +169,9 @@ const INSTITUTIONS = [
   {id:"benefit", n:"BENEFIT (The Benefit Company)", s:"finance", t:2, p:62, short:"BENEFIT"},
   {id:"bdf_hospital", n:"Bahrain Defence Force Royal Medical Services", s:"health", t:2, p:56, short:"BDF Hospital"},
   {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
+  {id:"sio_bahrain", n:"Social Insurance Organisation", s:"finance", t:2, p:62, short:"SIO Bahrain"},
+  {id:"csb_bahrain", n:"Civil Service Bureau", s:"gov", t:2, p:58, short:"CSB Bahrain"},
+  {id:"btea", n:"Bahrain Tourism and Exhibitions Authority", s:"consumer_disc", t:2, p:58, short:"BTEA"},
 ];
 
 const PEOPLE = [
@@ -418,6 +421,7 @@ const PEOPLE = [
     ["edamah","Board Member","board","v"],
     ["gulfair","Board Member","board","v"]]},
   {id:"sara_ahmed_buhiji", n:"Sara Ahmed Buhiji", t:2, p:52, s:"industry", roles:[
+    ["btea","Chief Executive Officer","executive","ns"],
     ["bahrain_airport","Board Member","board","ns"],
     ["gulfair","Board Member","board","v"]]},
   {id:"faisal_ali_al", n:"Faisal Ali Al Jalahma", t:2, p:52, s:"industry", roles:[
@@ -2186,9 +2190,10 @@ const PEOPLE = [
   {id:"ashwaq_abdulla_sahel", n:"Ashwaq Abdulla Sahel", t:2, p:58, s:"consumer_stap", roles:[
     ["lst_trafco","Executive Secretary","executive","v"]]},
   {id:"shaikh_adana_naser", n:"Shaikh Adana Naser Sabah Al Sabah", t:2, p:62, s:"finance", roles:[
+    ["lst_ugh","Chairman (–Mar 2026)","board","v","former:until Mar 2026"]],
+    note:"Succeeded as UGH Chairman by Masaud M.J. Hayat per Bahrain Bourse's Mar 2026 AGM notice."},
+  {id:"masaud_m_j", n:"Masaud M.J. Hayat", t:2, p:64, s:"finance", roles:[
     ["lst_ugh","Chairman","board","v"]]},
-  {id:"masaud_m_j", n:"Masaud M.J. Hayat", t:2, p:62, s:"finance", roles:[
-    ["lst_ugh","Vice Chairman","board","v"]]},
   {id:"he_abdelkarim_alawi", n:"HE. Abdelkarim Alawi Saleh Kabariti", t:2, p:52, s:"finance", roles:[
     ["lst_ugh","Director","board","v"]]},
   {id:"samer_mohammad_imad", n:"Samer Mohammad Imad Abbouchi", t:2, p:52, s:"finance", roles:[
@@ -3014,6 +3019,7 @@ const PEOPLE = [
   {id:"kurt_mathiasen", n:"Kurt Mathiasen", t:2, p:52, s:"materials", roles:[
     ["haji_hassan","Board Member","board","v"]]},
   {id:"sahar_rashid_abdulrahman", n:"Sahar Rashid Abdulrahman Al Mannai", t:2, p:52, s:"gov", roles:[
+    ["sio_bahrain","Chief Executive Officer","executive","v"],
     ["lmra_bahrain","Board Member","board","v"]]},
   {id:"fatima_abdulghani_ismail", n:"Fatima Abdulghani Ismail", t:2, p:52, s:"gov", roles:[
     ["lmra_bahrain","Board Member","board","v"]]},
@@ -3443,6 +3449,14 @@ const PEOPLE = [
     ["lst_bnh","Director","board","v"]]},
   {id:"maj_gen_dr", n:"Maj. Gen. Dr. Shaikh Fahad bin Khalifa Al Khalifa", t:2, p:58, s:"health", roles:[
     ["bdf_hospital","Commander of the Royal Medical Services","executive","ns"]]},
+  {id:"basim_bin_yacob", n:"Basim bin Yacob Al Hamer", t:2, p:58, s:"gov", roles:[
+    ["slrb","President","executive","v"]]},
+  {id:"rasheed_mohamed_al", n:"Rasheed Mohamed Al Maraj", t:2, p:62, s:"finance", roles:[
+    ["sio_bahrain","Chairman","board","ns"]]},
+  {id:"duaij_bin_salman", n:"Duaij bin Salman bin Duaij Al Khalifa", t:2, p:58, s:"gov", roles:[
+    ["csb_bahrain","President","executive","ns"]]},
+  {id:"ebrahim_nonoo", n:"Ebrahim Nonoo", t:2, p:60, s:"finance", roles:[
+    ["bfc","Managing Director and Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3538,6 +3552,7 @@ const OWNERSHIP = [
   ["bac_jet_fuel","gulfair","portfolio company (via Gulf Air Group Holding)","v"],
   ["sico_wealth","sico_bank","subsidiary of","ns"],
   ["aleastur","mumtalakat","49% stake; built the GCC's first aluminium grain-refiner plant in Bahrain","ns"],
+  ["rera_bahrain","slrb","board chaired by head of","v"],
 ];
 
 const FAMILY = [
@@ -3599,4 +3614,6 @@ const AKA = {
   benefit:["Benefit Company;Benefit Trade Finance Registry;Trade Finance Registry;BenefitPay;GCCNet;EFTS","The Benefit Company"],
   bdf_hospital:["BDFRMS","Bahrain Royal Medical Services"],
   insead:["European Institute of Business Administration"],
+  sio_bahrain:["SIO"],
+  csb_bahrain:["CSB"],
 };

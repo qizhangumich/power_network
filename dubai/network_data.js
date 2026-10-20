@@ -238,7 +238,7 @@ const PEOPLE = [
     ["difc","President","political","v"]],
     note:"Dubai's financial-markets czar: DIFC, the IPO program and federal finance."},
   {id:"ahmed_saeed", n:"H.H. Sheikh Ahmed bin Saeed Al Maktoum", t:0, p:92, s:"industry", roles:[
-    ["dafza","Chairman, Dubai Integrated Economic Zones Authority (DIEZ)","board","ns"],
+    ["dafza","Chairman, Dubai Integrated Economic Zones Authority (DIEZ)","board","v"],
     ["meydan","Head of Dubai Holding Group (incorporating Meydan since March 2024)","board","v"],
     ["dubai_petroleum","Chairman","board","v"],
     ["dcaa","President","board","v"],
@@ -270,11 +270,11 @@ const PEOPLE = [
     ["execco","Member (Director General of HH the Ruler's Court) (–Sep 2026)","board","v","former:until Sep 2026"],
     ["dxbgov","Director-General, Ruler's Court (–Sep 2026)","government","v","former:until Sep 2026"],
     ["icd","Managing Director","executive","v"],
-    ["nakheel","Chairman","board","ns"],
+    ["nakheel","Chairman","board","v"],
     ["dib","Chairman (–Sep 2026)","board","v","former:until Sep 2026"]],
     note:"The Ruler's chief business fiduciary — controls the ICD holding that owns Emirates, ENBD and more."},
   {id:"altayer_dewa", n:"Saeed Mohammed Al Tayer", t:1, p:84, s:"utilities", roles:[
-    ["dubal","Chairman","board","ns"],
+    ["dubal","Chairman, Dubal Holding","board","v"],
     ["empower","Chairman","board","v"],
     ["noor_energy_1","Chairman of the Board","board","v"],
     ["execco","Member (Deputy Chairman of Supreme Council of Energy)","board","v"],
