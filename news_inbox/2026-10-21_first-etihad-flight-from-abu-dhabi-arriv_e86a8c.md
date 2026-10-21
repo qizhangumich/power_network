@@ -1,0 +1,5 @@
+# First Etihad flight from Abu Dhabi arrives at Luxembourg Airport
+source: Luxembourg Times
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxOdHlGNHZpeWxSQkVxMzREQjN0c2dxMHJNcEMwTlpkZzMwSnI2QXZvSjFZT1hSQUxxLVdqcWVwaHVkbFAwcFdBaElsR0NncW9sY0JNY3hLTGlEbU9HeUVSc19TclNmOEpBZUNZTFI0R2hEWkwxaDd6WkR1eFRLZURfZzBDdUVQWUtrRHNYYXdVZ3JUdHluUUZDZU5aVUxLZFdwOWpYY1JkNngtakF3elE?oc=5
+
+First Etihad flight from Abu Dhabi arrives at Luxembourg Airport    Luxembourg Times

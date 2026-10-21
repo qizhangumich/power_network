@@ -1,0 +1,5 @@
+# EDGE Leads Integration of Sovereign Autonomous Systems
+source: Defence Procurement International
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxQTWVQRWVvX0ZaRHJnRzRLR0wya25MSXRhSmxIbnJQTU1WTG45MDU2LVNYMUxXTEVsdkFOREZJa3RpOGNveFg0aXZhNWpnWW9RVGRVOGE4MFhRZDJXSnpyTnpwWXhIeDBtbmxTeEJsdUVNa3JVLVkyd0V3LUxwUXY1QlBNSlF5LVZFR1FFY2o5Ml9zZDFVT2k3b0dIMmhzS3ZnLWRMVmIzdW1MLU5OM3F2eQ?oc=5
+
+EDGE Leads Integration of Sovereign Autonomous Systems    Defence Procurement International

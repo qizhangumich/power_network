@@ -1,0 +1,5 @@
+# EDGE expands defence ties with France through Paris subsidiary and planned Safran weapons venture
+source: Defence Industry Europe
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxQaDVqTHBEMTcyUVhOdTN4RU9HYWVFVjlyV29LTE5OOEU2eElxN1lvZElNOVNxOXMwckh3czVBU1R2bzYtZ2cySE84Ul9UbEFmblFVbGNvX2QxTmV4bXNoOHZhVmlYaGs0Zm9PSzZNNlAzMkJwM2VSTzFFbDVhUnpXNFVQbTFOX1VjUHZ0ZGg1Uzc4VlQ1c1d2MjktX1luQTBEd245VWVFVVk3MHQ2UjUyMEN2dlRHTWlFSVNlS0NFN2JqOTdl?oc=5
+
+EDGE expands defence ties with France through Paris subsidiary and planned Safran weapons venture    Defence Industry Europe

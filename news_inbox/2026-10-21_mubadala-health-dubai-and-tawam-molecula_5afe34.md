@@ -1,0 +1,5 @@
+# Mubadala Health Dubai and Tawam Molecular Imaging Centre partner with Re:Cognition Health to expand access to specialist brain and memory health services in UAE
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMirAJBVV95cUxNbXZLY3lncW5DWU1Fc0YyVDQyR0lGTmFVdDZ5Yk5nbGZrZkVqaE96M2haOGh1Z2lhWVFLTGhQMjc1bDE2YjVON2dGNE5saV9yR0FKZDRySFR6SGhpNzdaNXN5Mkpya0p2YjI5MXpFcldOR2RVbG42SDZ2WHd6QmtBRVRnWlZjbUJ4Qlo4TEFXLTV5YTdnXzVzbkhuTlJhNUNncTFBVGpwTk5Uby0zYmRLbmVaUXp3NzVIUEtHNVV1dlh5NUo0a0ttcDQ4RDdzQnFoc2FPMm9VZ0tOTlBWU0lkRm9VM2Q4OEhMc21qYUhhZy1SdWE3ZzAyR1plM19QSXN4RVRDRWViWWw0M2o0YllKeU94dXlNT2NQNEF6WjNhR2JBT253aFpmazc1d0U?oc=5
+
+Mubadala Health Dubai and Tawam Molecular Imaging Centre partner with Re:Cognition Health to expand access to specialist brain and memory health services in UAE    مكتب أبوظبي الإعلامي
