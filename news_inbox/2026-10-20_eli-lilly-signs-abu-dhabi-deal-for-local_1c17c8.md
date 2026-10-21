@@ -1,0 +1,5 @@
+# Eli Lilly signs Abu Dhabi deal for local packaging of weight-loss medicines
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxONXQtLWJrN1NrUnctdmFtTmJHb2I4SVdITEhPZzlNeV9KUEZodjdDR2kzRHZBV0V0SkxHdENvS1ZEUVF0U2YyeFhXUjMxWm1xWlVCWGx0cHdjTk1fNDJkWkVXVjBtUnRwNUFZRVRpM1hIWkFMOEd6VGtzWlJLRTFwcnIweEZkbDJkSXFqZ1hEdVIyenZKUHBpYjNRaVZFR1pWWTVpSXc4WlZSWVBlN0todnRiYkczZGZNcGNQVWhMdnhVSEJEb1E?oc=5
+
+Eli Lilly signs Abu Dhabi deal for local packaging of weight-loss medicines    Arabian Business
