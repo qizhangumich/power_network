@@ -389,7 +389,7 @@ const PEOPLE = [
   {id:"feras_al_naimi", n:"Feras Al Naimi", t:2, p:60, s:"realestate", roles:[
     ["arada","Chief Executive Officer - Nexus","executive","v"]]},
   {id:"h_h_sheikh", n:"H.H. Sheikh Rashid bin Humaid bin Rashid Al Nuaimi", t:2, p:62, s:"finance", roles:[
-    ["ajman_municipality","Chairman","board","ns"],
+    ["ajman_municipality","Chairman","board","v"],
     ["ajmgov","Executive Council Member; Chairman of Municipality and Planning Department","board","v"],
     ["al_zorah_dev","Chairman of the Board of Directors","board","v"],
     ["ajmanbank","Vice Chairman","board","v"]]},
@@ -791,7 +791,7 @@ const PEOPLE = [
   {id:"christopher_wood", n:"Christopher Wood", t:2, p:60, s:"gov", roles:[
     ["rakpa","Chief Executive","executive","v"]]},
   {id:"mohamed_ali_musabbeh", n:"Mohamed Ali Musabbeh Al Nuaimi", t:2, p:62, s:"gov", roles:[
-    ["rak_chamber","Chairman","board","ns"]]},
+    ["rak_chamber","Chairman","board","v"]]},
   {id:"munther_mohammed_bin", n:"Munther Mohammed Bin Shaker", t:2, p:58, s:"gov", roles:[
     ["rak_municipality","Director General","executive","v"]]},
   {id:"sheikh_saif_bin", n:"Sheikh Saif bin Hamad Al Sharqi", t:2, p:62, s:"gov", roles:[
@@ -869,7 +869,7 @@ const PEOPLE = [
   {id:"ahmed_bin_rakkad", n:"Ahmed bin Rakkad Al Ameri", t:2, p:60, s:"comm", roles:[
     ["sba","Chief Executive Officer of Sharjah Book Authority","executive","v"]]},
   {id:"fahad_ahmed_al", n:"Fahad Ahmed Al Khamiri", t:2, p:58, s:"gov", roles:[
-    ["sedd","Director","executive","ns"]]},
+    ["sedd","Director","executive","v"]]},
   {id:"raja_al_gurg", n:"Raja Al Gurg", t:2, p:62, s:"finance", roles:[
     ["nbf","Deputy Chairperson","board","v"]]},
   {id:"saif_sultan_al", n:"Saif Sultan Al Salami", t:2, p:52, s:"finance", roles:[
@@ -920,7 +920,7 @@ const PEOPLE = [
   {id:"abdulaziz_omar_al", n:"Abdulaziz Omar Al Midfa", t:2, p:58, s:"gov", roles:[
     ["sedd","Director of Government Communication Department","executive","v"]]},
   {id:"talib_al_marri", n:"Talib Al Marri", t:2, p:58, s:"gov", roles:[
-    ["sharjah_awqaf","Director General","executive","ns"]]},
+    ["sharjah_awqaf","Director General","executive","v"]]},
   {id:"salem_sultan_hamad", n:"Salem Sultan Hamad Al Owais Al Shamsi", t:2, p:58, s:"finance", roles:[
     ["rak_finance_dept","Director General","executive","v"]]},
   {id:"sorour_hamad_obaid", n:"Sorour Hamad Obaid Hamad Zouhari", t:2, p:62, s:"gov", roles:[
@@ -1208,7 +1208,7 @@ const PEOPLE = [
   {id:"natasha_ridge", n:"Natasha Ridge", t:2, p:58, s:"gov", roles:[
     ["al_qasimi_fdn","Executive Director","executive","ns"]]},
   {id:"salem_ali_al_b_b", n:"Salem Ali Al Muhairi", t:2, p:62, s:"gov", roles:[
-    ["sharjah_municipality","Chairman of Sharjah Municipal Council","board","ns"]]},
+    ["sharjah_municipality","Chairman of Sharjah Municipal Council","board","v"]]},
   {id:"abdullah_bin_hamouda", n:"Abdullah bin Hamouda Al Ketbi", t:2, p:62, s:"gov", roles:[
     ["sharjah_municipality","Vice Chairman of Sharjah Municipal Council","board","ns"]]},
   {id:"ali_saeed_al_b", n:"Ali Saeed Al Ketbi", t:2, p:58, s:"gov", roles:[

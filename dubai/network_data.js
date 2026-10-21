@@ -217,6 +217,7 @@ const INSTITUTIONS = [
   {id:"dubal", n:"Dubal Holding", s:"materials", t:2, p:58, short:"Dubal Holding"},
   {id:"kpc_trading", n:"KPC Trading", s:"energy", t:2, p:58, short:"KPC Trading"},
   {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
+  {id:"gems_education", n:"GEMS Education", s:"education", t:3, p:60, short:"GEMS Education"},
 ];
 
 const PEOPLE = [
@@ -1273,6 +1274,7 @@ const PEOPLE = [
   {id:"nitin_khanna", n:"Nitin Khanna", t:2, p:52, s:"finance", roles:[
     ["lst_alansari","Board Member","board","v"]]},
   {id:"raja_al_mazrouei", n:"Raja Al Mazrouei", t:2, p:52, s:"finance", roles:[
+    ["mbrsg","Board of Trustees Member","board","v"],
     ["lst_alansari","Board Member","board","v"]]},
   {id:"marcello_baricordi", n:"Marcello Baricordi", t:2, p:52, s:"finance", roles:[
     ["lst_alansari","Board Member","board","v"]]},
@@ -2322,6 +2324,24 @@ const PEOPLE = [
     ["kpc_trading","Chief Commercial Officer","executive","ns"]]},
   {id:"sheikh_khaled_al", n:"Sheikh Khaled Al-Sabah", t:2, p:62, s:"energy", roles:[
     ["kpc_trading","Chairman","board","ns"]]},
+  {id:"nasser_bushehab", n:"Nasser BuShehab", t:2, p:60, s:"gov", roles:[
+    ["dxbmun","CEO - Planning & Governance Sector","executive","v"]]},
+  {id:"maryam_al_muhairi", n:"Maryam Al Muhairi", t:2, p:60, s:"gov", roles:[
+    ["dxbmun","CEO - Buildings Regulation and Permits Agency","executive","v"]]},
+  {id:"tarek_dufan", n:"Tarek Dufan", t:2, p:58, s:"health", roles:[
+    ["american_hospital","Group Medical Advisor","executive","v"]]},
+  {id:"mazen_zouwayhed", n:"Mazen Zouwayhed", t:2, p:58, s:"health", roles:[
+    ["american_hospital","Medical Director","executive","v"]]},
+  {id:"dahlia_jabari", n:"Dahlia Jabari", t:2, p:58, s:"health", roles:[
+    ["american_hospital","Group Chief of Brand and Growth","executive","v"]]},
+  {id:"tayeb_amanullah_mohammed", n:"Tayeb Amanullah Mohammed Kamali", t:2, p:52, s:"education", roles:[
+    ["mbrsg","Board of Trustees Member","board","v"]]},
+  {id:"yasar_farouk_jarrar", n:"Yasar Farouk Jarrar", t:2, p:52, s:"education", roles:[
+    ["mbrsg","Board of Trustees Member","board","v"]]},
+  {id:"imran_inamdar", n:"Imran Inamdar", t:2, p:58, s:"industry", roles:[
+    ["drydocks_world","Chief Operating Officer","executive","v"]]},
+  {id:"radostin_popov", n:"Radostin Popov", t:2, p:58, s:"industry", roles:[
+    ["drydocks_world","Director Commercial & Business Development","executive","v"]]},
 ];
 
 const OWNERSHIP = [

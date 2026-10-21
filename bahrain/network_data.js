@@ -172,6 +172,8 @@ const INSTITUTIONS = [
   {id:"sio_bahrain", n:"Social Insurance Organisation", s:"finance", t:2, p:62, short:"SIO Bahrain"},
   {id:"csb_bahrain", n:"Civil Service Bureau", s:"gov", t:2, p:58, short:"CSB Bahrain"},
   {id:"btea", n:"Bahrain Tourism and Exhibitions Authority", s:"consumer_disc", t:2, p:58, short:"BTEA"},
+  {id:"tarabut_gateway", n:"Tarabut Gateway", s:"tech", t:3, p:58, short:"Tarabut Gateway"},
+  {id:"coinmena", n:"CoinMENA", s:"tech", t:3, p:56, short:"CoinMENA"},
 ];
 
 const PEOPLE = [
@@ -3616,4 +3618,5 @@ const AKA = {
   insead:["European Institute of Business Administration"],
   sio_bahrain:["SIO"],
   csb_bahrain:["CSB"],
+  tarabut_gateway:["Tarabut"],
 };

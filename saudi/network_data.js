@@ -528,6 +528,7 @@ const INSTITUTIONS = [
   {id:"sawani", n:"Sawani Company", s:"consumer_stap", t:2, p:54, short:"Sawani"},
   {id:"aseer_invest", n:"Aseer Investment Company", s:"finance", t:2, p:56, short:"Aseer Invest. Co"},
   {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
+  {id:"tamara", n:"Tamara", s:"tech", t:3, p:56, short:"Tamara"},
 ];
 
 const PEOPLE = [
@@ -672,6 +673,7 @@ const PEOPLE = [
   {id:"tony_douglas", n:"Tony Douglas", t:2, p:70, s:"industry", roles:[
     ["riyadhair","CEO","executive","v"]]},
   {id:"pagano", n:"John Pagano", t:2, p:64, s:"realestate", roles:[
+    ["kafd","Managing Director","executive","v"],
     ["alula_dev","Managing Director","executive","v"],
     ["rcu","Member of the Board of Directors (CEO, Red Sea Global)","board","v"],
     ["redsea","Group CEO","executive","v"]]},
@@ -1110,14 +1112,17 @@ const PEOPLE = [
     ["manara_minerals","Chairman of the Board","board","v"],
     ["pif","Deputy Governor, Head of International Investments Division and Acting Head of Shared Services Division","executive","v"]]},
   {id:"saad_alkroud", n:"Saad Alkroud", t:2, p:46, s:"sovereign", roles:[
+    ["kafd","Chairman of the Board of Directors","board","v"],
     ["kfshrc","Board Member","board","v"],
     ["qiddiya","Board Member","board","v"],
     ["pif","Head of Local Real Estate Investments Division","executive","v"]]},
   {id:"yasir_a_alsalman", n:"Yasir A. AlSalman", t:2, p:58, s:"sovereign", roles:[
+    ["kafd","Vice Chairman","board","v"],
     ["tawal","Chief Transformation Officer","executive","v"],
     ["sami","Board Member","board","v"],
     ["pif","Chief Financial Officer and Head of Finance Division and Acting Head of Global Capital Finance","executive","v"]]},
   {id:"bander_a_mogren", n:"Bander A. Mogren", t:2, p:58, s:"sovereign", roles:[
+    ["kafd","Board Member","board","v"],
     ["pif","Advisor to His Excellency the Governor","executive","v"]]},
   {id:"rania_nashar", n:"Rania Nashar", t:2, p:46, s:"sovereign", roles:[
     ["pif","Head of Compliance & Governance Division","executive","v"]]},
@@ -2586,12 +2591,14 @@ const PEOPLE = [
   {id:"mosa_alomran", n:"Mosa Alomran", t:2, p:52, s:"consumer_disc", roles:[
     ["soudah_dev","Board Member","board","v"]]},
   {id:"saleh_bin_ibrahim", n:"Saleh bin Ibrahim Aloraini", t:2, p:60, s:"consumer_disc", roles:[
+    ["kafd","Board Member","board","v"],
     ["soudah_dev","Chief Executive Officer","executive","v"]]},
   {id:"marco_mejia", n:"Marco Mejia", t:2, p:60, s:"industry", roles:[
     ["ksia","Acting Chief Executive Officer","executive","v"]]},
   {id:"abdulaziz_bin_ibrahim", n:"Abdulaziz bin Ibrahim Alissa", t:2, p:52, s:"realestate", roles:[
     ["alula_dev","Board Member","board","ns"]]},
   {id:"abdullah_bin_farid", n:"Abdullah bin Farid Shaker", t:2, p:52, s:"realestate", roles:[
+    ["badeel","Vice Chairman","board","v"],
     ["alula_dev","Board Member","board","ns"]]},
   {id:"mousa_bin_omran", n:"Mousa bin Omran Al-Omran", t:2, p:52, s:"realestate", roles:[
     ["alula_dev","Board Member","board","ns"]]},
@@ -3006,6 +3013,42 @@ const PEOPLE = [
     ["sawani","CEO","executive","ns"]]},
   {id:"osama_bin_abdullatif", n:"Osama bin Abdullatif AlOthman", t:2, p:60, s:"finance", roles:[
     ["aseer_invest","CEO","executive","ns"]]},
+  {id:"shawki_a_hayel", n:"Shawki A. Hayel Saeed", t:2, p:58, s:"conglomerate", roles:[
+    ["hsa","Chief Operating Officer & Group Board Member","executive","v"]]},
+  {id:"jamal_abdulwasa_hayel", n:"Jamal Abdulwasa Hayel Saeed", t:2, p:62, s:"conglomerate", roles:[
+    ["hsa","Chairman - AITC","board","v"]]},
+  {id:"adnan_dawood", n:"Adnan Dawood", t:2, p:60, s:"conglomerate", roles:[
+    ["hsa","CEO - AITC","executive","v"]]},
+  {id:"walid_ali_moh", n:"Walid Ali Moh. Saeed", t:2, p:62, s:"conglomerate", roles:[
+    ["hsa","Chairman - Midstar / Group Board Member","board","v"]]},
+  {id:"abdullah_ag_hayel", n:"Abdullah AG Hayel Saeed", t:2, p:62, s:"conglomerate", roles:[
+    ["hsa","Vice Chairman - Midstar","board","v"]]},
+  {id:"rami_mohamed_saeed", n:"Rami Mohamed Saeed", t:2, p:46, s:"conglomerate", roles:[
+    ["hsa","General Manager - NuStar","executive","v"]]},
+  {id:"anthony_brinkhuizen", n:"Anthony Brinkhuizen", t:2, p:60, s:"utilities", roles:[
+    ["enowa","Chief Executive Officer","executive","v"]]},
+  {id:"mohammed_alsudairy", n:"Mohammed Alsudairy", t:2, p:52, s:"realestate", roles:[
+    ["kafd","Board Member","board","v"]]},
+  {id:"bassam_albassam", n:"Bassam Albassam", t:2, p:52, s:"realestate", roles:[
+    ["kafd","Board Member","board","v"]]},
+  {id:"hathal_alutaibi", n:"Hathal Alutaibi", t:2, p:52, s:"realestate", roles:[
+    ["kafd","Board Member","board","v"]]},
+  {id:"turki_al_sudairi", n:"Turki Al Sudairi", t:2, p:52, s:"realestate", roles:[
+    ["kafd","Board Member","board","v"]]},
+  {id:"ayman_elariss", n:"Ayman Elariss", t:2, p:62, s:"utilities", roles:[
+    ["badeel","Chairman of the Board","board","v"]]},
+  {id:"basel_alfraihi", n:"Basel AlFraihi", t:2, p:52, s:"utilities", roles:[
+    ["badeel","Board Member","board","v"]]},
+  {id:"alessandro_moretti", n:"Alessandro Moretti", t:2, p:52, s:"utilities", roles:[
+    ["badeel","Board Member","board","v"]]},
+  {id:"mansour_al_qarawi", n:"Mansour Al-Qarawi", t:2, p:52, s:"utilities", roles:[
+    ["badeel","Board Member","board","v"]]},
+  {id:"sultan_al_homaidhi", n:"Sultan Al-Homaidhi", t:2, p:52, s:"utilities", roles:[
+    ["badeel","Board Member","board","v"]]},
+  {id:"sultan_al_nabulsi", n:"Sultan Al-Nabulsi", t:2, p:60, s:"utilities", roles:[
+    ["badeel","Chief Executive Officer","executive","v"]]},
+  {id:"abdullatif_bin_mohammed", n:"Abdullatif bin Mohammed Alabdullatif", t:2, p:62, s:"comm", roles:[
+    ["saudi_press_agency","Vice Chairman of the Board","board","v"]]},
 ];
 
 const OWNERSHIP = [

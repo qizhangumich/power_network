@@ -40,15 +40,13 @@ abudhabi,cepsa_moeve,Cepsa (Moeve),energy,60,0,pending
 abudhabi,louis_dreyfus,Louis Dreyfus Company,consumer_stap,60,0,pending
 abudhabi,fortress,Fortress Investment Group,finance,60,0,pending
 abudhabi,bayanat_ai,Bayanat AI,tech,60,1,pending
-dubai,mbrsg,Mohammed Bin Rashid School of Government,education,60,1,pending
+dubai,gems_education,GEMS Education,education,60,0,pending
 oman,sct,Space Communication Technologies,tech,60,1,pending
 oman,pam_oman,Public Authority for Mining,materials,60,0,pending
 qatar,sinopec,Sinopec,energy,60,0,pending
 qatar,muntajat,Qatar Chemical and Petrochemical Marketing and Distribution Company,materials,60,1,pending
 qatar,ras_laffan_petrochem,Ras Laffan Petrochemicals Company,materials,60,1,pending
 saudi,lst_1080,Arab National Bank,finance,60,0,pending
-saudi,kafd,King Abdullah Financial District,realestate,60,0,pending
-saudi,badeel,Water and Electricity Holding Company,utilities,60,0,pending
 saudi,rajhi_invest,Rajhi Invest,finance,60,0,pending
 saudi,al_nahdi_family,Al Nahdi Family Office,finance,60,0,pending
 saudi,salic,Saudi Agricultural and Livestock Investment Company,consumer_stap,60,0,pending
@@ -81,7 +79,7 @@ abudhabi,wizz_air_ad,Wizz Air Abu Dhabi,industry,58,1,pending
 abudhabi,insead,INSEAD,education,58,0,pending
 bahrain,csb_bahrain,Civil Service Bureau,gov,58,1,pending
 bahrain,btea,Bahrain Tourism and Exhibitions Authority,consumer_disc,58,1,pending
-dubai,drydocks_world,Drydocks World,industry,58,1,pending
+bahrain,tarabut_gateway,Tarabut Gateway,tech,58,0,pending
 dubai,dubai_petroleum,Dubai Petroleum Establishment,energy,58,1,pending
 kuwait,jaber_hospital,Jaber Al-Ahmad Al-Sabah Hospital,health,58,0,pending
 northern,uaq_ded,Umm Al Quwain Department of Economic Development,gov,58,1,pending
@@ -170,6 +168,7 @@ abudhabi,gii,Gulf Islamic Investments LLC,finance,56,0,pending
 abudhabi,masdar_americas,Masdar Americas,utilities,56,1,pending
 abudhabi,fatima_college,Fatima College of Health Sciences,education,56,0,pending
 bahrain,bdf_hospital,Bahrain Defence Force Royal Medical Services,health,56,1,pending
+bahrain,coinmena,CoinMENA,tech,56,0,pending
 dubai,al_nabooda,Khalifa Juma Al Nabooda Group,conglomerate,56,0,pending
 dubai,dutco,Dutco Group,conglomerate,56,0,pending
 dubai,al_moosa_arenco,A.A. Al Moosa Enterprises (Arenco Group),conglomerate,56,0,pending
@@ -219,6 +218,7 @@ saudi,taibah_university,Taibah University,education,56,0,pending
 saudi,jeddah_economic,Jeddah Economic Company,realestate,56,1,pending
 saudi,kayanee,Kayanee Company,consumer_disc,56,1,pending
 saudi,aseer_invest,Aseer Investment Company,finance,56,1,pending
+saudi,tamara,Tamara,tech,56,0,pending
 dubai,seddiqi,Seddiqi Holding,consumer_disc,55,1,pending
 dubai,careem,Careem,tech,55,1,pending
 dubai,jetex,Jetex,industry,55,0,pending

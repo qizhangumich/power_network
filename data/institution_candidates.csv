@@ -1,5 +1,7 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Riyadh Airport,8,saudi,rejected,2026-10-09,2026-10-14,Etihad Extends UAE-Saudi Flight Cancellations Until October 13 After Riyadh Airport Disruptions
+Sdeira Group,2,abudhabi,pending,2026-10-19,2026-10-20,Sdeira Group Unveils Masterplan for Aryam Community at Kezad Al Mamourah
+Communications and Information Technology,2,qatar,pending,2026-09-30,2026-10-20,"Minister of Communications and Information Technology Discusses Digitalization, AI Cooperation with Finnish Delegation"
+Riyadh Airport,9,saudi,rejected,2026-10-09,2026-10-20,Etihad Extends UAE-Saudi Flight Cancellations Until October 13 After Riyadh Airport Disruptions
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
 Bandhan Bank,6,abudhabi,rejected,2026-10-12,2026-10-13,Bandhan Bank share price jumps 8% today after 4% fall in a month | What's fuelling surge in banking stock
 Adnoc Logistics,4,abudhabi,rejected,2026-10-06,2026-10-12,Adnoc Logistics might acquire stake in HEA
@@ -7,12 +9,12 @@ Al Ain International Airport,4,abudhabi,rejected,2026-10-11,2026-10-14,UAE Presi
 British Airways,4,saudi,rejected,2026-10-05,2026-10-08,British Airways A380 gets 106-seat business class cabin2h ago4m read
 US Marine,4,qatar,rejected,2026-10-04,2026-10-10,US Marine arrested in Japan over murder
 Social Development,4,oman,rejected,2026-10-06,2026-10-18,Minister of Social Development reviews disability care sector in Saudi Arabia
-Hamad University,4,qatar,rejected,2026-09-29,2026-09-30,"HH the Amir Issues Amiri Decision Establishing, Organizing Tamim bin Hamad University for Military and Technology Sciences"
 IMF-World Bank Group,4,kuwait,rejected,2026-10-10,2026-10-19,IMF/World Bank meetings leave developing countries with more questions than answers
 Abu Dhabi Investment,4,abudhabi,rejected,2026-09-28,2026-10-11,A subsidiary holds the shares behind Abu Dhabi Investment Authority’s Eikon Therapeutics (EIKN) stake.
 Than Financial,4,abudhabi,rejected,2026-09-26,2026-09-26,Man City chairman Khaldoon Al Mubarak responds to reports surrounding 115 charges in Premier League financial probe
 Airport and King Khalid International Airport,4,saudi,rejected,2026-10-08,2026-10-08,text-parsing fragment of two headline-adjacent airport names
 Hamad University for Military and Technology,4,qatar,rejected,2026-09-29,2026-09-30,"HH the Amir Issues Amiri Decision Establishing, Organizing Tamim bin Hamad University for Military and Technology Sciences"
+IMF and World Bank,3,kuwait,rejected,2026-10-11,2026-10-21,Hawkish sentiment returns to IMF and World Bank meetings
 Fifa Council,3,oman,rejected,2026-10-15,2026-10-17,Gianni Infantino apologises to Fifa Council over World Cup sell-off plan
 Sustainable Energy,3,oman,rejected,2026-10-18,2026-10-19,Sultan Qaboos University to open Sustainable Energy Research Centre lab tomorrow
 Abha International Airport,3,saudi,rejected,2026-10-08,2026-10-08,Saudi Arabia: Attacks target facilities at Abha International Airport and King Khalid International Airport
@@ -36,12 +38,13 @@ SriLankan Airlines,2,abudhabi,rejected,2026-10-03,2026-10-08,SriLankan Airlines 
 Clear Channel Outdoor Holdings,2,abudhabi,rejected,2026-10-07,2026-10-14,Clear Channel Outdoor Holdings Clears Last Regulatory Hurdle For Mubadala Capital Buyout
 UAE Ministry,2,abudhabi,rejected,2026-10-13,2026-10-17,"EDGE, UAE Ministry of Defence, Brazilian Army and Imbel strengthen strategic defence cooperation"
 African Energy,2,abudhabi,rejected,2026-10-15,2026-10-16,"ADNOC Makes Strong Debut at African Energy Week 2026, Signals Growing Ambitions Across Africa"
-Global Fairs & Events Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
 Noatum Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
+Global Fairs & Events Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
+Infinity Power,2,abudhabi,rejected,2026-10-12,2026-10-20,"Infinity Power picks AIKO, 773.5MWp"
+Port Technology,2,abudhabi,rejected,2026-10-02,2026-10-20,AD Ports cuts emissions intensity by 6 per cent in 2025
 Liveability and Investment,2,abudhabi,rejected,2026-09-30,2026-10-01,Khaled bin Mohamed bin Zayed attends Liveability and Investment Exhibition (LIVEX 2026)
 Tahnoun International Airport,2,abudhabi,rejected,2026-10-12,2026-10-14,Al Ain International Airport renamed to Tahnoun International Airport
 Bank of America,2,,rejected,2026-10-13,2026-10-14,US hits Bank of America with $1.2 billion fine1h ago1m read
-IMF and World Bank,2,,rejected,2026-10-11,2026-10-12,Hawkish sentiment returns to IMF and World Bank meetings
 PARTNER CONTENTArif Developments,2,,added,2026-10-02,2026-10-12,PARTNER CONTENTArif Developments honoured with Excellence in CSR award2h ago3m read
 Sustainable Energy Research Centre,2,oman,rejected,2026-10-18,2026-10-19,Sultan Qaboos University to open Sustainable Energy Research Centre lab tomorrow
 Commerce Ministry,2,oman,rejected,2026-10-14,2026-10-15,Commerce Ministry revokes licenses of multiple Sanad Services Centers for regulatory violations
@@ -49,11 +52,9 @@ GCC Petroleum,2,oman,rejected,2026-10-05,2026-10-06,Oman participates in 37th GC
 Port of Salalah,2,oman,rejected,2026-10-18,2026-10-19,Port of Salalah transition puts $200 million equipment in focus
 Postal Development,2,oman,rejected,2026-10-09,2026-10-10,Oman tops regional ranking in Postal Development Index for second consecutive year
 Jindal Steel,2,oman,added,2026-10-11,2026-10-13,Jindal Steel Oman and Oman Cement Company sign strategic partnership to advance sustainable cement production
-Leadership Development,2,oman,rejected,2026-09-29,2026-09-30,RAM launches Leadership Development Programme in the Food Security Sector
 Social Development Ministry,2,oman,added,2026-10-11,2026-10-18,Social Development Ministry celebrates Omani Women's Day
 Municipal Council,2,oman,rejected,2026-09-30,2026-09-30,Municipal Council elections media committee holds meeting
 US-based Activate Capital,2,qatar,rejected,2026-10-15,2026-10-15,US-based Activate Capital joins Qatar Investment Authority's Fund of Funds
-Indian Finance,2,qatar,rejected,2026-09-29,2026-09-30,Minister of State for Foreign Trade Affairs Meets Indian Finance and Corporate Affairs Minister
 Bank of China,2,qatar,rejected,2026-10-14,2026-10-15,QCB Governor participates in joint meeting of GCC Central Bank Governors with the People’s Bank of China
 Al-Attiyah International Energy,2,qatar,rejected,2026-10-05,2026-10-05,Al-Attiyah International Energy Awards to fete emerging energy leaders
 Meteorology Department,2,qatar,rejected,2026-09-30,2026-10-13,Strong winds to affect parts of Qatar: Meteorology Department
@@ -73,7 +74,6 @@ Siemens Energy,2,saudi,rejected,2026-10-02,2026-10-05,Siemens Energy’s supervi
 London House Exchange,2,dubai,rejected,2026-10-01,2026-10-02,UAE investor GII acquires majority stake in UK’s London House Exchange
 Austrian Airlines,2,,rejected,2026-10-19,2026-10-19,Flight from Israel diverted after ‘threat’ reported
 Egyptian Exchange,2,,rejected,2026-10-12,2026-10-13,Banque du Caire to sell stake in IPO
-Deutsche Bank,2,dubai,rejected,2026-09-29,2026-10-07,Deutsche Bank names Vikas Arora Philippines country head
 Bank of Kuwait,2,kuwait,rejected,2026-09-30,2026-10-09,Kuwait lenders pull $8bn from central bank after war stimulus
 Abha Airport,2,saudi,rejected,2026-10-08,2026-10-08,Saudi Arabia warns Houthi attacks will not go unpunished
 International Monetary Fund,2,,rejected,2026-10-08,2026-10-13,IMF to support push for economic reforms in war-torn Yemen
@@ -81,7 +81,6 @@ Al-Shaheed Park,2,kuwait,rejected,2026-10-01,2026-10-01,Prime Minister opens Al-
 Zayed International Airport,2,abudhabi,rejected,2026-10-07,2026-10-16,duplicate of existing adairports (Abu Dhabi Airports) -- the renamed main terminal it operates; AKA added
 Noor Energy,2,bahrain,added,2026-09-28,2026-09-28,DEWA completes $2.7bn refinancing of Noor Energy 1
 Asian Infrastructure Investment Bank,2,qatar,rejected,2026-09-28,2026-09-28,"Asian Infrastructure Investment Bank can support Gulf connectivity, integration projects: Minister of Finance"
-Qatar Real Estate,2,qatar,rejected,2026-09-27,2026-09-27,Aqarat: Qatar Real Estate Sales Value Rises in 39th Week of 2026
 Jamjoom Pharma,2,saudi,added,2026-10-11,2026-10-15,already mapped as lst_4015 -- promoted (listed-company promotion) with real name/power/leadership this round
 Jaber Hospital,2,kuwait,added,2026-10-12,2026-10-15,Jaber Al-Ahmad Al-Sabah Hospital (Kuwait MOH
 UAE-listed MAIR Group,2,,added,2026-09-24,2026-09-24,UAE-listed MAIR Group to acquire 70% stake in Espressolab owner Eslab
@@ -160,16 +159,19 @@ Fakhruddin Properties,2,dubai,added,2026-09-08,2026-09-10,Fakhruddin Properties 
 Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
 Boring Company,1,abudhabi,rejected,2026-10-08,2026-10-08,THIS MORNING: Mubadala eyes more Asia exposure + more The Boring Company projects could be in the pipeline
-Infinity Power,1,abudhabi,rejected,2026-10-12,2026-10-12,"Infinity Power picks AIKO, 773.5MWp"
-Port Technology,1,abudhabi,rejected,2026-10-02,2026-10-02,AD Ports completes $835 million Brazil port acquisition
 Labour Ministry,1,oman,added,2026-09-30,2026-09-30,Labour Ministry urges shift to capability economy
-Port City,1,qatar,rejected,2026-09-29,2026-09-29,"QC briefed on investment opportunities in Port City Colombo, Sri Lanka"
+Leadership Development,1,oman,rejected,2026-09-30,2026-09-30,ABRAJ launches Leadership Development Program with 40 participants
+Indian Finance,1,qatar,rejected,2026-09-30,2026-09-30,Minister of State for Foreign Trade Affairs Meets Indian Finance and Corporate Affairs Minister
+Hamad University,1,qatar,rejected,2026-09-30,2026-09-30,"HH the Amir Issues Amiri Decision Establishing, Organizing Tamim bin Hamad University for Military and Technology Sciences"
+Qatar Real Estate,1,qatar,rejected,2026-10-20,2026-10-20,Cityscape Qatar to bring leaders and global experts together for 4th Qatar Real Estate Forum
 Secretary-General of Ministry,1,qatar,rejected,2026-10-05,2026-10-05,Secretary-General of Ministry of Foreign Affairs Meets Norwegian Ambassador
 Saudi Construction,1,saudi,rejected,2026-10-07,2026-10-07,Saudi Construction Index drops to 54.4 points in September
 Moon World Resorts,1,bahrain,rejected,2026-09-30,2026-09-30,Moon World Resorts appoints BDP Quadrangle as Lead Architects
+Deutsche Bank,1,dubai,rejected,2026-10-07,2026-10-07,Deutsche Bank expands Middle East IB business with key Dubai appointments
 Palestinian Authority,1,,rejected,2026-10-11,2026-10-11,Palestinian Authority blames Israeli ‘obstacles’ for latest election delay
 US Treasury Department,1,,rejected,2026-10-02,2026-10-02,US widens Iran sanctions to automotive and rail sectors
 European Commission,1,kuwait,rejected,2026-10-06,2026-10-06,STRASBOURG: European Commission President Ursula von der Leyen warned on Tuesday against a push by Germany and other member states for 'larg
+Port City,1,qatar,rejected,2026-09-29,2026-09-29,"QC briefed on investment opportunities in Port City Colombo, Sri Lanka"
 Abu Dhabi Construction,1,abudhabi,rejected,2026-10-01,2026-10-01,"Mubadala, TARAF Partner With Kerzner For One&Only Private Residences In Abu Dhabi"
 US Energy,1,oman,rejected,2026-09-27,2026-09-27,"Only way to a better America is more energy addition, says US Energy Secretary"
 Azerbaijan International Investment,1,qatar,rejected,2026-09-27,2026-09-27,QC participates in ‘Azerbaijan International Investment Forum’
