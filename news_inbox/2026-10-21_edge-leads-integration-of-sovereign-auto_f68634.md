@@ -1,0 +1,5 @@
+# EDGE leads integration of sovereign autonomous systems in UAE Navy Demonstration with allied forces
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYmlFRl8waHhEblZ4a0NqTHZSNW0wbWd2VmpWOWQtNGJ4WEgwbkU0dm1pdUpIOUpmWWpNc1pnYWRHbWVKeEdtSkpfdWFsYUpOalY1Ty12VU94ZFdVRHRZbXJrTUtiMV9nN1Y3bFRzR2tDdmlvTDE1SUFrbnkyOWRibEJGcnpZb1hudWY1bjZKS1hQV1VNRVR1a2tyNkZ3QVhSQk9TQkMzcXFPbVNRV1JQUmwxenJmNTdoNVBnb2x0MEV2ZkxOdjFIZEJoYTBSZnFfbmJHZDZDR21MaHY5bEt2ZFBjVWx0Vm1zU2ZRcUFpc3VNSGs?oc=5
+
+EDGE leads integration of sovereign autonomous systems in UAE Navy Demonstration with allied forces    Zawya

@@ -1,0 +1,5 @@
+# ADNOC to unveil new local manufacturing opportunities at upcoming industry forum
+source: Fast Company Middle East
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxNSERQOXhhVzF0bmx4REo2YTVOZF9xaGRUbkJ4eXNBQ25fak5mVjhINmFZbFJ4dm1iQ1ZpNFNmaE93S3ZNek5ScmNDemVuOVJCa3RxT3dSRzItTkZrRTVSUFFoblRDZEN3cWoxMVNTVEE2b2RVRkFjNnY0akFRMXpPaldnOG1sNHhYYzVYZGFFWExEWmxpeTJBLUJjNVBtZlY3ZTE1WkdIVUp5dk5HN09PSlpB?oc=5
+
+ADNOC to unveil new local manufacturing opportunities at upcoming industry forum    Fast Company Middle East

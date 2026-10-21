@@ -1,0 +1,5 @@
+# First Etihad flight connecting Abu Dhabi and Grand Duchy arrives at Luxembourg Airport
+source: Luxembourg Times
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxPS1dpbjZmbmpOc0RlcFdSMy1IQVhfbGctS1RDV0VEeE5KWjg1a2tMMlc2NmI1RnlHLWVWQnhCUG0yVDlmS1BTcFJiVk9mNl9zRTZ3UW5MMVhEbUlnbHZMSkcyR3llZTVTdlZNaURjR2VyaTMyOGhRU1VxdEt4end1YVh1NWJWX0l6Ulg1QmExZU8yZ2NzanhxWkV3U1FweHpZclQ0enozakNsUGN6cGI0QTlpTEx6OGVGTkVKUGFUZ3c4dm5sS2p0TG9CSVkyUHd6TFE?oc=5
+
+First Etihad flight connecting Abu Dhabi and Grand Duchy arrives at Luxembourg Airport    Luxembourg Times
