@@ -1,5 +1,5 @@
 ﻿id,type,group,name,rss_url,page_url,freq_hours,status,added,notes
-agbi,media,regional,AGBI,https://www.agbi.com/feed/,https://www.agbi.com/,,active,2026-09-13,
+agbi,media,regional,AGBI,https://www.agbi.com/feed/,https://www.agbi.com/,,active,2026-09-13,DNS resolution failing as of 2026-10-21 (getaddrinfo ENOTFOUND on both feed and page URL; 19 consecutive fails) -- URL looks correct, domain may be down or re-hosted; recheck in a few days before trying a URL change
 arabianbusiness,media,regional,Arabian Business,https://www.arabianbusiness.com/feed,https://www.arabianbusiness.com/,,active,2026-09-13,IP-blocked on CI runner; works from residential IPs
 zawya,media,regional,Zawya,https://www.zawya.com/en/rss,https://www.zawya.com/en/business,,active,2026-09-13,
 ft_me,media,regional,FT Middle East,https://www.ft.com/middle-east?format=rss,https://www.ft.com/middle-east,12,active,2026-09-13,
