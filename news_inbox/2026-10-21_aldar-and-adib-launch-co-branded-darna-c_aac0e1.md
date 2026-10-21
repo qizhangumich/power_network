@@ -1,0 +1,5 @@
+# Aldar and ADIB launch co-branded Darna Covered Cards
+source: Zawya
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxQLXJPdWhWLVlNZnNwYmlYeVU4U2VRTF9DbTlCbU11UFRKWjFPOVFOcUF3V3ROeFR6OHlONG9rT3MxQ0xjaGcteVdxWUZyZXp1YmFUNWNiQ0FaV1BGVVlmd0JfQ1p4TXVmbi1yUkN4TjlGQlNhV2tuRllsZTVCYlBVMTBLWUFJUEFoMERuWjJTOFl1aUNscklQdlh3NGhOTmtaeE1NRFFyMGtoSGhEeWo3eUg3QU4?oc=5
+
+Aldar and ADIB launch co-branded Darna Covered Cards    Zawya

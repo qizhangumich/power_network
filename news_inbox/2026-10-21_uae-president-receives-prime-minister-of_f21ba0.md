@@ -1,0 +1,5 @@
+# UAE President receives Prime Minister of Singapore
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMilgFBVV95cUxQcl8zX2llUFZ5X2lMQ05GUllvUlZYcERSVXBBdWlmY3gyNENqTlF5YlNfMEs0OVo3TjJHMng5NVpoTjV0N1NhaVRNR1hVVnBGeGJJejkxcTVNdFI4MjZkRjhkM3dzaThfRC1BY2JRZThTX2lEWFJqV2lBU3psa193Q1d5OVl3eTFiZUZldE5sOW1ldGY3YUE?oc=5
+
+UAE President receives Prime Minister of Singapore    Gulf Today

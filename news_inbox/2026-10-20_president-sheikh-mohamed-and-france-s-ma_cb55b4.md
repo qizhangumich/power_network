@@ -1,0 +1,5 @@
+# President Sheikh Mohamed and France's Macron tour Abu Dhabi defence companies
+source: The National
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdjNrcXd5Y01mWEdJZndYM29Gbzd6VzNVYXpBZ1l3cElFV2ZaY2xudDI2aUNYSE56OFFBbHFnaWpZYXpTa2hrdjNLQTk1RXg1WWRXME11RHFfTjVxbXp3Yk81X2xkbTdTZGVpOHhSb2RONVNwOE9QX055MkZJcnpvbWdnVGxQa1VNX2p0Q3IyNkZrZ1B1emxSVThqQ29pcDZqVFNENE5Pem5DTERnMzMyRkEtckw0QjJTTnVERHdEc21WQUUzc1pEQw?oc=5
+
+President Sheikh Mohamed and France's Macron tour Abu Dhabi defence companies    The National

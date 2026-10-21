@@ -1,0 +1,5 @@
+# AD Ports Group Reports Progress in Reducing the Emissions Intensity of Operations in 2025
+source: Business News This Week
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxPR2c2QkVXalJVbnBOUmRMQlcwX3hkaDR0bzNCZG9rQmlwTW5kbFJGYi1VNTk2NEZzdGlwUE93MzBqcngxbEJTREMwZzFqUUEyMmJCUC1Ka1dvY2RpYnlhUmIyZW5LbWxCVnhpd3ZsZVY4RTk1ZWl0RzJMZzNGelJlRVpTWmdfYllEZkVPb0J1QWwzU0ZURi1ycUxmMVhDWFM3Z1ZENDBBTU9kaFM4YTRlalV4RnBWZzhZVThSSVM5OG9UMVlEU2xTdmw0Zzc?oc=5
+
+AD Ports Group Reports Progress in Reducing the Emissions Intensity of Operations in 2025    Business News This Week

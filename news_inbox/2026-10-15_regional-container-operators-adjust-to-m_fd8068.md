@@ -1,0 +1,5 @@
+# Regional container operators adjust to Middle East conflict
+source: Seatrade Maritime News
+url: https://news.google.com/rss/articles/CBMipwFBVV95cUxPQlpIbDk5SkFoeXpRSmZZUUdlMUNWMFhZQXVCcXN0S3lQZVpmc0o4VnRkTXkxNXhUNWlPbWFqY3BmblVBOXpqd3l3OEt5TlhfY1RtV1BodzhqYVBDeGZDVjNzb25OdjhZTS1FYUlrWmxaRmlKaWI0VTRfWUhzTWRjZTdzdTFaVDFXUEVidVlQY2dLT1JNS3pjNGhTQzdIYTdwLXFEYVpMOA?oc=5
+
+Regional container operators adjust to Middle East conflict    Seatrade Maritime News

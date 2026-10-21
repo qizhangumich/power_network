@@ -1,0 +1,5 @@
+# President Sheikh Mohamed hosts reception in Abu Dhabi for Prime Minister of Singapore
+source: The National
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZV9SRjBGVk1JSUFqcG8xRHpOOXV2cHBuckwxQXhKcFU5WElGYzJwVUtXU2FPOUt0QzFXZ3ZwNE93V2tNSG1Wemo2cEtPNnFUREdSaHcwRzNIM0Y2OE43Wm1OMm1td3dJRTZnbHhWN0U3Y0JUV2hhbEZQTUo2eGd1S2xPTkNFV1lxVFhrekpDNnJ2bXlQT1dWaVZMUGNwOC1rLTRmQWsyQnRUM1dWWWZhMTJCSnlyZFJFWDAyelkwWG4tUmdPS29CV1VYaVBZMElzUnNndw?oc=5
+
+President Sheikh Mohamed hosts reception in Abu Dhabi for Prime Minister of Singapore    The National

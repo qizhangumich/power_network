@@ -1,0 +1,5 @@
+# Sheikh Tahnoon holds talks with US venture capitalist David Fialkow
+source: The National
+url: https://news.google.com/rss/articles/CBMivAFBVV95cUxNbFRsT2pmaF9oZWs0RW1YTGdOYnpNNkVaSDlzTUZNYnhhUDJtS25PVWtPRF9oUk56NnBycUU4Z1Y4dTZfdnd4d1dsdWE4Yjc0NEE4YUN6UTVQV0lCSUlmdjJKWTFtdC1OZlRYX2IxXzJTWGk5TjctRjdIZFNOQ3JPcUI3bkk4cnk0TkZ6N0JMQTNsOFk1M0hGRlpaUXNuVWFaSE5IM2tTd092MmhnNzdvTDlDall5SzZhcHZYYQ?oc=5
+
+Sheikh Tahnoon holds talks with US venture capitalist David Fialkow    The National
