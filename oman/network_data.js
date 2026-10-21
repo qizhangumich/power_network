@@ -1577,6 +1577,10 @@ const PEOPLE = [
     ["aster_al_raffah","Founder Chairman and Managing Director","board","v"]]},
   {id:"alisha_moopen", n:"Alisha Moopen", t:2, p:60, s:"health", roles:[
     ["aster_al_raffah","Deputy Managing Director","executive","v"]]},
+  {id:"hilal_bin_mohammed", n:"Hilal bin Mohammed bin Hamoud Al-Busaidi", t:2, p:60, s:"materials", roles:[
+    ["pam_oman","Chief Executive Officer of the Public Authority for Mining","executive","v"]]},
+  {id:"rashid_bin_ahmed", n:"Rashid bin Ahmed bin Rashid Al-Shamsi", t:2, p:58, s:"gov", roles:[
+    ["min_social_dev","Undersecretary of the Ministry of Social Development","executive","v"]]},
 ];
 
 const OWNERSHIP = [

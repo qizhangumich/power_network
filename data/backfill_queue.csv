@@ -9,7 +9,6 @@ kuwait,national_assembly,National Assembly,gov,72,0,skip
 abudhabi,bp,bp,energy,70,0,pending
 abudhabi,shell,Shell,energy,70,0,pending
 abudhabi,exxonmobil,ExxonMobil,energy,70,0,pending
-oman,min_social_dev,Ministry of Social Development,gov,70,1,pending
 qatar,exxonmobil,ExxonMobil,energy,70,1,pending
 qatar,shell,Shell,energy,70,1,pending
 abudhabi,digit9,Digit9,finance,68,0,pending
@@ -42,7 +41,7 @@ abudhabi,fortress,Fortress Investment Group,finance,60,0,pending
 abudhabi,bayanat_ai,Bayanat AI,tech,60,1,pending
 dubai,gems_education,GEMS Education,education,60,0,pending
 oman,sct,Space Communication Technologies,tech,60,1,pending
-oman,pam_oman,Public Authority for Mining,materials,60,0,pending
+oman,pam_oman,Public Authority for Mining,materials,60,1,pending
 qatar,sinopec,Sinopec,energy,60,0,pending
 qatar,muntajat,Qatar Chemical and Petrochemical Marketing and Distribution Company,materials,60,1,pending
 qatar,ras_laffan_petrochem,Ras Laffan Petrochemicals Company,materials,60,1,pending

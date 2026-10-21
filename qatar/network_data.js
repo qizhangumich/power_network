@@ -494,7 +494,7 @@ const PEOPLE = [
   {id:"sheikh_khalid_bin", n:"Sheikh Khalid Bin Abdullah Al-Thani", t:2, p:52, s:"materials", roles:[
     ["industriesqatar","Board Member","board","v"]]},
   {id:"abdulrahman_ali_al", n:"Abdulrahman Ali Al-Abdulla", t:2, p:52, s:"materials", roles:[
-    ["qatar_steel","Managing Director and CEO","executive","ns"],
+    ["qatar_steel","Managing Director and CEO","executive","v"],
     ["muntajat","Chairman","board","v"],
     ["industriesqatar","Board Member","board","v"]]},
   {id:"abdulla_ahmad_al", n:"Abdulla Ahmad Al-Hussaini", t:2, p:52, s:"materials", roles:[
