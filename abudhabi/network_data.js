@@ -312,6 +312,7 @@ const INSTITUTIONS = [
   {id:"insead", n:"INSEAD", s:"education", t:3, p:58, short:"INSEAD"},
   {id:"abu_dhabi_chamber", n:"Abu Dhabi Chamber of Commerce and Industry", s:"gov", t:2, p:66, short:"Abu Dhabi Chamber"},
   {id:"insead_abu_dhabi", n:"INSEAD Middle East Campus (Abu Dhabi)", s:"education", t:2, p:62, short:"INSEAD Abu Dhabi"},
+  {id:"sdeira", n:"Sdeira Group", s:"realestate", t:3, p:56, short:"Sdeira Group"},
 ];
 
 const PEOPLE = [
@@ -1459,6 +1460,7 @@ const PEOPLE = [
     ]},
   {id:"abdullah_al_hameli", n:"Abdullah Al Hameli", t:2, p:58, s:"industry", roles:[
     ["adports","CEO, Economic Cities & Free Zones Cluster","executive","v"],
+    ["sdeira","Chairman of the Board","board","v"],
     ]},
   {id:"saif_al_mazrouei", n:"Saif Al Mazrouei", t:2, p:58, s:"industry", roles:[
     ["adports","CEO, Ports Cluster","executive","v"],
@@ -2987,7 +2989,7 @@ const PEOPLE = [
     ["kezad","Chief Financial Officer, Economic Cities & Free Zones","executive","v"],
     ]},
   {id:"abdulaziz_a_bawazeer", n:"Abdulaziz A Bawazeer", t:2, p:60, s:"industry", roles:[
-    ["kezad","Chief Executive Officer, Sdeira Group","executive","v"],
+    ["sdeira","Chief Executive Officer","executive","v"],
     ]},
   {id:"musallam_al_rashdi", n:"Musallam Al Rashdi", t:2, p:46, s:"industry", roles:[
     ["kezad","General Manager, KEZAD Utilities & Facilities Management","executive","v"],
@@ -4395,6 +4397,7 @@ const OWNERSHIP = [
   ["mubadala_cap_sol","mubadala_capital","subsidiary business line","v"],
   ["mubadala_bio","mubadala","subsidiary (National Champion)","v"],
   ["insead_abu_dhabi","insead","campus of","v"],
+  ["sdeira","kezad","subsidiary (rebranded from KEZAD Communities)","v"],
 ];
 
 const FAMILY = [
@@ -4481,4 +4484,5 @@ const AKA = {
   insead:["European Institute of Business Administration","Institut Européen d'Administration des Affaires"],
   abu_dhabi_chamber:["ADCCI"],
   insead_abu_dhabi:["INSEAD Middle East Campus","Abu Dhabi"],
+  sdeira:["KEZAD Communities"],
 };

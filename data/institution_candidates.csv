@@ -1,6 +1,4 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Sdeira Group,2,abudhabi,pending,2026-10-19,2026-10-20,Sdeira Group Unveils Masterplan for Aryam Community at Kezad Al Mamourah
-Communications and Information Technology,2,qatar,pending,2026-09-30,2026-10-20,"Minister of Communications and Information Technology Discusses Digitalization, AI Cooperation with Finnish Delegation"
 Riyadh Airport,9,saudi,rejected,2026-10-09,2026-10-20,Etihad Extends UAE-Saudi Flight Cancellations Until October 13 After Riyadh Airport Disruptions
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
 Bandhan Bank,6,abudhabi,rejected,2026-10-12,2026-10-13,Bandhan Bank share price jumps 8% today after 4% fall in a month | What's fuelling surge in banking stock
@@ -54,6 +52,7 @@ Postal Development,2,oman,rejected,2026-10-09,2026-10-10,Oman tops regional rank
 Jindal Steel,2,oman,added,2026-10-11,2026-10-13,Jindal Steel Oman and Oman Cement Company sign strategic partnership to advance sustainable cement production
 Social Development Ministry,2,oman,added,2026-10-11,2026-10-18,Social Development Ministry celebrates Omani Women's Day
 Municipal Council,2,oman,rejected,2026-09-30,2026-09-30,Municipal Council elections media committee holds meeting
+Communications and Information Technology,2,qatar,rejected,2026-09-30,2026-10-20,"Minister of Communications and Information Technology Discusses Digitalization, AI Cooperation with Finnish Delegation"
 US-based Activate Capital,2,qatar,rejected,2026-10-15,2026-10-15,US-based Activate Capital joins Qatar Investment Authority's Fund of Funds
 Bank of China,2,qatar,rejected,2026-10-14,2026-10-15,QCB Governor participates in joint meeting of GCC Central Bank Governors with the People’s Bank of China
 Al-Attiyah International Energy,2,qatar,rejected,2026-10-05,2026-10-05,Al-Attiyah International Energy Awards to fete emerging energy leaders
@@ -78,6 +77,7 @@ Bank of Kuwait,2,kuwait,rejected,2026-09-30,2026-10-09,Kuwait lenders pull $8bn 
 Abha Airport,2,saudi,rejected,2026-10-08,2026-10-08,Saudi Arabia warns Houthi attacks will not go unpunished
 International Monetary Fund,2,,rejected,2026-10-08,2026-10-13,IMF to support push for economic reforms in war-torn Yemen
 Al-Shaheed Park,2,kuwait,rejected,2026-10-01,2026-10-01,Prime Minister opens Al-Shaheed Park Phase III on behalf of Amir
+Sdeira Group,2,abudhabi,added,2026-10-19,2026-10-20,Sdeira Group Unveils Masterplan for Aryam Community at Kezad Al Mamourah
 Zayed International Airport,2,abudhabi,rejected,2026-10-07,2026-10-16,duplicate of existing adairports (Abu Dhabi Airports) -- the renamed main terminal it operates; AKA added
 Noor Energy,2,bahrain,added,2026-09-28,2026-09-28,DEWA completes $2.7bn refinancing of Noor Energy 1
 Asian Infrastructure Investment Bank,2,qatar,rejected,2026-09-28,2026-09-28,"Asian Infrastructure Investment Bank can support Gulf connectivity, integration projects: Minister of Finance"
