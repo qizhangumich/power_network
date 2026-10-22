@@ -1,0 +1,5 @@
+# Mubadala Abu Dhabi Open to celebrate fifth anniversary as 2027 tournament is announced
+source: The National
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLVhoaVA5a1Q5TlFUc3VrUXFxOWZxbG1HOE9pVVBUNVNFLTIwRnMzdEVZWkZQVVMyQ3hXVFdKVXoxN2JKcm5wNWxHX2tEMkp0WFYyLXlTSHdwMk8wZm9IZHM0cjBpaUljbTRqY1psODFjMVhDZnFsNzZwaUtZTWlOZGd1Zkw5aHE2ZXB2ZHgtVlREbVBtSzNRVzN2U0RRVzUwTEwwazd0ODFQZXVIMG9lcDR5cnBUS3NRU1hCTzFQcjZXZXBhM3ZMd1JJY25aMnJSLVBvXzdETnpxMWc?oc=5
+
+Mubadala Abu Dhabi Open to celebrate fifth anniversary as 2027 tournament is announced    The National

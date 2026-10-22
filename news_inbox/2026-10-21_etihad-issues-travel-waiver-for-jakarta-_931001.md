@@ -1,0 +1,5 @@
+# Etihad Issues Travel Waiver For Jakarta Rotation Affected By Operating Airline Change & Switch To Inferior Hi Fly
+source: LoyaltyLobby
+url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZWJkb2hGRlRaeHJGS1F5MWhIcDlGSUF3cmpZcnJzdzhQVjlMSnN4b013bmJ3cUtkNTFlbHlEc2stU2FSQTZqNHoxZGxLVWN4V01NVnJ0UFl5OG81YzlVa05LOU01SmRCaVRQOVotbS1TVVhNOFBVZVlqNnlHR1NYbWh1d2RXdkJXU01FUHE2Y1A1VTZXNmpLRVl5Q2VxRkYtZW1LTVl4ZzVOdnNUOE5VVi05RXFRNTQ3VDF4UG01anphcjdxOHRhRUl3QmpWVENkYXlMOEJkdjBfU1dJRi1RTEJ3?oc=5
+
+Etihad Issues Travel Waiver For Jakarta Rotation Affected By Operating Airline Change & Switch To Inferior Hi Fly    LoyaltyLobby

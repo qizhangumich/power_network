@@ -1,0 +1,5 @@
+# UAE flight status today: Cancellations, delays and updates after Saudi airport attack
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQWUxOWnpHSk9jZFpUcnZTaWt1LVMxdm5vOS1BNVVCWU1ISFRjb3dEM1hJemxubmY5UXFTUllDV1RkeVB1bTdKOXNqUTlnNV9TUFFuQ0t3bnE1X0JnOUNrNnFRanJRUGlramJiS191dF83dnlfbVlzV2FTR09KUEpIMXVxcnBmc2l2M0o5SDVrQTV6YkJBeDd0eDVnalNwbGFHYmw1c1pxTVQ4dkwtSUNaN2pQUHgtOXhfeHM5S2Q1cFpFREdReV9VVDVJNDRmb0k?oc=5
+
+UAE flight status today: Cancellations, delays and updates after Saudi airport attack    Gulf News

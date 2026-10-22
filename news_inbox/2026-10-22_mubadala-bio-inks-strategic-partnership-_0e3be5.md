@@ -1,0 +1,5 @@
+# Mubadala Bio inks strategic partnership with Marcyrl Group to localise broad portfolio of women’s health in UAE
+source: BioSpectrum Asia
+url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxQODV2SXpmNTk4S3FJcDJrTGplaHVfQ0ZtNXRPdWs2dllkYUhIWHo0eWd6MmFIXzFUUkwyZ2ZjMUFpWUtxSDd4R1haWGNFdGRXVkIwYjhtam1SLUwtNGNhY0liYXEyMDNiUTJWQm9TYW5OUU5CWU81czlHeWVkS2p0WVR6T3ZGNEI1NnQ4TXRwWFdpU0pXWFNiQzVJMExnd0tMZFl5ejYxOG5MenpKajhkVi1TXzAtby1MdWJyRnotRWhmd1RLNDRiejFROHNVNWYyMUp1STllNHBQTV8wUjdJNUdLOVA5a0JpZTZDVVM4UXhDZUk?oc=5
+
+Mubadala Bio inks strategic partnership with Marcyrl Group to localise broad portfolio of women’s health in UAE    BioSpectrum Asia

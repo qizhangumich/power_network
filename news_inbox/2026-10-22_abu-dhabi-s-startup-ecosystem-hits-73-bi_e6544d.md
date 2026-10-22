@@ -1,0 +1,5 @@
+# Abu Dhabi’s startup ecosystem hits $73 billion,
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPbEFmSDJvbWpSM0xGZGhpSW5ETjZMR3JLQVZXQjNUU3dsT3RTaGZZV3pqWFJXQ3V0NnhrdVdmc3dpalF5WmlSMUdRX3o1bXZUS043cVhQMTZyUW92OWVIaW1sdFJ3UHc3S3lsOElidkJBbHVncFVoeDBvejZ6amFHOUhhLUIzaEs5MGpIZnpjUjN2VlE4R3dVajY4MVJFVTY0RExadUxQTXUyRmxwSXB3dVRvMTduWjJrVldNUEo2Nk5YSV9vMl9oRDh5SQ?oc=5
+
+Abu Dhabi’s startup ecosystem hits $73 billion,    Gulf News

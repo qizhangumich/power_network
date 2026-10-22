@@ -1,0 +1,5 @@
+# World Utilities Congress 2027 to Bring Global Utilities Leaders Together in Abu Dhabi
+source: TheNewsMarket
+url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxOM1V0SlFtMzlwck9WSDFaSG5Rc1NBMnVOM2hxdnpUQVhFRXdfMGlXdk1wNzZSVnhicXpleTVFQTFOTVNORi02eC1VaEluZXBRUXJNY1NydTJQMWpjZTJBeFh6WFB6dl9ELV9lQUh0MXpOcXJ1bHRsLWtmdm1tRC1qTlgzbk5yUHhFNWhpWEVibndxZHo4RUZaV2xqdWFaOUxvamhjVFVhelpSY3F3MWZKaFE4R0lncVl4TTg2UW4yb1N4eVJneUJsRXhycUkyUHA5REVMazhZNXlzSkQ2aWVvYnFwY09xUmVnUVUtWG5lZ2c?oc=5
+
+World Utilities Congress 2027 to Bring Global Utilities Leaders Together in Abu Dhabi    TheNewsMarket

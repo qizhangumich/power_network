@@ -1,0 +1,5 @@
+# Aldar Education signs MoU with Toddle to unify learning systems across its owned schools
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxOY21XeGhuMzZRaFdCdE85dEdXc0JIaThHVmNIUE1aeGxESWNRSGU2S0xuQ0VvRFZkd1RBSWF6OTlLdFhJWmpvNF93TFFwRUYwUFVDaWE2QndBOFNZclhGWFdZa3RkUnBfMF9OaXNBTzVsVmNEM0RiZDZzbHREWnF4TnFZd0RDV0g3a3VpUTVSamZFVUhtaGx6aDlfellXSG1BdGdEV0p1QXphQ28wTkR1UW5fRXBUX0NWcmdBcWVRekFWVkoxRjFscE1SWk5KbHVGallIaEJTZ2p0WTBpUW95LXN1dHc?oc=5
+
+Aldar Education signs MoU with Toddle to unify learning systems across its owned schools    Zawya

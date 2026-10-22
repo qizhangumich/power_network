@@ -1,0 +1,5 @@
+# Crown Prince of Abu Dhabi arrives at Prime Minister’s Office in Athens to discuss strengthening strategic partnership between UAE and Greece
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMinwJBVV95cUxOR2pGdTBOOHd5eGJyZlFnVi1LT0hsT0w1VHdjbnJoTHpwcnBpTXE0WHBCM2psN2xNVTZrdmlnY3d1WUpmOE9pb19pVjlqbm85bXpFbUN1Z3VMNFg5VG1IYXRVb3lBSGlUVkNiRUFWTl9mNktJempwZmI1ZENRb2JiMzdSZnNYU3JwZlRtbUx5WlB0eVdFQ2VkdG4yMGVhemo1OUdwLS1ZelZCR0QxRlZTYVNabHVGYWM4RTVzMVB0V1F5S1h0cERwOENRamYxZll3VmQwajlRdzVhR0JEdnZfQmtpZmZwamdQN2tsWHFOTDZ5VmYzcVZPYUNTdndNNk9KVHdraGFoVjZGLWVTODI2SVEzcFBqUGVUaUNoQXhSVQ?oc=5
+
+Crown Prince of Abu Dhabi arrives at Prime Minister’s Office in Athens to discuss strengthening strategic partnership between UAE and Greece    مكتب أبوظبي الإعلامي
