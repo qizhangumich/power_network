@@ -15,6 +15,7 @@ abudhabi,digit9,Digit9,finance,68,0,pending
 abudhabi,goldman,Goldman Sachs,finance,66,0,pending
 abudhabi,eni,Eni,energy,64,0,pending
 abudhabi,mckinsey,McKinsey & Company,industry,64,0,pending
+kuwait,dgca_kuwait,Directorate General of Civil Aviation,gov,64,1,pending
 oman,tax_authority_oman,Tax Authority,finance,64,1,skip
 qatar,eni,Eni,energy,64,0,pending
 qatar,grsia_daman,General Retirement and Social Insurance Authority,sovereign,64,1,skip

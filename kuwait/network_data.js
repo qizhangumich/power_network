@@ -245,6 +245,7 @@ const INSTITUTIONS = [
   {id:"mk", n:"AlMudhaf & AlKulaib Group (MK Group)", s:"conglomerate", t:3, p:55, short:"MK Group"},
   {id:"jaber_hospital", n:"Jaber Al-Ahmad Al-Sabah Hospital", s:"health", t:2, p:58, short:"Jaber Hospital"},
   {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
+  {id:"dgca_kuwait", n:"Directorate General of Civil Aviation", s:"gov", t:2, p:64, short:"DGCA Kuwait"},
 ];
 
 const PEOPLE = [
@@ -1970,6 +1971,8 @@ const PEOPLE = [
     ["moo_kw","Undersecretary","executive","v"]]},
   {id:"khaled_walid_al", n:"Khaled Walid Al-Din", t:2, p:58, s:"energy", roles:[
     ["moo_kw","Assistant Undersecretary for Technical Affairs","executive","v"]]},
+  {id:"sheikh_hamoud_mubarak", n:"Sheikh Hamoud Mubarak Al-Hamoud Al-Sabah", t:2, p:58, s:"gov", roles:[
+    ["dgca_kuwait","Director General","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2192,4 +2195,5 @@ const AKA = {
   mk:["Al-Mudhaf & Al-Kulaib Group","AlMudhaf AlKulaib Group"],
   jaber_hospital:["Jaber Al-Ahmad Hospital"],
   insead:["European Institute of Business Administration"],
+  dgca_kuwait:["DGCA"],
 };

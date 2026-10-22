@@ -1,8 +1,4 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Paras Healthcare,3,abudhabi,pending,2026-10-20,2026-10-21,IPO bound Paras Healthcare raises Rs 652.50 crore from anchor investors as issue set to open on October 21
-Luxembourg Airport,2,abudhabi,pending,2026-10-21,2026-10-21,First Etihad flight connecting Abu Dhabi and Grand Duchy arrives at Luxembourg Airport
-Asha Enterprises,2,oman,pending,2026-10-20,2026-10-21,Asha Enterprises and Strategic Partners Unite to Champion Women’s Health Through Free Mammogram Screenings
-Kuwait Airport,2,kuwait,pending,2026-10-20,2026-10-22,MEED EXCLUSIVE Lowest bidder emerges for Kuwait Airport Terminal 2 operations
 Riyadh Airport,9,saudi,rejected,2026-10-09,2026-10-20,Etihad Extends UAE-Saudi Flight Cancellations Until October 13 After Riyadh Airport Disruptions
 Bandhan Bank,7,abudhabi,rejected,2026-10-12,2026-10-13,‘Unaware of Abu Dhabi investors’ stake sale plans’: Bandhan Bank clarifies after 7% share jump
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
@@ -17,6 +13,7 @@ Abu Dhabi Investment,4,abudhabi,rejected,2026-09-28,2026-10-11,A subsidiary hold
 Than Financial,4,abudhabi,rejected,2026-09-26,2026-09-26,Man City chairman Khaldoon Al Mubarak responds to reports surrounding 115 charges in Premier League financial probe
 Airport and King Khalid International Airport,4,saudi,rejected,2026-10-08,2026-10-08,text-parsing fragment of two headline-adjacent airport names
 Hamad University for Military and Technology,4,qatar,rejected,2026-09-29,2026-09-30,"HH the Amir Issues Amiri Decision Establishing, Organizing Tamim bin Hamad University for Military and Technology Sciences"
+Paras Healthcare,3,abudhabi,rejected,2026-10-20,2026-10-21,IPO bound Paras Healthcare raises Rs 652.50 crore from anchor investors as issue set to open on October 21
 IMF and World Bank,3,kuwait,rejected,2026-10-11,2026-10-21,Hawkish sentiment returns to IMF and World Bank meetings
 Fifa Council,3,oman,rejected,2026-10-15,2026-10-17,Gianni Infantino apologises to Fifa Council over World Cup sell-off plan
 Sustainable Energy,3,oman,rejected,2026-10-18,2026-10-19,Sultan Qaboos University to open Sustainable Energy Research Centre lab tomorrow
@@ -40,10 +37,11 @@ Dubai Healthcare City,3,dubai,added,2026-09-10,2026-09-11,"Dubai Healthcare City
 SNB Capital,3,saudi,added,2026-09-03,2026-09-05,SNB Capital North America Index Fund
 SriLankan Airlines,2,abudhabi,rejected,2026-10-03,2026-10-08,SriLankan Airlines Conducts A330 Line Training for Six Etihad Examiner Pilots
 Clear Channel Outdoor Holdings,2,abudhabi,rejected,2026-10-07,2026-10-14,Clear Channel Outdoor Holdings Clears Last Regulatory Hurdle For Mubadala Capital Buyout
+Luxembourg Airport,2,abudhabi,rejected,2026-10-21,2026-10-21,First Etihad flight connecting Abu Dhabi and Grand Duchy arrives at Luxembourg Airport
 UAE Ministry,2,abudhabi,rejected,2026-10-13,2026-10-17,"EDGE, UAE Ministry of Defence, Brazilian Army and Imbel strengthen strategic defence cooperation"
 African Energy,2,abudhabi,rejected,2026-10-15,2026-10-16,"ADNOC Makes Strong Debut at African Energy Week 2026, Signals Growing Ambitions Across Africa"
-Noatum Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
 Global Fairs & Events Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
+Noatum Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
 Infinity Power,2,abudhabi,rejected,2026-10-12,2026-10-20,"Infinity Power picks AIKO, 773.5MWp"
 Port Technology,2,abudhabi,rejected,2026-10-02,2026-10-20,AD Ports cuts emissions intensity by 6 per cent in 2025
 Tahnoun International Airport,2,abudhabi,rejected,2026-10-12,2026-10-14,Al Ain International Airport renamed to Tahnoun International Airport
@@ -55,6 +53,7 @@ GCC Petroleum,2,oman,rejected,2026-10-05,2026-10-06,Oman participates in 37th GC
 Port of Salalah,2,oman,rejected,2026-10-18,2026-10-19,Port of Salalah transition puts $200 million equipment in focus
 Postal Development,2,oman,rejected,2026-10-09,2026-10-10,Oman tops regional ranking in Postal Development Index for second consecutive year
 Jindal Steel,2,oman,added,2026-10-11,2026-10-13,Jindal Steel Oman and Oman Cement Company sign strategic partnership to advance sustainable cement production
+Asha Enterprises,2,oman,rejected,2026-10-20,2026-10-21,Asha Enterprises and Strategic Partners Unite to Champion Women’s Health Through Free Mammogram Screenings
 Social Development Ministry,2,oman,added,2026-10-11,2026-10-18,Social Development Ministry celebrates Omani Women's Day
 US-based Activate Capital,2,qatar,rejected,2026-10-15,2026-10-15,US-based Activate Capital joins Qatar Investment Authority's Fund of Funds
 Bank of China,2,qatar,rejected,2026-10-14,2026-10-15,QCB Governor participates in joint meeting of GCC Central Bank Governors with the People’s Bank of China
@@ -73,6 +72,7 @@ Siemens Energy,2,saudi,rejected,2026-10-02,2026-10-05,Siemens Energy’s supervi
 London House Exchange,2,dubai,rejected,2026-10-01,2026-10-02,UAE investor GII acquires majority stake in UK’s London House Exchange
 Austrian Airlines,2,,rejected,2026-10-19,2026-10-19,Flight from Israel diverted after ‘threat’ reported
 Egyptian Exchange,2,,rejected,2026-10-12,2026-10-13,Banque du Caire to sell stake in IPO
+Kuwait Airport,2,kuwait,added,2026-10-20,2026-10-22,MEED EXCLUSIVE Lowest bidder emerges for Kuwait Airport Terminal 2 operations
 Abha Airport,2,saudi,rejected,2026-10-08,2026-10-08,Saudi Arabia warns Houthi attacks will not go unpunished
 International Monetary Fund,2,,rejected,2026-10-08,2026-10-13,IMF to support push for economic reforms in war-torn Yemen
 Al-Shaheed Park,2,kuwait,rejected,2026-10-01,2026-10-01,Prime Minister opens Al-Shaheed Park Phase III on behalf of Amir
