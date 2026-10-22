@@ -1,0 +1,5 @@
+# ADNOC's XRG in Talks to Buy Stake in Eni's Libya Business
+source: Crude Oil Prices Today | OilPrice.com
+url: https://news.google.com/rss/articles/CBMimgFBVV95cUxOSXJoNHpOalJkUldndUN1UG9WZ3pNVVJZNGExT1pxNjlNY2dtdUZ0djBsN3pWNTduRXlqOUNmUHI1cGdWUlNMWFBlQlY4RkN2b2l3YkRXMXpXV0U1TDlMZjBKWC1WeVliWFNGTFVBZEg3VGIxSm5kNzRXdUM1QktsWkp0WGJ5LXB5VDl6dFlnTVppWnBxU2JHLWFB0gGfAUFVX3lxTFAtdmdqZkRCSWUzcjdCNmhJLUJldXpLbm1rcUtfVk5EbGJkRGU2T2YwQTVmLV9PeTNxZzJZZXp4Z3Y1dmZtNGVvRlNMdVpCVTF1cUhxbURIcXhVVGU1S3BVaGlldnZHWUR1M2VUc0l0NGxtaHcyQlJnTkZPbVVNay11a2VsekZRRTZpWHpSbnNGU0lOR0txd09wMS1yOVZRQQ?oc=5
+
+ADNOC's XRG in Talks to Buy Stake in Eni's Libya Business    Crude Oil Prices Today | OilPrice.com

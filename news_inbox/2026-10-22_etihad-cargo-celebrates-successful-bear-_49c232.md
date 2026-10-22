@@ -1,0 +1,5 @@
+# Etihad Cargo Celebrates Successful Bear Relocation Effort
+source: Airport Industry-News
+url: https://news.google.com/rss/articles/CBMilgFBVV95cUxQSkdoc2hhMFhqcl9rYmUxVGQzajBGNHJNZkFRUWd3VGpLMFExY1lRWjJPLXFoWllubjhkYjhYNU40Y0NpbnpkVnY4VUdCY1hMcVZFRUppS2NEbk5ZVmg3V2VoU2NOQ3k2Vkd6dHZQOEZNcnA5UFVyWFJGeFg3UTlsWjdSeFg4cERLUDlIYk1YWmFyUEpUZlE?oc=5
+
+Etihad Cargo Celebrates Successful Bear Relocation Effort    Airport Industry-News

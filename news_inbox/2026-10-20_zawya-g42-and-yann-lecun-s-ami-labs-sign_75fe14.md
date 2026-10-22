@@ -1,0 +1,5 @@
+# ZAWYA: G42 and Yann LeCun’s AMI Labs sign deals to explore collaboration in AI for physical world
+source: TradingView
+url: https://news.google.com/rss/articles/CBMigAJBVV95cUxOTEpYX2RJa2N3RUgwWVlEWGctMnNJdTZwR1Rqa0hoTDBxX2ZkZThVckUtdF93UmtCeDZmZ2lGcEFSV2ZKbFJaYUVLRGI5OHQ1NDRlTWFDV2JoaFhZdzZnbFVOUjJGdE9TY21XVENTVkpJcnpoN0QxVERhM0x6MHpLRkQyQ0g2cXppS21Vdy11SU1ESE9sSy1LczNzdEM5WWJIUm1pX3J0QV9DV2taeDYtYjN3Mko4c1E0bjVueVpfR284NGdxUHBiN1hlV0JVQno2UlA5VXV3ZERwNDdoYjlKTnZ2ZTlDRWs5X2dLZ2VUVldLeGN0b1ZTVTJYanJLU2xh?oc=5
+
+ZAWYA: G42 and Yann LeCun’s AMI Labs sign deals to explore collaboration in AI for physical world    TradingView
