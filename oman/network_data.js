@@ -249,6 +249,7 @@ const PEOPLE = [
     ["mofa_om","Foreign Minister","political","v"]],
     note:"The face of Oman's quiet-mediator diplomacy."},
   {id:"habsi", n:"Sultan bin Salim Al Habsi", t:1, p:80, s:"finance", roles:[
+    ["oq_rpi","Deputy Chairman","board","ns"],
     ["cdaa","Board Member, ex officio (Minister of Finance)","board","v"],
     ["mof_om","Minister of Finance","political","v"]]},
   {id:"yousef_om", n:"Anwar bin Hilal bin Hamdoun Al Jabri", t:1, p:70, s:"gov", roles:[
@@ -858,6 +859,7 @@ const PEOPLE = [
   {id:"khalid_nasser_al_b", n:"Khalid Nasser Al Kindi", t:2, p:46, s:"consumer_disc", roles:[
     ["omran","General Manager of PMO","executive","v"]]},
   {id:"nasser_bin_khamis", n:"Nasser bin Khamis Al Jashmi", t:2, p:62, s:"energy", roles:[
+    ["oq_rpi","Director","board","ns"],
     ["tax_authority_oman","Chairman","executive","v"],
     ["edo","Deputy Chairman and Non-Executive Director","board","v"]]},
   {id:"abdullah_bin_salim", n:"Abdullah bin Salim Al Harthy", t:2, p:52, s:"energy", roles:[

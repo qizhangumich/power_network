@@ -1331,6 +1331,10 @@ const PEOPLE = [
     ["gulf_medical_projects","Chairman","board","ns"]]},
   {id:"majid_bin_faisal", n:"Majid bin Faisal Khalid Al Qassimi", t:2, p:60, s:"health", roles:[
     ["gulf_medical_projects","Managing Director","executive","ns"]]},
+  {id:"arif_al_nourani", n:"Arif Al Nourani", t:2, p:58, s:"health", roles:[
+    ["al_qassimi_hospital","Executive Director and Head of the Heart Centre","executive","ns"]]},
+  {id:"sheikh_faisal_bin_b_b", n:"Sheikh Faisal bin Saoud Al Qassimi", t:2, p:52, s:"gov", roles:[
+    ["sharjah_airport_auth","Director","board","v"]]},
 ];
 
 const OWNERSHIP = [

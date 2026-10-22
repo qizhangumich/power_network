@@ -313,6 +313,7 @@ const INSTITUTIONS = [
   {id:"abu_dhabi_chamber", n:"Abu Dhabi Chamber of Commerce and Industry", s:"gov", t:2, p:66, short:"Abu Dhabi Chamber"},
   {id:"insead_abu_dhabi", n:"INSEAD Middle East Campus (Abu Dhabi)", s:"education", t:2, p:62, short:"INSEAD Abu Dhabi"},
   {id:"sdeira", n:"Sdeira Group", s:"realestate", t:3, p:56, short:"Sdeira Group"},
+  {id:"modon_properties", n:"Modon Properties PJSC", s:"realestate", t:2, p:54, short:"Modon Properties"},
 ];
 
 const PEOPLE = [
@@ -4398,6 +4399,7 @@ const OWNERSHIP = [
   ["mubadala_bio","mubadala","subsidiary (National Champion)","v"],
   ["insead_abu_dhabi","insead","campus of","v"],
   ["sdeira","kezad","subsidiary (rebranded from KEZAD Communities)","v"],
+  ["modon_properties","adq","subsidiary","v"],
 ];
 
 const FAMILY = [

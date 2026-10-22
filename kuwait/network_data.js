@@ -1960,6 +1960,16 @@ const PEOPLE = [
     ["auk","Vice Chair, Board of Trustees","board","v"]]},
   {id:"meshal_ali", n:"Meshal Ali", t:2, p:62, s:"education", roles:[
     ["auk","Co-Founder & Vice Chair, Board of Trustees","board","v"]]},
+  {id:"adel_al_manea", n:"Adel Al-Manea", t:2, p:62, s:"education", roles:[
+    ["kisr","Chairman of the Board of Trustees; Minister of Education and Minister of Higher Education and Scientific Research","board","ns"]]},
+  {id:"nada_al_hassan", n:"Nada Al-Hassan", t:2, p:58, s:"health", roles:[
+    ["jaber_hospital","Hospital Director","executive","ns"]]},
+  {id:"tariq_al_roumi", n:"Tariq Al-Roumi", t:2, p:58, s:"energy", roles:[
+    ["moo_kw","Minister","executive","v"]]},
+  {id:"sheikh_nimr_fahad", n:"Sheikh Nimr Fahad Al-Malik Al-Sabah", t:2, p:58, s:"energy", roles:[
+    ["moo_kw","Undersecretary","executive","v"]]},
+  {id:"khaled_walid_al", n:"Khaled Walid Al-Din", t:2, p:58, s:"energy", roles:[
+    ["moo_kw","Assistant Undersecretary for Technical Affairs","executive","v"]]},
 ];
 
 const OWNERSHIP = [

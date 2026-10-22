@@ -218,6 +218,8 @@ const INSTITUTIONS = [
   {id:"kpc_trading", n:"KPC Trading", s:"energy", t:2, p:58, short:"KPC Trading"},
   {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
   {id:"gems_education", n:"GEMS Education", s:"education", t:3, p:60, short:"GEMS Education"},
+  {id:"dubai_residential", n:"Dubai Residential REIT", s:"realestate", t:2, p:55, short:"Dubai Residential"},
+  {id:"merex_investment", n:"Merex Investment Company", s:"realestate", t:3, p:54, short:"Merex Investment"},
 ];
 
 const PEOPLE = [
@@ -239,6 +241,7 @@ const PEOPLE = [
     ["difc","President","political","v"]],
     note:"Dubai's financial-markets czar: DIFC, the IPO program and federal finance."},
   {id:"ahmed_saeed", n:"H.H. Sheikh Ahmed bin Saeed Al Maktoum", t:0, p:92, s:"industry", roles:[
+    ["dhre","Chairman","board","v"],
     ["dafza","Chairman, Dubai Integrated Economic Zones Authority (DIEZ)","board","v"],
     ["meydan","Head of Dubai Holding Group (incorporating Meydan since March 2024)","board","v"],
     ["dubai_petroleum","Chairman","board","v"],
@@ -329,6 +332,7 @@ const PEOPLE = [
   {id:"khalaf_habtoor", n:"Khalaf Al Habtoor", t:2, p:76, s:"conglomerate", roles:[
     ["alhabtoor","Founder & Chairman","board","v"]]},
   {id:"amit_kaushal", n:"Amit Kaushal", t:2, p:72, s:"sovereign", roles:[
+    ["dhre","Group Chief Executive Officer","executive","v"],
     ["empower","Board Member","board","ns"],
     ["meraas","Group Chief Executive Officer","executive","v"],
     ["tecom","Director","board","v"],
@@ -459,6 +463,7 @@ const PEOPLE = [
     ["digitaldubai","Chief Executive Officer of Digital Dubai Government Establishment","executive","v"],
     ["emaar","Board Member","board","v"]]},
   {id:"omar_karim", n:"Omar Karim", t:2, p:52, s:"realestate", roles:[
+    ["dhre","Group Chief Investment Officer","executive","ns"],
     ["tecom","Director","board","ns"],
     ["emaar","Board Member","board","v"],
     ["dubaiholding","Group Chief Investment Officer; CEO, Dubai Holding Investments","executive","v"]]},
@@ -717,21 +722,28 @@ const PEOPLE = [
     ["meraas","Chief Executive Officer - Dubai Holding Real Estate (Meraas brand)","executive","ns"],
     ["dubaiholding","Managing Director, Dubai Holding; CEO, Dubai Holding Real Estate","executive","v"]]},
   {id:"aldrin_sequeira", n:"Aldrin Sequeira", t:2, p:58, s:"sovereign", roles:[
+    ["dhre","Group Head of Internal Audit","executive","ns"],
     ["dubaiholding","Group Chief Internal Audit Officer","executive","v"]]},
   {id:"edward_sunna", n:"Edward Sunna", t:2, p:58, s:"sovereign", roles:[
+    ["dhre","Group Chief Legal Officer","executive","v"],
     ["dubaiholding","Group Chief Legal Officer","executive","v"]]},
   {id:"fatma_hussain", n:"Fatma Hussain", t:2, p:58, s:"sovereign", roles:[
+    ["dhre","Group Chief People Officer","executive","ns"],
     ["tecom","Director","board","ns"],
     ["dubaiholding","Group Chief People Officer","executive","v"]]},
   {id:"huda_buhumaid", n:"Huda Buhumaid", t:2, p:58, s:"sovereign", roles:[
+    ["dhre","Group Chief Impact Officer","executive","ns"],
     ["dubaiholding","Group Chief Impact Officer","executive","v"]]},
   {id:"oliver_skagerlind", n:"Oliver Skagerlind", t:2, p:58, s:"sovereign", roles:[
+    ["dhre","Group Chief Technology Officer","executive","ns"],
     ["dubaiholding","Group Chief Technology Officer","executive","v"]]},
   {id:"sharjil_anwar", n:"Sharjil Anwar", t:2, p:58, s:"sovereign", roles:[
+    ["dhre","Group Chief Financial Officer","executive","v"],
     ["dubaiholding","Group Chief Financial Officer","executive","v"]]},
   {id:"fernando_eiroa", n:"Fernando Eiroa", t:2, p:58, s:"sovereign", roles:[
     ["dubaiholding","CEO, Dubai Holding Entertainment","executive","v"]]},
   {id:"francis_giani", n:"Francis Giani", t:2, p:58, s:"sovereign", roles:[
+    ["dhre","Chief Executive Officer - Dubai Holding Community Management","executive","v"],
     ["dubaiholding","CEO, Dubai Holding Community Management","executive","v"]]},
   {id:"alex_davies", n:"Alex Davies", t:2, p:60, s:"realestate", roles:[
     ["nakheel","Chief Executive Officer, Ejadah Asset Management","executive","v"]]},
@@ -2213,6 +2225,7 @@ const PEOPLE = [
   {id:"bader_al_ghanim", n:"Bader Al-Ghanim", t:2, p:60, s:"consumer_disc", roles:[
     ["lst_talabat","Chief International Officer (previously Kuwait Managing Director, succeeded by Noor Al-Bahar)","executive","ns"]]},
   {id:"abdullatif_al_mulla", n:"Abdullatif Al Mulla", t:2, p:60, s:"realestate", roles:[
+    ["imdaad","Chairman of the Board","board","v"],
     ["dubai_properties","Group Chief Executive Officer (Dubai Properties Group)","executive","v"]]},
   {id:"hala_badri", n:"Hala Badri", t:2, p:58, s:"gov", roles:[
     ["dubai_culture","Director General","executive","v"]]},
@@ -2342,6 +2355,56 @@ const PEOPLE = [
     ["drydocks_world","Chief Operating Officer","executive","v"]]},
   {id:"radostin_popov", n:"Radostin Popov", t:2, p:58, s:"industry", roles:[
     ["drydocks_world","Director Commercial & Business Development","executive","v"]]},
+  {id:"abdulla_elyas", n:"Abdulla Elyas", t:2, p:58, s:"tech", roles:[
+    ["careem","Co-founder","executive","v"]]},
+  {id:"magnus_olsson", n:"Magnus Olsson", t:2, p:58, s:"tech", roles:[
+    ["careem","Co-founder and Chief Product Architect","executive","v"]]},
+  {id:"hamdan_al_shaer", n:"Hamdan Al Shaer", t:2, p:52, s:"industry", roles:[
+    ["imdaad","Board Member","board","v"]]},
+  {id:"rajiv_sud", n:"Rajiv Sud", t:2, p:52, s:"industry", roles:[
+    ["imdaad","Non-Executive Director","board","v"]]},
+  {id:"mohammad_al_daboos", n:"Mohammad Al Daboos", t:2, p:52, s:"industry", roles:[
+    ["imdaad","Board Member","board","v"]]},
+  {id:"mahmood_rasheed", n:"Mahmood Rasheed", t:2, p:58, s:"industry", roles:[
+    ["imdaad","Group Chief Operating Officer","executive","v"]]},
+  {id:"fatma_mohammad_ahli", n:"Fatma Mohammad Ahli", t:2, p:58, s:"industry", roles:[
+    ["imdaad","Chief Financial Officer","executive","v"]]},
+  {id:"mohamed_elalfy", n:"Mohamed Elalfy", t:2, p:58, s:"industry", roles:[
+    ["imdaad","Chief Information Officer","executive","v"]]},
+  {id:"riswana_gaswan", n:"Riswana Gaswan", t:2, p:58, s:"industry", roles:[
+    ["imdaad","Director of Legal & Board Secretary","executive","v"]]},
+  {id:"haitham_abdelsalam", n:"Haitham Abdelsalam", t:2, p:58, s:"industry", roles:[
+    ["imdaad","Executive Director - Operations","executive","v"]]},
+  {id:"saeed_ahmed", n:"Saeed Ahmed", t:2, p:58, s:"industry", roles:[
+    ["imdaad","Executive Director - Strategy and Assurance","executive","v"]]},
+  {id:"kashif_nesar", n:"Kashif Nesar", t:2, p:58, s:"industry", roles:[
+    ["imdaad","Executive Director - Subsidiaries","executive","v"]]},
+  {id:"jamal_abdulla_lootah", n:"Jamal Abdulla Lootah", t:2, p:60, s:"industry", roles:[
+    ["imdaad","Group Chief Executive Officer","executive","ns"]]},
+  {id:"adel_mardini", n:"Adel Mardini", t:2, p:60, s:"industry", roles:[
+    ["jetex","Founder and Chief Executive Officer","executive","v"]]},
+  {id:"julie_goodridge", n:"Julie Goodridge", t:2, p:58, s:"industry", roles:[
+    ["jetex","Vice President of Sales, USA","executive","v"]]},
+  {id:"masih_imtiaz", n:"Masih Imtiaz", t:2, p:60, s:"realestate", roles:[
+    ["imtiaz_developments","Founder and Chief Executive Officer","executive","ns"]]},
+  {id:"satish_sanpal", n:"Satish Sanpal", t:2, p:62, s:"conglomerate", roles:[
+    ["anax","Founder and Chairman","board","ns"]]},
+  {id:"raja_alameddine", n:"Raja Alameddine", t:2, p:60, s:"conglomerate", roles:[
+    ["anax","Chief Executive Officer, ANAX Developments","executive","ns"]]},
+  {id:"sunny_varkey", n:"Sunny Varkey", t:2, p:62, s:"education", roles:[
+    ["gems_education","Chairman and Founder","board","v"]]},
+  {id:"dino_varkey", n:"Dino Varkey", t:2, p:60, s:"education", roles:[
+    ["gems_education","Group Chief Executive Officer","executive","ns"]]},
+  {id:"jay_varkey", n:"Jay Varkey", t:2, p:60, s:"education", roles:[
+    ["gems_education","Deputy Chief Executive Officer","executive","ns"]]},
+  {id:"lisa_crausby", n:"Lisa Crausby", t:2, p:58, s:"education", roles:[
+    ["gems_education","Group Chief Education Officer","executive","v"]]},
+  {id:"robert_tarn", n:"Robert Tarn", t:2, p:60, s:"education", roles:[
+    ["gems_education","Chief Executive Officer - GEMS School Management","executive","v"]]},
+  {id:"nicholas_soar", n:"Nicholas Soar", t:2, p:60, s:"education", roles:[
+    ["gems_education","Principal and CEO - GEMS Founders School Dubai South","executive","v"]]},
+  {id:"richard_jones", n:"Richard Jones", t:2, p:60, s:"education", roles:[
+    ["gems_education","Principal and CEO - GEMS School of Research and Innovation","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2479,6 +2542,8 @@ const OWNERSHIP = [
   ["eta_ascon","alghurair","joint venture / portfolio company","ns"],
   ["imdaad","icd","subsidiary (facilities management group)","ns"],
   ["dubal","icd","subsidiary (holds ICD's 50% stake in EGA)","v"],
+  ["dubai_residential","dubaiholding","subsidiary","v"],
+  ["merex_investment","dubaiholding","joint venture","v"],
 ];
 
 const FAMILY = [

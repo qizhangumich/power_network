@@ -236,6 +236,7 @@ const INSTITUTIONS = [
   {id:"qatar_biobank", n:"Qatar Biobank", s:"health", t:3, p:54, short:"Qatar Biobank"},
   {id:"qatar_steel", n:"Qatar Steel Company (QASCO)", s:"materials", t:2, p:58, short:"Qatar Steel"},
   {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
+  {id:"dolphin_energy", n:"Dolphin Energy Limited", s:"energy", t:2, p:57, short:"Dolphin Energy"},
 ];
 
 const PEOPLE = [
@@ -2104,6 +2105,16 @@ const PEOPLE = [
   {id:"antonio_gamez_munoz", n:"Antonio Gamez Munoz", t:2, p:58, s:"finance", roles:[
     ["cbq","EGM, Chief Risk Officer","executive","v"],
     ["insead","International Executive Development Programme (post-degree in management)","alumni","v"]]},
+  {id:"fahad_yousuf_tolefat", n:"Fahad Yousuf Tolefat", t:2, p:58, s:"utilities", roles:[
+    ["kahramaa","Director Water Network Affairs","executive","v"]]},
+  {id:"jassim_bin_seif", n:"Jassim bin Seif Ahmed Al-Sulaiti", t:2, p:62, s:"industry", roles:[
+    ["mwani","Chairman of the Board of Directors, Minister of Transport and Communications","board","ns"]]},
+  {id:"abdulaziz_al_yafei", n:"Abdulaziz Al-Yafei", t:2, p:58, s:"industry", roles:[
+    ["mwani","Executive Vice President of Operations","executive","ns"]]},
+  {id:"ismail_mohammed_al", n:"Ismail Mohammed Al Sayed Al Mansouri", t:2, p:58, s:"gov", roles:[
+    ["gen_tax_authority","Assistant President for Support Services","executive","v"]]},
+  {id:"yousef_ibrahim_al", n:"Yousef Ibrahim Al Hamar", t:2, p:58, s:"gov", roles:[
+    ["moecc_q","Assistant Undersecretary for Environmental Affairs","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2235,6 +2246,10 @@ const OWNERSHIP = [
   ["al_koot_insurance","lst_giss","wholly-owned subsidiary of","v"],
   ["qatar_biobank","qf","member of","v"],
   ["qatar_steel","industriesqatar","wholly owned subsidiary","v"],
+  ["dolphin_energy","qatarenergy","subsidiary","ns"],
+  ["qafco","qatarenergy","subsidiary","ns"],
+  ["qapco","qatarenergy","subsidiary","ns"],
+  ["gulf_helicopters","qatarenergy","subsidiary","ns"],
 ];
 
 const FAMILY = [

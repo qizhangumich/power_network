@@ -3203,6 +3203,7 @@ const PEOPLE = [
   {id:"may_bint_sulaiman", n:"May bint Sulaiman Al Otaibi", t:2, p:52, s:"education", roles:[
     ["rcsi_bahrain","Board of Governors Member","board","v"]]},
   {id:"fahad_khalifa_al", n:"Fahad Khalifa Al-Khalifa", t:2, p:52, s:"education", roles:[
+    ["bdf_hospital","Commander of the Royal Medical Services","executive","ns"],
     ["rcsi_bahrain","Board of Governors Member","board","v"]]},
   {id:"sameer_otoom", n:"Sameer Otoom", t:2, p:58, s:"education", roles:[
     ["rcsi_bahrain","President, RCSI Medical University of Bahrain","executive","v"]]},
@@ -3242,6 +3243,7 @@ const PEOPLE = [
   {id:"waleed_fahad_al", n:"Waleed Fahad Al Tharman", t:2, p:52, s:"finance", roles:[
     ["lst_ugic","Director","board","v"]]},
   {id:"nawal_ibrahim_al", n:"Nawal Ibrahim Al Khater", t:2, p:58, s:"education", roles:[
+    ["sio_bahrain","Board Member - Government Employers' Representative","board","ns"],
     ["bahrain_moe","Undersecretary of the Ministry of Education","executive","v"]]},
   {id:"kefaya_habib_al", n:"Kefaya Habib Al Anzoor", t:2, p:58, s:"education", roles:[
     ["bahrain_moe","Assistant Undersecretary for Educational Services","executive","v"]]},
@@ -3459,6 +3461,30 @@ const PEOPLE = [
     ["csb_bahrain","President","executive","ns"]]},
   {id:"ebrahim_nonoo", n:"Ebrahim Nonoo", t:2, p:60, s:"finance", roles:[
     ["bfc","Managing Director and Chief Executive Officer","executive","ns"]]},
+  {id:"abdulla_almoayed", n:"Abdulla Almoayed", t:2, p:60, s:"tech", roles:[
+    ["tarabut_gateway","Founder and Chief Executive Officer","executive","v"]]},
+  {id:"tariq_sanad", n:"Tariq Sanad", t:2, p:58, s:"tech", roles:[
+    ["tarabut_gateway","Chief Financial Officer","executive","v"]]},
+  {id:"chun_ong", n:"Chun Ong", t:2, p:58, s:"tech", roles:[
+    ["tarabut_gateway","Chief Operating Officer","executive","v"]]},
+  {id:"nino_ocampo", n:"Nino Ocampo", t:2, p:58, s:"tech", roles:[
+    ["tarabut_gateway","Chief Product Officer","executive","ns"]]},
+  {id:"adnan_erriade", n:"Adnan Erriade", t:2, p:58, s:"tech", roles:[
+    ["tarabut_gateway","Chief Commercial Officer","executive","ns"]]},
+  {id:"talal_tabbaa", n:"Talal Tabbaa", t:2, p:58, s:"tech", roles:[
+    ["coinmena","Co-Founder","executive","v"]]},
+  {id:"dina_sam_an", n:"Dina Sam'an", t:2, p:58, s:"tech", roles:[
+    ["coinmena","Co-Founder","executive","v"]]},
+  {id:"yazan_barghuthi", n:"Yazan Barghuthi", t:2, p:58, s:"tech", roles:[
+    ["coinmena","Co-Founder","executive","v"]]},
+  {id:"faizan_jawed", n:"Faizan Jawed", t:2, p:58, s:"tech", roles:[
+    ["coinmena","Responsible Individual (Senior Management)","executive","v"]]},
+  {id:"daij_bin_salman", n:"Daij bin Salman bin Daij Al Khalifa", t:2, p:52, s:"finance", roles:[
+    ["sio_bahrain","Board Member - Government Employers' Representative","board","ns"]]},
+  {id:"osama_saleh_al", n:"Osama Saleh Al Alawi", t:2, p:52, s:"finance", roles:[
+    ["sio_bahrain","Board Member - Government Employers' Representative","board","ns"]]},
+  {id:"hesham_yousef_ali", n:"Hesham Yousef Ali Al Rayes", t:2, p:60, s:"health", roles:[
+    ["bdf_hospital","Deputy Chief Executive Officer and Director General of Medical Affairs","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
