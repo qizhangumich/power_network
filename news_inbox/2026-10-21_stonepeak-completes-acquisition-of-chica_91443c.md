@@ -1,0 +1,5 @@
+# Stonepeak Completes Acquisition of Chicago Parking Meters
+source: Stonepeak
+url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQVXVnNnlZdlJUTTlVUDZBdTFxcVBXYUdDbWE4WFI5U21IOVJTUU8waGJGSjlESnpwSWFXUm1yQUFDN05wVWpEdDdwNUdpeEdsUHB0d3QzcmN3T25YenVhYlpmb204cDVTQ2pWZjRhckVocW9WcEdGODVtNGxtSUhDWUVPMmpmbE54WHFnVg?oc=5
+
+Stonepeak Completes Acquisition of Chicago Parking Meters    Stonepeak

@@ -1,0 +1,5 @@
+# QIAGEN and EQT Private Equity announce agreement on a recommended voluntary all-cash public takeover offer
+source: Business Wire
+url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxPSW85Znh5SVc5c195OEdmVlZEUnJiNEdFMnh0dFNwOGlUb1phclFaaFVrcWZLbDlad3J0NGJlTTV5dFEtcDBNVlZadGJIcXcwMnVMZWQ1R21rMEk2OFo5VG9wWDJxVWMxSkJ4WVhmb1ZPdjFadVFOampPbkJWVklYVmRpUTF1M1N5LXVOOGlyZEppMlU4bXFua2d4VGI2Z1Q4dVZkRUpVQVhkVUoxajhHSFQybTNWMjlQRXJLVXJaekVPVWVaNGZxQ09iLXB2MG9LQUNRekVGNmFIQkx3NVM0aXFqMzFsVWwwVEdNRldHR25HWXF1THc?oc=5
+
+QIAGEN and EQT Private Equity announce agreement on a recommended voluntary all-cash public takeover offer    Business Wire

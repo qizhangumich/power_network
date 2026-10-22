@@ -1,0 +1,5 @@
+# Mubadala Bio and Marcyrl Group sign a strategic partnership to localize women’s health, fertility and respiratory therapies in the UAE
+source: Zawya
+url: https://news.google.com/rss/articles/CBMinwJBVV95cUxPdUlEYUVRaTNuX2xtWk5OVUNYVEVQQnVGOXhndEw2MUQtSkhIRE5sMkRGSVVwYjVrVkFMYzN5eGZHVFMxMnNzRW1FZ1JkUlRlaU5BVnNCeDhvakJIX21jREd6MVRKNlRQa1lGbzROa0cxYnFfd0pPVmNkR3Etb2hzaHc5aFNCY3FfYlVJMzM5TWM1azQyblBfa2NmR2VYMGpUVjNSZWtCUHMtelp2bHNwVlJ5Y2cxT3V6WlZRMF96MVhBaElkLVRCQUpNZDd2ZUoyWXZteEtKWkZTUjJUcHBaSHZQV3p0OHVBanlnSjQtdmZHTXhIZEJsRkFhdTc4Y0l3cWJhVzRUN1pwX0ZfYjQ2UjA3YUtrNFRwanZpUzVpcw?oc=5
+
+Mubadala Bio and Marcyrl Group sign a strategic partnership to localize women’s health, fertility and respiratory therapies in the UAE    Zawya
