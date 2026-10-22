@@ -1,0 +1,5 @@
+# Aldar, Arada Announce AED15 Billion Abu Dhabi Development Partnership
+source: SaudiGulf Projects
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxNd3IxclBBYnU5bHR0YjUxVkoxc0J6Z211RzRjblpURUVGb3FZeUVPT0ZqYTFxV1lPREpmbEFnaVFFaFNnZU5JLVJVeE9WZTBUOXIyMEhNSzZYQ3lXRDQ1aXRlVGFrOUFoNkRKN3pjNG5ZMUI3dW9hdm1lM053azV6dFJBYlBoUU9xY0lWcUhicmJObHpvOWdpMzA3aDA2SDFEbWJRX0llb09QOExsSU1seg?oc=5
+
+Aldar, Arada Announce AED15 Billion Abu Dhabi Development Partnership    SaudiGulf Projects

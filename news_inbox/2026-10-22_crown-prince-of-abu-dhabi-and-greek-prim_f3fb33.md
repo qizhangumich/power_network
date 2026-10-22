@@ -1,0 +1,5 @@
+# Crown Prince of Abu Dhabi and Greek Prime Minister attend UAE-Greece Strategic Forum in Athens
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWG85YURpV3M5TTRhbmNjWlFtZFVISVpMVTNtR1lmLUNIR0M2UWpWc2ZiLWpIUEFjaGlOYkl3Q29LQzdLRFNSWVFlenpvLTctV1BxTXNaWHB5UkExbVJVX1JncF96bVlKRjVUX3BZQzhWeGs3N3pBeW5GRWhJaV9GSXpsNGo0WUNZMDRSWGRZVnI0eVp6Nl9SNW9HM3NQcGtTQThaNXRrSlBubWhiQ3ctOWFHWGY0V1lKYldPMEhUd0lDODJ6RWFlNngwM0dFc09sVzVKTTd0dXVTWVlrVDZ5bGs5OA?oc=5
+
+Crown Prince of Abu Dhabi and Greek Prime Minister attend UAE-Greece Strategic Forum in Athens    مكتب أبوظبي الإعلامي

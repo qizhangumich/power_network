@@ -1,0 +1,5 @@
+# Etihad to operate daily Abu Dhabi-Damascus flights from November 14
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQWEdQUUFQM3hPSUI2b2RYTURtNklZNndyS09hd3VlS2h0YWZzaThhdzgwaWQ3QjBmREQ4T1lNeTIydnhIZFlRMTdsU1pnZkJuWW5keDdJVmhwWHZPTUJBTWNwYVVtOUVPLWpkRUg0RzN3TGtVNGhXUllwUHRIVl9Sb3VoN0FpWEpWY3JaMldvbXF0ZVVUeWEyZFh5bTdRR2pLdGpVdFotZnZCNDFKSFcwZVZYcjhaQjFEWnh2YVNDZ3kwU0xDMl9rTFln?oc=5
+
+Etihad to operate daily Abu Dhabi-Damascus flights from November 14    Gulf News
