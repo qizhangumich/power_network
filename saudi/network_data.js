@@ -3169,6 +3169,68 @@ const PEOPLE = [
     ["sirar_by_stc","Chief Advisory Services Officer","executive","v"]]},
   {id:"hashim_sager", n:"Hashim Sager", t:2, p:58, s:"tech", roles:[
     ["sirar_by_stc","Chief Cybersecurity Systems Integration Officer","executive","v"]]},
+  {id:"abdulsalam_al_mutlaq", n:"Abdulsalam Al-Mutlaq", t:2, p:62, s:"industry", roles:[
+    ["alfanar","Chairman of the Board of Directors","board","v"]]},
+  {id:"sabah_al_mutlaq", n:"Sabah Al-Mutlaq", t:2, p:52, s:"industry", roles:[
+    ["alfanar","Board Member","board","v"]]},
+  {id:"hisham_al_mutlaq", n:"Hisham Al-Mutlaq", t:2, p:52, s:"industry", roles:[
+    ["alfanar","Board Member","board","v"]]},
+  {id:"jamal_mohammed_wadi", n:"Jamal Mohammed Wadi", t:2, p:52, s:"industry", roles:[
+    ["alfanar","Board Member","board","v"]]},
+  {id:"juergen_brunowsky", n:"Juergen Brunowsky", t:2, p:58, s:"industry", roles:[
+    ["alfanar","Chief Financial Officer","executive","v"]]},
+  {id:"raed_suhail_al", n:"Raed Suhail Al Eid", t:2, p:46, s:"industry", roles:[
+    ["alfanar","VP of Sales & Marketing","executive","v"]]},
+  {id:"mohammed_a_alireza", n:"Mohammed A. Alireza", t:2, p:62, s:"industry", roles:[
+    ["xenel","Chairman","board","v"]]},
+  {id:"khaled_a_alireza", n:"Khaled A. Alireza", t:2, p:62, s:"industry", roles:[
+    ["xenel","Vice Chairman","board","v"]]},
+  {id:"yousef_a_alireza", n:"Yousef A. Alireza", t:2, p:52, s:"industry", roles:[
+    ["xenel","Board Member","board","v"]]},
+  {id:"mutasim_m_alireza", n:"Mutasim M. Alireza", t:2, p:52, s:"industry", roles:[
+    ["xenel","Board Member","board","v"]]},
+  {id:"aamer_a_alireza", n:"Aamer A. Alireza", t:2, p:62, s:"industry", roles:[
+    ["xenel","Board Member & Executive Committee Chairman","board","v"]]},
+  {id:"raaid_k_alireza", n:"Raaid K. Alireza", t:2, p:60, s:"industry", roles:[
+    ["xenel","Managing Director","executive","v"]]},
+  {id:"emran_m_alireza", n:"Emran M. Alireza", t:2, p:58, s:"industry", roles:[
+    ["xenel","Chief Operating Officer","executive","v"]]},
+  {id:"ayman_tamer", n:"Ayman Tamer", t:2, p:62, s:"health", roles:[
+    ["tamer","Board Chairman (Non-Executive)","board","v"]]},
+  {id:"faisal_tamer", n:"Faisal Tamer", t:2, p:62, s:"health", roles:[
+    ["tamer","Board Vice Chairman (Non-Executive)","board","v"]]},
+  {id:"mohammed_tamer", n:"Mohammed Tamer", t:2, p:52, s:"health", roles:[
+    ["tamer","Board Member","board","v"]]},
+  {id:"juergen_pohle", n:"Juergen Pohle", t:2, p:52, s:"health", roles:[
+    ["tamer","Board Member","board","v"]]},
+  {id:"faisal_al_saggaf", n:"Faisal Al Saggaf", t:2, p:52, s:"health", roles:[
+    ["tamer","Board Member","board","v"]]},
+  {id:"sunil_gupta", n:"Sunil Gupta", t:2, p:52, s:"health", roles:[
+    ["tamer","Board Member","board","v"]]},
+  {id:"husam_bawared", n:"Husam Bawared", t:2, p:52, s:"health", roles:[
+    ["tamer","Board Member","board","v"]]},
+  {id:"mohammed_taher", n:"Mohammed Taher", t:2, p:52, s:"health", roles:[
+    ["tamer","Board Member","board","v"]]},
+  {id:"hamad_al_jomaih", n:"Hamad Al Jomaih", t:2, p:62, s:"conglomerate", roles:[
+    ["al_jomaih","Chairman","board","ns"]]},
+  {id:"ibrahim_al_jomaih", n:"Ibrahim Al Jomaih", t:2, p:62, s:"conglomerate", roles:[
+    ["al_jomaih","Vice Chairman and CEO","board","ns"]]},
+  {id:"faisal_al_turki", n:"Faisal Al-Turki", t:2, p:62, s:"industry", roles:[
+    ["nesma_partners","President of Nesma and Chairman of the Board","board","v"]]},
+  {id:"noura_al_turki", n:"Noura Al-Turki", t:2, p:52, s:"industry", roles:[
+    ["nesma_partners","Vice President and Board Member","board","v"]]},
+  {id:"abdullah_al_shahrani", n:"Abdullah Al-Shahrani", t:2, p:52, s:"industry", roles:[
+    ["nesma_partners","Vice President of Corporate Affairs and Board Member","board","v"]]},
+  {id:"naif_al_abeedi", n:"Naif Al-Abeedi", t:2, p:60, s:"industry", roles:[
+    ["nesma_partners","Chief Executive Officer of Nesma United Industries and Board Member","board","v"]]},
+  {id:"shakeeb_alireza", n:"Shakeeb Alireza", t:2, p:62, s:"industry", roles:[
+    ["rezayat","Executive Chairman","board","ns"]]},
+  {id:"khalid_temairik", n:"Khalid Temairik", t:2, p:60, s:"consumer_stap", roles:[
+    ["basamh","Chief Executive Officer","executive","ns"]]},
+  {id:"osamah_basamh", n:"Osamah Basamh", t:2, p:52, s:"consumer_stap", roles:[
+    ["basamh","Board Member","board","ns"]]},
+  {id:"saied_ahmed_basamh", n:"Saied Ahmed Basamh", t:2, p:52, s:"consumer_stap", roles:[
+    ["basamh","Board Member","board","ns"]]},
 ];
 
 const OWNERSHIP = [
