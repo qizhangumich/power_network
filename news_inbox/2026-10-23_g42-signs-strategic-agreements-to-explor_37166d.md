@@ -1,0 +1,5 @@
+# G42 Signs Strategic Agreements to Explore AI Infrastructure and Applications in Greece
+source: G42
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQTW5TN0dTa2RtUHdzTU4yaDMxOGlvdGgtSi1DNDhhWUM0Mmpzdk93aVFpUm1QeG1pRnlHLXZkX25ZZUpUU0NwUWZVQ05LbzRwaEc2ZGx4YmNHZ3JJR2t5RmNGQWVFNV9tODZYSmZBdlJlVTQ1aXZjMnJQRGFvQzkzSENHRlhBN2F3Nk94QjVfdnZvSE56dy1IQ2kxQ0szaVRSRGJ5Uk8zcl9Vd0lwcXc?oc=5
+
+G42 Signs Strategic Agreements to Explore AI Infrastructure and Applications in Greece    G42

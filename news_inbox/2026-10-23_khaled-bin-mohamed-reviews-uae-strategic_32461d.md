@@ -1,0 +1,5 @@
+# Khaled bin Mohamed reviews UAE strategic investments in Greece
+source: Sharjah24
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPamxJR2lVM3VncHBRQzJEdHU4bGxpUXo0Z3pQemJyQkNXMGtNNHQ0NmMwcUZkVHNzaWp5QUlMRjY0Y1VqZ3hwWUxnVkdlejYwbDMyaW9CdWZZekhyeHBQMThjaF8xaG1NOVdZWFZ1bVVXeVZsbWR2dVpMaW5yb3pDSjRuTEJmZ0dXbWhTWlZ2ZE5XekVVdENsMlhzb01LUHBqcl96WXpkbGxuZw?oc=5
+
+Khaled bin Mohamed reviews UAE strategic investments in Greece    Sharjah24

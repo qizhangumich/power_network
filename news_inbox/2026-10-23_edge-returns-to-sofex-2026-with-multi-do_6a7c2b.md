@@ -1,0 +1,5 @@
+# EDGE Returns to SOFEX 2026 with Multi-Domain Autonomous Capabilities
+source: Defence Procurement International
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVUxSbUZfRWN1X2NUN3ZaZGFHejR5TUotbkRBWHExalQ4RnhWYk5FX0Q5WHE5QVVGbU5qbVhuMFpONkhIcnJyNFFIX1NtQldKWFJFWW9ZYmttdTA2OXJHV1BodWFRZlRCVVdSRFNXVVR6bTB2R1RTNWdZcjZUaWNiNGZXdk55Nk1idEFiaHRIN0VIdmstY2R2VUU3TjdoOHIyMzJlU2FfUXVhWkNXRkUzc0FBUHlwdU5hbDVmbjRCNzQ0cU0?oc=5
+
+EDGE Returns to SOFEX 2026 with Multi-Domain Autonomous Capabilities    Defence Procurement International

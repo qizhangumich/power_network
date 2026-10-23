@@ -1,0 +1,5 @@
+# Following strikes, Etihad extends Saudi flights suspension
+source: Free Malaysia Today
+url: https://news.google.com/rss/articles/CBMivAFBVV95cUxPQjdnQnZtQk91TE9rek5fQTBUOXFEV0lLZTlCM0NnUWxNOVBMajNZc2JfU3JuYUphMHR2U0hERElRVWk1dGxJa0piMjNZUzFlZndqUmpkNXVEMmVOZnM5alVmT1RYQkxJczNKZG1fWGVoNUdHSVkxUEJBS1JhbFJZWUdVQ29sbWh4V2RMMl8wd0hXdHd2dXpOT01NdDFKazFEN1ZoQVBZY0dPWXJTdDlkdWFHWEI2enU5akJqVw?oc=5
+
+Following strikes, Etihad extends Saudi flights suspension    Free Malaysia Today

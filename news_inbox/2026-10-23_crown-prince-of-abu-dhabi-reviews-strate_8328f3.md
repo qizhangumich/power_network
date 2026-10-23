@@ -1,0 +1,5 @@
+# Crown Prince of Abu Dhabi reviews strategic UAE projects and investments in Greece
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxNblBkcGhxVjc5aG5sWXZTMGRHbGlkX01CNWtMYllIUThkVW9HaUZTZUYteUNETlZLOEhGcGFNM2h3cnAtZ3l0d21oVEwwUC1qelFCSEM2N0M5NVBzclhIUGV5WjhMcF9tRUZxZW1tWE5WZ3dEX3JoX1p1anVDTjRBZHBiRElIc3RPcmVQR1Y3eTZDTm0wWVR1dlBhNkdYQkx5akxscnduYTczNUlzSjZWWjQ2akdkM2w4cWZKLTYzRVl5eUVEcjRYeWZYaHpNZGpJbVc0?oc=5
+
+Crown Prince of Abu Dhabi reviews strategic UAE projects and investments in Greece    مكتب أبوظبي الإعلامي
