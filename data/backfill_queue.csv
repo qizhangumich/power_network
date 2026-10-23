@@ -43,6 +43,7 @@ oman,pam_oman,Public Authority for Mining,materials,60,1,pending
 qatar,sinopec,Sinopec,energy,60,0,pending
 qatar,muntajat,Qatar Chemical and Petrochemical Marketing and Distribution Company,materials,60,1,pending
 qatar,ras_laffan_petrochem,Ras Laffan Petrochemicals Company,materials,60,1,pending
+saudi,lst_4190,Jarir Marketing Co.,consumer_disc,60,0,pending
 saudi,lst_1080,Arab National Bank,finance,60,0,pending
 saudi,rajhi_invest,Rajhi Invest,finance,60,0,pending
 saudi,al_nahdi_family,Al Nahdi Family Office,finance,60,0,pending
@@ -88,6 +89,7 @@ qatar,alrayan_investment,AlRayan Investment LLC,finance,58,1,pending
 qatar,traffic_dept_qatar,General Directorate of Traffic,gov,58,1,pending
 qatar,qna,Qatar News Agency,comm,58,1,pending
 qatar,qatar_steel,Qatar Steel Company (QASCO),materials,58,1,pending
+saudi,lst_4164,Nahdi Medical Co.,consumer_stap,58,0,pending
 saudi,lst_4017,Fakeeh Care Group,health,58,0,pending
 saudi,lst_1140,Bank Albilad,finance,58,0,pending
 saudi,lst_7030,Zain Saudi Arabia,comm,58,0,pending
@@ -146,6 +148,7 @@ saudi,hadco,Hail Agricultural Development Company,consumer_stap,58,0,pending
 saudi,maaden_gold_base,Ma'aden Gold and Base Metals Company,materials,58,0,pending
 qatar,al_muftah,Al Muftah Group,conglomerate,57,1,pending
 qatar,dolphin_energy,Dolphin Energy Limited,energy,57,0,pending
+saudi,lst_4003,United Electronics Co. (eXtra),consumer_disc,57,0,pending
 saudi,alturki,Alturki Holding,conglomerate,57,0,pending
 saudi,alesayi,Alesayi Holding,conglomerate,57,0,pending
 saudi,maaden_bauxite,Ma'aden Bauxite and Alumina Company,materials,57,0,pending
@@ -669,7 +672,7 @@ saudi,lst_4146,Gulf Applied Solutions Co. (Gas Arabian Services),industry,50,0,p
 saudi,lst_4147,Canar Telecommunication Co.,industry,50,0,pending
 saudi,lst_4148,Alwasail Industrial Co.,industry,50,0,pending
 saudi,lst_1831,Maharah Human Resources Co.,industry,50,0,pending
-saudi,lst_1832,Saudi Distribution and Logistics Co. (SADR),industry,50,0,pending
+saudi,lst_1832,Saudi Distribution and Logistics Co. (SADR),industry,50,1,pending
 saudi,lst_1833,Al Mawarid Manpower Co.,industry,50,0,pending
 saudi,lst_1834,Saudi Manpower Solutions Co. (SMASCO),industry,50,0,pending
 saudi,lst_1835,Tamkeen Human Resources Co.,industry,50,0,pending
@@ -703,11 +706,9 @@ saudi,lst_6019,Almasar Alshamil Education Co.,consumer_disc,50,0,pending
 saudi,lst_6022,Armah Sports Co.,consumer_disc,50,0,pending
 saudi,lst_4070,Arriyadh Development Co. (TAPRCO),comm,50,0,pending
 saudi,lst_4071,Saudi Research and Media Group Alarabia,comm,50,0,pending
-saudi,lst_4003,United Electronics Co. (eXtra),consumer_disc,50,0,pending
 saudi,lst_4008,Saudi Co. for Hardware (SACO),consumer_disc,50,0,pending
 saudi,lst_4050,Saudi Automotive Services Co. (SASCO),consumer_disc,50,0,pending
 saudi,lst_4051,Baazeem Trading Co.,consumer_disc,50,0,pending
-saudi,lst_4190,Jarir Marketing Co.,consumer_disc,50,0,pending
 saudi,lst_4191,Abo Moati Bookstores Co.,consumer_disc,50,0,pending
 saudi,lst_4192,Alsaif Gallery Co.,consumer_disc,50,0,pending
 saudi,lst_4193,Nice One Beauty Digital Marketing Co.,consumer_disc,50,0,pending
@@ -721,7 +722,6 @@ saudi,lst_4160,Thimar Development Holding Co.,consumer_stap,50,0,pending
 saudi,lst_4161,Bindawood Holding Co.,consumer_stap,50,0,pending
 saudi,lst_4162,Almunajem Foods Co.,consumer_stap,50,0,pending
 saudi,lst_4163,Aldawaa Medical Services Co.,consumer_stap,50,0,pending
-saudi,lst_4164,Nahdi Medical Co.,consumer_stap,50,0,pending
 saudi,lst_2100,Wafrah for Industry and Development Co.,consumer_stap,50,0,pending
 saudi,lst_2281,Tanmiah Food Co.,consumer_stap,50,0,pending
 saudi,lst_2282,Naqi Water Co.,consumer_stap,50,0,pending
@@ -780,7 +780,7 @@ saudi,lst_8260,Gulf General Cooperative Insurance Co.,finance,50,0,pending
 saudi,lst_8280,LIVA Insurance (Saudi Enaya/AXA Cooperative),finance,50,0,pending
 saudi,lst_8300,Wataniya Insurance Co.,finance,50,0,pending
 saudi,lst_8310,Amana Cooperative Insurance Co.,finance,50,0,pending
-saudi,lst_8311,Enaya Cooperative Insurance Co.,finance,50,0,pending
+saudi,lst_8311,Enaya Cooperative Insurance Co.,finance,50,1,pending
 saudi,lst_7040,Go Telecom (Etihad Atheeb Telecommunication Co.),comm,50,0,pending
 saudi,lst_2081,Alkhorayef Water and Power Technologies Co.,utilities,50,0,pending
 saudi,lst_2083,Marafiq (Power and Water Utility Company for Jubail and Yanbu),utilities,50,0,pending

@@ -184,11 +184,11 @@ const INSTITUTIONS = [
   {id:"lst_6022", n:"Armah Sports Co.", s:"consumer_disc", t:2, p:50, short:"Armah Sports Co."},
   {id:"lst_4070", n:"Arriyadh Development Co. (TAPRCO)", s:"comm", t:2, p:50, short:"4070"},
   {id:"lst_4071", n:"Saudi Research and Media Group Alarabia", s:"comm", t:2, p:50, short:"4071"},
-  {id:"lst_4003", n:"United Electronics Co. (eXtra)", s:"consumer_disc", t:2, p:50, short:"4003"},
+  {id:"lst_4003", n:"United Electronics Co. (eXtra)", s:"consumer_disc", t:2, p:57, short:"eXtra"},
   {id:"lst_4008", n:"Saudi Co. for Hardware (SACO)", s:"consumer_disc", t:2, p:50, short:"4008"},
   {id:"lst_4050", n:"Saudi Automotive Services Co. (SASCO)", s:"consumer_disc", t:2, p:50, short:"4050"},
   {id:"lst_4051", n:"Baazeem Trading Co.", s:"consumer_disc", t:2, p:50, short:"Baazeem Trading Co."},
-  {id:"lst_4190", n:"Jarir Marketing Co.", s:"consumer_disc", t:2, p:50, short:"Jarir Marketing Co."},
+  {id:"lst_4190", n:"Jarir Marketing Co.", s:"consumer_disc", t:2, p:60, short:"Jarir"},
   {id:"lst_4191", n:"Abo Moati Bookstores Co.", s:"consumer_disc", t:2, p:50, short:"4191"},
   {id:"lst_4192", n:"Alsaif Gallery Co.", s:"consumer_disc", t:2, p:50, short:"Alsaif Gallery Co."},
   {id:"lst_4193", n:"Nice One Beauty Digital Marketing Co.", s:"consumer_disc", t:2, p:50, short:"4193"},
@@ -202,7 +202,7 @@ const INSTITUTIONS = [
   {id:"lst_4161", n:"Bindawood Holding Co.", s:"consumer_stap", t:2, p:50, short:"4161"},
   {id:"lst_4162", n:"Almunajem Foods Co.", s:"consumer_stap", t:2, p:50, short:"Almunajem Foods Co."},
   {id:"lst_4163", n:"Aldawaa Medical Services Co.", s:"consumer_stap", t:2, p:50, short:"4163"},
-  {id:"lst_4164", n:"Nahdi Medical Co.", s:"consumer_stap", t:2, p:50, short:"Nahdi Medical Co."},
+  {id:"lst_4164", n:"Nahdi Medical Co.", s:"consumer_stap", t:2, p:58, short:"Nahdi Medical"},
   {id:"lst_2050", n:"Savola Group", s:"consumer_stap", t:2, p:66, short:"Savola Group"},
   {id:"lst_2100", n:"Wafrah for Industry and Development Co.", s:"consumer_stap", t:2, p:50, short:"2100"},
   {id:"lst_2281", n:"Tanmiah Food Co.", s:"consumer_stap", t:2, p:50, short:"Tanmiah Food Co."},
@@ -3095,6 +3095,10 @@ const PEOPLE = [
     ["gastat","Board Member","board","ns"]]},
   {id:"david_kalisch", n:"David Kalisch", t:2, p:52, s:"gov", roles:[
     ["gastat","Board Member","board","ns"]]},
+  {id:"bandar_al_samaani", n:"Bandar Al-Samaani", t:2, p:62, s:"industry", roles:[
+    ["lst_1832","Chairman","board","ns"]]},
+  {id:"mohammed_al_dar", n:"Mohammed Al Dar", t:2, p:60, s:"finance", roles:[
+    ["lst_8311","CEO","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
