@@ -114,7 +114,7 @@ const INSTITUTIONS = [
   {id:"lst_dfin", n:"Dhofar Food & Investment SAOG", s:"consumer_stap", t:2, p:50, short:"DFIN"},
   {id:"lst_dgen", n:"Dhofar Generating Company SAOG", s:"utilities", t:2, p:50, short:"DGEN"},
   {id:"lst_dics", n:"Dhofar Insurance Company SAOG", s:"finance", t:2, p:50, short:"DICS"},
-  {id:"lst_gecs", n:"Galfar Engineering & Contracting SAOG", s:"industry", t:2, p:50, short:"GECS"},
+  {id:"lst_gecs", n:"Galfar Engineering & Contracting SAOG", s:"industry", t:2, p:58, short:"Galfar"},
   {id:"lst_gici", n:"Gulf International Chemicals SAOG", s:"materials", t:2, p:50, short:"GICI"},
   {id:"lst_ubar", n:"Ubar Hotels & Resorts SAOG", s:"consumer_disc", t:2, p:50, short:"UBAR"},
   {id:"lst_tfci", n:"Taageer Finance Company SAOG", s:"finance", t:2, p:50, short:"TFCI"},

@@ -174,6 +174,7 @@ const INSTITUTIONS = [
   {id:"btea", n:"Bahrain Tourism and Exhibitions Authority", s:"consumer_disc", t:2, p:58, short:"BTEA"},
   {id:"tarabut_gateway", n:"Tarabut Gateway", s:"tech", t:3, p:58, short:"Tarabut Gateway"},
   {id:"coinmena", n:"CoinMENA", s:"tech", t:3, p:56, short:"CoinMENA"},
+  {id:"jalal_sons", n:"Mohammed Jalal & Sons Company W.L.L.", s:"conglomerate", t:3, p:56, short:"Jalal & Sons"},
 ];
 
 const PEOPLE = [
@@ -3687,4 +3688,5 @@ const AKA = {
   sio_bahrain:["SIO"],
   csb_bahrain:["CSB"],
   tarabut_gateway:["Tarabut"],
+  jalal_sons:["MJS","Mohammed Jalal and Sons"],
 };

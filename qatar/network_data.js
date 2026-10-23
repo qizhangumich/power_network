@@ -237,6 +237,7 @@ const INSTITUTIONS = [
   {id:"qatar_steel", n:"Qatar Steel Company (QASCO)", s:"materials", t:2, p:58, short:"Qatar Steel"},
   {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
   {id:"dolphin_energy", n:"Dolphin Energy Limited", s:"energy", t:2, p:57, short:"Dolphin Energy"},
+  {id:"buzwair", n:"Buzwair Group", s:"materials", t:3, p:55, short:"Buzwair Group"},
 ];
 
 const PEOPLE = [
@@ -2350,4 +2351,5 @@ const AKA = {
   al_koot_insurance:["Al Koot"],
   qatar_steel:["QASCO"],
   insead:["European Institute of Business Administration"],
+  buzwair:["Buzwair Industrial Gases"],
 };

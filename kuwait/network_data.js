@@ -246,6 +246,7 @@ const INSTITUTIONS = [
   {id:"jaber_hospital", n:"Jaber Al-Ahmad Al-Sabah Hospital", s:"health", t:2, p:58, short:"Jaber Hospital"},
   {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
   {id:"dgca_kuwait", n:"Directorate General of Civil Aviation", s:"gov", t:2, p:64, short:"DGCA Kuwait"},
+  {id:"aaw", n:"Ali Abdulwahab Al Mutawa Commercial Co.", s:"consumer_disc", t:3, p:55, short:"AAW"},
 ];
 
 const PEOPLE = [

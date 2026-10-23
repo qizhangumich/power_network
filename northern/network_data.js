@@ -157,6 +157,7 @@ const INSTITUTIONS = [
   {id:"fujairah_airport", n:"Fujairah International Airport", s:"industry", t:2, p:52, short:"Fujairah Airport"},
   {id:"gulf_medical_projects", n:"Gulf Medical Projects Company", s:"health", t:3, p:54, short:"Gulf Medical Projects"},
   {id:"al_zahra_hospital", n:"Al Zahra Hospital Sharjah", s:"health", t:3, p:52, short:"Al Zahra Hospital"},
+  {id:"bukhatir", n:"Bukhatir Group", s:"conglomerate", t:3, p:58, short:"Bukhatir Group"},
 ];
 
 const PEOPLE = [
@@ -1521,4 +1522,5 @@ const AKA = {
   ajman_ports_customs:["APCD"],
   fujairah_airport:["FIA"],
   gulf_medical_projects:["GMPC"],
+  bukhatir:["BUKHATIR"],
 };

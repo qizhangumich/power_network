@@ -220,6 +220,11 @@ const INSTITUTIONS = [
   {id:"gems_education", n:"GEMS Education", s:"education", t:3, p:60, short:"GEMS Education"},
   {id:"dubai_residential", n:"Dubai Residential REIT", s:"realestate", t:2, p:55, short:"Dubai Residential"},
   {id:"merex_investment", n:"Merex Investment Company", s:"realestate", t:3, p:54, short:"Merex Investment"},
+  {id:"albwardy_invest", n:"Albwardy Investment", s:"conglomerate", t:3, p:58, short:"Albwardy Invest."},
+  {id:"alserkal", n:"Alserkal Group", s:"conglomerate", t:3, p:54, short:"Alserkal Group"},
+  {id:"al_yousuf", n:"Al Yousuf Group", s:"conglomerate", t:3, p:57, short:"Al Yousuf Group"},
+  {id:"binhendi", n:"BinHendi Enterprises", s:"consumer_disc", t:3, p:54, short:"BinHendi"},
+  {id:"index", n:"INDEX Holding", s:"conglomerate", t:3, p:52, short:"INDEX Holding"},
 ];
 
 const PEOPLE = [
@@ -2689,4 +2694,8 @@ const AKA = {
   mbrsg:["Dubai School of Government"],
   kpc_trading:["KPC International trading arm"],
   insead:["European Institute of Business Administration"],
+  albwardy_invest:["Albwardy Investments"],
+  alserkal:["Al Serkal Group"],
+  al_yousuf:["Al Yousuf LLC"],
+  binhendi:["Bin Hendi Enterprises"],
 };
