@@ -3485,6 +3485,48 @@ const PEOPLE = [
     ["sio_bahrain","Board Member - Government Employers' Representative","board","ns"]]},
   {id:"hesham_yousef_ali", n:"Hesham Yousef Ali Al Rayes", t:2, p:60, s:"health", roles:[
     ["bdf_hospital","Deputy Chief Executive Officer and Director General of Medical Affairs","executive","ns"]]},
+  {id:"noora_majid_alghatam", n:"Noora Majid Alghatam", t:2, p:58, s:"gov", roles:[
+    ["csb_bahrain","Director of the Wages and Benefits Directorate","executive","v"]]},
+  {id:"sabeeka_rashid_abdulrahman", n:"Sabeeka Rashid Abdulrahman Al-Mannai", t:2, p:58, s:"gov", roles:[
+    ["csb_bahrain","Director of the Promotions Directorate","executive","v"]]},
+  {id:"amal_isa_abdullah", n:"Amal Isa Abdullah Ateeq", t:2, p:58, s:"gov", roles:[
+    ["csb_bahrain","Director of the Organizational Performance Directorate","executive","v"]]},
+  {id:"rihab_ibrahim_ahmed", n:"Rihab Ibrahim Ahmed Al Fadhel", t:2, p:58, s:"gov", roles:[
+    ["csb_bahrain","Director of the Human Resources Operations Directorate","executive","v"]]},
+  {id:"muath_bin_duaij", n:"Muath bin Duaij Al Khalifa", t:2, p:58, s:"gov", roles:[
+    ["csb_bahrain","General Director of Organisation and Workforce Planning","executive","ns"]]},
+  {id:"rana_bint_abdulrahman", n:"Rana bint Abdulrahman Al Khalifa", t:2, p:58, s:"gov", roles:[
+    ["csb_bahrain","General Director of Institutional Efficiency","executive","ns"]]},
+  {id:"ali_yousif_ali", n:"Ali Yousif Ali Al Hammadi", t:2, p:58, s:"gov", roles:[
+    ["csb_bahrain","General Director of Human Resources Affairs","executive","ns"]]},
+  {id:"mohammed_salman_mohsen", n:"Mohammed Salman Mohsen Al Aradi", t:2, p:58, s:"gov", roles:[
+    ["csb_bahrain","General Director of Institutional Services","executive","ns"]]},
+  {id:"reem_hassan_hameed", n:"Reem Hassan Hameed Marhoon", t:2, p:58, s:"gov", roles:[
+    ["csb_bahrain","General Director of Strategies and Policies","executive","ns"]]},
+  {id:"abdulrahman_abdulla_abdulazi", n:"Abdulrahman Abdulla Abdulaziz Al Shomali", t:2, p:58, s:"gov", roles:[
+    ["csb_bahrain","General Director of Shared Human Resources Services","executive","ns"]]},
+  {id:"haitham_ali_khalil", n:"Haitham Ali Khalil Nass", t:2, p:58, s:"gov", roles:[
+    ["csb_bahrain","Director of the Policies and Regulations Affairs Directorate","executive","ns"]]},
+  {id:"hamad_mohammed_abdulrahman", n:"Hamad Mohammed Abdulrahman Al Mulla", t:2, p:58, s:"gov", roles:[
+    ["csb_bahrain","Director of the Shared Human Resources Services Control Directorate","executive","ns"]]},
+  {id:"rehab_ebrahim_ahmed", n:"Rehab Ebrahim Ahmed Al Fadhel", t:2, p:58, s:"gov", roles:[
+    ["csb_bahrain","Director of the Shared Human Resources Services Operations Directorate","executive","ns"]]},
+  {id:"dana_osama_yousif", n:"Dana Osama Yousif Al Saad", t:2, p:60, s:"consumer_disc", roles:[
+    ["btea","Deputy Chief Executive Officer for Resources and Projects","executive","ns"]]},
+  {id:"fatima_bint_jaafar", n:"Fatima bint Jaafar Al Sairafi", t:2, p:62, s:"consumer_disc", roles:[
+    ["btea","Minister of Tourism and Chairwoman of the BTEA Board of Directors","board","ns"]]},
+  {id:"noura_khamis_khalifa", n:"Noura Khamis Khalifa Al Saadoun", t:2, p:58, s:"consumer_disc", roles:[
+    ["btea","Director of the Policy and Planning Department","executive","v"]]},
+  {id:"majeed_mohammed_majeed", n:"Majeed Mohammed Majeed Al Majid", t:2, p:58, s:"consumer_disc", roles:[
+    ["btea","Director of Business Development and Licensing","executive","v"]]},
+  {id:"mohamed_ahmed_sanad", n:"Mohamed Ahmed Sanad", t:2, p:58, s:"consumer_disc", roles:[
+    ["btea","Director of Tourism Control","executive","v"]]},
+  {id:"ahmed_yousef_taqi", n:"Ahmed Yousef Taqi", t:2, p:58, s:"consumer_disc", roles:[
+    ["btea","Director of Projects and Facilities Management","executive","v"]]},
+  {id:"maryam_ahmed_maseeh", n:"Maryam Ahmed Maseeh Toorani", t:2, p:58, s:"consumer_disc", roles:[
+    ["btea","Director of Marketing and Promotion","executive","v"]]},
+  {id:"ali_ahmed_abdullah", n:"Ali Ahmed Abdullah Dhaif", t:2, p:58, s:"consumer_disc", roles:[
+    ["btea","Director of Resources and Information","executive","v"]]},
 ];
 
 const OWNERSHIP = [

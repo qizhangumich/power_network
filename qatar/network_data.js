@@ -2115,6 +2115,10 @@ const PEOPLE = [
     ["gen_tax_authority","Assistant President for Support Services","executive","v"]]},
   {id:"yousef_ibrahim_al", n:"Yousef Ibrahim Al Hamar", t:2, p:58, s:"gov", roles:[
     ["moecc_q","Assistant Undersecretary for Environmental Affairs","executive","ns"]]},
+  {id:"sheikh_hamdan_bin", n:"Sheikh Hamdan bin Zayed Al Nahyan", t:2, p:62, s:"energy", roles:[
+    ["dolphin_energy","Chairman of the Board of Directors","board","v"]]},
+  {id:"obaid_abdulla_al", n:"Obaid Abdulla Al Dhaheri", t:2, p:60, s:"energy", roles:[
+    ["dolphin_energy","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

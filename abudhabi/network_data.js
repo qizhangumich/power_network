@@ -429,6 +429,7 @@ const PEOPLE = [
     ["adia","Board Member","board","v"],
     ["q","Chairman","board","v"],
     ["gridora","Chairman","board","v"],
+    ["modon_properties","Chairman","board","v"],
     ], note:"Controls the emirate's treasury and chairs the telecom giant."},
   {id:"ahmed_jasim_zaabi", n:"Ahmed Jasim Al Zaabi", t:1, p:90, s:"finance", roles:[
     ["added","Chairman","government","v"],
@@ -487,6 +488,7 @@ const PEOPLE = [
     ["limad","Board Member","board","v"],
     ["modon","Board Member","board","v"],
     ["etihadrail","Board Member","board","v"],
+    ["modon_properties","Board Member","board","v"],
     ]},
   {id:"mansoori_doh", n:"Mansoor Ibrahim Al Mansoori", t:1, p:85, s:"health", roles:[
     ["doh","Chairman","government","v"],
@@ -537,6 +539,7 @@ const PEOPLE = [
     ["scfea","Board Member","board","v"],
     ["xrg","Board Member","board","v"],
     ["q","Board Member","board","v"],
+    ["modon_properties","Board Member","board","v"],
     ]},
   {id:"suhail_mazrouei", n:"Suhail Al Mazrouei", t:1, p:84, s:"energy", roles:[
     ["fedgov","Minister of Energy & Infrastructure","political","v"],
@@ -710,6 +713,7 @@ const PEOPLE = [
   {id:"bill_oregan", n:"Bill O'Regan", t:2, p:70, s:"realestate", roles:[
     ["modon","Group CEO","executive","v"],
     ["q","Group Chief Executive Officer","executive","v"],
+    ["modon_properties","Group Chief Executive Officer","executive","v"],
     ]},
   {id:"shamisi_ports", n:"Capt. Mohamed Juma Al Shamisi", t:2, p:80, s:"industry", roles:[
     ["adports","Managing Director & Group CEO","executive","v"],
@@ -914,6 +918,7 @@ const PEOPLE = [
   {id:"karim_bennis", n:"Karim Bennis", t:2, p:68, s:"comm", roles:[
     ["e_and","Group Chief Financial Officer","executive","v"],
     ["modon","Board Member","board","v"],
+    ["modon_properties","Board Member","board","v"],
     ]},
   {id:"saif_dahbashi", n:"Saif Ali Al Dahbashi", t:2, p:64, s:"industry", roles:[
     ["edge_grp","President, Missiles & Weapons Cluster","executive","v"],
@@ -946,6 +951,7 @@ const PEOPLE = [
     ["multiply","Managing Director (Two Point Zero Group, formerly Multiply Group)","executive","v"],
     ["q","Board Member","board","v"],
     ["adafsa","Member, Board of Directors","board","v"],
+    ["modon_properties","Board Member","board","v"],
     ]},
   {id:"sheikh_ahmed_mohammed", n:"Sheikh Ahmed Mohammed Sultan Aldhaheri", t:2, p:52, s:"finance", roles:[
     ["fab","Board Member","board","v"],
@@ -1095,6 +1101,7 @@ const PEOPLE = [
   {id:"hamad_abdulla_al", n:"Hamad Abdulla Al Hammadi", t:2, p:52, s:"utilities", roles:[
     ["taqa","Board Member","board","ns"],
     ["modon","Board Member","board","v"],
+    ["modon_properties","Board Member","board","v"],
     ]},
   {id:"khaled_mohamed_al", n:"Khaled Mohamed Al Zaabi", t:2, p:52, s:"utilities", roles:[
     ["taqa","Board Member","board","ns"],
@@ -1480,6 +1487,7 @@ const PEOPLE = [
     ["adports","Board Member","board","v"],
     ["modon","Group Managing Director & Board Member","board","v"],
     ["q","Board Member; Group Managing Director","board","v"],
+    ["modon_properties","Group Managing Director","executive","v"],
     ]},
   {id:"hashem_hussein_al", n:"Hashem Hussein Al Dabbas", t:2, p:52, s:"industry", roles:[
     ["adports","Board Member","board","v"],
@@ -2008,6 +2016,7 @@ const PEOPLE = [
   {id:"h_e_sheikh", n:"H.E. Sheikh Abdulla bin Mohamed Al Hamed", t:2, p:52, s:"sovereign", roles:[
     ["adq","Board Member","board","v"],
     ["modon","Vice Chairman","board","v"],
+    ["modon_properties","Vice Chairman","board","v"],
     ]},
   {id:"h_e_mohamed_b", n:"H.E. Mohamed Mubarak Fadel Al Mazrouei", t:2, p:52, s:"sovereign", roles:[
     ["adq","Board Member","board","ns"],
@@ -2156,6 +2165,7 @@ const PEOPLE = [
     ]},
   {id:"greg_fewer", n:"Greg Fewer", t:2, p:52, s:"realestate", roles:[
     ["modon","Board Member","board","v"],
+    ["modon_properties","Board Member","board","v"],
     ]},
   {id:"richard_gerson", n:"Richard Gerson", t:2, p:52, s:"sovereign", roles:[
     ["multiply","Board Member","board","v"],
@@ -4124,6 +4134,9 @@ const PEOPLE = [
     ]},
   {id:"ali_mohammad_al", n:"Ali Mohammad Al Marzooqi", t:2, p:58, s:"gov", roles:[
     ["abu_dhabi_chamber","Director General","executive","v"],
+    ]},
+  {id:"lindsay_hawkins", n:"Lindsay Hawkins", t:2, p:58, s:"realestate", roles:[
+    ["modon_properties","Group Chief Operating Officer","executive","v"],
     ]},
 ];
 

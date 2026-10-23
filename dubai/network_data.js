@@ -645,6 +645,7 @@ const PEOPLE = [
   {id:"justin_shields", n:"Justin Shields", t:2, p:58, s:"comm", roles:[
     ["du","Chief Information Officer","executive","v"]]},
   {id:"malek_al_malek", n:"Malek Al Malek", t:2, p:62, s:"comm", roles:[
+    ["dubai_residential","Chairman, Investment Committee (Group CEO, Dubai Holding Asset Management)","board","v"],
     ["dhcc","Chairman","board","v"],
     ["tecom","Chairman","board","v"],
     ["du","Chairman (Independent Non-Executive)","board","v"],
@@ -748,6 +749,7 @@ const PEOPLE = [
   {id:"alex_davies", n:"Alex Davies", t:2, p:60, s:"realestate", roles:[
     ["nakheel","Chief Executive Officer, Ejadah Asset Management","executive","v"]]},
   {id:"zuber_dehgamia", n:"Zuber Dehgamia", t:2, p:58, s:"realestate", roles:[
+    ["dubai_residential","Board Member","board","v"],
     ["nakheel","Chief Financial Officer, Dubai Holding Real Estate","executive","v"]]},
   {id:"mariam_juma", n:"Mariam Juma", t:2, p:58, s:"realestate", roles:[
     ["nakheel","Chief Operating Officer, Dubai Holding Real Estate","executive","v"]]},
@@ -756,6 +758,7 @@ const PEOPLE = [
   {id:"mohammed_al_habbai", n:"Mohammed Al Habbai", t:2, p:58, s:"realestate", roles:[
     ["nakheel","Chief Real Estate Officer, Dubai Holding Real Estate","executive","v"]]},
   {id:"anuradha_harish", n:"Anuradha Harish", t:2, p:58, s:"realestate", roles:[
+    ["dubai_residential","Board Member","board","v"],
     ["nakheel","Chief Commercial Officer, Dubai Holding Real Estate","executive","v"]]},
   {id:"osama_abouelenain", n:"Osama Abouelenain", t:2, p:58, s:"realestate", roles:[
     ["nakheel","Chief Development Officer, Dubai Holding Real Estate","executive","v"]]},
@@ -2405,6 +2408,56 @@ const PEOPLE = [
     ["gems_education","Principal and CEO - GEMS Founders School Dubai South","executive","v"]]},
   {id:"richard_jones", n:"Richard Jones", t:2, p:60, s:"education", roles:[
     ["gems_education","Principal and CEO - GEMS School of Research and Innovation","executive","v"]]},
+  {id:"nabil_mohammad_ramadhan", n:"Nabil Mohammad Ramadhan Alahmadi", t:2, p:62, s:"realestate", roles:[
+    ["dubai_residential","Chairman","board","v"]]},
+  {id:"brigitte_zammit", n:"Brigitte Zammit", t:2, p:52, s:"realestate", roles:[
+    ["dubai_residential","Board Member","board","v"]]},
+  {id:"ahmad_ali_ahmad", n:"Ahmad Ali Ahmad Meftah AlMarzooqi", t:2, p:52, s:"realestate", roles:[
+    ["dubai_residential","Independent Board Member","board","v"]]},
+  {id:"fahed_ahmed_saeed", n:"Fahed Ahmed Saeed Mohamed AlAwadhi", t:2, p:52, s:"realestate", roles:[
+    ["dubai_residential","Board Member","board","v"]]},
+  {id:"badr_yousuf_mohammad", n:"Badr Yousuf Mohammad Ali AlGargawi", t:2, p:52, s:"realestate", roles:[
+    ["dubai_residential","Independent Board Member","board","v"]]},
+  {id:"ahmed_al_suwaidi", n:"Ahmed Al Suwaidi", t:2, p:60, s:"realestate", roles:[
+    ["dubai_residential","Managing Director, DHAM REIT Management","executive","v"]]},
+  {id:"umer_anwar", n:"Umer Anwar", t:2, p:58, s:"realestate", roles:[
+    ["dubai_residential","Executive Director, Property Management","executive","v"]]},
+  {id:"rami_abi_faraj", n:"Rami Abi Faraj", t:2, p:58, s:"realestate", roles:[
+    ["dubai_residential","Executive Director, Leasing","executive","v"]]},
+  {id:"amjad_abou_said", n:"Amjad Abou Said", t:2, p:46, s:"realestate", roles:[
+    ["dubai_residential","Head of Business Development","executive","v"]]},
+  {id:"gautam_gurnani", n:"Gautam Gurnani", t:2, p:58, s:"realestate", roles:[
+    ["dubai_residential","Investment Committee Member","executive","v"]]},
+  {id:"girish_kumar", n:"Girish Kumar", t:2, p:58, s:"realestate", roles:[
+    ["dubai_residential","Investment Committee Member","executive","v"]]},
+  {id:"deema_darwish", n:"Deema Darwish", t:2, p:58, s:"realestate", roles:[
+    ["dubai_residential","Investment Committee Member","executive","v"]]},
+  {id:"umar_farooq", n:"Umar Farooq", t:2, p:58, s:"realestate", roles:[
+    ["dubai_residential","Investment Committee Member","executive","v"]]},
+  {id:"rabah_halawani", n:"Rabah Halawani", t:2, p:58, s:"realestate", roles:[
+    ["dubai_residential","Director of Risk Management and Compliance","executive","v"]]},
+  {id:"osama_ibrahim_seddiqi", n:"Osama Ibrahim Seddiqi", t:2, p:62, s:"consumer_disc", roles:[
+    ["seddiqi","Vice-Chairman, Group Managing Director and Chief Financial Officer","board","v"]]},
+  {id:"maarten_geeraerts", n:"Maarten Geeraerts", t:2, p:60, s:"consumer_disc", roles:[
+    ["seddiqi","Group Chief Executive Officer","executive","v"]]},
+  {id:"mohammed_abdulmagied_seddiqi", n:"Mohammed Abdulmagied Seddiqi", t:2, p:60, s:"consumer_disc", roles:[
+    ["seddiqi","Chief Executive Officer, Ahmed Seddiqi","executive","v"]]},
+  {id:"hind_abdul_hamied", n:"Hind Abdul Hamied Seddiqi", t:2, p:58, s:"consumer_disc", roles:[
+    ["seddiqi","Chief Marketing and Communications Officer; CEO, Dubai Watch Week","executive","v"]]},
+  {id:"hassan_abdulmagied_seddiqi", n:"Hassan Abdulmagied Seddiqi", t:2, p:58, s:"consumer_disc", roles:[
+    ["seddiqi","Chief Human Capital Officer; CEO, Mizzen","executive","v"]]},
+  {id:"christophe_nicaise", n:"Christophe Nicaise", t:2, p:58, s:"consumer_disc", roles:[
+    ["seddiqi","Chief Strategy and Business Development Officer","executive","v"]]},
+  {id:"mohammed_abdul_hamied", n:"Mohammed Abdul Hamied Seddiqi", t:2, p:58, s:"consumer_disc", roles:[
+    ["seddiqi","Deputy CEO, Ahmed Seddiqi; CEO, Swiss Watch Services","executive","v"]]},
+  {id:"muna_mohammed_seddiqi", n:"Muna Mohammed Seddiqi", t:2, p:58, s:"consumer_disc", roles:[
+    ["seddiqi","Senior Creative Director","executive","v"]]},
+  {id:"mahra_abdulmagied_seddiqi", n:"Mahra Abdulmagied Seddiqi", t:2, p:58, s:"consumer_disc", roles:[
+    ["seddiqi","Senior Director","executive","v"]]},
+  {id:"qasim_ibrahim_seddiqi", n:"Qasim Ibrahim Seddiqi", t:2, p:58, s:"consumer_disc", roles:[
+    ["seddiqi","Senior Director","executive","v"]]},
+  {id:"mohamed_ghazi_khoory", n:"Mohamed Ghazi Khoory", t:2, p:58, s:"consumer_disc", roles:[
+    ["seddiqi","Senior Director, Group Procurement and ICT","executive","v"]]},
 ];
 
 const OWNERSHIP = [

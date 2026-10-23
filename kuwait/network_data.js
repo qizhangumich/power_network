@@ -1973,6 +1973,22 @@ const PEOPLE = [
     ["moo_kw","Assistant Undersecretary for Technical Affairs","executive","v"]]},
   {id:"sheikh_hamoud_mubarak", n:"Sheikh Hamoud Mubarak Al-Hamoud Al-Sabah", t:2, p:58, s:"gov", roles:[
     ["dgca_kuwait","Director General","executive","ns"]]},
+  {id:"sheikh_humoud_mubarak", n:"Sheikh Humoud Mubarak Al-Sabah", t:2, p:58, s:"gov", roles:[
+    ["dgca_kuwait","President of Civil Aviation","executive","v"]]},
+  {id:"saad_mohammad_al", n:"Saad Mohammad Al-Otaibi", t:2, p:58, s:"gov", roles:[
+    ["dgca_kuwait","Deputy Director General for Planning Affairs and Projects","executive","v"]]},
+  {id:"duaij_khalaf_alotaibi", n:"Duaij Khalaf Alotaibi", t:2, p:58, s:"gov", roles:[
+    ["dgca_kuwait","Deputy Director General for Air Navigation Services Affairs","executive","v"]]},
+  {id:"saleh_abdullah_al", n:"Saleh Abdullah Al-Fadaghi", t:2, p:58, s:"gov", roles:[
+    ["dgca_kuwait","Deputy Director General for Airport Affairs","executive","v"]]},
+  {id:"osama_m_al", n:"Osama M. Al-Qatari", t:2, p:58, s:"gov", roles:[
+    ["dgca_kuwait","Director for Administrative Affairs","executive","v"]]},
+  {id:"fahad_alobaidly", n:"Fahad Alobaidly", t:2, p:58, s:"gov", roles:[
+    ["dgca_kuwait","Director for Financial Affairs","executive","v"]]},
+  {id:"mohammed_saleh_al", n:"Mohammed Saleh Al-Shuaibi", t:2, p:58, s:"gov", roles:[
+    ["dgca_kuwait","Director of Information Systems Department","executive","v"]]},
+  {id:"ahmed_hussain", n:"Ahmed Hussain", t:2, p:58, s:"gov", roles:[
+    ["dgca_kuwait","Director of Planning and Control Department","executive","v"]]},
 ];
 
 const OWNERSHIP = [

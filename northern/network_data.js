@@ -496,6 +496,7 @@ const PEOPLE = [
   {id:"mansour_mohammed_bin", n:"Mansour Mohammed Bin Nassar", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Sharjah Government Legal Department)","board","v"]]},
   {id:"abdelaziz_saeed_obaid", n:"Abdelaziz Saeed Obaid Bin Butti Almheiri", t:2, p:62, s:"gov", roles:[
+    ["sharjah_healthcare_city","Chairman","board","v"],
     ["univ_hosp_sharjah","Chairman of the Board of Trustees","board","ns"],
     ["sharjah_health_auth","Chairman","board","v"],
     ["shj_execco","Member (Chairman of Sharjah Health Authority)","board","v"]]},
