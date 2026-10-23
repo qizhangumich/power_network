@@ -1,0 +1,5 @@
+# Clifford Chance advises Luxinva on the voluntary public takeover offer of QIAGEN NV
+source: Clifford Chance
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQWRxYlhKUGh3ZFN6c1E2cGlRNTI4eHpsWmI0eUt1dmduVm5DOUo1ZG5EWnJma3pGMjVuWEViaW8yanZZUG1JcTc3RXFxZkJ0RzEwdUl5MklNVElrQ0NjSmdXMFpCeVpBaVRuSXFXMGpxNlJCdHpWV2pfLVRscFA0Ql8yQkNlYjk0RjcyazA4eW5Iel9vZ3FnbXZnZmF6MGFid1ltc0VPZnE2NXdoX0VybFhzLVBKdUlLQ2JoaXpJVEZRS2txSzhnd1lpLUdyam9zUHhB?oc=5
+
+Clifford Chance advises Luxinva on the voluntary public takeover offer of QIAGEN NV    Clifford Chance

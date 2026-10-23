@@ -1,0 +1,5 @@
+# UAE flights delayed as Typhoon Champi disrupts travel across Asia
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPcGlMeDlnMEhJZW9rYjhkeUNIYWdKbmdDQ1FGZlRTWkQ2a2ZwcHdwQ2FDcjdDbVFidnlqa05kMVQ0NVFmN08wVjFtZFVSTUNFM21haGd3Z1VvemRJa0gxLXJVOHBSMUxGZUV0UFVhcmJaWDFsRmF1VEtJZ21NUkxOUlVWd1BCcW5rOHRSV3Q3UFp0aHZFeUkxajZBLWRNQ2dRVVRPNnlDenhwWF80X1g2dkpMQjl2cFU?oc=5
+
+UAE flights delayed as Typhoon Champi disrupts travel across Asia    Arabian Business

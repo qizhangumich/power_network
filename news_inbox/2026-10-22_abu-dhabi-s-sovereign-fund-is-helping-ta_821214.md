@@ -1,0 +1,5 @@
+# Abu Dhabi’s sovereign fund is helping take another listed company private, alongside EQT
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNMEtPR1VkMEZDVV8tbEhsNm03cEZvTVJXWUVuTEl5aEpDNTRQMm5vSUtpZFhEaERXdnZjdDBMR0pYME9GdzBKaXpySG9KZGxreGZYTnBKOFVRMWE5SXhmNFFfV2tuTDRYR1dQaEhxOGczeFN0Q2xpTDg4eDNPbjFYOGt2MXE3ZC1TWjBxQ1g4NnVncGNFRlkxMDhoZzdhM2lKX3R3X3l6WUpRQ25Cc2hyT2IwWE1GdmNESU9NcVVaOXRCWmJ6Rnc?oc=5
+
+Abu Dhabi’s sovereign fund is helping take another listed company private, alongside EQT    EnterpriseAM

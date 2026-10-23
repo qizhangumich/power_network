@@ -1,0 +1,5 @@
+# Round-the-clock renewable-energy project, United Arab Emirates
+source: Engineering News
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNTG5IY3ZpN2FnRDhZMW40WHBLTUZhRTFtblJ3R19XbXpFY2JUMWhqTUF2Zzd5V3A0T3NtRnNSZVFuNWJuelhldl9MbFM1ZXBwUVU3VExIdTZPNFFaV294NVJkYUQ0ang1SnRnb3BCSDMwOG9sVWRZV3g5dDd4VkJfOTFlamdkdlA1SldnTGhQSWZlV1Q0MmVWanVqdHhqdWNXVndpVVY4aGNCY1Fwc0dBY3B5Z2U?oc=5
+
+Round-the-clock renewable-energy project, United Arab Emirates    Engineering News
