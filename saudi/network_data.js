@@ -531,6 +531,8 @@ const INSTITUTIONS = [
   {id:"tamara", n:"Tamara", s:"tech", t:3, p:56, short:"Tamara"},
   {id:"qiddiya_investment", n:"Qiddiya Investment Company", s:"realestate", t:2, p:57, short:"Qiddiya Investment"},
   {id:"sirar_by_stc", n:"Advanced Technology and Cybersecurity Company", s:"tech", t:3, p:53, short:"sirar by stc"},
+  {id:"rezayat", n:"Rezayat Group", s:"industry", t:3, p:52, short:"Rezayat Group"},
+  {id:"basamh", n:"Basamh Group", s:"consumer_stap", t:3, p:52, short:"Basamh Group"},
 ];
 
 const PEOPLE = [
@@ -3689,4 +3691,5 @@ const AKA = {
   insead:["European Institute of Business Administration"],
   qiddiya_investment:["QIC"],
   sirar_by_stc:["sirar"],
+  basamh:["Basamh Trading Company","BTC"],
 };
