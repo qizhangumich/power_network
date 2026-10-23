@@ -1,0 +1,5 @@
+# Lilly, Mubadala Bio announce landmark deal to advance pharmaceutical manufacturing in Abu Dhabi
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbXBnLW91LVF3dnR3dUJyY2tqQ2dJSFE3bTc3Wl9WNU9qXzlKWVo4cVU5SUVIc1NOTmFPRmE0S21RWVNSVndBSlF5NXJTUjVlZ0hlOFQzMk92UERydkJTZW5BNGtwaTdfa0F6WFBSX0Fya2ZyU0dLTFJZVEFWLUdDYmxMMXpweVdoTmNWYXdJdFAtRzFCRGFFbGVHLTB4WDZ6YmJnbXhzVUVtaUg5Nlcwcm5Kb2EyYmIzdXozNjRBVHFFMHFTZW1FNENHdzBYdzVxRGRxRnFtdHRyNTA?oc=5
+
+Lilly, Mubadala Bio announce landmark deal to advance pharmaceutical manufacturing in Abu Dhabi    Zawya

@@ -1,0 +1,5 @@
+# The Emirati airline Etihad Airways strengthens its presence in Barcelona
+source: The New Barcelona Post
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxOYTZoZmFpQ2JMb3hiVzFLR1NnV1NoX1VRZ1dycGpXbzMzeTRHajRfaW5BTHBjeDZBTFl1NWY1aWQ3eXplN3dVX2dQSlJKdjNoNlQzZUFzOGNHSzV6cTUwS2o2akxYUGwxOEtReXNRYVlDY3FwM3FWNXZoWTI5dVFVS1NFM2JzQnlyWXc0MURkM1F5UDZubEpfYzV6WnZCY2lid2V4eTM0MUFPUHY3Ylptdk5weUlDSjg?oc=5
+
+The Emirati airline Etihad Airways strengthens its presence in Barcelona    The New Barcelona Post

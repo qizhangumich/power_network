@@ -1,0 +1,5 @@
+# Dubai and Middle East flight disruption: airlines extend route suspensions to Saudi Arabia amid ongoing missile threats
+source: Condé Nast Traveller Middle East
+url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxORzFWTV8wLWcyZWR0WHE0bEZPSHYtcXFmb3lxTW9hZXNHM1BCVDJCM3ZycWZHZlFyandJUHR6dS1QTDZ5WlJtblBjbEpadTI1anFFQ3BvMkFUd09KMjdNWXdKT3VjMjEyUEswUzN4eDdjblVSaW5rbHcwVDVXNVlPUDdpQkN1WUI2MGl6bkZFN0pUejJxamdyMDloRE9jYzRLNVhaM1lQckg4bzZSalNFQnNyMmlyc0p1T0l6REZCMXd5eUhIa0NLb251alo1ckpOMUllZGZwVGhFdlZnMlpsa1NraVl5VHJLa2c?oc=5
+
+Dubai and Middle East flight disruption: airlines extend route suspensions to Saudi Arabia amid ongoing missile threats    Condé Nast Traveller Middle East

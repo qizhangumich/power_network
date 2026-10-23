@@ -1,0 +1,5 @@
+# Sheikh Khaled tours culture spots in Athens on official visit
+source: The National
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkxUQ0RNVzNMaHdxblhlMHVpQ0lfanMyZ0R1NEpGN2tNQ1ZJamtyaEpaMFJNcFdNS2VzQ25UcWRoWFNaa2N5X25vcjdLVERIT0ZnREJVTHBYTHNTRS1KYlNtTmh6LUJIa1F3NjFLNnd6MnRTUDB6VTdidVNfdnFPRVVfTkN5Uktlbm1WREJVWDBRWHRvaWo2eEg4TFNpMVdDOU13N25YMU91V0FncHdNRFc5Z20?oc=5
+
+Sheikh Khaled tours culture spots in Athens on official visit    The National
