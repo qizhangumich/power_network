@@ -1,0 +1,5 @@
+# Masdar expands portfolio in Greece with major solar project acquisition
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxQU0FfWURHcFFtdDU4WE01X2R3djQwQTZUQlhwY0hRbGFtZTVnVm5ka0Y3V2FpcUZnWjllZFlQYXpNMUczeU1PXzdsM2ZpajBwTmJkNkJGY05qd1pXdmdjWWktV1hYejN2Z2oyRmthSGh4dGhKYWtKSXc3ek1keUp2bFEwWFFlQmRqZEdBOGNNNDhjUGhHNUxPeDBFX1NHcVA5UDc1SVg3MXZHSFIxRm1zSExhY05sQQ?oc=5
+
+Masdar expands portfolio in Greece with major solar project acquisition    مكتب أبوظبي الإعلامي

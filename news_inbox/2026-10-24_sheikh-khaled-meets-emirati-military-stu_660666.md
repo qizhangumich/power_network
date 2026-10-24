@@ -1,0 +1,5 @@
+# Sheikh Khaled meets Emirati military students on official visit to Greece
+source: www.thenationalnews.com
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxQdTVUU0hEbFlsWXhsaTgtM19SMXNlZHhHZTVGZ1RndUV3ZkIxeHZQa3Vsc2xqajJWZ2tENnJ4Y0ZTN2daMTVkenkwTWhaeTJJT19peERZeHJ4NGV0TnppQnk5MlZJcDZxOVI5cHdsejJIa2x6bUhfa1FZcnFJeF9hdkNlMVNkUS0yMTFaRTZIZHo5SEpoSkRIa0p2NkZBQkJoTmFlR2RkdzA2dHg5Z1Vwbkpma0g2cC02ZUM1MDhOdjdvN0xG?oc=5
+
+Sheikh Khaled meets Emirati military students on official visit to Greece    www.thenationalnews.com

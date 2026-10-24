@@ -1,0 +1,5 @@
+# Sheikh Khaled meets Emirati military students in Greece
+source: GulfToday
+url: https://news.google.com/rss/articles/CBMinAFBVV95cUxQZWJhMFUxblUwUDN6czdxMTlreUV5WTlMMTM5VDBqYTlVSXhfSHpQZHdCUWtreHdmck5vV2twRkZOZ1A5bFlRR0pzMXdhSWZIU0NBdlp0OUd5UVRQdTRIU0E1akxnUk95QnY1anZ0TVd5UGtUSFZSYWt2cVlhdGJUelh0cXkwV3FJS2pUMURldGludFhhcmdHbXVraGE?oc=5
+
+Sheikh Khaled meets Emirati military students in Greece    GulfToday
