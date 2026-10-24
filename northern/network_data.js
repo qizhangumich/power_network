@@ -1337,6 +1337,16 @@ const PEOPLE = [
     ["al_qassimi_hospital","Executive Director and Head of the Heart Centre","executive","ns"]]},
   {id:"sheikh_faisal_bin_b_b", n:"Sheikh Faisal bin Saoud Al Qassimi", t:2, p:52, s:"gov", roles:[
     ["sharjah_airport_auth","Director","board","v"]]},
+  {id:"salah_abdul_rahman", n:"Salah Abdul Rahman Bukhatir", t:2, p:62, s:"conglomerate", roles:[
+    ["bukhatir","Chairman","board","v"]]},
+  {id:"waleed_abdul_rahman", n:"Waleed Abdul Rahman Bukhatir", t:2, p:52, s:"conglomerate", roles:[
+    ["bukhatir","Board Member","board","v"]]},
+  {id:"khalaf_abdul_rahman", n:"Khalaf Abdul Rahman Bukhatir", t:2, p:52, s:"conglomerate", roles:[
+    ["bukhatir","Board Member","board","v"]]},
+  {id:"abdul_rahman_bukhatir", n:"Abdul Rahman Bukhatir", t:2, p:52, s:"conglomerate", roles:[
+    ["bukhatir","Founder and President","board","v"]]},
+  {id:"ayman_ahmed", n:"Ayman Ahmed", t:2, p:58, s:"conglomerate", roles:[
+    ["bukhatir","CEO, Industries, Trading and Services Sectors","executive","v"]]},
 ];
 
 const OWNERSHIP = [

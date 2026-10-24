@@ -533,6 +533,8 @@ const INSTITUTIONS = [
   {id:"sirar_by_stc", n:"Advanced Technology and Cybersecurity Company", s:"tech", t:3, p:53, short:"sirar by stc"},
   {id:"rezayat", n:"Rezayat Group", s:"industry", t:3, p:52, short:"Rezayat Group"},
   {id:"basamh", n:"Basamh Group", s:"consumer_stap", t:3, p:52, short:"Basamh Group"},
+  {id:"daco", n:"Dammam Airports Company", s:"industry", t:2, p:58, short:"DACO"},
+  {id:"aljazira_capital", n:"AlJazira Capital", s:"finance", t:3, p:56, short:"AlJazira Capital"},
 ];
 
 const PEOPLE = [
@@ -3231,6 +3233,58 @@ const PEOPLE = [
     ["basamh","Board Member","board","ns"]]},
   {id:"saied_ahmed_basamh", n:"Saied Ahmed Basamh", t:2, p:52, s:"consumer_stap", roles:[
     ["basamh","Board Member","board","ns"]]},
+  {id:"saad_bin_abdullah", n:"Saad bin Abdullah Alkhorayef", t:2, p:62, s:"industry", roles:[
+    ["alkhorayef_2","Chairman","board","v"]]},
+  {id:"hamad_bin_abdullah", n:"Hamad bin Abdullah Alkhorayef", t:2, p:62, s:"industry", roles:[
+    ["alkhorayef_2","Deputy Chairman","board","v"]]},
+  {id:"mohammad_bin_abdullah", n:"Mohammad bin Abdullah Alkhorayef", t:2, p:60, s:"industry", roles:[
+    ["alkhorayef_2","CEO","executive","v"]]},
+  {id:"ammar_al_khudairi", n:"Ammar Al Khudairi", t:2, p:52, s:"industry", roles:[
+    ["alkhorayef_2","Board Member","board","v"]]},
+  {id:"amr_al_dabbagh", n:"Amr Al-Dabbagh", t:2, p:62, s:"conglomerate", roles:[
+    ["al_dabbagh","Chairman and CEO","executive","v"]]},
+  {id:"dirk_vanderbroeck", n:"Dirk Vanderbroeck", t:2, p:58, s:"conglomerate", roles:[
+    ["al_dabbagh","Executive Director","executive","v"]]},
+  {id:"paul_polman", n:"Paul Polman", t:2, p:52, s:"conglomerate", roles:[
+    ["al_dabbagh","Non-Executive Director","board","v"]]},
+  {id:"hayfa_abuzabibah", n:"Hayfa Abuzabibah", t:2, p:58, s:"conglomerate", roles:[
+    ["al_dabbagh","Chief Omnipreneurship Officer, People & Culture","executive","v"]]},
+  {id:"salah_rashed_al", n:"Salah Rashed Al-Rashed", t:2, p:62, s:"finance", roles:[
+    ["lst_1080","Chairman","board","v"]]},
+  {id:"abdulmohsen_ibrahim_altouq", n:"Abdulmohsen Ibrahim AlTouq", t:2, p:62, s:"finance", roles:[
+    ["lst_1080","Deputy Chairman","board","v"]]},
+  {id:"obaid_abdullah_alrasheed", n:"Obaid Abdullah Alrasheed", t:2, p:60, s:"finance", roles:[
+    ["lst_1080","Managing Director and CEO","executive","v"]]},
+  {id:"hesham_abdullatif_aljabr", n:"Hesham Abdullatif Aljabr", t:2, p:52, s:"finance", roles:[
+    ["lst_1080","Board Member","board","v"]]},
+  {id:"osama_khalid_alatiki", n:"Osama Khalid Alatiki", t:2, p:52, s:"finance", roles:[
+    ["lst_1080","Board Member","board","v"]]},
+  {id:"mohammed_faraj_alkanani", n:"Mohammed Faraj Alkanani", t:2, p:52, s:"finance", roles:[
+    ["lst_1080","Board Member","board","v"]]},
+  {id:"thamer_mesfer_alwadai", n:"Thamer Mesfer Alwadai", t:2, p:52, s:"finance", roles:[
+    ["lst_1080","Board Member","board","v"]]},
+  {id:"randa_muhammad_al", n:"Randa Muhammad Al-Sadiq", t:2, p:52, s:"finance", roles:[
+    ["lst_1080","Board Member","board","v"]]},
+  {id:"ahmed_samer_hamdi", n:"Ahmed Samer Hamdi Al Zaeem", t:2, p:52, s:"finance", roles:[
+    ["lst_1080","Board Member","board","v"]]},
+  {id:"naim_rassem_kamel", n:"Naim Rassem Kamel AlHussaini", t:2, p:52, s:"finance", roles:[
+    ["lst_1080","Board Member","board","v"]]},
+  {id:"saad_aldugish", n:"Saad AlDugish", t:2, p:58, s:"finance", roles:[
+    ["lst_1080","Chief Financial Officer","executive","v"]]},
+  {id:"bader_n_al", n:"Bader N. Al-Otaibi", t:2, p:58, s:"finance", roles:[
+    ["lst_1080","Chief Human Resources Officer","executive","v"]]},
+  {id:"aiedh_m_al", n:"Aiedh M. Al-Zahrani", t:2, p:58, s:"finance", roles:[
+    ["lst_1080","Chief Operating Officer","executive","v"]]},
+  {id:"kamal_a_khodr", n:"Kamal A. Khodr", t:2, p:58, s:"finance", roles:[
+    ["lst_1080","Chief Risk Officer","executive","v"]]},
+  {id:"abdulaziz_alomran", n:"Abdulaziz Alomran", t:2, p:58, s:"finance", roles:[
+    ["lst_1080","Chief Credit Officer","executive","v"]]},
+  {id:"mohammed_ali_al", n:"Mohammed Ali Al-Hassany", t:2, p:60, s:"industry", roles:[
+    ["daco","Chief Executive Officer","executive","ns"]]},
+  {id:"sufyan_zamil_al", n:"Sufyan Zamil Al-Zamil", t:2, p:62, s:"industry", roles:[
+    ["daco","Chairman","board","ns"]]},
+  {id:"naif_almesned", n:"Naif Almesned", t:2, p:60, s:"finance", roles:[
+    ["aljazira_capital","Chief Executive Officer & Managing Director","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3625,6 +3679,8 @@ const OWNERSHIP = [
   ["sirar_by_stc","stc","subsidiary","v"],
   ["tawal","stc","subsidiary","v"],
   ["iot_squared","stc","joint venture","v"],
+  ["daco","gaca_sa","operates airport owned by","ns"],
+  ["aljazira_capital","lst_1020","subsidiary","v"],
 ];
 
 const FAMILY = [

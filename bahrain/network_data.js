@@ -1352,6 +1352,7 @@ const PEOPLE = [
   {id:"ghassan_ebrahim_al", n:"Ghassan Ebrahim Al Sabbagh", t:2, p:52, s:"consumer_disc", roles:[
     ["lst_dutyf","Director","board","v"]]},
   {id:"jalal_mohammed_jalal", n:"Jalal Mohammed Jalal", t:2, p:52, s:"consumer_disc", roles:[
+    ["jalal_sons","Chairman","board","v"],
     ["lst_dutyf","Director","board","v"]]},
   {id:"mohammed_farouk_yousif", n:"Mohammed Farouk Yousif Almoayyed", t:2, p:52, s:"consumer_disc", roles:[
     ["lst_dutyf","Director","board","v"]]},
@@ -2173,6 +2174,7 @@ const PEOPLE = [
   {id:"jehad_yousuf_amin", n:"Jehad Yousuf Amin", t:2, p:52, s:"consumer_stap", roles:[
     ["lst_trafco","Director","board","v"]]},
   {id:"sami_mohammed_jalal", n:"Sami Mohammed Jalal", t:2, p:52, s:"consumer_stap", roles:[
+    ["jalal_sons","Director","board","v"],
     ["lst_trafco","Director","board","v"]]},
   {id:"abdulredha_aldailami", n:"Abdulredha Aldailami", t:2, p:52, s:"consumer_stap", roles:[
     ["lst_trafco","Director","board","v"]]},
@@ -3528,6 +3530,10 @@ const PEOPLE = [
     ["btea","Director of Marketing and Promotion","executive","v"]]},
   {id:"ali_ahmed_abdullah", n:"Ali Ahmed Abdullah Dhaif", t:2, p:58, s:"consumer_disc", roles:[
     ["btea","Director of Resources and Information","executive","v"]]},
+  {id:"ahmed_m_jalal", n:"Ahmed M. Jalal", t:2, p:60, s:"conglomerate", roles:[
+    ["jalal_sons","Managing Director","executive","v"]]},
+  {id:"fuad_m_jalal", n:"Fuad M. Jalal", t:2, p:52, s:"conglomerate", roles:[
+    ["jalal_sons","Director","board","v"]]},
 ];
 
 const OWNERSHIP = [

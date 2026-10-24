@@ -2120,6 +2120,10 @@ const PEOPLE = [
     ["dolphin_energy","Chairman of the Board of Directors","board","v"]]},
   {id:"obaid_abdulla_al", n:"Obaid Abdulla Al Dhaheri", t:2, p:60, s:"energy", roles:[
     ["dolphin_energy","Chief Executive Officer","executive","v"]]},
+  {id:"fahad_buzwair", n:"Fahad Buzwair", t:2, p:62, s:"materials", roles:[
+    ["buzwair","Chairman of Buzwair Holding","board","v"]]},
+  {id:"frank_brunsdon", n:"Frank Brunsdon", t:2, p:58, s:"materials", roles:[
+    ["buzwair","General Manager of Buzwair Industrial Gases Factories","executive","v"]]},
 ];
 
 const OWNERSHIP = [

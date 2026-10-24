@@ -1990,6 +1990,10 @@ const PEOPLE = [
     ["dgca_kuwait","Director of Information Systems Department","executive","v"]]},
   {id:"ahmed_hussain", n:"Ahmed Hussain", t:2, p:58, s:"gov", roles:[
     ["dgca_kuwait","Director of Planning and Control Department","executive","v"]]},
+  {id:"faisal_ali_abdulwahab", n:"Faisal Ali Abdulwahab Al Mutawa", t:2, p:62, s:"consumer_disc", roles:[
+    ["aaw","Chairman and CEO","executive","v"]]},
+  {id:"khalid_faisal_ali", n:"Khalid Faisal Ali Abdulwahab Al Mutawa", t:2, p:60, s:"consumer_disc", roles:[
+    ["aaw","Deputy CEO","executive","v"]]},
 ];
 
 const OWNERSHIP = [
