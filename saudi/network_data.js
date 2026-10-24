@@ -3243,8 +3243,6 @@ const PEOPLE = [
     ["alkhorayef_2","Board Member","board","v"]]},
   {id:"amr_al_dabbagh", n:"Amr Al-Dabbagh", t:2, p:62, s:"conglomerate", roles:[
     ["al_dabbagh","Chairman and CEO","executive","v"]]},
-  {id:"dirk_vanderbroeck", n:"Dirk Vanderbroeck", t:2, p:58, s:"conglomerate", roles:[
-    ["al_dabbagh","Executive Director","executive","v"]]},
   {id:"paul_polman", n:"Paul Polman", t:2, p:52, s:"conglomerate", roles:[
     ["al_dabbagh","Non-Executive Director","board","v"]]},
   {id:"hayfa_abuzabibah", n:"Hayfa Abuzabibah", t:2, p:58, s:"conglomerate", roles:[
