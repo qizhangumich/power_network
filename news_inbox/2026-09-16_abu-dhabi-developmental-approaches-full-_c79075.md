@@ -1,0 +1,5 @@
+# Abu Dhabi Developmental Approaches Full Control of AD Ports
+source: وردنا
+url: https://news.google.com/rss/articles/CBMipgFBVV95cUxONU5YX2hfVFJGUXJ4alo0aUlmNVREZzJ0V2R6TG1iXzZrbHEyU1h0Z2pnSEZFYkFZSGJOVGg4OWc4Z3ZZaVVUOWxHS0FvUHNEclotZ3BvWWFlQVRFeE1zX1l1TkxQNjlDd21JY1IwcEJacWFJYnpQZmEtOUVOMVVhTHVtUkN5M3J0SlhXUXN4cFhGZTlmXzJQUW1Sc3pCT0xyWEEtZEJB?oc=5
+
+Abu Dhabi Developmental Approaches Full Control of AD Ports    وردنا

@@ -1,0 +1,5 @@
+# During official visit to Greece, Crown Prince of Abu Dhabi visits Technical Training and Qualification Center and meets Emirati military students
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMipgJBVV95cUxNQl9BTHYyVmYwN3dSWjNQUTRJQjJBemVwUDNPVzhwcFdHQXRhUzJHbVJlWUxoY1dZSWpIRGhqZ1hCMDJGdHp0VHVjTWtHZm1tSjVuUlNpZXdhTWQwaEdwSzJIR1VHSms3UHU5NUEwZmszUjBsdnJEN2tMeW4tLWM1UlBiMGF0RzBhUG1yV1A4RFllM1dnMWg3aloxemRoYXJmQ2dSTDY1ZmNzakVIZ3pjcVZmVnkzckJTMGd1VWIyY1lvd1cxUVNYWVhybUNHSFhfRnJpaHdGSE5JVFV5MF81VnRRSzNEOGZoN2tEaUUyUWdWUDB2VjJJNmdyU0luUXdmR3lmMjFpMk5tZGNNT0hTNzZycUhLUlBlYS1lM005RjFucVUza2c?oc=5
+
+During official visit to Greece, Crown Prince of Abu Dhabi visits Technical Training and Qualification Center and meets Emirati military students    مكتب أبوظبي الإعلامي
