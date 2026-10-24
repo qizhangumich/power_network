@@ -1,7 +1,12 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-King Fahd International Airport,4,saudi,pending,2026-10-11,2026-10-23,"Two killed, eight injured in attack on Saudi Arabia’s King Fahd International Airport"
+King Fahd International Airport,5,saudi,pending,2026-10-11,2026-10-23,"Two killed, eight injured in attack on Saudi Arabia’s King Fahd International Airport"
+Offshore Energy,2,abudhabi,pending,2026-10-12,2026-10-23,ADNOC broadens its Asian horizons with Gulf Group LNG deal
+Mekdam Holding Group,2,qatar,pending,2026-10-04,2026-10-23,"Mekdam Holding Group, Armada sign strategic partnership at Milipol Qatar"
+Attend One Planet Sovereign Wealth Fund,2,qatar,pending,2026-10-21,2026-10-23,"HH the Amir, French President Attend One Planet Sovereign Wealth Fund CEOs Summit"
+Wifaq Center,2,qatar,pending,2026-10-04,2026-10-23,Wifaq Center Organizes Exhibition to Promote Family Cohesion
 Aamal Energy,2,qatar,pending,2026-10-21,2026-10-22,Aamal subsidiary ‘Aamal Energy’ secures contract with an initial value exceeding QR100m
 AlJazira Capital,2,saudi,pending,2026-10-07,2026-10-22,AlJazira Capital issues Q3 2026 earnings forecasts
+Hassan Allam Utilities,2,bahrain,pending,2026-10-23,2026-10-24,Hassan Allam Utilities signs deal to explore setting up logistics hub
 Riyadh Airport,9,saudi,rejected,2026-10-09,2026-10-20,Etihad Extends UAE-Saudi Flight Cancellations Until October 13 After Riyadh Airport Disruptions
 Bandhan Bank,7,abudhabi,rejected,2026-10-12,2026-10-13,‘Unaware of Abu Dhabi investors’ stake sale plans’: Bandhan Bank clarifies after 7% share jump
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
@@ -45,10 +50,8 @@ African Energy,2,abudhabi,rejected,2026-10-15,2026-10-16,"ADNOC Makes Strong Deb
 Noatum Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
 Global Fairs & Events Logistics,2,abudhabi,rejected,2026-10-07,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
 Infinity Power,2,abudhabi,rejected,2026-10-12,2026-10-20,"Infinity Power picks AIKO, 773.5MWp"
-Port Technology,2,abudhabi,rejected,2026-10-02,2026-10-20,AD Ports cuts emissions intensity by 6 per cent in 2025
 Tahnoun International Airport,2,abudhabi,rejected,2026-10-12,2026-10-14,Al Ain International Airport renamed to Tahnoun International Airport
 Bank of America,2,,rejected,2026-10-13,2026-10-14,US hits Bank of America with $1.2 billion fine1h ago1m read
-PARTNER CONTENTArif Developments,2,,added,2026-10-02,2026-10-12,PARTNER CONTENTArif Developments honoured with Excellence in CSR award2h ago3m read
 Sustainable Energy Research Centre,2,oman,rejected,2026-10-18,2026-10-19,Sultan Qaboos University to open Sustainable Energy Research Centre lab tomorrow
 Commerce Ministry,2,oman,rejected,2026-10-14,2026-10-15,Commerce Ministry revokes licenses of multiple Sanad Services Centers for regulatory violations
 GCC Petroleum,2,oman,rejected,2026-10-05,2026-10-06,Oman participates in 37th GCC Petroleum Cooperation Committee meeting
@@ -63,14 +66,13 @@ Undersecretary of Ministry,2,qatar,rejected,2026-10-05,2026-10-06,Undersecretary
 Sustainable Development,2,qatar,rejected,2026-10-14,2026-10-18,Qatar Affirms Commitment to Sustainable Development Goals
 Awqaf Ministry,2,qatar,rejected,2026-10-18,2026-10-19,Awqaf Ministry: Tuesday Final Deadline to Register for Hajj via Electronic Portal
 Houthi Group,2,saudi,rejected,2026-10-03,2026-10-09,Arab and International Condemntations of the Houthi Group's Launching of Ballistic Missiles Towards Saudi Arabia 26 September 2026
-FX Bank,2,qatar,rejected,2026-10-06,2026-10-07,QNB named Qatar’s Best FX Bank at Euromoney Foreign Exchange Awards
 Euromoney Foreign Exchange,2,qatar,rejected,2026-10-06,2026-10-07,QNB named Qatar’s Best FX Bank at Euromoney Foreign Exchange Awards
+FX Bank,2,qatar,rejected,2026-10-06,2026-10-07,QNB named Qatar’s Best FX Bank at Euromoney Foreign Exchange Awards
 Go Energy,2,saudi,rejected,2026-10-13,2026-10-13,SARCO says MoU with UAE’s Go Energy expires without agreement
 Industry Ministry,2,saudi,rejected,2026-10-10,2026-10-14,Industry Ministry issues 438 licenses in July
 Avalon Pharma,2,saudi,rejected,2026-10-07,2026-10-13,Avalon Pharma signs MoU with Aurisco Pharma on oligonucleotides
 Saudi Steel,2,saudi,rejected,2026-10-13,2026-10-14,Saudi Steel Pipe wins SAR 177M contract from Aramco
 Benefit Trade Finance,2,bahrain,rejected,2026-10-11,2026-10-11,NBB signs on as anchor partner of Benefit Trade Finance Registry
-Siemens Energy,2,saudi,rejected,2026-10-02,2026-10-05,Siemens Energy’s supervisory and executive boards meet at Dammam Hub
 Austrian Airlines,2,,rejected,2026-10-19,2026-10-19,Flight from Israel diverted after ‘threat’ reported
 Egyptian Exchange,2,,rejected,2026-10-12,2026-10-13,Banque du Caire to sell stake in IPO
 Kuwait Airport,2,kuwait,added,2026-10-20,2026-10-22,MEED EXCLUSIVE Lowest bidder emerges for Kuwait Airport Terminal 2 operations
@@ -161,18 +163,22 @@ Fakhruddin Properties,2,dubai,added,2026-09-08,2026-09-10,Fakhruddin Properties 
 Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
 Boring Company,1,abudhabi,rejected,2026-10-08,2026-10-08,THIS MORNING: Mubadala eyes more Asia exposure + more The Boring Company projects could be in the pipeline
+Port Technology,1,abudhabi,rejected,2026-10-20,2026-10-20,AD Ports cuts emissions intensity by 6 per cent in 2025
+PARTNER CONTENTArif Developments,1,,added,2026-10-12,2026-10-12,PARTNER CONTENTArif Developments honoured with Excellence in CSR award2h ago3m read
 Communications and Information Technology,1,qatar,rejected,2026-10-20,2026-10-20,"Minister of Communications and Information Technology Meets US Deputy Assistant Secretary of Commerce for Middle East, Africa"
 Labour Ministry,1,qatar,added,2026-10-22,2026-10-22,Labour Ministry closes recruitment agency over violations
 Qatar Real Estate,1,qatar,rejected,2026-10-20,2026-10-20,Cityscape Qatar to bring leaders and global experts together for 4th Qatar Real Estate Forum
 Meteorology Department,1,qatar,rejected,2026-10-13,2026-10-13,Meteorology Department warns of expected thunderstorms
 Secretary-General of Ministry,1,qatar,rejected,2026-10-05,2026-10-05,Secretary-General of Ministry of Foreign Affairs Meets Norwegian Ambassador
 Saudi Construction,1,saudi,rejected,2026-10-07,2026-10-07,Saudi Construction Index drops to 54.4 points in September
-London House Exchange,1,,rejected,2026-10-02,2026-10-02,UAE investor GII acquires majority stake in UK’s London House Exchange
 Bank of Kuwait,1,kuwait,rejected,2026-10-09,2026-10-09,Kuwait lenders pull $8bn from central bank after war stimulus
 Deutsche Bank,1,dubai,rejected,2026-10-07,2026-10-07,Deutsche Bank expands Middle East IB business with key Dubai appointments
 Palestinian Authority,1,,rejected,2026-10-11,2026-10-11,Palestinian Authority blames Israeli ‘obstacles’ for latest election delay
-US Treasury Department,1,,rejected,2026-10-02,2026-10-02,US widens Iran sanctions to automotive and rail sectors
+Siemens Energy,1,saudi,rejected,2026-10-05,2026-10-05,Siemens Energy’s full Supervisory and Executive Boards meet in Saudi Arabia
+American Airlines,1,,rejected,2026-10-23,2026-10-23,"Airfares will not return to pre-Iran war levels, American Airlines warns"
 European Commission,1,kuwait,rejected,2026-10-06,2026-10-06,STRASBOURG: European Commission President Ursula von der Leyen warned on Tuesday against a push by Germany and other member states for 'larg
+London House Exchange,1,,rejected,2026-10-02,2026-10-02,UAE investor GII acquires majority stake in UK’s London House Exchange
+US Treasury Department,1,,rejected,2026-10-02,2026-10-02,US widens Iran sanctions to automotive and rail sectors
 Liveability and Investment,1,abudhabi,rejected,2026-10-01,2026-10-01,Sheikh Khaled tours Liveability and Investment Exhibition | Gulf Today - newspaper
 Leadership Development,1,oman,rejected,2026-09-30,2026-09-30,ABRAJ launches Leadership Development Program with 40 participants
 Indian Finance,1,qatar,rejected,2026-09-30,2026-09-30,Minister of State for Foreign Trade Affairs Meets Indian Finance and Corporate Affairs Minister
@@ -199,7 +205,6 @@ Opec Fund,1,,rejected,2026-09-19,2026-09-19,Opec Fund approves $645m in financin
 Executive Council,1,abudhabi,rejected,2026-09-18,2026-09-18,Abu Dhabi sets out next steps: AI joins Executive Council meeting for first time
 US Department,1,saudi,rejected,2026-09-18,2026-09-18,US agrees to sell F-35 ⁠fighter jets to Saudi Arabia
 Canada Investment,1,qatar,rejected,2026-09-17,2026-09-17,Minister of Finance participates in Canada Investment Summit
-American Airlines,1,abudhabi,rejected,2026-09-15,2026-09-15,American Airlines is Struggling With Broken Business Class Seats On Its Brand New Airbus A321XLR Airplanes
 Balkan Green Energy,1,abudhabi,rejected,2026-09-15,2026-09-15,"Serbia, Masdar weigh large-scale BESS projects"
 IHC and Adani Group,1,abudhabi,rejected,2026-09-11,2026-09-11,IHC and Adani Group sign agreement to invest Rs 2.1 trilion in Odisha
 Adani Group,1,abudhabi,rejected,2026-09-10,2026-09-10,"Adani Group, IHC Sign MoUs with Odisha for ₹2.1 Trillion Investment Projects"

@@ -847,6 +847,7 @@ const PEOPLE = [
   {id:"mohammad_yousuf_al", n:"Mohammad Yousuf Al Najjar", t:2, p:58, s:"finance", roles:[
     ["difc","Senior Vice President - Development and Projects, Property Development, DIFC Investments Ltd.","executive","v"]]},
   {id:"ali_al_bwardy", n:"Ali Al Bwardy", t:2, p:62, s:"consumer_stap", roles:[
+    ["albwardy_invest","Chairman","board","ns"],
     ["spinneys","Chairman","board","v"]]},
   {id:"sunil_kumar", n:"Sunil Kumar", t:2, p:60, s:"consumer_stap", roles:[
     ["spinneys","Chief Executive Officer","executive","v"]]},
@@ -1156,6 +1157,7 @@ const PEOPLE = [
     ["lst_alansari","Board Member","board","v"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"ahmad_bin_eisa", n:"Ahmad Bin Eisa Bin Nasser Alserkal", t:2, p:52, s:"gov", roles:[
+    ["alserkal","Chairman","board","ns"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"easa_farid_abdulla", n:"Easa Farid Abdulla Al Gurg", t:2, p:52, s:"gov", roles:[
     ["easa_saleh_al","Group Chief Executive Officer","executive","v"],
@@ -2463,6 +2465,12 @@ const PEOPLE = [
     ["seddiqi","Senior Director","executive","v"]]},
   {id:"mohamed_ghazi_khoory", n:"Mohamed Ghazi Khoory", t:2, p:58, s:"consumer_disc", roles:[
     ["seddiqi","Senior Director, Group Procurement and ICT","executive","v"]]},
+  {id:"mohi_din_binhendi", n:"Mohi Din BinHendi", t:2, p:62, s:"consumer_disc", roles:[
+    ["binhendi","President and Chairman","board","v"]]},
+  {id:"mohammad_binhendi", n:"Mohammad BinHendi", t:2, p:62, s:"consumer_disc", roles:[
+    ["binhendi","Deputy Chairman","board","v"]]},
+  {id:"abdulsalam_al_madani", n:"Abdulsalam Al Madani", t:2, p:62, s:"conglomerate", roles:[
+    ["index","Chairman","board","ns"]]},
 ];
 
 const OWNERSHIP = [
