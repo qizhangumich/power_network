@@ -1,0 +1,5 @@
+# MEED EXCLUSIVE Total and QatarEnergy likely surprised by Exxon Iraq deal
+source: MEED
+url: https://www.meed.com/total-energies-and-qatar-energy-likely-to-have-been-surprised-by-exxons-iraq-deal
+
+

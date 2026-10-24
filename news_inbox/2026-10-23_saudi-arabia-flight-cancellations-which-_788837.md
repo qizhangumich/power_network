@@ -1,0 +1,5 @@
+# Saudi Arabia flight cancellations: Which airlines are suspending services and until when?
+source: www.thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQUNCbVZpeVFCWHkxNDlIZmRZLWZHWE5UMzVRWmFvZmxheC1SUzZHN014eG1QZ01MS2JnTHFNWFNZd1g2NEV1UDZtMXVNM2tyNUlHT3AweHREZFVJNm5QM2FuVWRVN0FMdjhSMnNULTd2aWVGQmM4Ujg3MFVHOFI3cEVHWDJEbWhNUkI4UUpIVFJJdEJqaWRIRWtZd1NHaHRzNEJ1UjNIa3FGTDFZaEtxRU1HbFZoenZEdFdTQ2hjOHVObDY3ZmUxQ293eVhaM0JqNkczVA?oc=5
+
+Saudi Arabia flight cancellations: Which airlines are suspending services and until when?    www.thenationalnews.com
