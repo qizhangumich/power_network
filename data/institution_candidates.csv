@@ -1,10 +1,10 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-King Fahd International Airport,5,saudi,pending,2026-10-11,2026-10-23,"Two killed, eight injured in attack on Saudi Arabia’s King Fahd International Airport"
+King Fahd International Airport,5,saudi,added,2026-10-11,2026-10-23,"Two killed, eight injured in attack on Saudi Arabia’s King Fahd International Airport"
 Offshore Energy,2,abudhabi,pending,2026-10-12,2026-10-23,ADNOC broadens its Asian horizons with Gulf Group LNG deal
 Mekdam Holding Group,2,qatar,pending,2026-10-04,2026-10-23,"Mekdam Holding Group, Armada sign strategic partnership at Milipol Qatar"
 Attend One Planet Sovereign Wealth Fund,2,qatar,pending,2026-10-21,2026-10-23,"HH the Amir, French President Attend One Planet Sovereign Wealth Fund CEOs Summit"
 Wifaq Center,2,qatar,pending,2026-10-04,2026-10-23,Wifaq Center Organizes Exhibition to Promote Family Cohesion
-Aamal Energy,2,qatar,pending,2026-10-21,2026-10-22,Aamal subsidiary ‘Aamal Energy’ secures contract with an initial value exceeding QR100m
+Aamal Energy,2,qatar,rejected,2026-10-21,2026-10-22,Aamal subsidiary ‘Aamal Energy’ secures contract with an initial value exceeding QR100m
 Hassan Allam Utilities,2,bahrain,pending,2026-10-23,2026-10-24,Hassan Allam Utilities signs deal to explore setting up logistics hub
 Riyadh Airport,9,saudi,rejected,2026-10-09,2026-10-20,Etihad Extends UAE-Saudi Flight Cancellations Until October 13 After Riyadh Airport Disruptions
 Bandhan Bank,7,abudhabi,rejected,2026-10-12,2026-10-13,‘Unaware of Abu Dhabi investors’ stake sale plans’: Bandhan Bank clarifies after 7% share jump
