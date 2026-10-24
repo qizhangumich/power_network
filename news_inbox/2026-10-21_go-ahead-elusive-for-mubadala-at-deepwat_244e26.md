@@ -1,0 +1,5 @@
+# Go-ahead elusive for Mubadala at deepwater gas project
+source: Upstream Online
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdWFyZW9zdXBCOGVyemFVTzMwejZ1RFNvcHFDMGxyM190OGxLT3FhT2JZNm5wSmRkMWllY1hJV1UxTTF4a01LalRDckoxV1g0enNvN0FDSHNVd0hxUXExbGNHSWZkZlo0WFZFOXZBQWxvcDE5NVdkcF80TTBPRi1HeGpFXzRHcDFRXzVDdVBUQ2toWGRDbnRKdTBMWkpYRFh5MzYzLVVpWTNHalU?oc=5
+
+Go-ahead elusive for Mubadala at deepwater gas project    Upstream Online

@@ -1,0 +1,5 @@
+# Aldar to launch major Dubai villa and townhouse project by end of year
+source: The National
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOTmFVai1wQm1vaU9OTmFzU0pxaUt4MkJ1WDhkSU9JRXMxMGlsYS1DUzE3d08wQ0JGRmN0d01kYllhVXJmSndjOE9pTUlhdnJIbm55TF9tblR3TFFLeWN4Y210NHg4SzdDeUlCQjB2ek5LOFpWbkdhSWx3THoyeEdhUy1GLXFVWUxaZlN0eTZCTzkyM0p0MUd6SkRpU1RUWEpmM0tMUWllbzM5ZTgxOG9iMmxEanNvY2lLZGswV2N6THBOTC1iYnBhUEw5dW4?oc=5
+
+Aldar to launch major Dubai villa and townhouse project by end of year    The National
