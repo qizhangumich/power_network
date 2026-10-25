@@ -1,0 +1,5 @@
+# ADNOC unlocks over AED60bln in UAE manufacturing opportunities, transforms how suppliers access and compete for its business
+source: Zawya
+url: https://news.google.com/rss/articles/CBMimAJBVV95cUxOODE0aF9MTVo0aUxyY1hWeFdBZnUxbXpPSTNwUHd6WmNCRXJnR0pxVnFvR3NqNlJSQ2Y5d2tfZ0tncGJLd2NGOENmenljU2FVN25FYkpRMVpmNGR6bHJHOG5ZTGJVTkFocWFrWDF0bW1rS1FLOExaSHZySW1SV3NCQ3ZVdGVGMVMxMFo0YTBKcmtuRUhNLS1TdEFrMFZjVlctYm03ZUlzSEM1czJWbEM5UjZqcXpJLW92WjRLRHhoOUoxSXJvbjJxQ3dWSkoxamlwVUtPazE1TVppS05PNmZEbmxxUXl1aV9qRGI4WWZVMmVreEI5aTAtMHRBNlBQaVIxMUZDaG1UUEt3SkR3YzNtQk9BTDdxZVVj?oc=5
+
+ADNOC unlocks over AED60bln in UAE manufacturing opportunities, transforms how suppliers access and compete for its business    Zawya

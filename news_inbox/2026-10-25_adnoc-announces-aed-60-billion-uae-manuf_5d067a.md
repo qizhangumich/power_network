@@ -1,0 +1,5 @@
+# ADNOC Announces AED 60 Billion UAE Manufacturing Opportunities
+source: SaudiGulf Projects
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZjUzVFN5Qy1UWS1lZnVfVjdDSFItTUI3WHpQTU9fbzZoVElLS2V6MF9yeGF6WE5YQ19EaFM1Z0FheXg3aHVySXJPbDJSTXk2cm5KdVBWUTQ4M3k0LVpacTE2dU0wc01UX3RtajJuWEVIZ3pTTjJVaE9rU1JPTnZ5bzNmMlUwcmtpMnlTVHdtLTB0MGg4TzlCTE5ZSDhwbTVyT0lJazhMYUMwVXM?oc=5
+
+ADNOC Announces AED 60 Billion UAE Manufacturing Opportunities    SaudiGulf Projects

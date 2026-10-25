@@ -1,0 +1,5 @@
+# Adnoc offers $16.3bn in manufacturing opportunities to UAE suppliers
+source: The National
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxOVzU0QU9FcWxrd0luVHlzMmI1amw0ZEpMRkxOVEM0WVhGVU53bzV6dFBjQU9JZDZBV3dCNDBBQUNqMExDWjlCX1dJekpXLURYYmdySDdZbkRTRUlGd1pMdnk4aXB2d2ZfUjhqeGRsYXJiZDN3WUZRb1NWekpQVENjeVNucEYtMEh6YXVYRE5hWUhnUjVscjlyd2Utd0dkdzktUC0zVGNRaHAzbVFIV29pcTNQSVVNQ2o2MUxNYWdCMWw4dXhF?oc=5
+
+Adnoc offers $16.3bn in manufacturing opportunities to UAE suppliers    The National
