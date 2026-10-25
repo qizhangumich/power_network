@@ -158,6 +158,22 @@ const INSTITUTIONS = [
   {id:"gulf_medical_projects", n:"Gulf Medical Projects Company", s:"health", t:3, p:54, short:"Gulf Medical Projects"},
   {id:"al_zahra_hospital", n:"Al Zahra Hospital Sharjah", s:"health", t:3, p:52, short:"Al Zahra Hospital"},
   {id:"bukhatir", n:"Bukhatir Group", s:"conglomerate", t:3, p:58, short:"Bukhatir Group"},
+  {id:"rak_properties", n:"RAK Properties PJSC", s:"realestate", t:2, p:60, short:"RAK Properties"},
+  {id:"rak_customs", n:"RAK Customs Department", s:"gov", t:2, p:56, short:"RAK Customs"},
+  {id:"rak_public_prosecution", n:"RAK Public Prosecution Department", s:"gov", t:2, p:56, short:"RAK Public Prosecution"},
+  {id:"fujairah_cement", n:"Fujairah Cement Industries PJSC", s:"materials", t:3, p:56, short:"Fujairah Cement"},
+  {id:"fujairah_building_indust", n:"Fujairah Building Industries PJSC", s:"materials", t:3, p:54, short:"Fujairah Building Ind."},
+  {id:"fujairah_petroleum", n:"Fujairah Petroleum Company", s:"energy", t:3, p:54, short:"Fujairah Petroleum Co"},
+  {id:"ajman_statistics_ctr", n:"Ajman Statistics Centre", s:"gov", t:2, p:54, short:"Ajman Statistics Ctr"},
+  {id:"city_univ_ajman", n:"City University Ajman", s:"education", t:3, p:52, short:"City Univ. Ajman"},
+  {id:"uaq_tourism_dept", n:"Umm Al Quwain Department of Tourism and Archaeology", s:"gov", t:2, p:56, short:"UAQ Tourism Dept"},
+  {id:"uaq_smart_gov", n:"Smart Government Department (Umm Al Quwain)", s:"tech", t:2, p:54, short:"UAQ Smart Gov Dept"},
+  {id:"uaq_blue_economy", n:"Sustainable Blue Economy Office (Umm Al Quwain)", s:"gov", t:3, p:52, short:"UAQ Blue Economy Off"},
+  {id:"rak_petroleum", n:"RAK Petroleum plc", s:"energy", t:3, p:54, short:"RAK Petroleum"},
+  {id:"rak_epda", n:"Environmental Protection and Development Authority (Ras Al Khaimah)", s:"gov", t:2, p:58, short:"RAK EPDA"},
+  {id:"rak_ega", n:"Electronic Government Authority (Ras Al Khaimah)", s:"gov", t:2, p:56, short:"RAK EGA"},
+  {id:"fujairah_die", n:"Department of Industry and Economy (Government of Fujairah)", s:"gov", t:2, p:58, short:"Fuj. Industry&Economy"},
+  {id:"ajman_police", n:"Ajman Police General Command", s:"gov", t:2, p:58, short:"Ajman Police"},
 ];
 
 const PEOPLE = [
@@ -629,6 +645,7 @@ const PEOPLE = [
   {id:"abdulfattah_mansoor_sharaf", n:"Abdulfattah Mansoor Sharaf", t:2, p:52, s:"education", roles:[
     ["aus","Board of Trustees Member","board","v"]]},
   {id:"ahmad_mohamed_fawzi", n:"Ahmad Mohamed Fawzi Abu Eideh", t:2, p:52, s:"education", roles:[
+    ["invest_bank","Chief Executive Officer","executive","ns"],
     ["aus","Board of Trustees Member","board","v"]]},
   {id:"mohammed_issa_alhuraimel", n:"Mohammed Issa Alhuraimel Alshamsi", t:2, p:52, s:"education", roles:[
     ["aus","Board of Trustees Member","board","v"]]},
@@ -992,6 +1009,7 @@ const PEOPLE = [
   {id:"awad_husain_alkhalaf", n:"Awad Husain AlKhalaf", t:2, p:58, s:"education", roles:[
     ["al_qasimia_univ","Chancellor","executive","v"]]},
   {id:"mohamed_obaid_al", n:"Mohamed Obaid Al Shamsi", t:2, p:52, s:"education", roles:[
+    ["invest_bank","Board Member","board","ns"],
     ["al_qasimia_univ","Board of Trustees Member","board","v"]]},
   {id:"aziz_bin_farhan", n:"Aziz Bin Farhan Al Anzi", t:2, p:52, s:"education", roles:[
     ["al_qasimia_univ","Board of Trustees Member","board","v"]]},
@@ -1128,6 +1146,7 @@ const PEOPLE = [
   {id:"sudhir_goyel", n:"Sudhir Goyel", t:2, p:60, s:"energy", roles:[
     ["gulf_petrochem","Managing Director","executive","ns"]]},
   {id:"nishant_dighe", n:"Nishant Dighe", t:2, p:60, s:"energy", roles:[
+    ["rakpa","Chief Executive Officer (interim, 2018)","executive","v","former:until 2018"],
     ["rak_gas","Chief Executive Officer","executive","ns"]]},
   {id:"hessa_abdullah_humaid", n:"Hessa Abdullah Humaid Al Shamsi", t:2, p:58, s:"gov", roles:[
     ["epaa","Director","executive","v"]]},
@@ -1347,6 +1366,42 @@ const PEOPLE = [
     ["bukhatir","Founder and President","board","v"]]},
   {id:"ayman_ahmed", n:"Ayman Ahmed", t:2, p:58, s:"conglomerate", roles:[
     ["bukhatir","CEO, Industries, Trading and Services Sectors","executive","v"]]},
+  {id:"omran_abdullah_omran", n:"Omran Abdullah Omran Taryam", t:2, p:62, s:"finance", roles:[
+    ["invest_bank","Vice Chairman","board","ns"]]},
+  {id:"ummer_mohamed_said", n:"Ummer Mohamed Said Biran Ummer", t:2, p:52, s:"finance", roles:[
+    ["invest_bank","Board Member","board","ns"]]},
+  {id:"abdullah_ibrahim_abdullah", n:"Abdullah Ibrahim Abdullah Deaifis Almeheiri", t:2, p:52, s:"finance", roles:[
+    ["invest_bank","Board Member","board","ns"]]},
+  {id:"halima_humaid_ali", n:"Halima Humaid Ali Al Owais", t:2, p:52, s:"finance", roles:[
+    ["invest_bank","Board Member","board","ns"]]},
+  {id:"farooque_ahmed_abdul", n:"Farooque Ahmed Abdul Qaiyum Tungekar", t:2, p:52, s:"finance", roles:[
+    ["invest_bank","Board Member","board","ns"]]},
+  {id:"mohammed_abdulla_mohammed", n:"Mohammed Abdulla Mohammed Rashed Al Nauimi", t:2, p:52, s:"finance", roles:[
+    ["invest_bank","Board Member","board","ns"]]},
+  {id:"abdullah_mubarak_bin", n:"Abdullah Mubarak bin Amir", t:2, p:58, s:"gov", roles:[
+    ["shjpolice","Commander-in-Chief","executive","v"]]},
+  {id:"manan_goel", n:"Manan Goel", t:2, p:58, s:"energy", roles:[
+    ["gulf_petrochem","Group Director (Refinery Division)","executive","ns"]]},
+  {id:"prerit_goel", n:"Prerit Goel", t:2, p:58, s:"energy", roles:[
+    ["gulf_petrochem","Group Director","executive","ns"]]},
+  {id:"thangapandian_srinivasalu", n:"Thangapandian Srinivasalu", t:2, p:58, s:"energy", roles:[
+    ["gulf_petrochem","Executive Director","executive","ns"]]},
+  {id:"brij_mohan_bansal", n:"Brij Mohan Bansal", t:2, p:52, s:"energy", roles:[
+    ["gulf_petrochem","Strategic Advisor to the Board","board","ns"]]},
+  {id:"omar_bin_saqer", n:"Omar bin Saqer bin Khaled Al Qassimi", t:2, p:62, s:"finance", roles:[
+    ["raknic","Chairman","board","ns"]]},
+  {id:"ahmad_issa_ahmad", n:"Ahmad Issa Ahmad Al Naim", t:2, p:62, s:"finance", roles:[
+    ["raknic","Deputy Chairman","board","ns"]]},
+  {id:"arifa_al_falahy", n:"Arifa Al Falahy", t:2, p:52, s:"finance", roles:[
+    ["raknic","Board Member","board","ns"]]},
+  {id:"safwan_ghaleb", n:"Safwan Ghaleb", t:2, p:52, s:"finance", roles:[
+    ["raknic","Board Member","board","ns"]]},
+  {id:"bernhard_schluep", n:"Bernhard Schluep", t:2, p:52, s:"finance", roles:[
+    ["raknic","Board Member","board","ns"]]},
+  {id:"mohamed_jaffer_nini", n:"Mohamed Jaffer Nini", t:2, p:52, s:"finance", roles:[
+    ["raknic","Board Member","board","ns"]]},
+  {id:"sanjeev_badyal", n:"Sanjeev Badyal", t:2, p:60, s:"finance", roles:[
+    ["raknic","Acting Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1431,6 +1486,11 @@ const OWNERSHIP = [
   ["ajman_ports_customs","ajmgov","department of","v"],
   ["fujairah_airport","fujgov","overseen by","ns"],
   ["al_zahra_hospital","gulf_medical_projects","owned by","ns"],
+  ["rak_properties","rakgov","~34% government-owned strategic shareholder (raised from 5% at Mar 2024 AGM)","v"],
+  ["fujairah_petroleum","fujgov","subsidiary of","ns"],
+  ["uaq_blue_economy","rakgov","established under directives of the Ruler of Umm Al Quwain","v"],
+  ["fujairah_die","fujgov","department of","v"],
+  ["ajman_police","ajmgov","reports to","v"],
 ];
 
 const FAMILY = [
@@ -1533,4 +1593,19 @@ const AKA = {
   fujairah_airport:["FIA"],
   gulf_medical_projects:["GMPC"],
   bukhatir:["BUKHATIR"],
+  rak_properties:["RAKPROP","ADX:RAKPROP"],
+  rak_public_prosecution:["RAK PP"],
+  fujairah_cement:["FCI","ADX:FCI"],
+  fujairah_building_indust:["FBI","ADX:FBI"],
+  fujairah_petroleum:["FPC"],
+  ajman_statistics_ctr:["SCC Ajman"],
+  city_univ_ajman:["CUA","City University College of Ajman"],
+  uaq_tourism_dept:["UAQ TAD","Dept of Tourism and Antiquities"],
+  uaq_smart_gov:["SGD","Umm Al Quwain"],
+  uaq_blue_economy:["SBEO","Umm Al Quwain"],
+  rak_petroleum:["RAKP","RAK Petroleum PCL"],
+  rak_epda:["EPDA"],
+  rak_ega:["EGA","RAK e-Government"],
+  fujairah_die:["IED","Fujairah DIE"],
+  ajman_police:["Ajman Police GHQ"],
 };

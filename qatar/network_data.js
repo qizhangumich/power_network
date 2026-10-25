@@ -238,6 +238,8 @@ const INSTITUTIONS = [
   {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
   {id:"dolphin_energy", n:"Dolphin Energy Limited", s:"energy", t:2, p:57, short:"Dolphin Energy"},
   {id:"buzwair", n:"Buzwair Group", s:"materials", t:3, p:55, short:"Buzwair Group"},
+  {id:"qatar_social_work", n:"Qatar Social Work Foundation", s:"gov", t:2, p:58, short:"Qatar Social Work Fdn"},
+  {id:"wifaq_center", n:"Wifaq Family Consulting Centre", s:"gov", t:3, p:50, short:"Wifaq Center"},
 ];
 
 const PEOPLE = [
@@ -487,6 +489,7 @@ const PEOPLE = [
   {id:"maitha_mubarak_rashid", n:"Maitha Mubarak Rashid Al Jabr Al-Naemi", t:2, p:52, s:"finance", roles:[
     ["qib","Independent Board Member","board","v"]]},
   {id:"abdulaziz_mohammed_al", n:"Abdulaziz Mohammed Al-Mannai", t:2, p:62, s:"materials", roles:[
+    ["north_oil","Chairman","board","v"],
     ["qelng","Executive Vice President, Human Capital","executive","v"],
     ["industriesqatar","Vice Chairman","board","v"]]},
   {id:"dr_mohammed_yousef", n:"Dr. Mohammed Yousef Al-Mulla", t:2, p:52, s:"materials", roles:[
@@ -669,6 +672,7 @@ const PEOPLE = [
     ["cbq","Board Member","board","v"],
     ["lst_qati","Group Chief Executive Officer","executive","v"]]},
   {id:"ibrahim_jassim_al", n:"Ibrahim Jassim Al-Othman Fakhro", t:2, p:52, s:"finance", roles:[
+    ["lst_qati","Board Member","board","v"],
     ["lst_giss","Managing Director","executive","v"],
     ["udc","Board Member","board","v"],
     ["cbq","Board Member","board","v"]]},
@@ -678,6 +682,7 @@ const PEOPLE = [
     ["udc","Board Member","board","v"],
     ["cbq","Board Member","board","v"]]},
   {id:"mohammed_ahmad_al", n:"Mohammed Ahmad Al Mulla", t:2, p:52, s:"finance", roles:[
+    ["lst_dohi","Board Member (representing Qatar Armed Forces Investment Portfolio)","board","v"],
     ["cbq","Board Member","board","v"]]},
   {id:"stephen_moss", n:"Stephen Moss", t:2, p:60, s:"finance", roles:[
     ["cbq","Group Chief Executive Officer","executive","v"]]},
@@ -1061,6 +1066,7 @@ const PEOPLE = [
     ["lst_qfls","Managing Director – Board Member","board","v"],
     ["lst_qfls","Managing Director and Chief Executive Officer","executive","v"]]},
   {id:"sheikh_saoud_khalid", n:"Sheikh Saoud Khalid Hamad Al-Thani", t:2, p:52, s:"energy", roles:[
+    ["lst_qati","Board Member","board","v"],
     ["qewc","Board Member (representing Qatar Insurance Company)","board","v"],
     ["lst_qfls","Board Member","board","v"]]},
   {id:"sheikh_ali_bin_b", n:"Sheikh Ali Bin Hamad Bin Abdul Rahman Al-Thani", t:2, p:52, s:"energy", roles:[
@@ -1318,6 +1324,7 @@ const PEOPLE = [
   {id:"hamad_essa_abdulla", n:"Hamad Essa Abdulla", t:2, p:52, s:"industry", roles:[
     ["qatarrail","Board Member","board","ns"]]},
   {id:"ali_hussain_ibrahim", n:"Ali Hussain Ibrahim Al Fardan", t:2, p:62, s:"realestate", roles:[
+    ["lst_qati","Board Member","board","v"],
     ["udc","Vice Chairman","board","v"]]},
   {id:"abdulrahman_saad_zaid", n:"Abdulrahman Saad Zaid Al Shathri", t:2, p:52, s:"realestate", roles:[
     ["udc","Board Member","board","v"]]},
@@ -1371,6 +1378,7 @@ const PEOPLE = [
     ["lst_giss","Chairman","board","v"],
     ["qelng","Chief Executive Officer (until Dec 2025)","executive","v","former:until Dec 2025"]]},
   {id:"sheikh_faisal_bin", n:"Sheikh Faisal bin Thani bin Faisal Al Thani", t:2, p:58, s:"gov", roles:[
+    ["lst_qati","Board Member","board","v"],
     ["qfz","Chairperson","board","v"],
     ["moci","Minister of Commerce and Industry","executive","v"]]},
   {id:"maryam_hamad_al", n:"Maryam Hamad Al-Mannai", t:2, p:58, s:"education", roles:[
@@ -1862,6 +1870,7 @@ const PEOPLE = [
   {id:"khalifa_a_r", n:"Khalifa A.R. Al Mannai", t:2, p:62, s:"conglomerate", roles:[
     ["teyseer","Chairman","board","v"]]},
   {id:"sheikh_nawaf_nasser", n:"Sheikh Nawaf Nasser Bin Khaled Al-Thani", t:2, p:62, s:"conglomerate", roles:[
+    ["lst_dohi","Chairman of the Board of Directors","board","v"],
     ["nbk","Chairman","board","v"]]},
   {id:"hani_abdo", n:"Hani Abdo", t:2, p:60, s:"conglomerate", roles:[
     ["nbk","Chief Executive Officer","executive","v"]]},
@@ -2124,6 +2133,22 @@ const PEOPLE = [
     ["buzwair","Chairman of Buzwair Holding","board","v"]]},
   {id:"frank_brunsdon", n:"Frank Brunsdon", t:2, p:58, s:"materials", roles:[
     ["buzwair","General Manager of Buzwair Industrial Gases Factories","executive","v"]]},
+  {id:"khalifa_a_al", n:"Khalifa A. Al Subaey", t:2, p:52, s:"finance", roles:[
+    ["lst_qati","Board Member","board","v"]]},
+  {id:"sheikh_abdulrahman_bin_b_b", n:"Sheikh Abdulrahman bin Saud bin Fahad Al Thani", t:2, p:52, s:"finance", roles:[
+    ["lst_qati","Board Member","board","v"]]},
+  {id:"sheikh_tamim_bin_b", n:"Sheikh Tamim bin Hamad bin Jassim bin Jabor Al-Thani", t:2, p:52, s:"finance", roles:[
+    ["lst_qati","Board Member","board","v"]]},
+  {id:"ali_youssef_hussain", n:"Ali Youssef Hussain Ali Kamal", t:2, p:52, s:"finance", roles:[
+    ["lst_qati","Board Member","board","v"]]},
+  {id:"mohammed_jassim_m", n:"Mohammed Jassim M A Jaidah", t:2, p:52, s:"finance", roles:[
+    ["lst_qati","Board Member","board","v"]]},
+  {id:"ali_mohammed_abdul", n:"Ali Mohammed Abdul Rahman Al Mahmoud", t:2, p:46, s:"finance", roles:[
+    ["lst_dohi","General Manager - Doha Takaful Company","executive","v"]]},
+  {id:"jassim_ali_al", n:"Jassim Ali Al Moftah", t:2, p:60, s:"finance", roles:[
+    ["lst_dohi","Chief Executive Officer","executive","ns"]]},
+  {id:"regis_agut", n:"Regis Agut", t:2, p:60, s:"energy", roles:[
+    ["north_oil","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2259,6 +2284,7 @@ const OWNERSHIP = [
   ["qafco","qatarenergy","subsidiary","ns"],
   ["qapco","qatarenergy","subsidiary","ns"],
   ["gulf_helicopters","qatarenergy","subsidiary","ns"],
+  ["wifaq_center","qatar_social_work","affiliated center of","ns"],
 ];
 
 const FAMILY = [
@@ -2356,4 +2382,6 @@ const AKA = {
   qatar_steel:["QASCO"],
   insead:["European Institute of Business Administration"],
   buzwair:["Buzwair Industrial Gases"],
+  qatar_social_work:["QFSW","Qatar Foundation for Social Work"],
+  wifaq_center:["Wifaq Centre","Wifaq Family Counseling Center"],
 };

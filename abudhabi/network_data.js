@@ -1655,6 +1655,7 @@ const PEOPLE = [
     ]},
   {id:"mohd_loay_t", n:"Mohd Loay T A Abdelfattah", t:2, p:52, s:"health", roles:[
     ["burjeel","Non-Executive Director (Independent)","board","v"],
+    ["lst_asm","Board Member","board","v"],
     ]},
   {id:"dr_shabeena_yusuffali", n:"Dr. Shabeena Yusuffali", t:2, p:52, s:"health", roles:[
     ["burjeel","Non-Executive Director","board","v"],
@@ -4137,6 +4138,24 @@ const PEOPLE = [
     ]},
   {id:"lindsay_hawkins", n:"Lindsay Hawkins", t:2, p:58, s:"realestate", roles:[
     ["modon_properties","Group Chief Operating Officer","executive","v"],
+    ]},
+  {id:"readh_faraj_ahmed", n:"Readh Faraj Ahmed Alkindi", t:2, p:62, s:"industry", roles:[
+    ["lst_asm","Chairman","board","v"],
+    ]},
+  {id:"jasem_yousef_yaqoob", n:"Jasem Yousef Yaqoob Almansoori", t:2, p:62, s:"industry", roles:[
+    ["lst_asm","Vice Chairman","board","v"],
+    ]},
+  {id:"ali_rashed_mohammed", n:"Ali Rashed Mohammed Al Rashdi", t:2, p:52, s:"industry", roles:[
+    ["lst_asm","Board Member","board","v"],
+    ]},
+  {id:"guy_neivens", n:"Guy Neivens", t:2, p:60, s:"industry", roles:[
+    ["lst_asm","Board Member and CEO","executive","v"],
+    ]},
+  {id:"mark_hawkes", n:"Mark Hawkes", t:2, p:58, s:"industry", roles:[
+    ["lst_asm","Chief Financial Officer","executive","ns"],
+    ]},
+  {id:"gunther_alvarado", n:"Gunther Alvarado", t:2, p:60, s:"industry", roles:[
+    ["lst_asm","Deputy CEO","executive","ns"],
     ]},
 ];
 

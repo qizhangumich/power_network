@@ -373,6 +373,7 @@ const PEOPLE = [
     ["lst_aayan","Vice Chairman of the Board","board","v"],
     ["kfh","Board Member","board","v"]]},
   {id:"mohammad_naser_al", n:"Mohammad Naser Al-Fouzan", t:2, p:52, s:"finance", roles:[
+    ["lst_integrated","Deputy Chairman","board","ns"],
     ["kfh","Board Member","board","v"]]},
   {id:"sheikh_salem_abdulaziz", n:"Sheikh Salem Abdulaziz Al-Saud Al-Sabah", t:2, p:52, s:"finance", roles:[
     ["kfh","Independent Board Member","board","v"]]},
@@ -577,6 +578,7 @@ const PEOPLE = [
   {id:"hamed_altamimi", n:"Hamed AlTamimi", t:2, p:58, s:"finance", roles:[
     ["gulfbank","Chief Human Resources Officer","executive","v"]]},
   {id:"meshal_alwazzan", n:"Meshal AlWazzan", t:2, p:58, s:"finance", roles:[
+    ["lst_sech","Board Member","board","v"],
     ["gulfbank","Chief Strategy Officer","executive","v"]]},
   {id:"tarek_ragab", n:"Tarek Ragab", t:2, p:46, s:"finance", roles:[
     ["gulfbank","Acting General Manager Consumer Banking","executive","v"]]},
@@ -699,8 +701,10 @@ const PEOPLE = [
   {id:"eiman_hasan", n:"Eiman Hasan", t:2, p:58, s:"sovereign", roles:[
     ["kia","Acting Director Internal Audit Office","executive","v"]]},
   {id:"abdullah_nasser_sabah", n:"Abdullah Nasser Sabah Al Ahmad Al Sabah", t:2, p:62, s:"finance", roles:[
+    ["lst_kamco","Vice Chairman","board","v"],
     ["lst_burg","Chairman","board","v"]]},
   {id:"faisal_m_sarkhou", n:"Faisal M. Sarkhou", t:2, p:62, s:"finance", roles:[
+    ["lst_kamco","Chief Executive Officer","executive","v"],
     ["kdipa","Board Member","board","v"],
     ["lst_burg","Vice Chairman","board","v"]]},
   {id:"abdulkareem_el_kabariti", n:"Abdulkareem El-Kabariti", t:2, p:52, s:"finance", roles:[
@@ -712,6 +716,7 @@ const PEOPLE = [
   {id:"michel_a_accad", n:"Michel A. Accad", t:2, p:52, s:"finance", roles:[
     ["lst_burg","Independent Non-Executive Board Member","board","v"]]},
   {id:"abdullah_mohammed_alsharekh", n:"Abdullah Mohammed AlSharekh", t:2, p:52, s:"finance", roles:[
+    ["lst_kamco","Managing Director - Markets and Investment Banking","executive","v"],
     ["lst_burg","Board Member","board","v"]]},
   {id:"jamal_abdullah_dashti", n:"Jamal Abdullah Dashti", t:2, p:52, s:"finance", roles:[
     ["lst_burg","Board Member","board","v"]]},
@@ -1678,6 +1683,7 @@ const PEOPLE = [
   {id:"bader_mohammed_alqattan", n:"Bader Mohammed AlQattan", t:2, p:52, s:"finance", roles:[
     ["maqasa_kcc","Non-executive Board Member","board","v"]]},
   {id:"salah_ahmad_alwuhaib", n:"Salah Ahmad AlWuhaib", t:2, p:52, s:"finance", roles:[
+    ["lst_kamco","Managing Director - Equity and Fixed Income","executive","v"],
     ["maqasa_kcc","Board Member","board","v"]]},
   {id:"abdullah_hamad_alterkait", n:"Abdullah Hamad AlTerkait", t:2, p:52, s:"finance", roles:[
     ["maqasa_kcc","Board Member","board","v"]]},
@@ -1957,6 +1963,7 @@ const PEOPLE = [
   {id:"abdullah_almudhaf", n:"Abdullah AlMudhaf", t:2, p:52, s:"conglomerate", roles:[
     ["mk","Co-Founder","board","ns"]]},
   {id:"sheikha_dana_nasser", n:"Sheikha Dana Nasser Sabah Al-Ahmad Al-Sabah", t:2, p:62, s:"education", roles:[
+    ["lst_kamco","Board Member","board","v"],
     ["auk","Founder & Chair, Board of Trustees","board","v"]]},
   {id:"ghada_e_khalaf", n:"Ghada E. Khalaf", t:2, p:62, s:"education", roles:[
     ["auk","Vice Chair, Board of Trustees","board","v"]]},
@@ -1994,6 +2001,14 @@ const PEOPLE = [
     ["aaw","Chairman and CEO","executive","v"]]},
   {id:"khalid_faisal_ali", n:"Khalid Faisal Ali Abdulwahab Al Mutawa", t:2, p:60, s:"consumer_disc", roles:[
     ["aaw","Deputy CEO","executive","v"]]},
+  {id:"sheikh_talal_ali", n:"Sheikh Talal Ali Abdullah Al Jaber Al Sabah", t:2, p:62, s:"finance", roles:[
+    ["lst_kamco","Chairman","board","v"]]},
+  {id:"masaud_mahmoud_jawhar", n:"Masaud Mahmoud Jawhar Hayat", t:2, p:52, s:"finance", roles:[
+    ["lst_kamco","Board Member","board","v"]]},
+  {id:"entisar_abdul_raheem", n:"Entisar Abdul Raheem Al-Suwaidi", t:2, p:52, s:"finance", roles:[
+    ["lst_kamco","Independent Board Member","board","v"]]},
+  {id:"altaf_abdullah_al", n:"Altaf Abdullah Al-Ghanim", t:2, p:52, s:"finance", roles:[
+    ["lst_sech","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

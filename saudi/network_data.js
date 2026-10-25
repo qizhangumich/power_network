@@ -925,6 +925,7 @@ const PEOPLE = [
   {id:"sulaiman_bin_abdulkadir", n:"Sulaiman bin Abdulkadir Almuhaidib", t:2, p:62, s:"consumer_stap", roles:[
     ["almarai","Vice Chairman","board","v"]]},
   {id:"abdulrahman_abdulmohsen_al", n:"Abdulrahman Abdulmohsen Al Fadley", t:2, p:52, s:"consumer_stap", roles:[
+    ["salic","Chairman of the Board","board","v"],
     ["enowa","Chairman","board","ns"],
     ["almarai","Board Member","board","v"],
     ["redsea","Board Member","board","v"]]},
@@ -937,8 +938,10 @@ const PEOPLE = [
   {id:"salman_bin_abdelmuhsin", n:"Salman bin Abdelmuhsin Alsudeary", t:2, p:52, s:"consumer_stap", roles:[
     ["almarai","Board Member","board","v"]]},
   {id:"sulaiman_alrumaih", n:"Sulaiman Alrumaih", t:2, p:52, s:"consumer_stap", roles:[
+    ["salic","Group Chief Executive Officer","executive","v"],
     ["almarai","Board Member","board","v"]]},
   {id:"bader_bin_abdullah", n:"Bader bin Abdullah Al Issa", t:2, p:52, s:"consumer_stap", roles:[
+    ["assila_investments","Chief Executive Officer","executive","v"],
     ["almarai","Board Member","board","v"]]},
   {id:"hosam_ali_alqurashi", n:"Hosam Ali Alqurashi", t:2, p:52, s:"consumer_stap", roles:[
     ["almarai","Board Member","board","v"]]},
@@ -946,6 +949,7 @@ const PEOPLE = [
     ["lst_6002","Vice Chairman","board","ns"],
     ["almarai","Board Member","board","v"]]},
   {id:"mohammed_mansour_almousa", n:"Mohammed Mansour Almousa", t:2, p:52, s:"consumer_stap", roles:[
+    ["salic","Chief International Investment Officer","executive","v"],
     ["almarai","Board Member","board","v"]]},
   {id:"lubna_s_olayan", n:"Lubna S. Olayan", t:2, p:62, s:"finance", roles:[
     ["sab","Chairman","board","v"]]},
@@ -1007,6 +1011,7 @@ const PEOPLE = [
   {id:"meshari_m_alshaikhmubarak", n:"Meshari M. Alshaikhmubarak", t:2, p:62, s:"energy", roles:[
     ["aramco","Senior Vice President, Office of the Chairman","executive","v"]]},
   {id:"abdullah_s_al", n:"Abdullah S. Al-Suwailem", t:2, p:58, s:"energy", roles:[
+    ["satorp","President and CEO","executive","ns"],
     ["lst_2380","Board Member","board","v"],
     ["aramco","Senior Vice President, Aramco; President & CEO, SATORP","executive","v"]]},
   {id:"ernesto_occhiello", n:"Ernesto Occhiello", t:2, p:58, s:"materials", roles:[
@@ -1271,6 +1276,7 @@ const PEOPLE = [
   {id:"saud_abdulaziz_bajbair", n:"Saud Abdulaziz Bajbair", t:2, p:58, s:"finance", roles:[
     ["snb","Head Retail Business Group","executive","v"]]},
   {id:"eng_abdullah_mohammed", n:"Eng. Abdullah Mohammed Al-Issa", t:2, p:62, s:"finance", roles:[
+    ["assila_investments","Chairman of the Board","board","v"],
     ["mobily","Independent Vice Chairman","board","v"],
     ["alpha_capital","Board Member","board","v"],
     ["lst_1010","Chairman of the Board","board","v"]]},
@@ -1421,6 +1427,7 @@ const PEOPLE = [
   {id:"abdulatif_ali_alseif", n:"Abdulatif Ali Alseif", t:2, p:62, s:"finance", roles:[
     ["lst_1030","Chairman of the Board","board","v"]]},
   {id:"mohammed_saleh_alkhalil", n:"Mohammed Saleh AlKhalil", t:2, p:62, s:"finance", roles:[
+    ["lst_2170","Chairman","board","ns"],
     ["lst_1030","Vice Chairman of the Board","board","v"]]},
   {id:"yasser_mohammed_al", n:"Yasser Mohammed Al-Jarallah", t:2, p:52, s:"finance", roles:[
     ["lst_1030","Board Member","board","v"]]},
@@ -2287,6 +2294,7 @@ const PEOPLE = [
   {id:"khaled_azzam", n:"Khaled Azzam", t:2, p:52, s:"gov", roles:[
     ["rcu","Member of the Board of Directors (Executive Vice President, The King's Foundation)","board","v"]]},
   {id:"abdulrahman_ibrahim_al", n:"Abdulrahman Ibrahim Al-Ruwaita", t:2, p:62, s:"comm", roles:[
+    ["jadwa_investment","Director","board","v"],
     ["srmg","Chairman of the Board of Directors","board","v"]]},
   {id:"majed_abdulrahman_al", n:"Majed Abdulrahman Al-Issa", t:2, p:62, s:"comm", roles:[
     ["srmg","Deputy Chairman of the Board of Directors","board","v"]]},
@@ -2320,6 +2328,7 @@ const PEOPLE = [
   {id:"bandar_bin_sulaiman", n:"Bandar bin Sulaiman AlBuhairi", t:2, p:52, s:"consumer_stap", roles:[
     ["al_othaim","Board Member","board","v"]]},
   {id:"adib_al_zamil", n:"Adib Al Zamil", t:2, p:60, s:"conglomerate", roles:[
+    ["jadwa_investment","Chairman","board","v"],
     ["sanabil","Board Member","board","v"],
     ["zamil","Chief Executive Officer","executive","v"]]},
   {id:"sattam_al_zamil", n:"Sattam Al Zamil", t:2, p:58, s:"conglomerate", roles:[
@@ -2378,6 +2387,7 @@ const PEOPLE = [
     ["jeddah_chamber","Chairman","board","ns"],
     ["fsc","Board Member","board","v"]]},
   {id:"abdullah_abdulrhman_al", n:"Abdullah Abdulrhman Al-Obeikan", t:2, p:52, s:"gov", roles:[
+    ["obeikan","Group Chief Executive Officer","executive","v"],
     ["fsc","Board Member","board","v"]]},
   {id:"hassan_moejeb_alhwaizy", n:"Hassan Moejeb Alhwaizy", t:2, p:52, s:"gov", roles:[
     ["fsc","Board Member","board","v"]]},
@@ -2787,6 +2797,7 @@ const PEOPLE = [
   {id:"raed_abdullah_ibrahim", n:"Raed Abdullah Ibrahim Bin Ahmed", t:2, p:62, s:"tech", roles:[
     ["lst_7203","Chairman","board","ns"]]},
   {id:"khaled_abdulaziz_alghoneim", n:"Khaled Abdulaziz Alghoneim", t:2, p:52, s:"tech", roles:[
+    ["obeikan","Board Member","board","v"],
     ["lst_7203","Board Member","board","ns"]]},
   {id:"issam_abdullah_khalaf", n:"Issam Abdullah Khalaf Al Waqit", t:2, p:52, s:"tech", roles:[
     ["lst_7203","Board Member","board","ns"]]},
@@ -3283,6 +3294,66 @@ const PEOPLE = [
     ["daco","Chairman","board","ns"]]},
   {id:"naif_almesned", n:"Naif Almesned", t:2, p:60, s:"finance", roles:[
     ["aljazira_capital","Chief Executive Officer & Managing Director","executive","ns"]]},
+  {id:"fahad_al_obeikan", n:"Fahad Al-Obeikan", t:2, p:62, s:"industry", roles:[
+    ["obeikan","Chairman","board","v"]]},
+  {id:"omran_al_obeikan", n:"Omran Al-Obeikan", t:2, p:60, s:"industry", roles:[
+    ["obeikan","Board Member; CEO Obeikan Industrial Company","board","v"]]},
+  {id:"sultan_theneyan_al", n:"Sultan Theneyan Al-Obeikan", t:2, p:52, s:"industry", roles:[
+    ["obeikan","Board Member","board","v"]]},
+  {id:"theneyan_al_theneyan", n:"Theneyan Al Theneyan Al-Obeikan", t:2, p:52, s:"industry", roles:[
+    ["obeikan","Board Member","board","v"]]},
+  {id:"tomasz_s_kostecki", n:"Tomasz S. Kostecki", t:2, p:58, s:"industry", roles:[
+    ["obeikan","Group Chief Financial Officer","executive","v"]]},
+  {id:"mohamed_khalil", n:"Mohamed Khalil", t:2, p:58, s:"industry", roles:[
+    ["obeikan","Group Chief Commercial Officer","executive","v"]]},
+  {id:"abdullah_al_suheil", n:"Abdullah Al Suheil", t:2, p:58, s:"industry", roles:[
+    ["obeikan","Group Chief Resources Officer","executive","v"]]},
+  {id:"abdullah_obaid_al", n:"Abdullah Obaid Al Harbi", t:2, p:58, s:"industry", roles:[
+    ["obeikan","Group Chief HR Officer","executive","v"]]},
+  {id:"andreas_boy", n:"Andreas Boy", t:2, p:58, s:"industry", roles:[
+    ["obeikan","Group Chief Investment Officer","executive","v"]]},
+  {id:"andre_rosenstock", n:"Andre Rosenstock", t:2, p:58, s:"industry", roles:[
+    ["obeikan","Group Chief Strategy Officer","executive","v"]]},
+  {id:"nagi_omer_mohamed", n:"Nagi Omer Mohamed", t:2, p:58, s:"industry", roles:[
+    ["obeikan","Group Chief Internal Auditor","executive","v"]]},
+  {id:"ibrahim_al_saigh", n:"Ibrahim Al-Saigh", t:2, p:58, s:"industry", roles:[
+    ["obeikan","Group Chief Information Officer","executive","v"]]},
+  {id:"ibrahim_mohammed_alhammad", n:"Ibrahim Mohammed AlHammad", t:2, p:60, s:"industry", roles:[
+    ["obeikan","CEO Obeikan Glass Company","executive","v"]]},
+  {id:"rizwan_haq", n:"Rizwan Haq", t:2, p:60, s:"industry", roles:[
+    ["obeikan","CEO Obeikan Digital Health","executive","v"]]},
+  {id:"saber_atiyeh", n:"Saber Atiyeh", t:2, p:58, s:"industry", roles:[
+    ["obeikan","COO Obeikan Digital Solutions","executive","v"]]},
+  {id:"ahmed_shahini", n:"Ahmed Shahini", t:2, p:58, s:"consumer_stap", roles:[
+    ["salic","Chief Local Investment Officer","executive","v"]]},
+  {id:"gianluca_fabbri", n:"Gianluca Fabbri", t:2, p:58, s:"consumer_stap", roles:[
+    ["salic","Chief Financial Officer","executive","v"]]},
+  {id:"musaed_alqasim", n:"Musaed Alqasim", t:2, p:58, s:"consumer_stap", roles:[
+    ["salic","Chief Corporate Services Officer","executive","v"]]},
+  {id:"ali_abousaleh", n:"Ali Abousaleh", t:2, p:58, s:"consumer_stap", roles:[
+    ["salic","Chief Investment Execution Officer","executive","v"]]},
+  {id:"ahmed_albassam", n:"Ahmed AlBassam", t:2, p:58, s:"consumer_stap", roles:[
+    ["salic","Chief Legal and Board Affairs Officer","executive","v"]]},
+  {id:"daniel_sheard", n:"Daniel Sheard", t:2, p:58, s:"consumer_stap", roles:[
+    ["salic","Chief GRC Officer","executive","v"]]},
+  {id:"omar_alsulimani", n:"Omar AlSulimani", t:2, p:58, s:"consumer_stap", roles:[
+    ["salic","Chief Corporate Communication Officer","executive","v"]]},
+  {id:"abdulaziz_alsubeaei", n:"Abdulaziz Alsubeaei", t:2, p:62, s:"finance", roles:[
+    ["jadwa_investment","Vice Chairman","board","v"]]},
+  {id:"tariq_al_sudairy", n:"Tariq Al-Sudairy", t:2, p:60, s:"finance", roles:[
+    ["jadwa_investment","Managing Director & CEO","executive","v"]]},
+  {id:"abdullah_al_eisa", n:"Abdullah Al-Eisa", t:2, p:58, s:"finance", roles:[
+    ["jadwa_investment","Chief Operating Officer","executive","v"]]},
+  {id:"amer_afiouni", n:"Amer Afiouni", t:2, p:58, s:"finance", roles:[
+    ["jadwa_investment","Chief Strategy Officer & Head of International Investments and Partnerships","executive","v"]]},
+  {id:"elie_elkhoury", n:"Elie Elkhoury", t:2, p:46, s:"finance", roles:[
+    ["jadwa_investment","Head of Private Equity","executive","v"]]},
+  {id:"abdulwahab_al_betairi", n:"Abdulwahab Al-Betairi", t:2, p:62, s:"materials", roles:[
+    ["lst_2170","Vice Chairman","board","ns"]]},
+  {id:"khalid_al_dawood", n:"Khalid Al Dawood", t:2, p:60, s:"materials", roles:[
+    ["lst_2170","Chief Executive Officer","executive","ns"]]},
+  {id:"abdel_aziz_mohamed", n:"Abdel Aziz Mohamed Abdo Yamani", t:2, p:60, s:"conglomerate", roles:[
+    ["dallah_al_baraka","CEO of Dallah Al Baraka Holding Company","executive","v"]]},
 ];
 
 const OWNERSHIP = [

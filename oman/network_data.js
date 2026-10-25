@@ -265,6 +265,7 @@ const PEOPLE = [
     ["oia","President","executive","v"]],
     note:"Controls the consolidated sovereign portfolio — OQ, Asyad, Omantel and most state companies sit under OIA."},
   {id:"mamari_oq", n:"Ashraf Hamed Al Mamari", t:2, p:66, s:"energy", roles:[
+    ["lst_abrj","Board Member","board","v"],
     ["oq_rpi","Chairman of the Board of Directors","board","v"],
     ["oq","Group Chief Executive Officer","executive","v"]]},
   {id:"alkindi_asyad", n:"Dr. Ahmed Al Bulushi", t:2, p:58, s:"industry", roles:[
@@ -470,6 +471,7 @@ const PEOPLE = [
     ["asyad_ports","Chairman","board","ns"],
     ["asyad","Chairman","board","v"]]},
   {id:"saif_said_al", n:"Saif Said Al Hamhami", t:2, p:62, s:"industry", roles:[
+    ["lst_abrj","Chief Executive Officer","executive","v"],
     ["asyad_ports","Deputy Chairman","board","ns"],
     ["asyad","Deputy Chairman (CEO Abraj Energy Services)","board","v"]]},
   {id:"dr_ismail_ahmed", n:"Dr. Ismail Ahmed Al Balushi", t:2, p:52, s:"industry", roles:[
@@ -591,6 +593,7 @@ const PEOPLE = [
   {id:"abdulwahhab_al_hinai", n:"Abdulwahhab Al Hinai", t:2, p:62, s:"utilities", roles:[
     ["lst_oqgn","Chairman","board","v"]]},
   {id:"ayad_al_balushi", n:"Ayad Al Balushi", t:2, p:62, s:"utilities", roles:[
+    ["lst_abrj","Chairman","board","v"],
     ["omran","Chief Executive Officer","executive","v"],
     ["lst_oqgn","Deputy Chairman","board","v"]]},
   {id:"fathi_al_balushi", n:"Fathi Al Balushi", t:2, p:52, s:"utilities", roles:[
@@ -659,6 +662,7 @@ const PEOPLE = [
   {id:"hussain_ali_hamad", n:"Hussain Ali Hamad Al-Rashdi", t:2, p:52, s:"energy", roles:[
     ["lst_ooms","Board Member","board","v"]]},
   {id:"mashael_yaseen_moosa", n:"Mashael Yaseen Moosa", t:2, p:52, s:"energy", roles:[
+    ["lst_abrj","Board Member","board","v"],
     ["lst_ooms","Board Member","board","v"]]},
   {id:"adil_abdullah_al", n:"Adil Abdullah Al Yahyai", t:2, p:52, s:"energy", roles:[
     ["lst_ooms","Board Member","board","v"]]},
@@ -675,6 +679,7 @@ const PEOPLE = [
   {id:"najat_ali_abdul", n:"Najat Ali Abdul Hussain Al Lawati", t:2, p:52, s:"materials", roles:[
     ["lst_ocoi","Board Member","board","v"]]},
   {id:"abdullah_mohammed_ali", n:"Abdullah Mohammed Ali Al Ma'mari", t:2, p:52, s:"materials", roles:[
+    ["lst_abrj","Board Member","board","v"],
     ["lst_mhas","Board Member","board","v"],
     ["lst_ocoi","Board Member","board","v"]]},
   {id:"said_al_aufi", n:"Said Al Aufi", t:2, p:62, s:"tech", roles:[
@@ -1583,6 +1588,38 @@ const PEOPLE = [
     ["pam_oman","Chief Executive Officer of the Public Authority for Mining","executive","v"]]},
   {id:"rashid_bin_ahmed", n:"Rashid bin Ahmed bin Rashid Al-Shamsi", t:2, p:58, s:"gov", roles:[
     ["min_social_dev","Undersecretary of the Ministry of Social Development","executive","v"]]},
+  {id:"david_beaufays", n:"David Beaufays", t:2, p:62, s:"utilities", roles:[
+    ["lst_smnp","Vice-Chairman","board","v"]]},
+  {id:"mahinder_nath", n:"Mahinder Nath", t:2, p:52, s:"utilities", roles:[
+    ["lst_smnp","Board Member","board","v"]]},
+  {id:"ruben_ramalho", n:"Ruben Ramalho", t:2, p:52, s:"utilities", roles:[
+    ["lst_smnp","Board Member","board","v"]]},
+  {id:"imran_sheikh", n:"Imran Sheikh", t:2, p:52, s:"utilities", roles:[
+    ["lst_smnp","Board Member","board","v"]]},
+  {id:"mohammed_al_husseini", n:"Mohammed Al-Husseini", t:2, p:52, s:"utilities", roles:[
+    ["lst_smnp","Board Member","board","v"]]},
+  {id:"nujayma_al_maqbali", n:"Nujayma Al Maqbali", t:2, p:52, s:"utilities", roles:[
+    ["lst_smnp","Board Member","board","v"]]},
+  {id:"ahmed_al_azkawi", n:"Ahmed Al Azkawi", t:2, p:52, s:"energy", roles:[
+    ["lst_abrj","Board Member","board","v"]]},
+  {id:"khamis_al_saadi", n:"Khamis Al Saadi", t:2, p:52, s:"energy", roles:[
+    ["lst_abrj","Board Member","board","v"]]},
+  {id:"ben_charbit", n:"Ben Charbit", t:2, p:52, s:"energy", roles:[
+    ["lst_abrj","Board Member","board","v"]]},
+  {id:"sadhak_bindal", n:"Sadhak Bindal", t:2, p:52, s:"energy", roles:[
+    ["lst_abrj","Board Member","board","v"]]},
+  {id:"zahran_al_kindi", n:"Zahran Al Kindi", t:2, p:58, s:"energy", roles:[
+    ["lst_abrj","Chief Operating Officer","executive","v"]]},
+  {id:"hubert_lafeuille", n:"Hubert Lafeuille", t:2, p:58, s:"energy", roles:[
+    ["lst_abrj","Chief Financial Officer","executive","v"]]},
+  {id:"hilal_al_siyabi", n:"Hilal Al Siyabi", t:2, p:58, s:"energy", roles:[
+    ["lst_abrj","Chief People Officer","executive","v"]]},
+  {id:"salah_al_harthy", n:"Salah Al Harthy", t:2, p:58, s:"energy", roles:[
+    ["lst_abrj","Chief Corporate Services Officer","executive","v"]]},
+  {id:"hood_al_brashdi", n:"Hood Al Brashdi", t:2, p:58, s:"energy", roles:[
+    ["lst_abrj","Acting Director of Business Development","executive","v"]]},
+  {id:"abdul_raouf_al", n:"Abdul Raouf Al Tobi", t:2, p:58, s:"energy", roles:[
+    ["lst_abrj","General Counsel","executive","v"]]},
 ];
 
 const OWNERSHIP = [
