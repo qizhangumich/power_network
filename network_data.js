@@ -1104,7 +1104,7 @@ const PEOPLE = [
     ["modon_properties","Board Member","board","v"],
     ]},
   {id:"khaled_mohamed_al", n:"Khaled Mohamed Al Zaabi", t:2, p:52, s:"utilities", roles:[
-    ["taqa","Board Member","board","ns"],
+    ["taqa","Board Member","board","v"],
     ]},
   {id:"hamsa_parama_shadaksharappa", n:"Hamsa Parama Shadaksharappa", t:2, p:52, s:"utilities", roles:[
     ["taqa","Board Member","board","ns"],

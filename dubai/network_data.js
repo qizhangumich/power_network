@@ -68,7 +68,7 @@ const INSTITUTIONS = [
   {id:"lst_airarabia", n:"Air Arabia PJSC", s:"industry", t:2, p:68, short:"Air Arabia"},
   {id:"lst_parkin", n:"Parkin Company P.J.S.C.", s:"industry", t:2, p:60, short:"Parkin"},
   {id:"lst_etihadenergy", n:"Etihad Energy Holding PJSC", s:"industry", t:2, p:50, short:"ETIHADENERGY"},
-  {id:"lst_gfh", n:"GFH Bank B.S.C.", s:"finance", t:2, p:50, short:"GFH Bank B.S.C."},
+  {id:"lst_gfh", n:"GFH Financial Group B.S.C.", s:"finance", t:2, p:60, short:"GFH Financial Group"},
   {id:"lst_alansari", n:"Al Ansari Financial Services PJSC", s:"finance", t:2, p:60, short:"Al Ansari Exchange"},
   {id:"lst_nind", n:"National Industries Group Holding K.P.S.C.", s:"conglomerate", t:2, p:50, short:"NIND"},
   {id:"lst_tabreed", n:"National Central Cooling Company PJSC (Tabreed)", s:"utilities", t:2, p:64, short:"Tabreed"},
@@ -295,7 +295,7 @@ const PEOPLE = [
     ["lst_salik","Chairman","board","v"],
     ["rta","Chairman & Director-General","government","v"]]},
   {id:"essa_kazim", n:"Essa Kazim", t:1, p:82, s:"finance", roles:[
-    ["nasdaq_dubai","Board Member","board","ns"],
+    ["nasdaq_dubai","Board Member","board","v"],
     ["borse_dubai","Chairman","board","v"],
     ["difc","Governor","executive","v"],
     ["dfm","Chairman (–Nov 2021)","board","v","former:until Nov 2021"],
@@ -2621,6 +2621,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  lst_gfh:["GFH Bank"],
   dxbairports:["Dubai Airport"],
   emirates:["Emirates Airlines","Emirates Airline"],
   dh_entertainment:["Dubai Parks and Resorts","DXB Entertainments"],

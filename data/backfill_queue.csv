@@ -33,6 +33,7 @@ abudhabi,cepsa_moeve,Cepsa (Moeve),energy,60,0,pending
 abudhabi,louis_dreyfus,Louis Dreyfus Company,consumer_stap,60,0,pending
 abudhabi,fortress,Fortress Investment Group,finance,60,0,pending
 abudhabi,bayanat_ai,Bayanat AI,tech,60,1,pending
+dubai,lst_gfh,GFH Financial Group B.S.C.,finance,60,0,pending
 northern,rak_properties,RAK Properties PJSC,realestate,60,0,pending
 oman,sct,Space Communication Technologies,tech,60,1,pending
 oman,pam_oman,Public Authority for Mining,materials,60,1,pending
@@ -40,6 +41,7 @@ qatar,sinopec,Sinopec,energy,60,0,pending
 qatar,muntajat,Qatar Chemical and Petrochemical Marketing and Distribution Company,materials,60,1,pending
 qatar,ras_laffan_petrochem,Ras Laffan Petrochemicals Company,materials,60,1,pending
 saudi,lst_4190,Jarir Marketing Co.,consumer_disc,60,0,pending
+saudi,lst_8010,Company for Cooperative Insurance (Tawuniya),finance,60,0,pending
 saudi,rajhi_invest,Rajhi Invest,finance,60,0,pending
 saudi,al_nahdi_family,Al Nahdi Family Office,finance,60,0,pending
 saudi,aramco_trading,Aramco Trading Company,energy,60,0,pending
@@ -87,6 +89,7 @@ saudi,lst_4164,Nahdi Medical Co.,consumer_stap,58,0,pending
 saudi,lst_4017,Fakeeh Care Group,health,58,0,pending
 saudi,lst_1140,Bank Albilad,finance,58,0,pending
 saudi,lst_7030,Zain Saudi Arabia,comm,58,0,pending
+saudi,lst_4250,Jabal Omar Development Co.,realestate,58,0,pending
 saudi,saudi_downtown,Saudi Downtown Company,realestate,58,0,pending
 saudi,rua_al_madinah,Rua Al Madinah Holding Company,realestate,58,0,pending
 saudi,iot_squared,iot squared,tech,58,0,pending
@@ -413,7 +416,6 @@ abudhabi,lst_methaq,Methaq Takaful Insurance P.S.C.,finance,50,0,pending
 abudhabi,scad,Statistics Centre Abu Dhabi,gov,50,0,pending
 abudhabi,adqcc,Abu Dhabi Quality and Conformity Council,gov,50,0,pending
 dubai,lst_etihadenergy,Etihad Energy Holding PJSC,industry,50,0,pending
-dubai,lst_gfh,GFH Bank B.S.C.,finance,50,0,pending
 dubai,lst_nind,National Industries Group Holding K.P.S.C.,conglomerate,50,0,pending
 dubai,lst_mkhzn,Makhazen,industry,50,0,pending
 dubai,lst_ajmanbank,Ajman Bank PJSC,finance,50,0,pending
@@ -756,7 +758,6 @@ saudi,lst_4082,Marn (MRNA) Financial Co.,finance,50,0,pending
 saudi,lst_4083,Tasheel Finance Co.,finance,50,0,pending
 saudi,lst_4084,Derayah Financial Co.,finance,50,0,pending
 saudi,lst_4130,Saudi Darb Investment Co.,finance,50,0,pending
-saudi,lst_8010,Company for Cooperative Insurance (Tawuniya),finance,50,0,pending
 saudi,lst_8012,Aljazira Takaful Taawuni Co.,finance,50,0,pending
 saudi,lst_8030,Mediterranean and Gulf Insurance and Reinsurance Co. (MEDGULF),finance,50,0,pending
 saudi,lst_8040,Al Sagr Cooperative Insurance Co. (Mutakamela),finance,50,0,pending
@@ -785,7 +786,6 @@ saudi,lst_4090,Taiba Investments Co.,realestate,50,0,pending
 saudi,lst_4100,Makkah Construction and Development Co. (MCDC),realestate,50,0,pending
 saudi,lst_4150,Arriyadh Development Co. (ARDCO),realestate,50,0,pending
 saudi,lst_4230,Red Sea International Co.,realestate,50,0,pending
-saudi,lst_4250,Jabal Omar Development Co.,realestate,50,0,pending
 saudi,lst_4310,Knowledge Economic City (KEC),realestate,50,0,pending
 saudi,lst_4320,Al Andalus Property Co.,realestate,50,0,pending
 saudi,lst_4321,Cenomi Centers (Arabian Centres Co.),realestate,50,0,pending
