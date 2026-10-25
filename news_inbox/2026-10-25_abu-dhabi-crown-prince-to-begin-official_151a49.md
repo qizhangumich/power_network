@@ -1,0 +1,5 @@
+# Abu Dhabi Crown Prince to begin official visit to Canada on Oct 26
+source: Khaleej Times
+url: https://news.google.com/rss/articles/CBMilAFBVV95cUxPTW9LUHMtVzl0aGRLVW94a0lFWFlVRGFQRDNGM1l6U29OZWRMa1BING10RVMyWGFqcEVHWXVFaWhYb0IxTGRLS2o2em9KMndQU0l3U2phZjRkekszYUYwY0F6azFlVlMyVDVZNjZXZWpCTU1jakxQbThKcnVLUnJmcVdZTmhzYTJKN005R3N0bG5PNFQ40gGUAUFVX3lxTE9Nb0tQcy1XOXRoZEtVb3hrSUVYWVVEYVBEM0YzWXpTb05lZExrUEg0bXRFUzJYYWpwRUdZdUVpaFhvQjFMZEtLajZ6b0oyd1BTSXdTamFmNGR6SzNhRjBjQXprMWVWUzJUNVk2NldlakJNTWNqTFBtOEpydUtScmZxV1lOaHNhMko3TTlHc3Rsbk80VDg?oc=5
+
+Abu Dhabi Crown Prince to begin official visit to Canada on Oct 26    Khaleej Times

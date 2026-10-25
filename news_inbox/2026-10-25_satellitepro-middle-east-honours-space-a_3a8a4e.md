@@ -1,0 +1,5 @@
+# SatellitePro Middle East honours space and satellite industry innovators at awards
+source: SatellitePro ME
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxNbEx4YUNBMFUtcGFMRDVGbUFNeEpHckRUNnlsbFl3d0wxZ080MTBSVHZIQ3pmbVNQVER2VkRGTEt3ajJNUV9BTnZmc1BzVmxFazAxUDg0cUx1ckxKWG54Njk1Zk5DM2RoUXk2MjlrLVZicTRiR0Nnb0FhTjhOMVJfQ2EwOWtpMnN2ZXdSTFNLSGtUS1JlaWJpTEhPQUw2clBURHduV2N1bDNZejdRdTBkT0h4OTViQQ?oc=5
+
+SatellitePro Middle East honours space and satellite industry innovators at awards    SatellitePro ME

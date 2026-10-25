@@ -1,0 +1,5 @@
+# Netherlands: EQT and co-investors agree recommended takeover of QIAGEN at €10.8bn enterprise value
+source: Investors in Healthcare
+url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxPR3RHTW5uV2xJdGU5X2NxLTRidVRIemZia2ZQU2tDQkxSaFJTZ01KNkYyRGJTX1NfOHNqMW1DZkJpVlZBNm5MR1pXbmVkcXQwTkRkOU56VjFzUVhzYzJkSHlqbnZaZndIOXMwNVRDQVFvVnZ6X3luWTBDaVhZUVNTVmxkMmZlQnFGSTdGVVRUMlpYX2NOQURybENPWTVVMDd3UFU4Umw3c08tQ0k3QVJqbVJkTDFwdmY1ZzNlQ3QyX1pTaXYyS3dPQ1dlWlRlN1I3eHRlanVHNXpWX2FOd293bkZNUlZOOXI3M0NHN1dXM3Q?oc=5
+
+Netherlands: EQT and co-investors agree recommended takeover of QIAGEN at €10.8bn enterprise value    Investors in Healthcare

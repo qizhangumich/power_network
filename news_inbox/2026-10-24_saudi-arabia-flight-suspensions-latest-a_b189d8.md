@@ -1,0 +1,5 @@
+# Saudi Arabia Flight Suspensions: Latest Airline Dates and Dubai Updates
+source: Travel Tourister
+url: https://news.google.com/rss/articles/CBMi_gFBVV95cUxPVHdpandqeEhlaGk3aFdOekF2TGR3Vmg5UzNnWEZjU0toZjFWR1h2dDZ2N1Z5b05ucjRTWDF2WGxCVjZMSnZPQnBMQ2NrNmNTaVA2VzJrSzVsejhLQ0NxRDR0R2VoSVNUWDNlbUdMbDNGcTRSZ0JXYUEyU3VuZWpPal9MUG12cTZheXhiM3Uxbnp1ejdGVk5SZHdOVExBRDRuQU5KSUVtbDMtbDBPOVBVQ1F2cXJ0ZFVmZHFGalJpTUpQcEpDeEQ4WDkwaUwwMGdIR0t5T0FsQVM0RHJVVUZaWnNWWHJJbDhjX3cyTTByYWFtMHRiTjZ3dlJPTUlkZw?oc=5
+
+Saudi Arabia Flight Suspensions: Latest Airline Dates and Dubai Updates    Travel Tourister

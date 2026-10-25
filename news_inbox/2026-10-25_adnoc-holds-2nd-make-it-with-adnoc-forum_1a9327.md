@@ -1,0 +1,5 @@
+# ADNOC holds 2nd Make it with ADNOC Forum to support local manufacturing and advance UAE's industrial growth
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVl81RUU4MFZvVjRSM3NkVXd2Q2E2TnE3VUo1cm1icEVDbjYyemtEWk80Q0FFLW5odGhpLS05cUFRMDJwSnNqNTlBU2s4X1BONWVmZllKV3ZvWHlxS2UzMHlBYXBnOEduc0dTYUo1ZTdlc2tFT3hBWHB0UGpOU0phelROaUNpdEp2R29GTjZBUzBIb3dhLWwwSkZZcG5kOTIyeXZCSDloaWJTV2RUUm0zZXdxYThudEdKVURXTERTUU1uWWhtc3F5Z2ZEV3pGazFCWXVwUEZMUG1uWkdlUy1Bc2xuZXU?oc=5
+
+ADNOC holds 2nd Make it with ADNOC Forum to support local manufacturing and advance UAE's industrial growth    مكتب أبوظبي الإعلامي

@@ -1,0 +1,5 @@
+# Etihad Launches Abu Dhabi–Calgary Nonstop Flights October 25
+source: Travel Tourister
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcE9ocDhFU0xVVzNrdjNqVEY3MnRhQjR5U1NGVkVBRHhKcnN0cDB2U3hHRkcwMllwMjRoZjhqbkY5MWxid3owMTFFNzVEYUVDdmtwQzRPakpDRDhnbEk3YkNnTGY0eFRybkNYQjB6ZWdINXdHcExLdXJZaUEwamg5d3hMbzR3X08zbUJxeGw3R3FxWVR2Yi0yTkYyc1VXSVNCZjd0YTB0SjQ4Y0ZLcDJiTTF4Z3JHaFVHNEhmT3NITmpXQk93czE3TWwtemxPbUtfQ2RvMm9xS2dOZw?oc=5
+
+Etihad Launches Abu Dhabi–Calgary Nonstop Flights October 25    Travel Tourister

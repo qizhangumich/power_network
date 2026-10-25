@@ -1,0 +1,5 @@
+# ADNOC unlocks over AED 60 billion in UAE manufacturing opportunities
+source: ARN News Centre
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxPam1tN25YVGhsY19BdkhBdHlES0xNMlNxNE5EdFBDSU1Vbmh1cXlESjZRcWFuTTE0eS01SHNROGxBZTY0R0tqUnBtYXROOVVhWGs1dkNvcUNMRzNBcUV4cGc5dko4TDFyODlLOEw4d0pwdkZSbHRBVlc2ejdzdEpwVEFJUEYtbUV1MGQ0dlFGNWg0X0pseDc3bUxUX3o4elJUZDUwQ1Z0R0NKQk0tTWpzUU1MSkFWdw?oc=5
+
+ADNOC unlocks over AED 60 billion in UAE manufacturing opportunities    ARN News Centre
