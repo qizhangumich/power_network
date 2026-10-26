@@ -239,6 +239,7 @@ const INSTITUTIONS = [
   {id:"buzwair", n:"Buzwair Group", s:"materials", t:3, p:55, short:"Buzwair Group"},
   {id:"qatar_social_work", n:"Qatar Social Work Foundation", s:"gov", t:2, p:58, short:"Qatar Social Work Fdn"},
   {id:"wifaq_center", n:"Wifaq Family Consulting Centre", s:"gov", t:3, p:50, short:"Wifaq Center"},
+  {id:"qai", n:"Qai", s:"tech", t:2, p:72, short:"Qai"},
 ];
 
 const PEOPLE = [
@@ -2314,6 +2315,7 @@ const OWNERSHIP = [
   ["qapco","qatarenergy","subsidiary","ns"],
   ["gulf_helicopters","qatarenergy","subsidiary","ns"],
   ["wifaq_center","qatar_social_work","affiliated center of","ns"],
+  ["qai","qia","wholly owned national AI company launched Dec 2025 to build, operate and invest in AI infrastructure in Qatar and abroad; chaired by Abdullah bin Hamad Al Misnad","v"],
 ];
 
 const FAMILY = [

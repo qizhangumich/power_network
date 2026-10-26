@@ -2473,6 +2473,7 @@ const PEOPLE = [
   {id:"osama_o_barayan", n:"Osama O. Barayan", t:2, p:52, s:"realestate", roles:[
     ["kaec","Board Member","board","v"]]},
   {id:"naif_s_al", n:"Naif S. Al-Hamdan", t:2, p:52, s:"realestate", roles:[
+    ["rua_al_madinah","Chairman","board","ns"],
     ["jeddah_central","Board Member (PIF Representative)","board","v"],
     ["kaec","Board Member (Non-Executive)","board","v"]]},
   {id:"mansour_a_al", n:"Mansour A. Al-Salem", t:2, p:52, s:"realestate", roles:[
@@ -3388,6 +3389,20 @@ const PEOPLE = [
     ["saudi_global_ports","Head of Internal Audit","executive","v"]]},
   {id:"islam_lotfi", n:"Islam Lotfi", t:2, p:46, s:"industry", roles:[
     ["saudi_global_ports","Head of Legal","executive","v"]]},
+  {id:"ahmed_bin_wasl", n:"Ahmed bin Wasl Al-Juhani", t:2, p:60, s:"realestate", roles:[
+    ["rua_al_madinah","Chief Executive Officer","executive","ns"]]},
+  {id:"ahmed_bin_madhi", n:"Ahmed Bin Madhi", t:2, p:58, s:"realestate", roles:[
+    ["rua_al_madinah","Chief Investment Officer","executive","ns"]]},
+  {id:"mohammed_alsubayel", n:"Mohammed Alsubayel", t:2, p:58, s:"realestate", roles:[
+    ["rua_al_madinah","Chief of Staff","executive","ns"]]},
+  {id:"mahfoudh_bashatah", n:"Mahfoudh Bashatah", t:2, p:58, s:"realestate", roles:[
+    ["rua_al_madinah","Executive Director - Strategic Business Units Division","executive","ns"]]},
+  {id:"moaddi_bin_muhammad", n:"Moaddi bin Muhammad Aal Madh-hab", t:2, p:58, s:"education", roles:[
+    ["umm_al_qura","President","executive","v"]]},
+  {id:"warda_abdullah_mohammed", n:"Warda Abdullah Mohammed Al-Asmari", t:2, p:58, s:"education", roles:[
+    ["umm_al_qura","Vice Rector for Business Development and Community Partnership","executive","v"]]},
+  {id:"amer_al_zaidi", n:"Amer Al-Zaidi", t:2, p:58, s:"education", roles:[
+    ["umm_al_qura","Vice Rector for Academic Affairs","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

@@ -207,6 +207,7 @@ const PEOPLE = [
   {id:"hamad_sharqi", n:"H.H. Sheikh Hamad bin Mohammed Al Sharqi", t:0, p:84, s:"gov", roles:[
     ["fujgov","Ruler of Fujairah","political","v"]]},
   {id:"mohammed_sharqi", n:"H.H. Sheikh Mohammed bin Hamad Al Sharqi", t:0, p:74, s:"gov", roles:[
+    ["fujairah_cement","Chairman","board","v"],
     ["fujgov","Crown Prince of Fujairah","political","v"]]},
   {id:"humaid_nuaimi", n:"H.H. Sheikh Humaid bin Rashid Al Nuaimi", t:0, p:80, s:"gov", roles:[
     ["ajmgov","Ruler of Ajman","political","v"]]},
@@ -235,6 +236,7 @@ const PEOPLE = [
   {id:"mousa_murad", n:"Capt. Mousa Murad", t:2, p:62, s:"industry", roles:[
     ["fujport","Managing Director","executive","v"]]},
   {id:"abdouli_marjan", n:"Arch. Abdulla Al Abdouli", t:2, p:66, s:"realestate", roles:[
+    ["rak_properties","Director","board","v"],
     ["marjan","Group Chief Executive Officer","executive","v"]]},
   {id:"tappeiner_wynn", n:"Max Tappeiner", t:2, p:64, s:"consumer_disc", roles:[
     ["wynnmarjan","President","executive","v"]]},
@@ -810,6 +812,7 @@ const PEOPLE = [
   {id:"christopher_wood", n:"Christopher Wood", t:2, p:60, s:"gov", roles:[
     ["rakpa","Chief Executive","executive","v"]]},
   {id:"mohamed_ali_musabbeh", n:"Mohamed Ali Musabbeh Al Nuaimi", t:2, p:62, s:"gov", roles:[
+    ["rak_properties","Deputy Chairman","board","v"],
     ["rak_chamber","Chairman","board","v"]]},
   {id:"munther_mohammed_bin", n:"Munther Mohammed Bin Shaker", t:2, p:58, s:"gov", roles:[
     ["rak_municipality","Director General","executive","v"]]},
@@ -1408,6 +1411,36 @@ const PEOPLE = [
     ["ajman_police","Deputy Commander-in-Chief, Ajman Police","executive","ns"]]},
   {id:"rashed_rashed_al", n:"Rashed Rashed Al Mehrzi", t:2, p:46, s:"gov", roles:[
     ["rak_customs","General Manager, RAK Customs Department","executive","v"]]},
+  {id:"abdul_aziz_abdullah", n:"Abdul Aziz Abdullah Al Zaabi", t:2, p:62, s:"realestate", roles:[
+    ["rak_properties","Chairman","board","v"]]},
+  {id:"sheikh_ahmed_omar", n:"Sheikh Ahmed Omar Al Qassimi", t:2, p:52, s:"realestate", roles:[
+    ["rak_properties","Director","board","v"]]},
+  {id:"yasser_abdulla_al", n:"Yasser Abdulla Al Ahmad", t:2, p:52, s:"realestate", roles:[
+    ["rak_properties","Director","board","v"]]},
+  {id:"mouza_mohamed_majed", n:"Mouza Mohamed Majed Alzaabi", t:2, p:52, s:"realestate", roles:[
+    ["rak_properties","Director","board","v"]]},
+  {id:"mohamed_ghobash_al", n:"Mohamed Ghobash Al Marri", t:2, p:52, s:"realestate", roles:[
+    ["rak_properties","Director","board","v"]]},
+  {id:"sameh_muhtadi", n:"Sameh Muhtadi", t:2, p:60, s:"realestate", roles:[
+    ["rak_properties","Chief Executive Officer","executive","v"]]},
+  {id:"james_marsh", n:"James Marsh", t:2, p:58, s:"realestate", roles:[
+    ["rak_properties","Chief Development Officer","executive","v"]]},
+  {id:"saad_abdullah_al", n:"Saad Abdullah Al Hanian", t:2, p:62, s:"materials", roles:[
+    ["fujairah_cement","Vice-Chairman","board","v"]]},
+  {id:"abdul_ghafour_hashem", n:"Abdul Ghafour Hashem Abdul Ghafour Bahroozian", t:2, p:52, s:"materials", roles:[
+    ["fujairah_cement","Director","board","v"]]},
+  {id:"mohamed_sharief_habib", n:"Mohamed Sharief Habib Mohamed Alawadhi", t:2, p:52, s:"materials", roles:[
+    ["fujairah_cement","Director","board","v"]]},
+  {id:"dhari_salfiq_ayed", n:"Dhari Salfiq Ayed Al-Masoudi Al-Shammari", t:2, p:52, s:"materials", roles:[
+    ["fujairah_cement","Director (Representative of ISDB-KSA)","board","v"]]},
+  {id:"saeed_ahmed_ghareib", n:"Saeed Ahmed Ghareib Howaishil Alsereidi", t:2, p:46, s:"materials", roles:[
+    ["fujairah_cement","General Manager","executive","v"]]},
+  {id:"andrew_paylor", n:"Andrew Paylor", t:2, p:46, s:"materials", roles:[
+    ["raknor","General Manager","executive","v"]]},
+  {id:"adam_faben", n:"Adam Faben", t:2, p:58, s:"materials", roles:[
+    ["raknor","Operations & Technical Director","executive","v"]]},
+  {id:"praveen_jayadevan", n:"Praveen Jayadevan", t:2, p:46, s:"materials", roles:[
+    ["raknor","Head of Operations","executive","v"]]},
 ];
 
 const OWNERSHIP = [

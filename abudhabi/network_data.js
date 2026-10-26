@@ -314,6 +314,7 @@ const INSTITUTIONS = [
   {id:"insead_abu_dhabi", n:"INSEAD Middle East Campus (Abu Dhabi)", s:"education", t:2, p:62, short:"INSEAD Abu Dhabi"},
   {id:"sdeira", n:"Sdeira Group", s:"realestate", t:3, p:56, short:"Sdeira Group"},
   {id:"modon_properties", n:"Modon Properties PJSC", s:"realestate", t:2, p:54, short:"Modon Properties"},
+  {id:"aldar_capital", n:"Aldar Capital", s:"finance", t:2, p:58, short:"Aldar Capital"},
 ];
 
 const PEOPLE = [
@@ -4432,6 +4433,7 @@ const OWNERSHIP = [
   ["insead_abu_dhabi","insead","campus of","v"],
   ["sdeira","kezad","subsidiary (rebranded from KEZAD Communities)","v"],
   ["modon_properties","adq","subsidiary","v"],
+  ["aldar_capital","mubadala_capital","ADGM-based real-estate/infrastructure investment-management platform JV announced 4 Dec 2025 between Mubadala Capital and Aldar Properties, targeting institutional investors (sovereign funds, pensions, insurers); first fund targeting ~$1bn, launch planned 2026","v"],
 ];
 
 const FAMILY = [

@@ -1624,6 +1624,12 @@ const PEOPLE = [
     ["lst_abrj","General Counsel","executive","v"]]},
   {id:"ahmed_mohammed_ahmed", n:"Ahmed Mohammed Ahmed Al-Humaidi", t:2, p:62, s:"gov", roles:[
     ["muscat_municipality","Chairman, Muscat Municipality","executive","v"]]},
+  {id:"yousuf_al_harthy", n:"Yousuf Al Harthy", t:2, p:60, s:"finance", roles:[
+    ["oman_tech_fund","Chief Executive Officer","executive","ns"]]},
+  {id:"talal_alrahbi", n:"Talal Alrahbi", t:2, p:62, s:"finance", roles:[
+    ["oman_tech_fund","Chairman of the Board","board","ns"]]},
+  {id:"hanan_askalan", n:"Hanan Askalan", t:2, p:52, s:"finance", roles:[
+    ["oman_tech_fund","Board Member","board","ns"]]},
 ];
 
 const OWNERSHIP = [

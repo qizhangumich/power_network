@@ -1400,6 +1400,7 @@ const PEOPLE = [
   {id:"mohamed_fardan_ali", n:"Mohamed Fardan Ali Al Fardan", t:2, p:62, s:"realestate", roles:[
     ["lst_upp","Chairman","board","ns"]]},
   {id:"amer_khansaheb", n:"Amer Abdulaziz Khansaheb", t:2, p:60, s:"realestate", roles:[
+    ["khansaheb","Managing Director","executive","v"],
     ["lst_upp","Chief Executive Officer & Board Member","executive","ns"]]},
   {id:"ahmad_bin_mohammed", n:"Ahmad Bin Mohammed Al Qassimi", t:2, p:52, s:"realestate", roles:[
     ["lst_upp","Board Member","board","v"]]},
@@ -2476,6 +2477,44 @@ const PEOPLE = [
     ["al_nabooda","Chairman","board","ns"]]},
   {id:"ahmed_baker", n:"Ahmed Baker", t:2, p:62, s:"conglomerate", roles:[
     ["dutco","Chairman","board","v"]]},
+  {id:"abdullah_ahmed_al", n:"Abdullah Ahmed Al Moosa", t:2, p:62, s:"conglomerate", roles:[
+    ["al_moosa_arenco","Founder & Chairman","board","v"]]},
+  {id:"mohammad_khoori", n:"Mohammad Khoori", t:2, p:58, s:"conglomerate", roles:[
+    ["al_moosa_arenco","Director - Arenco Real Estate","executive","v"]]},
+  {id:"rahul_singh", n:"Rahul Singh", t:2, p:60, s:"conglomerate", roles:[
+    ["al_moosa_arenco","Managing Director - Car Rental Division","executive","ns"]]},
+  {id:"abdulla_ahmed_al", n:"Abdulla Ahmed Al Ghurair", t:2, p:62, s:"industry", roles:[
+    ["eta_ascon","Chairman","board","ns"]]},
+  {id:"syed_mohammed_salahuddin", n:"Syed Mohammed Salahuddin", t:2, p:60, s:"industry", roles:[
+    ["eta_ascon","Managing Director","executive","ns"]]},
+  {id:"tariq_hussain_khansaheb", n:"Tariq Hussain Khansaheb", t:2, p:62, s:"industry", roles:[
+    ["khansaheb","Chairman","board","v"]]},
+  {id:"abdulrahman_khansaheb", n:"Abdulrahman Khansaheb", t:2, p:60, s:"industry", roles:[
+    ["khansaheb","Managing Director","executive","v"]]},
+  {id:"mahir_khansaheb", n:"Mahir Khansaheb", t:2, p:60, s:"industry", roles:[
+    ["khansaheb","Managing Director","executive","v"]]},
+  {id:"chandra_shekhar_challa", n:"Chandra Shekhar Challa", t:2, p:58, s:"industry", roles:[
+    ["khansaheb","Finance Director","executive","v"]]},
+  {id:"jason_sams", n:"Jason Sams", t:2, p:60, s:"industry", roles:[
+    ["khansaheb","Managing Director - Khansaheb Civil Engineering","executive","v"]]},
+  {id:"stephen_flint", n:"Stephen Flint", t:2, p:58, s:"industry", roles:[
+    ["khansaheb","Advisor to the Owners & Board - Khansaheb Civil Engineering","executive","v"]]},
+  {id:"mark_hough", n:"Mark Hough", t:2, p:58, s:"industry", roles:[
+    ["khansaheb","Chief Financial Officer - Khansaheb Civil Engineering","executive","v"]]},
+  {id:"eirian_morris", n:"Eirian Morris", t:2, p:58, s:"industry", roles:[
+    ["khansaheb","Commercial Director - Khansaheb Civil Engineering","executive","v"]]},
+  {id:"ryan_emsley", n:"Ryan Emsley", t:2, p:46, s:"industry", roles:[
+    ["khansaheb","MEP General Manager - Khansaheb Civil Engineering","executive","v"]]},
+  {id:"paul_gallon", n:"Paul Gallon", t:2, p:46, s:"industry", roles:[
+    ["khansaheb","Roads & Infrastructure General Manager - Khansaheb Civil Engineering","executive","v"]]},
+  {id:"ross_trivett", n:"Ross Trivett", t:2, p:46, s:"industry", roles:[
+    ["khansaheb","Interiors & Joinery General Manager - Khansaheb Civil Engineering","executive","v"]]},
+  {id:"archie_clift", n:"Archie Clift", t:2, p:58, s:"industry", roles:[
+    ["khansaheb","Joinery Divisional Manager - Khansaheb Civil Engineering","executive","v"]]},
+  {id:"duncan_payne", n:"Duncan Payne", t:2, p:58, s:"industry", roles:[
+    ["khansaheb","Group Support Services Manager - Khansaheb Civil Engineering","executive","v"]]},
+  {id:"josegh_jason_anthony", n:"Josegh Jason Anthony", t:2, p:46, s:"industry", roles:[
+    ["khansaheb","General Manager - Khansaheb Facilities Management","executive","v"]]},
 ];
 
 const OWNERSHIP = [
