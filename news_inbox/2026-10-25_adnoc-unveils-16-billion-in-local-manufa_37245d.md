@@ -1,0 +1,5 @@
+# ADNOC Unveils $16 Billion in Local Manufacturing Opportunities
+source: CEO Insights Asia
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNOVJTX2JVMW1LVlNORGZ4TThjZ01OX0F4MTVwTEpNZy02eFlJdHBndmd4QVpYNlZqRHJOYThSUTdSOEd4dWtCRzl1VmpRSzRRRzlhZDVtRm1fVUVrUVBJWkQyQ3RteTZ0cUFGbXM4MHRwd3lZZlE5VXNWcWlOeE96WFA0UllHWTRsMkhSX19iWHBLeHBKa29wN1dMSm1VMElRNXIxR0dseEtETjFnajQxaTJENUg?oc=5
+
+ADNOC Unveils $16 Billion in Local Manufacturing Opportunities    CEO Insights Asia

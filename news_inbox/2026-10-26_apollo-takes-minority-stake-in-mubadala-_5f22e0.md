@@ -1,0 +1,5 @@
+# Apollo takes minority stake in Mubadala Capital
+source: Investing.com
+url: https://news.google.com/rss/articles/CBMipwFBVV95cUxORHVfaS14S19icXkzTlN6dDZxR1RhWFNEdmdkMXZIOXlTZXlIcmMwTXg2ZUVXZW1kTk8xRFJHVF9WamNBUFI1TU5Zb1pxdnBra09QcmJZWHRFaHFiTW9yXzZ2VXJuaGt1dXF6U0lQSFFra2lFQXFsV21hNldmTEpRS3loTERpcUk0NnhSZ1k5cFQtY1RpV1lOcHpVSEZZanJaOVhfSDhYUQ?oc=5
+
+Apollo takes minority stake in Mubadala Capital    Investing.com

@@ -1,0 +1,5 @@
+# ADNOC Unveils AED60 Billion Manufacturing Pipeline to Strengthen UAE Supply Chains
+source: Construction Business News Middle East
+url: https://news.google.com/rss/articles/CBMivAFBVV95cUxOUG1PdzJybFNMS1VlQnVfOWxENUpwdTVlZEZGQXR1MU4zaDVvZ3NaY3otYUMycGxqWTdOc2hBVWVSUU1xWHpybnZfQjJXZlQ4QVBWVnM5cl9KeGNGTy1mOFFHNm9NczJyc0U3NmNpejJJZHBTamFHZFZ6QjJkMk5UcTUtNkhhMFFyNTZ6Q3RmMm9LNG5ib19XTFFrOG90dDdfVGRWX0lsYldmbzRqM1BlRFNOam9wcFRkLUtzRQ?oc=5
+
+ADNOC Unveils AED60 Billion Manufacturing Pipeline to Strengthen UAE Supply Chains    Construction Business News Middle East

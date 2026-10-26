@@ -1,0 +1,5 @@
+# Dubai and Middle East flight disruption: Saudi Arabia route cancellations continue despite Riyadh's airport reopening
+source: Condé Nast Traveller Middle East
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTWw5MTUxV2k5TTVpTEZ3SjAwTFdJUjl6NVU1VXFUdDB1MGdLS0RFaEJOelhSQ0NDMWZ0VFNlWU9uWHEwT2xNcDRGWUt6aE5oRm9NVW1jeE5tUmM5YXdDa2c3RVNUWDhPcWZiR1Nqa2VLWkR1dEV6aXpVYlNRY3NNQzY5SmhtbGFBX1BWSkhqQWJBMm1ZRHRKWndEbGI2bnpxVWFmeklTQWU0ejh5czBBb2hqN1R1SXZWS3B3N3hZb1NiRElMVTBscEZtVFp6MURnS2dzTkE5d0JPSnBOWHhRbjVZOEhCZw?oc=5
+
+Dubai and Middle East flight disruption: Saudi Arabia route cancellations continue despite Riyadh's airport reopening    Condé Nast Traveller Middle East

@@ -1,0 +1,5 @@
+# TAQA prices dual-tranche bond offering, reflecting strong investor confidence
+source: Zawya
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeWJWemRQZWRXX0Vjd1dDQU9yamdSV3lPUkVfU3ZqUXdrRExqdnRpSWgtbHpsNzBjM1NWd2VKOUpMREVKVlBDUEVLQkk4VlhxS0NQY01VUmhHZGFiczJjQ1htaVJ3MUdtTm15LUNvM3FWTXBaSkVkcEZURHJ2TWxoV0R0UkNIWnVWWV9TdFZrc0w5aWNtQ3dwWWFoWHB6QzI4QWFsaVBvLXRTUXMtMHh5ai1kYXBHZklHWUxTdVEwdVE?oc=5
+
+TAQA prices dual-tranche bond offering, reflecting strong investor confidence    Zawya

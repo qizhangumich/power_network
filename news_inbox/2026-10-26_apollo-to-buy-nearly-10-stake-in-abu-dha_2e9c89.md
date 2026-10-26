@@ -1,0 +1,5 @@
+# Apollo to buy nearly 10% stake in Abu Dhabi-backed alternative asset manager Mubadala Capital
+source: CNBC
+url: https://news.google.com/rss/articles/CBMidEFVX3lxTFBpZEZJUTJ2Q1cxb1Rsb0JsRjVYTkxoWVVUWkZucmJ5MlR2WE1leVhUY09zNkgxUWF5X3VwWEFqNVVfYTB2cUM5b1lUTGp3MFJRenBSWWQ0Tl9pN3NYdS16S1NNZThHdThzNUc5Z1h0dEpQck000gF6QVVfeXFMTWxBQ3MwaXdXbUZiTHJoTmdvdWEyOC1JbzVXVklkbzlxSXNwMGdnVkdVWmJxWHVaeVEtNDl2YmpQQXFWTzQzMjNYdjJSeHY3TGZRLWlxc1ZzazR2YVB3cmFGZ3F2MkxLZ2FiTVRkM0hMcjdtQW1abmhJS2c?oc=5
+
+Apollo to buy nearly 10% stake in Abu Dhabi-backed alternative asset manager Mubadala Capital    CNBC

@@ -1,0 +1,5 @@
+# COP31 hosts Australia and Türkiye plan oil and gas expansion
+source: Global Witness
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxPcVNmUVFjQ1lZMGFpSGxKS3l3TlM2R0hxM3pDTURHaFBhOFRCR2Zxd2JKWFptdHpQSUhUbWNZX1dqZFVPSUhkWHZxR2F4VEsxcU9mbGpIQkJJSzRnR3JwNVRMdTB0YWlhb0gyVXhGbWh5NkFIZ3RNbzl1aHNROUY1ZkZNTGxUdnpRdmUzbW5hVXhDMHlMcFVKWVBJZ0R2cHNjMURKRW5JUGd0VlBqajNRaFZjOUE2T0ZXUkE?oc=5
+
+COP31 hosts Australia and Türkiye plan oil and gas expansion    Global Witness

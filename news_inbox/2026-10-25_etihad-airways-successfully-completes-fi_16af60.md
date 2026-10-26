@@ -1,0 +1,5 @@
+# Etihad Airways successfully completes first non-stop flight from Abu Dhabi to Calgary
+source: CTV News
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNekhnQ0JOa2x1SWZIS0p4MFc1RWtpSDlZZDNwZzhlU3ZfU0E2bjNsWG5vX003dlMzWXMyLWM5cGw4cUEwckxRMDQtdzAyT21VY05OZGdDS3JraTFJNUplZlFmMmF2N1ZhUmRtcS1mOHh0WHJPTmJTSFI4MXZHb01qVmJTY3YzUXVERDRWUHdxQWVqUm11YzFSR19CT25xZ25ka0tHRlFWcmZYTm9jTjhmbklwNjFJMW1keEV0eWptVnVINmM?oc=5
+
+Etihad Airways successfully completes first non-stop flight from Abu Dhabi to Calgary    CTV News
