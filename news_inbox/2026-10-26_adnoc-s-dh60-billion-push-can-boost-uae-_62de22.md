@@ -1,0 +1,5 @@
+# Adnoc’s Dh60 billion push can boost UAE manufacturing
+source: The National
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxOTERZaEhfalZQRnlUS29CS2lEZGllSGQxeEFSWmQ1NlA2aGx3WDNGNGJZeXkyRVczc0JPVEZraTFaQ29DSzNBSmZoc01nN21CYjFfY0dJR3pETDV1V1U3dVRyU2tNNUZJWU9WLWF6QTJGR29XVjFkNWhXX3c4cjd3QWV3YVF3cE9zaXYxVEViQWlPZHBHOS11RF9PYzhlRjhud2RZMFM5Qkk0WnQxZ1h1SHlfRng?oc=5
+
+Adnoc’s Dh60 billion push can boost UAE manufacturing    The National

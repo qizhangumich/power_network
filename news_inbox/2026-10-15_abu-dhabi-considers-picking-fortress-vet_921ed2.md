@@ -1,0 +1,5 @@
+# Abu Dhabi Considers Picking Fortress Veteran to Lead New Fund
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxONDFycnQ4eU5odnE0SWpPMjQzRHNtdGJaak9ZOVdOR2NJY2FiUVZycE92c1ZfdC02V3dTYWFEangwcHNvSGc2YnNMQ283MkxoY2RFOGhveGVQYy1FQVVpRGpEQVJkVUJCNy1EZ3FJcFd2OFR6cTBhREluenNQTnp5RGM0M0xTSEJmY0RRMm5xa2xOSnU5NkJ1WWZhV1hIbkRRZ1NOajJlb2hYSzB5V29lMkFBQllsdUc2VXJXM3YydEVvZXM?oc=5
+
+Abu Dhabi Considers Picking Fortress Veteran to Lead New Fund    Bloomberg.com
