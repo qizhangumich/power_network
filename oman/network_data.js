@@ -231,6 +231,8 @@ const INSTITUTIONS = [
   {id:"tax_authority_oman", n:"Tax Authority", s:"finance", t:2, p:64, short:"Tax Authority Oman"},
   {id:"min_social_dev", n:"Ministry of Social Development", s:"gov", t:1, p:70, short:"Min. Social Dev."},
   {id:"pam_oman", n:"Public Authority for Mining", s:"materials", t:2, p:60, short:"PAM Oman"},
+  {id:"future_fund_oman", n:"Future Fund Oman", s:"finance", t:2, p:66, short:"Future Fund Oman"},
+  {id:"oman_jordan_inv", n:"Omani-Jordanian Investment Company", s:"finance", t:3, p:54, short:"Oman-Jordan Inv Co"},
 ];
 
 const PEOPLE = [
@@ -366,10 +368,10 @@ const PEOPLE = [
   {id:"rashad_muhammad_al", n:"Rashad Muhammad Al Zubair", t:2, p:62, s:"finance", roles:[
     ["lst_oab","Chairman","board","v"],
     ["zubair","Chairman","board","v"],
-    ["ominvest","Chairman","board","ns"]]},
+    ["ominvest","Chairman","board","v"]]},
   {id:"sheikh_khalid_abdullah", n:"Sheikh Khalid Abdullah Al Khalili", t:2, p:62, s:"finance", roles:[
     ["lst_bknz","Chairman","board","v"],
-    ["ominvest","Deputy Chairman","board","ns"]]},
+    ["ominvest","Deputy Chairman","board","v"]]},
   {id:"najat_ali_al", n:"Najat Ali Al Lawati", t:2, p:52, s:"finance", roles:[
     ["ominvest","Director","board","ns"]]},
   {id:"khaula_hamood_al", n:"Khaula Hamood Al Harthi", t:2, p:52, s:"finance", roles:[
@@ -1620,6 +1622,8 @@ const PEOPLE = [
     ["lst_abrj","Acting Director of Business Development","executive","v"]]},
   {id:"abdul_raouf_al", n:"Abdul Raouf Al Tobi", t:2, p:58, s:"energy", roles:[
     ["lst_abrj","General Counsel","executive","v"]]},
+  {id:"ahmed_mohammed_ahmed", n:"Ahmed Mohammed Ahmed Al-Humaidi", t:2, p:62, s:"gov", roles:[
+    ["muscat_municipality","Chairman, Muscat Municipality","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1776,6 +1780,8 @@ const OWNERSHIP = [
   ["khoula_hospital","moh_om","Ministry of Health hospital (national trauma/referral centre)","ns"],
   ["pld_space","oia","portfolio","ns"],
   ["raysut_ind_city","madayn","industrial zone operated by","ns"],
+  ["future_fund_oman","oia","dedicated OMR 2bn (~$5.2bn) investment portfolio of OIA launched Jan 2024 to co-fund strategic projects; unveiled a new package of 105 projects worth $1.74bn in July 2026 (incl. flagship Orion Solar in Sohar Freezone)","v"],
+  ["oman_jordan_inv","oia","50/50 joint venture with Jordan's Social Security Investment Fund, est. July 2026 with RO 38.5m (~$100m) capital, targeting telecom/IT, agri-food, energy, mining, tourism and logistics","v"],
 ];
 
 const FAMILY = [
@@ -1841,4 +1847,6 @@ const AKA = {
   insead:["European Institute of Business Administration"],
   tax_authority_oman:["OTA"],
   pam_oman:["PAM"],
+  future_fund_oman:["FFO"],
+  oman_jordan_inv:["Jordanian-Omani Investment Company","Jordan Oman Investment Company"],
 };

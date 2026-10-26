@@ -12,7 +12,9 @@ abudhabi,exxonmobil,ExxonMobil,energy,70,0,pending
 qatar,exxonmobil,ExxonMobil,energy,70,1,pending
 qatar,shell,Shell,energy,70,1,pending
 abudhabi,digit9,Digit9,finance,68,0,pending
+bahrain,mclaren_racing,McLaren Racing,consumer_disc,68,0,pending
 abudhabi,goldman,Goldman Sachs,finance,66,0,pending
+oman,future_fund_oman,Future Fund Oman,finance,66,0,pending
 abudhabi,eni,Eni,energy,64,0,pending
 abudhabi,mckinsey,McKinsey & Company,industry,64,0,pending
 oman,tax_authority_oman,Tax Authority,finance,64,1,skip
@@ -42,8 +44,6 @@ qatar,muntajat,Qatar Chemical and Petrochemical Marketing and Distribution Compa
 qatar,ras_laffan_petrochem,Ras Laffan Petrochemicals Company,materials,60,1,pending
 saudi,lst_4190,Jarir Marketing Co.,consumer_disc,60,0,pending
 saudi,lst_8010,Company for Cooperative Insurance (Tawuniya),finance,60,0,pending
-saudi,rajhi_invest,Rajhi Invest,finance,60,0,pending
-saudi,al_nahdi_family,Al Nahdi Family Office,finance,60,0,pending
 saudi,aramco_trading,Aramco Trading Company,energy,60,0,pending
 saudi,umm_al_qura,Umm Al-Qura University,education,60,0,pending
 saudi,islamic_univ_madinah,Islamic University of Madinah,education,60,0,pending
@@ -69,6 +69,7 @@ abudhabi,dolphin_energy,Dolphin Energy Limited,energy,58,0,pending
 abudhabi,gridora,Gridora,industry,58,1,pending
 abudhabi,wizz_air_ad,Wizz Air Abu Dhabi,industry,58,1,pending
 abudhabi,insead,INSEAD,education,58,0,pending
+bahrain,bluefive_capital,BlueFive Capital,finance,58,0,pending
 dubai,dubai_petroleum,Dubai Petroleum Establishment,energy,58,1,pending
 dubai,albwardy_invest,Albwardy Investment,conglomerate,58,1,pending
 kuwait,jaber_hospital,Jaber Al-Ahmad Al-Sabah Hospital,health,58,1,pending
@@ -77,7 +78,6 @@ northern,al_bahar,Mohamed Abdulrahman Al-Bahar Co.,industry,58,1,pending
 northern,rak_finance_dept,Ras Al Khaimah Department of Finance,finance,58,1,pending
 northern,rak_epda,Environmental Protection and Development Authority (Ras Al Khaimah),gov,58,0,pending
 northern,fujairah_die,Department of Industry and Economy (Government of Fujairah),gov,58,0,pending
-northern,ajman_police,Ajman Police General Command,gov,58,0,pending
 qatar,cnpc,CNPC,energy,58,0,pending
 qatar,cra_qatar,Communications Regulatory Authority,comm,58,1,skip
 qatar,alrayan_investment,AlRayan Investment LLC,finance,58,1,pending
@@ -95,7 +95,6 @@ saudi,rua_al_madinah,Rua Al Madinah Holding Company,realestate,58,0,pending
 saudi,iot_squared,iot squared,tech,58,0,pending
 saudi,neo_space,Neo Space Group,tech,58,0,pending
 saudi,taqnia,Saudi Technology Development and Investment Company,tech,58,0,pending
-saudi,saudi_global_ports,Saudi Global Ports Company,industry,58,0,pending
 saudi,tarshid,National Energy Services Company,energy,58,0,pending
 saudi,taqa_saudi,Industrialization and Energy Services Company,energy,58,0,pending
 saudi,src,Saudi Real Estate Refinancing Company,finance,58,0,pending
@@ -159,8 +158,7 @@ abudhabi,adnoc_maritime,ADNOC Maritime,industry,56,0,pending
 abudhabi,gii,Gulf Islamic Investments LLC,finance,56,0,pending
 abudhabi,masdar_americas,Masdar Americas,utilities,56,1,pending
 abudhabi,fatima_college,Fatima College of Health Sciences,education,56,0,pending
-dubai,al_nabooda,Khalifa Juma Al Nabooda Group,conglomerate,56,0,pending
-dubai,dutco,Dutco Group,conglomerate,56,0,pending
+dubai,al_nabooda,Khalifa Juma Al Nabooda Group,conglomerate,56,1,pending
 dubai,al_moosa_arenco,A.A. Al Moosa Enterprises (Arenco Group),conglomerate,56,0,pending
 dubai,eta_ascon,ETA Ascon Group,industry,56,0,pending
 dubai,prime_healthcare,Prime Healthcare Group,health,56,1,pending
@@ -171,7 +169,7 @@ northern,sharjah_sust_city,Sharjah Sustainable City,realestate,56,1,pending
 northern,ajman_dof,Ajman Department of Finance,finance,56,1,pending
 northern,air_arabia_egypt,Air Arabia Egypt,industry,56,0,pending
 northern,planet_pharmacies,Planet Pharmacies,health,56,0,pending
-northern,rak_customs,RAK Customs Department,gov,56,0,pending
+northern,rak_customs,RAK Customs Department,gov,56,1,pending
 northern,rak_public_prosecution,RAK Public Prosecution Department,gov,56,0,pending
 northern,fujairah_cement,Fujairah Cement Industries PJSC,materials,56,0,pending
 northern,uaq_tourism_dept,Umm Al Quwain Department of Tourism and Archaeology,gov,56,0,pending
@@ -181,11 +179,8 @@ oman,thawani,Thawani Technologies,finance,56,0,pending
 oman,oman_observer,Oman Daily Observer (OEPPA),comm,56,1,pending
 qatar,qas,Qatar Aviation Services,industry,56,0,pending
 qatar,laffan_refinery,Laffan Refinery Company,energy,56,0,pending
-qatar,al_jaidah,Al Jaidah Group,conglomerate,56,0,pending
-qatar,mbh,Mohammed Bin Hamad Holding,conglomerate,56,0,pending
 qatar,rloc,Ras Laffan Olefins Company,materials,56,0,pending
 qatar,q_chem,Qatar Chemical Company,materials,56,0,pending
-qatar,al_koot_insurance,Al Koot Insurance and Reinsurance Company,finance,56,0,pending
 saudi,lst_1320,Saudi Steel Pipe Co.,materials,56,0,pending
 saudi,tahakom,Tahakom Investments Company,tech,56,0,pending
 saudi,saudi_coffee,Saudi Coffee Company,consumer_stap,56,0,pending
@@ -266,6 +261,7 @@ oman,marsa_lng,Marsa LNG,energy,54,0,pending
 oman,hema_energy,Hema Energy,energy,54,0,pending
 oman,jindal_shadeed,Jindal Shadeed Iron & Steel LLC,materials,54,0,pending
 oman,insead,INSEAD,education,54,0,pending
+oman,oman_jordan_inv,Omani-Jordanian Investment Company,finance,54,0,pending
 qatar,qatar_executive,Qatar Executive,industry,54,0,pending
 qatar,qacc,Qatar Aircraft Catering Company,industry,54,0,pending
 qatar,qafac,Qatar Fuel Additives Company,materials,54,1,pending
@@ -320,6 +316,7 @@ dubai,index,INDEX Holding,conglomerate,52,1,pending
 kuwait,kafco,Kuwait Aviation Fuelling Company,industry,52,1,pending
 kuwait,q8oils,Q8Oils,materials,52,0,pending
 kuwait,al_yaqout,Al Yaqout Group,conglomerate,52,1,pending
+kuwait,ekuity,Ekuity Holding,finance,52,0,pending
 northern,uaq_municipality,Umm Al Quwain Municipality,gov,52,1,pending
 northern,amcfz,Ajman Media City Free Zone,comm,52,0,pending
 northern,ajman_tourism,"Ajman Department of Tourism, Culture and Media",gov,52,0,pending
@@ -337,7 +334,7 @@ northern,uaq_blue_economy,Sustainable Blue Economy Office (Umm Al Quwain),gov,52
 oman,asyad_drydock,Asyad Drydock,industry,52,1,pending
 oman,asyad_express,Asyad Express,industry,52,0,pending
 oman,al_mazunah_fz,Al Mazunah Free Zone,gov,52,1,pending
-oman,muscat_municipality,Muscat Municipality,gov,52,0,pending
+oman,muscat_municipality,Muscat Municipality,gov,52,1,pending
 oman,al_namaa_poultry,Al Namaa Poultry,consumer_stap,52,0,pending
 oman,al_murooj_dairy,Al Murooj Dairy,consumer_stap,52,0,pending
 oman,national_feed,Oman National Livestock Company,consumer_stap,52,0,pending

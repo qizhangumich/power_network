@@ -1402,6 +1402,12 @@ const PEOPLE = [
     ["raknic","Board Member","board","ns"]]},
   {id:"sanjeev_badyal", n:"Sanjeev Badyal", t:2, p:60, s:"finance", roles:[
     ["raknic","Acting Chief Executive Officer","executive","ns"]]},
+  {id:"sheikh_sultan_bin_b_b_b_b", n:"Sheikh Sultan bin Abdullah Al Nuaimi", t:2, p:58, s:"gov", roles:[
+    ["ajman_police","Commander-in-Chief, Ajman Police","executive","ns"]]},
+  {id:"sultan_khalifa_al", n:"Sultan Khalifa Al Mheiri", t:2, p:58, s:"gov", roles:[
+    ["ajman_police","Deputy Commander-in-Chief, Ajman Police","executive","ns"]]},
+  {id:"rashed_rashed_al", n:"Rashed Rashed Al Mehrzi", t:2, p:46, s:"gov", roles:[
+    ["rak_customs","General Manager, RAK Customs Department","executive","v"]]},
 ];
 
 const OWNERSHIP = [

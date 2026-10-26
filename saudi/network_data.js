@@ -677,7 +677,7 @@ const PEOPLE = [
     ["kaust","Board Member; Chief Executive Officer of HUMAIN","board","v"],
     ["humain","CEO","executive","v"]]},
   {id:"amit_midha", n:"Amit Midha", t:2, p:64, s:"tech", roles:[
-    ["alat","CEO","executive","ns"]]},
+    ["alat","Founding CEO (2024–2026)","executive","v","former:until 2026"]]},
   {id:"tony_douglas", n:"Tony Douglas", t:2, p:70, s:"industry", roles:[
     ["riyadhair","CEO","executive","v"]]},
   {id:"pagano", n:"John Pagano", t:2, p:64, s:"realestate", roles:[
@@ -803,7 +803,7 @@ const PEOPLE = [
   {id:"saeed_mohammed_al", n:"Saeed Mohammed Al-Ghamdi", t:2, p:62, s:"finance", roles:[
     ["snb","Chairman","board","v"]]},
   {id:"yazeed_abdulrahman_al", n:"Yazeed Abdulrahman Al-Humied", t:2, p:62, s:"finance", roles:[
-    ["matarat","Board Member","board","ns"],
+    ["matarat","Board Member","board","v"],
     ["snb","Vice Chairman","board","v"]]},
   {id:"tareq_abdulrahman_al", n:"Tareq Abdulrahman Al-Sadhan", t:2, p:60, s:"finance", roles:[
     ["snb","Director & CEO","board","v"]]},
@@ -836,6 +836,8 @@ const PEOPLE = [
   {id:"abdulaziz_bin_khalid", n:"Abdulaziz bin Khalid Al Ghufaily", t:2, p:52, s:"finance", roles:[
     ["alrajhi","Board Member","board","v"]]},
   {id:"badr_bin_mohammed", n:"Badr bin Mohammed Al Rajhi", t:2, p:52, s:"finance", roles:[
+    ["rajhi_invest","Managing Director","executive","v"],
+    ["rajhi_invest","Board Vice Chairman","board","v"],
     ["alrajhi","Board Member","board","v"]]},
   {id:"khalid_bin_abdulrahman", n:"Khalid bin Abdulrahman Al Gwaiz", t:2, p:52, s:"finance", roles:[
     ["saudi_binladin_grp","CEO (Binladin International Holding Group)","executive","ns"],
@@ -1045,7 +1047,7 @@ const PEOPLE = [
   {id:"mohammed_abdullah_alabbadi", n:"Mohammed Abdullah Alabbadi", t:2, p:58, s:"comm", roles:[
     ["stc","Group Chief Carrier & Wholesale Officer","executive","v"]]},
   {id:"moaeed_alsaloom", n:"Moaeed Alsaloom", t:2, p:58, s:"comm", roles:[
-    ["matarat","Board Member","board","ns"],
+    ["matarat","Board Member","board","v"],
     ["stc","Group Chief New Markets Officer","executive","v"]]},
   {id:"tariq_saud_alhuzaimi", n:"Tariq Saud Alhuzaimi", t:2, p:58, s:"comm", roles:[
     ["stc","Group Chief Technology Officer","executive","v"]]},
@@ -1232,6 +1234,7 @@ const PEOPLE = [
   {id:"ahmed_saleh_al_b", n:"Ahmed Saleh Al-Sudais", t:2, p:58, s:"finance", roles:[
     ["alrajhi","Chief Human Resources Officer","executive","v"]]},
   {id:"majed_saleh_al", n:"Majed Saleh Al-Rajhi", t:2, p:46, s:"finance", roles:[
+    ["rajhi_invest","Board Member","board","v"],
     ["alrajhi","General Manager Retail Banking","executive","v"]]},
   {id:"hussein_talal_bayari", n:"Hussein Talal Bayari", t:2, p:46, s:"finance", roles:[
     ["alrajhi","General Manager Corporate Banking Group","executive","v"]]},
@@ -1364,6 +1367,7 @@ const PEOPLE = [
   {id:"sarah_jammaz_alsuhaimi", n:"Sarah Jammaz Alsuhaimi", t:2, p:62, s:"energy", roles:[
     ["lst_4030","Chairwoman","board","v"]]},
   {id:"abdulla_mohammed_alzamil", n:"Abdulla Mohammed Alzamil", t:2, p:62, s:"energy", roles:[
+    ["saudi_global_ports","Chairman of the Board","board","v"],
     ["lst_4030","Vice Chairman","board","v"]]},
   {id:"ahmed_ali_alsubaey", n:"Ahmed Ali Alsubaey", t:2, p:60, s:"energy", roles:[
     ["lst_4030","Chief Executive Officer & Board Member","executive","v"]]},
@@ -1436,7 +1440,7 @@ const PEOPLE = [
   {id:"khaled_salem_al", n:"Khaled Salem Al-Rowais", t:2, p:52, s:"finance", roles:[
     ["lst_1030","Board Member","board","v"]]},
   {id:"ghazi_abdulrahim_alrawi", n:"Ghazi Abdulrahim AlRawi", t:2, p:52, s:"finance", roles:[
-    ["matarat","Board Member","board","ns"],
+    ["matarat","Board Member","board","v"],
     ["lst_1030","Board Member","board","v"]]},
   {id:"hani_yahya_alsharif", n:"Hani Yahya AlSharif", t:2, p:52, s:"finance", roles:[
     ["lst_1030","Board Member","board","v"]]},
@@ -2501,7 +2505,7 @@ const PEOPLE = [
   {id:"khalid_al_dughaither", n:"Khalid Al-Dughaither", t:2, p:52, s:"gov", roles:[
     ["rcjy","Deputy Minister for Regulations and Legal Affairs / Board Member","board","v"]]},
   {id:"abdullah_al_dubaikhi", n:"Abdullah Al-Dubaikhi", t:2, p:52, s:"gov", roles:[
-    ["matarat","Board Member","board","ns"],
+    ["matarat","Board Member","board","v"],
     ["rcjy","Assistant Minister of Investment / Board Member","board","v"]]},
   {id:"abdullah_bin_saleh_b", n:"Abdullah bin Saleh Al-Suwailim", t:2, p:52, s:"gov", roles:[
     ["rcjy","Vice President of the Western Manufacturing Sector, Saudi Aramco / Board Member","board","v"]]},
@@ -2856,7 +2860,7 @@ const PEOPLE = [
   {id:"saad_abdulaziz_al", n:"Saad Abdulaziz Al-Khalib", t:2, p:52, s:"gov", roles:[
     ["matarat","Board Member","board","ns"]]},
   {id:"farah_ismail", n:"Farah Ismail", t:2, p:52, s:"gov", roles:[
-    ["matarat","Board Member","board","ns"]]},
+    ["matarat","Board Member","board","v"]]},
   {id:"abdullah_bin_mohammed_b_b_b", n:"Abdullah bin Mohammed Al Al-Sheikh", t:2, p:62, s:"gov", roles:[
     ["shura_council","Speaker (Chairman)","board","ns"]]},
   {id:"mishaal_bin_abdullah", n:"Mishaal bin Abdullah Al Salami", t:2, p:52, s:"gov", roles:[
@@ -3354,6 +3358,36 @@ const PEOPLE = [
     ["lst_2170","Chief Executive Officer","executive","ns"]]},
   {id:"abdel_aziz_mohamed", n:"Abdel Aziz Mohamed Abdo Yamani", t:2, p:60, s:"conglomerate", roles:[
     ["dallah_al_baraka","CEO of Dallah Al Baraka Holding Company","executive","v"]]},
+  {id:"yazeed_bin_mohamed", n:"Yazeed Bin Mohamed Al-Rajhi", t:2, p:62, s:"finance", roles:[
+    ["rajhi_invest","Board Chairman","board","v"]]},
+  {id:"abdel_aziz_bin", n:"Abdel Aziz Bin Mohamed Al-Rajhi", t:2, p:52, s:"finance", roles:[
+    ["rajhi_invest","Board Member","board","v"]]},
+  {id:"hassan_al_jeshi", n:"Hassan Al-Jeshi", t:2, p:52, s:"finance", roles:[
+    ["rajhi_invest","Board Member","board","v"]]},
+  {id:"saad_al_saif", n:"Saad Al-Saif", t:2, p:52, s:"finance", roles:[
+    ["rajhi_invest","Board Member","board","v"]]},
+  {id:"mohamed_el_samman", n:"Mohamed El Samman", t:2, p:60, s:"finance", roles:[
+    ["rajhi_invest","Group CEO","executive","ns"]]},
+  {id:"abdullah_amer_al", n:"Abdullah Amer Al Nahdi", t:2, p:62, s:"finance", roles:[
+    ["al_nahdi_family","Founder and Chairman","board","ns"]]},
+  {id:"saeed_saleh_al", n:"Saeed Saleh Al Ghamdi", t:2, p:60, s:"finance", roles:[
+    ["al_nahdi_family","Chief Executive Officer","executive","ns"]]},
+  {id:"bakr_almuhanna", n:"Bakr AlMuhanna", t:2, p:62, s:"industry", roles:[
+    ["saudi_global_ports","Vice Chairman of the Board","board","v"]]},
+  {id:"rob_harrison", n:"Rob Harrison", t:2, p:60, s:"industry", roles:[
+    ["saudi_global_ports","Chief Executive Officer","executive","v"]]},
+  {id:"ahmed_alghamdi", n:"Ahmed Alghamdi", t:2, p:58, s:"industry", roles:[
+    ["saudi_global_ports","Chief Commercial Officer","executive","v"]]},
+  {id:"daniel_phay", n:"Daniel Phay", t:2, p:58, s:"industry", roles:[
+    ["saudi_global_ports","Chief Operating Officer","executive","v"]]},
+  {id:"edwin_leong", n:"Edwin Leong", t:2, p:58, s:"industry", roles:[
+    ["saudi_global_ports","Chief Financial Officer","executive","v"]]},
+  {id:"sami_al_bakr", n:"Sami Al-Bakr", t:2, p:58, s:"industry", roles:[
+    ["saudi_global_ports","Chief HR and Corporate Affairs Officer","executive","v"]]},
+  {id:"saleh_al_shareef", n:"Saleh Al-Shareef", t:2, p:46, s:"industry", roles:[
+    ["saudi_global_ports","Head of Internal Audit","executive","v"]]},
+  {id:"islam_lotfi", n:"Islam Lotfi", t:2, p:46, s:"industry", roles:[
+    ["saudi_global_ports","Head of Legal","executive","v"]]},
 ];
 
 const OWNERSHIP = [

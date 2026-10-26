@@ -175,6 +175,8 @@ const INSTITUTIONS = [
   {id:"tarabut_gateway", n:"Tarabut Gateway", s:"tech", t:3, p:58, short:"Tarabut Gateway"},
   {id:"coinmena", n:"CoinMENA", s:"tech", t:3, p:56, short:"CoinMENA"},
   {id:"jalal_sons", n:"Mohammed Jalal & Sons Company W.L.L.", s:"conglomerate", t:3, p:56, short:"Jalal & Sons"},
+  {id:"mclaren_racing", n:"McLaren Racing", s:"consumer_disc", t:1, p:68, short:"McLaren Racing"},
+  {id:"bluefive_capital", n:"BlueFive Capital", s:"finance", t:2, p:58, short:"BlueFive Capital"},
 ];
 
 const PEOPLE = [
@@ -3630,6 +3632,8 @@ const OWNERSHIP = [
   ["sico_wealth","sico_bank","subsidiary of","ns"],
   ["aleastur","mumtalakat","49% stake; built the GCC's first aluminium grain-refiner plant in Bahrain","ns"],
   ["rera_bahrain","slrb","board chaired by head of","v"],
+  ["mclaren_racing","mumtalakat","majority/controlling shareholder alongside CYVN Holdings (Abu Dhabi); took full ownership of remaining minority stakes Sep 2025, valuing the team at $4.1bn","ns"],
+  ["bluefive_capital","mumtalakat","strategic minority stake investor (Aug 2025) in this $2.6bn-AUM GCC private markets platform, chaired by Sheikh Mohamed Isa Al Khalifa","v"],
 ];
 
 const FAMILY = [

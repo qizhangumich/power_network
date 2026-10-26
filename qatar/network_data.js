@@ -210,7 +210,6 @@ const INSTITUTIONS = [
   {id:"abu_issa", n:"Abu Issa Holding", s:"consumer_disc", t:3, p:57, short:"Abu Issa Holding"},
   {id:"al_muftah", n:"Al Muftah Group", s:"conglomerate", t:3, p:57, short:"Al Muftah Group"},
   {id:"al_jaidah", n:"Al Jaidah Group", s:"conglomerate", t:3, p:56, short:"Al Jaidah Group"},
-  {id:"mbh", n:"Mohammed Bin Hamad Holding", s:"conglomerate", t:3, p:56, short:"MBH Holding"},
   {id:"qe_renewables", n:"QatarEnergy Renewable Solutions", s:"energy", t:2, p:62, short:"QE Renewables"},
   {id:"ras_laffan_petrochem", n:"Ras Laffan Petrochemicals Company", s:"materials", t:2, p:60, short:"Ras Laffan Petrochem"},
   {id:"rloc", n:"Ras Laffan Olefins Company", s:"materials", t:3, p:56, short:"RLOC"},
@@ -301,6 +300,7 @@ const PEOPLE = [
   {id:"meshal_amb", n:"H.E. Sheikh Meshal bin Hamad Al Thani", t:0, p:78, s:"gov", roles:[
     ["mofa_q","Ambassador to the United States","political","v"]]},
   {id:"saoud_diwan", n:"H.E. Sheikh Saoud bin Abdulrahman Al Thani", t:0, p:78, s:"gov", roles:[
+    ["npc","Vice Chairman, National Planning Council","board","ns"],
     ["qgov","Chief of the Amiri Diwan","political","ns"],
     ["cabinet","Deputy Prime Minister","political","v"],
     ["mod_q","Minister of State for Defence Affairs","political","v"],
@@ -441,6 +441,9 @@ const PEOPLE = [
     ["qatarrail","Chairman","board","v"],
     ["mot_q","Minister of Transport","political","v"]],
     note:"Appointed November 2024."},
+  {id:"jassim_al_ansari_qr", n:"Eng. Jassim Al Ansari", t:2, p:60, s:"industry", roles:[
+    ["qatarrail","Chief Executive Officer","executive","ns"]],
+    note:"Named Qatar Rail CEO (succeeding Dr. Abdulla bin Abdulaziz Al Subaie) at the new board's first meeting, reported May 2026."},
   {id:"almarri_labour", n:"H.E. Dr. Ali bin Samikh Al Marri", t:1, p:68, s:"gov", roles:[
     ["molsa_q","Minister of Labour","political","v"]],
     note:"Re-appointed Minister of Labour by Amiri order in March 2023; formerly headed Qatar's National Human Rights Committee."},
@@ -499,6 +502,7 @@ const PEOPLE = [
   {id:"sheikh_khalid_bin", n:"Sheikh Khalid Bin Abdullah Al-Thani", t:2, p:52, s:"materials", roles:[
     ["industriesqatar","Board Member","board","v"]]},
   {id:"abdulrahman_ali_al", n:"Abdulrahman Ali Al-Abdulla", t:2, p:52, s:"materials", roles:[
+    ["al_koot_insurance","Chairman of the Board","board","v"],
     ["qatar_steel","Managing Director and CEO","executive","v"],
     ["muntajat","Chairman","board","v"],
     ["industriesqatar","Board Member","board","v"]]},
@@ -521,7 +525,7 @@ const PEOPLE = [
   {id:"nasser_rashid_al", n:"Nasser Rashid Al-Humaidi", t:2, p:52, s:"comm", roles:[
     ["ooredoo","Board Member","board","v"]]},
   {id:"ali_bin_ghanim", n:"Ali Bin Ghanim Bin Ali Abdullah Al-Thani", t:2, p:52, s:"comm", roles:[
-    ["ooredoo","Board Member","board","ns"]]},
+    ["ooredoo","Board Member (until 2020)","board","v","former:until 2020"]]},
   {id:"abdulla_ahmad_al_b", n:"Abdulla Ahmad Al Zaman", t:2, p:58, s:"comm", roles:[
     ["ooredoo","Group Chief Financial Officer","executive","v"]]},
   {id:"sheikh_mohamed_bin", n:"Sheikh Mohamed Bin Hamad Bin Qassim Al Thani", t:2, p:62, s:"finance", roles:[
@@ -1367,8 +1371,10 @@ const PEOPLE = [
   {id:"abdulla_mohamed_al", n:"Abdulla Mohamed Al Khanji", t:2, p:60, s:"industry", roles:[
     ["mwani","Chief Executive Officer","executive","v"]]},
   {id:"jassim_mohammed_jaidah", n:"Jassim Mohammed Jaidah", t:2, p:62, s:"conglomerate", roles:[
+    ["al_jaidah","Chairman","board","ns"],
     ["jaidah","Chairman","board","ns"]]},
   {id:"mohamed_jaidah", n:"Mohamed Jaidah", t:2, p:58, s:"conglomerate", roles:[
+    ["al_jaidah","Group Executive Director","executive","ns"],
     ["jaidah","Group Executive Director","executive","ns"]]},
   {id:"ali_mohammed_jaidah", n:"Ali Mohammed Jaidah", t:2, p:52, s:"conglomerate", roles:[
     ["jaidah","Board Member","board","ns"]]},
@@ -2149,6 +2155,29 @@ const PEOPLE = [
     ["lst_dohi","Chief Executive Officer","executive","ns"]]},
   {id:"regis_agut", n:"Regis Agut", t:2, p:60, s:"energy", roles:[
     ["north_oil","Chief Executive Officer","executive","v"]]},
+  {id:"nigel_johnson", n:"Nigel Johnson", t:2, p:60, s:"conglomerate", roles:[
+    ["al_jaidah","Managing Director - Heavy Equipment Division","executive","v"]]},
+  {id:"james_elliott", n:"James Elliott", t:2, p:46, s:"conglomerate", roles:[
+    ["al_jaidah","General Manager - Industrial Supplies","executive","v"]]},
+  {id:"robah_shaban", n:"Robah Shaban", t:2, p:60, s:"conglomerate", roles:[
+    ["al_jaidah","Managing Director - Projects (Electrical)","executive","v"]]},
+  {id:"shaheen_issa_al", n:"Shaheen Issa Al-Ghanim", t:2, p:62, s:"finance", roles:[
+    ["al_koot_insurance","Vice Chairman of the Board","board","v"]]},
+  {id:"ahmed_rafee_al", n:"Ahmed Rafee Al-Emadi", t:2, p:60, s:"finance", roles:[
+    ["al_koot_insurance","Board Member","board","v"],
+    ["al_koot_insurance","Chief Executive Officer","executive","v"]]},
+  {id:"jabor_yaser_al", n:"Jabor Yaser Al-Mesalam", t:2, p:52, s:"finance", roles:[
+    ["al_koot_insurance","Board Member","board","v"]]},
+  {id:"noor_ahmed_al", n:"Noor Ahmed Al-Sulaiti", t:2, p:52, s:"finance", roles:[
+    ["al_koot_insurance","Board Member","board","v"]]},
+  {id:"hassin_al_asmakh", n:"Hassin Al-Asmakh", t:2, p:58, s:"finance", roles:[
+    ["al_koot_insurance","Chief Support Officer","executive","v"]]},
+  {id:"kaliaperumal_gopal", n:"Kaliaperumal Gopal", t:2, p:58, s:"finance", roles:[
+    ["al_koot_insurance","Chief Financial Officer","executive","v"]]},
+  {id:"hani_awad_ahmed", n:"Hani Awad Ahmed", t:2, p:58, s:"finance", roles:[
+    ["al_koot_insurance","Chief Officer Medical & Life","executive","v"]]},
+  {id:"kumar_natarajan", n:"Kumar Natarajan", t:2, p:58, s:"finance", roles:[
+    ["al_koot_insurance","Chief Officer General Insurance","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2305,6 +2334,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  mbhh:["Mohammed Bin Hamad Holding","MBH Holding"],
   ahmad_helal_al_b:["Eng. Ahmed Hilal Al Mohannadi","Ahmed Hilal Al Mohannadi"],
   moi_q:["Interior Ministry"],
   tamim_bin_hamad:["Hamad University for Military and Technology"],

@@ -1144,6 +1144,7 @@ const PEOPLE = [
   {id:"shahab_mohamed_abdulkhaliq", n:"Shahab Mohamed Abdulkhaliq Gargash", t:2, p:52, s:"gov", roles:[
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"tariq_ahmad_abdulrahim", n:"Tariq Ahmad Abdulrahim Baker", t:2, p:52, s:"gov", roles:[
+    ["dutco","Chief Executive Officer","executive","ns"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"ali_saeed_juma", n:"Ali Saeed Juma Al Bawardy", t:2, p:52, s:"gov", roles:[
     ["dubaichambers","Member of the Board","board","v"]]},
@@ -2471,6 +2472,10 @@ const PEOPLE = [
     ["binhendi","Deputy Chairman","board","v"]]},
   {id:"abdulsalam_al_madani", n:"Abdulsalam Al Madani", t:2, p:62, s:"conglomerate", roles:[
     ["index","Chairman","board","ns"]]},
+  {id:"khalifa_juma_al", n:"Khalifa Juma Al Nabooda", t:2, p:62, s:"conglomerate", roles:[
+    ["al_nabooda","Chairman","board","ns"]]},
+  {id:"ahmed_baker", n:"Ahmed Baker", t:2, p:62, s:"conglomerate", roles:[
+    ["dutco","Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [

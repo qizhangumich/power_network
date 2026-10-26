@@ -247,6 +247,7 @@ const INSTITUTIONS = [
   {id:"insead", n:"INSEAD", s:"education", t:3, p:54, short:"INSEAD"},
   {id:"dgca_kuwait", n:"Directorate General of Civil Aviation", s:"gov", t:2, p:64, short:"DGCA Kuwait"},
   {id:"aaw", n:"Ali Abdulwahab Al Mutawa Commercial Co.", s:"consumer_disc", t:3, p:55, short:"AAW"},
+  {id:"ekuity", n:"Ekuity Holding", s:"finance", t:3, p:52, short:"Ekuity Holding"},
 ];
 
 const PEOPLE = [
@@ -357,7 +358,7 @@ const PEOPLE = [
   {id:"sujit_ronghe", n:"Sujit Ronghe", t:2, p:58, s:"finance", roles:[
     ["nbk","Group Chief Financial Officer","executive","v"]]},
   {id:"mohammed_al_othman", n:"Mohammed Al-Othman", t:2, p:60, s:"finance", roles:[
-    ["knet","Chairman of the Board","board","ns"],
+    ["knet","Chairman of the Board","board","v"],
     ["nbk","CEO - Consumer & Digital Banking","executive","v"]]},
   {id:"mohammad_yousef_al", n:"Mohammad Yousef Al-Kharafi", t:2, p:58, s:"finance", roles:[
     ["nbk","Group Chief Operating Officer","executive","v"]]},
@@ -2009,6 +2010,10 @@ const PEOPLE = [
     ["lst_kamco","Independent Board Member","board","v"]]},
   {id:"altaf_abdullah_al", n:"Altaf Abdullah Al-Ghanim", t:2, p:52, s:"finance", roles:[
     ["lst_sech","Board Member","board","v"]]},
+  {id:"zyad_abdullah_alnajem", n:"Zyad Abdullah Alnajem", t:2, p:58, s:"gov", roles:[
+    ["moci_kw","Undersecretary","executive","ns"]]},
+  {id:"mohammad_al_jalal", n:"Mohammad Al-Jalal", t:2, p:58, s:"gov", roles:[
+    ["moci_kw","Assistant Undersecretary for Legal Affairs, Companies and Commercial Licenses","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2177,6 +2182,7 @@ const OWNERSHIP = [
   ["enertech","kia","indirect subsidiary (via NTEC)","ns"],
   ["khafji_jo","kgoc","50/50 JV with Saudi Aramco's Aramco Gulf Operations Co. operating the offshore Khafji field in the Divided (Neutral) Zone","ns"],
   ["wafra_jo","kgoc","50/50 JV with Saudi Arabian Chevron operating the onshore Wafra field in the Divided (Neutral) Zone","ns"],
+  ["ekuity","kia","wholly owned subsidiary - KIA's dedicated investment arm for Egypt, established 2011 with EGP 1bn capital; holds ~50% of Arab African International Bank and a 30% stake in AluNile","ns"],
 ];
 
 const FAMILY = [
@@ -2232,4 +2238,5 @@ const AKA = {
   jaber_hospital:["Jaber Al-Ahmad Hospital"],
   insead:["European Institute of Business Administration"],
   dgca_kuwait:["DGCA"],
+  ekuity:["Ekuity Capital"],
 };
