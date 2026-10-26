@@ -1,0 +1,5 @@
+# Apollo takes minority stake in Abu Dhabi’s Mubadala Capital
+source: www.thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxORFBsV0c5WXc0X1RxeGVZWksydUE1X2hoYS0yS29fY1ktLXI5SEl2Yk02d1h6UlJTZ0MwU3dYMWkzZ3NBa3NfT3hxQUVVbnVXWm13ZjhqbVAyU05RaEZTRHhoSUV6Z3NLQ0EzYlg5Zk0yNVRncXlQcVh4Z3dPLXBXWU42WUFIZ18wMk5FV0VNMGNxNU82RW8za2hfWVZOcDEwZGhLUFdwM2tENl9FVVpzSG5RV1BSRzB6UVBWQ0dzbV9fdl9WV3ZqQ3gtczFOOVBtSjBKTzI2eVBrc0cwOTh3?oc=5
+
+Apollo takes minority stake in Abu Dhabi’s Mubadala Capital    www.thenationalnews.com

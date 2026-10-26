@@ -1,0 +1,5 @@
+# ADNOC offers $16.3bln in UAE manufacturing opportunities through 2030
+source: Zawya
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNV2JqUUhmNEliQTlkY3ZJTHFwQVNSeG5tb1kzMkdPcXd4SDFZa0VIMXQtQlJnSmd3UC11eDk3MkowZE1KRkhRNV9Nb3FsYmlIQS12bEJDdmR3RWxwTF93bC12NkEzcGgwVEQ5NU1IYjhuZXZJNnB6RmZOR05KQl9DTi0tb21KY28ydXJSbzZZMWdoWG1UOXhwRG1ERW1jckJvRFhVMTVwdW5BVXNtRHdndUlTc09xZE1XNHlWWlpR?oc=5
+
+ADNOC offers $16.3bln in UAE manufacturing opportunities through 2030    Zawya

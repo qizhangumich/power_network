@@ -1,0 +1,5 @@
+# Abu Dhabi’s Crown Prince Attends State Dinner in Ottawa - Headline Politics
+source: CPAC
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxOS3V6aWw2ZTZVY29xQVRuNmFsZ0hmTS1mek5NQkhaTVRjbFFuSTJ5bzhfNEFWaDNValU5SkRTUGRhSHFUVWhlVDdXOTduZnFaZml0QXFwN3dORjdrbEYwclNUSXdBbjNWNlpJWHY0aWpnSmxELWdFNUVsb0wzclFoNEY1TUNnUFdEVkQ1M1RiSmg5b0xHM3JJbmpVRlJFWmkzWmowc1EtT0Z2aXBURlhCRTVaekhHVjF0YjJ5U1BTM3ljdkdwVXBzUkFQd0RQSEdIOHQzOEVuUQ?oc=5
+
+Abu Dhabi’s Crown Prince Attends State Dinner in Ottawa - Headline Politics    CPAC

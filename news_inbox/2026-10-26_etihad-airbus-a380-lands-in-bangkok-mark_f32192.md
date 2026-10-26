@@ -1,0 +1,5 @@
+# Etihad Airbus A380 lands in Bangkok marking first ever Thailand arrival
+source: AeroTime
+url: https://news.google.com/rss/articles/CBMiggFBVV95cUxNSTdHaklrNDZId19GeDlHeTlkU2tPVmZwSGk5bXpUbzc3cHFIMzhqRUZlSnZNblQ2cHdLNzdzUlVwNXFTa1V0Y3EyZ1lZb3JVdUhtcEd0RTVHcWxieG9tTVJkUVo2OUE5a0tsNEpORl9uNHNIU3c3SGlHY1VyQlpjZkpR0gGHAUFVX3lxTE5RbWNIQldMZnJNYVpObzZLLUtuVnVIOXZSbHhfZDNJNlNORFBPZnNMWE1IWVNJa3AzMlg1aW5ZZEdxdmZOQzNKd1BXQm5ud3RjSHNIcEhTNllrMlFEcVI2Mlg4aWZRd3M2cHNYcHZvOHZKTGNNNy1vREpHTExNWEo4RGpsb1VTMA?oc=5
+
+Etihad Airbus A380 lands in Bangkok marking first ever Thailand arrival    AeroTime

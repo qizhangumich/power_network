@@ -1,0 +1,5 @@
+# Emarat and G42 Collaborate to boost AI-driven transformation in energy and mobility
+source: intlbm
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxQM3BpUk9OcktLeE13WjZLVVNKb21lZUY1Unduc2xualVNbEswTEJxbWZWUmZhVk8xNkVDLURSbXZYa041T1hydmZybXktb0FTUFlFUW9sdVB2MkpMUXlWYlZ4VmJVZE9VZnNRNkNIS0ltNGotU1dWc3AtV3ktZG1WekswQ1N4YjR2a0l6YnIwbUlJYXhEWk9US0FOMl9sNFB2MHVNYVN1SzUyaU02UVVoZDNodDM?oc=5
+
+Emarat and G42 Collaborate to boost AI-driven transformation in energy and mobility    intlbm

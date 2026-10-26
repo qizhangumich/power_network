@@ -1,0 +1,5 @@
+# ADNOC Enhances Procurement Strategy With US$16bn Investment
+source: Procurement Magazine
+url: https://news.google.com/rss/articles/CBMilgFBVV95cUxOYVZqY0liYjVGRmtwMnY0X0VPZ0F6TFNzTHY2Z1NBMkhHWGZBQmM4QTV4RjZXNmhzYkxGYXF6NTVYWHUtUGNISG5mZG12al9CNmVZRzJhUmtaNzlHMlIza0x1U2VOdHMxRHB5cm9pb25ucENldmpzQ1ZaWVA5eVlqcGoxNklzMXBCYzNGUVU1NXpEMzZ5Rnc?oc=5
+
+ADNOC Enhances Procurement Strategy With US$16bn Investment    Procurement Magazine
