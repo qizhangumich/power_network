@@ -258,7 +258,7 @@ const PEOPLE = [
   {id:"pm_kw", n:"H.H. Sheikh Ahmad Abdullah Al-Ahmad Al-Sabah", t:0, p:86, s:"gov", roles:[
     ["cabinet_kw","Prime Minister","political","v"]]},
   {id:"fahad_yousef", n:"Sheikh Fahad Yousef Al-Sabah", t:0, p:82, s:"gov", roles:[
-    ["pam","Chairman of the Board","board","ns"],
+    ["pam","Chairman of the Board","board","v"],
     ["moi_kuwait","First Deputy Prime Minister and Minister of Interior","executive","v"],
     ["cabinet_kw","First Deputy PM · Minister of Interior","political","v"]]},
   {id:"yahya_fm", n:"H.E. Sheikh Jarrah Jaber Al-Ahmad Al-Sabah", t:1, p:76, s:"gov", roles:[
@@ -290,7 +290,7 @@ const PEOPLE = [
     ["alshaya","Executive Chairman","board","v"]],
     note:"Franchise king of the Middle East — Starbucks to H&M across the region."},
   {id:"omar_alghanim", n:"Omar Kutayba Alghanim", t:2, p:68, s:"conglomerate", roles:[
-    ["alghanim","Chairman (family)","board","ns"]]},
+    ["alghanim","Chief Executive Officer (2005–2019)","executive","ns","former:until 2019"]]},
   {id:"boodai", n:"Marwan Boodai", t:2, p:64, s:"industry", roles:[
     ["boodaicorp","Vice Chairman","board","v"],
     ["jazeera","Chairman","board","v"]]},
@@ -1199,6 +1199,7 @@ const PEOPLE = [
   {id:"rohit_bhasin", n:"Rohit Bhasin", t:2, p:58, s:"conglomerate", roles:[
     ["al_mulla","Chief Financial Officer","executive","v"]]},
   {id:"kutayba_y_alghanim", n:"Kutayba Y. Alghanim", t:2, p:62, s:"conglomerate", roles:[
+    ["alghanim","Executive Chairman","board","v"],
     ["xcite_electronics","Executive Chairman","board","v"],
     ["alghanim_sons_grp","Executive Chairman","board","v"]]},
   {id:"robert_etman", n:"Robert Etman", t:2, p:62, s:"conglomerate", roles:[
@@ -1757,7 +1758,7 @@ const PEOPLE = [
   {id:"abdullah_a_al", n:"Abdullah A. Al-Mutairi", t:2, p:60, s:"energy", roles:[
     ["enertech","Chief Executive Officer","executive","ns"]]},
   {id:"rabab_al_osaimi", n:"Rabab Al-Osaimi", t:2, p:58, s:"gov", roles:[
-    ["pam","Director General","executive","ns"]]},
+    ["pam","Director General","executive","v"]]},
   {id:"abdul_ilah_rafie", n:"Abdul Ilah Rafie Marafie", t:2, p:62, s:"conglomerate", roles:[
     ["marafie","Chairman","board","v"]]},
   {id:"abdulhakim_marafie", n:"Abdulhakim Marafie", t:2, p:58, s:"conglomerate", roles:[
@@ -2014,6 +2015,8 @@ const PEOPLE = [
     ["moci_kw","Undersecretary","executive","ns"]]},
   {id:"mohammad_al_jalal", n:"Mohammad Al-Jalal", t:2, p:58, s:"gov", roles:[
     ["moci_kw","Assistant Undersecretary for Legal Affairs, Companies and Commercial Licenses","executive","v"]]},
+  {id:"yaqoub_al_sayed", n:"Yaqoub Al-Sayed Yousef Al-Rifai", t:2, p:52, s:"gov", roles:[
+    ["mof_kw","Minister of Finance","board","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -221,7 +221,7 @@ const PEOPLE = [
   {id:"baqali", n:"Ali Al Baqali", t:2, p:64, s:"materials", roles:[
     ["alba","CEO","executive","v"]]},
   {id:"salman_isa_bic", n:"Sheikh Salman bin Isa Al Khalifa", t:2, p:62, s:"consumer_disc", roles:[
-    ["benefit","Board Member","board","ns"],
+    ["benefit","Board Member","board","v"],
     ["bic","CEO","executive","v"]]},
   {id:"fawzi_kanoo", n:"Fawzi Ahmed Kanoo", t:2, p:60, s:"conglomerate", roles:[
     ["lst_ghg","Chairman of the Board of Directors","board","v"],
@@ -405,6 +405,7 @@ const PEOPLE = [
   {id:"shaikh_mohamed_bin_b", n:"Shaikh Mohamed bin Isa Al Khalifa", t:2, p:52, s:"sovereign", roles:[
     ["mumtalakat","Board Member","board","v"]]},
   {id:"hamad_bin_faisal", n:"Hamad bin Faisal Al Malki", t:2, p:52, s:"sovereign", roles:[
+    ["moca_bahrain","Minister of Cabinet Affairs","board","v"],
     ["tamkeen","Board Member (Minister of Cabinet Affairs)","board","v"],
     ["mumtalakat","Board Member (Minister of Cabinet Affairs)","board","v"]]},
   {id:"dr_samer_aljishi", n:"Dr. Samer Aljishi", t:2, p:52, s:"sovereign", roles:[
@@ -510,7 +511,7 @@ const PEOPLE = [
   {id:"salman_al_hasan", n:"Salman Al Hasan", t:2, p:58, s:"finance", roles:[
     ["lst_bbk","Chief International Banking Officer","executive","v"]]},
   {id:"ahmed_taqi", n:"Ahmed Taqi", t:2, p:58, s:"finance", roles:[
-    ["benefit","Board Member","board","ns"],
+    ["benefit","Board Member","board","v"],
     ["lst_bbk","Chief Retail Banking Officer","executive","v"]]},
   {id:"aqeel_ghaith", n:"Aqeel Ghaith", t:2, p:58, s:"finance", roles:[
     ["lst_bbk","Chief Private Banking Officer","executive","v"]]},
@@ -1246,7 +1247,7 @@ const PEOPLE = [
     ["nbb","Head of Quality Assurance & Data Analytics","executive","v"],
     ["nbb","Head of Quality Assurance & Data Analytics","executive","v"]]},
   {id:"nabeel_mustafa", n:"Nabeel Mustafa", t:2, p:58, s:"finance", roles:[
-    ["benefit","Vice Chairman","board","ns"],
+    ["benefit","Vice Chairman","board","v"],
     ["nbb","Group Chief Operating Officer","executive","v"],
     ["nbb","Group Chief Operating Officer","executive","v"]]},
   {id:"sadeq_jaafar_kadhem", n:"Sadeq Jaafar Kadhem Dakail", t:2, p:46, s:"finance", roles:[
@@ -2771,10 +2772,12 @@ const PEOPLE = [
     ["lmra_bahrain","Chairman of the Board of Directors (Minister of Labour)","board","v"],
     ["cabinet_bh","Minister of Labour","executive","v"]]},
   {id:"wael_bin_nasser", n:"Wael bin Nasser Al Mubarak", t:2, p:58, s:"gov", roles:[
+    ["mmaa","Minister of Municipalities Affairs and Agriculture","board","v"],
     ["gheras","Chairman","executive","ns"],
     ["cabinet_bh","Minister of Municipalities Affairs and Agriculture","executive","v"],
     ["ewa_bh","Electricity and Water Affairs Minister","executive","v"]]},
   {id:"nawaf_bin_mohammed", n:"Nawaf bin Mohammed Al Maawda", t:2, p:58, s:"gov", roles:[
+    ["moj","Minister of Justice, Islamic Affairs and Endowments","board","v"],
     ["cabinet_bh","Minister of Justice, Islamic Affairs and Waqf","executive","v"]]},
   {id:"abdullah_bin_hassan", n:"Abdullah bin Hassan Al Nuaimi", t:2, p:58, s:"gov", roles:[
     ["cabinet_bh","Minister of Defence Affairs","executive","v"]]},
@@ -3389,17 +3392,17 @@ const PEOPLE = [
   {id:"mohammed_ibrahim_al_b", n:"Mohammed Ibrahim Al Sisi Al Buainain", t:2, p:52, s:"gov", roles:[
     ["council_of_reps","Secretary-General (appointed by Royal Decree No. 83 of 2024)","board","v"]]},
   {id:"yusuf_al_fadhel", n:"Yusuf Al Fadhel", t:2, p:52, s:"finance", roles:[
-    ["benefit","Board Member","board","ns"]]},
+    ["benefit","Board Member","board","v"]]},
   {id:"alaa_bushehri", n:"Alaa Bushehri", t:2, p:52, s:"finance", roles:[
-    ["benefit","Board Member","board","ns"]]},
+    ["benefit","Board Member","board","v"]]},
   {id:"samih_abutaleb", n:"Samih Abutaleb", t:2, p:52, s:"finance", roles:[
-    ["benefit","Board Member","board","ns"]]},
+    ["benefit","Board Member","board","v"]]},
   {id:"khaled_abi_khalil", n:"Khaled Abi Khalil", t:2, p:52, s:"finance", roles:[
-    ["benefit","Board Member","board","ns"]]},
+    ["benefit","Board Member","board","v"]]},
   {id:"mohamed_buhejji", n:"Mohamed Buhejji", t:2, p:52, s:"finance", roles:[
-    ["benefit","Board Member","board","ns"]]},
+    ["benefit","Board Member","board","v"]]},
   {id:"samir_rabadi", n:"Samir Rabadi", t:2, p:52, s:"finance", roles:[
-    ["benefit","Board Member","board","ns"]]},
+    ["benefit","Board Member","board","v"]]},
   {id:"jawad_zabar", n:"Jawad Zabar", t:2, p:58, s:"finance", roles:[
     ["bfc","Group General Counsel & Board Secretary","executive","ns"]]},
   {id:"kerry_rutherford", n:"Kerry Rutherford", t:2, p:46, s:"energy", roles:[
@@ -3560,6 +3563,16 @@ const PEOPLE = [
     ["mclaren_racing","Executive Director, McLaren Endurance Racing / Team Principal, McLaren Hypercar Team","executive","v"]]},
   {id:"nada_kazerooni", n:"Nada Kazerooni", t:2, p:46, s:"finance", roles:[
     ["lst_ithmr","Head of Financial Institutions & Treasury (Ithmaar Bank)","executive","v"]]},
+  {id:"yousif_bin_abdulhussain", n:"Yousif bin Abdulhussain Khalaf", t:2, p:52, s:"gov", roles:[
+    ["mol_bahrain","Minister of Labour","board","v"]]},
+  {id:"rawan_bint_najeeb", n:"Rawan bint Najeeb Tawfiqi", t:2, p:52, s:"gov", roles:[
+    ["moya_bahrain","Minister of Youth Affairs","board","ns"]]},
+  {id:"ramzan_bin_abdulla", n:"Ramzan bin Abdulla Al Nuaimi", t:2, p:52, s:"gov", roles:[
+    ["iaa","Minister of Information Affairs","board","ns"]]},
+  {id:"khalifa_bin_ahmed", n:"Khalifa bin Ahmed bin Abdulla Al Khalifa", t:2, p:52, s:"gov", roles:[
+    ["baca","President of the Bahrain Authority for Culture and Antiquities","board","v"]]},
+  {id:"ahmed_bin_mohammed", n:"Ahmed bin Mohammed Al Khalifa", t:2, p:52, s:"gov", roles:[
+    ["nao_bahrain","Auditor-General / President of the National Audit Office","board","ns"]]},
 ];
 
 const OWNERSHIP = [

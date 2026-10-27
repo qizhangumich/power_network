@@ -467,6 +467,7 @@ const PEOPLE = [
     ["nitaj","Chairman","board","v"],
     ["oia","Deputy President for Operations","executive","v"]]},
   {id:"dr_saud_al", n:"Dr. Saud Al Habsi", t:2, p:52, s:"sovereign", roles:[
+    ["moafwr","Minister of Agriculture, Fisheries and Water Resources","board","v"],
     ["oia","Board Member (Minister of Agriculture Fisheries & Water Resources)","board","v"]]},
   {id:"abdullah_al_harthi", n:"Abdullah Al Harthi", t:2, p:52, s:"sovereign", roles:[
     ["oia","Board Member (Undersecretary Ministry of Finance)","board","v"]]},
@@ -1385,6 +1386,7 @@ const PEOPLE = [
   {id:"saeed_bin_mohammed", n:"Saeed bin Mohammed Al-Saqri", t:2, p:58, s:"gov", roles:[
     ["ministry_of_economy","Minister of Economy (until Jan 2026)","executive","v","former:until Jan 2026"]]},
   {id:"abdullah_bin_nasser", n:"Abdullah bin Nasser bin Khalifa Al Harrasi", t:2, p:62, s:"comm", roles:[
+    ["moinfo_oman","Minister of Information","board","v"],
     ["oman_radio_tv","Chairman of the Public Authority for Radio and Television (PART)","board","ns"]]},
   {id:"ghalib_al_saidi", n:"Ghalib Al Saidi", t:2, p:60, s:"consumer_stap", roles:[
     ["al_bashayer_meat","Chief Executive Officer","executive","ns"]]},
@@ -1550,6 +1552,7 @@ const PEOPLE = [
   {id:"gen_sultan_bin", n:"Gen Sultan bin Mohammed al Nuamani", t:2, p:62, s:"gov", roles:[
     ["cdaa","Chairman of the Board of Directors (Minister of the Royal Office, Head of the Office of the Supreme Commander)","board","v"]]},
   {id:"hassan_bin_mohsin", n:"Hassan bin Mohsin Al Shuraiqi", t:2, p:52, s:"gov", roles:[
+    ["rop","Inspector General of Police and Customs","board","v"],
     ["cdaa","Board Member, ex officio (Inspector-General of Police and Customs)","board","ns"]]},
   {id:"vice_admiral_abdullah", n:"Vice Admiral Abdullah bin Khamis Al Raisi", t:2, p:52, s:"gov", roles:[
     ["cdaa","Board Member, ex officio (Chief of Staff of the Sultan's Armed Forces)","board","ns"]]},
@@ -1641,6 +1644,18 @@ const PEOPLE = [
     ["oman_tech_fund","Chairman of the Board","board","ns"]]},
   {id:"hanan_askalan", n:"Hanan Askalan", t:2, p:52, s:"finance", roles:[
     ["oman_tech_fund","Board Member","board","ns"]]},
+  {id:"khalfan_bin_said", n:"Khalfan bin Said bin Mubarak Al Shuaili", t:2, p:52, s:"gov", roles:[
+    ["mohup_oman","Minister of Housing and Urban Planning","board","v"]]},
+  {id:"abdullah_bin_mohammed_b", n:"Abdullah bin Mohammed bin Said Al Saidi", t:2, p:52, s:"gov", roles:[
+    ["mjla","Minister of Justice and Legal Affairs","board","v"]]},
+  {id:"mohammed_bin_saeed", n:"Mohammed bin Saeed bin Khalfan Al Maamari", t:2, p:52, s:"gov", roles:[
+    ["mara_oman","Minister of Endowments and Religious Affairs","board","v"]]},
+  {id:"halima_bint_rashid", n:"Halima bint Rashid Al Zari", t:2, p:62, s:"finance", roles:[
+    ["riyada","Chairperson of the Small and Medium Enterprises Development Authority (Riyada)","board","v"]]},
+  {id:"mazin_bin_saif", n:"Mazin bin Saif Al Busaidi", t:2, p:62, s:"finance", roles:[
+    ["riyada","Vice Chairperson for SME Development, Riyada","board","v"]]},
+  {id:"qais_bin_rashid", n:"Qais bin Rashid Al-Toubi", t:2, p:62, s:"finance", roles:[
+    ["riyada","Vice Chairperson for Financing and Investment, Riyada","board","v"]]},
 ];
 
 const OWNERSHIP = [
