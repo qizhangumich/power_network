@@ -1,0 +1,5 @@
+# Chainlink: Further Asset Management adopts ACE for tokenized asset compliance - 27 Oct 2026
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNa1pTSW1GcGJBb0dKTVNXckp6dmZQRkY4V3FEX01DR2pxSVRJNVFNajYzbndFTDZmYjdyOTVYcTBsLTZSeGc3SWZBaGlSRGxkTDk4NW5oMThoTGVnbzNFUEdMYkFwS1hXSVZSX09IdFZxQzRnUEtreUdBY3BXZWpLX1FkMVVPN0VBR25XN1V6TU9taDdxZzluTWVHcXE5V0VkdFViWHc3NnJWcTJfaTZ1c0dFb2Vaekx2YS1jeFdfR1lXd2tPWW5fMkMtanF5UE5sVXlTMkRwTG5Da0VnNkl1b0otVE8wUVU?oc=5
+
+Chainlink: Further Asset Management adopts ACE for tokenized asset compliance - 27 Oct 2026    TradingView

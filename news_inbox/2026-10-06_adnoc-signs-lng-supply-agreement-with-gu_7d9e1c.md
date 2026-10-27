@@ -1,0 +1,5 @@
+# ADNOC signs LNG supply agreement with Gulf Group
+source: LNG Industry
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdHhJWUl6blcyYVVSbElBTUkwb3RTSC1nX2tZeFV4M3U4SFE3b01SSEp1eWxaT2J1RXJXWWk5ajNfc2FjOE9Ldjc5ZkIxeUpGdWx3Ti1Kem83TEY3YV9mNUdkN2VJU0M0X3RzRDJBenVvVDNrVF96SDRJYzJoakVDR1BVY0Q2bDQ3Q3lSYUp5MmgtYTlPbzRLVHo5TmJRMTJ2QmdqOS1lNTU?oc=5
+
+ADNOC signs LNG supply agreement with Gulf Group    LNG Industry

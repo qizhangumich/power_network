@@ -1,0 +1,5 @@
+# Masdar Raises US$600 Million In Highest Rated Public Blue Bond Corporate Offering Worldwide
+source: Menafn
+url: https://news.google.com/rss/articles/CBMivAFBVV95cUxPWDJwbHZ4RzMxdFdzUmxoZS1qUEQ4OGhNdkNUZ0xqM0J1bnNKSjlzdnRRMnVpdlFFblN4cXB1T0JROU5HS2laR3dxN05XY2JNaEtIeVVZTGRrV181ZEZOLXJQRXQzeUl5ZG5RdXp2cURESFpIalhGckY2Wm9jQW1Cbk4wd0tqSzlCS0JIekhXcnNlR2RuR3A3aUt1Qlh4RXJjeDVTRHZsQlY3cktvYlJaZjE0a2ZBTHphb1hpZg?oc=5
+
+Masdar Raises US$600 Million In Highest Rated Public Blue Bond Corporate Offering Worldwide    Menafn

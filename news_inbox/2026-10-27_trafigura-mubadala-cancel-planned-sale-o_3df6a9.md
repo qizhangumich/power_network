@@ -1,0 +1,5 @@
+# Trafigura, Mubadala Cancel Planned Sale of Brazilian Iron Port
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPVWxMRFNBQ2JEc2JPN2RSbVNXZVpvMGoxcGZIaURlRnF0TmRUVmUyMU5CMUQ0SFM1dXVGNUZlcXA5dmFOM203NjFzRUhQT2NadmxoMGtoS2FDY3hFQU4zenVfX0Rrd3MtRDFqZnFza1BPcGZtdnRfMWY1OHNrR1F6UTRWaTlQZW5Ma3lCcGdiaFp2SFp1b0ROeHFCSkFXQW1Xck1fdlNzS2RZaW40V3o5U0JR?oc=5
+
+Trafigura, Mubadala Cancel Planned Sale of Brazilian Iron Port    Bloomberg.com

@@ -1,0 +1,5 @@
+# Etihad expands Canadian network with four weekly Calgary flights
+source: Travelweek
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUmM0anJBYU8zREt4eHdIYnZrV1JpdS1pVTNuZWo0WGxDX1J5RVBLWVJwNEVzMzRLa2JGOU5nbEc0V1NUU3V2MHNpYkQ4NV9QMWpMSFBGZzF1ZE1wWkJGSV9nSjV1bHJBZFlwYkJHSWVyaHFENm9hMnh0d1gwV1Nra01kWjk3ay1rWEdDU1VRZFBjZ19IcE00Z3FVRGxhdHpVbUYxOC1uZGc?oc=5
+
+Etihad expands Canadian network with four weekly Calgary flights    Travelweek

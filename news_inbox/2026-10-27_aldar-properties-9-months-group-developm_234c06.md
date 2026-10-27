@@ -1,0 +1,5 @@
+# Aldar Properties 9-Months Group Development Sales AED 18.9 Billion
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcWxqUmRkejhtZVBsWHhJT1RfNVdVSkdxTHhMMWVjT0k3a080RG1FS1ZidjVUUDltUWwxWHJzWGo1b1JYNVVzYVhwcWM2WHpZWXNwemFlLXhNaHdLVU1lX1h0LUg3VFBUaXFacDhKUnk2OEtpdmVMdTItcml1dGlQeGpWcjBsYkY3MXE2aGpZdjdWTDBQd1NUS1VEQlU2LW9YaFYtV1FnSHBzOXhpblhXVWlWWTJ6X00ybW1kTXl1dTNmNHUwUjVxT0o4NFJtS1pSekE?oc=5
+
+Aldar Properties 9-Months Group Development Sales AED 18.9 Billion    TradingView

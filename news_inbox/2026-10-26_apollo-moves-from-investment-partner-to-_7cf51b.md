@@ -1,0 +1,5 @@
+# Apollo moves from investment partner to Mubadala Capital shareholder
+source: Alternatives Watch
+url: https://news.google.com/rss/articles/CBMilAFBVV95cUxNVWM3WUVwbkJKTHNqcEtFdm9nUl8xeTFoZHJYdjRvWWkyZ2xoOXQzRTlqb3BTR1NvZ1hkS2FzeFhTR1MwOWhGLTBpUnZIQXpDdnJKWlNCakdubVl2d2ZXRUlVQmlGaHBxdDJ6ZEx1U3Z5X0hWTEtld1NDbUtaWDFYLVp3TkVCUHg3UEhtclhJU3U1b0pp?oc=5
+
+Apollo moves from investment partner to Mubadala Capital shareholder    Alternatives Watch

@@ -1,0 +1,5 @@
+# Sheikh Khaled attends dinner hosted by Canada's PM during official visit
+source: The National
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUVBTTmRybEdQbGU1U0xCeE9YckJTTlhuUU5hSUVzanEzbDBsbXBVTnQyVXJibHNzdjdkaVBCa18yVVctcHozN2NuMVdEdDZXS3pOc2VfRWRJRGFHU0ZFelE1V0doN1BjRU8tcXFaZThMd1JfaGJrZFJicDZtdHV3RUlsaUwzRXowMUE4dHctMGxFSTBURXpzVTc0MC1XbUU0ZC1wTnBJV1Q1c1VTV1RQcm9wQklPR0pqWGluMzBCVm41Zw?oc=5
+
+Sheikh Khaled attends dinner hosted by Canada's PM during official visit    The National

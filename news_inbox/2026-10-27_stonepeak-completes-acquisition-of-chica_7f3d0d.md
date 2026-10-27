@@ -1,0 +1,5 @@
+# Stonepeak Completes Acquisition Of Chicago Parking Meters From Morgan Stanley Infrastructure Partners, Allianz And ADIA
+source: Pulse 2.0
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUC01b2dGanFGdkJ5T1NPZko1RmZybkhJSXZrdDRyMnhESmVoZ0FET2lpYVFONmQwT081aFVWZ0NxZjNlbXlfRHNTUFhYckNpQmJBb0pXRHBWMC1Kcmt4Z3N2NDZyT3lHeXQ4RDVDaFNJTVhybzlRMVg0N3M5REJWYXlzWEZvS3A1blhqVWtySFltdk9DU01uZ3JDNEY2d255UVk1SUNhUmNkOU9kS051OGN3VzQ2azJkVVp1Q0NFY3ZDMGFmUk1pV2theGxuSWh2V3RSWQ?oc=5
+
+Stonepeak Completes Acquisition Of Chicago Parking Meters From Morgan Stanley Infrastructure Partners, Allianz And ADIA    Pulse 2.0

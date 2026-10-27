@@ -1,0 +1,5 @@
+# Cognite Spotlights UAE Industrial AI Momentum and Honors Regional Leaders at Impact World Tour Event in Abu Dhabi
+source: Medianet News Hub
+url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxOSUxsOW4zclRtWTVTZmlfcjBpdnk1OVlhLWNIYlRsSWFXNkcxN2xCd3Nta25HOXNFbzR1cERfU0tOUTVSOEZCMlZSLTI3cEFSeDJaQzZMSnhDcm5mYXhGYTVvYVMxVmYyZ2lnQWllNlV0QmFYYzNvbHUxOTY4cWdFU2tsUjFqOWJCbHhqUW8wcmQtVnhWSi10VkZBQThpWnhFZlNKNFlEeVN6ZTZ4U3pET2hjV3BjN3ZyYmR6U3dOSE9sVjNxTkE4M1FFcVpITlN5MWhHMTlLZlBCMUxFUHhsMzB0WXBYZTdIOEE0SmZvZXdWREE?oc=5
+
+Cognite Spotlights UAE Industrial AI Momentum and Honors Regional Leaders at Impact World Tour Event in Abu Dhabi    Medianet News Hub
