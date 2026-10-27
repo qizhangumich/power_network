@@ -1,0 +1,5 @@
+# United Arab Emirates, Canada to share details of strategic partnership today
+source: CP24
+url: https://news.google.com/rss/articles/CBMivAFBVV95cUxOcGhGbEFiX25wTFlNUzdwb0VacFFoQUM1VmpEWnRXbUktVGlxTWxFbUp5LS1JS1l5NDNvSGIwbEI4U3VjTUFEUXhUMjNRcFQzMXpWOGp5dElCUnZjZExKRGJvbjBNRktGdWVMWkRYTjNEcVdKdUZTb1N1SUVUSkRaazE3S0ZRX0pUaTZuR3lINFRCajlGbmhRTFpmSEhmSTZIczNfYmx5QmYtU3JzMmFMbzBzd2dWR0dpcUdubg?oc=5
+
+United Arab Emirates, Canada to share details of strategic partnership today    CP24

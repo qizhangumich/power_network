@@ -1,0 +1,5 @@
+# Etihad Airways launches first direct flights between Luxembourg and Abu Dhabi
+source: Travel Tomorrow
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdUpWRldjZ2lZeVEzc0JLaFNKbkwwaHA3cnpacnEwaHZEZy0tSHZUR3d0ZllLVVI1cmV3QnZHRmZPaEplR044aXo2Rmx4VzhjdmtRZnNaYVZtc3lJV0tZdHI2bk5UZDNQNGVVRE5vOXR6Wkt5UGpYemZFUFpqRnpkanc5Qi1OQ09JNm1GUUYtb1RlT3luTDFLZERFQnl3ZkFxQ3JuT0hNdG0?oc=5
+
+Etihad Airways launches first direct flights between Luxembourg and Abu Dhabi    Travel Tomorrow

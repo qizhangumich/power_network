@@ -1,0 +1,5 @@
+# Opinion- Oman's digital economy is now everybody's business
+source: Oman Observer
+url: https://www.omanobserver.om/article/1198595/opinion/business/opinion--omans-digital-economy-is-now-everybodys-business
+
+

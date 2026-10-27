@@ -1,0 +1,5 @@
+# Sheikh Khaled arrives in Ottawa to begin official visit to Canada
+source: The National
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNVEFlbWxYai1sZjllaE5TMHpqWkNheU1JUERaYkl1bXpZbEdtWkgtT2RyTEJyTFFpTmlaUXhpWGVKSHZVUE55SmpYN2xHcm45YWs2T3hlclR0TjNOZTY0d2RURDZsOXA0Q0tlLVdTdzdDTVpCOHpwQ2duV2hfMFV1WkVlSGFyaDQ5OC1TRi1ZcGpJeVZjM1VGWlhNREZ0RDJVNllVa2t6bVdacEd4YjluRFZMQ1BIOWhfa3lyV0lBangwOWJZUGdB?oc=5
+
+Sheikh Khaled arrives in Ottawa to begin official visit to Canada    The National

@@ -1,0 +1,5 @@
+# Apollo to Buy Minority Stake in Mubadala Investment Unit
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQVExXMVV3NUlHN1BtQkRCOUw1WVdMbVprYjBzVmhETVVNNTFseUhvMmZkQXNmZzYwdk1URUxOa0l5alpGbWVpNUtDUWtnM01KWHB5aUhvc0M0cENoTEsyYktOZUVOODNicXQwZmNxQVp6bERIRHhodHV3RV9vNFFZREthZ3hBSDRPY0ZmVG5WeExKSGRhQlBfOExPOFZzbGlBajdacktaYzdTR2xnRmc?oc=5
+
+Apollo to Buy Minority Stake in Mubadala Investment Unit    marketscreener.com

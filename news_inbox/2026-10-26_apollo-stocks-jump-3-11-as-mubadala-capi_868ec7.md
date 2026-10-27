@@ -1,0 +1,5 @@
+# Apollo Stocks Jump 3.11% as Mubadala Capital Opens Strategic Stake
+source: TradingView
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNM09MVTl4MG5Na1pZMWlSTHcyb2pUbjhzTDJ5djVhWFhBUkM1dEtOaU5RZjVJTDNUMVdaOXMtbFF3dDkxX0FVX04yd1lOSEJraDRicW9PSE5nSFRJWFNOdm1ZNEJPTnRkWkw3VVdnWXI2QXI0WHpPb0xLZXc0cE55MUJsS3YyTk1NSTFIR1RuX3BTaVNkLU5oczE4REQtWVBjTkR1NW43YzRJTWZwd2lvQUMyOXFwbm9YWkdZUDVYbTV5SWc?oc=5
+
+Apollo Stocks Jump 3.11% as Mubadala Capital Opens Strategic Stake    TradingView

@@ -1,0 +1,5 @@
+# Masdar backs Greece’s digital future with major solar acquisition, strengthening UAE–Greece strategic partnership
+source: energy-pedia
+url: https://news.google.com/rss/articles/CBMiiAJBVV95cUxORVhEckxmOGRubmxtQWtHRHBNTWQ2dS1mV1A3eVVod19PV1V6N28tNUNUc2hKc2EyOU1rZlJJYjRlRkNoUFE4WDRJcUg1elBvTGQ0akhTX2dzM1FUNmJSb3RzYlQ3WmtkbnBReVN2U3haUDl5SHFxVUR5WG5JakFBNFpCaHV2V19tZ3V1ZjhaN3dpUUx2dFFrZF9xU1B2eWlESzRaNzFlZ1E4dGx3dnZHaFNvZ3hyYi0tZ0hpM01LWENtTXYwdk1NbWJINW91MFFWdWhYM3NrRU1pMzJ4dGJhTnd6Zzl1bkJPSHpIZXltWW54RmRESk1YVjhIa2ZmTUZxNmN2NFJidGM?oc=5
+
+Masdar backs Greece’s digital future with major solar acquisition, strengthening UAE–Greece strategic partnership    energy-pedia

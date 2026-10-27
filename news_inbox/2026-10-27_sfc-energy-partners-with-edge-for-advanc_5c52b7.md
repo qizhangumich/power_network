@@ -1,0 +1,5 @@
+# SFC Energy partners with EDGE for advanced energy solutions
+source: TradingView
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxQVnlFSVV3aHJUYXd1TjF5RjdwVEpFVnRTaFBtOTZhQnNMUHdiUm8zWUMzQVZESXZNcHdLYVcwTVQ0TWx5NS1ib2FFcDNEQ2Vyb3Fnb0hIeTI4dnFtXzNqR1AtdFUzVVB6ZkJqby1qRm41bDZJTTVfY2V4Q0twYUhXdkFrLVFmUmtZbF9QaTZ6VFdSQkRWNW9NUHFSNng3YURGRzg0LUhxRTI5Qm9OenhfQlVWNA?oc=5
+
+SFC Energy partners with EDGE for advanced energy solutions    TradingView

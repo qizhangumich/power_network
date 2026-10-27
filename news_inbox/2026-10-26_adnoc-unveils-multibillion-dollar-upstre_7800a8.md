@@ -1,0 +1,5 @@
+# Adnoc unveils multibillion-dollar upstream project plans
+source: Upstream Online
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxOSE9YZVhkSEd3Y1ZiVzFpQ25JYnZiZTY1X0IzZ2M3MzFYcXhsZk5abkxvd3Rwb0dBM2FzMmh6anltZGtaRGpmM3RSWWpCYnRNRVJyV0p6VXNZenZXZC00S2RJaHY2aVlzaERCUk1haGZwOUZqdzFtdmtFRXFVSmJSVG9iLVlUcmZFaGFSTU5NWHBfRUxKSnhTMUdXbFNLZWtoNlNDTmJLUVViek54VkE?oc=5
+
+Adnoc unveils multibillion-dollar upstream project plans    Upstream Online

@@ -1,0 +1,5 @@
+# Sheikh Khaled arrives in Canada to bolster strategic trade and investment ties
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa2VJVmkxU1lYTkZQWUJyUzdPMmJtSUxxQ055MElzZl84TTJHVkpQbDdJbEl6QUZGRzFRSjA0Rng4QVh2UXVGWHZ3OW5LRzhFdENHdnRmZjRKcFNWNjhJNTlOUlJ6cUNBTkoyQ3pzMUoyWVc3U2JmcjNiRkRic2NzUU9lLWZzcHp5UGpWejNLdEltQkc1WlBRMDlPaFdFN3V0YzdqWTVEdTV1Uk9pTTJjS01VZC1Wenla?oc=5
+
+Sheikh Khaled arrives in Canada to bolster strategic trade and investment ties    Arabian Business

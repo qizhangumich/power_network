@@ -1,0 +1,5 @@
+# Watch Adnoc Drilling CFO: Deals Continue Despite Conflict
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQkJQQmdNdzJtNTQ5UUFWVlBVVG1GMnZjdE1pbERIZmVXQllvcmJPT0VTMDItVG0xTGJEU2VPRmlDczY3ME1JWGF4cGVfMlpwNXUxY2g2RkJ5TUZqUFZqSHhKYVNwOW5IYnFUOER0WDNZd1M0OE5QX2hEcTdtbmRFTDU5UHhpVEQ3Ti1CRERwWDJDR1RwX2RHcl93NGlncGpqNDBBbll0dU8?oc=5
+
+Watch Adnoc Drilling CFO: Deals Continue Despite Conflict    Bloomberg.com

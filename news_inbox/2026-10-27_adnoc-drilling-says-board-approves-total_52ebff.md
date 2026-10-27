@@ -1,0 +1,5 @@
+# ADNOC Drilling says board approves total Q3 dividend distribution of $350 million
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdVh2WkhNc19wdVNOMG5iTDFXNFVjWFlaaUNhM3NiZ0FzZ2xuclE4MktCZGplcXVGV0F0aDAtYU50bkxETUd0WUVoNE90OEQwRXJrVkRua1hNVGhuZUhKeEZoa2ZqM1FNc3Blb2RTdkRUWFpWVll1cTc0a0E5Z09Uc2VvUHIzWXR3OTdNNGI5UTZBOUlWaGM1aEgwXzZsSUV4ZTBIRUZWOE5sMzVYbURCd3RqZjV0UXFBQ2ZrVlNNbk43LW90b0xDbVR0VGg5Q1h1VW44VHE1Sk5sUDY1b1dwNUxOOEc?oc=5
+
+ADNOC Drilling says board approves total Q3 dividend distribution of $350 million    TradingView

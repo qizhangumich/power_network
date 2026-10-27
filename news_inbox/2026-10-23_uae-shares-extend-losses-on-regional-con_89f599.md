@@ -1,0 +1,5 @@
+# UAE shares extend losses on regional conflict fears
+source: Reuters
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPbXByTDNnZEN0blpBZmdCQjBiWG15LXlpU0E2cXFMdDhXM3ZkS1BrVXduZWlBbS1TV09TUkNpajRrMENIV1d2OU11T1JBQlNsV1R1aWtHSjgwT0JsWWVaYzYxZy0tbHNETkJkMmtpVnZGNFp2aU1VaEpQb3FNaklhWnpBVng5dXE0alBlZGJXMVdxSDIwdms3N0ZNTzRiQndxdHBOQw?oc=5
+
+UAE shares extend losses on regional conflict fears    Reuters

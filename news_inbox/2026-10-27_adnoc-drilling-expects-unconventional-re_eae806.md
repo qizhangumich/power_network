@@ -1,0 +1,5 @@
+# Adnoc Drilling expects unconventional rebound in 2027 after third-quarter lull
+source: The National
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ0xhSnZyYnV5aDdiUlgxZlYxUDg4QnNWN0tVMUdHZEdCLW1uZHFBaUFLdm9Oei1PQlFBQVRNN0FHMHcyZHh1ZU5hem9KaHRDSklfR2U3VEtDQURjR3RlaG9ZTjZQMXB3amY4ckVmcUpJbjRQdG1xZzBvXy1vU0paRU14Qk5NRFNMZ2FpMTVFWUVacGZNTTVCQ3NlbkwxVVl0amRhTEF1bEdzN0JZVUpTN3ZNOXI1UFQxRUhDemJxOE8zLUh0bnZqQlJHOA?oc=5
+
+Adnoc Drilling expects unconventional rebound in 2027 after third-quarter lull    The National
