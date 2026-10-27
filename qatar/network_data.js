@@ -2179,6 +2179,8 @@ const PEOPLE = [
     ["al_koot_insurance","Chief Officer Medical & Life","executive","v"]]},
   {id:"kumar_natarajan", n:"Kumar Natarajan", t:2, p:58, s:"finance", roles:[
     ["al_koot_insurance","Chief Officer General Insurance","executive","v"]]},
+  {id:"abdullah_bin_hamad", n:"Abdullah bin Hamad Al Misnad", t:2, p:62, s:"tech", roles:[
+    ["qai","Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [

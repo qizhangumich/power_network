@@ -233,6 +233,13 @@ const INSTITUTIONS = [
   {id:"pam_oman", n:"Public Authority for Mining", s:"materials", t:2, p:60, short:"PAM Oman"},
   {id:"future_fund_oman", n:"Future Fund Oman", s:"finance", t:2, p:66, short:"Future Fund Oman"},
   {id:"oman_jordan_inv", n:"Omani-Jordanian Investment Company", s:"finance", t:3, p:54, short:"Oman-Jordan Inv Co"},
+  {id:"mohup_oman", n:"Ministry of Housing and Urban Planning", s:"gov", t:1, p:68, short:"MoHUP Oman"},
+  {id:"moafwr", n:"Ministry of Agriculture, Fisheries and Water Resources", s:"gov", t:1, p:68, short:"MOAFWR"},
+  {id:"rop", n:"Royal Oman Police", s:"gov", t:1, p:74, short:"ROP"},
+  {id:"moinfo_oman", n:"Ministry of Information", s:"comm", t:1, p:62, short:"MoInfo Oman"},
+  {id:"mjla", n:"Ministry of Justice and Legal Affairs", s:"gov", t:1, p:66, short:"MJLA"},
+  {id:"mara_oman", n:"Ministry of Endowments and Religious Affairs", s:"gov", t:1, p:60, short:"MARA Oman"},
+  {id:"riyada", n:"Small and Medium Enterprises Development Authority (Riyada)", s:"finance", t:2, p:58, short:"Riyada"},
 ];
 
 const PEOPLE = [
@@ -264,6 +271,7 @@ const PEOPLE = [
     ["opaz","Chairman","board","v"]],
     note:"Lost the Trade/Industry ministry portfolio in the January 2026 reshuffle but retained the OPAZ board chairmanship."},
   {id:"murshidi", n:"Abdulsalam Al Murshidi", t:1, p:82, s:"sovereign", roles:[
+    ["future_fund_oman","President, Oman Investment Authority","executive","v"],
     ["oia","President","executive","v"]],
     note:"Controls the consolidated sovereign portfolio — OQ, Asyad, Omantel and most state companies sit under OIA."},
   {id:"mamari_oq", n:"Ashraf Hamed Al Mamari", t:2, p:66, s:"energy", roles:[
@@ -428,6 +436,7 @@ const PEOPLE = [
   {id:"srinivasaraghava_giridhar", n:"Srinivasaraghava Giridhar", t:2, p:58, s:"finance", roles:[
     ["lst_nbob","Chief Financial Officer","executive","v"]]},
   {id:"mulham_basheer_al", n:"Mulham Basheer Al Jarf", t:2, p:62, s:"energy", roles:[
+    ["future_fund_oman","Deputy President for Investment, Oman Investment Authority","executive","v"],
     ["edo","Non-Executive Director","board","v"],
     ["oq","Chairman","board","v"],
     ["oia","Deputy President for Investments","executive","v"]]},
@@ -454,6 +463,7 @@ const PEOPLE = [
   {id:"azzan_al_abdullatif", n:"Azzan Al Abdullatif", t:2, p:58, s:"energy", roles:[
     ["oq","Chief Growth Officer","executive","v"]]},
   {id:"muneer_bin_ali", n:"Muneer bin Ali Al Muneeri", t:2, p:58, s:"sovereign", roles:[
+    ["future_fund_oman","Deputy President for Operations, Oman Investment Authority","executive","v"],
     ["nitaj","Chairman","board","v"],
     ["oia","Deputy President for Operations","executive","v"]]},
   {id:"dr_saud_al", n:"Dr. Saud Al Habsi", t:2, p:52, s:"sovereign", roles:[
@@ -624,6 +634,7 @@ const PEOPLE = [
   {id:"ahmed_al_abdali", n:"Ahmed Al Abdali", t:2, p:46, s:"utilities", roles:[
     ["lst_oqgn","Head of Internal Audit","executive","v"]]},
   {id:"sultan_al_habsi", n:"Sultan Al Habsi", t:2, p:62, s:"sovereign", roles:[
+    ["future_fund_oman","Chairman, Oman Investment Authority Board of Directors","board","v"],
     ["oia","Chairman of the Board","board","v"]]},
   {id:"salim_al_aufi", n:"Salim Al Aufi", t:2, p:62, s:"sovereign", roles:[
     ["oia","Vice Chairman of the Board","board","v"]]},
@@ -1788,6 +1799,13 @@ const OWNERSHIP = [
   ["raysut_ind_city","madayn","industrial zone operated by","ns"],
   ["future_fund_oman","oia","dedicated OMR 2bn (~$5.2bn) investment portfolio of OIA launched Jan 2024 to co-fund strategic projects; unveiled a new package of 105 projects worth $1.74bn in July 2026 (incl. flagship Orion Solar in Sohar Freezone)","v"],
   ["oman_jordan_inv","oia","50/50 joint venture with Jordan's Social Security Investment Fund, est. July 2026 with RO 38.5m (~$100m) capital, targeting telecom/IT, agri-food, energy, mining, tourism and logistics","v"],
+  ["mohup_oman","com_om","ministry of","v"],
+  ["moafwr","com_om","ministry of","v"],
+  ["rop","omgov","security body reporting directly to the Sultan","v"],
+  ["moinfo_oman","com_om","ministry of","v"],
+  ["mjla","com_om","ministry of","v"],
+  ["mara_oman","com_om","ministry of","v"],
+  ["riyada","com_om","public authority","v"],
 ];
 
 const FAMILY = [
@@ -1855,4 +1873,11 @@ const AKA = {
   pam_oman:["PAM"],
   future_fund_oman:["FFO"],
   oman_jordan_inv:["Jordanian-Omani Investment Company","Jordan Oman Investment Company"],
+  mohup_oman:["MoHUP"],
+  moafwr:["Ministry of Agriculture and Fisheries Wealth","MAFWR"],
+  rop:["Inspector General of Police and Customs"],
+  moinfo_oman:["MoInfo"],
+  mjla:["Ministry of Justice","Ministry of Legal Affairs"],
+  mara_oman:["MARA","Ministry of Awqaf and Religious Affairs","Ministry of Awqaf and Islamic Affairs"],
+  riyada:["SME Development Authority"],
 };

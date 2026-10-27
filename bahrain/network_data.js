@@ -177,6 +177,14 @@ const INSTITUTIONS = [
   {id:"jalal_sons", n:"Mohammed Jalal & Sons Company W.L.L.", s:"conglomerate", t:3, p:56, short:"Jalal & Sons"},
   {id:"mclaren_racing", n:"McLaren Racing", s:"consumer_disc", t:1, p:68, short:"McLaren Racing"},
   {id:"bluefive_capital", n:"BlueFive Capital", s:"finance", t:2, p:58, short:"BlueFive Capital"},
+  {id:"moj", n:"Ministry of Justice, Islamic Affairs and Endowments", s:"gov", t:1, p:68, short:"MoJ"},
+  {id:"mol_bahrain", n:"Ministry of Labour", s:"gov", t:1, p:66, short:"MoL Bahrain"},
+  {id:"mmaa", n:"Ministry of Municipalities Affairs and Agriculture", s:"gov", t:1, p:66, short:"MMAA"},
+  {id:"moya_bahrain", n:"Ministry of Youth Affairs", s:"gov", t:2, p:58, short:"MoYA Bahrain"},
+  {id:"iaa", n:"Information Affairs Authority", s:"gov", t:1, p:64, short:"IAA"},
+  {id:"baca", n:"Bahrain Authority for Culture and Antiquities", s:"gov", t:2, p:58, short:"BACA"},
+  {id:"nao_bahrain", n:"National Audit Office", s:"gov", t:1, p:64, short:"NAO Bahrain"},
+  {id:"moca_bahrain", n:"Ministry of Cabinet Affairs", s:"gov", t:1, p:64, short:"MoCA Bahrain"},
 ];
 
 const PEOPLE = [
@@ -3536,6 +3544,20 @@ const PEOPLE = [
     ["jalal_sons","Managing Director","executive","v"]]},
   {id:"fuad_m_jalal", n:"Fuad M. Jalal", t:2, p:52, s:"conglomerate", roles:[
     ["jalal_sons","Director","board","v"]]},
+  {id:"zak_brown", n:"Zak Brown", t:2, p:60, s:"consumer_disc", roles:[
+    ["mclaren_racing","Chief Executive Officer","executive","v"]]},
+  {id:"andrea_stella", n:"Andrea Stella", t:2, p:58, s:"consumer_disc", roles:[
+    ["mclaren_racing","Team Principal","executive","v"]]},
+  {id:"paul_walsh", n:"Paul Walsh", t:2, p:62, s:"consumer_disc", roles:[
+    ["mclaren_racing","Executive Chairman","board","v"]]},
+  {id:"laura_bowden", n:"Laura Bowden", t:2, p:58, s:"consumer_disc", roles:[
+    ["mclaren_racing","Chief Financial Officer","executive","v"]]},
+  {id:"louise_mcewen", n:"Louise McEwen", t:2, p:58, s:"consumer_disc", roles:[
+    ["mclaren_racing","Chief Marketing Officer","executive","v"]]},
+  {id:"gianpiero_lambiase", n:"GianPiero Lambiase", t:2, p:58, s:"consumer_disc", roles:[
+    ["mclaren_racing","Chief Racing Officer","executive","v"]]},
+  {id:"james_barclay", n:"James Barclay", t:2, p:58, s:"consumer_disc", roles:[
+    ["mclaren_racing","Executive Director, McLaren Endurance Racing / Team Principal, McLaren Hypercar Team","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -3634,6 +3656,13 @@ const OWNERSHIP = [
   ["rera_bahrain","slrb","board chaired by head of","v"],
   ["mclaren_racing","mumtalakat","majority/controlling shareholder alongside CYVN Holdings (Abu Dhabi); took full ownership of remaining minority stakes Sep 2025, valuing the team at $4.1bn","ns"],
   ["bluefive_capital","mumtalakat","strategic minority stake investor (Aug 2025) in this $2.6bn-AUM GCC private markets platform, chaired by Sheikh Mohamed Isa Al Khalifa","v"],
+  ["moj","cabinet_bh","ministry of","v"],
+  ["mol_bahrain","cabinet_bh","ministry of","v"],
+  ["mmaa","cabinet_bh","ministry of","v"],
+  ["moya_bahrain","cabinet_bh","ministry of","v"],
+  ["iaa","cabinet_bh","ministerial-rank authority","v"],
+  ["baca","cabinet_bh","affiliate authority","v"],
+  ["moca_bahrain","cabinet_bh","ministry of","v"],
 ];
 
 const FAMILY = [
@@ -3699,4 +3728,11 @@ const AKA = {
   csb_bahrain:["CSB"],
   tarabut_gateway:["Tarabut"],
   jalal_sons:["MJS","Mohammed Jalal and Sons"],
+  moj:["Ministry of Justice and Islamic Affairs","Ministry of Justice Islamic Affairs and Waqf"],
+  mol_bahrain:["MoL"],
+  mmaa:["Ministry of Works Municipalities Affairs and Urban Planning","Ministry of Municipalities Affairs and Urban Planning"],
+  moya_bahrain:["MYA","Ministry of Youth and Sports Affairs"],
+  iaa:["Ministry of Information Affairs"],
+  nao_bahrain:["NAO","National Audit Court"],
+  moca_bahrain:["MoCA","Minister of State for Cabinet Affairs"],
 };
