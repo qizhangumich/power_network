@@ -1,0 +1,5 @@
+# Earnings call transcript: Aldar beats Q3 2026 estimates but shares slip
+source: Investing.com
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxQYzhXRDRWeER1T2YxS3IyY09IX2JMWVZYMi1NQ0pOU2xhVzhaYVFqRHpHQUNjYUt4VTZyVGw4MkRLWlNwSTAwb2VCLUNuT19McHNaZFN1ZlVTY0JTZVlVYnYwRGp1V2REZVFoRWlQTHVEVll3TURYbndOUjQzRE9PMjFtVmRFOFZEZmZ6Y21SNVNUX3EyRDZfR2dabHNHVUVWNVFMalVPeEpZRnZuRVA4U3dIRjRvQzBJTDZUMU5TOU1sR3Rj?oc=5
+
+Earnings call transcript: Aldar beats Q3 2026 estimates but shares slip    Investing.com

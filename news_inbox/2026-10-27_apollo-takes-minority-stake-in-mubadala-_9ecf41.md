@@ -1,0 +1,5 @@
+# Apollo takes minority stake in Mubadala Capital to support growth
+source: Citywire
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPSmk1UEdFdVl5dEpIM2ptVHZLLTljcFBqR195NlVlQ2hmZ1g2cXd6VkltN0IxUmVKcGgwY0c5YWhFV0MwR0piZEptcFBGSTRadml0blZnWXhUSm00RWxoai1XRFBaemJwNGZza29DcEJKUWw4Tm9CUDhvRWNwbTFCdFpNeGtDdThreV9faVY1RnNBd2YyZGdlWDIzUm5jX2xteW5uQ29laHh0TjNFblV0SVRn?oc=5
+
+Apollo takes minority stake in Mubadala Capital to support growth    Citywire

@@ -1,0 +1,5 @@
+# Crown Prince of Abu Dhabi attends dinner banquet hosted by Prime Minister of Canada
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcDNLWGx6WHlES2E0RndpM2hPUjJwQktWTWgzNU9lT1hUWmNBWHlfQ29xYUllNm01aDVCSjRNUzZnbzlSeVpPcl96Y0xFOEEtWF9BcW9hZGlqcVNSeHMwcEFnTC1UaWNDalYzbE90SFBDdHlwOGdBYkVsMVpDa1pXU0lQU1JlejFMZl9BeDlRUElSdGRNalY2OHNDb09meUZ6NzBqWGE4RlRtT2REaU84TkNOYXVYWVZaNDNzX0Z6c3Y5aTdHcl9mTk1hVkYwMS1OTFdsbw?oc=5
+
+Crown Prince of Abu Dhabi attends dinner banquet hosted by Prime Minister of Canada    مكتب أبوظبي الإعلامي

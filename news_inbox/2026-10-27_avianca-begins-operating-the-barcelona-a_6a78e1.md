@@ -1,0 +1,5 @@
+# Avianca begins operating the Barcelona–Abu Dhabi route with Boeing 787 Dreamliner aircraft
+source: Breaking Travel News
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQc25qa0lCT2VZVHIwZnRmcl9ST2hOa1FQd2pvRllGQXV5OHA5cXhtNk9WeHA4NVZEMHJvYS1Zc1hHYi14ODJrSW5FcUg0MnJDUl9IUm5YUURMbDl1LUlXalkwVGR3V2Qxc0RTb2dwOEdXZld6S3BGbG1wVUFsN3Vsd0czM0g3QlFpekowU2FQbl91WmdKMmpxV3JLc1IxbzZ1MzYxcXZ1WkxyZDIwZzVrZC11SWYwQjlKUUlGSnR1dUFjdw?oc=5
+
+Avianca begins operating the Barcelona–Abu Dhabi route with Boeing 787 Dreamliner aircraft    Breaking Travel News

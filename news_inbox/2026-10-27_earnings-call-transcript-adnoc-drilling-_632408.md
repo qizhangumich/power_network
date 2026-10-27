@@ -1,0 +1,5 @@
+# Earnings call transcript: ADNOC Drilling posts record Q3 2026 results
+source: Investing.com
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNkhYNzV0S0puY1BUQWdsVU5ZX0lzMXpwVUllQXpINTdZZlhPWWpQZFFCU0RuOWF2M0s4WUtKa1hwLW5WTXNRbV9TdzRYRTBYQ0UtSmpXaEZqR2VDN3djSS1ZTWlmZ3FucGxyMVEtWWI1blhfX3RLeG9ONGZmRGxadFZFQkd4cDJRYUdTOGVBQjY2UW11Uk03Mm1NTzQ1ZWVYaFZobEhNbThKT1dpeGh5RmZBeW01OEdtM3JZUEtDSUNSZw?oc=5
+
+Earnings call transcript: ADNOC Drilling posts record Q3 2026 results    Investing.com

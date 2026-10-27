@@ -1,0 +1,5 @@
+# Healthcare sector.. Schneider Electric and PureHealth collaborate to promote sustainability and reduce emissions
+source: صوت الإمارات
+url: https://news.google.com/rss/articles/CBMi-gFBVV95cUxQcXJ1NGdWQVN1N3RWNGo4SVc0ZG1wTzBGakVLY3FDakVpWk1pY0c0VEZNa25qMGhDRkYtcm1PMlV3NEhMOEtVRTA3ZkNrTjlEb3V5Z3haZlRIUDVCTTNzX0ZkNGwyRmtmWExUcVpPT2tHOENjSzFnOVJtSlhOcWk4Zm14MUxRV3FSR2swbWlpbmRhN1RLNHhHMGdsaWRUVjRoTjdSV1A1Y05SOTlfaWtWYnM5aU9uMll6ejZ2T1hUM1pnQVdIaTVlU09Jdlk4S1BCS2hpc2hXUEQ5NkhLTUh3bDZmeTRnQjhJVjI0UEdwM3BraFprd2VOVmln?oc=5
+
+Healthcare sector.. Schneider Electric and PureHealth collaborate to promote sustainability and reduce emissions    صوت الإمارات

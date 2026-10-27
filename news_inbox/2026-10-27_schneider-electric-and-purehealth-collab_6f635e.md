@@ -1,0 +1,5 @@
+# Schneider Electric and PureHealth Collaborate to Enhance Sustainable Healthcare Transformation
+source: intlbm
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX2lWRFc2R1RKSlVNclB4cVpIbzQ2R3hJYTlLMWlpTlVXOU9UVWtkRmNiTkYycEJ0UzM1M3lubTFMVUdYbVM5MmszYTc3NGlrNXA0aEoxTVFreVRIbWFLN3FweEtIMTh2MFFKMTN6ZUhxRWh4V1RERVFkbjd5dTd6bnVZMlFNV0hjVkZmd3ZlaUZaWURkYjhJZmxyNGlHRmtPYjg3QzY0Ym5OVm1wbS1XSy10ZERtNTd1OV9md0VCRG5xUEk?oc=5
+
+Schneider Electric and PureHealth Collaborate to Enhance Sustainable Healthcare Transformation    intlbm

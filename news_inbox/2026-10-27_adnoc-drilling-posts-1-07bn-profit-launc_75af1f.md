@@ -1,0 +1,5 @@
+# ADNOC Drilling posts $1.07bn profit, launches new growth strategy
+source: Zawya
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOS3M4WGE1TGJKSVpfOW04cnFLSWVsQnJ1Ujl4TWYyYnNqSUUwMFI3Z1A3WG8zWWhJZzdUTmZNOEM0TEl3d0FwRnZ3RkpRNGZLZDhvSmJDMlJhT21vU1R2ZEQzTW8xb3JibjFhMExWOWZYS0d3MWcyLVdMYUpXcGZJdmo5VVFBOXN1UFRwQ2doU1NZT3o2Q3N1RlhaNVpEc1h4Ql9JbW9FUmxDeFg3cU84dlNyb1ZTY0VLbVJhUTY5RTRYTG9oRmZpTnpnUQ?oc=5
+
+ADNOC Drilling posts $1.07bn profit, launches new growth strategy    Zawya

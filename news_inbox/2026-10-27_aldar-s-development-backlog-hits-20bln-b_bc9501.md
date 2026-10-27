@@ -1,0 +1,5 @@
+# Aldar’s development backlog hits $20bln by end of 9M 2026
+source: TradingView
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOUHA2ZFdIUUpmWG1KRGFMYWRGR1JMNF82dlVCY2d2VjVkaEFRT0dRN2VKXzBYdXozcm1RcjhhV25RcUJMdDBFX0tHbC1aX0xZYWMyWUM2NUhodzlWd1hYNDN3dkFTYTZ1NU1Rb0FBZ3VYOFRLS25hMUtqYTFzcTNPYmNsUWVTb0pwR0MzYWJlVngxTWFwR1FiX0NiR0tuMUZfU2lLOThFZ203ZkUxRkViejRXTk5HVk85UkFWRTV4ZVFqTE9uTDZ4OFQybXA?oc=5
+
+Aldar’s development backlog hits $20bln by end of 9M 2026    TradingView

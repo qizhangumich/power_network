@@ -1,0 +1,5 @@
+# PM Carney and Crown Prince of Abu Dhabi Attend Signing Ceremony
+source: CPAC
+url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdUZGak04SXROVWpPNzdxNllabWdqdE9sUnMwTTd0dmdSZENKalJ2TUhUcjgwZ1JaaDhLWFo4S1J0cW9BNTdyUkhkVkVtSC1RMjZxUU9Oc2JaRVNfOWNlVlRPVG5HZ2JSU3RrenY1eXV0U0M2TzlnVWlRT3hpLUZfZ2VDX0hsM3lrb0hBVTFNbzlaVkpCeHd2Unl6Z0FHaG5LYjZjNmdfTzFZN2t1dkdSc0VBbGpPdDBPbVZiNUJoQUdITk1lZ3dxUkhmTWg4VVNHTVp6M0RJLUQ3SHNCaDlLaU55bw?oc=5
+
+PM Carney and Crown Prince of Abu Dhabi Attend Signing Ceremony    CPAC

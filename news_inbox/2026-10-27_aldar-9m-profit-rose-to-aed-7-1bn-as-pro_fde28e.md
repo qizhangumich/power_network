@@ -1,0 +1,5 @@
+# ALDAR: 9M profit rose to AED 7.1bn as property development and investment-property gross profit grew
+source: TradingView
+url: https://news.google.com/rss/articles/CBMijwJBVV95cUxOS2U5RW1hTk1JYXFqVmF0N0JJazF2cC1KaWRMY241Y2QyVjRGTDRjRkU4U25EXy14bGR6R2FsenVjYWFZeU94UVZGa3pnLTU5T2ZNLWRGbFRtNHRZUmViS3lnd3ZHSjlySzY5QjgxQWM1X3hsOW1FVmZubl95d3I2RkFTUVJzVi1yb25xa01XMVNoS2RhVHJrYi1DMC01ZDNKS3Jxb2Z4MUZvQWRpbjZKcS13MmE5OEp2a3lSV1VScXdMTXNkX2pWbnRIaXdqWVJEN004bmRKX1JWcjZuRklQRHlVeUphQnoxOE11am5xQkRBemo2V1BoNkVUZkpwQ0Nnb2tnRmhaRzZKS3RNMzFF?oc=5
+
+ALDAR: 9M profit rose to AED 7.1bn as property development and investment-property gross profit grew    TradingView

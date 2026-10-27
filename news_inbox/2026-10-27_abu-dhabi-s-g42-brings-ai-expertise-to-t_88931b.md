@@ -1,0 +1,5 @@
+# Abu Dhabi’s G42 brings AI expertise to the UAE and Greece
+source: Developing Telecoms
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxNb1VZcURkc0tLR1BUdm5WOE5wVmVEXzlEQUtUS0lnSmNtdnRlTWhfa2JNV2lyUlZtTl9mcHVDZWtSTTNjREhjNGFCZEtMUS1XNXdzSU5oY0dqbnFub2pZSEZMNU94aF9mX3NrRG1kUkZtOThvdF83MlhFVm9fQmwyQm04R01IVnZVRTA3R3VYZk1HNXNhbHlOSzBNdlVhRFV3ajJaRFpPeEU2Sjl6UEtLSHhxSERKaVRMRW1WekluLTcwWVdndm01OFhOMW5TUFV0YUpoZmJB?oc=5
+
+Abu Dhabi’s G42 brings AI expertise to the UAE and Greece    Developing Telecoms

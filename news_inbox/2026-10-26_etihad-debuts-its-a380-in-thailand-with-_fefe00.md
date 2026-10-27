@@ -1,0 +1,5 @@
+# Etihad debuts its A380 in Thailand with daily flights to Bangkok
+source: Aviacionline
+url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZF9YSk1XcUNTMnpkY2FhVW44d1ZaQ29HOC1SQW1rZThLT2hUT2RHSGxZS3NZUjgwVW5ZcDhKSmRIa1ROem8yTlBqNXFnLUxOYUcyMDFLTUlnb0lDOVJUbVduamVWYi1WQ2xQT2VMeE92Yll5cWNpNzNZMGtqd0FZSldXLTdSNzNIdlBYa2JQSk16SG9ESDRkT1VsbVpyS0VrTVZUNGhlZjdVOGt0Z2lOczJKVkRhQ084VTNCRGpJM0g4QU12ZnBPV2tHOXhUaEh6NDhObGtLdWpvNlA3SDEweHZnbzJNRkdiVTNSZXd2ODc4QQ?oc=5
+
+Etihad debuts its A380 in Thailand with daily flights to Bangkok    Aviacionline

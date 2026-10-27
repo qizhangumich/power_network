@@ -1,0 +1,5 @@
+# Mubadala-Backed Dental Aligner Start-Up Impress Gets EIB Funding
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxNWnBlZUhhT0hvRDk1a0FMdWZVVjYyZ2d4ZlRzOXZfYVpFcy1oNW9VMTVQRmxQN1RoaVF4MFpobTJ2VjJRbTJRRHpjNVljdWRta0JRbU02ZExDT2lhN2NGVkFNbDcwdVhodXNpeE1KOGM0NFY0Y2g0bldPLXJVQ1g5Q3RpTWVjX0lvZU9wTVlBNnV0NkkzY3ptUGFPLU9wNXM5VXVqX2h2cXRmSXhlRE1aSVBOSFBVQQ?oc=5
+
+Mubadala-Backed Dental Aligner Start-Up Impress Gets EIB Funding    Bloomberg.com

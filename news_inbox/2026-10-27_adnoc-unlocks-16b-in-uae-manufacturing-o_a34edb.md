@@ -1,0 +1,5 @@
+# ADNOC 'Unlocks' $16B in UAE Manufacturing Opportunities
+source: Rigzone
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxOdFptSjM5Um92VktNQXA2VkdHRlphVWpuYWpXTGwtM3hLbGNrODVqdGJGVk82ak9rY3JYR3huaFQ3T0YwSU5EbldzREJKdEJ2SkpPQUhKWFpBWVdiZTJqUmdLVDV4c3g4MXR1RGJGYU5VVkJySWl4bDhzcS15eUlPN1RWUlhPRno4eUlxOTRZWGs4WU53dGk2aUlQRjkweWpPWS1ubTFIWEJRekFWV2c?oc=5
+
+ADNOC 'Unlocks' $16B in UAE Manufacturing Opportunities    Rigzone
