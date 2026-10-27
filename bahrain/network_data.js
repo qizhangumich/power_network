@@ -3558,6 +3558,8 @@ const PEOPLE = [
     ["mclaren_racing","Chief Racing Officer","executive","v"]]},
   {id:"james_barclay", n:"James Barclay", t:2, p:58, s:"consumer_disc", roles:[
     ["mclaren_racing","Executive Director, McLaren Endurance Racing / Team Principal, McLaren Hypercar Team","executive","v"]]},
+  {id:"nada_kazerooni", n:"Nada Kazerooni", t:2, p:46, s:"finance", roles:[
+    ["lst_ithmr","Head of Financial Institutions & Treasury (Ithmaar Bank)","executive","v"]]},
 ];
 
 const OWNERSHIP = [

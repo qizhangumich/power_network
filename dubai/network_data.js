@@ -1768,6 +1768,7 @@ const PEOPLE = [
   {id:"hana_almulla", n:"Hana AlMulla", t:2, p:52, s:"conglomerate", roles:[
     ["almulla","Board Member","board","v"]]},
   {id:"mana_almulla", n:"Mana AlMulla", t:2, p:52, s:"conglomerate", roles:[
+    ["lst_unikai","Chairman (until Oct 2026)","board","v","former:until Oct 2026"],
     ["almulla","Board Member","board","v"]]},
   {id:"tarek_al_mahjoub", n:"Tarek Al Mahjoub", t:2, p:52, s:"conglomerate", roles:[
     ["almulla","Board Member","board","v"]]},
@@ -2515,6 +2516,12 @@ const PEOPLE = [
     ["khansaheb","Group Support Services Manager - Khansaheb Civil Engineering","executive","v"]]},
   {id:"josegh_jason_anthony", n:"Josegh Jason Anthony", t:2, p:46, s:"industry", roles:[
     ["khansaheb","General Manager - Khansaheb Facilities Management","executive","v"]]},
+  {id:"mish_al_mohamed", n:"Mish'al Mohamed Abdullah Moosa AlRaisi", t:2, p:62, s:"consumer_stap", roles:[
+    ["lst_unikai","Vice-Chairman (until Oct 2026)","board","v","former:until Oct 2026"]]},
+  {id:"ahmed_saif_abdulrahman", n:"Ahmed Saif Abdulrahman AlAshram", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_unikai","Board Member (until Oct 2026)","board","v","former:until Oct 2026"]]},
+  {id:"adil_saleh_mohamed", n:"Adil Saleh Mohamed Abdulla Al Ali", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_unikai","Board Member (until Oct 2026)","board","v","former:until Oct 2026"]]},
 ];
 
 const OWNERSHIP = [
