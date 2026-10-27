@@ -1,0 +1,5 @@
+# Etihad Airways launches first direct Abu Dhabi-Calgary flights
+source: Gulf Business
+url: https://news.google.com/rss/articles/CBMipwFBVV95cUxPMHhwQ01CM0tUVklPeVR0cFlZdG5MdExwaEZvaGFYcFpzaFF5NTRSRXVDWlNhSmtsUlJXMVhkNkF3alJ1XzNfZjQtRG10T3VQUnNsM1dQZ0lHM3pyb0ZacC1PM184b3p5X0ZnNUk2Uk1MSG1SRDhiRkZkbHplV20tYzB3U3c1U3N3UmlLS3VwdTgyeUhNemtiZWgxdWY4Unp2NGY3b2plYw?oc=5
+
+Etihad Airways launches first direct Abu Dhabi-Calgary flights    Gulf Business

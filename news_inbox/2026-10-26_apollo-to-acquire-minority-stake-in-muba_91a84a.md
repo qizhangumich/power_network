@@ -1,0 +1,5 @@
+# Apollo to Acquire Minority Stake in Mubadala Capital, Backing $5 Billion in Investment Commitments
+source: citybiz
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQeUYtZTJEMU5NVDREMENGZXkxanppUUIyXzZfdGRVSF9XdG9peDJVMFB4bFo2dWp5QU04S1ByWVA5bUFtS1lsR2gzVEYxYndwTnJ2M3c3WlN3V0lnZGhhMW11SDZaeUtUTnFRVEpYTlBaUzlnUzN4N2dWcEJCRlBEd2VYYkcwbW9KTDNsbFVUenZNZDZXWHJRRG93TzJXb3RSdWVUUWoxbmNBOElTRnNJV0czdkpYR2dPUHRPLVhOOXZ6NW9mZmlEMTV4SUlwbjBa?oc=5
+
+Apollo to Acquire Minority Stake in Mubadala Capital, Backing $5 Billion in Investment Commitments    citybiz

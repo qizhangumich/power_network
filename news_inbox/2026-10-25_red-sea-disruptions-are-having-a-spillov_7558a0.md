@@ -1,0 +1,5 @@
+# Red Sea disruptions are having a spillover effect on Asian fuel markets
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxONDNOOG4zRVoxVEdnVG1OSDZtbDRjX0h3eld6SVJIUzkwZXlMRG8weXlZb0hDOGI5bjNvN1h4TzhlaEhSOUhfVnRnNHFabkQzU014anFaaEpBa2h0clh1Y09LVUE5Ry11T1l4alpjOUhlQ0U3TXFhSmEycFpJUzNYbExCVU9FLUdCX2t0bGdWYnRIZXRwUVdfQ04tY0dPazdWMWxKaUxTbFFjbWlfSERVSHRFNDRtTm11Y1NR?oc=5
+
+Red Sea disruptions are having a spillover effect on Asian fuel markets    EnterpriseAM

@@ -1,0 +1,5 @@
+# AD Ports’ Noatum acquires Spanish logistics firm Sesé’ Auto Logistics
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxQN09obDc1dVZLVnRwNnVvWWtabFFsU1dPeGZIMVRwS0ZZZ1NySWxSVVNseGYxaVpodUt0emRURmp1UTFrbTJoZVhFNEV2dGdkeTg3Z3RFS2phOUJoQXkxMFBYOWx5T3hzcXBoVmJNRE9lOVhLZzNSemlpZHFrbUpQekJnRTlkNmt2enQ0T24wRXd4aDdPa2YwRmxCMUlTZ2JzNGpSUEl0NXhDOFpXWFFwNzN2VG5TUQ?oc=5
+
+AD Ports’ Noatum acquires Spanish logistics firm Sesé’ Auto Logistics    EnterpriseAM

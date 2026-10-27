@@ -1,0 +1,5 @@
+# EDGE completes acquisition of CMD to build a European propulsion hub in Italy
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYVc3OXR0MXo3R3JpUkI2SkQ1blllU3RBcVZjdlpxQm9rRE9BRkZ1ZlN4STVKZnl6bWxxMWppZzhzWnRQWURGLURraHItVVZRb3Q3VGJJWEl1bWE0aHFFMzBURTE3Szh4QUFyTTV6TGwwd245WG4zM1l5cHFaVTZtS3BZUnJZaE5lUEdaaTZnMmZDV0pkbTZTSkIxd1ZEbWxyUkRyZUdMOUNISEpyM1hhTDg0bUF6VnYzZ0tQcFd3QTlfQ0MzeWQ2bG5YckFtN0dPUnNSeV9R?oc=5
+
+EDGE completes acquisition of CMD to build a European propulsion hub in Italy    Zawya

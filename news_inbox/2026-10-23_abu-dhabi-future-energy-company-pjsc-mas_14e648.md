@@ -1,0 +1,5 @@
+# ABU DHABI FUTURE ENERGY COMPANY PJSC MASDAR (FR49) Bond Price and Quote
+source: London Stock Exchange
+url: https://news.google.com/rss/articles/CBMioAFBVV95cUxOSlFKbHFIWnZVRmxucHdNdmk3NHUxQ1Q0clNsM0szQVFib3VCX3pNdHFKc29rWUFCR2RpNlZYTUlKckxrUHdFQTZFMEx2Qk9qdzdfWWNuUU1uS0p0c0NBMkRTd1gwYS1XdW1aOGxhaThFallFeW52WXg5eUdKV25qTnR4MmRPREVzMi11V0w4U2xGSEczQ3NWOEE2SXlfdUlR?oc=5
+
+ABU DHABI FUTURE ENERGY COMPANY PJSC MASDAR (FR49) Bond Price and Quote    London Stock Exchange
