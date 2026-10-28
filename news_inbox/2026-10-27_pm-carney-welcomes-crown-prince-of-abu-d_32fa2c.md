@@ -1,0 +1,5 @@
+# PM Carney Welcomes Crown Prince of Abu Dhabi in Ottawa
+source: CPAC
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWGZ5RHdScURnOEl3V0xXek02Rl9uYUtQT2ZWeXI1YzViUEZucllaT2duby1FLXJuUzNDQzU0TExLMWpHVFp4eFlMT2Y1dXg4MEZJbFJLeG5LLUlsLXVLZVRSRFhjQXFBWHJMalFzSjF6NHFnaWc1d1pZYW82cTNpYTZ5aTNISzlMWWF1UU1RQ3MwNk5jYnBDaDNfZVJkNnBUYUd5RFRPY2NNRzFUNmdzaTc3dEFKYk02V2pHbUx5VUlkazdHNlFhSjQ2NXp3cFJoQUctZUhOaw?oc=5
+
+PM Carney Welcomes Crown Prince of Abu Dhabi in Ottawa    CPAC
