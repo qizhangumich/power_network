@@ -86,7 +86,7 @@ const INSTITUTIONS = [
   {id:"lst_upp", n:"Union Properties PJSC", s:"realestate", t:2, p:58, short:"Union Properties"},
   {id:"lst_ifa", n:"International Financial Advisors Holding K.P.S.C.", s:"finance", t:2, p:50, short:"IFA"},
   {id:"lst_ncc", n:"National Cement Company", s:"materials", t:2, p:50, short:"NCC"},
-  {id:"lst_amlak", n:"Amlak Finance PJSC", s:"finance", t:2, p:54, short:"Amlak Finance PJSC"},
+  {id:"lst_amlak", n:"Amlak Finance PJSC", s:"finance", t:2, p:58, short:"Amlak Finance"},
   {id:"lst_salama", n:"Islamic Arab Insurance Co. (Salama) PJSC", s:"finance", t:2, p:50, short:"SALAMA"},
   {id:"lst_ngi", n:"National General Insurance Co. P.J.S.C.", s:"finance", t:2, p:50, short:"NGI"},
   {id:"lst_shuaa", n:"SHUAA Capital PSC", s:"finance", t:2, p:62, short:"SHUAA Capital PSC"},
@@ -2525,6 +2525,7 @@ const PEOPLE = [
 ];
 
 const OWNERSHIP = [
+  ["lst_amlak","emaar","majority shareholder (~45%)","ns"],
   ["execco","dxbgov","governs under"],
   ["icd","dxbgov","the Ruler's investment arm"],
   ["dubaiholding","dxbgov","the Ruler's private holding"],

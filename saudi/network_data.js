@@ -3597,6 +3597,14 @@ const PEOPLE = [
     ["alfaisal_university","Associate Vice President, Research and Graduate Studies","executive","v"]]},
   {id:"maha_al_saud", n:"Maha Al Saud", t:2, p:58, s:"education", roles:[
     ["alfaisal_university","Vice President, External Relations","executive","v"]]},
+  {id:"jarallah_mohammed_al", n:"Jarallah Mohammed Al Amrah", t:2, p:60, s:"realestate", roles:[
+    ["sumou","Chief Executive Officer","executive","v"]]},
+  {id:"faisal_abdullah_alkhaldi", n:"Faisal Abdullah Alkhaldi", t:2, p:52, s:"realestate", roles:[
+    ["sumou","Independent Board Member","board","ns"]]},
+  {id:"khalid_saleh_alaqeel", n:"Khalid Saleh Alaqeel", t:2, p:52, s:"realestate", roles:[
+    ["sumou","Independent Board Member","board","ns"]]},
+  {id:"essam_ahmed_khalthoum", n:"Essam Ahmed Khalthoum", t:2, p:52, s:"realestate", roles:[
+    ["sumou","Independent Board Member","board","ns"]]},
 ];
 
 const OWNERSHIP = [

@@ -1441,6 +1441,8 @@ const PEOPLE = [
     ["raknor","Operations & Technical Director","executive","v"]]},
   {id:"praveen_jayadevan", n:"Praveen Jayadevan", t:2, p:46, s:"materials", roles:[
     ["raknor","Head of Operations","executive","v"]]},
+  {id:"mustafa_al_khalfawi", n:"Mustafa Al Khalfawi", t:2, p:60, s:"finance", roles:[
+    ["ajmanbank","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

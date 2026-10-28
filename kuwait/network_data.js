@@ -2017,6 +2017,16 @@ const PEOPLE = [
     ["moci_kw","Assistant Undersecretary for Legal Affairs, Companies and Commercial Licenses","executive","v"]]},
   {id:"yaqoub_al_sayed", n:"Yaqoub Al-Sayed Yousef Al-Rifai", t:2, p:52, s:"gov", roles:[
     ["mof_kw","Minister of Finance","board","v"]]},
+  {id:"abdulwahab_al_wuhaib", n:"Abdulwahab Al-Wuhaib", t:2, p:58, s:"gov", roles:[
+    ["moi_kuwait","Undersecretary of the Ministry of Interior","executive","ns"]]},
+  {id:"hamad_ahmad_suleiman", n:"Hamad Ahmad Suleiman Al-Munaifi", t:2, p:58, s:"gov", roles:[
+    ["moi_kuwait","Assistant Undersecretary for Public Security Affairs","executive","ns"]]},
+  {id:"fawaz_al_roumi", n:"Fawaz Al-Roumi", t:2, p:58, s:"gov", roles:[
+    ["moi_kuwait","Assistant Undersecretary for Support Security Services","executive","ns"]]},
+  {id:"subaih_al_mukhaizeem", n:"Subaih Al-Mukhaizeem", t:2, p:58, s:"utilities", roles:[
+    ["mew_kuwait","Minister of Electricity Water and Renewable Energy","executive","ns"]]},
+  {id:"turki_abdullah_al", n:"Turki Abdullah Al-Mutairi", t:2, p:58, s:"gov", roles:[
+    ["moinfo_kw","Assistant Undersecretary for Radio and Television Sector","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

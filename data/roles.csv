@@ -238,13 +238,13 @@ haitham_abdulrazzak,Haitham Abdulrazzak,e_and,e& (Etisalat Group),Group Chief AI
 khalid_murshed,Khalid Murshed,e_and,e& (Etisalat Group),Group Chief Operations Officer,executive,v,
 borja_lopez,Borja Lopez,e_and,e& (Etisalat Group),Group Chief Strategy Officer,executive,v,
 obaid_bokisha,Obaid Bokisha,e_and,e& (Etisalat Group),Chief of Staff,executive,v,
-abdulla_humaid_al,Abdulla Humaid Al Jarwan,taqa,TAQA Group,Board Member,board,ns,
-kamal_ishaq_almaazmi,Kamal Ishaq Almaazmi,taqa,TAQA Group,Board Member,board,ns,
-buthaina_abdulla_almazrouei,Buthaina Abdulla Almazrouei,taqa,TAQA Group,Board Member,board,ns,
-muna_ali_al,Muna Ali Al Dhaheri,taqa,TAQA Group,Board Member,board,ns,
-hamad_abdulla_al,Hamad Abdulla Al Hammadi,taqa,TAQA Group,Board Member,board,ns,
+abdulla_humaid_al,Abdulla Humaid Al Jarwan,taqa,TAQA Group,Board Member,board,v,
+kamal_ishaq_almaazmi,Kamal Ishaq Almaazmi,taqa,TAQA Group,Board Member,board,v,
+buthaina_abdulla_almazrouei,Buthaina Abdulla Almazrouei,taqa,TAQA Group,Board Member,board,v,
+muna_ali_al,Muna Ali Al Dhaheri,taqa,TAQA Group,Board Member,board,v,
+hamad_abdulla_al,Hamad Abdulla Al Hammadi,taqa,TAQA Group,Board Member,board,v,
 khaled_mohamed_al,Khaled Mohamed Al Zaabi,taqa,TAQA Group,Board Member,board,v,
-hamsa_parama_shadaksharappa,Hamsa Parama Shadaksharappa,taqa,TAQA Group,Board Member,board,ns,
+hamsa_parama_shadaksharappa,Hamsa Parama Shadaksharappa,taqa,TAQA Group,Board Member,board,v,
 khaled_h_alkhoori,Khaled H. Alkhoori,adcb,Abu Dhabi Commercial Bank,Board Member,board,v,
 khalid_deemas_alsuwaidi,Khalid Deemas Alsuwaidi,adcb,Abu Dhabi Commercial Bank,Board Member,board,v,
 aysha_al_hallami,Aysha Al Hallami,adcb,Abu Dhabi Commercial Bank,Board Member,board,v,
@@ -1515,3 +1515,49 @@ ali_rashed_mohammed,Ali Rashed Mohammed Al Rashdi,lst_asm,,Board Member,board,v
 guy_neivens,Guy Neivens,lst_asm,,Board Member and CEO,executive,v
 mark_hawkes,Mark Hawkes,lst_asm,,Chief Financial Officer,executive,ns
 gunther_alvarado,Gunther Alvarado,lst_asm,,Deputy CEO,executive,ns
+ahmad_belhoul_al,Ahmad Belhoul Al Falasi,hct,Higher Colleges of Technology,Chancellor and Chairman of the Board of Trustees,board,v,
+ahmed_al_shamsi,Ahmed Al Shamsi,hct,Higher Colleges of Technology,"Member, Board of Trustees",board,v,
+mohamed_ali_mosbeh,Mohamed Ali Mosbeh Al Nuaimi,hct,Higher Colleges of Technology,Vice President - Shared Services,executive,v,
+hamdan_bz,H.H. Sheikh Hamdan bin Zayed Al Nahyan,aldahra,Al Dahra Holding,Chairman of the Board of Directors,board,v,
+h_h_sheikh,H.H. Sheikh Zayed bin Hamdan bin Zayed Al Nahyan,aldahra,Al Dahra Holding,Vice Chairman of the Board of Directors,board,v,
+jassem_zaabi,Jassem Mohamed Bu Ataba Al Zaabi,aldahra,Al Dahra Holding,Board Member,board,v,
+khaled_h_alkhoori,Khaled H. Alkhoori,aldahra,Al Dahra Holding,Board Member,board,v,
+hamad_al_hammadi,Hamad Al Hammadi,aldahra,Al Dahra Holding,Board Member,board,v,
+svet_varadzhakov,Svet Varadzhakov,aldahra,Al Dahra Holding,Board Member,board,v,
+abdulhamid_mohamed_saeed,Abdulhamid Mohamed Saeed,aldahra,Al Dahra Holding,Board Member,board,v,
+abdulrahman_al_mubarak,Abdulrahman Al Mubarak,adic,Abu Dhabi Investment Council,Executive Director,executive,v,
+ahmed_abdul_jalil,Ahmed Abdul Jalil Al Fahim,adic,Abu Dhabi Investment Council,Director,executive,v,
+hussain_nowais,Hussain Jasim Al Nowais,alnowais_investments,AlNowais Investments,Chairman,board,v,
+mansoori_doh,Mansoor Ibrahim Al Mansoori,space42,Space42,Chairman of the Board,board,v,
+tareq_hosani,Tareq Abdul Raheem Al Hosani,space42,Space42,Director,board,v,
+kiril_evtimov,Kiril Evtimov,space42,Space42,Director,board,v,
+maryam_almheiri,H.E. Maryam Eid AlMheiri,space42,Space42,Member,board,v,
+dr_bakheet_al,Dr. Bakheet Al Katheeri,space42,Space42,Vice Chairman of the Board,board,v,
+ismail_abdulla,Ismail Ali Abdulla,space42,Space42,Director,board,v,
+ahmed_jasim_zaabi,Ahmed Jasim Al Zaabi,fsra,Financial Services Regulatory Authority,Chairman of ADGM,board,v,
+mubarak_saeed_alshamsi,Mubarak Saeed AlShamsi,hct,,"Vice Chairman, Board of Trustees",board,v
+hala_youssef_badri,Hala Youssef Badri,hct,,"Member, Board of Trustees",board,v
+malek_sultan_al,Malek Sultan Al Malek,hct,,"Member, Board of Trustees",board,v
+huda_issa_buhumaid,Huda Issa Buhumaid,hct,,"Member, Board of Trustees",board,v
+samer_saif_al,Samer Saif Al-Samahi,hct,,"Member, Board of Trustees",board,v
+fatima_mohammed_aljoker,Fatima Mohammed AlJoker,hct,,"Member, Board of Trustees",board,v
+sumaya_abdulaziz_al,Sumaya Abdulaziz Al Hosani,hct,,Vice President - Strategy and Future,executive,v
+yahya_al_ansaari,Yahya Al Ansaari,hct,,"Executive Director, HCT-Dubai Campuses",executive,v
+khedaim_abdulla_al,Khedaim Abdulla Al Derei,aldahra,,Board Member (Co-Founder),board,v
+samer_khalife,Samer Khalife,aldahra,,Board Member,board,v
+gianluca_elmosi,Gianluca Elmosi,aldahra,,Interim Chief Financial Officer,executive,v
+dawn_sanderson,Dawn Sanderson,aldahra,,Chief Legal and Compliance Officer,executive,v
+neil_james_simmonds,Neil James Simmonds,aldahra,,Director Technical Farming and Interim Chief Farming Officer,executive,v
+susan_corkeron,Susan Corkeron,aldahra,,Chief People Officer,executive,v
+ahmed_saeed_al_b,Ahmed Saeed Al Suwaidi,aldahra,,Group Corporate Affairs Officer,executive,v
+wissam_abbas,Wissam Abbas,aldahra,,EVP Feed,executive,v
+nael_khalil,Nael Khalil,aldahra,,EVP Feed,executive,v
+stuart_donald,Stuart Donald,aldahra,,EVP Farming,executive,v
+agostino_migiani,Agostino Migiani,aldahra,,EVP Forage,executive,v
+nils_krage,Nils Krage,aldahra,,EVP Grains,executive,v
+stefan_dunatov,Stefan Dunatov,adic,,"Chief Investment Officer, Private Equity",executive,v
+athra_al_zaabi,Athra Al Zaabi,adic,,Executive Director,executive,v
+larbi_arfaoui,Larbi Arfaoui,adic,,Head of Secondaries Department,executive,v
+kassem_tawil,Kassem Tawil,alnowais_investments,,Director - Investments,executive,v
+hussein_matar,Hussein Matar,alnowais_investments,,Director - Business Development,executive,v
+mohammed_shaikley,Mohammed Shaikley,alnowais_investments,,Director - Corporate Finance,executive,v

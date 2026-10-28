@@ -3573,6 +3573,10 @@ const PEOPLE = [
     ["baca","President of the Bahrain Authority for Culture and Antiquities","board","v"]]},
   {id:"ahmed_bin_mohammed", n:"Ahmed bin Mohammed Al Khalifa", t:2, p:52, s:"gov", roles:[
     ["nao_bahrain","Auditor-General / President of the National Audit Office","board","ns"]]},
+  {id:"yousef_abdullah_hamood", n:"Yousef Abdullah Hamood", t:2, p:58, s:"gov", roles:[
+    ["mofin_bh","Undersecretary for Financial Affairs","executive","v"]]},
+  {id:"lulwa_rashid_shuwaiter", n:"Lulwa Rashid Shuwaiter", t:2, p:58, s:"health", roles:[
+    ["bahrain_moh","Undersecretary of the Ministry of Health","executive","v"]]},
 ];
 
 const OWNERSHIP = [

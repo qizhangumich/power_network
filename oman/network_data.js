@@ -1656,6 +1656,18 @@ const PEOPLE = [
     ["riyada","Vice Chairperson for SME Development, Riyada","board","v"]]},
   {id:"qais_bin_rashid", n:"Qais bin Rashid Al-Toubi", t:2, p:62, s:"finance", roles:[
     ["riyada","Vice Chairperson for Financing and Investment, Riyada","board","v"]]},
+  {id:"khalfan_bin_said_b", n:"Khalfan bin Said Al Shueili", t:2, p:58, s:"gov", roles:[
+    ["mohup_oman","Minister of Housing and Urban Planning","executive","v"]]},
+  {id:"abdullah_bin_hamoud", n:"Abdullah bin Hamoud Al Harthy", t:2, p:58, s:"gov", roles:[
+    ["min_social_dev","Under-Secretary of the Ministry of Social Development for Persons with Disabilities Affairs","executive","v"]]},
+  {id:"abdullah_bin_ali_b_b", n:"Abdullah bin Ali Al Harthy", t:2, p:52, s:"gov", roles:[
+    ["opaz","Board Member (Major General)","board","v"]]},
+  {id:"ahmed_bin_hassan_b", n:"Ahmed bin Hassan Al Theeb", t:2, p:62, s:"gov", roles:[
+    ["opaz","Vice Chairman","board","ns"]]},
+  {id:"nasser_bin_suleiman", n:"Nasser bin Suleiman Al Harthi", t:2, p:52, s:"gov", roles:[
+    ["opaz","Board Member","board","ns"]]},
+  {id:"ahmed_said_kashoub", n:"Ahmed Said Kashoub", t:2, p:52, s:"gov", roles:[
+    ["opaz","Board Member","board","ns"]]},
 ];
 
 const OWNERSHIP = [

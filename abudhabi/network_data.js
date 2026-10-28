@@ -371,6 +371,7 @@ const PEOPLE = [
     ["adgov","Ruler's Representative, Al Dhafra Region","political","v"],
     ["ead","Chairman","board","v"],
     ["abu_dhabi_university","President of the Board of Trustees","board","v"],
+    ["aldahra","Chairman of the Board of Directors","board","v"],
     ]},
   {id:"hamed_bz", n:"H.H. Sheikh Hamed bin Zayed Al Nahyan", t:0, p:93, s:"sovereign", roles:[
     ["adia","Managing Director","executive","v"],
@@ -431,6 +432,7 @@ const PEOPLE = [
     ["q","Chairman","board","v"],
     ["gridora","Chairman","board","v"],
     ["modon_properties","Chairman","board","v"],
+    ["aldahra","Board Member","board","v"],
     ], note:"Controls the emirate's treasury and chairs the telecom giant."},
   {id:"ahmed_jasim_zaabi", n:"Ahmed Jasim Al Zaabi", t:1, p:90, s:"finance", roles:[
     ["added","Chairman","government","v"],
@@ -441,6 +443,7 @@ const PEOPLE = [
     ["adio","Member of the Abu Dhabi Executive Council and Chairman of the Abu Dhabi Department of Economic Development (ADIO's parent, ADDED)","board","v"],
     ["hub71","Chairman","board","v"],
     ["abu_dhabi_chamber","Chairman","board","v"],
+    ["fsra","Chairman of ADGM","board","v"],
     ], note:"Gatekeeper for economic policy and the financial free zone."},
   {id:"alsuwaidi_adq", n:"Mohamed Hassan Alsuwaidi", t:1, p:92, s:"sovereign", roles:[
     ["fedgov","UAE Minister of Investment","political","v"],
@@ -496,6 +499,7 @@ const PEOPLE = [
     ["execcouncil","Member","political","v"],
     ["e_and","Board Member","board","v"],
     ["presight","Chairman","board","v"],
+    ["space42","Chairman of the Board","board","v"],
     ]},
   {id:"sara_musallam", n:"Sara Awadh Musallam", t:1, p:84, s:"education", roles:[
     ["adek","Chairman","government","v"],
@@ -564,6 +568,7 @@ const PEOPLE = [
     ["alnowais","Chairman","board","v"],
     ["senaat","Chairman","board","v"],
     ["rotana","Board Member","board","v"],
+    ["alnowais_investments","Chairman","board","v"],
     ]},
   {id:"razan", n:"Razan Khalifa Al Mubarak", t:1, p:78, s:"gov", roles:[
     ["ead","Managing Director","executive","v"],
@@ -571,6 +576,7 @@ const PEOPLE = [
   {id:"tareq_hosani", n:"Tareq Abdul Raheem Al Hosani", t:1, p:76, s:"industry", roles:[
     ["tawazun","Secretary-General","government","v"],
     ["calidus","Chairman of Calidus","board","ns"],
+    ["space42","Director","board","v"],
     ]},
   {id:"ghannam", n:"Ghannam Butti Al Mazrouei", t:1, p:74, s:"finance", roles:[
     ["adx","Chairman","board","v"],
@@ -743,6 +749,7 @@ const PEOPLE = [
     ["strata","Managing Director","executive","v"],
     ["presight","Board Member","board","v"],
     ["lst_adaviation","Non-Executive Board Member","board","v"],
+    ["space42","Director","board","v"],
     ], note:"Managing Director of Strata Manufacturing (formerly CEO; Sara Al Memari now Acting CEO); Executive Director of UAE Clusters at Mubadala."},
   {id:"zaghloul", n:"Yasser Zaghloul", t:2, p:68, s:"industry", roles:[
     ["nmdc","Group CEO","executive","v"],
@@ -813,6 +820,7 @@ const PEOPLE = [
     ], note:"President and CEO of Zayed University since November 2025"},
   {id:"maryam_almheiri", n:"H.E. Maryam Eid AlMheiri", t:1, p:74, s:"comm", roles:[
     ["admo","Chairperson","government","v"],
+    ["space42","Member","board","v"],
     ], note:"Chairperson of Abu Dhabi Media Office; former UAE Minister of Climate Change and Environment"},
   {id:"nadim_koteich", n:"Nadim Koteich", t:2, p:58, s:"comm", roles:[
     ["skynewsarabia","General Manager","executive","v"],
@@ -903,6 +911,7 @@ const PEOPLE = [
     ], note:"Also CEO of G42's US business"},
   {id:"kiril_evtimov", n:"Kiril Evtimov", t:2, p:68, s:"tech", roles:[
     ["g42","Group Chief Technology Officer","executive","v"],
+    ["space42","Director","board","v"],
     ], note:"Also Chairman of G42 Cloud"},
   {id:"adrian_kershaw", n:"Adrian Kershaw", t:2, p:70, s:"utilities", roles:[
     ["taqa","Chief Financial Officer","executive","v"],
@@ -1080,27 +1089,27 @@ const PEOPLE = [
     ["e_and","Chief of Staff","executive","v"],
     ]},
   {id:"abdulla_humaid_al", n:"Abdulla Humaid Al Jarwan", t:2, p:52, s:"utilities", roles:[
-    ["taqa","Board Member","board","ns"],
+    ["taqa","Board Member","board","v"],
     ["adnocdrill","Board Member","board","v"],
     ["doe","Chairman","executive","v"],
     ]},
   {id:"kamal_ishaq_almaazmi", n:"Kamal Ishaq Almaazmi", t:2, p:52, s:"utilities", roles:[
-    ["taqa","Board Member","board","ns"],
+    ["taqa","Board Member","board","v"],
     ["adnocgas","Board Member","board","v"],
     ["limad","Board Member","board","v"],
     ["dof","Undersecretary","executive","v"],
     ["adx","Board Member","board","v"],
     ]},
   {id:"buthaina_abdulla_almazrouei", n:"Buthaina Abdulla Almazrouei", t:2, p:52, s:"utilities", roles:[
-    ["taqa","Board Member","board","ns"],
+    ["taqa","Board Member","board","v"],
     ["dof","Director General of Government Financial Affairs","executive","v"],
     ["lst_adaviation","Non-Executive Board Member","board","v"],
     ]},
   {id:"muna_ali_al", n:"Muna Ali Al Dhaheri", t:2, p:52, s:"utilities", roles:[
-    ["taqa","Board Member","board","ns"],
+    ["taqa","Board Member","board","v"],
     ]},
   {id:"hamad_abdulla_al", n:"Hamad Abdulla Al Hammadi", t:2, p:52, s:"utilities", roles:[
-    ["taqa","Board Member","board","ns"],
+    ["taqa","Board Member","board","v"],
     ["modon","Board Member","board","v"],
     ["modon_properties","Board Member","board","v"],
     ]},
@@ -1108,10 +1117,11 @@ const PEOPLE = [
     ["taqa","Board Member","board","v"],
     ]},
   {id:"hamsa_parama_shadaksharappa", n:"Hamsa Parama Shadaksharappa", t:2, p:52, s:"utilities", roles:[
-    ["taqa","Board Member","board","ns"],
+    ["taqa","Board Member","board","v"],
     ]},
   {id:"khaled_h_alkhoori", n:"Khaled H. Alkhoori", t:2, p:52, s:"finance", roles:[
     ["adcb","Board Member","board","v"],
+    ["aldahra","Board Member","board","v"],
     ]},
   {id:"khalid_deemas_alsuwaidi", n:"Khalid Deemas Alsuwaidi", t:2, p:52, s:"finance", roles:[
     ["adcb","Board Member","board","v"],
@@ -1184,6 +1194,7 @@ const PEOPLE = [
     ], note:"Group CEO of Agthia until 2025; drove its M&A-led expansion. Succeeded by Salmeen Al Ameri."},
   {id:"abdulhamid_mohamed_saeed", n:"Abdulhamid Mohamed Saeed", t:2, p:52, s:"sovereign", roles:[
     ["mubadala","Board Member","board","v"],
+    ["aldahra","Board Member","board","v"],
     ]},
   {id:"ahmed_saeed_al", n:"Ahmed Saeed Al Calily", t:2, p:58, s:"sovereign", roles:[
     ["mubadala","Chief Strategy & Risk Officer","executive","v"],
@@ -1625,6 +1636,7 @@ const PEOPLE = [
     ["e_and","Group Chief Corporate Affairs Officer","executive","v"],
     ["adssc","Chief Executive Officer","executive","v"],
     ["trojan","Group Chief Executive Officer","executive","ns"],
+    ["hct","Member, Board of Trustees","board","v"],
     ]},
   {id:"mohamed_dukandar", n:"Mohamed Dukandar", t:2, p:58, s:"comm", roles:[
     ["e_and","Group Chief Risk & Assurance Officer","executive","v"],
@@ -1716,6 +1728,7 @@ const PEOPLE = [
   {id:"dr_bakheet_al", n:"Dr. Bakheet Al Katheeri", t:2, p:52, s:"materials", roles:[
     ["ega","Board Member","board","v"],
     ["tabreed","Chairman","board","v"],
+    ["space42","Vice Chairman of the Board","board","v"],
     ]},
   {id:"hilal_bin_dhaher", n:"Hilal Bin Dhaher", t:2, p:52, s:"materials", roles:[
     ["ega","Board Member","board","v"],
@@ -1776,6 +1789,7 @@ const PEOPLE = [
     ["ewec","Chairman","board","v"],
     ["adq","Deputy Group CEO – Energy & Utilities","executive","ns"],
     ["enec","Vice Chairman","board","v"],
+    ["aldahra","Board Member","board","v"],
     ]},
   {id:"h_e_kamal", n:"H.E. Kamal Al Mazmi", t:2, p:62, s:"utilities", roles:[
     ["ewec","Vice Chairman","board","v"],
@@ -2014,6 +2028,7 @@ const PEOPLE = [
   {id:"h_h_sheikh", n:"H.H. Sheikh Zayed bin Hamdan bin Zayed Al Nahyan", t:2, p:52, s:"sovereign", roles:[
     ["adq","Board Member","board","ns"],
     ["multiply","Chairman of the Board (Two Point Zero Group, formerly Multiply Group)","board","v"],
+    ["aldahra","Vice Chairman of the Board of Directors","board","v"],
     ]},
   {id:"h_e_sheikh", n:"H.E. Sheikh Abdulla bin Mohamed Al Hamed", t:2, p:52, s:"sovereign", roles:[
     ["adq","Board Member","board","v"],
@@ -2769,6 +2784,7 @@ const PEOPLE = [
     ]},
   {id:"ahmad_belhoul_al", n:"Ahmad Belhoul Al Falasi", t:2, p:62, s:"tech", roles:[
     ["spaceagency","Chairman of the Board of Directors","board","v"],
+    ["hct","Chancellor and Chairman of the Board of Trustees","board","v"],
     ]},
   {id:"salem_butti_salem", n:"Salem Butti Salem Al Qubaisi", t:2, p:58, s:"tech", roles:[
     ["spaceagency","Director-General","executive","v"],
@@ -3333,6 +3349,7 @@ const PEOPLE = [
     ]},
   {id:"ahmed_abdul_jalil", n:"Ahmed Abdul Jalil Al Fahim", t:2, p:62, s:"conglomerate", roles:[
     ["alfahim","Chairman, Al Fahim Management Board","executive","v"],
+    ["adic","Director","executive","v"],
     ]},
   {id:"taha_abdul_jalil", n:"Taha Abdul Jalil Al Fahim", t:2, p:52, s:"conglomerate", roles:[
     ["alfahim","Supervisory Board Member","board","v"],
@@ -3667,6 +3684,7 @@ const PEOPLE = [
     ]},
   {id:"svet_varadzhakov", n:"Svet Varadzhakov", t:2, p:52, s:"consumer_stap", roles:[
     ["agthia","Board Member","board","v"],
+    ["aldahra","Board Member","board","v"],
     ]},
   {id:"caitlin_nguyen", n:"Caitlin Nguyen", t:2, p:52, s:"consumer_stap", roles:[
     ["agthia","Board Member","board","v"],
@@ -3735,6 +3753,7 @@ const PEOPLE = [
     ]},
   {id:"mohamed_ali_mosbeh", n:"Mohamed Ali Mosbeh Al Nuaimi", t:2, p:62, s:"realestate", roles:[
     ["lst_rakprop","Deputy Chairman","board","ns"],
+    ["hct","Vice President - Shared Services","executive","v"],
     ]},
   {id:"suhail_mubarak_bin", n:"Suhail Mubarak Bin Athaeeth Al Ameri", t:2, p:60, s:"conglomerate", roles:[
     ["senaat","Chief Executive Officer","executive","ns"],
@@ -3825,6 +3844,7 @@ const PEOPLE = [
     ]},
   {id:"abdulrahman_al_mubarak", n:"Abdulrahman Al Mubarak", t:2, p:52, s:"finance", roles:[
     ["adnic","Board Member","board","ns"],
+    ["adic","Executive Director","executive","v"],
     ]},
   {id:"hamoodah_ghanem_al", n:"Hamoodah Ghanem Al Dhaheri", t:2, p:52, s:"finance", roles:[
     ["adnic","Board Member","board","ns"],
@@ -4157,6 +4177,84 @@ const PEOPLE = [
     ]},
   {id:"gunther_alvarado", n:"Gunther Alvarado", t:2, p:60, s:"industry", roles:[
     ["lst_asm","Deputy CEO","executive","ns"],
+    ]},
+  {id:"mubarak_saeed_alshamsi", n:"Mubarak Saeed AlShamsi", t:2, p:62, s:"education", roles:[
+    ["hct","Vice Chairman, Board of Trustees","board","v"],
+    ]},
+  {id:"hala_youssef_badri", n:"Hala Youssef Badri", t:2, p:52, s:"education", roles:[
+    ["hct","Member, Board of Trustees","board","v"],
+    ]},
+  {id:"malek_sultan_al", n:"Malek Sultan Al Malek", t:2, p:52, s:"education", roles:[
+    ["hct","Member, Board of Trustees","board","v"],
+    ]},
+  {id:"huda_issa_buhumaid", n:"Huda Issa Buhumaid", t:2, p:52, s:"education", roles:[
+    ["hct","Member, Board of Trustees","board","v"],
+    ]},
+  {id:"samer_saif_al", n:"Samer Saif Al-Samahi", t:2, p:52, s:"education", roles:[
+    ["hct","Member, Board of Trustees","board","v"],
+    ]},
+  {id:"fatima_mohammed_aljoker", n:"Fatima Mohammed AlJoker", t:2, p:52, s:"education", roles:[
+    ["hct","Member, Board of Trustees","board","v"],
+    ]},
+  {id:"sumaya_abdulaziz_al", n:"Sumaya Abdulaziz Al Hosani", t:2, p:58, s:"education", roles:[
+    ["hct","Vice President - Strategy and Future","executive","v"],
+    ]},
+  {id:"yahya_al_ansaari", n:"Yahya Al Ansaari", t:2, p:58, s:"education", roles:[
+    ["hct","Executive Director, HCT-Dubai Campuses","executive","v"],
+    ]},
+  {id:"khedaim_abdulla_al", n:"Khedaim Abdulla Al Derei", t:2, p:52, s:"consumer_stap", roles:[
+    ["aldahra","Board Member (Co-Founder)","board","v"],
+    ]},
+  {id:"samer_khalife", n:"Samer Khalife", t:2, p:52, s:"consumer_stap", roles:[
+    ["aldahra","Board Member","board","v"],
+    ]},
+  {id:"gianluca_elmosi", n:"Gianluca Elmosi", t:2, p:58, s:"consumer_stap", roles:[
+    ["aldahra","Interim Chief Financial Officer","executive","v"],
+    ]},
+  {id:"dawn_sanderson", n:"Dawn Sanderson", t:2, p:58, s:"consumer_stap", roles:[
+    ["aldahra","Chief Legal and Compliance Officer","executive","v"],
+    ]},
+  {id:"neil_james_simmonds", n:"Neil James Simmonds", t:2, p:58, s:"consumer_stap", roles:[
+    ["aldahra","Director Technical Farming and Interim Chief Farming Officer","executive","v"],
+    ]},
+  {id:"susan_corkeron", n:"Susan Corkeron", t:2, p:58, s:"consumer_stap", roles:[
+    ["aldahra","Chief People Officer","executive","v"],
+    ]},
+  {id:"ahmed_saeed_al_b", n:"Ahmed Saeed Al Suwaidi", t:2, p:58, s:"consumer_stap", roles:[
+    ["aldahra","Group Corporate Affairs Officer","executive","v"],
+    ]},
+  {id:"wissam_abbas", n:"Wissam Abbas", t:2, p:46, s:"consumer_stap", roles:[
+    ["aldahra","EVP Feed","executive","v"],
+    ]},
+  {id:"nael_khalil", n:"Nael Khalil", t:2, p:46, s:"consumer_stap", roles:[
+    ["aldahra","EVP Feed","executive","v"],
+    ]},
+  {id:"stuart_donald", n:"Stuart Donald", t:2, p:46, s:"consumer_stap", roles:[
+    ["aldahra","EVP Farming","executive","v"],
+    ]},
+  {id:"agostino_migiani", n:"Agostino Migiani", t:2, p:46, s:"consumer_stap", roles:[
+    ["aldahra","EVP Forage","executive","v"],
+    ]},
+  {id:"nils_krage", n:"Nils Krage", t:2, p:46, s:"consumer_stap", roles:[
+    ["aldahra","EVP Grains","executive","v"],
+    ]},
+  {id:"stefan_dunatov", n:"Stefan Dunatov", t:2, p:58, s:"sovereign", roles:[
+    ["adic","Chief Investment Officer, Private Equity","executive","v"],
+    ]},
+  {id:"athra_al_zaabi", n:"Athra Al Zaabi", t:2, p:58, s:"sovereign", roles:[
+    ["adic","Executive Director","executive","v"],
+    ]},
+  {id:"larbi_arfaoui", n:"Larbi Arfaoui", t:2, p:46, s:"sovereign", roles:[
+    ["adic","Head of Secondaries Department","executive","v"],
+    ]},
+  {id:"kassem_tawil", n:"Kassem Tawil", t:2, p:58, s:"conglomerate", roles:[
+    ["alnowais_investments","Director - Investments","executive","v"],
+    ]},
+  {id:"hussein_matar", n:"Hussein Matar", t:2, p:58, s:"conglomerate", roles:[
+    ["alnowais_investments","Director - Business Development","executive","v"],
+    ]},
+  {id:"mohammed_shaikley", n:"Mohammed Shaikley", t:2, p:58, s:"conglomerate", roles:[
+    ["alnowais_investments","Director - Corporate Finance","executive","v"],
     ]},
 ];
 

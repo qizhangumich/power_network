@@ -2181,6 +2181,20 @@ const PEOPLE = [
     ["al_koot_insurance","Chief Officer General Insurance","executive","v"]]},
   {id:"abdullah_bin_hamad", n:"Abdullah bin Hamad Al Misnad", t:2, p:62, s:"tech", roles:[
     ["qai","Chairman","board","v"]]},
+  {id:"jabor_ali_al", n:"Jabor Ali Al-Kubaisi", t:2, p:58, s:"gov", roles:[
+    ["traffic_dept_qatar","Director General of Traffic","executive","ns"]]},
+  {id:"mohammed_bin_jassim", n:"Mohammed bin Jassim Al Thani", t:2, p:58, s:"gov", roles:[
+    ["traffic_dept_qatar","Assistant Director General of Traffic","executive","ns"]]},
+  {id:"ghanim_ali_al_b", n:"Ghanim Ali Al Mannai", t:2, p:58, s:"gov", roles:[
+    ["moph","Assistant Undersecretary for Healthcare Regulatory Affairs","executive","ns"]]},
+  {id:"sami_mohammed_al", n:"Sami Mohammed Al Shammari", t:2, p:58, s:"gov", roles:[
+    ["mocit","Assistant Undersecretary for Infrastructure and Operations Affairs","executive","ns"]]},
+  {id:"amer_saeed_alghafri", n:"Amer Saeed AlGhafri", t:2, p:58, s:"gov", roles:[
+    ["moj_qatar","Assistant Undersecretary for Real Estate Registration and Documentation Affairs","executive","v"]]},
+  {id:"khamis_mohammed_al", n:"Khamis Mohammed Al Buafra Al Kuwari", t:2, p:58, s:"gov", roles:[
+    ["moj_qatar","Assistant Undersecretary of the Ministry of Justice for Shared Services Affairs","executive","ns"]]},
+  {id:"sheikha_hind_bint", n:"Sheikha Hind bint Faleh Al-Thani", t:2, p:58, s:"gov", roles:[
+    ["moj_qatar","Assistant Undersecretary for International Agreements and Cooperation Affairs","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
