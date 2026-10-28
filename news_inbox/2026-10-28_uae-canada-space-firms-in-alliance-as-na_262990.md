@@ -1,0 +1,5 @@
+# UAE, Canada Space Firms in Alliance as Nations Seek Starlink Alternatives
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeFR5OGN1Wkx6R3pHSUctY0F5U0Z0bUdNNk91UjJreG1vZXN0WWQ0UzJLdlYyUEJTSGk4U2cyREJsUFEyQTNsbEkycEN2d2laTkdMWnA0VTQ0VG41QXJfNGVRU19OM0NzUVo3QTlmTW5SOGtGYmJDSTVPWEdTNk9nemlVaXFVY0RLd1pZazgyai1NbFVuRUNDeDhMMHlZbW9VS1cxSERHWWJJLWIxcDR2ODRZOWFnclZuU2Y2aVNTQzQ?oc=5
+
+UAE, Canada Space Firms in Alliance as Nations Seek Starlink Alternatives    Bloomberg.com

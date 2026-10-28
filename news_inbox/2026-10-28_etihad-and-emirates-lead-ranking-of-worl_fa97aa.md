@@ -1,0 +1,5 @@
+# Etihad and Emirates lead ranking of world’s most extravagant airline luxuries
+source: The National
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxQRU1uX2czdXBUODJWc08zYTdfM2NmaDVhUmJGOUVsLUFtRG1wTDhPcWNGMkFRRjBaNTNFZlhlYmdya0dMdDk3TDhUZng0Z0pIUmQ4TGxoaEt0ejNzVktKWnJxbTQwdktNcDVBVlRURTZKTkNyd09jSVdULWlnbmpTLVdaS1dzenJXOTlJSkFfUk9JV3hXblhpVmJOdzA2TnVWRWx2VW5NWUNPQi1GLVRlc2pGeGxiVkJINmYzTllZTFcwT052d0E?oc=5
+
+Etihad and Emirates lead ranking of world’s most extravagant airline luxuries    The National

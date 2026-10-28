@@ -1,0 +1,5 @@
+# ADNOC Trading, TotalEnergies, Chevron poised to win Indian LPG term tender for 2027, traders say
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxOYkg4YUpiTk5waW1KT09BSGUyRHJNcVozNFVYWDVteDd4TkpfQkx4cS1rdzdaUUVtMjFaQUI5UzBJaDdsX1pVbnVhckdrZ2Zrend5LTNOaWQ5b196MEhtb3BKOWkzX2JPbnE4eGtPZDQ1cFFqU0tJNFJQVl9nQnQ3ekZ1Q280bk52WjFZTU1qS0gwMDZLdTVQOVpVNTdBc01nTmRzbmdjV0oyMGNVR20tVTBSS2d0MmtlSDdLbWQzZklLLUlzYk9GeVktN3AxS0ZvRkQtNlFfSTgzVG4zZGUycFlOX1VtSm55d2FmWWNkZklmNU5Oa3c?oc=5
+
+ADNOC Trading, TotalEnergies, Chevron poised to win Indian LPG term tender for 2027, traders say    TradingView

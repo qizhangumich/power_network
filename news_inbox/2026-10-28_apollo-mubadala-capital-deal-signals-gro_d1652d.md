@@ -1,0 +1,5 @@
+# Apollo–Mubadala Capital deal signals growing maturity of UAE's private equity industry
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNTY1X3NEREc5QVYwa1EyYWEweDJIdEdaZ2pzMnNjU3YyRUVmZnYxQ09DcldNQ0xTWW5rbHEtcEM2bFEwX19tU1ljRjJKd000ejRTVUlSTTFDZkh5c05ZM3FJM0R0MV9HZnQyY1BlNVJWSVVCckJPWnh0QkhpWHRPOHRVOVNSLWxVT085c2ttV2pTODFDektlTU1ZMW16Qml2dng1MFZkaVZTQU5hamV5NTVrOWxvcjFpT0w2d0Q1X3dnd3RpTGx2RWN6VkJDNTdseTk0alV3eUtiZEpyZmgw?oc=5
+
+Apollo–Mubadala Capital deal signals growing maturity of UAE's private equity industry    Zawya

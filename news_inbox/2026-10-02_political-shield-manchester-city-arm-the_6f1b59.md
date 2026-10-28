@@ -1,0 +1,5 @@
+# Political shield: Manchester City arm themselves with diplomatic immunity against sanctions
+source: Goal.com
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbXB1enpDY3ByMkVyREYzdjkzeHVXMVBCcGRhUWpwQmhOQjZUMVlxRUZ4aWRScXdSeDdLeXFsRHdQMS0yTHBkdjhUR0dNZVljdHFyQ2VSdDZlVXJMZm4tMld2Z191NVBhRGMxSmNXZGVKZk9hZlNnM1pVY1p2Q040VmNydl9rY1paZ1Q0ZzJQSGZ2ckw4aHJuRnpTcEE5QUdmQXJTeWlybTFFd0hGLW14S2pib1RSNDZQQWJEeDF2TkZDc1dTRjFzaEpYNFZtWXBjd0Uya2Nn?oc=5
+
+Political shield: Manchester City arm themselves with diplomatic immunity against sanctions    Goal.com

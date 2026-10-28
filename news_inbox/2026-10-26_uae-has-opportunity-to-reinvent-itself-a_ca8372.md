@@ -1,0 +1,5 @@
+# UAE has opportunity to reinvent itself as exporter of intelligence rather than energy, says G42 chief
+source: The National
+url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcXFsRnMtbllUVHdlZmt5TUk5eHVtS2k5ellvOFdiZEpZZkVJLU9tSzRrWkhKTFJGOUQ2MnRmWk5lR1pUTkVrclNSTE9zU0tWeS1zRHJoZk1MZjlNZDFFTF9hQURVSEphVTdzV2hLU3pDaDRmbFlMbnNmM3RSU3VYbHNDdFpJSm9xYzd4WTBjYUppV2RGLTQzeTFhN1Y3bnV4djN3cHJ4bWFzSmtlbGMtMHVfdUVNN21rVkU4X0ltZ0NMdnFSNFpRTTBfQS15MldqUmV3c2ZVbGpNemJRSzNycVZadHBPM3hx?oc=5
+
+UAE has opportunity to reinvent itself as exporter of intelligence rather than energy, says G42 chief    The National

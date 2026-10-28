@@ -1,0 +1,5 @@
+# Masdar targets USD-562m renewables investment in New Zealand
+source: Renewables Now
+url: https://news.google.com/rss/articles/CBMiogFBVV95cUxQQWJWQmRVcHY4Uk9TdXRhTWVxanJvWjFrdGhCOV9mMEpNaEtUMC0zZkUyQko0NnlfMk9iMnFNNmpGRG5fb3pxdkUzOWRhVjl0NzQ1QUJwaW5yNUdvVUdrY2wzUXNjODJJNHZIcW1ucERuYXdubi1sUVJoUUtMZlVrdlFXS3VTQUQ4WUswTHJxZVRwZDR3TzJyN09pN2VOOXJMT1E?oc=5
+
+Masdar targets USD-562m renewables investment in New Zealand    Renewables Now

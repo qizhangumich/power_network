@@ -1,0 +1,5 @@
+# Canada Signs CEPA With UAE, Mark Carney and Abu Dhabi Crown Prince Sheikh Khaled Preside
+source: NewsCord
+url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxQVW55X210VVNzRmFNT0RpLTZaWVUzejAzSnBtZnNNaFhmZDctS1l4eTlITG03dVBJWklDVy1qd1NOZmUwcmVvNV9pMDE2N0p3MUhIbEhsRVVWT0lhcm5zdUhfMFVDeGwyY05JTkRtQU1Qdm9UU09JR0pMVVpfM2g4bm9UNDJIaGZNNjRLQ3doZmMtazlOY3p0TVZiV0I3MzhmLUl2QS1rMEZCeW1vaDBJQUlhdl9kY0RfX2JxNlVjeUtkV0N0dmRlc0IxNWhrTmhpVlNaMHllZktFa1JPclpRZnNoNHRCUnJ6?oc=5
+
+Canada Signs CEPA With UAE, Mark Carney and Abu Dhabi Crown Prince Sheikh Khaled Preside    NewsCord

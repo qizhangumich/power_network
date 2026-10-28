@@ -1,0 +1,5 @@
+# UAE energy group expands its presence in Greece
+source: eKathimerini.com
+url: https://news.google.com/rss/articles/CBMiogFBVV95cUxQdTlDZS10Q0tJNktaa1JhSFVHQ0k2b0JwX1ZBMjZwako1b1VPcTBoZ2kzT2M2NFJJSkZ5SDA4bk0wdzVhdlR3aWcySFF0NUgtdmY1LTBMMWtyVDZqOUdXbFB5YW4wWWs0Q3Q2TjdHblpqb080amp3b2twYU81dDRaZ1pqeTczeExSdzRoYi1DbFRLUTlWd2ZGVU1ualhlRnFjVGc?oc=5
+
+UAE energy group expands its presence in Greece    eKathimerini.com

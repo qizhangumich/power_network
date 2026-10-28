@@ -1,0 +1,5 @@
+# Crown Prince of Abu Dhabi concludes official visit to Canada
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxNbG9IQU52czdmUjFkRUwtVnpScG9OSEtRaE14d05tNTZNM3hkMXo2TjFpbU9qZHB0aWJtSWQwZTdlQzFJN2FqV3NxMklrTXJlb3NqanBkcEd4VmhkU0djQXVUV1NnNDczaFhaZlpvLXY2OW83VmQ2X0dBWVl4MjRTM0IzYnVuSU9ndzJheU0tXzFCN3dEQlVTbU9oTHdQU1F1RV91ZGhPbGpGMGtNdDFMc3Nud1NqZw?oc=5
+
+Crown Prince of Abu Dhabi concludes official visit to Canada    مكتب أبوظبي الإعلامي

@@ -1,0 +1,5 @@
+# TAQA Transmission wins two awards at Asian Power Awards 2026
+source: Asian Power
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxNUllLeTI0VHpzZnBUbEJLT1VIa28yUE5LR25YdnJteko2V1kzakdqNE96X0pLZjRVTmFXSkZEdWplNXlKd2ZNeFlnTTQtTXZadFd4amluRXJuS1VDV1RiSWZ2bXNSODJ2bVNoWGo0bFQ2RkhMODRudXNxTTBZOXM5MnB6bDhYcXdwNXhIdGxkcVV5aW50V2xKdkpGbzViQ0dCeDl0QmtVWlFoR1hWVnBIcA?oc=5
+
+TAQA Transmission wins two awards at Asian Power Awards 2026    Asian Power
