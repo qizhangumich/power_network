@@ -315,6 +315,8 @@ const INSTITUTIONS = [
   {id:"sdeira", n:"Sdeira Group", s:"realestate", t:3, p:56, short:"Sdeira Group"},
   {id:"modon_properties", n:"Modon Properties PJSC", s:"realestate", t:2, p:54, short:"Modon Properties"},
   {id:"aldar_capital", n:"Aldar Capital", s:"finance", t:2, p:58, short:"Aldar Capital"},
+  {id:"magnati", n:"Magnati", s:"finance", t:2, p:58, short:"Magnati"},
+  {id:"topaz_energy", n:"Topaz Energy and Marine", s:"energy", t:2, p:58, short:"Topaz Energy"},
 ];
 
 const PEOPLE = [
@@ -4619,4 +4621,5 @@ const AKA = {
   abu_dhabi_chamber:["ADCCI"],
   insead_abu_dhabi:["INSEAD Middle East Campus","Abu Dhabi"],
   sdeira:["KEZAD Communities"],
+  topaz_energy:["Topaz"],
 };

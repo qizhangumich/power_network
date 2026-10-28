@@ -536,6 +536,18 @@ const INSTITUTIONS = [
   {id:"daco", n:"Dammam Airports Company", s:"industry", t:2, p:58, short:"DACO"},
   {id:"aljazira_capital", n:"AlJazira Capital", s:"finance", t:3, p:56, short:"AlJazira Capital"},
   {id:"kkh_al_majmaah", n:"King Khalid Hospital - Al Majma'ah", s:"health", t:3, p:60, short:"KKH Al-Majmaah"},
+  {id:"mdlbeast", n:"MDLBeast", s:"consumer_disc", t:3, p:54, short:"MDLBeast"},
+  {id:"tahaluf", n:"Tahaluf", s:"consumer_disc", t:3, p:54, short:"Tahaluf"},
+  {id:"stv", n:"Saudi Technology Ventures (STV)", s:"finance", t:2, p:58, short:"STV"},
+  {id:"panda_retail", n:"Panda Retail Company", s:"consumer_stap", t:2, p:56, short:"Panda Retail"},
+  {id:"l_azurde", n:"L'azurde Company for Jewelry", s:"consumer_disc", t:3, p:52, short:"L'azurde"},
+  {id:"paytabs", n:"PayTabs Group", s:"finance", t:3, p:54, short:"PayTabs"},
+  {id:"hyperpay", n:"HyperPay", s:"finance", t:3, p:54, short:"HyperPay"},
+  {id:"geidea", n:"Geidea", s:"finance", t:3, p:54, short:"Geidea"},
+  {id:"foodics", n:"Foodics", s:"tech", t:3, p:54, short:"Foodics"},
+  {id:"lean_technologies", n:"Lean Technologies", s:"tech", t:3, p:52, short:"Lean Technologies"},
+  {id:"floward", n:"Floward", s:"consumer_disc", t:3, p:52, short:"Floward"},
+  {id:"mrsool", n:"Mrsool Company", s:"consumer_disc", t:3, p:54, short:"Mrsool"},
 ];
 
 const PEOPLE = [
@@ -4003,6 +4015,9 @@ const OWNERSHIP = [
   ["daco","gaca_sa","operates airport owned by","ns"],
   ["aljazira_capital","lst_1020","subsidiary","v"],
   ["kkh_al_majmaah","moh_sa","operates under MOH / Riyadh Health","v"],
+  ["tahaluf","lst_4071","JV","ns"],
+  ["stv","pif","portfolio company","ns"],
+  ["panda_retail","lst_2050","subsidiary","ns"],
 ];
 
 const FAMILY = [
@@ -4133,4 +4148,10 @@ const AKA = {
   sirar_by_stc:["sirar"],
   basamh:["Basamh Trading Company","BTC"],
   kkh_al_majmaah:["King Khalid Hospital","King Khaled Hospital-Al-Majmaah","King Khalid Hospital-Al Majma'ah"],
+  mdlbeast:["Soundstorm"],
+  tahaluf:["Tahaluf Thuraya"],
+  stv:["Saudi Technology Ventures"],
+  panda_retail:["Panda"],
+  geidea:["Geidea Technology"],
+  lean_technologies:["Lean"],
 };

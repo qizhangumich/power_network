@@ -240,6 +240,7 @@ const INSTITUTIONS = [
   {id:"mjla", n:"Ministry of Justice and Legal Affairs", s:"gov", t:1, p:66, short:"MJLA"},
   {id:"mara_oman", n:"Ministry of Endowments and Religious Affairs", s:"gov", t:1, p:60, short:"MARA Oman"},
   {id:"riyada", n:"Small and Medium Enterprises Development Authority (Riyada)", s:"finance", t:2, p:58, short:"Riyada"},
+  {id:"raysut_cement", n:"Raysut Cement Company", s:"materials", t:3, p:56, short:"Raysut Cement"},
 ];
 
 const PEOPLE = [
@@ -1907,4 +1908,5 @@ const AKA = {
   mjla:["Ministry of Justice","Ministry of Legal Affairs"],
   mara_oman:["MARA","Ministry of Awqaf and Religious Affairs","Ministry of Awqaf and Islamic Affairs"],
   riyada:["SME Development Authority"],
+  raysut_cement:["Raysut Cement Company SAOG"],
 };

@@ -185,6 +185,7 @@ const INSTITUTIONS = [
   {id:"baca", n:"Bahrain Authority for Culture and Antiquities", s:"gov", t:2, p:58, short:"BACA"},
   {id:"nao_bahrain", n:"National Audit Office", s:"gov", t:1, p:64, short:"NAO Bahrain"},
   {id:"moca_bahrain", n:"Ministry of Cabinet Affairs", s:"gov", t:1, p:64, short:"MoCA Bahrain"},
+  {id:"eskan_bank", n:"Eskan Bank", s:"finance", t:2, p:58, short:"Eskan Bank"},
 ];
 
 const PEOPLE = [

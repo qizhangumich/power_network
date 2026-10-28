@@ -225,6 +225,13 @@ const INSTITUTIONS = [
   {id:"al_yousuf", n:"Al Yousuf Group", s:"conglomerate", t:3, p:57, short:"Al Yousuf Group"},
   {id:"binhendi", n:"BinHendi Enterprises", s:"consumer_disc", t:3, p:54, short:"BinHendi"},
   {id:"index", n:"INDEX Holding", s:"conglomerate", t:3, p:52, short:"INDEX Holding"},
+  {id:"jumbo", n:"Jumbo Electronics Company", s:"consumer_disc", t:3, p:54, short:"Jumbo"},
+  {id:"bayut", n:"Bayut", s:"tech", t:3, p:54, short:"Bayut"},
+  {id:"bitoasis", n:"BitOasis", s:"finance", t:3, p:52, short:"BitOasis"},
+  {id:"sarwa", n:"Sarwa", s:"finance", t:3, p:52, short:"Sarwa"},
+  {id:"gulf_navigation", n:"Gulf Navigation Holding", s:"industry", t:3, p:54, short:"Gulf Navigation"},
+  {id:"arabtec", n:"Arabtec Holding", s:"industry", t:2, p:58, short:"Arabtec"},
+  {id:"depa_united", n:"Depa United Group", s:"industry", t:3, p:54, short:"Depa United"},
 ];
 
 const PEOPLE = [
@@ -2759,4 +2766,9 @@ const AKA = {
   alserkal:["Al Serkal Group"],
   al_yousuf:["Al Yousuf LLC"],
   binhendi:["Bin Hendi Enterprises"],
+  jumbo:["Jumbo Group"],
+  bayut:["Bayut.com"],
+  sarwa:["Sarwa Digital Wealth"],
+  gulf_navigation:["GulfNav"],
+  depa_united:["Depa"],
 };
