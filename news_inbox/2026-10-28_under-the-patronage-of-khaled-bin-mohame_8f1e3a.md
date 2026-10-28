@@ -1,0 +1,5 @@
+# Under the patronage of Khaled bin Mohamed bin Zayed, Youth 4 Sustainability marks 10 years of empowering young leaders
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi9wFBVV95cUxORjNuZThWdjBXNjdWZmoxV1gxTTVDLURSUnpFVjBGOGhkR0pEYzZPWHRrMWl1QmhFcE9pSVNBRHMydGpRbUNMeDdFR2dYY2VTQjFXRzUxXzVESVpEMXIwZ0MyUUVRNGk3TG9mWmozcXczMkJDLURVQUp5eE1PS2ZBTGpvYUxoNXU3M3dJYjFkMDFBZ1JESHZyUFgxUlhzVnFZQlVkLU9xQXduODBXNzktdFFNNWpES0E2R0ZuNkhqNjNmWmplMTdMRW5td1RJN3NPcDBFRnJWSXU5NGpyMDNaTDFUbFhIa2NmTHJodmR4VV9FRlJtWHl3?oc=5
+
+Under the patronage of Khaled bin Mohamed bin Zayed, Youth 4 Sustainability marks 10 years of empowering young leaders    مكتب أبوظبي الإعلامي

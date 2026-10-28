@@ -1,0 +1,5 @@
+# Sheikh Khaled, Mark Carney discuss strengthening strategic partnerships, expanding bilateral cooperation
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYlZINWNDOTdMR2w1a1ZTZVhKaGlZTTVlOEhDMEh5YTV3RWswRlFKaDFXbmJWbjdfWE92YUh4clUtdWZnOVhQdUVpQWdoNDUtMXFpcllCc2Z3UTR5VVlPUExhSVhTNjJzd2FmSjNyRERrTGJ1dmNZSDN2ZmFLU1pYbUZMUlc4eE03NnVPQk9VMUxWdzlDLUR6VnNvZG1USXV3ZzB0V0pValVUSjBVclpVYTJEd2VaYVhSWTBJN1JWbDJmTXFDS0F2VFpKR3BqODRQR0lFbktWeHhBLW8?oc=5
+
+Sheikh Khaled, Mark Carney discuss strengthening strategic partnerships, expanding bilateral cooperation    Gulf Today

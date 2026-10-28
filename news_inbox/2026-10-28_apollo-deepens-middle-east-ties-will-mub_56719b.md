@@ -1,0 +1,5 @@
+# Apollo Deepens Middle East Ties: Will Mubadala Deal Drive Growth?
+source: TradingView
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYkJ5bzJTdTIxRjFoLVFmOXctLXBJbllVNnFUcE10eElpXzM0OC1tQUlxNnVZa2ItcG1HUVBYZGxUbWZDVjg2cG5JTElaTzlyMmw5anNzeXhqMjZDZG85c3pZVjZTeW4xOU5yVVV6Y2w2UXpnbkdtTGppYVk1b1BGSjVnOTVaNGlzQ2xqVEVNNVVuZF9BUEZaaGcya2Iwc0lvc09Ha2xicG8xU3RwVVRhdDRTR1NqMlVKVGw0?oc=5
+
+Apollo Deepens Middle East Ties: Will Mubadala Deal Drive Growth?    TradingView

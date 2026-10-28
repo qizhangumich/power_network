@@ -1,0 +1,5 @@
+# Space42, Viasat, and Terrestar sign satellite interoperability MoU
+source: StreetInsider
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTktpbmd4b3hXZEw3bExsZUNTdG9NcWlpbzAxQi1Vcy1IY0x0VzFSMDJVbFE3WmdDMkFBdk1DNzNZNGxrcHRVZTFteEZoRzVvQXh0c0RPUEQzZG1TbW1BRHliS0t5T2haM0FGWW5QdEdxc2tBb2t1WFREZEVIUnVHSzkyamJRUXhxRVlCVFZSZHo3azFwR2xucDZGQVRseEZjX0ZMS0JjUHdPNEx4QUEya3JiZlFRODJ6cUptYkh6VHcxS3FUZWxBNQ?oc=5
+
+Space42, Viasat, and Terrestar sign satellite interoperability MoU    StreetInsider

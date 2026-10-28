@@ -1,0 +1,5 @@
+# Apollo Acquires Mubadala Capital Stake Global Expansion
+source: Funds Society
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxQdjAycjd4bDVDLWp5blpwUXdRQXRrT1JlNnpBcmZtVHVpaTRhZk5MVloyaVNVTGlUZy1fUm1UTER1Unl5dWtxSDFIbkVrUzl1NU03dmdBZWc3dGxhTUlCWVpSVGZmeXR4R1FzTWpWV2tvd19pcWxwS0dsYl9sRGZ6a3lNRENSZ21fdDFnR0RWbURHZ1NhOTJEVmtBQTFFMDZnaVhpRGx3RmRnb0RUSDM5RndDYw?oc=5
+
+Apollo Acquires Mubadala Capital Stake Global Expansion    Funds Society

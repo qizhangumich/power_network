@@ -1,0 +1,5 @@
+# Tracker: Apollo takes the Mubadala Capital seat TWG never filled
+source: The Esk
+url: https://news.google.com/rss/articles/CBMid0FVX3lxTE1oRW5Fc0V2WjJCVXNELWJlaDFXX19jTkxUQnI1ZTRyVDZHQUd1TTNLczl4WHhFM3l4TTN3VVZITnFJeHhKQV9US05Zc29NTVQ5enNES2RWbzZqRmNnWXBRZk15MWljdjhNZDFuUFNhamFGaUJmMko00gF8QVVfeXFMT0Eza19yLWc2bmhFaTJoUW9vclU1NldwT0J0TjRxU1BPdmtYSW5pUEc1ck5GVDlfY0x5SzFZSlgwQWFxbjdmdUU0T0RUbjgxa1FvdERHX2h0YWhEeV9EeVpDUDVjbHpHUWNLLU9WNVFrRENmZHhrMjB5Yy0xTw?oc=5
+
+Tracker: Apollo takes the Mubadala Capital seat TWG never filled    The Esk

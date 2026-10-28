@@ -1,0 +1,5 @@
+# Wheels down in Western Canada: Etihad Airways makes history with first-ever non-stop flight between Calgary and the Gulf Region
+source: Zawya
+url: https://news.google.com/rss/articles/CBMilwJBVV95cUxObUZITEliWlNWN0l4TGJsVjBqYk9Nd2lZZG54Q0REZFY4aHUxZ1ZrQ0dJZ1BYQU1yOUctbWRtN2lxM3ZlQXNrOWQ5Y3pDdzdadnM3amhHcDNrM1JOdjh0M1Z4TEw2MWxPeU9Ic1ZhUzhuaHhKY0h0TjVXRll4cXRuZk95ZXBJV3g3NUhfakhqZ2wwTlR1U0duY0NmcXpUZVRFSjZjcnZGc1k5MjRjRTk3ZjM5UjFfUkJZd0J2NGpaYTJTOXpNTzRMdmxVWUlxQzhmQkFkLXptd1ZjMmljTFRpVjJSMEVuSHl1eHBuUjBjakhXSi1VZ1FCQ3hEaVZjaDBaUUNPOGtWZVAwa2xhSUVMTVhOTzNkRlk?oc=5
+
+Wheels down in Western Canada: Etihad Airways makes history with first-ever non-stop flight between Calgary and the Gulf Region    Zawya

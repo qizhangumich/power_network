@@ -1,0 +1,5 @@
+# Trade deals should open more than markets
+source: The National
+url: https://news.google.com/rss/articles/CBMiogFBVV95cUxOQ2lWMWlMVWVYRm9hRDgtaEdta3V6TU8yZENRUHRsTjluSFgxU2d0bkZEeXI3SDlDa080b2R4N0R6bFdLa0hrN0s3bkxMV05sZlNkbEpEelozbEstNlJCZndjbEx1NTUzaTJ4cUhKXy1zTzV2WlptcTlZc0lWYlZYMGxEa1J2cEFOYUZyYV95OUFKRk5oc0RFTGRDWDhTMnZRUFE?oc=5
+
+Trade deals should open more than markets    The National

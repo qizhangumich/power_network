@@ -1,0 +1,5 @@
+# Adnoc Said to Plan Early 2027 Crude Deliveries Via Hormuz Bypass Pipeline
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPX3BWcnJfNzcxeEljY1YzTEh3WFNQUHMxck96X25ZMlRIMDZqRVpBWnZoeXVXT05JZEpJUjNFdHhDM3dqdXB4LUFnZ25MWXVBUmFfV3RjQzNURmNTeDh2T1FucjVSNlpYWnJyNWl0ZTlkM0VubmU5TFFqRkxlNWpwNnNZZnZocXhJSV85RmotRkxGMlRrLTRHdEEyUEVxeVdwMlMxeXg3NVJpMXQzNGpmTUd5ODBsVjFETFJPVklzRGtLaTZI?oc=5
+
+Adnoc Said to Plan Early 2027 Crude Deliveries Via Hormuz Bypass Pipeline    marketscreener.com

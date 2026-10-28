@@ -1,0 +1,5 @@
+# Noatum Logistics doubles trucking fleet to over 850 units across GCC region
+source: Data Portuaria
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdnI1RFpjLXVWdjFqN2cxbWRTOVNrMWZqYy1WQ0xuMDdKdUNQWU9nZVBTRm1OSDIxSFVrU1V0RE5RbFA0andVOUhFN2FXY2FOdmFtd1lCcy1lWWhDWGVtUG9pVUpHM0FwRnUyTHpoWi1obHBLRDA5ZUVDWHphTlg4bDM4ZndpZHZSRVZJbjVxeTk2djZhTmxNR3J0a295NWM4RHlHQXlUWnF6cHNfcllQZEZhQUJ4bDFhZEtQTi1lWE8xYks4OXRsTTBOWkotUHlV?oc=5
+
+Noatum Logistics doubles trucking fleet to over 850 units across GCC region    Data Portuaria
