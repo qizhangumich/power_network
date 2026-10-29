@@ -1,0 +1,5 @@
+# PTTEP, Eni combine Abu Dhabi Ghasha project stakes through new venture
+source: Offshore Magazine
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxON2V6OVQxOGc0WmFYUU1KbWJXUmZhTnpxc1JuM2RGRW1mLVpoRzgzM01MTnRJVzFFLVpaZjFNMjRVTHVwQTdGQnlhTjFIMk1fOGo0TVZCTnpSMkZ0blI5VkNkYS1FQlhDYlpGeUtIaGFneDNYSzNkeUJYeDFCZk1PU09aV3VHZklQWFBHZnNLYjZxajg5eER4WVppVHZOaFFFWkNEQ1U4bnc1OUh4SFBpTFpzMm9pUlBGUFpmcUdpa1Bialg4akpteEJBenM0UDJOVEhqVGI1UGM?oc=5
+
+PTTEP, Eni combine Abu Dhabi Ghasha project stakes through new venture    Offshore Magazine
