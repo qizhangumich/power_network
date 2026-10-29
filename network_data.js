@@ -316,7 +316,7 @@ const INSTITUTIONS = [
   {id:"modon_properties", n:"Modon Properties PJSC", s:"realestate", t:2, p:54, short:"Modon Properties"},
   {id:"aldar_capital", n:"Aldar Capital", s:"finance", t:2, p:58, short:"Aldar Capital"},
   {id:"magnati", n:"Magnati", s:"finance", t:2, p:58, short:"Magnati"},
-  {id:"topaz_energy", n:"Topaz Energy and Marine", s:"energy", t:2, p:58, short:"Topaz Energy"},
+  {id:"topaz_energy", n:"P&O Maritime Logistics", s:"energy", t:2, p:58, short:"P&O Maritime"},
 ];
 
 const PEOPLE = [
@@ -4258,6 +4258,39 @@ const PEOPLE = [
   {id:"mohammed_shaikley", n:"Mohammed Shaikley", t:2, p:58, s:"conglomerate", roles:[
     ["alnowais_investments","Director - Corporate Finance","executive","v"],
     ]},
+  {id:"ramana_kumar", n:"Ramana Kumar", t:2, p:60, s:"finance", roles:[
+    ["magnati","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"salim_awan", n:"Salim Awan", t:2, p:60, s:"finance", roles:[
+    ["magnati","Managing Director & Head of Business Development - Institutional Payment Solutions","executive","v"],
+    ]},
+  {id:"imad_ahmed_abdalwahab", n:"Imad Ahmed Abdalwahab", t:2, p:60, s:"finance", roles:[
+    ["magnati","Managing Director - Government Payment Solutions","executive","v"],
+    ]},
+  {id:"enaz_ebrahim", n:"Enaz Ebrahim", t:2, p:60, s:"finance", roles:[
+    ["magnati","Managing Director - Consumer Payment Solutions","executive","v"],
+    ]},
+  {id:"umer_farooq", n:"Umer Farooq", t:2, p:60, s:"finance", roles:[
+    ["magnati","Managing Director - Payment Platform","executive","v"],
+    ]},
+  {id:"nishit_doshi", n:"Nishit Doshi", t:2, p:60, s:"finance", roles:[
+    ["magnati","Managing Director - Product, Propositions & Partnerships","executive","v"],
+    ]},
+  {id:"prasad_narayan", n:"Prasad Narayan", t:2, p:60, s:"energy", roles:[
+    ["topaz_energy","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"latifa_mohammad", n:"Latifa Mohammad", t:2, p:58, s:"energy", roles:[
+    ["topaz_energy","Chief Human Resources Officer","executive","v"],
+    ]},
+  {id:"antoine_troullier", n:"Antoine Troullier", t:2, p:58, s:"energy", roles:[
+    ["topaz_energy","Chief Operating Officer - Offshore Services","executive","v"],
+    ]},
+  {id:"shahrooz_kashani", n:"Shahrooz Kashani", t:2, p:46, s:"energy", roles:[
+    ["topaz_energy","VP Commercial & Tendering - Offshore Services","executive","v"],
+    ]},
+  {id:"nikhil_ahluwalia", n:"Nikhil Ahluwalia", t:2, p:58, s:"energy", roles:[
+    ["topaz_energy","Chief Operating Officer - Port Services & Bulk Modalities","executive","v"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -4621,5 +4654,5 @@ const AKA = {
   abu_dhabi_chamber:["ADCCI"],
   insead_abu_dhabi:["INSEAD Middle East Campus","Abu Dhabi"],
   sdeira:["KEZAD Communities"],
-  topaz_energy:["Topaz"],
+  topaz_energy:["Topaz","Topaz Energy and Marine","POML"],
 };

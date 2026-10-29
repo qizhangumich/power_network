@@ -232,6 +232,10 @@ const INSTITUTIONS = [
   {id:"gulf_navigation", n:"Gulf Navigation Holding", s:"industry", t:3, p:54, short:"Gulf Navigation"},
   {id:"arabtec", n:"Arabtec Holding", s:"industry", t:2, p:58, short:"Arabtec"},
   {id:"depa_united", n:"Depa United Group", s:"industry", t:3, p:54, short:"Depa United"},
+  {id:"al_habtoor_motors", n:"Al Habtoor Motors LLC", s:"consumer_disc", t:3, p:54, short:"Al Habtoor Motors"},
+  {id:"diamondlease", n:"Diamondlease LLC", s:"consumer_disc", t:3, p:52, short:"Diamondlease"},
+  {id:"habtoor_hospitality", n:"Habtoor Hospitality L.L.C.", s:"consumer_disc", t:3, p:54, short:"Habtoor Hospitality"},
+  {id:"emirates_intl_sch", n:"Emirates International School", s:"education", t:3, p:52, short:"Emirates Intl Sch"},
 ];
 
 const PEOPLE = [
@@ -2669,6 +2673,10 @@ const OWNERSHIP = [
   ["dubal","icd","subsidiary (holds ICD's 50% stake in EGA)","v"],
   ["dubai_residential","dubaiholding","subsidiary","v"],
   ["merex_investment","dubaiholding","joint venture","v"],
+  ["al_habtoor_motors","alhabtoor","subsidiary","v"],
+  ["diamondlease","alhabtoor","subsidiary","v"],
+  ["habtoor_hospitality","alhabtoor","subsidiary","v"],
+  ["emirates_intl_sch","alhabtoor","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -2771,4 +2779,5 @@ const AKA = {
   sarwa:["Sarwa Digital Wealth"],
   gulf_navigation:["GulfNav"],
   depa_united:["Depa"],
+  habtoor_hospitality:["Metropolitan Hotels"],
 };

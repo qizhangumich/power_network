@@ -478,6 +478,7 @@ const PEOPLE = [
     ["kipic","Board Member","board","v"],
     ["knpc","Deputy CEO - Mina Al-Ahmadi Refinery","executive","v"]]},
   {id:"abdullah_shaker_al", n:"Abdullah Shaker Al-Otaibi", t:2, p:60, s:"energy", roles:[
+    ["qurain_petrochem","Board Member","board","v"],
     ["knpc","Deputy CEO - Mina Abdullah Refinery","executive","v"]]},
   {id:"bandar_mahdi_al", n:"Bandar Mahdi Al-Qahtani", t:2, p:60, s:"energy", roles:[
     ["kipic","Deputy CEO - Administration and Commercial Affairs","executive","v"],
@@ -499,6 +500,7 @@ const PEOPLE = [
     ["auk","Board Member, Board of Trustees","board","v"],
     ["kipco","Deputy Group Chief Executive Officer","executive","v"]]},
   {id:"sheikh_sabah_mohammad", n:"Sheikh Sabah Mohammad Abdulaziz Al Sabah", t:2, p:58, s:"sovereign", roles:[
+    ["qurain_petrochem","Vice Chairman and CEO","board","v"],
     ["kipco","Group Chief Investment Officer","executive","v"]]},
   {id:"moustapha_samir_chami", n:"Moustapha Samir Chami", t:2, p:58, s:"sovereign", roles:[
     ["kipco","Group Chief Financial Officer","executive","v"]]},
@@ -1162,9 +1164,9 @@ const PEOPLE = [
   {id:"tareq_fahad_alothman", n:"Tareq Fahad AlOthman", t:2, p:62, s:"industry", roles:[
     ["lst_humansoft","Chairman","board","v"]]},
   {id:"hassan_al_ali", n:"Hassan Al-Ali", t:2, p:52, s:"industry", roles:[
-    ["lst_humansoft","Board Member","board","ns"]]},
+    ["lst_humansoft","Board Member","board","v"]]},
   {id:"abdulrazzaq_mohammed", n:"Abdulrazzaq Mohammed", t:2, p:52, s:"industry", roles:[
-    ["lst_humansoft","Independent Board Member","board","ns"]]},
+    ["lst_humansoft","Independent Board Member","board","v"]]},
   {id:"atef_bin_saeed", n:"Atef bin Saeed bin Rashid Al-Siyabi", t:2, p:52, s:"comm", roles:[
     ["zain","Board Member","board","v"]]},
   {id:"shukri_abdulaziz_al", n:"Shukri Abdulaziz Al-Mahrous", t:2, p:52, s:"energy", roles:[
@@ -2029,6 +2031,42 @@ const PEOPLE = [
     ["mew_kuwait","Minister of Electricity Water and Renewable Energy","executive","ns"]]},
   {id:"turki_abdullah_al", n:"Turki Abdullah Al-Mutairi", t:2, p:58, s:"gov", roles:[
     ["moinfo_kw","Assistant Undersecretary for Radio and Television Sector","executive","ns"]]},
+  {id:"elia_saber_hanna", n:"Elia Saber Hanna", t:2, p:58, s:"industry", roles:[
+    ["kharafi_national","Executive Director (Kharafi National Egypt)","executive","v"]]},
+  {id:"mayank_hasmukhlal_baxi", n:"Mayank Hasmukhlal Baxi", t:2, p:62, s:"industry", roles:[
+    ["lst_humansoft","Vice Chairman","board","v"]]},
+  {id:"dalal_hasan_al", n:"Dalal Hasan Al Sabti", t:2, p:52, s:"industry", roles:[
+    ["lst_humansoft","Board Member","board","v"]]},
+  {id:"hasan_qasim_al", n:"Hasan Qasim Al Ali", t:2, p:52, s:"industry", roles:[
+    ["lst_humansoft","Board Member","board","v"]]},
+  {id:"abdulrazaq_abdulla_mohammad", n:"Abdulrazaq Abdulla Mohammad Ahmed", t:2, p:52, s:"industry", roles:[
+    ["lst_humansoft","Independent Board Member","board","v"]]},
+  {id:"georges_yahchouchi", n:"Georges Yahchouchi", t:2, p:60, s:"industry", roles:[
+    ["lst_humansoft","CEO and President of AUM","executive","v"]]},
+  {id:"anup_dhand", n:"Anup Dhand", t:2, p:58, s:"industry", roles:[
+    ["lst_humansoft","Chief Financial Officer","executive","v"]]},
+  {id:"mohaned_hassanin", n:"Mohaned Hassanin", t:2, p:58, s:"industry", roles:[
+    ["lst_humansoft","President of ACM","executive","v"]]},
+  {id:"nisreen_rasheed", n:"Nisreen Rasheed", t:2, p:46, s:"industry", roles:[
+    ["lst_humansoft","VP Compliance and Administration","executive","v"]]},
+  {id:"vijay_gopal", n:"Vijay Gopal", t:2, p:46, s:"industry", roles:[
+    ["lst_humansoft","Head of Risk Management Office","executive","v"]]},
+  {id:"sadoun_a_ali", n:"Sadoun A. Ali", t:2, p:62, s:"materials", roles:[
+    ["qurain_petrochem","Chairman","board","v"]]},
+  {id:"atallah_rashid_al", n:"Atallah Rashid Al-Mutairi", t:2, p:52, s:"materials", roles:[
+    ["qurain_petrochem","Independent Board Member","board","v"]]},
+  {id:"mohamed_fahad_mohamed", n:"Mohamed Fahad Mohamed Al Othman", t:2, p:52, s:"materials", roles:[
+    ["qurain_petrochem","Board Member","board","v"]]},
+  {id:"tanweer_a_khalfay", n:"Tanweer A. Khalfay", t:2, p:58, s:"materials", roles:[
+    ["qurain_petrochem","Chief Financial Officer","executive","v"]]},
+  {id:"fuad_a_akbar", n:"Fuad A. Akbar", t:2, p:58, s:"materials", roles:[
+    ["qurain_petrochem","Chief Projects Officer","executive","v"]]},
+  {id:"mickey_zacharia", n:"Mickey Zacharia", t:2, p:58, s:"materials", roles:[
+    ["qurain_petrochem","Chief Investment Officer","executive","v"]]},
+  {id:"ahmed_a_al", n:"Ahmed A. Al-Masqati", t:2, p:46, s:"materials", roles:[
+    ["qurain_petrochem","Head of HR Admin and IT","executive","v"]]},
+  {id:"ammar_g_omeiri", n:"Ammar G. Omeiri", t:2, p:58, s:"materials", roles:[
+    ["qurain_petrochem","Chief Audit Executive","executive","v"]]},
 ];
 
 const OWNERSHIP = [

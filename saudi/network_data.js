@@ -548,6 +548,10 @@ const INSTITUTIONS = [
   {id:"lean_technologies", n:"Lean Technologies", s:"tech", t:3, p:52, short:"Lean Technologies"},
   {id:"floward", n:"Floward", s:"consumer_disc", t:3, p:52, short:"Floward"},
   {id:"mrsool", n:"Mrsool Company", s:"consumer_disc", t:3, p:54, short:"Mrsool"},
+  {id:"aseer_municipality", n:"Aseer Municipality", s:"gov", t:2, p:58, short:"Aseer Municipality"},
+  {id:"reda_gulf", n:"REDA Gulf Holding", s:"industry", t:3, p:57, short:"REDA Gulf Holding"},
+  {id:"al_bayroni", n:"Jubail Fertilizer Company", s:"materials", t:3, p:54, short:"Al-Bayroni"},
+  {id:"ibn_al_baytar", n:"National Chemical Fertilizer Company", s:"materials", t:3, p:54, short:"Ibn Al-Baytar"},
 ];
 
 const PEOPLE = [
@@ -1302,10 +1306,12 @@ const PEOPLE = [
     ["alpha_capital","Board Member","board","v"],
     ["lst_1010","Chairman of the Board","board","v"]]},
   {id:"eng_mutaz_kusai", n:"Eng. Mutaz Kusai AlAzzawi", t:2, p:62, s:"finance", roles:[
+    ["panda_retail","Board Member","board","v"],
     ["lst_1010","Vice-Chairman of the Board","board","v"]]},
   {id:"ibrahim_hassan_sharbatly", n:"Ibrahim Hassan Sharbatly", t:2, p:52, s:"finance", roles:[
     ["lst_1010","Board Member","board","v"]]},
   {id:"eng_abdulrahman_ismail", n:"Eng. Abdulrahman Ismail Tarabzouni", t:2, p:52, s:"finance", roles:[
+    ["stv","Founder & Chief Executive Officer","executive","v"],
     ["lst_1010","Board Member","board","v"]]},
   {id:"eng_omar_hamad", n:"Eng. Omar Hamad Al-Madhi", t:2, p:52, s:"finance", roles:[
     ["lst_1010","Board Member","board","v"]]},
@@ -1346,39 +1352,55 @@ const PEOPLE = [
   {id:"abdulrahman_al_huthail", n:"Abdulrahman Al-Huthail", t:2, p:58, s:"finance", roles:[
     ["lst_1010","Chief Operating Officer","executive","v"]]},
   {id:"sulaiman_a_k", n:"Sulaiman A. K. Al-Muhaidib", t:2, p:62, s:"consumer_stap", roles:[
+    ["panda_retail","Chairman of the Board","board","v"],
     ["al_muhaidib","Chairman","board","v"],
     ["lst_2050","Chairman","board","v"]]},
   {id:"bader_abdullah_alissa", n:"Bader Abdullah Alissa", t:2, p:62, s:"consumer_stap", roles:[
+    ["panda_retail","Vice Chairman of the Board","board","v"],
     ["lst_2050","Vice Chairman of the Board","board","v"]]},
   {id:"ahmed_abdulrhman_al", n:"Ahmed Abdulrhman Al Humaidan", t:2, p:52, s:"consumer_stap", roles:[
+    ["panda_retail","Board Member","board","v"],
     ["lst_2050","Board Member","board","v"]]},
   {id:"ahmed_waza_al", n:"Ahmed Waza Al Qahtani", t:2, p:52, s:"consumer_stap", roles:[
+    ["panda_retail","Board Member","board","v"],
     ["lst_2050","Board Member","board","v"]]},
   {id:"issam_majed_al", n:"Issam Majed Al-Muhaidib", t:2, p:52, s:"consumer_stap", roles:[
+    ["panda_retail","Board Member","board","v"],
     ["lst_2050","Board Member","board","v"]]},
   {id:"waled_abdullah_al", n:"Waled Abdullah Al Ghreri", t:2, p:52, s:"consumer_stap", roles:[
+    ["panda_retail","Board Member","board","v"],
     ["lst_2050","Board Member","board","v"]]},
   {id:"mutaz_qusai_alazzawi", n:"Mutaz Qusai AlAzzawi", t:2, p:52, s:"consumer_stap", roles:[
     ["lst_2050","Board Member","board","v"]]},
   {id:"fahad_abdullah_alkassim", n:"Fahad Abdullah ALKassim", t:2, p:52, s:"consumer_stap", roles:[
+    ["panda_retail","Board Member","board","v"],
     ["lst_2050","Board Member","board","v"]]},
   {id:"basel_mohammed_binjabr", n:"Basel Mohammed Binjabr", t:2, p:52, s:"consumer_stap", roles:[
+    ["panda_retail","Board Member","board","v"],
     ["lst_2050","Board Member","board","v"]]},
   {id:"bader_hamad_al", n:"Bader Hamad Al-Rabiah", t:2, p:52, s:"consumer_stap", roles:[
+    ["panda_retail","Board Member","board","v"],
     ["lst_2050","Board Member","board","v"]]},
   {id:"rakan_abdulaziz_al", n:"Rakan Abdulaziz Al Fadl", t:2, p:52, s:"consumer_stap", roles:[
+    ["panda_retail","Board Member","board","v"],
     ["lst_2050","Board Member","board","v"]]},
   {id:"sameh_mahmoud_hassan", n:"Sameh Mahmoud Hassan", t:2, p:60, s:"consumer_stap", roles:[
+    ["panda_retail","Group Chief Executive Officer","executive","v"],
     ["lst_2050","Group Chief Executive Officer","executive","v"]]},
   {id:"bander_talaat_hamooh", n:"Bander Talaat Hamooh", t:2, p:60, s:"consumer_stap", roles:[
+    ["panda_retail","Chief Executive Officer - Panda Retail Company","executive","v"],
     ["lst_2050","CEO - Panda Retail Company (Retail Sector)","executive","v"]]},
   {id:"wajid_usman_khan", n:"Wajid Usman Khan", t:2, p:58, s:"consumer_stap", roles:[
+    ["panda_retail","Group Chief Financial Officer","executive","v"],
     ["lst_2050","Group Chief Financial Officer","executive","v"]]},
   {id:"adeeb_ibrahim_moodi", n:"Adeeb Ibrahim Moodi", t:2, p:58, s:"consumer_stap", roles:[
+    ["panda_retail","Chief Human Capital Officer","executive","v"],
     ["lst_2050","Chief Human Capital Officer","executive","v"]]},
   {id:"mohammad_nasr", n:"Mohammad Nasr", t:2, p:58, s:"consumer_stap", roles:[
+    ["panda_retail","Chief Investment Officer","executive","v"],
     ["lst_2050","Chief Investment Officer","executive","v"]]},
   {id:"elnour_ali_saad", n:"Elnour Ali Saad", t:2, p:58, s:"consumer_stap", roles:[
+    ["panda_retail","Chief Corporate Governance and Legal Affairs Officer & Group Board Secretary","executive","v"],
     ["lst_2050","Chief Corporate Governance and Legal Affairs Officer and Group Board Secretary","executive","v"]]},
   {id:"hazim_al_ahmadi", n:"Hazim Al Ahmadi", t:2, p:46, s:"consumer_stap", roles:[
     ["lst_2050","General Manager - Information Technology","executive","v"]]},
@@ -3617,6 +3639,20 @@ const PEOPLE = [
     ["sumou","Independent Board Member","board","ns"]]},
   {id:"essam_ahmed_khalthoum", n:"Essam Ahmed Khalthoum", t:2, p:52, s:"realestate", roles:[
     ["sumou","Independent Board Member","board","ns"]]},
+  {id:"ahmad_alnaimi", n:"Ahmad AlNaimi", t:2, p:58, s:"finance", roles:[
+    ["stv","General Partner","executive","v"]]},
+  {id:"mazin_alzaidi", n:"Mazin Alzaidi", t:2, p:58, s:"finance", roles:[
+    ["stv","General Partner","executive","v"]]},
+  {id:"ihsan_jawad", n:"Ihsan Jawad", t:2, p:58, s:"finance", roles:[
+    ["stv","General Partner","executive","v"]]},
+  {id:"luca_barbi", n:"Luca Barbi", t:2, p:58, s:"finance", roles:[
+    ["stv","General Partner & Chief Operating Officer","executive","v"]]},
+  {id:"yazeed_alturki", n:"Yazeed Alturki", t:2, p:58, s:"finance", roles:[
+    ["stv","Associate Partner","executive","v"]]},
+  {id:"abdulrahman_alageel", n:"Abdulrahman Alageel", t:2, p:58, s:"finance", roles:[
+    ["stv","Principal","executive","v"]]},
+  {id:"madiha_loveless", n:"Madiha Loveless", t:2, p:58, s:"finance", roles:[
+    ["stv","Finance & IR Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -4018,6 +4054,8 @@ const OWNERSHIP = [
   ["tahaluf","lst_4071","JV","ns"],
   ["stv","pif","portfolio company","ns"],
   ["panda_retail","lst_2050","subsidiary","ns"],
+  ["al_bayroni","sabic_agri_nutr","JV","v"],
+  ["ibn_al_baytar","sabic_agri_nutr","JV","v"],
 ];
 
 const FAMILY = [
@@ -4154,4 +4192,6 @@ const AKA = {
   panda_retail:["Panda"],
   geidea:["Geidea Technology"],
   lean_technologies:["Lean"],
+  aseer_municipality:["Asir Municipality"],
+  reda_gulf:["REDA Hazard Control"],
 };

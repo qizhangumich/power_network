@@ -902,6 +902,7 @@ const PEOPLE = [
   {id:"aqeel_mohammed_ghaith", n:"Aqeel Mohammed Ghaith", t:2, p:58, s:"finance", roles:[
     ["lst_bbk","Chief Private Banking Officer","executive","v"]]},
   {id:"najla_mohammed_alshirawi", n:"Najla Mohammed Alshirawi", t:2, p:62, s:"finance", roles:[
+    ["eskan_bank","Board Member","board","v"],
     ["sico_wealth","Chairperson, SICO Wealth","board","ns"],
     ["sico_bank","Group Chief Executive Officer","executive","v"],
     ["lst_bcfc","Chairperson","board","v"]]},
@@ -1028,6 +1029,7 @@ const PEOPLE = [
   {id:"naser_alhamad", n:"Naser Alhamad", t:2, p:52, s:"finance", roles:[
     ["lst_bisb","Board Member","board","v"]]},
   {id:"mohamed_bucheeri", n:"Mohamed Bucheeri", t:2, p:52, s:"finance", roles:[
+    ["eskan_bank","Vice Chairman","board","v"],
     ["lst_bisb","Board Member","board","v"]]},
   {id:"rana_abdulaziz_qambar", n:"Rana Abdulaziz Qambar", t:2, p:58, s:"finance", roles:[
     ["lst_bisb","Board Member","board","v"],
@@ -2403,6 +2405,7 @@ const PEOPLE = [
   {id:"nandakumar_narasimhan", n:"Nandakumar Narasimhan", t:2, p:52, s:"realestate", roles:[
     ["lst_ebrit","Board Member of Issuer and Trustee","board","v"]]},
   {id:"muhammad_saeed_butt", n:"Muhammad Saeed Butt", t:2, p:52, s:"realestate", roles:[
+    ["eskan_bank","Assistant General Manager Financial Control","executive","v"],
     ["lst_ebrit","Board Member of issuer and AGM financial controller of Investment Manager","board","v"]]},
   {id:"guruparan_kumarasamy", n:"Guruparan Kumarasamy", t:2, p:52, s:"realestate", roles:[
     ["lst_ebrit","Board Member of Trustee","board","v"]]},
@@ -2411,6 +2414,7 @@ const PEOPLE = [
   {id:"yogesh_raghavendra", n:"Yogesh Raghavendra", t:2, p:58, s:"realestate", roles:[
     ["lst_ebrit","Director of Trustee","executive","v"]]},
   {id:"ahmad_karim_tayara", n:"Ahmad Karim Tayara", t:2, p:58, s:"realestate", roles:[
+    ["eskan_bank","Chief Business Officer and Deputy General Manager","executive","v"],
     ["lst_ebrit","Chief Business Officer","executive","v"]]},
   {id:"fatima_habib_al", n:"Fatima Habib Al Ansari", t:2, p:46, s:"realestate", roles:[
     ["lst_ebrit","Senior Manager","executive","v"]]},
@@ -2555,6 +2559,7 @@ const PEOPLE = [
   {id:"yousif_abdullah_ali", n:"Yousif Abdullah Ali Reza", t:2, p:62, s:"finance", roles:[
     ["bhb","Vice Chairman","board","v"]]},
   {id:"nabeel_saleh_abdulaal", n:"Nabeel Saleh Abdulaal", t:2, p:52, s:"finance", roles:[
+    ["eskan_bank","Board Member","board","v"],
     ["bhb","Board Member","board","v"]]},
   {id:"eman_jawad_al", n:"Eman Jawad Al Asfoor", t:2, p:52, s:"finance", roles:[
     ["bhb","Board Member","board","v"]]},
@@ -2873,6 +2878,7 @@ const PEOPLE = [
   {id:"faisal_sultan", n:"Faisal Sultan", t:2, p:46, s:"finance", roles:[
     ["lst_solid","Head of Marketing and Corporate Communications","executive","ns"]]},
   {id:"amna_bint_ahmed", n:"Amna bint Ahmed Al Rumaihi", t:2, p:58, s:"gov", roles:[
+    ["eskan_bank","Chairperson","board","v"],
     ["moh_bh","Minister of Housing and Urban Planning","executive","v"]]},
   {id:"sheikh_khalid_bin", n:"Sheikh Khalid bin Hamoud Al Khalifa", t:2, p:58, s:"gov", roles:[
     ["moh_bh","Undersecretary of the Ministry of Housing and Urban Planning","executive","v"]]},
@@ -3573,11 +3579,45 @@ const PEOPLE = [
   {id:"khalifa_bin_ahmed", n:"Khalifa bin Ahmed bin Abdulla Al Khalifa", t:2, p:52, s:"gov", roles:[
     ["baca","President of the Bahrain Authority for Culture and Antiquities","board","v"]]},
   {id:"ahmed_bin_mohammed", n:"Ahmed bin Mohammed Al Khalifa", t:2, p:52, s:"gov", roles:[
-    ["nao_bahrain","Auditor-General / President of the National Audit Office","board","ns"]]},
+    ["nao_bahrain","Auditor-General / President of the National Audit Office","board","v"]]},
   {id:"yousef_abdullah_hamood", n:"Yousef Abdullah Hamood", t:2, p:58, s:"gov", roles:[
     ["mofin_bh","Undersecretary for Financial Affairs","executive","v"]]},
   {id:"lulwa_rashid_shuwaiter", n:"Lulwa Rashid Shuwaiter", t:2, p:58, s:"health", roles:[
     ["bahrain_moh","Undersecretary of the Ministry of Health","executive","v"]]},
+  {id:"isa_abdulla_zainal", n:"Isa Abdulla Zainal", t:2, p:52, s:"finance", roles:[
+    ["eskan_bank","Board Member","board","v"]]},
+  {id:"reem_abdulghaffar_al", n:"Reem Abdulghaffar Al Alawi", t:2, p:52, s:"finance", roles:[
+    ["eskan_bank","Board Member","board","v"]]},
+  {id:"abdullatif_khalid_abdullatif", n:"Abdullatif Khalid Abdullatif", t:2, p:52, s:"finance", roles:[
+    ["eskan_bank","Board Member","board","v"]]},
+  {id:"mubarak_nabeel_mattar", n:"Mubarak Nabeel Mattar", t:2, p:52, s:"finance", roles:[
+    ["eskan_bank","Board Member","board","v"]]},
+  {id:"balsam_ali_alsalman", n:"Balsam Ali Alsalman", t:2, p:52, s:"finance", roles:[
+    ["eskan_bank","Board Member","board","v"]]},
+  {id:"abdulla_talib", n:"Abdulla Talib", t:2, p:46, s:"finance", roles:[
+    ["eskan_bank","General Manager","executive","v"]]},
+  {id:"parween_ali", n:"Parween Ali", t:2, p:46, s:"finance", roles:[
+    ["eskan_bank","Assistant General Manager Retail Banking","executive","v"]]},
+  {id:"sarah_qasim", n:"Sarah Qasim", t:2, p:46, s:"finance", roles:[
+    ["eskan_bank","Assistant General Manager Risk Management and Remedial Solutions","executive","v"]]},
+  {id:"khalifa_bin_salman", n:"Khalifa bin Salman bin Mohammed Al Khalifa", t:2, p:58, s:"gov", roles:[
+    ["mol_bahrain","Undersecretary","executive","v"]]},
+  {id:"aqeel_abd_ali", n:"Aqeel Abd Ali Buhussein", t:2, p:58, s:"gov", roles:[
+    ["mol_bahrain","Assistant Undersecretary for Labour Relations","executive","v"]]},
+  {id:"sheikh_mohammed_bin_b", n:"Sheikh Mohammed bin Ahmed Al Khalifa", t:2, p:58, s:"gov", roles:[
+    ["mmaa","Undersecretary for Municipalities Affairs","executive","v"]]},
+  {id:"asim_abdul_latif", n:"Asim Abdul Latif Abdullah", t:2, p:58, s:"gov", roles:[
+    ["mmaa","Undersecretary for Agriculture and Animal Wealth Affairs","executive","v"]]},
+  {id:"faeq_ali_dhaif", n:"Faeq Ali Dhaif", t:2, p:58, s:"gov", roles:[
+    ["nao_bahrain","Deputy Auditor-General Financial and Performance Audit","executive","v"]]},
+  {id:"abdulla_bin_khalid", n:"Abdulla bin Khalid Al Khalifa", t:2, p:58, s:"gov", roles:[
+    ["nao_bahrain","Deputy Auditor-General Administrative Audit","executive","v"]]},
+  {id:"qassim_ahmed_almadhoob", n:"Qassim Ahmed Almadhoob", t:2, p:58, s:"gov", roles:[
+    ["nao_bahrain","Assistant Auditor-General Performance Audit","executive","v"]]},
+  {id:"basma_abdulrahman_alahmed", n:"Basma Abdulrahman Alahmed", t:2, p:58, s:"gov", roles:[
+    ["nao_bahrain","Assistant Auditor-General Regularity Audit","executive","v"]]},
+  {id:"isa_nasser_alnoaimi", n:"Isa Nasser Alnoaimi", t:2, p:58, s:"gov", roles:[
+    ["nao_bahrain","Assistant Auditor-General Administrative Audit","executive","v"]]},
 ];
 
 const OWNERSHIP = [

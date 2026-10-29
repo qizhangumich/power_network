@@ -241,6 +241,9 @@ const INSTITUTIONS = [
   {id:"wifaq_center", n:"Wifaq Family Consulting Centre", s:"gov", t:3, p:50, short:"Wifaq Center"},
   {id:"qai", n:"Qai", s:"tech", t:2, p:72, short:"Qai"},
   {id:"islamic_grp", n:"Islamic Holding Group", s:"finance", t:3, p:52, short:"Islamic Holding Grp"},
+  {id:"qatar_diamond_exchange", n:"Qatar Diamond Exchange", s:"finance", t:3, p:52, short:"Qatar Diamond Exchange"},
+  {id:"qatar_leadership_centre", n:"Qatar Leadership Centre", s:"education", t:2, p:60, short:"Qatar Leadership Cen…"},
+  {id:"qatar_crafts_council", n:"Qatar Fashion and Crafts Council", s:"gov", t:3, p:52, short:"Qatar Crafts Council"},
 ];
 
 const PEOPLE = [
@@ -274,6 +277,7 @@ const PEOPLE = [
     ["scdl","Vice-Chairman of the Board of Directors","board","ns"],
     ["qoc","President","board","v"]]},
   {id:"mayassa", n:"H.E. Sheikha Al-Mayassa bint Hamad Al Thani", t:0, p:84, s:"gov", roles:[
+    ["qatar_leadership_centre","Chairperson of the Board of Directors","board","v"],
     ["qf","Member","board","v"],
     ["qm","Chairperson","board","v"]],
     note:"The Emir's sister; one of the most influential figures in the global art market."},
@@ -632,6 +636,7 @@ const PEOPLE = [
   {id:"ali_hilal_al", n:"Ali Hilal Al Kuwari", t:2, p:60, s:"consumer_stap", roles:[
     ["hassad","Chief Executive Officer","executive","v"]]},
   {id:"mohamed_al_mohannadi", n:"Mohamed Al-Mohannadi", t:2, p:58, s:"consumer_stap", roles:[
+    ["gulf_helicopters","Chief Executive Officer","executive","ns"],
     ["hassad","Chief Operating Officer","executive","v"]]},
   {id:"jose_angel_iralde", n:"Jose Angel Iralde", t:2, p:58, s:"consumer_stap", roles:[
     ["hassad","Chief Strategy Officer","executive","v"]]},
@@ -2196,6 +2201,18 @@ const PEOPLE = [
     ["moj_qatar","Assistant Undersecretary of the Ministry of Justice for Shared Services Affairs","executive","ns"]]},
   {id:"sheikha_hind_bint", n:"Sheikha Hind bint Faleh Al-Thani", t:2, p:58, s:"gov", roles:[
     ["moj_qatar","Assistant Undersecretary for International Agreements and Cooperation Affairs","executive","ns"]]},
+  {id:"mohd_al_hilal", n:"Mohd Al Hilal", t:2, p:58, s:"industry", roles:[
+    ["gulf_helicopters","Senior Executive (exact title unconfirmed - reported elsewhere as Acting CEO/COO)","executive","ns"]]},
+  {id:"khalid_bin_thani_b", n:"Khalid bin Thani Al Thani", t:2, p:62, s:"comm", roles:[
+    ["dar_al_sharq","Chairman of the Board of Directors","board","ns"]]},
+  {id:"abdul_latif_abdullah", n:"Abdul Latif Abdullah Al Mahmoud", t:2, p:60, s:"comm", roles:[
+    ["dar_al_sharq","Chief Executive Officer","executive","ns"]]},
+  {id:"jaber_al_harami", n:"Jaber Al Harami", t:2, p:58, s:"comm", roles:[
+    ["dar_al_sharq","Editor-in-Chief of Al Sharq newspaper (formerly Deputy CEO)","executive","ns"]]},
+  {id:"khalid_mubarak_al", n:"Khalid Mubarak Al-Shafi", t:2, p:58, s:"comm", roles:[
+    ["dar_al_sharq","Editor-in-Chief of The Peninsula","executive","ns"]]},
+  {id:"faleh_hussein_al", n:"Faleh Hussein Al Hajri", t:2, p:58, s:"comm", roles:[
+    ["dar_al_sharq","Editor-in-Chief of Al Arab newspaper","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2333,6 +2350,8 @@ const OWNERSHIP = [
   ["gulf_helicopters","qatarenergy","subsidiary","ns"],
   ["wifaq_center","qatar_social_work","affiliated center of","ns"],
   ["qai","qia","wholly owned national AI company launched Dec 2025 to build, operate and invest in AI infrastructure in Qatar and abroad; chaired by Abdullah bin Hamad Al Misnad","v"],
+  ["qatar_diamond_exchange","qfz","subsidiary","v"],
+  ["qatar_crafts_council","qm","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -2435,4 +2454,7 @@ const AKA = {
   wifaq_center:["Wifaq Centre","Wifaq Family Counseling Center"],
   lst_qiik:["QIIB","Qatar International Islamic Bank (QIIB)","Qatar International Islamic Bank"],
   islamic_grp:["IHG Qatar"],
+  qatar_diamond_exchange:["QDE"],
+  qatar_leadership_centre:["QLC"],
+  qatar_crafts_council:["Qatar Fashion & Crafts Council"],
 };

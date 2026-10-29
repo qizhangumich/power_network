@@ -1669,6 +1669,10 @@ const PEOPLE = [
     ["opaz","Board Member","board","ns"]]},
   {id:"ahmed_said_kashoub", n:"Ahmed Said Kashoub", t:2, p:52, s:"gov", roles:[
     ["opaz","Board Member","board","ns"]]},
+  {id:"khalifa_bin_ali", n:"Khalifa bin Ali Al Siyabi", t:2, p:58, s:"gov", roles:[
+    ["rop","Assistant Inspector General of Police and Customs for Administrative and Financial Affairs","executive","ns"]]},
+  {id:"yahya_bin_nasser", n:"Yahya bin Nasser bin Mansour Al Khusaibi", t:2, p:58, s:"gov", roles:[
+    ["mjla","Under-secretary of the Ministry of Justice and Legal Affairs","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1847,7 +1851,6 @@ const AKA = {
   haitham:["Sultan Haitham"],
   badr_fm:["Badr Albusaidi","Badr al-Busaidi"],
   oia:["Oman Investment Authority"],
-  oman_airports:["Salalah Airport"],
   oq:["OQ"],
   pdo:["Petroleum Development Oman"],
   alhadhrami_pdo:["Aflah Al Hadhrami"],
@@ -1859,7 +1862,7 @@ const AKA = {
   nama_pwp:["OPWP"],
   oetc:["Oman Grid"],
   nitaj:["OFIC"],
-  oman_airports:["OAMC","Muscat International Airport"],
+  oman_airports:["OAMC","Muscat International Airport","Muscat Airport","Salalah Airport"],
   fsa_oman:["Capital Market Authority"],
   tra_oman:["TRA"],
   apsr_oman:["APSR","Authority for Electricity and Water Regulation"],
