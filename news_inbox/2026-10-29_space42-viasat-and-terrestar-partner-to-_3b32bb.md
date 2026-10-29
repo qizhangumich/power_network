@@ -1,0 +1,5 @@
+# Space42, Viasat and Terrestar partner to build interoperable D2D satellite network
+source: Telecompaper
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOanEtSUx2WUIxdHVDYkZWbXo1dlFuWUp3LUNsOGtzLU1vUmE1Ri1yZHJVTmJZRlgtWlJoNi04SFJyYkdqWUxVT2RUQUM4SVdwVC1HOWp5MzNwZkExRVJJZWU5Wl9VRXluNUthdDZrRTB2bzZXc2pJRDNaWHdkZENBM2ZqTk5tUEpBa051TmtFcm50dHRsWmt5X3huVzNSR0Z2dUREWEIwUnJhMlM4UUwwQlpkSEgxanBBQXFzUUUzR1FTdw?oc=5
+
+Space42, Viasat and Terrestar partner to build interoperable D2D satellite network    Telecompaper

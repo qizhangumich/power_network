@@ -1,0 +1,5 @@
+# Etihad Guest and STARLUX COSMILE expand frequent flyer partnership
+source: Aviation Jeta
+url: https://news.google.com/rss/articles/CBMilwFBVV95cUxPNGxaRjlVUi1JZjlmOHdqQWVYdVNxOWkzbWRnNG9IOWxET2owenhubDNxeEdmczg3OW9aS1liVEpTb0h5OVRHbktzR2Z1VGVFakxoY2hvd0hkWGxjcy1SY2Rxb2RkM2I5Y2dYbS1abzlFVnczbDlEdEZ1V2gyT21waGFCTzJTTmh0WVhrczgzSXI4MVRkVGt3?oc=5
+
+Etihad Guest and STARLUX COSMILE expand frequent flyer partnership    Aviation Jeta

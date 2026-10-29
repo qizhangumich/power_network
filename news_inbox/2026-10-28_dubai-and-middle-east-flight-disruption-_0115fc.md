@@ -1,0 +1,5 @@
+# Dubai and Middle East flight disruption: international airlines extend route cancellations as Saudi continues to intercept attacks
+source: Condé Nast Traveller Middle East
+url: https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQTAzT3picUd6MnNxU2NXZVRBdlhhWU9RTFl5MFpuZVhoTWdhemc0VFk5Mk1VbXlOemdiTlEwc2NzWlNfZTJ5aDNpT1pyTHAxMTAzOHNLVzBQSXlkUnRWeVZYdEMwZjdOaFBUanpBRzdjMFp1SUlUcDBtTGlfOEFpSjBrMkVXN0l3MEdoamZYRG1OWlV0VjljSEFSV3JWZF94YWt3cFlaUnNBZVFXRkV3STF6ZTd5TUJWYmM2QmJpcEFLa1NrLUZJejhNSEhYaXItdzFqUUNTZXlNb3lIUmFEeE42WnZJejhUbWsyVGRtb1NtTll6T2ZpMw?oc=5
+
+Dubai and Middle East flight disruption: international airlines extend route cancellations as Saudi continues to intercept attacks    Condé Nast Traveller Middle East

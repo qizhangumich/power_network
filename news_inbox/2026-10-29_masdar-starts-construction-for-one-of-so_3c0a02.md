@@ -1,0 +1,5 @@
+# Masdar starts construction for one of Southeast Asia’s largest floating solar projects in Malaysia
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTlZHdFp3dEtKek1EMmliRnF3ZlU3d1pLR21yRDJYUEZPcDY1STBCOUNMaE1aM3dTem0yOHJtd2t4R3RmdjJ3ZnpmVWx0WUNQN0dzR1k0M2xFODVyRHJfUTZYbEtNQWQ5UWFPMGlqaVl0VWdqdXFSV1N0UHVPR2xBMUJIQ09ZSXJoV3h1UU90V3Zvc3dzUjlLVG9NTkNnNkFZNGNIX1M0OEt2cmt0QWZ3VFNEcXg0Y1dWeFFfLXJrLU9YZnFHLU1uMUk5MDZhRjg5M082bnZTMjBCQQ?oc=5
+
+Masdar starts construction for one of Southeast Asia’s largest floating solar projects in Malaysia    Gulf Today

@@ -1,0 +1,5 @@
+# Masdar, Citaglobal and TIZA Global kick off construction of 200MW floating solar project in Pahang
+source: The Star
+url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZlJQTUdhalBzYXJhNFMzM2diTF9Lc1d3eU9sdFJwZWxrMHVhendJUzFTa1VGYktxcXVSMXFUcExCZXpvWHlLVXN2TGg0dGNiQXhFTmVNM25OUE9iWmFVLS01V3dES005RjZ4c3dyOEpNVl9nUzVad1Q5NHltQi1TSVhnaVlScGhlUkN0Rmp5QkllMzBHZjFVaVhncC1zQmFCdjZfMkE3d282MHBFVXJKaHVDaW1GcGJkQlpWeGlvblBBanJzSWJwWjZMUkcyUE5oS0lsQ1ZwOVpWRklpTlZ5aEFWZHU5SFpWczk0NU5NTQ?oc=5
+
+Masdar, Citaglobal and TIZA Global kick off construction of 200MW floating solar project in Pahang    The Star

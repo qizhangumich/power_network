@@ -1,0 +1,5 @@
+# Mubadala Capital Secures $5B From Apollo, Other Investors
+source: Forbes Middle East
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQMEt5cUtpNE9vQnhtNlNGUlhCRGsxWlQ2XzJOa3lHU0Jhdzl3QVI5NWZ3akVsemdFc2xkNzZZc2NqdnRuN1FJNzd5eXBSRkk2SFpYOEZMS3djdVdzaXd2Nm9qUW9Zb0p0VGN6OE1PR0VaTnhTVDJIdWVyR2NPOUtXa0dyWkNGRUM0b01HejBCRWRjVE05NVlMcTV1VW1abVlKZHkxd0VGOTBPMlVMN3ltM2ZGUkdING9qSTNLMF9B?oc=5
+
+Mubadala Capital Secures $5B From Apollo, Other Investors    Forbes Middle East

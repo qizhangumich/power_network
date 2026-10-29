@@ -1,0 +1,5 @@
+# Terrestar Solutions, Space42 and Viasat announce open satellite standard plan
+source: NewsBytes
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN1NERkl5VmFNLXRJSUVfYmZHSHVuRVIxOVJZckQxUGJqb011TGlSSDV0WTBKcWJjRnFWLXFkZTBZbFp0NS1GUHBKNDZNV2tBdDg4MFhjRE0zc3BEVkJITHVSa0pFc1B0RGEtWjJGMzF6aXNtdTdMNTFULW1sc2M4cTZJUE1RczJUSWcxUXJ6MmUyR2Q4Sk9NaVVZQjJvdmRHWmdiQUY2R0hMSEdXaVBnSVBJM0EzZlNQZ0c2TUJkcEs?oc=5
+
+Terrestar Solutions, Space42 and Viasat announce open satellite standard plan    NewsBytes

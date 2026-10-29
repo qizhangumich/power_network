@@ -1,0 +1,5 @@
+# Mubadala and Trafigura shelve USD 5 bn Brazil port sale as iron ore market weakens
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxONjg2enQ3aEwyNWp0eGhwRlh0TjdxRDYycFdYMEYwTElINl9zT083TS1oakotb0ZCZWxyV0xJbFpnT1lkR2V5aVlUMENTeWFtelhKWmFJZi0xaUNVRHp1RnhhRXUzNFYzMGNETlhvN3RDUkpHaWJKUGJneG52Q080V2ZINGg4QlV0cmxpS1FFOEdtQ2U4OFdfZUJVeEMyS1BBbkE1WGsxcXEweENmR0R2MHVsQkNwTmZfWjVpN2ZuU1g0YU5Hel9fVTFhTkZhOGs?oc=5
+
+Mubadala and Trafigura shelve USD 5 bn Brazil port sale as iron ore market weakens    EnterpriseAM

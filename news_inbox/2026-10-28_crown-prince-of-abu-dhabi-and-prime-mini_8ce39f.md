@@ -1,0 +1,5 @@
+# Crown Prince of Abu Dhabi and Prime Minister of Canada discuss strengthening strategic partnerships and expanding bilateral cooperation
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMimgJBVV95cUxOUUMwOTd3cm4xRVdTNFR3UWkxVnlFWUgydzdKcC1RSXh1c3hyU1FSTFNuc2JtTkJFWDg3ZGgwT3FRV0lmUkx4eC1KaHM1eW9HWmRZZDF1Y0YydXczdl80UHdhN2dCU2VrOU1IbVBKejlFMGdLdlllWEtON0dBUm1IdzR1MEpJcU9VXzZXTUxWUlctZXUzcEU5c1VxR3E4akVuYmlzaFlmZUViR2VIMGY1bGI3ZTJFM2dreGYySTNobndOVDBUa2JWb2FzNTNRTnRIdG5KMlJVRHlDVndIQ0NPd0pBcFQ4TzFxYjhESHV3cmVWaU1LN1k4TGRiQ0lwbG5uUlRxc2dUNHVJakd4TFpYRkRtR0kxRFVTSkE?oc=5
+
+Crown Prince of Abu Dhabi and Prime Minister of Canada discuss strengthening strategic partnerships and expanding bilateral cooperation    مكتب أبوظبي الإعلامي

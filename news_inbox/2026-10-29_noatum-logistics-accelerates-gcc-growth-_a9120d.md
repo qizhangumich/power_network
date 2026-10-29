@@ -1,0 +1,5 @@
+# Noatum Logistics accelerates GCC growth by doubling trucking fleet to over 850 units — SMI DIGITAL
+source: https://www.shipmanagementinternational.com/
+url: https://news.google.com/rss/articles/CBMiogJBVV95cUxPeWlCN3RjMmRvSDVZODBtOTJpUUViWEdxNFEtS1BlcEpraWNwUXQ1RzZkOTJqSnpfMkNJN2Ixd2p4UzdiazdiUW0xOFhad2VrWEt5MzdpTkVpcVRWN21KajRtNjF5bHhfMEwxWUFBTmVRc0Z5a0o0S3o4Qld1ZG9LTXRpOUtIMTM4Um54TW14eFFISU54cDZjSHdmUDctbUVMNU1mVEV1Xzk5WGIyVFE1cWczaWU5QWczM1pZTjBjclExQVRmaXJPTkFkZ0dzZDN1OHV2WGF3VjNJVWViUXNzV0FfanpJamd1UURpc0hiSjduem54dG41aDd5Z24wT2NiYV9ibDlMRkFyc0s3dmtvUl9YcWYxR1A0Y1pFalZHb3EtZw?oc=5
+
+Noatum Logistics accelerates GCC growth by doubling trucking fleet to over 850 units — SMI DIGITAL    https://www.shipmanagementinternational.com/

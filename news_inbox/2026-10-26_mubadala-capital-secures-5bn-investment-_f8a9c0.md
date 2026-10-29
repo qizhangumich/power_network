@@ -1,0 +1,5 @@
+# Mubadala Capital secures $5bn investment from Apollo and strategic partners
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNRThJQVhXTndFQzNMOTlUeDF5Q0hUYllCdjl1VEtydXFBeEdrRUgxa2Y2enJKVmQwRWtlck5lRU82dUc5SnlWdFZ5M2p0Y3QxWWhFLTZoVFJ1TGJXU2g1UGN1WGlidjVGeDFQWGtyOWR1ZzFnaGxsLW9najExSHhWZFpQd2VCeXJEbl9faTZ3ZFBSVWl2V1BsV1MteTFuMW00ZldEUEUxaTczSUFadGJMMW5SWkI?oc=5
+
+Mubadala Capital secures $5bn investment from Apollo and strategic partners    Arabian Business

@@ -1,0 +1,5 @@
+# UAE's Space42 partners with Viasat, Terrestar on satellite connectivity
+source: Zawya
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxPdl9xSTE0ZUQ4U1RDeFhlX1JzYWhpQVExd2t4QmM4dno3bnAxaVFSWElnWkZWVHU0eFVvdWwweDU4ZXhMQmNpcHhpRktuX0I4V1FvcjNZZWdoay1JS1IzWTJTUXZwMGRXczhrcXc4WWRwanRXVGZ0VGJ3Slk2R3hSUzJmLV9wVFc4eGZrZGI5clFma1pCaVpscnA3cUxXQ2dEbVo2V09GcThhcEJNZHI0SA?oc=5
+
+UAE's Space42 partners with Viasat, Terrestar on satellite connectivity    Zawya
