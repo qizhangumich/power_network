@@ -248,7 +248,6 @@ const INSTITUTIONS = [
   {id:"dgca_kuwait", n:"Directorate General of Civil Aviation", s:"gov", t:2, p:64, short:"DGCA Kuwait"},
   {id:"aaw", n:"Ali Abdulwahab Al Mutawa Commercial Co.", s:"consumer_disc", t:3, p:55, short:"AAW"},
   {id:"ekuity", n:"Ekuity Holding", s:"finance", t:3, p:52, short:"Ekuity Holding"},
-  {id:"humansoft", n:"Humansoft Holding Company", s:"education", t:2, p:58, short:"Humansoft"},
   {id:"qurain_petrochem", n:"Qurain Petrochemical Industries Company", s:"materials", t:2, p:58, short:"Qurain Petrochem"},
   {id:"kharafi_national", n:"Kharafi National", s:"industry", t:3, p:56, short:"Kharafi National"},
 ];
@@ -2256,6 +2255,6 @@ const AKA = {
   insead:["European Institute of Business Administration"],
   dgca_kuwait:["DGCA"],
   ekuity:["Ekuity Capital"],
-  humansoft:["ILSC"],
+  lst_humansoft:["ILSC","Humansoft Holding Company","Humansoft"],
   qurain_petrochem:["QPIC"],
 };

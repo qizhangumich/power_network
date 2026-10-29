@@ -240,7 +240,6 @@ const INSTITUTIONS = [
   {id:"qatar_social_work", n:"Qatar Social Work Foundation", s:"gov", t:2, p:58, short:"Qatar Social Work Fdn"},
   {id:"wifaq_center", n:"Wifaq Family Consulting Centre", s:"gov", t:3, p:50, short:"Wifaq Center"},
   {id:"qai", n:"Qai", s:"tech", t:2, p:72, short:"Qai"},
-  {id:"qiib", n:"Qatar International Islamic Bank (QIIB)", s:"finance", t:2, p:55, short:"QIIB"},
   {id:"islamic_grp", n:"Islamic Holding Group", s:"finance", t:3, p:52, short:"Islamic Holding Grp"},
 ];
 
@@ -2434,6 +2433,6 @@ const AKA = {
   buzwair:["Buzwair Industrial Gases"],
   qatar_social_work:["QFSW","Qatar Foundation for Social Work"],
   wifaq_center:["Wifaq Centre","Wifaq Family Counseling Center"],
-  qiib:["Qatar International Islamic Bank"],
+  lst_qiik:["QIIB","Qatar International Islamic Bank (QIIB)","Qatar International Islamic Bank"],
   islamic_grp:["IHG Qatar"],
 };
