@@ -16,9 +16,9 @@
  "bahrain/GDN": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-10-29T12:28:33Z",
-  "last_new": "2026-10-29T12:28:33Z",
-  "last_success": "2026-10-29T12:28:33Z"
+  "last_attempt": "2026-10-29T22:32:05Z",
+  "last_new": "2026-10-29T22:32:05Z",
+  "last_success": "2026-10-29T22:32:05Z"
  },
  "bahrain/TradeArabia": {
   "fails": 0,
@@ -30,9 +30,9 @@
  "kuwait/Al Rai": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-10-29T12:28:33Z",
-  "last_new": "2026-10-29T12:28:33Z",
-  "last_success": "2026-10-29T12:28:33Z"
+  "last_attempt": "2026-10-29T22:32:05Z",
+  "last_new": "2026-10-29T22:32:05Z",
+  "last_success": "2026-10-29T22:32:05Z"
  },
  "kuwait/KUNA": {
   "fails": 90,
@@ -44,9 +44,9 @@
  "kuwait/Kuwait Times": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-10-29T12:28:33Z",
-  "last_new": "2026-10-29T12:28:33Z",
-  "last_success": "2026-10-29T12:28:33Z"
+  "last_attempt": "2026-10-29T22:32:05Z",
+  "last_new": "2026-10-29T22:32:05Z",
+  "last_success": "2026-10-29T22:32:05Z"
  },
  "oman/Muscat Daily": {
   "fails": 14,
@@ -63,23 +63,23 @@
  "oman/Oman Observer": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-10-29T12:28:33Z",
-  "last_new": "2026-10-29T12:28:33Z",
-  "last_success": "2026-10-29T12:28:33Z"
+  "last_attempt": "2026-10-29T22:32:05Z",
+  "last_new": "2026-10-29T22:32:05Z",
+  "last_success": "2026-10-29T22:32:05Z"
  },
  "oman/Times of Oman": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-10-29T12:28:33Z",
-  "last_new": "2026-10-29T12:28:33Z",
-  "last_success": "2026-10-29T12:28:33Z"
+  "last_attempt": "2026-10-29T22:32:05Z",
+  "last_new": "2026-10-29T22:32:05Z",
+  "last_success": "2026-10-29T22:32:05Z"
  },
  "qatar/Gulf Times": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-10-29T12:28:33Z",
-  "last_new": "2026-10-29T12:28:33Z",
-  "last_success": "2026-10-29T12:28:33Z"
+  "last_attempt": "2026-10-29T22:32:05Z",
+  "last_new": "2026-10-29T22:32:05Z",
+  "last_success": "2026-10-29T22:32:05Z"
  },
  "qatar/QNA": {
   "fails": 0,
@@ -91,21 +91,21 @@
  "qatar/The Peninsula": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-10-29T12:28:33Z",
-  "last_new": "2026-10-29T12:28:33Z",
-  "last_success": "2026-10-29T12:28:33Z"
+  "last_attempt": "2026-10-29T22:32:05Z",
+  "last_new": "2026-10-29T22:32:05Z",
+  "last_success": "2026-10-29T22:32:05Z"
  },
  "regional/AGBI": {
-  "fails": 44,
+  "fails": 45,
   "freq_h": 6,
-  "last_attempt": "2026-10-29T12:28:33Z",
+  "last_attempt": "2026-10-29T22:32:05Z",
   "last_new": "2026-10-14T21:21:59Z",
   "last_success": "2026-10-14T21:21:59Z"
  },
  "regional/Arabian Business": {
-  "fails": 166,
+  "fails": 167,
   "freq_h": 6,
-  "last_attempt": "2026-10-29T12:28:33Z",
+  "last_attempt": "2026-10-29T22:32:05Z",
   "last_new": "2026-09-03T17:12:26Z",
   "last_success": "2026-09-03T17:12:26Z"
  },
@@ -126,9 +126,9 @@
  "regional/Zawya": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-10-29T12:28:33Z",
-  "last_new": "2026-10-29T12:28:33Z",
-  "last_success": "2026-10-29T12:28:33Z"
+  "last_attempt": "2026-10-29T22:32:05Z",
+  "last_new": "2026-10-29T22:32:05Z",
+  "last_success": "2026-10-29T22:32:05Z"
  },
  "saudi/Al Eqtisadiah": {
   "fails": 0,
@@ -145,29 +145,29 @@
  "saudi/Argaam": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-10-29T12:28:33Z",
-  "last_new": "2026-10-29T12:28:33Z",
-  "last_success": "2026-10-29T12:28:33Z"
+  "last_attempt": "2026-10-29T22:32:05Z",
+  "last_new": "2026-10-29T22:32:05Z",
+  "last_success": "2026-10-29T22:32:05Z"
  },
  "uae/Gulf News": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-10-29T12:28:33Z",
-  "last_new": "2026-10-29T12:28:33Z",
-  "last_success": "2026-10-29T12:28:33Z"
+  "last_attempt": "2026-10-29T22:32:05Z",
+  "last_new": "2026-10-29T22:32:05Z",
+  "last_success": "2026-10-29T22:32:05Z"
  },
  "uae/Khaleej Times": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-10-29T12:28:33Z",
-  "last_new": "2026-10-29T12:28:33Z",
-  "last_success": "2026-10-29T12:28:33Z"
+  "last_attempt": "2026-10-29T22:32:05Z",
+  "last_new": "2026-10-29T22:32:05Z",
+  "last_success": "2026-10-29T22:32:05Z"
  },
  "uae/The National": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-10-29T12:28:33Z",
-  "last_new": "2026-10-29T12:28:33Z",
-  "last_success": "2026-10-29T12:28:33Z"
+  "last_attempt": "2026-10-29T22:32:05Z",
+  "last_new": "2026-10-29T22:32:05Z",
+  "last_success": "2026-10-29T22:32:05Z"
  }
 }

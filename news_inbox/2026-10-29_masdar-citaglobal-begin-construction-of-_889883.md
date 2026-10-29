@@ -1,0 +1,5 @@
+# Masdar, Citaglobal Begin Construction Of RM580 Million Financed Floating Solar Project In Pahang
+source: BusinessToday Malaysia
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZHdGWEMtME5GZ3l4T0JSV3ZIOWd1d1ZqTVdxSWhHM3RGdTVtMGdJQmswRzVGSTFpSWdvdW1EcVdEaTNNdDFlYm5qUmZBZVNzNWRfVm4wN3MwWXNBb090c1BlYTVLWUN0b00wSXFuVTFpT2U2NG8ySENUZkswSjJmdUtIVlZQRnU0VFZJSVVFRUxxNW8zNi1iWk4wSGo3SS1PSE5MVXJORkdWd1hvbUZrelZZZlM1RUhlVjJ2dDFVRlNUMkxLRTFsTVJ4QnNuR2hjZDZIQV8yTQ?oc=5
+
+Masdar, Citaglobal Begin Construction Of RM580 Million Financed Floating Solar Project In Pahang    BusinessToday Malaysia

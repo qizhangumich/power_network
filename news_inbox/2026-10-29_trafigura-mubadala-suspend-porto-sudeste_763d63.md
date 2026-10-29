@@ -1,0 +1,5 @@
+# Trafigura, Mubadala Suspend Porto Sudeste Sale After Disappointing Bids
+source: DatamarNews
+url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOcWp5WnFub2pEcWJ5RXBlOFNKVTNtMGpxbEpMUUZNVVFVcjdvU09mblNFM2FLQjZkRVBxZ0JsOXdEUkRtNFZVbndwRDRBMGpfUUtmdUQtZlg5MnkxX3R3ZW5GT0NFNmhwalc3bUJYd2ZaakQ5cFY1ejZPQmk0Q3hlbVpSZWxqai1iX09FdlEwb3pnYkNDejhHUy1vOEJEZ2FDNTBRdTRkOA?oc=5
+
+Trafigura, Mubadala Suspend Porto Sudeste Sale After Disappointing Bids    DatamarNews

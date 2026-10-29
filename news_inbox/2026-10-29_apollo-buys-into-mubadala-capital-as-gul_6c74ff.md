@@ -1,0 +1,5 @@
+# Apollo Buys into Mubadala Capital as Gulf Platforms Take Outside Capital
+source: Disruption Banking
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxNUFVIOGlobmJQbUpTV3liaEpSSXNhc25tY0NWYVZ3N2lNRGhMcjRPc0s2LXh0am1CYm9oWWM2b2ZpRzgtdFpmUkl0NExaRjhCX1VGREQ4N3FsRGhTV1hOczJVZUhSUTZmYW1vMVZnakRqQ2J3T1hmM1A0Zm1sZnMwTXJpbS1nenNxOGEzUW1SZzdFcVJ2Zm1lS2JDaW4xdmdaWmFhdmtrTURnSjlocGpSYm9jLTBTOTFEVmc?oc=5
+
+Apollo Buys into Mubadala Capital as Gulf Platforms Take Outside Capital    Disruption Banking

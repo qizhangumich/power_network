@@ -1,0 +1,5 @@
+# Apollo Global Management, Partners to Invest $5 Billion, Take Minority Stake in Mubadala Capital
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxObENVdGFzMGhobmNUTlBWU010NmtiTjJFeG1ZX3NyT29tUDNEU0NIcHB0Tm1JdXJ1MkZyamM3aklnaUFqQ2UzMTZqOWU1Q2pTUkR2VXc4R3R5b25iTlR0ZGRveE5jVlAyQ040WXVNTGJ1YW81cWw3OUVhampRbmVxQ2JmaFp1SzhUQ1A5YlFUT3JMQjdRa2RWWlNETDhfQ3lKWGJGbzVIdmNZX0UxS3M0QTRBSmh0Z2dYZHNOZk05bnZRZ3RPcUtxbENfcHhiaUlpMENRNXJGb1ZfY09FS3dn?oc=5
+
+Apollo Global Management, Partners to Invest $5 Billion, Take Minority Stake in Mubadala Capital    marketscreener.com

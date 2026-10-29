@@ -1,0 +1,5 @@
+# Masdar starts construction on 200MW solar energy project in Malaysia
+source: The National
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxOUm9icm1fenRFb3hiV014ekt6ZXlZbFJYZ1FwN1BxZHg2TFhQYlNubVhQeGlDVVNiNXR0RE4zRlZoNTV2RTE3TzNEeklCS0s5UUl5Q3ZNLVhyVE4weEcwTEpMTFU2dktMQUxNY1JUMklTNVhYeGRSVUxyWXZReXF1cC1DdUZ5MDY3QlpoejFPTTl3R0I0bU9USl9xcURlVkJyQWk4Y09FSWxOeF9GZnFrNXNzUW9XR1ZfeEtRcEpYdFRXa1BROHIw?oc=5
+
+Masdar starts construction on 200MW solar energy project in Malaysia    The National
