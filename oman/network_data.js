@@ -1673,6 +1673,16 @@ const PEOPLE = [
     ["rop","Assistant Inspector General of Police and Customs for Administrative and Financial Affairs","executive","ns"]]},
   {id:"yahya_bin_nasser", n:"Yahya bin Nasser bin Mansour Al Khusaibi", t:2, p:58, s:"gov", roles:[
     ["mjla","Under-secretary of the Ministry of Justice and Legal Affairs","executive","ns"]]},
+  {id:"ali_bin_mohammed_b", n:"Ali bin Mohammed bin Zahir Al-Abri", t:2, p:58, s:"gov", roles:[
+    ["moafwr","Undersecretary for Water Resources, Ministry of Agriculture, Fisheries and Water Resources","executive","ns"]]},
+  {id:"ahmed_bin_nasser", n:"Ahmed bin Nasser bin Abdullah Al-Bakri", t:2, p:58, s:"gov", roles:[
+    ["moafwr","Undersecretary for Agriculture, Ministry of Agriculture, Fisheries and Water Resources","executive","ns"]]},
+  {id:"yaqoub_bin_khalfan", n:"Yaqoub bin Khalfan bin Khamis Al-Busaidi", t:2, p:58, s:"gov", roles:[
+    ["moafwr","Undersecretary for Fisheries, Ministry of Agriculture, Fisheries and Water Resources","executive","ns"]]},
+  {id:"mohammed_bin_said_b", n:"Mohammed bin Said bin Khalfan Al Maamari", t:2, p:52, s:"gov", roles:[
+    ["mara_oman","Minister of Endowments and Religious Affairs","board","ns"]]},
+  {id:"ahmed_bin_saleh", n:"Ahmed bin Saleh Al Rashidi", t:2, p:58, s:"gov", roles:[
+    ["mara_oman","Undersecretary of the Ministry of Endowments and Religious Affairs","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

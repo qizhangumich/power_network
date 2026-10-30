@@ -217,7 +217,7 @@ const INSTITUTIONS = [
   {id:"lst_6001", n:"Halwani Bros Co. (HB)", s:"consumer_stap", t:2, p:50, short:"6001"},
   {id:"lst_6010", n:"National Agriculture Development Co. (Nadec)", s:"consumer_stap", t:2, p:50, short:"6010"},
   {id:"lst_6020", n:"Gulf Agriculture and Food Company Co. (GACO)", s:"consumer_stap", t:2, p:50, short:"6020"},
-  {id:"lst_6040", n:"Al Jouf Agricultural Development Co. (TADCO)", s:"consumer_stap", t:2, p:50, short:"6040"},
+  {id:"lst_6040", n:"Tabuk Agricultural Development Co. (TADCO)", s:"consumer_stap", t:2, p:50, short:"6040"},
   {id:"lst_6050", n:"Saudi Fisheries Co. (SFICO)", s:"consumer_stap", t:2, p:50, short:"6050"},
   {id:"lst_6060", n:"Sharqiyah Development Co.", s:"consumer_stap", t:2, p:50, short:"6060"},
   {id:"lst_6070", n:"Al Jouf Agricultural Development Co. (ALJOUF)", s:"consumer_stap", t:2, p:50, short:"6070"},
@@ -3309,6 +3309,7 @@ const PEOPLE = [
   {id:"salah_rashed_al", n:"Salah Rashed Al-Rashed", t:2, p:62, s:"finance", roles:[
     ["lst_1080","Chairman","board","v"]]},
   {id:"abdulmohsen_ibrahim_altouq", n:"Abdulmohsen Ibrahim AlTouq", t:2, p:62, s:"finance", roles:[
+    ["reda_gulf","Chairman","board","ns"],
     ["lst_1080","Deputy Chairman","board","v"]]},
   {id:"obaid_abdullah_alrasheed", n:"Obaid Abdullah Alrasheed", t:2, p:60, s:"finance", roles:[
     ["lst_1080","Managing Director and CEO","executive","v"]]},
@@ -3653,6 +3654,16 @@ const PEOPLE = [
     ["stv","Principal","executive","v"]]},
   {id:"madiha_loveless", n:"Madiha Loveless", t:2, p:58, s:"finance", roles:[
     ["stv","Finance & IR Director","executive","v"]]},
+  {id:"abdullah_bin_mahdi", n:"Abdullah bin Mahdi bin Ali Al Jali", t:2, p:58, s:"gov", roles:[
+    ["aseer_municipality","Amin (Secretary-General) of Aseer Region","executive","ns"]]},
+  {id:"ahmed_hassan_al", n:"Ahmed Hassan Al-Fifi", t:2, p:58, s:"gov", roles:[
+    ["aseer_municipality","Deputy Amin of Aseer (Urban Planning and Land)","executive","ns"]]},
+  {id:"ahmed_rafat_suleiman", n:"Ahmed Rafat Suleiman", t:2, p:58, s:"gov", roles:[
+    ["aseer_municipality","Deputy Amin of Aseer for Projects","executive","ns"]]},
+  {id:"abdullah_dalbouh", n:"Abdullah Dalbouh", t:2, p:58, s:"gov", roles:[
+    ["aseer_municipality","Executive Director of the Amin's Office","executive","ns"]]},
+  {id:"mohamad_ezzat_beck", n:"Mohamad Ezzat Beck", t:2, p:60, s:"industry", roles:[
+    ["reda_gulf","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

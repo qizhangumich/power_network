@@ -2594,6 +2594,7 @@ const PEOPLE = [
   {id:"anwar_saeed_bin", n:"Anwar Saeed bin Salama", t:2, p:52, s:"materials", roles:[
     ["gpic","Board Member","board","v"]]},
   {id:"isa_bin_ali", n:"Isa Bin Ali Al Khalifa", t:2, p:52, s:"materials", roles:[
+    ["moca_bahrain","Undersecretary of Cabinet Affairs","executive","ns"],
     ["gpic","Board Member","board","v"]]},
   {id:"nasser_ahmed_al", n:"Nasser Ahmed Al Sayyari", t:2, p:52, s:"materials", roles:[
     ["gpic","Board Member","board","v"]]},
@@ -3618,6 +3619,8 @@ const PEOPLE = [
     ["nao_bahrain","Assistant Auditor-General Regularity Audit","executive","v"]]},
   {id:"isa_nasser_alnoaimi", n:"Isa Nasser Alnoaimi", t:2, p:58, s:"gov", roles:[
     ["nao_bahrain","Assistant Auditor-General Administrative Audit","executive","v"]]},
+  {id:"nawaf_bin_mohammed_b", n:"Nawaf bin Mohammed Al-Mawada", t:2, p:52, s:"gov", roles:[
+    ["moj","Minister of Justice, Islamic Affairs and Endowments","board","ns"]]},
 ];
 
 const OWNERSHIP = [

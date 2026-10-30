@@ -1456,6 +1456,7 @@ const PEOPLE = [
   {id:"hamda_eid_almheiri", n:"Hamda Eid AlMheiri", t:2, p:52, s:"finance", roles:[
     ["lst_shuaa","Board Member","board","v"]]},
   {id:"darwish_alketbi", n:"Darwish Alketbi", t:2, p:52, s:"finance", roles:[
+    ["lst_gfh","Independent Director","board","ns"],
     ["lst_shuaa","Board Member","board","v"]]},
   {id:"issa_najieb_khoory", n:"Issa Najieb Khoory", t:2, p:52, s:"finance", roles:[
     ["lst_shuaa","Board Member","board","v"]]},
@@ -2533,6 +2534,48 @@ const PEOPLE = [
     ["lst_unikai","Board Member (until Oct 2026)","board","v","former:until Oct 2026"]]},
   {id:"adil_saleh_mohamed", n:"Adil Saleh Mohamed Abdulla Al Ali", t:2, p:52, s:"consumer_stap", roles:[
     ["lst_unikai","Board Member (until Oct 2026)","board","v","former:until Oct 2026"]]},
+  {id:"abdulmohsen_al_rashed", n:"Abdulmohsen Al Rashed", t:2, p:62, s:"finance", roles:[
+    ["lst_gfh","Chairman","board","ns"]]},
+  {id:"ghazi_faisal_alhajeri", n:"Ghazi Faisal Alhajeri", t:2, p:62, s:"finance", roles:[
+    ["lst_gfh","Vice Chairman","board","ns"]]},
+  {id:"hisham_ahmed_alrayes", n:"Hisham Ahmed Alrayes", t:2, p:60, s:"finance", roles:[
+    ["lst_gfh","Group Chief Executive Officer","executive","ns"]]},
+  {id:"rajeev_gogia", n:"Rajeev Gogia", t:2, p:58, s:"finance", roles:[
+    ["lst_gfh","Group CFO","executive","ns"]]},
+  {id:"abdulaziz_abdulhamid_albassa", n:"Abdulaziz Abdulhamid Albassam", t:2, p:52, s:"finance", roles:[
+    ["lst_gfh","Independent Non-Executive Director","board","ns"]]},
+  {id:"abdulla_jehad_alzain", n:"Abdulla Jehad Alzain", t:2, p:52, s:"finance", roles:[
+    ["lst_gfh","Independent Director","board","ns"]]},
+  {id:"waleed_ahmed_al", n:"Waleed Ahmed Al Mokarrab Al Muhairi", t:2, p:62, s:"industry", roles:[
+    ["arabtec","Chairman (2020–2022)","board","ns","former:until Oct 2022"]]},
+  {id:"wail_farsakh", n:"Wail Farsakh", t:2, p:60, s:"industry", roles:[
+    ["arabtec","Group Chief Executive Officer (until Feb 2021)","executive","ns","former:until Feb 2021"]]},
+  {id:"abdullah_mohammed_juma", n:"Abdullah Mohammed Juma Al Naboodah", t:2, p:62, s:"conglomerate", roles:[
+    ["al_naboodah","Group Chairman","board","ns"]]},
+  {id:"paul_o_flaherty", n:"Paul O'Flaherty", t:2, p:60, s:"conglomerate", roles:[
+    ["al_naboodah","Group Chief Executive Officer","executive","ns"]]},
+  {id:"senan_abdullah_mohammed", n:"Senan Abdullah Mohammed Al Naboodah", t:2, p:60, s:"conglomerate", roles:[
+    ["al_naboodah","Deputy CEO","executive","ns"]]},
+  {id:"david_evans", n:"David Evans", t:2, p:60, s:"conglomerate", roles:[
+    ["al_naboodah","CEO Al Naboodah Construction Group","executive","ns"]]},
+  {id:"haider_ali_khan", n:"Haider Ali Khan", t:2, p:60, s:"tech", roles:[
+    ["bayut","CEO of Bayut and dubizzle","executive","ns"]]},
+  {id:"khalil_saket", n:"Khalil Saket", t:2, p:60, s:"industry", roles:[
+    ["depa_united","Group Chief Executive Officer","executive","ns"]]},
+  {id:"nader_mardini", n:"Nader Mardini", t:2, p:58, s:"industry", roles:[
+    ["depa_united","Group Chief Financial Officer","executive","ns"]]},
+  {id:"muteb_al_shathri", n:"Muteb Al Shathri", t:2, p:62, s:"industry", roles:[
+    ["depa_united","Non-Executive Chairman","board","ns"]]},
+  {id:"faisal_alareefi", n:"Faisal Alareefi", t:2, p:52, s:"industry", roles:[
+    ["depa_united","Non-Executive Director","board","ns"]]},
+  {id:"fouad_alrashed", n:"Fouad Alrashed", t:2, p:52, s:"industry", roles:[
+    ["depa_united","Independent Non-Executive Director","board","ns"]]},
+  {id:"abdulrahman_almodaimeegh", n:"Abdulrahman Almodaimeegh", t:2, p:52, s:"industry", roles:[
+    ["depa_united","Non-Executive Director","board","ns"]]},
+  {id:"fergus_rossiter", n:"Fergus Rossiter", t:2, p:52, s:"industry", roles:[
+    ["depa_united","Independent Non-Executive Director","board","ns"]]},
+  {id:"mohammed_bin_turki", n:"Mohammed bin Turki Alsudairy", t:2, p:52, s:"industry", roles:[
+    ["depa_united","Non-Executive Director","board","ns"]]},
 ];
 
 const OWNERSHIP = [

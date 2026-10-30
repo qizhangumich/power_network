@@ -539,6 +539,8 @@ const PEOPLE = [
   {id:"ahmed_hamad_rashid", n:"Ahmed Hamad Rashid Matar Al Suwaidi", t:2, p:58, s:"gov", roles:[
     ["shj_execco","Assistant Secretary General","executive","v"]]},
   {id:"sheikh_saleh_bin", n:"Sheikh Saleh bin Mohammed bin Hamad Al Sharqi", t:2, p:62, s:"industry", roles:[
+    ["fujairah_petroleum","Chairman","board","ns"],
+    ["fujairah_die","Chairman","board","ns"],
     ["nbf","Chairman","board","v"],
     ["fujairah_national","Chairman and Chief Executive Officer","executive","v"],
     ["fujport","Chairman","board","v"]]},
@@ -1443,6 +1445,18 @@ const PEOPLE = [
     ["raknor","Head of Operations","executive","v"]]},
   {id:"mustafa_al_khalfawi", n:"Mustafa Al Khalfawi", t:2, p:60, s:"finance", roles:[
     ["ajmanbank","Chief Executive Officer","executive","v"]]},
+  {id:"mohamed_yousef_almadfaei", n:"Mohamed Yousef Almadfaei", t:2, p:58, s:"gov", roles:[
+    ["rak_epda","Director General","executive","ns"]]},
+  {id:"mohamed_obaid_bin", n:"Mohamed Obaid bin Majed Al Aleeli", t:2, p:58, s:"gov", roles:[
+    ["fujairah_die","Director General","executive","ns"]]},
+  {id:"hassan_saeed_muhaimid", n:"Hassan Saeed Muhaimid Al Habsi", t:2, p:58, s:"gov", roles:[
+    ["rak_public_prosecution","Attorney General","executive","ns"]]},
+  {id:"rashid_ahmed_al", n:"Rashid Ahmed Al Malek", t:2, p:46, s:"gov", roles:[
+    ["rak_public_prosecution","First Attorney General, Head of Public Prosecution","executive","ns"]]},
+  {id:"ahmed_bin_saeed", n:"Ahmed bin Saeed Al Sayyah", t:2, p:58, s:"gov", roles:[
+    ["rak_ega","Director General","executive","ns"]]},
+  {id:"fatima_ahmed_al", n:"Fatima Ahmed Al Malki", t:2, p:58, s:"gov", roles:[
+    ["rak_ega","Director of Information Security Department","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
