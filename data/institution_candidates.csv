@@ -1,6 +1,4 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Woodside Energy,2,qatar,pending,2026-10-29,2026-10-29,QatarEnergy to purchase 3MTPA of US LNG from Woodside Energy for 20 years
-Met Department,2,kuwait,pending,2026-10-29,2026-10-30,"Met Department warns of thundery rain, dust and rough seas"
 Riyadh Airport,10,saudi,rejected,2026-10-09,2026-10-24,Etihad Extends UAE-Saudi Flight Cancellations Until October 13 After Riyadh Airport Disruptions
 Bandhan Bank,8,abudhabi,rejected,2026-10-12,2026-10-28,‘Unaware of Abu Dhabi investors’ stake sale plans’: Bandhan Bank clarifies after 7% share jump
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
@@ -57,6 +55,7 @@ Transitional Sovereignty Council,2,oman,rejected,2026-10-25,2026-10-26,Message f
 Jindal Steel,2,oman,added,2026-10-11,2026-10-13,Jindal Steel Oman and Oman Cement Company sign strategic partnership to advance sustainable cement production
 Palestinian Authority,2,oman,rejected,2026-10-11,2026-10-24,Palestinian Authority condemns 'collective punishment'
 Social Development Ministry,2,oman,added,2026-10-11,2026-10-18,Social Development Ministry celebrates Omani Women's Day
+Woodside Energy,2,qatar,rejected,2026-10-29,2026-10-29,QatarEnergy to purchase 3MTPA of US LNG from Woodside Energy for 20 years
 Communications and Information Technology,2,qatar,rejected,2026-10-20,2026-10-26,"Minister of Communications and Information Technology Meets US Deputy Assistant Secretary of Commerce for Middle East, Africa"
 US-based Activate Capital,2,qatar,rejected,2026-10-15,2026-10-15,US-based Activate Capital joins Qatar Investment Authority's Fund of Funds
 Bank of China,2,qatar,rejected,2026-10-14,2026-10-15,QCB Governor participates in joint meeting of GCC Central Bank Governors with the People’s Bank of China
@@ -79,6 +78,7 @@ Hassan Allam Utilities,2,bahrain,rejected,2026-10-23,2026-10-24,Hassan Allam Uti
 Austrian Airlines,2,,rejected,2026-10-19,2026-10-19,Flight from Israel diverted after ‘threat’ reported
 Egyptian Exchange,2,,rejected,2026-10-12,2026-10-13,Banque du Caire to sell stake in IPO
 UAE-backed Pearl Petroleum,2,,rejected,2026-10-28,2026-10-29,UAE-backed Pearl Petroleum mandates USD 400-500mln bond
+Met Department,2,kuwait,rejected,2026-10-29,2026-10-30,"Met Department warns of thundery rain, dust and rough seas"
 UN Human Rights Council,2,kuwait,rejected,2026-10-13,2026-10-14,Kuwait re-elected to UN Human Rights Council with 173 votes
 Abha Airport,2,saudi,rejected,2026-10-08,2026-10-08,Saudi Arabia warns Houthi attacks will not go unpunished
 Muscat Airport,2,oman,rejected,2026-10-14,2026-10-28,duplicate of existing oman_airports (Oman Airports Management Co. / Muscat International Airport); AKA added

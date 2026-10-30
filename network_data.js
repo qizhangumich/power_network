@@ -898,7 +898,7 @@ const PEOPLE = [
     ["lst_adaviation","Chairman, Non-Executive Board Member","board","v"],
     ]},
   {id:"marcos_dequadros", n:"Marcos de Quadros", t:2, p:68, s:"sovereign", roles:[
-    ["adq","Group Chief Financial Officer","executive","ns"],
+    ["adq","Group Chief Financial Officer","executive","v"],
     ["adairports","Board Member","board","v"],
     ]},
   {id:"somar_ajalyaqin", n:"Dr. Mohammed Somar Ajalyaqin", t:2, p:70, s:"sovereign", roles:[
@@ -1235,7 +1235,7 @@ const PEOPLE = [
     ]},
   {id:"kaj_erik_relander", n:"Kaj-Erik Relander", t:2, p:52, s:"finance", roles:[
     ["adgm","Board Member","board","v"],
-    ["adq","Board Member","board","ns"],
+    ["adq","Board Member","board","v"],
     ]},
   {id:"rashed_abdulkarim_al", n:"Rashed Abdulkarim Al Blooshi", t:2, p:58, s:"finance", roles:[
     ["adgm","CEO, ADGM Registration Authority","executive","v"],
@@ -1789,7 +1789,7 @@ const PEOPLE = [
     ]},
   {id:"hamad_al_hammadi", n:"Hamad Al Hammadi", t:2, p:62, s:"utilities", roles:[
     ["ewec","Chairman","board","v"],
-    ["adq","Deputy Group CEO – Energy & Utilities","executive","ns"],
+    ["adq","Deputy Group CEO – Energy & Utilities","executive","v"],
     ["enec","Vice Chairman","board","v"],
     ["aldahra","Board Member","board","v"],
     ]},
@@ -2028,7 +2028,7 @@ const PEOPLE = [
     ["lst_bos","Head of Credit Risk","executive","v"],
     ]},
   {id:"h_h_sheikh", n:"H.H. Sheikh Zayed bin Hamdan bin Zayed Al Nahyan", t:2, p:52, s:"sovereign", roles:[
-    ["adq","Board Member","board","ns"],
+    ["adq","Board Member","board","v"],
     ["multiply","Chairman of the Board (Two Point Zero Group, formerly Multiply Group)","board","v"],
     ["aldahra","Vice Chairman of the Board of Directors","board","v"],
     ]},
@@ -2038,7 +2038,7 @@ const PEOPLE = [
     ["modon_properties","Vice Chairman","board","v"],
     ]},
   {id:"h_e_mohamed_b", n:"H.E. Mohamed Mubarak Fadel Al Mazrouei", t:2, p:52, s:"sovereign", roles:[
-    ["adq","Board Member","board","ns"],
+    ["adq","Board Member","board","v"],
     ]},
   {id:"h_e_ali_b", n:"H.E. Ali Mohammed Hammad Al Shamsi", t:2, p:52, s:"sovereign", roles:[
     ["adq","Board Member","board","ns"],
