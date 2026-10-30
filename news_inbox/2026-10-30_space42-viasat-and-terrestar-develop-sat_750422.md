@@ -1,0 +1,5 @@
+# Space42, Viasat and Terrestar Develop Satellite Interoperability Framework
+source: The Fast Mode
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxOSHV0ZmdJMlBSZmRLbkZfZk1NUDNCV3VucVJNMUpiVXZrQzVtbE5zTmxNT01qcjFOYXl2bUo3WmlIQWpZaUxuVEtfUG9VZTRld2ZxWlRzclpGRFJOc2hCd3RYcUgyUkc2dFBNSU5FWDhqbjByVk40SWViOVo3d29rWW1rWFVqcG1fSGNlRVcxTnhYemxRNjNpanUxWTFIOXpwTmNRRHVna3FoZmNjakhua3AweEQzZmpfcUp0Yk9BMjVoQ0R0R0M4?oc=5
+
+Space42, Viasat and Terrestar Develop Satellite Interoperability Framework    The Fast Mode

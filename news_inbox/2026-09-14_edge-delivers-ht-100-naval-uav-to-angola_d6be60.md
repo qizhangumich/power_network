@@ -1,5 +1,0 @@
-# EDGE delivers HT-100 NAVAL UAV to Angola as part of corvette programme
-source: defenceWeb
-url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPTzBtTDB6SmRscWpTTnNSSkNNclBTYnhhTEpmVEZyWXFfYlV4eEY2cXVZTFlVQV84S2FJc0dlck1fc2ZyZlpoOTd6ZmYzbWVaQVBmWW9TRzhBXzZXRHV5ZlFydV9kUnBJMmNBaUFvWjUySFpKMmhLcnlUWFVNTjdXakJJeWFWMzBnZW9MaHRqX3podFBKdFFDUEo4bms1dkMtNHJuaFY1OEN5aGFkT1dPU2VXQUExQlVlQXlRT01IX2VwQTl5?oc=5
-
-EDGE delivers HT-100 NAVAL UAV to Angola as part of corvette programme    defenceWeb

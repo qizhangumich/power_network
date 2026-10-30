@@ -1,0 +1,5 @@
+# EDGE Completes Acquisition of Italian Engine Maker CMD, Targets Large-Volume Drone Engine Orders
+source: Quwa
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcHd0TkJNcEhxcU85X2RKbkduV0pUeU93eU9XcEt1RVBiSHJZbXppQlpXdElueEdreEFrSTg2aFlZR1ZDTlprY24yOTlPTlQ2QTExc2UzYnlDWHJTa3Q1OWZBUlNYQm5ISmpyWmU4WU02OVBQUHFHQjdzRzlEcVZ3N2RTQXd6UUJuUVBJRDRsWVRVQzV2YkJfenh4RFVGY3hZX0VfVk5GQ3FSNkRzTlZqY2ViTXZVYUxsYzVKRGQ4S1AyNVZ5Y0U5MERsYVhaMGw5Z0E?oc=5
+
+EDGE Completes Acquisition of Italian Engine Maker CMD, Targets Large-Volume Drone Engine Orders    Quwa

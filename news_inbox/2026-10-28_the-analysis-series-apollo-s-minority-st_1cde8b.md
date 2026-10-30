@@ -1,0 +1,5 @@
+# The Analysis Series: Apollo’s minority stake in Mubadala Capital – the terms, the TWG stake that never completed, and what it means for football’s lenders
+source: The Esk
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNZmY5Y3MtbDJvUFpHRmUxT1BIRW9fMS0wdjhES3h6QUxaaGlvb1h3dHdTckY4aFpDMk9UUkFvcE9KQTJyVklOSHh5WHh3WEthYmJCVkE3bFU1YkN2NTZvNkFmb3RudDdld3E1MV9sLXVwVkNvWDh1NXZESmFzNzdfRnRDNW9peTB6RHNaVUdBSGpmY3VOZjNfMWhIbFhHemJWMmVLcmtSUlRoQW9rdUxz0gG0AUFVX3lxTE1QZDRpT1ZXb2VZcGtsY1ZjbnZnYjlhQXhHRkRHVU85dzFOVHhzbjdYcXUtVmtLMWltc0JqZy0xMnIxNmpjelFOSE8zQi1ITFFTWnhWYUFOdWNRVkwwVVlMSkI2OVVvUEVraFlWc1A4N2hsY1llUHByY2FmYzVpLXIyY2t6N3VTYk5zRlFWdlV6bU1Jb0pkYXNOcE12cnpqWmptTEppOTFwclBRVjFjQy14R0RaQg?oc=5
+
+The Analysis Series: Apollo’s minority stake in Mubadala Capital – the terms, the TWG stake that never completed, and what it means for football’s lenders    The Esk

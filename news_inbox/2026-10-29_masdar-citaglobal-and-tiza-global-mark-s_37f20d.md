@@ -1,0 +1,5 @@
+# Masdar, Citaglobal And TIZA Global Mark Start Of Construction For One Of Southeast Asia's Largest Floating Solar Projects
+source: Menafn
+url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeXNHNUtpSC1XYlF0cWJwZnR5bm5BODBuTm5nMUZmOU5SVlpGTVJyVmVRV1hyS3BYZjNuamJhZmtOWGR4d1o2YVd3N2VpeFEtajFPcFlRSTBvQzVUSE43eDNUTzliZnBRcy11bC1ac3JxUWE1UGlKdmZ2UU0xN2Vfa3pKYlRBdWgzSElKRThTVEo3dWoxWkVmbGhxeGJMUWhRN2lONXVtU2s5Y3dqWG44WHpyRzhDcVVtM2ZGellWemk4MDRjZXZwcUVQVGI2RzZ1YlFZenZYZFd0dXFkTi1KXzF1bw?oc=5
+
+Masdar, Citaglobal And TIZA Global Mark Start Of Construction For One Of Southeast Asia's Largest Floating Solar Projects    Menafn
