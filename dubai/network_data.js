@@ -236,6 +236,8 @@ const INSTITUTIONS = [
   {id:"diamondlease", n:"Diamondlease LLC", s:"consumer_disc", t:3, p:52, short:"Diamondlease"},
   {id:"habtoor_hospitality", n:"Habtoor Hospitality L.L.C.", s:"consumer_disc", t:3, p:54, short:"Habtoor Hospitality"},
   {id:"emirates_intl_sch", n:"Emirates International School", s:"education", t:3, p:52, short:"Emirates Intl Sch"},
+  {id:"al_reyami", n:"Al Reyami Group", s:"industry", t:3, p:52, short:"Al Reyami Group"},
+  {id:"danube", n:"Danube Group", s:"conglomerate", t:3, p:55, short:"Danube Group"},
 ];
 
 const PEOPLE = [
@@ -2823,4 +2825,5 @@ const AKA = {
   gulf_navigation:["GulfNav"],
   depa_united:["Depa"],
   habtoor_hospitality:["Metropolitan Hotels"],
+  danube:["Danube Building Materials","Danube Home","Danube Properties"],
 };

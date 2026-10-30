@@ -244,6 +244,8 @@ const INSTITUTIONS = [
   {id:"qatar_diamond_exchange", n:"Qatar Diamond Exchange", s:"finance", t:3, p:52, short:"Qatar Diamond Exchange"},
   {id:"qatar_leadership_centre", n:"Qatar Leadership Centre", s:"education", t:2, p:60, short:"Qatar Leadership Cen…"},
   {id:"qatar_crafts_council", n:"Qatar Fashion and Crafts Council", s:"gov", t:3, p:52, short:"Qatar Crafts Council"},
+  {id:"elegancia", n:"Elegancia Group", s:"industry", t:3, p:54, short:"Elegancia Group"},
+  {id:"al_sraiya", n:"Al Sraiya Holding Group", s:"conglomerate", t:3, p:54, short:"Al Sraiya Holding"},
 ];
 
 const PEOPLE = [
@@ -2352,6 +2354,7 @@ const OWNERSHIP = [
   ["qai","qia","wholly owned national AI company launched Dec 2025 to build, operate and invest in AI infrastructure in Qatar and abroad; chaired by Abdullah bin Hamad Al Misnad","v"],
   ["qatar_diamond_exchange","qfz","subsidiary","v"],
   ["qatar_crafts_council","qm","subsidiary","v"],
+  ["elegancia","lst_igrd","subsidiary (100%)","ns"],
 ];
 
 const FAMILY = [

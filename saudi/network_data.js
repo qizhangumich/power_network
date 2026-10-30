@@ -552,6 +552,9 @@ const INSTITUTIONS = [
   {id:"reda_gulf", n:"REDA Gulf Holding", s:"industry", t:3, p:57, short:"REDA Gulf Holding"},
   {id:"al_bayroni", n:"Jubail Fertilizer Company", s:"materials", t:3, p:54, short:"Al-Bayroni"},
   {id:"ibn_al_baytar", n:"National Chemical Fertilizer Company", s:"materials", t:3, p:54, short:"Ibn Al-Baytar"},
+  {id:"al_quraishi_bros", n:"Ali Zaid Al Quraishi & Brothers Company", s:"conglomerate", t:3, p:54, short:"Al Quraishi & Bros"},
+  {id:"tamimi", n:"Tamimi Group", s:"conglomerate", t:3, p:55, short:"Tamimi Group"},
+  {id:"arasco", n:"Arabian Agricultural Services Company", s:"consumer_stap", t:3, p:55, short:"ARASCO"},
 ];
 
 const PEOPLE = [
@@ -4205,4 +4208,6 @@ const AKA = {
   lean_technologies:["Lean"],
   aseer_municipality:["Asir Municipality"],
   reda_gulf:["REDA Hazard Control"],
+  al_quraishi_bros:["AZAQ"],
+  tamimi:["Tamimi Global"],
 };

@@ -186,6 +186,7 @@ const INSTITUTIONS = [
   {id:"nao_bahrain", n:"National Audit Office", s:"gov", t:1, p:64, short:"NAO Bahrain"},
   {id:"moca_bahrain", n:"Ministry of Cabinet Affairs", s:"gov", t:1, p:64, short:"MoCA Bahrain"},
   {id:"eskan_bank", n:"Eskan Bank", s:"finance", t:2, p:58, short:"Eskan Bank"},
+  {id:"national_motor", n:"National Motor Company", s:"consumer_disc", t:3, p:52, short:"National Motor Co"},
 ];
 
 const PEOPLE = [
@@ -3726,6 +3727,7 @@ const OWNERSHIP = [
   ["iaa","cabinet_bh","ministerial-rank authority","v"],
   ["baca","cabinet_bh","affiliate authority","v"],
   ["moca_bahrain","cabinet_bh","ministry of","v"],
+  ["national_motor","lst_bcfc","subsidiary","ns"],
 ];
 
 const FAMILY = [
@@ -3798,4 +3800,5 @@ const AKA = {
   iaa:["Ministry of Information Affairs"],
   nao_bahrain:["NAO","National Audit Court"],
   moca_bahrain:["MoCA","Minister of State for Cabinet Affairs"],
+  national_motor:["NMC"],
 };

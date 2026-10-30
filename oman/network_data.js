@@ -241,6 +241,7 @@ const INSTITUTIONS = [
   {id:"mara_oman", n:"Ministry of Endowments and Religious Affairs", s:"gov", t:1, p:60, short:"MARA Oman"},
   {id:"riyada", n:"Small and Medium Enterprises Development Authority (Riyada)", s:"finance", t:2, p:58, short:"Riyada"},
   {id:"raysut_cement", n:"Raysut Cement Company", s:"materials", t:3, p:56, short:"Raysut Cement"},
+  {id:"mb", n:"MB Holding Company LLC", s:"conglomerate", t:3, p:58, short:"MB Holding"},
 ];
 
 const PEOPLE = [

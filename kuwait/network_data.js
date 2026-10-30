@@ -250,6 +250,7 @@ const INSTITUTIONS = [
   {id:"ekuity", n:"Ekuity Holding", s:"finance", t:3, p:52, short:"Ekuity Holding"},
   {id:"qurain_petrochem", n:"Qurain Petrochemical Industries Company", s:"materials", t:2, p:58, short:"Qurain Petrochem"},
   {id:"kharafi_national", n:"Kharafi National", s:"industry", t:3, p:56, short:"Kharafi National"},
+  {id:"al_yousifi_sons", n:"Easa Husain Al-Yousifi & Sons Group", s:"conglomerate", t:3, p:54, short:"Al-Yousifi & Sons"},
 ];
 
 const PEOPLE = [
@@ -2295,4 +2296,5 @@ const AKA = {
   ekuity:["Ekuity Capital"],
   lst_humansoft:["ILSC","Humansoft Holding Company","Humansoft"],
   qurain_petrochem:["QPIC"],
+  al_yousifi_sons:["Al-Yousifi Group"],
 };

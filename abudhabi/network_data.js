@@ -317,6 +317,8 @@ const INSTITUTIONS = [
   {id:"aldar_capital", n:"Aldar Capital", s:"finance", t:2, p:58, short:"Aldar Capital"},
   {id:"magnati", n:"Magnati", s:"finance", t:2, p:58, short:"Magnati"},
   {id:"topaz_energy", n:"P&O Maritime Logistics", s:"energy", t:2, p:58, short:"P&O Maritime"},
+  {id:"ghantoot", n:"Ghantoot Group", s:"industry", t:3, p:54, short:"Ghantoot Group"},
+  {id:"al_ghaith", n:"Al Ghaith Holding", s:"industry", t:3, p:54, short:"Al Ghaith Holding"},
 ];
 
 const PEOPLE = [
@@ -4655,4 +4657,5 @@ const AKA = {
   insead_abu_dhabi:["INSEAD Middle East Campus","Abu Dhabi"],
   sdeira:["KEZAD Communities"],
   topaz_energy:["Topaz","Topaz Energy and Marine","POML"],
+  al_ghaith:["Al Ghaith Group"],
 };

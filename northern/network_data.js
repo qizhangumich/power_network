@@ -174,6 +174,7 @@ const INSTITUTIONS = [
   {id:"rak_ega", n:"Electronic Government Authority (Ras Al Khaimah)", s:"gov", t:2, p:56, short:"RAK EGA"},
   {id:"fujairah_die", n:"Department of Industry and Economy (Government of Fujairah)", s:"gov", t:2, p:58, short:"Fuj. Industry&Economy"},
   {id:"ajman_police", n:"Ajman Police General Command", s:"gov", t:2, p:58, short:"Ajman Police"},
+  {id:"gulf_craft", n:"Gulf Craft", s:"industry", t:3, p:53, short:"Gulf Craft"},
 ];
 
 const PEOPLE = [
