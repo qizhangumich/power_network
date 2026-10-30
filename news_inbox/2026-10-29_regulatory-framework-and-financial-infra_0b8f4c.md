@@ -1,0 +1,5 @@
+# Regulatory framework and financial infrastructure supporting asset management growth and expansion in Abu Dhabi
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMiggJBVV95cUxQUUZfa1dNV2VmV1BoblNWNHlOMVBRS1JCQXJQZUZ3YUwtd3QtV0YyZW9wZW4wVWdpaFdKdUVNSktYYTZHb0h2OXNGeGhkWFZPbW9PMllNa0RBelY1cmNMLUR0bEM0WEZpdjJUc1hnbVg2MmxJR3ZSNVNTVlVOS1ZrM1BQaWxVRUR2Z2ZxLVFtSmctV2EtVWFNam92VWNkdk9RSDZlcnE3ZWdaSTAtVTY2eWs4d216YmxpQkFpRURrMVU5VGdDeDZLUFFXR0xqVmF0d2k2QkI2cU5XeTlsdWJLRGpTOG00SVNPNVZxWjIzUjE0dkIzNVRIQXRSajFpYzgtN1E?oc=5
+
+Regulatory framework and financial infrastructure supporting asset management growth and expansion in Abu Dhabi    مكتب أبوظبي الإعلامي

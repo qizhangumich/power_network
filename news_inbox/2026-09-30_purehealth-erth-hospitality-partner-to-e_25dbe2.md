@@ -1,0 +1,5 @@
+# PureHealth, Erth Hospitality partner to enhance care experience at SEHA Corniche Hospital
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSGVtdkJxQTRfaFBiQW1adXFHX0Y2SmNnbERMQlh5TjU4LVY0MDUzbjlsUjNPSHNsOWNjNUZOODcyNXpZZXF5dVE0U1hGRUVCdnpQSDFNSjQyN0hVS2FWSkR3TjBDS2tweTZQeXFqejlqa0RiTU9SME9YTzFYT2F4cTRxQi1TUUJ0Sy15M2pvYm9xSlM4dHo3UUlKazlEZTNsSEVPNG1KUzhaZ0xkZ3U3SkotTV9tMG9DZ3ZFQ0dwcm5QNkxBamZlSnNvdnpsVmtFeHN3U0sxVUNjeFAwMDVV?oc=5
+
+PureHealth, Erth Hospitality partner to enhance care experience at SEHA Corniche Hospital    Zawya

@@ -1,0 +1,5 @@
+# Khalifa Port Advances to 34th Position in Lloyd's List Global Container Ports Ranking
+source: Data Portuaria
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNazdXVjNScml2X1hVM0J6aEl3emNhQUZpTE1Bc1NTVlJRV1dIV3hMUnduTUVHYS1pbHBqR0VWV3NhWUVMM0RuSk5keGZPVTItaTNYY01rd2pPMTJ3cFZWbHBCUUhwQVZkclpxWXgxckZ3SWF1TDFEbTJPSnJFYkV3SnV4WW81dDBpOFJGcy1EVW5uU1A1ZzBhWUlEY2lUWDRLY0pjWk1hQ2luX29pNHhjUHNyb0ZHRVZHazJ6NnB5ZThIWUlDWUtyeEFPYnZZcE9jM1N0WUZsbks?oc=5
+
+Khalifa Port Advances to 34th Position in Lloyd's List Global Container Ports Ranking    Data Portuaria

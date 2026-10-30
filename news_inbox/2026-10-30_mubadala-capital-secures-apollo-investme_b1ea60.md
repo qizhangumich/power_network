@@ -1,0 +1,5 @@
+# Mubadala Capital secures Apollo investment
+source: Solicitors Journal
+url: https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDNqcU1fQjBCZjlqdjZ5VmtaOGdnRmU3aUZmOXRXMGc3N1RVWXFwcndyQ2daWE9SV1VDTmR5ZG0taW5YZHdnVFBzaGVoLWVreTYxUF84M3N3OXpnVVZaMWlScm5HTHdXV29BaC04TzZFU0pLanVyOXlQY2tZYmo3akRGWU1WZndWZTRhbmhBZFJLcS1Ga2RNcF91OGtXV2NUd2c?oc=5
+
+Mubadala Capital secures Apollo investment    Solicitors Journal

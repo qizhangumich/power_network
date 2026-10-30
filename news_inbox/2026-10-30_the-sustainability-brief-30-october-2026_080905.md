@@ -1,0 +1,5 @@
+# The Sustainability Brief – 30 October 2026
+source: Sustainability Online
+url: https://news.google.com/rss/articles/CBMiogFBVV95cUxOb0VoYWtsSjNsQzhUT0RyZ2pscGtFd21zUlZCM3BZalc5czB6NGNJZjhETHdQaHctREpBUG5CZ0ItZm1QZmd6eXlIVnZoN0sybUtYb0MtRjZnWFYxZWw1S3NOZVYzcW9yT2U3a0RXUUFLVXdaOENKUGp4ZWtMWFNTdVhZQTFnbGFXWEZISVk2ZURBZjM5aVFyTkZodm9FU1p2MUE?oc=5
+
+The Sustainability Brief – 30 October 2026    Sustainability Online

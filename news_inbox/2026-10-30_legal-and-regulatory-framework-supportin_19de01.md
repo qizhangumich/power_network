@@ -1,0 +1,5 @@
+# Legal and regulatory framework supporting the establishment and operation of hedge funds in Abu Dhabi
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPZFZQRHVXdUlQd3NON3FIOEIxaEZIUFJZZGN1WUJwUmdlS21SV3Z3eWpTNGZiU3dlSVNoMDFYZ3E0dTlXSlJQSExzem5lVUxCX21WS0RvTmYxd3Q1UXhrd292Z04zUmtNSmZwQW80SExmLUtGZlJNR1hNZDNTbGNsM0Nvc2d4dVF5UWRlSXMxNlhwbndtN0NxSzNxcnFxVDlUWkc2R0RfSmlVLXp2TDhuSzMtSHpFZzhsVEJpZWVfbTNHaVdNYVZSdWpsUVJ0TEVpd0ZveWZVMmk4aTgwdEhlQnJaYnpiMVU5V0ZWYUFGWHRuUXdM?oc=5
+
+Legal and regulatory framework supporting the establishment and operation of hedge funds in Abu Dhabi    مكتب أبوظبي الإعلامي

@@ -1,0 +1,5 @@
+# Etihad Launches First Nonstop Flights Between Abu Dhabi and Calgary
+source: Rus Tourism News
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxORjkxSm5haGRrUlVPX2M1UmhTZGNjVV81Y2ZyT3h6bnY0RDJfSm1qVmZ3aW92Tld6T281Z0pGWEM3VXY3N05fU0ZheTJ4SlJfczk5Q00tNDFIanJCbUhxcEFYenZBa21DTzZGenh3QmZadWdpZHRxd1pSUU4yRUJ0WFZiLXhjeHcyLXlpVFlfX0xFcEg0cWtlU055LUp6UFl2S3lsajJ3dnpZNTYxSldF?oc=5
+
+Etihad Launches First Nonstop Flights Between Abu Dhabi and Calgary    Rus Tourism News
