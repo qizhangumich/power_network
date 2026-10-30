@@ -1,0 +1,5 @@
+# Licensable video: UNCAPTIONED: Burnham Had Two Hospitality Dinners With Man City Chairman
+source: Reuters Connect
+url: https://news.google.com/rss/articles/CBMi_gFBVV95cUxPSWIzemVRQlpqbW10UDVId3VSMkR3OGlTYlducDdGalJKUHdScVZnWksza19WNi1yTTlzUHJiUWoxTkxHTGstMlpWaF9tZW5NaTQ5eUZKZ0stb1lGSW9Lb0dNell5czhmc2FrVHRoWEhITlBpUWZfenZVbjN6amJvV2JXWWdFMTR1QjFnRDlvVFR6U2V4SG1ZZEJ1ckV2ZU9XS005UWVNZVRHZEljUXlsanBqbFl3c0dPeVZsN2xGNjYzMkRtZnd4Mk1LNVJNWEZ6RGhCNGJORG8wRlNyLW0zeGF4MU1QVVVfR1lQSjlWelpmNWkxbVMzMmJGZk1Ndw?oc=5
+
+Licensable video: UNCAPTIONED: Burnham Had Two Hospitality Dinners With Man City Chairman    Reuters Connect

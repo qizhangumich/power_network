@@ -1,0 +1,5 @@
+# An Air Link Between Oil Capitals Underscores Canada’s Gulf Pivot
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxQcm5YNGNpalMxSGQ5RXhVWU81X1RTaDF0REF4Rjk4MlNjOHZUSmJjWjRyRElPeUtZUkRkbGpTNGdHTG4wSTNyN21tUy1IUkd3YjlhTkVmWmhGaU9qNklUQ3BIQmxyWUNramJFWGJrdGNTVXVBQ0N0aEtBdWc1VE41WUJZbkFDdUVmUld2cXR2WVE5emdvSjE2WExqVng2N3ZoNWpTUkQ0WDFHdTYtZDNtaFpCMjJQdw?oc=5
+
+An Air Link Between Oil Capitals Underscores Canada’s Gulf Pivot    Bloomberg.com

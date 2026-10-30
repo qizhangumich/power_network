@@ -1,0 +1,5 @@
+# Etihad Cargo and VEDP Forge Partnership to Advance Aviation-Related Trade
+source: Construction Business News Middle East
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxNT3psdFM0U1c5Zm5yNTI2UXpna3ctUnM2OGVUTVFyQWNmSmVZbzNWWEFFZU5PMVdTbTFGMUtybXV3UGpQQjZIRmEyUWc2LXdyRUMxcmplQi1KVWVkdFdKZ0MxRi1SWlZCT3NoZ0o5UjRkRURZaG1LeTVJQmx3VllnYS0tOE5rN1l5TTJvYUdPY0t2czRUZFRHaElUZnNneWdNTHN5cUlWNklWeURMSnJ3bg?oc=5
+
+Etihad Cargo and VEDP Forge Partnership to Advance Aviation-Related Trade    Construction Business News Middle East

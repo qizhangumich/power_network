@@ -1,0 +1,5 @@
+# PureHealth net profit rises 14.1% to Dh1.8 billion
+source: Khaleej Times
+url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQX1lZMzhtQ1hpR3NTS2NFYjVSdkhLSkVnbUQySHpNbnNpOU1OSU9QU3Jjc3dMYVR6SUhHU043YTlnay1TY1Q3bzRxRXAydW5SNXptMU8xYktfZjU4QWNQcTB1MHJnSVBNQ2poUFh0QkRWSzNvZG1lMG11ZDFJNnpFLUlCUDhsQXR2eG9WQWJn0gGWAUFVX3lxTE1saXY1OEtGOXN5SHRkelNDOUxreG9ZWFkyeHhMNzNaVkE2bXJJNm5RejRiZGlMamlqQTRlUGZ3UkdPdHZlTTRVVWNweDh5VFBTWmhaX0JDVFFrMVVIVnFBWUpwZ1ZpQ1Y4TkI0S25JZVFSajVHZno2dGlMamNSOURoTzU1SXhUcHN4OXk0SEhQd3lVeXRyZw?oc=5
+
+PureHealth net profit rises 14.1% to Dh1.8 billion    Khaleej Times

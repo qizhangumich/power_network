@@ -1,0 +1,5 @@
+# Sen. Tulfo explores partnership with ADNOC for Philippine Strategic Petroleum Reserves
+source: The Filipino Times
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUkdmM1QzRHZnTGRKQmtldVVTRTZQdE10U0xTRWp6bnFlNDhIdXEwUlppdTN6Ukh5MW5HemtUMGR0MGFqQzczLTV2WUdGSDZJeHBiM0NreTFOdjJjTV84TU9QcmJveXpzVWdldW1wbnpoSmhWN1dyWmdPZ3U5UHpoY18xZUt3cW5DbWYydHRfa1JXRmhjdDFVWDg4NzZsYW40N3Vwd2FUaWh1Q0NoX2JOd0h5Tmt6STFsM29MRUV2TVlhNnAwWEhGUzJqRHdrNzFp?oc=5
+
+Sen. Tulfo explores partnership with ADNOC for Philippine Strategic Petroleum Reserves    The Filipino Times

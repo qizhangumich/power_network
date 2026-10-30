@@ -1,0 +1,5 @@
+# Etihad Cargo partners with Virginia on cargo development
+source: Air Cargo News
+url: https://news.google.com/rss/articles/CBMipgFBVV95cUxNeVNnZUtvN1pQRzlxbDRRU1ZmWGpZYzdYMms2THhsdmRZbmtGeTh3d3V3ZWRETDBwLTE1VjlsaE5zZ21nenVNemVHNW1GSjAteXBiQk5neGI1QUNIMHJxZW1LQjFxUklscHNqU2FnU1FtaDVmNmVhM0xydEdaSGw1YUZnRGxoTzVCS000Nkp6eW9fYl9pRW1VM0hnWGpOMWVFOXl1a0Z3?oc=5
+
+Etihad Cargo partners with Virginia on cargo development    Air Cargo News

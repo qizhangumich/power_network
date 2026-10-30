@@ -1,0 +1,5 @@
+# ADNOC - Powering Possible 2026: Investments...
+source: euro petrole
+url: https://news.google.com/rss/articles/CBMi-wFBVV95cUxOb0NyZUNfcVRGTnBVR3pZOVlhQVI0TzlHWlFYeE9hTVByWW9TNkZuWmtxSGlBNkdCdUhPbEt3cWpqN0tGZVRIbERsV3FlR2g3MFBWUTd1YlM4dU5fZ19DdWpGUUpTOTNlQnROaHN3QkJzeWFoT0w2ZTFfdy1obXhSbFdYZ2kzY2cyN0pUSGo3bDVzbnotWTUxcWJqZ3lGcFkxMHpnZFI5YkJDYWxQVVNiRUZIckx0S2JjN0NBbEQ1RWVYOHdmZktiM2hIdlF0dzFGOVEtSzVFWDY1U050QzdMR0VVWUxwQUszX3dSUUVGalREamFGREJ4eEZrdw?oc=5
+
+ADNOC - Powering Possible 2026: Investments...    euro petrole

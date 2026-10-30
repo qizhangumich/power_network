@@ -1,0 +1,5 @@
+# Masdar starts building 200 MW floating solar plant in Malaysia
+source: Solarbytes
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxOUjNyQjFCU0RsR0tlUFZjMGJLVU5GcDNUeFBlc1d5aUlzekhReW1mMmtYY09weGVyS3dPQzEtMmJGcWVzcUx3VzJrRzJvWjdESUcxYkhOOFl0YWRNUlZPdWpUSHZUVWpvS2IxUXVQenNJQnhzZ0FDUHp3VklqRGkxUHcwT2hrN0NrVzFReWNYS2tVZ29GTmlwcXFzOXF3TkcyQ1hn?oc=5
+
+Masdar starts building 200 MW floating solar plant in Malaysia    Solarbytes

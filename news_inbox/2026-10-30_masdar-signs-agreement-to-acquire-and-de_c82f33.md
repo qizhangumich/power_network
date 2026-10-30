@@ -1,0 +1,5 @@
+# Masdar Signs Agreement To Acquire And Develop One Of Greece’s Largest Solar Projects
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUjZBTUdhTnpybGQ1RndpTVFYdHVRZEdIS1NCSGQycllMdkh1Z2Y0NDZhMTJ0Y3VyVFhSbnZjSEEtakVVU1I0T0lvWTdFeEhCbkRWWXRkcXNoc0VjSjVDUTRmckdEdjFRel8wV290NVRLLV9MUXZ0c0FqeXJidlJHVDZ6YzZ1MWNpcXBoQzZDcnFxajRKWXNhZzR3MDBPdnd1RlM1c1RENFVTNmdSdDZ6a2lUN1hIclEtOUtnaWU4bjZEb0ZHSjZFWkttdmpCR29JM1ZWNkQ4dzlHdkFkalZyZy1TUlBRaGxMTUE?oc=5
+
+Masdar Signs Agreement To Acquire And Develop One Of Greece’s Largest Solar Projects    TradingView

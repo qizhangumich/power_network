@@ -1,0 +1,5 @@
+# Authority of Social Contribution – Ma’an collaborates with PureHealth to enhance social impact and healthcare access in Abu Dhabi
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMigwJBVV95cUxOOFlnaXgybVFWYW1naTVjb0hiN3gwVkM0eWxDYUFraGFQZ25pS3N4YWhGN2NRZXU3cUdZMjluMm43MWhMQnFaRnF4Y1ZyN29LUlRuWHdCUnhLNVVDb1hZdDNJM1NPUXRBdXVXcE9xbUo4VmoxRVpSRm11dm8xbjg2Vnc3T1pNQUhRSHZrY0F6Qm9aaGhJMVBEQkx2dnhHcjNkczFXYXVvVkdKSVVLdzdoRnI0SkVtZ2tJbDdpbjgwNXV4OGtTRkNlNUF6ck9nVjZwcFJ4VG1aTEhabkUzelJWRWdmbU1ILWJFNFlrdUFwMUQtNVM3bm0tTmJqRzZIUUlPZWhr?oc=5
+
+Authority of Social Contribution – Ma’an collaborates with PureHealth to enhance social impact and healthcare access in Abu Dhabi    مكتب أبوظبي الإعلامي
