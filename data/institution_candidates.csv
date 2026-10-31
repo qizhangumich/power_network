@@ -1,16 +1,20 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Riyadh Airport,10,saudi,rejected,2026-10-09,2026-10-24,Etihad Extends UAE-Saudi Flight Cancellations Until October 13 After Riyadh Airport Disruptions
+Singapore Airlines,3,dubai,pending,2026-10-30,2026-10-31,"Middle East flights: KLM, Singapore Airlines and Air France extend suspensions"
+Bank of Japan,2,oman,pending,2026-10-30,2026-10-30,Bank of Japan keeps key short-term interest rate unchanged at 1.25%
+Mexico City,2,oman,pending,2026-10-23,2026-10-31,A view of a shop selling papel picado decorations and Day of the Dead-themed items at a market in Mexico City — AFP
+Riyadh Airport,9,saudi,rejected,2026-10-10,2026-10-24,Etihad Extends UAE-Saudi Flight Cancellations Until October 13 After Riyadh Airport Disruptions
 Bandhan Bank,8,abudhabi,rejected,2026-10-12,2026-10-28,‘Unaware of Abu Dhabi investors’ stake sale plans’: Bandhan Bank clarifies after 7% share jump
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
 King Fahd International Airport,5,saudi,added,2026-10-11,2026-10-23,"Two killed, eight injured in attack on Saudi Arabia’s King Fahd International Airport"
 IMF-World Bank Group,5,kuwait,rejected,2026-10-10,2026-10-26,IMF/World Bank meetings leave developing countries with more questions than answers
-Noatum Logistics,4,abudhabi,rejected,2026-10-09,2026-10-29,Noatum Logistics Accelerates GCC Growth by Doubling Its Trucking Fleet to Over 850 Units
 Al Ain International Airport,4,abudhabi,rejected,2026-10-11,2026-10-14,UAE President renames Al Ain International Airport in honour of Sheikh Tahnoun bin Mohammed
 Go Energy,4,saudi,rejected,2026-10-13,2026-10-25,SARCO says MoU with UAE’s Go Energy expires without agreement
 Abu Dhabi Investment,4,abudhabi,rejected,2026-09-28,2026-10-11,A subsidiary holds the shares behind Abu Dhabi Investment Authority’s Eikon Therapeutics (EIKN) stake.
 Than Financial,4,abudhabi,rejected,2026-09-26,2026-09-26,Man City chairman Khaldoon Al Mubarak responds to reports surrounding 115 charges in Premier League financial probe
 Airport and King Khalid International Airport,4,saudi,rejected,2026-10-08,2026-10-08,text-parsing fragment of two headline-adjacent airport names
 Hamad University for Military and Technology,4,qatar,rejected,2026-09-29,2026-09-30,"HH the Amir Issues Amiri Decision Establishing, Organizing Tamim bin Hamad University for Military and Technology Sciences"
+Noatum Logistics,3,abudhabi,rejected,2026-10-28,2026-10-29,Noatum Logistics Accelerates GCC Growth by Doubling Its Trucking Fleet to Over 850 Units
+Riviera Maritime Media,3,abudhabi,rejected,2026-10-14,2026-10-31,News Content Hub - ADNOC LS snaps up Greek-owned VLCCs at top-dollar prices
 Terrestar Solutions,3,abudhabi,rejected,2026-10-28,2026-10-28,"Terrestar Solutions joins with Equatys, expanding shared satellite infrastructure for global direct-to-device and advanced MSS connectivity "
 Paras Healthcare,3,abudhabi,rejected,2026-10-20,2026-10-21,IPO bound Paras Healthcare raises Rs 652.50 crore from anchor investors as issue set to open on October 21
 IMF and World Bank,3,kuwait,rejected,2026-10-11,2026-10-21,Hawkish sentiment returns to IMF and World Bank meetings
@@ -18,6 +22,7 @@ Fifa Council,3,oman,rejected,2026-10-15,2026-10-17,Gianni Infantino apologises t
 Sustainable Energy,3,oman,rejected,2026-10-18,2026-10-19,Sultan Qaboos University to open Sustainable Energy Research Centre lab tomorrow
 Commerce Ministry,3,oman,rejected,2026-10-14,2026-10-25,Commerce Ministry revokes licenses of multiple Sanad Services Centers for regulatory violations
 Asha Enterprises,3,oman,rejected,2026-10-20,2026-10-28,Asha Enterprises and Strategic Partners Unite to Champion Women’s Health Through Free Mammogram Screenings
+Woodside Energy,3,qatar,rejected,2026-10-29,2026-10-31,QatarEnergy to purchase 3MTPA of US LNG from Woodside Energy for 20 years
 WPC Energy,3,saudi,rejected,2026-10-12,2026-10-14,Energy Minister attends WPC Energy Congress in Riyadh
 Eastern Cement,3,saudi,added,2026-10-20,2026-10-28,"Eastern Cement earns SAR 191M in 9M 2026, SAR 50M in Q3"
 Hilal Technology,3,bahrain,rejected,2026-10-14,2026-10-21,Hilal Technology and Dell spotlight AI and resilient IT
@@ -42,20 +47,17 @@ UAE Ministry,2,abudhabi,rejected,2026-10-13,2026-10-17,"EDGE, UAE Ministry of De
 African Energy,2,abudhabi,rejected,2026-10-15,2026-10-16,"ADNOC Makes Strong Debut at African Energy Week 2026, Signals Growing Ambitions Across Africa"
 Offshore Energy,2,abudhabi,rejected,2026-10-12,2026-10-23,ADNOC broadens its Asian horizons with Gulf Group LNG deal
 Port Technology,2,abudhabi,rejected,2026-10-20,2026-10-26,Khalifa Port throughput rises 21.6 per cent in 2025
-Riviera Maritime Media,2,abudhabi,rejected,2026-10-14,2026-10-28,"News Content Hub - Hengli lands orders for 11 VLACs, with Dynagas, ADNOC, and SFL named as buyers"
 Infinity Power,2,abudhabi,rejected,2026-10-12,2026-10-20,"Infinity Power picks AIKO, 773.5MWp"
 Tahnoun International Airport,2,abudhabi,rejected,2026-10-12,2026-10-14,Al Ain International Airport renamed to Tahnoun International Airport
 Sharjah Airport,2,northern,rejected,2026-10-28,2026-10-29,"Sharjah Airport plans integrated check-in, VIP servicesTravellers could check in, collect boarding passes and have luggage picked up from ho"
 Bank of America,2,,rejected,2026-10-13,2026-10-14,US hits Bank of America with $1.2 billion fine1h ago1m read
 Sustainable Energy Research Centre,2,oman,rejected,2026-10-18,2026-10-19,Sultan Qaboos University to open Sustainable Energy Research Centre lab tomorrow
 Port of Salalah,2,oman,rejected,2026-10-18,2026-10-19,Port of Salalah transition puts $200 million equipment in focus
-Postal Development,2,oman,rejected,2026-10-09,2026-10-10,Oman tops regional ranking in Postal Development Index for second consecutive year
 ABRAJ Energy,2,oman,rejected,2026-10-14,2026-10-27,"ABRAJ Energy Services Signs Five-Year PDO Contract to Deploy Nine Workover Hoists, Including Six New-Build Units"
 Transitional Sovereignty Council,2,oman,rejected,2026-10-25,2026-10-26,Message from chief of Sudan's Transitional Sovereignty Council
 Jindal Steel,2,oman,added,2026-10-11,2026-10-13,Jindal Steel Oman and Oman Cement Company sign strategic partnership to advance sustainable cement production
 Palestinian Authority,2,oman,rejected,2026-10-11,2026-10-24,Palestinian Authority condemns 'collective punishment'
 Social Development Ministry,2,oman,added,2026-10-11,2026-10-18,Social Development Ministry celebrates Omani Women's Day
-Woodside Energy,2,qatar,rejected,2026-10-29,2026-10-29,QatarEnergy to purchase 3MTPA of US LNG from Woodside Energy for 20 years
 Communications and Information Technology,2,qatar,rejected,2026-10-20,2026-10-26,"Minister of Communications and Information Technology Meets US Deputy Assistant Secretary of Commerce for Middle East, Africa"
 US-based Activate Capital,2,qatar,rejected,2026-10-15,2026-10-15,US-based Activate Capital joins Qatar Investment Authority's Fund of Funds
 Bank of China,2,qatar,rejected,2026-10-14,2026-10-15,QCB Governor participates in joint meeting of GCC Central Bank Governors with the People’s Bank of China
@@ -72,7 +74,6 @@ HRSD Ministry,2,saudi,rejected,2026-10-25,2026-10-26,HRSD Ministry details suppo
 Industry Ministry,2,saudi,rejected,2026-10-10,2026-10-14,Industry Ministry issues 438 licenses in July
 Al Yamamah Steel,2,saudi,rejected,2026-10-10,2026-10-13,Al Yamamah Steel’s contracts backlog hits SAR 1.1B: CEO
 Saudi Steel,2,saudi,rejected,2026-10-13,2026-10-14,Saudi Steel Pipe wins SAR 177M contract from Aramco
-Turkish Airlines,2,bahrain,rejected,2026-10-09,2026-10-18,"Turkish Airlines, CFM sign MoU for over 600 LEAP-1B engines"
 Benefit Trade Finance,2,bahrain,rejected,2026-10-11,2026-10-11,NBB signs on as anchor partner of Benefit Trade Finance Registry
 Hassan Allam Utilities,2,bahrain,rejected,2026-10-23,2026-10-24,Hassan Allam Utilities signs deal to explore setting up logistics hub
 Austrian Airlines,2,,rejected,2026-10-19,2026-10-19,Flight from Israel diverted after ‘threat’ reported
@@ -173,19 +174,21 @@ Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Ba
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
 Balkan Green Energy,1,abudhabi,rejected,2026-10-26,2026-10-26,"Masdar buys giant solar farm in Greece, signs data center development MoU"
 Clear Channel Outdoor Holdings,1,abudhabi,rejected,2026-10-14,2026-10-14,"Clear Channel Outdoor Holdings, Inc. Announces Completion of Acquisition by Mubadala Capital"
-Global Fairs & Events Logistics,1,abudhabi,rejected,2026-10-09,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
 British Airways,1,abudhabi,rejected,2026-10-25,2026-10-25,United and Etihad expand Israel flights as British Airways and Iberia return
 PARTNER CONTENTArif Developments,1,,added,2026-10-12,2026-10-12,PARTNER CONTENTArif Developments honoured with Excellence in CSR award2h ago3m read
+Postal Development,1,oman,rejected,2026-10-10,2026-10-10,Oman tops regional ranking in Postal Development Index for second consecutive year
 Mekdam Holding Group,1,qatar,rejected,2026-10-23,2026-10-23,"Mekdam Holding Group, Armada sign strategic partnership at Milipol Qatar"
 Labour Ministry,1,qatar,added,2026-10-22,2026-10-22,Labour Ministry closes recruitment agency over violations
 US Marine,1,qatar,rejected,2026-10-10,2026-10-10,Rubio offers Japan FM condolences over murder linked to US Marine
 Estithmar Holding,1,qatar,rejected,2026-10-28,2026-10-28,Estithmar Holding Q.P.S.C. posts stronger Q3 earnings while advancing QAR 1.4bn in growth investments
 Meteorology Department,1,qatar,rejected,2026-10-13,2026-10-13,Meteorology Department warns of expected thunderstorms
-Houthi Group,1,saudi,rejected,2026-10-09,2026-10-09,"Qatar Condemns Attacks by Houthi Group against Abha, King Khalid Airports in KSA"
 Avalon Pharma,1,saudi,rejected,2026-10-13,2026-10-13,Avalon Pharma secures exclusive rights to market Tirzepatide
-Bank of Kuwait,1,kuwait,rejected,2026-10-09,2026-10-09,Kuwait lenders pull $8bn from central bank after war stimulus
+Turkish Airlines,1,bahrain,rejected,2026-10-18,2026-10-18,"Turkish Airlines, CFM sign MoU for over 600 LEAP-1B engines"
 International Monetary Fund,1,,rejected,2026-10-13,2026-10-13,IMF forecasts Middle East GDP contraction as war drags on
 American Airlines,1,,rejected,2026-10-23,2026-10-23,"Airfares will not return to pre-Iran war levels, American Airlines warns"
+Global Fairs & Events Logistics,1,abudhabi,rejected,2026-10-09,2026-10-09,Noatum Logistics launches a New Global Fairs & Events Logistics Business Line
+Houthi Group,1,saudi,rejected,2026-10-09,2026-10-09,"Qatar Condemns Attacks by Houthi Group against Abha, King Khalid Airports in KSA"
+Bank of Kuwait,1,kuwait,rejected,2026-10-09,2026-10-09,Kuwait lenders pull $8bn from central bank after war stimulus
 Boring Company,1,abudhabi,rejected,2026-10-08,2026-10-08,THIS MORNING: Mubadala eyes more Asia exposure + more The Boring Company projects could be in the pipeline
 SriLankan Airlines,1,abudhabi,rejected,2026-10-08,2026-10-08,SriLankan Airlines boosts aviation training with A330 Programme for Etihad Airways
 Euromoney Foreign Exchange,1,qatar,rejected,2026-10-07,2026-10-07,QNB named Qatar’s Best FX Bank at Euromoney Foreign Exchange Awards

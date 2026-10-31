@@ -3667,6 +3667,13 @@ const PEOPLE = [
     ["aseer_municipality","Executive Director of the Amin's Office","executive","ns"]]},
   {id:"mohamad_ezzat_beck", n:"Mohamad Ezzat Beck", t:2, p:60, s:"industry", roles:[
     ["reda_gulf","Chief Executive Officer","executive","ns"]]},
+  {id:"nasser_dhaifallah_al_rahili", n:"Nasser Dhaifallah Al-Rahili", t:2, p:62, s:"consumer_stap", roles:[
+    ["lst_6040","Chairman","board","ns"],
+    ["lst_6040","CEO & Managing Director (effective 27 Nov 2026)","executive","ns"]],
+    note:"Board approved CEO Khaled Al-Amoudi's resignation 29 Oct 2026; Chairman Al-Rahili (chairman since Aug 2025) takes over as CEO & Managing Director effective 27 Nov 2026 while retaining his board seat."},
+  {id:"khaled_bin_saleh_al_amoudi", n:"Khaled bin Saleh Al-Amoudi", t:2, p:60, s:"consumer_stap", roles:[
+    ["lst_6040","Chief Executive Officer (Jun–Oct 2026)","executive","ns","former:until Oct 2026"]],
+    note:"Resigned by mutual consent during probationary period citing wish to retire; succeeded by Chairman Nasser Al-Rahili effective 27 Nov 2026."},
 ];
 
 const OWNERSHIP = [
