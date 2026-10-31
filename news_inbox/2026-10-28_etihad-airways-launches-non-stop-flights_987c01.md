@@ -1,0 +1,5 @@
+# Etihad Airways Launches Non-Stop Flights to Calgary
+source: Passionate In Marketing
+url: https://news.google.com/rss/articles/CBMi-AFBVV95cUxNN0pxaHJKX2tTWHNnQkFXQ09hbl9ERkx0TWV6UUE0WG9FNUZOYnFibjFwNlNiUk1kbkhGZEZkWEJzZlcyTDZoLWppbS1XRkR1ejBMQnJ1Y1ZmeHQ5OGJyTVA0VHRGdTl3SWJUNmx4amRtbmVmbmVIWjJDaWc0bFdxNHpwUkNuXzdBS1hzazFySWlNUWliTDE0Yy1ZOEE3SHJkdzBRbjExZ3dRT0o1b0VKODNHb0lvMGRxeExuaEZ4WmVfcldNdTlXNEFKdW5HS1FVY2xRWEVvRm1mR3Zfb3IyLV93UGtCM0FwejNqZmQ3eFpJaXRkR2ZwWQ?oc=5
+
+Etihad Airways Launches Non-Stop Flights to Calgary    Passionate In Marketing

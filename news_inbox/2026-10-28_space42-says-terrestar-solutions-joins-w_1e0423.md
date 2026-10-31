@@ -1,0 +1,5 @@
+# Space42 Says Terrestar Solutions Joins With Equatys, Expanding Shared Satellite Infrastructure
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZzNZM2ZSSmZyZnk5b0VuZ2FlTEtPOUhGYUp0d3RjWW9OQmYzVlIxbVJrTzVEcGx4RTlvSFMtMkhPbDJNOWdSQ2FmYUNncUhaZ0tVbm1aaTF0Zy1WdVdTYUpDd1pUV2ZCbjNMWFFWdW9PbVhERUh6X20weU4xZWdVRGVHUDRxdjA4bGpHZzJmYzhzcnI5N1Niam5tc3IyYm5yTFFWRDd0aVNqUV8xbnRsSUhURHowOVJFcmtHUTlwTkxRY1lEejhWX256V1N6U3lkT09pcWUwbV9rekRXNGExbU9yUThmUkJfSGVYNkplWFJSczNueXc?oc=5
+
+Space42 Says Terrestar Solutions Joins With Equatys, Expanding Shared Satellite Infrastructure    TradingView
