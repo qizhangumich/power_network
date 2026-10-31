@@ -174,7 +174,7 @@ def run(stills=None):
     os.makedirs(OUT, exist_ok=True)
     cs = cues()
     srt(cs, os.path.join(OUT, "navgcc_promo.en.srt"))
-    promo = {"blurNames": ["Peng Xiao", "PX"], "titles": TITLES, "tag": TAG, "note": NOTE, "recap": RECAP, "recapEnd": RECAP_END, "end": END_CARD, "cues": cs,
+    promo = {"blurNames": ["Peng Xiao", "PX", "G42"], "titles": TITLES, "tag": TAG, "note": NOTE, "recap": RECAP, "recapEnd": RECAP_END, "end": END_CARD, "cues": cs,
              "hideCss": "#nudge,#hint,#toast,#stats,#mapctl,#demobar,#tip,#legend,#chipstrip{display:none!important} body{cursor:none!important}"}
     overlay = open(os.path.join(HERE, "overlay.js"), encoding="utf-8").read()
     srv = serve()

@@ -236,7 +236,7 @@ def card4(img):
           <div class="v">You know them — <em>confirmed</em></div>
           <div class="s"><i>2</i><div>Your contact<small>Managing Director, M42</small></div></div>
           <div class="v">Both on the board of Mubadala Health — <em>check first</em></div>
-          <div class="s"><i>3</i><div><span class="blur">Peng Xiao</span><small>Group CEO, G42</small></div></div></div>
+          <div class="s"><i>3</i><div><span class="blur">Peng Xiao</span><small>Group CEO, <span class="blur">G42</span></small></div></div></div>
         <div class="feat"><span>Up to 3 routes</span><span>Evidence per link</span><span>Draft intro message</span></div>
         <p class="note" style="margin-top:18px">Potential paths. Introductions are not guaranteed.</p></div>
       <div class="shot" style="left:480px;top:30px;width:760px;height:700px"><img src="{img}" style="object-position:62% 50%"></div>
@@ -244,7 +244,7 @@ def card4(img):
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    promo = {"blurNames": ["Peng Xiao", "PX"],
+    promo = {"blurNames": ["Peng Xiao", "PX", "G42"],
              "hideCss": "#nudge,#hint,#toast,#stats,#mapctl,#demobar,#tip,#legend,#chipstrip{display:none!important}"}
     overlay = open(os.path.join(HERE, "overlay.js"), encoding="utf-8").read()
     srv = R.serve()
