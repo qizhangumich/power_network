@@ -174,7 +174,7 @@ def run(stills=None):
     os.makedirs(OUT, exist_ok=True)
     cs = cues()
     srt(cs, os.path.join(OUT, "navgcc_promo.en.srt"))
-    promo = {"titles": TITLES, "tag": TAG, "note": NOTE, "recap": RECAP, "recapEnd": RECAP_END, "end": END_CARD, "cues": cs,
+    promo = {"blurNames": ["Peng Xiao", "PX"], "titles": TITLES, "tag": TAG, "note": NOTE, "recap": RECAP, "recapEnd": RECAP_END, "end": END_CARD, "cues": cs,
              "hideCss": "#nudge,#hint,#toast,#stats,#mapctl,#demobar,#tip,#legend,#chipstrip{display:none!important} body{cursor:none!important}"}
     overlay = open(os.path.join(HERE, "overlay.js"), encoding="utf-8").read()
     srv = serve()
@@ -225,7 +225,7 @@ def run(stills=None):
                 t, js = ev.pop(0)
                 r = p2.evaluate("(() => { " + js + " })()")
                 if isinstance(r, str) and r.startswith("missing"): print(f"  {t:5.1f}s  {r}")
-            p2.evaluate(f"__step(1000/60); __step(1000/60); __h.tidy(); __ov({g});")
+            p2.evaluate(f"__step(1000/60); __step(1000/60); __h.tidy(); __blurDom(); __ov({g});")
             capture(p2, g, sink, "s2")
             if f % 150 == 0: print(f"  {g:5.1f}s"); sys.stdout.flush()
         if sink: sink.stdin.close(); sink.wait()

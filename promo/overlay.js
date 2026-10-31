@@ -22,6 +22,56 @@
     }
   };
 
+  /* ---------- names kept private in the video: blurred wherever they appear ---------- */
+  const NAMES = () => (window.__PROMO && window.__PROMO.blurNames) || [];
+  const hit = s => NAMES().some(n => String(s).includes(n));
+  for (const fn of ["fillText", "strokeText"]) {                 // labels drawn on the map canvas
+    const orig = CanvasRenderingContext2D.prototype[fn];
+    CanvasRenderingContext2D.prototype[fn] = function (text, ...rest) {
+      if (!hit(text)) return orig.call(this, text, ...rest);
+      const f = this.filter; this.filter = "blur(5px)"; orig.call(this, text, ...rest); this.filter = f;
+    };
+  }
+  const esc = s => s.replace(/[&<>]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;"})[c]);
+  const wrap = s => { let h = esc(s); for (const n of NAMES()) h = h.split(esc(n)).join(`<span class="pv-blur">${esc(n)}</span>`); return h; };
+  window.__blurDom = () => {
+    if (!NAMES().length || !document.body) return;
+    if (!document.getElementById("pv-blur-css")) {
+      const st = document.createElement("style"); st.id = "pv-blur-css";
+      st.textContent = ".pv-blur{filter:blur(6px);display:inline-block}"; document.head.appendChild(st);
+    }
+    /* page text */
+    const tw = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {acceptNode: n =>
+      n.parentElement && !n.parentElement.closest("#pv, .pv-blur, script, style, textarea") && hit(n.nodeValue) ? 1 : 2});
+    const list = []; while (tw.nextNode()) list.push(tw.currentNode);
+    list.forEach(n => {
+      if (NAMES().includes(n.nodeValue.trim())) { const s = document.createElement("span"); s.className = "pv-blur"; n.replaceWith(s); s.appendChild(n); return; }
+      const s = document.createElement("span"); s.innerHTML = wrap(n.nodeValue); n.replaceWith(s);
+    });
+    /* text areas can't style part of their text: show a read-only copy with the name blurred */
+    document.querySelectorAll("textarea").forEach(ta => {
+      if (!hit(ta.value)) return;
+      const d = document.createElement("div"), cs = getComputedStyle(ta);
+      for (const k of ["color", "font", "padding", "border", "borderRadius", "background", "lineHeight", "boxSizing", "width"]) d.style[k] = cs[k];
+      d.style.whiteSpace = "pre-wrap"; d.style.overflow = "hidden"; d.style.height = Math.max(ta.offsetHeight, 140) + "px";
+      d.innerHTML = wrap(ta.value); ta.replaceWith(d);
+    });
+    /* the search box: blur just the part of the query that is the name */
+    let cover = document.getElementById("pv-cover");
+    const inp = document.getElementById("ask");
+    const at = inp ? inp.value.indexOf(" meet ") : -1;
+    if (inp && at >= 0 && inp.value.length > at + 6) {
+      if (!cover) { cover = document.createElement("div"); cover.id = "pv-cover"; document.body.appendChild(cover); }
+      const cs = getComputedStyle(inp), r = inp.getBoundingClientRect(), c = document.createElement("canvas").getContext("2d");
+      c.font = `${cs.fontWeight} ${cs.fontSize} ${cs.fontFamily}`;
+      const x0 = r.left + parseFloat(cs.paddingLeft) + c.measureText(inp.value.slice(0, at + 6)).width - 3;
+      const w = c.measureText(inp.value.slice(at + 6)).width + 8;
+      Object.assign(cover.style, {position: "fixed", left: x0 + "px", top: (r.top + 5) + "px", width: w + "px", height: (r.height - 10) + "px",
+        backdropFilter: "blur(5px)", webkitBackdropFilter: "blur(5px)", background: "rgba(14,22,39,.15)", borderRadius: "6px",
+        zIndex: 2147482000, pointerEvents: "none", display: "block"});
+    } else if (cover) cover.style.display = "none";
+  };
+
   /* ---------- overlay ---------- */
   const CSS = `
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap");
@@ -58,6 +108,7 @@
   #pv .card .nm{font:600 40px Sora;margin-top:12px}
   #pv .card .em{font:500 34px Inter;color:#EEF2F8;margin-top:6px}
   #pv .fade{position:absolute;inset:0;background:#0A1120;opacity:0}
+  .pv-blur{filter:blur(6px);display:inline-block}
   `;
   function build() {
     if (document.getElementById("pv")) return;
@@ -74,7 +125,7 @@
       <div class="end"><div class="card"><img src="/favicon.svg" alt="">
         <div class="w">NAVGCC</div><div class="tl">Navigate the GCC. Connect with confidence.</div>
         <div class="url">navgcc.com</div><div class="hr"></div>
-        <div class="k">Get in touch</div><div class="nm">Qi Zhang</div><div class="em">qizhan@umich.edu</div></div></div>
+        <div class="k">Get in touch</div><div class="nm">Jeremy</div><div class="em">jeremy4crypto@gmail.com</div></div></div>
       <div class="fade"></div>`;
     document.body.appendChild(d);
   }
