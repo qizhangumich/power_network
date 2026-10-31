@@ -62,8 +62,8 @@ const INSTITUTIONS = [
   {id:"lst_apmtb", n:"APM Terminals Bahrain B.S.C.", s:"industry", t:2, p:50, short:"APMTB"},
   {id:"lst_khaleeji", n:"Khaleeji Bank B.S.C.", s:"finance", t:2, p:56, short:"Khaleeji Bank"},
   {id:"lst_bisb", n:"Bahrain Islamic Bank B.S.C.", s:"finance", t:2, p:60, short:"BISB"},
-  {id:"lst_arig", n:"Arab Insurance Group B.S.C.", s:"finance", t:2, p:50, short:"ARIG"},
-  {id:"lst_solid", n:"Solidarity Bahrain B.S.C.", s:"finance", t:2, p:50, short:"SOLID"},
+  {id:"lst_arig", n:"Arab Insurance Group B.S.C.", s:"finance", t:2, p:58, short:"ARIG"},
+  {id:"lst_solid", n:"Solidarity Bahrain B.S.C.", s:"finance", t:2, p:66, short:"Solidarity Bahrain"},
   {id:"lst_bkic", n:"Bahrain Kuwait Insurance Company B.S.C.", s:"finance", t:2, p:50, short:"BKIC"},
   {id:"lst_bnh", n:"Bahrain National Holding Company B.S.C.", s:"finance", t:2, p:58, short:"BNH"},
   {id:"lst_seef", n:"Seef Properties B.S.C.", s:"realestate", t:2, p:58, short:"Seef Properties"},
@@ -187,6 +187,7 @@ const INSTITUTIONS = [
   {id:"moca_bahrain", n:"Ministry of Cabinet Affairs", s:"gov", t:1, p:64, short:"MoCA Bahrain"},
   {id:"eskan_bank", n:"Eskan Bank", s:"finance", t:2, p:58, short:"Eskan Bank"},
   {id:"national_motor", n:"National Motor Company", s:"consumer_disc", t:3, p:52, short:"National Motor Co"},
+  {id:"al_ayam_publishing", n:"Al Ayam Publishing Group", s:"comm", t:3, p:52, short:"Al Ayam Publishing"},
 ];
 
 const PEOPLE = [
@@ -3577,7 +3578,7 @@ const PEOPLE = [
   {id:"rawan_bint_najeeb", n:"Rawan bint Najeeb Tawfiqi", t:2, p:52, s:"gov", roles:[
     ["moya_bahrain","Minister of Youth Affairs","board","ns"]]},
   {id:"ramzan_bin_abdulla", n:"Ramzan bin Abdulla Al Nuaimi", t:2, p:52, s:"gov", roles:[
-    ["iaa","Minister of Information Affairs","board","ns"]]},
+    ["iaa","Minister of Information Affairs","board","v"]]},
   {id:"khalifa_bin_ahmed", n:"Khalifa bin Ahmed bin Abdulla Al Khalifa", t:2, p:52, s:"gov", roles:[
     ["baca","President of the Bahrain Authority for Culture and Antiquities","board","v"]]},
   {id:"ahmed_bin_mohammed", n:"Ahmed bin Mohammed Al Khalifa", t:2, p:52, s:"gov", roles:[
@@ -3622,6 +3623,8 @@ const PEOPLE = [
     ["nao_bahrain","Assistant Auditor-General Administrative Audit","executive","v"]]},
   {id:"nawaf_bin_mohammed_b", n:"Nawaf bin Mohammed Al-Mawada", t:2, p:52, s:"gov", roles:[
     ["moj","Minister of Justice, Islamic Affairs and Endowments","board","ns"]]},
+  {id:"yousef_mohammed_albinkhalil", n:"Yousef Mohammed AlBinkhalil", t:2, p:58, s:"gov", roles:[
+    ["iaa","Undersecretary of the Ministry of Information","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -3801,4 +3804,5 @@ const AKA = {
   nao_bahrain:["NAO","National Audit Court"],
   moca_bahrain:["MoCA","Minister of State for Cabinet Affairs"],
   national_motor:["NMC"],
+  al_ayam_publishing:["Alayam","Dar Al Ayam"],
 };

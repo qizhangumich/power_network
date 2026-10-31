@@ -96,7 +96,7 @@ const INSTITUTIONS = [
   {id:"lst_bayaninv", n:"Bayan Investment Holding Co.", s:"finance", t:2, p:50, short:"BAYANINV"},
   {id:"lst_osoul", n:"Osoul Investment", s:"finance", t:2, p:50, short:"Osoul Investment"},
   {id:"lst_kfic", n:"KFIC Invest K.S.C.P", s:"finance", t:2, p:50, short:"KFIC Invest K.S.C.P"},
-  {id:"lst_kamco", n:"KAMCO Investment", s:"finance", t:2, p:50, short:"KAMCO Investment"},
+  {id:"lst_kamco", n:"KAMCO Investment", s:"finance", t:2, p:66, short:"KAMCO Invest"},
   {id:"lst_nih", n:"National International Holding K.S.C", s:"finance", t:2, p:50, short:"NIH"},
   {id:"lst_unicap", n:"Unicap Investment and Finance", s:"finance", t:2, p:50, short:"UNICAP"},
   {id:"lst_madar", n:"Al Madar Kuwait Holding Co.", s:"finance", t:2, p:50, short:"MADAR"},
@@ -251,6 +251,8 @@ const INSTITUTIONS = [
   {id:"qurain_petrochem", n:"Qurain Petrochemical Industries Company", s:"materials", t:2, p:58, short:"Qurain Petrochem"},
   {id:"kharafi_national", n:"Kharafi National", s:"industry", t:3, p:56, short:"Kharafi National"},
   {id:"al_yousifi_sons", n:"Easa Husain Al-Yousifi & Sons Group", s:"conglomerate", t:3, p:54, short:"Al-Yousifi & Sons"},
+  {id:"amer_univ_mid", n:"American University of the Middle East", s:"education", t:2, p:58, short:"Amer Univ Mid East"},
+  {id:"royale_hayat_hosp", n:"Royale Hayat Hospital", s:"health", t:3, p:54, short:"Royale Hayat Hosp"},
 ];
 
 const PEOPLE = [
@@ -2068,12 +2070,24 @@ const PEOPLE = [
     ["qurain_petrochem","Head of HR Admin and IT","executive","v"]]},
   {id:"ammar_g_omeiri", n:"Ammar G. Omeiri", t:2, p:58, s:"materials", roles:[
     ["qurain_petrochem","Chief Audit Executive","executive","v"]]},
+  {id:"abdullah_easa_husain", n:"Abdullah Easa Husain Al-Yousifi", t:2, p:62, s:"conglomerate", roles:[
+    ["al_yousifi_sons","Chairman","board","ns"]]},
+  {id:"aref_easa_husain", n:"Aref Easa Husain Al-Yousifi", t:2, p:62, s:"conglomerate", roles:[
+    ["al_yousifi_sons","Vice Chairman","board","ns"],
+    ["al_yousifi_sons","Chief Executive Officer","executive","ns"]]},
+  {id:"adel_al_yousifi", n:"Adel Al-Yousifi", t:2, p:58, s:"conglomerate", roles:[
+    ["al_yousifi_sons","Senior Vice President","executive","ns"]]},
+  {id:"hamad_abdul_aziz", n:"Hamad Abdul Aziz Al-Hamad Al-Sager", t:2, p:58, s:"conglomerate", roles:[
+    ["al_sagar","Managing Partner","executive","ns"]]},
+  {id:"aref_al_ajmi", n:"Aref Al Ajmi", t:2, p:58, s:"consumer_disc", roles:[
+    ["aaw","Chief Officer - Human Capital & Administration","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
   ["lst_urc","kipco","majority/controlling shareholder","v"],
   ["lst_boubyan","nbk","majority shareholder","v"],
   ["lst_burg","kipco","majority shareholder","v"],
+  ["lst_kamco","kipco","KIPCO Group subsidiary (majority held via Burgan Bank/United Gulf Bank, 62.92%)","v"],
   ["cabinet_kw","kwgov","governs under"],
   ["mof_kw","cabinet_kw"],["mofa_kw","cabinet_kw"],
   ["moo_kw","cabinet_kw"],["moci_kw","cabinet_kw"],["moinfo_kw","cabinet_kw"],["mopw_kw","cabinet_kw"],["kwmun","cabinet_kw"],
@@ -2238,6 +2252,8 @@ const OWNERSHIP = [
   ["wafra_jo","kgoc","50/50 JV with Saudi Arabian Chevron operating the onshore Wafra field in the Divided (Neutral) Zone","ns"],
   ["ekuity","kia","wholly owned subsidiary - KIA's dedicated investment arm for Egypt, established 2011 with EGP 1bn capital; holds ~50% of Arab African International Bank and a 30% stake in AluNile","ns"],
   ["kharafi_national","kharafi","subsidiary","ns"],
+  ["amer_univ_mid","lst_humansoft","operating unit","v"],
+  ["royale_hayat_hosp","al_mulla","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -2297,4 +2313,5 @@ const AKA = {
   lst_humansoft:["ILSC","Humansoft Holding Company","Humansoft"],
   qurain_petrochem:["QPIC"],
   al_yousifi_sons:["Al-Yousifi Group"],
+  amer_univ_mid:["AUM"],
 };

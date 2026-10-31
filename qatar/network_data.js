@@ -246,6 +246,8 @@ const INSTITUTIONS = [
   {id:"qatar_crafts_council", n:"Qatar Fashion and Crafts Council", s:"gov", t:3, p:52, short:"Qatar Crafts Council"},
   {id:"elegancia", n:"Elegancia Group", s:"industry", t:3, p:54, short:"Elegancia Group"},
   {id:"al_sraiya", n:"Al Sraiya Holding Group", s:"conglomerate", t:3, p:54, short:"Al Sraiya Holding"},
+  {id:"al_rayyan_tv", n:"Al Rayyan TV", s:"comm", t:3, p:54, short:"Al Rayyan TV"},
+  {id:"me_council", n:"Middle East Council on Global Affairs", s:"education", t:2, p:58, short:"ME Council"},
 ];
 
 const PEOPLE = [
@@ -450,8 +452,8 @@ const PEOPLE = [
     ["mot_q","Minister of Transport","political","v"]],
     note:"Appointed November 2024."},
   {id:"jassim_al_ansari_qr", n:"Eng. Jassim Al Ansari", t:2, p:60, s:"industry", roles:[
-    ["qatarrail","Chief Executive Officer","executive","ns"]],
-    note:"Named Qatar Rail CEO (succeeding Dr. Abdulla bin Abdulaziz Al Subaie) at the new board's first meeting, reported May 2026."},
+    ["qatarrail","Chief Executive Officer","executive","v"]],
+    note:"Named Qatar Rail CEO (succeeding Dr. Abdulla bin Abdulaziz Al Subaie) at the new board's first meeting, reported May 2026; still CEO per QNA (Qatar News Agency) coverage of Qatar Rail's Oct 2026 Global Light Rail Awards win."},
   {id:"almarri_labour", n:"H.E. Dr. Ali bin Samikh Al Marri", t:1, p:68, s:"gov", roles:[
     ["molsa_q","Minister of Labour","political","v"]],
     note:"Re-appointed Minister of Labour by Amiri order in March 2023; formerly headed Qatar's National Human Rights Committee."},
@@ -490,6 +492,7 @@ const PEOPLE = [
   {id:"abdulla_bin_saeed", n:"Abdulla Bin Saeed Al Eidah", t:2, p:52, s:"finance", roles:[
     ["qib","Board Member","board","v"]]},
   {id:"sraiya_nasser_rashid", n:"Sraiya Nasser Rashid Sraiya Al-Kaabi", t:2, p:52, s:"finance", roles:[
+    ["al_sraiya","Executive Director","executive","v"],
     ["qib","Board Member","board","v"]]},
   {id:"khalid_mohamed_al", n:"Khalid Mohamed Al-Emadi", t:2, p:52, s:"finance", roles:[
     ["qib","Board Member","board","v"]]},
@@ -813,6 +816,7 @@ const PEOPLE = [
   {id:"mazen_alsbeti", n:"Mazen Alsbeti", t:2, p:52, s:"consumer_stap", roles:[
     ["baladna","Board Member","board","v"]]},
   {id:"sheikh_suhaim_bin", n:"Sheikh Suhaim Bin AbdulAziz Al Thani", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_igrd","Independent Board Member","board","v"],
     ["baladna","Independent Board Member","board","v"]]},
   {id:"nasser_hassan_al", n:"Nasser Hassan Al Ansari", t:2, p:52, s:"consumer_stap", roles:[
     ["baladna","Independent Board Member","board","v"]]},
@@ -926,6 +930,7 @@ const PEOPLE = [
   {id:"ayedh_dabsan_e", n:"Ayedh Dabsan E A Al-Qahtani", t:2, p:52, s:"finance", roles:[
     ["lst_qiik","Board Member","board","v"]]},
   {id:"rashid_nasser_al", n:"Rashid Nasser Al-Kaabi", t:2, p:52, s:"finance", roles:[
+    ["al_sraiya","Vice Chairman and Group Chief Executive Officer","executive","v"],
     ["qatar_chamber","Board Member (Banking Sector)","board","v"],
     ["lst_qiik","Board Member","board","v"]]},
   {id:"jaafar_ali_al", n:"Jaafar Ali Al-Sarraf", t:2, p:52, s:"finance", roles:[
@@ -1337,6 +1342,7 @@ const PEOPLE = [
   {id:"hamad_essa_abdulla", n:"Hamad Essa Abdulla", t:2, p:52, s:"industry", roles:[
     ["qatarrail","Board Member","board","ns"]]},
   {id:"ali_hussain_ibrahim", n:"Ali Hussain Ibrahim Al Fardan", t:2, p:62, s:"realestate", roles:[
+    ["alfardan","Vice Chairman","board","ns"],
     ["lst_qati","Board Member","board","v"],
     ["udc","Vice Chairman","board","v"]]},
   {id:"abdulrahman_saad_zaid", n:"Abdulrahman Saad Zaid Al Shathri", t:2, p:52, s:"realestate", roles:[
@@ -1598,7 +1604,7 @@ const PEOPLE = [
   {id:"basel_shaddad", n:"Basel Shaddad", t:2, p:60, s:"conglomerate", roles:[
     ["lst_igrd","Group Chief Executive Officer","executive","v"]]},
   {id:"walid_shalan", n:"Walid Shalan", t:2, p:58, s:"conglomerate", roles:[
-    ["lst_igrd","Group Chief Financial Officer","executive","v"]]},
+    ["lst_igrd","Group Chief Financial Officer","executive","ns","former"]]},
   {id:"riyad_al_sowaity", n:"Riyad Al Sowaity", t:2, p:58, s:"conglomerate", roles:[
     ["lst_igrd","Group Chief Human Resources Officer","executive","v"]]},
   {id:"faisal_bin_abdulaziz", n:"Faisal Bin Abdulaziz Bin Jassem Al Thani", t:2, p:62, s:"finance", roles:[
@@ -2215,6 +2221,28 @@ const PEOPLE = [
     ["dar_al_sharq","Editor-in-Chief of The Peninsula","executive","ns"]]},
   {id:"faleh_hussein_al", n:"Faleh Hussein Al Hajri", t:2, p:58, s:"comm", roles:[
     ["dar_al_sharq","Editor-in-Chief of Al Arab newspaper","executive","ns"]]},
+  {id:"nasser_rashid_sraiya", n:"Nasser Rashid Sraiya Al Kaabi", t:2, p:62, s:"conglomerate", roles:[
+    ["al_sraiya","Founder and Chairman","board","v"]]},
+  {id:"ahmad_nasser_sraiya", n:"Ahmad Nasser Sraiya Al Kaabi", t:2, p:58, s:"conglomerate", roles:[
+    ["al_sraiya","Group Chief Operating Officer","executive","v"]]},
+  {id:"khalid_ghanim_al", n:"Khalid Ghanim Al Hodaifi Al Kuwari", t:2, p:52, s:"conglomerate", roles:[
+    ["lst_igrd","Board Member","board","v"]]},
+  {id:"abdulla_darwish_al", n:"Abdulla Darwish Al Darwish", t:2, p:52, s:"conglomerate", roles:[
+    ["lst_igrd","Independent Board Member","board","v"]]},
+  {id:"bothaina_al_ansari", n:"Bothaina Al Ansari", t:2, p:52, s:"conglomerate", roles:[
+    ["lst_igrd","Independent Board Member","board","v"]]},
+  {id:"ibrahim_abdulla_al_b_b", n:"Ibrahim Abdulla Al Abdulla", t:2, p:52, s:"conglomerate", roles:[
+    ["lst_igrd","Independent Board Member","board","v"]]},
+  {id:"sanaa_daakour", n:"Sanaa Daakour", t:2, p:58, s:"conglomerate", roles:[
+    ["lst_igrd","Holding Chief Legal Officer","executive","v"]]},
+  {id:"shahid_razzaq", n:"Shahid Razzaq", t:2, p:58, s:"conglomerate", roles:[
+    ["lst_igrd","Holding Chief Audit Risk and Compliance Officer","executive","v"]]},
+  {id:"rashid_sheikh", n:"Rashid Sheikh", t:2, p:58, s:"conglomerate", roles:[
+    ["lst_igrd","Holding Chief Financial Officer","executive","v"]]},
+  {id:"abd_almunem_al", n:"Abd Almunem Al Sakka", t:2, p:60, s:"industry", roles:[
+    ["elegancia","Group Chief Executive Officer - Elegancia Services","executive","v"]]},
+  {id:"eyad_elkhorebi", n:"Eyad Elkhorebi", t:2, p:60, s:"industry", roles:[
+    ["elegancia","Group Chief Executive Officer - Elegancia Contracting & Industries","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2460,4 +2488,6 @@ const AKA = {
   qatar_diamond_exchange:["QDE"],
   qatar_leadership_centre:["QLC"],
   qatar_crafts_council:["Qatar Fashion & Crafts Council"],
+  al_rayyan_tv:["Alrayyan TV","Al Rayyan Media"],
+  me_council:["MECouncil"],
 };

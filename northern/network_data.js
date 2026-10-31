@@ -175,6 +175,8 @@ const INSTITUTIONS = [
   {id:"fujairah_die", n:"Department of Industry and Economy (Government of Fujairah)", s:"gov", t:2, p:58, short:"Fuj. Industry&Economy"},
   {id:"ajman_police", n:"Ajman Police General Command", s:"gov", t:2, p:58, short:"Ajman Police"},
   {id:"gulf_craft", n:"Gulf Craft", s:"industry", t:3, p:53, short:"Gulf Craft"},
+  {id:"khalifa_hosp_rak", n:"Sheikh Khalifa Specialist Hospital", s:"health", t:2, p:58, short:"Khalifa Hosp RAK"},
+  {id:"skhf", n:"Sheikh Khalifa Hospital Fujairah", s:"health", t:2, p:56, short:"SKHF"},
 ];
 
 const PEOPLE = [
@@ -1664,4 +1666,6 @@ const AKA = {
   rak_ega:["EGA","RAK e-Government"],
   fujairah_die:["IED","Fujairah DIE"],
   ajman_police:["Ajman Police GHQ"],
+  khalifa_hosp_rak:["SKSH","Sheikh Khalifa Speciality Hospital"],
+  skhf:["Al Faseel"],
 };

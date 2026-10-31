@@ -555,6 +555,12 @@ const INSTITUTIONS = [
   {id:"al_quraishi_bros", n:"Ali Zaid Al Quraishi & Brothers Company", s:"conglomerate", t:3, p:54, short:"Al Quraishi & Bros"},
   {id:"tamimi", n:"Tamimi Group", s:"conglomerate", t:3, p:55, short:"Tamimi Group"},
   {id:"arasco", n:"Arabian Agricultural Services Company", s:"consumer_stap", t:3, p:55, short:"ARASCO"},
+  {id:"qassim_university", n:"Qassim University", s:"education", t:2, p:62, short:"Qassim University"},
+  {id:"najran_university", n:"Najran University", s:"education", t:3, p:54, short:"Najran University"},
+  {id:"univ_of_jeddah", n:"University of Jeddah", s:"education", t:2, p:58, short:"Univ of Jeddah"},
+  {id:"prince_mbf_univ", n:"Prince Mohammad Bin Fahd University", s:"education", t:3, p:54, short:"Prince MBF Univ"},
+  {id:"saudi_broadcasting", n:"Saudi Broadcasting Authority", s:"comm", t:2, p:60, short:"Saudi Broadcasting"},
+  {id:"gulf_research_ctr", n:"Gulf Research Center", s:"education", t:2, p:58, short:"Gulf Research Ctr"},
 ];
 
 const PEOPLE = [
@@ -3674,6 +3680,12 @@ const PEOPLE = [
   {id:"khaled_bin_saleh_al_amoudi", n:"Khaled bin Saleh Al-Amoudi", t:2, p:60, s:"consumer_stap", roles:[
     ["lst_6040","Chief Executive Officer (Jun–Oct 2026)","executive","ns","former:until Oct 2026"]],
     note:"Resigned by mutual consent during probationary period citing wish to retire; succeeded by Chairman Nasser Al-Rahili effective 27 Nov 2026."},
+  {id:"saleh_bin_ali", n:"Saleh bin Ali Al-Oqla", t:2, p:58, s:"education", roles:[
+    ["islamic_univ_madinah","Rector of the Islamic University of Madinah","executive","v"]]},
+  {id:"ali_bin_musa", n:"Ali bin Musa Al-Zahrani", t:2, p:58, s:"education", roles:[
+    ["islamic_univ_madinah","Vice Rector for Graduate Studies and Scientific Research","executive","v"]]},
+  {id:"abdulsalam_bin_ali", n:"Abdulsalam bin Ali Al-Sanani", t:2, p:58, s:"health", roles:[
+    ["kkh_al_majmaah","Director of King Khalid Hospital - Al Majma'ah","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -4077,6 +4089,7 @@ const OWNERSHIP = [
   ["panda_retail","lst_2050","subsidiary","ns"],
   ["al_bayroni","sabic_agri_nutr","JV","v"],
   ["ibn_al_baytar","sabic_agri_nutr","JV","v"],
+  ["saudi_broadcasting","momedia_sa","government body","v"],
 ];
 
 const FAMILY = [
@@ -4217,4 +4230,10 @@ const AKA = {
   reda_gulf:["REDA Hazard Control"],
   al_quraishi_bros:["AZAQ"],
   tamimi:["Tamimi Global"],
+  qassim_university:["QU"],
+  najran_university:["NU"],
+  univ_of_jeddah:["UJ"],
+  prince_mbf_univ:["PMU"],
+  saudi_broadcasting:["SBA","Saudi Broadcasting Corporation","BSKSA"],
+  gulf_research_ctr:["GRC"],
 };

@@ -319,6 +319,7 @@ const INSTITUTIONS = [
   {id:"topaz_energy", n:"P&O Maritime Logistics", s:"energy", t:2, p:58, short:"P&O Maritime"},
   {id:"ghantoot", n:"Ghantoot Group", s:"industry", t:3, p:54, short:"Ghantoot Group"},
   {id:"al_ghaith", n:"Al Ghaith Holding", s:"industry", t:3, p:54, short:"Al Ghaith Holding"},
+  {id:"ecssr", n:"Emirates Center for Strategic Studies and Research", s:"education", t:2, p:60, short:"ECSSR"},
 ];
 
 const PEOPLE = [
@@ -4292,6 +4293,21 @@ const PEOPLE = [
     ]},
   {id:"nikhil_ahluwalia", n:"Nikhil Ahluwalia", t:2, p:58, s:"energy", roles:[
     ["topaz_energy","Chief Operating Officer - Port Services & Bulk Modalities","executive","v"],
+    ]},
+  {id:"ali_hamel_khadem", n:"Ali Hamel Khadem Al Ghaith Al Qubaisi", t:2, p:52, s:"industry", roles:[
+    ["al_ghaith","Director","board","ns"],
+    ]},
+  {id:"khalifa_hamel_khadem", n:"Khalifa Hamel Khadem Al Ghaith Al Qubaisi", t:2, p:52, s:"industry", roles:[
+    ["al_ghaith","Director","board","ns"],
+    ]},
+  {id:"ghaith_hamel_khadem", n:"Ghaith Hamel Khadem Al Ghaith Al Qubaisi", t:2, p:62, s:"industry", roles:[
+    ["al_ghaith","Vice Chairman of the Board of Directors","board","ns"],
+    ]},
+  {id:"fatima_al_jaber", n:"Fatima Al Jaber", t:2, p:62, s:"conglomerate", roles:[
+    ["aljaber","Board Member and Chair of Projects Committee","board","ns"],
+    ]},
+  {id:"adeeb_ahmed", n:"Adeeb Ahmed", t:2, p:58, s:"finance", roles:[
+    ["digit9","Founder","executive","ns"],
     ]},
 ];
 

@@ -238,6 +238,9 @@ const INSTITUTIONS = [
   {id:"emirates_intl_sch", n:"Emirates International School", s:"education", t:3, p:52, short:"Emirates Intl Sch"},
   {id:"al_reyami", n:"Al Reyami Group", s:"industry", t:3, p:52, short:"Al Reyami Group"},
   {id:"danube", n:"Danube Group", s:"conglomerate", t:3, p:55, short:"Danube Group"},
+  {id:"arab_media", n:"Arab Media Group", s:"comm", t:2, p:58, short:"Arab Media Group"},
+  {id:"itp_media", n:"ITP Media Group", s:"comm", t:3, p:54, short:"ITP Media Group"},
+  {id:"canadian_univ_dubai", n:"Canadian University Dubai", s:"education", t:3, p:52, short:"Canadian Univ Dubai"},
 ];
 
 const PEOPLE = [
@@ -2722,6 +2725,7 @@ const OWNERSHIP = [
   ["diamondlease","alhabtoor","subsidiary","v"],
   ["habtoor_hospitality","alhabtoor","subsidiary","v"],
   ["emirates_intl_sch","alhabtoor","subsidiary","v"],
+  ["arab_media","dubaiholding","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -2826,4 +2830,7 @@ const AKA = {
   depa_united:["Depa"],
   habtoor_hospitality:["Metropolitan Hotels"],
   danube:["Danube Building Materials","Danube Home","Danube Properties"],
+  arab_media:["AMG"],
+  itp_media:["ITP"],
+  canadian_univ_dubai:["CUD"],
 };
