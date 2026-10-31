@@ -1,5 +1,0 @@
-# Globant, Aldar Properties induct AI-powered agents
-source: TradeArabia
-url: https://news.google.com/rss/articles/CBMikwFBVV95cUxNRlZHT2pjY0VXeVhuS1JMRVBaTHhVcDB0NjFlUE5rdHhMR2o5a3U1ZjROdTN6TTVLVkYyR0VYSFh1aUNsMTFNa04xbFkzcWJGX2hrWE5JOFFzQjJrd3RVMkhVU0VsM3RGNzI1c3g2eXF2MDZKbldPWmVmdF9HVlRyeWVmamx4Y1FqR2Q3dEdYQU12T2M?oc=5
-
-Globant, Aldar Properties induct AI-powered agents    TradeArabia

@@ -1,0 +1,5 @@
+# Sources: Man City points deduction bombshell as 'likely' Premier League punishment revealed
+source: Football Insider
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcS1ucExtQ0JSZGlwamxfX0V5SWxZc2pZZG5MaWFJMVgzOWg5MkV6Q1c0bGhVT0JJUWtvT1I0c0RzbGlBXy1rTjdPaW9UZmR4SERVTmd5eEtiRjdhX2NIZ2R1SmJabjhhNVdRMzZROGl5M25pOVJvQ052Y1RDVnFFLVpweEZNSmxYVnNQX0ZwZ3VtTmZBQkxRLTNvVWs3d0MyM0ZNVEtsS0xRR0xUQkZCX0NNVG1EQ0x1WTVGVldkVW9SWmRWU0lWcDlzRG50OVU2SzAyNDZKd1E3TGczNmlNMg?oc=5
+
+Sources: Man City points deduction bombshell as 'likely' Premier League punishment revealed    Football Insider

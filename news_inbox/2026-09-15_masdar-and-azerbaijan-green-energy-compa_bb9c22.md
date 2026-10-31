@@ -1,5 +1,0 @@
-# Masdar and Azerbaijan Green Energy Company Explore Renewable Energy Projects in Azerbaijan
-source: SaudiGulf Projects
-url: https://news.google.com/rss/articles/CBMizgFBVV95cUxNbEdUX0p2N3piM0Y5Ujg4TmFmeW1FRW1MRWVURWRFSWVhamNMVlNKLVhNVkhKTmVmLU02ZGpqWDhrMUR4dWhmQUoxS21fUVcyVXAtbGhBdnRHRmZwUHpNRjNVRWRzTUNTdU9MVkhQcWdQWEFPbnFQNEF1bjl4NGdIQUVOVGNTOUpzdFFBdFl5QndSclNndEFJYmJiZnFxQTloVXR2bmh3TFlUWl9XWXl6SUE0Ym9YTHZwQkN6ei1YVDlJUGp2TjFtUlVRYWRRdw?oc=5
-
-Masdar and Azerbaijan Green Energy Company Explore Renewable Energy Projects in Azerbaijan    SaudiGulf Projects
