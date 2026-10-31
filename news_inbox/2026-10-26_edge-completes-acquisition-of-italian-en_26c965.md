@@ -1,0 +1,5 @@
+# EDGE Completes Acquisition Of Italian Engine Maker CMD
+source: Forbes Middle East
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNREdEb3QzbDc2c3pFWlZKamhRSTd3eHZlalFGVllfMkt1b3d0MlBoMGpWeVN2WVFFZ3VLOGVOckRQaDh5ZEtMVFcyYlk1QlRGR0V6bnhNVkYwSEplLTR4SUZXcEExUU9lQ1A0M21JbXptMFh1MGJvQ2RCTFpHT2ZaVHRnSTM2VmlqVHZMaXh4T0tDTjluLWNFMXpBcnBHTUJ4dzZONnJDZ0NFTXMyVlhRYjBVbXUwN0M2Nzh3VHBaN0hPc2s?oc=5
+
+EDGE Completes Acquisition Of Italian Engine Maker CMD    Forbes Middle East
