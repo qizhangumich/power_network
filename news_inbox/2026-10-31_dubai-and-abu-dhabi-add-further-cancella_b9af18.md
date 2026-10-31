@@ -1,0 +1,5 @@
+# Dubai and Abu Dhabi add further cancellations as Singapore Airlines pushes its return to February 2027
+source: Aviacionline
+url: https://news.google.com/rss/articles/CBMiowJBVV95cUxQUUJjU0wxZHlVUzNKeDdwdTVia1JTaEUzc3lpVDE3anZjVnhDSFR2ZXBOeE1pT1ZkMWhpczJOeTBKUW9PQnNrTWVOZG9yeUlxWGhXU3haY09XbEVfamM3LVBkYVFwNnNNTi1LTUJ1OHBEMExxRDhDcVdoVXRLWWE2bnRreUdqTjFwZEJFcENmT0hzTzM3UEk3Qm9oaENRNjFRb0w2bzJMaGd3NThWV1JCOTJYR21xc1hMQTNNQ0psbHhvc3owemZhMnV4TlFfUlQtM0NqMjFkT2ZDYjJ1Z1BnNHEzME9YRjU2bGVvLVQ1c2p0SXVFVjJzQThDazZpV3UzWlVqYktBYTlGYTFCQWkwcnJqVkoxeU02MGd5UnNUZUZJX28?oc=5
+
+Dubai and Abu Dhabi add further cancellations as Singapore Airlines pushes its return to February 2027    Aviacionline
