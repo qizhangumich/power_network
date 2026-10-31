@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>NavGCC promo — scene 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap">
+<style>
+  /* tokens and map styles from navgcc.com (index.html) */
+  :root{--bg:#0A1120;--line:rgba(148,163,184,.14);--ink:#EEF2F8;--ink-soft:#B1BCCD;--ink-faint:#8190A7;
+        --accent:#7C8CFF;--accent-hi:#A3AEFF;--land:#152137;--land-hl:#24316A;--sea:#0C1424;
+        --font:"Inter",system-ui,sans-serif;--display:"Sora","Inter",system-ui,sans-serif}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1920px;height:1080px;overflow:hidden;background:var(--bg);color:var(--ink);font-family:var(--font)}
+  body{background:radial-gradient(1300px 650px at 75% -10%,rgba(124,140,255,.12),transparent 60%),var(--bg)}
+  .brand{position:absolute;left:84px;top:62px;display:flex;align-items:center;gap:16px;opacity:0}
+  .brand img{width:58px;height:58px;border-radius:15px}
+  .brand b{font:600 32px var(--display)}
+  #stage{position:absolute;left:50%;top:52%;width:1560px;transform-origin:0 0}
+  #stage svg{display:block;width:100%;height:auto;overflow:visible}
+  .sea{fill:var(--sea)}
+  .land{fill:var(--land);stroke:rgba(148,163,184,.35);stroke-width:1;stroke-linejoin:round}
+  .land.hl{fill:var(--land-hl);stroke:var(--accent);stroke-width:1.6}
+  .lbl{font:500 14px var(--font);fill:var(--ink-soft)}
+  .lbl.small{font-size:12px}
+  .leader{stroke:rgba(148,163,184,.4);stroke-width:1}
+  .seatxt{font:italic 11px var(--font);fill:rgba(177,188,205,.35);letter-spacing:.18em}
+  .pulse{fill:var(--accent);opacity:.9}
+  .pulse-ring{fill:none;stroke:var(--accent);stroke-width:1.5}
+  .edge{stroke:rgba(148,163,184,.42);stroke-width:.55}
+  .node{stroke-width:.8}
+</style>
+</head>
+<body>
+<div class="brand"><img src="/favicon.svg" alt=""><b>NavGCC</b></div>
+<div id="stage"><!--GCC_SVG--></div>
+<script>
+(() => {
+  const svg = document.querySelector("#stage svg");
+  svg.removeAttribute("role");
+  const NS = "http://www.w3.org/2000/svg";
+  const lands = [...svg.querySelectorAll(".land")];
+  const order = ["saudi", "kuwait", "bahrain", "qatar", "abudhabi", "dubai", "northern", "oman"];
+  lands.forEach(l => { l.dataset.i = order.indexOf(l.dataset.r); if (l.getTotalLength) { const L = l.getTotalLength(); l.dataset.len = L; l.style.strokeDasharray = L; } });
+  const labels = [...svg.querySelectorAll(".lbl, .leader, .seatxt")];
+  const pulse = svg.querySelector(".pulse"), ring = svg.querySelector(".pulse-ring");
+
+  /* network: people (circles) and institutions (diamonds) seeded inside each country,
+     coloured with the map's industry palette, linked to near neighbours */
+  const COLORS = ["#3987e5", "#d95926", "#199e70", "#c98500", "#d55181", "#008300", "#9085e9", "#e66767", "#9DA9BB", "#B8A487"];
+  const W8 = [12, 10, 7, 6, 4, 3, 8, 7, 9, 4];
+  let seed = 11; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  const pick = () => { let r = rnd() * W8.reduce((a, b) => a + b); for (let i = 0; i < W8.length; i++) { r -= W8[i]; if (r <= 0) return COLORS[i]; } return COLORS[0]; };
+  const want = {saudi: 70, kuwait: 22, bahrain: 9, qatar: 14, abudhabi: 46, dubai: 20, northern: 10, oman: 34};
+  const pts = [];
+  const gE = document.createElementNS(NS, "g"), gN = document.createElementNS(NS, "g");
+  svg.insertBefore(gE, svg.querySelector(".leader")); svg.insertBefore(gN, svg.querySelector(".leader"));
+  for (const l of lands) {
+    const r = l.dataset.r, bb = l.getBBox(); let n = 0, tries = 0;
+    const need = Math.round((want[r] || 10) / lands.filter(x => x.dataset.r === r).length);
+    while (n < need && tries++ < 4000) {
+      const p = svg.createSVGPoint(); p.x = bb.x + rnd() * bb.width; p.y = bb.y + rnd() * bb.height;
+      if (!l.isPointInFill(p)) continue;
+      const inst = rnd() < 0.24, ad = r === "abudhabi";
+      pts.push({x: p.x, y: p.y, c: pick(), inst, r, t: 3.0 + rnd() * 2.6 + (ad ? -0.4 : 0), s: inst ? 2.6 + rnd() * 1.6 : 1.5 + rnd() * 1.3});
+      n++;
+    }
+  }
+  pts.forEach(p => {
+    const el = document.createElementNS(NS, p.inst ? "rect" : "circle");
+    if (p.inst) { el.setAttribute("x", -p.s); el.setAttribute("y", -p.s); el.setAttribute("width", p.s * 2); el.setAttribute("height", p.s * 2);
+                  el.setAttribute("transform", `translate(${p.x},${p.y}) rotate(45)`); }
+    else { el.setAttribute("cx", p.x); el.setAttribute("cy", p.y); el.setAttribute("r", p.s); }
+    el.setAttribute("class", "node"); el.setAttribute("fill", p.c + "88"); el.setAttribute("stroke", p.c);
+    el.style.opacity = 0; gN.appendChild(el); p.el = el;
+  });
+  const edges = [];
+  pts.forEach((a, i) => {
+    const near = pts.map((b, j) => [j, Math.hypot(a.x - b.x, a.y - b.y)]).filter(([j, d]) => j !== i && d < 46)
+      .sort((x, y) => x[1] - y[1]).slice(0, 2);
+    near.forEach(([j]) => { if (j > i || !edges.some(e => e.a === j && e.b === i)) {
+      const b = pts[j], el = document.createElementNS(NS, "line");
+      el.setAttribute("x1", a.x); el.setAttribute("y1", a.y); el.setAttribute("x2", b.x); el.setAttribute("y2", b.y);
+      el.setAttribute("class", "edge"); el.style.opacity = 0; gE.appendChild(el);
+      edges.push({a: i, b: j, el, t: Math.max(a.t, b.t) + 0.15});
+    } });
+  });
+
+  const clamp = x => Math.max(0, Math.min(1, x));
+  const ease = x => { x = clamp(x); return x < .5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2; };
+  const stage = document.getElementById("stage");
+  const VB = 720, SC = 1560 / VB;                       // svg units -> px
+  window.__s1 = t => {
+    document.querySelector(".brand").style.opacity = ease((t - 0.2) / 0.8);
+    /* camera: a slow push toward Abu Dhabi (505, 228 in map units) */
+    const z = 1 + 0.34 * ease((t - 3.2) / 3.8);
+    const fx = 505 * SC, fy = 228 * SC, cx = 360 * SC, cy = 226 * SC;
+    const u = ease((t - 3.2) / 3.8);
+    const ox = cx + (fx - cx) * u, oy = cy + (fy - cy) * u;
+    stage.style.transform = `translate(${-ox * z}px, ${-oy * z}px) scale(${z})`;
+    svg.querySelector(".sea").style.opacity = ease(t / 0.8);
+    lands.forEach(l => {
+      const t0 = 0.5 + l.dataset.i * 0.22, a = ease((t - t0) / 0.9);
+      l.style.opacity = a;
+      l.style.strokeDashoffset = (1 - ease((t - t0) / 1.2)) * l.dataset.len;
+      l.classList.toggle("hl", l.dataset.r === "abudhabi" && t > 4.6);
+    });
+    labels.forEach((el, i) => el.style.opacity = ease((t - 2.3 - i * 0.04) / 0.7) * (1 - ease((t - 5.4) / 0.9) * 0.6));
+    pts.forEach(p => { p.el.style.opacity = ease((t - p.t) / 0.45); });
+    edges.forEach(e => { e.el.style.opacity = ease((t - e.t) / 0.6); });
+    const pr = ((t - 2.6) % 2.4) / 2.4;
+    pulse.style.opacity = ease((t - 2.4) / 0.5);
+    ring.style.opacity = t > 2.6 ? (1 - pr) * 0.6 : 0;
+    ring.setAttribute("r", 6 + pr * 12);
+  };
+})();
+</script>
+</body>
+</html>
