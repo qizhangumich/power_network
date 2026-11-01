@@ -1,0 +1,5 @@
+# Adnoc poised to launch multiple tenders for offshore megaproject
+source: Upstream Online
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTVVxMXlrSWR3UVE3bU1ORWk2YWZteEowSW1SMDlWVUt5Y2dEWEJ3U0VUbGEycnd6Wm41NldUY0pNZS1kZGVpdGc3Sm02TmVBc3Q2cEhvcks2blVjQmdsVHFRRXBnUy1Idk5VWTlqbFNRYnBwczJPVEJFaENiWVNHSFRxVkNwOGl3UklJQWVtMFh1d28zejEwbVRKT0dPREQzVUVYTk8tQTJ0NmhoMUtldjE4SEZiQ2wyT0FzWE9KLXpRMlE?oc=5
+
+Adnoc poised to launch multiple tenders for offshore megaproject    Upstream Online

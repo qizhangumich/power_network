@@ -1,0 +1,5 @@
+# Man City chairman 'held private government meeting' just days before 115 charges verdict
+source: Daily Express
+url: https://news.google.com/rss/articles/CBMijwFBVV95cUxNcEF4aDJxVTdTdlRGeE43WlVaMnVLVHdoUHg3NmdORHdtUEwtd05ZVGw5OXVFeGpBM2RxcndHNENsaWRjUEUzeVduNTFRWnpiQW9HLXdhRVVjYmloUlZDUmVhRWJERUJWVDBGMGd2Y3dsbzhoLVl5LXZ4TWczRGR6bGt4U3pfMXVjREQwUTN6b9IBlAFBVV95cUxQbVhFZG56VWFmSGxEQThab2M2TDN1YS1qQy1YYWIwVndwdU5VRFZoUEVPNFN4UnVOMkE4MFlBSG95a3JoQS1tR2QtQ2FHQTl3MTN3S3l6di1tQVlZa1RBLXk0Umt4TVZUQ0dfV0JxbEcxTWlUb0lmTGUwTEtOdWtMdlo4NmVvS1Z4VEtHVkdlN3FKMVBV?oc=5
+
+Man City chairman 'held private government meeting' just days before 115 charges verdict    Daily Express

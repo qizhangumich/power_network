@@ -1,0 +1,5 @@
+# Etihad Cargo and Virginia Economic Development Partnership MoU signed to increase cooperation
+source: Air Cargo Week
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOVFCTlI0NkxRdW43NjZJM1RxLWlXR2ZXcmhKRHB4NFM3YkVMcTczV1lmckRLS1lFN2UzZ25EWjBJYWNGUjFzNmxOYzB0NkJIOTNfZ3FGdm53aElXeko3MVRHUHV0b0hhMy0wQ2p5M0tsU3p5TS1JYzZLc09wWEZOZUUyMTRIM2pFYnNRR1ZoejBHQVZJQ1gzVVQtaElBNTM3cHVrWWhfUkFwMGNOME51emtFaE9HcHpjcWFv?oc=5
+
+Etihad Cargo and Virginia Economic Development Partnership MoU signed to increase cooperation    Air Cargo Week
