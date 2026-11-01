@@ -89,6 +89,32 @@
     return j;
   }
 
+  /* Chat-audio transcription (e.g. PPIO qwen omni) wants wav/mp3, not the browser's webm/opus:
+     re-encode to 16 kHz mono WAV in the browser. Falls back to the original file if it can't. */
+  async function toWav(blob) {
+    const AC = window.AudioContext || window.webkitAudioContext, OAC = window.OfflineAudioContext || window.webkitOfflineAudioContext;
+    const ac = new AC();
+    let buf;
+    try { buf = await ac.decodeAudioData(await blob.arrayBuffer()); } finally { try { ac.close(); } catch (e) {} }
+    const rate = 16000, len = Math.ceil(buf.duration * rate);
+    const off = new OAC(1, len, rate), srcN = off.createBufferSource();
+    srcN.buffer = buf; srcN.connect(off.destination); srcN.start();
+    const pcm = (await off.startRendering()).getChannelData(0);
+    const dv = new DataView(new ArrayBuffer(44 + pcm.length * 2));
+    const w = (o, str) => { for (let i = 0; i < str.length; i++) dv.setUint8(o + i, str.charCodeAt(i)); };
+    w(0, "RIFF"); dv.setUint32(4, 36 + pcm.length * 2, true); w(8, "WAVE"); w(12, "fmt ");
+    dv.setUint32(16, 16, true); dv.setUint16(20, 1, true); dv.setUint16(22, 1, true); dv.setUint32(24, rate, true);
+    dv.setUint32(28, rate * 2, true); dv.setUint16(32, 2, true); dv.setUint16(34, 16, true); w(36, "data"); dv.setUint32(40, pcm.length * 2, true);
+    for (let i = 0; i < pcm.length; i++) { const v = Math.max(-1, Math.min(1, pcm[i])); dv.setInt16(44 + i * 2, v < 0 ? v * 0x8000 : v * 0x7fff, true); }
+    return new Blob([dv], {type: "audio/wav"});
+  }
+  async function transcribeAudio(blob, mime) {
+    if (STATUS && STATUS.asr_format === "wav" && !/wav|mpeg|mp3/.test(mime)) {
+      try { const wav = await toWav(blob); if (wav.size <= 25 * 1024 * 1024) { blob = wav; mime = "audio/wav"; } } catch (e) {}
+    }
+    return ai("transcribe", blob, mime);
+  }
+
   /* ---------------- notes store ---------------- */
   const notesAll = () => load(K_NOTES, {v: 1, list: []});
   function saveNote(n) {
@@ -297,7 +323,7 @@
             const out = await REC.stop(); REC = null;
             if (out && st.can("transcribe")) {
               msg(T.transcribing);
-              try { const r = await ai("transcribe", out.blob, out.blob.type.split(";")[0] || "audio/webm"); $(".nt-tr").value = r.text || out.text; msg(""); }
+              try { const r = await transcribeAudio(out.blob, out.blob.type.split(";")[0] || "audio/webm"); $(".nt-tr").value = r.text || out.text; msg(""); }
               catch (err) { $(".nt-tr").value = out.text; msg(err.message, true); }
             } else if (out) $(".nt-tr").value = out.text || $(".nt-tr").value;
           }
@@ -330,7 +356,7 @@
         const f = e.target.files[0]; src = "upload";
         if (f.size > 25 * 1024 * 1024) return msg("Max 25 MB", true);
         msg(T.transcribing);
-        try { const r = await ai("transcribe", f, f.type || "audio/mpeg"); $(".nt-tr").value = r.text; msg(""); } catch (err) { msg(err.message, true); }
+        try { const r = await transcribeAudio(f, f.type || "audio/mpeg"); $(".nt-tr").value = r.text; msg(""); } catch (err) { msg(err.message, true); }
       });
       $(".nt-q").addEventListener("input", e => {
         const q = e.target.value.trim().toLowerCase();
