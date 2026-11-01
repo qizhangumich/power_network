@@ -311,11 +311,14 @@ const PEOPLE = [
     ["mofa_q","Ambassador to the United States","political","v"]]},
   {id:"saoud_diwan", n:"H.E. Sheikh Saoud bin Abdulrahman Al Thani", t:0, p:78, s:"gov", roles:[
     ["npc","Vice Chairman, National Planning Council","board","ns"],
-    ["qgov","Chief of the Amiri Diwan","political","ns"],
+    ["qgov","Chief of the Amiri Diwan (2020–Nov 2024)","political","ns","former:until Nov 2024"],
     ["cabinet","Deputy Prime Minister","political","v"],
     ["mod_q","Minister of State for Defence Affairs","political","v"],
     ["barzan","Chairman","board","ns"]],
     note:"Succeeded Khalid bin Mohamed Al Attiyah as Deputy PM/Minister of State for Defence Affairs in the 12 Nov 2024 Amiri cabinet reshuffle (gco.gov.qa); the Barzan Holdings chairmanship has historically attached to this portfolio (named as chairman in Jan 2026 DIMDEX trade coverage, not yet independently confirmed by an official Barzan/government source)."},
+  {id:"abdullah_m_khulaifi", n:"Abdullah bin Mohammed bin Mubarak Al Khulaifi", t:0, p:78, s:"gov", roles:[
+    ["qgov","Chief of the Amiri Diwan","political","ns"]],
+    note:"Appointed by Amiri Order No. 3 of 2024 (12 Nov 2024), succeeding Sheikh Saoud bin Abdulrahman Al Thani; previously head of State Security. Source: The Peninsula/Gulf Times coverage of the Amiri Order; not yet independently confirmed on diwan.gov.qa."},
   {id:"faisal_bq", n:"H.E. Sheikh Faisal bin Qassim Al Thani", t:1, p:80, s:"conglomerate", roles:[
     ["alfaisal","Chairman","board","v"],
     ["aamal","Chairman","board","v"]],
@@ -589,6 +592,7 @@ const PEOPLE = [
   {id:"samir_bailouni", n:"Samir Bailouni", t:2, p:58, s:"energy", roles:[
     ["nakilat","Chief Operating Officer (Fleet)","executive","v"]]},
   {id:"khalid_mohammed_al", n:"Khalid Mohammed Al-Hitmi", t:2, p:46, s:"energy", roles:[
+    ["qatar_leadership_centre","Board Member","board","v"],
     ["qelng","Executive Vice President, Subsurface Development and Exploration","executive","v"],
     ["qatarenergy","Executive VP - Subsurface Development and Exploration","executive","v"]]},
   {id:"jassim_mohd_al", n:"Jassim Mohd Al-Marzouqi", t:2, p:46, s:"energy", roles:[
@@ -1710,6 +1714,7 @@ const PEOPLE = [
   {id:"asmaa_ali_al", n:"Asmaa Ali Al-Thani", t:2, p:58, s:"education", roles:[
     ["qu","Vice President for Medical and Health Sciences","executive","v"]]},
   {id:"eiman_mohd_mustafawi", n:"Eiman Mohd. Mustafawi", t:2, p:58, s:"education", roles:[
+    ["qatar_leadership_centre","Board Member","board","v"],
     ["qu","Vice President for Student Affairs","executive","v"]]},
   {id:"khalid_mohamed_al_b", n:"Khalid Mohamed Al-Khanji", t:2, p:58, s:"education", roles:[
     ["qu","Chief Strategy and Development Officer","executive","v"]]},
@@ -2243,6 +2248,16 @@ const PEOPLE = [
     ["elegancia","Group Chief Executive Officer - Elegancia Services","executive","v"]]},
   {id:"eyad_elkhorebi", n:"Eyad Elkhorebi", t:2, p:60, s:"industry", roles:[
     ["elegancia","Group Chief Executive Officer - Elegancia Contracting & Industries","executive","v"]]},
+  {id:"sheikh_abdullah_bin_b", n:"Sheikh Abdullah bin Ali bin Saoud Al Thani", t:2, p:62, s:"education", roles:[
+    ["qatar_leadership_centre","Vice Chairman and Managing Director","executive","v"]]},
+  {id:"sultan_bin_rashid", n:"Sultan bin Rashid Al Khater", t:2, p:52, s:"education", roles:[
+    ["qatar_leadership_centre","Board Member","board","v"]]},
+  {id:"aisha_jassim_al", n:"Aisha Jassim Al Kuwari", t:2, p:52, s:"education", roles:[
+    ["qatar_leadership_centre","Board Member","board","v"]]},
+  {id:"maha_masoud_al", n:"Maha Masoud Al Marri", t:2, p:52, s:"education", roles:[
+    ["qatar_leadership_centre","Board Member","board","v"]]},
+  {id:"abdullah_mohammed_khalifa", n:"Abdullah Mohammed Khalifa Al Binali", t:2, p:58, s:"education", roles:[
+    ["qatar_leadership_centre","Director General","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

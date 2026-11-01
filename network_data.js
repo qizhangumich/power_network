@@ -4309,6 +4309,18 @@ const PEOPLE = [
   {id:"adeeb_ahmed", n:"Adeeb Ahmed", t:2, p:58, s:"finance", roles:[
     ["digit9","Founder","executive","ns"],
     ]},
+  {id:"ali_mohammed_sadiq", n:"Ali Mohammed Sadiq Al Baloushi", t:2, p:62, s:"industry", roles:[
+    ["ghantoot","Chairman","board","v"],
+    ]},
+  {id:"rashid_mohamed_mahran", n:"Rashid Mohamed Mahran Al Bloushi", t:2, p:60, s:"industry", roles:[
+    ["ghantoot","Managing Director","executive","v"],
+    ]},
+  {id:"ahmad_maarouf", n:"Ahmad Maarouf", t:2, p:46, s:"industry", roles:[
+    ["ghantoot","General Manager","executive","v"],
+    ]},
+  {id:"hashim_rasheed", n:"Hashim Rasheed", t:2, p:46, s:"finance", roles:[
+    ["digit9","Head of Digit9","executive","ns"],
+    ]},
 ];
 
 const OWNERSHIP = [

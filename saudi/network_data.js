@@ -1036,11 +1036,12 @@ const PEOPLE = [
   {id:"sulaiman_m_ababtain", n:"Sulaiman M. Ababtain", t:2, p:58, s:"energy", roles:[
     ["aramco","Senior Vice President, Aramco (leading SOFON Holding)","executive","v"]]},
   {id:"yahya_a_abu", n:"Yahya A. Abu Shal", t:2, p:58, s:"energy", roles:[
+    ["satorp","Board Member","board","v"],
     ["aramco","Senior Vice President, Aramco","executive","v"]]},
   {id:"meshari_m_alshaikhmubarak", n:"Meshari M. Alshaikhmubarak", t:2, p:62, s:"energy", roles:[
     ["aramco","Senior Vice President, Office of the Chairman","executive","v"]]},
   {id:"abdullah_s_al", n:"Abdullah S. Al-Suwailem", t:2, p:58, s:"energy", roles:[
-    ["satorp","President and CEO","executive","ns"],
+    ["satorp","President and CEO","executive","v"],
     ["lst_2380","Board Member","board","v"],
     ["aramco","Senior Vice President, Aramco; President & CEO, SATORP","executive","v"]]},
   {id:"ernesto_occhiello", n:"Ernesto Occhiello", t:2, p:58, s:"materials", roles:[
@@ -2179,7 +2180,7 @@ const PEOPLE = [
   {id:"yasser_bin_ahmed", n:"Yasser bin Ahmed Al-Hakami", t:2, p:58, s:"utilities", roles:[
     ["nwc","Official Spokesperson","executive","ns"]]},
   {id:"fahd_bin_mohammed", n:"Fahd bin Mohammed Al-Issa", t:2, p:46, s:"gov", roles:[
-    ["royalcourt","Head of the Royal Court (Minister rank)","executive","ns"]]},
+    ["royalcourt","Head of the Royal Court (Minister rank)","executive","v"]]},
   {id:"fahd_bin_abdullah", n:"Fahd bin Abdullah Al-Askar", t:2, p:58, s:"gov", roles:[
     ["royalcourt","Deputy Chief of the Royal Court (Minister rank)","executive","ns"]]},
   {id:"fayyadh_bin_hamed", n:"Fayyadh bin Hamed Al-Ruwaili", t:2, p:58, s:"gov", roles:[
@@ -2251,6 +2252,7 @@ const PEOPLE = [
   {id:"hamad_y_al", n:"Hamad Y. Al-Daghreer", t:2, p:52, s:"energy", roles:[
     ["lst_2380","Board Member","board","v"]]},
   {id:"hussain_a_al", n:"Hussain A. Al Qahtani", t:2, p:52, s:"energy", roles:[
+    ["satorp","Board Member","board","v"],
     ["lst_2380","Board Member","board","v"]]},
   {id:"khalid_s_al", n:"Khalid S. Al-Sultan", t:2, p:52, s:"energy", roles:[
     ["lst_2380","Board Member","board","v"]]},
@@ -3686,6 +3688,20 @@ const PEOPLE = [
     ["islamic_univ_madinah","Vice Rector for Graduate Studies and Scientific Research","executive","v"]]},
   {id:"abdulsalam_bin_ali", n:"Abdulsalam bin Ali Al-Sanani", t:2, p:58, s:"health", roles:[
     ["kkh_al_majmaah","Director of King Khalid Hospital - Al Majma'ah","executive","ns"]]},
+  {id:"obaid_ali_al", n:"Obaid Ali Al-Madhaf", t:2, p:58, s:"education", roles:[
+    ["univ_of_jeddah","President of University of Jeddah","executive","v"]]},
+  {id:"mohammed_bin_marzouq", n:"Mohammed bin Marzouq Humais Al-Maqati", t:2, p:58, s:"education", roles:[
+    ["univ_of_jeddah","University Vice President","executive","v"]]},
+  {id:"mohammed_bin_fahd", n:"Mohammed bin Fahd Al-Sharikh", t:2, p:58, s:"education", roles:[
+    ["qassim_university","President of Qassim University","executive","v"]]},
+  {id:"benoit_decouvelaere", n:"Benoit Decouvelaere", t:2, p:62, s:"energy", roles:[
+    ["satorp","Deputy Chairman","board","v"]]},
+  {id:"fahad_k_aldhubaib", n:"Fahad K. Aldhubaib", t:2, p:52, s:"energy", roles:[
+    ["satorp","Board Member","board","v"]]},
+  {id:"matthieu_got", n:"Matthieu Got", t:2, p:52, s:"energy", roles:[
+    ["satorp","Board Member","board","v"]]},
+  {id:"ahmed_tarzi", n:"Ahmed Tarzi", t:2, p:52, s:"energy", roles:[
+    ["satorp","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -177,6 +177,18 @@ const INSTITUTIONS = [
   {id:"gulf_craft", n:"Gulf Craft", s:"industry", t:3, p:53, short:"Gulf Craft"},
   {id:"khalifa_hosp_rak", n:"Sheikh Khalifa Specialist Hospital", s:"health", t:2, p:58, short:"Khalifa Hosp RAK"},
   {id:"skhf", n:"Sheikh Khalifa Hospital Fujairah", s:"health", t:2, p:56, short:"SKHF"},
+  {id:"etihad_w_e", n:"Etihad Water and Electricity", s:"utilities", t:1, p:66, short:"Etihad W&E"},
+  {id:"rak_police", n:"Ras Al Khaimah Police General Command", s:"gov", t:2, p:58, short:"RAK Police"},
+  {id:"saqr_hospital", n:"Saqr Hospital", s:"health", t:2, p:56, short:"Saqr Hospital"},
+  {id:"rak_icc", n:"RAK International Corporate Centre", s:"gov", t:2, p:56, short:"RAK ICC"},
+  {id:"fujairah_police", n:"Fujairah Police General Command", s:"gov", t:2, p:56, short:"Fujairah Police"},
+  {id:"fujairah_gold", n:"Fujairah Gold FZC", s:"materials", t:3, p:54, short:"Fujairah Gold"},
+  {id:"rak_white_cement", n:"Ras Al Khaimah Co. for White Cement & Construction Materials PSC", s:"materials", t:3, p:54, short:"RAK White Cement"},
+  {id:"rakcam", n:"Ras Al Khaimah Centre for Advanced Materials", s:"education", t:3, p:52, short:"RAKCAM"},
+  {id:"julphar_life", n:"Julphar Life LLC", s:"consumer_stap", t:3, p:52, short:"Julphar Life"},
+  {id:"digital_ajman", n:"Department of Digital Ajman", s:"tech", t:2, p:54, short:"Digital Ajman"},
+  {id:"thumbay_fujairah", n:"Thumbay Hospital Fujairah", s:"health", t:2, p:52, short:"Thumbay Fujairah"},
+  {id:"al_fujairah_hosp", n:"Al Fujairah Hospital", s:"health", t:2, p:56, short:"Al Fujairah Hosp"},
 ];
 
 const PEOPLE = [
@@ -1460,6 +1472,18 @@ const PEOPLE = [
     ["rak_ega","Director General","executive","ns"]]},
   {id:"fatima_ahmed_al", n:"Fatima Ahmed Al Malki", t:2, p:58, s:"gov", roles:[
     ["rak_ega","Director of Information Security Department","executive","ns"]]},
+  {id:"mohammed_hussein_alshaali", n:"Mohammed Hussein Alshaali", t:2, p:62, s:"industry", roles:[
+    ["gulf_craft","Chairman","board","v"]]},
+  {id:"erwin_bamps", n:"Erwin Bamps", t:2, p:60, s:"industry", roles:[
+    ["gulf_craft","Chief Executive Officer","executive","v"]]},
+  {id:"abeer_alshaali", n:"Abeer Alshaali", t:2, p:60, s:"industry", roles:[
+    ["gulf_craft","Deputy Managing Director","executive","v"]]},
+  {id:"jacob_philip", n:"Jacob Philip", t:2, p:60, s:"industry", roles:[
+    ["gulf_craft","Deputy Chief Executive Officer & Group Chief Financial Officer","executive","v"]]},
+  {id:"patricia_caswell", n:"Patricia Caswell", t:2, p:46, s:"industry", roles:[
+    ["gulf_craft","General Manager, Superyacht Service Centre","executive","v"]]},
+  {id:"hussain_alshaali", n:"Hussain Alshaali", t:2, p:58, s:"industry", roles:[
+    ["gulf_craft","Research & Development Manager","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1549,6 +1573,11 @@ const OWNERSHIP = [
   ["uaq_blue_economy","rakgov","established under directives of the Ruler of Umm Al Quwain","v"],
   ["fujairah_die","fujgov","department of","v"],
   ["ajman_police","ajmgov","reports to","v"],
+  ["fujairah_police","fujgov","reports to","v"],
+  ["saqr_hospital","emirates_health_svcs","subsidiary","v"],
+  ["julphar_life","julphar","subsidiary","v"],
+  ["thumbay_fujairah","thumbay","subsidiary","v"],
+  ["al_fujairah_hosp","emirates_health_svcs","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -1642,7 +1671,7 @@ const AKA = {
   menacool:["Mena Cool Transportation FZE"],
   sharjah_municipality:["Sharjah City Municipality","SHJMUN"],
   khorfakkan_council:["Khor Fakkan Municipal Council"],
-  thumbay_univ_hosp:["TUH"],
+  thumbay_univ_hosp:["TUH","Thumbay Hospital Nuaimia"],
   al_qasimi_fdn:["AQF","Al Qasimi Foundation for Policy Research"],
   emirates_health_svcs:["EHS"],
   al_qassimi_hospital:["Al Qasimi Hospital"],
@@ -1668,4 +1697,11 @@ const AKA = {
   ajman_police:["Ajman Police GHQ"],
   khalifa_hosp_rak:["SKSH","Sheikh Khalifa Speciality Hospital"],
   skhf:["Al Faseel"],
+  etihad_w_e:["EtihadWE","FEWA (predecessor)"],
+  fujairah_gold:["Fujairah Refinery"],
+  rak_white_cement:["RAKWCT"],
+  rakcam:["RAK-CAM"],
+  digital_ajman:["Smart Ajman","Ajman Digital Government"],
+  thumbay_fujairah:["GMC Hospital Fujairah"],
+  al_fujairah_hosp:["Fujairah Hospital"],
 };

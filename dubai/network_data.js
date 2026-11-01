@@ -495,7 +495,7 @@ const PEOPLE = [
   {id:"pawan_chindalia", n:"Pawan Chindalia", t:2, p:58, s:"realestate", roles:[
     ["emaar","Group Chief Financial Officer","executive","v"]]},
   {id:"maitha_al_dossari", n:"Maitha Al Dossari", t:2, p:58, s:"realestate", roles:[
-    ["emaar","General Manager, Corporate Services","executive","ns"]]},
+    ["emaar","Head of Central Functions","executive","v"]]},
   {id:"yahya_saeed_lootah", n:"Yahya Saeed Lootah", t:2, p:62, s:"finance", roles:[
     ["dib","Vice Chairman","board","v"],
     ["dubaichambers","Vice-Chairman of Dubai Chamber of Commerce","board","v"]]},
@@ -2581,6 +2581,16 @@ const PEOPLE = [
     ["depa_united","Independent Non-Executive Director","board","ns"]]},
   {id:"mohammed_bin_turki", n:"Mohammed bin Turki Alsudairy", t:2, p:52, s:"industry", roles:[
     ["depa_united","Non-Executive Director","board","ns"]]},
+  {id:"rashid_mubarak_saif", n:"Rashid Mubarak Saif Al Reyami", t:2, p:62, s:"industry", roles:[
+    ["al_reyami","Chairman","board","v"]]},
+  {id:"rizwan_sajan", n:"Rizwan Sajan", t:2, p:62, s:"conglomerate", roles:[
+    ["danube","Founder & Chairman","board","v"]]},
+  {id:"anis_sajan", n:"Anis Sajan", t:2, p:62, s:"conglomerate", roles:[
+    ["danube","Vice Chairman","board","v"]]},
+  {id:"adel_sajan", n:"Adel Sajan", t:2, p:60, s:"conglomerate", roles:[
+    ["danube","Group Managing Director","executive","v"]]},
+  {id:"madhusudhan_rao", n:"Madhusudhan Rao", t:2, p:60, s:"conglomerate", roles:[
+    ["danube","CEO","executive","v"]]},
 ];
 
 const OWNERSHIP = [

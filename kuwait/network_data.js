@@ -2045,6 +2045,7 @@ const PEOPLE = [
   {id:"abdulrazaq_abdulla_mohammad", n:"Abdulrazaq Abdulla Mohammad Ahmed", t:2, p:52, s:"industry", roles:[
     ["lst_humansoft","Independent Board Member","board","v"]]},
   {id:"georges_yahchouchi", n:"Georges Yahchouchi", t:2, p:60, s:"industry", roles:[
+    ["amer_univ_mid","University President","executive","v"],
     ["lst_humansoft","CEO and President of AUM","executive","v"]]},
   {id:"anup_dhand", n:"Anup Dhand", t:2, p:58, s:"industry", roles:[
     ["lst_humansoft","Chief Financial Officer","executive","v"]]},
@@ -2081,6 +2082,22 @@ const PEOPLE = [
     ["al_sagar","Managing Partner","executive","ns"]]},
   {id:"aref_al_ajmi", n:"Aref Al Ajmi", t:2, p:58, s:"consumer_disc", roles:[
     ["aaw","Chief Officer - Human Capital & Administration","executive","ns"]]},
+  {id:"fahad_alothman", n:"Fahad AlOthman", t:2, p:62, s:"education", roles:[
+    ["amer_univ_mid","Chairman of the Board of Trustees","board","v"]]},
+  {id:"shqipe_gerguri_rashiti", n:"Shqipe Gerguri-Rashiti", t:2, p:58, s:"education", roles:[
+    ["amer_univ_mid","Provost","executive","v"]]},
+  {id:"audil_rashid_khaki", n:"Audil Rashid Khaki", t:2, p:58, s:"education", roles:[
+    ["amer_univ_mid","Dean of the College of Business Administration","executive","v"]]},
+  {id:"taha_beyrouthy", n:"Taha Beyrouthy", t:2, p:58, s:"education", roles:[
+    ["amer_univ_mid","Dean of the College of Engineering and Technology","executive","v"]]},
+  {id:"rami_alkhudari", n:"Rami AlKhudari", t:2, p:58, s:"education", roles:[
+    ["amer_univ_mid","Dean of Admissions and Registration","executive","v"]]},
+  {id:"nasser_elkanj", n:"Nasser Elkanj", t:2, p:58, s:"education", roles:[
+    ["amer_univ_mid","Deputy Dean of the College of Business Administration","executive","v"]]},
+  {id:"sarp_erkir", n:"Sarp Erkir", t:2, p:58, s:"education", roles:[
+    ["amer_univ_mid","Associate Dean of the Liberal Arts Department","executive","v"]]},
+  {id:"fahmi_m_el", n:"Fahmi M. El-Sayed", t:2, p:58, s:"education", roles:[
+    ["amer_univ_mid","Deputy Dean of Academic Affairs for Engineering and Technology","executive","v"]]},
 ];
 
 const OWNERSHIP = [

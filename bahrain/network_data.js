@@ -199,7 +199,7 @@ const PEOPLE = [
     note:"Runs the government and the economic reform program; the operational center of the state."},
   {id:"nasser_bh", n:"Sheikh Nasser bin Hamad Al Khalifa", t:0, p:78, s:"energy", roles:[
     ["bapco_gas","Chairman of the Board (Bapco Energies)","board","v"],
-    ["bhgov","National Security Adviser (royal portfolios)","political","ns"],
+    ["bhgov","National Security Adviser (royal portfolios)","political","v"],
     ["bapco","Chairman","board","v"]]},
   {id:"khalid_bh", n:"Sheikh Khalid bin Hamad Al Khalifa", t:0, p:70, s:"consumer_disc", roles:[
     ["bhgov","First Deputy President, Supreme Council for Youth & Sports","government","ns"]]},

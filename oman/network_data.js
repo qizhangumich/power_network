@@ -1087,6 +1087,7 @@ const PEOPLE = [
   {id:"nabeel_al_rawahi", n:"Nabeel Al Rawahi", t:2, p:58, s:"education", roles:[
     ["squ","Dean of the College of Engineering","executive","v"]]},
   {id:"mohammed_ali_al", n:"Mohammed Ali Al Barwani", t:2, p:62, s:"finance", roles:[
+    ["mb","Chairman","board","v"],
     ["lst_amat","Chairman of the Board of Directors","board","v"]]},
   {id:"abdulrahman_awadh_barham", n:"Abdulrahman Awadh Barham", t:2, p:62, s:"finance", roles:[
     ["lst_amat","Deputy Chairman of the Board of Directors","board","v"]]},
@@ -1097,8 +1098,10 @@ const PEOPLE = [
   {id:"yousuf_salim_al", n:"Yousuf Salim Al Hinai", t:2, p:52, s:"finance", roles:[
     ["lst_amat","Board Member","board","v"]]},
   {id:"safana_m_a", n:"Safana M. A. Al Barwani", t:2, p:52, s:"finance", roles:[
+    ["mb","Managing Director, MUSSTIR","executive","v"],
     ["lst_amat","Board Member","board","v"]]},
   {id:"said_saleh_al", n:"Said Saleh Al Jabri", t:2, p:52, s:"finance", roles:[
+    ["mb","Chief Executive Officer - MB LLC","executive","v"],
     ["lst_amat","Board Member","board","v"]]},
   {id:"usama_issa_al", n:"Usama Issa Al Barwani", t:2, p:60, s:"finance", roles:[
     ["lst_amat","Chief Executive Officer","executive","v"]]},
@@ -1441,6 +1444,7 @@ const PEOPLE = [
   {id:"nasser_bin_sulaiman", n:"Nasser bin Sulaiman bin Hamad Al-Sibani", t:2, p:52, s:"comm", roles:[
     ["oman_radio_tv","Deputy President, Public Authority for Radio and Television - pre-2020 dissolution","board","v"]]},
   {id:"mohammed_bin_said", n:"Mohammed bin Said Al-Balushi", t:2, p:58, s:"comm", roles:[
+    ["moinfo_oman","Undersecretary for the Ministry of Information","executive","v"],
     ["oman_radio_tv","Undersecretary, Ministry of Information (successor body after PART abolished)","executive","v"]]},
   {id:"said_bin_taman", n:"Said bin Taman al Amri", t:2, p:58, s:"comm", roles:[
     ["oman_radio_tv","Acting Director-General, Oman TV","executive","ns"]]},
@@ -1684,6 +1688,16 @@ const PEOPLE = [
     ["mara_oman","Minister of Endowments and Religious Affairs","board","ns"]]},
   {id:"ahmed_bin_saleh", n:"Ahmed bin Saleh Al Rashidi", t:2, p:58, s:"gov", roles:[
     ["mara_oman","Undersecretary of the Ministry of Endowments and Religious Affairs","executive","ns"]]},
+  {id:"musaveer_ahmed", n:"Musaveer Ahmed", t:2, p:58, s:"conglomerate", roles:[
+    ["mb","Chief Finance Officer - MB LLC","executive","v"]]},
+  {id:"vinod", n:"Vinod", t:2, p:58, s:"conglomerate", roles:[
+    ["mb","Chief Treasury Officer - MB LLC","executive","v"]]},
+  {id:"sharifa_al_harthy", n:"Sharifa Al Harthy", t:2, p:62, s:"conglomerate", roles:[
+    ["mb","Board Advisor, MB LLC / Chairwoman, MB Foundation","board","v"]]},
+  {id:"ammar_al_ali", n:"Ammar Al Ali", t:2, p:52, s:"conglomerate", roles:[
+    ["mb","Board Director - MB LLC","board","v"]]},
+  {id:"iman_al_barwani", n:"Iman Al Barwani", t:2, p:60, s:"conglomerate", roles:[
+    ["mb","Chief Executive Officer, MB Foundation","executive","v"]]},
 ];
 
 const OWNERSHIP = [
