@@ -18,3 +18,4 @@ instruction/*.csv
 instruction/network/
 promo/build/
 promo/out/
+server/node_modules/

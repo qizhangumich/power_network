@@ -49,6 +49,9 @@ const ADMINS = new Set((process.env.POWER_API_ADMINS || "zhangqi362@gmail.com")
   .split(",").map(s => s.trim().toLowerCase()).filter(Boolean));
 const REPO = process.env.POWER_REPO || path.join(__dirname, "..");
 const MAX_BODY = 3 * 1024 * 1024;
+const MAX_AUDIO = 25 * 1024 * 1024;
+const AI_DAILY = +(process.env.POWER_API_AI_DAILY || 80);     // AI calls per user per day (cost guard)
+const AI = require("./ai");
 const VER_MIN = 30, VER_TRIES = 5;
 const CIRCLES = { "insead-emba": { name: "INSEAD GEMBA network", school: "insead",
                                    fixtures: "insead_emba_demo.json" } };
@@ -284,6 +287,12 @@ function readBody(req, cb) {
   req.on("data", d => { buf += d; if (buf.length > MAX_BODY && !dead) { dead = true; req.destroy(); } });
   req.on("end", () => { if (dead) return; try { cb(JSON.parse(buf || "{}")); } catch (e) { cb(null); } });
 }
+/* raw binary body (audio), with a hard size cap */
+function readRaw(req, max, cb) {
+  const parts = []; let n = 0, dead = false;
+  req.on("data", d => { n += d.length; if (n > max) { if (!dead) { dead = true; cb(null); req.destroy(); } return; } parts.push(d); });
+  req.on("end", () => { if (!dead) cb(Buffer.concat(parts)); });
+}
 const str = (v, n) => String(v == null ? "" : v).trim().slice(0, n || 200);
 const maskEmail = e => e.replace(/^(.)[^@]*(@.).*?(\.[a-z]+)$/i, "$1***$2***$3");
 
@@ -370,8 +379,53 @@ http.createServer((req, res) => {
     return send(res, 200, { email: a.email, admin: ADMINS.has(a.email), verified: !!a.user.verified,
       verification: verState(a.user), mail: mailStatus() !== "none", circles, layers: a.user.layers || {} });
   }
+  if (url === "/api/ai/status" && req.method === "GET")
+    return send(res, 200, Object.assign(AI.status(), { signedIn: !!a, verified: !!(a && a.user.verified) }));
   if (!a) return send(res, 401, { error: "not signed in" });
   const isAdmin = ADMINS.has(a.email);
+
+  /* ---- AI meeting notes + business cards (verified accounts; inputs are never stored or logged) ---- */
+  if (seg[1] === "ai" && req.method === "POST") {
+    if (!a.user.verified) return send(res, 403, { reason: "verify", error: "verify your email to use AI features" });
+    if (limited("ai:" + a.email, AI_DAILY, 864e5)) return send(res, 429, { error: "daily AI limit reached — try again tomorrow" });
+    const fail = e => send(res, e.code || 502, { error: e.message || "AI request failed" });
+    if (seg[2] === "transcribe") {
+      const mime = String(req.headers["content-type"] || "").split(";")[0].trim().toLowerCase();
+      if (!/^audio\//.test(mime)) return send(res, 415, { error: "send the recording as audio/*" });
+      return readRaw(req, MAX_AUDIO, buf => {
+        if (!buf) return send(res, 413, { error: "recording is too large (max 25 MB) — split it or upload a shorter file" });
+        if (buf.length < 800) return send(res, 400, { error: "the recording is empty" });
+        AI.transcribe(buf, mime).then(r => send(res, 200, r), fail);
+      });
+    }
+    return body(b => {
+      const list = (v, n) => (Array.isArray(v) ? v : []).slice(0, n || 20).map(x => str(x, 160)).filter(Boolean);
+      if (seg[2] === "notes") {
+        const transcript = String(b.transcript || "").trim().slice(0, 60000);
+        if (transcript.length < 10) return send(res, 400, { error: "nothing to organize yet" });
+        return AI.notes({ transcript, people: list(b.people), orgs: list(b.orgs), date: str(b.date, 20) }).then(r => send(res, 200, r), fail);
+      }
+      if (seg[2] === "email") {
+        const n = b.note || {};
+        const note = { date: str(n.date, 20), title: str(n.title, 200), summary: str(n.summary, 3000),
+                       key_points: list(n.key_points, 15),
+                       next_steps: (Array.isArray(n.next_steps) ? n.next_steps : []).slice(0, 15).map(s =>
+                         ({ text: str(s && s.text, 300), owner: str(s && s.owner, 80), due: str(s && s.due, 60) })) };
+        if (!note.summary && !note.key_points.length) return send(res, 400, { error: "the note has no content to follow up on" });
+        const to = b.to || {};
+        return AI.email({ note, to: { name: str(to.name, 120), title: str(to.title, 160), org: str(to.org, 160) }, from: str(b.from, 120) })
+          .then(r => send(res, 200, r), fail);
+      }
+      if (seg[2] === "card") {
+        const mt = str(b.media_type, 20);
+        if (!/^image\/(jpeg|png|webp)$/.test(mt)) return send(res, 415, { error: "send a JPEG, PNG or WebP photo" });
+        const image = String(b.image || "");
+        if (image.length < 2000 || !/^[A-Za-z0-9+/=]+$/.test(image)) return send(res, 400, { error: "the photo could not be read" });
+        return AI.card({ image, media_type: mt }).then(r => send(res, 200, r), fail);
+      }
+      return send(res, 404, { error: "not found" });
+    });
+  }
 
   if (url === "/api/growth" && req.method === "GET") {
     if (!isAdmin) return send(res, 403, { error: "admin only" });

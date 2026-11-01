@@ -1,0 +1,9 @@
+{
+  "name": "navgcc-api",
+  "private": true,
+  "description": "NavGCC account + pilot API (server/api.js)",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "zod": "^4.6.7"
+  }
+}
