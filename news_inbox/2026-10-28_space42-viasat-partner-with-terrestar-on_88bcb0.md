@@ -1,0 +1,5 @@
+# Space42, Viasat partner with Terrestar on satellite network
+source: Investing.com
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ0MxeGFfNTc4cnE4SzdGSV9ITU5yWThLaEd1cWJ3TzJkTGIzd1NOYTNuZGk2bTcybENvdjRBa2dwWU01dy1SdVYxbjR0UldsSk9YZHFwQURTdmhMVHN3OGxsNktBWHVtcm9LaVZMZVdod0Z4NTFXVkFPcTJvYWNKRlBTcEdfQzk5UVBtSnRJaGdheThFdlFDTmdFWTJfMmk4ejVzak5MUzJyLTR1LWtNV0tDLVVYZw?oc=5
+
+Space42, Viasat partner with Terrestar on satellite network    Investing.com

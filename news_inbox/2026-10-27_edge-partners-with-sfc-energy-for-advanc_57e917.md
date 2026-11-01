@@ -1,0 +1,5 @@
+# EDGE partners with SFC Energy for advanced energy solutions
+source: Zawya
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOWTJzYjV5ak01YXAtV3RoTlFncVhUNHZQMkpTaVoxeVYzbUdLOF9NQWxzcXdWS0pYVDZ1c21XQ054LVRfRjRUbjg4MXJpdWZQbVVQSHY2eHhxZl9YMFB2X0YyYU9mWnJtMGo0LS1uN0F4LVRKQ3ZkQXhXZHZGcTFhdmJZLWlDRHZydWY3N0x4clVNVFl4clVmZHViQXdQamRVb2JxNE1MR29La29kR3JFSTRJSWhnamF2X2wwZTFB?oc=5
+
+EDGE partners with SFC Energy for advanced energy solutions    Zawya

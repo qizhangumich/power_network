@@ -1,0 +1,5 @@
+# PODTECHTM Completes Prefabricated Modular Bio-Pharma Manufacturing Facility For Mubadala Bio's Bioventure Healthcare
+source: Menafn
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeU05NnE1aFBQa1NNZ3M5SmROOEF6cTZXSHdyVTc5cTFZZ0tOWWZpYkhWaHlJaXliaDYzTE1aeVl2YVFYV192MUVyc0hZSVppekNibGVmNUVFZDl2ajExWUpMcU9YZ2dKblVoLVVCdTRWU2RXeF9rbURsbktKSTVlb2ZVQ0xYc1Vsb0F3YWZSTVhVVXpVVlBxWUF1V3MxZDNPZjdnS3RHN2VmWE9LN2lZTENIakJqczJtSkZzVVB4UWFFT0UwWEtweHpkeXlvNlpaLWFqSUhpR2k3SmZzMUE?oc=5
+
+PODTECHTM Completes Prefabricated Modular Bio-Pharma Manufacturing Facility For Mubadala Bio's Bioventure Healthcare    Menafn
