@@ -241,6 +241,7 @@ const INSTITUTIONS = [
   {id:"arab_media", n:"Arab Media Group", s:"comm", t:2, p:58, short:"Arab Media Group"},
   {id:"itp_media", n:"ITP Media Group", s:"comm", t:3, p:54, short:"ITP Media Group"},
   {id:"canadian_univ_dubai", n:"Canadian University Dubai", s:"education", t:3, p:52, short:"Canadian Univ Dubai"},
+  {id:"al_sharqi_shipping", n:"Al Sharqi Shipping Co. LLC", s:"industry", t:3, p:54, short:"Al Sharqi Shipping"},
 ];
 
 const PEOPLE = [
@@ -2591,6 +2592,10 @@ const PEOPLE = [
     ["danube","Group Managing Director","executive","v"]]},
   {id:"madhusudhan_rao", n:"Madhusudhan Rao", t:2, p:60, s:"conglomerate", roles:[
     ["danube","CEO","executive","v"]]},
+  {id:"muhammad_rafiq", n:"Muhammad Rafiq", t:2, p:52, s:"industry", roles:[
+    ["al_sharqi_shipping","Founder","board","v"]]},
+  {id:"kashif_rafiq", n:"Kashif Rafiq", t:2, p:60, s:"industry", roles:[
+    ["al_sharqi_shipping","Director & CEO","executive","v"]]},
 ];
 
 const OWNERSHIP = [

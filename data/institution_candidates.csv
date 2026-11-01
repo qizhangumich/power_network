@@ -1,12 +1,8 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Singapore Airlines,5,dubai,pending,2026-10-30,2026-10-31,Dubai and Abu Dhabi add further cancellations as Singapore Airlines pushes its return to February 2027
-Bank of Japan,3,oman,pending,2026-10-30,2026-10-31,Bank of Japan keeps key short-term interest rate unchanged at 1.25%
-Fourth Qatar Real Estate,3,qatar,pending,2026-10-30,2026-11-01,"Fourth Qatar Real Estate Forum 2026 concludes with strong participation, sales exceeding QR1 billion"
-Mexico City,2,oman,pending,2026-10-23,2026-10-31,A view of a shop selling papel picado decorations and Day of the Dead-themed items at a market in Mexico City — AFP
-Al Sharqi Shipping,2,bahrain,pending,2026-10-16,2026-11-01,Al Sharqi Shipping inaugurates $19m integrated logistics hub at DIC
 Bandhan Bank,8,abudhabi,rejected,2026-10-12,2026-10-28,‘Unaware of Abu Dhabi investors’ stake sale plans’: Bandhan Bank clarifies after 7% share jump
 Riyadh Airport,7,saudi,rejected,2026-10-11,2026-10-24,Etihad Extends UAE-Saudi Flight Cancellations Until October 13 After Riyadh Airport Disruptions
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
+Singapore Airlines,5,dubai,rejected,2026-10-30,2026-10-31,Dubai and Abu Dhabi add further cancellations as Singapore Airlines pushes its return to February 2027
 King Fahd International Airport,5,saudi,added,2026-10-11,2026-10-23,"Two killed, eight injured in attack on Saudi Arabia’s King Fahd International Airport"
 Terrestar Solutions,4,abudhabi,rejected,2026-10-28,2026-10-28,"Terrestar Solutions joins with Equatys, expanding shared satellite infrastructure for global direct-to-device and advanced MSS connectivity "
 Al Ain International Airport,4,abudhabi,rejected,2026-10-11,2026-10-14,UAE President renames Al Ain International Airport in honour of Sheikh Tahnoun bin Mohammed
@@ -22,8 +18,10 @@ IMF and World Bank,3,kuwait,rejected,2026-10-11,2026-10-21,Hawkish sentiment ret
 Fifa Council,3,oman,rejected,2026-10-15,2026-10-17,Gianni Infantino apologises to Fifa Council over World Cup sell-off plan
 Sustainable Energy,3,oman,rejected,2026-10-18,2026-10-19,Sultan Qaboos University to open Sustainable Energy Research Centre lab tomorrow
 Commerce Ministry,3,oman,rejected,2026-10-14,2026-10-25,Commerce Ministry revokes licenses of multiple Sanad Services Centers for regulatory violations
+Bank of Japan,3,oman,rejected,2026-10-30,2026-10-31,Bank of Japan keeps key short-term interest rate unchanged at 1.25%
 Asha Enterprises,3,oman,rejected,2026-10-20,2026-10-28,Asha Enterprises and Strategic Partners Unite to Champion Women’s Health Through Free Mammogram Screenings
 Woodside Energy,3,qatar,rejected,2026-10-29,2026-10-31,QatarEnergy to purchase 3MTPA of US LNG from Woodside Energy for 20 years
+Fourth Qatar Real Estate,3,qatar,rejected,2026-10-30,2026-11-01,"Fourth Qatar Real Estate Forum 2026 concludes with strong participation, sales exceeding QR1 billion"
 Communications and Information Technology,3,qatar,rejected,2026-10-20,2026-10-31,"Minister of Communications and Information Technology Meets US Deputy Assistant Secretary of Commerce for Middle East, Africa"
 WPC Energy,3,saudi,rejected,2026-10-12,2026-10-14,Energy Minister attends WPC Energy Congress in Riyadh
 IMF World Bank,3,kuwait,rejected,2026-10-11,2026-10-26,IMF/World Bank meetings leave developing countries with more questions than answers
@@ -61,6 +59,7 @@ Transitional Sovereignty Council,2,oman,rejected,2026-10-25,2026-10-26,Message f
 Jindal Steel,2,oman,added,2026-10-11,2026-10-13,Jindal Steel Oman and Oman Cement Company sign strategic partnership to advance sustainable cement production
 Palestinian Authority,2,oman,rejected,2026-10-11,2026-10-24,Palestinian Authority condemns 'collective punishment'
 Social Development Ministry,2,oman,added,2026-10-11,2026-10-18,Social Development Ministry celebrates Omani Women's Day
+Mexico City,2,oman,rejected,2026-10-23,2026-10-31,A view of a shop selling papel picado decorations and Day of the Dead-themed items at a market in Mexico City — AFP
 US-based Activate Capital,2,qatar,rejected,2026-10-15,2026-10-15,US-based Activate Capital joins Qatar Investment Authority's Fund of Funds
 Bank of China,2,qatar,rejected,2026-10-14,2026-10-15,QCB Governor participates in joint meeting of GCC Central Bank Governors with the People’s Bank of China
 Attend One Planet Sovereign Wealth Fund,2,qatar,rejected,2026-10-21,2026-10-23,"HH the Amir, French President Attend One Planet Sovereign Wealth Fund CEOs Summit"
@@ -82,6 +81,7 @@ Egyptian Exchange,2,,rejected,2026-10-12,2026-10-13,Banque du Caire to sell stak
 UAE-backed Pearl Petroleum,2,,rejected,2026-10-28,2026-10-29,UAE-backed Pearl Petroleum mandates USD 400-500mln bond
 Met Department,2,kuwait,rejected,2026-10-29,2026-10-30,"Met Department warns of thundery rain, dust and rough seas"
 UN Human Rights Council,2,kuwait,rejected,2026-10-13,2026-10-14,Kuwait re-elected to UN Human Rights Council with 173 votes
+Al Sharqi Shipping,2,dubai,added,2026-10-16,2026-11-01,added as al_sharqi_shipping (Dubai-based logistics SME
 Abha Airport,2,saudi,rejected,2026-10-08,2026-10-08,Saudi Arabia warns Houthi attacks will not go unpunished
 Muscat Airport,2,oman,rejected,2026-10-14,2026-10-28,duplicate of existing oman_airports (Oman Airports Management Co. / Muscat International Airport); AKA added
 Qatar Diamond Exchange,2,qatar,added,2026-10-27,2026-10-28,added as subsidiary of Qatar Free Zones Authority (qfz)
