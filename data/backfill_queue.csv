@@ -89,6 +89,7 @@ qatar,qna,Qatar News Agency,comm,58,1,pending
 qatar,qatar_steel,Qatar Steel Company (QASCO),materials,58,1,pending
 qatar,qatar_social_work,Qatar Social Work Foundation,gov,58,0,pending
 qatar,me_council,Middle East Council on Global Affairs,education,58,0,pending
+saudi,lst_2240,Zamil Industrial Investment Co.,materials,58,0,pending
 saudi,saudi_downtown,Saudi Downtown Company,realestate,58,0,pending
 saudi,iot_squared,iot squared,tech,58,0,pending
 saudi,neo_space,Neo Space Group,tech,58,0,pending
@@ -177,6 +178,7 @@ qatar,laffan_refinery,Laffan Refinery Company,energy,56,0,pending
 qatar,rloc,Ras Laffan Olefins Company,materials,56,0,pending
 qatar,q_chem,Qatar Chemical Company,materials,56,0,pending
 saudi,lst_1320,Saudi Steel Pipe Co.,materials,56,0,pending
+saudi,lst_2330,Advanced Petrochemical Co.,materials,56,0,pending
 saudi,tahakom,Tahakom Investments Company,tech,56,0,pending
 saudi,saudi_coffee,Saudi Coffee Company,consumer_stap,56,0,pending
 saudi,hpdc,Halal Products Development Company,consumer_stap,56,0,pending
@@ -651,9 +653,7 @@ saudi,lst_2180,Filling and Packing Materials Manufacturing Co. (FIPCO),materials
 saudi,lst_2200,Arabian Pipes Co.,materials,50,0,pending
 saudi,lst_2210,Nama Chemicals Co.,materials,50,0,pending
 saudi,lst_2220,National Metal Manufacturing and Casting Co. (Maadaniyah),materials,50,0,pending
-saudi,lst_2240,Zamil Industrial Investment Co.,materials,50,0,pending
 saudi,lst_2300,Saudi Paper Manufacturing Co.,materials,50,0,pending
-saudi,lst_2330,Advanced Petrochemical Co.,materials,50,0,pending
 saudi,lst_2360,Saudi Vitrified Clay Pipes Co.,materials,50,0,pending
 saudi,lst_3002,Najran Cement Co.,materials,50,0,pending
 saudi,lst_3003,City Cement Co.,materials,50,0,pending

@@ -83,7 +83,7 @@ const INSTITUTIONS = [
   {id:"lst_ocai", n:"Oman Cables Industry SAOG", s:"industry", t:2, p:58, short:"Oman Cables"},
   {id:"lst_oeio", n:"Oman & Emirates Investment Holding Company SAOG", s:"finance", t:2, p:50, short:"OEIO"},
   {id:"lst_ones", n:"Oman National Engineering & Investment Company SAOG", s:"industry", t:2, p:50, short:"ONES"},
-  {id:"lst_ooms", n:"Oman Oil Marketing Company SAOG", s:"energy", t:2, p:50, short:"OOMS"},
+  {id:"lst_ooms", n:"Oman Oil Marketing Company SAOG", s:"energy", t:2, p:58, short:"OOMCO"},
   {id:"lst_ouic", n:"Oman United Insurance Company SAOG", s:"finance", t:2, p:50, short:"OUIC"},
   {id:"lst_aaic", n:"Al Anwar Investments SAOG", s:"finance", t:2, p:50, short:"AAIC"},
   {id:"lst_mhas", n:"Al Maha Petroleum Products Marketing Company SAOG", s:"energy", t:2, p:50, short:"MHAS"},
