@@ -11573,3 +11573,23 @@
 2026-11-02,qatar,issa_abdulsalam_abu,person,added,official,siis.com.qa,https://www.siis.com.qa
 2026-11-02,qatar,hussam_abdulsalam_abu,person,added,official,siis.com.qa,https://www.siis.com.qa
 2026-11-02,saudi,lst_2030,institution,corrected,official,arabnews.com (Aramco-Shell SASREF stake transfer 2019),https://www.aramco.com/en/news-media
+2026-11-02,abudhabi,irh,institution,added,official,irh.ae,https://www.irh.ae/business-verticals/
+2026-11-02,abudhabi,judan_financial,institution,added,official,ihcuae.com,https://ihcuae.com/media-centre/press-releases/ihc-launches-judan-financial-as-a-new-ai-enabled-north-star-platform-for-global-financial-services-with-aed-870-billion-in-aum
+2026-11-02,abudhabi,riq,institution,added,news,wam.ae,https://www.wam.ae/en/article/bk60bcq-ihc-reveals-%E2%80%98riq%E2%80%99-official-name-new-global
+2026-11-02,abudhabi,first_women_bank,institution,added,official,ihcuae.com,https://ihcuae.com/media-centre/press-releases/ihc-acquires-majority-stake-in-first-women-bank-limited-strengthening-uaepakistan-economic-partnership
+2026-11-02,abudhabi,sammaan_capital,institution,added,official,ihcuae.com,https://ihcuae.com/media-centre/press-releases/ihc-advances-usd-1-billion-investment-to-acquire-majority-stake-in-indias-sammaan-capital
+2026-11-02,abudhabi,peko,institution,added,news,zawya.com,https://www.zawya.com/en/press-release/companies-news/ihc-strengthens-digital-services-portfolio-with-majority-acquisition-of-peko-holdings-u3meusvg
+2026-11-02,abudhabi,reem_finance,institution,added,official,ihcuae.com,https://ihcuae.com/media-centre/press-releases/ihc-repositions-capital-for-global-scale-generating-aed-1114-billion-revenue-and-aed-347-billion-net-profit-in-fy-2025
+2026-11-02,qatar,qsalt,institution,added,news,qna.org.qa,https://www.qna.org.qa/en/News-Area/News/2024-09/23/0065-qatarenergy-announces-establishment-of%20qatar-salt-products-company
+2026-11-02,dubai,aither,institution,added,news,wam.ae,https://www.wam.ae/en/article/bmjqqe6-dubai-holding-and-palantir-launch-aither-lead
+2026-11-02,dubai,dh_investments,institution,added,official,dubaiholding.com,https://www.dubaiholding.com/en/who-we-are/our-companies/dubai-holding-investments
+2026-11-02,dubai,dubaiinv,institution,corrected,internal,dedupe (removed erroneous ownership edge to dubaiholding -- false collision with distinct Dubai Holding Investments entity),
+2026-11-02,saudi,abdulmajeed_alhaqbani,person,role_added,official,alhilal.com,https://alhilal.com/en/the-club/board-of-directors
+2026-11-02,saudi,prince_nawaf_bin,person,added,official,alhilal.com,https://alhilal.com/en/the-club/board-of-directors
+2026-11-02,saudi,ahmed_bin_saleh,person,added,official,africasoccer.com,https://africasoccer.com/ahmed-al-sultan-takes-charge-at-al-nassr-with-financial-and-squad-decisions-ahead/
+2026-11-02,saudi,reda_redha_batarji,person,added,official,ysscores.com,https://www.ysscores.com/en/news/14063265/approval-of-the-new-board-formation-for-al-ittihad-club-company
+2026-11-02,saudi,abdullah_bin_eidros,person,added,official,ysscores.com,https://www.ysscores.com/en/news/14063251/al-ahly-fc-announces-new-board-formation-led-by-al-subban
+2026-11-02,saudi,walter_driver,person,added,official,scopely.com,https://scopely.com/blog/sharing-some-exciting-news
+2026-11-02,saudi,javier_ferreira,person,added,official,scopely.com,https://scopely.com/blog/sharing-some-exciting-news
+2026-11-02,abudhabi,isabel_afonso,person,added,official,adq.ae,https://adq.ae/newsroom/adq-launches-holding-company-arcera-to-build-a-global-life-sciences-powerhouse-anchored-in-abu-dhabi
+2026-11-02,abudhabi,sunil_bhilotra,person,added,news,zawya.com,https://www.zawya.com/en/press-release/companies-news/acino-announces-integration-of-pharmax-pharmaceuticals-strengthening-presence-and-capabilities-in-the-middle-east-oarl449l

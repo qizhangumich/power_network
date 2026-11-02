@@ -249,6 +249,7 @@ const INSTITUTIONS = [
   {id:"al_rayyan_tv", n:"Al Rayyan TV", s:"comm", t:3, p:54, short:"Al Rayyan TV"},
   {id:"me_council", n:"Middle East Council on Global Affairs", s:"education", t:2, p:58, short:"ME Council"},
   {id:"basf_coatings", n:"BASF Coatings (Carlyle/QIA venture)", s:"materials", t:2, p:58, short:"BASF Coatings"},
+  {id:"qsalt", n:"Qatar Salt Products Company", s:"materials", t:3, p:53, short:"QSalt"},
 ];
 
 const PEOPLE = [
@@ -2413,6 +2414,7 @@ const OWNERSHIP = [
   ["qatar_crafts_council","qm","subsidiary","v"],
   ["elegancia","lst_igrd","subsidiary (100%)","ns"],
   ["basf_coatings","qia","co-investor in (via Carlyle-led consortium)","v"],
+  ["qsalt","lst_mphc","new JV (MoU signed Sep 2024) to build a ~$275m industrial salt plant in Mesaieed; MPHC 40% / Qatar Industrial Manufacturing Co. 30% / Turkiye's Atlas Yatirim Planlama 30%; announced by QatarEnergy under its TAWTEEN localisation programme","v"],
 ];
 
 const FAMILY = [

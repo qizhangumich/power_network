@@ -242,6 +242,8 @@ const INSTITUTIONS = [
   {id:"itp_media", n:"ITP Media Group", s:"comm", t:3, p:54, short:"ITP Media Group"},
   {id:"canadian_univ_dubai", n:"Canadian University Dubai", s:"education", t:3, p:52, short:"Canadian Univ Dubai"},
   {id:"al_sharqi_shipping", n:"Al Sharqi Shipping Co. LLC", s:"industry", t:3, p:54, short:"Al Sharqi Shipping"},
+  {id:"aither", n:"Aither", s:"tech", t:2, p:60, short:"Aither"},
+  {id:"dh_investments", n:"Dubai Holding Investments", s:"finance", t:2, p:62, short:"DH Investments"},
 ];
 
 const PEOPLE = [
@@ -2759,7 +2761,8 @@ const OWNERSHIP = [
   ["habtoor_hospitality","alhabtoor","subsidiary","v"],
   ["emirates_intl_sch","alhabtoor","subsidiary","v"],
   ["arab_media","dubaiholding","subsidiary","v"],
-  ["dubaiinv","dubaiholding","subsidiary of (international/strategic investment arm)","ns"],
+  ["aither","dubaiholding","AI joint venture with Palantir Technologies launched 4 Nov 2025 (Palantir's first UAE JV) to lead AI-driven transformation across Dubai Holding's businesses, under the Dubai Economic Agenda D33","v"],
+  ["dh_investments","dubaiholding","core operating company (global/cross-asset-class investment arm)","v"],
 ];
 
 const FAMILY = [

@@ -324,6 +324,13 @@ const INSTITUTIONS = [
   {id:"birgi_mefar", n:"Birgi Mefar Group", s:"health", t:3, p:55, short:"Birgi Mefar"},
   {id:"q_logistics_hldg", n:"Q Logistics Holding", s:"industry", t:3, p:54, short:"Q Logistics Hldg"},
   {id:"venture_global_lng", n:"Venture Global LNG, Inc.", s:"energy", t:2, p:58, short:"Venture Global LNG"},
+  {id:"irh", n:"International Resources Holding PJSC", s:"materials", t:2, p:66, short:"IRH"},
+  {id:"judan_financial", n:"Judan Financial Holding", s:"finance", t:2, p:72, short:"Judan Financial"},
+  {id:"riq", n:"RIQ (Reinsurance Intelligence Quotient)", s:"finance", t:2, p:62, short:"RIQ"},
+  {id:"first_women_bank", n:"First Women Bank Limited", s:"finance", t:3, p:58, short:"First Women Bank"},
+  {id:"sammaan_capital", n:"Sammaan Capital Limited", s:"finance", t:2, p:62, short:"Sammaan Capital"},
+  {id:"peko", n:"Peko Holdings Limited", s:"tech", t:3, p:54, short:"Peko Holdings"},
+  {id:"reem_finance", n:"Reem Finance PJSC", s:"finance", t:3, p:55, short:"Reem Finance"},
 ];
 
 const PEOPLE = [
@@ -4396,6 +4403,13 @@ const PEOPLE = [
   {id:"mark_alec_scott", n:"Mark Alec Scott", t:2, p:58, s:"finance", roles:[
     ["aldar_capital","Senior Executive","executive","v"],
     ]},
+  {id:"isabel_afonso", n:"Isabel Afonso", t:2, p:60, s:"health", roles:[
+    ["acino","Chief Executive Officer, Arcera Life Sciences (ADQ's holding company for Acino)","executive","v"],
+    ["birgi_mefar","Chief Executive Officer, Arcera Life Sciences (ADQ's holding company for Birgi Mefar)","executive","v"],
+    ]},
+  {id:"sunil_bhilotra", n:"Sunil Bhilotra", t:2, p:60, s:"health", roles:[
+    ["acino","Managing Director & Interim CEO","executive","v"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -4676,6 +4690,13 @@ const OWNERSHIP = [
   ["birgi_mefar","adq","subsidiary of","v"],
   ["q_logistics_hldg","adq","wholly-owned subsidiary of (holds ADQ's Aramex stake)","ns"],
   ["venture_global_lng","mubadala","portfolio company of (minority investor)","ns"],
+  ["irh","multiply","mining-vertical subsidiary of 2PointZero Group (ultimately IHC-controlled); made majority acquisitions of Mopani Copper Mines (Zambia), Alphamin Resources (DRC tin) and Chemaf","v"],
+  ["judan_financial","ihc","new AI-enabled financial-services holding platform jointly owned by IHC, Alpha Dhabi Holding, 2PointZero Group and Sirius International Holding; launched Feb 2026 to consolidate 20+ IHC-group financial companies with ~AED870bn ($237bn) AUM","v"],
+  ["riq","ihc","AI-native global reinsurance platform launched June 2025 as a JV of IHC with BlackRock and Lunate; based in ADGM with $1bn+ initial equity targeting $10bn+ liabilities","v"],
+  ["first_women_bank","ihc","majority stake acquired Oct 2025 in Pakistan's first bank privatization under a government-to-government (G2G) framework; IHC to inject capital and rebrand/modernize the bank","v"],
+  ["sammaan_capital","ihc","~41-43% controlling stake acquired for ~US$1bn (Oct 2025) via preferential allotment/warrants to IHC affiliate Avenir Investment, triggering a mandatory open offer; Mumbai-listed non-bank financial company (formerly Indiabulls Housing Finance)","v"],
+  ["peko","ihc","70% stake acquired Dec 2025; UAE fintech/digital-services platform (payments, payroll, invoicing, corporate cards) founded 2022","v"],
+  ["reem_finance","ihc","69.33% stake acquired in H1 2025, expanding IHC's local UAE financial-services footprint","v"],
 ];
 
 const FAMILY = [
@@ -4767,4 +4788,6 @@ const AKA = {
   al_ghaith:["Al Ghaith Group"],
   birgi_mefar:["BMG"],
   venture_global_lng:["VG LNG"],
+  riq:["Reinsurance Intelligence Quotient"],
+  first_women_bank:["FWBL"],
 };

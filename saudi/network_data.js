@@ -1794,6 +1794,7 @@ const PEOPLE = [
   {id:"lama_al_sulaiman", n:"Lama Al Sulaiman", t:2, p:62, s:"conglomerate", roles:[
     ["kingdomholding","Vice Chairman","board","v"]]},
   {id:"abdulmajeed_alhaqbani", n:"Abdulmajeed AlHaqbani", t:2, p:52, s:"conglomerate", roles:[
+    ["al_hilal_fc","Vice Chairman of the Board of Directors","board","v"],
     ["kingdomholding","Board Member","board","v"]]},
   {id:"adel_alabdulsalam", n:"Adel AlAbdulsalam", t:2, p:58, s:"conglomerate", roles:[
     ["kingdomholding","Board Member","board","v"],
@@ -3714,6 +3715,18 @@ const PEOPLE = [
     ["saudi_broadcasting","Chief Executive Officer of the Saudi Broadcasting Authority","executive","ns"]]},
   {id:"ali_al_qahtani", n:"Ali Al-Qahtani", t:2, p:58, s:"materials", roles:[
     ["maaden_aluminium","Executive Vice President, Aluminium Business Unit (Ma'aden Aluminium Company)","executive","ns"]]},
+  {id:"prince_nawaf_bin", n:"Prince Nawaf bin Saad Al Saud", t:2, p:62, s:"consumer_disc", roles:[
+    ["al_hilal_fc","Chairman of the Board of Directors","board","v"]]},
+  {id:"ahmed_bin_saleh", n:"Ahmed bin Saleh Al-Sultan", t:2, p:62, s:"consumer_disc", roles:[
+    ["al_nassr_fc","Chairman of the Board / Club President","executive","ns"]]},
+  {id:"reda_redha_batarji", n:"Reda (Redha) Batarji", t:2, p:62, s:"consumer_disc", roles:[
+    ["al_ittihad_club","Chairman of the Board of Directors","board","ns"]]},
+  {id:"abdullah_bin_eidros", n:"Abdullah bin Eidros Al-Sabban", t:2, p:62, s:"consumer_disc", roles:[
+    ["al_ahli_fc","Chairman of the Board of Directors","board","ns"]]},
+  {id:"walter_driver", n:"Walter Driver", t:2, p:60, s:"tech", roles:[
+    ["scopely","Co-Chief Executive Officer","executive","v"]]},
+  {id:"javier_ferreira", n:"Javier Ferreira", t:2, p:60, s:"tech", roles:[
+    ["scopely","Co-Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
