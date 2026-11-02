@@ -242,6 +242,7 @@ const INSTITUTIONS = [
   {id:"riyada", n:"Small and Medium Enterprises Development Authority (Riyada)", s:"finance", t:2, p:58, short:"Riyada"},
   {id:"raysut_cement", n:"Raysut Cement Company", s:"materials", t:3, p:56, short:"Raysut Cement"},
   {id:"mb", n:"MB Holding Company LLC", s:"conglomerate", t:3, p:58, short:"MB Holding"},
+  {id:"mawarid_green", n:"Mawarid Green Technologies", s:"industry", t:3, p:55, short:"Mawarid Green"},
 ];
 
 const PEOPLE = [
@@ -269,7 +270,7 @@ const PEOPLE = [
     ["moci_om","Minister of Trade, Industry & Investment Promotion","political","v"]],
     note:"Appointed under Royal Decree 17/2026 (13 Jan 2026), succeeding Qais bin Mohammed Al Yousef as minister."},
   {id:"qais_opaz", n:"Qais bin Mohammed Al Yousef", t:1, p:64, s:"gov", roles:[
-    ["duqm","Chairman - OPAZ Board of Directors","board","ns"],
+    ["duqm","Chairman - OPAZ Board of Directors","board","v"],
     ["opaz","Chairman","board","v"]],
     note:"Lost the Trade/Industry ministry portfolio in the January 2026 reshuffle but retained the OPAZ board chairmanship."},
   {id:"murshidi", n:"Abdulsalam Al Murshidi", t:1, p:82, s:"sovereign", roles:[
@@ -971,7 +972,7 @@ const PEOPLE = [
     ["soharalum","General Manager - Human Resources and Corporate Affairs","executive","ns"]]},
   {id:"ahmed_bin_hassan", n:"Ahmed bin Hassan Alawi Al Dheeb", t:2, p:62, s:"industry", roles:[
     ["opaz","Deputy Chairman of the Board of Directors","board","v"],
-    ["duqm","Deputy Chairman - OPAZ Board of Directors","board","ns"]]},
+    ["duqm","Deputy Chairman - OPAZ Board of Directors","board","v"]]},
   {id:"ahmed_bin_ali", n:"Ahmed bin Ali Akaak", t:2, p:60, s:"industry", roles:[
     ["duqm","Chief Executive Officer - Special Economic Zone at Duqm (SEZAD)","executive","ns"]]},
   {id:"khalifa_al_harthy", n:"Khalifa Al Harthy", t:2, p:58, s:"gov", roles:[
@@ -1863,6 +1864,7 @@ const OWNERSHIP = [
   ["mjla","com_om","ministry of","v"],
   ["mara_oman","com_om","ministry of","v"],
   ["riyada","com_om","public authority","v"],
+  ["mawarid_green","oq","subsidiary of (via O-Green platform, OQ Alternative Energy JV)","ns"],
 ];
 
 const FAMILY = [
@@ -1937,4 +1939,5 @@ const AKA = {
   mara_oman:["MARA","Ministry of Awqaf and Religious Affairs","Ministry of Awqaf and Islamic Affairs"],
   riyada:["SME Development Authority"],
   raysut_cement:["Raysut Cement Company SAOG"],
+  mawarid_green:["O-Green","Mawarid Turbine"],
 };

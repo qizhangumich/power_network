@@ -76,7 +76,7 @@ const INSTITUTIONS = [
   {id:"olayan",    n:"Olayan Group",                 s:"conglomerate", t:3, p:70, short:"Olayan"},
   {id:"alfaisaliah", n:"Al Faisaliah Group",         s:"conglomerate", t:3, p:60, short:"Al Faisaliah"},
   {id:"ajlan",     n:"Ajlan & Bros",                 s:"conglomerate", t:3, p:62, short:"Ajlan & Bros"},
-  {id:"lst_2030", n:"Saudi Arabia Refineries Co.", s:"energy", t:2, p:50, short:"2030"},
+  {id:"lst_2030", n:"Saudi Arabia Refineries Co.", s:"energy", t:2, p:66, short:"2030"},
   {id:"lst_2380", n:"Rabigh Refining and Petrochemical Co. (Petro Rabigh)", s:"energy", t:2, p:68, short:"Petro Rabigh"},
   {id:"lst_4030", n:"The National Shipping Company of Saudi Arabia (Bahri)", s:"energy", t:2, p:64, short:"4030"},
   {id:"lst_2381", n:"Arabian Drilling Co.", s:"energy", t:2, p:60, short:"Arabian Drilling"},
@@ -561,6 +561,12 @@ const INSTITUTIONS = [
   {id:"prince_mbf_univ", n:"Prince Mohammad Bin Fahd University", s:"education", t:3, p:54, short:"Prince MBF Univ"},
   {id:"saudi_broadcasting", n:"Saudi Broadcasting Authority", s:"comm", t:2, p:60, short:"Saudi Broadcasting"},
   {id:"gulf_research_ctr", n:"Gulf Research Center", s:"education", t:2, p:58, short:"Gulf Research Ctr"},
+  {id:"al_hilal_fc", n:"Al Hilal Saudi Football Club", s:"consumer_disc", t:2, p:58, short:"Al-Hilal FC"},
+  {id:"al_nassr_fc", n:"Al Nassr Saudi Club", s:"consumer_disc", t:2, p:58, short:"Al-Nassr FC"},
+  {id:"al_ittihad_club", n:"Al Ittihad Saudi Club", s:"consumer_disc", t:2, p:56, short:"Al-Ittihad Club"},
+  {id:"al_ahli_fc", n:"Al Ahli Saudi Football Club", s:"consumer_disc", t:2, p:56, short:"Al-Ahli FC"},
+  {id:"esl_faceit", n:"ESL FACEIT Group", s:"tech", t:2, p:58, short:"ESL FACEIT"},
+  {id:"scopely", n:"Scopely, Inc.", s:"tech", t:2, p:60, short:"Scopely"},
 ];
 
 const PEOPLE = [
@@ -1378,6 +1384,7 @@ const PEOPLE = [
     ["panda_retail","Board Member","board","v"],
     ["lst_2050","Board Member","board","v"]]},
   {id:"waled_abdullah_al", n:"Waled Abdullah Al Ghreri", t:2, p:52, s:"consumer_stap", roles:[
+    ["tarshid","Board Member and Chief Executive Officer, Tarshid (National Energy Services Company)","executive","v"],
     ["panda_retail","Board Member","board","v"],
     ["lst_2050","Board Member","board","v"]]},
   {id:"mutaz_qusai_alazzawi", n:"Mutaz Qusai AlAzzawi", t:2, p:52, s:"consumer_stap", roles:[
@@ -2232,6 +2239,7 @@ const PEOPLE = [
   {id:"sinan_esmat_al", n:"Sinan Esmat Al-Saady", t:2, p:52, s:"gov", roles:[
     ["gea","Board Member","board","v"]]},
   {id:"salman_bin_yousef", n:"Salman bin Yousef Al-Dosari", t:2, p:58, s:"comm", roles:[
+    ["saudi_broadcasting","Minister of Media and Chairman of the Board of Directors of the Saudi Broadcasting Authority","board","v"],
     ["momedia_sa","Minister of Media","executive","v"]]},
   {id:"eman_bint_hibbas", n:"Eman bint Hibbas Al-Mutairi", t:2, p:58, s:"gov", roles:[
     ["moc_sa","Deputy Minister of Commerce","executive","v"]]},
@@ -3702,6 +3710,10 @@ const PEOPLE = [
     ["satorp","Board Member","board","v"]]},
   {id:"ahmed_tarzi", n:"Ahmed Tarzi", t:2, p:52, s:"energy", roles:[
     ["satorp","Board Member","board","v"]]},
+  {id:"ali_al_zaid", n:"Ali Al-Zaid", t:2, p:60, s:"comm", roles:[
+    ["saudi_broadcasting","Chief Executive Officer of the Saudi Broadcasting Authority","executive","ns"]]},
+  {id:"ali_al_qahtani", n:"Ali Al-Qahtani", t:2, p:58, s:"materials", roles:[
+    ["maaden_aluminium","Executive Vice President, Aluminium Business Unit (Ma'aden Aluminium Company)","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3736,6 +3748,7 @@ const OWNERSHIP = [
   ["almarai","pif","strategic stake","ns"],
   ["acwa","pif","44% shareholder","ns"],
   ["lst_2030","tadawul","listed on Tadawul","ns"],
+  ["lst_2030","aramco","100%-owned subsidiary (Aramco acquired Shell's 50% stake in 2019)","v"],
   ["lst_2380","tadawul","listed on Tadawul","ns"],
   ["lst_4030","tadawul","listed on Tadawul","ns"],
   ["lst_2381","tadawul","listed on Tadawul","ns"],
@@ -4106,6 +4119,12 @@ const OWNERSHIP = [
   ["al_bayroni","sabic_agri_nutr","JV","v"],
   ["ibn_al_baytar","sabic_agri_nutr","JV","v"],
   ["saudi_broadcasting","momedia_sa","government body","v"],
+  ["al_hilal_fc","pif","75%-owned subsidiary of","ns"],
+  ["al_nassr_fc","pif","75%-owned subsidiary of","ns"],
+  ["al_ittihad_club","pif","75%-owned subsidiary of","ns"],
+  ["al_ahli_fc","pif","75%-owned subsidiary of","ns"],
+  ["esl_faceit","savvy_games","subsidiary of","ns"],
+  ["scopely","savvy_games","wholly-owned subsidiary of","ns"],
 ];
 
 const FAMILY = [
@@ -4252,4 +4271,9 @@ const AKA = {
   prince_mbf_univ:["PMU"],
   saudi_broadcasting:["SBA","Saudi Broadcasting Corporation","BSKSA"],
   gulf_research_ctr:["GRC"],
+  al_hilal_fc:["Al Hilal SFC","Al-Hilal"],
+  al_nassr_fc:["Al-Nassr"],
+  al_ittihad_club:["Al-Ittihad"],
+  al_ahli_fc:["Al-Ahli Club"],
+  esl_faceit:["EFG"],
 };

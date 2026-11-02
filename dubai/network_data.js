@@ -2596,6 +2596,24 @@ const PEOPLE = [
     ["al_sharqi_shipping","Founder","board","v"]]},
   {id:"kashif_rafiq", n:"Kashif Rafiq", t:2, p:60, s:"industry", roles:[
     ["al_sharqi_shipping","Director & CEO","executive","v"]]},
+  {id:"juan_pablo_freile", n:"Juan-Pablo Freile", t:2, p:46, s:"energy", roles:[
+    ["dubai_petroleum","General Manager (Dubai Petroleum & Dubai Supply Authority/DUSUP)","executive","v"]]},
+  {id:"mohamed_thani_murshed", n:"Mohamed Thani Murshed Al Rumaithi", t:2, p:62, s:"industry", roles:[
+    ["arabtec","Chairman (FY2019 directors' report)","board","v","former:until 2020"]]},
+  {id:"mohamed_hamad_al", n:"Mohamed Hamad Al Mehairi", t:2, p:62, s:"industry", roles:[
+    ["arabtec","Vice Chairman & Chairman of the Executive Committee","board","v","former:until Oct 2022"]]},
+  {id:"ghannam_butti_al", n:"Ghannam Butti Al Mazrouei", t:2, p:62, s:"industry", roles:[
+    ["arabtec","Board Member & Chairman of the Audit Committee","board","v","former:until Oct 2022"]]},
+  {id:"khaleefa_ali_mohamed", n:"Khaleefa Ali Mohamed Abdulla Al Qamzi", t:2, p:62, s:"industry", roles:[
+    ["arabtec","Board Member & Chairman of the Nomination and Remuneration Committee","board","v","former:until Oct 2022"]]},
+  {id:"saeed_mohamed_al", n:"Saeed Mohamed Al Mehairbi", t:2, p:52, s:"industry", roles:[
+    ["arabtec","Board Member","board","v","former:until Oct 2022"]]},
+  {id:"tareq_ahmed_al", n:"Tareq Ahmed Al Masaood Al Mehairbi", t:2, p:52, s:"industry", roles:[
+    ["arabtec","Board Member","board","v","former:until Oct 2022"]]},
+  {id:"khalifa_abdulla_al", n:"Khalifa Abdulla Al Romaithi", t:2, p:52, s:"industry", roles:[
+    ["arabtec","Board Member (resigned per FY2019 filing)","board","v","former:until 2019"]]},
+  {id:"najeh_awad", n:"Najeh Awad", t:2, p:58, s:"industry", roles:[
+    ["arabtec","Acting Group Chief Financial Officer","executive","ns","former:until Oct 2022"]]},
 ];
 
 const OWNERSHIP = [
@@ -2741,6 +2759,7 @@ const OWNERSHIP = [
   ["habtoor_hospitality","alhabtoor","subsidiary","v"],
   ["emirates_intl_sch","alhabtoor","subsidiary","v"],
   ["arab_media","dubaiholding","subsidiary","v"],
+  ["dubaiinv","dubaiholding","subsidiary of (international/strategic investment arm)","ns"],
 ];
 
 const FAMILY = [

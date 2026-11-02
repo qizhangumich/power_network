@@ -320,6 +320,10 @@ const INSTITUTIONS = [
   {id:"ghantoot", n:"Ghantoot Group", s:"industry", t:3, p:54, short:"Ghantoot Group"},
   {id:"al_ghaith", n:"Al Ghaith Holding", s:"industry", t:3, p:54, short:"Al Ghaith Holding"},
   {id:"ecssr", n:"Emirates Center for Strategic Studies and Research", s:"education", t:2, p:60, short:"ECSSR"},
+  {id:"acino", n:"Acino AG", s:"health", t:2, p:64, short:"Acino"},
+  {id:"birgi_mefar", n:"Birgi Mefar Group", s:"health", t:3, p:55, short:"Birgi Mefar"},
+  {id:"q_logistics_hldg", n:"Q Logistics Holding", s:"industry", t:3, p:54, short:"Q Logistics Hldg"},
+  {id:"venture_global_lng", n:"Venture Global LNG, Inc.", s:"energy", t:2, p:58, short:"Venture Global LNG"},
 ];
 
 const PEOPLE = [
@@ -377,6 +381,7 @@ const PEOPLE = [
     ["ead","Chairman","board","v"],
     ["abu_dhabi_university","President of the Board of Trustees","board","v"],
     ["aldahra","Chairman of the Board of Directors","board","v"],
+    ["dolphin_energy","Chairman of the Board","board","v"],
     ]},
   {id:"hamed_bz", n:"H.H. Sheikh Hamed bin Zayed Al Nahyan", t:0, p:93, s:"sovereign", roles:[
     ["adia","Managing Director","executive","v"],
@@ -721,6 +726,7 @@ const PEOPLE = [
     ["aldar_investment_propert","Chairman, Aldar Investment Properties","board","v"],
     ["aldar_estates","Chairman","board","v"],
     ["nmdc_energy","Director, Audit Committee Chairman","board","v"],
+    ["aldar_capital","Group Chief Executive Officer, Aldar Properties (co-announced Aldar Capital launch)","executive","v"],
     ]},
   {id:"bill_oregan", n:"Bill O'Regan", t:2, p:70, s:"realestate", roles:[
     ["modon","Group CEO","executive","v"],
@@ -884,6 +890,7 @@ const PEOPLE = [
     ["ruwais_lng","Chairman, Ruwais LNG","executive","v"],
     ["adnoc_global_trading","Acting CEO, ADNOC Downstream Industry, Marketing & Trading (oversight)","executive","ns"],
     ["fertiglobe","Director","board","v"],
+    ["adnoc_trading","Chairman, ADNOC Trading (also Acting CEO, Downstream Industry, Marketing & Trading, ADNOC)","board","v"],
     ], note:"Acting CEO of ADNOC's Downstream Industry"},
   {id:"dena_almansoori", n:"Dena Al Mansoori", t:2, p:68, s:"energy", roles:[
     ["adnoc","Group Chief Technology & Innovation Officer","executive","v"],
@@ -892,6 +899,7 @@ const PEOPLE = [
   {id:"hani_barhoush", n:"Hani Barhoush", t:2, p:72, s:"sovereign", roles:[
     ["mubadala","Managing Director & CEO, Mubadala Capital","executive","v"],
     ["mubadala_capital","Managing Director & Chief Executive Officer","executive","v"],
+    ["aldar_capital","Chief Executive Officer, Mubadala Capital (co-announced Aldar Capital launch)","executive","v"],
     ]},
   {id:"mansour_almulla", n:"Mansour Mohamed AlMulla", t:2, p:72, s:"sovereign", roles:[
     ["adq","Deputy Group Chief Executive Officer","executive","v"],
@@ -1302,6 +1310,7 @@ const PEOPLE = [
     ]},
   {id:"ahmed_ali_al", n:"Ahmed Ali Al Sayegh", t:2, p:52, s:"energy", roles:[
     ["adnoc","Member, Executive Committee of ADNOC Board of Directors (Minister of State)","board","v"],
+    ["dolphin_energy","UAE Minister of State & Managing Director","board","v"],
     ]},
   {id:"farid_al_awlaqi", n:"Farid Al Awlaqi", t:2, p:60, s:"utilities", roles:[
     ["taqa","Chief Executive Officer, Generation","executive","v"],
@@ -1373,6 +1382,7 @@ const PEOPLE = [
     ]},
   {id:"mansoor_mohamed_al", n:"Mansoor Mohamed Al Hamed", t:2, p:52, s:"utilities", roles:[
     ["masdar","Board Member, Masdar Renewables & Green Hydrogen (MD & CEO, Mubadala Energy)","board","v"],
+    ["dolphin_energy","Board Member","board","v"],
     ]},
   {id:"monera_al_seiari", n:"Monera Al Seiari", t:2, p:52, s:"utilities", roles:[
     ["masdar","Board Member, Masdar Green Hydrogen","board","v"],
@@ -1734,6 +1744,7 @@ const PEOPLE = [
     ["ega","Board Member","board","v"],
     ["tabreed","Chairman","board","v"],
     ["space42","Vice Chairman of the Board","board","v"],
+    ["dolphin_energy","Board Member","board","v"],
     ]},
   {id:"hilal_bin_dhaher", n:"Hilal Bin Dhaher", t:2, p:52, s:"materials", roles:[
     ["ega","Board Member","board","v"],
@@ -2702,6 +2713,7 @@ const PEOPLE = [
     ]},
   {id:"naser_al_hajri", n:"Naser Al Hajri", t:2, p:58, s:"energy", roles:[
     ["mubadala_energy","Chief Corporate Support Officer","executive","ns"],
+    ["dolphin_energy","Board Member","board","v"],
     ]},
   {id:"shihab_ahmed_al", n:"Shihab Ahmed Al Muharrami", t:2, p:60, s:"utilities", roles:[
     ["taqa_water","Chief Executive Officer","executive","v"],
@@ -4321,6 +4333,69 @@ const PEOPLE = [
   {id:"hashim_rasheed", n:"Hashim Rasheed", t:2, p:46, s:"finance", roles:[
     ["digit9","Head of Digit9","executive","ns"],
     ]},
+  {id:"emmanuel_de_reynies", n:"Emmanuel de Reynies", t:2, p:60, s:"energy", roles:[
+    ["adnoc_trading","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"kenneth_dillon", n:"Kenneth Dillon", t:2, p:52, s:"energy", roles:[
+    ["dolphin_energy","Board Member","board","v"],
+    ]},
+  {id:"gregory_joffroy", n:"Gregory Joffroy", t:2, p:52, s:"energy", roles:[
+    ["dolphin_energy","Board Member","board","v"],
+    ]},
+  {id:"stephen_kelly", n:"Stephen Kelly", t:2, p:52, s:"energy", roles:[
+    ["dolphin_energy","Board Member","board","v"],
+    ]},
+  {id:"magalie_lemaire", n:"Magalie Lemaire", t:2, p:52, s:"energy", roles:[
+    ["dolphin_energy","Board Member","board","v"],
+    ]},
+  {id:"jonathan_newbery", n:"Jonathan Newbery", t:2, p:52, s:"energy", roles:[
+    ["dolphin_energy","Board Member","board","v"],
+    ]},
+  {id:"samir_oumer", n:"Samir Oumer", t:2, p:52, s:"energy", roles:[
+    ["dolphin_energy","Board Member","board","v"],
+    ]},
+  {id:"julien_pouget", n:"Julien Pouget", t:2, p:52, s:"energy", roles:[
+    ["dolphin_energy","Board Member","board","v"],
+    ]},
+  {id:"obaid_abdulla_al", n:"Obaid Abdulla Al Dhaheri", t:2, p:60, s:"energy", roles:[
+    ["dolphin_energy","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"ajlan_al_qubaisi", n:"Ajlan Al Qubaisi", t:2, p:58, s:"energy", roles:[
+    ["dolphin_energy","Senior Vice President, Marketing & Commercial","executive","v"],
+    ]},
+  {id:"jassim_al_jasmi", n:"Jassim Al Jasmi", t:2, p:58, s:"energy", roles:[
+    ["dolphin_energy","Senior Vice President, Technical Services Upstream","executive","v"],
+    ]},
+  {id:"ateeq_al_mazrouei", n:"Ateeq Al Mazrouei", t:2, p:58, s:"energy", roles:[
+    ["dolphin_energy","Senior Vice President, Corporate Affairs","executive","v"],
+    ]},
+  {id:"mohsin_jagani", n:"Mohsin Jagani", t:2, p:58, s:"energy", roles:[
+    ["dolphin_energy","Chief Internal Audit","executive","v"],
+    ]},
+  {id:"robin_bayley", n:"Robin Bayley", t:2, p:58, s:"energy", roles:[
+    ["dolphin_energy","Chief Legal Counsel","executive","v"],
+    ]},
+  {id:"jassem_ahmed_busaibe", n:"Jassem Ahmed Busaibe", t:2, p:52, s:"finance", roles:[
+    ["aldar_capital","Director","board","v"],
+    ]},
+  {id:"jahedur_rahman", n:"Jahedur Rahman", t:2, p:52, s:"finance", roles:[
+    ["aldar_capital","Director & Senior Executive Officer (SEO)","board","v"],
+    ]},
+  {id:"khaled_abdul_aziz", n:"Khaled Abdul Aziz", t:2, p:52, s:"finance", roles:[
+    ["aldar_capital","Director","board","v"],
+    ]},
+  {id:"mohd_awad", n:"Mohd Awad", t:2, p:52, s:"finance", roles:[
+    ["aldar_capital","Director","board","v"],
+    ]},
+  {id:"kantha_rupan_arivalagan", n:"Kantha Rupan Arivalagan", t:2, p:58, s:"finance", roles:[
+    ["aldar_capital","Compliance Officer & MLRO","executive","v"],
+    ]},
+  {id:"syed_muhammad_reza", n:"Syed Muhammad Reza Zaidi", t:2, p:58, s:"finance", roles:[
+    ["aldar_capital","Finance Officer","executive","v"],
+    ]},
+  {id:"mark_alec_scott", n:"Mark Alec Scott", t:2, p:58, s:"finance", roles:[
+    ["aldar_capital","Senior Executive","executive","v"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -4597,6 +4672,10 @@ const OWNERSHIP = [
   ["sdeira","kezad","subsidiary (rebranded from KEZAD Communities)","v"],
   ["modon_properties","adq","subsidiary","v"],
   ["aldar_capital","mubadala_capital","ADGM-based real-estate/infrastructure investment-management platform JV announced 4 Dec 2025 between Mubadala Capital and Aldar Properties, targeting institutional investors (sovereign funds, pensions, insurers); first fund targeting ~$1bn, launch planned 2026","v"],
+  ["acino","adq","wholly-owned subsidiary of","v"],
+  ["birgi_mefar","adq","subsidiary of","v"],
+  ["q_logistics_hldg","adq","wholly-owned subsidiary of (holds ADQ's Aramex stake)","ns"],
+  ["venture_global_lng","mubadala","portfolio company of (minority investor)","ns"],
 ];
 
 const FAMILY = [
@@ -4686,4 +4765,6 @@ const AKA = {
   sdeira:["KEZAD Communities"],
   topaz_energy:["Topaz","Topaz Energy and Marine","POML"],
   al_ghaith:["Al Ghaith Group"],
+  birgi_mefar:["BMG"],
+  venture_global_lng:["VG LNG"],
 };

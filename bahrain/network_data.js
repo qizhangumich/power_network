@@ -188,6 +188,8 @@ const INSTITUTIONS = [
   {id:"eskan_bank", n:"Eskan Bank", s:"finance", t:2, p:58, short:"Eskan Bank"},
   {id:"national_motor", n:"National Motor Company", s:"consumer_disc", t:3, p:52, short:"National Motor Co"},
   {id:"al_ayam_publishing", n:"Al Ayam Publishing Group", s:"comm", t:3, p:52, short:"Al Ayam Publishing"},
+  {id:"racing_force", n:"Racing Force Group S.p.A.", s:"industry", t:3, p:54, short:"Racing Force"},
+  {id:"sbpc", n:"Saudi Bahrain Pipeline Company", s:"energy", t:3, p:57, short:"SBPC"},
 ];
 
 const PEOPLE = [
@@ -419,7 +421,7 @@ const PEOPLE = [
     ["mumtalakat","Board Member","board","v"]]},
   {id:"khalid_hussain_taqi", n:"Khalid Hussain Taqi", t:2, p:62, s:"sovereign", roles:[
     ["beyon_money","Board Member, Beyon Money Investments B.S.C. (Closed) (until Dec 2024)","board","v"],
-    ["array_innovation","Chairman of the Board","board","ns"],
+    ["array_innovation","Chairman of the Board","board","v"],
     ["amana_healthcare","Board Member (Managing Director - Local Impact Investments, Mumtalakat)","board","ns"],
     ["bahrain_airport","Chairman","board","v"],
     ["mumtalakat","Managing Director - Local Investments","executive","v"],
@@ -3731,6 +3733,8 @@ const OWNERSHIP = [
   ["baca","cabinet_bh","affiliate authority","v"],
   ["moca_bahrain","cabinet_bh","ministry of","v"],
   ["national_motor","lst_bcfc","subsidiary","ns"],
+  ["racing_force","mumtalakat","strategic minority stake investor in","ns"],
+  ["sbpc","bapco","majority-owned subsidiary of","ns"],
 ];
 
 const FAMILY = [

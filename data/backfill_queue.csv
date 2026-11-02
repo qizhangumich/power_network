@@ -14,8 +14,10 @@ qatar,exxonmobil,ExxonMobil,energy,70,1,pending
 qatar,shell,Shell,energy,70,1,pending
 abudhabi,goldman,Goldman Sachs,finance,66,0,pending
 northern,etihad_w_e,Etihad Water and Electricity,utilities,66,0,pending
+saudi,lst_2030,Saudi Arabia Refineries Co.,energy,66,0,pending
 abudhabi,eni,Eni,energy,64,0,pending
 abudhabi,mckinsey,McKinsey & Company,industry,64,0,pending
+abudhabi,acino,Acino AG,health,64,0,pending
 oman,tax_authority_oman,Tax Authority,finance,64,1,skip
 qatar,eni,Eni,energy,64,0,pending
 qatar,grsia_daman,General Retirement and Social Insurance Authority,sovereign,64,1,skip
@@ -44,9 +46,9 @@ qatar,ras_laffan_petrochem,Ras Laffan Petrochemicals Company,materials,60,1,pend
 saudi,aramco_trading,Aramco Trading Company,energy,60,0,pending
 saudi,seven,Saudi Entertainment Ventures,consumer_disc,60,0,pending
 saudi,fas,Saudi FAS Holding Company,consumer_disc,60,0,pending
-saudi,maaden_aluminium,Ma'aden Aluminium Company,materials,60,0,pending
+saudi,maaden_aluminium,Ma'aden Aluminium Company,materials,60,1,pending
 saudi,kkh_al_majmaah,King Khalid Hospital - Al Majma'ah,health,60,1,pending
-saudi,saudi_broadcasting,Saudi Broadcasting Authority,comm,60,0,pending
+saudi,scopely,"Scopely, Inc.",tech,60,0,pending
 abudhabi,flash,Flash Entertainment,comm,58,1,pending
 abudhabi,thenational,The National,comm,58,1,pending
 abudhabi,sorbonne,Sorbonne University Abu Dhabi,education,58,1,pending
@@ -58,39 +60,37 @@ abudhabi,pwc,PwC Middle East,industry,58,0,pending
 abudhabi,altamimi,Al Tamimi & Company,industry,58,1,pending
 abudhabi,raytheon_em,Raytheon Emirates,industry,58,0,pending
 abudhabi,lst_icap,Investcorp Capital plc,finance,58,0,pending
-abudhabi,adnoc_trading,ADNOC Trading,energy,58,0,pending
-abudhabi,dolphin_energy,Dolphin Energy Limited,energy,58,0,pending
 abudhabi,gridora,Gridora,industry,58,1,pending
 abudhabi,wizz_air_ad,Wizz Air Abu Dhabi,industry,58,1,pending
 abudhabi,insead,INSEAD,education,58,0,pending
-abudhabi,aldar_capital,Aldar Capital,finance,58,0,pending
+abudhabi,venture_global_lng,"Venture Global LNG, Inc.",energy,58,0,pending
 bahrain,bluefive_capital,BlueFive Capital,finance,58,0,pending
 bahrain,moya_bahrain,Ministry of Youth Affairs,gov,58,1,pending
 bahrain,baca,Bahrain Authority for Culture and Antiquities,gov,58,1,pending
-dubai,dubai_petroleum,Dubai Petroleum Establishment,energy,58,1,pending
 dubai,albwardy_invest,Albwardy Investment,conglomerate,58,1,pending
 dubai,arabtec,Arabtec Holding,industry,58,0,pending
 dubai,arab_media,Arab Media Group,comm,58,0,pending
 kuwait,jaber_hospital,Jaber Al-Ahmad Al-Sabah Hospital,health,58,1,pending
+kuwait,st_martins_prop,St. Martins Property Corporation,realestate,58,0,pending
 northern,uaq_ded,Umm Al Quwain Department of Economic Development,gov,58,1,pending
 northern,al_bahar,Mohamed Abdulrahman Al-Bahar Co.,industry,58,1,pending
 northern,rak_finance_dept,Ras Al Khaimah Department of Finance,finance,58,1,pending
 northern,rak_epda,Environmental Protection and Development Authority (Ras Al Khaimah),gov,58,1,pending
 northern,khalifa_hosp_rak,Sheikh Khalifa Specialist Hospital,health,58,0,pending
-northern,rak_police,Ras Al Khaimah Police General Command,gov,58,0,pending
+northern,rak_police,Ras Al Khaimah Police General Command,gov,58,1,pending
 qatar,cnpc,CNPC,energy,58,0,pending
 qatar,cra_qatar,Communications Regulatory Authority,comm,58,1,skip
 qatar,alrayan_investment,AlRayan Investment LLC,finance,58,1,pending
 qatar,qna,Qatar News Agency,comm,58,1,pending
-qatar,qatar_steel,Qatar Steel Company (QASCO),materials,58,1,pending
-qatar,qatar_social_work,Qatar Social Work Foundation,gov,58,0,pending
+qatar,qatar_social_work,Qatar Social Work Foundation,gov,58,1,pending
 qatar,me_council,Middle East Council on Global Affairs,education,58,0,pending
+qatar,basf_coatings,BASF Coatings (Carlyle/QIA venture),materials,58,0,pending
 saudi,lst_2240,Zamil Industrial Investment Co.,materials,58,0,pending
 saudi,saudi_downtown,Saudi Downtown Company,realestate,58,0,pending
 saudi,iot_squared,iot squared,tech,58,0,pending
 saudi,neo_space,Neo Space Group,tech,58,0,pending
 saudi,taqnia,Saudi Technology Development and Investment Company,tech,58,0,pending
-saudi,tarshid,National Energy Services Company,energy,58,0,pending
+saudi,tarshid,National Energy Services Company,energy,58,1,pending
 saudi,taqa_saudi,Industrialization and Energy Services Company,energy,58,0,pending
 saudi,src,Saudi Real Estate Refinancing Company,finance,58,0,pending
 saudi,jada,Jada Fund of Funds,sovereign,58,0,pending
@@ -131,6 +131,10 @@ saudi,riyad_capital,Riyad Capital,finance,58,0,pending
 saudi,hadco,Hail Agricultural Development Company,consumer_stap,58,0,pending
 saudi,maaden_gold_base,Ma'aden Gold and Base Metals Company,materials,58,0,pending
 saudi,gulf_research_ctr,Gulf Research Center,education,58,0,pending
+saudi,al_hilal_fc,Al Hilal Saudi Football Club,consumer_disc,58,0,pending
+saudi,al_nassr_fc,Al Nassr Saudi Club,consumer_disc,58,0,pending
+saudi,esl_faceit,ESL FACEIT Group,tech,58,0,pending
+bahrain,sbpc,Saudi Bahrain Pipeline Company,energy,57,0,pending
 dubai,al_yousuf,Al Yousuf Group,conglomerate,57,0,pending
 qatar,al_muftah,Al Muftah Group,conglomerate,57,1,pending
 saudi,lst_4003,United Electronics Co. (eXtra),consumer_disc,57,0,pending
@@ -203,7 +207,11 @@ saudi,jeddah_economic,Jeddah Economic Company,realestate,56,1,pending
 saudi,kayanee,Kayanee Company,consumer_disc,56,1,pending
 saudi,aseer_invest,Aseer Investment Company,finance,56,1,pending
 saudi,aljazira_capital,AlJazira Capital,finance,56,1,pending
+saudi,al_ittihad_club,Al Ittihad Saudi Club,consumer_disc,56,0,pending
+saudi,al_ahli_fc,Al Ahli Saudi Football Club,consumer_disc,56,0,pending
+abudhabi,birgi_mefar,Birgi Mefar Group,health,55,0,pending
 dubai,imtiaz_developments,Imtiaz Developments,realestate,55,1,pending
+oman,mawarid_green,Mawarid Green Technologies,industry,55,0,pending
 qatar,qvc,Qatar Vinyl Company Ltd,materials,55,0,pending
 saudi,al_othman,Al Othman Holding,conglomerate,55,0,pending
 saudi,bsf_capital,BSF Capital,finance,55,0,pending
@@ -218,9 +226,11 @@ abudhabi,mhao,Mohamed Hareb Al Otaiba Group,conglomerate,54,0,pending
 abudhabi,rafed,Rafed,health,54,0,pending
 abudhabi,aiq,AIQ,tech,54,0,pending
 abudhabi,q_3,Q Holding PJSC,conglomerate,54,0,pending
+abudhabi,q_logistics_hldg,Q Logistics Holding,industry,54,0,pending
 bahrain,gulf_handling,Gulf Handling Company,industry,54,0,pending
 bahrain,aleastur,"Aleastur (Asturiana de Aleaciones, S.A.)",materials,54,0,pending
 bahrain,insead,INSEAD,education,54,0,pending
+bahrain,racing_force,Racing Force Group S.p.A.,industry,54,0,pending
 dubai,dubai_asset_mgmt,Dubai Holding Asset Management,realestate,54,0,pending
 dubai,dh_entertainment,Dubai Holding Entertainment,consumer_disc,54,0,pending
 dubai,dubai_courts,Dubai Courts,gov,54,0,pending
@@ -625,7 +635,6 @@ qatar,lst_mcgs,Medicare Group Q.P.S.C.,health,50,0,pending
 qatar,lst_qisi,Qatar Islamic Insurance Group Q.P.S.C.,finance,50,0,pending
 qatar,lst_bema,Damaan Islamic Insurance Company (Beema) Q.P.S.C.,finance,50,0,pending
 qatar,lst_qimd,Qatar Industrial Manufacturing Company Q.P.S.C.,materials,50,0,pending
-qatar,lst_siis,Salam International Investment Limited Q.P.S.C.,conglomerate,50,0,pending
 qatar,lst_akhi,Al Khaleej Takaful Insurance Company Q.P.S.C.,finance,50,0,pending
 qatar,lst_qlmi,QLM Life & Medical Insurance Company Q.P.S.C.,finance,50,0,pending
 qatar,lst_mfms,Mosanada Facility Management Services Q.P.S.C.,industry,50,0,pending
@@ -642,7 +651,6 @@ qatar,lst_ihgs,INMA Holding Company Q.P.S.C.,conglomerate,50,0,pending
 qatar,lst_falh,Al Faleh Educational Holding Company Q.P.S.C.,consumer_disc,50,0,pending
 qatar,lst_qois,Qatar Oman Investment Company Q.S.C.,finance,50,0,pending
 qatar,wifaq_center,Wifaq Family Consulting Centre,gov,50,0,pending
-saudi,lst_2030,Saudi Arabia Refineries Co.,energy,50,0,pending
 saudi,lst_1201,Takween Advanced Industries Co.,materials,50,0,pending
 saudi,lst_1202,Middle East Paper Co. (Mepco),materials,50,0,pending
 saudi,lst_1210,Basic Chemical Industries Co. (BCI),materials,50,0,pending

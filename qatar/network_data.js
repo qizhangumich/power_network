@@ -140,7 +140,7 @@ const INSTITUTIONS = [
   {id:"lst_qisi", n:"Qatar Islamic Insurance Group Q.P.S.C.", s:"finance", t:2, p:50, short:"QISI"},
   {id:"lst_bema", n:"Damaan Islamic Insurance Company (Beema) Q.P.S.C.", s:"finance", t:2, p:50, short:"BEMA"},
   {id:"lst_qimd", n:"Qatar Industrial Manufacturing Company Q.P.S.C.", s:"materials", t:2, p:50, short:"QIMD"},
-  {id:"lst_siis", n:"Salam International Investment Limited Q.P.S.C.", s:"conglomerate", t:2, p:50, short:"SIIS"},
+  {id:"lst_siis", n:"Salam International Investment Limited Q.P.S.C.", s:"conglomerate", t:2, p:58, short:"SIIS"},
   {id:"lst_akhi", n:"Al Khaleej Takaful Insurance Company Q.P.S.C.", s:"finance", t:2, p:50, short:"AKHI"},
   {id:"lst_qlmi", n:"QLM Life & Medical Insurance Company Q.P.S.C.", s:"finance", t:2, p:50, short:"QLMI"},
   {id:"lst_mfms", n:"Mosanada Facility Management Services Q.P.S.C.", s:"industry", t:2, p:50, short:"MFMS"},
@@ -248,6 +248,7 @@ const INSTITUTIONS = [
   {id:"al_sraiya", n:"Al Sraiya Holding Group", s:"conglomerate", t:3, p:54, short:"Al Sraiya Holding"},
   {id:"al_rayyan_tv", n:"Al Rayyan TV", s:"comm", t:3, p:54, short:"Al Rayyan TV"},
   {id:"me_council", n:"Middle East Council on Global Affairs", s:"education", t:2, p:58, short:"ME Council"},
+  {id:"basf_coatings", n:"BASF Coatings (Carlyle/QIA venture)", s:"materials", t:2, p:58, short:"BASF Coatings"},
 ];
 
 const PEOPLE = [
@@ -363,6 +364,7 @@ const PEOPLE = [
     ["moehe_q","Minister of Education & Higher Education","political","v"]],
     note:"Moved from the Foreign Ministry / government spokesperson role to Education & Higher Education in the 12 Nov 2024 cabinet reshuffle."},
   {id:"buthaina", n:"H.E. Buthaina Al Nuaimi", t:1, p:72, s:"gov", roles:[
+    ["qatar_social_work","Minister of Social Development and Family and Chairperson of the Board of Directors of the Qatar Foundation for Social Work","board","v"],
     ["cabinet","Minister of Social Development & Family","political","v"]],
     note:"Moved from Education & Higher Education to Social Development & Family in the 12 Nov 2024 cabinet reshuffle."},
   {id:"alsayed", n:"H.E. Ahmad Al-Sayed", t:1, p:80, s:"gov", roles:[
@@ -1084,6 +1086,7 @@ const PEOPLE = [
   {id:"mr_homoud_fahad", n:"Mr. Homoud Fahad Homoud Sultan Al-Qahtani", t:2, p:62, s:"energy", roles:[
     ["lst_qfls","Vice Chairman","board","v"]]},
   {id:"mr_saad_rashid", n:"Mr. Saad Rashid Al-Muhannadi", t:2, p:60, s:"energy", roles:[
+    ["qatar_steel","Chairman","board","v"],
     ["lst_giss","Vice Chairman","board","v"],
     ["lst_qfls","Managing Director – Board Member","board","v"],
     ["lst_qfls","Managing Director and Chief Executive Officer","executive","v"]]},
@@ -1381,9 +1384,6 @@ const PEOPLE = [
     ["moi_q","Minister of State for Interior Affairs","executive","v"]]},
   {id:"abdullah_bin_khalaf", n:"Abdullah bin Khalaf Hattab Al Kaabi", t:2, p:58, s:"gov", roles:[
     ["moi_q","Undersecretary of the Ministry of Interior","executive","v"]]},
-  {id:"sheikh_saoud_bin", n:"Sheikh Saoud bin Abdulrahman bin Hassan bin Ali Al Thani", t:2, p:58, s:"gov", roles:[
-    ["barzan","Chairman of the Board","board","ns"],
-    ["mod_q","Deputy Prime Minister and Minister of State for Defence Affairs","executive","v"]]},
   {id:"khalid_mohammed_laram", n:"Khalid Mohammed Laram", t:2, p:60, s:"materials", roles:[
     ["lst_qamc","Board Member","board","v"],
     ["qatalum","Chief Executive Officer","executive","ns"]]},
@@ -2258,6 +2258,20 @@ const PEOPLE = [
     ["qatar_leadership_centre","Board Member","board","v"]]},
   {id:"abdullah_mohammed_khalifa", n:"Abdullah Mohammed Khalifa Al Binali", t:2, p:58, s:"education", roles:[
     ["qatar_leadership_centre","Director General","executive","ns"]]},
+  {id:"abdulla_mohamed_al_b_b", n:"Abdulla Mohamed Al-Mahmoud", t:2, p:62, s:"materials", roles:[
+    ["qatar_steel","Vice Chairman","board","v"]]},
+  {id:"khalid_jaham_al", n:"Khalid Jaham Al-Kuwari", t:2, p:52, s:"materials", roles:[
+    ["qatar_steel","Director","board","v"]]},
+  {id:"adel_abdulla_al", n:"Adel Abdulla Al-Rumaihi", t:2, p:52, s:"materials", roles:[
+    ["qatar_steel","Director","board","v"]]},
+  {id:"haytham_abdulaziz_al", n:"Haytham Abdulaziz Al-Meer", t:2, p:52, s:"materials", roles:[
+    ["qatar_steel","Director","board","v"]]},
+  {id:"mohd_ali_ahmed", n:"Mohd Ali Ahmed Al-Mohammed", t:2, p:52, s:"materials", roles:[
+    ["qatar_steel","Director","board","v"]]},
+  {id:"issa_abdulsalam_abu", n:"Issa Abdulsalam Abu Issa", t:2, p:62, s:"conglomerate", roles:[
+    ["lst_siis","Chairman & Managing Director","board","ns"]]},
+  {id:"hussam_abdulsalam_abu", n:"Hussam Abdulsalam Abu Issa", t:2, p:62, s:"conglomerate", roles:[
+    ["lst_siis","Co-Founder & Vice Chairman","board","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2398,6 +2412,7 @@ const OWNERSHIP = [
   ["qatar_diamond_exchange","qfz","subsidiary","v"],
   ["qatar_crafts_council","qm","subsidiary","v"],
   ["elegancia","lst_igrd","subsidiary (100%)","ns"],
+  ["basf_coatings","qia","co-investor in (via Carlyle-led consortium)","v"],
 ];
 
 const FAMILY = [
@@ -2418,6 +2433,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  saoud_diwan:["Sheikh Saoud bin Abdulrahman bin Hassan bin Ali Al Thani"],
   mbhh:["Mohammed Bin Hamad Holding","MBH Holding"],
   ahmad_helal_al_b:["Eng. Ahmed Hilal Al Mohannadi","Ahmed Hilal Al Mohannadi"],
   moi_q:["Interior Ministry"],
@@ -2505,4 +2521,5 @@ const AKA = {
   qatar_crafts_council:["Qatar Fashion & Crafts Council"],
   al_rayyan_tv:["Alrayyan TV","Al Rayyan Media"],
   me_council:["MECouncil"],
+  basf_coatings:["Carlyle/QIA venture"],
 };

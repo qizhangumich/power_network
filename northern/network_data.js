@@ -1484,6 +1484,8 @@ const PEOPLE = [
     ["gulf_craft","General Manager, Superyacht Service Centre","executive","v"]]},
   {id:"hussain_alshaali", n:"Hussain Alshaali", t:2, p:58, s:"industry", roles:[
     ["gulf_craft","Research & Development Manager","executive","v"]]},
+  {id:"ali_abdullah_bin", n:"Ali Abdullah bin Alwan Al Nuaimi", t:2, p:58, s:"gov", roles:[
+    ["rak_police","Commander-in-Chief of Ras Al Khaimah Police General Command","executive","v"]]},
 ];
 
 const OWNERSHIP = [

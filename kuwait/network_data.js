@@ -253,6 +253,7 @@ const INSTITUTIONS = [
   {id:"al_yousifi_sons", n:"Easa Husain Al-Yousifi & Sons Group", s:"conglomerate", t:3, p:54, short:"Al-Yousifi & Sons"},
   {id:"amer_univ_mid", n:"American University of the Middle East", s:"education", t:2, p:58, short:"Amer Univ Mid East"},
   {id:"royale_hayat_hosp", n:"Royale Hayat Hospital", s:"health", t:3, p:54, short:"Royale Hayat Hosp"},
+  {id:"st_martins_prop", n:"St. Martins Property Corporation", s:"realestate", t:2, p:58, short:"St. Martins Prop."},
 ];
 
 const PEOPLE = [
@@ -2271,6 +2272,7 @@ const OWNERSHIP = [
   ["kharafi_national","kharafi","subsidiary","ns"],
   ["amer_univ_mid","lst_humansoft","operating unit","v"],
   ["royale_hayat_hosp","al_mulla","subsidiary","v"],
+  ["st_martins_prop","kia","wholly-owned subsidiary of","ns"],
 ];
 
 const FAMILY = [
@@ -2331,4 +2333,5 @@ const AKA = {
   qurain_petrochem:["QPIC"],
   al_yousifi_sons:["Al-Yousifi Group"],
   amer_univ_mid:["AUM"],
+  st_martins_prop:["St. Martins Property Group"],
 };
