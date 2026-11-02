@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed meets Sam Altman and witnesses signing of agreements with OpenAI
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSF82ZjVUUDJfeW1tWjd6N1RDWXhBekdsbWkwdkZBRGp6X2tMQlRXb1haeVNXTS1qZnZ1bENZV2N0S2dONjlram81Rkg1VzRZRUU4SG55cWZ4TnF0Tl9CWjlJR2JvVF9FMXRrOGRkcS0zTlpuMGFZQjROZ0w0M1pHNXVzWlh3X2g3SUtobUItNFA5OUhDYnNXYmk4QXBpdFR2MW0yckNheXlZazhKN2pNeTNtMS1VTlJGNUd4TG1EYjRkNm9PdjVYZ09VSkdXQ1R4V3lWeThNOHVGR3UybXRZcnJR?oc=5
+
+Khaled bin Mohamed bin Zayed meets Sam Altman and witnesses signing of agreements with OpenAI    مكتب أبوظبي الإعلامي
