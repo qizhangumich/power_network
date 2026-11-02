@@ -1,0 +1,5 @@
+# Dubai and Middle East flight disruption: the latest updates as international airlines extend route cancellations
+source: Condé Nast Traveller Middle East
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxQR19WNWdzMy1Lc0dXb1FGQUZIZkVqcGNBZzdRSWpoSldwU1dFUmVDRmhEYVhlWDVLU2tiX3FMVEhVdEl4bG1reWZKOEF5TERfT3dJc0QyOEdGY3A0Y2Q2YkN1OU40U3dEbjh5dzJwZmNNNktaODBjb09taXFCaVdFSnpJdVFFWGI5M3dOM0FoZUFkR2JfQWF4b2ExQjh2SUtjcXY2Z0kzTWt0T1NHUzNOaWpYdmw5eU5kekgxZHlaNGg1TmJMYmM5SWtfVVBMTWlMa3MtMGpCakpfazg0b2sxTg?oc=5
+
+Dubai and Middle East flight disruption: the latest updates as international airlines extend route cancellations    Condé Nast Traveller Middle East

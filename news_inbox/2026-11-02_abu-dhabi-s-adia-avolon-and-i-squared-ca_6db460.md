@@ -1,0 +1,5 @@
+# Abu Dhabi's Adia, Avolon and I Squared Capital to launch aviation investment platform
+source: The National
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLVZGXzEtRTdid0JSWUNIb3ZZRC1mSERLZnE5dVMyVGJxTmx0MkZOWHJnQXdnSFpYZGtXMFJ4akI4Z1p1allURnM5bm5LTnRNUTFxR2h6U3lhamZMSmlzVndmeDdvaGJTR3NlbnpsUS01Y1RITmdkemZtUjdfQkNNWFMwSk9DYnozZWxxc1Q5NFM3ZGhZSTZzXzJod1ZkQlhZc2FOUkF3SFdhM3BKQ1VkUDVLY25oWXc0T2RTMV96THI1WnVaY3RvMWRyNlpYa2lBYWRLcXNMMFVudkpuZXc?oc=5
+
+Abu Dhabi's Adia, Avolon and I Squared Capital to launch aviation investment platform    The National

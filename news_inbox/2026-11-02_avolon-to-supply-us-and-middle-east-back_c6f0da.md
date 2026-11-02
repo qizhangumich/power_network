@@ -1,0 +1,5 @@
+# Avolon to supply US- and Middle East-backed leasing venture with initial batch of aircraft
+source: FlightGlobal
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQS1c0bWZiaHdvQ1hzaGN1MlVUYlJwUWVvZlpadHhRV3FyTmZUcWV0VUphVEtqb1g3NHBBODRnaWV6Q0FMMThua0daTkNvRGhuMkRYQThPNkRQMkRMdW9BUkpfTlBjalBSdjEwRUgyNWFRQTM1QTBtWDJxZW0wYThHSE03MEtldnBPOFVJNDBEXzREN2NOcUVpTHZ0TlcxZzY2N3lKeEozVnlLdGR2XzlIQjhGeFV1VmJFMTRJeXdvT2c0enQtd0JWOW5QWVdrSzA?oc=5
+
+Avolon to supply US- and Middle East-backed leasing venture with initial batch of aircraft    FlightGlobal

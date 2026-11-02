@@ -1,0 +1,5 @@
+# Avolon creates new aircraft leasing platform with ADIA, I Squared Capital
+source: Reuters
+url: https://news.google.com/rss/articles/CBMivAFBVV95cUxNdUJRZkI4cTljNGRRRkdTYzBhOUh4cEdNb0tPT3gzLXlqNk10YXRtbmo3M2RYSXRRcmd5eWVieEdITFlfRTlGMl9HQWpvc3FoNVhSNHVRalcwRVlodWoyb3Q0UTRORDV5RUpYeG5oYVp1R3JlY1NoZkZ1X0tYR0tLRTZFVl9TSElNcUFDd3E0d2lKX0JONl9zOC1xRTJSOVRwM3NxbHFsMGhOUlBueEJvN1dubklhbzEyWlkySw?oc=5
+
+Avolon creates new aircraft leasing platform with ADIA, I Squared Capital    Reuters

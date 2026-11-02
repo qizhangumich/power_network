@@ -1,0 +1,5 @@
+# Etihad Cargo and VEDP sign MOU
+source: Freightweek
+url: https://news.google.com/rss/articles/CBMikwFBVV95cUxQZE41cDJxRHZ1VzZmdEZpRkxNQm0yT2pUQmQwTHRSR1BKTmhBODd3S25mNFVReHNDdlpUaWctQVl5djMwUmVfR1RSM21VeC1zS2M1V3dVUlpRMHpZTFpxOERnZDZjZ1htMU1jRE1FcDBjYlVMT09QWmpSTDR5VHBvQlhUYVhkMWtwQ2pfR1pSS0g1N0k?oc=5
+
+Etihad Cargo and VEDP sign MOU    Freightweek

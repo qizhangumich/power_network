@@ -1,0 +1,5 @@
+# Abu Dhabi agrees OpenAI deals to transform government services and education
+source: The National
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTmFzeUZPSXpYaFVNM2JuX2h5Y0U1S0g2YURGeVB0SFRxS25WMjRwdkZyT0RJTHg3TGlQNlhfdk5OUjZZc3RaVS1Mck5Ib3RNNWVpanZmVHZzRy02b1JmOHM0WkdQQXp5ZUVpaFZrOHVuNHY2a1ZhekRINmRmX09tT3QtNEdmS29leE5wMUVzRHdNQXZqdWtzNE5kTzFtSkdjLU5mZEI5UlB4clNzTFMxaUxOTFQtMVhoTUpxWVVTNlJ2dlk?oc=5
+
+Abu Dhabi agrees OpenAI deals to transform government services and education    The National

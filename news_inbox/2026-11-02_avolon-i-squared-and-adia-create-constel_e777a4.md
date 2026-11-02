@@ -1,0 +1,5 @@
+# Avolon, I Squared and ADIA create Constellation Aviation with a fleet valued at US$1.4 billion
+source: Aviacionline
+url: https://news.google.com/rss/articles/CBMiiAJBVV95cUxQd2dTQllWMVNLUEZ1X0o0bWRBemtKb0VHcVRraVRfc1pVSnBXa2JWT0tSWVdtOWh0OUFjdWdiM2N5eXdzYmI5cFJyOWMxMmZBS3ZoZjcwdjVzdzlxdnloNnc1eVBPeTl1eFF5ZmIyMjc3b05YU3FzN3hDZ1BlQVZjVjVWZ3pOM1ZyNkxMLW5jU3JjRndZS2x0Qld5cWpqYzdYNGs1dzc1M0ljSHBxb1dzbHhWTGF6WkNiMXh3TnJKUkxubXcyQUpyVWZIYUFlU1BoTU9CaEpzelBIQ3d6UThMMDF6NWF3c0hRTnhKamNJTVA5RGVMbVJMOHpLNC1fVUl2QkkxbTMtNnE?oc=5
+
+Avolon, I Squared and ADIA create Constellation Aviation with a fleet valued at US$1.4 billion    Aviacionline

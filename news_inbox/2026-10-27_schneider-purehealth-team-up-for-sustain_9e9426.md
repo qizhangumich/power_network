@@ -1,0 +1,5 @@
+# Schneider, PureHealth team up for sustainable healthcare
+source: TradeArabia
+url: https://news.google.com/rss/articles/CBMimwFBVV95cUxNUVVvSUNVZUpXdGNWZDFDVlVFdS1hWkxzcDFhTmR6d1B5NE9KY05lM1FCdllmcjRVOEtVS3d2bTJUUTFTV0VrNHo3OWJJTktJcURRcTEtYmpBV0RsX2hJLVV2dmdLZ1RPNGM2TURVaUxjN254M0s1N3I2RDdCdEhxNkVfT2FEUmE5OGN5OHVHVmpqVjltdHV3Ykx1cw?oc=5
+
+Schneider, PureHealth team up for sustainable healthcare    TradeArabia

@@ -1,0 +1,5 @@
+# 2026 Abu Dhabi Maritime Awards Receives Record 132 Submissions, Underlining Regional Industry Strength and Awards’ Rising Influence
+source: DredgeWire
+url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxQN1lvUjdMbHItNXRxMzhYM0tGSXZpUk5pYUlTVVRaczk2TzhKc082aE1HWC1jQXowZkxlOHJpOXFXeEVPS2FMZTJLMHpQc2VKeFE3LTR4V0hlcm0yYzI2aHhRSnJiR2RfcVVYNU5DUFhEVUhBWXAtUUlQQzhpcTlHckJrM21QVF8xSlpXUldrQUtPMU5JRnFsS3pyYXN5NXZ2N3Z2Z05md01TLU5qM3k3aHcydjZGSy1FbW5FOVc5NXJyOVRuZU5kUEN4bV9KaTNnVW8tbFQ5aVk4dlM3R01wZWt2MnJlWXFw?oc=5
+
+2026 Abu Dhabi Maritime Awards Receives Record 132 Submissions, Underlining Regional Industry Strength and Awards’ Rising Influence    DredgeWire

@@ -1,0 +1,5 @@
+# Dr Sultan Al Jaber urges energy security overhaul as nearly billion barrels drawn from oil markets
+source: The National
+url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxOODhaMnpGdG5KY3R6OS1ocHQ5Nk56NmdQLUFIS2wyT3ljUHpfOHFFNXlRSW5STGRHbGRnVTlZUHpfZGl5NUE1dk5TekJ5QnFBTzl1R08xcnJPbEpSRFdWNFJpVGZjVGJvQUF1aU9jOFdxZGxoVnM1aW5lX01NNk03NU5nVlNSLV94RURDTUVZSXdSVjlIb3EwZWlrTUtzS0plWFRKUXd5TTgzWmt0NHpBZ2U4VXIxa0g1MUJWejdlUUZsUzBHN3FVaVVxMXJCNWlGMFpzMnFXSGFWVTJmdWFsdFJ3UWttZ2xDRXZqeDNMYw?oc=5
+
+Dr Sultan Al Jaber urges energy security overhaul as nearly billion barrels drawn from oil markets    The National

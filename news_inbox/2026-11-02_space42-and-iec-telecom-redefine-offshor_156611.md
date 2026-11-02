@@ -1,0 +1,5 @@
+# Space42 and IEC Telecom Redefine Offshore Operational Resilience with Network Intelligence at ADIPEC 2026
+source: Business Focus Magazine
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUWVwRkxVR1JYQ3JVbDhqM3dMR3FjeVJjT3JqTDBWUHI0bTJnOWN0QXJuOC1xN295bGt0N3BFQnhrbV81akk5SXpuZW50TDc2QmVvbmpCV3JzQnVXM1Vrem5xVHNZRmY2Rk9LZThzTDlXMkZMQzJfZEtCdlVZVEg0TVJKeEptUE1GRTkxNTB1Uy02RkVrS2x0SG84RzhPb2dDMEszZEVUZ0hWdnhQc05qYXVyamhyZU03eEtta2pRT01uR1ozUGp1WDVQeTE4dUgxblEzX3NRTUUybHpYdUtvbENpYjJiUQ?oc=5
+
+Space42 and IEC Telecom Redefine Offshore Operational Resilience with Network Intelligence at ADIPEC 2026    Business Focus Magazine

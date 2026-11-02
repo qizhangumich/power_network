@@ -1,0 +1,5 @@
+# Apollo Global agrees to buy minority stake in Mubadala Capital (update)
+source: TradingView
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOdGE1eHVnUGkyODFrNGoxVE80RXIwMldmTkNJOFNZWEZwb3hxOUhjLW1GUEU1dHdSdEQ5YWh0QmxndUpQeDdTQ1VmRmcySXIzN2l2V1JDM0ZzZDJYMGtMamIwcUx0c2xhS2tiSE9NYTBOdEdueDBkMmVnSTVrQlFFVU4tcDk3c2ZHQmpVN3VvaWNFazh2bjIza0NRejhTUzRsSV81Y2xuVlhzYnJGVEpHUkxzNHhxakZVVWZxLTdEaEtKd3p5WUZ5QWRZYVU?oc=5
+
+Apollo Global agrees to buy minority stake in Mubadala Capital (update)    TradingView

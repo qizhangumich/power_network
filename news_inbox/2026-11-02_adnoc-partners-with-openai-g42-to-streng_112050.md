@@ -1,0 +1,5 @@
+# ADNOC Partners With OpenAI, G42 To Strengthen Advanced AI Adoption
+source: Forbes Middle East
+url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxOa2lmc0dYQmIzdm1ZWEM3SUJuU0syYjJkdE1EbjNHWlNBY1JnYnVaMUhTc0EzTFItT21XeTdnbEE3SUxoa1VKQXdLYXBxcUdXT0JLOThGY3dRUlp3MDN2S3l4UHRPdlBjb0VNbmV3OGdPdUt1S3FhRkVXYmFUTnFpZXFnbmN3N2VHTm42eGpwZ3BaRWxlMU5XU0dzcVhDVDlSdnNqVzFaTmtQM2lNZGVYQk9rTV9NUXp6MWQ5YlFaeWROdl9MemtfLXc2TWRpU0Q1LW1JTHJEVnZMRDlSSWpteUpQenBoN3g1Z0lvdA?oc=5
+
+ADNOC Partners With OpenAI, G42 To Strengthen Advanced AI Adoption    Forbes Middle East

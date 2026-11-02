@@ -1,0 +1,5 @@
+# Noatum Logistics doubles trucking fleet to over 850 units to expand GCC operations
+source: Prop News Time
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxOVFZtaUNUb0pSZWphbkRrNUpNZHhtM2RrbThSNmFDYmJCRkxRNkZNYnlmcUVwRmJrbFA0V3RmckZ3Sm94RlZnbUN5N19QMHBuNzZmcHFfQjMzYjJ6Vm56cmNGdVlteXg4V2hjVmtkZFRHbHFPXzk5T2dvbHlCVk5TaS0zel9YVnZsQUtWcm5Oc0JOZ2RTaFM2aHc2dVlqRUJGSEhMQ1pXVmRFbF9WWTB2eW5WQV9MOWx4UHI5ajVNMWRFMEJ4ZU1OakVYY2lSVTA?oc=5
+
+Noatum Logistics doubles trucking fleet to over 850 units to expand GCC operations    Prop News Time

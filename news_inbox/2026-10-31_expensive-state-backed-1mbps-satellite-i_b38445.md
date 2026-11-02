@@ -1,0 +1,5 @@
+# Expensive state-backed “1Mbps” satellite Internet company goes dark after launching in South Africa
+source: MyBroadband
+url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeVZqUnRIeWg1YnNXMDVKYWtsaFRlQTBiT2VlSFNHX0x0RWdhcDRoUW11NVh6cElXU1AxVnhVcTBzdDZSUlhiM2VOOWYxck1Nbng0V2JnaTZJQnhNemdBbklTdmVjdTdXd1R1d3FuQkIySlMwQVQxZUtjZm5JejZ1VzlvbExkc2F2YVhHOXJmM25Md2owM0JMd21pNkFKNDVFYkZxcXNuTEZtYUdCRXVwTzB0ZDByUjFvcGN3RHlUM2NVZ2trR2llUXZYU2ZCeWhkM1JDRC1TdEJNNWdQNHl0UnIySmg?oc=5
+
+Expensive state-backed “1Mbps” satellite Internet company goes dark after launching in South Africa    MyBroadband

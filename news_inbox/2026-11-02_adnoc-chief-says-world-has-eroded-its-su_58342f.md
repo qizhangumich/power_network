@@ -1,0 +1,5 @@
+# ADNOC Chief Says World Has "Eroded Its Supply Buffers"
+source: Crude Oil Prices Today | OilPrice.com
+url: https://news.google.com/rss/articles/CBMirAFBVV95cUxOVEVNUVJLeS1HcVBpUmFiWXRrRE52dnF3MkoydHA0c0h5N0Q1di1BMFVNVXJoWlpLZ3kwTVJxVVBDdTg5UTZUUDdOSlA4M1E4RWRqeTR2TVh3Q0lyY09zV3JRb0xQV3NxZEVMTFFudkRuWkphcVdTUXZUYmVCTU9samJlUFJORzY1ZTZlZmwxMmpId29kbEFWQTdXT1VCX3RmazZqYUFBN2J1UXlr0gGyAUFVX3lxTFBWazVQUTVvWWhva0tHUDA3bl9vZ1Z1dHVmTTU4UkdHd3hXTjd0cmtFVVRsSEJnVWRSVWtYNDFCbGdaNF9yZmJzTWlsRXM0Rl9rTy1WV3JwZ2VMVHRyVmRzTFpiMEVvdWRLM1FHeldCNS1oVDMxOUQ4eWhhQ0haRHdxN2xHbW01T2o1QjRBZnM3QXdKeWJ3N19yeUM4WW1kdnBZbXFzZ3BHbkRXcW1jM1ZVSXc?oc=5
+
+ADNOC Chief Says World Has "Eroded Its Supply Buffers"    Crude Oil Prices Today | OilPrice.com

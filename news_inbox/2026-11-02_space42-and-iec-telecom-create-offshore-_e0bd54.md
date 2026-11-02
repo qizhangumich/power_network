@@ -1,0 +1,5 @@
+# Space42 and IEC Telecom create offshore operations comms package
+source: Smart Maritime Network
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQNGNEU1ZtcVMzTkhJNkdHS3ViSWtEYzgtb0wteU9UcU1xa202b1hRY1B0LWV6NWJfNDhiN0hFcXIzZGNXRUUtalRmajZ6MXd0bDRES3dwMmRKa2pSeGlYcTNnX0xieDgzSFJtV2RDZmVZc0pIWlczWDJmV0dELTQ0SjZyNjluYVNyVm9Db1Y0b1BLc2FDZS1RWl92R2k4cDVMc3BXeVRpT2hETzEtSEE?oc=5
+
+Space42 and IEC Telecom create offshore operations comms package    Smart Maritime Network

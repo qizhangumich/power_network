@@ -1,0 +1,5 @@
+# TMS Tanker Conference 2026 to address key industry challenges
+source: The Maritime Standard
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcUZ0eEdTdFp0d1I5cnphT25scldubjZlTVI0TWJxVGxmc0pHOTBEV1JKczNTMllIMTFGOFlTajhQTVNoUXV1RmlNU3I0aHlZanpNZVZzR0JlSGozaG5EQTlSRk1zeFk1SENMR0x2TlItMjI1ZUlUNmh2OVpZMDFVcWk2bUlWZmJFd3NDdW1kYUI1c0RCdUI5dWd3MUJfa1F1Rk1JcGtsekZTNjBnRFhzblBWb19lSUxOTjFNOVk1VHI3b2RQVm5QWGFYbGFteFA1?oc=5
+
+TMS Tanker Conference 2026 to address key industry challenges    The Maritime Standard

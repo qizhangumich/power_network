@@ -1,0 +1,5 @@
+# Space42 and IEC Telecom launch intelligent offshore connectivity solution
+source: SatellitePro ME
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRFRWWmtlbDA4WGR1eEZWTlhicy1lVzdIcFBKMWFxdDdkU19LamEyalZ3YmotbDAyTTZCMkQxNm1ZclprQzdoMlpJWko3QlcycnZiRjJrSHdXU3FscHpWMFZfYlZ6dXRIa1h0NnlrZ2syZmRJTm5nOGg4Y0JFVTFNc0Z5Zlg3UC1qdENvekxnVWVSU0lQQUxGZTY0aEFpU2dEaXRaVXVOcVdVdw?oc=5
+
+Space42 and IEC Telecom launch intelligent offshore connectivity solution    SatellitePro ME
