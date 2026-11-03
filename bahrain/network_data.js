@@ -190,6 +190,8 @@ const INSTITUTIONS = [
   {id:"al_ayam_publishing", n:"Al Ayam Publishing Group", s:"comm", t:3, p:52, short:"Al Ayam Publishing"},
   {id:"racing_force", n:"Racing Force Group S.p.A.", s:"industry", t:3, p:54, short:"Racing Force"},
   {id:"sbpc", n:"Saudi Bahrain Pipeline Company", s:"energy", t:3, p:57, short:"SBPC"},
+  {id:"nssa", n:"National Space Science Agency", s:"tech", t:2, p:54, short:"NSSA"},
+  {id:"sce", n:"Supreme Council for Environment", s:"gov", t:1, p:60, short:"SCE"},
 ];
 
 const PEOPLE = [
@@ -3809,4 +3811,5 @@ const AKA = {
   moca_bahrain:["MoCA","Minister of State for Cabinet Affairs"],
   national_motor:["NMC"],
   al_ayam_publishing:["Alayam","Dar Al Ayam"],
+  nssa:["Bahrain Space Agency"],
 };

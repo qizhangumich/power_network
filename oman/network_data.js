@@ -243,6 +243,7 @@ const INSTITUTIONS = [
   {id:"raysut_cement", n:"Raysut Cement Company", s:"materials", t:3, p:56, short:"Raysut Cement"},
   {id:"mb", n:"MB Holding Company LLC", s:"conglomerate", t:3, p:58, short:"MB Holding"},
   {id:"mawarid_green", n:"Mawarid Green Technologies", s:"industry", t:3, p:55, short:"Mawarid Green"},
+  {id:"owwc", n:"Oman Water and Wastewater Services Company", s:"utilities", t:2, p:58, short:"OWWC"},
 ];
 
 const PEOPLE = [
@@ -1699,6 +1700,37 @@ const PEOPLE = [
     ["mb","Board Director - MB LLC","board","v"]]},
   {id:"iman_al_barwani", n:"Iman Al Barwani", t:2, p:60, s:"conglomerate", roles:[
     ["mb","Chief Executive Officer, MB Foundation","executive","v"]]},
+  {id:"ali_bin_abdullah", n:"Ali bin Abdullah Al-Zadjali", t:2, p:62, s:"materials", roles:[
+    ["raysut_cement","Chairman of the Board","board","v"]]},
+  {id:"salim_abdul_qader", n:"Salim Abdul Qader", t:2, p:60, s:"materials", roles:[
+    ["raysut_cement","Chief Executive Officer","executive","v"]]},
+  {id:"salim_ahmed_alawi", n:"Salim Ahmed Alawi Al-Ibrahim", t:2, p:60, s:"materials", roles:[
+    ["raysut_cement","Acting Deputy Group CEO","executive","v"]]},
+  {id:"yousef_ahmed_alawi", n:"Yousef Ahmed Alawi Al Ibrahim", t:2, p:58, s:"materials", roles:[
+    ["raysut_cement","Chief of Support Services and Business Development","executive","v"]]},
+  {id:"afroz_ansari", n:"Afroz Ansari", t:2, p:58, s:"materials", roles:[
+    ["raysut_cement","Plant Manager","executive","v"]]},
+  {id:"mohammed_ahmed_aideed", n:"Mohammed Ahmed Aideed", t:2, p:46, s:"materials", roles:[
+    ["raysut_cement","Head of Sales","executive","v"]]},
+  {id:"girish_nanda", n:"Girish Nanda", t:2, p:60, s:"finance", roles:[
+    ["thawani","Chief Executive Officer","executive","v"]]},
+  {id:"majid_al_amri", n:"Majid Al Amri", t:2, p:60, s:"finance", roles:[
+    ["thawani","Founder & Managing Director","executive","v"],
+    ["thawani","Board Member","board","v"]]},
+  {id:"ramki_g_v", n:"Ramki G.V", t:2, p:58, s:"finance", roles:[
+    ["thawani","Chief Business Officer","executive","v"]]},
+  {id:"guhan_srinivasan", n:"Guhan Srinivasan", t:2, p:46, s:"finance", roles:[
+    ["thawani","Head of Finance & Accounts","executive","v"]]},
+  {id:"ahmed_al_harthi", n:"Ahmed Al Harthi", t:2, p:46, s:"finance", roles:[
+    ["thawani","Head of Corporate Affairs","executive","v"]]},
+  {id:"mahra_al_juma", n:"Mahra Al Juma", t:2, p:58, s:"finance", roles:[
+    ["thawani","HR Risk and Compliance Manager","executive","v"]]},
+  {id:"aajay_girit", n:"Aajay Girit", t:2, p:58, s:"finance", roles:[
+    ["thawani","Chief Marketing Officer","executive","v"]]},
+  {id:"eyhab_al_haj", n:"Eyhab Al Haj", t:2, p:52, s:"energy", roles:[
+    ["hema_energy","Board Member","board","v"]]},
+  {id:"loay_al_haj", n:"Loay Al Haj", t:2, p:58, s:"energy", roles:[
+    ["hema_energy","Group Technology Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1865,6 +1897,7 @@ const OWNERSHIP = [
   ["mara_oman","com_om","ministry of","v"],
   ["riyada","com_om","public authority","v"],
   ["mawarid_green","oq","subsidiary of (via O-Green platform, OQ Alternative Energy JV)","ns"],
+  ["owwc","apsr_oman","regulated by","v"],
 ];
 
 const FAMILY = [
@@ -1940,4 +1973,5 @@ const AKA = {
   riyada:["SME Development Authority"],
   raysut_cement:["Raysut Cement Company SAOG"],
   mawarid_green:["O-Green","Mawarid Turbine"],
+  owwc:["OWWSC","Diam","Haya Water"],
 };

@@ -244,6 +244,7 @@ const INSTITUTIONS = [
   {id:"al_sharqi_shipping", n:"Al Sharqi Shipping Co. LLC", s:"industry", t:3, p:54, short:"Al Sharqi Shipping"},
   {id:"aither", n:"Aither", s:"tech", t:2, p:60, short:"Aither"},
   {id:"dh_investments", n:"Dubai Holding Investments", s:"finance", t:2, p:62, short:"DH Investments"},
+  {id:"mbrsc", n:"Mohammed Bin Rashid Space Centre", s:"tech", t:2, p:58, short:"MBRSC"},
 ];
 
 const PEOPLE = [
@@ -2763,6 +2764,7 @@ const OWNERSHIP = [
   ["arab_media","dubaiholding","subsidiary","v"],
   ["aither","dubaiholding","AI joint venture with Palantir Technologies launched 4 Nov 2025 (Palantir's first UAE JV) to lead AI-driven transformation across Dubai Holding's businesses, under the Dubai Economic Agenda D33","v"],
   ["dh_investments","dubaiholding","core operating company (global/cross-asset-class investment arm)","v"],
+  ["mbrsc","dxbgov","Dubai Government entity (est. by Dubai Law No. 17 of 2015)","v"],
 ];
 
 const FAMILY = [
@@ -2870,4 +2872,5 @@ const AKA = {
   arab_media:["AMG"],
   itp_media:["ITP"],
   canadian_univ_dubai:["CUD"],
+  mbrsc:["EIAST"],
 };

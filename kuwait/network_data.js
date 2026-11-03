@@ -254,6 +254,7 @@ const INSTITUTIONS = [
   {id:"amer_univ_mid", n:"American University of the Middle East", s:"education", t:2, p:58, short:"Amer Univ Mid East"},
   {id:"royale_hayat_hosp", n:"Royale Hayat Hospital", s:"health", t:3, p:54, short:"Royale Hayat Hosp"},
   {id:"st_martins_prop", n:"St. Martins Property Corporation", s:"realestate", t:2, p:58, short:"St. Martins Prop."},
+  {id:"pafn", n:"Public Authority for Food and Nutrition", s:"gov", t:2, p:56, short:"PAFN"},
 ];
 
 const PEOPLE = [

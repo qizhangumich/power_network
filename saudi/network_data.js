@@ -567,6 +567,10 @@ const INSTITUTIONS = [
   {id:"al_ahli_fc", n:"Al Ahli Saudi Football Club", s:"consumer_disc", t:2, p:56, short:"Al-Ahli FC"},
   {id:"esl_faceit", n:"ESL FACEIT Group", s:"tech", t:2, p:58, short:"ESL FACEIT"},
   {id:"scopely", n:"Scopely, Inc.", s:"tech", t:2, p:60, short:"Scopely"},
+  {id:"saip", n:"Saudi Authority for Intellectual Property", s:"gov", t:2, p:56, short:"SAIP"},
+  {id:"rega", n:"Real Estate General Authority", s:"realestate", t:2, p:58, short:"REGA"},
+  {id:"ncm", n:"National Center for Meteorology", s:"gov", t:2, p:54, short:"NCM"},
+  {id:"alawwal_capital", n:"Alawwal Capital Company", s:"finance", t:3, p:54, short:"Alawwal Capital"},
 ];
 
 const PEOPLE = [
@@ -657,6 +661,7 @@ const PEOPLE = [
     ["moind","Minister of Industry & Mineral Resources (2019–Jul 2026)","political","v","former:until Jul 2026"]],
     note:"Relieved as Minister of Industry & Mineral Resources on 11 Jul 2026 (royal order); reassigned as Minister of State and Governor of GAMI (General Authority for Military Industries). Succeeded at Industry by Abdulaziz bin Salman."},
   {id:"qasabi", n:"Majid Al-Qasabi", t:1, p:76, s:"gov", roles:[
+    ["monshaat","Chairman of the Board of Directors","board","v"],
     ["moc_sa","Minister of Commerce","political","v"]]},
   {id:"alibrahim", n:"Faisal Alibrahim", t:1, p:80, s:"gov", roles:[
     ["rcrc","Board Member (Minister of Economy and Planning)","board","v"],
@@ -2410,6 +2415,7 @@ const PEOPLE = [
   {id:"ahmed_sulaiman_aljasser", n:"Ahmed Sulaiman AlJasser", t:2, p:52, s:"gov", roles:[
     ["sfd","Board Member","board","v"]]},
   {id:"sami_ibrahim_alhussaini", n:"Sami Ibrahim Alhussaini", t:2, p:52, s:"gov", roles:[
+    ["monshaat","Governor of the Small and Medium Enterprises General Authority (Monsha'at)","executive","v"],
     ["sfd","Board Member","board","v"]]},
   {id:"naif_a_al", n:"Naif A. Al-Shammari", t:2, p:52, s:"gov", roles:[
     ["sfd","Board Member","board","v"]]},
@@ -4289,4 +4295,5 @@ const AKA = {
   al_ittihad_club:["Al-Ittihad"],
   al_ahli_fc:["Al-Ahli Club"],
   esl_faceit:["EFG"],
+  alawwal_capital:["Alawwal for Financial Services"],
 };

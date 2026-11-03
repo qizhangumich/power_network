@@ -216,6 +216,7 @@ const PEOPLE = [
     ["rakgov","Ruler of Ras Al Khaimah","political","v"]],
     note:"Turned RAK into a tourism/industry story — capped by the Wynn casino-resort bet."},
   {id:"mohammed_saud_rak", n:"H.H. Sheikh Mohammed bin Saud Al Qasimi", t:0, p:78, s:"gov", roles:[
+    ["rak_epda","Crown Prince of Ras Al Khaimah and Chairman of the EPDA","board","v"],
     ["sharjah_finance","Chairman","board","v"],
     ["rakgov","Crown Prince of RAK","political","v"],
     ["rak_execco","Chairman","political","v"]]},
@@ -1486,6 +1487,14 @@ const PEOPLE = [
     ["gulf_craft","Research & Development Manager","executive","v"]]},
   {id:"ali_abdullah_bin", n:"Ali Abdullah bin Alwan Al Nuaimi", t:2, p:58, s:"gov", roles:[
     ["rak_police","Commander-in-Chief of Ras Al Khaimah Police General Command","executive","v"]]},
+  {id:"abdulrahman_al_shayeb", n:"Abdulrahman Al Shayeb Al Naqbi", t:2, p:58, s:"gov", roles:[
+    ["rak_epda","Acting Director General of EPDA","executive","v"]]},
+  {id:"yousif_ahmed_al", n:"Yousif Ahmed Al Ali", t:2, p:60, s:"utilities", roles:[
+    ["etihad_w_e","Chief Executive Officer","executive","v"]]},
+  {id:"suhail_mohamed_al", n:"Suhail Mohamed Al Mazrouei", t:2, p:62, s:"utilities", roles:[
+    ["etihad_w_e","Chairman of the Board","board","v"]]},
+  {id:"murad_alblooshi", n:"Murad AlBlooshi", t:2, p:58, s:"utilities", roles:[
+    ["etihad_w_e","Chief People Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

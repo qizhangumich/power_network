@@ -331,6 +331,10 @@ const INSTITUTIONS = [
   {id:"sammaan_capital", n:"Sammaan Capital Limited", s:"finance", t:2, p:62, short:"Sammaan Capital"},
   {id:"peko", n:"Peko Holdings Limited", s:"tech", t:3, p:54, short:"Peko Holdings"},
   {id:"reem_finance", n:"Reem Finance PJSC", s:"finance", t:3, p:55, short:"Reem Finance"},
+  {id:"federal_tax_auth", n:"Federal Tax Authority", s:"gov", t:1, p:64, short:"Federal Tax Auth"},
+  {id:"icp", n:"Federal Authority for Identity, Citizenship, Customs & Port Security", s:"gov", t:1, p:62, short:"ICP"},
+  {id:"mohre", n:"Ministry of Human Resources and Emiratisation", s:"gov", t:1, p:64, short:"MOHRE"},
+  {id:"ncema", n:"National Emergency Crisis and Disasters Management Authority", s:"gov", t:1, p:60, short:"NCEMA"},
 ];
 
 const PEOPLE = [
@@ -4791,4 +4795,6 @@ const AKA = {
   venture_global_lng:["VG LNG"],
   riq:["Reinsurance Intelligence Quotient"],
   first_women_bank:["FWBL"],
+  federal_tax_auth:["FTA"],
+  icp:["Emirates Identity Authority","ICA"],
 };
