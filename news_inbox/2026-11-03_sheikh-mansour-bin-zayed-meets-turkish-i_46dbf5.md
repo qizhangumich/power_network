@@ -1,0 +1,5 @@
+# Sheikh Mansour bin Zayed meets Turkish intelligence chief in Abu Dhabi
+source: The National
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcy16cTlVMTZrRHMzekdaUUY5SlUtUDNzLVRMNTRiczhBRHNQTUlIVjJXZHM2LTlUWDBrRG02NW1kX1NNQ180LU9ESmtxRUZwNWsyOF9DYU5MRldKNjl2NUNGQ240YUxjb21VcFotVWZVMzdVQ2FyN2NrWmFZak5pd200VEpkM1ZZeWZicmg1RDZJYmVmM20wRmtHdFJnSVVWNzVOS241cDBlZnRNcENIU2RORWxDTFVqSFVSMmZwUFc?oc=5
+
+Sheikh Mansour bin Zayed meets Turkish intelligence chief in Abu Dhabi    The National

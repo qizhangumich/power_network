@@ -1,0 +1,5 @@
+# ADNOC to Become 1st Energy Firm to Deploy OpenAI Frontier
+source: Rigzone
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxPdDlEMGZHekhXRkNKVzhwNklmcmtnTjJkMEdhQnJOeUwyaUp4eFlfOFpGdk5RWVlyc0ZFTV9zdFNfUXF0dGJNclJuZjhla3hXNjN4UnRsbEYyLU1UMWo1aUZQbnlwZWVGVE8tWG5Zc201aTRsaGd6bDE2cHdRb1dac25TUzVhbjVGaWZfMThlMXprRDNzdktEYW41R0hJa19kWjVsRW9fSGtDV3ZyYUVqbFNweUI?oc=5
+
+ADNOC to Become 1st Energy Firm to Deploy OpenAI Frontier    Rigzone

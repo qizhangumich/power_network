@@ -1,0 +1,5 @@
+# AD Ports appoints group CEO
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNZE1oaUZFaElORnZoTHFFN0lqdW13eTVmb0RNandhN0g1Y3JBWDRVeGljckJLLUFHbVVQaFZ6RFc3Q1RmOWhUZEFjdWpwNjhVRzJCSjM1OTNUT1hDZlFVcFN1OTdjZUFwQXlKaUpBandkd0xfSUQ3SGR1cUowSmFUZ0w4WlhkZw?oc=5
+
+AD Ports appoints group CEO    EnterpriseAM
