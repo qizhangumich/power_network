@@ -275,7 +275,7 @@ const INSTITUTIONS = [
   {id:"lst_8311", n:"Enaya Cooperative Insurance Co.", s:"finance", t:2, p:50, short:"8311"},
   {id:"lst_8313", n:"Rasan Information Technology Co.", s:"finance", t:2, p:74, short:"Rasan"},
   {id:"lst_7030", n:"Zain Saudi Arabia", s:"comm", t:2, p:58, short:"Zain Saudi Arabia"},
-  {id:"lst_7040", n:"Go Telecom (Etihad Atheeb Telecommunication Co.)", s:"comm", t:2, p:50, short:"7040"},
+  {id:"lst_7040", n:"GO Telecom (Etihad Atheeb Telecommunication Co.)", s:"comm", t:2, p:56, short:"GO Telecom"},
   {id:"lst_2081", n:"Alkhorayef Water and Power Technologies Co.", s:"utilities", t:2, p:50, short:"2081"},
   {id:"lst_2083", n:"Marafiq (Power and Water Utility Company for Jubail and Yanbu)", s:"utilities", t:2, p:50, short:"2083"},
   {id:"lst_2084", n:"Miahona Holding Co.", s:"utilities", t:2, p:50, short:"Miahona Holding Co."},

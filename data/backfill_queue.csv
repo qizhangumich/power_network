@@ -190,6 +190,7 @@ qatar,rloc,Ras Laffan Olefins Company,materials,56,0,pending
 qatar,q_chem,Qatar Chemical Company,materials,56,0,pending
 saudi,lst_1320,Saudi Steel Pipe Co.,materials,56,0,pending
 saudi,lst_2330,Advanced Petrochemical Co.,materials,56,0,pending
+saudi,lst_7040,GO Telecom (Etihad Atheeb Telecommunication Co.),comm,56,0,pending
 saudi,tahakom,Tahakom Investments Company,tech,56,0,pending
 saudi,saudi_coffee,Saudi Coffee Company,consumer_stap,56,0,pending
 saudi,hpdc,Halal Products Development Company,consumer_stap,56,0,pending
@@ -825,7 +826,6 @@ saudi,lst_8280,LIVA Insurance (Saudi Enaya/AXA Cooperative),finance,50,0,pending
 saudi,lst_8300,Wataniya Insurance Co.,finance,50,0,pending
 saudi,lst_8310,Amana Cooperative Insurance Co.,finance,50,0,pending
 saudi,lst_8311,Enaya Cooperative Insurance Co.,finance,50,1,pending
-saudi,lst_7040,Go Telecom (Etihad Atheeb Telecommunication Co.),comm,50,0,pending
 saudi,lst_2081,Alkhorayef Water and Power Technologies Co.,utilities,50,0,pending
 saudi,lst_2083,Marafiq (Power and Water Utility Company for Jubail and Yanbu),utilities,50,0,pending
 saudi,lst_2084,Miahona Holding Co.,utilities,50,0,pending
