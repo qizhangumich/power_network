@@ -1,0 +1,5 @@
+# ADNOC becomes first energy company to deploy OpenAI Frontier in landmark deal with G42
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQQ2oteUpqX1dXR0tKMW00NnJweldHNWt6bV9wU2lRQmxpMkd4bUNQb0FIX0M2ZDNPMjlUajdDelJOSEJZR2psanl0NUN0ZGFtNVpsSDFVa0FCdG5ZM2dfYXdTdEs2TVZ6VzFJeGJYdmdUWEVYTWNDTkV1c204TWNGdVJVaE1oRmxoMG1pYm5XdXNHb0ZOR1B3WnQ0Q0g4dHpQSTRrengxc0xJQ0RGRnlBRkdYVU1LbjAzYnRhYXd6NERFaTBzaU1DV3lhU0VyRnM?oc=5
+
+ADNOC becomes first energy company to deploy OpenAI Frontier in landmark deal with G42    Arabian Business

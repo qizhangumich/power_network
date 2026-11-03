@@ -1,0 +1,5 @@
+# Sheikh Khaled bin Mohamed meets Sam Altman and witnesses signing of agreements with OpenAI - in pictures
+source: www.thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxNM2VhbllneHRfWnc4SGZCaWEyZm8zSHBwZlVadDlHcENVdUNGVzN0bWdUdUx3SVlwQVVxekFER0JnUVpob2U3bXhGRHpFSkgtcmZ6czRXb3FCQjQzX3RWWThkdkh1NEtSY2RpdElyZi14QXM1MDg1bWE5Y0Z1ZUlyOW9fdTRsTHlvRFF2R0tkWnkycUQtVTlXYTlfRUdVQWd0cnVFaUVyQXZPNzFoS0pfUEVZMm4yY3RGazZoMHhBVERDZnhEa1JOWGtRc3NWRWc5OVdCWlFDQzFrUzFOejl2ZUhBeElhQQ?oc=5
+
+Sheikh Khaled bin Mohamed meets Sam Altman and witnesses signing of agreements with OpenAI - in pictures    www.thenationalnews.com

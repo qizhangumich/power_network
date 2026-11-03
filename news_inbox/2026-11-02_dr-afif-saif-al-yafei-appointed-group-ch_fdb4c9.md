@@ -1,0 +1,5 @@
+# Dr. Afif Saif Al Yafei Appointed Group Chief Executive Officer at AD Ports Group
+source: Maritime Logistics News
+url: https://news.google.com/rss/articles/CBMihwFBVV95cUxNd2ZLbXhHWFU5aUdPNkdWZXFqdW5oRmJXT1RPc040OGJONlZLakhHc2NEblRnU1BDaENSTEFaQUlGNUtwNVlXTDJjenVRdnhCdndHakFJME1WT0hHaGg2cUxlVTM4dDVZdDd5ZEFtbVhhSG5MdlZRZDhQY0p0ZV9lTW0zU0FSdTTSAYwBQVVfeXFMUGFQQ1BmYU9FTms5aXYyN1Yyc01DaU5Gd3ktWXA0TDRiT1VKUjVvRXVwVHIyRnVRTGZSWnlRMk9wNXhKQTQycWpOa0dzWDJ2YmtZOFhUMVFlZ3lDcjFWdnU2YWx5eE5qS3MtcHltbnhEX05USkpIeThhZnhMRDFIZ05FY05YTG5naUcweHU?oc=5
+
+Dr. Afif Saif Al Yafei Appointed Group Chief Executive Officer at AD Ports Group    Maritime Logistics News

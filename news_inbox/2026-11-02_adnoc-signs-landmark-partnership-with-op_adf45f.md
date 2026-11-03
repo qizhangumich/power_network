@@ -1,0 +1,5 @@
+# ADNOC signs landmark partnership with OpenAI and G42 to integrate frontier AI models for operational and commercial planning in UAE
+source: ANI News
+url: https://news.google.com/rss/articles/CBMijwJBVV95cUxPVmZjLUlRX1pkTGUyZ2RyOFA4YlZncTlmUzJmdWRXdXFLMHZPRVZhVTE3QzRETEdUdVpzOXdkTkdVR3NkYm9TWEVEN0pkbFRSQW9ZMHNQZFBPXzRsSi03T2tjVU5rX2JyZ25oVjZYUVFHWW1SQUhZbDRYeEhOZzM2Y1h4NW4xaWpkelh0U3VsN0hyVGJvQ1ljbG1vVExDMHNFMlRMcVVEZktoajdkVnQtLXQ2bHV6Vk53NWhZWEZmNzRUM0V4VGZsMHE5RWxrVm5CQi1IUEtxUFkteW84V1hOazRGRHYyT29FbW9reVVEdzRPbHJmVXdmdWlfRnlyd0hkdjNrNThKRDB2UHBuSXc0?oc=5
+
+ADNOC signs landmark partnership with OpenAI and G42 to integrate frontier AI models for operational and commercial planning in UAE    ANI News

@@ -1,0 +1,5 @@
+# Mubadala debottlenecks flagship Malaysia gas asset
+source: Upstream Online
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxQaFVXclVnbjJxa0ozRW43QzRfMDA3T25YeFp2VURISHRmQndHRUd4NC1lNTFjdGMyZnJhMTZCNFpTTWU4RW1RS2V3MkQ2X214eTR3aVI1Ym85T09TYXZLbmp0Q0xwYmZobWJFQ1B2b3lfZy1oN3BGWjZFa19uT1RMRDdtejd6VkItMldiS1M4M21xSTJVZDk2SUQ0VUc5a1p6RnVKUDFOZHRZaC05eXVabg?oc=5
+
+Mubadala debottlenecks flagship Malaysia gas asset    Upstream Online

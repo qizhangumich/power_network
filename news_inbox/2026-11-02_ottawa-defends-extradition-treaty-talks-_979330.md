@@ -1,0 +1,5 @@
+# Ottawa defends extradition treaty talks with UAE as civil society groups sound alarm
+source: battlefordsNOW
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOWpsZnhSV3pxNGZUOUk5SndCZXVEODNyamp5NTgxQkF2alM2M2o0VWNRVVU4VEtPa0NNU1JJaVI4TjFXckVvcVFTc1NMemRLcEZBTnFUSERWci0tc21LNEo0aksxVzVyZnVLVmRKeG5maC1fRXNjbTlLVnFuNU5RLXhqbW5LUWxwSV91VngybW1oc3hkQk4yTjNWT1lkT0RpWjB4ME1pWXlOZVJ3WHVDRHh1ODJNMkhJLVNKandjMUM?oc=5
+
+Ottawa defends extradition treaty talks with UAE as civil society groups sound alarm    battlefordsNOW

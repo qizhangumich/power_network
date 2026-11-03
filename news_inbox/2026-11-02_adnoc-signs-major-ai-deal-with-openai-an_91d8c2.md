@@ -1,0 +1,5 @@
+# ADNOC Signs Major AI Deal With OpenAI and G42 to Boost Efficiency
+source: Crude Oil Prices Today | OilPrice.com
+url: https://news.google.com/rss/articles/CBMipwFBVV95cUxQM3pKREhYYmFudkxOam5JLXRVbkp1Mnpuc0pBOEZlNG0ycVo0SS1mTGkyRi1kb043b1RnVktnVTJnSzlyWXFrWVhVNXhmQm4yM2hOcXNJZ09CSTRoUlpkTnFud2M0OGZGVEtGOXdBR0dGdEVSUm5iSDZNcmczSnhrZGhCdzJuNG5rcU5oODMwSVNmNlRUUWRDanllam9BZzE2R1BhekJoa9IBrAFBVV95cUxNeEpGdnZpakVnUGxCU08yY3Etb3F4VzUzUW1CVkF0anUxTFBUODZzXzZtcjlhZVRuTk9qNkUtVlIzMGRuWmh1bHBLMXFDbDZ2clViYi1ObnNVaTlKUThCVkt2T0FQT1VRcVJRTFNLQW8tQ1gySE5meVFfZkUzUlN1Ujh0d0hJYXVUTEF0RDlGT2pOelFPNUQtWUNnUDF4SGpCVmo0NzlGRnhXWVpx?oc=5
+
+ADNOC Signs Major AI Deal With OpenAI and G42 to Boost Efficiency    Crude Oil Prices Today | OilPrice.com

@@ -1,0 +1,5 @@
+# HE Dr Sultan Al Jaber and Sam Altman highlight energy, AI and investment priorities at ADIPEC 2026 opening
+source: StreetInsider
+url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxPS3NYVmU0b2NOT0RIWjA1Ml8wSFBldFRSaXdvdVNxRUtrSDBvS3dvVFVqd0ZZbm42MGxydnozUUF1YlhqaFZ2ZXBWZUVkcWdRQkRSVXBxd0ZRSUs5Z2dBdGhncDhab3FJTjEwbl9FbDVaMkVBYXhlODAzVDlGdXVTNHA2bHdsaEdTMEVWeFpJY2ZwM1lHN1NpWUNRMU02NnhEX2dnSE92LTdlNUEwcFVGRjc4elIwWk1Temk4dk9BbUFudlZkQWVnQXJQQ0ZPUUVsTEFXV1R6aXpPV1dQdk9wd195MlA1T2RuMHRMd1VjeGhSX1o3RkE?oc=5
+
+HE Dr Sultan Al Jaber and Sam Altman highlight energy, AI and investment priorities at ADIPEC 2026 opening    StreetInsider

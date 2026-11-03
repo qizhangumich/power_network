@@ -1,0 +1,5 @@
+# FlexiRoam Reaches Five Consecutive Cash-Positive Quarters, Signs Etihad Airways and Dragonpass Agreements in Q1 FY27
+source: Kalkine
+url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbXl6MHF6V250MEFBMUxDLVBORnEyd3ZzZDVfSE8wcFlsMEpXYTh2YkF0UUlLbXNvcWM4Umo4aDFhazFwUWZhYjNQdDdsVS01SjVISGhENGhFTVhjT29EY0JnUWsyLXFsS2lOZ0h3RWNZa0ZVNGZ4cTJxa0VPbjQtS1gyMVVVT3Q5aEpiRFJ5dmRXMjEyTnprdkIzelJZVUtRaTd5NVhFX0xLU2liTjFsWE4wQjNXU0NNeEtCSkRfNmFrMWdZNXRmWmQ5eDllNHhQYlZHdy1hTjdZMlJkbm5kRjB1Y2tfeGxaYWh4V2d3?oc=5
+
+FlexiRoam Reaches Five Consecutive Cash-Positive Quarters, Signs Etihad Airways and Dragonpass Agreements in Q1 FY27    Kalkine

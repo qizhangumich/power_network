@@ -1,0 +1,5 @@
+# UAE State Oil Company Announces OpenAI Partnership
+source: Cambodianess
+url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNckJabmJzUFZ3czY2aWpiVmlhMnB4S0FPSmVBeTMySDF0WkVQa0tOV3VzV1I3RUxKTGhoWm0tMFprdzMzbHNJbmpNVGo2VUZMVlAyUE40Z25FTlZBaUJaOHFKT2k0dFlPcDdBczU4eGFGa1EtckpmUkJBOE05bjJkTkJYbnFrbl84VUNJ?oc=5
+
+UAE State Oil Company Announces OpenAI Partnership    Cambodianess

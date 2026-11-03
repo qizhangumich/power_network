@@ -1,0 +1,5 @@
+# ADNOC signs landmark partnership agreement with OpenAI and G42, becoming first energy company to deploy OpenAI Frontier technology
+source: Energy Connects
+url: https://news.google.com/rss/articles/CBMinAJBVV95cUxPZ2docVBCNm9feG4xbi1Ldm9MVUZ2cXFSMm5fODk4UjN3NEtRZEpVZURzQVBNSzhGdE00YUdYWGdjOVk2b0JZZHVXZDZ0REFaZTRSQ1VFbGsyRXlzdzViYXN5YnNIbW9mNXRsRzhmSXFKdjM0UWVZTGdsS005djRzSE1CcExWdEhDdHB4QTBuanRyVmlaZkRiaF90YXljaUx1M2RqWEF1cTJZZVRMLXExWWc1Qm9xaHc0OFZGYV82LVVWZE9Hc3B0ZkpQbXVNdXQtNi0wdWVfNXZOZ040LUZyV0tOS2JSSEdRYlRaNXFaNVdIRlZZREhyWVc5N09WbjVfRDliLTBBbXlkSUV6ZmQ3S0g1alN5MjVjdW5LZw?oc=5
+
+ADNOC signs landmark partnership agreement with OpenAI and G42, becoming first energy company to deploy OpenAI Frontier technology    Energy Connects
