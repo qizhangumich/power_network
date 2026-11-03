@@ -1,0 +1,5 @@
+# TotalEnergies signs five-year LNG supply deal with ADNOC Gas
+source: Reuters
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQeUU5cElGQ09ralplSnBSZndCTTRVMVFib3B0Mm1mS1BuNmYxOXNQSlRBTmVHMzl3c3hCWFM3SXRtamFaTG5NTk9FcFI5aHlnbEx5UVNqOXM4VUY1NmRlYTJGNWNlblVsNnBOcEtWOVBiSDFSdEhweGw3VWVFUV9oTVg1MHlwbE91dWx6TGtEZzVfNy1VVVZDVUI1OEplQTZmMlp0ODVoRGs3ZGNkN3dtOVp3?oc=5
+
+TotalEnergies signs five-year LNG supply deal with ADNOC Gas    Reuters

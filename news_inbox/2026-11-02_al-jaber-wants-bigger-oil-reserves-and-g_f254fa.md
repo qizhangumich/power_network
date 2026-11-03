@@ -1,0 +1,5 @@
+# Al Jaber wants bigger oil reserves, and Gulf producers are already building them in Asia
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd01SU1h6QUlOVXN1YTZIbnY1NVdyTEtBTkwxaG93WHgwVmpMYnNjM05ZdVNHN3piZXpSdVhjZ1ltRDZXZ01mZHV1SFQtSUJlMlVtVWxlS1hZa1YxeWcxT1pUQzdpOGdsaTU3MGpzRE9BZXZIUi1ZLVhMZkhBUUhFZ1pOZkg1dDdJXzFFcmM1QkRHOXhHSTZGdnBwY0Y5Sk1KN18zUC1odmVMMkNONHN0cXdlNFhaa0dBMEtrdTk1MXlLRkJ5dkUzQ3BHY2tEWkswaWw2LXJB?oc=5
+
+Al Jaber wants bigger oil reserves, and Gulf producers are already building them in Asia    EnterpriseAM

@@ -1,0 +1,5 @@
+# Boeing renews its parts package with Etihad Engineering and 6,500 part numbers with Lufthansa Technik
+source: Aviacionline
+url: https://news.google.com/rss/articles/CBMijwJBVV95cUxQQWZCbUZYTWJEemhEcDJRcG1WUENDbXg1dE1leFUtM2tOTDVqSGZjQmIyY1BCdXJGdEh2MV9BdHE4alRPalNHbE5VRnpKTXBBSGJjZHQzWmw5WG9BZ3h0bHVWTmF5QlVHNW1IamxUQlJBZmp3WkREVjJNQ2F3Nlo5WFkybFMwenZUM0dFOWhibC14V21ZVnBRYmM4T2I3Um5Jejg0R1dualpFdXVRY04ya2UtS1pPOWRlMlhpeXBCeEROejRXeUgwNEUzejR3a1NncUVyLUpmNkZqcjhSVTBLRGRsSzc3bFBrVGY5eHFBemRRX0ctNGpxbUtHbFY1SU92SUdTaEREdmVRSlJ2YjVZ?oc=5
+
+Boeing renews its parts package with Etihad Engineering and 6,500 part numbers with Lufthansa Technik    Aviacionline

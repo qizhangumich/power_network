@@ -1,0 +1,5 @@
+# US/Israel-Iran War: What UAE residents need to know today (Nov. 3, 2026)
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMipgFBVV95cUxNWDFOWFhueEVyX1lBMTBHdDN3dWlGdUhldm1uaG51elFocTRFV2xOTEdORUJqUVVvc0ZxbkdkWl9KbkdKcDNNME0yTkVkX0VrT0tCYmN4TVZ3Mlc4ZUpTOGduUTR0dVhqaHg3Nm5iYklpbFUxOTlCckxvbXVlSENPLXNjdGJtaWlwRWpVV0s2Q09YQnJHMXdHVklzdGpzQ0JpZEptTDRn0gG2AUFVX3lxTE9RV1h4R29YcUhJM1JacU0yM2R4WTNidWNMR0JZb3BjakNLaTFGRURBWG9WbVZiX0FPbGtoUGd5YnZSYjdZV3pDSlA0TkhmNTdrLWUwR09tS3RjUDhNRUt2UDZLQkhqSzFNVDFYWlZaUGdTWEM5NUgwcy14R0VVMklRNWNhb1dOZ2hfUk5vUzlXTUdVcFdkcGdkN1dOZFNBTzYwLTNpYVRLcDBZWEI5TUVLNWp0YUln?oc=5
+
+US/Israel-Iran War: What UAE residents need to know today (Nov. 3, 2026)    Gulf News

@@ -1,0 +1,5 @@
+# Masdar delegation visited Montenegro
+source: وزارة الخارجية الإماراتية
+url: https://news.google.com/rss/articles/CBMingFBVV95cUxNb2V1alB4VjJMekRSWmhVbV9ZWXZjZDF1RTdYYklaaHhRNENJM0N4MzdCVUxSWWZtS0tCTkdvWkVlb0ZxbFNMSGFYaGNKUlRzUFk3VGdMd0NPVzZpMklxRXhBM0JJTDlGUUd2OU1raDQyaVVldnJiRTFWcTBRQjJ0aUI0SVlHN1JtajFxOGttQlJNcTBVc0JvMlo2UDVNdw?oc=5
+
+Masdar delegation visited Montenegro    وزارة الخارجية الإماراتية

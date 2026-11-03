@@ -1,173 +1,173 @@
 {
  "bahrain/Al Ayam": {
-  "fails": 1,
+  "fails": 2,
   "freq_h": 12,
-  "last_attempt": "2026-11-02T15:00:00Z",
+  "last_attempt": "2026-11-03T13:47:16Z",
   "last_new": "2026-11-01T21:48:00Z",
   "last_success": "2026-11-01T21:48:00Z"
  },
  "bahrain/BNA": {
-  "fails": 96,
+  "fails": 97,
   "freq_h": 12,
-  "last_attempt": "2026-11-02T15:00:00Z",
+  "last_attempt": "2026-11-03T13:47:16Z",
   "last_new": "2026-09-03T17:12:26Z",
   "last_success": "2026-09-03T17:12:26Z"
  },
  "bahrain/GDN": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-11-03T00:41:31Z",
-  "last_new": "2026-11-03T00:41:31Z",
-  "last_success": "2026-11-03T00:41:31Z"
+  "last_attempt": "2026-11-03T13:47:16Z",
+  "last_new": "2026-11-03T13:47:16Z",
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "bahrain/TradeArabia": {
   "fails": 0,
   "freq_h": 12,
-  "last_attempt": "2026-11-02T15:00:00Z",
-  "last_new": "2026-11-02T15:00:00Z",
-  "last_success": "2026-11-02T15:00:00Z"
+  "last_attempt": "2026-11-03T13:47:16Z",
+  "last_new": "2026-11-03T13:47:16Z",
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "kuwait/Al Rai": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-11-03T00:41:31Z",
-  "last_new": "2026-11-03T00:41:31Z",
-  "last_success": "2026-11-03T00:41:31Z"
+  "last_attempt": "2026-11-03T13:47:16Z",
+  "last_new": "2026-11-03T13:47:16Z",
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "kuwait/KUNA": {
-  "fails": 96,
+  "fails": 97,
   "freq_h": 12,
-  "last_attempt": "2026-11-02T15:00:00Z",
+  "last_attempt": "2026-11-03T13:47:16Z",
   "last_new": "2026-09-03T17:12:26Z",
   "last_success": "2026-09-03T17:12:26Z"
  },
  "kuwait/Kuwait Times": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-11-03T00:41:31Z",
-  "last_new": "2026-11-03T00:41:31Z",
-  "last_success": "2026-11-03T00:41:31Z"
+  "last_attempt": "2026-11-03T13:47:16Z",
+  "last_new": "2026-11-03T13:47:16Z",
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "oman/Muscat Daily": {
-  "fails": 20,
+  "fails": 21,
   "freq_h": 12,
-  "last_attempt": "2026-11-02T15:00:00Z",
+  "last_attempt": "2026-11-03T13:47:16Z",
   "last_new": "2026-10-20T16:30:36Z",
   "last_success": "2026-10-20T16:30:36Z"
  },
  "oman/ONA": {
-  "fails": 97,
+  "fails": 98,
   "freq_h": 12,
-  "last_attempt": "2026-11-02T15:00:00Z"
+  "last_attempt": "2026-11-03T13:47:16Z"
  },
  "oman/Oman Observer": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-11-03T00:41:31Z",
-  "last_new": "2026-11-03T00:41:31Z",
-  "last_success": "2026-11-03T00:41:31Z"
+  "last_attempt": "2026-11-03T13:47:16Z",
+  "last_new": "2026-11-03T13:47:16Z",
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "oman/Times of Oman": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-11-03T00:41:31Z",
-  "last_new": "2026-11-03T00:41:31Z",
-  "last_success": "2026-11-03T00:41:31Z"
+  "last_attempt": "2026-11-03T13:47:16Z",
+  "last_new": "2026-11-03T13:47:16Z",
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "qatar/Gulf Times": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-11-03T00:41:31Z",
-  "last_new": "2026-11-03T00:41:31Z",
-  "last_success": "2026-11-03T00:41:31Z"
+  "last_attempt": "2026-11-03T13:47:16Z",
+  "last_new": "2026-11-03T13:47:16Z",
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "qatar/QNA": {
   "fails": 0,
   "freq_h": 12,
-  "last_attempt": "2026-11-02T15:00:00Z",
-  "last_new": "2026-11-02T15:00:00Z",
-  "last_success": "2026-11-02T15:00:00Z"
+  "last_attempt": "2026-11-03T13:47:16Z",
+  "last_new": "2026-11-03T13:47:16Z",
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "qatar/The Peninsula": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-11-03T00:41:31Z",
-  "last_new": "2026-11-03T00:41:31Z",
-  "last_success": "2026-11-03T00:41:31Z"
+  "last_attempt": "2026-11-03T13:47:16Z",
+  "last_new": "2026-11-03T13:47:16Z",
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "regional/AGBI": {
-  "fails": 57,
+  "fails": 58,
   "freq_h": 6,
-  "last_attempt": "2026-11-03T00:41:31Z",
+  "last_attempt": "2026-11-03T13:47:16Z",
   "last_new": "2026-10-14T21:21:59Z",
   "last_success": "2026-10-14T21:21:59Z"
  },
  "regional/Arabian Business": {
-  "fails": 179,
+  "fails": 180,
   "freq_h": 6,
-  "last_attempt": "2026-11-03T00:41:31Z",
+  "last_attempt": "2026-11-03T13:47:16Z",
   "last_new": "2026-09-03T17:12:26Z",
   "last_success": "2026-09-03T17:12:26Z"
  },
  "regional/FT Middle East": {
   "fails": 0,
   "freq_h": 12,
-  "last_attempt": "2026-11-02T15:00:00Z",
-  "last_new": "2026-11-02T15:00:00Z",
-  "last_success": "2026-11-02T15:00:00Z"
+  "last_attempt": "2026-11-03T13:47:16Z",
+  "last_new": "2026-11-03T13:47:16Z",
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "regional/MEED": {
   "fails": 0,
   "freq_h": 24,
-  "last_attempt": "2026-11-02T04:55:59Z",
-  "last_new": "2026-11-02T04:55:59Z",
-  "last_success": "2026-11-02T04:55:59Z"
+  "last_attempt": "2026-11-03T13:47:16Z",
+  "last_new": "2026-11-03T13:47:16Z",
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "regional/Zawya": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-11-03T00:41:31Z",
+  "last_attempt": "2026-11-03T13:47:16Z",
   "last_new": "2026-11-03T00:41:31Z",
-  "last_success": "2026-11-03T00:41:31Z"
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "saudi/Al Eqtisadiah": {
   "fails": 0,
   "freq_h": 24,
-  "last_attempt": "2026-11-02T04:55:59Z",
-  "last_new": "2026-11-02T04:55:59Z",
-  "last_success": "2026-11-02T04:55:59Z"
+  "last_attempt": "2026-11-03T13:47:16Z",
+  "last_new": "2026-11-03T13:47:16Z",
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "saudi/Arab News": {
-  "fails": 59,
+  "fails": 60,
   "freq_h": 24,
-  "last_attempt": "2026-11-02T04:55:59Z"
+  "last_attempt": "2026-11-03T13:47:16Z"
  },
  "saudi/Argaam": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-11-03T00:41:31Z",
-  "last_new": "2026-11-03T00:41:31Z",
-  "last_success": "2026-11-03T00:41:31Z"
+  "last_attempt": "2026-11-03T13:47:16Z",
+  "last_new": "2026-11-03T13:47:16Z",
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "uae/Gulf News": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-11-03T00:41:31Z",
-  "last_new": "2026-11-03T00:41:31Z",
-  "last_success": "2026-11-03T00:41:31Z"
+  "last_attempt": "2026-11-03T13:47:16Z",
+  "last_new": "2026-11-03T13:47:16Z",
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "uae/Khaleej Times": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-11-03T00:41:31Z",
+  "last_attempt": "2026-11-03T13:47:16Z",
   "last_new": "2026-11-03T00:41:31Z",
-  "last_success": "2026-11-03T00:41:31Z"
+  "last_success": "2026-11-03T13:47:16Z"
  },
  "uae/The National": {
   "fails": 0,
   "freq_h": 6,
-  "last_attempt": "2026-11-03T00:41:31Z",
-  "last_new": "2026-11-03T00:41:31Z",
-  "last_success": "2026-11-03T00:41:31Z"
+  "last_attempt": "2026-11-03T13:47:16Z",
+  "last_new": "2026-11-03T13:47:16Z",
+  "last_success": "2026-11-03T13:47:16Z"
  }
 }
