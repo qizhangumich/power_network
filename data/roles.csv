@@ -135,7 +135,7 @@ hasan_nowais,Hasan Jasem Al Nowais,m42,M42,Managing Director & Group CEO,executi
 shamsheer,Dr. Shamsheer Vayalil,burjeel,Burjeel Holdings,Founder & Chairman,board,v,
 talal_dhiyebi,Talal Al Dhiyebi,aldar,Aldar Properties,Group CEO,executive,v,
 bill_oregan,Bill O'Regan,modon,Modon Holding,Group CEO,executive,v,
-shamisi_ports,Capt. Mohamed Juma Al Shamisi,adports,AD Ports Group,Managing Director & Group CEO,executive,v,
+shamisi_ports,Capt. Mohamed Juma Al Shamisi,adports,AD Ports Group,Managing Director & Group CEO (2014-Nov 2026),executive,v,former:until Nov 2026
 neves,Antonoaldo Neves,etihad,Etihad Airways,CEO,executive,v,
 elena,Elena Sorlini,adairports,Abu Dhabi Airports,Managing Director & CEO,executive,v,
 shadi,Shadi Malak,etihadrail,Etihad Rail,CEO,executive,v,
@@ -301,7 +301,8 @@ saif_al_falahi,Saif Al Falahi,adnoc,,"Acting Director, People, National Identity
 ahmed_ali_al,Ahmed Ali Al Sayegh,adnoc,,"Member, Executive Committee of ADNOC Board of Directors (Minister of State)",board,v,
 farid_al_awlaqi,Farid Al Awlaqi,taqa,,"Chief Executive Officer, Generation",executive,v,
 farid_al_awlaqi,Farid Al Awlaqi,masdar,,"Board Member, Masdar Renewables & Green Hydrogen",board,v,
-dr_afif_saif,Dr. Afif Saif Al Yafei,taqa,,"Chief Executive Officer, TAQA Transmission",executive,v,
+dr_afif_saif,Dr. Afif Saif Al Yafei,taqa,,"Chief Executive Officer, TAQA Transmission (until Nov 2026)",executive,v,former:until Nov 2026
+dr_afif_saif,Dr. Afif Saif Al Yafei,adports,AD Ports Group,Group Chief Executive Officer,executive,ns,
 omar_abdulla_al,Omar Abdulla Al Hashmi,taqa,,"Chief Executive Officer, TAQA Distribution",executive,v,
 dr_nader_assad,Dr. Nader Assad Bin Taher,taqa,,"Interim Chief Executive Officer, TAQA Water Solutions",executive,v,
 franco_polo,Franco Polo,taqa,,"Chief Executive Officer, Oil and Gas",executive,v,

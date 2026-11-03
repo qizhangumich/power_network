@@ -741,7 +741,7 @@ const PEOPLE = [
     ["modon_properties","Group Chief Executive Officer","executive","v"],
     ]},
   {id:"shamisi_ports", n:"Capt. Mohamed Juma Al Shamisi", t:2, p:80, s:"industry", roles:[
-    ["adports","Managing Director & Group CEO","executive","v"],
+    ["adports","Managing Director & Group CEO (2014-Nov 2026)","executive","v","former:until Nov 2026"],
     ["adairports","Board Member","board","v"],
     ["kezad","Managing Director & AD Ports Group CEO","board","v"],
     ]},
@@ -1324,7 +1324,8 @@ const PEOPLE = [
     ["masdar","Board Member, Masdar Renewables & Green Hydrogen","board","v"],
     ]},
   {id:"dr_afif_saif", n:"Dr. Afif Saif Al Yafei", t:2, p:60, s:"utilities", roles:[
-    ["taqa","Chief Executive Officer, TAQA Transmission","executive","v"],
+    ["taqa","Chief Executive Officer, TAQA Transmission (until Nov 2026)","executive","v","former:until Nov 2026"],
+    ["adports","Group Chief Executive Officer","executive","ns"],
     ["enec","Board Member","board","v"],
     ]},
   {id:"omar_abdulla_al", n:"Omar Abdulla Al Hashmi", t:2, p:60, s:"utilities", roles:[
