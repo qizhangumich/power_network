@@ -1,0 +1,5 @@
+# Condor launches daily Frankfurt–Bangkok service via Abu Dhabi
+source: Aviation24.be
+url: https://news.google.com/rss/articles/CBMipwFBVV95cUxNTjJ1OEpOUFkxUDN5bG9sLUQ1eEtfUXhKdUc3Z0ZWb18zSzI1NnVTZmpxdTBldF92NnVOZ3cweDNZU01TcE9fUmNyem4yWFg0SHpsLTROd09wTVNlZlBHYUlwWG9zWThiN2JSN2h2aC1mbE9DSi11NnV0TUxrcC1HV3NPVHJOTjJ1VjRKdFRxdFdlZFl2cVZvaDBzTWtReGpFbWdETTlLQQ?oc=5
+
+Condor launches daily Frankfurt–Bangkok service via Abu Dhabi    Aviation24.be

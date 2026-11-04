@@ -1,0 +1,5 @@
+# Abu Dhabi and OpenAI sign four agreements to accelerate AI adoption
+source: Intelligent CIO
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOSDEydDVHd2h4QlhmektLT3ZMV0ZoMzJKZ3NpOExCYXVLVkd4alRVeGgzMUVTcVZNaTZmLXVDWks5djNUVVRwRlRWV3dMYjhZUWdRSWk5bGdPclMxQUkwdGgwNHhIS2p4YlpIZGUwdWhlRFBUTDliQzdnWXVhdFJrVkQwbklFUC1MTFg0cml1R3p1cHZ0OG9FTi1KWnF0d016YlFUUWgxa25DY0ZuZlRPOWN2WQ?oc=5
+
+Abu Dhabi and OpenAI sign four agreements to accelerate AI adoption    Intelligent CIO

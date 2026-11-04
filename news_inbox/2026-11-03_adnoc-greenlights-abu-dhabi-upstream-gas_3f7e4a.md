@@ -1,0 +1,5 @@
+# ADNOC Greenlights Abu Dhabi Upstream Gas Project
+source: Rigzone
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUkpYQXN5YXRKb2lNWUdSUzF4eWl5d3lLdWlrd2dNUEpiLURwSGNEcHBHM3VvLVo3NFEyZDY4bHhPZWlwbXBLREtYMWhJWGZnOHRPbWIwYUloQmUwZzBhZHlBRmRMNXR0LWhrd25aNUpENktKYkl0RzlNXzVBLVg1cHN2QmxNejRNZXI2eTVHNEdTYU5nS2FRSHl1Rm9YNXJibmdKRW56dng?oc=5
+
+ADNOC Greenlights Abu Dhabi Upstream Gas Project    Rigzone

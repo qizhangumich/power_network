@@ -1,0 +1,5 @@
+# ADIPEC 2026: ADNOC broadens AI capability
+source: Offshore Magazine
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQUEczZU15c0V3RS1seF9ra3FwN3lhRGFtQTA5ZkFpNzlzSkxxRGVhc000eWNKODFSYktoeER3UVZaS0Z0RnUxenA2cXJFbHgycFBJYnZxRm1iaUtoaXlocllWMURZSzRlcnBSVU0zRTIzS1YxRW1leDJpTldoUjhWb2ZnZjVDbDRDNmgtcHFXbHdMaE1uZXZyRlQ2WDJsUGFGdWZCQVZEcFIzWlNFRHR4SDBn?oc=5
+
+ADIPEC 2026: ADNOC broadens AI capability    Offshore Magazine

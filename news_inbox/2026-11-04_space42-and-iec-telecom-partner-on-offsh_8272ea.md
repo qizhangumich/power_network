@@ -1,0 +1,5 @@
+# Space42 and IEC Telecom partner on offshore satellite service
+source: Telecompaper
+url: https://news.google.com/rss/articles/CBMipwFBVV95cUxNOTlBYUhUX3JwaFhOclprdGhINS1NLWdKTXpVYm80TDRMbHNDckc5Q0FQS3F6WDNONVoxRUx3SWZwTWVvazhGWVpZMzM4SVl3a2JTdUQ0QlJkQUtYbUViRzlBcE5pekF5eVZOUUY5cU9iTEV3bjZkUDM4dV9wX0hTMVgyaDRpUjV6aEFCZlRFOVpZelVtWWZLZ1cyeG5yRGpnd3N6Rlc5MA?oc=5
+
+Space42 and IEC Telecom partner on offshore satellite service    Telecompaper

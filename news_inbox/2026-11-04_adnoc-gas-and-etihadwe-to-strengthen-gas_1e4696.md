@@ -1,0 +1,5 @@
+# ADNOC Gas and EtihadWE to strengthen gas supply and power generation for the Northern Emirates
+source: Energy Connects
+url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxNWG1nU0NYZHIyYk5ac2RISWxUWWdIT1pnZ25seEpoSm5vbmYtdlBpR3FRSXlQYkRiU3ZVblU3WEx1MlJXUVdkbF9TcE5GSXhEckhJV1M0M0I5eG5ZN1NHTk53WHZvbDZ0Rm51d0tDMzZibERNU3hvSjYyWkRmVURtQjJwNkxZWm5BRlRjakV5aEJqcWNMVVR5OHdmd3czQ0tMOGZFdUV6eG4wOC05a0J4QjJhbW81eVBjZWRFczlMS3Z2eGhpcFZZWC1ZWHU5c0puTlk5WHZuc3daeFNkbVhZNkdSSGFYUG5pUHlZbDhR?oc=5
+
+ADNOC Gas and EtihadWE to strengthen gas supply and power generation for the Northern Emirates    Energy Connects
