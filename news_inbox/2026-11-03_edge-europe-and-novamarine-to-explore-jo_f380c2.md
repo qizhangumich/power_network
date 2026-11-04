@@ -1,0 +1,5 @@
+# EDGE Europe and Novamarine to explore joint development of unmanned surface vessels
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdTBqN1R1a18wQnBhd0JxWVVCcS1sUEs4MjFiV3ZYY3pYWHVHam5MNzVtTjdmV2FESnpZSFlXc0xOTGtKMjB5UVROSXZWWFF6dFVfaHJVVXBqUU5yQ0l2TTBiYzM1SVBmeGZ4dUJqZlA2T09lVDU0VnFnTUc3N2ZVbVp6cFNybVliSVVNck1rSTh5dlFQSnhBY0tKYVRJUGIxWUd1WS1Kd0gxbXFVakNKbUUzYUV6Z3k3OVJfaVR6TTA3N2J6VXZuRGNEbExuQ0dZdHZ6LW1KMllRUmd6U3c?oc=5
+
+EDGE Europe and Novamarine to explore joint development of unmanned surface vessels    Zawya

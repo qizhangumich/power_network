@@ -1,0 +1,5 @@
+# Space42 and IEC Telecom target up to 30% more capacity from 1 Mbps offshore backup links with Thuraya-4 and OptiView
+source: Digital Ship
+url: https://news.google.com/rss/articles/CBMijwJBVV95cUxNdklKQjdmT2hCVGgyVU12YVVrbVlvYm5NbFM1Mnp1Tkc5R2FLSWw5d05MZDMtbHhvNUpLMGNxczZtVEdVNWhsRGNnNkotdjEtb3RVN0RXOXM2b0U0MDZSQ29JZGNxTXFxcC1yMzdpVjVQUmY0OENoMkF2QUdtVkU2U2ZoUXlLYzM0Tm5sUFlwQkdUcDI4clBWRndFdVBnOHh1dkhnSlozUHBrWkRvLU5fZ3BBSFljZXJkN1VOLVk0ek95TzRxREE5Z203a1h3Q2JQVWtCaS1GdXZNNWVJTTljVFc2SmdYMmd0UUxlWXZFNlZFTHhsM3BBSlRsd2pOaGlIX05VcXRpQzNvOEE4Q3VN?oc=5
+
+Space42 and IEC Telecom target up to 30% more capacity from 1 Mbps offshore backup links with Thuraya-4 and OptiView    Digital Ship
