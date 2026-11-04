@@ -1,0 +1,5 @@
+# PureHealth Acquires Six Aspen Clinics Facilities In UAE
+source: Forbes Middle East
+url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxORjRMcXZySTJfd3c0ZFpJem4zeExRYWdibWxDM3k5RXpGdmJkaWhxU25LR3luMXpNZDZWNzRYcmNPdzVVTHVBUC1waEpGUTAtSk02RmVkaFNCLXh1dDVKbmYtTUhwZ05Hc21kRjJpUFFyMkFHUjg3allxOGdYVXJQMElFR2RzWlcyN1BRYWQzWVZ5WHVQQWtnMDQ5NlhIMFplaUhIN05zN0FsOHFRMEJiTnhyVDl2cDI5?oc=5
+
+PureHealth Acquires Six Aspen Clinics Facilities In UAE    Forbes Middle East

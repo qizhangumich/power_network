@@ -1,0 +1,5 @@
+# EDGE entities collaborate as CMD and SDF portfolio company Dronamics sign MoU on next-generation propulsion systems
+source: Zawya
+url: https://news.google.com/rss/articles/CBMiiAJBVV95cUxNVmdPMmM2MktQWHIzRTVZNlRyV2x3ZFBxQU45NjNKdS1QVmVsZzlPcC01aWRURHdQUHRnY2F6TVVtTUFvTWxfUUthRVd0MmE5Ui1KMGg1cEdjMHJyY3dSdnZmem96T3QtUzFhdGUwSktXQk5KcWN3bmFKOUI3blM1djlqR2VqcGx0UEY2RWF1TlNJRjVVNzB0d2d3V3pIcnVNM2pZYXFaQlRobUNuempzbTY2T2YtYklEdkZpQ0JzQVFwNzJxNlFTdmhsdWFRRDVXRzZPeUN2bWRZeTY3NEh1b0pJNjQ5ZEp0Y2llemhtaWtZNXIzeDktTW9JZV9hTkFSVmtkS1EtY2k?oc=5
+
+EDGE entities collaborate as CMD and SDF portfolio company Dronamics sign MoU on next-generation propulsion systems    Zawya

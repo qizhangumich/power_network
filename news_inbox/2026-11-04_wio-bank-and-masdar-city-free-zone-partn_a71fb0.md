@@ -1,0 +1,5 @@
+# Wio Bank and Masdar City Free Zone partner to bring seamless digital banking to Free Zone companies
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbFJwUDg2aGZXb0JVdkFXTl9YMWs4bDNyS3JlMk5VSmU0MFU2alRaSkhhQ1ZqNEs1dm80Y1M4d3JJYkh5NE1TWllWZUpfX0xsdEh0b2cwWVlabnJRQTJQZ0lPSnZjbFNhZFBHb1g1TjFXbUtOSTBFVmVzRFg1M2RNaGdaZUhWNGkzVUVsRUVKZ1pCeDh5UWlvNGJ1U2J0ZHEtSjZNYmx1WkJsODhUNDVQZ094NUtMYkZmaWRtNlNzWkcyOHdqNTZVX2w1N3d2WU9nR092UTg3Z1V3d0dkUllESENZQi16N2lneXZsN1Q4MXFsc1k?oc=5
+
+Wio Bank and Masdar City Free Zone partner to bring seamless digital banking to Free Zone companies    Zawya

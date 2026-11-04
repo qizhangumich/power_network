@@ -1,0 +1,5 @@
+# Mubadala-owned Moeve agrees sale of Algerian oil assets to Pertamina
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNWF9VREJhSi1lWDA1ZGk5d2tSN21FS3JfSnBZMm90UXd3eU95MkwtOE5GR0JBX3ZPdmRaZnpQNjlubVQ0UENIYzNpUHBqbGRMRlJZY0ROcS15aUY2elR6aDF5eC03VW4wbjZqbW9RWjduN0x0SWU5M0FJd2xRcGZ5QjFrTmdCQXVfUnJyNmVSdzBXYnBfVElnUU9RY0EzMW9aX1MxR3VoZ0U0UVdHT01fVmNRN3ZwVFp4djNja3Z3?oc=5
+
+Mubadala-owned Moeve agrees sale of Algerian oil assets to Pertamina    marketscreener.com

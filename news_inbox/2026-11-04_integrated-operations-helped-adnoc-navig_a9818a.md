@@ -1,0 +1,5 @@
+# Integrated operations helped ADNOC navigate regional disruptions says ADNOC Refining CEO
+source: Energy Connects
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcUowUnZ1QVdzejRkeE1uWXdTNHJkOXVqblZXWVlZZndLYVFXX0JWRm56ODFQUi11cXJ5dE82bXFuOTM4bkNtRTdjSzl1T2pTNnNORzJ2R1Z3VnVvWWNZX3h3YjhGX0ZSMS1iTnJUX1RzNC1nTUN1eEdoelIyS0xjeWtObUt4YUVkOUQ4VmxuM0hCZ0JqeDdBQlF2ZmJQakdnS2JuSC04TjdQQl9jbm1wTmY4N0NMWTc5bktzZ0h6NkFaNFNpcFNOSUtxREZkUjU1d3ZfVDA1X3VBRG1PaEpfSjZCSUFhUQ?oc=5
+
+Integrated operations helped ADNOC navigate regional disruptions says ADNOC Refining CEO    Energy Connects

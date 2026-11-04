@@ -1,0 +1,5 @@
+# Etihad Airways and Cambodia Tourism Board partner to inspire journeys to Cambodia
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRTNlX3ZfNUFhaFhUWmo0eEdXT3ZxbmpENk9LMDloNDNUU2JvQlpsNjlHcVdYMzJlR01BaWZpbEpCMG9BMkNaNHpzdFk5TVJGaWlFQ3pOTHRGb3R0WjVyaU41Zjc5WTdQNVVDWE1pXzRIMTMtZVBuUThpTmhmQlMzRmpRSkpQZnlpU0RZUDdyaE9Vb3ZKbWpCS1VZTFdvM0pQZmJSRG5IRGZOVEdIQW1VVDg1emdvZ1REZjlmdFJGcnBicGJSMEpXeVQ2bkdVbDB5OWhOd0J6Q1A4cmM?oc=5
+
+Etihad Airways and Cambodia Tourism Board partner to inspire journeys to Cambodia    Zawya

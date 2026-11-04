@@ -1,0 +1,5 @@
+# Mubadala-owned Moeve to exit upstream with sale of Algerian assets
+source: Reuters
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNd1VjQ1lxbDQxbEV0QWsyOGlPSDdYc1NPNkt5YWIxTVpJaGs1VGpZcVU3dERjRkFSLUkyamVxSG5tYV9MSkFyS2FyamJ1VU00NHNPTWdIRlRhTW95NG9veTU1TDhzZ0loanpkNjBwc1NadjBxU3NFeGdGTDhxZ3l6eVdVRFB1WlFtTkczcG1rS3gtWFVYSEF2MTV6VnpNU1dFTTh3NzdEOGtYTTZ2blY4T2RwWXc?oc=5
+
+Mubadala-owned Moeve to exit upstream with sale of Algerian assets    Reuters

@@ -1,0 +1,5 @@
+# ADIA, I Squared Capital partner with Avolon on aircraft-leasing platform
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVkdwcmFaRmw2OXB6VjIzTkFUU2hSRlBJUjdnU3E3YnZyODIxNnJrVjczV1VmejhHS3F2akxMeGIxOW5rY2d0UHFiYjdwdmg1TS05RDhBSVNVVHJrTkhtd1pBT0t1QmVFVS01NlBVZ2w5Yi1uMklSWnUwY1VGbGQ2Ukpxc1Z5ZkI0NnhNVzJwaDB5cldJU3NfRDdOZmNXS05HdlZkQ2xBWWRLMUluNEpxcWI1c2JiRk1sNHR1anVQbS1lcXV1eUxQV0UwOG12TWpGcU5IRjY2UXBUV0Jjb3ludA?oc=5
+
+ADIA, I Squared Capital partner with Avolon on aircraft-leasing platform    TradingView

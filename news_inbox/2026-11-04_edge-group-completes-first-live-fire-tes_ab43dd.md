@@ -1,0 +1,5 @@
+# EDGE Group Completes First Live-fire Test of Domestic Extended-range 155mm Artillery Ammunition
+source: Overt Defense -
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTU1ISGxLWXctR3AzZl9DcUllNWdCeGZsWUlsd25GcDd0SFlELW9WdW9ITkJoU2tycTJaRjdVd2p2M2RKd3lQaVI0TG91dWR0Z0V5NWFLR3pSeUNrOE1jd0FJTHowV2k1UHh3MmJfbXN3UFZFV2lmNEdOWDFZVElOVW5zYkdXdmtLbjBxREt6WnZ5dG85U3J0Zk56bFUzQXlNelZHbEs1Vm1hVERFS19NNGhoLUJobGMxb3NSUTdkUWZENTVmX1J2eGFCM3BmS3Vqa3c?oc=5
+
+EDGE Group Completes First Live-fire Test of Domestic Extended-range 155mm Artillery Ammunition    Overt Defense -

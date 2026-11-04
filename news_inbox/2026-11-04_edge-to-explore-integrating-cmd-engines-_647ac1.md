@@ -1,0 +1,5 @@
+# EDGE to explore integrating CMD engines into ADSB vessels
+source: Zawya
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT1ZsWVdHa2tXYmZJdWRVeVhyX0hrYl9XRzZoN1E3THJyb2hrREZ0M0pKazRaTGlvcEZtT3BFVEhMUWFsTkFxMkRpYVdRWkhGbkVrT1JXOVIycldmN3hsYnVibm9ZYmowRC1FTXhFMWtWNUlLUmp1OWcyM0VTbXp4RkxabWFpOUtDTnB2c1FwQUJWVXZXN3ppRy10dzdiTEF1UWdmSGVWUG92VXgtS0dhLXE2Tl85ZW44WG1F?oc=5
+
+EDGE to explore integrating CMD engines into ADSB vessels    Zawya

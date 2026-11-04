@@ -1,0 +1,5 @@
+# PureHealth acquires 6 facilities from Aspen Clinics, strengthening community healthcare network across Abu Dhabi and Al Ain
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi-gFBVV95cUxPRDhVUVBpMEV4NkhULVFSS0dvV2RzaHNXSXlGZnBqS2IzYlM5My12NWlyN2NwcGZjemZncFZFa2trb1MtcXJnRURjanV0YlF6amVfQThSREJJNHA4ZEVkSDV3ZGdJcnp2OFBhRWc2VDFfNkVuWlhuVjhOWmFNNmt0d2Z0Qy1salh5TjVzY2R3UXNaMGNaS216NVp0M3hOX2cxQlR1M1RmdlV1MUUtSk85UklVNTc1S1dQdnliOWdYOEtGdVFjYXNRWUxsTmZVUHdyYlBwMzFpVDF4bkFTdHExNlB6NV84dGZQTmVCNFdCNmZxeGJYRnN3MUFB?oc=5
+
+PureHealth acquires 6 facilities from Aspen Clinics, strengthening community healthcare network across Abu Dhabi and Al Ain    مكتب أبوظبي الإعلامي
