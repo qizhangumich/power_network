@@ -407,6 +407,7 @@ const PEOPLE = [
     ["execco","Member (Commander-in-Chief of Dubai Police)","board","v"],
     ["dxbpolice","Commander-in-Chief","government","v"]]},
   {id:"hamad_almansoori_dda", n:"Hamad Obaid Al Mansoori", t:1, p:70, s:"gov", roles:[
+    ["mbrsc","Chairman of the Board of Directors","board","ns"],
     ["execco","Member (Director General of Dubai Digital Authority)","board","v"],
     ["digitaldubai","Director-General","government","v"]]},
   {id:"alawi_alsheikhali", n:"Dr. Alawi Alsheikh-Ali", t:1, p:72, s:"health", roles:[
@@ -488,6 +489,7 @@ const PEOPLE = [
     ["digitaldubai","Chief Executive Officer of Digital Dubai Government Establishment","executive","v"],
     ["emaar","Board Member","board","v"]]},
   {id:"omar_karim", n:"Omar Karim", t:2, p:52, s:"realestate", roles:[
+    ["dh_investments","Chief Executive Officer, Dubai Holding Investments; Group Chief Investment Officer","executive","v"],
     ["dhre","Group Chief Investment Officer","executive","ns"],
     ["tecom","Director","board","ns"],
     ["emaar","Board Member","board","v"],
@@ -1802,6 +1804,7 @@ const PEOPLE = [
   {id:"humaid_alshamsi", n:"Humaid Alshamsi", t:2, p:58, s:"gov", roles:[
     ["dubai_south","Chief Legal and Governance Officer","executive","v"]]},
   {id:"mohammad_al_zaffin", n:"Mohammad Al Zaffin", t:2, p:58, s:"gov", roles:[
+    ["mbrsc","Board Member","board","ns"],
     ["dubai_south","Chief Corporate Services Officer","executive","v"]]},
   {id:"mohsen_ahmad", n:"Mohsen Ahmad", t:2, p:60, s:"gov", roles:[
     ["dubai_south","Chief Executive Officer - Logistics District","executive","v"]]},
@@ -1905,6 +1908,7 @@ const PEOPLE = [
   {id:"saeed_al_eter", n:"Saeed Al Eter Al Dhanhani", t:2, p:52, s:"gov", roles:[
     ["dubai_future_fdn","Board Member (Director General, The Executive Office of Dubai)","board","v"]]},
   {id:"salem_humaid_al", n:"Salem Humaid Al Marri", t:2, p:52, s:"gov", roles:[
+    ["mbrsc","Director General","executive","ns"],
     ["dubai_future_fdn","Board Member (Director General, Mohammed Bin Rashid Space Centre)","board","v"]]},
   {id:"amer_ahmad_sharif", n:"Amer Ahmad Sharif", t:2, p:58, s:"gov", roles:[
     ["dubai_future_fdn","Board Member (CEO, Dubai Health)","board","v"],
@@ -2617,6 +2621,20 @@ const PEOPLE = [
     ["arabtec","Board Member (resigned per FY2019 filing)","board","v","former:until 2019"]]},
   {id:"najeh_awad", n:"Najeh Awad", t:2, p:58, s:"industry", roles:[
     ["arabtec","Acting Group Chief Financial Officer","executive","ns","former:until Oct 2022"]]},
+  {id:"yousuf_hamad_al", n:"Yousuf Hamad Al Shaibani", t:2, p:62, s:"tech", roles:[
+    ["mbrsc","Vice Chairman of the Board of Directors","board","ns"]]},
+  {id:"humaid_ali_al", n:"Humaid Ali Al Mohsen", t:2, p:52, s:"tech", roles:[
+    ["mbrsc","Board Member","board","ns"]]},
+  {id:"mansoor_juma_bu", n:"Mansoor Juma Bu Osaiba", t:2, p:52, s:"tech", roles:[
+    ["mbrsc","Board Member","board","ns"]]},
+  {id:"omran_sharaf", n:"Omran Sharaf", t:2, p:58, s:"tech", roles:[
+    ["mbrsc","Project Director - Emirates Mars Mission","executive","ns"]]},
+  {id:"sarah_al_amiri", n:"Sarah Al Amiri", t:2, p:58, s:"tech", roles:[
+    ["mbrsc","Deputy Project Manager and Science Lead - Emirates Mars Mission","executive","ns"]]},
+  {id:"adnan_al_rais", n:"Adnan Al Rais", t:2, p:58, s:"tech", roles:[
+    ["mbrsc","Program Manager - Mars 2117","executive","ns"]]},
+  {id:"saeed_al_gergawi", n:"Saeed Al Gergawi", t:2, p:58, s:"tech", roles:[
+    ["mbrsc","Program Director - UAE Mars 2117 Program","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

@@ -127,7 +127,7 @@ const INSTITUTIONS = [
   {id:"lst_mgmc", n:"Muscat Gases Company SAOG", s:"materials", t:2, p:50, short:"MGMC"},
   {id:"lst_mtmi", n:"Muscat Thread Mills SAOG", s:"materials", t:2, p:50, short:"MTMI"},
   {id:"lst_ndti", n:"The National Detergent Company SAOG", s:"materials", t:2, p:50, short:"NDTI"},
-  {id:"lst_liva", n:"Liva Group SAOG", s:"finance", t:2, p:50, short:"Liva Group SAOG"},
+  {id:"lst_liva", n:"Liva Group SAOG", s:"finance", t:2, p:60, short:"Liva Group SAOG"},
   {id:"lst_oeti", n:"Oman Education & Training Investment Company SAOG", s:"industry", t:2, p:50, short:"OETI"},
   {id:"lst_opci", n:"Omani Packaging Company SAOG", s:"materials", t:2, p:50, short:"OPCI"},
   {id:"lst_oqic", n:"Oman Qatar Insurance Company SAOG", s:"finance", t:2, p:50, short:"OQIC"},
@@ -358,6 +358,7 @@ const PEOPLE = [
   {id:"antonio_gamez_munoz", n:"Antonio Gamez Munoz", t:2, p:58, s:"finance", roles:[
     ["bankmuscat","Chief Risk Officer","executive","v"]]},
   {id:"qais_al_zakwani", n:"Qais Al-Zakwani", t:2, p:62, s:"comm", roles:[
+    ["owwc","Chief Executive Officer","executive","ns"],
     ["omantel","Chairman","board","v"],
     ["oq","Deputy Chairman","board","v"]]},
   {id:"eng_atif_al", n:"Eng. Atif Al Siyabi", t:2, p:62, s:"comm", roles:[

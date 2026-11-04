@@ -59,7 +59,7 @@ const INSTITUTIONS = [
   {id:"lst_salam", n:"Al Salam Bank B.S.C.", s:"finance", t:2, p:68, short:"Al Salam Bank"},
   {id:"lst_ugh", n:"United Gulf Holding Company B.S.C.", s:"finance", t:2, p:56, short:"UGH"},
   {id:"lst_ghg", n:"Gulf Hotels Group B.S.C.", s:"consumer_disc", t:2, p:58, short:"GHG"},
-  {id:"lst_apmtb", n:"APM Terminals Bahrain B.S.C.", s:"industry", t:2, p:50, short:"APMTB"},
+  {id:"lst_apmtb", n:"APM Terminals Bahrain B.S.C.", s:"industry", t:2, p:62, short:"APMTB"},
   {id:"lst_khaleeji", n:"Khaleeji Bank B.S.C.", s:"finance", t:2, p:56, short:"Khaleeji Bank"},
   {id:"lst_bisb", n:"Bahrain Islamic Bank B.S.C.", s:"finance", t:2, p:60, short:"BISB"},
   {id:"lst_arig", n:"Arab Insurance Group B.S.C.", s:"finance", t:2, p:58, short:"ARIG"},
@@ -263,6 +263,7 @@ const PEOPLE = [
     ["derasat","Chairman of the Board of Trustees","board","v"],
     ["mtt_bh","Minister of Transportation & Telecommunications","political","v"]]},
   {id:"daina_oil", n:"H.E. Dr. Mohamed bin Mubarak bin Daina", t:1, p:74, s:"energy", roles:[
+    ["sce","Chief Executive Officer","executive","ns"],
     ["bapco_gas","Board Member (Bapco Energies)","board","v"],
     ["bapco_refining","Board Member","board","v"],
     ["gpic","Chairman of the Board","board","v"],
@@ -2600,6 +2601,7 @@ const PEOPLE = [
   {id:"anwar_saeed_bin", n:"Anwar Saeed bin Salama", t:2, p:52, s:"materials", roles:[
     ["gpic","Board Member","board","v"]]},
   {id:"isa_bin_ali", n:"Isa Bin Ali Al Khalifa", t:2, p:52, s:"materials", roles:[
+    ["sce","Director of the Mohammed bin Zayed Nature Reserve Directorate","executive","v"],
     ["moca_bahrain","Undersecretary of Cabinet Affairs","executive","ns"],
     ["gpic","Board Member","board","v"]]},
   {id:"nasser_ahmed_al", n:"Nasser Ahmed Al Sayyari", t:2, p:52, s:"materials", roles:[
@@ -2732,7 +2734,7 @@ const PEOPLE = [
     ["united_gulf_bank","Chairman","board","ns"]],
     note:"Last confirmed as UGB Chairman since 2010 per the bank's own 2019 CEO-appointment release; flagged for re-verification given United Gulf Holding's Feb 2025 stake transfer to Burgan Bank K.P.S.C. and the bank's own May 2026 CEO change — a prior 'ns' entry here wrongly named KIPCO Vice Chairman Sheikh Abdullah Nasser Sabah Al-Ahmad Al-Sabah, who chairs UGB's parent United Gulf Holding, not the bank itself."},
   {id:"samer_alabed", n:"Samer AlAbed", t:2, p:60, s:"finance", roles:[
-    ["united_gulf_bank","Chief Executive Officer","executive","ns"]]},
+    ["united_gulf_bank","Chief Executive Officer","executive","v"]]},
   {id:"rehan_ashraf", n:"Rehan Ashraf", t:2, p:58, s:"finance", roles:[
     ["united_gulf_bank","Senior Vice President & Chief Financial Officer","executive","ns"]]},
   {id:"mohammed_alqumaish", n:"Mohammed Alqumaish", t:2, p:58, s:"finance", roles:[
@@ -3486,7 +3488,7 @@ const PEOPLE = [
   {id:"basim_bin_yacob", n:"Basim bin Yacob Al Hamer", t:2, p:58, s:"gov", roles:[
     ["slrb","President","executive","v"]]},
   {id:"rasheed_mohamed_al", n:"Rasheed Mohamed Al Maraj", t:2, p:62, s:"finance", roles:[
-    ["sio_bahrain","Chairman","board","ns"]]},
+    ["sio_bahrain","Chairman","board","v"]]},
   {id:"duaij_bin_salman", n:"Duaij bin Salman bin Duaij Al Khalifa", t:2, p:58, s:"gov", roles:[
     ["csb_bahrain","President","executive","ns"]]},
   {id:"ebrahim_nonoo", n:"Ebrahim Nonoo", t:2, p:60, s:"finance", roles:[
@@ -3629,9 +3631,26 @@ const PEOPLE = [
     ["moj","Minister of Justice, Islamic Affairs and Endowments","board","ns"]]},
   {id:"yousef_mohammed_albinkhalil", n:"Yousef Mohammed AlBinkhalil", t:2, p:58, s:"gov", roles:[
     ["iaa","Undersecretary of the Ministry of Information","executive","v"]]},
+  {id:"khalid_bin_ali", n:"Khalid bin Ali bin Jaber Al Khalifa", t:2, p:62, s:"tech", roles:[
+    ["nssa","Chairman","board","v"]]},
+  {id:"hamad_bin_mohammed", n:"Hamad bin Mohammed bin Hamad Al Khalifa", t:2, p:52, s:"tech", roles:[
+    ["nssa","Board Member","board","v"]]},
+  {id:"ali_abdulaziz_janahi", n:"Ali Abdulaziz Janahi", t:2, p:52, s:"tech", roles:[
+    ["nssa","Board Member","board","v"]]},
+  {id:"amal_ahmed_al", n:"Amal Ahmed Al Abbasi", t:2, p:52, s:"tech", roles:[
+    ["nssa","Board Member","board","v"]]},
+  {id:"khalid_saleh_asheer", n:"Khalid Saleh Asheer", t:2, p:52, s:"tech", roles:[
+    ["nssa","Board Member","board","v"]]},
+  {id:"mohamed_ebrahim_al_b", n:"Mohamed Ebrahim Al-Aseeri", t:2, p:60, s:"tech", roles:[
+    ["nssa","Chief Executive","executive","v"]]},
+  {id:"abdullah_bin_hamad", n:"Abdullah bin Hamad Al Khalifa", t:2, p:52, s:"gov", roles:[
+    ["sce","President","board","ns"]]},
+  {id:"faisal_bin_rashid", n:"Faisal bin Rashid bin Isa Al Khalifa", t:2, p:52, s:"gov", roles:[
+    ["sce","Vice President","board","ns"]]},
 ];
 
 const OWNERSHIP = [
+  ["lst_apmtb","kanoo","16% shareholder (A.P. Moller-Maersk holds 64% via APM Terminals B.V.)","ns"],
   ["cabinet_bh","bhgov","governs under"],
   ["mofin_bh","cabinet_bh"],["mofa_bh","cabinet_bh"],
   ["moi_bh","cabinet_bh"],["moic_bh","cabinet_bh"],["mtt_bh","cabinet_bh"],["moo_bh","cabinet_bh"],["moh_bh","cabinet_bh"],

@@ -77,7 +77,7 @@ const INSTITUTIONS = [
   {id:"lst_humansoft", n:"Human Soft Holding", s:"industry", t:2, p:58, short:"Human Soft Hldg"},
   {id:"lst_ifahr", n:"IFA Hotels and Resorts", s:"consumer_disc", t:2, p:50, short:"IFAHR"},
   {id:"lst_cgc", n:"Combined Group Contracting KSCP", s:"industry", t:2, p:58, short:"CGC"},
-  {id:"lst_oulafuel", n:"Oula Fuel Marketing", s:"consumer_disc", t:2, p:50, short:"Oula Fuel Marketing"},
+  {id:"lst_oulafuel", n:"Oula Fuel Marketing", s:"consumer_disc", t:2, p:57, short:"Oula Fuel Marketing"},
   {id:"lst_gfh", n:"GFH Bank B.S.C.", s:"finance", t:2, p:60, short:"GFH Bank B.S.C."},
   {id:"lst_warbabank", n:"Warba Bank K.S.C.P.", s:"finance", t:2, p:60, short:"Warba Bank"},
   {id:"lst_stc", n:"Kuwait Telecommunications Company K.S.C.P. (stc)", s:"comm", t:2, p:60, short:"stc Kuwait"},
@@ -255,6 +255,7 @@ const INSTITUTIONS = [
   {id:"royale_hayat_hosp", n:"Royale Hayat Hospital", s:"health", t:3, p:54, short:"Royale Hayat Hosp"},
   {id:"st_martins_prop", n:"St. Martins Property Corporation", s:"realestate", t:2, p:58, short:"St. Martins Prop."},
   {id:"pafn", n:"Public Authority for Food and Nutrition", s:"gov", t:2, p:56, short:"PAFN"},
+  {id:"arkan_al_kuwait", n:"Arkan Al Kuwait Real Estate Company", s:"realestate", t:2, p:54, short:"Arkan Al Kuwait"},
 ];
 
 const PEOPLE = [
@@ -2100,9 +2101,12 @@ const PEOPLE = [
     ["amer_univ_mid","Associate Dean of the Liberal Arts Department","executive","v"]]},
   {id:"fahmi_m_el", n:"Fahmi M. El-Sayed", t:2, p:58, s:"education", roles:[
     ["amer_univ_mid","Deputy Dean of Academic Affairs for Engineering and Technology","executive","v"]]},
+  {id:"pradeep_k_handa", n:"Pradeep K Handa", t:2, p:62, s:"health", roles:[
+    ["royale_hayat_hosp","Chairman of Executive Board","board","ns"]]},
 ];
 
 const OWNERSHIP = [
+  ["lst_oulafuel","knpc","local fuel-supply contract with","ns"],
   ["lst_urc","kipco","majority/controlling shareholder","v"],
   ["lst_boubyan","nbk","majority shareholder","v"],
   ["lst_burg","kipco","majority shareholder","v"],
@@ -2335,4 +2339,5 @@ const AKA = {
   al_yousifi_sons:["Al-Yousifi Group"],
   amer_univ_mid:["AUM"],
   st_martins_prop:["St. Martins Property Group"],
+  arkan_al_kuwait:["ARKAN"],
 };

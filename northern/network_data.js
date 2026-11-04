@@ -322,6 +322,7 @@ const PEOPLE = [
   {id:"matar_al_blooshi", n:"Matar Al Blooshi", t:2, p:52, s:"industry", roles:[
     ["airarabia","Independent Member","board","v"]]},
   {id:"dr_ohoud_shehail", n:"Dr. Ohoud Shehail", t:2, p:52, s:"industry", roles:[
+    ["digital_ajman","Director General","executive","ns"],
     ["airarabia","Independent Member","board","v"]]},
   {id:"mohamed_omran_alshamsi", n:"Mohamed Omran Alshamsi", t:2, p:62, s:"finance", roles:[
     ["al_qasimi_fdn","Chair of the Board","board","ns"],
@@ -1495,6 +1496,26 @@ const PEOPLE = [
     ["etihad_w_e","Chairman of the Board","board","v"]]},
   {id:"murad_alblooshi", n:"Murad AlBlooshi", t:2, p:58, s:"utilities", roles:[
     ["etihad_w_e","Chief People Officer","executive","v"]]},
+  {id:"himanshu_kapania", n:"Himanshu Kapania", t:2, p:62, s:"materials", roles:[
+    ["rak_white_cement","Chairman","board","ns"]]},
+  {id:"mohammed_abdullatif_khalifa", n:"Mohammed Abdullatif Khalifa Al Shehhi", t:2, p:62, s:"materials", roles:[
+    ["rak_white_cement","Vice Chairman","board","ns"]]},
+  {id:"kailash_chandra_jhanwar", n:"Kailash Chandra Jhanwar", t:2, p:52, s:"materials", roles:[
+    ["rak_white_cement","Board Member","board","ns"]]},
+  {id:"deepa_raja_carbon", n:"Deepa Raja Carbon", t:2, p:52, s:"materials", roles:[
+    ["rak_white_cement","Board Member","board","ns"]]},
+  {id:"atul_daga", n:"Atul Daga", t:2, p:52, s:"materials", roles:[
+    ["rak_white_cement","Board Member","board","ns"]]},
+  {id:"pradeep_kumar_sorana", n:"Pradeep Kumar Sorana", t:2, p:52, s:"materials", roles:[
+    ["rak_white_cement","Board Member","board","ns"]]},
+  {id:"sharad_kumar_bhandari", n:"Sharad Kumar Bhandari", t:2, p:52, s:"materials", roles:[
+    ["rak_white_cement","Board Member","board","ns"]]},
+  {id:"mohammed_ahmed_al", n:"Mohammed Ahmed Al Houti", t:2, p:46, s:"materials", roles:[
+    ["rak_white_cement","General Manager","executive","ns"]]},
+  {id:"tony_cheetham", n:"Tony Cheetham", t:2, p:62, s:"education", roles:[
+    ["rakcam","Chairman","board","v"]]},
+  {id:"sheikh_rashid_bin_b_b_b", n:"Sheikh Rashid bin Ammar bin Humaid Al Nuaimi", t:2, p:62, s:"tech", roles:[
+    ["digital_ajman","Chairman","board","ns"]]},
 ];
 
 const OWNERSHIP = [

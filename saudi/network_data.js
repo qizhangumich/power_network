@@ -571,6 +571,7 @@ const INSTITUTIONS = [
   {id:"rega", n:"Real Estate General Authority", s:"realestate", t:2, p:58, short:"REGA"},
   {id:"ncm", n:"National Center for Meteorology", s:"gov", t:2, p:54, short:"NCM"},
   {id:"alawwal_capital", n:"Alawwal Capital Company", s:"finance", t:3, p:54, short:"Alawwal Capital"},
+  {id:"lst_4072", n:"MBC Group", s:"comm", t:2, p:50, short:"MBC Group"},
 ];
 
 const PEOPLE = [
@@ -676,6 +677,7 @@ const PEOPLE = [
     ["momedia_sa","Minister of Media","political","v"]],
     note:"Appointed 5 Mar 2023; former editor-in-chief of Asharq Al-Awsat."},
   {id:"alhogail", n:"Majed Al-Hogail", t:1, p:76, s:"realestate", roles:[
+    ["rega","Chairman of the Board of Directors (Minister of Municipal, Rural Affairs and Housing)","board","v"],
     ["qiddiya_investment","Board Member, Minister of Municipalities and Housing","board","v"],
     ["roshn","Board Member","board","v"],
     ["qiddiya","Board Member","board","v"],
@@ -3733,6 +3735,16 @@ const PEOPLE = [
     ["scopely","Co-Chief Executive Officer","executive","v"]]},
   {id:"javier_ferreira", n:"Javier Ferreira", t:2, p:60, s:"tech", roles:[
     ["scopely","Co-Chief Executive Officer","executive","v"]]},
+  {id:"shihana_alazzaz", n:"Shihana Alazzaz", t:2, p:62, s:"gov", roles:[
+    ["saip","Chairman of the Board of Directors","board","ns"]]},
+  {id:"abdulaziz_al_suwailem", n:"Abdulaziz Al-Suwailem", t:2, p:60, s:"gov", roles:[
+    ["saip","Chief Executive Officer","executive","ns"]]},
+  {id:"abdullah_bin_saud", n:"Abdullah bin Saud Al-Hammad", t:2, p:60, s:"realestate", roles:[
+    ["rega","Board Member and Chief Executive Officer","executive","v"]]},
+  {id:"abdulrahman_bin_abdulmohsen_b", n:"Abdulrahman bin Abdulmohsen Al-Fadhli", t:2, p:62, s:"gov", roles:[
+    ["ncm","Chairman of the Board of Directors (Minister of Environment, Water and Agriculture)","board","ns"]]},
+  {id:"ayman_ghulam", n:"Ayman Ghulam", t:2, p:60, s:"gov", roles:[
+    ["ncm","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -4144,6 +4156,7 @@ const OWNERSHIP = [
   ["al_ahli_fc","pif","75%-owned subsidiary of","ns"],
   ["esl_faceit","savvy_games","subsidiary of","ns"],
   ["scopely","savvy_games","wholly-owned subsidiary of","ns"],
+  ["lst_4072","tadawul","listed on Tadawul","ns"],
 ];
 
 const FAMILY = [

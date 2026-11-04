@@ -2096,6 +2096,7 @@ const PEOPLE = [
     ]},
   {id:"mohamed_hadi_al", n:"Mohamed Hadi Al Hussaini", t:2, p:62, s:"sovereign", roles:[
     ["eia","Deputy Chairman","board","v"],
+    ["federal_tax_auth","Vice Chairman of the Board of Directors","board","ns"],
     ]},
   {id:"abdulla_bin_touq", n:"Abdulla bin Touq Al Marri", t:2, p:52, s:"sovereign", roles:[
     ["eia","Board Member","board","v"],
@@ -4123,6 +4124,7 @@ const PEOPLE = [
     ]},
   {id:"abdulrahman_al_awar", n:"Abdulrahman Al Awar", t:2, p:62, s:"education", roles:[
     ["hct","Chancellor and Chairman of the Board of Trustees","board","ns"],
+    ["mohre","Minister of Human Resources and Emiratisation","executive","v"],
     ]},
   {id:"faisal_al_ayyan", n:"Faisal Al Ayyan", t:2, p:60, s:"education", roles:[
     ["hct","President and CEO","executive","ns"],
@@ -4414,6 +4416,33 @@ const PEOPLE = [
     ]},
   {id:"sunil_bhilotra", n:"Sunil Bhilotra", t:2, p:60, s:"health", roles:[
     ["acino","Managing Director & Interim CEO","executive","v"],
+    ]},
+  {id:"abdulaziz_mohammed_faraj", n:"Abdulaziz Mohammed Faraj Al Mulla", t:2, p:58, s:"gov", roles:[
+    ["federal_tax_auth","Director General","executive","v"],
+    ]},
+  {id:"sheikh_maktoum_bin", n:"Sheikh Maktoum bin Mohammed bin Rashid Al Maktoum", t:2, p:62, s:"gov", roles:[
+    ["federal_tax_auth","Chairman of the Board of Directors","board","ns"],
+    ]},
+  {id:"shayma_yousef_al", n:"Shayma Yousef Al Awadhi", t:2, p:58, s:"gov", roles:[
+    ["mohre","Undersecretary for Labour Market Regulation and Development","executive","ns"],
+    ]},
+  {id:"aisha_belharfia", n:"Aisha Belharfia", t:2, p:58, s:"gov", roles:[
+    ["mohre","Undersecretary for Emiratisation","executive","ns"],
+    ]},
+  {id:"suhail_saeed_al", n:"Suhail Saeed Al Khaili", t:2, p:58, s:"gov", roles:[
+    ["icp","Director General","executive","v"],
+    ]},
+  {id:"ahmed_abdullah_bin", n:"Ahmed Abdullah bin Lahej Al Falasi", t:2, p:58, s:"gov", roles:[
+    ["icp","Director General of Customs","executive","ns"],
+    ]},
+  {id:"mohammed_ahmed_al", n:"Mohammed Ahmed Al Kuwaiti", t:2, p:58, s:"gov", roles:[
+    ["icp","Director General of Port Security","executive","ns"],
+    ]},
+  {id:"ali_saeed_al", n:"Ali Saeed Al Neyadi", t:2, p:62, s:"gov", roles:[
+    ["ncema","Chairman","board","ns"],
+    ]},
+  {id:"ali_rashid_al_b", n:"Ali Rashid Al Neyadi", t:2, p:58, s:"gov", roles:[
+    ["ncema","Director-General","executive","ns"],
     ]},
 ];
 
