@@ -2635,6 +2635,10 @@ const PEOPLE = [
     ["mbrsc","Program Manager - Mars 2117","executive","ns"]]},
   {id:"saeed_al_gergawi", n:"Saeed Al Gergawi", t:2, p:58, s:"tech", roles:[
     ["mbrsc","Program Director - UAE Mars 2117 Program","executive","ns"]]},
+  {id:"vikas_chadha", n:"Vikas Chadha", t:2, p:60, s:"consumer_disc", roles:[
+    ["jumbo","Chief Executive Officer","executive","ns"]]},
+  {id:"vidya_chhabria", n:"Vidya Chhabria", t:2, p:62, s:"consumer_disc", roles:[
+    ["jumbo","Chairperson","board","ns"]]},
 ];
 
 const OWNERSHIP = [

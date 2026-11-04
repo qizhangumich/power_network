@@ -3647,6 +3647,10 @@ const PEOPLE = [
     ["sce","President","board","ns"]]},
   {id:"faisal_bin_rashid", n:"Faisal bin Rashid bin Isa Al Khalifa", t:2, p:52, s:"gov", roles:[
     ["sce","Vice President","board","ns"]]},
+  {id:"isa_al_shaiji", n:"Isa Al Shaiji", t:2, p:62, s:"comm", roles:[
+    ["al_ayam_publishing","Chairman of the Editorial Board","executive","ns"]]},
+  {id:"afnan_rashid_al", n:"Afnan Rashid Al-Zayanni", t:2, p:52, s:"comm", roles:[
+    ["al_ayam_publishing","Board Member","board","ns"]]},
 ];
 
 const OWNERSHIP = [

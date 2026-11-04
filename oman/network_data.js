@@ -464,6 +464,7 @@ const PEOPLE = [
   {id:"sabrina_al_bakri", n:"Sabrina Al Bakri", t:2, p:58, s:"energy", roles:[
     ["oq","Chief Financial Officer","executive","v"]]},
   {id:"ali_mohamed_al", n:"Ali Mohamed Al Lawati", t:2, p:58, s:"energy", roles:[
+    ["al_hassan_eng","Chairman","board","ns"],
     ["oq","Chief People & Technology Officer","executive","v"]]},
   {id:"azzan_al_abdullatif", n:"Azzan Al Abdullatif", t:2, p:58, s:"energy", roles:[
     ["oq","Chief Growth Officer","executive","v"]]},
@@ -1732,6 +1733,10 @@ const PEOPLE = [
     ["hema_energy","Board Member","board","v"]]},
   {id:"loay_al_haj", n:"Loay Al Haj", t:2, p:58, s:"energy", roles:[
     ["hema_energy","Group Technology Director","executive","v"]]},
+  {id:"harssha_shetty", n:"Harssha Shetty", t:2, p:60, s:"materials", roles:[
+    ["jindal_shadeed","Chief Executive Officer","executive","ns"]]},
+  {id:"ilham_bint_murtada", n:"Ilham bint Murtada Al Humaid", t:2, p:62, s:"industry", roles:[
+    ["al_hassan_eng","Vice Chairman","board","ns"]]},
 ];
 
 const OWNERSHIP = [

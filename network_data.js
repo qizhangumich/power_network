@@ -362,6 +362,8 @@ const PEOPLE = [
     ["royalgroup","Chairman","board","v"],
     ["g42","Chairman","board","v"],
     ["mgx","Chairman","board","v"],
+    ["judan_financial","Chairman","board","ns"],
+    ["irh","Chairman","board","ns"],
     ], note:"The single most connected node in Abu Dhabi business: security portfolio plus chairmanship of both giant SWFs and the IHC/G42/Royal Group commercial empire."},
   {id:"mansour", n:"H.H. Sheikh Mansour bin Zayed Al Nahyan", t:0, p:97, s:"gov", roles:[
     ["fedgov","Vice President · Deputy Prime Minister","political","v"],
@@ -438,6 +440,7 @@ const PEOPLE = [
     ["scfea","Board Member","board","v"],
     ["fertiglobe","Chairman","board","v"],
     ["khalifa_u","Member, Board of Trustees","board","v"],
+    ["riq","Chairman","board","ns"],
     ], note:"Runs the hydrocarbon engine and its clean-energy / AI diversification arms; COP28 President."},
   {id:"jassem_zaabi", n:"Jassem Mohamed Bu Ataba Al Zaabi", t:1, p:95, s:"gov", roles:[
     ["dof","Chairman","government","v"],
@@ -476,6 +479,8 @@ const PEOPLE = [
     ["xrg","Board Member","board","v"],
     ["adpf","Board Member","board","v"],
     ["kezad","Chairman","board","v"],
+    ["judan_financial","Vice Chairman, Managing Director and CEO","executive","ns"],
+    ["riq","Board Member","board","ns"],
     ], note:"Founding MD & Group CEO of ADQ 2018-Jan 2026; concluded tenure to become Executive Chairman & Managing Partner of Lunate (announced 29 Jan 2026). ADQ successor not yet publicly named."},
   {id:"syed_basar", n:"Syed Basar Shueb", t:1, p:85, s:"sovereign", roles:[
     ["ihc","CEO","executive","v"],
@@ -483,6 +488,7 @@ const PEOPLE = [
     ["multiply","Board Member","board","v"],
     ["chimera","Chairman","board","v"],
     ["abu_dhabi_chamber","Board Member","board","v"],
+    ["riq","Board Member","board","ns"],
     ], note:"Operates Tahnoon's listed conglomerate (IHC), one of the largest listed companies in the Middle East."},
   {id:"faisal_bannai", n:"Faisal Al Bannai", t:1, p:88, s:"tech", roles:[
     ["prescourt","Adviser for Strategic Research & Advanced Technology Affairs","political","v"],
@@ -1193,6 +1199,7 @@ const PEOPLE = [
   {id:"sofia_abdellatif_lasky", n:"Sofia Abdellatif Lasky", t:2, p:52, s:"realestate", roles:[
     ["aldar","Board Member","board","v"],
     ["multiply","Board Member","board","v"],
+    ["riq","Board Member","board","ns"],
     ]},
   {id:"dr_bakheet_saeed", n:"Dr. Bakheet Saeed Al Katheeri", t:2, p:52, s:"realestate", roles:[
     ["aldar","Board Member","board","v"],
@@ -4199,6 +4206,7 @@ const PEOPLE = [
     ]},
   {id:"ali_rashed_mohammed", n:"Ali Rashed Mohammed Al Rashdi", t:2, p:52, s:"industry", roles:[
     ["lst_asm","Board Member","board","v"],
+    ["irh","Chief Executive Officer","executive","ns"],
     ]},
   {id:"guy_neivens", n:"Guy Neivens", t:2, p:60, s:"industry", roles:[
     ["lst_asm","Board Member and CEO","executive","v"],
@@ -4443,6 +4451,21 @@ const PEOPLE = [
     ]},
   {id:"ali_rashid_al_b", n:"Ali Rashid Al Neyadi", t:2, p:58, s:"gov", roles:[
     ["ncema","Director-General","executive","ns"],
+    ]},
+  {id:"gagan_banga", n:"Gagan Banga", t:2, p:62, s:"finance", roles:[
+    ["sammaan_capital","Vice-Chairman and Managing Director","executive","v"],
+    ]},
+  {id:"dinabandhu_mohapatra", n:"Dinabandhu Mohapatra", t:2, p:62, s:"finance", roles:[
+    ["sammaan_capital","Interim Chairman","board","ns"],
+    ]},
+  {id:"sachin_chaudhary", n:"Sachin Chaudhary", t:2, p:58, s:"finance", roles:[
+    ["sammaan_capital","Executive Director & Chief Operating Officer","executive","v"],
+    ]},
+  {id:"dalia_hazem_gamil", n:"Dalia Hazem Gamil Khorshid", t:2, p:52, s:"finance", roles:[
+    ["sammaan_capital","Non-Executive, Non-Independent Director","board","ns"],
+    ]},
+  {id:"mark_wilson", n:"Mark Wilson", t:2, p:60, s:"finance", roles:[
+    ["riq","Chief Executive Officer","executive","ns"],
     ]},
 ];
 

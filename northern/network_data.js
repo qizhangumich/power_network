@@ -508,6 +508,7 @@ const PEOPLE = [
   {id:"sheikh_fahim_bin", n:"Sheikh Fahim bin Sultan bin Khalid Al Qasimi", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Department of Government Relations)","board","v"]]},
   {id:"sheikh_mohammed_bin_b_b", n:"Sheikh Mohammed bin Humaid Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["rak_icc","Chairman","board","v"],
     ["shj_execco","Member (Chairman of Department of Statistics and Community Development)","board","v"]]},
   {id:"sheikh_majid_bin", n:"Sheikh Majid bin Sultan bin Saqer Al Qasimi", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Districts Affairs Department)","board","v"]]},
@@ -1516,6 +1517,10 @@ const PEOPLE = [
     ["rakcam","Chairman","board","v"]]},
   {id:"sheikh_rashid_bin_b_b_b", n:"Sheikh Rashid bin Ammar bin Humaid Al Nuaimi", t:2, p:62, s:"tech", roles:[
     ["digital_ajman","Chairman","board","ns"]]},
+  {id:"anwar_al_zaabi", n:"Anwar Al Zaabi", t:2, p:60, s:"health", roles:[
+    ["skhf","Chief Executive Officer","executive","ns"]]},
+  {id:"sameer_al_ansari", n:"Sameer Al Ansari", t:2, p:60, s:"gov", roles:[
+    ["rak_icc","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

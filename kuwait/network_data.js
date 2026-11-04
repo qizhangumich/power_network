@@ -2103,6 +2103,10 @@ const PEOPLE = [
     ["amer_univ_mid","Deputy Dean of Academic Affairs for Engineering and Technology","executive","v"]]},
   {id:"pradeep_k_handa", n:"Pradeep K Handa", t:2, p:62, s:"health", roles:[
     ["royale_hayat_hosp","Chairman of Executive Board","board","ns"]]},
+  {id:"shaima_al_asfour", n:"Shaima Al-Asfour", t:2, p:58, s:"gov", roles:[
+    ["pafn","Director General (on secondment)","executive","ns"]]},
+  {id:"saud_al_jalal", n:"Saud Al-Jalal", t:2, p:58, s:"gov", roles:[
+    ["pafn","Deputy Director General for Inspection and Control Affairs","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

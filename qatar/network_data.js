@@ -755,6 +755,7 @@ const PEOPLE = [
   {id:"hitmi_ali_khalifa", n:"Hitmi Ali Khalifa Al Hitmi", t:2, p:52, s:"industry", roles:[
     ["milaha","Board Member","board","v"]]},
   {id:"mohammed_ebrahim_al", n:"Mohammed Ebrahim Al-Sulaiti", t:2, p:52, s:"industry", roles:[
+    ["islamic_grp","Vice Chairman of the Board of Directors","board","ns"],
     ["milaha","Board Member","board","v"]]},
   {id:"fahad_saad_al", n:"Fahad Saad Al-Qahtani", t:2, p:60, s:"industry", roles:[
     ["milaha","Group Chief Executive Officer","executive","v"]]},
@@ -2273,6 +2274,12 @@ const PEOPLE = [
     ["lst_siis","Chairman & Managing Director","board","ns"]]},
   {id:"hussam_abdulsalam_abu", n:"Hussam Abdulsalam Abu Issa", t:2, p:62, s:"conglomerate", roles:[
     ["lst_siis","Co-Founder & Vice Chairman","board","ns"]]},
+  {id:"khalid_al_jaber", n:"Khalid Al-Jaber", t:2, p:58, s:"education", roles:[
+    ["me_council","Executive Director","executive","ns"]]},
+  {id:"rashed_nasser_rashed", n:"Rashed Nasser Rashed Al Kaabi", t:2, p:62, s:"finance", roles:[
+    ["islamic_grp","Chairman of the Board of Directors","board","ns"]]},
+  {id:"mohammed_maali", n:"Mohammed Maali", t:2, p:60, s:"consumer_disc", roles:[
+    ["al_attiya_motors","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
