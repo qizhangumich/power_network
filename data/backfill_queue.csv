@@ -1,6 +1,7 @@
 ﻿region,institution_id,name,sector,power,people_linked,status
 abudhabi,microsoft,Microsoft,tech,80,0,pending
 abudhabi,blackrock,BlackRock,finance,76,0,pending
+saudi,lst_4072,MBC Group,comm,75,0,pending
 abudhabi,twopointzero,2PointZero (pre-merger IHC platform; merged into 2PointZero Group 2025),sovereign,74,0,pending
 abudhabi,openai,OpenAI,tech,74,0,pending
 abudhabi,nvidia,NVIDIA,tech,74,0,pending
@@ -19,6 +20,7 @@ abudhabi,mckinsey,McKinsey & Company,industry,64,0,pending
 oman,tax_authority_oman,Tax Authority,finance,64,1,skip
 qatar,eni,Eni,energy,64,0,pending
 qatar,grsia_daman,General Retirement and Social Insurance Authority,sovereign,64,1,skip
+saudi,lst_4240,Cenomi Retail (Fawaz Abdulaziz Alhokair Co.),consumer_disc,63,0,pending
 abudhabi,omv,OMV,energy,62,0,pending
 abudhabi,moelis,Moelis & Company,finance,62,0,pending
 abudhabi,globalfoundries,GlobalFoundries,tech,62,0,pending
@@ -28,6 +30,7 @@ qatar,psa_qatar,Planning and Statistics Authority,gov,62,0,skip
 qatar,qe_renewables,QatarEnergy Renewable Solutions,energy,62,0,skip
 saudi,lucid,"Lucid Group, Inc.",consumer_disc,62,0,pending
 saudi,qassim_university,Qassim University,education,62,1,pending
+saudi,amanat_riyadh,Riyadh Municipality (Amanat Riyadh),gov,62,0,pending
 abudhabi,cerebras,Cerebras Systems,tech,60,0,pending
 abudhabi,oxy,Occidental Petroleum,energy,60,0,pending
 abudhabi,rothschildco,Rothschild & Co,finance,60,0,pending
@@ -49,6 +52,7 @@ saudi,seven,Saudi Entertainment Ventures,consumer_disc,60,0,pending
 saudi,fas,Saudi FAS Holding Company,consumer_disc,60,0,pending
 saudi,maaden_aluminium,Ma'aden Aluminium Company,materials,60,1,pending
 saudi,kkh_al_majmaah,King Khalid Hospital - Al Majma'ah,health,60,1,pending
+saudi,sasref,Saudi Aramco Jubail Refinery Company (SASREF),energy,60,0,pending
 abudhabi,flash,Flash Entertainment,comm,58,1,pending
 abudhabi,thenational,The National,comm,58,1,pending
 abudhabi,sorbonne,Sorbonne University Abu Dhabi,education,58,1,pending
@@ -87,6 +91,7 @@ qatar,qatar_social_work,Qatar Social Work Foundation,gov,58,1,pending
 qatar,me_council,Middle East Council on Global Affairs,education,58,1,pending
 qatar,basf_coatings,BASF Coatings (Carlyle/QIA venture),materials,58,0,pending
 saudi,lst_2240,Zamil Industrial Investment Co.,materials,58,0,pending
+saudi,lst_4322,Retal Urban Development Co.,realestate,58,0,pending
 saudi,saudi_downtown,Saudi Downtown Company,realestate,58,0,pending
 saudi,iot_squared,iot squared,tech,58,0,pending
 saudi,neo_space,Neo Space Group,tech,58,0,pending
@@ -159,6 +164,7 @@ dubai,al_nabooda,Khalifa Juma Al Nabooda Group,conglomerate,56,1,pending
 dubai,prime_healthcare,Prime Healthcare Group,health,56,1,pending
 kuwait,lst_beyout,Beyout Holding Company K.P.S.C,finance,56,1,pending
 kuwait,kharafi_national,Kharafi National,industry,56,1,pending
+kuwait,osn,OSN Group,comm,56,0,pending
 northern,stevin_rock,Stevin Rock,materials,56,1,pending
 northern,fujairah_municipality,Fujairah Municipality,gov,56,1,pending
 northern,sharjah_sust_city,Sharjah Sustainable City,realestate,56,1,pending
@@ -283,6 +289,7 @@ qatar,qatofin,Qatofin Company Limited,materials,54,0,pending
 qatar,northwestern_qatar,Northwestern University in Qatar,education,54,1,pending
 qatar,insead,INSEAD,education,54,0,pending
 qatar,al_rayyan_tv,Al Rayyan TV,comm,54,0,pending
+qatar,al_attiyah_fdn,Abdullah Bin Hamad Al-Attiyah Foundation For Energy and Sustainable Development,energy,54,0,pending
 saudi,adeptio,Adeptio AD Investments Ltd,conglomerate,54,0,pending
 saudi,d360_bank,D360 Bank,finance,54,0,pending
 saudi,safe,National Security Service Company,industry,54,0,pending
@@ -346,6 +353,7 @@ dubai,diamondlease,Diamondlease LLC,consumer_disc,52,0,pending
 dubai,emirates_intl_sch,Emirates International School,education,52,0,pending
 dubai,al_reyami,Al Reyami Group,industry,52,1,pending
 dubai,canadian_univ_dubai,Canadian University Dubai,education,52,0,pending
+dubai,emirates_leisure,Emirates Leisure Retail,consumer_disc,52,0,pending
 kuwait,kafco,Kuwait Aviation Fuelling Company,industry,52,1,pending
 kuwait,q8oils,Q8Oils,materials,52,0,pending
 kuwait,al_yaqout,Al Yaqout Group,conglomerate,52,1,pending
@@ -740,7 +748,6 @@ saudi,lst_4192,Alsaif Gallery Co.,consumer_disc,50,0,pending
 saudi,lst_4193,Nice One Beauty Digital Marketing Co.,consumer_disc,50,0,pending
 saudi,lst_4194,Build Station Trading Co.,consumer_disc,50,0,pending
 saudi,lst_4200,Aldrees Petroleum and Transport Services Co.,consumer_disc,50,0,pending
-saudi,lst_4240,Cenomi Retail (Fawaz Abdulaziz Alhokair Co.),consumer_disc,50,0,pending
 saudi,lst_4001,Abdullah Al Othaim Markets Co.,consumer_stap,50,0,pending
 saudi,lst_4006,Farm Superstores Co.,consumer_stap,50,0,pending
 saudi,lst_4061,Anaam International Holding Group,consumer_stap,50,0,pending
@@ -816,7 +823,6 @@ saudi,lst_4230,Red Sea International Co.,realestate,50,0,pending
 saudi,lst_4310,Knowledge Economic City (KEC),realestate,50,0,pending
 saudi,lst_4320,Al Andalus Property Co.,realestate,50,0,pending
 saudi,lst_4321,Cenomi Centers (Arabian Centres Co.),realestate,50,0,pending
-saudi,lst_4322,Retal Urban Development Co.,realestate,50,0,pending
 saudi,lst_4323,Sumou Real Estate Co.,realestate,50,0,pending
 saudi,lst_4324,Banan Real Estate Co.,realestate,50,0,pending
 saudi,lst_4325,Masar Al Jazira Real Estate Development Co.,realestate,50,0,pending
@@ -849,4 +855,3 @@ saudi,lst_7205,Al-Dawaa Business Solutions Co. (DBS),tech,50,0,pending
 saudi,lst_7211,Saudi Azm for Communication and Information Technology Co.,tech,50,0,pending
 saudi,lst_4165,Almajed for Oud Co.,consumer_stap,50,0,pending
 saudi,modern_food_industries,Modern Food Industries Company,consumer_stap,50,0,pending
-saudi,lst_4072,MBC Group,comm,50,0,pending

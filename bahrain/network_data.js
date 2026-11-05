@@ -1396,7 +1396,7 @@ const PEOPLE = [
   {id:"fahad_abdulla_yateem", n:"Fahad Abdulla Yateem", t:2, p:52, s:"finance", roles:[
     ["lst_esterad","Director","board","v"]]},
   {id:"razi_al_merbati", n:"Razi Al Merbati", t:2, p:52, s:"finance", roles:[
-    ["lst_khaleeji","Chief Executive Officer and Board Member","executive","ns"],
+    ["lst_khaleeji","Chief Executive Officer and Board Member","executive","v"],
     ["lst_esterad","Director","board","v"]]},
   {id:"ali_isa_ahmed", n:"Ali Isa Ahmed Abdulrahim Abdulla", t:2, p:52, s:"finance", roles:[
     ["lst_esterad","Director","board","v"]]},

@@ -256,6 +256,7 @@ const INSTITUTIONS = [
   {id:"st_martins_prop", n:"St. Martins Property Corporation", s:"realestate", t:2, p:58, short:"St. Martins Prop."},
   {id:"pafn", n:"Public Authority for Food and Nutrition", s:"gov", t:2, p:56, short:"PAFN"},
   {id:"arkan_al_kuwait", n:"Arkan Al Kuwait Real Estate Company", s:"realestate", t:2, p:54, short:"Arkan Al Kuwait"},
+  {id:"osn", n:"OSN Group", s:"comm", t:2, p:56, short:"OSN Group"},
 ];
 
 const PEOPLE = [
@@ -2282,6 +2283,7 @@ const OWNERSHIP = [
   ["amer_univ_mid","lst_humansoft","operating unit","v"],
   ["royale_hayat_hosp","al_mulla","subsidiary","v"],
   ["st_martins_prop","kia","wholly-owned subsidiary of","ns"],
+  ["osn","kipco","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -2344,4 +2346,5 @@ const AKA = {
   amer_univ_mid:["AUM"],
   st_martins_prop:["St. Martins Property Group"],
   arkan_al_kuwait:["ARKAN"],
+  osn:["OSN+","OSNtv"],
 };

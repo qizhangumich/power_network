@@ -194,7 +194,8 @@ const INSTITUTIONS = [
   {id:"lst_4193", n:"Nice One Beauty Digital Marketing Co.", s:"consumer_disc", t:2, p:50, short:"4193"},
   {id:"lst_4194", n:"Build Station Trading Co.", s:"consumer_disc", t:2, p:50, short:"4194"},
   {id:"lst_4200", n:"Aldrees Petroleum and Transport Services Co.", s:"consumer_disc", t:2, p:50, short:"4200"},
-  {id:"lst_4240", n:"Cenomi Retail (Fawaz Abdulaziz Alhokair Co.)", s:"consumer_disc", t:2, p:50, short:"4240"},
+  {id:"lst_4240", n:"Cenomi Retail (Fawaz Abdulaziz Alhokair Co.)", s:"consumer_disc", t:2, p:63, short:"4240",
+    note:"Dubai's Al-Futtaim Group acquired 49.95% directly from the founding Alhokair family for SAR 2.5bn (signed Jul 2025, approved Aug/Sep 2025) -- no Al-Futtaim node in this region file to carry a same-file OWNERSHIP edge; see dubai map (id alfuttaim) for the counterpart."},
   {id:"lst_4001", n:"Abdullah Al Othaim Markets Co.", s:"consumer_stap", t:2, p:50, short:"4001"},
   {id:"lst_4006", n:"Farm Superstores Co.", s:"consumer_stap", t:2, p:50, short:"Farm Superstores Co."},
   {id:"lst_4061", n:"Anaam International Holding Group", s:"consumer_stap", t:2, p:50, short:"4061"},
@@ -289,7 +290,7 @@ const INSTITUTIONS = [
   {id:"lst_4310", n:"Knowledge Economic City (KEC)", s:"realestate", t:2, p:50, short:"4310"},
   {id:"lst_4320", n:"Al Andalus Property Co.", s:"realestate", t:2, p:50, short:"4320"},
   {id:"lst_4321", n:"Cenomi Centers (Arabian Centres Co.)", s:"realestate", t:2, p:50, short:"4321"},
-  {id:"lst_4322", n:"Retal Urban Development Co.", s:"realestate", t:2, p:50, short:"4322"},
+  {id:"lst_4322", n:"Retal Urban Development Co.", s:"realestate", t:2, p:58, short:"4322"},
   {id:"lst_4323", n:"Sumou Real Estate Co.", s:"realestate", t:2, p:50, short:"4323"},
   {id:"lst_4324", n:"Banan Real Estate Co.", s:"realestate", t:2, p:50, short:"4324"},
   {id:"lst_4325", n:"Masar Al Jazira Real Estate Development Co.", s:"realestate", t:2, p:50, short:"4325"},
@@ -571,7 +572,9 @@ const INSTITUTIONS = [
   {id:"rega", n:"Real Estate General Authority", s:"realestate", t:2, p:58, short:"REGA"},
   {id:"ncm", n:"National Center for Meteorology", s:"gov", t:2, p:54, short:"NCM"},
   {id:"alawwal_capital", n:"Alawwal Capital Company", s:"finance", t:3, p:54, short:"Alawwal Capital"},
-  {id:"lst_4072", n:"MBC Group", s:"comm", t:2, p:50, short:"MBC Group"},
+  {id:"lst_4072", n:"MBC Group", s:"comm", t:2, p:75, short:"MBC Group"},
+  {id:"sasref", n:"Saudi Aramco Jubail Refinery Company (SASREF)", s:"energy", t:2, p:60, short:"SASREF"},
+  {id:"amanat_riyadh", n:"Riyadh Municipality (Amanat Riyadh)", s:"gov", t:2, p:62, short:"Amanat Riyadh"},
 ];
 
 const PEOPLE = [
@@ -4157,6 +4160,11 @@ const OWNERSHIP = [
   ["esl_faceit","savvy_games","subsidiary of","ns"],
   ["scopely","savvy_games","wholly-owned subsidiary of","ns"],
   ["lst_4072","tadawul","listed on Tadawul","ns"],
+  ["lst_4072","pif","~54% controlling stake, acquired from Istedamah Holding (completed Sep 2025)","v"],
+  ["lst_4322","al_fozan","majority shareholder (~53-58%, rising via pending Ajdan share-swap)","v"],
+  ["sasref","aramco","wholly owned subsidiary","v"],
+  ["amanat_riyadh","momah_sa","reports to","ns"],
+  ["hadeed","sabic","wholly owned subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -4309,4 +4317,5 @@ const AKA = {
   al_ahli_fc:["Al-Ahli Club"],
   esl_faceit:["EFG"],
   alawwal_capital:["Alawwal for Financial Services"],
+  amanat_riyadh:["أمانة منطقة الرياض"],
 };

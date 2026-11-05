@@ -667,7 +667,7 @@ const PEOPLE = [
   {id:"abdulfattah_mansoor_sharaf", n:"Abdulfattah Mansoor Sharaf", t:2, p:52, s:"education", roles:[
     ["aus","Board of Trustees Member","board","v"]]},
   {id:"ahmad_mohamed_fawzi", n:"Ahmad Mohamed Fawzi Abu Eideh", t:2, p:52, s:"education", roles:[
-    ["invest_bank","Chief Executive Officer","executive","ns"],
+    ["invest_bank","Chief Executive Officer (2022-Jun 2024)","executive","v","former:until Jun 2024"],
     ["aus","Board of Trustees Member","board","v"]]},
   {id:"mohammed_issa_alhuraimel", n:"Mohammed Issa Alhuraimel Alshamsi", t:2, p:52, s:"education", roles:[
     ["aus","Board of Trustees Member","board","v"]]},

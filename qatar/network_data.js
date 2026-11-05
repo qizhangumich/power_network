@@ -250,6 +250,7 @@ const INSTITUTIONS = [
   {id:"me_council", n:"Middle East Council on Global Affairs", s:"education", t:2, p:58, short:"ME Council"},
   {id:"basf_coatings", n:"BASF Coatings (Carlyle/QIA venture)", s:"materials", t:2, p:58, short:"BASF Coatings"},
   {id:"qsalt", n:"Qatar Salt Products Company", s:"materials", t:3, p:53, short:"QSalt"},
+  {id:"al_attiyah_fdn", n:"Abdullah Bin Hamad Al-Attiyah Foundation For Energy and Sustainable Development", s:"energy", t:3, p:54, short:"Al-Attiyah Fdn"},
 ];
 
 const PEOPLE = [
@@ -2422,6 +2423,7 @@ const OWNERSHIP = [
   ["elegancia","lst_igrd","subsidiary (100%)","ns"],
   ["basf_coatings","qia","co-investor in (via Carlyle-led consortium)","v"],
   ["qsalt","lst_mphc","new JV (MoU signed Sep 2024) to build a ~$275m industrial salt plant in Mesaieed; MPHC 40% / Qatar Industrial Manufacturing Co. 30% / Turkiye's Atlas Yatirim Planlama 30%; announced by QatarEnergy under its TAWTEEN localisation programme","v"],
+  ["q_chem","qatarenergy","affiliate (via Mesaieed Petrochemical Holding)","v"],
 ];
 
 const FAMILY = [
@@ -2531,4 +2533,5 @@ const AKA = {
   al_rayyan_tv:["Alrayyan TV","Al Rayyan Media"],
   me_council:["MECouncil"],
   basf_coatings:["Carlyle/QIA venture"],
+  al_attiyah_fdn:["Al-Attiyah Foundation","ABHA Foundation"],
 };
