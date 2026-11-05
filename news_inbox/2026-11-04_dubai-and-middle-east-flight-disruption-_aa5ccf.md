@@ -1,0 +1,5 @@
+# Dubai and Middle East flight disruption: British Airways resumes Dubai route while airlines continue Saudi suspensions
+source: Condé Nast Traveller Middle East
+url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxNLVZ1MGNTVFlZWGZjTDV2UFBmRzh5ci1xN3pueklkS0ZBWTM4SktXaGMtVFcxODVfSGo2d192eGg0TlIybXBWbktISk1hNk5zcjVhQ2JQWFZUaU9OLXA0dkxsZ0pldXoyQnhvcVZYUjBLRUJ4eEtfODhsN05WVWF1WEdCYUdKREFQS2c1WlFTWWhwT1VDYU9lblFqd2tCTHE1eDNpWHFjbGNiaXZlTnhRQWVpakszdVJWcEUyVkw1NXByWTdrZGNBY0pvdTBoVHVfdHhFbVYxVzRxejdIaWVKYnpheWNORU9G?oc=5
+
+Dubai and Middle East flight disruption: British Airways resumes Dubai route while airlines continue Saudi suspensions    Condé Nast Traveller Middle East

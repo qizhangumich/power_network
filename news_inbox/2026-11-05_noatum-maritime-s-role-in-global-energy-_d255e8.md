@@ -1,0 +1,5 @@
+# Noatum Maritime’s role in global energy transportation
+source: Energy Connects
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPUTJnenI1OEtueUwwWnB6dzJhN2w1S0wtOXBMZGcwWjR5UGRvd0ZEajJ1SHJCbjJGUWx5bUthcW9LaVZBN0ZZWFZ6Qm1pLW5wbTlZYVpfaEozaWZiSDkxTXVIcldPNzltM2xWTFlUVlBGaF9aWnVMaWlVb2dNT3dGZnF3U3JGa2NidVpXNHlDRFoyWHQ2UklrQXBSRXFGSkIwY0RkOGlWUVJQT0lEcjRQQmRGNEpXZF92aG9PYmhYenRSUUQyWlE?oc=5
+
+Noatum Maritime’s role in global energy transportation    Energy Connects

@@ -1,0 +1,5 @@
+# Under the patronage of Khaled bin Mohamed bin Zayed, 18th Abu Dhabi World Professional Jiu-Jitsu Championship to take place in November 2026
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMijwJBVV95cUxQNjktYlZxOGZHcnlUVS0xZUZ1andRMFc1MzhaeGdUeWd3WGN3c1lNc3VmWk5FYi1XWnZabUhEUTRKaVN6NmFqZGxHdThadkZBWDlpTDNJS05vOUNncC1CRFNrOUt4dXliSUVEckpCXzgtZnRscS1jaVNxeDhoMUJWUFRnTlc5SUJZWlVjM19EQy10SExrYVNZM2ptT3BhZHBmMXg2aHc4X0QzS2VjY0Iwd0VqSVF2S0l5MDdLT1VnMFdxOWJWbDFMSG9qVjkxS2VieFlDbS00eDZ4d1NnRGxVN0plbFc5Y05oY2RyWXhCNkNVZVBaSi1SRWdWTFlUbVlCR2hid1lSRlhvdEdiMG1Z?oc=5
+
+Under the patronage of Khaled bin Mohamed bin Zayed, 18th Abu Dhabi World Professional Jiu-Jitsu Championship to take place in November 2026    مكتب أبوظبي الإعلامي
