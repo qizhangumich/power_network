@@ -1,0 +1,5 @@
+# Japanese bank lends $601mln to ADNOC for decarbonisation: Report
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWHhrLUwxTUVYV1g4T0pqbmQ1SGx5dGw0UUVlcjBZeDZKeWRkTWZlcjZ0bExiOUk1ak90TnZONldoclhlX2xMT3BPcUh5NmtxeTg3YXpWTlE3My1TVzFDZUhlVGZDTG51SGYtNllqWm9ZQndDZ2F0a3ZlOUhmeXhYRG9LZHVJZWxYSG9TTzNwUVhlV2pTS3F0eGVsdEhPcXczY2ZzQWwzOHdYTE1aSWM4cWZrZlo5R3VWM0k3dVpqSHNBZFJvTFI2dW5qZ0ZxeV9xS2hENA?oc=5
+
+Japanese bank lends $601mln to ADNOC for decarbonisation: Report    TradingView

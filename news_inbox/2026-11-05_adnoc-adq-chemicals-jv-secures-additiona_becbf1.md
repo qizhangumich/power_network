@@ -1,0 +1,5 @@
+# ADNOC, ADQ Chemicals JV Secures Additional $1.39B Financing
+source: Rigzone
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxQN1ZsUnFuekMtZVlqd1JFaUVwTDhJdWprR1NUb0NNOHdIV21TdUdqQzZfTk5OSG9HRzdqMl9xQWQtWkp0Qnl1QXRhdXpLZEdWMDJxUmZPMEZPYmNFYVl5bFB3WHd5RmcyTDBqb1NPLVFaeWNhN0N6NDJuZlZnRk5Xd196TkNMWHZpMTVTa0lOR0ZJUFpjN0VKUHdLT0hCcHhISlVQY25IdTFOOVZFTzhrU1FiNG9fTGRVRUJ3TUZvZw?oc=5
+
+ADNOC, ADQ Chemicals JV Secures Additional $1.39B Financing    Rigzone

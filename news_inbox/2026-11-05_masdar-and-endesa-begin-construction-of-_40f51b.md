@@ -1,0 +1,5 @@
+# Masdar and Endesa begin construction of $28m battery storage projects in Spain amid clean energy push
+source: The National
+url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxObXdCdFVrQThiZEV3THl2MHRpOGlaSlhiVVh6NGp4Z2lHb18ycUtsTUtNaFdiOFpIVTNPVk85MVJiTjlnR29qYjVfcTAzYUQ5ekRGcjdYOV9vSEpnQWk5N01LNkV6aDNwb0dzSENtSTNLVmQxeVFqQnJmZDM4YzhuejMtaHcxUFBVRzNDckxMZDFfSVBwbFlXQ0Y2dmt4dV9uY0JGWDJqM016UW4xY1ViTHMzMjMzclpERXFWLTIxNVMxdW1ZelJOVlhoUW40SDJTVVgyTGpoS25CeDJyM09fdzlMTkhiMkNtNHl1VFdIZzJmdw?oc=5
+
+Masdar and Endesa begin construction of $28m battery storage projects in Spain amid clean energy push    The National

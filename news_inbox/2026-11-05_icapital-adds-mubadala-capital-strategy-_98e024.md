@@ -1,0 +1,5 @@
+# iCapital adds Mubadala Capital strategy to platform for ME wealth managers
+source: Citywire
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQQUlhZEtlWjVOSS1ma0FvTXdyQ201VzM3bXktUmsweGNHenRnTzJHVEFVT2dMNERmQlhxOS14V3gwb3lRdGQtekR2ZTZIR0JrT1pxZGtzaWVOUjY2emFDVlFuMkVNV0lIaXV1R3Z4enNaQ3FEVExHdTFhMzljcGVuMGVfRlF2RWFIWXVXSmx1dzBabndRcXRPRXVVeHQ4Z2pwb3hpSzZmMTBWdUNOMXczbnI0SnFURzNZa0dMLW5B?oc=5
+
+iCapital adds Mubadala Capital strategy to platform for ME wealth managers    Citywire

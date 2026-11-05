@@ -1,0 +1,5 @@
+# Sheikh Khaled lauds Adnoc's role in global energy security system
+source: The National
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPejdKRFNqcWZaRU1qbFpfbjVCRUZIRkNhMU1CeXotMC0taUpwNTFOMG5kWlc2UWFFVEVFVnVvbllFazdTcVRTNkkxZ2xMQ2h3cEN3VTRiZG5YZ3JVb1BrZ0JwclpwYkNrd3FuTjNycjdkQWJYc2lOeUNQR1cyX2wwM2pSRTUzODU1VHM2am1ieU5NWkU3TUpwOEd2cGZjNjNISU9IaXFRSnhKN1FiZ005YzVwbDNlbjJqclk5OEJEdmJLOGc?oc=5
+
+Sheikh Khaled lauds Adnoc's role in global energy security system    The National

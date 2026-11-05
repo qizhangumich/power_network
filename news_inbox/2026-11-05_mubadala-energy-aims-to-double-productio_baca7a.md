@@ -1,0 +1,5 @@
+# Mubadala Energy aims to double production over next decade
+source: Zawya
+url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQM1hFRlVmVWdjSF95M3pRcWNCMFc2d2pxVHNLMHJOaE11TVViSkQ0MW43R0Q1Qm5INEVFamdkN1JSVWI2REotRjdmbmRZYVg1cnNKSlp5aHNkS2VlaW1jRUJGMUtOeFI5a0Q2aExaRWI3d3VpdWtmTEtMLXZqUVhhQnlUQjhBWW9nbS1GbWNEdmdZUlBEUTU5bkYxeTRzNjdnZFg3aTc3cmZmODhr?oc=5
+
+Mubadala Energy aims to double production over next decade    Zawya

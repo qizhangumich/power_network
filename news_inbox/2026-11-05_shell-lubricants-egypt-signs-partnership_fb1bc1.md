@@ -1,0 +1,5 @@
+# Shell Lubricants Egypt Signs Partnership with TAQA Petroleum to Expand Nationwide Distribution
+source: Egypt Oil & Gas
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUW5ud0JWeU1WX1Y0anNTd1ozZDVaWXRwVE5FVnFYSlo0UHo3WGRUSlp4a1oxWEtlb0plY0RBS3E5b3BUVm1NamN3RzF5d1lxaWFMVDFiOHJYWV8tbWtLTVA5Y0JQNUxOMXlFV1lscW9ZdTJFUWJBSzF3OTJTRjFvRHlzMGtZOE8zUEJSZ0dCUk9URGdLVzlJRFN1TVFfZmh4YThhYnFHQ0Jib2owZDRqMEFuaERaWjBwQTRDRlFyWmUxa00?oc=5
+
+Shell Lubricants Egypt Signs Partnership with TAQA Petroleum to Expand Nationwide Distribution    Egypt Oil & Gas

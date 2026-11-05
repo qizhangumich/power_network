@@ -1,0 +1,5 @@
+# Mubadala Energy to double output over next decade with natural gas in focus
+source: The National
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVDNmX3dtV09mdmEzN2s5SENCbFF3T3BiWWVfZlZDRUZDZ0ZlTzFEdmFzTHZmSHNXUGJDVkM5Qy01a3hpQXBrbjgxS1pKM3E1NWtiZkVMZm8tMkhCMWhxbGxMemFXclVpTXN3T0Z4Wlk5ODdJQ2h0dk1qb3NROGNQUUdXNEFVVWNKXzJ6eTdIRlhIRFdVSnh1eEtBNmVFczNWdm40bkV5eEFqX2RpWmN6Mk5hM29NOWlhRXlsc2Z0TVJFaXRYMGxuRjVLSERMRktv?oc=5
+
+Mubadala Energy to double output over next decade with natural gas in focus    The National

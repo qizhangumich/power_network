@@ -1,0 +1,5 @@
+# Al Masaood Automobiles INFINITI sponsors Abu Dhabi Aldar Championship
+source: Zawya
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxNNE13RnM4U0J1R1cyUUF6dF9jRjU3N3BHei1xMnRrN3QxamZDYXI4Rm9JMF9keElOMzcyVzFBdVNzRDdqNTVFdkkyZ3YyQzhoWU9LVVJiRkVQREFNakllbTVJSGQ0MFFYQzBsZk1tMWdNeVZrVjZwTUpvd0lxa09ETVlUUmsyU3RYQ1hGRmlTVWZncnFnb3VUb3diak1kNXVOY01fYnliTGNmYTh5WTBDZDhMMjlmN0hOZk1fZHNvTWRQU09pcGNJZnFvYw?oc=5
+
+Al Masaood Automobiles INFINITI sponsors Abu Dhabi Aldar Championship    Zawya

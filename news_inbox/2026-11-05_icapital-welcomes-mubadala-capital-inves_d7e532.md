@@ -1,0 +1,5 @@
+# ICapital welcomes Mubadala Capital investment offering to its platform for Middle East wealth managers
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi9wFBVV95cUxOTXAzR0VCVDNSRGpSVVlFTk5sR3JodlhKYUpkTHYxYmNjMU14ZllVcHZjOWVlMUpBTnd4OFp5LUZHem83RUg5SS1FNVg0OVcwS0JZeXFXU0FIamR2ay1YdlRvWGVGZTlPeFlKaWtkNEtvVXl6ODRBUHpNdU1tM0RsM0kwUk55TWZHa2h6bk9zdWtGZjRYWTduQ2phTENGTy1tb1JLYk90V3RpZkktSnMzWEVwckdWNXRERTRaNWpreVk0X3ZHdzl2U3VycEdLV3NwdjhrN083QUdBR2lQSWwxQXZsUHZzUnNXS0xjQUloajAxSi1Remo4?oc=5
+
+ICapital welcomes Mubadala Capital investment offering to its platform for Middle East wealth managers    Zawya

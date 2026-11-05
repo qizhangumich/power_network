@@ -1,0 +1,5 @@
+# iCapital to Distribute Mubadala Capital Evergreen Strategy
+source: Securities.io
+url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQdEF5dktvMWlwRXNidmFmWUNQZlNFNUpHR2paQ1RpWjJpVmExamxsaDlHb2ZBRi1VU1FJam0zRk9reW9ReFdESEI3WWNybWh1T2Q0SGFBblFlVm9HcFZDYXptQ3h1TUZpQnpzVjAxaDJJaFRyY25DcnNaWlIwT2YzQkxHMWV5dGNkZ2poNkxR?oc=5
+
+iCapital to Distribute Mubadala Capital Evergreen Strategy    Securities.io

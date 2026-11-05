@@ -1,0 +1,5 @@
+# How Noatum Maritime is meeting the energy sector’s evolving demands
+source: Energy Connects
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWTJ1enlTVXd0a1NhTmFGWXptZ1hEejJwbGlOUk96TVFFYWNyc004S2ZaZXpEb21vNW1pRFA4OGhBSkRqYVlNU1d5TmFXZmtYN21NSEJFMjJpTGFBX0hTcUtWb0l5SUwzT2ttNW1KZXNrbEJYQmZzOXZTMHFRMXNSd3AxTFpxMTU4WmwtblRrTHNuRlZZcVpIdEhiQjlSa1ZEa1RlZ0R2elpYUVdPWWJ5S3o0TWsweEE3N2lMX3BDbmlLZU9oTFdGN21jek8yQkdZOXlr?oc=5
+
+How Noatum Maritime is meeting the energy sector’s evolving demands    Energy Connects

@@ -1,0 +1,5 @@
+# Advent International to Acquire Tunisia-Rooted Fintech Vermeg
+source: CairoScene
+url: https://news.google.com/rss/articles/CBMimAFBVV95cUxOa3Z0TEVpOUF5cXpqOTFBaGRtV2liRFpMdy1maVlMckNLSTJBNnB0LXNvMUFaODhXTE83TmhLOEljOElnSzlYLXFHVFJpRGZVQUR3bExKVXhwYzZqUDJHVmhxaUJNQmE0SjY0bWswRnM3bUVGRWhSWVpVU2Y1ZXZXWXZpZlhMZmVuYjctM3kxZElyOHZrZ1hBbg?oc=5
+
+Advent International to Acquire Tunisia-Rooted Fintech Vermeg    CairoScene
