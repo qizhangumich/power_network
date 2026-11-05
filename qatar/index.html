@@ -130,6 +130,45 @@
   .youdot.demo{background:var(--warn);box-shadow:0 0 0 3px rgba(242,181,68,.25)}
   #b-more{display:none}
   #b-mynet .mn-ic{display:none}
+  /* Phase 7: plan badge, language selector, View panel, My Premium */
+  .planb{font-size:10.5px;font-weight:700;letter-spacing:.04em;padding:2px 7px;border-radius:999px;border:1px solid var(--line-2);color:var(--ink-faint);text-transform:uppercase}
+  .planb.pro{color:#0A1120;background:var(--accent);border-color:var(--accent)}
+  #langwrap{position:relative}
+  #b-lang svg{width:15px;height:15px}
+  #langmenu{position:absolute;top:46px;right:0;min-width:170px;background:var(--surface);border:1px solid var(--line-2);border-radius:14px;
+            box-shadow:var(--shadow);padding:6px;z-index:60;display:flex;flex-direction:column}
+  #langmenu[hidden]{display:none}
+  .lang-opt{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 12px;border-radius:9px;font-size:13.5px;color:var(--ink-dim);text-align:left}
+  .lang-opt:hover{background:var(--surface-2);color:var(--ink)}
+  .lang-opt.on{color:var(--ink);background:var(--accent-soft);font-weight:600}
+  .lang-opt svg{width:14px;height:14px}
+  .lang-seg{display:flex;gap:6px;grid-column:1/-1}
+  .lang-seg .chip{flex:1;justify-content:center}
+  .vw-hd{font-size:12px !important;color:var(--ink) !important;letter-spacing:.08em}
+  .vw-filt{margin-top:22px !important;padding-top:14px;border-top:1px solid var(--line)}
+  .vw-hint{font-size:12px;color:var(--ink-faint);margin:-2px 0 8px}
+  .vcards{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .vcard{display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left;padding:10px 12px;border-radius:12px;border:1px solid var(--line-2);
+         background:var(--bg-raise);color:var(--ink-dim);cursor:pointer;min-height:58px}
+  .vcard b{font-size:13px;color:var(--ink);font-weight:600}
+  .vcard span{font-size:11.5px;line-height:1.35}
+  .vcard:hover{border-color:var(--accent-br)}
+  .vcard.on{border-color:var(--accent-br);background:var(--accent-soft);box-shadow:inset 0 0 0 1px var(--accent-br)}
+  .pm-plan{display:flex;align-items:center;gap:8px;margin:6px 0 12px;font-size:12.5px;color:var(--ink-dim);flex-wrap:wrap}
+  .pm-cards{display:flex;flex-direction:column;gap:8px;margin:10px 0 14px}
+  .pm-card{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border:1px solid var(--line-2);border-radius:14px;background:var(--bg-raise)}
+  .pm-card .pm-ic{width:34px;height:34px;border-radius:10px;flex:none;display:flex;align-items:center;justify-content:center;background:var(--accent-soft);color:var(--accent-hi)}
+  .pm-card .pm-ic svg{width:17px;height:17px}
+  .pm-card .pm-tx{flex:1;min-width:0}
+  .pm-card b{display:block;font-size:13.5px;font-weight:600}
+  .pm-card p{font-size:12px;color:var(--ink-faint);line-height:1.45;margin:2px 0 0}
+  .pm-card .pm-go{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+  .pm-card.locked .pm-ic{background:var(--surface-2);color:var(--ink-faint)}
+  .pm-card .pm-st{font-size:11.5px;color:var(--ok-ink);display:inline-flex;gap:4px;align-items:center;margin-top:6px}
+  .pm-up{border:1px solid var(--accent-br);background:var(--accent-soft);border-radius:14px;padding:12px 14px;font-size:13px;line-height:1.5;margin:4px 0 4px}
+  .pm-back{margin:-2px 0 6px -6px}
+  .pm-lock b svg,.pm-tag svg{width:12px;height:12px;vertical-align:-1px}
+  .pm-tag{font-size:11px;font-weight:600;vertical-align:middle;margin-left:4px;color:var(--ink-faint)}
   .linkbtn{font-size:12.5px;color:var(--accent-hi);padding:5px 7px;border-radius:7px;text-decoration:none;display:inline-flex;align-items:center;gap:5px}
   .linkbtn:hover{background:var(--accent-soft)}
 
@@ -550,16 +589,14 @@
 
   /* ---------- tablet ---------- */
   @media (max-width:1180px) and (min-width:761px){
-    #views{display:none}
-    #b-more{display:inline-flex}
     #wordmark{display:none}
-    #b-lang{display:none}
+    #b-plan{display:none}
   }
 
   /* ---------- phone: map first, sheets, one-handed controls ---------- */
   @media (max-width:760px){
     #topbar{top:calc(8px + var(--sat));left:calc(8px + var(--sal));right:calc(8px + var(--sar));height:50px;gap:6px;padding:0 5px 0 6px;border-radius:15px}
-    #wordmark,#views,#b-filter,#b-lang,#b-guide{display:none}
+    #wordmark,#b-filter,#langwrap,#b-guide,#b-plan{display:none}
     #brandlogo{width:28px;height:28px}
     #brandwrap{padding:2px}
     #regions summary{height:38px;padding:0 10px;font-size:13px;max-width:124px}
@@ -653,12 +690,12 @@
     <input id="ask" type="search" placeholder="Search people or organizations…" autocomplete="off" aria-label="Search the network"/>
     <div id="askout" role="listbox"></div>
   </div>
-  <div id="views" role="tablist" aria-label="Map view"></div>
   <div id="topright">
     <button class="btn ghost" id="b-guide" type="button">Guide</button>
-    <button class="btn" id="b-mynet" type="button" aria-label="My Network"><svg class="i mn-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="youdot" id="b-mynet-dot"></span><span id="b-mynet-t">My Network</span></button>
-    <button class="btn ghost" id="b-filter" type="button">Filters</button>
-    <button class="btn ghost" id="b-lang" type="button">中文</button>
+    <button class="btn ghost" id="b-filter" type="button" aria-controls="filters">View</button>
+    <button class="btn" id="b-mynet" type="button" aria-label="My Premium"><svg class="i mn-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="youdot" id="b-mynet-dot"></span><span id="b-mynet-t">My Premium</span><span class="planb" id="b-plan">Free</span></button>
+    <div id="langwrap"><button class="btn ghost" id="b-lang" type="button" aria-haspopup="listbox" aria-expanded="false">Language</button>
+      <div id="langmenu" role="listbox" aria-label="Language" hidden></div></div>
     <button class="btn icon" id="b-more" type="button" aria-label="Menu"></button>
   </div>
 </header>
@@ -668,11 +705,13 @@
 <aside id="legend" class="sheet" aria-label="Map key"></aside>
 <div id="mapctl" role="toolbar" aria-label="Map controls"></div>
 
-<section id="filters" class="panel sheet" aria-label="Menu and filters"><div class="grab"></div><button class="close" id="f-close" type="button" aria-label="Close"></button><div class="pbody">
+<section id="filters" class="panel sheet" aria-label="View"><div class="grab"></div><button class="close" id="f-close" type="button" aria-label="Close"></button><div class="pbody">
+  <div class="eyebrow" id="vw-eyebrow">View</div>
   <div id="m-only">
-    <div class="hd" id="hd-views-m">View</div><div class="chips" id="f-views-m"></div>
     <div class="hd" id="hd-quick">Quick actions</div><div class="menu-grid" id="f-quick"></div>
   </div>
+  <div class="hd vw-hd" id="hd-views-m">Display mode</div><p class="vw-hint" id="vw-modes-hint"></p><div class="vcards" id="f-views-m"></div>
+  <div class="hd vw-hd vw-filt" id="hd-filt">Filters</div><p class="vw-hint" id="vw-filt-hint"></p>
   <div class="hd" id="hd-layers">Layers</div><div class="chips" id="f-layers"></div>
   <div class="hd" id="hd-types">Show</div><div class="chips" id="f-types"></div>
   <div class="hd" id="hd-edges">Connections</div><div class="chips" id="f-edges"></div>
@@ -783,6 +822,10 @@ const IC = {
   diamond:"M12 3l9 9-9 9-9-9 9-9z",
   compass:"M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM15.5 8.5l-2 5-5 2 2-5 5-2z",
   star:"M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9L12 3.5z",
+  lock:"M6 11h12v9H6zM8.5 11V8a3.5 3.5 0 0 1 7 0v3",
+  grid:"M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z",
+  eye:"M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12zM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z",
+  sliders:"M4 7h10M18 7h2M4 17h4M12 17h8M16 5v4M10 15v4",
 };
 function svgI(name, cls){
   return `<svg class="i${cls ? " " + cls : ""}" viewBox="0 0 24 24" aria-hidden="true"><path d="${IC[name] || IC.info}"/></svg>`;
@@ -1173,6 +1216,89 @@ PEOPLE.forEach(p => {
   nodes.push(nd); byId[p.id] = nd;
 });
 nodes.forEach(n => { n.deg = 0; n.adj = []; n.news = []; n.contacts = []; n.myDirect = false; n.myConf = null; });
+
+/* ---------- Free vs Premium (Phase 7) ----------
+   Premium = a signed-in account with a verified email (billing is out of scope).
+   Free accounts see the whole structure — nodes, links, layout, views, filters — but no names:
+   names are replaced in the loaded data before anything draws, so labels, tooltips, search,
+   panels and routes all stay consistent. The tier is cached in pm_tier and re-checked with
+   the server on load (alumLoad); a change reloads the page. */
+const PREMIUM = (() => { try { return !!localStorage.getItem("pm2_token") && localStorage.getItem("pm_tier") === "premium"; } catch(e){ return false; } })();
+const MASKED = !PREMIUM;
+const PT_I18N = {
+  en: {
+    nav:"My Premium", bView:"View", bLang:"Language", free:"Free", premium:"Premium",
+    person:"Person", org:"Organization", hidden:"Name hidden",
+    upgradeMsg:"Upgrade to Premium to reveal people and organizations, access your dashboard, build your network, and create AI interview notes.",
+    upgrade:"Upgrade to Premium", locked:"Premium", lockedName:"Names are hidden on a Free account.",
+    lockedAct:"Routes, saving targets and adding people you know are Premium tools.",
+    sigLocked:"{n} recent news signals — headlines are visible with Premium.",
+    searchLocked:"Free accounts can't search by name. Search by industry, or upgrade to reveal names.",
+    f1:"Reveal names", f1d:"See the people, companies and institutions behind every node — on map labels, tooltips, search and profiles.",
+    f2:"Dashboard", f2d:"Your contacts, reach, saved targets and circles at a glance.",
+    f3:"My Network & Add Connections", f3d:"Circles, contact lists, network highlight — and add people from the map, LinkedIn or other lists.",
+    f4:"AI Interview Notes", f4d:"Record an interview, get structured notes and next steps, and save them to the contact.",
+    namesOn:"Names visible", open:"Open", addConn:"Add Connections", newInterview:"New interview",
+    hlOn:"Highlight my network", hlOff:"Show the whole map",
+    back:"My Premium", planNow:"Your plan", signedAs:"Signed in as {e}",
+    verifyT:"Verify your email to unlock Premium", verifyB:"We sent a link and a 6-digit code to {e}. Open the link, or enter the code here.",
+    verifyCode:"6-digit code", verifyDo:"Verify", verifySend:"Send a new code", verifySent:"Sent — check your inbox (and spam).",
+    verified:"Email verified — Premium unlocked.",
+    joinT:"Create a free account or sign in", joinB:"Premium comes with a verified account.",
+    dashTitle:"Dashboard", netTitle:"My Network", notesN:"{n} interview notes",
+    modesHd:"Display mode", modesHint:"How the map is arranged — one at a time.",
+    filtHd:"Filters", filtHint:"What is shown — combine freely.",
+    modes:{network:"Everyone and every link, by power", sector:"Grouped into industry districts", institution:"Organizations at the centre, people around them", control:"Who owns or controls whom"},
+    guideView:"Open View to switch display modes (Network, Industries, Focus, Ownership) and filters.",
+    tourPremT:"Premium step", tourPrem2:"Adding the people you know puts you on the map and connects you to them. This is part of Premium, with names revealed, your dashboard and AI interview notes.",
+    tourPrem3:"With Premium, NavGCC finds the warmest introduction paths from you to anyone on the map, with evidence for every hop.",
+    langHd:"Language",
+  },
+  zh: {
+    nav:"我的高级版", bView:"视图", bLang:"语言", free:"免费版", premium:"高级版",
+    person:"人物", org:"机构", hidden:"名称已隐藏",
+    upgradeMsg:"升级到高级版，即可查看人物与机构名称、使用仪表盘、建立你的人脉，并生成 AI 访谈记录。",
+    upgrade:"升级到高级版", locked:"高级版", lockedName:"免费账户不显示名称。",
+    lockedAct:"路线、保存目标和添加你认识的人属于高级版功能。",
+    sigLocked:"{n} 条最新动态——升级后可查看标题。",
+    searchLocked:"免费账户无法按名称搜索。可按行业搜索，或升级以查看名称。",
+    f1:"显示名称", f1d:"查看每个节点背后的人物、公司与机构——地图标签、提示、搜索与详情中均可见。",
+    f2:"仪表盘", f2d:"一览你的联系人、可触达范围、保存的目标与圈子。",
+    f3:"我的人脉与添加联系人", f3d:"圈子、联系人列表、人脉高亮——并可从地图、领英或其他名单添加。",
+    f4:"AI 访谈记录", f4d:"录制访谈，生成结构化记录与后续行动，并保存到对应联系人。",
+    namesOn:"名称可见", open:"打开", addConn:"添加联系人", newInterview:"新建访谈",
+    hlOn:"高亮我的人脉", hlOff:"显示完整地图",
+    back:"我的高级版", planNow:"你的方案", signedAs:"已登录：{e}",
+    verifyT:"验证邮箱以开通高级版", verifyB:"我们已向 {e} 发送链接和 6 位验证码。打开链接，或在此输入验证码。",
+    verifyCode:"6 位验证码", verifyDo:"验证", verifySend:"重新发送验证码", verifySent:"已发送——请查看收件箱（及垃圾邮件）。",
+    verified:"邮箱已验证——高级版已开通。",
+    joinT:"创建免费账户或登录", joinB:"验证邮箱后即可使用高级版。",
+    dashTitle:"仪表盘", netTitle:"我的人脉", notesN:"{n} 条访谈记录",
+    modesHd:"显示模式", modesHint:"地图的排布方式——一次一种。",
+    filtHd:"筛选", filtHint:"显示哪些内容——可自由组合。",
+    modes:{network:"所有人物与关系，按影响力排布", sector:"按行业分区", institution:"机构居中，人物环绕", control:"谁拥有或控制谁"},
+    guideView:"打开“视图”可切换显示模式（网络、行业、聚焦、控股链）与筛选。",
+    tourPremT:"高级版步骤", tourPrem2:"添加你认识的人，你就会出现在地图上并与他们相连。这属于高级版，同时可查看名称、使用仪表盘和 AI 访谈记录。",
+    tourPrem3:"高级版会为你找到通往地图上任何人的最佳引荐路径，并给出每一步的依据。",
+    langHd:"语言",
+  },
+};
+function pt(){ return PT_I18N[LANG] || PT_I18N.en; }
+/* stable codes by power rank (Person 1 is the most connected-powerful person, Organization 1 likewise) */
+(() => {
+  ["person", "inst"].forEach(kind => nodes.filter(n => n.kind === kind).sort((a, b) => b.power - a.power || (a.id < b.id ? -1 : 1))
+    .forEach((n, i) => { n.mk = i + 1; }));
+})();
+function maskNames(){
+  if(!MASKED) return;
+  const T = pt();
+  nodes.forEach(n => {
+    if(n.mk === undefined || n.layer) return;
+    n.name = n.short = (n.kind === "inst" ? T.org : T.person) + " " + n.mk;
+    n.note = ""; n.masked = true;
+  });
+}
+maskNames();
 const edges = [];
 function linkEdge(e){
   edges.push(e);
@@ -1189,7 +1315,7 @@ function addEdge(a, b, kind, label, v, former){
 PEOPLE.forEach(p => (p.roles || []).forEach(r => addEdge(p.id, r[0], r[2] === "alumni" ? "alumni" : "role", r[1], r[3], r[4])));
 (typeof OWNERSHIP !== "undefined" ? OWNERSHIP : []).forEach(o => addEdge(o[0], o[1], "own", o[2] || "owned / controlled by", o[3]));
 (typeof FAMILY !== "undefined" ? FAMILY : []).forEach(f => addEdge(f[0], f[1], "family", f[2]));
-const AKAS = (typeof AKA !== "undefined") ? AKA : {};
+const AKAS = (!MASKED && typeof AKA !== "undefined") ? AKA : {};   // aliases are names too: none on Free
 const sectorKeys = Object.keys(SECTORS);
 
 /* headline role: a chair / CEO / minister seat outranks "member", then the bigger organization */
@@ -1661,6 +1787,7 @@ const Acct = (() => {
     try { await call("logout", "POST", {}); } catch(e){}
     localStorage.removeItem("pm2_token");
     localStorage.removeItem("pm2_email");
+    localStorage.removeItem("pm_tier");
     Personal.wipe();                       // protect shared devices
   }
   async function deleteRemote(){ if(tk()) try { await call("personal", "DELETE"); } catch(e){} }
@@ -1750,7 +1877,7 @@ function rebuildPersonal(animate){
       layerEdge({s:dn, t:inst, kind:"role", label:title, v:"demo", demo:true, former:false});
       direct.set(dn.id, {conf:"demo", s:""});
     });
-  } else {
+  } else if(PREMIUM){                                  // Free: your contacts stay saved, but the layer is Premium
     const d = Personal.derived();
     all = d.contacts;
     d.direct.forEach((info, pid) => direct.set(pid, info));
@@ -2519,6 +2646,7 @@ function shortName(n){
   return PARTICLES.has(prev.toLowerCase().replace(/-$/, "")) ? `${w[0]} ${prev} ${last}` : `${w[0]} ${last}`;
 }
 function initials(n){
+  if(n.masked) return "";
   const w = n.kind === "person" ? bareWords(n) : n.short.split(" ");
   return w.filter(x => x.length > 1 && x[0] === x[0].toUpperCase() && !PARTICLES.has(x.toLowerCase())).slice(0, 2).map(x => x[0]).join("");
 }
@@ -3330,7 +3458,47 @@ function countUp(el, from, to){
   };
   requestAnimationFrame(step);
 }
+/* Free account: the structure of a node — kind, industry, tier, titles, links — without any names */
+function premiumCallout(msg){
+  const P = pt();
+  return `<div class="callout pm-lock"><b>${svgI("lock")} ${msg || P.lockedName}</b><div style="margin-top:4px">${P.upgradeMsg}</div>`
+       + `<div class="row"><button class="btn sm primary" type="button" data-act="premium">${svgI("sparkle")} ${P.upgrade}</button></div></div>`;
+}
+function freeProfileHtml(n){
+  const T = t(), P = pt();
+  let h = `<div class="pf-head">${avatarHtml(n)}<div class="pf-tt"><h2>${esc(n.name)} <span class="tag pm-tag">${svgI("lock")} ${P.hidden}</span></h2><div class="pf-role">${esc(subLine(n))}</div></div></div>`;
+  h += `<div class="pf-meta">${indTag(n)}<span class="tag">${n.kind === "person" ? T.person : T.inst}</span><span class="tag">${esc(tierName(n.tier))}</span></div>`;
+  h += `<div class="pf-actions"><button class="btn" data-act="focus">${svgI("target")} ${S.focus === n ? T.actUnfocus : T.actFocus}</button>`
+     + (S.expanded.has(n) ? `<button class="btn" data-act="collapse">${svgI("share")} ${T.actCollapse}</button>`
+                          : `<button class="btn" data-act="expand">${svgI("share")} ${T.actExpand}</button>`) + `</div>`;
+  h += premiumCallout(P.lockedName + " " + P.lockedAct);
+  h += `<div class="powerbar"><i style="width:${Math.max(4, Math.min(100, n.power))}%"></i></div>`
+     + `<div class="plab">${T.power} ${n.power} / 100 · ${n.deg} ${T.conns}</div>`;
+  if(n.kind === "person" && n.roles && n.roles.length){
+    h += `<div class="sect">${T.positions}</div>`;
+    n.roles.slice().sort((a, b) => (a[4] ? 1 : 0) - (b[4] ? 1 : 0)).forEach(r => {
+      const inst = byId[r[0]];
+      h += `<div class="role"${r[4] ? ' style="opacity:.75"' : ""}><span class="rt">${esc(r[1])}</span><br>`
+         + `<span class="ri" data-go="${esc(r[0])}">${esc(inst ? inst.name : "")}</span><span class="badge">${esc(roleTypeName(r[2]))}</span>`
+         + (r[4] ? `<span class="ns" style="color:var(--ink-faint);border-color:var(--line-2)">${T.former}</span>` : "") + `</div>`;
+    });
+  }
+  if(n.news.length) h += `<div class="sect">${T.signals} (${n.news.length})</div><p class="plab">${svgI("lock")} ${fmt(P.sigLocked, {n:n.news.length})}</p>`;
+  const conns = n.adj.filter(a => !a.e.me && !a.e.layer);
+  h += `<div class="sect">${T.network} (${conns.filter(a => a.e.kind !== "pot").length})</div>`;
+  const seen = new Set();
+  conns.slice().sort((a, b) => b.n.power - a.n.power).forEach(a => {
+    if(seen.has(a.n.id + a.e.kind)) return;
+    seen.add(a.n.id + a.e.kind);
+    let kindLbl = a.e.kind === "pot" ? T.potential : (a.e.label || a.e.kind);
+    if(a.e.former) kindLbl = T.former + " · " + kindLbl;
+    h += `<div class="conn" data-go="${esc(a.n.id)}" style="--c:${nodeColor(a.n)}"><span class="dot"></span>`
+       + `<span>${esc(nm(a.n))}</span><span class="kind">${esc(kindLbl)}</span></div>`;
+  });
+  return h;
+}
 function profileHtml(n){
+  if(MASKED && !n.layer && n.kind !== "me") return freeProfileHtml(n);
   const T = t();
   let h = `<div class="pf-head">${avatarHtml(n)}<div class="pf-tt"><h2>${esc(n.name)}</h2><div class="pf-role">${esc(subLine(n))}</div></div></div>`;
   h += `<div class="pf-meta">${indTag(n)}<span class="tag">${n.kind === "person" ? T.person : T.inst}</span>`
@@ -3616,6 +3784,7 @@ function onAction(act, el){
     case "demo": enterDemo(); if(PANEL_MODE === "noroute" && node && node !== ME){ const r = showRoutes(node); if(!r) renderNoRoute(node, "none"); } break;
     case "exitDemo": exitDemo(); closeDetail(); break;
     case "mynet": openMyPanel(); break;
+    case "premium": closeDetail(); openMyPanel(); break;
     case "pickTarget": closeDetail(); if(Tour.active) Tour.go(3); else { const a = document.getElementById("ask"); a.focus(); a.placeholder = t().whoMeet; } break;
     case "exploreInd": exploreIndustry(+el.getAttribute("data-g")); break;
     case "openTarget": { const tg = node && id ? node : (PV && PV.target); clearPath(); if(tg){ select(tg); centerOn(tg); } break; }
@@ -3716,6 +3885,7 @@ const Legend = (() => {
     const box = document.getElementById("lg-sig");
     if(!box) return;
     const items = NEWS.filter(i => i.ids && i.ids.some(id => byId[id])).slice(0, 5);
+    if(MASKED && items.length){ box.innerHTML = `<p class="lg-hint">${svgI("lock")} ${fmt(pt().sigLocked, {n:NEWS.length})}</p>`; return; }
     box.innerHTML = items.length
       ? items.map(i => `<button class="sig" type="button" data-sig="${esc(i.ids.find(id => byId[id]))}">${esc(i.title)}`
                      + `<small>${esc(i.date || "")}${i.source ? " · " + esc(i.source) : ""}</small></button>`).join("")
@@ -3860,7 +4030,7 @@ function maybeHint(){
    ================================================================ */
 const myPanel = document.getElementById("mypanel");
 const mpBody = document.getElementById("mp-body");
-const MP = {tab:"name", q:"", inst:null, result:null, mcQuery:"", mcFilter:"all", mcOpen:null};
+const MP = {page:"home", tab:"name", q:"", inst:null, result:null, mcQuery:"", mcFilter:"all", mcOpen:null};
 const S_COL = {strong:"#3DD68C", medium:"#E0A030", weak:"#8190A7", "":"transparent"};
 function sName(s){ const T = t(); return s === "strong" ? T.mcStrong : s === "medium" ? T.mcMedium : s === "weak" ? T.mcWeak : T.mcUnrated; }
 
@@ -4041,7 +4211,11 @@ function wireAcct(){
   const go = mode => async () => {
     const em = (document.getElementById("mp-em").value || "").trim(), pw = document.getElementById("mp-pw").value || "";
     if(err) err.textContent = "";
-    try { await Acct.signIn(mode, em, pw); location.reload(); }
+    try {
+      await Acct.signIn(mode, em, pw);
+      try { const me = await pmApi("me"); localStorage.setItem("pm_tier", me && me.verified ? "premium" : "free"); } catch(e){}
+      location.reload();
+    }
     catch(e){ if(err) err.textContent = String(e.message || e) === "HTTP 404" || /fetch/i.test(String(e.message)) ? t().acctOffline : String(e.message || e); }
   };
   const li = document.getElementById("mp-login"), rg = document.getElementById("mp-reg");
@@ -4085,16 +4259,90 @@ function contactsHtml(){
   h += `<p class="plab" style="margin-top:8px">${T.mcHint}</p>`;
   return h;
 }
-function renderMyPanel(keep){
-  const T = t(), st = Personal.stats(), top = mpBody.scrollTop;
-  let h = `<div class="eyebrow">${svgI("person")} ${T.myNet}</div>`
-        + `<h2 style="font-family:var(--display);font-size:19px;font-weight:600;margin-right:38px;line-height:1.3">${T.mpTitle}</h2>`;
-  h += Acct.on() ? "" : `<div class="mp-priv">${svgI("check")} ${T.mpPrivacy}</div>`;
+/* ---------- My Premium (Phase 7): one home for the four Premium capabilities ----------
+   Free: the four benefits, the upgrade message and the way in (account, then verified email).
+   Premium: direct entries: names (on), Dashboard, My Network & Add Connections, AI Interview Notes.
+   The Dashboard and My Network pages reuse the existing My Network panel pieces unchanged. */
+async function pmApi(p, method, body){
+  let tk = null; try { tk = localStorage.getItem("pm2_token"); } catch(e){}
+  const r = await fetch("/api/" + p, {method:method || "GET", headers:Object.assign({"Content-Type":"application/json"}, tk ? {Authorization:"Bearer " + tk} : {}),
+                                       body:body ? JSON.stringify(body) : undefined});
+  const j = await r.json().catch(() => ({}));
+  if(!r.ok) throw new Error(j.error || ("HTTP " + r.status));
+  return j;
+}
+/* keep the cached tier in step with the server; reload when it changes (names are masked at load) */
+function syncTier(verified){
+  const want = verified ? "premium" : "free";
+  let ok = false;
+  try { localStorage.setItem("pm_tier", want); ok = localStorage.getItem("pm_tier") === want; } catch(e){}
+  if(ok && PREMIUM !== !!verified){
+    let n = 0; try { n = +sessionStorage.getItem("pm_tier_rl") || 0; sessionStorage.setItem("pm_tier_rl", n + 1); } catch(e){ n = 9; }
+    if(n < 3){ location.reload(); return true; }
+  }
+  return false;
+}
+function notesCount(){ try { return ((JSON.parse(localStorage.getItem("pm2_notes")) || {}).list || []).length; } catch(e){ return 0; } }
+function pmCard(ic, title, desc, extra, locked){
+  return `<div class="pm-card${locked ? " locked" : ""}"><span class="pm-ic">${svgI(locked ? "lock" : ic)}</span><div class="pm-tx"><b>${title}</b><p>${desc}</p>${extra || ""}</div></div>`;
+}
+function hlBtnHtml(){
+  if(!ME) return "";
+  const P = pt();
+  return `<button class="btn sm${S.myHL ? " on" : ""}" type="button" data-pm="hl" aria-pressed="${!!S.myHL}">${svgI("person")} ${S.myHL ? P.hlOff : P.hlOn}</button>`;
+}
+const PM_H2 = `style="font-family:var(--display);font-size:19px;font-weight:600;margin-right:38px;line-height:1.3"`;
+function premiumHomeHtml(st){
+  const T = t(), P = pt();
+  let h = `<h2 ${PM_H2}>${P.nav}</h2>`
+        + `<div class="pm-plan"><span class="mp-lbl" style="margin:0">${P.planNow}</span><span class="planb${PREMIUM ? " pro" : ""}">${PREMIUM ? P.premium : P.free}</span>`
+        + (Acct.on() ? `<span>${fmt(P.signedAs, {e:esc(Acct.email() || "")})}</span>` : "") + `</div>`;
+  if(!PREMIUM){
+    h += `<div class="pm-up">${P.upgradeMsg}</div>`;
+    h += `<div class="pm-cards">` + pmCard("eye", P.f1, P.f1d, "", true) + pmCard("grid", P.f2, P.f2d, "", true)
+       + pmCard("userplus", P.f3, P.f3d, "", true) + pmCard("mic", P.f4, P.f4d, "", true) + `</div>`;
+    if(Acct.on()){
+      h += `<div class="mp-acct" id="pm-verify"><span class="mp-lbl">${P.upgrade}</span><b style="font-size:13.5px">${P.verifyT}</b>`
+         + `<p class="plab" style="margin:4px 0 0">${fmt(P.verifyB, {e:esc(Acct.email() || "")})}</p>`
+         + `<div class="mp-inrow"><input class="mp-input" id="pm-code" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="${P.verifyCode}"></div>`
+         + `<div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn sm primary" type="button" data-pm="verify">${svgI("check")} ${P.verifyDo}</button>`
+         + `<button class="btn sm ghost" type="button" data-pm="resend">${P.verifySend}</button></div><div class="mp-err" id="pm-err"></div></div>`;
+      h += `<div class="sect">${T.acctTitle}</div>` + acctHtml();
+    } else {
+      h += `<div class="sect" id="pm-join">${svgI("sparkle")} ${P.upgrade}</div><p class="plab">${P.joinT}. ${P.joinB}</p>` + acctHtml();
+    }
+    return h;
+  }
+  const nc = notesCount();
+  h += `<div class="pm-cards">`
+     + pmCard("eye", P.f1, P.f1d, `<span class="pm-st">${svgI("check")} ${P.namesOn}</span>`)
+     + pmCard("grid", P.f2, P.f2d, `<div class="pm-go"><button class="btn sm primary" type="button" data-pm="dash">${P.open} ${svgI("chevR")}</button></div>`)
+     + pmCard("userplus", P.f3, P.f3d, `<div class="pm-go"><button class="btn sm primary" type="button" data-pm="net">${P.open} ${svgI("chevR")}</button>`
+             + `<button class="btn sm" type="button" data-pm="add">${svgI("plus")} ${P.addConn}</button>${hlBtnHtml()}</div>`)
+     + pmCard("mic", P.f4, P.f4d + (nc ? " · " + fmt(P.notesN, {n:nc}) : ""), `<div class="pm-go"><button class="btn sm primary" type="button" data-pm="notes"${window.NavNotes ? "" : " disabled"}>${svgI("mic")} ${P.newInterview}</button></div>`)
+     + `</div>`;
+  h += `<div class="sect">${T.acctTitle}</div>` + acctHtml();
+  return h;
+}
+function dashHtml(st){
+  const T = t(), P = pt();
+  let h = `<h2 ${PM_H2}>${P.dashTitle}</h2>`;
   if(DEMO.on) h += `<div class="result info">${T.mpDemoOn} <button class="linkbtn" type="button" data-mp="exitDemo">${T.exitDemo}</button></div>`;
   if(st) h += `<div class="mp-nums"><div><b>${st.total}</b><span>${T.mpContacts}</span></div><div><b>${st.matched}</b><span>${T.mpOnMap}</span></div><div><b>${st.reach}</b><span>${T.mpReach}</span></div></div>`;
+  else h += `<div class="callout"><b>${T.mpEmptyTitle}</b><div style="margin-top:4px">${T.mpEmptyBody}</div><div class="row"><button class="btn sm primary" type="button" data-pm="add">${svgI("plus")} ${P.addConn}</button></div></div>`;
+  const nc = notesCount();
+  h += `<div class="actrow" style="flex-wrap:wrap">${hlBtnHtml()}<button class="btn sm" type="button" data-pm="notes"${window.NavNotes ? "" : " disabled"}>${svgI("mic")} ${P.f4}${nc ? " (" + nc + ")" : ""}</button></div>`;
+  h += Saved.html();
+  if(ALUM) h += alumHtml();
+  return h;
+}
+function netHtml(st){
+  const T = t(), P = pt();
+  let h = `<h2 ${PM_H2}>${P.netTitle}</h2>`;
+  if(DEMO.on) h += `<div class="result info">${T.mpDemoOn} <button class="linkbtn" type="button" data-mp="exitDemo">${T.exitDemo}</button></div>`;
   const alumTop = !!(ALUM && ALUM.on);
   if(alumTop) h += alumHtml();                    // invited: your classmates come first
-  else if(!st) h += `<div class="callout"><b>${T.mpEmptyTitle}</b><div style="margin-top:4px">${T.mpEmptyBody}</div></div>`;
+  h += `<div class="sect" id="pm-add">${P.addConn}</div>`;
   h += `<div class="seg" role="tablist">`
      + [["name", "search", T.tabName], ["li", "link", T.tabLinkedIn], ["manual", "plus", T.tabManual]]
         .map(([k, ic, lbl]) => `<button type="button" role="tab" aria-selected="${MP.tab === k}" data-mp-tab="${k}" class="${MP.tab === k ? "on" : ""}">${lbl}</button>`).join("")
@@ -4115,15 +4363,23 @@ function renderMyPanel(keep){
          + `<button class="btn sm ghost" type="button" data-dec="0" data-ci="${x.ci}">${T.mpNo}</button></div></div>`;
     });
   }
-  h += Saved.html();
+  if(ME) h += `<div class="actrow">${hlBtnHtml()}</div>`;
   if(!alumTop) h += alumHtml();
   if(st) h += contactsHtml();
-  h += `<div class="sect">${T.acctTitle}</div>` + acctHtml();
   if(st) h += `<div class="actrow"><button class="btn sm danger" type="button" data-mp="delete">${T.mpDelete}</button></div>`;
+  return h;
+}
+function renderMyPanel(keep){
+  const P = pt(), st = Personal.stats(), top = mpBody.scrollTop;
+  const page = PREMIUM ? (MP.page || "home") : "home";
+  let h = `<div class="eyebrow">${svgI(PREMIUM ? "star" : "lock")} ${P.nav}</div>`;
+  if(page === "home") h += premiumHomeHtml(st);
+  else h += `<button class="linkbtn pm-back" type="button" data-pm="home">${svgI("chevL")} ${P.back}</button>` + (page === "dash" ? dashHtml(st) : netHtml(st));
   mpBody.innerHTML = h;
   mpBody.scrollTop = keep ? top : 0;
   const resEl = MP.result && mpBody.querySelector(".result[role=status]");
   if(resEl && resEl.scrollIntoView) resEl.scrollIntoView({block:"nearest"});
+  if(MP.scrollAdd){ MP.scrollAdd = false; const ad = document.getElementById("pm-add"); if(ad && ad.scrollIntoView) ad.scrollIntoView({block:"start"}); }
   wireAddByName("mp", MP);
   wireLinkedIn("mp", r => { MP.result = r; renderMyPanel(true); });
   const othIn = document.getElementById("oth-in");
@@ -4139,10 +4395,31 @@ function renderMyPanel(keep){
   wireAcct();
   wireAlum();
 }
+async function pmAction(act){
+  const P = pt();
+  if(act === "home" || act === "dash" || act === "net"){ MP.page = act; MP.result = null; renderMyPanel(); return; }
+  if(act === "add"){ MP.page = "net"; MP.result = null; MP.scrollAdd = true; renderMyPanel(); return; }
+  if(act === "hl"){ setMyHL(!S.myHL, true); return; }
+  if(act === "notes"){ if(window.NavNotes) NavNotes.openEditor(null, []); return; }
+  const err = document.getElementById("pm-err");
+  if(err) err.textContent = "";
+  try {
+    if(act === "verify"){
+      const code = (document.getElementById("pm-code").value || "").trim();
+      await pmApi("verify/code", "POST", {code});
+      toast(P.verified);
+      syncTier(true);
+    } else if(act === "resend"){
+      await pmApi("verify/send", "POST", {});
+      if(err){ err.style.color = "var(--ok-ink)"; err.textContent = P.verifySent; }
+    }
+  } catch(e){ if(err){ err.style.color = ""; err.textContent = String(e.message || e); } }
+}
 function openMyPanel(o){
   o = o || {};
-  if(o.inst){ MP.inst = o.inst; MP.tab = "name"; MP.q = ""; }
-  else if(o.focus === "name"){ MP.tab = "name"; MP.inst = null; }
+  MP.page = o.page || "home";
+  if(o.inst){ MP.inst = o.inst; MP.tab = "name"; MP.q = ""; MP.page = "net"; MP.scrollAdd = true; }
+  else if(o.focus === "name"){ MP.tab = "name"; MP.inst = null; MP.page = "net"; MP.scrollAdd = true; }
   MP.result = null;
   if(Tour.active) Tour.finish("explore");
   renderMyPanel();
@@ -4152,7 +4429,7 @@ function openMyPanel(o){
 function renderMyNetBtn(){
   const dot = document.getElementById("b-mynet-dot");
   dot.className = "youdot" + (DEMO.on ? " demo" : ME ? " on" : "");
-  document.getElementById("b-mynet").title = ME ? fmt(t().meKnows, {n:meAnchors().length}) : t().myNet;
+  document.getElementById("b-mynet").title = ME ? fmt(t().meKnows, {n:meAnchors().length}) : pt().nav;
   const ask = document.getElementById("ask");
   if(ask && document.activeElement !== ask) ask.placeholder = ME ? t().askMe : t().ask;
   renderMapCtl();                                   // the "My Network" highlight appears once you are on the map
@@ -4163,6 +4440,8 @@ mpBody.addEventListener("click", ev => {
   const T = t();
   const tab = ev.target.closest("[data-mp-tab]");
   if(tab){ MP.tab = tab.getAttribute("data-mp-tab"); MP.result = null; renderMyPanel(true); return; }
+  const pm = ev.target.closest("[data-pm]");
+  if(pm){ pmAction(pm.getAttribute("data-pm")); return; }
   const al = ev.target.closest("[data-al]");
   if(al){ alumAction(al.getAttribute("data-al"), al); return; }
   const a = ev.target.closest("[data-mp]");
@@ -4434,7 +4713,7 @@ const Tour = (() => {
   /* step 2: you appear and connect to the people you add */
   function playLocate(){
     S.hideMe = false; S.pulse = null; S.hl.clear(); Legend.refreshHl(); fadeEdges(1, 0);
-    S.dimGoal = ME ? 1 : 0.32;                   // the network steps back; an empty starting point waits
+    S.dimGoal = ME || MASKED ? 1 : 0.32;                   // the network steps back; an empty starting point waits
     computeVisible();
     if(ME){
       if(!RM) ME.born = performance.now();
@@ -4612,7 +4891,13 @@ const Tour = (() => {
     if(!active) return;
     const T = t(), box = inner();
     const keep = box.querySelector(".tbody") ? box.querySelector(".tbody").scrollTop : 0;
-    const body = cur === 1 ? navHtml() : cur === 2 ? locHtml() : pathHtml();
+    const P = pt();
+    const premStep = txt => `<div class="callout pm-lock"><b>${svgI("lock")} ${P.tourPremT}</b><div style="margin-top:4px">${txt}</div>`
+      + `<div class="row"><button class="btn sm primary" type="button" data-t="premium">${svgI("sparkle")} ${P.upgrade}</button></div></div>`
+      + `<p class="plab" style="margin-top:8px">${P.upgradeMsg}</p>`;
+    const body = cur === 1 ? navHtml() + `<p class="plab" style="margin-top:8px">${svgI("sliders")} ${P.guideView}</p>`
+               : MASKED ? premStep(cur === 2 ? P.tourPrem2 : P.tourPrem3)
+               : cur === 2 ? locHtml() : pathHtml();
     box.innerHTML = stepsHtml().replace(/<\/div>$/, `<button class="skip" type="button" data-t="skip">${T.skipTour}</button></div>`) + `<div class="tbody">${body}</div>`
       + `<div class="tfoot"><button class="btn sm ghost" type="button" data-t="replay" title="${T.replayHint}" aria-label="${T.replay}">${svgI("replay")}<span class="lbl"> ${T.replay}</span></button>`
       + (DEMO.on ? `<button class="btn sm ghost" type="button" data-t="exitDemo" style="color:var(--warn-ink)">${T.exitDemo}</button>`
@@ -4621,7 +4906,7 @@ const Tour = (() => {
       + `<button class="btn sm" type="button" data-t="back"${cur === 1 ? " disabled" : ""}>${svgI("chevL")} ${T.back}</button>`
       + `<button class="btn sm primary" type="button" data-t="next">${cur === 3 ? T.finish : T.next}${cur === 3 ? "" : " " + svgI("chevR")}</button></div>`;
     box.querySelector(".tbody").scrollTop = keep;
-    if(cur === 2 && !DEMO.on){
+    if(cur === 2 && !DEMO.on && !MASKED){
       if(tab === "name") wireAddByName("tr", TQ);
       else wireLinkedIn("tr", r => { liRes = r; render(); });
     }
@@ -4655,6 +4940,7 @@ const Tour = (() => {
       if(a === "anotherRoute"){ anotherRoute(); return; }
       if(a === "saveTarget"){ if(PV) Saved.toggle(PV.target); render(); return; }
       if(a === "skip") finish("skip");
+      else if(a === "premium"){ finish("explore"); openMyPanel(); }
       else if(a === "next"){ if(cur === 3) finish("done"); else go(cur + 1); }
       else if(a === "back") go(cur - 1);
       else if(a === "replay"){ if(cur === 3 && target) runTarget(target); else play(); }
@@ -4765,7 +5051,10 @@ function runAsk(q){
   }
   const hit = findNode(q);
   if(hit){ select(hit); centerOn(hit); askClose(); askIn.blur(); return; }
-  askResults(`<div class="explain">${T.askNoMatch}</div>`);
+  askResults(`<div class="explain">${T.askNoMatch}</div>` + (MASKED ? askLockHtml() : ""));
+}
+function askLockHtml(){
+  return `<div class="explain" style="border-bottom:0;border-top:1px solid var(--line);margin-top:4px">${svgI("lock")} ${pt().searchLocked}</div><span class="act" data-prem="1">${svgI("sparkle")} ${pt().upgrade}</span>`;
 }
 function askShowExamples(){
   const T = t();
@@ -4774,7 +5063,8 @@ function askShowExamples(){
   const exs = LANG === "zh"
     ? [topInst ? `谁在 ${topInst.short}` : null, pp[1] ? `怎么认识 ${pp[1].name}` : null, `${sectorName("energy")} 行业`]
     : [topInst ? `who at ${topInst.short}` : null, pp[1] ? `how can I meet ${pp[1].name}` : null, `show ${sectorName("energy")} industry`];
-  askResults(`<div class="explain">${T.askTry}</div>` + exs.filter(Boolean).map(q => `<div class="r" data-ask="${esc(q)}"><span class="tx"><b>${esc(q)}</b></span></div>`).join(""));
+  askResults(`<div class="explain">${T.askTry}</div>` + exs.filter(Boolean).map(q => `<div class="r" data-ask="${esc(q)}"><span class="tx"><b>${esc(q)}</b></span></div>`).join("")
+    + (MASKED ? askLockHtml() : ""));
 }
 askIn.addEventListener("focus", () => { if(!askIn.value.trim()) askShowExamples(); });
 askIn.addEventListener("keydown", ev => {
@@ -4788,8 +5078,8 @@ askIn.addEventListener("input", () => {
   const hits = nodes.filter(n => !n.layer && (n.name.toLowerCase().includes(q) || (n.short && n.short.toLowerCase().includes(q)) ||
                     (AKAS[n.id] && AKAS[n.id].some(x => String(x).toLowerCase().includes(q)))))
        .sort((a, b) => b.power - a.power).slice(0, 8);
-  if(!hits.length){ askResults(`<div class="explain">${t().askNoMatch}</div>`); return; }
-  askResults(hits.map(askRow).join(""));
+  if(!hits.length){ askResults(`<div class="explain">${t().askNoMatch}</div>` + (MASKED ? askLockHtml() : "")); return; }
+  askResults(hits.map(askRow).join("") + (MASKED ? askLockHtml() : ""));
 });
 askOut.addEventListener("click", ev => {
   const go = ev.target.closest("[data-go]");
@@ -4798,6 +5088,7 @@ askOut.addEventListener("click", ev => {
   if(ex){ askIn.value = ex.getAttribute("data-ask"); runAsk(askIn.value); return; }
   if(ev.target.closest("[data-clear]")){ S.askSet = null; S.hl.clear(); Legend.refreshHl(); clearPath(); closeDetail(); askClose(); askIn.value = ""; return; }
   if(ev.target.closest("[data-locate]")){ askClose(); openMyPanel({focus:"name"}); }
+  if(ev.target.closest("[data-prem]")){ askClose(); askIn.blur(); openMyPanel(); }
 });
 document.addEventListener("click", ev => {
   if(!document.getElementById("askwrap").contains(ev.target)) askClose();
@@ -4849,19 +5140,25 @@ function buildFilters(){
   });
 }
 const VIEWS = ["network", "sector", "institution", "control"];
+/* View = display modes (one at a time) + filters (combine freely), in one panel */
 function renderViews(){
-  document.getElementById("views").innerHTML = VIEWS.map(v =>
-    `<button class="vpill${S.view === v ? " on" : ""}" type="button" role="tab" data-view="${v}" aria-selected="${S.view === v}">${t().views[v]}</button>`).join("");
+  const P = pt(), T = t();
+  document.getElementById("f-views-m").innerHTML = VIEWS.map(v =>
+    `<button class="vcard${S.view === v ? " on" : ""}" type="button" data-view="${v}" aria-pressed="${S.view === v}"><b>${T.views[v]}</b><span>${P.modes[v]}</span></button>`).join("");
+}
+const LANGS = [["en", "English"], ["zh", "中文"]];      // the interface languages the product supports
+function renderLangMenu(){
+  document.getElementById("langmenu").innerHTML = LANGS.map(([k, l]) =>
+    `<button class="lang-opt${LANG === k ? " on" : ""}" type="button" role="option" aria-selected="${LANG === k}" data-lang="${k}"><span>${l}</span>${LANG === k ? svgI("check") : ""}</button>`).join("");
 }
 function renderMenu(){
-  const T = t();
-  document.getElementById("f-views-m").innerHTML = VIEWS.map(v =>
-    `<button class="chip${S.view === v ? " on" : ""}" type="button" data-view="${v}">${T.views[v]}</button>`).join("");
+  const T = t(), P = pt();
+  renderViews();
   document.getElementById("f-quick").innerHTML =
-      `<button class="btn" type="button" data-q="mynet">${svgI("person")} ${T.myNet}</button>`
-    + `<button class="btn" type="button" data-q="guide">${svgI("replay")} ${T.bGuide}</button>`
+      `<button class="btn" type="button" data-q="guide">${svgI("replay")} ${T.bGuide}</button>`
+    + `<button class="btn" type="button" data-q="mynet">${svgI(PREMIUM ? "star" : "lock")} ${P.nav}</button>`
+    + `<div class="lang-seg" role="group" aria-label="${P.langHd}">${LANGS.map(([k, l]) => `<button class="chip${LANG === k ? " on" : ""}" type="button" data-lang="${k}" aria-pressed="${LANG === k}">${svgI("globe")} ${l}</button>`).join("")}</div>`
     + `<button class="btn" type="button" data-q="key">${svgI("layers")} ${T.ctl.key}</button>`
-    + `<button class="btn" type="button" data-q="lang">${svgI("globe")} ${T.bLangLong}</button>`
     + `<button class="btn${S.liteOff ? " on" : ""}" type="button" data-q="all">${svgI("share")} ${T.cShowAll}</button>`
     + (DEMO.on ? `<button class="btn warn" type="button" data-q="exitDemo">${T.exitDemo}</button>` : `<button class="btn" type="button" data-q="demo">${svgI("sparkle")} ${T.tryDemo}</button>`);
 }
@@ -4881,10 +5178,15 @@ document.addEventListener("click", ev => {
     else if(a === "all"){ S.liteOff = !S.liteOff; S.lite = isMob() && !S.liteOff; computeLiteSet(); computeVisible(); reheat(0.4); renderMenu(); updateStats(); }
     else if(a === "demo"){ Sheets.close(F, true); enterDemo(); renderMenu(); }
     else if(a === "exitDemo"){ exitDemo(); renderMenu(); }
+    return;
   }
+  const lg = ev.target.closest("[data-lang]");
+  if(lg){ setLang(lg.getAttribute("data-lang")); closeLangMenu(); return; }
+  const lw = document.getElementById("langwrap");
+  if(lw && !lw.contains(ev.target)) closeLangMenu();
 });
 const filtersEl = document.getElementById("filters");
-document.getElementById("b-filter").onclick = () => filtersEl.classList.contains("open") ? Sheets.close(filtersEl, true) : Sheets.open(filtersEl, isMob() ? "full" : null);
+document.getElementById("b-filter").onclick = () => filtersEl.classList.contains("open") ? Sheets.close(filtersEl, true) : (renderMenu(), Sheets.open(filtersEl, isMob() ? "full" : null));
 document.getElementById("b-more").onclick = () => filtersEl.classList.contains("open") ? Sheets.close(filtersEl, true) : (renderMenu(), Sheets.open(filtersEl, isMob() ? "full" : null));
 document.getElementById("f-close").onclick = () => Sheets.close(filtersEl, true);
 document.getElementById("b-guide").onclick = () => Tour.start();
@@ -4896,15 +5198,27 @@ function applyLang(){
   document.title = T.docTitle;
   document.getElementById("b-guide").textContent = T.bGuide;
   document.getElementById("b-guide").title = T.replayHint;
-  document.getElementById("b-mynet-t").textContent = T.myNet;
-  document.getElementById("b-filter").textContent = T.bFilter;
-  document.getElementById("b-lang").textContent = T.bLang;
+  const P = pt();
+  maskNames();                                       // Free placeholders follow the interface language
+  document.getElementById("b-mynet-t").textContent = P.nav;
+  document.getElementById("b-mynet").setAttribute("aria-label", P.nav);
+  const plan = document.getElementById("b-plan");
+  plan.textContent = PREMIUM ? P.premium : P.free; plan.classList.toggle("pro", PREMIUM);
+  document.getElementById("b-filter").textContent = P.bView;
+  document.getElementById("b-lang").innerHTML = svgI("globe") + " " + P.bLang;
+  document.getElementById("langmenu").setAttribute("aria-label", P.langHd);
+  renderLangMenu();
+  document.getElementById("vw-eyebrow").innerHTML = svgI("sliders") + " " + P.bView;
+  document.getElementById("filters").setAttribute("aria-label", P.bView);
+  document.getElementById("vw-modes-hint").textContent = P.modesHint;
+  document.getElementById("vw-filt-hint").textContent = P.filtHint;
+  document.getElementById("hd-filt").textContent = P.filtHd;
   const more = document.getElementById("b-more");
   more.innerHTML = svgI("menu"); more.setAttribute("aria-label", T.menu);
   ["d-close", "mp-close", "f-close"].forEach(id => { const b = document.getElementById(id); b.innerHTML = svgI("close"); b.setAttribute("aria-label", T.close); });
   const lgc = document.querySelector('#legend > [data-lg="close"]');
   if(lgc){ lgc.innerHTML = svgI("close"); lgc.setAttribute("aria-label", T.close); }
-  [["hd-views-m", T.hdViews], ["hd-quick", T.hdQuick], ["hd-layers", T.hdLayers], ["hd-types", T.hdTypes], ["hd-edges", T.hdEdges], ["hd-sectors", T.hdSectors]]
+  [["hd-views-m", P.modesHd], ["hd-quick", T.hdQuick], ["hd-layers", T.hdLayers], ["hd-types", T.hdTypes], ["hd-edges", T.hdEdges], ["hd-sectors", T.hdSectors]]
     .forEach(([id, txt]) => { document.getElementById(id).textContent = txt; });
   document.getElementById("demobar-t").textContent = T.demoBar;
   document.getElementById("demo-exit").textContent = T.exitDemo;
@@ -4918,12 +5232,24 @@ function applyLang(){
   if(myPanel.classList.contains("open")) renderMyPanel(true);
   if(Tour.active) Tour.refresh();
 }
-function toggleLang(){
-  LANG = LANG === "en" ? "zh" : "en";
+function setLang(l){
+  if(!LANGS.some(x => x[0] === l) || l === LANG){ renderLangMenu(); return; }
+  LANG = l;
   try { localStorage.setItem("pm_lang", LANG); } catch(e){}
   applyLang();
 }
-document.getElementById("b-lang").onclick = toggleLang;
+function toggleLang(){ setLang(LANG === "en" ? "zh" : "en"); }
+function closeLangMenu(){
+  const m = document.getElementById("langmenu");
+  if(m && !m.hidden){ m.hidden = true; document.getElementById("b-lang").setAttribute("aria-expanded", "false"); }
+}
+document.getElementById("b-lang").onclick = ev => {
+  ev.stopPropagation();
+  const m = document.getElementById("langmenu"), open = m.hidden;
+  renderLangMenu();
+  m.hidden = !open;
+  document.getElementById("b-lang").setAttribute("aria-expanded", open ? "true" : "false");
+};
 
 function updateStats(){
   const T = t();
@@ -5437,6 +5763,9 @@ async function alumLoad(){
   if(!Acct.on()){ ALUM = null; return; }
   const me = await alumApi("me").catch(() => null);
   if(!me){ ALUM = null; return; }
+  if(syncTier(!!me.verified)) return;            // Free <-> Premium changed: reload with the right names
+  try { sessionStorage.removeItem("pm_tier_rl"); } catch(e){}
+  if(!PREMIUM){ ALUM = null; if(myPanel.classList.contains("open")) renderMyPanel(true); return; }
   const L = me.layers && me.layers.alumni, circles = me.circles || [];
   if(!L || !L.on || !circles.includes(L.circle)){ ALUM = {on:false, can:circles.length > 0}; if(myPanel.classList.contains("open")) renderMyPanel(true); return; }
   const c = await alumApi("circle/" + L.circle).catch(() => null);
@@ -5547,7 +5876,7 @@ function fitInitial(){
 window.__map = {S, nodes, edges, byId, draw, resize, fitView, select, setView, runAsk, findRoutes, routeBetween, showRoutes, toScreen, viewRect, suggestTargets,
                 Personal, rebuildPersonal, enterDemo, exitDemo, openMyPanel, renderMyPanel, Tour, Legend, Sheets, Intro, Nudge, Saved,
                 fitNodes, centerOn, stepPath, explorePath, clearPath, closeDetail, setMyHL, computeVisible, nbrs,
-                Acct, esc, svgI, toast, renderProfile, currentRole, nm, leaveDemoQuietly, myPanel,   // used by navgcc_notes.js
+                Acct, esc, svgI, toast, renderProfile, currentRole, nm, leaveDemoQuietly, PREMIUM, MASKED, pt, setLang, myPanel,   // used by navgcc_notes.js
                 get LANG(){ return LANG; }, get PANEL_MODE(){ return PANEL_MODE; },
                 get REACH(){ return REACH; },
                 get ME(){ return ME; }, get PV(){ return PV; }, get VIS(){ return VIS; }, get DISTRICTS(){ return DISTRICTS; }};

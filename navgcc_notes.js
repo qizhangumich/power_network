@@ -13,7 +13,7 @@
          rebuildPersonal, renderMyPanel, leaveDemoQuietly, myPanel} = MAP;
   const K_NOTES = "pm2_notes", K_CARDS = "pm2_cards";
   const EN = {
-    notes: "Meeting notes", addNote: "Add note", noNotes: "No meetings recorded yet.",
+    notes: "AI Interview Notes", addNote: "New interview note", pickFirst: "Who is this interview with? Pick the contact first.", noNotes: "No meetings recorded yet.",
     record: "Record", upload: "Upload audio", type: "Type", start: "Start recording", stop: "Stop",
     recHint: "Speak after the meeting — your recording becomes structured notes. Audio is not kept.",
     liveLang: "Dictation language", noMic: "Microphone not available — allow access, or type your notes.",
@@ -37,7 +37,7 @@
     noReader: "Couldn't read the card automatically — fill in the fields.",
   };
   const ZH = {
-    notes: "会议记录", addNote: "添加记录", noNotes: "还没有会议记录。",
+    notes: "AI 访谈记录", addNote: "新建访谈记录", pickFirst: "这是与谁的访谈？请先选择联系人。", noNotes: "还没有会议记录。",
     record: "录音", upload: "上传音频", type: "输入", start: "开始录音", stop: "停止",
     recHint: "会后口述——录音会整理成结构化记录。音频不会保存。",
     liveLang: "听写语言", noMic: "无法使用麦克风——请允许访问，或直接输入。",
@@ -268,8 +268,12 @@
     const N = note || {id: uid(), date: today(), title: "", people: initPeople || [], transcript: "", summary: "", points: [], steps: [], source: "text"};
     const mode = note ? "review" : "input";
     const langs = [["en-US", "English"], ["ar-AE", "العربية"], ["zh-CN", "中文"]];
+    const pickFirst = !note && !(initPeople || []).length;      // opened from My Premium: choose the contact first
     const chip = p => `<span class="nt-chip" data-k="${E(p.pid ? "p:" + p.pid : p.cid != null ? "c:" + p.cid : "o:" + p.oid)}">${E(p.n)}<button type="button" data-ntx="unchip" aria-label="Remove">×</button></span>`;
+    const peopleBlock = `<span class="mp-lbl">${T.people}</span>${pickFirst ? `<p class="plab" style="margin:0 0 6px">${T.pickFirst}</p>` : ""}<div class="nt-chips">${N.people.map(chip).join("")}</div>
+      <div class="nt-find"><input class="mp-input nt-q" placeholder="${T.addPerson}" autocomplete="off"><div class="nt-res"></div></div>`;
     modal(`<div class="eyebrow">${svgI("mic")} ${T.notes}</div>
+      ${pickFirst ? peopleBlock : ""}
       <div class="nt-in"${mode === "review" ? " hidden" : ""}>
         <div class="seg" role="tablist"><button type="button" class="on" data-ntx="tab" data-t="rec">${T.record}</button><button type="button" data-ntx="tab" data-t="up">${T.upload}</button><button type="button" data-ntx="tab" data-t="txt">${T.type}</button></div>
         <div class="nt-pane" data-p="rec"><p class="plab">${T.recHint}</p>
@@ -286,8 +290,7 @@
         <span class="plab nt-aimode">${st.can("notes") ? T.aiOn : (st.notes ? T.signInAI : T.basic)}</span></div>
       <div class="nt-grid"><label><span class="mp-lbl">${T.date}</span><input class="mp-input nt-date" type="date" value="${E(N.date)}"></label>
         <label><span class="mp-lbl">${T.title}</span><input class="mp-input nt-title" value="${E(N.title)}"></label></div>
-      <span class="mp-lbl">${T.people}</span><div class="nt-chips">${N.people.map(chip).join("")}</div>
-      <div class="nt-find"><input class="mp-input nt-q" placeholder="${T.addPerson}" autocomplete="off"><div class="nt-res"></div></div>
+      ${pickFirst ? "" : peopleBlock}
       <span class="mp-lbl">${T.summary}</span><textarea class="mp-input nt-sumin" rows="3">${E(N.summary)}</textarea>
       <span class="mp-lbl">${T.points}</span><textarea class="mp-input nt-pts" rows="4">${E((N.points || []).join("\n"))}</textarea>
       <span class="mp-lbl">${T.steps}</span><div class="nt-stepsin"></div>
