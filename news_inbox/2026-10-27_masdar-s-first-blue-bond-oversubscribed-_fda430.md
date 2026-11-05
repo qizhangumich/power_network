@@ -1,0 +1,5 @@
+# Masdar's First Blue Bond Oversubscribed 2.5 Times
+source: Forbes Middle East
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxQWW8yeEtic0FkcHIzVnpoN0NXSEE4akhCX3pEMnF1Ukl2Mm9HUGwxZzhoZjZXQWp1ZkpucEFZTlJxT0FzZUYxUkdBanN6a1c1VUtZRGdpeGVQc1M4WEh2NUI3QXlRNldXS2w5bUVRRVl2ZXFQY1BIU2tienBfdVY1NFJvT2dUR1RYRV9DdmJ0SGxJWmxiVFlqLURMNmtyV21uTW9lMFlQeEVBYko0NW5iU3pBY2dLei1aclQ0cGtUQ1AyU0R3?oc=5
+
+Masdar's First Blue Bond Oversubscribed 2.5 Times    Forbes Middle East

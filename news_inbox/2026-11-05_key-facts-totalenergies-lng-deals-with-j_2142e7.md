@@ -1,0 +1,5 @@
+# Key facts: TotalEnergies LNG Deals With Jiangsu Guoxin; ADNOC Gas
+source: TradingView
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU0JBOGVVc3BHYWtVSGZNakxFbi1DZTN1UnlNNEFIM0FHUVpYOFRzY01HRm5abGQ0QXhLeXlpazdXOW1uUWowRS1tZGZiUExfb1pqSmF2N3Z2Tm9vM3hkUEJPT2wwN3RPakprbDA5ZkJPTlc4bnNUXzFkQ3MwdFdUaUxyek9lOHpMektsY2ZiRThMeTk2UkFiT1lEYjBqTVd0YWstYXRsNzFCajJLbW1BbjMtNV9YTXFKcXl2b2RkMWlma0U?oc=5
+
+Key facts: TotalEnergies LNG Deals With Jiangsu Guoxin; ADNOC Gas    TradingView

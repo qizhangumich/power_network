@@ -1,0 +1,5 @@
+# World eroded its energy supply buffers since Iran war: ADNOC CEO | Daily Sabah
+source: Daily Sabah
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQVpEdllwbjR2Y0RndmJSX1RGLUpJbk1DREZZQW5NWGRERlhYYWlxY3haOHF0RDhIaHl6YnJ1ZWc3eUNvWi02SldWN1BlUFRET2RmTHJobDVjOXVJV0l5Q1ppa1FxTzJVWTFnWWM5cFg2SURady1iS3VoaXZCUjZtcTVFa3VMZVE1cmdNbk9VV01yS19YQ3F5dG9YYmNCUFlJVDlucHBqWjFud9IBrwFBVV95cUxNVm51bl9DSzFDbmcwcVJHcnJjN0NkM0x5OVBtdjlqa2NjdGphOG5LMlo5ZGVma2FvSEpoZjdGNERjVGJPbGttTUVNaXBJMS03SlNTN3RxdE9fZjlwajd0RDNDQkxJRHVxYlpWU0NrTVFuNUVkeFBYSjNaZzJTN19iLUlQYUJ5dlVoNXo4UHN6OU1xNnVpTVlMVmNBS2tmaHViVzJRNTVicTUyTHdEWVBn?oc=5
+
+World eroded its energy supply buffers since Iran war: ADNOC CEO | Daily Sabah    Daily Sabah

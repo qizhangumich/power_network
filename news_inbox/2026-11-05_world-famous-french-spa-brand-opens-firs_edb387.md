@@ -1,0 +1,5 @@
+# World-famous French spa brand opens first Australian outpost
+source: SMH.com.au
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxQQUYxZ1l5NWxWdzhGMjRIdURhTVU0YlF3UWp4NWlIZ0NYWGs4SUEydW9GTzlqMGJGb29mcnNLc3htcF9nOHJJSnRyZ2VCdHVhcTdCVnpVYUpaQktPRmQ3ZFlwbkVBTXdNS1ZxeUptTFdkYTNSRUFzLUJuY2Fid1dIdkZqbmJqZXJBUFJQXy1FY2ZUNW1fb0FYNVlTWEZKWlZ0dm81RlN0RllBYk1Wc0V4NXhVNVdMRFY3QUJCR2JiR2J3U2lC?oc=5
+
+World-famous French spa brand opens first Australian outpost    SMH.com.au

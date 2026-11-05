@@ -1,0 +1,5 @@
+# Mubadala-owned Moeve sells Algerian oilfield stakes to Pertamina, nearing a full exit from oil and gas production
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcWVPemNZUV91enRFZHlMLWpsZzJDWENNTDhKLTVSa2ZWdmlGM0d1Ujk4cDFkeHltOWlJTlNfWlhpRWlzajZKdHdicjVTN2dXbWpON0Uxd3Vsd3hQTG9KZ284YXZVV2lfRi1yMURBblJXd2E4Z0g3REhyWWR3VnNES3J2WDlET25WdTlRYjA2Wjl5WEs3ZldOREpkS1lXbnJMM240dnJ6QlZZd3hoU1VaUUNUODVTVWpyYjI0V1RDaS1fU3c0NGlmLTlzN2JKS1pxMFNNTTA2SlNjSThxVTRiYWtkRGM1MWFfeW5GbGFMc1RkWmdLb0ZZ?oc=5
+
+Mubadala-owned Moeve sells Algerian oilfield stakes to Pertamina, nearing a full exit from oil and gas production    EnterpriseAM

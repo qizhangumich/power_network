@@ -1,0 +1,5 @@
+# Cambodia targets European tourists through Etihad partnership
+source: Khmer Times
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxQZEhPeUtlaEhTQk0zTjZ1NWItVXRYMlpMVE5zdmJSQTdReERlNF9pR0tfSlgzTjhPTnVxQ3I2b2FxTVBSQkJ4ZzUwTUpZOVlwNFZaTWpkWG1qbXoyNlAxRmE0aW9jMzA3TmVPVEFrM291bTFVQTNQWmt3YVFSYllaWm9oQnlqTHBiSHZ5V3RfNklySFBfS2g3Tl9keTJVTC1ZaFhz?oc=5
+
+Cambodia targets European tourists through Etihad partnership    Khmer Times
