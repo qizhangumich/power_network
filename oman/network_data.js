@@ -383,6 +383,7 @@ const PEOPLE = [
     ["zubair","Chairman","board","v"],
     ["ominvest","Chairman","board","v"]]},
   {id:"sheikh_khalid_abdullah", n:"Sheikh Khalid Abdullah Al Khalili", t:2, p:62, s:"finance", roles:[
+    ["lst_liva","Chairman of the Board of Directors","board","ns"],
     ["lst_bknz","Chairman","board","v"],
     ["ominvest","Deputy Chairman","board","v"]]},
   {id:"najat_ali_al", n:"Najat Ali Al Lawati", t:2, p:52, s:"finance", roles:[
@@ -473,6 +474,7 @@ const PEOPLE = [
     ["nitaj","Chairman","board","v"],
     ["oia","Deputy President for Operations","executive","v"]]},
   {id:"dr_saud_al", n:"Dr. Saud Al Habsi", t:2, p:52, s:"sovereign", roles:[
+    ["pacp","Chairman of the Board of Directors","board","ns"],
     ["moafwr","Minister of Agriculture, Fisheries and Water Resources","board","v"],
     ["oia","Board Member (Minister of Agriculture Fisheries & Water Resources)","board","v"]]},
   {id:"abdullah_al_harthi", n:"Abdullah Al Harthi", t:2, p:52, s:"sovereign", roles:[
@@ -942,6 +944,7 @@ const PEOPLE = [
   {id:"niels_bormans", n:"Niels Bormans", t:2, p:60, s:"conglomerate", roles:[
     ["zubair","Group Chief Executive Officer","executive","ns"]]},
   {id:"fahad_al_bulushi", n:"Fahad Al Bulushi", t:2, p:58, s:"conglomerate", roles:[
+    ["al_bashayer_meat","Director","board","ns"],
     ["zubair","Group Chief Financial Officer","executive","ns"]]},
   {id:"mohammed_bin_mahfoodh", n:"Mohammed bin Mahfoodh Al Ardhi", t:2, p:62, s:"finance", roles:[
     ["cbfs_oman","Chairman of the Board of Trustees","board","v"],
@@ -974,6 +977,7 @@ const PEOPLE = [
   {id:"ahmed_al_kharusi", n:"Ahmed Al Kharusi", t:2, p:46, s:"materials", roles:[
     ["soharalum","General Manager - Human Resources and Corporate Affairs","executive","ns"]]},
   {id:"ahmed_bin_hassan", n:"Ahmed bin Hassan Alawi Al Dheeb", t:2, p:62, s:"industry", roles:[
+    ["pam_oman","Chairman of the Board of Directors","board","ns"],
     ["opaz","Deputy Chairman of the Board of Directors","board","v"],
     ["duqm","Deputy Chairman - OPAZ Board of Directors","board","v"]]},
   {id:"ahmed_bin_ali", n:"Ahmed bin Ali Akaak", t:2, p:60, s:"industry", roles:[
@@ -1114,6 +1118,7 @@ const PEOPLE = [
   {id:"madiha_bint_ahmed", n:"Madiha bint Ahmed Al Shibaniya", t:2, p:58, s:"education", roles:[
     ["moe","Minister of Education","executive","ns"]]},
   {id:"khamis_bin_saif", n:"Khamis bin Saif Al Jabri", t:2, p:62, s:"gov", roles:[
+    ["pam_oman","Chief Executive Officer","executive","ns"],
     ["ministry_of_economy","Minister of Economy","executive","v"],
     ["fsa_oman","Chairman of the Board of Directors (Minister of Economy)","board","ns"]]},
   {id:"abdullah_bin_salem_b", n:"Abdullah bin Salem Al Salmi", t:2, p:58, s:"gov", roles:[
@@ -1205,6 +1210,7 @@ const PEOPLE = [
   {id:"frank_kayser", n:"Frank Kayser", t:2, p:58, s:"industry", roles:[
     ["asyad_shipping","Chief Operating Officer","executive","v"]]},
   {id:"said_al_shanfari", n:"Said Al Shanfari", t:2, p:60, s:"consumer_disc", roles:[
+    ["tax_authority_oman","Director General of Tax Policies","executive","ns"],
     ["ocec","Chief Executive Officer","executive","v"]]},
   {id:"samira_hilal_al", n:"Samira Hilal Al-Naamani", t:2, p:58, s:"consumer_disc", roles:[
     ["ocec","Director of Finance and Corporate Services","executive","v"]]},
@@ -1737,6 +1743,34 @@ const PEOPLE = [
     ["jindal_shadeed","Chief Executive Officer","executive","ns"]]},
   {id:"ilham_bint_murtada", n:"Ilham bint Murtada Al Humaid", t:2, p:62, s:"industry", roles:[
     ["al_hassan_eng","Vice Chairman","board","ns"]]},
+  {id:"issam_munir_al", n:"Issam Munir Al Ismaili", t:2, p:58, s:"utilities", roles:[
+    ["owwc","Chief Commercial Officer","executive","ns"]]},
+  {id:"omar_bin_khalfan", n:"Omar bin Khalfan Al Wahaibi", t:2, p:62, s:"utilities", roles:[
+    ["owwc","Chairman of the Board of Directors","board","ns"]]},
+  {id:"ahmed_bin_mohammed_b", n:"Ahmed bin Mohammed Al Saeedi", t:2, p:62, s:"education", roles:[
+    ["a_sharqiyah_univ","Chairman of the Board of Trustees","board","ns"]]},
+  {id:"abdullah_bin_sulaiman", n:"Abdullah bin Sulaiman Al Harthy", t:2, p:62, s:"education", roles:[
+    ["a_sharqiyah_univ","Chairman of the Board of Directors (Management Board)","board","ns"]]},
+  {id:"khalid_al_siyabi", n:"Khalid Al Siyabi", t:2, p:58, s:"gov", roles:[
+    ["pacp","Director of the Market Control Department","executive","ns"]]},
+  {id:"aida_bint_issa", n:"Aida bint Issa Al Zadjaliyah", t:2, p:58, s:"gov", roles:[
+    ["pacp","Director of the Innovation and Development Department","executive","ns"]]},
+  {id:"khalifa_bin_hamoud", n:"Khalifa bin Hamoud Al Raqqadi", t:2, p:58, s:"gov", roles:[
+    ["pacp","Director of the Information Technology Department","executive","ns"]]},
+  {id:"abdulhakim_bin_abdullah", n:"Abdulhakim bin Abdullah Al Ghilani", t:2, p:58, s:"gov", roles:[
+    ["pacp","Director General of the Consumer Protection Department - Al Batinah North Governorate","executive","ns"]]},
+  {id:"abdulsalam_nasser_al", n:"Abdulsalam Nasser Al Kharusi", t:2, p:62, s:"consumer_stap", roles:[
+    ["al_bashayer_meat","Chairman","board","ns"]]},
+  {id:"kutaiba_mouhamad_hassan", n:"Kutaiba Mouhamad Hassan", t:2, p:52, s:"consumer_stap", roles:[
+    ["al_bashayer_meat","Director","board","ns"]]},
+  {id:"mohammed_salim_al", n:"Mohammed Salim Al Awaid", t:2, p:52, s:"consumer_stap", roles:[
+    ["al_bashayer_meat","Director","board","ns"]]},
+  {id:"askar_kukkadi", n:"Askar Kukkadi", t:2, p:60, s:"health", roles:[
+    ["starcare_hospital","Managing Director","executive","ns"]]},
+  {id:"david_healy", n:"David Healy", t:2, p:60, s:"finance", roles:[
+    ["lst_liva","Group Chief Executive Officer","executive","ns"]]},
+  {id:"mahmoud_hamad_al", n:"Mahmoud Hamad Al Rubaie", t:2, p:58, s:"finance", roles:[
+    ["tax_authority_oman","Director General of Tax Operations and Services","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

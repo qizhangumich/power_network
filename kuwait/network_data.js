@@ -1759,6 +1759,7 @@ const PEOPLE = [
   {id:"ahmed_adel_alghanim", n:"Ahmed Adel Alghanim", t:2, p:58, s:"consumer_disc", roles:[
     ["ali_alghanim_sons","Group Vice President","executive","v"]]},
   {id:"reem_ghazi_al", n:"Reem Ghazi Al-Fulaij", t:2, p:58, s:"gov", roles:[
+    ["pafn","Director General and Chairman of the Board","executive","ns"],
     ["cabinet_kw","Minister of State for Development and Sustainability Affairs","executive","v"]]},
   {id:"tareq_hamad_al", n:"Tareq Hamad Al-Jalahma", t:2, p:58, s:"gov", roles:[
     ["cabinet_kw","Minister of State for Youth and Sport Affairs","executive","v"]]},
@@ -2108,6 +2109,34 @@ const PEOPLE = [
     ["pafn","Director General (on secondment)","executive","ns"]]},
   {id:"saud_al_jalal", n:"Saud Al-Jalal", t:2, p:58, s:"gov", roles:[
     ["pafn","Deputy Director General for Inspection and Control Affairs","executive","ns"]]},
+  {id:"youssef_khaled_al", n:"Youssef Khaled Al-Marzouq", t:2, p:58, s:"comm", roles:[
+    ["al_anba","Editor-in-Chief","executive","v"]]},
+  {id:"muhammad_al_jarallah", n:"Muhammad Al-Jarallah", t:2, p:46, s:"health", roles:[
+    ["amiri_hospital","Head of Medical Staff","executive","ns"]]},
+  {id:"abdulrahman_al_fares", n:"Abdulrahman Al-Fares", t:2, p:46, s:"health", roles:[
+    ["amiri_hospital","Head of Intensive Care Unit","executive","ns"]]},
+  {id:"nader_al_awadi", n:"Nader Al-Awadi", t:2, p:58, s:"health", roles:[
+    ["jaber_hospital","Director of Jaber Hospital","executive","ns"]]},
+  {id:"fatima_saud_abdulaziz", n:"Fatima Saud Abdulaziz Al-Salem", t:2, p:58, s:"comm", roles:[
+    ["kuna","Director General","executive","ns"]]},
+  {id:"kefaya_muhammad_ibrahim", n:"Kefaya Muhammad Ibrahim Al-Najdi", t:2, p:58, s:"gov", roles:[
+    ["mopw_kw","Assistant Undersecretary","executive","ns"]]},
+  {id:"abdullah_ahmad_al", n:"Abdullah Ahmad Al-Humoud Al-Sabah", t:2, p:62, s:"gov", roles:[
+    ["epa_kuwait","Chairman of the Board and Director General","executive","ns"]]},
+  {id:"abdulrahman_hamad_al", n:"Abdulrahman Hamad Al-Terkait", t:2, p:62, s:"realestate", roles:[
+    ["arkan_al_kuwait","Vice Chairman and Chief Executive Officer","executive","ns"]]},
+  {id:"fahad_al_mukhaizeem", n:"Fahad Al-Mukhaizeem", t:2, p:62, s:"realestate", roles:[
+    ["arkan_al_kuwait","Chairman of the Board","board","ns"]]},
+  {id:"mashaal_abdullah_mohammed", n:"Mashaal Abdullah Mohammed Al-Ansari", t:2, p:52, s:"realestate", roles:[
+    ["arkan_al_kuwait","Board Member","board","ns"]]},
+  {id:"mohammed_ghaith_al", n:"Mohammed Ghaith Al-Tayar", t:2, p:52, s:"realestate", roles:[
+    ["arkan_al_kuwait","Board Member","board","ns"]]},
+  {id:"waleed_ahmed_abdul", n:"Waleed Ahmed Abdul Aziz Al-Moutawa", t:2, p:52, s:"realestate", roles:[
+    ["arkan_al_kuwait","Board Member","board","ns"]]},
+  {id:"meshal_abdulrahman_khalaf", n:"Meshal Abdulrahman Khalaf Al-Enezi", t:2, p:52, s:"realestate", roles:[
+    ["arkan_al_kuwait","Board Member","board","ns"]]},
+  {id:"ahmed_suleiman_abdul", n:"Ahmed Suleiman Abdul Aziz Al-Furaih", t:2, p:52, s:"realestate", roles:[
+    ["arkan_al_kuwait","Independent Board Member","board","ns"]]},
 ];
 
 const OWNERSHIP = [
