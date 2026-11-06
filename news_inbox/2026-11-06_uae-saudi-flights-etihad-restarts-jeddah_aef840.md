@@ -1,0 +1,5 @@
+# UAE-Saudi flights: Etihad restarts Jeddah route as Riyadh and Dammam cancellations continue
+source: Travels Dubai
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY3dMcEFJV2M5R0VRVV9MTjlDZ1BmUTV0NXN6Y3N6VUNMeUhPc3VWMWpvUjNzTDNscVBkdnZoVUxfeE1WcnRMQkpjdkRCU1VRT2pTN19XcDRFeFgta0xOUVZtQ3JaN0d3ZURjNmx5c2FyTmVVT0UwYVlHNTVTSkNuUkY4YS16bThfVE43eXRBT1VmdEZqcU1QZklhU280aFFyOURFWGgtZU56Vm43b0RYX0MtcGJaLVgtYXI4QnVoNmxlQQ?oc=5
+
+UAE-Saudi flights: Etihad restarts Jeddah route as Riyadh and Dammam cancellations continue    Travels Dubai

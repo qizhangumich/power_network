@@ -1,0 +1,5 @@
+# ADNOC signs 10-year LNG supply agreement with India's Gujarat Energy
+source: Reuters
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYmVHTnM2czN3MDBGVkg1X01kRC01WUVLOXZYU2lGWW1vWENPOElfRW5mUnBVUTZfQm81WnY2SEdRNGxqWm1SdjRwS0xMV3lEZkJhUkRJaVlsRDBLc1Vzbm1zWmExRUJKYlNqVkRZNkVqZVlXY3F2MDVnbjd2azFJdWFraEN1RkRJMzBOYjE5bF8zTVprOUZaTmhJZ2h0SWdLMVFhZ0ptWlptZnU1YXVkNHVwOTh0WGh6b3JV?oc=5
+
+ADNOC signs 10-year LNG supply agreement with India's Gujarat Energy    Reuters

@@ -1,0 +1,5 @@
+# Aldar partners with Sheikh Mohammed Bin Khalid Al Nahyan Cultural Center to advance cultural learning and community engagement
+source: Zawya
+url: https://news.google.com/rss/articles/CBMilwJBVV95cUxQNU9DNzhGU3hKb19FWHZvcHhaZTgtNHBicUk3eFEzSWZZRG1jbDBZUnNxVVRqWHlSeUxRdWxNXzBsN2xSdlBEem9BVjlkbkhTYnZ1cmFQeDEwM3J2a0VyREY3cy1td0hmLVlvOUdjekRGWWpQTEhaMEFfS3BhWFd3Yks2LUM1aHFib2VxZjFUWUdldHkyel9HdUVTWnN4SjBPMHZDM3VoNkNpTGQ3Sk82SzJ3LWtVVldSQm81U2xRQjVtQ1hTaEdoWXBzZFlyRVhJVjJZNzVXUDlQRHNIUmpMaldPR0xpYlNHVDBhbElzWmROR0piTE1rZlV5QU9PdFVzdjR4WW5qMDdUV3pKX0tUSWk5WmpGdjA?oc=5
+
+Aldar partners with Sheikh Mohammed Bin Khalid Al Nahyan Cultural Center to advance cultural learning and community engagement    Zawya

@@ -1,0 +1,5 @@
+# ADNOC Signs 10-Year LNG Supply Deal With India's Gujarat Energy
+source: Crude Oil Prices Today | OilPrice.com
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxNY09tSDRVc1FfeDFvZWNpSzFQU2ZRMEloRWw0NGRnQ0lUWVNnZUdpdFNFRGtPb3U4ZHNzRmx4M00zTXY0b2gxcXdKZFJwYV9sdzA0eGh3Q2NyY1dDa0VucXFJZFZGaDhMclRiWE9rcUZjNjhKX0hrVEZGLWVHenp4Qk5NZ3dtbjRCeGY3YjZnN2J4U05pME1ta0toNnExZWdCcGdz0gGoAUFVX3lxTE9Wekc4YUlfcVRvLXJuTVljaFQtTW5janEyeWxrRkMyblZLNURNWmYyTTY4Vm1ONDFWbmViME56cHdkX1pCcEwyREQ4T210TzdDaVgxWDhURjYwTGg2cjVnYUFGVUFBeTBsVVo3eDFERHdwREcwclJKbFU4RzhRcVFGRkozelN5MTQ1WjJqdGNtczVzV0QzZnRkemFTNnFHSlVVRjZxSms0dw?oc=5
+
+ADNOC Signs 10-Year LNG Supply Deal With India's Gujarat Energy    Crude Oil Prices Today | OilPrice.com

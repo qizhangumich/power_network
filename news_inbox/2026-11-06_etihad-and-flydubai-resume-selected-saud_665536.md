@@ -1,0 +1,5 @@
+# Etihad and flydubai resume selected Saudi Arabia flights from UAE
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPQV9UekxKZXFFYlRNR3ljNWlQb0t0WEh4QjRwSy1ZV0pKcGJuOFZsa2ZvbXBBM2ZtcDNNZ19NMjB5UWZyVENCWmdCczdOczhOTlpPT250dEROSTlVUExmN1hBZl91Zm13STVRUU94aFZVRDI5TTJjMmQ3NjR5dWZmS1d4VzB0eEF0LXA4TG1POXBDaWQ3T0Y5NmF5Z0tiYy02OWpGTVJfWFVvSV9Vdnd5NWZUaW1ZUTQ?oc=5
+
+Etihad and flydubai resume selected Saudi Arabia flights from UAE    Arabian Business

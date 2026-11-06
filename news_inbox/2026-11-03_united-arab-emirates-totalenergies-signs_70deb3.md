@@ -1,0 +1,5 @@
+# United Arab Emirates: TotalEnergies Signs a Five‑year Liquefied Natural Gas Supply Agreement with ADNOC Gas
+source: TotalEnergies.com
+url: https://news.google.com/rss/articles/CBMijwJBVV95cUxPME05YmJ4ejJicW5LMW9CNnc2YzZ4dlpTTkEtX29xWGJDQXpMa2o5TjVfaG1FR0V2ZUk4RzB1Yk55NWs5eW8zZUdwSW5vMlFQYW1jTExfYXpqMWdZSU02SkhZblNqeURqa01zTTVjSGo1YlRIMG5nVGxkY1JPaUtJQXA1OGM3eXAyYUxTeFBsNzZWd2VWUHBXUk02WEdFUkhkeUNDM1l0QkVEMUdvZXJTb1RoOFExWTlQd2lOVzNRQ1E1YWNKSnQ0ekZWSmphd2dRTkRxT2d4bWJMdmJWUjM4UGRhVTZ0dDlvODNteDFyaENaelB0LThCbTh5UWEyaXA5MUVqdjBjT2lBQlQwdUdV?oc=5
+
+United Arab Emirates: TotalEnergies Signs a Five‑year Liquefied Natural Gas Supply Agreement with ADNOC Gas    TotalEnergies.com

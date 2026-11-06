@@ -1,0 +1,5 @@
+# TotalEnergies locks in LNG supply from ADNOC and offtake deal with Chinese firm
+source: Offshore Energy
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxNcDRGVEUtOEs3M05SY1VHWWhSX3BTRnptNzdySHNDaEZIamxYa1NqQmNpT2REVDBjTFZ0b2hZQmg1UUdiRFhPMFBlOXZHTzBRbERpSTNfWnBFTjM4Y2xZMnF1bVd4NXlnWGFRTmE5WUp1STA4cWpUc0RoVTVHRy13RWJjazVWR1VYdGZCeEt1WWlDeHN2NEZQR0JmSzVySk9xcGxHVW9JX2hXcTRuN1otR0pqcEt4bXZ4MEtKRHVZSQ?oc=5
+
+TotalEnergies locks in LNG supply from ADNOC and offtake deal with Chinese firm    Offshore Energy
