@@ -331,7 +331,7 @@ const PEOPLE = [
     ["rak_ido","Chairwoman","board","v"],
     ["rakbank","Vice Chair","board","v"]]},
   {id:"salem_ali_al", n:"Salem Ali Al Sharhan", t:2, p:52, s:"finance", roles:[
-    ["rakmhsu","Chairman, Board of Trustees","board","ns"],
+    ["rakmhsu","Chairman, Board of Trustees","board","v"],
     ["rakbank","Board Member","board","v"]]},
   {id:"stephen_monaghan", n:"Stephen Monaghan", t:2, p:52, s:"finance", roles:[
     ["rakbank","Board Member","board","v"]]},

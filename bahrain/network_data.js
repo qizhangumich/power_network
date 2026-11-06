@@ -67,12 +67,12 @@ const INSTITUTIONS = [
   {id:"lst_bkic", n:"Bahrain Kuwait Insurance Company B.S.C.", s:"finance", t:2, p:50, short:"BKIC"},
   {id:"lst_bnh", n:"Bahrain National Holding Company B.S.C.", s:"finance", t:2, p:58, short:"BNH"},
   {id:"lst_seef", n:"Seef Properties B.S.C.", s:"realestate", t:2, p:58, short:"Seef Properties"},
-  {id:"lst_dutyf", n:"Bahrain Duty Free Shop Complex B.S.C.", s:"consumer_disc", t:2, p:50, short:"DUTYF"},
+  {id:"lst_dutyf", n:"Bahrain Duty Free Shop Complex B.S.C.", s:"consumer_disc", t:2, p:56, short:"DUTYF"},
   {id:"lst_bcfc", n:"Bahrain Commercial Facilities Company B.S.C.", s:"finance", t:2, p:58, short:"BCFC"},
   {id:"lst_zainbh", n:"Zain Bahrain B.S.C.", s:"comm", t:2, p:62, short:"Zain Bahrain"},
   {id:"lst_inovest", n:"Inovest B.S.C.", s:"finance", t:2, p:50, short:"Inovest B.S.C."},
   {id:"lst_esterad", n:"Esterad Investment Company B.S.C.", s:"finance", t:2, p:50, short:"ESTERAD"},
-  {id:"lst_nhotel", n:"National Hotels Company B.S.C.", s:"consumer_disc", t:2, p:50, short:"NHOTEL"},
+  {id:"lst_nhotel", n:"National Hotels Company B.S.C.", s:"consumer_disc", t:2, p:53, short:"NHOTEL"},
   {id:"lst_ithmr", n:"Ithmaar Holding B.S.C.", s:"finance", t:2, p:62, short:"Ithmaar"},
   {id:"lst_basrec", n:"The Bahrain Ship Repairing and Engineering Company B.S.C.", s:"industry", t:2, p:50, short:"BASREC"},
   {id:"lst_trafco", n:"Trafco Group B.S.C.", s:"consumer_stap", t:2, p:50, short:"Trafco Group B.S.C."},
@@ -451,7 +451,7 @@ const PEOPLE = [
     ["edamah","Board Member","board","v"],
     ["gulfair","Board Member","board","v"]]},
   {id:"sara_ahmed_buhiji", n:"Sara Ahmed Buhiji", t:2, p:52, s:"industry", roles:[
-    ["btea","Chief Executive Officer","executive","ns"],
+    ["btea","Chief Executive Officer","executive","v"],
     ["bahrain_airport","Board Member","board","ns"],
     ["gulfair","Board Member","board","v"]]},
   {id:"faisal_ali_al", n:"Faisal Ali Al Jalahma", t:2, p:52, s:"industry", roles:[

@@ -67,7 +67,7 @@ const INSTITUTIONS = [
   {id:"lst_talabat", n:"Talabat Holding plc", s:"consumer_disc", t:2, p:62, short:"talabat"},
   {id:"lst_airarabia", n:"Air Arabia PJSC", s:"industry", t:2, p:68, short:"Air Arabia"},
   {id:"lst_parkin", n:"Parkin Company P.J.S.C.", s:"industry", t:2, p:60, short:"Parkin"},
-  {id:"lst_etihadenergy", n:"Etihad Energy Holding PJSC", s:"industry", t:2, p:50, short:"ETIHADENERGY"},
+  {id:"lst_etihadenergy", n:"Etihad Energy Holding PJSC", s:"industry", t:2, p:58, short:"ETIHADENERGY"},
   {id:"lst_gfh", n:"GFH Financial Group B.S.C.", s:"finance", t:2, p:60, short:"GFH Financial Group"},
   {id:"lst_alansari", n:"Al Ansari Financial Services PJSC", s:"finance", t:2, p:60, short:"Al Ansari Exchange"},
   {id:"lst_nind", n:"National Industries Group Holding K.P.S.C.", s:"conglomerate", t:2, p:50, short:"NIND"},
@@ -75,7 +75,6 @@ const INSTITUTIONS = [
   {id:"lst_alec", n:"ALEC Holdings PJSC", s:"industry", t:2, p:60, short:"ALEC Holdings"},
   {id:"lst_salambah", n:"Al Salam Bank B.S.C.", s:"finance", t:2, p:62, short:"Al Salam Bank"},
   {id:"lst_mkhzn", n:"Makhazen", s:"industry", t:2, p:50, short:"Makhazen"},
-  {id:"lst_ajmanbank", n:"Ajman Bank PJSC", s:"finance", t:2, p:50, short:"Ajman Bank PJSC"},
   {id:"lst_unioncoop", n:"Union Coop", s:"consumer_stap", t:2, p:50, short:"Union Coop"},
   {id:"lst_amanat", n:"Amanat Holdings PJSC", s:"health", t:2, p:58, short:"Amanat"},
   {id:"dubaiinv", n:"Dubai Investments PJSC", s:"conglomerate", t:2, p:62, short:"Dubai Investments"},
@@ -756,7 +755,7 @@ const PEOPLE = [
     ["maf","Non-Executive Director","board","v"]]},
   {id:"khalid_al_malik", n:"Khalid Al Malik", t:2, p:60, s:"sovereign", roles:[
     ["dhre","Chief Executive Officer of Dubai Holding Real Estate","executive","v"],
-    ["dubai_properties","Acting Group Chief Executive Officer","executive","ns"],
+    ["dubai_properties","Acting Group Chief Executive Officer (pre-DHRE role, 2014)","executive","ns","former:until 2015"],
     ["meraas","Chief Executive Officer - Dubai Holding Real Estate (Meraas brand)","executive","ns"],
     ["dubaiholding","Managing Director, Dubai Holding; CEO, Dubai Holding Real Estate","executive","v"]]},
   {id:"aldrin_sequeira", n:"Aldrin Sequeira", t:2, p:58, s:"sovereign", roles:[
@@ -2274,7 +2273,7 @@ const PEOPLE = [
     ["lst_talabat","Chief International Officer (previously Kuwait Managing Director, succeeded by Noor Al-Bahar)","executive","ns"]]},
   {id:"abdullatif_al_mulla", n:"Abdullatif Al Mulla", t:2, p:60, s:"realestate", roles:[
     ["imdaad","Chairman of the Board","board","v"],
-    ["dubai_properties","Group Chief Executive Officer (Dubai Properties Group)","executive","v"]]},
+    ["dubai_properties","Group Chief Executive Officer (Dubai Properties Group) (2015–Jul 2016)","executive","v","former:until Jul 2016"]]},
   {id:"hala_badri", n:"Hala Badri", t:2, p:58, s:"gov", roles:[
     ["dubai_culture","Director General","executive","v"]]},
   {id:"abdul_hamied_seddiqi", n:"Abdul Hamied Seddiqi", t:2, p:62, s:"consumer_disc", roles:[
@@ -2655,6 +2654,8 @@ const PEOPLE = [
     ["dubai_courts","Director General of Dubai Courts","executive","v"]]},
   {id:"abdullah_saif_al_b", n:"Abdullah Saif Al-Sabousi", t:2, p:58, s:"gov", roles:[
     ["dubai_courts","Secretary General of Dubai Judicial Council","executive","v"]]},
+  {id:"saif_ibrahim_alhazaimeh", n:"Saif Ibrahim Alhazaimeh", t:2, p:60, s:"industry", roles:[
+    ["lst_etihadenergy","Acting Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2694,7 +2695,6 @@ const OWNERSHIP = [
   ["lst_alec","dfm","listed on DFM","ns"],
   ["lst_salambah","dfm","listed on DFM","ns"],
   ["lst_mkhzn","dfm","listed on DFM","ns"],
-  ["lst_ajmanbank","dfm","listed on DFM","ns"],
   ["lst_unioncoop","dfm","listed on DFM","ns"],
   ["lst_amanat","dfm","listed on DFM","ns"],
   ["lst_deyaar","dfm","listed on DFM","ns"],
@@ -2823,6 +2823,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  lst_etihadenergy:["Gulf Navigation Holding", "GULFNAV"],
   lst_gfh:["GFH Bank"],
   dxbairports:["Dubai Airport"],
   emirates:["Emirates Airlines","Emirates Airline"],
