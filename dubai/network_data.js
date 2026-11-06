@@ -246,6 +246,13 @@ const INSTITUTIONS = [
   {id:"dh_investments", n:"Dubai Holding Investments", s:"finance", t:2, p:62, short:"DH Investments"},
   {id:"mbrsc", n:"Mohammed Bin Rashid Space Centre", s:"tech", t:2, p:58, short:"MBRSC"},
   {id:"emirates_leisure", n:"Emirates Leisure Retail", s:"consumer_disc", t:3, p:52, short:"Emirates Leisure"},
+  {id:"al_habtoor_real", n:"Al Habtoor Real Estate", s:"realestate", t:3, p:55, short:"Al Habtoor Real Est"},
+  {id:"awr_properties", n:"AWR Properties", s:"realestate", t:3, p:56, short:"AWR Properties"},
+  {id:"scientechnic", n:"Scientechnic", s:"industry", t:3, p:55, short:"Scientechnic"},
+  {id:"faces", n:"Faces", s:"consumer_disc", t:3, p:54, short:"Faces"},
+  {id:"level_shoes", n:"Level Shoes", s:"consumer_disc", t:3, p:56, short:"Level Shoes"},
+  {id:"al_majid_motors", n:"Al Majid Motors", s:"consumer_disc", t:3, p:56, short:"Al Majid Motors"},
+  {id:"al_majid_property", n:"Al Majid Property Co LLC", s:"realestate", t:3, p:54, short:"Al Majid Property"},
 ];
 
 const PEOPLE = [
@@ -260,6 +267,7 @@ const PEOPLE = [
     ["dxbgov","UAE Deputy PM & Minister of Defence","political","v"]],
     note:"'Fazza' — runs day-to-day Dubai and took the federal defence portfolio in 2024."},
   {id:"maktoum_dep", n:"H.H. Sheikh Maktoum bin Mohammed Al Maktoum", t:0, p:94, s:"finance", roles:[
+    ["dubai_courts","Chairman of Dubai Judicial Council","board","v"],
     ["execco","Deputy Chairman","board","v"],
     ["icd","Vice Chairman","board","v"],
     ["dxbgov","First Deputy Ruler of Dubai","political","v"],
@@ -295,6 +303,7 @@ const PEOPLE = [
     ["dxbgov","Second Deputy Ruler of Dubai","political","v"],
     ["dxbgov","Chairman, Dubai Media Council","government","v"]]},
   {id:"shaibani", n:"Mohammed Ibrahim Al Shaibani", t:1, p:90, s:"sovereign", roles:[
+    ["dubai_courts","Deputy Chairman of Dubai Judicial Council","board","v"],
     ["dae","Vice Chairman","board","v"],
     ["dubai_world","Board Member","board","v"],
     ["execco","Member (Director General of HH the Ruler's Court) (–Sep 2026)","board","v","former:until Sep 2026"],
@@ -2640,6 +2649,12 @@ const PEOPLE = [
     ["jumbo","Chief Executive Officer","executive","ns"]]},
   {id:"vidya_chhabria", n:"Vidya Chhabria", t:2, p:62, s:"consumer_disc", roles:[
     ["jumbo","Chairperson","board","ns"]]},
+  {id:"mohamed_sharaf", n:"Mohamed Sharaf", t:2, p:60, s:"comm", roles:[
+    ["arab_media","Chief Executive Officer","executive","ns"]]},
+  {id:"saif_ghanem_al", n:"Saif Ghanem Al Suwaidi", t:2, p:58, s:"gov", roles:[
+    ["dubai_courts","Director General of Dubai Courts","executive","v"]]},
+  {id:"abdullah_saif_al_b", n:"Abdullah Saif Al-Sabousi", t:2, p:58, s:"gov", roles:[
+    ["dubai_courts","Secretary General of Dubai Judicial Council","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2790,6 +2805,13 @@ const OWNERSHIP = [
   ["mbrsc","dxbgov","Dubai Government entity (est. by Dubai Law No. 17 of 2015)","v"],
   ["emirates_leisure","emirates","subsidiary","v"],
   ["dnata","emirates","wholly owned subsidiary","v"],
+  ["al_habtoor_real","alhabtoor","real estate division","v"],
+  ["awr_properties","alrostamani","real estate subsidiary (rebranded 2024)","v"],
+  ["scientechnic","easa_saleh_al","portfolio company (engineering solutions since 1972)","v"],
+  ["faces","chalhoub","retail subsidiary (beauty retailer est. 1986)","v"],
+  ["level_shoes","chalhoub","retail subsidiary (launched 2012)","v"],
+  ["al_majid_motors","jumaalmajid","automotive subsidiary (Kia distributor since 1988)","v"],
+  ["al_majid_property","jumaalmajid","wholly-owned real estate subsidiary founded 1997","v"],
 ];
 
 const FAMILY = [
@@ -2899,4 +2921,5 @@ const AKA = {
   canadian_univ_dubai:["CUD"],
   mbrsc:["EIAST"],
   emirates_leisure:["ELR"],
+  scientechnic:["ESAG Scientechnic"],
 };

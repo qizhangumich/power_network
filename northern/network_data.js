@@ -1091,6 +1091,7 @@ const PEOPLE = [
   {id:"shanavas_mohammed", n:"Shanavas Mohammed", t:2, p:58, s:"health", roles:[
     ["rak_hospital","Chief Financial Officer","executive","v"]]},
   {id:"sheikh_majid_al", n:"Sheikh Majid Al Mualla", t:2, p:52, s:"comm", roles:[
+    ["uaq_tourism_dept","Chairman","board","v"],
     ["sba","Board Member","board","v"]]},
   {id:"abdulaziz_taryam", n:"Abdulaziz Taryam", t:2, p:52, s:"comm", roles:[
     ["sba","Board Member","board","v"]]},
@@ -1521,6 +1522,14 @@ const PEOPLE = [
     ["skhf","Chief Executive Officer","executive","ns"]]},
   {id:"sameer_al_ansari", n:"Sameer Al Ansari", t:2, p:60, s:"gov", roles:[
     ["rak_icc","Chief Executive Officer","executive","v"]]},
+  {id:"mohammed_ahmed_bin", n:"Mohammed Ahmed bin Ghanim Al Kaabi", t:2, p:58, s:"gov", roles:[
+    ["fujairah_police","Commander-in-Chief of Fujairah Police","executive","v"]]},
+  {id:"mohammed_bin_nayae", n:"Mohammed bin Nayae Al Tunaiji", t:2, p:58, s:"gov", roles:[
+    ["fujairah_police","Deputy Commander-in-Chief of Fujairah Police","executive","ns"]]},
+  {id:"ahmed_obaid_al", n:"Ahmed Obaid Al Khadim", t:2, p:58, s:"health", roles:[
+    ["al_fujairah_hosp","Director","executive","v"]]},
+  {id:"haitham_sultan_al", n:"Haitham Sultan Al Ali", t:2, p:58, s:"gov", roles:[
+    ["uaq_tourism_dept","Director General","executive","v"]]},
 ];
 
 const OWNERSHIP = [

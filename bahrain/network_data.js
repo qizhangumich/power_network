@@ -192,6 +192,13 @@ const INSTITUTIONS = [
   {id:"sbpc", n:"Saudi Bahrain Pipeline Company", s:"energy", t:3, p:57, short:"SBPC"},
   {id:"nssa", n:"National Space Science Agency", s:"tech", t:2, p:54, short:"NSSA"},
   {id:"sce", n:"Supreme Council for Environment", s:"gov", t:1, p:60, short:"SCE"},
+  {id:"kanoo_shipping", n:"Kanoo Shipping", s:"industry", t:3, p:58, short:"Kanoo Shipping"},
+  {id:"kanoo_logistics", n:"Kanoo Logistics", s:"industry", t:3, p:56, short:"Kanoo Logistics"},
+  {id:"kanoo_machinery", n:"Kanoo Machinery", s:"industry", t:3, p:55, short:"Kanoo Machinery"},
+  {id:"kanoo_energy", n:"Kanoo Energy", s:"energy", t:3, p:56, short:"Kanoo Energy"},
+  {id:"kanoo_property", n:"Kanoo Property", s:"realestate", t:3, p:54, short:"Kanoo Property"},
+  {id:"kanoo_travel", n:"Kanoo Travel", s:"consumer_disc", t:3, p:54, short:"Kanoo Travel"},
+  {id:"al_hawaj", n:"Yousuf A. Wahab Al Hawaj and Sons Co. WLL", s:"consumer_disc", t:3, p:52, short:"Al Hawaj Group"},
 ];
 
 const PEOPLE = [
@@ -411,6 +418,7 @@ const PEOPLE = [
   {id:"buddhadeb_samanta", n:"Buddhadeb Samanta", t:2, p:58, s:"comm", roles:[
     ["beyon","Chief of Internal Audit","executive","v"]]},
   {id:"shaikh_mohamed_bin_b", n:"Shaikh Mohamed bin Isa Al Khalifa", t:2, p:52, s:"sovereign", roles:[
+    ["bluefive_capital","Chairman","board","ns"],
     ["mumtalakat","Board Member","board","v"]]},
   {id:"hamad_bin_faisal", n:"Hamad bin Faisal Al Malki", t:2, p:52, s:"sovereign", roles:[
     ["moca_bahrain","Minister of Cabinet Affairs","board","v"],
@@ -3651,6 +3659,20 @@ const PEOPLE = [
     ["al_ayam_publishing","Chairman of the Editorial Board","executive","ns"]]},
   {id:"afnan_rashid_al", n:"Afnan Rashid Al-Zayanni", t:2, p:52, s:"comm", roles:[
     ["al_ayam_publishing","Board Member","board","ns"]]},
+  {id:"christopher_hild", n:"Christopher Hild", t:2, p:60, s:"tech", roles:[
+    ["beyon_connect","CEO Beyon Connect","executive","ns"]]},
+  {id:"christian_rasmussen", n:"Christian Rasmussen", t:2, p:60, s:"tech", roles:[
+    ["beyon_connect","Chief Executive Officer International Markets & CEO Egypt - Beyon Connect","executive","ns"]]},
+  {id:"reyadh_yusuf_sater", n:"Reyadh Yusuf Sater", t:2, p:62, s:"consumer_disc", roles:[
+    ["national_motor","Chairman of the Automotive Companies (National Motor Company)","board","ns"]]},
+  {id:"mohsen_kassem", n:"Mohsen Kassem", t:2, p:60, s:"consumer_disc", roles:[
+    ["national_motor","Chief Executive Officer - National Motor Company Tasheelat Automotive Company and Tasheelat Car Leasing Company","executive","ns"]]},
+  {id:"abdulla_al_wedaei", n:"Abdulla Al Wedaei", t:2, p:46, s:"consumer_disc", roles:[
+    ["national_motor","General Manager - National Motor Company","executive","ns"]]},
+  {id:"hazem_ben_gacem", n:"Hazem Ben-Gacem", t:2, p:60, s:"finance", roles:[
+    ["bluefive_capital","Founder & Chief Executive","executive","ns"]]},
+  {id:"marwan_fouad_kamal", n:"Marwan Fouad Kamal", t:2, p:58, s:"gov", roles:[
+    ["moya_bahrain","Under-Secretary for Youth Affairs","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3760,6 +3782,12 @@ const OWNERSHIP = [
   ["national_motor","lst_bcfc","subsidiary","ns"],
   ["racing_force","mumtalakat","strategic minority stake investor in","ns"],
   ["sbpc","bapco","majority-owned subsidiary of","ns"],
+  ["kanoo_shipping","kanoo","business division (shipping agency and logistics)","v"],
+  ["kanoo_logistics","kanoo","business division (freight and logistics)","v"],
+  ["kanoo_machinery","kanoo","business division (equipment supply/rental)","v"],
+  ["kanoo_energy","kanoo","business division (Kanoo Industrial and Energy)","v"],
+  ["kanoo_property","kanoo","business division (real estate)","v"],
+  ["kanoo_travel","kanoo","business division (travel and MICE)","v"],
 ];
 
 const FAMILY = [

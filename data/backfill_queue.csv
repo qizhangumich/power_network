@@ -48,6 +48,7 @@ saudi,fas,Saudi FAS Holding Company,consumer_disc,60,0,pending
 saudi,maaden_aluminium,Ma'aden Aluminium Company,materials,60,1,pending
 saudi,kkh_al_majmaah,King Khalid Hospital - Al Majma'ah,health,60,1,pending
 saudi,sasref,Saudi Aramco Jubail Refinery Company (SASREF),energy,60,0,pending
+saudi,zamil_steel,Zamil Steel Holding Company,materials,59,0,pending
 abudhabi,flash,Flash Entertainment,comm,58,1,pending
 abudhabi,thenational,The National,comm,58,1,pending
 abudhabi,sorbonne,Sorbonne University Abu Dhabi,education,58,1,pending
@@ -64,12 +65,11 @@ abudhabi,wizz_air_ad,Wizz Air Abu Dhabi,industry,58,1,pending
 abudhabi,insead,INSEAD,education,58,0,pending
 abudhabi,venture_global_lng,"Venture Global LNG, Inc.",energy,58,0,pending
 abudhabi,first_women_bank,First Women Bank Limited,finance,58,0,pending
-bahrain,bluefive_capital,BlueFive Capital,finance,58,0,pending
-bahrain,moya_bahrain,Ministry of Youth Affairs,gov,58,1,pending
 bahrain,baca,Bahrain Authority for Culture and Antiquities,gov,58,1,pending
+bahrain,kanoo_shipping,Kanoo Shipping,industry,58,0,pending
 dubai,albwardy_invest,Albwardy Investment,conglomerate,58,1,pending
 dubai,arabtec,Arabtec Holding,industry,58,0,pending
-dubai,arab_media,Arab Media Group,comm,58,0,pending
+dubai,arab_media,Arab Media Group,comm,58,1,pending
 kuwait,st_martins_prop,St. Martins Property Corporation,realestate,58,0,pending
 northern,uaq_ded,Umm Al Quwain Department of Economic Development,gov,58,1,pending
 northern,al_bahar,Mohamed Abdulrahman Al-Bahar Co.,industry,58,1,pending
@@ -132,6 +132,7 @@ saudi,esl_faceit,ESL FACEIT Group,tech,58,0,pending
 bahrain,sbpc,Saudi Bahrain Pipeline Company,energy,57,0,pending
 dubai,al_yousuf,Al Yousuf Group,conglomerate,57,0,pending
 kuwait,lst_oulafuel,Oula Fuel Marketing,consumer_disc,57,0,pending
+kuwait,kirby_building_sys,Kirby Building Systems,materials,57,0,pending
 qatar,al_muftah,Al Muftah Group,conglomerate,57,1,pending
 saudi,lst_4003,United Electronics Co. (eXtra),consumer_disc,57,0,pending
 saudi,alturki,Alturki Holding,conglomerate,57,0,pending
@@ -151,8 +152,13 @@ abudhabi,adnoc_maritime,ADNOC Maritime,industry,56,0,pending
 abudhabi,gii,Gulf Islamic Investments LLC,finance,56,0,pending
 abudhabi,masdar_americas,Masdar Americas,utilities,56,1,pending
 abudhabi,fatima_college,Fatima College of Health Sciences,education,56,0,pending
+bahrain,kanoo_logistics,Kanoo Logistics,industry,56,0,pending
+bahrain,kanoo_energy,Kanoo Energy,energy,56,0,pending
 dubai,al_nabooda,Khalifa Juma Al Nabooda Group,conglomerate,56,1,pending
 dubai,prime_healthcare,Prime Healthcare Group,health,56,1,pending
+dubai,awr_properties,AWR Properties,realestate,56,0,pending
+dubai,level_shoes,Level Shoes,consumer_disc,56,0,pending
+dubai,al_majid_motors,Al Majid Motors,consumer_disc,56,0,pending
 kuwait,lst_beyout,Beyout Holding Company K.P.S.C,finance,56,1,pending
 kuwait,kharafi_national,Kharafi National,industry,56,1,pending
 kuwait,osn,OSN Group,comm,56,0,pending
@@ -163,11 +169,9 @@ northern,ajman_dof,Ajman Department of Finance,finance,56,1,pending
 northern,air_arabia_egypt,Air Arabia Egypt,industry,56,0,pending
 northern,planet_pharmacies,Planet Pharmacies,health,56,0,pending
 northern,rak_customs,RAK Customs Department,gov,56,1,pending
-northern,uaq_tourism_dept,Umm Al Quwain Department of Tourism and Archaeology,gov,56,0,pending
 northern,skhf,Sheikh Khalifa Hospital Fujairah,health,56,1,pending
 northern,saqr_hospital,Saqr Hospital,health,56,0,pending
-northern,fujairah_police,Fujairah Police General Command,gov,56,0,pending
-northern,al_fujairah_hosp,Al Fujairah Hospital,health,56,0,pending
+northern,al_fujairah_hosp,Al Fujairah Hospital,health,56,1,pending
 oman,oman_observer,Oman Daily Observer (OEPPA),comm,56,1,pending
 qatar,qas,Qatar Aviation Services,industry,56,0,pending
 qatar,laffan_refinery,Laffan Refinery Company,energy,56,0,pending
@@ -203,9 +207,13 @@ saudi,aseer_invest,Aseer Investment Company,finance,56,1,pending
 saudi,aljazira_capital,AlJazira Capital,finance,56,1,pending
 saudi,al_ittihad_club,Al Ittihad Saudi Club,consumer_disc,56,1,pending
 saudi,al_ahli_fc,Al Ahli Saudi Football Club,consumer_disc,56,1,pending
+saudi,aljomaih_automotive,Aljomaih Automotive Company,consumer_disc,56,0,pending
 abudhabi,birgi_mefar,Birgi Mefar Group,health,55,1,pending
 abudhabi,reem_finance,Reem Finance PJSC,finance,55,0,pending
+bahrain,kanoo_machinery,Kanoo Machinery,industry,55,0,pending
 dubai,imtiaz_developments,Imtiaz Developments,realestate,55,1,pending
+dubai,al_habtoor_real,Al Habtoor Real Estate,realestate,55,0,pending
+dubai,scientechnic,Scientechnic,industry,55,0,pending
 oman,mawarid_green,Mawarid Green Technologies,industry,55,0,pending
 qatar,qvc,Qatar Vinyl Company Ltd,materials,55,0,pending
 saudi,al_othman,Al Othman Holding,conglomerate,55,0,pending
@@ -213,6 +221,7 @@ saudi,bsf_capital,BSF Capital,finance,55,0,pending
 saudi,solutions_by_stc,solutions by stc,tech,55,0,pending
 saudi,tamimi,Tamimi Group,conglomerate,55,0,pending
 saudi,arasco,Arabian Agricultural Services Company,consumer_stap,55,0,pending
+saudi,gulf_insulation_grp,Gulf Insulation Group,materials,55,0,pending
 abudhabi,kpmg,KPMG Lower Gulf,industry,54,0,pending
 abudhabi,adjd,Abu Dhabi Judicial Department,gov,54,0,pending
 abudhabi,adda,Abu Dhabi Digital Authority,gov,54,1,pending
@@ -227,9 +236,10 @@ bahrain,gulf_handling,Gulf Handling Company,industry,54,0,pending
 bahrain,aleastur,"Aleastur (Asturiana de Aleaciones, S.A.)",materials,54,0,pending
 bahrain,insead,INSEAD,education,54,0,pending
 bahrain,racing_force,Racing Force Group S.p.A.,industry,54,0,pending
+bahrain,kanoo_property,Kanoo Property,realestate,54,0,pending
+bahrain,kanoo_travel,Kanoo Travel,consumer_disc,54,0,pending
 dubai,dubai_asset_mgmt,Dubai Holding Asset Management,realestate,54,0,pending
 dubai,dh_entertainment,Dubai Holding Entertainment,consumer_disc,54,0,pending
-dubai,dubai_courts,Dubai Courts,gov,54,0,pending
 dubai,mbr_housing,Mohammed Bin Rashid Housing Establishment,gov,54,0,pending
 dubai,mobh,Mohammad Omar Bin Haider Holding Group,conglomerate,54,0,pending
 dubai,driven_properties,Driven Properties,realestate,54,1,pending
@@ -245,6 +255,8 @@ dubai,gulf_navigation,Gulf Navigation Holding,industry,54,0,pending
 dubai,al_habtoor_motors,Al Habtoor Motors LLC,consumer_disc,54,0,pending
 dubai,habtoor_hospitality,Habtoor Hospitality L.L.C.,consumer_disc,54,0,pending
 dubai,itp_media,ITP Media Group,comm,54,0,pending
+dubai,faces,Faces,consumer_disc,54,0,pending
+dubai,al_majid_property,Al Majid Property Co LLC,realestate,54,0,pending
 kuwait,q8_aviation,Q8 Aviation,industry,54,0,pending
 kuwait,al_sagar,Al Sagar Group,conglomerate,54,1,pending
 kuwait,enertech,EnerTech Holding Company,energy,54,1,pending
@@ -306,8 +318,11 @@ saudi,al_quraishi_bros,Ali Zaid Al Quraishi & Brothers Company,conglomerate,54,0
 saudi,najran_university,Najran University,education,54,0,pending
 saudi,prince_mbf_univ,Prince Mohammad Bin Fahd University,education,54,0,pending
 saudi,alawwal_capital,Alawwal Capital Company,finance,54,0,pending
+saudi,kingdom_hospital,Kingdom Hospital,health,54,0,pending
+saudi,mayar_foods,Mayar Foods Company,consumer_stap,54,0,pending
 qatar,qsalt,Qatar Salt Products Company,materials,53,0,pending
 saudi,united_sugar,United Sugar Company,consumer_stap,53,0,pending
+saudi,advanced_metals,Advanced Metals Company,materials,53,0,pending
 abudhabi,cliffordchance,Clifford Chance,industry,52,0,pending
 abudhabi,twofour54,twofour54,comm,52,0,pending
 abudhabi,al_foah,Al Foah Company,consumer_stap,52,0,pending
@@ -319,13 +334,12 @@ abudhabi,q_mobility,Q Mobility LLC,industry,52,0,pending
 bahrain,bahrain_golf_course,Bahrain International Golf Course Company,consumer_disc,52,0,pending
 bahrain,premo,Premo Group,industry,52,1,pending
 bahrain,al_dana_theatre,Beyon Al Dana Amphitheatre,consumer_disc,52,0,pending
-bahrain,beyon_connect,Beyon Connect,tech,52,0,pending
 bahrain,balexco,Bahrain Aluminium Extrusion Co.,materials,52,1,pending
 bahrain,al_jishi,Al-Jishi Corporation,health,52,1,pending
 bahrain,ssp_bahrain,SSP Bahrain,consumer_disc,52,0,pending
 bahrain,hala_bahrain,Hala Bahrain,consumer_disc,52,0,pending
 bahrain,asb_capital,ASB Capital,finance,52,1,pending
-bahrain,national_motor,National Motor Company,consumer_disc,52,0,pending
+bahrain,al_hawaj,Yousuf A. Wahab Al Hawaj and Sons Co. WLL,consumer_disc,52,0,pending
 dubai,ithra_dubai,Ithra Dubai,realestate,52,0,pending
 dubai,cda_dubai,Community Development Authority,gov,52,0,pending
 dubai,desc,Dubai Electronic Security Center,gov,52,0,pending

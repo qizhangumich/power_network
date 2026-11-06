@@ -575,6 +575,12 @@ const INSTITUTIONS = [
   {id:"lst_4072", n:"MBC Group", s:"comm", t:2, p:75, short:"MBC Group"},
   {id:"sasref", n:"Saudi Aramco Jubail Refinery Company (SASREF)", s:"energy", t:2, p:60, short:"SASREF"},
   {id:"amanat_riyadh", n:"Riyadh Municipality (Amanat Riyadh)", s:"gov", t:2, p:62, short:"Amanat Riyadh"},
+  {id:"kingdom_hospital", n:"Kingdom Hospital", s:"health", t:3, p:54, short:"Kingdom Hospital"},
+  {id:"zamil_steel", n:"Zamil Steel Holding Company", s:"materials", t:2, p:59, short:"Zamil Steel"},
+  {id:"gulf_insulation_grp", n:"Gulf Insulation Group", s:"materials", t:3, p:55, short:"Gulf Insulation Grp"},
+  {id:"mayar_foods", n:"Mayar Foods Company", s:"consumer_stap", t:3, p:54, short:"Mayar Foods"},
+  {id:"aljomaih_automotive", n:"Aljomaih Automotive Company", s:"consumer_disc", t:3, p:56, short:"Aljomaih Automotive"},
+  {id:"advanced_metals", n:"Advanced Metals Company", s:"materials", t:3, p:53, short:"Advanced Metals Co"},
 ];
 
 const PEOPLE = [
@@ -4165,6 +4171,12 @@ const OWNERSHIP = [
   ["sasref","aramco","wholly owned subsidiary","v"],
   ["amanat_riyadh","momah_sa","reports to","ns"],
   ["hadeed","sabic","wholly owned subsidiary","v"],
+  ["kingdom_hospital","lst_4004","owned via wholly-owned subsidiary Care Shield Holding","v"],
+  ["zamil_steel","lst_2240","subsidiary (steel fabrication sector)","v"],
+  ["gulf_insulation_grp","lst_2240","51%-owned subsidiary (insulation sector)","v"],
+  ["mayar_foods","al_muhaidib","subsidiary (formerly Al-Muhaidib Foods)","v"],
+  ["aljomaih_automotive","al_jomaih","automotive distribution subsidiary (GM/Chevrolet/GMC agent since 1967)","v"],
+  ["advanced_metals","olayan","subsidiary (energy components manufacturing)","ns"],
 ];
 
 const FAMILY = [
@@ -4318,4 +4330,7 @@ const AKA = {
   esl_faceit:["EFG"],
   alawwal_capital:["Alawwal for Financial Services"],
   amanat_riyadh:["أمانة منطقة الرياض"],
+  mayar_foods:["Al-Muhaidib Foods"],
+  aljomaih_automotive:["AAC"],
+  advanced_metals:["AMCO"],
 };

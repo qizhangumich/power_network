@@ -257,6 +257,7 @@ const INSTITUTIONS = [
   {id:"pafn", n:"Public Authority for Food and Nutrition", s:"gov", t:2, p:56, short:"PAFN"},
   {id:"arkan_al_kuwait", n:"Arkan Al Kuwait Real Estate Company", s:"realestate", t:2, p:54, short:"Arkan Al Kuwait"},
   {id:"osn", n:"OSN Group", s:"comm", t:2, p:56, short:"OSN Group"},
+  {id:"kirby_building_sys", n:"Kirby Building Systems", s:"materials", t:3, p:57, short:"Kirby Building Sys"},
 ];
 
 const PEOPLE = [
@@ -2313,6 +2314,7 @@ const OWNERSHIP = [
   ["royale_hayat_hosp","al_mulla","subsidiary","v"],
   ["st_martins_prop","kia","wholly-owned subsidiary of","ns"],
   ["osn","kipco","subsidiary","v"],
+  ["kirby_building_sys","alghanim","wholly-owned subsidiary (pre-engineered buildings manufacturer since 1976)","v"],
 ];
 
 const FAMILY = [
