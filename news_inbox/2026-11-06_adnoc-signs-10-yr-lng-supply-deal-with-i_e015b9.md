@@ -1,0 +1,5 @@
+# ADNOC signs 10-yr LNG supply deal with India's Gujarat Energy
+source: Pipeline and Gas Journal
+url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxQWG91b0p5d2o0cTd3TWJldFE4RWRvTkQ1VVBqRmk3OEg1WU1ieXRsRDN1b2Nta1U0MllPdUtJZ05iVDhpVGtpWmNBUE0wdFpleFlKVVViLV9zNHlkdTVUc0syZWVZZmlnRnRIVXVIR19NeElGellfX3dpN2lTaEphR3p3QkM1cjNIOVlRTGlQWGJ6enNkZGk1SERXdEYwdU1RdjQ3ZWx6N3hubXpiSjBlRElaV0dORkx0WFBnN2l4WnlhWFM1NTNfVWNieTFYYzcyTHI0aER5N29fOXlsa3NlMlB0S0Y4UEU?oc=5
+
+ADNOC signs 10-yr LNG supply deal with India's Gujarat Energy    Pipeline and Gas Journal

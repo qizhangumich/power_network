@@ -1,0 +1,5 @@
+# ADNOC signs LNG supply agreement with Gujarat Energy
+source: LNG Industry
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPQzlzOTlUTFk2aEl5OFZibTBzSzUwOFFMUExFUTFTNlBwY3AzQVZ0SmRNRGRZYUczU2ptUV9oQTNDRi1oVXRCMm9WczI2S0RpTmF6eGxEb0FtVXViNjloX0R3a210bWFJWEdfenFXang5RjZsRWRzNE56VUV5WGJKM0JrQ3BBMlg1TzV6Y2dsZWdpcEZ6MFhuRWNYME1sdVlWUzdHR3JvRnVveHhTT1E?oc=5
+
+ADNOC signs LNG supply agreement with Gujarat Energy    LNG Industry

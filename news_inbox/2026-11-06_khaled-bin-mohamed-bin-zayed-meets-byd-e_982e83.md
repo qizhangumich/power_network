@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed meets BYD Executive Vice President and reviews company’s world speed record achievement in Abu Dhabi
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMikAJBVV95cUxNT0RCMUxZX0tiMVdoQVVQcEVJbE9YWGNSbUJqbTlFZWlmdXh5X0FwM0VjMTMyTHZCRUNxWEMtQkNnMFlMWDlyU3hSazNiRnRzYTNYM0R3dW9lTWtaVEpkVGhEVU5faTNZdWxuZkZXOXY2UHhLbzhYRldxcjhZRTcwQUVGWUh4MlJXWUpPNnFWd0pjc2RFZjVRb1FiTVlhdHRmWUhXU0hud09WOG5lRjl5TE1qbEJ3cGtEbUtTZy1QWEhtNVlNd3JzTnB2RWJyZDRCNnQ0OVc1SlFSWUo1bWpfeERKejkzTVlTUHgxMEtVV1J6ZWFocmZQYl96MzlYU1h1MzE3SG52NEMyWFAzT2h1Sw?oc=5
+
+Khaled bin Mohamed bin Zayed meets BYD Executive Vice President and reviews company’s world speed record achievement in Abu Dhabi    مكتب أبوظبي الإعلامي
