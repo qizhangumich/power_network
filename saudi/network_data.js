@@ -581,6 +581,10 @@ const INSTITUTIONS = [
   {id:"mayar_foods", n:"Mayar Foods Company", s:"consumer_stap", t:3, p:54, short:"Mayar Foods"},
   {id:"aljomaih_automotive", n:"Aljomaih Automotive Company", s:"consumer_disc", t:3, p:56, short:"Aljomaih Automotive"},
   {id:"advanced_metals", n:"Advanced Metals Company", s:"materials", t:3, p:53, short:"Advanced Metals Co"},
+  {id:"psmmc", n:"Prince Sultan Military Medical City", s:"health", t:2, p:64, short:"PSMMC"},
+  {id:"saudi_electronic_u", n:"Saudi Electronic University", s:"education", t:3, p:55, short:"Saudi Electronic U"},
+  {id:"ksau_hs", n:"King Saud bin Abdulaziz University for Health Sciences", s:"education", t:2, p:62, short:"KSAU-HS"},
+  {id:"king_abdullah_mc", n:"King Abdullah Medical City", s:"health", t:2, p:60, short:"King Abdullah MC"},
 ];
 
 const PEOPLE = [
@@ -743,7 +747,7 @@ const PEOPLE = [
     ["mbcgroup","Founder & Chairman","board","v"]]},
   {id:"lubna", n:"Lubna Olayan", t:2, p:76, s:"finance", roles:[
     ["olayan","Chair, Olayan Financing","board","v"],
-    ["sab","Chair","board","v"]]},
+    ["sab","Chairman (term 2026–2028)","board","v"]]},
   {id:"alsadhan", n:"Tareq Al-Sadhan", t:2, p:72, s:"finance", roles:[
     ["snb","Group CEO","executive","v"]]},
   {id:"saeed_alghamdi", n:"Saeed Al-Ghamdi", t:2, p:72, s:"finance", roles:[
@@ -1002,8 +1006,6 @@ const PEOPLE = [
   {id:"mohammed_mansour_almousa", n:"Mohammed Mansour Almousa", t:2, p:52, s:"consumer_stap", roles:[
     ["salic","Chief International Investment Officer","executive","v"],
     ["almarai","Board Member","board","v"]]},
-  {id:"lubna_s_olayan", n:"Lubna S. Olayan", t:2, p:62, s:"finance", roles:[
-    ["sab","Chairman","board","v"]]},
   {id:"sulaiman_abdulrahman_algwaiz", n:"Sulaiman Abdulrahman Algwaiz", t:2, p:62, s:"finance", roles:[
     ["mobily","Chairman of the Board (Non-Executive)","board","v"],
     ["sab","Vice Chairman","board","v"]]},
@@ -1980,7 +1982,7 @@ const PEOPLE = [
     ["diriyah","Board Member and Secretary","board","v"],
     ["moi_sa","Acting Vice Minister of Interior","executive","ns"]]},
   {id:"fahad_al_saif", n:"Fahad Al-Saif", t:2, p:58, s:"gov", roles:[
-    ["avilease","Chairman","board","ns"],
+    ["avilease","Chairman","board","v"],
     ["kaec","Chairman (Non-Executive)","board","v"],
     ["misa","Minister of Investment","executive","v"]]},
   {id:"ammar_nagadi", n:"Ammar Nagadi", t:2, p:58, s:"gov", roles:[
@@ -3731,7 +3733,7 @@ const PEOPLE = [
   {id:"ali_al_zaid", n:"Ali Al-Zaid", t:2, p:60, s:"comm", roles:[
     ["saudi_broadcasting","Chief Executive Officer of the Saudi Broadcasting Authority","executive","ns"]]},
   {id:"ali_al_qahtani", n:"Ali Al-Qahtani", t:2, p:58, s:"materials", roles:[
-    ["maaden_aluminium","Executive Vice President, Aluminium Business Unit (Ma'aden Aluminium Company)","executive","ns"]]},
+    ["maaden_aluminium","Executive Vice President, Aluminium Business Unit (Ma'aden Aluminium Company)","executive","v"]]},
   {id:"prince_nawaf_bin", n:"Prince Nawaf bin Saad Al Saud", t:2, p:62, s:"consumer_disc", roles:[
     ["al_hilal_fc","Chairman of the Board of Directors","board","v"]]},
   {id:"ahmed_bin_saleh", n:"Ahmed bin Saleh Al-Sultan", t:2, p:62, s:"consumer_disc", roles:[
@@ -4177,6 +4179,10 @@ const OWNERSHIP = [
   ["mayar_foods","al_muhaidib","subsidiary (formerly Al-Muhaidib Foods)","v"],
   ["aljomaih_automotive","al_jomaih","automotive distribution subsidiary (GM/Chevrolet/GMC agent since 1967)","v"],
   ["advanced_metals","olayan","subsidiary (energy components manufacturing)","ns"],
+  ["psmmc","mod_sa","military referral hospital operated under Ministry of Defense health services","ns"],
+  ["saudi_electronic_u","moe_sa","public university; Minister of Education chairs its University Affairs Council","ns"],
+  ["ksau_hs","mngha","public health-sciences university affiliated with and overseen by MNGHA","v"],
+  ["king_abdullah_mc","moh_sa","Ministry of Health quaternary referral hospital in Makkah, named by royal decree","ns"],
 ];
 
 const FAMILY = [
@@ -4189,6 +4195,7 @@ const FAMILY = [
 
 const AKA = {
   qiddiya:["Qiddiya City"],
+  lubna:["Lubna S. Olayan","Lubna Sulaiman Olayan"],
   kaec:["Emaar, The Economic City","Emaar Economic City","4220"],
   al_sagri:["HHC"],
   lst_2290:["2290","YANSAB"],
@@ -4334,4 +4341,7 @@ const AKA = {
   mayar_foods:["Al-Muhaidib Foods"],
   aljomaih_automotive:["AAC"],
   advanced_metals:["AMCO"],
+  psmmc:["Riyadh Military Hospital","Riyadh Armed Forces Hospital"],
+  saudi_electronic_u:["SEU"],
+  king_abdullah_mc:["KAMC"],
 };

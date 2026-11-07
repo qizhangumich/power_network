@@ -252,6 +252,9 @@ const INSTITUTIONS = [
   {id:"level_shoes", n:"Level Shoes", s:"consumer_disc", t:3, p:56, short:"Level Shoes"},
   {id:"al_majid_motors", n:"Al Majid Motors", s:"consumer_disc", t:3, p:56, short:"Al Majid Motors"},
   {id:"al_majid_property", n:"Al Majid Property Co LLC", s:"realestate", t:3, p:54, short:"Al Majid Property"},
+  {id:"motivate_media", n:"Motivate Media Group", s:"comm", t:3, p:55, short:"Motivate Media"},
+  {id:"khaleej_times", n:"Khaleej Times", s:"comm", t:2, p:60, short:"Khaleej Times"},
+  {id:"aue", n:"American University in the Emirates", s:"education", t:3, p:54, short:"AUE"},
 ];
 
 const PEOPLE = [
@@ -2812,6 +2815,7 @@ const OWNERSHIP = [
   ["level_shoes","chalhoub","retail subsidiary (launched 2012)","v"],
   ["al_majid_motors","jumaalmajid","automotive subsidiary (Kia distributor since 1988)","v"],
   ["al_majid_property","jumaalmajid","wholly-owned real estate subsidiary founded 1997","v"],
+  ["khaleej_times","galadari_brothers","published by Galadari Printing & Publishing, part of Galadari Brothers Group","ns"],
 ];
 
 const FAMILY = [
@@ -2923,4 +2927,5 @@ const AKA = {
   mbrsc:["EIAST"],
   emirates_leisure:["ELR"],
   scientechnic:["ESAG Scientechnic"],
+  motivate_media:["Motivate Publishing"],
 };

@@ -251,6 +251,7 @@ const INSTITUTIONS = [
   {id:"basf_coatings", n:"BASF Coatings (Carlyle/QIA venture)", s:"materials", t:2, p:58, short:"BASF Coatings"},
   {id:"qsalt", n:"Qatar Salt Products Company", s:"materials", t:3, p:53, short:"QSalt"},
   {id:"al_attiyah_fdn", n:"Abdullah Bin Hamad Al-Attiyah Foundation For Energy and Sustainable Development", s:"energy", t:3, p:54, short:"Al-Attiyah Fdn"},
+  {id:"al_ahli_hospital", n:"Al Ahli Hospital", s:"health", t:3, p:54, short:"Al Ahli Hospital"},
 ];
 
 const PEOPLE = [

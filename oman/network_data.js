@@ -244,6 +244,8 @@ const INSTITUTIONS = [
   {id:"mb", n:"MB Holding Company LLC", s:"conglomerate", t:3, p:58, short:"MB Holding"},
   {id:"mawarid_green", n:"Mawarid Green Technologies", s:"industry", t:3, p:55, short:"Mawarid Green"},
   {id:"owwc", n:"Oman Water and Wastewater Services Company", s:"utilities", t:2, p:58, short:"OWWC"},
+  {id:"al_roya", n:"Al Roya", s:"comm", t:3, p:54, short:"Al Roya"},
+  {id:"sqcccrc", n:"Sultan Qaboos Comprehensive Cancer Care and Research Centre", s:"health", t:2, p:60, short:"SQCCCRC"},
 ];
 
 const PEOPLE = [
@@ -1938,6 +1940,7 @@ const OWNERSHIP = [
   ["riyada","com_om","public authority","v"],
   ["mawarid_green","oq","subsidiary of (via O-Green platform, OQ Alternative Energy JV)","ns"],
   ["owwc","apsr_oman","regulated by","v"],
+  ["sqcccrc","moh_om","government cancer referral and research centre established under state directives","ns"],
 ];
 
 const FAMILY = [

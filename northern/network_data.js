@@ -189,6 +189,7 @@ const INSTITUTIONS = [
   {id:"digital_ajman", n:"Department of Digital Ajman", s:"tech", t:2, p:54, short:"Digital Ajman"},
   {id:"thumbay_fujairah", n:"Thumbay Hospital Fujairah", s:"health", t:2, p:52, short:"Thumbay Fujairah"},
   {id:"al_fujairah_hosp", n:"Al Fujairah Hospital", s:"health", t:2, p:56, short:"Al Fujairah Hosp"},
+  {id:"obaidullah_hosp", n:"Ibrahim Bin Hamad Obaidullah Hospital", s:"health", t:2, p:56, short:"Obaidullah Hosp"},
 ];
 
 const PEOPLE = [
@@ -816,7 +817,7 @@ const PEOPLE = [
   {id:"sheikh_rashid_bin_b_b", n:"Sheikh Rashid bin Saqr Al Qasimi", t:2, p:58, s:"finance", roles:[
     ["sharjah_finance","Director of Sharjah Finance Department","executive","v"]]},
   {id:"abdullah_ahmed_saif", n:"Abdullah Ahmed Saif Al Hamrani", t:2, p:58, s:"gov", roles:[
-    ["ajman_ded","Director-General","executive","v"]]},
+    ["ajman_ded","Director-General (2024–early 2025)","executive","v","former:until early 2025"]]},
   {id:"abdulrahman_mohammed_al", n:"Abdulrahman Mohammed Al Shayeb Al Naqbi", t:2, p:58, s:"gov", roles:[
     ["rak_ded","Director General","executive","v"]]},
   {id:"sheikh_ahmed_mohammed", n:"Sheikh Ahmed Mohammed Sultan Al Qassimi", t:2, p:62, s:"conglomerate", roles:[
@@ -1160,7 +1161,7 @@ const PEOPLE = [
   {id:"neha_thomas", n:"Neha Thomas", t:2, p:58, s:"gov", roles:[
     ["afz","Marketing Director (Free Zones Authority of Ajman incl. AFZ/Ajman Media City/Al Zorah FZ)","executive","ns"]]},
   {id:"saif_ahmed_musabah", n:"Saif Ahmed Musabah Al Suwaidi", t:2, p:58, s:"gov", roles:[
-    ["ajman_ded","Director-General, Ajman Department of Economic Development","executive","ns"]]},
+    ["ajman_ded","Director-General, Ajman Department of Economic Development","executive","v"]]},
   {id:"mohammed_hassan_khalaf", n:"Mohammed Hassan Khalaf", t:2, p:58, s:"comm", roles:[
     ["sharjah_broadcasting","Director-General","executive","ns"]]},
   {id:"salem_ali_al_b", n:"Salem Ali Al Ghaithi", t:2, p:58, s:"comm", roles:[
@@ -1469,7 +1470,7 @@ const PEOPLE = [
   {id:"mohamed_obaid_bin", n:"Mohamed Obaid bin Majed Al Aleeli", t:2, p:58, s:"gov", roles:[
     ["fujairah_die","Director General","executive","ns"]]},
   {id:"hassan_saeed_muhaimid", n:"Hassan Saeed Muhaimid Al Habsi", t:2, p:58, s:"gov", roles:[
-    ["rak_public_prosecution","Attorney General","executive","ns"]]},
+    ["rak_public_prosecution","Attorney General","executive","v"]]},
   {id:"rashid_ahmed_al", n:"Rashid Ahmed Al Malek", t:2, p:46, s:"gov", roles:[
     ["rak_public_prosecution","First Attorney General, Head of Public Prosecution","executive","ns"]]},
   {id:"ahmed_bin_saeed", n:"Ahmed bin Saeed Al Sayyah", t:2, p:58, s:"gov", roles:[
@@ -1624,6 +1625,7 @@ const OWNERSHIP = [
   ["julphar_life","julphar","subsidiary","v"],
   ["thumbay_fujairah","thumbay","subsidiary","v"],
   ["al_fujairah_hosp","emirates_health_svcs","subsidiary","v"],
+  ["obaidullah_hosp","emirates_health_svcs","public healthcare facility operated by and listed on Emirates Health Services' own site","v"],
 ];
 
 const FAMILY = [
@@ -1750,4 +1752,5 @@ const AKA = {
   digital_ajman:["Smart Ajman","Ajman Digital Government"],
   thumbay_fujairah:["GMC Hospital Fujairah"],
   al_fujairah_hosp:["Fujairah Hospital"],
+  obaidullah_hosp:["IBHOH"],
 };

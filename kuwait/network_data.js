@@ -258,6 +258,9 @@ const INSTITUTIONS = [
   {id:"arkan_al_kuwait", n:"Arkan Al Kuwait Real Estate Company", s:"realestate", t:2, p:54, short:"Arkan Al Kuwait"},
   {id:"osn", n:"OSN Group", s:"comm", t:2, p:56, short:"OSN Group"},
   {id:"kirby_building_sys", n:"Kirby Building Systems", s:"materials", t:3, p:57, short:"Kirby Building Sys"},
+  {id:"al_sabah_hospital", n:"Al-Sabah Hospital", s:"health", t:2, p:58, short:"Al-Sabah Hospital"},
+  {id:"mubarak_al_kabeer", n:"Mubarak Al-Kabeer Hospital", s:"health", t:2, p:58, short:"Mubarak Al-Kabeer"},
+  {id:"dar_al_seyassah", n:"Dar Al-Seyassah", s:"comm", t:3, p:54, short:"Dar Al-Seyassah"},
 ];
 
 const PEOPLE = [
@@ -2315,6 +2318,8 @@ const OWNERSHIP = [
   ["st_martins_prop","kia","wholly-owned subsidiary of","ns"],
   ["osn","kipco","subsidiary","v"],
   ["kirby_building_sys","alghanim","wholly-owned subsidiary (pre-engineered buildings manufacturer since 1976)","v"],
+  ["al_sabah_hospital","moh_kuwait","government hospital operated by the Ministry of Health","ns"],
+  ["mubarak_al_kabeer","moh_kuwait","government teaching hospital operated by the Ministry of Health","ns"],
 ];
 
 const FAMILY = [
@@ -2378,4 +2383,5 @@ const AKA = {
   st_martins_prop:["St. Martins Property Group"],
   arkan_al_kuwait:["ARKAN"],
   osn:["OSN+","OSNtv"],
+  dar_al_seyassah:["Al-Seyassah","Arab Times"],
 };

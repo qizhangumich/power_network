@@ -199,6 +199,8 @@ const INSTITUTIONS = [
   {id:"kanoo_property", n:"Kanoo Property", s:"realestate", t:3, p:54, short:"Kanoo Property"},
   {id:"kanoo_travel", n:"Kanoo Travel", s:"consumer_disc", t:3, p:54, short:"Kanoo Travel"},
   {id:"al_hawaj", n:"Yousuf A. Wahab Al Hawaj and Sons Co. WLL", s:"consumer_disc", t:3, p:52, short:"Al Hawaj Group"},
+  {id:"brtc", n:"Bahrain Radio and Television Corporation", s:"comm", t:2, p:60, short:"BRTC"},
+  {id:"akhbar_al_khaleej", n:"Akhbar Al Khaleej", s:"comm", t:3, p:54, short:"Akhbar Al Khaleej"},
 ];
 
 const PEOPLE = [
@@ -2764,7 +2766,7 @@ const PEOPLE = [
   {id:"isa_mohammed_najibi", n:"Isa Mohammed Najibi", t:2, p:62, s:"energy", roles:[
     ["bapco_tazweed","Chairman","board","ns"]]},
   {id:"mohammed_ahmed_al", n:"Mohammed Ahmed Al-Sada", t:2, p:52, s:"energy", roles:[
-    ["danat","Chairman of the Board of Directors","board","ns"],
+    ["danat","Chairman of the Board of Directors","board","v"],
     ["bapco_tazweed","Board Member","board","ns"]]},
   {id:"ibrahim_mohammed_kanoo", n:"Ibrahim Mohammed Kanoo", t:2, p:52, s:"energy", roles:[
     ["bapco_tazweed","Board Member","board","ns"]]},
@@ -3788,6 +3790,7 @@ const OWNERSHIP = [
   ["kanoo_energy","kanoo","business division (Kanoo Industrial and Energy)","v"],
   ["kanoo_property","kanoo","business division (real estate)","v"],
   ["kanoo_travel","kanoo","business division (travel and MICE)","v"],
+  ["brtc","iaa","state broadcaster operating under ministry executive authority","ns"],
 ];
 
 const FAMILY = [
@@ -3863,4 +3866,5 @@ const AKA = {
   national_motor:["NMC"],
   al_ayam_publishing:["Alayam","Dar Al Ayam"],
   nssa:["Bahrain Space Agency"],
+  brtc:["Bahrain TV"],
 };
