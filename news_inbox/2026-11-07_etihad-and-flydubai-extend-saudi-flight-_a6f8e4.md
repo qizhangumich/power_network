@@ -1,0 +1,5 @@
+# Etihad and Flydubai Extend Saudi Flight Cancellations as Emirates Plans Return
+source: Rus Tourism News
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQY3BnZHJmZktOeS0wQ2dUNGdRR1dLeTlZZm5ZTFZJZW1zWndNMWc2QnhPUVcwcUdzZmF1QjhabWtmampkUmthRUJlc3BtQ0JVZ25sbTl2N0Rsd2p1Sm05Y3NmNC1wMkxKM3d5SmNzeTY5UmNuRVpCQk5BX0tUTHlsNUN0TmtmeDdtU3dMVEk2M1dhZVd0Q0VYekF4M1lhOEk1Q29rX3oyVHVIb0NhQ1JjVG9nVWF0Q2ROeVhWWFB3?oc=5
+
+Etihad and Flydubai Extend Saudi Flight Cancellations as Emirates Plans Return    Rus Tourism News

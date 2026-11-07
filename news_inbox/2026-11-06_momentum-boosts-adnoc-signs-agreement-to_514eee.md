@@ -1,0 +1,5 @@
+# Momentum boosts.. ADNOC signs agreement to supply 4 million tons of liquefied natural gas to India
+source: صوت الإمارات
+url: https://news.google.com/rss/articles/CBMi9wFBVV95cUxPWFZNM2ZvbWhfUGdNVjFWNkhYRGRocld6dXlIdHdsRlJ2UEpmYmktQ0xJTUtLSmhIajUwbUdSZk5nTTc3V29YLWM5cHVhbmZxQ1pIVFNiOUtHb0R3cVVPZ3VKeVktcUpROGxPRkRwZHJQbGlVdXFhM3VfNDlFVEwxdFRIUU1YYU52ZDB1VmRsZnhpdnJVSlhXWVJyUHV1OHVqMHUtSDAxUUZoalZQa1pJZnMtMF9IZUNOdnVZWWRURFc4VzkxbkNkNkhueE45eDZscHpYV3NGVElVdTBPSXpHc2JyLW4xdVZxS2NCYXFoalc1eVAxZXBF?oc=5
+
+Momentum boosts.. ADNOC signs agreement to supply 4 million tons of liquefied natural gas to India    صوت الإمارات

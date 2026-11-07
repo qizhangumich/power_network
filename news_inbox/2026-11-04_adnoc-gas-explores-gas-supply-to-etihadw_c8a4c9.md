@@ -1,0 +1,5 @@
+# ADNOC Gas explores gas supply to EtihadWE’s new power projects
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQkNuQmVGNE42OWVISFFwMURUNTB4WlJ2ZWhhMHo1VDNET0hGTW5Ic2FYUVlRVWtKYjE0RE9aQkE4N0hHMzdTQ1ljQjFxNTZqVm1SZGZLWnFsNjRnSDVLalVLZDVLdjJrdkYxVkJzcmwtME5VUHI0R0hqVlJsRTU0UjNkeUtXdHBTZWtkdVh5MTY2X0FqYlpqLVJHLWkxOXBXYjhGLXBaaDZ3eS04M0FBMVZ0YjZVWGF3a3YyYkdpcXU0Unc4dzZfZUFLXzdVVHU4ZGtKMw?oc=5
+
+ADNOC Gas explores gas supply to EtihadWE’s new power projects    TradingView
