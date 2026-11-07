@@ -1,9 +1,5 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Gujarat Energy,9,abudhabi,pending,2026-11-06,2026-11-06,ADNOC Signs 10-Year LNG Supply Deal With India's Gujarat Energy
-TAQA Petroleum,2,abudhabi,pending,2026-11-05,2026-11-05,Shell Lubricants Egypt Signs Partnership with TAQA Petroleum to Expand Nationwide Distribution
-Navi Mumbai Airport,2,oman,pending,2026-10-26,2026-11-06,"IndiGo, Air India to shift Muscat operations to Navi Mumbai Airport"
-Bank of England Governor,2,qatar,pending,2026-11-04,2026-11-06,QCB Governor meets Bank of England Governor
-Qiddiya City,2,saudi,pending,2026-10-30,2026-11-06,QIC signs up Golf Saudi to manage its 18-hole Qiddiya City golf course
+Gujarat Energy,9,abudhabi,rejected,2026-11-06,2026-11-06,ADNOC Signs 10-Year LNG Supply Deal With India's Gujarat Energy
 I Squared Capital,7,abudhabi,rejected,2026-11-02,2026-11-05,Avolon joins I Squared Capital and ADIA to launch $1.4bn aircraft leasing platform
 Singapore Airlines,7,dubai,rejected,2026-10-30,2026-11-06,Dubai and Abu Dhabi add further cancellations as Singapore Airlines pushes its return to February 2027
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
@@ -44,6 +40,7 @@ TAQA Water Solutions,3,abudhabi,added,2026-09-09,2026-09-09,TAQA Water Solutions
 Masdar City,3,abudhabi,added,2026-08-26,2026-09-03,"Masdar City Launches Emirati Package to Empower National Entrepreneurs, Aligning with Emirati Women's Day and the Year of Family"
 Dubai Healthcare City,3,dubai,added,2026-09-10,2026-09-11,"Dubai Healthcare City begins work on Dh3b Creek GardensMore than 1,400 homes planned in a 127,000-square-metre community overlooking Dubai C"
 SNB Capital,3,saudi,added,2026-09-03,2026-09-05,SNB Capital North America Index Fund
+TAQA Petroleum,2,abudhabi,rejected,2026-11-05,2026-11-05,Shell Lubricants Egypt Signs Partnership with TAQA Petroleum to Expand Nationwide Distribution
 Riviera Maritime Media,2,abudhabi,rejected,2026-10-28,2026-10-31,News Content Hub - ADNOC LS snaps up Greek-owned VLCCs at top-dollar prices
 Luxembourg Airport,2,abudhabi,rejected,2026-10-21,2026-10-21,First Etihad flight connecting Abu Dhabi and Grand Duchy arrives at Luxembourg Airport
 Strategic Investment,2,abudhabi,rejected,2026-10-26,2026-10-26,Mubadala Capital Announces Strategic Investment from Apollo
@@ -59,8 +56,10 @@ Sharjah Airport,2,northern,rejected,2026-10-28,2026-10-29,"Sharjah Airport plans
 Municipal Council,2,oman,rejected,2026-11-01,2026-11-03,Oman sets voting dates for Municipal Council elections
 Sustainable Energy Research Centre,2,oman,rejected,2026-10-18,2026-10-19,Sultan Qaboos University to open Sustainable Energy Research Centre lab tomorrow
 Port of Salalah,2,oman,rejected,2026-10-18,2026-10-19,Port of Salalah transition puts $200 million equipment in focus
+Navi Mumbai Airport,2,oman,rejected,2026-10-26,2026-11-06,"IndiGo, Air India to shift Muscat operations to Navi Mumbai Airport"
 Transitional Sovereignty Council,2,oman,rejected,2026-10-25,2026-10-26,Message from chief of Sudan's Transitional Sovereignty Council
 Social Development,2,oman,rejected,2026-10-18,2026-11-05,Social Development Ministry celebrates Omani Women's Day
+Bank of England Governor,2,qatar,rejected,2026-11-04,2026-11-06,QCB Governor meets Bank of England Governor
 Bank of England,2,qatar,rejected,2026-11-05,2026-11-05,Bank of England lifts rate for first time since 2023 to fight inflation
 Labour Ministry,2,qatar,added,2026-10-22,2026-11-03,Labour Ministry shuts down two recruitment offices in Qatar
 Bank of Italy,2,qatar,rejected,2026-11-03,2026-11-03,Sheikh Bandar meets governor of the Bank of Italy
@@ -77,6 +76,7 @@ Hassan Allam Utilities,2,bahrain,rejected,2026-10-23,2026-10-24,Hassan Allam Uti
 Austrian Airlines,2,,rejected,2026-10-19,2026-10-19,Flight from Israel diverted after ‘threat’ reported
 UAE-backed Pearl Petroleum,2,,rejected,2026-10-28,2026-10-29,UAE-backed Pearl Petroleum mandates USD 400-500mln bond
 Met Department,2,kuwait,rejected,2026-10-29,2026-10-30,"Met Department warns of thundery rain, dust and rough seas"
+Qiddiya City,2,saudi,rejected,2026-10-30,2026-11-06,QIC signs up Golf Saudi to manage its 18-hole Qiddiya City golf course
 US-based Activate Capital,2,qatar,rejected,2026-10-15,2026-10-15,US-based Activate Capital joins Qatar Investment Authority's Fund of Funds
 Al-Attiyah Foundation,2,qatar,added,2026-11-03,2026-11-03,"QatarEnergy extends Al-Attiyah Foundation membership, reinforcing support for energy dialogue and research"
 GO Telecom,2,saudi,rejected,2026-11-01,2026-11-02,GO Telecom awards SAR 185.9M AI data center project

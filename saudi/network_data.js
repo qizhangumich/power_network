@@ -4188,6 +4188,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  qiddiya:["Qiddiya City"],
   kaec:["Emaar, The Economic City","Emaar Economic City","4220"],
   al_sagri:["HHC"],
   lst_2290:["2290","YANSAB"],
