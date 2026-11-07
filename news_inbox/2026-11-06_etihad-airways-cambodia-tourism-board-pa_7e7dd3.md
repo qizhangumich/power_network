@@ -1,0 +1,5 @@
+# Etihad Airways, Cambodia Tourism Board partner to strengthen tourism cooperation
+source: Travel Trends Today
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxOSWk2RHNLSkNBSmNsekRtUmRGSGszNEc0cTZ4ZjJoeW1vTTdwWGJ5S0hheXRFbXBES2JhSkQzanRtNkV6Q19BblBSa2M1ZkE5ZVdhVVV2YldLYk5HcEt1RVpEOHBLMzRTNFRpQkVWeVF5eGxOX0g0ZTZoekNhWFgta05rZ1pMRWJCSXJpbUVLRDAtNEI1d2dYUl9sdThtLWlmQ2VwSVBTd3o0MVJNREVwSy13?oc=5
+
+Etihad Airways, Cambodia Tourism Board partner to strengthen tourism cooperation    Travel Trends Today

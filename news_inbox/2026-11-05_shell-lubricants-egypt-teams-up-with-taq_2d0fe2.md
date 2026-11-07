@@ -1,0 +1,5 @@
+# Shell Lubricants Egypt teams up with TAQA Petroleum to expand distribution network
+source: آراب فاينانس
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc0NQRTRsMjBTaUJTMXFLRlBtd0ZDUGd3OUNnZEgwVWY2c1lPWDktQVQ2bzBkeGQxN2JWZDd5bktCT3J4bWVQdlVCek1jYm1wemNGZk9LZTBPNTFnQ0FMcEhFdUVBamI2dUM3OGZVMlBNYjcxSmF0VEwwaUtiOHZ2TEZZOWItRXd1WjV0a0QyQzNQQ0xzUV9La19tY3dhUGpHc0pULUdWM2lqWUxDemxIREtWVnJiNG8tcUtzRnR3Z0NqX2JzTW9naA?oc=5
+
+Shell Lubricants Egypt teams up with TAQA Petroleum to expand distribution network    آراب فاينانس

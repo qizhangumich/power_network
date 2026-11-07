@@ -1,0 +1,5 @@
+# Etihad Airways resumes some operations to Saudi Arabia
+source: ARN News Centre
+url: https://news.google.com/rss/articles/CBMivAFBVV95cUxQQzdwelBrMVFuclFLWGVWSmJSbGJ6bmpCV1Zqa3RqOThFOVlfU043bVE5bHMxcHNxVC1DZVQ5NkYxXzRxVWluWTNqemppTlhxRFo4a2t2aFFJek5VaHoyMFFWSVVLYmRUWGVDUnlhUWdSN0FxT0x5S01ISnptSnhoNzN2cWVqOE9nOHRQbTlXeURWcjkyakQ1eXo0MVVBT0RwSGNmYXZYVkI1RlVFanM0M3VlVUdvNmVySVdrOA?oc=5
+
+Etihad Airways resumes some operations to Saudi Arabia    ARN News Centre

@@ -1,5 +1,0 @@
-# IHC Unveils New Ownership Structure Under Fount Trust
-source: Forbes Middle East
-url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdWFEb3VhdUw5dDdxMkp4UFZHQTFYWkdRQkxhaVFLS3V1a0ZMS0dPNkJZUWV3TXdaLUg3Uzc2MWRIZVlLUnBMWEZiUHMyNzJSNk5HcXdMdC1YSk9PNVJYVUU5Y3YzSzZlOVNsQm1TYnVrTTFjOFVjVjBzWHp6cEhMM0Nsb0JMbGJ5dWZUNVo3S3ZrR1VYcXRzb3pScE1YSWFjLW5RRnJ1U3QtUDY3a3VRUlBYRHllZkk0cHN1ZGlhb2xYQQ?oc=5
-
-IHC Unveils New Ownership Structure Under Fount Trust    Forbes Middle East

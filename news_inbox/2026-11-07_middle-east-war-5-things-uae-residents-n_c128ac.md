@@ -1,0 +1,5 @@
+# Middle East war: 5 things UAE residents need to know today (Nov 7, 2026)
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdFBvRTZvMnRPT0EwRmF2Y0xWMkVoUXAzTHRWRHJabmNTY0drQm1sM01WY1FnbEZ4eUlqRW9LdlFISlpjV0MxemJ1aFo0dTd3RW51cGNrSkVMeXIzNW85bk5BQnNWUzBrbDB2QXpxRlVibHdHOWhXaHEzdUVNeVJRVGNLdGtOR3k5WWM5VU9jTTNZUGV6aDhFMjJqZm9qTktxLXdsWFVTaFbSAbgBQVVfeXFMTkZZRm1kNlJqNGMySjhmcFNJSk1GUlVEemxTVUFFT1F1aFRZeGxSWTNEVUdCYlpaNDB3NHEzQXNpTUtfckZpZDR3WFkxemlGaWVIUVgybU9aQWdIU21tdjZJWEdabUh0ZVVuNjJuM2RDS2JrUGNHZC1rdHNyM2RuSUVBZ0RuSlBtMTRVWmFCSFVFTnJSOEJfR0x6am1iYWVPdGlCTEVpM0d3ZFFTVDFGbWdRbVd3SHlUbA?oc=5
+
+Middle East war: 5 things UAE residents need to know today (Nov 7, 2026)    Gulf News
