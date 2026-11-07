@@ -744,6 +744,7 @@ const PEOPLE = [
     ["new_murabba","Board Member - Non Executive","board","v"],
     ["neom","Managing Director & CEO","executive","v"]]},
   {id:"waleed_ibrahim", n:"Waleed Al Ibrahim", t:2, p:72, s:"comm", roles:[
+    ["lst_4072","Chairman","board","v"],
     ["mbcgroup","Founder & Chairman","board","v"]]},
   {id:"lubna", n:"Lubna Olayan", t:2, p:76, s:"finance", roles:[
     ["olayan","Chair, Olayan Financing","board","v"],
@@ -770,6 +771,7 @@ const PEOPLE = [
   {id:"atallah", n:"Noman Atallah", t:2, p:64, s:"realestate", roles:[
     ["roshn","Group CEO","executive","v"]]},
   {id:"aldawood", n:"Abdullah Aldawood", t:2, p:68, s:"consumer_disc", roles:[
+    ["lst_4072","Director - Independent Non-Executive","board","v"],
     ["qiddiya_investment","Board Member and Managing Director","board","v"],
     ["qiddiya","CEO & Managing Director","executive","v"]]},
   {id:"aljasser", n:"Fawaz Al-Jasser", t:2, p:64, s:"consumer_stap", roles:[
@@ -1020,6 +1022,7 @@ const PEOPLE = [
   {id:"samir_assaf", n:"Samir Assaf", t:2, p:52, s:"finance", roles:[
     ["sab","Board Member","board","ns"]]},
   {id:"khalid_bin_abdullah", n:"Khalid bin Abdullah Al-Molhem", t:2, p:52, s:"finance", roles:[
+    ["lst_4072","Director - Independent Non-Executive","board","v"],
     ["sab","Board Member","board","ns"]]},
   {id:"saad_abdulmuhsin_al", n:"Saad Abdulmuhsin Al-Fadly", t:2, p:62, s:"finance", roles:[
     ["sab","Deputy Chairman (GOSI representative)","board","ns"]]},
@@ -1354,6 +1357,7 @@ const PEOPLE = [
   {id:"hani_abdullah_al_b", n:"Hani Abdullah Al-Jehani", t:2, p:52, s:"finance", roles:[
     ["lst_1010","Board Member","board","v"]]},
   {id:"dr_mansoor_al", n:"Dr. Mansoor Al-Mansoor", t:2, p:52, s:"finance", roles:[
+    ["lst_4072","Director - Independent Non-Executive","board","v"],
     ["lst_1010","Board Member","board","v"]]},
   {id:"yasir_abdullah_al", n:"Yasir Abdullah Al-Salman", t:2, p:52, s:"finance", roles:[
     ["lst_1010","Board Member","board","v"]]},
@@ -1855,6 +1859,7 @@ const PEOPLE = [
     ["qiddiya","Board Member","board","v"],
     ["riyadhair","Board Member","board","v"]]},
   {id:"prince_faisal_bin", n:"Prince Faisal bin Abdulaziz bin Ayyaf", t:2, p:52, s:"industry", roles:[
+    ["amanat_riyadh","Mayor of Riyadh Region","board","v"],
     ["rcrc","Board Member (Mayor of Riyadh Province)","board","v"],
     ["soudah_dev","Board Member","board","v"],
     ["new_murabba","Board Member - Independent","board","v"],
@@ -2044,6 +2049,7 @@ const PEOPLE = [
     ["lst_4015","Independent Board Member & Chair of Nomination and Remuneration Committee","board","v"],
     ["saudia","Executive Vice President - Human Resources","executive","ns"]]},
   {id:"ali_al_hedeithy", n:"Ali Al-Hedeithy", t:2, p:58, s:"comm", roles:[
+    ["lst_4072","Director General and Board Secretary","executive","v"],
     ["mbcgroup","Group Director General & Board Secretary","executive","v"]]},
   {id:"ahmed_al_sahhaf", n:"Ahmed Al-Sahhaf", t:2, p:60, s:"comm", roles:[
     ["mbcgroup","CEO of MMS KSA","executive","v"]]},
@@ -2054,6 +2060,7 @@ const PEOPLE = [
   {id:"omar_el_barrage", n:"Omar El-Barrage", t:2, p:58, s:"comm", roles:[
     ["mbcgroup","Group General Counsel","executive","v"]]},
   {id:"mike_sneesby", n:"Mike Sneesby", t:2, p:60, s:"comm", roles:[
+    ["lst_4072","Chief Executive Officer","executive","v"],
     ["mbcgroup","Chief Executive Officer","executive","v"]]},
   {id:"mishari_naji_al", n:"Mishari Naji Al Ibrahim", t:2, p:52, s:"comm", roles:[
     ["mbcgroup","Board Member","board","ns"]]},
@@ -2711,6 +2718,7 @@ const PEOPLE = [
   {id:"khalid_bin_sattam", n:"Khalid bin Sattam bin Saud Al Saud", t:2, p:52, s:"consumer_disc", roles:[
     ["soudah_dev","Board Member","board","v"]]},
   {id:"mosa_alomran", n:"Mosa Alomran", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_4072","Director - Non-Independent Non-Executive","board","v"],
     ["soudah_dev","Board Member","board","v"]]},
   {id:"saleh_bin_ibrahim", n:"Saleh bin Ibrahim Aloraini", t:2, p:60, s:"consumer_disc", roles:[
     ["kafd","Board Member","board","v"],
@@ -3756,6 +3764,28 @@ const PEOPLE = [
     ["ncm","Chairman of the Board of Directors (Minister of Environment, Water and Agriculture)","board","ns"]]},
   {id:"ayman_ghulam", n:"Ayman Ghulam", t:2, p:60, s:"gov", roles:[
     ["ncm","Chief Executive Officer","executive","ns"]]},
+  {id:"hindi_al_sohimi", n:"Hindi Al Sohimi", t:2, p:62, s:"comm", roles:[
+    ["lst_4072","Vice Chairman - Non-Executive Non-Independent","board","v"]]},
+  {id:"majed_al_ibrahim", n:"Majed Al Ibrahim", t:2, p:52, s:"comm", roles:[
+    ["lst_4072","Director - Independent Non-Executive","board","v"]]},
+  {id:"mishary_alibraheem", n:"Mishary Alibraheem", t:2, p:52, s:"comm", roles:[
+    ["lst_4072","Director - Non-Independent Non-Executive","board","v"]]},
+  {id:"nasser_al_biqami", n:"Nasser Al Biqami", t:2, p:52, s:"comm", roles:[
+    ["lst_4072","Director - Non-Independent Non-Executive","board","v"]]},
+  {id:"saleh_bin_abdulaziz", n:"Saleh bin Abdulaziz Al-Makhdoub", t:2, p:58, s:"gov", roles:[
+    ["amanat_riyadh","Assistant Mayor of Riyadh Region","executive","v"]]},
+  {id:"mohammed_bin_abdullah_b_b", n:"Mohammed bin Abdullah Al-Aql", t:2, p:58, s:"gov", roles:[
+    ["amanat_riyadh","Assistant Mayor for Municipal Sectors","executive","v"]]},
+  {id:"majed_bin_mousa", n:"Majed bin Mousa Al-Ismail", t:2, p:58, s:"gov", roles:[
+    ["amanat_riyadh","Assistant Mayor for Planning and Development","executive","v"]]},
+  {id:"mazen_al_dawood", n:"Mazen Al-Dawood", t:2, p:58, s:"gov", roles:[
+    ["amanat_riyadh","Assistant Mayor for Environmental Compliance and Sustainability","executive","v"]]},
+  {id:"ahmed_al_thumairi", n:"Ahmed Al-Thumairi", t:2, p:58, s:"gov", roles:[
+    ["amanat_riyadh","Deputy Mayor for Digital Transformation and Smart Cities","executive","v"]]},
+  {id:"salman_bin_abdulrahman", n:"Salman bin Abdulrahman Al-Dahmash", t:2, p:58, s:"gov", roles:[
+    ["amanat_riyadh","Deputy Mayor for Investment and Privatization","executive","v"]]},
+  {id:"abdulmalik_a_alshwaer", n:"Abdulmalik A. Alshwaer", t:2, p:58, s:"gov", roles:[
+    ["amanat_riyadh","Deputy Mayor for Corporate Services","executive","v"]]},
 ];
 
 const OWNERSHIP = [

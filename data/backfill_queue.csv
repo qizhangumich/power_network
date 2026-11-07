@@ -1,7 +1,6 @@
 ﻿region,institution_id,name,sector,power,people_linked,status
 abudhabi,microsoft,Microsoft,tech,80,0,pending
 abudhabi,blackrock,BlackRock,finance,76,0,pending
-saudi,lst_4072,MBC Group,comm,75,0,pending
 abudhabi,twopointzero,2PointZero (pre-merger IHC platform; merged into 2PointZero Group 2025),sovereign,74,0,pending
 abudhabi,openai,OpenAI,tech,74,0,pending
 abudhabi,nvidia,NVIDIA,tech,74,0,pending
@@ -28,7 +27,6 @@ qatar,psa_qatar,Planning and Statistics Authority,gov,62,0,skip
 qatar,qe_renewables,QatarEnergy Renewable Solutions,energy,62,0,skip
 saudi,lucid,"Lucid Group, Inc.",consumer_disc,62,0,pending
 saudi,qassim_university,Qassim University,education,62,1,pending
-saudi,amanat_riyadh,Riyadh Municipality (Amanat Riyadh),gov,62,0,pending
 saudi,ksau_hs,King Saud bin Abdulaziz University for Health Sciences,education,62,0,pending
 abudhabi,cerebras,Cerebras Systems,tech,60,0,pending
 abudhabi,oxy,Occidental Petroleum,energy,60,0,pending
@@ -45,7 +43,6 @@ dubai,khaleej_times,Khaleej Times,comm,60,0,pending
 oman,sct,Space Communication Technologies,tech,60,1,pending
 oman,sqcccrc,Sultan Qaboos Comprehensive Cancer Care and Research Centre,health,60,0,pending
 qatar,sinopec,Sinopec,energy,60,0,pending
-qatar,muntajat,Qatar Chemical and Petrochemical Marketing and Distribution Company,materials,60,1,pending
 qatar,ras_laffan_petrochem,Ras Laffan Petrochemicals Company,materials,60,1,pending
 saudi,aramco_trading,Aramco Trading Company,energy,60,0,pending
 saudi,seven,Saudi Entertainment Ventures,consumer_disc,60,0,pending
@@ -186,8 +183,6 @@ northern,obaidullah_hosp,Ibrahim Bin Hamad Obaidullah Hospital,health,56,0,pendi
 oman,oman_observer,Oman Daily Observer (OEPPA),comm,56,1,pending
 qatar,qas,Qatar Aviation Services,industry,56,0,pending
 qatar,laffan_refinery,Laffan Refinery Company,energy,56,0,pending
-qatar,rloc,Ras Laffan Olefins Company,materials,56,0,pending
-qatar,q_chem,Qatar Chemical Company,materials,56,0,pending
 saudi,lst_1320,Saudi Steel Pipe Co.,materials,56,0,pending
 saudi,lst_2330,Advanced Petrochemical Co.,materials,56,0,pending
 saudi,lst_7040,GO Telecom (Etihad Atheeb Telecommunication Co.),comm,56,0,pending
@@ -227,7 +222,6 @@ dubai,al_habtoor_real,Al Habtoor Real Estate,realestate,55,0,pending
 dubai,scientechnic,Scientechnic,industry,55,0,pending
 dubai,motivate_media,Motivate Media Group,comm,55,0,pending
 oman,mawarid_green,Mawarid Green Technologies,industry,55,0,pending
-qatar,qvc,Qatar Vinyl Company Ltd,materials,55,0,pending
 saudi,al_othman,Al Othman Holding,conglomerate,55,0,pending
 saudi,bsf_capital,BSF Capital,finance,55,0,pending
 saudi,solutions_by_stc,solutions by stc,tech,55,0,pending
@@ -300,9 +294,6 @@ oman,al_roya,Al Roya,comm,54,0,pending
 qatar,qatar_executive,Qatar Executive,industry,54,0,pending
 qatar,qacc,Qatar Aircraft Catering Company,industry,54,0,pending
 qatar,qafac,Qatar Fuel Additives Company,materials,54,1,pending
-qatar,oryx_gtl,Oryx GTL,energy,54,0,pending
-qatar,gulf_drilling_intl,Gulf Drilling International Limited,energy,54,0,pending
-qatar,qatofin,Qatofin Company Limited,materials,54,0,pending
 qatar,northwestern_qatar,Northwestern University in Qatar,education,54,1,pending
 qatar,insead,INSEAD,education,54,0,pending
 qatar,al_rayyan_tv,Al Rayyan TV,comm,54,0,pending
@@ -394,10 +385,8 @@ northern,uaq_blue_economy,Sustainable Blue Economy Office (Umm Al Quwain),gov,52
 northern,rakcam,Ras Al Khaimah Centre for Advanced Materials,education,52,1,pending
 northern,julphar_life,Julphar Life LLC,consumer_stap,52,0,pending
 northern,thumbay_fujairah,Thumbay Hospital Fujairah,health,52,0,pending
-oman,asyad_drydock,Asyad Drydock,industry,52,1,pending
 oman,asyad_express,Asyad Express,industry,52,0,pending
 oman,al_mazunah_fz,Al Mazunah Free Zone,gov,52,1,pending
-oman,muscat_municipality,Muscat Municipality,gov,52,1,pending
 oman,al_namaa_poultry,Al Namaa Poultry,consumer_stap,52,0,pending
 oman,al_murooj_dairy,Al Murooj Dairy,consumer_stap,52,0,pending
 oman,national_feed,Oman National Livestock Company,consumer_stap,52,0,pending
@@ -409,7 +398,6 @@ oman,oman_sail,Oman Sail,consumer_disc,52,0,pending
 oman,natl_omani_hosp,National Omani Hospitality Company,consumer_disc,52,0,pending
 oman,pld_space,PLD Space,tech,52,0,pending
 oman,raysut_ind_city,Raysut Industrial City,industry,52,0,pending
-oman,ubhar_capital,Ubhar Capital SAOC,finance,52,1,pending
 qatar,al_maha_services,Al Maha Services,industry,52,0,pending
 qatar,discover_qatar,Discover Qatar,consumer_disc,52,0,pending
 qatar,al_attiya_motors,Al Attiya Motors & Trading Company,consumer_disc,52,1,pending

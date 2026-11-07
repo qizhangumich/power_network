@@ -433,6 +433,8 @@ const PEOPLE = [
     ["kahramaa","President","executive","v"]],
     note:"Appointed by Amiri Decision in December 2024."},
   {id:"khalid_qafco", n:"Sheikh Khalid bin Abdulla Al-Thani", t:1, p:68, s:"materials", roles:[
+    ["qatofin","Vice Chairman","board","v"],
+    ["qvc","Vice Chairman","board","v"],
     ["qapco","Vice Chairman of the Board","board","v"],
     ["qafco","Vice-Chairman & Managing Director","executive","v"]]},
   {id:"alsadah_barzan", n:"Mohammad bin Bader Al Sadah", t:2, p:68, s:"industry", roles:[
@@ -515,10 +517,14 @@ const PEOPLE = [
   {id:"maitha_mubarak_rashid", n:"Maitha Mubarak Rashid Al Jabr Al-Naemi", t:2, p:52, s:"finance", roles:[
     ["qib","Independent Board Member","board","v"]]},
   {id:"abdulaziz_mohammed_al", n:"Abdulaziz Mohammed Al-Mannai", t:2, p:62, s:"materials", roles:[
+    ["muntajat","Vice Chairman of the Board","board","v"],
     ["north_oil","Chairman","board","v"],
     ["qelng","Executive Vice President, Human Capital","executive","v"],
     ["industriesqatar","Vice Chairman","board","v"]]},
   {id:"dr_mohammed_yousef", n:"Dr. Mohammed Yousef Al-Mulla", t:2, p:52, s:"materials", roles:[
+    ["q_chem","Board Member","board","v"],
+    ["qatofin","Managing Director & CEO","executive","v"],
+    ["qvc","Managing Director & CEO","executive","v"],
     ["udst","Vice-Chairman, Board of Trustees","board","v"],
     ["qapco","Managing Director & CEO","executive","v"],
     ["industriesqatar","Board Member","board","v"]]},
@@ -580,6 +586,8 @@ const PEOPLE = [
   {id:"shahnawaz_niazi", n:"Shahnawaz Niazi", t:2, p:58, s:"finance", roles:[
     ["masraf","Group Chief Financial Officer","executive","v"]]},
   {id:"abdulaziz_jassim_al", n:"Abdulaziz Jassim Al-Muftah", t:2, p:62, s:"energy", roles:[
+    ["qatofin","Chairman","board","v"],
+    ["qvc","Chairman","board","v"],
     ["qelng","Executive Vice President, Industrial Cities","executive","v"],
     ["qapco","Chairman of the Board","board","v"],
     ["nakilat","Chairman","board","v"]]},
@@ -642,9 +650,12 @@ const PEOPLE = [
   {id:"calum_laming", n:"Calum Laming", t:2, p:58, s:"industry", roles:[
     ["qatarairways","Chief Customer Officer","executive","v"]]},
   {id:"abdulrahman_m_al", n:"Abdulrahman M. Al-Suwaidi", t:2, p:60, s:"materials", roles:[
+    ["q_chem","Chairman of the Board","board","v"],
+    ["rloc","Chairman","board","v"],
     ["qafco","Managing Director and CEO","executive","v"],
     ["industriesqatar","Board Director; MD & CEO of QAFCO","executive","v"]]},
   {id:"ahmed_abdulqader_al", n:"Ahmed Abdulqader Al-Ahmed", t:2, p:60, s:"materials", roles:[
+    ["gulf_drilling_intl","Director","board","v"],
     ["qafac","Chief Executive Officer","executive","v"],
     ["industriesqatar","Board Director; CEO of QAFAC","executive","v"]]},
   {id:"faisal_al_malki", n:"Faisal Al Malki", t:2, p:58, s:"realestate", roles:[
@@ -1013,6 +1024,8 @@ const PEOPLE = [
   {id:"thani_bin_thamer", n:"Thani bin Thamer bin Mohammed Al-Thani", t:2, p:52, s:"materials", roles:[
     ["lst_mphc","Board Member","board","v"]]},
   {id:"khalid_sultan_al", n:"Khalid Sultan Al-Kuwari", t:2, p:52, s:"materials", roles:[
+    ["q_chem","Chief Executive Officer","executive","v"],
+    ["gulf_drilling_intl","Vice Chairman","board","v"],
     ["ras_laffan_petrochem","Board Member (Director)","board","v"],
     ["lst_igrd","Board Member","board","v"],
     ["lst_mphc","Board Member","board","v"]]},
@@ -1095,6 +1108,7 @@ const PEOPLE = [
   {id:"mr_homoud_fahad", n:"Mr. Homoud Fahad Homoud Sultan Al-Qahtani", t:2, p:62, s:"energy", roles:[
     ["lst_qfls","Vice Chairman","board","v"]]},
   {id:"mr_saad_rashid", n:"Mr. Saad Rashid Al-Muhannadi", t:2, p:60, s:"energy", roles:[
+    ["gulf_drilling_intl","Chairman","board","v"],
     ["qatar_steel","Chairman","board","v"],
     ["lst_giss","Vice Chairman","board","v"],
     ["lst_qfls","Managing Director – Board Member","board","v"],
@@ -2356,6 +2370,47 @@ const PEOPLE = [
     ["al_attiyah_fdn","Managing Director","executive","v"]]},
   {id:"howard_bevan", n:"Howard Bevan", t:2, p:52, s:"energy", roles:[
     ["al_attiyah_fdn","Secretary to the Board of Trustees","board","v"]]},
+  {id:"thani_t_al", n:"Thani T. Al-Thani", t:2, p:60, s:"energy", roles:[
+    ["oryx_gtl","Chief Executive Officer","executive","v"]]},
+  {id:"thamer_al_kaabi", n:"Thamer Al-Kaabi", t:2, p:58, s:"energy", roles:[
+    ["oryx_gtl","Chief Administration Officer","executive","v"]]},
+  {id:"ali_al_mohannadi", n:"Ali Al-Mohannadi", t:2, p:58, s:"energy", roles:[
+    ["oryx_gtl","Chief Engineering and Projects Officer","executive","v"]]},
+  {id:"naem_lachman", n:"Naem Lachman", t:2, p:58, s:"energy", roles:[
+    ["oryx_gtl","Chief Finance & Contracts Officer","executive","v"]]},
+  {id:"anton_booysen", n:"Anton Booysen", t:2, p:58, s:"energy", roles:[
+    ["oryx_gtl","Chief Operations Officer","executive","v"]]},
+  {id:"mohamed_al_enazi", n:"Mohamed Al-Enazi", t:2, p:58, s:"energy", roles:[
+    ["oryx_gtl","Chief Operational Excellence Officer","executive","v"]]},
+  {id:"askhat_dairov", n:"Askhat Dairov", t:2, p:46, s:"energy", roles:[
+    ["oryx_gtl","Head of Internal Audit","executive","v"]]},
+  {id:"khalid_ibrahim_khalid", n:"Khalid Ibrahim Khalid", t:2, p:52, s:"energy", roles:[
+    ["oryx_gtl","Board Secretary","board","v"]]},
+  {id:"abdullah_fadhala_al", n:"Abdullah Fadhala Al Sulaiti", t:2, p:52, s:"energy", roles:[
+    ["gulf_drilling_intl","Director","board","v"]]},
+  {id:"rashid_ali_hussein", n:"Rashid Ali Hussein Al-Dosari", t:2, p:52, s:"energy", roles:[
+    ["gulf_drilling_intl","Director","board","v"]]},
+  {id:"marcus_barraclough", n:"Marcus Barraclough", t:2, p:60, s:"energy", roles:[
+    ["gulf_drilling_intl","Chief Executive Officer","executive","v"]]},
+  {id:"alok_jha", n:"Alok Jha", t:2, p:58, s:"energy", roles:[
+    ["gulf_drilling_intl","Chief Operating Officer","executive","v"]]},
+  {id:"rui_gomes", n:"Rui Gomes", t:2, p:58, s:"energy", roles:[
+    ["gulf_drilling_intl","Chief Financial Officer","executive","v"]]},
+  {id:"mohammed_al_mannai", n:"Mohammed Al Mannai", t:2, p:58, s:"energy", roles:[
+    ["gulf_drilling_intl","Chief Shared Services Officer","executive","v"]]},
+  {id:"omar_obregon", n:"Omar Obregon", t:2, p:58, s:"energy", roles:[
+    ["gulf_drilling_intl","Chief Commercial Officer","executive","v"]]},
+  {id:"abdullah_omar_al", n:"Abdullah Omar Al Dafaa", t:2, p:62, s:"materials", roles:[
+    ["rloc","Deputy Chairman","board","v"],
+    ["q_chem","Deputy Chairman","board","v"]]},
+  {id:"bryan_canfield", n:"Bryan Canfield", t:2, p:52, s:"materials", roles:[
+    ["rloc","Board Member","board","v"],
+    ["q_chem","Board Member","board","v"]]},
+  {id:"jay_bickett", n:"Jay Bickett", t:2, p:52, s:"materials", roles:[
+    ["rloc","Board Member","board","v"],
+    ["q_chem","Board Member","board","v"]]},
+  {id:"amir_kabbej", n:"Amir Kabbej", t:2, p:52, s:"materials", roles:[
+    ["q_chem","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

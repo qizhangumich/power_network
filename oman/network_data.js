@@ -285,6 +285,7 @@ const PEOPLE = [
     ["oq_rpi","Chairman of the Board of Directors","board","v"],
     ["oq","Group Chief Executive Officer","executive","v"]]},
   {id:"alkindi_asyad", n:"Dr. Ahmed Al Bulushi", t:2, p:58, s:"industry", roles:[
+    ["asyad_drydock","Chief Executive Officer of Asyad Drydock and Infrastructure Services","executive","v"],
     ["asyad","Group CEO (acting)","executive","v","former:until Sep 2026"]],
     note:"ASYAD Group's own executive-team page (asyad.om/who-we-are/executive-team) names Abdulrahman Salim Al Hatmi as Group CEO (non-acting, in the role continuously since 2016); no official source found confirming this person ever held an acting Group CEO role. Marked former pending a corrected source for this person's actual ASYAD role."},
   {id:"alhatmi_asyad", n:"Abdulrahman Salim Al Hatmi", t:2, p:60, s:"industry", roles:[
@@ -1679,6 +1680,7 @@ const PEOPLE = [
   {id:"abdullah_bin_hamoud", n:"Abdullah bin Hamoud Al Harthy", t:2, p:58, s:"gov", roles:[
     ["min_social_dev","Under-Secretary of the Ministry of Social Development for Persons with Disabilities Affairs","executive","v"]]},
   {id:"abdullah_bin_ali_b_b", n:"Abdullah bin Ali Al Harthy", t:2, p:52, s:"gov", roles:[
+    ["rop","Assistant Inspector General for Operations","executive","ns"],
     ["opaz","Board Member (Major General)","board","v"]]},
   {id:"ahmed_bin_hassan_b", n:"Ahmed bin Hassan Al Theeb", t:2, p:62, s:"gov", roles:[
     ["opaz","Vice Chairman","board","ns"]]},
@@ -1773,6 +1775,24 @@ const PEOPLE = [
     ["lst_liva","Group Chief Executive Officer","executive","ns"]]},
   {id:"mahmoud_hamad_al", n:"Mahmoud Hamad Al Rubaie", t:2, p:58, s:"finance", roles:[
     ["tax_authority_oman","Director General of Tax Operations and Services","executive","ns"]]},
+  {id:"ahmed_bin_said", n:"Ahmed bin Said Al Amri", t:2, p:62, s:"gov", roles:[
+    ["muscat_municipality","Chairman of Muscat Municipality","board","ns"]]},
+  {id:"hamza_edrees", n:"Hamza Edrees", t:2, p:58, s:"education", roles:[
+    ["sohar_university","Deputy Vice Chancellor (Academic Affairs)","executive","v"]]},
+  {id:"mohammed_al_maqbali", n:"Mohammed Al-Maqbali", t:2, p:58, s:"education", roles:[
+    ["sohar_university","Pro Vice Chancellor (Administration & Finance)","executive","v"]]},
+  {id:"awadh_al_mamari", n:"Awadh Al Mamari", t:2, p:58, s:"education", roles:[
+    ["sohar_university","Pro Vice Chancellor (Student Affairs)","executive","v"]]},
+  {id:"ghassan_al_kindi", n:"Ghassan Al Kindi", t:2, p:58, s:"education", roles:[
+    ["sohar_university","Pro Vice Chancellor (Research and Innovation)","executive","v"]]},
+  {id:"anwar_al_jabri", n:"Anwar Al Jabri", t:2, p:62, s:"finance", roles:[
+    ["ubhar_capital","Chairman","board","ns"]]},
+  {id:"azzan_moghrob_rashid", n:"Azzan Moghrob Rashid Al Asmy", t:2, p:60, s:"energy", roles:[
+    ["hema_energy","Group Managing Director","executive","ns"]]},
+  {id:"hamad_bin_ali", n:"Hamad bin Ali Al Nazwani", t:2, p:58, s:"gov", roles:[
+    ["mohup_oman","Undersecretary of the Ministry of Housing and Urban Planning for Housing","executive","ns"]]},
+  {id:"mohammed_bin_ali_b", n:"Mohammed bin Ali Al Muttawa", t:2, p:58, s:"gov", roles:[
+    ["mohup_oman","Undersecretary of the Ministry of Housing and Urban Planning for Urban Planning","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
