@@ -1,0 +1,5 @@
+# Adnoc Gas signs agreement to supply natural gas to Northern Emirates
+source: The National
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxONzhoTXN1Y3FBSXpkMm1PSDI2bkYyZkJlRnlkTjA5OGlYYldISkNZS3RQeEpxRExMSVEtQnR1ejVTbGdYR1NRdGRPVDNuZlpaWEZpRGZXaVpTeEJESnJNMDNvSUpNMnRaZkpvdkNoUHRMVXhHam9KNjRJRGF3ZFBPN20xb19sd3NxV1RkLUNXZ1g3WDFSZjFGY2dxSVhsQXlaYzlZU0Nja1kyM1hLd19FaUhzVGlVeTJ6N0k3Y0RPQ3RNSjFPLW1v?oc=5
+
+Adnoc Gas signs agreement to supply natural gas to Northern Emirates    The National
