@@ -335,6 +335,9 @@ const INSTITUTIONS = [
   {id:"icp", n:"Federal Authority for Identity, Citizenship, Customs & Port Security", s:"gov", t:1, p:62, short:"ICP"},
   {id:"mohre", n:"Ministry of Human Resources and Emiratisation", s:"gov", t:1, p:64, short:"MOHRE"},
   {id:"ncema", n:"National Emergency Crisis and Disasters Management Authority", s:"gov", t:1, p:60, short:"NCEMA"},
+  {id:"e_capital", n:"e& capital", s:"finance", t:2, p:58, short:"e& capital"},
+  {id:"e_enterprise", n:"e& enterprise", s:"tech", t:2, p:56, short:"e& enterprise"},
+  {id:"fabmisr", n:"First Abu Dhabi Bank Misr", s:"finance", t:3, p:54, short:"FABMISR"},
 ];
 
 const PEOPLE = [
@@ -385,6 +388,7 @@ const PEOPLE = [
     ["fedgov","Deputy Prime Minister","political","v"],
     ["mofa","Minister of Foreign Affairs","political","v"],
     ["agda","Chairman of the Board of Trustees","board","v"],
+    ["ecssr","Chairman - Board of Trustees","board","v"],
     ]},
   {id:"saif_bz", n:"H.H. Sheikh Saif bin Zayed Al Nahyan", t:0, p:91, s:"gov", roles:[
     ["fedgov","Deputy Prime Minister · Minister of Interior","political","v"],
@@ -481,6 +485,7 @@ const PEOPLE = [
     ["kezad","Chairman","board","v"],
     ["judan_financial","Vice Chairman, Managing Director and CEO","executive","ns"],
     ["riq","Board Member","board","ns"],
+    ["twopointzero","Board Member (UAE Minister of Investment; Managing Director and Group CEO, ADQ)","board","v"],
     ], note:"Founding MD & Group CEO of ADQ 2018-Jan 2026; concluded tenure to become Executive Chairman & Managing Partner of Lunate (announced 29 Jan 2026). ADQ successor not yet publicly named."},
   {id:"syed_basar", n:"Syed Basar Shueb", t:1, p:85, s:"sovereign", roles:[
     ["ihc","CEO","executive","v"],
@@ -489,6 +494,7 @@ const PEOPLE = [
     ["chimera","Chairman","board","v"],
     ["abu_dhabi_chamber","Board Member","board","v"],
     ["riq","Board Member","board","ns"],
+    ["twopointzero","Board Member (CEO and Managing Director, IHC)","board","v"],
     ], note:"Operates Tahnoon's listed conglomerate (IHC), one of the largest listed companies in the Middle East."},
   {id:"faisal_bannai", n:"Faisal Al Bannai", t:1, p:88, s:"tech", roles:[
     ["prescourt","Adviser for Strategic Research & Advanced Technology Affairs","political","v"],
@@ -654,6 +660,7 @@ const PEOPLE = [
     ]},
   {id:"samia", n:"Samia Bouazza", t:2, p:70, s:"sovereign", roles:[
     ["multiply","Group CEO","executive","v"],
+    ["twopointzero","Chief Executive Officer and Board Member","executive","v"],
     ]},
   {id:"alwan", n:"Ahmad Ali Alwan", t:2, p:64, s:"tech", roles:[
     ["hub71","CEO","executive","v"],
@@ -932,6 +939,7 @@ const PEOPLE = [
   {id:"somar_ajalyaqin", n:"Dr. Mohammed Somar Ajalyaqin", t:2, p:70, s:"sovereign", roles:[
     ["ihc","Vice Chairman","board","v"],
     ["multiply","Board Member","board","v"],
+    ["twopointzero","Board Member","board","v"],
     ]},
   {id:"alwyn_crasta", n:"Alwyn Crasta", t:2, p:66, s:"sovereign", roles:[
     ["ihc","Group Chief Financial Officer","executive","v"],
@@ -992,6 +1000,7 @@ const PEOPLE = [
     ["q","Board Member","board","v"],
     ["adafsa","Member, Board of Directors","board","v"],
     ["modon_properties","Board Member","board","v"],
+    ["twopointzero","Vice Chair and Managing Director","board","v"],
     ]},
   {id:"sheikh_ahmed_mohammed", n:"Sheikh Ahmed Mohammed Sultan Aldhaheri", t:2, p:52, s:"finance", roles:[
     ["fab","Board Member","board","v"],
@@ -1200,6 +1209,7 @@ const PEOPLE = [
     ["aldar","Board Member","board","v"],
     ["multiply","Board Member","board","v"],
     ["riq","Board Member","board","ns"],
+    ["twopointzero","Board Member","board","v"],
     ]},
   {id:"dr_bakheet_saeed", n:"Dr. Bakheet Saeed Al Katheeri", t:2, p:52, s:"realestate", roles:[
     ["aldar","Board Member","board","v"],
@@ -2064,6 +2074,7 @@ const PEOPLE = [
     ["adq","Board Member","board","v"],
     ["multiply","Chairman of the Board (Two Point Zero Group, formerly Multiply Group)","board","v"],
     ["aldahra","Vice Chairman of the Board of Directors","board","v"],
+    ["twopointzero","Chairman","board","v"],
     ]},
   {id:"h_e_sheikh", n:"H.E. Sheikh Abdulla bin Mohamed Al Hamed", t:2, p:52, s:"sovereign", roles:[
     ["adq","Board Member","board","v"],
@@ -2222,6 +2233,7 @@ const PEOPLE = [
     ]},
   {id:"richard_gerson", n:"Richard Gerson", t:2, p:52, s:"sovereign", roles:[
     ["multiply","Board Member","board","v"],
+    ["twopointzero","Board Member (Co-Founder, Chairman and CIO, Alpha Wave Global)","board","v"],
     ]},
   {id:"michael_katounas", n:"Michael Katounas", t:2, p:58, s:"sovereign", roles:[
     ["multiply","Chief Investment Officer","executive","v"],
@@ -4467,6 +4479,12 @@ const PEOPLE = [
   {id:"mark_wilson", n:"Mark Wilson", t:2, p:60, s:"finance", roles:[
     ["riq","Chief Executive Officer","executive","ns"],
     ]},
+  {id:"jamal_sanad_al", n:"Jamal Sanad Al Suwaidi", t:2, p:62, s:"education", roles:[
+    ["ecssr","Deputy Chairman - Board of Trustees","board","v"],
+    ]},
+  {id:"sultan_mohammed_al", n:"Sultan Mohammed Al Nuaimi", t:2, p:58, s:"education", roles:[
+    ["ecssr","Director General","executive","v"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -4754,6 +4772,9 @@ const OWNERSHIP = [
   ["sammaan_capital","ihc","~41-43% controlling stake acquired for ~US$1bn (Oct 2025) via preferential allotment/warrants to IHC affiliate Avenir Investment, triggering a mandatory open offer; Mumbai-listed non-bank financial company (formerly Indiabulls Housing Finance)","v"],
   ["peko","ihc","70% stake acquired Dec 2025; UAE fintech/digital-services platform (payments, payroll, invoicing, corporate cards) founded 2022","v"],
   ["reem_finance","ihc","69.33% stake acquired in H1 2025, expanding IHC's local UAE financial-services footprint","v"],
+  ["e_capital","e_and","division","v"],
+  ["e_enterprise","e_and","division","v"],
+  ["fabmisr","fab","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -4849,4 +4870,5 @@ const AKA = {
   first_women_bank:["FWBL"],
   federal_tax_auth:["FTA"],
   icp:["Emirates Identity Authority","ICA"],
+  fabmisr:["Bank Audi Egypt"],
 };

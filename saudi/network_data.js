@@ -2239,6 +2239,7 @@ const PEOPLE = [
   {id:"abdulaziz_bin_salman", n:"Abdulaziz bin Salman", t:2, p:58, s:"gov", roles:[
     ["moind","Minister of Industry and Mineral Resources","executive","v"]]},
   {id:"khalil_bin_ibrahim", n:"Khalil bin Ibrahim bin Salamah", t:2, p:58, s:"gov", roles:[
+    ["saso","Deputy Minister of Industry and Mineral Resources for Industry Affairs; Board Member","board","v"],
     ["moind","Vice Minister of Industry and Mineral Resources for Industrial Affairs","executive","v"]]},
   {id:"turki_al_sheikh", n:"Turki Al-Sheikh", t:2, p:62, s:"gov", roles:[
     ["gea","Chairman of the Board of Directors","executive","v"]]},
@@ -2791,6 +2792,7 @@ const PEOPLE = [
   {id:"rakan_bin_salman", n:"Rakan bin Salman bin Abdulaziz", t:2, p:52, s:"gov", roles:[
     ["rcrc","Board Member (Governor of Diriyah)","board","v"]]},
   {id:"majid_bin_abdullah", n:"Majid bin Abdullah Al Kassabi", t:2, p:52, s:"gov", roles:[
+    ["saso","Minister of Commerce; Chairman of the Board of Directors","board","v"],
     ["roshn","Board Member","board","v"],
     ["rcrc","Board Member (Minister of Commerce)","board","v"]]},
   {id:"abdulrahman_bin_abdulmohsen", n:"Abdulrahman bin Abdulmohsen Al-Fadli", t:2, p:52, s:"gov", roles:[
@@ -3786,6 +3788,22 @@ const PEOPLE = [
     ["amanat_riyadh","Deputy Mayor for Investment and Privatization","executive","v"]]},
   {id:"abdulmalik_a_alshwaer", n:"Abdulmalik A. Alshwaer", t:2, p:58, s:"gov", roles:[
     ["amanat_riyadh","Deputy Mayor for Corporate Services","executive","v"]]},
+  {id:"saad_bin_othman", n:"Saad bin Othman AlKasabi", t:2, p:62, s:"gov", roles:[
+    ["saso","Governor of SASO; Vice Chairman of the Board of Directors","board","v"]]},
+  {id:"mohammed_abdullah_almarshad", n:"Mohammed Abdullah AlMarshad", t:2, p:62, s:"gov", roles:[
+    ["saso","Vice Chairman, Al-Marshad Holding Company; Board Member (business-sector representative)","board","v"]]},
+  {id:"ahmed_bin_suleiman", n:"Ahmed bin Suleiman Al-Rajhi", t:2, p:62, s:"gov", roles:[
+    ["hrdf","Minister of Human Resources and Social Development; Chairman of the Board of Directors","board","v"]]},
+  {id:"turki_bin_abdullah", n:"Turki bin Abdullah Al-Jawini", t:2, p:58, s:"gov", roles:[
+    ["hrdf","Director General (Executive Management)","executive","v"]]},
+  {id:"al_jawhara_fahad", n:"Al Jawhara Fahad Al Rabiah", t:2, p:52, s:"gov", roles:[
+    ["hrdf","Board Member; Assistant Minister of Finance for Strategy and Institutional Services","board","v"]]},
+  {id:"abdul_aziz_bin", n:"Abdul Aziz bin Muhammad Al-Onaizan", t:2, p:60, s:"gov", roles:[
+    ["hrdf","Board Member (Private Sector Representative); CEO of Bank Albilad","board","v"]]},
+  {id:"saud_bin_ghazi", n:"Saud bin Ghazi Al-Otaibi", t:2, p:52, s:"gov", roles:[
+    ["hrdf","Board Member; Deputy General Manager, Institute of Public Administration","board","v"]]},
+  {id:"mazen_bin_mohammed", n:"Mazen bin Mohammed Al-Harthy", t:2, p:52, s:"gov", roles:[
+    ["hrdf","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

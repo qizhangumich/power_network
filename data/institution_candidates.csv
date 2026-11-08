@@ -1,7 +1,9 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Gujarat Energy,9,abudhabi,rejected,2026-11-06,2026-11-06,ADNOC Signs 10-Year LNG Supply Deal With India's Gujarat Energy
+Hull City,2,oman,pending,2026-11-07,2026-11-08,Arsenal equal best start to Premier League season after Martin Odegaard goal earns win over Hull City
+Qatar Health Ministry,2,qatar,pending,2026-10-29,2026-11-07,Qatar Health Ministry recalls all batches of ISOTEARS-Plus eye drops
+Gujarat Energy,15,abudhabi,rejected,2026-11-06,2026-11-07,"Gujarat Energy LNG: 4m Tonnes, ADNOC"
+Singapore Airlines,8,dubai,rejected,2026-10-30,2026-11-07,Dubai and Abu Dhabi add further cancellations as Singapore Airlines pushes its return to February 2027
 I Squared Capital,7,abudhabi,rejected,2026-11-02,2026-11-05,Avolon joins I Squared Capital and ADIA to launch $1.4bn aircraft leasing platform
-Singapore Airlines,7,dubai,rejected,2026-10-30,2026-11-06,Dubai and Abu Dhabi add further cancellations as Singapore Airlines pushes its return to February 2027
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
 Terrestar Solutions,5,abudhabi,rejected,2026-10-28,2026-10-28,"Terrestar Solutions joins with Equatys, expanding shared satellite infrastructure for global direct-to-device and advanced MSS connectivity "
 Space42 and IEC Telecom,5,abudhabi,rejected,2026-11-02,2026-11-04,Space42 and IEC Telecom target up to 30% more capacity from 1 Mbps offshore backup links with Thuraya-4 and OptiView
@@ -173,6 +175,7 @@ Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Ba
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
 Balkan Green Energy,1,abudhabi,rejected,2026-10-26,2026-10-26,"Masdar buys giant solar farm in Greece, signs data center development MoU"
 Adnoc Logistics,1,abudhabi,rejected,2026-11-06,2026-11-06,Adnoc Logistics & Services tied to fresh crude tanker buys worth close to $300m
+Siemens Energy,1,,rejected,2026-11-08,2026-11-08,Siemens Energy redesigns Gulf power plants to withstand drone attacks
 ABRAJ Energy,1,oman,rejected,2026-10-27,2026-10-27,"ABRAJ Energy Services Signs Five-Year PDO Contract to Deploy Nine Workover Hoists, Including Six New-Build Units"
 International Monetary Fund,1,oman,rejected,2026-11-02,2026-11-02,OCCI receives International Monetary Fund delegation
 Palestinian Authority,1,oman,rejected,2026-10-24,2026-10-24,Palestinian Authority condemns 'collective punishment'
@@ -181,17 +184,17 @@ Mekdam Holding Group,1,qatar,rejected,2026-10-23,2026-10-23,"Mekdam Holding Grou
 Estithmar Holding,1,qatar,rejected,2026-10-28,2026-10-28,Estithmar Holding Q.P.S.C. posts stronger Q3 earnings while advancing QAR 1.4bn in growth investments
 Meteorology Department,1,qatar,rejected,2026-10-31,2026-10-31,"Meteorology Department forecasts falling temperatures, better chances of rain in November"
 Sustainable Development,1,qatar,rejected,2026-10-18,2026-10-18,"Qatar: Continued Exploitation of Natural Resources in Occupied Palestinian Territory, Syrian Golan Poses Obstacle to Sustainable Development"
-FIFA Council,1,qatar,rejected,2026-10-17,2026-10-17,QFA takes part in FIFA Council's 37th meeting
 Riyadh Municipality,1,saudi,added,2026-11-03,2026-11-03,Riyadh Municipality launches 1st land investment with private sector
 Infinity Power,1,bahrain,rejected,2026-10-20,2026-10-20,"Infinity Power, HAU Energy secure $566m for Egypt’s 1.2 GW solar project"
 Turkish Airlines,1,bahrain,rejected,2026-10-18,2026-10-18,"Turkish Airlines, CFM sign MoU for over 600 LEAP-1B engines"
 Hilal Technology,1,bahrain,rejected,2026-10-21,2026-10-21,Hilal Technology and Dell spotlight AI and resilient IT
-UAE Ministry,1,bahrain,rejected,2026-10-17,2026-10-17,UAE Ministry of Defence confirms ICMM scientific programme
 Bandhan Bank,1,abudhabi,rejected,2026-10-28,2026-10-28,India’s Bandhan Bank denies acquisition talks with First Abu Dhabi Bank
 American Airlines,1,,rejected,2026-10-23,2026-10-23,"Airfares will not return to pre-Iran war levels, American Airlines warns"
 Al Shaheed Park,1,kuwait,rejected,2026-11-03,2026-11-03,IWG Kuwait joins Pink October initiative at Al Shaheed Park
 IMF and World Bank,1,kuwait,rejected,2026-10-21,2026-10-21,NBK concludes its participation in 2026 IMF and World Bank Annual Meetings
 Commerce Ministry,1,kuwait,rejected,2026-10-25,2026-10-25,"CMA, Commerce Ministry amend MoU on beneficial owner data"
+FIFA Council,1,qatar,rejected,2026-10-17,2026-10-17,QFA takes part in FIFA Council's 37th meeting
+UAE Ministry,1,bahrain,rejected,2026-10-17,2026-10-17,UAE Ministry of Defence confirms ICMM scientific programme
 African Energy,1,abudhabi,rejected,2026-10-16,2026-10-16,"ADNOC Makes Strong Debut at African Energy Week 2026, Signals Growing Ambitions Across Africa"
 Bank of China,1,qatar,rejected,2026-10-15,2026-10-15,"Qatar Central Bank, People’s Bank of China sign agreement to extend local currency swap"
 Clear Channel Outdoor Holdings,1,abudhabi,rejected,2026-10-14,2026-10-14,"Clear Channel Outdoor Holdings, Inc. Announces Completion of Acquisition by Mubadala Capital"
@@ -221,7 +224,6 @@ Deutsche Bank,1,dubai,rejected,2026-10-07,2026-10-07,Deutsche Bank expands Middl
 GCC Petroleum,1,qatar,rejected,2026-10-06,2026-10-06,Al-Kaabi leads Qatar’s delegation to GCC Petroleum Cooperation Committee meeting
 Undersecretary of Ministry,1,qatar,rejected,2026-10-06,2026-10-06,Undersecretary of Ministry of Justice Meets Egyptian Minister of Justice
 European Commission,1,kuwait,rejected,2026-10-06,2026-10-06,STRASBOURG: European Commission President Ursula von der Leyen warned on Tuesday against a push by Germany and other member states for 'larg
-Siemens Energy,1,saudi,rejected,2026-10-05,2026-10-05,Siemens Energy’s full Supervisory and Executive Boards meet in Saudi Arabia
 London House Exchange,1,,rejected,2026-10-02,2026-10-02,UAE investor GII acquires majority stake in UK’s London House Exchange
 US Treasury Department,1,,rejected,2026-10-02,2026-10-02,US widens Iran sanctions to automotive and rail sectors
 Liveability and Investment,1,abudhabi,rejected,2026-10-01,2026-10-01,Sheikh Khaled tours Liveability and Investment Exhibition | Gulf Today - newspaper

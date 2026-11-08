@@ -367,6 +367,7 @@ const PEOPLE = [
     ["mashreq","Chairman","board","v"],
     ["dubaichambers","Chairman","board","v"]]},
   {id:"khalaf_habtoor", n:"Khalaf Al Habtoor", t:2, p:76, s:"conglomerate", roles:[
+    ["al_habtoor_real","Chairman","board","v"],
     ["alhabtoor","Founder & Chairman","board","v"]]},
   {id:"amit_kaushal", n:"Amit Kaushal", t:2, p:72, s:"sovereign", roles:[
     ["dhre","Group Chief Executive Officer","executive","v"],
@@ -465,6 +466,7 @@ const PEOPLE = [
     ["emirates_islamic","Director","board","v"],
     ["enbd","Board Member","board","v"]]},
   {id:"khalid_juma_al", n:"Khalid Juma Al Majid", t:2, p:52, s:"finance", roles:[
+    ["al_majid_motors","Vice Chairman","board","v"],
     ["jumaalmajid","Vice Chairman","board","v"],
     ["enbd","Board Member","board","v"]]},
   {id:"shayne_nelson", n:"Shayne Nelson", t:2, p:58, s:"finance", roles:[
@@ -1205,6 +1207,7 @@ const PEOPLE = [
   {id:"saif_ali_abdulla", n:"Saif Ali Abdulla Al Shafar", t:2, p:52, s:"gov", roles:[
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"mohammed_khalaf_ahmed", n:"Mohammed Khalaf Ahmed Al Habtoor", t:2, p:52, s:"gov", roles:[
+    ["al_habtoor_real","Vice Chairman and Chief Executive Officer","executive","ns"],
     ["alhabtoor","Vice Chairman and CEO","executive","v"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"fardan_ali_fardan", n:"Fardan Ali Fardan Al Fardan", t:2, p:52, s:"gov", roles:[
@@ -1523,6 +1526,7 @@ const PEOPLE = [
   {id:"rahim_abu_omar", n:"Rahim Abu Omar", t:2, p:58, s:"conglomerate", roles:[
     ["alhabtoor","Chief Operating Officer - Hospitality Division","executive","v"]]},
   {id:"maan_halabi", n:"Maan Halabi", t:2, p:62, s:"conglomerate", roles:[
+    ["al_habtoor_real","Chairman - Real Estate Division Board","board","ns"],
     ["alhabtoor","Managing Director (Chairman - Real Estate Division)","executive","ns"]]},
   {id:"k_p_rajan", n:"K.P. Rajan", t:2, p:62, s:"conglomerate", roles:[
     ["alhabtoor","Chairman - Emirates International Schools Divisional Board / Group Financial Advisor","board","ns"]]},
@@ -1823,6 +1827,7 @@ const PEOPLE = [
   {id:"shahid_ahmed", n:"Shahid Ahmed", t:2, p:58, s:"gov", roles:[
     ["dubai_south","Chief Financial Officer","executive","v"]]},
   {id:"obaid_al_tayer", n:"Obaid Al Tayer", t:2, p:62, s:"consumer_disc", roles:[
+    ["motivate_media","Editor-in-Chief","executive","v"],
     ["al_tayer","Chairman and Co-Founder","board","v"]]},
   {id:"jacques_brent", n:"Jacques Brent", t:2, p:60, s:"consumer_disc", roles:[
     ["al_futtaim_motors","Managing Director - Toyota and Lexus UAE","executive","v"]]},
@@ -2045,22 +2050,27 @@ const PEOPLE = [
   {id:"amer_walid_al", n:"Amer Walid Al Zoubi", t:2, p:60, s:"realestate", roles:[
     ["tiger","CEO of Tiger Properties","executive","v"]]},
   {id:"juma_al_majid", n:"Juma Al Majid", t:2, p:62, s:"conglomerate", roles:[
+    ["al_majid_motors","Founder and Chairman","board","v"],
     ["jumaalmajid","Visionary Founder and Chairman","board","v"]]},
   {id:"tarig_shalabi", n:"Tarig Shalabi", t:2, p:60, s:"conglomerate", roles:[
+    ["al_majid_motors","Group Chief Executive Officer","executive","v"],
     ["jumaalmajid","Group Chief Executive Officer","executive","v"]]},
   {id:"akef_al_attar", n:"Akef Al Attar", t:2, p:58, s:"conglomerate", roles:[
     ["jumaalmajid","Group Chief Finance Officer","executive","v"]]},
   {id:"jawad_abu_farha", n:"Jawad Abu Farha", t:2, p:58, s:"conglomerate", roles:[
+    ["al_majid_motors","Group Chief Information Officer","executive","v"],
     ["jumaalmajid","Group Chief Information Officer","executive","v"]]},
   {id:"khalid_mustafa", n:"Khalid Mustafa", t:2, p:58, s:"conglomerate", roles:[
     ["jumaalmajid","Group Chief Internal Audit Officer","executive","v"]]},
   {id:"hazem_el_kholy", n:"Hazem El-kholy", t:2, p:58, s:"conglomerate", roles:[
+    ["al_majid_motors","Group Chief Investment Officer","executive","v"],
     ["jumaalmajid","Chief Investment Officer","executive","v"]]},
   {id:"shaukat_ali_mir", n:"Shaukat Ali Mir", t:2, p:58, s:"conglomerate", roles:[
     ["jumaalmajid","Chief Contracting Officer","executive","v"]]},
   {id:"talib_abdulkarim_julfar", n:"Talib Abdulkarim Julfar", t:2, p:58, s:"conglomerate", roles:[
     ["jumaalmajid","Chief Project Development Officer","executive","v"]]},
   {id:"abduselam_hamde", n:"Abduselam Hamde", t:2, p:58, s:"conglomerate", roles:[
+    ["al_majid_motors","Group Chief Strategy Officer and Group Chief Human Capital Officer","executive","v"],
     ["jumaalmajid","Group Chief Human Capital Officer & Group Chief Strategy Officer","executive","v"]]},
   {id:"ziyad_shahrouri", n:"Ziyad Shahrouri", t:2, p:58, s:"conglomerate", roles:[
     ["jumaalmajid","Chief Property Officer","executive","v"]]},
@@ -2659,6 +2669,34 @@ const PEOPLE = [
     ["dubai_courts","Secretary General of Dubai Judicial Council","executive","v"]]},
   {id:"saif_ibrahim_alhazaimeh", n:"Saif Ibrahim Alhazaimeh", t:2, p:60, s:"industry", roles:[
     ["lst_etihadenergy","Acting Chief Executive Officer","executive","v"]]},
+  {id:"charles_yardley", n:"Charles Yardley", t:2, p:60, s:"comm", roles:[
+    ["khaleej_times","Chief Executive Officer","executive","v"]]},
+  {id:"michael_jabri_pickett", n:"Michael Jabri-Pickett", t:2, p:58, s:"comm", roles:[
+    ["khaleej_times","Editor-in-Chief","executive","v"]]},
+  {id:"ted_kemp", n:"Ted Kemp", t:2, p:58, s:"comm", roles:[
+    ["khaleej_times","Chief Content Officer","executive","v"]]},
+  {id:"khalid_lobani", n:"Khalid Lobani", t:2, p:58, s:"comm", roles:[
+    ["khaleej_times","Managing Editor (Arabic Edition)","executive","ns"]]},
+  {id:"ahmed_al_otaiba", n:"Ahmed Al Otaiba", t:2, p:52, s:"realestate", roles:[
+    ["al_habtoor_real","Director / Board Member","board","v"]]},
+  {id:"akram_abu_elhuda", n:"Akram Abu Elhuda", t:2, p:58, s:"realestate", roles:[
+    ["al_habtoor_real","General Counsel and Company Secretary","executive","v"]]},
+  {id:"arun_krishnan", n:"Arun Krishnan", t:2, p:58, s:"realestate", roles:[
+    ["al_habtoor_real","Chief Financial Officer (AHG) / Real Estate Division Board Member","executive","ns"]]},
+  {id:"mohammed_khader", n:"Mohammed Khader", t:2, p:58, s:"consumer_disc", roles:[
+    ["al_majid_motors","President - Al Majid Motors (Kia)","executive","ns"]]},
+  {id:"abdullah_al_majid", n:"Abdullah Al Majid", t:2, p:58, s:"consumer_disc", roles:[
+    ["al_majid_motors","Executive Director - Juma Al Majid Holding Group","executive","v"]]},
+  {id:"ian_fairservice", n:"Ian Fairservice", t:2, p:58, s:"comm", roles:[
+    ["motivate_media","Managing Partner and Group Editor-in-Chief","executive","v"]]},
+  {id:"manish_chopra", n:"Manish Chopra", t:2, p:58, s:"comm", roles:[
+    ["motivate_media","Publisher","executive","v"]]},
+  {id:"thomas_woodgate", n:"Thomas Woodgate", t:2, p:58, s:"comm", roles:[
+    ["motivate_media","Group Content Director","executive","ns"]]},
+  {id:"carlos_pedroza_luna", n:"Carlos Pedroza Luna", t:2, p:58, s:"comm", roles:[
+    ["motivate_media","Publishing Director - Luxury Media Division","executive","ns"]]},
+  {id:"andrew_wingrove", n:"Andrew Wingrove", t:2, p:58, s:"comm", roles:[
+    ["motivate_media","Group Director","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

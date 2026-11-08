@@ -190,6 +190,7 @@ const INSTITUTIONS = [
   {id:"thumbay_fujairah", n:"Thumbay Hospital Fujairah", s:"health", t:2, p:52, short:"Thumbay Fujairah"},
   {id:"al_fujairah_hosp", n:"Al Fujairah Hospital", s:"health", t:2, p:56, short:"Al Fujairah Hosp"},
   {id:"obaidullah_hosp", n:"Ibrahim Bin Hamad Obaidullah Hospital", s:"health", t:2, p:56, short:"Obaidullah Hosp"},
+  {id:"fujairah_ports", n:"Fujairah Ports Authority", s:"gov", t:2, p:62, short:"Fujairah Ports"},
 ];
 
 const PEOPLE = [
@@ -224,6 +225,7 @@ const PEOPLE = [
   {id:"hamad_sharqi", n:"H.H. Sheikh Hamad bin Mohammed Al Sharqi", t:0, p:84, s:"gov", roles:[
     ["fujgov","Ruler of Fujairah","political","v"]]},
   {id:"mohammed_sharqi", n:"H.H. Sheikh Mohammed bin Hamad Al Sharqi", t:0, p:74, s:"gov", roles:[
+    ["fujairah_environment","Crown Prince of Fujairah; Chairman of the Board of Directors","board","ns"],
     ["fujairah_cement","Chairman","board","v"],
     ["fujgov","Crown Prince of Fujairah","political","v"]]},
   {id:"humaid_nuaimi", n:"H.H. Sheikh Humaid bin Rashid Al Nuaimi", t:0, p:80, s:"gov", roles:[
@@ -1531,6 +1533,14 @@ const PEOPLE = [
     ["al_fujairah_hosp","Director","executive","v"]]},
   {id:"haitham_sultan_al", n:"Haitham Sultan Al Ali", t:2, p:58, s:"gov", roles:[
     ["uaq_tourism_dept","Director General","executive","v"]]},
+  {id:"asila_abdullah_al", n:"Asila Abdullah Al Mualla", t:2, p:58, s:"gov", roles:[
+    ["fujairah_environment","Director-General","executive","ns"]]},
+  {id:"hajar_saeed_hamad", n:"Hajar Saeed Hamad Al-Hubaishi", t:2, p:58, s:"gov", roles:[
+    ["ajman_statistics_ctr","Director-General (appointed by Emiri Decision No. 10 of 2024)","executive","ns"]]},
+  {id:"ali_mustafa_mohammed", n:"Ali Mustafa Mohammed", t:2, p:58, s:"finance", roles:[
+    ["fujairah_finance_dept","Director General","executive","ns"]]},
+  {id:"ahmed_alyammahi", n:"Ahmed Alyammahi", t:2, p:58, s:"finance", roles:[
+    ["fujairah_finance_dept","Deputy Director of Corporate Affairs","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1753,4 +1763,5 @@ const AKA = {
   thumbay_fujairah:["GMC Hospital Fujairah"],
   al_fujairah_hosp:["Fujairah Hospital"],
   obaidullah_hosp:["IBHOH"],
+  fujairah_ports:["Port of Fujairah Authority"],
 };

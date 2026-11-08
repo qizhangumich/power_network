@@ -3378,6 +3378,7 @@ const PEOPLE = [
   {id:"mukhtar_alhashimi", n:"Mukhtar Alhashimi", t:2, p:58, s:"education", roles:[
     ["ahlia_university","Vice President for Academic Affairs","executive","ns"]]},
   {id:"anwar_abdulrahman", n:"Anwar Abdulrahman", t:2, p:58, s:"comm", roles:[
+    ["akhbar_al_khaleej","Chairman of the Board and Editor-in-Chief","board","v"],
     ["gulf_daily_news","Editor-in-Chief","executive","ns"]]},
   {id:"andrews_victor", n:"Andrews Victor", t:2, p:58, s:"comm", roles:[
     ["gulf_daily_news","Associate Editor","executive","ns"]]},
@@ -3675,6 +3676,8 @@ const PEOPLE = [
     ["bluefive_capital","Founder & Chief Executive","executive","ns"]]},
   {id:"marwan_fouad_kamal", n:"Marwan Fouad Kamal", t:2, p:58, s:"gov", roles:[
     ["moya_bahrain","Under-Secretary for Youth Affairs","executive","ns"]]},
+  {id:"mahmoud_al_mardi", n:"Mahmoud Al Mardi", t:2, p:52, s:"comm", roles:[
+    ["akhbar_al_khaleej","Founder (1976)","board","v"]]},
 ];
 
 const OWNERSHIP = [

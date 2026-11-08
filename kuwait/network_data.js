@@ -261,6 +261,7 @@ const INSTITUTIONS = [
   {id:"al_sabah_hospital", n:"Al-Sabah Hospital", s:"health", t:2, p:58, short:"Al-Sabah Hospital"},
   {id:"mubarak_al_kabeer", n:"Mubarak Al-Kabeer Hospital", s:"health", t:2, p:58, short:"Mubarak Al-Kabeer"},
   {id:"dar_al_seyassah", n:"Dar Al-Seyassah", s:"comm", t:3, p:54, short:"Dar Al-Seyassah"},
+  {id:"al_thekair", n:"Al-Thekair General Trading Co.", s:"finance", t:3, p:54, short:"Al-Thekair"},
 ];
 
 const PEOPLE = [
@@ -1981,6 +1982,7 @@ const PEOPLE = [
   {id:"abdullah_almudhaf", n:"Abdullah AlMudhaf", t:2, p:52, s:"conglomerate", roles:[
     ["mk","Co-Founder","board","ns"]]},
   {id:"sheikha_dana_nasser", n:"Sheikha Dana Nasser Sabah Al-Ahmad Al-Sabah", t:2, p:62, s:"education", roles:[
+    ["osn","Chairperson of the Board","board","v"],
     ["lst_kamco","Board Member","board","v"],
     ["auk","Founder & Chair, Board of Trustees","board","v"]]},
   {id:"ghada_e_khalaf", n:"Ghada E. Khalaf", t:2, p:62, s:"education", roles:[
@@ -2141,6 +2143,24 @@ const PEOPLE = [
     ["arkan_al_kuwait","Board Member","board","ns"]]},
   {id:"ahmed_suleiman_abdul", n:"Ahmed Suleiman Abdul Aziz Al-Furaih", t:2, p:52, s:"realestate", roles:[
     ["arkan_al_kuwait","Independent Board Member","board","ns"]]},
+  {id:"nayef_al_harbi", n:"Nayef Al-Harbi", t:2, p:58, s:"health", roles:[
+    ["al_sabah_hospital","Hospital Director","executive","ns"]]},
+  {id:"iman_al_anezi", n:"Iman Al-Anezi", t:2, p:46, s:"health", roles:[
+    ["al_sabah_hospital","Head of Medical Body (Ministry of Health appointment)","executive","ns"]]},
+  {id:"mahdi_al_fadhli", n:"Mahdi Al-Fadhli", t:2, p:58, s:"health", roles:[
+    ["mubarak_al_kabeer","Hospital Director","executive","ns"]]},
+  {id:"ahmed_al_jarallah", n:"Ahmed Al-Jarallah", t:2, p:62, s:"comm", roles:[
+    ["dar_al_seyassah","Editor-in-Chief (also Chairman/Owner of Dar Al-Seyassah Press, Publishing, Printing & Distribution Co.)","executive","v"]]},
+  {id:"elie_habib", n:"Elie Habib", t:2, p:52, s:"comm", roles:[
+    ["osn","Independent Board Member","board","v"]]},
+  {id:"michael_johnson", n:"Michael Johnson", t:2, p:52, s:"comm", roles:[
+    ["osn","Board Member (representing Mawarid Holding Co.)","board","v"]]},
+  {id:"adel_mohammad_al", n:"Adel Mohammad Al-Awadi", t:2, p:62, s:"consumer_disc", roles:[
+    ["lst_oulafuel","Vice Chairman and Chief Executive Officer","executive","v"]]},
+  {id:"ahmad_mohammed_karim", n:"Ahmad Mohammed Karim", t:2, p:60, s:"finance", roles:[
+    ["lst_kmefic","Acting Chief Executive Officer / Head of Financial Brokerage","executive","v"]]},
+  {id:"abdulmutaleb_a_m", n:"Abdulmutaleb A. M. Marafie", t:2, p:60, s:"realestate", roles:[
+    ["lst_altijaria","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
