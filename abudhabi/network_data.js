@@ -338,6 +338,11 @@ const INSTITUTIONS = [
   {id:"e_capital", n:"e& capital", s:"finance", t:2, p:58, short:"e& capital"},
   {id:"e_enterprise", n:"e& enterprise", s:"tech", t:2, p:56, short:"e& enterprise"},
   {id:"fabmisr", n:"First Abu Dhabi Bank Misr", s:"finance", t:3, p:54, short:"FABMISR"},
+  {id:"adnoc_refining", n:"ADNOC Refining", s:"energy", t:2, p:70, short:"ADNOC Refining"},
+  {id:"fab_islamic_fin", n:"First Abu Dhabi Islamic Finance", s:"finance", t:3, p:54, short:"FAB Islamic Fin."},
+  {id:"fab_private_bank", n:"FAB Private Bank (Suisse) SA", s:"finance", t:3, p:54, short:"FAB Private Bank CH"},
+  {id:"nimr_automotive", n:"Nimr Automotive", s:"industry", t:3, p:55, short:"Nimr Automotive"},
+  {id:"halcon", n:"Halcon", s:"industry", t:3, p:56, short:"Halcon"},
 ];
 
 const PEOPLE = [
@@ -4775,6 +4780,11 @@ const OWNERSHIP = [
   ["e_capital","e_and","division","v"],
   ["e_enterprise","e_and","division","v"],
   ["fabmisr","fab","subsidiary","v"],
+  ["adnoc_refining","adnoc","subsidiary (ADNOC 65%; JV partners Eni 20%, OMV 15% since 2019)","v"],
+  ["fab_islamic_fin","fab","wholly-owned subsidiary (rebranded from ADNIF)","v"],
+  ["fab_private_bank","fab","wholly-owned Swiss subsidiary","v"],
+  ["nimr_automotive","edge_grp","wholly-owned subsidiary (military vehicles)","v"],
+  ["halcon","edge_grp","wholly-owned subsidiary (precision weapons/missiles)","v"],
 ];
 
 const FAMILY = [
@@ -4871,4 +4881,9 @@ const AKA = {
   federal_tax_auth:["FTA"],
   icp:["Emirates Identity Authority","ICA"],
   fabmisr:["Bank Audi Egypt"],
+  adnoc_refining:["Takreer","Abu Dhabi Oil Refining Company"],
+  fab_islamic_fin:["ADNIF","Abu Dhabi National Islamic Finance"],
+  fab_private_bank:["NBAD Private Bank (Suisse)","Suisse"],
+  nimr_automotive:["NIMR"],
+  halcon:["HALCON Industry LLC"],
 };

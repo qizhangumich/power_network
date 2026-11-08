@@ -255,6 +255,8 @@ const INSTITUTIONS = [
   {id:"motivate_media", n:"Motivate Media Group", s:"comm", t:3, p:55, short:"Motivate Media"},
   {id:"khaleej_times", n:"Khaleej Times", s:"comm", t:2, p:60, short:"Khaleej Times"},
   {id:"aue", n:"American University in the Emirates", s:"education", t:3, p:54, short:"AUE"},
+  {id:"denizbank", n:"DenizBank A.Ş.", s:"finance", t:2, p:62, short:"DenizBank"},
+  {id:"tanfeeth", n:"Tanfeeth", s:"industry", t:3, p:54, short:"Tanfeeth"},
 ];
 
 const PEOPLE = [
@@ -1197,6 +1199,7 @@ const PEOPLE = [
     ["alserkal","Chairman","board","ns"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"easa_farid_abdulla", n:"Easa Farid Abdulla Al Gurg", t:2, p:52, s:"gov", roles:[
+    ["scientechnic","General Manager, Scientechnic (now Group CEO, ESAG)","executive","v"],
     ["easa_saleh_al","Group Chief Executive Officer","executive","v"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"swaidan_saeed_juma", n:"Swaidan Saeed Juma Al Naboodah", t:2, p:52, s:"gov", roles:[
@@ -1601,6 +1604,7 @@ const PEOPLE = [
     ["american_hospital","Group Chief Executive Officer","executive","v"],
     ["almulla","Group Chief Executive Officer","executive","v"]]},
   {id:"khalid_abdul_wahid", n:"Khalid Abdul Wahid Al Rostamani", t:2, p:62, s:"conglomerate", roles:[
+    ["awr_properties","Chairman & Group CEO","board","v"],
     ["alrostamani","Chairman","board","v"]]},
   {id:"amina_al_rustamani", n:"Amina Al Rustamani", t:2, p:52, s:"conglomerate", roles:[
     ["alrostamani","Director and Chief Operating Officer","board","v"]]},
@@ -1625,6 +1629,7 @@ const PEOPLE = [
   {id:"khalifa_al_zaffin", n:"Khalifa Al Zaffin", t:2, p:62, s:"gov", roles:[
     ["dubai_south","Executive Chairman","board","v"]]},
   {id:"raja_easa_al", n:"Raja Easa Al Gurg", t:2, p:62, s:"conglomerate", roles:[
+    ["scientechnic","Chairperson & Managing Director, ESAG (parent group of Scientechnic)","board","ns"],
     ["univ_of_dubai","Vice Chairperson, Board of Trustees","board","ns"],
     ["mbru","Vice Chairperson of the Board of Trustees","board","v"],
     ["easa_saleh_al","Chairperson and Managing Director","board","v"]]},
@@ -2697,6 +2702,16 @@ const PEOPLE = [
     ["motivate_media","Publishing Director - Luxury Media Division","executive","ns"]]},
   {id:"andrew_wingrove", n:"Andrew Wingrove", t:2, p:58, s:"comm", roles:[
     ["motivate_media","Group Director","executive","ns"]]},
+  {id:"amina_al_rostamani", n:"Amina Al Rostamani", t:2, p:60, s:"realestate", roles:[
+    ["awr_properties","CEO","executive","v"]]},
+  {id:"fareed_aljanahi", n:"Fareed Aljanahi", t:2, p:58, s:"realestate", roles:[
+    ["awr_properties","COO","executive","ns"]]},
+  {id:"eqbal_al_yousuf", n:"Eqbal Al Yousuf", t:2, p:62, s:"conglomerate", roles:[
+    ["al_yousuf","Vice Chairman","board","ns"]]},
+  {id:"ahmed_al_yousuf", n:"Ahmed Al Yousuf", t:2, p:58, s:"conglomerate", roles:[
+    ["al_yousuf","CEO, Al Yousuf LLC","executive","v"]]},
+  {id:"elisa_bruno", n:"Elisa Bruno", t:2, p:60, s:"consumer_disc", roles:[
+    ["level_shoes","Managing Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2854,6 +2869,8 @@ const OWNERSHIP = [
   ["al_majid_motors","jumaalmajid","automotive subsidiary (Kia distributor since 1988)","v"],
   ["al_majid_property","jumaalmajid","wholly-owned real estate subsidiary founded 1997","v"],
   ["khaleej_times","galadari_brothers","published by Galadari Printing & Publishing, part of Galadari Brothers Group","ns"],
+  ["denizbank","enbd","wholly-owned subsidiary (99.85%) - Turkey","v"],
+  ["tanfeeth","enbd","wholly-owned subsidiary (shared/back-office services)","v"],
 ];
 
 const FAMILY = [
@@ -2966,4 +2983,5 @@ const AKA = {
   emirates_leisure:["ELR"],
   scientechnic:["ESAG Scientechnic"],
   motivate_media:["Motivate Publishing"],
+  denizbank:["Deniz Bank"],
 };

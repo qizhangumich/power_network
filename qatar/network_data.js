@@ -252,6 +252,8 @@ const INSTITUTIONS = [
   {id:"qsalt", n:"Qatar Salt Products Company", s:"materials", t:3, p:53, short:"QSalt"},
   {id:"al_attiyah_fdn", n:"Abdullah Bin Hamad Al-Attiyah Foundation For Energy and Sustainable Development", s:"energy", t:3, p:54, short:"Al-Attiyah Fdn"},
   {id:"al_ahli_hospital", n:"Al Ahli Hospital", s:"health", t:3, p:54, short:"Al Ahli Hospital"},
+  {id:"qinvest", n:"QInvest LLC", s:"finance", t:2, p:58, short:"QInvest"},
+  {id:"al_jazeera_finance", n:"Al Jazeera Finance Company", s:"finance", t:3, p:52, short:"Al Jazeera Finance"},
 ];
 
 const PEOPLE = [
@@ -2554,6 +2556,8 @@ const OWNERSHIP = [
   ["basf_coatings","qia","co-investor in (via Carlyle-led consortium)","v"],
   ["qsalt","lst_mphc","new JV (MoU signed Sep 2024) to build a ~$275m industrial salt plant in Mesaieed; MPHC 40% / Qatar Industrial Manufacturing Co. 30% / Turkiye's Atlas Yatirim Planlama 30%; announced by QatarEnergy under its TAWTEEN localisation programme","v"],
   ["q_chem","qatarenergy","affiliate (via Mesaieed Petrochemical Holding)","v"],
+  ["qinvest","qib","majority-owned subsidiary (65.6% per QIB's own disclosure)","v"],
+  ["al_jazeera_finance","qib","affiliate (30% stake per QIB's own disclosure)","v"],
 ];
 
 const FAMILY = [
@@ -2664,4 +2668,5 @@ const AKA = {
   me_council:["MECouncil"],
   basf_coatings:["Carlyle/QIA venture"],
   al_attiyah_fdn:["Al-Attiyah Foundation","ABHA Foundation"],
+  al_jazeera_finance:["Al Jazeera Finance Tamweel"],
 };

@@ -585,6 +585,9 @@ const INSTITUTIONS = [
   {id:"saudi_electronic_u", n:"Saudi Electronic University", s:"education", t:3, p:55, short:"Saudi Electronic U"},
   {id:"ksau_hs", n:"King Saud bin Abdulaziz University for Health Sciences", s:"education", t:2, p:62, short:"KSAU-HS"},
   {id:"king_abdullah_mc", n:"King Abdullah Medical City", s:"health", t:2, p:60, short:"King Abdullah MC"},
+  {id:"alireza", n:"Haji Abdullah Alireza & Co. Ltd.", s:"conglomerate", t:3, p:52, short:"Alireza & Co."},
+  {id:"h_alireza", n:"Haji Husein Alireza & Co. Ltd.", s:"consumer_disc", t:3, p:50, short:"H. Alireza & Co."},
+  {id:"petrokemya", n:"Arabian Petrochemical Company", s:"materials", t:2, p:58, short:"PETROKEMYA"},
 ];
 
 const PEOPLE = [
@@ -635,6 +638,7 @@ const PEOPLE = [
     ["kaust","Board Member; President and CEO of Saudi Aramco","board","v"],
     ["aramco","President & CEO","executive","v"]]},
   {id:"jadaan", n:"Mohammed Al-Jadaan", t:1, p:86, s:"finance", roles:[
+    ["ncp","Chairman of the Board","board","ns"],
     ["rcrc","Board Member (Minister of Finance)","board","v"],
     ["gosi","Minister of Finance / Chairman of the Board","board","v"],
     ["zatca","Chairman of the Board","board","v"],
@@ -982,6 +986,7 @@ const PEOPLE = [
   {id:"sulaiman_bin_abdulkadir", n:"Sulaiman bin Abdulkadir Almuhaidib", t:2, p:62, s:"consumer_stap", roles:[
     ["almarai","Vice Chairman","board","v"]]},
   {id:"abdulrahman_abdulmohsen_al", n:"Abdulrahman Abdulmohsen Al Fadley", t:2, p:52, s:"consumer_stap", roles:[
+    ["swa","Board Chairman (Minister of Environment, Water and Agriculture)","board","v"],
     ["salic","Chairman of the Board","board","v"],
     ["enowa","Chairman","board","ns"],
     ["almarai","Board Member","board","v"],
@@ -2237,6 +2242,7 @@ const PEOPLE = [
   {id:"abdulmohsen_al_mazyad", n:"Abdulmohsen Al-Mazyad", t:2, p:58, s:"gov", roles:[
     ["mot_sa","Deputy Minister of Tourism","executive","ns"]]},
   {id:"abdulaziz_bin_salman", n:"Abdulaziz bin Salman", t:2, p:58, s:"gov", roles:[
+    ["k_a_care","Chairman of the Board (Minister of Energy)","board","ns"],
     ["moind","Minister of Industry and Mineral Resources","executive","v"]]},
   {id:"khalil_bin_ibrahim", n:"Khalil bin Ibrahim bin Salamah", t:2, p:58, s:"gov", roles:[
     ["saso","Deputy Minister of Industry and Mineral Resources for Industry Affairs; Board Member","board","v"],
@@ -2290,6 +2296,7 @@ const PEOPLE = [
     ["satorp","Board Member","board","v"],
     ["lst_2380","Board Member","board","v"]]},
   {id:"khalid_s_al", n:"Khalid S. Al-Sultan", t:2, p:52, s:"energy", roles:[
+    ["k_a_care","President","executive","ns"],
     ["lst_2380","Board Member","board","v"]]},
   {id:"henry_a_fernandez", n:"Henry A. Fernandez", t:2, p:62, s:"education", roles:[
     ["kaust","Board Member; Chairman and CEO of Morgan Stanley Capital International (MSCI)","board","v"]]},
@@ -3804,6 +3811,24 @@ const PEOPLE = [
     ["hrdf","Board Member; Deputy General Manager, Institute of Public Administration","board","v"]]},
   {id:"mazen_bin_mohammed", n:"Mazen bin Mohammed Al-Harthy", t:2, p:52, s:"gov", roles:[
     ["hrdf","Board Member","board","v"]]},
+  {id:"muhannad_basudan", n:"Muhannad Basudan", t:2, p:60, s:"gov", roles:[
+    ["ncp","CEO","executive","ns"]]},
+  {id:"sultan_al_qahtani", n:"Sultan Al-Qahtani", t:2, p:60, s:"gov", roles:[
+    ["ncp","Deputy CEO for Legal & Regulatory Affairs","executive","ns"]]},
+  {id:"mohammed_bin_talal", n:"Mohammed bin Talal Al-Nahhas", t:2, p:58, s:"gov", roles:[
+    ["ppa","Governor","executive","ns"]]},
+  {id:"rumaih_al_rumaih", n:"Rumaih Al-Rumaih", t:2, p:58, s:"gov", roles:[
+    ["tga","President","executive","v"]]},
+  {id:"abdulmajeed_al_tasan", n:"Abdulmajeed Al-Tasan", t:2, p:62, s:"gov", roles:[
+    ["tga","Vice Chairman, Land Transport Sector","board","ns"]]},
+  {id:"abdullah_bin_ibrahim_b", n:"Abdullah bin Ibrahim Al-Abdulkarim", t:2, p:58, s:"gov", roles:[
+    ["swa","President","executive","v"]]},
+  {id:"mehaideb_bin_saleh", n:"Mehaideb bin Saleh Al Mehaideb", t:2, p:58, s:"gov", roles:[
+    ["swa","Deputy for Financial Affairs & Supervisor of Shared Services","executive","ns"]]},
+  {id:"fareed_zedan", n:"Fareed Zedan", t:2, p:58, s:"gov", roles:[
+    ["wera","Governor","executive","ns"]]},
+  {id:"abdulelah_alshaiee", n:"Abdulelah AlShaiee", t:2, p:58, s:"gov", roles:[
+    ["wera","Vice Governor for Consumer Care","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -4231,6 +4256,7 @@ const OWNERSHIP = [
   ["saudi_electronic_u","moe_sa","public university; Minister of Education chairs its University Affairs Council","ns"],
   ["ksau_hs","mngha","public health-sciences university affiliated with and overseen by MNGHA","v"],
   ["king_abdullah_mc","moh_sa","Ministry of Health quaternary referral hospital in Makkah, named by royal decree","ns"],
+  ["petrokemya","sabic","wholly-owned subsidiary (Jubail olefins/polymers complex)","v"],
 ];
 
 const FAMILY = [
@@ -4392,4 +4418,5 @@ const AKA = {
   psmmc:["Riyadh Military Hospital","Riyadh Armed Forces Hospital"],
   saudi_electronic_u:["SEU"],
   king_abdullah_mc:["KAMC"],
+  alireza:["House of Alireza","HAACO"],
 };

@@ -201,6 +201,8 @@ const INSTITUTIONS = [
   {id:"al_hawaj", n:"Yousuf A. Wahab Al Hawaj and Sons Co. WLL", s:"consumer_disc", t:3, p:52, short:"Al Hawaj Group"},
   {id:"brtc", n:"Bahrain Radio and Television Corporation", s:"comm", t:2, p:60, short:"BRTC"},
   {id:"akhbar_al_khaleej", n:"Akhbar Al Khaleej", s:"comm", t:3, p:54, short:"Akhbar Al Khaleej"},
+  {id:"infracorp", n:"Infracorp B.S.C.(c)", s:"realestate", t:2, p:60, short:"Infracorp"},
+  {id:"jawad", n:"Jawad Business Group", s:"consumer_disc", t:3, p:54, short:"Jawad Group"},
 ];
 
 const PEOPLE = [
@@ -240,6 +242,8 @@ const PEOPLE = [
     ["benefit","Board Member","board","v"],
     ["bic","CEO","executive","v"]]},
   {id:"fawzi_kanoo", n:"Fawzi Ahmed Kanoo", t:2, p:60, s:"conglomerate", roles:[
+    ["kanoo_logistics","Chairman, YBA Kanoo Group","board","ns"],
+    ["kanoo_shipping","Chairman, YBA Kanoo Group","board","ns"],
     ["lst_ghg","Chairman of the Board of Directors","board","v"],
     ["kanoo","Chairman","board","v"]]},
   {id:"kvalseth", n:"Andrew Kvålseth", t:2, p:68, s:"comm", roles:[
@@ -1690,7 +1694,10 @@ const PEOPLE = [
   {id:"zain_al_amer", n:"Zain Al Amer", t:2, p:52, s:"consumer_disc", roles:[
     ["lst_ghg","Director","board","v"]]},
   {id:"fahad_kanoo", n:"Fahad Kanoo", t:2, p:52, s:"consumer_disc", roles:[
+    ["kanoo_logistics","President, Kanoo Logistics","executive","v"],
     ["lst_ghg","Director","board","v"]]},
+  {id:"yousif_al_manea", n:"Yousif Al Manea", t:2, p:46, s:"consumer_disc", roles:[
+    ["kanoo_logistics","Chief Executive Officer (former)","executive","v","former:until 2021"]]},
   {id:"andrew_john_day", n:"Andrew John Day", t:2, p:52, s:"consumer_disc", roles:[
     ["edamah","Board Member (Non-Executive Director)","board","v"],
     ["lst_ghg","Director","board","v"]]},
@@ -3678,6 +3685,10 @@ const PEOPLE = [
     ["moya_bahrain","Under-Secretary for Youth Affairs","executive","ns"]]},
   {id:"mahmoud_al_mardi", n:"Mahmoud Al Mardi", t:2, p:52, s:"comm", roles:[
     ["akhbar_al_khaleej","Founder (1976)","board","v"]]},
+  {id:"janaka_hewage", n:"Janaka Hewage", t:2, p:46, s:"industry", roles:[
+    ["kanoo_shipping","General Manager, Bahrain","executive","v"]]},
+  {id:"jonathan_bygrave", n:"Jonathan Bygrave", t:2, p:46, s:"industry", roles:[
+    ["kanoo_shipping","Executive General Manager","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3794,6 +3805,7 @@ const OWNERSHIP = [
   ["kanoo_property","kanoo","business division (real estate)","v"],
   ["kanoo_travel","kanoo","business division (travel and MICE)","v"],
   ["brtc","iaa","state broadcaster operating under ministry executive authority","ns"],
+  ["infracorp","gfh","wholly-owned subsidiary (infrastructure & real estate platform, spun out Jan 2022)","v"],
 ];
 
 const FAMILY = [
@@ -3870,4 +3882,6 @@ const AKA = {
   al_ayam_publishing:["Alayam","Dar Al Ayam"],
   nssa:["Bahrain Space Agency"],
   brtc:["Bahrain TV"],
+  infracorp:["GFH Infracorp","c"],
+  jawad:["JBG"],
 };
