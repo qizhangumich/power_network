@@ -1,0 +1,5 @@
+# Al Wahda and Al Ain battle to goalless draw in ADNOC Pro League
+source: Toowoomba Chronicle
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxOT3ZERHYzMnVndEN5dTJ2VXI5YjVfeENmTXBEWmZLOTNSMkxJSGtvVGZFMnZQM3Y0RW1nV1hobDduaFozWmlrVlI2N3gxbnFrV0hBa0QtSWJPNHhlTnRSSGRmS25qWUo1ZFJyU3FsNUpxYTNuNXZUV1hnX1NBZjFoOFU4dTJqNzRwMTByQzNrb1p3Y09Pc0l6dl9nWGxXUDQ2M0FQT0lUN1dSTmRsOHJFSDZ4ZWx1X2FIMktUb0JQT0R5TWpsNWpfcUpQcm1BOUI3RmdXMEVBdw?oc=5
+
+Al Wahda and Al Ain battle to goalless draw in ADNOC Pro League    Toowoomba Chronicle
