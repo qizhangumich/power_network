@@ -74,6 +74,7 @@ dubai,dubai_properties,Dubai Properties Group,realestate,58,1,pending
 dubai,albwardy_invest,Albwardy Investment,conglomerate,58,1,pending
 dubai,arabtec,Arabtec Holding,industry,58,0,pending
 dubai,arab_media,Arab Media Group,comm,58,1,pending
+kuwait,lst_oulafuel,Oula Fuel Marketing Company K.S.C.P.,consumer_disc,58,1,pending
 kuwait,st_martins_prop,St. Martins Property Corporation,realestate,58,0,pending
 kuwait,mubarak_al_kabeer,Mubarak Al-Kabeer Hospital,health,58,1,pending
 northern,uaq_ded,Umm Al Quwain Department of Economic Development,gov,58,1,pending
@@ -134,7 +135,6 @@ saudi,al_nassr_fc,Al Nassr Saudi Club,consumer_disc,58,1,pending
 saudi,esl_faceit,ESL FACEIT Group,tech,58,0,pending
 bahrain,sbpc,Saudi Bahrain Pipeline Company,energy,57,0,pending
 dubai,al_yousuf,Al Yousuf Group,conglomerate,57,0,pending
-kuwait,lst_oulafuel,Oula Fuel Marketing,consumer_disc,57,1,pending
 kuwait,kirby_building_sys,Kirby Building Systems,materials,57,0,pending
 qatar,al_muftah,Al Muftah Group,conglomerate,57,1,pending
 saudi,lst_4003,United Electronics Co. (eXtra),consumer_disc,57,0,pending
@@ -162,6 +162,7 @@ dubai,al_nabooda,Khalifa Juma Al Nabooda Group,conglomerate,56,1,pending
 dubai,prime_healthcare,Prime Healthcare Group,health,56,1,pending
 dubai,awr_properties,AWR Properties,realestate,56,0,pending
 dubai,level_shoes,Level Shoes,consumer_disc,56,0,pending
+kuwait,lst_altijaria,The Commercial Real Estate Company K.S.C.,realestate,56,1,pending
 kuwait,lst_beyout,Beyout Holding Company K.P.S.C,finance,56,1,pending
 kuwait,kharafi_national,Kharafi National,industry,56,1,pending
 northern,stevin_rock,Stevin Rock,materials,56,1,pending
@@ -259,6 +260,7 @@ dubai,itp_media,ITP Media Group,comm,54,0,pending
 dubai,faces,Faces,consumer_disc,54,0,pending
 dubai,al_majid_property,Al Majid Property Co LLC,realestate,54,0,pending
 dubai,aue,American University in the Emirates,education,54,0,pending
+kuwait,lst_kmefic,Kuwait and Middle East Financial Investment Company K.S.C.P.,finance,54,1,pending
 kuwait,q8_aviation,Q8 Aviation,industry,54,0,pending
 kuwait,al_sagar,Al Sagar Group,conglomerate,54,1,pending
 kuwait,enertech,EnerTech Holding Company,energy,54,1,pending
@@ -480,10 +482,8 @@ dubai,lst_ekttitab,Ekttitab Holding Company K.S.C.,finance,50,0,pending
 dubai,lst_alsalamsudan,Al Salam Bank - Sudan,finance,50,0,pending
 dubai,dubai_sports_council,Dubai Sports Council,gov,50,0,pending
 dubai,dubai_statistics,Dubai Statistics Center,gov,50,0,pending
-kuwait,lst_altijaria,The Commercial Real Estate Co K.S.C,realestate,50,1,pending
 kuwait,lst_ifahr,IFA Hotels and Resorts,consumer_disc,50,0,pending
 kuwait,lst_trolley,Trolley General Trading Company K.S.C.P,consumer_disc,50,0,pending
-kuwait,lst_kmefic,Kuwait and Middle East Financial Investment,finance,50,1,pending
 kuwait,lst_alola,First Investment,finance,50,0,pending
 kuwait,lst_bayaninv,Bayan Investment Holding Co.,finance,50,0,pending
 kuwait,lst_kfic,KFIC Invest K.S.C.P,finance,50,0,pending

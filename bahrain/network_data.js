@@ -272,7 +272,7 @@ const PEOPLE = [
     ["derasat","Chairman of the Board of Trustees","board","v"],
     ["mtt_bh","Minister of Transportation & Telecommunications","political","v"]]},
   {id:"daina_oil", n:"H.E. Dr. Mohamed bin Mubarak bin Daina", t:1, p:74, s:"energy", roles:[
-    ["sce","Chief Executive Officer","executive","ns"],
+    ["sce","Chief Executive Officer","executive","v"],
     ["bapco_gas","Board Member (Bapco Energies)","board","v"],
     ["bapco_refining","Board Member","board","v"],
     ["gpic","Chairman of the Board","board","v"],
@@ -449,26 +449,26 @@ const PEOPLE = [
   {id:"noor_sharafi", n:"Noor Sharafi", t:2, p:58, s:"sovereign", roles:[
     ["mumtalakat","General Counsel","executive","v"]]},
   {id:"shaikh_fahad_bin", n:"Shaikh Fahad bin Abdulrahman Al Khalifa", t:2, p:52, s:"industry", roles:[
-    ["bahrain_airport","Board Member","board","ns"],
+    ["bahrain_airport","Board Member","board","v"],
     ["edamah","Board Member","board","v"],
     ["gulfair","Board Member","board","v"]]},
   {id:"sara_ahmed_buhiji", n:"Sara Ahmed Buhiji", t:2, p:52, s:"industry", roles:[
     ["btea","Chief Executive Officer","executive","v"],
-    ["bahrain_airport","Board Member","board","ns"],
+    ["bahrain_airport","Board Member","board","v"],
     ["gulfair","Board Member","board","v"]]},
   {id:"faisal_ali_al", n:"Faisal Ali Al Jalahma", t:2, p:52, s:"industry", roles:[
-    ["bahrain_airport","Board Member","board","ns"],
+    ["bahrain_airport","Board Member","board","v"],
     ["gulfair","Board Member","board","v"]]},
   {id:"alaa_abdulkhaleq_saeed", n:"Alaa Abdulkhaleq Saeed", t:2, p:52, s:"industry", roles:[
     ["array_innovation","Founder and Chief Executive Officer","executive","ns"],
     ["bibf","Board Member","board","v"],
-    ["bahrain_airport","Board Member","board","ns"],
+    ["bahrain_airport","Board Member","board","v"],
     ["gulfair","Board Member","board","v"]]},
   {id:"sael_al_waary", n:"Sael Al Waary", t:2, p:52, s:"industry", roles:[
-    ["bahrain_airport","Board Member","board","ns"],
+    ["bahrain_airport","Board Member","board","v"],
     ["gulfair","Board Member","board","v"]]},
   {id:"julia_simpson", n:"Julia Simpson", t:2, p:52, s:"industry", roles:[
-    ["bahrain_airport","Board Member","board","ns"],
+    ["bahrain_airport","Board Member","board","v"],
     ["gulfair","Board Member","board","v"]]},
   {id:"captain_qasim_albastaki", n:"Captain Qasim AlBastaki", t:2, p:58, s:"industry", roles:[
     ["gulfair","Chief Operating Officer","executive","v"]]},

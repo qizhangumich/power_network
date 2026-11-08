@@ -69,7 +69,7 @@ const INSTITUTIONS = [
   {id:"lst_kre", n:"Kuwait Real Estate Co KSC", s:"realestate", t:2, p:58, short:"KRE"},
   {id:"lst_urc", n:"United Real Estate K.S.C", s:"realestate", t:2, p:61, short:"URC"},
   {id:"lst_sre", n:"Salhia Real Estate Company K.S.C.P.", s:"realestate", t:2, p:56, short:"Salhia Real Estate"},
-  {id:"lst_altijaria", n:"The Commercial Real Estate Co K.S.C", s:"realestate", t:2, p:50, short:"ALTIJARIA"},
+  {id:"lst_altijaria", n:"The Commercial Real Estate Company K.S.C.", s:"realestate", t:2, p:56, short:"Al Tijaria"},
   {id:"lst_nind", n:"National Industries Group Holding", s:"finance", t:2, p:64, short:"NIND"},
   {id:"lst_cable", n:"Gulf Cables and Electrical Industries Group Co. K.S.C.P", s:"industry", t:2, p:54, short:"Gulf Cables"},
   {id:"lst_ship", n:"Heavy Engineering Industries and Shipbuilding", s:"industry", t:2, p:60, short:"HEISCO"},
@@ -77,7 +77,7 @@ const INSTITUTIONS = [
   {id:"lst_humansoft", n:"Human Soft Holding", s:"industry", t:2, p:58, short:"Human Soft Hldg"},
   {id:"lst_ifahr", n:"IFA Hotels and Resorts", s:"consumer_disc", t:2, p:50, short:"IFAHR"},
   {id:"lst_cgc", n:"Combined Group Contracting KSCP", s:"industry", t:2, p:58, short:"CGC"},
-  {id:"lst_oulafuel", n:"Oula Fuel Marketing", s:"consumer_disc", t:2, p:57, short:"Oula Fuel Marketing"},
+  {id:"lst_oulafuel", n:"Oula Fuel Marketing Company K.S.C.P.", s:"consumer_disc", t:2, p:58, short:"Oula Fuel"},
   {id:"lst_gfh", n:"GFH Bank B.S.C.", s:"finance", t:2, p:60, short:"GFH Bank B.S.C."},
   {id:"lst_warbabank", n:"Warba Bank K.S.C.P.", s:"finance", t:2, p:60, short:"Warba Bank"},
   {id:"lst_stc", n:"Kuwait Telecommunications Company K.S.C.P. (stc)", s:"comm", t:2, p:60, short:"stc Kuwait"},
@@ -90,7 +90,7 @@ const INSTITUTIONS = [
   {id:"lst_coast", n:"Coast Investment and Development", s:"finance", t:2, p:50, short:"COAST"},
   {id:"lst_sech", n:"The Securities House K.S.C", s:"finance", t:2, p:55, short:"SECH"},
   {id:"lst_markaz", n:"Kuwait Financial Centre", s:"finance", t:2, p:60, short:"Markaz"},
-  {id:"lst_kmefic", n:"Kuwait and Middle East Financial Investment", s:"finance", t:2, p:50, short:"KMEFIC"},
+  {id:"lst_kmefic", n:"Kuwait and Middle East Financial Investment Company K.S.C.P.", s:"finance", t:2, p:54, short:"KMEFIC"},
   {id:"lst_alola", n:"First Investment", s:"finance", t:2, p:50, short:"First Investment"},
   {id:"lst_gih", n:"Gulf Investment House", s:"finance", t:2, p:58, short:"GIH"},
   {id:"lst_bayaninv", n:"Bayan Investment Holding Co.", s:"finance", t:2, p:50, short:"BAYANINV"},
@@ -395,7 +395,7 @@ const PEOPLE = [
   {id:"rasheed_mohamed_almaraj", n:"Rasheed Mohamed Almaraj", t:2, p:52, s:"finance", roles:[
     ["kfh","Independent Board Member","board","v"]]},
   {id:"hanan_fares_al", n:"Hanan Fares Al-Fares", t:2, p:52, s:"finance", roles:[
-    ["kuwaitairways","Board Member","board","ns"],
+    ["kuwaitairways","Board Member (former)","board","ns","former:until 2026"],
     ["kfh","Board Member (KIA Representative)","board","v"]]},
   {id:"naser_abdullateef_al", n:"Naser Abdullateef Al-Rodhan", t:2, p:52, s:"finance", roles:[
     ["kfh","Board Member (KIA Representative)","board","v"]]},
@@ -408,7 +408,7 @@ const PEOPLE = [
   {id:"mishari_asi_al", n:"Mishari Asi Al-Hajri", t:2, p:52, s:"comm", roles:[
     ["zain","Board Member","board","v"]]},
   {id:"abdulrahman_mohammad_al", n:"Abdulrahman Mohammad Al-Asfour", t:2, p:52, s:"comm", roles:[
-    ["zain","Board Member","board","ns"]]},
+    ["zain","Board Member","board","v"]]},
   {id:"dr_saad_ahmed", n:"Dr. Saad Ahmed Al-Nahedh", t:2, p:52, s:"comm", roles:[
     ["zain","Board Member","board","v"]]},
   {id:"ossama_michel_matta", n:"Ossama Michel Matta", t:2, p:58, s:"comm", roles:[
@@ -695,7 +695,7 @@ const PEOPLE = [
   {id:"salah_al_fouzan", n:"Salah Al-Fouzan", t:2, p:52, s:"sovereign", roles:[
     ["kia","Board Member","board","v"]]},
   {id:"abdulmohsen_almukhaizeem", n:"Abdulmohsen Almukhaizeem", t:2, p:60, s:"sovereign", roles:[
-    ["kuwaitairways","Vice Chairman of the Board","board","ns"],
+    ["kuwaitairways","Vice Chairman of the Board (former)","board","ns","former:until 2026"],
     ["kia","President and CEO Kuwait Investment Office London","executive","v"]]},
   {id:"abdulaziz_alhudaib", n:"Abdulaziz Alhudaib", t:2, p:58, s:"sovereign", roles:[
     ["kia","Acting Executive Director Planning & Senior Management Support","executive","v"]]},
@@ -802,8 +802,9 @@ const PEOPLE = [
     ["lst_boubyan","Director - Independent","board","v"]]},
   {id:"abdullah_saud_al", n:"Abdullah Saud Al-Bader", t:2, p:52, s:"finance", roles:[
     ["lst_boubyan","Director - Independent","board","v"]]},
-  {id:"amani_khaled_bouresli", n:"Amani Khaled Bouresli", t:2, p:52, s:"finance", roles:[
-    ["lst_boubyan","Director - Independent","board","v"]]},
+  {id:"amani_khaled_bouresli", n:"Amani Khaled Bouresli", t:2, p:60, s:"finance", roles:[
+    ["lst_boubyan","Director - Independent","board","v"],
+    ["kuwaitairways","Vice Chairman of the Board","board","v"]]},
   {id:"rabah_abdulrahman_alrabah", n:"Rabah Abdulrahman AlRabah", t:2, p:52, s:"finance", roles:[
     ["lst_boubyan","Director - Independent","board","v"]]},
   {id:"jean_cloutier", n:"Jean Cloutier", t:2, p:52, s:"finance", roles:[
@@ -1267,11 +1268,11 @@ const PEOPLE = [
   {id:"loay_jassim_al", n:"Loay Jassim Al-Kharafi", t:2, p:58, s:"conglomerate", roles:[
     ["kharafi","CEO, Mohamed Abdul Mohsen Al-Kharafi & Sons Company","executive","ns"]]},
   {id:"noor_al_jassem", n:"Noor Al-Jassem", t:2, p:52, s:"industry", roles:[
-    ["kuwaitairways","Board Member","board","ns"]]},
+    ["kuwaitairways","Board Member (former)","board","ns","former:until 2026"]]},
   {id:"mishari_al_hunaidi", n:"Mishari Al-Hunaidi", t:2, p:52, s:"industry", roles:[
-    ["kuwaitairways","Board Member","board","ns"]]},
+    ["kuwaitairways","Board Member (former)","board","ns","former:until 2026"]]},
   {id:"abdul_wahab_al", n:"Abdul Wahab Al-Shatti", t:2, p:60, s:"industry", roles:[
-    ["kuwaitairways","Chief Executive Officer","executive","ns"]]},
+    ["kuwaitairways","Chief Executive Officer","executive","v"]]},
   {id:"faisal_bader_al", n:"Faisal Bader Al-Sayer", t:2, p:62, s:"conglomerate", roles:[
     ["alsayer","Chairman","board","v"]]},
   {id:"musaed_bader_al", n:"Musaed Bader Al-Sayer", t:2, p:62, s:"conglomerate", roles:[
@@ -2155,8 +2156,12 @@ const PEOPLE = [
     ["osn","Independent Board Member","board","v"]]},
   {id:"michael_johnson", n:"Michael Johnson", t:2, p:52, s:"comm", roles:[
     ["osn","Board Member (representing Mawarid Holding Co.)","board","v"]]},
+  {id:"joe_kawkabani", n:"Joe Kawkabani", t:2, p:52, s:"comm", roles:[
+    ["osn","Group CEO (2022–Jul 2025)","executive","ns","former:until Jul 2025"]]},
   {id:"adel_mohammad_al", n:"Adel Mohammad Al-Awadi", t:2, p:62, s:"consumer_disc", roles:[
     ["lst_oulafuel","Vice Chairman and Chief Executive Officer","executive","v"]]},
+  {id:"abdulhussain_saleh_al", n:"Abdulhussain Saleh Al-Sultan", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_oulafuel","Chairman (2010–2024)","board","v","former:until 2024"]]},
   {id:"ahmad_mohammed_karim", n:"Ahmad Mohammed Karim", t:2, p:60, s:"finance", roles:[
     ["lst_kmefic","Acting Chief Executive Officer / Head of Financial Brokerage","executive","v"]]},
   {id:"abdulmutaleb_a_m", n:"Abdulmutaleb A. M. Marafie", t:2, p:60, s:"realestate", roles:[
@@ -2164,7 +2169,8 @@ const PEOPLE = [
 ];
 
 const OWNERSHIP = [
-  ["lst_oulafuel","knpc","local fuel-supply contract with","ns"],
+  ["lst_oulafuel","knpc","2 of 9 board seats represent KNPC (per Oula annual report)","v"],
+  ["lst_kmefic","al_thekair","majority owner (74.33%, acquired from Ahli United Bank Sept 2019)","v"],
   ["lst_urc","kipco","majority/controlling shareholder","v"],
   ["lst_boubyan","nbk","majority shareholder","v"],
   ["lst_burg","kipco","majority shareholder","v"],
