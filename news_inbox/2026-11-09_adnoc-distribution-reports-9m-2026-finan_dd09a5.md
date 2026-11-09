@@ -1,0 +1,5 @@
+# ADNOC Distribution reports 9M 2026 financial results
+source: Zawya
+url: https://news.google.com/rss/articles/CBMioAFBVV95cUxQdnI0TGI1R0cxSEREZVNadUdUaHlUeG1Rb3ZUTndrN0gxbVNhakVRWlBCZVB2UUNwUEdPZFUySk83YzRYZS1wSlBCd0hvOWd4WUlXOUdiUVJaYTIwMk5yVjNtTzhfQTZUYXBlQkdMMUQ1djhiT21IVk14dHF3ZGtaTXNsUVRhRUpYT0R2NUV1ZWZXdzFacV8xNjU5UmJ3NXNJ?oc=5
+
+ADNOC Distribution reports 9M 2026 financial results    Zawya

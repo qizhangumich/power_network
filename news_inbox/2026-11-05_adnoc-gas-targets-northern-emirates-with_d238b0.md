@@ -1,0 +1,5 @@
+# ADNOC Gas Targets Northern Emirates With New Natural Gas Supply Deal
+source: ChemAnalyst
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxNNUdUWHZvMmhzWFZwRG52WDd4ZUJHNGJpQVA5TkZQdkVXbzdSOUJnTUFQZEhaZ0luTVg2S3QwRVlYako5M2RjVjJfdExoVmlGb19ycnhzUktqZlNwMENUSmVBMkYtbkI2eGNFTkRSOF9kd2pkZDRuV3ROS3U2a0FqdGM4WFJRX0RxLV9jQnEtbExnTnBpNzFKYy0yZENldFNOWTJZdC1rYmdiT0xnNVJlTA?oc=5
+
+ADNOC Gas Targets Northern Emirates With New Natural Gas Supply Deal    ChemAnalyst

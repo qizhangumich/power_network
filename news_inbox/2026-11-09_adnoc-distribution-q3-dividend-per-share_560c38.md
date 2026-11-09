@@ -1,0 +1,5 @@
+# ADNOC Distribution Q3 Dividend Per Share 5.1425 Fils
+source: TradingView
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxNV3B1RXRSRnpnM2h0VnJva2ZpXzI1YzdEQl9vWFdsTzdWQV9FS3ZlV2ZHRUNBQWJqdUotWmhlUVB2ZGloVTNaa0pJLXlvbkNRSGw5M1hzcDViX2RmTE5pUFJXeFhmRFpPRnlQaXhLLU5WWHRSVmtSa05LczRWaXVIZEVTU2dCX0M4c2V2T0dhY1NnOWZjVzQ5aEdVVnpaN2JaNTMtZmo4bnppNTNVcUJCT0E4WHpXMWxGbTdKQ3NqRQ?oc=5
+
+ADNOC Distribution Q3 Dividend Per Share 5.1425 Fils    TradingView
