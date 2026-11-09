@@ -1,0 +1,5 @@
+# Apollo Global Management Acquires 10% Stake in Mubadala Capital
+source: GuruFocus
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxPb2lGREdGaTRhWkJLSnpRdjd5TGR6VWd5aUEwQWdSYVpiN2NmaHY2NG1QU05TR2NvdHZRM0FITTVJQ05CWnNRT21pWThnWXpaWE9XQzd5VXhXQ1BGRHJWWHUtdHc4UGJwaVZtU0NJUWh4aHZGY28yRzBsMF81ckRqQWVMR3NEazhiMlRoMF94V2ZiZW1RREhocTBWemVUa1pLU3VV?oc=5
+
+Apollo Global Management Acquires 10% Stake in Mubadala Capital    GuruFocus

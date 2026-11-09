@@ -1,0 +1,5 @@
+# Aldar Education schools record global top 10-comparable results in PISA 2025
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMWJQR3hZOUMydHUyejJSRDRZRlctcWFsU3JEaDQ4SGNOQ0ZsRkswMU9hUEJkajUwcUluNG8xRTIzNWNlTG1sampxc1F3QTF2ZFl1bW5kRTdFams4Y1pvUTBpNW5QdVRWc3k1NEJjOXN3NlRlWVZsWTBKanlNSjF4b2c3QzZocGs1TWtMbEoxLTAtU2N4Z1RDV3NHclJmSzdKSGloRWpaNkVfc3NmNkxOaXZYWnhkR2h3bUh3ZGZLb2VPRHZtc20xZEdqV2hiaFVHenloNQ?oc=5
+
+Aldar Education schools record global top 10-comparable results in PISA 2025    Zawya

@@ -1,0 +1,5 @@
+# ADNOC approaches LNG carrier owners for premium Gulf bareboat charter deals
+source: Riviera Maritime Media
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxORjItc3N5czJlVXhPMkNScEd1SUhGTmUxbFVfaGhkb1AwcUY5c3RPdVl0bkIzemlpWDFjX0QxR2ZIcTFDVThmakN5dzJSLXlzRmY2bEhxTXdIZE9nMGwwQnJqMDBpTnpnMlFQV2czeHlRRlUxUWIxYUt3ZV9DNFN6S1JjWWZqdHpMV2o2dVllQjNUU3JPQ1I3TDM2SlJ0ZVotVGtCYW41c1k2SFdXTTVXVGdGTmVPOEpYTThUU2ZSUzR1aHRGS2xYTFY3UGIydmVRZEE?oc=5
+
+ADNOC approaches LNG carrier owners for premium Gulf bareboat charter deals    Riviera Maritime Media

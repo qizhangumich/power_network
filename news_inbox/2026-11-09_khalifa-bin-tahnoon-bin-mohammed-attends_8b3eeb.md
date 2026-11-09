@@ -1,0 +1,5 @@
+# Khalifa bin Tahnoon bin Mohammed attends opening of 18th Abu Dhabi World Professional Jiu-Jitsu Championship
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxPX29ibU9QMk80QUVGcTR0T2kwQ1BMN1VOejVwRjBnWm9mNWlBWHI5VjAxR1I4b0xfQXZLYm9mWEROZ3ZMcnlNaThrNTZ3dTdUTEgyVF9SY1ZTdGNHRlpBUGMxWXZjNkdjRVdBMUxJSGRxNWRxMXdXYnRpZmNfeFJCc1BoamNya2Y0aVg3aVQtejh0b3RyblBNUk1QYUZrOUItVzlwYVZDX1hZcW9DWEZReUZMZjZRbnhtcWZNWjJ6NEhRMmJFb2YtWjRNamJ4NHg1REpfRFM2TlVTWmo5NnZZYTA5QkV6dw?oc=5
+
+Khalifa bin Tahnoon bin Mohammed attends opening of 18th Abu Dhabi World Professional Jiu-Jitsu Championship    مكتب أبوظبي الإعلامي

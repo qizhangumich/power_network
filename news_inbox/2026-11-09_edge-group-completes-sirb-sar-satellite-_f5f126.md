@@ -1,0 +1,5 @@
+# Edge Group Completes Sirb SAR Satellite Design Review
+source: Aviation Week
+url: https://news.google.com/rss/articles/CBMimwFBVV95cUxNVExPaEtPQ2hqQWVBSTZ0X1dhb0U5dHVtbjV3T3ZJNk9DVUMxVHFIMWkxTXdrMXM2OXR4cldmNjF5TEdTTXg4VEJSU3BVbWt1RjJWT0RTc1NfZmZKOGtfUkZreGU1SnE0MENtTk9YUTJOWC1CUHVkWlM5TWRuVlV3ZDRqay11MEV2VXYzQjQ5cTZOUTR3NlFqV3NwYw?oc=5
+
+Edge Group Completes Sirb SAR Satellite Design Review    Aviation Week

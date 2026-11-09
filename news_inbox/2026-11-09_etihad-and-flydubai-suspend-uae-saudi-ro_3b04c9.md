@@ -1,0 +1,5 @@
+# Etihad and flydubai suspend UAE Saudi routes amid Houthi attacks
+source: NewsBytes
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxNM2pBVjJDQUtnMVNqLVVlbnpwNlBMTlFia0xObHBUVmpPYTQxMElvM0NSOWk2YXRJcHFGSFJhYVFsTG40dDZRNU9wR2YyRTZGN29XRFFvR19jaXBsZ3pvcDR0UzBFTVFxVXUtVnhSSVpkaHNsYmtldTN3RF9Xd1VFN2NhQThNQ0YzSnZEeWhNZjZZUVJmQWtENWExVFZ6SUxiTFVDQXp3b09lbWFFV3c?oc=5
+
+Etihad and flydubai suspend UAE Saudi routes amid Houthi attacks    NewsBytes

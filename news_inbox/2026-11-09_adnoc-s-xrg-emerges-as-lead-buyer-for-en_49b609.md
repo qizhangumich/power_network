@@ -1,0 +1,5 @@
+# Adnoc’s XRG emerges as lead buyer for Energos Infrastructure
+source: TradeWinds News
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTkNnUjNmb2FfUExfUDFRN1YzM1MzQk1Od1k2VnlJRTZ3VlE0eHFxNzRndjRPdHQ3d1ltWEJPdkVrVWJNeU52eW9hcEpKYlZ3M2UxT3JLMGl0aGRlN0tOQ09Ianp2YlJNaDJsYVk5d1p6dXVJMUhSMzZyNGEtczJGdHpzUGZPblRQQmFwZGNfV3dWVndaX18wY2dRT0ZOZGk3UGRsRWdvQ3Q5UDA?oc=5
+
+Adnoc’s XRG emerges as lead buyer for Energos Infrastructure    TradeWinds News

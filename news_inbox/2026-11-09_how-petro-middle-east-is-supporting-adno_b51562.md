@@ -1,0 +1,5 @@
+# How Petro Middle East is supporting ADNOC’s next phase of growth
+source: Energy Connects
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxNc3piUG43X0hKcVdLWmJjRUJTSU8xcTViQ05sZ2dxSUx3cEtvQTRrcGxPNThZSEhXdmNxTVVVeUdLOENEa2NiT2dkczBwOVVTLWxlb2h1dERQZGJrLWFTQWM5ZGxWLUM4OWZtVDdOTDU5d1hPeWJscHBGY0NBU2JfNldEaUlld2ctQmJOUGdkamVJMHFBTHMyRTRrSTlqRTdrRThMYlh4elZzdGtBNXVNTU10aDVUOGFGem1jS2RvYmZrXzBWcXhEd05HX2k3Vkk?oc=5
+
+How Petro Middle East is supporting ADNOC’s next phase of growth    Energy Connects
