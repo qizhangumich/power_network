@@ -47,6 +47,7 @@ const INSTITUTIONS = [
   {id:"qfz",       n:"Qatar Free Zones Authority",    s:"gov", t:1, p:72,  short:"QFZ"},
   // — Sovereign capital
   {id:"qia",       n:"Qatar Investment Authority",    s:"sovereign", t:1, p:97, short:"QIA"},
+  {id:"qatar_holding", n:"Qatar Holding LLC",         s:"sovereign", t:1, p:72, short:"Qatar Holding"},
   {id:"qatariddiar", n:"Qatari Diar",                 s:"realestate", t:2, p:78, short:"Qatari Diar"},
   {id:"hassad",    n:"Hassad Food",                   s:"consumer_stap", t:2, p:62, short:"Hassad"},
   {id:"katarahosp", n:"Katara Hospitality",           s:"consumer_disc", t:2, p:62, short:"Katara Hospitality"},
@@ -287,6 +288,7 @@ const PEOPLE = [
     ["scdl","Vice-Chairman of the Board of Directors","board","ns"],
     ["qoc","President","board","v"]]},
   {id:"mayassa", n:"H.E. Sheikha Al-Mayassa bint Hamad Al Thani", t:0, p:84, s:"gov", roles:[
+    ["qatar_crafts_council","Chairperson","board","v"],
     ["qatar_leadership_centre","Chairperson of the Board of Directors","board","v"],
     ["qf","Member","board","v"],
     ["qm","Chairperson","board","v"]],
@@ -943,6 +945,7 @@ const PEOPLE = [
   {id:"thomas_chevanne", n:"Thomas Chevanne", t:2, p:58, s:"comm", roles:[
     ["ooredoo","Group Chief Strategy and M&A Officer","executive","v"]]},
   {id:"khalid_bin_thani", n:"Khalid bin Thani bin Abdullah Al Thani", t:2, p:62, s:"finance", roles:[
+    ["al_ahli_hospital","Vice Chairman & Managing Director","executive","v"],
     ["lst_qiik","Chairman","board","v"]]},
   {id:"abdullah_thani_a", n:"Abdullah Thani A. T. Al-Thani", t:2, p:62, s:"finance", roles:[
     ["lst_qiik","Vice Chairman & Managing Director","executive","v"]]},
@@ -953,6 +956,7 @@ const PEOPLE = [
   {id:"shaheen_jassim_h", n:"Shaheen Jassim H Al-Sulaiti", t:2, p:52, s:"finance", roles:[
     ["lst_qiik","Independent Board Member","board","v"]]},
   {id:"mubarak_abdullah_mohammed", n:"Mubarak Abdullah Mohammed Al-Sulaiti", t:2, p:52, s:"finance", roles:[
+    ["al_ahli_hospital","Board Member","board","v"],
     ["qapco","Board Director","board","v"],
     ["lst_qiik","Independent Board Member","board","v"]]},
   {id:"ayedh_dabsan_e", n:"Ayedh Dabsan E A Al-Qahtani", t:2, p:52, s:"finance", roles:[
@@ -1143,9 +1147,11 @@ const PEOPLE = [
   {id:"sheikh_khalifa_bin", n:"Sheikh Khalifa bin Thani bin Abdullah Al Thani", t:2, p:62, s:"realestate", roles:[
     ["lst_eres","Vice Chairman","board","v"]]},
   {id:"sheikh_mohammed_bin_b", n:"Sheikh Mohammed bin Thani bin Abdullah Al Thani", t:2, p:52, s:"realestate", roles:[
+    ["al_ahli_hospital","Board Member","board","v"],
     ["lst_eres","Board Member","board","v"]]},
-  {id:"sheikh_abdullah_bin", n:"Sheikh Abdullah bin Thani bin Abdullah Al Thani", t:2, p:52, s:"realestate", roles:[
-    ["lst_eres","Board Member","board","v"]]},
+  {id:"sheikh_abdullah_bin", n:"Sheikh Abdullah bin Thani bin Abdullah Al Thani", t:2, p:62, s:"realestate", roles:[
+    ["lst_eres","Board Member","board","v"],
+    ["al_ahli_hospital","Chairman of the Board","board","v"]]},
   {id:"mr_ayed_dabsan", n:"Mr. Ayed Dabsan Al-Qahtani", t:2, p:52, s:"realestate", roles:[
     ["lst_eres","Independent Board Member","board","v"]]},
   {id:"mr_amr_shafik", n:"Mr. Amr Shafik Mostafa Omar Ajoura", t:2, p:52, s:"realestate", roles:[
@@ -1369,6 +1375,7 @@ const PEOPLE = [
   {id:"abdulla_bin_ali", n:"Abdulla bin Ali Al Thiyab", t:2, p:52, s:"industry", roles:[
     ["qatarrail","Board Member","board","ns"]]},
   {id:"sheikh_mohammed_bin_b_b", n:"Sheikh Mohammed bin Hamad bin Faisal Al Thani", t:2, p:52, s:"industry", roles:[
+    ["qatar_diamond_exchange","Chairman","board","v"],
     ["qfz","Chief Executive Officer","executive","ns"],
     ["qatarrail","Board Member","board","ns"]]},
   {id:"jassim_al_buhashim", n:"Jassim Al-Buhashim Al-Sayed", t:2, p:52, s:"industry", roles:[
@@ -2413,9 +2420,22 @@ const PEOPLE = [
     ["q_chem","Board Member","board","v"]]},
   {id:"amir_kabbej", n:"Amir Kabbej", t:2, p:52, s:"materials", roles:[
     ["q_chem","Board Member","board","v"]]},
+  {id:"sheikh_faisal_bin_b", n:"Sheikh Faisal bin Jassim bin Mohamed Al Thani", t:2, p:52, s:"health", roles:[
+    ["al_ahli_hospital","Board Member","board","v"]]},
+  {id:"sheikh_ali_bin_b_b", n:"Sheikh Ali bin Abdulla bin Thani Al Thani", t:2, p:52, s:"health", roles:[
+    ["al_ahli_hospital","Board Member","board","v"]]},
+  {id:"khalid_abdulnoor_saifeldeen", n:"Khalid Abdulnoor Saifeldeen", t:2, p:52, s:"health", roles:[
+    ["al_ahli_hospital","Independent Board Member","board","v"]]},
+  {id:"jamal_abdulla_al", n:"Jamal Abdulla Al-Jamal", t:2, p:52, s:"health", roles:[
+    ["al_ahli_hospital","Independent Board Member","board","v"]]},
+  {id:"hemayan_al_kawari", n:"Hemayan Al-Kawari", t:2, p:52, s:"health", roles:[
+    ["al_ahli_hospital","Independent Board Member","board","v"]]},
+  {id:"jaber_rashid_al", n:"Jaber Rashid Al Nuaimi", t:2, p:58, s:"gov", roles:[
+    ["wifaq_center","Executive Director","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
+  ["qatar_holding","qia","wholly-owned direct investment subsidiary","v"],
   ["cabinet","qgov","governs under"],
   ["shura","qgov"],
   ["mofin","cabinet"],["mofa_q","cabinet"],["moi_q","cabinet"],["mod_q","cabinet"],
@@ -2578,6 +2598,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  qatar_holding:["Qatar Holding","QH"],
   saoud_diwan:["Sheikh Saoud bin Abdulrahman bin Hassan bin Ali Al Thani"],
   mbhh:["Mohammed Bin Hamad Holding","MBH Holding"],
   ahmad_helal_al_b:["Eng. Ahmed Hilal Al Mohannadi","Ahmed Hilal Al Mohannadi"],

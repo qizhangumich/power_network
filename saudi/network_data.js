@@ -3829,6 +3829,10 @@ const PEOPLE = [
     ["wera","Governor","executive","ns"]]},
   {id:"abdulelah_alshaiee", n:"Abdulelah AlShaiee", t:2, p:58, s:"gov", roles:[
     ["wera","Vice Governor for Consumer Care","executive","ns"]]},
+  {id:"fahad_bin_sulaiman", n:"Fahad bin Sulaiman Hamad Al-Ahmad", t:2, p:58, s:"education", roles:[
+    ["qassim_university","Vice President for Educational Affairs","executive","v"]]},
+  {id:"mohammed_bin_abdullah_b_b_b", n:"Mohammed bin Abdullah Al-Muhaimid", t:2, p:58, s:"education", roles:[
+    ["qassim_university","Vice President for Planning Development and Quality","executive","v"]]},
 ];
 
 const OWNERSHIP = [

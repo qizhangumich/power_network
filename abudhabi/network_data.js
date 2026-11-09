@@ -477,6 +477,7 @@ const PEOPLE = [
     ["hub71","Chairman","board","v"],
     ["abu_dhabi_chamber","Chairman","board","v"],
     ["fsra","Chairman of ADGM","board","v"],
+    ["adnoc_refining","Board Member (also Group CFO, ADNOC)","board","v"],
     ], note:"Gatekeeper for economic policy and the financial free zone."},
   {id:"alsuwaidi_adq", n:"Mohamed Hassan Alsuwaidi", t:1, p:92, s:"sovereign", roles:[
     ["fedgov","UAE Minister of Investment","political","v"],
@@ -1881,6 +1882,7 @@ const PEOPLE = [
   {id:"khaled_salmeen_anber", n:"Khaled Salmeen Anber Salmeen", t:2, p:52, s:"energy", roles:[
     ["adnocls","Director","board","v"],
     ["insead","Executive MBA","alumni","v"],
+    ["adnoc_refining","Board Member (also CEO Downstream, ADNOC Group)","board","v"],
     ]},
   {id:"khaled_mohamed_abdulla", n:"Khaled Mohamed Abdulla Alalkeem Alzaabi", t:2, p:52, s:"energy", roles:[
     ["adnocls","Director","board","v"],

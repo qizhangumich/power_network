@@ -187,7 +187,7 @@ const INSTITUTIONS = [
   {id:"spf", n:"Social Protection Fund", s:"finance", t:1, p:72, short:"SPF"},
   {id:"majlis_a_shura", n:"Consultative Assembly (Majlis A'Shura)", s:"gov", t:1, p:68, short:"Majlis A'Shura"},
   {id:"state_council", n:"State Council (Majlis Al Dawla)", s:"gov", t:1, p:62, short:"State Council"},
-  {id:"pacp", n:"Public Authority for Consumer Protection", s:"gov", t:2, p:56, short:"PACP"},
+  {id:"pacp", n:"Consumer Protection Authority", s:"gov", t:2, p:56, short:"CPA"},
   {id:"ncsi", n:"National Centre for Statistics and Information", s:"gov", t:2, p:58, short:"NCSI"},
   {id:"caa_oman", n:"Civil Aviation Authority", s:"gov", t:2, p:60, short:"CAA Oman"},
   {id:"moe", n:"Ministry of Education", s:"education", t:1, p:68, short:"MoE"},
@@ -246,6 +246,7 @@ const INSTITUTIONS = [
   {id:"owwc", n:"Oman Water and Wastewater Services Company", s:"utilities", t:2, p:58, short:"OWWC"},
   {id:"al_roya", n:"Al Roya", s:"comm", t:3, p:54, short:"Al Roya"},
   {id:"sqcccrc", n:"Sultan Qaboos Comprehensive Cancer Care and Research Centre", s:"health", t:2, p:60, short:"SQCCCRC"},
+  {id:"otech", n:"Otech", s:"tech", t:2, p:58, short:"Otech"},
 ];
 
 const PEOPLE = [
@@ -477,7 +478,6 @@ const PEOPLE = [
     ["nitaj","Chairman","board","v"],
     ["oia","Deputy President for Operations","executive","v"]]},
   {id:"dr_saud_al", n:"Dr. Saud Al Habsi", t:2, p:52, s:"sovereign", roles:[
-    ["pacp","Chairman of the Board of Directors","board","ns"],
     ["moafwr","Minister of Agriculture, Fisheries and Water Resources","board","v"],
     ["oia","Board Member (Minister of Agriculture Fisheries & Water Resources)","board","v"]]},
   {id:"abdullah_al_harthi", n:"Abdullah Al Harthi", t:2, p:52, s:"sovereign", roles:[
@@ -567,7 +567,10 @@ const PEOPLE = [
     ["omanair","Board Member","board","ns"]]},
   {id:"haitham_bin_muhammad", n:"Haitham bin Muhammad Al Ghassani", t:2, p:52, s:"industry", roles:[
     ["omanair","Board Member","board","ns"]]},
-  {id:"con_korfiatis", n:"Con Korfiatis", t:2, p:60, s:"industry", roles:[
+  {id:"con_korfiatis", n:"Con Korfiatis", t:2, p:52, s:"industry", roles:[
+    ["omanair","Chief Executive Officer (2024–Sep 2026)","executive","ns","former:until Sep 2026"],
+    ["omanair","Advisor to the CEO","executive","ns"]]},
+  {id:"nasser_al_sharji", n:"Nasser Al Sharji", t:2, p:60, s:"industry", roles:[
     ["omanair","Chief Executive Officer","executive","ns"]]},
   {id:"hamood_al_alawi", n:"Hamood Al Alawi", t:2, p:60, s:"industry", roles:[
     ["omanair","Deputy Chief Executive Officer","executive","ns"]]},
@@ -1793,6 +1796,32 @@ const PEOPLE = [
     ["mohup_oman","Undersecretary of the Ministry of Housing and Urban Planning for Housing","executive","ns"]]},
   {id:"mohammed_bin_ali_b", n:"Mohammed bin Ali Al Muttawa", t:2, p:58, s:"gov", roles:[
     ["mohup_oman","Undersecretary of the Ministry of Housing and Urban Planning for Urban Planning","executive","ns"]]},
+  {id:"sayyid_khalifa_bin", n:"Sayyid Khalifa bin Al Mirdas bin Ahmed Al Busaidi", t:2, p:58, s:"gov", roles:[
+    ["moin_om","Secretary General of the Ministry of Interior","executive","v"]]},
+  {id:"mansour_al_moundhri", n:"Mansour Al Moundhri", t:2, p:62, s:"health", roles:[
+    ["sqcccrc","Chairman of the Executive Committee","board","v"]]},
+  {id:"ibrahim_salim_al", n:"Ibrahim Salim Al Salmi", t:2, p:58, s:"comm", roles:[
+    ["oman_news_agency","Director-General and Editor-in-Chief","executive","v"]]},
+  {id:"ahmed_al_azri", n:"Ahmed Al Azri", t:2, p:46, s:"health", roles:[
+    ["khoula_hospital","Head of Department of Neurosurgery","executive","v"]]},
+  {id:"ali_al_balushi", n:"Ali Al Balushi", t:2, p:46, s:"health", roles:[
+    ["khoula_hospital","Head of Department of Neurology and Stroke Unit","executive","v"]]},
+  {id:"hiba_bint_ibrahim", n:"Hiba bint Ibrahim Al-Ajmi", t:2, p:58, s:"health", roles:[
+    ["khoula_hospital","Consultant Physician","executive","v"]]},
+  {id:"salim_bin_hamed", n:"Salim bin Hamed Al Busaidy", t:2, p:58, s:"gov", roles:[
+    ["muscat_municipality","Director General of Muscat Municipality in Al Seeb","executive","ns"]]},
+  {id:"baha_bin_mohammed", n:"Baha bin Mohammed Ridha Al Lawati", t:2, p:52, s:"industry", roles:[
+    ["al_hassan_eng","Board Member","board","ns"]]},
+  {id:"alsalt_bin_mohammed", n:"Alsalt bin Mohammed Al Kharousi", t:2, p:52, s:"industry", roles:[
+    ["al_hassan_eng","Board Member","board","ns"]]},
+  {id:"ali_saif_nasib", n:"Ali Saif Nasib Al Mani", t:2, p:52, s:"industry", roles:[
+    ["al_hassan_eng","Board Member","board","ns"]]},
+  {id:"mohamed_abdullah_al_b", n:"Mohamed Abdullah Al Dhahab", t:2, p:52, s:"industry", roles:[
+    ["al_hassan_eng","Board Member","board","ns"]]},
+  {id:"murtaza_bin_mohsen", n:"Murtaza bin Mohsen bin Ali", t:2, p:58, s:"industry", roles:[
+    ["al_hassan_eng","Company Secretary","executive","ns"]]},
+  {id:"mohsin_hani_al", n:"Mohsin Hani Al Bahrani", t:2, p:60, s:"conglomerate", roles:[
+    ["mohsin_haider_darwish","CEO of Automotive, Tyres and Batteries and Engineering Products and Commercial Vehicles","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1961,6 +1990,7 @@ const OWNERSHIP = [
   ["mawarid_green","oq","subsidiary of (via O-Green platform, OQ Alternative Energy JV)","ns"],
   ["owwc","apsr_oman","regulated by","v"],
   ["sqcccrc","moh_om","government cancer referral and research centre established under state directives","ns"],
+  ["otech","omantel","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -1970,6 +2000,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  pacp:["Public Authority for Consumer Protection", "PACP"],
   nitaj:["Nitaj","Oman Food Investment Holding Company"],
   haitham:["Sultan Haitham"],
   badr_fm:["Badr Albusaidi","Badr al-Busaidi"],
@@ -2037,4 +2068,5 @@ const AKA = {
   raysut_cement:["Raysut Cement Company SAOG"],
   mawarid_green:["O-Green","Mawarid Turbine"],
   owwc:["OWWSC","Diam","Haya Water"],
+  otech:["Oman Data Park","ODP"],
 };
