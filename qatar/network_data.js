@@ -2582,6 +2582,7 @@ const AKA = {
   mbhh:["Mohammed Bin Hamad Holding","MBH Holding"],
   ahmad_helal_al_b:["Eng. Ahmed Hilal Al Mohannadi","Ahmed Hilal Al Mohannadi"],
   moi_q:["Interior Ministry"],
+  moph:["Qatar Health Ministry"],
   tamim_bin_hamad:["Hamad University for Military and Technology"],
   udst:["Doha for Science and Technology"],
   lst_qati:["QATI","QIC","Qatar Insurance Group"],
