@@ -254,6 +254,7 @@ const PEOPLE = [
     ["gulf_aviation_acad","Chairman","board","ns"],
     ["ewa_bh","President","executive","v"]]},
   {id:"alrayes_gfh", n:"Hisham Ahmed Al-Rayes", t:2, p:68, s:"finance", roles:[
+    ["infracorp","Chairman","board","ns"],
     ["gfh","Group Chief Executive Officer","executive","v"]]},
   {id:"jennings_abc", n:"Paul Jennings", t:2, p:66, s:"finance", roles:[
     ["abc","Group Chief Executive Officer","executive","v"]]},
@@ -773,7 +774,8 @@ const PEOPLE = [
   {id:"eline_hilal", n:"Eline Hilal", t:2, p:58, s:"materials", roles:[
     ["alba","Director of Investor Relations & Insurance","executive","v"]]},
   {id:"faisal_khalid_kanoo", n:"Faisal Khalid Kanoo", t:2, p:52, s:"industry", roles:[
-    ["lst_apmtb","Executive Director","board","v"]]},
+    ["lst_apmtb","Executive Director","board","v"],
+    ["kanoo_property","President","executive","ns","former"]]},
   {id:"soren_sjostrand_jakobsen", n:"Soren Sjostrand Jakobsen", t:2, p:52, s:"industry", roles:[
     ["lst_apmtb","Executive Director","board","v"]]},
   {id:"jonathan_goldner", n:"Jonathan Goldner", t:2, p:52, s:"industry", roles:[
@@ -1695,7 +1697,9 @@ const PEOPLE = [
     ["lst_ghg","Director","board","v"]]},
   {id:"fahad_kanoo", n:"Fahad Kanoo", t:2, p:52, s:"consumer_disc", roles:[
     ["kanoo_logistics","President, Kanoo Logistics","executive","v"],
-    ["lst_ghg","Director","board","v"]]},
+    ["lst_ghg","Director","board","v"],
+    ["kanoo_machinery","Vice President, Kanoo Industrial & Energy","executive","ns"],
+    ["kanoo_energy","Vice President, Kanoo Industrial & Energy","executive","ns"]]},
   {id:"yousif_al_manea", n:"Yousif Al Manea", t:2, p:46, s:"consumer_disc", roles:[
     ["kanoo_logistics","Chief Executive Officer (former)","executive","v","former:until 2021"]]},
   {id:"andrew_john_day", n:"Andrew John Day", t:2, p:52, s:"consumer_disc", roles:[
@@ -2108,6 +2112,7 @@ const PEOPLE = [
   {id:"sattam_suleiman_abdulmohsen", n:"Sattam Suleiman Abdulmohsen Al Gosaibi", t:2, p:52, s:"realestate", roles:[
     ["lst_seef","Director","board","v"]]},
   {id:"majed_abdulla_mohamed", n:"Majed Abdulla Mohamed Al Khan", t:2, p:52, s:"realestate", roles:[
+    ["infracorp","Board Member and Chief Executive Officer","executive","ns"],
     ["lst_seef","Director","board","v"]]},
   {id:"zayed_ali_rashed", n:"Zayed Ali Rashed Alamin", t:2, p:52, s:"realestate", roles:[
     ["lst_seef","Director","board","v"]]},
@@ -2512,8 +2517,11 @@ const PEOPLE = [
     ["kanoo","Board Member","board","v"]]},
   {id:"mohamed_abdullatif_kanoo", n:"Mohamed Abdullatif Kanoo", t:2, p:52, s:"conglomerate", roles:[
     ["kanoo","Board Member","board","v"]]},
-  {id:"ali_abdulla_kanoo", n:"Ali Abdulla Kanoo", t:2, p:52, s:"conglomerate", roles:[
-    ["kanoo","Board Member","board","v"]]},
+  {id:"ali_abdulla_kanoo", n:"Ali Abdulla Kanoo", t:2, p:62, s:"conglomerate", roles:[
+    ["kanoo","Board Member","board","v"],
+    ["kanoo_machinery","Chairman, Kanoo Industrial & Energy","board","ns"],
+    ["kanoo_energy","Chairman, Kanoo Industrial & Energy","board","ns"],
+    ["kanoo_travel","Chairman, SBU Trading Divisions","board","ns"]]},
   {id:"nandi_mehta", n:"Nandi Mehta", t:2, p:52, s:"conglomerate", roles:[
     ["kanoo","Board Member","board","v"]]},
   {id:"michael_shakesheff", n:"Michael Shakesheff", t:2, p:52, s:"conglomerate", roles:[
@@ -3210,6 +3218,7 @@ const PEOPLE = [
   {id:"haneen_a_rahman", n:"Haneen A. Rahman", t:2, p:58, s:"industry", roles:[
     ["bahrain_airport_svcs","Chief Financial Officer","executive","v"]]},
   {id:"zaeem_gama", n:"Zaeem Gama", t:2, p:58, s:"industry", roles:[
+    ["kanoo_travel","Divisional Chief Executive Officer","executive","ns"],
     ["bahrain_airport_svcs","Chief Commercial Officer","executive","v"]]},
   {id:"abubakr_mohamed", n:"Abubakr Mohamed", t:2, p:58, s:"industry", roles:[
     ["bahrain_airport_svcs","Chief Human Capital Officer","executive","v"]]},
@@ -3689,6 +3698,13 @@ const PEOPLE = [
     ["kanoo_shipping","General Manager, Bahrain","executive","v"]]},
   {id:"jonathan_bygrave", n:"Jonathan Bygrave", t:2, p:46, s:"industry", roles:[
     ["kanoo_shipping","Executive General Manager","executive","ns"]]},
+  {id:"manoj_tripathy", n:"Manoj Tripathy", t:2, p:60, s:"industry", roles:[
+    ["kanoo_machinery","Chief Executive Officer Kanoo Industrial and Energy","executive","ns"],
+    ["kanoo_energy","Chief Executive Officer Kanoo Industrial and Energy","executive","ns"]]},
+  {id:"jawad_yousef_abdulwahab", n:"Jawad Yousef Abdulwahab Al-Hawaj", t:2, p:62, s:"consumer_disc", roles:[
+    ["al_hawaj","Chairman and Managing Director","board","ns"]]},
+  {id:"mohamed_al_kooheji", n:"Mohamed Al Kooheji", t:2, p:60, s:"conglomerate", roles:[
+    ["kanoo","Group Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

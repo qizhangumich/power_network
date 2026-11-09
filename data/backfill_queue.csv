@@ -37,7 +37,6 @@ abudhabi,louis_dreyfus,Louis Dreyfus Company,consumer_stap,60,0,pending
 abudhabi,fortress,Fortress Investment Group,finance,60,0,pending
 abudhabi,bayanat_ai,Bayanat AI,tech,60,1,pending
 bahrain,brtc,Bahrain Radio and Television Corporation,comm,60,0,pending
-bahrain,infracorp,Infracorp B.S.C.(c),realestate,60,0,pending
 dubai,aither,Aither,tech,60,0,pending
 oman,sct,Space Communication Technologies,tech,60,1,pending
 oman,sqcccrc,Sultan Qaboos Comprehensive Cancer Care and Research Centre,health,60,1,pending
@@ -155,7 +154,6 @@ abudhabi,masdar_americas,Masdar Americas,utilities,56,1,pending
 abudhabi,fatima_college,Fatima College of Health Sciences,education,56,0,pending
 abudhabi,e_enterprise,e& enterprise,tech,56,0,pending
 abudhabi,halcon,Halcon,industry,56,0,pending
-bahrain,kanoo_energy,Kanoo Energy,energy,56,0,pending
 dubai,al_nabooda,Khalifa Juma Al Nabooda Group,conglomerate,56,1,pending
 dubai,prime_healthcare,Prime Healthcare Group,health,56,1,pending
 dubai,level_shoes,Level Shoes,consumer_disc,56,1,pending
@@ -210,7 +208,6 @@ saudi,aljomaih_automotive,Aljomaih Automotive Company,consumer_disc,56,0,pending
 abudhabi,birgi_mefar,Birgi Mefar Group,health,55,1,pending
 abudhabi,reem_finance,Reem Finance PJSC,finance,55,0,pending
 abudhabi,nimr_automotive,Nimr Automotive,industry,55,0,pending
-bahrain,kanoo_machinery,Kanoo Machinery,industry,55,0,pending
 dubai,imtiaz_developments,Imtiaz Developments,realestate,55,1,pending
 oman,mawarid_green,Mawarid Green Technologies,industry,55,0,pending
 saudi,al_othman,Al Othman Holding,conglomerate,55,0,pending
@@ -238,12 +235,11 @@ bahrain,aleastur,"Aleastur (Asturiana de Aleaciones, S.A.)",materials,54,0,pendi
 bahrain,insead,INSEAD,education,54,0,pending
 bahrain,racing_force,Racing Force Group S.p.A.,industry,54,0,pending
 bahrain,kanoo_property,Kanoo Property,realestate,54,0,pending
-bahrain,kanoo_travel,Kanoo Travel,consumer_disc,54,0,pending
 bahrain,jawad,Jawad Business Group,consumer_disc,54,0,pending
-dubai,dubai_asset_mgmt,Dubai Holding Asset Management,realestate,54,0,pending
+dubai,dubai_asset_mgmt,Dubai Holding Asset Management,realestate,54,1,pending
 dubai,dh_entertainment,Dubai Holding Entertainment,consumer_disc,54,0,pending
 dubai,mbr_housing,Mohammed Bin Rashid Housing Establishment,gov,54,0,pending
-dubai,mobh,Mohammad Omar Bin Haider Holding Group,conglomerate,54,0,pending
+dubai,mobh,Mohammad Omar Bin Haider Holding Group,conglomerate,54,1,pending
 dubai,driven_properties,Driven Properties,realestate,54,1,pending
 dubai,key_mavens,Key Mavens Group,realestate,54,1,pending
 dubai,aud,American University in Dubai,education,54,0,pending
@@ -342,12 +338,10 @@ bahrain,al_jishi,Al-Jishi Corporation,health,52,1,pending
 bahrain,ssp_bahrain,SSP Bahrain,consumer_disc,52,0,pending
 bahrain,hala_bahrain,Hala Bahrain,consumer_disc,52,0,pending
 bahrain,asb_capital,ASB Capital,finance,52,1,pending
-bahrain,al_hawaj,Yousuf A. Wahab Al Hawaj and Sons Co. WLL,consumer_disc,52,0,pending
+bahrain,al_hawaj,Yousuf A. Wahab Al Hawaj and Sons Co. WLL,consumer_disc,52,1,pending
 dubai,ithra_dubai,Ithra Dubai,realestate,52,0,pending
-dubai,cda_dubai,Community Development Authority,gov,52,0,pending
 dubai,desc,Dubai Electronic Security Center,gov,52,0,pending
-dubai,gdrfa_dubai,General Directorate of Residency and Foreigners Affairs Dubai,gov,52,0,pending
-dubai,fakhruddin_prop,Fakhruddin Properties,realestate,52,0,pending
+dubai,gdrfa_dubai,General Directorate of Residency and Foreigners Affairs Dubai,gov,52,1,pending
 dubai,heriot_watt_dubai,Heriot-Watt University Dubai,education,52,0,pending
 dubai,alfred,Alfred Holdings,consumer_disc,52,0,pending
 dubai,index,INDEX Holding,conglomerate,52,1,pending
@@ -479,7 +473,6 @@ dubai,lst_alfirdous,Al Firdous Holdings P.J.S.C.,consumer_disc,50,0,pending
 dubai,lst_watania,Watania International Holding PJSC,finance,50,0,pending
 dubai,lst_ekttitab,Ekttitab Holding Company K.S.C.,finance,50,0,pending
 dubai,lst_alsalamsudan,Al Salam Bank - Sudan,finance,50,0,pending
-dubai,dubai_sports_council,Dubai Sports Council,gov,50,0,pending
 dubai,dubai_statistics,Dubai Statistics Center,gov,50,0,pending
 kuwait,lst_ifahr,IFA Hotels and Resorts,consumer_disc,50,0,pending
 kuwait,lst_trolley,Trolley General Trading Company K.S.C.P,consumer_disc,50,0,pending

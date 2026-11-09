@@ -688,6 +688,7 @@ const PEOPLE = [
   {id:"justin_shields", n:"Justin Shields", t:2, p:58, s:"comm", roles:[
     ["du","Chief Information Officer","executive","v"]]},
   {id:"malek_al_malek", n:"Malek Al Malek", t:2, p:62, s:"comm", roles:[
+    ["dubai_asset_mgmt","Group CEO","executive","v"],
     ["dubai_residential","Chairman, Investment Committee (Group CEO, Dubai Holding Asset Management)","board","v"],
     ["dhcc","Chairman","board","v"],
     ["tecom","Chairman","board","v"],
@@ -854,6 +855,7 @@ const PEOPLE = [
   {id:"salem_al_sharhan", n:"Salem Al Sharhan", t:2, p:52, s:"finance", roles:[
     ["difc","Board Member (DIFC Authority Board of Directors)","board","v"]]},
   {id:"khalfan_belhoul", n:"Khalfan Belhoul", t:2, p:52, s:"finance", roles:[
+    ["dubai_sports_council","Vice Chairman","board","v"],
     ["dubai_future_fdn","Chief Executive Officer","executive","v"],
     ["difc","Board Member (DIFC Authority Board of Directors)","board","v"]]},
   {id:"abdullah_salim_al", n:"Abdullah Salim Al Turifi Al Shamsi", t:2, p:52, s:"finance", roles:[
@@ -1268,8 +1270,10 @@ const PEOPLE = [
   {id:"essam_issa_al", n:"Essam Issa Al Humaidan", t:2, p:52, s:"gov", roles:[
     ["execco","Member (Attorney General of Dubai)","board","v"]]},
   {id:"mohammed_ahmed_al", n:"Mohammed Ahmed Al Marri", t:2, p:52, s:"gov", roles:[
+    ["gdrfa_dubai","Director General","executive","v"],
     ["execco","Member (Director General of Identity and Foreigners Affairs)","board","v"]]},
   {id:"hessa_essa_buhumaid", n:"Hessa Essa Buhumaid", t:2, p:52, s:"gov", roles:[
+    ["cda_dubai","Director General","executive","v"],
     ["execco","Member (Director General of Community Development Authority)","board","v"]]},
   {id:"abdulla_bin_damithan", n:"Abdulla bin Damithan", t:2, p:62, s:"gov", roles:[
     ["dubai_customs","Chairman, Ports Customs and Free Zone Corporation (Dubai Customs' parent authority)","board","ns"],
@@ -1709,6 +1713,7 @@ const PEOPLE = [
   {id:"saod_mohamed_ibrahim", n:"Saod Mohamed Ibrahim Obaidalla", t:2, p:52, s:"finance", roles:[
     ["cbd","Board Member","board","v"]]},
   {id:"abdulla_mohamed_al", n:"Abdulla Mohamed Al Karam", t:2, p:52, s:"finance", roles:[
+    ["dubai_sports_council","Board Member","board","v"],
     ["cbd","Board Member","board","v"]]},
   {id:"abdulwahed_mohamed_al", n:"Abdulwahed Mohamed Al Fahim", t:2, p:52, s:"finance", roles:[
     ["cbd","Board Member","board","v"]]},
@@ -2240,6 +2245,7 @@ const PEOPLE = [
   {id:"ali_rashid_al", n:"Ali Rashid Al Mazroei", t:2, p:52, s:"finance", roles:[
     ["national_bonds","Board Member","board","ns"]]},
   {id:"huraiz_almur_bin", n:"Huraiz Almur Bin Huraiz", t:2, p:52, s:"finance", roles:[
+    ["cda_dubai","CEO of Regulation and Social Services Sector","executive","v"],
     ["national_bonds","Board Member","board","ns"]]},
   {id:"jamal_saeed_juma", n:"Jamal Saeed Juma bin Ghalaita", t:2, p:52, s:"finance", roles:[
     ["national_bonds","Board Member","board","ns"]]},
@@ -2712,6 +2718,30 @@ const PEOPLE = [
     ["al_yousuf","CEO, Al Yousuf LLC","executive","v"]]},
   {id:"elisa_bruno", n:"Elisa Bruno", t:2, p:60, s:"consumer_disc", roles:[
     ["level_shoes","Managing Director","executive","v"]]},
+  {id:"maitha_mohammed_al", n:"Maitha Mohammed Al Shamsi", t:2, p:60, s:"gov", roles:[
+    ["cda_dubai","CEO of Community Empowerment Sector","executive","v"]]},
+  {id:"sheikha_ahmed_abdulrahman", n:"Sheikha Ahmed Abdulrahman Ahmed Al Jarman", t:2, p:60, s:"gov", roles:[
+    ["cda_dubai","CEO of Social Development Sector","executive","v"]]},
+  {id:"saeed_ahmed_thani", n:"Saeed Ahmed Thani Al Tayer", t:2, p:60, s:"gov", roles:[
+    ["cda_dubai","CEO of Corporate Support Sector","executive","v"]]},
+  {id:"sheikh_mansoor_bin", n:"Sheikh Mansoor bin Mohammed bin Rashid Al Maktoum", t:2, p:62, s:"gov", roles:[
+    ["dubai_sports_council","Chairman","board","v"]]},
+  {id:"saeed_hareb", n:"Saeed Hareb", t:2, p:58, s:"gov", roles:[
+    ["dubai_sports_council","Secretary General","executive","v"]]},
+  {id:"ali_al_mutawa", n:"Ali Al Mutawa", t:2, p:52, s:"gov", roles:[
+    ["dubai_sports_council","Board Member","board","v"]]},
+  {id:"ahmed_al_khaja", n:"Ahmed Al Khaja", t:2, p:52, s:"gov", roles:[
+    ["dubai_sports_council","Board Member","board","v"]]},
+  {id:"majid_al_usaimi", n:"Majid Al Usaimi", t:2, p:52, s:"gov", roles:[
+    ["dubai_sports_council","Board Member","board","v"]]},
+  {id:"safia_al_sayegh", n:"Safia Al Sayegh", t:2, p:52, s:"gov", roles:[
+    ["dubai_sports_council","Board Member","board","v"]]},
+  {id:"yousuf_fakhruddin", n:"Yousuf Fakhruddin", t:2, p:60, s:"realestate", roles:[
+    ["fakhruddin_prop","CEO and Managing Partner","executive","ns"]]},
+  {id:"fatema_yousuf_fakhruddin", n:"Fatema Yousuf Fakhruddin", t:2, p:58, s:"realestate", roles:[
+    ["fakhruddin_prop","Chief Operating Officer","executive","ns"]]},
+  {id:"mohammad_omar_bin", n:"Mohammad Omar Bin Haider", t:2, p:62, s:"conglomerate", roles:[
+    ["mobh","Founder and Chairman","board","ns"]]},
 ];
 
 const OWNERSHIP = [
