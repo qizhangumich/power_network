@@ -175,14 +175,14 @@ const INSTITUTIONS = [
   {id:"lst_agility", n:"Agility Global PLC", s:"industry", t:2, p:50, short:"Agility Global PLC"},
   {id:"lst_apex", n:"Apex Investment PSC", s:"finance", t:2, p:50, short:"Apex Investment PSC"},
   {id:"lst_sib", n:"Sharjah Islamic Bank PJSC", s:"finance", t:2, p:64, short:"SIB"},
-  {id:"lst_inb", n:"Invest Bank P.S.C.", s:"finance", t:2, p:50, short:"Invest Bank P.S.C."},
-  {id:"lst_alefedt", n:"Alef Education Holding plc", s:"consumer_disc", t:2, p:50, short:"ALEFEDT"},
+  {id:"lst_inb", n:"Invest Bank P.S.C.", s:"finance", t:2, p:60, short:"Invest Bank"},
+  {id:"lst_alefedt", n:"Alef Education Holding plc", s:"consumer_disc", t:2, p:58, short:"Alef Education"},
   {id:"lst_oras", n:"Orascom Construction PLC", s:"industry", t:2, p:70, short:"Orascom Const."},
   {id:"lst_dana", n:"Dana Gas PJSC", s:"energy", t:2, p:66, short:"Dana Gas PJSC"},
   {id:"lst_adaviation", n:"Abu Dhabi Aviation Company", s:"industry", t:2, p:66, short:"ADAVIATION"},
   {id:"lst_bos", n:"Bank of Sharjah PJSC", s:"finance", t:2, p:60, short:"Bank of Sharjah"},
   {id:"lst_uab", n:"United Arab Bank PJSC", s:"finance", t:2, p:58, short:"UAB"},
-  {id:"lst_emobility", n:"Emirates Mobility Company PJSC", s:"industry", t:2, p:50, short:"EMOBILITY"},
+  {id:"lst_emobility", n:"Emirates Mobility Company PJSC", s:"industry", t:2, p:57, short:"Emirates Mobility"},
   {id:"lst_icap", n:"Investcorp Capital plc", s:"finance", t:2, p:58, short:"ICAP"},
   {id:"lst_phx", n:"Phoenix Group PLC", s:"tech", t:2, p:50, short:"Phoenix Group PLC"},
   {id:"lst_gih", n:"Gulf Investment House K.P.S.C.", s:"finance", t:2, p:50, short:"GIH"},
@@ -601,6 +601,7 @@ const PEOPLE = [
     ["mofa","Minister of State","political","v"],
     ["adnec","Chairwoman","board","v"],
     ["ad_media","Chairperson of the Board","board","ns"],
+    ["lst_alefedt","Board Member","board","v"],
     ]},
   {id:"hussain_nowais", n:"Hussain Jasim Al Nowais", t:1, p:80, s:"conglomerate", roles:[
     ["emsteel","Chairman","board","v"],
@@ -1345,6 +1346,7 @@ const PEOPLE = [
   {id:"ahmed_ali_al", n:"Ahmed Ali Al Sayegh", t:2, p:52, s:"energy", roles:[
     ["adnoc","Member, Executive Committee of ADNOC Board of Directors (Minister of State)","board","v"],
     ["dolphin_energy","UAE Minister of State & Managing Director","board","v"],
+    ["lst_alefedt","Board Member","board","v"],
     ]},
   {id:"farid_al_awlaqi", n:"Farid Al Awlaqi", t:2, p:60, s:"utilities", roles:[
     ["taqa","Chief Executive Officer, Generation","executive","v"],
@@ -1357,6 +1359,7 @@ const PEOPLE = [
     ]},
   {id:"omar_abdulla_al", n:"Omar Abdulla Al Hashmi", t:2, p:60, s:"utilities", roles:[
     ["taqa","Chief Executive Officer, TAQA Distribution","executive","v"],
+    ["lst_alefedt","Board Member","board","v"],
     ]},
   {id:"dr_nader_assad", n:"Dr. Nader Assad Bin Taher", t:2, p:60, s:"utilities", roles:[
     ["taqa","Interim Chief Executive Officer, TAQA Water Solutions","executive","v"],
@@ -4491,6 +4494,33 @@ const PEOPLE = [
     ]},
   {id:"sultan_mohammed_al", n:"Sultan Mohammed Al Nuaimi", t:2, p:58, s:"education", roles:[
     ["ecssr","Director General","executive","v"],
+    ]},
+  {id:"abdulhamid_mohammed_saeed", n:"Abdulhamid Mohammed Saeed Alahmadi", t:2, p:62, s:"consumer_disc", roles:[
+    ["lst_alefedt","Chairman","board","v"],
+    ]},
+  {id:"geoffrey_alphonso", n:"Geoffrey Alphonso", t:2, p:60, s:"consumer_disc", roles:[
+    ["lst_alefedt","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"jameela_salem_musabbah", n:"Jameela Salem Musabbah Humaid Al Mheiri", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_alefedt","Board Member","board","v"],
+    ]},
+  {id:"rima_ahmed_salim", n:"Rima Ahmed Salim AlMokarrab Almheiri", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_alefedt","Board Member","board","v"],
+    ]},
+  {id:"saeed_abdulla_mohamed", n:"Saeed Abdulla Mohamed Bin Mutlaq Alghfeli", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_alefedt","Board Member","board","v"],
+    ]},
+  {id:"sheikh_sultan_bin_b", n:"Sheikh Sultan bin Ahmed Al Qasimi", t:2, p:62, s:"finance", roles:[
+    ["lst_inb","Chairman","board","ns"],
+    ]},
+  {id:"edris_al_rafi", n:"Edris Al Rafi", t:2, p:60, s:"finance", roles:[
+    ["lst_inb","Chief Executive Officer","executive","ns"],
+    ]},
+  {id:"mohamed_obaid_rashid", n:"Mohamed Obaid Rashid Al Shamsi", t:2, p:62, s:"finance", roles:[
+    ["lst_inb","Vice Chairman","board","ns"],
+    ]},
+  {id:"khaled_al_shemeili", n:"Khaled Al Shemeili", t:2, p:60, s:"industry", roles:[
+    ["lst_emobility","Chief Executive Officer","executive","v"],
     ]},
 ];
 

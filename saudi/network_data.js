@@ -194,7 +194,7 @@ const INSTITUTIONS = [
   {id:"lst_4193", n:"Nice One Beauty Digital Marketing Co.", s:"consumer_disc", t:2, p:50, short:"4193"},
   {id:"lst_4194", n:"Build Station Trading Co.", s:"consumer_disc", t:2, p:50, short:"4194"},
   {id:"lst_4200", n:"Aldrees Petroleum and Transport Services Co.", s:"consumer_disc", t:2, p:50, short:"4200"},
-  {id:"lst_4240", n:"Cenomi Retail (Fawaz Abdulaziz Alhokair Co.)", s:"consumer_disc", t:2, p:63, short:"4240",
+  {id:"lst_4240", n:"Cenomi Retail (Fawaz Abdulaziz Alhokair Co.)", s:"consumer_disc", t:2, p:63, short:"Cenomi Retail",
     note:"Dubai's Al-Futtaim Group acquired 49.95% directly from the founding Alhokair family for SAR 2.5bn (signed Jul 2025, approved Aug/Sep 2025) -- no Al-Futtaim node in this region file to carry a same-file OWNERSHIP edge; see dubai map (id alfuttaim) for the counterpart."},
   {id:"lst_4001", n:"Abdullah Al Othaim Markets Co.", s:"consumer_stap", t:2, p:50, short:"4001"},
   {id:"lst_4006", n:"Farm Superstores Co.", s:"consumer_stap", t:2, p:50, short:"Farm Superstores Co."},
@@ -3833,6 +3833,18 @@ const PEOPLE = [
     ["qassim_university","Vice President for Educational Affairs","executive","v"]]},
   {id:"mohammed_bin_abdullah_b_b_b", n:"Mohammed bin Abdullah Al-Muhaimid", t:2, p:58, s:"education", roles:[
     ["qassim_university","Vice President for Planning Development and Quality","executive","v"]]},
+  {id:"hussein_ali_shobokshi", n:"Hussein Ali Shobokshi", t:2, p:62, s:"consumer_disc", roles:[
+    ["lst_4240","Chairman (Independent)","board","ns"]]},
+  {id:"ahmed_waseem_al", n:"Ahmed Waseem Al Arabi", t:2, p:62, s:"consumer_disc", roles:[
+    ["lst_4240","Deputy Chairman","board","ns"]]},
+  {id:"sameer_jain", n:"Sameer Jain", t:2, p:60, s:"consumer_disc", roles:[
+    ["lst_4240","Chief Executive Officer","executive","ns"]]},
+  {id:"hamad_hamdan_al", n:"Hamad Hamdan Al Sarie", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_4240","Audit Committee Member","board","ns"]]},
+  {id:"russell_michael_rodrigues", n:"Russell Michael Rodrigues", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_4240","Audit Committee Member","board","ns"]]},
+  {id:"ismail_hassan_al", n:"Ismail Hassan Al Khatib", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_4240","Audit Committee Member","board","ns"]]},
 ];
 
 const OWNERSHIP = [

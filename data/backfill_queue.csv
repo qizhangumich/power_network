@@ -17,7 +17,6 @@ abudhabi,eni,Eni,energy,64,0,pending
 abudhabi,mckinsey,McKinsey & Company,industry,64,0,pending
 qatar,eni,Eni,energy,64,0,pending
 saudi,psmmc,Prince Sultan Military Medical City,health,64,0,pending
-saudi,lst_4240,Cenomi Retail (Fawaz Abdulaziz Alhokair Co.),consumer_disc,63,0,pending
 abudhabi,omv,OMV,energy,62,0,pending
 abudhabi,moelis,Moelis & Company,finance,62,0,pending
 abudhabi,globalfoundries,GlobalFoundries,tech,62,0,pending
@@ -132,6 +131,7 @@ saudi,gulf_research_ctr,Gulf Research Center,education,58,0,pending
 saudi,al_nassr_fc,Al Nassr Saudi Club,consumer_disc,58,1,pending
 saudi,esl_faceit,ESL FACEIT Group,tech,58,0,pending
 saudi,petrokemya,Arabian Petrochemical Company,materials,58,0,pending
+abudhabi,lst_emobility,Emirates Mobility Company PJSC,industry,57,1,pending
 bahrain,sbpc,Saudi Bahrain Pipeline Company,energy,57,0,pending
 kuwait,kirby_building_sys,Kirby Building Systems,materials,57,0,pending
 qatar,al_muftah,Al Muftah Group,conglomerate,57,1,pending
@@ -418,9 +418,6 @@ saudi,alireza,Haji Abdullah Alireza & Co. Ltd.,conglomerate,52,0,pending
 abudhabi,lst_mbme,MBME Group PJSC,health,50,0,pending
 abudhabi,lst_2pointzero,Two Point Zero Group PJSC,tech,50,0,pending
 abudhabi,lst_apex,Apex Investment PSC,finance,50,0,pending
-abudhabi,lst_inb,Invest Bank P.S.C.,finance,50,0,pending
-abudhabi,lst_alefedt,Alef Education Holding plc,consumer_disc,50,0,pending
-abudhabi,lst_emobility,Emirates Mobility Company PJSC,industry,50,0,pending
 abudhabi,lst_phx,Phoenix Group PLC,tech,50,0,pending
 abudhabi,lst_gih,Gulf Investment House K.P.S.C.,finance,50,0,pending
 abudhabi,lst_saga,Sagasse Investment Company Plc,finance,50,0,pending
