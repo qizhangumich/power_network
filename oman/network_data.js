@@ -62,7 +62,7 @@ const INSTITUTIONS = [
   {id:"lst_ajss", n:"Al Jazeira Services Company SAOG", s:"industry", t:2, p:50, short:"AJSS"},
   {id:"lst_amat", n:"Al Madina Takaful SAOG", s:"finance", t:2, p:54, short:"AMAT"},
   {id:"lst_aofs", n:"Al Omaniya Financial Services SAOG", s:"finance", t:2, p:50, short:"AOFS"},
-  {id:"lst_bwpc", n:"Barka Water and Power Company SAOG", s:"utilities", t:2, p:50, short:"BWPC"},
+  {id:"lst_bwpc", n:"Barka Water and Power Company SAOG", s:"utilities", t:2, p:58, short:"Barka Water & Power"},
   {id:"lst_batp", n:"Al Batinah Power Company SAOG", s:"utilities", t:2, p:50, short:"BATP"},
   {id:"lst_bkdb", n:"Bank Dhofar SAOG", s:"finance", t:2, p:64, short:"BankDhofar"},
   {id:"lst_bknz", n:"Bank Nizwa SAOG", s:"finance", t:2, p:58, short:"Bank Nizwa SAOG"},
@@ -247,10 +247,15 @@ const INSTITUTIONS = [
   {id:"al_roya", n:"Al Roya", s:"comm", t:3, p:54, short:"Al Roya"},
   {id:"sqcccrc", n:"Sultan Qaboos Comprehensive Cancer Care and Research Centre", s:"health", t:2, p:60, short:"SQCCCRC"},
   {id:"otech", n:"Otech", s:"tech", t:2, p:58, short:"Otech"},
+  {id:"mocsy", n:"Ministry of Culture Sports and Youth", s:"gov", t:1, p:64, short:"MoCSY"},
+  {id:"public_prosecution", n:"Public Prosecution", s:"gov", t:1, p:66, short:"Public Prosecution"},
+  {id:"supreme_jud_council", n:"Supreme Judicial Council", s:"gov", t:1, p:66, short:"Supreme Jud. Council"},
+  {id:"nraa", n:"National Records and Archives Authority", s:"gov", t:3, p:54, short:"NRAA"},
 ];
 
 const PEOPLE = [
   {id:"haitham", n:"H.M. Sultan Haitham bin Tariq Al Said", t:0, p:100, s:"gov", roles:[
+    ["com_om","Chairman of the Council of Ministers (Prime Minister)","board","v"],
     ["omgov","Sultan of Oman","political","v"]],
     note:"Also holds the PM, defence, finance and central-bank chairmanships in the Omani system."},
   {id:"theyazin", n:"H.H. Sayyid Theyazin bin Haitham Al Said", t:0, p:80, s:"gov", roles:[
@@ -1055,7 +1060,7 @@ const PEOPLE = [
   {id:"suleiman_bin_nasser", n:"Suleiman bin Nasser bin Khamis bin Nasser Al-Hajji", t:2, p:58, s:"health", roles:[
     ["moh_om","Undersecretary for Administrative and Financial Affairs","executive","v"]]},
   {id:"mahmood_al_aweini", n:"Mahmood Al Aweini", t:2, p:58, s:"gov", roles:[
-    ["mof_om","Secretary-General","executive","ns"]]},
+    ["mof_om","Secretary-General","executive","v"]]},
   {id:"firas_al_abduwani", n:"Firas Al-Abduwani", t:2, p:58, s:"energy", roles:[
     ["moem_om","Director General of Renewable Energy and Hydrogen","executive","ns"]]},
   {id:"ali_bin_salim", n:"Ali bin Salim Al Rajhi", t:2, p:58, s:"energy", roles:[
@@ -1077,6 +1082,7 @@ const PEOPLE = [
   {id:"mansour_zahir_al", n:"Mansour Zahir Al Hajri", t:2, p:62, s:"gov", roles:[
     ["majlis_a_shura","Deputy Chairman","board","v"]]},
   {id:"sayyid_khalid_bin", n:"Sayyid Khalid bin Hilal bin Saud Al Busaidi", t:2, p:58, s:"gov", roles:[
+    ["com_om","Minister of the Diwan of the Royal Court","board","ns"],
     ["omgov","Minister of Diwan of Royal Court","executive","v"]]},
   {id:"mohammed_sulaiman_al", n:"Mohammed Sulaiman Al-Harthy", t:2, p:60, s:"consumer_stap", roles:[
     ["nitaj","Chief Executive Officer (until Oman Food Capital merger)","executive","v","former:until 2026"]]},
@@ -1151,6 +1157,7 @@ const PEOPLE = [
   {id:"izzan_bin_qasim", n:"Izzan bin Qasim bin Mohammed Al-Busaidi", t:2, p:52, s:"gov", roles:[
     ["caa_oman","Board Member","board","v"]]},
   {id:"khalid_bin_mohammed", n:"Khalid bin Mohammed Al-Abri", t:2, p:52, s:"gov", roles:[
+    ["otech","Chief Financial & Business Support Officer","executive","v"],
     ["caa_oman","Board Member (Brigadier General Pilot)","board","v"]]},
   {id:"ali_bin_mohammed", n:"Ali bin Mohammed Al-Nufli", t:2, p:52, s:"gov", roles:[
     ["caa_oman","Board Member (Colonel)","board","v"]]},
@@ -1572,6 +1579,7 @@ const PEOPLE = [
   {id:"sulaiman_bin_ali", n:"Sulaiman bin Ali bin Ahmed Al-Husseini", t:2, p:52, s:"gov", roles:[
     ["cdaa","President","board","v"]]},
   {id:"gen_sultan_bin", n:"Gen Sultan bin Mohammed al Nuamani", t:2, p:62, s:"gov", roles:[
+    ["com_om","Minister of the Royal Office","board","ns"],
     ["cdaa","Chairman of the Board of Directors (Minister of the Royal Office, Head of the Office of the Supreme Commander)","board","v"]]},
   {id:"hassan_bin_mohsin", n:"Hassan bin Mohsin Al Shuraiqi", t:2, p:52, s:"gov", roles:[
     ["rop","Inspector General of Police and Customs","board","v"],
@@ -1587,6 +1595,7 @@ const PEOPLE = [
   {id:"abdullah_bin_salim_b", n:"Abdullah bin Salim Al Shueili", t:2, p:58, s:"comm", roles:[
     ["oman_observer","Editor-in-Chief","executive","v"]]},
   {id:"sayyid_asaad_bin", n:"Sayyid Asaad bin Tariq Al Said", t:2, p:62, s:"education", roles:[
+    ["com_om","Deputy Prime Minister for International Relations and Cooperation Affairs","board","ns"],
     ["univ_of_nizwa","Chairman of the Board of Trustees (Representative of His Majesty the Sultan)","board","v"]]},
   {id:"ahmed_bin_khalfan", n:"Ahmed bin Khalfan Al Rawahi", t:2, p:58, s:"education", roles:[
     ["univ_of_nizwa","Chancellor","executive","v"]]},
@@ -1822,6 +1831,30 @@ const PEOPLE = [
     ["al_hassan_eng","Company Secretary","executive","ns"]]},
   {id:"mohsin_hani_al", n:"Mohsin Hani Al Bahrani", t:2, p:60, s:"conglomerate", roles:[
     ["mohsin_haider_darwish","CEO of Automotive, Tyres and Batteries and Engineering Products and Commercial Vehicles","executive","v"]]},
+  {id:"sayyid_bilarab_bin", n:"Sayyid Bilarab bin Haitham Al Said", t:2, p:52, s:"gov", roles:[
+    ["com_om","Minister of State and Governor of Muscat","board","ns"]]},
+  {id:"sayyid_saud_bin", n:"Sayyid Saud bin Hilal Al Busaidi", t:2, p:52, s:"gov", roles:[
+    ["mocsy","Minister of Culture Sports and Youth","board","v"]]},
+  {id:"basil_bin_ahmed", n:"Basil bin Ahmed Al Rawas", t:2, p:58, s:"gov", roles:[
+    ["mocsy","Undersecretary of the Ministry of Culture Sports and Youth","executive","v"]]},
+  {id:"said_bin_sultan", n:"Said bin Sultan Al Busaidi", t:2, p:58, s:"gov", roles:[
+    ["mocsy","Undersecretary of the Ministry of Culture Sports and Youth","executive","v"]]},
+  {id:"nasr_bin_khamis", n:"Nasr bin Khamis bin Mohammed Al Sawaee", t:2, p:52, s:"gov", roles:[
+    ["public_prosecution","Attorney General","board","v"]]},
+  {id:"sayyid_mohammed_bin", n:"Sayyid Mohammed bin Sultan bin Hamoud Al Busaidi", t:2, p:62, s:"gov", roles:[
+    ["supreme_jud_council","Vice Chairman of the Supreme Judicial Council","board","v"]]},
+  {id:"issa_bin_hamad", n:"Issa bin Hamad bin Mohammed Al Azri", t:2, p:58, s:"gov", roles:[
+    ["supreme_jud_council","Secretary General of the Supreme Judicial Council","executive","v"]]},
+  {id:"hamad_al_dhuwayani", n:"Hamad Al-Dhuwayani", t:2, p:62, s:"gov", roles:[
+    ["nraa","Chairman of the Authority","board","v"]]},
+  {id:"aladdin_bin_abdullah", n:"Aladdin bin Abdullah Baitfadhil", t:2, p:62, s:"tech", roles:[
+    ["otech","Chairman","board","v"]]},
+  {id:"maqbool_bin_salem", n:"Maqbool bin Salem Al Wahaibi", t:2, p:60, s:"tech", roles:[
+    ["otech","Acting Chief Executive Officer","executive","v"]]},
+  {id:"stefan_dijkers", n:"Stefan Dijkers", t:2, p:62, s:"utilities", roles:[
+    ["lst_bwpc","Chairman of the Board of Directors","board","ns"]]},
+  {id:"salim_bin_zahir", n:"Salim bin Zahir Al Sibani", t:2, p:60, s:"utilities", roles:[
+    ["lst_bwpc","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1991,6 +2024,7 @@ const OWNERSHIP = [
   ["owwc","apsr_oman","regulated by","v"],
   ["sqcccrc","moh_om","government cancer referral and research centre established under state directives","ns"],
   ["otech","omantel","subsidiary","v"],
+  ["mocsy","com_om","ministry of","v"],
 ];
 
 const FAMILY = [
@@ -2069,4 +2103,7 @@ const AKA = {
   mawarid_green:["O-Green","Mawarid Turbine"],
   owwc:["OWWSC","Diam","Haya Water"],
   otech:["Oman Data Park","ODP"],
+  public_prosecution:["Office of the Attorney General","Attorney General's Office"],
+  supreme_jud_council:["SJC"],
+  nraa:["National Records and Archive Authority"],
 };

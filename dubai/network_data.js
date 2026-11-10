@@ -257,6 +257,7 @@ const INSTITUTIONS = [
   {id:"aue", n:"American University in the Emirates", s:"education", t:3, p:54, short:"AUE"},
   {id:"denizbank", n:"DenizBank A.Ş.", s:"finance", t:2, p:62, short:"DenizBank"},
   {id:"tanfeeth", n:"Tanfeeth", s:"industry", t:3, p:54, short:"Tanfeeth"},
+  {id:"ellington_props", n:"Ellington Properties", s:"realestate", t:3, p:54, short:"Ellington Props"},
 ];
 
 const PEOPLE = [

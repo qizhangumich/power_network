@@ -203,6 +203,7 @@ const INSTITUTIONS = [
   {id:"akhbar_al_khaleej", n:"Akhbar Al Khaleej", s:"comm", t:3, p:54, short:"Akhbar Al Khaleej"},
   {id:"infracorp", n:"Infracorp B.S.C.(c)", s:"realestate", t:2, p:60, short:"Infracorp"},
   {id:"jawad", n:"Jawad Business Group", s:"consumer_disc", t:3, p:54, short:"Jawad Group"},
+  {id:"yasira", n:"Yasira Financial Services", s:"finance", t:3, p:54, short:"Yasira"},
 ];
 
 const PEOPLE = [
@@ -2714,7 +2715,7 @@ const PEOPLE = [
   {id:"azzan_al_ghamdi", n:"Azzan Al Ghamdi", t:2, p:46, s:"energy", roles:[
     ["bapco_gas","General Manager - Bapco Gas","executive","ns"]]},
   {id:"adel_bin_khalifa", n:"Adel bin Khalifa Al Fadhel", t:2, p:58, s:"gov", roles:[
-    ["moi_bh","Deputy Interior Minister","executive","ns"]]},
+    ["moi_bh","Deputy Interior Minister","executive","v"]]},
   {id:"sheikh_nasser_bin", n:"Sheikh Nasser bin Abdulrahman Al Khalifa", t:2, p:58, s:"gov", roles:[
     ["moi_bh","Interior Ministry Undersecretary","executive","ns"]]},
   {id:"sheikh_hisham_bin", n:"Sheikh Hisham bin Abdulrahman Al Khalifa", t:2, p:58, s:"gov", roles:[
@@ -3429,7 +3430,7 @@ const PEOPLE = [
   {id:"ahmed_bin_salman", n:"Ahmed bin Salman Al-Musallam", t:2, p:52, s:"gov", roles:[
     ["council_of_reps","Speaker","board","v"]]},
   {id:"jalila_al_sayed", n:"Jalila Al Sayed", t:2, p:52, s:"gov", roles:[
-    ["council_of_reps","First Deputy Speaker (elected 11 Oct 2026; Bahrain's first woman in this post; seat vacant since May 2026 after predecessor Abdulnabi Salman was stripped of membership)","board","ns"]]},
+    ["council_of_reps","First Deputy Speaker (elected 11 Oct 2026; Bahrain's first woman in this post; seat vacant since May 2026 after predecessor Abdulnabi Salman was stripped of membership)","board","v"]]},
   {id:"ahmed_abdulwahid_qarata", n:"Ahmed Abdulwahid Qarata", t:2, p:52, s:"gov", roles:[
     ["council_of_reps","Second Deputy Speaker","board","v"]]},
   {id:"mohammed_ibrahim_al_b", n:"Mohammed Ibrahim Al Sisi Al Buainain", t:2, p:52, s:"gov", roles:[

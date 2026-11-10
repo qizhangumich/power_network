@@ -588,6 +588,7 @@ const INSTITUTIONS = [
   {id:"alireza", n:"Haji Abdullah Alireza & Co. Ltd.", s:"conglomerate", t:3, p:52, short:"Alireza & Co."},
   {id:"h_alireza", n:"Haji Husein Alireza & Co. Ltd.", s:"consumer_disc", t:3, p:50, short:"H. Alireza & Co."},
   {id:"petrokemya", n:"Arabian Petrochemical Company", s:"materials", t:2, p:58, short:"PETROKEMYA"},
+  {id:"barclays_saudi", n:"Barclays Saudi Arabia", s:"finance", t:3, p:50, short:"Barclays Saudi"},
 ];
 
 const PEOPLE = [
@@ -4435,4 +4436,5 @@ const AKA = {
   saudi_electronic_u:["SEU"],
   king_abdullah_mc:["KAMC"],
   alireza:["House of Alireza","HAACO"],
+  barclays_saudi:["Barclays Riyadh Office"],
 };

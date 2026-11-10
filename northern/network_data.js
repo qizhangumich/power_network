@@ -191,6 +191,10 @@ const INSTITUTIONS = [
   {id:"al_fujairah_hosp", n:"Al Fujairah Hospital", s:"health", t:2, p:56, short:"Al Fujairah Hosp"},
   {id:"obaidullah_hosp", n:"Ibrahim Bin Hamad Obaidullah Hospital", s:"health", t:2, p:56, short:"Obaidullah Hosp"},
   {id:"fujairah_ports", n:"Fujairah Ports Authority", s:"gov", t:2, p:62, short:"Fujairah Ports"},
+  {id:"uaq_ports_customs", n:"Umm Al Quwain Ports Customs and Free Zone Corporation", s:"gov", t:2, p:58, short:"UAQ Ports&Customs"},
+  {id:"ajman_properties", n:"Ajman Properties Corporation", s:"realestate", t:2, p:58, short:"Ajman Properties"},
+  {id:"ajman_land_re", n:"Ajman Department of Land and Real Estate Regulation", s:"realestate", t:2, p:56, short:"Ajman Land&RE Reg"},
+  {id:"fuj_creative_city", n:"Fujairah Creative City (Media Free Zone)", s:"gov", t:2, p:50, short:"Fuj Creative City"},
 ];
 
 const PEOPLE = [
@@ -253,6 +257,7 @@ const PEOPLE = [
   {id:"qaseer", n:"Ahmed Obaid Al Qaseer", t:2, p:60, s:"sovereign", roles:[
     ["shurooq","Chief Executive Officer","executive","v"]]},
   {id:"mousa_murad", n:"Capt. Mousa Murad", t:2, p:62, s:"industry", roles:[
+    ["fujairah_ports","Managing Director","executive","v"],
     ["fujport","Managing Director","executive","v"]]},
   {id:"abdouli_marjan", n:"Arch. Abdulla Al Abdouli", t:2, p:66, s:"realestate", roles:[
     ["rak_properties","Director","board","v"],
@@ -430,6 +435,7 @@ const PEOPLE = [
   {id:"h_h_sheikh", n:"H.H. Sheikh Rashid bin Humaid bin Rashid Al Nuaimi", t:2, p:62, s:"finance", roles:[
     ["ajman_municipality","Chairman","board","v"],
     ["ajmgov","Executive Council Member; Chairman of Municipality and Planning Department","board","v"],
+    ["ajman_properties","Chairman","board","v"],
     ["al_zorah_dev","Chairman of the Board of Directors","board","v"],
     ["ajmanbank","Vice Chairman","board","v"]]},
   {id:"abdullah_mohammed_hassan", n:"Abdullah Mohammed Hassan Mohammed Alhosani", t:2, p:52, s:"finance", roles:[
@@ -560,6 +566,7 @@ const PEOPLE = [
   {id:"ahmed_hamad_rashid", n:"Ahmed Hamad Rashid Matar Al Suwaidi", t:2, p:58, s:"gov", roles:[
     ["shj_execco","Assistant Secretary General","executive","v"]]},
   {id:"sheikh_saleh_bin", n:"Sheikh Saleh bin Mohammed bin Hamad Al Sharqi", t:2, p:62, s:"industry", roles:[
+    ["fujairah_ports","Chairman","board","v"],
     ["fujairah_petroleum","Chairman","board","ns"],
     ["fujairah_die","Chairman","board","ns"],
     ["nbf","Chairman","board","v"],
@@ -910,6 +917,7 @@ const PEOPLE = [
   {id:"mohd_hamdi_abdul", n:"Mohd Hamdi Abdul Shukor", t:2, p:52, s:"education", roles:[
     ["university_of_sharjah","Board of Trustees Member","board","v"]]},
   {id:"sheikh_abdulaziz_bin", n:"Sheikh Abdulaziz bin Humaid Al Nuaimi", t:2, p:52, s:"gov", roles:[
+    ["ajman_land_re","Chairman","board","v"],
     ["ajmgov","Executive Council Member; Head of Department of Land & Real Estate Regulation","board","v"]]},
   {id:"ahmed_bin_rakkad", n:"Ahmed bin Rakkad Al Ameri", t:2, p:60, s:"comm", roles:[
     ["sba","Chief Executive Officer of Sharjah Book Authority","executive","v"]]},
@@ -1541,6 +1549,18 @@ const PEOPLE = [
     ["fujairah_finance_dept","Director General","executive","ns"]]},
   {id:"ahmed_alyammahi", n:"Ahmed Alyammahi", t:2, p:58, s:"finance", roles:[
     ["fujairah_finance_dept","Deputy Director of Corporate Affairs","executive","ns"]]},
+  {id:"asma_rashid_sultan", n:"Asma Rashid Sultan bin Taliah", t:2, p:58, s:"gov", roles:[
+    ["shj_execco","Secretary General of the Sharjah Executive Council","executive","ns"]]},
+  {id:"aref_al_shehhi", n:"Aref Al Shehhi", t:2, p:58, s:"health", roles:[
+    ["khalifa_hosp_rak","CEO, The Medical Office (PureHealth) — governing body of the Sheikh Khalifa Hospitals network incl. RAK","executive","v"]]},
+  {id:"sheikh_mansour_ibrahim", n:"Sheikh Mansour Ibrahim Ahmed Hamad Al Mualla", t:2, p:58, s:"gov", roles:[
+    ["uaq_ports_customs","Executive Director","executive","v"]]},
+  {id:"sheikh_humaid_bin", n:"Sheikh Humaid bin Ammar Al Nuaimi", t:2, p:62, s:"realestate", roles:[
+    ["ajman_properties","Vice Chairman","board","v"]]},
+  {id:"omar_bin_omair", n:"Omar bin Omair Al Muhairi", t:2, p:58, s:"realestate", roles:[
+    ["ajman_land_re","Director-General","executive","v"]]},
+  {id:"salem_ali_salem", n:"Salem Ali Salem Marshoud Al Hafiti", t:2, p:58, s:"gov", roles:[
+    ["fuj_creative_city","Director","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1636,6 +1656,10 @@ const OWNERSHIP = [
   ["thumbay_fujairah","thumbay","subsidiary","v"],
   ["al_fujairah_hosp","emirates_health_svcs","subsidiary","v"],
   ["obaidullah_hosp","emirates_health_svcs","public healthcare facility operated by and listed on Emirates Health Services' own site","v"],
+  ["uaq_ports_customs","uaqgov","government authority overseeing ports, customs and free zone affairs","v"],
+  ["ajman_properties","ajmgov","government-owned real estate corporation (Emiri Decree No. 12 of 2025)","v"],
+  ["ajman_land_re","ajmgov","government department regulating the real estate sector","v"],
+  ["fuj_creative_city","fujgov","media free zone separated from Fujairah Culture & Media Authority by Emiri Decree No. 6 of 2023","ns"],
 ];
 
 const FAMILY = [
@@ -1764,4 +1788,8 @@ const AKA = {
   al_fujairah_hosp:["Fujairah Hospital"],
   obaidullah_hosp:["IBHOH"],
   fujairah_ports:["Port of Fujairah Authority"],
+  uaq_ports_customs:["UAQ PCFZC"],
+  ajman_properties:["AQAAR"],
+  ajman_land_re:["ARRA","Ajman Real Estate Regulatory Agency"],
+  fuj_creative_city:["Creative City Fujairah","Fujairah Media Free Zone","Media Free Zone"],
 };

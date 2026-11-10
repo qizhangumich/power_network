@@ -255,6 +255,12 @@ const INSTITUTIONS = [
   {id:"al_ahli_hospital", n:"Al Ahli Hospital", s:"health", t:3, p:54, short:"Al Ahli Hospital"},
   {id:"qinvest", n:"QInvest LLC", s:"finance", t:2, p:58, short:"QInvest"},
   {id:"al_jazeera_finance", n:"Al Jazeera Finance Company", s:"finance", t:3, p:52, short:"Al Jazeera Finance"},
+  {id:"acta", n:"Administrative Control and Transparency Authority", s:"gov", t:2, p:60, short:"ACTA"},
+  {id:"qfcra", n:"Qatar Financial Centre Regulatory Authority", s:"gov", t:2, p:64, short:"QFCRA"},
+  {id:"sjc", n:"Supreme Judiciary Council", s:"gov", t:2, p:66, short:"SJC"},
+  {id:"nhrc", n:"National Human Rights Committee", s:"gov", t:2, p:56, short:"NHRC"},
+  {id:"cgb", n:"Civil Service and Government Development Bureau", s:"gov", t:2, p:58, short:"CGB"},
+  {id:"assets", n:"Assets Group", s:"realestate", t:3, p:60, short:"Assets Group"},
 ];
 
 const PEOPLE = [
@@ -294,10 +300,13 @@ const PEOPLE = [
     ["qm","Chairperson","board","v"]],
     note:"The Emir's sister; one of the most influential figures in the global art market."},
   {id:"hind", n:"H.E. Sheikha Hind bint Hamad Al Thani", t:0, p:84, s:"education", roles:[
-    ["qf","Vice Chairperson & CEO","executive","v"]]},
+    ["qf","Vice Chairperson & CEO","executive","v"],
+    ["qoc","Vice President","board","v"]]},
   {id:"khalifa_moi", n:"H.E. Sheikh Khalifa bin Hamad bin Khalifa Al Thani", t:0, p:85, s:"gov", roles:[
+    ["cabinet","Minister of Interior","executive","v"],
     ["moi_q","Minister of Interior","political","v"]]},
   {id:"bandar_qcb", n:"H.E. Sheikh Bandar bin Mohammed bin Saoud Al Thani", t:0, p:84, s:"finance", roles:[
+    ["qfcra","Chairman","board","v"],
     ["qfma","Chairman, Board of Directors","board","v"],
     ["qcb","Governor","executive","v"]]},
   {id:"mohammed_bhq", n:"H.E. Sheikh Mohammed bin Hamad bin Qassim Al Thani", t:0, p:78, s:"gov", roles:[
@@ -309,6 +318,7 @@ const PEOPLE = [
     ["qatar_media","Chairman of the Board of Directors","board","v"],
     ["aljazeera","Chairman","board","v"]]},
   {id:"faisal_bt", n:"H.E. Sheikh Faisal bin Thani Al Thani", t:0, p:78, s:"comm", roles:[
+    ["cabinet","Minister of Commerce and Industry","executive","v"],
     ["qse","Chairman","board","v"],
     ["doha_investment","Vice Chairman & Managing Director, Doha Investment (also Minister of Commerce and Industry)","executive","v"],
     ["ooredoo","Chairman","board","v"],
@@ -326,7 +336,7 @@ const PEOPLE = [
     ["barzan","Chairman","board","ns"]],
     note:"Succeeded Khalid bin Mohamed Al Attiyah as Deputy PM/Minister of State for Defence Affairs in the 12 Nov 2024 Amiri cabinet reshuffle (gco.gov.qa); the Barzan Holdings chairmanship has historically attached to this portfolio (named as chairman in Jan 2026 DIMDEX trade coverage, not yet independently confirmed by an official Barzan/government source)."},
   {id:"abdullah_m_khulaifi", n:"Abdullah bin Mohammed bin Mubarak Al Khulaifi", t:0, p:78, s:"gov", roles:[
-    ["qgov","Chief of the Amiri Diwan","political","ns"]],
+    ["qgov","Chief of the Amiri Diwan","political","v"]],
     note:"Appointed by Amiri Order No. 3 of 2024 (12 Nov 2024), succeeding Sheikh Saoud bin Abdulrahman Al Thani; previously head of State Security. Source: The Peninsula/Gulf Times coverage of the Amiri Order; not yet independently confirmed on diwan.gov.qa."},
   {id:"faisal_bq", n:"H.E. Sheikh Faisal bin Qassim Al Thani", t:1, p:80, s:"conglomerate", roles:[
     ["alfaisal","Chairman","board","v"],
@@ -349,6 +359,7 @@ const PEOPLE = [
     ["qia","Member of the Board","board","v"]],
     note:"Runs the hydrocarbon engine — the single most consequential operator in Qatar's economy."},
   {id:"alkuwari_fin", n:"H.E. Ali bin Ahmed Al Kuwari", t:1, p:86, s:"finance", roles:[
+    ["cabinet","Minister of Finance","executive","v"],
     ["grsia_daman","Chairman of the Board","board","v"],
     ["mofin","Minister of Finance","political","v"],
     ["qnb","Chairman","board","v"],
@@ -363,6 +374,7 @@ const PEOPLE = [
     ["mofa_q","Minister of State (chief mediator)","political","v"]],
     note:"Qatar's lead negotiator in its signature mediation diplomacy."},
   {id:"almannai", n:"H.E. Mohammed bin Ali Al Mannai", t:1, p:74, s:"tech", roles:[
+    ["cabinet","Minister of Communications and Information Technology","executive","v"],
     ["qf","Member","board","v"],
     ["mocit","Minister of Communications & IT","political","v"]]},
   {id:"hanan", n:"H.E. Dr. Hanan Mohamed Al Kuwari", t:1, p:80, s:"health", roles:[
@@ -370,6 +382,7 @@ const PEOPLE = [
     ["moph","Minister of Public Health","political","v"],
     ["hmc","Managing Director","executive","v"]]},
   {id:"lolwah", n:"H.E. Lolwah Al-Khater", t:1, p:74, s:"education", roles:[
+    ["cabinet","Minister of Education and Higher Education","executive","v"],
     ["moehe_q","Minister of Education & Higher Education","political","v"]],
     note:"Moved from the Foreign Ministry / government spokesperson role to Education & Higher Education in the 12 Nov 2024 cabinet reshuffle."},
   {id:"buthaina", n:"H.E. Buthaina Al Nuaimi", t:1, p:72, s:"gov", roles:[
@@ -459,11 +472,13 @@ const PEOPLE = [
 
   // ===== ADDED SEP 2026 — KEY MINISTRIES PREVIOUSLY MISSING FROM THE MAP =====
   {id:"alattiya_mun", n:"H.E. Abdullah bin Hamad bin Abdullah Al Attiya", t:1, p:68, s:"gov", roles:[
+    ["cabinet","Minister of Municipality","executive","v"],
     ["qatariddiar","Chairman","board","v"],
     ["barwa","Chairman","board","v"],
     ["momun_q","Minister of Municipality","political","v"]],
     note:"Appointed January 2024."},
   {id:"mohammed_transport", n:"H.E. Sheikh Mohammed bin Abdulla bin Mohammed Al Thani", t:1, p:70, s:"gov", roles:[
+    ["cabinet","Minister of Transport","executive","v"],
     ["qfz","Vice Chairperson","board","v"],
     ["qatarrail","Chairman","board","v"],
     ["mot_q","Minister of Transport","political","v"]],
@@ -472,9 +487,11 @@ const PEOPLE = [
     ["qatarrail","Chief Executive Officer","executive","v"]],
     note:"Named Qatar Rail CEO (succeeding Dr. Abdulla bin Abdulaziz Al Subaie) at the new board's first meeting, reported May 2026; still CEO per QNA (Qatar News Agency) coverage of Qatar Rail's Oct 2026 Global Light Rail Awards win."},
   {id:"almarri_labour", n:"H.E. Dr. Ali bin Samikh Al Marri", t:1, p:68, s:"gov", roles:[
+    ["cabinet","Minister of Labour","executive","v"],
     ["molsa_q","Minister of Labour","political","v"]],
     note:"Re-appointed Minister of Labour by Amiri order in March 2023; formerly headed Qatar's National Human Rights Committee."},
   {id:"alsubaie_env", n:"H.E. Dr. Abdullah bin Abdulaziz bin Turki Al Subaie", t:1, p:66, s:"gov", roles:[
+    ["cabinet","Minister of Environment and Climate Change","executive","v"],
     ["moecc_q","Minister of Environment & Climate Change","political","v"]],
     note:"Appointed 8 January 2024."},
   {id:"ali_ahmed_al", n:"Ali Ahmed Al Kuwari", t:2, p:62, s:"finance", roles:[
@@ -918,6 +935,7 @@ const PEOPLE = [
     ["bein","Group Chief Executive Officer","executive","v"],
     ["ooredoo","Board Member","board","v"]]},
   {id:"essa_bin_hilal", n:"Essa Bin Hilal Al Kuwari", t:2, p:52, s:"comm", roles:[
+    ["cabinet","Minister of State","executive","ns"],
     ["ooredoo","Board Member","board","v"]]},
   {id:"mohammed_bin_nasser", n:"Mohammed Bin Nasser Al-Hajri", t:2, p:52, s:"comm", roles:[
     ["lst_giss","Board Member","board","v"],
@@ -1227,6 +1245,7 @@ const PEOPLE = [
   {id:"h_e_sheikh_b_b_b_b_b_b_b_b_b_b_b_b_b", n:"H.E. Sheikh Mohammed bin Hamad bin Khalifa Al Thani", t:2, p:62, s:"sovereign", roles:[
     ["qia","Vice Chairman","board","v"]]},
   {id:"mansoor_bin_ebrahim", n:"Mansoor bin Ebrahim Al-Mahmoud", t:2, p:60, s:"sovereign", roles:[
+    ["cabinet","Minister of Public Health","executive","v"],
     ["qfc","Board Member","board","v"],
     ["moph","Minister of Public Health","executive","v"],
     ["qia","Chief Executive Officer (2018-2024)","executive","v","former:until Jan 2025"]]},
@@ -1365,6 +1384,7 @@ const PEOPLE = [
   {id:"faisal_masood", n:"Faisal Masood", t:2, p:58, s:"finance", roles:[
     ["dohabank","Acting Chief Risk Officer","executive","v"]]},
   {id:"abdulaziz_bin_nasser", n:"Abdulaziz bin Nasser Al Khalifa", t:1, p:70, s:"gov", roles:[
+    ["cgb","President","executive","v"],
     ["grsia_daman","Vice Chairman of the Board","board","v"],
     ["npc","Secretary-General","executive","v"],
     ["qfba","Chairman of the Board","board","v"],
@@ -1557,7 +1577,7 @@ const PEOPLE = [
   {id:"mishal_bin_mohammed", n:"Mishal bin Mohammed bin Abdullah Al Mahmoud", t:2, p:52, s:"gov", roles:[
     ["qm","Board Member","board","v"]]},
   {id:"mohammed_bin_hassan", n:"Mohammed bin Hassan Al Malki", t:2, p:52, s:"gov", roles:[
-    ["moci","Undersecretary","executive","ns"],
+    ["moci","Undersecretary","executive","v"],
     ["qfz","Board Member","board","v"],
     ["qm","Board Member","board","v"]]},
   {id:"mohammed_bin_abdulaziz", n:"Mohammed bin Abdulaziz bin Mohammed Al Meer", t:2, p:52, s:"gov", roles:[
@@ -1586,6 +1606,7 @@ const PEOPLE = [
   {id:"mashael_ali_al", n:"Mashael Ali Al Hammadi", t:2, p:58, s:"gov", roles:[
     ["mocit","Assistant Undersecretary for Digital Government Affairs","executive","v"]]},
   {id:"ibrahim_bin_ali", n:"Ibrahim bin Ali bin Issa Al Hassan Al Mohannadi", t:2, p:58, s:"gov", roles:[
+    ["cabinet","Minister of Justice and Minister of State for Cabinet Affairs","executive","v"],
     ["moj_qatar","Minister of Justice and Minister of State for Cabinet Affairs","executive","v"]]},
   {id:"saeed_bin_abdullah", n:"Saeed bin Abdullah Al Suwaidi", t:2, p:58, s:"gov", roles:[
     ["moj_qatar","Undersecretary of the Ministry of Justice","executive","v"]]},
@@ -1739,6 +1760,7 @@ const PEOPLE = [
   {id:"mariam_ali_abdul", n:"Mariam Ali Abdul Malik", t:2, p:60, s:"health", roles:[
     ["phcc_qatar","Managing Director","executive","ns"]]},
   {id:"ghanem_bin_shaheen", n:"Ghanem bin Shaheen bin Ghanem Al Ghanim", t:2, p:52, s:"gov", roles:[
+    ["cabinet","Minister of Endowments (Awqaf) and Islamic Affairs","executive","v"],
     ["qatar_awqaf_ministry","Minister of Endowments (Awqaf) and Islamic Affairs","board","v"]]},
   {id:"ahmed_al_naser", n:"Ahmed Al Naser", t:2, p:58, s:"utilities", roles:[
     ["kahramaa","Director, Technical Affairs Sector","executive","ns"]]},
@@ -1922,6 +1944,7 @@ const PEOPLE = [
   {id:"khalid_bin_saud", n:"Khalid bin Saud bin Fahad Al Thani", t:2, p:52, s:"gov", roles:[
     ["qfma","Board Member","board","v"]]},
   {id:"michael_ryan", n:"Michael Ryan", t:2, p:52, s:"gov", roles:[
+    ["qfcra","Chief Executive Officer","executive","v"],
     ["qfma","Board Member","board","v"]]},
   {id:"ahmed_mohammed_issa", n:"Ahmed Mohammed Issa Al Hassan Al Mohannadi", t:2, p:52, s:"gov", roles:[
     ["qfma","Board Member","board","v"]]},
@@ -1945,6 +1968,7 @@ const PEOPLE = [
   {id:"ghanim_bin_khalifa", n:"Ghanim bin Khalifa Al-Attiyah", t:2, p:58, s:"gov", roles:[
     ["gen_tax_authority","Assistant President for Tax Affairs","executive","ns"]]},
   {id:"sheikh_abdulrahman_bin_b", n:"Sheikh Abdulrahman bin Hamad bin Jassim bin Hamad Al Thani", t:2, p:58, s:"gov", roles:[
+    ["cabinet","Minister of Culture","executive","v"],
     ["moc_qatar","Minister of Culture","executive","v"]]},
   {id:"ghanem_bin_mubarak", n:"Ghanem bin Mubarak Al Ali", t:2, p:58, s:"gov", roles:[
     ["moc_qatar","Undersecretary","executive","ns"]]},
@@ -2432,6 +2456,18 @@ const PEOPLE = [
     ["al_ahli_hospital","Independent Board Member","board","v"]]},
   {id:"jaber_rashid_al", n:"Jaber Rashid Al Nuaimi", t:2, p:58, s:"gov", roles:[
     ["wifaq_center","Executive Director","executive","ns"]]},
+  {id:"sultan_bin_saad", n:"Sultan bin Saad bin Sultan Al Muraikhi", t:2, p:58, s:"gov", roles:[
+    ["cabinet","Minister of State for Foreign Affairs","executive","v"]]},
+  {id:"hamad_bin_nasser", n:"Hamad bin Nasser Al-Misnad", t:2, p:58, s:"gov", roles:[
+    ["acta","President","executive","v"]]},
+  {id:"hassan_bin_lahdan", n:"Hassan bin Lahdan Al Hassan Al Mohannadi", t:2, p:58, s:"gov", roles:[
+    ["sjc","President of the Supreme Judiciary Council and President of the Court of Cassation","executive","v"]]},
+  {id:"maryam_bint_abdullah", n:"Maryam bint Abdullah Al Attiyah", t:2, p:62, s:"gov", roles:[
+    ["nhrc","Chairperson","board","v"]]},
+  {id:"mohammed_bin_saif", n:"Mohammed bin Saif Al Kuwari", t:2, p:62, s:"gov", roles:[
+    ["nhrc","Deputy Chairman","board","v"]]},
+  {id:"sultan_bin_hassan", n:"Sultan bin Hassan Al-Jamali", t:2, p:58, s:"gov", roles:[
+    ["nhrc","Secretary-General","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2578,6 +2614,7 @@ const OWNERSHIP = [
   ["q_chem","qatarenergy","affiliate (via Mesaieed Petrochemical Holding)","v"],
   ["qinvest","qib","majority-owned subsidiary (65.6% per QIB's own disclosure)","v"],
   ["al_jazeera_finance","qib","affiliate (30% stake per QIB's own disclosure)","v"],
+  ["assets","pih","subsidiary of Power International Holding","v"],
 ];
 
 const FAMILY = [
@@ -2691,4 +2728,5 @@ const AKA = {
   basf_coatings:["Carlyle/QIA venture"],
   al_attiyah_fdn:["Al-Attiyah Foundation","ABHA Foundation"],
   al_jazeera_finance:["Al Jazeera Finance Tamweel"],
+  cgb:["CSGDB"],
 };

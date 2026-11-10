@@ -104,7 +104,7 @@ const INSTITUTIONS = [
   {id:"lst_alsafat", n:"Al Safat Investment Company K.S.C.C", s:"finance", t:2, p:50, short:"ALSAFAT"},
   {id:"lst_ekttitab", n:"Ekttitab Holding", s:"finance", t:2, p:50, short:"Ekttitab Holding"},
   {id:"lst_sokouk", n:"Sokouk Holding", s:"realestate", t:2, p:50, short:"Sokouk Holding"},
-  {id:"lst_noor", n:"Noor Financial Investment Co", s:"finance", t:2, p:50, short:"NOOR"},
+  {id:"lst_noor", n:"Noor Financial Investment Co", s:"finance", t:2, p:58, short:"Noor Invest"},
   {id:"lst_taminv", n:"Tamdeen Investment Co KPSC", s:"finance", t:2, p:50, short:"TAMINV"},
   {id:"lst_emirates", n:"Kuwait Emirates Holding Company K.S.C.P", s:"finance", t:2, p:50, short:"EMIRATES"},
   {id:"lst_asiya", n:"Asiya Capital Investments Co", s:"finance", t:2, p:50, short:"ASIYA"},
@@ -262,6 +262,10 @@ const INSTITUTIONS = [
   {id:"mubarak_al_kabeer", n:"Mubarak Al-Kabeer Hospital", s:"health", t:2, p:58, short:"Mubarak Al-Kabeer"},
   {id:"dar_al_seyassah", n:"Dar Al-Seyassah", s:"comm", t:3, p:54, short:"Dar Al-Seyassah"},
   {id:"al_thekair", n:"Al-Thekair General Trading Co.", s:"finance", t:3, p:54, short:"Al-Thekair"},
+  {id:"kuwait_customs", n:"General Administration of Customs", s:"gov", t:2, p:58, short:"Kuwait Customs"},
+  {id:"paci", n:"Public Authority for Civil Information", s:"gov", t:2, p:62, short:"PACI"},
+  {id:"awqaf_kuwait", n:"Kuwait Awqaf Public Foundation", s:"sovereign", t:2, p:58, short:"Awqaf Kuwait"},
+  {id:"scpd_kuwait", n:"General Secretariat of the Supreme Council for Planning and Development", s:"gov", t:1, p:62, short:"SCPD Kuwait"},
 ];
 
 const PEOPLE = [
@@ -2166,6 +2170,24 @@ const PEOPLE = [
     ["lst_kmefic","Acting Chief Executive Officer / Head of Financial Brokerage","executive","v"]]},
   {id:"abdulmutaleb_a_m", n:"Abdulmutaleb A. M. Marafie", t:2, p:60, s:"realestate", roles:[
     ["lst_altijaria","Chief Executive Officer","executive","v"]]},
+  {id:"ahmed_al_saadoun", n:"Ahmed Al-Saadoun", t:1, p:52, s:"gov", roles:[
+    ["national_assembly","Speaker of the National Assembly (2023–Feb 2024; Assembly dissolved and suspended by Amiri Decree since 10 May 2024)","board","ns","former:until Feb 2024"]]},
+  {id:"mohammed_al_mutair", n:"Mohammed Al-Mutair", t:1, p:52, s:"gov", roles:[
+    ["national_assembly","Deputy Speaker of the National Assembly (2023–Feb 2024; Assembly dissolved and suspended by Amiri Decree since 10 May 2024)","board","ns","former:until Feb 2024"]]},
+  {id:"abdullah_dashti", n:"Abdullah Dashti", t:2, p:58, s:"health", roles:[
+    ["mubarak_al_kabeer","Assistant Hospital Director","executive","ns"]]},
+  {id:"riyadh_salem_ali", n:"Riyadh Salem Ali Edrees", t:2, p:62, s:"finance", roles:[
+    ["lst_noor","Chairman","board","v"]]},
+  {id:"abdulghani_mohammad_saleh", n:"Abdulghani Mohammad Saleh Behbehani", t:2, p:62, s:"finance", roles:[
+    ["lst_noor","Deputy Chairman","board","ns"]]},
+  {id:"rashid_ahmad_al", n:"Rashid Ahmad Al-Haroun", t:2, p:52, s:"finance", roles:[
+    ["lst_noor","Board Member","board","ns"]]},
+  {id:"abdullatif_al_ibrahim", n:"Abdullatif Al-Ibrahim", t:2, p:52, s:"finance", roles:[
+    ["lst_noor","Board Member","board","ns"]]},
+  {id:"gururaj_narasimha_rao", n:"Gururaj Narasimha Rao", t:2, p:60, s:"finance", roles:[
+    ["lst_noor","Chief Executive Officer","executive","ns"]]},
+  {id:"yousef_khaled_al_b_b", n:"Yousef Khaled Al-Nuwaif", t:2, p:58, s:"gov", roles:[
+    ["kuwait_customs","Director General (rank of Undersecretary; Amiri Decree No. 162/2025)","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2346,6 +2368,8 @@ const OWNERSHIP = [
   ["kirby_building_sys","alghanim","wholly-owned subsidiary (pre-engineered buildings manufacturer since 1976)","v"],
   ["al_sabah_hospital","moh_kuwait","government hospital operated by the Ministry of Health","ns"],
   ["mubarak_al_kabeer","moh_kuwait","government teaching hospital operated by the Ministry of Health","ns"],
+  ["kuwait_customs","mof_kw","customs administration operates under the Ministry of Finance","ns"],
+  ["scpd_kuwait","cabinet_kw","secretariat of the cabinet-chaired Supreme Council for Planning and Development","ns"],
 ];
 
 const FAMILY = [
@@ -2410,4 +2434,8 @@ const AKA = {
   arkan_al_kuwait:["ARKAN"],
   osn:["OSN+","OSNtv"],
   dar_al_seyassah:["Al-Seyassah","Arab Times"],
+  kuwait_customs:["Customs Authority","Customs Administration"],
+  paci:["Civil Information Authority"],
+  awqaf_kuwait:["KAPF","Awqaf Public Foundation"],
+  scpd_kuwait:["GSSCPD","Supreme Council for Planning and Development","SCPD"],
 };
