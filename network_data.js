@@ -4522,6 +4522,27 @@ const PEOPLE = [
   {id:"khaled_al_shemeili", n:"Khaled Al Shemeili", t:2, p:60, s:"industry", roles:[
     ["lst_emobility","Chief Executive Officer","executive","v"],
     ]},
+  {id:"reem_ebrahim_al", n:"Reem Ebrahim Al Hashimy", t:2, p:62, s:"education", roles:[
+    ["sorbonne","Chairwoman of the Board of Trustees","board","v"],
+    ]},
+  {id:"renaud_debailly", n:"Renaud Debailly", t:2, p:58, s:"education", roles:[
+    ["sorbonne","Deputy Vice-Chancellor for Academic Affairs","executive","v"],
+    ]},
+  {id:"ali_bin_khalfan", n:"Ali bin Khalfan Al Mutawa Al Dhaheri", t:2, p:62, s:"conglomerate", roles:[
+    ["alisons","Founder & Chairman","board","v"],
+    ]},
+  {id:"ahmed_bin_ali_b", n:"Ahmed bin Ali Al Dhaheri", t:2, p:62, s:"conglomerate", roles:[
+    ["alisons","Honorary Chairman of the Board of Directors","board","v"],
+    ]},
+  {id:"emad_elatreby", n:"Emad Elatreby", t:2, p:58, s:"conglomerate", roles:[
+    ["alisons","Chief Operating Officer - Ali & Sons Energy & Industrial","executive","v"],
+    ]},
+  {id:"mohamed_bin_ali", n:"Mohamed bin Ali Al Dhaheri", t:2, p:60, s:"conglomerate", roles:[
+    ["alisons","Managing Director - Motors Division","executive","v"],
+    ]},
+  {id:"joseph_kourieh", n:"Joseph Kourieh", t:2, p:52, s:"conglomerate", roles:[
+    ["alisons","Advisor to the Board of Directors","board","v"],
+    ]},
 ];
 
 const OWNERSHIP = [

@@ -925,6 +925,7 @@ const PEOPLE = [
   {id:"ganesh_kishore", n:"Ganesh Kishore", t:2, p:52, s:"materials", roles:[
     ["maaden","Board Member","board","v"]]},
   {id:"mohammed_al_qahtani", n:"Mohammed Al-Qahtani", t:2, p:52, s:"materials", roles:[
+    ["aramco_trading","Chairman","board","v"],
     ["maaden","Board Member","board","v"]]},
   {id:"robert_wilt", n:"Robert Wilt", t:2, p:60, s:"materials", roles:[
     ["maaden","Director, President & CEO","board","v"]]},
@@ -1065,6 +1066,7 @@ const PEOPLE = [
   {id:"yasser_m_mufti", n:"Yasser M. Mufti", t:2, p:58, s:"energy", roles:[
     ["aramco","Business Line Executive Vice President, Products & Customers","executive","v"]]},
   {id:"mohammed_k_al", n:"Mohammed K. Al-Mulhim", t:2, p:58, s:"energy", roles:[
+    ["aramco_trading","President & CEO","executive","v"],
     ["aramco","Senior Vice President, Aramco; President & CEO, Aramco Trading Company","executive","v"]]},
   {id:"sulaiman_m_ababtain", n:"Sulaiman M. Ababtain", t:2, p:58, s:"energy", roles:[
     ["aramco","Senior Vice President, Aramco (leading SOFON Holding)","executive","v"]]},
@@ -2659,6 +2661,7 @@ const PEOPLE = [
   {id:"michael_walsh", n:"Michael Walsh", t:2, p:60, s:"health", roles:[
     ["jhah","Chief Executive","executive","v"]]},
   {id:"bandar_al_knawy", n:"Bandar Al Knawy", t:2, p:60, s:"health", roles:[
+    ["ksau_hs","President","executive","ns"],
     ["mngha","Chief Executive Officer","executive","v"]]},
   {id:"saleh_alqahtani", n:"Saleh Alqahtani", t:2, p:62, s:"health", roles:[
     ["kfshrc","Vice Chairman of the Board","board","v"]]},
@@ -3846,6 +3849,8 @@ const PEOPLE = [
     ["lst_4240","Audit Committee Member","board","ns"]]},
   {id:"ismail_hassan_al", n:"Ismail Hassan Al Khatib", t:2, p:52, s:"consumer_disc", roles:[
     ["lst_4240","Audit Committee Member","board","ns"]]},
+  {id:"adel_tash", n:"Adel Tash", t:2, p:58, s:"health", roles:[
+    ["king_abdullah_mc","Executive Director General (CEO)","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
