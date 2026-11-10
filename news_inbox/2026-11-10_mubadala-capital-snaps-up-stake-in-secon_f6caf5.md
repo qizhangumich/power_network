@@ -1,0 +1,5 @@
+# Mubadala Capital Snaps Up Stake in Secondaries Firm LSV Advisors
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxPLVlUT1pYZC1Xcm5XYm9VcGVFdlpvVk5lN1VUejRaMVVJa1VQY1FyZmxWQWlyVXpIYjlIaTh5TnNuUzRpbmJNV0dtMFhkSjUzcUgxeG1DSkJvR3dMTHhrQm5jSFFsTTRXNkphdGozbjJxVWYxQi1BRHY4Ym02VnNGbjRFcVpDaFZNeHNCRzBkM0h1NEdMdkdUcE95X1Ezek9mVXRzQ1lLREdvRUJlSDJYVzU3anZ2QQ?oc=5
+
+Mubadala Capital Snaps Up Stake in Secondaries Firm LSV Advisors    Bloomberg.com

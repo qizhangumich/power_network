@@ -1,0 +1,5 @@
+# ADNOC Gas studying potential new export routes amid Hormuz disruption
+source: Reuters
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNbTVGS2RyTXNjdkZfWVhDVzdLSEZ6Z3RvMDVvM3laaTU3c3ZhRUZnb2lZVl92UjBiQWJjbjlVaFFjbXVFMnlrVjBIZzFxM2VsNzVXVmhVdzNCcS0xeDJPYng0YWpUMVZOWmU2dTlSaXFlTWU5d2oydzRyQ1htVHpKSVV1c3NKbUZWWWc2QUd5UmR4RTIzNDdsOTZTdkpfWjFfTDRhTUM4VjFkalEtNE55elJMenBjUUVST0RnV3pn?oc=5
+
+ADNOC Gas studying potential new export routes amid Hormuz disruption    Reuters

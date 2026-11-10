@@ -1,0 +1,5 @@
+# Under the oversight of the Department of Health – Abu Dhabi, PureHealth’s SEHA receives international accreditation for 12 residency programmes, strengthening specialist medical training in the emirate
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi3AJBVV95cUxOQUlTSjVBbVVydXI1MDgzb05RTkJPbG8yeXh3WTJnanJHWHUydHJ6bExFellyaENoUC1DaWtCeXRSNUpWM2ZNdHNaYVJRSlE1MmF6TmFJMTBJUzBzT0xaMVBsSjZYcjBzMWNMQlRabW5DUnpEZjNIc2ZOd0hHOVlrejdnZVdkc0pqbldLZ09ha0U2T1VmN0ZQSXZpUFpOZ1ZMY1p0LXNsRG1jSHZXaVh4dEhnN2VRX1pUU1ZZNU45NXZ0UDdjc2VCTXVHclpiUzZtXzNIaWFzT2xwTl8zTG5xYzBGMnJMTHNzbHJScnQ4a0FIMzdxOWlhUWhXZ0x3OGJpZ2VVRWZzclBGNmVWUk9oR25waFhvVmJSUEF2RGhmcVY5YjZidnB6ZWxIQTBJd3A3Z2R1RWxiekpJYW9kcFBiMFl5S0pmcEtDem9LeDdBS1gzbW1sbXFpbmR2Vkc?oc=5
+
+Under the oversight of the Department of Health – Abu Dhabi, PureHealth’s SEHA receives international accreditation for 12 residency programmes, strengthening specialist medical training in the emirate    مكتب أبوظبي الإعلامي

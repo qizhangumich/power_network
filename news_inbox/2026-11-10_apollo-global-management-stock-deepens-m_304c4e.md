@@ -1,0 +1,5 @@
+# Apollo Global Management stock deepens Mubadala ties
+source: ad-hoc-news.de
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxNTVc1bjdtOVcweW9ZTE1HQm82ekJ0d0oyM3dTU2FHVnlONGVyX1lXM2dNVEYyNTluWGZDSWtLOFN6ZG42WWl6aUQ5T1RwMGsydC1HR1lzcnBTdWhQSEZhV1RnZ3Btd2t2clU2RVVnbDVZSURYYXNSR2dJVW9lSTdGNHNCbC0zbjBTVFU4dHhFRkh3RWZyaURIMXlrTXp6Y3U2ZVhjTUVaM0VuLTJIOUhpcW9YTWVIZw?oc=5
+
+Apollo Global Management stock deepens Mubadala ties    ad-hoc-news.de

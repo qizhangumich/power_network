@@ -1,0 +1,5 @@
+# First Abu Dhabi Bank Weighs Multibillion-Dollar Rights Issue
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxOWkl2WnIwQXUtX3pLekREMXdxSEwwc3JNWXBlbjM5QUN0VGVoOHRnbll1OG45c1NkV1dESkJScDVqUG4zYW5nb2dNSHRmbHVudlVGWWV6VEJsUjRtZ0ZlWU00S0F0Y0dGVDBsMWFnU3U4bUMwM3ZpNWMyeHBkOVFCLWhLN3NkeEIzbUZkdWptdEJTSWJBbGx1TVluZXplcFpfSHdYaTIzblJJMzJ1NHphbQ?oc=5
+
+First Abu Dhabi Bank Weighs Multibillion-Dollar Rights Issue    Bloomberg.com

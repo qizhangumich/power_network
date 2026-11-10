@@ -1,0 +1,5 @@
+# UAE shares fall as geopolitical uncertainty keeps traders cautious
+source: KLSE Screener
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPeURVd29XWnctbmd1eHZ0al8xWVVEMHg4VHY4UUdfM1JiWWxyX3BxMDJMeDY3TUVSVzB4Nm5DUVVDdzNqcDEzSGdMa1dQdWVCc1ZraHdhWHBRTldMNTVMZGtzWC1hbFZ3d2hDZ1Y5RDF6VE1zbmcxMDVySlQxajVGcFlVMWswRWhwWUhXMUxva245QkVZRDNNOFlPQmk5dExTTHJsUXA4ZWc3ZnBKaDFfb21aVEREYzg?oc=5
+
+UAE shares fall as geopolitical uncertainty keeps traders cautious    KLSE Screener

@@ -1,0 +1,5 @@
+# Sheikh Khaled approves latest stage of Abu Dhabi's Emirati family growth drive
+source: www.thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxOS21fWk9ocWIzdTNBbDlKMEhXSzZ0TkNXd1ZJT0J2Mk02NUllaU91UG9EOC1GWmpQbVV4Rk9QNGRiVldLV3NYV0tGRlBzU2Jabkw4dlN0WW9rV0EtRHNlazQ0X29pUXhMV3ZlU0wtUVQxOWc1bFVPNi0waG5yVm9tNVhMWFotbThuZndrTE1MWHlRWjNhRTBfSDBHUGw2Wm9nRDFBLW1XTGZ0ZkZON1hrVFNRaERMdUEtV0I1WDUybUxqdnpuYVUteWZR?oc=5
+
+Sheikh Khaled approves latest stage of Abu Dhabi's Emirati family growth drive    www.thenationalnews.com

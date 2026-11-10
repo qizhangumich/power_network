@@ -1,0 +1,5 @@
+# Etihad unveils McLaren aircraft livery ahead of 2026 Abu Dhabi Grand Prix
+source: The National
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOVF6bWx6UThrLXh3TEhTNnJxaWZYSlRPZUVJMU52Z1JjdnFoZHZPa3NPaUhBZW5MX0hyT25TdHBBYmQxNzdXRHA0YUdMZnFzOTlrbnliSU5BckZqekNZT21iV05jTW5pZ1lRZ1B3UUZ2TEJUN1Q2TkE1RU5EVkJMaVp6S2EzeElXQnRfeDJ1TlZVQmxidnlDM21WeWhlZ292Um42allzeEZDelJyWlh2WVQyY0dVSVo4M2FIaUFNby1HZw?oc=5
+
+Etihad unveils McLaren aircraft livery ahead of 2026 Abu Dhabi Grand Prix    The National

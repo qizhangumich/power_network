@@ -1,0 +1,5 @@
+# Watch Adnoc Gas CFO: Still Exploring Opportunities in Fujairah
+source: Bloomberg.com
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNRFBpdFlpc2VwRUFLLTljTGNKYlBQeXlxeVVSUVpGanFWNl90dDhNbVQ4QnBZNFpvV3dqQzlnY3BsRHIzR0hhV1lOV3dZeS1RMTZRU0dCaTdGWWg4UFVuNEpEMkFyaWhNT1JFNUxkRzlDa2FCY0dUeVNPZ2t4T0xxa01DcmRLUjFlM3ZuSmcwOVY2U1JxOGl2Q0dfLVNxTlRPMjJVemVKaTd3MmZhaHBz?oc=5
+
+Watch Adnoc Gas CFO: Still Exploring Opportunities in Fujairah    Bloomberg.com
