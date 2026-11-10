@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed chairs Emirates Genome Council meeting, approves 2026-2031 National Genomics Masterplan
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi_wFBVV95cUxQa000MHFucWpVU1czRHNGYVg0MmhpYnpQNmZCZ3RxSnN2Y09rcEhBNHg2NTl3R3UwYW9DM3M0TEV1Z0FnNmJmdDhaS0lUQzVnTmExS2RIdDN5ZGNackIwLVpBdDJfcTJvLV9XbnFLNFlvUFR2eHBtajhqUTlfRGtNRUZlNTVJMm9KaFhMUUxYVUhKMk9aYmdsQ0NoY1l2dVowTUpxZ1VORE95cWYwTHVoUHRHUWxkUnZEYUJaUGFVTVZLZldMYWVyODI0dEtkWWtDT05uWllzR2M3Z1dtRDc4R01tVThZMUZoVVlOWnNUbmZOWmJnTjZoTVJ2YWpFR0E?oc=5
+
+Khaled bin Mohamed bin Zayed chairs Emirates Genome Council meeting, approves 2026-2031 National Genomics Masterplan    مكتب أبوظبي الإعلامي

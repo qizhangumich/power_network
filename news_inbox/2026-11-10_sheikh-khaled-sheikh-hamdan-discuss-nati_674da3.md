@@ -1,0 +1,5 @@
+# Sheikh Khaled, Sheikh Hamdan discuss national priorities, strategic directions
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQUVQNnZBU2FSR0R2cVhwcUVFVlhlQm1haFpjSGRQQ1lYMWhNYm9sbW9UZUJhNGFvdEJmX2FMS2dWSjFQRDJuczhaT1JHcWw1RkpBODRTU0xoUUl4VHA0dW1RNDlfdVdxamMzNWw2UDhKd3l4ci11VnF0SnRCaERRM3picmlMNzNJYzBaN0lKc3lGSUk2aVB3QmtId1d3Snl0MjFsVnh3aDN2QjBVN0dad0t0MWJpa3l1?oc=5
+
+Sheikh Khaled, Sheikh Hamdan discuss national priorities, strategic directions    Gulf Today

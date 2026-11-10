@@ -1,0 +1,5 @@
+# PARTNER CONTENTDubai’s booming business of storing people’s stuff2h ago4m read
+source: Gulf News
+url: https://gulfnews.com/business/dubais-booming-business-of-storing-other-peoples-stuff-1.500741205
+
+

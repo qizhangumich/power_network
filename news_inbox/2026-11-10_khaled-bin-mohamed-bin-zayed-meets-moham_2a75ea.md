@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed meets Mohammed bin Hamad Al Sharqi on sidelines of UAE Government Annual Meetings
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYm1mdFN4ZmJ2NkdTUXhRT29UQ3k3UE9NWDFFd254MzJwbnFEeWZBWWxSdVJoR1VFVFptOU5NNEx6ZDhQaG5QMlFScmhCQWF2c3lMbW1wQy1SUlIyWjRaMjB1Ym4wQ0ZEUndWUXd5X19GdkZEeDB1NGZHSS1aQlRoTzBEUk01TC1wQUhWM0lsOUpiOENJWTBkLVNTelVFeEFrcVF3cXI4Z1Nfa2JwaExoNGwycnpCT1BSYl9FLXMtMkYtcFRRU056bHpmbmZiRm5UZDBRSHZUSjNGTENHZWFFR2xDN3BLdjNKaHNrSHQzejJMZTgzaXU4Sg?oc=5
+
+Khaled bin Mohamed bin Zayed meets Mohammed bin Hamad Al Sharqi on sidelines of UAE Government Annual Meetings    مكتب أبوظبي الإعلامي
