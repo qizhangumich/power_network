@@ -258,6 +258,14 @@ const INSTITUTIONS = [
   {id:"denizbank", n:"DenizBank A.Ş.", s:"finance", t:2, p:62, short:"DenizBank"},
   {id:"tanfeeth", n:"Tanfeeth", s:"industry", t:3, p:54, short:"Tanfeeth"},
   {id:"ellington_props", n:"Ellington Properties", s:"realestate", t:3, p:54, short:"Ellington Props"},
+  {id:"dubai_taxi", n:"Dubai Taxi Company P.J.S.C.", s:"industry", t:2, p:60, short:"Dubai Taxi"},
+  {id:"dubai_refreshment", n:"Dubai Refreshment P.J.S.C.", s:"consumer_stap", t:3, p:54, short:"Dubai Refreshment"},
+  {id:"wasl_asset_mgmt", n:"wasl Asset Management Group", s:"realestate", t:2, p:62, short:"Wasl Asset Mgmt"},
+  {id:"nfpc", n:"National Food Products Company", s:"consumer_stap", t:2, p:60, short:"NFPC"},
+  {id:"asgc", n:"Al Shafar General Contracting (ASGC)", s:"industry", t:2, p:68, short:"ASGC"},
+  {id:"azizi_developments", n:"Azizi Developments", s:"realestate", t:2, p:66, short:"Azizi Developments"},
+  {id:"omniyat", n:"OMNIYAT", s:"realestate", t:2, p:65, short:"Omniyat"},
+  {id:"select", n:"Select Group", s:"realestate", t:3, p:55, short:"Select Group"},
 ];
 
 const PEOPLE = [
@@ -280,6 +288,7 @@ const PEOPLE = [
     ["difc","President","political","v"]],
     note:"Dubai's financial-markets czar: DIFC, the IPO program and federal finance."},
   {id:"ahmed_saeed", n:"H.H. Sheikh Ahmed bin Saeed Al Maktoum", t:0, p:92, s:"industry", roles:[
+    ["dh_investments","Chairman","board","v"],
     ["dhre","Chairman","board","v"],
     ["dafza","Chairman, Dubai Integrated Economic Zones Authority (DIEZ)","board","v"],
     ["meydan","Head of Dubai Holding Group (incorporating Meydan since March 2024)","board","v"],
@@ -373,6 +382,7 @@ const PEOPLE = [
     ["al_habtoor_real","Chairman","board","v"],
     ["alhabtoor","Founder & Chairman","board","v"]]},
   {id:"amit_kaushal", n:"Amit Kaushal", t:2, p:72, s:"sovereign", roles:[
+    ["dh_investments","Group Chief Executive Officer","executive","v"],
     ["dhre","Group Chief Executive Officer","executive","v"],
     ["empower","Board Member","board","ns"],
     ["meraas","Group Chief Executive Officer","executive","v"],
@@ -444,6 +454,7 @@ const PEOPLE = [
   {id:"mark_steward_dfsa", n:"Mark Steward", t:2, p:68, s:"finance", roles:[
     ["dfsa","Chief Executive","executive","v"]]},
   {id:"hesham_abdulla_al", n:"Hesham Abdulla Al Qassim", t:2, p:62, s:"finance", roles:[
+    ["denizbank","Chairman of the Board of Directors","board","v"],
     ["emirates_islamic","Chairman","board","v"],
     ["lst_amlak","Board Member","board","v"],
     ["enbd","Vice Chairman & Managing Director","board","v"]]},
@@ -473,15 +484,19 @@ const PEOPLE = [
     ["jumaalmajid","Vice Chairman","board","v"],
     ["enbd","Board Member","board","v"]]},
   {id:"shayne_nelson", n:"Shayne Nelson", t:2, p:58, s:"finance", roles:[
+    ["denizbank","Vice Chairman of the Board of Directors","board","v"],
     ["emirates_islamic","Director","board","v"],
     ["enbd","Group Chief Executive Officer","executive","v"]]},
   {id:"patrick_sullivan", n:"Patrick Sullivan", t:2, p:58, s:"finance", roles:[
+    ["denizbank","Member of the Board of Directors","board","v"],
     ["enbd","Group Chief Financial Officer","executive","v"]]},
   {id:"ahmed_al_qassim", n:"Ahmed Al Qassim", t:2, p:58, s:"finance", roles:[
+    ["denizbank","Member of the Board of Directors","board","v"],
     ["enbd","Group Head Wholesale Banking","executive","v"]]},
   {id:"marwan_hadi", n:"Marwan Hadi", t:2, p:58, s:"finance", roles:[
     ["enbd","Group Head Retail Banking & Wealth Management","executive","v"]]},
   {id:"eman_abdulrazzaq", n:"Eman Abdulrazzaq", t:2, p:58, s:"finance", roles:[
+    ["denizbank","Member of the Board of Directors","board","v"],
     ["enbd","Group COO & Chief Human Resources Officer","executive","v"],
     ["emaar","Board Member","board","v"]]},
   {id:"manoj_chawla", n:"Manoj Chawla", t:2, p:58, s:"finance", roles:[
@@ -763,6 +778,7 @@ const PEOPLE = [
   {id:"robert_booth", n:"Robert Booth", t:2, p:52, s:"conglomerate", roles:[
     ["maf","Non-Executive Director","board","v"]]},
   {id:"khalid_al_malik", n:"Khalid Al Malik", t:2, p:60, s:"sovereign", roles:[
+    ["dh_investments","Group Managing Director","executive","v"],
     ["dhre","Chief Executive Officer of Dubai Holding Real Estate","executive","v"],
     ["dubai_properties","Acting Group Chief Executive Officer (pre-DHRE role, 2014)","executive","ns","former:until 2015"],
     ["meraas","Chief Executive Officer - Dubai Holding Real Estate (Meraas brand)","executive","ns"],
@@ -2743,6 +2759,31 @@ const PEOPLE = [
     ["fakhruddin_prop","Chief Operating Officer","executive","ns"]]},
   {id:"mohammad_omar_bin", n:"Mohammad Omar Bin Haider", t:2, p:62, s:"conglomerate", roles:[
     ["mobh","Founder and Chairman","board","ns"]]},
+  {id:"elie_naaman", n:"Elie Naaman", t:2, p:60, s:"realestate", roles:[
+    ["ellington_props","Co-Founder & CEO","executive","v"]]},
+  {id:"robert_d_booth", n:"Robert D. Booth", t:2, p:60, s:"realestate", roles:[
+    ["ellington_props","Co-Founder & Managing Director","executive","v"]]},
+  {id:"joseph_thomas", n:"Joseph Thomas", t:2, p:58, s:"realestate", roles:[
+    ["ellington_props","Co-Founder","executive","v"]]},
+  {id:"vamshi_krishna", n:"Vamshi Krishna", t:2, p:58, s:"realestate", roles:[
+    ["ellington_props","Chief Financial Officer","executive","v"]]},
+  {id:"mark_amirault", n:"Mark Amirault", t:2, p:58, s:"realestate", roles:[
+    ["ellington_props","Chief Development Officer","executive","v"]]},
+  {id:"kevin_yates", n:"Kevin Yates", t:2, p:58, s:"realestate", roles:[
+    ["ellington_props","Chief Construction Officer","executive","v"]]},
+  {id:"lawrence_martin", n:"Lawrence Martin", t:2, p:58, s:"realestate", roles:[
+    ["ellington_props","Executive Director, Development","executive","v"]]},
+  {id:"recep_ba_tu", n:"Recep Baştuğ", t:2, p:60, s:"finance", roles:[
+    ["denizbank","Member of the Board of Directors","board","v"],
+    ["denizbank","Chief Executive Officer (General Manager)","executive","v"]]},
+  {id:"aazar_ali_khwaja", n:"Aazar Ali Khwaja", t:2, p:52, s:"finance", roles:[
+    ["denizbank","Member of the Board of Directors","board","v"]]},
+  {id:"burcu_al_kl", n:"Burcu Çalıklı", t:2, p:52, s:"finance", roles:[
+    ["denizbank","Member of the Board of Directors","board","v"]]},
+  {id:"erkan_do_an", n:"Erkan Doğan", t:2, p:62, s:"finance", roles:[
+    ["denizbank","Member of the Board of Directors, Audit Committee Chairman","board","v"]]},
+  {id:"murat_atay", n:"Murat Atay", t:2, p:58, s:"finance", roles:[
+    ["denizbank","Executive Vice President, Credits Group (Deputy General Manager)","executive","v"]]},
 ];
 
 const OWNERSHIP = [

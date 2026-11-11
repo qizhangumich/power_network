@@ -1454,6 +1454,7 @@ const PEOPLE = [
   {id:"sarah_jammaz_alsuhaimi", n:"Sarah Jammaz Alsuhaimi", t:2, p:62, s:"energy", roles:[
     ["lst_4030","Chairwoman","board","v"]]},
   {id:"abdulla_mohammed_alzamil", n:"Abdulla Mohammed Alzamil", t:2, p:62, s:"energy", roles:[
+    ["zamil_steel","Chairman","board","ns"],
     ["saudi_global_ports","Chairman of the Board","board","v"],
     ["lst_4030","Vice Chairman","board","v"]]},
   {id:"ahmed_ali_alsubaey", n:"Ahmed Ali Alsubaey", t:2, p:60, s:"energy", roles:[
@@ -3851,6 +3852,36 @@ const PEOPLE = [
     ["lst_4240","Audit Committee Member","board","ns"]]},
   {id:"adel_tash", n:"Adel Tash", t:2, p:58, s:"health", roles:[
     ["king_abdullah_mc","Executive Director General (CEO)","executive","ns"]]},
+  {id:"mohammed_al_sarhan", n:"Mohammed Al-Sarhan", t:2, p:62, s:"finance", roles:[
+    ["barclays_saudi","Independent Non-Executive Chairman","board","v"]]},
+  {id:"khaled_el_dabag", n:"Khaled El Dabag", t:2, p:52, s:"finance", roles:[
+    ["barclays_saudi","Executive Director; Co-CEO Middle East","board","v"]]},
+  {id:"walid_mezher", n:"Walid Mezher", t:2, p:52, s:"finance", roles:[
+    ["barclays_saudi","Executive Director; Co-CEO Middle East","board","v"]]},
+  {id:"talal_ahmed_al", n:"Talal Ahmed Al Khereiji", t:2, p:52, s:"finance", roles:[
+    ["barclays_saudi","Independent Non-Executive Director","board","v"]]},
+  {id:"majed_al_hassoun", n:"Majed Al Hassoun", t:2, p:60, s:"finance", roles:[
+    ["barclays_saudi","CEO and Head of Investment Banking, Barclays Capital Saudi","executive","v"]]},
+  {id:"susheel_jain", n:"Susheel Jain", t:2, p:58, s:"finance", roles:[
+    ["barclays_saudi","Chief Financial Officer","executive","v"]]},
+  {id:"khalid_a_al", n:"Khalid A. Al-Harthi", t:2, p:60, s:"energy", roles:[
+    ["sasref","President and Chief Executive Officer","executive","v"]]},
+  {id:"yaser_fallatah", n:"Yaser Fallatah", t:2, p:46, s:"energy", roles:[
+    ["sasref","General Manager, Operations","executive","v"]]},
+  {id:"raed_al_saadoun", n:"Raed Al-Saadoun", t:2, p:46, s:"energy", roles:[
+    ["sasref","General Manager, Maintenance","executive","v"]]},
+  {id:"hesham_al_zallal", n:"Hesham Al-Zallal", t:2, p:46, s:"energy", roles:[
+    ["sasref","General Manager, Reliability","executive","v"]]},
+  {id:"abdulkareem_al_shammari", n:"Abdulkareem Al-Shammari", t:2, p:46, s:"energy", roles:[
+    ["sasref","General Manager, Security, Safety & Environment","executive","v"]]},
+  {id:"khalid_al_sayouhi", n:"Khalid Al-Sayouhi", t:2, p:58, s:"energy", roles:[
+    ["sasref","Chief Financial Officer","executive","v"]]},
+  {id:"menahi_al_utaibi", n:"Menahi Al-Utaibi", t:2, p:58, s:"energy", roles:[
+    ["sasref","Vice President","executive","v"]]},
+  {id:"fawzi_al_somali", n:"Fawzi Al-Somali", t:2, p:58, s:"energy", roles:[
+    ["sasref","Vice President","executive","v"]]},
+  {id:"nawaf_mohammed_al", n:"Nawaf Mohammed Al Zamil", t:2, p:60, s:"materials", roles:[
+    ["zamil_steel","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -4295,6 +4326,7 @@ const AKA = {
   kaec:["Emaar, The Economic City","Emaar Economic City","4220"],
   al_sagri:["HHC"],
   lst_2290:["2290","YANSAB"],
+  lst_4100:["Makkah Construction","MCDC"],
   lst_3050:["Southern Cement"],
   lst_4017:["Dr. Soliman Fakeeh Care Co.","Dr. Soliman Fakeeh Hospital","DSFH"],
   lst_4310:["Knowledge Economic City Company"],

@@ -343,6 +343,8 @@ const INSTITUTIONS = [
   {id:"fab_private_bank", n:"FAB Private Bank (Suisse) SA", s:"finance", t:3, p:54, short:"FAB Private Bank CH"},
   {id:"nimr_automotive", n:"Nimr Automotive", s:"industry", t:3, p:55, short:"Nimr Automotive"},
   {id:"halcon", n:"Halcon", s:"industry", t:3, p:56, short:"Halcon"},
+  {id:"foodco", n:"Foodco National Foodstuff PJSC", s:"consumer_stap", t:3, p:51, short:"Foodco"},
+  {id:"eagle_hills", n:"Eagle Hills", s:"realestate", t:2, p:62, short:"Eagle Hills"},
 ];
 
 const PEOPLE = [

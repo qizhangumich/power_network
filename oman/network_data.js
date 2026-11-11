@@ -251,6 +251,7 @@ const INSTITUTIONS = [
   {id:"public_prosecution", n:"Public Prosecution", s:"gov", t:1, p:66, short:"Public Prosecution"},
   {id:"supreme_jud_council", n:"Supreme Judicial Council", s:"gov", t:1, p:66, short:"Supreme Jud. Council"},
   {id:"nraa", n:"National Records and Archives Authority", s:"gov", t:3, p:54, short:"NRAA"},
+  {id:"al_haditha_energy", n:"Al Haditha Energy SAOC", s:"energy", t:3, p:52, short:"Al Haditha Energy"},
 ];
 
 const PEOPLE = [

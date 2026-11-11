@@ -404,6 +404,7 @@ const PEOPLE = [
     ["qia","Member of the Board","board","v"]],
     note:"The global face of Qatari sport and sports media — PSG, beIN, European club football politics."},
   {id:"thawadi", n:"Hassan Al Thawadi", t:1, p:76, s:"gov", roles:[
+    ["qatar_holding","General Counsel (former)","executive","ns"],
     ["scdl","Secretary-General","executive","v"],
     ["qia","Member of the Board","board","v"]],
     note:"Delivered the 2022 World Cup; the legacy body carries the network built around it."},
@@ -427,6 +428,7 @@ const PEOPLE = [
   {id:"mansoor_alkhater_qfc", n:"Mansoor Rashid Al-Khater", t:2, p:70, s:"finance", roles:[
     ["qfc","Chief Executive Officer","executive","v"]]},
   {id:"moutaz", n:"Moutaz Al-Khayyat", t:2, p:72, s:"conglomerate", roles:[
+    ["assets","Chairman","board","v"],
     ["lst_igrd","Chairman","board","v"],
     ["pih","Chairman","board","v"],
     ["baladna","Chairman","board","v"]],
@@ -852,6 +854,8 @@ const PEOPLE = [
   {id:"gokhan_ozkan", n:"Gokhan Ozkan", t:2, p:46, s:"conglomerate", roles:[
     ["aamal","General Manager of Aamal Medical","executive","v"]]},
   {id:"ramez_al_khayyat", n:"Ramez Al-Khayyat", t:2, p:52, s:"consumer_stap", roles:[
+    ["assets","President","executive","v"],
+    ["assets","Vice Chairman","board","v"],
     ["pih","President & Group CEO","executive","v"],
     ["lst_igrd","Vice Chairman & President","board","v"],
     ["baladna","President","board","v"]]},
@@ -865,6 +869,7 @@ const PEOPLE = [
     ["lst_igrd","Independent Board Member","board","v"],
     ["baladna","Independent Board Member","board","v"]]},
   {id:"nasser_hassan_al", n:"Nasser Hassan Al Ansari", t:2, p:52, s:"consumer_stap", roles:[
+    ["assets","Board Member","board","v"],
     ["baladna","Independent Board Member","board","v"]]},
   {id:"aidan_tynan", n:"Aidan Tynan", t:2, p:52, s:"consumer_stap", roles:[
     ["baladna","Independent Board Member","board","v"]]},
@@ -1657,8 +1662,11 @@ const PEOPLE = [
   {id:"hamad_ghanim_sultan", n:"Hamad Ghanim Sultan Al-Hodeifi Al-Kuwari", t:2, p:52, s:"conglomerate", roles:[
     ["lst_igrd","Board Member","board","v"]]},
   {id:"eyad_ihsan_abdulrahim", n:"Eyad Ihsan Abdulrahim", t:2, p:52, s:"conglomerate", roles:[
+    ["assets","Board Member","board","v"],
     ["lst_igrd","Board Member (representing Urbacon Trading & Contracting LLC)","board","v"]]},
   {id:"khaled_al_non", n:"Khaled Al-Non", t:2, p:52, s:"conglomerate", roles:[
+    ["assets","Group Chief Executive Officer","executive","v"],
+    ["assets","Board Member","board","v"],
     ["lst_igrd","Board Member","board","v"]]},
   {id:"mohamad_mohamad_sadiq", n:"Mohamad Mohamad Sadiq Al-Dawamneh", t:2, p:52, s:"conglomerate", roles:[
     ["lst_igrd","Board Member (representing H Collective Holding LLC)","board","v"]]},
@@ -1906,6 +1914,7 @@ const PEOPLE = [
   {id:"max_mirgoli", n:"Max Mirgoli", t:2, p:52, s:"gov", roles:[
     ["invest_qatar","Advisory Council Member","board","v"]]},
   {id:"maurice_ghattas", n:"Maurice Ghattas", t:2, p:60, s:"conglomerate", roles:[
+    ["assets","Board Member","board","v"],
     ["pih","Group Deputy CEO","executive","v"]]},
   {id:"samer_ibrahim", n:"Samer Ibrahim", t:2, p:58, s:"conglomerate", roles:[
     ["pih","Group Chief Financial & Investment Officer","executive","v"]]},
@@ -2470,6 +2479,32 @@ const PEOPLE = [
     ["nhrc","Deputy Chairman","board","v"]]},
   {id:"sultan_bin_hassan", n:"Sultan bin Hassan Al-Jamali", t:2, p:58, s:"gov", roles:[
     ["nhrc","Secretary-General","executive","v"]]},
+  {id:"omar_al_salihi", n:"Omar Al Salihi", t:2, p:52, s:"realestate", roles:[
+    ["assets","Board Member","board","v"]]},
+  {id:"abid_butt", n:"Abid Butt", t:2, p:52, s:"realestate", roles:[
+    ["assets","Board Member","board","v"]]},
+  {id:"mahmoud_abdelkhaliq", n:"Mahmoud Abdelkhaliq", t:2, p:58, s:"realestate", roles:[
+    ["assets","Group Chief Financial Officer","executive","v"]]},
+  {id:"besher_jannan", n:"Besher Jannan", t:2, p:58, s:"realestate", roles:[
+    ["assets","Group Chief Delivery Officer","executive","v"]]},
+  {id:"roy_khattar", n:"Roy Khattar", t:2, p:58, s:"realestate", roles:[
+    ["assets","Group Chief Business Development Officer","executive","v"]]},
+  {id:"izzat_husrieh", n:"Izzat Husrieh", t:2, p:58, s:"realestate", roles:[
+    ["assets","Group Chief Customer Officer","executive","v"]]},
+  {id:"thorsten_ries", n:"Thorsten Ries", t:2, p:60, s:"realestate", roles:[
+    ["assets","Chief Executive Officer - Hospitality","executive","v"]]},
+  {id:"rony_mourani", n:"Rony Mourani", t:2, p:60, s:"realestate", roles:[
+    ["assets","Chief Executive Officer - Commercial, Residential and Education","executive","v"]]},
+  {id:"amr_basiouny", n:"Amr Basiouny", t:2, p:60, s:"realestate", roles:[
+    ["assets","Chief Executive Officer - Development","executive","v"]]},
+  {id:"tariq_alsabbagh", n:"Tariq Alsabbagh", t:2, p:58, s:"sovereign", roles:[
+    ["qatar_holding","General Counsel","executive","v"]]},
+  {id:"ibrahim_ali_abdullah", n:"Ibrahim Ali Abdullah", t:2, p:58, s:"gov", roles:[
+    ["acta","Director of Transparency","executive","ns"]]},
+  {id:"amal_al_kuwari", n:"Amal Al Kuwari", t:2, p:58, s:"gov", roles:[
+    ["acta","Director of Supervision and Development","executive","ns"]]},
+  {id:"mohamed_bin_khalid", n:"Mohamed bin Khalid Al Sada", t:2, p:58, s:"gov", roles:[
+    ["acta","Director of Legal Affairs Department","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

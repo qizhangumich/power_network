@@ -768,6 +768,7 @@ const PEOPLE = [
   {id:"emma_campbell", n:"Emma Campbell", t:2, p:58, s:"gov", roles:[
     ["raktda","Chief Marketing Officer","executive","ns"]]},
   {id:"khalid_bin_rashid", n:"Khalid bin Rashid Al Mualla", t:2, p:62, s:"gov", roles:[
+    ["uaq_ports_customs","Chairman of the Board of Directors","board","ns"],
     ["uaqftz","Chairman","board","v"]]},
   {id:"hamed_kazim", n:"Hamed Kazim", t:2, p:52, s:"consumer_stap", roles:[
     ["iffco","Board Director","board","v"]]},
@@ -1561,6 +1562,12 @@ const PEOPLE = [
     ["ajman_land_re","Director-General","executive","v"]]},
   {id:"salem_ali_salem", n:"Salem Ali Salem Marshoud Al Hafiti", t:2, p:58, s:"gov", roles:[
     ["fuj_creative_city","Director","executive","ns"]]},
+  {id:"khaled_al_hosani", n:"Khaled Al Hosani", t:2, p:60, s:"realestate", roles:[
+    ["ajman_properties","Chief Executive Officer","executive","ns"]]},
+  {id:"ahmed_khalfan_al", n:"Ahmed Khalfan Al Shamsi", t:2, p:58, s:"realestate", roles:[
+    ["ajman_land_re","Director of Real Estate Registration","executive","v"]]},
+  {id:"sheikh_ahmad_bin", n:"Sheikh Ahmad bin Rashid bin Abdul Aziz Al Mualla", t:2, p:62, s:"gov", roles:[
+    ["uaq_ports_customs","Deputy Chairman of the Board of Directors","board","ns"]]},
 ];
 
 const OWNERSHIP = [

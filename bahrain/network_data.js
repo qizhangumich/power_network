@@ -3706,6 +3706,30 @@ const PEOPLE = [
     ["al_hawaj","Chairman and Managing Director","board","ns"]]},
   {id:"mohamed_al_kooheji", n:"Mohamed Al Kooheji", t:2, p:60, s:"conglomerate", roles:[
     ["kanoo","Group Chief Executive Officer","executive","ns"]]},
+  {id:"paul_perris", n:"Paul Perris", t:2, p:60, s:"finance", roles:[
+    ["yasira","Chief Executive Officer","executive","v"]]},
+  {id:"ahmad_al_najjar", n:"Ahmad Al Najjar", t:2, p:58, s:"finance", roles:[
+    ["yasira","Chief Operating Officer","executive","v"]]},
+  {id:"michael_pankhurst", n:"Michael Pankhurst", t:2, p:46, s:"finance", roles:[
+    ["yasira","Head of Corporate & Trust Services","executive","v"]]},
+  {id:"faisal_jawad", n:"Faisal Jawad", t:2, p:62, s:"consumer_disc", roles:[
+    ["jawad","Chairman","board","v"],
+    ["jawad","Chief Executive Officer","executive","v"]]},
+  {id:"sabah_jawad", n:"Sabah Jawad", t:2, p:52, s:"consumer_disc", roles:[
+    ["jawad","Board Member","board","v"]]},
+  {id:"kareem_jawad", n:"Kareem Jawad", t:2, p:60, s:"consumer_disc", roles:[
+    ["jawad","Board Member","board","v"],
+    ["jawad","Deputy CEO","executive","ns"]]},
+  {id:"hassan_jawad", n:"Hassan Jawad", t:2, p:52, s:"consumer_disc", roles:[
+    ["jawad","Board Member","board","v"]]},
+  {id:"jawad_m_jawad", n:"Jawad M. Jawad", t:2, p:52, s:"consumer_disc", roles:[
+    ["jawad","Board Member","board","v"]]},
+  {id:"sujoy_mallik", n:"Sujoy Mallik", t:2, p:52, s:"consumer_disc", roles:[
+    ["jawad","Board Member","board","v"]]},
+  {id:"abdulrahman_khamis_al", n:"Abdulrahman Khamis Al Zayani", t:2, p:58, s:"comm", roles:[
+    ["brtc","Director, Television Directorate","executive","v"]]},
+  {id:"bader_mohammed_hassan", n:"Bader Mohammed Hassan Abdullah", t:2, p:58, s:"comm", roles:[
+    ["brtc","Director, Radio Directorate","executive","v"]]},
 ];
 
 const OWNERSHIP = [
