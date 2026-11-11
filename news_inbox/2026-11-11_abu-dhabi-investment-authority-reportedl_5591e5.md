@@ -1,0 +1,5 @@
+# Abu Dhabi Investment Authority Reportedly Eyes $7.5 Billion Loan to Fund Investments
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTHBJb2R5MGxkaW1nYV9NZDIteGRJX1VjcHJNdGVaRE40Y25lY0VIblVObDkxOG44ZW1Ja0FERGdmUWtMV2NIOFRUY2VmLUUxc1pTVE92bEdZN2JETW5NOW5xdC1IcGtqaTZqckswaGw2aUF5X01hc05fNHhXMmZzZjN0S0docC1EZTRjTVEyVm9JMW9vbUNjdldVVzI1ZEhaZFc0N2J1NWJpVFV2TnpJWUtsYjdzOTM4SU9feV9qNXZaSVhtMHZ5eFFXenkwR2oxM3c?oc=5
+
+Abu Dhabi Investment Authority Reportedly Eyes $7.5 Billion Loan to Fund Investments    marketscreener.com

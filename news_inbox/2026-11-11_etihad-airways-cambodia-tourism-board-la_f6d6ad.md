@@ -1,0 +1,5 @@
+# Etihad Airways, Cambodia Tourism Board launch joint campaign targeting European markets
+source: TTG Asia
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxNUVJIMFY4RklrSmNnbU1ReXFCQk0wQk9ERXJWT3d2ZGo2VUJsUFJhWGpGOEE2LTNMZGJGb2FkS2dmZ0E0YS1CZExVWlZCQlBnS19xTzdCclQtUzZ1Zlp4YVVGS2ktb01UbTRmNWFtM1liWVhYbjliNFZ1dUpxZ19mVk5yRElPaGpXRHpld2d2aUZJRkxkeHRYWklXZkY0OTM2TjJPakg1c1BVR3M5dmxHMV9OYUNrYkp5c2thNTBsdw?oc=5
+
+Etihad Airways, Cambodia Tourism Board launch joint campaign targeting European markets    TTG Asia

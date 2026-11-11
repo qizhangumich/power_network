@@ -1,0 +1,5 @@
+# AD Ports third-quarter net profit jumps 73% on Hormuz impact mitigation efforts
+source: The National
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTnM1OThKQlFoMThsYW5aVnk0Mm1iSFM4MDFWZjVWRktQNjFMWC1qd3lzMzJ6bUx4UUFQZ25sQ19SRUd6T0lZaFFXQmZUdWVJbTN3U2YySlAxV1RhUm9IUDhXYnRvY1BTb0FjbFZPUFpBS3g2ZW1HTEpRQlRIby0xTDlIek9uSkZVOThaaEprbkJ1WEFHWkROUHdQR0lwdTZBaG9QSGtnYWhjUTJxSDlnbWRWc2JHSnpTVHZCdXJMSjV1WGNLVEYyUlRveTFucU14ekJB?oc=5
+
+AD Ports third-quarter net profit jumps 73% on Hormuz impact mitigation efforts    The National

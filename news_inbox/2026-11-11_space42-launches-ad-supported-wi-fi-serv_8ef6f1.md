@@ -1,0 +1,5 @@
+# Space42 launches ad-supported Wi-Fi service in South Africa
+source: Telecompaper
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPVU05VmIySU8zMlFXU1FCUXVPdU1jZUJEUVc0dWhoNldwOVE2M1pQY0Q5ZFlwZEdteTI5VzZ1cXhMMUJ0TWY5NUJqa19TOHc3eTlyZEppQXRjWWk1OFVpdlVmakxLVUJDWVMwNzlxRWxIdFlyc001dXlTTjZQX0txMU9fMTdjekJfdWxZTWZKT3RyQTk4MmJ6TFpUNDlqQ2pVMHRReQ?oc=5
+
+Space42 launches ad-supported Wi-Fi service in South Africa    Telecompaper
