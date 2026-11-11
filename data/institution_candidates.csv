@@ -1,8 +1,8 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Al Haditha Energy,2,oman,pending,2026-11-05,2026-11-10,"Al Haditha Energy Inaugurates New Accommodation Camp in Lekhwair, Marking One Year LTI-Free"
-German Press Agency,2,qatar,pending,2026-10-28,2026-11-10,"QNA Director-General Visits German Press Agency in Berlin, Discusses Enhancing Cooperation"
-Makkah Construction,2,saudi,pending,2026-11-08,2026-11-09,Makkah Construction hits lowest level in nearly 3 years
-Aker Solutions,2,qatar,pending,2026-11-08,2026-11-10,Aker Solutions secures engineering contract for Qatar’s Maydan Mahzam redevelopment
+Al Haditha Energy,2,oman,added,2026-11-05,2026-11-10,"Al Haditha Energy Inaugurates New Accommodation Camp in Lekhwair, Marking One Year LTI-Free"
+German Press Agency,2,qatar,rejected,2026-10-28,2026-11-10,"QNA Director-General Visits German Press Agency in Berlin, Discusses Enhancing Cooperation"
+Makkah Construction,2,saudi,rejected,2026-11-08,2026-11-09,Makkah Construction hits lowest level in nearly 3 years
+Aker Solutions,2,qatar,rejected,2026-11-08,2026-11-10,Aker Solutions secures engineering contract for Qatar’s Maydan Mahzam redevelopment
 Gujarat Energy,16,abudhabi,rejected,2026-11-06,2026-11-07,"Gujarat Energy LNG: 4m Tonnes, ADNOC"
 I Squared Capital,8,abudhabi,rejected,2026-11-02,2026-11-09,"Avolon, I Squared Capital and ADIA launch aircraft leasing and infrastructure investment platform"
 Singapore Airlines,8,dubai,rejected,2026-10-30,2026-11-07,Dubai and Abu Dhabi add further cancellations as Singapore Airlines pushes its return to February 2027

@@ -2145,8 +2145,10 @@ const PEOPLE = [
     ["gac_qatar","Head of Passenger Section at Land Ports","executive","v"]]},
   {id:"issa_bin_rashid", n:"Issa bin Rashid Al-Suwaidi", t:2, p:46, s:"gov", roles:[
     ["gac_qatar","Head of Customs Procedures Unit","executive","v"]]},
-  {id:"akber_ahmed_khan", n:"Akber Ahmed Khan", t:2, p:60, s:"finance", roles:[
-    ["alrayan_investment","Acting Chief Executive Officer","executive","v"]]},
+  {id:"akber_ahmed_khan", n:"Akber Ahmed Khan", t:2, p:46, s:"finance", roles:[
+    ["alrayan_investment","Acting Chief Executive Officer (–Nov 2026)","executive","v","former:until Nov 2026"]]},
+  {id:"bryan_crawford", n:"Bryan Crawford", t:2, p:60, s:"finance", roles:[
+    ["alrayan_investment","Chief Executive Officer","executive","ns"]]},
   {id:"abdulrahman_bin_ali", n:"Abdulrahman bin Ali Al-Malki", t:2, p:58, s:"tech", roles:[
     ["ncsa_qatar","President","executive","v"]]},
   {id:"dana_al_abdullah", n:"Dana Al Abdullah", t:2, p:58, s:"tech", roles:[
