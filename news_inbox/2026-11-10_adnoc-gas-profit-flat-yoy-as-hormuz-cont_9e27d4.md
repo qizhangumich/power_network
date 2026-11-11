@@ -1,0 +1,5 @@
+# ADNOC Gas Profit Flat YoY as Hormuz Continues to Weigh on Exports
+source: Rigzone
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPcHlxN2o1YzJ4RldJd25RS1RVaU5vZ24xZ3V2anN4WV9RYkRTYkNidm9qTDZQa0FYdTFpVUFRZjJrNVJUY0lvS054MzVWM0VHNWN4Z05xSlVUT2ZVME96dGVqcVJRMnFBbFp3eHMxMDBDVXU4NGZhNExXUUVyNjgzZGZLZXdlY2pPeUlHV3JtM3lwRTBBdHJmWmM0Q2R3UFpaVi1oSmhUZ0FRLUIwZWNYS01CLXNpNl9IQnl1LXh4aw?oc=5
+
+ADNOC Gas Profit Flat YoY as Hormuz Continues to Weigh on Exports    Rigzone

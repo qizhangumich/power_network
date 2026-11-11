@@ -1,0 +1,5 @@
+# Etihad unveils McLaren-branded Boeing 787 Dreamliner
+source: The Bangladesh Monitor
+url: https://news.google.com/rss/articles/CBMilwFBVV95cUxOZVRMUW04WXJlbll1VTc0V09WNmo5bXQ3cUJtSVhzZlVUY2ZTN2J3V3dJVm1CVFhoRW5CTGZ1R3pEbHFvWlBhMUJHbGxfaF9pRTU2Y1l6NmM0RW0tM3hOSUNOQkFzclBhZnpGMHNNRTAteEk5NnFkMmFCaTQxOFJpdHF5a0FjZ0hvVFI2YllLMFlBcnRrR1pr?oc=5
+
+Etihad unveils McLaren-branded Boeing 787 Dreamliner    The Bangladesh Monitor

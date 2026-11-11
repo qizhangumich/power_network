@@ -1,0 +1,5 @@
+# Mubadala Capital adds GP-led secondaries manager LSV Advisors to investment platform
+source: Alternatives Watch
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxOWE5RUjRTX2tkYzRJQ05SVGdhMHJzVUY5aFdOcWxjX05zeU4tUTVfQldxWHF6NXVGSm96WGZSdUtoRGROQnR6eFBfU0RXR2tWSGJ1NnF6NEtjVm1VWU1LNDZ3RTEwdGNzbHpQOEdHcDJidVJxaXdMcGJlYTU3d3BxX2xqRkEyNVlwaHB6OFZfSVBwai1ZeUNaZG1sNU9uUUlkbnJNWkVub0hLMnN6MVE?oc=5
+
+Mubadala Capital adds GP-led secondaries manager LSV Advisors to investment platform    Alternatives Watch

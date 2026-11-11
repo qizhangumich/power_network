@@ -1,0 +1,5 @@
+# UAE approves national genomics masterplan to bring personalised medicine to all citizens
+source: The National
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxOOW4teHo2dGJKUEdaNzFHaDNxSXZjTUNHV2otaW5jOVVlazQ3UURNWDRHN1ItYW1fc3BGMVJlWW43TWI0Umhka2JNWnMxdzNvdmttUmEtUGI1YmdnNVFZc2V2S09aWXdWY3IwOGlPYjdJNUo0enVZRVBnTExGZVJYOThrcEJYU2taU295UkFfalpFcmwtSTRZUXZsV2E2ZHBUSUJjR1QyVWNkT2NBNW1vMjRHamlrVmJXVV9LM010QjZPOVJZbmlIZXV1anduOFh3SjR2ek1kOU0?oc=5
+
+UAE approves national genomics masterplan to bring personalised medicine to all citizens    The National
