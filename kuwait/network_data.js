@@ -994,6 +994,7 @@ const PEOPLE = [
     ["alghanim_sons_grp","Chief Executive Officer","executive","v"],
     ["alghanim","Chief Executive Officer","executive","v"]]},
   {id:"waleed_alghanim", n:"Waleed Alghanim", t:2, p:60, s:"conglomerate", roles:[
+    ["kirby_building_sys","Chief Executive Officer (Kirby International)","executive","v"],
     ["alghanim_sons_grp","Chief Strategy Initiatives Officer","executive","v"],
     ["alghanim","Chief Executive Officer - Kirby","executive","v"]]},
   {id:"yousef_behbehani", n:"Yousef Behbehani", t:2, p:58, s:"conglomerate", roles:[
@@ -2190,6 +2191,18 @@ const PEOPLE = [
     ["lst_noor","Chief Executive Officer","executive","ns"]]},
   {id:"yousef_khaled_al_b_b", n:"Yousef Khaled Al-Nuwaif", t:2, p:58, s:"gov", roles:[
     ["kuwait_customs","Director General (rank of Undersecretary; Amiri Decree No. 162/2025)","executive","ns"]]},
+  {id:"jaber_al_kandari", n:"Jaber Al-Kandari", t:2, p:58, s:"gov", roles:[
+    ["paci","Director General (Acting)","executive","ns"]]},
+  {id:"janan_al_zamel", n:"Janan Al-Zamel", t:2, p:58, s:"sovereign", roles:[
+    ["awqaf_kuwait","Secretary-General (Acting)","executive","ns"]]},
+  {id:"khaled_a_mahdi", n:"Khaled A. Mahdi", t:2, p:58, s:"gov", roles:[
+    ["scpd_kuwait","Secretary-General","executive","ns"]]},
+  {id:"marzouk_al_kharafi", n:"Marzouk Al-Kharafi", t:2, p:62, s:"industry", roles:[
+    ["kharafi_national","Chairman","board","ns"]]},
+  {id:"samer_younis", n:"Samer Younis", t:2, p:62, s:"industry", roles:[
+    ["kharafi_national","Vice Chairman and Managing Director","executive","ns"]]},
+  {id:"james_minato", n:"James Minato", t:2, p:58, s:"materials", roles:[
+    ["kirby_building_sys","Vice President - Middle East & Africa","executive","v"]]},
 ];
 
 const OWNERSHIP = [

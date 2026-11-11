@@ -1173,6 +1173,7 @@ const PEOPLE = [
     ]},
   {id:"khalid_deemas_alsuwaidi", n:"Khalid Deemas Alsuwaidi", t:2, p:52, s:"finance", roles:[
     ["adcb","Board Member","board","v"],
+    ["dasholding","Group Chief Executive Officer","executive","v"],
     ]},
   {id:"aysha_al_hallami", n:"Aysha Al Hallami", t:2, p:52, s:"finance", roles:[
     ["adcb","Board Member","board","v"],
@@ -4215,6 +4216,7 @@ const PEOPLE = [
     ]},
   {id:"low_ping", n:"Low Ping", t:2, p:52, s:"gov", roles:[
     ["abu_dhabi_chamber","Board Member","board","v"],
+    ["eagle_hills","Chief Executive Officer","executive","v"],
     ]},
   {id:"ali_mohammad_al", n:"Ali Mohammad Al Marzooqi", t:2, p:58, s:"gov", roles:[
     ["abu_dhabi_chamber","Director General","executive","v"],
@@ -4544,6 +4546,24 @@ const PEOPLE = [
     ]},
   {id:"joseph_kourieh", n:"Joseph Kourieh", t:2, p:52, s:"conglomerate", roles:[
     ["alisons","Advisor to the Board of Directors","board","v"],
+    ]},
+  {id:"mohamed_alabbar", n:"Mohamed Alabbar", t:2, p:62, s:"realestate", roles:[
+    ["eagle_hills","Chairman","board","v"],
+    ]},
+  {id:"salman_sajid", n:"Salman Sajid", t:2, p:58, s:"realestate", roles:[
+    ["eagle_hills","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"jody_waugh", n:"Jody Waugh", t:2, p:58, s:"industry", roles:[
+    ["altamimi","Managing Partner","executive","v"],
+    ]},
+  {id:"dan_gledhill", n:"Dan Gledhill", t:2, p:58, s:"comm", roles:[
+    ["thenational","Deputy Editor","executive","v"],
+    ]},
+  {id:"enas_refaei", n:"Enas Refaei", t:2, p:58, s:"comm", roles:[
+    ["thenational","Assistant Editor-in-Chief","executive","v"],
+    ]},
+  {id:"naser_al_zaabi", n:"Naser Al Zaabi", t:2, p:58, s:"conglomerate", roles:[
+    ["dasholding","Chief Operating Officer","executive","v"],
     ]},
 ];
 

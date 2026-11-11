@@ -858,6 +858,7 @@ const PEOPLE = [
   {id:"jameel_a_al", n:"Jameel A. Al-Molhem", t:2, p:52, s:"comm", roles:[
     ["stc","Board Member","board","v"]]},
   {id:"walid_i_shukri", n:"Walid I. Shukri", t:2, p:52, s:"comm", roles:[
+    ["lst_1202","Vice Chairman","board","ns"],
     ["stc","Board Member","board","v"]]},
   {id:"saeed_mohammed_al", n:"Saeed Mohammed Al-Ghamdi", t:2, p:62, s:"finance", roles:[
     ["snb","Chairman","board","v"]]},
@@ -1536,6 +1537,7 @@ const PEOPLE = [
   {id:"mohammed_abdulmohsen_al", n:"Mohammed Abdulmohsen Al-Grenees", t:2, p:52, s:"finance", roles:[
     ["lst_1030","Board Member","board","v"]]},
   {id:"musaab_al_muhaidib", n:"Musaab Al Muhaidib", t:2, p:62, s:"materials", roles:[
+    ["lst_1202","Chairman","board","ns"],
     ["al_muhaidib","Board Member","board","v"],
     ["lst_2060","Chairman","board","v"]]},
   {id:"talal_al_maiman", n:"Talal Al Maiman", t:2, p:62, s:"materials", roles:[
@@ -3882,6 +3884,20 @@ const PEOPLE = [
     ["sasref","Vice President","executive","v"]]},
   {id:"nawaf_mohammed_al", n:"Nawaf Mohammed Al Zamil", t:2, p:60, s:"materials", roles:[
     ["zamil_steel","Chief Executive Officer","executive","v"]]},
+  {id:"abdulmohsen_al_othman", n:"Abdulmohsen Al-Othman", t:2, p:62, s:"materials", roles:[
+    ["lst_1201","Chairman","board","ns"]]},
+  {id:"saleh_al_afaleq", n:"Saleh Al-Afaleq", t:2, p:62, s:"materials", roles:[
+    ["lst_1201","Vice Chairman","board","ns"]]},
+  {id:"marwan_jreige", n:"Marwan Jreige", t:2, p:60, s:"materials", roles:[
+    ["lst_1201","Acting Chief Executive Officer","executive","ns"]]},
+  {id:"faisal_alawi_haddawi", n:"Faisal Alawi Haddawi", t:2, p:60, s:"materials", roles:[
+    ["lst_1202","Chief Executive Officer","executive","ns"]]},
+  {id:"abdulla_al_moaibed", n:"Abdulla Al-Moaibed", t:2, p:62, s:"materials", roles:[
+    ["lst_1210","Chairman","board","ns"]]},
+  {id:"tariq_ali_al", n:"Tariq Ali Al-Tamimi", t:2, p:62, s:"materials", roles:[
+    ["lst_1210","Vice Chairman","board","ns"]]},
+  {id:"ala_al_shaikh", n:"Ala Al-Shaikh", t:2, p:60, s:"materials", roles:[
+    ["lst_1210","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

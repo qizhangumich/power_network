@@ -1856,6 +1856,14 @@ const PEOPLE = [
     ["lst_bwpc","Chairman of the Board of Directors","board","ns"]]},
   {id:"salim_bin_zahir", n:"Salim bin Zahir Al Sibani", t:2, p:60, s:"utilities", roles:[
     ["lst_bwpc","Chief Executive Officer","executive","ns"]]},
+  {id:"mansour_bin_saif", n:"Mansour bin Saif Al Mandhari", t:2, p:62, s:"health", roles:[
+    ["sqcccrc","Chairman of the Operating Committee","executive","ns"]]},
+  {id:"khalid_al_baimani", n:"Khalid Al-Baimani", t:2, p:46, s:"health", roles:[
+    ["sqcccrc","Head of Medical Oncology Department","executive","ns"]]},
+  {id:"hamad_bin_mohammed", n:"Hamad bin Mohammed Al Dhawyani", t:2, p:62, s:"gov", roles:[
+    ["nraa","Chairman","board","v"]]},
+  {id:"juma_al_busaidi", n:"Juma Al Busaidi", t:2, p:58, s:"gov", roles:[
+    ["nraa","Director General of the Directorate General for Research and Documents Exchange","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
