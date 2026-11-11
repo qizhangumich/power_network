@@ -297,7 +297,7 @@ const PEOPLE = [
   {id:"sager", n:"Isam Al-Sager", t:2, p:74, s:"finance", roles:[
     ["nbk","Group Vice Chairman & CEO","executive","v"]]},
   {id:"bader_kharafi", n:"Bader Nasser Al-Kharafi", t:1, p:78, s:"comm", roles:[
-    ["lst_ship","Vice Chairman of the Board","board","ns"],
+    ["lst_ship","Vice Chairman of the Board (–2025)","board","ns","former:until 2025"],
     ["lst_ninv","Vice Chairman of the Board","board","v"],
     ["zain","Vice Chairman & Group CEO","executive","v"],
     ["kharafi","Family principal","board","ns"]],
@@ -683,7 +683,7 @@ const PEOPLE = [
   {id:"h_e_basel", n:"H.E. Basel Al-Haroon", t:2, p:52, s:"sovereign", roles:[
     ["kia","Board Member (Governor of the Central Bank of Kuwait)","board","v"]]},
   {id:"aseel_al_munifi", n:"Aseel Al-Munifi", t:2, p:52, s:"sovereign", roles:[
-    ["mof_kw","Undersecretary of the Ministry of Finance","executive","ns"],
+    ["mof_kw","Undersecretary of the Ministry of Finance","executive","v"],
     ["cbk","Board Member (Undersecretary Ministry of Finance)","board","v"],
     ["kia","Board Member (Undersecretary of the Ministry of Finance)","board","v"]]},
   {id:"h_e_sheikh", n:"H.E. Sheikh Dr. Meshaal Jaber Al-Ahmad Al-Sabah", t:2, p:52, s:"sovereign", roles:[
@@ -1928,6 +1928,8 @@ const PEOPLE = [
     ["wafra_jo","Group Manager - Assets Management (Wafra)","executive","v"]]},
   {id:"marzouq_nasser_al", n:"Marzouq Nasser Al-Kharafi", t:2, p:62, s:"industry", roles:[
     ["lst_ship","Chairman of the Board","board","ns"]]},
+  {id:"malik_maher_marafie", n:"Malik Maher Abdallah Marafie", t:2, p:52, s:"industry", roles:[
+    ["lst_ship","Vice Chairman of the Board","board","v"]]},
   {id:"samir_sami_hermez", n:"Samir Sami Hermez", t:2, p:60, s:"industry", roles:[
     ["lst_ship","Chief Executive Officer","executive","ns"]]},
   {id:"abdulrahman_mohammad_al_b", n:"Abdulrahman Mohammad Al-Khannah", t:2, p:60, s:"finance", roles:[
