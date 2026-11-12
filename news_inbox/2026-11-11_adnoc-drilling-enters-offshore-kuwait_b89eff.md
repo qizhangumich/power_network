@@ -1,0 +1,5 @@
+# ADNOC Drilling enters offshore Kuwait
+source: Oilfield Technology
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxQZDBBSVV0YUwyVUFaUm5saUl5RGtZTUFFeUdtQ2szZzZ1dUswQ1gwWmpic2VpeXBGTEhaNDFmRThiLVlmQjRDLTFRd0xkekZJeW0zRFVsN1lXQ3MxNHZFNkRuYml2d2gtdmdWNmpJME1DRUl0VTA3aUlMSDZUbl9pam5tcGtpU3lDOFE3WUF2cDJWdHNCemoxTVdUTHQzNkFELTh6NQ?oc=5
+
+ADNOC Drilling enters offshore Kuwait    Oilfield Technology

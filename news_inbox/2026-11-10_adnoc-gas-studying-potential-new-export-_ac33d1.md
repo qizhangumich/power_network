@@ -1,0 +1,5 @@
+# Adnoc Gas studying potential new export routes to bypass Hormuz
+source: The National
+url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbHlXNU5FNFhZSVZ0REVYZTZOTUg2N2RPSnZ2bHYyMU5sVXNhaVpGc1NsZjgyV2tzNjVFWlkzWC1DSHdDMEpxbWlmLWwxUzVQTW9yVXk4cmFFTXMtSWQ0cDBhbWxqbGY4VE5sTkVJcWpqMW5KejhPeF90RGdEZURMTnhTc0hVaUdmWWpITkFUQ3l4WlNTejgzOFYxWm5TRm11LTY5bU5raWh1VDJVbWwwdTRqNHNfa3BOOGNnUlg3OVlzTnYtSEVXQkE3OXVId09INGdpMzVfdjVzQm5WNk8wZXFacEVDdGNQRDJj?oc=5
+
+Adnoc Gas studying potential new export routes to bypass Hormuz    The National

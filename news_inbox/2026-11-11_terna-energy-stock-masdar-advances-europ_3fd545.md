@@ -1,0 +1,5 @@
+# Terna Energy stock: Masdar advances European renewables strategy
+source: ad-hoc-news.de
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPU2h2LW52aXp3SHliR1l6TUxjSXpXMWpReF92cVF5ekxVSmU1dTlZanFVWldMVU9BV1NCUXplWkljY3JNdmNuNnZFYnRDZXpHQ2VBOTRNU3lIaGRJby1RZmt0aEFaSmpMZ0VZSC1WSFNfTmQ2RlZNN1VsaFg4R1ZlNnAwWUdSb1N0WjlaaWhfWTVkYmIzalc2Sk80eWNyTHJENk5CVUZQbzY5THRfczJkQ0lHSm1oQzhpRlZCbWo4WQ?oc=5
+
+Terna Energy stock: Masdar advances European renewables strategy    ad-hoc-news.de

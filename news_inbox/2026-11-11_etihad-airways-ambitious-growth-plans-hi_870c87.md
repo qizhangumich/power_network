@@ -1,0 +1,5 @@
+# Etihad Airways’ Ambitious Growth Plans Hit Turbulence With Capacity Set to Be Slashed
+source: PYOK
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPVVBsaGplNEd3dUVGUWxOdHp3dFZCemZNNldJc04yQU5yTjhKc2xIZjN6enN0TWkwckM4bnV3YWZLdHNZRERTMkhteWhnSWpXdTZGd0prNDdrcGdkcDRQZVEwd29iSTQzbU8ySGtRNXpwUnpvM3Rack1SSEFfSlVWSG9iLUlwY3RyWlZZUG8yQVp4UE1zZXV0TEJnR1ZGRVlPRWN1Vl9FSUtyXzFOc0pDeUVkY2lpa2t6T2ZpWlVhcHJfaWc1MG1CbXN1MA?oc=5
+
+Etihad Airways’ Ambitious Growth Plans Hit Turbulence With Capacity Set to Be Slashed    PYOK
