@@ -1,0 +1,5 @@
+# Frontier Airlines Flight Makes Emergency Diversion to Chicago O'Hare After Bathroom Tap Springs a Leak
+source: PYOK
+url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxQU1JLMlBtRmNPZEd2a3BDOUtVbFZUNWlFcnVNbWRfUnRtSW9CTU1sM3VyRV96WEVac3FkbUZRUEoxZTVmNTJjRG5vdFRCNkZNUVF2R1B5cmpiZXB4a2hxSmxGcU5qLVlOZTg1dGFNaU1zakI2S20wRlA3ZF80NzU5TV92ejlpNncwbEZEaUItTmRZS1FKTmpXQkZ3VWpIOC1manBKc2dQR3N3YWhXSHQtNlNfZi1RaWx6Tjh4TUEzcHVkWFlLcG52MTY1QzRqbExHMmJ5NXN1eUVHdWt0TGd3TGJn?oc=5
+
+Frontier Airlines Flight Makes Emergency Diversion to Chicago O'Hare After Bathroom Tap Springs a Leak    PYOK

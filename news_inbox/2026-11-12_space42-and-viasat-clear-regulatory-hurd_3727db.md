@@ -1,0 +1,5 @@
+# Space42 and Viasat Clear Regulatory Hurdle for 2,800-Satellite Equatys D2D Venture
+source: SatNews Publishers
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxNRGhORkJTRy1iY3VYODZmN0VZNlpCcVlROUZZTkx3Zk91UUJxUndnS2YtVzdLQlluZHBDbVN0cXZJckd3RHBERGZjcmwxcWNOaEc1NFBoTVlONmN2WTN0c2xJXy0waUdfZU5HTUJKdjZzVnNfZVA4czMxbTZLeXpzRGZ3TGNfYXdJVHhGOFFPMmpGU2I2LW0xQXpIRkZHZ0hwUVdwRlhPX0d1WVExVWJsUzZXMA?oc=5
+
+Space42 and Viasat Clear Regulatory Hurdle for 2,800-Satellite Equatys D2D Venture    SatNews Publishers

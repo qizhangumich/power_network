@@ -1,0 +1,5 @@
+# United Airlines is Blocking AI Booking Agents: They Might Breach FAA And DOT Regulations
+source: PYOK
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxOVkVwMXc5ZTZDbi12SmtpQ0ZKOWhnelRWenFJUXotbnZPVWE1S0VFYUNoV0JVcTdudjRfQmpPSmpmb0lVWEJHaDRGRUZNTGFSVllIVEl1a2VqdUFlRWdmNnpwd0xTUkhkU0VUT2VCWFkxaUJxRlN6RDBJUHNrRkIzY29Xc2lZdmRRdkIzMDFLOFJMREl0N1RHdmhNTEZrRGhtMzdtWDJ1MjNUelp0a0xvVGotMmMzLXdycWJ3bU9FQS1xQ0kwVXpuaVVlQmJoQUk?oc=5
+
+United Airlines is Blocking AI Booking Agents: They Might Breach FAA And DOT Regulations    PYOK

@@ -1,0 +1,5 @@
+# UAE airlines adjust Saudi Arabia flights as cancellations continue
+source: The National
+url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcV9WalZSRk5aZkxSay0tX2dWeC1BTGRQVlFtVmdoV0xIYVRORHJwSGNqa1lESXpfMWhZY3hhM3lTdGlvOV9WejBTc2J5SDkzVWRBR1FPSmlMb29xNURPUUNpNEhzcEl5aERPSXVDbGptUmhaUDMxYkwwalBtY09FQV81VURDbzYzTGtXZzRFQW1RN1BENklNQVlLSzJFTTV1dDdJTElMd1ZwUk5wSnowNlE2Mi1CeUE2?oc=5
+
+UAE airlines adjust Saudi Arabia flights as cancellations continue    The National

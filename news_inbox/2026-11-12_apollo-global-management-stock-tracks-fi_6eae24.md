@@ -1,0 +1,5 @@
+# Apollo Global Management stock tracks financing ahead of Mubadala close
+source: ad-hoc-news.de
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQeC1pQ1V6TFNkb3h2S1JMUmdpZXVSMTB6eWhSZnZVVFlERkZQRDhCQi1YbTVmRENjd2tJVVZlZXZYRVFWcHV0QmNRZ1VGMVdkNl9sTWs2V09Jd3NiVTFiNUlpZzhyWFBlaEEydmNwWlM2TEtpYV9FNkVzRmJfNVlua0taWVlzb19UeTZBSE1wSkRVY3FJaU1yY1dSWGtvZENxRUJjYkh5X2tLWlZyU3BsRk1qTU5YRjg2b3RjME5qVW5uX3I0R3VmMWpmNzcyWFE?oc=5
+
+Apollo Global Management stock tracks financing ahead of Mubadala close    ad-hoc-news.de

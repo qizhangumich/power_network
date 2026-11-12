@@ -1,0 +1,5 @@
+# Space42 introduces YahClick-powered public Wi-Fi service in South Africa
+source: SatellitePro ME
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZDlaYmdnVGdRWHpqZXc0NFp0MFdmVGF2cDJnb1pNWXVETzNaRi1PV090aVB4NFRJdWNpc0RSU1dyamR4QUpOeHkwbnkyNDZoejBzYWlCMGdadzN0eUQyV0tUY2Z0cDI0UTBGTnd4M0pNT2RSS1FFRTlDSEI3eXBzaXM3azFaZ0tIZFpWNUVybC1KX0JzYnc2eXlhOV8wX0Y4aEJuanFBeHA?oc=5
+
+Space42 introduces YahClick-powered public Wi-Fi service in South Africa    SatellitePro ME
