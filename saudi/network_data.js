@@ -85,7 +85,7 @@ const INSTITUTIONS = [
   {id:"lst_1202", n:"Middle East Paper Co. (Mepco)", s:"materials", t:2, p:50, short:"1202"},
   {id:"lst_1210", n:"Basic Chemical Industries Co. (BCI)", s:"materials", t:2, p:50, short:"1210"},
   {id:"lst_1301", n:"Aslak Co.", s:"materials", t:2, p:50, short:"Aslak Co."},
-  {id:"lst_1304", n:"Al Yamamah Steel Industries Co.", s:"materials", t:2, p:50, short:"1304"},
+  {id:"lst_1304", n:"Al Yamamah Steel Industries Co.", s:"materials", t:2, p:58, short:"Al Yamamah Steel"},
   {id:"lst_1320", n:"Saudi Steel Pipe Co.", s:"materials", t:2, p:56, short:"Saudi Steel Pipe Co."},
   {id:"lst_2001", n:"Chemanol (National Methanol Co.)", s:"materials", t:2, p:50, short:"2001"},
   {id:"lst_2090", n:"National Gas and Industrialization Co.", s:"materials", t:2, p:50, short:"2090"},
@@ -136,7 +136,7 @@ const INSTITUTIONS = [
   {id:"lst_4110", n:"Batic Investments and Logistics Co.", s:"industry", t:2, p:50, short:"4110"},
   {id:"lst_4140", n:"Saudi Industrial Export Co. (SIECO)", s:"industry", t:2, p:50, short:"4140"},
   {id:"lst_4141", n:"Al Omran Industrial Trading Co.", s:"industry", t:2, p:50, short:"4141"},
-  {id:"lst_4142", n:"Riyadh Cables Group Co.", s:"industry", t:2, p:50, short:"4142"},
+  {id:"lst_4142", n:"Riyadh Cables Group Co.", s:"industry", t:2, p:64, short:"Riyadh Cables"},
   {id:"lst_4144", n:"Raoom Trading Co.", s:"industry", t:2, p:50, short:"Raoom Trading Co."},
   {id:"lst_4145", n:"Obeikan Glass Co. (OGC)", s:"industry", t:2, p:50, short:"4145"},
   {id:"lst_4146", n:"Gulf Applied Solutions Co. (Gas Arabian Services)", s:"industry", t:2, p:50, short:"4146"},
@@ -151,7 +151,7 @@ const INSTITUTIONS = [
   {id:"lst_6004", n:"Catrion Catering Holding Co.", s:"industry", t:2, p:50, short:"6004"},
   {id:"lst_2190", n:"Saudi Industrial Services Co. (SISCO Holding)", s:"industry", t:2, p:50, short:"2190"},
   {id:"lst_4031", n:"Saudi Ground Services Co.", s:"industry", t:2, p:50, short:"4031"},
-  {id:"lst_4040", n:"Saudi Public Transport Co. (SAPTCO)", s:"industry", t:2, p:50, short:"4040"},
+  {id:"lst_4040", n:"Saudi Public Transport Co. (SAPTCO)", s:"industry", t:2, p:66, short:"SAPTCO"},
   {id:"lst_4260", n:"Budget Saudi Rent a Car Co.", s:"industry", t:2, p:50, short:"4260"},
   {id:"lst_4261", n:"Theeb Rent a Car Co.", s:"industry", t:2, p:50, short:"Theeb Rent a Car Co."},
   {id:"lst_4262", n:"Lumi Rental Co.", s:"industry", t:2, p:50, short:"Lumi Rental Co."},
@@ -900,6 +900,7 @@ const PEOPLE = [
     ["rajhi_invest","Board Vice Chairman","board","v"],
     ["alrajhi","Board Member","board","v"]]},
   {id:"khalid_bin_abdulrahman", n:"Khalid bin Abdulrahman Al Gwaiz", t:2, p:52, s:"finance", roles:[
+    ["lst_4142","Chairman of the Board","board","ns"],
     ["saudi_binladin_grp","CEO (Binladin International Holding Group)","executive","ns"],
     ["alrajhi","Board Member","board","v"]]},
   {id:"hamza_bin_othman", n:"Hamza bin Othman Khushaim", t:2, p:52, s:"finance", roles:[
@@ -3482,6 +3483,7 @@ const PEOPLE = [
   {id:"saeed_saleh_al", n:"Saeed Saleh Al Ghamdi", t:2, p:60, s:"finance", roles:[
     ["al_nahdi_family","Chief Executive Officer","executive","ns"]]},
   {id:"bakr_almuhanna", n:"Bakr AlMuhanna", t:2, p:62, s:"industry", roles:[
+    ["lst_4040","Chairman of the Board","board","ns"],
     ["saudi_global_ports","Vice Chairman of the Board","board","v"]]},
   {id:"rob_harrison", n:"Rob Harrison", t:2, p:60, s:"industry", roles:[
     ["saudi_global_ports","Chief Executive Officer","executive","v"]]},
@@ -3904,6 +3906,20 @@ const PEOPLE = [
     ["lst_3004","Vice Chairman","board","ns"]]},
   {id:"obaid_bin_al", n:"Obaid Bin Al-Subaie", t:2, p:60, s:"materials", roles:[
     ["lst_3004","Chief Executive Officer","executive","ns"]]},
+  {id:"khalid_abdullah_al", n:"Khalid Abdullah Al Shami", t:2, p:62, s:"materials", roles:[
+    ["lst_1304","Chairman of the Board","board","ns"]]},
+  {id:"raed_ibrahim_al", n:"Raed Ibrahim Al Mudaiheem", t:2, p:62, s:"materials", roles:[
+    ["lst_1304","Vice Chairman of the Board","board","ns"]]},
+  {id:"sahal_al_thobiti", n:"Sahal Al Thobiti", t:2, p:60, s:"materials", roles:[
+    ["lst_1304","Chief Executive Officer","executive","ns"]]},
+  {id:"mohammed_alzaim", n:"Mohammed Alzaim", t:2, p:62, s:"industry", roles:[
+    ["lst_4142","Vice Chairman of the Board","board","ns"]]},
+  {id:"borjan_sehovac", n:"Borjan Sehovac", t:2, p:60, s:"industry", roles:[
+    ["lst_4142","Chief Executive Officer","executive","ns"]]},
+  {id:"yasir_aldawood", n:"Yasir Aldawood", t:2, p:62, s:"industry", roles:[
+    ["lst_4040","Vice Chairman of the Board","board","ns"]]},
+  {id:"khalid_bin_abdullah_b", n:"Khalid bin Abdullah Al-Hogail", t:2, p:60, s:"industry", roles:[
+    ["lst_4040","Managing Director & CEO","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

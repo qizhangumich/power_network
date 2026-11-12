@@ -2141,7 +2141,7 @@ const PEOPLE = [
   {id:"clyde_wilcox", n:"Clyde Wilcox", t:2, p:58, s:"education", roles:[
     ["georgetown_qatar","Acting Dean (effective 1 June 2026)","executive","v"]]},
   {id:"bassel_gamal", n:"Bassel Gamal", t:2, p:60, s:"finance", roles:[
-    ["qib","Group Chief Executive Officer","executive","ns"]]},
+    ["qib","Group Chief Executive Officer","executive","v"]]},
   {id:"abdulla_mohammed_al", n:"Abdulla Mohammed Al Mannai", t:2, p:58, s:"industry", roles:[
     ["qcaa","Director of Meteorology Department","executive","ns"]]},
   {id:"steven_emery", n:"Steven Emery", t:2, p:58, s:"health", roles:[

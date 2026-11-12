@@ -2289,7 +2289,7 @@ const PEOPLE = [
   {id:"charles_mellagui", n:"Charles Mellagui", t:2, p:60, s:"materials", roles:[
     ["ducab","Chief Executive Officer, Cable Business Unit","executive","ns"]]},
   {id:"ahmad_bin_shafar", n:"Ahmad Bin Shafar", t:2, p:60, s:"utilities", roles:[
-    ["empower","Chief Executive Officer","executive","ns"]]},
+    ["empower","Chief Executive Officer","executive","v"]]},
   {id:"tariq_al_yasi", n:"Tariq Al Yasi", t:2, p:58, s:"utilities", roles:[
     ["empower","Chief Operations & Maintenance Officer","executive","ns"]]},
   {id:"ramesh_ramadurai", n:"Ramesh Ramadurai", t:2, p:58, s:"utilities", roles:[

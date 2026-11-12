@@ -195,6 +195,8 @@ const INSTITUTIONS = [
   {id:"ajman_properties", n:"Ajman Properties Corporation", s:"realestate", t:2, p:58, short:"Ajman Properties"},
   {id:"ajman_land_re", n:"Ajman Department of Land and Real Estate Regulation", s:"realestate", t:2, p:56, short:"Ajman Land&RE Reg"},
   {id:"fuj_creative_city", n:"Fujairah Creative City (Media Free Zone)", s:"gov", t:2, p:50, short:"Fuj Creative City"},
+  {id:"rak_hospitality", n:"RAK Hospitality Holding LLC", s:"consumer_disc", t:2, p:62, short:"RAK Hospitality"},
+  {id:"rak_minerals", n:"RAK Minerals and Metals Investments LLC", s:"materials", t:3, p:55, short:"RAK Minerals"},
 ];
 
 const PEOPLE = [
@@ -1568,6 +1570,8 @@ const PEOPLE = [
     ["ajman_land_re","Director of Real Estate Registration","executive","v"]]},
   {id:"sheikh_ahmad_bin", n:"Sheikh Ahmad bin Rashid bin Abdul Aziz Al Mualla", t:2, p:62, s:"gov", roles:[
     ["uaq_ports_customs","Deputy Chairman of the Board of Directors","board","ns"]]},
+  {id:"jamal_ahmed_al", n:"Jamal Ahmed Al Tair", t:2, p:58, s:"gov", roles:[
+    ["rak_police","Deputy Commander-in-Chief (Brigadier)","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1667,6 +1671,8 @@ const OWNERSHIP = [
   ["ajman_properties","ajmgov","government-owned real estate corporation (Emiri Decree No. 12 of 2025)","v"],
   ["ajman_land_re","ajmgov","government department regulating the real estate sector","v"],
   ["fuj_creative_city","fujgov","media free zone separated from Fujairah Culture & Media Authority by Emiri Decree No. 6 of 2023","ns"],
+  ["rak_hospitality","rak_ido","subsidiary","v"],
+  ["rak_minerals","rak_ido","JV","ns"],
 ];
 
 const FAMILY = [
@@ -1799,4 +1805,6 @@ const AKA = {
   ajman_properties:["AQAAR"],
   ajman_land_re:["ARRA","Ajman Real Estate Regulatory Agency"],
   fuj_creative_city:["Creative City Fujairah","Fujairah Media Free Zone","Media Free Zone"],
+  rak_hospitality:["RAKHH"],
+  rak_minerals:["RMMI"],
 };

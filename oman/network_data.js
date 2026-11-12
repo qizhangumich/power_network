@@ -252,6 +252,8 @@ const INSTITUTIONS = [
   {id:"supreme_jud_council", n:"Supreme Judicial Council", s:"gov", t:1, p:66, short:"Supreme Jud. Council"},
   {id:"nraa", n:"National Records and Archives Authority", s:"gov", t:3, p:54, short:"NRAA"},
   {id:"al_haditha_energy", n:"Al Haditha Energy SAOC", s:"energy", t:3, p:52, short:"Al Haditha Energy"},
+  {id:"hafeet_rail", n:"Oman-Etihad Rail Company", s:"industry", t:2, p:58, short:"Hafeet Rail"},
+  {id:"khazaen_dry_port", n:"Khazaen Dry Port Company", s:"industry", t:3, p:54, short:"Khazaen Dry Port"},
 ];
 
 const PEOPLE = [
@@ -1864,6 +1866,20 @@ const PEOPLE = [
     ["nraa","Chairman","board","v"]]},
   {id:"juma_al_busaidi", n:"Juma Al Busaidi", t:2, p:58, s:"gov", roles:[
     ["nraa","Director General of the Directorate General for Research and Documents Exchange","executive","ns"]]},
+  {id:"sergio_giorgi", n:"Sergio Giorgi", t:2, p:62, s:"energy", roles:[
+    ["marsa_lng","CEO & Chairman","executive","ns"]]},
+  {id:"sameer_s_sharma", n:"Sameer S Sharma", t:2, p:58, s:"materials", roles:[
+    ["jindal_shadeed","Chief Marketing Officer","executive","ns"]]},
+  {id:"hatim_al_taie", n:"Hatim Al Taie", t:2, p:62, s:"comm", roles:[
+    ["al_roya","Chairman & Chief Executive Officer","board","ns"]]},
+  {id:"ahmed_al_hashemi", n:"Ahmed Al Hashemi", t:2, p:60, s:"industry", roles:[
+    ["hafeet_rail","Chief Executive Officer","executive","ns"]]},
+  {id:"mohammed_bin_zahran", n:"Mohammed bin Zahran Al Mahruqi", t:2, p:60, s:"industry", roles:[
+    ["hafeet_rail","Deputy Chief Executive Officer","executive","ns"]]},
+  {id:"ahmed_bin_mohammed_b_b", n:"Ahmed bin Mohammed Al Abri", t:2, p:62, s:"industry", roles:[
+    ["khazaen_dry_port","Chairman","board","ns"]]},
+  {id:"saad_bait_naseeb", n:"Saad Bait Naseeb", t:2, p:60, s:"industry", roles:[
+    ["khazaen_dry_port","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2034,6 +2050,8 @@ const OWNERSHIP = [
   ["sqcccrc","moh_om","government cancer referral and research centre established under state directives","ns"],
   ["otech","omantel","subsidiary","v"],
   ["mocsy","com_om","ministry of","v"],
+  ["hafeet_rail","asyad","JV (with Etihad Rail","ns"],
+  ["khazaen_dry_port","asyad","JV (50% via Marafi)","ns"],
 ];
 
 const FAMILY = [
@@ -2115,4 +2133,6 @@ const AKA = {
   public_prosecution:["Office of the Attorney General","Attorney General's Office"],
   supreme_jud_council:["SJC"],
   nraa:["National Records and Archive Authority"],
+  hafeet_rail:["https://www.omanobserver.om/article/1153201/oman/transport/preparations-underway-to-start-hafeet-rail-construction-ceo"],
+  khazaen_dry_port:["KDP"],
 };

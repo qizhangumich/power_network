@@ -996,7 +996,7 @@ const PEOPLE = [
     ]},
   {id:"sheikh_mohamed_bin", n:"Sheikh Mohamed bin Saif Al Nahyan", t:2, p:62, s:"finance", roles:[
     ["fab","Vice Chairman","board","v"],
-    ["adnic","Chairman of the Board","board","ns"],
+    ["adnic","Chairman of the Board","board","v"],
     ]},
   {id:"jassem_mohammed_bu", n:"Jassem Mohammed Bu Ataba Al Zaabi", t:2, p:52, s:"finance", roles:[
     ["fab","Board Member","board","v"],

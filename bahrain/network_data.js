@@ -3520,7 +3520,7 @@ const PEOPLE = [
   {id:"duaij_bin_salman", n:"Duaij bin Salman bin Duaij Al Khalifa", t:2, p:58, s:"gov", roles:[
     ["csb_bahrain","President","executive","ns"]]},
   {id:"ebrahim_nonoo", n:"Ebrahim Nonoo", t:2, p:60, s:"finance", roles:[
-    ["bfc","Managing Director and Chief Executive Officer","executive","ns"]]},
+    ["bfc","Managing Director and Chief Executive Officer","executive","v"]]},
   {id:"abdulla_almoayed", n:"Abdulla Almoayed", t:2, p:60, s:"tech", roles:[
     ["tarabut_gateway","Founder and Chief Executive Officer","executive","v"]]},
   {id:"tariq_sanad", n:"Tariq Sanad", t:2, p:58, s:"tech", roles:[
