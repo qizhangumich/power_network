@@ -105,7 +105,7 @@ const INSTITUTIONS = [
   {id:"lst_2360", n:"Saudi Vitrified Clay Pipes Co.", s:"materials", t:2, p:50, short:"2360"},
   {id:"lst_3002", n:"Najran Cement Co.", s:"materials", t:2, p:50, short:"Najran Cement Co."},
   {id:"lst_3003", n:"City Cement Co.", s:"materials", t:2, p:50, short:"City Cement Co."},
-  {id:"lst_3004", n:"Northern Region Cement Co.", s:"materials", t:2, p:50, short:"3004"},
+  {id:"lst_3004", n:"Northern Region Cement Co.", s:"materials", t:2, p:55, short:"Northern Cement"},
   {id:"lst_3005", n:"United Arab Cement Co.", s:"materials", t:2, p:50, short:"3005"},
   {id:"lst_3007", n:"Oasis Trading and Marketing Co.", s:"materials", t:2, p:50, short:"3007"},
   {id:"lst_3008", n:"Al Kathiri Holding Co.", s:"materials", t:2, p:50, short:"3008"},
@@ -3898,6 +3898,12 @@ const PEOPLE = [
     ["lst_1210","Vice Chairman","board","ns"]]},
   {id:"ala_al_shaikh", n:"Ala Al-Shaikh", t:2, p:60, s:"materials", roles:[
     ["lst_1210","Chief Executive Officer","executive","ns"]]},
+  {id:"sulaiman_al_harbi", n:"Sulaiman Al Harbi", t:2, p:62, s:"materials", roles:[
+    ["lst_3004","Chairman","board","ns"]]},
+  {id:"mohammed_al_dosari", n:"Mohammed Al-Dosari", t:2, p:62, s:"materials", roles:[
+    ["lst_3004","Vice Chairman","board","ns"]]},
+  {id:"obaid_bin_al", n:"Obaid Bin Al-Subaie", t:2, p:60, s:"materials", roles:[
+    ["lst_3004","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -4343,6 +4349,7 @@ const AKA = {
   al_sagri:["HHC"],
   lst_2290:["2290","YANSAB"],
   lst_4100:["Makkah Construction","MCDC"],
+  lst_3004:["Northern Cement","3004"],
   lst_3050:["Southern Cement"],
   lst_4017:["Dr. Soliman Fakeeh Care Co.","Dr. Soliman Fakeeh Hospital","DSFH"],
   lst_4310:["Knowledge Economic City Company"],
