@@ -1,0 +1,5 @@
+# Earnings call transcript: ADNOC Logistics & Services posts record Q3 2026
+source: Investing.com
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxQaXFMYXg2TG92aGg0eEZYaF9XeEtXcXktVW54UWh3bGxENHJXLXMxYk4wLXcta3JJVWptVTFFNnRkQ0I3NUZET2U3Sno3WGN4VWhuRGxtblB1X0FKOUktWnBfQkJ4RS1WR29aWjZsM2xpVlUzcHlrbUE2M0R4eHpoWVEyODZPLUZYNFNDNGZJcWd6cUVJNkpVbGhxNDhXZWJsUDdINHM2VDk2SHBFWWMtMUhYakZrcUxydHRjUUpKQ3U2dllXTkE?oc=5
+
+Earnings call transcript: ADNOC Logistics & Services posts record Q3 2026    Investing.com

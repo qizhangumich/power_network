@@ -1,0 +1,5 @@
+# Space42 brings ad-funded Wi-Fi hotspots to South Africa
+source: Developing Telecoms
+url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxNT3NHTHZjc0U3d0FnTkN5VTFIYXhiNE1kenZFVzh4a1Z5ZFZ2SG82bzA4aGNWR2U5a1N3eUtOSGV2VWpQd2xLZVctb1B4WDRabFF0S0M0MkpYTWx0ank2ODNqNzBpRmVqQTR5czhoSEYtYWxhdDFlZlM5YjJVUlAzUUNtdVB6QlYtZjZQemlWRGtCUENVdnJfMUFieGhBYWlZWnpqa2VoWFZiUjFqMDE2Ukc4U2lLTGpyaXVNNUpTOU1PQThCQ1kzdERKcFZPQVhac1JXQUxhbkViZ0VIY1hQc1pwcGk?oc=5
+
+Space42 brings ad-funded Wi-Fi hotspots to South Africa    Developing Telecoms

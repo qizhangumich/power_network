@@ -1,0 +1,5 @@
+# Etihad Airways Scales Back Growth Ambitions as Carrier Slashes Capacity Across Key Routes
+source: AeroXplorer
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPa2dRTGxvNUM2c2psQzFhcjktY3NRVlN2WEJlUmdiRThKZFNlZDFNbUNvMklESllDYXNxWldlcFhEcXVsU3Vjb0dhN1VqSUU2OUZZeHBpVF9qV2xKMEVjSjMxdk5PWnRTWGY2QVJNWTd6VXBnMkFCbVgzMWhUNTRRZUNpMjNfUkg0Q0oyYUhzZ2N1THB1ZFpPX2JJSFpEdWExRl8wazBNQ0p3WTVkem5ZS0dQRTM2S2JUWWxGM1lMYWFCbnkw?oc=5
+
+Etihad Airways Scales Back Growth Ambitions as Carrier Slashes Capacity Across Key Routes    AeroXplorer
