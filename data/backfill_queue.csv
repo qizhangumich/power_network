@@ -8,6 +8,7 @@ kuwait,national_assembly,National Assembly,gov,72,0,skip
 abudhabi,bp,bp,energy,70,0,pending
 abudhabi,shell,Shell,energy,70,0,pending
 abudhabi,exxonmobil,ExxonMobil,energy,70,0,pending
+northern,shj_seaports_customs,"Sharjah Seaports, Customs & Free Zones Authority",gov,70,1,pending
 qatar,exxonmobil,ExxonMobil,energy,70,1,pending
 qatar,shell,Shell,energy,70,1,pending
 abudhabi,goldman,Goldman Sachs,finance,66,0,pending
@@ -15,6 +16,7 @@ oman,public_prosecution,Public Prosecution,gov,66,1,pending
 qatar,sjc,Supreme Judiciary Council,gov,66,1,pending
 abudhabi,eni,Eni,energy,64,0,pending
 abudhabi,mckinsey,McKinsey & Company,industry,64,0,pending
+northern,vopak_horizon_fuj,Vopak Horizon Fujairah Ltd,energy,64,0,pending
 qatar,eni,Eni,energy,64,0,pending
 saudi,psmmc,Prince Sultan Military Medical City,health,64,0,pending
 abudhabi,omv,OMV,energy,62,0,pending
@@ -24,6 +26,7 @@ kuwait,part_kuwait,Public Authority for Roads and Transportation (abolished Dec 
 kuwait,paci,Public Authority for Civil Information,gov,62,1,pending
 kuwait,scpd_kuwait,General Secretariat of the Supreme Council for Planning and Development,gov,62,1,pending
 northern,rak_hospitality,RAK Hospitality Holding LLC,consumer_disc,62,0,pending
+northern,nbq,National Bank of Umm Al Qaiwain PSC,finance,62,0,pending
 qatar,psa_qatar,Planning and Statistics Authority,gov,62,0,skip
 qatar,qe_renewables,QatarEnergy Renewable Solutions,energy,62,0,skip
 saudi,lucid,"Lucid Group, Inc.",consumer_disc,62,0,pending
@@ -157,6 +160,8 @@ northern,skhf,Sheikh Khalifa Hospital Fujairah,health,56,1,pending
 northern,saqr_hospital,Saqr Hospital,health,56,0,pending
 northern,al_fujairah_hosp,Al Fujairah Hospital,health,56,1,pending
 northern,obaidullah_hosp,Ibrahim Bin Hamad Obaidullah Hospital,health,56,0,pending
+northern,al_marwan,Al Marwan Group,conglomerate,56,0,pending
+northern,kuwait_hospital_shj,Kuwait Hospital Sharjah,health,56,1,pending
 oman,oman_observer,Oman Daily Observer (OEPPA),comm,56,1,pending
 qatar,qas,Qatar Aviation Services,industry,56,0,pending
 qatar,laffan_refinery,Laffan Refinery Company,energy,56,0,pending
@@ -197,6 +202,7 @@ abudhabi,nimr_automotive,Nimr Automotive,industry,55,0,pending
 dubai,imtiaz_developments,Imtiaz Developments,realestate,55,1,pending
 dubai,select,Select Group,realestate,55,0,pending
 northern,rak_minerals,RAK Minerals and Metals Investments LLC,materials,55,0,pending
+northern,sharjah_insurance,Sharjah Insurance Company PSC,finance,55,0,pending
 oman,mawarid_green,Mawarid Green Technologies,industry,55,0,pending
 saudi,al_othman,Al Othman Holding,conglomerate,55,0,pending
 saudi,bsf_capital,BSF Capital,finance,55,0,pending
@@ -256,6 +262,8 @@ northern,ajman_statistics_ctr,Ajman Statistics Centre,gov,54,1,pending
 northern,uaq_smart_gov,Smart Government Department (Umm Al Quwain),tech,54,0,pending
 northern,rak_petroleum,RAK Petroleum plc,energy,54,0,skip
 northern,fujairah_gold,Fujairah Gold FZC,materials,54,0,pending
+northern,fujairah_refining,Fujairah Refining Company,energy,54,0,pending
+northern,sharjah_op,Sharjah Cooperative Society,consumer_stap,54,1,pending
 oman,marsa_lng,Marsa LNG,energy,54,1,pending
 oman,insead,INSEAD,education,54,0,pending
 oman,oman_jordan_inv,Omani-Jordanian Investment Company,finance,54,0,pending
@@ -350,6 +358,7 @@ northern,uaq_blue_economy,Sustainable Blue Economy Office (Umm Al Quwain),gov,52
 northern,rakcam,Ras Al Khaimah Centre for Advanced Materials,education,52,1,pending
 northern,julphar_life,Julphar Life LLC,consumer_stap,52,0,pending
 northern,thumbay_fujairah,Thumbay Hospital Fujairah,health,52,0,pending
+northern,zulekha_hosp_shj,Zulekha Hospital Sharjah,health,52,0,pending
 oman,asyad_express,Asyad Express,industry,52,0,pending
 oman,al_mazunah_fz,Al Mazunah Free Zone,gov,52,1,pending
 oman,al_namaa_poultry,Al Namaa Poultry,consumer_stap,52,0,pending

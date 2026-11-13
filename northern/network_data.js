@@ -197,6 +197,16 @@ const INSTITUTIONS = [
   {id:"fuj_creative_city", n:"Fujairah Creative City (Media Free Zone)", s:"gov", t:2, p:50, short:"Fuj Creative City"},
   {id:"rak_hospitality", n:"RAK Hospitality Holding LLC", s:"consumer_disc", t:2, p:62, short:"RAK Hospitality"},
   {id:"rak_minerals", n:"RAK Minerals and Metals Investments LLC", s:"materials", t:3, p:55, short:"RAK Minerals"},
+  {id:"shj_seaports_customs", n:"Sharjah Seaports, Customs & Free Zones Authority", s:"gov", t:1, p:70, short:"Shj Seaports&Customs"},
+  {id:"spea", n:"Sharjah Private Education Authority", s:"gov", t:2, p:58, short:"SPEA"},
+  {id:"nbq", n:"National Bank of Umm Al Qaiwain PSC", s:"finance", t:2, p:62, short:"NBQ"},
+  {id:"al_marwan", n:"Al Marwan Group", s:"conglomerate", t:3, p:56, short:"Al Marwan Group"},
+  {id:"kuwait_hospital_shj", n:"Kuwait Hospital Sharjah", s:"health", t:2, p:56, short:"Kuwait Hospital Shj"},
+  {id:"vopak_horizon_fuj", n:"Vopak Horizon Fujairah Ltd", s:"energy", t:2, p:64, short:"Vopak Horizon Fuj"},
+  {id:"fujairah_refining", n:"Fujairah Refining Company", s:"energy", t:3, p:54, short:"Fujairah Refining"},
+  {id:"sharjah_op", n:"Sharjah Cooperative Society", s:"consumer_stap", t:3, p:54, short:"Sharjah Co-op"},
+  {id:"sharjah_insurance", n:"Sharjah Insurance Company PSC", s:"finance", t:3, p:55, short:"Sharjah Insurance"},
+  {id:"zulekha_hosp_shj", n:"Zulekha Hospital Sharjah", s:"health", t:3, p:52, short:"Zulekha Hosp Shj"},
 ];
 
 const PEOPLE = [
@@ -508,6 +518,7 @@ const PEOPLE = [
   {id:"sheikh_mohammed_bin_b", n:"Sheikh Mohammed bin Saud Al Qasimi", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Sharjah Finance Department)","board","v"]]},
   {id:"sheikh_khaled_bin", n:"Sheikh Khaled bin Abdullah bin Sultan Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["shj_seaports_customs","Chairman","board","v"],
     ["al_buhaira_ins","Managing Director","board","ns"],
     ["saif_zone","Chairman","board","v"],
     ["hfza","Chairman","board","v"],
@@ -1572,6 +1583,14 @@ const PEOPLE = [
     ["uaq_ports_customs","Deputy Chairman of the Board of Directors","board","ns"]]},
   {id:"jamal_ahmed_al", n:"Jamal Ahmed Al Tair", t:2, p:58, s:"gov", roles:[
     ["rak_police","Deputy Commander-in-Chief (Brigadier)","executive","ns"]]},
+  {id:"muhadditha_alhashimi", n:"Muhadditha Alhashimi", t:2, p:62, s:"gov", roles:[
+    ["spea","Chairperson","board","v"]]},
+  {id:"ali_al_hosani", n:"Ali Al Hosani", t:2, p:58, s:"gov", roles:[
+    ["spea","Director General","executive","v"]]},
+  {id:"afra_salem", n:"Afra Salem", t:2, p:58, s:"health", roles:[
+    ["kuwait_hospital_shj","Director","executive","v"]]},
+  {id:"majid_salem_saif", n:"Majid Salem Saif Al Junaid Al Shuwaihi", t:2, p:62, s:"consumer_stap", roles:[
+    ["sharjah_op","Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1673,6 +1692,11 @@ const OWNERSHIP = [
   ["fuj_creative_city","fujgov","media free zone separated from Fujairah Culture & Media Authority by Emiri Decree No. 6 of 2023","ns"],
   ["rak_hospitality","rak_ido","subsidiary","v"],
   ["rak_minerals","rak_ido","JV","ns"],
+  ["shj_seaports_customs","shj_execco","subordinate authority","v"],
+  ["spea","shjgov","government authority","v"],
+  ["kuwait_hospital_shj","emirates_health_svcs","operated by","v"],
+  ["vopak_horizon_fuj","fujgov","joint-venture (22.2% stake)","v"],
+  ["sharjah_op","shjgov","Ruler-chartered cooperative","v"],
 ];
 
 const FAMILY = [
@@ -1807,4 +1831,8 @@ const AKA = {
   fuj_creative_city:["Creative City Fujairah","Fujairah Media Free Zone","Media Free Zone"],
   rak_hospitality:["RAKHH"],
   rak_minerals:["RMMI"],
+  shj_seaports_customs:["SSCFZA"],
+  vopak_horizon_fuj:["VHFL"],
+  fujairah_refining:["FRCL"],
+  sharjah_insurance:["SICO"],
 };
