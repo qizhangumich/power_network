@@ -1,0 +1,5 @@
+# Masdar Celebrates Completion Of $950 Million Solar And Battery Storage Project In California
+source: Menafn
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNZHE1Z2RJSkh6b0lZX2pmYjZVMmVuQ3JPT3hnSXBMNWJGZzZMWWlrUkNtaTlYOEpBZXExRGozdUxNcGpDSnFiOHhnV0NTMC13ZGlSd2pyUUJpMmpMbTZCeXR0SFFDb2RIWFJRcC1hblhiYl95dy14SnBCSTVBQ0JXVEJFeDFDUWJTSldOUHExaTg2aHY2LWhLcU9SclgwbTlBeUlFNldiYmo5R1lkOVpJVXVyY0dLbHpCVWsyVGxR?oc=5
+
+Masdar Celebrates Completion Of $950 Million Solar And Battery Storage Project In California    Menafn

@@ -1,0 +1,5 @@
+# Adnoc to Reportedly Complete Second Onshore Pipeline in January 2027
+source: www.marketscreener.com
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOdXpJbVdZS1BINU1XNEFKRjZXcVB4TlB6SnJzUEFuV0hDTlBmeU85dE5vQ3NZV3kyb3ViRmZzNDA4aTlqdm1hcS1mbFBuRlA5UFhzUWt2MVAyOHVKN2F0VWN5bWEwNlQtM3k1MHlELVh4QzdqTkYzNzVRM3hZdVZudDZ2a2FfNi1mb09aeXVKYjBqNUZwZnpwa3dHUVViZVF5b1NvdGhtOVdhNVNzVEN2M0h6dFRLVHg4eUxQa0hR?oc=5
+
+Adnoc to Reportedly Complete Second Onshore Pipeline in January 2027    www.marketscreener.com

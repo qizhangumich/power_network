@@ -1,0 +1,5 @@
+# Apollo Global Management stock nears notes closing tied to Mubadala
+source: ad-hoc-news.de
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxPVUVOZFRLTXJzNEREWDREc1hPYXkzSHBRMXg5UHlTM0l6OEFHV0pJNkU1RFNCbmlWd0tWdjU1WEJNVVIyV29ZbmRQVmhNVUZfenlsWklNbTJQM0xObzZ3MC0tWWpvekowdWQ4R1BsdGhCVXdSTTExTVFjY2U2Q1BYV1dSQ1drZXBvUGJBSXQzWVVEMkpVQVJZbmNNNk43SDdIYjhncmpRS01TT2JoeDZ0QUY0WkdFRWFsdG5IclJBS0MtVnJvZmdNeTNR?oc=5
+
+Apollo Global Management stock nears notes closing tied to Mubadala    ad-hoc-news.de

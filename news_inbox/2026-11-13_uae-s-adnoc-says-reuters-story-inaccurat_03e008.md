@@ -1,0 +1,5 @@
+# UAE's Adnoc says Reuters story 'inaccurate,' calls for responsible reporting
+source: Khaleej Times
+url: https://news.google.com/rss/articles/CBMikAFBVV95cUxNUDFwRzZKdjFYNDctQlM2VzBwMUsyQmRTb25kMjhwVlJmam00Um5faXhGMFVIenZPdmJ0bXJjc0tNWTlsbWpZZUFneThkZUNRRnVLMGJuRkxFYWNPVjZtanFkNUZjbWJDUjlsVjgxVF9zZ3lLYjRWb19VMWVNekwzYjRvS25SSGU3cnRudmZYa1XSAZgBQVVfeXFMTnVLbkxJbWRtdVdndnBKY3ZPcFhpVGZvV3VrdVBmdnB0YUpZZTFaZUlLalE4MG9SMkVwcUx0bVNPMUFwZk0xODdXSjlEcnpjTEVlZm9wLWZ0YlFoTGo2SXNHV1RyU055Rkdkc19yVVBXXzZxWUpEZVBpT2d5T2IxU2swQVZ2eGJScDQ2Tk1NMjVrMkdvNWtYdTI?oc=5
+
+UAE's Adnoc says Reuters story 'inaccurate,' calls for responsible reporting    Khaleej Times

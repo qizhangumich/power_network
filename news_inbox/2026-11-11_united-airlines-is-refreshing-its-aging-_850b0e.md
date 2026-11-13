@@ -1,0 +1,5 @@
+# United Airlines is Refreshing its Aging Boeing 757 'Flying Pencil' Jets With In-Flight Entertainment at Every Seat And New Super-Sized Overhead Bins
+source: PYOK
+url: https://news.google.com/rss/articles/CBMingJBVV95cUxOU0QwSWhtLWZFVHJDaVJKR0NDUm1zTzdHUzBzZkJJSmhaZVVkekpZbE50Vi1PREd2b3hTVnNDX0RIUS1KN2liaFdXZnRZY2h5Um5ibGtoUjkzUGs5bkFxS3cxNEVhTHlseHN1bDB6a2Jhd0hzOTIxNmVvM1o0N3ExMXljU3h2aHpoWmY4N3I4M3ZRTDY0MXdhNFBDZm96OEs0M1dJaWZOaFJXMllOSGQwZ0dDUkNWYnpZN2VfcHF1MnpDTHc2UmNBX3diX1NHcS00aUlfemtXYmQxYVMxQjhsLUEwa2lwNDhUdGYtQjNGd016ZmctZmdQdUlDZkZjREh4SGJRSjRSS19lcVloMGVUR3dlOXhUWkRMakpuNmh3?oc=5
+
+United Airlines is Refreshing its Aging Boeing 757 'Flying Pencil' Jets With In-Flight Entertainment at Every Seat And New Super-Sized Overhead Bins    PYOK

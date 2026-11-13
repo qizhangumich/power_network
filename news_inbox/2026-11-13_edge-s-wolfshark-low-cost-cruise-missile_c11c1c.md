@@ -1,0 +1,5 @@
+# Edge’s Wolfshark Low-Cost Cruise Missile Takes Flight
+source: Aviation Week
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxOOUNFdTdqSnRFWmlEOHR2WXR0bGZ1THdoX0Jvd3NlLU80VlNGVGYwU0VuSEpPak94cHVxeUdoUnJ0WEg1VzlXRDRpWDJVbTdya1oyZnk3M1M1QzFfVm9DQkxyalVSY3ZLbW04OFQ2UTlISWZNSUNuWTVNQ1Rid08zajVRZlVQZ0w5UlFqeUpvQ05mUjRPRWN2bmpTZFJDNEVRT2FtVUphYzRpZnFpU0E?oc=5
+
+Edge’s Wolfshark Low-Cost Cruise Missile Takes Flight    Aviation Week

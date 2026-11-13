@@ -1,0 +1,5 @@
+# UAE President and Arab League Secretary-General discuss regional developments
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxQTHpIeHpEN3hha2VzSXVUeFFVal9lbWs0Tno3Y3puNDlRdVFxOE4tR0c2UmwxNlBiejZhQ3BXOC01VGpQdkJvMzFsamNLVm9vVXB2WGlPeFZBQ2JTTXllZXBkeVg1VS1HTGR5NnYwd3lKakJISXpTS0ItRmZMWmcwdGgyaEhMNks1Ykg0RUhZMm9Edzd5bWZsZ1dYdXh3bmh1aWc3WWw3bUVqNFd0emtZNXV5QmJxTFpJQnc?oc=5
+
+UAE President and Arab League Secretary-General discuss regional developments    Gulf Today
