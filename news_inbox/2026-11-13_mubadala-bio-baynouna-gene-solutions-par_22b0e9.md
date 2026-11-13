@@ -1,0 +1,5 @@
+# Mubadala Bio, Baynouna Gene Solutions partner to expand access to locally manufactured advanced molecular diagnostics in UAE
+source: Big News Network.com
+url: https://news.google.com/rss/articles/CBMi_gFBVV95cUxOSzVBMHluQUVVeUxTZnJ6U2J2Z0w1RHMwTjVDNFRBTlVRVl81YllUUjk3b0wyUFJlZFhJNnJkSDJ1S3FJUnVwalVWRFNIZ3hIUnZoVXF4S0xldkYtWW9yZlJNTlpwdW5WamgxRmRIbVFWT0lYUmRPdGdVbzRPM2pXZTVfVlVsMUZXWlk0VzhrdHJta3VjZHQ5TjlHbGFCNVZiSml2Rnlma0VsYWRhbTlkaTVVektSNHJxQTMzSDlXZ2M1S28tRzlRZ1dGa0s1amFrMEYyZ2t3TjVFLXJ4Vy1GZTVBdWo2akllLUVtREFER18zR1hpbWg1ZUhsNTRNdw?oc=5
+
+Mubadala Bio, Baynouna Gene Solutions partner to expand access to locally manufactured advanced molecular diagnostics in UAE    Big News Network.com

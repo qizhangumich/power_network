@@ -1,0 +1,5 @@
+# Masdar completes $950m solar and battery storage project in US
+source: The National
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOUmVWTERHZDNJSFdvTFIxZmtqb2E2TzQ2M1B2WUFWUUFyTnQzUGZ6VnNWUWhJZjQ5WGhqWU9Bdk9BLTdxRFBVcU5OVmRjaHhWU21qT0tHaGNobFlvRF92T0xodVhpVFRIdzZzdUtqRTd2aWZBRWJ0ajBtbDRqSTRITEllbWVRUzhpMVRsUHREMHUxNmNBQ29KWGtKZVdEcFRHSEtGeHVkSXNPNkpjUUJnc0paOWVFM2JJNm00T1ZB?oc=5
+
+Masdar completes $950m solar and battery storage project in US    The National

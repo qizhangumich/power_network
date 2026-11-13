@@ -1,0 +1,5 @@
+# Abu Dhabi Maritime Awards 2026 Draw Record 132 Entries
+source: Forbes Middle East
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNOGNMX25FZnB1Tmg2aFl0SDkzMEg1eXpWeFJWaDdhRUdRNnpCbnM0TUJ2U2c3MnpGT0RsR3JjMnFMWlZXWVZkdk9maXJocVhkQ2o0S1pIbk5yNTJPY1FtZVBGWEVGaDhJU1dYVDNWY25wZzY5V2tsS2VPQ0Uzc0RwVVNLenJzZmM3SC02cFV6UXU1WWlyUE1WT0dBdVppbUhzOWFzdTl4NkxjUlFDTTNwZEpMOEdTUFBGZGh0Qzdn?oc=5
+
+Abu Dhabi Maritime Awards 2026 Draw Record 132 Entries    Forbes Middle East

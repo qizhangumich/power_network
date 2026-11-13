@@ -1,0 +1,5 @@
+# Masdar Completes $950 Million Solar And Battery Storage Project In California
+source: SolarQuarter
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxPYmZ2TXc3aHNoQ3dubTFnSld0ZTh0ckZ1SHdENElPaERXdHdsekhiang4cHYxNXptQU9VTHh2eHh5WWl6bkE2YlZTRE0zX1dpZnYtX3EwR25rd2RYeUFKQmtmc214ZDhTa2RHRGhQUUtmVDN0WlV0YURWbEpoYTFpMWI5UTFVM2pzeGZyMmpVbGxwdVVvT0NMcTNFR1ZuS2hlQUIxS3RUZ08xUDFzWENGdUhDNA?oc=5
+
+Masdar Completes $950 Million Solar And Battery Storage Project In California    SolarQuarter

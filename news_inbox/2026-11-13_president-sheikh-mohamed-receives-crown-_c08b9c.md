@@ -1,0 +1,5 @@
+# President Sheikh Mohamed receives Crown Prince of Bahrain
+source: The National
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQZFBmaEprZHhOdjUwVm4yeEdfYjBIRHZTMi1PSmRPb2F5TURkZFhYLUFueTJHVUYtTlFSZjFYYzB1dVNyZlVmZk1yajRVOGxSdi14YWE2T2xoYTJQZGNmVlZXNEZRU2VsbThzbktXTkxEM09SZGhaZ1UtS0J3OXZTNWppM2RDM0k2dU9GaXJLcWh6WHpqZFA3MS1ZaDMzcE1fUUlxeVRjRGJXQzV5UElr?oc=5
+
+President Sheikh Mohamed receives Crown Prince of Bahrain    The National

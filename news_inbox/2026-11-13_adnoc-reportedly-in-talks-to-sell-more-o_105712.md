@@ -1,0 +1,5 @@
+# Adnoc Reportedly in Talks to Sell More Offshore Crude to Traders via Long-term Deals
+source: marketscreener.com
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdGNCMHhsTFZjYW5QMEE1SGlURVlzSFpmajRGdmNkMkFTYXpkaXp5V0V1NDhXSDVhaVZ5TS03TXhBMURicFdDa0Q2RTJwTURUTnVFNkwzOHV2R2xMMlp1NmJscldsYUJYTVFOaG1xWW9TeWhmUDlNNXlYSkMwNWtMdmMySmltVUI2dkEzcUpTWlB1cUI3N2xROWRMREJ6NmtRQXd1SU9zWWFaamcyeko1WkJia1UzcmdiXzZPc0xTSWQ1NGxQT28xZHFrRGo4bHN1R093?oc=5
+
+Adnoc Reportedly in Talks to Sell More Offshore Crude to Traders via Long-term Deals    marketscreener.com

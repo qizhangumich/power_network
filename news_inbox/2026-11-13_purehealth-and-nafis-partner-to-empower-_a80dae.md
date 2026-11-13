@@ -1,0 +1,5 @@
+# PureHealth and Nafis partner to empower Emirati talent in healthcare sector
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYzdRTld0X3lFQ1RtSmhVeFlPWnoxSEEzWGRNMnNJR0FvT0RmMmg2NDhjSnFkbXRCMEVXU0xTUHFZYTctN3pUM3FIR3dlYUNLekw4d0pmU0VHbG5EazBzRFlUcE96dEdlWnJ2YVE4d1E2SmN5cE9VNWQ2QlNWMnJnblJyUEN1QTJkZWRVWXdyenNWXzQtWnJOdFlPVC1YaVBnT08zRkJVQU5rOEJKNEFTR3ZYeDRxbl9PVnQ4?oc=5
+
+PureHealth and Nafis partner to empower Emirati talent in healthcare sector    مكتب أبوظبي الإعلامي

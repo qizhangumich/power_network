@@ -1,0 +1,5 @@
+# Sheikh Mohammed says UAE nine-month trade approaches Dh3tn
+source: www.thenationalnews.com
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSWlwc0VPTzEtQVk3TFRCZ24wcnFlSmxBbm9TSG5OUm1Tdmx2VnduQk9oNlhyQVFKNzVIYTloZTgyNkZvX3RHQTkyTGdka2w0bGRXbm1JZlRaaTlIR09JaVZ4dkp4WHZFS3RGSTBCTl9nenFwZnIwSkhFVTRMVnZOTXI1RFFaQzg2S1ZGNUpxYVhIZnE1c2Z4M0ZaSXgxbTk0WElxcXl1R0tDQjNjSHllN3IzSGhMYXZjanlKUV9Xa05ZVURkMFUtTDkwZXlZMmN6?oc=5
+
+Sheikh Mohammed says UAE nine-month trade approaches Dh3tn    www.thenationalnews.com

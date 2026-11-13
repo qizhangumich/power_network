@@ -1,0 +1,5 @@
+# Masdar Announces Completion Of $950 Mln Solar And Battery Storage Project In California
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcDBnalZOcFZuWHNjN1VKLS1BaXhIMDF1WVFuX0VyWk5rQXV6WDk5Ym1fY19kRXpMUVdBQnhWaEQwX1N1TmpPTzZBSE1SQ3BjNmVIUUxJaFB4aENmUUt2WEFvYnZlVkZiRGx6NlZXT1pGMnFmNWpqMTg3VWZ6dmhxcnIzZTAyQUJlSkNKUWNQSTByNVJjSXVmX1lPM2JiVVZDWHlaYUhERHhfU3BKdmxCcnNDYzI0YVBwQWFCOWdLaHNSU3p2ckJ0TjZJcTFSdDJyaEYzekttajh1cEVsX0VpY3VKZEJuYm15ckplaQ?oc=5
+
+Masdar Announces Completion Of $950 Mln Solar And Battery Storage Project In California    TradingView

@@ -1,0 +1,5 @@
+# ADNOC's second pipeline to be competed by around January, Inpex executive says
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVW12akliMWZvNFI1bjFkRTNFbkFUYmMzTVhtN0RPSnk2dEVOYXF1RWU0RU5fMDlaV2tza3RMWmlGcHRVeExWM05ZbUVFc2xhZ203cG9ad0toU3dwVnYxUE4tWHppNXc5NFUzTGJqMklkQnZ2dzJWYnA1VUFObHo5bzctMWdBY1FiamZZRkIySk54bEp4My1qUEs4OXlrZmplWTJtbm1adDlnOUQ1RHIzWG9EeFlqcUpqMEFWREJHUVlTU0tEaEhPOTI2VGk5VkhWSHpMVWt5bGtzWGZLMmVQZA?oc=5
+
+ADNOC's second pipeline to be competed by around January, Inpex executive says    TradingView
