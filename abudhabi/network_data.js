@@ -4645,7 +4645,7 @@ const OWNERSHIP = [
   ["m42","mubadala","JV partner","v"],
   ["m42","g42","JV partner","v"],
   ["ccad","m42","","v"],
-  ["adports","adq","~98.5%; L'IMAD (acting through ADQ) tender offer completed Sep 2026, stake raised to ~98.5% (incl. further stake bought from Al Seer Marine); settlement by 9 Oct 2026, ADX delisting to follow","v"],
+  ["adports","adq","~98.5-100%; L'IMAD (acting through ADQ) tender offer completed Sep 2026, stake raised to ~98.5% (incl. further stake bought from Al Seer Marine); settlement by 9 Oct 2026; mandatory squeeze-out of remaining ~1.5% underway, ADX delisting expected Dec 2026","v"],
   ["etihad","adq","","v"],
   ["adairports","adq","","v"],
   ["etihadrail","adgov","state owner","ns"],

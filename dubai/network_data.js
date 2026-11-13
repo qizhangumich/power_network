@@ -433,7 +433,7 @@ const PEOPLE = [
     ["execco","Member (Commander-in-Chief of Dubai Police)","board","v"],
     ["dxbpolice","Commander-in-Chief","government","v"]]},
   {id:"hamad_almansoori_dda", n:"Hamad Obaid Al Mansoori", t:1, p:70, s:"gov", roles:[
-    ["mbrsc","Chairman of the Board of Directors","board","ns"],
+    ["mbrsc","Chairman of the Board of Directors","board","v"],
     ["execco","Member (Director General of Dubai Digital Authority)","board","v"],
     ["digitaldubai","Director-General","government","v"]]},
   {id:"alawi_alsheikhali", n:"Dr. Alawi Alsheikh-Ali", t:1, p:72, s:"health", roles:[
@@ -442,7 +442,7 @@ const PEOPLE = [
     ["dha","Director-General","government","v"]]},
   {id:"aisha_miran_khda", n:"Aisha Abdulla Miran", t:1, p:66, s:"education", roles:[
     ["dubai_future_fdn","Board Member (Director General, KHDA)","board","v"],
-    ["tecom","Director","board","ns"],
+    ["tecom","Director","board","v"],
     ["execco","Member (Director General of KHDA)","board","v"],
     ["khda","Director-General","government","v"]]},
   {id:"omar_bushehab_dld", n:"Omar Hamad Bu Shehab", t:1, p:74, s:"gov", roles:[
