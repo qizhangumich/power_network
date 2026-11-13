@@ -280,6 +280,7 @@ const PEOPLE = [
     ["dxbgov","UAE Deputy PM & Minister of Defence","political","v"]],
     note:"'Fazza' — runs day-to-day Dubai and took the federal defence portfolio in 2024."},
   {id:"maktoum_dep", n:"H.H. Sheikh Maktoum bin Mohammed Al Maktoum", t:0, p:94, s:"finance", roles:[
+    ["wasl_asset_mgmt","Chairman","board","v"],
     ["dubai_courts","Chairman of Dubai Judicial Council","board","v"],
     ["execco","Deputy Chairman","board","v"],
     ["icd","Vice Chairman","board","v"],
@@ -455,6 +456,7 @@ const PEOPLE = [
   {id:"mark_steward_dfsa", n:"Mark Steward", t:2, p:68, s:"finance", roles:[
     ["dfsa","Chief Executive","executive","v"]]},
   {id:"hesham_abdulla_al", n:"Hesham Abdulla Al Qassim", t:2, p:62, s:"finance", roles:[
+    ["wasl_asset_mgmt","Vice Chairman and Chief Executive Officer","executive","ns"],
     ["denizbank","Chairman of the Board of Directors","board","v"],
     ["emirates_islamic","Chairman","board","v"],
     ["lst_amlak","Board Member","board","v"],
@@ -2858,6 +2860,14 @@ const PEOPLE = [
     ["azizi_developments","Chief Human Resources Officer","executive","ns"]]},
   {id:"saurabh_bakshi", n:"Saurabh Bakshi", t:2, p:58, s:"realestate", roles:[
     ["azizi_developments","Chief Operating Officer, Hospitality","executive","ns"]]},
+  {id:"mahdi_amjad", n:"Mahdi Amjad", t:2, p:62, s:"realestate", roles:[
+    ["omniyat","Founder and Executive Chairman","board","v"]]},
+  {id:"noel_quinn", n:"Noel Quinn", t:2, p:52, s:"realestate", roles:[
+    ["omniyat","Strategic Advisory Board Member","board","v"]]},
+  {id:"nadhim_zahawi", n:"Nadhim Zahawi", t:2, p:52, s:"realestate", roles:[
+    ["omniyat","Strategic Advisory Board Member","board","v"]]},
+  {id:"mark_machin", n:"Mark Machin", t:2, p:52, s:"realestate", roles:[
+    ["omniyat","Strategic Advisory Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -3923,6 +3923,12 @@ const PEOPLE = [
     ["lst_4040","Managing Director & CEO","executive","ns"]]},
   {id:"abdulrahman_al_abdullah", n:"Abdulrahman Al Abdullah Al Faisal", t:2, p:62, s:"conglomerate", roles:[
     ["alfaisaliah","Chairman","board","ns"]]},
+  {id:"obaid_saad_al", n:"Obaid Saad Al Subaie", t:2, p:62, s:"energy", roles:[
+    ["lst_2030","Chairman","board","ns"]]},
+  {id:"abdulaziz_abdulmohsen_al", n:"Abdulaziz Abdulmohsen Al Bakr", t:2, p:62, s:"energy", roles:[
+    ["lst_2030","Deputy Chairman","board","ns"]]},
+  {id:"khalid_bin_mohammad", n:"Khalid bin Mohammad Al Qazlan", t:2, p:60, s:"energy", roles:[
+    ["lst_2030","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

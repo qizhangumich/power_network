@@ -13,8 +13,6 @@ qatar,shell,Shell,energy,70,1,pending
 abudhabi,goldman,Goldman Sachs,finance,66,0,pending
 oman,public_prosecution,Public Prosecution,gov,66,1,pending
 qatar,sjc,Supreme Judiciary Council,gov,66,1,pending
-saudi,lst_2030,Saudi Arabia Refineries Co.,energy,66,0,pending
-dubai,omniyat,OMNIYAT,realestate,65,0,pending
 abudhabi,eni,Eni,energy,64,0,pending
 abudhabi,mckinsey,McKinsey & Company,industry,64,0,pending
 qatar,eni,Eni,energy,64,0,pending
@@ -22,7 +20,6 @@ saudi,psmmc,Prince Sultan Military Medical City,health,64,0,pending
 abudhabi,omv,OMV,energy,62,0,pending
 abudhabi,moelis,Moelis & Company,finance,62,0,pending
 abudhabi,globalfoundries,GlobalFoundries,tech,62,0,pending
-dubai,wasl_asset_mgmt,wasl Asset Management Group,realestate,62,0,pending
 kuwait,part_kuwait,Public Authority for Roads and Transportation (abolished Dec 2025 — departments transferred to Ministry of Public Works & Ministry of Interior per Amiri Decree),industry,62,0,skip
 kuwait,paci,Public Authority for Civil Information,gov,62,1,pending
 kuwait,scpd_kuwait,General Secretariat of the Supreme Council for Planning and Development,gov,62,1,pending
