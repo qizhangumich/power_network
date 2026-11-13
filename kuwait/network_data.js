@@ -1950,6 +1950,7 @@ const PEOPLE = [
   {id:"hisham_alrayes", n:"Hisham Alrayes", t:2, p:60, s:"finance", roles:[
     ["lst_gfh","Group Chief Executive Officer","executive","v"]]},
   {id:"jassim_mustafa_boodai", n:"Jassim Mustafa Boodai", t:2, p:62, s:"industry", roles:[
+    ["boodaicorp","Chairman of the Board","board","v"],
     ["lst_integrated","Chairman of the Board","board","ns"]]},
   {id:"abdul_aziz_boodai", n:"Abdul Aziz Boodai", t:2, p:60, s:"industry", roles:[
     ["lst_integrated","Chief Executive Officer","executive","ns"]]},
@@ -2203,6 +2204,10 @@ const PEOPLE = [
     ["kharafi_national","Vice Chairman and Managing Director","executive","ns"]]},
   {id:"james_minato", n:"James Minato", t:2, p:58, s:"materials", roles:[
     ["kirby_building_sys","Vice President - Middle East & Africa","executive","v"]]},
+  {id:"abdulfatah_m_r", n:"Abdulfatah M. R. Marafie", t:2, p:62, s:"realestate", roles:[
+    ["lst_altijaria","Chairman","board","v"]]},
+  {id:"adwan_m_aladwani", n:"Adwan M. Aladwani", t:2, p:62, s:"realestate", roles:[
+    ["lst_altijaria","Vice Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -379,6 +379,7 @@ const PEOPLE = [
     ["mashreq","Chairman","board","v"],
     ["dubaichambers","Chairman","board","v"]]},
   {id:"khalaf_habtoor", n:"Khalaf Al Habtoor", t:2, p:76, s:"conglomerate", roles:[
+    ["habtoor_hospitality","Founding Chairman","board","ns"],
     ["al_habtoor_real","Chairman","board","v"],
     ["alhabtoor","Founder & Chairman","board","v"]]},
   {id:"amit_kaushal", n:"Amit Kaushal", t:2, p:72, s:"sovereign", roles:[
@@ -463,6 +464,7 @@ const PEOPLE = [
     ["icd","Board Member","board","v"],
     ["enbd","Board Member","board","v"]]},
   {id:"buti_obaid_buti", n:"Buti Obaid Buti Al Mulla", t:2, p:52, s:"finance", roles:[
+    ["dubai_refreshment","Board Member","board","v"],
     ["american_hospital","Chairman","board","v"],
     ["emirates_islamic","Vice Chairman","board","v"],
     ["almulla","Board Member","board","v"],
@@ -496,6 +498,7 @@ const PEOPLE = [
   {id:"marwan_hadi", n:"Marwan Hadi", t:2, p:58, s:"finance", roles:[
     ["enbd","Group Head Retail Banking & Wealth Management","executive","v"]]},
   {id:"eman_abdulrazzaq", n:"Eman Abdulrazzaq", t:2, p:58, s:"finance", roles:[
+    ["dubai_refreshment","Board Member","board","v"],
     ["denizbank","Member of the Board of Directors","board","v"],
     ["enbd","Group COO & Chief Human Resources Officer","executive","v"],
     ["emaar","Board Member","board","v"]]},
@@ -803,6 +806,7 @@ const PEOPLE = [
     ["dhre","Group Chief Financial Officer","executive","v"],
     ["dubaiholding","Group Chief Financial Officer","executive","v"]]},
   {id:"fernando_eiroa", n:"Fernando Eiroa", t:2, p:58, s:"sovereign", roles:[
+    ["dh_entertainment","Chief Executive Officer","executive","v"],
     ["dubaiholding","CEO, Dubai Holding Entertainment","executive","v"]]},
   {id:"francis_giani", n:"Francis Giani", t:2, p:58, s:"sovereign", roles:[
     ["dhre","Chief Executive Officer - Dubai Holding Community Management","executive","v"],
@@ -985,6 +989,7 @@ const PEOPLE = [
     ["lst_upp","Board Member","board","v"],
     ["dubaiinv","Board Member","board","v"]]},
   {id:"hind_abdulrahman_alali", n:"Hind Abdulrahman AlAli", t:2, p:52, s:"conglomerate", roles:[
+    ["dubai_refreshment","Board Member","board","v"],
     ["dubaiinv","Board Member","board","v"]]},
   {id:"faisal_abdulaziz_alshaikh", n:"Faisal Abdulaziz Alshaikh Mohamed Alkhazraji", t:2, p:52, s:"conglomerate", roles:[
     ["dubaiinv","Board Member","board","v"]]},
@@ -1215,6 +1220,7 @@ const PEOPLE = [
     ["lst_alansari","Board Member","board","v"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"ahmad_bin_eisa", n:"Ahmad Bin Eisa Bin Nasser Alserkal", t:2, p:52, s:"gov", roles:[
+    ["dubai_refreshment","Chairman of the Board of Directors","board","v"],
     ["alserkal","Chairman","board","ns"],
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"easa_farid_abdulla", n:"Easa Farid Abdulla Al Gurg", t:2, p:52, s:"gov", roles:[
@@ -1555,6 +1561,7 @@ const PEOPLE = [
   {id:"k_p_rajan", n:"K.P. Rajan", t:2, p:62, s:"conglomerate", roles:[
     ["alhabtoor","Chairman - Emirates International Schools Divisional Board / Group Financial Advisor","board","ns"]]},
   {id:"ahmed_khalaf_al", n:"Ahmed Khalaf Al Habtoor", t:2, p:60, s:"conglomerate", roles:[
+    ["al_habtoor_motors","Chief Executive Officer","executive","v"],
     ["alhabtoor","CEO - Al Habtoor Motors","executive","ns"]]},
   {id:"abdul_rahman_saif", n:"Abdul Rahman Saif Al Ghurair", t:2, p:62, s:"conglomerate", roles:[
     ["alghurair","Chairman","board","v"]]},
@@ -1692,6 +1699,7 @@ const PEOPLE = [
   {id:"ahmed_mahboob", n:"Ahmed Mahboob", t:2, p:52, s:"gov", roles:[
     ["rta","Member Board of Executive Directors","board","v"]]},
   {id:"shehab_bu_shehab", n:"Shehab Bu Shehab", t:2, p:52, s:"gov", roles:[
+    ["dubai_taxi","Board Member","board","v"],
     ["rta","Member Board of Executive Directors","board","v"]]},
   {id:"selin_s_zer", n:"Selin Süzer", t:2, p:58, s:"consumer_disc", roles:[
     ["lst_talabat","Chief Marketing Officer","executive","ns"]]},
@@ -2784,6 +2792,72 @@ const PEOPLE = [
     ["denizbank","Member of the Board of Directors, Audit Committee Chairman","board","v"]]},
   {id:"murat_atay", n:"Murat Atay", t:2, p:58, s:"finance", roles:[
     ["denizbank","Executive Vice President, Credits Group (Deputy General Manager)","executive","v"]]},
+  {id:"ahmed_ali_mohammad", n:"Ahmed Ali Mohammad Altheeb Al Kaabi", t:2, p:62, s:"industry", roles:[
+    ["dubai_taxi","Vice Chairman","board","v"]]},
+  {id:"abdulla_mohammed_abdulla", n:"Abdulla Mohammed Abdulla Bin Damithan Al Qemzi", t:2, p:52, s:"industry", roles:[
+    ["dubai_taxi","Board Member","board","v"]]},
+  {id:"essa_abdulla_khamis", n:"Essa Abdulla Khamis Bin Natoof Al Falasi", t:2, p:52, s:"industry", roles:[
+    ["dubai_taxi","Board Member","board","v"]]},
+  {id:"yousuf_ahmad_ali", n:"Yousuf Ahmad Ali Saeed Bin Ghulaita Almheiri", t:2, p:52, s:"industry", roles:[
+    ["dubai_taxi","Board Member","board","v"]]},
+  {id:"hanan_sulaiman_mohamed", n:"Hanan Sulaiman Mohamed Khalifa Al Suwaidi", t:2, p:52, s:"industry", roles:[
+    ["dubai_taxi","Board Member","board","v"]]},
+  {id:"vicken_khochafian", n:"Vicken Khochafian", t:2, p:58, s:"industry", roles:[
+    ["dubai_taxi","Board Secretary & Governance Director","executive","v"]]},
+  {id:"mansoor_rahma_alfalasi", n:"Mansoor Rahma Alfalasi", t:2, p:60, s:"industry", roles:[
+    ["dubai_taxi","Chief Executive Officer","executive","v"]]},
+  {id:"amit_khandelwal", n:"Amit Khandelwal", t:2, p:58, s:"industry", roles:[
+    ["dubai_taxi","Chief Financial Officer","executive","ns"]]},
+  {id:"abdulla_ibrahim_almeer", n:"Abdulla Ibrahim Almeer", t:2, p:58, s:"industry", roles:[
+    ["dubai_taxi","Chief Business Transformation Officer","executive","ns"]]},
+  {id:"ammar_rashid_al", n:"Ammar Rashid Al Braiki", t:2, p:58, s:"industry", roles:[
+    ["dubai_taxi","Chief Operating Officer","executive","ns"]]},
+  {id:"khalid_mohammad_gheyath", n:"Khalid Mohammad Gheyath", t:2, p:46, s:"industry", roles:[
+    ["dubai_taxi","Head of Human Resources","executive","ns"]]},
+  {id:"mohamed_ali_nasir", n:"Mohamed Ali Nasir Abdulla Alowais", t:2, p:52, s:"consumer_stap", roles:[
+    ["dubai_refreshment","Board Member","board","v"]]},
+  {id:"nawwaf_ghobash", n:"Nawwaf Ghobash", t:2, p:52, s:"consumer_stap", roles:[
+    ["dubai_refreshment","Board Member","board","v"]]},
+  {id:"mahmoud_el_meligy", n:"Mahmoud El-Meligy", t:2, p:60, s:"consumer_stap", roles:[
+    ["dubai_refreshment","Chief Executive Officer","executive","v"]]},
+  {id:"noman_nasir", n:"Noman Nasir", t:2, p:58, s:"consumer_stap", roles:[
+    ["dubai_refreshment","Vice President of Finance & CFO","executive","ns"]]},
+  {id:"karim_adnan_maksoud", n:"Karim Adnan Maksoud", t:2, p:60, s:"consumer_disc", roles:[
+    ["al_habtoor_motors","Managing Director","executive","ns"]]},
+  {id:"suhail_al_mazrouei", n:"Suhail Al Mazrouei", t:2, p:62, s:"industry", roles:[
+    ["gulf_navigation","Chairman of the Board of Directors","board","ns"]]},
+  {id:"rasool_alameri", n:"Rasool Alameri", t:2, p:62, s:"industry", roles:[
+    ["gulf_navigation","Vice Chairman","board","ns"]]},
+  {id:"chris_phillips", n:"Chris Phillips", t:2, p:58, s:"industry", roles:[
+    ["gulf_navigation","Chief Commercial and Investment Officer","executive","ns"]]},
+  {id:"henning_fries", n:"Henning Fries", t:2, p:60, s:"consumer_disc", roles:[
+    ["habtoor_hospitality","Managing Director - Hospitality Division","executive","ns"]]},
+  {id:"kyle_long", n:"Kyle Long", t:2, p:58, s:"education", roles:[
+    ["aud","President","executive","v"]]},
+  {id:"assaad_farah", n:"Assaad Farah", t:2, p:58, s:"education", roles:[
+    ["aud","Provost and Chief Academic Officer","executive","v"]]},
+  {id:"jonathan_rigg", n:"Jonathan Rigg", t:2, p:60, s:"finance", roles:[
+    ["bitoasis","Chief Executive Officer","executive","ns"]]},
+  {id:"ali_dashti", n:"Ali Dashti", t:2, p:46, s:"finance", roles:[
+    ["bitoasis","General Manager","executive","ns"]]},
+  {id:"mohammed_saif_mohammed", n:"Mohammed Saif Mohammed bin Shafar", t:2, p:62, s:"industry", roles:[
+    ["asgc","Chairman","board","ns"]]},
+  {id:"emad_azmy", n:"Emad Azmy", t:2, p:62, s:"industry", roles:[
+    ["asgc","Vice Chairman","board","ns"]]},
+  {id:"abdul_aziz_mohamed", n:"Abdul Aziz Mohamed bin Shafar", t:2, p:58, s:"industry", roles:[
+    ["asgc","Executive Director & Vice President","executive","ns"]]},
+  {id:"zaher_yahya", n:"Zaher Yahya", t:2, p:60, s:"industry", roles:[
+    ["asgc","Chief Executive Officer - ASGC Construction","executive","ns"]]},
+  {id:"mirwais_azizi", n:"Mirwais Azizi", t:2, p:62, s:"realestate", roles:[
+    ["azizi_developments","Chairman and Founder","board","v"]]},
+  {id:"farhad_azizi", n:"Farhad Azizi", t:2, p:60, s:"realestate", roles:[
+    ["azizi_developments","Chief Executive Officer","executive","v"]]},
+  {id:"fawad_azizi", n:"Fawad Azizi", t:2, p:60, s:"realestate", roles:[
+    ["azizi_developments","Deputy Chief Executive Officer","executive","ns"]]},
+  {id:"matt_cooper_bradfield", n:"Matt Cooper-Bradfield", t:2, p:58, s:"realestate", roles:[
+    ["azizi_developments","Chief Human Resources Officer","executive","ns"]]},
+  {id:"saurabh_bakshi", n:"Saurabh Bakshi", t:2, p:58, s:"realestate", roles:[
+    ["azizi_developments","Chief Operating Officer, Hospitality","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

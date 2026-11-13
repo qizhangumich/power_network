@@ -386,6 +386,7 @@ const PEOPLE = [
     ["adfd","Chairman","board","v"],
     ["adia","Board Member","board","v"],
     ["adafsa","Chairman","government","v"],
+    ["adjd","Chairman of the Judicial Department","board","v"],
     ], note:"Controls the Presidential Court, federal financial levers, and the highest-profile sports/media holdings."},
   {id:"hazza", n:"H.H. Sheikh Hazza bin Zayed Al Nahyan", t:0, p:90, s:"gov", roles:[
     ["adgov","Deputy Ruler of Abu Dhabi","political","v"],
@@ -697,6 +698,7 @@ const PEOPLE = [
     ["borouge","Board Member, Borouge Group International Supervisory Board","board","v"],
     ["adnocdrill","Vice Chairman","board","v"],
     ["mubadala_energy","Chairman","board","ns"],
+    ["aiq","Chairman of the Board","board","v"],
     ]},
   {id:"abdulmunim", n:"Abdulmunim Saif Al Kindy", t:2, p:70, s:"energy", roles:[
     ["adnoc","Executive Director, Upstream","executive","v"],
@@ -713,6 +715,7 @@ const PEOPLE = [
     ], note:"Former CEO of ADNOC Drilling (succeeded by Abdulla Ateya Al Messabi in Jun 2025); adviser until retirement end-2025."},
   {id:"masabi", n:"Capt. Abdulkareem Al Masabi", t:2, p:70, s:"energy", roles:[
     ["adnocls","Chief Executive Officer","executive","v"],
+    ["adnoc_maritime","Chief Executive Officer","executive","v"],
     ]},
   {id:"lamki", n:"Bader Saeed Al Lamki", t:2, p:70, s:"energy", roles:[
     ["adnocdist","CEO","executive","v"],
@@ -725,6 +728,7 @@ const PEOPLE = [
     ]},
   {id:"thomas", n:"Thomas Pramotedham", t:2, p:68, s:"tech", roles:[
     ["presight","CEO","executive","v"],
+    ["aiq","Board Member","board","v"],
     ]},
   {id:"karim", n:"Karim Michel Sabbagh", t:2, p:72, s:"tech", roles:[
     ["space42","Managing Director","executive","v"],
@@ -928,6 +932,7 @@ const PEOPLE = [
   {id:"dena_almansoori", n:"Dena Al Mansoori", t:2, p:68, s:"energy", roles:[
     ["adnoc","Group Chief Technology & Innovation Officer","executive","v"],
     ["adnocdist","Board Member","board","v"],
+    ["aiq","Board Member","board","v"],
     ]},
   {id:"hani_barhoush", n:"Hani Barhoush", t:2, p:72, s:"sovereign", roles:[
     ["mubadala","Managing Director & CEO, Mubadala Capital","executive","v"],
@@ -2286,6 +2291,7 @@ const PEOPLE = [
     ]},
   {id:"sultan_obaid_ali", n:"Sultan Obaid Ali Al Yabhouni AlDhaheri", t:2, p:62, s:"tech", roles:[
     ["presight","Vice Chairman","board","v"],
+    ["aiq","Vice-Chairman of the Board","board","v"],
     ]},
   {id:"adel_alsharji", n:"Adel Alsharji", t:2, p:58, s:"tech", roles:[
     ["presight","Chief Operating Officer","executive","v"],
@@ -2301,6 +2307,7 @@ const PEOPLE = [
     ]},
   {id:"magzhan_kenesbai", n:"Magzhan Kenesbai", t:2, p:58, s:"tech", roles:[
     ["presight","Chief Growth Officer","executive","v"],
+    ["aiq","Board Member","board","v"],
     ]},
   {id:"charles_kelly", n:"Charles Kelly", t:2, p:58, s:"tech", roles:[
     ["presight","General Counsel","executive","v"],
@@ -3275,6 +3282,7 @@ const PEOPLE = [
     ]},
   {id:"mohamed_hamad_almehairi", n:"Mohamed Hamad Almehairi", t:2, p:62, s:"energy", roles:[
     ["nmdc_energy","Chairman of the Board","board","v"],
+    ["aiq","Chief Financial Officer","executive","v"],
     ]},
   {id:"nasser_mohamed_almheiri", n:"Nasser Mohamed Almheiri", t:2, p:62, s:"energy", roles:[
     ["nmdc_energy","Director, Nomination & Remuneration Committee Chairman","board","v"],
@@ -3900,6 +3908,7 @@ const PEOPLE = [
     ]},
   {id:"sheikh_theyab_bin", n:"Sheikh Theyab Bin Tahnoon Al Nahyan", t:2, p:62, s:"finance", roles:[
     ["adnic","Vice Chairman of the Board","board","ns"],
+    ["al_ain_university","Chairman of the Board of Trustees","board","v"],
     ]},
   {id:"sultan_rashid_al", n:"Sultan Rashid Al Dhaheri", t:2, p:52, s:"finance", roles:[
     ["adnic","Board Member","board","ns"],
@@ -4564,6 +4573,90 @@ const PEOPLE = [
     ]},
   {id:"naser_al_zaabi", n:"Naser Al Zaabi", t:2, p:58, s:"conglomerate", roles:[
     ["dasholding","Chief Operating Officer","executive","v"],
+    ]},
+  {id:"nicholas_gleeson", n:"Nicholas Gleeson", t:2, p:58, s:"industry", roles:[
+    ["adnoc_maritime","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"gordon_mackay_inkson", n:"Gordon Mackay Inkson", t:2, p:58, s:"industry", roles:[
+    ["adnoc_maritime","General Counsel","executive","ns"],
+    ]},
+  {id:"sultan_albigishi", n:"Sultan Albigishi", t:2, p:60, s:"energy", roles:[
+    ["adnoc_refining","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"raymond_kerkvliet", n:"Raymond Kerkvliet", t:2, p:58, s:"energy", roles:[
+    ["adnoc_refining","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"omar_hasan_al", n:"Omar Hasan Al Marzooqi", t:2, p:58, s:"energy", roles:[
+    ["adnoc_refining","Senior Vice President - Shared Services","executive","v"],
+    ]},
+  {id:"willi_frantz", n:"Willi Frantz", t:2, p:58, s:"energy", roles:[
+    ["adnoc_refining","Senior Vice President - Operations","executive","v"],
+    ]},
+  {id:"hassan_hussain_al", n:"Hassan Hussain Al Hosani", t:2, p:58, s:"energy", roles:[
+    ["adnoc_refining","Senior Vice President - Projects & Technical","executive","v"],
+    ]},
+  {id:"ahmed_mohamed_al", n:"Ahmed Mohamed Al Suwaidi", t:2, p:58, s:"energy", roles:[
+    ["adnoc_refining","Vice President - Supply Chain Management","executive","v"],
+    ]},
+  {id:"fahem_al_shemeili", n:"Fahem Al Shemeili", t:2, p:58, s:"energy", roles:[
+    ["adnoc_refining","Vice President - Audit & Assurance","executive","v"],
+    ]},
+  {id:"abdulrahim_al_ali", n:"Abdulrahim Al Ali", t:2, p:58, s:"energy", roles:[
+    ["adnoc_refining","Vice President - HSE","executive","v"],
+    ]},
+  {id:"muna_al_suwaidi", n:"Muna Al Suwaidi", t:2, p:58, s:"energy", roles:[
+    ["adnoc_refining","Vice President - Corporate Support","executive","v"],
+    ]},
+  {id:"bader_alzarei", n:"Bader Alzarei", t:2, p:58, s:"energy", roles:[
+    ["adnoc_refining","Vice President - Communications","executive","v"],
+    ]},
+  {id:"nadya_al_jenaibi", n:"Nadya Al Jenaibi", t:2, p:58, s:"energy", roles:[
+    ["adnoc_refining","General Counsel - Legal, Compliance & Governance","executive","v"],
+    ]},
+  {id:"dennis_jol", n:"Dennis Jol", t:2, p:60, s:"tech", roles:[
+    ["aiq","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"danil_starobogatov", n:"Danil Starobogatov", t:2, p:58, s:"tech", roles:[
+    ["aiq","Chief Marketing & Communications Officer","executive","v"],
+    ]},
+  {id:"saravan_penubarthi", n:"Saravan Penubarthi", t:2, p:58, s:"tech", roles:[
+    ["aiq","Chief Technology Officer","executive","v"],
+    ]},
+  {id:"joanna_cooper", n:"Joanna Cooper", t:2, p:58, s:"tech", roles:[
+    ["aiq","General Counsel and Company Secretary","executive","v"],
+    ]},
+  {id:"omar_bamatraf", n:"Omar Bamatraf", t:2, p:52, s:"tech", roles:[
+    ["aiq","Board Member","board","v"],
+    ]},
+  {id:"shamma_alnuaimi", n:"Shamma AlNuaimi", t:2, p:52, s:"tech", roles:[
+    ["aiq","Board Member","board","v"],
+    ]},
+  {id:"yousef_saeed_al", n:"Yousef Saeed Al Abri", t:2, p:58, s:"gov", roles:[
+    ["adjd","Undersecretary of the Abu Dhabi Judicial Department","executive","v"],
+    ]},
+  {id:"ali_muhammad_al", n:"Ali Muhammad Al Balushi", t:2, p:58, s:"gov", roles:[
+    ["adjd","Attorney General of the Emirate of Abu Dhabi","executive","v"],
+    ]},
+  {id:"nooraldeen_subhi_atatreh", n:"Nooraldeen Subhi Atatreh", t:2, p:62, s:"education", roles:[
+    ["al_ain_university","Vice Chairman of the Board of Trustees","board","v"],
+    ]},
+  {id:"abdul_rahim_ibrahim", n:"Abdul Rahim Ibrahim Al Nuaimi", t:2, p:52, s:"education", roles:[
+    ["al_ain_university","Board of Trustees Member","board","v"],
+    ]},
+  {id:"alia_abdullah_al", n:"Alia Abdullah Al Mazrouei", t:2, p:52, s:"education", roles:[
+    ["al_ain_university","Board of Trustees Member","board","v"],
+    ]},
+  {id:"abdul_rahman_mahmoud", n:"Abdul Rahman Mahmoud Al Afifi", t:2, p:52, s:"education", roles:[
+    ["al_ain_university","Board of Trustees Member","board","v"],
+    ]},
+  {id:"abdul_aziz_abdul_b", n:"Abdul Aziz Abdul Latif", t:2, p:52, s:"education", roles:[
+    ["al_ain_university","Board of Trustees Member","board","v"],
+    ]},
+  {id:"ahmed_mohammad_fathi", n:"Ahmed Mohammad Fathi Al Kilani", t:2, p:52, s:"education", roles:[
+    ["al_ain_university","Board of Trustees Member","board","v"],
+    ]},
+  {id:"ghaleb_awad_el", n:"Ghaleb Awad El Refae", t:2, p:58, s:"education", roles:[
+    ["al_ain_university","President","executive","v"],
     ]},
 ];
 

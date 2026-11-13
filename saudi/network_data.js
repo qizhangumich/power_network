@@ -589,6 +589,7 @@ const INSTITUTIONS = [
   {id:"h_alireza", n:"Haji Husein Alireza & Co. Ltd.", s:"consumer_disc", t:3, p:50, short:"H. Alireza & Co."},
   {id:"petrokemya", n:"Arabian Petrochemical Company", s:"materials", t:2, p:58, short:"PETROKEMYA"},
   {id:"barclays_saudi", n:"Barclays Saudi Arabia", s:"finance", t:3, p:50, short:"Barclays Saudi"},
+  {id:"bahamdan", n:"Bahamdan Group", s:"conglomerate", t:3, p:54, short:"Bahamdan Group"},
 ];
 
 const PEOPLE = [
@@ -3920,6 +3921,8 @@ const PEOPLE = [
     ["lst_4040","Vice Chairman of the Board","board","ns"]]},
   {id:"khalid_bin_abdullah_b", n:"Khalid bin Abdullah Al-Hogail", t:2, p:60, s:"industry", roles:[
     ["lst_4040","Managing Director & CEO","executive","ns"]]},
+  {id:"abdulrahman_al_abdullah", n:"Abdulrahman Al Abdullah Al Faisal", t:2, p:62, s:"conglomerate", roles:[
+    ["alfaisaliah","Chairman","board","ns"]]},
 ];
 
 const OWNERSHIP = [

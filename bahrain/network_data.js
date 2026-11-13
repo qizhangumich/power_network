@@ -3705,6 +3705,7 @@ const PEOPLE = [
   {id:"jawad_yousef_abdulwahab", n:"Jawad Yousef Abdulwahab Al-Hawaj", t:2, p:62, s:"consumer_disc", roles:[
     ["al_hawaj","Chairman and Managing Director","board","ns"]]},
   {id:"mohamed_al_kooheji", n:"Mohamed Al Kooheji", t:2, p:60, s:"conglomerate", roles:[
+    ["kanoo_property","CEO, Kanoo Real Estate","executive","ns"],
     ["kanoo","Group Chief Executive Officer","executive","ns"]]},
   {id:"paul_perris", n:"Paul Perris", t:2, p:60, s:"finance", roles:[
     ["yasira","Chief Executive Officer","executive","v"]]},
@@ -3730,6 +3731,27 @@ const PEOPLE = [
     ["brtc","Director, Television Directorate","executive","v"]]},
   {id:"bader_mohammed_hassan", n:"Bader Mohammed Hassan Abdullah", t:2, p:58, s:"comm", roles:[
     ["brtc","Director, Radio Directorate","executive","v"]]},
+  {id:"mishal_kanoo", n:"Mishal Kanoo", t:2, p:62, s:"energy", roles:[
+    ["kanoo_energy","Chairman, The Kanoo Group","board","v"],
+    ["kanoo_property","Chairman, The Kanoo Group","board","v"]]},
+  {id:"raman_marwaha", n:"Raman Marwaha", t:2, p:46, s:"energy", roles:[
+    ["kanoo_energy","General Manager, Kanoo Energy UAE & Oman","executive","v"]]},
+  {id:"piero_paolo_delprato", n:"Piero Paolo Delprato", t:2, p:62, s:"industry", roles:[
+    ["racing_force","Chairman and Chief Executive Officer","board","v"]]},
+  {id:"silvia_portaluri", n:"Silvia Portaluri", t:2, p:52, s:"industry", roles:[
+    ["racing_force","Director","board","v"]]},
+  {id:"stephane_alexandre_cohen", n:"Stephane Alexandre Cohen", t:2, p:52, s:"industry", roles:[
+    ["racing_force","Director","board","v"]]},
+  {id:"alexandros_haristos", n:"Alexandros Haristos", t:2, p:52, s:"industry", roles:[
+    ["racing_force","Director","board","v"]]},
+  {id:"guido_maria_pedone", n:"Guido Maria Pedone", t:2, p:52, s:"industry", roles:[
+    ["racing_force","Director","board","v"]]},
+  {id:"filippo_salomone", n:"Filippo Salomone", t:2, p:52, s:"industry", roles:[
+    ["racing_force","Director","board","v"]]},
+  {id:"marco_caneva", n:"Marco Caneva", t:2, p:52, s:"industry", roles:[
+    ["racing_force","Independent Director","board","v"]]},
+  {id:"mohammed_jalal", n:"Mohammed Jalal", t:2, p:62, s:"conglomerate", roles:[
+    ["jalal_sons","Chairperson","board","ns"]]},
 ];
 
 const OWNERSHIP = [

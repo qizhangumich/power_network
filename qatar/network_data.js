@@ -721,6 +721,7 @@ const PEOPLE = [
   {id:"fahad_ali_al", n:"Fahad Ali Al-Kuwari", t:2, p:52, s:"consumer_stap", roles:[
     ["hassad","Board Member","board","v"]]},
   {id:"omar_hussain_ibrahim", n:"Omar Hussain Ibrahim Alfardan", t:2, p:62, s:"finance", roles:[
+    ["alternatifbank","Chairman","board","v"],
     ["alfardan","President & Chief Executive Officer","executive","v"],
     ["cbq","Vice-Chairman and Managing Director","board","v"]]},
   {id:"sheikh_falah_hamad", n:"Sheikh Falah Hamad Jassim Al Thani", t:2, p:52, s:"finance", roles:[
@@ -732,6 +733,7 @@ const PEOPLE = [
   {id:"mohamad_ismail_mandani", n:"Mohamad Ismail Mandani Al Emadi", t:2, p:52, s:"finance", roles:[
     ["cbq","Board Member","board","v"]]},
   {id:"salem_khalaf_al", n:"Salem Khalaf Al Mannai", t:2, p:60, s:"finance", roles:[
+    ["alternatifbank","Board Member","board","v"],
     ["cbq","Board Member","board","v"],
     ["lst_qati","Group Chief Executive Officer","executive","v"]]},
   {id:"ibrahim_jassim_al", n:"Ibrahim Jassim Al-Othman Fakhro", t:2, p:52, s:"finance", roles:[
@@ -748,10 +750,12 @@ const PEOPLE = [
     ["lst_dohi","Board Member (representing Qatar Armed Forces Investment Portfolio)","board","v"],
     ["cbq","Board Member","board","v"]]},
   {id:"stephen_moss", n:"Stephen Moss", t:2, p:60, s:"finance", roles:[
+    ["alternatifbank","Vice Chairman","board","v"],
     ["cbq","Group Chief Executive Officer","executive","v"]]},
   {id:"omran_y_m", n:"Omran Y M H Al Sherawi", t:2, p:58, s:"finance", roles:[
     ["cbq","EGM Treasury and Investments","executive","v"]]},
   {id:"fahad_badar", n:"Fahad Badar", t:2, p:58, s:"finance", roles:[
+    ["alternatifbank","Board Member","board","v"],
     ["cbq","EGM and Chief Wholesale and International Banking Officer","executive","v"]]},
   {id:"shahnawaz_rashid", n:"Shahnawaz Rashid", t:2, p:46, s:"finance", roles:[
     ["cbq","EGM and Head of Retail Banking","executive","v"]]},
@@ -764,6 +768,7 @@ const PEOPLE = [
   {id:"eiman_m_al", n:"Eiman M Al-Naemi", t:2, p:58, s:"finance", roles:[
     ["cbq","EGM and Chief Communications and Marketing Officer","executive","v"]]},
   {id:"noman_ali", n:"Noman Ali", t:2, p:58, s:"finance", roles:[
+    ["alternatifbank","Board Member","board","v"],
     ["cbq","EGM Chief Financial Officer and Chief Sustainability Officer","executive","v"]]},
   {id:"nasser_alharmi", n:"Nasser AlHarmi", t:2, p:58, s:"finance", roles:[
     ["cbq","EGM and Chief Human Resources Officer","executive","v"]]},
@@ -2505,6 +2510,28 @@ const PEOPLE = [
     ["acta","Director of Supervision and Development","executive","ns"]]},
   {id:"mohamed_bin_khalid", n:"Mohamed bin Khalid Al Sada", t:2, p:58, s:"gov", roles:[
     ["acta","Director of Legal Affairs Department","executive","ns"]]},
+  {id:"mohd_mandani", n:"Mohd Mandani", t:2, p:52, s:"finance", roles:[
+    ["alternatifbank","Board Member","board","v"]]},
+  {id:"esin_aydinol", n:"Esin Aydinol", t:2, p:62, s:"finance", roles:[
+    ["alternatifbank","Board Member and Chair of Credit Committee","board","v"]]},
+  {id:"belma_ozmen", n:"Belma Ozmen", t:2, p:62, s:"finance", roles:[
+    ["alternatifbank","Board Member and Chair of Audit and Compliance Committee","board","v"]]},
+  {id:"bader_abdullah_al_b", n:"Bader Abdullah Al-Darwish Fakhroo", t:2, p:62, s:"conglomerate", roles:[
+    ["darwish","Chairman and Managing Director","board","ns"]]},
+  {id:"sheikh_jassim_bin_b_b_b", n:"Sheikh Jassim bin Hamad bin Jassim Al Thani", t:2, p:62, s:"finance", roles:[
+    ["qinvest","Chairman","board","ns"]]},
+  {id:"hussain_abdulla", n:"Hussain Abdulla", t:2, p:60, s:"finance", roles:[
+    ["qinvest","Co-Chief Executive Officer","executive","ns"]]},
+  {id:"hussein_fakhreddine", n:"Hussein Fakhreddine", t:2, p:60, s:"finance", roles:[
+    ["qinvest","Co-Chief Executive Officer","executive","ns"]]},
+  {id:"mohammed_bin_nawaf", n:"Mohammed bin Nawaf Al Thani", t:2, p:62, s:"industry", roles:[
+    ["lst_mkdm","Chairman","board","ns"]]},
+  {id:"jassem_bin_nawaf", n:"Jassem bin Nawaf Al Thani", t:2, p:62, s:"industry", roles:[
+    ["lst_mkdm","Deputy Chairman","board","ns"]]},
+  {id:"ehab_naser", n:"Ehab Naser", t:2, p:60, s:"industry", roles:[
+    ["lst_mkdm","Group Chief Executive Officer and Director","executive","ns"]]},
+  {id:"tariq_bader_al", n:"Tariq Bader Al Sada", t:2, p:52, s:"industry", roles:[
+    ["lst_mkdm","Non-Executive Director","board","ns"]]},
 ];
 
 const OWNERSHIP = [
