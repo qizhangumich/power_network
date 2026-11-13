@@ -148,7 +148,7 @@ const INSTITUTIONS = [
   {id:"lst_mrds", n:"Mazaya Real Estate Development Q.P.S.C.", s:"realestate", t:2, p:50, short:"MRDS"},
   {id:"lst_mhar", n:"Al Mahhar Holding Company Q.P.S.C.", s:"conglomerate", t:2, p:50, short:"MHAR"},
   {id:"lst_nlcs", n:"Alijarah Holding Q.P.S.C.", s:"finance", t:2, p:50, short:"NLCS"},
-  {id:"lst_mkdm", n:"Mekdam Holding Group Q.P.S.C.", s:"industry", t:2, p:50, short:"MKDM"},
+  {id:"lst_mkdm", n:"Mekdam Holding Group Q.P.S.C.", s:"industry", t:2, p:58, short:"MKDM"},
   {id:"lst_dbis", n:"Dlala Brokerage and Investment Holding Company Q.P.S.C.", s:"finance", t:2, p:50, short:"DBIS"},
   {id:"lst_wdam", n:"Widam Food Company Q.P.S.C.", s:"consumer_stap", t:2, p:50, short:"WDAM"},
   {id:"lst_tqes", n:"Qatar Electronic Systems Company (Techno Q) Q.P.S.C.", s:"tech", t:2, p:50, short:"TQES"},
