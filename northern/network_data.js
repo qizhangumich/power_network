@@ -414,7 +414,8 @@ const PEOPLE = [
   {id:"mostafa_hassan", n:"Mostafa Hassan", t:2, p:58, s:"industry", roles:[
     ["beeah","Chief Audit Officer","executive","v"]]},
   {id:"hrh_prince_khaled", n:"HRH Prince Khaled bin Alwaleed bin Talal", t:2, p:62, s:"realestate", roles:[
-    ["arada","Executive Vice Chairman","board","v"]]},
+    ["arada","Executive Vice Chairman","board","v"],
+    ["arada_capital","Chairman","board","v"]]},
   {id:"ahmed_alkhoshaibi", n:"Ahmed Alkhoshaibi", t:2, p:60, s:"realestate", roles:[
     ["arada","Group Chief Executive Officer","executive","v"]]},
   {id:"shimmy_mathew", n:"Shimmy Mathew", t:2, p:58, s:"realestate", roles:[
@@ -442,7 +443,7 @@ const PEOPLE = [
   {id:"atul_goel", n:"Atul Goel", t:2, p:58, s:"realestate", roles:[
     ["arada","Chief Capital Officer","executive","v"]]},
   {id:"moustafa_fahour_oam", n:"Moustafa Fahour OAM", t:2, p:60, s:"realestate", roles:[
-    ["arada","CEO and Managing Director, Arada Capital","executive","v"]]},
+    ["arada_capital","CEO and Managing Director","executive","v"]]},
   {id:"feras_al_naimi", n:"Feras Al Naimi", t:2, p:60, s:"realestate", roles:[
     ["arada","Chief Executive Officer - Nexus","executive","v"]]},
   {id:"h_h_sheikh", n:"H.H. Sheikh Rashid bin Humaid bin Rashid Al Nuaimi", t:2, p:62, s:"finance", roles:[
