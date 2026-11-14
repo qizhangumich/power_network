@@ -1,0 +1,5 @@
+# Adnoc L&S Confirms That One Of Its Vessels Sustained Damage Following An Attack In Arabian Gulf
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi-AFBVV95cUxOWlZjNkY0QWJWb2ozekw5QmpvdG5oY25ER0xCTzJjWmpIZkcyWXhmR1I3WjdGNUFLdnh6bmNkNjNDamp6Q3pJUVlTOXpyeGY2VmpaTVNlVkZMUnJfblNaMG1lc1BHZmZKM0xEa3EyRUE5SXB3ZG5NMVZ5aWdTVl9GY2tRVFZ4eEY1QlRBMW96bDNiVV9rLXBJd3doVkdyeU1oU0dVSlBRd3dSc0R3VzFEMFZIS0FtOTVuMjllZDdRdU9rdng1RHhubDczX0JoY3JJR01IZ1lRWVNGaVJWMXVCSXdDY1hGQmhRc3QwREFTTS1lZWJJWFJXeA?oc=5
+
+Adnoc L&S Confirms That One Of Its Vessels Sustained Damage Following An Attack In Arabian Gulf    TradingView

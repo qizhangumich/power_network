@@ -1,0 +1,5 @@
+# Masdar completes $950 million Lockhart solar and storage project
+source: Solarbytes
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcHZKUndpWUVVclRHd05kek9ZNHYwenNBd3hKdDkwLVZOYmpTU1VvYmtIdnNwdHpuZmJCcDIxTEM0VnYxYjNScVZ4M3FKZWdRcG1VRWEwbmF5VVVBeEZsVGZBX0UyQ3M4NXJOT05JTFpLZzktb182VE8xci1vYVVEUDZYUmRPeFpEb2RUOUdKRi01U0dyYzg4TVJQMEJzYUl3c04wV0dvdGtHNy1GdmVTa281dzFNWHZnYkF3bWY1Qjl5MUE?oc=5
+
+Masdar completes $950 million Lockhart solar and storage project    Solarbytes

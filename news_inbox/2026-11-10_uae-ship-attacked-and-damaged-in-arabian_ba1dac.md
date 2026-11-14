@@ -1,0 +1,5 @@
+# UAE ship attacked and damaged in Arabian Gulf
+source: The National
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQd0ZsX0ZOSjdwc3ZQUmw2OGU0SDdjRU1za29pMV9KN2hlYVFkMkJWaUJzVXVETWlqY0JQcjZxczkzdnBRb2FYdmRwSy12RERRbzhndzZ2VkkwTldOVDBYSXNrVVVHeGxSOVVBaVEwcG1welBkdTRjbUt4ODRLUWhsWVBaSGUyalZYWkNHcmhPTUVlVDYzT1huWjdLeVQ0RDVGc0FFSkNGVGQ?oc=5
+
+UAE ship attacked and damaged in Arabian Gulf    The National
