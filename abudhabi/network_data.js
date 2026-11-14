@@ -4664,6 +4664,12 @@ const PEOPLE = [
   {id:"omar_al_naqbi", n:"Omar Al Naqbi", t:2, p:58, s:"health", roles:[
     ["healthpoint","Executive Director","executive","v"],
     ]},
+  {id:"ben_ross", n:"Ben Ross", t:2, p:60, s:"comm", roles:[
+    ["image_nation_ad","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"summia_zaher", n:"Summia Zaher", t:2, p:60, s:"health", roles:[
+    ["danat_al_emarat","Chief Executive Officer","executive","v"],
+    ]},
 ];
 
 const OWNERSHIP = [

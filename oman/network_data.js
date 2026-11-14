@@ -1915,6 +1915,10 @@ const PEOPLE = [
     ["lst_batp","Chairperson of the Board (temporary)","board","v"]]},
   {id:"aftab_patel", n:"Aftab Patel", t:2, p:60, s:"finance", roles:[
     ["lst_aofs","Chief Executive Officer","executive","ns"]]},
+  {id:"p_rajkumar", n:"P. Rajkumar", t:2, p:58, s:"education", roles:[
+    ["imco","Dean","executive","v"]]},
+  {id:"bader_al_habsi", n:"Bader Al Habsi", t:2, p:58, s:"health", roles:[
+    ["al_masarra_hospital","Executive Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [

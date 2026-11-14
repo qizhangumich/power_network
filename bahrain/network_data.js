@@ -3762,6 +3762,10 @@ const PEOPLE = [
     ["baca","Director of the Antiquities Directorate","executive","ns"]]},
   {id:"batool_abdulaziz_ali", n:"Batool Abdulaziz Ali Al Sheikh Ahmed", t:2, p:58, s:"gov", roles:[
     ["baca","Director of the Archaeological Sites Directorate","executive","v"]]},
+  {id:"wafa_almansoori", n:"Wafa Almansoori", t:2, p:58, s:"education", roles:[
+    ["aubh","Interim President and Provost","executive","v"]]},
+  {id:"mahmood_yousif_al", n:"Mahmood Yousif Al Mahmood", t:2, p:58, s:"comm", roles:[
+    ["daily_tribune","Editor-in-Chief","executive","v"]]},
 ];
 
 const OWNERSHIP = [

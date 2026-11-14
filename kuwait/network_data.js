@@ -1159,7 +1159,7 @@ const PEOPLE = [
     ["lst_markaz","Board Member","board","ns"]]},
   {id:"ali_h_khalil", n:"Ali H. Khalil", t:2, p:60, s:"finance", roles:[
     ["insead","MBA","alumni","v"],
-    ["lst_markaz","Chief Executive Officer","executive","ns"]]},
+    ["lst_markaz","Chief Executive Officer","executive","v"]]},
   {id:"abdullatif_w_al", n:"Abdullatif W. Al-Nusif", t:2, p:58, s:"finance", roles:[
     ["lst_markaz","Executive Vice President - Wealth Management and Business Development","executive","ns"]]},
   {id:"maha_al_kadi", n:"Maha Al-Kadi", t:2, p:58, s:"finance", roles:[
@@ -1183,7 +1183,7 @@ const PEOPLE = [
   {id:"mohammad_saad_mohammad", n:"Mohammad Saad Mohammad", t:2, p:52, s:"industry", roles:[
     ["lst_cable","Board Member","board","ns"]]},
   {id:"basel_omran_kanaan", n:"Basel Omran Kanaan", t:2, p:60, s:"industry", roles:[
-    ["lst_cable","Chief Executive Officer","executive","ns"]]},
+    ["lst_cable","Chief Executive Officer","executive","v"]]},
   {id:"tareq_fahad_alothman", n:"Tareq Fahad AlOthman", t:2, p:62, s:"industry", roles:[
     ["lst_humansoft","Chairman","board","v"]]},
   {id:"hassan_al_ali", n:"Hassan Al-Ali", t:2, p:52, s:"industry", roles:[
@@ -1276,7 +1276,7 @@ const PEOPLE = [
   {id:"ned_issa", n:"Ned Issa", t:2, p:58, s:"materials", roles:[
     ["equate","Vice President, Operations","executive","v"]]},
   {id:"loay_jassim_al", n:"Loay Jassim Al-Kharafi", t:2, p:58, s:"conglomerate", roles:[
-    ["kharafi","CEO, Mohamed Abdul Mohsen Al-Kharafi & Sons Company","executive","ns"]]},
+    ["kharafi","CEO, Mohamed Abdul Mohsen Al-Kharafi & Sons Company","executive","v"]]},
   {id:"noor_al_jassem", n:"Noor Al-Jassem", t:2, p:52, s:"industry", roles:[
     ["kuwaitairways","Board Member (former)","board","ns","former:until 2026"]]},
   {id:"mishari_al_hunaidi", n:"Mishari Al-Hunaidi", t:2, p:52, s:"industry", roles:[
@@ -1290,11 +1290,11 @@ const PEOPLE = [
   {id:"mohamed_naser_al", n:"Mohamed Naser Al-Sayer", t:2, p:52, s:"conglomerate", roles:[
     ["alsayer","Executive Board Member","board","ns"]]},
   {id:"mubarak_naser_al", n:"Mubarak Naser Al-Sayer", t:2, p:60, s:"conglomerate", roles:[
-    ["alsayer","Chief Executive Officer","executive","ns"]]},
+    ["alsayer","Chief Executive Officer","executive","v"]]},
   {id:"othman_tawfiqi", n:"Othman Tawfiqi", t:2, p:62, s:"tech", roles:[
     ["knet","Vice Chairman of the Board","board","ns"]]},
   {id:"esam_alkheshnam", n:"Esam Alkheshnam", t:2, p:60, s:"tech", roles:[
-    ["knet","Chief Executive Officer","executive","ns"]]},
+    ["knet","Chief Executive Officer","executive","v"]]},
   {id:"khalid_sulaiman_al", n:"Khalid Sulaiman Al Jarrallah", t:2, p:58, s:"gov", roles:[
     ["mofa_kw","Deputy Minister of Foreign Affairs","executive","ns"]]},
   {id:"abdulmohsen_j_al", n:"Abdulmohsen J. Al-Zaid", t:2, p:58, s:"gov", roles:[
@@ -2223,6 +2223,8 @@ const PEOPLE = [
     ["scpd_kuwait","Secretary-General (Acting)","executive","v"]]},
   {id:"nadia_al_homlan", n:"Nadia Al-Homlan", t:2, p:58, s:"gov", roles:[
     ["scpd_kuwait","Assistant Secretary-General for Planning, Follow-up and Future Forecasting (Acting)","executive","v"]]},
+  {id:"salah_al_hammadi", n:"Salah Al-Hammadi", t:2, p:58, s:"education", roles:[
+    ["arab_open_univ","Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [
