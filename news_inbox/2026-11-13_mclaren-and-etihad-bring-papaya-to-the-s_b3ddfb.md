@@ -1,0 +1,5 @@
+# McLaren and Etihad bring papaya to the skies, and Oh! Yeah Dubai adds a feed of good vibes
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc3BpQjRscHAzcEZCNEYwVWJjVW11WUhSd1F1NTdJTXZHYVR6bGI1eHAzWkMwaGZrRWtWckF2TjEwYm9Nck9qR0phX1hFTkxISEdFRkZlTENaZUoyLVZNQXU4U1dKN1FnZmN5WmJpel9TT1ZQVnZNUDFUN0JZMzQyWExoVk1CRlF30gGYAUFVX3lxTE9BX0xQUmRRTTdfRXZQSUZrWW5nUnlYNWJGMkRMNlBYT1gzcnhGM3B3WTd2ZmdJSnM0bEpzVEV5LUZjY0laamJFcEs3YUtlNjNvVUUzM0R1ZFNBb1Y1cVZJRDNOcnlNOU96cm93YjdTLVFDUUg5VVhobnR5bjBCRi0xdWZpR0JTODhEUC1FLWRENVJSU3lmVDd0?oc=5
+
+McLaren and Etihad bring papaya to the skies, and Oh! Yeah Dubai adds a feed of good vibes    Gulf News

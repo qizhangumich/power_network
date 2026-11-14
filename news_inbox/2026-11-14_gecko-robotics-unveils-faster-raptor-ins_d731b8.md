@@ -1,0 +1,5 @@
+# Gecko Robotics unveils faster Raptor inspection robot, with ADNOC as first customer
+source: Robotics & Automation News
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPV05HU2JMM0dmcC12WlJXaHBkWkNXTVBRNGt0VnZEOE5Uc1FWMElEeUJsd1BqcUJOcFdqd0xBaV8ySEo3XzZNSEMxeV9HdnlUT05NbVVZN1BhMWhGb1NxR2RxWGhCS0dDVHc5VjEtSUI4WlZtd2Y1akNVbGd1MDl3eDQ2WFlORG9Jd2V0WUFCbGhaOC1Fc0xMTklXOWpaU3RvRU1NOWdNWmNUTjZYZkdpUWZlRU4zNWQwSTZLa3lkakZBNHJZZ2VwYUUwN0JwOW16RElhSDNR?oc=5
+
+Gecko Robotics unveils faster Raptor inspection robot, with ADNOC as first customer    Robotics & Automation News
