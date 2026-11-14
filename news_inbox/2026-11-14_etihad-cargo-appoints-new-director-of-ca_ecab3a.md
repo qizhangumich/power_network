@@ -1,0 +1,5 @@
+# Etihad Cargo appoints new director of cargo operations
+source: The Bangladesh Monitor
+url: https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ2V3ZjlDQnhYRnVKWWpndGY2MnhzVkZGdnBKcV9ROU5qdjhEWXdpNHlTMHJGSE1XS0FuTDlhcjR2VXNrY2JQQ2VXbndqZzRoV0J1SlJiNFBxREE1b01RQTduZFBTQTgyaWxDamxvTmEyc3E3allHa3o3UG9pcGpHU1ZGMnhfRDdNWEVySnN2LWcwZ3lyMk1RanZ3?oc=5
+
+Etihad Cargo appoints new director of cargo operations    The Bangladesh Monitor

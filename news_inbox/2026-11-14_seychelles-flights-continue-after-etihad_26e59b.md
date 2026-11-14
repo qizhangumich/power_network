@@ -1,0 +1,5 @@
+# Seychelles Flights Continue After Etihad Shift to Partner
+source: PravdaReport
+url: https://news.google.com/rss/articles/CBMikAFBVV95cUxNdkpEeDg1S1hjU25XMmUxNlZnLVdRLWt2MFB6aUV2R1VVMTJwb2hPOWtKNWYxUElrc3A2b3pGSEF1bkRIbFYwUVV1YVpXc3RSMlBQVXJLbEVKVmJTZ0dtSFdRZnlBYk1jTktzVmVtcHdpQzhqMWVLdEl0dGZmRms4MTI5VmVSZE5ac1prbmFuSWE?oc=5
+
+Seychelles Flights Continue After Etihad Shift to Partner    PravdaReport

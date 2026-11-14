@@ -1,0 +1,5 @@
+# Apollo Global Management stock: debt offering funds Mubadala investment
+source: ad-hoc-news.de
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxNcWxCMjVkRFZ5UGppU1p3a0s2ZmRENlRHaDlzeUZYNlZnaEo3OFFuU3ZWZmR3VjA2Z3dmVVAyYksydjlEOV9GcExLeklkb04xRjR5TkVSRUZwbTdpODVIMDNRWEtqMzF2RExvcHJNTUxza2dfcTA2T2RTQjJqOW93cDFOZWtHdUh6dXJiVFRvbXFvSmxyS3I4V1VPYllwNk14NzlEMENTc0xUMTVXQ2I5VmUyNmF2RDZKcXNHWVZLMTdjaDBVYS1XcFZsaXJvQQ?oc=5
+
+Apollo Global Management stock: debt offering funds Mubadala investment    ad-hoc-news.de

@@ -1,0 +1,5 @@
+# Inpex says ADNOC's 2nd crude pipeline will double capacity; ADNOC disputes
+source: Pipeline and Gas Journal
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdjBBRHR2dldLQXNKRDNsbE5mV3dGUXg3RmI3RE95SXhfRVFlYTE2SEZabmgyaFZtVllwLXM4X2o2VGxpclhuSEt2V0VlZDFtQ190VnFzUnUxSlpSZFFuTk1fZC1TYm5LUDVnNFFMaG02cV8yQ2pJNi1ZMmhrOEhuRW13Z0F4NHJDOEtkdDhiM3E2azNqa3ZXZXZndU5ERkFEdzZaOEZfNHByYmlnTXI5bFJ1eGVULUdrTWZBbDM1Nk9pQjg5ZFRVYTh0aGZscVVKZE1pQmxwUnU3cUFKeFE?oc=5
+
+Inpex says ADNOC's 2nd crude pipeline will double capacity; ADNOC disputes    Pipeline and Gas Journal
