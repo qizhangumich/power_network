@@ -696,6 +696,7 @@ const PEOPLE = [
     ["momedia_sa","Minister of Media","political","v"]],
     note:"Appointed 5 Mar 2023; former editor-in-chief of Asharq Al-Awsat."},
   {id:"alhogail", n:"Majed Al-Hogail", t:1, p:76, s:"realestate", roles:[
+    ["src","Chairman of the Board of Directors","board","v"],
     ["rega","Chairman of the Board of Directors (Minister of Municipal, Rural Affairs and Housing)","board","v"],
     ["qiddiya_investment","Board Member, Minister of Municipalities and Housing","board","v"],
     ["roshn","Board Member","board","v"],
@@ -1553,6 +1554,7 @@ const PEOPLE = [
   {id:"ahmed_al_theabi", n:"Ahmed Al Theabi", t:2, p:52, s:"materials", roles:[
     ["lst_2060","Board Member","board","v"]]},
   {id:"fawaz_al_fawaz", n:"Fawaz Al Fawaz", t:2, p:60, s:"materials", roles:[
+    ["taqa_saudi","Member of the Board of Directors","board","v"],
     ["lst_2060","Chief Executive Officer & Board Member","executive","v"]]},
   {id:"mohammed_al_haqbani", n:"Mohammed Al Haqbani", t:2, p:52, s:"materials", roles:[
     ["lst_2060","Board Member","board","v"]]},
@@ -1715,6 +1717,7 @@ const PEOPLE = [
   {id:"jesus_lamas", n:"Jesus Lamas", t:2, p:62, s:"energy", roles:[
     ["lst_2381","Vice Chairman","board","v"]]},
   {id:"adel_al_ghadhban", n:"Adel Al Ghadhban", t:2, p:52, s:"energy", roles:[
+    ["taqa_saudi","Chief Executive Officer","executive","v"],
     ["lst_2381","Board Member","board","v"]]},
   {id:"adnan_ghabris", n:"Adnan Ghabris", t:2, p:52, s:"energy", roles:[
     ["lst_2381","Board Member","board","v"]]},
@@ -3019,6 +3022,7 @@ const PEOPLE = [
   {id:"nahar_bin_muzaki", n:"Nahar bin Muzaki Al-Azmi", t:2, p:58, s:"health", roles:[
     ["kfmc","Executive Director of Medical Affairs","executive","v"]]},
   {id:"mohammed_al_kinani", n:"Mohammed Al-Kinani", t:2, p:62, s:"consumer_disc", roles:[
+    ["src","Board Member","board","v"],
     ["lst_1830","Chairman, Audit & Risk Committee","board","ns"]]},
   {id:"mishal_al_mishari", n:"Mishal Al-Mishari", t:2, p:62, s:"consumer_disc", roles:[
     ["lst_1830","Chairman, Remuneration & Nomination Committee","board","ns"]]},
@@ -3929,6 +3933,22 @@ const PEOPLE = [
     ["lst_2030","Deputy Chairman","board","ns"]]},
   {id:"khalid_bin_mohammad", n:"Khalid bin Mohammad Al Qazlan", t:2, p:60, s:"energy", roles:[
     ["lst_2030","Chief Executive Officer","executive","ns"]]},
+  {id:"ahmed_al_zahrani", n:"Ahmed Al-Zahrani", t:2, p:62, s:"energy", roles:[
+    ["taqa_saudi","Chairman of the Board of Directors","board","v"]]},
+  {id:"khaled_al_buraik", n:"Khaled Al-Buraik", t:2, p:62, s:"energy", roles:[
+    ["taqa_saudi","Vice Chairman and Board Member","board","v"]]},
+  {id:"bader_al_athel", n:"Bader Al-Athel", t:2, p:52, s:"energy", roles:[
+    ["taqa_saudi","Member of the Board of Directors","board","v"]]},
+  {id:"ahmad_alkholifey", n:"Ahmad Alkholifey", t:2, p:62, s:"finance", roles:[
+    ["src","Vice Chairman","board","v"]]},
+  {id:"hamoud_alrumayyan", n:"Hamoud AlRumayyan", t:2, p:52, s:"finance", roles:[
+    ["src","Board Member","board","v"]]},
+  {id:"sultan_abdulmalik_al", n:"Sultan Abdulmalik Al-Sheikh", t:2, p:52, s:"finance", roles:[
+    ["src","Board Member","board","v"]]},
+  {id:"majeed_al_abduljabbar", n:"Majeed Al-Abduljabbar", t:2, p:60, s:"finance", roles:[
+    ["src","Chief Executive Officer","executive","v"]]},
+  {id:"jesus_lamas_rios", n:"Jesus Lamas Rios", t:2, p:62, s:"energy", roles:[
+    ["lst_2381","Vice Chairman","board","ns"]]},
 ];
 
 const OWNERSHIP = [

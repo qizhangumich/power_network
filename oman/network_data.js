@@ -254,6 +254,16 @@ const INSTITUTIONS = [
   {id:"al_haditha_energy", n:"Al Haditha Energy SAOC", s:"energy", t:3, p:52, short:"Al Haditha Energy"},
   {id:"hafeet_rail", n:"Oman-Etihad Rail Company", s:"industry", t:2, p:58, short:"Hafeet Rail"},
   {id:"khazaen_dry_port", n:"Khazaen Dry Port Company", s:"industry", t:3, p:54, short:"Khazaen Dry Port"},
+  {id:"natl_univ_sci", n:"National University of Science and Technology", s:"education", t:3, p:58, short:"Natl Univ Sci & Tech"},
+  {id:"gulf_college", n:"Gulf College", s:"education", t:3, p:52, short:"Gulf College"},
+  {id:"middle_east_college", n:"Middle East College", s:"education", t:3, p:53, short:"Middle East College"},
+  {id:"bayan_college", n:"Bayan College", s:"education", t:3, p:52, short:"Bayan College"},
+  {id:"univ_medical_city", n:"University Medical City", s:"health", t:2, p:62, short:"Univ Medical City"},
+  {id:"al_nahdha_hospital", n:"Al Nahdha Hospital", s:"health", t:2, p:55, short:"Al Nahdha Hospital"},
+  {id:"al_masarra_hospital", n:"Al Masarra Hospital", s:"health", t:2, p:54, short:"Al Masarra Hospital"},
+  {id:"vision_2040_unit", n:"Oman Vision 2040 Implementation Follow-up Unit", s:"gov", t:1, p:64, short:"Vision 2040 Unit"},
+  {id:"omani_econ_assoc", n:"Omani Economic Association", s:"gov", t:3, p:52, short:"Omani Econ Assoc"},
+  {id:"imco", n:"International Maritime College Oman", s:"education", t:3, p:52, short:"IMCO"},
 ];
 
 const PEOPLE = [
@@ -374,6 +384,7 @@ const PEOPLE = [
     ["omantel","Chairman","board","v"],
     ["oq","Deputy Chairman","board","v"]]},
   {id:"eng_atif_al", n:"Eng. Atif Al Siyabi", t:2, p:62, s:"comm", roles:[
+    ["sct","Chairman","board","v"],
     ["lst_bknz","Board Member","board","v"],
     ["omantel","Deputy Chairman","board","v"]]},
   {id:"aiman_al_hosni", n:"Aiman Al-Hosni", t:2, p:52, s:"comm", roles:[
@@ -593,6 +604,7 @@ const PEOPLE = [
   {id:"tariq_abdul_hafidh", n:"Tariq Abdul Hafidh Al Aujaili", t:2, p:52, s:"finance", roles:[
     ["lst_bkdb","Board Member","board","v"]]},
   {id:"khalid_said_salim", n:"Khalid Said Salim Al Wahaibi", t:2, p:52, s:"finance", roles:[
+    ["lst_aofs","Chairman of the Board of Directors","board","ns"],
     ["lst_ngci","Vice Chairman","board","ns"],
     ["lst_bkdb","Board Member","board","v"]]},
   {id:"tariq_salim_mustahil", n:"Tariq Salim Mustahil Al Mashani", t:2, p:52, s:"finance", roles:[
@@ -1133,6 +1145,7 @@ const PEOPLE = [
   {id:"madiha_bint_ahmed", n:"Madiha bint Ahmed Al Shibaniya", t:2, p:58, s:"education", roles:[
     ["moe","Minister of Education","executive","ns"]]},
   {id:"khamis_bin_saif", n:"Khamis bin Saif Al Jabri", t:2, p:62, s:"gov", roles:[
+    ["vision_2040_unit","Chairman","board","ns"],
     ["pam_oman","Chief Executive Officer","executive","ns"],
     ["ministry_of_economy","Minister of Economy","executive","v"],
     ["fsa_oman","Chairman of the Board of Directors (Minister of Economy)","board","ns"]]},
@@ -1880,6 +1893,28 @@ const PEOPLE = [
     ["khazaen_dry_port","Chairman","board","ns"]]},
   {id:"saad_bait_naseeb", n:"Saad Bait Naseeb", t:2, p:60, s:"industry", roles:[
     ["khazaen_dry_port","Chief Executive Officer","executive","ns"]]},
+  {id:"p_mohamed_ali", n:"P. Mohamed Ali", t:2, p:58, s:"education", roles:[
+    ["natl_univ_sci","Chancellor","executive","v"]]},
+  {id:"ali_al_badi", n:"Ali Al Badi", t:2, p:58, s:"education", roles:[
+    ["gulf_college","Dean","executive","v"]]},
+  {id:"abdullah_saif_ahmed", n:"Abdullah Saif Ahmed Al Sabahi", t:2, p:62, s:"education", roles:[
+    ["middle_east_college","Chairperson of the Board of Trustees","board","v"]]},
+  {id:"saleh_al_shaaibi", n:"Saleh Al Shaaibi", t:2, p:58, s:"education", roles:[
+    ["middle_east_college","Dean","executive","v"]]},
+  {id:"mohammed_al_kharusi", n:"Mohammed Al Kharusi", t:2, p:58, s:"education", roles:[
+    ["bayan_college","Dean","executive","v"]]},
+  {id:"siham_bint_salim", n:"Siham bint Salim bin Sultan Al Sinani", t:2, p:60, s:"health", roles:[
+    ["univ_medical_city","Chief Executive Officer","executive","ns"]]},
+  {id:"al_yaqdhan_al", n:"Al Yaqdhan Al Ghafri", t:2, p:58, s:"health", roles:[
+    ["al_nahdha_hospital","Director","executive","ns"]]},
+  {id:"munther_bin_hilal", n:"Munther bin Hilal Al Busaidy", t:2, p:62, s:"gov", roles:[
+    ["vision_2040_unit","Deputy Chairman","board","ns"]]},
+  {id:"khalid_bin_said", n:"Khalid bin Said Al Amri", t:2, p:62, s:"gov", roles:[
+    ["omani_econ_assoc","Chairman","board","ns"]]},
+  {id:"michael_cunningham", n:"Michael Cunningham", t:2, p:62, s:"utilities", roles:[
+    ["lst_batp","Chairperson of the Board (temporary)","board","v"]]},
+  {id:"aftab_patel", n:"Aftab Patel", t:2, p:60, s:"finance", roles:[
+    ["lst_aofs","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2052,6 +2087,11 @@ const OWNERSHIP = [
   ["mocsy","com_om","ministry of","v"],
   ["hafeet_rail","asyad","JV (with Etihad Rail","ns"],
   ["khazaen_dry_port","asyad","JV (50% via Marafi)","ns"],
+  ["univ_medical_city","moh_om","reports to; absorbed Sultan Qaboos University Hospital, SQ Comprehensive Cancer Care & Research Centre and the Oman National Centre for Haematology & Marrow Transplantation under Royal Decree 11/2024","v"],
+  ["al_nahdha_hospital","moh_om","Ministry of Health hospital","v"],
+  ["al_masarra_hospital","moh_om","Ministry of Health hospital (sole national psychiatric hospital; renamed from Ibn Sina Hospital in 2013)","v"],
+  ["vision_2040_unit","com_om","subordinate unit established by Royal Decree 100/2020","v"],
+  ["imco","natl_univ_sci","constituent maritime college (branded NUST-IMCO)","ns"],
 ];
 
 const FAMILY = [
@@ -2135,4 +2175,11 @@ const AKA = {
   nraa:["National Records and Archive Authority"],
   hafeet_rail:["https://www.omanobserver.om/article/1153201/oman/transport/preparations-underway-to-start-hafeet-rail-construction-ceo"],
   khazaen_dry_port:["KDP"],
+  natl_univ_sci:["NU"],
+  middle_east_college:["MEC"],
+  univ_medical_city:["Sultan Qaboos University Hospital","SQUH","Medical University City"],
+  al_masarra_hospital:["Ibn Sina Hospital"],
+  vision_2040_unit:["Oman Vision 2040 Implementation Support and Follow-up Unit"],
+  omani_econ_assoc:["OEA"],
+  imco:["NUST-IMCO"],
 };

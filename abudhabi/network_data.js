@@ -345,6 +345,9 @@ const INSTITUTIONS = [
   {id:"halcon", n:"Halcon", s:"industry", t:3, p:56, short:"Halcon"},
   {id:"foodco", n:"Foodco National Foodstuff PJSC", s:"consumer_stap", t:3, p:51, short:"Foodco"},
   {id:"eagle_hills", n:"Eagle Hills", s:"realestate", t:2, p:62, short:"Eagle Hills"},
+  {id:"image_nation_ad", n:"Image Nation Abu Dhabi", s:"comm", t:2, p:56, short:"Image Nation AD"},
+  {id:"danat_al_emarat", n:"Danat Al Emarat Hospital for Women & Children", s:"health", t:3, p:52, short:"Danat Al Emarat"},
+  {id:"healthpoint", n:"Healthpoint Hospital", s:"health", t:3, p:52, short:"Healthpoint"},
 ];
 
 const PEOPLE = [
@@ -4658,6 +4661,9 @@ const PEOPLE = [
   {id:"ghaleb_awad_el", n:"Ghaleb Awad El Refae", t:2, p:58, s:"education", roles:[
     ["al_ain_university","President","executive","v"],
     ]},
+  {id:"omar_al_naqbi", n:"Omar Al Naqbi", t:2, p:58, s:"health", roles:[
+    ["healthpoint","Executive Director","executive","v"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -4953,6 +4959,8 @@ const OWNERSHIP = [
   ["fab_private_bank","fab","wholly-owned Swiss subsidiary","v"],
   ["nimr_automotive","edge_grp","wholly-owned subsidiary (military vehicles)","v"],
   ["halcon","edge_grp","wholly-owned subsidiary (precision weapons/missiles)","v"],
+  ["danat_al_emarat","mubadala_health","subsidiary (via UEMedical","ns"],
+  ["healthpoint","m42","subsidiary (Abu Dhabi hospital brand within the M42 network)","v"],
 ];
 
 const FAMILY = [
@@ -5054,4 +5062,5 @@ const AKA = {
   fab_private_bank:["NBAD Private Bank (Suisse)","Suisse"],
   nimr_automotive:["NIMR"],
   halcon:["HALCON Industry LLC"],
+  danat_al_emarat:["https://www.mubadala.com/en/news/mubadala-health-acquires-controlling-stake-uemedical"],
 };

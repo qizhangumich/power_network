@@ -266,6 +266,12 @@ const INSTITUTIONS = [
   {id:"azizi_developments", n:"Azizi Developments", s:"realestate", t:2, p:66, short:"Azizi Developments"},
   {id:"omniyat", n:"OMNIYAT", s:"realestate", t:2, p:65, short:"Omniyat"},
   {id:"select", n:"Select Group", s:"realestate", t:3, p:55, short:"Select Group"},
+  {id:"birmingham_dubai", n:"University of Birmingham Dubai", s:"education", t:3, p:54, short:"Birmingham Dubai"},
+  {id:"mahe_dubai", n:"Manipal Academy of Higher Education Dubai", s:"education", t:3, p:52, short:"MAHE Dubai"},
+  {id:"bits_pilani_dubai", n:"BITS Pilani Dubai Campus", s:"education", t:3, p:54, short:"BITS Pilani Dubai"},
+  {id:"amity_univ_dubai", n:"Amity University Dubai", s:"education", t:3, p:52, short:"Amity Univ Dubai"},
+  {id:"rit_dubai", n:"Rochester Institute of Technology Dubai", s:"education", t:3, p:54, short:"RIT Dubai"},
+  {id:"b_huth", n:"Dubai Public Policy Research Centre", s:"gov", t:3, p:54, short:"b'huth"},
 ];
 
 const PEOPLE = [
@@ -2868,6 +2874,16 @@ const PEOPLE = [
     ["omniyat","Strategic Advisory Board Member","board","v"]]},
   {id:"mark_machin", n:"Mark Machin", t:2, p:52, s:"realestate", roles:[
     ["omniyat","Strategic Advisory Board Member","board","v"]]},
+  {id:"yousef_al_assaf", n:"Yousef Al Assaf", t:2, p:58, s:"education", roles:[
+    ["rit_dubai","President","executive","v"]]},
+  {id:"yusra_mouzughi", n:"Yusra Mouzughi", t:2, p:58, s:"education", roles:[
+    ["birmingham_dubai","Provost","executive","v"]]},
+  {id:"s_sudhindra", n:"S. Sudhindra", t:2, p:58, s:"education", roles:[
+    ["mahe_dubai","Pro Vice Chancellor","executive","v"]]},
+  {id:"saif_al_seiari", n:"Saif Al Seiari", t:2, p:58, s:"education", roles:[
+    ["amity_univ_dubai","Vice Chancellor","executive","v"]]},
+  {id:"souri_banerjee", n:"Souri Banerjee", t:2, p:58, s:"education", roles:[
+    ["bits_pilani_dubai","Director","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

@@ -266,6 +266,10 @@ const INSTITUTIONS = [
   {id:"paci", n:"Public Authority for Civil Information", s:"gov", t:2, p:62, short:"PACI"},
   {id:"awqaf_kuwait", n:"Kuwait Awqaf Public Foundation", s:"sovereign", t:2, p:58, short:"Awqaf Kuwait"},
   {id:"scpd_kuwait", n:"General Secretariat of the Supreme Council for Planning and Development", s:"gov", t:1, p:62, short:"SCPD Kuwait"},
+  {id:"arab_open_univ", n:"Arab Open University", s:"education", t:2, p:58, short:"Arab Open Univ"},
+  {id:"farwaniya_hosp", n:"Farwaniya Hospital", s:"health", t:2, p:58, short:"Farwaniya Hosp"},
+  {id:"adan_hospital", n:"Adan Hospital", s:"health", t:2, p:58, short:"Adan Hospital"},
+  {id:"al_jarida", n:"Al-Jarida (Dar Al Jarida Press Printing and Publishing)", s:"comm", t:2, p:55, short:"Al-Jarida"},
 ];
 
 const PEOPLE = [
@@ -276,6 +280,7 @@ const PEOPLE = [
   {id:"pm_kw", n:"H.H. Sheikh Ahmad Abdullah Al-Ahmad Al-Sabah", t:0, p:86, s:"gov", roles:[
     ["cabinet_kw","Prime Minister","political","v"]]},
   {id:"fahad_yousef", n:"Sheikh Fahad Yousef Al-Sabah", t:0, p:82, s:"gov", roles:[
+    ["paci","Chairman of the Board of Directors","board","ns"],
     ["pam","Chairman of the Board","board","v"],
     ["moi_kuwait","First Deputy Prime Minister and Minister of Interior","executive","v"],
     ["cabinet_kw","First Deputy PM · Minister of Interior","political","v"]]},
@@ -2197,7 +2202,7 @@ const PEOPLE = [
   {id:"janan_al_zamel", n:"Janan Al-Zamel", t:2, p:58, s:"sovereign", roles:[
     ["awqaf_kuwait","Secretary-General (Acting)","executive","ns"]]},
   {id:"khaled_a_mahdi", n:"Khaled A. Mahdi", t:2, p:58, s:"gov", roles:[
-    ["scpd_kuwait","Secretary-General","executive","ns"]]},
+    ["scpd_kuwait","Secretary-General (–2024)","executive","ns","former:until Jun 2024"]]},
   {id:"marzouk_al_kharafi", n:"Marzouk Al-Kharafi", t:2, p:62, s:"industry", roles:[
     ["kharafi_national","Chairman","board","ns"]]},
   {id:"samer_younis", n:"Samer Younis", t:2, p:62, s:"industry", roles:[
@@ -2208,6 +2213,16 @@ const PEOPLE = [
     ["lst_altijaria","Chairman","board","v"]]},
   {id:"adwan_m_aladwani", n:"Adwan M. Aladwani", t:2, p:62, s:"realestate", roles:[
     ["lst_altijaria","Vice Chairman","board","v"]]},
+  {id:"saleh_mohammed_al", n:"Saleh Mohammed Al-Omar", t:2, p:58, s:"gov", roles:[
+    ["kuwait_customs","Deputy Director General for Customs Investigation and Investigation Affairs","executive","ns"]]},
+  {id:"fatima_hamza_al", n:"Fatima Hamza Al-Qallaf", t:2, p:58, s:"gov", roles:[
+    ["kuwait_customs","Deputy Director General for Administrative Affairs","executive","ns"]]},
+  {id:"mohammad_al_wasmi", n:"Mohammad Al-Wasmi", t:2, p:62, s:"sovereign", roles:[
+    ["awqaf_kuwait","Minister of Awqaf and Islamic Affairs, Chairman of the Awqaf Affairs Board","board","ns"]]},
+  {id:"ahmed_al_jinahi", n:"Ahmed Al-Jinahi", t:2, p:58, s:"gov", roles:[
+    ["scpd_kuwait","Secretary-General (Acting)","executive","v"]]},
+  {id:"nadia_al_homlan", n:"Nadia Al-Homlan", t:2, p:58, s:"gov", roles:[
+    ["scpd_kuwait","Assistant Secretary-General for Planning, Follow-up and Future Forecasting (Acting)","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2390,6 +2405,8 @@ const OWNERSHIP = [
   ["mubarak_al_kabeer","moh_kuwait","government teaching hospital operated by the Ministry of Health","ns"],
   ["kuwait_customs","mof_kw","customs administration operates under the Ministry of Finance","ns"],
   ["scpd_kuwait","cabinet_kw","secretariat of the cabinet-chaired Supreme Council for Planning and Development","ns"],
+  ["farwaniya_hosp","moh_kuwait","government hospital operating under Kuwait's Ministry of Health","ns"],
+  ["adan_hospital","moh_kuwait","government hospital operating under Kuwait's Ministry of Health","ns"],
 ];
 
 const FAMILY = [
@@ -2458,4 +2475,6 @@ const AKA = {
   paci:["Civil Information Authority"],
   awqaf_kuwait:["KAPF","Awqaf Public Foundation"],
   scpd_kuwait:["GSSCPD","Supreme Council for Planning and Development","SCPD"],
+  arab_open_univ:["AOU"],
+  al_jarida:["Dar Al Jarida","Dar Al Jarida Press Printing and Publishing"],
 };

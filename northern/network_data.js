@@ -207,6 +207,7 @@ const INSTITUTIONS = [
   {id:"sharjah_op", n:"Sharjah Cooperative Society", s:"consumer_stap", t:3, p:54, short:"Sharjah Co-op"},
   {id:"sharjah_insurance", n:"Sharjah Insurance Company PSC", s:"finance", t:3, p:55, short:"Sharjah Insurance"},
   {id:"zulekha_hosp_shj", n:"Zulekha Hospital Sharjah", s:"health", t:3, p:52, short:"Zulekha Hosp Shj"},
+  {id:"arada_capital", n:"Arada Capital", s:"finance", t:3, p:54, short:"Arada Capital"},
 ];
 
 const PEOPLE = [
@@ -1591,6 +1592,18 @@ const PEOPLE = [
     ["kuwait_hospital_shj","Director","executive","v"]]},
   {id:"majid_salem_saif", n:"Majid Salem Saif Al Junaid Al Shuwaihi", t:2, p:62, s:"consumer_stap", roles:[
     ["sharjah_op","Chairman","board","v"]]},
+  {id:"marwan_al_zaiem", n:"Marwan Al Zaiem", t:2, p:60, s:"conglomerate", roles:[
+    ["al_marwan","Founder & Managing Director","executive","v"]]},
+  {id:"bassel_al_zaiem", n:"Bassel Al Zaiem", t:2, p:60, s:"conglomerate", roles:[
+    ["al_marwan","Co-Founder & Deputy Managing Director","executive","v"]]},
+  {id:"adnan_edris_mohamed", n:"Adnan Edris Mohamed Sharif Al Awadhi", t:2, p:60, s:"finance", roles:[
+    ["nbq","Chief Executive Officer","executive","v"]]},
+  {id:"law_say_huat", n:"Law Say Huat", t:2, p:46, s:"energy", roles:[
+    ["vopak_horizon_fuj","General Manager","executive","v"]]},
+  {id:"ahmed_al_midfa", n:"Ahmed Al Midfa", t:2, p:62, s:"finance", roles:[
+    ["sharjah_insurance","Chairman","board","ns"]]},
+  {id:"ahmed_salem_al", n:"Ahmed Salem Al Hosani", t:2, p:62, s:"finance", roles:[
+    ["sharjah_insurance","Vice Chairman","board","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1697,6 +1710,7 @@ const OWNERSHIP = [
   ["kuwait_hospital_shj","emirates_health_svcs","operated by","v"],
   ["vopak_horizon_fuj","fujgov","joint-venture (22.2% stake)","v"],
   ["sharjah_op","shjgov","Ruler-chartered cooperative","v"],
+  ["arada_capital","arada","subsidiary","v"],
 ];
 
 const FAMILY = [

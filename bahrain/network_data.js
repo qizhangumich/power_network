@@ -204,6 +204,10 @@ const INSTITUTIONS = [
   {id:"infracorp", n:"Infracorp B.S.C.(c)", s:"realestate", t:2, p:60, short:"Infracorp"},
   {id:"jawad", n:"Jawad Business Group", s:"consumer_disc", t:3, p:54, short:"Jawad Group"},
   {id:"yasira", n:"Yasira Financial Services", s:"finance", t:3, p:54, short:"Yasira"},
+  {id:"shaikh_ibrahim_ctr", n:"Shaikh Ibrahim bin Mohammed Al Khalifa Center for Culture and Research", s:"gov", t:2, p:55, short:"Shaikh Ibrahim Ctr"},
+  {id:"arc_wh", n:"Arab Regional Centre for World Heritage", s:"gov", t:3, p:54, short:"ARC-WH"},
+  {id:"aubh", n:"American University of Bahrain", s:"education", t:3, p:52, short:"AUBH"},
+  {id:"daily_tribune", n:"The Daily Tribune", s:"comm", t:3, p:51, short:"Daily Tribune"},
 ];
 
 const PEOPLE = [
@@ -2488,6 +2492,7 @@ const PEOPLE = [
   {id:"yousef_abdullah_humood", n:"Yousef Abdullah Humood", t:2, p:52, s:"finance", roles:[
     ["cbb","Board Member","board","v"]]},
   {id:"shaikha_mai_bint", n:"Shaikha Mai Bint Mohammed Al Khalifa", t:2, p:52, s:"finance", roles:[
+    ["shaikh_ibrahim_ctr","Chairwoman of the Board of Trustees","board","v"],
     ["cbb","Board Member","board","v"]]},
   {id:"ahmed_mohamed_buhejji", n:"Ahmed Mohamed Buhejji", t:2, p:52, s:"finance", roles:[
     ["cbb","Board Member","board","v"]]},
@@ -3614,6 +3619,7 @@ const PEOPLE = [
   {id:"ramzan_bin_abdulla", n:"Ramzan bin Abdulla Al Nuaimi", t:2, p:52, s:"gov", roles:[
     ["iaa","Minister of Information Affairs","board","v"]]},
   {id:"khalifa_bin_ahmed", n:"Khalifa bin Ahmed bin Abdulla Al Khalifa", t:2, p:52, s:"gov", roles:[
+    ["arc_wh","Chairman of the Governing Board","board","v"],
     ["baca","President of the Bahrain Authority for Culture and Antiquities","board","v"]]},
   {id:"ahmed_bin_mohammed", n:"Ahmed bin Mohammed Al Khalifa", t:2, p:52, s:"gov", roles:[
     ["nao_bahrain","Auditor-General / President of the National Audit Office","board","v"]]},
@@ -3752,6 +3758,10 @@ const PEOPLE = [
     ["racing_force","Independent Director","board","v"]]},
   {id:"mohammed_jalal", n:"Mohammed Jalal", t:2, p:62, s:"conglomerate", roles:[
     ["jalal_sons","Chairperson","board","ns"]]},
+  {id:"ebrahim_bin_humood", n:"Ebrahim bin Humood bin Ebrahim Al Khalifa", t:2, p:58, s:"gov", roles:[
+    ["baca","Director of the Antiquities Directorate","executive","ns"]]},
+  {id:"batool_abdulaziz_ali", n:"Batool Abdulaziz Ali Al Sheikh Ahmed", t:2, p:58, s:"gov", roles:[
+    ["baca","Director of the Archaeological Sites Directorate","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -3869,6 +3879,8 @@ const OWNERSHIP = [
   ["kanoo_travel","kanoo","business division (travel and MICE)","v"],
   ["brtc","iaa","state broadcaster operating under ministry executive authority","ns"],
   ["infracorp","gfh","wholly-owned subsidiary (infrastructure & real estate platform, spun out Jan 2022)","v"],
+  ["shaikh_ibrahim_ctr","baca","cultural institution placed under BACA's authority","ns"],
+  ["arc_wh","baca","Governing Board chaired by the President of BACA","v"],
 ];
 
 const FAMILY = [
@@ -3947,4 +3959,8 @@ const AKA = {
   brtc:["Bahrain TV"],
   infracorp:["GFH Infracorp","c"],
   jawad:["JBG"],
+  shaikh_ibrahim_ctr:["Shaikh Ibrahim Center"],
+  arc_wh:["ARCWH"],
+  aubh:["American Univ of Bahrain"],
+  daily_tribune:["DT News"],
 };

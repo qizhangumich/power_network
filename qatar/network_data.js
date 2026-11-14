@@ -615,6 +615,7 @@ const PEOPLE = [
     ["qapco","Chairman of the Board","board","v"],
     ["nakilat","Chairman","board","v"]]},
   {id:"ahmad_saif_al", n:"Ahmad Saif Al-Sulaiti", t:2, p:62, s:"energy", roles:[
+    ["lst_mphc","Chairman of the Board of Directors","board","v"],
     ["qelng","Executive Vice President, Operations","executive","v"],
     ["nakilat","Vice Chairman","board","v"]]},
   {id:"sheikh_hamad_mohamed", n:"Sheikh Hamad Mohamed Al-Thani", t:2, p:52, s:"energy", roles:[
@@ -1052,7 +1053,8 @@ const PEOPLE = [
   {id:"oussama_abba", n:"Oussama Abba", t:2, p:58, s:"industry", roles:[
     ["lst_gwcs","Senior Vice President - KSA and Bahrain","executive","v"]]},
   {id:"mohammed_salem_alyan", n:"Mohammed Salem Alyan Al-Marri", t:2, p:62, s:"materials", roles:[
-    ["lst_mphc","Chairman","board","v"]]},
+    ["lst_mphc","Chairman (–2025)","board","v","former:until 2025"]],
+    note:"Succeeded as MPHC Chairman by Ahmad Saif Al-Sulaiti per MPHC's 2025 Annual Report."},
   {id:"jassim_mohammed_hussain", n:"Jassim Mohammed Hussain Al-Marzouqi", t:2, p:62, s:"materials", roles:[
     ["lst_mphc","Vice Chairman","board","v"]]},
   {id:"thani_bin_thamer", n:"Thani bin Thamer bin Mohammed Al-Thani", t:2, p:52, s:"materials", roles:[
@@ -2334,6 +2336,7 @@ const PEOPLE = [
   {id:"aisha_jassim_al", n:"Aisha Jassim Al Kuwari", t:2, p:52, s:"education", roles:[
     ["qatar_leadership_centre","Board Member","board","v"]]},
   {id:"maha_masoud_al", n:"Maha Masoud Al Marri", t:2, p:52, s:"education", roles:[
+    ["cgb","Director of the Institute of Public Administration","executive","ns"],
     ["qatar_leadership_centre","Board Member","board","v"]]},
   {id:"abdullah_mohammed_khalifa", n:"Abdullah Mohammed Khalifa Al Binali", t:2, p:58, s:"education", roles:[
     ["qatar_leadership_centre","Director General","executive","ns"]]},
@@ -2532,6 +2535,8 @@ const PEOPLE = [
     ["lst_mkdm","Group Chief Executive Officer and Director","executive","ns"]]},
   {id:"tariq_bader_al", n:"Tariq Bader Al Sada", t:2, p:52, s:"industry", roles:[
     ["lst_mkdm","Non-Executive Director","board","ns"]]},
+  {id:"saif_ali_al", n:"Saif Ali Al Kaabi", t:2, p:58, s:"gov", roles:[
+    ["cgb","Director of Civil Service Affairs","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
