@@ -1,0 +1,5 @@
+# Weekly Recap: Record backlogs, higher guidance and ADNOC Gas collaboration
+source: TradingView
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxPRGl4RzZqbnJNeE5yemVWcEtMY3FFaHY0YWtJdzYyZ2NpYmdEQ3ZTc2tRcFhVTlZGaDFOU3U3d0xLTTl6YnVHQnYwWDZZZUhpbDNEZl9mSDlaTkVrRW9lbHhUWm9KS1A0LWtVckVlTzRsbnRUVXZMMkI2bVhBWGUtU05RbUltQ05OdFB2VnJoaWJEQmVwMzR3OHAyNnlOTTZTaGVwcFpwMFZFTV8wQnFiNFNRd0JNWTQ2SW83SVNXV2VzcXFqam42RkNWcVV1Zzg?oc=5
+
+Weekly Recap: Record backlogs, higher guidance and ADNOC Gas collaboration    TradingView
