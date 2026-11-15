@@ -1,0 +1,5 @@
+# HIPG and Al-Futtaim Logistics explore Gulf vehicle supply chain ties
+source: The Maritime Standard
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxQbVAwX3JqWHVvWXgxOTMzTy1NYVRtUlVkQl9BME1hUC1MYTNQV0RNZlRhU1A1NFZRUTBRclJMcUgzSjl6aUFfX0s2dlRPaEJQUzM5Yzh0c1REdXVwQ2hwVHVhXzI5X09iRlFqOGp1OW5td0NMQUNKb280M2VkYy1zd3lGN2FYQUx0SHVjUVB0RUVCWTBXanNFNmtIXzdkSlM0U1VJYUFyTnJ1VU1HWDU2NHhEXy03MkwtWUhtRkRrc3lDaXRiUVU2ZjdqRQ?oc=5
+
+HIPG and Al-Futtaim Logistics explore Gulf vehicle supply chain ties    The Maritime Standard
