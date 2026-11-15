@@ -1613,6 +1613,12 @@ const PEOPLE = [
     ["sharjah_insurance","Chairman","board","ns"]]},
   {id:"ahmed_salem_al", n:"Ahmed Salem Al Hosani", t:2, p:62, s:"finance", roles:[
     ["sharjah_insurance","Vice Chairman","board","ns"]]},
+  {id:"mohammed_meer_abdul", n:"Mohammed Meer Abdul Rahman Al Sarrah", t:2, p:58, s:"gov", roles:[
+    ["shj_seaports_customs","Director of Ports and Customs","executive","v"]]},
+  {id:"saif_humaid_al", n:"Saif Humaid Al Falasi", t:2, p:62, s:"energy", roles:[
+    ["vopak_horizon_fuj","Chairman","board","v"]]},
+  {id:"maha_galieva", n:"Maha Galieva", t:2, p:46, s:"consumer_disc", roles:[
+    ["rak_hospitality","Head of Marketing","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

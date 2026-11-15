@@ -1137,6 +1137,7 @@ const PEOPLE = [
     ]},
   {id:"khalid_murshed", n:"Khalid Murshed", t:2, p:58, s:"comm", roles:[
     ["e_and","Group Chief Operations Officer","executive","v"],
+    ["e_enterprise","Chief Executive Officer","executive","v"],
     ]},
   {id:"borja_lopez", n:"Borja Lopez", t:2, p:58, s:"comm", roles:[
     ["e_and","Group Chief Strategy Officer","executive","v"],
@@ -4669,6 +4670,30 @@ const PEOPLE = [
     ]},
   {id:"summia_zaher", n:"Summia Zaher", t:2, p:60, s:"health", roles:[
     ["danat_al_emarat","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"eddy_farhat", n:"Eddy Farhat", t:2, p:58, s:"finance", roles:[
+    ["e_capital","Executive Director - CVC","executive","v"],
+    ]},
+  {id:"mohammed_humooda_ali", n:"Mohammed Humooda Ali Binhamouda Aldhaheri", t:2, p:52, s:"conglomerate", roles:[
+    ["binhamoodah","Board Member","board","v"],
+    ]},
+  {id:"hamad_ghanim_ali", n:"Hamad Ghanim Ali Binhamooda Aldhaheri", t:2, p:52, s:"conglomerate", roles:[
+    ["binhamoodah","Board Member","board","v"],
+    ]},
+  {id:"ali_hamooda_ali", n:"Ali Hamooda Ali Bin Hamooda Aldhaheri", t:2, p:52, s:"conglomerate", roles:[
+    ["binhamoodah","Board Member","board","v"],
+    ]},
+  {id:"fayez_al_abeini", n:"Fayez Al Abeini", t:2, p:52, s:"conglomerate", roles:[
+    ["binhamoodah","Independent Board Member","board","v"],
+    ]},
+  {id:"moncef_ben_hamida", n:"Moncef Ben Hamida", t:2, p:46, s:"conglomerate", roles:[
+    ["binhamoodah","General Manager","executive","v"],
+    ]},
+  {id:"yaqdhan_al_sadoon", n:"Yaqdhan Al Sadoon", t:2, p:58, s:"conglomerate", roles:[
+    ["binhamoodah","Group Legal Director","executive","v"],
+    ]},
+  {id:"nemer_al_ghool", n:"Nemer Al Ghool", t:2, p:58, s:"conglomerate", roles:[
+    ["binhamoodah","Group Finance Director","executive","v"],
     ]},
 ];
 

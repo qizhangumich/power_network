@@ -1919,6 +1919,8 @@ const PEOPLE = [
     ["imco","Dean","executive","v"]]},
   {id:"bader_al_habsi", n:"Bader Al Habsi", t:2, p:58, s:"health", roles:[
     ["al_masarra_hospital","Executive Director","executive","v"]]},
+  {id:"mahmoud_bin_ahmed", n:"Mahmoud bin Ahmed Al-Saadi", t:2, p:58, s:"gov", roles:[
+    ["public_prosecution","Assistant Attorney General","executive","v"]]},
 ];
 
 const OWNERSHIP = [
