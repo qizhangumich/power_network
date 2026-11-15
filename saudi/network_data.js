@@ -590,6 +590,8 @@ const INSTITUTIONS = [
   {id:"petrokemya", n:"Arabian Petrochemical Company", s:"materials", t:2, p:58, short:"PETROKEMYA"},
   {id:"barclays_saudi", n:"Barclays Saudi Arabia", s:"finance", t:3, p:50, short:"Barclays Saudi"},
   {id:"bahamdan", n:"Bahamdan Group", s:"conglomerate", t:3, p:54, short:"Bahamdan Group"},
+  {id:"sedco_capital", n:"SEDCO Capital Company", s:"finance", t:3, p:55, short:"SEDCO Capital"},
+  {id:"arabsat", n:"Arab Satellite Communications Organization", s:"comm", t:2, p:62, short:"Arabsat"},
 ];
 
 const PEOPLE = [
@@ -4377,6 +4379,8 @@ const OWNERSHIP = [
   ["ksau_hs","mngha","public health-sciences university affiliated with and overseen by MNGHA","v"],
   ["king_abdullah_mc","moh_sa","Ministry of Health quaternary referral hospital in Makkah, named by royal decree","ns"],
   ["petrokemya","sabic","wholly-owned subsidiary (Jubail olefins/polymers complex)","v"],
+  ["sedco_capital","sedco","wholly-owned subsidiary (CMA-licensed asset manager; est. 2010)","v"],
+  ["arabsat","stc","associate (36.66% equity interest)","v"],
 ];
 
 const FAMILY = [
@@ -4542,4 +4546,5 @@ const AKA = {
   king_abdullah_mc:["KAMC"],
   alireza:["House of Alireza","HAACO"],
   barclays_saudi:["Barclays Riyadh Office"],
+  arabsat:["ASCO"],
 };

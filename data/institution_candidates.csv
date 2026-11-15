@@ -1,7 +1,5 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-TIZA Global Mark Start of Construction,2,abudhabi,rejected,2026-10-29,2026-11-13,"Masdar, Citaglobal and TIZA Global Mark Start of Construction for Floating Solar Projects"
-Quality Infrastructure for Sustainable Development,2,oman,rejected,2026-11-12,2026-11-13,Oman climbs seven places in 2026 Quality Infrastructure for Sustainable Development Index
-SEDCO Capital,2,saudi,pending,2026-11-01,2026-11-13,Occupancy at SEDCO Capital REIT's assets in Q3
+Sempra Infrastructure Partners,2,abudhabi,pending,2026-11-13,2026-11-14,Sempra completes sale of 45% stake in Sempra Infrastructure Partners to KKR-led group
 Gujarat Energy,16,abudhabi,rejected,2026-11-06,2026-11-07,"Gujarat Energy LNG: 4m Tonnes, ADNOC"
 Singapore Airlines Group,9,dubai,rejected,2026-10-30,2026-11-12,Dubai and Abu Dhabi add further cancellations as Singapore Airlines pushes its return to February 2027
 I Squared Capital,8,abudhabi,rejected,2026-11-02,2026-11-09,"Avolon, I Squared Capital and ADIA launch aircraft leasing and infrastructure investment platform"
@@ -48,6 +46,7 @@ ADIPEC Energy,2,abudhabi,rejected,2026-11-02,2026-11-02,"AI is a necessity for e
 SFC Energy,2,abudhabi,rejected,2026-10-27,2026-10-27,SFC Energy partners with EDGE for advanced energy solutions
 Logistics Real Estate Sector Logistics,2,abudhabi,rejected,2026-11-10,2026-11-10,Meet the panel: The Next Era of the GCC’s Logistics Real Estate Sector
 Port Technology,2,abudhabi,rejected,2026-10-26,2026-11-11,Khalifa Port throughput rises 21.6 per cent in 2025
+TIZA Global Mark Start of Construction,2,abudhabi,rejected,2026-10-29,2026-11-13,"Masdar, Citaglobal and TIZA Global Mark Start of Construction for Floating Solar Projects"
 Avolon and I Squared Capital,2,abudhabi,rejected,2026-11-02,2026-11-02,"Abu Dhabi's Adia, Avolon and I Squared Capital to launch aviation investment platform"
 Thai Trade Center,2,dubai,rejected,2026-11-11,2026-11-12,Thai Trade Center Dubai launches new campaign 2m read
 EXCLUSIVEMoon World Resorts,2,,rejected,2026-11-02,2026-11-03,EXCLUSIVEMoon World Resorts signs Artemis II’s Jeremy Hansen2h ago3m read
@@ -55,6 +54,7 @@ Sharjah Airport,2,northern,rejected,2026-10-28,2026-10-29,"Sharjah Airport plans
 Siemens Energy,2,bahrain,rejected,2026-11-08,2026-11-13,Siemens Energy redesigns Gulf power plants to withstand drone attacks
 Hull City,2,oman,rejected,2026-11-07,2026-11-08,Arsenal equal best start to Premier League season after Martin Odegaard goal earns win over Hull City
 Municipal Council,2,oman,rejected,2026-11-01,2026-11-03,Oman sets voting dates for Municipal Council elections
+Quality Infrastructure for Sustainable Development,2,oman,rejected,2026-11-12,2026-11-13,Oman climbs seven places in 2026 Quality Infrastructure for Sustainable Development Index
 Navi Mumbai Airport,2,oman,rejected,2026-10-26,2026-11-06,"IndiGo, Air India to shift Muscat operations to Navi Mumbai Airport"
 Transitional Sovereignty Council,2,oman,rejected,2026-10-25,2026-10-26,Message from chief of Sudan's Transitional Sovereignty Council
 Hawiyat Najm Park,2,oman,rejected,2026-11-11,2026-11-12,Work progressing well at Hawiyat Najm Park project
@@ -67,9 +67,8 @@ Investment Promotion Agency,2,qatar,rejected,2026-10-27,2026-10-27,Qatar Chamber
 Eastern Cement,2,saudi,added,2026-10-25,2026-10-28,"Eastern Cement earns SAR 191M in 9M 2026, SAR 50M in Q3"
 Aker Solutions,2,qatar,rejected,2026-11-08,2026-11-10,Aker Solutions secures engineering contract for Qatar’s Maydan Mahzam redevelopment
 Muharraq City,2,bahrain,rejected,2026-11-08,2026-11-09,"King receives Housing Minister, briefed on Muharraq City development project"
-Go Energy,2,saudi,rejected,2026-10-24,2026-10-25,"Go Energy, SARCO partner on low-carbon fuels project in Saudi Arabia"
-UAE-backed Pearl Petroleum,2,,rejected,2026-10-28,2026-10-29,UAE-backed Pearl Petroleum mandates USD 400-500mln bond
 Met Department,2,kuwait,rejected,2026-10-29,2026-10-30,"Met Department warns of thundery rain, dust and rough seas"
+UAE-backed Pearl Petroleum,2,,rejected,2026-10-28,2026-10-29,UAE-backed Pearl Petroleum mandates USD 400-500mln bond
 Arada Capital,2,saudi,added,2026-10-29,2026-11-12,"Arada Capital, Alya partner on UAE and Saudi projects2m read"
 King Fahd International Airport,2,saudi,added,2026-10-23,2026-10-23,Qatar strongly condemns Houthi attack on King Fahd International Airport in Dammam
 Northern Cement,2,saudi,rejected,2026-11-09,2026-11-10,duplicate of existing lst_3004 (Northern Region Cement Co.
@@ -178,11 +177,9 @@ Fakhruddin Properties,2,dubai,added,2026-09-08,2026-09-10,Fakhruddin Properties 
 Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
 Balkan Green Energy,1,abudhabi,rejected,2026-10-26,2026-10-26,"Masdar buys giant solar farm in Greece, signs data center development MoU"
-Riyadh Airport,1,saudi,rejected,2026-10-24,2026-10-24,"Akasa Air, Etihad, flydubai and IndiGo extend flight cancellations at Riyadh Airport"
 Port of Salalah,1,oman,rejected,2026-11-12,2026-11-12,Port of Salalah container volumes rise 18% in nine months
 ABRAJ Energy,1,oman,rejected,2026-10-27,2026-10-27,"ABRAJ Energy Services Signs Five-Year PDO Contract to Deploy Nine Workover Hoists, Including Six New-Build Units"
 International Monetary Fund,1,oman,rejected,2026-11-02,2026-11-02,OCCI receives International Monetary Fund delegation
-Palestinian Authority,1,oman,rejected,2026-10-24,2026-10-24,Palestinian Authority condemns 'collective punishment'
 Social Development,1,oman,rejected,2026-11-05,2026-11-05,GUtech Launches the Uniquely Abled Academy Under the Patronage of the Minister of Social Development
 Awqaf Ministry,1,qatar,rejected,2026-11-04,2026-11-04,Awqaf Ministry issues statement on Istisqa prayer in Qatar
 Labour Ministry,1,qatar,added,2026-11-03,2026-11-03,Labour Ministry shuts down two recruitment offices in Qatar
@@ -192,12 +189,15 @@ Meteorology Department,1,qatar,rejected,2026-10-31,2026-10-31,"Meteorology Depar
 Qatar Real Estate,1,qatar,rejected,2026-10-27,2026-10-27,Minister of Municipality inaugurates 4th Qatar Real Estate Forum 2026
 Riyadh Municipality,1,saudi,added,2026-11-03,2026-11-03,Riyadh Municipality launches 1st land investment with private sector
 Asha Enterprises,1,oman,rejected,2026-10-28,2026-10-28,"Asha Enterprises, ITL World launch premium hospitality concept at Muscat Airport"
+Go Energy,1,saudi,rejected,2026-10-25,2026-10-25,"Go Energy, SARCO partner on low-carbon fuels project in Saudi Arabia"
 Bandhan Bank,1,abudhabi,rejected,2026-10-28,2026-10-28,India’s Bandhan Bank denies acquisition talks with First Abu Dhabi Bank
 IMF World Bank,1,kuwait,rejected,2026-10-26,2026-10-26,Chairman-led Burgan Bank delegation reinforces Kuwait’s global financial connections at 2026 IMF–World Bank Annual Meetings
-Hassan Allam Utilities,1,,rejected,2026-10-24,2026-10-24,Hassan Allam Utilities signs Dekheila port logistics hub deal
 Al Shaheed Park,1,kuwait,rejected,2026-11-03,2026-11-03,IWG Kuwait joins Pink October initiative at Al Shaheed Park
 Kuwait Airport,1,kuwait,added,2026-10-27,2026-10-27,Customs foils attempt to smuggle 33.5 kg of tumbak through Kuwait Airport
 Commerce Ministry,1,kuwait,rejected,2026-10-25,2026-10-25,"CMA, Commerce Ministry amend MoU on beneficial owner data"
+Riyadh Airport,1,saudi,rejected,2026-10-24,2026-10-24,"Akasa Air, Etihad, flydubai and IndiGo extend flight cancellations at Riyadh Airport"
+Palestinian Authority,1,oman,rejected,2026-10-24,2026-10-24,Palestinian Authority condemns 'collective punishment'
+Hassan Allam Utilities,1,,rejected,2026-10-24,2026-10-24,Hassan Allam Utilities signs Dekheila port logistics hub deal
 Attend One Planet Sovereign Wealth Fund,1,qatar,rejected,2026-10-23,2026-10-23,"4 HH the Amir, French President Attend One Planet Sovereign Wealth Fund CEOs Summit 21 October 2026"
 American Airlines,1,,rejected,2026-10-23,2026-10-23,"Airfares will not return to pre-Iran war levels, American Airlines warns"
 Al-Attiyah International Energy,1,qatar,rejected,2026-10-22,2026-10-22,Mohammed bin Nasser al-Hajri leads 2026 Al-Attiyah International Energy Awards honourees

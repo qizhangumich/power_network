@@ -272,6 +272,10 @@ const INSTITUTIONS = [
   {id:"amity_univ_dubai", n:"Amity University Dubai", s:"education", t:3, p:52, short:"Amity Univ Dubai"},
   {id:"rit_dubai", n:"Rochester Institute of Technology Dubai", s:"education", t:3, p:54, short:"RIT Dubai"},
   {id:"b_huth", n:"Dubai Public Policy Research Centre", s:"gov", t:3, p:54, short:"b'huth"},
+  {id:"imperial_logistics", n:"Imperial Logistics Limited", s:"industry", t:2, p:58, short:"Imperial Logistics"},
+  {id:"syncreon", n:"Syncreon International Group", s:"industry", t:2, p:56, short:"Syncreon"},
+  {id:"emaar_malls_mgmt", n:"Emaar Malls Management LLC", s:"realestate", t:2, p:60, short:"Emaar Malls Mgmt"},
+  {id:"emaar_hospitality", n:"Emaar Hospitality Group LLC", s:"consumer_disc", t:2, p:58, short:"Emaar Hospitality"},
 ];
 
 const PEOPLE = [
@@ -3043,6 +3047,10 @@ const OWNERSHIP = [
   ["khaleej_times","galadari_brothers","published by Galadari Printing & Publishing, part of Galadari Brothers Group","ns"],
   ["denizbank","enbd","wholly-owned subsidiary (99.85%) - Turkey","v"],
   ["tanfeeth","enbd","wholly-owned subsidiary (shared/back-office services)","v"],
+  ["imperial_logistics","dpworld","wholly-owned subsidiary (100% acquired 2022)","v"],
+  ["syncreon","dpworld","wholly-owned subsidiary (100% acquired 2021)","v"],
+  ["emaar_malls_mgmt","emaar","wholly-owned subsidiary (post-2021 merger of Emaar Malls PJSC)","v"],
+  ["emaar_hospitality","emaar","wholly-owned subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -3156,4 +3164,5 @@ const AKA = {
   scientechnic:["ESAG Scientechnic"],
   motivate_media:["Motivate Publishing"],
   denizbank:["Deniz Bank"],
+  emaar_malls_mgmt:["Emaar Malls"],
 };

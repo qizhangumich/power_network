@@ -208,6 +208,14 @@ const INSTITUTIONS = [
   {id:"sharjah_insurance", n:"Sharjah Insurance Company PSC", s:"finance", t:3, p:55, short:"Sharjah Insurance"},
   {id:"zulekha_hosp_shj", n:"Zulekha Hospital Sharjah", s:"health", t:3, p:52, short:"Zulekha Hosp Shj"},
   {id:"arada_capital", n:"Arada Capital", s:"finance", t:3, p:54, short:"Arada Capital"},
+  {id:"sharjah_cement", n:"Sharjah Cement and Industrial Development Co. PJSC", s:"materials", t:2, p:58, short:"Sharjah Cement Co."},
+  {id:"arab_heavy_industries", n:"Arab Heavy Industries PJSC", s:"industry", t:2, p:56, short:"Arab Heavy Industries"},
+  {id:"pearl_petroleum", n:"Pearl Petroleum Company Limited", s:"energy", t:2, p:60, short:"Pearl Petroleum"},
+  {id:"sgmb", n:"Sharjah Government Media Bureau", s:"gov", t:2, p:58, short:"SGMB"},
+  {id:"srerd", n:"Sharjah Real Estate Registration Department", s:"gov", t:2, p:56, short:"SRERD"},
+  {id:"fujairah_investment", n:"Fujairah Investment Company", s:"finance", t:3, p:54, short:"Fujairah Investment Co"},
+  {id:"sharjah_art_fdn", n:"Sharjah Art Foundation", s:"gov", t:2, p:56, short:"Sharjah Art Fdn"},
+  {id:"beeah_tandeef", n:"BEEAH Tandeef", s:"industry", t:3, p:54, short:"BEEAH Tandeef"},
 ];
 
 const PEOPLE = [
@@ -1712,6 +1720,12 @@ const OWNERSHIP = [
   ["vopak_horizon_fuj","fujgov","joint-venture (22.2% stake)","v"],
   ["sharjah_op","shjgov","Ruler-chartered cooperative","v"],
   ["arada_capital","arada","subsidiary","v"],
+  ["arab_heavy_industries","ajmgov","co-owned (Ajman Government / Al-Futtaim Group / Keppel Corporation)","ns"],
+  ["sgmb","shjgov","independent government body (established by Amiri Decree)","v"],
+  ["srerd","shjgov","government department (Executive Council Resolution No. 37 of 2024)","v"],
+  ["fujairah_investment","fujgov","government-linked investment company (holds 5.22% of National Bank of Fujairah)","v"],
+  ["sharjah_art_fdn","shjgov","independent public body (recognized by Emiri Decree; est. 2009)","v"],
+  ["beeah_tandeef","beeah","subsidiary (municipal waste collection & city cleaning arm)","v"],
 ];
 
 const FAMILY = [
@@ -1850,4 +1864,8 @@ const AKA = {
   vopak_horizon_fuj:["VHFL"],
   fujairah_refining:["FRCL"],
   sharjah_insurance:["SICO"],
+  sharjah_cement:["SCIDC"],
+  arab_heavy_industries:["AHI"],
+  sharjah_art_fdn:["SAF"],
+  beeah_tandeef:["Tandeef"],
 };
