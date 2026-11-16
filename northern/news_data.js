@@ -93,6 +93,5 @@ window.NEWS_ITEMS = [
   {id:"2026-10-04_why-sharjah-s-fdi-projects-jumped-45-in-_2df1c5", date:"2026-10-04", title:"Why Sharjah’s FDI projects jumped 45% in 20253m read", source:"Gulf News", url:"https://gulfnews.com/business/economy/c2knrhp-sharjah25e225802599s-45-growth-fdi-projects-reflects-uae-1.500697861", ids:["epaa"]},
   {id:"2026-10-02_video-uae-based-aldar-arada-form-jv-plan_2eead4", date:"2026-10-02", title:"VIDEO: UAE-based Aldar, Arada form JV, plan $4bln development pipeline in Abu Dhabi", source:"Zawya", url:"https://www.zawya.com/en/multimedia/videos/video-uae-based-aldar-arada-form-jv-plan-4bln-development-pipeline-in-abu-dhabi-1468048", ids:["arada"]},
   {id:"2026-10-02_machboos-but-make-it-arancini-the-fine-d_04c920", date:"2026-10-02", title:"Machboos, but make it arancini: The fine dining wave reshaping Emirati cuisine", source:"The National", url:"https://www.thenationalnews.com/lifestyle/food/2026/10/02/emirati-food-machboos-modern-restaurant-sharjah-dubai-abu-dhabi/", ids:["epaa"]},
-  {id:"2026-10-01_world-s-tallest-gold-bar-on-display-at-s_e24e51", date:"2026-10-01", title:"World's tallest gold bar on display at Sharjah show2m read", source:"Gulf News", url:"https://gulfnews.com/business/worlds-tallest-gold-bar-on-display-at-sharjah-watch-and-jewellery-show-1.500694863", ids:["epaa"]},
 ];
 window.SUGGESTED_EDGES = [];

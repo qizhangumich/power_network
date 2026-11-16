@@ -1,0 +1,5 @@
+# Pilot traces ‘UAE 55’ across the sky in Eid Al Etihad tribute
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMinAFBVV95cUxNbUEzX3VHeWxhUzA4MGY4LVUxY2czT051elRvZlRPVUlVWUdLdTJUNFBFTDBJcHRsU3BvSnl5eFAzak1fZ2taNld1ZzYyOFJSQ2VYQXo5VXdPeVNkOURfb0dmNDY5a0RtVlhxelZrdXh2NTkyUWpicU1ySnRqbF9CSEdMMWhwN05pUmxoTDE5ZUhHSXhrVFBSNHFGc1DSAawBQVVfeXFMT0lFenRYMEZxbXdDZ3B6bVpIeWxzZ0hHR0NUSnRIVkNIdkhnS2dieEFnczB4cVNTMnA2TGhWM1lXVmpYeVItWW9EbThHVW1UTjRUa3BwaFVyb3Jkd1JQVng3emtKMGhEQjNIQkJzNGhSZGNCVVlORGRfUE11Y1ZJcmx5b2trdzlVdXhtLUhNTWRXRjJoR0pNaXE5YjhpbGZnYlduTEkxUkY5VjZTRQ?oc=5
+
+Pilot traces ‘UAE 55’ across the sky in Eid Al Etihad tribute    Gulf News

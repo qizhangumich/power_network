@@ -1,0 +1,5 @@
+# Adnoc confirms vessel damaged after attack in UAE waters
+source: Quantum Commodity Intelligence
+url: https://news.google.com/rss/articles/CBMioAFBVV95cUxPdDBFQnhweUhOM1l2V2ZLbnJTaTlJVXl2Z1k4Z2d2LUJ2T2FtdnJWeUpRUmE0NXd1Ykh2ZDBHZ0VOUWh5TlBfZGxsNEhVUkR5a1J5eWYzOXhLekNhQkptNEhFMURoSWxpaXhmWVJ1RjlRMm9EUXdYX2NMelRtMFhVc2RaY3Vqd19TMzBrc2Q1NTJuNEFzV0hROTNUNERReWZi?oc=5
+
+Adnoc confirms vessel damaged after attack in UAE waters    Quantum Commodity Intelligence
