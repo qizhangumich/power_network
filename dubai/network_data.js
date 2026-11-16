@@ -276,6 +276,7 @@ const INSTITUTIONS = [
   {id:"syncreon", n:"Syncreon International Group", s:"industry", t:2, p:56, short:"Syncreon"},
   {id:"emaar_malls_mgmt", n:"Emaar Malls Management LLC", s:"realestate", t:2, p:60, short:"Emaar Malls Mgmt"},
   {id:"emaar_hospitality", n:"Emaar Hospitality Group LLC", s:"consumer_disc", t:2, p:58, short:"Emaar Hospitality"},
+  {id:"dh_community_mgmt", n:"Dubai Holding Community Management", s:"realestate", t:2, p:56, short:"DH Community Mgmt"},
 ];
 
 const PEOPLE = [
@@ -3051,6 +3052,7 @@ const OWNERSHIP = [
   ["syncreon","dpworld","wholly-owned subsidiary (100% acquired 2021)","v"],
   ["emaar_malls_mgmt","emaar","wholly-owned subsidiary (post-2021 merger of Emaar Malls PJSC)","v"],
   ["emaar_hospitality","emaar","wholly-owned subsidiary","v"],
+  ["dh_community_mgmt","dubaiholding","subsidiary (community management division)","v"],
 ];
 
 const FAMILY = [
@@ -3165,4 +3167,5 @@ const AKA = {
   motivate_media:["Motivate Publishing"],
   denizbank:["Deniz Bank"],
   emaar_malls_mgmt:["Emaar Malls"],
+  dh_community_mgmt:["DHCM"],
 };

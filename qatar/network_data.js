@@ -261,6 +261,7 @@ const INSTITUTIONS = [
   {id:"nhrc", n:"National Human Rights Committee", s:"gov", t:2, p:56, short:"NHRC"},
   {id:"cgb", n:"Civil Service and Government Development Bureau", s:"gov", t:2, p:58, short:"CGB"},
   {id:"assets", n:"Assets Group", s:"realestate", t:3, p:60, short:"Assets Group"},
+  {id:"qatarenergy_trading", n:"QatarEnergy Trading LLC", s:"energy", t:2, p:60, short:"QatarEnergy Trading"},
 ];
 
 const PEOPLE = [
@@ -394,6 +395,7 @@ const PEOPLE = [
     ["qfz","Chairman (until Apr 2025)","government","v","former:until Apr 2025"]],
     note:"Former QIA CEO. QFZ's board was fully reconstituted by Amiri Decision No. 13/2025 (Apr 2025) with Sheikh Faisal bin Thani bin Faisal Al-Thani as the new Chairperson."},
   {id:"sowaidi", n:"Mohammed Saif Al Sowaidi", t:1, p:86, s:"sovereign", roles:[
+    ["qfcra","Board Member","board","v"],
     ["qse","Vice Chairman","board","v"],
     ["qia","Chief Executive Officer","executive","v"],
     ["katarahosp","Chairman","board","v"]]},
@@ -2537,6 +2539,22 @@ const PEOPLE = [
     ["lst_mkdm","Non-Executive Director","board","ns"]]},
   {id:"saif_ali_al", n:"Saif Ali Al Kaabi", t:2, p:58, s:"gov", roles:[
     ["cgb","Director of Civil Service Affairs","executive","ns"]]},
+  {id:"tamy_ahmed_ali", n:"Tamy Ahmed Ali Al Boutamy Al Binali", t:2, p:52, s:"gov", roles:[
+    ["qfcra","Board Member","board","v"]]},
+  {id:"hamad_ahmad_al", n:"Hamad Ahmad Al-Mulla", t:2, p:52, s:"gov", roles:[
+    ["qfcra","Board Member","board","v"]]},
+  {id:"jeffrey_carmichael", n:"Jeffrey Carmichael", t:2, p:52, s:"gov", roles:[
+    ["qfcra","Board Member","board","v"]]},
+  {id:"daniel_l_glaser", n:"Daniel L. Glaser", t:2, p:52, s:"gov", roles:[
+    ["qfcra","Board Member","board","v"]]},
+  {id:"sheikh_fahad_jabor", n:"Sheikh Fahad Jabor Al Thani", t:2, p:60, s:"gov", roles:[
+    ["qfcra","Managing Director of Supervision and Authorisation","executive","v"]]},
+  {id:"eisa_ahmed_abdulla", n:"Eisa Ahmed Abdulla", t:2, p:60, s:"gov", roles:[
+    ["qfcra","Deputy Chief Executive Officer","executive","v"]]},
+  {id:"fatma_abdulrahman_al", n:"Fatma Abdulrahman Al Meer", t:2, p:58, s:"gov", roles:[
+    ["qfcra","Chief Financial Officer and Chief Operating Officer","executive","v"]]},
+  {id:"farah_abdulrahman_al", n:"Farah Abdulrahman Al Muftah", t:2, p:60, s:"gov", roles:[
+    ["qfcra","Managing Director, Policy, Legal and Enforcement","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2684,6 +2702,7 @@ const OWNERSHIP = [
   ["qinvest","qib","majority-owned subsidiary (65.6% per QIB's own disclosure)","v"],
   ["al_jazeera_finance","qib","affiliate (30% stake per QIB's own disclosure)","v"],
   ["assets","pih","subsidiary of Power International Holding","v"],
+  ["qatarenergy_trading","qatarenergy","wholly-owned subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -2798,4 +2817,5 @@ const AKA = {
   al_attiyah_fdn:["Al-Attiyah Foundation","ABHA Foundation"],
   al_jazeera_finance:["Al Jazeera Finance Tamweel"],
   cgb:["CSGDB"],
+  qatarenergy_trading:["QP Trading"],
 };

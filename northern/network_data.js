@@ -224,6 +224,7 @@ const PEOPLE = [
     ["aus","Founder & President","board","v"]],
     note:"Ruler since 1972 — the intellectual of the UAE ruling houses; culture and education define Sharjah's model."},
   {id:"sultan_ahmed_q", n:"H.H. Sheikh Sultan bin Ahmed Al Qasimi", t:0, p:84, s:"gov", roles:[
+    ["sgmb","Chairman","board","v"],
     ["invest_bank","Chairman","board","v"],
     ["sharjah_broadcasting","Chairman - Sharjah Media Council (SBA oversight body)","board","ns"],
     ["university_of_sharjah","President and Chairman of the Board of Trustees","board","v"],
@@ -1619,6 +1620,12 @@ const PEOPLE = [
     ["vopak_horizon_fuj","Chairman","board","v"]]},
   {id:"maha_galieva", n:"Maha Galieva", t:2, p:46, s:"consumer_disc", roles:[
     ["rak_hospitality","Head of Marketing","executive","ns"]]},
+  {id:"tariq_saeed_allay", n:"Tariq Saeed Allay", t:2, p:58, s:"gov", roles:[
+    ["sgmb","Director General","executive","v"]]},
+  {id:"alia_mohamed_bu", n:"Alia Mohamed Bu Ghanem Al Suwaidi", t:2, p:58, s:"gov", roles:[
+    ["sgmb","Director","executive","v"]]},
+  {id:"abdulaziz_ahmed_al", n:"Abdulaziz Ahmed Al Shamsi", t:2, p:58, s:"gov", roles:[
+    ["srerd","Director General","executive","v"]]},
 ];
 
 const OWNERSHIP = [

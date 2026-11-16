@@ -950,6 +950,7 @@ const PEOPLE = [
   {id:"mohammad_abdullah_abunayyan", n:"Mohammad Abdullah Abunayyan", t:2, p:62, s:"utilities", roles:[
     ["acwa","Chairman","board","v"]]},
   {id:"raad_esmat_al", n:"Raad Esmat Al-Saady", t:2, p:60, s:"utilities", roles:[
+    ["gaft","Independent Board Member","board","v"],
     ["acwa","Managing Director","board","v"]]},
   {id:"prince_sultan_bin", n:"Prince Sultan bin Khalid bin Faisal Al Saud", t:2, p:52, s:"utilities", roles:[
     ["sidf","Chief Executive Officer","executive","v"],
@@ -1467,6 +1468,7 @@ const PEOPLE = [
   {id:"sarah_jammaz_alsuhaimi", n:"Sarah Jammaz Alsuhaimi", t:2, p:62, s:"energy", roles:[
     ["lst_4030","Chairwoman","board","v"]]},
   {id:"abdulla_mohammed_alzamil", n:"Abdulla Mohammed Alzamil", t:2, p:62, s:"energy", roles:[
+    ["lst_2240","Chairman (non-executive)","board","ns"],
     ["zamil_steel","Chairman","board","ns"],
     ["saudi_global_ports","Chairman of the Board","board","v"],
     ["lst_4030","Vice Chairman","board","v"]]},
@@ -4049,6 +4051,32 @@ const PEOPLE = [
     ["ksau_hs","Vice President for Educational Affairs","executive","v"]]},
   {id:"fayez_al_hejaili", n:"Fayez Al Hejaili", t:2, p:58, s:"education", roles:[
     ["ksau_hs","Vice President for Postgraduate Education","executive","v"]]},
+  {id:"bandar_al_zamil", n:"Bandar Al Zamil", t:2, p:62, s:"materials", roles:[
+    ["lst_2240","Vice Chairman (non-executive)","board","ns"]]},
+  {id:"badr_alsuwaidan", n:"Badr Alsuwaidan", t:2, p:60, s:"comm", roles:[
+    ["arabsat","President and Chief Executive Officer","executive","v"]]},
+  {id:"saud_m_almadhi", n:"Saud M. AlMadhi", t:2, p:58, s:"comm", roles:[
+    ["arabsat","Chief Commercial Officer","executive","v"]]},
+  {id:"mohannad_a_almurshed", n:"Mohannad A. AlMurshed", t:2, p:58, s:"comm", roles:[
+    ["arabsat","Chief Technology Officer","executive","v"]]},
+  {id:"hassan_a_alshihri", n:"Hassan A. AlShihri", t:2, p:58, s:"comm", roles:[
+    ["arabsat","Chief Financial Officer","executive","v"]]},
+  {id:"ahmad_m_alsalem", n:"Ahmad M. AlSalem", t:2, p:58, s:"comm", roles:[
+    ["arabsat","Chief Shared Services Officer","executive","v"]]},
+  {id:"bader_r_bahaian", n:"Bader R. Bahaian", t:2, p:58, s:"comm", roles:[
+    ["arabsat","Executive Vice President of Marketing and Customer Services","executive","v"]]},
+  {id:"majed_bin_abdullah_b", n:"Majed bin Abdullah Al-Kassabi", t:2, p:62, s:"gov", roles:[
+    ["gaft","Minister of Commerce, Chairman of the Board of Directors","board","v"]]},
+  {id:"mohammed_bin_abdulaziz_b", n:"Mohammed bin Abdulaziz Al-Abduljabbar", t:2, p:58, s:"gov", roles:[
+    ["gaft","Acting Governor","executive","v"]]},
+  {id:"eman_habbas_al", n:"Eman Habbas Al-Mutairi", t:2, p:52, s:"gov", roles:[
+    ["gaft","Board Member","board","v"]]},
+  {id:"mohammed_ali_bin", n:"Mohammed Ali Bin Laden", t:2, p:52, s:"gov", roles:[
+    ["gaft","Independent Board Member","board","v"]]},
+  {id:"nasser_bin_mohammed_b_b", n:"Nasser bin Mohammed Al-Degaither", t:2, p:58, s:"gov", roles:[
+    ["gaft","Deputy Governor for International Organizations and Agreements","executive","v"]]},
+  {id:"abdulaziz_bin_abdullah_b", n:"Abdulaziz bin Abdullah Al-Aqeel", t:2, p:58, s:"gov", roles:[
+    ["gaft","Deputy Governor for Shared Services","executive","v"]]},
 ];
 
 const OWNERSHIP = [

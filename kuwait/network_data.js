@@ -1276,6 +1276,7 @@ const PEOPLE = [
   {id:"ned_issa", n:"Ned Issa", t:2, p:58, s:"materials", roles:[
     ["equate","Vice President, Operations","executive","v"]]},
   {id:"loay_jassim_al", n:"Loay Jassim Al-Kharafi", t:2, p:58, s:"conglomerate", roles:[
+    ["lst_valmore","Board Member (former Chairman)","board","ns"],
     ["kharafi","CEO, Mohamed Abdul Mohsen Al-Kharafi & Sons Company","executive","v"]]},
   {id:"noor_al_jassem", n:"Noor Al-Jassem", t:2, p:52, s:"industry", roles:[
     ["kuwaitairways","Board Member (former)","board","ns","former:until 2026"]]},
@@ -2225,6 +2226,18 @@ const PEOPLE = [
     ["scpd_kuwait","Assistant Secretary-General for Planning, Follow-up and Future Forecasting (Acting)","executive","v"]]},
   {id:"salah_al_hammadi", n:"Salah Al-Hammadi", t:2, p:58, s:"education", roles:[
     ["arab_open_univ","Director","executive","v"]]},
+  {id:"ali_al_mutairi", n:"Ali Al-Mutairi", t:2, p:58, s:"health", roles:[
+    ["farwaniya_hosp","Director of Farwaniya Hospital","executive","ns"]]},
+  {id:"sherif_abdel_aal", n:"Sherif Abdel Aal", t:2, p:58, s:"sovereign", roles:[
+    ["kipco","Group Senior Vice President - Investments","executive","ns"]]},
+  {id:"naveen_kumar_rajanala", n:"Naveen Kumar Rajanala", t:2, p:58, s:"sovereign", roles:[
+    ["kipco","Group Senior Vice President - Financial Control","executive","ns"]]},
+  {id:"heba_nasser_al", n:"Heba Nasser Al-Kharafi", t:2, p:62, s:"finance", roles:[
+    ["lst_valmore","Chairperson","board","ns"]]},
+  {id:"adel_moataz_al", n:"Adel Moataz Al-Alfi", t:2, p:62, s:"finance", roles:[
+    ["lst_valmore","Vice Chairman","board","ns"]]},
+  {id:"jon_rokk", n:"Jon Rokk", t:2, p:60, s:"finance", roles:[
+    ["lst_valmore","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

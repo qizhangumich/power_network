@@ -1921,6 +1921,16 @@ const PEOPLE = [
     ["al_masarra_hospital","Executive Director","executive","v"]]},
   {id:"mahmoud_bin_ahmed", n:"Mahmoud bin Ahmed Al-Saadi", t:2, p:58, s:"gov", roles:[
     ["public_prosecution","Assistant Attorney General","executive","v"]]},
+  {id:"khalifa_bin_said", n:"Khalifa bin Said Al Busaidi", t:2, p:62, s:"gov", roles:[
+    ["supreme_jud_council","Chairman of the Supreme Court","board","v"]]},
+  {id:"saif_bin_abdullah", n:"Saif bin Abdullah Al Hosni", t:2, p:58, s:"gov", roles:[
+    ["supreme_jud_council","Assistant Secretary General for Courts, Public Prosecution, and Notary Public Affairs","executive","v"]]},
+  {id:"salim_bin_zuwaid", n:"Salim bin Zuwaid Al Hashimi", t:2, p:58, s:"gov", roles:[
+    ["supreme_jud_council","Assistant Secretary General for Planning and Digital Transformation","executive","v"]]},
+  {id:"abdullah_bin_khalfan", n:"Abdullah bin Khalfan Al Rawahi", t:2, p:58, s:"gov", roles:[
+    ["supreme_jud_council","Assistant Secretary General for Implementation Affairs","executive","v"]]},
+  {id:"bader_bin_ahmed", n:"Bader bin Ahmed Al Yahyaee", t:2, p:58, s:"gov", roles:[
+    ["supreme_jud_council","Assistant Secretary General for Administrative and Financial Affairs","executive","v"]]},
 ];
 
 const OWNERSHIP = [

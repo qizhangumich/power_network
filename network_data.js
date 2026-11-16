@@ -4695,6 +4695,21 @@ const PEOPLE = [
   {id:"nemer_al_ghool", n:"Nemer Al Ghool", t:2, p:58, s:"conglomerate", roles:[
     ["binhamoodah","Group Finance Director","executive","v"],
     ]},
+  {id:"sana_khater", n:"Sana Khater", t:2, p:60, s:"finance", roles:[
+    ["lst_icap","Chief Executive Officer","executive","ns"],
+    ]},
+  {id:"layla_abdulaziz_al", n:"Layla Abdulaziz Al Hyas", t:2, p:58, s:"gov", roles:[
+    ["dcd","Executive Director of the Family and Child Welfare Sector","executive","ns"],
+    ]},
+  {id:"mubarak_saeed_al", n:"Mubarak Saeed Al Jabri", t:2, p:52, s:"tech", roles:[
+    ["spaceagency","Board Member","board","v"],
+    ]},
+  {id:"masood_mohamed_sharif", n:"Masood Mohamed Sharif", t:2, p:52, s:"tech", roles:[
+    ["spaceagency","Board Member","board","v"],
+    ]},
+  {id:"salama_alhaj_alawadhi", n:"Salama AlHaj Alawadhi", t:2, p:52, s:"tech", roles:[
+    ["spaceagency","Board Member","board","v"],
+    ]},
 ];
 
 const OWNERSHIP = [

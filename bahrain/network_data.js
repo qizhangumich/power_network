@@ -208,6 +208,8 @@ const INSTITUTIONS = [
   {id:"arc_wh", n:"Arab Regional Centre for World Heritage", s:"gov", t:3, p:54, short:"ARC-WH"},
   {id:"aubh", n:"American University of Bahrain", s:"education", t:3, p:52, short:"AUBH"},
   {id:"daily_tribune", n:"The Daily Tribune", s:"comm", t:3, p:51, short:"Daily Tribune"},
+  {id:"synergy_shared_svcs", n:"Synergy Shared Services Company W.L.L.", s:"industry", t:2, p:56, short:"Synergy Shared Svcs"},
+  {id:"singapore_gulf_bank", n:"Singapore Gulf Bank", s:"finance", t:2, p:56, short:"Singapore Gulf Bank"},
 ];
 
 const PEOPLE = [
@@ -3885,6 +3887,8 @@ const OWNERSHIP = [
   ["infracorp","gfh","wholly-owned subsidiary (infrastructure & real estate platform, spun out Jan 2022)","v"],
   ["shaikh_ibrahim_ctr","baca","cultural institution placed under BACA's authority","ns"],
   ["arc_wh","baca","Governing Board chaired by the President of BACA","v"],
+  ["synergy_shared_svcs","mumtalakat","wholly-owned subsidiary","v"],
+  ["singapore_gulf_bank","mumtalakat","strategic investor (minority stake)","v"],
 ];
 
 const FAMILY = [
@@ -3967,4 +3971,6 @@ const AKA = {
   arc_wh:["ARCWH"],
   aubh:["American Univ of Bahrain"],
   daily_tribune:["DT News"],
+  synergy_shared_svcs:["Synergy"],
+  singapore_gulf_bank:["SGB"],
 };
