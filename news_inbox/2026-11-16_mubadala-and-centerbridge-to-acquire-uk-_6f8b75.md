@@ -1,0 +1,5 @@
+# Mubadala and Centerbridge to acquire UK's Canaccord Wealth
+source: The National
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxObmNMVl9aTmZYZ3E5ZHNyTGJRV0F5MDNtbXFaMU1XZC1hcDFZdkQzd0VmcUpBdTZoUWRycktCZ2huUGJyam1qQkxjUnVKeUxGVVdIM3c2NS1yWkFkeW5EOWwtM0tMRkhvSzg5a09MUDlMWXRzSmdYdnRidGVBQkNQSWRLTDBJSm5POW54TGZQdmRYcHFPSWV1d09rOENablRUUDFiT3lGU0pmTmVnenZn?oc=5
+
+Mubadala and Centerbridge to acquire UK's Canaccord Wealth    The National

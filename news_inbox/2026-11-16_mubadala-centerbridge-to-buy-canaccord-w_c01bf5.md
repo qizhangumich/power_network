@@ -1,0 +1,5 @@
+# Mubadala, Centerbridge To Buy Canaccord Wealth
+source: Forbes Middle East
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQlNTY041Zm9uTms4T2ZVVW9Kc2ZHX2dYazJ0NW5JMzBwX3pDcGNfZTdtNFlMX19XcWp3c0EweHNobDNlVUstUENSa2NXWHllOGtHV1NCMTBhNHdRUWd4WlFheFRkejFNRXU3OExWSkNiZEphempzYlNfNWlTMHVZT3JxWHpKVU1UdFFTaXZsSm10Q3RwYjNBRk1RQ3RlTkQyZXhONlBQQTJsWFdrOVpQS1VFM0RMcG9qaENJ?oc=5
+
+Mubadala, Centerbridge To Buy Canaccord Wealth    Forbes Middle East

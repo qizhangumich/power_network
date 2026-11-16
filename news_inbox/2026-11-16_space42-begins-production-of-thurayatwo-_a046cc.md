@@ -1,0 +1,5 @@
+# Space42 Begins Production of ThurayaTwo Satellite Smartphone with South Korea’s Asia Pacific Satellite Inc.
+source: The Daily Tribune News
+url: https://news.google.com/rss/articles/CBMivgJBVV95cUxOd3ZiaHAwWU80UWg0cU5tSUVBMEhIMnZoNDQxeW8wVEd2M1RqRFB5dzJDakxUSFY4ZWFJMzRlRHFUSDI0TDhHVDlsX2hzTUVETUNkMUYzaE5NZ2NQemNNdjFlb3BFYTRDMUJMcjNIZUczeWYyQTJoMWVzNVpMYTlXSjUwQU0xNzBtcWhraUh3ZmE0Z2dia3JfRlpRVU1xT3JsVThMRktaWTFMUDl2ZmtvdDRmbE1XdlVGQmJvNFoya2FNYjNsbXFHV3lmN2ZtaS04TzlKdjgwZkpjTC1nWUs4UTdEVUpyaFozXzhuTFpjUFJya3RkLWstbDhxT1FacG9LQjZ2SGVzeVFTWUlPazFyeF9DakZvMkZYVTdmcWg1VzYxYXhRSTB3Z3ZvdnRUUVBJdEw2TFpqMzBVUjBVRGc?oc=5
+
+Space42 Begins Production of ThurayaTwo Satellite Smartphone with South Korea’s Asia Pacific Satellite Inc.    The Daily Tribune News

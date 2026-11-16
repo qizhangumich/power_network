@@ -1,0 +1,5 @@
+# World first McLaren-liveried Etihad aircraft takes to the skies after Norris victory
+source: Motorsport.com
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxNdkdudDJrNzdFWGRUMnV6R203aEtmOUl0LTZ0cTJzd2E4aS1rOHNzSWk3UjB3T0h2ZVYyUGlrN1U4RzhzZEJrb2ljVlFWa015eXJnX2hnQm4wRnBJXzVkSzBFUXZpQTFoaHl6cTlYV0lCVjJsSzRIU3dDN1M1d0MwVTJDeVJfekg1SUwwWFlxOHc4a0drNkdmbmZRbExYaGtHT3BnbXhOS0ZsRlJBTUg5T2lBc29iaEFrQWV5T3pDanNhdGd0ZE5Sd2MxNXFkYTQ?oc=5
+
+World first McLaren-liveried Etihad aircraft takes to the skies after Norris victory    Motorsport.com

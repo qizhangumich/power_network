@@ -1,0 +1,5 @@
+# Mubadala And Centerbridge Partners To Acquire Canaccord Genuity's UK Wealth Management Business
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi-AFBVV95cUxNRC15VDJyMHZWaXZlSlZfdm14bkxTcUJnSTY5d0hpdkpEYjRBdFJjRERrZXVJOU95eTlsY1loQ1dpZDdDWWNvNjAyOEd4NDVQNV9leXpLQVBOYldqdnRYM1J1UU1hVFV2Mmx2aW1VSjkxdndDMU1qSmFjeTJMWVpkMXlWZXc1d0lKNnk4ZG1zQjcxazlLc3VNV1AyZTk3am8xUnROT2dibUFveHRhY2kzYmNUNHZlS2o0WjZXSFdyV1cyOUM5RERTMGNTRTJqdE8tSmg5cU9iU2J4TkpzRzY5aTJVNXlRTUJDWFF2R2RhRXIzU0pFX3VzTQ?oc=5
+
+Mubadala And Centerbridge Partners To Acquire Canaccord Genuity's UK Wealth Management Business    TradingView

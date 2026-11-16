@@ -1,0 +1,5 @@
+# Etihad Airways Increases Capacity On its Newly Launched Flight to Calgary After Seeing Strong Early Bookings
+source: PYOK
+url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxNWWExWE13a3pPaTZzMTROODd6MVlpR2xVLTVSY0h4ZWR1UmxCY3VnZ0ZvRzQyX0ZVV0ozUFc3eEFyZklMTEFYX3NNT2NUUTlibTVuZTRJWEtiV3pyVFJLVEROMTcyeE10aGlZcmx2a3Q4N2dYQ3NsM0ExZEExMjdIQktzTHNNZ2ltaG1Ta2dSbEVfb25hUEtZYU1ETkg3YXhNb2tFZkFSVDVESUtkM2VCSDB6d1RlTEFOWlNtX2Iyc3RZT0xOemJIc1A5YXNKZGJ3aTNScUZFX0hNX2tETGpOYVNUYUhaXzg0eTk0?oc=5
+
+Etihad Airways Increases Capacity On its Newly Launched Flight to Calgary After Seeing Strong Early Bookings    PYOK

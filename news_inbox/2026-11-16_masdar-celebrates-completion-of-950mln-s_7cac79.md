@@ -1,0 +1,5 @@
+# Masdar celebrates completion of $950mln solar and battery storage project in California
+source: Zawya
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOVktMVF95dThBTjJ0cUk4U0p6cmFjYVlOaVBCYUhNTU4ycGFIbE9fTHdfS1NFN1JhZlZleWRraHhWVWtoWmNVenp0Wm1lUldjdmJ2TnhkNEgxYkIzS0F3RGJVRVp3cmIySTJlRG1rNmFfXzlvRUlQRlR3dlItZlloLUsyeVJRZmdrNjNhMkFHQ0lOSURKaFhTQkxXaEsxVklwaWFoR2x0ZHlRWkFPNWItZnVIX2J0b0NUWUlCMHJDZXh0QVhRS3lWUTFHOA?oc=5
+
+Masdar celebrates completion of $950mln solar and battery storage project in California    Zawya

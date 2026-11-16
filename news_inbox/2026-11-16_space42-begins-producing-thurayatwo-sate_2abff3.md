@@ -1,0 +1,5 @@
+# Space42 begins producing ThurayaTwo satellite smartphone with South Korea's AP Satellite
+source: Telecompaper
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxOODEyYXVMVzJac2ZJYkdlRThTWnZlWlhzeV8zTlFRNmU0RXdjTERxanpfM0xid0NoTmhKWWJ4cWNobjRFQlBJVHBzWGdHMDFnczAtbHdLLUgwVjNHYy1JYzFZMFF2c0NfS3dxbnJwR2l6RXVXX0lmbVU4Zzl4V0N5VjZTLTFnUkZ4amtRbnRTb3JwdzBKRU4tYWVZVmpYRFFzMUFpZzJsMGNvbmR1M0Z6eEFvNk9TQ1MwVlpPUm0zNFN4REdscWhQNXd3?oc=5
+
+Space42 begins producing ThurayaTwo satellite smartphone with South Korea's AP Satellite    Telecompaper

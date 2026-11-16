@@ -1,0 +1,5 @@
+# Masdar completes Lockhart solar plus storage complex in California
+source: Renewable Watch
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZFllbDBvc19nYzR1cDQzWEg5ZnBSdjJKWVdWNTRqVFFsNzd4REdoeGZlM1lnWVVkZEpZSEhiSG9FNktHQVpwLTNxNlQyZ2VkdGp5Qk5jQmlUTkJOdTB3ck5lTE9PM2swdi1qOWRwU0hRSEJ3aTlPVzdNUjdQSVg4a2gyLWJmZG1SbzkwUF80SWJhbFEtbThyNnduUlVFcHpjRmtveDU3SWRQZw?oc=5
+
+Masdar completes Lockhart solar plus storage complex in California    Renewable Watch
