@@ -261,7 +261,7 @@ const PEOPLE = [
     ["gulf_aviation_acad","Chairman","board","ns"],
     ["ewa_bh","President","executive","v"]]},
   {id:"alrayes_gfh", n:"Hisham Ahmed Al-Rayes", t:2, p:68, s:"finance", roles:[
-    ["infracorp","Chairman","board","ns"],
+    ["infracorp","Chairman","board","v"],
     ["gfh","Group Chief Executive Officer","executive","v"]]},
   {id:"jennings_abc", n:"Paul Jennings", t:2, p:66, s:"finance", roles:[
     ["abc","Group Chief Executive Officer","executive","v"]]},
@@ -2119,7 +2119,7 @@ const PEOPLE = [
   {id:"sattam_suleiman_abdulmohsen", n:"Sattam Suleiman Abdulmohsen Al Gosaibi", t:2, p:52, s:"realestate", roles:[
     ["lst_seef","Director","board","v"]]},
   {id:"majed_abdulla_mohamed", n:"Majed Abdulla Mohamed Al Khan", t:2, p:52, s:"realestate", roles:[
-    ["infracorp","Board Member and Chief Executive Officer","executive","ns"],
+    ["infracorp","Board Member and Chief Executive Officer","executive","v"],
     ["lst_seef","Director","board","v"]]},
   {id:"zayed_ali_rashed", n:"Zayed Ali Rashed Alamin", t:2, p:52, s:"realestate", roles:[
     ["lst_seef","Director","board","v"]]},

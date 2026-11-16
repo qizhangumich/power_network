@@ -169,7 +169,7 @@ const INSTITUTIONS = [
   {id:"lst_futurekid", n:"Future Kid Entertainment and Real Estate", s:"consumer_disc", t:2, p:50, short:"FUTUREKID"},
   {id:"lst_cattl", n:"Livestock Transport and Trading Co KSC", s:"consumer_stap", t:2, p:50, short:"CATTL"},
   {id:"lst_qic", n:"Umm Al Qaiwain General Investment Co PSC", s:"finance", t:2, p:50, short:"QIC"},
-  {id:"lst_valmore", n:"Valmore Holding", s:"finance", t:2, p:50, short:"Valmore Holding"},
+  {id:"lst_valmore", n:"Valmore Holding", s:"finance", t:2, p:60, short:"Valmore Holding"},
   {id:"lst_bkikwt", n:"Bahrain Kuwaiti Insurance Co B.S.C.", s:"finance", t:2, p:50, short:"BKIKWT"},
   {id:"lst_inovest", n:"Inovest BSC", s:"finance", t:2, p:50, short:"Inovest BSC"},
   {id:"lst_almanar", n:"Al Manar Financing and Leasing Co KSCP", s:"finance", t:2, p:50, short:"ALMANAR"},
@@ -532,7 +532,7 @@ const PEOPLE = [
   {id:"adel_jasem_al", n:"Adel Jasem Al Waqayan", t:2, p:58, s:"sovereign", roles:[
     ["kipco","Group Treasurer","executive","v"]]},
   {id:"mohammad_abdullah_al", n:"Mohammad Abdullah Al Hubail", t:2, p:58, s:"sovereign", roles:[
-    ["kipco","Deputy Group Chief of HR & Admin","executive","v"]]},
+    ["kipco","Group Chief Corporate Affairs and Government Relations Officer","executive","ns"]]},
   {id:"eman_mohammad_al", n:"Eman Mohammad Al Awadhi", t:2, p:46, s:"sovereign", roles:[
     ["kipco","Group SVP - Corporate Communications & Investor Relations","executive","v"]]},
   {id:"riyad_mohammed_hanbali", n:"Riyad Mohammed Hanbali", t:2, p:46, s:"sovereign", roles:[
@@ -2376,6 +2376,7 @@ const OWNERSHIP = [
   ["lst_cattl","boursa","listed on Boursa Kuwait","ns"],
   ["lst_qic","boursa","listed on Boursa Kuwait","ns"],
   ["lst_valmore","boursa","listed on Boursa Kuwait","ns"],
+  ["lst_valmore","kharafi","family-linked (Al-Kharafi family holding vehicle)","ns"],
   ["lst_bkikwt","boursa","listed on Boursa Kuwait","ns"],
   ["lst_inovest","boursa","listed on Boursa Kuwait","ns"],
   ["lst_almanar","boursa","listed on Boursa Kuwait","ns"],

@@ -467,7 +467,7 @@ const PEOPLE = [
   {id:"mark_steward_dfsa", n:"Mark Steward", t:2, p:68, s:"finance", roles:[
     ["dfsa","Chief Executive","executive","v"]]},
   {id:"hesham_abdulla_al", n:"Hesham Abdulla Al Qassim", t:2, p:62, s:"finance", roles:[
-    ["wasl_asset_mgmt","Vice Chairman and Chief Executive Officer","executive","ns"],
+    ["wasl_asset_mgmt","Vice Chairman and Chief Executive Officer","executive","v"],
     ["denizbank","Chairman of the Board of Directors","board","v"],
     ["emirates_islamic","Chairman","board","v"],
     ["lst_amlak","Board Member","board","v"],
@@ -1927,7 +1927,7 @@ const PEOPLE = [
   {id:"dan_stone", n:"Dan Stone", t:2, p:58, s:"industry", roles:[
     ["dae","Executive Vice President - DAE Capital","executive","ns"]]},
   {id:"abdulla_busenad", n:"Abdulla Busenad", t:2, p:58, s:"gov", roles:[
-    ["dubai_customs","Director General","executive","ns"]]},
+    ["dubai_customs","Director General","executive","v"]]},
   {id:"ramesh_cidambi", n:"Ramesh Cidambi", t:2, p:60, s:"consumer_disc", roles:[
     ["dubai_duty_free","Managing Director","executive","ns"]]},
   {id:"salah_tahlak", n:"Salah Tahlak", t:2, p:60, s:"consumer_disc", roles:[

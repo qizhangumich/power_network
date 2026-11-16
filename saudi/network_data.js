@@ -95,7 +95,7 @@ const INSTITUTIONS = [
   {id:"lst_2200", n:"Arabian Pipes Co.", s:"materials", t:2, p:50, short:"Arabian Pipes Co."},
   {id:"lst_2210", n:"Nama Chemicals Co.", s:"materials", t:2, p:50, short:"Nama Chemicals Co."},
   {id:"lst_2220", n:"National Metal Manufacturing and Casting Co. (Maadaniyah)", s:"materials", t:2, p:50, short:"2220"},
-  {id:"lst_2240", n:"Zamil Industrial Investment Co.", s:"materials", t:2, p:58, short:"Zamil Industrial"},
+  {id:"lst_2240", n:"Zamil Industrial Investment Co.", s:"materials", t:2, p:59, short:"Zamil Industrial"},
   {id:"lst_2250", n:"Saudi Industrial Investment Group (SIIG)", s:"materials", t:2, p:60, short:"SIIG"},
   {id:"lst_2290", n:"Yanbu National Petrochemical Co. (Yansab)", s:"materials", t:2, p:66, short:"Yansab"},
   {id:"lst_2300", n:"Saudi Paper Manufacturing Co.", s:"materials", t:2, p:50, short:"2300"},

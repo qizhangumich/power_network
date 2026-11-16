@@ -183,7 +183,7 @@ const INSTITUTIONS = [
   {id:"lst_bos", n:"Bank of Sharjah PJSC", s:"finance", t:2, p:60, short:"Bank of Sharjah"},
   {id:"lst_uab", n:"United Arab Bank PJSC", s:"finance", t:2, p:58, short:"UAB"},
   {id:"lst_emobility", n:"Emirates Mobility Company PJSC", s:"industry", t:2, p:57, short:"Emirates Mobility"},
-  {id:"lst_icap", n:"Investcorp Capital plc", s:"finance", t:2, p:58, short:"ICAP"},
+  {id:"lst_icap", n:"Investcorp Capital plc", s:"finance", t:2, p:70, short:"ICAP"},
   {id:"lst_phx", n:"Phoenix Group PLC", s:"tech", t:2, p:50, short:"Phoenix Group PLC"},
   {id:"lst_gih", n:"Gulf Investment House K.P.S.C.", s:"finance", t:2, p:50, short:"GIH"},
   {id:"lst_rakprop", n:"RAK Properties PJSC", s:"realestate", t:2, p:60, short:"RAK Properties"},
@@ -375,7 +375,7 @@ const PEOPLE = [
     ["royalgroup","Chairman","board","v"],
     ["g42","Chairman","board","v"],
     ["mgx","Chairman","board","v"],
-    ["judan_financial","Chairman","board","ns"],
+    ["judan_financial","Chairman","board","v"],
     ["irh","Chairman","board","ns"],
     ], note:"The single most connected node in Abu Dhabi business: security portfolio plus chairmanship of both giant SWFs and the IHC/G42/Royal Group commercial empire."},
   {id:"mansour", n:"H.H. Sheikh Mansour bin Zayed Al Nahyan", t:0, p:97, s:"gov", roles:[
@@ -495,7 +495,7 @@ const PEOPLE = [
     ["xrg","Board Member","board","v"],
     ["adpf","Board Member","board","v"],
     ["kezad","Chairman","board","v"],
-    ["judan_financial","Vice Chairman, Managing Director and CEO","executive","ns"],
+    ["judan_financial","Vice Chairman, Managing Director and CEO","executive","v"],
     ["riq","Board Member","board","ns"],
     ["twopointzero","Board Member (UAE Minister of Investment; Managing Director and Group CEO, ADQ)","board","v"],
     ], note:"Founding MD & Group CEO of ADQ 2018-Jan 2026; concluded tenure to become Executive Chairman & Managing Partner of Lunate (announced 29 Jan 2026). ADQ successor not yet publicly named."},
@@ -700,7 +700,7 @@ const PEOPLE = [
     ["adnocgas","Board Member","board","v"],
     ["borouge","Board Member, Borouge Group International Supervisory Board","board","v"],
     ["adnocdrill","Vice Chairman","board","v"],
-    ["mubadala_energy","Chairman","board","ns"],
+    ["mubadala_energy","Chairman (–2024)","board","ns","former:until 2024"],
     ["aiq","Chairman of the Board","board","v"],
     ]},
   {id:"abdulmunim", n:"Abdulmunim Saif Al Kindy", t:2, p:70, s:"energy", roles:[
@@ -1366,7 +1366,7 @@ const PEOPLE = [
     ]},
   {id:"dr_afif_saif", n:"Dr. Afif Saif Al Yafei", t:2, p:60, s:"utilities", roles:[
     ["taqa","Chief Executive Officer, TAQA Transmission (until Nov 2026)","executive","v","former:until Nov 2026"],
-    ["adports","Group Chief Executive Officer","executive","ns"],
+    ["adports","Group Chief Executive Officer","executive","v"],
     ["enec","Board Member","board","v"],
     ]},
   {id:"omar_abdulla_al", n:"Omar Abdulla Al Hashmi", t:2, p:60, s:"utilities", roles:[
@@ -1795,6 +1795,7 @@ const PEOPLE = [
     ["tabreed","Chairman","board","v"],
     ["space42","Vice Chairman of the Board","board","v"],
     ["dolphin_energy","Board Member","board","v"],
+    ["mubadala_energy","Chairman","board","ns"],
     ]},
   {id:"hilal_bin_dhaher", n:"Hilal Bin Dhaher", t:2, p:52, s:"materials", roles:[
     ["ega","Board Member","board","v"],

@@ -302,7 +302,7 @@ ahmed_ali_al,Ahmed Ali Al Sayegh,adnoc,,"Member, Executive Committee of ADNOC Bo
 farid_al_awlaqi,Farid Al Awlaqi,taqa,,"Chief Executive Officer, Generation",executive,v,
 farid_al_awlaqi,Farid Al Awlaqi,masdar,,"Board Member, Masdar Renewables & Green Hydrogen",board,v,
 dr_afif_saif,Dr. Afif Saif Al Yafei,taqa,,"Chief Executive Officer, TAQA Transmission (until Nov 2026)",executive,v,former:until Nov 2026
-dr_afif_saif,Dr. Afif Saif Al Yafei,adports,AD Ports Group,Group Chief Executive Officer,executive,ns,
+dr_afif_saif,Dr. Afif Saif Al Yafei,adports,AD Ports Group,Group Chief Executive Officer,executive,v,
 omar_abdulla_al,Omar Abdulla Al Hashmi,taqa,,"Chief Executive Officer, TAQA Distribution",executive,v,
 dr_nader_assad,Dr. Nader Assad Bin Taher,taqa,,"Interim Chief Executive Officer, TAQA Water Solutions",executive,v,
 franco_polo,Franco Polo,taqa,,"Chief Executive Officer, Oil and Gas",executive,v,
@@ -837,7 +837,7 @@ mohamed_ali_al,Mohamed Ali Al Shorafa Al Hammadi,atrc,Advanced Technology Resear
 shaikha_dhaheri,Dr. Shaikha Salem Al Dhaheri,atrc,Advanced Technology Research Council,"Board Member, ATRC",board,v,
 sara_awad_issa,Sara Awad Issa Musallam,atrc,,"Board Member, ATRC",board,v,
 shamis_ali_khalfan,Shamis Ali Khalfan Al Dhaheri,dcd,Department of Community Development,Chairman (Jan 2026–),government,v,
-musabbeh,Musabbeh Al Kaabi,mubadala_energy,Mubadala Energy,Chairman,board,ns,
+musabbeh,Musabbeh Al Kaabi,mubadala_energy,Mubadala Energy,Chairman (–2024),board,ns,former:until 2024
 saif_al_mazrouei,Saif Al Mazrouei,mubadala_energy,Mubadala Energy,Senior Vice President Marketing,executive,v,
 badr_olama,Badr Al-Olama,sanad,Sanad Group,Board Member,board,v,
 ali_al_hashemi,Ali Al Hashemi,yahsat,Al Yah Satellite Communications Company,Group Chief Executive Officer,executive,v,
@@ -1588,6 +1588,7 @@ ahmed_ali_al,Ahmed Ali Al Sayegh,dolphin_energy,Dolphin Energy Limited,UAE Minis
 naser_al_hajri,Naser Al Hajri,dolphin_energy,Dolphin Energy Limited,Board Member,board,v,
 mansoor_mohamed_al,Mansoor Mohamed Al Hamed,dolphin_energy,Dolphin Energy Limited,Board Member,board,v,
 dr_bakheet_al,Dr. Bakheet Al Katheeri,dolphin_energy,Dolphin Energy Limited,Board Member,board,v,
+dr_bakheet_al,Dr. Bakheet Al Katheeri,mubadala_energy,Mubadala Energy,Chairman,board,ns,
 talal_dhiyebi,Talal Al Dhiyebi,aldar_capital,Aldar Capital,"Group Chief Executive Officer, Aldar Properties (co-announced Aldar Capital launch)",executive,v,
 hani_barhoush,Hani Barhoush,aldar_capital,Aldar Capital,"Chief Executive Officer, Mubadala Capital (co-announced Aldar Capital launch)",executive,v,
 emmanuel_de_reynies,Emmanuel de Reynies,adnoc_trading,,Chief Executive Officer,executive,v
@@ -1625,8 +1626,8 @@ ahmed_abdullah_bin,Ahmed Abdullah bin Lahej Al Falasi,icp,,Director General of C
 mohammed_ahmed_al,Mohammed Ahmed Al Kuwaiti,icp,,Director General of Port Security,executive,ns
 ali_saeed_al,Ali Saeed Al Neyadi,ncema,,Chairman,board,ns
 ali_rashid_al_b,Ali Rashid Al Neyadi,ncema,,Director-General,executive,ns
-tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,judan_financial,Judan Financial Holding,Chairman,board,ns,
-alsuwaidi_adq,Mohamed Hassan Alsuwaidi,judan_financial,Judan Financial Holding,"Vice Chairman, Managing Director and CEO",executive,ns,
+tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,judan_financial,Judan Financial Holding,Chairman,board,v,
+alsuwaidi_adq,Mohamed Hassan Alsuwaidi,judan_financial,Judan Financial Holding,"Vice Chairman, Managing Director and CEO",executive,v,
 tahnoun,H.H. Sheikh Tahnoon bin Zayed Al Nahyan,irh,International Resources Holding PJSC,Chairman,board,ns,
 ali_rashed_mohammed,Ali Rashed Mohammed Al Rashdi,irh,International Resources Holding PJSC,Chief Executive Officer,executive,ns,
 sultan_jaber,Dr. Sultan Ahmed Al Jaber,riq,RIQ (Reinsurance Intelligence Quotient),Chairman,board,ns,
