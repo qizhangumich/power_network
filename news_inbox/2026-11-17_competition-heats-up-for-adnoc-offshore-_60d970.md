@@ -1,0 +1,5 @@
+# Competition heats up for Adnoc offshore prize
+source: Upstream Online
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS3FlWDlGaUVicVlFQzc0UUZCRnBKeXBIZmdxQXhFT3dsMjVoMnBkeTVidHRpb1pwZURzT29ndWt4eU13RVpEOW12RUdwMW41SnRMV3FELXpLMVVqVlhNNDRTNEJ0ckp4S0ZpcFRPZXl3MkVvaUdiX0FYVE92eHlELU9iRFFEV2U1S3FoZGdsaktoYVlBa1ljdi1iNk9fSXNFMS1xNHk4SmVEQQ?oc=5
+
+Competition heats up for Adnoc offshore prize    Upstream Online

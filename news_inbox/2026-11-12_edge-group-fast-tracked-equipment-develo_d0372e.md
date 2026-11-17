@@ -1,0 +1,5 @@
+# Edge Group Fast-Tracked Equipment Development To Counter Iranian Threat
+source: Aviation Week
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxNaDdLMk5BOF9qbE1ISTVjLVRQU056ZmI4UEJGRElBdHpnQmduOEJXZHlOc09ISzVXZWs4SGZPOWlvb3g1YnJlT25MVjc3WXJ4UlZEek4zWHExX3NGdzZ2a3EyUHRERmg2Q2cwS2lYaDhiUU1Wdm9kUDRRWnJfYXpUSkZHWXphb3FxTV93LVdzM0dRblExOW9Qamd4TEZhY3pHWnMzZDBOOWhGQl96NDlRSzVGYmUtVFAySXc?oc=5
+
+Edge Group Fast-Tracked Equipment Development To Counter Iranian Threat    Aviation Week

@@ -1,0 +1,5 @@
+# Etihad Drops Limited-Edition McLaren Loungewear and Special Livery
+source: Business Traveller
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZTJvazZma20wYVVvNmNXaC1tdXgyQzRDcFdLOGNscld0X1Ewb1EtbDBHRUc5TlNIY2pZVWRFY0EzTS01VktveDJyQlhvTXlZZUxpVzF4OFk3TGNhNEVnLXN3WWJUQ1pPcEtPMW9EZ2hUNUstUTRxMDlXMFZJOTB0MXNPWVJSMGU5azEtcnpYTUM0ZnY4ZDRVNENqOGRyUUNfbmVnVHNCbGY4dw?oc=5
+
+Etihad Drops Limited-Edition McLaren Loungewear and Special Livery    Business Traveller

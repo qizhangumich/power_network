@@ -1,0 +1,5 @@
+# How Etihad and Qatar business class compare
+source: AFR
+url: https://news.google.com/rss/articles/CBMipAFBVV95cUxNYXRxdGpleVpfME1qdkUxM0RtaXJKaTFjUnlWYXYybXpZX05IZVp0X2IzcU5jdmVwMjlQRlhNZG5pZHhUQ0kwbkVnV3RCU3p4VzI4R3ZrR0J1bTdYX3B1Znp5cmRqSGFpa2NQNWpYa1BqMktHOWI0cG10T2RSWS1NREs4OGFXclBjZWF3VUlLTFFVVDVSY2FrRmJzc05zd05tMHd5TA?oc=5
+
+How Etihad and Qatar business class compare    AFR
