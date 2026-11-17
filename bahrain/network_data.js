@@ -246,6 +246,7 @@ const PEOPLE = [
   {id:"baqali", n:"Ali Al Baqali", t:2, p:64, s:"materials", roles:[
     ["alba","CEO","executive","v"]]},
   {id:"salman_isa_bic", n:"Sheikh Salman bin Isa Al Khalifa", t:2, p:62, s:"consumer_disc", roles:[
+    ["singapore_gulf_bank","Independent Director","board","ns"],
     ["benefit","Board Member","board","v"],
     ["bic","CEO","executive","v"]]},
   {id:"fawzi_kanoo", n:"Fawzi Ahmed Kanoo", t:2, p:60, s:"conglomerate", roles:[
@@ -1553,6 +1554,7 @@ const PEOPLE = [
   {id:"ayman_zaidan", n:"Ayman Zaidan", t:2, p:58, s:"finance", roles:[
     ["gfh","Group Chief - Treasury & Financial Institutions","executive","v"]]},
   {id:"ali_alshamma", n:"Ali Alshamma", t:2, p:58, s:"finance", roles:[
+    ["singapore_gulf_bank","Chief Financial Officer","executive","ns"],
     ["gfh","CFO Treasury & Capital Market","executive","v"]]},
   {id:"husain_abbas", n:"Husain Abbas", t:2, p:58, s:"finance", roles:[
     ["gfh","Senior Executive Director","executive","v"]]},
@@ -3768,6 +3770,22 @@ const PEOPLE = [
     ["aubh","Interim President and Provost","executive","v"]]},
   {id:"mahmood_yousif_al", n:"Mahmood Yousif Al Mahmood", t:2, p:58, s:"comm", roles:[
     ["daily_tribune","Editor-in-Chief","executive","v"]]},
+  {id:"waleed_al_alawi", n:"Waleed Al-Alawi", t:2, p:62, s:"consumer_disc", roles:[
+    ["bahrain_golf_course","Chairman","board","ns"]]},
+  {id:"tomas_de_prat", n:"Tomas de Prat Gay", t:2, p:46, s:"consumer_disc", roles:[
+    ["ssp_bahrain","General Manager","executive","ns"]]},
+  {id:"george_antoniou", n:"George Antoniou", t:2, p:60, s:"consumer_disc", roles:[
+    ["ssp_bahrain","Managing Director, Eastern Europe & Middle East (SSP Group)","executive","ns"]]},
+  {id:"noora_abdulrahman_jamsheer", n:"Noora Abdulrahman Jamsheer", t:2, p:60, s:"industry", roles:[
+    ["synergy_shared_svcs","Chief Executive Officer","executive","v"]]},
+  {id:"edmund_lee", n:"Edmund Lee", t:2, p:62, s:"finance", roles:[
+    ["singapore_gulf_bank","Chairman","board","v"]]},
+  {id:"ali_moosa", n:"Ali Moosa", t:2, p:62, s:"finance", roles:[
+    ["singapore_gulf_bank","Executive Vice-Chairman","executive","ns"]]},
+  {id:"elaine_leong", n:"Elaine Leong", t:2, p:58, s:"finance", roles:[
+    ["singapore_gulf_bank","Chief Operating Officer","executive","ns"]]},
+  {id:"xiang_bing", n:"Xiang Bing", t:2, p:52, s:"finance", roles:[
+    ["singapore_gulf_bank","Independent Director","board","ns"]]},
 ];
 
 const OWNERSHIP = [

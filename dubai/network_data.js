@@ -459,6 +459,7 @@ const PEOPLE = [
     ["execco","Member (Director General of KHDA)","board","v"],
     ["khda","Director-General","government","v"]]},
   {id:"omar_bushehab_dld", n:"Omar Hamad Bu Shehab", t:1, p:74, s:"gov", roles:[
+    ["mbr_housing","Chief Executive Officer","executive","v"],
     ["dld","Director-General","government","v"]],
     note:"Also Chairman of the Board, Mohammed Bin Rashid Housing Establishment."},
   {id:"mona_almarri", n:"Mona Ghanem Al Marri", t:1, p:74, s:"comm", roles:[
@@ -1117,6 +1118,7 @@ const PEOPLE = [
   {id:"wassim_makarem", n:"Wassim Makarem", t:2, p:58, s:"consumer_disc", roles:[
     ["lst_talabat","Chief Retail Officer","executive","v"]]},
   {id:"khalifa_hassan_abdulla", n:"Khalifa Hassan Abdulla Al Daboos", t:2, p:60, s:"sovereign", roles:[
+    ["ithra_dubai","Director","board","v"],
     ["national_bonds","Chairman","board","ns"],
     ["dae","Managing Director and Board Member","board","ns"],
     ["icd","Deputy Chief Executive Officer","executive","v"]]},
@@ -1670,6 +1672,7 @@ const PEOPLE = [
   {id:"khalifa_al_zaffin", n:"Khalifa Al Zaffin", t:2, p:62, s:"gov", roles:[
     ["dubai_south","Executive Chairman","board","v"]]},
   {id:"raja_easa_al", n:"Raja Easa Al Gurg", t:2, p:62, s:"conglomerate", roles:[
+    ["heriot_watt_dubai","Pro-Chancellor","board","v"],
     ["scientechnic","Chairperson & Managing Director, ESAG (parent group of Scientechnic)","board","ns"],
     ["univ_of_dubai","Vice Chairperson, Board of Trustees","board","ns"],
     ["mbru","Vice Chairperson of the Board of Trustees","board","v"],
@@ -1795,6 +1798,7 @@ const PEOPLE = [
   {id:"hamad_obaid_al", n:"Hamad Obaid Al Mansouri", t:2, p:58, s:"gov", roles:[
     ["digitaldubai","Director General of Dubai Digital Authority","executive","v"]]},
   {id:"younus_al_nasser", n:"Younus Al Nasser", t:2, p:60, s:"gov", roles:[
+    ["dubai_statistics","Chief Executive (Dubai Data and Statistics Establishment)","executive","v"],
     ["digitaldubai","Chief Executive Officer of Dubai Data and Statistics Establishment","executive","v"]]},
   {id:"fatma_ibrahim_abdullah", n:"Fatma Ibrahim Abdullah Belrehif", t:2, p:60, s:"education", roles:[
     ["empower","Board Member","board","ns"],
@@ -2059,6 +2063,7 @@ const PEOPLE = [
   {id:"zarrin_baig", n:"Zarrin Baig", t:2, p:58, s:"finance", roles:[
     ["cfi_financial","Group Executive Director, Human Resources","executive","ns"]]},
   {id:"issam_galadari", n:"Issam Galadari", t:2, p:60, s:"health", roles:[
+    ["ithra_dubai","Founder, Director and CEO","executive","v"],
     ["dhcc","Chief Executive Officer","executive","v"]]},
   {id:"allae_almanini", n:"Allae Almanini", t:2, p:58, s:"health", roles:[
     ["dhcc","Chief Operating Officer","executive","v"]]},
@@ -2889,6 +2894,24 @@ const PEOPLE = [
     ["amity_univ_dubai","Vice Chancellor","executive","v"]]},
   {id:"souri_banerjee", n:"Souri Banerjee", t:2, p:58, s:"education", roles:[
     ["bits_pilani_dubai","Director","executive","ns"]]},
+  {id:"awad_hader_al", n:"Awad Hader Al Muhairi", t:2, p:62, s:"gov", roles:[
+    ["desc","Chairman of the Board","board","v"]]},
+  {id:"heather_mcgregor", n:"Heather McGregor", t:2, p:58, s:"education", roles:[
+    ["heriot_watt_dubai","Provost and Vice-Principal","executive","v"]]},
+  {id:"fiona_kyle", n:"Fiona Kyle", t:2, p:58, s:"education", roles:[
+    ["heriot_watt_dubai","Chief Operating Officer (Dubai campus)","executive","v"]]},
+  {id:"lynne_jack", n:"Lynne Jack", t:2, p:58, s:"education", roles:[
+    ["heriot_watt_dubai","Deputy Vice Principal (Dubai campus)","executive","v"]]},
+  {id:"amir_golbarg", n:"Amir Golbarg", t:2, p:58, s:"consumer_disc", roles:[
+    ["minor_hotels_mea","Chief Operating Officer - Middle East & Africa","executive","v"]]},
+  {id:"shahram_shamsaee", n:"Shahram Shamsaee", t:2, p:60, s:"realestate", roles:[
+    ["merex_investment","Chief Executive Officer","executive","ns"]]},
+  {id:"mark_chahwan", n:"Mark Chahwan", t:2, p:60, s:"finance", roles:[
+    ["sarwa","Co-Founder and Group CEO","executive","v"]]},
+  {id:"nadine_mezher", n:"Nadine Mezher", t:2, p:58, s:"finance", roles:[
+    ["sarwa","Co-Founder and Chief Marketing Officer","executive","v"]]},
+  {id:"jad_sayegh", n:"Jad Sayegh", t:2, p:58, s:"finance", roles:[
+    ["sarwa","Co-Founder","executive","v"]]},
 ];
 
 const OWNERSHIP = [

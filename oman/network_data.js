@@ -292,6 +292,7 @@ const PEOPLE = [
     ["moci_om","Minister of Trade, Industry & Investment Promotion","political","v"]],
     note:"Appointed under Royal Decree 17/2026 (13 Jan 2026), succeeding Qais bin Mohammed Al Yousef as minister."},
   {id:"qais_opaz", n:"Qais bin Mohammed Al Yousef", t:1, p:64, s:"gov", roles:[
+    ["al_mazunah_fz","Chairman, Public Authority for Special Economic Zones and Free Zones (OPAZ)","board","v"],
     ["duqm","Chairman - OPAZ Board of Directors","board","v"],
     ["opaz","Chairman","board","v"]],
     note:"Lost the Trade/Industry ministry portfolio in the January 2026 reshuffle but retained the OPAZ board chairmanship."},
@@ -346,6 +347,7 @@ const PEOPLE = [
     ["tra_oman","Chairman of the Board (ex officio, as Minister of Transport, Communications & IT)","board","v"],
     ["mtcit_om","Minister of Transport, Communications & IT","political","v"]]},
   {id:"alsabti_health", n:"Dr. Hilal bin Ali bin Hilal Al Sabti", t:1, p:70, s:"health", roles:[
+    ["univ_medical_city","Minister of Health and Chairman of the Board, University Medical City","board","v"],
     ["cdaa","Board Member, ex officio (Minister of Health)","board","ns"],
     ["moh_om","Minister of Health","political","v"]],
     note:"Retained under Royal Decree 17/2026 (13 Jan 2026)."},
@@ -545,6 +547,7 @@ const PEOPLE = [
   {id:"juma_al_uraimi", n:"Juma Al Uraimi", t:2, p:46, s:"industry", roles:[
     ["asyad","SVP & Group Head of Business Development","executive","v"]]},
   {id:"mohsin_al_hadhrami", n:"Mohsin Al Hadhrami", t:2, p:62, s:"energy", roles:[
+    ["al_mazunah_fz","Board Member, OPAZ","board","v"],
     ["moem_om","Undersecretary of the Ministry of Energy and Minerals","executive","v"],
     ["pdo","Chairman (Undersecretary Ministry of Energy and Minerals)","board","v"]]},
   {id:"isam_al_zadjali", n:"Isam Al Zadjali", t:2, p:52, s:"energy", roles:[
@@ -1003,6 +1006,7 @@ const PEOPLE = [
   {id:"ahmed_al_kharusi", n:"Ahmed Al Kharusi", t:2, p:46, s:"materials", roles:[
     ["soharalum","General Manager - Human Resources and Corporate Affairs","executive","ns"]]},
   {id:"ahmed_bin_hassan", n:"Ahmed bin Hassan Alawi Al Dheeb", t:2, p:62, s:"industry", roles:[
+    ["al_mazunah_fz","Deputy Chairman, OPAZ","board","v"],
     ["pam_oman","Chairman of the Board of Directors","board","ns"],
     ["opaz","Deputy Chairman of the Board of Directors","board","v"],
     ["duqm","Deputy Chairman - OPAZ Board of Directors","board","v"]]},
@@ -1145,6 +1149,7 @@ const PEOPLE = [
   {id:"madiha_bint_ahmed", n:"Madiha bint Ahmed Al Shibaniya", t:2, p:58, s:"education", roles:[
     ["moe","Minister of Education","executive","ns"]]},
   {id:"khamis_bin_saif", n:"Khamis bin Saif Al Jabri", t:2, p:62, s:"gov", roles:[
+    ["oman_sail","Chief Executive Officer","executive","v"],
     ["vision_2040_unit","Chairman","board","ns"],
     ["pam_oman","Chief Executive Officer","executive","ns"],
     ["ministry_of_economy","Minister of Economy","executive","v"],
@@ -1154,6 +1159,7 @@ const PEOPLE = [
   {id:"ahmed_bin_ali_b_b", n:"Ahmed bin Ali Al Maamari", t:2, p:58, s:"gov", roles:[
     ["fsa_oman","Vice Executive President","executive","v"]]},
   {id:"dawood_bin_salim", n:"Dawood bin Salim Al Hadabi", t:2, p:60, s:"gov", roles:[
+    ["raysut_ind_city","Chief Executive Officer / Executive Director, Madayn (Public Establishment for Industrial Estates, parent body)","executive","v"],
     ["madayn","Chief Executive Officer","executive","ns"]]},
   {id:"omar_bin_hamdan", n:"Omar bin Hamdan Al Ismaili", t:2, p:58, s:"gov", roles:[
     ["tra_oman","Executive President","executive","v"]]},
@@ -1931,6 +1937,20 @@ const PEOPLE = [
     ["supreme_jud_council","Assistant Secretary General for Implementation Affairs","executive","v"]]},
   {id:"bader_bin_ahmed", n:"Bader bin Ahmed Al Yahyaee", t:2, p:58, s:"gov", roles:[
     ["supreme_jud_council","Assistant Secretary General for Administrative and Financial Affairs","executive","v"]]},
+  {id:"badar_mohamed_al", n:"Badar Mohamed Al Nadabi", t:2, p:62, s:"industry", roles:[
+    ["asyad_express","Chairman, Oman Post & Asyad Express Board of Directors","board","v"]]},
+  {id:"ahmed_khamis_al", n:"Ahmed Khamis Al Shukaili", t:2, p:62, s:"industry", roles:[
+    ["asyad_express","Deputy Chairman, Oman Post & Asyad Express Board of Directors","board","v"]]},
+  {id:"ibrahim_bin_sultan", n:"Ibrahim bin Sultan Al Hosni", t:2, p:58, s:"industry", roles:[
+    ["asyad_express","Acting CEO, Oman Post & Asyad Express","executive","ns"]]},
+  {id:"maitha_al_mahrouqi", n:"Maitha Al Mahrouqi", t:2, p:62, s:"consumer_disc", roles:[
+    ["oman_sail","Chairwoman","board","v"]]},
+  {id:"nasser_bin_rashid_b", n:"Nasser bin Rashid Al Mawali", t:2, p:52, s:"gov", roles:[
+    ["al_mazunah_fz","Board Member, OPAZ","board","v"]]},
+  {id:"hamid_bin_ali", n:"Hamid bin Ali Bait Said", t:2, p:58, s:"industry", roles:[
+    ["raysut_ind_city","Acting Director General, Raysut Industrial City","executive","ns"]]},
+  {id:"abdul_qadir_bin", n:"Abdul Qadir bin Salim Al Balushi", t:2, p:58, s:"industry", roles:[
+    ["raysut_ind_city","Director General, Raysut Industrial City","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

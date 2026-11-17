@@ -2238,6 +2238,44 @@ const PEOPLE = [
     ["lst_valmore","Vice Chairman","board","ns"]]},
   {id:"jon_rokk", n:"Jon Rokk", t:2, p:60, s:"finance", roles:[
     ["lst_valmore","Chief Executive Officer","executive","ns"]]},
+  {id:"andrew_westmoreland", n:"Andrew Westmoreland", t:2, p:60, s:"industry", roles:[
+    ["q8_aviation","Managing Director, Q8Aviation","executive","v"]]},
+  {id:"fadel_al_faraj", n:"Fadel Al Faraj", t:2, p:58, s:"industry", roles:[
+    ["q8_aviation","Supply and Operations Director, Q8Aviation","executive","v"]]},
+  {id:"richard_crowe", n:"Richard Crowe", t:2, p:58, s:"industry", roles:[
+    ["q8_aviation","Technical Director, Q8Aviation","executive","v"]]},
+  {id:"toby_simmons", n:"Toby Simmons", t:2, p:58, s:"industry", roles:[
+    ["q8_aviation","Sales and Marketing Manager, Q8Aviation","executive","v"]]},
+  {id:"naser_ben_butain", n:"Naser Ben Butain", t:2, p:46, s:"industry", roles:[
+    ["q8_aviation","General Manager, Q8Aviation","executive","v"]]},
+  {id:"nasser_lafi_al", n:"Nasser Lafi Al-Otaibi", t:2, p:58, s:"comm", roles:[
+    ["al_jarida","Editor-in-Chief, Al-Jarida","executive","v"]]},
+  {id:"bashar_al_sayegh", n:"Bashar Al-Sayegh", t:2, p:46, s:"comm", roles:[
+    ["al_jarida","General Manager, Al-Jarida (Dar Al Jarida Press Printing and Publishing)","executive","v"]]},
+  {id:"ammar_al_baroun", n:"Ammar Al-Baroun", t:2, p:58, s:"health", roles:[
+    ["adan_hospital","Director, Adan Hospital (as reported 2019; current status unconfirmed)","executive","ns"]]},
+  {id:"ali_mohammad_al_b", n:"Ali Mohammad Al-Ajmi", t:2, p:52, s:"industry", roles:[
+    ["kafco","Board Member, KAFCO","board","v"]]},
+  {id:"abeer_ali_al", n:"Abeer Ali Al-Qadeeri", t:2, p:58, s:"industry", roles:[
+    ["kafco","Manager, Finance, Admin & Support Services Department","executive","v"]]},
+  {id:"abdulaziz_mubarak_al", n:"Abdulaziz Mubarak Al-Mushaileh", t:2, p:58, s:"industry", roles:[
+    ["kafco","Manager, Operations, Maintenance & Technical Services Department","executive","v"]]},
+  {id:"mukhtar_ahmed_redha", n:"Mukhtar Ahmed Redha", t:2, p:58, s:"industry", roles:[
+    ["kafco","Team Leader, Management Support","executive","v"]]},
+  {id:"tareq_abdulqader_al", n:"Tareq Abdulqader Al-Kanderi", t:2, p:58, s:"industry", roles:[
+    ["kafco","Team Leader, Operations","executive","v"]]},
+  {id:"abdullatif_mubarak_al", n:"Abdullatif Mubarak Al-Fahad", t:2, p:58, s:"industry", roles:[
+    ["kafco","Team Leader, Engineering Projects & Business Development","executive","v"]]},
+  {id:"mohammed_bin_ibrahim", n:"Mohammed bin Ibrahim Al-Zakari", t:2, p:62, s:"education", roles:[
+    ["arab_open_univ","Chairman, Arab Open University Council","board","v"]]},
+  {id:"naif_almutairi", n:"Naif Almutairi", t:2, p:58, s:"education", roles:[
+    ["arab_open_univ","Vice President for Academic Affairs and Scientific Research (former Director, Kuwait Branch)","executive","v"]]},
+  {id:"mahmood_akbar", n:"Mahmood Akbar", t:2, p:52, s:"education", roles:[
+    ["arab_open_univ","Representative of Teaching Staff - Kuwait","board","v"]]},
+  {id:"muhammad_alloughani", n:"Muhammad Alloughani", t:2, p:58, s:"education", roles:[
+    ["arab_open_univ","Dean of Business Studies, Kuwait Branch","executive","v"]]},
+  {id:"bader_al_qattan", n:"Bader Al-Qattan", t:2, p:60, s:"materials", roles:[
+    ["lst_acico","Chief Executive Officer (Acico Industries)","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

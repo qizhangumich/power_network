@@ -817,6 +817,8 @@ const PEOPLE = [
     ["adnec","Managing Director & Group CEO","executive","v"],
     ["adairports","Board Member","board","v"],
     ["abu_dhabi_chamber","Deputy Treasurer","board","v"],
+    ["twofour54","Board Member","board","v"],
+    ["twofour54","Managing Director & Group CEO","executive","v"],
     ]},
   {id:"lickrish", n:"John Lickrish", t:2, p:62, s:"comm", roles:[
     ["flash","CEO","executive","v"],
@@ -4710,6 +4712,102 @@ const PEOPLE = [
     ]},
   {id:"salama_alhaj_alawadhi", n:"Salama AlHaj Alawadhi", t:2, p:52, s:"tech", roles:[
     ["spaceagency","Board Member","board","v"],
+    ]},
+  {id:"laura_hinton", n:"Laura Hinton", t:2, p:58, s:"industry", roles:[
+    ["pwc","Territory Senior Partner","executive","v"],
+    ]},
+  {id:"maria_lalousis", n:"Maria Lalousis", t:2, p:58, s:"industry", roles:[
+    ["pwc","Chief People Officer","executive","v"],
+    ]},
+  {id:"antoine_abou_mansour", n:"Antoine Abou-Mansour", t:2, p:58, s:"industry", roles:[
+    ["pwc","Chief Operating Officer","executive","v"],
+    ]},
+  {id:"bivek_sharma", n:"Bivek Sharma", t:2, p:58, s:"industry", roles:[
+    ["pwc","Chief Technology & AI Officer","executive","v"],
+    ]},
+  {id:"ikram_al_mouaswas", n:"Ikram Al Mouaswas", t:2, p:58, s:"industry", roles:[
+    ["pwc","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"neil_broadhead", n:"Neil Broadhead", t:2, p:58, s:"industry", roles:[
+    ["pwc","Chief Risk Officer & Internal Firm Services Lead","executive","v"],
+    ]},
+  {id:"mounira_jamjoom", n:"Mounira Jamjoom", t:2, p:58, s:"industry", roles:[
+    ["pwc","Chief Transformation and Change Officer","executive","v"],
+    ]},
+  {id:"jochem_rossel", n:"Jochem Rossel", t:2, p:58, s:"industry", roles:[
+    ["pwc","Middle East Tax & Legal Services Leader","executive","v"],
+    ]},
+  {id:"abdullah_tamer", n:"Abdullah Tamer", t:2, p:58, s:"industry", roles:[
+    ["pwc","Clients & Markets Leader","executive","v"],
+    ]},
+  {id:"abdulaziz_al_sowailim", n:"Abdulaziz Al-Sowailim", t:2, p:62, s:"industry", roles:[
+    ["ey","MENA Chairman and CEO","executive","v"],
+    ]},
+  {id:"anthony_o_sullivan", n:"Anthony O'Sullivan", t:2, p:58, s:"industry", roles:[
+    ["ey","Managing Partner - UAE and Pakistan","executive","v"],
+    ]},
+  {id:"essa_al_jowder", n:"Essa Al-Jowder", t:2, p:58, s:"industry", roles:[
+    ["ey","Managing Partner - Bahrain, Qatar, Kuwait and Oman","executive","v"],
+    ]},
+  {id:"fahad_al_toaimi", n:"Fahad Al-Toaimi", t:2, p:58, s:"industry", roles:[
+    ["ey","Managing Partner - Saudi Arabia","executive","v"],
+    ]},
+  {id:"raed_ahmad", n:"Raed Ahmad", t:2, p:58, s:"industry", roles:[
+    ["ey","Managing Partner - Jordan, Egypt, Lebanon, Palestine, Iraq and Libya","executive","v"],
+    ]},
+  {id:"brad_watson", n:"Brad Watson", t:2, p:58, s:"industry", roles:[
+    ["ey","EY-Parthenon MENA Leader","executive","v"],
+    ]},
+  {id:"khurram_mian", n:"Khurram Mian", t:2, p:58, s:"industry", roles:[
+    ["ey","MENA Assurance Leader","executive","v"],
+    ]},
+  {id:"michael_hasbani", n:"Michael Hasbani", t:2, p:58, s:"industry", roles:[
+    ["ey","Clients & Industries and Alliances Leader","executive","v"],
+    ]},
+  {id:"lamice_murshid", n:"Lamice Murshid", t:2, p:58, s:"industry", roles:[
+    ["ey","Brand, Marketing and Communications Leader","executive","v"],
+    ]},
+  {id:"mobin_khan", n:"Mobin Khan", t:2, p:58, s:"industry", roles:[
+    ["ey","Energy Leader","executive","v"],
+    ]},
+  {id:"abdullah_al_fozan", n:"Abdullah Al Fozan", t:2, p:60, s:"industry", roles:[
+    ["kpmg","Chief Executive Officer - KPMG Middle East","executive","v"],
+    ]},
+  {id:"islam_al_bayaa", n:"Islam Al Bayaa", t:2, p:60, s:"industry", roles:[
+    ["kpmg","Incoming Chief Executive Officer - KPMG Middle East (effective 1 Oct 2026)","executive","v"],
+    ]},
+  {id:"rasheed_al_qenae", n:"Rasheed Al-Qenae", t:2, p:62, s:"industry", roles:[
+    ["kpmg","Chairman - KPMG Middle East, South Asia and Caspian (MESAC) region","board","v"],
+    ]},
+  {id:"emilio_pera", n:"Emilio Pera", t:2, p:60, s:"industry", roles:[
+    ["kpmg","Chief Executive Officer - KPMG Lower Gulf","executive","v"],
+    ]},
+  {id:"damian_grice", n:"Damian Grice", t:2, p:58, s:"industry", roles:[
+    ["kpmg","Chief Operating Officer - KPMG Lower Gulf","executive","ns"],
+    ]},
+  {id:"mutasem_dajani", n:"Mutasem Dajani", t:2, p:60, s:"industry", roles:[
+    ["deloitte","Chief Executive Officer - Deloitte Middle East","executive","v"],
+    ]},
+  {id:"rana_ghandour_salhab", n:"Rana Ghandour Salhab", t:2, p:58, s:"industry", roles:[
+    ["deloitte","Senior Partner; Managing Partner, People and Purpose; Executive Committee member","executive","v"],
+    ]},
+  {id:"elias_ma_ayeh", n:"Elias Ma'ayeh", t:2, p:58, s:"industry", roles:[
+    ["deloitte","Risk, Regulatory & Forensic Leader","executive","v"],
+    ]},
+  {id:"hani_khoury", n:"Hani Khoury", t:2, p:58, s:"industry", roles:[
+    ["deloitte","Managing Partner, Risk Advisory; Executive Committee member","executive","v"],
+    ]},
+  {id:"akbar_ahmad", n:"Akbar Ahmad", t:2, p:58, s:"industry", roles:[
+    ["deloitte","Audit & Assurance Leader","executive","ns"],
+    ]},
+  {id:"muhammad_bahemia", n:"Muhammad Bahemia", t:2, p:58, s:"industry", roles:[
+    ["deloitte","Tax Leader","executive","ns"],
+    ]},
+  {id:"faisal_al_hammadi", n:"Faisal Al Hammadi", t:2, p:62, s:"comm", roles:[
+    ["twofour54","Chairman","board","v"],
+    ]},
+  {id:"maha_al_jneibi", n:"Maha Al Jneibi", t:2, p:58, s:"comm", roles:[
+    ["twofour54","Executive Director, Real Estate Development","executive","v"],
     ]},
 ];
 

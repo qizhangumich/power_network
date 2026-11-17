@@ -216,6 +216,7 @@ const INSTITUTIONS = [
   {id:"fujairah_investment", n:"Fujairah Investment Company", s:"finance", t:3, p:54, short:"Fujairah Investment Co"},
   {id:"sharjah_art_fdn", n:"Sharjah Art Foundation", s:"gov", t:2, p:56, short:"Sharjah Art Fdn"},
   {id:"beeah_tandeef", n:"BEEAH Tandeef", s:"industry", t:3, p:54, short:"BEEAH Tandeef"},
+  {id:"uaq_fin_admin", n:"Umm Al Quwain Department of Finance and Administrative Affairs", s:"gov", t:2, p:54, short:"UAQ Fin & Admin"},
 ];
 
 const PEOPLE = [
@@ -456,6 +457,7 @@ const PEOPLE = [
   {id:"feras_al_naimi", n:"Feras Al Naimi", t:2, p:60, s:"realestate", roles:[
     ["arada","Chief Executive Officer - Nexus","executive","v"]]},
   {id:"h_h_sheikh", n:"H.H. Sheikh Rashid bin Humaid bin Rashid Al Nuaimi", t:2, p:62, s:"finance", roles:[
+    ["city_univ_ajman","Chairman of the Board of Trustees","board","v"],
     ["ajman_municipality","Chairman","board","v"],
     ["ajmgov","Executive Council Member; Chairman of Municipality and Planning Department","board","v"],
     ["ajman_properties","Chairman","board","v"],
@@ -464,6 +466,7 @@ const PEOPLE = [
   {id:"abdullah_mohammed_hassan", n:"Abdullah Mohammed Hassan Mohammed Alhosani", t:2, p:52, s:"finance", roles:[
     ["ajmanbank","Board Member","board","v"]]},
   {id:"mahmood_khaleel_ahmed", n:"Mahmood Khaleel Ahmed Alsayed Alhashmi", t:2, p:52, s:"finance", roles:[
+    ["ajman_tourism","Director-General","executive","v"],
     ["ajmanbank","Board Member","board","v"]]},
   {id:"faisal_hassan_ibrahim", n:"Faisal Hassan Ibrahim Galadari", t:2, p:52, s:"finance", roles:[
     ["ajmanbank","Board Member","board","v"]]},
@@ -724,6 +727,7 @@ const PEOPLE = [
   {id:"sheikh_saqr_bin", n:"Sheikh Saqr bin Omar Al Qasimi", t:2, p:60, s:"realestate", roles:[
     ["marjan","Chief Executive Officer of Marjan Development","executive","v"]]},
   {id:"alison_grinnell", n:"Alison Grinnell", t:2, p:60, s:"realestate", roles:[
+    ["rak_hospitality","Chief Executive Officer","executive","ns"],
     ["marjan","Chief Executive Officer of Marjan Hospitality","executive","v"]]},
   {id:"donald_bremner", n:"Donald Bremner", t:2, p:60, s:"realestate", roles:[
     ["marjan","Chief Executive Officer of Marjan Lifestyle","executive","v"]]},
@@ -752,10 +756,12 @@ const PEOPLE = [
     ["hfza","Director","executive","v"],
     ["saif_zone","Director","executive","v"]]},
   {id:"ahmed_bin_humaid", n:"Ahmed bin Humaid Al Nuaimi", t:2, p:62, s:"gov", roles:[
+    ["amcfz","Chairman","board","v"],
     ["ajman_ded","Chairman, Ajman Department of Economic Development","board","v"],
     ["ajmgov","Vice Chairman of the Executive Council","executive","v"],
     ["afz","Chairman","board","v"]]},
   {id:"ismail_al_naqi", n:"Ismail Al Naqi", t:2, p:58, s:"gov", roles:[
+    ["amcfz","Director General","executive","v"],
     ["afz","Director General","executive","v"]]},
   {id:"roy_cummins", n:"Roy Cummins", t:2, p:60, s:"industry", roles:[
     ["rak_ports","Chief Executive Officer","executive","v"]]},
@@ -778,7 +784,7 @@ const PEOPLE = [
   {id:"waleed_abdelrahman_bukhatir", n:"Waleed AbdelRahman BuKhatir", t:2, p:62, s:"gov", roles:[
     ["scci","Second Vice Chairman","board","v"]]},
   {id:"mohammed_ahmed_amin", n:"Mohammed Ahmed Amin Al Awadi", t:2, p:58, s:"gov", roles:[
-    ["scci","Director-General","executive","ns"]]},
+    ["scci","Director-General","executive","v"]]},
   {id:"phillipa_harrison", n:"Phillipa Harrison", t:2, p:60, s:"gov", roles:[
     ["raktda","Chief Executive Officer","executive","v"]]},
   {id:"brent_anderson", n:"Brent Anderson", t:2, p:58, s:"gov", roles:[
@@ -942,6 +948,7 @@ const PEOPLE = [
   {id:"mohd_hamdi_abdul", n:"Mohd Hamdi Abdul Shukor", t:2, p:52, s:"education", roles:[
     ["university_of_sharjah","Board of Trustees Member","board","v"]]},
   {id:"sheikh_abdulaziz_bin", n:"Sheikh Abdulaziz bin Humaid Al Nuaimi", t:2, p:52, s:"gov", roles:[
+    ["ajman_tourism","Chairman","board","v"],
     ["ajman_land_re","Chairman","board","v"],
     ["ajmgov","Executive Council Member; Head of Department of Land & Real Estate Regulation","board","v"]]},
   {id:"ahmed_bin_rakkad", n:"Ahmed bin Rakkad Al Ameri", t:2, p:60, s:"comm", roles:[
@@ -1403,6 +1410,7 @@ const PEOPLE = [
   {id:"abdulaziz_al_mheiri", n:"Abdulaziz Al Mheiri", t:2, p:62, s:"health", roles:[
     ["sharjah_healthcare_city","Chairman","board","v"]]},
   {id:"sheikh_mohammed_bin_b_b_b_b", n:"Sheikh Mohammed bin Abdullah Al Nuaimi", t:2, p:62, s:"gov", roles:[
+    ["city_univ_ajman","Vice Chairman of the Board of Trustees","board","ns"],
     ["ajman_ports_customs","Chairman","board","v"]]},
   {id:"sheikh_sultan_bin_b_b_b", n:"Sheikh Sultan bin Mohammed Al Nuaimi", t:2, p:58, s:"gov", roles:[
     ["ajman_ports_customs","Director-General","executive","v"]]},
@@ -1626,6 +1634,30 @@ const PEOPLE = [
     ["sgmb","Director","executive","v"]]},
   {id:"abdulaziz_ahmed_al", n:"Abdulaziz Ahmed Al Shamsi", t:2, p:58, s:"gov", roles:[
     ["srerd","Director General","executive","v"]]},
+  {id:"ahmed_al_shehhi", n:"Ahmed Al Shehhi", t:2, p:58, s:"gov", roles:[
+    ["rak_awqaf_authority","Director of the Ras Al Khaimah Branch","executive","ns"]]},
+  {id:"mohammed_abdullah_al", n:"Mohammed Abdullah Al Murr Al Naqbi", t:2, p:62, s:"gov", roles:[
+    ["khorfakkan_council","Chairman","board","v"]]},
+  {id:"ali_abdullah_makhlouf", n:"Ali Abdullah Makhlouf Al Naqbi", t:2, p:52, s:"gov", roles:[
+    ["khorfakkan_council","Member","board","v"]]},
+  {id:"rashid_khamis_mohammed", n:"Rashid Khamis Mohammed Rashid Al Naqbi", t:2, p:52, s:"gov", roles:[
+    ["khorfakkan_council","Member","board","v"]]},
+  {id:"abdul_wahab_al_b", n:"Abdul Wahab Al Hammadi", t:2, p:62, s:"gov", roles:[
+    ["khorfakkan_council","Vice Chairman","board","v"]]},
+  {id:"david_hadley", n:"David Hadley", t:2, p:60, s:"health", roles:[
+    ["al_zahra_hospital","Group Chief Executive Officer (NMC Healthcare, parent group)","executive","v"]]},
+  {id:"ashishkumar_jaiswal", n:"Ashishkumar Jaiswal", t:2, p:58, s:"health", roles:[
+    ["al_zahra_hospital","Senior Vice President, Operations - Sharjah & Northern Emirates Region (NMC Healthcare)","executive","v"]]},
+  {id:"imran_khan", n:"Imran Khan", t:2, p:58, s:"education", roles:[
+    ["city_univ_ajman","President","executive","v"]]},
+  {id:"ali_razooki", n:"Ali Razooki", t:2, p:58, s:"education", roles:[
+    ["city_univ_ajman","Professor / Dean","executive","v"]]},
+  {id:"ahmed_hassan_fouly", n:"Ahmed Hassan Fouly", t:2, p:58, s:"education", roles:[
+    ["city_univ_ajman","Acting Dean of the College of Law","executive","v"]]},
+  {id:"babeet_gupta", n:"Babeet Gupta", t:2, p:58, s:"education", roles:[
+    ["city_univ_ajman","Dean of the College of Business","executive","v"]]},
+  {id:"yassen_alfoteih", n:"Yassen Alfoteih", t:2, p:58, s:"education", roles:[
+    ["city_univ_ajman","Dean of the College of Humanities","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1881,4 +1913,5 @@ const AKA = {
   arab_heavy_industries:["AHI"],
   sharjah_art_fdn:["SAF"],
   beeah_tandeef:["Tandeef"],
+  uaq_fin_admin:["FAD"],
 };

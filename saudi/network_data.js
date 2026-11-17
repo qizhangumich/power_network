@@ -1722,6 +1722,7 @@ const PEOPLE = [
   {id:"eng_khamis_saeed", n:"Eng. Khamis Saeed Al-Dossary", t:2, p:46, s:"materials", roles:[
     ["lst_2350","General Manager – Maintenance","executive","v"]]},
   {id:"dr_muhammad_bin", n:"Dr. Muhammad bin Nasser bin Abdullah Aldawood", t:2, p:62, s:"energy", roles:[
+    ["dussur","Chairman of the Board","board","v"],
     ["manara_minerals","Non-Executive Director","board","v"],
     ["alat","Acting Chief Executive Officer","executive","v"],
     ["lst_2381","Chairman","board","v"]]},
@@ -1906,6 +1907,7 @@ const PEOPLE = [
     ["new_murabba","Board Member - Independent","board","v"],
     ["riyadhair","Board Member","board","v"]]},
   {id:"raid_abdullah_ismail", n:"Raid Abdullah Ismail", t:2, p:52, s:"industry", roles:[
+    ["tahakom","Chairman of the Board","board","v"],
     ["nupco","Board Member","board","ns"],
     ["thc","Chairman of the Board","board","ns"],
     ["lst_7203","Vice Chairman","board","ns"],
@@ -3212,6 +3214,7 @@ const PEOPLE = [
   {id:"alessandro_moretti", n:"Alessandro Moretti", t:2, p:52, s:"utilities", roles:[
     ["badeel","Board Member","board","v"]]},
   {id:"mansour_al_qarawi", n:"Mansour Al-Qarawi", t:2, p:52, s:"utilities", roles:[
+    ["dussur","Chief Executive Officer","executive","v"],
     ["badeel","Board Member","board","v"]]},
   {id:"sultan_al_homaidhi", n:"Sultan Al-Homaidhi", t:2, p:52, s:"utilities", roles:[
     ["badeel","Board Member","board","v"]]},
@@ -3300,6 +3303,7 @@ const PEOPLE = [
   {id:"waleed_alballaa", n:"Waleed Alballaa", t:2, p:52, s:"tech", roles:[
     ["sirar_by_stc","Board Member","board","v"]]},
   {id:"basem_alsallom", n:"Basem AlSallom", t:2, p:52, s:"tech", roles:[
+    ["d360_bank","Board Member","board","v"],
     ["sirar_by_stc","Board Member","board","v"]]},
   {id:"yasser_alswailem", n:"Yasser Alswailem", t:2, p:60, s:"tech", roles:[
     ["sirar_by_stc","Chief Executive Officer","executive","v"]]},
@@ -4077,6 +4081,50 @@ const PEOPLE = [
     ["gaft","Deputy Governor for International Organizations and Agreements","executive","v"]]},
   {id:"abdulaziz_bin_abdullah_b", n:"Abdulaziz bin Abdullah Al-Aqeel", t:2, p:58, s:"gov", roles:[
     ["gaft","Deputy Governor for Shared Services","executive","v"]]},
+  {id:"othman_aldahash", n:"Othman Aldahash", t:2, p:60, s:"tech", roles:[
+    ["iot_squared","Chief Executive Officer","executive","ns"]]},
+  {id:"faisal_al_salloum", n:"Faisal Al Salloum", t:2, p:52, s:"industry", roles:[
+    ["dussur","Board Member","board","v"]]},
+  {id:"dimitar_velikov", n:"Dimitar Velikov", t:2, p:52, s:"industry", roles:[
+    ["dussur","Board Member","board","v"]]},
+  {id:"mario_salameh", n:"Mario Salameh", t:2, p:52, s:"industry", roles:[
+    ["dussur","Board Member","board","v"]]},
+  {id:"abdallah_al_thaaly", n:"Abdallah Al Thaaly", t:2, p:52, s:"industry", roles:[
+    ["dussur","Board Member","board","v"]]},
+  {id:"michael_queen", n:"Michael Queen", t:2, p:52, s:"industry", roles:[
+    ["dussur","Board Member","board","v"]]},
+  {id:"mohanad_alamdar", n:"Mohanad Alamdar", t:2, p:52, s:"industry", roles:[
+    ["dussur","Board Member","board","v"]]},
+  {id:"awwad_al_ahmadi", n:"Awwad Al Ahmadi", t:2, p:52, s:"industry", roles:[
+    ["dussur","Board Member","board","v"]]},
+  {id:"jihad_hakamy", n:"Jihad Hakamy", t:2, p:52, s:"industry", roles:[
+    ["dussur","Board Member","board","v"]]},
+  {id:"markus_solibieda", n:"Markus Solibieda", t:2, p:58, s:"industry", roles:[
+    ["dussur","Chief Investment Officer","executive","v"]]},
+  {id:"mohammad_bakr_gazzaz", n:"Mohammad Bakr Gazzaz", t:2, p:60, s:"utilities", roles:[
+    ["eviq","Chief Executive Officer","executive","v"]]},
+  {id:"marcos_dussoni", n:"Marcos Dussoni", t:2, p:58, s:"utilities", roles:[
+    ["eviq","Chief Financial Officer","executive","v"]]},
+  {id:"ulf_schulte", n:"Ulf Schulte", t:2, p:58, s:"utilities", roles:[
+    ["eviq","Chief Operating Officer","executive","v"]]},
+  {id:"amjad_fadil", n:"Amjad Fadil", t:2, p:58, s:"utilities", roles:[
+    ["eviq","Chief Commercial Officer","executive","v"]]},
+  {id:"omar_mazharullah", n:"Omar Mazharullah", t:2, p:58, s:"utilities", roles:[
+    ["eviq","Chief of Staff","executive","v"]]},
+  {id:"luca_cozza", n:"Luca Cozza", t:2, p:58, s:"utilities", roles:[
+    ["eviq","Chief Technology Officer","executive","v"]]},
+  {id:"taha_a_al", n:"Taha A. Al-Kuwaiz", t:2, p:62, s:"finance", roles:[
+    ["d360_bank","Chairman of the Board of Directors","board","v"]]},
+  {id:"nouf_aljoaid", n:"Nouf Aljoaid", t:2, p:52, s:"finance", roles:[
+    ["d360_bank","Board Member","board","v"]]},
+  {id:"tim_thom", n:"Tim Thom", t:2, p:52, s:"finance", roles:[
+    ["d360_bank","Board Member","board","v"]]},
+  {id:"mudassir_sheikha", n:"Mudassir Sheikha", t:2, p:52, s:"finance", roles:[
+    ["d360_bank","Board Member","board","v"]]},
+  {id:"ezequiel_szafir", n:"Ezequiel Szafir", t:2, p:60, s:"finance", roles:[
+    ["d360_bank","Chief Executive Officer","executive","v"]]},
+  {id:"saleh_al_ansari", n:"Saleh Al Ansari", t:2, p:58, s:"materials", roles:[
+    ["hadeed","President","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

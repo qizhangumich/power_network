@@ -262,6 +262,9 @@ const INSTITUTIONS = [
   {id:"cgb", n:"Civil Service and Government Development Bureau", s:"gov", t:2, p:58, short:"CGB"},
   {id:"assets", n:"Assets Group", s:"realestate", t:3, p:60, short:"Assets Group"},
   {id:"qatarenergy_trading", n:"QatarEnergy Trading LLC", s:"energy", t:2, p:60, short:"QatarEnergy Trading"},
+  {id:"msdf", n:"Ministry of Social Development and Family", s:"gov", t:1, p:66, short:"MSDF"},
+  {id:"msy", n:"Ministry of Sports and Youth", s:"gov", t:1, p:62, short:"MSY"},
+  {id:"cabinet_secretariat", n:"General Secretariat of the Council of Ministers", s:"gov", t:1, p:70, short:"Cabinet Secretariat"},
 ];
 
 const PEOPLE = [
@@ -561,6 +564,7 @@ const PEOPLE = [
     ["muntajat","Chairman","board","v"],
     ["industriesqatar","Board Member","board","v"]]},
   {id:"abdulla_ahmad_al", n:"Abdulla Ahmad Al-Hussaini", t:2, p:52, s:"materials", roles:[
+    ["qatarenergy_trading","Chairman of the Board of Directors","board","v"],
     ["qelng","Executive Vice President, Marketing","executive","v"],
     ["industriesqatar","Board Member","board","v"]]},
   {id:"ahmed_helal_al", n:"Ahmed Helal Al-Mohannadi", t:2, p:52, s:"materials", roles:[
@@ -1060,6 +1064,7 @@ const PEOPLE = [
   {id:"jassim_mohammed_hussain", n:"Jassim Mohammed Hussain Al-Marzouqi", t:2, p:62, s:"materials", roles:[
     ["lst_mphc","Vice Chairman","board","v"]]},
   {id:"thani_bin_thamer", n:"Thani bin Thamer bin Mohammed Al-Thani", t:2, p:52, s:"materials", roles:[
+    ["qafac","Chairman","board","v"],
     ["lst_mphc","Board Member","board","v"]]},
   {id:"khalid_sultan_al", n:"Khalid Sultan Al-Kuwari", t:2, p:52, s:"materials", roles:[
     ["q_chem","Chief Executive Officer","executive","v"],
@@ -1470,6 +1475,7 @@ const PEOPLE = [
   {id:"nawaf_jassim_jaidah", n:"Nawaf Jassim Jaidah", t:2, p:52, s:"conglomerate", roles:[
     ["jaidah","Board Member","board","ns"]]},
   {id:"khalid_bin_khalifa_b", n:"Khalid bin Khalifa Al-Thani", t:2, p:60, s:"energy", roles:[
+    ["laffan_refinery","Vice Chairman and Chief Executive Officer","executive","ns"],
     ["lst_giss","Chairman","board","v"],
     ["qelng","Chief Executive Officer (until Dec 2025)","executive","v","former:until Dec 2025"]]},
   {id:"sheikh_faisal_bin", n:"Sheikh Faisal bin Thani bin Faisal Al Thani", t:2, p:58, s:"gov", roles:[
@@ -2300,6 +2306,7 @@ const PEOPLE = [
   {id:"mohd_al_hilal", n:"Mohd Al Hilal", t:2, p:58, s:"industry", roles:[
     ["gulf_helicopters","Senior Executive (exact title unconfirmed - reported elsewhere as Acting CEO/COO)","executive","ns"]]},
   {id:"khalid_bin_thani_b", n:"Khalid bin Thani Al Thani", t:2, p:62, s:"comm", roles:[
+    ["qacc","Chairman","board","ns"],
     ["dar_al_sharq","Chairman of the Board of Directors","board","ns"]]},
   {id:"abdul_latif_abdullah", n:"Abdul Latif Abdullah Al Mahmoud", t:2, p:60, s:"comm", roles:[
     ["dar_al_sharq","Chief Executive Officer","executive","ns"]]},
@@ -2555,6 +2562,12 @@ const PEOPLE = [
     ["qfcra","Chief Financial Officer and Chief Operating Officer","executive","v"]]},
   {id:"farah_abdulrahman_al", n:"Farah Abdulrahman Al Muftah", t:2, p:60, s:"gov", roles:[
     ["qfcra","Managing Director, Policy, Legal and Enforcement","executive","v"]]},
+  {id:"sascha_von_wolfersdorf", n:"Sascha Von Wolfersdorf", t:2, p:58, s:"industry", roles:[
+    ["qacc","Catering Services Acting Senior Vice President","executive","v"]]},
+  {id:"rashid_mohd_al", n:"Rashid Mohd Al-Fehaidi", t:2, p:62, s:"materials", roles:[
+    ["qafac","Vice Chairman","board","v"]]},
+  {id:"abdulaziz_khalil_al", n:"Abdulaziz Khalil Al-Meer", t:2, p:52, s:"materials", roles:[
+    ["qafac","Director","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2818,4 +2831,5 @@ const AKA = {
   al_jazeera_finance:["Al Jazeera Finance Tamweel"],
   cgb:["CSGDB"],
   qatarenergy_trading:["QP Trading"],
+  cabinet_secretariat:["GSCM","Cabinet's General Secretariat"],
 };
