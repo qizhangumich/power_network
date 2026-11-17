@@ -1,0 +1,5 @@
+# Sidley Represents Mubadala Capital in Its Strategic MinorityInvestment in LSV Advisors
+source: Legal Desire
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxOR3FqQllMamNiLWxBNmlVY0FWMWt4d2xZV1QtalE1dVhVTG9kSU92Nlcyc3p6MG40bVAwS3JMd1ZtQnlkc09yR19YUEYwNWJkRUQtblZCS0VYenltbHdWai1fUk1iS3dLdjhpT1ZRd1JEX1hodnZkR0w2eVhqRUQyOGFRaW5QOURqQWpnZ1Yzek5KVXhCQ0hyY2RuOVdGdVZubGxfSWhFLVlNQWNHX0k0aQ?oc=5
+
+Sidley Represents Mubadala Capital in Its Strategic MinorityInvestment in LSV Advisors    Legal Desire

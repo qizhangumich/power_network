@@ -1,0 +1,5 @@
+# Mubadala Investment Co Pjsc: Change in Holdin
+source: Moomoo
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxNTXRBUmUzM0h1cEFacDFHMm5JSy1DNVBXLXVsN3ZSdDVNUWpkQVVBOEJ0QTdzVnBkVFZJdjNDaU5jTnZsRjJxcFo1UFZpTm5qYU9iOHFEYWtsZlFSMXdFMXJyelpQRTlNc0NIQzZ4SWZHZ0paRnVsRU8xc0Z3bVRlNnRzWFhLekdWZXBJRHJxQ0Ztd09QeHZpRkN3N2pockZqU21R?oc=5
+
+Mubadala Investment Co Pjsc: Change in Holdin    Moomoo

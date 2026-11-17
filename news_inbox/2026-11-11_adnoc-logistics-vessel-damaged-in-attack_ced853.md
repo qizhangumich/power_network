@@ -1,0 +1,5 @@
+# ADNOC Logistics vessel damaged in attack in UAE territorial waters
+source: Logistics Middle East
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZVkzNG9GT1FRZ2h6T1p1OEEwOU1xdi1hWFp3aFI4eGdFMUxfVmQ2ZjE5YnZBNHQzSUZzaTRoSlowSGphRzRBM2F1SkYyeXBRVWNzcVEyUFZ6N2NiYzN3VnVwRkRkZTdBX0k2V1BXRE1GczVGWkZIV1pPWTNMakpFZERFTURoeDFRUDNFRjdDdzhvLU5GN0R6cFpJazhwWDRKUHE0WFFMeXBhVXc?oc=5
+
+ADNOC Logistics vessel damaged in attack in UAE territorial waters    Logistics Middle East

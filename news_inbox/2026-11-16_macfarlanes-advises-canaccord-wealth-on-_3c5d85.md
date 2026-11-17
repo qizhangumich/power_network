@@ -1,0 +1,5 @@
+# Macfarlanes advises Canaccord Wealth on its £1.17bn sale to Centerbridge and Mubadala
+source: Macfarlanes
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdWwtUjVpUWV5SDgtOFh4UmMwZDgxN21OQzRldkxEcEN2VjNTVmJIaWZsb251dVR4Mm5SWk9ibm5nQmhmZ1Z2LW1kLXZ6UW10aENaV2NBOTBPcTBqYkp3QXNKWE16MmRjQ0RvUTJ5SVo0QmxKT1IyNm01OXR5QVdJWEh2MjhfNFI3YkdyRGZJZVNVOERaSlNYZFdoSXhNZlNNVVJ3bmFoN2d3V21kQ2RSNlhidU5VZU1pVjkwbDNXLWVSVTg?oc=5
+
+Macfarlanes advises Canaccord Wealth on its £1.17bn sale to Centerbridge and Mubadala    Macfarlanes
