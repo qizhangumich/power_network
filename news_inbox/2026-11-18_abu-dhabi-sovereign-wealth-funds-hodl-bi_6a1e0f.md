@@ -1,0 +1,5 @@
+# Abu Dhabi Sovereign Wealth Funds HODL Bitcoin, Disclose Combined IBIT Holdings of Over $1 Billion in Q3
+source: Benzinga
+url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxOM2hSRkxvU0lObHlNLUR6eXl5ZDduaW1lYlFrMkZYUFRRR3g1SVBTSDhvS21jc1FEWEhUTWRxZkJjOEVzcmtsa2pvMkQ5MFhzUDNjcVlGbUtJZ1o0cVVVQUlxS2MxVzNzcjlvUDVRSVBGeW1QM1dXTHVNdEx2Ty02QVpoalFQblVJS0tYVFY2SGt5Sm9YVDNETEhGZWItMi1ObXRQeURvX1dXakY0THBNcWU4cy05TUpkajdCSzQ1YmY5ZjZzMDFISS13ZjNpUzZGLW5LRE5FRDBWeWlMMGhjZV93UWplamlDcjR4azNRRkRDcERqQ3c?oc=5
+
+Abu Dhabi Sovereign Wealth Funds HODL Bitcoin, Disclose Combined IBIT Holdings of Over $1 Billion in Q3    Benzinga

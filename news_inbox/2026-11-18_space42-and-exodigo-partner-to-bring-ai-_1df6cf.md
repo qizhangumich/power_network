@@ -1,0 +1,5 @@
+# Space42 and Exodigo partner to bring AI-powered subsurface mapping to the UAE
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxNM2hWME9xRWNMSFhPd0wtalBWZEkyVzk1dTl5THdMREtzanNSQ1lqOFBJWEhtODNBNFNVOVk3UERfMkhKT2c4YzZmWDB4WE1acjJPWmhsaEdYdUlYbV9mcl9NczZzUEN2YV9vMklrNmlmcXJzYnBQeXk0c2M1c3N3a284VFFTUjRRQkYzWl9RenpaYnFrRmVZYXhZNkNtM0otVGd5Z090NHMxYVVFR3NoWUMtSW5tMEhyUGhWbmU2NTZ5SVEtU2hQZFg5VnVPUkhBSU9kZmdB?oc=5
+
+Space42 and Exodigo partner to bring AI-powered subsurface mapping to the UAE    Zawya

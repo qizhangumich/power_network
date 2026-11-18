@@ -1,0 +1,5 @@
+# Space42 and Exodigo partner to map surface and underground infrastructure in UAE
+source: Telecompaper
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWVo4NXpfUVZtV1VlaEltWmNaQ29ILThXSjUweF9ZbkgzSnJWdjFaUnJ4WWhFenliLWdDbjlkeEdRVGFNclM4RkJwWEFxN1EwSHNGSnJqejU1VmRVM3RBTXE2amtyVDI3UVR0ZTRKYTVZSFduTUZvQWRGdlNyMHV3dU1hT3ppZ1NJOGFoQy1Ocm5OR3B6ODJtZlJoZXFhOXpWR2F5VzczbkJjaVFZLUpXT3dKNENXeF9YV3J2bnRnbkY?oc=5
+
+Space42 and Exodigo partner to map surface and underground infrastructure in UAE    Telecompaper

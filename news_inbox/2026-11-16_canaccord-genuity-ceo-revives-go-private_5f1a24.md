@@ -1,0 +1,5 @@
+# Canaccord Genuity CEO revives go-private deal
+source: Investment Executive
+url: https://news.google.com/rss/articles/CBMilwFBVV95cUxOT3Q5b2Vmbkloak9CVVJkWnotZmdwd3RSWm5xRDBHSXBUeGMzVTItTmgwUGFvUldIdGVhSmxENU04bWU1c01mV3YzdkoxclhVQ3NPTTY1akxKNWt2WFpCeFVYUHZQdjQ1U1NNR0doZWJXYkpPc2FnbE43Nkg3TzhIMmFwcS1PY0xheVNWSTBqZkxCa214azE4?oc=5
+
+Canaccord Genuity CEO revives go-private deal    Investment Executive

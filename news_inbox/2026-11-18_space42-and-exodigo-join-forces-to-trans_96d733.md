@@ -1,0 +1,5 @@
+# Space42 and Exodigo join forces to transform UAE subsurface mapping
+source: SatellitePro ME
+url: https://news.google.com/rss/articles/CBMiogFBVV95cUxQT0xhZTlxSGM0S3g2YVhjZFZ0RTBMSEhZQWxTSFBERXhjWlNLODZtRjJ0OWpIbEZ1QThaYktuejNmNXkzSE0xcUstSGZ6a3RvWlpiZEY0eFltZVlUVDI3bVJIYkRTd1NWbm9ocTdkbXJRYUUwc2pkTWNMREV1ZGZMR2hiTnpOdlF6dFh5dTJXRUJSdnAtU2ZyeDZTbmdBM2E1Z0E?oc=5
+
+Space42 and Exodigo join forces to transform UAE subsurface mapping    SatellitePro ME
