@@ -277,6 +277,11 @@ const INSTITUTIONS = [
   {id:"emaar_malls_mgmt", n:"Emaar Malls Management LLC", s:"realestate", t:2, p:60, short:"Emaar Malls Mgmt"},
   {id:"emaar_hospitality", n:"Emaar Hospitality Group LLC", s:"consumer_disc", t:2, p:58, short:"Emaar Hospitality"},
   {id:"dh_community_mgmt", n:"Dubai Holding Community Management", s:"realestate", t:2, p:56, short:"DH Community Mgmt"},
+  {id:"al_ghurair_dev", n:"Al Ghurair Development", s:"realestate", t:2, p:55, short:"Al Ghurair Dev."},
+  {id:"palma", n:"Palma Holding", s:"realestate", t:2, p:54, short:"Palma Holding"},
+  {id:"karma_developers", n:"Karma Developers", s:"realestate", t:2, p:55, short:"Karma Developers"},
+  {id:"vincitore_realty", n:"Vincitore Realty", s:"realestate", t:2, p:52, short:"Vincitore Realty"},
+  {id:"amsa_hospitality", n:"Amsa Hospitality", s:"consumer_disc", t:2, p:52, short:"Amsa Hospitality"},
 ];
 
 const PEOPLE = [
@@ -3076,6 +3081,7 @@ const OWNERSHIP = [
   ["emaar_malls_mgmt","emaar","wholly-owned subsidiary (post-2021 merger of Emaar Malls PJSC)","v"],
   ["emaar_hospitality","emaar","wholly-owned subsidiary","v"],
   ["dh_community_mgmt","dubaiholding","subsidiary (community management division)","v"],
+  ["al_ghurair_dev","alghurair","real estate development arm/subsidiary of Al Ghurair Group","v"],
 ];
 
 const FAMILY = [
@@ -3191,4 +3197,8 @@ const AKA = {
   denizbank:["Deniz Bank"],
   emaar_malls_mgmt:["Emaar Malls"],
   dh_community_mgmt:["DHCM"],
+  al_ghurair_dev:["Al Ghurair Collection"],
+  palma:["Palma Development","Palma Homes Real Estate Development LLC"],
+  karma_developers:["Karma Group"],
+  vincitore_realty:["Vincitore Real Estate Development LLC"],
 };

@@ -191,6 +191,8 @@ abudhabi,nimr_automotive,Nimr Automotive,industry,55,0,pending
 bahrain,shaikh_ibrahim_ctr,Shaikh Ibrahim bin Mohammed Al Khalifa Center for Culture and Research,gov,55,1,pending
 dubai,imtiaz_developments,Imtiaz Developments,realestate,55,1,pending
 dubai,select,Select Group,realestate,55,0,pending
+dubai,al_ghurair_dev,Al Ghurair Development,realestate,55,0,pending
+dubai,karma_developers,Karma Developers,realestate,55,0,pending
 northern,rak_minerals,RAK Minerals and Metals Investments LLC,materials,55,0,pending
 oman,mawarid_green,Mawarid Green Technologies,industry,55,0,pending
 oman,al_nahdha_hospital,Al Nahdha Hospital,health,55,1,pending
@@ -212,10 +214,12 @@ abudhabi,peko,Peko Holdings Limited,tech,54,0,pending
 abudhabi,fabmisr,First Abu Dhabi Bank Misr,finance,54,0,pending
 abudhabi,fab_islamic_fin,First Abu Dhabi Islamic Finance,finance,54,0,pending
 abudhabi,fab_private_bank,FAB Private Bank (Suisse) SA,finance,54,0,pending
+abudhabi,mannesmann_energy,Mannesmann Energy LLC,energy,54,0,pending
 bahrain,gulf_handling,Gulf Handling Company,industry,54,0,pending
 bahrain,aleastur,"Aleastur (Asturiana de Aleaciones, S.A.)",materials,54,0,pending
 bahrain,insead,INSEAD,education,54,0,pending
 bahrain,arc_wh,Arab Regional Centre for World Heritage,gov,54,1,pending
+bahrain,areen_hospitality,Areen Hospitality,consumer_disc,54,0,pending
 dubai,dubai_asset_mgmt,Dubai Holding Asset Management,realestate,54,1,pending
 dubai,dh_entertainment,Dubai Holding Entertainment,consumer_disc,54,1,pending
 dubai,mbr_housing,Mohammed Bin Rashid Housing Establishment,gov,54,1,pending
@@ -237,6 +241,7 @@ dubai,birmingham_dubai,University of Birmingham Dubai,education,54,1,pending
 dubai,bits_pilani_dubai,BITS Pilani Dubai Campus,education,54,1,pending
 dubai,rit_dubai,Rochester Institute of Technology Dubai,education,54,1,pending
 dubai,b_huth,Dubai Public Policy Research Centre,gov,54,0,pending
+dubai,palma,Palma Holding,realestate,54,0,pending
 kuwait,lst_kmefic,Kuwait and Middle East Financial Investment Company K.S.C.P.,finance,54,1,pending
 kuwait,al_sagar,Al Sagar Group,conglomerate,54,1,pending
 kuwait,enertech,EnerTech Holding Company,energy,54,1,pending
@@ -332,6 +337,8 @@ dubai,canadian_univ_dubai,Canadian University Dubai,education,52,0,pending
 dubai,emirates_leisure,Emirates Leisure Retail,consumer_disc,52,0,pending
 dubai,mahe_dubai,Manipal Academy of Higher Education Dubai,education,52,1,pending
 dubai,amity_univ_dubai,Amity University Dubai,education,52,1,pending
+dubai,vincitore_realty,Vincitore Realty,realestate,52,0,pending
+dubai,amsa_hospitality,Amsa Hospitality,consumer_disc,52,0,pending
 kuwait,q8oils,Q8Oils,materials,52,0,pending
 kuwait,al_yaqout,Al Yaqout Group,conglomerate,52,1,pending
 kuwait,ekuity,Ekuity Holding,finance,52,0,pending

@@ -210,6 +210,7 @@ const INSTITUTIONS = [
   {id:"daily_tribune", n:"The Daily Tribune", s:"comm", t:3, p:51, short:"Daily Tribune"},
   {id:"synergy_shared_svcs", n:"Synergy Shared Services Company W.L.L.", s:"industry", t:2, p:56, short:"Synergy Shared Svcs"},
   {id:"singapore_gulf_bank", n:"Singapore Gulf Bank", s:"finance", t:2, p:56, short:"Singapore Gulf Bank"},
+  {id:"areen_hospitality", n:"Areen Hospitality", s:"consumer_disc", t:2, p:54, short:"Areen Hospitality"},
 ];
 
 const PEOPLE = [
