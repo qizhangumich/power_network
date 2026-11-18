@@ -1,0 +1,5 @@
+# Space42 announces new satcoms smartphone
+source: Developing Telecoms
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa1d6elN6S0FPY2t5eFNSV1A4ZFlLOG12NmpOaUZNTGxzeWh5M1FyZlFXNndzQjMyMENTOGNwSTkwWG1LQS05cEtfRGd6NjB0SW9Oa3Z5TlNuYWw3V3gxZ3pGNUtIekd2VUs2NlZHMUEwY3RTd25rdzd3YThseEhlLWVaYU5rUk1xd3JScDR3OHRlR2dNTm81cVlSOWNkdUl2X2tFWUhLdFpKb0ZXQmNxNlRsQXVTdWRrb1JwTGdETmVEdHZrdkNIOHBnZ19kSHVo?oc=5
+
+Space42 announces new satcoms smartphone    Developing Telecoms

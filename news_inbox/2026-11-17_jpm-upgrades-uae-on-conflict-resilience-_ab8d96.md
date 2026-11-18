@@ -1,0 +1,5 @@
+# JPM upgrades UAE on conflict resilience, Türkiye on recovery; cuts Greece
+source: StreetInsider
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcnY1cGt2SXhXakVPTV9YUHZqcjY0eHoyUUJfaHRWNUctZEhSNkM4UzRSTG9VUmJEaGRFTVRJLTNzazZZLTFpbXBBdWt2a1BiMzNFa2ZFbXd3ZmlYT0J0eDNKR0YzdkpZNnhyTkFRcFN3WjRvbGRLYVRvcmRIazVtUGVPbWRnQzV6T3NibWxUYlRCaU80UEpqaTBxVExoTlZzR3p5a3hrWTVQVzVjZlFCRi1FQjViTzNxVlh3MXN6MDUzU0h1Z1dCWkppLWtiWTNmY3c3OVd3?oc=5
+
+JPM upgrades UAE on conflict resilience, Türkiye on recovery; cuts Greece    StreetInsider

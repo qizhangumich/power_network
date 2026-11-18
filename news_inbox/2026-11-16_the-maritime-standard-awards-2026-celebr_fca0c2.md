@@ -1,0 +1,5 @@
+# The Maritime Standard Awards 2026 Celebrates Maritime Excellence in a Landmark Dubai Ceremony
+source: The Maritime Standard
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxNUGFIZlpWXzJhREVxRVpLQ3VtUGJTMmhNYkRSSWNydk10Rmc0YkRWekdlNXZTamRTcjEtNUFRNEpsbFN6M190cGNwWUtNX0plU0s2bFR1MG9CM2twWnVNVGNOaDJ5d0tyYS1qRmtrU2ZKN2w1ZFJzUGxpYl9IeDQtY1BHMUJtRlBib3k5YVVQNHdfbnlrUGdSZ0l4TWg4bXBDcnMzUXJ3UGJ6UkJocFJrMVNCS1AxNWVhR3RZUmN0by1Bd0RNWXZVUkZn?oc=5
+
+The Maritime Standard Awards 2026 Celebrates Maritime Excellence in a Landmark Dubai Ceremony    The Maritime Standard
