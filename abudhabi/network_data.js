@@ -4810,6 +4810,12 @@ const PEOPLE = [
   {id:"maha_al_jneibi", n:"Maha Al Jneibi", t:2, p:58, s:"comm", roles:[
     ["twofour54","Executive Director, Real Estate Development","executive","v"],
     ]},
+  {id:"lee_daniels", n:"Lee Daniels", t:2, p:58, s:"realestate", roles:[
+    ["aldar_estates","Chief Growth and Strategy Officer","executive","ns"],
+    ]},
+  {id:"mohammed_alardhi", n:"Mohammed Alardhi", t:2, p:62, s:"finance", roles:[
+    ["lst_icap","Chairman of the Board of Directors","board","v"],
+    ]},
 ];
 
 const OWNERSHIP = [

@@ -329,13 +329,16 @@ const PEOPLE = [
   {id:"razan_jafar", n:"Razan Jafar", t:2, p:58, s:"energy", roles:[
     ["crescentpet","Director","executive","v"]]},
   {id:"abdulla_al_qadi", n:"Abdulla Al-Qadi", t:2, p:62, s:"energy", roles:[
+    ["pearl_petroleum","Director","board","v"],
     ["crescentpet","Country Chair, Iraq & MD, Diyala & Basra; Executive Director, Business Development","executive","v"]]},
   {id:"mohammad_e_makkawi", n:"Mohammad E. Makkawi", t:2, p:58, s:"energy", roles:[
+    ["pearl_petroleum","Director","board","v"],
     ["gulftainer","Board Member","board","v"],
     ["crescentpet","Executive Director, Projects","executive","v"]]},
   {id:"drazen_petkovich", n:"Drazen Petkovich", t:2, p:58, s:"energy", roles:[
     ["crescentpet","Executive Director, Legal","executive","v"]]},
   {id:"thomas_s_watts", n:"Thomas S. Watts", t:2, p:58, s:"energy", roles:[
+    ["pearl_petroleum","Managing Director","board","v"],
     ["crescentpet","Executive Director, Projects","executive","v"]]},
   {id:"narik_basmajian", n:"Narik Basmajian", t:2, p:58, s:"energy", roles:[
     ["crescentpet","Executive Director, Projects & Commercial","executive","v"]]},
@@ -678,6 +681,7 @@ const PEOPLE = [
   {id:"najla_ahmed_al", n:"Najla Ahmed Al-Midfa", t:2, p:52, s:"energy", roles:[
     ["danagas","Board Member","board","v"]]},
   {id:"omar_ibrahim_al", n:"Omar Ibrahim Al-Mulla", t:2, p:52, s:"energy", roles:[
+    ["sharjah_cement","Board Member","board","v"],
     ["danagas","Board Member","board","v"]]},
   {id:"ahmed_abdulhamid_alahmadi", n:"Ahmed Abdulhamid Alahmadi", t:2, p:52, s:"energy", roles:[
     ["danagas","Board Member","board","v"]]},
@@ -688,10 +692,12 @@ const PEOPLE = [
   {id:"shaheen_mohamed_abdulaziz", n:"Shaheen Mohamed Abdulaziz Rubayea Almheiri", t:2, p:52, s:"energy", roles:[
     ["danagas","Board Member","board","v"]]},
   {id:"richard_hall", n:"Richard Hall", t:2, p:60, s:"energy", roles:[
+    ["pearl_petroleum","Director","board","v"],
     ["danagas","Chief Executive Officer","executive","v"]]},
   {id:"chris_hearne", n:"Chris Hearne", t:2, p:58, s:"energy", roles:[
     ["danagas","Chief Financial Officer","executive","v"]]},
   {id:"neville_henwood", n:"Neville Henwood", t:2, p:58, s:"energy", roles:[
+    ["pearl_petroleum","Director","board","v"],
     ["danagas","Legal and Commercial Director","executive","v"]]},
   {id:"mike_budge", n:"Mike Budge", t:2, p:46, s:"energy", roles:[
     ["danagas","Head of Technical and Operations","executive","v"]]},
@@ -1075,6 +1081,7 @@ const PEOPLE = [
   {id:"awad_husain_alkhalaf", n:"Awad Husain AlKhalaf", t:2, p:58, s:"education", roles:[
     ["al_qasimia_univ","Chancellor","executive","v"]]},
   {id:"mohamed_obaid_al", n:"Mohamed Obaid Al Shamsi", t:2, p:52, s:"education", roles:[
+    ["sharjah_cement","Board Member","board","v"],
     ["invest_bank","Board Member","board","ns"],
     ["al_qasimia_univ","Board of Trustees Member","board","v"]]},
   {id:"aziz_bin_farhan", n:"Aziz Bin Farhan Al Anzi", t:2, p:52, s:"education", roles:[
@@ -1658,6 +1665,30 @@ const PEOPLE = [
     ["city_univ_ajman","Dean of the College of Business","executive","v"]]},
   {id:"yassen_alfoteih", n:"Yassen Alfoteih", t:2, p:58, s:"education", roles:[
     ["city_univ_ajman","Dean of the College of Humanities","executive","v"]]},
+  {id:"ravi_kumar_vennelaganti", n:"Ravi Kumar Vennelaganti", t:2, p:52, s:"energy", roles:[
+    ["pearl_petroleum","Director","board","v"]]},
+  {id:"alen_dzanic", n:"Alen Dzanic", t:2, p:52, s:"energy", roles:[
+    ["pearl_petroleum","Director","board","v"]]},
+  {id:"christopher_james_hearne", n:"Christopher James Hearne", t:2, p:52, s:"energy", roles:[
+    ["pearl_petroleum","Director","board","v"]]},
+  {id:"ujjwal_kumar_dey", n:"Ujjwal Kumar Dey", t:2, p:52, s:"energy", roles:[
+    ["pearl_petroleum","Director","board","v"]]},
+  {id:"othman_mohamed_sharif_b", n:"Othman Mohamed Sharif Abdulla Zaman", t:2, p:62, s:"materials", roles:[
+    ["sharjah_cement","Chairman","board","v"]]},
+  {id:"saeed_abdullah_juma", n:"Saeed Abdullah Juma Al-Mutawa", t:2, p:62, s:"materials", roles:[
+    ["sharjah_cement","Vice Chairman","board","v"]]},
+  {id:"abdul_rahman_mohammed", n:"Abdul Rahman Mohammed Al Owais", t:2, p:52, s:"materials", roles:[
+    ["sharjah_cement","Board Member","board","v"]]},
+  {id:"rashid_abdullah_muhammad", n:"Rashid Abdullah Muhammad Ali", t:2, p:52, s:"materials", roles:[
+    ["sharjah_cement","Board Member","board","v"]]},
+  {id:"nawaf_abdullah_muhammad", n:"Nawaf Abdullah Muhammad Al-Rifaie", t:2, p:52, s:"materials", roles:[
+    ["sharjah_cement","Board Member","board","v"]]},
+  {id:"mohamed_ahmed_omar", n:"Mohamed Ahmed Omar Al-Karbi", t:2, p:52, s:"materials", roles:[
+    ["sharjah_cement","Board Member","board","v"]]},
+  {id:"ghaya_khalid_mohamed", n:"Ghaya Khalid Mohamed Al Khayyal", t:2, p:52, s:"materials", roles:[
+    ["sharjah_cement","Board Member","board","v"]]},
+  {id:"salim_sultan_alowais", n:"Salim Sultan Alowais", t:2, p:58, s:"finance", roles:[
+    ["rak_finance_dept","Director General","executive","v"]]},
 ];
 
 const OWNERSHIP = [

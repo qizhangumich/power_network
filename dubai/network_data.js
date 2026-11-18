@@ -668,10 +668,13 @@ const PEOPLE = [
   {id:"saoud_alshaikh", n:"Saoud Alshaikh", t:2, p:46, s:"realestate", roles:[
     ["emaar","Group Head of Internal Audit","executive","v"]]},
   {id:"mohamed_al_matrooshi", n:"Mohamed Al Matrooshi", t:2, p:46, s:"realestate", roles:[
+    ["emaar_malls_mgmt","Head of Emaar Malls & Entertainment","executive","v"],
     ["emaar","Head of Emaar Malls & Entertainment","executive","v"]]},
   {id:"mohammed_al_sahlawi", n:"Mohammed Al Sahlawi", t:2, p:46, s:"realestate", roles:[
+    ["emaar_malls_mgmt","Head of Finance, Emaar Malls & Entertainment","executive","v"],
     ["emaar","Head of Finance, Emaar Malls Management","executive","v"]]},
   {id:"hakan_keskin", n:"Hakan Keskin", t:2, p:46, s:"realestate", roles:[
+    ["emaar_hospitality","Head of Hospitality","executive","v"],
     ["emaar","Head of Hospitality, Emaar Hospitality Group","executive","v"]]},
   {id:"elie_dibo", n:"Elie Dibo", t:2, p:58, s:"realestate", roles:[
     ["emaar","Chief Financial Officer, Emaar Hospitality Group","executive","v"]]},
@@ -828,6 +831,7 @@ const PEOPLE = [
     ["dh_entertainment","Chief Executive Officer","executive","v"],
     ["dubaiholding","CEO, Dubai Holding Entertainment","executive","v"]]},
   {id:"francis_giani", n:"Francis Giani", t:2, p:58, s:"sovereign", roles:[
+    ["dh_community_mgmt","Chief Executive Officer","executive","v"],
     ["dhre","Chief Executive Officer - Dubai Holding Community Management","executive","v"],
     ["dubaiholding","CEO, Dubai Holding Community Management","executive","v"]]},
   {id:"alex_davies", n:"Alex Davies", t:2, p:60, s:"realestate", roles:[
@@ -1281,6 +1285,7 @@ const PEOPLE = [
   {id:"juan_carlos_sahdala", n:"Juan Carlos Sahdala", t:2, p:58, s:"industry", roles:[
     ["dpworld","Group Chief Planning & Project Officer","executive","v"]]},
   {id:"mohammed_akoojee", n:"Mohammed Akoojee", t:2, p:60, s:"industry", roles:[
+    ["imperial_logistics","Group Chief Executive Officer","executive","v"],
     ["dpworld","CEO & Managing Director, Africa","executive","v"]]},
   {id:"rashid_abdulla", n:"Rashid Abdulla", t:2, p:60, s:"industry", roles:[
     ["dpworld","CEO & Managing Director, Europe","executive","v"]]},
@@ -2917,6 +2922,32 @@ const PEOPLE = [
     ["sarwa","Co-Founder and Chief Marketing Officer","executive","v"]]},
   {id:"jad_sayegh", n:"Jad Sayegh", t:2, p:58, s:"finance", roles:[
     ["sarwa","Co-Founder","executive","v"]]},
+  {id:"farah_taheri", n:"Farah Taheri", t:2, p:46, s:"realestate", roles:[
+    ["emaar_malls_mgmt","Head of Sales, Emaar Malls Management LLC","executive","v"]]},
+  {id:"omar_saouab", n:"Omar Saouab", t:2, p:46, s:"consumer_disc", roles:[
+    ["emaar_hospitality","Head of Operations, Emaar Hospitality Group","executive","v"]]},
+  {id:"rahail_aslam", n:"Rahail Aslam", t:2, p:62, s:"realestate", roles:[
+    ["select","Chairman","board","v"]]},
+  {id:"israr_liaqat", n:"Israr Liaqat", t:2, p:60, s:"realestate", roles:[
+    ["select","Group Chief Executive Officer","executive","v"]]},
+  {id:"georges_el_hachem", n:"Georges El Hachem", t:2, p:58, s:"realestate", roles:[
+    ["select","Commercial Director","executive","v"]]},
+  {id:"waheed_mirza", n:"Waheed Mirza", t:2, p:58, s:"realestate", roles:[
+    ["select","Director, Finance","executive","v"]]},
+  {id:"thomas_main", n:"Thomas Main", t:2, p:58, s:"realestate", roles:[
+    ["select","Director, Project Development","executive","v"]]},
+  {id:"hossam_elsamman", n:"Hossam Elsamman", t:2, p:58, s:"realestate", roles:[
+    ["select","Director, Project Development","executive","v"]]},
+  {id:"manish_pratap", n:"Manish Pratap", t:2, p:46, s:"realestate", roles:[
+    ["select","Head of Customer Care, Operations & Handover","executive","v"]]},
+  {id:"bram_vlaanderen", n:"Bram Vlaanderen", t:2, p:46, s:"realestate", roles:[
+    ["select","Head of Legal","executive","v"]]},
+  {id:"gurvinder_kaur", n:"Gurvinder Kaur", t:2, p:46, s:"realestate", roles:[
+    ["select","Head of Marketing","executive","v"]]},
+  {id:"stephen_allsop", n:"Stephen Allsop", t:2, p:46, s:"realestate", roles:[
+    ["select","Head of UK Development & Assets Management","executive","v"]]},
+  {id:"asad_rehman", n:"Asad Rehman", t:2, p:46, s:"realestate", roles:[
+    ["select","Head of Contracts & Procurement","executive","v"]]},
 ];
 
 const OWNERSHIP = [

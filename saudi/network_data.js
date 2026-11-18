@@ -4125,6 +4125,11 @@ const PEOPLE = [
     ["d360_bank","Chief Executive Officer","executive","v"]]},
   {id:"saleh_al_ansari", n:"Saleh Al Ansari", t:2, p:58, s:"materials", roles:[
     ["hadeed","President","executive","ns"]]},
+  {id:"naif_saleh_alrajhi", n:"Naif Saleh Alrajhi", t:2, p:62, s:"realestate", roles:[
+    ["naif_alrajhi_inv","Chairman","board","ns"],
+    ["naif_alrajhi_inv","Chief Executive Officer","executive","ns"]]},
+  {id:"wongyun_park", n:"Wongyun Park", t:2, p:60, s:"industry", roles:[
+    ["hmmme","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

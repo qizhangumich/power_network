@@ -390,6 +390,7 @@ const PEOPLE = [
     ["moehe_q","Minister of Education & Higher Education","political","v"]],
     note:"Moved from the Foreign Ministry / government spokesperson role to Education & Higher Education in the 12 Nov 2024 cabinet reshuffle."},
   {id:"buthaina", n:"H.E. Buthaina Al Nuaimi", t:1, p:72, s:"gov", roles:[
+    ["msdf","Minister of Social Development and Family","executive","v"],
     ["qatar_social_work","Minister of Social Development and Family and Chairperson of the Board of Directors of the Qatar Foundation for Social Work","board","v"],
     ["cabinet","Minister of Social Development & Family","political","v"]],
     note:"Moved from Education & Higher Education to Social Development & Family in the 12 Nov 2024 cabinet reshuffle."},
@@ -1409,7 +1410,7 @@ const PEOPLE = [
     ["qfba","Chairman of the Board","board","v"],
     ["qfz","Board Member","board","v"],
     ["qfc","Board Member","board","v"],
-    ["qatarrail","Vice Chairman","board","ns"]],
+    ["qatarrail","Vice Chairman","board","v"]],
     note:"Also President of the Civil Service and Government Development Bureau."},
   {id:"abdulla_bin_ali", n:"Abdulla bin Ali Al Thiyab", t:2, p:52, s:"industry", roles:[
     ["qatarrail","Board Member","board","ns"]]},
@@ -2037,6 +2038,7 @@ const PEOPLE = [
   {id:"abdulrahman_abdullah_al_b", n:"Abdulrahman Abdullah Al Dulaimi", t:2, p:58, s:"gov", roles:[
     ["moc_qatar","Director of the Department of Culture and Arts","executive","ns"]]},
   {id:"yasser_abdullah_al", n:"Yasser Abdullah Al Jamal", t:2, p:52, s:"gov", roles:[
+    ["msy","Undersecretary","executive","ns"],
     ["scdl","Member of the Board of Directors","board","ns"]]},
   {id:"mohammed_bin_saleh", n:"Mohammed bin Saleh Al-Sada", t:2, p:62, s:"education", roles:[
     ["al_attiyah_fdn","Board Member","board","v"],
@@ -2568,6 +2570,20 @@ const PEOPLE = [
     ["qafac","Vice Chairman","board","v"]]},
   {id:"abdulaziz_khalil_al", n:"Abdulaziz Khalil Al-Meer", t:2, p:52, s:"materials", roles:[
     ["qafac","Director","board","v"]]},
+  {id:"hamad_bin_ahmed", n:"Hamad bin Ahmed Al-Muhannadi", t:2, p:58, s:"gov", roles:[
+    ["cabinet_secretariat","Secretary-General","executive","v"]]},
+  {id:"ibrahim_bin_ali_b", n:"Ibrahim bin Ali Al-Muhannadi", t:2, p:58, s:"gov", roles:[
+    ["cabinet_secretariat","Minister of State for Council of Ministers Affairs","executive","v"]]},
+  {id:"abdulaziz_mubarak_al", n:"Abdulaziz Mubarak Al-Buainain", t:2, p:58, s:"gov", roles:[
+    ["cabinet_secretariat","Assistant Secretary-General for Legislative Affairs","executive","ns"]]},
+  {id:"khalifa_bin_issa", n:"Khalifa bin Issa bin Abdullah Al Kubaisi", t:2, p:58, s:"gov", roles:[
+    ["msdf","Undersecretary","executive","ns"]]},
+  {id:"fahd_mohammed_al", n:"Fahd Mohammed Al Khayarin", t:2, p:58, s:"gov", roles:[
+    ["msdf","Assistant Undersecretary for Social Development Affairs","executive","ns"]]},
+  {id:"sheikha_bint_jassim", n:"Sheikha bint Jassim Al Thani", t:2, p:58, s:"gov", roles:[
+    ["msdf","Assistant Undersecretary for Family Affairs","executive","ns"]]},
+  {id:"sheikh_hamad_bin_b_b_b", n:"Sheikh Hamad bin Khalifa bin Ahmed Al Thani", t:2, p:58, s:"gov", roles:[
+    ["msy","Minister of Sports and Youth","executive","v"]]},
 ];
 
 const OWNERSHIP = [

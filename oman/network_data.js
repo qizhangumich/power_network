@@ -513,11 +513,11 @@ const PEOPLE = [
     ["oia","Manager - Economic Diversification Investments","executive","v"],
     ["asyad","Board Member","board","v"]]},
   {id:"dr_musallam_mahad", n:"Dr. Musallam Mahad Qatan", t:2, p:62, s:"industry", roles:[
-    ["asyad_ports","Chairman","board","ns"],
+    ["asyad_ports","Chairman","board","v"],
     ["asyad","Chairman","board","v"]]},
   {id:"saif_said_al", n:"Saif Said Al Hamhami", t:2, p:62, s:"industry", roles:[
     ["lst_abrj","Chief Executive Officer","executive","v"],
-    ["asyad_ports","Deputy Chairman","board","ns"],
+    ["asyad_ports","Deputy Chairman","board","v"],
     ["asyad","Deputy Chairman (CEO Abraj Energy Services)","board","v"]]},
   {id:"dr_ismail_ahmed", n:"Dr. Ismail Ahmed Al Balushi", t:2, p:52, s:"industry", roles:[
     ["asyad_ports","Board Member","board","ns"],
@@ -683,6 +683,7 @@ const PEOPLE = [
   {id:"majid_salim_al", n:"Majid Salim Al Fannah Al Araimi", t:2, p:62, s:"industry", roles:[
     ["lst_gecs","Chairman","board","v"]]},
   {id:"mohiuddin_mohamad_ali", n:"Mohiuddin Mohamad Ali", t:2, p:62, s:"industry", roles:[
+    ["natl_univ_sci","Director of the University Executive Board","board","v"],
     ["lst_gecs","Vice Chairman","board","v"]]},
   {id:"shihab_salem_al", n:"Shihab Salem Al Barwani", t:2, p:52, s:"industry", roles:[
     ["lst_gecs","Board Member","board","v"]]},
@@ -1951,6 +1952,14 @@ const PEOPLE = [
     ["raysut_ind_city","Acting Director General, Raysut Industrial City","executive","ns"]]},
   {id:"abdul_qadir_bin", n:"Abdul Qadir bin Salim Al Balushi", t:2, p:58, s:"industry", roles:[
     ["raysut_ind_city","Director General, Raysut Industrial City","executive","ns"]]},
+  {id:"khulood_bint_mohamed", n:"Khulood bint Mohamed Rashid Al Araimi", t:2, p:52, s:"education", roles:[
+    ["natl_univ_sci","Director of the University Executive Board","board","v"]]},
+  {id:"ali_saud_al", n:"Ali Saud Al Bimani", t:2, p:58, s:"education", roles:[
+    ["natl_univ_sci","Vice-Chancellor","executive","v"]]},
+  {id:"sheikh_salim_bin", n:"Sheikh Salim bin Saeed Hamed Al Fannah Al Araimi", t:2, p:58, s:"education", roles:[
+    ["natl_univ_sci","Chancellor","executive","v"]]},
+  {id:"a_nizamuddin_ahmed", n:"A Nizamuddin Ahmed", t:2, p:58, s:"education", roles:[
+    ["natl_univ_sci","Assistant Vice-Chancellor (CE & P)","executive","v"]]},
 ];
 
 const OWNERSHIP = [

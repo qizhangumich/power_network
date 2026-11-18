@@ -935,7 +935,7 @@ const PEOPLE = [
     ["lst_bbk","Chief Private Banking Officer","executive","v"]]},
   {id:"najla_mohammed_alshirawi", n:"Najla Mohammed Alshirawi", t:2, p:62, s:"finance", roles:[
     ["eskan_bank","Board Member","board","v"],
-    ["sico_wealth","Chairperson, SICO Wealth","board","ns"],
+    ["sico_wealth","Chairperson, SICO Wealth","board","v"],
     ["sico_bank","Group Chief Executive Officer","executive","v"],
     ["lst_bcfc","Chairperson","board","v"]]},
   {id:"yaser_abduljalil_alsharifi", n:"Yaser Abduljalil AlSharifi", t:2, p:62, s:"finance", roles:[
@@ -2556,6 +2556,7 @@ const PEOPLE = [
   {id:"hisham_abdulrahman_al", n:"Hisham Abdulrahman Al Raee", t:2, p:60, s:"finance", roles:[
     ["arcapita","Founding Partner & Chief Executive Officer","executive","v"]]},
   {id:"atif_a_abdulmalik", n:"Atif A. Abdulmalik", t:2, p:52, s:"finance", roles:[
+    ["shaikh_ibrahim_ctr","Board Member","board","v"],
     ["arcapita","Board Member (Founding Partner)","board","v"]]},
   {id:"ali_bin_harmal", n:"Ali Bin Harmal Aldhaheri", t:2, p:52, s:"finance", roles:[
     ["arcapita","Board Member","board","v"]]},
@@ -2767,8 +2768,8 @@ const PEOPLE = [
   {id:"yousif_bucheeri", n:"Yousif Bucheeri", t:2, p:60, s:"finance", roles:[
     ["sico_bank","Group Deputy Chief Executive Officer (Sell Side)","executive","ns"]]},
   {id:"masaud_j_hayat", n:"Masaud J. Hayat", t:2, p:62, s:"finance", roles:[
-    ["united_gulf_bank","Chairman","board","ns"]],
-    note:"Last confirmed as UGB Chairman since 2010 per the bank's own 2019 CEO-appointment release; flagged for re-verification given United Gulf Holding's Feb 2025 stake transfer to Burgan Bank K.P.S.C. and the bank's own May 2026 CEO change — a prior 'ns' entry here wrongly named KIPCO Vice Chairman Sheikh Abdullah Nasser Sabah Al-Ahmad Al-Sabah, who chairs UGB's parent United Gulf Holding, not the bank itself."},
+    ["united_gulf_bank","Chairman (2010–2026)","board","v","former:until Sep 2026"]],
+    note:"Chairman since 2010 per the bank's own 2019 CEO-appointment release. Succeeded as UGB Chairman by Sheikh Abdullah Nasser Sabah Al-Ahmad Al-Sabah (Chairman of parent Burgan Bank Group) per the 3 Sep 2026 EGM approving UGB's rebrand to 'Burgan Bank Bahrain', confirming Al-Sabah now holds the subsidiary chairmanship directly (not just the former United Gulf Holding parent chairmanship as previously flagged here)."},
   {id:"samer_alabed", n:"Samer AlAbed", t:2, p:60, s:"finance", roles:[
     ["united_gulf_bank","Chief Executive Officer","executive","v"]]},
   {id:"rehan_ashraf", n:"Rehan Ashraf", t:2, p:58, s:"finance", roles:[
@@ -3787,6 +3788,14 @@ const PEOPLE = [
     ["singapore_gulf_bank","Chief Operating Officer","executive","ns"]]},
   {id:"xiang_bing", n:"Xiang Bing", t:2, p:52, s:"finance", roles:[
     ["singapore_gulf_bank","Independent Director","board","ns"]]},
+  {id:"abdullah_nasser_sabah", n:"Abdullah Nasser Sabah Al Ahmad Al Sabah", t:2, p:62, s:"finance", roles:[
+    ["united_gulf_bank","Chairman","board","v"]]},
+  {id:"khalid_bin_ahmed", n:"Khalid bin Ahmed Al Khalifa", t:2, p:52, s:"gov", roles:[
+    ["shaikh_ibrahim_ctr","Board Member","board","v"]]},
+  {id:"hala_bint_mohammed", n:"Hala bint Mohammed Al Khalifa", t:2, p:52, s:"gov", roles:[
+    ["shaikh_ibrahim_ctr","Board Member","board","v"]]},
+  {id:"ebrahim_khalifa_mattar", n:"Ebrahim Khalifa Mattar", t:2, p:52, s:"gov", roles:[
+    ["shaikh_ibrahim_ctr","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [
