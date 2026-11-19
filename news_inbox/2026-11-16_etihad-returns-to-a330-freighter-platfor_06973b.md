@@ -1,0 +1,5 @@
+# Etihad returns to A330 freighter platform with EFW-converted addition
+source: Cargo Facts
+url: https://news.google.com/rss/articles/CBMirgFBVV95cUxON21paF9SMjFLZm9MS0Z1Smt6eWlBWTVJcHVTcVpiQXREX3VIQ09wRThaQTFITFhZNVFYeTZMZ0JPR1lKUVNlQXlZVWVwNTNlVmlTeGRiOEljOFVoTzVBR0M1eWFyRVdLSVpPTG5WM25rT01KeHNOeWFhVWhLbFhPSGQxRWF2d2wyWDlQT2FkMGdKUlVsNy0tOU90NExLa3ZmSDVmYzBNdjZTR0V1ZFE?oc=5
+
+Etihad returns to A330 freighter platform with EFW-converted addition    Cargo Facts

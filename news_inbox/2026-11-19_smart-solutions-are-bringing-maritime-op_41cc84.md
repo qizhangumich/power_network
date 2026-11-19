@@ -1,0 +1,5 @@
+# Smart solutions are bringing maritime operational efficiencies and cost savings
+source: Energy Connects
+url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNDAxbVNxLV83eWpBclJvTnZCdHJFV1hucWdwSmRnVVAtbHlwUWVDdGFhNW5JUTQ1MVA5N3pDMzZkUk9ZN0hMUDc0aG5sREs4ZVZvUTQ5Wk5jVjM1TlhqZHVxOHpxUDNBTDFXZjBPeDlDRXU1M0c4UXQ3aVc3WnhLVUtKZUl1MVNVRXktSXBMeFpSQ01GaXFiaXpUalYtQXctemxReVF3dVdhMVI2Z09EOC05ZnF5ZXRFRGhYcGVBTFBtR1NZMFRobXIxNXFIWWNCVlJrdTNhcU5tdE52?oc=5
+
+Smart solutions are bringing maritime operational efficiencies and cost savings    Energy Connects

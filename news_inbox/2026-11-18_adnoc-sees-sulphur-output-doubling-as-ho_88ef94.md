@@ -1,0 +1,5 @@
+# Adnoc sees sulphur output doubling as Hormuz disruption sends prices to record highs
+source: The National
+url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxPeHZ1THltMm9scEN0SWxhSmQ0c3FnTmtOZlk3NFZVTU5jR0ZzZ25pZ2ppSmVkS0NXSFEwaDdDS1NvMk80TF85N05tOXN3Xzh3TkhwNXFMRFhCdVFxWmkzMDFyaXllVy16dzRQZ216aGMtZk5vZldwYnRnWXpkamJOQU9CdHo3bGZad012dTUxNzNnXzB2UWZyZmhONjFLYVlUSTA3N2l1YjdvY3h5c1VZTUdtTTV3aGwyem0wdWZCaHc3aWtCV0wyTXFtdUpBQ3YtMXFmNEVJaXRTU1l6?oc=5
+
+Adnoc sees sulphur output doubling as Hormuz disruption sends prices to record highs    The National
