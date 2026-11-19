@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed opens inaugural Frieze Abu Dhabi contemporary art fair
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNzhOVmZRbl9ZQjZPRkhrX3JxYVdUczF1VC00NWFMSC1LcHZjUTI0Q3BRYTl1NUpZWk15a08zd3RNbUNpUW1zWnFaVnZmS1YybGd2U1BXUmRNZlNBYUs1ZkJabmZJMzdkMkprQlJlMmN1TDZjRkZuOUwtQzF2N2JtSnFEOENKQjdsTThmWFFyRU5MLVFRYlJjd2RzZldMeTAzeEZkMjluOUc3LVIwR05tMnpGV2dmVmE1bDNKUlZmcXMyZC1VdmVEMTZWMmdDUXhYX1MtZw?oc=5
+
+Khaled bin Mohamed bin Zayed opens inaugural Frieze Abu Dhabi contemporary art fair    مكتب أبوظبي الإعلامي

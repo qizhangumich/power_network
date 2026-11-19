@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed meets President and CEO of Capital Group
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEVUZTB6Q3FMS1ppNmdfSlhwRkZxaU9icklBdWdCWVV6TjFiaFVsT3hHbVRCRXJLbF9UYWlkbXNpYjNVOUE5eldxVGVDeGJsWHdXaXVTLWZSb2NKelZSd1J6dlQwbVBhQWlTN3FNcENJTUpFQWx1SEFSbkZ6RmFtR1FZdm5jaVppdFM2TE1uTVFQNjBFLUltUlNhV0tRX1Q5enNQVXZXRlY2bkpuSXZsOUVGTDdkOVBJV1lqcGZxaTVyZw?oc=5
+
+Khaled bin Mohamed bin Zayed meets President and CEO of Capital Group    مكتب أبوظبي الإعلامي

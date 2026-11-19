@@ -1,0 +1,5 @@
+# UAE’s first national high-temperature materials laboratory opens
+source: برق الإمارات
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxNUWItN0t3dzlhdTNRZ0hJaTBnb25fYjRKYXZYVHF5RXlsNXhEMGpzZGY2RjQxWG1weE5vMHV4VTBSNGZKT2FPZkFJdXpHdV85M2FoemdSMEdiSjRvR2s0TU1mSzVjdjYzVHBCX3pWWTh6MkJzaGREOHlvZk9sZDZ1YWktLVdfM01BUFJIM3RZaXhwa3VRUXdvZmpsdGs0T1lVdGtZ?oc=5
+
+UAE’s first national high-temperature materials laboratory opens    برق الإمارات

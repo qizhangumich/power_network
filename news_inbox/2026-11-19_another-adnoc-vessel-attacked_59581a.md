@@ -1,0 +1,5 @@
+# Another ADNOC Vessel Attacked
+source: Rigzone
+url: https://news.google.com/rss/articles/CBMijwFBVV95cUxOOHFpeWFCYURsNVhHS2NXLWV0SkxDTmFiOTJxTGhpbHBCS3RMM0xJamJhdlRWQWtjLUNYOUFZQzV6d0IzRWwzajY2SXJjZ1NqT0tmamtWUVJLWk1ZeG5seHhfWFZnT3FtWFRDX2hvWXRGY2VibWNDcXJfbl8yUTZiVUxka21PYmRNU0Q4NlBHRQ?oc=5
+
+Another ADNOC Vessel Attacked    Rigzone

@@ -1,0 +1,5 @@
+# Saudi Arabia flight cancellations: Which airlines have resumed services?
+source: The National
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNU1NibkJYNTVtZktGN1pJU2JyRkV1OGlpLXR0SWJ5WHhGRnZWMTB0TXppc21MazM5X28waGNjWGctc3V1Zi1pTUstNURuTTB6dXpnVEpITlVoS2o3SnB0QWMzcFp1UzdZSmtEb3pTbGw1VFItdVFJVW5fUV9IczYtWUxjLUM2WlFIcktpS0ZiSUxYSzl4ZThzYktCZkZUMHFnMmxsTUc0MEJxSGpCdXkzaVQyeWhaNlNRMVhhVDJ3?oc=5
+
+Saudi Arabia flight cancellations: Which airlines have resumed services?    The National

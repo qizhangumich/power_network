@@ -1,0 +1,5 @@
+# EDGE partners with UAE Space Agency and Orbitworks for Nationwide Space Roadshow
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOHlpSG9rSHZjWUVRMlc2QVFLdy1zM2NkSlVEeFB3bGpsa0p2NkQ2VzFpaGEwaTdKbDNveGkyelJSWXdyUzM5aHdDbTNOUnd5bEltVlpNa0U0X3RuSldOc05PWTN4eWtwbE9BWVkwSVlyZGVHR2ZWNkpxS09sZGNzVlEwVW1pcWdOazlmdGpqQnNUN1FoMng3a3E4bGZIb25sZnRva3JBal9STGVpb2lXcUY1SUlSZ01Jd200NUczS2R4S09fNjJFZnF5TVBUT3Z4M2xNbURmTzJodw?oc=5
+
+EDGE partners with UAE Space Agency and Orbitworks for Nationwide Space Roadshow    Zawya

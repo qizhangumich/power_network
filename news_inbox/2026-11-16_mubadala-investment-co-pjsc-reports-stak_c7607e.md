@@ -1,0 +1,5 @@
+# Mubadala Investment Co PJSC Reports Stake In SpaceX, Pfizer, Adobe
+source: TradingView
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQXy04cGpKZUNMUW1EdG9YbWtnZ2lFWGFhM1hYSEFmOFhWVXUtSlM0OWxGQVgwU21CX0tyZHJmZkNndEhCN0s2X0E5bllIbTlzMVZtNjJZSC00RGktd3BLLTMweWNxa1NjODFQdG5fNzVkbWZrMXBVSWRqaDN4OW5PblJJZHFNQXdEcTVDSzBYc2dmWUtkOFNOeWRNLWNSS3hoZTVZT2hudmg5Wm5vRVNDTXFPYmw0V3ZWWURqd0VfdjllS3g3VGI2djdHOHRqVDQ?oc=5
+
+Mubadala Investment Co PJSC Reports Stake In SpaceX, Pfizer, Adobe    TradingView

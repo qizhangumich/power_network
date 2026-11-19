@@ -1,0 +1,5 @@
+# $8 billion-plus Adnoc Gas project reaches crucial bid milestone
+source: Upstream Online
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNM2FlbmpJTEVCY0lCTURTS0w3NlRJS2c5d29QbmJxRThmT2dnQ2N5RVN3V3RFZTY0Uk52QVpCbHlKOE1IRWdLSkVtbE1sbmg1V3lUR29ENjRjVElib0EzS01EWVhXWGg2MVEyYzdHVkk1enpTbjhQbm1lOGlJS1Nfb3NmMUJzTG5nMG5oLUJ5eGpOUEt1T0JDSEk1QkFzVm5HVG1KbVh0UHVsNmd0R2lyYUViLXdTYTl3QXNxUWdZZU51Zw?oc=5
+
+$8 billion-plus Adnoc Gas project reaches crucial bid milestone    Upstream Online

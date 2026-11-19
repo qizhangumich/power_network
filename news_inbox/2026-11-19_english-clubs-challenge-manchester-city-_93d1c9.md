@@ -1,0 +1,5 @@
+# English clubs challenge Manchester City's sponsors and vow to protect the Premier League
+source: LiveScore
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxPenNCZG53Y1Nta1Q4UmVNMDNzU1BfT0tnNS1ma3plRzdZb1VlVkJoOS05TGo0TVBVNGd6NmdLemlGdGRSX0pYWVczckV0dVpzdG5uNFNQbUVnX05qMXhiRkNGV0ZZdVpYZ2dZODZIZnd1cklRak1EQ0VLb196a1dRMXJDaU5RWDE0VU00eE90RE5vSllzV05LbXZIaWJqMUQxcUk1cXNGRUxqVFVuUk51N2drNTM1M1l0eHZVdFRQSC1oR1hjOUw3QkNHT1lfaW1hWDVLMjJuTVpfTVdla2hPdERGdmZNdw?oc=5
+
+English clubs challenge Manchester City's sponsors and vow to protect the Premier League    LiveScore

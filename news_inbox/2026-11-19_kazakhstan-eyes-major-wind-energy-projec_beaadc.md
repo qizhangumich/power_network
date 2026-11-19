@@ -1,0 +1,5 @@
+# Kazakhstan Eyes Major Wind Energy Projects with TotalEnergies, Masdar
+source: Caspian Post
+url: https://news.google.com/rss/articles/CBMipgFBVV95cUxNNldXdnNKUVd6UWpuWWhwbmFHYkdYYzVxc3FGQXQtV2h1WVRuM1l2aGU4LUVuc3lLQkd5c00zbmhEWC1PeG5iczNVNEt5eW95Uy02RXRCVEhvZHNjakRDMkg5QmVlZ2d3ejBrY2N6Uk9LZTAwMUNwMDE2R2h1ZVNZUjhRSXJkYldydllDdU81dHpMM1FVRzB4QWg5YWhGY3lwMzlpOXFR?oc=5
+
+Kazakhstan Eyes Major Wind Energy Projects with TotalEnergies, Masdar    Caspian Post

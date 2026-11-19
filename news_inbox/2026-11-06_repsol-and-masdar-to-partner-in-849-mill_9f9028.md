@@ -1,0 +1,5 @@
+# Repsol and Masdar to partner in €849 million renewables portfolio in Spain
+source: Repsol
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxOY0JSQkEzb3puVEZ0bU9XNFVGLXdYVmVIbEpOVVM2YkZON19RdUx5cTdnRHVuTk4zM0MzVTVPUTdWbHlUeXVtbXBOTHlPWkxPbGtlQTF3SUtSUWZsTVhEZW1MMTFlTDR0T3RSZVMtYU9vTUlZeU9zSW1BUHpVeThudjAxOThoQjFaanhYVGFkcTVTemttOGVYbDlQWXJsR3g2ajZBLS0xOGZkb3B3MWZ3VHk5d3p6dnEtYlFOc1FkalYwd0d3endMZG5B?oc=5
+
+Repsol and Masdar to partner in €849 million renewables portfolio in Spain    Repsol
