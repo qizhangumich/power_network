@@ -281,7 +281,6 @@ const INSTITUTIONS = [
   {id:"palma", n:"Palma Holding", s:"realestate", t:2, p:54, short:"Palma Holding"},
   {id:"karma_developers", n:"Karma Developers", s:"realestate", t:2, p:55, short:"Karma Developers"},
   {id:"vincitore_realty", n:"Vincitore Realty", s:"realestate", t:2, p:52, short:"Vincitore Realty"},
-  {id:"amsa_hospitality", n:"Amsa Hospitality", s:"consumer_disc", t:2, p:52, short:"Amsa Hospitality"},
 ];
 
 const PEOPLE = [
@@ -2948,6 +2947,22 @@ const PEOPLE = [
     ["select","Head of UK Development & Assets Management","executive","v"]]},
   {id:"asad_rehman", n:"Asad Rehman", t:2, p:46, s:"realestate", roles:[
     ["select","Head of Contracts & Procurement","executive","v"]]},
+  {id:"pradeep_singh", n:"Pradeep Singh", t:2, p:62, s:"realestate", roles:[
+    ["karma_developers","Founder & Chairman","board","ns"]]},
+  {id:"navneet_mandhani", n:"Navneet Mandhani", t:2, p:60, s:"realestate", roles:[
+    ["karma_developers","Founder & CEO","executive","ns"]]},
+  {id:"s_n_saxena", n:"S.N. Saxena", t:2, p:58, s:"realestate", roles:[
+    ["karma_developers","Co-Founder & Architect","executive","ns"]]},
+  {id:"veer_doshi", n:"Veer Doshi", t:2, p:60, s:"realestate", roles:[
+    ["vincitore_realty","CEO and Managing Director","executive","ns"]]},
+  {id:"vijay_c_doshi", n:"Vijay C. Doshi", t:2, p:62, s:"realestate", roles:[
+    ["vincitore_realty","Founder and Chairman","board","ns"]]},
+  {id:"sultan_al_ghurair", n:"Sultan Al Ghurair", t:2, p:60, s:"realestate", roles:[
+    ["al_ghurair_dev","Chief Executive Officer","executive","v"]]},
+  {id:"kareem_derbas", n:"Kareem Derbas", t:2, p:60, s:"realestate", roles:[
+    ["palma","Founder & CEO","executive","ns"]]},
+  {id:"omar_derbas", n:"Omar Derbas", t:2, p:58, s:"realestate", roles:[
+    ["palma","Executive Director","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

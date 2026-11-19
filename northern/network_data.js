@@ -217,6 +217,8 @@ const INSTITUTIONS = [
   {id:"sharjah_art_fdn", n:"Sharjah Art Foundation", s:"gov", t:2, p:56, short:"Sharjah Art Fdn"},
   {id:"beeah_tandeef", n:"BEEAH Tandeef", s:"industry", t:3, p:54, short:"BEEAH Tandeef"},
   {id:"uaq_fin_admin", n:"Umm Al Quwain Department of Finance and Administrative Affairs", s:"gov", t:2, p:54, short:"UAQ Fin & Admin"},
+  {id:"eagle_hills_sharjah", n:"Eagle Hills Sharjah Development LLC", s:"realestate", t:3, p:56, short:"Eagle Hills Sharjah"},
+  {id:"omran_properties", n:"Omran Properties", s:"realestate", t:3, p:54, short:"Omran Properties"},
 ];
 
 const PEOPLE = [
@@ -596,6 +598,7 @@ const PEOPLE = [
   {id:"ahmed_hamad_rashid", n:"Ahmed Hamad Rashid Matar Al Suwaidi", t:2, p:58, s:"gov", roles:[
     ["shj_execco","Assistant Secretary General","executive","v"]]},
   {id:"sheikh_saleh_bin", n:"Sheikh Saleh bin Mohammed bin Hamad Al Sharqi", t:2, p:62, s:"industry", roles:[
+    ["fujairah_investment","Chairman, Fujairah National Group (parent of Fujairah Investment Company)","board","v"],
     ["fujairah_ports","Chairman","board","v"],
     ["fujairah_petroleum","Chairman","board","ns"],
     ["fujairah_die","Chairman","board","ns"],
@@ -744,6 +747,7 @@ const PEOPLE = [
   {id:"sherri_desalvio", n:"Sherri DeSalvio", t:2, p:58, s:"consumer_disc", roles:[
     ["wynnmarjan","Vice President of Pre-Opening Planning and Strategic Initiatives","executive","ns"]]},
   {id:"sheikh_rashid_bin", n:"Sheikh Rashid bin Saud Al Mualla", t:2, p:62, s:"gov", roles:[
+    ["nbq","Chairman","board","ns"],
     ["uaqgov","Crown Prince of Umm Al Quwain and Chairman of the Executive Council","executive","v"]]},
   {id:"sheikh_ahmed_bin_b", n:"Sheikh Ahmed bin Saud bin Rashid Al Mualla", t:2, p:52, s:"gov", roles:[
     ["uaqgov","Deputy Ruler of Umm Al Quwain","board","ns"]]},
@@ -751,6 +755,7 @@ const PEOPLE = [
     ["fujairah_culture_media","Chairman","executive","ns"],
     ["fujgov","Chairman of Fujairah Culture and Media Authority","executive","ns"]]},
   {id:"thumbay_moideen", n:"Thumbay Moideen", t:2, p:58, s:"health", roles:[
+    ["thumbay_fujairah","Founder President, Thumbay Group","executive","ns"],
     ["thumbay_univ_hosp","Founder President","executive","v"],
     ["thumbay","Founder President","executive","v"]]},
   {id:"ghassan_aboud", n:"Ghassan Aboud", t:2, p:62, s:"conglomerate", roles:[
@@ -824,6 +829,7 @@ const PEOPLE = [
   {id:"feroz_allana", n:"Feroz Allana", t:2, p:52, s:"consumer_stap", roles:[
     ["iffco","Supervisory Board Member","board","ns"]]},
   {id:"akbar_moideen_thumbay", n:"Akbar Moideen Thumbay", t:2, p:58, s:"health", roles:[
+    ["thumbay_fujairah","Vice President, Healthcare Division, Thumbay Group","executive","v"],
     ["thumbay_univ_hosp","Vice President of Healthcare Division","executive","v"],
     ["thumbay","Vice President, Healthcare Division","executive","v"]]},
   {id:"akram_moideen_thumbay", n:"Akram Moideen Thumbay", t:2, p:58, s:"health", roles:[
@@ -964,6 +970,7 @@ const PEOPLE = [
   {id:"raja_al_gurg", n:"Raja Al Gurg", t:2, p:62, s:"finance", roles:[
     ["nbf","Deputy Chairperson","board","v"]]},
   {id:"saif_sultan_al", n:"Saif Sultan Al Salami", t:2, p:52, s:"finance", roles:[
+    ["fujairah_investment","Managing Director, Fujairah National Group and Fujairah Investment Company","executive","v"],
     ["fujairah_national","Member of the Board","board","v"],
     ["nbf","Director","board","v"]]},
   {id:"hussain_mirza_al", n:"Hussain Mirza Al Sayegh", t:2, p:52, s:"finance", roles:[
@@ -1349,6 +1356,7 @@ const PEOPLE = [
   {id:"salem_abdulla_salem", n:"Salem Abdulla Salem Alhosani", t:2, p:52, s:"finance", roles:[
     ["al_buhaira_ins","Board Member","board","ns"]]},
   {id:"abdulla_mohamed_salih", n:"Abdulla Mohamed Salih Al Zarooni", t:2, p:52, s:"finance", roles:[
+    ["nbq","Independent Non-Executive Director","board","ns"],
     ["al_buhaira_ins","Board Member","board","ns"]]},
   {id:"noura_mahmoud_mohamed", n:"Noura Mahmoud Mohamed Al-Ali", t:2, p:52, s:"finance", roles:[
     ["al_buhaira_ins","Board Member","board","ns"]]},
@@ -1689,6 +1697,20 @@ const PEOPLE = [
     ["sharjah_cement","Board Member","board","v"]]},
   {id:"salim_sultan_alowais", n:"Salim Sultan Alowais", t:2, p:58, s:"finance", roles:[
     ["rak_finance_dept","Director General","executive","v"]]},
+  {id:"sheikha_hoor_al", n:"Sheikha Hoor Al Qasimi", t:2, p:52, s:"gov", roles:[
+    ["sharjah_art_fdn","President and Director","board","v"]]},
+  {id:"zulekha_daud", n:"Zulekha Daud", t:2, p:62, s:"health", roles:[
+    ["zulekha_hosp_shj","Founder and Chairperson, Zulekha Healthcare Group","board","ns"]]},
+  {id:"zanubia_shams", n:"Zanubia Shams", t:2, p:62, s:"health", roles:[
+    ["zulekha_hosp_shj","Co-Chairperson, Zulekha Healthcare Group","board","ns"]]},
+  {id:"taher_shams", n:"Taher Shams", t:2, p:60, s:"health", roles:[
+    ["zulekha_hosp_shj","Managing Director, Zulekha Healthcare Group","executive","ns"]]},
+  {id:"c_r_sathyanarayanan", n:"C.R. Sathyanarayanan", t:2, p:58, s:"health", roles:[
+    ["thumbay_fujairah","Medical Director and Specialist, Internal Medicine, Thumbay Hospital Fujairah","executive","v"]]},
+  {id:"manish_singhal", n:"Manish Singhal", t:2, p:58, s:"health", roles:[
+    ["thumbay_fujairah","Chief Operating Officer, Thumbay Hospital Fujairah","executive","v"]]},
+  {id:"omar_galadari", n:"Omar Galadari", t:2, p:52, s:"finance", roles:[
+    ["nbq","Director","board","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1802,6 +1824,8 @@ const OWNERSHIP = [
   ["fujairah_investment","fujgov","government-linked investment company (holds 5.22% of National Bank of Fujairah)","v"],
   ["sharjah_art_fdn","shjgov","independent public body (recognized by Emiri Decree; est. 2009)","v"],
   ["beeah_tandeef","beeah","subsidiary (municipal waste collection & city cleaning arm)","v"],
+  ["eagle_hills_sharjah","shurooq","joint venture","v"],
+  ["omran_properties","shurooq","joint venture","v"],
 ];
 
 const FAMILY = [

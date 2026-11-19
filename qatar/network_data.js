@@ -265,6 +265,8 @@ const INSTITUTIONS = [
   {id:"msdf", n:"Ministry of Social Development and Family", s:"gov", t:1, p:66, short:"MSDF"},
   {id:"msy", n:"Ministry of Sports and Youth", s:"gov", t:1, p:62, short:"MSY"},
   {id:"cabinet_secretariat", n:"General Secretariat of the Council of Ministers", s:"gov", t:1, p:70, short:"Cabinet Secretariat"},
+  {id:"qnbfs", n:"QNB Financial Services", s:"finance", t:2, p:58, short:"QNBFS"},
+  {id:"x2_ventures", n:"X2 Ventures", s:"finance", t:3, p:54, short:"X2 Ventures"},
 ];
 
 const PEOPLE = [
@@ -2584,6 +2586,18 @@ const PEOPLE = [
     ["msdf","Assistant Undersecretary for Family Affairs","executive","ns"]]},
   {id:"sheikh_hamad_bin_b_b_b", n:"Sheikh Hamad bin Khalifa bin Ahmed Al Thani", t:2, p:58, s:"gov", roles:[
     ["msy","Minister of Sports and Youth","executive","v"]]},
+  {id:"david_edwards", n:"David Edwards", t:2, p:58, s:"industry", roles:[
+    ["qatar_executive","Executive Vice President, Qatar Executive","executive","v"]]},
+  {id:"roberto_hlaca", n:"Roberto Hlaca", t:2, p:58, s:"industry", roles:[
+    ["qatar_executive","Vice President, Sales, Marketing and Strategy, Qatar Executive","executive","v"]]},
+  {id:"peter_resting", n:"Peter Resting", t:2, p:58, s:"industry", roles:[
+    ["qatar_executive","Vice President, Flight Operations, Qatar Executive","executive","v"]]},
+  {id:"steven_reynolds", n:"Steven Reynolds", t:2, p:58, s:"consumer_disc", roles:[
+    ["discover_qatar","Senior Vice President, Discover Qatar","executive","v"]]},
+  {id:"saeed_al_khayareen", n:"Saeed Al Khayareen", t:2, p:62, s:"finance", roles:[
+    ["al_jazeera_finance","Chairman, Al Jazeera Finance Company","board","v"]]},
+  {id:"amer_mohamed_al", n:"Amer Mohamed Al Jabri", t:2, p:60, s:"finance", roles:[
+    ["al_jazeera_finance","Chief Executive Officer, Al Jazeera Finance Company","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2732,6 +2746,8 @@ const OWNERSHIP = [
   ["al_jazeera_finance","qib","affiliate (30% stake per QIB's own disclosure)","v"],
   ["assets","pih","subsidiary of Power International Holding","v"],
   ["qatarenergy_trading","qatarenergy","wholly-owned subsidiary","v"],
+  ["qnbfs","qnb","subsidiary","v"],
+  ["lst_bema","qib","associate","v"],
 ];
 
 const FAMILY = [

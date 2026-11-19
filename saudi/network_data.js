@@ -592,6 +592,7 @@ const INSTITUTIONS = [
   {id:"bahamdan", n:"Bahamdan Group", s:"conglomerate", t:3, p:54, short:"Bahamdan Group"},
   {id:"sedco_capital", n:"SEDCO Capital Company", s:"finance", t:3, p:55, short:"SEDCO Capital"},
   {id:"arabsat", n:"Arab Satellite Communications Organization", s:"comm", t:2, p:62, short:"Arabsat"},
+  {id:"amsa_hospitality", n:"Amsa Hospitality", s:"consumer_disc", t:2, p:52, short:"Amsa Hospitality"},
 ];
 
 const PEOPLE = [
@@ -1576,6 +1577,7 @@ const PEOPLE = [
   {id:"muath_al_zamil", n:"Muath Al Zamil", t:2, p:52, s:"materials", roles:[
     ["lst_2060","Board Member","board","v"]]},
   {id:"abdullah_bin_nasser", n:"Abdullah Bin Nasser Aldawood", t:2, p:62, s:"consumer_disc", roles:[
+    ["seven","Chairman of the Board","board","v"],
     ["lst_1810","Board Chairman","board","v"]]},
   {id:"ahmed_samer_bin", n:"Ahmed Samer Bin Hamdi Al-Zaim", t:2, p:62, s:"consumer_disc", roles:[
     ["lst_1810","Vice Chairman","board","v"]]},
@@ -4130,6 +4132,22 @@ const PEOPLE = [
     ["naif_alrajhi_inv","Chief Executive Officer","executive","ns"]]},
   {id:"wongyun_park", n:"Wongyun Park", t:2, p:60, s:"industry", roles:[
     ["hmmme","Chief Executive Officer","executive","ns"]]},
+  {id:"muin_serhan", n:"Muin Serhan", t:2, p:60, s:"consumer_disc", roles:[
+    ["amsa_hospitality","Chief Executive Officer","executive","v"]]},
+  {id:"mohammad_alathel", n:"Mohammad Alathel", t:2, p:60, s:"consumer_disc", roles:[
+    ["amsa_hospitality","Founder and Managing Director","board","v"]]},
+  {id:"aamir_riaz", n:"Aamir Riaz", t:2, p:58, s:"consumer_disc", roles:[
+    ["amsa_hospitality","Chief Operating Officer","executive","v"]]},
+  {id:"bandar_abdulmajeed", n:"Bandar Abdulmajeed", t:2, p:58, s:"consumer_disc", roles:[
+    ["amsa_hospitality","Chief Brand and Marketing Officer","executive","ns"]]},
+  {id:"mueen_lababidi", n:"Mueen Lababidi", t:2, p:58, s:"consumer_disc", roles:[
+    ["amsa_hospitality","Corporate Director of Operations","executive","v"]]},
+  {id:"bill_ernest", n:"Bill Ernest", t:2, p:60, s:"consumer_disc", roles:[
+    ["seven","CEO","executive","ns"]]},
+  {id:"jennifer_hanser", n:"Jennifer Hanser", t:2, p:46, s:"consumer_disc", roles:[
+    ["seven","EVP Strategy and M&A","executive","ns"]]},
+  {id:"damien_latham", n:"Damien Latham", t:2, p:58, s:"consumer_disc", roles:[
+    ["seven","Chief Entertainment Operations Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

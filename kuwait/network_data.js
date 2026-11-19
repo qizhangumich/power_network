@@ -1369,6 +1369,7 @@ const PEOPLE = [
   {id:"farqad_abdullah_al", n:"Farqad Abdullah Al Sane", t:2, p:62, s:"finance", roles:[
     ["lst_gins","Group Chairman","board","v"]]},
   {id:"khaled_saoud_al", n:"Khaled Saoud Al Hasan", t:2, p:60, s:"finance", roles:[
+    ["lst_bkikwt","Vice-Chairman","board","v"],
     ["lst_gins","Group Chief Executive Officer","executive","v"]]},
   {id:"abdullah_ali_abdullah", n:"Abdullah Ali Abdullah Al-Salem Al-Sabah", t:2, p:58, s:"gov", roles:[
     ["mod_kuwait","Minister of Defence","executive","v"]]},
@@ -2155,6 +2156,7 @@ const PEOPLE = [
   {id:"waleed_ahmed_abdul", n:"Waleed Ahmed Abdul Aziz Al-Moutawa", t:2, p:52, s:"realestate", roles:[
     ["arkan_al_kuwait","Board Member","board","ns"]]},
   {id:"meshal_abdulrahman_khalaf", n:"Meshal Abdulrahman Khalaf Al-Enezi", t:2, p:52, s:"realestate", roles:[
+    ["lst_senergy","Non-Executive Chairman","board","ns"],
     ["arkan_al_kuwait","Board Member","board","ns"]]},
   {id:"ahmed_suleiman_abdul", n:"Ahmed Suleiman Abdul Aziz Al-Furaih", t:2, p:52, s:"realestate", roles:[
     ["arkan_al_kuwait","Independent Board Member","board","ns"]]},
@@ -2276,6 +2278,16 @@ const PEOPLE = [
     ["arab_open_univ","Dean of Business Studies, Kuwait Branch","executive","v"]]},
   {id:"bader_al_qattan", n:"Bader Al-Qattan", t:2, p:60, s:"materials", roles:[
     ["lst_acico","Chief Executive Officer (Acico Industries)","executive","ns"]]},
+  {id:"hussain_al_halabi", n:"Hussain Al-Halabi", t:2, p:52, s:"realestate", roles:[
+    ["st_martins_prop","Director","board","v"]]},
+  {id:"richard_gordon_ratcliffe", n:"Richard Gordon Ratcliffe", t:2, p:52, s:"realestate", roles:[
+    ["st_martins_prop","Director","board","v"]]},
+  {id:"murad_ali_murad", n:"Murad Ali Murad", t:2, p:62, s:"finance", roles:[
+    ["lst_bkikwt","Chairman","board","v"]]},
+  {id:"abdulla_sultan", n:"Abdulla Sultan", t:2, p:60, s:"finance", roles:[
+    ["lst_bkikwt","CEO","executive","ns"]]},
+  {id:"mohammad_al_salem", n:"Mohammad Al Salem", t:2, p:62, s:"energy", roles:[
+    ["lst_senergy","Vice Chairman and CEO","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

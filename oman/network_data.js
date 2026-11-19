@@ -264,6 +264,9 @@ const INSTITUTIONS = [
   {id:"vision_2040_unit", n:"Oman Vision 2040 Implementation Follow-up Unit", s:"gov", t:1, p:64, short:"Vision 2040 Unit"},
   {id:"omani_econ_assoc", n:"Omani Economic Association", s:"gov", t:3, p:52, short:"Omani Econ Assoc"},
   {id:"imco", n:"International Maritime College Oman", s:"education", t:3, p:52, short:"IMCO"},
+  {id:"oman_rail", n:"Oman Rail Company", s:"industry", t:3, p:55, short:"Oman Rail"},
+  {id:"infoline", n:"Infoline LLC", s:"comm", t:3, p:53, short:"Infoline"},
+  {id:"muscat_muni_council", n:"Muscat Municipal Council", s:"gov", t:2, p:60, short:"Muscat Muni. Council"},
 ];
 
 const PEOPLE = [
@@ -1960,6 +1963,26 @@ const PEOPLE = [
     ["natl_univ_sci","Chancellor","executive","v"]]},
   {id:"a_nizamuddin_ahmed", n:"A Nizamuddin Ahmed", t:2, p:58, s:"education", roles:[
     ["natl_univ_sci","Assistant Vice-Chancellor (CE & P)","executive","v"]]},
+  {id:"saleh_mohammed_al", n:"Saleh Mohammed Al-Shanfari", t:2, p:62, s:"consumer_stap", roles:[
+    ["al_namaa_poultry","Chairman","board","ns"]]},
+  {id:"yaqoob_al_ruqaishi", n:"Yaqoob Al Ruqaishi", t:2, p:46, s:"consumer_stap", roles:[
+    ["al_namaa_poultry","General Manager","executive","ns"]]},
+  {id:"sultan_al_owaisi", n:"Sultan Al-Owaisi", t:2, p:60, s:"energy", roles:[
+    ["al_haditha_energy","CEO","executive","ns"]]},
+  {id:"maroun_kyrillos", n:"Maroun Kyrillos", t:2, p:62, s:"finance", roles:[
+    ["lst_afic","Chairman","board","ns"]]},
+  {id:"roland_zaatar", n:"Roland Zaatar", t:2, p:60, s:"finance", roles:[
+    ["lst_afic","CEO","executive","ns"]]},
+  {id:"yousuf_ahmed_alawi", n:"Yousuf Ahmed Alawi", t:2, p:62, s:"materials", roles:[
+    ["lst_gici","Chairman","board","v"]]},
+  {id:"salah_murtadha_ahmed", n:"Salah Murtadha Ahmed", t:2, p:62, s:"materials", roles:[
+    ["lst_gici","Vice Chairman","board","v"]]},
+  {id:"waheed_murtadha_al", n:"Waheed Murtadha Al Hamid", t:2, p:52, s:"materials", roles:[
+    ["lst_gici","Director","board","v"]]},
+  {id:"mohammed_ahmed_alawi", n:"Mohammed Ahmed Alawi", t:2, p:52, s:"materials", roles:[
+    ["lst_gici","Director","board","v"]]},
+  {id:"ahmed_said_salim_b", n:"Ahmed Said Salim Al Marhun", t:2, p:52, s:"materials", roles:[
+    ["lst_gici","Director","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2137,6 +2160,8 @@ const OWNERSHIP = [
   ["al_masarra_hospital","moh_om","Ministry of Health hospital (sole national psychiatric hospital; renamed from Ibn Sina Hospital in 2013)","v"],
   ["vision_2040_unit","com_om","subordinate unit established by Royal Decree 100/2020","v"],
   ["imco","natl_univ_sci","constituent maritime college (branded NUST-IMCO)","ns"],
+  ["oman_rail","asyad","subsidiary","ns"],
+  ["infoline","omantel","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -2227,4 +2252,5 @@ const AKA = {
   vision_2040_unit:["Oman Vision 2040 Implementation Support and Follow-up Unit"],
   omani_econ_assoc:["OEA"],
   imco:["NUST-IMCO"],
+  oman_rail:["ORC"],
 };

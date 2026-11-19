@@ -349,6 +349,7 @@ const INSTITUTIONS = [
   {id:"danat_al_emarat", n:"Danat Al Emarat Hospital for Women & Children", s:"health", t:3, p:52, short:"Danat Al Emarat"},
   {id:"healthpoint", n:"Healthpoint Hospital", s:"health", t:3, p:52, short:"Healthpoint"},
   {id:"mannesmann_energy", n:"Mannesmann Energy LLC", s:"energy", t:2, p:54, short:"Mannesmann Energy"},
+  {id:"adi_foundation", n:"ADI Foundation", s:"tech", t:3, p:55, short:"ADI Foundation"},
 ];
 
 const PEOPLE = [
@@ -4815,6 +4816,9 @@ const PEOPLE = [
     ]},
   {id:"mohammed_alardhi", n:"Mohammed Alardhi", t:2, p:62, s:"finance", roles:[
     ["lst_icap","Chairman of the Board of Directors","board","v"],
+    ]},
+  {id:"anas_aljuaidi", n:"Anas Aljuaidi", t:2, p:60, s:"energy", roles:[
+    ["mannesmann_energy","CEO","executive","v"],
     ]},
 ];
 

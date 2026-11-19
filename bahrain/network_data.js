@@ -3168,6 +3168,7 @@ const PEOPLE = [
   {id:"rashad_ibrahim_zainal", n:"Rashad Ibrahim Zainal", t:2, p:52, s:"gov", roles:[
     ["bcci","Board Member","board","ns"]]},
   {id:"abdulwahab_yousif_al", n:"Abdulwahab Yousif Al Hawaj", t:2, p:52, s:"gov", roles:[
+    ["al_hawaj","General Manager, Al Hawaj Group","executive","v"],
     ["bcci","Board Member","board","ns"]]},
   {id:"sawsan_abulhassan_ibrahim", n:"Sawsan Abulhassan Ibrahim", t:2, p:52, s:"gov", roles:[
     ["bcci","Board Member","board","ns"]]},
@@ -3796,6 +3797,16 @@ const PEOPLE = [
     ["shaikh_ibrahim_ctr","Board Member","board","v"]]},
   {id:"ebrahim_khalifa_mattar", n:"Ebrahim Khalifa Mattar", t:2, p:52, s:"gov", roles:[
     ["shaikh_ibrahim_ctr","Board Member","board","v"]]},
+  {id:"essa_faqeeh", n:"Essa Faqeeh", t:2, p:60, s:"consumer_disc", roles:[
+    ["areen_hospitality","Chief Executive Officer","executive","ns"]]},
+  {id:"nahed_guiga", n:"Nahed Guiga", t:2, p:58, s:"consumer_disc", roles:[
+    ["areen_hospitality","Director of Sales","executive","ns"]]},
+  {id:"p_unnikrishnan", n:"P. Unnikrishnan", t:2, p:62, s:"comm", roles:[
+    ["daily_tribune","Chairman & Managing Director","board","v"]]},
+  {id:"najeb_yacob_alhamer", n:"Najeb Yacob Alhamer", t:2, p:62, s:"comm", roles:[
+    ["daily_tribune","Honorary Chairman","board","v"]]},
+  {id:"hichem_djouhri", n:"Hichem Djouhri", t:2, p:58, s:"finance", roles:[
+    ["asb_capital","Senior Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
