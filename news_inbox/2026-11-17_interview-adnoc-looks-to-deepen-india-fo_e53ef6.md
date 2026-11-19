@@ -1,0 +1,5 @@
+# INTERVIEW: ADNOC looks to deepen India footprint through crude, chemicals, oil storage
+source: S&P Global
+url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxPdFM0Njgzbl9nWm9MWXQ3OGhuSnROQlVBcXB0SU9ER2dlMUE0QzlZM2hUbDZ6OGl4LXRHN0lWRVV4UEhkbmFkb2ZKVjJJdWh2YlVlMW9hOGh0YlNNbkROVk81M0J1OERBVFl2WGFrNEFwbk5vbFUzc21wR0xTWkZDNVBJUm5vdldYZnUxdm1XcWFLRTNuT3JkZ1ZRc1BBQkZKUmNEUjNucnVLSExIU0hSaXlQOUQzVUI0d1BsM3ZqZS1JTE1hTWRxY3pwVHQ4dEZZLThlQlhVNnROWktDTjExQUl5SzY5NVJpUC00TlJwVC1GWjA?oc=5
+
+INTERVIEW: ADNOC looks to deepen India footprint through crude, chemicals, oil storage    S&P Global

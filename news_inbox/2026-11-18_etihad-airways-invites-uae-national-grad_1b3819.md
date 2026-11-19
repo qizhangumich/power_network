@@ -1,0 +1,5 @@
+# Etihad Airways Invites UAE National Graduates to take their First Step into a World of Opportunity with Bedayati Programme
+source: Biz Today
+url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbWVmRElHcG9tb0pwNFkwY1ZPT1NhMC1OX1otSEE4LVlPbTNjZ0FLaUV5MFBBNVl3ZDFjeU8wNDg3QnBvTTN0WTlQVjJMeW9YWHJtazhnakxqSzNoWUpabDNnbFBfRVBiOU8zal9JLUhOS0doaVBvcGEwMXM5Y0lLTUJndkI3d2RnTG1IYmZ4OUk4eHIwZUdNa3NnV05pUVZrODV5RnRQUkFuLUhVSXFVOFNwM3pXOW5sS3hqSWI4dlJqOXdkeXFFNGpVSHBTeUl6OWJEOEtqRUU0cTl4VFRiNXdTbjBPTHNsZnZ3b3hCcGpGdw?oc=5
+
+Etihad Airways Invites UAE National Graduates to take their First Step into a World of Opportunity with Bedayati Programme    Biz Today
