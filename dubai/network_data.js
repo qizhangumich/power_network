@@ -3083,7 +3083,7 @@ const OWNERSHIP = [
   ["emirates_islamic","enbd","subsidiary","ns"],
   ["unifeeder","dpworld","wholly-owned subsidiary (acquired 2018)","v"],
   ["p_o_ferries","dpworld","wholly-owned subsidiary (acquired 2019 for $421m)","v"],
-  ["emaar_development","emaar","majority-owned subsidiary (DFM-listed BTS development arm)","v"],
+  ["emaar_development","emaar","majority-owned subsidiary — Emaar Properties launched a Dh15/share cash offer (Nov 2026) for the remaining ~19.84% stake, aiming to take it private and delist from DFM (board-backed, shareholder deadline 10 Dec 2026, not yet closed)","v"],
   ["empower","dewa","subsidiary","v"],
   ["al_futtaim_motors","alfuttaim","subsidiary of; exclusive Toyota/Lexus/Hino distributor in UAE since 1955","ns"],
   ["ikea_al_futtaim","alfuttaim","franchise subsidiary of; operates IKEA stores in UAE/Egypt/Oman/Qatar","ns"],

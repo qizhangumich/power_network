@@ -75,7 +75,7 @@ const INSTITUTIONS = [
   {id:"lst_nhotel", n:"National Hotels Company B.S.C.", s:"consumer_disc", t:2, p:53, short:"NHOTEL"},
   {id:"lst_ithmr", n:"Ithmaar Holding B.S.C.", s:"finance", t:2, p:62, short:"Ithmaar"},
   {id:"lst_basrec", n:"The Bahrain Ship Repairing and Engineering Company B.S.C.", s:"industry", t:2, p:50, short:"BASREC"},
-  {id:"lst_trafco", n:"Trafco Group B.S.C.", s:"consumer_stap", t:2, p:50, short:"Trafco Group B.S.C."},
+  {id:"lst_trafco", n:"Trafco Group B.S.C.", s:"consumer_stap", t:2, p:57, short:"Trafco Group"},
   {id:"lst_cpark", n:"Bahrain Car Parks Company (Amakin) B.S.C.", s:"industry", t:2, p:50, short:"CPARK"},
   {id:"lst_cineco", n:"Bahrain Cinema Company B.S.C.", s:"consumer_disc", t:2, p:50, short:"CINECO"},
   {id:"lst_bfm", n:"Bahrain Flour Mills Company B.S.C.", s:"consumer_stap", t:2, p:50, short:"BFM"},
@@ -279,7 +279,7 @@ const PEOPLE = [
     ["moi_bh","Minister of Interior","political","v"]],
     note:"Minister of Interior since 2004 — one of Bahrain's longest-serving ministers."},
   {id:"fakhro_moic", n:"H.E. Abdulla bin Adel Fakhro", t:1, p:70, s:"gov", roles:[
-    ["fakhro","Managing Director","executive","ns"],
+    ["fakhro","Managing Director (former)","executive","v"],
     ["moic_bh","Minister of Industry & Commerce","political","v"]],
     note:"In office since November 2022; from the Fakhro business family (McDonald's Bahrain franchise, GAC Bahrain)."},
   {id:"abdullah_mtt", n:"H.E. Dr. Shaikh Abdullah bin Ahmed Al Khalifa", t:1, p:70, s:"gov", roles:[

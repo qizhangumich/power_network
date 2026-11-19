@@ -150,7 +150,7 @@ const INSTITUTIONS = [
   {id:"lst_nlcs", n:"Alijarah Holding Q.P.S.C.", s:"finance", t:2, p:50, short:"NLCS"},
   {id:"lst_mkdm", n:"Mekdam Holding Group Q.P.S.C.", s:"industry", t:2, p:58, short:"MKDM"},
   {id:"lst_dbis", n:"Dlala Brokerage and Investment Holding Company Q.P.S.C.", s:"finance", t:2, p:50, short:"DBIS"},
-  {id:"lst_wdam", n:"Widam Food Company Q.P.S.C.", s:"consumer_stap", t:2, p:50, short:"WDAM"},
+  {id:"lst_wdam", n:"Widam Food Company Q.P.S.C.", s:"consumer_stap", t:2, p:57, short:"Widam Food"},
   {id:"lst_tqes", n:"Qatar Electronic Systems Company (Techno Q) Q.P.S.C.", s:"tech", t:2, p:50, short:"TQES"},
   {id:"lst_qcfs", n:"Qatar Cinema and Film Distribution Co. Q.P.S.C.", s:"consumer_disc", t:2, p:50, short:"QCFS"},
   {id:"lst_qgmd", n:"Qatari German Company for Medical Devices Q.P.S.C.", s:"health", t:2, p:50, short:"QGMD"},
@@ -297,7 +297,7 @@ const PEOPLE = [
     ["qib","Chairman","board","v"]],
     note:"The Emir's brother; chairs Qatar Islamic Bank."},
   {id:"joaan", n:"H.H. Sheikh Joaan bin Hamad Al Thani", t:0, p:80, s:"gov", roles:[
-    ["scdl","Vice-Chairman of the Board of Directors","board","ns"],
+    ["scdl","Vice-Chairman of the Board of Directors","board","v"],
     ["qoc","President","board","v"]]},
   {id:"mayassa", n:"H.E. Sheikha Al-Mayassa bint Hamad Al Thani", t:0, p:84, s:"gov", roles:[
     ["qatar_crafts_council","Chairperson","board","v"],
@@ -2683,6 +2683,7 @@ const OWNERSHIP = [
   ["lst_mkdm","qse","listed on QSE","ns"],
   ["lst_dbis","qse","listed on QSE","ns"],
   ["lst_wdam","qse","listed on QSE","ns"],
+  ["lst_wdam","hassad","minority shareholder (stake increased via Nov 2026 debt-to-equity capital restructuring)","ns"],
   ["lst_tqes","qse","listed on QSE","ns"],
   ["lst_qcfs","qse","listed on QSE","ns"],
   ["lst_qgmd","qse","listed on QSE","ns"],
