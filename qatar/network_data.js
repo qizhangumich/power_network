@@ -1920,7 +1920,9 @@ const PEOPLE = [
   {id:"ahmed_a_al", n:"Ahmed A. Al-Said", t:2, p:58, s:"gov", roles:[
     ["qstp","Business Development Director","executive","v"]]},
   {id:"yosouf_abdulrahman_saleh", n:"Yosouf Abdulrahman Saleh Al-Salehi", t:2, p:58, s:"gov", roles:[
-    ["qstp","Executive Director","executive","ns"]]},
+    ["qstp","Executive Director (until ~2024, succeeded by Dr. Jack Lau then Rama Chakaki as President)","executive","ns","former:until 2024"]]},
+  {id:"rama_chakaki", n:"Rama Chakaki", t:2, p:58, s:"gov", roles:[
+    ["qstp","President","executive","v"]]},
   {id:"reem_saad_al", n:"Reem Saad Al Kuwari", t:2, p:58, s:"gov", roles:[
     ["invest_qatar","Acting Chief Marketing and Communications Officer","executive","v"]]},
   {id:"hamad_rashid_al", n:"Hamad Rashid Al Naimi", t:2, p:58, s:"gov", roles:[
@@ -2311,7 +2313,8 @@ const PEOPLE = [
     ["gulf_helicopters","Senior Executive (exact title unconfirmed - reported elsewhere as Acting CEO/COO)","executive","ns"]]},
   {id:"khalid_bin_thani_b", n:"Khalid bin Thani Al Thani", t:2, p:62, s:"comm", roles:[
     ["qacc","Chairman","board","ns"],
-    ["dar_al_sharq","Chairman of the Board of Directors","board","ns"]]},
+    ["dar_al_sharq","Chairman of the Board of Directors","board","ns"],
+    ["qstp","Chairman","board","ns"]]},
   {id:"abdul_latif_abdullah", n:"Abdul Latif Abdullah Al Mahmoud", t:2, p:60, s:"comm", roles:[
     ["dar_al_sharq","Chief Executive Officer","executive","ns"]]},
   {id:"jaber_al_harami", n:"Jaber Al Harami", t:2, p:58, s:"comm", roles:[

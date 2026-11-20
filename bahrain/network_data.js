@@ -1055,9 +1055,6 @@ const PEOPLE = [
     ["lst_bisb","Board Member","board","v"]]},
   {id:"mohamed_abdulla_nooruddin", n:"Mohamed Abdulla Nooruddin", t:2, p:52, s:"finance", roles:[
     ["lst_bisb","Board Member","board","v"]]},
-  {id:"khalid_abdulaziz_al", n:"Khalid Abdulaziz Al Jasim", t:2, p:52, s:"finance", roles:[
-    ["sico_bank","Director","board","ns"],
-    ["lst_bisb","Board Member","board","v"]]},
   {id:"naser_alhamad", n:"Naser Alhamad", t:2, p:52, s:"finance", roles:[
     ["lst_bisb","Board Member","board","v"]]},
   {id:"mohamed_bucheeri", n:"Mohamed Bucheeri", t:2, p:52, s:"finance", roles:[
@@ -2733,8 +2730,6 @@ const PEOPLE = [
     ["moi_bh","Undersecretary for Nationality Passports and Residence Affairs (NPRA)","executive","ns"]]},
   {id:"tariq_al_hassan", n:"Tariq Al Hassan", t:2, p:58, s:"gov", roles:[
     ["moi_bh","Chief of Public Security","executive","ns"]]},
-  {id:"waleed_al_hashar", n:"Waleed Al-Hashar", t:2, p:52, s:"finance", roles:[
-    ["sico_bank","Director","board","ns"]]},
   {id:"elham_almajed", n:"Elham AlMajed", t:2, p:52, s:"finance", roles:[
     ["sico_bank","Director","board","ns"]]},
   {id:"dana_raees", n:"Dana Raees", t:2, p:52, s:"finance", roles:[
@@ -3488,7 +3483,8 @@ const PEOPLE = [
   {id:"areije_al_shakar", n:"Areije Al Shakar", t:2, p:60, s:"tech", roles:[
     ["beventures","Chief Executive Officer","executive","v"]]},
   {id:"khalid_al_jassim", n:"Khalid Al-Jassim", t:2, p:52, s:"finance", roles:[
-    ["sico_bank","Board Member (Independent Director)","board","v"]]},
+    ["sico_bank","Board Member (Independent Director)","board","v"],
+    ["lst_bisb","Board Member","board","v"]]},
   {id:"sh_fahad_al", n:"Sh. Fahad Al Khalifa", t:2, p:52, s:"finance", roles:[
     ["sico_bank","Board Member (Independent Director)","board","v"]]},
   {id:"sh_waleed_al", n:"Sh. Waleed Al Hashar", t:2, p:52, s:"finance", roles:[

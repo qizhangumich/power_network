@@ -1710,7 +1710,9 @@ const PEOPLE = [
     ["lst_2350","Board Member","board","v"]]},
   {id:"eng_sameeh_suliman", n:"Eng. Sameeh Suliman Al-Sahafi", t:2, p:58, s:"materials", roles:[
     ["yanpet","Vice Chairman of the Board","board","v"],
-    ["lst_2350","President","executive","v"]]},
+    ["lst_2350","President (leaving for a SABIC role, through 30 Nov 2026)","executive","v"]]},
+  {id:"fahad_abdullah_al_sawat", n:"Fahad Abdullah Al Sawat", t:2, p:58, s:"materials", roles:[
+    ["lst_2350","President-designate (effective 1 Dec 2026, succeeding Al-Sahafi)","executive","ns"]]},
   {id:"mr_abdullah_mohammed", n:"Mr. Abdullah Mohammed Al-Shehri", t:2, p:58, s:"materials", roles:[
     ["lst_2350","Chief Financial Officer – General Manager Finance & Planning","executive","v"]]},
   {id:"eng_mohammed_fuhaid", n:"Eng. Mohammed Fuhaid Al-Hajri", t:2, p:46, s:"materials", roles:[

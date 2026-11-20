@@ -14,11 +14,11 @@ Abu Dhabi Investment,4,abudhabi,rejected,2026-09-28,2026-10-11,A subsidiary hold
 Than Financial,4,abudhabi,rejected,2026-09-26,2026-09-26,Man City chairman Khaldoon Al Mubarak responds to reports surrounding 115 charges in Premier League financial probe
 Airport and King Khalid International Airport,4,saudi,rejected,2026-10-08,2026-10-08,text-parsing fragment of two headline-adjacent airport names
 Hamad University for Military and Technology,4,qatar,rejected,2026-09-29,2026-09-30,"HH the Amir Issues Amiri Decision Establishing, Organizing Tamim bin Hamad University for Military and Technology Sciences"
+CENTERBRIDGE PARTNERS,3,abudhabi,rejected,2026-11-15,2026-11-16,"CANACCORD GENUITY GROUP INC. ANNOUNCES SALE OF ITS WEALTH MANAGEMENT BUSINESS IN THE UK & CROWN DEPENDENCIES TO CENTERBRIDGE PARTNERS, L.P. "
 ADNOC Partners,3,abudhabi,rejected,2026-11-02,2026-11-02,"ADNOC Partners With OpenAI, G42 To Strengthen Advanced AI Adoption"
 Municipal Council,3,oman,rejected,2026-11-01,2026-11-15,Oman sets voting dates for Municipal Council elections
 Bank of Japan,3,oman,rejected,2026-10-30,2026-10-31,Bank of Japan keeps key short-term interest rate unchanged at 1.25%
 Hamad International Airport,3,qatar,rejected,2026-11-02,2026-11-10,Hamad International Airport and Doha Film Institute bring 'Made in Qatar' stories to the terminal
-Woodside Energy,3,qatar,rejected,2026-10-29,2026-10-31,QatarEnergy to purchase 3MTPA of US LNG from Woodside Energy for 20 years
 Fourth Qatar Real Estate,3,qatar,rejected,2026-10-30,2026-11-01,"Fourth Qatar Real Estate Forum 2026 concludes with strong participation, sales exceeding QR1 billion"
 Communications and Information Technology,3,qatar,rejected,2026-10-31,2026-11-12,Minister of Communications and Information Technology Holds Bilateral Meetings on Sidelines of ITU Plenipotentiary Conference
 Avalon Pharma,3,saudi,rejected,2026-11-01,2026-11-13,Avalon Pharma maintains 2026 targets
@@ -42,15 +42,13 @@ Riviera Maritime Media,2,abudhabi,rejected,2026-10-31,2026-11-09,News Content Hu
 ADIPEC Energy,2,abudhabi,rejected,2026-11-02,2026-11-02,"AI is a necessity for energy industry, not just an option, Al Jaber and Altman tell ADIPEC"
 Briefs Finance,2,abudhabi,rejected,2026-11-03,2026-11-13,Adnoc in talks to route more offshore crude to traders in 2027
 Logistics Real Estate Sector Logistics,2,abudhabi,rejected,2026-11-10,2026-11-10,Meet the panel: The Next Era of the GCC’s Logistics Real Estate Sector
-Noatum Logistics,2,abudhabi,rejected,2026-10-29,2026-11-02,Noatum Logistics accelerates GCC growth by doubling trucking fleet to over 850 units — SMI DIGITAL
-TIZA Global Mark Start of Construction,2,abudhabi,rejected,2026-10-29,2026-11-13,"Masdar, Citaglobal and TIZA Global Mark Start of Construction for Floating Solar Projects"
 Sempra Infrastructure Partners,2,abudhabi,rejected,2026-11-13,2026-11-14,Sempra completes sale of 45% stake in Sempra Infrastructure Partners to KKR-led group
 Avolon and I Squared Capital,2,abudhabi,rejected,2026-11-02,2026-11-02,"Abu Dhabi's Adia, Avolon and I Squared Capital to launch aviation investment platform"
-Centerbridge Partners,2,abudhabi,rejected,2026-11-16,2026-11-16,"Mubadala, Centerbridge Partners to acquire Canaccord Wealth for $1.54bln"
 Thai Trade Center,2,dubai,rejected,2026-11-11,2026-11-12,Thai Trade Center Dubai launches new campaign 2m read
 EXCLUSIVEMoon World Resorts,2,,rejected,2026-11-02,2026-11-03,EXCLUSIVEMoon World Resorts signs Artemis II’s Jeremy Hansen2h ago3m read
 Siemens Energy,2,bahrain,rejected,2026-11-08,2026-11-13,Siemens Energy redesigns Gulf power plants to withstand drone attacks
 Hull City,2,oman,rejected,2026-11-07,2026-11-08,Arsenal equal best start to Premier League season after Martin Odegaard goal earns win over Hull City
+Deutsche Bank,2,qatar,rejected,2026-11-18,2026-11-19,"Deutsche Bank leak: What was exposed, and who’s probing2h ago3m read"
 Quality Infrastructure for Sustainable Development,2,oman,rejected,2026-11-12,2026-11-13,Oman climbs seven places in 2026 Quality Infrastructure for Sustainable Development Index
 Hawiyat Najm Park,2,oman,rejected,2026-11-11,2026-11-12,Work progressing well at Hawiyat Najm Park project
 Bank of England Governor,2,qatar,rejected,2026-11-04,2026-11-06,QCB Governor meets Bank of England Governor
@@ -58,7 +56,6 @@ Bank of England,2,qatar,rejected,2026-11-05,2026-11-05,Bank of England lifts rat
 Bank of Italy,2,qatar,rejected,2026-11-03,2026-11-03,Sheikh Bandar meets governor of the Bank of Italy
 Aker Solutions,2,qatar,rejected,2026-11-08,2026-11-10,Aker Solutions secures engineering contract for Qatar’s Maydan Mahzam redevelopment
 Muharraq City,2,bahrain,rejected,2026-11-08,2026-11-09,"King receives Housing Minister, briefed on Muharraq City development project"
-Met Department,2,kuwait,rejected,2026-10-29,2026-10-30,"Met Department warns of thundery rain, dust and rough seas"
 Muscat Municipal Council,2,oman,added,2026-11-17,2026-11-17,Muscat Municipal Council reviews proposal for waterfront development project in Wilayat of Quriyat
 X2 Ventures,2,qatar,added,2026-11-17,2026-11-17,X2 Ventures makes investment in ALPHA10X as it relocates headquarters from France to Doha
 ADI Foundation,2,abudhabi,added,2026-10-29,2026-11-18,"ADI Foundation and Zamanat partner to bring US$150mln in tokenized private credit, trade finance and Sukuk opportunities"
@@ -175,12 +172,14 @@ Fakhruddin Properties,2,dubai,added,2026-09-08,2026-09-10,Fakhruddin Properties 
 Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
 Riyadh Airport,1,saudi,rejected,2026-11-15,2026-11-15,Riyadh Airport updates: Qatar Airways resumes operations while five airlines extend cancellations
+TIZA Global Mark Start of Construction,1,abudhabi,rejected,2026-11-13,2026-11-13,"Masdar, Citaglobal and TIZA Global Mark Start of Construction for Floating Solar Projects"
+Noatum Logistics,1,abudhabi,rejected,2026-11-02,2026-11-02,Noatum Logistics doubles trucking fleet to over 850 units to expand GCC operations
 Port Technology,1,abudhabi,rejected,2026-11-11,2026-11-11,AD Ports Group posts record Q3 profit despite regional disruption
-Sharjah Airport,1,northern,rejected,2026-10-29,2026-10-29,"Sharjah Airport plans integrated check-in, VIP services2m read"
 Port of Salalah,1,oman,rejected,2026-11-12,2026-11-12,Port of Salalah container volumes rise 18% in nine months
 Navi Mumbai Airport,1,oman,rejected,2026-11-06,2026-11-06,Shift to Navi Mumbai Airport from Muscat: Higher costs for some travelers
 International Monetary Fund,1,oman,rejected,2026-11-02,2026-11-02,OCCI receives International Monetary Fund delegation
 Social Development,1,oman,rejected,2026-11-05,2026-11-05,GUtech Launches the Uniquely Abled Academy Under the Patronage of the Minister of Social Development
+Commerce Ministry,1,oman,rejected,2026-11-19,2026-11-19,"ROP, Commerce Ministry issue public and commercial guidelines ahead of National Day"
 Awqaf Ministry,1,qatar,rejected,2026-11-04,2026-11-04,Awqaf Ministry issues statement on Istisqa prayer in Qatar
 Labour Ministry,1,qatar,added,2026-11-03,2026-11-03,Labour Ministry shuts down two recruitment offices in Qatar
 Mekdam Holding,1,qatar,rejected,2026-11-13,2026-11-13,"Mekdam Holding, MEEZA and Quandela sign MoU to accelerate quantum computing deployment across Gulf"
@@ -190,8 +189,10 @@ German Press Agency,1,qatar,rejected,2026-11-10,2026-11-10,German Press Agency o
 Undersecretary of Ministry,1,qatar,rejected,2026-11-15,2026-11-15,Undersecretary of Ministry of Interior Meets Assistant Commissioner of Australian Federal Police
 HRSD Ministry,1,saudi,rejected,2026-11-07,2026-11-07,Naseej Tech pens SAR 11M contract with HRSD Ministry
 Riyadh Municipality,1,saudi,added,2026-11-03,2026-11-03,Riyadh Municipality launches 1st land investment with private sector
-Deutsche Bank,1,qatar,rejected,2026-11-18,2026-11-18,Deutsche Bank hired a Qatari royal. Why?
+Woodside Energy,1,,rejected,2026-10-31,2026-10-31,QatarEnergy signs LNG purchase deal with Woodside Energy
+Met Department,1,kuwait,rejected,2026-10-30,2026-10-30,"Met Department warns of thundery rain, dust and rough seas"
 Al Shaheed Park,1,kuwait,rejected,2026-11-03,2026-11-03,IWG Kuwait joins Pink October initiative at Al Shaheed Park
+Sharjah Airport,1,northern,rejected,2026-10-29,2026-10-29,"Sharjah Airport plans integrated check-in, VIP services2m read"
 Estithmar Holding,1,qatar,rejected,2026-10-28,2026-10-28,Estithmar Holding Q.P.S.C. posts stronger Q3 earnings while advancing QAR 1.4bn in growth investments
 Eastern Cement,1,saudi,added,2026-10-28,2026-10-28,"SNB Capital sets Eastern Cement’s rating, TP"
 Asha Enterprises,1,oman,rejected,2026-10-28,2026-10-28,"Asha Enterprises, ITL World launch premium hospitality concept at Muscat Airport"
@@ -204,7 +205,6 @@ Balkan Green Energy,1,abudhabi,rejected,2026-10-26,2026-10-26,"Masdar buys giant
 Transitional Sovereignty Council,1,oman,rejected,2026-10-26,2026-10-26,HM receives written message from Chairman of Transitional Sovereignty Council of Sudan
 IMF World Bank,1,kuwait,rejected,2026-10-26,2026-10-26,Chairman-led Burgan Bank delegation reinforces Kuwait’s global financial connections at 2026 IMF–World Bank Annual Meetings
 Go Energy,1,saudi,rejected,2026-10-25,2026-10-25,"Go Energy, SARCO partner on low-carbon fuels project in Saudi Arabia"
-Commerce Ministry,1,kuwait,rejected,2026-10-25,2026-10-25,"CMA, Commerce Ministry amend MoU on beneficial owner data"
 Palestinian Authority,1,oman,rejected,2026-10-24,2026-10-24,Palestinian Authority condemns 'collective punishment'
 Hassan Allam Utilities,1,,rejected,2026-10-24,2026-10-24,Hassan Allam Utilities signs Dekheila port logistics hub deal
 Attend One Planet Sovereign Wealth Fund,1,qatar,rejected,2026-10-23,2026-10-23,"4 HH the Amir, French President Attend One Planet Sovereign Wealth Fund CEOs Summit 21 October 2026"

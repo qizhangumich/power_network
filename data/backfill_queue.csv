@@ -119,7 +119,7 @@ abudhabi,gii,Gulf Islamic Investments LLC,finance,56,0,pending
 abudhabi,masdar_americas,Masdar Americas,utilities,56,1,pending
 abudhabi,fatima_college,Fatima College of Health Sciences,education,56,0,pending
 abudhabi,e_enterprise,e& enterprise,tech,56,1,pending
-abudhabi,halcon,Halcon,industry,56,0,pending
+abudhabi,halcon,Halcon,industry,56,1,pending
 abudhabi,image_nation_ad,Image Nation Abu Dhabi,comm,56,1,pending
 bahrain,synergy_shared_svcs,Synergy Shared Services Company W.L.L.,industry,56,1,pending
 dubai,al_nabooda,Khalifa Juma Al Nabooda Group,conglomerate,56,1,pending
@@ -177,8 +177,8 @@ saudi,al_ahli_fc,Al Ahli Saudi Football Club,consumer_disc,56,1,pending
 saudi,aljomaih_automotive,Aljomaih Automotive Company,consumer_disc,56,0,pending
 abudhabi,birgi_mefar,Birgi Mefar Group,health,55,1,pending
 abudhabi,reem_finance,Reem Finance PJSC,finance,55,0,pending
-abudhabi,nimr_automotive,Nimr Automotive,industry,55,0,pending
-abudhabi,adi_foundation,ADI Foundation,tech,55,0,pending
+abudhabi,nimr_automotive,Nimr Automotive,industry,55,1,pending
+abudhabi,adi_foundation,ADI Foundation,tech,55,1,pending
 dubai,imtiaz_developments,Imtiaz Developments,realestate,55,1,pending
 dubai,al_ghurair_dev,Al Ghurair Development,realestate,55,1,pending
 northern,rak_minerals,RAK Minerals and Metals Investments LLC,materials,55,0,pending
@@ -372,7 +372,6 @@ saudi,lean_technologies,Lean Technologies,tech,52,0,pending
 saudi,floward,Floward,consumer_disc,52,0,pending
 saudi,alireza,Haji Abdullah Alireza & Co. Ltd.,conglomerate,52,0,pending
 abudhabi,foodco,Foodco National Foodstuff PJSC,consumer_stap,51,0,pending
-abudhabi,lst_mbme,MBME Group PJSC,health,50,0,pending
 abudhabi,lst_2pointzero,Two Point Zero Group PJSC,tech,50,0,pending
 abudhabi,lst_apex,Apex Investment PSC,finance,50,0,pending
 abudhabi,lst_phx,Phoenix Group PLC,tech,50,0,pending
@@ -384,7 +383,6 @@ abudhabi,lst_ghitha,Ghitha Holding PJSC,consumer_stap,50,0,pending
 abudhabi,lst_mair,MAIR Group PJSC,consumer_stap,50,0,pending
 abudhabi,lst_invictus,Invictus Investment Company PLC,finance,50,0,pending
 abudhabi,lst_e7,E7 Group PJSC,industry,50,1,pending
-abudhabi,lst_eshraq,Eshraq Investments PJSC,realestate,50,0,pending
 abudhabi,lst_gmpc,Gulf Medical Projects Company PJSC,health,50,0,pending
 abudhabi,lst_alphadata,Alpha Data PJSC,tech,50,1,pending
 abudhabi,lst_palms,Palms Sports PJSC,consumer_disc,50,0,pending

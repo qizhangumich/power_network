@@ -4820,6 +4820,36 @@ const PEOPLE = [
   {id:"anas_aljuaidi", n:"Anas Aljuaidi", t:2, p:60, s:"energy", roles:[
     ["mannesmann_energy","CEO","executive","v"],
     ]},
+  {id:"saeed_al_shamsi", n:"Saeed Al Shamsi", t:2, p:60, s:"industry", roles:[
+    ["halcon","Acting Chief Executive Officer","executive","v"],
+    ]},
+  {id:"abri_du_plessis", n:"Abri du Plessis", t:2, p:60, s:"industry", roles:[
+    ["nimr_automotive","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"andrey_lazorenko", n:"Andrey Lazorenko", t:2, p:60, s:"tech", roles:[
+    ["adi_foundation","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"ali_mohamed_saeed", n:"Ali Mohamed Saeed Albadi Aldhaheri", t:2, p:62, s:"health", roles:[
+    ["lst_mbme","Chairman of the Board of Directors","board","v"],
+    ]},
+  {id:"abdelhadi_mustafa_mohamed", n:"Abdelhadi Mustafa Mohamed Abdelgadir", t:2, p:60, s:"health", roles:[
+    ["lst_mbme","Member of the Board of Directors and Group Chief Executive Officer","executive","v"],
+    ]},
+  {id:"majd_adnan_salem", n:"Majd Adnan Salem Maaitah", t:2, p:52, s:"health", roles:[
+    ["lst_mbme","Member of the Board of Directors","board","v"],
+    ]},
+  {id:"william_paul_mckendry", n:"William Paul Mckendry", t:2, p:58, s:"health", roles:[
+    ["lst_mbme","General Counsel and Board Secretary","executive","v"],
+    ]},
+  {id:"nasser_hassan_alshaikh", n:"Nasser Hassan AlShaikh", t:2, p:62, s:"realestate", roles:[
+    ["lst_eshraq","Chairman","board","v"],
+    ]},
+  {id:"matar_hamdan_sultan", n:"Matar Hamdan Sultan Al Ameri", t:2, p:62, s:"realestate", roles:[
+    ["lst_eshraq","Vice Chairman","board","v"],
+    ]},
+  {id:"tanvir_haque", n:"Tanvir Haque", t:2, p:60, s:"realestate", roles:[
+    ["lst_eshraq","Acting Chief Executive Officer & Chief Strategy Officer","executive","v"],
+    ]},
 ];
 
 const OWNERSHIP = [
