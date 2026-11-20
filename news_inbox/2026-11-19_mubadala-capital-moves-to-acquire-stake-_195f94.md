@@ -1,0 +1,5 @@
+# Mubadala Capital Moves to Acquire Stake in Brazilian Port Operator Rocha Terminais
+source: DatamarNews
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPMWg1c2pXTzRsRURzckQ0VTBrZHRaR0Vra0ttRE9UbVNiODlFbmtOUDJ5UWRTbFl0R29rYl9qTzgtTFF2dlV5LUk4TGljNkNuNXJBYmRYbllrZm9WV0Myeld3ZTNhdGlySWRteHNRNTZkR2VqalIxR1NYS05iaXJzTC05bF9hbFJNY1BRZTNpMF9iMUJNQUZ2ZUc5T253RFA3ZTY1c3piV09JRTJTOTFWTGs1NlVLLXc?oc=5
+
+Mubadala Capital Moves to Acquire Stake in Brazilian Port Operator Rocha Terminais    DatamarNews

@@ -1,0 +1,5 @@
+# UAE carriers extend flight cancellations to Saudi Arabia
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeWM3V1gyd0pqV29JR0E2SGhqekl5WU9MXzdVZG5ZQWpDenp3OVV6UEVmSHdHYmRhRXlGTW9HM0d1bUNCSHdGSkpOWFNXcEF5OFdxNWZVSHhNZnlxZU9zN2lBY1pnbDZKdmFGVzJTSXlROW1KeGR1cERWcE5rQ0V1aWVJeXBjZDhER0oxaC1CVWczZmcwX1JIY3lyRHJCMkt5blRPZlZjd0VzV1k?oc=5
+
+UAE carriers extend flight cancellations to Saudi Arabia    Arabian Business

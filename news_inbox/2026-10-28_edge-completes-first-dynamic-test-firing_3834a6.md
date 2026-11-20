@@ -1,0 +1,5 @@
+# EDGE completes first dynamic test firing of UAE-designed 155mm extended range artillery ammunition
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMjM0NmdYOVhQNWtsc1o0OW9ZRnBla2hVSk13Z0Nja1FKNHF0SDA3N1BZZEpOQkNNRS14VkdkUnk5NnJfeHdGYlZJM3BBcEJLcmZsNDhkaEM0eUg3MF9MMG5OVnNGeGZxQXZxZ2VERzhrZkk2blNBbFZlQ0pZMjJhMUFrQU1nYlFvdmZSWnBfR1hHM2NILVlmM253a2lVdHhzNTZ6TUFxbF9YSXRFelR1VnhEbTlZT28xQ0lHZ09OYVc3c1UxdTVaOEhBb3RMNXFXSW5YYU5Hck5pYlBXRThmV1dXdmozNXc3OWV3dTBZanRnUQ?oc=5
+
+EDGE completes first dynamic test firing of UAE-designed 155mm extended range artillery ammunition    Zawya

@@ -1,0 +1,5 @@
+# Adnoc subsidiary confirms vessel attack in Strait of Hormuz, one crew member missing
+source: Upstream Online
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQSW51N0ZoTlk3LVhRb0J1V3ZxNHZPYk1ub3JteVUwb3JmRTk0X2NXLVJuNXQtSzc4RTN1c285ZlgyQVJENmRfNHdYRWZIS3dLSmRKdEl6cHBKdEdTQThWbUNoSDNhTzJIVHpVM1c5a2Q0ekNoU3I3Mzloa1k0MXNISGIzWjRmTElEOXl4MTEtcVFYTTltSDE1b1hkWHZJNkpfLVlra3p0T1V3dEdOd2ZwRFllSW5CV0F2N1poVExsb091R291OXBoRXFrVnpkUQ?oc=5
+
+Adnoc subsidiary confirms vessel attack in Strait of Hormuz, one crew member missing    Upstream Online

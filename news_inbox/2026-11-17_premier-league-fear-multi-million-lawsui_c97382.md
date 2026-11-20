@@ -1,0 +1,5 @@
+# Premier League Fear ‘Multi-Million Lawsuit’ Amid Backlash From Man City Sponsors
+source: LiveScore
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYzlRdFRyZ0FkM0ZMdmp2aWVlNk9fczJRSHplM05qNXVPbTVVSnJxVzIwY29COWZCOFloNEVOdy1qRUZHUEtTbVQzeml6NUxQTWFVQXhpTVlFME0tRGxDNFpNLUI1dDBZcmt3UDhyLUtibGhfMGN3MkFnQ0t5LTAwclVCM2htVnhxWHRtZjlrZ184d1BOb2tZU3VTc3YydFVzaGdsS3hlYU13YzdDTGlxZWJ1LW5YUHozM1oxYWh0NjdfS09zdE9FNmtXRHE3RXJnZ25Qc3NCdw?oc=5
+
+Premier League Fear ‘Multi-Million Lawsuit’ Amid Backlash From Man City Sponsors    LiveScore

@@ -1,0 +1,5 @@
+# EDGE Advances Kuwait’s $2.45B Missile Boat Program
+source: The Defense Post
+url: https://news.google.com/rss/articles/CBMifkFVX3lxTE9LeUVCd29pUkRndzdhdS1WdzhYY19xeER3cDUwVTVRSGl0Vzd2bkxidGxzSHo5RElhamVSWEVxRExvR2hKOTN2NHJFbWdOUHFTbFVCTDJVWWdjSm9YNzdJc1oxbU94cDVKaHRSelJicmM4aTkzdmczY19DTURhQdIBgwFBVV95cUxPVUo1V0kxR0NYSzZvM201OFZxUEJ6R293aThLMXFzWWd5d3dWX0ZlTVVFTXppdG9fSkIzQ2dXOU9idW9UTlp5U0tfZnhuWFVmeFJacGI3NjdlcExlUTBHSDVmWWN0YzNwRGNFY2dOOTZQY01EbFE0TmQ0U2xBYWd6RmtUSQ?oc=5
+
+EDGE Advances Kuwait’s $2.45B Missile Boat Program    The Defense Post

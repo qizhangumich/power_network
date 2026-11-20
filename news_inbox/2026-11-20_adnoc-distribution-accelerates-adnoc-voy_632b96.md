@@ -1,0 +1,5 @@
+# ADNOC Distribution accelerates ADNOC Voyager's expansion across Africa, South America, Asia
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeHJfNnYtaWx1SmdlcXppT3ZHMkp0VEtwaGpROENZRzlpdnF2NzAxOTlreEd1VU4tWHEtZnhBcTdpZ3dWM2NSSTYxX3RpMUZDN18yX3pjVVRpcGc1ZXY4dVJCeGdNN0RCSm03bGxkRC1ya3ZaNlVSc09OQl80dnpvNEQ3TGVVSXNtb2VzN0hIRnY2SGhhSWY1QlQwVkhMbUdfY2h1SzRPUjBaREhoc0JLekRlbFFaNVN1QUpRSWFRN1JvSFBxRTBuZUtQdXVCcU5zMnByRw?oc=5
+
+ADNOC Distribution accelerates ADNOC Voyager's expansion across Africa, South America, Asia    Zawya
