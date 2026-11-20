@@ -2601,6 +2601,8 @@ const PEOPLE = [
     ["al_jazeera_finance","Chairman, Al Jazeera Finance Company","board","v"]]},
   {id:"amer_mohamed_al", n:"Amer Mohamed Al Jabri", t:2, p:60, s:"finance", roles:[
     ["al_jazeera_finance","Chief Executive Officer, Al Jazeera Finance Company","executive","v"]]},
+  {id:"saud_al_attiyah", n:"Saud Al Attiyah", t:2, p:58, s:"finance", roles:[
+    ["x2_ventures","Founder of X2 Ventures","executive","v"]]},
 ];
 
 const OWNERSHIP = [

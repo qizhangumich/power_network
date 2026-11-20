@@ -704,6 +704,7 @@ const PEOPLE = [
   {id:"john_iossifidis", n:"John Iossifidis", t:2, p:52, s:"finance", roles:[
     ["mashreq","Director (Board of Directors)","board","v"]]},
   {id:"iyad_malas", n:"Iyad Malas", t:2, p:52, s:"finance", roles:[
+    ["lst_ncc","Board Member","board","v"],
     ["alghurair","Group Chief Executive Officer","executive","v"],
     ["mashreq","Director (Board of Directors)","board","v"],
     ["maf","Non-Executive Director","board","v"]]},
@@ -2958,11 +2959,24 @@ const PEOPLE = [
   {id:"vijay_c_doshi", n:"Vijay C. Doshi", t:2, p:62, s:"realestate", roles:[
     ["vincitore_realty","Founder and Chairman","board","ns"]]},
   {id:"sultan_al_ghurair", n:"Sultan Al Ghurair", t:2, p:60, s:"realestate", roles:[
+    ["lst_ncc","Board Member","board","v"],
     ["al_ghurair_dev","Chief Executive Officer","executive","v"]]},
   {id:"kareem_derbas", n:"Kareem Derbas", t:2, p:60, s:"realestate", roles:[
     ["palma","Founder & CEO","executive","ns"]]},
   {id:"omar_derbas", n:"Omar Derbas", t:2, p:58, s:"realestate", roles:[
     ["palma","Executive Director","executive","ns"]]},
+  {id:"iqbal_hamzah", n:"Iqbal Hamzah", t:2, p:60, s:"consumer_stap", roles:[
+    ["nfpc","Group Chief Executive Officer","executive","v"]]},
+  {id:"rashid_saif_a", n:"Rashid Saif A. Al-Ghurair", t:2, p:62, s:"materials", roles:[
+    ["lst_ncc","Chairman","board","v"]]},
+  {id:"mohamed_abdullah_a", n:"Mohamed Abdullah A. Al Ghurair", t:2, p:60, s:"materials", roles:[
+    ["lst_ncc","General Manager and CEO","executive","v"]]},
+  {id:"mazin_mohammad_mohyelddin", n:"Mazin Mohammad Mohyelddin Alkhatib", t:2, p:62, s:"materials", roles:[
+    ["lst_ncc","Deputy Chairman","board","v"]]},
+  {id:"thani_abdullah_suhail", n:"Thani Abdullah Suhail Juma Al-Zaffin", t:2, p:52, s:"materials", roles:[
+    ["lst_ncc","Board Member","board","v"]]},
+  {id:"raja_m_ghanim", n:"Raja M. Ghanim Almazrouie", t:2, p:52, s:"materials", roles:[
+    ["lst_ncc","Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -239,6 +239,7 @@ const PEOPLE = [
     ["shj_execco","Chairman","political","v"]],
     note:"Grandson of the Ruler; runs day-to-day government execution across Sharjah's departments."},
   {id:"bodour", n:"H.H. Sheikha Bodour Al Qasimi", t:0, p:82, s:"comm", roles:[
+    ["eagle_hills_sharjah","Chairperson of Shurooq (chairs Eagle Hills Sharjah Development LLC board)","board","v"],
     ["aus","Chairperson of the Board of Trustees","board","v"],
     ["sba","Chairperson","board","v"],
     ["shurooq","Chairperson","board","v"]],
@@ -280,6 +281,7 @@ const PEOPLE = [
   {id:"jallad", n:"Ramy Jallad", t:2, p:60, s:"gov", roles:[
     ["rakez","Group CEO","executive","v"]]},
   {id:"qaseer", n:"Ahmed Obaid Al Qaseer", t:2, p:60, s:"sovereign", roles:[
+    ["eagle_hills_sharjah","CEO of Shurooq","executive","v"],
     ["shurooq","Chief Executive Officer","executive","v"]]},
   {id:"mousa_murad", n:"Capt. Mousa Murad", t:2, p:62, s:"industry", roles:[
     ["fujairah_ports","Managing Director","executive","v"],
@@ -709,6 +711,7 @@ const PEOPLE = [
   {id:"ayman_samra", n:"Ayman Samra", t:2, p:46, s:"energy", roles:[
     ["danagas","General Manager Egypt","executive","v"]]},
   {id:"mohamed_ali_alabbar", n:"Mohamed Ali Alabbar", t:2, p:52, s:"education", roles:[
+    ["eagle_hills_sharjah","Chairman of Eagle Hills","board","v"],
     ["aus","Board of Trustees Member","board","v"]]},
   {id:"abdulfattah_mansoor_sharaf", n:"Abdulfattah Mansoor Sharaf", t:2, p:52, s:"education", roles:[
     ["aus","Board of Trustees Member","board","v"]]},
@@ -1711,6 +1714,8 @@ const PEOPLE = [
     ["thumbay_fujairah","Chief Operating Officer, Thumbay Hospital Fujairah","executive","v"]]},
   {id:"omar_galadari", n:"Omar Galadari", t:2, p:52, s:"finance", roles:[
     ["nbq","Director","board","ns"]]},
+  {id:"hisham_ibrahim", n:"Hisham Ibrahim", t:2, p:60, s:"realestate", roles:[
+    ["eagle_hills_sharjah","Group CEO of Eagle Hills","executive","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -4150,6 +4150,14 @@ const PEOPLE = [
     ["seven","EVP Strategy and M&A","executive","ns"]]},
   {id:"damien_latham", n:"Damien Latham", t:2, p:58, s:"consumer_disc", roles:[
     ["seven","Chief Entertainment Operations Officer","executive","ns"]]},
+  {id:"osama_elkhateeb", n:"Osama Elkhateeb", t:2, p:58, s:"health", roles:[
+    ["king_abdullah_mc","Director - Cardiac Center","executive","v"]]},
+  {id:"najeeb_jaha", n:"Najeeb Jaha", t:2, p:58, s:"health", roles:[
+    ["king_abdullah_mc","Deputy Director - Cardiac Center","executive","v"]]},
+  {id:"khalid_ahmed_salman", n:"Khalid Ahmed Salman", t:2, p:58, s:"health", roles:[
+    ["king_abdullah_mc","Director - Research Center","executive","v"]]},
+  {id:"omar_abu_suliman", n:"Omar Abu Suliman", t:2, p:58, s:"health", roles:[
+    ["king_abdullah_mc","Vice Center Director - Head, Neck and Skull Base Health Center","executive","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -1858,6 +1858,7 @@ const PEOPLE = [
   {id:"mohsin_hani_al", n:"Mohsin Hani Al Bahrani", t:2, p:60, s:"conglomerate", roles:[
     ["mohsin_haider_darwish","CEO of Automotive, Tyres and Batteries and Engineering Products and Commercial Vehicles","executive","v"]]},
   {id:"sayyid_bilarab_bin", n:"Sayyid Bilarab bin Haitham Al Said", t:2, p:52, s:"gov", roles:[
+    ["muscat_muni_council","Minister of State and Governor of Muscat (Chairman of the Muscat Municipal Council)","executive","v"],
     ["com_om","Minister of State and Governor of Muscat","board","ns"]]},
   {id:"sayyid_saud_bin", n:"Sayyid Saud bin Hilal Al Busaidi", t:2, p:52, s:"gov", roles:[
     ["mocsy","Minister of Culture Sports and Youth","board","v"]]},
@@ -1983,6 +1984,50 @@ const PEOPLE = [
     ["lst_gici","Director","board","v"]]},
   {id:"ahmed_said_salim_b", n:"Ahmed Said Salim Al Marhun", t:2, p:52, s:"materials", roles:[
     ["lst_gici","Director","board","v"]]},
+  {id:"faisal_bin_ali", n:"Faisal bin Ali bin Ibrahim Al Balushi", t:2, p:52, s:"gov", roles:[
+    ["muscat_muni_council","Elected Member - Muscat Municipal Council (Wilayat Muscat)","board","v"]]},
+  {id:"daoud_bin_sulaiman", n:"Daoud bin Sulaiman Al Jabri", t:2, p:52, s:"gov", roles:[
+    ["muscat_muni_council","Elected Member - Muscat Municipal Council (Wilayat Muscat)","board","v"]]},
+  {id:"murtadha_bin_mohammed", n:"Murtadha bin Mohammed Al Eisani", t:2, p:52, s:"gov", roles:[
+    ["muscat_muni_council","Elected Member - Muscat Municipal Council (Wilayat Mutrah)","board","v"]]},
+  {id:"hamad_bin_khalfan", n:"Hamad bin Khalfan Al Wuhaibi", t:2, p:52, s:"gov", roles:[
+    ["muscat_muni_council","Elected Member - Muscat Municipal Council (Wilayat Mutrah)","board","v"]]},
+  {id:"mazin_bin_sulaiman", n:"Mazin bin Sulaiman Al Hadi", t:2, p:52, s:"gov", roles:[
+    ["muscat_muni_council","Elected Member - Muscat Municipal Council (Wilayat Al Amerat)","board","v"]]},
+  {id:"haitham_bin_hamad", n:"Haitham bin Hamad Al Rahbi", t:2, p:52, s:"gov", roles:[
+    ["muscat_muni_council","Elected Member - Muscat Municipal Council (Wilayat Al Amerat)","board","v"]]},
+  {id:"hamad_bin_marhoon", n:"Hamad bin Marhoon Al Siyabi", t:2, p:52, s:"gov", roles:[
+    ["muscat_muni_council","Elected Member - Muscat Municipal Council (Wilayat Bawshar)","board","v"]]},
+  {id:"amer_bin_salim", n:"Amer bin Salim Al Hosni", t:2, p:52, s:"gov", roles:[
+    ["muscat_muni_council","Elected Member - Muscat Municipal Council (Wilayat Bawshar)","board","v"]]},
+  {id:"fida_ahmed_bin", n:"Fida Ahmed bin Abdulaziz Al Balushi", t:2, p:52, s:"gov", roles:[
+    ["muscat_muni_council","Elected Member - Muscat Municipal Council (Wilayat Seeb)","board","v"]]},
+  {id:"abdulrahman_bin_nasser", n:"Abdulrahman bin Nasser Al Hinai", t:2, p:52, s:"gov", roles:[
+    ["muscat_muni_council","Elected Member - Muscat Municipal Council (Wilayat Seeb)","board","v"]]},
+  {id:"yasser_bin_saud", n:"Yasser bin Saud Al Zadjali", t:2, p:52, s:"gov", roles:[
+    ["muscat_muni_council","Elected Member - Muscat Municipal Council (Wilayat Qurayyat)","board","v"]]},
+  {id:"ahmed_bin_abdullah", n:"Ahmed bin Abdullah Al Balushi", t:2, p:52, s:"gov", roles:[
+    ["muscat_muni_council","Elected Member - Muscat Municipal Council (Wilayat Qurayyat)","board","v"]]},
+  {id:"mohammed_al_abdullatif", n:"Mohammed Al Abdullatif", t:2, p:62, s:"comm", roles:[
+    ["infoline","Chairman","board","v"]]},
+  {id:"bushra_al_balushi", n:"Bushra Al Balushi", t:2, p:52, s:"comm", roles:[
+    ["infoline","Board Member","board","v"]]},
+  {id:"bakhit_salim_bakhit", n:"Bakhit Salim Bakhit Kashoob", t:2, p:52, s:"comm", roles:[
+    ["infoline","Board Member","board","v"]]},
+  {id:"saif_al_abri", n:"Saif Al Abri", t:2, p:52, s:"comm", roles:[
+    ["infoline","Board Member","board","v"]]},
+  {id:"ibrahim_al_harthi", n:"Ibrahim Al Harthi", t:2, p:52, s:"comm", roles:[
+    ["infoline","Board Member","board","v"]]},
+  {id:"hamed_al_ghabshi", n:"Hamed Al-Ghabshi", t:2, p:60, s:"comm", roles:[
+    ["infoline","Chief Executive Officer","executive","v"]]},
+  {id:"muadh_al_omairi", n:"Muadh Al Omairi", t:2, p:46, s:"comm", roles:[
+    ["infoline","VP Commercial","executive","v"]]},
+  {id:"qiraat_bhaamla", n:"Qiraat Bhaamla", t:2, p:58, s:"comm", roles:[
+    ["infoline","Finance Director","executive","v"]]},
+  {id:"mohammed_el_badri", n:"Mohammed El Badri", t:2, p:58, s:"comm", roles:[
+    ["infoline","Strategy & Transformation Director","executive","v"]]},
+  {id:"gamal_abdelkader", n:"Gamal Abdelkader", t:2, p:58, s:"comm", roles:[
+    ["infoline","Director Operations","executive","v"]]},
 ];
 
 const OWNERSHIP = [
