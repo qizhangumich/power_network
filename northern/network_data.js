@@ -219,6 +219,8 @@ const INSTITUTIONS = [
   {id:"uaq_fin_admin", n:"Umm Al Quwain Department of Finance and Administrative Affairs", s:"gov", t:2, p:54, short:"UAQ Fin & Admin"},
   {id:"eagle_hills_sharjah", n:"Eagle Hills Sharjah Development LLC", s:"realestate", t:3, p:56, short:"Eagle Hills Sharjah"},
   {id:"omran_properties", n:"Omran Properties", s:"realestate", t:3, p:54, short:"Omran Properties"},
+  {id:"thumbay_builders", n:"Thumbay Builders", s:"realestate", t:3, p:53, short:"Thumbay Builders"},
+  {id:"al_fujairah_ins", n:"Al Fujairah National Insurance Company P.J.S.C.", s:"finance", t:3, p:52, short:"Al Fujairah Ins."},
 ];
 
 const PEOPLE = [
@@ -1831,6 +1833,7 @@ const OWNERSHIP = [
   ["beeah_tandeef","beeah","subsidiary (municipal waste collection & city cleaning arm)","v"],
   ["eagle_hills_sharjah","shurooq","joint venture","v"],
   ["omran_properties","shurooq","joint venture","v"],
+  ["thumbay_builders","thumbay","subsidiary","ns"],
 ];
 
 const FAMILY = [
@@ -1974,4 +1977,6 @@ const AKA = {
   sharjah_art_fdn:["SAF"],
   beeah_tandeef:["Tandeef"],
   uaq_fin_admin:["FAD"],
+  thumbay_builders:["Thumbay Real Estate"],
+  al_fujairah_ins:["AFNIC"],
 };

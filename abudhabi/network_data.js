@@ -350,6 +350,11 @@ const INSTITUTIONS = [
   {id:"healthpoint", n:"Healthpoint Hospital", s:"health", t:3, p:52, short:"Healthpoint"},
   {id:"mannesmann_energy", n:"Mannesmann Energy LLC", s:"energy", t:2, p:54, short:"Mannesmann Energy"},
   {id:"adi_foundation", n:"ADI Foundation", s:"tech", t:3, p:55, short:"ADI Foundation"},
+  {id:"bildco", n:"Abu Dhabi National Company for Building Materials PJSC", s:"materials", t:3, p:53, short:"BILDCO"},
+  {id:"adnh_catering", n:"ADNH Catering PLC", s:"consumer_stap", t:3, p:57, short:"ADNH Catering"},
+  {id:"awnic", n:"Al Wathba National Insurance Company PJSC", s:"finance", t:3, p:54, short:"AWNIC"},
+  {id:"ad_national_takaful", n:"Abu Dhabi National Takaful Company PSC", s:"finance", t:3, p:55, short:"AD National Takaful"},
+  {id:"national_investor_pr", n:"The National Investor Pr.J.S.C.", s:"finance", t:3, p:52, short:"The National Investor"},
 ];
 
 const PEOPLE = [
@@ -5147,6 +5152,7 @@ const OWNERSHIP = [
   ["halcon","edge_grp","wholly-owned subsidiary (precision weapons/missiles)","v"],
   ["danat_al_emarat","mubadala_health","subsidiary (via UEMedical","ns"],
   ["healthpoint","m42","subsidiary (Abu Dhabi hospital brand within the M42 network)","v"],
+  ["adnh_catering","adnh","subsidiary","v"],
 ];
 
 const FAMILY = [
@@ -5250,4 +5256,7 @@ const AKA = {
   halcon:["HALCON Industry LLC"],
   danat_al_emarat:["https://www.mubadala.com/en/news/mubadala-health-acquires-controlling-stake-uemedical"],
   mannesmann_energy:["MMEC Mannesmann LLC","MMEC Mannesmann Middle East"],
+  adnh_catering:["ADNHC"],
+  ad_national_takaful:["TKFL"],
+  national_investor_pr:["TNI"],
 };

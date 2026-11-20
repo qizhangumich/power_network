@@ -593,6 +593,7 @@ const INSTITUTIONS = [
   {id:"sedco_capital", n:"SEDCO Capital Company", s:"finance", t:3, p:55, short:"SEDCO Capital"},
   {id:"arabsat", n:"Arab Satellite Communications Organization", s:"comm", t:2, p:62, short:"Arabsat"},
   {id:"amsa_hospitality", n:"Amsa Hospitality", s:"consumer_disc", t:2, p:52, short:"Amsa Hospitality"},
+  {id:"malath_insurance", n:"Malath Cooperative Insurance Company", s:"finance", t:3, p:54, short:"Malath Insurance"},
 ];
 
 const PEOPLE = [
@@ -4754,4 +4755,5 @@ const AKA = {
   alireza:["House of Alireza","HAACO"],
   barclays_saudi:["Barclays Riyadh Office"],
   arabsat:["ASCO"],
+  malath_insurance:["Malath","8020"],
 };

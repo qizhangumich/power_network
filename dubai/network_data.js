@@ -281,6 +281,12 @@ const INSTITUTIONS = [
   {id:"palma", n:"Palma Holding", s:"realestate", t:2, p:54, short:"Palma Holding"},
   {id:"karma_developers", n:"Karma Developers", s:"realestate", t:2, p:55, short:"Karma Developers"},
   {id:"vincitore_realty", n:"Vincitore Realty", s:"realestate", t:2, p:52, short:"Vincitore Realty"},
+  {id:"cbi", n:"Commercial Bank International P.J.S.C.", s:"finance", t:3, p:58, short:"CBI"},
+  {id:"dubai_insurance", n:"Dubai Insurance Company P.S.C.", s:"finance", t:3, p:54, short:"Dubai Insurance Co."},
+  {id:"dubai_national_ins", n:"Dubai National Insurance & Reinsurance Co. P.S.C.", s:"finance", t:3, p:52, short:"Dubai National Ins."},
+  {id:"emirates_inv_bank", n:"Emirates Investment Bank P.J.S.C.", s:"finance", t:3, p:53, short:"Emirates Inv. Bank"},
+  {id:"aman_insurance", n:"Dubai Islamic Insurance & Reinsurance Co. (Aman) P.J.S.C.", s:"finance", t:3, p:52, short:"Aman Insurance"},
+  {id:"emirates_reem_inv", n:"Emirates Reem Investments Company P.J.S.C.", s:"consumer_stap", t:3, p:52, short:"Emirates Reem Inv."},
 ];
 
 const PEOPLE = [
@@ -3261,4 +3267,9 @@ const AKA = {
   palma:["Palma Development","Palma Homes Real Estate Development LLC"],
   karma_developers:["Karma Group"],
   vincitore_realty:["Vincitore Real Estate Development LLC"],
+  dubai_insurance:["DIN"],
+  dubai_national_ins:["DNIR"],
+  emirates_inv_bank:["EIBANK"],
+  aman_insurance:["AMAN","Dubai Islamic Insurance","Aman"],
+  emirates_reem_inv:["ERC","Emirates Refreshments"],
 };

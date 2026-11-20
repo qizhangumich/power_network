@@ -267,6 +267,7 @@ const INSTITUTIONS = [
   {id:"oman_rail", n:"Oman Rail Company", s:"industry", t:3, p:55, short:"Oman Rail"},
   {id:"infoline", n:"Infoline LLC", s:"comm", t:3, p:53, short:"Infoline"},
   {id:"muscat_muni_council", n:"Muscat Municipal Council", s:"gov", t:2, p:60, short:"Muscat Muni. Council"},
+  {id:"fincorp", n:"The Financial Corporation Company SAOG", s:"finance", t:3, p:52, short:"FINCORP"},
 ];
 
 const PEOPLE = [
@@ -2207,6 +2208,7 @@ const OWNERSHIP = [
   ["imco","natl_univ_sci","constituent maritime college (branded NUST-IMCO)","ns"],
   ["oman_rail","asyad","subsidiary","ns"],
   ["infoline","omantel","subsidiary","v"],
+  ["fincorp","lst_oeio","subsidiary","ns"],
 ];
 
 const FAMILY = [
@@ -2298,4 +2300,5 @@ const AKA = {
   omani_econ_assoc:["OEA"],
   imco:["NUST-IMCO"],
   oman_rail:["ORC"],
+  fincorp:["FINC"],
 };
