@@ -1,0 +1,5 @@
+# ADFW 2026 Unveils Largest-Ever Partner-Driven Programme, Headlined by L'IMAD
+source: PR Newswire
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxOX3NQQmdmeUZvbWF4aEw3QXBpampPWlp4bmVpSnp6Q21pakRJV2U5bV90dlFBTkFtemlsOE5UZHo1ckZYNVQtLVBRR0dxQ0NBc0NNdWF0cFdYVTV2dHJJTU1yeUJGQmUxeGZkSTAyLUQ5c0RXVGd4Yzg1ZDVpZnV3VGdMcktyNkZoUVV4Nm90ZmRRZjBlVGZqb25aNlNPdkVNTDhzcnhSX3piU19ZbjhpUzRGQjVwbm9Ua0Y4OTFmbWxlSUJuZFBHSlJn?oc=5
+
+ADFW 2026 Unveils Largest-Ever Partner-Driven Programme, Headlined by L'IMAD    PR Newswire

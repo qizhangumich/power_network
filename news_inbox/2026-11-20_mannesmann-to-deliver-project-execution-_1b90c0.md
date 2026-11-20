@@ -1,0 +1,5 @@
+# Mannesmann to deliver project execution for ADNOC's NEB facilities
+source: Oil Review Middle East
+url: https://news.google.com/rss/articles/CBMivAFBVV95cUxNVVZFRnNNYVZvaWQ2dTl4MUxDck13NTZzRE0tZmxQNDB4bGtfeXVjRXFtVmpVN29uMHhQTk5UT2lmNzBUM3JZZkNxaVVxc0xYaFV1LWZnRjVGLS1hM2VhLTlPWHhOcWZJa1JNYUVxOXlWc3l4SmJOZVVuQ3JKbEVEUG5fX1hrRUtXZkNFMmZPYWlHWTUwOWRkazlrUmNoS2lSbnFtdk8wR3A5ZkxTWFVrWjdrSTFZLXpwUm9nSA?oc=5
+
+Mannesmann to deliver project execution for ADNOC's NEB facilities    Oil Review Middle East

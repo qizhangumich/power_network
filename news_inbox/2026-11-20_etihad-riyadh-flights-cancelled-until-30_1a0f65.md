@@ -1,0 +1,5 @@
+# Etihad Riyadh flights cancelled until 30 November
+source: Travelling for Business
+url: https://news.google.com/rss/articles/CBMimgFBVV95cUxONmh2TU1CNnd0RTNrSVdoaTNDMkJ1QTdMVkFTbHhOR2pXMDhxVEI5dk9qdFpwLVRSTXB2WEhNS0N5ZFNmMnA5R2o0LTVIRmxrSXZlRjJTYUpHOHBNamhUUUVyOHhsMlBFZ3AycGN1Vzk3VThyOUktYWFmWXV4RzBwaFRXLW5wcWpYUjVLQWc2T0hXVE55OHE5Z2Nn?oc=5
+
+Etihad Riyadh flights cancelled until 30 November    Travelling for Business

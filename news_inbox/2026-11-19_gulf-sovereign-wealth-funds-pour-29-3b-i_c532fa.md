@@ -1,0 +1,5 @@
+# Gulf Sovereign Wealth Funds Pour $29.3B Into Global Tech Investments
+source: Forbes Middle East
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNcFZ0bGMyZDhKbVF1bHVSNzVDTjRBaGlXeWtDMjlVaHp4X3pmMjZGWkJJTnNwU1ZxYm1YN1FBZllXQTI5ZDR4VVZiRDVVWjM3LTMwNURnWTlMNHFQbndMa1l2RklQLThyYjhDVFlmNHJZcUdTVGYtYkdJcHppZjg4Y2pBdDhTQ0Y5N1VFMEJ2SElvcDBPNmxsaVNrRENVQnlFV29oQkV3UmlYQnRTMUJfT0hQZE96aFVaQV9QMWZWaFdmNWMxUFo4?oc=5
+
+Gulf Sovereign Wealth Funds Pour $29.3B Into Global Tech Investments    Forbes Middle East
