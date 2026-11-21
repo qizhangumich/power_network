@@ -1,0 +1,5 @@
+# Aldar unveils NOMA, Abu Dhabi's creative neighbourhood in Saadiyat Cultural District
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWVM3bE1abVlXM3g1aWx3RGJ3c3ZTSVVvNnJOWVFvSjI0U3hvbUxsaVVkTjk0MjRIWnhkZXRZX2NrVUtzaXNfMG9OVzI2bGFfSVJyRE9qenNfUlpiOEtZTFd5VC1IRTNhek5ldHRad0p6SEJNanpQelRJU1pmeUtraUItVnJSSUJGNEdMMmhZdksySUw5OFRyQ0FnV3Y0c1lQa2NiNDVDMFl3X2tyUHB0Q3pubkZXQzk1QURhT1dTUE00REVrQXFJMklieG9kRDZpSXU5XzBJcHAteUlf?oc=5
+
+Aldar unveils NOMA, Abu Dhabi's creative neighbourhood in Saadiyat Cultural District    Zawya
