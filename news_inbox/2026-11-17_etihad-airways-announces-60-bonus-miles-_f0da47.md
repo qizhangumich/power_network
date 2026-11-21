@@ -1,0 +1,5 @@
+# Etihad Airways announces 60% bonus miles offer until November 22
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxPSnU2VlQwREZHZmpfNDhEN2hGR2d1UkV6NVhfZGROQS1YZVl4S1NCMzhHN09wYUNfc2pFbXVOdzUxWk1URDdZYm14TWVGeWtVNzBFSENFeHdNUFdoRWN2bGhia1dPaDVTcGxtOEl1UmFQaUotckZoRW9VVEVoandlSF9TQzQ3Yk41Wm84bXpDTlRlTzJETU1zY0VtQ0FXUVY3aF83YmQ4MFdTN1pKTWs4ZnczYVQ?oc=5
+
+Etihad Airways announces 60% bonus miles offer until November 22    Arabian Business

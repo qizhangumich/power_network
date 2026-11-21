@@ -1,0 +1,5 @@
+# ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions
+source: Forbes Middle East
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxOcEZMcVZlSk5tVHJMNjI0cVliZlpNWm5kVTBqdVhacGJsWkJVTDZvaE9KSDZDOXFIcFJPbjYtRjl5THY0VV9MWVczbVZfYWUzT1FDZmZtcTZ5YWhKbTFvSmhiZ1hhM1BnZWVkbHFfb3RCNG4ydlAtb0dpanZlcktCb3ZQaC1Yczg4TkdHNkhOVEQtQVNnZ3F0SDl2NUpMY2lDU2FuLWFhN2Jhek1XSmJZTGpzVldUR1BDaFlJYllLem8zWnJv?oc=5
+
+ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions    Forbes Middle East

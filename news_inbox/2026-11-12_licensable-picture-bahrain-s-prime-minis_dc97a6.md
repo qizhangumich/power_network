@@ -1,0 +1,5 @@
+# Licensable picture: Bahrain’s Prime Minister and Crown Prince, Sheikh Salman bin Hamad al-Khalifa is received by Crown Prince of Abu Dhabi, Sheikh Khaled bin Mohamed bin Zayed Al Nahyan, upon his arrival to Abu Dhabi
+source: Reuters Connect
+url: https://news.google.com/rss/articles/CBMilgNBVV95cUxPSGUyLUxvMkI5YWdSRWxVVW45d3J3VV85dlRmMFJOb2lpNUFnVjFQYmFhM2pfZWtTcG1PSndrdThqX3ViTHh3WG9rOWdQYmp2WEttOXJVUzlUajYwVUhFaGhTLVU4MjMxZlQtbXc2cnRRSGtrTDU2cXNmeU95LUlrTnVBU3VFb203cXl5cFloOHZjamxjbFVkbWFmVVUyZjBYam9iWVZPTktDTkZfYTlXNFNHR2FKVXc2QU10MDgtbW1HZUVLNkUtb051b1NabzVrY0E3OU5wOW00QTN5MkpKVVVzZmdZbHpLVHlTcHhxcnFiZHp3ZkVtQ05qNjZDZ3dpek9JMEtxZS03SGY3Rmlza1FQUjhpQXdtMEdqejN4YndpMjNYNUhVM3dCSFJxYktyTHpzcFZTdjJBTkdEdXFxbUVrRU50bjNiQTJ0WVg3OXlrQ1VGMUR3T0t2UlhOMDdXQTdPTHhTOXl6TVgwUTdNbTNFQ0piaGFMYnhKMGRpTV9nOHhVZnRaNGFkTjNjbnpVSmVqQ2Fn?oc=5
+
+Licensable picture: Bahrain’s Prime Minister and Crown Prince, Sheikh Salman bin Hamad al-Khalifa is received by Crown Prince of Abu Dhabi, Sheikh Khaled bin Mohamed bin Zayed Al Nahyan, upon his arrival to Abu Dhabi    Reuters Connect

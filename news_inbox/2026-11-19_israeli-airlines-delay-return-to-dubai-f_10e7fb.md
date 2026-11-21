@@ -1,0 +1,5 @@
+# Israeli Airlines Delay Return to Dubai Flights
+source: Wisevoter
+url: https://news.google.com/rss/articles/CBMilwFBVV95cUxQb0VCWnV2S29ucXZjQ0NkcFlWcHdxVEtBZjJ4bEk0SUZqNEdNWUFLRjN4Yk91ekN4NGZQZU1IWEZyc0dVZzZEOWlrcFVmTVhxUGtITkpBRHU2XzNZeGFkM29yYnducFBYdS1FY0pHYVRmcEo2M2Y5MWtLMEFyU28wVlRKR25ORU14MERpX05FYWZ0Vi1EVHFn?oc=5
+
+Israeli Airlines Delay Return to Dubai Flights    Wisevoter

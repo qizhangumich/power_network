@@ -1,0 +1,5 @@
+# Government Walks The Talk; Abu Dhabi's Sovereign Wealth Fund Becomes The First Fund To Get Tax Exemption For Infra Investments, Additional Conditions Prescribed!
+source: Legal 500
+url: https://news.google.com/rss/articles/CBMiyAJBVV95cUxQNkhUTHZ0RTFiQlAzOUl4UklHRW1IOVJOQ0tCeHRGN0ZnQjhjaDVVTTNOQ0NhUk5LZWZGR3hEZEpPeWhZRW9ueEFReGNQMXl4Tm03UmNJT3pVWGhDRV9CSEhDOUotNFpiOFZYSkNfN1RwRGRQN240Y011TnFWRWVQdTZ3U2UzZkJINmRCdW9RcUlhQjNOWXBRQWZGRG9xT1U2R3g1YjZaY3FRSWhORXZYNlBXSTZRdzBpel9TSlNPSWdNQXNfRUdZeEhlcHEwcHdhblRGeHdKUmJKSERsd1JOT3dlSmpWb0xGRE9rblJwN1MxYVR4Y2J5MEYteXZBZURtYk1CWFMyZzdHYkxCWnlmMTJUb2loazBIcjA5Y1lBYzBBYUR6MFZsMm1lYUFSM25rcnAxa1IzRnVhY2czM0gwbGtRTi1RT3dl?oc=5
+
+Government Walks The Talk; Abu Dhabi's Sovereign Wealth Fund Becomes The First Fund To Get Tax Exemption For Infra Investments, Additional Conditions Prescribed!    Legal 500
