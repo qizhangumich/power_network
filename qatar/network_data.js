@@ -1274,7 +1274,7 @@ const PEOPLE = [
   {id:"h_e_saad", n:"H.E. Saad bin Ali Al Kharji", t:2, p:62, s:"consumer_disc", roles:[
     ["qta","Chairman","board","v"],
     ["qm","Board Member","board","v"],
-    ["qatarrail","Board Member","board","ns"],
+    ["qatarrail","Board Member","board","v"],
     ["katarahosp","Deputy Chairman","board","v"]]},
   {id:"sheikh_ali_alwaleed", n:"Sheikh Ali Alwaleed Al-Thani", t:2, p:52, s:"consumer_disc", roles:[
     ["qfz","Board Member","board","v"],
@@ -1419,7 +1419,7 @@ const PEOPLE = [
   {id:"sheikh_mohammed_bin_b_b", n:"Sheikh Mohammed bin Hamad bin Faisal Al Thani", t:2, p:52, s:"industry", roles:[
     ["qatar_diamond_exchange","Chairman","board","v"],
     ["qfz","Chief Executive Officer","executive","ns"],
-    ["qatarrail","Board Member","board","ns"]]},
+    ["qatarrail","Board Member","board","v"]]},
   {id:"jassim_al_buhashim", n:"Jassim Al-Buhashim Al-Sayed", t:2, p:52, s:"industry", roles:[
     ["qatarrail","Board Member","board","ns"]]},
   {id:"saad_abdul_karim", n:"Saad Abdul Karim Al Qahtani", t:2, p:52, s:"industry", roles:[

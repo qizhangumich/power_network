@@ -1214,7 +1214,7 @@ const PEOPLE = [
     ["pic","Chief Executive Officer","executive","v"]]},
   {id:"feras_alawwad", n:"Feras Alawwad", t:2, p:60, s:"materials", roles:[
     ["equate","Board Member","board","v"],
-    ["pic","Deputy CEO - Projects & Business Development","executive","ns"]]},
+    ["pic","Deputy CEO - Projects & Business Development","executive","v"]]},
   {id:"mohammed_saqr_al", n:"Mohammed Saqr Al-Ghanim", t:2, p:62, s:"industry", roles:[
     ["kotc","Deputy Chairman","board","v"]]},
   {id:"ahmed_youssef_al", n:"Ahmed Youssef Al-Rashdan", t:2, p:52, s:"industry", roles:[

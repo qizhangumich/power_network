@@ -13,6 +13,7 @@ qatar,shell,Shell,energy,70,1,pending
 abudhabi,goldman,Goldman Sachs,finance,66,0,pending
 kuwait,kfas,Kuwait Foundation for the Advancement of Sciences,gov,66,0,pending
 qatar,sjc,Supreme Judiciary Council,gov,66,1,pending
+saudi,lst_2083,Marafiq (Power and Water Utility Company for Jubail and Yanbu),utilities,65,0,pending
 abudhabi,eni,Eni,energy,64,0,pending
 abudhabi,mckinsey,McKinsey & Company,industry,64,0,pending
 qatar,eni,Eni,energy,64,0,pending
@@ -70,6 +71,7 @@ qatar,alrayan_investment,AlRayan Investment LLC,finance,58,1,pending
 qatar,qna,Qatar News Agency,comm,58,1,pending
 qatar,basf_coatings,BASF Coatings (Carlyle/QIA venture),materials,58,0,pending
 qatar,qnbfs,QNB Financial Services,finance,58,0,pending
+saudi,lst_6017,Jahez International Company for Information Systems Technology,consumer_disc,58,0,pending
 saudi,lst_4322,Retal Urban Development Co.,realestate,58,0,pending
 saudi,iot_squared,iot squared,tech,58,1,pending
 saudi,taqnia,Saudi Technology Development and Investment Company,tech,58,0,pending
@@ -682,12 +684,11 @@ saudi,lst_6012,Raydan Food Co.,consumer_disc,50,0,pending
 saudi,lst_6013,Development Works Food Co.,consumer_disc,50,0,pending
 saudi,lst_6014,Alamar Foods Co.,consumer_disc,50,0,pending
 saudi,lst_6016,Burgerizzr Co.,consumer_disc,50,0,pending
-saudi,lst_6017,Jahez International Co.,consumer_disc,50,0,pending
 saudi,lst_6018,Sport Clubs Co.,consumer_disc,50,0,pending
 saudi,lst_6019,Almasar Alshamil Education Co.,consumer_disc,50,0,pending
 saudi,lst_6022,Armah Sports Co.,consumer_disc,50,0,pending
 saudi,lst_4070,Arriyadh Development Co. (TAPRCO),comm,50,0,pending
-saudi,lst_4071,Saudi Research and Media Group Alarabia,comm,50,0,pending
+saudi,lst_4071,Arabian Contracting Services Co.,consumer_disc,50,0,pending
 saudi,lst_4008,Saudi Co. for Hardware (SACO),consumer_disc,50,0,pending
 saudi,lst_4050,Saudi Automotive Services Co. (SASCO),consumer_disc,50,0,pending
 saudi,lst_4051,Baazeem Trading Co.,consumer_disc,50,0,pending
@@ -761,7 +762,6 @@ saudi,lst_8300,Wataniya Insurance Co.,finance,50,0,pending
 saudi,lst_8310,Amana Cooperative Insurance Co.,finance,50,0,pending
 saudi,lst_8311,Enaya Cooperative Insurance Co.,finance,50,1,pending
 saudi,lst_2081,Alkhorayef Water and Power Technologies Co.,utilities,50,0,pending
-saudi,lst_2083,Marafiq (Power and Water Utility Company for Jubail and Yanbu),utilities,50,0,pending
 saudi,lst_2084,Miahona Holding Co.,utilities,50,0,pending
 saudi,lst_4020,Saudi Real Estate Co. (Alakaria),realestate,50,0,pending
 saudi,lst_4090,Taiba Investments Co.,realestate,50,0,pending
