@@ -908,6 +908,7 @@ const PEOPLE = [
     ], note:"Interim CEO of Al Dahra Holding since August 2026"},
   {id:"khalid_anib", n:"Khalid Anib", t:2, p:58, s:"realestate", roles:[
     ["adnh","CEO","executive","v"],
+    ["adnh_catering","Board Member","board","v"],
     ], note:"CEO of Abu Dhabi National Hotels since 2016"},
   {id:"abdulla_alghfeli", n:"Dr. Abdulla Hamad AlGhfeli", t:2, p:58, s:"gov", roles:[
     ["itc","Acting Director-General","government","v"],
@@ -1031,6 +1032,7 @@ const PEOPLE = [
   {id:"sheikh_ahmed_mohammed", n:"Sheikh Ahmed Mohammed Sultan Aldhaheri", t:2, p:52, s:"finance", roles:[
     ["fab","Board Member","board","v"],
     ["nmdc_energy","Chief Executive Officer","executive","v"],
+    ["adnh_catering","Deputy Chairman","board","v"],
     ]},
   {id:"mohammed_thani_murshed", n:"Mohammed Thani Murshed Al Rumaithi", t:2, p:62, s:"finance", roles:[
     ["fab","Board Member","board","v"],
@@ -2032,6 +2034,7 @@ const PEOPLE = [
     ]},
   {id:"sheikh_saif_bin", n:"Sheikh Saif bin Mohammed bin Butti Al Hamed", t:2, p:62, s:"finance", roles:[
     ["lst_bos","Deputy Chairman","board","v"],
+    ["awnic","Chairman","board","v"],
     ]},
   {id:"abdulaziz_mubarak_al", n:"Abdulaziz Mubarak Al Hasawi", t:2, p:52, s:"finance", roles:[
     ["lst_bos","Non-Executive Director","board","v"],
@@ -3762,6 +3765,7 @@ const PEOPLE = [
     ]},
   {id:"khamis_mohamed_buharoon", n:"Khamis Mohamed Buharoon Al Shamsi", t:2, p:52, s:"consumer_stap", roles:[
     ["agthia","Board Member","board","v"],
+    ["ad_national_takaful","Chairman","board","v"],
     ]},
   {id:"sharmila_murat", n:"Sharmila Murat", t:2, p:52, s:"consumer_stap", roles:[
     ["agthia","Board Member","board","v"],
@@ -3939,6 +3943,7 @@ const PEOPLE = [
     ]},
   {id:"mohamed_khalaf_alotaiba", n:"Mohamed Khalaf Alotaiba", t:2, p:52, s:"finance", roles:[
     ["adnic","Board Member","board","ns"],
+    ["adnh_catering","Board Member","board","v"],
     ]},
   {id:"jugal_kishore_madaan", n:"Jugal Kishore Madaan", t:2, p:60, s:"finance", roles:[
     ["adnic","Acting Chief Executive Officer","executive","ns"],
@@ -4092,6 +4097,7 @@ const PEOPLE = [
     ]},
   {id:"khalaf_sultan_rashed", n:"Khalaf Sultan Rashed Saeed Al Dhaheri", t:2, p:62, s:"realestate", roles:[
     ["adnh","Chairman of the Board of Directors","board","ns"],
+    ["adnh_catering","Chairman","board","v"],
     ]},
   {id:"sheikh_ahmed_mohammed_b", n:"Sheikh Ahmed Mohammed Sultan Suroor Aldhahiri", t:2, p:62, s:"realestate", roles:[
     ["adnh","Vice Chairman and Managing Director","board","ns"],
@@ -4854,6 +4860,85 @@ const PEOPLE = [
     ]},
   {id:"tanvir_haque", n:"Tanvir Haque", t:2, p:60, s:"realestate", roles:[
     ["lst_eshraq","Acting Chief Executive Officer & Chief Strategy Officer","executive","v"],
+    ]},
+  {id:"rashid_ali_rashid", n:"Rashid Ali Rashid Al Omaira", t:2, p:62, s:"materials", roles:[
+    ["bildco","Chairman & Group CEO","board","v"],
+    ]},
+  {id:"saeed_saif_darwish", n:"Saeed Saif Darwish Ahmed Alketbi", t:2, p:62, s:"materials", roles:[
+    ["bildco","Vice Chairman","board","v"],
+    ]},
+  {id:"ali_rasheed_naser", n:"Ali Rasheed Naser Alomaira", t:2, p:52, s:"materials", roles:[
+    ["bildco","Board Member","board","v"],
+    ]},
+  {id:"suhail_saeed_abdulla", n:"Suhail Saeed Abdulla Sulayem Alfalasi", t:2, p:52, s:"materials", roles:[
+    ["bildco","Board Member","board","v"],
+    ]},
+  {id:"hamad_obaid_hamad", n:"Hamad Obaid Hamad Taryam Al Shamsi", t:2, p:52, s:"materials", roles:[
+    ["bildco","Board Member","board","v"],
+    ]},
+  {id:"shamsa_sulaiman_alfahim", n:"Shamsa Sulaiman Alfahim", t:2, p:60, s:"materials", roles:[
+    ["bildco","Board Member","board","v"],
+    ["bildco","Acting Chief Executive Officer","executive","v"],
+    ]},
+  {id:"dina_ali_saif", n:"Dina Ali Saif Khalfan Beljaflah", t:2, p:52, s:"materials", roles:[
+    ["bildco","Board Member","board","v"],
+    ]},
+  {id:"rauda_abdulla_sorour", n:"Rauda Abdulla Sorour Al Dhaheri", t:2, p:52, s:"consumer_stap", roles:[
+    ["adnh_catering","Board Member","board","v"],
+    ]},
+  {id:"darwish_ahmed_darwish", n:"Darwish Ahmed Darwish Ahmed Alketbi", t:2, p:52, s:"consumer_stap", roles:[
+    ["adnh_catering","Board Member","board","v"],
+    ]},
+  {id:"clive_cowley", n:"Clive Cowley", t:2, p:52, s:"consumer_stap", roles:[
+    ["adnh_catering","Board Member","board","v"],
+    ]},
+  {id:"colm_o_mahony", n:"Colm O'Mahony", t:2, p:60, s:"consumer_stap", roles:[
+    ["adnh_catering","Chief Executive Officer ME","executive","v"],
+    ]},
+  {id:"anthony_childers", n:"Anthony Childers", t:2, p:58, s:"consumer_stap", roles:[
+    ["adnh_catering","Chief Financial Officer ME","executive","v"],
+    ]},
+  {id:"laura_abizova", n:"Laura Abizova", t:2, p:58, s:"consumer_stap", roles:[
+    ["adnh_catering","Procurement and Supply Chain Director ME","executive","v"],
+    ]},
+  {id:"scott_durand", n:"Scott Durand", t:2, p:60, s:"consumer_stap", roles:[
+    ["adnh_catering","Managing Director, UAE","executive","v"],
+    ]},
+  {id:"simon_khayat", n:"Simon Khayat", t:2, p:60, s:"consumer_stap", roles:[
+    ["adnh_catering","Managing Director, KSA","executive","v"],
+    ]},
+  {id:"rashed_darwish_ahmed", n:"Rashed Darwish Ahmed Al Ketbi", t:2, p:62, s:"finance", roles:[
+    ["awnic","Vice Chairman & Managing Director","board","v"],
+    ]},
+  {id:"zayed_butti_al", n:"Zayed Butti Al-Maktoum", t:2, p:62, s:"finance", roles:[
+    ["awnic","Independent Director (Audit Committee Chairman)","board","v"],
+    ]},
+  {id:"salem_mohamed_salem", n:"Salem Mohamed Salem Boabaid", t:2, p:62, s:"finance", roles:[
+    ["awnic","Independent Director (Remuneration Committee Chairman)","board","v"],
+    ]},
+  {id:"mubarak_khaled_mubarak", n:"Mubarak Khaled Mubarak Al Kindi", t:2, p:52, s:"finance", roles:[
+    ["awnic","Board Member","board","ns"],
+    ]},
+  {id:"shukri_almheiri", n:"Shukri Almheiri", t:2, p:60, s:"finance", roles:[
+    ["awnic","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"muralikrishnan_r", n:"Muralikrishnan R", t:2, p:46, s:"finance", roles:[
+    ["awnic","General Manager","executive","v"],
+    ]},
+  {id:"osama_abdel_raouf", n:"Osama Abdel Raouf Abdeen", t:2, p:60, s:"finance", roles:[
+    ["ad_national_takaful","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"saeed_mohamed_hasan", n:"Saeed Mohamed Hasan Almasoud", t:2, p:62, s:"finance", roles:[
+    ["national_investor_pr","Chairman","board","v"],
+    ]},
+  {id:"tarik_khalil_badran", n:"Tarik Khalil Badran", t:2, p:62, s:"finance", roles:[
+    ["national_investor_pr","Vice Chairman","board","v"],
+    ]},
+  {id:"mohamed_almazrouei", n:"Mohamed Almazrouei", t:2, p:52, s:"finance", roles:[
+    ["national_investor_pr","Board Member","board","v"],
+    ]},
+  {id:"meera_abouyoussef", n:"Meera Abouyoussef", t:2, p:58, s:"finance", roles:[
+    ["national_investor_pr","Financial Controller","executive","v"],
     ]},
 ];
 

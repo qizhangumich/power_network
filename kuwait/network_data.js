@@ -270,6 +270,12 @@ const INSTITUTIONS = [
   {id:"farwaniya_hosp", n:"Farwaniya Hospital", s:"health", t:2, p:58, short:"Farwaniya Hosp"},
   {id:"adan_hospital", n:"Adan Hospital", s:"health", t:2, p:58, short:"Adan Hospital"},
   {id:"al_jarida", n:"Al-Jarida (Dar Al Jarida Press Printing and Publishing)", s:"comm", t:2, p:55, short:"Al-Jarida"},
+  {id:"kfas", n:"Kuwait Foundation for the Advancement of Sciences", s:"gov", t:1, p:66, short:"KFAS"},
+  {id:"kuwait_cancer_ctr", n:"Kuwait Cancer Control Center", s:"health", t:2, p:58, short:"Kuwait Cancer Ctr"},
+  {id:"hadi_clinic", n:"Hadi Clinic", s:"health", t:3, p:52, short:"Hadi Clinic"},
+  {id:"kcst", n:"Kuwait College of Science and Technology", s:"education", t:3, p:52, short:"KCST"},
+  {id:"kuwait_times", n:"Kuwait Times", s:"comm", t:2, p:54, short:"Kuwait Times"},
+  {id:"dasman_diabetes_inst", n:"Dasman Diabetes Institute", s:"health", t:2, p:58, short:"Dasman Diabetes Inst"},
 ];
 
 const PEOPLE = [
@@ -2473,6 +2479,9 @@ const OWNERSHIP = [
   ["scpd_kuwait","cabinet_kw","secretariat of the cabinet-chaired Supreme Council for Planning and Development","ns"],
   ["farwaniya_hosp","moh_kuwait","government hospital operating under Kuwait's Ministry of Health","ns"],
   ["adan_hospital","moh_kuwait","government hospital operating under Kuwait's Ministry of Health","ns"],
+  ["kfas","kwgov","chaired by the Amir of Kuwait; established by Amiri Decree (1976)","ns"],
+  ["kuwait_cancer_ctr","moh_kuwait","governmental centre affiliated to MOH","ns"],
+  ["dasman_diabetes_inst","kfas","founded by / center of KFAS","ns"],
 ];
 
 const FAMILY = [
@@ -2543,4 +2552,6 @@ const AKA = {
   scpd_kuwait:["GSSCPD","Supreme Council for Planning and Development","SCPD"],
   arab_open_univ:["AOU"],
   al_jarida:["Dar Al Jarida","Dar Al Jarida Press Printing and Publishing"],
+  kuwait_cancer_ctr:["KCCC"],
+  dasman_diabetes_inst:["DDI"],
 };

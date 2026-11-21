@@ -4159,6 +4159,22 @@ const PEOPLE = [
     ["king_abdullah_mc","Director - Research Center","executive","v"]]},
   {id:"omar_abu_suliman", n:"Omar Abu Suliman", t:2, p:58, s:"health", roles:[
     ["king_abdullah_mc","Vice Center Director - Head, Neck and Skull Base Health Center","executive","v"]]},
+  {id:"fawaz_bin_abdulrahman", n:"Fawaz bin Abdulrahman Al-Hijji", t:2, p:60, s:"finance", roles:[
+    ["malath_insurance","Chief Executive Officer & Managing Director","executive","ns"]]},
+  {id:"amro_abdolrazzaq_al", n:"Amro Abdolrazzaq Al Nemari", t:2, p:62, s:"finance", roles:[
+    ["malath_insurance","Vice Chairman of the Board (Independent Member)","board","ns"]]},
+  {id:"salman_bin_nasser", n:"Salman bin Nasser Alhawawi", t:2, p:52, s:"finance", roles:[
+    ["malath_insurance","Board Member","board","ns"]]},
+  {id:"amro_abdullah_bin", n:"Amro Abdullah bin Shalhoub", t:2, p:52, s:"finance", roles:[
+    ["malath_insurance","Board Member","board","ns"]]},
+  {id:"muhannad_abdulaziz_algasem", n:"Muhannad Abdulaziz Algasem", t:2, p:52, s:"finance", roles:[
+    ["malath_insurance","Board Member","board","ns"]]},
+  {id:"yassir_reshaid_al", n:"Yassir Reshaid Al-Reshaid", t:2, p:52, s:"finance", roles:[
+    ["malath_insurance","Board Member","board","ns"]]},
+  {id:"mamdouh_bin_saud", n:"Mamdouh bin Saud Al-Sharhan", t:2, p:52, s:"finance", roles:[
+    ["malath_insurance","Board Member (appointed to fill vacancy, Sept 2025)","board","ns"]]},
+  {id:"hamad_fahad_al", n:"Hamad Fahad Al Malik", t:2, p:52, s:"finance", roles:[
+    ["malath_insurance","Independent Board Member (appointed July 2026)","board","ns"]]},
 ];
 
 const OWNERSHIP = [

@@ -425,6 +425,7 @@ const PEOPLE = [
     ["enoc","Vice Chairman","board","v"],
     ["dxbgov","Acting Director-General, Ruler's Court","government","v"]]},
   {id:"omar_alfuttaim", n:"Omar Al Futtaim", t:2, p:76, s:"conglomerate", roles:[
+    ["emirates_inv_bank","Chairman of the Board","board","v"],
     ["ikea_al_futtaim","Vice Chairman and CEO - Al-Futtaim Group","board","v"],
     ["orient_insurance","Vice Chairman","board","v"],
     ["alfuttaim","Vice Chairman & CEO","executive","v"],
@@ -488,6 +489,7 @@ const PEOPLE = [
     ["icd","Board Member","board","v"],
     ["enbd","Board Member","board","v"]]},
   {id:"buti_obaid_buti", n:"Buti Obaid Buti Al Mulla", t:2, p:52, s:"finance", roles:[
+    ["dubai_insurance","Chairman","board","v"],
     ["dubai_refreshment","Board Member","board","v"],
     ["american_hospital","Chairman","board","v"],
     ["emirates_islamic","Vice Chairman","board","v"],
@@ -950,6 +952,7 @@ const PEOPLE = [
   {id:"sara_khalil_nooruddin", n:"Sara Khalil Nooruddin", t:2, p:52, s:"health", roles:[
     ["lst_amanat","Board Director","board","v"]]},
   {id:"omran_mohammedsaleh_alkhoori", n:"Omran Mohammedsaleh Alkhoori", t:2, p:52, s:"health", roles:[
+    ["aman_insurance","Board Member","board","ns"],
     ["lst_amanat","Board Director","board","v"]]},
   {id:"john_ireland", n:"John Ireland", t:2, p:60, s:"health", roles:[
     ["lst_amanat","Chief Executive Officer","executive","v"]]},
@@ -1663,6 +1666,7 @@ const PEOPLE = [
     ["american_hospital","Group Chief Executive Officer","executive","v"],
     ["almulla","Group Chief Executive Officer","executive","v"]]},
   {id:"khalid_abdul_wahid", n:"Khalid Abdul Wahid Al Rostamani", t:2, p:62, s:"conglomerate", roles:[
+    ["dubai_insurance","Board Member","board","v"],
     ["awr_properties","Chairman & Group CEO","board","v"],
     ["alrostamani","Chairman","board","v"]]},
   {id:"amina_al_rustamani", n:"Amina Al Rustamani", t:2, p:52, s:"conglomerate", roles:[
@@ -2983,6 +2987,48 @@ const PEOPLE = [
     ["lst_ncc","Board Member","board","v"]]},
   {id:"raja_m_ghanim", n:"Raja M. Ghanim Almazrouie", t:2, p:52, s:"materials", roles:[
     ["lst_ncc","Board Member","board","v"]]},
+  {id:"saif_ali_al", n:"Saif Ali Al Shehhi", t:2, p:62, s:"finance", roles:[
+    ["cbi","Chairman","board","v"]]},
+  {id:"ali_rashid_al_b", n:"Ali Rashid Al Mohannadi", t:2, p:62, s:"finance", roles:[
+    ["cbi","Vice Chairman","board","v"]]},
+  {id:"mubarak_bin_fahad", n:"Mubarak Bin Fahad Al Mheiri", t:2, p:52, s:"finance", roles:[
+    ["cbi","Board Member","board","v"]]},
+  {id:"salaheddin_almabruk_al", n:"Salaheddin Almabruk Al Madani", t:2, p:52, s:"finance", roles:[
+    ["cbi","Board Member","board","v"]]},
+  {id:"maitha_saeed_al", n:"Maitha Saeed Al Falasi", t:2, p:52, s:"finance", roles:[
+    ["cbi","Board Member","board","v"]]},
+  {id:"fatma_ibrahim_al", n:"Fatma Ibrahim Al Baker", t:2, p:52, s:"finance", roles:[
+    ["cbi","Board Member","board","v"]]},
+  {id:"mohamed_ali_musabbeh", n:"Mohamed Ali Musabbeh Al Nuaimi", t:2, p:62, s:"finance", roles:[
+    ["cbi","Board Member (Audit Committee Chairman)","board","v"]]},
+  {id:"ghaith_hammel_al", n:"Ghaith Hammel Al Ghaith Al Qubaisi", t:2, p:52, s:"finance", roles:[
+    ["cbi","Board Member","board","v"]]},
+  {id:"abdulaziz_khalid_jokhdar", n:"Abdulaziz Khalid Jokhdar", t:2, p:52, s:"finance", roles:[
+    ["cbi","Board Member","board","v"]]},
+  {id:"ali_sultan_rakkad", n:"Ali Sultan Rakkad Al Amri", t:2, p:60, s:"finance", roles:[
+    ["cbi","Chief Executive Officer","executive","v"]]},
+  {id:"evren_altiok", n:"Evren Altiok", t:2, p:58, s:"finance", roles:[
+    ["cbi","Chief Operating Officer","executive","v"]]},
+  {id:"kumar_mahapatra", n:"Kumar Mahapatra", t:2, p:58, s:"finance", roles:[
+    ["cbi","Executive Vice President - Wholesale Banking Group","executive","v"]]},
+  {id:"david_pije", n:"David Pije", t:2, p:46, s:"finance", roles:[
+    ["cbi","Head of Compliance","executive","v"]]},
+  {id:"abdullah_mohammed_al", n:"Abdullah Mohammed Al Hariz", t:2, p:52, s:"finance", roles:[
+    ["dubai_insurance","Board Member","board","v"]]},
+  {id:"charbel_yazbeck", n:"Charbel Yazbeck", t:2, p:60, s:"finance", roles:[
+    ["dubai_national_ins","Acting Chief Executive Officer","executive","ns"]]},
+  {id:"michel_longhini", n:"Michel Longhini", t:2, p:60, s:"finance", roles:[
+    ["emirates_inv_bank","Chief Executive Officer","executive","v"]]},
+  {id:"imad_bou_khouzam", n:"Imad Bou Khouzam", t:2, p:58, s:"finance", roles:[
+    ["emirates_inv_bank","Chief Financial Officer","executive","v"]]},
+  {id:"saleh_al_hashemi", n:"Saleh Al Hashemi", t:2, p:62, s:"finance", roles:[
+    ["aman_insurance","Chairman","board","v"]]},
+  {id:"rached_diab", n:"Rached Diab", t:2, p:60, s:"finance", roles:[
+    ["aman_insurance","Chief Executive Officer","executive","v"]]},
+  {id:"mohammed_ahmed_abdulla", n:"Mohammed Ahmed Abdulla Mohammed Almalek", t:2, p:62, s:"finance", roles:[
+    ["aman_insurance","Vice Chairman","board","ns"]]},
+  {id:"maha_khadem_khalfan", n:"Maha Khadem Khalfan Khadem Almheiri", t:2, p:52, s:"finance", roles:[
+    ["aman_insurance","Board Member","board","ns"]]},
 ];
 
 const OWNERSHIP = [

@@ -221,6 +221,10 @@ const INSTITUTIONS = [
   {id:"omran_properties", n:"Omran Properties", s:"realestate", t:3, p:54, short:"Omran Properties"},
   {id:"thumbay_builders", n:"Thumbay Builders", s:"realestate", t:3, p:53, short:"Thumbay Builders"},
   {id:"al_fujairah_ins", n:"Al Fujairah National Insurance Company P.J.S.C.", s:"finance", t:3, p:52, short:"Al Fujairah Ins."},
+  {id:"gulf_today", n:"Gulf Today", s:"comm", t:3, p:54, short:"Gulf Today"},
+  {id:"univ_of_bolton", n:"University of Bolton - Ras Al Khaimah Academic Centre", s:"education", t:3, p:52, short:"Univ of Bolton RAK"},
+  {id:"fuj_media_office", n:"Fujairah Government Media Office", s:"gov", t:3, p:52, short:"Fuj Media Office"},
+  {id:"rak_media_office", n:"Ras Al Khaimah Government Media Office", s:"gov", t:3, p:52, short:"RAK Media Office"},
 ];
 
 const PEOPLE = [
@@ -760,6 +764,7 @@ const PEOPLE = [
     ["fujairah_culture_media","Chairman","executive","ns"],
     ["fujgov","Chairman of Fujairah Culture and Media Authority","executive","ns"]]},
   {id:"thumbay_moideen", n:"Thumbay Moideen", t:2, p:58, s:"health", roles:[
+    ["thumbay_builders","Founder President of Thumbay Group","executive","v"],
     ["thumbay_fujairah","Founder President, Thumbay Group","executive","ns"],
     ["thumbay_univ_hosp","Founder President","executive","v"],
     ["thumbay","Founder President","executive","v"]]},
@@ -838,6 +843,7 @@ const PEOPLE = [
     ["thumbay_univ_hosp","Vice President of Healthcare Division","executive","v"],
     ["thumbay","Vice President, Healthcare Division","executive","v"]]},
   {id:"akram_moideen_thumbay", n:"Akram Moideen Thumbay", t:2, p:58, s:"health", roles:[
+    ["thumbay_builders","Director Operations - Construction & Renovation Division","executive","v"],
     ["thumbay","Director Operations, Construction & Renovation Division; Thumbay Group Board Member","executive","v"]]},
   {id:"benoy_kurien", n:"Benoy Kurien", t:2, p:60, s:"realestate", roles:[
     ["al_hamra","Group Chief Executive Officer","executive","ns"]]},
@@ -975,6 +981,7 @@ const PEOPLE = [
   {id:"raja_al_gurg", n:"Raja Al Gurg", t:2, p:62, s:"finance", roles:[
     ["nbf","Deputy Chairperson","board","v"]]},
   {id:"saif_sultan_al", n:"Saif Sultan Al Salami", t:2, p:52, s:"finance", roles:[
+    ["al_fujairah_ins","Board Member","board","ns"],
     ["fujairah_investment","Managing Director, Fujairah National Group and Fujairah Investment Company","executive","v"],
     ["fujairah_national","Member of the Board","board","v"],
     ["nbf","Director","board","v"]]},
@@ -1718,6 +1725,22 @@ const PEOPLE = [
     ["nbq","Director","board","ns"]]},
   {id:"hisham_ibrahim", n:"Hisham Ibrahim", t:2, p:60, s:"realestate", roles:[
     ["eagle_hills_sharjah","Group CEO of Eagle Hills","executive","v"]]},
+  {id:"abdul_ghafour_hashem_b", n:"Abdul Ghafour Hashem Bahrouzian", t:2, p:62, s:"finance", roles:[
+    ["al_fujairah_ins","Chairman of the Board of Directors","board","v"]]},
+  {id:"humaid_mohamed_humaid", n:"Humaid Mohamed Humaid Al Yamahi", t:2, p:52, s:"finance", roles:[
+    ["al_fujairah_ins","Board Member (Independent Non-Executive Director)","board","ns"]]},
+  {id:"mohamed_sharif_habib", n:"Mohamed Sharif Habib Mohamed Al Awadi", t:2, p:52, s:"finance", roles:[
+    ["al_fujairah_ins","Board Member","board","ns"]]},
+  {id:"salem_abdo_khalil", n:"Salem Abdo Khalil Mohamed Al Zyni", t:2, p:52, s:"finance", roles:[
+    ["al_fujairah_ins","Board Member (Independent Non-Executive Director)","board","ns"]]},
+  {id:"saeed_mobarak_obaid", n:"Saeed Mobarak Obaid Ahmed Al Zahmi", t:2, p:52, s:"finance", roles:[
+    ["al_fujairah_ins","Board Member","board","ns"]]},
+  {id:"abdulla_mohamed_ahmed", n:"Abdulla Mohamed Ahmed Al Khadeem Al Antali", t:2, p:52, s:"finance", roles:[
+    ["al_fujairah_ins","Board Member","board","ns"]]},
+  {id:"salem_abdulla_abdulrahman", n:"Salem Abdulla Abdulrahman Al Afkham Al Hmoudi", t:2, p:52, s:"finance", roles:[
+    ["al_fujairah_ins","Board Member","board","ns"]]},
+  {id:"rahima_ahmed_murad", n:"Rahima Ahmed Murad Al Rayssi", t:2, p:52, s:"finance", roles:[
+    ["al_fujairah_ins","Board Member","board","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -1834,6 +1857,10 @@ const OWNERSHIP = [
   ["eagle_hills_sharjah","shurooq","joint venture","v"],
   ["omran_properties","shurooq","joint venture","v"],
   ["thumbay_builders","thumbay","subsidiary","ns"],
+  ["gulf_today","dar_al_khaleej","published by","ns"],
+  ["univ_of_bolton","rakez","licensed by (Academic Zone, RAKEZ)","v"],
+  ["fuj_media_office","fujgov","established by Emiri Decree No. 10/2014 (Ruler of Fujairah)","v"],
+  ["rak_media_office","rakgov","established under Law No. 5/2018 (Ruler of RAK)","v"],
 ];
 
 const FAMILY = [
@@ -1979,4 +2006,7 @@ const AKA = {
   uaq_fin_admin:["FAD"],
   thumbay_builders:["Thumbay Real Estate"],
   al_fujairah_ins:["AFNIC"],
+  univ_of_bolton:["University of Bolton RAK","UoB Ras Al Khaimah"],
+  fuj_media_office:["Fujairah Media Office"],
+  rak_media_office:["RAKGMO"],
 };

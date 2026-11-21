@@ -1,9 +1,9 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Al Wadi Al Kabir Industrial City,2,oman,pending,2026-11-18,2026-11-18,Al Wadi Al Kabir Industrial City development reviewed
+Council of Asia,2,qatar,pending,2026-11-20,2026-11-20,President of El Salvador Meets President of Olympic Council of Asia
 Gujarat Energy,18,abudhabi,rejected,2026-11-06,2026-11-13,"Gujarat Energy LNG: 4m Tonnes, ADNOC"
 ADNOC Logistics,9,abudhabi,rejected,2026-11-06,2026-11-12,Earnings call transcript: ADNOC Logistics & Services posts record Q3 2026
-Singapore Airlines Group,9,dubai,rejected,2026-10-30,2026-11-12,Dubai and Abu Dhabi add further cancellations as Singapore Airlines pushes its return to February 2027
 I Squared Capital,8,abudhabi,rejected,2026-11-02,2026-11-09,"Avolon, I Squared Capital and ADIA launch aircraft leasing and infrastructure investment platform"
+Singapore Airlines Group,7,dubai,rejected,2026-10-31,2026-11-12,Dubai and Abu Dhabi add further cancellations as Singapore Airlines pushes its return to February 2027
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
 Space42 and IEC Telecom,6,abudhabi,rejected,2026-11-02,2026-11-16,Space42 and IEC Telecom open a new chapter for L-band
 Terrestar Solutions,5,abudhabi,rejected,2026-10-28,2026-10-28,"Terrestar Solutions joins with Equatys, expanding shared satellite infrastructure for global direct-to-device and advanced MSS connectivity "
@@ -17,9 +17,7 @@ Hamad University for Military and Technology,4,qatar,rejected,2026-09-29,2026-09
 CENTERBRIDGE PARTNERS,3,abudhabi,rejected,2026-11-15,2026-11-16,"CANACCORD GENUITY GROUP INC. ANNOUNCES SALE OF ITS WEALTH MANAGEMENT BUSINESS IN THE UK & CROWN DEPENDENCIES TO CENTERBRIDGE PARTNERS, L.P. "
 ADNOC Partners,3,abudhabi,rejected,2026-11-02,2026-11-02,"ADNOC Partners With OpenAI, G42 To Strengthen Advanced AI Adoption"
 Municipal Council,3,oman,rejected,2026-11-01,2026-11-15,Oman sets voting dates for Municipal Council elections
-Bank of Japan,3,oman,rejected,2026-10-30,2026-10-31,Bank of Japan keeps key short-term interest rate unchanged at 1.25%
 Hamad International Airport,3,qatar,rejected,2026-11-02,2026-11-10,Hamad International Airport and Doha Film Institute bring 'Made in Qatar' stories to the terminal
-Fourth Qatar Real Estate,3,qatar,rejected,2026-10-30,2026-11-01,"Fourth Qatar Real Estate Forum 2026 concludes with strong participation, sales exceeding QR1 billion"
 Communications and Information Technology,3,qatar,rejected,2026-10-31,2026-11-12,Minister of Communications and Information Technology Holds Bilateral Meetings on Sidelines of ITU Plenipotentiary Conference
 Avalon Pharma,3,saudi,rejected,2026-11-01,2026-11-13,Avalon Pharma maintains 2026 targets
 Abha International Airport,3,saudi,rejected,2026-10-08,2026-10-08,Saudi Arabia: Attacks target facilities at Abha International Airport and King Khalid International Airport
@@ -52,10 +50,13 @@ Deutsche Bank,2,qatar,rejected,2026-11-18,2026-11-19,"Deutsche Bank leak: What w
 Quality Infrastructure for Sustainable Development,2,oman,rejected,2026-11-12,2026-11-13,Oman climbs seven places in 2026 Quality Infrastructure for Sustainable Development Index
 Hawiyat Najm Park,2,oman,rejected,2026-11-11,2026-11-12,Work progressing well at Hawiyat Najm Park project
 Bank of England Governor,2,qatar,rejected,2026-11-04,2026-11-06,QCB Governor meets Bank of England Governor
+Fourth Qatar Real Estate,2,qatar,rejected,2026-10-31,2026-11-01,"Fourth Qatar Real Estate Forum 2026 concludes with strong participation, sales exceeding QR1 billion"
 Bank of England,2,qatar,rejected,2026-11-05,2026-11-05,Bank of England lifts rate for first time since 2023 to fight inflation
 Bank of Italy,2,qatar,rejected,2026-11-03,2026-11-03,Sheikh Bandar meets governor of the Bank of Italy
+Meteorology Department,2,qatar,rejected,2026-10-31,2026-11-20,"Meteorology Department forecasts falling temperatures, better chances of rain in November"
 Aker Solutions,2,qatar,rejected,2026-11-08,2026-11-10,Aker Solutions secures engineering contract for Qatar’s Maydan Mahzam redevelopment
 Muharraq City,2,bahrain,rejected,2026-11-08,2026-11-09,"King receives Housing Minister, briefed on Muharraq City development project"
+Al Wadi Al Kabir Industrial City,2,oman,added,2026-11-18,2026-11-18,Al Wadi Al Kabir Industrial City development reviewed
 Muscat Municipal Council,2,oman,added,2026-11-17,2026-11-17,Muscat Municipal Council reviews proposal for waterfront development project in Wilayat of Quriyat
 X2 Ventures,2,qatar,added,2026-11-17,2026-11-17,X2 Ventures makes investment in ALPHA10X as it relocates headquarters from France to Doha
 ADI Foundation,2,abudhabi,added,2026-10-29,2026-11-18,"ADI Foundation and Zamanat partner to bring US$150mln in tokenized private credit, trade finance and Sukuk opportunities"
@@ -184,14 +185,14 @@ Awqaf Ministry,1,qatar,rejected,2026-11-04,2026-11-04,Awqaf Ministry issues stat
 Labour Ministry,1,qatar,added,2026-11-03,2026-11-03,Labour Ministry shuts down two recruitment offices in Qatar
 Mekdam Holding,1,qatar,rejected,2026-11-13,2026-11-13,"Mekdam Holding, MEEZA and Quandela sign MoU to accelerate quantum computing deployment across Gulf"
 Secretary-General of Ministry,1,qatar,rejected,2026-11-01,2026-11-01,Secretary-General of Ministry of Foreign Affairs Meets Finland’s Under-Secretary of State for Foreign and Security Policy
-Meteorology Department,1,qatar,rejected,2026-10-31,2026-10-31,"Meteorology Department forecasts falling temperatures, better chances of rain in November"
 German Press Agency,1,qatar,rejected,2026-11-10,2026-11-10,German Press Agency opens office at Media City Qatar
 Undersecretary of Ministry,1,qatar,rejected,2026-11-15,2026-11-15,Undersecretary of Ministry of Interior Meets Assistant Commissioner of Australian Federal Police
+Bank of Japan,1,qatar,rejected,2026-10-31,2026-10-31,Bank of Japan says inflation hit 2% target after 13 years
 HRSD Ministry,1,saudi,rejected,2026-11-07,2026-11-07,Naseej Tech pens SAR 11M contract with HRSD Ministry
 Riyadh Municipality,1,saudi,added,2026-11-03,2026-11-03,Riyadh Municipality launches 1st land investment with private sector
 Woodside Energy,1,,rejected,2026-10-31,2026-10-31,QatarEnergy signs LNG purchase deal with Woodside Energy
-Met Department,1,kuwait,rejected,2026-10-30,2026-10-30,"Met Department warns of thundery rain, dust and rough seas"
 Al Shaheed Park,1,kuwait,rejected,2026-11-03,2026-11-03,IWG Kuwait joins Pink October initiative at Al Shaheed Park
+Met Department,1,kuwait,rejected,2026-10-30,2026-10-30,"Met Department warns of thundery rain, dust and rough seas"
 Sharjah Airport,1,northern,rejected,2026-10-29,2026-10-29,"Sharjah Airport plans integrated check-in, VIP services2m read"
 Estithmar Holding,1,qatar,rejected,2026-10-28,2026-10-28,Estithmar Holding Q.P.S.C. posts stronger Q3 earnings while advancing QAR 1.4bn in growth investments
 Eastern Cement,1,saudi,added,2026-10-28,2026-10-28,"SNB Capital sets Eastern Cement’s rating, TP"

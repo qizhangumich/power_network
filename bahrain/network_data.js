@@ -211,6 +211,11 @@ const INSTITUTIONS = [
   {id:"synergy_shared_svcs", n:"Synergy Shared Services Company W.L.L.", s:"industry", t:2, p:56, short:"Synergy Shared Svcs"},
   {id:"singapore_gulf_bank", n:"Singapore Gulf Bank", s:"finance", t:2, p:56, short:"Singapore Gulf Bank"},
   {id:"areen_hospitality", n:"Areen Hospitality", s:"consumer_disc", t:2, p:54, short:"Areen Hospitality"},
+  {id:"univ_of_tech", n:"University of Technology Bahrain", s:"education", t:2, p:56, short:"Univ of Tech Bahrain"},
+  {id:"royal_bahrain_hosp", n:"Royal Bahrain Hospital", s:"health", t:3, p:52, short:"Royal Bahrain Hosp"},
+  {id:"ibn_al_nafees", n:"Ibn Al-Nafees Hospital", s:"health", t:3, p:51, short:"Ibn Al-Nafees Hosp"},
+  {id:"bipd", n:"Bahrain Institute for Political Development", s:"gov", t:2, p:55, short:"BIPD"},
+  {id:"gulf_university", n:"Gulf University, Bahrain", s:"education", t:3, p:51, short:"Gulf University"},
 ];
 
 const PEOPLE = [
@@ -3924,6 +3929,7 @@ const OWNERSHIP = [
   ["arc_wh","baca","Governing Board chaired by the President of BACA","v"],
   ["synergy_shared_svcs","mumtalakat","wholly-owned subsidiary","v"],
   ["singapore_gulf_bank","mumtalakat","strategic investor (minority stake)","v"],
+  ["univ_of_tech","gfh","owns (acquired Dec 2020 for >$100m)","v"],
 ];
 
 const FAMILY = [
@@ -4008,4 +4014,6 @@ const AKA = {
   daily_tribune:["DT News"],
   synergy_shared_svcs:["Synergy"],
   singapore_gulf_bank:["SGB"],
+  univ_of_tech:["UTB","AMA International University Bahrain","AMAIUB"],
+  gulf_university:["GU"],
 };

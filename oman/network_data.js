@@ -268,6 +268,8 @@ const INSTITUTIONS = [
   {id:"infoline", n:"Infoline LLC", s:"comm", t:3, p:53, short:"Infoline"},
   {id:"muscat_muni_council", n:"Muscat Municipal Council", s:"gov", t:2, p:60, short:"Muscat Muni. Council"},
   {id:"fincorp", n:"The Financial Corporation Company SAOG", s:"finance", t:3, p:52, short:"FINCORP"},
+  {id:"armed_forces_hosp", n:"Armed Forces Hospital", s:"health", t:2, p:56, short:"Armed Forces Hosp"},
+  {id:"al_wadi_al", n:"Al Wadi Al Kabir Industrial City", s:"industry", t:3, p:52, short:"Al Wadi Al Kabir"},
 ];
 
 const PEOPLE = [
@@ -506,6 +508,7 @@ const PEOPLE = [
     ["moafwr","Minister of Agriculture, Fisheries and Water Resources","board","v"],
     ["oia","Board Member (Minister of Agriculture Fisheries & Water Resources)","board","v"]]},
   {id:"abdullah_al_harthi", n:"Abdullah Al Harthi", t:2, p:52, s:"sovereign", roles:[
+    ["fincorp","Chairman of the Board of Directors","board","v"],
     ["oia","Board Member (Undersecretary Ministry of Finance)","board","v"]]},
   {id:"kwa_chong_seng", n:"Kwa Chong Seng", t:2, p:52, s:"sovereign", roles:[
     ["oia","International Board Member","board","v"]]},
@@ -2029,6 +2032,16 @@ const PEOPLE = [
     ["infoline","Strategy & Transformation Director","executive","v"]]},
   {id:"gamal_abdelkader", n:"Gamal Abdelkader", t:2, p:58, s:"comm", roles:[
     ["infoline","Director Operations","executive","v"]]},
+  {id:"qaboos_bin_abdulla", n:"Qaboos bin Abdulla Al Khonji", t:2, p:62, s:"finance", roles:[
+    ["fincorp","Deputy Chairman of the Board","board","v"]]},
+  {id:"saud_ahmed_al", n:"Saud Ahmed Al Siyabi", t:2, p:52, s:"finance", roles:[
+    ["fincorp","Board Member (Independent Non-Executive Director)","board","v"]]},
+  {id:"faisal_ali_jaffar", n:"Faisal Ali Jaffar", t:2, p:52, s:"finance", roles:[
+    ["fincorp","Board Member","board","v"]]},
+  {id:"anees_redha_qamar", n:"Anees Redha Qamar Sultan", t:2, p:52, s:"finance", roles:[
+    ["fincorp","Board Member (Independent Non-Executive Director)","board","v"]]},
+  {id:"shailendra_singh", n:"Shailendra Singh", t:2, p:46, s:"finance", roles:[
+    ["fincorp","General Manager","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -2209,6 +2222,8 @@ const OWNERSHIP = [
   ["oman_rail","asyad","subsidiary","ns"],
   ["infoline","omantel","subsidiary","v"],
   ["fincorp","lst_oeio","subsidiary","ns"],
+  ["al_wadi_al","madayn","industrial zone operated by","ns"],
+  ["univ_medical_city","squ","operated by (teaching hospital on SQU campus)","v"],
 ];
 
 const FAMILY = [
@@ -2301,4 +2316,5 @@ const AKA = {
   imco:["NUST-IMCO"],
   oman_rail:["ORC"],
   fincorp:["FINC"],
+  armed_forces_hosp:["SAF Hospital"],
 };
