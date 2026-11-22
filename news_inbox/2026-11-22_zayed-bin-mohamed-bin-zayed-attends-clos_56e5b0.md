@@ -1,0 +1,5 @@
+# Zayed bin Mohamed bin Zayed attends closing competitions of 18th Abu Dhabi World Professional Jiu-Jitsu Championship
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxQLWlkUXlBQUdCVXloR1YyOGRyYWlDelJVeEFiUFpjSmdqWE5jVzEwdW1Ub0lWa0d1Zmp3dDY2SGxRUVpWd0hibjA3S0hvYnJnN01WNndYUzg0RTEzeWlhYzV6N0tvWFA1SEVxUFMtbExsRUhwRjdEMVJfYzlNTXU2djJRTjN0UDNWTHp0cnhHRXVVbG5FVXhRMGlmbi1fY2phX2xOWklLdHBuUGlGTG9sSUUxVUJkVWRsT25JSzl4c1N2blFuWmt4S3FTek5FVHRjcnBLWXo5VTJUT01UQVFxYUZfT2FvbkFLZUF0bFpzZXo?oc=5
+
+Zayed bin Mohamed bin Zayed attends closing competitions of 18th Abu Dhabi World Professional Jiu-Jitsu Championship    مكتب أبوظبي الإعلامي

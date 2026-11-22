@@ -1,0 +1,5 @@
+# 24 Airbus A380s Under Inspection Alert as Emirates, Etihad and Qantas Face Wing Crack Concerns
+source: Aviation A2Z
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQX1ZnTEVXSmpJS1Y0WWN3aTV5eDBqQ1FCVE41Z3JZQXR0aHFtODlvdUQ1V2dsby1iWjIwNDZ1c09NOW0tSzNONXhfOFhzMXJvdDkydEs1R3BvakNuWjRzTmxtTFdVcldla2t5cWVINDJoN0t3YkFOQWl0dFlLbmRlcHdXUWxabENVbTZJZUNaT2VUU21nWWVxd0hkNHdtQXFrS3JkRUNjMUxSTGt5eUs2QnhXamNfREJFYnZubC0yZ3ZuenlrTFpLNGNET25ENHRqaDBoSUd3?oc=5
+
+24 Airbus A380s Under Inspection Alert as Emirates, Etihad and Qantas Face Wing Crack Concerns    Aviation A2Z
