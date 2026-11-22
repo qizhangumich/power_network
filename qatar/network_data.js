@@ -609,6 +609,7 @@ const PEOPLE = [
     ["barwa","Board Member","board","v"],
     ["masraf","Board Member","board","v"]]},
   {id:"mohamed_jaber_al", n:"Mohamed Jaber Al Sulaiti", t:2, p:52, s:"finance", roles:[
+    ["alrayan_investment","Chairman","board","ns"],
     ["nebras","Board Member","board","v"],
     ["masraf","Board Member","board","v"]]},
   {id:"fahad_al_khalifa", n:"Fahad Al Khalifa", t:2, p:58, s:"finance", roles:[
@@ -2603,6 +2604,20 @@ const PEOPLE = [
     ["al_jazeera_finance","Chief Executive Officer, Al Jazeera Finance Company","executive","v"]]},
   {id:"saud_al_attiyah", n:"Saud Al Attiyah", t:2, p:58, s:"finance", roles:[
     ["x2_ventures","Founder of X2 Ventures","executive","v"]]},
+  {id:"maha_mohamad_al", n:"Maha Mohamad Al Sulaiti", t:2, p:60, s:"finance", roles:[
+    ["qnbfs","Chief Executive Officer","executive","ns"]]},
+  {id:"faisal_abdul_wahed", n:"Faisal Abdul Wahed Al Hammadi", t:2, p:62, s:"consumer_stap", roles:[
+    ["lst_wdam","Chairman of the Board","board","v"]]},
+  {id:"farhood_hadi_rashid", n:"Farhood Hadi Rashid Al Hajri", t:2, p:60, s:"consumer_stap", roles:[
+    ["lst_wdam","Managing Director","executive","v"]]},
+  {id:"mohammed_ahmed_alasmakh", n:"Mohammed Ahmed Alasmakh", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_wdam","Independent Board Member","board","v"]]},
+  {id:"abdulla_khalid_al", n:"Abdulla Khalid Al-Obaidan", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_wdam","Independent Board Member","board","v"]]},
+  {id:"yousuf_ebrahim_al", n:"Yousuf Ebrahim Al-Mahmoud", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_wdam","Independent Board Member","board","v"]]},
+  {id:"mehmet_murat_nursel", n:"Mehmet Murat Nursel", t:2, p:58, s:"industry", roles:[
+    ["qas","Senior Vice President - Ground Handling","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

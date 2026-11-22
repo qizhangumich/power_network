@@ -1741,6 +1741,14 @@ const PEOPLE = [
     ["al_fujairah_ins","Board Member","board","ns"]]},
   {id:"rahima_ahmed_murad", n:"Rahima Ahmed Murad Al Rayssi", t:2, p:52, s:"finance", roles:[
     ["al_fujairah_ins","Board Member","board","ns"]]},
+  {id:"abdulaziz_rashid_al", n:"Abdulaziz Rashid Al Saleh", t:2, p:58, s:"gov", roles:[
+    ["srerd","Director of the Sharjah Real Estate Registration Department","executive","v"]]},
+  {id:"omar_al_mansouri", n:"Omar Al Mansouri", t:2, p:58, s:"gov", roles:[
+    ["srerd","Director of the Branches Department","executive","v"]]},
+  {id:"obaid_al_mazloum", n:"Obaid Al-Mazloum", t:2, p:58, s:"gov", roles:[
+    ["srerd","Director of the Real Estate Projects Regulation Department","executive","ns"]]},
+  {id:"mona_al_ayyan", n:"Mona Al-Ayyan", t:2, p:58, s:"health", roles:[
+    ["saqr_hospital","Director of Saqr Hospital","executive","v"]]},
 ];
 
 const OWNERSHIP = [

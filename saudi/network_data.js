@@ -440,7 +440,7 @@ const INSTITUTIONS = [
   {id:"center3", n:"Center3", s:"tech", t:2, p:58, short:"Center3"},
   {id:"idj", n:"International Dairy & Juice Limited", s:"consumer_stap", t:2, p:56, short:"IDJ"},
   {id:"gib_capital", n:"GIB Capital", s:"finance", t:2, p:56, short:"GIB Capital"},
-  {id:"solutions_by_stc", n:"solutions by stc", s:"tech", t:3, p:55, short:"solutions by stc"},
+  {id:"solutions_by_stc", n:"Specialized Business Solutions Company", s:"tech", t:3, p:55, short:"solutions by stc"},
   {id:"al_habib_real", n:"Mohammed Al-Habib Real Estate & Investment Company", s:"realestate", t:3, p:58, short:"Al Habib Real Estate"},
   {id:"yanpet", n:"Saudi Yanbu Petrochemical Company", s:"materials", t:2, p:62, short:"YANPET"},
   {id:"kemya", n:"Al-Jubail Petrochemical Company", s:"materials", t:2, p:58, short:"KEMYA"},
@@ -594,6 +594,8 @@ const INSTITUTIONS = [
   {id:"arabsat", n:"Arab Satellite Communications Organization", s:"comm", t:2, p:62, short:"Arabsat"},
   {id:"amsa_hospitality", n:"Amsa Hospitality", s:"consumer_disc", t:2, p:52, short:"Amsa Hospitality"},
   {id:"malath_insurance", n:"Malath Cooperative Insurance Company", s:"finance", t:3, p:54, short:"Malath Insurance"},
+  {id:"al_rajhi_capital", n:"Al Rajhi Capital", s:"finance", t:2, p:58, short:"Al Rajhi Capital"},
+  {id:"alinma_capital", n:"Alinma Capital Company", s:"finance", t:3, p:52, short:"Alinma Capital"},
 ];
 
 const PEOPLE = [
@@ -897,6 +899,7 @@ const PEOPLE = [
   {id:"sara_abdullatif_nugali", n:"Sara Abdullatif Nugali", t:2, p:58, s:"finance", roles:[
     ["snb","Chief Operating Officer","executive","ns"]]},
   {id:"abdullah_bin_sulaiman", n:"Abdullah bin Sulaiman Al Rajhi", t:2, p:62, s:"finance", roles:[
+    ["al_rajhi_capital","Chairman","board","v"],
     ["alrajhi","Chairman","board","v"]]},
   {id:"ibrahim_bin_mohammed", n:"Ibrahim bin Mohammed Al Romaih", t:2, p:62, s:"finance", roles:[
     ["sanabil","Board Member","board","v"],
@@ -1120,6 +1123,7 @@ const PEOPLE = [
   {id:"faisal_saeed_alsaber", n:"Faisal Saeed Alsaber", t:2, p:58, s:"comm", roles:[
     ["stc","Group Chief Commercial Officer","executive","v"]]},
   {id:"riyadh_saeed_muawad", n:"Riyadh Saeed Muawad", t:2, p:58, s:"comm", roles:[
+    ["solutions_by_stc","Chairman of the Board","board","v"],
     ["sirar_by_stc","Chairman of the Board","board","v"],
     ["stc","Group Chief Business Officer","executive","v"]]},
   {id:"mohammed_abdullah_alabbadi", n:"Mohammed Abdullah Alabbadi", t:2, p:58, s:"comm", roles:[
@@ -4175,6 +4179,8 @@ const PEOPLE = [
     ["malath_insurance","Board Member (appointed to fill vacancy, Sept 2025)","board","ns"]]},
   {id:"hamad_fahad_al", n:"Hamad Fahad Al Malik", t:2, p:52, s:"finance", roles:[
     ["malath_insurance","Independent Board Member (appointed July 2026)","board","ns"]]},
+  {id:"hossam_essam_al", n:"Hossam Essam Al-Basrawi", t:2, p:60, s:"finance", roles:[
+    ["al_rajhi_capital","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -4605,6 +4611,8 @@ const OWNERSHIP = [
   ["petrokemya","sabic","wholly-owned subsidiary (Jubail olefins/polymers complex)","v"],
   ["sedco_capital","sedco","wholly-owned subsidiary (CMA-licensed asset manager; est. 2010)","v"],
   ["arabsat","stc","associate (36.66% equity interest)","v"],
+  ["al_rajhi_capital","alrajhi","subsidiary of","v"],
+  ["alinma_capital","lst_1150","subsidiary of","v"],
 ];
 
 const FAMILY = [
@@ -4616,6 +4624,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  solutions_by_stc:["solutions by stc","SBS"],
   qiddiya:["Qiddiya City"],
   lubna:["Lubna S. Olayan","Lubna Sulaiman Olayan"],
   kaec:["Emaar, The Economic City","Emaar Economic City","4220"],
@@ -4772,4 +4781,6 @@ const AKA = {
   barclays_saudi:["Barclays Riyadh Office"],
   arabsat:["ASCO"],
   malath_insurance:["Malath","8020"],
+  al_rajhi_capital:["ARC"],
+  alinma_capital:["Alinma Investment","Alinma Investment Company"],
 };

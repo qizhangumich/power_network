@@ -216,6 +216,10 @@ const INSTITUTIONS = [
   {id:"ibn_al_nafees", n:"Ibn Al-Nafees Hospital", s:"health", t:3, p:51, short:"Ibn Al-Nafees Hosp"},
   {id:"bipd", n:"Bahrain Institute for Political Development", s:"gov", t:2, p:55, short:"BIPD"},
   {id:"gulf_university", n:"Gulf University, Bahrain", s:"education", t:3, p:51, short:"Gulf University"},
+  {id:"credimax", n:"CrediMax B.S.C.(c)", s:"finance", t:2, p:58, short:"CrediMax"},
+  {id:"kfh_bahrain", n:"Kuwait Finance House – Bahrain B.S.C.(c)", s:"finance", t:2, p:62, short:"KFH Bahrain"},
+  {id:"invita", n:"Invita W.L.L.", s:"industry", t:3, p:52, short:"Invita"},
+  {id:"abc_islamic_bank", n:"ABC Islamic Bank (E.C.)", s:"finance", t:2, p:56, short:"ABC Islamic Bank"},
 ];
 
 const PEOPLE = [
@@ -535,6 +539,7 @@ const PEOPLE = [
   {id:"sara_khalil_nooruddin", n:"Sara Khalil Nooruddin", t:2, p:52, s:"finance", roles:[
     ["lst_bbk","Board Member","board","v"]]},
   {id:"yaser_alsharifi", n:"Yaser Alsharifi", t:2, p:60, s:"finance", roles:[
+    ["credimax","Chairman","board","ns"],
     ["bibf","Board Member","board","v"],
     ["lst_bbk","Group Chief Executive Officer","executive","v"]]},
   {id:"hassaan_burshaid", n:"Hassaan Burshaid", t:2, p:58, s:"finance", roles:[
@@ -3808,6 +3813,20 @@ const PEOPLE = [
     ["daily_tribune","Honorary Chairman","board","v"]]},
   {id:"hichem_djouhri", n:"Hichem Djouhri", t:2, p:58, s:"finance", roles:[
     ["asb_capital","Senior Executive Officer","executive","v"]]},
+  {id:"hasan_almulla", n:"Hasan Almulla", t:2, p:58, s:"education", roles:[
+    ["univ_of_tech","President","executive","v"]]},
+  {id:"haitham_alqahtani", n:"Haitham Alqahtani", t:2, p:58, s:"education", roles:[
+    ["univ_of_tech","Vice President for Academic Affairs","executive","v"]]},
+  {id:"adnan_altamimi", n:"Adnan Altamimi", t:2, p:58, s:"education", roles:[
+    ["univ_of_tech","Vice President for Administration and Finance","executive","v"]]},
+  {id:"ali_bin_mohammed", n:"Ali bin Mohammed Al Rumaihi", t:2, p:62, s:"gov", roles:[
+    ["bipd","Chairman of the Board of Trustees","board","ns"]]},
+  {id:"eman_faisal_janahi", n:"Eman Faisal Janahi", t:2, p:58, s:"gov", roles:[
+    ["bipd","Executive Director","executive","ns"]]},
+  {id:"andrew_mark_hocking", n:"Andrew Mark Hocking", t:2, p:60, s:"finance", roles:[
+    ["credimax","Chief Executive Officer","executive","ns"]]},
+  {id:"shadi_zahran", n:"Shadi Zahran", t:2, p:60, s:"finance", roles:[
+    ["kfh_bahrain","Group Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -3930,6 +3949,10 @@ const OWNERSHIP = [
   ["synergy_shared_svcs","mumtalakat","wholly-owned subsidiary","v"],
   ["singapore_gulf_bank","mumtalakat","strategic investor (minority stake)","v"],
   ["univ_of_tech","gfh","owns (acquired Dec 2020 for >$100m)","v"],
+  ["credimax","lst_bbk","wholly owned subsidiary of","v"],
+  ["kfh_bahrain","lst_kfh","wholly owned subsidiary of","v"],
+  ["invita","lst_silah","acquired by (subsidiary of)","v"],
+  ["abc_islamic_bank","abc","wholly owned subsidiary of","v"],
 ];
 
 const FAMILY = [
@@ -4016,4 +4039,7 @@ const AKA = {
   singapore_gulf_bank:["SGB"],
   univ_of_tech:["UTB","AMA International University Bahrain","AMAIUB"],
   gulf_university:["GU"],
+  credimax:["c"],
+  kfh_bahrain:["Ahli United Bank B.S.C.(c)","AUB Bahrain","c"],
+  abc_islamic_bank:["formerly ABC Investment and Services Company","E.C."],
 };

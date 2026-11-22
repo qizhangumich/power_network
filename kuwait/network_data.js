@@ -276,10 +276,13 @@ const INSTITUTIONS = [
   {id:"kcst", n:"Kuwait College of Science and Technology", s:"education", t:3, p:52, short:"KCST"},
   {id:"kuwait_times", n:"Kuwait Times", s:"comm", t:2, p:54, short:"Kuwait Times"},
   {id:"dasman_diabetes_inst", n:"Dasman Diabetes Institute", s:"health", t:2, p:58, short:"Dasman Diabetes Inst"},
+  {id:"oca", n:"Olympic Council of Asia", s:"gov", t:2, p:56, short:"OCA"},
+  {id:"boubyan_takaful", n:"Boubyan Takaful Insurance Company", s:"finance", t:3, p:52, short:"Boubyan Takaful"},
 ];
 
 const PEOPLE = [
   {id:"meshal", n:"H.H. Sheikh Meshal Al-Ahmad Al-Jaber Al-Sabah", t:0, p:100, s:"gov", roles:[
+    ["kfas","Chairman of the Board of Trustees","board","v"],
     ["kwgov","Emir of Kuwait","political","v"]]},
   {id:"sabah_khaled", n:"H.H. Sheikh Sabah Al-Khaled Al-Sabah", t:0, p:88, s:"gov", roles:[
     ["kwgov","Crown Prince","political","v"]]},
@@ -2294,6 +2297,26 @@ const PEOPLE = [
     ["lst_bkikwt","CEO","executive","ns"]]},
   {id:"mohammad_al_salem", n:"Mohammad Al Salem", t:2, p:62, s:"energy", roles:[
     ["lst_senergy","Vice Chairman and CEO","executive","ns"]]},
+  {id:"ameenah_rajab_farhan", n:"Ameenah Rajab Farhan", t:2, p:58, s:"gov", roles:[
+    ["kfas","Director General","executive","v"]]},
+  {id:"khaled_hilal_eidan", n:"Khaled Hilal Eidan Al-Khaled", t:2, p:58, s:"health", roles:[
+    ["kuwait_cancer_ctr","Director","executive","ns"]]},
+  {id:"fahad_mulfi_mufleh", n:"Fahad Mulfi Mufleh Al-Rasheedi", t:2, p:46, s:"health", roles:[
+    ["kuwait_cancer_ctr","Head of Medical Committee","executive","ns"]]},
+  {id:"jasim_yousif_alabbad", n:"Jasim Yousif Alabbad", t:2, p:58, s:"health", roles:[
+    ["dasman_diabetes_inst","Director General","executive","ns"]]},
+  {id:"m_ziad_al", n:"M Ziad Al-Alyan", t:2, p:58, s:"comm", roles:[
+    ["kuwait_times","Editor-in-Chief","executive","v"]]},
+  {id:"jana_alnaqeeb", n:"Jana Alnaqeeb", t:2, p:58, s:"comm", roles:[
+    ["kuwait_times","Deputy Editor-in-Chief","executive","ns"]]},
+  {id:"khaled_saeed_al", n:"Khaled Saeed Al-Abd Esbaitah", t:2, p:62, s:"consumer_disc", roles:[
+    ["lst_ifahr","Chairman","board","v"]]},
+  {id:"faisal_yaqoub_boodai", n:"Faisal Yaqoub Boodai", t:2, p:62, s:"consumer_disc", roles:[
+    ["lst_trolley","Chairman","board","v"]]},
+  {id:"mohammad_yaqoub_boodai", n:"Mohammad Yaqoub Boodai", t:2, p:60, s:"consumer_disc", roles:[
+    ["lst_trolley","CEO","executive","ns"]]},
+  {id:"husain_al_musallam", n:"Husain Al Musallam", t:2, p:58, s:"gov", roles:[
+    ["oca","Director General","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2482,6 +2505,7 @@ const OWNERSHIP = [
   ["kfas","kwgov","chaired by the Amir of Kuwait; established by Amiri Decree (1976)","ns"],
   ["kuwait_cancer_ctr","moh_kuwait","governmental centre affiliated to MOH","ns"],
   ["dasman_diabetes_inst","kfas","founded by / center of KFAS","ns"],
+  ["boubyan_takaful","lst_boubyan","subsidiary of","v"],
 ];
 
 const FAMILY = [
@@ -2554,4 +2578,5 @@ const AKA = {
   al_jarida:["Dar Al Jarida","Dar Al Jarida Press Printing and Publishing"],
   kuwait_cancer_ctr:["KCCC"],
   dasman_diabetes_inst:["DDI"],
+  boubyan_takaful:["Boubyan Takaful Insurance Co. KSC"],
 };
