@@ -3029,6 +3029,10 @@ const PEOPLE = [
     ["aman_insurance","Vice Chairman","board","ns"]]},
   {id:"maha_khadem_khalfan", n:"Maha Khadem Khalfan Khadem Almheiri", t:2, p:52, s:"finance", roles:[
     ["aman_insurance","Board Member","board","ns"]]},
+  {id:"heddo_siebs", n:"Heddo Siebs", t:2, p:60, s:"conglomerate", roles:[
+    ["albwardy_invest","Chief Executive Officer, Hospitality & Real Estate division","executive","v"]]},
+  {id:"pradeep_surana", n:"Pradeep Surana", t:2, p:58, s:"conglomerate", roles:[
+    ["albwardy_invest","Chief Financial Officer, Hospitality & Real Estate division","executive","v"]]},
 ];
 
 const OWNERSHIP = [

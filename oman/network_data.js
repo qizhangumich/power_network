@@ -2042,6 +2042,10 @@ const PEOPLE = [
     ["fincorp","Board Member (Independent Non-Executive Director)","board","v"]]},
   {id:"shailendra_singh", n:"Shailendra Singh", t:2, p:46, s:"finance", roles:[
     ["fincorp","General Manager","executive","ns"]]},
+  {id:"nasser_ali_musallam", n:"Nasser Ali Musallam Bait Said", t:2, p:60, s:"consumer_stap", roles:[
+    ["al_murooj_dairy","Chief Executive Officer","executive","ns"]]},
+  {id:"mai_said_al", n:"Mai Said Al Abri", t:2, p:58, s:"comm", roles:[
+    ["oman_observer","Managing Editor","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
