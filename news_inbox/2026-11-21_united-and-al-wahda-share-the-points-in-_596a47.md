@@ -1,0 +1,5 @@
+# United and Al-Wahda share the points in ADNOC Pro League
+source: Toowoomba Chronicle
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxNSlhGb2ZhSE9haWVQZDlacW9VRzlic2VSYl9jci1Lc0YxU21KcFVOcW1EU3pZaXRoT3hOM29oRUVMR2tvdldaV0w0dkdFYVNNZnQzMm9xcVVyUXhKRWRXcHpURGJra0xTZmNUYzI3LXdqcGRObDBvV3V4YkZTYmdxZ0FyU09reTZPSndkb0d5Q1JFV21WNHJiMW9KYkhFdk9nTHdxYTBlaDljS1A0ZFU2ejhJeXozOWFIWmhra2RHZi00VlhKUE5TQVY2bXk?oc=5
+
+United and Al-Wahda share the points in ADNOC Pro League    Toowoomba Chronicle

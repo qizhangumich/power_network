@@ -1,0 +1,5 @@
+# Major airlines extend flight cancellations to Saudi Arabia amid rising regional tensions
+source: Hiru News
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa0h4NXotWmxvQlJlQ0VRazF5Q1JBSlZRb2RBYjd4ZlpvVnZRTnVFTW5xbnl3aE8wMmxUUlk0dnhWaTl5d0FqcVV0ekhLYzU1ZTdCZVRrRWZYT281enptMHBVRDR2M0pybUotWUlHMU1TVnlfNnpabGtuZElaWThfcm9iaTZiU29kRnZFZ1A0TEUwZmV0RG1ZV0lCTXlocmJfWVBIUndEZDQ0QmR0ZDM4d2tzODdqWlhfenpneGVKeEo?oc=5
+
+Major airlines extend flight cancellations to Saudi Arabia amid rising regional tensions    Hiru News
