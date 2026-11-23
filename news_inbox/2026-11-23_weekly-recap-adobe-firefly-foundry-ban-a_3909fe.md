@@ -1,0 +1,5 @@
+# Weekly Recap: Adobe Firefly Foundry ban and Mubadala reports 23,074 shares
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa0l3Y2Rlb1llWlFKMzY1SFp6aE0tY1dhNUk5U3JJWXR2MDN6a052enRIMU8wNVNrMG9DVTFfUU1OVnRvdVVzQ3VncGlUaTlLWGx4TGxQUU95QXlGM0g0d3MxVGJCaDRjdEdOTE5kcDJSa2laM0FzQ1FYVUFBTjFnaE54Tmpjb0ZISGFacmRVWkpEbUQ2bkRpMzZxTTVEUThvVU9JSTdKNm5sMExBa0ZIXzlFLS01eVFaaVgtRmM3andKVW1GZUkyblJtYUR1M3Na?oc=5
+
+Weekly Recap: Adobe Firefly Foundry ban and Mubadala reports 23,074 shares    TradingView

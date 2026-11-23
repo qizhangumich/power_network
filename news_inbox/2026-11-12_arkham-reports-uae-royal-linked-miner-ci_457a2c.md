@@ -1,0 +1,5 @@
+# Arkham Reports UAE Royal-Linked Miner Citadel Holds About $532 Million in Bitcoin
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxOaEJxR1BXYlNNNFdMZkpwdnZfUV9vY1VZWkVTMUw3cE9YLTZXUnJYTGdyTzMtZUt0cEc2ZDZFM2UxZEUyaEZfNWdPR2Q2Rk5fMEdCVi1VN01jZDhkSkFRTTl6SThDVm43UE5Oai00VlRibk9KMXUyTUsxbUx6cUZPRS1RdEFWWU1PQ2NuVDk4elFTSFBZbkx5bWJVVVROTGs4bVNsT0lSWkdRREhzMlBQcjR4aGlyQW1jQm02RE5sWmRGUkFDRUpOczc1WFk5ZHhTNzhBbHhVNEdyVkk?oc=5
+
+Arkham Reports UAE Royal-Linked Miner Citadel Holds About $532 Million in Bitcoin    TradingView

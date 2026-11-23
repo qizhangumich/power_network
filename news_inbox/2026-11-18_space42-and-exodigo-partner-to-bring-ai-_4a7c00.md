@@ -1,0 +1,5 @@
+# Space42 And Exodigo Partner To Bring AI-Powered Subsurface Mapping To Uae
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeWZSOWgxX2FrUE04QVVGVDFiMXYxSEtBNk5WUFMxVy1xU0FHaEFyWU92RzVRWDU2Y2FtNnZiT0E3UkN4NkVqU3ZkTXhWakRrMVdtU0tLMVBGY3g0NWQwZXVBNjhmVERSQzNQbWxSVmdPa2FhVE1obnpaSURhSWZwWmtVZWtjWjJ2cUF6bVhQdENEU2ZWUk0tSU5lMWpXUkNmVDlCaWw1V0ZodmQ5OE1od21jMVFtWnJiYUE4M2lXalFuX290MWhnalhYbXlKajhrbFNVdy1ZVWpPaUE?oc=5
+
+Space42 And Exodigo Partner To Bring AI-Powered Subsurface Mapping To Uae    TradingView

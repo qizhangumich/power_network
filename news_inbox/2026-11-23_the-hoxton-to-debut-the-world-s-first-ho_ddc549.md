@@ -1,0 +1,5 @@
+# The Hoxton to Debut the World’s First Hoxton Homes within NOMA, Abu Dhabi's Creative Neighbourhood at Saadiyat Cultural District
+source: Hospitality Net
+url: https://news.google.com/rss/articles/CBMiigJBVV95cUxPUnlzcWFMdmVZZ1FDQ21meUk5aVNfemdLQmFtelJOS3FLS0xWeW1Wa1dqNldtT01Qay1KRnpxUUxPWFpYS3NFeXdMRHpVNGY0TkhjZlFqUURLTHBTRS1jclQ5dHhoMWJ5MHduMkhLbmlIODhCZnBZVFdWWldKbmdFeEp0ZHp1RE1wX3BPTC1vTm5JMEdyX2Npbko0VVJWZkFkdFdFT3k1Nm9XakIzbFVNVHRkWVZiZnRibVlLNDdpVkxTdElod2lWWU9SSGQ5eXBYWnVDMWl1N29rUUlUR1JrX0dUdmdocTRZLUVYdDRRSkU4T1Mxb3JVaHBVR2QxcXN4UHJUaE1yZC1mZw?oc=5
+
+The Hoxton to Debut the World’s First Hoxton Homes within NOMA, Abu Dhabi's Creative Neighbourhood at Saadiyat Cultural District    Hospitality Net

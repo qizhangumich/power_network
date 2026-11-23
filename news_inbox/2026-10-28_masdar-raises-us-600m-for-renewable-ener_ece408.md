@@ -1,0 +1,5 @@
+# Masdar raises US$600M for renewable energy projects, including offshore wind
+source: Riviera Maritime Media
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbnJNWmpsU0J4YnptV19vVi16VlBMRE9uYUZhRG0tSGFybzJ6aTRvLXBIcHUtNEdsWl8xOHZuS0s4WWxEUlBWMG9ZS3NqS3MyMWg3NldCa3B4eDVqcFlkb3JiRlpBeUQ1S0JVd183S0lZYlVYSlZTbkUwRGVSZ2xSYWlxNWlqb21lcm9OSDhxdWE4RHFMQV94ZXlka1lPQmpVVEpZZWhMd05XV2UtQk5xdzBRZVNnMnRnOF9BSnFnUDVMdzhxWUZjZDNLR1ZmMGotQTA0eFRybw?oc=5
+
+Masdar raises US$600M for renewable energy projects, including offshore wind    Riviera Maritime Media

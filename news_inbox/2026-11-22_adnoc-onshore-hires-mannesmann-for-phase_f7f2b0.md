@@ -1,0 +1,5 @@
+# Adnoc Onshore hires Mannesmann for phase two of its Northeast Bab upgrade
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaklvcHdZOGZvZTFOV2JNSVptdk5mcEdzV2I1QW1kTDJ3SUN1OER0cWxCM3ZPTjRkeVZOYVQ1ajltX21xU0h1NDN0ZjB3SGV6elFyVlFoOUhHLU1QYWxHODgtcEhtOWQwdTVrSkJGNVRKZ1ljMkJFQkM4d3VXRmpCR0hud2RkVDdmYXdWQW9ZNTBSZ0FZX3I2TWtucWFjTHBBc3o4Q3hLMXY1Nk9DR3RkVTRLcU1NQXl0c1JlRTM1RDJoTGs?oc=5
+
+Adnoc Onshore hires Mannesmann for phase two of its Northeast Bab upgrade    EnterpriseAM

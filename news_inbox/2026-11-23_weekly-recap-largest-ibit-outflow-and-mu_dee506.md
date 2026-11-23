@@ -1,0 +1,5 @@
+# Weekly Recap: Largest IBIT outflow and Mubadala holds 14.72 million shares
+source: TradingView
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjh2RkdpVmZ0WDZMcGZ5bWJjNnczN3RjRGhWWTdoNHZSSVB3bXBLazZKOUJrb2FzU1Fia0hmMDZmRnRHREpKSlVPeURnMVUtUW5nODhMWHpUOTFGS2x4dEdERkI0akZHZGN6cU91OEYzMmpMNE5NS3FoV2IzUDRJTy1kQlhRNDNhZ2dZMG4yQVRHZG5kU0VJNnNvZ2NZRVdubmtyMkN6R1VVRkxkbnphaUg0OWlQQzlHdVZHYlU4RmVoaXQ4Y1IyLXkxWWNfc25s?oc=5
+
+Weekly Recap: Largest IBIT outflow and Mubadala holds 14.72 million shares    TradingView

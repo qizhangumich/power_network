@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed receives inaugural graduating class of Indian Institute of Technology Delhi – Abu Dhabi
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi_gFBVV95cUxNbHBlOFEyelRnUTBmT19YamlxazJPY19tMDY0ejZRSFNuYUFQNjJHX2hXTFJCRzY2Y2F5RDU1MzdBWFRJdDd1dzJ6d01VZ0NfQ3BBTDRyRFRGUkQwOENhUUZPVlVYTmxNcTdudmJQYVpqRG5xMG1CaDl1Q2xveVV1S1ZoUklIYXJlZ0czOFZobUdIemZ4ZGVxd3lGQlJnX3pHU1haUmN3RXRyNHprZGZDU0ZqTG9vZlpsdHRXaUxYOHVtWUlCNDJfeGFWTTFkcTd6bk1kS29sSWpYZ2NWOUFfYnZERzd0cDQwZkFRV3FwSEhlUmpEbGpaVVBjaFVDdw?oc=5
+
+Khaled bin Mohamed bin Zayed receives inaugural graduating class of Indian Institute of Technology Delhi – Abu Dhabi    مكتب أبوظبي الإعلامي

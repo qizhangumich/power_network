@@ -1,0 +1,5 @@
+# Weekly Recap: Tender warning and Mubadala exits Barrick stake
+source: TradingView
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxNTWZhLS1TbXhpbGtwZ1RYRl9ZUUtySU1od2REUzZsSVZza1ItcnA1NS1nRFN3ZDA2eGVhZ0VRWDE2QllDbVA0ZmZTV1IwOU5SRVVmSndfN3lxV2VRaDlfc1NaT1hyNEk0TGVMT2FkaFVkeUlJRFBoMFlFY3VBTXJtOTRBMlZCVFFjeGIwSFcxODlQRHktSUMyYjdNMzRzdVFmZ0dwaXhzcHFNU054Y1R3eDZFQVVCanpHSGxKWkxVNA?oc=5
+
+Weekly Recap: Tender warning and Mubadala exits Barrick stake    TradingView

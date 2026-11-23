@@ -1,0 +1,5 @@
+# Filipina star Alexandra Eala confirmed for 2027 Mubadala Abu Dhabi Open
+source: The National
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQUWxwZ2J2c21mN0JaUU1fQUdTVTdtZU03SjlyVkI1bkRjQjM4bEhDOEtZcHJ6RC00enhjVmJfeHFFMEE5bEZYOFd3T1Z0Q3dFMl9MYnU4eXhtVVBzN0ZyaV85a3M4cGlJVnczeW1TY2dHNkdhYUc2aUVQVnFzdk01alg3enNFNEF2eXJQcG4ySmJrc0tWSFp3WVpReU16SXRxRHRhNXozY2tVMXJBbmZKQ2pYOFgyLWdFV29ONEhfaWx0TFdnMjRz?oc=5
+
+Filipina star Alexandra Eala confirmed for 2027 Mubadala Abu Dhabi Open    The National

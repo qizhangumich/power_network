@@ -1,0 +1,5 @@
+# Mubadala Capital is in talks to buy into Brazilian fertilizer port operator Rocha
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQbVN2cmpTNWplcE9DcEF2QkpMbkxhR3ltdW1ac1RxQTYwY1pMSFAyYWlZNmdBWHBUTVRuWlBLeHh3VXBUUm5RRldEeXZBNXE1X0hfUWE5OWYxczE2OGx4aU5zMW1XZUxOanJyZW54Q3owc1A1SUQtWUFaNGY4Q1Jtd0dWVkxGdUNrakJJSkFhbllUX2U2V1JxUHUyS2Zqb3U5d3ZrRURJUkJCdGlTdXdYZ2tjOHl4Y0Y2WWs0QTlKeXRsVm5vNjd0THRzMm9JZw?oc=5
+
+Mubadala Capital is in talks to buy into Brazilian fertilizer port operator Rocha    EnterpriseAM

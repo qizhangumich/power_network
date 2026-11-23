@@ -1,0 +1,5 @@
+# Space42 begins production of ThurayaTwo satellite smartphone with APSI
+source: SatellitePro ME
+url: https://news.google.com/rss/articles/CBMipgFBVV95cUxOTng1RFJEWksxczJuQ0FMblhKLUZodHZmVm14UGlGbGI1cHhJNVlDTHJfOXJKLTgyZFFJZS1Ubzl5RFdEWU85VHpxTlpqbm1KZkd5R042YTJMbDJPYVhBZkgwRG1iMmoydThqS3VUYjhlOFRrS0FxQ01EWWRNQTdfcWZpTHB2MEJUOHVqUWdjLUV5UWktdVAtdEZETzJvdUtjbkNPTXpB?oc=5
+
+Space42 begins production of ThurayaTwo satellite smartphone with APSI    SatellitePro ME

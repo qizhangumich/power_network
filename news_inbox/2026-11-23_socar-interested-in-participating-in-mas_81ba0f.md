@@ -1,0 +1,5 @@
+# SOCAR interested in participating in Masdar's uninterrupted power supply project
+source: Report.az
+url: https://news.google.com/rss/articles/CBMirAFBVV95cUxNNWp6SUxmMHdNalpSTlRjQVBxaGZySzFuRmVSMHlBaWozVE1hMXA5WWE1WVdpb3FnQXpBNjczc1hUYWQyTjRvZUZ5YmstRmlYVFZzNGlLSWVIOGw4RExQMHpsWTlEQlFqcGIzNlU5TG8yYnlseDNGVXA4UlhyZTE4ZG1RQTVEV3NhTHJ5R3pWaTItcWFPcUdrUHNEdkZpbG8tbWtEa0hqaWtJczhU?oc=5
+
+SOCAR interested in participating in Masdar's uninterrupted power supply project    Report.az

@@ -1,0 +1,5 @@
+# ATL Partners Completes Partial Exit of Arrive Logistics Investment Through Mubadala Capital Recapitalization
+source: citybiz
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNRWVuRlBSNnhvSEhncG54cnVOcHRwLXFRUnRWMl9FZmJCVFA4VENtd3NmYkdlS0dYLVFDY2NDVWQwTFAzZWhzbERDZHB1aWJLRUV1T0F3Q1BJXzl5MUszSmhxODBla1ZXVmg0d3B0SlZUQXYyclFVMGxWRnVLZWVvQ04xSkprUWg1MFFqZkJNeWNGN3FvdkRuRkR2RHhvS0tJRnRhZkFvbkxuQWFiaW9XZXZjZS1mR1dUWjE4Rng2ejBPMGpVN0ZoaWl1a0pIS1Bqa0ZvSVg1eGptclVOc1Qyag?oc=5
+
+ATL Partners Completes Partial Exit of Arrive Logistics Investment Through Mubadala Capital Recapitalization    citybiz

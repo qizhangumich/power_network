@@ -1,0 +1,5 @@
+# Etihad celebrates 115 Emirati cadet pilots and engineers at its 2026 graduation ceremony
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVXVJcHlORmYzOWJJYmljWEEzTGlvSUxvTDd5bmpjeDdEVnZhWEtiLV9HUzZEZ19UNm9SZ2dUdlRNdEh3MkZsTERTdnlrbnBmdEFUWjBucDIwMjFUekdEeTFwTWhEYXhlLThLSTg2V01WNEMwT2NnWGd2TnIzYlZ1M1lENkNBQmNiWVpVVElJSjZ1dGM3eldBZzdDMXZCMXp2NF9oYUltbkZJVkxnWWxhRENTc3ZHNDIyNENrZ1FzTFVmZHdwRmwxNU5ZbFFhYXBqd0Exa2lWN3JKMm5zYWhfLTcyUDk?oc=5
+
+Etihad celebrates 115 Emirati cadet pilots and engineers at its 2026 graduation ceremony    Zawya

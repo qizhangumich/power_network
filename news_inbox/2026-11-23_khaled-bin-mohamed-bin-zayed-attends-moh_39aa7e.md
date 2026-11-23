@@ -1,0 +1,5 @@
+# Khaled bin Mohamed bin Zayed attends Mohammed Ali Mohammed Al Ketbi wedding reception
+source: مكتب أبوظبي الإعلامي
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVHNFOU84VERVcnQ0LTUzdGdxSVpudDZoMUxrUHVzYXNyS2ZvbzlTS2Q3dXI5NlNiV3hxclVwYWlFb0c0UUxKdERHaEFId1VxbHdKb2FUcGVtTVhacmpRamFqQUNVQ1dhVFJiU0hrcEZTVTZOVmRqQkdtR2J5MnJFQ3pMRHB6N3ZERGFfMFpyU1RIbFMwUXM5ZU0zYVhkb3ZxUmQ1UVoyeXVKVjNFeFJENDlxUHBnUkQ4ZEZQdVFTT2VURm1pZmhaaUhoOFl2YVRKdUhmNEhTVQ?oc=5
+
+Khaled bin Mohamed bin Zayed attends Mohammed Ali Mohammed Al Ketbi wedding reception    مكتب أبوظبي الإعلامي

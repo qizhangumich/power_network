@@ -1,0 +1,5 @@
+# Endesa and Masdar invest 25.2 million euros in three 120 MWh BESS projects in Spain
+source: Energía Estratégica
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMlVGd2NfRkM1cjRjeGctQk1MYUkwc1dsWUt2SFpHc1cyLUtOQ0s1X1RmM3lCVS1YajAwTlVlYWFUVm1pX0ZzTU5hUi1KeE1peEdvTWRQVzNpZl9lQXVNR09SLXphTDZldjF1ZW0tV19QYlVNZEpib213MUNXSWM2RE9iNXJFX0REdFRvU2EtdV84dkVlelpGSW9TOVpQNE9Ucm9nMXpVZWdvZHNsWERKV0pZSUxzQS14LWNzcUx4TldtenZJam9VbVdlQTZZd2E3bUxKdGNfdUhWTm16aExGYndnb3FGQQ?oc=5
+
+Endesa and Masdar invest 25.2 million euros in three 120 MWh BESS projects in Spain    Energía Estratégica

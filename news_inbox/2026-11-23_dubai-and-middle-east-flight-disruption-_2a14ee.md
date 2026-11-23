@@ -1,0 +1,5 @@
+# Dubai and Middle East flight disruption: flight cancellations and route suspensions continue as Gulf states report more attacks
+source: Condé Nast Traveller Middle East
+url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxQMUI1MUhsMXNhMmFvZ3RaMmxWbFYzcjhLcmtCRmU4RjRMdHktcXlvQ2hiOThXMTE5czJQUkpWdk5reU1TRVk2X241OExBOXJISXUxdG1lU0ZyU21DMXBaQ2I2QWJPdGFqZE84NVhYZ3c5YWlXSUx2WVdCN1dUOW1UdkpjNHRPX2JFbV9GUmtidXlNcldoU053eEV1R1hsSTg1NW9YcFBuRmM4ZzY1TkNwZ1NGMElVOWdETlVRWjhmNEU0MEZ2ZVpRN0xoRndhOEJwWjYzOFgwZVZ4S2FsX0REaVV5Sm52YUxxeTVwRWdRMXpHaHJV?oc=5
+
+Dubai and Middle East flight disruption: flight cancellations and route suspensions continue as Gulf states report more attacks    Condé Nast Traveller Middle East

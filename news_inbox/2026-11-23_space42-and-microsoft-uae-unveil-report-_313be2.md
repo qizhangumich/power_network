@@ -1,0 +1,5 @@
+# Space42 and Microsoft UAE unveil report on geospatial AI readiness across emerging markets
+source: SatellitePro ME
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVFdpc0UxLTFFUnlUVjMtcHNSVENCRDJIbktJVnFTeWdJUkliVVNYcWNJOVVvSGRhRFpLLVNaWWp5bkVjWkFqNlNGZDFCWnJ2TGpCU2FhQkNidjBnUmNkWGsyWjRoeVVJSTZ6UWZLOTNZTW1YUjNRb1JVRTl3ZmpNZlludE4xYktiVU9ZM09TbUpBaHJZMTNySTNlZGRTdXI3Y1hMV2R4STR3NmdOZWdIUkNLQ25ZRkNjbmRIc0g0Y2c?oc=5
+
+Space42 and Microsoft UAE unveil report on geospatial AI readiness across emerging markets    SatellitePro ME
