@@ -432,8 +432,10 @@ const PEOPLE = [
   {id:"salim_mohamed_al", n:"Salim Mohamed Al Mashaikhi", t:2, p:52, s:"finance", roles:[
     ["sohar_bank","Director","board","v"]]},
   {id:"said_ahmed_safrar", n:"Said Ahmed Safrar", t:2, p:52, s:"finance", roles:[
+    ["lst_didi","Chief Executive Officer","executive","ns"],
     ["sohar_bank","Director","board","v"]]},
   {id:"sheikh_aimen_ahmed", n:"Sheikh Aimen Ahmed Al Hosni", t:2, p:52, s:"finance", roles:[
+    ["lst_ones","Chairman","board","ns"],
     ["oman_airports","Chief Executive Officer","executive","v"],
     ["sohar_bank","Director","board","v"]]},
   {id:"ghusen_hilal_al", n:"Ghusen Hilal Al Abri", t:2, p:52, s:"finance", roles:[
@@ -527,6 +529,7 @@ const PEOPLE = [
     ["asyad_ports","Deputy Chairman","board","v"],
     ["asyad","Deputy Chairman (CEO Abraj Energy Services)","board","v"]]},
   {id:"dr_ismail_ahmed", n:"Dr. Ismail Ahmed Al Balushi", t:2, p:52, s:"industry", roles:[
+    ["lst_gfic","Non-Independent Director","board","ns"],
     ["asyad_ports","Board Member","board","ns"],
     ["asyad","Board Member","board","v"]]},
   {id:"flemming_dalgaard", n:"Flemming Dalgaard", t:2, p:52, s:"industry", roles:[
@@ -648,6 +651,7 @@ const PEOPLE = [
   {id:"ali_khamis_hussain", n:"Ali Khamis Hussain Al Zadjali", t:2, p:58, s:"finance", roles:[
     ["lst_bkdb","Chief Compliance Officer","executive","v"]]},
   {id:"abdulwahhab_al_hinai", n:"Abdulwahhab Al Hinai", t:2, p:62, s:"utilities", roles:[
+    ["lst_mspw","Chairman","board","ns"],
     ["lst_oqgn","Chairman","board","v"]]},
   {id:"ayad_al_balushi", n:"Ayad Al Balushi", t:2, p:62, s:"utilities", roles:[
     ["lst_abrj","Chairman","board","v"],
@@ -1440,6 +1444,7 @@ const PEOPLE = [
   {id:"mohamed_musa_al", n:"Mohamed Musa Al-Yousef", t:2, p:62, s:"conglomerate", roles:[
     ["al_yousef","Chairman","board","v"]]},
   {id:"faisal_mohamed_al", n:"Faisal Mohamed Al-Yousef", t:2, p:58, s:"conglomerate", roles:[
+    ["lst_aaic","Director","board","ns"],
     ["al_yousef","Chief Operating Officer and Director","executive","v"]]},
   {id:"saeed_bin_mohammed", n:"Saeed bin Mohammed Al-Saqri", t:2, p:58, s:"gov", roles:[
     ["ministry_of_economy","Minister of Economy (until Jan 2026)","executive","v","former:until Jan 2026"]]},
@@ -1567,6 +1572,7 @@ const PEOPLE = [
   {id:"ahmed_salim_abdullah", n:"Ahmed Salim Abdullah Al Wahaibi", t:2, p:52, s:"energy", roles:[
     ["lst_ngci","Board Member","board","ns"]]},
   {id:"rashid_mohamed_al", n:"Rashid Mohamed Al Ghailani", t:2, p:52, s:"energy", roles:[
+    ["lst_ones","Chief Executive Officer","executive","ns"],
     ["lst_ngci","Board Member","board","ns"]]},
   {id:"rachid_majjad", n:"Rachid Majjad", t:2, p:60, s:"energy", roles:[
     ["lst_ngci","Chief Executive Officer","executive","ns"]]},
@@ -2033,10 +2039,12 @@ const PEOPLE = [
   {id:"gamal_abdelkader", n:"Gamal Abdelkader", t:2, p:58, s:"comm", roles:[
     ["infoline","Director Operations","executive","v"]]},
   {id:"qaboos_bin_abdulla", n:"Qaboos bin Abdulla Al Khonji", t:2, p:62, s:"finance", roles:[
+    ["lst_aaic","Director","board","ns"],
     ["fincorp","Deputy Chairman of the Board","board","v"]]},
   {id:"saud_ahmed_al", n:"Saud Ahmed Al Siyabi", t:2, p:52, s:"finance", roles:[
     ["fincorp","Board Member (Independent Non-Executive Director)","board","v"]]},
   {id:"faisal_ali_jaffar", n:"Faisal Ali Jaffar", t:2, p:52, s:"finance", roles:[
+    ["lst_voes","Director","board","v"],
     ["fincorp","Board Member","board","v"]]},
   {id:"anees_redha_qamar", n:"Anees Redha Qamar Sultan", t:2, p:52, s:"finance", roles:[
     ["fincorp","Board Member (Independent Non-Executive Director)","board","v"]]},
@@ -2046,6 +2054,114 @@ const PEOPLE = [
     ["al_murooj_dairy","Chief Executive Officer","executive","ns"]]},
   {id:"mai_said_al", n:"Mai Said Al Abri", t:2, p:58, s:"comm", roles:[
     ["oman_observer","Managing Editor","executive","ns"]]},
+  {id:"khalid_jolo", n:"Khalid Jolo", t:2, p:62, s:"utilities", roles:[
+    ["lst_phpc","Chairman","board","v"]]},
+  {id:"adrian_r_thlisberger", n:"Adrian Röthlisberger", t:2, p:62, s:"utilities", roles:[
+    ["lst_phpc","Deputy Chairman","board","v"]]},
+  {id:"fatih_abdel_kariem", n:"Fatih Abdel Kariem", t:2, p:52, s:"utilities", roles:[
+    ["lst_phpc","Director","board","v"]]},
+  {id:"sultan_al_tai", n:"Sultan Al Tai", t:2, p:52, s:"utilities", roles:[
+    ["lst_phpc","Director","board","v"]]},
+  {id:"hitoshi_nakahara", n:"Hitoshi Nakahara", t:2, p:52, s:"utilities", roles:[
+    ["lst_phpc","Director","board","v"]]},
+  {id:"naohiro_aoki", n:"Naohiro Aoki", t:2, p:52, s:"utilities", roles:[
+    ["lst_phpc","Director","board","v"]]},
+  {id:"ahmed_mahmoud_abdelati", n:"Ahmed Mahmoud Abdelati Ibrahim", t:2, p:52, s:"utilities", roles:[
+    ["lst_phpc","Director","board","v"]]},
+  {id:"mohamed_al_shuaili", n:"Mohamed Al Shuaili", t:2, p:60, s:"utilities", roles:[
+    ["lst_phpc","Chief Executive Officer","executive","v"]]},
+  {id:"ahmed_mohamed_abdullah", n:"Ahmed Mohamed Abdullah Al-Abri", t:2, p:58, s:"utilities", roles:[
+    ["lst_phpc","Chief Financial Officer","executive","v"]]},
+  {id:"yaarub_al_naabi", n:"Yaarub Al Naabi", t:2, p:58, s:"utilities", roles:[
+    ["lst_phpc","Commercial Manager","executive","v"]]},
+  {id:"sayyid_aymen_al", n:"Sayyid Aymen Al Busaidi", t:2, p:62, s:"industry", roles:[
+    ["lst_voes","Chairman","board","v"]]},
+  {id:"yousuf_salman_al", n:"Yousuf Salman Al Saleh", t:2, p:62, s:"industry", roles:[
+    ["lst_voes","Vice Chairman","board","v"]]},
+  {id:"marhoon_mubarak_darwish", n:"Marhoon Mubarak Darwish Al Oweisi", t:2, p:62, s:"industry", roles:[
+    ["lst_voes","Audit Committee Chairman","board","v"]]},
+  {id:"meyyan_bint_shihab", n:"Meyyan Bint Shihab Bin Tariq Al Said", t:2, p:52, s:"industry", roles:[
+    ["lst_voes","Director","board","v"]]},
+  {id:"khalid_abdullah_al", n:"Khalid Abdullah Al Esri", t:2, p:52, s:"industry", roles:[
+    ["lst_voes","Director","board","v"]]},
+  {id:"shahid_al_balushi", n:"Shahid Al Balushi", t:2, p:52, s:"industry", roles:[
+    ["lst_voes","Director","board","v"]]},
+  {id:"mohammed_ajmal_basha", n:"Mohammed Ajmal Basha", t:2, p:60, s:"industry", roles:[
+    ["lst_voes","Chief Executive Officer","executive","v"]]},
+  {id:"abdullah_bin_mohammed_b_b", n:"Abdullah Bin Mohammed Salim Al Rawahi", t:2, p:60, s:"utilities", roles:[
+    ["lst_suwp","Chief Executive Officer","executive","v"]]},
+  {id:"preetam_saraf", n:"Preetam Saraf", t:2, p:58, s:"utilities", roles:[
+    ["lst_suwp","Chief Financial Officer","executive","v"]]},
+  {id:"yousuf_al_waili", n:"Yousuf Al Waili", t:2, p:58, s:"utilities", roles:[
+    ["lst_suwp","Chief Technical Officer","executive","v"]]},
+  {id:"nader_naguib_tayab", n:"Nader Naguib Tayab", t:2, p:60, s:"industry", roles:[
+    ["lst_ajss","Chief Executive Officer","executive","ns"]]},
+  {id:"sofyan_adnan_al", n:"Sofyan Adnan Al Khatib", t:2, p:52, s:"industry", roles:[
+    ["lst_ajss","Director","board","ns"]]},
+  {id:"shawqi_sajwani", n:"Shawqi Sajwani", t:2, p:52, s:"industry", roles:[
+    ["lst_ajss","Director","board","ns"]]},
+  {id:"essa_mohamed_ali", n:"Essa Mohamed Ali Ibrahim", t:2, p:52, s:"industry", roles:[
+    ["lst_ajss","Director","board","ns"]]},
+  {id:"mohammed_ali_al_b", n:"Mohammed Ali Al-Fannah Al-Araimi", t:2, p:52, s:"industry", roles:[
+    ["lst_ajss","Director","board","ns"]]},
+  {id:"hassan_al_naseeb", n:"Hassan Al-Naseeb", t:2, p:62, s:"finance", roles:[
+    ["lst_gfic","Chairman","board","ns"]]},
+  {id:"abdullah_humaid_saeed", n:"Abdullah Humaid Saeed Al Mamari", t:2, p:52, s:"finance", roles:[
+    ["lst_gfic","Independent Non-Executive Director","board","ns"]]},
+  {id:"hussam_hisham_omar", n:"Hussam Hisham Omar Al-Bostami", t:2, p:60, s:"finance", roles:[
+    ["lst_gfic","Chief Executive Officer","executive","ns"]]},
+  {id:"abdullah_salim_rashid", n:"Abdullah Salim Rashid Al Khayari", t:2, p:62, s:"finance", roles:[
+    ["lst_ufci","Chairman","board","ns"]]},
+  {id:"talal_hassan_ahsan", n:"Talal Hassan Ahsan Al Naseeb", t:2, p:62, s:"finance", roles:[
+    ["lst_ufci","Deputy Chairman","board","ns"]]},
+  {id:"salman_al_lawati", n:"Salman Al Lawati", t:2, p:52, s:"finance", roles:[
+    ["lst_ufci","Independent Non-Executive Director","board","ns"]]},
+  {id:"wasseem_abed_qaraeen", n:"Wasseem Abed Qaraeen", t:2, p:52, s:"finance", roles:[
+    ["lst_ufci","Director","board","ns"]]},
+  {id:"cheng_guan_tan", n:"Cheng Guan Tan", t:2, p:62, s:"utilities", roles:[
+    ["lst_sspw","Chairman","board","ns"]]},
+  {id:"yap_siew_leng", n:"Yap Siew Leng", t:2, p:52, s:"utilities", roles:[
+    ["lst_sspw","Non-Executive Director","board","ns"]]},
+  {id:"vipul_tuli", n:"Vipul Tuli", t:2, p:52, s:"utilities", roles:[
+    ["lst_sspw","Director","board","ns"]]},
+  {id:"koh_chiap_khiong", n:"Koh Chiap Khiong", t:2, p:52, s:"utilities", roles:[
+    ["lst_sspw","Nominee Director","board","ns"]]},
+  {id:"humaid_salim_al", n:"Humaid Salim Al Amri", t:2, p:60, s:"utilities", roles:[
+    ["lst_sspw","Chief Executive Officer","executive","ns"]]},
+  {id:"murshid_al_yarubi", n:"Murshid Al Yarubi", t:2, p:60, s:"utilities", roles:[
+    ["lst_mspw","Chief Executive Officer","executive","ns"]]},
+  {id:"khamis_bin_mubarak", n:"Khamis bin Mubarak Al-Kiyumi", t:2, p:62, s:"consumer_stap", roles:[
+    ["lst_gmpi","Independent Chairman","board","ns"]]},
+  {id:"ali_bin_mohammed_b_b", n:"Ali bin Mohammed bin Ali Zaabanoot", t:2, p:62, s:"consumer_stap", roles:[
+    ["lst_gmpi","Independent Non-Executive Vice Chairman","board","ns"]]},
+  {id:"awadh_salim_mustahail", n:"Awadh Salim Mustahail Al-Mashani", t:2, p:52, s:"consumer_stap", roles:[
+    ["lst_gmpi","Independent Non-Executive Director","board","ns"]]},
+  {id:"abdullah_nasser_al", n:"Abdullah Nasser Al-Hadhrami", t:2, p:60, s:"consumer_stap", roles:[
+    ["lst_gmpi","Chief Executive Officer","executive","ns"]]},
+  {id:"mohamed_darwish_mohamed", n:"Mohamed Darwish Mohamed Al-Khouri", t:2, p:62, s:"finance", roles:[
+    ["lst_oeio","Non-Executive Chairman","board","ns"]]},
+  {id:"raffy_manoug_kozadjian", n:"Raffy Manoug Kozadjian", t:2, p:60, s:"finance", roles:[
+    ["lst_oeio","Acting Chief Executive Officer","executive","ns"]]},
+  {id:"ahmed_bin_mohammed_b_b_b", n:"Ahmed bin Mohammed Rashid Al-Sinani", t:2, p:52, s:"industry", roles:[
+    ["lst_ones","Independent Non-Executive Director","board","ns"]]},
+  {id:"salim_bin_nassir", n:"Salim bin Nassir Al-Busaidi", t:2, p:62, s:"finance", roles:[
+    ["lst_ouic","Non-Independent Non-Executive Chairman","board","ns"]]},
+  {id:"saud_ahmed_abdel", n:"Saud Ahmed Abdel Karim Al-Nahari", t:2, p:62, s:"finance", roles:[
+    ["lst_ouic","Vice Chairman","board","ns"]]},
+  {id:"hamed_bin_amur", n:"Hamed Bin Amur Rashid Al Hatmi", t:2, p:52, s:"finance", roles:[
+    ["lst_ouic","Independent Non-Executive Director","board","ns"]]},
+  {id:"nasser_bin_khamis_b", n:"Nasser bin Khamis Al-Hashar", t:2, p:52, s:"finance", roles:[
+    ["lst_ouic","Independent Non-Executive Director","board","ns"]]},
+  {id:"r_muthu_kumar", n:"R. Muthu Kumar", t:2, p:60, s:"finance", roles:[
+    ["lst_ouic","Chief Executive Officer","executive","ns"]]},
+  {id:"khalid_abdullah_al_b", n:"Khalid Abdullah Al-Eisri", t:2, p:60, s:"finance", roles:[
+    ["lst_aaic","Chief Executive Officer","executive","ns"]]},
+  {id:"shabir_moosa_abdullah", n:"Shabir Moosa Abdullah Al-Yousef", t:2, p:62, s:"finance", roles:[
+    ["lst_aaic","Deputy Chairman","board","ns"]]},
+  {id:"fahar_bin_fatik", n:"Fahar bin Fatik Al-Said", t:2, p:52, s:"finance", roles:[
+    ["lst_aaic","Director","board","ns"]]},
+  {id:"abdullah_al_khayari", n:"Abdullah Al Khayari", t:2, p:52, s:"finance", roles:[
+    ["lst_aaic","Independent Director","board","ns"]]},
 ];
 
 const OWNERSHIP = [

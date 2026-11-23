@@ -596,6 +596,7 @@ const INSTITUTIONS = [
   {id:"malath_insurance", n:"Malath Cooperative Insurance Company", s:"finance", t:3, p:54, short:"Malath Insurance"},
   {id:"al_rajhi_capital", n:"Al Rajhi Capital", s:"finance", t:2, p:58, short:"Al Rajhi Capital"},
   {id:"alinma_capital", n:"Alinma Capital Company", s:"finance", t:3, p:52, short:"Alinma Capital"},
+  {id:"adeera", n:"Adeera", s:"consumer_disc", t:3, p:58, short:"Adeera"},
 ];
 
 const PEOPLE = [
@@ -1571,6 +1572,7 @@ const PEOPLE = [
   {id:"ahmed_al_theabi", n:"Ahmed Al Theabi", t:2, p:52, s:"materials", roles:[
     ["lst_2060","Board Member","board","v"]]},
   {id:"fawaz_al_fawaz", n:"Fawaz Al Fawaz", t:2, p:60, s:"materials", roles:[
+    ["lst_2220","Chairman","board","ns"],
     ["taqa_saudi","Member of the Board of Directors","board","v"],
     ["lst_2060","Chief Executive Officer & Board Member","executive","v"]]},
   {id:"mohammed_al_haqbani", n:"Mohammed Al Haqbani", t:2, p:52, s:"materials", roles:[
@@ -1636,6 +1638,7 @@ const PEOPLE = [
   {id:"fahad_ayed_alaslami", n:"Fahad Ayed Alaslami", t:2, p:52, s:"health", roles:[
     ["lst_4002","Board Member","board","v"]]},
   {id:"mohammed_hamad_alkathiri", n:"Mohammed Hamad Alkathiri", t:2, p:52, s:"health", roles:[
+    ["lst_2090","Vice Chairman","board","ns"],
     ["lst_4002","Board Member","board","v"]]},
   {id:"abdullah_saghaier_alhussaini", n:"Abdullah Saghaier Alhussaini", t:2, p:52, s:"health", roles:[
     ["lst_4002","Board Member","board","v"]]},
@@ -3063,6 +3066,7 @@ const PEOPLE = [
   {id:"ibrahim_al_madhoun", n:"Ibrahim Al-Madhoun", t:2, p:62, s:"consumer_disc", roles:[
     ["lst_4180","Vice Chairman (non-executive)","board","ns"]]},
   {id:"omar_al_humaidan", n:"Omar Al-Humaidan", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_2150","Chairman","board","ns"],
     ["lst_4180","Non-Executive Director","board","ns"]]},
   {id:"bayan_fakieh", n:"Bayan Fakieh", t:2, p:52, s:"consumer_disc", roles:[
     ["lst_4180","Non-Executive Director","board","ns"]]},
@@ -4181,6 +4185,57 @@ const PEOPLE = [
     ["malath_insurance","Independent Board Member (appointed July 2026)","board","ns"]]},
   {id:"hossam_essam_al", n:"Hossam Essam Al-Basrawi", t:2, p:60, s:"finance", roles:[
     ["al_rajhi_capital","Chief Executive Officer","executive","v"]]},
+  {id:"khaled_alkhuwaiter", n:"Khaled Alkhuwaiter", t:2, p:62, s:"materials", roles:[
+    ["lst_1301","Chairman","board","ns"]]},
+  {id:"rashid_bin_awain", n:"Rashid Bin Awain", t:2, p:62, s:"materials", roles:[
+    ["lst_1301","Vice Chairman","board","ns"]]},
+  {id:"mohammed_abdulaziz_abdulrahm", n:"Mohammed AbdulAziz AbdulRahman Al Shayea", t:2, p:62, s:"materials", roles:[
+    ["lst_1320","Chairman","board","ns"]]},
+  {id:"carlos_a_ferreyra", n:"Carlos A. Ferreyra", t:2, p:62, s:"materials", roles:[
+    ["lst_1320","Vice Chairman","board","ns"]]},
+  {id:"renwar_berzinji", n:"Renwar Berzinji", t:2, p:60, s:"materials", roles:[
+    ["lst_1320","Managing Director and CEO","executive","ns"]]},
+  {id:"fahad_al_shaya", n:"Fahad Al-Shaya", t:2, p:62, s:"materials", roles:[
+    ["lst_2001","Chairman","board","ns"]]},
+  {id:"awadh_al_waridah", n:"Awadh Al-Waridah", t:2, p:60, s:"materials", roles:[
+    ["lst_2001","Chief Executive Officer","executive","ns"]]},
+  {id:"fahad_salem_al", n:"Fahad Salem Al Matrafi", t:2, p:62, s:"materials", roles:[
+    ["lst_2090","Chairman","board","ns"]]},
+  {id:"samir_al_ruhaili", n:"Samir Al-Ruhaili", t:2, p:60, s:"materials", roles:[
+    ["lst_2150","Chief Executive Officer","executive","ns"]]},
+  {id:"ahmed_al_barak", n:"Ahmed Al Barak", t:2, p:62, s:"materials", roles:[
+    ["lst_2180","Chairman","board","ns"]]},
+  {id:"abdullah_alharbi", n:"Abdullah Alharbi", t:2, p:60, s:"materials", roles:[
+    ["lst_2180","Chief Executive Officer","executive","ns"]]},
+  {id:"youssef_abalkail", n:"Youssef Abalkail", t:2, p:62, s:"materials", roles:[
+    ["lst_2200","Chairman","board","ns"]]},
+  {id:"khalid_abunayyan", n:"Khalid Abunayyan", t:2, p:62, s:"materials", roles:[
+    ["lst_2200","Vice Chairman","board","ns"]]},
+  {id:"ahmed_ali_al", n:"Ahmed Ali Al-Lohaidan", t:2, p:60, s:"materials", roles:[
+    ["lst_2200","Chief Executive Officer","executive","ns"]]},
+  {id:"basil_al_suhaibani", n:"Basil Al Suhaibani", t:2, p:62, s:"materials", roles:[
+    ["lst_2210","Chairman","board","ns"]]},
+  {id:"abdulaziz_al_amar", n:"Abdulaziz Al-Amar", t:2, p:62, s:"materials", roles:[
+    ["lst_2210","Vice Chairman","board","ns"]]},
+  {id:"shaker_al_otaibi", n:"Shaker Al-Otaibi", t:2, p:62, s:"materials", roles:[
+    ["lst_2220","Vice Chairman","board","ns"]]},
+  {id:"abdulrahman_al_meshal", n:"Abdulrahman Al Meshal", t:2, p:62, s:"materials", roles:[
+    ["lst_2300","Chairman","board","ns"]]},
+  {id:"bashar_aba_al", n:"Bashar Aba Al-Khail", t:2, p:62, s:"materials", roles:[
+    ["lst_2300","Vice Chairman","board","ns"]]},
+  {id:"abdulaziz_al_mashaal", n:"Abdulaziz Al-Mashaal", t:2, p:60, s:"materials", roles:[
+    ["lst_2300","Chief Executive Officer","executive","ns"]]},
+  {id:"khalifa_al_mulhem", n:"Khalifa Al Mulhem", t:2, p:62, s:"materials", roles:[
+    ["lst_2330","Chairman","board","ns"]]},
+  {id:"waleed_al_jaafari", n:"Waleed Al Jaafari", t:2, p:62, s:"materials", roles:[
+    ["lst_2330","Vice Chairman","board","ns"]]},
+  {id:"mamdouh_alamri", n:"Mamdouh AlAmri", t:2, p:60, s:"materials", roles:[
+    ["lst_2330","Chief Executive Officer","executive","ns"]]},
+  {id:"prince_faisal_bin_b_b", n:"Prince Faisal bin Abdulaziz Al Saud", t:2, p:62, s:"materials", roles:[
+    ["lst_2360","Chairman","board","ns"]]},
+  {id:"saad_al_sayari", n:"Saad Al-Sayari", t:2, p:62, s:"materials", roles:[
+    ["lst_2360","Vice Chairman","board","ns"],
+    ["lst_2360","Managing Director","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -4613,6 +4668,7 @@ const OWNERSHIP = [
   ["arabsat","stc","associate (36.66% equity interest)","v"],
   ["al_rajhi_capital","alrajhi","subsidiary of","v"],
   ["alinma_capital","lst_1150","subsidiary of","v"],
+  ["adeera","pif","subsidiary","v"],
 ];
 
 const FAMILY = [
