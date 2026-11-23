@@ -75,7 +75,7 @@ const INSTITUTIONS = [
   {id:"lst_alec", n:"ALEC Holdings PJSC", s:"industry", t:2, p:60, short:"ALEC Holdings"},
   {id:"lst_salambah", n:"Al Salam Bank B.S.C.", s:"finance", t:2, p:62, short:"Al Salam Bank"},
   {id:"lst_mkhzn", n:"Makhazen", s:"industry", t:2, p:50, short:"Makhazen"},
-  {id:"lst_unioncoop", n:"Union Coop", s:"consumer_stap", t:2, p:50, short:"Union Coop"},
+  {id:"lst_unioncoop", n:"Union Coop", s:"consumer_stap", t:2, p:60, short:"Union Coop"},
   {id:"lst_amanat", n:"Amanat Holdings PJSC", s:"health", t:2, p:58, short:"Amanat"},
   {id:"dubaiinv", n:"Dubai Investments PJSC", s:"conglomerate", t:2, p:62, short:"Dubai Investments"},
   {id:"lst_deyaar", n:"Deyaar Development PJSC", s:"realestate", t:2, p:58, short:"DEYAAR"},

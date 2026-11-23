@@ -1,9 +1,4 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Council of Asia,3,qatar,pending,2026-11-20,2026-11-21,Acting President of Venezuela Meets President of Olympic Council of Asia
-Rock Creek Tennis Center,2,abudhabi,pending,2026-11-19,2026-11-19,Mubadala D.C. Open Chairman Secures 60-Year Lease on Rock Creek Tennis Center
-Zam Elect Properties,2,,pending,2026-11-21,2026-11-22,4.Zam Elect Properties wins Top Property Seller Award 2026 from Shah Rukh Khan
-Volkswagen Group,2,qatar,pending,2026-11-21,2026-11-21,"Volkswagen Group hails Qatar as trusted long-term partner, sees scope for deeper cooperation"
-President of Olympic Council,2,qatar,pending,2026-11-20,2026-11-21,Acting President of Venezuela Meets President of Olympic Council of Asia
 Gujarat Energy,18,abudhabi,rejected,2026-11-06,2026-11-13,"Gujarat Energy LNG: 4m Tonnes, ADNOC"
 ADNOC Logistics,9,abudhabi,rejected,2026-11-06,2026-11-12,Earnings call transcript: ADNOC Logistics & Services posts record Q3 2026
 I Squared Capital,8,abudhabi,rejected,2026-11-02,2026-11-09,"Avolon, I Squared Capital and ADIA launch aircraft leasing and infrastructure investment platform"
@@ -20,6 +15,7 @@ CENTERBRIDGE PARTNERS,3,abudhabi,rejected,2026-11-15,2026-11-16,"CANACCORD GENUI
 ADNOC Partners,3,abudhabi,rejected,2026-11-02,2026-11-02,"ADNOC Partners With OpenAI, G42 To Strengthen Advanced AI Adoption"
 Mexico City,3,oman,rejected,2026-11-02,2026-11-18,"In Mexico City, Day of the Dead parade inspired by 007"
 Hamad International Airport,3,qatar,rejected,2026-11-02,2026-11-10,Hamad International Airport and Doha Film Institute bring 'Made in Qatar' stories to the terminal
+Council of Asia,3,qatar,rejected,2026-11-20,2026-11-21,Acting President of Venezuela Meets President of Olympic Council of Asia
 Abha International Airport,3,saudi,rejected,2026-10-08,2026-10-08,Saudi Arabia: Attacks target facilities at Abha International Airport and King Khalid International Airport
 Civil Defence and Ambulance Authority,3,oman,added,2026-10-14,2026-10-14,HM inaugurates new identity of Civil Defence and Ambulance Authority
 Hanwha Systems,3,abudhabi,rejected,2026-09-17,2026-09-17,Hanwha Systems to work with UAE’s Edge Group on integrated air defense network
@@ -34,6 +30,7 @@ Masdar City,3,abudhabi,added,2026-08-26,2026-09-03,"Masdar City Launches Emirati
 Dubai Healthcare City,3,dubai,added,2026-09-10,2026-09-11,"Dubai Healthcare City begins work on Dh3b Creek GardensMore than 1,400 homes planned in a 127,000-square-metre community overlooking Dubai C"
 SNB Capital,3,saudi,added,2026-09-03,2026-09-05,SNB Capital North America Index Fund
 Riyadh Airport,2,saudi,rejected,2026-11-15,2026-11-22,Riyadh Airport updates: Qatar Airways resumes operations while five airlines extend cancellations
+Rock Creek Tennis Center,2,abudhabi,rejected,2026-11-19,2026-11-19,Mubadala D.C. Open Chairman Secures 60-Year Lease on Rock Creek Tennis Center
 TAQA Petroleum,2,abudhabi,rejected,2026-11-05,2026-11-05,Shell Lubricants Egypt Signs Partnership with TAQA Petroleum to Expand Nationwide Distribution
 Offshore Energy,2,abudhabi,rejected,2026-11-06,2026-11-11,ADNOC widens its Asian footprint with decade-long LNG offtake deal
 Mubadala And Centerbridge Partners,2,abudhabi,rejected,2026-11-16,2026-11-17,Mubadala And Centerbridge Partners To Acquire Canaccord Genuity's UK Wealth Management Business
@@ -47,13 +44,16 @@ EXCLUSIVEMoon World Resorts,2,,rejected,2026-11-02,2026-11-03,EXCLUSIVEMoon Worl
 Siemens Energy,2,bahrain,rejected,2026-11-08,2026-11-13,Siemens Energy redesigns Gulf power plants to withstand drone attacks
 Hull City,2,oman,rejected,2026-11-07,2026-11-08,Arsenal equal best start to Premier League season after Martin Odegaard goal earns win over Hull City
 Deutsche Bank,2,qatar,rejected,2026-11-18,2026-11-19,"Deutsche Bank leak: What was exposed, and who’s probing2h ago3m read"
+Zam Elect Properties,2,,rejected,2026-11-21,2026-11-22,4.Zam Elect Properties wins Top Property Seller Award 2026 from Shah Rukh Khan
 Quality Infrastructure for Sustainable Development,2,oman,rejected,2026-11-12,2026-11-13,Oman climbs seven places in 2026 Quality Infrastructure for Sustainable Development Index
 Municipal Council,2,oman,rejected,2026-11-03,2026-11-15,Contract signed to provide technical services for Municipal Council elections
 Hawiyat Najm Park,2,oman,rejected,2026-11-11,2026-11-12,Work progressing well at Hawiyat Najm Park project
 Bank of England Governor,2,qatar,rejected,2026-11-04,2026-11-06,QCB Governor meets Bank of England Governor
+Volkswagen Group,2,qatar,rejected,2026-11-21,2026-11-21,"Volkswagen Group hails Qatar as trusted long-term partner, sees scope for deeper cooperation"
 Bank of England,2,qatar,rejected,2026-11-05,2026-11-05,Bank of England lifts rate for first time since 2023 to fight inflation
 Undersecretary of Ministry,2,qatar,rejected,2026-11-15,2026-11-22,Undersecretary of Ministry of Interior meets Cypriot Ambassador
 Bank of Italy,2,qatar,rejected,2026-11-03,2026-11-03,Sheikh Bandar meets governor of the Bank of Italy
+President of Olympic Council,2,qatar,rejected,2026-11-20,2026-11-21,Acting President of Venezuela Meets President of Olympic Council of Asia
 Communications and Information Technology,2,qatar,rejected,2026-11-12,2026-11-12,Minister of Communications and Information Technology Holds Bilateral Meetings on Sidelines of ITU Plenipotentiary Conference
 Avalon Pharma,2,saudi,rejected,2026-11-04,2026-11-13,Avalon Pharma maintains 2026 targets
 Aker Solutions,2,qatar,rejected,2026-11-08,2026-11-10,Aker Solutions secures engineering contract for Qatar’s Maydan Mahzam redevelopment

@@ -100,7 +100,7 @@ const INSTITUTIONS = [
   {id:"lst_2290", n:"Yanbu National Petrochemical Co. (Yansab)", s:"materials", t:2, p:66, short:"Yansab"},
   {id:"lst_2300", n:"Saudi Paper Manufacturing Co.", s:"materials", t:2, p:50, short:"2300"},
   {id:"lst_2310", n:"Sahara International Petrochemical Co. (Sipchem)", s:"materials", t:2, p:62, short:"Sipchem"},
-  {id:"lst_2330", n:"Advanced Petrochemical Co.", s:"materials", t:2, p:56, short:"Advanced Petrochem"},
+  {id:"lst_2330", n:"Advanced Petrochemical Co.", s:"materials", t:2, p:64, short:"Advanced Petrochem"},
   {id:"lst_2350", n:"Saudi Kayan Petrochemical Co.", s:"materials", t:2, p:60, short:"Saudi Kayan"},
   {id:"lst_2360", n:"Saudi Vitrified Clay Pipes Co.", s:"materials", t:2, p:50, short:"2360"},
   {id:"lst_3002", n:"Najran Cement Co.", s:"materials", t:2, p:50, short:"Najran Cement Co."},
