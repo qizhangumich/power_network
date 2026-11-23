@@ -82,6 +82,5 @@ window.NEWS_ITEMS = [
   {id:"2026-10-11_pakistan-president-suspends-government-i_cf439f", date:"2026-10-11", title:"Pakistan President suspends government in province ruled by Imran Khan's party", source:"The National", url:"https://www.thenationalnews.com/news/asia/2026/10/11/pakistan-president-suspends-government-in-province-ruled-by-imran-khans-party/", ids:["imran_khan"]},
   {id:"2026-10-10_supporters-of-jailed-former-pakistani-le_97e24f", date:"2026-10-10", title:"Supporters of jailed former Pakistani leader Imran Khan march towards capital", source:"The National", url:"https://www.thenationalnews.com/news/2026/10/10/supporters-of-jailed-former-pakistani-leader-imran-khan-march-towards-capital/", ids:["imran_khan"]},
   {id:"2026-10-09_ega-to-receive-first-guinea-bauxite-post_0ab729", date:"2026-10-09", title:"EGA to receive first Guinea bauxite post-settlement", source:"MEED", url:"https://www.meed.com/ega-to-receive-first-shipment-of-guinean-bauxite-after-settlement", ids:["rak_ega"]},
-  {id:"2026-10-08_missing-woman-confirmed-dead-by-police-i_05757e", date:"2026-10-08", title:"Missing woman confirmed dead by police in Ras Al Khaimah", source:"The National", url:"https://www.thenationalnews.com/news/uae/2026/10/08/missing-woman-confirmed-dead-by-police-in-ras-al-khaimah/", ids:["rak_awqaf_authority"]},
 ];
 window.SUGGESTED_EDGES = [];

@@ -1,0 +1,5 @@
+# Etihad Airways announces flight delays to major European city
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQWDJWT1BxeGZoT0RYLUQ0cmhfbUhWcF91N3Z4YVozVXA4QU8wWlBiTVR0VzFtVFYyblQzRzBTTHQ5XzhOaGEwSkV6WXg1MGo1dUlSRUxQSWZIRFRMTHFlZTlrMWlrYk9tTUNkUllsZGphRGJUTUhFUTdselVpMUlteEZFNlVIVnlud08xaDFwVGYta3JtZ1hMRlVHQ2lSdGc0bjhxNE11VXNWVjhLMnVodDV3?oc=5
+
+Etihad Airways announces flight delays to major European city    Arabian Business

@@ -1,0 +1,5 @@
+# TAQA, EWEC, Aljomaih Energy and Water Company and Sembcorp Industries announce the financial close of the AED 7.76bln Taweelah C Independent Power Plant
+source: Zawya
+url: https://news.google.com/rss/articles/CBMiowJBVV95cUxNbkFQSUY2Y013ekQ2aUN3c3lPRDUyYnpjYUxJN2pibEJhM0hwbm1TU1NMVVhEck9JOHVVZWUwekpKVDh3Znk4eHBIMFpiTjZmUENKQW9LSW5ndzdRYUU3UHNHZFRuXzlhQ2hHVlluYTBNcjBtQUlqSFh0d1BERnZHSExXVVFkRlJQanJLTU5mOHFabFRYaUpVRVlvbWk2dnpRT1FWRzFlT2FqNm50MG9tcTNsX2FhSHdhQmxhZHRjeFZlMjZleWhlMjhxZ0kyRXVianNHMURwQ3FFU3JBYUJEemdXa3lKNGFVc2o3bFEtUVNhblp6Wk0xbllWQUl0OVRKVUJ2OG9iaTZrTElSN1k3SEJaVmxvcnF1emJWSWVSTmZVZFE?oc=5
+
+TAQA, EWEC, Aljomaih Energy and Water Company and Sembcorp Industries announce the financial close of the AED 7.76bln Taweelah C Independent Power Plant    Zawya
