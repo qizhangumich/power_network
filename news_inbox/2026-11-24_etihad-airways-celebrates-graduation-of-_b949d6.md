@@ -1,0 +1,5 @@
+# Etihad Airways celebrates graduation of 115 Emirati cadet pilots
+source: The National
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPdlRuTlRxcDN6TTVfU3BQVlJMeFBMWDFsNkMwdGtiR0RpeTREc1BFc3RIUWFWenRyX0poMmRNZlk1QmNLYWUtd2hBdnZFTHZHbmpVX014QWZFYmphUHNZT1YwZ1A2SENKLWl5MW1ZWkJ2MnNIOGxqSzRPc0UyQXQ3SDVuVWZEU2VtTlI3eUJWSmxyNHFTNUpIN2oyaXQ1NHpWeXlCbmZKdGxraVVKTzJha1N3?oc=5
+
+Etihad Airways celebrates graduation of 115 Emirati cadet pilots    The National

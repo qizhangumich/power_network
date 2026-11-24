@@ -1,0 +1,5 @@
+# Adnoc teams up with OpenAI and UAE player to deploy frontier technology
+source: Upstream Online
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxNbWZzQ0JraXlUY3FibkZreTNBN1ktWnZuNVJmMmNad3NlTTlVMjNiWG9hOER4aE4tRUVfVTI2dkJYT3lrY1Zyek1lUk5sR0JpZ3FaRnloQzhyd1hEUV80Q21qX0xWYWlHSUlocnM3c3RRcGloVFllUy0xU2dKQTdMbHNVOGRJZWpySWZrR20zczItSHJKV3FNRUZkSkV4YzhSZ2pWSlhrNVNlVGtEcmphU3VmM3ZyM2xiSk1mTThVNGRpTTJXVlF4Tk5n?oc=5
+
+Adnoc teams up with OpenAI and UAE player to deploy frontier technology    Upstream Online

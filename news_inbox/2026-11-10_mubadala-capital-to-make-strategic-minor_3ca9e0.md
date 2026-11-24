@@ -1,0 +1,5 @@
+# Mubadala Capital to Make Strategic Minority Investment in LSV Advisors
+source: Yahoo Finance
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxOWW5zb2ZwbklYTUlpQmpQQlFNRjhScHVIS2RQeGozM1VZQllxcEY4amgyS0tEaDJ6aURvbm1nbENMaVBBc1UtMHVhSFpNY3JERU8yZnhEWUtHZTE4eGpEdVVwaU5sRV9HVXIwMXMxYTBLZi1ka2NyWTBjbm1Hc0t4ejYwa3NsT2pjNlIwME9LbVgxendEd3hEWll2bVZvaWJoN1VmTlV2QjlpQnRXYW14bg?oc=5
+
+Mubadala Capital to Make Strategic Minority Investment in LSV Advisors    Yahoo Finance

@@ -1,0 +1,5 @@
+# Etihad Airways graduation ceremony for Emirati pilots and engineers - in pictures
+source: www.thenationalnews.com
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQQjExWnFaNk9UaUpQaDZRMVZnZ3RhNTVMU0s5Q3hia2RXWGtQYWdGYUZJM1Vaa05uM0EtRXpVbnB2aDNxTEExVG8yaVVzUjRpY1A5b18xMW5HN0s0WkloM0RnRjFGYlVMQVNRUGxNNE12ajRNLU5JWE5GdFJYNjNxamlZaEdINV9XZ0xqMTM3WkhmVkdnTy1XTUZzMkpmVVZxanNCQVAxVUJMaUdZZVI3UTdHZkZJNWFFZHRCYTlxTENrTzJWMjNj?oc=5
+
+Etihad Airways graduation ceremony for Emirati pilots and engineers - in pictures    www.thenationalnews.com

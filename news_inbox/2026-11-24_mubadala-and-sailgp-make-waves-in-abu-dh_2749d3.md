@@ -1,0 +1,5 @@
+# Mubadala and SailGP make waves in Abu Dhabi classrooms as thousands of students discover wing foiling
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxOSUNlR1ZXMEdoY2kzSnNHZm9KSE9zaUtSSnQ2bEJENmlWaHZ5bkJZRkRfcVI5NlNCWndKM1BnVGVUT2dtWm9sWUNvUkFFRmtmb2I5Y0k0bWJTZjZxN3U5V242YkJBTllfZVpWZDlzbWtYWXJRZ19kZUdUVkVfRzI0VUNIc0x2TVlBME1BWklRc1pCZi1BTGItX1lmSnFQSWJkYUwzdFRkcTNPalREdkVhS3lxNlhpNjVjNHJWZXpsQThwblFIZGJlQUw4a0k5LV9vXzM1N1J3aVlPQ1lHUDNUUXJMWnJXV19CSU11bktnSGYyeGxxMFE?oc=5
+
+Mubadala and SailGP make waves in Abu Dhabi classrooms as thousands of students discover wing foiling    Zawya

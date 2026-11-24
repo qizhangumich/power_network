@@ -1,0 +1,5 @@
+# Space42 and Microsoft UAE release report on geospatial AI for public services
+source: Telecompaper
+url: https://news.google.com/rss/articles/CBMivAFBVV95cUxPQk85U3I0dUVWWkN6SzdjOFlISERra2lxX0UzaXk2YnBMRkRzdXliQS0yZWllQnJfZ2hDV0FIa1RQUzBfS0lLVnBxS3ZEUExoWjkzTTA2WGptS0I1RVdoeTBlZkVNa3lfMTdSUDB3NHk5eGtkSzNVYjV5N1o3cVUyTjd6N2FiNU5uSTNtS21vbUZNTDhCY2RMUzhyS3JWdTc3anltVjhfRUZ5cy1qS1F3SUhFMDkzV2RJempMYQ?oc=5
+
+Space42 and Microsoft UAE release report on geospatial AI for public services    Telecompaper

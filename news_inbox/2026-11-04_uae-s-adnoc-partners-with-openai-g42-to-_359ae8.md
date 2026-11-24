@@ -1,0 +1,5 @@
+# UAE's ADNOC partners with OpenAI, G42 to deploy frontier AI
+source: ALCHEMPro
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxQRVVxNU1SX2ljbWtuZHV6ZnJhUHJvVm4xb3lJRVlMVEFTNnUzZC02WjhBQl92bzRGMF96bVdVQ3IyWVp1NjRHX0ZVXzltc2hOM2hkX3Q3Wnl2VlFSOGR6S2ZDS1lqTUVSSzFMQldEbGFQd1FVeXljaE1BcjN1NTI1Z2daUEh5UWRyZkRLNjZwYzdDNHIwSTZpNUtiOFJRajJGamFVSDBqcWNCaEVWcUFCMlVMQ3hwdE5tTFYwa2NmLTI0M0d2cXc?oc=5
+
+UAE's ADNOC partners with OpenAI, G42 to deploy frontier AI    ALCHEMPro
