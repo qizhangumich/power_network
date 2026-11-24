@@ -75,7 +75,7 @@ const INSTITUTIONS = [
   {id:"lst_ship", n:"Heavy Engineering Industries and Shipbuilding", s:"industry", t:2, p:60, short:"HEISCO"},
   {id:"lst_bpcc", n:"Boubyan Petrochemical Company K.S.C.P.", s:"materials", t:2, p:58, short:"Boubyan Petrochem"},
   {id:"lst_humansoft", n:"Human Soft Holding", s:"industry", t:2, p:58, short:"Human Soft Hldg"},
-  {id:"lst_ifahr", n:"IFA Hotels and Resorts", s:"consumer_disc", t:2, p:50, short:"IFAHR"},
+  {id:"lst_ifahr", n:"IFA Hotels and Resorts", s:"consumer_disc", t:2, p:54, short:"IFAHR"},
   {id:"lst_cgc", n:"Combined Group Contracting KSCP", s:"industry", t:2, p:58, short:"CGC"},
   {id:"lst_oulafuel", n:"Oula Fuel Marketing Company K.S.C.P.", s:"consumer_disc", t:2, p:58, short:"Oula Fuel"},
   {id:"lst_gfh", n:"GFH Bank B.S.C.", s:"finance", t:2, p:60, short:"GFH Bank B.S.C."},
@@ -278,6 +278,11 @@ const INSTITUTIONS = [
   {id:"dasman_diabetes_inst", n:"Dasman Diabetes Institute", s:"health", t:2, p:58, short:"Dasman Diabetes Inst"},
   {id:"oca", n:"Olympic Council of Asia", s:"gov", t:2, p:56, short:"OCA"},
   {id:"boubyan_takaful", n:"Boubyan Takaful Insurance Company", s:"finance", t:3, p:52, short:"Boubyan Takaful"},
+  {id:"min_of_education", n:"Ministry of Education", s:"education", t:1, p:66, short:"Min. of Education"},
+  {id:"ministry_of_justice", n:"Ministry of Justice", s:"gov", t:1, p:64, short:"Ministry of Justice"},
+  {id:"min_social_affairs", n:"Ministry of Social Affairs", s:"gov", t:1, p:60, short:"Min. Social Affairs"},
+  {id:"min_awqaf_affairs", n:"Ministry of Awqaf and Islamic Affairs", s:"gov", t:2, p:56, short:"Min. Awqaf Affairs"},
+  {id:"public_auth_sport", n:"Public Authority for Sport", s:"gov", t:3, p:54, short:"Public Auth. Sport"},
 ];
 
 const PEOPLE = [
@@ -444,6 +449,7 @@ const PEOPLE = [
   {id:"bader_abdullah_al", n:"Bader Abdullah Al-Kandari", t:2, p:62, s:"finance", roles:[
     ["boursa","Vice Chairman","board","v"]]},
   {id:"talal_jassim_al", n:"Talal Jassim Al-Bahar", t:2, p:52, s:"finance", roles:[
+    ["lst_ifahr","Vice Chairman","board","v"],
     ["lst_arzan","Chairman of the Board of Directors","board","v"],
     ["lst_kre","Vice Chairman & CEO","board","v"],
     ["boursa","Board Member","board","v"]]},
@@ -708,6 +714,7 @@ const PEOPLE = [
   {id:"mahmoud_al_marzouq", n:"Mahmoud Al-Marzouq", t:2, p:52, s:"sovereign", roles:[
     ["kia","Board Member","board","v"]]},
   {id:"danah_al_mulla", n:"Danah Al-Mulla", t:2, p:52, s:"sovereign", roles:[
+    ["royale_hayat_hosp","Deputy Chairperson","board","v"],
     ["al_mulla","Chief Strategy Officer","executive","v"],
     ["kia","Board Member","board","v"]]},
   {id:"salah_al_fouzan", n:"Salah Al-Fouzan", t:2, p:52, s:"sovereign", roles:[
@@ -1472,6 +1479,7 @@ const PEOPLE = [
   {id:"john_h_clark", n:"John H. Clark", t:2, p:52, s:"utilities", roles:[
     ["shamalazzour","Board Member","board","v"]]},
   {id:"eyad_al_falah", n:"Eyad Al-Falah", t:2, p:52, s:"utilities", roles:[
+    ["lst_beyout","Chairman","board","v"],
     ["shamalazzour","Board Member","board","v"]]},
   {id:"fatima_a_al", n:"Fatima A. Al-Homaidan", t:2, p:52, s:"utilities", roles:[
     ["shamalazzour","Board Member","board","v"]]},
@@ -2317,6 +2325,8 @@ const PEOPLE = [
     ["lst_trolley","CEO","executive","ns"]]},
   {id:"husain_al_musallam", n:"Husain Al Musallam", t:2, p:58, s:"gov", roles:[
     ["oca","Director General","executive","v"]]},
+  {id:"amal_abdulaziz_aleisa", n:"Amal Abdulaziz AlEisa", t:2, p:62, s:"health", roles:[
+    ["dasman_diabetes_inst","Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2579,4 +2589,7 @@ const AKA = {
   kuwait_cancer_ctr:["KCCC"],
   dasman_diabetes_inst:["DDI"],
   boubyan_takaful:["Boubyan Takaful Insurance Co. KSC"],
+  min_social_affairs:["MOSAL","Ministry of Social Affairs and Labour"],
+  min_awqaf_affairs:["MOIAI"],
+  public_auth_sport:["PAS","Public Authority for Youth and Sport"],
 };

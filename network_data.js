@@ -355,6 +355,7 @@ const INSTITUTIONS = [
   {id:"awnic", n:"Al Wathba National Insurance Company PJSC", s:"finance", t:3, p:54, short:"AWNIC"},
   {id:"ad_national_takaful", n:"Abu Dhabi National Takaful Company PSC", s:"finance", t:3, p:55, short:"AD National Takaful"},
   {id:"national_investor_pr", n:"The National Investor Pr.J.S.C.", s:"finance", t:3, p:52, short:"The National Investor"},
+  {id:"apollo_global_mgmt", n:"Apollo Global Management, Inc.", s:"finance", t:3, p:64, short:"Apollo Global Mgmt"},
 ];
 
 const PEOPLE = [
@@ -5099,10 +5100,58 @@ const PEOPLE = [
     ["openai","Chief Executive Officer","executive","v"],
     ]},
   {id:"jensen_huang", n:"Jensen Huang", t:2, p:60, s:"tech", roles:[
-    ["nvidia","Co-Founder, President and Chief Executive Officer","executive","v"],
+    ["nvidia","Co-Founder, President and Chief Executive Officer (until Nov 2026)","executive","v","former:until Nov 2026"],
     ]},
   {id:"patrick_pouyann", n:"Patrick Pouyanné", t:2, p:62, s:"energy", roles:[
     ["totalenergies","Chairman and Chief Executive Officer","executive","v"],
+    ]},
+  {id:"sandra_peterson", n:"Sandra Peterson", t:2, p:52, s:"tech", roles:[
+    ["microsoft","Lead Independent Director","board","v"],
+    ]},
+  {id:"robert_s_kapito", n:"Robert S. Kapito", t:2, p:52, s:"finance", roles:[
+    ["blackrock","President and Director","board","v"],
+    ]},
+  {id:"bret_taylor", n:"Bret Taylor", t:2, p:62, s:"tech", roles:[
+    ["openai","Chairman of the Board (OpenAI Foundation)","board","v"],
+    ]},
+  {id:"harvey_c_jones", n:"Harvey C. Jones", t:2, p:62, s:"tech", roles:[
+    ["nvidia","Chairman of the Board","board","v"],
+    ]},
+  {id:"colette_kress", n:"Colette Kress", t:2, p:60, s:"tech", roles:[
+    ["nvidia","Interim Chief Executive Officer","executive","v"],
+    ]},
+  {id:"jacques_aschenbroich", n:"Jacques Aschenbroich", t:2, p:52, s:"energy", roles:[
+    ["totalenergies","Lead Independent Director","board","v"],
+    ]},
+  {id:"ian_tyler", n:"Ian Tyler", t:2, p:62, s:"energy", roles:[
+    ["bp","Chair","board","v"],
+    ]},
+  {id:"meg_o_neill", n:"Meg O'Neill", t:2, p:60, s:"energy", roles:[
+    ["bp","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"andrew_mackenzie", n:"Andrew Mackenzie", t:2, p:62, s:"energy", roles:[
+    ["shell","Chair","board","v"],
+    ]},
+  {id:"wael_sawan", n:"Wael Sawan", t:2, p:60, s:"energy", roles:[
+    ["shell","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"darren_woods", n:"Darren Woods", t:2, p:62, s:"energy", roles:[
+    ["exxonmobil","Chairman and Chief Executive Officer","executive","v"],
+    ]},
+  {id:"joseph_l_hooley", n:"Joseph L. Hooley", t:2, p:52, s:"energy", roles:[
+    ["exxonmobil","Lead Director","board","v"],
+    ]},
+  {id:"david_solomon", n:"David Solomon", t:2, p:62, s:"finance", roles:[
+    ["goldman","Chairman and Chief Executive Officer","executive","v"],
+    ]},
+  {id:"david_viniar", n:"David Viniar", t:2, p:52, s:"finance", roles:[
+    ["goldman","Lead Director","board","v"],
+    ]},
+  {id:"giuseppina_di_foggia", n:"Giuseppina Di Foggia", t:2, p:62, s:"energy", roles:[
+    ["eni","Chairman of the Board","board","v"],
+    ]},
+  {id:"claudio_descalzi", n:"Claudio Descalzi", t:2, p:60, s:"energy", roles:[
+    ["eni","Chief Executive Officer","executive","v"],
     ]},
 ];
 
@@ -5402,6 +5451,8 @@ const OWNERSHIP = [
   ["danat_al_emarat","mubadala_health","subsidiary (via UEMedical","ns"],
   ["healthpoint","m42","subsidiary (Abu Dhabi hospital brand within the M42 network)","v"],
   ["adnh_catering","adnh","subsidiary","v"],
+  ["mubadala_capital","apollo_global_mgmt","~10% minority stake acquired Nov 2026","ns"],
+  ["lst_adaviation","adq","additional 12.17% stake via ADQ Aviation and Aerospace Services, from Mamoura Diversified Global Holding, Nov 2026","ns"],
 ];
 
 const FAMILY = [
@@ -5508,4 +5559,5 @@ const AKA = {
   adnh_catering:["ADNHC"],
   ad_national_takaful:["TKFL"],
   national_investor_pr:["TNI"],
+  apollo_global_mgmt:["Apollo"],
 };

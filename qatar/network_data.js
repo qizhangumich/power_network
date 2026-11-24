@@ -132,7 +132,7 @@ const INSTITUTIONS = [
   {id:"lst_qfbq", n:"Lesha Bank LLC (formerly Qatar First Bank)", s:"finance", t:2, p:60, short:"Lesha Bank"},
   {id:"lst_mers", n:"Al Meera Consumer Goods Company Q.P.S.C.", s:"consumer_stap", t:2, p:57, short:"Al Meera"},
   {id:"lst_qgri", n:"Qatar General Insurance & Reinsurance Company Q.P.S.C.", s:"finance", t:2, p:50, short:"QGRI"},
-  {id:"lst_meza", n:"MEEZA QSTP-LLC", s:"tech", t:2, p:50, short:"MEEZA QSTP-LLC"},
+  {id:"lst_meza", n:"MEEZA QSTP-LLC", s:"tech", t:2, p:60, short:"MEEZA"},
   {id:"lst_qigd", n:"Qatari Investors Group Q.P.S.C.", s:"conglomerate", t:2, p:58, short:"QIGD"},
   {id:"lst_qncd", n:"Qatar National Cement Company Q.P.S.C.", s:"materials", t:2, p:60, short:"QNCD"},
   {id:"lst_mcgs", n:"Medicare Group Q.P.S.C.", s:"health", t:2, p:50, short:"MCGS"},
@@ -267,6 +267,11 @@ const INSTITUTIONS = [
   {id:"cabinet_secretariat", n:"General Secretariat of the Council of Ministers", s:"gov", t:1, p:70, short:"Cabinet Secretariat"},
   {id:"qnbfs", n:"QNB Financial Services", s:"finance", t:2, p:58, short:"QNBFS"},
   {id:"x2_ventures", n:"X2 Ventures", s:"finance", t:3, p:54, short:"X2 Ventures"},
+  {id:"state_audit_bureau", n:"State Audit Bureau", s:"gov", t:1, p:65, short:"State Audit Bureau"},
+  {id:"qrdi_council", n:"Qatar Research, Development and Innovation Council", s:"tech", t:2, p:58, short:"QRDI Council"},
+  {id:"lusail_real_estate", n:"Lusail Real Estate Development Company", s:"realestate", t:2, p:56, short:"Lusail Real Estate"},
+  {id:"ras_bufontas_fz", n:"Ras Bufontas Free Zone", s:"gov", t:2, p:56, short:"Ras Bufontas FZ"},
+  {id:"umm_alhoul_fz", n:"Umm Alhoul Free Zone", s:"gov", t:2, p:56, short:"Umm Alhoul FZ"},
 ];
 
 const PEOPLE = [
@@ -917,6 +922,7 @@ const PEOPLE = [
   {id:"alnowar_al_khulaifi", n:"Alnowar Al-Khulaifi", t:2, p:52, s:"comm", roles:[
     ["vodafoneqatar","Board Member","board","v"]]},
   {id:"sheikh_hamad_abdulla", n:"Sheikh Hamad Abdulla Jassim Al-Thani", t:2, p:60, s:"comm", roles:[
+    ["lst_meza","Chairman of the Board","board","v"],
     ["vodafoneqatar","Chief Executive Officer","executive","v"]]},
   {id:"abdulla_ali_a", n:"Abdulla Ali A A Al-Misnad", t:2, p:58, s:"comm", roles:[
     ["vodafoneqatar","Chief Administrative Officer","executive","v"]]},
@@ -2618,6 +2624,20 @@ const PEOPLE = [
     ["lst_wdam","Independent Board Member","board","v"]]},
   {id:"mehmet_murat_nursel", n:"Mehmet Murat Nursel", t:2, p:58, s:"industry", roles:[
     ["qas","Senior Vice President - Ground Handling","executive","ns"]]},
+  {id:"joseph_l_hooley", n:"Joseph L. Hooley", t:2, p:52, s:"energy", roles:[
+    ["exxonmobil","Lead Director","board","v"]]},
+  {id:"andrew_mackenzie", n:"Andrew Mackenzie", t:2, p:62, s:"energy", roles:[
+    ["shell","Chair","board","v"]]},
+  {id:"dick_boer", n:"Dick Boer", t:2, p:62, s:"energy", roles:[
+    ["shell","Deputy Chair and Senior Independent Director","board","v"]]},
+  {id:"james_shaw", n:"James Shaw", t:2, p:58, s:"education", roles:[
+    ["northwestern_qatar","Associate Dean for Administration and Chief Operations Officer","executive","v"]]},
+  {id:"zachary_wright", n:"Zachary Wright", t:2, p:58, s:"education", roles:[
+    ["northwestern_qatar","Associate Dean for Faculty Affairs","executive","v"]]},
+  {id:"s_venus_jin", n:"S. Venus Jin", t:2, p:58, s:"education", roles:[
+    ["northwestern_qatar","Associate Dean for Education","executive","v"]]},
+  {id:"mohamed_ali_al", n:"Mohamed Ali Al Ghaithani", t:2, p:60, s:"tech", roles:[
+    ["lst_meza","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2769,6 +2789,9 @@ const OWNERSHIP = [
   ["qatarenergy_trading","qatarenergy","wholly-owned subsidiary","v"],
   ["qnbfs","qnb","subsidiary","v"],
   ["lst_bema","qib","associate","v"],
+  ["lusail_real_estate","qatariddiar","subsidiary of","ns"],
+  ["ras_bufontas_fz","qfz","operated by","v"],
+  ["umm_alhoul_fz","qfz","operated by","ns"],
 ];
 
 const FAMILY = [
@@ -2885,4 +2908,7 @@ const AKA = {
   cgb:["CSGDB"],
   qatarenergy_trading:["QP Trading"],
   cabinet_secretariat:["GSCM","Cabinet's General Secretariat"],
+  state_audit_bureau:["SAB","Diwan al-Muhasaba"],
+  qrdi_council:["QRDI"],
+  lusail_real_estate:["LREDC"],
 };

@@ -53,6 +53,9 @@ const INSTITUTIONS = [
   {id:"sewa",     n:"SEWA (Sharjah Electricity, Water & Gas)", s:"utilities", t:1, p:66, short:"SEWA"},
   {id:"shj_execco", n:"Sharjah Executive Council",     s:"gov", t:1, p:78, short:"Shj Exec Council"},
   {id:"rak_execco", n:"Ras Al Khaimah Executive Council", s:"gov", t:1, p:74, short:"RAK Exec Council"},
+  {id:"ajman_execco", n:"Ajman Executive Council",     s:"gov", t:1, p:68, short:"Ajman Exec Council"},
+  {id:"uaq_execco", n:"Umm Al Quwain Executive Council", s:"gov", t:1, p:64, short:"UAQ Exec Council"},
+  {id:"uaq_police", n:"Umm Al Quwain Police General Command", s:"gov", t:2, p:54, short:"UAQ Police"},
   {id:"shjpolice", n:"Sharjah Police (General Command)", s:"gov", t:1, p:72, short:"Sharjah Police"},
   {id:"scci",     n:"Sharjah Chamber of Commerce & Industry", s:"gov", t:2, p:66, short:"SCCI"},
   {id:"sedd",     n:"Sharjah Economic Development Department", s:"gov", t:1, p:70, short:"SEDD"},
@@ -225,6 +228,9 @@ const INSTITUTIONS = [
   {id:"univ_of_bolton", n:"University of Bolton - Ras Al Khaimah Academic Centre", s:"education", t:3, p:52, short:"Univ of Bolton RAK"},
   {id:"fuj_media_office", n:"Fujairah Government Media Office", s:"gov", t:3, p:52, short:"Fuj Media Office"},
   {id:"rak_media_office", n:"Ras Al Khaimah Government Media Office", s:"gov", t:3, p:52, short:"RAK Media Office"},
+  {id:"rak_transport_auth", n:"Ras Al Khaimah Transport Authority", s:"gov", t:2, p:58, short:"RAK Transport Auth."},
+  {id:"ajman_hr_dept", n:"Ajman Human Resources Department", s:"gov", t:3, p:52, short:"Ajman HR Dept"},
+  {id:"shj_family_council", n:"Sharjah Family and Community Council", s:"gov", t:2, p:58, short:"Shj Family Council"},
 ];
 
 const PEOPLE = [
@@ -777,6 +783,7 @@ const PEOPLE = [
     ["hfza","Director","executive","v"],
     ["saif_zone","Director","executive","v"]]},
   {id:"ahmed_bin_humaid", n:"Ahmed bin Humaid Al Nuaimi", t:2, p:62, s:"gov", roles:[
+    ["ajman_dof","Representative of H.H. the Ruler of Ajman for Administrative and Financial Affairs and Chairman of the Ajman Department of Finance","board","ns"],
     ["amcfz","Chairman","board","v"],
     ["ajman_ded","Chairman, Ajman Department of Economic Development","board","v"],
     ["ajmgov","Vice Chairman of the Executive Council","executive","v"],
@@ -1749,6 +1756,12 @@ const PEOPLE = [
     ["srerd","Director of the Real Estate Projects Regulation Department","executive","ns"]]},
   {id:"mona_al_ayyan", n:"Mona Al-Ayyan", t:2, p:58, s:"health", roles:[
     ["saqr_hospital","Director of Saqr Hospital","executive","v"]]},
+  {id:"graham_farrington", n:"Graham Farrington", t:2, p:58, s:"materials", roles:[
+    ["stevin_rock","Board Director and Chief Operating Officer","executive","v"]]},
+  {id:"sheikh_ahmed_bin_b_b_b_b", n:"Sheikh Ahmed Bin Saqr Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["rak_customs","Chairman of RAK Customs Department","board","v"]]},
+  {id:"amel_almaeeni", n:"Amel AlMaeeni", t:2, p:58, s:"health", roles:[
+    ["al_fujairah_hosp","Assistant Director for Medical Affairs","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -1768,6 +1781,9 @@ const OWNERSHIP = [
   ["sewa","shjgov"],
   ["shj_execco","shjgov","executive arm of"],
   ["rak_execco","rakgov","executive arm of"],
+  ["ajman_execco","ajmgov","executive arm of","v"],
+  ["uaq_execco","uaqgov","executive arm of","v"],
+  ["uaq_police","uaqgov","reports to","ns"],
   ["shjpolice","shj_execco","reports to"],
   ["sedd","shj_execco","reports to"],
   ["scci","shjgov"],
@@ -2017,4 +2033,6 @@ const AKA = {
   univ_of_bolton:["University of Bolton RAK","UoB Ras Al Khaimah"],
   fuj_media_office:["Fujairah Media Office"],
   rak_media_office:["RAKGMO"],
+  rak_transport_auth:["RAKTA"],
+  shj_family_council:["Supreme Council for Family Affairs","SCFA"],
 };

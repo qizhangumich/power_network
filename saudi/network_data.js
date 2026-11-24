@@ -2575,6 +2575,7 @@ const PEOPLE = [
   {id:"abdullatif_al_fozan", n:"Abdullatif Al-Fozan", t:2, p:52, s:"finance", roles:[
     ["alpha_capital","Board Member","board","ns"]]},
   {id:"suliman_bin_khalid", n:"Suliman bin Khalid Al-Mazroua", t:2, p:58, s:"gov", roles:[
+    ["lst_2083","Independent Board Member","board","v"],
     ["mawani","President","executive","v"]]},
   {id:"ahmed_bin_suliman", n:"Ahmed bin Suliman Al-Rajhi", t:2, p:52, s:"gov", roles:[
     ["gosi","Minister of Human Resources and Social Development / Board Member","board","v"]]},
@@ -2635,6 +2636,7 @@ const PEOPLE = [
   {id:"fadi_jamal", n:"Fadi Jamal", t:2, p:58, s:"realestate", roles:[
     ["kaec","Executive Director, Head of Internal Audit","executive","v"]]},
   {id:"khalid_bin_mohammed", n:"Khalid bin Mohammed Al-Salem", t:2, p:62, s:"gov", roles:[
+    ["lst_2083","Non-Executive Chairman","board","v"],
     ["rcjy","President of RCJY / Vice Chairman of the Board","board","v"]]},
   {id:"faisal_mohammed_f", n:"Faisal Mohammed F Almoammar", t:2, p:52, s:"gov", roles:[
     ["rcjy","Board Member (Head of Advisors Unit, Ministry of Finance)","board","v"]]},
@@ -4236,9 +4238,20 @@ const PEOPLE = [
   {id:"saad_al_sayari", n:"Saad Al-Sayari", t:2, p:62, s:"materials", roles:[
     ["lst_2360","Vice Chairman","board","ns"],
     ["lst_2360","Managing Director","executive","ns"]]},
+  {id:"mohammed_berki_al", n:"Mohammed Berki Al-Zuabi", t:2, p:60, s:"utilities", roles:[
+    ["lst_2083","President and Chief Executive Officer","executive","v"]]},
+  {id:"badr_a_al", n:"Badr A. Al-Ghariry", t:2, p:52, s:"utilities", roles:[
+    ["lst_2083","Non-Executive Board Member","board","v"]]},
+  {id:"muhammad_tami_al", n:"Muhammad Tami Al-Hajri", t:2, p:52, s:"utilities", roles:[
+    ["lst_2083","Non-Executive Board Member","board","v"]]},
+  {id:"fahad_abdullah_al", n:"Fahad Abdullah Al-Semaih", t:2, p:52, s:"utilities", roles:[
+    ["lst_2083","Independent Board Member","board","v"]]},
+  {id:"mohammed_waleed_batterjee", n:"Mohammed Waleed Batterjee", t:2, p:52, s:"utilities", roles:[
+    ["lst_2083","Independent Board Member","board","v"]]},
 ];
 
 const OWNERSHIP = [
+  ["humain","aramco","49% stake acquired Nov 2026 (alongside existing PIF ownership)","ns"],
   ["lst_6015","adeptio","~66% direct stake (Adeptio AD Holdings Ltd, equally owned by Mohamed Alabbar and a PIF subsidiary, Saudi Company for Gulf Food Investments)","v"],
   ["lst_4332","jadwa_investment","fund manager","v"],
   ["lst_4342","jadwa_investment","fund manager","v"],

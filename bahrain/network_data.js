@@ -64,7 +64,7 @@ const INSTITUTIONS = [
   {id:"lst_bisb", n:"Bahrain Islamic Bank B.S.C.", s:"finance", t:2, p:60, short:"BISB"},
   {id:"lst_arig", n:"Arab Insurance Group B.S.C.", s:"finance", t:2, p:58, short:"ARIG"},
   {id:"lst_solid", n:"Solidarity Bahrain B.S.C.", s:"finance", t:2, p:66, short:"Solidarity Bahrain"},
-  {id:"lst_bkic", n:"Bahrain Kuwait Insurance Company B.S.C.", s:"finance", t:2, p:50, short:"BKIC"},
+  {id:"lst_bkic", n:"Bahrain Kuwait Insurance Company B.S.C.", s:"finance", t:2, p:58, short:"BKIC"},
   {id:"lst_bnh", n:"Bahrain National Holding Company B.S.C.", s:"finance", t:2, p:58, short:"BNH"},
   {id:"lst_seef", n:"Seef Properties B.S.C.", s:"realestate", t:2, p:58, short:"Seef Properties"},
   {id:"lst_dutyf", n:"Bahrain Duty Free Shop Complex B.S.C.", s:"consumer_disc", t:2, p:56, short:"DUTYF"},
@@ -220,6 +220,12 @@ const INSTITUTIONS = [
   {id:"kfh_bahrain", n:"Kuwait Finance House – Bahrain B.S.C.(c)", s:"finance", t:2, p:62, short:"KFH Bahrain"},
   {id:"invita", n:"Invita W.L.L.", s:"industry", t:3, p:52, short:"Invita"},
   {id:"abc_islamic_bank", n:"ABC Islamic Bank (E.C.)", s:"finance", t:2, p:56, short:"ABC Islamic Bank"},
+  {id:"min_social_dev", n:"Ministry of Social Development", s:"gov", t:1, p:62, short:"Min. Social Dev"},
+  {id:"defence_affairs", n:"Ministry of Defence Affairs", s:"gov", t:1, p:66, short:"Defence Affairs"},
+  {id:"judicial_council", n:"Supreme Judicial Council", s:"gov", t:1, p:64, short:"Judicial Council"},
+  {id:"public_prosecution", n:"Public Prosecution", s:"gov", t:2, p:60, short:"Public Prosecution"},
+  {id:"national_guard", n:"National Guard", s:"gov", t:1, p:66, short:"National Guard"},
+  {id:"nihr", n:"National Institution for Human Rights", s:"gov", t:2, p:56, short:"NIHR"},
 ];
 
 const PEOPLE = [
@@ -1907,6 +1913,7 @@ const PEOPLE = [
   {id:"fawzi_abdulla_nass", n:"Fawzi Abdulla Nass", t:2, p:52, s:"industry", roles:[
     ["lst_nass","Director","board","v"]]},
   {id:"hisham_al_saie", n:"Hisham Al Saie", t:2, p:52, s:"industry", roles:[
+    ["aubh","Chairman of the Board of Trustees","board","v"],
     ["insead","Young Managers Programme (executive)","alumni","v"],
     ["lst_nass","Director","board","v"]]},
   {id:"mustafa_al_sayed", n:"Mustafa Al Sayed", t:2, p:52, s:"industry", roles:[
@@ -3294,8 +3301,10 @@ const PEOPLE = [
   {id:"abdulhakeem_yaqoob_alkhayyat", n:"Abdulhakeem Yaqoob Alkhayyat", t:2, p:60, s:"finance", roles:[
     ["lst_kfh","Managing Director & Chief Executive Officer, KFH-Bahrain","executive","v"]]},
   {id:"hamad_abdulmohsen_almarzouq", n:"Hamad Abdulmohsen Almarzouq", t:2, p:62, s:"finance", roles:[
+    ["kfh_bahrain","Chairman","board","v"],
     ["lst_kfh","Chairman","board","v"]]},
   {id:"adel_a_el", n:"Adel A. El-Labban", t:2, p:62, s:"finance", roles:[
+    ["kfh_bahrain","Deputy Chairman","board","v"],
     ["lst_kfh","Deputy Chairman","board","v"]]},
   {id:"khalid_mohamed_najibi", n:"Khalid Mohamed Najibi", t:2, p:62, s:"finance", roles:[
     ["lst_kfh","Deputy Chairman","board","v"]]},
@@ -3304,6 +3313,7 @@ const PEOPLE = [
   {id:"muad_saud_al", n:"Muad Saud Al Osaimi", t:2, p:52, s:"finance", roles:[
     ["lst_kfh","Director","board","v"]]},
   {id:"khaled_yousif_al", n:"Khaled Yousif Al-Shamlan", t:2, p:52, s:"finance", roles:[
+    ["kfh_bahrain","Board Member","board","v"],
     ["lst_kfh","Director","board","v"]]},
   {id:"haitham_abdulaziz_al", n:"Haitham Abdulaziz Al-Terkait", t:2, p:52, s:"finance", roles:[
     ["lst_kfh","Executive Director","board","v"]]},
@@ -3435,7 +3445,7 @@ const PEOPLE = [
   {id:"safa_abdul_khaliq", n:"Safa Abdul Khaliq", t:2, p:60, s:"consumer_disc", roles:[
     ["danat","Chief Executive Officer","executive","ns"]]},
   {id:"andres_garcia", n:"Andres Garcia", t:2, p:60, s:"industry", roles:[
-    ["premo","Chief Executive Officer","executive","ns"]]},
+    ["premo","Chief Executive Officer","executive","v"]]},
   {id:"ali_bin_saleh", n:"Ali bin Saleh Al Saleh", t:2, p:62, s:"gov", roles:[
     ["shura_council","Chairman","board","v"]]},
   {id:"jamal_mohammed_fakhro", n:"Jamal Mohammed Fakhro", t:2, p:62, s:"gov", roles:[
@@ -3827,6 +3837,14 @@ const PEOPLE = [
     ["credimax","Chief Executive Officer","executive","ns"]]},
   {id:"shadi_zahran", n:"Shadi Zahran", t:2, p:60, s:"finance", roles:[
     ["kfh_bahrain","Group Chief Executive Officer","executive","v"]]},
+  {id:"khalid_mohamad_al", n:"Khalid Mohamad Al-Saad", t:2, p:52, s:"finance", roles:[
+    ["kfh_bahrain","Board Member","board","v"]]},
+  {id:"ahmed_alumran", n:"Ahmed Alumran", t:2, p:62, s:"education", roles:[
+    ["aubh","Vice Chairman of the Board of Trustees","board","v"]]},
+  {id:"hammad_hassan", n:"Hammad Hassan", t:2, p:60, s:"finance", roles:[
+    ["abc_islamic_bank","Managing Director and Chief Executive Officer","executive","v"]]},
+  {id:"khaled_saud_al", n:"Khaled Saud Al Hassan", t:2, p:62, s:"finance", roles:[
+    ["lst_bkic","Vice Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -4042,4 +4060,7 @@ const AKA = {
   credimax:["c"],
   kfh_bahrain:["Ahli United Bank B.S.C.(c)","AUB Bahrain","c"],
   abc_islamic_bank:["formerly ABC Investment and Services Company","E.C."],
+  min_social_dev:["MSD"],
+  judicial_council:["SJC"],
+  national_guard:["Bahrain National Guard"],
 };
