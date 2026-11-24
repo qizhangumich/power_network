@@ -1424,6 +1424,8 @@ const PEOPLE = [
   {id:"abdulla_bin_ali", n:"Abdulla bin Ali Al Thiyab", t:2, p:52, s:"industry", roles:[
     ["qatarrail","Board Member","board","ns"]]},
   {id:"sheikh_mohammed_bin_b_b", n:"Sheikh Mohammed bin Hamad bin Faisal Al Thani", t:2, p:52, s:"industry", roles:[
+    ["umm_alhoul_fz","CEO, Qatar Free Zones Authority (QFZA)","executive","v"],
+    ["ras_bufontas_fz","CEO, Qatar Free Zones Authority (QFZA)","executive","v"],
     ["qatar_diamond_exchange","Chairman","board","v"],
     ["qfz","Chief Executive Officer","executive","ns"],
     ["qatarrail","Board Member","board","v"]]},
@@ -2638,6 +2640,10 @@ const PEOPLE = [
     ["northwestern_qatar","Associate Dean for Education","executive","v"]]},
   {id:"mohamed_ali_al", n:"Mohamed Ali Al Ghaithani", t:2, p:60, s:"tech", roles:[
     ["lst_meza","Chief Executive Officer","executive","v"]]},
+  {id:"abdulaziz_bin_mohammed", n:"Abdulaziz bin Mohammed bin Ahmed Al Emadi", t:2, p:58, s:"gov", roles:[
+    ["state_audit_bureau","President of the State Audit Bureau","executive","v"]]},
+  {id:"omar_ali_al", n:"Omar Ali Al Ansari", t:2, p:58, s:"tech", roles:[
+    ["qrdi_council","Secretary General, QRDI Council","executive","v"]]},
 ];
 
 const OWNERSHIP = [

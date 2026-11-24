@@ -1797,6 +1797,7 @@ const PEOPLE = [
     ["pafn","Director General and Chairman of the Board","executive","ns"],
     ["cabinet_kw","Minister of State for Development and Sustainability Affairs","executive","v"]]},
   {id:"tareq_hamad_al", n:"Tareq Hamad Al-Jalahma", t:2, p:58, s:"gov", roles:[
+    ["public_auth_sport","Minister of State for Youth and Sports Affairs; Chairman, Public Authority for Sport Board","board","v"],
     ["cabinet_kw","Minister of State for Youth and Sport Affairs","executive","v"]]},
   {id:"hussein_morad_behbehani", n:"Hussein Morad Behbehani", t:2, p:58, s:"conglomerate", roles:[
     ["behbehani","Company Vice President","executive","v"]]},
@@ -2238,6 +2239,7 @@ const PEOPLE = [
   {id:"fatima_hamza_al", n:"Fatima Hamza Al-Qallaf", t:2, p:58, s:"gov", roles:[
     ["kuwait_customs","Deputy Director General for Administrative Affairs","executive","ns"]]},
   {id:"mohammad_al_wasmi", n:"Mohammad Al-Wasmi", t:2, p:62, s:"sovereign", roles:[
+    ["min_awqaf_affairs","Minister of Awqaf and Islamic Affairs","board","v"],
     ["awqaf_kuwait","Minister of Awqaf and Islamic Affairs, Chairman of the Awqaf Affairs Board","board","ns"]]},
   {id:"ahmed_al_jinahi", n:"Ahmed Al-Jinahi", t:2, p:58, s:"gov", roles:[
     ["scpd_kuwait","Secretary-General (Acting)","executive","v"]]},
@@ -2327,6 +2329,12 @@ const PEOPLE = [
     ["oca","Director General","executive","v"]]},
   {id:"amal_abdulaziz_aleisa", n:"Amal Abdulaziz AlEisa", t:2, p:62, s:"health", roles:[
     ["dasman_diabetes_inst","Chairman","board","v"]]},
+  {id:"sayed_jalal_al", n:"Sayed Jalal Al-Tabtabaei", t:2, p:52, s:"education", roles:[
+    ["min_of_education","Minister of Education","board","v"]]},
+  {id:"nasser_yousef_mohammed", n:"Nasser Yousef Mohammed Al-Sumait", t:2, p:52, s:"gov", roles:[
+    ["ministry_of_justice","Minister of Justice","board","v"]]},
+  {id:"amthal_hadi_al", n:"Amthal Hadi Al-Huwailah", t:2, p:52, s:"gov", roles:[
+    ["min_social_affairs","Minister of Social Affairs, Family and Childhood Affairs","board","v"]]},
 ];
 
 const OWNERSHIP = [

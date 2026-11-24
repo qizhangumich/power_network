@@ -273,6 +273,7 @@ const PEOPLE = [
   {id:"humaid_nuaimi", n:"H.H. Sheikh Humaid bin Rashid Al Nuaimi", t:0, p:80, s:"gov", roles:[
     ["ajmgov","Ruler of Ajman","political","v"]]},
   {id:"ammar_nuaimi", n:"H.H. Sheikh Ammar bin Humaid Al Nuaimi", t:0, p:72, s:"gov", roles:[
+    ["ajman_execco","Crown Prince of Ajman; Chairman, Ajman Executive Council","board","v"],
     ["ajmanbank","Chairman","board","v"],
     ["ajmgov","Crown Prince of Ajman","political","v"]]},
   {id:"saud_mualla", n:"H.H. Sheikh Saud bin Rashid Al Mualla", t:0, p:76, s:"gov", roles:[
@@ -406,6 +407,7 @@ const PEOPLE = [
   {id:"nizar_luqman", n:"Nizar Luqman", t:2, p:58, s:"finance", roles:[
     ["rakbank","Group Chief Audit Officer","executive","v"]]},
   {id:"hh_sheikha_jawaher", n:"HH Sheikha Jawaher Bint Mohammed Al Qasimi", t:2, p:62, s:"industry", roles:[
+    ["shj_family_council","Chairperson, Sharjah Family and Community Council","board","v"],
     ["beeah","Chairperson of the Board of Directors","board","v"]]},
   {id:"obaid_saeed_al", n:"Obaid Saeed Al Tunaiji", t:2, p:62, s:"industry", roles:[
     ["sharjah_municipality","Director-General","executive","v"],
@@ -762,9 +764,11 @@ const PEOPLE = [
   {id:"sherri_desalvio", n:"Sherri DeSalvio", t:2, p:58, s:"consumer_disc", roles:[
     ["wynnmarjan","Vice President of Pre-Opening Planning and Strategic Initiatives","executive","ns"]]},
   {id:"sheikh_rashid_bin", n:"Sheikh Rashid bin Saud Al Mualla", t:2, p:62, s:"gov", roles:[
+    ["uaq_execco","Crown Prince of Umm Al Quwain; Chairman, Executive Council","board","v"],
     ["nbq","Chairman","board","ns"],
     ["uaqgov","Crown Prince of Umm Al Quwain and Chairman of the Executive Council","executive","v"]]},
   {id:"sheikh_ahmed_bin_b", n:"Sheikh Ahmed bin Saud bin Rashid Al Mualla", t:2, p:52, s:"gov", roles:[
+    ["uaq_execco","Deputy Ruler of Umm Al Quwain; Vice Chairman, Executive Council","board","v"],
     ["uaqgov","Deputy Ruler of Umm Al Quwain","board","ns"]]},
   {id:"sheikh_rashid_bin_b", n:"Sheikh Rashid bin Hamad Al Sharqi", t:2, p:62, s:"gov", roles:[
     ["fujairah_culture_media","Chairman","executive","ns"],
@@ -1762,6 +1766,12 @@ const PEOPLE = [
     ["rak_customs","Chairman of RAK Customs Department","board","v"]]},
   {id:"amel_almaeeni", n:"Amel AlMaeeni", t:2, p:58, s:"health", roles:[
     ["al_fujairah_hosp","Assistant Director for Medical Affairs","executive","v"]]},
+  {id:"esmaeel_hasan_al", n:"Esmaeel Hasan Al Blooshi", t:2, p:58, s:"gov", roles:[
+    ["rak_transport_auth","Director General, Ras Al Khaimah Transport Authority (RAKTA)","executive","v"]]},
+  {id:"rashid_abdulrahman_bin", n:"Rashid Abdulrahman bin Jabran Al Suwaidi", t:2, p:58, s:"gov", roles:[
+    ["ajman_hr_dept","Director-General, Central Human Resources Department, Ajman","executive","v"]]},
+  {id:"sheikh_rashid_bin_b_b_b_b", n:"Sheikh Rashid bin Ahmed Al Mualla", t:2, p:52, s:"gov", roles:[
+    ["uaq_police","Commander-in-Chief, Umm Al Quwain Police General Command","board","v"]]},
 ];
 
 const OWNERSHIP = [

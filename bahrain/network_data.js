@@ -2844,6 +2844,7 @@ const PEOPLE = [
     ["moj","Minister of Justice, Islamic Affairs and Endowments","board","v"],
     ["cabinet_bh","Minister of Justice, Islamic Affairs and Waqf","executive","v"]]},
   {id:"abdullah_bin_hassan", n:"Abdullah bin Hassan Al Nuaimi", t:2, p:58, s:"gov", roles:[
+    ["defence_affairs","Minister of Defence Affairs","board","v"],
     ["cabinet_bh","Minister of Defence Affairs","executive","v"]]},
   {id:"ibrahim_bin_hassan", n:"Ibrahim bin Hassan Al Hawaj", t:2, p:58, s:"gov", roles:[
     ["cabinet_bh","Minister of Works","executive","v"]]},
@@ -3570,6 +3571,7 @@ const PEOPLE = [
   {id:"daij_bin_salman", n:"Daij bin Salman bin Daij Al Khalifa", t:2, p:52, s:"finance", roles:[
     ["sio_bahrain","Board Member - Government Employers' Representative","board","ns"]]},
   {id:"osama_saleh_al", n:"Osama Saleh Al Alawi", t:2, p:52, s:"finance", roles:[
+    ["min_social_dev","Minister of Social Development","board","v"],
     ["sio_bahrain","Board Member - Government Employers' Representative","board","ns"]]},
   {id:"hesham_yousef_ali", n:"Hesham Yousef Ali Al Rayes", t:2, p:60, s:"health", roles:[
     ["bdf_hospital","Deputy Chief Executive Officer and Director General of Medical Affairs","executive","ns"]]},
@@ -3845,6 +3847,10 @@ const PEOPLE = [
     ["abc_islamic_bank","Managing Director and Chief Executive Officer","executive","v"]]},
   {id:"khaled_saud_al", n:"Khaled Saud Al Hassan", t:2, p:62, s:"finance", roles:[
     ["lst_bkic","Vice Chairman","board","v"]]},
+  {id:"ali_ahmed_alderazi", n:"Ali Ahmed Alderazi", t:2, p:62, s:"gov", roles:[
+    ["nihr","Chairperson, Council of Commissioners","board","v"]]},
+  {id:"mal_allah_al", n:"Mal Allah Al-Hammadi", t:2, p:62, s:"gov", roles:[
+    ["nihr","Vice-Chairperson, Council of Commissioners","board","v"]]},
 ];
 
 const OWNERSHIP = [

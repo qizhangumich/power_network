@@ -615,6 +615,7 @@ const PEOPLE = [
   {id:"robert_woods", n:"Robert Woods", t:2, p:52, s:"industry", roles:[
     ["dpworld","Board Member","board","v"]]},
   {id:"phumzile_langeni", n:"Phumzile Langeni", t:2, p:52, s:"industry", roles:[
+    ["imperial_logistics","Deputy Chairman","board","v"],
     ["dpworld","Board Member","board","v"]]},
   {id:"vijay_malhotra", n:"Vijay Malhotra", t:2, p:52, s:"industry", roles:[
     ["dpworld","Board Member","board","v"]]},
