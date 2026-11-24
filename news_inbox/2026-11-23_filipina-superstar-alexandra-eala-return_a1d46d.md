@@ -1,0 +1,5 @@
+# Filipina superstar Alexandra Eala returns for third Mubadala Abu Dhabi open appearance after breakthrough season
+source: The Filipino Times
+url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxQektyTGRZaXl1cFRfRGJxN0JCTmFjZDhLRW1HT2stMDRmVEZjMjRPeklIcDhMb0tnVGI4b1otLTE4OEtvcDFEZG9LU0d6WnhzOUsxWHdoSFR6Wi1nVnZqV2RfblNFVnBIVzY3ci10YnIxUk1EVUY0YVh0eVNkdnROczlKR0dzYkZ6ZEhNS1FXMGhwbk5BUFpHTUJCS2N1ZlBfOURCcURMc0VKX2V5eWZYS0VHVzF0amhNUGRjRmJvdUg2VlRDUmVkQ05YcVRHUVdjX1hoMXZlcEZaUnVpR2FMZ2xmenBoaDR1aVJCZ1pTTWR2V3h1?oc=5
+
+Filipina superstar Alexandra Eala returns for third Mubadala Abu Dhabi open appearance after breakthrough season    The Filipino Times

@@ -1,0 +1,5 @@
+# Abu Dhabi concludes business delegation to New York
+source: The National
+url: https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ3l5TEdEbEo5Yk5IMzlVQkh4OGpESnJkSmZURXhsUk45RUNJSjg1QlJuV2VlREV6Q21CMEFiZ3VTMGNla0hpTWNDd3UycmJKTTloOFo0N2RkZ2wzTEZfdkJrb3dCejk5WUV2M0ZvQ0NXaThNY3B6Z1dvZzdYWEotZkctTTc0Q0ZROHR2ZFdqcTdVWmZ2QXp5aUQ5WGNuUDZ4QVFNWmVVWQ?oc=5
+
+Abu Dhabi concludes business delegation to New York    The National

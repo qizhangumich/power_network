@@ -1,0 +1,5 @@
+# Taqa-led consortium secures financing for 2.6 GW Taweelah C plant
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNmdWcm5fMFdWeWRUS1JrY1FEeFhkYWZGN0xGQUh3MmJWY1ZGT1pha2dScHE3R19vMnFBcWQtbFBERWtCckhKNlNGa3pfQUhGZ2ROcTEzU1ZTbHkxZGRJMHpyOWZXNmk2YXdHREpkNk5QMUFfblRLTWhOUDI4Sk1KZUtZd093anEzR0pHZEVOZVRFMFdhTEw3bnB3NXp0VVVMT1JIRGFDaGpTUFRoZG05UzF0Q3lMVGVi?oc=5
+
+Taqa-led consortium secures financing for 2.6 GW Taweelah C plant    EnterpriseAM

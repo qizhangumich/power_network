@@ -1,0 +1,5 @@
+# Space42, Viasat and Terrestar sign MoU for interoperable satellite networks
+source: SatellitePro ME
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxObk5iOF9OOGxpVFVudlQ1c0MwT25jTjBHei1uSm1fRFhMYnp2X0h3U0I3MEZocDRuanNvR3FIN0o0cloyZjBTclliOGdPN2ZVbk04SjdLTnpnWjhhNkVUOVc5b2d2bEN0c2JueGRLVWp5ckNqQ0lfN0xPNlVScW9FZkNSQ2haYTE5YU1QU3Jic2I1aUFwXzJScGYyLW8xZ1NrejZHWmFYWl84a0U?oc=5
+
+Space42, Viasat and Terrestar sign MoU for interoperable satellite networks    SatellitePro ME

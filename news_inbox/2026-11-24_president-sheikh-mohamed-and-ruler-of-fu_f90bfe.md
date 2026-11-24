@@ -1,0 +1,5 @@
+# President Sheikh Mohamed and Ruler of Fujairah discuss vision for nation in Abu Dhabi talks
+source: The National
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxPLU03UFJyRFk3RzBxUnllLVIxOTk2Zm5MVXBBYUhBckVxRlJTTXFhY25NSDBvU1U4NUNyOGNqNUVRb3lIcUxObVVsUFFfRzZLNE4tR2FVZGRrQzJURHB1YmhrQ3Y4TWxxOTNzLWtONWt1TlcxQTJybkJ4RXBPSUlPUGVJSlhQUFFZSEJvS1lqdk1sejkwa3NiMncwUTV5YUtoODNvdW1MNElfS0Y0UURRcmd0dDBMN2tscExIUUN4MUJfSnBEbWkwbmR4bGI1elRKbXFYZERxMzRIU2s?oc=5
+
+President Sheikh Mohamed and Ruler of Fujairah discuss vision for nation in Abu Dhabi talks    The National

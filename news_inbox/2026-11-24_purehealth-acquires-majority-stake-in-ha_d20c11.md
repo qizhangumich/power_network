@@ -1,0 +1,5 @@
+# PureHealth acquires majority stake in Hayah Insurance and expands into life insurance and pension management
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi_wFBVV95cUxPWGNNWWR3YmZBUHhUd2hsYXBpMkVjOUJvRFlycERWempiRExUcHd5ZzA2Z0t2NGpiRVN0SnJKMVdyYXdtdDBJN0Zxa3A4dnNYMUk1S1BkTDk0Umtua0tsZDJ1S21JMVJoQldIckp3UTBMQ290QV9YbmEyM3pSY3NXb0VYOVZYZmd3UmhEeTdFR1dFNVFlckV5T2xfbzZNYkRkMTNxVDVVMnRNUVlZN2hfNFUxdU96d3kzandUbnBoRXB1emxyclRHR0FVU1gzVzE4ZFBJNUNOcUJudEJPWUxSN3N2OXpPX2Z4ZE9aY2YwbnpVWGVNbG1Yd192MFZKbzg?oc=5
+
+PureHealth acquires majority stake in Hayah Insurance and expands into life insurance and pension management    Zawya
