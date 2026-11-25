@@ -1,0 +1,5 @@
+# New competitors emerge for Adnoc offshore expansion prize
+source: Upstream Online
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxQWDhjRGlfalJWSmNSWkxGUXEtVzh6TjlYVzhnSHZSNHBMSlZJeWVvV1VHRXVyeUt4R0NkNl8wbWFwc2hGSUNQcGdXWWsyU3d0LXlwQXMyODFNcUZMTTIxMlBYVXlxNEdfcm5INURqUjhxc0ppZm5MM1VELURTYlNSUEd4alByd1I0WjE4cDJjbnlhLWlnaHRBbU5OeS1BbEhJU3Zmc0x6d3V5d2I3Z1k3RDZNdUQ4Y2FLR2c?oc=5
+
+New competitors emerge for Adnoc offshore expansion prize    Upstream Online

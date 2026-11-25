@@ -1,0 +1,5 @@
+# Mubadala to acquire truckload brokerage firm Arrive Logistics
+source: PEI Private Equity
+url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRmZCMUZVMlNiS3QwUDFsM3ZLcDc0YkROQXpyWTljMHFtR25zbXRVYmxncm5TLTE1bkZNQjFJaElRakZabXpLZUlqVW5Xd2JFdmxJVEt2TXg5MF9GUVNpRWx2MnNoWElNNlNkVjZVZXdMLWdKcUJpbHJjXzBGQXE4VFlWNUNRNzNTUG8tX0IzTThvZ05VcC1YbDlwNFdPdWctS2RmaXRNT1I?oc=5
+
+Mubadala to acquire truckload brokerage firm Arrive Logistics    PEI Private Equity

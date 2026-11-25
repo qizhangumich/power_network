@@ -1,0 +1,5 @@
+# Corient expands wealth management acquisition push with Mubadala backing
+source: Traders Union
+url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVXdxYm1sdXVfOWFmVUlZUm92Z2tPQ2xDcVBHN2FZRmRkRTh1bktzSzRNUU5BOUIzamx4T1QzTjNaejg4djlQNVBia3NNODcxdGxUZjZsQkJfUEJRYVBFaFFCSUt4RE00OFkyQlE3ek1Hb0p3dUVkYmhmaThTZkJBVUFFM0RvM3RCNkdON2ViXzcwSFQ2bEJXMmRUWTlmQWFTUkpocVByNXFTQQ?oc=5
+
+Corient expands wealth management acquisition push with Mubadala backing    Traders Union

@@ -1,0 +1,5 @@
+# AD Ports Group posts record Q3 profit as shipping offsets fall in UAE container volumes
+source: Baird Maritime
+url: https://news.google.com/rss/articles/CBMifkFVX3lxTE1yMDd4cmpKTGlzY1MycjJuUXd0WlFQRU82REV6eXFfTnIwX20yd0lSV2h6YXpQeWk4a09QZ2lPTUhsSVdfTkhFcDVoVXc1MTNudmRqcUw4dzRfZEgteEZUT3J2Um5vaVBaYXNqWWEtQUJNSk1oZk5UeUs1ZHZGQdIBiwFBVV95cUxNbVRpbElTRllRbk9DSk9Nbk03SkRQNEY5ck01NXpiT2QtM3BKTFpLM3l6SEtsNnJzTHhGODRYWGthVGZHMGp0UXhYbHhib0NDNWdMUDlVTzN0Zm5vc1NpUGNuZjZKODl5cVNRUlJsbEZIZWZVZWZQVVptNnVINVk3RWJfTFhBcFhxMmxr?oc=5
+
+AD Ports Group posts record Q3 profit as shipping offsets fall in UAE container volumes    Baird Maritime

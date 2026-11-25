@@ -1,0 +1,5 @@
+# AD Ports Group Q3 Profit Surges 64% Despite Gulf Shipping Disruptions
+source: Maritime Logistics News
+url: https://news.google.com/rss/articles/CBMiigFBVV95cUxPV1ExU2V4ZmVJR1M1SF9EeHdiVEsyWTVRakhKZVVUYlg5OXlFem9pdTJjeUNvLTkxNjVETjlpQkhmRWRtTmNkdmVhM1pFVGR4bEswYmhmNEMxRmc5TW5IdkNZdmhISzVXUWpEdmxjWXd6NmpfUUFGNHNpanRRRW1VVkRWb1lxMndBZUHSAY8BQVVfeXFMT292cFZHRjZvcTJubk55VVBMYTVFZnZKT1RkTzdpZDFtaW5NeHJCUEhrWkdyUkNLR2NRNTY3MlJSaWdVcWU0OHRWWGFpSFR5Wi1SUzdKTEdoaEpWMjN5VHRqV1NVa0FzSmJXUGVVVEpHMjlqQUVJVXN4LXpuUVF0Tk9RZzhKOXBIekpzUXlGRXM?oc=5
+
+AD Ports Group Q3 Profit Surges 64% Despite Gulf Shipping Disruptions    Maritime Logistics News

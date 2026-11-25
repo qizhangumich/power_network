@@ -1,0 +1,5 @@
+# PureHealth acquires 67.5% of Hayat Insurance
+source: صوت الإمارات
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPcDdVQ1ZMcmN1UG1xMHZvOG5TQXIxbzFhLW5ZVlNLckMwN0dwOFhubG9SOEt2VGplTGJfcU01ZUczWDFtRUgxQ21JT0xhdzFTZlRjeTRrOGdHVHAxeW0xbUNISzN6UTM3cVlPR2xYT2hCSDZVdDBUWTJUR1hpQlB5SW1QWUZWcXBMR0tQNC00VTUyaFBNME15YVhwMHNqVzVLTkl0WGlRaUtDcEpPM3IyQndNMVQ5cm8?oc=5
+
+PureHealth acquires 67.5% of Hayat Insurance    صوت الإمارات

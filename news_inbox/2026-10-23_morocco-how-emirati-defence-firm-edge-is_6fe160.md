@@ -1,0 +1,5 @@
+# Morocco How Emirati defence firm Edge is gaining a foothold in Rabat
+source: Africa Intelligence
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxOOGlnTTlib0dyNnY0UkVYZDlYendXRzEzQWVneTdiOTcxRW1zNHl2QzdIOVY3ckZOQUNwTnpvLU11cmFzeVZHUTk1bGdCNHhCM3R0RnhXREVpOTM3bUczVk9zNmwyTlI2d2ZVVjZGY1NZTXlFWHZLRmhWaHQ0TkRZS2N6dEstQlU2QUdOUE1tWGh3bW0tVzEzR3BZTmF4aTNfUURXbkJTU055ckNuZW8xNEhKTEE1Ylcwa1NzUjBacHNFZE1rLVEzZmMzajB4QQ?oc=5
+
+Morocco How Emirati defence firm Edge is gaining a foothold in Rabat    Africa Intelligence

@@ -583,6 +583,5 @@ window.NEWS_ITEMS = [
   {id:"2026-10-11_gib-capital-previews-q3-2026-earnings_0b77f1", date:"2026-10-11", title:"GIB Capital previews Q3 2026 earnings", source:"Argaam", url:"https://www.argaam.com/en/article/articledetail/id/1942966", ids:["gib_capital"]},
   {id:"2026-10-11_jamjoom-pharma-s-q3-2026-earnings-outloo_e443a2", date:"2026-10-11", title:"Jamjoom Pharma’s Q3 2026 earnings outlook", source:"Argaam", url:"https://www.argaam.com/en/reports/quarterly-overview-report-other/62419?preview=true", ids:["lst_4015"]},
   {id:"2026-10-11_what-do-analysts-expect-for-sipchem-in-q_cd9f31", date:"2026-10-11", title:"What do analysts expect for Sipchem in Q3 2026", source:"Argaam", url:"https://www.argaam.com/en/reports/quarterly-overview-report-petrochemical/62420?preview=true", ids:["lst_2310"]},
-  {id:"2026-10-10_saudi-trading-in-us-stocks-hit-record-of_ee99dc", date:"2026-10-10", title:"Saudi trading in US stocks hit record of SAR 302B", source:"Argaam", url:"https://www.argaam.com/en/article/articledetail/id/1942745", ids:["sar"]},
 ];
 window.SUGGESTED_EDGES = [];
