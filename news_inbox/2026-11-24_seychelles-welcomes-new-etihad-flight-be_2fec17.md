@@ -1,0 +1,5 @@
+# Seychelles welcomes new Etihad flight between Abu Dhabi and island nation
+source: Seychelles News Agency
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkZUSDZ4OUlMZElURTJGTW5LLWIybi1RSzk4WDdKZmF0V0ZvcjR0ek1QUm1QN0lSeUVNUGtuQUxyc2JHbmhkdUROYVN5Y1EzVGV1bUk5dUJCTGxCRmtpeWhHNXJrZlNHc0YzSGo4eFJTUW1Gc2JOZkNEeTJPOG5RZDZHNzdpejJBZ2JjdndKYmIzaHFfR21kb3VYT2N1QlRhaGZZWXl5V2Jzem5TQ2NnZnpwalgycHhXcXFSQzN0eWdsUGF0ODFKcTVaUzE?oc=5
+
+Seychelles welcomes new Etihad flight between Abu Dhabi and island nation    Seychelles News Agency

@@ -1,0 +1,5 @@
+# ADNOC and ADNOC Gas Sign About 30 Agreements Around ADIPEC 2026
+source: SaudiGulf Projects
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxObWRPUEQ3ZXYxODl4Ml94MGJlT1J4ZXo4Tjl1T1Y0NlRaNUZJaERFZ0xFUHhGb1pOMFFGcUVoRmNZZGlnZ0x6RnVmcTF0bmZkUVRnOGNaTWxwQWpvczNZaUJ1NmVEQURGYjY0X25PaGdWTTF3Vl9HdHRWYnJJU0x6Y0VGOC1hLXZxRnNFdFkwTEdPc1NHVC1ORHBTMGtSUkRPT3NVMFliWWN2MzVxZl8tQWVuVU1tYTRvOUE?oc=5
+
+ADNOC and ADNOC Gas Sign About 30 Agreements Around ADIPEC 2026    SaudiGulf Projects

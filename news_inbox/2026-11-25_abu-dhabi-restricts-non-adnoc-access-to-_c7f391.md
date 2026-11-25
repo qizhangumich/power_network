@@ -1,0 +1,5 @@
+# Abu Dhabi restricts non-Adnoc access to territorial waters
+source: Quantum Commodity Intelligence
+url: https://news.google.com/rss/articles/CBMiowFBVV95cUxPYllpQkJ1bFkzSEJEam9laE1ZMjI0aTFLeFQwXy1oTDluN2RJYUQ3dGZyMG5XVDBqZVAxWkUyRzZnWm1CQkRrbnExQXl6ZkVOWDhDOGFPeG5mbk0xdUw5LTRxd1Q0TnhrWk01UlRVXzZ3S01HMGJ5WFZ4eW9BdDNFYVBmTEdPbnJmam9LUjI5M1VBa0lhamlfRnRwR2ZyTkl5ZGxn?oc=5
+
+Abu Dhabi restricts non-Adnoc access to territorial waters    Quantum Commodity Intelligence

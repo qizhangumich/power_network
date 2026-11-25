@@ -1,0 +1,5 @@
+# Etihad flight from Abu Dhabi to Tel Aviv turns back, apparently due to Iran attacks in Gulf
+source: The Times of Israel
+url: https://news.google.com/rss/articles/CBMiswFBVV95cUxPSy1mSzhJeUVuMzRYTGctaWtkc2t2ZHgwTHBDZ3BaTHRGWjRLR05RYlZVWGw5Y1pONnY0b1BWUWFHXzc3ekJhWkk3VzltaTJ0SldlLUFsRlFEVVd2a2lIYXo5SzVxQmdVbEJoQkF3WGxBbmR0a2pqcFlfYlVrOG1ERFFIZjMtbllidkpfWTFkN3JzMTBORU54U2FrMXRBa3d3MjUtTjhwVkRxV3dZVHgzQkxjY9IBuAFBVV95cUxOR0hxbHRNQmM3dXFxQmI5cWN2N1hwQl92VlRqM2R1eDhzRVZrdDhRMnEyNi01dkpWNkpuZHV6VHRaa1pYWXZ1ckNTOUQ2TUtaSnZxTktTblk3YkJNY28wSVk0ZFJyUC1acXM1cnJydmFYSHdpdF9uMXdQZnlYeDB0T3BBRTZwTkNsbDFCMzEwMU1aNWFKNWoyWlZFeTFuMTBRa2swNmxHSGxmcGJ6cExVbWpPMUNnbEJS?oc=5
+
+Etihad flight from Abu Dhabi to Tel Aviv turns back, apparently due to Iran attacks in Gulf    The Times of Israel

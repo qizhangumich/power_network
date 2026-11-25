@@ -1,0 +1,5 @@
+# Modon World Triathlon Championship Series Abu Dhabi 2026 powered by TAQA gets underway tomorrow
+source: Abu Dhabi Sports Council
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQ3ZWYjhodWJrTnFHU1N2S29wWGNFVlJpYnJHT3pGYzZCc296bGVhckotbExvZ3gxLXA0V1VZUmJJYXMydVRZbDhqenlCTDEtdEpLY0MyRGFaX2JkWFBOVUd6djBXV1pTbUtoREtuZXFGZmJRQmpmdVI3cW5kUjhFRlZwMHhxX3cxbk9wbGl4UlBlSjJPMnNtUFc0Ni10dk5Fd2g2S01OZTgzWWJOU1IzdkFsR19aaWpJbldtQl9acTBzbm9wZjd3WHNPUE5tSWpxMWRoQjA2TQ?oc=5
+
+Modon World Triathlon Championship Series Abu Dhabi 2026 powered by TAQA gets underway tomorrow    Abu Dhabi Sports Council

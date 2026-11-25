@@ -1,0 +1,5 @@
+# Adnoc Places Restrictions on Oil Tankers After Gulf Attacks
+source: Bloomberg
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNVjVPbDNLaUhxb3Z0RjJRbGN6OUNEbTBQVXFRTHdPeUpyY09kVVAwbElIODYyaHhaRTcybzdnbXFFbDB6YWxaektNTzBDcnJqcEJpaG9VMGJPcHdJQVNmMmI1WFlUeU5WNW05a1dya05jMEFzOFlZekFHNm4xUk5sOXRTVnZlajNCRWk0Skh0NEVyVTdMN1ZHT3FXaDRRMDVnejduSDNjaDlHUFBmSm1R?oc=5
+
+Adnoc Places Restrictions on Oil Tankers After Gulf Attacks    Bloomberg

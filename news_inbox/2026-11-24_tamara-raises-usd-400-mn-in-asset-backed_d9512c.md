@@ -1,0 +1,5 @@
+# Tamara raises USD 400 mn in asset-backed debt from MUFG and Standard Chartered
+source: EnterpriseAM
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOHR6SGdHaGY0V2dKTjRTUzMzTWl4VUJaVGVCN0ZjODQ3MlhFSDdHY0NOMU5WalkxTkRDLUZlcW1wOG9KNGZwV19lb2VWZDZaU3FjRWRqU1dXbWkwTjZSVFBGOVlLR1BGUkx1LWEyN2lTVHFiR2J4ZTZkdEtaX2xkNXNieV8xVU52Ry0ya0VSSXlSb0YxRWxJX3NXQVMwckZVbFd1VHIxdXhjbXBuMGd2dWJrM0VEd2ptZDJ0SUhGbWZ4Zw?oc=5
+
+Tamara raises USD 400 mn in asset-backed debt from MUFG and Standard Chartered    EnterpriseAM
