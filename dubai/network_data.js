@@ -288,6 +288,7 @@ const INSTITUTIONS = [
   {id:"aman_insurance", n:"Dubai Islamic Insurance & Reinsurance Co. (Aman) P.J.S.C.", s:"finance", t:3, p:52, short:"Aman Insurance"},
   {id:"emirates_reem_inv", n:"Emirates Reem Investments Company P.J.S.C.", s:"consumer_stap", t:3, p:52, short:"Emirates Reem Inv."},
   {id:"dip", n:"DIP Holding", s:"realestate", t:2, p:58, short:"DIP Holding"},
+  {id:"zand_bank", n:"Zand Bank", s:"finance", t:2, p:58, short:"Zand Bank"},
 ];
 
 const PEOPLE = [
@@ -386,6 +387,7 @@ const PEOPLE = [
     ["dubai_future_fdn","Deputy Managing Director / Board Member","board","v"],
     ["dxbgov","UAE Minister of State for AI, Digital Economy & Remote Work","political","v"]]},
   {id:"alabbar", n:"Mohamed Alabbar", t:1, p:88, s:"realestate", roles:[
+    ["zand_bank","Chairman","board","v"],
     ["emaar_development","Executive Board Member","board","v"],
     ["emaar","Founder & Managing Director","executive","v"],
     ["noon","Founder & Chairman","board","v"]],
@@ -3259,6 +3261,8 @@ const PEOPLE = [
     ["emirates_reem_inv","Director","board","v"]]},
   {id:"charlotte_cijffers", n:"Charlotte Cijffers", t:2, p:58, s:"comm", roles:[
     ["itp_media","Chief Digital Officer","executive","ns"]]},
+  {id:"michael_chan", n:"Michael Chan", t:2, p:60, s:"finance", roles:[
+    ["zand_bank","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -3551,4 +3555,5 @@ const AKA = {
   aman_insurance:["AMAN","Dubai Islamic Insurance","Aman"],
   emirates_reem_inv:["ERC","Emirates Refreshments"],
   dip:["DIP","Dubai Investments Park"],
+  zand_bank:["Zand"],
 };
