@@ -2335,6 +2335,16 @@ const PEOPLE = [
     ["ministry_of_justice","Minister of Justice","board","v"]]},
   {id:"amthal_hadi_al", n:"Amthal Hadi Al-Huwailah", t:2, p:52, s:"gov", roles:[
     ["min_social_affairs","Minister of Social Affairs, Family and Childhood Affairs","board","v"]]},
+  {id:"mubarak_almailem", n:"Mubarak AlMailem", t:2, p:46, s:"health", roles:[
+    ["hadi_clinic","General Manager","executive","ns"]]},
+  {id:"zaid_almailem", n:"Zaid AlMailem", t:2, p:46, s:"health", roles:[
+    ["hadi_clinic","Deputy General Manager","executive","ns"]]},
+  {id:"khalid_al_begain", n:"Khalid Al-Begain", t:2, p:58, s:"education", roles:[
+    ["kcst","President","executive","v"]]},
+  {id:"ali_j_chamkha", n:"Ali J. Chamkha", t:2, p:58, s:"education", roles:[
+    ["kcst","Dean of Engineering","executive","v"]]},
+  {id:"hamad_saleh_hamad", n:"Hamad Saleh Hamad Al Thekair", t:2, p:62, s:"finance", roles:[
+    ["al_thekair","Chairman","board","v"]]},
 ];
 
 const OWNERSHIP = [

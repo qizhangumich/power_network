@@ -287,6 +287,7 @@ const INSTITUTIONS = [
   {id:"emirates_inv_bank", n:"Emirates Investment Bank P.J.S.C.", s:"finance", t:3, p:53, short:"Emirates Inv. Bank"},
   {id:"aman_insurance", n:"Dubai Islamic Insurance & Reinsurance Co. (Aman) P.J.S.C.", s:"finance", t:3, p:52, short:"Aman Insurance"},
   {id:"emirates_reem_inv", n:"Emirates Reem Investments Company P.J.S.C.", s:"consumer_stap", t:3, p:52, short:"Emirates Reem Inv."},
+  {id:"dip", n:"DIP Holding", s:"realestate", t:2, p:58, short:"DIP Holding"},
 ];
 
 const PEOPLE = [
@@ -1243,6 +1244,7 @@ const PEOPLE = [
   {id:"faisal_juma_khalfan", n:"Faisal Juma Khalfan Belhoul", t:2, p:52, s:"gov", roles:[
     ["dubaichambers","Member of the Board","board","v"]]},
   {id:"buti_saeed_mohamed", n:"Buti Saeed Mohamed Al Ghandi", t:2, p:52, s:"gov", roles:[
+    ["canadian_univ_dubai","Chairman of the Board of Trustees","board","v"],
     ["al_ghandi","Managing Director","executive","ns"],
     ["cbd","Board Member","board","v"],
     ["dubaichambers","Member of the Board","board","v"]]},
@@ -1524,6 +1526,7 @@ const PEOPLE = [
   {id:"ahmad_bin_mohammed", n:"Ahmad Bin Mohammed Al Qassimi", t:2, p:52, s:"realestate", roles:[
     ["lst_upp","Board Member","board","v"]]},
   {id:"khaled_nasser_al", n:"Khaled Nasser Al Shamsi", t:2, p:52, s:"realestate", roles:[
+    ["aue","Member, Board of Trustees","board","v"],
     ["lst_upp","Board Member","board","v"]]},
   {id:"rana_shasha_a", n:"Rana Shasha'a", t:2, p:52, s:"realestate", roles:[
     ["lst_upp","Board Member","board","v"]]},
@@ -1583,6 +1586,7 @@ const PEOPLE = [
   {id:"shaker_fareed_zainal", n:"Shaker Fareed Zainal", t:2, p:62, s:"finance", roles:[
     ["lst_amlak","Vice Chairman","board","v"]]},
   {id:"khalid_salem_al", n:"Khalid Salem Al-Halyan", t:2, p:52, s:"finance", roles:[
+    ["aue","Member, Board of Trustees","board","v"],
     ["lst_salambah","Board Member","board","ns"],
     ["lst_amlak","Board Member","board","v"]]},
   {id:"rashed_mohammad_al", n:"Rashed Mohammad Al Awadhi", t:2, p:52, s:"finance", roles:[
@@ -2379,6 +2383,7 @@ const PEOPLE = [
   {id:"bader_al_ghanim", n:"Bader Al-Ghanim", t:2, p:60, s:"consumer_disc", roles:[
     ["lst_talabat","Chief International Officer (previously Kuwait Managing Director, succeeded by Noor Al-Bahar)","executive","ns"]]},
   {id:"abdullatif_al_mulla", n:"Abdullatif Al Mulla", t:2, p:60, s:"realestate", roles:[
+    ["aue","Member, Board of Trustees","board","v"],
     ["imdaad","Chairman of the Board","board","v"],
     ["dubai_properties","Group Chief Executive Officer (Dubai Properties Group) (2015–Jul 2016)","executive","v","former:until Jul 2016"]]},
   {id:"hala_badri", n:"Hala Badri", t:2, p:58, s:"gov", roles:[
@@ -3204,6 +3209,56 @@ const PEOPLE = [
     ["lst_mkhzn","Board Member","board","ns"]]},
   {id:"ahmad_al_banna", n:"Ahmad Al-Banna", t:2, p:60, s:"industry", roles:[
     ["lst_mkhzn","Chief Executive Officer","executive","ns"]]},
+  {id:"ahmed_nasser_al", n:"Ahmed Nasser Al Raisi", t:2, p:62, s:"education", roles:[
+    ["aue","Chairman of the Board of Trustees","board","v"]]},
+  {id:"mirza_al_sayegh", n:"Mirza Al Sayegh", t:2, p:62, s:"education", roles:[
+    ["aue","Deputy Chairman of the Board of Trustees","board","v"]]},
+  {id:"muthanna_g_abdul", n:"Muthanna G. Abdul Razzaq", t:2, p:60, s:"education", roles:[
+    ["aue","President and CEO","executive","v"]]},
+  {id:"suzanne_trager_ortega", n:"Suzanne Trager Ortega", t:2, p:52, s:"education", roles:[
+    ["aue","Member, Board of Trustees","board","v"]]},
+  {id:"matthew_d_shank", n:"Matthew D. Shank", t:2, p:52, s:"education", roles:[
+    ["aue","Member, Board of Trustees","board","v"]]},
+  {id:"frank_islam", n:"Frank Islam", t:2, p:52, s:"education", roles:[
+    ["aue","Member, Board of Trustees","board","v"]]},
+  {id:"m_jean_keller", n:"M. Jean Keller", t:2, p:52, s:"education", roles:[
+    ["aue","Member, Board of Trustees","board","v"]]},
+  {id:"khalaf_al_qubaisi", n:"Khalaf Al Qubaisi", t:2, p:52, s:"education", roles:[
+    ["aue","Member, Board of Trustees","board","v"]]},
+  {id:"amin_al_amiri", n:"Amin Al Amiri", t:2, p:52, s:"education", roles:[
+    ["aue","Member, Board of Trustees","board","v"]]},
+  {id:"abdullah_ahmed_mohammed_b", n:"Abdullah Ahmed Mohammed Al Saleh", t:2, p:52, s:"education", roles:[
+    ["aue","Member, Board of Trustees","board","v"]]},
+  {id:"karim_chelli", n:"Karim Chelli", t:2, p:58, s:"education", roles:[
+    ["canadian_univ_dubai","President and Vice-Chancellor","executive","v"]]},
+  {id:"sheila_copps", n:"Sheila Copps", t:2, p:52, s:"education", roles:[
+    ["canadian_univ_dubai","Member, Board of Trustees","board","v"]]},
+  {id:"aldea_landry", n:"Aldea Landry", t:2, p:52, s:"education", roles:[
+    ["canadian_univ_dubai","Member, Board of Trustees","board","v"]]},
+  {id:"adam_fenech", n:"Adam Fenech", t:2, p:58, s:"education", roles:[
+    ["canadian_univ_dubai","Provost","executive","v"]]},
+  {id:"atul_chauhan", n:"Atul Chauhan", t:2, p:58, s:"education", roles:[
+    ["amity_univ_dubai","Chancellor","executive","v"]]},
+  {id:"rafid_alkhaddar", n:"Rafid Alkhaddar", t:2, p:58, s:"education", roles:[
+    ["amity_univ_dubai","Pro Vice Chancellor","executive","v"]]},
+  {id:"fazal_malik", n:"Fazal Malik", t:2, p:58, s:"education", roles:[
+    ["amity_univ_dubai","Pro Vice Chancellor","executive","ns"]]},
+  {id:"avinash_babur", n:"Avinash Babur", t:2, p:62, s:"consumer_disc", roles:[
+    ["alfred","Founder and Chairman","executive","ns"]]},
+  {id:"ameet_lakhiani", n:"Ameet Lakhiani", t:2, p:60, s:"consumer_disc", roles:[
+    ["alfred","Group Managing Director","executive","ns"]]},
+  {id:"mohamed_haji_abdulla", n:"Mohamed Haji Abdulla Husain Al Khoori", t:2, p:62, s:"consumer_stap", roles:[
+    ["emirates_reem_inv","Chairman","board","v"]]},
+  {id:"jasim_hussain_ahmed", n:"Jasim Hussain Ahmed Al Ali", t:2, p:62, s:"consumer_stap", roles:[
+    ["emirates_reem_inv","Vice Chairman","board","v"]]},
+  {id:"falal_ameen", n:"Falal Ameen", t:2, p:52, s:"consumer_stap", roles:[
+    ["emirates_reem_inv","Director","board","v"]]},
+  {id:"rashed_m_a", n:"Rashed M.A. Alkaabi", t:2, p:52, s:"consumer_stap", roles:[
+    ["emirates_reem_inv","Director","board","v"]]},
+  {id:"eman_kapoor", n:"Eman Kapoor", t:2, p:52, s:"consumer_stap", roles:[
+    ["emirates_reem_inv","Director","board","v"]]},
+  {id:"charlotte_cijffers", n:"Charlotte Cijffers", t:2, p:58, s:"comm", roles:[
+    ["itp_media","Chief Digital Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3369,6 +3424,7 @@ const OWNERSHIP = [
   ["emaar_hospitality","emaar","wholly-owned subsidiary","v"],
   ["dh_community_mgmt","dubaiholding","subsidiary (community management division)","v"],
   ["al_ghurair_dev","alghurair","real estate development arm/subsidiary of Al Ghurair Group","v"],
+  ["dip","dubaiinv","subsidiary (listed; parent retains ~80% stake post-IPO)","v"],
 ];
 
 const FAMILY = [
@@ -3380,6 +3436,7 @@ const FAMILY = [
 ];
 
 const AKA = {
+  driven_properties:["Forbes Global Properties"],
   lst_etihadenergy:["Gulf Navigation Holding", "GULFNAV"],
   lst_gfh:["GFH Bank"],
   dxbairports:["Dubai Airport"],
@@ -3493,4 +3550,5 @@ const AKA = {
   emirates_inv_bank:["EIBANK"],
   aman_insurance:["AMAN","Dubai Islamic Insurance","Aman"],
   emirates_reem_inv:["ERC","Emirates Refreshments"],
+  dip:["DIP","Dubai Investments Park"],
 };

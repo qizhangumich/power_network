@@ -5153,6 +5153,57 @@ const PEOPLE = [
   {id:"claudio_descalzi", n:"Claudio Descalzi", t:2, p:60, s:"energy", roles:[
     ["eni","Chief Executive Officer","executive","v"],
     ]},
+  {id:"marc_rowan", n:"Marc Rowan", t:2, p:62, s:"finance", roles:[
+    ["apollo_global_mgmt","Chair of the Board and Chief Executive Officer","executive","v"],
+    ]},
+  {id:"gary_cohn", n:"Gary Cohn", t:2, p:52, s:"finance", roles:[
+    ["apollo_global_mgmt","Lead Independent Director","board","v"],
+    ]},
+  {id:"marc_beilinson", n:"Marc Beilinson", t:2, p:62, s:"finance", roles:[
+    ["apollo_global_mgmt","Independent Director (Chair","board","ns"],
+    ]},
+  {id:"jessica_bibliowicz", n:"Jessica Bibliowicz", t:2, p:62, s:"finance", roles:[
+    ["apollo_global_mgmt","Independent Director (Chair","board","ns"],
+    ]},
+  {id:"kerry_murphy_healey", n:"Kerry Murphy Healey", t:2, p:52, s:"finance", roles:[
+    ["apollo_global_mgmt","Independent Director","board","v"],
+    ]},
+  {id:"mitra_hormozi", n:"Mitra Hormozi", t:2, p:52, s:"finance", roles:[
+    ["apollo_global_mgmt","Independent Director","board","v"],
+    ]},
+  {id:"pamela_joyner", n:"Pamela Joyner", t:2, p:52, s:"finance", roles:[
+    ["apollo_global_mgmt","Independent Director","board","v"],
+    ]},
+  {id:"brian_leach", n:"Brian Leach", t:2, p:52, s:"finance", roles:[
+    ["apollo_global_mgmt","Independent Director","board","v"],
+    ]},
+  {id:"lynn_swann", n:"Lynn Swann", t:2, p:52, s:"finance", roles:[
+    ["apollo_global_mgmt","Independent Director","board","v"],
+    ]},
+  {id:"patrick_toomey", n:"Patrick Toomey", t:2, p:52, s:"finance", roles:[
+    ["apollo_global_mgmt","Independent Director","board","v"],
+    ]},
+  {id:"james_belardi", n:"James Belardi", t:2, p:62, s:"finance", roles:[
+    ["apollo_global_mgmt","Director; Executive Chairman and Chief Investment Officer of Athene","executive","v"],
+    ]},
+  {id:"scott_kleinman", n:"Scott Kleinman", t:2, p:58, s:"finance", roles:[
+    ["apollo_global_mgmt","Director; Co-President of Apollo Asset Management","executive","v"],
+    ]},
+  {id:"james_zelter", n:"James Zelter", t:2, p:58, s:"finance", roles:[
+    ["apollo_global_mgmt","Director; President","executive","v"],
+    ]},
+  {id:"martin_kelly", n:"Martin Kelly", t:2, p:58, s:"finance", roles:[
+    ["apollo_global_mgmt","Chief Financial Officer","executive","v"],
+    ]},
+  {id:"whitney_chatterjee", n:"Whitney Chatterjee", t:2, p:58, s:"finance", roles:[
+    ["apollo_global_mgmt","Chief Legal Officer","executive","v"],
+    ]},
+  {id:"bob_sternfels", n:"Bob Sternfels", t:2, p:58, s:"industry", roles:[
+    ["mckinsey","Global Managing Partner","executive","v"],
+    ]},
+  {id:"andrew_pickersgill", n:"Andrew Pickersgill", t:2, p:62, s:"industry", roles:[
+    ["mckinsey","Chair of the Shareholders Council (Board Chair)","board","v"],
+    ]},
 ];
 
 const OWNERSHIP = [
@@ -5230,6 +5281,7 @@ const OWNERSHIP = [
   ["purehealth","adx","listed on ADX","v"],
   ["seha","purehealth","","v"],
   ["daman","purehealth","","v"],
+  ["lst_hayah","daman","67.5% stake acquisition (agreed Nov 2026)","ns"],
   ["m42","mubadala","JV partner","v"],
   ["m42","g42","JV partner","v"],
   ["ccad","m42","","v"],

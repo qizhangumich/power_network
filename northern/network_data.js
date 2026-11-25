@@ -1772,6 +1772,18 @@ const PEOPLE = [
     ["ajman_hr_dept","Director-General, Central Human Resources Department, Ajman","executive","v"]]},
   {id:"sheikh_rashid_bin_b_b_b_b", n:"Sheikh Rashid bin Ahmed Al Mualla", t:2, p:52, s:"gov", roles:[
     ["uaq_police","Commander-in-Chief, Umm Al Quwain Police General Command","board","v"]]},
+  {id:"ahmed_saeed_mohamed", n:"Ahmed Saeed Mohamed Al Raqbani", t:2, p:62, s:"materials", roles:[
+    ["fujairah_building_indust","Chairman","board","v"]]},
+  {id:"khalil_ebraheim_hassan", n:"Khalil Ebraheim Hassan", t:2, p:62, s:"materials", roles:[
+    ["fujairah_building_indust","Deputy Chairman","board","ns"]]},
+  {id:"sheikh_saqr_bin_b", n:"Sheikh Saqr bin Saud bin Rashid Al Mualla", t:2, p:62, s:"tech", roles:[
+    ["uaq_smart_gov","Chairman","board","v"]]},
+  {id:"khalid_al_shamsi", n:"Khalid Al Shamsi", t:2, p:58, s:"tech", roles:[
+    ["uaq_smart_gov","Director General","executive","v"]]},
+  {id:"ahmed_al_amiri", n:"Ahmed Al Amiri", t:2, p:46, s:"realestate", roles:[
+    ["asas_real_estate","General Manager","executive","v"]]},
+  {id:"jamal_adam", n:"Jamal Adam", t:2, p:58, s:"gov", roles:[
+    ["fuj_media_office","Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [

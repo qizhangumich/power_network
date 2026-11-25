@@ -647,6 +647,7 @@ const PEOPLE = [
     ["kaust","Board Member; President and CEO of Saudi Aramco","board","v"],
     ["aramco","President & CEO","executive","v"]]},
   {id:"jadaan", n:"Mohammed Al-Jadaan", t:1, p:86, s:"finance", roles:[
+    ["awqaf_authority","Chairman of the Board of Directors (Minister of Finance)","board","v"],
     ["ncp","Chairman of the Board","board","ns"],
     ["rcrc","Board Member (Minister of Finance)","board","v"],
     ["gosi","Minister of Finance / Chairman of the Board","board","v"],
@@ -1720,7 +1721,7 @@ const PEOPLE = [
     ["yanpet","Vice Chairman of the Board","board","v"],
     ["lst_2350","President (leaving for a SABIC role, through 30 Nov 2026)","executive","v"]]},
   {id:"fahad_abdullah_al_sawat", n:"Fahad Abdullah Al Sawat", t:2, p:58, s:"materials", roles:[
-    ["lst_2350","President-designate (effective 1 Dec 2026, succeeding Al-Sahafi)","executive","ns"]]},
+    ["lst_2350","President-designate (effective 1 Dec 2026, succeeding Al-Sahafi)","executive","v"]]},
   {id:"mr_abdullah_mohammed", n:"Mr. Abdullah Mohammed Al-Shehri", t:2, p:58, s:"materials", roles:[
     ["lst_2350","Chief Financial Officer – General Manager Finance & Planning","executive","v"]]},
   {id:"eng_mohammed_fuhaid", n:"Eng. Mohammed Fuhaid Al-Hajri", t:2, p:46, s:"materials", roles:[
@@ -3146,6 +3147,7 @@ const PEOPLE = [
   {id:"abdullah_al_rumaih", n:"Abdullah Al-Rumaih", t:2, p:52, s:"gov", roles:[
     ["riyadh_chamber","Board Member","board","v"]]},
   {id:"adnan_al_khalaf", n:"Adnan Al-Khalaf", t:2, p:52, s:"gov", roles:[
+    ["l_azurde","Board Member and Chief Executive Officer / Managing Director","executive","v"],
     ["riyadh_chamber","Board Member","board","v"]]},
   {id:"latifa_al_waalan", n:"Latifa Al-Waalan", t:2, p:52, s:"gov", roles:[
     ["riyadh_chamber","Board Member","board","v"]]},
@@ -4248,6 +4250,36 @@ const PEOPLE = [
     ["lst_2083","Independent Board Member","board","v"]]},
   {id:"mohammed_waleed_batterjee", n:"Mohammed Waleed Batterjee", t:2, p:52, s:"utilities", roles:[
     ["lst_2083","Independent Board Member","board","v"]]},
+  {id:"yousef_ahmed_hamad", n:"Yousef Ahmed Hamad Algosaibi", t:2, p:62, s:"conglomerate", roles:[
+    ["ahab","Chairman of the Board","board","v"]]},
+  {id:"dawood_suleiman_hamad", n:"Dawood Suleiman Hamad Algosaibi", t:2, p:62, s:"conglomerate", roles:[
+    ["ahab","Vice Chairman of the Board","board","v"]]},
+  {id:"abdul_mohsen_ahmad", n:"Abdul Mohsen Ahmad Hamad Algosaibi", t:2, p:52, s:"conglomerate", roles:[
+    ["ahab","Member of the Board","board","v"]]},
+  {id:"waleed_khaled_ahmad", n:"Waleed Khaled Ahmad Hamad Algosaibi", t:2, p:52, s:"conglomerate", roles:[
+    ["ahab","Member of the Board","board","v"]]},
+  {id:"samah_abdulaziz_hamad", n:"Samah Abdulaziz Hamad Algosaibi", t:2, p:52, s:"conglomerate", roles:[
+    ["ahab","Member of the Board","board","v"]]},
+  {id:"abdullah_abdulaziz_al", n:"Abdullah Abdulaziz Al-Othaim", t:2, p:62, s:"consumer_disc", roles:[
+    ["l_azurde","Chairman of the Board (Non-Executive Member)","board","v"]]},
+  {id:"saud_ghassan_al", n:"Saud Ghassan Al-Sulaiman", t:2, p:62, s:"consumer_disc", roles:[
+    ["l_azurde","Deputy/Vice Chairman of the Board (Independent Member)","board","v"]]},
+  {id:"sabah_khalil_almoayyed", n:"Sabah Khalil Almoayyed", t:2, p:52, s:"consumer_disc", roles:[
+    ["l_azurde","Board Member","board","v"]]},
+  {id:"rayan_mustafa_qutub", n:"Rayan Mustafa Qutub", t:2, p:52, s:"consumer_disc", roles:[
+    ["l_azurde","Board Member","board","v"]]},
+  {id:"salim_maroun_fakhouri", n:"Salim Maroun Fakhouri", t:2, p:52, s:"consumer_disc", roles:[
+    ["l_azurde","Board Member","board","v"]]},
+  {id:"majid_ahmed_al", n:"Majid Ahmed Al-Suwaigh", t:2, p:52, s:"consumer_disc", roles:[
+    ["l_azurde","Board Member","board","v"]]},
+  {id:"anas_mohammed_saleh", n:"Anas Mohammed Saleh AlSayarfi", t:2, p:62, s:"education", roles:[
+    ["dar_al_hekma","Chairman of the Board of Trustees","board","v"]]},
+  {id:"raed_ibrahim_almudayhim", n:"Raed Ibrahim Almudayhim", t:2, p:62, s:"education", roles:[
+    ["dar_al_hekma","Vice-Chairman of the Board of Trustees","board","v"]]},
+  {id:"abeer_abdulaziz_aldoghaither", n:"Abeer Abdulaziz Aldoghaither", t:2, p:58, s:"education", roles:[
+    ["dar_al_hekma","University President","executive","v"]]},
+  {id:"emad_bin_saleh", n:"Emad bin Saleh Al-Kharashi", t:2, p:62, s:"gov", roles:[
+    ["awqaf_authority","Vice Chairman of the Board / Governor of the Authority","executive","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -3851,6 +3851,20 @@ const PEOPLE = [
     ["nihr","Chairperson, Council of Commissioners","board","v"]]},
   {id:"mal_allah_al", n:"Mal Allah Al-Hammadi", t:2, p:62, s:"gov", roles:[
     ["nihr","Vice-Chairperson, Council of Commissioners","board","v"]]},
+  {id:"ahmed_jawahery", n:"Ahmed Jawahery", t:2, p:58, s:"health", roles:[
+    ["royal_bahrain_hosp","President","executive","v"]]},
+  {id:"m_i_sahadulla", n:"M.I. Sahadulla", t:2, p:62, s:"health", roles:[
+    ["royal_bahrain_hosp","Group Chairman and Managing Director","board","v"]]},
+  {id:"sheriff_m_sahadulla", n:"Sheriff M. Sahadulla", t:2, p:60, s:"health", roles:[
+    ["royal_bahrain_hosp","Group Chief Executive Officer","executive","v"]]},
+  {id:"jacob_thomas", n:"Jacob Thomas", t:2, p:58, s:"health", roles:[
+    ["royal_bahrain_hosp","Group Executive Director - Operations and Projects (GCC)","executive","v"]]},
+  {id:"g_vijaya_raghavan", n:"G. Vijaya Raghavan", t:2, p:52, s:"health", roles:[
+    ["royal_bahrain_hosp","Board Advisor","board","v"]]},
+  {id:"mona_rashid_al", n:"Mona Rashid Al-Zayani", t:2, p:62, s:"education", roles:[
+    ["gulf_university","Chairperson of the Board of Trustees and Board of Directors","board","ns"]]},
+  {id:"mohanned_al_ani", n:"Mohanned Al-Ani", t:2, p:62, s:"education", roles:[
+    ["gulf_university","Vice Chairman of the Board","board","ns"]]},
 ];
 
 const OWNERSHIP = [

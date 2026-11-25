@@ -1,11 +1,11 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Qatar Financial,2,qatar,pending,2026-11-04,2026-11-23,Court affirms Qatar Financial Markets Authority's power to approve board candidate lists
-Forbes Global Properties,2,dubai,pending,2026-11-18,2026-11-23,Driven | Forbes Global Properties buys prime Dubai City Walk plot
+Taweelah C Power,3,abudhabi,pending,2026-11-23,2026-11-24,Financial Close Achieved for AED 7.76 Billion Taweelah C Power Plant
+Riyadh Financial,3,saudi,pending,2026-11-19,2026-11-24,11 Injured in Houthi attack on Riyadh Financial District Tower
+BEYOND Developments,2,dubai,pending,2026-11-23,2026-11-24,BEYOND Developments announces AED 80bln YARDLANDS masterplan along Sheikh Mohammed Bin Zayed road
 Gujarat Energy,18,abudhabi,rejected,2026-11-06,2026-11-13,"Gujarat Energy LNG: 4m Tonnes, ADNOC"
 ADNOC Logistics,9,abudhabi,rejected,2026-11-06,2026-11-12,Earnings call transcript: ADNOC Logistics & Services posts record Q3 2026
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
 Terrestar Solutions,5,abudhabi,rejected,2026-10-28,2026-10-28,"Terrestar Solutions joins with Equatys, expanding shared satellite infrastructure for global direct-to-device and advanced MSS connectivity "
-I Squared Capital,4,abudhabi,rejected,2026-11-03,2026-11-09,"Avolon, I Squared Capital and ADIA launch aircraft leasing and infrastructure investment platform"
 British Airways,4,saudi,rejected,2026-11-04,2026-11-13,Dubai and Middle East flight disruption: British Airways resumes Dubai route while airlines continue Saudi suspensions
 Singapore Airlines Group,4,qatar,rejected,2026-11-04,2026-11-12,Singapore Airlines unveils world's largest inflight bed3m read
 Abu Dhabi Investment,4,abudhabi,rejected,2026-09-28,2026-10-11,A subsidiary holds the shares behind Abu Dhabi Investment Authority’s Eikon Therapeutics (EIKN) stake.
@@ -13,7 +13,7 @@ Than Financial,4,abudhabi,rejected,2026-09-26,2026-09-26,Man City chairman Khald
 Airport and King Khalid International Airport,4,saudi,rejected,2026-10-08,2026-10-08,text-parsing fragment of two headline-adjacent airport names
 Hamad University for Military and Technology,4,qatar,rejected,2026-09-29,2026-09-30,"HH the Amir Issues Amiri Decision Establishing, Organizing Tamim bin Hamad University for Military and Technology Sciences"
 CENTERBRIDGE PARTNERS,3,abudhabi,rejected,2026-11-15,2026-11-16,"CANACCORD GENUITY GROUP INC. ANNOUNCES SALE OF ITS WEALTH MANAGEMENT BUSINESS IN THE UK & CROWN DEPENDENCIES TO CENTERBRIDGE PARTNERS, L.P. "
-Space42 and IEC Telecom,3,abudhabi,rejected,2026-11-03,2026-11-16,Space42 and IEC Telecom open a new chapter for L-band
+I Squared Capital,3,abudhabi,rejected,2026-11-04,2026-11-09,"Avolon, I Squared Capital and ADIA launch aircraft leasing and infrastructure investment platform"
 Undersecretary of Ministry,3,qatar,rejected,2026-11-15,2026-11-23,Undersecretary of Ministry of Interior meets Cypriot Ambassador
 Council of Asia,3,qatar,rejected,2026-11-20,2026-11-21,Acting President of Venezuela Meets President of Olympic Council of Asia
 Abha International Airport,3,saudi,rejected,2026-10-08,2026-10-08,Saudi Arabia: Attacks target facilities at Abha International Airport and King Khalid International Airport
@@ -33,8 +33,8 @@ Riyadh Airport,2,saudi,rejected,2026-11-15,2026-11-22,Riyadh Airport updates: Qa
 Rock Creek Tennis Center,2,abudhabi,rejected,2026-11-19,2026-11-19,Mubadala D.C. Open Chairman Secures 60-Year Lease on Rock Creek Tennis Center
 TAQA Petroleum,2,abudhabi,rejected,2026-11-05,2026-11-05,Shell Lubricants Egypt Signs Partnership with TAQA Petroleum to Expand Nationwide Distribution
 Offshore Energy,2,abudhabi,rejected,2026-11-06,2026-11-11,ADNOC widens its Asian footprint with decade-long LNG offtake deal
+Space42 and IEC Telecom,2,abudhabi,rejected,2026-11-04,2026-11-16,Space42 and IEC Telecom open a new chapter for L-band
 Mubadala And Centerbridge Partners,2,abudhabi,rejected,2026-11-16,2026-11-17,Mubadala And Centerbridge Partners To Acquire Canaccord Genuity's UK Wealth Management Business
-Briefs Finance,2,abudhabi,rejected,2026-11-03,2026-11-13,Adnoc in talks to route more offshore crude to traders in 2027
 Logistics Real Estate Sector Logistics,2,abudhabi,rejected,2026-11-10,2026-11-10,Meet the panel: The Next Era of the GCC’s Logistics Real Estate Sector
 Sempra Infrastructure Partners,2,abudhabi,rejected,2026-11-13,2026-11-14,Sempra completes sale of 45% stake in Sempra Infrastructure Partners to KKR-led group
 Thai Trade Center,2,dubai,rejected,2026-11-11,2026-11-12,Thai Trade Center Dubai launches new campaign 2m read
@@ -43,18 +43,19 @@ Hull City,2,oman,rejected,2026-11-07,2026-11-08,Arsenal equal best start to Prem
 Deutsche Bank,2,qatar,rejected,2026-11-18,2026-11-19,"Deutsche Bank leak: What was exposed, and who’s probing2h ago3m read"
 Zam Elect Properties,2,,rejected,2026-11-21,2026-11-22,4.Zam Elect Properties wins Top Property Seller Award 2026 from Shah Rukh Khan
 Quality Infrastructure for Sustainable Development,2,oman,rejected,2026-11-12,2026-11-13,Oman climbs seven places in 2026 Quality Infrastructure for Sustainable Development Index
-Municipal Council,2,oman,rejected,2026-11-03,2026-11-15,Contract signed to provide technical services for Municipal Council elections
 Hawiyat Najm Park,2,oman,rejected,2026-11-11,2026-11-12,Work progressing well at Hawiyat Najm Park project
 Hamad International Airport,2,qatar,rejected,2026-11-08,2026-11-10,Hamad International Airport and Doha Film Institute bring 'Made in Qatar' stories to the terminal
+Qatar Financial,2,qatar,rejected,2026-11-04,2026-11-23,Court affirms Qatar Financial Markets Authority's power to approve board candidate lists
 Bank of England Governor,2,qatar,rejected,2026-11-04,2026-11-06,QCB Governor meets Bank of England Governor
 Volkswagen Group,2,qatar,rejected,2026-11-21,2026-11-21,"Volkswagen Group hails Qatar as trusted long-term partner, sees scope for deeper cooperation"
 Bank of England,2,qatar,rejected,2026-11-05,2026-11-05,Bank of England lifts rate for first time since 2023 to fight inflation
-Bank of Italy,2,qatar,rejected,2026-11-03,2026-11-03,Sheikh Bandar meets governor of the Bank of Italy
 President of Olympic Council,2,qatar,rejected,2026-11-20,2026-11-21,Acting President of Venezuela Meets President of Olympic Council of Asia
 Communications and Information Technology,2,qatar,rejected,2026-11-12,2026-11-12,Minister of Communications and Information Technology Holds Bilateral Meetings on Sidelines of ITU Plenipotentiary Conference
 Avalon Pharma,2,saudi,rejected,2026-11-04,2026-11-13,Avalon Pharma maintains 2026 targets
 Aker Solutions,2,qatar,rejected,2026-11-08,2026-11-10,Aker Solutions secures engineering contract for Qatar’s Maydan Mahzam redevelopment
 Muharraq City,2,bahrain,rejected,2026-11-08,2026-11-09,"King receives Housing Minister, briefed on Muharraq City development project"
+Forbes Global Properties,2,dubai,rejected,2026-11-18,2026-11-23,duplicate of existing driven_properties (Driven Properties
+Bank of Italy,2,qatar,rejected,2026-11-03,2026-11-03,Sheikh Bandar meets governor of the Bank of Italy
 ADIPEC Energy,2,abudhabi,rejected,2026-11-02,2026-11-02,"AI is a necessity for energy industry, not just an option, Al Jaber and Altman tell ADIPEC"
 Avolon and I Squared Capital,2,abudhabi,rejected,2026-11-02,2026-11-02,"Abu Dhabi's Adia, Avolon and I Squared Capital to launch aviation investment platform"
 Al Wadi Al Kabir Industrial City,2,oman,added,2026-11-18,2026-11-18,Al Wadi Al Kabir Industrial City development reviewed
@@ -173,22 +174,25 @@ Axelerated Solutions,2,saudi,added,2026-09-03,2026-09-03,Axelerated Solutions to
 Fakhruddin Properties,2,dubai,added,2026-09-08,2026-09-10,Fakhruddin Properties unveils 463-unit premier mixed-use project in Dubai
 Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
+Briefs Finance,1,abudhabi,rejected,2026-11-13,2026-11-13,Adnoc in talks to route more offshore crude to traders in 2027
+SriLankan Airlines,1,abudhabi,rejected,2026-11-24,2026-11-24,"China to suspend Etihad Airways, SriLankan Airlines Shanghai route from Aug 17"
 TIZA Global Mark Start of Construction,1,abudhabi,rejected,2026-11-13,2026-11-13,"Masdar, Citaglobal and TIZA Global Mark Start of Construction for Floating Solar Projects"
 Port Technology,1,abudhabi,rejected,2026-11-11,2026-11-11,AD Ports Group posts record Q3 profit despite regional disruption
 ADNOC Partners,1,abudhabi,rejected,2026-11-16,2026-11-16,ADNOC Partners With OpenAI and G42 to Expand AI in Energy Operations
 Riviera Maritime Media,1,abudhabi,rejected,2026-11-09,2026-11-09,ADNOC approaches LNG carrier owners for premium Gulf bareboat charter deals
-EXCLUSIVEMoon World Resorts,1,,rejected,2026-11-03,2026-11-03,EXCLUSIVEMoon World Resorts signs Artemis II’s Jeremy Hansen3m read
 Port of Salalah,1,oman,rejected,2026-11-12,2026-11-12,Port of Salalah container volumes rise 18% in nine months
+Municipal Council,1,oman,rejected,2026-11-15,2026-11-15,Contract signed to provide technical services for Municipal Council elections
 Navi Mumbai Airport,1,oman,rejected,2026-11-06,2026-11-06,Shift to Navi Mumbai Airport from Muscat: Higher costs for some travelers
 Social Development,1,oman,rejected,2026-11-05,2026-11-05,GUtech Launches the Uniquely Abled Academy Under the Patronage of the Minister of Social Development
 Commerce Ministry,1,oman,rejected,2026-11-19,2026-11-19,"ROP, Commerce Ministry issue public and commercial guidelines ahead of National Day"
 Awqaf Ministry,1,qatar,rejected,2026-11-04,2026-11-04,Awqaf Ministry issues statement on Istisqa prayer in Qatar
-Labour Ministry,1,qatar,added,2026-11-03,2026-11-03,Labour Ministry shuts down two recruitment offices in Qatar
 Mexico City,1,qatar,rejected,2026-11-18,2026-11-18,Years of Culture and JEDARIART Bring Qatari Artist Huda Basahal to Mexico City for New Public Mural
 Mekdam Holding,1,qatar,rejected,2026-11-13,2026-11-13,"Mekdam Holding, MEEZA and Quandela sign MoU to accelerate quantum computing deployment across Gulf"
 Meteorology Department,1,qatar,rejected,2026-11-20,2026-11-20,Meteorology Department warns of poor horizontal visibility today
 German Press Agency,1,qatar,rejected,2026-11-10,2026-11-10,German Press Agency opens office at Media City Qatar
 HRSD Ministry,1,saudi,rejected,2026-11-07,2026-11-07,Naseej Tech pens SAR 11M contract with HRSD Ministry
+EXCLUSIVEMoon World Resorts,1,,rejected,2026-11-03,2026-11-03,EXCLUSIVEMoon World Resorts signs Artemis II’s Jeremy Hansen3m read
+Labour Ministry,1,qatar,added,2026-11-03,2026-11-03,Labour Ministry shuts down two recruitment offices in Qatar
 Riyadh Municipality,1,saudi,added,2026-11-03,2026-11-03,Riyadh Municipality launches 1st land investment with private sector
 Al Shaheed Park,1,kuwait,rejected,2026-11-03,2026-11-03,IWG Kuwait joins Pink October initiative at Al Shaheed Park
 Noatum Logistics,1,abudhabi,rejected,2026-11-02,2026-11-02,Noatum Logistics doubles trucking fleet to over 850 units to expand GCC operations
@@ -248,7 +252,6 @@ Global Fairs & Events Logistics,1,abudhabi,rejected,2026-10-09,2026-10-09,Noatum
 Houthi Group,1,saudi,rejected,2026-10-09,2026-10-09,"Qatar Condemns Attacks by Houthi Group against Abha, King Khalid Airports in KSA"
 Bank of Kuwait,1,kuwait,rejected,2026-10-09,2026-10-09,Kuwait lenders pull $8bn from central bank after war stimulus
 Boring Company,1,abudhabi,rejected,2026-10-08,2026-10-08,THIS MORNING: Mubadala eyes more Asia exposure + more The Boring Company projects could be in the pipeline
-SriLankan Airlines,1,abudhabi,rejected,2026-10-08,2026-10-08,SriLankan Airlines boosts aviation training with A330 Programme for Etihad Airways
 Euromoney Foreign Exchange,1,qatar,rejected,2026-10-07,2026-10-07,QNB named Qatar’s Best FX Bank at Euromoney Foreign Exchange Awards
 FX Bank,1,qatar,rejected,2026-10-07,2026-10-07,QNB named Qatar’s Best FX Bank at Euromoney Foreign Exchange Awards
 Saudi Construction,1,saudi,rejected,2026-10-07,2026-10-07,Saudi Construction Index drops to 54.4 points in September
