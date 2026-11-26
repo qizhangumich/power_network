@@ -311,6 +311,7 @@ const PEOPLE = [
     ["qm","Chairperson","board","v"]],
     note:"The Emir's sister; one of the most influential figures in the global art market."},
   {id:"hind", n:"H.E. Sheikha Hind bint Hamad Al Thani", t:0, p:84, s:"education", roles:[
+    ["hbku","Chairperson, Board of Trustees","board","v"],
     ["qf","Vice Chairperson & CEO","executive","v"],
     ["qoc","Vice President","board","v"]]},
   {id:"khalifa_moi", n:"H.E. Sheikh Khalifa bin Hamad bin Khalifa Al Thani", t:0, p:85, s:"gov", roles:[
@@ -434,7 +435,8 @@ const PEOPLE = [
     ["qatarairways","Group CEO (Nov 2023–Dec 2025)","executive","v","former:until Dec 2025"]],
     note:"Group CEO Nov 2023–Dec 2025; previously COO of Hamad International Airport. Succeeded by Hamad Ali Al-Khater."},
   {id:"fakhroo", n:"Aziz Aluthman Fakhroo", t:2, p:74, s:"comm", roles:[["ooredoo","Managing Director & Group CEO","executive","v"]]},
-  {id:"sulaiti", n:"Abdullah Al-Sulaiti", t:2, p:68, s:"energy", roles:[["nakilat","CEO","executive","v"]]},
+  {id:"sulaiti", n:"Abdullah Al-Sulaiti", t:2, p:68, s:"energy", roles:[
+    ["hbku","Member, Board of Trustees","board","v"],["nakilat","CEO","executive","v"]]},
   {id:"jaida_qfc", n:"Yousuf Mohamed Al-Jaida", t:2, p:70, s:"finance", roles:[
     ["qfba","Board Member","board","v"],
     ["qfz","Board Member","board","v"],["qfc","CEO (2015–Jan 2026)","executive","v","former:until Jan 2026"]]},
@@ -763,6 +765,7 @@ const PEOPLE = [
     ["udc","Board Member","board","v"],
     ["cbq","Board Member","board","v"]]},
   {id:"mohammed_ahmad_al", n:"Mohammed Ahmad Al Mulla", t:2, p:52, s:"finance", roles:[
+    ["barzan","Chief Investment Officer","executive","v"],
     ["lst_dohi","Board Member (representing Qatar Armed Forces Investment Portfolio)","board","v"],
     ["cbq","Board Member","board","v"]]},
   {id:"stephen_moss", n:"Stephen Moss", t:2, p:60, s:"finance", roles:[
@@ -1274,6 +1277,7 @@ const PEOPLE = [
   {id:"h_e_sheikh_b_b_b_b_b_b_b_b_b_b_b_b_b", n:"H.E. Sheikh Mohammed bin Hamad bin Khalifa Al Thani", t:2, p:62, s:"sovereign", roles:[
     ["qia","Vice Chairman","board","v"]]},
   {id:"mansoor_bin_ebrahim", n:"Mansoor bin Ebrahim Al-Mahmoud", t:2, p:60, s:"sovereign", roles:[
+    ["hbku","Vice Chair, Board of Trustees","board","v"],
     ["cabinet","Minister of Public Health","executive","v"],
     ["qfc","Board Member","board","v"],
     ["moph","Minister of Public Health","executive","v"],
@@ -2501,6 +2505,7 @@ const PEOPLE = [
   {id:"jaber_rashid_al", n:"Jaber Rashid Al Nuaimi", t:2, p:58, s:"gov", roles:[
     ["wifaq_center","Executive Director","executive","ns"]]},
   {id:"sultan_bin_saad", n:"Sultan bin Saad bin Sultan Al Muraikhi", t:2, p:58, s:"gov", roles:[
+    ["mofa_q","State Minister for Foreign Affairs","executive","v"],
     ["cabinet","Minister of State for Foreign Affairs","executive","v"]]},
   {id:"hamad_bin_nasser", n:"Hamad bin Nasser Al-Misnad", t:2, p:58, s:"gov", roles:[
     ["acta","President","executive","v"]]},
@@ -2644,6 +2649,37 @@ const PEOPLE = [
     ["state_audit_bureau","President of the State Audit Bureau","executive","v"]]},
   {id:"omar_ali_al", n:"Omar Ali Al Ansari", t:2, p:58, s:"tech", roles:[
     ["qrdi_council","Secretary General, QRDI Council","executive","v"]]},
+  {id:"ahmed_bin_hassan", n:"Ahmed bin Hassan Al-Hammadi", t:2, p:58, s:"gov", roles:[
+    ["mofa_q","Secretary-General of the Ministry of Foreign Affairs","executive","v"]]},
+  {id:"majed_bin_mohammed", n:"Majed bin Mohammed Al Ansari", t:2, p:58, s:"gov", roles:[
+    ["mofa_q","Adviser to the Prime Minister; Official Spokesperson for the Ministry of Foreign Affairs","executive","ns"]]},
+  {id:"freddy_boey", n:"Freddy Boey", t:2, p:52, s:"education", roles:[
+    ["hbku","Member, Board of Trustees","board","v"]]},
+  {id:"thomas_f_hofmann", n:"Thomas F. Hofmann", t:2, p:52, s:"education", roles:[
+    ["hbku","Member, Board of Trustees","board","v"]]},
+  {id:"yousef_h_al", n:"Yousef H. Al-Ebraheem", t:2, p:52, s:"education", roles:[
+    ["hbku","Member, Board of Trustees","board","v"]]},
+  {id:"sheikh_ali_bin_b_b_b", n:"Sheikh Ali Bin Jabor Bin Mohammad Al Thani", t:2, p:52, s:"education", roles:[
+    ["hbku","Member, Board of Trustees","board","v"]]},
+  {id:"dominique_rossin", n:"Dominique Rossin", t:2, p:52, s:"education", roles:[
+    ["hbku","Member, Board of Trustees","board","v"]]},
+  {id:"mark_chaban", n:"Mark Chaban", t:2, p:52, s:"education", roles:[
+    ["hbku","Member, Board of Trustees","board","v"]]},
+  {id:"taha_a_kass", n:"Taha A. Kass-Hout", t:2, p:52, s:"education", roles:[
+    ["hbku","Member, Board of Trustees","board","v"]]},
+  {id:"ling_san", n:"Ling San", t:2, p:52, s:"education", roles:[
+    ["hbku","Member, Board of Trustees","board","v"]]},
+  {id:"soud_abdulaziz_al", n:"Soud Abdulaziz Al-Tamimi", t:2, p:58, s:"education", roles:[
+    ["hbku","Member, Board of Trustees","board","v"],
+    ["hbku","Vice President of Audit, Risk, and Compliance","executive","v"]]},
+  {id:"eyad_ahmad_masad", n:"Eyad Ahmad Masad", t:2, p:58, s:"education", roles:[
+    ["hbku","Vice President for Research","executive","v"]]},
+  {id:"khalid_mubarak_al_b", n:"Khalid Mubarak Al-Hitmi", t:2, p:52, s:"materials", roles:[
+    ["qafco","Board Member","board","v"]]},
+  {id:"omar_fahad_al", n:"Omar Fahad Al-Qadi", t:2, p:58, s:"industry", roles:[
+    ["barzan","Chief Commercial Officer","executive","v"]]},
+  {id:"francois_bourienne", n:"Francois Bourienne", t:2, p:58, s:"industry", roles:[
+    ["hia","Vice President Commercial","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

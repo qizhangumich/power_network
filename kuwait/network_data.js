@@ -283,6 +283,8 @@ const INSTITUTIONS = [
   {id:"min_social_affairs", n:"Ministry of Social Affairs", s:"gov", t:1, p:60, short:"Min. Social Affairs"},
   {id:"min_awqaf_affairs", n:"Ministry of Awqaf and Islamic Affairs", s:"gov", t:2, p:56, short:"Min. Awqaf Affairs"},
   {id:"public_auth_sport", n:"Public Authority for Sport", s:"gov", t:3, p:54, short:"Public Auth. Sport"},
+  {id:"ossc", n:"Oil Sector Services Company", s:"industry", t:3, p:50, short:"OSSC"},
+  {id:"odc", n:"Oil Development Company", s:"energy", t:3, p:52, short:"ODC"},
 ];
 
 const PEOPLE = [
@@ -2345,6 +2347,74 @@ const PEOPLE = [
     ["kcst","Dean of Engineering","executive","v"]]},
   {id:"hamad_saleh_hamad", n:"Hamad Saleh Hamad Al Thekair", t:2, p:62, s:"finance", roles:[
     ["al_thekair","Chairman","board","v"]]},
+  {id:"khaled_al_rasheed", n:"Khaled Al-Rasheed", t:2, p:58, s:"education", roles:[
+    ["min_of_education","Undersecretary of the Ministry of Education","executive","ns"]]},
+  {id:"hamad_abdullah_al", n:"Hamad Abdullah Al-Hamad", t:2, p:58, s:"education", roles:[
+    ["min_of_education","Assistant Undersecretary for Educational Affairs","executive","ns"]]},
+  {id:"awatif_abdullatif_al", n:"Awatif Abdullatif Al-Sanad", t:2, p:58, s:"gov", roles:[
+    ["ministry_of_justice","Undersecretary of the Ministry of Justice","executive","ns"]]},
+  {id:"khaled_jassim_almudhaf", n:"Khaled Jassim AlMudhaf", t:2, p:58, s:"sovereign", roles:[
+    ["pifss","Acting Director General","executive","v"]]},
+  {id:"khaled_amer_alajmi", n:"Khaled Amer AlAjmi", t:2, p:62, s:"sovereign", roles:[
+    ["pifss","Board Member; Chairman, Audit and Risk Committee","board","v"]]},
+  {id:"khaled_yousef_alhajri", n:"Khaled Yousef AlHajri", t:2, p:62, s:"sovereign", roles:[
+    ["pifss","Vice Chairman, Investment Committee","board","v"]]},
+  {id:"khaled_ali_al_b_b", n:"Khaled Ali Al-Fadhel", t:2, p:58, s:"gov", roles:[
+    ["kfas","Director General","executive","v"]]},
+  {id:"abdullah_yousef_al", n:"Abdullah Yousef Al-Ghunaim", t:2, p:52, s:"gov", roles:[
+    ["kfas","Member, Board of Directors","board","v"]]},
+  {id:"ahmad_aldekheel", n:"Ahmad Aldekheel", t:2, p:52, s:"gov", roles:[
+    ["kfas","Member, Board of Directors","board","v"]]},
+  {id:"amani_sulaiman_buqammaz", n:"Amani Sulaiman Buqammaz", t:2, p:52, s:"gov", roles:[
+    ["kfas","Member, Board of Directors","board","v"]]},
+  {id:"ibrahim_rashid_al", n:"Ibrahim Rashid Al Rashdan", t:2, p:52, s:"gov", roles:[
+    ["kfas","Member, Board of Directors","board","v"]]},
+  {id:"sheikh_meshaal_jaber", n:"Sheikh Meshaal Jaber Al-Ahmed Al-Sabah", t:2, p:52, s:"gov", roles:[
+    ["kfas","Member, Board of Directors","board","v"]]},
+  {id:"jihad_al_hmaidhi", n:"Jihad Al-Hmaidhi", t:2, p:62, s:"tech", roles:[
+    ["knet","Vice Chairman, Board of Directors","board","v"]]},
+  {id:"dalal_al_yaqout", n:"Dalal Al-Yaqout", t:2, p:58, s:"tech", roles:[
+    ["knet","Chief Operating Officer","executive","v"]]},
+  {id:"noura_al_bader", n:"Noura Al-Bader", t:2, p:58, s:"tech", roles:[
+    ["knet","Chief Financial Officer","executive","v"]]},
+  {id:"salwa_shaheen", n:"Salwa Shaheen", t:2, p:58, s:"tech", roles:[
+    ["knet","Chief Risk Officer","executive","v"]]},
+  {id:"talal_al_fadhli", n:"Talal Al-Fadhli", t:2, p:58, s:"tech", roles:[
+    ["knet","Chief Information Officer","executive","v"]]},
+  {id:"naser_mohammad_alhamad", n:"Naser Mohammad Alhamad", t:2, p:58, s:"sovereign", roles:[
+    ["awqaf_kuwait","Secretary General (Acting)","executive","v"]]},
+  {id:"amal_hussain_al", n:"Amal Hussain Al-Dallal", t:2, p:58, s:"sovereign", roles:[
+    ["awqaf_kuwait","Deputy Secretary General for Administrative and Support Services (Acting)","executive","v"]]},
+  {id:"hanan_al_kandari", n:"Hanan Al-Kandari", t:2, p:58, s:"sovereign", roles:[
+    ["awqaf_kuwait","Deputy Secretary General for Resource Development and Investment (Acting)","executive","v"]]},
+  {id:"ammar_muharib_sultan", n:"Ammar Muharib Sultan Al-Fadhli", t:2, p:58, s:"health", roles:[
+    ["adan_hospital","Hospital Director","executive","ns"]]},
+  {id:"aseel_mohammed_al", n:"Aseel Mohammed Al-Awadhi", t:2, p:46, s:"health", roles:[
+    ["jaber_hospital","Head of Medical Body","executive","ns"]]},
+  {id:"shuja_dhali_al", n:"Shuja Dhali Al-Anzi", t:2, p:58, s:"health", roles:[
+    ["mubarak_al_kabeer","Hospital Director","executive","ns"]]},
+  {id:"khaled_hilal_eidan_b", n:"Khaled Hilal Eidan Al-Khalidi", t:2, p:58, s:"health", roles:[
+    ["kuwait_cancer_ctr","Center Director","executive","ns"]]},
+  {id:"fahad_malfi_muflih", n:"Fahad Malfi Muflih Al-Rashidi", t:2, p:46, s:"health", roles:[
+    ["kuwait_cancer_ctr","Head of Medical Body","executive","ns"]]},
+  {id:"vengadeswaran_yoganathan", n:"Vengadeswaran Yoganathan", t:2, p:52, s:"realestate", roles:[
+    ["st_martins_prop","Director","board","v"]]},
+  {id:"ghazi_faisal_alhajeri", n:"Ghazi Faisal Alhajeri", t:2, p:62, s:"finance", roles:[
+    ["lst_gfh","Vice Chairman","board","v"]]},
+  {id:"darwish_abdulla_alketbi", n:"Darwish Abdulla Alketbi", t:2, p:52, s:"finance", roles:[
+    ["lst_gfh","Member, Board of Directors","board","v"]]},
+  {id:"fawaz_al_tamimi", n:"Fawaz Al Tamimi", t:2, p:52, s:"finance", roles:[
+    ["lst_gfh","Member, Board of Directors","board","v"]]},
+  {id:"ali_murad", n:"Ali Murad", t:2, p:52, s:"finance", roles:[
+    ["lst_gfh","Member, Board of Directors","board","v"]]},
+  {id:"rashid_nasser_al", n:"Rashid Nasser Al Kaabi", t:2, p:52, s:"finance", roles:[
+    ["lst_gfh","Member, Board of Directors","board","v"]]},
+  {id:"abdulla_jehad_alzain", n:"Abdulla Jehad Alzain", t:2, p:52, s:"finance", roles:[
+    ["lst_gfh","Member, Board of Directors","board","v"]]},
+  {id:"minwa_ali_khalifa", n:"Minwa Ali Khalifa Alkhalifa", t:2, p:52, s:"finance", roles:[
+    ["lst_gfh","Member, Board of Directors","board","v"]]},
+  {id:"abdulaziz_abdulhamid_albassa", n:"Abdulaziz Abdulhamid AlBassam", t:2, p:52, s:"finance", roles:[
+    ["lst_gfh","Member, Board of Directors","board","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2534,6 +2604,8 @@ const OWNERSHIP = [
   ["kuwait_cancer_ctr","moh_kuwait","governmental centre affiliated to MOH","ns"],
   ["dasman_diabetes_inst","kfas","founded by / center of KFAS","ns"],
   ["boubyan_takaful","lst_boubyan","subsidiary of","v"],
+  ["ossc","kpc","subsidiary of","ns"],
+  ["odc","kpc","subsidiary of","ns"],
 ];
 
 const FAMILY = [

@@ -300,6 +300,7 @@ const PEOPLE = [
     ["fujairah_ports","Managing Director","executive","v"],
     ["fujport","Managing Director","executive","v"]]},
   {id:"abdouli_marjan", n:"Arch. Abdulla Al Abdouli", t:2, p:66, s:"realestate", roles:[
+    ["rak_hospitality","Group Chief Executive Officer","executive","v"],
     ["rak_properties","Director","board","v"],
     ["marjan","Group Chief Executive Officer","executive","v"]]},
   {id:"tappeiner_wynn", n:"Max Tappeiner", t:2, p:64, s:"consumer_disc", roles:[
@@ -565,6 +566,7 @@ const PEOPLE = [
   {id:"sheikh_fahim_bin", n:"Sheikh Fahim bin Sultan bin Khalid Al Qasimi", t:2, p:62, s:"gov", roles:[
     ["shj_execco","Member (Chairman of Department of Government Relations)","board","v"]]},
   {id:"sheikh_mohammed_bin_b_b", n:"Sheikh Mohammed bin Humaid Al Qasimi", t:2, p:62, s:"gov", roles:[
+    ["rakez","Managing Director","executive","v"],
     ["rak_icc","Chairman","board","v"],
     ["shj_execco","Member (Chairman of Department of Statistics and Community Development)","board","v"]]},
   {id:"sheikh_majid_bin", n:"Sheikh Majid bin Sultan bin Saqer Al Qasimi", t:2, p:62, s:"gov", roles:[
@@ -1599,6 +1601,7 @@ const PEOPLE = [
   {id:"tony_cheetham", n:"Tony Cheetham", t:2, p:62, s:"education", roles:[
     ["rakcam","Chairman","board","v"]]},
   {id:"sheikh_rashid_bin_b_b_b", n:"Sheikh Rashid bin Ammar bin Humaid Al Nuaimi", t:2, p:62, s:"tech", roles:[
+    ["ajman_execco","Member of the Executive Council; Chairman of Department of Digital Ajman","board","v"],
     ["digital_ajman","Chairman","board","ns"]]},
   {id:"anwar_al_zaabi", n:"Anwar Al Zaabi", t:2, p:60, s:"health", roles:[
     ["skhf","Chief Executive Officer","executive","ns"]]},
@@ -1627,6 +1630,7 @@ const PEOPLE = [
   {id:"sheikh_mansour_ibrahim", n:"Sheikh Mansour Ibrahim Ahmed Hamad Al Mualla", t:2, p:58, s:"gov", roles:[
     ["uaq_ports_customs","Executive Director","executive","v"]]},
   {id:"sheikh_humaid_bin", n:"Sheikh Humaid bin Ammar Al Nuaimi", t:2, p:62, s:"realestate", roles:[
+    ["ajman_execco","Member of the Executive Council; Leader of Ajman Artificial Intelligence Programme","board","v"],
     ["ajman_properties","Vice Chairman","board","v"]]},
   {id:"omar_bin_omair", n:"Omar bin Omair Al Muhairi", t:2, p:58, s:"realestate", roles:[
     ["ajman_land_re","Director-General","executive","v"]]},
@@ -1784,6 +1788,8 @@ const PEOPLE = [
     ["asas_real_estate","General Manager","executive","v"]]},
   {id:"jamal_adam", n:"Jamal Adam", t:2, p:58, s:"gov", roles:[
     ["fuj_media_office","Director","executive","v"]]},
+  {id:"abdullah_abdulrahman_al", n:"Abdullah Abdulrahman Al Shamsi", t:2, p:58, s:"utilities", roles:[
+    ["sewa","Director-General, Sharjah Electricity, Water and Gas Authority","executive","v"]]},
 ];
 
 const OWNERSHIP = [

@@ -289,6 +289,7 @@ const INSTITUTIONS = [
   {id:"emirates_reem_inv", n:"Emirates Reem Investments Company P.J.S.C.", s:"consumer_stap", t:3, p:52, short:"Emirates Reem Inv."},
   {id:"dip", n:"DIP Holding", s:"realestate", t:2, p:58, short:"DIP Holding"},
   {id:"zand_bank", n:"Zand Bank", s:"finance", t:2, p:58, short:"Zand Bank"},
+  {id:"beyond_developments", n:"BEYOND Developments", s:"realestate", t:3, p:54, short:"BEYOND Developments"},
 ];
 
 const PEOPLE = [
@@ -3429,6 +3430,7 @@ const OWNERSHIP = [
   ["dh_community_mgmt","dubaiholding","subsidiary (community management division)","v"],
   ["al_ghurair_dev","alghurair","real estate development arm/subsidiary of Al Ghurair Group","v"],
   ["dip","dubaiinv","subsidiary (listed; parent retains ~80% stake post-IPO)","v"],
+  ["beyond_developments","omniyat","subsidiary of","ns"],
 ];
 
 const FAMILY = [

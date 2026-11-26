@@ -597,6 +597,7 @@ const INSTITUTIONS = [
   {id:"al_rajhi_capital", n:"Al Rajhi Capital", s:"finance", t:2, p:58, short:"Al Rajhi Capital"},
   {id:"alinma_capital", n:"Alinma Capital Company", s:"finance", t:3, p:52, short:"Alinma Capital"},
   {id:"adeera", n:"Adeera", s:"consumer_disc", t:3, p:58, short:"Adeera"},
+  {id:"aljomaih_energy_and", n:"Aljomaih Energy and Water Company", s:"energy", t:3, p:56, short:"Aljomaih Energy & Wa…"},
 ];
 
 const PEOPLE = [
@@ -4884,4 +4885,5 @@ const AKA = {
   malath_insurance:["Malath","8020"],
   al_rajhi_capital:["ARC"],
   alinma_capital:["Alinma Investment","Alinma Investment Company"],
+  aljomaih_energy_and:["AEWC"],
 };
