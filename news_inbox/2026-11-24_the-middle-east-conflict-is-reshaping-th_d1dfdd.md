@@ -1,0 +1,5 @@
+# The Middle East conflict is reshaping the priorities of its largest NOCs
+source: Energy Connects
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUm5WRGIxaFUtVTAxeGxoOGN5QmVDNXMtTWRPQzM3Z1pYdTRwY2tLWkpFUTdyT2preVlpcVlDZEVuc25IYnZLXzZ5dG5zeHZrYWtTYVlUb0ZFWGhpdXd5dEQxeDR3b1VBX0tDdHAzT1NiVUxYM29pTjBaM2x6UXJMd01MckE4S2taaFZ6QjlzOWVhWW5JdE14ZDNZdkk1SS1hck5BeFhIUUM4TFZqd24yTjdnUGN1cmotZVZNSWY0Ri1VU21iUGVkcndCd1FkMkdqeXhSLW1WdmlxbjlEZEE?oc=5
+
+The Middle East conflict is reshaping the priorities of its largest NOCs    Energy Connects

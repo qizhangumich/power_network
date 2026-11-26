@@ -1,0 +1,5 @@
+# Adipec 2026: World's energy supply buffers have been eroded, Adnoc CEO says
+source: Khaleej Times
+url: https://news.google.com/rss/articles/CBMikwFBVV95cUxNc1k1dDF0cVhiQkJFV0RLTUUwU2c5YjF5SHlqeFpPcUVDbWJHRlBKS1Y1NlozY3lhaWdkSE9GUlBCbkJ2NnFraGxEdWpWc0VJTUl3bHlacjZFeVllUnQ5dGJJUWhEQjhkQ25oT1pNS1kwclF4M2l0Q18zczk1MVQxcG0zeHZMTGFzejZ6RVpicWQtUkHSAZsBQVVfeXFMT09GVmFLX2NlVER5cUJWSUhuY2pIamN4T1FWMThSM2ZPQUhlVXNNYktETnljeDB5c0lhNzZqX2NObGRhRDlOS05BN1RuSmRkNW41SXNncktkLXZqRVpjRkxZRE9qNnA1bHBtUGM5S0JseXhWY0VTd1k1OGJCT1NOVVg4bEVGM05kck5CaWFQUkNud0J2b3d2QnRzMmc?oc=5
+
+Adipec 2026: World's energy supply buffers have been eroded, Adnoc CEO says    Khaleej Times
