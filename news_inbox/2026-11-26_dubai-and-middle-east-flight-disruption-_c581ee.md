@@ -1,0 +1,5 @@
+# Dubai and Middle East flight disruption: flight cancellations continue as Saudi Arabia intercepts missile and drone fire
+source: Condé Nast Traveller Middle East
+url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxOS2JUVmVuaGxQQnZtbHBBMTB2NElYYld3Tl9QZGV1MENNVm5mVzJvZi1IRWhudWJXcGlFbzJ2T0J0UUdXNHRsZzlOOW5QY3l0U1FJTXJkRHdmUExUQ2NEYU9waUVFV3hDLWlxVVd2RWhheE9ibVJoM000b2pZZjd4QmVmVmxUN3NnUldnTnQtcWk2Vy0wV2ZTbk9na01HZDI1dG5fbi1idDFPdjJSQzQ5eE9HSkhUS0xla0d2S203d3VRLXh0aDBTM0VlVnRlRE9qOWFXWTJfTWx2NzZRMm5NZmQ5Vi1GV1dCcFpj?oc=5
+
+Dubai and Middle East flight disruption: flight cancellations continue as Saudi Arabia intercepts missile and drone fire    Condé Nast Traveller Middle East

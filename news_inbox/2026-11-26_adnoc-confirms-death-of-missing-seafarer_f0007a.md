@@ -1,0 +1,5 @@
+# ADNOC confirms death of missing seafarer following Strait of Hormuz attack
+source: safety4sea
+url: https://news.google.com/rss/articles/CBMinwFBVV95cUxQR3V6S2c0VEx0OHpvQWlXNjcyYUNrWEtYTnB4NGlRTmpHWWY0RDlpWDVfdEZVOTZlRnhzeU1HQ00yakxISF84NElpY1RraUV2YlpRX2hIQ3VwZ3JOTE1KcllNNFVPSC1SakplM2FmckxicHZFWHhiTjZqUVlqQ3NTeHEycFNibzB6S3prUXZQQjJBV2c2MDBLeTg3eThhM2s?oc=5
+
+ADNOC confirms death of missing seafarer following Strait of Hormuz attack    safety4sea

@@ -1,0 +1,5 @@
+# Ras Al Khaimah secures $326mln financing for wastewater project
+source: Zawya
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMC1ab3ljTHhTZE1YUktVRDI3LXQ1MEhzaXViSm9BWUxhMG1Ic3ZjOUNkUWE3RGFha280Q25sb2c1SHc3VXN4WUgzSWdDeW5lWVRSLUx0eXF2VEhXQ3YwQXRLRC1fVVRhaV9WdURveERlWHc2TzExYlJ0alBwaTQyRkx4QnNsVF82cHBuSXR1NXZ4LXNBS2MxeUEyczgwRkZpTnhGN1UwbXBXWFE?oc=5
+
+Ras Al Khaimah secures $326mln financing for wastewater project    Zawya

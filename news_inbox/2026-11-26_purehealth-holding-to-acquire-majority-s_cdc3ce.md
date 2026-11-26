@@ -1,0 +1,5 @@
+# PureHealth Holding to acquire majority stake in Hayah Insurance
+source: Atlas Magazine
+url: https://news.google.com/rss/articles/CBMimwFBVV95cUxPbS1EeWQ2bmxXN1c3ekx6cnR6YU9wTzlfVXFxRWNzOVRaVGVud3dMc1R2NW81c3VTYVhLREVNM2NVZXBFTGJsWG1Rcmx1dC0ybGdHOVZSWlpuVGRRTGdQSjFiQ2tKYjBjZFpEUlFwUmJaak9lLTlpUU9JQlpjRnBJZ2NjYXl4TXRtNzlmOFhsVGNESjkyWXNMLWJ1aw?oc=5
+
+PureHealth Holding to acquire majority stake in Hayah Insurance    Atlas Magazine

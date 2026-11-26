@@ -1,0 +1,5 @@
+# Space42 publishes report on autonomous transport
+source: Telecompaper
+url: https://news.google.com/rss/articles/CBMilgFBVV95cUxNWkxzWU9BLTlrQjNVdkI2NjByQjdGeGhMVEQ3M2dUWmNRTzhoXy1DVEhrY1Yyd3BHWVJTOFphUHBJcFZjalJrT3oyRDdTR3lreHl0ZFlwai1panlINGF6eVVxVTZ3NUFFR1FneHJpdkxFVnpOXzhSRWFEcnRLbHJCbUNvejkwQVh3ZHRvdmxzd0lwOVFwbWc?oc=5
+
+Space42 publishes report on autonomous transport    Telecompaper

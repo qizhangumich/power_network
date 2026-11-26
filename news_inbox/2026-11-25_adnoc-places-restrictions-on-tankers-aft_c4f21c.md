@@ -1,0 +1,5 @@
+# ADNOC Places Restrictions on Tankers After Attacks
+source: Rigzone
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxOQkRId0VyZTNkT2Q1cUUxaTlFZjZIUEhqa0xReldBMFRTNThMZ2Y3VTI4M0owSGhJSU9JZlNpemJacF9HYTNSZG5HWTltMmo2d0J5RFJKM0Z1SXRhcEtLaC1neEpoLUpTTWp2dGRwTzB6ZU5HQ3prUHdlMEx2Y3FjbW4wcV9xV2M1d3Y5X2pqWG9aTTZ3d09kRkNDRVpaa0hmUndSdjdob1RxQVhvUE5HcHln?oc=5
+
+ADNOC Places Restrictions on Tankers After Attacks    Rigzone
