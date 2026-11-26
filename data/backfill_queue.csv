@@ -62,6 +62,7 @@ qatar,basf_coatings,BASF Coatings (Carlyle/QIA venture),materials,58,0,pending
 qatar,qnbfs,QNB Financial Services,finance,58,1,pending
 qatar,qrdi_council,"Qatar Research, Development and Innovation Council",tech,58,1,pending
 saudi,lst_6017,Jahez International Company for Information Systems Technology,consumer_disc,58,0,pending
+saudi,lst_4004,Dallah Healthcare Holding Co.,health,58,0,pending
 saudi,lst_4322,Retal Urban Development Co.,realestate,58,0,pending
 saudi,iot_squared,iot squared,tech,58,1,pending
 saudi,taqnia,Saudi Technology Development and Investment Company,tech,58,0,pending
@@ -95,6 +96,7 @@ saudi,esl_faceit,ESL FACEIT Group,tech,58,0,pending
 saudi,petrokemya,Arabian Petrochemical Company,materials,58,0,pending
 saudi,adeera,Adeera,consumer_disc,58,0,pending
 abudhabi,lst_emobility,Emirates Mobility Company PJSC,industry,57,1,pending
+abudhabi,lst_hayah,Hayah Insurance Company PJSC,finance,57,0,pending
 bahrain,sbpc,Saudi Bahrain Pipeline Company,energy,57,0,pending
 qatar,al_muftah,Al Muftah Group,conglomerate,57,1,pending
 saudi,lst_4003,United Electronics Co. (eXtra),consumer_disc,57,0,pending
@@ -384,7 +386,6 @@ abudhabi,lst_sawaeed,Sawaeed Holding PJSC,industry,50,0,pending
 abudhabi,lst_union,Union Insurance Company PJSC,finance,50,0,pending
 abudhabi,lst_hh,Hily Holding PJSC,conglomerate,50,0,pending
 abudhabi,lst_fidelityunited,United Fidelity Insurance Company P.S.C.,finance,50,0,pending
-abudhabi,lst_hayah,Hayah Insurance Company PJSC,finance,50,0,pending
 abudhabi,lst_sico,Sharjah Insurance Company P.S.C.,finance,50,0,pending
 abudhabi,lst_rapco,RAPCO Investment PJSC,consumer_stap,50,0,pending
 abudhabi,lst_aram,ARAM Group Company PJSC,realestate,50,0,pending
@@ -644,7 +645,6 @@ saudi,lst_6070,Al Jouf Agricultural Development Co. (ALJOUF),consumer_stap,50,0,
 saudi,lst_6090,Jazan Development Co. (JAZADCO),consumer_stap,50,0,pending
 saudi,lst_2140,Ayyan Investment Co.,health,50,1,pending
 saudi,lst_2230,Saudi Chemical Co.,health,50,0,pending
-saudi,lst_4004,Dallah Healthcare Holding Co.,health,50,0,pending
 saudi,lst_4005,Care National Medical and Rehabilitation Center Co.,health,50,0,pending
 saudi,lst_4007,Al Hammadi Holding Co.,health,50,0,pending
 saudi,lst_4009,Saudi German Health,health,50,0,pending

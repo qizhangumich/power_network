@@ -411,7 +411,7 @@ const PEOPLE = [
   {id:"amit_kaushal", n:"Amit Kaushal", t:2, p:72, s:"sovereign", roles:[
     ["dh_investments","Group Chief Executive Officer","executive","v"],
     ["dhre","Group Chief Executive Officer","executive","v"],
-    ["empower","Board Member","board","ns"],
+    ["empower","Board Member","board","v"],
     ["meraas","Group Chief Executive Officer","executive","v"],
     ["tecom","Director","board","v"],
     ["dubaiholding","Group CEO","executive","v"]]},
@@ -641,7 +641,7 @@ const PEOPLE = [
     ["emirates_catering","Director, Board of Directors","board","v"],
     ["emirates","Deputy President & Chief Operations Officer","executive","v"]]},
   {id:"adnan_kazim", n:"Adnan Kazim", t:2, p:58, s:"industry", roles:[
-    ["transguard","Director (Board of Directors)","board","ns"],
+    ["transguard","Director (Board of Directors)","board","v"],
     ["emaar_development","Chairman","board","v"],
     ["emirates","Deputy President & Chief Commercial Officer","executive","v"]]},
   {id:"ali_mubarak_al", n:"Ali Mubarak Al Soori", t:2, p:58, s:"industry", roles:[
@@ -3382,6 +3382,7 @@ const OWNERSHIP = [
   ["khda","dxbgov","government entity","v"],
   ["dpworld","dubai_world","wholly owned","ns"],
   ["emirates_islamic","enbd","subsidiary","ns"],
+  ["emirates_islamic","dib","to be acquired by DIB for newly-issued DIB shares (Dh585bn combined entity), signed 25 Nov 2026, not yet closed","ns"],
   ["unifeeder","dpworld","wholly-owned subsidiary (acquired 2018)","v"],
   ["p_o_ferries","dpworld","wholly-owned subsidiary (acquired 2019 for $421m)","v"],
   ["emaar_development","emaar","majority-owned subsidiary — Emaar Properties launched a Dh15/share cash offer (Nov 2026) for the remaining ~19.84% stake, aiming to take it private and delist from DFM (board-backed, shareholder deadline 10 Dec 2026, not yet closed)","v"],

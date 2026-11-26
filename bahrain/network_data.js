@@ -545,7 +545,7 @@ const PEOPLE = [
   {id:"sara_khalil_nooruddin", n:"Sara Khalil Nooruddin", t:2, p:52, s:"finance", roles:[
     ["lst_bbk","Board Member","board","v"]]},
   {id:"yaser_alsharifi", n:"Yaser Alsharifi", t:2, p:60, s:"finance", roles:[
-    ["credimax","Chairman","board","ns"],
+    ["credimax","Chairman","board","v"],
     ["bibf","Board Member","board","v"],
     ["lst_bbk","Group Chief Executive Officer","executive","v"]]},
   {id:"hassaan_burshaid", n:"Hassaan Burshaid", t:2, p:58, s:"finance", roles:[

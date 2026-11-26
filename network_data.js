@@ -220,7 +220,7 @@ const INSTITUTIONS = [
   {id:"lst_union", n:"Union Insurance Company PJSC", s:"finance", t:2, p:50, short:"UNION"},
   {id:"lst_hh", n:"Hily Holding PJSC", s:"conglomerate", t:2, p:50, short:"Hily Holding PJSC"},
   {id:"lst_fidelityunited", n:"United Fidelity Insurance Company P.S.C.", s:"finance", t:2, p:50, short:"FIDELITYUNITED"},
-  {id:"lst_hayah", n:"Hayah Insurance Company PJSC", s:"finance", t:2, p:50, short:"HAYAH"},
+  {id:"lst_hayah", n:"Hayah Insurance Company PJSC", s:"finance", t:2, p:57, short:"HAYAH"},
   {id:"lst_sico", n:"Sharjah Insurance Company P.S.C.", s:"finance", t:2, p:50, short:"SICO"},
   {id:"lst_rapco", n:"RAPCO Investment PJSC", s:"consumer_stap", t:2, p:50, short:"RAPCO"},
   {id:"lst_aram", n:"ARAM Group Company PJSC", s:"realestate", t:2, p:50, short:"ARAM"},

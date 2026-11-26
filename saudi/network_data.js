@@ -226,7 +226,7 @@ const INSTITUTIONS = [
   {id:"lst_2140", n:"Ayyan Investment Co.", s:"health", t:2, p:50, short:"Ayyan Investment Co."},
   {id:"lst_2230", n:"Saudi Chemical Co.", s:"health", t:2, p:50, short:"Saudi Chemical Co."},
   {id:"lst_4002", n:"Mouwasat Medical Services Co.", s:"health", t:2, p:50, short:"4002"},
-  {id:"lst_4004", n:"Dallah Healthcare Holding Co.", s:"health", t:2, p:50, short:"4004"},
+  {id:"lst_4004", n:"Dallah Healthcare Holding Co.", s:"health", t:2, p:58, short:"4004"},
   {id:"lst_4005", n:"Care National Medical and Rehabilitation Center Co.", s:"health", t:2, p:50, short:"4005"},
   {id:"lst_4007", n:"Al Hammadi Holding Co.", s:"health", t:2, p:50, short:"4007"},
   {id:"lst_4009", n:"Saudi German Health", s:"health", t:2, p:50, short:"Saudi German Health"},
