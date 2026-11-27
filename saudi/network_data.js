@@ -163,10 +163,10 @@ const INSTITUTIONS = [
   {id:"lst_2340", n:"Artex Industrial Investment Co.", s:"consumer_disc", t:2, p:50, short:"2340"},
   {id:"lst_4011", n:"Lazurde Co. for Jewelry", s:"consumer_disc", t:2, p:50, short:"4011"},
   {id:"lst_4012", n:"Al Aseel Co.", s:"consumer_disc", t:2, p:50, short:"Al Aseel Co."},
-  {id:"lst_4180", n:"Fitaihi Holding Group", s:"consumer_disc", t:2, p:50, short:"4180"},
+  {id:"lst_4180", n:"Fitaihi Holding Group", s:"consumer_disc", t:2, p:54, short:"Fitaihi"},
   {id:"lst_1810", n:"Seera Group Holding", s:"consumer_disc", t:2, p:60, short:"Seera Group"},
   {id:"lst_1820", n:"Baan Holding Group Co.", s:"consumer_disc", t:2, p:50, short:"1820"},
-  {id:"lst_1830", n:"Leejam Sports Co.", s:"consumer_disc", t:2, p:50, short:"Leejam Sports Co."},
+  {id:"lst_1830", n:"Leejam Sports Co.", s:"consumer_disc", t:2, p:58, short:"Leejam Sports"},
   {id:"lst_4170", n:"Tourism Enterprise Co. (Shams)", s:"consumer_disc", t:2, p:50, short:"Shams"},
   {id:"lst_4290", n:"Alkhaleej Training and Education Co.", s:"consumer_disc", t:2, p:50, short:"4290"},
   {id:"lst_4291", n:"National Company for Learning and Education (NCLE)", s:"consumer_disc", t:2, p:50, short:"4291"},
@@ -225,7 +225,7 @@ const INSTITUTIONS = [
   {id:"lst_6090", n:"Jazan Development Co. (JAZADCO)", s:"consumer_stap", t:2, p:50, short:"6090"},
   {id:"lst_2140", n:"Ayyan Investment Co.", s:"health", t:2, p:50, short:"Ayyan Investment Co."},
   {id:"lst_2230", n:"Saudi Chemical Co.", s:"health", t:2, p:50, short:"Saudi Chemical Co."},
-  {id:"lst_4002", n:"Mouwasat Medical Services Co.", s:"health", t:2, p:50, short:"4002"},
+  {id:"lst_4002", n:"Mouwasat Medical Services Co.", s:"health", t:2, p:60, short:"Mouwasat"},
   {id:"lst_4004", n:"Dallah Healthcare Holding Co.", s:"health", t:2, p:58, short:"4004"},
   {id:"lst_4005", n:"Care National Medical and Rehabilitation Center Co.", s:"health", t:2, p:50, short:"4005"},
   {id:"lst_4007", n:"Al Hammadi Holding Co.", s:"health", t:2, p:50, short:"4007"},
@@ -4312,6 +4312,16 @@ const PEOPLE = [
     ["lst_8210","Chief Operations Officer","executive","v"]]},
   {id:"faisal_sultan", n:"Faisal Sultan", t:2, p:60, s:"consumer_disc", roles:[
     ["lucid","Vice President and Managing Director - Lucid Middle East","executive","v"]]},
+  {id:"anthony_craig_elliott", n:"Anthony Craig Elliott", t:2, p:58, s:"consumer_disc", roles:[
+    ["lst_1830","Chief Operating Officer","executive","ns"]]},
+  {id:"reda_toubar", n:"Reda Toubar", t:2, p:58, s:"consumer_disc", roles:[
+    ["lst_4180","Secretary of the Board and its Committees","executive","ns"]]},
+  {id:"fahad_bin_abdullah_b_b_b", n:"Fahad bin Abdullah Alfarraj", t:2, p:62, s:"gov", roles:[
+    ["eastern_province_chamber","Chairman","board","v"]]},
+  {id:"hamad_al_khaldi", n:"Hamad Al-Khaldi", t:2, p:62, s:"gov", roles:[
+    ["eastern_province_chamber","First Vice Chairman","board","ns"]]},
+  {id:"mohammed_al_majdoui", n:"Mohammed Al-Majdoui", t:2, p:62, s:"gov", roles:[
+    ["eastern_province_chamber","Second Vice Chairman","board","ns"]]},
 ];
 
 const OWNERSHIP = [

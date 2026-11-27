@@ -1790,6 +1790,10 @@ const PEOPLE = [
     ["fuj_media_office","Director","executive","v"]]},
   {id:"abdullah_abdulrahman_al", n:"Abdullah Abdulrahman Al Shamsi", t:2, p:58, s:"utilities", roles:[
     ["sewa","Director-General, Sharjah Electricity, Water and Gas Authority","executive","v"]]},
+  {id:"humaid_rashid_al", n:"Humaid Rashid Al Shamsi", t:2, p:52, s:"gov", roles:[
+    ["uaq_execco","Secretary-General, Umm Al Quwain Executive Council","board","ns"]]},
+  {id:"aisha_dimas", n:"Aisha Dimas", t:2, p:62, s:"gov", roles:[
+    ["epaa","Chairperson, Environment and Protected Areas Authority","board","ns"]]},
 ];
 
 const OWNERSHIP = [
