@@ -1,0 +1,5 @@
+# EDGE strengthens quantum technology capabilities with investment in Australia-based Q-CTRL
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxOSll3TzRJTmpPY0M3MWp5UkhOcDJwM3Zza1NsNjVVQ2o1Wk9OMV8wekJTbUt6ckVpcjY1bWFJV0l2UkhCYk5ZMFJSS0I0SUhJMnFHODE1VjhoemxnVExxVXd2YUswaVBmWm9uenhMckdYQkVfYkJkSHlEeno0Q2FMb0M4RGdjenJrc2JIOG5ZRW9QSS1EQVBkS213TDFkQXFKeTRmWkRpRkFzT3phSjhsZHpBcFBZWm5yZjVoZFJnX3Y2X0Jqekt4SzlQUjhhYm1GQVpQRE9NMGpSQzR2YVJkUHkyWkxMUWc?oc=5
+
+EDGE strengthens quantum technology capabilities with investment in Australia-based Q-CTRL    Zawya

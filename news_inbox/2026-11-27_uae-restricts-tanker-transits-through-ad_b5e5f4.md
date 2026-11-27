@@ -1,0 +1,5 @@
+# UAE restricts tanker transits through ADNOC-PPA waters
+source: Shipping Telegraph
+url: https://news.google.com/rss/articles/CBMimwFBVV95cUxQanBoWjNHVGN2UDZEWGFpQTBRelY3S3lhcFo4WEQzbkdQczBRWU1aa1JhRFk3c3dMdXJKbFRSVEZRNC1Ld1MxcU9kblRFb1YxOUsyOExDWHpXbzlreWM1VUhYSm5fUTNmYzZGTjJpOFNrZllZaTdTNU9lYjNjWHQ4U0pZRVlBY0tZWnpnLXA5dU5UMDdYWWhJZmR3MA?oc=5
+
+UAE restricts tanker transits through ADNOC-PPA waters    Shipping Telegraph

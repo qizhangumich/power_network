@@ -1,0 +1,5 @@
+# ATL Partners Completes Recapitalisation of Arrive Logistics Stake with Mubadala Capital
+source: Machine Maker
+url: https://news.google.com/rss/articles/CBMivgFBVV95cUxPdmJrVGRraWJWZnR3bDFtaXN5bW1wQ05mRHFXdkZYT1l3ODhfVzJYekFoNWlOa0t6ZDZVRHBpNEg5X3dnYkx0U3JaNDdVTXJiZ090SmhKMXVOYW9PN09iVTVnZXo5N0tzX2hYVDJ4a3hIQ08wRUNwcHdVUzhjQ2dUbDYybnlySEpUTUNCVG1BNVl5ZEJKdXdoS0dYdUhrdk5Tek9PNUZ1RUFNUWMyeU9aQy1JNWFxVzE5U1UzNXhR?oc=5
+
+ATL Partners Completes Recapitalisation of Arrive Logistics Stake with Mubadala Capital    Machine Maker

@@ -1,0 +1,5 @@
+# Adnoc finds body of seafarer missing after Strait of Hormuz attack
+source: TradeWinds News
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxNNksxdUFRYnJMQU1HUVJLemRCRHNQNlE5bnhXODlVTlF1UEZkdTVTX2F1Yjg2OEViZzR6Y0NuUlpGdW0yV2JOTnNtRHo4c2J3cGR4akI3REp6VGlUTnlUMzNmZlhCR2xUM0RvRm9XUnRkVll0VUxOQlRQMnc5UVVVU1hqMy1qS1pPS2ZJV1V6cDZqWGRxMVdpWEd3aS01TmdkSWYxVzVqTHBvTkdoeTUtZThn?oc=5
+
+Adnoc finds body of seafarer missing after Strait of Hormuz attack    TradeWinds News
