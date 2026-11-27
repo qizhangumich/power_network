@@ -87,7 +87,7 @@ const INSTITUTIONS = [
   {id:"lst_ncc", n:"National Cement Company", s:"materials", t:2, p:58, short:"NCC"},
   {id:"lst_amlak", n:"Amlak Finance PJSC", s:"finance", t:2, p:58, short:"Amlak Finance"},
   {id:"lst_salama", n:"Islamic Arab Insurance Co. (Salama) PJSC", s:"finance", t:2, p:50, short:"SALAMA"},
-  {id:"lst_ngi", n:"National General Insurance Co. P.J.S.C.", s:"finance", t:2, p:50, short:"NGI"},
+  {id:"lst_ngi", n:"National General Insurance Co. P.J.S.C.", s:"finance", t:2, p:56, short:"NGI"},
   {id:"lst_shuaa", n:"SHUAA Capital PSC", s:"finance", t:2, p:62, short:"SHUAA Capital PSC"},
   {id:"lst_alramz", n:"Al Ramz Corporation Investment and Development P.J.S.C.", s:"finance", t:2, p:50, short:"ALRAMZ"},
   {id:"lst_dsi", n:"Drake and Scull International P.J.S.C.", s:"industry", t:2, p:50, short:"DSI"},
@@ -774,6 +774,7 @@ const PEOPLE = [
   {id:"hassa_balouma", n:"Hassa Balouma", t:2, p:52, s:"comm", roles:[
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
   {id:"matar_alblooshi", n:"Matar AlBlooshi", t:2, p:52, s:"comm", roles:[
+    ["lst_airarabia","Board Member","board","v"],
     ["du","Board Member (Independent Non-Executive)","board","v"]]},
   {id:"khawla_al_mehairi", n:"Khawla Al Mehairi", t:2, p:58, s:"utilities", roles:[
     ["dewa","Executive Vice President of Strategy and Government Communications","executive","v"]]},
@@ -3264,6 +3265,16 @@ const PEOPLE = [
     ["itp_media","Chief Digital Officer","executive","ns"]]},
   {id:"michael_chan", n:"Michael Chan", t:2, p:60, s:"finance", roles:[
     ["zand_bank","Chief Executive Officer","executive","v"]]},
+  {id:"sheikh_khalid_bin", n:"Sheikh Khalid Bin Isam Al Qassimi", t:2, p:52, s:"industry", roles:[
+    ["lst_airarabia","Board Member","board","v"]]},
+  {id:"waleed_ibrahim_al", n:"Waleed Ibrahim Al Sayegh", t:2, p:52, s:"industry", roles:[
+    ["lst_airarabia","Board Member","board","v"]]},
+  {id:"ohoud_ali_al", n:"Ohoud Ali Al Shuhail", t:2, p:52, s:"industry", roles:[
+    ["lst_airarabia","Independent Board Member","board","v"]]},
+  {id:"khan_akhlaq_mohammed", n:"Khan Akhlaq Mohammed", t:2, p:52, s:"industry", roles:[
+    ["lst_airarabia","Independent Board Member","board","v"]]},
+  {id:"amer_waleed_al", n:"Amer Waleed Al Zaabi", t:2, p:60, s:"realestate", roles:[
+    ["tiger","Chief Executive Officer (Tiger Properties","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3315,6 +3326,7 @@ const OWNERSHIP = [
   ["lst_amlak","dfm","listed on DFM","ns"],
   ["lst_salama","dfm","listed on DFM","ns"],
   ["lst_ngi","dfm","listed on DFM","ns"],
+  ["lst_ngi","dubaiinv","~48.3% shareholder","v"],
   ["lst_shuaa","dfm","listed on DFM","ns"],
   ["lst_alramz","dfm","listed on DFM","ns"],
   ["lst_dsi","dfm","listed on DFM","ns"],

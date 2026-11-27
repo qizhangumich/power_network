@@ -2680,6 +2680,8 @@ const PEOPLE = [
     ["barzan","Chief Commercial Officer","executive","v"]]},
   {id:"francois_bourienne", n:"Francois Bourienne", t:2, p:58, s:"industry", roles:[
     ["hia","Vice President Commercial","executive","ns"]]},
+  {id:"sheikh_fahad_bin_b_b_b", n:"Sheikh Fahad bin Hamad bin Saud Al Abdulrahman Al Thani", t:2, p:58, s:"gov", roles:[
+    ["state_audit_bureau","Deputy President of the State Audit Bureau (appointed by Amiri Decree No. 51 of 2021)","executive","v"]]},
 ];
 
 const OWNERSHIP = [

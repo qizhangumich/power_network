@@ -229,7 +229,7 @@ const INSTITUTIONS = [
   {id:"lst_4004", n:"Dallah Healthcare Holding Co.", s:"health", t:2, p:58, short:"4004"},
   {id:"lst_4005", n:"Care National Medical and Rehabilitation Center Co.", s:"health", t:2, p:50, short:"4005"},
   {id:"lst_4007", n:"Al Hammadi Holding Co.", s:"health", t:2, p:50, short:"4007"},
-  {id:"lst_4009", n:"Saudi German Health", s:"health", t:2, p:50, short:"Saudi German Health"},
+  {id:"lst_4009", n:"Saudi German Health", s:"health", t:2, p:58, short:"Saudi German Health"},
   {id:"lst_4014", n:"Middle East Healthcare Co. (Equipment House)", s:"health", t:2, p:50, short:"4014"},
   {id:"lst_4017", n:"Fakeeh Care Group", s:"health", t:2, p:58, short:"Fakeeh Care"},
   {id:"lst_4018", n:"Almoosa Health Co.", s:"health", t:2, p:50, short:"Almoosa Health Co."},
@@ -598,6 +598,9 @@ const INSTITUTIONS = [
   {id:"alinma_capital", n:"Alinma Capital Company", s:"finance", t:3, p:52, short:"Alinma Capital"},
   {id:"adeera", n:"Adeera", s:"consumer_disc", t:3, p:58, short:"Adeera"},
   {id:"aljomaih_energy_and", n:"Aljomaih Energy and Water Company", s:"energy", t:3, p:56, short:"Aljomaih Energy & Wa…"},
+  {id:"makkah_chamber", n:"Makkah Chamber of Commerce and Industry", s:"gov", t:2, p:60, short:"Makkah Chamber"},
+  {id:"eastern_province_chamber", n:"Eastern Province Chamber of Commerce and Industry", s:"gov", t:2, p:58, short:"Eastern Province Cha…"},
+  {id:"madinah_chamber", n:"Madinah Chamber of Commerce and Industry", s:"gov", t:2, p:55, short:"Madinah Chamber"},
 ];
 
 const PEOPLE = [
@@ -633,6 +636,7 @@ const PEOPLE = [
   {id:"alwaleed", n:"Prince Alwaleed bin Talal Al Saud", t:0, p:78, s:"conglomerate", roles:[
     ["kingdomholding","Chairman","board","v"]]},
   {id:"rumayyan", n:"Yasir Al-Rumayyan", t:1, p:92, s:"sovereign", roles:[
+    ["ksia","Board Member (since 2022)","board","v"],
     ["qiddiya_investment","Board Member, Governor of the Public Investment Fund","board","v"],
     ["maaden","Chairman","board","v"],
     ["sanabil","Chairman","board","v"],
@@ -1254,6 +1258,7 @@ const PEOPLE = [
   {id:"dr_mahmoud_alyamani", n:"Dr Mahmoud Alyamani", t:2, p:58, s:"realestate", roles:[
     ["neom","Health and Wellbeing Sector Head","executive","v"]]},
   {id:"nader_ashoor", n:"Nader Ashoor", t:2, p:58, s:"realestate", roles:[
+    ["lst_8210","Board Member","board","v"],
     ["neom","Chief Financial and Strategy Officer","executive","v"]]},
   {id:"denis_hickey", n:"Denis Hickey", t:2, p:58, s:"realestate", roles:[
     ["neom","Chief Development Officer","executive","v"]]},
@@ -1524,6 +1529,7 @@ const PEOPLE = [
   {id:"mazin_abdulrazzak_alromaih", n:"Mazin Abdulrazzak AlRomaih", t:2, p:62, s:"finance", roles:[
     ["lst_1050","Chairman","board","v"]]},
   {id:"talal_ibrahim_al", n:"Talal Ibrahim Al Maiman", t:2, p:62, s:"finance", roles:[
+    ["lst_4264","Vice Chairman (Non-Executive)","board","v"],
     ["lst_1050","Vice Chairman","board","v"]]},
   {id:"abdulrahman_rashed_al", n:"Abdulrahman Rashed Al-Rashed", t:2, p:52, s:"finance", roles:[
     ["lst_1050","Board Member","board","v"]]},
@@ -2148,6 +2154,7 @@ const PEOPLE = [
   {id:"tharwat_amer", n:"Tharwat Amer", t:2, p:58, s:"finance", roles:[
     ["sedco","Chief Financial Officer","executive","v"]]},
   {id:"ossama_a_banaja", n:"Ossama A. Banaja", t:2, p:58, s:"finance", roles:[
+    ["lst_8210","Board Member","board","v"],
     ["sedco","Chief Investments Officer","executive","v"]]},
   {id:"abdullah_saleh_ali", n:"Abdullah Saleh Ali Al-Othaim", t:2, p:62, s:"consumer_stap", roles:[
     ["al_othaim","Chairman of the Board","board","v"]]},
@@ -2518,6 +2525,7 @@ const PEOPLE = [
   {id:"omar_alrejraje", n:"Omar Alrejraje", t:2, p:58, s:"gov", roles:[
     ["cst","Deputy Governor for Regulation and Competition","executive","ns"]]},
   {id:"abdullah_saleh_kamel", n:"Abdullah Saleh Kamel", t:2, p:62, s:"gov", roles:[
+    ["makkah_chamber","Chairman of the Board of Directors (re-elected","board","ns"],
     ["dallah_al_baraka","Chairman","board","ns"],
     ["fsc","Chairman","board","v"]]},
   {id:"emad_sadad_alfakhri", n:"Emad Sadad Alfakhri", t:2, p:62, s:"gov", roles:[
@@ -2537,6 +2545,7 @@ const PEOPLE = [
   {id:"mohammed_abdulaziz_al", n:"Mohammed Abdulaziz Al-Afaleq", t:2, p:52, s:"gov", roles:[
     ["fsc","Board Member","board","v"]]},
   {id:"mazen_ibrahim_rajab", n:"Mazen Ibrahim Rajab", t:2, p:52, s:"gov", roles:[
+    ["madinah_chamber","Chairman","board","v"],
     ["fsc","Board Member","board","v"]]},
   {id:"jalawi_mohammed_al", n:"Jalawi Mohammed Al-Karkman", t:2, p:52, s:"gov", roles:[
     ["fsc","Board Member","board","v"]]},
@@ -2994,6 +3003,12 @@ const PEOPLE = [
     ["rawabi","Group Finance Director and Controller","executive","v"]]},
   {id:"makarem_sobhi_batterjee", n:"Makarem Sobhi Batterjee", t:2, p:62, s:"health", roles:[
     ["bait_al_batterjee","Chairman / President","board","ns"]]},
+  {id:"abdulaziz_hashim_al_anazi", n:"Abdulaziz Hashim Al-Anazi", t:2, p:62, s:"health", roles:[
+    ["lst_4009","Chairman","board","v"]]},
+  {id:"ahmad_abdullah_alali", n:"Ahmad Abdullah Alali", t:2, p:58, s:"health", roles:[
+    ["lst_4009","Vice Chairman (Independent)","board","v"]]},
+  {id:"nezar_bahabri", n:"Nezar Bahabri", t:2, p:60, s:"health", roles:[
+    ["lst_4009","Chief Executive Officer","executive","v"]]},
   {id:"edward_o_byrne", n:"Edward O'Byrne", t:2, p:60, s:"finance", roles:[
     ["avilease","Chief Executive Officer","executive","ns"]]},
   {id:"keith_downey", n:"Keith Downey", t:2, p:46, s:"finance", roles:[
@@ -4281,6 +4296,22 @@ const PEOPLE = [
     ["dar_al_hekma","University President","executive","v"]]},
   {id:"emad_bin_saleh", n:"Emad bin Saleh Al-Kharashi", t:2, p:62, s:"gov", roles:[
     ["awqaf_authority","Vice Chairman of the Board / Governor of the Authority","executive","v"]]},
+  {id:"oliver_hughes", n:"Oliver Hughes", t:2, p:52, s:"finance", roles:[
+    ["tabby","Non-Executive Board Member","board","v"]]},
+  {id:"hamza_bahieldin_alkholi", n:"Hamza Bahieldin Alkholi", t:2, p:52, s:"industry", roles:[
+    ["lst_4264","Board Member","board","v"]]},
+  {id:"saad_ibrahim_almousa", n:"Saad Ibrahim Almousa", t:2, p:52, s:"industry", roles:[
+    ["lst_4264","Board Member","board","v"]]},
+  {id:"saleh_abdullah_alhenaki", n:"Saleh Abdullah Alhenaki", t:2, p:52, s:"industry", roles:[
+    ["lst_4264","Board Member","board","v"]]},
+  {id:"david_fletcher", n:"David Fletcher", t:2, p:62, s:"finance", roles:[
+    ["lst_8210","Vice Chairman","board","v"]]},
+  {id:"hatim_jamal", n:"Hatim Jamal", t:2, p:58, s:"finance", roles:[
+    ["lst_8210","Chief Financial Officer","executive","v"]]},
+  {id:"ryyan_tarabzoni", n:"Ryyan Tarabzoni", t:2, p:58, s:"finance", roles:[
+    ["lst_8210","Chief Operations Officer","executive","v"]]},
+  {id:"faisal_sultan", n:"Faisal Sultan", t:2, p:60, s:"consumer_disc", roles:[
+    ["lucid","Vice President and Managing Director - Lucid Middle East","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -4886,4 +4917,7 @@ const AKA = {
   al_rajhi_capital:["ARC"],
   alinma_capital:["Alinma Investment","Alinma Investment Company"],
   aljomaih_energy_and:["AEWC"],
+  makkah_chamber:["MCCI"],
+  eastern_province_chamber:["Asharqia Chamber","EPCCI"],
+  madinah_chamber:["Al Madinah Chamber"],
 };

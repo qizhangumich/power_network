@@ -70,7 +70,7 @@ const INSTITUTIONS = [
   {id:"lst_dutyf", n:"Bahrain Duty Free Shop Complex B.S.C.", s:"consumer_disc", t:2, p:56, short:"DUTYF"},
   {id:"lst_bcfc", n:"Bahrain Commercial Facilities Company B.S.C.", s:"finance", t:2, p:58, short:"BCFC"},
   {id:"lst_zainbh", n:"Zain Bahrain B.S.C.", s:"comm", t:2, p:62, short:"Zain Bahrain"},
-  {id:"lst_inovest", n:"Inovest B.S.C.", s:"finance", t:2, p:50, short:"Inovest B.S.C."},
+  {id:"lst_inovest", n:"Inovest B.S.C.", s:"finance", t:2, p:54, short:"Inovest"},
   {id:"lst_esterad", n:"Esterad Investment Company B.S.C.", s:"finance", t:2, p:50, short:"ESTERAD"},
   {id:"lst_nhotel", n:"National Hotels Company B.S.C.", s:"consumer_disc", t:2, p:53, short:"NHOTEL"},
   {id:"lst_ithmr", n:"Ithmaar Holding B.S.C.", s:"finance", t:2, p:62, short:"Ithmaar"},
@@ -230,6 +230,7 @@ const INSTITUTIONS = [
 
 const PEOPLE = [
   {id:"kinghamad", n:"King Hamad bin Isa Al Khalifa", t:0, p:100, s:"gov", roles:[
+    ["judicial_council","Chairman (ex officio under the Judicial Authority Law)","board","ns"],
     ["bhgov","King of Bahrain","political","v"]]},
   {id:"salman_cp", n:"Crown Prince Salman bin Hamad Al Khalifa", t:0, p:96, s:"gov", roles:[
     ["bhgov","Crown Prince","political","v"],
@@ -3865,6 +3866,10 @@ const PEOPLE = [
     ["gulf_university","Chairperson of the Board of Trustees and Board of Directors","board","ns"]]},
   {id:"mohanned_al_ani", n:"Mohanned Al-Ani", t:2, p:62, s:"education", roles:[
     ["gulf_university","Vice Chairman of the Board","board","ns"]]},
+  {id:"mohammed_bin_isa", n:"Mohammed bin Isa Al Khalifa", t:2, p:52, s:"gov", roles:[
+    ["national_guard","Commander of the National Guard","board","ns"]]},
+  {id:"ali_bin_fadhul", n:"Ali bin Fadhul Al Buainain", t:2, p:52, s:"gov", roles:[
+    ["public_prosecution","Attorney General","board","ns"]]},
 ];
 
 const OWNERSHIP = [

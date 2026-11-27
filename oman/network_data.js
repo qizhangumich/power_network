@@ -91,7 +91,7 @@ const INSTITUTIONS = [
   {id:"lst_ords_om", n:"Omani Qatari Telecommunications Company SAOG (Ooredoo)", s:"comm", t:2, p:62, short:"Ooredoo Oman"},
   {id:"lst_sihc", n:"A'Sharqiya Investment Holding Co. SAOG", s:"finance", t:2, p:50, short:"SIHC"},
   {id:"lst_brde", n:"Barka Desalination Company SAOG", s:"utilities", t:2, p:50, short:"BRDE"},
-  {id:"lst_abrj", n:"Abraj Energy Services SAOG", s:"energy", t:2, p:50, short:"ABRJ"},
+  {id:"lst_abrj", n:"Abraj Energy Services SAOG", s:"energy", t:2, p:60, short:"Abraj Energy"},
   {id:"lst_oqgn", n:"OQ Gas Networks SAOG", s:"utilities", t:2, p:66, short:"OQGN"},
   {id:"lst_oqep", n:"OQ Exploration and Production SAOG", s:"energy", t:2, p:64, short:"OQEP"},
   {id:"lst_oqbi", n:"OQ Base Industries (SFZ) SAOG", s:"materials", t:2, p:50, short:"OQBI"},
@@ -2238,6 +2238,8 @@ const PEOPLE = [
     ["lst_cmii","Director","board","v"]]},
   {id:"bassam_attia_masarwa", n:"Bassam Attia Masarwa", t:2, p:52, s:"materials", roles:[
     ["lst_cmii","Director","board","v"]]},
+  {id:"munther_bin_hilal_b", n:"Munther bin Hilal Al Busaidi", t:2, p:46, s:"gov", roles:[
+    ["vision_2040_unit","Deputy Head of the Oman Vision 2040 Implementation Support Unit","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2245,6 +2247,7 @@ const OWNERSHIP = [
   ["lst_oqgn","oq","majority shareholder"],
   ["lst_oqep","oq","majority shareholder","ns"],
   ["lst_bkdb","lst_didi","anchor shareholder","ns"],
+  ["lst_batp","lst_suwp","proposed merger of the two Barka/Sohar IPPs - FSA in-principle approval (Sep 2026) + lender no-objection on refinancing (Oct 2026), still awaiting APSR approval as of late Nov 2026, not yet closed","ns"],
   ["com_om","omgov","governs under"],
   ["mof_om","com_om"],["mofa_om","com_om"],["moci_om","com_om"],
   ["moem_om","com_om"],["moin_om","com_om"],["mtcit_om","com_om"],["moh_om","com_om"],["moht_om","com_om"],

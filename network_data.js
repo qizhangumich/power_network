@@ -5204,6 +5204,9 @@ const PEOPLE = [
   {id:"andrew_pickersgill", n:"Andrew Pickersgill", t:2, p:62, s:"industry", roles:[
     ["mckinsey","Chair of the Shareholders Council (Board Chair)","board","v"],
     ]},
+  {id:"long_ruan", n:"Long Ruan", t:2, p:60, s:"tech", roles:[
+    ["astra_tech","Co-Founder & Chief Technology Officer (served as interim CEO Nov 2024-2025)","executive","ns"],
+    ]},
 ];
 
 const OWNERSHIP = [
