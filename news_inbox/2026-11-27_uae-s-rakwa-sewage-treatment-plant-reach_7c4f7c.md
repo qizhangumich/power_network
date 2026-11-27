@@ -1,0 +1,5 @@
+# UAE’s RAKWA Sewage Treatment Plant Reaches $326 Million Financial Close
+source: SaudiGulf Projects
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxQRWFGMzZYa25QRmJLZElQRHltd0h4VDAySnIwYS1OMVRfV1FfTE9tQXdpcjRvMmgxWUNnR3l5S01QRURrZ0E4eVRua1hNclIxM0NINUNBMW5IdmppdFQtRjJPMFVXQTVlZWViaHJLZWNWUXVxVmVEZ0Jpbll0a3I3dU82OUpPdmtXUVNZUEJKR1k1UHkxRDhLRlRnOXB6ZExmNzhtVEx5akhJN0FIZ21jTy1SWU5PQQ?oc=5
+
+UAE’s RAKWA Sewage Treatment Plant Reaches $326 Million Financial Close    SaudiGulf Projects

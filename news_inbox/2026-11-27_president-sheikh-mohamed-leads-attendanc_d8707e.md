@@ -1,0 +1,5 @@
+# President Sheikh Mohamed leads attendance at Adnoc’s Eid Al Etihad celebration
+source: thenationalnews.com
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUTY1b3U0UjZvcUZNT1E2MTBJekF5TVdheGxGT0Z6Tm10VE9BaVN1UXNydEFEWklXY0dmUlVfYjVJRWZwWDIzLWNGZUt3NjhDTzVyZzBURFRGX2JtcFBPUmZfTnJfQTFnb2J5ZHlFRVFPazZsTUlBYkRRdHZnUlROMEhtMWhsb0gwREY2RmNTTjk5MXNDem1ENThwU0lVNUtzZ3VpYnJNS2NwVTVyajRKdmQzRWhTa1hIcnoyVldtWTF1NzQ?oc=5
+
+President Sheikh Mohamed leads attendance at Adnoc’s Eid Al Etihad celebration    thenationalnews.com

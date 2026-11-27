@@ -1,0 +1,5 @@
+# PureHealth and WHOOP partner to bring wearable health insights into clinical care through Pura
+source: Zawya
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPN1JieTVscHpmOExfU1dqUHJ4QVpya05tM0RDNllKd3RXUV9RM0NGSnpTVHphU0NwQzU1ODVkdk1QUTQxSTFnYmEyT3Jaa0g3b2I4Qm1oR0l4bGF5ZW5aQTI4U3dVb01aNHJtUjc2OE44VUNrUUtGczh0anJFV09KdlYyamN2THg3dUJfUlhURkZLQlZjSUZ4N1JHNXhaV0pveWZ1NFAwRFhmRG5jWXBEOFRyaWw5dVZJbkNUUHBtOFpNeWpLQWw3RUFUd2VQM25IMkc3T3NQeWM?oc=5
+
+PureHealth and WHOOP partner to bring wearable health insights into clinical care through Pura    Zawya

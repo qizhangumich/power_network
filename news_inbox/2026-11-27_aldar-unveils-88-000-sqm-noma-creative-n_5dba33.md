@@ -1,0 +1,5 @@
+# Aldar unveils 88,000 sqm NOMA creative neighbourhood in Abu Dhabi’s Saadiyat Cultural District
+source: PropNewsTime
+url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUmg0c0VER0FlcGtlY2RYNFpYV3U5X0tiRmZtbzJxQU1XeG1VRWFiZl9ORmZhaFJVTFVVRVRGNVNYTW44NVBPOXE3R19IZktkWHFQcnZQUzV5RW5PSmRCTng0UDdzdThvUjFPTWdnNXhubmZ4b1d1cHc3TUxvdkdvYnh6UEFYUGVBeUVxdDNKdXkyOHNGbUNKXzY1NzAyTDF4dktqQjRKeVFwVmdCZGZmVkhPaHh4QUNOUk1jZmJoMUEzbUQ4MHNmOUpiOE4xemt0bUZmNkY3d2FzX0w4d0d3?oc=5
+
+Aldar unveils 88,000 sqm NOMA creative neighbourhood in Abu Dhabi’s Saadiyat Cultural District    PropNewsTime

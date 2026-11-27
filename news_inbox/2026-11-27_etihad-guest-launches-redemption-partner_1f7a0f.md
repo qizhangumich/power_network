@@ -1,0 +1,5 @@
+# Etihad Guest launches redemption partnership with Maldivian
+source: Biz Today
+url: https://news.google.com/rss/articles/CBMingFBVV95cUxNU0JWWUFMZXJ6SmF4b0xIcjNtVGtZbWVDell6MEl6T3VFcE1GT090bEYtREc5Y2hGUm90X3QwZWpVY3UwaEFuY2UtbE5SZEY1eTg1X3JMZUNjcHhLSEkteFpzWFpSdnZSTUR4MDNJcnRBWm44emYtVm5mdlhoVXJwUENoZjlrMjVLSEpZVGFhM2k3U2Z4VHVHcVJoQlI5Zw?oc=5
+
+Etihad Guest launches redemption partnership with Maldivian    Biz Today

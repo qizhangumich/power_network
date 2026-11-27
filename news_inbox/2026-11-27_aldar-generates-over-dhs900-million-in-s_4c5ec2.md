@@ -1,0 +1,5 @@
+# Aldar generates over Dhs900 million in sales at launch of The Canopies Sanctuary
+source: Gulf Today
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTXlmTXphU1VNMDhOZlRsRjlWeGwycEFHUFlKa2d4TkJyM2pCdTUwSWtPcUMydzg5RDViVnhXczdjUW90aXFlNTFaQmx1dXloMG5QLWljcmFyU3JQSFFQVTl5UFhlbmZySFVRQm93cHRDOVpGQ0VGa3o5SFh1QWpuR3FOckVUNjU4Yy11UF9yaVFjSTJtakh4N0Fkc2JCalBIRlp4U0pxWGVzbERucUw3QmlEYlhFYUJTc2FIMzNnd1NENkU?oc=5
+
+Aldar generates over Dhs900 million in sales at launch of The Canopies Sanctuary    Gulf Today

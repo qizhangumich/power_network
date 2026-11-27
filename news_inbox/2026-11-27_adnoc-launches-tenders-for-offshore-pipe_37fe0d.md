@@ -1,0 +1,5 @@
+# Adnoc launches tenders for offshore pipeline to bypass Strait of Hormuz
+source: Upstream Online
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxQcGt1bnJQbjM2d1g4cnhoTXo0cFBGVDRfbjkwV2ctNXlTWEVIYzlkR0FYZDhrTnBZTU5mV1hReXZBbkpvVVl6eWE2aEZOb0lyalBBYWxLOUhfc0hXOW4xdU5XRk5tcTkxbGhMWFZmVXFhY2VQbVZfNjN4UlpxSklqZUtoODdmdlllM1VnMGx3Y3ZHc25BV0YzcHlmd2NVdzYxZk1zSzNNb2hZbGx4ZERQeHNkUC1PaVFpTV8xLXAtczZ6dUNuZUdmdGpaTHg?oc=5
+
+Adnoc launches tenders for offshore pipeline to bypass Strait of Hormuz    Upstream Online

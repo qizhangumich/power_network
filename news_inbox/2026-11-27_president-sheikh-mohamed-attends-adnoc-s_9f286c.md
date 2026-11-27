@@ -1,0 +1,5 @@
+# President Sheikh Mohamed attends Adnoc's Eid Al Etihad celebrations
+source: The National
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRWVMSUxERlp4SXE1dm5TUlBVVVlsRHZjcTZ6UnJ1RUtmMXhBWEgwYUNLWHFSTWJRcktnempIdDRXTlFLRk1QX3FJcmxQbmpOQ3Z0S1pRUnB1NG53RXBlcFpXek5FTnBNMmFlWE5pLVJVYUpOWDAwblJ3U19MaDRpZV9UYjJncWh2YnVySHRTaGhaWGk3Tm56Qm5PX1BYT2s3OFd0TEFCNm1BRFhQeHdiOUNWcGs0dHYzb2lF?oc=5
+
+President Sheikh Mohamed attends Adnoc's Eid Al Etihad celebrations    The National

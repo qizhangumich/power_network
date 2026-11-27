@@ -1,0 +1,5 @@
+# Aldar generates more than Dh900 million in home sales from Yas Island project
+source: The National
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdGpKR244aW9OMTl4MVEyUmFmVllMZlZtdjFSd1ByVGpVRFVmOUQta0ViQ3NIbHkxVWxBSnRCN2FfcDBzZDdtVktLXy1xVFNJT2JOZi03czRDcTJydU5jUUlJdHpsalNPaHoxbm5hNUp3UzZCM1NnUXZqUWNvTlU3c0JQRGRSTUxtZnFhdjNtOXVteU1mTjRGYlZPaFU3c0NjUVBzLWxZT3dMRjJxd2tSQWhuYU50WWl2SVFUZ2VuRUVrMHNDaWZ4aHdhb183Q3FDTjk4Uzdn?oc=5
+
+Aldar generates more than Dh900 million in home sales from Yas Island project    The National
