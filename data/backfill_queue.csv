@@ -1,19 +1,19 @@
 ﻿region,institution_id,name,sector,power,people_linked,status
 kuwait,national_assembly,National Assembly,gov,72,0,skip
-bahrain,defence_affairs,Ministry of Defence Affairs,gov,66,1,pending
-bahrain,national_guard,National Guard,gov,66,1,pending
-qatar,sjc,Supreme Judiciary Council,gov,66,1,pending
-bahrain,judicial_council,Supreme Judicial Council,gov,64,1,pending
-qatar,eni,Eni,energy,64,0,pending
+bahrain,defence_affairs,Ministry of Defence Affairs,gov,66,1,done
+bahrain,national_guard,National Guard,gov,66,1,done
+qatar,sjc,Supreme Judiciary Council,gov,66,1,skip
+bahrain,judicial_council,Supreme Judicial Council,gov,64,1,done
+qatar,eni,Eni,energy,64,0,skip
 saudi,psmmc,Prince Sultan Military Medical City,health,64,0,pending
 abudhabi,omv,OMV,energy,62,0,pending
 abudhabi,moelis,Moelis & Company,finance,62,0,pending
 abudhabi,globalfoundries,GlobalFoundries,tech,62,0,pending
-bahrain,min_social_dev,Ministry of Social Development,gov,62,1,pending
+bahrain,min_social_dev,Ministry of Social Development,gov,62,1,done
 kuwait,part_kuwait,Public Authority for Roads and Transportation (abolished Dec 2025 — departments transferred to Ministry of Public Works & Ministry of Interior per Amiri Decree),industry,62,0,skip
 qatar,psa_qatar,Planning and Statistics Authority,gov,62,0,skip
 qatar,qe_renewables,QatarEnergy Renewable Solutions,energy,62,0,skip
-saudi,lucid,"Lucid Group, Inc.",consumer_disc,62,1,pending
+saudi,lucid,"Lucid Group, Inc.",consumer_disc,62,1,skip
 abudhabi,cerebras,Cerebras Systems,tech,60,0,pending
 abudhabi,oxy,Occidental Petroleum,energy,60,0,pending
 abudhabi,rothschildco,Rothschild & Co,finance,60,0,pending
@@ -22,13 +22,13 @@ abudhabi,cepsa_moeve,Cepsa (Moeve),energy,60,0,pending
 abudhabi,louis_dreyfus,Louis Dreyfus Company,consumer_stap,60,0,pending
 abudhabi,fortress,Fortress Investment Group,finance,60,0,pending
 abudhabi,bayanat_ai,Bayanat AI,tech,60,1,pending
-bahrain,public_prosecution,Public Prosecution,gov,60,1,pending
+bahrain,public_prosecution,Public Prosecution,gov,60,1,done
 dubai,aither,Aither,tech,60,0,pending
 dubai,nfpc,National Food Products Company,consumer_stap,60,1,pending
 kuwait,min_social_affairs,Ministry of Social Affairs,gov,60,1,pending
 qatar,sinopec,Sinopec,energy,60,0,pending
-qatar,ras_laffan_petrochem,Ras Laffan Petrochemicals Company,materials,60,1,pending
-qatar,qatarenergy_trading,QatarEnergy Trading LLC,energy,60,1,pending
+qatar,ras_laffan_petrochem,Ras Laffan Petrochemicals Company,materials,60,1,skip
+qatar,qatarenergy_trading,QatarEnergy Trading LLC,energy,60,1,skip
 saudi,fas,Saudi FAS Holding Company,consumer_disc,60,0,pending
 saudi,maaden_aluminium,Ma'aden Aluminium Company,materials,60,1,pending
 saudi,kkh_al_majmaah,King Khalid Hospital - Al Majma'ah,health,60,1,pending

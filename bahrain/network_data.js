@@ -2852,7 +2852,7 @@ const PEOPLE = [
   {id:"aymen_bin_tawfiq", n:"Aymen bin Tawfiq Almoayyed", t:2, p:58, s:"gov", roles:[
     ["cabinet_bh","Minister of Youth and Sports Affairs","executive","v"]]},
   {id:"osama_bin_ahmed", n:"Osama bin Ahmed Khalaf Al Asfoor", t:2, p:58, s:"gov", roles:[
-    ["cabinet_bh","Minister of Social Development","executive","v"]]},
+    ["cabinet_bh","Minister of Social Development (2022-Nov 2024)","executive","v","former:until Nov 2024"]]},
   {id:"ezz_ahmed_almannai", n:"Ezz Ahmed Almannai", t:2, p:58, s:"energy", roles:[
     ["moo_bh","Undersecretary","executive","v"]]},
   {id:"mariam_isa_awadh", n:"Mariam Isa Awadh", t:2, p:58, s:"energy", roles:[
