@@ -784,7 +784,7 @@ const PEOPLE = [
     ["ghassan_aboud_grp","Founder and Chairman","executive","ns"]]},
   {id:"abdul_wahab_al", n:"Abdul Wahab Al-Halabi", t:2, p:62, s:"consumer_stap", roles:[
     ["emirates_health_svcs","Board Member","board","v"],
-    ["iffco","Executive Chairman","board","ns"]]},
+    ["iffco","Executive Chairman","board","v"]]},
   {id:"saud_salim_al", n:"Saud Salim Al Mazrouei", t:2, p:58, s:"gov", roles:[
     ["hfza","Director","executive","v"],
     ["saif_zone","Director","executive","v"]]},
@@ -1083,9 +1083,9 @@ const PEOPLE = [
   {id:"anil_d_cruz", n:"Anil D'Cruz", t:2, p:52, s:"education", roles:[
     ["gulf_medical_univ","Board of Trustees Member","board","v"]]},
   {id:"manda_venkatramana", n:"Manda Venkatramana", t:2, p:58, s:"education", roles:[
-    ["gulf_medical_univ","Chancellor","executive","ns"]]},
+    ["gulf_medical_univ","Chancellor","executive","v"]]},
   {id:"hesham_marei", n:"Hesham Marei", t:2, p:58, s:"education", roles:[
-    ["gulf_medical_univ","Vice Chancellor Academics","executive","ns"]]},
+    ["gulf_medical_univ","Acting Vice Chancellor Academics; Dean, College of Dentistry","executive","v"]]},
   {id:"ateeq_abdul_aziz", n:"Ateeq Abdul Aziz Jaka Al Mansouri", t:2, p:52, s:"education", roles:[
     ["aurak","Board of Trustees Member","board","v"]]},
   {id:"winfred_thompson", n:"Winfred Thompson", t:2, p:52, s:"education", roles:[
@@ -1808,6 +1808,10 @@ const PEOPLE = [
     ["rak_transport_auth","Board Member","board","v"]]},
   {id:"seung_yong_jeong", n:"Seung-Yong Jeong", t:2, p:60, s:"health", roles:[
     ["khalifa_hosp_rak","Chief Executive Officer","executive","v"]]},
+  {id:"muna_al_ayyan", n:"Muna Al Ayyan", t:2, p:58, s:"health", roles:[
+    ["saqr_hospital","Director","executive","v"]]},
+  {id:"afraa_salem_al", n:"Afraa Salem Al-Dous", t:2, p:58, s:"health", roles:[
+    ["kuwait_hospital_shj","Director","executive","v"]]},
 ];
 
 const OWNERSHIP = [

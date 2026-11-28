@@ -97,7 +97,7 @@ saudi,adeera,Adeera,consumer_disc,58,0,pending
 saudi,psau,Prince Sattam bin Abdulaziz University,education,58,1,pending
 abudhabi,lst_emobility,Emirates Mobility Company PJSC,industry,57,1,pending
 abudhabi,lst_hayah,Hayah Insurance Company PJSC,finance,57,0,pending
-bahrain,sbpc,Saudi Bahrain Pipeline Company,energy,57,0,pending
+bahrain,sbpc,Saudi Bahrain Pipeline Company,energy,57,0,skip
 qatar,al_muftah,Al Muftah Group,conglomerate,57,1,pending
 saudi,lst_4003,United Electronics Co. (eXtra),consumer_disc,57,0,pending
 saudi,alturki,Alturki Holding,conglomerate,57,0,pending
@@ -108,9 +108,9 @@ abudhabi,inpex,INPEX (JODCO),energy,56,0,pending
 abudhabi,accenture,Accenture Middle East,industry,56,0,pending
 abudhabi,al_nasser,Al Nasser Holdings,industry,56,1,pending
 abudhabi,q_2,Q Holding,finance,56,0,pending
-abudhabi,bin_butti_intl,Bin Butti International Holdings,conglomerate,56,0,pending
+abudhabi,bin_butti_intl,Bin Butti International Holdings,conglomerate,56,0,skip
 abudhabi,masdar_americas,Masdar Americas,utilities,56,1,pending
-abudhabi,fatima_college,Fatima College of Health Sciences,education,56,0,pending
+abudhabi,fatima_college,Fatima College of Health Sciences,education,56,0,skip
 abudhabi,e_enterprise,e& enterprise,tech,56,1,pending
 abudhabi,halcon,Halcon,industry,56,1,pending
 abudhabi,image_nation_ad,Image Nation Abu Dhabi,comm,56,1,pending
@@ -127,12 +127,10 @@ northern,sharjah_sust_city,Sharjah Sustainable City,realestate,56,1,pending
 northern,air_arabia_egypt,Air Arabia Egypt,industry,56,0,pending
 northern,planet_pharmacies,Planet Pharmacies,health,56,0,pending
 northern,skhf,Sheikh Khalifa Hospital Fujairah,health,56,1,pending
-northern,saqr_hospital,Saqr Hospital,health,56,1,pending
 northern,obaidullah_hosp,Ibrahim Bin Hamad Obaidullah Hospital,health,56,0,pending
-northern,kuwait_hospital_shj,Kuwait Hospital Sharjah,health,56,1,pending
 northern,arab_heavy_industries,Arab Heavy Industries PJSC,industry,56,0,pending
 northern,sharjah_art_fdn,Sharjah Art Foundation,gov,56,1,pending
-oman,armed_forces_hosp,Armed Forces Hospital,health,56,0,pending
+oman,armed_forces_hosp,Armed Forces Hospital,health,56,0,skip
 qatar,qas,Qatar Aviation Services,industry,56,1,pending
 qatar,laffan_refinery,Laffan Refinery Company,energy,56,1,pending
 qatar,lusail_real_estate,Lusail Real Estate Development Company,realestate,56,0,pending
@@ -177,7 +175,7 @@ dubai,al_ghurair_dev,Al Ghurair Development,realestate,55,1,pending
 northern,rak_minerals,RAK Minerals and Metals Investments LLC,materials,55,0,pending
 oman,mawarid_green,Mawarid Green Technologies,industry,55,1,pending
 oman,al_nahdha_hospital,Al Nahdha Hospital,health,55,1,pending
-oman,oman_rail,Oman Rail Company,industry,55,0,pending
+oman,oman_rail,Oman Rail Company,industry,55,0,skip
 saudi,al_othman,Al Othman Holding,conglomerate,55,0,pending
 saudi,bsf_capital,BSF Capital,finance,55,0,pending
 saudi,solutions_by_stc,Specialized Business Solutions Company,tech,55,1,pending
@@ -199,9 +197,8 @@ abudhabi,fab_islamic_fin,First Abu Dhabi Islamic Finance,finance,54,0,pending
 abudhabi,fab_private_bank,FAB Private Bank (Suisse) SA,finance,54,0,pending
 abudhabi,mannesmann_energy,Mannesmann Energy LLC,energy,54,1,pending
 bahrain,gulf_handling,Gulf Handling Company,industry,54,0,pending
-bahrain,aleastur,"Aleastur (Asturiana de Aleaciones, S.A.)",materials,54,0,pending
+bahrain,aleastur,"Aleastur (Asturiana de Aleaciones, S.A.)",materials,54,1,pending
 bahrain,insead,INSEAD,education,54,0,pending
-bahrain,arc_wh,Arab Regional Centre for World Heritage,gov,54,1,pending
 dubai,dubai_asset_mgmt,Dubai Holding Asset Management,realestate,54,1,pending
 dubai,dh_entertainment,Dubai Holding Entertainment,consumer_disc,54,1,pending
 dubai,mbr_housing,Mohammed Bin Rashid Housing Establishment,gov,54,1,pending
@@ -248,7 +245,7 @@ northern,omran_properties,Omran Properties,realestate,54,0,pending
 northern,gulf_today,Gulf Today,comm,54,0,pending
 oman,marsa_lng,Marsa LNG,energy,54,1,pending
 oman,insead,INSEAD,education,54,0,pending
-oman,oman_jordan_inv,Omani-Jordanian Investment Company,finance,54,0,pending
+oman,oman_jordan_inv,Omani-Jordanian Investment Company,finance,54,0,skip
 oman,al_roya,Al Roya,comm,54,1,pending
 oman,al_masarra_hospital,Al Masarra Hospital,health,54,1,pending
 qatar,insead,INSEAD,education,54,0,pending
@@ -301,7 +298,6 @@ abudhabi,emirates_policy_ctr,Emirates Policy Center,gov,52,0,pending
 abudhabi,q_mobility,Q Mobility LLC,industry,52,0,pending
 abudhabi,danat_al_emarat,Danat Al Emarat Hospital for Women & Children,health,52,1,pending
 abudhabi,healthpoint,Healthpoint Hospital,health,52,1,pending
-bahrain,bahrain_golf_course,Bahrain International Golf Course Company,consumer_disc,52,1,pending
 bahrain,premo,Premo Group,industry,52,1,pending
 bahrain,al_dana_theatre,Beyon Al Dana Amphitheatre,consumer_disc,52,0,pending
 bahrain,balexco,Bahrain Aluminium Extrusion Co.,materials,52,1,pending
@@ -341,8 +337,8 @@ northern,ajman_hr_dept,Ajman Human Resources Department,gov,52,1,pending
 oman,al_murooj_dairy,Al Murooj Dairy,consumer_stap,52,1,pending
 oman,national_feed,Oman National Livestock Company,consumer_stap,52,0,pending
 oman,nakheel_oman_dev,Nakheel Oman Development Company,consumer_stap,52,0,pending
-oman,natl_vet_vaccines,National Veterinary Vaccines Company,health,52,0,pending
-oman,sur_industrial_city,Sur Industrial City,industry,52,0,pending
+oman,natl_vet_vaccines,National Veterinary Vaccines Company,health,52,1,pending
+oman,sur_industrial_city,Sur Industrial City,industry,52,1,pending
 oman,oman_news_agency,Oman News Agency,comm,52,1,pending
 oman,natl_omani_hosp,National Omani Hospitality Company,consumer_disc,52,0,pending
 oman,pld_space,PLD Space,tech,52,0,pending

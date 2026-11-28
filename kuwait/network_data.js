@@ -77,7 +77,7 @@ const INSTITUTIONS = [
   {id:"lst_humansoft", n:"Human Soft Holding", s:"industry", t:2, p:58, short:"Human Soft Hldg"},
   {id:"lst_ifahr", n:"IFA Hotels and Resorts", s:"consumer_disc", t:2, p:54, short:"IFAHR"},
   {id:"lst_cgc", n:"Combined Group Contracting KSCP", s:"industry", t:2, p:58, short:"CGC"},
-  {id:"lst_oulafuel", n:"Oula Fuel Marketing Company K.S.C.P.", s:"consumer_disc", t:2, p:58, short:"Oula Fuel"},
+  {id:"lst_oulafuel", n:"Oula Fuel Marketing Company K.S.C.P.", s:"consumer_disc", t:2, p:62, short:"Oula Fuel"},
   {id:"lst_gfh", n:"GFH Bank B.S.C.", s:"finance", t:2, p:60, short:"GFH Bank B.S.C."},
   {id:"lst_warbabank", n:"Warba Bank K.S.C.P.", s:"finance", t:2, p:60, short:"Warba Bank"},
   {id:"lst_stc", n:"Kuwait Telecommunications Company K.S.C.P. (stc)", s:"comm", t:2, p:60, short:"stc Kuwait"},

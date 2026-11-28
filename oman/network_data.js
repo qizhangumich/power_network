@@ -2242,6 +2242,10 @@ const PEOPLE = [
     ["vision_2040_unit","Deputy Head of the Oman Vision 2040 Implementation Support Unit","executive","v"]]},
   {id:"mustafa_bin_mohammed", n:"Mustafa bin Mohammed Al Hinai", t:2, p:60, s:"industry", roles:[
     ["mawarid_green","Chief Executive Officer","executive","v"]]},
+  {id:"ali_al_shihhi", n:"Ali al Shihhi", t:2, p:62, s:"health", roles:[
+    ["natl_vet_vaccines","Chairman","board","ns"]]},
+  {id:"nasser_bin_hamoud", n:"Nasser bin Hamoud Al Mabsali", t:2, p:58, s:"industry", roles:[
+    ["sur_industrial_city","Director General","executive","ns"]]},
 ];
 
 const OWNERSHIP = [

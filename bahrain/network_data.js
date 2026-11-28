@@ -1718,6 +1718,7 @@ const PEOPLE = [
   {id:"mohamed_sharif_ahmadi", n:"Mohamed Sharif Ahmadi", t:2, p:52, s:"consumer_disc", roles:[
     ["lst_ghg","Director","board","v"]]},
   {id:"zain_al_amer", n:"Zain Al Amer", t:2, p:52, s:"consumer_disc", roles:[
+    ["bahrain_golf_course","Board Member","board","v"],
     ["lst_ghg","Director","board","v"]]},
   {id:"fahad_kanoo", n:"Fahad Kanoo", t:2, p:52, s:"consumer_disc", roles:[
     ["kanoo_logistics","President, Kanoo Logistics","executive","v"],
@@ -2512,6 +2513,7 @@ const PEOPLE = [
   {id:"yousef_abdullah_humood", n:"Yousef Abdullah Humood", t:2, p:52, s:"finance", roles:[
     ["cbb","Board Member","board","v"]]},
   {id:"shaikha_mai_bint", n:"Shaikha Mai Bint Mohammed Al Khalifa", t:2, p:52, s:"finance", roles:[
+    ["arc_wh","Chairperson, Governing Board","board","v"],
     ["shaikh_ibrahim_ctr","Chairwoman of the Board of Trustees","board","v"],
     ["cbb","Board Member","board","v"]]},
   {id:"ahmed_mohamed_buhejji", n:"Ahmed Mohamed Buhejji", t:2, p:52, s:"finance", roles:[
@@ -3501,6 +3503,7 @@ const PEOPLE = [
   {id:"hessa_husain", n:"Hessa Husain", t:2, p:52, s:"tech", roles:[
     ["bfb","Board Member","board","v"]]},
   {id:"rashad_faraj", n:"Rashad Faraj", t:2, p:52, s:"tech", roles:[
+    ["arc_wh","Director","executive","v"],
     ["bfb","Board Member","board","v"]]},
   {id:"areije_al_shakar", n:"Areije Al Shakar", t:2, p:60, s:"tech", roles:[
     ["beventures","Chief Executive Officer","executive","v"]]},
@@ -3785,6 +3788,7 @@ const PEOPLE = [
   {id:"mohammed_jalal", n:"Mohammed Jalal", t:2, p:62, s:"conglomerate", roles:[
     ["jalal_sons","Chairperson","board","ns"]]},
   {id:"ebrahim_bin_humood", n:"Ebrahim bin Humood bin Ebrahim Al Khalifa", t:2, p:58, s:"gov", roles:[
+    ["arc_wh","Deputy Director","executive","v"],
     ["baca","Director of the Antiquities Directorate","executive","ns"]]},
   {id:"batool_abdulaziz_ali", n:"Batool Abdulaziz Ali Al Sheikh Ahmed", t:2, p:58, s:"gov", roles:[
     ["baca","Director of the Archaeological Sites Directorate","executive","v"]]},
@@ -3878,6 +3882,8 @@ const PEOPLE = [
     ["abc_islamic_bank","Director","board","v"]]},
   {id:"rida_gargab", n:"Rida Gargab", t:2, p:52, s:"finance", roles:[
     ["abc_islamic_bank","Director","board","v"]]},
+  {id:"sergio_martinez", n:"Sergio Martinez", t:2, p:60, s:"materials", roles:[
+    ["aleastur","Chief Executive Officer, ALEASTUR Group","executive","v"]]},
 ];
 
 const OWNERSHIP = [
