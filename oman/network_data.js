@@ -2240,6 +2240,8 @@ const PEOPLE = [
     ["lst_cmii","Director","board","v"]]},
   {id:"munther_bin_hilal_b", n:"Munther bin Hilal Al Busaidi", t:2, p:46, s:"gov", roles:[
     ["vision_2040_unit","Deputy Head of the Oman Vision 2040 Implementation Support Unit","executive","v"]]},
+  {id:"mustafa_bin_mohammed", n:"Mustafa bin Mohammed Al Hinai", t:2, p:60, s:"industry", roles:[
+    ["mawarid_green","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

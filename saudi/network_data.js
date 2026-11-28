@@ -601,6 +601,12 @@ const INSTITUTIONS = [
   {id:"makkah_chamber", n:"Makkah Chamber of Commerce and Industry", s:"gov", t:2, p:60, short:"Makkah Chamber"},
   {id:"eastern_province_chamber", n:"Eastern Province Chamber of Commerce and Industry", s:"gov", t:2, p:58, short:"Eastern Province Cha…"},
   {id:"madinah_chamber", n:"Madinah Chamber of Commerce and Industry", s:"gov", t:2, p:55, short:"Madinah Chamber"},
+  {id:"magrabi_hospitals", n:"Magrabi Hospitals and Centers", s:"health", t:3, p:56, short:"Magrabi Hospitals"},
+  {id:"andalusia_hosp", n:"Andalusia Hospitals Group", s:"health", t:3, p:54, short:"Andalusia Hosp"},
+  {id:"psau", n:"Prince Sattam bin Abdulaziz University", s:"education", t:2, p:58, short:"PSAU"},
+  {id:"al_arabiya", n:"Al Arabiya Network", s:"comm", t:2, p:64, short:"Al Arabiya"},
+  {id:"misk_foundation", n:"Misk Foundation", s:"education", t:2, p:60, short:"Misk Foundation"},
+  {id:"taif_university", n:"Taif University", s:"education", t:2, p:56, short:"Taif University"},
 ];
 
 const PEOPLE = [
@@ -2045,6 +2051,7 @@ const PEOPLE = [
   {id:"ammar_nagadi", n:"Ammar Nagadi", t:2, p:58, s:"gov", roles:[
     ["mep_sa","Vice Minister of Economy and Planning","executive","v"]]},
   {id:"mohammed_bin_salman", n:"Mohammed bin Salman Al Saud", t:2, p:62, s:"realestate", roles:[
+    ["misk_foundation","Founder & Chairman of the Board","board","v"],
     ["qiddiya_investment","Chairman, Prime Minister, Chairman of the Public Investment Fund","board","v"],
     ["rcrc","Chairman of the Board","board","v"],
     ["gami","Chairman of the Board","board","v"],
@@ -3371,6 +3378,7 @@ const PEOPLE = [
   {id:"yousef_a_alireza", n:"Yousef A. Alireza", t:2, p:52, s:"industry", roles:[
     ["xenel","Board Member","board","v"]]},
   {id:"mutasim_m_alireza", n:"Mutasim M. Alireza", t:2, p:52, s:"industry", roles:[
+    ["magrabi_hospitals","CEO","executive","ns"],
     ["xenel","Board Member","board","v"]]},
   {id:"aamer_a_alireza", n:"Aamer A. Alireza", t:2, p:62, s:"industry", roles:[
     ["xenel","Board Member & Executive Committee Chairman","board","v"]]},
@@ -4322,6 +4330,10 @@ const PEOPLE = [
     ["eastern_province_chamber","First Vice Chairman","board","ns"]]},
   {id:"mohammed_al_majdoui", n:"Mohammed Al-Majdoui", t:2, p:62, s:"gov", roles:[
     ["eastern_province_chamber","Second Vice Chairman","board","ns"]]},
+  {id:"abdullah_al_tamim", n:"Abdullah Al-Tamim", t:2, p:58, s:"education", roles:[
+    ["psau","President","executive","v"]]},
+  {id:"hazem_zagzoug", n:"Hazem Zagzoug", t:2, p:62, s:"health", roles:[
+    ["andalusia_hosp","Group CEO & Vice Chairman","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -4756,6 +4768,10 @@ const OWNERSHIP = [
   ["al_rajhi_capital","alrajhi","subsidiary of","v"],
   ["alinma_capital","lst_1150","subsidiary of","v"],
   ["adeera","pif","subsidiary","v"],
+  ["magrabi_hospitals","xenel","subsidiary of (via AMI Saudi Arabia)","v"],
+  ["psau","moe_sa","operates under","v"],
+  ["al_arabiya","mbcgroup","owned by","v"],
+  ["taif_university","moe_sa","operates under","v"],
 ];
 
 const FAMILY = [
@@ -4930,4 +4946,10 @@ const AKA = {
   makkah_chamber:["MCCI"],
   eastern_province_chamber:["Asharqia Chamber","EPCCI"],
   madinah_chamber:["Al Madinah Chamber"],
+  magrabi_hospitals:["MHC","Magrabi Health"],
+  andalusia_hosp:["Andalusia Group","Andalusia Health Group"],
+  psau:["Salman bin Abdulaziz University"],
+  al_arabiya:["Al Arabiya TV"],
+  misk_foundation:["MiSK","Mohammed bin Salman Foundation"],
+  taif_university:["TU"],
 };

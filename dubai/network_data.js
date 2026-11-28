@@ -290,6 +290,7 @@ const INSTITUTIONS = [
   {id:"dip", n:"DIP Holding", s:"realestate", t:2, p:58, short:"DIP Holding"},
   {id:"zand_bank", n:"Zand Bank", s:"finance", t:2, p:58, short:"Zand Bank"},
   {id:"beyond_developments", n:"BEYOND Developments", s:"realestate", t:3, p:54, short:"BEYOND Developments"},
+  {id:"trudoc", n:"TruDoc Healthcare", s:"health", t:3, p:52, short:"TruDoc"},
 ];
 
 const PEOPLE = [
@@ -3275,6 +3276,8 @@ const PEOPLE = [
     ["lst_airarabia","Independent Board Member","board","v"]]},
   {id:"amer_waleed_al", n:"Amer Waleed Al Zaabi", t:2, p:60, s:"realestate", roles:[
     ["tiger","Chief Executive Officer (Tiger Properties","executive","ns"]]},
+  {id:"tarek_turk", n:"Tarek Turk", t:2, p:60, s:"health", roles:[
+    ["trudoc","Chief Executive Officer","executive","ns"]]},
 ];
 
 const OWNERSHIP = [
@@ -3571,4 +3574,5 @@ const AKA = {
   emirates_reem_inv:["ERC","Emirates Refreshments"],
   dip:["DIP","Dubai Investments Park"],
   zand_bank:["Zand"],
+  trudoc:["TruDoc 24x7"],
 };

@@ -1794,6 +1794,20 @@ const PEOPLE = [
     ["uaq_execco","Secretary-General, Umm Al Quwain Executive Council","board","ns"]]},
   {id:"aisha_dimas", n:"Aisha Dimas", t:2, p:62, s:"gov", roles:[
     ["epaa","Chairperson, Environment and Protected Areas Authority","board","ns"]]},
+  {id:"naser_salem_obaid", n:"Naser Salem Obaid Muraddad", t:2, p:62, s:"gov", roles:[
+    ["rak_transport_auth","Chairman","board","v"]]},
+  {id:"yousef_mohamed_esmaeel", n:"Yousef Mohamed Esmaeel", t:2, p:62, s:"gov", roles:[
+    ["rak_transport_auth","Vice Chairman","board","v"]]},
+  {id:"mohammed_ali_abdullah", n:"Mohammed Ali Abdullah Al Sharhan", t:2, p:52, s:"gov", roles:[
+    ["rak_transport_auth","Board Member","board","v"]]},
+  {id:"saif_hamad_qadib", n:"Saif Hamad Qadib Al Zaabi", t:2, p:52, s:"gov", roles:[
+    ["rak_transport_auth","Board Member","board","v"]]},
+  {id:"hashem_ahmed_saeed", n:"Hashem Ahmed Saeed Al Mansoori", t:2, p:52, s:"gov", roles:[
+    ["rak_transport_auth","Board Member","board","v"]]},
+  {id:"ali_hasan_jakka", n:"Ali Hasan Jakka Al Mansoori", t:2, p:52, s:"gov", roles:[
+    ["rak_transport_auth","Board Member","board","v"]]},
+  {id:"seung_yong_jeong", n:"Seung-Yong Jeong", t:2, p:60, s:"health", roles:[
+    ["khalifa_hosp_rak","Chief Executive Officer","executive","v"]]},
 ];
 
 const OWNERSHIP = [

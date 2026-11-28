@@ -828,6 +828,7 @@ const PEOPLE = [
     ["abu_dhabi_chamber","Deputy Treasurer","board","v"],
     ["twofour54","Board Member","board","v"],
     ["twofour54","Managing Director & Group CEO","executive","v"],
+    ["trends_research","Board Member - Managing Director and Group CEO of ADNEC Group","board","v"],
     ]},
   {id:"lickrish", n:"John Lickrish", t:2, p:62, s:"comm", roles:[
     ["flash","CEO","executive","v"],
@@ -870,6 +871,7 @@ const PEOPLE = [
     ]},
   {id:"ebrahim_alhajri", n:"Dr. Ebrahim Saeed Al Hajri", t:2, p:62, s:"education", roles:[
     ["khalifa_u","President","executive","v"],
+    ["trends_research","Board Member - President of Khalifa University of Science and Technology","board","v"],
     ], note:"President of Khalifa University since July 2024"},
   {id:"fabio_piano", n:"Fabio Piano", t:2, p:62, s:"education", roles:[
     ["nyuad","Vice Chancellor","executive","v"],
@@ -1615,6 +1617,7 @@ const PEOPLE = [
     ]},
   {id:"rashed_al_qubaisi", n:"Rashed Al Qubaisi", t:2, p:58, s:"health", roles:[
     ["purehealth","Chief Operating Officer","executive","v"],
+    ["rafed","Chief Executive Officer (2020-2021)","executive","v","former:until 2021"],
     ]},
   {id:"abdel_kader_ahmed", n:"Abdel Kader Ahmed El Khatib", t:2, p:58, s:"health", roles:[
     ["purehealth","Chief Legal Officer & Board Secretary","executive","v"],
@@ -4179,6 +4182,7 @@ const PEOPLE = [
     ]},
   {id:"salem_saeed_al", n:"Salem Saeed Al Saeedi", t:2, p:58, s:"education", roles:[
     ["rabdan_academy","Vice President","executive","v"],
+    ["trends_research","Board Member - Vice President of Rabdan Academy","board","v"],
     ]},
   {id:"michael_simon_hindmarsh", n:"Michael Simon Hindmarsh", t:2, p:62, s:"education", roles:[
     ["rabdan_academy","Chairman of the Board of Trustees","board","v"],
@@ -4198,6 +4202,7 @@ const PEOPLE = [
     ]},
   {id:"faisal_al_ayyan", n:"Faisal Al Ayyan", t:2, p:60, s:"education", roles:[
     ["hct","President and CEO","executive","ns"],
+    ["trends_research","Board Member - President and CEO of Higher Colleges of Technology","board","v"],
     ]},
   {id:"kees_van_schaick", n:"Kees Van Schaick", t:2, p:60, s:"industry", roles:[
     ["wizz_air_ad","Managing Director","executive","ns"],
@@ -4230,6 +4235,7 @@ const PEOPLE = [
     ]},
   {id:"ali_saeed_bin", n:"Ali Saeed bin Harmal Al Dhaheri", t:2, p:62, s:"gov", roles:[
     ["abu_dhabi_chamber","First Vice Chairman","board","v"],
+    ["trends_research","Board Member - Chairman and Founder of Abu Dhabi University","board","v"],
     ]},
   {id:"khaled_abdulkarim_ismail", n:"Khaled Abdulkarim Ismail Al Fahim", t:2, p:52, s:"gov", roles:[
     ["abu_dhabi_chamber","Board Member","board","v"],
@@ -5206,6 +5212,51 @@ const PEOPLE = [
     ]},
   {id:"long_ruan", n:"Long Ruan", t:2, p:60, s:"tech", roles:[
     ["astra_tech","Co-Founder & Chief Technology Officer (served as interim CEO Nov 2024-2025)","executive","ns"],
+    ]},
+  {id:"abdulla_nasser_huwaileel", n:"Abdulla Nasser Huwaileel Al Mansoori", t:2, p:62, s:"industry", roles:[
+    ["al_nasser","Chairman of the Board","board","v"],
+    ]},
+  {id:"mohammed_alhassan", n:"Mohammed Alhassan", t:2, p:60, s:"finance", roles:[
+    ["gii","Co-Founder and Co-Chief Executive Officer; Board Member","executive","v"],
+    ]},
+  {id:"pankaj_gupta", n:"Pankaj Gupta", t:2, p:60, s:"finance", roles:[
+    ["gii","Co-Founder and Co-Chief Executive Officer","executive","v"],
+    ]},
+  {id:"saeed_saleh_al", n:"Saeed Saleh Al Ghamdi", t:2, p:52, s:"finance", roles:[
+    ["gii","Board Member - GII Holding LLC","board","v"],
+    ]},
+  {id:"fawaz_al_tamimi", n:"Fawaz Al Tamimi", t:2, p:62, s:"finance", roles:[
+    ["gii","Chairman of GII Saudi Arabia; Board Member GII Holding LLC","board","v"],
+    ]},
+  {id:"mohammed_salem_alsalmi", n:"Mohammed Salem Alsalmi", t:2, p:62, s:"gov", roles:[
+    ["trends_research","Chairman of the Board and Director General","board","v"],
+    ]},
+  {id:"mohammed_abdullah_al_b", n:"Mohammed Abdullah Al-Ali", t:2, p:60, s:"gov", roles:[
+    ["trends_research","Chief Executive Officer","executive","v"],
+    ]},
+  {id:"ammar_bin_naser", n:"Ammar Bin Naser Al Mualla", t:2, p:52, s:"gov", roles:[
+    ["trends_research","Board Member","board","v"],
+    ]},
+  {id:"saeed_khalfan_al", n:"Saeed Khalfan Al-Dhaheri", t:2, p:52, s:"gov", roles:[
+    ["trends_research","Board Member - Director of the Center for Future Studies at the University of Dubai","board","v"],
+    ]},
+  {id:"abdulla_majed_al", n:"Abdulla Majed Al Ali", t:2, p:52, s:"gov", roles:[
+    ["trends_research","Board Member - Director General of the National Library and Archives","board","v"],
+    ]},
+  {id:"mohammed_ahmed_al_b", n:"Mohammed Ahmed Al-Alawi Al-Dhahouri", t:2, p:52, s:"gov", roles:[
+    ["trends_research","Board Member","board","v"],
+    ]},
+  {id:"jasim_mohamed_alhosani", n:"Jasim Mohamed AlHosani", t:2, p:62, s:"gov", roles:[
+    ["trends_research","Board Member - Chairman Adviser at Department of Economic Development Abu Dhabi","board","v"],
+    ]},
+  {id:"marcelle_m_wahba", n:"Marcelle M. Wahba", t:2, p:52, s:"gov", roles:[
+    ["trends_research","Board Member","board","v"],
+    ]},
+  {id:"maryam_al_ketbi", n:"Maryam Al-Ketbi", t:2, p:62, s:"gov", roles:[
+    ["trends_research","Deputy Director General - Chairman's Office (Rapporteur)","executive","v"],
+    ]},
+  {id:"mohammad_mustafa_saeed", n:"Mohammad Mustafa Saeed", t:2, p:60, s:"health", roles:[
+    ["rafed","Chief Executive Officer","executive","ns"],
     ]},
 ];
 

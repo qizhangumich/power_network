@@ -1,7 +1,9 @@
 name,mentions,region_guess,status,first_seen,last_seen,sample_headline
-Gujarat Energy,18,abudhabi,rejected,2026-11-06,2026-11-13,"Gujarat Energy LNG: 4m Tonnes, ADNOC"
-ADNOC Logistics,9,abudhabi,rejected,2026-11-06,2026-11-12,Earnings call transcript: ADNOC Logistics & Services posts record Q3 2026
+ATL Partners,2,abudhabi,pending,2026-11-23,2026-11-27,ATL Partners Completes Recapitalisation of Arrive Logistics Stake with Mubadala Capital
+Asian Power,2,abudhabi,pending,2026-11-25,2026-11-27,Masdar triumphs at Asian Power Awards 2026
+ADNOC Logistics,8,abudhabi,rejected,2026-11-10,2026-11-12,Earnings call transcript: ADNOC Logistics & Services posts record Q3 2026
 Man City,7,abudhabi,rejected,2026-08-25,2026-09-09,Stefan Borson furious as Man City's 115 charges to 'go on for years and years'
+Gujarat Energy,5,abudhabi,rejected,2026-11-07,2026-11-13,"Gujarat Energy LNG: 4m Tonnes, ADNOC"
 Terrestar Solutions,5,abudhabi,rejected,2026-10-28,2026-10-28,"Terrestar Solutions joins with Equatys, expanding shared satellite infrastructure for global direct-to-device and advanced MSS connectivity "
 Taweelah C Power,4,abudhabi,rejected,2026-11-23,2026-11-24,Financial Close Achieved for AED 7.76 Billion Taweelah C Power Plant
 Abu Dhabi Investment,4,abudhabi,rejected,2026-09-28,2026-10-11,A subsidiary holds the shares behind Abu Dhabi Investment Authority’s Eikon Therapeutics (EIKN) stake.
@@ -9,7 +11,6 @@ Than Financial,4,abudhabi,rejected,2026-09-26,2026-09-26,Man City chairman Khald
 Airport and King Khalid International Airport,4,saudi,rejected,2026-10-08,2026-10-08,text-parsing fragment of two headline-adjacent airport names
 Hamad University for Military and Technology,4,qatar,rejected,2026-09-29,2026-09-30,"HH the Amir Issues Amiri Decision Establishing, Organizing Tamim bin Hamad University for Military and Technology Sciences"
 CENTERBRIDGE PARTNERS,3,abudhabi,rejected,2026-11-15,2026-11-16,"CANACCORD GENUITY GROUP INC. ANNOUNCES SALE OF ITS WEALTH MANAGEMENT BUSINESS IN THE UK & CROWN DEPENDENCIES TO CENTERBRIDGE PARTNERS, L.P. "
-Singapore Airlines Group,3,qatar,rejected,2026-11-06,2026-11-12,Singapore Airlines unveils world's largest inflight bed3m read
 Riyadh Financial,3,saudi,rejected,2026-11-19,2026-11-24,11 Injured in Houthi attack on Riyadh Financial District Tower
 Undersecretary of Ministry,3,qatar,rejected,2026-11-15,2026-11-23,Undersecretary of Ministry of Interior meets Cypriot Ambassador
 Council of Asia,3,qatar,rejected,2026-11-20,2026-11-21,Acting President of Venezuela Meets President of Olympic Council of Asia
@@ -29,7 +30,6 @@ Dubai Healthcare City,3,dubai,added,2026-09-10,2026-09-11,"Dubai Healthcare City
 SNB Capital,3,saudi,added,2026-09-03,2026-09-05,SNB Capital North America Index Fund
 Riyadh Airport,2,saudi,rejected,2026-11-15,2026-11-22,Riyadh Airport updates: Qatar Airways resumes operations while five airlines extend cancellations
 Rock Creek Tennis Center,2,abudhabi,rejected,2026-11-19,2026-11-19,Mubadala D.C. Open Chairman Secures 60-Year Lease on Rock Creek Tennis Center
-Offshore Energy,2,abudhabi,rejected,2026-11-06,2026-11-11,ADNOC widens its Asian footprint with decade-long LNG offtake deal
 Canadian Finance,2,abudhabi,rejected,2026-11-25,2026-11-25,Canadian Finance Minister says his country and the UAE are 'open for business'
 Mubadala And Centerbridge Partners,2,abudhabi,rejected,2026-11-16,2026-11-17,Mubadala And Centerbridge Partners To Acquire Canaccord Genuity's UK Wealth Management Business
 Logistics Real Estate Sector Logistics,2,abudhabi,rejected,2026-11-10,2026-11-10,Meet the panel: The Next Era of the GCC’s Logistics Real Estate Sector
@@ -39,13 +39,13 @@ Siemens Energy,2,bahrain,rejected,2026-11-08,2026-11-13,Siemens Energy redesigns
 Hull City,2,oman,rejected,2026-11-07,2026-11-08,Arsenal equal best start to Premier League season after Martin Odegaard goal earns win over Hull City
 Deutsche Bank,2,qatar,rejected,2026-11-18,2026-11-19,"Deutsche Bank leak: What was exposed, and who’s probing2h ago3m read"
 Zam Elect Properties,2,,rejected,2026-11-21,2026-11-22,4.Zam Elect Properties wins Top Property Seller Award 2026 from Shah Rukh Khan
+Singapore Airlines Group,2,qatar,rejected,2026-11-07,2026-11-12,Singapore Airlines unveils world's largest inflight bed3m read
 Quality Infrastructure for Sustainable Development,2,oman,rejected,2026-11-12,2026-11-13,Oman climbs seven places in 2026 Quality Infrastructure for Sustainable Development Index
 Hawiyat Najm Park,2,oman,rejected,2026-11-11,2026-11-12,Work progressing well at Hawiyat Najm Park project
 Hamad International Airport,2,qatar,rejected,2026-11-08,2026-11-10,Hamad International Airport and Doha Film Institute bring 'Made in Qatar' stories to the terminal
 Volkswagen Group,2,qatar,rejected,2026-11-21,2026-11-21,"Volkswagen Group hails Qatar as trusted long-term partner, sees scope for deeper cooperation"
 President of Olympic Council,2,qatar,rejected,2026-11-20,2026-11-21,Acting President of Venezuela Meets President of Olympic Council of Asia
 Communications and Information Technology,2,qatar,rejected,2026-11-12,2026-11-12,Minister of Communications and Information Technology Holds Bilateral Meetings on Sidelines of ITU Plenipotentiary Conference
-British Airways,2,qatar,rejected,2026-11-06,2026-11-13,British Airways parent profit drops on higher fuel costs
 Aker Solutions,2,qatar,rejected,2026-11-08,2026-11-10,Aker Solutions secures engineering contract for Qatar’s Maydan Mahzam redevelopment
 TAQA Petroleum,2,abudhabi,rejected,2026-11-05,2026-11-05,Shell Lubricants Egypt Signs Partnership with TAQA Petroleum to Expand Nationwide Distribution
 Bank of England,2,qatar,rejected,2026-11-05,2026-11-05,Bank of England lifts rate for first time since 2023 to fight inflation
@@ -169,6 +169,7 @@ Axelerated Solutions,2,saudi,added,2026-09-03,2026-09-03,Axelerated Solutions to
 Fakhruddin Properties,2,dubai,added,2026-09-08,2026-09-10,Fakhruddin Properties unveils 463-unit premier mixed-use project in Dubai
 Saudi Investment Bank,2,saudi,rejected,2026-09-03,2026-09-04,Saudi Investment Bank to exit AmEx Saudi Arabia via $381mln stake sale
 BlueFive Capital,2,abudhabi,added,2026-09-11,2026-09-12,Abu Dhabi’s BlueFive Capital acquires 30% stake in supercar producer Bugatti Rimac
+Offshore Energy,1,abudhabi,rejected,2026-11-11,2026-11-11,ADNOC widens its Asian footprint with decade-long LNG offtake deal
 Space42 and IEC Telecom,1,abudhabi,rejected,2026-11-16,2026-11-16,Space42 and IEC Telecom open a new chapter for L-band
 I Squared Capital,1,abudhabi,rejected,2026-11-09,2026-11-09,"Avolon, I Squared Capital and ADIA launch aircraft leasing and infrastructure investment platform"
 Briefs Finance,1,abudhabi,rejected,2026-11-13,2026-11-13,Adnoc in talks to route more offshore crude to traders in 2027
@@ -179,16 +180,17 @@ ADNOC Partners,1,abudhabi,rejected,2026-11-16,2026-11-16,ADNOC Partners With Ope
 Riviera Maritime Media,1,abudhabi,rejected,2026-11-09,2026-11-09,ADNOC approaches LNG carrier owners for premium Gulf bareboat charter deals
 Port of Salalah,1,oman,rejected,2026-11-12,2026-11-12,Port of Salalah container volumes rise 18% in nine months
 Municipal Council,1,oman,rejected,2026-11-15,2026-11-15,Contract signed to provide technical services for Municipal Council elections
-Navi Mumbai Airport,1,oman,rejected,2026-11-06,2026-11-06,Shift to Navi Mumbai Airport from Muscat: Higher costs for some travelers
 Commerce Ministry,1,oman,rejected,2026-11-19,2026-11-19,"ROP, Commerce Ministry issue public and commercial guidelines ahead of National Day"
 Qatar Financial,1,qatar,rejected,2026-11-23,2026-11-23,Court affirms Qatar Financial Markets Authority's power to approve board candidate lists
-Bank of England Governor,1,qatar,rejected,2026-11-06,2026-11-06,QCB Governor meets Bank of England Governor
 Mexico City,1,qatar,rejected,2026-11-18,2026-11-18,Years of Culture and JEDARIART Bring Qatari Artist Huda Basahal to Mexico City for New Public Mural
 Mekdam Holding,1,qatar,rejected,2026-11-13,2026-11-13,"Mekdam Holding, MEEZA and Quandela sign MoU to accelerate quantum computing deployment across Gulf"
 Meteorology Department,1,qatar,rejected,2026-11-20,2026-11-20,Meteorology Department warns of poor horizontal visibility today
 German Press Agency,1,qatar,rejected,2026-11-10,2026-11-10,German Press Agency opens office at Media City Qatar
 HRSD Ministry,1,saudi,rejected,2026-11-07,2026-11-07,Naseej Tech pens SAR 11M contract with HRSD Ministry
 Avalon Pharma,1,saudi,rejected,2026-11-13,2026-11-13,Avalon Pharma maintains 2026 targets
+British Airways,1,bahrain,rejected,2026-11-13,2026-11-13,British Airways plane’s tail strikes runway during landing
+Navi Mumbai Airport,1,oman,rejected,2026-11-06,2026-11-06,Shift to Navi Mumbai Airport from Muscat: Higher costs for some travelers
+Bank of England Governor,1,qatar,rejected,2026-11-06,2026-11-06,QCB Governor meets Bank of England Governor
 Social Development,1,oman,rejected,2026-11-05,2026-11-05,GUtech Launches the Uniquely Abled Academy Under the Patronage of the Minister of Social Development
 Awqaf Ministry,1,qatar,rejected,2026-11-04,2026-11-04,Awqaf Ministry issues statement on Istisqa prayer in Qatar
 EXCLUSIVEMoon World Resorts,1,,rejected,2026-11-03,2026-11-03,EXCLUSIVEMoon World Resorts signs Artemis II’s Jeremy Hansen3m read

@@ -272,6 +272,11 @@ const INSTITUTIONS = [
   {id:"lusail_real_estate", n:"Lusail Real Estate Development Company", s:"realestate", t:2, p:56, short:"Lusail Real Estate"},
   {id:"ras_bufontas_fz", n:"Ras Bufontas Free Zone", s:"gov", t:2, p:56, short:"Ras Bufontas FZ"},
   {id:"umm_alhoul_fz", n:"Umm Alhoul Free Zone", s:"gov", t:2, p:56, short:"Umm Alhoul FZ"},
+  {id:"vcuarts_qatar", n:"VCUarts Qatar", s:"education", t:3, p:54, short:"VCUarts Qatar"},
+  {id:"hec_paris_qatar", n:"HEC Paris in Qatar", s:"education", t:3, p:54, short:"HEC Paris Qatar"},
+  {id:"cmu_qatar", n:"Carnegie Mellon University in Qatar", s:"education", t:3, p:56, short:"CMU Qatar"},
+  {id:"lusail_university", n:"Lusail University", s:"education", t:3, p:54, short:"Lusail University"},
+  {id:"difi", n:"Doha International Family Institute", s:"gov", t:3, p:54, short:"DIFI"},
 ];
 
 const PEOPLE = [
@@ -2682,6 +2687,14 @@ const PEOPLE = [
     ["hia","Vice President Commercial","executive","ns"]]},
   {id:"sheikh_fahad_bin_b_b_b", n:"Sheikh Fahad bin Hamad bin Saud Al Abdulrahman Al Thani", t:2, p:58, s:"gov", roles:[
     ["state_audit_bureau","Deputy President of the State Audit Bureau (appointed by Amiri Decree No. 51 of 2021)","executive","v"]]},
+  {id:"amir_berbi", n:"Amir Berbić", t:2, p:58, s:"education", roles:[
+    ["vcuarts_qatar","Dean","executive","v"]]},
+  {id:"michael_trick", n:"Michael Trick", t:2, p:58, s:"education", roles:[
+    ["cmu_qatar","Dean","executive","v"]]},
+  {id:"pablo_martin_de", n:"Pablo Martin de Holan", t:2, p:58, s:"education", roles:[
+    ["hec_paris_qatar","Dean","executive","ns"]]},
+  {id:"nitham_hindi", n:"Nitham Hindi", t:2, p:58, s:"education", roles:[
+    ["lusail_university","President","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2836,6 +2849,10 @@ const OWNERSHIP = [
   ["lusail_real_estate","qatariddiar","subsidiary of","ns"],
   ["ras_bufontas_fz","qfz","operated by","v"],
   ["umm_alhoul_fz","qfz","operated by","ns"],
+  ["vcuarts_qatar","qf","branch campus under","v"],
+  ["hec_paris_qatar","qf","branch campus under","v"],
+  ["cmu_qatar","qf","branch campus under","v"],
+  ["difi","qf","member institution of","v"],
 ];
 
 const FAMILY = [
@@ -2955,4 +2972,8 @@ const AKA = {
   state_audit_bureau:["SAB","Diwan al-Muhasaba"],
   qrdi_council:["QRDI"],
   lusail_real_estate:["LREDC"],
+  vcuarts_qatar:["Virginia Commonwealth University Qatar","VCU Qatar"],
+  hec_paris_qatar:["HEC Qatar"],
+  cmu_qatar:["CMU-Q"],
+  lusail_university:["LU"],
 };

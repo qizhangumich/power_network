@@ -3870,6 +3870,14 @@ const PEOPLE = [
     ["national_guard","Commander of the National Guard","board","ns"]]},
   {id:"ali_bin_fadhul", n:"Ali bin Fadhul Al Buainain", t:2, p:52, s:"gov", roles:[
     ["public_prosecution","Attorney General","board","ns"]]},
+  {id:"amr_elnokaly", n:"Amr ElNokaly", t:2, p:62, s:"finance", roles:[
+    ["abc_islamic_bank","Chairman","board","v"]]},
+  {id:"nadir_aziz_shaikh", n:"Nadir Aziz Shaikh", t:2, p:52, s:"finance", roles:[
+    ["abc_islamic_bank","Director","board","v"]]},
+  {id:"abhijit_choudhury", n:"Abhijit Choudhury", t:2, p:52, s:"finance", roles:[
+    ["abc_islamic_bank","Director","board","v"]]},
+  {id:"rida_gargab", n:"Rida Gargab", t:2, p:52, s:"finance", roles:[
+    ["abc_islamic_bank","Director","board","v"]]},
 ];
 
 const OWNERSHIP = [

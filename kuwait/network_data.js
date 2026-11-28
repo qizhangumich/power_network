@@ -285,6 +285,7 @@ const INSTITUTIONS = [
   {id:"public_auth_sport", n:"Public Authority for Sport", s:"gov", t:3, p:54, short:"Public Auth. Sport"},
   {id:"ossc", n:"Oil Sector Services Company", s:"industry", t:3, p:50, short:"OSSC"},
   {id:"odc", n:"Oil Development Company", s:"energy", t:3, p:52, short:"ODC"},
+  {id:"dhaman", n:"Health Assurance Hospitals Company (Dhaman)", s:"health", t:2, p:58, short:"Dhaman"},
 ];
 
 const PEOPLE = [
@@ -501,6 +502,7 @@ const PEOPLE = [
   {id:"mohammad_khalifa_al", n:"Mohammad Khalifa Al-AbdulJaleel", t:2, p:60, s:"energy", roles:[
     ["koc","Deputy CEO - Planning & Innovation","executive","v"]]},
   {id:"waleed_khaled_al", n:"Waleed Khaled Al-Rubaian", t:2, p:60, s:"energy", roles:[
+    ["lst_oulafuel","Board Member","board","v"],
     ["koc","Deputy CEO - Admin & Finance","executive","v"]]},
   {id:"fuad_mohammad_al", n:"Fuad Mohammad Al-Shaikh", t:2, p:60, s:"energy", roles:[
     ["koc","Deputy CEO - South & East Kuwait","executive","v"]]},
@@ -2356,6 +2358,7 @@ const PEOPLE = [
   {id:"khaled_jassim_almudhaf", n:"Khaled Jassim AlMudhaf", t:2, p:58, s:"sovereign", roles:[
     ["pifss","Acting Director General","executive","v"]]},
   {id:"khaled_amer_alajmi", n:"Khaled Amer AlAjmi", t:2, p:62, s:"sovereign", roles:[
+    ["min_social_affairs","Undersecretary of Social Affairs","executive","ns"],
     ["pifss","Board Member; Chairman, Audit and Risk Committee","board","v"]]},
   {id:"khaled_yousef_alhajri", n:"Khaled Yousef AlHajri", t:2, p:62, s:"sovereign", roles:[
     ["pifss","Vice Chairman, Investment Committee","board","v"]]},
@@ -2415,6 +2418,36 @@ const PEOPLE = [
     ["lst_gfh","Member, Board of Directors","board","v"]]},
   {id:"abdulaziz_abdulhamid_albassa", n:"Abdulaziz Abdulhamid AlBassam", t:2, p:52, s:"finance", roles:[
     ["lst_gfh","Member, Board of Directors","board","v"]]},
+  {id:"abdulaziz_mohammed_al", n:"Abdulaziz Mohammed Al-Attal", t:2, p:62, s:"consumer_disc", roles:[
+    ["lst_oulafuel","Chairman","board","v"]]},
+  {id:"zaid_aqab_al", n:"Zaid Aqab Al-Khatib", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_oulafuel","Board Member","board","v"]]},
+  {id:"fatima_ahmad_al_b", n:"Fatima Ahmad Al-Humaidan", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_oulafuel","Board Member","board","v"]]},
+  {id:"hashem_samir_behbehani", n:"Hashem Samir Behbehani", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_oulafuel","Board Member","board","v"]]},
+  {id:"ali_ahmed_al", n:"Ali Ahmed Al-Amerri", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_oulafuel","Board Member","board","v"]]},
+  {id:"saad_ahmed_maarefi", n:"Saad Ahmed Maarefi", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_oulafuel","Board Member","board","v"]]},
+  {id:"waleed_khaled_mandani", n:"Waleed Khaled Mandani", t:2, p:52, s:"consumer_disc", roles:[
+    ["lst_oulafuel","Board Member","board","v"]]},
+  {id:"sanjay_b_tari", n:"Sanjay B Tari", t:2, p:58, s:"consumer_disc", roles:[
+    ["lst_oulafuel","Chief Financial Officer","executive","v"]]},
+  {id:"amr_abdul_samad", n:"Amr Abdul Samad", t:2, p:58, s:"consumer_disc", roles:[
+    ["lst_oulafuel","Investor Relations Officer","executive","v"]]},
+  {id:"ibrahim_ali_mohamed", n:"Ibrahim Ali Mohamed Qurneh", t:2, p:60, s:"finance", roles:[
+    ["lst_kmefic","Chief Executive Officer","executive","v"]]},
+  {id:"yahya_mohammed_el", n:"Yahya Mohammed El-Roby", t:2, p:46, s:"finance", roles:[
+    ["lst_kmefic","Senior Executive - Head of Central Operations Department","executive","v"]]},
+  {id:"medhat_kamel_abd", n:"Medhat Kamel Abd Elmasih", t:2, p:58, s:"finance", roles:[
+    ["lst_kmefic","Executive Vice President - Finance Division","executive","v"]]},
+  {id:"saleh_al_ghul", n:"Saleh Al-Ghul", t:2, p:46, s:"finance", roles:[
+    ["lst_kmefic","Head of Risk Management Division","executive","v"]]},
+  {id:"john_zakaria_habib", n:"John Zakaria Habib", t:2, p:58, s:"finance", roles:[
+    ["lst_kmefic","Manager - Compliance Division","executive","v"]]},
+  {id:"tariq_mansour_al", n:"Tariq Mansour Al-Mutairi", t:2, p:60, s:"finance", roles:[
+    ["lst_kmefic","Deputy Chief Executive Officer - Customer Services","executive","v"]]},
 ];
 
 const OWNERSHIP = [
@@ -2606,6 +2639,7 @@ const OWNERSHIP = [
   ["boubyan_takaful","lst_boubyan","subsidiary of","v"],
   ["ossc","kpc","subsidiary of","ns"],
   ["odc","kpc","subsidiary of","ns"],
+  ["dhaman","moh_kuwait","public-private partnership with","v"],
 ];
 
 const FAMILY = [
@@ -2682,4 +2716,5 @@ const AKA = {
   min_social_affairs:["MOSAL","Ministry of Social Affairs and Labour"],
   min_awqaf_affairs:["MOIAI"],
   public_auth_sport:["PAS","Public Authority for Youth and Sport"],
+  dhaman:["DHAMAN"],
 };
