@@ -1,0 +1,5 @@
+# Etihad updates Saudi Arabia flights; select services return
+source: Gulf News
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ01zXzJtangtS3ppeVBLaF8xb0ZUTEd2T0VXY05uQlkyZ3F5T0h3SElTbkcwZmF6azhMTXc2OUhlemVFUWpydHdqNEtjMTZtVkN2bm45US1BLXlycUQ1QXkyX09WNFpTRTF6TWFBQ2d3NDh2OVdhOFJwcTZxMHRnZHNfeVQteTVqRkhLazhLbjVUTTNQbDBtN0NFQmFxOHhNZVZpT2diM1N6SjNpNWNlMGhESU1sSW8?oc=5
+
+Etihad updates Saudi Arabia flights; select services return    Gulf News

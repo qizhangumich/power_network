@@ -1,0 +1,5 @@
+# Etihad launches Maldives travel partnership allowing passengers to redeem miles on island flights
+source: Arabian Business
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdlBkT0R6MG8zQVFrNmo1N015Z3JoQXVzenp3by1vVEQ5dGNWb0dZWmNxQ19MRkNjWEx0MjdEWHZ2NEN4NmFSb2Y3bW5NQXhNZWR1bTZCQXNMUndwek5la1VPWUhaWmFvSkhPU0ZTY2c0YzYzcU9pNmtJOGdjLS1WdTRxNnAtbzBsTV9HVFIxMFZYU0lMSHlPR2Zlb3NOS0NLN2stTXJYcjFJUzAtbVZva0RUakFnNHFhZ3dWRjFRZTJCaFUydENUTmJVRGdjRm1YVHc?oc=5
+
+Etihad launches Maldives travel partnership allowing passengers to redeem miles on island flights    Arabian Business

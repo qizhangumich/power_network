@@ -1,0 +1,5 @@
+# Etihad Airways flights cancelled from Abu Dhabi to Dammam and Riyadh extended until December 31
+source: صوت الإمارات
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMXhfcTlCVkhzNFRyU2ttMGxabW04ZUszLXhBOWhueUtrRUNRYjNnQnZORGNFNUQ4S1lPZWNzdVNaZ0xEZXRhcWNNRUV0am9OVnV2bUlodlNhSEE0MkQ0Z3BRMmVxQ2N1UmN1Yy1rQlF3TXl0cko4T3hUd0k4UklFNGV2Ni0wUjQxTzlBSDczZ1dVUDhrUkl4MUJ6bUlGRGRrUUJZVEpPZFNSNXRMd09qRjRBT2V2cHNHdHd4SXpuQ3hyX1lyX0xTX0diRXkwWEswdmhwLUx0a1JmbHJYdThVbQ?oc=5
+
+Etihad Airways flights cancelled from Abu Dhabi to Dammam and Riyadh extended until December 31    صوت الإمارات
